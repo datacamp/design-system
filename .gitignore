@@ -2,6 +2,7 @@ node_modules
 .sass-cache
 package
 .vscode/settings.json
+build
 
 # always ignore
 *.diff
