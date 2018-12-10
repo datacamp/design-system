@@ -32,6 +32,8 @@
     "babel-core": "^6.26.2",
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
+    "cz-lerna-changelog": "^2.0.1",
+    "lerna": "^3.6.0",
     "raw-loader": "0.5.1"
   },
   "dependencies": {
@@ -40,9 +42,14 @@
     "react": "^16.6.3",
     "react-dom": "^16.6.3"
   },
-  "browserlist": [
+  "browserslist": [
     "last 2 versions",
     "Firefox ESR",
     "not IE < 11"
-  ]
+  ],
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-lerna-changelog"
+    }
+  }
 }
