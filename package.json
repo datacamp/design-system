@@ -1,13 +1,45 @@
 {
   "name": "waffles",
-  "description": "",
+  "homepage": "https://github.com/datacamp/design-system",
+  "description": "The DataCamp design system.",
+  "keywords": [
+    "design system",
+    "style guide",
+    "catalog",
+    "react",
+    "javascript",
+    "react",
+    "sass",
+    "webpack",
+    "components"
+  ],
+  "version": "0.1.0",
+  "license": "UNLICENSED",
+  "private": true,
+  "author": "DataCamp",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/datacamp/design-system.git"
+  },
+  "main": "catalog/index.js",
+  "scripts": {
+    "catalog-start": "catalog start",
+    "catalog-build": "catalog build"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.2",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "raw-loader": "0.5.1"
+  },
   "dependencies": {
     "catalog": "^3.0.0-rc.4",
     "react": "^16.6.3",
     "react-dom": "^16.6.3"
   },
-  "scripts": {
-    "catalog-start": "catalog start",
-    "catalog-build": "catalog build"
-  }
+  "browserlist": [
+    "last 2 versions",
+    "Firefox ESR",
+    "not IE < 11"
+  ]
 }
