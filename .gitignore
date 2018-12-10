@@ -1,0 +1,14 @@
+node_modules
+.sass-cache
+package
+.vscode/settings.json
+
+# always ignore
+*.diff
+*.err
+*.log
+.project
+.settings
+.eslintcache
+.DS_Store
+Thumbs.db
