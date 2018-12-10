@@ -1,0 +1,21 @@
+// *************************************
+//
+//   Design 
+//   -> All of the styles in the design portion of the Design System
+//
+// *************************************
+
+// -------------------------------------
+//   Globals
+// -------------------------------------
+
+@import 'design/dc-vendor';
+@import 'design/dc-globals.scss';
+@import 'design/dc-mixins.scss';
+@import 'design/dc-utilities.scss';
+
+// -------------------------------------
+//   Sections
+// -------------------------------------
+
+@import 'design/dc-section-example';
