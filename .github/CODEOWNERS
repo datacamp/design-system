@@ -1,0 +1,9 @@
+# Lines starting with '#' are comments.
+# Each line is a file pattern followed by one or more owners,
+# the last matching pattern has the most precendence.
+
+# see: https://github.com/blog/2392-introducing-code-owners
+# currently we don't break owners down by type/folder
+
+# global repo owners
+* @dandenney @jordanwade @aaronbates
