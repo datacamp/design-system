@@ -1,8 +1,8 @@
 {
-  "name": "@datacamp/waffles-core",
+  "name": "@datacamp/waffles-styles",
   "version": "0.0.0",
-  "description": "Core tokens for DataCamp Design System",
-  "main": "index.js",
+  "description": "Design System styles",
+  "main": "ingredients.scss",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

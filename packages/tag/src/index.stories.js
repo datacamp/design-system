@@ -7,7 +7,7 @@ import readme from '../README.md';
 
 import Tag from './index';
 
-import { getColor } from '@datacamp/dc-design-system-core/colors';
+import { getColor } from '@datacamp/waffles-core/colors';
 
 const renderTable = (elements, { showDarkBackground = false } = {}) => (
   <table style={{ width: 'auto', margin: '0 auto' }}>
@@ -15,11 +15,11 @@ const renderTable = (elements, { showDarkBackground = false } = {}) => (
       {elements.map(([color, props]) => (
         <tr key={color}>
           <td>{color}</td>
-          <td>
+          <td style={{ padding: '10px' }}>
             <Tag {...props}>50XP</Tag>
           </td>
           {showDarkBackground && (
-            <td style={{ background: '#f0f4f5' }}>
+            <td style={{ background: '#f0f4f5', padding: '10px' }}>
               <Tag {...props}>50XP</Tag>
             </td>
           )}

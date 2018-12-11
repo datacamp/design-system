@@ -1,0 +1,102 @@
+// *************************************
+//
+// Tag
+//
+// -------------------------------------
+// Template
+// -------------------------------------
+//
+// .dc-tag
+//   .dc-tag__close (optional)
+//
+// *************************************
+
+.dc-tag {
+  align-items: center;
+  background-color: $dc-primary-lightest;
+  border: 1px solid $dc-grey-lighter;
+  border-radius: 12px;
+  display: inline-flex;
+  font-size: $dc-font-size-micro;
+  font-weight: $dc-font-weight-bold;
+  letter-spacing: 0.6px; // 1@16px->0.8@14px->0.6@12px
+  line-height: 1;
+  padding: 5px 11px; // +1px border
+  position: relative;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+// -------------------------------------
+// Close
+// -------------------------------------
+
+.dc-tag__close {
+  background-color: $dc-white;
+  border-radius: 50%;
+  color: $dc-primary;
+  cursor: pointer;
+  font-size: 8px;
+  line-height: 0;
+  padding: 4px;
+  position: absolute;
+  right: -6px;
+  top: -6px;
+
+  .dc-icon {
+    height: 8px;
+    width: 8px;
+  }
+}
+
+// -------------------------------------
+// Modifiers
+// -------------------------------------
+
+// ----- Link ----- //
+
+.dc-tag--link {
+  @include afh {
+    background-color: $dc-primary;
+    border-color: $dc-primary;
+    color: $dc-white;
+    cursor: pointer;
+  }
+}
+
+// ----- Hue ----- //
+
+.dc-tag--hue {
+  border: 0;
+  color: $dc-white;
+  padding: 6px 12px;
+
+  &:not(:first-of-type) {
+    margin-left: 8px;
+  }
+}
+
+// TODO: replace usage of these with matching .dc-u-bgc-{color} utility classes
+
+// ----- Colors ----- //
+
+.dc-tag--green {
+  background-color: $dc-green;
+}
+
+.dc-tag--primary-light {
+  background-color: $dc-primary-light;
+}
+
+.dc-tag--secondary {
+  background-color: $dc-secondary;
+}
+
+.dc-tag--red {
+  background-color: $dc-red;
+}
+
+.dc-tag--white {
+  background-color: $dc-white;
+  color: $dc-grey-dark;
+}

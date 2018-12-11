@@ -6,27 +6,12 @@ import styled from 'styled-components';
 
 import './index.css';
 
-import {
-  getColor,
-  getContrastColor,
-} from '@datacamp/dc-design-system-core/colors';
+import { getColor, getContrastColor } from '@datacamp/waffles-core/colors';
 
 const Tag = ({ color, children, extraClass, rounded, textColor }) => {
   const Tag = styled.div`
     background-color: ${getColor(color) || getColor('primaryLightest')};
     color: ${getContrastColor(color)};
-    align-items: center;
-    border-radius: 12px;
-    border: 1px solid $dc-grey-lighter;
-    display: inline-flex;
-    font-size: $dc-font-size-micro;
-    font-weight: $dc-font-weight-bold;
-    letter-spacing: 0.6px;
-    line-height: 1;
-    padding: 5px 11px;
-    position: relative;
-    text-transform: uppercase;
-    white-space: nowrap;
   `;
 
   return (
