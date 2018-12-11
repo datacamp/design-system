@@ -1,13 +1,13 @@
-import React from 'react'
-import ReactDOM from 'react-dom'
-import { Catalog } from 'catalog'
-import pages from './config/pages'
-import { logoSrc, theme, responsiveSizes } from './config/theme'
-import './build/static/ingredients.css';
+import React from 'react';
+import ReactDOM from 'react-dom';
+import { Catalog } from 'catalog';
+import pages from './config/pages';
+import { logoSrc, theme, responsiveSizes } from './config/theme';
+import "../packages/core/scss/ingredients.scss";
 
-const styles = []
-const scripts = []
-const imports = []
+const styles = [];
+const scripts = [];
+const imports = [];
 
 const config = {
   title: 'DataCamp Waffles',
@@ -18,10 +18,7 @@ const config = {
   // logoSrc,
   theme,
   responsiveSizes,
-  pages
-}
+  pages,
+};
 
-ReactDOM.render(
-  <Catalog {...config} />,
-  document.getElementById('catalog')
-)
+ReactDOM.render(<Catalog {...config} />, document.getElementById('catalog'));
