@@ -1,0 +1,25 @@
+/**
+* Shim link
+*
+* The purpose of a shim is to cover the entire parent to create a
+* clickable area that's the same size. This is an alternative solution
+* to nesting all contents inside a hyperlink because that might
+* affect styling in ways we don't want.
+* Note: don't forget to add relative positioning to the parent.
+*/
+.shim {
+  border: 0;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.has-shim {
+  position: relative;
+}
+
+.has-shim a:not(.shim) {
+  z-index: 20;
+}

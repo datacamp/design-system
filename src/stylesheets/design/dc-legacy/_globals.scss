@@ -1,0 +1,79 @@
+// *********************************
+//
+// Globals
+//
+// *********************************
+/* stylelint-disable */
+
+// ----- Colors ----- //
+
+// @sass-export-section="colors"
+$primary-darkest: #002b36; // TODO: $dc-primary-darkest
+$primary-darker: #104a5b; // TODO: $dc-primary-darker
+$primary-dark: #195a72; // TODO: $dc-primary-dark
+$primary: #3ac; // TODO: $dc-primary
+$primary-light: #7ecce2; // TODO: $dc-primary-light
+$primary-lighter: #d5eaef; // TODO: $dc-primary-lighter
+$primary-lightest: #ebf4f7; // TODO: $dc-primary-lightest
+$secondary: #ffc844; // TODO: $dc-secondary
+$secondary-light: #fbe28d; // TODO: $dc-secondary-light
+$green: #36d57d; // TODO: $dc-green
+$green-light: #a5ecc5; // TODO: $dc-green-light
+$red: #fe5c5c; // TODO: $dc-red
+$red-light: #ffb5b5; // TODO: $dc-red-light
+$orange: #ff9400; // TODO: $dc-organge
+$orange-dark: #ad662c; // TODO: $dc-orange-dark
+$purple: #8468c4; // TODO: $dc-purple
+$purple-dark: #5d488c; // TODO: $dc-purple-dark
+$grey-dark: #3d4251; // TODO: $dc-grey-dark
+$grey: #686f75; // TODO: $dc-grey
+$grey-light: #d1d3d8; // TODO: $dc-grey-light
+$grey-lighter: #e6eaeb; // TODO: $dc-grey-lighter
+$geyser: #cfdce1; // TODO: $dc-geyser
+$grey-oslo: #859094; // TODO: $dc-grey-oslo
+$porcelain: #f0f4f5; // TODO: $dc-porcelain
+$white: #fff; // TODO: $dc-white
+$white-transparent: rgba(255, 255, 255, 0.2); // TODO: $dc-white-transparent
+
+// gradients
+$primary-dark-gradient: linear-gradient(141deg, #20748d, #164d62); // TODO: $dc-gradient-primary-dark
+$primary-gradient: linear-gradient(141deg, #2388b0, $primary); // TODO: $dc-gradient-primary
+$primary-light-gradient: linear-gradient(180deg, rgba($white, 0), rgba($primary, 0.075)); // TODO: $dc-gradient-primary-light
+$secondary-gradient: linear-gradient(0deg, $secondary, #fcd86c); // TODO: $dc-gradient-secondary
+$red-light-gradient: linear-gradient(180deg, rgba($white, 0), rgba($red, 0.075)); // TODO: $dc-gradient-red-light
+// @end-sass-export-section
+
+// ----- Typography ----- //
+$font-family: 'lato', sans-serif; // TODO: $dc-font-family-sans-serif
+$h1-size: 2.8rem; // 42px // TODO: $dc-font-size-h1
+$h2-size: 2.533rem; // 38px // TODO: $dc-font-size-h2
+$h3-size: 2rem; // 30px // TODO: $dc-font-size-h3
+$h4-size: 1.467rem; // 22px // TODO: $dc-font-size-h4
+$h5-size: 1.133rem; // 17px // TODO: $dc-font-size-h5
+$small-font-size: 0.8667rem; // 13px // TODO: $dc-font-size-small
+$smaller-font-size: 0.7333rem; // 11px // TODO: $dc-font-size-micro
+$micro-font-size: 0.6rem; // 9px // TODO: $dc-font-size-micro
+$default-font-size: 1rem; // TODO: $dc-font-size-base
+$default-line-height: 1.5; // TODO: $dc-line-height-base
+$header-line-height: 1; // TODO: $dc-line-height-heading
+$code-border-radius: 3px; // TODO: $dc-border-radius-code
+
+// ----- Border Radius ----- //
+$border-radius: 4px; // TODO: dc-border-radius
+
+// ----- Box Shadow ----- //
+$box-shadow: rgba(0, 0, 0, 0.5); // TODO: dc-box-shadow-color
+
+// ----- Transitions ----- //
+$default-duration: 0.25s; // TODO: $dc-duration or $dc-transition
+$duration: 0.3s; // TODO: $dc-duration or $dc-transition
+$ease: cubic-bezier(0.175, 0.885, 0.32, 1.275); // TODO: $dc-ease
+$transition: $duration $ease; // TODO: $dc-transition
+
+// ----- Breakpoints ----- //
+$bp-xxs: 480px; // TODO: $dc-bp-xs
+$bp-sm: 768px; // TODO: $dc-bp-sm
+$bp-md: 992px; // TODO: $dc-bp-md
+$bp-lg: 1200px; // TODO: $dc-bp-lg
+
+/* stylelint-enable */

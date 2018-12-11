@@ -1,0 +1,23 @@
+/**
+ * Outdated styles, needs to be revamped
+ * Removed from core
+ *
+*/
+
+.hr-line,
+.dc-hr-line {
+  border: 0;
+  border-bottom: 1px solid transparent;
+  border-top: 1px solid $dc-grey-light;
+  margin: 16px 0;
+  padding: 0;
+  text-align: center;
+  width: 100%;
+
+  legend {
+    color: $dc-grey;
+    font-size: $dc-font-size-base;
+    margin: 0 auto;
+    padding: 0 16px;
+  }
+}

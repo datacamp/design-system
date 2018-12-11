@@ -1,0 +1,934 @@
+/* stylelint-disable */
+$baseline: 5px;
+$accent: #fdc551;
+$accent-dark: #6d561e;
+$accent-light: #ffe2a6;
+$accent-ultra-light: #fffdf7;
+$danger: rgb(221, 92, 92);
+$danger-light: rgba(221, 92, 92, 0.8);
+$dark-grey: $dc-grey-dark;
+$error: #c96768;
+$error-dark: #6e2a2a;
+$error-light: #ffbfbf;
+$light-green: $dc-green-light;
+$light-grey: $dc-grey-light;
+$lighter-grey: $dc-grey-lighter;
+$link-color: #3ac;
+$oslo-grey: $dc-grey-oslo;
+$primary-extra-light: $dc-primary-lightest;
+$light-red: $dc-red-light;
+$success: #83c967;
+$success-dark: #4d6e40;
+$success-light: #cfedc2;
+$text: #3a3a3a;
+$text-secondary: #666;
+$text-invert: #fff;
+$text-invert-secondary: $dc-primary-lighter;
+$text-tertiary: #a3a3a3;
+$transparent-white: $dc-white-transparent;
+$border-color: $dc-primary-light; // TODO: replace with color in rule
+$border-width: 1px; // TODO: replace with 1px
+$button-radius: 4px; // TODO: replace with $dc-border-radius
+$button-font-size: $dc-font-size-base;
+$button-font-weight: 700; // TODO: replace with $dc-font-weight-bold
+$button-line-height: $dc-line-height-base;
+$button-small-radius: 3px;
+$button-small-font-size: $dc-font-size-small;
+$button-small-line-height: 1.2;
+$card-outline-width: 2px;
+$dropdown-width: 142px; // TODO: Move to private component var?
+$form-border-radius: 4px;
+$form-border-width: 1px;
+$form-radio-radius: 3px;
+$form-radio-border-width: 1px;
+$header-margin: 0.9375rem;
+$navbar-height: 40px; // TODO: Move to private component var?
+$table-spacing: 10px;
+$table-border-width: 1px;
+$z-max: 10;
+
+// DEPRECATED -- DO NOT USE
+// see new_styleguide/lib/_spacing.scss for proper spacing function
+$default-space: 2rem;
+
+/**
+ * Outdated mixin that is in use in multiple apps
+*/
+
+@mixin translateX ($x) {
+  transform: translate($x, 0);
+}
+
+@mixin translateY ($y) {
+  transform: translate(0, $y);
+}
+
+@mixin translate ($x, $y) {
+  transform: translate($x, $y);
+}
+
+/**
+ * Outdated mixin that is in use in multiple apps
+ * Also has related utilities in use
+ *
+*/
+
+@mixin v-align {
+  display: block;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+@mixin h-align {
+  display: block;
+  left: 50%;
+  position: absolute;
+  transform: translateX(-50%);
+}
+
+@mixin vh-align {
+  display: block;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/**
+ * Outdated mixin that is in use in multiple apps
+ * Also has related utilities in use
+ *
+*/
+@mixin input-placeholder {
+  &::-webkit-input-placeholder {
+    @content
+  ;}
+
+  &::-moz-placeholder          {
+    @content
+  ;}
+
+  &:-moz-placeholder {
+    @content
+  ;}
+
+  &:-ms-input-placeholder      {
+    @content
+  ;}
+};
+
+/**
+ * Outdated mixin that is in use in multiple apps
+ * Also has related utilities in use
+ *
+*/
+@mixin input-focus-placeholder {
+  &:focus::-webkit-input-placeholder {
+    @content
+  ;}
+
+  &:focus:-moz-placeholder           {
+    @content
+  ;}
+
+  &:focus::-moz-placeholder          {
+    @content
+  ;}
+
+  &:focus:-ms-input-placeholder      {
+    @content
+  ;}
+};
+
+/** clearfix mixin */
+
+@mixin clearfix {
+  &::before,
+  &::after {
+    content: '';
+    display: table;
+  }
+
+  &::after {
+    clear: both;
+  }
+}
+
+/**
+ * Enable flexbox
+ *
+ * To change an element's display state from block or inline to flex, you
+ * can use this mixin.
+ */
+
+@mixin flexbox () {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+
+/**
+ * Center content along the main axis
+ * For your convenience, this mixin also sets the display property to flex.
+ * See example alignment depending on the flex-direction where
+ * the **** represents the content inside our container.
+ *
+ *
+ * Example in a horizontal (row) setup:
+ *    |------------------|
+ *    |       ****       |
+ *    |                  |
+ *    |                  |
+ *    |------------------|
+ *
+ *
+ * Example in a vertical (column) setup (height needs to be set for container):
+ *    |------------------|
+ *    |                  |
+ *    |****              |
+ *    |                  |
+ *    |------------------|
+ */
+
+@mixin flexbox-justify-center {
+  @include flexbox();
+
+  justify-content: center;
+}
+
+/**
+ * Center content perpendicular to the main axis
+ * For your convenience, this mixin also sets the display property to flex.
+ * See example alignment depending on the flex-direction where
+ * the **** represents the content inside the container.
+ *
+ *
+ * Example in a horizontal (row) setup (height needs to be set for container):
+ *    |------------------|
+ *    |                  |
+ *    |****              |
+ *    |                  |
+ *    |------------------|
+ *
+ *
+ * Example in a vertical (column) setup:
+ *    |------------------|
+ *    |       ****       |
+ *    |                  |
+ *    |                  |
+ *    |------------------|
+ */
+
+@mixin flexbox-align-center {
+  @include flexbox();
+
+  align-items: center;
+}
+
+/**
+ * Center content both horizontally and vertically using flexbox
+ * For your convenience, this mixin also sets the display property to flex.
+ * This works independent of the flex-direction since content will
+ * be centered on both axes.
+ */
+
+@mixin flexbox-dead-center {
+  @include flexbox();
+
+  align-items: center;
+  justify-content: center;
+}
+
+
+/**
+ * Outdated mixin that is in use in multiple apps
+ * Also has related utilities in use
+ *
+*/
+
+/**
+ * Spacing function
+ * Use this spacing function to add padding or margin to an element.
+ * Pass in an optional offset value to compensate for borders when
+ * you add padding to your element. This will ensure that the outer
+ * dimensions of the box model remain the same.
+ * Do not use this for setting a custom width or height.
+ *
+ * Example use case: `margin-right: spacing(3, $offset: 1px);` = 14px
+ */
+
+@function spacing ($multiplier, $offset: 0) {
+  @return $multiplier * $baseline - $offset;
+}
+
+
+/**
+ * Spacing (margin) utility classes
+ *
+ * The mixin and loop below will generate spacing utility classes
+ * using the "spacing" function to create 5px increments.
+ * Use these classes to remove or add margin all around or
+ * to remove or add margin to one specific side.
+ * Increments range from 0 to 10, providing up to 50px of margin.
+ *
+ * Example output:
+ *   .u-spacing-0   -- sets margin all around to 0
+ *   .u-spacing-l0  -- sets margin-left to 0
+ *   .u-spacing-1   -- adds 5px margin all around
+ *   .u-spacing-r2  -- adds 10px margin-right
+ *   .u-spacing-b5  -- adds 25px margin-bottom
+ */
+
+@mixin spacing-classes($side) {
+  $class-slug: '';
+  $margin: '';
+
+  @for $i from 0 through 10 {
+    @if $side == all {
+      $class-slug: spacing-#{$i};
+      $margin: margin;
+    } @else {
+      $side-abbr: str-slice($side, 1, 1);
+      $class-slug: spacing-#{$side-abbr}#{$i};
+      $margin: margin-#{$side};
+    }
+
+    .u-#{$class-slug} {
+      #{$margin}: spacing($i) !important;
+    }
+  }
+}
+
+$sides: all, top, right, bottom, left;
+
+@each $side in $sides {
+  @include spacing-classes($side);
+}
+
+
+/**
+ * DEPRECATED, DO NOT USE ANY OF THE BELOW
+ * Use .u-spacing-# (see above) instead.
+ */
+
+// TODO: Replace in apps
+// - [x] main-app (old styleguide ignored)
+
+.m-xs { margin: 5px; } // TODO: replace with .dc-u-m-4
+
+.mt-xs { margin-top: 5px; } // TODO: replace with .dc-u-mt-4
+
+.mb-xs { margin-bottom: 5px; } // TODO: replace with .dc-u-mb-4
+
+.ml-xs { margin-left: 5px; } // TODO: replace with .dc-u-ml-4
+
+.mr-xs { margin-right: 5px; } // TODO: replace with .dc-u-mr-4
+
+.m-sm { margin: 15px; } // TODO: replace with .dc-u-m-16
+
+.mt-sm { margin-top: 15px; } // TODO: replace with .dc-u-mt-16
+
+.mb-sm { margin-bottom: 15px; } // TODO: replace with .dc-u-mb-16
+
+.ml-sm { margin-left: 15px; } // TODO: replace with .dc-u-ml-16
+
+.mr-sm { margin-right: 15px; } // TODO: replace with .dc-u-mr-16
+
+.m-md { margin: 25px; } // TODO: replace with .dc-u-m-24
+
+.mt-md { margin-top: 25px; } // TODO: replace with .dc-u-mt-24
+
+.mb-md { margin-bottom: 25px; } // TODO: replace with .dc-u-mb-24
+
+.ml-md { margin-left: 25px; } // TODO: replace with .dc-u-ml-24
+
+.mr-md { margin-right: 25px; } // TODO: replace with .dc-u-mr-24
+
+.m-lg { margin: 50px; } // TODO: replace with .dc-u-m-48
+
+.mt-lg { margin-top: 50px; } // TODO: replace with .dc-u-mt-48
+
+.mb-lg { margin-bottom: 50px; } // TODO: replace with .dc-u-mb-48
+
+.ml-lg { margin-left: 50px; } // TODO: replace with .dc-u-ml-48
+
+.mr-lg { margin-right: 50px; } // TODO: replace with .dc-u-mr-48
+
+.p-xs { padding: 5px; } // TODO: replace with .dc-u-p-4
+
+.pt-xs { padding-top: 5px; } // TODO: replace with .dc-u-pt-4
+
+.pb-xs { padding-bottom: 5px; } // TODO: replace with .dc-u-pb-4
+
+.pl-xs { padding-left: 5px; } // TODO: replace with .dc-u-pl-4
+
+.pr-xs { padding-right: 5px; } // TODO: replace with .dc-u-pr-4
+
+.p-sm { padding: 15px; } // TODO: replace with .dc-u-p-16
+
+.pt-sm { padding-top: 15px; } // TODO: replace with .dc-u-pt-16
+
+.pb-sm { padding-bottom: 15px; } // TODO: replace with .dc-u-pb-16
+
+.pl-sm { padding-left: 15px; } // TODO: replace with .dc-u-pl-16
+
+.pr-sm { padding-right: 15px; } // TODO: replace with .dc-u-pr-16
+
+.p-md { padding: 25px; } // TODO: replace with .dc-u-p-24
+
+.pt-md { padding-top: 25px; } // TODO: replace with .dc-u-pt-24
+
+.pb-md { padding-bottom: 25px; } // TODO: replace with .dc-u-pb-24
+
+.pl-md { padding-left: 25px; } // TODO: replace with .dc-u-pl-24
+
+.pr-md { padding-right: 25px; } // TODO: replace with .dc-u-pr-24
+
+.p-lg { padding: 50px; } // TODO: replace with .dc-u-p-48
+
+.pt-lg { padding-top: 50px; } // TODO: replace with .dc-u-pt-48
+
+.pb-lg { padding-bottom: 50px; } // TODO: replace with .dc-u-pb-48
+
+.pl-lg { padding-left: 50px; } // TODO: replace with .dc-u-pl-48
+
+.pr-lg { padding-right: 50px; } // TODO: replace with .dc-u-pr-48
+
+.p0 { padding: 0 !important; } // TODO: replace with .dc-u-p-none
+
+.pt0 { padding-top: 0 !important; } // TODO: replace with .dc-u-pt-0
+
+.pb0 { padding-bottom: 0 !important; } // TODO: replace with .dc-u-pb-0
+
+.pr0 { padding-right: 0 !important; } // TODO: replace with .dc-u-pr-0
+
+.pl0 { padding-left: 0 !important; } // TODO: replace with .dc-u-pl-0
+
+.m0 { margin: 0 !important; } // TODO: replace with .dc-u-m-none
+
+.mt0 { margin-top: 0 !important; } // TODO: replace with .dc-u-mt-0
+
+.mb0 { margin-bottom: 0 !important; } // TODO: replace with .dc-u-mb-0
+
+.mr0 { margin-right: 0 !important; } // TODO: replace with .dc-u-mr-0
+
+.ml0 { margin-left: 0 !important; } // TODO: replace with .dc-u-ml-0
+
+
+/**
+ * DEPRECATED, DO NOT USE ANY OF THE BELOW
+ * Use .u-spacing-# (see above) instead.
+
+ * Padding spacing classes with rem values
+ * This generates p{t,r,l,b}# classes
+ * Example output: pb1 (equals padding-bottom: 1rem)
+ */
+
+// TODO: Replace in apps
+// - [x] main-app (old styleguide ignored)
+
+@for $i from 1 through 5 {
+  $val: $i * 1rem;
+
+  .pl#{$i} { padding-left: $val; } // TODO: replace with .dc-u-pl-16/32/48/64/80
+
+  .pr#{$i} { padding-right: $val; } // TODO: replace with .dc-u-pr-16/32/48/64/80
+
+  .pt#{$i} { padding-top: $val; } // TODO: replace with .dc-u-pt-16/32/48/64/80
+
+  .pb#{$i} { padding-bottom: $val; } // TODO: replace with .dc-u-pb-16/32/48/64/80
+}
+
+
+/**
+ * DEPRECATED, DO NOT USE ANY OF THE BELOW
+ * Use .u-spacing-# (see above) instead.
+ *
+ * Margin spacing classes with rem values
+ * This generates p{t,r,l,b}# classes
+ * Example output: pb1 (equals padding-bottom: 1rem)
+ */
+
+// TODO: Replace in apps
+// - [x] main-app (old styleguide ignored)
+
+@for $i from 1 through 5 {
+  $val: $i * 1rem;
+
+  .mt#{$i} { margin-top: $val; } // TODO: replace with .dc-u-mt-16/32/48/64/80
+
+  .mr#{$i} { margin-right: $val; } // TODO: replace with .dc-u-mr-16/32/48/64/80
+
+  .mb#{$i} { margin-bottom: $val; } // TODO: replace with .dc-u-mb-16/32/48/64/80
+
+  .ml#{$i} { margin-left: $val; } // TODO: replace with .dc-u-ml-16/32/48/64/80
+}
+
+/**
+ * Outdated mixin that is in use in multiple apps
+ * Contents already moved to the existing utility
+ *
+*/
+
+@mixin img-fluid {
+  height: auto; // 1
+  max-width: 100%;
+}
+
+/**
+ * Outdated qualified selector from the headings
+ * Heaviily used in main-app, should be converted to text-white
+ *
+*/
+
+// TODO: replace with .dc-u-color-white (DONE: main-app)
+.invert {
+  color: $dc-white;
+}
+
+/**
+ * Outdated element selector from the headings
+ * Needs to be searched to see if the defaults are ever used
+ *
+*/
+
+blockquote {
+  background-color: $dc-primary-lightest;
+  border-left: 2px solid $dc-primary;
+  margin: 0;
+  margin-bottom: 32px;
+  padding: 32px;
+
+  &.centered {
+    border-left: none;
+  }
+
+  p {
+    color: $dc-primary;
+    font-size: $dc-font-size-h4;
+    font-style: italic;
+    margin: 0 0 0.25em;
+  }
+
+  cite {
+    color: $dc-primary-light;
+    font-size: $dc-font-size-base;
+    font-style: normal;
+    text-transform: uppercase;
+
+    &:before {
+      content: 'â€“';
+      display: inline-block;
+      margin-right: 4px;
+    }
+  }
+}
+
+/**
+ * Outdated qualified selector
+ * Needs to be searched for usage
+ *
+*/
+
+code.clean {
+  background: none;
+  border-radius: 0;
+  margin: 0;
+  padding: 0;
+}
+
+/**
+ * Outdated approach
+ * These should be utilities, need to search for usage
+ *
+*/
+
+// TODO: find usage
+.yellow-link {
+  border: none;
+  color: $dc-secondary;
+  font-weight: bold;
+
+  &:hover,
+  &:active {
+    border-bottom: 1px solid $dc-secondary;
+    color: $dc-secondary;
+  }
+}
+
+.link-borderless {
+  @include link-borderless();
+}
+
+.link-unstyled {
+  @include link-unstyled();
+}
+
+/**
+ * Outdated approach
+ * These should be utilities, need to search for usage
+ *
+*/
+
+.list-unstyled {
+  @include list-unstyled();
+}
+
+
+/**
+ * Outdated approach
+ * Replace with a utility, need to find use
+ *
+*/
+
+// TODO: replace with dc-u-w-100pc
+.card .dc-fieldset {
+  width: 100%;
+}
+
+
+/**
+ * Outdated approach
+ * Find out if devise is still used and in what apps
+ *
+ *
+ * This is added for legacy purposes of Devise errors styling.
+ * Devise renders a list of errors with h2 and ul > li wrapped
+ * inside the div with id error_explanation.
+*/
+#error_explanation {
+  h2 {
+    color: $dc-red;
+    font-size: $dc-font-size-base;
+    text-align: left;
+  }
+
+  ul {
+    li {
+      text-align: left;
+    }
+  }
+}
+
+/**
+ * Deprecated utilities, previously in:
+ * - core/lib/utilities/_borders.scss
+ * - core/lib/utilities/_display.scss
+ * - core/lib/utilities/_text.scss
+ * - core/lib/utilities/_utilities.scss
+ */
+
+// TODO: Replace in apps
+// - [x] main-app (old styleguide ignored)
+
+.b0 { border: none !important; } // TODO: replace with .dc-u-b-none
+
+.bt0 { border-top: none !important; } // TODO: replace with .dc-u-bt-none
+
+.bb0 { border-bottom: none !important; } // TODO: replace with .dc-u-bb-none
+
+.br0 { border-right: none !important; } // TODO: replace with .dc-u-br-none
+
+.bl0 { border-left: none !important; } // TODO: replace with .dc-u-bl-none
+
+// TODO: find usage
+.toggle-visible {
+  display: none;
+
+  &.shown {
+    display: block;
+  }
+}
+
+.u-hidden { // TODO: replace with .dc-u-d-none
+  display: none !important;
+}
+
+.u-block { // TODO: replace with .dc-u-d-b
+  display: block !important;
+}
+
+.u-inline-block { // TODO: replace with .dc-u-d-ib
+  display: inline-block !important;
+}
+
+.u-inline { // TODO: replace with .dc-u-d-i
+  display: inline !important;
+}
+
+.u-text-center { // TODO: replace with .dc-u-ta-center
+  text-align: center;
+}
+
+.u-text-right { // TODO: replace with .dc-u-ta-right
+  text-align: right;
+}
+
+.u-text-left { // TODO: replace with .dc-u-ta-left
+  text-align: left;
+}
+
+.u-text-light { // TODO: replace with .dc-u-color-white
+  color: $dc-white;
+}
+
+.u-text-danger { // TODO: replace with .dc-u-color-red
+  color: $dc-red;
+}
+
+.u-text-micro { // TODO: replace with .dc-u-fs-micro
+  font-size: $dc-font-size-micro;
+}
+
+.u-text-truncate {
+  @include text-truncate;
+}
+
+.u-nowrap { // TODO: replace with .dc-u-ws-nowrap
+  white-space: nowrap;
+}
+
+.u-text-uppercase { // TODO: replace with .dc-u-tt-uppercase
+  text-transform: uppercase;
+}
+
+.u-fw-700 { // TODO: replace with .dc-u-fw-bold
+  font-weight: 700;
+}
+
+/**
+ * Offscreen text
+ *
+ * Visually hides an element but maintains accessibility for screen readers.
+ * Please use this unless you don't want your content to be accessible.
+ */
+
+.u-offscreen {
+  clip: rect(0 0 0 0) !important;
+  height: 1px !important;
+  left: -9999em !important;
+  overflow: hidden !important;
+  position: absolute !important;
+  top: auto !important;
+  width: 1px !important;
+}
+
+.u-fx { // TODO: replace with .dc-u-fx
+  display: flex;
+}
+
+.u-fx-f1 { // TODO: replace with .dc-u-fx-f-1
+  flex: 1;
+}
+
+.u-fx-fdc { // TODO: replace with .dc-u-fx-fdc
+  flex-direction: column;
+}
+
+.u-fx-jcsb { // TODO: replace with .dc-u-fx-jcsb
+  justify-content: space-between;
+}
+
+.u-fx-aic { // TODO: replace with .dc-u-fx-aic
+  align-items: center;
+}
+
+.u-fx-center { // TODO: replace with .dc-u-fx-center
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.u-flex-align-end { // TODO: replace with .dc-u-fx-aife
+  align-items: flex-end !important;
+}
+
+// TODO: Replace in apps:
+// - [x] main-app
+
+.u-mb-0 { // TODO: replace with .dc-u-mb-0
+  margin-bottom: 0;
+}
+
+.u-pa-0 { // TODO: replace with .dc-u-p-none
+  padding: 0 !important;
+}
+
+.u-pl-0 { // TODO: replace with .dc-u-pl-0
+  padding-left: 0 !important;
+}
+
+.u-pr-0 { // TODO: replace with .dc-u-pr-0
+  padding-right: 0 !important;
+}
+
+// TODO: Replace in apps:
+// - [] main-app
+
+.u-oh { // TODO: replace with .dc-u-of-hidden
+  overflow: hidden;
+}
+
+.u-oxa { // TODO: replace with .dc-u-ofx-auto
+  overflow-x: auto;
+}
+
+.u-por { // TODO: replace with .dc-u-pos-relative
+  position: relative;
+}
+
+.u-w-100 { // TODO: replace with .dc-u-w-100pc
+  width: 100%;
+}
+
+/**
+ * Alignment utilities based on absolute positioning.
+ * Don't forget to set relative positioning for the parent element.
+ */
+
+.u-v-align {
+  @include v-align;
+}
+
+.u-h-align {
+  @include v-align;
+}
+
+.u-vh-align {
+  @include vh-align;
+}
+
+/**
+ * Primary gradient background
+ * This is a utility class so use it sparingly.
+ * If you need to add a custom selector to the same element for more styling,
+ * you should specify the background-image there instead.
+ */
+
+.u-bg-primary-gradient { // TODO: replace with .dc-u-bgg-primary
+  background-image: $dc-gradient-primary;
+}
+
+.u-img-fluid {
+  height: auto;
+  max-width: 100%;
+}
+
+/**
+ * Strech an element's width and height.
+ *
+ * Note: This works with both absolute and fixed positioning
+ * depending on your use case. Add one of those to make this work.
+ * Example use case is a full screen overlay.
+ */
+
+.u-stretch {
+  @include stretch;
+}
+
+// Legacy tags are marked for death
+
+.tag {
+  background-color: $primary-extra-light;
+  border: 1px solid $lighter-grey;
+  border-radius: 10px;
+  color: $dark-grey;
+  display: inline-block;
+  font-size: $small-font-size;
+  font-weight: 700;
+  margin-right: spacing(1);
+  padding: 0 spacing(3);
+  text-transform: uppercase;
+}
+
+a.tag {
+  color: $primary;
+}
+
+a.tag:hover {
+  background-color: $primary;
+  border: 1px solid $primary;
+  color: $white;
+}
+
+.tag--xp {
+  background: $white;
+  border: 0;
+  border-radius: 12px;
+  color: $dark-grey;
+  font-size: $smaller-font-size;
+  line-height: 1;
+  padding: 4px 8px;
+  text-transform: uppercase;
+}
+
+/* stylelint-enable */
+
+/**
+ * Bucket
+ * Use this pattern when you need to have media aligned with body content.
+ * Modifiers can be made for stacking and reducing spacing.
+ *
+ * Example markup:
+  ```
+  <div class='dc-bucket'>
+    <div class='dc-bucket__media'>
+
+    </div>
+    <div class='dc-bucket__content'>
+
+    </div>
+  </div>
+  ```
+ */
+
+.dc-bucket {
+  display: flex;
+}
+
+.dc-bucket__content {
+  flex-grow: 1;
+  padding-left: 16px;
+}
+
+/**
+ * Edge to edge
+ * When content needs to be aligned to the left and right edges of its container, use this markup pattern to contain the content.
+ *
+ * Example markup:
+  ```
+  <div class="dc-edge-to-edge">
+    <div class="dc-edge__item">
+
+    </div>
+    <div class="dc-edge__item">
+
+    </div>
+  </div>
+  ```
+ */
+
+@mixin dc-edge-to-edge {
+  display: flex;
+  justify-content: space-between;
+}
+
+.dc-edge-to-edge {
+  @include dc-edge-to-edge;
+}
+
+.dc-edge-to-edge--align-center {
+  align-items: center;
+}
+
+@each $size, $bp in $dc-breakpoints {
+  // responsive edge-to-edge classes
+  @media screen and (min-width: $bp) {
+    .dc-edge-to-edge\@#{$size} {
+      @include dc-edge-to-edge;
+    }
+  }
+}

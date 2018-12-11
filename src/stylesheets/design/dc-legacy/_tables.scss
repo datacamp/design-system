@@ -1,0 +1,261 @@
+// **********************************************************************************
+// DEPRECATED, DO NOT USE ANY OF THE TABLE STYLES IN THIS SECTION
+
+/* stylelint-disable */
+
+/**
+ * Legacy Table styling -- copied from Bootstrap v3.3.7
+ */
+
+table,
+.table {
+  background-color: $dc-white;
+}
+
+// Baseline styles
+
+.table-wrapper {
+  border: 1px solid $dc-grey-lighter;
+  border-radius: $dc-border-radius;
+  overflow: hidden;
+
+  .table {
+    margin-bottom: 0;
+  }
+}
+
+.table {
+  margin-bottom: 15px;
+  max-width: 100%;
+  width: 100%;
+
+  // Cells
+  > thead,
+  > tbody,
+  > tfoot {
+    > tr {
+      > th,
+      > td {
+        border-top: 1px solid $dc-grey-lighter;
+        padding: 10px;
+        vertical-align: top;
+      }
+    }
+  }
+
+  // Bottom align for column headings
+  > thead > tr > th {
+    vertical-align: bottom;
+  }
+
+  // Remove top border from thead by default
+  > caption + thead,
+  > colgroup + thead,
+  > thead:first-child {
+    > tr:first-child {
+      > th,
+      > td {
+        border-top: 0;
+      }
+    }
+  }
+}
+
+// DEPRECATED END: ******************************************************************
+
+
+// *********************************
+//
+// Table
+//
+// *********************************
+
+// -------------------------------------
+//   Base
+// -------------------------------------
+
+.dc-table {
+  background: 0; // FIXME: remove when deprecared table styles are removed
+  box-sizing: border-box;
+  max-width: 100%;
+  width: 100%;
+}
+
+caption,
+.dc-table__caption {
+  color: $dc-grey-dark;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  text-align: left;
+}
+
+th {
+  padding: 10px;
+  text-align: left;
+}
+
+.dc-table__th {
+  color: $dc-grey;
+  cursor: pointer;
+  font-size: 11px;
+  letter-spacing: 2px;
+  line-height: 1.36;
+  padding: 20px 10px;
+  text-align: left;
+  text-transform: uppercase;
+
+  &.dc-table__th--sort::after {
+    color: #686f75;
+    content: '▾';
+    display: inline-block;
+    opacity: 0.5;
+    transition: transform $dc-transition;
+  }
+
+  &.dc-table__th--sort-asc::after {
+    transform: rotate(180deg);
+  }
+}
+
+td,
+.dc-table__td {
+  color: $dc-grey-dark;
+  padding: 10px;
+  vertical-align: middle;
+}
+
+.dc-table__td--avatar {
+  padding-right: 10px;
+  text-align: center;
+  width: 28px;
+
+  img {
+    border-radius: 50%;
+    display: table-cell;
+  }
+}
+
+.dc-table-wrapper {
+  overflow-x: auto;
+}
+
+// -------------------------------------
+//   Modifiers
+// -------------------------------------
+
+.dc-table--white {
+  background-color: $dc-white;
+}
+
+// ----- Bordered ----- //
+
+// Bordered Table
+
+.dc-table-wrapper--bordered {
+  border: 1px solid $dc-grey-lighter;
+  border-radius: $dc-border-radius;
+  overflow: hidden;
+}
+
+// Bordered Table Rows
+
+.dc-table--bordered {
+  .dc-table__thead tr,
+  .dc-table__tr {
+    border-bottom: 1px solid $dc-grey-lighter;
+  }
+
+  .dc-table__tr:last-of-type {
+    border-bottom: 0;
+  }
+}
+
+// Bordered  with Filter
+
+.dc-table-header {
+  background-color: $dc-porcelain;
+  border-radius: $dc-border-radius $dc-border-radius 0 0;
+  padding: 16px;
+}
+
+.dc-table--search {
+  .dc-table-wrapper {
+    border: 1px solid $dc-grey-lighter;
+    border-radius: 0 0 $dc-border-radius $dc-border-radius;
+    border-top: 0;
+  }
+
+  .dc-table__td {
+    padding: 12px;
+  }
+
+  .dc-table__td:last-of-type {
+    padding-right: 16px;
+  }
+
+  .dc-table__td:first-of-type {
+    padding-left: 16px;
+  }
+
+  .dc-table__tr:not(:last-child) .dc-table__td {
+    border-bottom: 1px solid #e6eaeb;
+  }
+
+  .dc-table__th:first-child .dc-table__td:first-child {
+    border-top-left-radius: 4px;
+  }
+
+  .dc-table__th:first-child .dc-table__td:last-child {
+    border-top-right-radius: 4px;
+  }
+
+  .dc-table__tr:last-child .dc-table__td:first-child {
+    border-bottom-left-radius: 4px;
+  }
+
+  .dc-table__tr:last-child .dc-table__td:last-child {
+    border-bottom-right-radius: 4px;
+  }
+}
+
+// ----- Icon ----- //
+
+.dc-table__td--icon {
+  line-height: 0;
+  text-align: center;
+}
+
+// ----- Shrink Cell ----- //
+
+.dc-table__td--shrink {
+  width: 1px;
+}
+
+// -------------------------------------
+//   react-table overrides
+// -------------------------------------
+
+.ReactTable {
+  @media screen and (min-width: $dc-bp-md) {
+    .rt-tr {
+      display: inline-flex;
+      flex: 1 0 auto;
+      width: 100%;
+    }
+  }
+
+  .rt-td {
+    align-items: center;
+    display: flex;
+  }
+
+  .rt-td .dc-label--none {
+    display: inline-block;
+
+    &::before {
+      margin-top: -10px;
+    }
+  }
+}
+
+/* stylelint-enable */
