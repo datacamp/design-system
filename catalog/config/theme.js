@@ -1,42 +1,31 @@
 export const logoSrc = ''
 
 export const theme = {
-  // fonts
-  // fontFamily: '',
-  // fontHeading: '',
-  // fontMono: '',
-  // baseFontSize: '',
-  // msRatio: '',
-  // colors
-  // background: '',
-  // textColor: '',
-  // brandColor: '',
-  // codeColor: '',
-  // linkColor: '',
-  // lightColor: '',
-  // navBarBackground: '',
-  // navBarTextColor: '',
-  // pageHeadingBackground: '',
-  // pageHeadingTextColor: '',
-  // sidebarColor: '',
-  // sidebarColorText: '',
-  // sidebarColorTextActive: '',
-  // sidebarColorLine: '',
-  // sidebarColorHeading: '',
-  // bgLight: '',
-  // bgDark: '',
-  // checkerboardPatternLight: '',
-  // checkerboardPatternDark: '',
-  // other
-  // pageHeadingHeight: 200,
-  // codeStyles: {
-  //   tag: { color: '' },
-  //   punctuation: { color: '' },
-  //   script: { color: '' },
-  //   function: { color: '' },
-  //   keyword: { color: '' },
-  //   string: { color: '' }
-  // }
+  fontFamily: 'Lato, sans-serif',
+  fontHeading: 'Lato, sans-serif',
+  fontMono: "'Roboto Mono', monospace",
+
+  background: '#f0f4f5',
+  textColor: '#3d4251',
+  codeColor: '#3d4251',
+  linkColor: '#33aacc',
+
+  lightColor: '#d1d3d8',
+
+  pageHeadingBackground: 'linear-gradient(32deg,#37bbab,#75c97e)',
+  pageHeadingTextColor: '#fff',
+  pageHeadingHeight: 140,
+
+  navBarBackground: '#ffffff',
+  navBarTextColor: "#3d4251",
+
+  brandColor: "#263e63",
+
+  sidebarColor: '#FFFFFF',
+  sidebarColorText: '#3d4251',
+  sidebarColorTextActive: '#33aacc',
+  sidebarColorLine: '#e6eaeb',
+  sidebarColorHeading: '#263e63',
 }
 
 export const responsiveSizes = [
