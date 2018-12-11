@@ -1,0 +1,11 @@
+/**
+ * Shorthand for active, focus, hover pseudo classes.
+ */
+
+@mixin afh {
+  &:active,
+  &:focus,
+  &:hover {
+    @content;
+  }
+}

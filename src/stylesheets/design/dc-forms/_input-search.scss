@@ -1,0 +1,63 @@
+%dc-input-search {
+  background: $dc-white url('/assets/toolkit/images/enterprise/components/search/search-blue-6839bf2eb2.svg') no-repeat 16px center;
+  border: 0;
+  border-radius: 24px;
+  box-shadow: $dc-box-shadow-sm;
+  box-sizing: border-box !important; // Overwrite Normalize
+  height: auto;
+  line-height: 1.25;
+  margin: 0;
+  padding: 8px 16px 8px 42px;
+  transition: box-shadow $dc-transition;
+  width: 256px;
+
+  &::-ms-clear {
+    height: 0;
+    width: 0;
+  }
+
+  &::placeholder {
+    color: $dc-grey;
+    opacity: 0.8;
+  }
+
+  &:active,
+  &:focus,
+  &:hover,
+  &.dc-is-active {
+    box-shadow: $dc-box-shadow-lg;
+  }
+}
+
+.dc-input-search {
+  @extend %dc-input-search;
+}
+
+.dc-input-search__filter {
+  background: $dc-white;
+  border-left: 1px solid $dc-grey-light;
+  border-radius: 0 24px 24px 0;
+  display: block;
+  padding: 6px 17px 6px 12px;
+  position: relative;
+
+  &.dc-is-active {
+    // filter active indicator
+    &::after {
+      background-color: $dc-red;
+      border-radius: 50%;
+      content: '';
+      height: 6px;
+      position: absolute;
+      right: 9px;
+      top: 9px;
+      width: 6px;
+    }
+  }
+
+  .dc-is-open & {
+    .dc-icon--filter {
+      color: $dc-primary;
+    }
+  }
+}

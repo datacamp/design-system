@@ -1,0 +1,149 @@
+/** radio */
+
+.dc-input-radio {
+  display: inline-flex;
+  line-height: 16px;
+  position: relative;
+}
+
+.dc-input-radio + .dc-input-radio {
+  margin-left: 16px;
+}
+
+/** input */
+
+.dc-input-radio__input {
+  display: block;
+  height: 16px;
+  left: 0;
+  opacity: 0;
+  position: absolute;
+  width: 16px;
+  z-index: -1;
+}
+
+/** indicator */
+
+.dc-input-radio__indicator {
+  align-items: center;
+  background-color: $dc-white;
+  background-image: $dc-gradient-primary-light;
+  border: 1px solid $dc-grey-light;
+  border-radius: 50%;
+  display: flex;
+  flex-shrink: 0;
+  height: 16px;
+  justify-content: center;
+  position: relative;
+  transition: border-color $dc-transition, box-shadow $dc-transition;
+  width: 16px;
+
+  &::before {
+    border-radius: 50%;
+    content: '';
+    display: block;
+    height: 8px;
+    opacity: 0;
+    transition: opacity $dc-transition;
+    width: 8px;
+  }
+
+  .dc-has-error & {
+    background-image: $dc-gradient-red-light;
+    border-color: $dc-red;
+
+    &::before {
+      background: $dc-red;
+    }
+  }
+
+  // disabled
+  .dc-input-radio__input:disabled ~ & {
+    background: $dc-white;
+    border-color: $dc-grey-lighter;
+    cursor: not-allowed;
+  }
+
+  // checked
+  .dc-input-radio__input:checked ~ & {
+    border-color: $dc-primary;
+
+    &::before {
+      background: $dc-primary;
+      opacity: 1;
+    }
+  }
+
+  // focus
+  .dc-input-radio__input:focus ~ & {
+    border-color: $dc-primary;
+    box-shadow: 0 0 0 1px $dc-primary;
+  }
+
+  // disabled and checked
+  .dc-input-radio__input:disabled:checked ~ & {
+    border-color: $dc-grey-lighter;
+
+    &::before {
+      background: $dc-grey-light;
+      opacity: 1;
+    }
+  }
+
+  // focus and checked
+  .dc-input-radio__input:focus:checked ~ & {
+    border-color: $dc-primary;
+    box-shadow: 0 0 0 1px $dc-primary;
+  }
+
+  // has error + checked
+  .dc-has-error .dc-input-radio__input:checked ~ & {
+    border-color: $dc-red;
+
+    &::before {
+      background: $dc-red;
+      opacity: 1;
+    }
+  }
+
+  // has error + focus
+  .dc-has-error .dc-input-radio__input:focus ~ & {
+    border-color: $dc-red;
+    box-shadow: 0 0 0 1px $dc-red;
+  }
+
+  // has error + focus and checked
+  .dc-has-error .dc-input-radio__input:focus:checked ~ & {
+    border-color: $dc-red;
+    box-shadow: 0 0 0 1px $dc-red;
+  }
+}
+
+/** text */
+
+.dc-input-radio__text {
+  color: $dc-grey;
+  flex-grow: 1;
+  font-weight: $dc-font-weight-regular;
+  line-height: $dc-line-height-base;
+  margin-left: 8px;
+  position: relative;
+  top: -4px;
+  transition: color $dc-transition;
+
+  // disabled
+  .dc-input-radio__input:disabled ~ & {
+    color: $dc-grey-oslo;
+    cursor: not-allowed;
+  }
+
+  // checked
+  .dc-input-radio__input:checked ~ & {
+    color: $dc-grey-dark;
+  }
+
+  // disabled and checked
+  .dc-input-radio__input:disabled:checked ~ & {
+    color: $dc-grey-oslo;
+  }
+}

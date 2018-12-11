@@ -1,0 +1,178 @@
+// Fieldset
+
+.dc-fieldset {
+  border: 0;
+  padding: 12px 0;
+  width: 100%;
+}
+
+@media screen and (min-width: 480px) {
+  // TODO: Find why this is used and refactor
+  .dc-fieldset {
+    width: 20em;
+  }
+}
+
+// Labels
+
+.dc-label {
+  align-items: center;
+  display: flex;
+  font-size: $dc-font-size-base;
+  font-weight: $dc-font-weight-bold;
+  line-height: $dc-line-height-base;
+  margin-bottom: 12px;
+}
+
+.dc-label__number {
+  background-color: $dc-primary;
+  border-radius: 50%;
+  color: $dc-white;
+  display: inline-block;
+  font-size: $dc-font-size-small;
+  line-height: 1;
+  margin-right: 8px;
+  padding: 5px 0; // 14px lh + 5px v-padding = 24px height
+  text-align: center;
+  width: 24px;
+}
+
+// Text type inputs
+
+.dc-input--text,
+.dc-textarea {
+  background-color: $dc-primary-lightest;
+  border: 1px solid $dc-primary-lightest;
+  border-radius: $dc-border-radius;
+  color: $dc-grey-dark;
+  font-size: $dc-font-size-base;
+  line-height: $dc-line-height-base;
+  padding: 11px 15px; // +1px border
+  transition: border $dc-transition;
+  width: 100%;
+
+  &::placeholder {
+    color: $dc-primary;
+    transition: color $dc-duration;
+  }
+
+  &:focus::placeholder {
+    color: rgba(0, 0, 0, 0);
+  }
+
+  &:focus,
+  &.focus {
+    border-color: $dc-primary;
+    outline: none;
+  }
+}
+
+// Date input
+
+.dc-input--date {
+  &::-webkit-inner-spin-button {
+    display: none;
+  }
+
+  &::-webkit-calendar-picker-indicator {
+    color: $dc-primary;
+  }
+}
+
+// Combo input
+
+.dc-input-combo {
+  position: relative;
+}
+
+.dc-input-combo__cap {
+  bottom: 1px;
+  position: absolute;
+  top: 0;
+  width: 56px;
+  z-index: 10;
+}
+
+.dc-input-combo--start {
+  .dc-input-combo__cap {
+    border-radius: $dc-border-radius 0 0 $dc-border-radius;
+    left: 0;
+  }
+
+  .dc-input-combo__input {
+    padding-left: 56px; // Accommodates input padding and cap width
+  }
+}
+
+.dc-input-combo--end {
+  .dc-input-combo__cap {
+    border-radius: 0 $dc-border-radius $dc-border-radius 0;
+    right: 0;
+  }
+
+  .dc-input-combo__input {
+    padding-right: 56px; // Accommodates input padding and cap width
+  }
+}
+
+// TODO: Find why this is used and refactor
+
+/* stylelint-disable */
+
+// Tabs
+.tabs {
+  background-color: $dc-primary-dark;
+  border-radius: $dc-border-radius;
+  display: flex;
+  overflow: none;
+}
+
+.tabs input[type=radio]+label {
+  border-radius: $dc-border-radius;
+  color: $dc-white;
+  display: inline-block;
+  font-size: $dc-font-size-small;
+  padding: 12px 0;
+  text-align: center;
+  text-transform: uppercase;
+  transition: background-color $dc-transition, color $dc-transition;
+  vertical-align: top;
+  width: 33%;
+}
+
+.tabs.two input[type=radio]+label{ width: 50%; }
+
+.tabs.three input[type=radio]+label{ width: 33%; }
+
+.tabs.four input[type=radio]+label{ width: 24%; }
+
+.tabs.five input[type=radio]+label{ width: 20%; }
+
+.tabs input[type=radio]+label::after,
+.tabs input[type=radio]+label::before {
+  display: none;
+}
+
+.tabs input[type=radio]:checked+label {
+  background-color: $dc-white;
+  color: $dc-grey-dark;
+  font-weight: $dc-font-weight-bold;
+}
+
+/* stylelint-enable */
+
+// TODO: Move to marketing or refactor for all apps
+
+.form-error {
+  color: $dc-red;
+  display: none;
+  font-size: $dc-font-size-small;
+}
+
+.form-error-active {
+  display: block !important;
+}
+
+.form-required {
+  box-shadow: 0 0 2px 1px $dc-red;
+}

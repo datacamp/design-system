@@ -1,0 +1,29 @@
+// Input group
+.dc-input-group {
+  border-radius: $dc-border-radius;
+  display: flex;
+}
+
+.dc-input-group__input {
+  border-bottom-left-radius: 0;
+  border-left: 0;
+  border-top-left-radius: 0;
+  box-sizing: border-box;
+  display: inline-block;
+  padding-left: 16px; // not offset by a 1px border
+  width: 100%;
+}
+
+.dc-input-group__icon {
+  background: $dc-primary;
+  border-bottom-left-radius: $dc-border-radius;
+  border-top-left-radius: $dc-border-radius;
+  box-sizing: border-box;
+  color: $dc-primary-lighter;
+  display: inline-flex;
+  flex-shrink: 0;
+  line-height: 1;
+  padding: 15px; // 18px svg + 15px padding = 48px
+  text-align: center;
+  white-space: nowrap;
+}

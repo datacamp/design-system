@@ -9,13 +9,26 @@
 //   Globals
 // -------------------------------------
 
-@import 'design/dc-vendor';
-@import 'design/dc-globals.scss';
-@import 'design/dc-mixins.scss';
-@import 'design/dc-utilities.scss';
+//----- Vendor -----//
+@import 'design/dc-vendor/lato-font';
+@import 'design/dc-vendor/roboto-mono-font';
+@import 'design/dc-vendor/normalize';
 
-// -------------------------------------
-//   Sections
-// -------------------------------------
+//----- Mixins -----//
+@import 'design/dc-mixins/dc-mixins';
 
-@import 'design/dc-section-example';
+//----- Variables -----//
+@import 'design/dc-variables.scss';
+
+//----- Utilities -----//
+@import 'design/dc-utilities/dc-utilities';
+
+//---- Typography -----//
+@import 'design/dc-typography/dc-typography';
+
+//---- Forms -----//
+@import 'design/dc-forms/dc-forms';
+
+//---- Animations -----//
+@import 'design/animations/animations';
+
