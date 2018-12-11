@@ -1,0 +1,323 @@
+/*
+ * USE WITH CARE
+ *
+ * This is a temporary grid solution, copied from Bootstrap's latest
+ * Alpha v4 grid. It adds support for a flexbox based grid, but should
+ * only be used as a last resort.
+ * It does not support pulling and offsetting columns and still relies
+ * on our current grid system.
+ *
+ * Instructions:
+ * Add the `row--flex` modifier class to a row
+ */
+
+/**
+ * TODO: what to do with this? update to our own grid? Need to  make sure
+ * container and grid matches spatial system...
+ */
+
+.row--flex {
+  display: flex;
+
+  @media (max-width: $dc-bp-sm) {
+    flex-wrap: wrap;
+  }
+
+
+  @media (min-width: $dc-bp-sm) {
+    .col-sm-1,
+    .col-sm-2,
+    .col-sm-3,
+    .col-sm-4,
+    .col-sm-5,
+    .col-sm-6,
+    .col-sm-7,
+    .col-sm-8,
+    .col-sm-9,
+    .col-sm-10,
+    .col-sm-11,
+    .col-sm-12 {
+      float: none;
+    }
+
+    .col-sm-12 {
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+
+    .col-sm-11 {
+      flex: 0 0 91.66666667%;
+      max-width: 91.66666667%;
+    }
+
+    .col-sm-10 {
+      flex: 0 0 83.33333333%;
+      max-width: 83.33333333%;
+    }
+
+    .col-sm-9 {
+      flex: 0 0 75%;
+      max-width: 75%;
+    }
+
+    .col-sm-8 {
+      flex: 0 0 66.66666667%;
+      max-width: 66.66666667%;
+    }
+
+    .col-sm-7 {
+      flex: 0 0 58.33333333%;
+      max-width: 58.33333333%;
+    }
+
+    .col-sm-6 {
+      flex: 0 0 50%;
+      max-width: 50%;
+    }
+
+    .col-sm-5 {
+      flex: 0 0 41.66666667%;
+      max-width: 41.66666667%;
+    }
+
+    .col-sm-4 {
+      flex: 0 0 33.33333333%;
+      max-width: 33.33333333%;
+    }
+
+    .col-sm-3 {
+      flex: 0 0 25%;
+      max-width: 25%;
+    }
+
+    .col-sm-2 {
+      flex: 0 0 16.66666667%;
+      max-width: 16.66666667%;
+    }
+
+    .col-sm-1 {
+      flex: 0 0 8.33333333%;
+      max-width: 8.33333333%;
+    }
+  }
+
+  @media (min-width: $dc-bp-md) {
+    .col-md-1,
+    .col-md-2,
+    .col-md-3,
+    .col-md-4,
+    .col-md-5,
+    .col-md-6,
+    .col-md-7,
+    .col-md-8,
+    .col-md-9,
+    .col-md-10,
+    .col-md-11,
+    .col-md-12 {
+      float: none;
+    }
+
+    .col-md-12 {
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+
+    .col-md-11 {
+      flex: 0 0 91.66666667%;
+      max-width: 91.66666667%;
+    }
+
+    .col-md-10 {
+      flex: 0 0 83.33333333%;
+      max-width: 83.33333333%;
+    }
+
+    .col-md-9 {
+      flex: 0 0 75%;
+      max-width: 75%;
+    }
+
+    .col-md-8 {
+      flex: 0 0 66.66666667%;
+      max-width: 66.66666667%;
+    }
+
+    .col-md-7 {
+      flex: 0 0 58.33333333%;
+      max-width: 58.33333333%;
+    }
+
+    .col-md-6 {
+      flex: 0 0 50%;
+      max-width: 50%;
+    }
+
+    .col-md-5 {
+      flex: 0 0 41.66666667%;
+      max-width: 41.66666667%;
+    }
+
+    .col-md-4 {
+      flex: 0 0 33.33333333%;
+      max-width: 33.33333333%;
+    }
+
+    .col-md-3 {
+      flex: 0 0 25%;
+      max-width: 25%;
+    }
+
+    .col-md-2 {
+      flex: 0 0 16.66666667%;
+      max-width: 16.66666667%;
+    }
+
+    .col-md-1 {
+      flex: 0 0 8.33333333%;
+      max-width: 8.33333333%;
+    }
+  }
+
+  @media (min-width: $dc-bp-lg) {
+    .col-lg-1,
+    .col-lg-2,
+    .col-lg-3,
+    .col-lg-4,
+    .col-lg-5,
+    .col-lg-6,
+    .col-lg-7,
+    .col-lg-8,
+    .col-lg-9,
+    .col-lg-10,
+    .col-lg-11,
+    .col-lg-12 {
+      float: none;
+    }
+
+    .col-lg-12 {
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+
+    .col-lg-11 {
+      flex: 0 0 91.66666667%;
+      max-width: 91.66666667%;
+    }
+
+    .col-lg-10 {
+      flex: 0 0 83.33333333%;
+      max-width: 83.33333333%;
+    }
+
+    .col-lg-9 {
+      flex: 0 0 75%;
+      max-width: 75%;
+    }
+
+    .col-lg-8 {
+      flex: 0 0 66.66666667%;
+      max-width: 66.66666667%;
+    }
+
+    .col-lg-7 {
+      flex: 0 0 58.33333333%;
+      max-width: 58.33333333%;
+    }
+
+    .col-lg-6 {
+      flex: 0 0 50%;
+      max-width: 50%;
+    }
+
+    .col-lg-5 {
+      flex: 0 0 41.66666667%;
+      max-width: 41.66666667%;
+    }
+
+    .col-lg-4 {
+      flex: 0 0 33.33333333%;
+      max-width: 33.33333333%;
+    }
+
+    .col-lg-3 {
+      flex: 0 0 25%;
+      max-width: 25%;
+    }
+
+    .col-lg-2 {
+      flex: 0 0 16.66666667%;
+      max-width: 16.66666667%;
+    }
+
+    .col-lg-1 {
+      flex: 0 0 8.33333333%;
+      max-width: 8.33333333%;
+    }
+  }
+
+  > [class^='col-'] {
+    flex-basis: 0;
+    flex-grow: 1;
+    width: auto;
+  }
+
+  .col-xs-12 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .col-xs-11 {
+    flex: 0 0 91.66666667%;
+    max-width: 91.66666667%;
+  }
+
+  .col-xs-10 {
+    flex: 0 0 83.33333333%;
+    max-width: 83.33333333%;
+  }
+
+  .col-xs-9 {
+    flex: 0 0 75%;
+    max-width: 75%;
+  }
+
+  .col-xs-8 {
+    flex: 0 0 66.66666667%;
+    max-width: 66.66666667%;
+  }
+
+  .col-xs-7 {
+    flex: 0 0 58.33333333%;
+    max-width: 58.33333333%;
+  }
+
+  .col-xs-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+
+  .col-xs-5 {
+    flex: 0 0 41.66666667%;
+    max-width: 41.66666667%;
+  }
+
+  .col-xs-4 {
+    flex: 0 0 33.33333333%;
+    max-width: 33.33333333%;
+  }
+
+  .col-xs-3 {
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+
+  .col-xs-2 {
+    flex: 0 0 16.66666667%;
+    max-width: 16.66666667%;
+  }
+
+  .col-xs-1 {
+    flex: 0 0 8.33333333%;
+    max-width: 8.33333333%;
+  }
+}

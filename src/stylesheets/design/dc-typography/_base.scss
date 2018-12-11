@@ -1,0 +1,25 @@
+/**
+ * This file is reserved for normalizing html elements
+ * in addition to _normalize.scss
+ */
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  -webkit-overflow-scrolling: touch;
+}
+
+hr {
+  background-color: $dc-grey-lighter;
+  border: 0;
+  height: 1px;
+  margin: 32px 0;
+}

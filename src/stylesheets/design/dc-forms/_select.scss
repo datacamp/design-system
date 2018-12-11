@@ -1,0 +1,56 @@
+.dc-select-container {
+  position: relative;
+
+  &::after {
+    background-color: $dc-primary-lightest;
+    border-left: 1px solid $dc-white;
+    border-radius: 0 $dc-border-radius $dc-border-radius 0;
+    content: '';
+    height: 46px; // +1px border-top +1px border-bottom
+    pointer-events: none;
+    position: absolute;
+    right: 1px;
+    top: 1px;
+    width: 47px; // +1px border-left
+  }
+
+  &::before {
+    background: url('/assets/toolkit/images/marketing/components/icons/arrow_down-19bbe4876d.svg') no-repeat 50% 50% / 16px 16px;
+    content: '';
+    height: 16px;
+    pointer-events: none;
+    position: absolute;
+    right: 17px; // -1px border on dc-select
+    top: 50%;
+    transform: translateY(-50%);
+    width: 16px;
+    z-index: 10; // sit above ::after
+  }
+}
+
+.dc-select {
+  appearance: none;
+  background-color: $dc-primary-lightest;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: $dc-border-radius;
+  box-shadow: none;
+  box-sizing: border-box;
+  color: $dc-primary;
+  cursor: pointer;
+  height: 48px; // firefox, IE11...
+  line-height: $dc-line-height-base;
+  padding: 11px 15px; // +1px border
+  transition: background $dc-transition, border-color $dc-transition, color $dc-transition;
+  width: 100%;
+
+  &:focus,
+  &.focus {
+    border-color: $dc-primary;
+    outline: none;
+  }
+
+  ::-ms-expand {
+    display: none;
+  }
+}

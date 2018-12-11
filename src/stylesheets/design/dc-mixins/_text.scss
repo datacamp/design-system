@@ -1,0 +1,10 @@
+/**
+ * Truncate text to one line
+ * This mixin will truncate text to one line and append ... at the end.
+ */
+
+@mixin text-truncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}

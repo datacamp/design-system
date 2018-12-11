@@ -1,0 +1,203 @@
+html {
+  font-size: $dc-font-size-base;
+}
+
+body {
+  color: $dc-grey;
+  font-family: $dc-font-family-sans-serif;
+  font-size: 100%;
+  -webkit-font-smoothing: antialiased;
+  font-weight: $dc-font-weight-regular;
+  line-height: $dc-line-height-base;
+}
+
+// Headings
+
+h1,
+.h1,
+.dc-h1,
+h2,
+.h2,
+.dc-h2,
+h3,
+.h3,
+.dc-h3,
+h4,
+.h4,
+.dc-h4,
+h5,
+.h5,
+.dc-h5,
+h6,
+.h6,
+.dc-h6 {
+  color: $dc-grey-dark;
+  font-weight: $dc-font-weight-bold;
+  line-height: $dc-line-height-heading;
+  margin: 0.25em 0; // TODO: Ask Kristof about this
+}
+
+h1,
+.h1,
+.dc-h1 {
+  font-size: $dc-font-size-h1;
+}
+
+h2,
+.h2,
+.dc-h2 {
+  font-size: $dc-font-size-h2;
+}
+
+h3,
+.h3,
+.dc-h3 {
+  font-size: $dc-font-size-h3;
+}
+
+h4,
+.h4,
+.dc-h4 {
+  font-size: $dc-font-size-h4;
+}
+
+h5,
+.h5,
+.dc-h5 {
+  font-size: $dc-font-size-h5;
+}
+
+h6,
+.h6,
+.dc-h6 {
+  font-size: $dc-font-size-base;
+  text-transform: uppercase;
+}
+
+// Chapeau
+
+.chapeau-title,
+.dc-chapeau-title {
+  font-size: $dc-font-size-small;
+  font-weight: $dc-font-weight-bold;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.chapeau-title--primary,
+.dc-chapeau-title--primary {
+  color: $dc-primary;
+}
+
+.chapeau-title--secondary,
+.dc-chapeau-title--secondary {
+  color: $dc-secondary;
+}
+
+/**
+ * TODO: These should be changed to classes
+ */
+small {
+  font-size: $dc-font-size-small;
+}
+
+/**
+ * Ideally, links would require a class
+ */
+a {
+  border-bottom: 1px solid transparent;
+  color: $dc-primary;
+  font-weight: $dc-font-weight-bold;
+  text-decoration: none;
+  transition: border-color $dc-transition;
+
+  &:hover {
+    border-bottom-color: $dc-primary;
+    color: $dc-primary;
+    text-decoration: none;
+  }
+}
+
+/**
+ * Ideally, all elements would require a class or be scoped to a parent
+ */
+
+code,
+pre,
+mark {
+  background-color: $dc-primary-lightest;
+  border-radius: $dc-border-radius;
+}
+
+// ----- Inline code ----- //
+
+code {
+  color: $dc-grey-dark;
+  display: inline-block;
+  font-family: $dc-font-family-mono;
+  font-size: $dc-font-size-small;
+  line-height: 1;
+  margin: 0 4px; // TODO: Update with new multiplier, changed from 3
+  padding: 4px 6px; // TODO: Update with new multiplier
+}
+
+pre {
+  border-left: 4px solid $dc-primary;
+  font-family: $dc-font-family-mono;
+  line-height: 1.8;
+  overflow-x: auto;
+  padding: spacing(3);
+  transition: max-width $dc-transition, margin $dc-transition;
+}
+
+// ----- Muti-line Code Blocks ----- //
+/* stylelint-disable */
+pre code {
+  line-height: $dc-line-height-heading;
+}
+/* stylelint-enable */
+
+mark {
+  color: $dc-primary-dark;
+  font-weight: $dc-font-weight-bold;
+  margin: 0 0.3em; // TODO: Update with new multiplier
+  padding: 0.3em 0.4em; // TODO: Update with new multiplier
+
+  &:selection {
+    background-color: $dc-primary-dark;
+    color: $dc-white;
+  }
+}
+
+dd {
+  margin-bottom: 1.2em; // TODO: Update with new multiplier
+  margin-left: 0;
+}
+
+dt {
+  color: $dc-primary;
+  font-weight: $dc-font-weight-bold;
+  text-transform: uppercase;
+}
+
+// Legacy modifiers
+
+.smaller-title {
+  font-size: $dc-font-size-micro;
+  text-transform: uppercase;
+}
+
+.subhead {
+  color: $dc-primary-light;
+  font-weight: $dc-font-weight-light;
+  letter-spacing: 5px;
+  margin-top: spacing(3);
+  text-transform: uppercase;
+}
+
+.callout {
+  color: $dc-primary;
+  font-size: $dc-font-size-h3;
+  font-style: italic;
+  margin: spacing(4) 0 spacing(3);
+}

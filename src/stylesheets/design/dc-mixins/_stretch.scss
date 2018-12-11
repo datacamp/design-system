@@ -1,0 +1,15 @@
+/**
+ * Stretch an element's width and height.
+ *
+ * Note: This works with both absolute and fixed positioning
+ * depending on your use case. Add one of those to make this work.
+ * Example use case is a full screen overlay.
+ */
+
+@mixin stretch {
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+}

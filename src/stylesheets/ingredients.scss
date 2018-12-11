@@ -1,0 +1,40 @@
+// *************************************
+//
+//   Design 
+//   -> All of the styles in the design portion of the Design System
+//
+// *************************************
+
+// -------------------------------------
+//   Globals
+// -------------------------------------
+
+//----- Vendor -----//
+@import 'design/dc-vendor/lato-font';
+@import 'design/dc-vendor/roboto-mono-font';
+@import 'design/dc-vendor/normalize';
+
+//----- Mixins -----//
+@import 'design/dc-mixins/dc-mixins';
+
+//----- Variables -----//
+@import 'design/dc-variables.scss';
+
+//----- Utilities -----//
+@import 'design/dc-utilities/dc-utilities';
+
+//---- Typography -----//
+@import 'design/dc-typography/dc-typography';
+
+//---- Forms -----//
+@import 'design/dc-forms/dc-forms';
+
+//---- Animations -----//
+@import 'design/dc-animations/dc-animations';
+
+//---- Layout -----//
+@import 'design/dc-layout/dc-layout';
+
+//---- Legacy -----//
+@import 'design/dc-legacy/dc-legacy';
+

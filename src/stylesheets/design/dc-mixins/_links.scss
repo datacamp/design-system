@@ -1,0 +1,35 @@
+/**
+ * Inherit link styling mixin
+ *
+ * Use this mixin when you want a link to inherit the styling from its parent
+ * for example when its part of a heading.
+ */
+
+@mixin link-unstyled {
+  border: inherit;
+  color: inherit;
+
+  &:active,
+  &:hover,
+  &:focus {
+    border: inherit;
+    color: inherit;
+  }
+}
+
+
+/**
+ * Remove link border mixin
+ *
+ * This is self explanatory as it simply removes the link border.
+ * Keep in mind that this also means there's no border on user interaction.
+ */
+
+@mixin link-borderless {
+  border-bottom: 0;
+  font-weight: $dc-font-weight-regular; // TODO: should this be regular?
+
+  &:hover {
+    border-bottom: 0;
+  }
+}

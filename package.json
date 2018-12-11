@@ -24,7 +24,9 @@
   "main": "catalog/index.js",
   "scripts": {
     "catalog-start": "catalog start",
-    "catalog-build": "catalog build"
+    "catalog-build": "catalog build",
+    "build-css": "node-sass-chokidar ./src/stylesheets/ingredients.scss ./catalog/build/static/ingredients.css",
+    "watch-css": "npm run build-css && node-sass-chokidar src/ -o catalog/build/ --watch --recursive"
   },
   "devDependencies": {
     "babel-core": "^6.26.2",
@@ -34,6 +36,7 @@
   },
   "dependencies": {
     "catalog": "^3.0.0-rc.4",
+    "node-sass-chokidar": "^2.0.4",
     "react": "^16.6.3",
     "react-dom": "^16.6.3"
   },

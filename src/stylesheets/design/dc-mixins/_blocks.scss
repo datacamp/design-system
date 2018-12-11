@@ -1,0 +1,12 @@
+/*
+* 1. Required for the tooltip to go over the next block
+*/
+
+@mixin block-hover-effect {
+  transition: transform $dc-transition;
+
+  &:hover {
+    transform: translate(0, -4px);
+    z-index: 10; /* 1 */
+  }
+}

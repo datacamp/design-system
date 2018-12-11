@@ -1,0 +1,71 @@
+// -------------------------------------
+//   Toggle Switch
+// -------------------------------------
+
+.dc-toggle-switch {
+  align-items: center;
+  display: flex;
+  position: relative;
+}
+
+.dc-toggle-switch__input {
+  height: 24px;
+  opacity: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 24px;
+}
+
+.dc-toggle-switch__label {
+  height: 24px;
+  margin: 0 12px;
+  padding: 0;
+  position: relative;
+  width: 48px;
+
+  &::after {
+    background-color: $dc-white;
+    border: 1px solid $dc-grey-lighter;
+    border-radius: 50%;
+    box-shadow: $dc-box-shadow-md;
+    content: '';
+    display: block;
+    height: 26px; // -1px border
+    left: 0;
+    position: absolute;
+    top: -1px; // position vertically center over background
+    transform: translate(0, 0);
+    transition: all $dc-transition;
+    width: 26px; // -1px border
+  }
+
+  &::before {
+    background-color: $dc-primary-lightest;
+    border: 0;
+    border-radius: 24px; // 48px / 2
+    box-sizing: border-box;
+    content: '';
+    display: block;
+    height: 100%;
+    margin-top: 0;
+    top: 0;
+    transition: all $dc-transition;
+    width: 100%;
+  }
+}
+
+.dc-toggle-switch__input:hover + .dc-toggle-switch__label::before {
+  background-color: $dc-primary-lightest;
+}
+
+.dc-toggle-switch__input:checked + .dc-toggle-switch__label::after {
+  transform: translateX(24px);
+  transition: all $dc-transition;
+}
+
+.dc-toggle-switch__input:checked + .dc-toggle-switch__label::before {
+  background-color: $dc-green;
+  background-image: none;
+  border: 0;
+}

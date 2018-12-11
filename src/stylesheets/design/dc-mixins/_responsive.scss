@@ -1,0 +1,42 @@
+/**
+ * Retina media query mixin
+ *
+ * This media query is meant to scope only high resolution screens,
+ * commonly referred to as "retina" screens.
+ * Whenever you set an image as a background-image in CSS, you'll also
+ * need to specify a high res (retina) version of that background image.
+ * This mixin will help you do that without having to remember and
+ * repeating these crazy rules.
+ *
+ *
+ * Example use case:
+ * .my-selector {
+ *   background: url('path/to/asset.jpg') no-repeat;
+ *
+ *   @include retina {
+ *     background-image: url('path/to/asset@2x.jpg');
+ *     background-size: #px #px;
+ *   }
+ * }
+ *
+ * Note on the example above:
+ * Notice that we only override the background-image property and most
+ * importantly, set the size of the image to the 1x asset dimensions
+ * through the background-size property.
+ * The 2x asset will in reality be double the 1x asset size in pixels.
+ *
+ */
+
+/* stylelint-disable */
+@mixin mq-retina {
+  @media
+    only screen and (-webkit-min-device-pixel-ratio: 2),
+    only screen and (min--moz-device-pixel-ratio: 2),
+    only screen and (-o-min-device-pixel-ratio: 2/1),
+    only screen and (min-device-pixel-ratio: 2),
+    only screen and (min-resolution: 192dpi),
+    only screen and (min-resolution: 2dppx) {
+    @content;
+  }
+}
+/* stylelint-enable */
