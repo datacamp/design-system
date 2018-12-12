@@ -110,7 +110,7 @@ const COLORS = {
     contrastColor: '#3d4251',
   },
   whiteTransparent: {
-    color: 'rgba(#fff, 0.2)',
+    color: 'rgba(255,255,255, 0.2)',
     contrastColor: '#3d4251',
   },
 };
@@ -130,10 +130,10 @@ const getColor = color => {
   checkValidColors(color);
 
   if (color === 'transparent') {
-    return 'dc-u-color-transparent';
+    return 'transparent';
   }
   if (color === 'currentColor') {
-    return 'dc-u-color-currentColor';
+    return 'currentColor';
   }
   return _.get(COLORS, `${color}.color`, '');
 };

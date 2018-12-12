@@ -41,8 +41,8 @@ storiesOf('Tag', module)
       }
     )
   )
-  .add('Default', () => <Tag>Tag</Tag>)
-  .add('Customise', () => {
+  .addWithJSX('Default', () => <Tag>Tag</Tag>)
+  .addWithJSX('Customize', () => {
     const children = text('children', '50XP');
     const color = select('color', ['', ...getColor.validColors], '');
     const extraClass = text('extraClass ', '');

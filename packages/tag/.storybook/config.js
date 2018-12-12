@@ -1,10 +1,14 @@
-import { configure } from '@storybook/react';
+import { configure, setAddon, addDecorator } from '@storybook/react';
+import JSXAddon from 'storybook-addon-jsx';
+import { withKnobs } from '@storybook/addon-knobs';
 
-// automatically import all files ending in *.stories.js
-const req = require.context('../src/', true, /.stories.js$/);
-function loadStories() {
+const reqStories = require.context('../src/', true, /^.+\.stories\.js$/);
+const loadStories = () => {
   require('./styleguide.scss'); // eslint-disable-line global-require
-  req.keys().forEach(filename => req(filename));
-}
+  reqStories.keys().forEach(reqStories);
+};
+
+setAddon(JSXAddon);
+addDecorator(withKnobs);
 
 configure(loadStories, module);

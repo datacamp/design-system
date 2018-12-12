@@ -24,6 +24,7 @@
     "@storybook/react": "^4.0.12",
     "babel-loader": "^8.0.4",
     "sass-loader": "7.1.0",
+    "storybook-addon-jsx": "6.0.0",
     "storybook-readme": "4.0.2"
   },
   "dependencies": {
