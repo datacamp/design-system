@@ -1,0 +1,13 @@
+{
+  "name": "@datacamp/waffles-core",
+  "version": "0.0.0",
+  "description": "Core tokens for DataCamp Design System",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Jordan Wade <jjwade31@gmail.com>",
+  "repository": "datacamp/design-system",
+  "license": "ISC"
+}

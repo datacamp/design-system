@@ -1,0 +1,38 @@
+{
+  "name": "@datacamp/waffles-tag",
+  "version": "0.0.0",
+  "description": "Creates a small tag element for things like XP points.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "keywords": [],
+  "author": "Jordan Wade <jjwade31@gmail.com>",
+  "repository": "datacamp/design-system",
+  "license": "ISC",
+  "directories": {
+    "src": "src"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.0",
+    "@storybook/addon-actions": "^4.0.12",
+    "@storybook/addon-knobs": "4.0.12",
+    "@storybook/addon-links": "^4.0.12",
+    "@storybook/addons": "^4.0.12",
+    "@storybook/react": "^4.0.12",
+    "babel-loader": "^8.0.4",
+    "sass-loader": "7.1.0",
+    "storybook-addon-jsx": "6.0.0",
+    "storybook-readme": "4.0.2"
+  },
+  "dependencies": {
+    "@datacamp/waffles-core": "0.0.0",
+    "@datacamp/waffles-styles": "0.0.0",
+    "styled-components": "4.1.2"
+  },
+  "peerDependencies": {
+    "@datacamp/waffles-styles": "0.0.0"
+  }
+}
