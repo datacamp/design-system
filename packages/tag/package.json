@@ -1,5 +1,5 @@
 {
-  "name": "@datacamp/dc-design-system-tag",
+  "name": "@datacamp/waffles-tag",
   "version": "0.0.0",
   "description": "Creates a small tag element for things like XP points.",
   "main": "src/index.js",
