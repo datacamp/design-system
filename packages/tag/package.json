@@ -26,13 +26,22 @@
     "@storybook/addons": "^4.0.12",
     "@storybook/react": "^4.0.12",
     "babel-loader": "^8.0.4",
+    "jest-styled-components": "6.3.1",
     "sass-loader": "7.1.0",
     "storybook-addon-jsx": "6.0.0",
     "storybook-readme": "4.0.2"
   },
   "dependencies": {
-    "@datacamp/waffles-core": "^0.1.0-alpha.0",
-    "styled-components": "4.1.2"
+    "styled-components": "4.1.2",
+    "@datacamp/waffles-core": "0.1.0-alpha.0"
+  },
+  "peerDependencies": {
+    "classnames": ">= 2.2.5",
+    "lodash": ">= 4.17.4",
+    "prop-types": ">= 15.6.0",
+    "react": ">= 15.6.1",
+    "styled-components": ">= 4.1.2",
+    "@datacamp/waffles-core": ">= 0.1.0-alpha.0"
   },
   "publishConfig": {
     "access": "restricted"
