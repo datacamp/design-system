@@ -3,11 +3,10 @@ import { storiesOf } from '@storybook/react';
 import { select, text, boolean } from '@storybook/addon-knobs';
 import { withReadme } from 'storybook-readme';
 
+import { getColor } from '@datacamp/waffles-core/js/colors';
 import readme from '../README.md';
 
 import Tag from './index';
-
-import { getColor } from '@datacamp/waffles-core/colors';
 
 const renderTable = (elements, { showDarkBackground = false } = {}) => (
   <table style={{ width: 'auto', margin: '0 auto' }}>

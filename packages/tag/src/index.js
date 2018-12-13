@@ -6,17 +6,17 @@ import styled from 'styled-components';
 
 import './index.css';
 
-import { getColor, getContrastColor } from '@datacamp/waffles-core/colors';
+import { getColor, getContrastColor } from '@datacamp/waffles-core';
 
 const Tag = ({ color, children, extraClass, rounded, textColor }) => {
-  const Tag = styled.div`
+  const TagStyled = styled.div`
     background-color: ${getColor(color) || getColor('primaryLightest')};
     color: ${(isNil(textColor) && getContrastColor(color)) ||
       getColor(textColor)};
   `;
 
   return (
-    <Tag
+    <TagStyled
       className={cx(
         'dc-tag',
         {
@@ -27,7 +27,7 @@ const Tag = ({ color, children, extraClass, rounded, textColor }) => {
       )}
     >
       {children}
-    </Tag>
+    </TagStyled>
   );
 };
 Tag.defaultProps = {

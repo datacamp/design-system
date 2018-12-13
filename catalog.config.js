@@ -1,5 +1,6 @@
 const path = require('path');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
+
 const modulesPath = path.resolve(__dirname);
 
 module.exports = {
@@ -7,7 +8,7 @@ module.exports = {
     const extractSCSS = new ExtractTextPlugin({
       filename: 'static/[name].[contenthash:8].css',
       disable: dev,
-    })
+    });
 
     config.module.rules[0].oneOf.unshift({
       test: /\.scss$/,
@@ -39,9 +40,7 @@ module.exports = {
       include: modulesPath,
     });
 
-    config.plugins.push(
-      extractSCSS,
-    );
+    config.plugins.push(extractSCSS);
 
     return config;
   },
