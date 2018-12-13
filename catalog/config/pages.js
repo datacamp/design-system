@@ -1,4 +1,4 @@
-import { pageLoader } from 'catalog'
+import { pageLoader } from 'catalog';
 
 // design: typography, colors, etc.
 const design = {
@@ -7,10 +7,10 @@ const design = {
     {
       path: '/design',
       title: 'Design',
-      content: pageLoader(() => import('../pages/design/index.md'))
-    }
-  ]
-}
+      content: pageLoader(() => import('../pages/design/index.md')),
+    },
+  ],
+};
 
 // content: tone, voice, etc.
 const content = {
@@ -19,10 +19,10 @@ const content = {
     {
       path: '/content',
       title: 'Content',
-      content: pageLoader(() => import('../pages/content/index.md'))
-    }
-  ]
-}
+      content: pageLoader(() => import('../pages/content/index.md')),
+    },
+  ],
+};
 
 // components: DataCamp design system React components.
 const components = {
@@ -31,10 +31,10 @@ const components = {
     {
       path: '/components',
       title: 'Components',
-      content: pageLoader(() => import('../pages/components/index.md'))
-    }
-  ]
-}
+      content: pageLoader(() => import('../pages/components/index.md')),
+    },
+  ],
+};
 
 // patterns: Design patterns using components and utility classes.
 const patterns = {
@@ -43,22 +43,22 @@ const patterns = {
     {
       path: '/patterns',
       title: 'Patterns',
-      content: pageLoader(() => import('../pages/patterns/index.md'))
-    }
-  ]
-}
+      content: pageLoader(() => import('../pages/patterns/index.md')),
+    },
+  ],
+};
 
 // export all pages to Catalog.
 const pages = [
   {
     path: '/',
     title: 'Welcome',
-    content: pageLoader(() => import('../pages/index.md'))
+    content: pageLoader(() => import('../pages/index.md')),
   },
   design,
   content,
   components,
-  patterns
-]
+  patterns,
+];
 
-export default pages
+export default pages;
