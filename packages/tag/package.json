@@ -3,14 +3,16 @@
   "version": "0.0.1-alpha.0",
   "description": "Creates a small tag element for things like XP points.",
   "main": "src/index.js",
-  "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
   },
   "keywords": [],
-  "author": "Jordan Wade <jjwade31@gmail.com>",
+  "author": "DataCamp",
+  "contributors": [
+    "Jordan Wade <jjwade31@gmail.com>"
+  ],
   "repository": "datacamp/design-system",
   "license": "ISC",
   "directories": {
@@ -35,5 +37,8 @@
   },
   "peerDependencies": {
     "@datacamp/waffles-styles": "0.0.0"
+  },
+  "publishConfig": {
+    "access": "restricted"
   }
 }
