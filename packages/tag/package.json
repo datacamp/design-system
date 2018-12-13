@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "description": "Creates a small tag element for things like XP points.",
   "main": "src/index.js",
+  "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "storybook": "start-storybook -p 6006",
