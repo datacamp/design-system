@@ -1,0 +1,246 @@
+@import '../tokens.json';
+
+// *************************************
+//
+//   DC Globals
+//   -> Variables created for re-use globally
+//
+// *************************************
+
+/**
+ * Global Sass variables, all namespaced within "dc-". Must be included before
+ * any other partials and a critical path dependency for the styleguide.
+ */
+
+/** Spatial */
+
+$dc-multiplier: map_get($spatial, multiplier);
+
+// Spatial lists for generating utility classes
+$dc-spatial: map_get($spatial, sizes);
+$dc-spatial-common: map_get($spatial, commonSizes);
+$dc-measure: map_get($spatial, measure);
+$dc-spatial-all: join($list1: $dc-spatial, $list2: $dc-measure);
+
+// Percentages list for generating utility classes
+$dc-percentages: map_get($spatial, percentages);
+
+/** Color */
+
+// To add a new color, first add the variable then add the color name to the
+// $dc-colors map below which is used to generate utility classes.
+$dc-green: map_get($colors, green);
+$dc-green-light: map_get($colors, greenLight);
+$dc-geyser: map_get($colors, geyser);
+$dc-grey: map_get($colors, grey);
+$dc-grey-dark: map_get($colors, greyDark);
+$dc-grey-light: map_get($colors, greyLight);
+$dc-grey-lighter: map_get($colors, greyLighter);
+$dc-grey-oslo: map_get($colors, greyOslo);
+$dc-orange: map_get($colors, orange);
+$dc-orange-dark: map_get($colors, orangeDark);
+$dc-porcelain: map_get($colors, porcelain);
+$dc-primary: map_get($colors, primary);
+$dc-primary-dark: map_get($colors, primaryDark);
+$dc-primary-darker: map_get($colors, primaryDarker);
+$dc-primary-darkest: map_get($colors, primaryDarkest);
+$dc-primary-light: map_get($colors, primaryLight);
+$dc-primary-lighter: map_get($colors, primaryLighter);
+$dc-primary-lightest: map_get($colors, primaryLightest);
+$dc-purple: map_get($colors, purple);
+$dc-purple-dark: map_get($colors, purpleDark);
+$dc-purple-light: map_get($colors, purpleLight);
+$dc-raven: map_get($colors, raven);
+$dc-red: map_get($colors, red);
+$dc-red-light: map_get($colors, redLight);
+$dc-secondary: map_get($colors, secondary);
+$dc-secondary-light: map_get($colors, secondaryLight);
+$dc-white: map_get($colors, white);
+$dc-white-transparent: map_get($colors, whiteTransparent);
+
+// Color map
+/* stylelint-disable scss/at-function-named-arguments */
+$dc-colors: (
+  'green': $dc-green,
+  'green-light': $dc-green-light,
+  'geyser': $dc-geyser,
+  'grey': $dc-grey,
+  'grey-dark': $dc-grey-dark,
+  'grey-light': $dc-grey-light,
+  'grey-lighter': $dc-grey-lighter,
+  'grey-oslo': $dc-grey-oslo,
+  'orange': $dc-orange,
+  'orange-dark': $dc-orange-dark,
+  'porcelain': $dc-porcelain,
+  'primary': $dc-primary,
+  'primary-dark': $dc-primary-dark,
+  'primary-darker': $dc-primary-darker,
+  'primary-darkest': $dc-primary-darkest,
+  'primary-light': $dc-primary-light,
+  'primary-lighter': $dc-primary-lighter,
+  'primary-lightest': $dc-primary-lightest,
+  'purple': $dc-purple,
+  'purple-dark': $dc-purple-dark,
+  'purple-light': $dc-purple-light,
+  'raven': $dc-raven,
+  'red': $dc-red,
+  'red-light': $dc-red-light,
+  'secondary': $dc-secondary,
+  'secondary-light': $dc-secondary-light,
+  'white': $dc-white,
+  'white-transparent': $dc-white-transparent,
+  'currentColor': currentColor,
+  'transparent': transparent
+);
+/* stylelint-enable */
+
+/** Gradient */
+
+// to be deprecated?
+$dc-gradient-chambray-cloudburst: map_get($gradients, chambrayCloudburst);
+$dc-gradient-puertorico-deyork: map_get($gradients, puertoricoDeyork);
+
+$dc-gradient-blue-light: map_get($gradients, blueLight);
+$dc-gradient-green: $dc-gradient-puertorico-deyork;
+$dc-gradient-grey: map_get($gradients, grey);
+$dc-gradient-primary: map_get($gradients, primary);
+$dc-gradient-primary-dark: map_get($gradients, primaryDark);
+$dc-gradient-primary-light: map_get($gradients, primaryLight);
+$dc-gradient-purple: map_get($gradients, purple);
+$dc-gradient-red: map_get($gradients, red);
+$dc-gradient-red-light: map_get($gradients, redLight);
+$dc-gradient-secondary: map_get($gradients, secondary);
+$dc-gradient-turquoise: map_get($gradients, turquoise);
+
+/** Typography */
+
+// Font family
+$dc-font-family-sans-serif: map_get($fontFamily, sansSerif);
+$dc-font-family-mono: map_get($fontFamily, mono);
+
+// Font size
+$dc-font-size-base: map_get($fontSize, base);
+$dc-font-size-micro: map_get($fontSize, micro);
+$dc-font-size-small: map_get($fontSize, small);
+
+// Heading size
+$dc-font-size-h1: map_get($fontSize, h1);
+$dc-font-size-h2: map_get($fontSize, h2);
+$dc-font-size-h3: map_get($fontSize, h3);
+$dc-font-size-h4: map_get($fontSize, h4);
+$dc-font-size-h5: map_get($fontSize, h5);
+$dc-font-size-h6: map_get($fontSize, h6);
+
+// Font weight
+$dc-font-weight-bold: map_get($fontWeight, bold);
+$dc-font-weight-light: map_get($fontWeight, light);
+$dc-font-weight-regular: map_get($fontWeight, regular);
+
+// Line height
+$dc-line-height-base: map_get($lineHeight, base);
+$dc-line-height-heading: map_get($lineHeight, heading);
+
+/** Border */
+
+$dc-border-radius: map_get($border, radius);
+
+/** Box shadow */
+
+// Box shadow color
+$dc-box-shadow-color:  map_get($boxShadow, color);
+
+// Box shadows
+$dc-box-shadow-border: map_get($boxShadow, border);
+$dc-box-shadow-sm: map_get($boxShadow, sm);
+$dc-box-shadow-md: map_get($boxShadow, md);
+$dc-box-shadow-lg: map_get($boxShadow, lg);
+$dc-box-shadow-xl: map_get($boxShadow, xl);
+$dc-box-shadow-xxl: map_get($boxShadow, xxl);
+$dc-box-shadow-xl-green: map_get($boxShadow, xlGreen);
+$dc-box-shadow-xl-orange: map_get($boxShadow, xlOrange);
+$dc-box-shadow-xl-purple: map_get($boxShadow, xlPurple);
+
+/** Transform */
+
+$dc-angles: map_get($spatial, angles);
+
+/** Animation */
+
+$dc-duration: map_get($animation, duration);
+$dc-ease: map_get($animation, ease);
+$dc-transition: map_get($animation, transition);
+
+/** z-index */
+
+$dc-z-indexes: map_get($spatial, zIndex);
+
+/** Breakpoints */
+
+$dc-bp-xs: map_get($breakpoints, xs);
+$dc-bp-sm: map_get($breakpoints, sm);
+$dc-bp-md: map_get($breakpoints, md);
+$dc-bp-lg: map_get($breakpoints, lg);
+$dc-bp-xl: map_get($breakpoints, xl);
+$dc-bp-ws: map_get($breakpoints, ws);
+$dc-bp-4k: map_get($breakpoints, 4k);
+$dc-bp-5k: map_get($breakpoints, 5k);
+
+// Breakpoints for max-width media queries
+$dc-bp-below-xs: map_get($breakpoints, belowXs);
+$dc-bp-below-sm: map_get($breakpoints, belowSm);
+$dc-bp-below-md: map_get($breakpoints, belowMd);
+$dc-bp-below-lg: map_get($breakpoints, belowLg);
+$dc-bp-below-xl: map_get($breakpoints, belowXl);
+$dc-bp-below-ws: map_get($breakpoints, belowWs);
+$dc-bp-below-4k: map_get($breakpoints, below4k);
+$dc-bp-below-5k: map_get($breakpoints, below5k);
+
+// Breakpoints map
+/* stylelint-disable scss/at-function-named-arguments */
+$dc-breakpoints: (
+  'xs': $dc-bp-xs,
+  'sm': $dc-bp-sm,
+  'md': $dc-bp-md,
+  'lg': $dc-bp-lg,
+  'xl': $dc-bp-xl
+);
+
+// hd breakpoints
+$dc-breakpoints-hd: (
+  'ws': $dc-bp-ws,
+  '4k': $dc-bp-4k,
+  '5k': $dc-bp-5k
+);
+
+// all breakpoints
+$dc-breakpoints-all: map-merge($dc-breakpoints, $dc-breakpoints-hd);
+
+// Breakpoints for max-width map
+$dc-breakpoints-below: (
+  'xs': $dc-bp-below-xs,
+  'sm': $dc-bp-below-sm,
+  'md': $dc-bp-below-md,
+  'lg': $dc-bp-below-lg,
+  'xl': $dc-bp-below-xl
+);
+
+// hd max-width breakpoints
+$dc-breakpoints-below-hd: (
+  'ws': $dc-bp-below-ws,
+  '4k': $dc-bp-below-4k,
+  '5k': $dc-bp-below-5k
+);
+
+// all max-width breakpoints
+$dc-breakpoints-below-all: map-merge($dc-breakpoints-below, $dc-breakpoints-below-hd);
+/* stylelint-enable */
+
+// Sides
+/* stylelint-disable scss/at-function-named-arguments */
+$dc-sides: (
+  't': top,
+  'r': right,
+  'b': bottom,
+  'l': left,
+);
+/* stylelint-enable */
