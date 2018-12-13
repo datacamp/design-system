@@ -25,7 +25,7 @@
   "scripts": {
     "catalog-start": "catalog start",
     "catalog-build": "catalog build",
-    "build-css": "node-sass-chokidar ./packages/styles/SCSS/ingredients.scss ./catalog/build/static/ingredients.css",
+    "build-css": "node-sass-chokidar ./packages/core/scss/ingredients.scss ./catalog/build/static/ingredients.css",
     "watch-css": "npm run build-css && node-sass-chokidar src/ -o catalog/build/ --watch --recursive"
   },
   "devDependencies": {

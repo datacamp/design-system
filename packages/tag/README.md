@@ -6,7 +6,7 @@ Creates a small tag element for things like XP points.
 
 ```js
 import React from 'react';
-import Tag from '@datacamp/le-shared-components/lib/Tag';
+import Tag from '@datacamp/waffles-tag';
 class App extends React.Component {
   render() {
     return <Tag>50XP</Tag>;
