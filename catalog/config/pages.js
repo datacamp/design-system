@@ -32,6 +32,23 @@ const design = {
   ]
 }
 
+// design: typography, colors, etc.
+const designUtilities = {
+  title: 'Design Utilities',
+  pages: [
+    {
+      path: '/design-utilities',
+      title: 'Intro',
+      content: pageLoader(() => import('../pages/design-utilities/index.md'))
+    },
+    {
+      path: '/design-utilities/background',
+      title: 'Background',
+      content: pageLoader(() => import('../pages/design-utilities/background.md'))
+    }
+  ]
+}
+
 // content: tone, voice, etc.
 const content = {
   title: 'Content',
@@ -62,8 +79,18 @@ const patterns = {
   pages: [
     {
       path: '/patterns',
-      title: 'Patterns',
+      title: 'Intro',
       content: pageLoader(() => import('../pages/patterns/index.md')),
+    },
+    {
+      path: '/patterns/bucket',
+      title: 'Bucket',
+      content: pageLoader(() => import('../pages/patterns/bucket.md')),
+    },
+    {
+      path: '/patterns/edge-to-edge',
+      title: 'Edge-to-Edge',
+      content: pageLoader(() => import('../pages/patterns/edge-to-edge.md')),
     },
   ],
 };
@@ -76,6 +103,7 @@ const pages = [
     content: pageLoader(() => import('../pages/index.md')),
   },
   design,
+  designUtilities,
   content,
   components,
   patterns,
