@@ -28,6 +28,8 @@
   },
   "main": "catalog/index.js",
   "scripts": {
+    "bootstrap": "lerna bootstrap",
+    "clean": "lerna clean",
     "lint": "eslint --ignore-path .gitignore .",
     "lint:fix": "npm run lint -- --fix",
     "catalog-start": "catalog start",

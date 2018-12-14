@@ -3,6 +3,7 @@ node_modules
 package
 .vscode/settings.json
 build
+lib
 
 # always ignore
 *.diff

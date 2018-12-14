@@ -2,11 +2,13 @@
   "name": "@datacamp/waffles-tag",
   "version": "0.1.1-alpha.0",
   "description": "Creates a small tag element for things like XP points.",
-  "main": "src/index.js",
+  "main": "lib/index.js",
   "scripts": {
+    "build": "babel src --out-dir lib --ignore spec.js --copy-files",
     "test": "echo \"Error: no test specified\" && exit 1",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "prepublish": "npm run build"
   },
   "keywords": [],
   "author": "DataCamp",
@@ -25,7 +27,11 @@
     "@storybook/addon-links": "^4.0.12",
     "@storybook/addons": "^4.0.12",
     "@storybook/react": "^4.0.12",
+    "babel-cli": "^6.26.0",
     "babel-loader": "^8.0.4",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
     "jest-styled-components": "6.3.1",
     "sass-loader": "7.1.0",
     "storybook-addon-jsx": "6.0.0",
