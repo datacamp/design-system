@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import { Catalog } from 'catalog';
 import pages from './config/pages';
 import { logoSrc, theme, responsiveSizes } from './config/theme';
-import '../packages/core/scss/ingredients.scss';
+import "./config/catalog.scss";
 
 const styles = [];
 const scripts = [];

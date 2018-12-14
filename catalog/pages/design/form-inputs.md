@@ -32,7 +32,7 @@
 	<span class="dc-input-group__icon">
 		<span class="dc-icon dc-icon--size-18 dc-icon--white dc-icon--flex">
 			<svg class="dc-icon__svg">
-				<use xlink:href="/assets/toolkit/images/core-components/icons/svg/symbols.svg#mail" />
+				<use xlink:href="#mail" />
 			</svg>
 		</span>
 	</span>
@@ -45,7 +45,7 @@
 	<span class="dc-input-group__icon">
 		<span class="dc-icon dc-icon--size-18 dc-icon--white dc-icon--flex">
 			<svg class="dc-icon__svg">
-				<use xlink:href="/assets/toolkit/images/core-components/icons/svg/symbols.svg#mail" />
+				<use xlink:href="#mail" />
 			</svg>
 		</span>
 	</span>
@@ -61,7 +61,7 @@ Use any icon within the `dc-input-combo__cap` and the `--start` and `--end` modi
 	<div class="dc-input-combo__cap dc-u-fx-center">
 		<span class="dc-icon dc-icon--size-24 dc-icon--primary dc-icon--flex">
 			<svg class="dc-icon__svg">
-				<use xlink:href="/assets/toolkit/images/core-components/icons/svg/symbols.svg#eye" />
+				<use xlink:href="#eye" />
 			</svg>
 		</span>
 	</div>
@@ -74,7 +74,7 @@ Use any icon within the `dc-input-combo__cap` and the `--start` and `--end` modi
 	<div class="dc-input-combo__cap dc-u-fx-center">
 		<span class="dc-icon dc-icon--size-24 dc-icon--primary dc-icon--flex">
 			<svg class="dc-icon__svg">
-				<use xlink:href="/assets/toolkit/images/core-components/icons/svg/symbols.svg#eye" />
+				<use xlink:href="#eye" />
 			</svg>
 		</span>
 	</div>
@@ -102,7 +102,7 @@ Use any icon within the `dc-input-combo__cap` and the `--start` and `--end` modi
 	<span class="dc-input-checkbox__indicator">
 		<span class="dc-icon dc-input-checkbox__check">
 			<svg class="dc-icon__svg">
-				<use xlink:href="/assets/toolkit/images/core-components/icons/svg/symbols.svg#checkmark" />
+				<use xlink:href="#checkmark" />
 			</svg>
 		</span>
 	</span>
@@ -115,7 +115,7 @@ Use any icon within the `dc-input-combo__cap` and the `--start` and `--end` modi
 	<span class="dc-input-checkbox__indicator u-fx-center">
 		<span class="dc-icon dc-input-checkbox__check">
 			<svg class="dc-icon__svg">
-				<use xlink:href="/assets/toolkit/images/core-components/icons/svg/symbols.svg#checkmark" />
+				<use xlink:href="#checkmark" />
 			</svg>
 		</span>
 	</span>
@@ -133,7 +133,7 @@ The error styles are handled by a parent class name. The parent of the checkbox 
 		<span class="dc-input-checkbox__indicator">
 			<span class="dc-icon dc-input-checkbox__check">
 				<svg class="dc-icon__svg">
-					<use xlink:href="/assets/toolkit/images/core-components/icons/svg/symbols.svg#checkmark" />
+					<use xlink:href="#checkmark" />
 				</svg>
 			</span>
 		</span>
@@ -148,7 +148,7 @@ The error styles are handled by a parent class name. The parent of the checkbox 
 		<span class="dc-input-checkbox__indicator">
 			<span class="dc-icon dc-input-checkbox__check">
 				<svg class="dc-icon__svg">
-					<use xlink:href="/assets/toolkit/images/core-components/icons/svg/symbols.svg#checkmark" />
+					<use xlink:href="#checkmark" />
 				</svg>
 			</span>
 		</span>
@@ -165,7 +165,7 @@ The error styles are handled by a parent class name. The parent of the checkbox 
 	<span class="dc-input-checkbox__indicator u-fx-center">
 		<span class="dc-icon dc-input-checkbox__check">
 			<svg class="dc-icon__svg">
-				<use xlink:href="/assets/toolkit/images/core-components/icons/svg/symbols.svg#checkmark" />
+				<use xlink:href="#checkmark" />
 			</svg>
 		</span>
 	</span>
@@ -178,7 +178,7 @@ The error styles are handled by a parent class name. The parent of the checkbox 
 	<span class="dc-input-checkbox__indicator u-fx-center">
 		<span class="dc-icon dc-input-checkbox__check">
 			<svg class="dc-icon__svg">
-				<use xlink:href="/assets/toolkit/images/core-components/icons/svg/symbols.svg#checkmark" />
+				<use xlink:href="#checkmark" />
 			</svg>
 		</span>
 	</span>
@@ -191,7 +191,7 @@ The error styles are handled by a parent class name. The parent of the checkbox 
 	<span class="dc-input-checkbox__indicator u-fx-center">
 		<span class="dc-icon dc-input-checkbox__check">
 			<svg class="dc-icon__svg">
-				<use xlink:href="/assets/toolkit/images/core-components/icons/svg/symbols.svg#checkmark" />
+				<use xlink:href="#checkmark" />
 			</svg>
 		</span>
 	</span>
@@ -207,7 +207,7 @@ The error styles are handled by a parent class name. The parent of the checkbox 
 	<span class="dc-input-checkbox__indicator u-fx-center">
 		<span class="dc-icon dc-input-checkbox__check">
 			<svg class="dc-icon__svg">
-				<use xlink:href="/assets/toolkit/images/core-components/icons/svg/symbols.svg#checkmark" />
+				<use xlink:href="#checkmark" />
 			</svg>
 		</span>
 	</span>

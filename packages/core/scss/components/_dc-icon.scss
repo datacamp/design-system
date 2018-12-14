@@ -1,0 +1,144 @@
+// *************************************
+//
+//   Icons
+//
+// -------------------------------------
+//   Template
+// -------------------------------------
+//
+// .dc-icon dc-icon--size-#{$size} dc-icon--#{$color} [flex spinner]
+//   .dc-icon__svg
+//
+// *************************************
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/*
+ * 1. Vertical alignment trick: https://snook.ca/archives/html_and_css/icons-and-type
+ * 2. IE doesn't bubble up events from SVG elements unless we put an overlay in place
+ * 3. Inherit the parent's fill color when no specific color is provided
+ */
+
+.dc-icon {
+  display: inline-block;
+  fill: $dc-primary;
+  overflow: hidden;
+  position: relative;
+  top: -0.1em; /* 1 */
+  transition: fill $dc-transition;
+  vertical-align: middle;
+
+  &::after { /* 2 */
+    bottom: 0;
+    content: '';
+    display: block;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  .disabled &,
+  :disabled & {
+    fill: $dc-white;
+  }
+}
+
+// -------------------------------------
+// Scaffolding
+// -------------------------------------
+
+.dc-icon__svg {
+  bottom: 0;
+  display: block;
+  fill: inherit;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 100%;
+
+  [class*='dc-icon--hover']:hover &,
+  [class*='dc-icon--hover']:focus &,
+  [class*='dc-icon--active'].is-active & {
+    fill: inherit; /* 3 */
+  }
+}
+
+// -------------------------------------
+// Modifiers
+// -------------------------------------
+
+// ----- Flex ----- //
+
+.dc-icon--flex {
+  top: 0;
+}
+
+// ----- White and Shadowed ----- //
+
+.dc-icon--white-shadowed {
+  background: $dc-white;
+  border-radius: 50%;
+  box-shadow: 0 1px 4px 0 $dc-box-shadow-color;
+  transition: transform $dc-transition, box-shadow $dc-transition;
+
+  @include afh {
+    box-shadow: 0 2px 8px 0 $dc-box-shadow-color;
+    transform: translateY(-1px);
+    transition: transform $dc-transition, box-shadow $dc-transition;
+  }
+}
+
+// -------------------------------------
+// Colors
+//
+// This is used to generate color classes based off a list of available
+// icon colors.
+// 'currentColor' can be used to use whatever text color is applied.
+//
+// Example output: .dc-icon--primary
+// -------------------------------------
+
+@each $color, $value in $dc-colors {
+  .dc-icon--#{$color},
+  .dc-icon--hover-#{$color}:hover,
+  .dc-icon--hover-#{$color}:focus {
+    fill: $value;
+  }
+
+  .dc-icon--active-#{$color}.is-active {
+    fill: $value !important;
+  }
+}
+
+// -------------------------------------
+// Sizes
+//
+// This is used to generate icon size classes based off a list
+// of available icon sizes.
+//
+// Example output: .dc-icon--size-18
+//
+// -------------------------------------
+$icon-sizes: '12', '18', '24', '64';
+
+@each $size in $icon-sizes {
+  .dc-icon--size-#{$size} {
+    height: #{$size}px;
+    width: #{$size}px;
+  }
+}
+
+// -------------------------------------
+// Animations
+// -------------------------------------
+
+// ----- Spining/Loading ----- //
+
+.dc-icon--spinner {
+  animation: spin 1s steps(12) infinite;
+}
