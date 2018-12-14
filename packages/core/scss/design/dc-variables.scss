@@ -11,62 +11,53 @@
  */
 
 /** Spatial */
-$dc-multiplier: 2;
+
+$dc-multiplier: map_get($spatial, multiplier);
 
 // Spatial lists for generating utility classes
-
-// If any spatial options change update toolkit.yml
-$dc-spatial: 2 4 8 12 16 24 32 48 64 80 96 128;
-$dc-spatial-common: 8 12 16 24 32 48 64;
-$dc-measure: 192 256 320 480 640 800 960;
+$dc-spatial: map_get($spatial, sizes);
+$dc-spatial-common: map_get($spatial, commonSizes);
+$dc-measure: map_get($spatial, measure);
 $dc-spatial-all: join($list1: $dc-spatial, $list2: $dc-measure);
 
 // Percentages list for generating utility classes
-// If any percentages options change update toolkit.yml
-$dc-percentages: 1 5 10 15 20 25 30 40 44 50 60 70 75 80 90 100;
+$dc-percentages: map_get($spatial, percentages);
 
 /** Color */
 
 // To add a new color, first add the variable then add the color name to the
 // $dc-colors map below which is used to generate utility classes.
-
-// If any colors change update toolkit.yml
-// @sass-export-section="color"
-$dc-green: #36d57d;
-$dc-green-light: #a5ecc5;
-$dc-geyser: #cfdce1;
-$dc-grey: #686f75;
-$dc-grey-dark: #3d4251;
-$dc-grey-light: #d1d3d8;
-$dc-grey-lighter: #e6eaeb;
-$dc-grey-oslo: #859094;
-$dc-orange: #ff9400;
-$dc-orange-dark: #ad662c;
-$dc-porcelain: #f0f4f5;
-$dc-primary: #3ac;
-$dc-primary-dark: #263e63;
-$dc-primary-darker: #14243e;
-$dc-primary-darkest: #0c1626;
-$dc-primary-light: #7ecce2;
-$dc-primary-lighter: #d5eaef;
-$dc-primary-lightest: #ebf4f7;
-$dc-purple: #8468c4;
-$dc-purple-dark: #5d488c;
-$dc-purple-light: #a786f3;
-$dc-raven: #737a80;
-$dc-red: #fe5c5c;
-$dc-red-light: #ffb5b5;
-$dc-secondary: #ffc844;
-$dc-secondary-light: #fbe28d;
-$dc-white: #fff;
-$dc-white-transparent: rgba($dc-white, 0.2);
-
-// @end-sass-export-section
+$dc-green: map_get($colors, green);
+$dc-green-light: map_get($colors, greenLight);
+$dc-geyser: map_get($colors, geyser);
+$dc-grey: map_get($colors, grey);
+$dc-grey-dark: map_get($colors, greyDark);
+$dc-grey-light: map_get($colors, greyLight);
+$dc-grey-lighter: map_get($colors, greyLighter);
+$dc-grey-oslo: map_get($colors, greyOslo);
+$dc-orange: map_get($colors, orange);
+$dc-orange-dark: map_get($colors, orangeDark);
+$dc-porcelain: map_get($colors, porcelain);
+$dc-primary: map_get($colors, primary);
+$dc-primary-dark: map_get($colors, primaryDark);
+$dc-primary-darker: map_get($colors, primaryDarker);
+$dc-primary-darkest: map_get($colors, primaryDarkest);
+$dc-primary-light: map_get($colors, primaryLight);
+$dc-primary-lighter: map_get($colors, primaryLighter);
+$dc-primary-lightest: map_get($colors, primaryLightest);
+$dc-purple: map_get($colors, purple);
+$dc-purple-dark: map_get($colors, purpleDark);
+$dc-purple-light: map_get($colors, purpleLight);
+$dc-raven: map_get($colors, raven);
+$dc-red: map_get($colors, red);
+$dc-red-light: map_get($colors, redLight);
+$dc-secondary: map_get($colors, secondary);
+$dc-secondary-light: map_get($colors, secondaryLight);
+$dc-white: map_get($colors, white);
+$dc-white-transparent: map_get($colors, whiteTransparent);
 
 // Color map
 /* stylelint-disable scss/at-function-named-arguments */
-
-// If any colors change update toolkit.yml
 $dc-colors: (
   'green': $dc-green,
   'green-light': $dc-green-light,
@@ -102,115 +93,105 @@ $dc-colors: (
 /* stylelint-enable */
 
 /** Gradient */
-// If any gradients change update toolkit.yml
-// @sass-export-section="gradient"
-$dc-gradient-primary: linear-gradient(141deg, #2388b0, $dc-primary);
-$dc-gradient-primary-dark: linear-gradient(141deg, #20748d, #164d62);
-$dc-gradient-primary-light: linear-gradient(180deg, rgba($dc-white, 0), rgba($dc-primary, 0.075));
-$dc-gradient-red-light: linear-gradient(180deg, rgba($dc-white, 0), rgba($dc-red, 0.075));
-$dc-gradient-secondary: linear-gradient(0deg, $dc-secondary, #fcd86c);
-$dc-gradient-chambray-cloudburst: linear-gradient(268deg, #405f8f, #1c3050);
-$dc-gradient-puertorico-deyork: linear-gradient(32deg, #37bbab, #75c97e);
 
-// @end-sass-export-section
+// to be deprecated?
+$dc-gradient-chambray-cloudburst: map_get($gradients, chambrayCloudburst);
+$dc-gradient-puertorico-deyork: map_get($gradients, puertoricoDeyork);
+
+$dc-gradient-blue-light: map_get($gradients, blueLight);
+$dc-gradient-green: $dc-gradient-puertorico-deyork;
+$dc-gradient-grey: map_get($gradients, grey);
+$dc-gradient-primary: map_get($gradients, primary);
+$dc-gradient-primary-dark: map_get($gradients, primaryDark);
+$dc-gradient-primary-light: map_get($gradients, primaryLight);
+$dc-gradient-purple: map_get($gradients, purple);
+$dc-gradient-red: map_get($gradients, red);
+$dc-gradient-red-light: map_get($gradients, redLight);
+$dc-gradient-secondary: map_get($gradients, secondary);
+$dc-gradient-turquoise: map_get($gradients, turquoise);
 
 /** Typography */
 
 // Font family
-// @sass-export-section="font"
-$dc-font-family-sans-serif: 'lato', sans-serif;
-$dc-font-family-mono: 'Roboto Mono', monospace;
-
-// @end-sass-export-section
+$dc-font-family-sans-serif: map_get($fontFamily, sansSerif), sans-serif;
+$dc-font-family-mono: map_get($fontFamily, mono), monospace;
 
 // Font size
-$dc-font-size-base: 16px;
-$dc-font-size-micro: 0.75rem;  // 12px
-$dc-font-size-small: 0.875rem; // 14px
+$dc-font-size-base: map_get($fontSize, base);
+$dc-font-size-micro: map_get($fontSize, micro);
+$dc-font-size-small: map_get($fontSize, small);
 
 // Heading size
-$dc-font-size-h1: 2.5rem;   // 40px
-$dc-font-size-h2: 2rem;     // 32px
-$dc-font-size-h3: 1.5rem;   // 24px
-$dc-font-size-h4: 1.25rem;  // 20px
-$dc-font-size-h5: 1.125rem; // 18px
-$dc-font-size-h6: 1rem;     // 16px
+$dc-font-size-h1: map_get($fontSize, h1);
+$dc-font-size-h2: map_get($fontSize, h2);
+$dc-font-size-h3: map_get($fontSize, h3);
+$dc-font-size-h4: map_get($fontSize, h4);
+$dc-font-size-h5: map_get($fontSize, h5);
+$dc-font-size-h6: map_get($fontSize, h6);
 
 // Font weight
-$dc-font-weight-bold: 700;
-$dc-font-weight-light: 300;
-$dc-font-weight-regular: 400;
-
-// @end-sass-export-section
+$dc-font-weight-bold: map_get($fontWeight, bold);
+$dc-font-weight-light: map_get($fontWeight, light);
+$dc-font-weight-regular: map_get($fontWeight, regular);
 
 // Line height
-// @sass-export-section="lineHeight"
-$dc-line-height-base: 1.5;
-$dc-line-height-heading: 1.25;
-
-// @end-sass-export-section
+$dc-line-height-base: map_get($lineHeight, base);
+$dc-line-height-heading: map_get($lineHeight, heading);
 
 /** Border */
-// @sass-export-section="border"
-$dc-border-radius: 4px;
 
-// @end-sass-export-section
+$dc-border-radius: map_get($border, radius);
 
 /** Box shadow */
-// @sass-export-section="boxShadow"
+
 // Box shadow color
-$dc-box-shadow-color: rgba(0, 0, 0, 0.15);
+$dc-box-shadow-color:  map_get($boxShadow, color);
 
 // Box shadows
-$dc-box-shadow-border: 0 0 0 1px $dc-grey-lighter;
-$dc-box-shadow-sm: 0 1px 2px 0 $dc-box-shadow-color;
-$dc-box-shadow-md: 0 1px 3px 0 $dc-box-shadow-color;
-$dc-box-shadow-lg: 0 3px 5px 0 $dc-box-shadow-color;
-$dc-box-shadow-xl: 0 4px 8px 0 $dc-box-shadow-color;
-$dc-box-shadow-xxl: 0 10px 20px 0 $dc-box-shadow-color;
-$dc-box-shadow-xl-green: 0 4px 8px 0 rgba($dc-green, 0.3);
-$dc-box-shadow-xl-orange: 0 4px 8px 0 rgba($dc-orange, 0.3);
-$dc-box-shadow-xl-purple: 0 4px 8px 0 rgba($dc-purple, 0.3);
-
-// @end-sass-export-section
+$dc-box-shadow-border: map_get($boxShadow, border);
+$dc-box-shadow-sm: map_get($boxShadow, sm);
+$dc-box-shadow-md: map_get($boxShadow, md);
+$dc-box-shadow-lg: map_get($boxShadow, lg);
+$dc-box-shadow-xl: map_get($boxShadow, xl);
+$dc-box-shadow-xxl: map_get($boxShadow, xxl);
+$dc-box-shadow-xl-green: map_get($boxShadow, xlGreen);
+$dc-box-shadow-xl-orange: map_get($boxShadow, xlOrange);
+$dc-box-shadow-xl-purple: map_get($boxShadow, xlPurple);
 
 /** Transform */
-$dc-angles: 30 45 60 90 180 270 360;
 
-/** Transition */
-// @sass-export-section="transition"
-$dc-duration: 0.3s;
-$dc-ease: cubic-bezier(0.77, 0, 0.175, 1);
-$dc-transition: $dc-duration $dc-ease;
+$dc-angles: map_get($spatial, angles);
 
-// @end-sass-export-section
+/** Animation */
+
+$dc-duration: map_get($animation, duration);
+$dc-ease: map_get($animation, ease);
+$dc-transition: map_get($animation, transition);
 
 /** z-index */
-$dc-z-indexes: 10 20 30 40 50 60 70 80 90 100 999;
+
+$dc-z-indexes: map_get($spatial, zIndex);
 
 /** Breakpoints */
-// @sass-export-section="breakpoints"
-// If any breakpoints change update toolkit.yml
-$dc-bp-xs: 480px;
-$dc-bp-sm: 768px;
-$dc-bp-md: 992px;
-$dc-bp-lg: 1200px;
-$dc-bp-xl: 1366px;
-$dc-bp-ws: 1680px;
-$dc-bp-4k: 1920px;
-$dc-bp-5k: 2560px;
+
+$dc-bp-xs: map_get($breakpoints, xs);
+$dc-bp-sm: map_get($breakpoints, sm);
+$dc-bp-md: map_get($breakpoints, md);
+$dc-bp-lg: map_get($breakpoints, lg);
+$dc-bp-xl: map_get($breakpoints, xl);
+$dc-bp-ws: map_get($breakpoints, ws);
+$dc-bp-4k: map_get($breakpoints, 4k);
+$dc-bp-5k: map_get($breakpoints, 5k);
 
 // Breakpoints for max-width media queries
-$dc-bp-below-xs: $dc-bp-xs - 1;
-$dc-bp-below-sm: $dc-bp-sm - 1;
-$dc-bp-below-md: $dc-bp-md - 1;
-$dc-bp-below-lg: $dc-bp-lg - 1;
-$dc-bp-below-xl: $dc-bp-xl - 1;
-$dc-bp-below-ws: $dc-bp-ws - 1;
-$dc-bp-below-4k: $dc-bp-4k - 1;
-$dc-bp-below-5k: $dc-bp-5k - 1;
-
-// @end-sass-export-section
+$dc-bp-below-xs: map_get($breakpoints, belowXs);
+$dc-bp-below-sm: map_get($breakpoints, belowSm);
+$dc-bp-below-md: map_get($breakpoints, belowMd);
+$dc-bp-below-lg: map_get($breakpoints, belowLg);
+$dc-bp-below-xl: map_get($breakpoints, belowXl);
+$dc-bp-below-ws: map_get($breakpoints, belowWs);
+$dc-bp-below-4k: map_get($breakpoints, below4k);
+$dc-bp-below-5k: map_get($breakpoints, below5k);
 
 // Breakpoints map
 /* stylelint-disable scss/at-function-named-arguments */
@@ -231,10 +212,8 @@ $dc-breakpoints-hd: (
 
 // all breakpoints
 $dc-breakpoints-all: map-merge($dc-breakpoints, $dc-breakpoints-hd);
-/* stylelint-enable */
 
 // Breakpoints for max-width map
-/* stylelint-disable scss/at-function-named-arguments */
 $dc-breakpoints-below: (
   'xs': $dc-bp-below-xs,
   'sm': $dc-bp-below-sm,
