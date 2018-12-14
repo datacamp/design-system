@@ -17,6 +17,11 @@
   "license": "UNLICENSED",
   "private": true,
   "author": "DataCamp",
+  "contributors": [
+    "Dan Denney <dd.subscriptions@gmail.com>",
+    "Jordan Wade <jjwade31@gmail.com>",
+    "Aaron Bates <aaron@aaronbates.me>"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/datacamp/design-system.git"
@@ -33,6 +38,11 @@
     "watch-css": "npm run build-css && node-sass-chokidar src/ -o catalog/build/ --watch --recursive",
     "test": "npm run lint && npm run unit-test",
     "unit-test": "jest"
+  },
+  "dependencies": {
+    "catalog": "3.6.0",
+    "react": "16.6.3",
+    "react-dom": "16.6.3"
   },
   "devDependencies": {
     "babel-core": "6.26.2",
@@ -64,11 +74,6 @@
     "postcss-reporter": "6.0.0",
     "prettier": "1.15.3",
     "sass-loader": "7.1.0"
-  },
-  "dependencies": {
-    "catalog": "3.6.0",
-    "react": "16.6.3",
-    "react-dom": "16.6.3"
   },
   "browserslist": [
     "last 2 versions",
