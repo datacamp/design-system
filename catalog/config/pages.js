@@ -44,7 +44,7 @@ const designUtilities = {
     {
       path: '/design-utilities/background',
       title: 'Background',
-      content: pageLoader(() => import('../pages/design-utilities/background.md'))
+      content: pageLoader(() => import('../pages/design-utilities/background.js'))
     }
   ]
 }
