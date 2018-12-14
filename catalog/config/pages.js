@@ -25,9 +25,9 @@ const design = {
       content: pageLoader(() => import('../pages/design/links.md'))
     },
     {
-      path: '/design/forms',
-      title: 'Forms',
-      content: pageLoader(() => import('../pages/design/forms.md'))
+      path: '/design/form-inputs',
+      title: 'Form Inputs',
+      content: pageLoader(() => import('../pages/design/form-inputs.md'))
     }
   ]
 }
