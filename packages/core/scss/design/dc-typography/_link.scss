@@ -49,6 +49,15 @@ a,
   }
 }
 
+.dc-link--grey-oslo {
+  border: 0;
+  color: $dc-grey-oslo;
+
+  @include state {
+    border: 0;
+  }
+}
+
 .dc-link--secondary {
   border-color: transparent;
   color: $dc-secondary;

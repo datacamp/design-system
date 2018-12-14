@@ -6,11 +6,31 @@ const design = {
   pages: [
     {
       path: '/design',
-      title: 'Design',
-      content: pageLoader(() => import('../pages/design/index.md')),
+      title: 'Intro',
+      content: pageLoader(() => import('../pages/design/index.md'))
     },
-  ],
-};
+    {
+      path: '/design/text',
+      title: 'Text',
+      content: pageLoader(() => import('../pages/design/text.md'))
+    },
+    {
+      path: '/design/headings',
+      title: 'Headings',
+      content: pageLoader(() => import('../pages/design/headings.md'))
+    },
+    {
+      path: '/design/links',
+      title: 'Links',
+      content: pageLoader(() => import('../pages/design/links.md'))
+    },
+    {
+      path: '/design/forms',
+      title: 'Forms',
+      content: pageLoader(() => import('../pages/design/forms.md'))
+    }
+  ]
+}
 
 // content: tone, voice, etc.
 const content = {
