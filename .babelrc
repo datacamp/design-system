@@ -3,15 +3,7 @@
     "react",
     "env",
     "catalog/babel",
-    "stage-2",
-    [
-      "env",
-      {
-        "targets": {
-          "browsers": ["last 2 versions", "ie >= 10"]
-        }
-      }
-    ]
+    "stage-2"
   ],
   "plugins": [
     "transform-object-rest-spread",

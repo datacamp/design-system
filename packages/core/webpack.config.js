@@ -113,6 +113,7 @@ module.exports = {
             return tokenizeSCSS(content);
           },
         },
+        'tokens.json',
       ],
       {
         ignore: ['**/.*'],
