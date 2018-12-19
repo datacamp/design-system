@@ -14,11 +14,11 @@ const renderTable = (elements, { showDarkBackground = false } = {}) => (
       {elements.map(([color, props]) => (
         <tr key={color}>
           <td>{color}</td>
-          <td style={{ padding: '10px' }}>
+          <td style={{ padding: '12px' }}>
             <Tag {...props}>50XP</Tag>
           </td>
           {showDarkBackground && (
-            <td style={{ background: '#f0f4f5', padding: '10px' }}>
+            <td style={{ background: '#f0f4f5', padding: '12px' }}>
               <Tag {...props}>50XP</Tag>
             </td>
           )}

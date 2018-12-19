@@ -1,7 +1,7 @@
 {
-  "name": "@datacamp/waffles-tag",
-  "version": "0.1.2-alpha.0",
-  "description": "Creates a small tag element for things like XP points.",
+  "name": "@datacamp/waffles-heading",
+  "version": "0.0.0",
+  "description": "Creates heading element h1, h2, h3, h4, h5, h6",
   "main": "lib/index.js",
   "scripts": {
     "build": "babel src --out-dir lib --ignore spec.js --copy-files",
