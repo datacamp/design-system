@@ -1,5 +1,3 @@
-# Tag
-
 Creates a small tag element for things like XP points.
 
 ### Usage
