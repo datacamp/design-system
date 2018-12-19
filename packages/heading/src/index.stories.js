@@ -14,7 +14,7 @@ const renderTable = elements => (
     <tbody>
       {elements.map(([element, props]) => (
         <tr key={element}>
-          <td style={{ padding: '10px' }}>
+          <td style={{ padding: '12px' }}>
             <Heading {...props}>{element}. Heading</Heading>
           </td>
         </tr>
