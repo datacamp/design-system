@@ -17,6 +17,7 @@
 
 .dc-label {
   align-items: center;
+  color: $dc-grey-dark;
   display: flex;
   font-size: $dc-font-size-base;
   font-weight: $dc-font-weight-bold;
@@ -64,6 +65,12 @@
   &.focus {
     border-color: $dc-primary;
     outline: none;
+  }
+
+  &:disabled,
+  &.dc-is-disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
   }
 }
 
@@ -127,7 +134,7 @@
   overflow: none;
 }
 
-.tabs input[type=radio]+label {
+.tabs input[type=radio] + label {
   border-radius: $dc-border-radius;
   color: $dc-white;
   display: inline-block;
@@ -140,20 +147,28 @@
   width: 33%;
 }
 
-.tabs.two input[type=radio]+label{ width: 50%; }
+.tabs.two input[type=radio] + label {
+  width: 50%;
+}
 
-.tabs.three input[type=radio]+label{ width: 33%; }
+.tabs.three input[type=radio] + label {
+  width: 33%;
+}
 
-.tabs.four input[type=radio]+label{ width: 24%; }
+.tabs.four input[type=radio] + label {
+  width: 24%;
+}
 
-.tabs.five input[type=radio]+label{ width: 20%; }
+.tabs.five input[type=radio] + label {
+  width: 20%;
+}
 
-.tabs input[type=radio]+label::after,
-.tabs input[type=radio]+label::before {
+.tabs input[type=radio] + label::after,
+.tabs input[type=radio] + label::before {
   display: none;
 }
 
-.tabs input[type=radio]:checked+label {
+.tabs input[type=radio]:checked + label {
   background-color: $dc-white;
   color: $dc-grey-dark;
   font-weight: $dc-font-weight-bold;

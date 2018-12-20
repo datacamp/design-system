@@ -6,8 +6,47 @@ const design = {
   pages: [
     {
       path: '/design',
-      title: 'Design',
+      title: 'Intro',
       content: pageLoader(() => import('../pages/design/index.md')),
+    },
+    {
+      path: '/design/text',
+      title: 'Text',
+      content: pageLoader(() => import('../pages/design/text.md')),
+    },
+    {
+      path: '/design/headings',
+      title: 'Headings',
+      content: pageLoader(() => import('../pages/design/headings.md')),
+    },
+    {
+      path: '/design/links',
+      title: 'Links',
+      content: pageLoader(() => import('../pages/design/links.md')),
+    },
+    {
+      path: '/design/form-inputs',
+      title: 'Form Inputs',
+      content: pageLoader(() => import('../pages/design/form-inputs.md')),
+    },
+  ],
+};
+
+// design: typography, colors, etc.
+const designUtilities = {
+  title: 'Design Utilities',
+  pages: [
+    {
+      path: '/design-utilities',
+      title: 'Intro',
+      content: pageLoader(() => import('../pages/design-utilities/index.md')),
+    },
+    {
+      path: '/design-utilities/background',
+      title: 'Background',
+      content: pageLoader(() =>
+        import('../pages/design-utilities/background.js')
+      ),
     },
   ],
 };
@@ -33,6 +72,12 @@ const components = {
       title: 'Components',
       content: pageLoader(() => import('../pages/components/index.md')),
     },
+    {
+      path: '/components/tag',
+      title: 'Tag',
+      content: pageLoader(() => import('../pages/components/tag.md')),
+      imports: { Tag: require('../../packages/tag') },
+    },
   ],
 };
 
@@ -42,8 +87,18 @@ const patterns = {
   pages: [
     {
       path: '/patterns',
-      title: 'Patterns',
+      title: 'Intro',
       content: pageLoader(() => import('../pages/patterns/index.md')),
+    },
+    {
+      path: '/patterns/bucket',
+      title: 'Bucket',
+      content: pageLoader(() => import('../pages/patterns/bucket.md')),
+    },
+    {
+      path: '/patterns/edge-to-edge',
+      title: 'Edge-to-Edge',
+      content: pageLoader(() => import('../pages/patterns/edge-to-edge.md')),
     },
   ],
 };
@@ -56,9 +111,10 @@ const pages = [
     content: pageLoader(() => import('../pages/index.md')),
   },
   design,
-  content,
+  designUtilities,
   components,
   patterns,
+  content,
 ];
 
 export default pages;
