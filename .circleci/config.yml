@@ -1,0 +1,74 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: node:6.11.1
+    steps:
+      - checkout
+      - run:
+          name: Build
+          command: |
+            npm install
+            npm run build
+      - persist_to_workspace:
+          root: "."
+          paths:
+            - catalog/build/*
+  deploy-branch:
+    docker:
+      - image: ${STAGING_ECR_URL}/docker-deploy
+        aws_auth:
+          aws_access_key_id: $STAGING_AWS_ACCESS_KEY_ID
+          aws_secret_access_key: $STAGING_AWS_SECRET_ACCESS_KEY
+    environment:
+      BUCKET: waffles
+    steps:
+      - attach_workspace:
+          at: "."
+      - run:
+          name: S3 Sync
+          command: |
+            export AWS_ACCESS_KEY_ID=${STAGING_AWS_ACCESS_KEY_ID}
+            export AWS_SECRET_ACCESS_KEY=${STAGING_AWS_SECRET_ACCESS_KEY}
+            aws s3 sync --delete --acl public-read catalog/build s3://${BUCKET}.datacamp-staging.com/live
+            aws s3 sync --acl public-read catalog/build/static/images s3://waffles.datacamp-staging.com/live/images
+  deploy:
+    docker:
+      - image: ${STAGING_ECR_URL}/docker-deploy
+        aws_auth:
+          aws_access_key_id: $STAGING_AWS_ACCESS_KEY_ID
+          aws_secret_access_key: $STAGING_AWS_SECRET_ACCESS_KEY
+    environment:
+      BUCKET: waffles
+    steps:
+      - attach_workspace:
+          at: "."
+      - run:
+          name: S3 Sync
+          command: |
+            export AWS_ACCESS_KEY_ID=${PROD_AWS_ACCESS_KEY_ID}
+            export AWS_SECRET_ACCESS_KEY=${PROD_AWS_SECRET_ACCESS_KEY}
+            aws s3 sync --delete --exclude "*le-components/*" --acl public-read catalog/build s3://${BUCKET}.new.datacamp.com/live
+            aws s3 sync --acl public-read catalog/build/static/images s3://waffles.new.datacamp.com/live/images
+workflows:
+  version: 2
+  build_and_deploy:
+    jobs:
+      - build:
+          context: org-global
+      - deploy-branch: 
+          requires:
+            - build
+          context: org-global
+          filters:
+            branches:
+              ignore:
+                - master
+      - deploy:
+          requires:
+            - build
+          context: org-global
+          filters:
+            branches:
+              only:
+                - master
