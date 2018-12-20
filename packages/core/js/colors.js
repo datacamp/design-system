@@ -1,117 +1,120 @@
 import _ from 'lodash';
+import tokens from '../tokens.json';
+
+const { colors } = tokens;
 
 const COLORS = {
   green: {
-    color: '#36d57d',
-    contrastColor: '#fff',
+    color: colors.green,
+    contrastColor: colors.white,
   },
   greenLight: {
-    color: '#a5ecc5',
-    contrastColor: '#fff',
+    color: colors.greenLight,
+    contrastColor: colors.white,
   },
   geyser: {
-    color: '#cfdce1',
-    contrastColor: '#3d4251',
+    color: colors.geyser,
+    contrastColor: colors.greyDark,
   },
   grey: {
-    color: '#4d5356',
-    contrastColor: '#fff',
+    color: colors.grey,
+    contrastColor: colors.white,
   },
   greyDark: {
-    color: '#3d4251',
-    contrastColor: '#fff',
+    color: colors.greyDark,
+    contrastColor: colors.white,
   },
   greyLight: {
     color: '#d1d3d8',
-    contrastColor: '#3d4251',
+    contrastColor: colors.greyDark,
   },
   greyLighter: {
-    color: '#e6eaeb',
-    contrastColor: '#3d4251',
+    color: colors.greyLighter,
+    contrastColor: colors.greyDark,
   },
   greyOslo: {
-    color: '#859094',
-    contrastColor: '#3d4251',
+    color: colors.greyOslo,
+    contrastColor: colors.greyDark,
   },
   orange: {
-    color: '#ff9400',
-    contrastColor: '#fff',
+    color: colors.orange,
+    contrastColor: colors.white,
   },
   orangeDark: {
-    color: '#ad662c',
-    contrastColor: '#fff',
+    color: colors.orangeDark,
+    contrastColor: colors.white,
   },
   porcelain: {
-    color: '#f0f4f5',
-    contrastColor: '#3d4251',
+    color: colors.porcelain,
+    contrastColor: colors.greyDark,
   },
   primary: {
-    color: '#3ac',
-    contrastColor: '#fff',
+    color: colors.primary,
+    contrastColor: colors.white,
   },
   primaryDark: {
-    color: '#263e63',
-    contrastColor: '#fff',
+    color: colors.primaryDark,
+    contrastColor: colors.white,
   },
   primaryDarker: {
-    color: '#14243e',
-    contrastColor: '#fff',
+    color: colors.primaryDarker,
+    contrastColor: colors.white,
   },
   primaryDarkest: {
-    color: '#0c1626',
-    contrastColor: '#fff',
+    color: colors.primaryDarkest,
+    contrastColor: colors.white,
   },
   primaryLight: {
-    color: '#7ecce2',
-    contrastColor: '#fff',
+    color: colors.primaryLight,
+    contrastColor: colors.white,
   },
   primaryLighter: {
-    color: '#d5eaef',
-    contrastColor: '#3d4251',
+    color: colors.primaryLighter,
+    contrastColor: colors.greyDark,
   },
   primaryLightest: {
-    color: '#ebf4f7',
-    contrastColor: '#3d4251',
+    color: colors.primaryLightest,
+    contrastColor: colors.greyDark,
   },
   purple: {
-    color: '#8468c4',
-    contrastColor: '#fff',
+    color: colors.purple,
+    contrastColor: colors.white,
   },
   purpleDark: {
-    color: '#5d488c',
-    contrastColor: '#fff',
+    color: colors.purpleDark,
+    contrastColor: colors.white,
   },
   purpleLight: {
-    color: '#a786f3',
-    contrastColor: '#fff',
+    color: colors.purpleLight,
+    contrastColor: colors.white,
   },
   raven: {
-    color: '#737a80',
-    contrastColor: '#fff',
+    color: colors.raven,
+    contrastColor: colors.white,
   },
   red: {
-    color: '#fe5c5c',
-    contrastColor: '#fff',
+    color: colors.red,
+    contrastColor: colors.white,
   },
   redLight: {
-    color: '#ffb5b5',
-    contrastColor: '#fff',
+    color: colors.redLight,
+    contrastColor: colors.white,
   },
   secondary: {
-    color: '#ffc844',
-    contrastColor: '#fff',
+    color: colors.secondary,
+    contrastColor: colors.white,
   },
   secondaryLight: {
-    color: '#fbe28d',
-    contrastColor: '#fff',
+    color: colors.secondaryLight,
+    contrastColor: colors.greyDark,
   },
   white: {
-    color: '#fff',
-    contrastColor: '#3d4251',
+    color: colors.white,
+    contrastColor: colors.greyDark,
   },
   whiteTransparent: {
-    color: 'rgba(255,255,255, 0.2)',
-    contrastColor: '#3d4251',
+    color: colors.whiteTransparent,
+    contrastColor: colors.greyDark,
   },
 };
 

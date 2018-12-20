@@ -7,30 +7,30 @@ const design = {
     {
       path: '/design',
       title: 'Intro',
-      content: pageLoader(() => import('../pages/design/index.md'))
+      content: pageLoader(() => import('../pages/design/index.md')),
     },
     {
       path: '/design/text',
       title: 'Text',
-      content: pageLoader(() => import('../pages/design/text.md'))
+      content: pageLoader(() => import('../pages/design/text.md')),
     },
     {
       path: '/design/headings',
       title: 'Headings',
-      content: pageLoader(() => import('../pages/design/headings.md'))
+      content: pageLoader(() => import('../pages/design/headings.md')),
     },
     {
       path: '/design/links',
       title: 'Links',
-      content: pageLoader(() => import('../pages/design/links.md'))
+      content: pageLoader(() => import('../pages/design/links.md')),
     },
     {
       path: '/design/form-inputs',
       title: 'Form Inputs',
-      content: pageLoader(() => import('../pages/design/form-inputs.md'))
-    }
-  ]
-}
+      content: pageLoader(() => import('../pages/design/form-inputs.md')),
+    },
+  ],
+};
 
 // design: typography, colors, etc.
 const designUtilities = {
@@ -39,15 +39,17 @@ const designUtilities = {
     {
       path: '/design-utilities',
       title: 'Intro',
-      content: pageLoader(() => import('../pages/design-utilities/index.md'))
+      content: pageLoader(() => import('../pages/design-utilities/index.md')),
     },
     {
       path: '/design-utilities/background',
       title: 'Background',
-      content: pageLoader(() => import('../pages/design-utilities/background.js'))
-    }
-  ]
-}
+      content: pageLoader(() =>
+        import('../pages/design-utilities/background.js')
+      ),
+    },
+  ],
+};
 
 // content: tone, voice, etc.
 const content = {
@@ -69,6 +71,12 @@ const components = {
       path: '/components',
       title: 'Components',
       content: pageLoader(() => import('../pages/components/index.md')),
+    },
+    {
+      path: '/components/tag',
+      title: 'Tag',
+      content: pageLoader(() => import('../pages/components/tag.md')),
+      imports: { Tag: require('../../packages/tag') },
     },
   ],
 };
