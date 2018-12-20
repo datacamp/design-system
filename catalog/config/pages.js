@@ -104,9 +104,9 @@ const pages = [
   },
   design,
   designUtilities,
-  content,
   components,
   patterns,
+  content,
 ];
 
 export default pages;
