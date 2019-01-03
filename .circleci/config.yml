@@ -9,6 +9,7 @@ jobs:
           name: Build
           command: |
             npm install
+            lerna bootstrap
             npm run build
       - persist_to_workspace:
           root: "."
