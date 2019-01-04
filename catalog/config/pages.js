@@ -81,24 +81,24 @@ const components = {
   ],
 };
 
-// patterns: Design patterns using components and utility classes.
+// recipes: Design patterns using components and utility classes.
 const patterns = {
-  title: 'Patterns',
+  title: 'Recipes',
   pages: [
     {
-      path: '/patterns',
+      path: '/recipes',
       title: 'Intro',
-      content: pageLoader(() => import('../pages/patterns/index.md')),
+      content: pageLoader(() => import('../pages/recipes/index.md')),
     },
     {
-      path: '/patterns/bucket',
+      path: '/recipes/bucket',
       title: 'Bucket',
-      content: pageLoader(() => import('../pages/patterns/bucket.md')),
+      content: pageLoader(() => import('../pages/recipes/bucket.md')),
     },
     {
-      path: '/patterns/edge-to-edge',
+      path: '/recipes/edge-to-edge',
       title: 'Edge-to-Edge',
-      content: pageLoader(() => import('../pages/patterns/edge-to-edge.md')),
+      content: pageLoader(() => import('../pages/recipes/edge-to-edge.md')),
     },
   ],
 };
