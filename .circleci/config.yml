@@ -9,7 +9,8 @@ jobs:
           name: Build
           command: |
             npm install
-            npx lerna bootstrap
+            npm install --global lerna
+            lerna bootstrap
             npm run build
       - persist_to_workspace:
           root: "."
