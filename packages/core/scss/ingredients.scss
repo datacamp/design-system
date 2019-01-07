@@ -10,31 +10,31 @@
 // -------------------------------------
 
 //----- Vendor -----//
-@import 'design/dc-vendor/lato-font';
-@import 'design/dc-vendor/roboto-mono-font';
-@import 'design/dc-vendor/normalize';
+@import 'design/vendor/lato-font';
+@import 'design/vendor/roboto-mono-font';
+@import 'design/vendor/normalize';
 
 //----- Mixins -----//
-@import 'design/dc-mixins/dc-mixins';
+@import 'design/mixins/mixins';
 
 //----- Variables -----//
 @import '../tokens.json';
-@import 'design/dc-variables.scss';
+@import 'design/variables.scss';
 
 //----- Utilities -----//
-@import 'design/dc-utilities/dc-utilities';
+@import 'design/utilities/utilities';
 
 //---- Typography -----//
-@import 'design/dc-typography/dc-typography';
+@import 'design/typography/typography';
 
 //---- Forms -----//
-@import 'design/dc-forms/dc-forms';
+@import 'design/forms/forms';
 
 //---- Animations -----//
-@import 'design/dc-animations/dc-animations';
+@import 'design/animations/animations';
 
 //---- Layout -----//
-@import 'design/dc-layout/dc-layout';
+@import 'design/layout/layout';
 
 //---- Legacy -----//
-@import 'design/dc-legacy/dc-legacy';
+@import 'design/legacy/legacy';
