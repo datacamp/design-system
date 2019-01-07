@@ -76,7 +76,7 @@ const components = {
       path: '/components/tag',
       title: 'Tag',
       content: pageLoader(() => import('../pages/components/tag.md')),
-      imports: { Tag: require('../../packages/tag/src') },
+      imports: { Tag: require('../../packages/tag') },
     },
   ],
 };

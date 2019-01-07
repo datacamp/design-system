@@ -2,15 +2,18 @@ version: 2
 jobs:
   build:
     docker:
-      - image: node:6.11.1
+      - image: ${STAGING_ECR_URL}/node-test
+        aws_auth:
+          aws_access_key_id: $STAGING_AWS_ACCESS_KEY_ID
+          aws_secret_access_key: $STAGING_AWS_SECRET_ACCESS_KEY
     steps:
       - checkout
       - run:
           name: Build
           command: |
+            cp ci/.npmrc .npmrc
             npm install
-            npm install --global lerna
-            lerna bootstrap
+            npm run bootstrap
             npm run build
       - persist_to_workspace:
           root: "."
@@ -33,7 +36,7 @@ jobs:
             export AWS_ACCESS_KEY_ID=${STAGING_AWS_ACCESS_KEY_ID}
             export AWS_SECRET_ACCESS_KEY=${STAGING_AWS_SECRET_ACCESS_KEY}
             aws s3 sync --delete --acl public-read catalog/build s3://${BUCKET}.datacamp-staging.com/live
-            aws s3 sync --acl public-read catalog/build/static/images s3://waffles.datacamp-staging.com/live/images
+            #aws s3 sync --acl public-read catalog/build/static/media s3://${BUCKET}.datacamp-staging.com/live/media
   deploy:
     docker:
       - image: ${STAGING_ECR_URL}/docker-deploy
@@ -51,14 +54,14 @@ jobs:
             export AWS_ACCESS_KEY_ID=${PROD_AWS_ACCESS_KEY_ID}
             export AWS_SECRET_ACCESS_KEY=${PROD_AWS_SECRET_ACCESS_KEY}
             aws s3 sync --delete --exclude "*le-components/*" --acl public-read catalog/build s3://${BUCKET}.new.datacamp.com/live
-            aws s3 sync --acl public-read catalog/build/static/images s3://waffles.new.datacamp.com/live/images
+            #aws s3 sync --acl public-read catalog/build/static/media s3://${BUCKET}.new.datacamp.com/live/media
 workflows:
   version: 2
   build_and_deploy:
     jobs:
       - build:
           context: org-global
-      - deploy-branch: 
+      - deploy-branch:
           requires:
             - build
           context: org-global
