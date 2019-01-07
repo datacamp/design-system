@@ -1,4 +1,4 @@
-export const logoSrc = '';
+export const logoSrc = 'catalog_logo.svg';
 
 export const theme = {
   fontFamily: 'Lato, sans-serif',
