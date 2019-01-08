@@ -11,6 +11,15 @@ module.exports = {
     });
 
     config.module.rules[0].oneOf.unshift({
+      test: [/\.svg$/],
+      loader: require.resolve("url-loader"),
+      options: {
+        limit: 10000,
+        name: "static/media/[name].[hash:8].[ext]"
+      }
+    });
+
+    config.module.rules[0].oneOf.unshift({
       test: /\.scss$/,
       use: extractSCSS.extract({
         use: [

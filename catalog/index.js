@@ -15,7 +15,7 @@ const config = {
   styles,
   scripts,
   imports,
-  // logoSrc,
+  logoSrc,
   theme,
   responsiveSizes,
   pages,
