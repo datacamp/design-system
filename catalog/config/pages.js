@@ -93,6 +93,11 @@ const components = {
       content: pageLoader(() => import('../pages/components/dropdown.md')),
     },
     {
+      path: '/components/flash-banner',
+      title: 'Flash Banner',
+      content: pageLoader(() => import('../pages/components/flash-banner.md')),
+    },
+    {
       path: '/components/tag',
       title: 'Tag',
       content: pageLoader(() => import('../pages/components/tag.md')),

@@ -1,0 +1,135 @@
+// *************************************
+//
+//   Flash
+//   -> Notification at top of screen
+//
+// -------------------------------------
+//   Template
+// -------------------------------------
+//
+// .dc-flash-wrapper
+//   .dc-flash[notice|success|error]
+//     .dc-flash__content
+//     .dc-flash__cta (optional)
+//     .dc-flash__close
+//
+// *************************************
+
+// ----- Wrapper ----- //
+
+.dc-flash-wrapper {
+  left: 0;
+  pointer-events: none;
+  position: absolute;
+  right: 0;
+  z-index: 999;
+
+  @media screen and (min-width: 664px) {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+// ----- Base ----- //
+
+.dc-flash {
+  align-items: center;
+  display: flex;
+  font-size: $dc-font-size-h5;
+  padding: 16px;
+  pointer-events: auto;
+
+  @media screen and (min-width: 664px) {
+    border-radius: 0 0 $dc-border-radius $dc-border-radius;
+    max-width: 600px;
+  }
+}
+
+// -------------------------------------
+//   Scaffolding
+// -------------------------------------
+
+// ----- Siblings/Multiple Banners ----- //
+
+.dc-flash + .dc-flash {
+  margin-top: 4px;
+
+  @media screen and (min-width: 664px) {
+    border-radius: $dc-border-radius;
+  }
+}
+
+// ----- Content ----- //
+
+.dc-flash__content {
+  flex-grow: 1;
+  padding: 0 16px;
+  text-align: center;
+}
+
+// ----- Close ----- //
+
+.dc-flash__close {
+  cursor: pointer;
+  opacity: 0.65;
+  padding-left: 16px;
+  right: 16px;
+  transition: opacity $dc-transition;
+
+  &:hover {
+    opacity: 1;
+  }
+
+  @media screen and (min-width: 664px) {
+    position: initial;
+  }
+}
+
+// ----- CTA ----- //
+
+.dc-flash__cta {
+  padding-left: 16px;
+}
+
+// -------------------------------------
+//   Mixin
+// -------------------------------------
+
+@mixin color-flash ($bg, $link-color, $link-hover) {
+  background-color: $bg;
+  color: $dc-white;
+
+  a {
+    border-color: $link-color;
+    color: $dc-white;
+    transition: border-color $dc-transition;
+
+    &:hover,
+    &:focus {
+      border-color: $link-hover;
+    }
+  }
+}
+
+// -------------------------------------
+//   Modifiers
+// -------------------------------------
+
+// ----- Color ----- //
+
+// Yellow / Notice
+.dc-flash--notice {
+  @include color-flash($bg: $dc-secondary, $link-color: $dc-secondary-light, $link-hover: $dc-white);
+}
+
+// Green / Success
+.dc-flash--success {
+  @include color-flash($bg: $dc-green, $link-color: $dc-green-light, $link-hover: $dc-white);
+}
+
+// Red / Error
+.dc-flash--error {
+  @include color-flash($bg: $dc-red, $link-color: $dc-red-light, $link-hover: $dc-white);
+}
