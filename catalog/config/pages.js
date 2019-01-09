@@ -88,6 +88,11 @@ const components = {
       content: pageLoader(() => import('../pages/components/count-indicator.md')),
     },
     {
+      path: '/components/dropdown',
+      title: 'Dropdown',
+      content: pageLoader(() => import('../pages/components/dropdown.md')),
+    },
+    {
       path: '/components/tag',
       title: 'Tag',
       content: pageLoader(() => import('../pages/components/tag.md')),
