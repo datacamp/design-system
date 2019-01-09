@@ -69,8 +69,13 @@ const components = {
   pages: [
     {
       path: '/components',
-      title: 'Components',
+      title: 'Intro',
       content: pageLoader(() => import('../pages/components/index.md')),
+    },
+    {
+      path: '/components/button',
+      title: 'Button',
+      content: pageLoader(() => import('../pages/components/button.md')),
     },
     {
       path: '/components/tag',

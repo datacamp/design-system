@@ -1,1 +1,1 @@
-Intro text
+Uh oh, this page isn't baked yet. [Help make some Waffles](https://github.com/datacamp/design-system).
