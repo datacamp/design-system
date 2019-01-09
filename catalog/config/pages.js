@@ -78,6 +78,11 @@ const components = {
       content: pageLoader(() => import('../pages/components/button.md')),
     },
     {
+      path: '/components/card',
+      title: 'Card',
+      content: pageLoader(() => import('../pages/components/card.md')),
+    },
+    {
       path: '/components/tag',
       title: 'Tag',
       content: pageLoader(() => import('../pages/components/tag.md')),

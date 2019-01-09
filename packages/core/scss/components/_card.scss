@@ -1,0 +1,118 @@
+/** Card */
+
+/** @private variables */
+$_card-padding-base: 12px;
+$_card-padding-content: 24px;
+
+// TODO: box shadows? blue box shadow?
+
+.dc-card {
+  background-color: $dc-white;
+  border-radius: $dc-border-radius;
+  box-shadow: $dc-box-shadow-md;
+  padding: $_card-padding-base;
+  position: relative;
+}
+
+// content
+.dc-card--content {
+  padding: $_card-padding-content;
+}
+
+// border
+.dc-card--bordered {
+  border: 1px solid $dc-grey-lighter;
+  box-shadow: none;
+  padding: $_card-padding-base - 1; // +1px border
+
+  &.dc-card--content {
+    padding: $_card-padding-content - 1; // +1px border
+  }
+
+  &.dc-card--sectioned {
+    padding: 0;
+  }
+}
+
+// shadow
+.dc-card--shadowed-sm {
+  box-shadow: $dc-box-shadow-sm;
+}
+
+.dc-card--shadowed-lg {
+  box-shadow: $dc-box-shadow-lg;
+}
+
+.dc-card--shadowed-xl {
+  box-shadow: $dc-box-shadow-xl;
+}
+
+// sectioned
+.dc-card--sectioned {
+  padding: 0;
+
+  .dc-card__header,
+  .dc-card__body,
+  .dc-card__footer {
+    padding: $_card-padding-base;
+  }
+
+  &.dc-card--content .dc-card__body {
+    // padding: 16px $_card-padding-content;
+    padding: $_card-padding-content;
+  }
+
+  &.dc-card--content .dc-card__header,
+  &.dc-card--content .dc-card__footer {
+    padding: $_card-padding-content;
+  }
+
+  .dc-card__header + .dc-card__body {
+    border-top: 1px solid $dc-grey-lighter;
+  }
+
+  .dc-card__header + .dc-card__footer,
+  .dc-card__body + .dc-card__footer {
+    border-top: 1px solid $dc-grey-lighter;
+  }
+
+  &.dc-card--bordered {
+    .dc-card__header,
+    .dc-card__body,
+    .dc-card__footer {
+      padding: $_card-padding-base $_card-padding-base - 1; // +1px border
+    }
+
+    &.dc-card--content .dc-card__header,
+    &.dc-card--content .dc-card__footer {
+      padding: $_card-padding-content $_card-padding-content - 1; // +1px border
+    }
+
+    &.dc-card--content .dc-card__body {
+      padding: $_card-padding-content $_card-padding-content - 1; // +1px border
+    }
+  }
+}
+
+// interactive
+.dc-card--interactive {
+  transition: box-shadow $dc-transition, transform $dc-transition;
+
+  @include afh {
+    box-shadow: $dc-box-shadow-xl;
+    transform: translate(0, -4px);
+  }
+
+  &.dc-card--bordered {
+    @include afh {
+      border: 1px solid $dc-grey-lighter;
+      box-shadow: none;
+    }
+  }
+
+  &.dc-card--shadowed-sm {
+    @include afh {
+      box-shadow: $dc-box-shadow-lg;
+    }
+  }
+}
