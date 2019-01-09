@@ -1,4 +1,4 @@
-#### Base
+## Base
 
 ```html|show-source
 <div class="dc-count-indicator">
