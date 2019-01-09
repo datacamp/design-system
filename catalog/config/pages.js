@@ -83,6 +83,11 @@ const components = {
       content: pageLoader(() => import('../pages/components/card.md')),
     },
     {
+      path: '/components/count-indicator',
+      title: 'Count Indicator',
+      content: pageLoader(() => import('../pages/components/count-indicator.md')),
+    },
+    {
       path: '/components/tag',
       title: 'Tag',
       content: pageLoader(() => import('../pages/components/tag.md')),
