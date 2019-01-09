@@ -14,23 +14,9 @@ $_card-padding-content: 24px;
   position: relative;
 }
 
-// shapes
-.dc-card--circle {
-  border-radius: 50%;
-}
-
-.dc-card--square {
-  border-radius: 0;
-}
-
 // content
 .dc-card--content {
   padding: $_card-padding-content;
-}
-
-// content
-.dc-card--custom {
-  padding: 0;
 }
 
 // border
