@@ -1,0 +1,55 @@
+// *************************************
+//
+//   Count Indicator
+//   -> Small count indicator on buttons
+//
+// -------------------------------------
+//   Template
+// -------------------------------------
+//
+// .dc-count-indicator[right|left red]
+//
+// *************************************
+
+.dc-count-indicator {
+  align-items: center;
+  border: 1px solid $dc-white;
+  border-radius: 9px;
+  box-shadow: $dc-box-shadow-sm;
+  display: inline-flex;
+  font-size: $dc-font-size-small;
+  font-weight: $dc-font-weight-bold;
+  justify-content: center;
+  line-height: 1;
+  min-height: 18px;
+  min-width: 18px;
+  padding: 0 4px;
+  z-index: 10;
+}
+
+// -------------------------------------
+//   Modifiers
+// -------------------------------------
+
+// ----- Color ----- //
+
+.dc-count-indicator--red {
+  background-color: $dc-red;
+  color: $dc-white;
+}
+
+// ----- Position ----- //
+
+.dc-count-indicator--right,
+.dc-count-indicator--left {
+  position: absolute;
+  top: -6px;
+}
+
+.dc-count-indicator--right {
+  right: -6px;
+}
+
+.dc-count-indicator--left {
+  left: -6px;
+}
