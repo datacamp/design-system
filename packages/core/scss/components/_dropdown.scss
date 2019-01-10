@@ -1,0 +1,346 @@
+// *************************************
+//
+//   Dropdown
+//
+// -------------------------------------
+//   Template
+// -------------------------------------
+//
+// .dc-dropdown-pin (optional)
+//   .dc-dropdown[caret|arrow|left|right](dc-is-open)
+//     .dc-dropdown__toggle (optional)
+//     .dc-dropdown__content
+//       .dc-dropdown__list[bordered]
+//         .dc-dropdown__item
+//           .dc-dropdown__link (optional)
+//
+// *************************************
+
+@mixin _dc-dropdown-center {
+  left: 50%;
+  right: auto;
+  transform: translateX(-50%);
+
+  &::after,
+  &::before {
+    left: 50%;
+  }
+}
+
+@mixin _dc-dropdown-left {
+  left: 0;
+  right: auto;
+  transform: translateX(0);
+
+  &::after,
+  &::before {
+    left: 12px;
+  }
+}
+
+@mixin _dc-dropdown-right {
+  left: auto;
+  right: 0;
+  transform: translateX(0);
+
+  &::after,
+  &::before {
+    left: calc(100% - 12px);
+  }
+}
+
+.dc-dropdown {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+}
+
+// -------------------------------------
+//   Pin
+// -------------------------------------
+
+.dc-dropdown-pin {
+  align-items: center;
+  bottom: 0;
+  display: flex;
+  height: 28px; // 24px + 4px svg
+  justify-content: center;
+  position: absolute;
+  right: 0;
+  user-select: none;
+  width: 36px; // 32px + 4px svg
+  z-index: 20;
+
+  .dc-icon {
+    color: $dc-grey;
+    opacity: 0.5;
+  }
+}
+
+// -------------------------------------
+//   Content
+// -------------------------------------
+
+.dc-dropdown__content {
+  @include _dc-dropdown-center;
+
+  background-clip: padding-box;
+  background-color: $dc-white;
+  border: solid 1px $dc-grey-lighter;
+  border-radius: $dc-border-radius;
+  box-shadow: $dc-box-shadow-xl;
+  color: $dc-grey;
+  display: none; // none by default, but block on "open" of the menu
+  font-size: $dc-font-size-base; // Redeclare because nesting can cause inheritance issues
+  min-width: 192px;
+  opacity: 0;
+  padding: 12px;
+  position: absolute;
+  text-align: left; // Ensures proper alignment if parent has it changed (e.g., modal footer)
+  top: calc(100% + 4px);
+  z-index: 999;
+}
+
+// -------------------------------------
+//   List
+// -------------------------------------
+
+.dc-dropdown__list {
+  flex-grow: 1;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+// ----- Bordered Dropdown List ----- //
+
+.dc-dropdown__list--bordered {
+  .dc-dropdown__item:not(:first-child) {
+    border-top: 1px solid $dc-grey-lighter;
+  }
+}
+
+// -------------------------------------
+//   Link
+// -------------------------------------
+
+.dc-dropdown__link {
+  background-color: transparent;
+  border: 0;
+  color: $dc-grey-dark;
+  display: block;
+  font-weight: $dc-font-weight-regular;
+  line-height: 1;
+  padding: 8px 4px;
+  text-align: inherit;
+  transition: background-color $dc-transition;
+  white-space: nowrap; // prevent links from randomly breaking onto new lines
+  width: 100%;
+
+  @include afh {
+    background-color: $dc-primary-lightest;
+    color: $dc-grey-dark;
+    cursor: pointer;
+  }
+
+  &.disabled,
+  &:disabled {
+    background-color: transparent;
+    opacity: 0.2;
+  }
+}
+
+// -------------------------------------
+//   Icon
+// -------------------------------------
+
+.dc-dropdown__icon {
+  transition: transform $dc-transition;
+
+  .dc-is-open & {
+    transform: rotate(180deg);
+  }
+}
+
+// -------------------------------------
+//   Modifiers
+// -------------------------------------
+
+// ----- Dropdown with Caret ----- //
+
+.dc-dropdown--caret {
+  .dc-dropdown__toggle::after {
+    border: 5px solid transparent;
+    border-bottom: 0;
+    border-top: 6px solid $dc-grey-oslo;
+    content: '';
+    margin-left: 12px;
+  }
+}
+
+// ----- Dropdown with "Arrow" ----- //
+// TODO: Make any adjustments for position and responsive position modifiers.
+
+.dc-dropdown--arrow {
+  .dc-dropdown__content::after,
+  .dc-dropdown__content::before {
+    border-color: transparent;
+    border-style: solid;
+    bottom: 100%;
+    content: '';
+    height: 0;
+    pointer-events: none;
+    position: absolute;
+    width: 0;
+  }
+
+  .dc-dropdown__content::after {
+    border-bottom-color: $dc-white;
+    border-width: 3px;
+    margin-left: -3px;
+  }
+
+  .dc-dropdown__content::before {
+    border-bottom-color: $dc-grey-lighter;
+    border-width: 4px;
+    margin-left: -4px;
+  }
+}
+
+// ----- Buttons Dropdown ---- //
+
+.dc-dropdown--buttons {
+  .dc-dropdown__content {
+    padding: 6px 0;
+  }
+
+  .dc-dropdown__link {
+    padding: 10px 12px;
+  }
+}
+
+// ----- Nav Dropdown ---- //
+
+.dc-dropdown--nav__content {
+  display: block;
+  opacity: 1;
+  padding: 0;
+}
+
+.dc-dropdown--nav__link {
+  color: $dc-grey;
+  display: block;
+  transition: background-color $dc-transition, color $dc-transition;
+
+  @include state {
+    background-color: $dc-primary-lightest;
+    border-color: transparent;
+    color: $dc-grey-dark;
+  }
+}
+
+.dc-dropdown--nav__courses {
+  width: 34%;
+
+  @media screen and (max-width: $dc-bp-below-lg) {
+    flex-basis: 320px;
+    width: 320px; // of 940px total width
+  }
+}
+
+.dc-dropdown--nav__tracks {
+  min-width: 1px; // Firefox hack, ref: https://stackoverflow.com/questions/27424831/firefox-flexbox-overflow
+  width: 38%;
+
+  @media screen and (max-width: $dc-bp-below-lg) {
+    flex-basis: 340px;
+    width: 340px; // of 940px total width
+  }
+}
+
+.dc-dropdown--nav__track-name {
+  @media screen and (min-width: $dc-bp-md) {
+    @include text-truncate;
+
+    max-width: 310px;
+  }
+}
+
+.dc-dropdown--nav__instructors {
+  width: 28%;
+
+  @media screen and (max-width: $dc-bp-below-lg) {
+    flex-basis: 280px;
+    width: 280px; // of 940px total width
+  }
+}
+
+// ----- Notifications Dropdown ---- //
+
+@media screen and (min-width: $dc-bp-md) {
+  .dc-dropdown--notifications {
+    width: 330px;
+  }
+}
+
+// ----- Position ----- //
+
+// Center (Responsive only as Center is default)
+
+@each $size, $bp in $dc-breakpoints {
+  .dc-dropdown--center\@#{$size} .dc-dropdown__content {
+    @media screen and (min-width: $bp) {
+      @include _dc-dropdown-center;
+    }
+  }
+}
+
+// Left
+
+.dc-dropdown--left {
+  .dc-dropdown__content {
+    @include _dc-dropdown-left;
+  }
+}
+
+@each $size, $bp in $dc-breakpoints {
+  .dc-dropdown--left\@#{$size} .dc-dropdown__content {
+    @media screen and (min-width: $bp) {
+      @include _dc-dropdown-left;
+    }
+  }
+}
+
+// Right
+
+.dc-dropdown--right {
+  .dc-dropdown__content {
+    @include _dc-dropdown-right;
+  }
+}
+
+@each $size, $bp in $dc-breakpoints {
+  .dc-dropdown--right\@#{$size} .dc-dropdown__content {
+    @media screen and (min-width: $bp) {
+      @include _dc-dropdown-right;
+    }
+  }
+}
+
+// -------------------------------------
+//   States
+// -------------------------------------
+
+.dc-dropdown.dc-is-open,
+.dc-dropdown--hover:hover {
+  .dc-dropdown__content {
+    animation: fadeIn $dc-duration forwards;
+    display: block;
+  }
+
+  .dc-dropdown__toggle {
+    &::after {
+      transform: rotate(180deg);
+    }
+  }
+}
