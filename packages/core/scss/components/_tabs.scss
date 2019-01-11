@@ -1,0 +1,116 @@
+// ------------------
+// MINIMAL TABS BLOCK
+// ------------------
+
+.minimal-tabs-bar {
+  position: relative;
+}
+
+.minimal-tabs {
+  border-bottom: 1px solid $dc-grey-lighter;
+  display: flex;
+  position: relative;
+}
+
+.minimal-tab__link {
+  border: 0;
+  color: $dc-grey-dark;
+  display: block;
+  font-size: $small-font-size;
+  font-weight: 300;
+  padding-bottom: 8px;
+  padding-top: 10px;
+  text-transform: uppercase;
+
+  // Required to prevent the tabs to shift on click(caused by $dc-font-weight-bold)
+  &::after {
+    color: transparent;
+    content: attr(data-text);
+    display: block;
+    font-weight: $dc-font-weight-bold;
+    height: 1px;
+    margin-bottom: -1px;
+    overflow: hidden;
+    visibility: hidden;
+  }
+
+  &:hover,
+  &:focus {
+    border: 0;
+    color: $dc-grey-dark;
+  }
+}
+
+.minimal-tab {
+  margin-bottom: -2px;
+  margin-right: 26px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+
+  &.active {
+    &::after {
+      background-color: $dc-primary;
+      border-radius: 2px;
+      content: '';
+      display: block;
+      height: 3px;
+    }
+
+    .minimal-tab__link {
+      font-weight: $dc-font-weight-bold;
+    }
+  }
+}
+
+.minimal-tab__label {
+  background-color: $dc-primary-lightest;
+  border: solid 1px $dc-grey-lighter;
+  border-radius: $dc-border-radius;
+  color: $dc-primary;
+  display: inline-block;
+  font-size: $dc-font-size-micro;
+  margin-left: 1px;
+  margin-top: -2px;
+  padding-left: 3px;
+  padding-right: 3px;
+  vertical-align: middle;
+}
+
+.minimal-tabs__action {
+  align-items: center;
+  border: 0;
+  color: $dc-grey-dark;
+  display: flex;
+  font-weight: $dc-font-weight-bold;
+  margin-top: -1px;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translate(0, -50%);
+
+  @media (max-width: $bp-sm - 1) {
+    margin-top: 16px;
+    position: relative;
+    transform: none;
+  }
+
+  &:hover,
+  &:focus {
+    border: 0;
+    color: $dc-primary;
+  }
+}
+
+.minimal-tabs__action-icon {
+  margin-right: 8px;
+}
+
+.minimal-tab-pane {
+  display: none;
+
+  &.active {
+    display: block;
+  }
+}

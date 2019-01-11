@@ -128,6 +128,11 @@ const components = {
       content: pageLoader(() => import('../pages/components/table.md')),
     },
     {
+      path: '/components/tabs',
+      title: 'Tabs',
+      content: pageLoader(() => import('../pages/components/tabs.md')),
+    },
+    {
       path: '/components/tag',
       title: 'Tag',
       content: pageLoader(() => import('../pages/components/tag.md')),
