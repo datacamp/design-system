@@ -17,11 +17,11 @@
   padding: 1px;
   font-weight: bold;
   text-align: center;
-  color: $dark-grey;
-  background-color: $white;
+  color: $dc-grey-dark;
+  background-color: $dc-white;
   background-clip: padding-box;
-  border: 1px solid $lighter-grey;
-  border-radius: $border-radius;
+  border: 1px solid $dc-grey-lighter;
+  border-radius: $dc-border-radius;
 
   // Offset the popover to account for the popover arrow
   &.top     { margin-top: -8px; }
@@ -33,7 +33,7 @@
 .popover-title {
   margin: 0; // reset heading margin
   padding: 8px 14px;
-  font-size: $h5-size;
+  font-size: $dc-font-size-h5;
 }
 
 .popover-content {
@@ -68,14 +68,14 @@
     left: 50%;
     margin-left: -9px;
     border-bottom-width: 0;
-    border-top-color: $light-grey;
+    border-top-color: $dc-grey-light;
     bottom: -9px;
     &:after {
       content: " ";
       bottom: 1px;
       margin-left: -8px;
       border-bottom-width: 0;
-      border-top-color: $white;
+      border-top-color: $dc-white;
     }
   }
   &.right > .arrow {
@@ -83,27 +83,27 @@
     left: -9px;
     margin-top: -9px;
     border-left-width: 0;
-    border-right-color: $light-grey;
+    border-right-color: $dc-grey-light;
     &:after {
       content: " ";
       left: 1px;
       bottom: -8px;
       border-left-width: 0;
-      border-right-color: $white;
+      border-right-color: $dc-white;
     }
   }
   &.bottom > .arrow {
     left: 50%;
     margin-left: -9px;
     border-top-width: 0;
-    border-bottom-color: $light-grey;
+    border-bottom-color: $dc-grey-light;
     top: -9px;
     &:after {
       content: " ";
       top: 1px;
       margin-left: -8px;
       border-top-width: 0;
-      border-bottom-color: $white;
+      border-bottom-color: $dc-white;
     }
   }
 
@@ -111,12 +111,12 @@
     top: 50%;
     right: -9px;
     margin-top: -9px;
-    border-left-color: $light-grey;
+    border-left-color: $dc-grey-light;
     &:after {
       content: " ";
       right: auto;
       border-right-width: 0;
-      border-left-color: $white;
+      border-left-color: $dc-white;
       bottom: -8px;
     }
   }
@@ -125,33 +125,33 @@
 // This class should be used on the triggering element
 .popover-trigger--primary {
   & + .popover {
-    background-color: $primary;
-    color: $white;
+    background-color: $dc-primary;
+    color: $dc-white;
     border: 0;
 
     &.top > .arrow {
       border-top-color: transparent;
       &:after {
-        border-top-color: $primary;
+        border-top-color: $dc-primary;
       }
     }
     &.right > .arrow {
       border-right-color: transparent;
       &:after {
-        border-right-color: $primary;
+        border-right-color: $dc-primary;
       }
     }
     &.bottom > .arrow {
       border-bottom-color: transparent;
       &:after {
-        border-bottom-color: $primary;
+        border-bottom-color: $dc-primary;
       }
     }
 
     &.left > .arrow {
       border-left-color: transparent;
       &:after {
-        border-left-color: $primary;
+        border-left-color: $dc-primary;
       }
     }
   }
@@ -160,33 +160,33 @@
 // This class should be used on the triggering element
 .popover-trigger--primary-dark {
   & + .popover {
-    background-color: $primary-dark;
-    color: $white;
+    background-color: $dc-primary-dark;
+    color: $dc-white;
     border: 0;
 
     &.top > .arrow {
       border-top-color: transparent;
       &:after {
-        border-top-color: $primary-dark;
+        border-top-color: $dc-primary-dark;
       }
     }
     &.right > .arrow {
       border-right-color: transparent;
       &:after {
-        border-right-color: $primary-dark;
+        border-right-color: $dc-primary-dark;
       }
     }
     &.bottom > .arrow {
       border-bottom-color: transparent;
       &:after {
-        border-bottom-color: $primary-dark;
+        border-bottom-color: $dc-primary-dark;
       }
     }
 
     &.left > .arrow {
       border-left-color: transparent;
       &:after {
-        border-left-color: $primary-dark;
+        border-left-color: $dc-primary-dark;
       }
     }
   }
