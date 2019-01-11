@@ -98,6 +98,11 @@ const components = {
       content: pageLoader(() => import('../pages/components/flash-banner.md')),
     },
     {
+      path: '/components/icon',
+      title: 'Icon',
+      content: pageLoader(() => import('../pages/components/icon.md')),
+    },
+    {
       path: '/components/tag',
       title: 'Tag',
       content: pageLoader(() => import('../pages/components/tag.md')),
