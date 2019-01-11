@@ -113,6 +113,11 @@ const components = {
       content: pageLoader(() => import('../pages/components/popover.md')),
     },
     {
+      path: '/components/progress-bar',
+      title: 'Progress Bar',
+      content: pageLoader(() => import('../pages/components/progress-bar.md')),
+    },
+    {
       path: '/components/tag',
       title: 'Tag',
       content: pageLoader(() => import('../pages/components/tag.md')),
