@@ -118,6 +118,11 @@ const components = {
       content: pageLoader(() => import('../pages/components/progress-bar.md')),
     },
     {
+      path: '/components/tabbed-nav',
+      title: 'Tabbed Nav',
+      content: pageLoader(() => import('../pages/components/tabbed-nav.md')),
+    },
+    {
       path: '/components/tag',
       title: 'Tag',
       content: pageLoader(() => import('../pages/components/tag.md')),
