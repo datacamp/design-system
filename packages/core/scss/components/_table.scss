@@ -1,0 +1,55 @@
+// *********************************
+//
+// Headless Table
+//
+// *********************************
+
+.dc-table--headless {
+  .dc-table-wrapper & {
+    margin: 0 -2px;
+    overflow-x: auto;
+    padding: 2px;
+  }
+
+  .dc-table__tbody {
+    background-color: $white;
+    border-color: inherit;
+    border-radius: 4px;
+    box-shadow: $dc-box-shadow-sm;
+    vertical-align: middle;
+  }
+
+  .dc-table__th {
+    font-weight: $dc-font-weight-bold;
+    padding: spacing($multiplier: 5) spacing($multiplier: 3) spacing($multiplier: 2);
+  }
+
+  .dc-table__td {
+    padding: spacing($multiplier: 3);
+  }
+
+  // react-table override
+  .rt-tr-group:not(:last-child) .dc-table__td {
+    border-bottom: 1px solid #e6eaeb;
+  }
+
+  .dc-table__tr:not(:last-child) .dc-table__td {
+    border-bottom: 1px solid #e6eaeb;
+  }
+
+  .dc-table__tr:first-child .dc-table__td:first-child {
+    border-top-left-radius: 4px;
+  }
+
+  .dc-table__tr:first-child .dc-table__td:last-child {
+    border-top-right-radius: 4px;
+  }
+
+  .dc-table__tr:last-child .dc-table__td:first-child {
+    border-bottom-left-radius: 4px;
+  }
+
+  .dc-table__tr:last-child .dc-table__td:last-child {
+    border-bottom-right-radius: 4px;
+  }
+}

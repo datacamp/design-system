@@ -123,6 +123,11 @@ const components = {
       content: pageLoader(() => import('../pages/components/tabbed-nav.md')),
     },
     {
+      path: '/components/table',
+      title: 'Table',
+      content: pageLoader(() => import('../pages/components/table.md')),
+    },
+    {
       path: '/components/tag',
       title: 'Tag',
       content: pageLoader(() => import('../pages/components/tag.md')),
