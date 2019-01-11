@@ -103,6 +103,11 @@ const components = {
       content: pageLoader(() => import('../pages/components/icon.md')),
     },
     {
+      path: '/components/pagination',
+      title: 'Pagination',
+      content: pageLoader(() => import('../pages/components/pagination.md')),
+    },
+    {
       path: '/components/tag',
       title: 'Tag',
       content: pageLoader(() => import('../pages/components/tag.md')),
