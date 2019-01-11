@@ -1,0 +1,193 @@
+// ------------------
+// Popovers
+// ------------------
+
+// In order to change the popover background-color 
+// use the ".popover-trigger--primary" or ".popover-trigger--primary-dark" classes
+// on the triggering element(the one that's being clicked on)
+
+
+.popover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1060;
+  display: none;
+  max-width: 218px;
+  padding: 1px;
+  font-weight: bold;
+  text-align: center;
+  color: $dark-grey;
+  background-color: $white;
+  background-clip: padding-box;
+  border: 1px solid $lighter-grey;
+  border-radius: $border-radius;
+
+  // Offset the popover to account for the popover arrow
+  &.top     { margin-top: -8px; }
+  &.right   { margin-left: 8px; }
+  &.bottom  { margin-top: 8px; }
+  &.left    { margin-left: -8px; }
+}
+
+.popover-title {
+  margin: 0; // reset heading margin
+  padding: 8px 14px;
+  font-size: $h5-size;
+}
+
+.popover-content {
+  padding: 9px 14px;
+}
+
+// Arrows
+//
+// .arrow is outer, .arrow:after is inner
+
+.popover > .arrow {
+  &,
+  &:after {
+    position: absolute;
+    display: block;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+  }
+}
+.popover > .arrow {
+  border-width: 9px;
+}
+.popover > .arrow:after {
+  border-width: 8px;
+  content: "";
+}
+
+.popover {
+  &.top > .arrow {
+    left: 50%;
+    margin-left: -9px;
+    border-bottom-width: 0;
+    border-top-color: $light-grey;
+    bottom: -9px;
+    &:after {
+      content: " ";
+      bottom: 1px;
+      margin-left: -8px;
+      border-bottom-width: 0;
+      border-top-color: $white;
+    }
+  }
+  &.right > .arrow {
+    top: 50%;
+    left: -9px;
+    margin-top: -9px;
+    border-left-width: 0;
+    border-right-color: $light-grey;
+    &:after {
+      content: " ";
+      left: 1px;
+      bottom: -8px;
+      border-left-width: 0;
+      border-right-color: $white;
+    }
+  }
+  &.bottom > .arrow {
+    left: 50%;
+    margin-left: -9px;
+    border-top-width: 0;
+    border-bottom-color: $light-grey;
+    top: -9px;
+    &:after {
+      content: " ";
+      top: 1px;
+      margin-left: -8px;
+      border-top-width: 0;
+      border-bottom-color: $white;
+    }
+  }
+
+  &.left > .arrow {
+    top: 50%;
+    right: -9px;
+    margin-top: -9px;
+    border-left-color: $light-grey;
+    &:after {
+      content: " ";
+      right: auto;
+      border-right-width: 0;
+      border-left-color: $white;
+      bottom: -8px;
+    }
+  }
+}
+
+// This class should be used on the triggering element
+.popover-trigger--primary {
+  & + .popover {
+    background-color: $primary;
+    color: $white;
+    border: 0;
+
+    &.top > .arrow {
+      border-top-color: transparent;
+      &:after {
+        border-top-color: $primary;
+      }
+    }
+    &.right > .arrow {
+      border-right-color: transparent;
+      &:after {
+        border-right-color: $primary;
+      }
+    }
+    &.bottom > .arrow {
+      border-bottom-color: transparent;
+      &:after {
+        border-bottom-color: $primary;
+      }
+    }
+
+    &.left > .arrow {
+      border-left-color: transparent;
+      &:after {
+        border-left-color: $primary;
+      }
+    }
+  }
+}
+
+// This class should be used on the triggering element
+.popover-trigger--primary-dark {
+  & + .popover {
+    background-color: $primary-dark;
+    color: $white;
+    border: 0;
+
+    &.top > .arrow {
+      border-top-color: transparent;
+      &:after {
+        border-top-color: $primary-dark;
+      }
+    }
+    &.right > .arrow {
+      border-right-color: transparent;
+      &:after {
+        border-right-color: $primary-dark;
+      }
+    }
+    &.bottom > .arrow {
+      border-bottom-color: transparent;
+      &:after {
+        border-bottom-color: $primary-dark;
+      }
+    }
+
+    &.left > .arrow {
+      border-left-color: transparent;
+      &:after {
+        border-left-color: $primary-dark;
+      }
+    }
+  }
+}

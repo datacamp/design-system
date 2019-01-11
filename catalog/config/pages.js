@@ -108,6 +108,11 @@ const components = {
       content: pageLoader(() => import('../pages/components/pagination.md')),
     },
     {
+      path: '/components/popover',
+      title: 'Popover',
+      content: pageLoader(() => import('../pages/components/popover.md')),
+    },
+    {
       path: '/components/tag',
       title: 'Tag',
       content: pageLoader(() => import('../pages/components/tag.md')),
