@@ -98,6 +98,41 @@ const components = {
       content: pageLoader(() => import('../pages/components/flash-banner.md')),
     },
     {
+      path: '/components/icon',
+      title: 'Icon',
+      content: pageLoader(() => import('../pages/components/icon.md')),
+    },
+    {
+      path: '/components/pagination',
+      title: 'Pagination',
+      content: pageLoader(() => import('../pages/components/pagination.md')),
+    },
+    {
+      path: '/components/popover',
+      title: 'Popover',
+      content: pageLoader(() => import('../pages/components/popover.md')),
+    },
+    {
+      path: '/components/progress-bar',
+      title: 'Progress Bar',
+      content: pageLoader(() => import('../pages/components/progress-bar.md')),
+    },
+    {
+      path: '/components/tabbed-nav',
+      title: 'Tabbed Nav',
+      content: pageLoader(() => import('../pages/components/tabbed-nav.md')),
+    },
+    {
+      path: '/components/table',
+      title: 'Table',
+      content: pageLoader(() => import('../pages/components/table.md')),
+    },
+    {
+      path: '/components/tabs',
+      title: 'Tabs',
+      content: pageLoader(() => import('../pages/components/tabs.md')),
+    },
+    {
       path: '/components/tag',
       title: 'Tag',
       content: pageLoader(() => import('../pages/components/tag.md')),

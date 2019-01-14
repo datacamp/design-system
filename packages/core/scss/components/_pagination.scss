@@ -1,0 +1,49 @@
+.dc-pagination {
+  text-align: center;
+}
+
+// ----- List ----- //
+
+.dc-pagination__list {
+  @include list-unstyled;
+
+  align-items: center;
+  display: inline-flex;
+  justify-content: center;
+}
+
+// ----- Page ----- //
+
+.dc-pagination__page {
+  $size: 20px;
+
+  @include button-unstyled;
+
+  align-items: center;
+  border-radius: 50%;
+  color: $grey;
+  display: flex;
+  font-size: $small-font-size;
+  height: $size;
+  justify-content: center;
+  line-height: 1;
+  transition: color $default-duration;
+  width: $size;
+
+  @include state {
+    color: $primary;
+  }
+
+  &:disabled {
+    opacity: 0.2;
+  }
+
+  &.dc-is-active {
+    background-color: $primary;
+    color: $white;
+
+    @include state {
+      color: $white;
+    }
+  }
+}
