@@ -49,6 +49,13 @@ const designUtilities = {
       ),
     },
     {
+      path: '/design-utilities/border',
+      title: 'Border',
+      content: pageLoader(() =>
+        import('../pages/design-utilities/border.js')
+      ),
+    },
+    {
       path: '/design-utilities/border-radius',
       title: 'Border Radius',
       content: pageLoader(() =>
@@ -60,6 +67,20 @@ const designUtilities = {
       title: 'Box Shadow',
       content: pageLoader(() =>
         import('../pages/design-utilities/box-shadow.js')
+      ),
+    },
+    {
+      path: '/design-utilities/color',
+      title: 'Color',
+      content: pageLoader(() =>
+        import('../pages/design-utilities/color.js')
+      ),
+    },
+    {
+      path: '/design-utilities/cursor',
+      title: 'Cursor',
+      content: pageLoader(() =>
+        import('../pages/design-utilities/cursor.js')
       ),
     },
   ],
