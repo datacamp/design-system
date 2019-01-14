@@ -120,7 +120,7 @@ export default () => {
       </table>
 
       <header>
-        <h2>Reductive</h2>
+        <h2>Subtractive</h2>
         <p>These classes remove <code>border-radius</code>, so they can be used for customizing an element that has <code>border-radius</code> applied via CSS.</p>
       </header>
 
