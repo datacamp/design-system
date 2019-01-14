@@ -55,6 +55,13 @@ const designUtilities = {
         import('../pages/design-utilities/border-radius.js')
       ),
     },
+    {
+      path: '/design-utilities/box-shadow',
+      title: 'Box Shadow',
+      content: pageLoader(() =>
+        import('../pages/design-utilities/box-shadow.js')
+      ),
+    },
   ],
 };
 
