@@ -48,6 +48,13 @@ const designUtilities = {
         import('../pages/design-utilities/background.js')
       ),
     },
+    {
+      path: '/design-utilities/border-radius',
+      title: 'Border Radius',
+      content: pageLoader(() =>
+        import('../pages/design-utilities/border-radius.js')
+      ),
+    },
   ],
 };
 
