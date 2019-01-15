@@ -6,7 +6,7 @@ const CopyWebpackPlugin = require('copy-webpack-plugin');
 
 const nodeEnv = process.env.NODE_ENV || 'development';
 const dev = nodeEnv === 'production';
-const outputDir = 'package';
+const outputDir = 'lib';
 
 const tokens = require('./tokens.json');
 
@@ -112,6 +112,9 @@ module.exports = {
           transform(content) {
             return tokenizeSCSS(content);
           },
+        },
+        {
+          from: 'js/*',
         },
         'tokens.json',
       ],

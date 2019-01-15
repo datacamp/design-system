@@ -19,9 +19,9 @@
   "publishConfig": {
     "access": "restricted"
   },
-  "main": "js/index.js",
+  "main": "lib/index.js",
   "scripts": {
-    "clean": "rm -rf package/**",
+    "clean": "rm -rf lib/**",
     "test": "echo \"Error: no test specified\" && exit 1",
     "prepublish": "npm run build",
     "build": "npm run clean && webpack"
