@@ -23,6 +23,7 @@
   "scripts": {
     "clean": "rm -rf package/**",
     "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublish": "npm run build",
     "build": "npm run clean && webpack"
   },
   "devDependencies": {
