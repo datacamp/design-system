@@ -21,9 +21,9 @@ const tokenizeSCSS = scss => {
       for (const secondKey of Object.keys(tokens[firstKey])) {
         let value = tokens[firstKey][secondKey];
 
-        if (value.charAt(0) === "'" && value.charAt(value.length - 1) === "'") {
-          value = value.slice(1, -1);
-        }
+        // if (value.charAt(0) === "'" && value.charAt(value.length - 1) === "'") {
+        //   value = value.slice(1, -1);
+        // }
 
         const re = new RegExp(
           `map_get\\(\\$${firstKey}, ${secondKey}\\)`,
@@ -95,20 +95,20 @@ module.exports = {
           from: 'scss/**/*',
           ignore: [
             'ingredients.scss',
-            'dc-variables.scss',
+            'variables.scss',
           ]
         },
         {
           from: 'scss/ingredients.scss',
-          to: 'scss/',
+          to: 'scss',
           transform(content) {
             return content.toString()
               .replace("@import '../tokens.json';", '');
           },
         },
         {
-          from: 'scss/design/dc-variables.scss',
-          to: 'scss/design/',
+          from: 'scss/design/variables.scss',
+          to: 'scss/design',
           transform(content) {
             return tokenizeSCSS(content);
           },
