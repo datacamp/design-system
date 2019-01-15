@@ -119,7 +119,11 @@ module.exports = {
         'tokens.json',
       ],
       {
-        ignore: ['**/.*'],
+        ignore: [
+          '**/.*',
+          'js/',
+          'scss/',
+        ],
       }
     ),
   ],
