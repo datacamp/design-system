@@ -1,4 +1,4 @@
-export const logoSrc = 'catalog_logo.svg';
+export const logoSrc = 'logo-waffles-regular.svg';
 
 export const theme = {
   fontFamily: 'Lato, sans-serif',

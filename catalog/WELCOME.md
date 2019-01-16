@@ -1,5 +1,5 @@
 ```image
-src: catalog_logo.svg
+src: logo-waffles-regular.svg
 plain: true
 ```
 
