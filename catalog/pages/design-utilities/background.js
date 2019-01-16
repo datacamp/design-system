@@ -10,7 +10,7 @@ export default () => {
   return (
     <Page>
       <section>
-        <p>Background color utility classes are named using the format <code>.dc-u-bgc-color-name</code>. They can be used for building or customizing an element.</p>
+        <p>Background color utility classes are named using the format <code>.dc-u-bgc-[color-name]</code>. They can be used for building or customizing an element.</p>
         
         <ul class="dc-u-fx dc-u-fx-fww dc-u-m-none dc-u-p-none">
           {obj.map(name => (
