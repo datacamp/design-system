@@ -83,6 +83,13 @@ const designUtilities = {
         import('../pages/design-utilities/cursor.js')
       ),
     },
+    {
+      path: '/design-utilities/display',
+      title: 'Display',
+      content: pageLoader(() =>
+        import('../pages/design-utilities/display.js')
+      ),
+    },
   ],
 };
 
