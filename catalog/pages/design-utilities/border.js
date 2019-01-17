@@ -168,8 +168,8 @@ export default () => {
         <HintSpecimen>The color classes only output a <code>border-color</code>, so `.dc-u-b` class is necessary for adding border to an element.</HintSpecimen>
       </header>
 
-      <section class="dc-u-bgc-white dc-u-mt-24 dc-u-p-8">
-        <ul class="dc-u-fx dc-u-fx-fww dc-u-m-none dc-u-p-none">
+      <section className="dc-u-bgc-white dc-u-mt-24 dc-u-p-8">
+        <ul className="dc-u-fx dc-u-fx-fww dc-u-m-none dc-u-p-none">
           {obj.map(name => (
             <li
               className="dc-u-fx dc-u-fx-fdc dc-u-fx-aic dc-u-fx-jcc dc-u-m-8"

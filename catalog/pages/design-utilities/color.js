@@ -13,7 +13,7 @@ export default () => {
         <p>These classes add <code>color</code> to an element, so they can be used for building or customizing an element. They follow the format <code>.dc-u-color-[color-name]</code>.</p>
       </header>
 
-      <section class="dc-u-bgc-white dc-u-mt-24 dc-u-p-8">
+      <section className="dc-u-bgc-white dc-u-mt-24 dc-u-p-8">
         <table className="table">
           <thead>
             <tr>

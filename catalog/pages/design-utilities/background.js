@@ -24,7 +24,7 @@ export default () => {
                 color: getContrastColor(name),
               }}
             >
-              <code>{`.dc-${dashify(name)}`}</code>
+              <code>{`.dc-u-bgc-${dashify(name)}`}</code>
             </li>
           ))}
         </ul>
