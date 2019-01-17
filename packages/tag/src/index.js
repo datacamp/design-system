@@ -6,7 +6,7 @@ import styled from 'styled-components';
 
 import './index.css';
 
-import { getColor, getContrastColor } from '@datacamp/waffles-core';
+import { getColor, getContrastColor } from '@datacamp/waffles-core/js';
 
 const Tag = ({ color, children, extraClass, rounded, textColor }) => {
   const TagStyled = styled.div`
