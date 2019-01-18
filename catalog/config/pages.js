@@ -210,7 +210,9 @@ const pages = [
   {
     path: '/',
     title: 'Welcome',
-    content: pageLoader(() => import('../pages/index.md')),
+    content: pageLoader(() =>
+      import('../pages/index.js')
+    ),
   },
   design,
   designUtilities,

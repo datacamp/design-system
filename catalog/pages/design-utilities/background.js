@@ -3,7 +3,7 @@ import { Page } from 'catalog';
 
 import { colors } from '../../../packages/core/tokens.json';
 import { getColor, getContrastColor } from '../../../packages/core/js/colors';
-import { dashify } from '../../helpers/dashify';
+import dashify from '../../helpers/dashify';
 
 export default () => {
   const obj = Object.keys(colors);
