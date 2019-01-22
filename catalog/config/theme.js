@@ -9,7 +9,7 @@ export const theme = {
   codeColor: '#3d4251',
   linkColor: '#33aacc',
   lightColor: '#d1d3d8',
-  pageHeadingBackground: 'linear-gradient(32deg,#37bbab,#75c97e)',
+  pageHeadingBackground: 'linear-gradient(268deg, #405f8f, #1c3050)',
   pageHeadingTextColor: '#fff',
   pageHeadingHeight: 140,
   navBarBackground: '#ffffff',

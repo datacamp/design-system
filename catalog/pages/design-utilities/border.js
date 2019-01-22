@@ -3,7 +3,7 @@ import { Page, HintSpecimen } from 'catalog';
 
 import { colors } from '../../../packages/core/tokens.json';
 import { getColor, getContrastColor } from '../../../packages/core/js/colors';
-import { dashify } from '../../helpers/dashify';
+import dashify from '../../helpers/dashify';
 
 const docsCustomBgLight = {
   background: '#f9fafa'
