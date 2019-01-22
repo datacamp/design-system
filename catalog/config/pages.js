@@ -90,6 +90,20 @@ const designUtilities = {
         import('../pages/design-utilities/display.js')
       ),
     },
+    {
+      path: '/design-utilities/flexbox-containers',
+      title: 'Flexbox Containers',
+      content: pageLoader(() =>
+        import('../pages/design-utilities/flexbox-containers.js')
+      ),
+    },
+    {
+      path: '/design-utilities/flexbox-items',
+      title: 'Flexbox Items',
+      content: pageLoader(() =>
+        import('../pages/design-utilities/flexbox-items.js')
+      ),
+    },
   ],
 };
 
