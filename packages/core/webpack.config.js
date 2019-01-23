@@ -95,6 +95,9 @@ module.exports = {
       filename: 'icons/symbols.svg',
       prefix: '',
       svgo: {
+        js2svg: {
+          pretty: true,
+        },
         plugins: [{
           removeTitle: true
         }]
