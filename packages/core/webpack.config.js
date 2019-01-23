@@ -91,21 +91,22 @@ module.exports = {
 
     new CopyWebpackPlugin(
       [
+        // Copy raw svg icons to package
+        'icons/**/*',
+        // TODO: [atb]
         {
           from: 'scss/**/*',
-          ignore: [
-            'ingredients.scss',
-            'variables.scss',
-          ]
+          ignore: ['ingredients.scss', 'variables.scss']
         },
+        // TODO: [atb]
         {
           from: 'scss/ingredients.scss',
           to: 'scss',
           transform(content) {
-            return content.toString()
-              .replace("@import '../tokens.json';", '');
+            return content.toString().replace("@import '../tokens.json';", '');
           },
         },
+        // TODO: [atb]
         {
           from: 'scss/design/variables.scss',
           to: 'scss/design',
@@ -113,17 +114,13 @@ module.exports = {
             return tokenizeSCSS(content);
           },
         },
-        {
-          from: 'js/*',
-        },
+        // copy all raw js to package
+        'js/**/*',
+        // copy tokens.json to package
         'tokens.json',
       ],
       {
-        ignore: [
-          '**/.*',
-          'js/',
-          'scss/',
-        ],
+        ignore: ['**/.*'],
       }
     ),
   ],
