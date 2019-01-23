@@ -3,6 +3,7 @@ const webpack = require('webpack');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const sassJsonImporter = require('node-sass-json-importer');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
+const SVGSpritemapPlugin = require('svg-spritemap-webpack-plugin');
 
 const nodeEnv = process.env.NODE_ENV || 'development';
 const dev = nodeEnv === 'production';
@@ -89,10 +90,23 @@ module.exports = {
       allChunks: true,
     }),
 
+    new SVGSpritemapPlugin({
+      src: 'icons/svgs/*.svg',
+      filename: 'icons/symbols.svg',
+      prefix: '',
+      svgo: {
+        plugins: [{
+          removeTitle: true
+        }]
+      }
+    }), 
+
     new CopyWebpackPlugin(
       [
         // Copy raw svg icons to package
-        'icons/**/*',
+        {
+          from: 'icons/**/*'
+        },  
         // TODO: [atb]
         {
           from: 'scss/**/*',
