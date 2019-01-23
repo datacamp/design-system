@@ -99,7 +99,10 @@ module.exports = {
           pretty: true,
         },
         plugins: [{
-          removeTitle: true
+          removeTitle: true,
+          removeAttrs: {
+            attrs: 'fill'
+          }
         }]
       }
     }), 
