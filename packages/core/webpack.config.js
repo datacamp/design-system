@@ -109,16 +109,12 @@ module.exports = {
 
     new CopyWebpackPlugin(
       [
-        // Copy raw svg icons to package
-        {
-          from: 'icons/**/*'
-        },  
-        // TODO: [atb]
+        // Copy source SCSS files (except ingredients and variables) to package
         {
           from: 'scss/**/*',
           ignore: ['ingredients.scss', 'variables.scss']
         },
-        // TODO: [atb]
+        // Copy ingredients SCSS to package and replace tokens import
         {
           from: 'scss/ingredients.scss',
           to: 'scss',
@@ -126,7 +122,7 @@ module.exports = {
             return content.toString().replace("@import '../tokens.json';", '');
           },
         },
-        // TODO: [atb]
+        // Copy variables SCSS to package and tokenize values
         {
           from: 'scss/design/variables.scss',
           to: 'scss/design',
@@ -134,6 +130,8 @@ module.exports = {
             return tokenizeSCSS(content);
           },
         },
+        // Copy raw svg icons to package
+        'icons/**/*',
         // copy all raw js to package
         'js/**/*',
         // copy tokens.json to package
