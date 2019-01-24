@@ -3,6 +3,7 @@ const webpack = require('webpack');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const sassJsonImporter = require('node-sass-json-importer');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
+const SVGSpritemapPlugin = require('svg-spritemap-webpack-plugin');
 
 const nodeEnv = process.env.NODE_ENV || 'development';
 const dev = nodeEnv === 'production';
@@ -89,23 +90,39 @@ module.exports = {
       allChunks: true,
     }),
 
+    new SVGSpritemapPlugin({
+      src: 'icons/svgs/*.svg',
+      filename: 'icons/symbols.svg',
+      prefix: '',
+      svgo: {
+        js2svg: {
+          pretty: true,
+        },
+        plugins: [{
+          removeTitle: true,
+          removeAttrs: {
+            attrs: 'fill'
+          }
+        }]
+      }
+    }), 
+
     new CopyWebpackPlugin(
       [
+        // Copy source SCSS files (except ingredients and variables) to package
         {
           from: 'scss/**/*',
-          ignore: [
-            'ingredients.scss',
-            'variables.scss',
-          ]
+          ignore: ['ingredients.scss', 'variables.scss']
         },
+        // Copy ingredients SCSS to package and replace tokens import
         {
           from: 'scss/ingredients.scss',
           to: 'scss',
           transform(content) {
-            return content.toString()
-              .replace("@import '../tokens.json';", '');
+            return content.toString().replace("@import '../tokens.json';", '');
           },
         },
+        // Copy variables SCSS to package and tokenize values
         {
           from: 'scss/design/variables.scss',
           to: 'scss/design',
@@ -113,17 +130,15 @@ module.exports = {
             return tokenizeSCSS(content);
           },
         },
-        {
-          from: 'js/*',
-        },
+        // Copy raw svg icons to package
+        'icons/**/*',
+        // copy all raw js to package
+        'js/**/*',
+        // copy tokens.json to package
         'tokens.json',
       ],
       {
-        ignore: [
-          '**/.*',
-          'js/',
-          'scss/',
-        ],
+        ignore: ['**/.*'],
       }
     ),
   ],
