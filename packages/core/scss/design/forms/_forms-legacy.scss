@@ -74,6 +74,12 @@
   }
 }
 
+@media all and (-ms-high-contrast: none) {
+  .dc-input--text {
+    height: 48px;
+  }
+}
+
 // Date input
 
 .dc-input--date {
