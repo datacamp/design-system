@@ -84,7 +84,7 @@
  * - Text
  *   - text (.dc-u-t)
  *   - text-align (.dc-u-ta)@bp
- *   - text-decoration (.dc-u-tde)
+ *   - text-decoration (.dc-u-td)
  *   - text-orientation (.dc-u-tor)
  *   - text-overflow (.dc-u-tof)
  *   - text-transform (.dc-u-tt)
@@ -1019,6 +1019,10 @@
   min-height: 0 !important;
 }
 
+.dc-u-minh-128 {
+  min-width: 128px !important;
+}
+
 @each $measure in $dc-measure {
   .dc-u-minh-#{$measure} {
     min-height: #{$measure}px !important;
@@ -1634,6 +1638,14 @@ $dc-overflow-types: 'auto', 'hidden', 'scroll', 'visible';
 }
 
 // min-width
+.dc-u-minw-0 {
+  min-width: 0 !important;
+}
+
+.dc-u-minw-128 {
+  min-width: 128px !important;
+}
+
 @each $measure in $dc-measure {
   .dc-u-minw-#{$measure} {
     min-width: #{$measure}px !important;
