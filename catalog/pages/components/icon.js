@@ -13,7 +13,7 @@ export default () => {
           <h2>SCSS Import</h2> 
           <code>@import @datacamp/waffles-core/scss/components/icon.scss;</code>
 
-          <h2>HTML Usage</h2>
+          <h2 className="dc-u-mt-24">HTML Usage</h2>
           <p>
             Icons need to be referenced from a <code>symbols.svg</code> file that is included in the package. Each app needs to have this SVG inserted into the HTML.
           </p>
@@ -23,20 +23,161 @@ export default () => {
             There are multiple modifier classes that can be used for icons, but the size modifier is required to display an icon. There are currently 3 sizes available: <code>12, 18, 24</code>.
           </p>
         </header>
-
-        <HtmlSpecimen showSource span={2}>
-          Why does this fail?
-        </HtmlSpecimen>
       </section>
 
-      <section>
+      <HtmlSpecimen 
+        showSource 
+        span={2} 
+        rawBody='
+          <span class="dc-icon dc-icon--size-12">
+            <svg class="dc-icon__svg">
+              <use xlink:href="#add" />
+            </svg>
+          </span>'>
+      </HtmlSpecimen>
+
+      <HtmlSpecimen 
+        showSource 
+        span={2} 
+        rawBody='
+          <span class="dc-icon dc-icon--size-18">
+            <svg class="dc-icon__svg">
+              <use xlink:href="#add" />
+            </svg>
+          </span>'>
+      </HtmlSpecimen>
+
+      <HtmlSpecimen 
+        showSource 
+        span={2} 
+        rawBody='
+          <span class="dc-icon dc-icon--size-24">
+            <svg class="dc-icon__svg">
+              <use xlink:href="#add" />
+            </svg>
+          </span>'>
+      </HtmlSpecimen>
+      
+      <header className="dc-u-mt-24">
+        <h2>Colors</h2>
+        <p>Any design system color can be used in a modifier class to set the <code>color</code> value of the icon. The <code>color</code> defaults to <code>dc-primary</code></p>
+      </header>
+
+      <HtmlSpecimen 
+        showSource 
+        span={2} 
+        rawBody='
+          <span class="dc-icon dc-icon--size-18 dc-icon--primary">
+            <svg class="dc-icon__svg">
+              <use xlink:href="#add" />
+            </svg>
+          </span>'>
+      </HtmlSpecimen>
+
+      <HtmlSpecimen 
+        showSource 
+        span={2} 
+        rawBody='
+        <span class="dc-icon dc-icon--size-18 dc-icon--secondary">
+            <svg class="dc-icon__svg">
+              <use xlink:href="#add" />
+            </svg>
+          </span>'>
+      </HtmlSpecimen>
+
+      <HtmlSpecimen 
+        showSource 
+        span={2} 
+        rawBody='
+        <span class="dc-icon dc-icon--size-24 dc-icon--green">
+            <svg class="dc-icon__svg">
+              <use xlink:href="#add" />
+            </svg>
+          </span>'>
+      </HtmlSpecimen>
+
+      <header className="dc-u-mt-24">
+        <h2>Active State</h2>
+        <p>Icon color can be changed based on an active "state" by adding a an active modifier class and toggling an <code>is-active</code> class.</p>
+      </header>
+
+      <HtmlSpecimen 
+        showSource 
+        span={2} 
+        rawBody='
+        <span class="dc-icon dc-icon--size-18 dc-icon--primary dc-icon--active-secondary is-active">
+            <svg class="dc-icon__svg">
+              <use xlink:href="#add" />
+            </svg>
+          </span>'>
+      </HtmlSpecimen>
+
+      <HtmlSpecimen 
+        showSource 
+        span={2} 
+        rawBody='
+        <span class="dc-icon dc-icon--size-18 dc-icon--secondary dc-icon--active-primary is-active">
+            <svg class="dc-icon__svg">
+              <use xlink:href="#add" />
+            </svg>
+          </span>'>
+      </HtmlSpecimen>
+
+      <HtmlSpecimen 
+        showSource 
+        span={2} 
+        rawBody='
+        <span class="dc-icon dc-icon--size-24 dc-icon--green dc-icon--active-purple is-active">
+            <svg class="dc-icon__svg">
+              <use xlink:href="#add" />
+            </svg>
+          </span>'>
+      </HtmlSpecimen>
+
+      <section className="dc-u-mt-24">
+        <h2>Modifiers</h2>
+
+        <h4>Flex</h4>
+        <p>To align with text, the <code>dc-icon</code> has a negative <code>top</code> value. As a flex child element, the icon will be misaligned. The <code>dc-icon--flex</code> modifier will vertically center the icon.</p>
+
+        <HtmlSpecimen 
+        showSource 
+        span={3} 
+        rawBody='
+          <p class="dc-u-fx dc-u-fx-aic">
+            <strike class="dc-u-mr-4 dc-u-color-red">Misaligned icon in a flex container</strike>
+            <span class="dc-icon dc-icon--size-18 dc-icon--red">
+              <svg class="dc-icon__svg">
+                <use xlink:href="#add" />
+              </svg>
+            </span>
+          </p>'>
+        </HtmlSpecimen>
+
+        <HtmlSpecimen 
+        showSource 
+        span={3} 
+        rawBody='
+          <p class="dc-u-fx dc-u-fx-aic">
+            <span class="dc-u-mr-4">Aligned icon in a flex container</span>
+            <span class="dc-icon dc-icon--size-18 dc-icon--flex dc-icon--green">
+              <svg class="dc-icon__svg">
+                <use xlink:href="#add" />
+              </svg>
+            </span>
+          </p>'>
+        </HtmlSpecimen>
+
+      </section>
+
+      <section className="dc-u-mt-24">
         <h2>All Icons</h2>
 
         <p>Icons are represented in the 3 sizes that are available <code>12, 18, 24</code>.</p>
 
         <ul className="dc-u-lst-none dc-u-m-none dc-u-p-none dc-u-fx dc-u-fx-fww">
           {obj.map(name => (
-            <li className="dc-u-w-25pc">
+            <li className="dc-u-w-25pc" key={name}>
               <div className="dc-card dc-u-m-8 dc-u-ta-center">
                 <span className="dc-icon dc-icon--size-12">
                   <svg className="dc-icon__svg">

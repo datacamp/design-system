@@ -156,11 +156,6 @@ const components = {
     {
       path: '/components/icon',
       title: 'Icon',
-      content: pageLoader(() => import('../pages/components/icon.md')),
-    },
-    {
-      path: '/components/icon-temp',
-      title: 'Icon Temp',
       content: pageLoader(() => import('../pages/components/icon.js')),
     },
     {
