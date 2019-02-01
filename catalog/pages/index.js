@@ -16,7 +16,7 @@ export default () => {
       <header className="dc-u-bgg-chambray-cloudburst dc-u-pt-96 dc-u-pb-128">
         <div style={ContainerStyle}>
           <h1 className="dc-u-color-white dc-u-mt-0">Meet Waffles, our Design System.</h1>
-          <p className="dc-u-color-white dc-u-mb-64">Our design system helps us work together to build a great experience for all students & instructors. Our design system contains guidelines and components to create a unified experience.</p>
+          <p className="dc-u-color-white dc-u-mb-64 dc-u-maxw-640">Our design system helps us work together to build a great experience for all students & instructors. Our design system contains guidelines and components to create a unified experience.</p>
         </div>
       </header>
 
