@@ -156,7 +156,7 @@ const components = {
     {
       path: '/components/icon',
       title: 'Icon',
-      content: pageLoader(() => import('../pages/components/icon.md')),
+      content: pageLoader(() => import('../pages/components/icon.js')),
     },
     {
       path: '/components/pagination',

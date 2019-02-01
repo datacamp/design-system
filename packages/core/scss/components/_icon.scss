@@ -23,7 +23,7 @@ svg:not(:root) {
 
 .dc-icon {
   display: inline-block;
-  fill: $dc-primary;
+  fill: currentColor;
   overflow: hidden;
   position: relative;
   top: -0.1em; /* 1 */
