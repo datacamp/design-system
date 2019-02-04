@@ -16,8 +16,7 @@ export default () => {
         section="Design Utilities"
         subSection="Display"
         description="Apply or override display."
-      >
-      </CustomHeader>  
+      />  
       <Page>
         <header>
           <p>These classes add <code>display</code> to an element, so they can be used for building or customizing an element.</p>

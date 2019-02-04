@@ -10,8 +10,7 @@ export default () => {
         section="Design Utilities"
         subSection="Intro"
         description="Utility classes are the foundation of how UI is built at DataCamp."
-      >
-      </CustomHeader>
+      />
 
       <Page>
         <section>

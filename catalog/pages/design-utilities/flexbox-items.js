@@ -19,8 +19,7 @@ export default () => {
         section="Design Utilities"
         subSection="Flex Items"
         description="Customize flex items."
-      >
-      </CustomHeader>  
+      />  
       <Page>
 
         <header className="dc-u-w-100pc">

@@ -14,8 +14,7 @@ export default () => {
         section="Design Utilities"
         subSection="Box Shadow"
         description="Apply or override box-shadow."
-      >
-      </CustomHeader>  
+      />  
       <Page>
         <header>
           <h2>Additive</h2>

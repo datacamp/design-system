@@ -15,8 +15,7 @@ export default () => {
         section="Design Utilities"
         subSection="Color"
         description="Apply or override text color."
-      >
-      </CustomHeader>
+      />
       <Page>
         <header>
           <p>These classes add <code>color</code> to an element, so they can be used for building or customizing an element. They follow the format <code>.dc-u-color-[color-name]</code>.</p>

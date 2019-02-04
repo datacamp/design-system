@@ -22,8 +22,7 @@ export default () => {
         section="Design Utilities"
         subSection="Border"
         description="Apply or override border."
-      >
-      </CustomHeader>  
+      />  
       <Page>
         <header>
           <h2>Additive</h2>

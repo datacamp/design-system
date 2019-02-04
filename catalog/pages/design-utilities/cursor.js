@@ -14,8 +14,7 @@ export default () => {
         section="Design Utilities"
         subSection="Cursor"
         description="Apply or override cursor types."
-      >
-      </CustomHeader>
+      />
       <Page>
         <header>
           <h2>Additive</h2>

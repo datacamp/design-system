@@ -10,8 +10,7 @@ export default () => {
         section="Design"
         subSection="Intro"
         description="Find out how we approach the visual elements of our interface with purpose."
-      >
-      </CustomHeader>
+      />
 
       <Page>
         <section>

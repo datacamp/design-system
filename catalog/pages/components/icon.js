@@ -13,12 +13,11 @@ export default () => {
         section="Design"
         subSection="Intro"
         description="Find out how we approach the visual elements of our interface with purpose."
-      >
-      </CustomHeader>
+      />
 
       <Page>
 
-      <div className="dc-u-fx dc-u-fx-aifs">
+        <div className="dc-u-fx dc-u-fx-aifs">
 
         <section className="dc-u-maxw-640 dc-u-pr-32">
           <header>
@@ -243,7 +242,7 @@ export default () => {
 
       </div>
 
-    </Page>
+      </Page>
     </main>
   );
 }

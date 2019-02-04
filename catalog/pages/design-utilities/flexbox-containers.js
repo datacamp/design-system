@@ -17,8 +17,7 @@ export default () => {
         section="Design Utilities"
         subSection="Flex Containers"
         description="Create and modify flex containers."
-      >
-      </CustomHeader>  
+      />  
       <Page>
 
         <header>

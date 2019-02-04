@@ -14,8 +14,7 @@ export default () => {
         section="Design Utilities"
         subSection="Border Radius"
         description="Apply or override border radius."
-      >
-      </CustomHeader>
+      />
       <Page>
         <header>
           <h2>Additive</h2>

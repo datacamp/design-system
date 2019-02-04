@@ -14,8 +14,7 @@ export default () => {
         section="Design Utilities"
         subSection="Background"
         description="Apply or override background colors."
-      >
-      </CustomHeader>
+      />
 
       <Page>
         <section>
