@@ -7,7 +7,7 @@ const design = {
     {
       path: '/design',
       title: 'Intro',
-      content: pageLoader(() => import('../pages/design/index.md')),
+      content: pageLoader(() => import('../pages/design/index.js')),
     },
     {
       path: '/design/text',
@@ -39,7 +39,7 @@ const designUtilities = {
     {
       path: '/design-utilities',
       title: 'Intro',
-      content: pageLoader(() => import('../pages/design-utilities/index.md')),
+      content: pageLoader(() => import('../pages/design-utilities/index.js')),
     },
     {
       path: '/design-utilities/background',
@@ -126,7 +126,7 @@ const components = {
     {
       path: '/components',
       title: 'Intro',
-      content: pageLoader(() => import('../pages/components/index.md')),
+      content: pageLoader(() => import('../pages/components/index.js')),
     },
     {
       path: '/components/button',
