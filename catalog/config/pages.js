@@ -118,6 +118,20 @@ const designUtilities = {
         import('../pages/design-utilities/height.js')
       ),
     },
+    {
+      path: '/design-utilities/letter-spacing',
+      title: 'Letter Spacing',
+      content: pageLoader(() =>
+        import('../pages/design-utilities/letter-spacing.js')
+      ),
+    },
+    {
+      path: '/design-utilities/line-height',
+      title: 'Line Height',
+      content: pageLoader(() =>
+        import('../pages/design-utilities/line-height.js')
+      ),
+    },
   ],
 };
 
