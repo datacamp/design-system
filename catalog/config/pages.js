@@ -104,6 +104,13 @@ const designUtilities = {
         import('../pages/design-utilities/flexbox-items.js')
       ),
     },
+    {
+      path: '/design-utilities/font',
+      title: 'Font',
+      content: pageLoader(() =>
+        import('../pages/design-utilities/font.js')
+      ),
+    },
   ],
 };
 
