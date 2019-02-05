@@ -111,6 +111,13 @@ const designUtilities = {
         import('../pages/design-utilities/font.js')
       ),
     },
+    {
+      path: '/design-utilities/height',
+      title: 'Height',
+      content: pageLoader(() =>
+        import('../pages/design-utilities/height.js')
+      ),
+    },
   ],
 };
 

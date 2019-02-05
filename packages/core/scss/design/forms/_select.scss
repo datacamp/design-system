@@ -50,6 +50,12 @@
     outline: none;
   }
 
+  &:disabled,
+  &.dc-is-disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+  }
+
   ::-ms-expand {
     display: none;
   }
