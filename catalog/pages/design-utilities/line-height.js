@@ -14,7 +14,7 @@ export default () => {
       <Page>
         <header>
           <h4 className="dc-u-mb-8">Additive</h4>
-          <p className="dc-u-mt-0">These classes add <code>letter-spacing</code> properties to an element, so they can be used for building or customizing an element.</p>
+          <p className="dc-u-mt-0">These classes add <code>line-height</code> properties to an element, so they can be used for building or customizing an element.</p>
         </header>
 
         <table className="table">

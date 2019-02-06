@@ -19,7 +19,7 @@ export default () => {
       <Page>
         <header>
           <h2>Additive</h2>
-          <p>These classes add <code>cursor</code> properties to an element, so they can be used for building or customizing an element.</p>
+          <p>These classes add <code>font</code> properties to an element, so they can be used for building or customizing an element.</p>
         </header>
 
         <h4 className="dc-u-mb-8 dc-u-minw-100pc">Family</h4>
