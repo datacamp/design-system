@@ -3,10 +3,6 @@ import { Page } from 'catalog';
 
 import CustomHeader from '../../components/CustomHeader';
 
-const docsHasBoxShadow = {
-  boxShadow: '0 1px 2px 0 rgba(0, 0, 0, 0.15)'
-};
-
 export default () => {
   return (
     <main>
