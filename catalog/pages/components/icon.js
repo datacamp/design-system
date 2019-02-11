@@ -35,7 +35,7 @@ export default () => {
             </p>
           </header>
 
-          <div class="dc-u-fx">
+          <div className="dc-u-fx">
             <HtmlSpecimen 
               showSource 
               span={2} 
@@ -75,7 +75,7 @@ export default () => {
             <p>Any design system color can be used in a modifier class to set the <code>color</code> value of the icon. The <code>color</code> defaults to <code>dc-primary</code></p>
           </header>
 
-          <div class="dc-u-fx">
+          <div className="dc-u-fx">
             <HtmlSpecimen 
               showSource 
               span={2} 
@@ -115,7 +115,7 @@ export default () => {
             <p>Icon color can be changed based on an active "state" by adding a an active modifier class and toggling an <code>is-active</code> class.</p>
           </header>
 
-          <div class="dc-u-fx">
+          <div className="dc-u-fx">
             <HtmlSpecimen 
               showSource 
               span={2} 
@@ -156,7 +156,7 @@ export default () => {
             <h4>Flex</h4>
             <p>To align with text, the <code>dc-icon</code> has a negative <code>top</code> value. As a flex child element, the icon will be misaligned. The <code>dc-icon--flex</code> modifier will vertically center the icon.</p>
 
-            <div class="dc-u-fx">
+            <div className="dc-u-fx">
 
               <HtmlSpecimen 
               showSource 

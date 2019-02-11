@@ -10,14 +10,14 @@ import whitelist from '../../helpers/whitelist.js';
 const blacklist = ['ws', '4K', '5K', 'belowWs', 'below4K', 'below5K'];
 
 export default () => {
-  
+
   return (
     <main>
       <CustomHeader
         section="Design Utilities"
         subSection="Flex Containers"
         description="Create and modify flex containers."
-      />  
+      />
       <Page>
 
         <header>
@@ -54,10 +54,10 @@ export default () => {
 
         <header>
           <h3>Responsive Modifiers</h3>
-          <p>Display utilities can be applied to individual common breakpoints using @[size] appended to the end of the class.</p>
+          <p>Display utilities can be applied to individual common breakpoints using <code>@[size]</code> appended to the end of the class.</p>
         </header>
 
-        <section class="dc-u-fx dc-u-w-100pc">
+        <section className="dc-u-fx dc-u-w-100pc">
 
           <article className="dc-u-mh-4">
             <h4>Flex</h4>
@@ -106,7 +106,7 @@ export default () => {
               </tbody>
             </table>
           </article>
-                
+
         </section>
 
         <header>
@@ -159,10 +159,10 @@ export default () => {
 
         <header>
           <h3>Responsive Modifiers</h3>
-          <p>Display utilities can be applied to individual common breakpoints using @[size] appended to the end of the class.</p>
+          <p>Display utilities can be applied to individual common breakpoints using <code>@[size]</code> appended to the end of the class.</p>
         </header>
 
-        <section class="dc-u-fx dc-u-fx-fww dc-u-w-100pc">
+        <section className="dc-u-fx dc-u-fx-fww dc-u-w-100pc">
 
           <article className="dc-u-mh-4">
             <h4>Column</h4>
@@ -360,10 +360,10 @@ export default () => {
 
         <header>
           <h3>Responsive Modifiers</h3>
-          <p>Display utilities can be applied to individual common breakpoints using @[size] appended to the end of the class.</p>
+          <p>Display utilities can be applied to individual common breakpoints using <code>@[size]</code> appended to the end of the class.</p>
         </header>
 
-        <section class="dc-u-fx dc-u-fx-fww dc-u-w-100pc">
+        <section className="dc-u-fx dc-u-fx-fww dc-u-w-100pc">
 
           <article className="dc-u-mh-4">
             <h4>Baseline</h4>
@@ -541,14 +541,14 @@ export default () => {
               </td>
             </tr>
           </tbody>
-        </table>  
+        </table>
 
         <header>
           <h3>Responsive Modifiers</h3>
-          <p>Display utilities can be applied to individual common breakpoints using @[size] appended to the end of the class.</p>
+          <p>Display utilities can be applied to individual common breakpoints using <code>@[size]</code> appended to the end of the class.</p>
         </header>
 
-        <section class="dc-u-fx dc-u-fx-fww dc-u-w-100pc">
+        <section className="dc-u-fx dc-u-fx-fww dc-u-w-100pc">
 
           <article className="dc-u-mh-4">
             <h4>Center</h4>
@@ -754,10 +754,10 @@ export default () => {
 
         <header>
           <h3>Responsive Modifiers</h3>
-          <p>Display utilities can be applied to individual common breakpoints using @[size] appended to the end of the class.</p>
+          <p>Display utilities can be applied to individual common breakpoints using <code>@[size]</code> appended to the end of the class.</p>
         </header>
 
-        <section class="dc-u-fx dc-u-fx-fww dc-u-w-100pc">
+        <section className="dc-u-fx dc-u-fx-fww dc-u-w-100pc">
 
           <article className="dc-u-mh-4">
             <h4>Center</h4>
