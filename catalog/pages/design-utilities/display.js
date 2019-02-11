@@ -9,14 +9,14 @@ import whitelist from '../../helpers/whitelist.js';
 const blacklist = ['ws', '4K', '5K', 'belowWs', 'below4K', 'below5K'];
 
 export default () => {
-  
-  return (  
+
+  return (
     <main>
       <CustomHeader
         section="Design Utilities"
         subSection="Display"
         description="Apply or override display."
-      />  
+      />
       <Page>
         <header>
           <p>These classes add <code>display</code> to an element, so they can be used for building or customizing an element.</p>
@@ -83,7 +83,7 @@ export default () => {
 
         <header>
           <h2>Responsive Modifiers</h2>
-          <p>Display utilities can be applied to individual common breakpoints using @[size] appended to the end of the class.</p>
+          <p>Display utilities can be applied to individual common breakpoints using <code>@[size]</code> appended to the end of the class.</p>
         </header>
 
         <article className="dc-u-mh-4">

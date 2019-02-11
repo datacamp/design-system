@@ -102,7 +102,7 @@ export default () => {
 
         <header>
           <h2>Responsive Size Modifiers</h2>
-          <p>Font size utilities can be applied to individual common breakpoints using @[size] appended to the end of the class.</p>
+          <p>Font size utilities can be applied to individual common breakpoints using <code>@[size]</code> appended to the end of the class.</p>
         </header>
 
         <table>

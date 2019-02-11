@@ -54,7 +54,7 @@ export default () => {
 
         <header>
           <h3>Responsive Modifiers</h3>
-          <p>Display utilities can be applied to individual common breakpoints using @[size] appended to the end of the class.</p>
+          <p>Display utilities can be applied to individual common breakpoints using <code>@[size]</code> appended to the end of the class.</p>
         </header>
 
         <section className="dc-u-fx dc-u-w-100pc">
@@ -159,7 +159,7 @@ export default () => {
 
         <header>
           <h3>Responsive Modifiers</h3>
-          <p>Display utilities can be applied to individual common breakpoints using @[size] appended to the end of the class.</p>
+          <p>Display utilities can be applied to individual common breakpoints using <code>@[size]</code> appended to the end of the class.</p>
         </header>
 
         <section className="dc-u-fx dc-u-fx-fww dc-u-w-100pc">
@@ -360,7 +360,7 @@ export default () => {
 
         <header>
           <h3>Responsive Modifiers</h3>
-          <p>Display utilities can be applied to individual common breakpoints using @[size] appended to the end of the class.</p>
+          <p>Display utilities can be applied to individual common breakpoints using <code>@[size]</code> appended to the end of the class.</p>
         </header>
 
         <section className="dc-u-fx dc-u-fx-fww dc-u-w-100pc">
@@ -545,7 +545,7 @@ export default () => {
 
         <header>
           <h3>Responsive Modifiers</h3>
-          <p>Display utilities can be applied to individual common breakpoints using @[size] appended to the end of the class.</p>
+          <p>Display utilities can be applied to individual common breakpoints using <code>@[size]</code> appended to the end of the class.</p>
         </header>
 
         <section className="dc-u-fx dc-u-fx-fww dc-u-w-100pc">
@@ -754,7 +754,7 @@ export default () => {
 
         <header>
           <h3>Responsive Modifiers</h3>
-          <p>Display utilities can be applied to individual common breakpoints using @[size] appended to the end of the class.</p>
+          <p>Display utilities can be applied to individual common breakpoints using <code>@[size]</code> appended to the end of the class.</p>
         </header>
 
         <section className="dc-u-fx dc-u-fx-fww dc-u-w-100pc">
