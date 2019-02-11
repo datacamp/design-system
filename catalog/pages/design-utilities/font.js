@@ -109,7 +109,7 @@ export default () => {
           <thead>
             <tr>
               <th>Class Name</th>
-              <th>Responsive Modifiers</th>
+              <th>Responsive</th>
             </tr>
           </thead>
           <tbody>
