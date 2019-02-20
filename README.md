@@ -9,3 +9,7 @@ The working name is Waffles, but we're using `design-system` for internal findab
 - Clone the repo
 - `npm install`
 - yarn run catalog-start
+
+## Learn More
+
+https://waffles.datacamp.com/
