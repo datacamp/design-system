@@ -1,0 +1,39 @@
+{
+  "name": "@datacamp/waffles-pagination",
+  "version": "0.1.10-alpha.0",
+  "description": "The Waffles pagination",
+  "keywords": [
+    "pagination"
+  ],
+  "author": "Dan Denney <dd.subscriptions@gmail.com>",
+  "homepage": "https://github.com/datacamp/design-system/tree/master/packages/pagination#readme",
+  "license": "ISC",
+  "main": "lib/pagination.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/datacamp/design-system.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1",
+    "build": "babel src --out-dir lib --ignore spec.js --copy-files",
+    "prepare": "npm run build"
+  },
+  "bugs": {
+    "url": "https://github.com/datacamp/design-system/issues"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.0",
+    "babel-cli": "^6.26.0",
+    "babel-loader": "^8.0.4",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "6.24.1"
+  }
+}
