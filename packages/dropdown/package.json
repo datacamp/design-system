@@ -1,11 +1,14 @@
 {
-  "name": "@datacamp/waffles-count-indicator",
+  "name": "@datacamp/waffles-dropdown",
   "version": "0.1.10-alpha.0",
-  "description": "The Waffles count indicator",
+  "description": "The Waffles dropdown",
+  "keywords": [
+    "dropdown"
+  ],
   "author": "Dan Denney <dd.subscriptions@gmail.com>",
-  "homepage": "https://github.com/datacamp/design-system/tree/master/packages/count-indicator#readme",
+  "homepage": "https://github.com/datacamp/design-system/tree/master/packages/dropdown#readme",
   "license": "ISC",
-  "main": "lib/count-indicator.js",
+  "main": "lib/dropdown.js",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
