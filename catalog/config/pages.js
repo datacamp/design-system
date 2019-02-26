@@ -132,6 +132,13 @@ const designUtilities = {
         import('../pages/design-utilities/line-height.js')
       ),
     },
+    {
+      path: '/design-utilities/list',
+      title: 'List',
+      content: pageLoader(() =>
+        import('../pages/design-utilities/list.js')
+      ),
+    },
   ],
 };
 
