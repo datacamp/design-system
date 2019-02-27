@@ -153,6 +153,13 @@ const designUtilities = {
         import('../pages/design-utilities/max-height.js')
       ),
     },
+    {
+      path: '/design-utilities/max-width',
+      title: 'Max Width',
+      content: pageLoader(() =>
+        import('../pages/design-utilities/max-width.js')
+      ),
+    },
   ],
 };
 
