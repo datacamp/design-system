@@ -160,6 +160,20 @@ const designUtilities = {
         import('../pages/design-utilities/max-width.js')
       ),
     },
+    {
+      path: '/design-utilities/min-height',
+      title: 'Min Height',
+      content: pageLoader(() =>
+        import('../pages/design-utilities/min-height.js')
+      ),
+    },
+    {
+      path: '/design-utilities/min-width',
+      title: 'Min Width',
+      content: pageLoader(() =>
+        import('../pages/design-utilities/min-width.js')
+      ),
+    },
   ],
 };
 
