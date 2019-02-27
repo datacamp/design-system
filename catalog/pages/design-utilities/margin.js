@@ -8,6 +8,9 @@ import { spatial } from '../../../packages/core/tokens.json';
 const docsCustomBgLight = {
   background: '#f9fafa'
 };
+const docsCustomP = {
+  margin: '8px'
+};
 const Sizes = Array.from((spatial.sizes.split(' ')));
 
 export default () => {
@@ -142,7 +145,7 @@ export default () => {
                 <code>margin: 0;</code>
               </td>
               <td style={docsCustomBgLight}>
-                <p className='dc-u-bgc-white dc-u-b dc-u-m-none'>
+                <p className='dc-u-bgc-white dc-u-b dc-u-m-none' style={docsCustomP}>
                   Paragraph with default margins
                 </p>
               </td>
@@ -155,8 +158,8 @@ export default () => {
                 <code>margin-top: 0;</code>
               </td>
               <td style={docsCustomBgLight}>
-                <p className='dc-u-bgc-white dc-u-b dc-u-mt-0'>
-                  Paragraph with default margins
+                <p className='dc-u-bgc-white dc-u-b dc-u-mt-0' style={docsCustomP}>
+                  Paragraph with `margin: 8px;` set in CSS
                 </p>
               </td>
             </tr>
@@ -168,8 +171,8 @@ export default () => {
                 <code>margin-right: 0;</code>
               </td>
               <td style={docsCustomBgLight}>
-                <p className='dc-u-bgc-white dc-u-b dc-u-mr-0'>
-                  Paragraph with default margins
+                <p className='dc-u-bgc-white dc-u-b dc-u-mr-0' style={docsCustomP}>
+                  Paragraph with `margin: 8px;` set in CSS
                 </p>
               </td>
             </tr>
@@ -181,8 +184,8 @@ export default () => {
                 <code>margin-bottom: 0;</code>
               </td>
               <td style={docsCustomBgLight}>
-                <p className='dc-u-bgc-white dc-u-b dc-u-mb-0'>
-                  Paragraph with default margins
+                <p className='dc-u-bgc-white dc-u-b dc-u-mb-0' style={docsCustomP}>
+                  Paragraph with `margin: 8px;` set in CSS
                 </p>
               </td>
             </tr>
@@ -194,8 +197,8 @@ export default () => {
                 <code>margin-left: 0;</code>
               </td>
               <td style={docsCustomBgLight}>
-                <p className='dc-u-bgc-white dc-u-b dc-u-ml-0'>
-                  Paragraph with default margins
+                <p className='dc-u-bgc-white dc-u-b dc-u-ml-0' style={docsCustomP}>
+                  Paragraph with `margin: 8px;` set in CSS
                 </p>
               </td>
             </tr>
@@ -207,8 +210,8 @@ export default () => {
                 <code>margin-left: 0; margin-right: 0;</code>
               </td>
               <td style={docsCustomBgLight}>
-                <p className='dc-u-bgc-white dc-u-b dc-u-mh-0'>
-                  Paragraph with default margins
+                <p className='dc-u-bgc-white dc-u-b dc-u-mh-none' style={docsCustomP}>
+                  Paragraph with `margin: 8px;` set in CSS
                 </p>
               </td>
             </tr>
@@ -220,8 +223,8 @@ export default () => {
                 <code>margin-bottom: 0; margin-top: 0;</code>
               </td>
               <td style={docsCustomBgLight}>
-                <p className='dc-u-bgc-white dc-u-b dc-u-mv-none'>
-                  Paragraph with default margins
+                <p className='dc-u-bgc-white dc-u-b dc-u-mv-none' style={docsCustomP}>
+                  Paragraph with `margin: 8px;` set in CSS
                 </p>
               </td>
             </tr>
