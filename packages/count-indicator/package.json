@@ -1,6 +1,6 @@
 {
   "name": "@datacamp/waffles-count-indicator",
-  "version": "0.1.12-alpha.0",
+  "version": "0.1.13-alpha.0",
   "description": "The Waffles count indicator",
   "author": "Dan Denney <dd.subscriptions@gmail.com>",
   "homepage": "https://github.com/datacamp/design-system/tree/master/packages/count-indicator#readme",
