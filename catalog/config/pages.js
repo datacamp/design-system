@@ -139,6 +139,13 @@ const designUtilities = {
         import('../pages/design-utilities/list.js')
       ),
     },
+    {
+      path: '/design-utilities/margin',
+      title: 'Margin',
+      content: pageLoader(() =>
+        import('../pages/design-utilities/margin.js')
+      ),
+    },
   ],
 };
 
