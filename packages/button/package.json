@@ -38,5 +38,6 @@
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-2": "6.24.1"
-  }
+  },
+  "gitHead": "033030174dbf18623ccd9c0174108c41a9e588a1"
 }
