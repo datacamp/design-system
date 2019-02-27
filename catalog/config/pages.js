@@ -174,6 +174,13 @@ const designUtilities = {
         import('../pages/design-utilities/min-width.js')
       ),
     },
+    {
+      path: '/design-utilities/opacity',
+      title: 'Opacity',
+      content: pageLoader(() =>
+        import('../pages/design-utilities/opacity.js')
+      ),
+    },
   ],
 };
 

@@ -13,7 +13,7 @@ export default () => {
     <main>
       <CustomHeader
         section="Design Utilities"
-        subSection="Min Height"
+        subSection="Min Width"
         description="Apply or override min-width."
       />
       <Page>
