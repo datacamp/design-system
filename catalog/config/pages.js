@@ -146,6 +146,13 @@ const designUtilities = {
         import('../pages/design-utilities/margin.js')
       ),
     },
+    {
+      path: '/design-utilities/max-height',
+      title: 'Max Height',
+      content: pageLoader(() =>
+        import('../pages/design-utilities/max-height.js')
+      ),
+    },
   ],
 };
 
