@@ -181,6 +181,13 @@ const designUtilities = {
         import('../pages/design-utilities/opacity.js')
       ),
     },
+    {
+      path: '/design-utilities/overflow',
+      title: 'Overflow',
+      content: pageLoader(() =>
+        import('../pages/design-utilities/overflow.js')
+      ),
+    },
   ],
 };
 
