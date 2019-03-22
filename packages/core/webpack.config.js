@@ -105,7 +105,7 @@ module.exports = {
           }
         }]
       }
-    }), 
+    }),
 
     new CopyWebpackPlugin(
       [
