@@ -75,6 +75,7 @@
  *   - padding vertical (.dc-u-pv])
  * - Position
  *   - position (.dc-u-pos)
+ *   - stretch (.dc-u-stretch)
  *   - bottom, left, right, top (.dc-u-{bottom/left/right/top})
  * - Table
  *   - table-layout (.dc-u-tbl-l)
@@ -1374,6 +1375,7 @@ $dc-overflow-types: 'auto', 'hidden', 'scroll', 'visible';
   position: static !important;
 }
 
+// stretch
 .dc-u-stretch {
   bottom: 0 !important;
   left: 0 !important;

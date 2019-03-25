@@ -188,6 +188,13 @@ const designUtilities = {
         import('../pages/design-utilities/overflow.js')
       ),
     },
+    {
+      path: '/design-utilities/word-break',
+      title: 'Word Break',
+      content: pageLoader(() =>
+        import('../pages/design-utilities/word-break.js')
+      ),
+    },
   ],
 };
 
