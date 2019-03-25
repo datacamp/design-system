@@ -75,6 +75,8 @@
  *   - padding vertical (.dc-u-pv])
  * - Position
  *   - position (.dc-u-pos)
+ *   - stretch (.dc-u-stretch)
+ *   - bottom, left, right, top (.dc-u-{bottom/left/right/top})
  * - Table
  *   - table-layout (.dc-u-tbl-l)
  * - Text
@@ -100,6 +102,8 @@
  *   - min-width (.dc-u-minw)
  * - Width x Height
  *   - width x height (.dc-u-wh)
+ * - Word break
+ *   - word-break
  * - z-index
  *   - z-index (.dc-u-z) 0/10/20/30/40/50/60/70/80/90/100/999
  */
@@ -1371,6 +1375,7 @@ $dc-overflow-types: 'auto', 'hidden', 'scroll', 'visible';
   position: static !important;
 }
 
+// stretch
 .dc-u-stretch {
   bottom: 0 !important;
   left: 0 !important;
@@ -1379,8 +1384,22 @@ $dc-overflow-types: 'auto', 'hidden', 'scroll', 'visible';
   top: 0 !important;
 }
 
-// TODO: do we want matching bottom, left, right, top utilities?
-// .dc-u-pos-top-x ?
+// bottom, left, right, top
+.dc-u-bottom-0 {
+  bottom: 0 !important;
+}
+
+.dc-u-left-0 {
+  left: 0 !important;
+}
+
+.dc-u-right-0 {
+  right: 0 !important;
+}
+
+.dc-u-top-0 {
+  top: 0 !important;
+}
 
 /** Table */
 
@@ -1619,6 +1638,10 @@ $dc-overflow-types: 'auto', 'hidden', 'scroll', 'visible';
 }
 
 // min-width
+.dc-u-minw-128 {
+  min-width: 128px !important;
+}
+
 @each $measure in $dc-measure {
   .dc-u-minw-#{$measure} {
     min-width: #{$measure}px !important;
@@ -1662,6 +1685,24 @@ $dc-overflow-types: 'auto', 'hidden', 'scroll', 'visible';
 .dc-u-wh-auto {
   height: auto !important;
   width: auto !important;
+}
+
+/** Word break */
+
+.dc-u-wb-normal {
+  word-break: normal !important;
+}
+
+.dc-u-wb-ba {
+  word-break: break-all !important;
+}
+
+.dc-u-wb-bw {
+  word-break: break-word !important;
+}
+
+.dc-u-wb-ka {
+  word-break: keep-all !important;
 }
 
 /** z-index */

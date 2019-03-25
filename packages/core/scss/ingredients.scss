@@ -14,12 +14,12 @@
 @import 'design/vendor/roboto-mono-font';
 @import 'design/vendor/normalize';
 
-//----- Mixins -----//
-@import 'design/mixins/mixins';
-
 //----- Variables -----//
 @import '../tokens.json';
 @import 'design/variables.scss';
+
+//----- Mixins -----//
+@import 'design/mixins/mixins';
 
 //----- Utilities -----//
 @import 'design/utilities/utilities';
