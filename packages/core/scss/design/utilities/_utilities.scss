@@ -133,6 +133,10 @@
 }
 
 // Background gradient (.dc-u-bgg)
+.dc-u-bgg-chambray-cloudburst {
+  background-image: $dc-gradient-chambray-cloudburst !important;
+}
+
 .dc-u-bgg-primary {
   background-image: $dc-gradient-primary !important;
 }
@@ -141,8 +145,21 @@
   background-image: $dc-gradient-primary-dark !important;
 }
 
+.dc-u-bgg-green,
+.dc-u-bgg-puertorico-deyork {
+  background-image: $dc-gradient-puertorico-deyork !important;
+}
+
 .dc-u-bgg-primary-light {
   background-image: $dc-gradient-primary-light !important;
+}
+
+.dc-u-bgg-purple {
+  background-image: $dc-gradient-purple !important;
+}
+
+.dc-u-bgg-red {
+  background-image: $dc-gradient-red !important;
 }
 
 .dc-u-bgg-red-light {
@@ -153,12 +170,8 @@
   background-image: $dc-gradient-secondary !important;
 }
 
-.dc-u-bgg-chambray-cloudburst {
-  background-image: $dc-gradient-chambray-cloudburst !important;
-}
-
-.dc-u-bgg-puertorico-deyork {
-  background-image: $dc-gradient-puertorico-deyork !important;
+.dc-u-bgg-turquoise {
+  background-image: $dc-gradient-turquoise !important;
 }
 
 /**
