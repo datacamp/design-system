@@ -160,6 +160,34 @@ const designUtilities = {
         import('../pages/design-utilities/max-width.js')
       ),
     },
+    {
+      path: '/design-utilities/min-height',
+      title: 'Min Height',
+      content: pageLoader(() =>
+        import('../pages/design-utilities/min-height.js')
+      ),
+    },
+    {
+      path: '/design-utilities/min-width',
+      title: 'Min Width',
+      content: pageLoader(() =>
+        import('../pages/design-utilities/min-width.js')
+      ),
+    },
+    {
+      path: '/design-utilities/opacity',
+      title: 'Opacity',
+      content: pageLoader(() =>
+        import('../pages/design-utilities/opacity.js')
+      ),
+    },
+    {
+      path: '/design-utilities/overflow',
+      title: 'Overflow',
+      content: pageLoader(() =>
+        import('../pages/design-utilities/overflow.js')
+      ),
+    },
   ],
 };
 

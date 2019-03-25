@@ -10,8 +10,8 @@ const Additive = [
   { class: 'disc', value: 'disc' },
   { class: 'latin-lower', value: 'lower-latin' },
   { class: 'latin-upper', value: 'upper-latin' },
-  { class: 'romain-lower', value: 'lower-roman' },
-  { class: 'romain-upper', value: 'upper-roman' },
+  { class: 'roman-lower', value: 'lower-roman' },
+  { class: 'roman-upper', value: 'upper-roman' },
   { class: 'square', value: 'square' }
 ]
 
