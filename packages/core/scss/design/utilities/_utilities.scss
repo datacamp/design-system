@@ -430,6 +430,14 @@
   display: table-cell !important;
 }
 
+.dc-u-fx {
+  display: flex !important;
+}
+
+.dc-u-ifx {
+  display: inline-flex !important;
+}
+
 @each $size, $bp in $dc-breakpoints {
   // responsive display utilities
   @media screen and (min-width: $bp) {
@@ -489,14 +497,6 @@
  *   as = align-self (.dc-u-fxi-as)
  *   o = order (.dc-u-fxi-o)
  */
-
-.dc-u-fx {
-  display: flex !important;
-}
-
-.dc-u-ifx {
-  display: inline-flex !important;
-}
 
 @each $size, $bp in $dc-breakpoints {
   // responsive display flex utilities
