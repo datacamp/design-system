@@ -19,7 +19,10 @@ $dc-multiplier: 2;
 $dc-spatial: 2 4 8 12 16 24 32 48 64 80 96 128;
 $dc-spatial-common: 8 12 16 24 32 48 64;
 $dc-measure: 192 256 320 480 640 800 960;
-$dc-spatial-all: join($list1: $dc-spatial, $list2: $dc-measure);
+$dc-spatial-all: join(
+  $list1: $dc-spatial,
+  $list2: $dc-measure,
+);
 
 // Percentages list for generating utility classes
 // If any percentages options change update toolkit.yml
@@ -32,6 +35,7 @@ $dc-percentages: 1 5 10 15 20 25 30 40 44 50 60 70 75 80 90 100;
 
 // If any colors change update toolkit.yml
 // @sass-export-section="color"
+$dc-black-transparent: rgba(0, 0, 0, 0.2);
 $dc-green: #36d57d;
 $dc-green-light: #a5ecc5;
 $dc-geyser: #cfdce1;
@@ -97,7 +101,7 @@ $dc-colors: (
   'white': $dc-white,
   'white-transparent': $dc-white-transparent,
   'currentColor': currentColor,
-  'transparent': transparent
+  'transparent': transparent,
 );
 /* stylelint-enable */
 
@@ -106,8 +110,16 @@ $dc-colors: (
 // @sass-export-section="gradient"
 $dc-gradient-primary: linear-gradient(141deg, #2388b0, $dc-primary);
 $dc-gradient-primary-dark: linear-gradient(141deg, #20748d, #164d62);
-$dc-gradient-primary-light: linear-gradient(180deg, rgba($dc-white, 0), rgba($dc-primary, 0.075));
-$dc-gradient-red-light: linear-gradient(180deg, rgba($dc-white, 0), rgba($dc-red, 0.075));
+$dc-gradient-primary-light: linear-gradient(
+  180deg,
+  rgba($dc-white, 0),
+  rgba($dc-primary, 0.075)
+);
+$dc-gradient-red-light: linear-gradient(
+  180deg,
+  rgba($dc-white, 0),
+  rgba($dc-red, 0.075)
+);
 $dc-gradient-secondary: linear-gradient(0deg, $dc-secondary, #fcd86c);
 $dc-gradient-chambray-cloudburst: linear-gradient(268deg, #405f8f, #1c3050);
 $dc-gradient-puertorico-deyork: linear-gradient(32deg, #37bbab, #75c97e);
@@ -125,16 +137,16 @@ $dc-font-family-mono: 'Roboto Mono', monospace;
 
 // Font size
 $dc-font-size-base: 16px;
-$dc-font-size-micro: 0.75rem;  // 12px
+$dc-font-size-micro: 0.75rem; // 12px
 $dc-font-size-small: 0.875rem; // 14px
 
 // Heading size
-$dc-font-size-h1: 2.5rem;   // 40px
-$dc-font-size-h2: 2rem;     // 32px
-$dc-font-size-h3: 1.5rem;   // 24px
-$dc-font-size-h4: 1.25rem;  // 20px
+$dc-font-size-h1: 2.5rem; // 40px
+$dc-font-size-h2: 2rem; // 32px
+$dc-font-size-h3: 1.5rem; // 24px
+$dc-font-size-h4: 1.25rem; // 20px
 $dc-font-size-h5: 1.125rem; // 18px
-$dc-font-size-h6: 1rem;     // 16px
+$dc-font-size-h6: 1rem; // 16px
 
 // Font weight
 $dc-font-weight-bold: 700;
@@ -219,14 +231,14 @@ $dc-breakpoints: (
   'sm': $dc-bp-sm,
   'md': $dc-bp-md,
   'lg': $dc-bp-lg,
-  'xl': $dc-bp-xl
+  'xl': $dc-bp-xl,
 );
 
 // hd breakpoints
 $dc-breakpoints-hd: (
   'ws': $dc-bp-ws,
   '4k': $dc-bp-4k,
-  '5k': $dc-bp-5k
+  '5k': $dc-bp-5k,
 );
 
 // all breakpoints
@@ -240,18 +252,21 @@ $dc-breakpoints-below: (
   'sm': $dc-bp-below-sm,
   'md': $dc-bp-below-md,
   'lg': $dc-bp-below-lg,
-  'xl': $dc-bp-below-xl
+  'xl': $dc-bp-below-xl,
 );
 
 // hd max-width breakpoints
 $dc-breakpoints-below-hd: (
   'ws': $dc-bp-below-ws,
   '4k': $dc-bp-below-4k,
-  '5k': $dc-bp-below-5k
+  '5k': $dc-bp-below-5k,
 );
 
 // all max-width breakpoints
-$dc-breakpoints-below-all: map-merge($dc-breakpoints-below, $dc-breakpoints-below-hd);
+$dc-breakpoints-below-all: map-merge(
+  $dc-breakpoints-below,
+  $dc-breakpoints-below-hd
+);
 /* stylelint-enable */
 
 // Sides
