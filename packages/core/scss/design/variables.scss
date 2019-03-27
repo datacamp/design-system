@@ -18,7 +18,10 @@ $dc-multiplier: map_get($spatial, multiplier);
 $dc-spatial: map_get($spatial, sizes);
 $dc-spatial-common: map_get($spatial, commonSizes);
 $dc-measure: map_get($spatial, measure);
-$dc-spatial-all: join($list1: $dc-spatial, $list2: $dc-measure);
+$dc-spatial-all: join(
+  $list1: $dc-spatial,
+  $list2: $dc-measure,
+);
 
 // Percentages list for generating utility classes
 $dc-percentages: map_get($spatial, percentages);
@@ -27,6 +30,7 @@ $dc-percentages: map_get($spatial, percentages);
 
 // To add a new color, first add the variable then add the color name to the
 // $dc-colors map below which is used to generate utility classes.
+$dc-black-transparent: map_get($colors, blackTransparent);
 $dc-green: map_get($colors, green);
 $dc-green-light: map_get($colors, greenLight);
 $dc-geyser: map_get($colors, geyser);
@@ -88,7 +92,7 @@ $dc-colors: (
   'white': $dc-white,
   'white-transparent': $dc-white-transparent,
   'currentColor': currentColor,
-  'transparent': transparent
+  'transparent': transparent,
 );
 /* stylelint-enable */
 
@@ -145,7 +149,7 @@ $dc-border-radius: map_get($border, radius);
 /** Box shadow */
 
 // Box shadow color
-$dc-box-shadow-color:  map_get($boxShadow, color);
+$dc-box-shadow-color: map_get($boxShadow, color);
 
 // Box shadows
 $dc-box-shadow-border: map_get($boxShadow, border);
@@ -200,14 +204,14 @@ $dc-breakpoints: (
   'sm': $dc-bp-sm,
   'md': $dc-bp-md,
   'lg': $dc-bp-lg,
-  'xl': $dc-bp-xl
+  'xl': $dc-bp-xl,
 );
 
 // hd breakpoints
 $dc-breakpoints-hd: (
   'ws': $dc-bp-ws,
   '4k': $dc-bp-4k,
-  '5k': $dc-bp-5k
+  '5k': $dc-bp-5k,
 );
 
 // all breakpoints
@@ -219,18 +223,21 @@ $dc-breakpoints-below: (
   'sm': $dc-bp-below-sm,
   'md': $dc-bp-below-md,
   'lg': $dc-bp-below-lg,
-  'xl': $dc-bp-below-xl
+  'xl': $dc-bp-below-xl,
 );
 
 // hd max-width breakpoints
 $dc-breakpoints-below-hd: (
   'ws': $dc-bp-below-ws,
   '4k': $dc-bp-below-4k,
-  '5k': $dc-bp-below-5k
+  '5k': $dc-bp-below-5k,
 );
 
 // all max-width breakpoints
-$dc-breakpoints-below-all: map-merge($dc-breakpoints-below, $dc-breakpoints-below-hd);
+$dc-breakpoints-below-all: map-merge(
+  $dc-breakpoints-below,
+  $dc-breakpoints-below-hd
+);
 /* stylelint-enable */
 
 // Sides
