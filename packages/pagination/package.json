@@ -1,6 +1,6 @@
 {
   "name": "@datacamp/waffles-pagination",
-  "version": "0.1.16-alpha.0",
+  "version": "0.1.17-alpha.0",
   "description": "The Waffles pagination",
   "keywords": [
     "pagination"
