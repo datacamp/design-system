@@ -1,82 +1,433 @@
 import React from 'react';
-import { Page } from 'catalog';
+import { Page, HintSpecimen } from 'catalog';
 
 const BarStyle = {
-  margin: '-173px 0 0 0'
+  margin: '-173px 0 0 0',
 };
 
 const ContainerStyle = {
   margin: '0 30px 0 40px',
-  maxWidth: '1024px'
-}
+  maxWidth: '1024px',
+};
 
 export default () => {
   return (
     <main>
       <header className="dc-u-bgg-chambray-cloudburst dc-u-pt-96 dc-u-pb-128">
         <div style={ContainerStyle}>
-          <h1 className="dc-u-color-white dc-u-mt-0">Meet Waffles, our Design System.</h1>
-          <p className="dc-u-color-white dc-u-mb-64 dc-u-maxw-640">Our design system helps us work together to build a great experience for all students & instructors. Our design system contains guidelines and components to create a unified experience.</p>
+          <h1 className="dc-u-color-white dc-u-mt-0">
+            Meet Waffles, our Design System.
+          </h1>
+          <p className="dc-u-color-white dc-u-mb-64 dc-u-maxw-640">
+            Our design system helps us work together to build a great experience
+            for all students & instructors. Our design system contains
+            guidelines and components to create a unified experience.
+          </p>
         </div>
       </header>
 
       <Page>
-        
         <section className="dc-card dc-u-p-none dc-u-fx" style={BarStyle}>
-
-          <div className="dc-u-p-32">     
-            <img src='illustration-content.svg' />
+          <div className="dc-u-p-32">
+            <img src="illustration-content.svg" />
             <h4>Content</h4>
-            <p>Learn how to use language to design a more thoughtful product experience.</p>
+            <p>
+              Learn how to use language to design a more thoughtful product
+              experience.
+            </p>
             <a className="dc-btn dc-btn--inline" href="/content">
               View content guidelines
-                <span className="dc-icon dc-icon--size-12 dc-icon--flex dc-u-ml-8">
-                  <svg className="dc-icon__svg">
-                    <use xlinkHref="#arrow_2_right" />
-                  </svg>
-                </span>
+              <span className="dc-icon dc-icon--size-12 dc-icon--flex dc-u-ml-8">
+                <svg className="dc-icon__svg">
+                  <use xlinkHref="#arrow_2_right" />
+                </svg>
+              </span>
             </a>
           </div>
 
           <div className="dc-u-bl dc-u-p-32">
-            <img src='illustration-design.svg' />
+            <img src="illustration-design.svg" />
             <h4>Design</h4>
-            <p>Find out how we approach the visual elements of our interface with purpose.</p>
+            <p>
+              Find out how we approach the visual elements of our interface with
+              purpose.
+            </p>
             <a className="dc-btn dc-btn--inline" href="/design">
               View design guidelines
-                <span className="dc-icon dc-icon--size-12 dc-icon--flex dc-u-ml-8">
-                  <svg className="dc-icon__svg">
-                    <use xlinkHref="#arrow_2_right" />
-                  </svg>
-                </span>
+              <span className="dc-icon dc-icon--size-12 dc-icon--flex dc-u-ml-8">
+                <svg className="dc-icon__svg">
+                  <use xlinkHref="#arrow_2_right" />
+                </svg>
+              </span>
             </a>
           </div>
 
           <div className="dc-u-bl dc-u-p-32">
-            <img src='illustration-component.svg' />
+            <img src="illustration-component.svg" />
             <h4>Components</h4>
-            <p>Use components as building blocks as you develop new products and features.</p>
+            <p>
+              Use components as building blocks as you develop new products and
+              features.
+            </p>
             <a className="dc-btn dc-btn--inline" href="/components">
               View components
-                <span className="dc-icon dc-icon--size-12 dc-icon--flex dc-u-ml-8">
-                  <svg className="dc-icon__svg">
-                    <use xlinkHref="#arrow_2_right" />
-                  </svg>
-                </span>
+              <span className="dc-icon dc-icon--size-12 dc-icon--flex dc-u-ml-8">
+                <svg className="dc-icon__svg">
+                  <use xlinkHref="#arrow_2_right" />
+                </svg>
+              </span>
             </a>
           </div>
-
         </section>
 
         <article className="dc-card dc-u-mt-24 dc-u-p-32">
-
           <h5 className="dc-chapeau-title dc-u-color-grey">What's New</h5>
 
-          <h3>Waffles Alpha Pre-release</h3>
-          <p className="dc-u-mt-8">New Design and Component sections, with documentation in a WIP state.</p>
-        
-        </article>
+          <HintSpecimen warning>
+            The docs are currently incomplete. Visit{' '}
+            <a href="http://styleguide.datacamp.com">styleguide.datacamp.com</a>{' '}
+            for missing color and utility docs.
+          </HintSpecimen>
 
+          <h3 className="dc-u-mt-16">Waffles Alpha Pre-release</h3>
+          <p className="dc-u-mt-8">
+            New Design and Component sections, with documentation in a WIP
+            state.
+          </p>
+
+          <h5>Roadmap</h5>
+
+          <ul>
+            <li>Add missing deprecations from the style guide core</li>
+            <li>Complete the Design Utilities documentation</li>
+            <li>Output all icons</li>
+            <li>Add color documentation</li>
+            <li>Add headers to components</li>
+            <li>Troubleshoot Lerna changed</li>
+          </ul>
+
+          <h5>Imports</h5>
+          <table className="dc-u-ta-center dc-u-w-100pc">
+            <thead>
+              <th>App</th>
+              <th className="dc-u-ta-center">Design</th>
+              <th className="dc-u-ta-center">SCSS Components</th>
+              <th className="dc-u-ta-center">React Components</th>
+            </thead>
+            <tr>
+              <td className="dc-u-ta-left">main-app</td>
+              <td>
+                <span className="dc-icon dc-icon--size-18 dc-icon--flex dc-u-ml-8 dc-icon--green">
+                  <svg className="dc-icon__svg">
+                    <use xlinkHref="#checkmark_circle" />
+                  </svg>
+                </span>
+              </td>
+              <td>
+                <span className="dc-icon dc-icon--size-18 dc-icon--flex dc-u-ml-8 dc-icon--green">
+                  <svg className="dc-icon__svg">
+                    <use xlinkHref="#checkmark_circle" />
+                  </svg>
+                </span>
+              </td>
+              <td>
+                <span className="dc-icon dc-icon--size-18 dc-icon--flex dc-u-ml-8 dc-icon--grey-light">
+                  <svg className="dc-icon__svg">
+                    <use xlinkHref="#incorrect" />
+                  </svg>
+                </span>
+              </td>
+            </tr>
+            <tr className="dc-u-bt">
+              <td className="dc-u-ta-left">marketing-app</td>
+              <td>
+                <span className="dc-icon dc-icon--size-18 dc-icon--flex dc-u-ml-8 dc-icon--green">
+                  <svg className="dc-icon__svg">
+                    <use xlinkHref="#checkmark_circle" />
+                  </svg>
+                </span>
+              </td>
+              <td>
+                <span className="dc-icon dc-icon--size-18 dc-icon--flex dc-u-ml-8 dc-icon--green">
+                  <svg className="dc-icon__svg">
+                    <use xlinkHref="#checkmark_circle" />
+                  </svg>
+                </span>
+              </td>
+              <td>
+                <span className="dc-icon dc-icon--size-18 dc-icon--flex dc-u-ml-8 dc-icon--red">
+                  <svg className="dc-icon__svg">
+                    <use xlinkHref="#error" />
+                  </svg>
+                </span>
+              </td>
+            </tr>
+            <tr className="dc-u-bt">
+              <td className="dc-u-ta-left">enterprise-frontend</td>
+              <td>
+                <span className="dc-icon dc-icon--size-18 dc-icon--flex dc-u-ml-8 dc-icon--green">
+                  <svg className="dc-icon__svg">
+                    <use xlinkHref="#checkmark_circle" />
+                  </svg>
+                </span>
+              </td>
+              <td>
+                <span className="dc-icon dc-icon--size-18 dc-icon--flex dc-u-ml-8 dc-icon--green">
+                  <svg className="dc-icon__svg">
+                    <use xlinkHref="#checkmark_circle" />
+                  </svg>
+                </span>
+              </td>
+              <td>
+                <span className="dc-icon dc-icon--size-18 dc-icon--flex dc-u-ml-8 dc-icon--grey-light">
+                  <svg className="dc-icon__svg">
+                    <use xlinkHref="#incorrect" />
+                  </svg>
+                </span>
+              </td>
+            </tr>
+            <tr className="dc-u-bt">
+              <td className="dc-u-ta-left">campus-app</td>
+              <td>
+                <span className="dc-icon dc-icon--size-18 dc-icon--flex dc-u-ml-8 dc-icon--red">
+                  <svg className="dc-icon__svg">
+                    <use xlinkHref="#error" />
+                  </svg>
+                </span>
+              </td>
+              <td>
+                <span className="dc-icon dc-icon--size-18 dc-icon--flex dc-u-ml-8 dc-icon--red">
+                  <svg className="dc-icon__svg">
+                    <use xlinkHref="#error" />
+                  </svg>
+                </span>
+              </td>
+              <td>
+                <span className="dc-icon dc-icon--size-18 dc-icon--flex dc-u-ml-8 dc-icon--red">
+                  <svg className="dc-icon__svg">
+                    <use xlinkHref="#error" />
+                  </svg>
+                </span>
+              </td>
+            </tr>
+            <tr className="dc-u-bt">
+              <td className="dc-u-ta-left">projects-frontend</td>
+              <td>
+                <span className="dc-icon dc-icon--size-18 dc-icon--flex dc-u-ml-8 dc-icon--red">
+                  <svg className="dc-icon__svg">
+                    <use xlinkHref="#error" />
+                  </svg>
+                </span>
+              </td>
+              <td>
+                <span className="dc-icon dc-icon--size-18 dc-icon--flex dc-u-ml-8 dc-icon--red">
+                  <svg className="dc-icon__svg">
+                    <use xlinkHref="#error" />
+                  </svg>
+                </span>
+              </td>
+              <td>
+                <span className="dc-icon dc-icon--size-18 dc-icon--flex dc-u-ml-8 dc-icon--red">
+                  <svg className="dc-icon__svg">
+                    <use xlinkHref="#error" />
+                  </svg>
+                </span>
+              </td>
+            </tr>
+            <tr className="dc-u-bt">
+              <td className="dc-u-ta-left">teach-app</td>
+              <td>
+                <span className="dc-icon dc-icon--size-18 dc-icon--flex dc-u-ml-8 dc-icon--red">
+                  <svg className="dc-icon__svg">
+                    <use xlinkHref="#error" />
+                  </svg>
+                </span>
+              </td>
+              <td>
+                <span className="dc-icon dc-icon--size-18 dc-icon--flex dc-u-ml-8 dc-icon--red">
+                  <svg className="dc-icon__svg">
+                    <use xlinkHref="#error" />
+                  </svg>
+                </span>
+              </td>
+              <td>
+                <span className="dc-icon dc-icon--size-18 dc-icon--flex dc-u-ml-8 dc-icon--red">
+                  <svg className="dc-icon__svg">
+                    <use xlinkHref="#error" />
+                  </svg>
+                </span>
+              </td>
+            </tr>
+            <tr className="dc-u-bt">
+              <td className="dc-u-ta-left">teach-editor-app-v2</td>
+              <td>
+                <span className="dc-icon dc-icon--size-18 dc-icon--flex dc-u-ml-8 dc-icon--red">
+                  <svg className="dc-icon__svg">
+                    <use xlinkHref="#error" />
+                  </svg>
+                </span>
+              </td>
+              <td>
+                <span className="dc-icon dc-icon--size-18 dc-icon--flex dc-u-ml-8 dc-icon--red">
+                  <svg className="dc-icon__svg">
+                    <use xlinkHref="#error" />
+                  </svg>
+                </span>
+              </td>
+              <td>
+                <span className="dc-icon dc-icon--size-18 dc-icon--flex dc-u-ml-8 dc-icon--red">
+                  <svg className="dc-icon__svg">
+                    <use xlinkHref="#error" />
+                  </svg>
+                </span>
+              </td>
+            </tr>
+            <tr className="dc-u-bt">
+              <td className="dc-u-ta-left">skill-assessment</td>
+              <td>
+                <span className="dc-icon dc-icon--size-18 dc-icon--flex dc-u-ml-8 dc-icon--red">
+                  <svg className="dc-icon__svg">
+                    <use xlinkHref="#error" />
+                  </svg>
+                </span>
+              </td>
+              <td>
+                <span className="dc-icon dc-icon--size-18 dc-icon--flex dc-u-ml-8 dc-icon--red">
+                  <svg className="dc-icon__svg">
+                    <use xlinkHref="#error" />
+                  </svg>
+                </span>
+              </td>
+              <td>
+                <span className="dc-icon dc-icon--size-18 dc-icon--flex dc-u-ml-8 dc-icon--red">
+                  <svg className="dc-icon__svg">
+                    <use xlinkHref="#error" />
+                  </svg>
+                </span>
+              </td>
+            </tr>
+            <tr className="dc-u-bt">
+              <td className="dc-u-ta-left">mobile-app</td>
+              <td>
+                <span className="dc-icon dc-icon--size-18 dc-icon--flex dc-u-ml-8 dc-icon--red">
+                  <svg className="dc-icon__svg">
+                    <use xlinkHref="#error" />
+                  </svg>
+                </span>
+              </td>
+              <td>
+                <span className="dc-icon dc-icon--size-18 dc-icon--flex dc-u-ml-8 dc-icon--red">
+                  <svg className="dc-icon__svg">
+                    <use xlinkHref="#error" />
+                  </svg>
+                </span>
+              </td>
+              <td>
+                <span className="dc-icon dc-icon--size-18 dc-icon--flex dc-u-ml-8 dc-icon--red">
+                  <svg className="dc-icon__svg">
+                    <use xlinkHref="#error" />
+                  </svg>
+                </span>
+              </td>
+            </tr>
+            <tr className="dc-u-bt">
+              <td className="dc-u-ta-left">practice-web</td>
+              <td>
+                <span className="dc-icon dc-icon--size-18 dc-icon--flex dc-u-ml-8 dc-icon--red">
+                  <svg className="dc-icon__svg">
+                    <use xlinkHref="#error" />
+                  </svg>
+                </span>
+              </td>
+              <td>
+                <span className="dc-icon dc-icon--size-18 dc-icon--flex dc-u-ml-8 dc-icon--red">
+                  <svg className="dc-icon__svg">
+                    <use xlinkHref="#error" />
+                  </svg>
+                </span>
+              </td>
+              <td>
+                <span className="dc-icon dc-icon--size-18 dc-icon--flex dc-u-ml-8 dc-icon--red">
+                  <svg className="dc-icon__svg">
+                    <use xlinkHref="#error" />
+                  </svg>
+                </span>
+              </td>
+            </tr>
+            <tr className="dc-u-bt">
+              <td className="dc-u-ta-left">spreadsheets</td>
+              <td>
+                <span className="dc-icon dc-icon--size-18 dc-icon--flex dc-u-ml-8 dc-icon--red">
+                  <svg className="dc-icon__svg">
+                    <use xlinkHref="#error" />
+                  </svg>
+                </span>
+              </td>
+              <td>
+                <span className="dc-icon dc-icon--size-18 dc-icon--flex dc-u-ml-8 dc-icon--red">
+                  <svg className="dc-icon__svg">
+                    <use xlinkHref="#error" />
+                  </svg>
+                </span>
+              </td>
+              <td>
+                <span className="dc-icon dc-icon--size-18 dc-icon--flex dc-u-ml-8 dc-icon--red">
+                  <svg className="dc-icon__svg">
+                    <use xlinkHref="#error" />
+                  </svg>
+                </span>
+              </td>
+            </tr>
+            <tr className="dc-u-bt">
+              <td className="dc-u-ta-left">spreadsheets-editor</td>
+              <td>
+                <span className="dc-icon dc-icon--size-18 dc-icon--flex dc-u-ml-8 dc-icon--red">
+                  <svg className="dc-icon__svg">
+                    <use xlinkHref="#error" />
+                  </svg>
+                </span>
+              </td>
+              <td>
+                <span className="dc-icon dc-icon--size-18 dc-icon--flex dc-u-ml-8 dc-icon--red">
+                  <svg className="dc-icon__svg">
+                    <use xlinkHref="#error" />
+                  </svg>
+                </span>
+              </td>
+              <td>
+                <span className="dc-icon dc-icon--size-18 dc-icon--flex dc-u-ml-8 dc-icon--red">
+                  <svg className="dc-icon__svg">
+                    <use xlinkHref="#error" />
+                  </svg>
+                </span>
+              </td>
+            </tr>
+            <tr className="dc-u-bt">
+              <td className="dc-u-ta-left">datacamp-light</td>
+              <td>
+                <span className="dc-icon dc-icon--size-18 dc-icon--flex dc-u-ml-8 dc-icon--red">
+                  <svg className="dc-icon__svg">
+                    <use xlinkHref="#error" />
+                  </svg>
+                </span>
+              </td>
+              <td>
+                <span className="dc-icon dc-icon--size-18 dc-icon--flex dc-u-ml-8 dc-icon--red">
+                  <svg className="dc-icon__svg">
+                    <use xlinkHref="#error" />
+                  </svg>
+                </span>
+              </td>
+              <td>
+                <span className="dc-icon dc-icon--size-18 dc-icon--flex dc-u-ml-8 dc-icon--red">
+                  <svg className="dc-icon__svg">
+                    <use xlinkHref="#error" />
+                  </svg>
+                </span>
+              </td>
+            </tr>
+          </table>
+        </article>
       </Page>
     </main>
   );
