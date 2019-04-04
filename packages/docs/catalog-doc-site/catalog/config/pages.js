@@ -186,8 +186,8 @@ const content = {
   pages: [
     {
       path: '/content',
-      title: 'Content',
-      content: pageLoader(() => import('../pages/content/index.md')),
+      title: 'Grammar',
+      content: pageLoader(() => import('../pages/content/grammar.md')),
     },
   ],
 };
