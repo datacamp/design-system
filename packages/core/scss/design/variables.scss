@@ -63,6 +63,7 @@ $dc-white-transparent: map_get($colors, whiteTransparent);
 // Color map
 /* stylelint-disable scss/at-function-named-arguments */
 $dc-colors: (
+  'black-transparent': $dc-black-transparent,
   'green': $dc-green,
   'green-light': $dc-green-light,
   'geyser': $dc-geyser,

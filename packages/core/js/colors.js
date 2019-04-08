@@ -4,6 +4,10 @@ import tokens from '../tokens.json';
 const { colors } = tokens;
 
 const COLORS = {
+  blackTransparent: {
+    color: colors.blackTransparent,
+    contrastColor: colors.white,
+  },
   green: {
     color: colors.green,
     contrastColor: colors.white,
