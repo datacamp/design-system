@@ -1,0 +1,22 @@
+{
+  "name": "@datacamp/waffles-tabs",
+  "version": "0.1.17-alpha.0",
+  "description": "The Waffles tabs",
+  "keywords": [
+    "tabs"
+  ],
+  "author": "Dan Denney <dd.subscriptions@gmail.com>",
+  "homepage": "https://github.com/datacamp/design-system/tree/master/packages/tabs#readme",
+  "license": "ISC",
+  "main": "lib/tabs.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/datacamp/design-system.git"
+  },
+  "scripts": {},
+  "bugs": {
+    "url": "https://github.com/datacamp/design-system/issues"
+  },
+  "devDependencies": {},
+  "gitHead": "033030174dbf18623ccd9c0174108c41a9e588a1"
+}

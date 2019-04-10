@@ -32,61 +32,25 @@
     "clean": "lerna clean",
     "lint": "eslint --ignore-path .gitignore .",
     "lint:fix": "npm run lint -- --fix",
-    "catalog-start": "catalog start",
-    "catalog-build": "catalog build",
-    "start": "npm run catalog-start",
-    "build": "npm run catalog-build",
-    "build-css": "node-sass-chokidar ./packages/core/scss/ingredients.scss ./catalog/build/static/ingredients.css",
-    "watch-css": "npm run build-css && node-sass-chokidar src/ -o catalog/build/ --watch --recursive",
     "test": "npm run lint && npm run unit-test",
-    "unit-test": "jest"
+    "unit-test": "jest",
+    "build": "lerna run build"
   },
-  "dependencies": {
-    "catalog": "3.6.0",
-    "react": "16.6.3",
-    "react-dom": "16.6.3"
-  },
+  "dependencies": {},
   "devDependencies": {
-    "babel-core": "6.26.2",
-    "babel-eslint": "10.0.1",
-    "babel-jest": "23.6.0",
-    "babel-preset-env": "1.7.0",
-    "babel-preset-react": "6.24.1",
-    "babel-preset-stage-2": "6.24.1",
-    "cz-lerna-changelog": "2.0.1",
-    "enzyme": "3.8.0",
-    "enzyme-adapter-react-16": "1.7.1",
-    "enzyme-to-json": "3.3.5",
-    "eslint": "5.10.0",
-    "eslint-config-airbnb": "17.1.0",
-    "eslint-config-prettier": "3.3.0",
-    "eslint-plugin-import": "2.14.0",
-    "eslint-plugin-jsx-a11y": "6.1.2",
-    "eslint-plugin-prettier": "3.0.0",
-    "eslint-plugin-react": "7.11.1",
-    "jest": "23.6.0",
-    "jest-styled-components": "6.3.1",
-    "jest-transform-stub": "1.0.0",
-    "lerna": "3.6.0",
-    "node-sass-chokidar": "1.3.4",
-    "node-sass-json-importer": "4.0.1",
-    "npm-run-all": "4.1.5",
-    "postcss-browser-reporter": "0.5.0",
-    "postcss-import": "12.0.1",
-    "postcss-preset-env": "6.5.0",
-    "postcss-reporter": "6.0.0",
-    "prettier": "1.15.3",
-    "sass-loader": "7.1.0",
-    "styled-components": "4.1.3"
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-prettier": "^4.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-prettier": "^3.0.1",
+    "eslint-plugin-react": "^7.12.4",
+    "lerna": "^3.13.2",
+    "prettier": "^1.16.4"
   },
   "browserslist": [
     "last 2 versions",
     "Firefox ESR",
     "not IE < 11"
-  ],
-  "config": {
-    "commitizen": {
-      "path": "./node_modules/cz-lerna-changelog"
-    }
-  }
+  ]
 }

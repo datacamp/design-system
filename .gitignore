@@ -4,6 +4,8 @@ package
 .vscode/settings.json
 build
 lib
+!**/stylesheets/*/lib
+**/stylesheets/core/lib
 
 # always ignore
 *.diff

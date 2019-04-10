@@ -1,0 +1,62 @@
+{
+  "name": "@datacamp/waffles-heading",
+  "version": "0.0.16-alpha.0",
+  "description": "Creates heading element h1, h2, h3, h4, h5, h6",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "babel src --out-dir lib --ignore spec.js --copy-files",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook",
+    "prepare": "npm run build"
+  },
+  "keywords": [],
+  "author": "DataCamp",
+  "contributors": [
+    "Jordan Wade <jjwade31@gmail.com>"
+  ],
+  "repository": "datacamp/design-system",
+  "license": "ISC",
+  "directories": {
+    "src": "src"
+  },
+  "devDependencies": {
+    "@storybook/addon-actions": "^4.1.1",
+    "@storybook/addon-knobs": "4.0.12",
+    "@storybook/addon-links": "^4.1.1",
+    "@storybook/addons": "^4.1.1",
+    "@storybook/react": "^4.1.1",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^8.0.4",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^2.1.1",
+    "jest-styled-components": "6.3.1",
+    "node-sass": "^4.11.0",
+    "node-sass-json-importer": "4.0.1",
+    "postcss-browser-reporter": "^0.6.0",
+    "postcss-import": "^12.0.1",
+    "postcss-loader": "^3.0.0",
+    "postcss-preset-env": "^6.6.0",
+    "postcss-reporter": "^6.0.1",
+    "sass-loader": "^7.1.0",
+    "storybook-addon-jsx": "6.0.0",
+    "storybook-readme": "4.0.2"
+  },
+  "dependencies": {
+    "@datacamp/waffles-core": "^0.1.18-alpha.0",
+    "styled-components": "4.1.2"
+  },
+  "peerDependencies": {
+    "react": ">= 16.6.3"
+  },
+  "publishConfig": {
+    "access": "restricted"
+  },
+  "gitHead": "033030174dbf18623ccd9c0174108c41a9e588a1",
+  "browserslist": [
+    "last 2 versions",
+    "Firefox ESR",
+    "not IE < 11"
+  ]
+}

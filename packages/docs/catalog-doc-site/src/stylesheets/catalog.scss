@@ -1,0 +1,30 @@
+// *************************************
+//
+//   Catalog Imports
+//   -> Import all the things to display them
+//
+// *************************************
+
+// -------------------------------------
+//   Ingredients
+// -------------------------------------
+
+@import '~@datacamp/waffles-core/scss/ingredients';
+
+// -------------------------------------
+//   Components
+// -------------------------------------
+
+@import '~@datacamp/waffles-button/lib/_button';
+@import '~@datacamp/waffles-card/lib/_card';
+@import '~@datacamp/waffles-count-indicator/lib/_count-indicator';
+@import '~@datacamp/waffles-dropdown/lib/_dropdown';
+@import '~@datacamp/waffles-flash-banner/lib/_flash-banner';
+@import '~@datacamp/waffles-icon/lib/_icon';
+@import '~@datacamp/waffles-pagination/lib/_pagination';
+@import '~@datacamp/waffles-popover/lib/_popover';
+@import '~@datacamp/waffles-progress-bar/lib/_progress-bar';
+@import '~@datacamp/waffles-tabbed-nav/lib/_tabbed-nav';
+@import '~@datacamp/waffles-table/lib/_table';
+@import '~@datacamp/waffles-tabs/lib/_tabs';
+@import '~@datacamp/waffles-tag/lib/_tag';
