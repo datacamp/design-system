@@ -28,11 +28,11 @@
   },
   "main": "catalog/index.js",
   "scripts": {
-    "bootstrap": "lerna bootstrap --hoist",
+    "bootstrap": "lerna bootstrap",
     "clean": "lerna clean",
     "lint": "eslint --ignore-path .gitignore .",
-    "lint:fix": "npm run lint -- --fix",
-    "test": "npm run lint && npm run unit-test",
+    "lint:fix": "yarn lint -- --fix",
+    "test": "yarn lint && yarn unit-test",
     "unit-test": "jest",
     "build": "lerna run build"
   },
@@ -52,5 +52,8 @@
     "last 2 versions",
     "Firefox ESR",
     "not IE < 11"
-  ]
+  ],
+  "engines": {
+    "yarn": "^1.15.2"
+  }
 }

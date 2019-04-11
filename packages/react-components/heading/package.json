@@ -7,7 +7,7 @@
     "build": "babel src --out-dir lib --ignore spec.js --copy-files",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
-    "prepare": "npm run build"
+    "prepare": "yarn build"
   },
   "keywords": [],
   "author": "DataCamp",

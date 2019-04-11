@@ -7,7 +7,7 @@ The working name is Waffles, but we're using `design-system` for internal findab
 ## Initial setup
 
 - Clone the repo
-- `npm install`
+- `yarn install`
 - yarn run catalog-start
 
 ## Learn More

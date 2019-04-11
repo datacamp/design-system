@@ -9,7 +9,7 @@
   "scripts": {
     "build": "catalog build",
     "start": "catalog start",
-    "prepublish": "npm run build"
+    "prepublish": "yarn build"
   },
   "dependencies": {
     "@datacamp/waffles-button": "^0.1.17-alpha.0",
