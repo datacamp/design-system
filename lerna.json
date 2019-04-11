@@ -3,5 +3,6 @@
   "version": "independent",
   "publish": {
     "ignoreChanges": ["*.md"]
-  }
+  },
+  "npmClient": "yarn"
 }

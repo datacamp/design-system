@@ -9,11 +9,14 @@ jobs:
     steps:
       - checkout
       - run:
+          name: Install yarn
+          command: npm install -g yarn@1.15.2
+      - run:
           name: Build
           command: |
             cp ci/.npmrc .npmrc
-            npm install
-            npm run bootstrap
+            yarn install --frozen-lockfile
+            yarn bootstrap
       - persist_to_workspace:
           root: "."
           paths:

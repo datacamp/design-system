@@ -23,8 +23,8 @@
   "scripts": {
     "clean": "rm -rf lib/**",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "prepublish": "npm run build",
-    "build": "npm run clean && webpack && babel js --out-dir lib/js --ignore spec.js "
+    "prepublish": "yarn build",
+    "build": "yarn clean && webpack && babel js --out-dir lib/js --ignore spec.js "
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",

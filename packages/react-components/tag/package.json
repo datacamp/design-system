@@ -7,7 +7,7 @@
     "build": "babel src --out-dir lib --ignore spec.js --copy-files",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
-    "prepublish": "npm run build"
+    "prepublish": "yarn build"
   },
   "keywords": [],
   "author": "DataCamp",
@@ -41,8 +41,7 @@
     "postcss-reporter": "^6.0.1",
     "sass-loader": "^7.1.0",
     "storybook-addon-jsx": "6.0.0",
-    "storybook-readme": "4.0.2",
-    "styled-components": "^4.1.2"
+    "storybook-readme": "4.0.2"
   },
   "dependencies": {
     "@datacamp/waffles-core": "^0.1.18-alpha.0",
