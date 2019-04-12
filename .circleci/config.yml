@@ -63,6 +63,18 @@ jobs:
             export AWS_SECRET_ACCESS_KEY=${PROD_AWS_SECRET_ACCESS_KEY}
             aws s3 sync --delete --exclude "*le-components/*" --acl public-read packages/docs/catalog-doc-site/catalog/build s3://${BUCKET}.new.datacamp.com/live
             #aws s3 sync --acl public-read packages/docs/catalog-doc-site/catalog/build/static/media s3://${BUCKET}.new.datacamp.com/live/media
+  invalidate-prod:
+    environment:
+      CLOUDFRONT_ID: E596C189UKISL
+    docker:
+      - image: cibuilds/aws
+    steps:
+      - run:
+          name: Invalidate
+          command: |
+            export AWS_ACCESS_KEY_ID=$PROD_AWS_ACCESS_KEY_ID
+            export AWS_SECRET_ACCESS_KEY=$PROD_AWS_SECRET_ACCESS_KEY
+            aws cloudfront create-invalidation --distribution-id ${CLOUDFRONT_ID} --paths "/index.html"
   publish-packages:
     docker:
       - image: ${STAGING_ECR_URL}/node-test
@@ -95,6 +107,14 @@ workflows:
       - deploy-doc-site:
           requires:
             - build-and-test
+          context: org-global
+          filters:
+            branches:
+              only:
+                - master
+      - invalidate-prod:
+          requires:
+            - deploy-doc-site
           context: org-global
           filters:
             branches:
