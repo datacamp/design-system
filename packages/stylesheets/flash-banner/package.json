@@ -1,6 +1,6 @@
 {
   "name": "@datacamp/waffles-flash-banner",
-  "version": "0.1.17-alpha.0",
+  "version": "0.1.18-alpha.0",
   "description": "The Waffles flash banner",
   "author": "Dan Denney <dd.subscriptions@gmail.com>",
   "homepage": "https://github.com/datacamp/design-system/tree/master/packages/flash-banner#readme",
@@ -21,6 +21,5 @@
   "bugs": {
     "url": "https://github.com/datacamp/design-system/issues"
   },
-  "devDependencies": {},
   "gitHead": "033030174dbf18623ccd9c0174108c41a9e588a1"
 }
