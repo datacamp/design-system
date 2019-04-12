@@ -87,8 +87,8 @@ workflows:
           context: org-global
           filters:
             branches:
-              ignore:
-                - master
+              only:
+                - staging
       - deploy-doc-site:
           requires:
             - build-and-test
@@ -104,4 +104,4 @@ workflows:
           filters:
             branches:
               only:
-                - master 
+                - master
