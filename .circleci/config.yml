@@ -91,6 +91,12 @@ jobs:
           name: Install yarn
           command: npm install -g yarn@1.15.2
       - run:
+          name: Configure
+          command: |
+            yarn config set //registry.npmjs.org/:_authToken ${NPM_TOKEN}
+            yarn config set scope datacamp
+            yarn config set @datacamp:registry https://registry.npmjs.org/
+      - run:
           name: Lerna Publish
           command: yarn publish:ci
 workflows:
