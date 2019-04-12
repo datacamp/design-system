@@ -3,8 +3,8 @@ import { Page, HintSpecimen } from 'catalog';
 
 import { colors } from '@datacamp/waffles-core/tokens.json';
 import { getColor, getContrastColor } from '@datacamp/waffles-core';
-import CustomHeader from '../../components/CustomHeader';
-import dashify from '../../helpers/dashify';
+import CustomHeader from '../../../components/CustomHeader';
+import dashify from '../../../helpers/dashify';
 
 const docsCustomBgLight = {
   background: '#f9fafa',
@@ -19,7 +19,7 @@ export default () => {
   return (
     <main>
       <CustomHeader
-        section="Design Utilities"
+        section="Utility Classes"
         subSection="Border"
         description="Apply or override border."
       />

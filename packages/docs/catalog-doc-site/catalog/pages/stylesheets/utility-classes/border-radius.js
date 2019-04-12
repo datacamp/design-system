@@ -1,7 +1,7 @@
 import React from 'react';
 import { Page } from 'catalog';
 
-import CustomHeader from '../../components/CustomHeader';
+import CustomHeader from '../../../components/CustomHeader';
 
 const docsHasBorderRadius = {
   borderRadius: '4px'
@@ -11,7 +11,7 @@ export default () => {
   return (
     <main>
       <CustomHeader
-        section="Design Utilities"
+        section="Utility Classes"
         subSection="Border Radius"
         description="Apply or override border radius."
       />

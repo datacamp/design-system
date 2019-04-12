@@ -1,7 +1,7 @@
 import React from 'react';
 import { Page } from 'catalog';
 
-import CustomHeader from '../../components/CustomHeader';
+import CustomHeader from '../../../components/CustomHeader';
 
 const Additive = [
   { class: 'of-auto', value: 'overflow: auto' },
@@ -22,7 +22,7 @@ export default () => {
   return (
     <main>
       <CustomHeader
-        section="Design Utilities"
+        section="Utility Classes"
         subSection="Overflow"
         description="Apply or override overflow."
       />

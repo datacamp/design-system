@@ -1,20 +1,20 @@
 import React from 'react';
 import { Page } from 'catalog';
 
-import CustomHeader from '../../components/CustomHeader';
+import CustomHeader from '../../../components/CustomHeader';
 
 const docsHasBoxShadow = {
   boxShadow: '0 1px 2px 0 rgba(0, 0, 0, 0.15)'
 };
 
 export default () => {
-  return (  
+  return (
     <main>
       <CustomHeader
-        section="Design Utilities"
+        section="Utility Classes"
         subSection="Box Shadow"
         description="Apply or override box-shadow."
-      />  
+      />
       <Page>
         <header>
           <h2>Additive</h2>

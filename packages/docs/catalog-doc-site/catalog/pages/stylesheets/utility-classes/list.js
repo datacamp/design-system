@@ -1,7 +1,7 @@
 import React from 'react';
 import { Page } from 'catalog';
 
-import CustomHeader from '../../components/CustomHeader';
+import CustomHeader from '../../../components/CustomHeader';
 
 const Additive = [
   { class: 'circle', value: 'circle' },
@@ -23,7 +23,7 @@ export default () => {
   return (
     <main>
       <CustomHeader
-        section="Design Utilities"
+        section="Utility Classes"
         subSection="List"
         description="Apply or override lists."
       />

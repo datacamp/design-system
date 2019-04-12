@@ -1,7 +1,7 @@
 import React from 'react';
 import { Page } from 'catalog';
 
-import CustomHeader from '../../components/CustomHeader';
+import CustomHeader from '../../../components/CustomHeader';
 
 const sizes = ['base', 'micro', 'small', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6']
 
@@ -9,7 +9,7 @@ export default () => {
   return (
     <main>
       <CustomHeader
-        section="Design Utilities"
+        section="Utility Classes"
         subSection="Font"
         description="Apply or override font family, size, style, and weight."
       />
