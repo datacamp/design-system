@@ -1,18 +1,18 @@
 import React from 'react';
 import { Page, HintSpecimen } from 'catalog';
 
-import CustomHeader from '../../components/CustomHeader';
+import CustomHeader from '../../../components/CustomHeader';
 
 import { colors } from '@datacamp/waffles-core/tokens.json';
 import { getColor, getContrastColor } from '@datacamp/waffles-core';
-import dashify from '../../helpers/dashify';
+import dashify from '../../../helpers/dashify';
 
 export default () => {
   const obj = Object.keys(colors);
   return (
     <main>
       <CustomHeader
-        section="Design Utilities"
+        section="Utility Classes"
         subSection="Color"
         description="Apply or override text color."
       />

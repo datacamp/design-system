@@ -1,7 +1,7 @@
 import React from 'react';
 import { Page, HintSpecimen } from 'catalog';
 
-import CustomHeader from '../../components/CustomHeader';
+import CustomHeader from '../../../components/CustomHeader';
 
 import { spatial } from '@datacamp/waffles-core/tokens.json';
 
@@ -17,7 +17,7 @@ export default () => {
   return (
     <main>
       <CustomHeader
-        section="Design Utilities"
+        section="Utility Classes"
         subSection="Margin"
         description="Apply or clear margins."
       />

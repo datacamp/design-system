@@ -1,7 +1,7 @@
 import React from 'react';
 import { Page } from 'catalog';
 
-import CustomHeader from '../../components/CustomHeader';
+import CustomHeader from '../../../components/CustomHeader';
 import { spatial } from '@datacamp/waffles-core/tokens.json';
 
 const pixels = Array.from((spatial.measure.split(' ')));
@@ -11,7 +11,7 @@ export default () => {
   return (
     <main>
       <CustomHeader
-        section="Design Utilities"
+        section="Utility Classes"
         subSection="Max Height"
         description="Apply or override max-height."
       />

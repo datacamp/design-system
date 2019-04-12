@@ -1,10 +1,10 @@
 import React from 'react';
 import { Page } from 'catalog';
 
-import CustomHeader from '../../components/CustomHeader';
+import CustomHeader from '../../../components/CustomHeader';
 import { breakpoints } from '@datacamp/waffles-core/tokens.json';
-import dashify from '../../helpers/dashify';
-import whitelist from '../../helpers/whitelist.js';
+import dashify from '../../../helpers/dashify';
+import whitelist from '../../../helpers/whitelist.js';
 
 const blacklist = ['ws', '4K', '5K', 'belowWs', 'below4K', 'below5K'];
 
@@ -13,7 +13,7 @@ export default () => {
   return (
     <main>
       <CustomHeader
-        section="Design Utilities"
+        section="Utility Classes"
         subSection="Display"
         description="Apply or override display."
       />

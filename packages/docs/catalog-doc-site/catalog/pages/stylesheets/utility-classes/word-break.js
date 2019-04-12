@@ -1,7 +1,7 @@
 import React from 'react';
 import { Page } from 'catalog';
 
-import CustomHeader from '../../components/CustomHeader';
+import CustomHeader from '../../../components/CustomHeader';
 
 const Additive = [
   { class: 'ba', value: 'break-all' },
@@ -19,7 +19,7 @@ const Subtractive = [
 export default () => (
   <main>
     <CustomHeader
-      section="Design Utilities"
+      section="Utility Classes"
       subSection="Word Break"
       description="Set where line breaks appear wherever text would otherwise overflow."
     />

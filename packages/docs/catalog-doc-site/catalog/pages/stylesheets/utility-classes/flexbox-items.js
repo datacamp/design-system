@@ -1,25 +1,25 @@
 import React from 'react';
 import { Page } from 'catalog';
 
-import CustomHeader from '../../components/CustomHeader';
+import CustomHeader from '../../../components/CustomHeader';
 
 import { breakpoints } from '@datacamp/waffles-core/tokens.json';
-import dashify from '../../helpers/dashify';
-import whitelist from '../../helpers/whitelist.js';
+import dashify from '../../../helpers/dashify';
+import whitelist from '../../../helpers/whitelist.js';
 
 const blacklist = ['ws', '4K', '5K', 'belowWs', 'below4K', 'below5K'];
 const widths = ['2', '4', '8', '12', '16', '24', '32', '48', '64', '80', '96', '128', '192', '256', '320', '480', '640', '800', '960']
 const percentages = ['1', '5', '10', '15', '20', '25', '30', '40', '50', '60', '70', '75', '80', '90', '100']
 
 export default () => {
-  
-  return (  
+
+  return (
     <main>
       <CustomHeader
-        section="Design Utilities"
+        section="Utility Classes"
         subSection="Flex Items"
         description="Customize flex items."
-      />  
+      />
       <Page>
 
         <header className="dc-u-w-100pc">
@@ -133,7 +133,7 @@ export default () => {
           <p>
             These classes add <code>align-self</code> to an element, so they can be used for building or customizing an element.
           </p>
-        </header>  
+        </header>
 
         <table className="table dc-u-w-auto">
           <thead>
@@ -184,7 +184,7 @@ export default () => {
               </td>
             </tr>
           </tbody>
-        </table> 
+        </table>
 
         <header className="dc-u-w-100pc">
           <h2>Basis</h2>
@@ -289,7 +289,7 @@ export default () => {
             </tr>
           </tbody>
         </table>
-                  
+
       </Page>
     </main>
   );

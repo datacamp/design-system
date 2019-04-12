@@ -16,12 +16,10 @@ export default () => {
       <header className="dc-u-bgg-chambray-cloudburst dc-u-pt-96 dc-u-pb-128">
         <div style={ContainerStyle}>
           <h1 className="dc-u-color-white dc-u-mt-0">
-            Meet Waffles, our Design System.
+            Waffles is DataCamp's Design System
           </h1>
           <p className="dc-u-color-white dc-u-mb-64 dc-u-maxw-640">
-            Our design system helps us work together to build a great experience
-            for all students & instructors. Our design system contains
-            guidelines and components to create a unified experience.
+            Waffles provides all the tools you need to build wonderful experiences that look, feel, sound and smell like DataCamp. They are also our favourite snack.
           </p>
         </div>
       </header>
@@ -29,14 +27,13 @@ export default () => {
       <Page>
         <section className="dc-card dc-u-p-none dc-u-fx" style={BarStyle}>
           <div className="dc-u-p-32">
-            <img src="illustration-content.svg" />
+            <img src="illustration-content.svg" className="dc-u-mb-8" />
             <h4>Content</h4>
-            <p>
-              Learn how to use language to design a more thoughtful product
-              experience.
+            <p className="dc-u-mt-0">
+              Learn about how we use language to create a thoughtful experience.
             </p>
             <a className="dc-btn dc-btn--inline" href="/content">
-              View content guidelines
+              View Content Guidelines
               <span className="dc-icon dc-icon--size-12 dc-icon--flex dc-u-ml-8">
                 <svg className="dc-icon__svg">
                   <use xlinkHref="#arrow_2_right" />
@@ -46,14 +43,13 @@ export default () => {
           </div>
 
           <div className="dc-u-bl dc-u-p-32">
-            <img src="illustration-design.svg" />
+            <img src="illustration-design.svg" className="dc-u-mb-8" />
             <h4>Design</h4>
-            <p>
-              Find out how we approach the visual elements of our interface with
-              purpose.
+            <p className="dc-u-mt-0">
+              Explore the visual elements we use to identify ourselves as a company.
             </p>
             <a className="dc-btn dc-btn--inline" href="/design">
-              View design guidelines
+              View Design Guidelines
               <span className="dc-icon dc-icon--size-12 dc-icon--flex dc-u-ml-8">
                 <svg className="dc-icon__svg">
                   <use xlinkHref="#arrow_2_right" />
@@ -63,14 +59,13 @@ export default () => {
           </div>
 
           <div className="dc-u-bl dc-u-p-32">
-            <img src="illustration-component.svg" />
-            <h4>Components</h4>
-            <p>
-              Use components as building blocks as you develop new products and
-              features.
+            <img src="illustration-component.svg" className="dc-u-mb-8" />
+            <h4>Component Library</h4>
+            <p className="dc-u-mt-0">
+              Use components as building blocks as you develop new products and features.
             </p>
             <a className="dc-btn dc-btn--inline" href="/components">
-              View components
+              Explore Component Library
               <span className="dc-icon dc-icon--size-12 dc-icon--flex dc-u-ml-8">
                 <svg className="dc-icon__svg">
                   <use xlinkHref="#arrow_2_right" />
@@ -80,353 +75,13 @@ export default () => {
           </div>
         </section>
 
-        <article className="dc-card dc-u-mt-24 dc-u-p-32">
+        <article className="dc-card dc-u-mt-24 dc-u-p-32 dc-u-w-50pc">
           <h5 className="dc-chapeau-title dc-u-color-grey">What's New</h5>
-
+          <h3 className="dc-u-mt-16 dc-u-mb-0">Waffles – Pre-release</h3>
           <HintSpecimen warning>
-            The docs are currently incomplete. Visit{' '}
-            <a href="http://styleguide.datacamp.com">styleguide.datacamp.com</a>{' '}
-            for missing color and utility docs.
+            Waffles is currently a work in progress. For missing sections please consult the{' '}
+            <a href="http://styleguide.datacamp.com">DataCamp Styleguide</a>.
           </HintSpecimen>
-
-          <h3 className="dc-u-mt-16">Waffles Alpha Pre-release</h3>
-          <p className="dc-u-mt-8">
-            New Design and Component sections, with documentation in a WIP
-            state.
-          </p>
-
-          <h5>Roadmap</h5>
-
-          <ul>
-            <li>Add missing deprecations from the style guide core</li>
-            <li>Complete the Design Utilities documentation</li>
-            <li>Output all icons</li>
-            <li>Add color documentation</li>
-            <li>Add headers to components</li>
-            <li>Troubleshoot Lerna changed</li>
-          </ul>
-
-          <h5>Imports</h5>
-          <table className="dc-u-ta-center dc-u-w-100pc">
-            <thead>
-              <th>App</th>
-              <th className="dc-u-ta-center">Design</th>
-              <th className="dc-u-ta-center">SCSS Components</th>
-              <th className="dc-u-ta-center">React Components</th>
-            </thead>
-            <tr>
-              <td className="dc-u-ta-left">main-app</td>
-              <td>
-                <span className="dc-icon dc-icon--size-18 dc-icon--flex dc-u-ml-8 dc-icon--green">
-                  <svg className="dc-icon__svg">
-                    <use xlinkHref="#checkmark_circle" />
-                  </svg>
-                </span>
-              </td>
-              <td>
-                <span className="dc-icon dc-icon--size-18 dc-icon--flex dc-u-ml-8 dc-icon--green">
-                  <svg className="dc-icon__svg">
-                    <use xlinkHref="#checkmark_circle" />
-                  </svg>
-                </span>
-              </td>
-              <td>
-                <span className="dc-icon dc-icon--size-18 dc-icon--flex dc-u-ml-8 dc-icon--grey-light">
-                  <svg className="dc-icon__svg">
-                    <use xlinkHref="#incorrect" />
-                  </svg>
-                </span>
-              </td>
-            </tr>
-            <tr className="dc-u-bt">
-              <td className="dc-u-ta-left">marketing-app</td>
-              <td>
-                <span className="dc-icon dc-icon--size-18 dc-icon--flex dc-u-ml-8 dc-icon--green">
-                  <svg className="dc-icon__svg">
-                    <use xlinkHref="#checkmark_circle" />
-                  </svg>
-                </span>
-              </td>
-              <td>
-                <span className="dc-icon dc-icon--size-18 dc-icon--flex dc-u-ml-8 dc-icon--green">
-                  <svg className="dc-icon__svg">
-                    <use xlinkHref="#checkmark_circle" />
-                  </svg>
-                </span>
-              </td>
-              <td>
-                <span className="dc-icon dc-icon--size-18 dc-icon--flex dc-u-ml-8 dc-icon--red">
-                  <svg className="dc-icon__svg">
-                    <use xlinkHref="#error" />
-                  </svg>
-                </span>
-              </td>
-            </tr>
-            <tr className="dc-u-bt">
-              <td className="dc-u-ta-left">enterprise-frontend</td>
-              <td>
-                <span className="dc-icon dc-icon--size-18 dc-icon--flex dc-u-ml-8 dc-icon--green">
-                  <svg className="dc-icon__svg">
-                    <use xlinkHref="#checkmark_circle" />
-                  </svg>
-                </span>
-              </td>
-              <td>
-                <span className="dc-icon dc-icon--size-18 dc-icon--flex dc-u-ml-8 dc-icon--green">
-                  <svg className="dc-icon__svg">
-                    <use xlinkHref="#checkmark_circle" />
-                  </svg>
-                </span>
-              </td>
-              <td>
-                <span className="dc-icon dc-icon--size-18 dc-icon--flex dc-u-ml-8 dc-icon--grey-light">
-                  <svg className="dc-icon__svg">
-                    <use xlinkHref="#incorrect" />
-                  </svg>
-                </span>
-              </td>
-            </tr>
-            <tr className="dc-u-bt">
-              <td className="dc-u-ta-left">campus-app</td>
-              <td>
-                <span className="dc-icon dc-icon--size-18 dc-icon--flex dc-u-ml-8 dc-icon--red">
-                  <svg className="dc-icon__svg">
-                    <use xlinkHref="#error" />
-                  </svg>
-                </span>
-              </td>
-              <td>
-                <span className="dc-icon dc-icon--size-18 dc-icon--flex dc-u-ml-8 dc-icon--red">
-                  <svg className="dc-icon__svg">
-                    <use xlinkHref="#error" />
-                  </svg>
-                </span>
-              </td>
-              <td>
-                <span className="dc-icon dc-icon--size-18 dc-icon--flex dc-u-ml-8 dc-icon--red">
-                  <svg className="dc-icon__svg">
-                    <use xlinkHref="#error" />
-                  </svg>
-                </span>
-              </td>
-            </tr>
-            <tr className="dc-u-bt">
-              <td className="dc-u-ta-left">projects-frontend</td>
-              <td>
-                <span className="dc-icon dc-icon--size-18 dc-icon--flex dc-u-ml-8 dc-icon--red">
-                  <svg className="dc-icon__svg">
-                    <use xlinkHref="#error" />
-                  </svg>
-                </span>
-              </td>
-              <td>
-                <span className="dc-icon dc-icon--size-18 dc-icon--flex dc-u-ml-8 dc-icon--red">
-                  <svg className="dc-icon__svg">
-                    <use xlinkHref="#error" />
-                  </svg>
-                </span>
-              </td>
-              <td>
-                <span className="dc-icon dc-icon--size-18 dc-icon--flex dc-u-ml-8 dc-icon--red">
-                  <svg className="dc-icon__svg">
-                    <use xlinkHref="#error" />
-                  </svg>
-                </span>
-              </td>
-            </tr>
-            <tr className="dc-u-bt">
-              <td className="dc-u-ta-left">teach-app</td>
-              <td>
-                <span className="dc-icon dc-icon--size-18 dc-icon--flex dc-u-ml-8 dc-icon--red">
-                  <svg className="dc-icon__svg">
-                    <use xlinkHref="#error" />
-                  </svg>
-                </span>
-              </td>
-              <td>
-                <span className="dc-icon dc-icon--size-18 dc-icon--flex dc-u-ml-8 dc-icon--red">
-                  <svg className="dc-icon__svg">
-                    <use xlinkHref="#error" />
-                  </svg>
-                </span>
-              </td>
-              <td>
-                <span className="dc-icon dc-icon--size-18 dc-icon--flex dc-u-ml-8 dc-icon--red">
-                  <svg className="dc-icon__svg">
-                    <use xlinkHref="#error" />
-                  </svg>
-                </span>
-              </td>
-            </tr>
-            <tr className="dc-u-bt">
-              <td className="dc-u-ta-left">teach-editor-app-v2</td>
-              <td>
-                <span className="dc-icon dc-icon--size-18 dc-icon--flex dc-u-ml-8 dc-icon--red">
-                  <svg className="dc-icon__svg">
-                    <use xlinkHref="#error" />
-                  </svg>
-                </span>
-              </td>
-              <td>
-                <span className="dc-icon dc-icon--size-18 dc-icon--flex dc-u-ml-8 dc-icon--red">
-                  <svg className="dc-icon__svg">
-                    <use xlinkHref="#error" />
-                  </svg>
-                </span>
-              </td>
-              <td>
-                <span className="dc-icon dc-icon--size-18 dc-icon--flex dc-u-ml-8 dc-icon--red">
-                  <svg className="dc-icon__svg">
-                    <use xlinkHref="#error" />
-                  </svg>
-                </span>
-              </td>
-            </tr>
-            <tr className="dc-u-bt">
-              <td className="dc-u-ta-left">skill-assessment</td>
-              <td>
-                <span className="dc-icon dc-icon--size-18 dc-icon--flex dc-u-ml-8 dc-icon--red">
-                  <svg className="dc-icon__svg">
-                    <use xlinkHref="#error" />
-                  </svg>
-                </span>
-              </td>
-              <td>
-                <span className="dc-icon dc-icon--size-18 dc-icon--flex dc-u-ml-8 dc-icon--red">
-                  <svg className="dc-icon__svg">
-                    <use xlinkHref="#error" />
-                  </svg>
-                </span>
-              </td>
-              <td>
-                <span className="dc-icon dc-icon--size-18 dc-icon--flex dc-u-ml-8 dc-icon--red">
-                  <svg className="dc-icon__svg">
-                    <use xlinkHref="#error" />
-                  </svg>
-                </span>
-              </td>
-            </tr>
-            <tr className="dc-u-bt">
-              <td className="dc-u-ta-left">mobile-app</td>
-              <td>
-                <span className="dc-icon dc-icon--size-18 dc-icon--flex dc-u-ml-8 dc-icon--red">
-                  <svg className="dc-icon__svg">
-                    <use xlinkHref="#error" />
-                  </svg>
-                </span>
-              </td>
-              <td>
-                <span className="dc-icon dc-icon--size-18 dc-icon--flex dc-u-ml-8 dc-icon--red">
-                  <svg className="dc-icon__svg">
-                    <use xlinkHref="#error" />
-                  </svg>
-                </span>
-              </td>
-              <td>
-                <span className="dc-icon dc-icon--size-18 dc-icon--flex dc-u-ml-8 dc-icon--red">
-                  <svg className="dc-icon__svg">
-                    <use xlinkHref="#error" />
-                  </svg>
-                </span>
-              </td>
-            </tr>
-            <tr className="dc-u-bt">
-              <td className="dc-u-ta-left">practice-web</td>
-              <td>
-                <span className="dc-icon dc-icon--size-18 dc-icon--flex dc-u-ml-8 dc-icon--red">
-                  <svg className="dc-icon__svg">
-                    <use xlinkHref="#error" />
-                  </svg>
-                </span>
-              </td>
-              <td>
-                <span className="dc-icon dc-icon--size-18 dc-icon--flex dc-u-ml-8 dc-icon--red">
-                  <svg className="dc-icon__svg">
-                    <use xlinkHref="#error" />
-                  </svg>
-                </span>
-              </td>
-              <td>
-                <span className="dc-icon dc-icon--size-18 dc-icon--flex dc-u-ml-8 dc-icon--red">
-                  <svg className="dc-icon__svg">
-                    <use xlinkHref="#error" />
-                  </svg>
-                </span>
-              </td>
-            </tr>
-            <tr className="dc-u-bt">
-              <td className="dc-u-ta-left">spreadsheets</td>
-              <td>
-                <span className="dc-icon dc-icon--size-18 dc-icon--flex dc-u-ml-8 dc-icon--red">
-                  <svg className="dc-icon__svg">
-                    <use xlinkHref="#error" />
-                  </svg>
-                </span>
-              </td>
-              <td>
-                <span className="dc-icon dc-icon--size-18 dc-icon--flex dc-u-ml-8 dc-icon--red">
-                  <svg className="dc-icon__svg">
-                    <use xlinkHref="#error" />
-                  </svg>
-                </span>
-              </td>
-              <td>
-                <span className="dc-icon dc-icon--size-18 dc-icon--flex dc-u-ml-8 dc-icon--red">
-                  <svg className="dc-icon__svg">
-                    <use xlinkHref="#error" />
-                  </svg>
-                </span>
-              </td>
-            </tr>
-            <tr className="dc-u-bt">
-              <td className="dc-u-ta-left">spreadsheets-editor</td>
-              <td>
-                <span className="dc-icon dc-icon--size-18 dc-icon--flex dc-u-ml-8 dc-icon--red">
-                  <svg className="dc-icon__svg">
-                    <use xlinkHref="#error" />
-                  </svg>
-                </span>
-              </td>
-              <td>
-                <span className="dc-icon dc-icon--size-18 dc-icon--flex dc-u-ml-8 dc-icon--red">
-                  <svg className="dc-icon__svg">
-                    <use xlinkHref="#error" />
-                  </svg>
-                </span>
-              </td>
-              <td>
-                <span className="dc-icon dc-icon--size-18 dc-icon--flex dc-u-ml-8 dc-icon--red">
-                  <svg className="dc-icon__svg">
-                    <use xlinkHref="#error" />
-                  </svg>
-                </span>
-              </td>
-            </tr>
-            <tr className="dc-u-bt">
-              <td className="dc-u-ta-left">datacamp-light</td>
-              <td>
-                <span className="dc-icon dc-icon--size-18 dc-icon--flex dc-u-ml-8 dc-icon--red">
-                  <svg className="dc-icon__svg">
-                    <use xlinkHref="#error" />
-                  </svg>
-                </span>
-              </td>
-              <td>
-                <span className="dc-icon dc-icon--size-18 dc-icon--flex dc-u-ml-8 dc-icon--red">
-                  <svg className="dc-icon__svg">
-                    <use xlinkHref="#error" />
-                  </svg>
-                </span>
-              </td>
-              <td>
-                <span className="dc-icon dc-icon--size-18 dc-icon--flex dc-u-ml-8 dc-icon--red">
-                  <svg className="dc-icon__svg">
-                    <use xlinkHref="#error" />
-                  </svg>
-                </span>
-              </td>
-            </tr>
-          </table>
         </article>
       </Page>
     </main>

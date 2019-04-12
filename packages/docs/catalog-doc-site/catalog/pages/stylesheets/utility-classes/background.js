@@ -3,15 +3,15 @@ import { Page } from 'catalog';
 
 import { colors } from '@datacamp/waffles-core/tokens.json';
 import { getColor, getContrastColor } from '@datacamp/waffles-core';
-import CustomHeader from '../../components/CustomHeader';
-import dashify from '../../helpers/dashify';
+import CustomHeader from '../../../components/CustomHeader';
+import dashify from '../../../helpers/dashify';
 
 export default () => {
   const obj = Object.keys(colors);
   return (
     <main>
       <CustomHeader
-        section="Design Utilities"
+        section="Utility Classes"
         subSection="Background"
         description="Apply or override background colors."
       />
