@@ -26,8 +26,8 @@ jobs:
       - persist_to_workspace:
           root: "."
           paths:
-            - packages/docs/catalog-doc-site/catalog/build/*
-  deploy-branch:
+            - ./**
+  deploy-staging-site:
     docker:
       - image: ${STAGING_ECR_URL}/docker-deploy
         aws_auth:
@@ -45,7 +45,7 @@ jobs:
             export AWS_SECRET_ACCESS_KEY=${STAGING_AWS_SECRET_ACCESS_KEY}
             aws s3 sync --delete --acl public-read packages/docs/catalog-doc-site/catalog/build s3://${BUCKET}.datacamp-staging.com/live
             #aws s3 sync --acl public-read packages/docs/catalog-doc-site/catalog/build/static/media s3://${BUCKET}.datacamp-staging.com/live/media
-  deploy:
+  deploy-doc-site:
     docker:
       - image: ${STAGING_ECR_URL}/docker-deploy
         aws_auth:
@@ -63,13 +63,25 @@ jobs:
             export AWS_SECRET_ACCESS_KEY=${PROD_AWS_SECRET_ACCESS_KEY}
             aws s3 sync --delete --exclude "*le-components/*" --acl public-read packages/docs/catalog-doc-site/catalog/build s3://${BUCKET}.new.datacamp.com/live
             #aws s3 sync --acl public-read packages/docs/catalog-doc-site/catalog/build/static/media s3://${BUCKET}.new.datacamp.com/live/media
+  publish-packages:
+    docker:
+      - image: ${STAGING_ECR_URL}/node-test
+        aws_auth:
+          aws_access_key_id: $STAGING_AWS_ACCESS_KEY_ID
+          aws_secret_access_key: $STAGING_AWS_SECRET_ACCESS_KEY
+    steps:
+      - attach_workspace:
+          at: "."
+      - run:
+          name: Lerna Publish
+          command: yarn publish:ci
 workflows:
   version: 2
   build_and_deploy:
     jobs:
       - build-and-test:
           context: org-global
-      - deploy-branch:
+      - deploy-staging-site:
           requires:
             - build-and-test
           context: org-global
@@ -77,7 +89,7 @@ workflows:
             branches:
               ignore:
                 - master
-      - deploy:
+      - deploy-doc-site:
           requires:
             - build-and-test
           context: org-global
@@ -85,3 +97,11 @@ workflows:
             branches:
               only:
                 - master
+      - publish-packages:
+          requires:
+            - build-and-test
+          context: org-global
+          filters:
+            branches:
+              only:
+                - master 
