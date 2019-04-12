@@ -88,6 +88,9 @@ jobs:
           name: Authenticate with registry
           command: cp ci/.npmrc .npmrc
       - run:
+          name: Install yarn
+          command: npm install -g yarn@1.15.2
+      - run:
           name: Lerna Publish
           command: yarn publish:ci
 workflows:
