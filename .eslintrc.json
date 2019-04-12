@@ -14,7 +14,8 @@
           ".storybook/**.js",
           "**/*.stories.js",
           "**/catalog.config.js",
-          "**/webpack.config.js"
+          "**/webpack.config.js",
+          "**/test/*"
         ]
       }
     ]

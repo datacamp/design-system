@@ -4,9 +4,7 @@ import cx from 'classnames';
 import { isNil } from 'lodash';
 import styled from 'styled-components';
 
-import './index.css';
-
-import { getColor, getContrastColor } from '@datacamp/waffles-core/js';
+import { getColor, getContrastColor } from '@datacamp/waffles-core';
 
 const Tag = ({ color, children, extraClass, rounded, textColor }) => {
   const TagStyled = styled.div`
