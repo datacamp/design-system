@@ -1,6 +1,6 @@
 version: 2
 jobs:
-  build:
+  build-and-test:
     docker:
       - image: ${STAGING_ECR_URL}/node-test
         aws_auth:
@@ -17,6 +17,9 @@ jobs:
             cp ci/.npmrc .npmrc
             yarn install --frozen-lockfile
             yarn bootstrap
+      - run:
+          name: Lint
+          command: yarn lint
       - persist_to_workspace:
           root: "."
           paths:
@@ -61,11 +64,11 @@ workflows:
   version: 2
   build_and_deploy:
     jobs:
-      - build:
+      - build-and-test:
           context: org-global
       - deploy-branch:
           requires:
-            - build
+            - build-and-test
           context: org-global
           filters:
             branches:
@@ -73,7 +76,7 @@ workflows:
                 - master
       - deploy:
           requires:
-            - build
+            - build-and-test
           context: org-global
           filters:
             branches:

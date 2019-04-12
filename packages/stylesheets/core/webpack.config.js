@@ -18,7 +18,7 @@ const tokenizeSCSS = scss => {
       const re = new RegExp(`/map_get\\(\\$${firstKey}\\)`, 'g');
       tokenized = tokenized.replace(re, tokens[firstKey]);
     } else if (typeof tokens[firstKey] === 'object') {
-      Object.keys(tokens[firstKey]).foEach(secondKey => {
+      Object.keys(tokens[firstKey]).forEach(secondKey => {
         const value = tokens[firstKey][secondKey];
 
         // if (value.charAt(0) === "'" && value.charAt(value.length - 1) === "'") {
