@@ -1,16 +1,14 @@
 import React from 'react';
 import { Page } from 'catalog';
 
-import CustomHeader from '../../../components/CustomHeader';
-
 import { breakpoints } from '@datacamp/waffles-core/tokens.json';
+import CustomHeader from '../../../components/CustomHeader';
 import dashify from '../../../helpers/dashify';
-import whitelist from '../../../helpers/whitelist.js';
+import whitelist from '../../../helpers/whitelist';
 
 const blacklist = ['ws', '4K', '5K', 'belowWs', 'below4K', 'below5K'];
 
 export default () => {
-
   return (
     <main>
       <CustomHeader
@@ -19,10 +17,13 @@ export default () => {
         description="Create and modify flex containers."
       />
       <Page>
-
         <header>
           <h2>Display</h2>
-          <p>These classes add <code>display</code> to an element, so they can be used for building or customizing an element. The <code>display</code> property creates a flex container.</p>
+          <p>
+            These classes add <code>display</code> to an element, so they can be
+            used for building or customizing an element. The{' '}
+            <code>display</code> property creates a flex container.
+          </p>
         </header>
 
         <table className="table dc-u-w-auto">
@@ -54,11 +55,13 @@ export default () => {
 
         <header>
           <h3>Responsive Modifiers</h3>
-          <p>Display utilities can be applied to individual common breakpoints using <code>@[size]</code> appended to the end of the class.</p>
+          <p>
+            Display utilities can be applied to individual common breakpoints
+            using <code>@[size]</code> appended to the end of the class.
+          </p>
         </header>
 
         <section className="dc-u-fx dc-u-w-100pc">
-
           <article className="dc-u-mh-4">
             <h4>Flex</h4>
             <table className="table dc-u-w-auto">
@@ -69,16 +72,18 @@ export default () => {
                 </tr>
               </thead>
               <tbody>
-                {Object.entries(whitelist(blacklist, breakpoints)).map(([name, value]) => (
-                  <tr key={name}>
-                    <td>
-                      <code className="dc-u-ws-nowrap">{`.dc-u-fx@${dashify(name)}`}</code>
-                    </td>
-                    <td>
-                      {value}
-                    </td>
-                  </tr>
-                ))}
+                {Object.entries(whitelist(blacklist, breakpoints)).map(
+                  ([name, value]) => (
+                    <tr key={name}>
+                      <td>
+                        <code className="dc-u-ws-nowrap">{`.dc-u-fx@${dashify(
+                          name
+                        )}`}</code>
+                      </td>
+                      <td>{value}</td>
+                    </tr>
+                  )
+                )}
               </tbody>
             </table>
           </article>
@@ -93,25 +98,29 @@ export default () => {
                 </tr>
               </thead>
               <tbody>
-                {Object.entries(whitelist(blacklist, breakpoints)).map(([name, value]) => (
-                  <tr key={name}>
-                    <td>
-                      <code className="dc-u-ws-nowrap">{`.dc-u-ifx@${dashify(name)}`}</code>
-                    </td>
-                    <td>
-                      {value}
-                    </td>
-                  </tr>
-                ))}
+                {Object.entries(whitelist(blacklist, breakpoints)).map(
+                  ([name, value]) => (
+                    <tr key={name}>
+                      <td>
+                        <code className="dc-u-ws-nowrap">{`.dc-u-ifx@${dashify(
+                          name
+                        )}`}</code>
+                      </td>
+                      <td>{value}</td>
+                    </tr>
+                  )
+                )}
               </tbody>
             </table>
           </article>
-
         </section>
 
         <header>
           <h2>Direction</h2>
-          <p>These classes add <code>flex-direction</code> to an element, so they can be used for building or customizing an element.</p>
+          <p>
+            These classes add <code>flex-direction</code> to an element, so they
+            can be used for building or customizing an element.
+          </p>
         </header>
 
         <table className="table dc-u-w-auto">
@@ -159,11 +168,13 @@ export default () => {
 
         <header>
           <h3>Responsive Modifiers</h3>
-          <p>Display utilities can be applied to individual common breakpoints using <code>@[size]</code> appended to the end of the class.</p>
+          <p>
+            Display utilities can be applied to individual common breakpoints
+            using <code>@[size]</code> appended to the end of the class.
+          </p>
         </header>
 
         <section className="dc-u-fx dc-u-fx-fww dc-u-w-100pc">
-
           <article className="dc-u-mh-4">
             <h4>Column</h4>
             <table className="table dc-u-w-auto">
@@ -174,16 +185,18 @@ export default () => {
                 </tr>
               </thead>
               <tbody>
-                {Object.entries(whitelist(blacklist, breakpoints)).map(([name, value]) => (
-                  <tr key={name}>
-                    <td>
-                      <code className="dc-u-ws-nowrap">{`.dc-u-fx-fdc@${dashify(name)}`}</code>
-                    </td>
-                    <td>
-                      {value}
-                    </td>
-                  </tr>
-                ))}
+                {Object.entries(whitelist(blacklist, breakpoints)).map(
+                  ([name, value]) => (
+                    <tr key={name}>
+                      <td>
+                        <code className="dc-u-ws-nowrap">{`.dc-u-fx-fdc@${dashify(
+                          name
+                        )}`}</code>
+                      </td>
+                      <td>{value}</td>
+                    </tr>
+                  )
+                )}
               </tbody>
             </table>
           </article>
@@ -198,16 +211,18 @@ export default () => {
                 </tr>
               </thead>
               <tbody>
-                {Object.entries(whitelist(blacklist, breakpoints)).map(([name, value]) => (
-                  <tr key={name}>
-                    <td>
-                      <code className="dc-u-ws-nowrap">{`.dc-u-fx-fdcr@${dashify(name)}`}</code>
-                    </td>
-                    <td>
-                      {value}
-                    </td>
-                  </tr>
-                ))}
+                {Object.entries(whitelist(blacklist, breakpoints)).map(
+                  ([name, value]) => (
+                    <tr key={name}>
+                      <td>
+                        <code className="dc-u-ws-nowrap">{`.dc-u-fx-fdcr@${dashify(
+                          name
+                        )}`}</code>
+                      </td>
+                      <td>{value}</td>
+                    </tr>
+                  )
+                )}
               </tbody>
             </table>
           </article>
@@ -222,16 +237,18 @@ export default () => {
                 </tr>
               </thead>
               <tbody>
-                {Object.entries(whitelist(blacklist, breakpoints)).map(([name, value]) => (
-                  <tr key={name}>
-                    <td>
-                      <code className="dc-u-ws-nowrap">{`.dc-u-fx-fdr@${dashify(name)}`}</code>
-                    </td>
-                    <td>
-                      {value}
-                    </td>
-                  </tr>
-                ))}
+                {Object.entries(whitelist(blacklist, breakpoints)).map(
+                  ([name, value]) => (
+                    <tr key={name}>
+                      <td>
+                        <code className="dc-u-ws-nowrap">{`.dc-u-fx-fdr@${dashify(
+                          name
+                        )}`}</code>
+                      </td>
+                      <td>{value}</td>
+                    </tr>
+                  )
+                )}
               </tbody>
             </table>
           </article>
@@ -246,25 +263,29 @@ export default () => {
                 </tr>
               </thead>
               <tbody>
-                {Object.entries(whitelist(blacklist, breakpoints)).map(([name, value]) => (
-                  <tr key={name}>
-                    <td>
-                      <code className="dc-u-ws-nowrap">{`.dc-u-fx-fdrr@${dashify(name)}`}</code>
-                    </td>
-                    <td>
-                      {value}
-                    </td>
-                  </tr>
-                ))}
+                {Object.entries(whitelist(blacklist, breakpoints)).map(
+                  ([name, value]) => (
+                    <tr key={name}>
+                      <td>
+                        <code className="dc-u-ws-nowrap">{`.dc-u-fx-fdrr@${dashify(
+                          name
+                        )}`}</code>
+                      </td>
+                      <td>{value}</td>
+                    </tr>
+                  )
+                )}
               </tbody>
             </table>
           </article>
-
         </section>
 
         <header>
           <h2>Wrap</h2>
-          <p>These classes add <code>flex-wrap</code> to an element, so they can be used for building or customizing an element.</p>
+          <p>
+            These classes add <code>flex-wrap</code> to an element, so they can
+            be used for building or customizing an element.
+          </p>
         </header>
 
         <table className="table dc-u-w-auto">
@@ -304,7 +325,10 @@ export default () => {
 
         <header>
           <h2>Align Items</h2>
-          <p>These classes add <code>align-items</code> to an element, so they can be used for building or customizing an element.</p>
+          <p>
+            These classes add <code>align-items</code> to an element, so they
+            can be used for building or customizing an element.
+          </p>
         </header>
 
         <table className="table dc-u-w-auto">
@@ -360,11 +384,13 @@ export default () => {
 
         <header>
           <h3>Responsive Modifiers</h3>
-          <p>Display utilities can be applied to individual common breakpoints using <code>@[size]</code> appended to the end of the class.</p>
+          <p>
+            Display utilities can be applied to individual common breakpoints
+            using <code>@[size]</code> appended to the end of the class.
+          </p>
         </header>
 
         <section className="dc-u-fx dc-u-fx-fww dc-u-w-100pc">
-
           <article className="dc-u-mh-4">
             <h4>Baseline</h4>
             <table className="table dc-u-w-auto">
@@ -375,16 +401,18 @@ export default () => {
                 </tr>
               </thead>
               <tbody>
-                {Object.entries(whitelist(blacklist, breakpoints)).map(([name, value]) => (
-                  <tr key={name}>
-                    <td>
-                      <code className="dc-u-ws-nowrap">{`.dc-u-fx-aib@${dashify(name)}`}</code>
-                    </td>
-                    <td>
-                      {value}
-                    </td>
-                  </tr>
-                ))}
+                {Object.entries(whitelist(blacklist, breakpoints)).map(
+                  ([name, value]) => (
+                    <tr key={name}>
+                      <td>
+                        <code className="dc-u-ws-nowrap">{`.dc-u-fx-aib@${dashify(
+                          name
+                        )}`}</code>
+                      </td>
+                      <td>{value}</td>
+                    </tr>
+                  )
+                )}
               </tbody>
             </table>
           </article>
@@ -399,16 +427,18 @@ export default () => {
                 </tr>
               </thead>
               <tbody>
-                {Object.entries(whitelist(blacklist, breakpoints)).map(([name, value]) => (
-                  <tr key={name}>
-                    <td>
-                      <code className="dc-u-ws-nowrap">{`.dc-u-fx-aic@${dashify(name)}`}</code>
-                    </td>
-                    <td>
-                      {value}
-                    </td>
-                  </tr>
-                ))}
+                {Object.entries(whitelist(blacklist, breakpoints)).map(
+                  ([name, value]) => (
+                    <tr key={name}>
+                      <td>
+                        <code className="dc-u-ws-nowrap">{`.dc-u-fx-aic@${dashify(
+                          name
+                        )}`}</code>
+                      </td>
+                      <td>{value}</td>
+                    </tr>
+                  )
+                )}
               </tbody>
             </table>
           </article>
@@ -423,16 +453,18 @@ export default () => {
                 </tr>
               </thead>
               <tbody>
-                {Object.entries(whitelist(blacklist, breakpoints)).map(([name, value]) => (
-                  <tr key={name}>
-                    <td>
-                      <code className="dc-u-ws-nowrap">{`.dc-u-fx-aife@${dashify(name)}`}</code>
-                    </td>
-                    <td>
-                      {value}
-                    </td>
-                  </tr>
-                ))}
+                {Object.entries(whitelist(blacklist, breakpoints)).map(
+                  ([name, value]) => (
+                    <tr key={name}>
+                      <td>
+                        <code className="dc-u-ws-nowrap">{`.dc-u-fx-aife@${dashify(
+                          name
+                        )}`}</code>
+                      </td>
+                      <td>{value}</td>
+                    </tr>
+                  )
+                )}
               </tbody>
             </table>
           </article>
@@ -447,16 +479,18 @@ export default () => {
                 </tr>
               </thead>
               <tbody>
-                {Object.entries(whitelist(blacklist, breakpoints)).map(([name, value]) => (
-                  <tr key={name}>
-                    <td>
-                      <code className="dc-u-ws-nowrap">{`.dc-u-fx-aifs@${dashify(name)}`}</code>
-                    </td>
-                    <td>
-                      {value}
-                    </td>
-                  </tr>
-                ))}
+                {Object.entries(whitelist(blacklist, breakpoints)).map(
+                  ([name, value]) => (
+                    <tr key={name}>
+                      <td>
+                        <code className="dc-u-ws-nowrap">{`.dc-u-fx-aifs@${dashify(
+                          name
+                        )}`}</code>
+                      </td>
+                      <td>{value}</td>
+                    </tr>
+                  )
+                )}
               </tbody>
             </table>
           </article>
@@ -471,25 +505,31 @@ export default () => {
                 </tr>
               </thead>
               <tbody>
-                {Object.entries(whitelist(blacklist, breakpoints)).map(([name, value]) => (
-                  <tr key={name}>
-                    <td>
-                      <code className="dc-u-ws-nowrap">{`.dc-u-fx-ais@${dashify(name)}`}</code>
-                    </td>
-                    <td>
-                      {value}
-                    </td>
-                  </tr>
-                ))}
+                {Object.entries(whitelist(blacklist, breakpoints)).map(
+                  ([name, value]) => (
+                    <tr key={name}>
+                      <td>
+                        <code className="dc-u-ws-nowrap">{`.dc-u-fx-ais@${dashify(
+                          name
+                        )}`}</code>
+                      </td>
+                      <td>{value}</td>
+                    </tr>
+                  )
+                )}
               </tbody>
             </table>
           </article>
-
         </section>
 
         <header>
           <h2>Align Content</h2>
-          <p>These classes add <code>align-items</code> to an element, so they can be used for building or customizing an element. They are used for controlling how lines are positioned in multi-line flex containers.</p>
+          <p>
+            These classes add <code>align-items</code> to an element, so they
+            can be used for building or customizing an element. They are used
+            for controlling how lines are positioned in multi-line flex
+            containers.
+          </p>
         </header>
 
         <table className="table dc-u-w-auto">
@@ -545,11 +585,13 @@ export default () => {
 
         <header>
           <h3>Responsive Modifiers</h3>
-          <p>Display utilities can be applied to individual common breakpoints using <code>@[size]</code> appended to the end of the class.</p>
+          <p>
+            Display utilities can be applied to individual common breakpoints
+            using <code>@[size]</code> appended to the end of the class.
+          </p>
         </header>
 
         <section className="dc-u-fx dc-u-fx-fww dc-u-w-100pc">
-
           <article className="dc-u-mh-4">
             <h4>Center</h4>
             <table className="table dc-u-w-auto">
@@ -560,16 +602,18 @@ export default () => {
                 </tr>
               </thead>
               <tbody>
-                {Object.entries(whitelist(blacklist, breakpoints)).map(([name, value]) => (
-                  <tr key={name}>
-                    <td>
-                      <code className="dc-u-ws-nowrap">{`.dc-u-fx-acc@${dashify(name)}`}</code>
-                    </td>
-                    <td>
-                      {value}
-                    </td>
-                  </tr>
-                ))}
+                {Object.entries(whitelist(blacklist, breakpoints)).map(
+                  ([name, value]) => (
+                    <tr key={name}>
+                      <td>
+                        <code className="dc-u-ws-nowrap">{`.dc-u-fx-acc@${dashify(
+                          name
+                        )}`}</code>
+                      </td>
+                      <td>{value}</td>
+                    </tr>
+                  )
+                )}
               </tbody>
             </table>
           </article>
@@ -584,16 +628,18 @@ export default () => {
                 </tr>
               </thead>
               <tbody>
-                {Object.entries(whitelist(blacklist, breakpoints)).map(([name, value]) => (
-                  <tr key={name}>
-                    <td>
-                      <code className="dc-u-ws-nowrap">{`.dc-u-fx-acfe@${dashify(name)}`}</code>
-                    </td>
-                    <td>
-                      {value}
-                    </td>
-                  </tr>
-                ))}
+                {Object.entries(whitelist(blacklist, breakpoints)).map(
+                  ([name, value]) => (
+                    <tr key={name}>
+                      <td>
+                        <code className="dc-u-ws-nowrap">{`.dc-u-fx-acfe@${dashify(
+                          name
+                        )}`}</code>
+                      </td>
+                      <td>{value}</td>
+                    </tr>
+                  )
+                )}
               </tbody>
             </table>
           </article>
@@ -608,16 +654,18 @@ export default () => {
                 </tr>
               </thead>
               <tbody>
-                {Object.entries(whitelist(blacklist, breakpoints)).map(([name, value]) => (
-                  <tr key={name}>
-                    <td>
-                      <code className="dc-u-ws-nowrap">{`.dc-u-fx-acfs@${dashify(name)}`}</code>
-                    </td>
-                    <td>
-                      {value}
-                    </td>
-                  </tr>
-                ))}
+                {Object.entries(whitelist(blacklist, breakpoints)).map(
+                  ([name, value]) => (
+                    <tr key={name}>
+                      <td>
+                        <code className="dc-u-ws-nowrap">{`.dc-u-fx-acfs@${dashify(
+                          name
+                        )}`}</code>
+                      </td>
+                      <td>{value}</td>
+                    </tr>
+                  )
+                )}
               </tbody>
             </table>
           </article>
@@ -632,16 +680,18 @@ export default () => {
                 </tr>
               </thead>
               <tbody>
-                {Object.entries(whitelist(blacklist, breakpoints)).map(([name, value]) => (
-                  <tr key={name}>
-                    <td>
-                      <code className="dc-u-ws-nowrap">{`.dc-u-fx-acsa@${dashify(name)}`}</code>
-                    </td>
-                    <td>
-                      {value}
-                    </td>
-                  </tr>
-                ))}
+                {Object.entries(whitelist(blacklist, breakpoints)).map(
+                  ([name, value]) => (
+                    <tr key={name}>
+                      <td>
+                        <code className="dc-u-ws-nowrap">{`.dc-u-fx-acsa@${dashify(
+                          name
+                        )}`}</code>
+                      </td>
+                      <td>{value}</td>
+                    </tr>
+                  )
+                )}
               </tbody>
             </table>
           </article>
@@ -656,16 +706,18 @@ export default () => {
                 </tr>
               </thead>
               <tbody>
-                {Object.entries(whitelist(blacklist, breakpoints)).map(([name, value]) => (
-                  <tr key={name}>
-                    <td>
-                      <code className="dc-u-ws-nowrap">{`.dc-u-fx-acsb@${dashify(name)}`}</code>
-                    </td>
-                    <td>
-                      {value}
-                    </td>
-                  </tr>
-                ))}
+                {Object.entries(whitelist(blacklist, breakpoints)).map(
+                  ([name, value]) => (
+                    <tr key={name}>
+                      <td>
+                        <code className="dc-u-ws-nowrap">{`.dc-u-fx-acsb@${dashify(
+                          name
+                        )}`}</code>
+                      </td>
+                      <td>{value}</td>
+                    </tr>
+                  )
+                )}
               </tbody>
             </table>
           </article>
@@ -680,25 +732,29 @@ export default () => {
                 </tr>
               </thead>
               <tbody>
-                {Object.entries(whitelist(blacklist, breakpoints)).map(([name, value]) => (
-                  <tr key={name}>
-                    <td>
-                      <code className="dc-u-ws-nowrap">{`.dc-u-fx-acs@${dashify(name)}`}</code>
-                    </td>
-                    <td>
-                      {value}
-                    </td>
-                  </tr>
-                ))}
+                {Object.entries(whitelist(blacklist, breakpoints)).map(
+                  ([name, value]) => (
+                    <tr key={name}>
+                      <td>
+                        <code className="dc-u-ws-nowrap">{`.dc-u-fx-acs@${dashify(
+                          name
+                        )}`}</code>
+                      </td>
+                      <td>{value}</td>
+                    </tr>
+                  )
+                )}
               </tbody>
             </table>
           </article>
-
         </section>
 
         <header>
           <h2>Justify Content</h2>
-          <p>These classes add <code>align-items</code> to an element, so they can be used for building or customizing an element.</p>
+          <p>
+            These classes add <code>align-items</code> to an element, so they
+            can be used for building or customizing an element.
+          </p>
         </header>
 
         <table className="table dc-u-w-auto">
@@ -754,11 +810,13 @@ export default () => {
 
         <header>
           <h3>Responsive Modifiers</h3>
-          <p>Display utilities can be applied to individual common breakpoints using <code>@[size]</code> appended to the end of the class.</p>
+          <p>
+            Display utilities can be applied to individual common breakpoints
+            using <code>@[size]</code> appended to the end of the class.
+          </p>
         </header>
 
         <section className="dc-u-fx dc-u-fx-fww dc-u-w-100pc">
-
           <article className="dc-u-mh-4">
             <h4>Center</h4>
             <table className="table dc-u-w-auto">
@@ -769,16 +827,18 @@ export default () => {
                 </tr>
               </thead>
               <tbody>
-                {Object.entries(whitelist(blacklist, breakpoints)).map(([name, value]) => (
-                  <tr key={name}>
-                    <td>
-                      <code className="dc-u-ws-nowrap">{`.dc-u-fx-jcc@${dashify(name)}`}</code>
-                    </td>
-                    <td>
-                      {value}
-                    </td>
-                  </tr>
-                ))}
+                {Object.entries(whitelist(blacklist, breakpoints)).map(
+                  ([name, value]) => (
+                    <tr key={name}>
+                      <td>
+                        <code className="dc-u-ws-nowrap">{`.dc-u-fx-jcc@${dashify(
+                          name
+                        )}`}</code>
+                      </td>
+                      <td>{value}</td>
+                    </tr>
+                  )
+                )}
               </tbody>
             </table>
           </article>
@@ -793,16 +853,18 @@ export default () => {
                 </tr>
               </thead>
               <tbody>
-                {Object.entries(whitelist(blacklist, breakpoints)).map(([name, value]) => (
-                  <tr key={name}>
-                    <td>
-                      <code className="dc-u-ws-nowrap">{`.dc-u-fx-jcfe@${dashify(name)}`}</code>
-                    </td>
-                    <td>
-                      {value}
-                    </td>
-                  </tr>
-                ))}
+                {Object.entries(whitelist(blacklist, breakpoints)).map(
+                  ([name, value]) => (
+                    <tr key={name}>
+                      <td>
+                        <code className="dc-u-ws-nowrap">{`.dc-u-fx-jcfe@${dashify(
+                          name
+                        )}`}</code>
+                      </td>
+                      <td>{value}</td>
+                    </tr>
+                  )
+                )}
               </tbody>
             </table>
           </article>
@@ -817,16 +879,18 @@ export default () => {
                 </tr>
               </thead>
               <tbody>
-                {Object.entries(whitelist(blacklist, breakpoints)).map(([name, value]) => (
-                  <tr key={name}>
-                    <td>
-                      <code className="dc-u-ws-nowrap">{`.dc-u-fx-jcfs@${dashify(name)}`}</code>
-                    </td>
-                    <td>
-                      {value}
-                    </td>
-                  </tr>
-                ))}
+                {Object.entries(whitelist(blacklist, breakpoints)).map(
+                  ([name, value]) => (
+                    <tr key={name}>
+                      <td>
+                        <code className="dc-u-ws-nowrap">{`.dc-u-fx-jcfs@${dashify(
+                          name
+                        )}`}</code>
+                      </td>
+                      <td>{value}</td>
+                    </tr>
+                  )
+                )}
               </tbody>
             </table>
           </article>
@@ -841,16 +905,18 @@ export default () => {
                 </tr>
               </thead>
               <tbody>
-                {Object.entries(whitelist(blacklist, breakpoints)).map(([name, value]) => (
-                  <tr key={name}>
-                    <td>
-                      <code className="dc-u-ws-nowrap">{`.dc-u-fx-jcsa@${dashify(name)}`}</code>
-                    </td>
-                    <td>
-                      {value}
-                    </td>
-                  </tr>
-                ))}
+                {Object.entries(whitelist(blacklist, breakpoints)).map(
+                  ([name, value]) => (
+                    <tr key={name}>
+                      <td>
+                        <code className="dc-u-ws-nowrap">{`.dc-u-fx-jcsa@${dashify(
+                          name
+                        )}`}</code>
+                      </td>
+                      <td>{value}</td>
+                    </tr>
+                  )
+                )}
               </tbody>
             </table>
           </article>
@@ -865,22 +931,22 @@ export default () => {
                 </tr>
               </thead>
               <tbody>
-                {Object.entries(whitelist(blacklist, breakpoints)).map(([name, value]) => (
-                  <tr key={name}>
-                    <td>
-                      <code className="dc-u-ws-nowrap">{`.dc-u-fx-jcsb@${dashify(name)}`}</code>
-                    </td>
-                    <td>
-                      {value}
-                    </td>
-                  </tr>
-                ))}
+                {Object.entries(whitelist(blacklist, breakpoints)).map(
+                  ([name, value]) => (
+                    <tr key={name}>
+                      <td>
+                        <code className="dc-u-ws-nowrap">{`.dc-u-fx-jcsb@${dashify(
+                          name
+                        )}`}</code>
+                      </td>
+                      <td>{value}</td>
+                    </tr>
+                  )
+                )}
               </tbody>
             </table>
           </article>
-
         </section>
-
       </Page>
     </main>
   );

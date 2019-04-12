@@ -16,10 +16,12 @@ export default () => {
       <header className="dc-u-bgg-chambray-cloudburst dc-u-pt-96 dc-u-pb-128">
         <div style={ContainerStyle}>
           <h1 className="dc-u-color-white dc-u-mt-0">
-            Waffles is DataCamp's Design System
+            Waffles is DataCamp&apos;s Design System
           </h1>
           <p className="dc-u-color-white dc-u-mb-64 dc-u-maxw-640">
-            Waffles provides all the tools you need to build wonderful experiences that look, feel, sound and smell like DataCamp. They are also our favourite snack.
+            Waffles provides all the tools you need to build wonderful
+            experiences that look, feel, sound and smell like DataCamp. They are
+            also our favourite snack.
           </p>
         </div>
       </header>
@@ -27,7 +29,7 @@ export default () => {
       <Page>
         <section className="dc-card dc-u-p-none dc-u-fx" style={BarStyle}>
           <div className="dc-u-p-32">
-            <img src="illustration-content.svg" className="dc-u-mb-8" />
+            <img src="illustration-content.svg" alt="" className="dc-u-mb-8" />
             <h4>Content</h4>
             <p className="dc-u-mt-0">
               Learn about how we use language to create a thoughtful experience.
@@ -43,10 +45,11 @@ export default () => {
           </div>
 
           <div className="dc-u-bl dc-u-p-32">
-            <img src="illustration-design.svg" className="dc-u-mb-8" />
+            <img src="illustration-design.svg" alt="" className="dc-u-mb-8" />
             <h4>Design</h4>
             <p className="dc-u-mt-0">
-              Explore the visual elements we use to identify ourselves as a company.
+              Explore the visual elements we use to identify ourselves as a
+              company.
             </p>
             <a className="dc-btn dc-btn--inline" href="/design">
               View Design Guidelines
@@ -59,10 +62,15 @@ export default () => {
           </div>
 
           <div className="dc-u-bl dc-u-p-32">
-            <img src="illustration-component.svg" className="dc-u-mb-8" />
+            <img
+              src="illustration-component.svg"
+              alt=""
+              className="dc-u-mb-8"
+            />
             <h4>Component Library</h4>
             <p className="dc-u-mt-0">
-              Use components as building blocks as you develop new products and features.
+              Use components as building blocks as you develop new products and
+              features.
             </p>
             <a className="dc-btn dc-btn--inline" href="/components">
               Explore Component Library
@@ -76,10 +84,11 @@ export default () => {
         </section>
 
         <article className="dc-card dc-u-mt-24 dc-u-p-32 dc-u-w-50pc">
-          <h5 className="dc-chapeau-title dc-u-color-grey">What's New</h5>
+          <h5 className="dc-chapeau-title dc-u-color-grey">What&apos;s New</h5>
           <h3 className="dc-u-mt-16 dc-u-mb-0">Waffles – Pre-release</h3>
           <HintSpecimen warning>
-            Waffles is currently a work in progress. For missing sections please consult the{' '}
+            Waffles is currently a work in progress. For missing sections please
+            consult the{' '}
             <a href="http://styleguide.datacamp.com">DataCamp Styleguide</a>.
           </HintSpecimen>
         </article>

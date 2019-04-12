@@ -1,15 +1,14 @@
 import React from 'react';
 import { Page } from 'catalog';
 
-import CustomHeader from '../../../components/CustomHeader';
 import { breakpoints } from '@datacamp/waffles-core/tokens.json';
 import dashify from '../../../helpers/dashify';
-import whitelist from '../../../helpers/whitelist.js';
+import whitelist from '../../../helpers/whitelist';
+import CustomHeader from '../../../components/CustomHeader';
 
 const blacklist = ['ws', '4K', '5K', 'belowWs', 'below4K', 'below5K'];
 
 export default () => {
-
   return (
     <main>
       <CustomHeader
@@ -19,7 +18,10 @@ export default () => {
       />
       <Page>
         <header>
-          <p>These classes add <code>display</code> to an element, so they can be used for building or customizing an element.</p>
+          <p>
+            These classes add <code>display</code> to an element, so they can be
+            used for building or customizing an element.
+          </p>
         </header>
 
         <table className="table">
@@ -83,7 +85,10 @@ export default () => {
 
         <header>
           <h2>Responsive Modifiers</h2>
-          <p>Display utilities can be applied to individual common breakpoints using <code>@[size]</code> appended to the end of the class.</p>
+          <p>
+            Display utilities can be applied to individual common breakpoints
+            using <code>@[size]</code> appended to the end of the class.
+          </p>
         </header>
 
         <article className="dc-u-mh-4">
@@ -96,16 +101,18 @@ export default () => {
               </tr>
             </thead>
             <tbody>
-              {Object.entries(whitelist(blacklist, breakpoints)).map(([name, value]) => (
-                <tr key={name}>
-                  <td>
-                    <code className="dc-u-ws-nowrap">{`.dc-u-d-b@${dashify(name)}`}</code>
-                  </td>
-                  <td>
-                    {value}
-                  </td>
-                </tr>
-              ))}
+              {Object.entries(whitelist(blacklist, breakpoints)).map(
+                ([name, value]) => (
+                  <tr key={name}>
+                    <td>
+                      <code className="dc-u-ws-nowrap">{`.dc-u-d-b@${dashify(
+                        name
+                      )}`}</code>
+                    </td>
+                    <td>{value}</td>
+                  </tr>
+                )
+              )}
             </tbody>
           </table>
         </article>
@@ -120,16 +127,18 @@ export default () => {
               </tr>
             </thead>
             <tbody>
-              {Object.entries(whitelist(blacklist, breakpoints)).map(([name, value]) => (
-                <tr key={name}>
-                  <td>
-                    <code className="dc-u-ws-nowrap">{`.dc-u-d-i@${dashify(name)}`}</code>
-                  </td>
-                  <td>
-                    {value}
-                  </td>
-                </tr>
-              ))}
+              {Object.entries(whitelist(blacklist, breakpoints)).map(
+                ([name, value]) => (
+                  <tr key={name}>
+                    <td>
+                      <code className="dc-u-ws-nowrap">{`.dc-u-d-i@${dashify(
+                        name
+                      )}`}</code>
+                    </td>
+                    <td>{value}</td>
+                  </tr>
+                )
+              )}
             </tbody>
           </table>
         </article>
@@ -144,16 +153,18 @@ export default () => {
               </tr>
             </thead>
             <tbody>
-              {Object.entries(whitelist(blacklist, breakpoints)).map(([name, value]) => (
-                <tr key={name}>
-                  <td>
-                    <code className="dc-u-ws-nowrap">{`.dc-u-d-ib@${dashify(name)}`}</code>
-                  </td>
-                  <td>
-                    {value}
-                  </td>
-                </tr>
-              ))}
+              {Object.entries(whitelist(blacklist, breakpoints)).map(
+                ([name, value]) => (
+                  <tr key={name}>
+                    <td>
+                      <code className="dc-u-ws-nowrap">{`.dc-u-d-ib@${dashify(
+                        name
+                      )}`}</code>
+                    </td>
+                    <td>{value}</td>
+                  </tr>
+                )
+              )}
             </tbody>
           </table>
         </article>
@@ -168,16 +179,18 @@ export default () => {
               </tr>
             </thead>
             <tbody>
-              {Object.entries(whitelist(blacklist, breakpoints)).map(([name, value]) => (
-                <tr key={name}>
-                  <td>
-                    <code className="dc-u-ws-nowrap">{`.dc-u-d-none@${dashify(name)}`}</code>
-                  </td>
-                  <td>
-                    {value}
-                  </td>
-                </tr>
-              ))}
+              {Object.entries(whitelist(blacklist, breakpoints)).map(
+                ([name, value]) => (
+                  <tr key={name}>
+                    <td>
+                      <code className="dc-u-ws-nowrap">{`.dc-u-d-none@${dashify(
+                        name
+                      )}`}</code>
+                    </td>
+                    <td>{value}</td>
+                  </tr>
+                )
+              )}
             </tbody>
           </table>
         </article>
@@ -192,16 +205,18 @@ export default () => {
               </tr>
             </thead>
             <tbody>
-              {Object.entries(whitelist(blacklist, breakpoints)).map(([name, value]) => (
-                <tr key={name}>
-                  <td>
-                    <code className="dc-u-ws-nowrap">{`.dc-u-d-tbl@${dashify(name)}`}</code>
-                  </td>
-                  <td>
-                    {value}
-                  </td>
-                </tr>
-              ))}
+              {Object.entries(whitelist(blacklist, breakpoints)).map(
+                ([name, value]) => (
+                  <tr key={name}>
+                    <td>
+                      <code className="dc-u-ws-nowrap">{`.dc-u-d-tbl@${dashify(
+                        name
+                      )}`}</code>
+                    </td>
+                    <td>{value}</td>
+                  </tr>
+                )
+              )}
             </tbody>
           </table>
         </article>
@@ -216,16 +231,18 @@ export default () => {
               </tr>
             </thead>
             <tbody>
-              {Object.entries(whitelist(blacklist, breakpoints)).map(([name, value]) => (
-                <tr key={name}>
-                  <td>
-                    <code className="dc-u-ws-nowrap">{`.dc-u-d-tbl-cell@${dashify(name)}`}</code>
-                  </td>
-                  <td>
-                    {value}
-                  </td>
-                </tr>
-              ))}
+              {Object.entries(whitelist(blacklist, breakpoints)).map(
+                ([name, value]) => (
+                  <tr key={name}>
+                    <td>
+                      <code className="dc-u-ws-nowrap">{`.dc-u-d-tbl-cell@${dashify(
+                        name
+                      )}`}</code>
+                    </td>
+                    <td>{value}</td>
+                  </tr>
+                )
+              )}
             </tbody>
           </table>
         </article>

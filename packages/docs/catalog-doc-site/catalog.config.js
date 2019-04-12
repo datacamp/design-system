@@ -6,7 +6,7 @@ const UglifyJSPlugin = require('uglifyjs-webpack-plugin');
 const modulesPath = path.resolve(__dirname);
 
 module.exports = {
-  webpack: (config, { paths, dev, framework }) => {
+  webpack: (config, { dev }) => {
     const extractSCSS = new ExtractTextPlugin({
       filename: 'static/[name].[contenthash:8].css',
       disable: dev,

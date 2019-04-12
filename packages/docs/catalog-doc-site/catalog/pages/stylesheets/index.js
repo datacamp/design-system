@@ -17,9 +17,9 @@ export default () => {
           <div className="dc-card dc-u-p-24">
             <h4>Usage</h4>
             <p>
-              The Design package contains the "core" styles that are necessary
-              to build UIs at DataCamp. Ingredients is an option that will
-              import all of the styles, including{' '}
+              The Design package contains the &quot;core&quot; styles that are
+              necessary to build UIs at DataCamp. Ingredients is an option that
+              will import all of the styles, including{' '}
               <a href="/design-utilities">Design Utilities</a>.
             </p>
 
@@ -40,7 +40,7 @@ export default () => {
                   Import all of the Design SCSS as part of your build.
                 </p>
                 <code className="dc-u-ml-0">
-                  @import "@datacamp/waffles-core/lib/scss/ingredients";
+                  {`@import "@datacamp/waffles-core/lib/scss/ingredients";`}
                 </code>
               </div>
             </article>
@@ -59,8 +59,7 @@ export default () => {
                   and an example <code>import</code> below.
                 </p>
                 <code className="dc-u-ml-0">
-                  import &#123;colors&#125; from
-                  '@datacamp/waffles-core/tokens.json';
+                  {`import { colors } from '@datacamp/waffles-core/tokens.json';`}
                 </code>
               </div>
             </article>
@@ -72,11 +71,11 @@ export default () => {
               <div className="dc-u-pl-16">
                 <h5 className="dc-u-mb-0 dc-u-mt-0">CSS from a CDN</h5>
                 <p className="dc-u-mb-8 dc-u-mt-4">
-                  Coming soon to a Waffles near you. You'll be able to{' '}
+                  Coming soon to a Waffles near you. You&apos;ll be able to{' '}
                   <code>link</code> a stylesheet without building SCSS.
                 </p>
                 <code className="dc-u-ml-0">
-                  &lt;link href="???" rel="stylesheet" /&gt;
+                  {`<link href="???" rel="stylesheet" />`}
                 </code>
               </div>
             </article>
@@ -142,8 +141,8 @@ export default () => {
                 option.
               </li>
               <li>
-                Import any components that were being imported
-                from the style guide.
+                Import any components that were being imported from the style
+                guide.
               </li>
               <li>
                 If your app uses deprecated items from Core, add a{' '}

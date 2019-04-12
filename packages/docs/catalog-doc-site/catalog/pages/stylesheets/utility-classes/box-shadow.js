@@ -4,7 +4,7 @@ import { Page } from 'catalog';
 import CustomHeader from '../../../components/CustomHeader';
 
 const docsHasBoxShadow = {
-  boxShadow: '0 1px 2px 0 rgba(0, 0, 0, 0.15)'
+  boxShadow: '0 1px 2px 0 rgba(0, 0, 0, 0.15)',
 };
 
 export default () => {
@@ -18,7 +18,10 @@ export default () => {
       <Page>
         <header>
           <h2>Additive</h2>
-          <p>These classes add <code>box-shadow</code> to an element, so they can be used for building or customizing an element.</p>
+          <p>
+            These classes add <code>box-shadow</code> to an element, so they can
+            be used for building or customizing an element.
+          </p>
         </header>
 
         <table className="table">
@@ -38,7 +41,7 @@ export default () => {
                 <code>box-shadow: $dc-box-shadow-border;</code>
               </td>
               <td>
-                <div className="dc-u-bgc-white dc-u-h-32 dc-u-w-32 dc-u-bs-border"></div>
+                <div className="dc-u-bgc-white dc-u-h-32 dc-u-w-32 dc-u-bs-border" />
               </td>
             </tr>
             <tr>
@@ -49,7 +52,7 @@ export default () => {
                 <code>box-shadow: $dc-box-shadow-sm;</code>
               </td>
               <td>
-                <div className="dc-u-bgc-white dc-u-h-32 dc-u-w-32 dc-u-bs-sm"></div>
+                <div className="dc-u-bgc-white dc-u-h-32 dc-u-w-32 dc-u-bs-sm" />
               </td>
             </tr>
             <tr>
@@ -60,7 +63,7 @@ export default () => {
                 <code>box-shadow: $dc-box-shadow-md;</code>
               </td>
               <td>
-                <div className="dc-u-bgc-white dc-u-h-32 dc-u-w-32 dc-u-bs-md"></div>
+                <div className="dc-u-bgc-white dc-u-h-32 dc-u-w-32 dc-u-bs-md" />
               </td>
             </tr>
             <tr>
@@ -71,7 +74,7 @@ export default () => {
                 <code>box-shadow: $dc-box-shadow-lg;</code>
               </td>
               <td>
-                <div className="dc-u-bgc-white dc-u-h-32 dc-u-w-32 dc-u-bs-lg"></div>
+                <div className="dc-u-bgc-white dc-u-h-32 dc-u-w-32 dc-u-bs-lg" />
               </td>
             </tr>
             <tr>
@@ -82,7 +85,7 @@ export default () => {
                 <code>box-shadow: $dc-box-shadow-xl;</code>
               </td>
               <td>
-                <div className="dc-u-bgc-white dc-u-h-32 dc-u-w-32 dc-u-bs-xl"></div>
+                <div className="dc-u-bgc-white dc-u-h-32 dc-u-w-32 dc-u-bs-xl" />
               </td>
             </tr>
           </tbody>
@@ -90,7 +93,11 @@ export default () => {
 
         <header>
           <h2>Subtractive</h2>
-          <p>These classes remove <code>box-shadow</code>, so they can be used for customizing an element that has <code>box-shadow</code> applied via CSS.</p>
+          <p>
+            These classes remove <code>box-shadow</code>, so they can be used
+            for customizing an element that has <code>box-shadow</code> applied
+            via CSS.
+          </p>
         </header>
 
         <table className="table">
@@ -110,7 +117,10 @@ export default () => {
                 <code>box-shadow: none;</code>
               </td>
               <td>
-                <div className="dc-u-bgc-white dc-u-h-32 dc-u-w-32 dc-u-bs-none" style={docsHasBoxShadow}></div>
+                <div
+                  className="dc-u-bgc-white dc-u-h-32 dc-u-w-32 dc-u-bs-none"
+                  style={docsHasBoxShadow}
+                />
               </td>
             </tr>
           </tbody>

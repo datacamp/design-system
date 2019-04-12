@@ -1,10 +1,8 @@
 import React from 'react';
-import { Page, HintSpecimen } from 'catalog';
-
-import CustomHeader from '../../../components/CustomHeader';
+import { Page } from 'catalog';
 
 import { colors } from '@datacamp/waffles-core/tokens.json';
-import { getColor, getContrastColor } from '@datacamp/waffles-core';
+import CustomHeader from '../../../components/CustomHeader';
 import dashify from '../../../helpers/dashify';
 
 export default () => {
@@ -18,7 +16,11 @@ export default () => {
       />
       <Page>
         <header>
-          <p>These classes add <code>color</code> to an element, so they can be used for building or customizing an element. They follow the format <code>.dc-u-color-[color-name]</code>.</p>
+          <p>
+            These classes add <code>color</code> to an element, so they can be
+            used for building or customizing an element. They follow the format{' '}
+            <code>.dc-u-color-[color-name]</code>.
+          </p>
         </header>
 
         <section className="dc-u-bgc-white dc-u-mt-24 dc-u-p-8">
@@ -34,14 +36,16 @@ export default () => {
               {obj.map(name => (
                 <tr key={name}>
                   <td>
-                    <code className="dc-u-ws-nowrap">.dc-u-color-{dashify(name)}</code>
+                    <code className="dc-u-ws-nowrap">
+                      .dc-u-color-{dashify(name)}
+                    </code>
                   </td>
                   <td>
                     <code>color: $dc-{dashify(name)};</code>
                   </td>
-                  <td className={"dc-u-color-" + dashify(name)}>
+                  <td className={`dc-u-color-${dashify(name)}`}>
                     {dashify(name)}
-                </td>
+                  </td>
                 </tr>
               ))}
             </tbody>

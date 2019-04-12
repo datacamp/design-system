@@ -3,7 +3,21 @@
   "plugins": ["prettier"],
   "rules": {
     "prettier/prettier": "error",
-    "react/jsx-filename-extension": "off"
+    "react/jsx-filename-extension": "off",
+    "import/no-extraneous-dependencies": [
+      "error",
+      {
+        "devDependencies": [
+          "packages/**/src/*.spec.js",
+          "src/**/__mocks__/**",
+          "test/helpers",
+          ".storybook/**.js",
+          "**/*.stories.js",
+          "**/catalog.config.js",
+          "**/webpack.config.js"
+        ]
+      }
+    ]
   },
   "globals": {},
   "env": {
@@ -21,15 +35,6 @@
       ],
       "env": {
         "jest": true
-      },
-      "rules": {
-        "import/no-extraneous-dependencies": "off"
-      }
-    },
-    {
-      "files": [".storybook/**.js", "**/*.stories.js"],
-      "rules": {
-        "import/no-extraneous-dependencies": "off"
       }
     }
   ]

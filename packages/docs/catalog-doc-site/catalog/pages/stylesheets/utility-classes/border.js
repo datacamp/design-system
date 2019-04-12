@@ -2,7 +2,7 @@ import React from 'react';
 import { Page, HintSpecimen } from 'catalog';
 
 import { colors } from '@datacamp/waffles-core/tokens.json';
-import { getColor, getContrastColor } from '@datacamp/waffles-core';
+import { getColor } from '@datacamp/waffles-core';
 import CustomHeader from '../../../components/CustomHeader';
 import dashify from '../../../helpers/dashify';
 

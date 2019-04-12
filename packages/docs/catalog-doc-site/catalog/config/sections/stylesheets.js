@@ -1,4 +1,5 @@
 import { pageLoader } from 'catalog';
+import Tag from '@datacamp/waffles-tag';
 
 const utilityClassPages = [
   {
@@ -13,7 +14,9 @@ const utilityClassPages = [
     path: '/stylesheets/utility-classes/border',
     title: 'Border',
     hideFromMenu: true,
-    content: pageLoader(() => import('../../pages/stylesheets/utility-classes/border.js')),
+    content: pageLoader(() =>
+      import('../../pages/stylesheets/utility-classes/border.js')
+    ),
   },
   {
     path: '/stylesheets/utility-classes/border-radius',
@@ -35,19 +38,25 @@ const utilityClassPages = [
     path: '/stylesheets/utility-classes/color',
     title: 'Color',
     hideFromMenu: true,
-    content: pageLoader(() => import('../../pages/stylesheets/utility-classes/color.js')),
+    content: pageLoader(() =>
+      import('../../pages/stylesheets/utility-classes/color.js')
+    ),
   },
   {
     path: '/stylesheets/utility-classes/cursor',
     title: 'Cursor',
     hideFromMenu: true,
-    content: pageLoader(() => import('../../pages/stylesheets/utility-classes/cursor.js')),
+    content: pageLoader(() =>
+      import('../../pages/stylesheets/utility-classes/cursor.js')
+    ),
   },
   {
     path: '/stylesheets/utility-classes/display',
     title: 'Display',
     hideFromMenu: true,
-    content: pageLoader(() => import('../../pages/stylesheets/utility-classes/display.js')),
+    content: pageLoader(() =>
+      import('../../pages/stylesheets/utility-classes/display.js')
+    ),
   },
   {
     path: '/stylesheets/utility-classes/flexbox-containers',
@@ -69,13 +78,17 @@ const utilityClassPages = [
     path: '/stylesheets/utility-classes/font',
     title: 'Font',
     hideFromMenu: true,
-    content: pageLoader(() => import('../../pages/stylesheets/utility-classes/font.js')),
+    content: pageLoader(() =>
+      import('../../pages/stylesheets/utility-classes/font.js')
+    ),
   },
   {
     path: '/stylesheets/utility-classes/height',
     title: 'Height',
     hideFromMenu: true,
-    content: pageLoader(() => import('../../pages/stylesheets/utility-classes/height.js')),
+    content: pageLoader(() =>
+      import('../../pages/stylesheets/utility-classes/height.js')
+    ),
   },
   {
     path: '/stylesheets/utility-classes/letter-spacing',
@@ -97,13 +110,17 @@ const utilityClassPages = [
     path: '/stylesheets/utility-classes/list',
     title: 'List',
     hideFromMenu: true,
-    content: pageLoader(() => import('../../pages/stylesheets/utility-classes/list.js')),
+    content: pageLoader(() =>
+      import('../../pages/stylesheets/utility-classes/list.js')
+    ),
   },
   {
     path: '/stylesheets/utility-classes/margin',
     title: 'Margin',
     hideFromMenu: true,
-    content: pageLoader(() => import('../../pages/stylesheets/utility-classes/margin.js')),
+    content: pageLoader(() =>
+      import('../../pages/stylesheets/utility-classes/margin.js')
+    ),
   },
   {
     path: '/stylesheets/utility-classes/max-height',
@@ -141,7 +158,9 @@ const utilityClassPages = [
     path: '/stylesheets/utility-classes/opacity',
     title: 'Opacity',
     hideFromMenu: true,
-    content: pageLoader(() => import('../../pages/stylesheets/utility-classes/opacity.js')),
+    content: pageLoader(() =>
+      import('../../pages/stylesheets/utility-classes/opacity.js')
+    ),
   },
   {
     path: '/stylesheets/utility-classes/overflow',
@@ -158,7 +177,7 @@ const utilityClassPages = [
     content: pageLoader(() =>
       import('../../pages/stylesheets/utility-classes/word-break.js')
     ),
-  }
+  },
 ];
 
 const pages = [
@@ -170,7 +189,9 @@ const pages = [
   {
     path: '/stylesheets/utility-classes',
     title: 'Utility Classes',
-    content: pageLoader(() => import('../../pages/stylesheets/utility-classes.js')),
+    content: pageLoader(() =>
+      import('../../pages/stylesheets/utility-classes.js')
+    ),
   },
   {
     path: '/stylesheets/button',
@@ -197,7 +218,9 @@ const pages = [
   {
     path: '/stylesheets/flash-banner',
     title: 'Flash Banner',
-    content: pageLoader(() => import('../../pages/stylesheets/flash-banner.md')),
+    content: pageLoader(() =>
+      import('../../pages/stylesheets/flash-banner.md')
+    ),
   },
   {
     path: '/stylesheets/icon',
@@ -217,7 +240,9 @@ const pages = [
   {
     path: '/stylesheets/progress-bar',
     title: 'Progress Bar',
-    content: pageLoader(() => import('../../pages/stylesheets/progress-bar.md')),
+    content: pageLoader(() =>
+      import('../../pages/stylesheets/progress-bar.md')
+    ),
   },
   {
     path: '/stylesheets/tabbed-nav',
@@ -238,7 +263,7 @@ const pages = [
     path: '/stylesheets/tag',
     title: 'Tag',
     content: pageLoader(() => import('../../pages/stylesheets/tag.md')),
-    imports: { Tag: require('@datacamp/waffles-tag') },
+    imports: { Tag },
   },
 ];
 
@@ -246,5 +271,5 @@ const combinedPages = pages.concat(utilityClassPages);
 
 export default {
   title: 'Stylesheets',
-  pages: combinedPages
+  pages: combinedPages,
 };

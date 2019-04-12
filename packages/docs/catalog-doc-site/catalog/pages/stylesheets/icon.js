@@ -254,9 +254,9 @@ export default () => {
             <header className="dc-u-mt-24">
               <h2>Active State</h2>
               <p>
-                Icon color can be changed based on an active "state" by adding a
-                an active modifier class and toggling an <code>is-active</code>{' '}
-                class.
+                Icon color can be changed based on an active &quot;state&quot;
+                by adding a an active modifier class and toggling an{' '}
+                <code>is-active</code> class.
               </p>
             </header>
 
@@ -384,7 +384,11 @@ export default () => {
               use the Waffles package. For other purposes, you can download it
               below.
             </p>
-            <button className="dc-btn dc-btn--sm dc-btn--secondary" disabled>
+            <button
+              type="button"
+              className="dc-btn dc-btn--sm dc-btn--secondary"
+              disabled
+            >
               <span className="dc-icon dc-icon--size-18 dc-icon--grey-dark dc-icon--flex dc-u-mr-8">
                 <svg className="dc-icon__svg">
                   <use xlinkHref="#download" />
