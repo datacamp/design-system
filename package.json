@@ -33,7 +33,8 @@
     "lint": "eslint --ignore-path .gitignore .",
     "lint:fix": "yarn lint --fix",
     "test": "lerna run test",
-    "build": "lerna run build"
+    "build": "lerna run build",
+    "publish:ci": "lerna publish from-git"
   },
   "dependencies": {},
   "devDependencies": {
