@@ -15,8 +15,8 @@ const Additive = [
   { class: 'ofy-auto', value: 'overflow-y: auto' },
   { class: 'ofy-hidden', value: 'overflow-y: hidden' },
   { class: 'ofy-scroll', value: 'overflow-y: scroll' },
-  { class: 'ofy-visible', value: 'overflow-y: visible' }
-]
+  { class: 'ofy-visible', value: 'overflow-y: visible' },
+];
 
 export default () => {
   return (
@@ -29,7 +29,10 @@ export default () => {
       <Page>
         <header>
           <h2>Additive</h2>
-          <p>These classes add <code>list-style</code> properties to an element, so they can be used for building or customizing an element.</p>
+          <p>
+            These classes add <code>list-style</code> properties to an element,
+            so they can be used for building or customizing an element.
+          </p>
         </header>
 
         <table className="table">
@@ -40,16 +43,16 @@ export default () => {
             </tr>
           </thead>
           <tbody>
-            {Additive.map(a =>
+            {Additive.map(a => (
               <tr key={a.class}>
                 <td>
-                  <code className="dc-u-ws-nowrap">{`.dc-u-${(a.class)}`}</code>
+                  <code className="dc-u-ws-nowrap">{`.dc-u-${a.class}`}</code>
                 </td>
                 <td>
                   <code>{a.value};</code>
                 </td>
               </tr>
-            )}
+            ))}
           </tbody>
         </table>
       </Page>

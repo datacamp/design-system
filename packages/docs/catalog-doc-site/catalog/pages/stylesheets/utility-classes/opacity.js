@@ -16,7 +16,10 @@ export default () => {
       <Page>
         <header>
           <h2>Additive</h2>
-          <p>These classes add <code>opacity</code> properties to an element, so they can be used for building or customizing an element.</p>
+          <p>
+            These classes add <code>opacity</code> properties to an element, so
+            they can be used for building or customizing an element.
+          </p>
         </header>
 
         <table className="table">
@@ -27,7 +30,7 @@ export default () => {
             </tr>
           </thead>
           <tbody>
-            {opacities.map(value =>
+            {opacities.map(value => (
               <tr key={value}>
                 <td>
                   <code className="dc-u-ws-nowrap">{`.dc-u-op-${value}`}</code>
@@ -36,7 +39,7 @@ export default () => {
                   <code>opacity: {value};</code>
                 </td>
               </tr>
-            )}
+            ))}
           </tbody>
         </table>
       </Page>

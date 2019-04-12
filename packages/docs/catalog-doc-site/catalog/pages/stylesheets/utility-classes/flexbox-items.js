@@ -3,16 +3,46 @@ import { Page } from 'catalog';
 
 import CustomHeader from '../../../components/CustomHeader';
 
-import { breakpoints } from '@datacamp/waffles-core/tokens.json';
-import dashify from '../../../helpers/dashify';
-import whitelist from '../../../helpers/whitelist.js';
-
-const blacklist = ['ws', '4K', '5K', 'belowWs', 'below4K', 'below5K'];
-const widths = ['2', '4', '8', '12', '16', '24', '32', '48', '64', '80', '96', '128', '192', '256', '320', '480', '640', '800', '960']
-const percentages = ['1', '5', '10', '15', '20', '25', '30', '40', '50', '60', '70', '75', '80', '90', '100']
+const widths = [
+  '2',
+  '4',
+  '8',
+  '12',
+  '16',
+  '24',
+  '32',
+  '48',
+  '64',
+  '80',
+  '96',
+  '128',
+  '192',
+  '256',
+  '320',
+  '480',
+  '640',
+  '800',
+  '960',
+];
+const percentages = [
+  '1',
+  '5',
+  '10',
+  '15',
+  '20',
+  '25',
+  '30',
+  '40',
+  '50',
+  '60',
+  '70',
+  '75',
+  '80',
+  '90',
+  '100',
+];
 
 export default () => {
-
   return (
     <main>
       <CustomHeader
@@ -21,13 +51,16 @@ export default () => {
         description="Customize flex items."
       />
       <Page>
-
         <header className="dc-u-w-100pc">
           <h2>Grow</h2>
           <p>
-            These classes add <code>flex-grow</code> to an element, so they can be used for building or customizing an element.</p>
+            These classes add <code>flex-grow</code> to an element, so they can
+            be used for building or customizing an element.
+          </p>
           <p>
-            While <code>flex-grow</code> is technically a ratio, we used it primarily like a binary, with <code>0</code> being <code>false</code> and <code>1</code> being <code>true</code>.
+            While <code>flex-grow</code> is technically a ratio, we used it
+            primarily like a binary, with <code>0</code> being{' '}
+            <code>false</code> and <code>1</code> being <code>true</code>.
           </p>
         </header>
 
@@ -60,7 +93,10 @@ export default () => {
 
         <header className="dc-u-w-100pc">
           <h2>Shrink</h2>
-          <p>These classes add <code>flex-shrink</code> to an element, so they can be used for building or customizing an element.</p>
+          <p>
+            These classes add <code>flex-shrink</code> to an element, so they
+            can be used for building or customizing an element.
+          </p>
         </header>
 
         <table className="table dc-u-w-auto">
@@ -93,11 +129,13 @@ export default () => {
         <header className="dc-u-w-100pc">
           <h2>Order</h2>
           <p>
-            These classes add <code>flex-wrap</code> to an element, so they can be used for building or customizing an element.
+            These classes add <code>flex-wrap</code> to an element, so they can
+            be used for building or customizing an element.
           </p>
 
           <p>
-            Utility classes can be used for basic reordering, but custom CSS is necessary for complex changes.
+            Utility classes can be used for basic reordering, but custom CSS is
+            necessary for complex changes.
           </p>
         </header>
 
@@ -131,7 +169,8 @@ export default () => {
         <header className="dc-u-w-100pc">
           <h2>Align Self</h2>
           <p>
-            These classes add <code>align-self</code> to an element, so they can be used for building or customizing an element.
+            These classes add <code>align-self</code> to an element, so they can
+            be used for building or customizing an element.
           </p>
         </header>
 
@@ -189,11 +228,14 @@ export default () => {
         <header className="dc-u-w-100pc">
           <h2>Basis</h2>
           <p>
-            These classes add <code>align-self</code> to an element, so they can be used for building or customizing an element.
+            These classes add <code>align-self</code> to an element, so they can
+            be used for building or customizing an element.
           </p>
 
           <p>
-            Flex Basis utilites can be used with pixels using the format <code>dc-u-fxi-fb-[size]</code> or percentages using the format <code>dc-u-fxi-fb-[percentage]pc</code>.
+            Flex Basis utilites can be used with pixels using the format{' '}
+            <code>dc-u-fxi-fb-[size]</code> or percentages using the format{' '}
+            <code>dc-u-fxi-fb-[percentage]pc</code>.
           </p>
         </header>
 
@@ -213,7 +255,7 @@ export default () => {
                 <code>flex-basis: auto;</code>
               </td>
             </tr>
-            {widths.map((value) => (
+            {widths.map(value => (
               <tr key={value}>
                 <td>
                   <code className="dc-u-ws-nowrap">{`.dc-u-fxi-fb-${value}`}</code>
@@ -223,7 +265,7 @@ export default () => {
                 </td>
               </tr>
             ))}
-            {percentages.map((value) => (
+            {percentages.map(value => (
               <tr key={value}>
                 <td>
                   <code className="dc-u-ws-nowrap">{`.dc-u-fxi-fb-${value}pc`}</code>
@@ -239,11 +281,14 @@ export default () => {
         <header className="dc-u-w-100pc">
           <h2>Item</h2>
           <p>
-            These classes add <code>align-self</code> to an element, so they can be used for building or customizing an element.
+            These classes add <code>align-self</code> to an element, so they can
+            be used for building or customizing an element.
           </p>
 
           <p>
-            Flex Basis utilites can be used with pixels using the format <code>dc-u-fxi-fb-[size]</code> or percentages using the format <code>dc-u-fxi-fb-[percentage]pc</code>.
+            Flex Basis utilites can be used with pixels using the format{' '}
+            <code>dc-u-fxi-fb-[size]</code> or percentages using the format{' '}
+            <code>dc-u-fxi-fb-[percentage]pc</code>.
           </p>
         </header>
 
@@ -289,7 +334,6 @@ export default () => {
             </tr>
           </tbody>
         </table>
-
       </Page>
     </main>
   );

@@ -1,10 +1,10 @@
 import React from 'react';
 import { Page, HintSpecimen } from 'catalog';
 
-import CustomHeader from '../../../components/CustomHeader';
 import { spatial } from '@datacamp/waffles-core/tokens.json';
+import CustomHeader from '../../../components/CustomHeader';
 
-const sizes = Array.from((spatial.sizes.split(' ')));
+const sizes = Array.from(spatial.sizes.split(' '));
 const ratios = ['25', '50', '75', '100'];
 
 export default () => {
@@ -18,14 +18,18 @@ export default () => {
       <Page>
         <header>
           <h2>Additive</h2>
-          <p>These classes add <code>height</code> properties to an element, so they can be used for building or customizing an element.</p>
+          <p>
+            These classes add <code>height</code> properties to an element, so
+            they can be used for building or customizing an element.
+          </p>
         </header>
 
         <h4 className="dc-u-mb-0 dc-u-minw-100pc">Pixel</h4>
 
         <HintSpecimen>
-          Height utilites can be used with pixels using the format <code>.dc-u-h-[size]</code>, where <code>size</code> is one of the following:
-
+          Height utilites can be used with pixels using the format{' '}
+          <code>.dc-u-h-[size]</code>, where <code>size</code> is one of the
+          following:
           <code>{sizes.join(', ')}</code>
         </HintSpecimen>
 
@@ -38,16 +42,16 @@ export default () => {
             </tr>
           </thead>
           <tbody>
-            {sizes.map((value) => (
+            {sizes.map(value => (
               <tr key={value}>
                 <td>
-                  <code className="dc-u-ws-nowrap">{`.dc-u-h-${(value)}`}</code>
+                  <code className="dc-u-ws-nowrap">{`.dc-u-h-${value}`}</code>
                 </td>
                 <td>
                   <code>height: {value}px;</code>
                 </td>
                 <td>
-                  <div className={`dc-u-bgc-grey-light dc-u-h-${(value)}`}></div>
+                  <div className={`dc-u-bgc-grey-light dc-u-h-${value}`} />
                 </td>
               </tr>
             ))}
@@ -63,10 +67,10 @@ export default () => {
             </tr>
           </thead>
           <tbody>
-            {ratios.map((value) => (
+            {ratios.map(value => (
               <tr key={value}>
                 <td>
-                  <code className="dc-u-ws-nowrap">{`.dc-u-h-${(value)}pc`}</code>
+                  <code className="dc-u-ws-nowrap">{`.dc-u-h-${value}pc`}</code>
                 </td>
                 <td>
                   <code>height: {value}px;</code>
@@ -86,16 +90,16 @@ export default () => {
             </tr>
           </thead>
           <tbody>
-            {ratios.map((value) => (
+            {ratios.map(value => (
               <tr key={value}>
                 <td>
-                  <code className="dc-u-ws-nowrap">{`.dc-u-h-${(value)}vh`}</code>
+                  <code className="dc-u-ws-nowrap">{`.dc-u-h-${value}vh`}</code>
                 </td>
                 <td>
                   <code>height: {value}px;</code>
                 </td>
                 <td>
-                  <div className={`dc-u-bgc-grey-light dc-u-h-${(value)}vh`}></div>
+                  <div className={`dc-u-bgc-grey-light dc-u-h-${value}vh`} />
                 </td>
               </tr>
             ))}

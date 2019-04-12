@@ -1,6 +1,7 @@
 const whitelist = (blacklist, obj) => {
-  blacklist.forEach(item => delete obj[item]);
-  return obj;
-}
+  const newObj = obj;
+  blacklist.forEach(item => delete newObj[item]);
+  return newObj;
+};
 
 export default whitelist;

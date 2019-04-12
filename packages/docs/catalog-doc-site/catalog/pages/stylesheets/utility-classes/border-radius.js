@@ -4,7 +4,7 @@ import { Page } from 'catalog';
 import CustomHeader from '../../../components/CustomHeader';
 
 const docsHasBorderRadius = {
-  borderRadius: '4px'
+  borderRadius: '4px',
 };
 
 export default () => {
@@ -18,7 +18,10 @@ export default () => {
       <Page>
         <header>
           <h2>Additive</h2>
-          <p>These classes add <code>border-radius</code> to an element, so they can be used for building or customizing an element.</p>
+          <p>
+            These classes add <code>border-radius</code> to an element, so they
+            can be used for building or customizing an element.
+          </p>
         </header>
 
         <table className="table">
@@ -38,7 +41,7 @@ export default () => {
                 <code>border-radius: 4px;</code>
               </td>
               <td>
-                <div className="dc-u-bgc-primary-dark dc-u-h-32 dc-u-w-32 dc-u-brad-all"></div>
+                <div className="dc-u-bgc-primary-dark dc-u-h-32 dc-u-w-32 dc-u-brad-all" />
               </td>
             </tr>
             <tr>
@@ -49,7 +52,7 @@ export default () => {
                 <code>border-bottom-left-radius: 4px;</code>
               </td>
               <td>
-                <div className="dc-u-bgc-primary-dark dc-u-h-32 dc-u-w-32 dc-u-brad-bl"></div>
+                <div className="dc-u-bgc-primary-dark dc-u-h-32 dc-u-w-32 dc-u-brad-bl" />
               </td>
             </tr>
             <tr>
@@ -60,7 +63,7 @@ export default () => {
                 <code>border-bottom-right-radius: 4px;</code>
               </td>
               <td>
-                <div className="dc-u-bgc-primary-dark dc-u-h-32 dc-u-w-32 dc-u-brad-br"></div>
+                <div className="dc-u-bgc-primary-dark dc-u-h-32 dc-u-w-32 dc-u-brad-br" />
               </td>
             </tr>
             <tr>
@@ -71,7 +74,7 @@ export default () => {
                 <code>border-top-left-radius: 4px;</code>
               </td>
               <td>
-                <div className="dc-u-bgc-primary-dark dc-u-h-32 dc-u-w-32 dc-u-brad-tl"></div>
+                <div className="dc-u-bgc-primary-dark dc-u-h-32 dc-u-w-32 dc-u-brad-tl" />
               </td>
             </tr>
             <tr>
@@ -82,7 +85,7 @@ export default () => {
                 <code>border-top-right-radius: 4px;</code>
               </td>
               <td>
-                <div className="dc-u-bgc-primary-dark dc-u-h-32 dc-u-w-32 dc-u-brad-tr"></div>
+                <div className="dc-u-bgc-primary-dark dc-u-h-32 dc-u-w-32 dc-u-brad-tr" />
               </td>
             </tr>
             <tr>
@@ -91,12 +94,12 @@ export default () => {
               </td>
               <td>
                 <code>
-                border-bottom-left-radius: 4px;
-                border-bottom-right-radius: 4px;
+                  border-bottom-left-radius: 4px; border-bottom-right-radius:
+                  4px;
                 </code>
               </td>
               <td>
-                <div className="dc-u-bgc-primary-dark dc-u-h-32 dc-u-w-32 dc-u-brad-b"></div>
+                <div className="dc-u-bgc-primary-dark dc-u-h-32 dc-u-w-32 dc-u-brad-b" />
               </td>
             </tr>
             <tr>
@@ -105,12 +108,11 @@ export default () => {
               </td>
               <td>
                 <code>
-                  border-top-left-radius: 4px;
-                  border-top-right-radius: 4px;
+                  border-top-left-radius: 4px; border-top-right-radius: 4px;
                 </code>
               </td>
               <td>
-                <div className="dc-u-bgc-primary-dark dc-u-h-32 dc-u-w-32 dc-u-brad-t"></div>
+                <div className="dc-u-bgc-primary-dark dc-u-h-32 dc-u-w-32 dc-u-brad-t" />
               </td>
             </tr>
             <tr>
@@ -121,7 +123,7 @@ export default () => {
                 <code>border-radius: 50%;</code>
               </td>
               <td>
-                <div className="dc-u-bgc-primary-dark dc-u-h-32 dc-u-w-32 dc-u-brad-circle"></div>
+                <div className="dc-u-bgc-primary-dark dc-u-h-32 dc-u-w-32 dc-u-brad-circle" />
               </td>
             </tr>
           </tbody>
@@ -129,7 +131,11 @@ export default () => {
 
         <header>
           <h2>Subtractive</h2>
-          <p>These classes remove <code>border-radius</code>, so they can be used for customizing an element that has <code>border-radius</code> applied via CSS.</p>
+          <p>
+            These classes remove <code>border-radius</code>, so they can be used
+            for customizing an element that has <code>border-radius</code>{' '}
+            applied via CSS.
+          </p>
         </header>
 
         <table className="table">
@@ -149,7 +155,10 @@ export default () => {
                 <code>border-radius: 0;</code>
               </td>
               <td>
-                <div className="dc-u-bgc-primary-dark dc-u-h-32 dc-u-w-32 dc-u-brad-none" style={docsHasBorderRadius}></div>
+                <div
+                  className="dc-u-bgc-primary-dark dc-u-h-32 dc-u-w-32 dc-u-brad-none"
+                  style={docsHasBorderRadius}
+                />
               </td>
             </tr>
             <tr>
@@ -160,7 +169,10 @@ export default () => {
                 <code>border-bottom-left-radius: 0;</code>
               </td>
               <td>
-                <div className="dc-u-bgc-primary-dark dc-u-h-32 dc-u-w-32 dc-u-brad-bl-0" style={docsHasBorderRadius}></div>
+                <div
+                  className="dc-u-bgc-primary-dark dc-u-h-32 dc-u-w-32 dc-u-brad-bl-0"
+                  style={docsHasBorderRadius}
+                />
               </td>
             </tr>
             <tr>
@@ -171,7 +183,10 @@ export default () => {
                 <code>border-bottom-right-radius: 0;</code>
               </td>
               <td>
-                <div className="dc-u-bgc-primary-dark dc-u-h-32 dc-u-w-32 dc-u-brad-br-0" style={docsHasBorderRadius}></div>
+                <div
+                  className="dc-u-bgc-primary-dark dc-u-h-32 dc-u-w-32 dc-u-brad-br-0"
+                  style={docsHasBorderRadius}
+                />
               </td>
             </tr>
             <tr>
@@ -182,7 +197,10 @@ export default () => {
                 <code>border-top-left-radius: 0;</code>
               </td>
               <td>
-                <div className="dc-u-bgc-primary-dark dc-u-h-32 dc-u-w-32 dc-u-brad-tl-0" style={docsHasBorderRadius}></div>
+                <div
+                  className="dc-u-bgc-primary-dark dc-u-h-32 dc-u-w-32 dc-u-brad-tl-0"
+                  style={docsHasBorderRadius}
+                />
               </td>
             </tr>
             <tr>
@@ -193,7 +211,10 @@ export default () => {
                 <code>border-top-right-radius: 0;</code>
               </td>
               <td>
-                <div className="dc-u-bgc-primary-dark dc-u-h-32 dc-u-w-32 dc-u-brad-tr-0" style={docsHasBorderRadius}></div>
+                <div
+                  className="dc-u-bgc-primary-dark dc-u-h-32 dc-u-w-32 dc-u-brad-tr-0"
+                  style={docsHasBorderRadius}
+                />
               </td>
             </tr>
             <tr>
@@ -201,11 +222,15 @@ export default () => {
                 <code className="dc-u-ws-nowrap">.dc-u-brad-b-0</code>
               </td>
               <td>
-                <code className="dc-u-ws-pre">border-bottom-left-radius: 0;
-      border-bottom-right-radius: 0;</code>
+                <code className="dc-u-ws-pre">
+                  border-bottom-left-radius: 0; border-bottom-right-radius: 0;
+                </code>
               </td>
               <td>
-                <div className="dc-u-bgc-primary-dark dc-u-h-32 dc-u-w-32 dc-u-brad-b-0" style={docsHasBorderRadius}></div>
+                <div
+                  className="dc-u-bgc-primary-dark dc-u-h-32 dc-u-w-32 dc-u-brad-b-0"
+                  style={docsHasBorderRadius}
+                />
               </td>
             </tr>
             <tr>
@@ -213,11 +238,15 @@ export default () => {
                 <code className="dc-u-ws-nowrap">.dc-u-brad-t-0</code>
               </td>
               <td>
-                <code className="dc-u-ws-pre">border-top-left-radius: 0;
-      border-top-right-radius: 0;</code>
+                <code className="dc-u-ws-pre">
+                  border-top-left-radius: 0; border-top-right-radius: 0;
+                </code>
               </td>
               <td>
-                <div className="dc-u-bgc-primary-dark dc-u-h-32 dc-u-w-32 dc-u-brad-t-0" style={docsHasBorderRadius}></div>
+                <div
+                  className="dc-u-bgc-primary-dark dc-u-h-32 dc-u-w-32 dc-u-brad-t-0"
+                  style={docsHasBorderRadius}
+                />
               </td>
             </tr>
           </tbody>

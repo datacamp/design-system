@@ -31,6 +31,7 @@
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
     "css-loader": "^2.1.1",
+    "enzyme": "^3.9.0",
     "jest-styled-components": "6.3.1",
     "node-sass": "^4.11.0",
     "node-sass-json-importer": "4.0.1",
@@ -45,6 +46,8 @@
   },
   "dependencies": {
     "@datacamp/waffles-core": "^0.1.18-alpha.0",
+    "classnames": "^2.2.6",
+    "prop-types": "^15.7.2",
     "styled-components": "4.1.2"
   },
   "peerDependencies": {
