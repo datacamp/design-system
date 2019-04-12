@@ -73,6 +73,9 @@ jobs:
       - attach_workspace:
           at: "."
       - run:
+          name: Authenticate with registry
+          command: cp ci/.npmrc .npmrc
+      - run:
           name: Lerna Publish
           command: yarn publish:ci
 workflows:
