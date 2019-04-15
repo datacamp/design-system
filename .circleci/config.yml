@@ -75,30 +75,6 @@ jobs:
             export AWS_ACCESS_KEY_ID=$PROD_AWS_ACCESS_KEY_ID
             export AWS_SECRET_ACCESS_KEY=$PROD_AWS_SECRET_ACCESS_KEY
             aws cloudfront create-invalidation --distribution-id ${CLOUDFRONT_ID} --paths "/index.html"
-  publish-packages:
-    docker:
-      - image: ${STAGING_ECR_URL}/node-test
-        aws_auth:
-          aws_access_key_id: $STAGING_AWS_ACCESS_KEY_ID
-          aws_secret_access_key: $STAGING_AWS_SECRET_ACCESS_KEY
-    steps:
-      - attach_workspace:
-          at: "."
-      - run:
-          name: Authenticate with registry
-          command: cp ci/.npmrc .npmrc
-      - run:
-          name: Install yarn
-          command: npm install -g yarn@1.15.2
-      - run:
-          name: Configure
-          command: |
-            yarn config set //registry.npmjs.org/:_authToken ${NPM_TOKEN}
-            yarn config set scope datacamp
-            yarn config set @datacamp:registry https://registry.npmjs.org/
-      - run:
-          name: Lerna Publish
-          command: yarn publish:ci
 workflows:
   version: 2
   build_and_deploy:
@@ -124,14 +100,6 @@ workflows:
       - invalidate-prod:
           requires:
             - deploy-doc-site
-          context: org-global
-          filters:
-            branches:
-              only:
-                - master
-      - publish-packages:
-          requires:
-            - build-and-test
           context: org-global
           filters:
             branches:

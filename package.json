@@ -34,8 +34,7 @@
     "lint:fix": "yarn lint --fix",
     "test": "lerna run test",
     "build": "lerna run build",
-    "publish:ci": "lerna publish from-git --yes",
-    "release": "lerna version"
+    "publish-packages": "lerna publish"
   },
   "dependencies": {},
   "devDependencies": {
