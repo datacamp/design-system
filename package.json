@@ -34,7 +34,7 @@
     "lint:fix": "yarn lint --fix",
     "test": "lerna run test",
     "build": "lerna run build",
-    "publish-packages": "lerna publish",
+    "publish-packages": "lerna publish --conventional-commits",
     "commitlint:ci": "commitlint --config commitlint.config.js --from \"origin/master\""
   },
   "dependencies": {},
