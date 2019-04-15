@@ -4,11 +4,8 @@
   "ignoreChanges": ["*.md", "*.stories.js", "*.spec.*"],
   "npmClient": "yarn",
   "command": {
-    "version": {
-      "allowBranch": "master"
-    },
     "publish": {
-      "npmClient": "npm"
+      "allowBranch": "master"
     }
   }
 }
