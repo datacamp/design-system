@@ -1,24 +1,18 @@
 import React from 'react';
-import { shallow, mount } from 'enzyme';
-import 'jest-styled-components';
-
+import { mount } from 'enzyme';
 import { getColor, getContrastColor } from '@datacamp/waffles-core';
-
+import { matchers } from 'jest-emotion';
 import Tag from '.';
 
+expect.extend(matchers);
+
 describe('<Tag />', () => {
-  it('instantiates correctly the component', () => {
-    const tag = shallow(<Tag>50XP</Tag>);
+  it('creates a default tag', () => {
+    const tag = mount(<Tag>50XP</Tag>);
     expect(tag).toMatchSnapshot();
   });
 
-  it('creates a default Tag', () => {
-    const wrapper = shallow(<Tag>50XP</Tag>);
-
-    expect(wrapper.prop('className')).toEqual('dc-tag');
-  });
-
-  it('creates a Tag with a red background and white text color', () => {
+  it('sets the background color and infers text color', () => {
     const wrapper = mount(<Tag color="red">50XP</Tag>);
     const backgroundColor = getColor('red');
     const textColor = getContrastColor('red');
@@ -27,28 +21,27 @@ describe('<Tag />', () => {
     expect(wrapper).toHaveStyleRule('color', textColor);
   });
 
-  // it('creates a Tag with a text color of grey-dark', () => {
-  //   const wrapper = shallow(<Tag extraClass="dc-u-color-grey-dark">50XP</Tag>);
+  it('sets the text color based on the property when provided', () => {
+    const wrapper = mount(<Tag textColor="red">50XP</Tag>);
 
-  //   expect(wrapper.hasClass('dc-u-color-grey-dark')).toBe(true);
-  // });
+    expect(wrapper).toHaveStyleRule('color', getColor('red'));
+  });
 
-  // it('creates a Tag with a default rounded border-radius', () => {
-  //   const wrapper = shallow(<Tag rounded>50XP</Tag>);
+  it('has a default border radius', () => {
+    const wrapper = mount(<Tag>50XP</Tag>);
 
-  //   expect(wrapper.hasClass('dc-u-brad-all')).toBe(true);
-  // });
+    expect(wrapper).toHaveStyleRule('border-radius', '12px');
+  });
 
-  // it('creates a Tag with a extraClass of dc-u-fx', () => {
-  //   const wrapper = shallow(<Tag extraClass="dc-u-fx">50XP</Tag>);
+  it('sets the border radius when rounded=true', () => {
+    const wrapper = mount(<Tag rounded>50XP</Tag>);
 
-  //   expect(wrapper.hasClass('dc-u-fx')).toBe(true);
-  // });
+    expect(wrapper).toHaveStyleRule('border-radius', '4px');
+  });
 
-  // it('creates a Tag with the content of 50XP', () => {
-  //   const content = '50XP';
-  //   const wrapper = shallow(<Tag>{content}</Tag>);
+  it('Adds the extraClass to the className', () => {
+    const wrapper = mount(<Tag extraClass="test-class">50XP</Tag>);
 
-  //   expect(wrapper.text()).toContain(content);
-  // });
+    expect(wrapper.find('div').hasClass('test-class')).toBe(true);
+  });
 });
