@@ -13,7 +13,7 @@ Waffles uses Yarn and Lerna to manage dependencies. Follow the following steps t
 - Execute `yarn install` in the root directory
 - Execute `yarn bootstrap` to install and link all subdependencies
 
-To propogate changes to dependants it may be necessary to run `yarn bootstrap` again to rebuild and link.
+In order to view and work with components locally, check out the [storybook package](https://github.com/datacamp-engineering/design-system/tree/master/packages/docs/storybook).
 
 ## Repository Structure
 This repository is a mono-repo powered by lerna. All the source code can be found in the `/packages` directory. This is split into 3 directories to organise different types of packages:
