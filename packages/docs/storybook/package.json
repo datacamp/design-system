@@ -1,0 +1,27 @@
+{
+  "name": "@datacamp/waffles-storybook",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "NONE",
+  "private": true,
+  "scripts": {
+    "start": "start-storybook"
+  },
+  "dependencies": {
+    "@datacamp/waffles-core": "^0.1.19-alpha.0",
+    "@datacamp/waffles-heading": "^0.0.17-alpha.0",
+    "@datacamp/waffles-tag": "^0.1.26-alpha.0",
+    "@storybook/addon-knobs": "^5.0.8",
+    "@storybook/react": "^5.0.8",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "7.1.5",
+    "babel-plugin-syntax-dynamic-import": "^6.18.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1"
+  }
+}
