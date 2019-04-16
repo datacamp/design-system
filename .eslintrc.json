@@ -1,9 +1,10 @@
 {
   "extends": ["airbnb", "prettier", "prettier/react"],
-  "plugins": ["prettier"],
+  "plugins": ["prettier", "emotion"],
   "rules": {
     "prettier/prettier": "error",
     "react/jsx-filename-extension": "off",
+    "emotion/styled-import": "error",
     "import/no-extraneous-dependencies": [
       "error",
       {
