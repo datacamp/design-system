@@ -1,7 +1,7 @@
 {
   "packages": ["packages/**/*"],
   "version": "independent",
-  "ignoreChanges": ["*.md", "*.stories.js", "*.spec.*"],
+  "ignoreChanges": ["*.md", "*.spec.*"],
   "npmClient": "yarn",
   "command": {
     "publish": {
