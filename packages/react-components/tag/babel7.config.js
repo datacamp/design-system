@@ -9,6 +9,8 @@ module.exports = {
       },
     ],
     '@babel/preset-react',
+    '@babel/preset-typescript',
+    '@emotion/babel-preset-css-prop',
   ],
-  plugins: ['lodash'],
+  plugins: ['lodash', 'typescript-to-proptypes'],
 };
