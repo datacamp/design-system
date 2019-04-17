@@ -27,9 +27,7 @@ exports[`<Tag /> creates a default tag 1`] = `
   border-radius: 12px;
 }
 
-<Tag
-  rounded={false}
->
+<Tag>
   <div
     className="emotion-0"
   >
