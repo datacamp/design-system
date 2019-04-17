@@ -26,6 +26,9 @@ jobs:
       - run:
           name: Test
           command: yarn test
+      - run:
+          name: Check types
+          command: yarn check-types
       - persist_to_workspace:
           root: "."
           paths:
