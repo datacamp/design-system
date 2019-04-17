@@ -2,10 +2,7 @@ version: 2
 jobs:
   build-and-test:
     docker:
-      - image: ${STAGING_ECR_URL}/node-test
-        aws_auth:
-          aws_access_key_id: $STAGING_AWS_ACCESS_KEY_ID
-          aws_secret_access_key: $STAGING_AWS_SECRET_ACCESS_KEY
+      - image: node:11.4.0
     steps:
       - checkout
       - run:
