@@ -4,7 +4,7 @@
   "description": "Creates a small tag element for things like XP points.",
   "main": "lib/index.js",
   "scripts": {
-    "build:js": "babel src --out-dir lib --ignore spec.js",
+    "build:js": "babel src --out-dir lib --ignore spec.js --config-file ./babel7.config.js",
     "build:legacy": "copyfiles -u 1 legacy/*.scss lib",
     "build": "yarn build:js & yarn build:legacy",
     "prepublish": "yarn build",
@@ -22,12 +22,12 @@
     "src": "src"
   },
   "devDependencies": {
-    "babel-cli": "^6.26.0",
-    "babel-core": "^6.26.0",
+    "@babel/cli": "^7.4.3",
+    "@babel/core": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
+    "@babel/preset-react": "^7.0.0",
     "babel-jest": "^23.6.0",
     "babel-plugin-lodash": "^3.3.4",
-    "babel-preset-env": "^1.7.0",
-    "babel-preset-react": "^6.24.1",
     "copyfiles": "^2.1.0",
     "enzyme": "^3.9.0",
     "enzyme-adapter-react-16": "^1.12.1",
