@@ -4,7 +4,7 @@ import Tag from '@datacamp/waffles-tag';
 import CustomHeader from '../../components/CustomHeader';
 
 const components = [
-  { name: 'Tag', status: 'Available' },
+  { name: 'Tag', status: 'Available', docLink: '/component-library/tag' },
   { name: 'Icon', status: 'Planned' },
   { name: 'Text', status: 'Planned' },
   { name: 'Pill', status: 'Planned' },
@@ -52,9 +52,9 @@ export default () => {
                 </tr>
               </thead>
               <tbody>
-                {components.map(({ name, status }) => (
+                {components.map(({ name, status, docLink }) => (
                   <tr key={name}>
-                    <td>{name}</td>
+                    <td>{docLink ? <a href={docLink}>{name}</a> : name}</td>
                     <td>
                       <Tag color={status === 'Available' ? 'green' : 'orange'}>
                         {status}
