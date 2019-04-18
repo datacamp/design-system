@@ -1,5 +1,5 @@
 import { css } from '@emotion/core';
-// import PropTypes from 'prop-types';
+import styled from '@emotion/styled';
 import { SFC } from 'react';
 import { isNil } from 'lodash';
 import tokens from '@datacamp/waffles-core/tokens.json';
@@ -22,35 +22,39 @@ const baseTagStyle = css({
   whiteSpace: 'nowrap',
 });
 
-export interface TagProps {
-  children: string;
-  color?: string;
-  extraClass?: string;
-  rounded?: boolean;
-  textColor?: string;
-}
-
-const Tag: SFC<TagProps> = ({
+const dynamicTagStyle = ({
   color,
-  children,
-  extraClass,
   rounded = false,
   textColor,
-}) => {
+}: TagStyleProps) => {
   const backgroundColor = getColor(color) || getColor('primaryLightest');
   const parsedTextColor =
     (isNil(textColor) && getContrastColor(color)) || getColor(textColor);
-  const style = css(baseTagStyle, {
+
+  return css({
     backgroundColor,
     color: parsedTextColor,
     borderRadius: rounded ? '4px' : '12px',
   });
-
-  return (
-    <div css={style} className={extraClass}>
-      {children}
-    </div>
-  );
 };
+
+interface TagStyleProps {
+  rounded?: boolean;
+  textColor?: string;
+  color?: string;
+}
+
+export interface TagProps extends TagStyleProps {
+  children: string;
+  extraClass?: string;
+}
+
+const StyledTagDiv = styled.div<TagStyleProps>(baseTagStyle, dynamicTagStyle);
+
+const Tag: SFC<TagProps> = ({ extraClass, children, ...styleProps }) => (
+  <StyledTagDiv className={extraClass} {...styleProps}>
+    {children}
+  </StyledTagDiv>
+);
 
 export default Tag;
