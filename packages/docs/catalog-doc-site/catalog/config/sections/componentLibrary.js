@@ -1,4 +1,5 @@
 import { pageLoader } from 'catalog';
+import Tag from '@datacamp/waffles-tag';
 
 export default {
   title: 'Component Library',
@@ -9,6 +10,12 @@ export default {
       content: pageLoader(() =>
         import('../../pages/componentLibrary/index.js')
       ),
+    },
+    {
+      path: '/component-library/tag',
+      title: 'Tag',
+      content: pageLoader(() => import('../../pages/componentLibrary/tag.js')),
+      imports: { Tag },
     },
   ],
 };
