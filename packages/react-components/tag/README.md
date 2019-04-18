@@ -1,25 +1,5 @@
 # Tag
 
-Creates a small tag element for things like XP points.
+Usage documentation available at [waffles.datacamp.com/component-library/tag](https://waffles.datacamp.com/component-library/tag).
 
-### Usage
-
-```js
-import React from 'react';
-import Tag from '@datacamp/waffles-tag';
-class App extends React.Component {
-  render() {
-    return <Tag>50XP</Tag>;
-  }
-}
-```
-
-### Properties
-
-| propName   | propType | defaultValue | isRequired | Description                                                                  |
-| ---------- | -------- | ------------ | ---------- | ---------------------------------------------------------------------------- |
-| color      | string   | undefined    | -          | The background color of the tag and sets a default contrasting text color.   |
-| children   | string   |              | +          | The content of the tag.                                                      |
-| extraClass | string   | undefined    | -          | Any extra css class required for the root element.                           |
-| rounded    | boolean  | false        | -          | Sets the border-radius of the tag to DataCamp's default radius.              |
-| textColor  | string   | undefined    | -          | Sets text color of the tag and overrides the default contrasting text color. |
+Internally this contains an src folder with the react source code, as well as a legacy folder for the scss file. These do not interact in any way however they are both built into the lib folder.
