@@ -1,6 +1,6 @@
 {
   "name": "@datacamp/waffles-storybook",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "main": "index.js",
   "license": "NONE",
   "private": true,
@@ -8,9 +8,9 @@
     "start": "start-storybook"
   },
   "dependencies": {
-    "@datacamp/waffles-core": "^0.1.19-alpha.0",
-    "@datacamp/waffles-heading": "^0.0.17",
-    "@datacamp/waffles-tag": "^0.1.26",
+    "@datacamp/waffles-core": "^0.1.19",
+    "@datacamp/waffles-heading": "^0.0.18",
+    "@datacamp/waffles-tag": "^0.2.0",
     "@storybook/addon-knobs": "^5.0.8",
     "@storybook/react": "^5.0.8",
     "react": "^16.8.6",

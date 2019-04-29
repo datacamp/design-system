@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.0.18](https://github.com/datacamp/design-system/compare/@datacamp/waffles-heading@0.0.17...@datacamp/waffles-heading@0.0.18) (2019-04-29)
+
+
+### Bug Fixes
+
+* add lodash parsing to optimise bundles ([f20d438](https://github.com/datacamp/design-system/commit/f20d438))
+
+
+
+
+
 ## [0.0.17](https://github.com/datacamp/design-system/compare/@datacamp/waffles-heading@0.0.17-alpha.0...@datacamp/waffles-heading@0.0.17) (2019-04-16)
 
 **Note:** Version bump only for package @datacamp/waffles-heading
