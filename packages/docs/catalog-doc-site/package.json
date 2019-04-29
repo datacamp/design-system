@@ -16,11 +16,13 @@
     "@datacamp/waffles-core": "^0.1.19",
     "@datacamp/waffles-tag": "^0.2.0",
     "@emotion/core": "^10.0.10",
+    "@emotion/styled": "^10.0.10",
     "catalog": "^3.6.0",
     "classnames": "^2.2.5",
     "prop-types": "^15.7.2",
     "react": "^16.8.6",
-    "react-dom": "^16.8.6"
+    "react-dom": "^16.8.6",
+    "react-live": "^2.0.1"
   },
   "devDependencies": {
     "@datacamp/waffles-card": "^0.1.18-alpha.0",
@@ -47,6 +49,7 @@
     "postcss-preset-env": "^6.6.0",
     "postcss-reporter": "^6.0.1",
     "sass-loader": "7.1.0",
-    "uglifyjs-webpack-plugin": "^1.3.0"
+    "uglifyjs-webpack-plugin": "^1.3.0",
+    "webpack-bundle-analyzer": "2.13.1"
   }
 }

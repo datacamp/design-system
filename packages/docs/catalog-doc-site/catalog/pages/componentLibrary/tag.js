@@ -2,6 +2,7 @@ import React from 'react';
 import { Page, HintSpecimen } from 'catalog';
 import Tag from '@datacamp/waffles-tag';
 import CustomHeader from '../../components/CustomHeader';
+import LiveEditCells from '../../components/LiveEditCells';
 
 export default () => {
   return (
@@ -34,8 +35,8 @@ export default () => {
                   <th>Property</th>
                   <th>Type</th>
                   <th>Description</th>
-                  <th>Example code</th>
-                  <th>Example</th>
+                  <th style={{ minWidth: '275px' }}>Example code</th>
+                  <th>Live Preview</th>
                 </tr>
               </thead>
               <tbody>
@@ -43,14 +44,7 @@ export default () => {
                   <th>children</th>
                   <td>string - required</td>
                   <td>The content of the tag.</td>
-                  <td>
-                    <pre>
-                      <code>{'<Tag>example</Tag>'}</code>
-                    </pre>
-                  </td>
-                  <td>
-                    <Tag>example</Tag>
-                  </td>
+                  <LiveEditCells scope={{ Tag }} code="<Tag>example</Tag>" />
                 </tr>
                 <tr className="dc-table__tr">
                   <th>color</th>
@@ -59,14 +53,10 @@ export default () => {
                     The color of the tag. This should be one of the colors from
                     the design tokens.
                   </td>
-                  <td>
-                    <pre>
-                      <code>{'<Tag color="green">\n  content\n</Tag>'}</code>
-                    </pre>
-                  </td>
-                  <td>
-                    <Tag color="green">content</Tag>
-                  </td>
+                  <LiveEditCells
+                    scope={{ Tag }}
+                    code={'<Tag color="green">\n  content\n</Tag>'}
+                  />
                 </tr>
                 <tr className="dc-table__tr">
                   <th>textColor</th>
@@ -75,14 +65,10 @@ export default () => {
                     The color of the text. This will default to a contrasting
                     color to the background if none is provided.
                   </td>
-                  <td>
-                    <pre>
-                      <code>{'<Tag textColor="red">\n  content\n</Tag>'}</code>
-                    </pre>
-                  </td>
-                  <td>
-                    <Tag textColor="red">content</Tag>
-                  </td>
+                  <LiveEditCells
+                    scope={{ Tag }}
+                    code={'<Tag textColor="red">\n  content\n</Tag>'}
+                  />
                 </tr>
                 <tr className="dc-table__tr">
                   <th>rounded</th>
@@ -91,29 +77,21 @@ export default () => {
                     Sets the border-radius of the tag to DataCamp&apos;s default
                     radius.
                   </td>
-                  <td>
-                    <pre>
-                      <code>{'<Tag rounded>\n  content\n</Tag>'}</code>
-                    </pre>
-                  </td>
-                  <td>
-                    <Tag rounded>content</Tag>
-                  </td>
+                  <LiveEditCells
+                    scope={{ Tag }}
+                    code={'<Tag rounded>\n  content\n</Tag>'}
+                  />
                 </tr>
                 <tr className="dc-table__tr">
                   <th>extraClass</th>
                   <td>string - optional</td>
                   <td>Any extra css class required for the element.</td>
-                  <td>
-                    <pre>
-                      <code>
-                        {'<Tag extraClass="dc-u-fs-h4">\n  content\n</Tag>'}
-                      </code>
-                    </pre>
-                  </td>
-                  <td>
-                    <Tag extraClass="dc-u-fs-h4">content</Tag>
-                  </td>
+                  <LiveEditCells
+                    scope={{ Tag }}
+                    code={
+                      '<Tag\n  extraClass="dc-u-fs-h4"\n>\n  content\n</Tag>'
+                    }
+                  />
                 </tr>
               </tbody>
             </table>
