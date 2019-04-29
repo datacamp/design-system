@@ -829,42 +829,6 @@ code.clean {
   @include stretch;
 }
 
-// Legacy tags are marked for death
-
-.tag {
-  background-color: $primary-extra-light;
-  border: 1px solid $lighter-grey;
-  border-radius: 10px;
-  color: $dark-grey;
-  display: inline-block;
-  font-size: $small-font-size;
-  font-weight: 700;
-  margin-right: spacing(1);
-  padding: 0 spacing(3);
-  text-transform: uppercase;
-}
-
-a.tag {
-  color: $primary;
-}
-
-a.tag:hover {
-  background-color: $primary;
-  border: 1px solid $primary;
-  color: $white;
-}
-
-.tag--xp {
-  background: $white;
-  border: 0;
-  border-radius: 12px;
-  color: $dark-grey;
-  font-size: $smaller-font-size;
-  line-height: 1;
-  padding: 4px 8px;
-  text-transform: uppercase;
-}
-
 /* stylelint-enable */
 
 /**
