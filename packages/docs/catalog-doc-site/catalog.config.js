@@ -2,6 +2,7 @@ const path = require('path');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const sassJsonImporter = require('node-sass-json-importer');
 const UglifyJSPlugin = require('uglifyjs-webpack-plugin');
+const { BundleAnalyzerPlugin } = require('webpack-bundle-analyzer');
 
 const modulesPath = path.resolve(__dirname);
 
@@ -55,11 +56,17 @@ module.exports = {
     config.module.rules[0].oneOf.unshift({
       test: /\.js$/,
       use: 'babel-loader',
-      exclude: /node_modules/,
+      exclude: /node_modules\?!(buble)/,
     });
 
     config.plugins.push(extractSCSS);
     config.plugins.push(new UglifyJSPlugin());
+    config.plugins.push(
+      new BundleAnalyzerPlugin({
+        analyzerMode: dev ? 'server' : 'static',
+        openAnalyzer: dev,
+      })
+    );
 
     return config;
   },
