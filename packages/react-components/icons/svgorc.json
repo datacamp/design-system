@@ -1,0 +1,82 @@
+{
+  "comment": "This is the settings file for the SVGO Compressor Plugin. For more info, please check <https://github.com/BohemianCoding/svgo-compressor>",
+  "pretty": true,
+  "indent": 2,
+  "plugins": [
+    {
+      "name": "cleanupListOfValues"
+    },
+    {
+      "name": "cleanupNumericValues"
+    },
+    {
+      "name": "collapseGroups"
+    },
+    {
+      "name": "convertColors"
+    },
+    {
+      "name": "convertStyleToAttrs"
+    },
+    {
+      "name": "convertTransform"
+    },
+    {
+      "name": "mergePaths"
+    },
+    {
+      "name": "minifyStyles"
+    },
+    {
+      "name": "removeComments"
+    },
+    {
+      "name": "removeDesc",
+      "params": {
+        "removeAny": true
+      }
+    },
+    {
+      "name": "removeDoctype"
+    },
+    {
+      "name": "removeEditorsNSData"
+    },
+    {
+      "name": "removeEmptyAttrs"
+    },
+    {
+      "name": "removeEmptyContainers"
+    },
+    {
+      "name": "removeEmptyText"
+    },
+    {
+      "name": "removeMetadata"
+    },
+    {
+      "name": "removeNonInheritableGroupAttrs"
+    },
+    {
+      "name": "removeTitle"
+    },
+    {
+      "name": "removeUnknownsAndDefaults"
+    },
+    {
+      "name": "removeUnusedNS"
+    },
+    {
+      "name": "removeUselessDefs"
+    },
+    {
+      "name": "removeUselessStrokeAndFill"
+    },
+    {
+      "name": "removeXMLProcInst"
+    },
+    {
+      "name": "sortAttrs"
+    }
+  ]
+}

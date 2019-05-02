@@ -6,6 +6,8 @@ build
 lib
 !**/stylesheets/*/lib
 **/stylesheets/core/lib
+sprites
+zip
 
 # always ignore
 *.diff
@@ -16,3 +18,4 @@ lib
 .eslintcache
 .DS_Store
 Thumbs.db
+tmp

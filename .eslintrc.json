@@ -17,6 +17,7 @@
           "**/catalog.config.js",
           "**/webpack.config.js",
           "**/test/*",
+          "**/gulpfile.js",
           "packages/other/**/*.js"
         ]
       }
