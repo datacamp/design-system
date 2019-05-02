@@ -1,0 +1,46 @@
+{
+  "name": "@datacamp/waffles-icons",
+  "version": "0.0.1",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "license": "ISC",
+  "sideEffects": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/icons"
+  },
+  "scripts": {
+    "build": "gulp build",
+    "prepublish": "yarn build",
+    "type-check": "tsc --rootDir build --noEmit"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.4.3",
+    "@babel/core": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/preset-typescript": "^7.3.3",
+    "@svgr/core": "^4.2.0",
+    "@svgr/plugin-prettier": "^4.2.0",
+    "@svgr/plugin-svgo": "^4.2.0",
+    "@types/react": "^16.8.15",
+    "babel-plugin-typescript-to-proptypes": "^0.17.1",
+    "camelcase": "^5.3.1",
+    "gulp": "^4.0.1",
+    "gulp-babel": "^8.0.0",
+    "gulp-concat-filenames": "^1.2.0",
+    "gulp-filter": "^5.1.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-svg-sprite": "^1.5.0",
+    "gulp-transform": "^3.0.5",
+    "gulp-typescript": "^5.0.1",
+    "gulp-zip": "^4.2.0",
+    "merge-stream": "^1.0.1",
+    "react": "^16.8.6",
+    "typescript": "^3.4.5"
+  },
+  "peerDependencies": {
+    "react": "^16.8.6"
+  },
+  "dependencies": {}
+}
