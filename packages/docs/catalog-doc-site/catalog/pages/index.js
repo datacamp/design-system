@@ -29,7 +29,7 @@ export default () => {
       <Page>
         <section className="dc-card dc-u-p-none dc-u-fx" style={BarStyle}>
           <div className="dc-u-p-32">
-            <img src="illustration-content.svg" alt="" className="dc-u-mb-8" />
+            <img src="/illustration-content.svg" alt="" className="dc-u-mb-8" />
             <h4>Content</h4>
             <p className="dc-u-mt-0">
               Learn about how we use language to create a thoughtful experience.
@@ -45,13 +45,13 @@ export default () => {
           </div>
 
           <div className="dc-u-bl dc-u-p-32">
-            <img src="illustration-design.svg" alt="" className="dc-u-mb-8" />
+            <img src="/illustration-design.svg" alt="" className="dc-u-mb-8" />
             <h4>Design</h4>
             <p className="dc-u-mt-0">
               Explore the visual elements we use to identify ourselves as a
               company.
             </p>
-            <a className="dc-btn dc-btn--inline" href="/design">
+            <a className="dc-btn dc-btn--inline" href="/design/logo">
               View Design Guidelines
               <span className="dc-icon dc-icon--size-12 dc-icon--flex dc-u-ml-8">
                 <svg className="dc-icon__svg">
@@ -63,7 +63,7 @@ export default () => {
 
           <div className="dc-u-bl dc-u-p-32">
             <img
-              src="illustration-component.svg"
+              src="/illustration-component.svg"
               alt=""
               className="dc-u-mb-8"
             />

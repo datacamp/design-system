@@ -15,6 +15,7 @@
     "@datacamp/waffles-button": "^0.1.18-alpha.0",
     "@datacamp/waffles-core": "^0.1.19",
     "@datacamp/waffles-tag": "^0.2.0",
+    "@emotion/core": "^10.0.10",
     "catalog": "^3.6.0",
     "classnames": "^2.2.5",
     "prop-types": "^15.7.2",

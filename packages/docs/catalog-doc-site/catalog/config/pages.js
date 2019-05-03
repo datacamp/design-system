@@ -1,7 +1,8 @@
 import { pageLoader } from 'catalog';
 import stylesheetSection from './sections/stylesheets';
-import componentLibrarySection from './sections/componentLibrary';
+import designSection from './sections/design';
 import contentSection from './sections/content';
+import componentLibrarySection from './sections/componentLibrary';
 
 const pages = [
   {
@@ -9,6 +10,7 @@ const pages = [
     title: 'Introduction',
     content: pageLoader(() => import('../pages/index.js')),
   },
+  designSection,
   contentSection,
   componentLibrarySection,
   stylesheetSection,
