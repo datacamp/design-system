@@ -1,5 +1,5 @@
 import React from 'react';
-import { Page, HtmlSpecimen } from 'catalog';
+import { Page, HtmlSpecimen, HintSpecimen } from 'catalog';
 
 import CustomHeader from '../../components/CustomHeader';
 
@@ -149,6 +149,12 @@ export default () => {
       />
 
       <Page>
+        <HintSpecimen warning>
+          These docs refer to using the icons from the waffles-core package. It
+          is now preferred that the waffles-icons package is used. Documentation
+          on this package can be found{' '}
+          <a href="/component-library/icons">here</a>.
+        </HintSpecimen>
         <div className="dc-u-fx dc-u-fx-aifs">
           <section className="dc-u-maxw-640 dc-u-pr-32">
             <header>
