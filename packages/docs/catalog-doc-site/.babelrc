@@ -10,7 +10,7 @@
     ],
     ["react"]
   ],
-  "plugins": ["transform-object-rest-spread", "syntax-dynamic-import"],
+  "plugins": ["transform-object-rest-spread", "syntax-dynamic-import", "lodash"],
   "only": [
     "catalog/**",
     "/node_modules/buble/node_modules/regexpu-core",

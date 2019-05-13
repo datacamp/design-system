@@ -18,6 +18,13 @@ export default {
       ),
     },
     {
+      path: '/component-library/icons',
+      title: 'Icons',
+      content: pageLoader(() =>
+        import('../../pages/componentLibrary/icons.js')
+      ),
+    },
+    {
       path: '/component-library/tag',
       title: 'Tag',
       content: pageLoader(() => import('../../pages/componentLibrary/tag.js')),
