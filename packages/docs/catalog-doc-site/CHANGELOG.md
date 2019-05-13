@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.2.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-catalog-doc-site@1.1.0...@datacamp/waffles-catalog-doc-site@1.2.0) (2019-05-13)
+
+
+### Features
+
+* add logo page ([9efddb7](https://github.com/datacamp/design-system/commit/9efddb7))
+* live preview react components ([e7189e9](https://github.com/datacamp/design-system/commit/e7189e9))
+
+
+
+
+
 # [1.1.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-catalog-doc-site@1.0.8...@datacamp/waffles-catalog-doc-site@1.1.0) (2019-04-29)
 
 
