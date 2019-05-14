@@ -1,0 +1,14 @@
+{
+  "asset": {
+    "font": {
+      "sansSerif": {
+        "value": "Lato",
+        "attributes": { "fallback": "sans-serif" }
+      },
+      "mono": {
+        "value": "Roboto Mono",
+        "attributes": { "fallback": "monospace" }
+      }
+    }
+  }
+}

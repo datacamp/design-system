@@ -16,7 +16,8 @@
           "**/*.stories.js",
           "**/catalog.config.js",
           "**/webpack.config.js",
-          "**/test/*"
+          "**/test/*",
+          "packages/other/**/*.js"
         ]
       }
     ]
@@ -32,6 +33,7 @@
     {
       "files": [
         "packages/**/src/*.spec.js",
+        "packages/**/test/*.spec.js",
         "src/**/__mocks__/**",
         "test/helpers"
       ],

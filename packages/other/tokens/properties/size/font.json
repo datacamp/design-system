@@ -1,0 +1,24 @@
+{
+  "size": {
+    "font": {
+      "base": { "value": "16px" },
+      "micro": { "value": "0.75rem" },
+      "small": { "value": "0.875rem" },
+      "h1": { "value": "2.5rem" },
+      "h2": { "value": "2rem" },
+      "h3": { "value": "1.5rem" },
+      "h4": { "value": "1.25rem" },
+      "h5": { "value": "1.125rem" },
+      "h6": { "value": "1rem" }
+    },
+    "lineHeight": {
+      "base": { "value": "1.5" },
+      "heading": { "value": "1.25" }
+    },
+    "fontWeight": {
+      "bold": { "value": "700" },
+      "light": { "value": "300" },
+      "regular": { "value": "400" }
+    }
+  }
+}

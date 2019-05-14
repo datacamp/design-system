@@ -1,0 +1,26 @@
+{
+  "name": "@datacamp/waffles-tokens",
+  "version": "0.0.1",
+  "description": "",
+  "main": "lib/core-tokens.json",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/datacamp-engineering/design-system/tree/master/packages/other/tokens"
+  },
+  "scripts": {
+    "build": "yarn clean && node build.js",
+    "watch": "nodemon --ignore lib/ -e js,json build.js",
+    "clean": "rm -rf build",
+    "prepublish": "yarn build",
+    "test": "jest"
+  },
+  "author": "",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "jest": "^24.8.0",
+    "lodash": "^4.17.11",
+    "nodemon": "^1.19.0",
+    "style-dictionary": "2.7.0",
+    "tinycolor2": "^1.4.1"
+  }
+}
