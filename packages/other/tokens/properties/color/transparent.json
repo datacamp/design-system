@@ -1,0 +1,22 @@
+{
+  "color": {
+    "transparent": {
+      "blackTransparent": {
+        "value": {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 0.2
+        }
+      },
+      "whiteTransparent": {
+        "value": {
+          "r": "{color.opaque.white.value.r}",
+          "g": "{color.opaque.white.value.g}",
+          "b": "{color.opaque.white.value.b}",
+          "a": 0.2
+        }
+      }
+    }
+  }
+}

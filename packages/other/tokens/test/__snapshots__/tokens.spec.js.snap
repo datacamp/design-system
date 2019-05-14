@@ -1,0 +1,3820 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`tokens generates the core-tokens 1`] = `
+Object {
+  "animation": Object {
+    "duration": "0.3s",
+    "ease": "cubic-bezier(0.77, 0, 0.175, 1)",
+    "transition": "0.3s cubic-bezier(0.77, 0, 0.175, 1)",
+  },
+  "border": Object {
+    "radius": "4px",
+  },
+  "boxShadow": Object {
+    "border": "0 0 0 1px #e6eaeb",
+    "color": "rgba(0, 0, 0, 0.15)",
+    "lg": "0 3px 5px 0 rgba(0, 0, 0, 0.15)",
+    "md": "0 1px 3px 0 rgba(0, 0, 0, 0.15)",
+    "sm": "0 1px 2px 0 rgba(0, 0, 0, 0.15)",
+    "xl": "0 4px 8px 0 rgba(0, 0, 0, 0.15)",
+    "xlGreen": "0 4px 8px 0 rgba(54, 213, 125, 0.3)",
+    "xlOrange": "0 4px 8px 0 rgba(255, 148, 0, 0.3)",
+    "xlPurple": "0 4px 8px 0 rgba(132, 104, 196, 0.3)",
+    "xxl": "0 10px 20px 0 rgba(0, 0, 0, 0.15)",
+  },
+  "breakpoints": Object {
+    "4K": "1920px",
+    "5K": "2560px",
+    "below4K": "1919px",
+    "below5K": "2559px",
+    "belowLg": "1199px",
+    "belowMd": "991px",
+    "belowSm": "767px",
+    "belowWs": "1679px",
+    "belowXl": "1365px",
+    "belowXs": "479px",
+    "lg": "1200px",
+    "md": "992px",
+    "sm": "768px",
+    "ws": "1680px",
+    "xl": "1366px",
+    "xs": "480px",
+  },
+  "colors": Object {
+    "blackTransparent": "rgba(0, 0, 0, 0.2)",
+    "geyser": "#cfdce1",
+    "green": "#36d57d",
+    "greenLight": "#a5ecc5",
+    "grey": "#4d5356",
+    "greyDark": "#3d4251",
+    "greyLight": "#d1d3d8",
+    "greyLighter": "#e6eaeb",
+    "greyOslo": "#859094",
+    "orange": "#ff9400",
+    "orangeDark": "#ad662c",
+    "porcelain": "#f0f4f5",
+    "primary": "#33aacc",
+    "primaryDark": "#263e63",
+    "primaryDarker": "#14243e",
+    "primaryDarkest": "#0c1626",
+    "primaryLight": "#7ecce2",
+    "primaryLighter": "#d5eaef",
+    "primaryLightest": "#ebf4f7",
+    "purple": "#8468c4",
+    "purpleDark": "#5d488c",
+    "purpleLight": "#a786f3",
+    "raven": "#737a80",
+    "red": "#fe5c5c",
+    "redLight": "#ffb5b5",
+    "secondary": "#ffc844",
+    "secondaryLight": "#fbe28d",
+    "white": "#ffffff",
+    "whiteTransparent": "rgba(255, 255, 255, 0.2)",
+  },
+  "fontFamily": Object {
+    "mono": "'Roboto Mono'",
+    "sansSerif": "'Lato'",
+  },
+  "fontSize": Object {
+    "base": "16px",
+    "h1": "2.5rem",
+    "h2": "2rem",
+    "h3": "1.5rem",
+    "h4": "1.25rem",
+    "h5": "1.125rem",
+    "h6": "1rem",
+    "micro": "0.75rem",
+    "small": "0.875rem",
+  },
+  "fontWeight": Object {
+    "bold": "700",
+    "light": "300",
+    "regular": "400",
+  },
+  "gradients": Object {
+    "blueLight": "linear-gradient(-143deg, #7dd4e7, #7099d7)",
+    "chambrayCloudburst": "linear-gradient(268deg, #405f8f, #1c3050)",
+    "grey": "linear-gradient(-135deg, #e7f1f6, #b6d1e5)",
+    "primary": "linear-gradient(141deg, #2388b0, #33aacc)",
+    "primaryDark": "linear-gradient(141deg, #20748d, #164d62)",
+    "primaryLight": "linear-gradient(180deg, rgba(255, 255, 255, 0), rgba(51, 170, 204, 0.08))",
+    "puertoricoDeyork": "linear-gradient(32deg, #37bbab, #75c97e)",
+    "purple": "linear-gradient(-136deg, #c06ac8, #8468c4)",
+    "red": "linear-gradient(45deg, #f06a8c, #f6a38d)",
+    "redLight": "linear-gradient(180deg, rgba(255, 255, 255, 0), rgba(254, 92, 92, 0.08))",
+    "secondary": "linear-gradient(0deg, #ffc844, #fcd86c)",
+    "turquoise": "linear-gradient(-135deg, #b8eef4, #78c8de)",
+  },
+  "lineHeight": Object {
+    "base": "1.5",
+    "heading": "1.25",
+  },
+  "spatial": Object {
+    "angles": "30 45 60 90 180 270 360",
+    "commonSizes": "8 12 16 24 32 36 48 64",
+    "measure": "160 192 256 320 480 640 800 960",
+    "multiplier": "2",
+    "percentages": "1 5 10 15 20 25 30 40 44 50 60 70 75 80 90 100",
+    "sizes": "2 4 8 12 16 24 32 36 48 64 80 96 128",
+    "zIndex": "10 20 30 40 50 60 70 80 90 100 999",
+  },
+}
+`;
+
+exports[`tokens generates the future-tokens 1`] = `
+Object {
+  "animation": Object {
+    "duration": Object {
+      "attributes": Object {
+        "category": "animation",
+        "type": "duration",
+      },
+      "name": "duration",
+      "original": Object {
+        "value": "0.3s",
+      },
+      "path": Array [
+        "animation",
+        "duration",
+      ],
+      "value": "0.3s",
+    },
+    "ease": Object {
+      "attributes": Object {
+        "category": "animation",
+        "type": "ease",
+      },
+      "name": "ease",
+      "original": Object {
+        "value": "cubic-bezier(0.77, 0, 0.175, 1)",
+      },
+      "path": Array [
+        "animation",
+        "ease",
+      ],
+      "value": "cubic-bezier(0.77, 0, 0.175, 1)",
+    },
+    "transition": Object {
+      "attributes": Object {
+        "category": "animation",
+        "type": "transition",
+      },
+      "name": "transition",
+      "original": Object {
+        "value": "0.3s cubic-bezier(0.77, 0, 0.175, 1)",
+      },
+      "path": Array [
+        "animation",
+        "transition",
+      ],
+      "value": "0.3s cubic-bezier(0.77, 0, 0.175, 1)",
+    },
+  },
+  "asset": Object {
+    "font": Object {
+      "mono": Object {
+        "attributes": Object {
+          "category": "asset",
+          "fallback": "monospace",
+          "item": "mono",
+          "type": "font",
+        },
+        "name": "mono",
+        "original": Object {
+          "attributes": Object {
+            "fallback": "monospace",
+          },
+          "value": "Roboto Mono",
+        },
+        "path": Array [
+          "asset",
+          "font",
+          "mono",
+        ],
+        "value": "Roboto Mono",
+      },
+      "sansSerif": Object {
+        "attributes": Object {
+          "category": "asset",
+          "fallback": "sans-serif",
+          "item": "sansSerif",
+          "type": "font",
+        },
+        "name": "sansSerif",
+        "original": Object {
+          "attributes": Object {
+            "fallback": "sans-serif",
+          },
+          "value": "Lato",
+        },
+        "path": Array [
+          "asset",
+          "font",
+          "sansSerif",
+        ],
+        "value": "Lato",
+      },
+    },
+  },
+  "boxShadow": Object {
+    "border": Object {
+      "attributes": Object {
+        "category": "boxShadow",
+        "type": "border",
+      },
+      "name": "border",
+      "original": Object {
+        "value": "0 0 0 1px #e6eaeb",
+      },
+      "path": Array [
+        "boxShadow",
+        "border",
+      ],
+      "value": "0 0 0 1px #e6eaeb",
+    },
+    "color": Object {
+      "attributes": Object {
+        "category": "boxShadow",
+        "type": "color",
+      },
+      "name": "color",
+      "original": Object {
+        "value": "rgba(0, 0, 0, 0.15)",
+      },
+      "path": Array [
+        "boxShadow",
+        "color",
+      ],
+      "value": "rgba(0, 0, 0, 0.15)",
+    },
+    "lg": Object {
+      "attributes": Object {
+        "category": "boxShadow",
+        "type": "lg",
+      },
+      "name": "lg",
+      "original": Object {
+        "value": "0 3px 5px 0 {boxShadow.color.value}",
+      },
+      "path": Array [
+        "boxShadow",
+        "lg",
+      ],
+      "value": "0 3px 5px 0 rgba(0, 0, 0, 0.15)",
+    },
+    "md": Object {
+      "attributes": Object {
+        "category": "boxShadow",
+        "type": "md",
+      },
+      "name": "md",
+      "original": Object {
+        "value": "0 1px 3px 0 {boxShadow.color.value}",
+      },
+      "path": Array [
+        "boxShadow",
+        "md",
+      ],
+      "value": "0 1px 3px 0 rgba(0, 0, 0, 0.15)",
+    },
+    "sm": Object {
+      "attributes": Object {
+        "category": "boxShadow",
+        "type": "sm",
+      },
+      "name": "sm",
+      "original": Object {
+        "value": "0 1px 2px 0 {boxShadow.color.value}",
+      },
+      "path": Array [
+        "boxShadow",
+        "sm",
+      ],
+      "value": "0 1px 2px 0 rgba(0, 0, 0, 0.15)",
+    },
+    "xl": Object {
+      "attributes": Object {
+        "category": "boxShadow",
+        "type": "xl",
+      },
+      "name": "xl",
+      "original": Object {
+        "value": "0 4px 8px 0 {boxShadow.color.value}",
+      },
+      "path": Array [
+        "boxShadow",
+        "xl",
+      ],
+      "value": "0 4px 8px 0 rgba(0, 0, 0, 0.15)",
+    },
+    "xlGreen": Object {
+      "attributes": Object {
+        "category": "boxShadow",
+        "type": "xlGreen",
+      },
+      "name": "xlGreen",
+      "original": Object {
+        "value": "0 4px 8px 0 rgba(54, 213, 125, 0.3)",
+      },
+      "path": Array [
+        "boxShadow",
+        "xlGreen",
+      ],
+      "value": "0 4px 8px 0 rgba(54, 213, 125, 0.3)",
+    },
+    "xlOrange": Object {
+      "attributes": Object {
+        "category": "boxShadow",
+        "type": "xlOrange",
+      },
+      "name": "xlOrange",
+      "original": Object {
+        "value": "0 4px 8px 0 rgba(255, 148, 0, 0.3)",
+      },
+      "path": Array [
+        "boxShadow",
+        "xlOrange",
+      ],
+      "value": "0 4px 8px 0 rgba(255, 148, 0, 0.3)",
+    },
+    "xlPurple": Object {
+      "attributes": Object {
+        "category": "boxShadow",
+        "type": "xlPurple",
+      },
+      "name": "xlPurple",
+      "original": Object {
+        "value": "0 4px 8px 0 rgba(132, 104, 196, 0.3)",
+      },
+      "path": Array [
+        "boxShadow",
+        "xlPurple",
+      ],
+      "value": "0 4px 8px 0 rgba(132, 104, 196, 0.3)",
+    },
+    "xxl": Object {
+      "attributes": Object {
+        "category": "boxShadow",
+        "type": "xxl",
+      },
+      "name": "xxl",
+      "original": Object {
+        "value": "0 10px 20px 0 {boxShadow.color.value}",
+      },
+      "path": Array [
+        "boxShadow",
+        "xxl",
+      ],
+      "value": "0 10px 20px 0 rgba(0, 0, 0, 0.15)",
+    },
+  },
+  "breakpoints": Object {
+    "4K": Object {
+      "attributes": Object {
+        "below": "1919px",
+        "category": "breakpoints",
+        "hd": true,
+        "type": "4K",
+      },
+      "name": "4K",
+      "original": Object {
+        "attributes": Object {
+          "below": "1919px",
+          "hd": true,
+        },
+        "value": "1920px",
+      },
+      "path": Array [
+        "breakpoints",
+        "4K",
+      ],
+      "value": "1920px",
+    },
+    "5K": Object {
+      "attributes": Object {
+        "below": "2559px",
+        "category": "breakpoints",
+        "hd": true,
+        "type": "5K",
+      },
+      "name": "5K",
+      "original": Object {
+        "attributes": Object {
+          "below": "2559px",
+          "hd": true,
+        },
+        "value": "2560px",
+      },
+      "path": Array [
+        "breakpoints",
+        "5K",
+      ],
+      "value": "2560px",
+    },
+    "lg": Object {
+      "attributes": Object {
+        "below": "1199px",
+        "category": "breakpoints",
+        "hd": false,
+        "type": "lg",
+      },
+      "name": "lg",
+      "original": Object {
+        "attributes": Object {
+          "below": "1199px",
+          "hd": false,
+        },
+        "value": "1200px",
+      },
+      "path": Array [
+        "breakpoints",
+        "lg",
+      ],
+      "value": "1200px",
+    },
+    "md": Object {
+      "attributes": Object {
+        "below": "991px",
+        "category": "breakpoints",
+        "hd": false,
+        "type": "md",
+      },
+      "name": "md",
+      "original": Object {
+        "attributes": Object {
+          "below": "991px",
+          "hd": false,
+        },
+        "value": "992px",
+      },
+      "path": Array [
+        "breakpoints",
+        "md",
+      ],
+      "value": "992px",
+    },
+    "sm": Object {
+      "attributes": Object {
+        "below": "767px",
+        "category": "breakpoints",
+        "hd": false,
+        "type": "sm",
+      },
+      "name": "sm",
+      "original": Object {
+        "attributes": Object {
+          "below": "767px",
+          "hd": false,
+        },
+        "value": "768px",
+      },
+      "path": Array [
+        "breakpoints",
+        "sm",
+      ],
+      "value": "768px",
+    },
+    "ws": Object {
+      "attributes": Object {
+        "below": "1679px",
+        "category": "breakpoints",
+        "hd": true,
+        "type": "ws",
+      },
+      "name": "ws",
+      "original": Object {
+        "attributes": Object {
+          "below": "1679px",
+          "hd": true,
+        },
+        "value": "1680px",
+      },
+      "path": Array [
+        "breakpoints",
+        "ws",
+      ],
+      "value": "1680px",
+    },
+    "xl": Object {
+      "attributes": Object {
+        "below": "1365px",
+        "category": "breakpoints",
+        "hd": false,
+        "type": "xl",
+      },
+      "name": "xl",
+      "original": Object {
+        "attributes": Object {
+          "below": "1365px",
+          "hd": false,
+        },
+        "value": "1366px",
+      },
+      "path": Array [
+        "breakpoints",
+        "xl",
+      ],
+      "value": "1366px",
+    },
+    "xs": Object {
+      "attributes": Object {
+        "below": "479px",
+        "category": "breakpoints",
+        "hd": false,
+        "type": "xs",
+      },
+      "name": "xs",
+      "original": Object {
+        "attributes": Object {
+          "below": "479px",
+          "hd": false,
+        },
+        "value": "480px",
+      },
+      "path": Array [
+        "breakpoints",
+        "xs",
+      ],
+      "value": "480px",
+    },
+  },
+  "color": Object {
+    "opaque": Object {
+      "geyser": Object {
+        "attributes": Object {
+          "category": "color",
+          "hex": "cfdce1",
+          "hsl": Object {
+            "a": 1,
+            "h": 196.66666666666663,
+            "l": 0.8470588235294118,
+            "s": 0.23076923076923067,
+          },
+          "hsv": Object {
+            "a": 1,
+            "h": 196.66666666666663,
+            "s": 0.07999999999999997,
+            "v": 0.8823529411764706,
+          },
+          "item": "geyser",
+          "rgb": Object {
+            "a": 1,
+            "b": 225,
+            "g": 220,
+            "r": 207,
+          },
+          "type": "opaque",
+        },
+        "name": "geyser",
+        "original": Object {
+          "value": Object {
+            "a": 1,
+            "b": 225,
+            "g": 220,
+            "r": 207,
+          },
+        },
+        "path": Array [
+          "color",
+          "opaque",
+          "geyser",
+        ],
+        "value": Object {
+          "hex": "#cfdce1",
+          "hex8": "#cfdce1ff",
+          "hsl": "hsl(197, 23%, 85%)",
+          "rgb": "rgb(207, 220, 225)",
+        },
+      },
+      "green": Object {
+        "attributes": Object {
+          "category": "color",
+          "hex": "36d57d",
+          "hsl": Object {
+            "a": 1,
+            "h": 146.7924528301887,
+            "l": 0.5235294117647059,
+            "s": 0.6543209876543211,
+          },
+          "hsv": Object {
+            "a": 1,
+            "h": 146.7924528301887,
+            "s": 0.7464788732394366,
+            "v": 0.8352941176470589,
+          },
+          "item": "green",
+          "rgb": Object {
+            "a": 1,
+            "b": 125,
+            "g": 213,
+            "r": 54,
+          },
+          "type": "opaque",
+        },
+        "name": "green",
+        "original": Object {
+          "value": Object {
+            "a": 1,
+            "b": 125,
+            "g": 213,
+            "r": 54,
+          },
+        },
+        "path": Array [
+          "color",
+          "opaque",
+          "green",
+        ],
+        "value": Object {
+          "hex": "#36d57d",
+          "hex8": "#36d57dff",
+          "hsl": "hsl(147, 65%, 52%)",
+          "rgb": "rgb(54, 213, 125)",
+        },
+      },
+      "greenLight": Object {
+        "attributes": Object {
+          "category": "color",
+          "hex": "a5ecc5",
+          "hsl": Object {
+            "a": 1,
+            "h": 147.04225352112675,
+            "l": 0.7862745098039217,
+            "s": 0.6513761467889909,
+          },
+          "hsv": Object {
+            "a": 1,
+            "h": 147.04225352112675,
+            "s": 0.3008474576271186,
+            "v": 0.9254901960784314,
+          },
+          "item": "greenLight",
+          "rgb": Object {
+            "a": 1,
+            "b": 197,
+            "g": 236,
+            "r": 165,
+          },
+          "type": "opaque",
+        },
+        "name": "greenLight",
+        "original": Object {
+          "value": Object {
+            "a": 1,
+            "b": 197,
+            "g": 236,
+            "r": 165,
+          },
+        },
+        "path": Array [
+          "color",
+          "opaque",
+          "greenLight",
+        ],
+        "value": Object {
+          "hex": "#a5ecc5",
+          "hex8": "#a5ecc5ff",
+          "hsl": "hsl(147, 65%, 79%)",
+          "rgb": "rgb(165, 236, 197)",
+        },
+      },
+      "grey": Object {
+        "attributes": Object {
+          "category": "color",
+          "hex": "4d5356",
+          "hsl": Object {
+            "a": 1,
+            "h": 200,
+            "l": 0.3196078431372549,
+            "s": 0.05521472392638044,
+          },
+          "hsv": Object {
+            "a": 1,
+            "h": 200,
+            "s": 0.10465116279069779,
+            "v": 0.33725490196078434,
+          },
+          "item": "grey",
+          "rgb": Object {
+            "a": 1,
+            "b": 86,
+            "g": 83,
+            "r": 77,
+          },
+          "type": "opaque",
+        },
+        "name": "grey",
+        "original": Object {
+          "value": Object {
+            "a": 1,
+            "b": 86,
+            "g": 83,
+            "r": 77,
+          },
+        },
+        "path": Array [
+          "color",
+          "opaque",
+          "grey",
+        ],
+        "value": Object {
+          "hex": "#4d5356",
+          "hex8": "#4d5356ff",
+          "hsl": "hsl(200, 6%, 32%)",
+          "rgb": "rgb(77, 83, 86)",
+        },
+      },
+      "greyDark": Object {
+        "attributes": Object {
+          "category": "color",
+          "hex": "3d4251",
+          "hsl": Object {
+            "a": 1,
+            "h": 224.99999999999997,
+            "l": 0.2784313725490196,
+            "s": 0.14084507042253516,
+          },
+          "hsv": Object {
+            "a": 1,
+            "h": 224.99999999999997,
+            "s": 0.2469135802469135,
+            "v": 0.3176470588235294,
+          },
+          "item": "greyDark",
+          "rgb": Object {
+            "a": 1,
+            "b": 81,
+            "g": 66,
+            "r": 61,
+          },
+          "type": "opaque",
+        },
+        "name": "greyDark",
+        "original": Object {
+          "value": Object {
+            "a": 1,
+            "b": 81,
+            "g": 66,
+            "r": 61,
+          },
+        },
+        "path": Array [
+          "color",
+          "opaque",
+          "greyDark",
+        ],
+        "value": Object {
+          "hex": "#3d4251",
+          "hex8": "#3d4251ff",
+          "hsl": "hsl(225, 14%, 28%)",
+          "rgb": "rgb(61, 66, 81)",
+        },
+      },
+      "greyLight": Object {
+        "attributes": Object {
+          "category": "color",
+          "hex": "d1d3d8",
+          "hsl": Object {
+            "a": 1,
+            "h": 222.85714285714292,
+            "l": 0.8333333333333333,
+            "s": 0.08235294117647064,
+          },
+          "hsv": Object {
+            "a": 1,
+            "h": 222.85714285714292,
+            "s": 0.032407407407407426,
+            "v": 0.8470588235294118,
+          },
+          "item": "greyLight",
+          "rgb": Object {
+            "a": 1,
+            "b": 216,
+            "g": 211,
+            "r": 209,
+          },
+          "type": "opaque",
+        },
+        "name": "greyLight",
+        "original": Object {
+          "value": Object {
+            "a": 1,
+            "b": 216,
+            "g": 211,
+            "r": 209,
+          },
+        },
+        "path": Array [
+          "color",
+          "opaque",
+          "greyLight",
+        ],
+        "value": Object {
+          "hex": "#d1d3d8",
+          "hex8": "#d1d3d8ff",
+          "hsl": "hsl(223, 8%, 83%)",
+          "rgb": "rgb(209, 211, 216)",
+        },
+      },
+      "greyLighter": Object {
+        "attributes": Object {
+          "category": "color",
+          "hex": "e6eaeb",
+          "hsl": Object {
+            "a": 1,
+            "h": 192,
+            "l": 0.9117647058823529,
+            "s": 0.11111111111111062,
+          },
+          "hsv": Object {
+            "a": 1,
+            "h": 192,
+            "s": 0.021276595744680778,
+            "v": 0.9215686274509803,
+          },
+          "item": "greyLighter",
+          "rgb": Object {
+            "a": 1,
+            "b": 235,
+            "g": 234,
+            "r": 230,
+          },
+          "type": "opaque",
+        },
+        "name": "greyLighter",
+        "original": Object {
+          "value": Object {
+            "a": 1,
+            "b": 235,
+            "g": 234,
+            "r": 230,
+          },
+        },
+        "path": Array [
+          "color",
+          "opaque",
+          "greyLighter",
+        ],
+        "value": Object {
+          "hex": "#e6eaeb",
+          "hex8": "#e6eaebff",
+          "hsl": "hsl(192, 11%, 91%)",
+          "rgb": "rgb(230, 234, 235)",
+        },
+      },
+      "greyOslo": Object {
+        "attributes": Object {
+          "category": "color",
+          "hex": "859094",
+          "hsl": Object {
+            "a": 1,
+            "h": 196.00000000000006,
+            "l": 0.5509803921568628,
+            "s": 0.06550218340611356,
+          },
+          "hsv": Object {
+            "a": 1,
+            "h": 196.00000000000006,
+            "s": 0.10135135135135137,
+            "v": 0.5803921568627451,
+          },
+          "item": "greyOslo",
+          "rgb": Object {
+            "a": 1,
+            "b": 148,
+            "g": 144,
+            "r": 133,
+          },
+          "type": "opaque",
+        },
+        "name": "greyOslo",
+        "original": Object {
+          "value": Object {
+            "a": 1,
+            "b": 148,
+            "g": 144,
+            "r": 133,
+          },
+        },
+        "path": Array [
+          "color",
+          "opaque",
+          "greyOslo",
+        ],
+        "value": Object {
+          "hex": "#859094",
+          "hex8": "#859094ff",
+          "hsl": "hsl(196, 7%, 55%)",
+          "rgb": "rgb(133, 144, 148)",
+        },
+      },
+      "orange": Object {
+        "attributes": Object {
+          "category": "color",
+          "hex": "ff9400",
+          "hsl": Object {
+            "a": 1,
+            "h": 34.82352941176471,
+            "l": 0.5,
+            "s": 1,
+          },
+          "hsv": Object {
+            "a": 1,
+            "h": 34.82352941176471,
+            "s": 1,
+            "v": 1,
+          },
+          "item": "orange",
+          "rgb": Object {
+            "a": 1,
+            "b": 0,
+            "g": 148,
+            "r": 255,
+          },
+          "type": "opaque",
+        },
+        "name": "orange",
+        "original": Object {
+          "value": Object {
+            "a": 1,
+            "b": 0,
+            "g": 148,
+            "r": 255,
+          },
+        },
+        "path": Array [
+          "color",
+          "opaque",
+          "orange",
+        ],
+        "value": Object {
+          "hex": "#ff9400",
+          "hex8": "#ff9400ff",
+          "hsl": "hsl(35, 100%, 50%)",
+          "rgb": "rgb(255, 148, 0)",
+        },
+      },
+      "orangeDark": Object {
+        "attributes": Object {
+          "category": "color",
+          "hex": "ad662c",
+          "hsl": Object {
+            "a": 1,
+            "h": 26.976744186046517,
+            "l": 0.4254901960784314,
+            "s": 0.5944700460829492,
+          },
+          "hsv": Object {
+            "a": 1,
+            "h": 26.976744186046517,
+            "s": 0.745664739884393,
+            "v": 0.6784313725490196,
+          },
+          "item": "orangeDark",
+          "rgb": Object {
+            "a": 1,
+            "b": 44,
+            "g": 102,
+            "r": 173,
+          },
+          "type": "opaque",
+        },
+        "name": "orangeDark",
+        "original": Object {
+          "value": Object {
+            "a": 1,
+            "b": 44,
+            "g": 102,
+            "r": 173,
+          },
+        },
+        "path": Array [
+          "color",
+          "opaque",
+          "orangeDark",
+        ],
+        "value": Object {
+          "hex": "#ad662c",
+          "hex8": "#ad662cff",
+          "hsl": "hsl(27, 59%, 43%)",
+          "rgb": "rgb(173, 102, 44)",
+        },
+      },
+      "porcelain": Object {
+        "attributes": Object {
+          "category": "color",
+          "hex": "f0f4f5",
+          "hsl": Object {
+            "a": 1,
+            "h": 191.99999999999991,
+            "l": 0.9509803921568627,
+            "s": 0.20000000000000068,
+          },
+          "hsv": Object {
+            "a": 1,
+            "h": 191.99999999999991,
+            "s": 0.020408163265306166,
+            "v": 0.9607843137254902,
+          },
+          "item": "porcelain",
+          "rgb": Object {
+            "a": 1,
+            "b": 245,
+            "g": 244,
+            "r": 240,
+          },
+          "type": "opaque",
+        },
+        "name": "porcelain",
+        "original": Object {
+          "value": Object {
+            "a": 1,
+            "b": 245,
+            "g": 244,
+            "r": 240,
+          },
+        },
+        "path": Array [
+          "color",
+          "opaque",
+          "porcelain",
+        ],
+        "value": Object {
+          "hex": "#f0f4f5",
+          "hex8": "#f0f4f5ff",
+          "hsl": "hsl(192, 20%, 95%)",
+          "rgb": "rgb(240, 244, 245)",
+        },
+      },
+      "primary": Object {
+        "attributes": Object {
+          "category": "color",
+          "hex": "33aacc",
+          "hsl": Object {
+            "a": 1,
+            "h": 193.33333333333334,
+            "l": 0.5,
+            "s": 0.6000000000000001,
+          },
+          "hsv": Object {
+            "a": 1,
+            "h": 193.33333333333334,
+            "s": 0.7500000000000001,
+            "v": 0.8,
+          },
+          "item": "primary",
+          "rgb": Object {
+            "a": 1,
+            "b": 204,
+            "g": 170,
+            "r": 51,
+          },
+          "type": "opaque",
+        },
+        "name": "primary",
+        "original": Object {
+          "value": Object {
+            "a": 1,
+            "b": 204,
+            "g": 170,
+            "r": 51,
+          },
+        },
+        "path": Array [
+          "color",
+          "opaque",
+          "primary",
+        ],
+        "value": Object {
+          "hex": "#33aacc",
+          "hex8": "#33aaccff",
+          "hsl": "hsl(193, 60%, 50%)",
+          "rgb": "rgb(51, 170, 204)",
+        },
+      },
+      "primaryDark": Object {
+        "attributes": Object {
+          "category": "color",
+          "hex": "263e63",
+          "hsl": Object {
+            "a": 1,
+            "h": 216.39344262295083,
+            "l": 0.26862745098039215,
+            "s": 0.44525547445255476,
+          },
+          "hsv": Object {
+            "a": 1,
+            "h": 216.39344262295083,
+            "s": 0.6161616161616161,
+            "v": 0.38823529411764707,
+          },
+          "item": "primaryDark",
+          "rgb": Object {
+            "a": 1,
+            "b": 99,
+            "g": 62,
+            "r": 38,
+          },
+          "type": "opaque",
+        },
+        "name": "primaryDark",
+        "original": Object {
+          "value": Object {
+            "a": 1,
+            "b": 99,
+            "g": 62,
+            "r": 38,
+          },
+        },
+        "path": Array [
+          "color",
+          "opaque",
+          "primaryDark",
+        ],
+        "value": Object {
+          "hex": "#263e63",
+          "hex8": "#263e63ff",
+          "hsl": "hsl(216, 45%, 27%)",
+          "rgb": "rgb(38, 62, 99)",
+        },
+      },
+      "primaryDarker": Object {
+        "attributes": Object {
+          "category": "color",
+          "hex": "14243e",
+          "hsl": Object {
+            "a": 1,
+            "h": 217.14285714285714,
+            "l": 0.16078431372549018,
+            "s": 0.5121951219512195,
+          },
+          "hsv": Object {
+            "a": 1,
+            "h": 217.14285714285714,
+            "s": 0.6774193548387096,
+            "v": 0.24313725490196078,
+          },
+          "item": "primaryDarker",
+          "rgb": Object {
+            "a": 1,
+            "b": 62,
+            "g": 36,
+            "r": 20,
+          },
+          "type": "opaque",
+        },
+        "name": "primaryDarker",
+        "original": Object {
+          "value": Object {
+            "a": 1,
+            "b": 62,
+            "g": 36,
+            "r": 20,
+          },
+        },
+        "path": Array [
+          "color",
+          "opaque",
+          "primaryDarker",
+        ],
+        "value": Object {
+          "hex": "#14243e",
+          "hex8": "#14243eff",
+          "hsl": "hsl(217, 51%, 16%)",
+          "rgb": "rgb(20, 36, 62)",
+        },
+      },
+      "primaryDarkest": Object {
+        "attributes": Object {
+          "category": "color",
+          "hex": "0c1626",
+          "hsl": Object {
+            "a": 1,
+            "h": 216.9230769230769,
+            "l": 0.09803921568627451,
+            "s": 0.52,
+          },
+          "hsv": Object {
+            "a": 1,
+            "h": 216.9230769230769,
+            "s": 0.6842105263157895,
+            "v": 0.14901960784313725,
+          },
+          "item": "primaryDarkest",
+          "rgb": Object {
+            "a": 1,
+            "b": 38,
+            "g": 22,
+            "r": 12,
+          },
+          "type": "opaque",
+        },
+        "name": "primaryDarkest",
+        "original": Object {
+          "value": Object {
+            "a": 1,
+            "b": 38,
+            "g": 22,
+            "r": 12,
+          },
+        },
+        "path": Array [
+          "color",
+          "opaque",
+          "primaryDarkest",
+        ],
+        "value": Object {
+          "hex": "#0c1626",
+          "hex8": "#0c1626ff",
+          "hsl": "hsl(217, 52%, 10%)",
+          "rgb": "rgb(12, 22, 38)",
+        },
+      },
+      "primaryLight": Object {
+        "attributes": Object {
+          "category": "color",
+          "hex": "7ecce2",
+          "hsl": Object {
+            "a": 1,
+            "h": 193.2,
+            "l": 0.6901960784313725,
+            "s": 0.6329113924050632,
+          },
+          "hsv": Object {
+            "a": 1,
+            "h": 193.2,
+            "s": 0.44247787610619466,
+            "v": 0.8862745098039215,
+          },
+          "item": "primaryLight",
+          "rgb": Object {
+            "a": 1,
+            "b": 226,
+            "g": 204,
+            "r": 126,
+          },
+          "type": "opaque",
+        },
+        "name": "primaryLight",
+        "original": Object {
+          "value": Object {
+            "a": 1,
+            "b": 226,
+            "g": 204,
+            "r": 126,
+          },
+        },
+        "path": Array [
+          "color",
+          "opaque",
+          "primaryLight",
+        ],
+        "value": Object {
+          "hex": "#7ecce2",
+          "hex8": "#7ecce2ff",
+          "hsl": "hsl(193, 63%, 69%)",
+          "rgb": "rgb(126, 204, 226)",
+        },
+      },
+      "primaryLighter": Object {
+        "attributes": Object {
+          "category": "color",
+          "hex": "d5eaef",
+          "hsl": Object {
+            "a": 1,
+            "h": 191.53846153846155,
+            "l": 0.8862745098039215,
+            "s": 0.44827586206896547,
+          },
+          "hsv": Object {
+            "a": 1,
+            "h": 191.53846153846155,
+            "s": 0.10878661087866105,
+            "v": 0.9372549019607843,
+          },
+          "item": "primaryLighter",
+          "rgb": Object {
+            "a": 1,
+            "b": 239,
+            "g": 234,
+            "r": 213,
+          },
+          "type": "opaque",
+        },
+        "name": "primaryLighter",
+        "original": Object {
+          "value": Object {
+            "a": 1,
+            "b": 239,
+            "g": 234,
+            "r": 213,
+          },
+        },
+        "path": Array [
+          "color",
+          "opaque",
+          "primaryLighter",
+        ],
+        "value": Object {
+          "hex": "#d5eaef",
+          "hex8": "#d5eaefff",
+          "hsl": "hsl(192, 45%, 89%)",
+          "rgb": "rgb(213, 234, 239)",
+        },
+      },
+      "primaryLightest": Object {
+        "attributes": Object {
+          "category": "color",
+          "hex": "ebf4f7",
+          "hsl": Object {
+            "a": 1,
+            "h": 194.99999999999991,
+            "l": 0.9450980392156862,
+            "s": 0.42857142857142927,
+          },
+          "hsv": Object {
+            "a": 1,
+            "h": 194.99999999999991,
+            "s": 0.04858299595141706,
+            "v": 0.9686274509803922,
+          },
+          "item": "primaryLightest",
+          "rgb": Object {
+            "a": 1,
+            "b": 247,
+            "g": 244,
+            "r": 235,
+          },
+          "type": "opaque",
+        },
+        "name": "primaryLightest",
+        "original": Object {
+          "value": Object {
+            "a": 1,
+            "b": 247,
+            "g": 244,
+            "r": 235,
+          },
+        },
+        "path": Array [
+          "color",
+          "opaque",
+          "primaryLightest",
+        ],
+        "value": Object {
+          "hex": "#ebf4f7",
+          "hex8": "#ebf4f7ff",
+          "hsl": "hsl(195, 43%, 95%)",
+          "rgb": "rgb(235, 244, 247)",
+        },
+      },
+      "purple": Object {
+        "attributes": Object {
+          "category": "color",
+          "hex": "8468c4",
+          "hsl": Object {
+            "a": 1,
+            "h": 258.26086956521743,
+            "l": 0.5882352941176471,
+            "s": 0.4380952380952381,
+          },
+          "hsv": Object {
+            "a": 1,
+            "h": 258.26086956521743,
+            "s": 0.46938775510204084,
+            "v": 0.7686274509803922,
+          },
+          "item": "purple",
+          "rgb": Object {
+            "a": 1,
+            "b": 196,
+            "g": 104,
+            "r": 132,
+          },
+          "type": "opaque",
+        },
+        "name": "purple",
+        "original": Object {
+          "value": Object {
+            "a": 1,
+            "b": 196,
+            "g": 104,
+            "r": 132,
+          },
+        },
+        "path": Array [
+          "color",
+          "opaque",
+          "purple",
+        ],
+        "value": Object {
+          "hex": "#8468c4",
+          "hex8": "#8468c4ff",
+          "hsl": "hsl(258, 44%, 59%)",
+          "rgb": "rgb(132, 104, 196)",
+        },
+      },
+      "purpleDark": Object {
+        "attributes": Object {
+          "category": "color",
+          "hex": "5d488c",
+          "hsl": Object {
+            "a": 1,
+            "h": 258.52941176470586,
+            "l": 0.41568627450980394,
+            "s": 0.3207547169811321,
+          },
+          "hsv": Object {
+            "a": 1,
+            "h": 258.52941176470586,
+            "s": 0.48571428571428577,
+            "v": 0.5490196078431373,
+          },
+          "item": "purpleDark",
+          "rgb": Object {
+            "a": 1,
+            "b": 140,
+            "g": 72,
+            "r": 93,
+          },
+          "type": "opaque",
+        },
+        "name": "purpleDark",
+        "original": Object {
+          "value": Object {
+            "a": 1,
+            "b": 140,
+            "g": 72,
+            "r": 93,
+          },
+        },
+        "path": Array [
+          "color",
+          "opaque",
+          "purpleDark",
+        ],
+        "value": Object {
+          "hex": "#5d488c",
+          "hex8": "#5d488cff",
+          "hsl": "hsl(259, 32%, 42%)",
+          "rgb": "rgb(93, 72, 140)",
+        },
+      },
+      "purpleLight": Object {
+        "attributes": Object {
+          "category": "color",
+          "hex": "a786f3",
+          "hsl": Object {
+            "a": 1,
+            "h": 258.1651376146789,
+            "l": 0.7392156862745098,
+            "s": 0.8195488721804509,
+          },
+          "hsv": Object {
+            "a": 1,
+            "h": 258.1651376146789,
+            "s": 0.44855967078189296,
+            "v": 0.9529411764705882,
+          },
+          "item": "purpleLight",
+          "rgb": Object {
+            "a": 1,
+            "b": 243,
+            "g": 134,
+            "r": 167,
+          },
+          "type": "opaque",
+        },
+        "name": "purpleLight",
+        "original": Object {
+          "value": Object {
+            "a": 1,
+            "b": 243,
+            "g": 134,
+            "r": 167,
+          },
+        },
+        "path": Array [
+          "color",
+          "opaque",
+          "purpleLight",
+        ],
+        "value": Object {
+          "hex": "#a786f3",
+          "hex8": "#a786f3ff",
+          "hsl": "hsl(258, 82%, 74%)",
+          "rgb": "rgb(167, 134, 243)",
+        },
+      },
+      "raven": Object {
+        "attributes": Object {
+          "category": "color",
+          "hex": "737a80",
+          "hsl": Object {
+            "a": 1,
+            "h": 207.69230769230768,
+            "l": 0.4764705882352941,
+            "s": 0.05349794238683126,
+          },
+          "hsv": Object {
+            "a": 1,
+            "h": 207.69230769230768,
+            "s": 0.10156249999999997,
+            "v": 0.5019607843137255,
+          },
+          "item": "raven",
+          "rgb": Object {
+            "a": 1,
+            "b": 128,
+            "g": 122,
+            "r": 115,
+          },
+          "type": "opaque",
+        },
+        "name": "raven",
+        "original": Object {
+          "value": Object {
+            "a": 1,
+            "b": 128,
+            "g": 122,
+            "r": 115,
+          },
+        },
+        "path": Array [
+          "color",
+          "opaque",
+          "raven",
+        ],
+        "value": Object {
+          "hex": "#737a80",
+          "hex8": "#737a80ff",
+          "hsl": "hsl(208, 5%, 48%)",
+          "rgb": "rgb(115, 122, 128)",
+        },
+      },
+      "red": Object {
+        "attributes": Object {
+          "category": "color",
+          "hex": "fe5c5c",
+          "hsl": Object {
+            "a": 1,
+            "h": 0,
+            "l": 0.6784313725490196,
+            "s": 0.9878048780487805,
+          },
+          "hsv": Object {
+            "a": 1,
+            "h": 0,
+            "s": 0.6377952755905512,
+            "v": 0.996078431372549,
+          },
+          "item": "red",
+          "rgb": Object {
+            "a": 1,
+            "b": 92,
+            "g": 92,
+            "r": 254,
+          },
+          "type": "opaque",
+        },
+        "name": "red",
+        "original": Object {
+          "value": Object {
+            "a": 1,
+            "b": 92,
+            "g": 92,
+            "r": 254,
+          },
+        },
+        "path": Array [
+          "color",
+          "opaque",
+          "red",
+        ],
+        "value": Object {
+          "hex": "#fe5c5c",
+          "hex8": "#fe5c5cff",
+          "hsl": "hsl(0, 99%, 68%)",
+          "rgb": "rgb(254, 92, 92)",
+        },
+      },
+      "redLight": Object {
+        "attributes": Object {
+          "category": "color",
+          "hex": "ffb5b5",
+          "hsl": Object {
+            "a": 1,
+            "h": 0,
+            "l": 0.8549019607843138,
+            "s": 1,
+          },
+          "hsv": Object {
+            "a": 1,
+            "h": 0,
+            "s": 0.2901960784313725,
+            "v": 1,
+          },
+          "item": "redLight",
+          "rgb": Object {
+            "a": 1,
+            "b": 181,
+            "g": 181,
+            "r": 255,
+          },
+          "type": "opaque",
+        },
+        "name": "redLight",
+        "original": Object {
+          "value": Object {
+            "a": 1,
+            "b": 181,
+            "g": 181,
+            "r": 255,
+          },
+        },
+        "path": Array [
+          "color",
+          "opaque",
+          "redLight",
+        ],
+        "value": Object {
+          "hex": "#ffb5b5",
+          "hex8": "#ffb5b5ff",
+          "hsl": "hsl(0, 100%, 85%)",
+          "rgb": "rgb(255, 181, 181)",
+        },
+      },
+      "secondary": Object {
+        "attributes": Object {
+          "category": "color",
+          "hex": "ffc844",
+          "hsl": Object {
+            "a": 1,
+            "h": 42.35294117647058,
+            "l": 0.6333333333333333,
+            "s": 1,
+          },
+          "hsv": Object {
+            "a": 1,
+            "h": 42.35294117647058,
+            "s": 0.7333333333333334,
+            "v": 1,
+          },
+          "item": "secondary",
+          "rgb": Object {
+            "a": 1,
+            "b": 68,
+            "g": 200,
+            "r": 255,
+          },
+          "type": "opaque",
+        },
+        "name": "secondary",
+        "original": Object {
+          "value": Object {
+            "a": 1,
+            "b": 68,
+            "g": 200,
+            "r": 255,
+          },
+        },
+        "path": Array [
+          "color",
+          "opaque",
+          "secondary",
+        ],
+        "value": Object {
+          "hex": "#ffc844",
+          "hex8": "#ffc844ff",
+          "hsl": "hsl(42, 100%, 63%)",
+          "rgb": "rgb(255, 200, 68)",
+        },
+      },
+      "secondaryLight": Object {
+        "attributes": Object {
+          "category": "color",
+          "hex": "fbe28d",
+          "hsl": Object {
+            "a": 1,
+            "h": 46.36363636363636,
+            "l": 0.7686274509803921,
+            "s": 0.9322033898305084,
+          },
+          "hsv": Object {
+            "a": 1,
+            "h": 46.36363636363636,
+            "s": 0.4382470119521912,
+            "v": 0.984313725490196,
+          },
+          "item": "secondaryLight",
+          "rgb": Object {
+            "a": 1,
+            "b": 141,
+            "g": 226,
+            "r": 251,
+          },
+          "type": "opaque",
+        },
+        "name": "secondaryLight",
+        "original": Object {
+          "value": Object {
+            "a": 1,
+            "b": 141,
+            "g": 226,
+            "r": 251,
+          },
+        },
+        "path": Array [
+          "color",
+          "opaque",
+          "secondaryLight",
+        ],
+        "value": Object {
+          "hex": "#fbe28d",
+          "hex8": "#fbe28dff",
+          "hsl": "hsl(46, 93%, 77%)",
+          "rgb": "rgb(251, 226, 141)",
+        },
+      },
+      "white": Object {
+        "attributes": Object {
+          "category": "color",
+          "hex": "ffffff",
+          "hsl": Object {
+            "a": 1,
+            "h": 0,
+            "l": 1,
+            "s": 0,
+          },
+          "hsv": Object {
+            "a": 1,
+            "h": 0,
+            "s": 0,
+            "v": 1,
+          },
+          "item": "white",
+          "rgb": Object {
+            "a": 1,
+            "b": 255,
+            "g": 255,
+            "r": 255,
+          },
+          "type": "opaque",
+        },
+        "name": "white",
+        "original": Object {
+          "value": Object {
+            "a": 1,
+            "b": 255,
+            "g": 255,
+            "r": 255,
+          },
+        },
+        "path": Array [
+          "color",
+          "opaque",
+          "white",
+        ],
+        "value": Object {
+          "hex": "#ffffff",
+          "hex8": "#ffffffff",
+          "hsl": "hsl(0, 0%, 100%)",
+          "rgb": "rgb(255, 255, 255)",
+        },
+      },
+    },
+    "transparent": Object {
+      "blackTransparent": Object {
+        "attributes": Object {
+          "category": "color",
+          "hex": "000000",
+          "hsl": Object {
+            "a": 0.2,
+            "h": 0,
+            "l": 0,
+            "s": 0,
+          },
+          "hsv": Object {
+            "a": 0.2,
+            "h": 0,
+            "s": 0,
+            "v": 0,
+          },
+          "item": "blackTransparent",
+          "rgb": Object {
+            "a": 0.2,
+            "b": 0,
+            "g": 0,
+            "r": 0,
+          },
+          "type": "transparent",
+        },
+        "name": "blackTransparent",
+        "original": Object {
+          "value": Object {
+            "a": 0.2,
+            "b": 0,
+            "g": 0,
+            "r": 0,
+          },
+        },
+        "path": Array [
+          "color",
+          "transparent",
+          "blackTransparent",
+        ],
+        "value": Object {
+          "hex8": "#00000033",
+          "hsl": "hsla(0, 0%, 0%, 0.2)",
+          "rgb": "rgba(0, 0, 0, 0.2)",
+        },
+      },
+      "whiteTransparent": Object {
+        "attributes": Object {
+          "category": "color",
+          "hex": "000000",
+          "hsl": Object {
+            "a": 0.2,
+            "h": 0,
+            "l": 0,
+            "s": 0,
+          },
+          "hsv": Object {
+            "a": 0.2,
+            "h": 0,
+            "s": 0,
+            "v": 0,
+          },
+          "item": "whiteTransparent",
+          "rgb": Object {
+            "a": 0.2,
+            "b": 0,
+            "g": 0,
+            "r": 0,
+          },
+          "type": "transparent",
+        },
+        "name": "whiteTransparent",
+        "original": Object {
+          "value": Object {
+            "a": 0.2,
+            "b": 255,
+            "g": 255,
+            "r": 255,
+          },
+        },
+        "path": Array [
+          "color",
+          "transparent",
+          "whiteTransparent",
+        ],
+        "value": Object {
+          "hex8": "#ffffff33",
+          "hsl": "hsla(0, 0%, 100%, 0.2)",
+          "rgb": "rgba(255, 255, 255, 0.2)",
+        },
+      },
+    },
+  },
+  "gradient": Object {
+    "blueLight": Object {
+      "attributes": Object {
+        "category": "gradient",
+        "type": "blueLight",
+      },
+      "name": "blueLight",
+      "original": Object {
+        "value": Object {
+          "angle": "-143",
+          "end": "#7099d7",
+          "start": "#7dd4e7",
+        },
+      },
+      "path": Array [
+        "gradient",
+        "blueLight",
+      ],
+      "value": "linear-gradient(-143deg, #7dd4e7, #7099d7)",
+    },
+    "chambrayCloudburst": Object {
+      "attributes": Object {
+        "category": "gradient",
+        "type": "chambrayCloudburst",
+      },
+      "name": "chambrayCloudburst",
+      "original": Object {
+        "value": Object {
+          "angle": "268",
+          "end": "#1c3050",
+          "start": "#405f8f",
+        },
+      },
+      "path": Array [
+        "gradient",
+        "chambrayCloudburst",
+      ],
+      "value": "linear-gradient(268deg, #405f8f, #1c3050)",
+    },
+    "grey": Object {
+      "attributes": Object {
+        "category": "gradient",
+        "type": "grey",
+      },
+      "name": "grey",
+      "original": Object {
+        "value": Object {
+          "angle": "-135",
+          "end": "#b6d1e5",
+          "start": "#e7f1f6",
+        },
+      },
+      "path": Array [
+        "gradient",
+        "grey",
+      ],
+      "value": "linear-gradient(-135deg, #e7f1f6, #b6d1e5)",
+    },
+    "primary": Object {
+      "attributes": Object {
+        "category": "gradient",
+        "type": "primary",
+      },
+      "name": "primary",
+      "original": Object {
+        "value": Object {
+          "angle": "141",
+          "end": "#{color.opaque.primary.attributes.hex}",
+          "start": "#2388b0",
+        },
+      },
+      "path": Array [
+        "gradient",
+        "primary",
+      ],
+      "value": "linear-gradient(141deg, #2388b0, #33aacc)",
+    },
+    "primaryDark": Object {
+      "attributes": Object {
+        "category": "gradient",
+        "type": "primaryDark",
+      },
+      "name": "primaryDark",
+      "original": Object {
+        "value": Object {
+          "angle": "141",
+          "end": "#164d62",
+          "start": "#20748d",
+        },
+      },
+      "path": Array [
+        "gradient",
+        "primaryDark",
+      ],
+      "value": "linear-gradient(141deg, #20748d, #164d62)",
+    },
+    "primaryLight": Object {
+      "attributes": Object {
+        "category": "gradient",
+        "type": "primaryLight",
+      },
+      "name": "primaryLight",
+      "original": Object {
+        "value": Object {
+          "angle": "{size.spatial.angle.180.value}",
+          "end": "rgba(51, 170, 204, 0.075)",
+          "start": "rgba(255, 255, 255, 0)",
+        },
+      },
+      "path": Array [
+        "gradient",
+        "primaryLight",
+      ],
+      "value": "linear-gradient(180deg, rgba(255, 255, 255, 0), rgba(51, 170, 204, 0.08))",
+    },
+    "puertoricoDeyork": Object {
+      "attributes": Object {
+        "category": "gradient",
+        "type": "puertoricoDeyork",
+      },
+      "name": "puertoricoDeyork",
+      "original": Object {
+        "value": Object {
+          "angle": "32",
+          "end": "#75c97e",
+          "start": "#37bbab",
+        },
+      },
+      "path": Array [
+        "gradient",
+        "puertoricoDeyork",
+      ],
+      "value": "linear-gradient(32deg, #37bbab, #75c97e)",
+    },
+    "purple": Object {
+      "attributes": Object {
+        "category": "gradient",
+        "type": "purple",
+      },
+      "name": "purple",
+      "original": Object {
+        "value": Object {
+          "angle": "-136",
+          "end": "#{color.opaque.purple.attributes.hex}",
+          "start": "#c06ac8",
+        },
+      },
+      "path": Array [
+        "gradient",
+        "purple",
+      ],
+      "value": "linear-gradient(-136deg, #c06ac8, #8468c4)",
+    },
+    "red": Object {
+      "attributes": Object {
+        "category": "gradient",
+        "type": "red",
+      },
+      "name": "red",
+      "original": Object {
+        "value": Object {
+          "angle": "{size.spatial.angle.45.value}",
+          "end": "#f6a38d",
+          "start": "#f06a8c",
+        },
+      },
+      "path": Array [
+        "gradient",
+        "red",
+      ],
+      "value": "linear-gradient(45deg, #f06a8c, #f6a38d)",
+    },
+    "redLight": Object {
+      "attributes": Object {
+        "category": "gradient",
+        "type": "redLight",
+      },
+      "name": "redLight",
+      "original": Object {
+        "value": Object {
+          "angle": "{size.spatial.angle.180.value}",
+          "end": "rgba(254, 92, 92, 0.075)",
+          "start": "rgba(255, 255, 255, 0)",
+        },
+      },
+      "path": Array [
+        "gradient",
+        "redLight",
+      ],
+      "value": "linear-gradient(180deg, rgba(255, 255, 255, 0), rgba(254, 92, 92, 0.08))",
+    },
+    "secondary": Object {
+      "attributes": Object {
+        "category": "gradient",
+        "type": "secondary",
+      },
+      "name": "secondary",
+      "original": Object {
+        "value": Object {
+          "angle": "0",
+          "end": "#fcd86c",
+          "start": "#{color.opaque.secondary.attributes.hex}",
+        },
+      },
+      "path": Array [
+        "gradient",
+        "secondary",
+      ],
+      "value": "linear-gradient(0deg, #ffc844, #fcd86c)",
+    },
+    "turquoise": Object {
+      "attributes": Object {
+        "category": "gradient",
+        "type": "turquoise",
+      },
+      "name": "turquoise",
+      "original": Object {
+        "value": Object {
+          "angle": "-135",
+          "end": "#78c8de",
+          "start": "#b8eef4",
+        },
+      },
+      "path": Array [
+        "gradient",
+        "turquoise",
+      ],
+      "value": "linear-gradient(-135deg, #b8eef4, #78c8de)",
+    },
+  },
+  "size": Object {
+    "border": Object {
+      "radius": Object {
+        "attributes": Object {
+          "category": "size",
+          "item": "radius",
+          "type": "border",
+        },
+        "name": "radius",
+        "original": Object {
+          "value": "4px",
+        },
+        "path": Array [
+          "size",
+          "border",
+          "radius",
+        ],
+        "value": "4px",
+      },
+    },
+    "font": Object {
+      "base": Object {
+        "attributes": Object {
+          "category": "size",
+          "item": "base",
+          "type": "font",
+        },
+        "name": "base",
+        "original": Object {
+          "value": "16px",
+        },
+        "path": Array [
+          "size",
+          "font",
+          "base",
+        ],
+        "value": "16px",
+      },
+      "h1": Object {
+        "attributes": Object {
+          "category": "size",
+          "item": "h1",
+          "type": "font",
+        },
+        "name": "h1",
+        "original": Object {
+          "value": "2.5rem",
+        },
+        "path": Array [
+          "size",
+          "font",
+          "h1",
+        ],
+        "value": "2.5rem",
+      },
+      "h2": Object {
+        "attributes": Object {
+          "category": "size",
+          "item": "h2",
+          "type": "font",
+        },
+        "name": "h2",
+        "original": Object {
+          "value": "2rem",
+        },
+        "path": Array [
+          "size",
+          "font",
+          "h2",
+        ],
+        "value": "2rem",
+      },
+      "h3": Object {
+        "attributes": Object {
+          "category": "size",
+          "item": "h3",
+          "type": "font",
+        },
+        "name": "h3",
+        "original": Object {
+          "value": "1.5rem",
+        },
+        "path": Array [
+          "size",
+          "font",
+          "h3",
+        ],
+        "value": "1.5rem",
+      },
+      "h4": Object {
+        "attributes": Object {
+          "category": "size",
+          "item": "h4",
+          "type": "font",
+        },
+        "name": "h4",
+        "original": Object {
+          "value": "1.25rem",
+        },
+        "path": Array [
+          "size",
+          "font",
+          "h4",
+        ],
+        "value": "1.25rem",
+      },
+      "h5": Object {
+        "attributes": Object {
+          "category": "size",
+          "item": "h5",
+          "type": "font",
+        },
+        "name": "h5",
+        "original": Object {
+          "value": "1.125rem",
+        },
+        "path": Array [
+          "size",
+          "font",
+          "h5",
+        ],
+        "value": "1.125rem",
+      },
+      "h6": Object {
+        "attributes": Object {
+          "category": "size",
+          "item": "h6",
+          "type": "font",
+        },
+        "name": "h6",
+        "original": Object {
+          "value": "1rem",
+        },
+        "path": Array [
+          "size",
+          "font",
+          "h6",
+        ],
+        "value": "1rem",
+      },
+      "micro": Object {
+        "attributes": Object {
+          "category": "size",
+          "item": "micro",
+          "type": "font",
+        },
+        "name": "micro",
+        "original": Object {
+          "value": "0.75rem",
+        },
+        "path": Array [
+          "size",
+          "font",
+          "micro",
+        ],
+        "value": "0.75rem",
+      },
+      "small": Object {
+        "attributes": Object {
+          "category": "size",
+          "item": "small",
+          "type": "font",
+        },
+        "name": "small",
+        "original": Object {
+          "value": "0.875rem",
+        },
+        "path": Array [
+          "size",
+          "font",
+          "small",
+        ],
+        "value": "0.875rem",
+      },
+    },
+    "fontWeight": Object {
+      "bold": Object {
+        "attributes": Object {
+          "category": "size",
+          "item": "bold",
+          "type": "fontWeight",
+        },
+        "name": "bold",
+        "original": Object {
+          "value": "700",
+        },
+        "path": Array [
+          "size",
+          "fontWeight",
+          "bold",
+        ],
+        "value": "700",
+      },
+      "light": Object {
+        "attributes": Object {
+          "category": "size",
+          "item": "light",
+          "type": "fontWeight",
+        },
+        "name": "light",
+        "original": Object {
+          "value": "300",
+        },
+        "path": Array [
+          "size",
+          "fontWeight",
+          "light",
+        ],
+        "value": "300",
+      },
+      "regular": Object {
+        "attributes": Object {
+          "category": "size",
+          "item": "regular",
+          "type": "fontWeight",
+        },
+        "name": "regular",
+        "original": Object {
+          "value": "400",
+        },
+        "path": Array [
+          "size",
+          "fontWeight",
+          "regular",
+        ],
+        "value": "400",
+      },
+    },
+    "lineHeight": Object {
+      "base": Object {
+        "attributes": Object {
+          "category": "size",
+          "item": "base",
+          "type": "lineHeight",
+        },
+        "name": "base",
+        "original": Object {
+          "value": "1.5",
+        },
+        "path": Array [
+          "size",
+          "lineHeight",
+          "base",
+        ],
+        "value": "1.5",
+      },
+      "heading": Object {
+        "attributes": Object {
+          "category": "size",
+          "item": "heading",
+          "type": "lineHeight",
+        },
+        "name": "heading",
+        "original": Object {
+          "value": "1.25",
+        },
+        "path": Array [
+          "size",
+          "lineHeight",
+          "heading",
+        ],
+        "value": "1.25",
+      },
+    },
+    "spatial": Object {
+      "angle": Object {
+        "180": Object {
+          "attributes": Object {
+            "category": "size",
+            "item": "angle",
+            "subitem": "180",
+            "type": "spatial",
+          },
+          "name": "180",
+          "original": Object {
+            "value": "180",
+          },
+          "path": Array [
+            "size",
+            "spatial",
+            "angle",
+            "180",
+          ],
+          "value": "180",
+        },
+        "270": Object {
+          "attributes": Object {
+            "category": "size",
+            "item": "angle",
+            "subitem": "270",
+            "type": "spatial",
+          },
+          "name": "270",
+          "original": Object {
+            "value": "270",
+          },
+          "path": Array [
+            "size",
+            "spatial",
+            "angle",
+            "270",
+          ],
+          "value": "270",
+        },
+        "30": Object {
+          "attributes": Object {
+            "category": "size",
+            "item": "angle",
+            "subitem": "30",
+            "type": "spatial",
+          },
+          "name": "30",
+          "original": Object {
+            "value": "30",
+          },
+          "path": Array [
+            "size",
+            "spatial",
+            "angle",
+            "30",
+          ],
+          "value": "30",
+        },
+        "360": Object {
+          "attributes": Object {
+            "category": "size",
+            "item": "angle",
+            "subitem": "360",
+            "type": "spatial",
+          },
+          "name": "360",
+          "original": Object {
+            "value": "360",
+          },
+          "path": Array [
+            "size",
+            "spatial",
+            "angle",
+            "360",
+          ],
+          "value": "360",
+        },
+        "45": Object {
+          "attributes": Object {
+            "category": "size",
+            "item": "angle",
+            "subitem": "45",
+            "type": "spatial",
+          },
+          "name": "45",
+          "original": Object {
+            "value": "45",
+          },
+          "path": Array [
+            "size",
+            "spatial",
+            "angle",
+            "45",
+          ],
+          "value": "45",
+        },
+        "60": Object {
+          "attributes": Object {
+            "category": "size",
+            "item": "angle",
+            "subitem": "60",
+            "type": "spatial",
+          },
+          "name": "60",
+          "original": Object {
+            "value": "60",
+          },
+          "path": Array [
+            "size",
+            "spatial",
+            "angle",
+            "60",
+          ],
+          "value": "60",
+        },
+        "90": Object {
+          "attributes": Object {
+            "category": "size",
+            "item": "angle",
+            "subitem": "90",
+            "type": "spatial",
+          },
+          "name": "90",
+          "original": Object {
+            "value": "90",
+          },
+          "path": Array [
+            "size",
+            "spatial",
+            "angle",
+            "90",
+          ],
+          "value": "90",
+        },
+      },
+      "commonSize": Object {
+        "12": Object {
+          "attributes": Object {
+            "category": "size",
+            "item": "commonSize",
+            "subitem": "12",
+            "type": "spatial",
+          },
+          "name": "12",
+          "original": Object {
+            "value": "{size.spatial.size.12.value}",
+          },
+          "path": Array [
+            "size",
+            "spatial",
+            "commonSize",
+            "12",
+          ],
+          "value": "12",
+        },
+        "16": Object {
+          "attributes": Object {
+            "category": "size",
+            "item": "commonSize",
+            "subitem": "16",
+            "type": "spatial",
+          },
+          "name": "16",
+          "original": Object {
+            "value": "{size.spatial.size.16.value}",
+          },
+          "path": Array [
+            "size",
+            "spatial",
+            "commonSize",
+            "16",
+          ],
+          "value": "16",
+        },
+        "24": Object {
+          "attributes": Object {
+            "category": "size",
+            "item": "commonSize",
+            "subitem": "24",
+            "type": "spatial",
+          },
+          "name": "24",
+          "original": Object {
+            "value": "{size.spatial.size.24.value}",
+          },
+          "path": Array [
+            "size",
+            "spatial",
+            "commonSize",
+            "24",
+          ],
+          "value": "24",
+        },
+        "32": Object {
+          "attributes": Object {
+            "category": "size",
+            "item": "commonSize",
+            "subitem": "32",
+            "type": "spatial",
+          },
+          "name": "32",
+          "original": Object {
+            "value": "{size.spatial.size.32.value}",
+          },
+          "path": Array [
+            "size",
+            "spatial",
+            "commonSize",
+            "32",
+          ],
+          "value": "32",
+        },
+        "36": Object {
+          "attributes": Object {
+            "category": "size",
+            "item": "commonSize",
+            "subitem": "36",
+            "type": "spatial",
+          },
+          "name": "36",
+          "original": Object {
+            "value": "{size.spatial.size.36.value}",
+          },
+          "path": Array [
+            "size",
+            "spatial",
+            "commonSize",
+            "36",
+          ],
+          "value": "36",
+        },
+        "48": Object {
+          "attributes": Object {
+            "category": "size",
+            "item": "commonSize",
+            "subitem": "48",
+            "type": "spatial",
+          },
+          "name": "48",
+          "original": Object {
+            "value": "{size.spatial.size.48.value}",
+          },
+          "path": Array [
+            "size",
+            "spatial",
+            "commonSize",
+            "48",
+          ],
+          "value": "48",
+        },
+        "64": Object {
+          "attributes": Object {
+            "category": "size",
+            "item": "commonSize",
+            "subitem": "64",
+            "type": "spatial",
+          },
+          "name": "64",
+          "original": Object {
+            "value": "{size.spatial.size.64.value}",
+          },
+          "path": Array [
+            "size",
+            "spatial",
+            "commonSize",
+            "64",
+          ],
+          "value": "64",
+        },
+        "8": Object {
+          "attributes": Object {
+            "category": "size",
+            "item": "commonSize",
+            "subitem": "8",
+            "type": "spatial",
+          },
+          "name": "8",
+          "original": Object {
+            "value": "{size.spatial.size.8.value}",
+          },
+          "path": Array [
+            "size",
+            "spatial",
+            "commonSize",
+            "8",
+          ],
+          "value": "8",
+        },
+      },
+      "measure": Object {
+        "160": Object {
+          "attributes": Object {
+            "category": "size",
+            "item": "measure",
+            "subitem": "160",
+            "type": "spatial",
+          },
+          "name": "160",
+          "original": Object {
+            "value": "160",
+          },
+          "path": Array [
+            "size",
+            "spatial",
+            "measure",
+            "160",
+          ],
+          "value": "160",
+        },
+        "192": Object {
+          "attributes": Object {
+            "category": "size",
+            "item": "measure",
+            "subitem": "192",
+            "type": "spatial",
+          },
+          "name": "192",
+          "original": Object {
+            "value": "192",
+          },
+          "path": Array [
+            "size",
+            "spatial",
+            "measure",
+            "192",
+          ],
+          "value": "192",
+        },
+        "256": Object {
+          "attributes": Object {
+            "category": "size",
+            "item": "measure",
+            "subitem": "256",
+            "type": "spatial",
+          },
+          "name": "256",
+          "original": Object {
+            "value": "256",
+          },
+          "path": Array [
+            "size",
+            "spatial",
+            "measure",
+            "256",
+          ],
+          "value": "256",
+        },
+        "320": Object {
+          "attributes": Object {
+            "category": "size",
+            "item": "measure",
+            "subitem": "320",
+            "type": "spatial",
+          },
+          "name": "320",
+          "original": Object {
+            "value": "320",
+          },
+          "path": Array [
+            "size",
+            "spatial",
+            "measure",
+            "320",
+          ],
+          "value": "320",
+        },
+        "480": Object {
+          "attributes": Object {
+            "category": "size",
+            "item": "measure",
+            "subitem": "480",
+            "type": "spatial",
+          },
+          "name": "480",
+          "original": Object {
+            "value": "480",
+          },
+          "path": Array [
+            "size",
+            "spatial",
+            "measure",
+            "480",
+          ],
+          "value": "480",
+        },
+        "640": Object {
+          "attributes": Object {
+            "category": "size",
+            "item": "measure",
+            "subitem": "640",
+            "type": "spatial",
+          },
+          "name": "640",
+          "original": Object {
+            "value": "640",
+          },
+          "path": Array [
+            "size",
+            "spatial",
+            "measure",
+            "640",
+          ],
+          "value": "640",
+        },
+        "800": Object {
+          "attributes": Object {
+            "category": "size",
+            "item": "measure",
+            "subitem": "800",
+            "type": "spatial",
+          },
+          "name": "800",
+          "original": Object {
+            "value": "800",
+          },
+          "path": Array [
+            "size",
+            "spatial",
+            "measure",
+            "800",
+          ],
+          "value": "800",
+        },
+        "960": Object {
+          "attributes": Object {
+            "category": "size",
+            "item": "measure",
+            "subitem": "960",
+            "type": "spatial",
+          },
+          "name": "960",
+          "original": Object {
+            "value": "960",
+          },
+          "path": Array [
+            "size",
+            "spatial",
+            "measure",
+            "960",
+          ],
+          "value": "960",
+        },
+      },
+      "multiplier": Object {
+        "attributes": Object {
+          "category": "size",
+          "item": "multiplier",
+          "type": "spatial",
+        },
+        "name": "multiplier",
+        "original": Object {
+          "value": "2",
+        },
+        "path": Array [
+          "size",
+          "spatial",
+          "multiplier",
+        ],
+        "value": "2",
+      },
+      "percentage": Object {
+        "1": Object {
+          "attributes": Object {
+            "category": "size",
+            "item": "percentage",
+            "subitem": "1",
+            "type": "spatial",
+          },
+          "name": "1",
+          "original": Object {
+            "value": "1",
+          },
+          "path": Array [
+            "size",
+            "spatial",
+            "percentage",
+            "1",
+          ],
+          "value": "1",
+        },
+        "10": Object {
+          "attributes": Object {
+            "category": "size",
+            "item": "percentage",
+            "subitem": "10",
+            "type": "spatial",
+          },
+          "name": "10",
+          "original": Object {
+            "value": "10",
+          },
+          "path": Array [
+            "size",
+            "spatial",
+            "percentage",
+            "10",
+          ],
+          "value": "10",
+        },
+        "100": Object {
+          "attributes": Object {
+            "category": "size",
+            "item": "percentage",
+            "subitem": "100",
+            "type": "spatial",
+          },
+          "name": "100",
+          "original": Object {
+            "value": "100",
+          },
+          "path": Array [
+            "size",
+            "spatial",
+            "percentage",
+            "100",
+          ],
+          "value": "100",
+        },
+        "15": Object {
+          "attributes": Object {
+            "category": "size",
+            "item": "percentage",
+            "subitem": "15",
+            "type": "spatial",
+          },
+          "name": "15",
+          "original": Object {
+            "value": "15",
+          },
+          "path": Array [
+            "size",
+            "spatial",
+            "percentage",
+            "15",
+          ],
+          "value": "15",
+        },
+        "20": Object {
+          "attributes": Object {
+            "category": "size",
+            "item": "percentage",
+            "subitem": "20",
+            "type": "spatial",
+          },
+          "name": "20",
+          "original": Object {
+            "value": "20",
+          },
+          "path": Array [
+            "size",
+            "spatial",
+            "percentage",
+            "20",
+          ],
+          "value": "20",
+        },
+        "25": Object {
+          "attributes": Object {
+            "category": "size",
+            "item": "percentage",
+            "subitem": "25",
+            "type": "spatial",
+          },
+          "name": "25",
+          "original": Object {
+            "value": "25",
+          },
+          "path": Array [
+            "size",
+            "spatial",
+            "percentage",
+            "25",
+          ],
+          "value": "25",
+        },
+        "30": Object {
+          "attributes": Object {
+            "category": "size",
+            "item": "percentage",
+            "subitem": "30",
+            "type": "spatial",
+          },
+          "name": "30",
+          "original": Object {
+            "value": "30",
+          },
+          "path": Array [
+            "size",
+            "spatial",
+            "percentage",
+            "30",
+          ],
+          "value": "30",
+        },
+        "40": Object {
+          "attributes": Object {
+            "category": "size",
+            "item": "percentage",
+            "subitem": "40",
+            "type": "spatial",
+          },
+          "name": "40",
+          "original": Object {
+            "value": "40",
+          },
+          "path": Array [
+            "size",
+            "spatial",
+            "percentage",
+            "40",
+          ],
+          "value": "40",
+        },
+        "44": Object {
+          "attributes": Object {
+            "category": "size",
+            "item": "percentage",
+            "subitem": "44",
+            "type": "spatial",
+          },
+          "name": "44",
+          "original": Object {
+            "value": "44",
+          },
+          "path": Array [
+            "size",
+            "spatial",
+            "percentage",
+            "44",
+          ],
+          "value": "44",
+        },
+        "5": Object {
+          "attributes": Object {
+            "category": "size",
+            "item": "percentage",
+            "subitem": "5",
+            "type": "spatial",
+          },
+          "name": "5",
+          "original": Object {
+            "value": "5",
+          },
+          "path": Array [
+            "size",
+            "spatial",
+            "percentage",
+            "5",
+          ],
+          "value": "5",
+        },
+        "50": Object {
+          "attributes": Object {
+            "category": "size",
+            "item": "percentage",
+            "subitem": "50",
+            "type": "spatial",
+          },
+          "name": "50",
+          "original": Object {
+            "value": "50",
+          },
+          "path": Array [
+            "size",
+            "spatial",
+            "percentage",
+            "50",
+          ],
+          "value": "50",
+        },
+        "60": Object {
+          "attributes": Object {
+            "category": "size",
+            "item": "percentage",
+            "subitem": "60",
+            "type": "spatial",
+          },
+          "name": "60",
+          "original": Object {
+            "value": "60",
+          },
+          "path": Array [
+            "size",
+            "spatial",
+            "percentage",
+            "60",
+          ],
+          "value": "60",
+        },
+        "70": Object {
+          "attributes": Object {
+            "category": "size",
+            "item": "percentage",
+            "subitem": "70",
+            "type": "spatial",
+          },
+          "name": "70",
+          "original": Object {
+            "value": "70",
+          },
+          "path": Array [
+            "size",
+            "spatial",
+            "percentage",
+            "70",
+          ],
+          "value": "70",
+        },
+        "75": Object {
+          "attributes": Object {
+            "category": "size",
+            "item": "percentage",
+            "subitem": "75",
+            "type": "spatial",
+          },
+          "name": "75",
+          "original": Object {
+            "value": "75",
+          },
+          "path": Array [
+            "size",
+            "spatial",
+            "percentage",
+            "75",
+          ],
+          "value": "75",
+        },
+        "80": Object {
+          "attributes": Object {
+            "category": "size",
+            "item": "percentage",
+            "subitem": "80",
+            "type": "spatial",
+          },
+          "name": "80",
+          "original": Object {
+            "value": "80",
+          },
+          "path": Array [
+            "size",
+            "spatial",
+            "percentage",
+            "80",
+          ],
+          "value": "80",
+        },
+        "90": Object {
+          "attributes": Object {
+            "category": "size",
+            "item": "percentage",
+            "subitem": "90",
+            "type": "spatial",
+          },
+          "name": "90",
+          "original": Object {
+            "value": "90",
+          },
+          "path": Array [
+            "size",
+            "spatial",
+            "percentage",
+            "90",
+          ],
+          "value": "90",
+        },
+      },
+      "size": Object {
+        "12": Object {
+          "attributes": Object {
+            "category": "size",
+            "item": "size",
+            "subitem": "12",
+            "type": "spatial",
+          },
+          "name": "12",
+          "original": Object {
+            "value": "12",
+          },
+          "path": Array [
+            "size",
+            "spatial",
+            "size",
+            "12",
+          ],
+          "value": "12",
+        },
+        "128": Object {
+          "attributes": Object {
+            "category": "size",
+            "item": "size",
+            "subitem": "128",
+            "type": "spatial",
+          },
+          "name": "128",
+          "original": Object {
+            "value": "128",
+          },
+          "path": Array [
+            "size",
+            "spatial",
+            "size",
+            "128",
+          ],
+          "value": "128",
+        },
+        "16": Object {
+          "attributes": Object {
+            "category": "size",
+            "item": "size",
+            "subitem": "16",
+            "type": "spatial",
+          },
+          "name": "16",
+          "original": Object {
+            "value": "16",
+          },
+          "path": Array [
+            "size",
+            "spatial",
+            "size",
+            "16",
+          ],
+          "value": "16",
+        },
+        "2": Object {
+          "attributes": Object {
+            "category": "size",
+            "item": "size",
+            "subitem": "2",
+            "type": "spatial",
+          },
+          "name": "2",
+          "original": Object {
+            "value": "2",
+          },
+          "path": Array [
+            "size",
+            "spatial",
+            "size",
+            "2",
+          ],
+          "value": "2",
+        },
+        "24": Object {
+          "attributes": Object {
+            "category": "size",
+            "item": "size",
+            "subitem": "24",
+            "type": "spatial",
+          },
+          "name": "24",
+          "original": Object {
+            "value": "24",
+          },
+          "path": Array [
+            "size",
+            "spatial",
+            "size",
+            "24",
+          ],
+          "value": "24",
+        },
+        "32": Object {
+          "attributes": Object {
+            "category": "size",
+            "item": "size",
+            "subitem": "32",
+            "type": "spatial",
+          },
+          "name": "32",
+          "original": Object {
+            "value": "32",
+          },
+          "path": Array [
+            "size",
+            "spatial",
+            "size",
+            "32",
+          ],
+          "value": "32",
+        },
+        "36": Object {
+          "attributes": Object {
+            "category": "size",
+            "item": "size",
+            "subitem": "36",
+            "type": "spatial",
+          },
+          "name": "36",
+          "original": Object {
+            "value": "36",
+          },
+          "path": Array [
+            "size",
+            "spatial",
+            "size",
+            "36",
+          ],
+          "value": "36",
+        },
+        "4": Object {
+          "attributes": Object {
+            "category": "size",
+            "item": "size",
+            "subitem": "4",
+            "type": "spatial",
+          },
+          "name": "4",
+          "original": Object {
+            "value": "4",
+          },
+          "path": Array [
+            "size",
+            "spatial",
+            "size",
+            "4",
+          ],
+          "value": "4",
+        },
+        "48": Object {
+          "attributes": Object {
+            "category": "size",
+            "item": "size",
+            "subitem": "48",
+            "type": "spatial",
+          },
+          "name": "48",
+          "original": Object {
+            "value": "48",
+          },
+          "path": Array [
+            "size",
+            "spatial",
+            "size",
+            "48",
+          ],
+          "value": "48",
+        },
+        "64": Object {
+          "attributes": Object {
+            "category": "size",
+            "item": "size",
+            "subitem": "64",
+            "type": "spatial",
+          },
+          "name": "64",
+          "original": Object {
+            "value": "64",
+          },
+          "path": Array [
+            "size",
+            "spatial",
+            "size",
+            "64",
+          ],
+          "value": "64",
+        },
+        "8": Object {
+          "attributes": Object {
+            "category": "size",
+            "item": "size",
+            "subitem": "8",
+            "type": "spatial",
+          },
+          "name": "8",
+          "original": Object {
+            "value": "8",
+          },
+          "path": Array [
+            "size",
+            "spatial",
+            "size",
+            "8",
+          ],
+          "value": "8",
+        },
+        "80": Object {
+          "attributes": Object {
+            "category": "size",
+            "item": "size",
+            "subitem": "80",
+            "type": "spatial",
+          },
+          "name": "80",
+          "original": Object {
+            "value": "80",
+          },
+          "path": Array [
+            "size",
+            "spatial",
+            "size",
+            "80",
+          ],
+          "value": "80",
+        },
+        "96": Object {
+          "attributes": Object {
+            "category": "size",
+            "item": "size",
+            "subitem": "96",
+            "type": "spatial",
+          },
+          "name": "96",
+          "original": Object {
+            "value": "96",
+          },
+          "path": Array [
+            "size",
+            "spatial",
+            "size",
+            "96",
+          ],
+          "value": "96",
+        },
+      },
+      "zIndex": Object {
+        "10": Object {
+          "attributes": Object {
+            "category": "size",
+            "item": "zIndex",
+            "subitem": "10",
+            "type": "spatial",
+          },
+          "name": "10",
+          "original": Object {
+            "value": "10",
+          },
+          "path": Array [
+            "size",
+            "spatial",
+            "zIndex",
+            "10",
+          ],
+          "value": "10",
+        },
+        "100": Object {
+          "attributes": Object {
+            "category": "size",
+            "item": "zIndex",
+            "subitem": "100",
+            "type": "spatial",
+          },
+          "name": "100",
+          "original": Object {
+            "value": "100",
+          },
+          "path": Array [
+            "size",
+            "spatial",
+            "zIndex",
+            "100",
+          ],
+          "value": "100",
+        },
+        "20": Object {
+          "attributes": Object {
+            "category": "size",
+            "item": "zIndex",
+            "subitem": "20",
+            "type": "spatial",
+          },
+          "name": "20",
+          "original": Object {
+            "value": "20",
+          },
+          "path": Array [
+            "size",
+            "spatial",
+            "zIndex",
+            "20",
+          ],
+          "value": "20",
+        },
+        "30": Object {
+          "attributes": Object {
+            "category": "size",
+            "item": "zIndex",
+            "subitem": "30",
+            "type": "spatial",
+          },
+          "name": "30",
+          "original": Object {
+            "value": "30",
+          },
+          "path": Array [
+            "size",
+            "spatial",
+            "zIndex",
+            "30",
+          ],
+          "value": "30",
+        },
+        "40": Object {
+          "attributes": Object {
+            "category": "size",
+            "item": "zIndex",
+            "subitem": "40",
+            "type": "spatial",
+          },
+          "name": "40",
+          "original": Object {
+            "value": "40",
+          },
+          "path": Array [
+            "size",
+            "spatial",
+            "zIndex",
+            "40",
+          ],
+          "value": "40",
+        },
+        "50": Object {
+          "attributes": Object {
+            "category": "size",
+            "item": "zIndex",
+            "subitem": "50",
+            "type": "spatial",
+          },
+          "name": "50",
+          "original": Object {
+            "value": "50",
+          },
+          "path": Array [
+            "size",
+            "spatial",
+            "zIndex",
+            "50",
+          ],
+          "value": "50",
+        },
+        "60": Object {
+          "attributes": Object {
+            "category": "size",
+            "item": "zIndex",
+            "subitem": "60",
+            "type": "spatial",
+          },
+          "name": "60",
+          "original": Object {
+            "value": "60",
+          },
+          "path": Array [
+            "size",
+            "spatial",
+            "zIndex",
+            "60",
+          ],
+          "value": "60",
+        },
+        "70": Object {
+          "attributes": Object {
+            "category": "size",
+            "item": "zIndex",
+            "subitem": "70",
+            "type": "spatial",
+          },
+          "name": "70",
+          "original": Object {
+            "value": "70",
+          },
+          "path": Array [
+            "size",
+            "spatial",
+            "zIndex",
+            "70",
+          ],
+          "value": "70",
+        },
+        "80": Object {
+          "attributes": Object {
+            "category": "size",
+            "item": "zIndex",
+            "subitem": "80",
+            "type": "spatial",
+          },
+          "name": "80",
+          "original": Object {
+            "value": "80",
+          },
+          "path": Array [
+            "size",
+            "spatial",
+            "zIndex",
+            "80",
+          ],
+          "value": "80",
+        },
+        "90": Object {
+          "attributes": Object {
+            "category": "size",
+            "item": "zIndex",
+            "subitem": "90",
+            "type": "spatial",
+          },
+          "name": "90",
+          "original": Object {
+            "value": "90",
+          },
+          "path": Array [
+            "size",
+            "spatial",
+            "zIndex",
+            "90",
+          ],
+          "value": "90",
+        },
+        "999": Object {
+          "attributes": Object {
+            "category": "size",
+            "item": "zIndex",
+            "subitem": "999",
+            "type": "spatial",
+          },
+          "name": "999",
+          "original": Object {
+            "value": "999",
+          },
+          "path": Array [
+            "size",
+            "spatial",
+            "zIndex",
+            "999",
+          ],
+          "value": "999",
+        },
+      },
+    },
+  },
+}
+`;
+
+exports[`tokens generates the scss variables 1`] = `
+"
+// *************************************
+//
+//   DC Globals
+//   -> Variables created for re-use globally
+//
+// *************************************
+
+/**
+ * Global Sass variables, all namespaced within \\"dc-\\". Must be included before
+ * any other partials and a critical path dependency for the styleguide.
+ */
+
+/** Spatial */
+
+$dc-multiplier: 2;
+// Spatial lists for generating utility classes
+$dc-spatial: 2 4 8 12 16 24 32 36 48 64 80 96 128;
+$dc-spatial-common: 8 12 16 24 32 36 48 64;
+$dc-measure: 160 192 256 320 480 640 800 960;
+$dc-spatial-all: join(
+  $list1: $dc-spatial,
+  $list2: $dc-measure,
+);
+// Percentages list for generating utility classes
+$dc-percentages: 1 5 10 15 20 25 30 40 44 50 60 70 75 80 90 100;
+$dc-angles: 30 45 60 90 180 270 360;
+$dc-z-indexes: 10 20 30 40 50 60 70 80 90 100 999;
+
+/** Color */
+$dc-green: #36d57d;
+$dc-green-light: #a5ecc5;
+$dc-geyser: #cfdce1;
+$dc-grey: #4d5356;
+$dc-grey-dark: #3d4251;
+$dc-grey-light: #d1d3d8;
+$dc-grey-lighter: #e6eaeb;
+$dc-grey-oslo: #859094;
+$dc-orange: #ff9400;
+$dc-orange-dark: #ad662c;
+$dc-porcelain: #f0f4f5;
+$dc-primary: #33aacc;
+$dc-primary-dark: #263e63;
+$dc-primary-darker: #14243e;
+$dc-primary-darkest: #0c1626;
+$dc-primary-light: #7ecce2;
+$dc-primary-lighter: #d5eaef;
+$dc-primary-lightest: #ebf4f7;
+$dc-purple: #8468c4;
+$dc-purple-dark: #5d488c;
+$dc-purple-light: #a786f3;
+$dc-raven: #737a80;
+$dc-red: #fe5c5c;
+$dc-red-light: #ffb5b5;
+$dc-secondary: #ffc844;
+$dc-secondary-light: #fbe28d;
+$dc-white: #ffffff;
+$dc-black-transparent: rgba(0, 0, 0, 0.2);
+$dc-white-transparent: rgba(255, 255, 255, 0.2);
+
+// Color map
+$dc-colors: (
+  'currentColor': currentColor,
+  'transparent': transparent,
+  'green': $dc-green,
+  'green-light': $dc-green-light,
+  'geyser': $dc-geyser,
+  'grey': $dc-grey,
+  'grey-dark': $dc-grey-dark,
+  'grey-light': $dc-grey-light,
+  'grey-lighter': $dc-grey-lighter,
+  'grey-oslo': $dc-grey-oslo,
+  'orange': $dc-orange,
+  'orange-dark': $dc-orange-dark,
+  'porcelain': $dc-porcelain,
+  'primary': $dc-primary,
+  'primary-dark': $dc-primary-dark,
+  'primary-darker': $dc-primary-darker,
+  'primary-darkest': $dc-primary-darkest,
+  'primary-light': $dc-primary-light,
+  'primary-lighter': $dc-primary-lighter,
+  'primary-lightest': $dc-primary-lightest,
+  'purple': $dc-purple,
+  'purple-dark': $dc-purple-dark,
+  'purple-light': $dc-purple-light,
+  'raven': $dc-raven,
+  'red': $dc-red,
+  'red-light': $dc-red-light,
+  'secondary': $dc-secondary,
+  'secondary-light': $dc-secondary-light,
+  'white': $dc-white,
+  'black-transparent': $dc-black-transparent,
+  'white-transparent': $dc-white-transparent,
+);
+
+/** Gradient */
+$dc-gradient-chambray-cloudburst: linear-gradient(268deg, #405f8f, #1c3050);
+$dc-gradient-puertorico-deyork: linear-gradient(32deg, #37bbab, #75c97e);
+$dc-gradient-blue-light: linear-gradient(-143deg, #7dd4e7, #7099d7);
+$dc-gradient-grey: linear-gradient(-135deg, #e7f1f6, #b6d1e5);
+$dc-gradient-primary: linear-gradient(141deg, #2388b0, #33aacc);
+$dc-gradient-primary-dark: linear-gradient(141deg, #20748d, #164d62);
+$dc-gradient-primary-light: linear-gradient(180deg, rgba(255, 255, 255, 0), rgba(51, 170, 204, 0.08));
+$dc-gradient-purple: linear-gradient(-136deg, #c06ac8, #8468c4);
+$dc-gradient-red: linear-gradient(45deg, #f06a8c, #f6a38d);
+$dc-gradient-red-light: linear-gradient(180deg, rgba(255, 255, 255, 0), rgba(254, 92, 92, 0.08));
+$dc-gradient-secondary: linear-gradient(0deg, #ffc844, #fcd86c);
+$dc-gradient-turquoise: linear-gradient(-135deg, #b8eef4, #78c8de);
+
+
+/** Typography */
+
+// Font family
+$dc-font-family-sans-serif: 'Lato', sans-serif;
+$dc-font-family-mono: 'Roboto Mono', monospace;
+
+// Font size
+$dc-font-size-base: 16px;
+$dc-font-size-micro: 0.75rem;
+$dc-font-size-small: 0.875rem;
+$dc-font-size-h1: 2.5rem;
+$dc-font-size-h2: 2rem;
+$dc-font-size-h3: 1.5rem;
+$dc-font-size-h4: 1.25rem;
+$dc-font-size-h5: 1.125rem;
+$dc-font-size-h6: 1rem;
+
+// Font weight
+$dc-font-weight-bold: 700;
+$dc-font-weight-light: 300;
+$dc-font-weight-regular: 400;
+
+// Line height
+$dc-line-height-base: 1.5;
+$dc-line-height-heading: 1.25;
+
+
+/** Border */
+$dc-border-radius: 4px;
+
+
+/** Box shadow */
+$dc-box-shadow-border: 0 0 0 1px #e6eaeb;
+$dc-box-shadow-color: rgba(0, 0, 0, 0.15);
+$dc-box-shadow-lg: 0 3px 5px 0 rgba(0, 0, 0, 0.15);
+$dc-box-shadow-md: 0 1px 3px 0 rgba(0, 0, 0, 0.15);
+$dc-box-shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.15);
+$dc-box-shadow-xl: 0 4px 8px 0 rgba(0, 0, 0, 0.15);
+$dc-box-shadow-xl-green: 0 4px 8px 0 rgba(54, 213, 125, 0.3);
+$dc-box-shadow-xl-orange: 0 4px 8px 0 rgba(255, 148, 0, 0.3);
+$dc-box-shadow-xl-purple: 0 4px 8px 0 rgba(132, 104, 196, 0.3);
+$dc-box-shadow-xxl: 0 10px 20px 0 rgba(0, 0, 0, 0.15);
+
+
+/** Animation */
+$dc-duration: 0.3s;
+$dc-ease: cubic-bezier(0.77, 0, 0.175, 1);
+$dc-transition: 0.3s cubic-bezier(0.77, 0, 0.175, 1);
+
+
+/** Breakpoints */
+$dc-bp-4k: 1920px;
+$dc-bp-5k: 2560px;
+$dc-bp-lg: 1200px;
+$dc-bp-md: 992px;
+$dc-bp-sm: 768px;
+$dc-bp-ws: 1680px;
+$dc-bp-xl: 1366px;
+$dc-bp-xs: 480px;
+
+$dc-bp-below-4k: 1919px;
+$dc-bp-below-5k: 2559px;
+$dc-bp-below-lg: 1199px;
+$dc-bp-below-md: 991px;
+$dc-bp-below-sm: 767px;
+$dc-bp-below-ws: 1679px;
+$dc-bp-below-xl: 1365px;
+$dc-bp-below-xs: 479px;
+
+
+$dc-breakpoints: (
+  'lg': $dc-bp-lg,
+  'md': $dc-bp-md,
+  'sm': $dc-bp-sm,
+  'xl': $dc-bp-xl,
+  'xs': $dc-bp-xs,
+);
+$dc-breakpoints-hd: (
+  '4k': $dc-bp-4k,
+  '5k': $dc-bp-5k,
+  'ws': $dc-bp-ws,
+);
+$dc-breakpoints-all: map-merge($dc-breakpoints, $dc-breakpoints-hd);
+$dc-breakpoints-below: (
+  'lg': $dc-bp-below-lg,
+  'md': $dc-bp-below-md,
+  'sm': $dc-bp-below-sm,
+  'xl': $dc-bp-below-xl,
+  'xs': $dc-bp-below-xs,
+);
+$dc-breakpoints-below-hd: (
+  '4k': $dc-bp-below-4k,
+  '5k': $dc-bp-below-5k,
+  'ws': $dc-bp-below-ws,
+);
+$dc-breakpoints-below-all: map-merge($dc-breakpoints-below, $dc-breakpoints-below-hd);
+
+$dc-sides: (
+  't': top,
+  'r': right,
+  'b': bottom,
+  'l': left,
+);
+"
+`;

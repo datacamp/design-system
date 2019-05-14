@@ -1,0 +1,82 @@
+{
+  "size": {
+    "spatial": {
+      "multiplier": { "value": "2" },
+      "size": {
+        "2": { "value": "2" },
+        "4": { "value": "4" },
+        "8": { "value": "8" },
+        "12": { "value": "12" },
+        "16": { "value": "16" },
+        "24": { "value": "24" },
+        "32": { "value": "32" },
+        "36": { "value": "36" },
+        "48": { "value": "48" },
+        "64": { "value": "64" },
+        "80": { "value": "80" },
+        "96": { "value": "96" },
+        "128": { "value": "128" }
+      },
+      "commonSize": {
+        "8": { "value": "{size.spatial.size.8.value}" },
+        "12": { "value": "{size.spatial.size.12.value}" },
+        "16": { "value": "{size.spatial.size.16.value}" },
+        "24": { "value": "{size.spatial.size.24.value}" },
+        "32": { "value": "{size.spatial.size.32.value}" },
+        "36": { "value": "{size.spatial.size.36.value}" },
+        "48": { "value": "{size.spatial.size.48.value}" },
+        "64": { "value": "{size.spatial.size.64.value}" }
+      },
+      "measure": {
+        "160": { "value": "160" },
+        "192": { "value": "192" },
+        "256": { "value": "256" },
+        "320": { "value": "320" },
+        "480": { "value": "480" },
+        "640": { "value": "640" },
+        "800": { "value": "800" },
+        "960": { "value": "960" }
+      },
+      "percentage": {
+        "1": { "value": "1" },
+        "5": { "value": "5" },
+        "10": { "value": "10" },
+        "15": { "value": "15" },
+        "20": { "value": "20" },
+        "25": { "value": "25" },
+        "30": { "value": "30" },
+        "40": { "value": "40" },
+        "44": { "value": "44" },
+        "50": { "value": "50" },
+        "60": { "value": "60" },
+        "70": { "value": "70" },
+        "75": { "value": "75" },
+        "80": { "value": "80" },
+        "90": { "value": "90" },
+        "100": { "value": "100" }
+      },
+      "angle": {
+        "30": { "value": "30" },
+        "45": { "value": "45" },
+        "60": { "value": "60" },
+        "90": { "value": "90" },
+        "180": { "value": "180" },
+        "270": { "value": "270" },
+        "360": { "value": "360" }
+      },
+      "zIndex": {
+        "10": { "value": "10" },
+        "20": { "value": "20" },
+        "30": { "value": "30" },
+        "40": { "value": "40" },
+        "50": { "value": "50" },
+        "60": { "value": "60" },
+        "70": { "value": "70" },
+        "80": { "value": "80" },
+        "90": { "value": "90" },
+        "100": { "value": "100" },
+        "999": { "value": "999" }
+      }
+    }
+  }
+}
