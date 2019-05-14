@@ -8,7 +8,7 @@
   "main": "lib/popover.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/datacamp/design-system.git"
+    "url": "https://github.com/datacamp-engineering/design-system/tree/master/packages/stylesheets/popover"
   },
   "scripts": {},
   "bugs": {
