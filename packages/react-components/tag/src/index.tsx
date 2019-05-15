@@ -2,18 +2,18 @@ import { css } from '@emotion/core';
 import styled from '@emotion/styled';
 import { SFC } from 'react';
 import { isNil } from 'lodash';
-import tokens from '@datacamp/waffles-core/tokens.json';
+import tokens from '@datacamp/waffles-tokens/lib/future-tokens.json';
 import { getColor, getContrastColor } from '@datacamp/waffles-core';
 
 import './injectGlobalLato';
 
 const baseTagStyle = css({
   alignItems: 'center',
-  border: `1px solid ${tokens.colors.greyLighter}`,
+  border: `1px solid ${tokens.color.opaque.greyLighter.value.hex}`,
   display: 'inline-flex',
-  fontSize: tokens.fontSize.micro,
-  fontWeight: parseInt(tokens.fontWeight.bold),
-  fontFamily: tokens.fontFamily.sansSerif,
+  fontSize: tokens.size.font.micro.value,
+  fontWeight: parseInt(tokens.size.fontWeight.bold.value),
+  fontFamily: tokens.asset.font.sansSerif.value,
   letterSpacing: '0.6px', // 1@16px->0.8@14px->0.6@12px
   lineHeight: 1,
   padding: '5px 11px', // +1px border
