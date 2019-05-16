@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.1](https://github.com/datacamp-engineering/design-system/tree/master/packages/stylesheets/core/compare/@datacamp/waffles-core@1.0.0...@datacamp/waffles-core@1.0.1) (2019-05-16)
+
+
+### Bug Fixes
+
+* update repo urls in package.json ([721a3b4](https://github.com/datacamp-engineering/design-system/tree/master/packages/stylesheets/core/commit/721a3b4))
+
+
+
+
+
 # [1.0.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-core@0.1.19...@datacamp/waffles-core@1.0.0) (2019-05-13)
 
 

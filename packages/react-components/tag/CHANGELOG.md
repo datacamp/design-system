@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.2](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/tag/compare/@datacamp/waffles-tag@0.2.1...@datacamp/waffles-tag@0.2.2) (2019-05-16)
+
+
+### Bug Fixes
+
+* update repo urls in package.json ([721a3b4](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/tag/commit/721a3b4))
+
+
+
+
+
 ## [0.2.1](https://github.com/datacamp/design-system/compare/@datacamp/waffles-tag@0.2.0...@datacamp/waffles-tag@0.2.1) (2019-05-13)
 
 **Note:** Version bump only for package @datacamp/waffles-tag

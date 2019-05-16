@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.2.1](https://github.com/datacamp-engineering/design-system/tree/master/packages/docs/catalog-doc-site/compare/@datacamp/waffles-catalog-doc-site@1.2.0...@datacamp/waffles-catalog-doc-site@1.2.1) (2019-05-16)
+
+
+### Bug Fixes
+
+* update repo urls in package.json ([721a3b4](https://github.com/datacamp-engineering/design-system/tree/master/packages/docs/catalog-doc-site/commit/721a3b4))
+
+
+
+
+
 # [1.2.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-catalog-doc-site@1.1.0...@datacamp/waffles-catalog-doc-site@1.2.0) (2019-05-13)
 
 

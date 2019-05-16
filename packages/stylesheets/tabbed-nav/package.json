@@ -1,6 +1,6 @@
 {
   "name": "@datacamp/waffles-tabbed-nav",
-  "version": "0.1.18-alpha.0",
+  "version": "0.1.18",
   "description": "The Waffles tabbed nav",
   "keywords": [
     "nav"
