@@ -12,6 +12,13 @@ export default {
       ),
     },
     {
+      path: '/component-library/tokens',
+      title: 'Tokens',
+      content: pageLoader(() =>
+        import('../../pages/componentLibrary/tokens.js')
+      ),
+    },
+    {
       path: '/component-library/tag',
       title: 'Tag',
       content: pageLoader(() => import('../../pages/componentLibrary/tag.js')),
