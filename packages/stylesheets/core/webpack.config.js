@@ -8,36 +8,6 @@ const nodeEnv = process.env.NODE_ENV || 'development';
 const dev = nodeEnv === 'production';
 const outputDir = 'lib';
 
-const tokens = require('./tokens.json');
-
-const tokenizeSCSS = scss => {
-  let tokenized = scss.toString();
-
-  Object.keys(tokens).forEach(firstKey => {
-    if (typeof tokens[firstKey] === 'string') {
-      const re = new RegExp(`/map_get\\(\\$${firstKey}\\)`, 'g');
-      tokenized = tokenized.replace(re, tokens[firstKey]);
-    } else if (typeof tokens[firstKey] === 'object') {
-      Object.keys(tokens[firstKey]).forEach(secondKey => {
-        const value = tokens[firstKey][secondKey];
-
-        // if (value.charAt(0) === "'" && value.charAt(value.length - 1) === "'") {
-        //   value = value.slice(1, -1);
-        // }
-
-        const re = new RegExp(
-          `map_get\\(\\$${firstKey}, ${secondKey}\\)`,
-          'gi'
-        );
-
-        tokenized = tokenized.replace(re, value);
-      });
-    }
-  });
-
-  return tokenized;
-};
-
 module.exports = {
   entry: './scss/ingredients.scss',
   output: {
@@ -111,26 +81,28 @@ module.exports = {
 
     new CopyWebpackPlugin(
       [
-        // Copy source SCSS files (except ingredients and variables) to package
+        // Copy source SCSS files (except ingredients) to package
         {
           from: 'scss/**/*',
-          ignore: ['ingredients.scss', 'variables.scss'],
+          ignore: ['ingredients.scss'],
         },
-        // Copy ingredients SCSS to package and replace tokens import
+        // Copy ingredients SCSS to package and replace variables import
         {
           from: 'scss/ingredients.scss',
           to: 'scss',
           transform(content) {
-            return content.toString().replace("@import '../tokens.json';", '');
+            return content
+              .toString()
+              .replace(
+                "@import '~@datacamp/waffles-tokens/lib/variables.scss';",
+                "@import 'design/variables.scss';"
+              );
           },
         },
-        // Copy variables SCSS to package and tokenize values
+        // Copy variables SCSS to package from waffles-tokens
         {
-          from: 'scss/design/variables.scss',
+          from: 'node_modules/@datacamp/waffles-tokens/lib/variables.scss',
           to: 'scss/design',
-          transform(content) {
-            return tokenizeSCSS(content);
-          },
         },
         // Copy raw svg icons to package
         'icons/**/*',
