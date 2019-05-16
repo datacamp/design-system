@@ -51,7 +51,7 @@ export default () => {
                   <td>string - optional</td>
                   <td>
                     The color of the tag. This should be one of the colors from
-                    the design tokens.
+                    the <a href="/component-library/tokens">design tokens</a>.
                   </td>
                   <LiveEditCells
                     scope={{ Tag }}
