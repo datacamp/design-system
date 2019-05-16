@@ -106,10 +106,11 @@ module.exports = {
         },
         // Copy raw svg icons to package
         'icons/**/*',
-        // // copy all raw js to package
-        // 'js/**/*',
-        // copy tokens.json to package
-        'tokens.json',
+        // copy tokens.json to package from waffles-tokens
+        {
+          from: 'node_modules/@datacamp/waffles-tokens/lib/core-tokens.json',
+          to: 'tokens.json',
+        },
       ],
       {
         ignore: ['**/.*'],

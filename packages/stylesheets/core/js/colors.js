@@ -1,5 +1,5 @@
 import _ from 'lodash';
-import tokens from '../tokens.json';
+import tokens from '@datacamp/waffles-tokens';
 
 const { colors } = tokens;
 
