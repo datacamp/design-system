@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.2.0](https://github.com/datacamp-engineering/design-system/tree/master/packages/docs/storybook/compare/@datacamp/waffles-storybook@1.1.3...@datacamp/waffles-storybook@1.2.0) (2019-05-17)
+
+
+### Features
+
+* icon stories ([c438bd6](https://github.com/datacamp-engineering/design-system/tree/master/packages/docs/storybook/commit/c438bd6))
+
+
+
+
+
 ## [1.1.3](https://github.com/datacamp-engineering/design-system/tree/master/packages/docs/storybook/compare/@datacamp/waffles-storybook@1.1.2...@datacamp/waffles-storybook@1.1.3) (2019-05-16)
 
 

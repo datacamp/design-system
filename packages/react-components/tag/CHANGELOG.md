@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.3.0](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/tag/compare/@datacamp/waffles-tag@0.2.2...@datacamp/waffles-tag@0.3.0) (2019-05-17)
+
+
+### Features
+
+* use tokens from waffles-tokens internally ([a4cf919](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/tag/commit/a4cf919))
+
+
+
+
+
 ## [0.2.2](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/tag/compare/@datacamp/waffles-tag@0.2.1...@datacamp/waffles-tag@0.2.2) (2019-05-16)
 
 

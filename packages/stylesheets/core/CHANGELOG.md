@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.1.0](https://github.com/datacamp-engineering/design-system/tree/master/packages/stylesheets/core/compare/@datacamp/waffles-core@1.0.1...@datacamp/waffles-core@1.1.0) (2019-05-17)
+
+
+### Features
+
+* use tokens.json from waffles-tokens internally ([3bc4db0](https://github.com/datacamp-engineering/design-system/tree/master/packages/stylesheets/core/commit/3bc4db0))
+* use variables.scss from waffles-tokens internally ([289d66a](https://github.com/datacamp-engineering/design-system/tree/master/packages/stylesheets/core/commit/289d66a))
+
+
+
+
+
 ## [1.0.1](https://github.com/datacamp-engineering/design-system/tree/master/packages/stylesheets/core/compare/@datacamp/waffles-core@1.0.0...@datacamp/waffles-core@1.0.1) (2019-05-16)
 
 

@@ -3,6 +3,24 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.3.0](https://github.com/datacamp-engineering/design-system/tree/master/packages/docs/catalog-doc-site/compare/@datacamp/waffles-catalog-doc-site@1.2.1...@datacamp/waffles-catalog-doc-site@1.3.0) (2019-05-17)
+
+
+### Bug Fixes
+
+* remove Tag import from config ([f8e5df3](https://github.com/datacamp-engineering/design-system/tree/master/packages/docs/catalog-doc-site/commit/f8e5df3))
+
+
+### Features
+
+* documentation for Icons package ([79546dc](https://github.com/datacamp-engineering/design-system/tree/master/packages/docs/catalog-doc-site/commit/79546dc))
+* use tokens from waffles-tokens package to generate utility docs ([dda22e3](https://github.com/datacamp-engineering/design-system/tree/master/packages/docs/catalog-doc-site/commit/dda22e3))
+* waffles-tokens documentation page ([8f9c4c5](https://github.com/datacamp-engineering/design-system/tree/master/packages/docs/catalog-doc-site/commit/8f9c4c5))
+
+
+
+
+
 ## [1.2.1](https://github.com/datacamp-engineering/design-system/tree/master/packages/docs/catalog-doc-site/compare/@datacamp/waffles-catalog-doc-site@1.2.0...@datacamp/waffles-catalog-doc-site@1.2.1) (2019-05-16)
 
 
