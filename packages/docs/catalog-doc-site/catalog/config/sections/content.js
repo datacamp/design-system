@@ -6,11 +6,6 @@ const pages = [
     title: 'Grammar',
     content: pageLoader(() => import('../../pages/content/grammar.md')),
   },
-  {
-    path: '/content/messaging',
-    title: 'Messaging',
-    content: pageLoader(() => import('../../pages/content/messaging.md')),
-  },
 ];
 
 export default {
