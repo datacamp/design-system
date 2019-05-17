@@ -1,5 +1,7 @@
 import React from 'react';
-import { Page, HintSpecimen } from 'catalog';
+/* @jsx jsx */
+import { jsx } from '@emotion/core'; // eslint-disable-line no-unused-vars
+import { Page } from 'catalog';
 
 const BarStyle = {
   margin: '-173px 0 0 0',
@@ -83,14 +85,26 @@ export default () => {
           </div>
         </section>
 
-        <article className="dc-card dc-u-mt-24 dc-u-p-32 dc-u-w-50pc">
+        <article
+          className="dc-card"
+          css={{ width: '65%', padding: '32px', marginTop: '24px' }}
+        >
           <h5 className="dc-chapeau-title dc-u-color-grey">What&apos;s New</h5>
-          <h3 className="dc-u-mt-16 dc-u-mb-0">Waffles – Pre-release</h3>
-          <HintSpecimen warning>
-            Waffles is currently a work in progress. For missing sections please
-            consult the{' '}
-            <a href="http://styleguide.datacamp.com">DataCamp Styleguide</a>.
-          </HintSpecimen>
+          <h3 className="dc-u-mt-16 dc-u-mb-0">The Future of Tokens</h3>
+          <p>
+            A new article on design tokens has been published.{' '}
+            <a href="/articles/01-tokens">The future of tokens</a> talks about
+            how design tokens are used within Waffles, and what the future
+            vision is for the <code>@datacamp/waffles-tokens</code> package.
+          </p>
+          <a className="dc-btn dc-btn--inline" href="/articles/01-tokens">
+            Read Full Article
+            <span className="dc-icon dc-icon--size-12 dc-icon--flex dc-u-ml-8">
+              <svg className="dc-icon__svg">
+                <use xlinkHref="#arrow_2_right" />
+              </svg>
+            </span>
+          </a>
         </article>
       </Page>
     </main>
