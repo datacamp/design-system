@@ -3,6 +3,7 @@ import React from 'react';
 import _ from 'lodash';
 import { Page } from 'catalog';
 import * as Icons from '@datacamp/waffles-icons';
+import iconsZip from '@datacamp/waffles-icons/zip/icons.zip';
 import { colors, border } from '@datacamp/waffles-tokens';
 import { css, jsx } from '@emotion/core'; // eslint-disable-line no-unused-vars
 
@@ -179,7 +180,8 @@ export default () => {
               other purposes, you can download it below.
             </p>
             <a
-              href="/icons.zip"
+              href={iconsZip}
+              download="icons.zip"
               className="dc-btn dc-btn--sm dc-btn--secondary"
             >
               <Icons.DownloadIcon />

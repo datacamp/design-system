@@ -59,8 +59,19 @@ module.exports = {
       exclude: /node_modules\?!(buble)/,
     });
 
+    config.module.rules[0].oneOf.unshift({
+      test: /\.zip$/,
+      use: [
+        {
+          loader: 'file-loader',
+          options: { name: '[name].[sha512:hash:base64:7].[ext]' },
+        },
+      ],
+    });
+
     config.plugins.push(extractSCSS);
     config.plugins.push(new UglifyJSPlugin());
+
     config.plugins.push(
       new BundleAnalyzerPlugin({
         analyzerMode: dev ? 'server' : 'static',
