@@ -3,6 +3,30 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.0.0](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/icons/compare/@datacamp/waffles-icons@0.2.0...@datacamp/waffles-icons@1.0.0) (2019-05-22)
+
+
+### Bug Fixes
+
+* rename icons to follow conventions ([e911743](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/icons/commit/e911743))
+
+
+### Features
+
+* inverted health icon ([a0515ce](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/icons/commit/a0515ce))
+* regular health icon ([4282583](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/icons/commit/4282583))
+
+
+### BREAKING CHANGES
+
+* The slide icons have been renamed to be more generic 
+for multiple use cases. Video has been renamed to VideoCamera and 
+VideoPlayer has been renamed to Video.
+
+
+
+
+
 # [0.2.0](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/icons/compare/@datacamp/waffles-icons@0.1.0...@datacamp/waffles-icons@0.2.0) (2019-05-22)
 
 
