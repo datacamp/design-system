@@ -3,6 +3,20 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.4.0](https://github.com/datacamp-engineering/design-system/tree/master/packages/docs/catalog-doc-site/compare/@datacamp/waffles-catalog-doc-site@1.3.0...@datacamp/waffles-catalog-doc-site@1.4.0) (2019-05-22)
+
+
+### Features
+
+* article on tokens and the future ([dbef7dc](https://github.com/datacamp-engineering/design-system/tree/master/packages/docs/catalog-doc-site/commit/dbef7dc))
+* icon best practices ([8c4e983](https://github.com/datacamp-engineering/design-system/tree/master/packages/docs/catalog-doc-site/commit/8c4e983))
+* import icons zip from package ([300c8f9](https://github.com/datacamp-engineering/design-system/tree/master/packages/docs/catalog-doc-site/commit/300c8f9))
+* remove the messaging page from content section ([4b7c105](https://github.com/datacamp-engineering/design-system/tree/master/packages/docs/catalog-doc-site/commit/4b7c105))
+
+
+
+
+
 # [1.3.0](https://github.com/datacamp-engineering/design-system/tree/master/packages/docs/catalog-doc-site/compare/@datacamp/waffles-catalog-doc-site@1.2.1...@datacamp/waffles-catalog-doc-site@1.3.0) (2019-05-17)
 
 
