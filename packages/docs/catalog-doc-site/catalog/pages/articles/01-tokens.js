@@ -17,7 +17,7 @@ export default () => {
             <h4>Tokens are the core of the design system</h4>
             <p>
               As explained in the{' '}
-              <a href="/component-libary/tokens">documentation</a>, all the
+              <a href="/component-library/tokens">documentation</a>, all the
               primitive values required for styling are included in{' '}
               <code>@datacamp/waffles-tokens</code> package. It is important to
               have this information available in many different environments;
