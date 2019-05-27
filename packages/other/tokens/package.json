@@ -5,7 +5,7 @@
   "main": "lib/core-tokens.json",
   "repository": {
     "type": "git",
-    "url": "https://github.com/datacamp-engineering/design-system/tree/master/packages/other/tokens"
+    "url": "https://github.com/datacamp-engineering/design-system/tree/master/packages/other/tokens/"
   },
   "scripts": {
     "build": "yarn clean && node build.js",

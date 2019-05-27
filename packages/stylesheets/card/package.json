@@ -11,7 +11,7 @@
   "main": "lib/card.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/datacamp-engineering/design-system/tree/master/packages/stylesheets/card"
+    "url": "https://github.com/datacamp-engineering/design-system/tree/master/packages/stylesheets/card/"
   },
   "scripts": {},
   "bugs": {

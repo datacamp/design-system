@@ -5,7 +5,7 @@
   "main": "lib/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/tag"
+    "url": "https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/tag/"
   },
   "scripts": {
     "build:js": "babel src --extensions '.tsx','.ts' --out-dir lib --ignore src/**/*.spec.tsx --config-file ./babel7.config.js",
