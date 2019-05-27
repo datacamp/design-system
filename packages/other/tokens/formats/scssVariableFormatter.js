@@ -10,13 +10,17 @@ const generateVariables = (
     valueTransform = prop => prop.value,
   } = {}
 ) => {
+  const sortedData = _.sortBy(
+    Object.entries(object).map(([key, data]) => ({ key, data })),
+    'data.attributes.scssSortValue'
+  );
   return _.reduce(
-    object,
-    (result, prop, key) => {
+    sortedData,
+    (result, { data, key }) => {
       const variableName = keyTransform(key);
       return `${result}$dc-${prefix}${
         prefix === '' ? '' : '-'
-      }${variableName}: ${valueTransform(prop, key)};\n`;
+      }${variableName}: ${valueTransform(data, key)};\n`;
     },
     ''
   );
@@ -115,39 +119,47 @@ module.exports = ({ properties }) => {
   });
 
   const breakpointMaps = [
-    `$dc-breakpoints: (\n${_.reduce(
-      _.pickBy(properties.breakpoints, prop => !prop.attributes.hd),
-      (result, value, key) =>
-        `${result}  '${transformBreakpointKey(
-          key
-        )}': $dc-bp-${transformBreakpointKey(key)},\n`,
-      ''
-    )});`,
-    `$dc-breakpoints-hd: (\n${_.reduce(
-      _.pickBy(properties.breakpoints, prop => prop.attributes.hd),
-      (result, value, key) =>
-        `${result}  '${transformBreakpointKey(
-          key
-        )}': $dc-bp-${transformBreakpointKey(key)},\n`,
-      ''
-    )});`,
+    `$dc-breakpoints: (\n${_(properties.breakpoints)
+      .sortBy('attributes.scssSortValue')
+      .pickBy(prop => !prop.attributes.hd)
+      .reduce(
+        (result, { attributes: { type: key } }) =>
+          `${result}  '${transformBreakpointKey(
+            key
+          )}': $dc-bp-${transformBreakpointKey(key)},\n`,
+        ''
+      )});`,
+    `$dc-breakpoints-hd: (\n${_(properties.breakpoints)
+      .sortBy('attributes.scssSortValue')
+      .pickBy(prop => prop.attributes.hd)
+      .reduce(
+        (result, { attributes: { type: key } }) =>
+          `${result}  '${transformBreakpointKey(
+            key
+          )}': $dc-bp-${transformBreakpointKey(key)},\n`,
+        ''
+      )});`,
     '$dc-breakpoints-all: map-merge($dc-breakpoints, $dc-breakpoints-hd);',
-    `$dc-breakpoints-below: (\n${_.reduce(
-      _.pickBy(properties.breakpoints, prop => !prop.attributes.hd),
-      (result, value, key) =>
-        `${result}  '${transformBreakpointKey(
-          key
-        )}': $dc-bp-below-${transformBreakpointKey(key)},\n`,
-      ''
-    )});`,
-    `$dc-breakpoints-below-hd: (\n${_.reduce(
-      _.pickBy(properties.breakpoints, prop => prop.attributes.hd),
-      (result, value, key) =>
-        `${result}  '${transformBreakpointKey(
-          key
-        )}': $dc-bp-below-${transformBreakpointKey(key)},\n`,
-      ''
-    )});`,
+    `$dc-breakpoints-below: (\n${_(properties.breakpoints)
+      .sortBy('attributes.scssSortValue')
+      .pickBy(prop => !prop.attributes.hd)
+      .reduce(
+        (result, { attributes: { type: key } }) =>
+          `${result}  '${transformBreakpointKey(
+            key
+          )}': $dc-bp-below-${transformBreakpointKey(key)},\n`,
+        ''
+      )});`,
+    `$dc-breakpoints-below-hd: (\n${_(properties.breakpoints)
+      .sortBy('attributes.scssSortValue')
+      .pickBy(prop => prop.attributes.hd)
+      .reduce(
+        (result, { attributes: { type: key } }) =>
+          `${result}  '${transformBreakpointKey(
+            key
+          )}': $dc-bp-below-${transformBreakpointKey(key)},\n`,
+        ''
+      )});`,
     `$dc-breakpoints-below-all: map-merge($dc-breakpoints-below, $dc-breakpoints-below-hd);`,
   ].join('\n');
 
