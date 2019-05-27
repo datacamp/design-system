@@ -51,7 +51,7 @@
     "eslint-plugin-prettier": "^3.1.0",
     "eslint-plugin-react": "^7.12.4",
     "husky": "^2.3.0",
-    "lerna": "^3.13.2",
+    "lerna": "^3.14.1",
     "prettier": "^1.16.4"
   },
   "browserslist": [
