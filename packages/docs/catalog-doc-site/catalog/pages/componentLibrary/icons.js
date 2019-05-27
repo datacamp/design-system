@@ -66,7 +66,7 @@ export default () => {
                     The color of the icon. This defaults to
                     &quot;currentColor&quot;, and so will match the surrounding
                     text. If a custom color is required, then this prop can
-                    accept any valid css color. We recommend using the
+                    accept any valid css color. We recommend using the{' '}
                     <a href="/component-library/tokens">waffles-tokens</a> to
                     maintain a consistent visual experience.
                   </td>
