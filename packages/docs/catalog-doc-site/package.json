@@ -8,7 +8,7 @@
   "private": "true",
   "repository": {
     "type": "git",
-    "url": "https://github.com/datacamp-engineering/design-system/tree/master/packages/docs/catalog-doc-site"
+    "url": "https://github.com/datacamp-engineering/design-system/tree/master/packages/docs/catalog-doc-site/"
   },
   "scripts": {
     "build": "catalog build",
