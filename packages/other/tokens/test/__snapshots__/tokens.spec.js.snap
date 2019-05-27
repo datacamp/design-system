@@ -3764,49 +3764,49 @@ $dc-transition: 0.3s cubic-bezier(0.77, 0, 0.175, 1);
 
 
 /** Breakpoints */
+$dc-bp-xs: 480px;
+$dc-bp-sm: 768px;
+$dc-bp-md: 992px;
+$dc-bp-lg: 1200px;
+$dc-bp-xl: 1366px;
+$dc-bp-ws: 1680px;
 $dc-bp-4k: 1920px;
 $dc-bp-5k: 2560px;
-$dc-bp-lg: 1200px;
-$dc-bp-md: 992px;
-$dc-bp-sm: 768px;
-$dc-bp-ws: 1680px;
-$dc-bp-xl: 1366px;
-$dc-bp-xs: 480px;
 
+$dc-bp-below-xs: 479px;
+$dc-bp-below-sm: 767px;
+$dc-bp-below-md: 991px;
+$dc-bp-below-lg: 1199px;
+$dc-bp-below-xl: 1365px;
+$dc-bp-below-ws: 1679px;
 $dc-bp-below-4k: 1919px;
 $dc-bp-below-5k: 2559px;
-$dc-bp-below-lg: 1199px;
-$dc-bp-below-md: 991px;
-$dc-bp-below-sm: 767px;
-$dc-bp-below-ws: 1679px;
-$dc-bp-below-xl: 1365px;
-$dc-bp-below-xs: 479px;
 
 
 $dc-breakpoints: (
-  'lg': $dc-bp-lg,
-  'md': $dc-bp-md,
-  'sm': $dc-bp-sm,
-  'xl': $dc-bp-xl,
   'xs': $dc-bp-xs,
+  'sm': $dc-bp-sm,
+  'md': $dc-bp-md,
+  'lg': $dc-bp-lg,
+  'xl': $dc-bp-xl,
 );
 $dc-breakpoints-hd: (
+  'ws': $dc-bp-ws,
   '4k': $dc-bp-4k,
   '5k': $dc-bp-5k,
-  'ws': $dc-bp-ws,
 );
 $dc-breakpoints-all: map-merge($dc-breakpoints, $dc-breakpoints-hd);
 $dc-breakpoints-below: (
-  'lg': $dc-bp-below-lg,
-  'md': $dc-bp-below-md,
-  'sm': $dc-bp-below-sm,
-  'xl': $dc-bp-below-xl,
   'xs': $dc-bp-below-xs,
+  'sm': $dc-bp-below-sm,
+  'md': $dc-bp-below-md,
+  'lg': $dc-bp-below-lg,
+  'xl': $dc-bp-below-xl,
 );
 $dc-breakpoints-below-hd: (
+  'ws': $dc-bp-below-ws,
   '4k': $dc-bp-below-4k,
   '5k': $dc-bp-below-5k,
-  'ws': $dc-bp-below-ws,
 );
 $dc-breakpoints-below-all: map-merge($dc-breakpoints-below, $dc-breakpoints-below-hd);
 

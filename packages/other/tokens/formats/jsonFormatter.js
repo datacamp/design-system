@@ -1,5 +1,8 @@
 const _ = require('lodash');
 const tinycolor = require('tinycolor2');
+const omitDeep = require('omit-deep-lodash');
+
+const stripKeys = ['scssSortValue'];
 
 const replaceColorValues = object =>
   _.mapValues(object, property => {
@@ -19,8 +22,10 @@ const replaceColorValues = object =>
 module.exports = dictionary => {
   const { color } = dictionary.properties;
 
-  return JSON.stringify({
+  const fullTokens = {
     ...dictionary.properties,
     color: replaceColorValues(color), // replace color objects with string formats
-  });
+  };
+
+  return JSON.stringify(omitDeep(fullTokens, stripKeys));
 };

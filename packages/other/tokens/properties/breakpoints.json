@@ -2,26 +2,67 @@
   "breakpoints": {
     "4K": {
       "value": "1920px",
-      "attributes": { "below": "1919px", "hd": true }
+      "attributes": {
+        "below": "1919px",
+        "hd": true,
+        "scssSortValue": 1920
+      }
     },
     "5K": {
       "value": "2560px",
-      "attributes": { "below": "2559px", "hd": true }
+      "attributes": {
+        "below": "2559px",
+        "hd": true,
+        "scssSortValue": 2560
+      }
     },
     "lg": {
       "value": "1200px",
-      "attributes": { "below": "1199px", "hd": false }
+      "attributes": {
+        "below": "1199px",
+        "hd": false,
+        "scssSortValue": 1200
+      }
     },
-    "md": { "value": "992px", "attributes": { "below": "991px", "hd": false } },
-    "sm": { "value": "768px", "attributes": { "below": "767px", "hd": false } },
+    "md": {
+      "value": "992px",
+      "attributes": {
+        "below": "991px",
+        "hd": false,
+        "scssSortValue": 992
+      }
+    },
+    "sm": {
+      "value": "768px",
+      "attributes": {
+        "below": "767px",
+        "hd": false,
+        "scssSortValue": 768
+      }
+    },
     "ws": {
       "value": "1680px",
-      "attributes": { "below": "1679px", "hd": true }
+      "attributes": {
+        "below": "1679px",
+        "hd": true,
+        "scssSortValue": 1680
+      }
     },
     "xl": {
       "value": "1366px",
-      "attributes": { "below": "1365px", "hd": false }
+      "attributes": {
+        "below": "1365px",
+        "hd": false,
+        "scssSortValue": 1366
+      }
     },
-    "xs": { "value": "480px", "attributes": { "below": "479px", "hd": false } }
+    "xs": {
+      "value": "480px",
+      "attributes": {
+        "below": "479px",
+        "hd": false,
+        "scssSortValue": 480
+      }
+    }
   }
 }
