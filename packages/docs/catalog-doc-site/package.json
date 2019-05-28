@@ -43,7 +43,6 @@
     "@datacamp/waffles-tabbed-nav": "^0.1.19",
     "@datacamp/waffles-table": "^0.1.19",
     "@datacamp/waffles-tabs": "^0.1.19",
-    "babel-loader": "7.1.5",
     "babel-plugin-lodash": "^3.3.4",
     "babel-plugin-syntax-dynamic-import": "^6.18.0",
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
