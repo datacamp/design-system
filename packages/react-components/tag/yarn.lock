@@ -731,6 +731,19 @@
     exec-sh "^0.3.2"
     minimist "^1.2.0"
 
+"@datacamp/waffles-core@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@datacamp/waffles-core/-/waffles-core-1.1.0.tgz#b9f7b9d5bc4d9bdac73ad5f56d69905b6c9d7b31"
+  integrity sha512-+6SRgRlak9itHjdnnuAdLNsr8bxEsaGw6b144Bd/qMTbjgy2NoTS1y0xrCfF8FYPIAMpqJKPVJUR6h8wDozIPA==
+  dependencies:
+    "@datacamp/waffles-tokens" "^0.1.0"
+    lodash "^4.17.11"
+
+"@datacamp/waffles-tokens@^0.1.0":
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/@datacamp/waffles-tokens/-/waffles-tokens-0.1.0.tgz#64a92aa1d817a4d88d7f47fcf46c46d88c931847"
+  integrity sha512-ePXUJ0Ey/nxC4yg5rSfb4xDNz854QQsIjBznJYl43oM0OYY1IraasrTo0MSfx2EkUv8pacLxD/Yhu6n6xXlYTg==
+
 "@emotion/babel-plugin-jsx-pragmatic@^0.1.2":
   version "0.1.2"
   resolved "https://registry.yarnpkg.com/@emotion/babel-plugin-jsx-pragmatic/-/babel-plugin-jsx-pragmatic-0.1.2.tgz#bb98bbef8effe83418307563c34e784deae57a1a"
@@ -1058,10 +1071,10 @@
   resolved "https://registry.yarnpkg.com/@types/jest/-/jest-23.3.14.tgz#37daaf78069e7948520474c87b80092ea912520a"
   integrity sha512-Q5hTcfdudEL2yOmluA1zaSyPbzWPmJ3XfSWeP3RyoYvS9hnje1ZyagrZOuQ6+1nQC1Gw+7gap3pLNL3xL6UBug==
 
-"@types/lodash@^4.14.123":
-  version "4.14.123"
-  resolved "https://registry.yarnpkg.com/@types/lodash/-/lodash-4.14.123.tgz#39be5d211478c8dd3bdae98ee75bb7efe4abfe4d"
-  integrity sha512-pQvPkc4Nltyx7G1Ww45OjVqUsJP4UsZm+GWJpigXgkikZqJgRm4c48g027o6tdgubWHwFRF15iFd+Y4Pmqv6+Q==
+"@types/lodash@^4.14.132":
+  version "4.14.132"
+  resolved "https://registry.yarnpkg.com/@types/lodash/-/lodash-4.14.132.tgz#8ce45ca8745ff2e004fac0de0ab46f61e390ffa0"
+  integrity sha512-RNUU1rrh85NgUJcjOOr96YXr+RHwInGbaQCZmlitqOaCKXffj8bh+Zxwuq5rjDy5OgzFldDVoqk4pyLEDiwxIw==
 
 "@types/node@*":
   version "11.13.4"
