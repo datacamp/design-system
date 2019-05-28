@@ -28,7 +28,7 @@
   },
   "main": "catalog/index.js",
   "scripts": {
-    "bootstrap": "lerna clean --yes && lerna bootstrap",
+    "bootstrap": "lerna clean --yes && lerna bootstrap && lerna run prepare",
     "lint": "eslint --ignore-path .gitignore .",
     "lint:fix": "yarn lint --fix",
     "test": "lerna run test",
@@ -66,5 +66,27 @@
     "hooks": {
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
+  },
+  "workspaces": {
+    "packages": [
+      "packages/docs/*",
+      "packages/other/*",
+      "packages/react-components/*",
+      "packages/stylesheets/*",
+      "packages/tools/*"
+    ],
+    "nohoist": [
+      "@datacamp/waffles-core/@datacamp/waffles-tokens",
+      "@datacamp/waffles-core/extract-text-webpack-plugin",
+      "**/css-loader",
+      "**/css-loader/**",
+      "**/sass-loader",
+      "**/sass-loader/**",
+      "**/style-loader",
+      "**/style-loader/**",
+      "**/postcss-loader",
+      "**/postcss-loader/**",
+      "@datacamp/waffles-catalog-doc-site/**"
+    ]
   }
 }

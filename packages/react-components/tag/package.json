@@ -13,7 +13,7 @@
     "clean": "rm -rf lib",
     "build:types": "tsc --rootDir src --declarationDir lib --emitDeclarationOnly",
     "build": "yarn build:types && yarn build:js && yarn build:legacy",
-    "prepublish": " yarn clean && yarn build",
+    "prepare": " yarn clean && yarn build",
     "test": "jest",
     "type-check": "tsc --noEmit",
     "watch": "yarn build:js --watch"

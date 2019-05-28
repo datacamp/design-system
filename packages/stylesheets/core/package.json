@@ -25,7 +25,7 @@
   "main": "lib/js/index.js",
   "scripts": {
     "clean": "rm -rf lib/**",
-    "prepublish": "yarn build",
+    "prepare": "yarn build",
     "build": "yarn clean && webpack && babel js --out-dir lib/js --ignore spec.js "
   },
   "devDependencies": {

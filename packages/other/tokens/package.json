@@ -11,7 +11,7 @@
     "build": "yarn clean && node build.js",
     "watch": "nodemon --ignore lib/ -e js,json build.js",
     "clean": "rm -rf build",
-    "prepublish": "yarn clean && yarn build",
+    "prepare": "yarn clean && yarn build",
     "test": "jest"
   },
   "author": "",

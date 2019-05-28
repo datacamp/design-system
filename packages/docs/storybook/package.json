@@ -10,9 +10,9 @@
   },
   "scripts": {
     "start": "start-storybook",
-    "build": "build-storybook -c .storybook, -o lib",
+    "build": "build-storybook -c .storybook -o lib",
     "clean": "rm -rf lib",
-    "prepublish": "yarn clean && yarn build"
+    "prepare": "yarn clean && yarn build"
   },
   "dependencies": {
     "@datacamp/waffles-core": "^1.1.1",
@@ -27,6 +27,9 @@
     "react-dom": "^16.8.6"
   },
   "devDependencies": {
-    "@datacamp/waffles-babel-preset": "^0.0.1"
+    "@datacamp/waffles-babel-preset": "^1.0.0",
+    "@babel/core": "^7.4.3",
+    "babel-loader": "^8.0.0",
+    "webpack": "^4.0.0"
   }
 }
