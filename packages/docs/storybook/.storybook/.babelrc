@@ -1,15 +1,4 @@
 {
-  "presets": [
-    [
-      "env",
-      {
-        "targets": {
-          "browsers": ["last 2 versions", "Firefox ESR", "not IE < 11"]
-        }
-      }
-    ],
-    ["react"]
-  ],
-  "plugins": ["transform-object-rest-spread", "syntax-dynamic-import"],
+  "presets": ["@datacamp/waffles-babel-preset"],
   "ignore": ["node_modules"]
 }
