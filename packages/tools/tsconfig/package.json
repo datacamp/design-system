@@ -1,6 +1,6 @@
 {
   "name": "@datacamp/waffles-tsconfig",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "main": "tsconfig.json",
   "repository": "https://github.com/datacamp-engineering/design-system/tree/master/packages/tools/tsconfig/",
   "license": "UNLICENSED",

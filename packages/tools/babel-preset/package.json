@@ -1,6 +1,6 @@
 {
   "name": "@datacamp/waffles-babel-preset",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "main": "index.js",
   "repository": "https://github.com/datacamp-engineering/design-system/tree/master/packages/tools/babel-preset/",
   "license": "UNLICENSED",

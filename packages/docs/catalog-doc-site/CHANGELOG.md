@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.4.2](https://github.com/datacamp-engineering/design-system/tree/master/packages/docs/catalog-doc-site/compare/@datacamp/waffles-catalog-doc-site@1.4.1...@datacamp/waffles-catalog-doc-site@1.4.2) (2019-05-28)
+
+
+### Bug Fixes
+
+* add trailing slash to repository URLs ([25f1174](https://github.com/datacamp-engineering/design-system/tree/master/packages/docs/catalog-doc-site/commit/25f1174))
+* typo in link to tokens doc ([c55be19](https://github.com/datacamp-engineering/design-system/tree/master/packages/docs/catalog-doc-site/commit/c55be19))
+* typo on Icon components page ([8c818a5](https://github.com/datacamp-engineering/design-system/tree/master/packages/docs/catalog-doc-site/commit/8c818a5))
+
+
+
+
+
 ## [1.4.1](https://github.com/datacamp-engineering/design-system/tree/master/packages/docs/catalog-doc-site/compare/@datacamp/waffles-catalog-doc-site@1.4.0...@datacamp/waffles-catalog-doc-site@1.4.1) (2019-05-22)
 
 **Note:** Version bump only for package @datacamp/waffles-catalog-doc-site

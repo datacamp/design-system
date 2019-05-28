@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.1](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/icons/compare/@datacamp/waffles-icons@1.0.0...@datacamp/waffles-icons@1.0.1) (2019-05-28)
+
+
+### Bug Fixes
+
+* add trailing slash to repository URLs ([25f1174](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/icons/commit/25f1174))
+
+
+
+
+
 # [1.0.0](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/icons/compare/@datacamp/waffles-icons@0.2.0...@datacamp/waffles-icons@1.0.0) (2019-05-22)
 
 
