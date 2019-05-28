@@ -1,13 +1,4 @@
 {
-  "compilerOptions": {
-    "target": "esnext",
-    "module": "commonjs",
-    "declaration": true,
-    "strict": true,
-    "allowSyntheticDefaultImports": true,
-    "esModuleInterop": true,
-    "resolveJsonModule": true,
-    "jsx": "preserve",
-    "outDir": "lib"
-  }
+  "extends": "@datacamp/waffles-tsconfig",
+  "exclude": ["lib"]
 }
