@@ -731,6 +731,19 @@
     exec-sh "^0.3.2"
     minimist "^1.2.0"
 
+"@datacamp/waffles-core@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@datacamp/waffles-core/-/waffles-core-1.1.0.tgz#b9f7b9d5bc4d9bdac73ad5f56d69905b6c9d7b31"
+  integrity sha512-+6SRgRlak9itHjdnnuAdLNsr8bxEsaGw6b144Bd/qMTbjgy2NoTS1y0xrCfF8FYPIAMpqJKPVJUR6h8wDozIPA==
+  dependencies:
+    "@datacamp/waffles-tokens" "^0.1.0"
+    lodash "^4.17.11"
+
+"@datacamp/waffles-tokens@^0.1.0":
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/@datacamp/waffles-tokens/-/waffles-tokens-0.1.0.tgz#64a92aa1d817a4d88d7f47fcf46c46d88c931847"
+  integrity sha512-ePXUJ0Ey/nxC4yg5rSfb4xDNz854QQsIjBznJYl43oM0OYY1IraasrTo0MSfx2EkUv8pacLxD/Yhu6n6xXlYTg==
+
 "@emotion/babel-plugin-jsx-pragmatic@^0.1.2":
   version "0.1.2"
   resolved "https://registry.yarnpkg.com/@emotion/babel-plugin-jsx-pragmatic/-/babel-plugin-jsx-pragmatic-0.1.2.tgz#bb98bbef8effe83418307563c34e784deae57a1a"
@@ -821,10 +834,10 @@
     "@emotion/utils" "0.11.1"
     object-assign "^4.1.1"
 
-"@emotion/styled@^10.0.10":
-  version "10.0.10"
-  resolved "https://registry.yarnpkg.com/@emotion/styled/-/styled-10.0.10.tgz#ec241a9389a585b2c2638b709c262c28469ed92e"
-  integrity sha512-k4p5WxwYJUVYKBlwOmfpqxeSwdPHqUycLHJY9ftleEvMfphYLB8lt9oPEkEty5XH4URh/wyUfZ2wW2ojrHODWA==
+"@emotion/styled@^10.0.11":
+  version "10.0.11"
+  resolved "https://registry.yarnpkg.com/@emotion/styled/-/styled-10.0.11.tgz#f749ca95bfe398b3e511b65ea14b16984f049e6d"
+  integrity sha512-c/M/JJHTQuqdY9viSZD41ccCJDe07/VMrj+JgOcyb8uDnRAr+3cCQ03tyrgl72bQD0YWcjXHhpA7Ja9S3+vuRw==
   dependencies:
     "@emotion/styled-base" "^10.0.10"
     babel-plugin-emotion "^10.0.9"
