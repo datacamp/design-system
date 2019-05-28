@@ -731,6 +731,19 @@
     exec-sh "^0.3.2"
     minimist "^1.2.0"
 
+"@datacamp/waffles-core@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@datacamp/waffles-core/-/waffles-core-1.1.0.tgz#b9f7b9d5bc4d9bdac73ad5f56d69905b6c9d7b31"
+  integrity sha512-+6SRgRlak9itHjdnnuAdLNsr8bxEsaGw6b144Bd/qMTbjgy2NoTS1y0xrCfF8FYPIAMpqJKPVJUR6h8wDozIPA==
+  dependencies:
+    "@datacamp/waffles-tokens" "^0.1.0"
+    lodash "^4.17.11"
+
+"@datacamp/waffles-tokens@^0.1.0":
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/@datacamp/waffles-tokens/-/waffles-tokens-0.1.0.tgz#64a92aa1d817a4d88d7f47fcf46c46d88c931847"
+  integrity sha512-ePXUJ0Ey/nxC4yg5rSfb4xDNz854QQsIjBznJYl43oM0OYY1IraasrTo0MSfx2EkUv8pacLxD/Yhu6n6xXlYTg==
+
 "@emotion/babel-plugin-jsx-pragmatic@^0.1.2":
   version "0.1.2"
   resolved "https://registry.yarnpkg.com/@emotion/babel-plugin-jsx-pragmatic/-/babel-plugin-jsx-pragmatic-0.1.2.tgz#bb98bbef8effe83418307563c34e784deae57a1a"
@@ -1073,10 +1086,10 @@
   resolved "https://registry.yarnpkg.com/@types/prop-types/-/prop-types-15.7.0.tgz#4c48fed958d6dcf9487195a0ef6456d5f6e0163a"
   integrity sha512-eItQyV43bj4rR3JPV0Skpl1SncRCdziTEK9/v8VwXmV6d/qOUO8/EuWeHBbCZcsfSHfzI5UyMJLCSXtxxznyZg==
 
-"@types/react@*", "@types/react@^16.8.13":
-  version "16.8.13"
-  resolved "https://registry.yarnpkg.com/@types/react/-/react-16.8.13.tgz#a82b15aad9ab91c40edca0d6889b7745ae24f053"
-  integrity sha512-otJ4ntMuHGrvm67CdDJMAls4WqotmAmW0g3HmWi9LCjSWXrxoXY/nHXrtmMfvPEEmGFNm6NdgMsJmnfH820Qaw==
+"@types/react@*", "@types/react@^16.8.18":
+  version "16.8.18"
+  resolved "https://registry.yarnpkg.com/@types/react/-/react-16.8.18.tgz#fe66fb748b0b6ca9709d38b87b2d1356d960a511"
+  integrity sha512-lUXdKzRqWR4FebR5tGHkLCqnvQJS4fdXKCBrNGGbglqZg2gpU+J82pMONevQODUotATs9fc9k66bx3/St8vReg==
   dependencies:
     "@types/prop-types" "*"
     csstype "^2.2.0"
@@ -1820,15 +1833,10 @@ cssstyle@^1.0.0:
   dependencies:
     cssom "0.3.x"
 
-csstype@^2.2.0:
+csstype@^2.2.0, csstype@^2.5.7:
   version "2.6.4"
   resolved "https://registry.yarnpkg.com/csstype/-/csstype-2.6.4.tgz#d585a6062096e324e7187f80e04f92bd0f00e37f"
   integrity sha512-lAJUJP3M6HxFXbqtGRc0iZrdyeN+WzOWeY0q/VnFzI+kqVrYIzC7bWlKqCW7oCIdzoPkvfp82EVvrTlQ8zsWQg==
-
-csstype@^2.5.7:
-  version "2.6.3"
-  resolved "https://registry.yarnpkg.com/csstype/-/csstype-2.6.3.tgz#b701e5968245bf9b08d54ac83d00b624e622a9fa"
-  integrity sha512-rINUZXOkcBmoHWEyu7JdHu5JMzkGRoMX4ov9830WNgxf5UYxcBUO0QTKAqeJ5EZfSdlrcJYkC8WwfVW7JYi4yg==
 
 dashdash@^1.12.0:
   version "1.14.1"
