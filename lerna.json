@@ -8,5 +8,6 @@
       "allowBranch": "master",
       "message": "chore(release): publish"
     }
-  }
+  },
+  "useWorkspaces": true
 }

@@ -12,7 +12,7 @@
   "scripts": {
     "build": "gulp build",
     "clean": "rm -rf build && rm -rf lib && rm -rf sprites && rm -rf zip",
-    "prepublish": "yarn clean && yarn build",
+    "prepare": "yarn clean && yarn build",
     "type-check": "tsc --rootDir build --noEmit"
   },
   "devDependencies": {
