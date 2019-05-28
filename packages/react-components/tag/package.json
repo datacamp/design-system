@@ -10,9 +10,10 @@
   "scripts": {
     "build:js": "babel src --extensions '.tsx','.ts' --out-dir lib --ignore src/**/*.spec.tsx --config-file ./babel7.config.js",
     "build:legacy": "copyfiles -u 1 legacy/*.scss lib",
+    "clean": "rm -rf lib",
     "build:types": "tsc --rootDir src --declarationDir lib --emitDeclarationOnly",
     "build": "yarn build:types && yarn build:js && yarn build:legacy",
-    "prepublish": "yarn build",
+    "prepublish": " yarn clean && yarn build",
     "test": "jest",
     "type-check": "tsc --noEmit",
     "watch": "yarn build:js --watch"
