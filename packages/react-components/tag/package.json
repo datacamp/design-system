@@ -42,7 +42,7 @@
     "babel-plugin-typescript-to-proptypes": "^0.17.1",
     "copyfiles": "^2.1.0",
     "enzyme": "^3.9.0",
-    "enzyme-adapter-react-16": "^1.12.1",
+    "enzyme-adapter-react-16": "^1.13.2",
     "enzyme-to-json": "3.3.5",
     "jest": "^24.6.0",
     "jest-emotion": "^10.0.10",
