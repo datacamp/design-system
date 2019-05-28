@@ -10,8 +10,8 @@
   "scripts": {
     "build:js": "babel src --extensions '.tsx','.ts' --out-dir lib --ignore src/**/*.spec.tsx --config-file ./babel7.config.js",
     "build:legacy": "copyfiles -u 1 legacy/*.scss lib",
-    "build:types": "tsc --rootDir src --emitDeclarationOnly",
-    "build": "yarn build:types & yarn build:js & yarn build:legacy",
+    "build:types": "tsc --rootDir src --declarationDir lib --emitDeclarationOnly",
+    "build": "yarn build:types && yarn build:js && yarn build:legacy",
     "prepublish": "yarn build",
     "test": "jest",
     "type-check": "tsc --noEmit",
@@ -30,6 +30,7 @@
     "@babel/cli": "^7.4.3",
     "@babel/core": "^7.4.3",
     "@datacamp/waffles-babel-preset": "^0.0.1",
+    "@datacamp/waffles-tsconfig": "^0.0.1",
     "@types/enzyme": "^3.9.1",
     "@types/enzyme-adapter-react-16": "^1.0.5",
     "@types/lodash": "^4.14.123",
