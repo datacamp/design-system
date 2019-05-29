@@ -1,6 +1,6 @@
 {
   "name": "@datacamp/waffles-storybook",
-  "version": "1.2.3",
+  "version": "1.2.4",
   "main": "index.js",
   "license": "NONE",
   "private": true,
@@ -15,10 +15,10 @@
     "prepare": "yarn clean && yarn build"
   },
   "dependencies": {
-    "@datacamp/waffles-core": "^1.1.1",
-    "@datacamp/waffles-heading": "^0.0.22",
-    "@datacamp/waffles-icons": "^1.0.1",
-    "@datacamp/waffles-tag": "^0.3.1",
+    "@datacamp/waffles-core": "^1.1.2",
+    "@datacamp/waffles-heading": "^0.0.23",
+    "@datacamp/waffles-icons": "^1.0.2",
+    "@datacamp/waffles-tag": "^0.3.2",
     "@emotion/core": "^10.0.10",
     "@emotion/styled": "^10.0.11",
     "@storybook/addon-knobs": "^5.0.11",
@@ -27,8 +27,8 @@
     "react-dom": "^16.8.6"
   },
   "devDependencies": {
-    "@datacamp/waffles-babel-preset": "^1.0.0",
     "@babel/core": "^7.4.3",
+    "@datacamp/waffles-babel-preset": "^1.0.1",
     "babel-loader": "^8.0.0",
     "webpack": "^4.0.0"
   }

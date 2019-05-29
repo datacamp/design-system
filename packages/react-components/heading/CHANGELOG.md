@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.0.23](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/heading/compare/@datacamp/waffles-heading@0.0.22...@datacamp/waffles-heading@0.0.23) (2019-05-29)
+
+**Note:** Version bump only for package @datacamp/waffles-heading
+
+
+
+
+
 ## [0.0.22](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/heading/compare/@datacamp/waffles-heading@0.0.21...@datacamp/waffles-heading@0.0.22) (2019-05-28)
 
 

@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.2](https://github.com/datacamp-engineering/design-system/tree/master/packages/other/tokens/compare/@datacamp/waffles-tokens@0.1.1...@datacamp/waffles-tokens@0.1.2) (2019-05-29)
+
+**Note:** Version bump only for package @datacamp/waffles-tokens
+
+
+
+
+
 ## [0.1.1](https://github.com/datacamp-engineering/design-system/tree/master/packages/other/tokens/compare/@datacamp/waffles-tokens@0.1.0...@datacamp/waffles-tokens@0.1.1) (2019-05-28)
 
 
