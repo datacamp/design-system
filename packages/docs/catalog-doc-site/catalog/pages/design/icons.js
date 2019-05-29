@@ -5,7 +5,7 @@ import { Page } from 'catalog';
 import * as Icons from '@datacamp/waffles-icons';
 import iconsZip from '@datacamp/waffles-icons/zip/icons.zip';
 import { colors, border } from '@datacamp/waffles-tokens';
-import { css, jsx } from '@emotion/core'; // eslint-disable-line no-unused-vars
+import { css, jsx } from '@emotion/core';
 
 import CustomHeader from '../../components/CustomHeader';
 

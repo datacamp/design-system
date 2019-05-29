@@ -1,7 +1,7 @@
 /* @jsx jsx */
 import React from 'react';
 import { Page } from 'catalog';
-import { css, jsx } from '@emotion/core'; // eslint-disable-line no-unused-vars
+import { jsx } from '@emotion/core';
 
 import CustomHeader from '../../components/CustomHeader';
 
