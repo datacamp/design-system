@@ -87,6 +87,9 @@ workflows:
     jobs:
       - build-and-test:
           context: org-global
+          filters:
+            tags:
+              only: /.*/
       - deploy-staging-site:
           requires:
             - build-and-test
