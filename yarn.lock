@@ -12421,10 +12421,10 @@ node-releases@^1.1.19, node-releases@^1.1.3:
   dependencies:
     semver "^5.3.0"
 
-node-sass-json-importer@4.0.1:
-  version "4.0.1"
-  resolved "https://registry.yarnpkg.com/node-sass-json-importer/-/node-sass-json-importer-4.0.1.tgz#0d7d8641670bc9fed96951eef677c438e20dd1d5"
-  integrity sha512-uTS/eTBq69HpAxtTmKXT0HJEc/4Y2BHuv3svVsqnjhlaqn2bEY0d6pZi5g+3gY/pbrh/R+vZ3/1hdVI19/MT6Q==
+node-sass-json-importer@4.1.0:
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/node-sass-json-importer/-/node-sass-json-importer-4.1.0.tgz#215dc6cfaf9902a705465652143ac9bf35cd499a"
+  integrity sha512-lNlSzglF+TDfb+UpOGX3GCytMWPLSsRpTjuCHgIrK2VBpCiHQUGWMUc5AXXoKeO1ONeJpFTo5xnFUELUOGTHsA==
   dependencies:
     is-there "^4.0.0"
     json5 "^1.0"
