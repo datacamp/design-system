@@ -29,7 +29,7 @@
   "main": "catalog/index.js",
   "scripts": {
     "bootstrap": "lerna clean --yes && lerna bootstrap && lerna run prepare",
-    "lint": "eslint --ignore-path .gitignore .",
+    "lint": "eslint --ext js,jsx,ts,tsx --ignore-path .gitignore .",
     "lint:fix": "yarn lint --fix",
     "test": "lerna run test",
     "type-check": "lerna run type-check",
@@ -40,6 +40,8 @@
   "dependencies": {},
   "devDependencies": {
     "@commitlint/config-conventional": "^8.0.0",
+    "@typescript-eslint/eslint-plugin": "^1.9.0",
+    "@typescript-eslint/parser": "^1.9.0",
     "babel-eslint": "^10.0.1",
     "commitlint": "^8.0.0",
     "eslint": "^5.16.0",
@@ -50,6 +52,7 @@
     "eslint-plugin-jsx-a11y": "^6.2.1",
     "eslint-plugin-prettier": "^3.1.0",
     "eslint-plugin-react": "^7.13.0",
+    "eslint-import-resolver-typescript": "^1.1.1",
     "husky": "^2.4.0",
     "lerna": "^3.15.0",
     "prettier": "^1.18.2"

@@ -1,6 +1,12 @@
 {
-  "extends": ["airbnb", "prettier", "prettier/react"],
-  "plugins": ["prettier", "emotion"],
+  "extends": [
+    "airbnb",
+    "plugin:@typescript-eslint/recommended",
+    "prettier",
+    "prettier/react",
+    "prettier/@typescript-eslint"
+  ],
+  "plugins": ["prettier", "emotion", "@typescript-eslint"],
   "rules": {
     "prettier/prettier": "error",
     "react/jsx-filename-extension": "off",
@@ -10,6 +16,8 @@
       {
         "devDependencies": [
           "packages/**/src/*.spec.js",
+          "packages/**/src/*.spec.ts",
+          "packages/**/src/*.spec.tsx",
           "src/**/__mocks__/**",
           "test/helpers",
           ".storybook/**.js",
@@ -21,19 +29,36 @@
           "packages/other/**/*.js"
         ]
       }
+    ],
+    "react/prop-types": "off",
+    "@typescript-eslint/no-var-requires": "off",
+    "@typescript-eslint/no-unused-vars": [
+      "error",
+      { "varsIgnorePattern": "jsx" }
+    ],
+    "@typescript-eslint/explicit-function-return-type": [
+      "error",
+      {
+        "allowTypedFunctionExpressions": true,
+        "allowExpressions": true
+      }
     ]
   },
   "globals": {},
   "env": {
     "browser": true
   },
-  "parser": "babel-eslint",
-  "settings": {},
+  "parser": "@typescript-eslint/parser",
+  "settings": {
+    "import/resolver": { "typescript": {} }
+  },
   "root": true,
   "overrides": [
     {
       "files": [
         "packages/**/src/*.spec.js",
+        "packages/**/src/*.spec.ts",
+        "packages/**/src/*.spec.tsx",
         "packages/**/test/*.spec.js",
         "src/**/__mocks__/**",
         "test/helpers"

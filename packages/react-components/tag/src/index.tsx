@@ -1,6 +1,6 @@
-import { css } from '@emotion/core';
+import { css, SerializedStyles } from '@emotion/core';
 import styled from '@emotion/styled';
-import { SFC } from 'react';
+import React from 'react';
 import { isNil } from 'lodash';
 import tokens from '@datacamp/waffles-tokens/lib/future-tokens.json';
 import { getColor, getContrastColor } from '@datacamp/waffles-core';
@@ -12,7 +12,7 @@ const baseTagStyle = css({
   border: `1px solid ${tokens.color.opaque.greyLighter.value.hex}`,
   display: 'inline-flex',
   fontSize: tokens.size.font.micro.value,
-  fontWeight: parseInt(tokens.size.fontWeight.bold.value),
+  fontWeight: parseInt(tokens.size.fontWeight.bold.value, 10),
   fontFamily: tokens.asset.font.sansSerif.value,
   letterSpacing: '0.6px', // 1@16px->0.8@14px->0.6@12px
   lineHeight: 1,
@@ -22,11 +22,17 @@ const baseTagStyle = css({
   whiteSpace: 'nowrap',
 });
 
+interface TagStyleProps {
+  rounded?: boolean;
+  textColor?: string;
+  color?: string;
+}
+
 const dynamicTagStyle = ({
   color,
   rounded = false,
   textColor,
-}: TagStyleProps) => {
+}: TagStyleProps): SerializedStyles => {
   const backgroundColor = getColor(color) || getColor('primaryLightest');
   const parsedTextColor =
     (isNil(textColor) && getContrastColor(color)) || getColor(textColor);
@@ -38,12 +44,6 @@ const dynamicTagStyle = ({
   });
 };
 
-interface TagStyleProps {
-  rounded?: boolean;
-  textColor?: string;
-  color?: string;
-}
-
 export interface TagProps extends TagStyleProps {
   children: string;
   extraClass?: string;
@@ -51,7 +51,7 @@ export interface TagProps extends TagStyleProps {
 
 const StyledTagDiv = styled.div<TagStyleProps>(baseTagStyle, dynamicTagStyle);
 
-const Tag: SFC<TagProps> = ({ extraClass, children, ...styleProps }) => (
+const Tag: React.SFC<TagProps> = ({ extraClass, children, ...styleProps }) => (
   <StyledTagDiv className={extraClass} {...styleProps}>
     {children}
   </StyledTagDiv>
