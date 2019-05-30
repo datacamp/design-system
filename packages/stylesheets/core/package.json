@@ -47,7 +47,7 @@
     "postcss-reporter": "^6.0.1",
     "sass-loader": "^7.1.0",
     "style-loader": "^0.23.1",
-    "svg-spritemap-webpack-plugin": "^1.2.0",
+    "svg-spritemap-webpack-plugin": "^3.3.2",
     "webpack": "^3.5.5",
     "webpack-manifest-plugin": "^1.3.1"
   },
