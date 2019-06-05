@@ -38,7 +38,7 @@
     "@types/react": "^16.8.19",
     "babel-jest": "^24.6.0",
     "copyfiles": "^2.1.0",
-    "enzyme": "^3.9.0",
+    "enzyme": "^3.10.0",
     "enzyme-adapter-react-16": "^1.14.0",
     "enzyme-to-json": "3.3.5",
     "jest": "^24.6.0",
