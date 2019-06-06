@@ -30,6 +30,6 @@
     "@babel/core": "^7.4.3",
     "@datacamp/waffles-babel-preset": "^1.0.1",
     "babel-loader": "^8.0.0",
-    "webpack": "^4.0.0"
+    "webpack": "^4.33.0"
   }
 }
