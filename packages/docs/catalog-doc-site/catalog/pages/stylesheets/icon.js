@@ -1,5 +1,5 @@
+import { HintSpecimen, HtmlSpecimen, Page } from 'catalog';
 import React from 'react';
-import { Page, HtmlSpecimen, HintSpecimen } from 'catalog';
 
 import CustomHeader from '../../components/CustomHeader';
 

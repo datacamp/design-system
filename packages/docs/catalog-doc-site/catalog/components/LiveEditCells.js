@@ -1,7 +1,7 @@
-import React from 'react';
-import PropTypes from 'prop-types';
 import styled from '@emotion/styled';
-import { LiveProvider, LiveEditor, LiveError, LivePreview } from 'react-live';
+import PropTypes from 'prop-types';
+import React from 'react';
+import { LiveEditor, LiveError, LivePreview, LiveProvider } from 'react-live';
 
 const background = '#282a36';
 const foreground = '#f8f8f2';

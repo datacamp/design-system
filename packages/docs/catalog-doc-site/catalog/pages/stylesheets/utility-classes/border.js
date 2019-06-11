@@ -1,8 +1,8 @@
-import React from 'react';
-import { Page, HintSpecimen } from 'catalog';
-
-import { colors } from '@datacamp/waffles-tokens';
 import { getColor } from '@datacamp/waffles-core';
+import { colors } from '@datacamp/waffles-tokens';
+import { HintSpecimen, Page } from 'catalog';
+import React from 'react';
+
 import CustomHeader from '../../../components/CustomHeader';
 import dashify from '../../../helpers/dashify';
 

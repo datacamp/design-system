@@ -1,13 +1,12 @@
-import React from 'react';
-import { storiesOf } from '@storybook/react';
-import { select, text } from '@storybook/addon-knobs';
-
 import Heading from '@datacamp/waffles-heading';
+import { select, text } from '@storybook/addon-knobs';
+import { storiesOf } from '@storybook/react';
+import React from 'react';
 
 const validElements = ['h1', 'h2', 'h3', 'h4', 'h5', 'h6'];
 
 const renderTable = elements => (
-  <table style={{ width: 'auto', margin: '0 auto' }}>
+  <table style={{ margin: '0 auto', width: 'auto' }}>
     <tbody>
       {elements.map(([element, props]) => (
         <tr key={element}>

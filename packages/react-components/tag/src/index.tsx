@@ -1,11 +1,11 @@
-import { css, SerializedStyles } from '@emotion/core';
-import styled from '@emotion/styled';
-import React from 'react';
-import { isNil } from 'lodash';
-import tokens from '@datacamp/waffles-tokens/lib/future-tokens.json';
-import { getColor, getContrastColor } from '@datacamp/waffles-core';
-
 import './injectGlobalLato';
+
+import { getColor, getContrastColor } from '@datacamp/waffles-core';
+import tokens from '@datacamp/waffles-tokens/lib/future-tokens.json';
+import { SerializedStyles, css } from '@emotion/core';
+import styled from '@emotion/styled';
+import { isNil } from 'lodash';
+import React from 'react';
 
 const baseTagStyle = css({
   alignItems: 'center',

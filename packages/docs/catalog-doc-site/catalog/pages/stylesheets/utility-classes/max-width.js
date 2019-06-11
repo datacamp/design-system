@@ -1,7 +1,7 @@
-import React from 'react';
-import { Page } from 'catalog';
-
 import { spatial } from '@datacamp/waffles-tokens';
+import { Page } from 'catalog';
+import React from 'react';
+
 import CustomHeader from '../../../components/CustomHeader';
 
 const sizes = Array.from(spatial.sizes.split(' '));

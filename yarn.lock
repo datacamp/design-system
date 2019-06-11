@@ -7827,6 +7827,13 @@ eslint-plugin-react@^7.13.0:
     prop-types "^15.7.2"
     resolve "^1.10.1"
 
+eslint-plugin-simple-import-sort@3.1.1:
+  version "3.1.1"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-simple-import-sort/-/eslint-plugin-simple-import-sort-3.1.1.tgz#a5e7c9f2819d9590c0046d835debf445689955e3"
+  integrity sha512-ik1YH6gFjdXEZTeePCDEkjBqQO95IfG/uqZkI+5Kl8GESq4eVYrNC21+XXML3rEuj/XVVfUZbwPkCXOW+ecjhw==
+  dependencies:
+    validate-npm-package-name "^3.0.0"
+
 eslint-plugin-sort-keys-fix@1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/eslint-plugin-sort-keys-fix/-/eslint-plugin-sort-keys-fix-1.0.1.tgz#b80422c643df16e8a662b3e22e1cbc1138fa64fa"

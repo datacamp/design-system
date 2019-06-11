@@ -1,10 +1,10 @@
-import React from 'react';
-import { Page } from 'catalog';
 import { breakpoints } from '@datacamp/waffles-tokens';
+import { Page } from 'catalog';
+import React from 'react';
 
+import CustomHeader from '../../../components/CustomHeader';
 import dashify from '../../../helpers/dashify';
 import whitelist from '../../../helpers/whitelist';
-import CustomHeader from '../../../components/CustomHeader';
 
 const blacklist = ['ws', '4K', '5K', 'belowWs', 'below4K', 'below5K'];
 

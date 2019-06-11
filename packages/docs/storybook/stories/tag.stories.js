@@ -1,13 +1,11 @@
-import React from 'react';
-import { storiesOf } from '@storybook/react';
-import { select, text, boolean } from '@storybook/addon-knobs';
-
 import { getColor } from '@datacamp/waffles-core';
-
 import Tag from '@datacamp/waffles-tag';
+import { boolean, select, text } from '@storybook/addon-knobs';
+import { storiesOf } from '@storybook/react';
+import React from 'react';
 
 const renderTable = (elements, { showDarkBackground = false } = {}) => (
-  <table style={{ width: 'auto', margin: '0 auto' }}>
+  <table style={{ margin: '0 auto', width: 'auto' }}>
     <tbody>
       {elements.map(([color, props]) => (
         <tr key={color}>

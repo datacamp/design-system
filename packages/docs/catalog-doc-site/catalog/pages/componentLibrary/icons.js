@@ -1,8 +1,9 @@
-import React from 'react';
-import { Page } from 'catalog';
-import { chunk } from 'lodash';
 import * as Icons from '@datacamp/waffles-icons';
 import { colors } from '@datacamp/waffles-tokens';
+import { Page } from 'catalog';
+import { chunk } from 'lodash';
+import React from 'react';
+
 import CustomHeader from '../../components/CustomHeader';
 import LiveEditCells from '../../components/LiveEditCells';
 

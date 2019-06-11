@@ -6,7 +6,13 @@
     "prettier/react",
     "prettier/@typescript-eslint"
   ],
-  "plugins": ["prettier", "emotion", "@typescript-eslint", "sort-keys-fix"],
+  "plugins": [
+    "prettier",
+    "emotion",
+    "@typescript-eslint",
+    "sort-keys-fix",
+    "simple-import-sort"
+  ],
   "rules": {
     "prettier/prettier": "error",
     "react/jsx-filename-extension": "off",
@@ -30,6 +36,9 @@
         ]
       }
     ],
+    "import/order": "off",
+    "sort-order": "off",
+    "simple-import-sort/sort": "error",
     "react/prop-types": "off",
     "@typescript-eslint/no-var-requires": "off",
     "@typescript-eslint/no-unused-vars": [

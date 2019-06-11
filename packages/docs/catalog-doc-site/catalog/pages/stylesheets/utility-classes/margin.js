@@ -1,7 +1,7 @@
-import React from 'react';
-import { Page, HintSpecimen } from 'catalog';
-
 import { spatial } from '@datacamp/waffles-tokens';
+import { HintSpecimen, Page } from 'catalog';
+import React from 'react';
+
 import CustomHeader from '../../../components/CustomHeader';
 
 const docsCustomBgLight = {
