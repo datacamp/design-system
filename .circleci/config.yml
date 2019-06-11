@@ -106,4 +106,4 @@ workflows:
             branches:
               ignore: /.*/
             tags:
-              only: /@datacamp/waffles-catalog-doc-site@.*/
+              only: /@datacamp\/waffles-catalog-doc-site@.*/
