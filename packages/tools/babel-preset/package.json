@@ -15,10 +15,10 @@
   },
   "devDependencies": {
     "@babel/core": "^7.4.3",
-    "typescript": "^3.0.0"
+    "typescript": "^3.5.1"
   },
   "peerDependencies": {
     "@babel/core": "^7.4.3",
-    "typescript": "^3.0.0"
+    "typescript": "^3.5.1"
   }
 }
