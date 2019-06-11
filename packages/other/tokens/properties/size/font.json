@@ -16,9 +16,9 @@
       "heading": { "value": "1.25" }
     },
     "fontWeight": {
-      "bold": { "value": "700" },
-      "light": { "value": "300" },
-      "regular": { "value": "400" }
+      "bold": { "value": 700 },
+      "light": { "value": 300 },
+      "regular": { "value": 400 }
     }
   }
 }
