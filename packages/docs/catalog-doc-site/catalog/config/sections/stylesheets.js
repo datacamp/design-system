@@ -1,5 +1,5 @@
-import { pageLoader } from 'catalog';
 import Tag from '@datacamp/waffles-tag';
+import { pageLoader } from 'catalog';
 
 const utilityClassPages = [
   {

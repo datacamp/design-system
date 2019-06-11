@@ -1,11 +1,11 @@
 /* @jsx jsx */
-import React from 'react';
-import _ from 'lodash';
-import { Page } from 'catalog';
 import * as Icons from '@datacamp/waffles-icons';
 import iconsZip from '@datacamp/waffles-icons/zip/icons.zip';
-import { colors, border } from '@datacamp/waffles-tokens';
+import { border, colors } from '@datacamp/waffles-tokens';
 import { css, jsx } from '@emotion/core';
+import { Page } from 'catalog';
+import _ from 'lodash';
+import React from 'react';
 
 import CustomHeader from '../../components/CustomHeader';
 

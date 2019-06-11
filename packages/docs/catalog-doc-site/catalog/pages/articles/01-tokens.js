@@ -1,5 +1,6 @@
-import React from 'react';
 import { Page } from 'catalog';
+import React from 'react';
+
 import CustomHeader from '../../components/CustomHeader';
 
 export default () => {

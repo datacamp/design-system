@@ -1,7 +1,8 @@
-import React from 'react';
-import { mount } from 'enzyme';
 import { getColor, getContrastColor } from '@datacamp/waffles-core';
+import { mount } from 'enzyme';
 import { matchers } from 'jest-emotion';
+import React from 'react';
+
 import Tag from '.';
 
 expect.extend(matchers);

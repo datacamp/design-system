@@ -1,6 +1,6 @@
-import React from 'react';
-import PropTypes from 'prop-types';
 import cx from 'classnames';
+import PropTypes from 'prop-types';
+import React from 'react';
 
 const Heading = ({ children, element: elementProp, extraClass }) => {
   const Element = elementProp;

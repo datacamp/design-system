@@ -1,9 +1,8 @@
-import React from 'react';
-import { storiesOf } from '@storybook/react';
-import { select, color } from '@storybook/addon-knobs';
-import styled from '@emotion/styled';
-
 import * as Icons from '@datacamp/waffles-icons';
+import styled from '@emotion/styled';
+import { color, select } from '@storybook/addon-knobs';
+import { storiesOf } from '@storybook/react';
+import React from 'react';
 
 const Container = styled.div`
   display: 'grid',

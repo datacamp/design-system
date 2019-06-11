@@ -1,5 +1,5 @@
-import React from 'react';
 import PropTypes from 'prop-types';
+import React from 'react';
 
 const CustomHeader = ({ section, subSection, description }) => (
   <header className="dc-u-bgg-chambray-cloudburst dc-u-pb-32 dc-u-pt-32 dc-u-pt-48 dc-u-ph-32">

@@ -1,6 +1,7 @@
-import React from 'react';
-import { Page, HintSpecimen } from 'catalog';
 import Tag from '@datacamp/waffles-tag';
+import { HintSpecimen, Page } from 'catalog';
+import React from 'react';
+
 import CustomHeader from '../../components/CustomHeader';
 import LiveEditCells from '../../components/LiveEditCells';
 

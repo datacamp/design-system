@@ -1,7 +1,7 @@
-import React from 'react';
 /* @jsx jsx */
 import { jsx } from '@emotion/core'; // eslint-disable-line no-unused-vars
 import { Page } from 'catalog';
+import React from 'react';
 
 const BarStyle = {
   margin: '-173px 0 0 0',
