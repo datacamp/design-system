@@ -6,13 +6,9 @@
     "pagination"
   ],
   "author": "Dan Denney <dd.subscriptions@gmail.com>",
-  "homepage": "https://github.com/datacamp/design-system/tree/master/packages/pagination#readme",
+  "homepage": "https://github.com/datacamp/design-system/tree/master/packages/pagination/README.md",
   "license": "ISC",
   "main": "lib/pagination.js",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/datacamp-engineering/design-system/tree/master/packages/stylesheets/pagination/"
-  },
   "scripts": {},
   "bugs": {
     "url": "https://github.com/datacamp/design-system/issues"

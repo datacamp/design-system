@@ -3,7 +3,7 @@
   "version": "0.1.19",
   "description": "The Waffles flash banner",
   "author": "Dan Denney <dd.subscriptions@gmail.com>",
-  "homepage": "https://github.com/datacamp/design-system/tree/master/packages/flash-banner#readme",
+  "homepage": "https://github.com/datacamp/design-system/tree/master/packages/flash-banner/README.md",
   "license": "ISC",
   "main": "lib/flash-banner.js",
   "directories": {
@@ -13,10 +13,6 @@
   "files": [
     "lib"
   ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/datacamp-engineering/design-system/tree/master/packages/stylesheets/flash-banner/"
-  },
   "scripts": {},
   "bugs": {
     "url": "https://github.com/datacamp/design-system/issues"

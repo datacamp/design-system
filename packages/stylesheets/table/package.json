@@ -6,13 +6,9 @@
     "table"
   ],
   "author": "Dan Denney <dd.subscriptions@gmail.com>",
-  "homepage": "https://github.com/datacamp/design-system/tree/master/packages/table#readme",
+  "homepage": "https://github.com/datacamp/design-system/tree/master/packages/table/README.md",
   "license": "ISC",
   "main": "lib/table.js",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/datacamp-engineering/design-system/tree/master/packages/stylesheets/table/"
-  },
   "scripts": {},
   "bugs": {
     "url": "https://github.com/datacamp/design-system/issues"

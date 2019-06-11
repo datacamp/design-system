@@ -6,13 +6,9 @@
     "card"
   ],
   "author": "Dan Denney <dd.subscriptions@gmail.com>",
-  "homepage": "https://github.com/datacamp/design-system/tree/master/packages/card#readme",
+  "homepage": "https://github.com/datacamp/design-system/tree/master/packages/card/README.md",
   "license": "ISC",
   "main": "lib/card.js",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/datacamp-engineering/design-system/tree/master/packages/stylesheets/card/"
-  },
   "scripts": {},
   "bugs": {
     "url": "https://github.com/datacamp/design-system/issues"

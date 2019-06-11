@@ -6,10 +6,7 @@
   "author": "",
   "license": "ISC",
   "private": "true",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/datacamp-engineering/design-system/tree/master/packages/docs/catalog-doc-site/"
-  },
+  "homepage": "https://github.com/datacamp-engineering/design-system/tree/master/packages/docs/catalog-doc-site/README.md",
   "scripts": {
     "build": "catalog build",
     "start": "catalog start",

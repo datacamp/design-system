@@ -6,15 +6,11 @@
     "button"
   ],
   "author": "Dan Denney <dd.subscriptions@gmail.com>",
-  "homepage": "https://github.com/datacamp/design-system/tree/master/packages/button#readme",
+  "homepage": "https://github.com/datacamp/design-system/tree/master/packages/button/README.md",
   "license": "ISC",
   "main": "index.js",
   "publishConfig": {
     "access": "public"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/datacamp-engineering/design-system/tree/master/packages/stylesheets/button/"
   },
   "scripts": {},
   "bugs": {

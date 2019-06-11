@@ -3,13 +3,9 @@
   "version": "0.1.19",
   "description": "The Waffles count indicator",
   "author": "Dan Denney <dd.subscriptions@gmail.com>",
-  "homepage": "https://github.com/datacamp/design-system/tree/master/packages/count-indicator#readme",
+  "homepage": "https://github.com/datacamp/design-system/tree/master/packages/count-indicator/README.md",
   "license": "ISC",
   "main": "lib/count-indicator.js",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/datacamp-engineering/design-system/tree/master/packages/stylesheets/count-indicator/"
-  },
   "scripts": {},
   "bugs": {
     "url": "https://github.com/datacamp/design-system/issues"

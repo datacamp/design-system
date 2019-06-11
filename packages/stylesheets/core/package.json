@@ -14,10 +14,7 @@
     "Jordan Wade <jjwade31@gmail.com>",
     "Aaron Bates <aaron@aaronbates.me>"
   ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/datacamp-engineering/design-system/tree/master/packages/stylesheets/core/"
-  },
+  "homepage": "https://github.com/datacamp-engineering/design-system/tree/master/packages/stylesheets/core/README.md",
   "license": "UNLICENSED",
   "publishConfig": {
     "access": "restricted"

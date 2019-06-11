@@ -3,10 +3,7 @@
   "version": "0.0.23",
   "description": "Creates heading element h1, h2, h3, h4, h5, h6",
   "main": "lib/index.js",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/heading/"
-  },
+  "homepage": "https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/heading/README.md",
   "scripts": {
     "build": "babel src --out-dir lib --ignore spec.js --copy-files",
     "prepare": "yarn build",
