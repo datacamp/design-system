@@ -13,8 +13,8 @@ const replaceColorValues = object =>
     const value = {
       hex: color.getAlpha() < 1 ? undefined : color.toHexString(), // Do not include hex for colors with transparency
       hex8: color.toHex8String(),
-      rgb: color.toRgbString(),
       hsl: color.toHslString(),
+      rgb: color.toRgbString(),
     };
     return { ...property, value };
   });

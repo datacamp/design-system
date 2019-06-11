@@ -226,8 +226,8 @@ export default () => {
                 key={name}
                 style={{
                   border: `1px solid${getColor(name)}`,
-                  width: '236px',
                   height: '118px',
+                  width: '236px',
                 }}
               >
                 <code>{`.dc-u-bc-${dashify(name)}`}</code>

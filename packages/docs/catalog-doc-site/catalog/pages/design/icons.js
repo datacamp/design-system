@@ -23,8 +23,8 @@ const RegularIcons = _.difference(Object.values(Icons), [
 ]);
 
 const iconStyle = css({
-  margin: '8px',
   display: 'inline-block',
+  margin: '8px',
 });
 
 export default () => {
@@ -51,8 +51,8 @@ export default () => {
               css={{
                 backgroundColor: colors.primaryDark,
                 borderRadius: border.radius,
-                padding: 16,
                 marginBottom: 24,
+                padding: 16,
               }}
             >
               {InvertedIcons.map(Component => (
@@ -71,19 +71,19 @@ export default () => {
             <div
               className="dc-card"
               css={{
+                display: 'flex',
+                justifyContent: 'space-between',
                 marginBottom: 32,
                 padding: 16,
                 width: 'auto',
-                display: 'flex',
-                justifyContent: 'space-between',
               }}
             >
               <div css={{ textAlign: 'center', width: '32%' }}>
                 <div
                   css={{
                     display: 'block',
-                    margin: '0 auto 8px auto',
                     height: 24,
+                    margin: '0 auto 8px auto',
                   }}
                 >
                   <Icons.DownloadIcon
@@ -94,9 +94,9 @@ export default () => {
                 </div>
                 <span
                   css={{
-                    fontSize: 12,
                     color: colors.greyOslo,
                     display: 'block',
+                    fontSize: 12,
                   }}
                 >
                   12px
@@ -106,8 +106,8 @@ export default () => {
                 <div
                   css={{
                     display: 'block',
-                    margin: '0 auto 8px auto',
                     height: 24,
+                    margin: '0 auto 8px auto',
                   }}
                 >
                   <Icons.DownloadIcon
@@ -118,9 +118,9 @@ export default () => {
                 </div>
                 <span
                   css={{
-                    fontSize: 12,
                     color: colors.greyOslo,
                     display: 'block',
+                    fontSize: 12,
                   }}
                 >
                   18px
@@ -130,17 +130,17 @@ export default () => {
                 <div
                   css={{
                     display: 'block',
-                    margin: '0 auto 8px auto',
                     height: 24,
+                    margin: '0 auto 8px auto',
                   }}
                 >
                   <Icons.DownloadIcon size={24} color={colors.primary} />
                 </div>
                 <span
                   css={{
-                    fontSize: 12,
                     color: colors.greyOslo,
                     display: 'block',
+                    fontSize: 12,
                   }}
                 >
                   24px

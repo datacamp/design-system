@@ -32,20 +32,20 @@ function buildTypescriptComponents() {
         const componentName = generateComponentName(file.basename);
 
         return svgr(content, {
+          dimensions: false,
+          expandProps: false,
           plugins: [
             '@svgr/plugin-svgo',
             '@svgr/plugin-jsx',
             '@svgr/plugin-prettier',
           ],
-          dimensions: false,
-          expandProps: false,
           prettier: true,
-          svgProps: {
-            width: '{size}',
-            height: '{size}',
-            className: '{className}',
-          },
           replaceAttrValues: { '#3AC': '{color}' },
+          svgProps: {
+            className: '{className}',
+            height: '{size}',
+            width: '{size}',
+          },
           template({ template }, opts, { jsx }) {
             const typescriptTemplate = template.smart({
               plugins: ['typescript'],
@@ -115,6 +115,13 @@ function generateSprites() {
   return loadAllSVGs()
     .pipe(
       svgSprite({
+        mode: {
+          css: true, // Create a «css» sprite
+          defs: true, // Create a «view» sprite
+          stack: true, // Create a «defs» sprite
+          symbol: true, // Create a «symbol» sprite
+          view: true, // Create a «stack» sprite
+        },
         shape: { transform: ['svgo'] },
         svg: {
           transform: [
@@ -122,13 +129,6 @@ function generateSprites() {
               return svg.replace(/#3AC/g, 'currentColor');
             },
           ],
-        },
-        mode: {
-          css: true, // Create a «css» sprite
-          view: true, // Create a «view» sprite
-          defs: true, // Create a «defs» sprite
-          symbol: true, // Create a «symbol» sprite
-          stack: true, // Create a «stack» sprite
         },
       })
     )

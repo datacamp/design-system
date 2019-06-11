@@ -9,22 +9,24 @@ const modulesPath = path.resolve(__dirname);
 module.exports = {
   webpack: (config, { dev }) => {
     const extractSCSS = new ExtractTextPlugin({
-      filename: 'static/[name].[contenthash:8].css',
       disable: dev,
+      filename: 'static/[name].[contenthash:8].css',
     });
 
     config.module.rules[0].oneOf.unshift({
-      test: [/\.svg$/],
       loader: require.resolve('url-loader'),
       options: {
         limit: 10000,
         name: 'static/media/[name].[hash:8].[ext]',
       },
+      test: [/\.svg$/],
     });
 
     config.module.rules[0].oneOf.unshift({
+      include: modulesPath,
       test: /\.scss$/,
       use: extractSCSS.extract({
+        fallback: 'style-loader',
         use: [
           {
             loader: 'css-loader',
@@ -48,15 +50,13 @@ module.exports = {
             },
           },
         ],
-        fallback: 'style-loader',
       }),
-      include: modulesPath,
     });
 
     config.module.rules[0].oneOf.unshift({
+      exclude: /node_modules\?!(buble)/,
       test: /\.js$/,
       use: 'babel-loader',
-      exclude: /node_modules\?!(buble)/,
     });
 
     config.module.rules[0].oneOf.unshift({

@@ -9,22 +9,14 @@ const dev = nodeEnv === 'production';
 const outputDir = 'lib';
 
 module.exports = {
-  entry: './scss/ingredients.scss',
-  output: {
-    filename: 'ingredients.scss',
-    path: path.join(__dirname, `./${outputDir}`),
-  },
-  resolve: {
-    extensions: ['.js', '.jsx'],
-    modules: ['node_modules', 'shared'],
-    symlinks: true,
-  },
   devtool: dev ? 'cheap-module-source-map' : 'source-map',
+  entry: './scss/ingredients.scss',
   module: {
     rules: [
       {
         test: /\.(scss)$/,
         use: ExtractTextPlugin.extract({
+          fallback: 'style-loader',
           use: [
             {
               loader: 'css-loader',
@@ -48,32 +40,36 @@ module.exports = {
               },
             },
           ],
-          fallback: 'style-loader',
         }),
       },
     ],
   },
 
+  output: {
+    filename: 'ingredients.scss',
+    path: path.join(__dirname, `./${outputDir}`),
+  },
+
   plugins: [
     new ExtractTextPlugin({
-      filename: 'css/waffles.[contenthash:8].css',
       allChunks: true,
+      filename: 'css/waffles.[contenthash:8].css',
     }),
 
     new SVGSpritemapPlugin({
-      src: 'icons/svgs/*.svg',
       filename: 'icons/symbols.svg',
       prefix: '',
+      src: 'icons/svgs/*.svg',
       svgo: {
         js2svg: {
           pretty: true,
         },
         plugins: [
           {
-            removeTitle: true,
             removeAttrs: {
               attrs: 'fill',
             },
+            removeTitle: true,
           },
         ],
       },
@@ -117,4 +113,10 @@ module.exports = {
       }
     ),
   ],
+
+  resolve: {
+    extensions: ['.js', '.jsx'],
+    modules: ['node_modules', 'shared'],
+    symlinks: true,
+  },
 };
