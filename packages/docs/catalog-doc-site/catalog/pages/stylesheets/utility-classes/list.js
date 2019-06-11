@@ -46,9 +46,7 @@ export default () => {
             {Additive.map(a => (
               <tr key={a.class}>
                 <td>
-                  <code className="dc-u-ws-nowrap">{`.dc-u-lst-${
-                    a.class
-                  }`}</code>
+                  <code className="dc-u-ws-nowrap">{`.dc-u-lst-${a.class}`}</code>
                 </td>
                 <td>
                   <code>list-style-type: {a.value};</code>
@@ -83,9 +81,7 @@ export default () => {
             {Subtractive.map(s => (
               <tr key={s.class}>
                 <td>
-                  <code className="dc-u-ws-nowrap">{`.dc-u-lst-${
-                    s.class
-                  }`}</code>
+                  <code className="dc-u-ws-nowrap">{`.dc-u-lst-${s.class}`}</code>
                 </td>
                 <td>
                   <code>list-style-type: {s.value};</code>
