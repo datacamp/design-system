@@ -10,9 +10,9 @@ const CustomHeader = ({ section, subSection, description }) => (
 );
 
 CustomHeader.propTypes = {
+  description: PropTypes.string.isRequired,
   section: PropTypes.string.isRequired,
   subSection: PropTypes.string.isRequired,
-  description: PropTypes.string.isRequired,
 };
 
 export default CustomHeader;

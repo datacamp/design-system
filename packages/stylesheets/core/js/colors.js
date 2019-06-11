@@ -4,6 +4,10 @@ import tokens from '@datacamp/waffles-tokens';
 const { colors } = tokens;
 
 const COLORS = {
+  geyser: {
+    color: colors.geyser,
+    contrastColor: colors.greyDark,
+  },
   green: {
     color: colors.green,
     contrastColor: colors.white,
@@ -11,10 +15,6 @@ const COLORS = {
   greenLight: {
     color: colors.greenLight,
     contrastColor: colors.white,
-  },
-  geyser: {
-    color: colors.geyser,
-    contrastColor: colors.greyDark,
   },
   grey: {
     color: colors.grey,

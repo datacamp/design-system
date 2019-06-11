@@ -6,42 +6,9 @@ const extractColors = require('../helpers/extractColors');
 
 module.exports = dictionary => {
   const tokens = {
-    spatial: {
-      multiplier: dictionary.properties.size.spatial.multiplier.value,
-      sizes: extractValueArray(dictionary.properties.size.spatial.size).join(
-        ' '
-      ),
-      commonSizes: extractValueArray(
-        dictionary.properties.size.spatial.commonSize
-      ).join(' '),
-      measure: extractValueArray(
-        dictionary.properties.size.spatial.measure
-      ).join(' '),
-      percentages: extractValueArray(
-        dictionary.properties.size.spatial.percentage
-      ).join(' '),
-      angles: extractValueArray(dictionary.properties.size.spatial.angle).join(
-        ' '
-      ),
-      zIndex: extractValueArray(dictionary.properties.size.spatial.zIndex).join(
-        ' '
-      ),
-    },
-    colors: extractColors({
-      ...dictionary.properties.color.opaque,
-      ...dictionary.properties.color.transparent,
-    }),
-    gradients: extractValues(dictionary.properties.gradient),
-    fontFamily: _.mapValues(
-      extractValues(dictionary.properties.asset.font),
-      fontFamily => `'${fontFamily}'`
-    ),
-    fontSize: extractValues(dictionary.properties.size.font),
-    fontWeight: extractValues(dictionary.properties.size.fontWeight),
-    lineHeight: extractValues(dictionary.properties.size.lineHeight),
+    animation: extractValues(dictionary.properties.animation),
     border: extractValues(dictionary.properties.size.border),
     boxShadow: extractValues(dictionary.properties.boxShadow),
-    animation: extractValues(dictionary.properties.animation),
     breakpoints: {
       ...extractValues(dictionary.properties.breakpoints),
       ..._.mapValues(
@@ -51,6 +18,39 @@ module.exports = dictionary => {
         prop => {
           return prop.attributes.below;
         }
+      ),
+    },
+    colors: extractColors({
+      ...dictionary.properties.color.opaque,
+      ...dictionary.properties.color.transparent,
+    }),
+    fontFamily: _.mapValues(
+      extractValues(dictionary.properties.asset.font),
+      fontFamily => `'${fontFamily}'`
+    ),
+    fontSize: extractValues(dictionary.properties.size.font),
+    fontWeight: extractValues(dictionary.properties.size.fontWeight),
+    gradients: extractValues(dictionary.properties.gradient),
+    lineHeight: extractValues(dictionary.properties.size.lineHeight),
+    spatial: {
+      angles: extractValueArray(dictionary.properties.size.spatial.angle).join(
+        ' '
+      ),
+      commonSizes: extractValueArray(
+        dictionary.properties.size.spatial.commonSize
+      ).join(' '),
+      measure: extractValueArray(
+        dictionary.properties.size.spatial.measure
+      ).join(' '),
+      multiplier: dictionary.properties.size.spatial.multiplier.value,
+      percentages: extractValueArray(
+        dictionary.properties.size.spatial.percentage
+      ).join(' '),
+      sizes: extractValueArray(dictionary.properties.size.spatial.size).join(
+        ' '
+      ),
+      zIndex: extractValueArray(dictionary.properties.size.spatial.zIndex).join(
+        ' '
       ),
     },
   };

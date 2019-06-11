@@ -4,8 +4,8 @@ import Tag from '@datacamp/waffles-tag';
 import CustomHeader from '../../components/CustomHeader';
 
 const components = [
-  { name: 'Tag', status: 'Available', docLink: '/component-library/tag' },
-  { name: 'Icon', status: 'Available', docLink: '/component-library/icons' },
+  { docLink: '/component-library/tag', name: 'Tag', status: 'Available' },
+  { docLink: '/component-library/icons', name: 'Icon', status: 'Available' },
   { name: 'Text', status: 'Planned' },
   { name: 'Pill', status: 'Planned' },
   { name: 'Badge', status: 'Planned' },

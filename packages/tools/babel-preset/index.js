@@ -7,6 +7,7 @@ const pluginTypescriptToProptypes = require('babel-plugin-typescript-to-proptype
   .default;
 
 module.exports = () => ({
+  plugins: [pluginLodash, pluginTypescriptToProptypes],
   presets: [
     [
       presetEnv,
@@ -20,5 +21,4 @@ module.exports = () => ({
     presetTypescript,
     presetCSSProp,
   ],
-  plugins: [pluginLodash, pluginTypescriptToProptypes],
 });

@@ -8,48 +8,48 @@ const gradientTransform = require('./transforms/gradient');
 const transforms = ['attribute/cti', 'attribute/color', 'waffles/gradient'];
 
 const tokenBuilder = styleDictionary.extend({
-  source: ['properties/**/*.json'],
   platforms: {
-    'full-json': {
-      transforms,
-      buildPath: 'lib/',
-      files: [{ destination: 'future-tokens.json', format: 'waffles/json' }],
-    },
     'core-json': {
       buildPath: 'lib/',
-      transforms,
       files: [{ destination: 'core-tokens.json', format: 'waffles/core-json' }],
+      transforms,
+    },
+    'full-json': {
+      buildPath: 'lib/',
+      files: [{ destination: 'future-tokens.json', format: 'waffles/json' }],
+      transforms,
     },
     scss: {
       buildPath: 'lib/',
-      transforms,
       files: [
         { destination: 'variables.scss', format: 'waffles/scss-variables' },
       ],
+      transforms,
     },
   },
+  source: ['properties/**/*.json'],
 });
 
 tokenBuilder.registerTransform({
-  name: 'waffles/gradient',
-  type: 'value',
   matcher: prop => prop.attributes.category === 'gradient',
+  name: 'waffles/gradient',
   transformer: gradientTransform,
+  type: 'value',
 });
 
 tokenBuilder.registerFormat({
-  name: 'waffles/core-json',
   formatter: coreJsonFormatter,
+  name: 'waffles/core-json',
 });
 
 tokenBuilder.registerFormat({
-  name: 'waffles/json',
   formatter: jsonFormatter,
+  name: 'waffles/json',
 });
 
 tokenBuilder.registerFormat({
-  name: 'waffles/scss-variables',
   formatter: scssVariableFormatter,
+  name: 'waffles/scss-variables',
 });
 
 tokenBuilder.buildAllPlatforms();

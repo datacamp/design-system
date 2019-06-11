@@ -31,9 +31,9 @@ export default () => {
                 key={name}
                 style={{
                   background: getColor(name),
-                  width: '256px',
-                  height: '128px',
                   color: getContrastColor(name),
+                  height: '128px',
+                  width: '256px',
                 }}
               >
                 <code>{`.dc-u-bgc-${dashify(name)}`}</code>

@@ -11,7 +11,7 @@ const generateVariables = (
   } = {}
 ) => {
   const sortedData = _.sortBy(
-    Object.entries(object).map(([key, data]) => ({ key, data })),
+    Object.entries(object).map(([key, data]) => ({ data, key })),
     'data.attributes.scssSortValue'
   );
   return _.reduce(
@@ -84,8 +84,8 @@ module.exports = ({ properties }) => {
   });
 
   const fontSize = generateVariables(properties.size.font, {
-    prefix: 'font-size',
     keyTransform: key => (/^h[1-9]$/.test(key) ? key : _.kebabCase(key)),
+    prefix: 'font-size',
   });
 
   const fontWeight = generateVariables(properties.size.fontWeight, {
@@ -106,15 +106,15 @@ module.exports = ({ properties }) => {
 
   const animation = generateVariables(properties.animation);
   const breakpoints = generateVariables(properties.breakpoints, {
-    prefix: 'bp',
     keyTransform: transformBreakpointKey,
+    prefix: 'bp',
   });
   const breakpointsBelow = generateVariables(properties.breakpoints, {
-    prefix: 'bp-below',
     keyTransform: key => {
       const parsedKey = _.kebabCase(key);
       return parsedKey.replace(/([1-9]+)-k$/, '$1k');
     },
+    prefix: 'bp-below',
     valueTransform: prop => prop.attributes.below,
   });
 

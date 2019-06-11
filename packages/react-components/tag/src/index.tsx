@@ -11,9 +11,9 @@ const baseTagStyle = css({
   alignItems: 'center',
   border: `1px solid ${tokens.color.opaque.greyLighter.value.hex}`,
   display: 'inline-flex',
+  fontFamily: tokens.asset.font.sansSerif.value,
   fontSize: tokens.size.font.micro.value,
   fontWeight: parseInt(tokens.size.fontWeight.bold.value, 10),
-  fontFamily: tokens.asset.font.sansSerif.value,
   letterSpacing: '0.6px', // 1@16px->0.8@14px->0.6@12px
   lineHeight: 1,
   padding: '5px 11px', // +1px border
@@ -39,8 +39,8 @@ const dynamicTagStyle = ({
 
   return css({
     backgroundColor,
-    color: parsedTextColor,
     borderRadius: rounded ? '4px' : '12px',
+    color: parsedTextColor,
   });
 };
 

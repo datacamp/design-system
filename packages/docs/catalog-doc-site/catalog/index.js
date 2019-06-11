@@ -10,15 +10,15 @@ const scripts = [];
 const imports = [];
 
 const config = {
-  title: 'DataCamp Waffles',
-  useBrowserHistory: true,
-  styles,
-  scripts,
   imports,
   logoSrc,
-  theme,
-  responsiveSizes,
   pages,
+  responsiveSizes,
+  scripts,
+  styles,
+  theme,
+  title: 'DataCamp Waffles',
+  useBrowserHistory: true,
 };
 
 ReactDOM.render(<Catalog {...config} />, document.getElementById('catalog'));

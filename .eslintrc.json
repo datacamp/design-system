@@ -6,7 +6,7 @@
     "prettier/react",
     "prettier/@typescript-eslint"
   ],
-  "plugins": ["prettier", "emotion", "@typescript-eslint"],
+  "plugins": ["prettier", "emotion", "@typescript-eslint", "sort-keys-fix"],
   "rules": {
     "prettier/prettier": "error",
     "react/jsx-filename-extension": "off",
@@ -42,7 +42,8 @@
         "allowTypedFunctionExpressions": true,
         "allowExpressions": true
       }
-    ]
+    ],
+    "sort-keys-fix/sort-keys-fix": ["error", "asc", { "natural": true }]
   },
   "globals": {},
   "env": {

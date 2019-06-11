@@ -62,8 +62,8 @@ const LiveEditCells = ({ noInline, code, scope }) => (
 );
 
 LiveEditCells.propTypes = {
-  noInline: PropTypes.bool,
   code: PropTypes.string.isRequired,
+  noInline: PropTypes.bool,
   scope: PropTypes.shape(),
 };
 

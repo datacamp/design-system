@@ -87,7 +87,7 @@ export default () => {
 
         <article
           className="dc-card"
-          css={{ width: '65%', padding: '32px', marginTop: '24px' }}
+          css={{ marginTop: '24px', padding: '32px', width: '65%' }}
         >
           <h5 className="dc-chapeau-title dc-u-color-grey">What&apos;s New</h5>
           <h3 className="dc-u-mt-16 dc-u-mb-0">The Future of Tokens</h3>

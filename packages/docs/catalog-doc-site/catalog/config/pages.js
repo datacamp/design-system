@@ -7,9 +7,9 @@ import componentLibrarySection from './sections/componentLibrary';
 
 const pages = [
   {
+    content: pageLoader(() => import('../pages/index.js')),
     path: '/',
     title: 'Introduction',
-    content: pageLoader(() => import('../pages/index.js')),
   },
   ...articlesPages,
   designSection,

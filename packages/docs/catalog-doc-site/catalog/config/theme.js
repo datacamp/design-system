@@ -1,25 +1,25 @@
 export const logoSrc = '/logo-waffles-regular.svg';
 
 export const theme = {
+  background: '#f0f4f5',
+  brandColor: '#263e63',
+  codeColor: '#3d4251',
   fontFamily: 'Lato, sans-serif',
   fontHeading: 'Lato, sans-serif',
   fontMono: "'Roboto Mono', monospace",
-  background: '#f0f4f5',
-  textColor: '#3d4251',
-  codeColor: '#3d4251',
-  linkColor: '#33aacc',
   lightColor: '#d1d3d8',
-  pageHeadingBackground: 'linear-gradient(268deg, #405f8f, #1c3050)',
-  pageHeadingTextColor: '#fff',
-  pageHeadingHeight: 140,
+  linkColor: '#33aacc',
   navBarBackground: '#ffffff',
   navBarTextColor: '#3d4251',
-  brandColor: '#263e63',
+  pageHeadingBackground: 'linear-gradient(268deg, #405f8f, #1c3050)',
+  pageHeadingHeight: 140,
+  pageHeadingTextColor: '#fff',
   sidebarColor: '#FFFFFF',
+  sidebarColorHeading: '#263e63',
+  sidebarColorLine: '#e6eaeb',
   sidebarColorText: '#3d4251',
   sidebarColorTextActive: '#33aacc',
-  sidebarColorLine: '#e6eaeb',
-  sidebarColorHeading: '#263e63',
+  textColor: '#3d4251',
 };
 
 export const responsiveSizes = [
