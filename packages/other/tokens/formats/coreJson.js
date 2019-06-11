@@ -29,7 +29,10 @@ module.exports = dictionary => {
       fontFamily => `'${fontFamily}'`
     ),
     fontSize: extractValues(dictionary.properties.size.font),
-    fontWeight: extractValues(dictionary.properties.size.fontWeight),
+    fontWeight: _.mapValues(
+      extractValues(dictionary.properties.size.fontWeight),
+      fontWeight => `${fontWeight}`
+    ),
     gradients: extractValues(dictionary.properties.gradient),
     lineHeight: extractValues(dictionary.properties.size.lineHeight),
     spatial: {
