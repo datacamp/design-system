@@ -27,9 +27,9 @@ export default () => {
             <h4>Usage</h4>
             <p>
               To use any of the styles, simply import the{' '}
-              <code>@datacamp/waffles-tokens</code> and directly access the
-              necessary properties. For example if the primary color is needed
-              then it should be accessed as follows.
+              <code>@datacamp/waffles-tokens</code> package and directly access
+              the necessary properties. For example if the primary color is
+              needed then it should be accessed as follows.
             </p>
             <pre>
               <code>{`import { colors } from '@datacamp/waffles-tokens';
