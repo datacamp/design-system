@@ -21,7 +21,7 @@ export default () => {
               The <code>@datacamp/waffles-tokens</code> package exposes a json
               file containing all the primitive values necessary to produce apps
               with the datacamp styling rules. These values can be accessed and
-              used to style applications using a variety of tools including
+              used to style applications using a variety of tools, including
               CSS-in-JS libraries such as emotion.
             </p>
             <h4>Usage</h4>
