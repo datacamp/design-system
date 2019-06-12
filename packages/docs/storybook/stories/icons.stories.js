@@ -11,7 +11,7 @@ const Container = styled.div`
   place-items: 'center',
 `;
 
-storiesOf('Icons', module).add('All Icons', () => (
+storiesOf('waffles-icons', module).add('All Icons', () => (
   <Container>
     {Object.entries(Icons).map(([name, Component]) => (
       <p key={name}>
