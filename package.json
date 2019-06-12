@@ -34,7 +34,7 @@
     "test": "lerna run test",
     "type-check": "lerna run type-check",
     "build": "lerna run build",
-    "publish-packages": "lerna publish --conventional-commits",
+    "publish-packages": "lerna publish --conventional-commits --create-release github",
     "commitlint:ci": "commitlint --config commitlint.config.js --from \"origin/master\""
   },
   "dependencies": {},
