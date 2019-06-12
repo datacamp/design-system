@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.3.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-storybook@1.2.6...@datacamp/waffles-storybook@1.3.0) (2019-06-12)
+
+
+### Features
+
+* stories for Text Component ([a4c2f5c](https://github.com/datacamp/design-system/commit/a4c2f5c))
+
+
+
+
+
 ## [1.2.6](https://github.com/datacamp/design-system/compare/@datacamp/waffles-storybook@1.2.5...@datacamp/waffles-storybook@1.2.6) (2019-06-12)
 
 **Note:** Version bump only for package @datacamp/waffles-storybook
