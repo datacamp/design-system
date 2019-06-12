@@ -8,6 +8,7 @@ exports[`<Text /> renders 1`] = `
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
+  line-height: 16px;
 }
 
 <span

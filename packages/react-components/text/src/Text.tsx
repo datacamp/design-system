@@ -20,6 +20,7 @@ const baseTextStyle = css({
   fontSize: tokens.size.font.base.value,
   fontStyle: 'normal',
   fontWeight: tokens.size.fontWeight.regular.value,
+  lineHeight: tokens.size.font.base.value,
 });
 
 export const Text: React.FC<TextProps> = ({
