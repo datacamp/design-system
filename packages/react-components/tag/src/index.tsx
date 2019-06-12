@@ -13,7 +13,7 @@ const baseTagStyle = css({
   display: 'inline-flex',
   fontFamily: tokens.asset.font.sansSerif.value,
   fontSize: tokens.size.font.micro.value,
-  fontWeight: parseInt(tokens.size.fontWeight.bold.value, 10),
+  fontWeight: tokens.size.fontWeight.bold.value,
   letterSpacing: '0.6px', // 1@16px->0.8@14px->0.6@12px
   lineHeight: 1,
   padding: '5px 11px', // +1px border
