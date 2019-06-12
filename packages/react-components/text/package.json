@@ -1,0 +1,43 @@
+{
+  "name": "@datacamp/waffles-text",
+  "version": "0.0.1",
+  "main": "lib/index.js",
+  "license": "UNLICENSED",
+  "sideEffects": [
+    "lib/sideEffects/*"
+  ],
+  "scripts": {
+    "build:js": "babel src --extensions '.tsx','.ts' --out-dir lib --ignore \"src/**/*.spec.tsx\",\"src/**/*.spec.ts\" --config-file ./babel7.config.js",
+    "clean": "rm -rf lib",
+    "build:types": "tsc --rootDir src --declarationDir lib --emitDeclarationOnly",
+    "build": "yarn build:types && yarn build:js",
+    "prepare": " yarn clean && yarn build",
+    "test": "jest",
+    "type-check": "tsc --noEmit",
+    "watch": "yarn build:js --watch"
+  },
+  "devDependencies": {
+    "@babel/cli": "7.4.4",
+    "@babel/core": "7.4.5",
+    "@datacamp/waffles-babel-preset": "1.0.3",
+    "@datacamp/waffles-tsconfig": "1.0.1",
+    "@testing-library/react": "8.0.1",
+    "@types/lodash": "4.14.134",
+    "babel-jest": "24.6.0",
+    "jest": "24.6.0",
+    "jest-dom": "3.5.0",
+    "jest-emotion": "10.0.11",
+    "react": "16.8.6",
+    "react-dom": "16.8.6"
+  },
+  "dependencies": {
+    "@datacamp/waffles-tokens": "^0.1.2",
+    "@emotion/core": "^10.0.10",
+    "emotion": "^10.0.9",
+    "lodash": "^4.17.11"
+  },
+  "peerDependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  }
+}
