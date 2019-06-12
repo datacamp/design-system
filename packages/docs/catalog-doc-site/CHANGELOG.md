@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.5.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-catalog-doc-site@1.4.4...@datacamp/waffles-catalog-doc-site@1.5.0) (2019-06-12)
+
+
+### Features
+
+* added business logos ([69e2546](https://github.com/datacamp/design-system/commit/69e2546))
+
+
+
+
+
 ## [1.4.4](https://github.com/datacamp/design-system/compare/@datacamp/waffles-catalog-doc-site@1.4.3...@datacamp/waffles-catalog-doc-site@1.4.4) (2019-06-11)
 
 **Note:** Version bump only for package @datacamp/waffles-catalog-doc-site
