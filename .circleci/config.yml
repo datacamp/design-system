@@ -89,7 +89,7 @@ workflows:
           context: org-global
           filters:
             tags:
-              only: /@datacamp/waffles-catalog-doc-site@.*/
+              only: /@datacamp\/waffles-catalog-doc-site@.*/
       - deploy-staging-site:
           requires:
             - build-and-test
