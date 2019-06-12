@@ -1,1 +1,2 @@
-export { default as Text } from './Text'; // eslint-disable-line import/prefer-default-export
+export { default as Text } from './components/Text';
+export { default as Strong } from './components/Strong';

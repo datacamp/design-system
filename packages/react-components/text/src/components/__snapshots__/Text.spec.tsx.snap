@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Text /> renders with Strong children 1`] = `
+.emotion-1 {
+  color: rgb(77,83,86);
+  font-family: sans-serif;
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+}
+
+.emotion-0 {
+  color: rgb(77,83,86);
+  font-family: sans-serif;
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px;
+}
+
+<span
+  class="example-class emotion-1"
+  data-cy="othertest"
+  data-example="testdata"
+>
+  Some example text 
+  <strong
+    class="emotion-0"
+  >
+    with strong
+  </strong>
+   included.
+</span>
+`;
+
+exports[`<Text /> renders with a string 1`] = `
+.emotion-0 {
+  color: rgb(77,83,86);
+  font-family: sans-serif;
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+}
+
+<span
+  class="example-class emotion-0"
+  data-cy="othertest"
+  data-example="testdata"
+>
+  Some example text.
+</span>
+`;
