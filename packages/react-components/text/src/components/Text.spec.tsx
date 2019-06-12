@@ -3,6 +3,7 @@ import 'jest-dom/extend-expect';
 import { render } from '@testing-library/react';
 import React from 'react';
 
+import Strong from './Strong';
 import Text from './Text';
 
 const testText = 'Some example text.';
@@ -10,10 +11,19 @@ const testClassName = 'example-class';
 const testDataAttributes = { cy: 'othertest', example: 'testdata' };
 
 describe('<Text />', () => {
-  it('renders', () => {
+  it('renders with a string', () => {
     const { container } = render(
       <Text className={testClassName} dataAttributes={testDataAttributes}>
         {testText}
+      </Text>
+    );
+    expect(container.firstChild).toMatchSnapshot();
+  });
+
+  it('renders with Strong children', () => {
+    const { container } = render(
+      <Text className={testClassName} dataAttributes={testDataAttributes}>
+        Some example text <Strong>with strong</Strong> included.
       </Text>
     );
     expect(container.firstChild).toMatchSnapshot();
