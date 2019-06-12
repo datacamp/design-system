@@ -16,6 +16,7 @@
     "@datacamp/waffles-heading": "^0.0.25",
     "@datacamp/waffles-icons": "^1.0.4",
     "@datacamp/waffles-tag": "^0.3.4",
+    "@datacamp/waffles-text": "^0.0.1",
     "@emotion/core": "^10.0.10",
     "@emotion/styled": "^10.0.12",
     "@storybook/addon-knobs": "^5.1.3",

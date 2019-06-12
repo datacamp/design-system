@@ -24,7 +24,7 @@ const renderTable = (elements, { showDarkBackground = false } = {}) => (
   </table>
 );
 
-storiesOf('Tag', module)
+storiesOf('waffles-tag', module)
   .add('Default', () => <Tag>Tag</Tag>)
   .add('Colors', () =>
     renderTable(

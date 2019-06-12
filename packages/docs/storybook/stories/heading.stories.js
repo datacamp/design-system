@@ -19,7 +19,7 @@ const renderTable = elements => (
   </table>
 );
 
-storiesOf('Heading', module)
+storiesOf('waffles-heading', module)
   .add('Variants', () =>
     renderTable(
       validElements
