@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.6.1](https://github.com/datacamp/design-system/compare/@datacamp/waffles-catalog-doc-site@1.6.0...@datacamp/waffles-catalog-doc-site@1.6.1) (2019-06-12)
+
+
+### Bug Fixes
+
+* add comma to tokens page ([149dd8d](https://github.com/datacamp/design-system/commit/149dd8d))
+
+
+
+
+
 # [1.6.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-catalog-doc-site@1.5.1...@datacamp/waffles-catalog-doc-site@1.6.0) (2019-06-12)
 
 
