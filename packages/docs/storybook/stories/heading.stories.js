@@ -28,13 +28,17 @@ storiesOf('waffles-heading', module)
     )
   )
   .add('Default', () => <Heading>h2. Default Heading</Heading>)
-  .add('Customize', () => {
-    const children = text('children', 'Heading');
-    const element = select('element', validElements, 'h2');
-    const extraClass = text('extraClass ', '');
-    return (
-      <Heading element={element} extraClass={extraClass}>
-        {children}
-      </Heading>
-    );
-  });
+  .add(
+    'Customize',
+    () => {
+      const children = text('children', 'Heading');
+      const element = select('element', validElements, 'h2');
+      const extraClass = text('extraClass ', '');
+      return (
+        <Heading element={element} extraClass={extraClass}>
+          {children}
+        </Heading>
+      );
+    },
+    { percy: { skip: true } }
+  );
