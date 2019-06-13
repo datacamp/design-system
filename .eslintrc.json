@@ -21,9 +21,9 @@
       "error",
       {
         "devDependencies": [
-          "packages/**/src/*.spec.js",
-          "packages/**/src/*.spec.ts",
-          "packages/**/src/*.spec.tsx",
+          "packages/**/src/**/*.spec.js",
+          "packages/**/src/**/*.spec.ts",
+          "packages/**/src/**/*.spec.tsx",
           "src/**/__mocks__/**",
           "test/helpers",
           ".storybook/**.js",
@@ -66,9 +66,9 @@
   "overrides": [
     {
       "files": [
-        "packages/**/src/*.spec.js",
-        "packages/**/src/*.spec.ts",
-        "packages/**/src/*.spec.tsx",
+        "packages/**/src/**/*.spec.js",
+        "packages/**/src/**/*.spec.ts",
+        "packages/**/src/**/*.spec.tsx",
         "packages/**/test/*.spec.js",
         "src/**/__mocks__/**",
         "test/helpers"
