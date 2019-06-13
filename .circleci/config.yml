@@ -2,12 +2,9 @@ version: 2
 jobs:
   build-and-test:
     docker:
-      - image: node:11.4.0
+      - image: circleci/node:12.4.0-browsers
     steps:
       - checkout
-      - run:
-          name: Install yarn
-          command: npm install -g yarn@1.15.2
       - run:
           name: Build
           command: |

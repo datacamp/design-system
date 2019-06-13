@@ -36,20 +36,24 @@ storiesOf('waffles-tag', module)
       }
     )
   )
-  .add('Customize', () => {
-    const children = text('children', '50XP');
-    const color = select('color', ['', ...getColor.validColors], '');
-    const extraClass = text('extraClass ', '');
-    const rounded = boolean('rounded', false);
-    const textColor = select('textColor', ['', ...getColor.validColors], '');
-    return (
-      <Tag
-        color={color || undefined}
-        extraClass={extraClass}
-        rounded={rounded}
-        textColor={textColor || undefined}
-      >
-        {children}
-      </Tag>
-    );
-  });
+  .add(
+    'Customize',
+    () => {
+      const children = text('children', '50XP');
+      const color = select('color', ['', ...getColor.validColors], '');
+      const extraClass = text('extraClass ', '');
+      const rounded = boolean('rounded', false);
+      const textColor = select('textColor', ['', ...getColor.validColors], '');
+      return (
+        <Tag
+          color={color || undefined}
+          extraClass={extraClass}
+          rounded={rounded}
+          textColor={textColor || undefined}
+        >
+          {children}
+        </Tag>
+      );
+    },
+    { percy: { skip: true } }
+  );
