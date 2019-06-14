@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.4.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-storybook@1.3.0...@datacamp/waffles-storybook@1.4.0) (2019-06-14)
+
+
+### Features
+
+* add percy visual diffs ([33e255e](https://github.com/datacamp/design-system/commit/33e255e))
+* change icon stories to be per component ([f2a9de3](https://github.com/datacamp/design-system/commit/f2a9de3))
+* stories for Strong component ([f1b31db](https://github.com/datacamp/design-system/commit/f1b31db))
+
+
+
+
+
 # [1.3.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-storybook@1.2.6...@datacamp/waffles-storybook@1.3.0) (2019-06-12)
 
 
