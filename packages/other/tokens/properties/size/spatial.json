@@ -3,19 +3,19 @@
     "spatial": {
       "multiplier": { "value": "2" },
       "size": {
-        "2": { "value": "2" },
-        "4": { "value": "4" },
-        "8": { "value": "8" },
-        "12": { "value": "12" },
-        "16": { "value": "16" },
-        "24": { "value": "24" },
-        "32": { "value": "32" },
-        "36": { "value": "36" },
-        "48": { "value": "48" },
-        "64": { "value": "64" },
-        "80": { "value": "80" },
-        "96": { "value": "96" },
-        "128": { "value": "128" }
+        "2": { "value": 2 },
+        "4": { "value": 4 },
+        "8": { "value": 8 },
+        "12": { "value": 12 },
+        "16": { "value": 16 },
+        "24": { "value": 24 },
+        "32": { "value": 32 },
+        "36": { "value": 36 },
+        "48": { "value": 48 },
+        "64": { "value": 64 },
+        "80": { "value": 80 },
+        "96": { "value": 96 },
+        "128": { "value": 128 }
       },
       "commonSize": {
         "8": { "value": "{size.spatial.size.8.value}" },
