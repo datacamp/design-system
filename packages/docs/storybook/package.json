@@ -30,6 +30,6 @@
     "@datacamp/waffles-babel-preset": "1.0.3",
     "@percy/storybook": "3.0.2",
     "babel-loader": "8.0.0",
-    "webpack": "4.0.0"
+    "webpack": "4.34.0"
   }
 }
