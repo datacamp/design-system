@@ -1,0 +1,86 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Paragraph /> renders with Strong children 1`] = `
+.emotion-2 {
+  color: rgb(77,83,86);
+  font-family: sans-serif;
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  margin: 0;
+  margin-bottom: 16px;
+}
+
+.emotion-2:last-child {
+  margin-bottom: 0;
+}
+
+.emotion-0 {
+  color: rgb(77,83,86);
+  font-family: sans-serif;
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px;
+}
+
+.emotion-1 {
+  color: rgb(77,83,86);
+  font-family: sans-serif;
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+}
+
+<p
+  class="example-class emotion-2"
+  data-cy="othertest"
+  data-example="testdata"
+>
+  Some example text 
+  <strong
+    class="emotion-0"
+  >
+    with strong
+  </strong>
+   included, and also some
+   
+  <span
+    class="emotion-1"
+  >
+    custom text
+  </span>
+  .
+</p>
+`;
+
+exports[`<Paragraph /> renders with a string 1`] = `
+.emotion-0 {
+  color: rgb(77,83,86);
+  font-family: sans-serif;
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  margin: 0;
+  margin-bottom: 16px;
+}
+
+.emotion-0:last-child {
+  margin-bottom: 0;
+}
+
+<p
+  class="example-class emotion-0"
+  data-cy="othertest"
+  data-example="testdata"
+>
+  Some example text.
+</p>
+`;

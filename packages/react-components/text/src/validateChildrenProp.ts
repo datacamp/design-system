@@ -19,7 +19,16 @@ export default (
         name
       ) {
         const value = propValue[key];
-        if (!(isString(value) || validComponents.includes(value.type))) {
+        if (
+          !(
+            isString(value) ||
+            validComponents.includes(value.type) ||
+            validComponents.includes(
+              // This allows emotion styled versions of the valid components
+              value.props.__EMOTION_TYPE_PLEASE_DO_NOT_USE__ // eslint-disable-line no-underscore-dangle
+            )
+          )
+        ) {
           return new Error(
             `Invalid prop ${
               value.type
