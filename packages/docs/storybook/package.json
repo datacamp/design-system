@@ -1,6 +1,6 @@
 {
   "name": "@datacamp/waffles-storybook",
-  "version": "1.4.0",
+  "version": "1.5.0",
   "main": "index.js",
   "license": "NONE",
   "private": true,
@@ -13,12 +13,12 @@
     "test": "percy-storybook --build_dir=lib --widths=320,1280"
   },
   "dependencies": {
-    "@datacamp/waffles-core": "1.1.5",
-    "@datacamp/waffles-heading": "0.0.26",
-    "@datacamp/waffles-icons": "1.0.4",
-    "@datacamp/waffles-tag": "0.3.5",
-    "@datacamp/waffles-text": "^0.2.0",
-    "@datacamp/waffles-tokens": "^0.2.0",
+    "@datacamp/waffles-core": "^1.1.6",
+    "@datacamp/waffles-heading": "^0.0.27",
+    "@datacamp/waffles-icons": "^1.0.5",
+    "@datacamp/waffles-tag": "^0.3.6",
+    "@datacamp/waffles-text": "^0.3.0",
+    "@datacamp/waffles-tokens": "^0.3.0",
     "@emotion/core": "10.0.10",
     "@emotion/styled": "10.0.12",
     "@storybook/addon-knobs": "5.1.8",
@@ -28,7 +28,7 @@
   },
   "devDependencies": {
     "@babel/core": "7.4.5",
-    "@datacamp/waffles-babel-preset": "1.0.3",
+    "@datacamp/waffles-babel-preset": "^1.0.4",
     "@percy/storybook": "3.0.2",
     "babel-loader": "8.0.0",
     "webpack": "4.0.0"

@@ -1,6 +1,6 @@
 {
   "name": "@datacamp/waffles-text",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "main": "lib/index.js",
   "license": "UNLICENSED",
   "sideEffects": [
@@ -19,7 +19,7 @@
   "devDependencies": {
     "@babel/cli": "7.4.4",
     "@babel/core": "7.4.5",
-    "@datacamp/waffles-babel-preset": "1.0.3",
+    "@datacamp/waffles-babel-preset": "^1.0.4",
     "@datacamp/waffles-tsconfig": "1.0.1",
     "@testing-library/react": "8.0.1",
     "@types/lodash": "4.14.134",
@@ -31,7 +31,7 @@
     "react-dom": "16.8.6"
   },
   "dependencies": {
-    "@datacamp/waffles-tokens": "^0.2.0",
+    "@datacamp/waffles-tokens": "^0.3.0",
     "@emotion/core": "^10.0.10",
     "emotion": "^10.0.9",
     "lodash": "^4.17.11",

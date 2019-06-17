@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.3.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-tokens@0.2.0...@datacamp/waffles-tokens@0.3.0) (2019-06-17)
+
+
+### Features
+
+* use numbers for spatial values in source and future tokens ([0c4f1fa](https://github.com/datacamp/design-system/commit/0c4f1fa))
+
+
+
+
+
 # [0.2.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-tokens@0.1.4...@datacamp/waffles-tokens@0.2.0) (2019-06-12)
 
 

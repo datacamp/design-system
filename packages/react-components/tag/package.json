@@ -1,6 +1,6 @@
 {
   "name": "@datacamp/waffles-tag",
-  "version": "0.3.5",
+  "version": "0.3.6",
   "description": "Creates a small tag element for things like XP points.",
   "main": "lib/index.js",
   "repository": {
@@ -30,7 +30,7 @@
   "devDependencies": {
     "@babel/cli": "^7.4.3",
     "@babel/core": "^7.4.5",
-    "@datacamp/waffles-babel-preset": "^1.0.3",
+    "@datacamp/waffles-babel-preset": "^1.0.4",
     "@datacamp/waffles-tsconfig": "^1.0.1",
     "@types/enzyme": "^3.9.1",
     "@types/enzyme-adapter-react-16": "^1.0.5",
@@ -49,8 +49,8 @@
     "typescript": "3.5.2"
   },
   "dependencies": {
-    "@datacamp/waffles-core": "^1.1.5",
-    "@datacamp/waffles-tokens": "^0.2.0",
+    "@datacamp/waffles-core": "^1.1.6",
+    "@datacamp/waffles-tokens": "^0.3.0",
     "@emotion/core": "^10.0.10",
     "@emotion/styled": "^10.0.12",
     "emotion": "^10.0.9",
