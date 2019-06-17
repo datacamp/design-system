@@ -36,7 +36,7 @@
     "gulp-zip": "^5.0.0",
     "merge-stream": "^2.0.0",
     "react": "^16.8.6",
-    "typescript": "3.5.1"
+    "typescript": "3.5.2"
   },
   "peerDependencies": {
     "react": "^16.8.6"
