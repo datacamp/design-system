@@ -1,20 +1,20 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<Strong /> renders 1`] = `
+exports[`<Small /> renders 1`] = `
 .emotion-0 {
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;
   font-style: normal;
-  font-weight: 700;
+  font-size: 14px;
   line-height: 16px;
 }
 
-<strong
+<small
   class="example-class emotion-0"
   data-cy="othertest"
   data-example="testdata"
 >
   Some example text.
-</strong>
+</small>
 `;

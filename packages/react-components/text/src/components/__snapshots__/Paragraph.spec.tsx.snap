@@ -5,8 +5,8 @@ exports[`<Paragraph /> renders with Strong children 1`] = `
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;
-  font-size: 16px;
   font-style: normal;
+  font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
   margin: 0;
@@ -21,7 +21,6 @@ exports[`<Paragraph /> renders with Strong children 1`] = `
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;
-  font-size: 16px;
   font-style: normal;
   font-weight: 700;
   line-height: 16px;
@@ -31,8 +30,8 @@ exports[`<Paragraph /> renders with Strong children 1`] = `
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;
-  font-size: 16px;
   font-style: normal;
+  font-size: 16px;
   font-weight: 400;
   line-height: 16px;
 }
@@ -64,8 +63,8 @@ exports[`<Paragraph /> renders with a string 1`] = `
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;
-  font-size: 16px;
   font-style: normal;
+  font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
   margin: 0;

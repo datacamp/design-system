@@ -7,37 +7,30 @@ import React from 'react';
 import baseStyle from '../baseStyle';
 import computeDataAttributes from '../computeDataAttributes';
 import validateChildrenProp from '../validateChildrenProp';
-import Small from './Small';
 import Strong from './Strong';
-import Text from './Text';
 
-interface ParagraphProps {
+interface SmallProps {
   children: string | (string | React.ReactElement)[];
   className?: string;
   dataAttributes?: { [key: string]: string };
 }
 
-const paragraphStyle = css(baseStyle, {
-  ':last-child': {
-    marginBottom: 0,
-  },
-  fontSize: tokens.size.font.base.value,
-  fontWeight: tokens.size.fontWeight.regular.value,
-  lineHeight: tokens.size.lineHeight.base.value,
-  margin: 0,
-  marginBottom: tokens.size.spatial.size[16].value,
+const smallStyle = css(baseStyle, {
+  fontSize: tokens.size.font.small.value,
+  lineHeight: tokens.size.font.base.value,
 });
 
-const Paragraph: React.FC<ParagraphProps> = props => {
-  validateChildrenProp(props, 'Paragraph', [Strong, Text, Small]);
+const Small: React.FC<SmallProps> = props => {
   const { children, className, dataAttributes } = props;
+  validateChildrenProp(props, 'Small', [Strong]);
+
   const parsedDataAttributes = computeDataAttributes(dataAttributes);
 
   return (
-    <p css={paragraphStyle} className={className} {...parsedDataAttributes}>
+    <small css={smallStyle} className={className} {...parsedDataAttributes}>
       {children}
-    </p>
+    </small>
   );
 };
 
-export default Paragraph;
+export default Small;
