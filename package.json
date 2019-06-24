@@ -41,7 +41,7 @@
   "devDependencies": {
     "@commitlint/config-conventional": "^8.0.0",
     "@typescript-eslint/eslint-plugin": "^1.11.0",
-    "@typescript-eslint/parser": "^1.10.2",
+    "@typescript-eslint/parser": "^1.11.0",
     "babel-eslint": "^10.0.2",
     "commitlint": "^8.0.0",
     "eslint": "^5.16.0",
