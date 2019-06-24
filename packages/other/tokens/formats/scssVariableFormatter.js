@@ -86,6 +86,7 @@ module.exports = ({ properties }) => {
   const fontSize = generateVariables(properties.size.font, {
     keyTransform: key => (/^h[1-9]$/.test(key) ? key : _.kebabCase(key)),
     prefix: 'font-size',
+    valueTransform: ({ value }) => (_.isString(value) ? value : `${value}rem`),
   });
 
   const fontWeight = generateVariables(properties.size.fontWeight, {
