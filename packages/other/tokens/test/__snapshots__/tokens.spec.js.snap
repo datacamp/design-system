@@ -2152,14 +2152,14 @@ Object {
         },
         "name": "h1",
         "original": Object {
-          "value": "2.5rem",
+          "value": 2.5,
         },
         "path": Array [
           "size",
           "font",
           "h1",
         ],
-        "value": "2.5rem",
+        "value": "40px",
       },
       "h2": Object {
         "attributes": Object {
@@ -2169,14 +2169,14 @@ Object {
         },
         "name": "h2",
         "original": Object {
-          "value": "2rem",
+          "value": 2,
         },
         "path": Array [
           "size",
           "font",
           "h2",
         ],
-        "value": "2rem",
+        "value": "32px",
       },
       "h3": Object {
         "attributes": Object {
@@ -2186,14 +2186,14 @@ Object {
         },
         "name": "h3",
         "original": Object {
-          "value": "1.5rem",
+          "value": 1.5,
         },
         "path": Array [
           "size",
           "font",
           "h3",
         ],
-        "value": "1.5rem",
+        "value": "24px",
       },
       "h4": Object {
         "attributes": Object {
@@ -2203,14 +2203,14 @@ Object {
         },
         "name": "h4",
         "original": Object {
-          "value": "1.25rem",
+          "value": 1.25,
         },
         "path": Array [
           "size",
           "font",
           "h4",
         ],
-        "value": "1.25rem",
+        "value": "20px",
       },
       "h5": Object {
         "attributes": Object {
@@ -2220,14 +2220,14 @@ Object {
         },
         "name": "h5",
         "original": Object {
-          "value": "1.125rem",
+          "value": 1.125,
         },
         "path": Array [
           "size",
           "font",
           "h5",
         ],
-        "value": "1.125rem",
+        "value": "18px",
       },
       "h6": Object {
         "attributes": Object {
@@ -2237,14 +2237,14 @@ Object {
         },
         "name": "h6",
         "original": Object {
-          "value": "1rem",
+          "value": 1,
         },
         "path": Array [
           "size",
           "font",
           "h6",
         ],
-        "value": "1rem",
+        "value": "16px",
       },
       "micro": Object {
         "attributes": Object {
@@ -2254,14 +2254,14 @@ Object {
         },
         "name": "micro",
         "original": Object {
-          "value": "0.75rem",
+          "value": 0.75,
         },
         "path": Array [
           "size",
           "font",
           "micro",
         ],
-        "value": "0.75rem",
+        "value": "12px",
       },
       "small": Object {
         "attributes": Object {
@@ -2271,14 +2271,14 @@ Object {
         },
         "name": "small",
         "original": Object {
-          "value": "0.875rem",
+          "value": 0.875,
         },
         "path": Array [
           "size",
           "font",
           "small",
         ],
-        "value": "0.875rem",
+        "value": "14px",
       },
     },
     "fontWeight": Object {

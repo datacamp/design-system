@@ -19,11 +19,18 @@ const replaceColorValues = object =>
     return { ...property, value };
   });
 
+const replaceFontSizeValues = object =>
+  _.mapValues(object, property => {
+    if (!_.isNumber(property.value)) return property;
+    return { ...property, value: `${property.value * 16}px` };
+  });
+
 module.exports = dictionary => {
-  const { color } = dictionary.properties;
+  const { color, size } = dictionary.properties;
 
   const fullTokens = {
     ...dictionary.properties,
+    size: { ...size, font: replaceFontSizeValues(size.font) },
     color: replaceColorValues(color), // replace color objects with string formats
   };
 
