@@ -7,6 +7,5 @@ export default css({
     tokens.asset.font.sansSerif.attributes.fallback,
     tokens.asset.font.sansSerif.value,
   ],
-  fontSize: tokens.size.font.base.value,
   fontStyle: 'normal',
 });

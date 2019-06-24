@@ -7,6 +7,7 @@ import React from 'react';
 import baseStyle from '../baseStyle';
 import computeDataAttributes from '../computeDataAttributes';
 import validateChildrenProp from '../validateChildrenProp';
+import Small from './Small';
 import Strong from './Strong';
 
 export interface TextProps {
@@ -16,12 +17,13 @@ export interface TextProps {
 }
 
 const textStyle = css(baseStyle, {
+  fontSize: tokens.size.font.base.value,
   fontWeight: tokens.size.fontWeight.regular.value,
   lineHeight: tokens.size.font.base.value,
 });
 
 const Text: React.FC<TextProps> = (props: TextProps) => {
-  validateChildrenProp(props, 'Text', [Strong]);
+  validateChildrenProp(props, 'Text', [Small, Strong]);
   const { children, className, dataAttributes } = props;
   const parsedDataAttributes = computeDataAttributes(dataAttributes);
 

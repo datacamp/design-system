@@ -3,6 +3,7 @@ import 'jest-dom/extend-expect';
 import { render } from '@testing-library/react';
 import React from 'react';
 
+import Small from './Small';
 import Strong from './Strong';
 import Text from './Text';
 
@@ -24,6 +25,15 @@ describe('<Text />', () => {
     const { container } = render(
       <Text className={testClassName} dataAttributes={testDataAttributes}>
         Some example text <Strong>with strong</Strong> included.
+      </Text>
+    );
+    expect(container.firstChild).toMatchSnapshot();
+  });
+
+  it('renders with Small children', () => {
+    const { container } = render(
+      <Text className={testClassName} dataAttributes={testDataAttributes}>
+        Some example text <Small>with strong</Small> included.
       </Text>
     );
     expect(container.firstChild).toMatchSnapshot();
