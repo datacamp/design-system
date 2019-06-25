@@ -46,7 +46,7 @@
     "commitlint": "^8.0.0",
     "eslint": "^5.16.0",
     "eslint-config-airbnb": "^17.1.0",
-    "eslint-config-prettier": "^5.0.0",
+    "eslint-config-prettier": "^5.1.0",
     "eslint-plugin-emotion": "^10.0.7",
     "eslint-plugin-import": "^2.18.0",
     "eslint-plugin-simple-import-sort": "4.0.0",
