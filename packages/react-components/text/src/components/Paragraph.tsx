@@ -29,7 +29,7 @@ const paragraphStyle = css(baseStyle, {
 });
 
 const Paragraph: React.FC<ParagraphProps> = props => {
-  validateChildrenProp(props, 'Paragraph', [Strong, Text, Small]);
+  validateChildrenProp(props, 'Paragraph', [Strong, Text, Small, 'br']);
   const { children, className, dataAttributes } = props;
   const parsedDataAttributes = computeDataAttributes(dataAttributes);
 
