@@ -12,7 +12,7 @@ exports[`<Tag /> creates a default tag 1`] = `
   display: -ms-inline-flexbox;
   display: inline-flex;
   font-family: Lato;
-  font-size: 0.75rem;
+  font-size: 12px;
   font-weight: 700;
   -webkit-letter-spacing: 0.6px;
   -moz-letter-spacing: 0.6px;
