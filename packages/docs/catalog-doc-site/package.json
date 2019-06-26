@@ -18,7 +18,7 @@
     "@datacamp/waffles-icons": "^1.0.5",
     "@datacamp/waffles-tag": "^0.3.6",
     "@datacamp/waffles-tokens": "^0.3.0",
-    "@emotion/core": "^10.0.10",
+    "@emotion/core": "^10.0.14",
     "@emotion/styled": "^10.0.14",
     "catalog": "^3.6.0",
     "classnames": "^2.2.5",

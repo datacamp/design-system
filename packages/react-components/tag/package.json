@@ -51,7 +51,7 @@
   "dependencies": {
     "@datacamp/waffles-core": "^1.1.6",
     "@datacamp/waffles-tokens": "^0.3.0",
-    "@emotion/core": "^10.0.10",
+    "@emotion/core": "^10.0.14",
     "@emotion/styled": "^10.0.14",
     "emotion": "^10.0.14",
     "lodash": "^4.17.4",
