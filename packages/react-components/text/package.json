@@ -33,7 +33,7 @@
   "dependencies": {
     "@datacamp/waffles-tokens": "^0.3.0",
     "@emotion/core": "^10.0.10",
-    "emotion": "^10.0.9",
+    "emotion": "^10.0.14",
     "lodash": "^4.17.11",
     "prop-types": "^15.7.2"
   },
