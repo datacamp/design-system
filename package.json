@@ -47,7 +47,7 @@
     "eslint": "^5.16.0",
     "eslint-config-airbnb": "^17.1.0",
     "eslint-config-prettier": "^6.0.0",
-    "eslint-plugin-emotion": "^10.0.7",
+    "eslint-plugin-emotion": "^10.0.14",
     "eslint-plugin-import": "^2.18.0",
     "eslint-plugin-simple-import-sort": "4.0.0",
     "eslint-plugin-jsx-a11y": "^6.2.1",
