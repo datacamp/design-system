@@ -21,7 +21,7 @@
     "@babel/core": "7.4.5",
     "@datacamp/waffles-babel-preset": "^1.0.4",
     "@datacamp/waffles-tsconfig": "1.0.1",
-    "@testing-library/react": "8.0.1",
+    "@testing-library/react": "8.0.4",
     "@types/lodash": "4.14.134",
     "babel-jest": "24.6.0",
     "jest": "24.6.0",
