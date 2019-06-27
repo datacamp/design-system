@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.0.28](https://github.com/datacamp/design-system/compare/@datacamp/waffles-heading@0.0.27...@datacamp/waffles-heading@0.0.28) (2019-06-27)
+
+**Note:** Version bump only for package @datacamp/waffles-heading
+
+
+
+
+
 ## [0.0.27](https://github.com/datacamp/design-system/compare/@datacamp/waffles-heading@0.0.26...@datacamp/waffles-heading@0.0.27) (2019-06-17)
 
 **Note:** Version bump only for package @datacamp/waffles-heading

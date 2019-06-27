@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.6.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-storybook@1.5.0...@datacamp/waffles-storybook@1.6.0) (2019-06-27)
+
+
+### Features
+
+* stories for small text ([dd86d63](https://github.com/datacamp/design-system/commit/dd86d63))
+
+
+
+
+
 # [1.5.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-storybook@1.4.0...@datacamp/waffles-storybook@1.5.0) (2019-06-17)
 
 

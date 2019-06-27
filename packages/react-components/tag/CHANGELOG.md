@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.3.7](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/tag/compare/@datacamp/waffles-tag@0.3.6...@datacamp/waffles-tag@0.3.7) (2019-06-27)
+
+
+### Bug Fixes
+
+* use pixel value for font-size from tokens ([3ddb6af](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/tag/commit/3ddb6af))
+
+
+
+
+
 ## [0.3.6](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/tag/compare/@datacamp/waffles-tag@0.3.5...@datacamp/waffles-tag@0.3.6) (2019-06-17)
 
 **Note:** Version bump only for package @datacamp/waffles-tag
