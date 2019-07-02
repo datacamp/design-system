@@ -2127,6 +2127,174 @@ Object {
       },
     },
     "font": Object {
+      "100": Object {
+        "attributes": Object {
+          "category": "size",
+          "item": "100",
+          "legacyName": "micro",
+          "type": "font",
+        },
+        "name": "100",
+        "original": Object {
+          "attributes": Object {
+            "legacyName": "micro",
+          },
+          "value": 0.75,
+        },
+        "path": Array [
+          "size",
+          "font",
+          "100",
+        ],
+        "value": "12px",
+      },
+      "200": Object {
+        "attributes": Object {
+          "category": "size",
+          "item": "200",
+          "legacyName": "small",
+          "type": "font",
+        },
+        "name": "200",
+        "original": Object {
+          "attributes": Object {
+            "legacyName": "small",
+          },
+          "value": 0.875,
+        },
+        "path": Array [
+          "size",
+          "font",
+          "200",
+        ],
+        "value": "14px",
+      },
+      "300": Object {
+        "attributes": Object {
+          "category": "size",
+          "item": "300",
+          "legacyName": "h6",
+          "type": "font",
+        },
+        "name": "300",
+        "original": Object {
+          "attributes": Object {
+            "legacyName": "h6",
+          },
+          "value": 1,
+        },
+        "path": Array [
+          "size",
+          "font",
+          "300",
+        ],
+        "value": "16px",
+      },
+      "400": Object {
+        "attributes": Object {
+          "category": "size",
+          "item": "400",
+          "legacyName": "h5",
+          "type": "font",
+        },
+        "name": "400",
+        "original": Object {
+          "attributes": Object {
+            "legacyName": "h5",
+          },
+          "value": 1.125,
+        },
+        "path": Array [
+          "size",
+          "font",
+          "400",
+        ],
+        "value": "18px",
+      },
+      "500": Object {
+        "attributes": Object {
+          "category": "size",
+          "item": "500",
+          "legacyName": "h4",
+          "type": "font",
+        },
+        "name": "500",
+        "original": Object {
+          "attributes": Object {
+            "legacyName": "h4",
+          },
+          "value": 1.25,
+        },
+        "path": Array [
+          "size",
+          "font",
+          "500",
+        ],
+        "value": "20px",
+      },
+      "600": Object {
+        "attributes": Object {
+          "category": "size",
+          "item": "600",
+          "legacyName": "h3",
+          "type": "font",
+        },
+        "name": "600",
+        "original": Object {
+          "attributes": Object {
+            "legacyName": "h3",
+          },
+          "value": 1.5,
+        },
+        "path": Array [
+          "size",
+          "font",
+          "600",
+        ],
+        "value": "24px",
+      },
+      "700": Object {
+        "attributes": Object {
+          "category": "size",
+          "item": "700",
+          "legacyName": "h2",
+          "type": "font",
+        },
+        "name": "700",
+        "original": Object {
+          "attributes": Object {
+            "legacyName": "h2",
+          },
+          "value": 2,
+        },
+        "path": Array [
+          "size",
+          "font",
+          "700",
+        ],
+        "value": "32px",
+      },
+      "800": Object {
+        "attributes": Object {
+          "category": "size",
+          "item": "800",
+          "legacyName": "h1",
+          "type": "font",
+        },
+        "name": "800",
+        "original": Object {
+          "attributes": Object {
+            "legacyName": "h1",
+          },
+          "value": 2.5,
+        },
+        "path": Array [
+          "size",
+          "font",
+          "800",
+        ],
+        "value": "40px",
+      },
       "base": Object {
         "attributes": Object {
           "category": "size",
@@ -2143,142 +2311,6 @@ Object {
           "base",
         ],
         "value": "16px",
-      },
-      "h1": Object {
-        "attributes": Object {
-          "category": "size",
-          "item": "h1",
-          "type": "font",
-        },
-        "name": "h1",
-        "original": Object {
-          "value": 2.5,
-        },
-        "path": Array [
-          "size",
-          "font",
-          "h1",
-        ],
-        "value": "40px",
-      },
-      "h2": Object {
-        "attributes": Object {
-          "category": "size",
-          "item": "h2",
-          "type": "font",
-        },
-        "name": "h2",
-        "original": Object {
-          "value": 2,
-        },
-        "path": Array [
-          "size",
-          "font",
-          "h2",
-        ],
-        "value": "32px",
-      },
-      "h3": Object {
-        "attributes": Object {
-          "category": "size",
-          "item": "h3",
-          "type": "font",
-        },
-        "name": "h3",
-        "original": Object {
-          "value": 1.5,
-        },
-        "path": Array [
-          "size",
-          "font",
-          "h3",
-        ],
-        "value": "24px",
-      },
-      "h4": Object {
-        "attributes": Object {
-          "category": "size",
-          "item": "h4",
-          "type": "font",
-        },
-        "name": "h4",
-        "original": Object {
-          "value": 1.25,
-        },
-        "path": Array [
-          "size",
-          "font",
-          "h4",
-        ],
-        "value": "20px",
-      },
-      "h5": Object {
-        "attributes": Object {
-          "category": "size",
-          "item": "h5",
-          "type": "font",
-        },
-        "name": "h5",
-        "original": Object {
-          "value": 1.125,
-        },
-        "path": Array [
-          "size",
-          "font",
-          "h5",
-        ],
-        "value": "18px",
-      },
-      "h6": Object {
-        "attributes": Object {
-          "category": "size",
-          "item": "h6",
-          "type": "font",
-        },
-        "name": "h6",
-        "original": Object {
-          "value": 1,
-        },
-        "path": Array [
-          "size",
-          "font",
-          "h6",
-        ],
-        "value": "16px",
-      },
-      "micro": Object {
-        "attributes": Object {
-          "category": "size",
-          "item": "micro",
-          "type": "font",
-        },
-        "name": "micro",
-        "original": Object {
-          "value": 0.75,
-        },
-        "path": Array [
-          "size",
-          "font",
-          "micro",
-        ],
-        "value": "12px",
-      },
-      "small": Object {
-        "attributes": Object {
-          "category": "size",
-          "item": "small",
-          "type": "font",
-        },
-        "name": "small",
-        "original": Object {
-          "value": 0.875,
-        },
-        "path": Array [
-          "size",
-          "font",
-          "small",
-        ],
-        "value": "14px",
       },
     },
     "fontWeight": Object {
@@ -3720,15 +3752,15 @@ $dc-font-family-sans-serif: 'Lato', sans-serif;
 $dc-font-family-mono: 'Roboto Mono', monospace;
 
 // Font size
-$dc-font-size-base: 16px;
 $dc-font-size-micro: 0.75rem;
 $dc-font-size-small: 0.875rem;
-$dc-font-size-h1: 2.5rem;
-$dc-font-size-h2: 2rem;
-$dc-font-size-h3: 1.5rem;
-$dc-font-size-h4: 1.25rem;
-$dc-font-size-h5: 1.125rem;
 $dc-font-size-h6: 1rem;
+$dc-font-size-h5: 1.125rem;
+$dc-font-size-h4: 1.25rem;
+$dc-font-size-h3: 1.5rem;
+$dc-font-size-h2: 2rem;
+$dc-font-size-h1: 2.5rem;
+$dc-font-size-base: 16px;
 
 // Font weight
 $dc-font-weight-bold: 700;

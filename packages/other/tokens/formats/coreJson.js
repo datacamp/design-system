@@ -29,7 +29,12 @@ module.exports = dictionary => {
       fontFamily => `'${fontFamily}'`
     ),
     fontSize: _.mapValues(
-      extractValues(dictionary.properties.size.font),
+      extractValues(
+        _.mapKeys(
+          dictionary.properties.size.font,
+          ({ attributes }, key) => attributes.legacyName || key
+        )
+      ),
       fontSize => (_.isString(fontSize) ? fontSize : `${fontSize}rem`)
     ),
     fontWeight: _.mapValues(
