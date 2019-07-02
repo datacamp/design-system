@@ -10,11 +10,12 @@ exports[`<Paragraph /> renders with Strong children 1`] = `
   font-weight: 400;
   line-height: 1.5;
   margin: 0;
-  margin-bottom: 16px;
+  margin-top: 8px;
 }
 
-.emotion-2:last-child {
-  margin-bottom: 0;
+.emotion-2:first-child:not(style),
+.emotion-2 style:first-child + * {
+  margin-top: 0;
 }
 
 .emotion-0 {
@@ -68,11 +69,12 @@ exports[`<Paragraph /> renders with a string 1`] = `
   font-weight: 400;
   line-height: 1.5;
   margin: 0;
-  margin-bottom: 16px;
+  margin-top: 8px;
 }
 
-.emotion-0:last-child {
-  margin-bottom: 0;
+.emotion-0:first-child:not(style),
+.emotion-0 style:first-child + * {
+  margin-top: 0;
 }
 
 <p
