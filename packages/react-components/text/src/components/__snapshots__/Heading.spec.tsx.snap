@@ -1,0 +1,355 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Heading /> renders at each size renders at size 300, multiLine=false 1`] = `
+.emotion-0 {
+  color: rgb(77,83,86);
+  font-family: sans-serif;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.25;
+  margin: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 16px;
+  margin-top: 16px;
+}
+
+.emotion-0:first-child:not(style),
+.emotion-0 style:first-child + * {
+  margin-top: 0;
+}
+
+<h2
+  class="example-class emotion-0"
+  data-cy="othertest"
+  data-example="testdata"
+>
+  Some example text.
+</h2>
+`;
+
+exports[`<Heading /> renders at each size renders at size 300, multiLine=true 1`] = `
+.emotion-0 {
+  color: rgb(77,83,86);
+  font-family: sans-serif;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.25;
+  margin: 0;
+  overflow: auto;
+  white-space: normal;
+  font-size: 16px;
+  margin-top: 16px;
+}
+
+.emotion-0:first-child:not(style),
+.emotion-0 style:first-child + * {
+  margin-top: 0;
+}
+
+<h2
+  class="example-class emotion-0"
+  data-cy="othertest"
+  data-example="testdata"
+>
+  Some example text.
+</h2>
+`;
+
+exports[`<Heading /> renders at each size renders at size 400, multiLine=false 1`] = `
+.emotion-0 {
+  color: rgb(77,83,86);
+  font-family: sans-serif;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.25;
+  margin: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 18px;
+  margin-top: 16px;
+}
+
+.emotion-0:first-child:not(style),
+.emotion-0 style:first-child + * {
+  margin-top: 0;
+}
+
+<h2
+  class="example-class emotion-0"
+  data-cy="othertest"
+  data-example="testdata"
+>
+  Some example text.
+</h2>
+`;
+
+exports[`<Heading /> renders at each size renders at size 400, multiLine=true 1`] = `
+.emotion-0 {
+  color: rgb(77,83,86);
+  font-family: sans-serif;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.25;
+  margin: 0;
+  overflow: auto;
+  white-space: normal;
+  font-size: 18px;
+  margin-top: 16px;
+}
+
+.emotion-0:first-child:not(style),
+.emotion-0 style:first-child + * {
+  margin-top: 0;
+}
+
+<h2
+  class="example-class emotion-0"
+  data-cy="othertest"
+  data-example="testdata"
+>
+  Some example text.
+</h2>
+`;
+
+exports[`<Heading /> renders at each size renders at size 500, multiLine=false 1`] = `
+.emotion-0 {
+  color: rgb(77,83,86);
+  font-family: sans-serif;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.25;
+  margin: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 20px;
+  margin-top: 16px;
+}
+
+.emotion-0:first-child:not(style),
+.emotion-0 style:first-child + * {
+  margin-top: 0;
+}
+
+<h2
+  class="example-class emotion-0"
+  data-cy="othertest"
+  data-example="testdata"
+>
+  Some example text.
+</h2>
+`;
+
+exports[`<Heading /> renders at each size renders at size 500, multiLine=true 1`] = `
+.emotion-0 {
+  color: rgb(77,83,86);
+  font-family: sans-serif;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.25;
+  margin: 0;
+  overflow: auto;
+  white-space: normal;
+  font-size: 20px;
+  margin-top: 16px;
+}
+
+.emotion-0:first-child:not(style),
+.emotion-0 style:first-child + * {
+  margin-top: 0;
+}
+
+<h2
+  class="example-class emotion-0"
+  data-cy="othertest"
+  data-example="testdata"
+>
+  Some example text.
+</h2>
+`;
+
+exports[`<Heading /> renders at each size renders at size 600, multiLine=false 1`] = `
+.emotion-0 {
+  color: rgb(77,83,86);
+  font-family: sans-serif;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.25;
+  margin: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 24px;
+  margin-top: 16px;
+}
+
+.emotion-0:first-child:not(style),
+.emotion-0 style:first-child + * {
+  margin-top: 0;
+}
+
+<h2
+  class="example-class emotion-0"
+  data-cy="othertest"
+  data-example="testdata"
+>
+  Some example text.
+</h2>
+`;
+
+exports[`<Heading /> renders at each size renders at size 600, multiLine=true 1`] = `
+.emotion-0 {
+  color: rgb(77,83,86);
+  font-family: sans-serif;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.25;
+  margin: 0;
+  overflow: auto;
+  white-space: normal;
+  font-size: 24px;
+  margin-top: 16px;
+}
+
+.emotion-0:first-child:not(style),
+.emotion-0 style:first-child + * {
+  margin-top: 0;
+}
+
+<h2
+  class="example-class emotion-0"
+  data-cy="othertest"
+  data-example="testdata"
+>
+  Some example text.
+</h2>
+`;
+
+exports[`<Heading /> renders at each size renders at size 700, multiLine=false 1`] = `
+.emotion-0 {
+  color: rgb(77,83,86);
+  font-family: sans-serif;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.25;
+  margin: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 32px;
+  margin-top: 16px;
+}
+
+.emotion-0:first-child:not(style),
+.emotion-0 style:first-child + * {
+  margin-top: 0;
+}
+
+<h2
+  class="example-class emotion-0"
+  data-cy="othertest"
+  data-example="testdata"
+>
+  Some example text.
+</h2>
+`;
+
+exports[`<Heading /> renders at each size renders at size 700, multiLine=true 1`] = `
+.emotion-0 {
+  color: rgb(77,83,86);
+  font-family: sans-serif;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.25;
+  margin: 0;
+  overflow: auto;
+  white-space: normal;
+  font-size: 32px;
+  margin-top: 16px;
+}
+
+.emotion-0:first-child:not(style),
+.emotion-0 style:first-child + * {
+  margin-top: 0;
+}
+
+<h2
+  class="example-class emotion-0"
+  data-cy="othertest"
+  data-example="testdata"
+>
+  Some example text.
+</h2>
+`;
+
+exports[`<Heading /> renders at each size renders at size 800, multiLine=false 1`] = `
+.emotion-0 {
+  color: rgb(77,83,86);
+  font-family: sans-serif;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.25;
+  margin: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 40px;
+  margin-top: 24px;
+}
+
+.emotion-0:first-child:not(style),
+.emotion-0 style:first-child + * {
+  margin-top: 0;
+}
+
+<h2
+  class="example-class emotion-0"
+  data-cy="othertest"
+  data-example="testdata"
+>
+  Some example text.
+</h2>
+`;
+
+exports[`<Heading /> renders at each size renders at size 800, multiLine=true 1`] = `
+.emotion-0 {
+  color: rgb(77,83,86);
+  font-family: sans-serif;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.25;
+  margin: 0;
+  overflow: auto;
+  white-space: normal;
+  font-size: 40px;
+  margin-top: 24px;
+}
+
+.emotion-0:first-child:not(style),
+.emotion-0 style:first-child + * {
+  margin-top: 0;
+}
+
+<h2
+  class="example-class emotion-0"
+  data-cy="othertest"
+  data-example="testdata"
+>
+  Some example text.
+</h2>
+`;
