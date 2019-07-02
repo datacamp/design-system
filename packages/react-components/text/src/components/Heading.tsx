@@ -33,20 +33,24 @@ const singleLineStyle = css({
   whiteSpace: 'nowrap',
 });
 
-const getMarginTop = (size: Size): number => {
-  switch (true) {
-    case size === 800:
-      return tokens.size.spatial.size[24].value;
-    default:
-      return tokens.size.spatial.size[16].value;
-  }
-};
+const multiLineStyle = css({
+  overflow: 'auto',
+  whiteSpace: 'normal',
+});
 
 const getStyle = (size: Size, multiLine: boolean): SerializedStyles => {
-  return css(baseStyle, baseHeaderStyle, multiLine ? {} : singleLineStyle, {
-    fontSize: tokens.size.font[size].value,
-    marginTop: getMarginTop(size),
-  });
+  return css(
+    baseStyle,
+    baseHeaderStyle,
+    multiLine ? multiLineStyle : singleLineStyle,
+    {
+      fontSize: tokens.size.font[size].value,
+      marginTop:
+        size === 800
+          ? tokens.size.spatial.size[24].value
+          : tokens.size.spatial.size[16].value,
+    }
+  );
 };
 
 const Heading: React.FC<HeadingProps> = ({

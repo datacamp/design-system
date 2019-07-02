@@ -1,7 +1,14 @@
 import './styles.css';
 
-import { Paragraph, Small, Strong, Text } from '@datacamp/waffles-text';
+import {
+  Heading,
+  Paragraph,
+  Small,
+  Strong,
+  Text,
+} from '@datacamp/waffles-text';
 import { color } from '@datacamp/waffles-tokens/lib/future-tokens.json';
+import { select } from '@storybook/addon-knobs';
 import { storiesOf } from '@storybook/react';
 import React from 'react';
 
@@ -95,4 +102,87 @@ storiesOf('waffles-text', module)
         This has additional style added using a className
       </Paragraph>
     </>
-  ));
+  ))
+  .add('Heading Component', () => {
+    const element = select(
+      'element',
+      ['h1', 'h2', 'h3', 'h4', 'h5', 'h6'],
+      'h3'
+    );
+    return (
+      <>
+        <Paragraph>
+          This is an initial paragraph so that the margin-top on first heading
+          is visible
+        </Paragraph>
+        <Heading as={element} size={800} multiLine>
+          This is a Heading with size 800
+        </Heading>
+        <Paragraph>
+          This is some content in a paragraph to demonstrate the spacing below
+          the last Heading.
+        </Paragraph>
+        <Heading as={element} size={700} multiLine>
+          This is a Heading with size 700
+        </Heading>
+        <Paragraph>
+          This is some content in a paragraph to demonstrate the spacing below
+          the last Heading.
+        </Paragraph>
+        <Heading as={element} size={600} multiLine>
+          This is a Heading with size 600
+        </Heading>
+        <Paragraph>
+          This is some content in a paragraph to demonstrate the spacing below
+          the last Heading.
+        </Paragraph>
+        <Heading as={element} size={500} multiLine>
+          This is a Heading with size 500
+        </Heading>
+        <Paragraph>
+          This is some content in a paragraph to demonstrate the spacing below
+          the last Heading.
+        </Paragraph>
+        <Heading as={element} size={400} multiLine>
+          This is a Heading with size 400
+        </Heading>
+        <Paragraph>
+          This is some content in a paragraph to demonstrate the spacing below
+          the last Heading.
+        </Paragraph>
+        <Heading as={element} size={300} multiLine>
+          This is a Heading with size 300
+        </Heading>
+        <Paragraph>
+          This is some content in a paragraph to demonstrate the spacing below
+          the last Heading.
+        </Paragraph>
+        <Heading
+          as={element}
+          size={600}
+          css={{ color: color.opaque.primary.value.hex }}
+        >
+          This is a Heading with styling added using a css prop
+        </Heading>
+        <Heading as={element} size={600} className="example-class">
+          This is a Heading with styling added using a className
+        </Heading>
+        <Paragraph>
+          Below is a long Heading in a fixed box with multiLine=false
+        </Paragraph>
+        <div css={{ border: '1px solid black', width: 200 }}>
+          <Heading as={element} size={600}>
+            A lot of content that does not fit
+          </Heading>
+        </div>
+        <Paragraph>
+          Below is a long Heading in a fixed box with multiLine=true
+        </Paragraph>
+        <div css={{ border: '1px solid black', width: 200 }}>
+          <Heading as={element} size={600} multiLine>
+            A lot of content that does not fit
+          </Heading>
+        </div>
+      </>
+    );
+  });
