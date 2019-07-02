@@ -6,6 +6,7 @@ import React from 'react';
 
 import baseStyle from '../baseStyle';
 import computeDataAttributes from '../computeDataAttributes';
+import ssrSafeFirstChildSelector from '../ssrSafeFirstChildSelector';
 import validateChildrenProp from '../validateChildrenProp';
 import Small from './Small';
 import Strong from './Strong';
@@ -18,14 +19,14 @@ interface ParagraphProps {
 }
 
 const paragraphStyle = css(baseStyle, {
-  ':last-child': {
-    marginBottom: 0,
-  },
   fontSize: tokens.size.font[300].value,
   fontWeight: tokens.size.fontWeight.regular.value,
   lineHeight: tokens.size.lineHeight.base.value,
   margin: 0,
-  marginBottom: tokens.size.spatial.size[16].value,
+  marginTop: tokens.size.spatial.size[8].value,
+  [ssrSafeFirstChildSelector]: {
+    marginTop: 0,
+  },
 });
 
 const Paragraph: React.FC<ParagraphProps> = props => {
