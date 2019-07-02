@@ -1,5 +1,3 @@
-import '../sideEffects/injectBoldFontFace';
-
 import tokens from '@datacamp/waffles-tokens/lib/future-tokens.json';
 import { css } from '@emotion/core';
 import React from 'react';
