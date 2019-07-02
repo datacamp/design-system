@@ -17,7 +17,7 @@ export interface TextProps {
 }
 
 const textStyle = css(baseStyle, {
-  fontSize: tokens.size.font.base.value,
+  fontSize: tokens.size.font[300].value,
   fontWeight: tokens.size.fontWeight.regular.value,
   lineHeight: tokens.size.font.base.value,
 });
