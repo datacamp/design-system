@@ -17,7 +17,7 @@ const generateVariables = (
   return _.reduce(
     sortedData,
     (result, { data, key }) => {
-      const variableName = keyTransform(key);
+      const variableName = keyTransform(key, data);
       return `${result}$dc-${prefix}${
         prefix === '' ? '' : '-'
       }${variableName}: ${valueTransform(data, key)};\n`;
@@ -84,7 +84,7 @@ module.exports = ({ properties }) => {
   });
 
   const fontSize = generateVariables(properties.size.font, {
-    keyTransform: key => (/^h[1-9]$/.test(key) ? key : _.kebabCase(key)),
+    keyTransform: (key, data) => data.attributes.legacyName || key,
     prefix: 'font-size',
     valueTransform: ({ value }) => (_.isString(value) ? value : `${value}rem`),
   });
