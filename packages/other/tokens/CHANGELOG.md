@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.5.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-tokens@0.4.0...@datacamp/waffles-tokens@0.5.0) (2019-07-02)
+
+
+### Features
+
+* use numbers for fontSize ([2f03efd](https://github.com/datacamp/design-system/commit/2f03efd))
+
+
+
+
+
 # [0.4.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-tokens@0.3.0...@datacamp/waffles-tokens@0.4.0) (2019-06-27)
 
 

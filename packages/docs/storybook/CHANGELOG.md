@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.7.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-storybook@1.6.0...@datacamp/waffles-storybook@1.7.0) (2019-07-02)
+
+
+### Features
+
+* stories for Heading Component ([e3538c8](https://github.com/datacamp/design-system/commit/e3538c8))
+
+
+
+
+
 # [1.6.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-storybook@1.5.0...@datacamp/waffles-storybook@1.6.0) (2019-06-27)
 
 

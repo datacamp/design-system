@@ -3,6 +3,24 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.5.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-text@0.4.0...@datacamp/waffles-text@0.5.0) (2019-07-02)
+
+
+### Bug Fixes
+
+* access font size via numerical value ([2458fb5](https://github.com/datacamp/design-system/commit/2458fb5))
+
+
+### Features
+
+* add Heading component ([1a91826](https://github.com/datacamp/design-system/commit/1a91826))
+* shrink paragraph margins and move to the top ([254bcff](https://github.com/datacamp/design-system/commit/254bcff))
+* stories for Heading Component ([e3538c8](https://github.com/datacamp/design-system/commit/e3538c8))
+
+
+
+
+
 # [0.4.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-text@0.3.0...@datacamp/waffles-text@0.4.0) (2019-06-27)
 
 

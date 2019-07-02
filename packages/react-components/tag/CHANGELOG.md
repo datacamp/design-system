@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.3.8](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/tag/compare/@datacamp/waffles-tag@0.3.7...@datacamp/waffles-tag@0.3.8) (2019-07-02)
+
+
+### Bug Fixes
+
+* access fontSize by number from future-tokens ([603d3f0](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/tag/commit/603d3f0))
+
+
+
+
+
 ## [0.3.7](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/tag/compare/@datacamp/waffles-tag@0.3.6...@datacamp/waffles-tag@0.3.7) (2019-06-27)
 
 
