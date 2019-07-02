@@ -2677,13 +2677,13 @@
     unified "^7.1.0"
     vfile "^4.0.1"
 
-"@svgr/plugin-prettier@^4.2.0":
-  version "4.2.0"
-  resolved "https://registry.yarnpkg.com/@svgr/plugin-prettier/-/plugin-prettier-4.2.0.tgz#d013c6f3367945a21674bc2978c71c1204c22ea5"
-  integrity sha512-qygmM5OGEtUw46g9jZQG5wz8TTsF/e5S+ud38AXjjDDmGKUHhmH+lealI5Ayb14evpcvnJH8jf0a/WmwbpyuwQ==
+"@svgr/plugin-prettier@^4.3.1":
+  version "4.3.1"
+  resolved "https://registry.yarnpkg.com/@svgr/plugin-prettier/-/plugin-prettier-4.3.1.tgz#b50347ec95a0163091ecbbc305991e727076c7d8"
+  integrity sha512-RTTZniRGtUQw+BufJk1sLKbeglZlHXCoJeE/op+hhrVLI3UZSbtliaQbyV6Rm5tZOed+08miuSWTLa6x3Tf10w==
   dependencies:
     merge-deep "^3.0.2"
-    prettier "^1.16.4"
+    prettier "^1.17.1"
 
 "@svgr/plugin-svgo@^4.2.0", "@svgr/plugin-svgo@^4.3.1":
   version "4.3.1"
@@ -14396,7 +14396,7 @@ prettier-linter-helpers@^1.0.0:
   dependencies:
     fast-diff "^1.1.2"
 
-prettier@^1.16.4, prettier@^1.18.2:
+prettier@^1.17.1, prettier@^1.18.2:
   version "1.18.2"
   resolved "https://registry.yarnpkg.com/prettier/-/prettier-1.18.2.tgz#6823e7c5900017b4bd3acf46fe9ac4b4d7bda9ea"
   integrity sha512-OeHeMc0JhFE9idD4ZdtNibzY0+TPHSpSSb9h8FqtP+YnoZZ1sl8Vc9b1sasjfymH3SonAF4QcA2+mzHPhMvIiw==
