@@ -12,7 +12,7 @@ const baseTagStyle = css({
   border: `1px solid ${tokens.color.opaque.greyLighter.value.hex}`,
   display: 'inline-flex',
   fontFamily: tokens.asset.font.sansSerif.value,
-  fontSize: tokens.size.font.micro.value,
+  fontSize: tokens.size.font[100].value,
   fontWeight: tokens.size.fontWeight.bold.value,
   letterSpacing: '0.6px', // 1@16px->0.8@14px->0.6@12px
   lineHeight: 1,
