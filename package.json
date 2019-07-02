@@ -45,7 +45,7 @@
     "babel-eslint": "^10.0.2",
     "commitlint": "^8.0.0",
     "eslint": "^5.16.0",
-    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-airbnb": "^17.1.1",
     "eslint-config-prettier": "^6.0.0",
     "eslint-plugin-emotion": "^10.0.14",
     "eslint-plugin-import": "^2.18.0",
