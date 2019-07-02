@@ -21,7 +21,7 @@ const paragraphStyle = css(baseStyle, {
   ':last-child': {
     marginBottom: 0,
   },
-  fontSize: tokens.size.font.base.value,
+  fontSize: tokens.size.font[300].value,
   fontWeight: tokens.size.fontWeight.regular.value,
   lineHeight: tokens.size.lineHeight.base.value,
   margin: 0,
