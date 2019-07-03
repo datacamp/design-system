@@ -1,6 +1,6 @@
 {
   "name": "@datacamp/waffles-tokens",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "description": "",
   "main": "lib/core-tokens.json",
   "homepage": "https://github.com/datacamp-engineering/design-system/tree/master/packages/other/tokens/README.md",

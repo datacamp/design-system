@@ -3,6 +3,24 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.0.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-heading@0.0.29...@datacamp/waffles-heading@1.0.0) (2019-07-03)
+
+
+### Features
+
+* deprecate old heading component ([590dba4](https://github.com/datacamp/design-system/commit/590dba4))
+
+
+### BREAKING CHANGES
+
+* This removes everything from this package. This version 
+will only throw an error if imported. Please use the Heading component 
+from the @datacamp/waffles-text package instead.
+
+
+
+
+
 ## [0.0.29](https://github.com/datacamp/design-system/compare/@datacamp/waffles-heading@0.0.28...@datacamp/waffles-heading@0.0.29) (2019-07-02)
 
 **Note:** Version bump only for package @datacamp/waffles-heading

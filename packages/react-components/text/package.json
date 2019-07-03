@@ -1,6 +1,6 @@
 {
   "name": "@datacamp/waffles-text",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "main": "lib/index.js",
   "license": "UNLICENSED",
   "sideEffects": [
@@ -31,7 +31,7 @@
     "react-dom": "16.8.6"
   },
   "dependencies": {
-    "@datacamp/waffles-tokens": "^0.5.0",
+    "@datacamp/waffles-tokens": "^0.5.1",
     "@emotion/core": "^10.0.14",
     "emotion": "^10.0.14",
     "lodash": "^4.17.11",
