@@ -10,12 +10,12 @@ export type Size = 300 | 400 | 500 | 600 | 700 | 800;
 export type HeadingElement = 'h1' | 'h2' | 'h3' | 'h4' | 'h5' | 'h6';
 
 interface HeadingProps {
-  className?: string;
-  children: string;
-  size: Size;
   as: HeadingElement;
+  children: string;
+  className?: string;
   dataAttributes?: { [key: string]: string };
   multiLine?: boolean;
+  size: Size;
 }
 
 const baseHeaderStyle = css({
