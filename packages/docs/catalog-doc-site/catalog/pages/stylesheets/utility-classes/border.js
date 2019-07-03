@@ -19,9 +19,9 @@ export default () => {
   return (
     <main>
       <CustomHeader
+        description="Apply or override border."
         section="Utility Classes"
         subSection="Border"
-        description="Apply or override border."
       />
       <Page>
         <header>
@@ -222,8 +222,8 @@ export default () => {
           <ul className="dc-u-fx dc-u-fx-fww dc-u-m-none dc-u-p-none">
             {obj.map(name => (
               <li
-                className="dc-u-fx dc-u-fx-fdc dc-u-fx-aic dc-u-fx-jcc dc-u-m-8"
                 key={name}
+                className="dc-u-fx dc-u-fx-fdc dc-u-fx-aic dc-u-fx-jcc dc-u-m-8"
                 style={{
                   border: `1px solid${getColor(name)}`,
                   height: '118px',

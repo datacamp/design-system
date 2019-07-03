@@ -11,9 +11,9 @@ export default () => {
   return (
     <main>
       <CustomHeader
+        description="Apply or override border radius."
         section="Utility Classes"
         subSection="Border Radius"
-        description="Apply or override border radius."
       />
       <Page>
         <header>

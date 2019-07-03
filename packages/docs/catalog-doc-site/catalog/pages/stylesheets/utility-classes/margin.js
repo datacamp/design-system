@@ -16,9 +16,9 @@ export default () => {
   return (
     <main>
       <CustomHeader
+        description="Apply or clear margins."
         section="Utility Classes"
         subSection="Margin"
-        description="Apply or clear margins."
       />
       <Page>
         <header>

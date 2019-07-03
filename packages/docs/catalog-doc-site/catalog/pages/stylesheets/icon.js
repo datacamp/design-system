@@ -143,9 +143,9 @@ export default () => {
   return (
     <main>
       <CustomHeader
+        description="Find out how we approach the visual elements of our interface with purpose."
         section="Design"
         subSection="Intro"
-        description="Find out how we approach the visual elements of our interface with purpose."
       />
 
       <Page>
@@ -180,36 +180,36 @@ export default () => {
 
             <div className="dc-u-fx">
               <HtmlSpecimen
-                showSource
-                span={2}
                 rawBody='
                 <span class="dc-icon dc-icon--size-12">
                   <svg class="dc-icon__svg">
                     <use xlink:href="#add" />
                   </svg>
                 </span>'
+                span={2}
+                showSource
               />
 
               <HtmlSpecimen
-                showSource
-                span={2}
                 rawBody='
                 <span class="dc-icon dc-icon--size-18">
                   <svg class="dc-icon__svg">
                     <use xlink:href="#add" />
                   </svg>
                 </span>'
+                span={2}
+                showSource
               />
 
               <HtmlSpecimen
-                showSource
-                span={2}
                 rawBody='
                 <span class="dc-icon dc-icon--size-24">
                   <svg class="dc-icon__svg">
                     <use xlink:href="#add" />
                   </svg>
                 </span>'
+                span={2}
+                showSource
               />
             </div>
 
@@ -224,36 +224,36 @@ export default () => {
 
             <div className="dc-u-fx">
               <HtmlSpecimen
-                showSource
-                span={2}
                 rawBody='
                 <span class="dc-icon dc-icon--size-18 dc-icon--primary">
                   <svg class="dc-icon__svg">
                     <use xlink:href="#add" />
                   </svg>
                 </span>'
+                span={2}
+                showSource
               />
 
               <HtmlSpecimen
-                showSource
-                span={2}
                 rawBody='
               <span class="dc-icon dc-icon--size-18 dc-icon--secondary">
                   <svg class="dc-icon__svg">
                     <use xlink:href="#add" />
                   </svg>
                 </span>'
+                span={2}
+                showSource
               />
 
               <HtmlSpecimen
-                showSource
-                span={2}
                 rawBody='
               <span class="dc-icon dc-icon--size-24 dc-icon--green">
                   <svg class="dc-icon__svg">
                     <use xlink:href="#add" />
                   </svg>
                 </span>'
+                span={2}
+                showSource
               />
             </div>
 
@@ -268,36 +268,36 @@ export default () => {
 
             <div className="dc-u-fx">
               <HtmlSpecimen
-                showSource
-                span={2}
                 rawBody='
               <span class="dc-icon dc-icon--size-18 dc-icon--primary dc-icon--active-secondary is-active">
                   <svg class="dc-icon__svg">
                     <use xlink:href="#add" />
                   </svg>
                 </span>'
+                span={2}
+                showSource
               />
 
               <HtmlSpecimen
-                showSource
-                span={2}
                 rawBody='
               <span class="dc-icon dc-icon--size-18 dc-icon--secondary dc-icon--active-primary is-active">
                   <svg class="dc-icon__svg">
                     <use xlink:href="#add" />
                   </svg>
                 </span>'
+                span={2}
+                showSource
               />
 
               <HtmlSpecimen
-                showSource
-                span={2}
                 rawBody='
               <span class="dc-icon dc-icon--size-24 dc-icon--green dc-icon--active-purple is-active">
                   <svg class="dc-icon__svg">
                     <use xlink:href="#add" />
                   </svg>
                 </span>'
+                span={2}
+                showSource
               />
             </div>
 
@@ -314,8 +314,6 @@ export default () => {
 
               <div className="dc-u-fx">
                 <HtmlSpecimen
-                  showSource
-                  span={3}
                   rawBody='
                 <p class="dc-u-fx dc-u-fx-aic">
                   <strike class="dc-u-mr-4 dc-u-color-red">Misaligned icon in a flex container</strike>
@@ -325,11 +323,11 @@ export default () => {
                     </svg>
                   </span>
                 </p>'
+                  span={3}
+                  showSource
                 />
 
                 <HtmlSpecimen
-                  showSource
-                  span={3}
                   rawBody='
                 <p class="dc-u-fx dc-u-fx-aic">
                   <span class="dc-u-mr-4">Aligned icon in a flex container</span>
@@ -339,6 +337,8 @@ export default () => {
                     </svg>
                   </span>
                 </p>'
+                  span={3}
+                  showSource
                 />
               </div>
             </section>
@@ -353,7 +353,7 @@ export default () => {
 
               <ul className="dc-u-lst-none dc-u-m-none dc-u-p-none dc-u-fx dc-u-fx-fww">
                 {obj.map(name => (
-                  <li className="dc-u-w-50pc" key={name}>
+                  <li key={name} className="dc-u-w-50pc">
                     <div className="dc-card dc-u-m-8 dc-u-ta-center">
                       <span className="dc-icon dc-icon--size-12">
                         <svg className="dc-icon__svg">
@@ -391,8 +391,8 @@ export default () => {
               below.
             </p>
             <button
-              type="button"
               className="dc-btn dc-btn--sm dc-btn--secondary"
+              type="button"
               disabled
             >
               <span className="dc-icon dc-icon--size-18 dc-icon--grey-dark dc-icon--flex dc-u-mr-8">

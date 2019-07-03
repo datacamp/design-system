@@ -11,9 +11,9 @@ export default () => {
   return (
     <main>
       <CustomHeader
+        description="Apply or override min-height."
         section="Utility Classes"
         subSection="Min Height"
-        description="Apply or override min-height."
       />
       <Page>
         <header>

@@ -9,9 +9,9 @@ export default () => {
   return (
     <main>
       <CustomHeader
+        description="The tag component"
         section="Component Library"
         subSection="Tag"
-        description="The tag component"
       />
 
       <Page>
@@ -45,7 +45,7 @@ export default () => {
                   <th>children</th>
                   <td>string - required</td>
                   <td>The content of the tag.</td>
-                  <LiveEditCells scope={{ Tag }} code="<Tag>example</Tag>" />
+                  <LiveEditCells code="<Tag>example</Tag>" scope={{ Tag }} />
                 </tr>
                 <tr className="dc-table__tr">
                   <th>color</th>
@@ -55,8 +55,8 @@ export default () => {
                     the <a href="/component-library/tokens">design tokens</a>.
                   </td>
                   <LiveEditCells
-                    scope={{ Tag }}
                     code={'<Tag color="green">\n  content\n</Tag>'}
+                    scope={{ Tag }}
                   />
                 </tr>
                 <tr className="dc-table__tr">
@@ -67,8 +67,8 @@ export default () => {
                     color to the background if none is provided.
                   </td>
                   <LiveEditCells
-                    scope={{ Tag }}
                     code={'<Tag textColor="red">\n  content\n</Tag>'}
+                    scope={{ Tag }}
                   />
                 </tr>
                 <tr className="dc-table__tr">
@@ -79,8 +79,8 @@ export default () => {
                     radius.
                   </td>
                   <LiveEditCells
-                    scope={{ Tag }}
                     code={'<Tag rounded>\n  content\n</Tag>'}
+                    scope={{ Tag }}
                   />
                 </tr>
                 <tr className="dc-table__tr">
@@ -88,10 +88,10 @@ export default () => {
                   <td>string - optional</td>
                   <td>Any extra css class required for the element.</td>
                   <LiveEditCells
-                    scope={{ Tag }}
                     code={
                       '<Tag\n  extraClass="dc-u-fs-h4"\n>\n  content\n</Tag>'
                     }
+                    scope={{ Tag }}
                   />
                 </tr>
               </tbody>

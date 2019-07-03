@@ -7,9 +7,9 @@ export default () => {
   return (
     <main>
       <CustomHeader
+        description="Apply or override letter spacing."
         section="Utility Classes"
         subSection="Letter Spacing"
-        description="Apply or override letter spacing."
       />
       <Page>
         <header>

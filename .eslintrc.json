@@ -55,7 +55,11 @@
     ],
     "sort-keys-fix/sort-keys-fix": ["error", "asc", { "natural": true }],
     "typescript-sort-keys/interface": ["error", "asc", { "natural": true }],
-    "typescript-sort-keys/string-enum": ["error", "asc", { "natural": true }]
+    "typescript-sort-keys/string-enum": ["error", "asc", { "natural": true }],
+    "react/jsx-sort-props": [
+      "error",
+      { "shorthandLast": true, "reservedFirst": true }
+    ]
   },
   "globals": {},
   "env": {

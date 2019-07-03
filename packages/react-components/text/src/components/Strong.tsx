@@ -24,7 +24,7 @@ const Strong: React.FC<StrongProps> = ({
   const parsedDataAttributes = computeDataAttributes(dataAttributes);
 
   return (
-    <strong css={strongStyle} className={className} {...parsedDataAttributes}>
+    <strong className={className} css={strongStyle} {...parsedDataAttributes}>
       {children}
     </strong>
   );

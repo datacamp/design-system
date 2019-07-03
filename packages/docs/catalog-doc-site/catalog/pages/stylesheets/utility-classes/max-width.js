@@ -12,9 +12,9 @@ export default () => {
   return (
     <main>
       <CustomHeader
+        description="Apply or override max-width."
         section="Utility Classes"
         subSection="Max Width"
-        description="Apply or override max-width."
       />
       <Page>
         <header>

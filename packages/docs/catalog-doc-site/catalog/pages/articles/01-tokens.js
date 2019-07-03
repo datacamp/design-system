@@ -7,9 +7,9 @@ export default () => {
   return (
     <main>
       <CustomHeader
+        description="Louis Bailey - 17 May 2019"
         section="Articles"
         subSection="The future of design tokens"
-        description="Louis Bailey - 17 May 2019"
       />
 
       <Page>
@@ -87,7 +87,7 @@ export default () => {
               that will become essential as we expand the color palette.
             </p>
             <h4>
-              <span role="img" aria-label="">
+              <span aria-label="" role="img">
                 ⚠️
               </span>{' '}
               Warning

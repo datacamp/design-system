@@ -12,9 +12,9 @@ export default () => {
   return (
     <main>
       <CustomHeader
+        description="Create and modify flex containers."
         section="Utility Classes"
         subSection="Flex Containers"
-        description="Create and modify flex containers."
       />
       <Page>
         <header>

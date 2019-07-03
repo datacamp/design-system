@@ -7,9 +7,9 @@ export default () => {
   return (
     <main>
       <CustomHeader
+        description="Use components as building blocks as you develop new products and features."
         section="Components"
         subSection="Intro"
-        description="Use components as building blocks as you develop new products and features."
       />
 
       <Page>

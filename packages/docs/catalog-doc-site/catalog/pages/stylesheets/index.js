@@ -7,9 +7,9 @@ export default () => {
   return (
     <main>
       <CustomHeader
+        description="Find out how we approach the visual elements of our interface with purpose."
         section="Stylesheets"
         subSection="Introduction"
-        description="Find out how we approach the visual elements of our interface with purpose."
       />
 
       <Page>

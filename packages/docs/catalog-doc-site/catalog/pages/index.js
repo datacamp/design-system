@@ -31,7 +31,7 @@ export default () => {
       <Page>
         <section className="dc-card dc-u-p-none dc-u-fx" style={BarStyle}>
           <div className="dc-u-p-32">
-            <img src="/illustration-content.svg" alt="" className="dc-u-mb-8" />
+            <img alt="" className="dc-u-mb-8" src="/illustration-content.svg" />
             <h4>Content</h4>
             <p className="dc-u-mt-0">
               Learn about how we use language to create a thoughtful experience.
@@ -47,7 +47,7 @@ export default () => {
           </div>
 
           <div className="dc-u-bl dc-u-p-32">
-            <img src="/illustration-design.svg" alt="" className="dc-u-mb-8" />
+            <img alt="" className="dc-u-mb-8" src="/illustration-design.svg" />
             <h4>Design</h4>
             <p className="dc-u-mt-0">
               Explore the visual elements we use to identify ourselves as a
@@ -65,9 +65,9 @@ export default () => {
 
           <div className="dc-u-bl dc-u-p-32">
             <img
-              src="/illustration-component.svg"
               alt=""
               className="dc-u-mb-8"
+              src="/illustration-component.svg"
             />
             <h4>Component Library</h4>
             <p className="dc-u-mt-0">

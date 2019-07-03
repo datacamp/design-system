@@ -8,9 +8,9 @@ export default () => {
   return (
     <main>
       <CustomHeader
+        description="The primitive values used to style anything and everything"
         section="Component Library"
         subSection="Tokens"
-        description="The primitive values used to style anything and everything"
       />
 
       <Page>

@@ -7,9 +7,9 @@ export default () => {
   return (
     <main>
       <CustomHeader
+        description="A utility class applies a single rule or a very simple, universal pattern."
         section="Stylesheets"
         subSection="Utility Classes"
-        description="A utility class applies a single rule or a very simple, universal pattern."
       />
 
       <Page>

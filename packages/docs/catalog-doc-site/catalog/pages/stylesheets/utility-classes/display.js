@@ -12,9 +12,9 @@ export default () => {
   return (
     <main>
       <CustomHeader
+        description="Apply or override display."
         section="Utility Classes"
         subSection="Display"
-        description="Apply or override display."
       />
       <Page>
         <header>

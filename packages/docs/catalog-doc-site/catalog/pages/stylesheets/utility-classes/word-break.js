@@ -19,9 +19,9 @@ const Subtractive = [
 export default () => (
   <main>
     <CustomHeader
+      description="Set where line breaks appear wherever text would otherwise overflow."
       section="Utility Classes"
       subSection="Word Break"
-      description="Set where line breaks appear wherever text would otherwise overflow."
     />
     <Page>
       <header>

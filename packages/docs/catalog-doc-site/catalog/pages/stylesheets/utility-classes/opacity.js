@@ -9,9 +9,9 @@ export default () => {
   return (
     <main>
       <CustomHeader
+        description="Apply or override lists."
         section="Utility Classes"
         subSection="Opacity"
-        description="Apply or override lists."
       />
       <Page>
         <header>

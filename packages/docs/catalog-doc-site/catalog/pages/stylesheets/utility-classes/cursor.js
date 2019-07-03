@@ -7,9 +7,9 @@ export default () => {
   return (
     <main>
       <CustomHeader
+        description="Apply or override cursor types."
         section="Utility Classes"
         subSection="Cursor"
-        description="Apply or override cursor types."
       />
       <Page>
         <header>

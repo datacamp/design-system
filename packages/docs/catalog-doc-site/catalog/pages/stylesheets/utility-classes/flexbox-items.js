@@ -46,9 +46,9 @@ export default () => {
   return (
     <main>
       <CustomHeader
+        description="Customize flex items."
         section="Utility Classes"
         subSection="Flex Items"
-        description="Customize flex items."
       />
       <Page>
         <header className="dc-u-w-100pc">

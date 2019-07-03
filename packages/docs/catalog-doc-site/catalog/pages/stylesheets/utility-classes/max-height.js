@@ -11,9 +11,9 @@ export default () => {
   return (
     <main>
       <CustomHeader
+        description="Apply or override max-height."
         section="Utility Classes"
         subSection="Max Height"
-        description="Apply or override max-height."
       />
       <Page>
         <header>

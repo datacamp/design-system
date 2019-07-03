@@ -7,9 +7,9 @@ export default () => {
   return (
     <main>
       <CustomHeader
+        description="Apply or override line height."
         section="Utility Classes"
         subSection="Line Height"
-        description="Apply or override line height."
       />
       <Page>
         <header>

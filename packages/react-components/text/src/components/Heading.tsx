@@ -65,7 +65,7 @@ const Heading: React.FC<HeadingProps> = ({
   const style = getStyle(size, multiLine);
 
   return (
-    <Element css={style} className={className} {...parsedDataAttributes}>
+    <Element className={className} css={style} {...parsedDataAttributes}>
       {children}
     </Element>
   );

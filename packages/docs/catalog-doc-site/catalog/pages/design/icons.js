@@ -31,9 +31,9 @@ export default () => {
   return (
     <main>
       <CustomHeader
+        description="Our icons are designed to fit within the visual language of our design system."
         section="Design"
         subSection="Icons"
-        description="Our icons are designed to fit within the visual language of our design system."
       />
 
       <Page>
@@ -87,9 +87,9 @@ export default () => {
                   }}
                 >
                   <Icons.DownloadIcon
-                    size={12}
                     color={colors.primary}
                     css={{ margin: '6px 0' }}
+                    size={12}
                   />
                 </div>
                 <span
@@ -111,9 +111,9 @@ export default () => {
                   }}
                 >
                   <Icons.DownloadIcon
-                    size={18}
                     color={colors.primary}
                     css={{ margin: '3px 0' }}
+                    size={18}
                   />
                 </div>
                 <span
@@ -134,7 +134,7 @@ export default () => {
                     margin: '0 auto 8px auto',
                   }}
                 >
-                  <Icons.DownloadIcon size={24} color={colors.primary} />
+                  <Icons.DownloadIcon color={colors.primary} size={24} />
                 </div>
                 <span
                   css={{
@@ -180,9 +180,9 @@ export default () => {
               other purposes, you can download it below.
             </p>
             <a
-              href={iconsZip}
-              download="icons.zip"
               className="dc-btn dc-btn--sm dc-btn--secondary"
+              download="icons.zip"
+              href={iconsZip}
             >
               <Icons.DownloadIcon />
               <span css={{ marginLeft: 8 }}>Download Icons</span>
