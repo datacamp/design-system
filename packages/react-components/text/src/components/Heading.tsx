@@ -19,6 +19,7 @@ interface HeadingProps {
 }
 
 const baseHeaderStyle = css({
+  color: tokens.color.opaque.greyDark.value.rgb,
   fontWeight: tokens.size.fontWeight.bold.value,
   lineHeight: tokens.size.lineHeight.heading.value,
   margin: 0,
