@@ -24,6 +24,11 @@ export default {
       title: 'Icons',
     },
     {
+      content: pageLoader(() => import('../../pages/componentLibrary/text.js')),
+      path: '/component-library/text',
+      title: 'Text',
+    },
+    {
       content: pageLoader(() => import('../../pages/componentLibrary/tag.js')),
       path: '/component-library/tag',
       title: 'Tag',
