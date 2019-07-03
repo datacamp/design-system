@@ -23,9 +23,9 @@ const baseTagStyle = css({
 });
 
 interface TagStyleProps {
+  color?: string;
   rounded?: boolean;
   textColor?: string;
-  color?: string;
 }
 
 const dynamicTagStyle = ({

@@ -11,7 +11,8 @@
     "emotion",
     "@typescript-eslint",
     "sort-keys-fix",
-    "simple-import-sort"
+    "simple-import-sort",
+    "typescript-sort-keys"
   ],
   "rules": {
     "prettier/prettier": "error",
@@ -52,7 +53,9 @@
         "allowExpressions": true
       }
     ],
-    "sort-keys-fix/sort-keys-fix": ["error", "asc", { "natural": true }]
+    "sort-keys-fix/sort-keys-fix": ["error", "asc", { "natural": true }],
+    "typescript-sort-keys/interface": ["error", "asc", { "natural": true }],
+    "typescript-sort-keys/string-enum": ["error", "asc", { "natural": true }]
   },
   "globals": {},
   "env": {
