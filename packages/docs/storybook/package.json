@@ -14,7 +14,6 @@
   },
   "dependencies": {
     "@datacamp/waffles-core": "^1.1.8",
-    "@datacamp/waffles-heading": "^0.0.29",
     "@datacamp/waffles-icons": "^1.0.7",
     "@datacamp/waffles-tag": "^0.3.8",
     "@datacamp/waffles-text": "^0.5.0",
