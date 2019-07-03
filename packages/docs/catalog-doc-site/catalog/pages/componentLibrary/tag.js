@@ -3,7 +3,7 @@ import { HintSpecimen, Page } from 'catalog';
 import React from 'react';
 
 import CustomHeader from '../../components/CustomHeader';
-import LiveEditCells from '../../components/LiveEditCells';
+import LazyLiveEditCells from '../../components/LazyLiveEditCells';
 
 export default () => {
   return (
@@ -45,7 +45,10 @@ export default () => {
                   <th>children</th>
                   <td>string - required</td>
                   <td>The content of the tag.</td>
-                  <LiveEditCells code="<Tag>example</Tag>" scope={{ Tag }} />
+                  <LazyLiveEditCells
+                    code="<Tag>example</Tag>"
+                    scope={{ Tag }}
+                  />
                 </tr>
                 <tr className="dc-table__tr">
                   <th>color</th>
@@ -54,7 +57,7 @@ export default () => {
                     The color of the tag. This should be one of the colors from
                     the <a href="/component-library/tokens">design tokens</a>.
                   </td>
-                  <LiveEditCells
+                  <LazyLiveEditCells
                     code={'<Tag color="green">\n  content\n</Tag>'}
                     scope={{ Tag }}
                   />
@@ -66,7 +69,7 @@ export default () => {
                     The color of the text. This will default to a contrasting
                     color to the background if none is provided.
                   </td>
-                  <LiveEditCells
+                  <LazyLiveEditCells
                     code={'<Tag textColor="red">\n  content\n</Tag>'}
                     scope={{ Tag }}
                   />
@@ -78,7 +81,7 @@ export default () => {
                     Sets the border-radius of the tag to DataCamp&apos;s default
                     radius.
                   </td>
-                  <LiveEditCells
+                  <LazyLiveEditCells
                     code={'<Tag rounded>\n  content\n</Tag>'}
                     scope={{ Tag }}
                   />
@@ -87,7 +90,7 @@ export default () => {
                   <th>extraClass</th>
                   <td>string - optional</td>
                   <td>Any extra css class required for the element.</td>
-                  <LiveEditCells
+                  <LazyLiveEditCells
                     code={
                       '<Tag\n  extraClass="dc-u-fs-h4"\n>\n  content\n</Tag>'
                     }

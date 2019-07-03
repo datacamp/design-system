@@ -5,7 +5,7 @@ import { chunk } from 'lodash';
 import React from 'react';
 
 import CustomHeader from '../../components/CustomHeader';
-import LiveEditCells from '../../components/LiveEditCells';
+import LazyLiveEditCells from '../../components/LazyLiveEditCells';
 
 export default () => {
   return (
@@ -55,7 +55,7 @@ export default () => {
                   <td>
                     The size in pixels to display the icon. This defaults to 18.
                   </td>
-                  <LiveEditCells
+                  <LazyLiveEditCells
                     code={'<AddCircleIcon size={24} />'}
                     scope={{ AddCircleIcon: Icons.AddCircleIcon }}
                   />
@@ -71,7 +71,7 @@ export default () => {
                     <a href="/component-library/tokens">waffles-tokens</a> to
                     maintain a consistent visual experience.
                   </td>
-                  <LiveEditCells
+                  <LazyLiveEditCells
                     code={`<>
   <AddCircleIcon color="#3AC" />
   <br />
@@ -87,7 +87,7 @@ export default () => {
                     Any extra className to pass to the root svg element. Can be
                     used to apply any extra custom styling required.
                   </td>
-                  <LiveEditCells
+                  <LazyLiveEditCells
                     code={'<AddCircleIcon className="dc-u-wh-36" />'}
                     scope={{ AddCircleIcon: Icons.AddCircleIcon }}
                   />
