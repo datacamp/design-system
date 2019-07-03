@@ -18,9 +18,9 @@ export default () => {
   return (
     <main>
       <CustomHeader
+        description="Use styled react components to build user interfaces"
         section="Component Library"
         subSection="Introduction"
-        description="Use styled react components to build user interfaces"
       />
 
       <Page>

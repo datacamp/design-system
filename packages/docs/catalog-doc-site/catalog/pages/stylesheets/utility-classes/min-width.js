@@ -12,9 +12,9 @@ export default () => {
   return (
     <main>
       <CustomHeader
+        description="Apply or override min-width."
         section="Utility Classes"
         subSection="Min Width"
-        description="Apply or override min-width."
       />
       <Page>
         <header>

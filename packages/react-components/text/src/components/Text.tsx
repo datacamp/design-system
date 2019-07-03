@@ -26,7 +26,7 @@ const Text: React.FC<TextProps> = (props: TextProps) => {
   const parsedDataAttributes = computeDataAttributes(dataAttributes);
 
   return (
-    <span css={textStyle} className={className} {...parsedDataAttributes}>
+    <span className={className} css={textStyle} {...parsedDataAttributes}>
       {children}
     </span>
   );

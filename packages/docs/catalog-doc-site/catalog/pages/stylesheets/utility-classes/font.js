@@ -9,9 +9,9 @@ export default () => {
   return (
     <main>
       <CustomHeader
+        description="Apply or override font family, size, style, and weight."
         section="Utility Classes"
         subSection="Font"
-        description="Apply or override font family, size, style, and weight."
       />
       <Page>
         <header>

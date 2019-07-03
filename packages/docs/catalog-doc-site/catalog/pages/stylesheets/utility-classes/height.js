@@ -11,9 +11,9 @@ export default () => {
   return (
     <main>
       <CustomHeader
+        description="Apply pixel, percentage, or viewport heights."
         section="Utility Classes"
         subSection="Height"
-        description="Apply pixel, percentage, or viewport heights."
       />
       <Page>
         <header>

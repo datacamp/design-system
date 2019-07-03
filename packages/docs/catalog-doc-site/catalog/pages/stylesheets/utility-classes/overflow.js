@@ -22,9 +22,9 @@ export default () => {
   return (
     <main>
       <CustomHeader
+        description="Apply or override overflow."
         section="Utility Classes"
         subSection="Overflow"
-        description="Apply or override overflow."
       />
       <Page>
         <header>

@@ -18,11 +18,11 @@ describe('<Heading />', () => {
         it(`renders at size ${size}, multiLine=${multiLine}`, () => {
           const { container } = render(
             <Heading
-              className={testClassName}
-              size={size}
               as="h2"
+              className={testClassName}
               dataAttributes={testDataAttributes}
               multiLine={multiLine}
+              size={size}
             >
               {testText}
             </Heading>
@@ -44,7 +44,7 @@ describe('<Heading />', () => {
 
   it('sets the className', () => {
     const { getByText } = render(
-      <Heading size={300} as="h2" className={testClassName}>
+      <Heading as="h2" className={testClassName} size={300}>
         {testText}
       </Heading>
     );
@@ -53,7 +53,7 @@ describe('<Heading />', () => {
 
   it('uses the correct element', () => {
     const { container } = render(
-      <Heading size={300} as="h5" dataAttributes={testDataAttributes}>
+      <Heading as="h5" dataAttributes={testDataAttributes} size={300}>
         {testText}
       </Heading>
     );
@@ -62,7 +62,7 @@ describe('<Heading />', () => {
 
   it('sets the data attributes', () => {
     const { getByText } = render(
-      <Heading size={300} as="h2" dataAttributes={testDataAttributes}>
+      <Heading as="h2" dataAttributes={testDataAttributes} size={300}>
         {testText}
       </Heading>
     );

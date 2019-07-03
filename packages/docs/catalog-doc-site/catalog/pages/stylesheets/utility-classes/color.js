@@ -10,9 +10,9 @@ export default () => {
   return (
     <main>
       <CustomHeader
+        description="Apply or override text color."
         section="Utility Classes"
         subSection="Color"
-        description="Apply or override text color."
       />
       <Page>
         <header>

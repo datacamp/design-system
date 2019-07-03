@@ -9,9 +9,9 @@ export default () => {
   return (
     <main>
       <CustomHeader
+        description="Our logo is the heart of our brand, treat it with respect or talk to our lawyers."
         section="Design"
         subSection="Logo"
-        description="Our logo is the heart of our brand, treat it with respect or talk to our lawyers."
       />
 
       <Page>
@@ -20,10 +20,10 @@ export default () => {
             <h5 className="dc-u-m-none">Regular</h5>
             <div className="dc-card dc-card--bordered dc-u-p-24 dc-u-mv-16">
               <img
-                src="/logo/regular.svg"
                 alt="DataCamp Logo – Regular"
                 className="dc-u-d-b"
                 css={{ margin: '0 auto' }}
+                src="/logo/regular.svg"
               />
             </div>
             <p className="dc-u-m-none" css={{ minHeight: '96px' }}>
@@ -50,10 +50,10 @@ export default () => {
             <h5 className="dc-u-m-none">Inverted</h5>
             <div className="dc-u-bgc-primary-dark dc-u-brad-all dc-u-p-24 dc-u-mv-16">
               <img
-                src="/logo/inverted.svg"
                 alt="DataCamp Logo – Inverted"
                 className="dc-u-d-b"
                 css={{ margin: '0 auto' }}
+                src="/logo/inverted.svg"
               />
             </div>
             <p className="dc-u-m-none" css={{ minHeight: '96px' }}>
@@ -80,10 +80,10 @@ export default () => {
             <h5 className="dc-u-m-none">Monochrome</h5>
             <div className="dc-card dc-card--bordered dc-u-p-24 dc-u-mv-16">
               <img
-                src="/logo/monochrome.svg"
                 alt="DataCamp Logo – Monochrome"
                 className="dc-u-d-b"
                 css={{ margin: '0 auto' }}
+                src="/logo/monochrome.svg"
               />
             </div>
             <p className="dc-u-m-none" css={{ minHeight: '96px' }}>
@@ -109,10 +109,10 @@ export default () => {
             <h5 className="dc-u-m-none">Icon</h5>
             <div className="dc-card dc-card--bordered dc-u-p-24 dc-u-mv-16">
               <img
-                src="/logo/icon.svg"
                 alt="DataCamp Logo – Icon"
                 className="dc-u-d-b"
                 css={{ margin: '0 auto' }}
+                src="/logo/icon.svg"
               />
             </div>
             <p className="dc-u-m-none" css={{ minHeight: '48px' }}>
@@ -139,10 +139,10 @@ export default () => {
             <h5 className="dc-u-m-none">Icon Monochrome</h5>
             <div className="dc-card dc-card--bordered dc-u-p-24 dc-u-mv-16">
               <img
-                src="/logo/icon-monochrome.svg"
                 alt="DataCamp Logo – Icon Monochrome"
                 className="dc-u-d-b"
                 css={{ margin: '0 auto' }}
+                src="/logo/icon-monochrome.svg"
               />
             </div>
             <p className="dc-u-m-none" css={{ minHeight: '48px' }}>
@@ -178,10 +178,10 @@ export default () => {
             <h5 className="dc-u-m-none">Regular</h5>
             <div className="dc-card dc-card--bordered dc-u-p-24 dc-u-mv-16">
               <img
-                src="/logo/business-regular.svg"
                 alt="DataCamp Business Logo – Regular"
                 className="dc-u-d-b"
                 css={{ margin: '0 auto' }}
+                src="/logo/business-regular.svg"
               />
             </div>
             <a
@@ -204,10 +204,10 @@ export default () => {
             <h5 className="dc-u-m-none">Inverted</h5>
             <div className="dc-u-bgc-primary-dark dc-u-brad-all dc-u-p-24 dc-u-mv-16">
               <img
-                src="/logo/business-inverted.svg"
                 alt="DataCamp Business Logo – Inverted"
                 className="dc-u-d-b"
                 css={{ margin: '0 auto' }}
+                src="/logo/business-inverted.svg"
               />
             </div>
             <a
@@ -230,10 +230,10 @@ export default () => {
             <h5 className="dc-u-m-none">Monochrome</h5>
             <div className="dc-u-bgc-primary-dark dc-u-brad-all dc-u-p-24 dc-u-mv-16">
               <img
-                src="/logo/business-monochrome.svg"
                 alt="DataCamp Business Logo – Monochrome"
                 className="dc-u-d-b"
                 css={{ margin: '0 auto' }}
+                src="/logo/business-monochrome.svg"
               />
             </div>
             <a

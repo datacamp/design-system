@@ -11,9 +11,9 @@ export default () => {
   return (
     <main>
       <CustomHeader
+        description="The icon components"
         section="Component Library"
         subSection="Icons"
-        description="The icon components"
       />
 
       <Page>
@@ -56,8 +56,8 @@ export default () => {
                     The size in pixels to display the icon. This defaults to 18.
                   </td>
                   <LiveEditCells
-                    scope={{ AddCircleIcon: Icons.AddCircleIcon }}
                     code={'<AddCircleIcon size={24} />'}
+                    scope={{ AddCircleIcon: Icons.AddCircleIcon }}
                   />
                 </tr>
                 <tr className="dc-table__tr">
@@ -72,12 +72,12 @@ export default () => {
                     maintain a consistent visual experience.
                   </td>
                   <LiveEditCells
-                    scope={{ AddCircleIcon: Icons.AddCircleIcon, colors }}
                     code={`<>
   <AddCircleIcon color="#3AC" />
   <br />
   <AddCircleIcon color={colors.primary} />
 </>`}
+                    scope={{ AddCircleIcon: Icons.AddCircleIcon, colors }}
                   />
                 </tr>
                 <tr className="dc-table__tr">
@@ -88,8 +88,8 @@ export default () => {
                     used to apply any extra custom styling required.
                   </td>
                   <LiveEditCells
-                    scope={{ AddCircleIcon: Icons.AddCircleIcon }}
                     code={'<AddCircleIcon className="dc-u-wh-36" />'}
+                    scope={{ AddCircleIcon: Icons.AddCircleIcon }}
                   />
                 </tr>
               </tbody>

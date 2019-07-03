@@ -33,7 +33,7 @@ const Paragraph: React.FC<ParagraphProps> = props => {
   const parsedDataAttributes = computeDataAttributes(dataAttributes);
 
   return (
-    <p css={paragraphStyle} className={className} {...parsedDataAttributes}>
+    <p className={className} css={paragraphStyle} {...parsedDataAttributes}>
       {children}
     </p>
   );

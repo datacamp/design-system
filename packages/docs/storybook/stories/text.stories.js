@@ -159,12 +159,12 @@ storiesOf('waffles-text', module)
         </Paragraph>
         <Heading
           as={element}
-          size={600}
           css={{ color: color.opaque.primary.value.hex }}
+          size={600}
         >
           This is a Heading with styling added using a css prop
         </Heading>
-        <Heading as={element} size={600} className="example-class">
+        <Heading as={element} className="example-class" size={600}>
           This is a Heading with styling added using a className
         </Heading>
         <Paragraph>

@@ -11,9 +11,9 @@ export default () => {
   return (
     <main>
       <CustomHeader
+        description="Apply or override box-shadow."
         section="Utility Classes"
         subSection="Box Shadow"
-        description="Apply or override box-shadow."
       />
       <Page>
         <header>

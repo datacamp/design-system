@@ -25,7 +25,7 @@ const Small: React.FC<SmallProps> = props => {
   const parsedDataAttributes = computeDataAttributes(dataAttributes);
 
   return (
-    <small css={smallStyle} className={className} {...parsedDataAttributes}>
+    <small className={className} css={smallStyle} {...parsedDataAttributes}>
       {children}
     </small>
   );
