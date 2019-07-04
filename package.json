@@ -28,7 +28,7 @@
   },
   "main": "catalog/index.js",
   "scripts": {
-    "bootstrap": "lerna clean --yes && lerna bootstrap && lerna run prepare",
+    "bootstrap": "lerna bootstrap && lerna run prepare",
     "lint": "eslint --ext js,jsx,ts,tsx --ignore-path .gitignore .",
     "lint:fix": "yarn lint --fix",
     "test": "lerna run test",
@@ -82,17 +82,10 @@
       "packages/tools/*"
     ],
     "nohoist": [
-      "@datacamp/waffles-core/@datacamp/waffles-tokens",
-      "@datacamp/waffles-core/extract-text-webpack-plugin",
-      "**/css-loader",
-      "**/css-loader/**",
-      "**/sass-loader",
-      "**/sass-loader/**",
-      "**/style-loader",
-      "**/style-loader/**",
-      "**/postcss-loader",
-      "**/postcss-loader/**",
-      "@datacamp/waffles-catalog-doc-site/**"
+      "@datacamp/waffles-core/**",
+      "@datacamp/waffles-catalog-doc-site/**",
+      "**/jest",
+      "**/jest/**"
     ]
   }
 }
