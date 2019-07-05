@@ -3,6 +3,7 @@ import 'jest-dom/extend-expect';
 import { render } from '@testing-library/react';
 import React from 'react';
 
+import Emphasis from './Emphasis';
 import Small from './Small';
 import Strong from './Strong';
 
@@ -20,10 +21,11 @@ describe('<Small />', () => {
     expect(container.firstChild).toMatchSnapshot();
   });
 
-  it('renders with Strong children', () => {
+  it('renders with Strong and Emphasis children', () => {
     const { container } = render(
       <Small className={testClassName} dataAttributes={testDataAttributes}>
-        Some example text <Strong>with strong</Strong> included.
+        Some example text <Strong>with strong</Strong> and{' '}
+        <Emphasis>emphasis text</Emphasis> included.
       </Small>
     );
     expect(container.firstChild).toMatchSnapshot();

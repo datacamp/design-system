@@ -5,6 +5,7 @@ import React from 'react';
 import baseStyle from '../baseStyle';
 import computeDataAttributes from '../computeDataAttributes';
 import validateChildrenProp from '../validateChildrenProp';
+import Emphasis from './Emphasis';
 import Strong from './Strong';
 
 interface SmallProps {
@@ -20,7 +21,7 @@ const smallStyle = css(baseStyle, {
 
 const Small: React.FC<SmallProps> = props => {
   const { children, className, dataAttributes } = props;
-  validateChildrenProp(props, 'Small', [Strong]);
+  validateChildrenProp(props, 'Small', [Strong, Emphasis]);
 
   const parsedDataAttributes = computeDataAttributes(dataAttributes);
 
