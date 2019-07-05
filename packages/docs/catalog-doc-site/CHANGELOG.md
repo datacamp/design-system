@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.7.1](https://github.com/datacamp/design-system/compare/@datacamp/waffles-catalog-doc-site@1.7.0...@datacamp/waffles-catalog-doc-site@1.7.1) (2019-07-05)
+
+
+### Bug Fixes
+
+* doc-site deployment ([96fe093](https://github.com/datacamp/design-system/commit/96fe093))
+
+
+
+
+
 # [1.7.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-catalog-doc-site@1.6.5...@datacamp/waffles-catalog-doc-site@1.7.0) (2019-07-05)
 
 
