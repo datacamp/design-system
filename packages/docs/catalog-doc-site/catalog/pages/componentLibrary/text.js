@@ -1,4 +1,5 @@
 import {
+  Emphasis,
   Heading,
   Paragraph,
   Small,
@@ -204,9 +205,9 @@ export default () => {
               <tbody>
                 <LazyLiveEditCells
                   code={
-                    '<Paragraph>\nHere is some example text in a paragraph. It can support other text components as children. As an example <Strong>this is a Strong component</Strong>. As another example <Small>this is a Small component</Small>.\n</Paragraph>'
+                    '<Paragraph>\nHere is some example text in a paragraph. It can support other text components as children. As an example <Strong>this is a Strong component</Strong>. As another example <Small>this is a Small component</Small>. And also <Emphasis>here is an Emphasis component</Emphasis>.\n</Paragraph>'
                   }
-                  scope={{ Paragraph, Small, Strong }}
+                  scope={{ Emphasis, Paragraph, Small, Strong }}
                 />
               </tbody>
             </table>
@@ -240,6 +241,35 @@ export default () => {
           </div>
           <div className="dc-card dc-u-p-24 dc-u-mt-8">
             <Heading as="h3" size={500}>
+              Emphasis
+            </Heading>
+            <Paragraph>
+              The Emphasis component adds a stress emphasis to some text when
+              reading. It can be imported as follows
+            </Paragraph>
+            <pre>
+              <code>
+                {"import { Emphasis } from '@datacamp/waffles-text';"}
+              </code>
+            </pre>
+            <Paragraph>
+              The Emphasis component should be used within a Paragraph if there
+              is a word or a phrase that should be emphasized when reading. It
+              supports all the same props as Text.
+            </Paragraph>
+            <table className="dc-table dc-table--bordered">
+              <tbody>
+                <LazyLiveEditCells
+                  code={
+                    '<Paragraph>\n  <Emphasis>Here is some emphasized text.</Emphasis>\n</Paragraph>'
+                  }
+                  scope={{ Emphasis, Paragraph, Small, Strong }}
+                />
+              </tbody>
+            </table>
+          </div>
+          <div className="dc-card dc-u-p-24 dc-u-mt-8">
+            <Heading as="h3" size={500}>
               Small
             </Heading>
             <Paragraph>
@@ -251,16 +281,16 @@ export default () => {
             </pre>
             <Paragraph>
               The Small component should be used within a Paragraph. It can take
-              strings and Strong components as children. It supports all the
-              same props as Text.
+              strings as children along with Strong and Emphasis components. It
+              supports all the same props as Text.
             </Paragraph>
             <table className="dc-table dc-table--bordered">
               <tbody>
                 <LazyLiveEditCells
                   code={
-                    '<Paragraph>\n  <Small>\n    Here is some small text. And this contains some <Strong>strong text</Strong>\n  </Small>\n</Paragraph>'
+                    '<Paragraph>\n  <Small>\n    Here is some small text. And this contains some <Strong>strong text</Strong>. And <Emphasis>here is some emphasized text</Emphasis>\n  </Small>\n</Paragraph>'
                   }
-                  scope={{ Paragraph, Small, Strong }}
+                  scope={{ Emphasis, Paragraph, Small, Strong }}
                 />
               </tbody>
             </table>
