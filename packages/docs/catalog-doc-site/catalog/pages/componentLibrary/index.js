@@ -7,7 +7,7 @@ import CustomHeader from '../../components/CustomHeader';
 const components = [
   { docLink: '/component-library/tag', name: 'Tag', status: 'Available' },
   { docLink: '/component-library/icons', name: 'Icon', status: 'Available' },
-  { name: 'Text', status: 'Planned' },
+  { docLink: '/component-library/text', name: 'Text', status: 'Available' },
   { name: 'Pill', status: 'Planned' },
   { name: 'Badge', status: 'Planned' },
   { name: 'Card', status: 'Planned' },
