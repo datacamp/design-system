@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.3.10](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/tag/compare/@datacamp/waffles-tag@0.3.9...@datacamp/waffles-tag@0.3.10) (2019-07-05)
+
+
+### Bug Fixes
+
+* avoid local yarn workspace install bug ([cc4ee38](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/tag/commit/cc4ee38))
+
+
+
+
+
 ## [0.3.9](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/tag/compare/@datacamp/waffles-tag@0.3.8...@datacamp/waffles-tag@0.3.9) (2019-07-03)
 
 

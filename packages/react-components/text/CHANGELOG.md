@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.6.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-text@0.5.1...@datacamp/waffles-text@0.6.0) (2019-07-05)
+
+
+### Bug Fixes
+
+* avoid local yarn workspace install bug ([cc4ee38](https://github.com/datacamp/design-system/commit/cc4ee38))
+
+
+### Features
+
+* use greyDark for headings ([cd09c74](https://github.com/datacamp/design-system/commit/cd09c74))
+
+
+
+
+
 ## [0.5.1](https://github.com/datacamp/design-system/compare/@datacamp/waffles-text@0.5.0...@datacamp/waffles-text@0.5.1) (2019-07-03)
 
 **Note:** Version bump only for package @datacamp/waffles-text
