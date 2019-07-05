@@ -3,7 +3,9 @@ import 'jest-dom/extend-expect';
 import { render } from '@testing-library/react';
 import React from 'react';
 
+import Emphasis from './Emphasis';
 import Paragraph from './Paragraph';
+import Small from './Small';
 import Strong from './Strong';
 import Text from './Text';
 
@@ -21,11 +23,12 @@ describe('<Paragraph />', () => {
     expect(container.firstChild).toMatchSnapshot();
   });
 
-  it('renders with Strong children', () => {
+  it('renders with Strong, Small, Text, and Emphasis children', () => {
     const { container } = render(
       <Paragraph className={testClassName} dataAttributes={testDataAttributes}>
         Some example text <Strong>with strong</Strong> included, and also some{' '}
-        <Text>custom text</Text>.
+        <Text>custom text</Text>. It has some <Small>small text</Small> and{' '}
+        <Emphasis>emphasis text</Emphasis>.
       </Paragraph>
     );
     expect(container.firstChild).toMatchSnapshot();

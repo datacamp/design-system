@@ -6,6 +6,7 @@ import baseStyle from '../baseStyle';
 import computeDataAttributes from '../computeDataAttributes';
 import ssrSafeFirstChildSelector from '../ssrSafeFirstChildSelector';
 import validateChildrenProp from '../validateChildrenProp';
+import Emphasis from './Emphasis';
 import Small from './Small';
 import Strong from './Strong';
 import Text from './Text';
@@ -28,7 +29,13 @@ const paragraphStyle = css(baseStyle, {
 });
 
 const Paragraph: React.FC<ParagraphProps> = props => {
-  validateChildrenProp(props, 'Paragraph', [Strong, Text, Small, 'br']);
+  validateChildrenProp(props, 'Paragraph', [
+    Strong,
+    Text,
+    Small,
+    Emphasis,
+    'br',
+  ]);
   const { children, className, dataAttributes } = props;
   const parsedDataAttributes = computeDataAttributes(dataAttributes);
 
