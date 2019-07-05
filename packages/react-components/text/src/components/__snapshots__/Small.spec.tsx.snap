@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<Small /> renders with Strong children 1`] = `
-.emotion-1 {
+exports[`<Small /> renders with Strong and Emphasis children 1`] = `
+.emotion-2 {
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;
@@ -19,8 +19,18 @@ exports[`<Small /> renders with Strong children 1`] = `
   line-height: 16px;
 }
 
+.emotion-1 {
+  color: rgb(77,83,86);
+  font-family: sans-serif;
+  font-family: Lato;
+  font-style: normal;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 16px;
+}
+
 <small
-  class="example-class emotion-1"
+  class="example-class emotion-2"
   data-cy="othertest"
   data-example="testdata"
 >
@@ -30,6 +40,13 @@ exports[`<Small /> renders with Strong children 1`] = `
   >
     with strong
   </strong>
+   and
+   
+  <em
+    class="emotion-1"
+  >
+    emphasis text
+  </em>
    included.
 </small>
 `;
