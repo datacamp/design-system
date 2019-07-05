@@ -1,6 +1,7 @@
 import './styles.css';
 
 import {
+  Emphasis,
   Heading,
   Paragraph,
   Small,
@@ -32,6 +33,10 @@ storiesOf('waffles-text', module)
       <Text>
         This has <Small>these words</Small> made small
       </Text>
+      <br />
+      <Text>
+        This has <Emphasis>these words</Emphasis> emphasized
+      </Text>
     </>
   ))
   .add('Strong Component', () => (
@@ -47,6 +52,21 @@ storiesOf('waffles-text', module)
       <Strong className="example-class">
         This has additional style added using a className
       </Strong>
+    </Paragraph>
+  ))
+  .add('Emphasis Component', () => (
+    <Paragraph>
+      This is a paragraph containing Emphasis components
+      <br />
+      <Emphasis>This is the default emphasis text</Emphasis>
+      <br />
+      <Emphasis css={{ color: color.opaque.primary.value.hex }}>
+        This has additional style added using a css prop
+      </Emphasis>
+      <br />
+      <Emphasis className="example-class">
+        This has additional style added using a className
+      </Emphasis>
     </Paragraph>
   ))
   .add('Small Component', () => (
@@ -66,6 +86,10 @@ storiesOf('waffles-text', module)
       <Small>
         This contains some <Strong>strong text</Strong>
       </Small>
+      <br />
+      <Small>
+        This contains some <Emphasis>emphasis text</Emphasis>
+      </Small>
     </Paragraph>
   ))
   .add('Paragraph Component', () => (
@@ -81,9 +105,9 @@ storiesOf('waffles-text', module)
         convallis arcu eu neque tincidunt condimentum.
       </Paragraph>
       <Paragraph>
-        This is a paragraph containing a some Text, Strong and Small children.
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a enim
-        quis nisi sollicitudin tincidunt in nec leo.{' '}
+        This is a paragraph containing a some Text, Strong, Emphasis and Small
+        children. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+        a enim quis nisi sollicitudin tincidunt in nec leo.{' '}
         <Strong>Quisque mattis</Strong> pretium nulla,{' '}
         <Small>id malesuada nisi</Small> viverra consectetur. Donec auctor
         dapibus nisl sit amet tempor. Integer nec diam sit amet sem sollicitudin
@@ -92,8 +116,8 @@ storiesOf('waffles-text', module)
           Vestibulum velit turpis
         </Text>
         , egestas eget massa non, consectetur volutpat quam. Sed eu mi eget sem
-        euismod iaculis. Aenean a ante mattis orci dapibus pulvinar. Quisque
-        convallis arcu eu neque tincidunt condimentum.
+        euismod iaculis. Aenean a ante <Emphasis>mattis orci</Emphasis> dapibus
+        pulvinar. Quisque convallis arcu eu neque tincidunt condimentum.
       </Paragraph>
       <Paragraph css={{ color: color.opaque.primary.value.hex }}>
         This has additional style added using a css prop
