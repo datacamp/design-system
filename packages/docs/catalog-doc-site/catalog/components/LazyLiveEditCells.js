@@ -6,8 +6,8 @@ const LazyLiveEditCells = props => (
   <React.Suspense
     fallback={
       <React.Fragment>
-        <td>loading...</td>
-        <td>loading...</td>
+        <td>Loading...</td>
+        <td>Loading...</td>
       </React.Fragment>
     }
   >
