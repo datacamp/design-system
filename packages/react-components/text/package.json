@@ -19,6 +19,7 @@
   "devDependencies": {
     "@babel/cli": "7.5.0",
     "@babel/core": "7.5.0",
+    "@datacamp/waffles-axe-render": "^1.0.0",
     "@datacamp/waffles-babel-preset": "^1.0.6",
     "@datacamp/waffles-tsconfig": "^1.0.2",
     "@testing-library/react": "8.0.4",
@@ -32,6 +33,7 @@
     "react-dom": "16.8.6"
   },
   "dependencies": {
+    "@babel/runtime": "^7.5.1",
     "@datacamp/waffles-tokens": "^0.5.1",
     "@emotion/core": "^10.0.14",
     "emotion": "^10.0.14",

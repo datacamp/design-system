@@ -1,6 +1,6 @@
 import 'jest-dom/extend-expect';
 
-import { render } from '@testing-library/react';
+import axeRender from '@datacamp/waffles-axe-render';
 import React from 'react';
 
 import Emphasis from './Emphasis';
@@ -14,8 +14,8 @@ const testClassName = 'example-class';
 const testDataAttributes = { cy: 'othertest', example: 'testdata' };
 
 describe('<Paragraph />', () => {
-  it('renders with a string', () => {
-    const { container } = render(
+  it('renders with a string', async () => {
+    const { container } = await axeRender(
       <Paragraph className={testClassName} dataAttributes={testDataAttributes}>
         {testText}
       </Paragraph>
@@ -23,8 +23,8 @@ describe('<Paragraph />', () => {
     expect(container.firstChild).toMatchSnapshot();
   });
 
-  it('renders with Strong, Small, Text, and Emphasis children', () => {
-    const { container } = render(
+  it('renders with Strong, Small, Text, and Emphasis children', async () => {
+    const { container } = await axeRender(
       <Paragraph className={testClassName} dataAttributes={testDataAttributes}>
         Some example text <Strong>with strong</Strong> included, and also some{' '}
         <Text>custom text</Text>. It has some <Small>small text</Small> and{' '}
@@ -34,20 +34,20 @@ describe('<Paragraph />', () => {
     expect(container.firstChild).toMatchSnapshot();
   });
 
-  it('sets the text in the span', () => {
-    const { getByText } = render(<Paragraph>{testText}</Paragraph>);
+  it('sets the text in the span', async () => {
+    const { getByText } = await axeRender(<Paragraph>{testText}</Paragraph>);
     expect(getByText(testText)).toBeDefined();
   });
 
-  it('sets the className', () => {
-    const { getByText } = render(
+  it('sets the className', async () => {
+    const { getByText } = await axeRender(
       <Paragraph className={testClassName}>{testText}</Paragraph>
     );
     expect(getByText(testText)).toHaveClass(testClassName);
   });
 
-  it('sets the data attributes', () => {
-    const { getByText } = render(
+  it('sets the data attributes', async () => {
+    const { getByText } = await axeRender(
       <Paragraph dataAttributes={testDataAttributes}>{testText}</Paragraph>
     );
     expect(getByText(testText)).toHaveAttribute(

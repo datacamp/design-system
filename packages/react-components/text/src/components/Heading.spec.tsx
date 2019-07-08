@@ -1,6 +1,6 @@
 import 'jest-dom/extend-expect';
 
-import { render } from '@testing-library/react';
+import axeRender from '@datacamp/waffles-axe-render';
 import React from 'react';
 
 import Heading, { Size } from './Heading';
@@ -15,8 +15,8 @@ describe('<Heading />', () => {
   describe('renders at each size', () => {
     headerSizes.forEach(size =>
       [true, false].forEach(multiLine => {
-        it(`renders at size ${size}, multiLine=${multiLine}`, () => {
-          const { container } = render(
+        it(`renders at size ${size}, multiLine=${multiLine}`, async () => {
+          const { container } = await axeRender(
             <Heading
               as="h2"
               className={testClassName}
@@ -33,8 +33,8 @@ describe('<Heading />', () => {
     );
   });
 
-  it('sets the text in the heading', () => {
-    const { getByText } = render(
+  it('sets the text in the heading', async () => {
+    const { getByText } = await axeRender(
       <Heading as="h2" size={400}>
         {testText}
       </Heading>
@@ -42,8 +42,8 @@ describe('<Heading />', () => {
     expect(getByText(testText)).toBeDefined();
   });
 
-  it('sets the className', () => {
-    const { getByText } = render(
+  it('sets the className', async () => {
+    const { getByText } = await axeRender(
       <Heading as="h2" className={testClassName} size={300}>
         {testText}
       </Heading>
@@ -51,8 +51,8 @@ describe('<Heading />', () => {
     expect(getByText(testText)).toHaveClass(testClassName);
   });
 
-  it('uses the correct element', () => {
-    const { container } = render(
+  it('uses the correct element', async () => {
+    const { container } = await axeRender(
       <Heading as="h5" dataAttributes={testDataAttributes} size={300}>
         {testText}
       </Heading>
@@ -60,8 +60,8 @@ describe('<Heading />', () => {
     expect(container.querySelector('h5')).not.toBeNull();
   });
 
-  it('sets the data attributes', () => {
-    const { getByText } = render(
+  it('sets the data attributes', async () => {
+    const { getByText } = await axeRender(
       <Heading as="h2" dataAttributes={testDataAttributes} size={300}>
         {testText}
       </Heading>

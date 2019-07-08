@@ -1,6 +1,6 @@
 import 'jest-dom/extend-expect';
 
-import { render } from '@testing-library/react';
+import axeRender from '@datacamp/waffles-axe-render';
 import React from 'react';
 
 import Strong from './Strong';
@@ -10,8 +10,8 @@ const testClassName = 'example-class';
 const testDataAttributes = { cy: 'othertest', example: 'testdata' };
 
 describe('<Strong />', () => {
-  it('renders', () => {
-    const { container } = render(
+  it('renders', async () => {
+    const { container } = await axeRender(
       <Strong className={testClassName} dataAttributes={testDataAttributes}>
         {testText}
       </Strong>
@@ -19,20 +19,20 @@ describe('<Strong />', () => {
     expect(container.firstChild).toMatchSnapshot();
   });
 
-  it('sets the text in the span', () => {
-    const { getByText } = render(<Strong>{testText}</Strong>);
+  it('sets the text in the span', async () => {
+    const { getByText } = await axeRender(<Strong>{testText}</Strong>);
     expect(getByText(testText)).toBeDefined();
   });
 
-  it('sets the className', () => {
-    const { getByText } = render(
+  it('sets the className', async () => {
+    const { getByText } = await axeRender(
       <Strong className={testClassName}>{testText}</Strong>
     );
     expect(getByText(testText)).toHaveClass(testClassName);
   });
 
-  it('sets the data attributes', () => {
-    const { getByText } = render(
+  it('sets the data attributes', async () => {
+    const { getByText } = await axeRender(
       <Strong dataAttributes={testDataAttributes}>{testText}</Strong>
     );
     expect(getByText(testText)).toHaveAttribute(
