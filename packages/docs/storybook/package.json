@@ -13,6 +13,7 @@
     "test": "percy-storybook --build_dir=lib --widths=320,1280"
   },
   "dependencies": {
+    "@babel/runtime": "^7.5.1",
     "@datacamp/waffles-core": "^1.1.10",
     "@datacamp/waffles-icons": "^1.0.9",
     "@datacamp/waffles-tag": "^0.3.11",

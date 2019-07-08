@@ -38,6 +38,9 @@
     "react": "^16.8.6",
     "typescript": "3.5.2"
   },
+  "dependencies": {
+    "@babel/runtime": "^7.5.1"
+  },
   "peerDependencies": {
     "react": "^16.8.6"
   }

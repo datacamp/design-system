@@ -5,9 +5,10 @@ const presetCSSProp = require('@emotion/babel-preset-css-prop').default;
 const pluginLodash = require('babel-plugin-lodash');
 const pluginTypescriptToProptypes = require('babel-plugin-typescript-to-proptypes')
   .default;
+const pluginTransformRuntime = require('@babel/plugin-transform-runtime');
 
 module.exports = () => ({
-  plugins: [pluginLodash, pluginTypescriptToProptypes],
+  plugins: [pluginLodash, pluginTypescriptToProptypes, pluginTransformRuntime],
   presets: [
     [
       presetEnv,

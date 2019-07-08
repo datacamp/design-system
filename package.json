@@ -86,7 +86,8 @@
       "@datacamp/waffles-core/**",
       "@datacamp/waffles-catalog-doc-site/**",
       "**/jest",
-      "**/jest/**"
+      "**/jest/**",
+      "**/@babel/runtime/**"
     ]
   }
 }
