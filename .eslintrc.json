@@ -78,7 +78,8 @@
         "packages/**/src/**/*.spec.tsx",
         "packages/**/test/*.spec.js",
         "src/**/__mocks__/**",
-        "test/helpers"
+        "test/helpers",
+        "packages/tools/axe-render/**"
       ],
       "env": {
         "jest": true
