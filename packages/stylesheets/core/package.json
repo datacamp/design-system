@@ -23,18 +23,17 @@
   "scripts": {
     "clean": "rm -rf lib/**",
     "prepare": "yarn build",
-    "build": "yarn clean && webpack && babel js --out-dir lib/js --ignore spec.js "
+    "build": "yarn clean && webpack && babel js --out-dir lib/js --ignore spec.js --config-file ./babel7.config.js",
+    "test": "jest"
   },
   "devDependencies": {
-    "babel-cli": "^6.26.0",
-    "babel-core": "^6.26.0",
-    "babel-plugin-lodash": "^3.3.4",
-    "babel-plugin-transform-object-rest-spread": "^6.26.0",
-    "babel-preset-env": "^1.7.0",
-    "babel-preset-react": "^6.24.1",
+    "@babel/cli": "^7.5.0",
+    "@babel/core": "^7.5.0",
+    "@datacamp/waffles-babel-preset": "^1.0.6",
     "copy-webpack-plugin": "^4.6.0",
     "css-loader": "0.28.11",
     "extract-text-webpack-plugin": "^3.0.2",
+    "jest": "^24.8.0",
     "node-sass": "^4.11.0",
     "node-sass-json-importer": "4.0.1",
     "postcss-browser-reporter": "^0.6.0",
