@@ -5,6 +5,9 @@
   "homepage": "https://github.com/datacamp-engineering/design-system/tree/master/packages/tools/tsconfig/README.md",
   "license": "UNLICENSED",
   "private": true,
+  "devDependencies": {
+    "typescript": "3.4.3"
+  },
   "peerDependencies": {
     "typescript": "^3.4.3"
   }
