@@ -1,8 +1,9 @@
 const path = require('path');
-const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const sassJsonImporter = require('node-sass-json-importer');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
 const SVGSpritemapPlugin = require('svg-spritemap-webpack-plugin');
+const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+const RemovePlugin = require('remove-files-webpack-plugin');
 
 const nodeEnv = process.env.NODE_ENV || 'development';
 const dev = nodeEnv === 'production';
@@ -15,32 +16,30 @@ module.exports = {
     rules: [
       {
         test: /\.(scss)$/,
-        use: ExtractTextPlugin.extract({
-          fallback: 'style-loader',
-          use: [
-            {
-              loader: 'css-loader',
-              options: {
-                importLoaders: 2,
-                sourceMap: !dev,
-              },
+        use: [
+          MiniCssExtractPlugin.loader,
+          {
+            loader: 'css-loader',
+            options: {
+              importLoaders: 2,
+              sourceMap: !dev,
             },
-            {
-              loader: 'postcss-loader',
-              options: {
-                config: {},
-                sourceMap: !dev,
-              },
+          },
+          {
+            loader: 'postcss-loader',
+            options: {
+              config: {},
+              sourceMap: !dev,
             },
-            {
-              loader: 'sass-loader',
-              options: {
-                importer: sassJsonImporter(),
-                sourceMap: !dev,
-              },
+          },
+          {
+            loader: 'sass-loader',
+            options: {
+              importer: sassJsonImporter(),
+              sourceMap: !dev,
             },
-          ],
-        }),
+          },
+        ],
       },
     ],
   },
@@ -51,28 +50,28 @@ module.exports = {
   },
 
   plugins: [
-    new ExtractTextPlugin({
-      allChunks: true,
+    new MiniCssExtractPlugin({
       filename: 'css/waffles.[contenthash:8].css',
     }),
 
-    new SVGSpritemapPlugin({
-      filename: 'icons/symbols.svg',
-      prefix: '',
-      src: 'icons/svgs/*.svg',
-      svgo: {
-        js2svg: {
-          pretty: true,
-        },
-        plugins: [
-          {
-            removeAttrs: {
-              attrs: 'fill',
-            },
-            removeTitle: true,
+    new SVGSpritemapPlugin('icons/svgs/*.svg', {
+      output: {
+        filename: 'icons/symbols.svg',
+        svgo: {
+          js2svg: {
+            pretty: true,
           },
-        ],
+          plugins: [
+            {
+              removeAttrs: {
+                attrs: 'fill',
+              },
+              removeTitle: true,
+            },
+          ],
+        },
       },
+      sprite: { prefix: false },
     }),
 
     new CopyWebpackPlugin(
@@ -112,6 +111,13 @@ module.exports = {
         ignore: ['**/.*'],
       }
     ),
+
+    new RemovePlugin({
+      after: {
+        include: ['ingredients.scss', '1.ingredients.scss'],
+        root: 'lib',
+      },
+    }),
   ],
 
   resolve: {
