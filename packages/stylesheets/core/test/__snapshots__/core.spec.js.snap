@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Core generates the correct files: lib/css/waffles.15e10c5d.css 1`] = `
+exports[`Core generates the correct files: lib/css/waffles.css 1`] = `
 "@charset \\"UTF-8\\";
 /**
  * Disabled stylelint because it's incorrectly identifying unicode as SCSS
@@ -6285,7 +6285,7 @@ td,
 /* stylelint-enable */
 
 
-/*# sourceMappingURL=waffles.15e10c5d.css.map*/"
+/*# sourceMappingURL=waffles.css.map*/"
 `;
 
 exports[`Core generates the correct files: lib/scss/custom.scss 1`] = `
@@ -14287,14 +14287,14 @@ Object {
       "children": Array [
         Object {
           "extension": ".css",
-          "name": "waffles.15e10c5d.css",
-          "path": "lib/css/waffles.15e10c5d.css",
+          "name": "waffles.css",
+          "path": "lib/css/waffles.css",
           "type": "file",
         },
         Object {
           "extension": ".map",
-          "name": "waffles.15e10c5d.css.map",
-          "path": "lib/css/waffles.15e10c5d.css.map",
+          "name": "waffles.css.map",
+          "path": "lib/css/waffles.css.map",
           "type": "file",
         },
       ],
