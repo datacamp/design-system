@@ -1,6 +1,6 @@
 {
   "name": "@datacamp/waffles-text",
-  "version": "0.6.0",
+  "version": "0.7.0",
   "main": "lib/index.js",
   "license": "UNLICENSED",
   "sideEffects": [
@@ -20,7 +20,7 @@
     "@babel/cli": "7.5.0",
     "@babel/core": "7.5.0",
     "@datacamp/waffles-babel-preset": "^1.0.6",
-    "@datacamp/waffles-tsconfig": "1.0.1",
+    "@datacamp/waffles-tsconfig": "^1.0.2",
     "@testing-library/react": "8.0.4",
     "@types/jest": "24.0.15",
     "@types/lodash": "4.14.134",

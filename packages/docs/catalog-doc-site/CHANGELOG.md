@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.8.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-catalog-doc-site@1.7.1...@datacamp/waffles-catalog-doc-site@1.8.0) (2019-07-10)
+
+
+### Bug Fixes
+
+* pin old webpack version for catalog compatibility ([7115bcc](https://github.com/datacamp/design-system/commit/7115bcc))
+
+
+### Features
+
+* add Emphasis docs to Text page ([0dd2371](https://github.com/datacamp/design-system/commit/0dd2371))
+* link to Text docs on status page ([d3c91a4](https://github.com/datacamp/design-system/commit/d3c91a4))
+
+
+
+
+
 ## [1.7.1](https://github.com/datacamp/design-system/compare/@datacamp/waffles-catalog-doc-site@1.7.0...@datacamp/waffles-catalog-doc-site@1.7.1) (2019-07-05)
 
 

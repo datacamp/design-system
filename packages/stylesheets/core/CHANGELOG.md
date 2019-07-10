@@ -3,6 +3,20 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.10](https://github.com/datacamp/design-system/compare/@datacamp/waffles-core@1.1.9...@datacamp/waffles-core@1.1.10) (2019-07-10)
+
+
+### Bug Fixes
+
+* remove hashes from snapshot tests ([f836da0](https://github.com/datacamp/design-system/commit/f836da0))
+* snapshot test exposed files from core ([0dea1c9](https://github.com/datacamp/design-system/commit/0dea1c9))
+* update webpack and all other build packages ([5edbf05](https://github.com/datacamp/design-system/commit/5edbf05))
+* use babel 7 and shared config ([bc9d503](https://github.com/datacamp/design-system/commit/bc9d503))
+
+
+
+
+
 ## [1.1.9](https://github.com/datacamp/design-system/compare/@datacamp/waffles-core@1.1.8...@datacamp/waffles-core@1.1.9) (2019-07-03)
 
 **Note:** Version bump only for package @datacamp/waffles-core

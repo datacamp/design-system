@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.7.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-text@0.6.0...@datacamp/waffles-text@0.7.0) (2019-07-10)
+
+
+### Features
+
+* accept Emphasis as a child of Paragraph ([ea93724](https://github.com/datacamp/design-system/commit/ea93724))
+* accept Emphasis as a child of Small ([55d3220](https://github.com/datacamp/design-system/commit/55d3220))
+* add Emphasis component ([b93f572](https://github.com/datacamp/design-system/commit/b93f572))
+
+
+
+
+
 # [0.6.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-text@0.5.1...@datacamp/waffles-text@0.6.0) (2019-07-05)
 
 
