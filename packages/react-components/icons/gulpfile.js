@@ -7,7 +7,6 @@ const camelcase = require('camelcase');
 const concatFilenames = require('gulp-concat-filenames');
 const babel = require('gulp-babel');
 const ts = require('gulp-typescript');
-const filter = require('gulp-filter');
 const svgSprite = require('gulp-svg-sprite');
 const zip = require('gulp-zip');
 
@@ -25,22 +24,22 @@ function generateComponentName(fileName) {
   });
 }
 
-function buildTypescriptComponents() {
+const commonSVGRConfig = {
+  dimensions: false,
+  expandProps: false,
+  plugins: ['@svgr/plugin-svgo', '@svgr/plugin-jsx', '@svgr/plugin-prettier'],
+  prettier: true,
+  replaceAttrValues: { '#3AC': '{color}' },
+};
+
+function buildTypescriptWebComponents() {
   return loadAllSVGs()
     .pipe(
       transform('utf8', (content, file) => {
         const componentName = generateComponentName(file.basename);
 
         return svgr(content, {
-          dimensions: false,
-          expandProps: false,
-          plugins: [
-            '@svgr/plugin-svgo',
-            '@svgr/plugin-jsx',
-            '@svgr/plugin-prettier',
-          ],
-          prettier: true,
-          replaceAttrValues: { '#3AC': '{color}' },
+          ...commonSVGRConfig,
           svgProps: {
             className: '{className}',
             height: '{size}',
@@ -76,37 +75,106 @@ function buildTypescriptComponents() {
       })
       /* eslint-enable no-param-reassign  */
     )
-    .pipe(dest('./build'));
+    .pipe(dest('./build/web'));
 }
 
-function generateIndexFile() {
-  return src('./build/*.tsx')
+function buildTypescriptMobileComponents() {
+  return loadAllSVGs()
+    .pipe(
+      transform('utf8', (content, file) => {
+        const componentName = generateComponentName(file.basename);
+
+        return svgr(content, {
+          ...commonSVGRConfig,
+          native: true,
+          svgProps: {
+            height: '{size}',
+            style: '{style}',
+            width: '{size}',
+          },
+          template({ template }, opts, { jsx }) {
+            const typescriptTemplate = template.smart({
+              plugins: ['typescript'],
+            });
+            return typescriptTemplate.ast`
+              import * as React from 'react';
+              import { StyleProp, ViewStyle } from 'react-native';
+              import Svg, { Path } from 'react-native-svg';
+
+              interface IconProps {
+                color?: string,
+                size?: number,
+                style?: StyleProp<ViewStyle>
+              }
+
+              const ${componentName} = ({size = 18, color = 'currentColor', style}: IconProps) => ${jsx};
+              export default ${componentName};
+            `;
+          },
+        });
+      })
+    )
+    .pipe(
+      /* eslint-disable no-param-reassign  */
+      rename(path => {
+        path.basename = generateComponentName(
+          `${path.basename}${path.extname}`
+        );
+        path.extname = '.tsx';
+      })
+      /* eslint-enable no-param-reassign  */
+    )
+    .pipe(dest('./build/mobile'));
+}
+
+function generateWebIndexFile() {
+  return src('./build/web/*.tsx')
     .pipe(
       concatFilenames('index.ts', {
-        root: './build',
+        root: './build/web',
         template: fileName => {
           const componentName = generateComponentName(fileName);
           return `export { default as ${componentName}Icon } from './${componentName}';`;
         },
       })
     )
-    .pipe(dest('./build/'));
+    .pipe(dest('./build/web/'));
 }
 
-const generateTypescript = series(buildTypescriptComponents, generateIndexFile);
+function generateMobileIndexFile() {
+  return src('./build/mobile/*.tsx')
+    .pipe(
+      concatFilenames('index.ts', {
+        root: './build/mobile',
+        template: fileName => {
+          const componentName = generateComponentName(fileName);
+          return `export { default as ${componentName}Icon } from './${componentName}';`;
+        },
+      })
+    )
+    .pipe(dest('./build/mobile/'));
+}
+
+const generateTypescriptWeb = series(
+  buildTypescriptWebComponents,
+  generateWebIndexFile
+);
+
+const generateTypescriptMobile = series(
+  buildTypescriptMobileComponents,
+  generateMobileIndexFile
+);
 
 function transpileToJS() {
-  return src('./build/*')
+  return src('./build/**')
     .pipe(babel({ configFile: './babel7.config.js' }))
     .pipe(dest('./lib'));
 }
 
 function createTypings() {
   const tsProject = ts.createProject('tsconfig.json');
-  return src('./build/*')
-    .pipe(tsProject())
-    .pipe(filter('**/*.d.ts'))
-    .pipe(dest('./lib'));
+  const tsResult = src('./build/**').pipe(tsProject());
+  return tsResult.dts.pipe(dest('./lib'));
 }
 
 const transpileTypescript = parallel(transpileToJS, createTypings);
@@ -144,5 +212,8 @@ function generateZip() {
 exports.build = parallel(
   generateSprites,
   generateZip,
-  series(generateTypescript, transpileTypescript)
+  series(
+    parallel(generateTypescriptWeb, generateTypescriptMobile),
+    transpileTypescript
+  )
 );

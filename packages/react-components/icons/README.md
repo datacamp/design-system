@@ -4,11 +4,11 @@ Usage documentation available at [waffles.datacamp.com/component-library/icons](
 
 This package contains the all the source svg icons as well as the build process to generate react components and sprite files. This build process is handled using gulp.
 
-## React Components
+## React(-native) Components
 React components are generated in multiple steps:
 
 - SVGs are loaded from the `/brandIcons`, `/invertedIcons` and `/standardIcons` directories.
-- Components are created in the `/build` directory using [SVGR](https://www.smooth-code.com/open-source/svgr/) and a custom typescript template.
+- Components are created in the `/build` directory using [SVGR](https://www.smooth-code.com/open-source/svgr/) and a custom typescript template for both web and react-native.
 - An `index.ts` file is generated within `/build` to expose all the components.
 - These typescript files are transpiled to javascript and typings files in the `/lib` directory to be exposed.
 

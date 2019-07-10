@@ -1,8 +1,7 @@
 {
   "name": "@datacamp/waffles-icons",
   "version": "1.0.9",
-  "main": "lib/index.js",
-  "types": "lib/index.d.ts",
+  "main": "lib/web/index.js",
   "license": "ISC",
   "sideEffects": false,
   "repository": {
@@ -28,7 +27,6 @@
     "gulp": "^4.0.2",
     "gulp-babel": "^8.0.0",
     "gulp-concat-filenames": "^1.2.0",
-    "gulp-filter": "^6.0.0",
     "gulp-rename": "^1.4.0",
     "gulp-svg-sprite": "^1.5.0",
     "gulp-transform": "^3.0.5",
@@ -39,7 +37,9 @@
     "typescript": "3.5.2"
   },
   "dependencies": {
-    "@babel/runtime": "^7.5.1"
+    "@babel/runtime": "^7.5.1",
+    "@types/react-native": "^0.60.0",
+    "react-native-svg": "^9.5.1"
   },
   "peerDependencies": {
     "react": "^16.8.6"
