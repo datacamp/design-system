@@ -23,7 +23,7 @@
     "@emotion/styled": "^10.0.14",
     "catalog": "^3.6.0",
     "classnames": "^2.2.5",
-    "lodash": "^4.17.11",
+    "lodash": "^4.17.13",
     "prop-types": "^15.7.2",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",

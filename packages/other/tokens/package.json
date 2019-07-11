@@ -15,7 +15,7 @@
   "license": "UNLICENSED",
   "devDependencies": {
     "jest": "^24.8.0",
-    "lodash": "^4.17.11",
+    "lodash": "^4.17.13",
     "nodemon": "^1.19.1",
     "omit-deep-lodash": "^1.1.4",
     "style-dictionary": "2.8.1",

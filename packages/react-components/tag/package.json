@@ -53,7 +53,7 @@
     "@emotion/core": "^10.0.14",
     "@emotion/styled": "^10.0.14",
     "emotion": "^10.0.14",
-    "lodash": "^4.17.4",
+    "lodash": "^4.17.13",
     "prop-types": "^15.6.0"
   },
   "peerDependencies": {
