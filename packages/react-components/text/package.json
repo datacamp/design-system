@@ -35,7 +35,7 @@
     "@datacamp/waffles-tokens": "^0.5.1",
     "@emotion/core": "^10.0.14",
     "emotion": "^10.0.14",
-    "lodash": "^4.17.11",
+    "lodash": "^4.17.13",
     "prop-types": "^15.7.2"
   },
   "peerDependencies": {
