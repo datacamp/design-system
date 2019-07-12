@@ -2106,6 +2106,158 @@ Object {
       "value": "linear-gradient(-135deg, #b8eef4, #78c8de)",
     },
   },
+  "opacity": Object {
+    "10": Object {
+      "attributes": Object {
+        "category": "opacity",
+        "type": "10",
+      },
+      "name": "10",
+      "original": Object {
+        "value": 0.1,
+      },
+      "path": Array [
+        "opacity",
+        "10",
+      ],
+      "value": 0.1,
+    },
+    "100": Object {
+      "attributes": Object {
+        "category": "opacity",
+        "type": "100",
+      },
+      "name": "100",
+      "original": Object {
+        "value": 1,
+      },
+      "path": Array [
+        "opacity",
+        "100",
+      ],
+      "value": 1,
+    },
+    "20": Object {
+      "attributes": Object {
+        "category": "opacity",
+        "type": "20",
+      },
+      "name": "20",
+      "original": Object {
+        "value": 0.2,
+      },
+      "path": Array [
+        "opacity",
+        "20",
+      ],
+      "value": 0.2,
+    },
+    "30": Object {
+      "attributes": Object {
+        "category": "opacity",
+        "type": "30",
+      },
+      "name": "30",
+      "original": Object {
+        "value": 0.3,
+      },
+      "path": Array [
+        "opacity",
+        "30",
+      ],
+      "value": 0.3,
+    },
+    "40": Object {
+      "attributes": Object {
+        "category": "opacity",
+        "type": "40",
+      },
+      "name": "40",
+      "original": Object {
+        "value": 0.4,
+      },
+      "path": Array [
+        "opacity",
+        "40",
+      ],
+      "value": 0.4,
+    },
+    "50": Object {
+      "attributes": Object {
+        "category": "opacity",
+        "type": "50",
+      },
+      "name": "50",
+      "original": Object {
+        "value": 0.5,
+      },
+      "path": Array [
+        "opacity",
+        "50",
+      ],
+      "value": 0.5,
+    },
+    "60": Object {
+      "attributes": Object {
+        "category": "opacity",
+        "type": "60",
+      },
+      "name": "60",
+      "original": Object {
+        "value": 0.6,
+      },
+      "path": Array [
+        "opacity",
+        "60",
+      ],
+      "value": 0.6,
+    },
+    "70": Object {
+      "attributes": Object {
+        "category": "opacity",
+        "type": "70",
+      },
+      "name": "70",
+      "original": Object {
+        "value": 0.7,
+      },
+      "path": Array [
+        "opacity",
+        "70",
+      ],
+      "value": 0.7,
+    },
+    "80": Object {
+      "attributes": Object {
+        "category": "opacity",
+        "type": "80",
+      },
+      "name": "80",
+      "original": Object {
+        "value": 0.8,
+      },
+      "path": Array [
+        "opacity",
+        "80",
+      ],
+      "value": 0.8,
+    },
+    "90": Object {
+      "attributes": Object {
+        "category": "opacity",
+        "type": "90",
+      },
+      "name": "90",
+      "original": Object {
+        "value": 0.9,
+      },
+      "path": Array [
+        "opacity",
+        "90",
+      ],
+      "value": 0.9,
+    },
+  },
   "size": Object {
     "border": Object {
       "radius": Object {
