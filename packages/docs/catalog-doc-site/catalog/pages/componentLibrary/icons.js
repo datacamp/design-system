@@ -115,6 +115,24 @@ export default () => {
           </div>
 
           <div className="dc-card dc-u-p-24 dc-u-mt-8">
+            <h4>React-native</h4>
+            <p>
+              There are also react-native versions of all these icons. These can
+              be used in the same ways as on web, the only difference being that
+              instead of <code>className</code>, the <code>style</code> prop can
+              be used to add custom styling. These components can be imported as
+              follows:
+            </p>
+            <pre>
+              <code>
+                {
+                  "import { AddCircleIcon } from '@datacamp/waffles-icons/mobile';"
+                }
+              </code>
+            </pre>
+          </div>
+
+          <div className="dc-card dc-u-p-24 dc-u-mt-8">
             <h4>Sprites</h4>
             <p>
               For those that cannot use react components, there are also svg
