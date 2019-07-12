@@ -15,11 +15,11 @@
     "babel-plugin-typescript-to-proptypes": "^0.17.1"
   },
   "devDependencies": {
-    "@babel/core": "^7.5.0",
+    "@babel/core": "^7.5.4",
     "typescript": "^3.5.2"
   },
   "peerDependencies": {
-    "@babel/core": "^7.5.0",
+    "@babel/core": "^7.5.4",
     "@babel/runtime": "^7.5.1",
     "typescript": "^3.5.2"
   }
