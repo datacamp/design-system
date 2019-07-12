@@ -38,7 +38,7 @@ module.exports = dictionary => {
       fontSize => (_.isString(fontSize) ? fontSize : `${fontSize}rem`)
     ),
     fontWeight: _.mapValues(
-      extractValues(dictionary.properties.size.fontWeight),
+      extractValues(dictionary.properties.fontWeight),
       fontWeight => `${fontWeight}`
     ),
     gradients: extractValues(dictionary.properties.gradient),

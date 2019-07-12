@@ -1876,6 +1876,53 @@ Object {
       },
     },
   },
+  "fontWeight": Object {
+    "bold": Object {
+      "attributes": Object {
+        "category": "fontWeight",
+        "type": "bold",
+      },
+      "name": "bold",
+      "original": Object {
+        "value": 700,
+      },
+      "path": Array [
+        "fontWeight",
+        "bold",
+      ],
+      "value": 700,
+    },
+    "light": Object {
+      "attributes": Object {
+        "category": "fontWeight",
+        "type": "light",
+      },
+      "name": "light",
+      "original": Object {
+        "value": 300,
+      },
+      "path": Array [
+        "fontWeight",
+        "light",
+      ],
+      "value": 300,
+    },
+    "regular": Object {
+      "attributes": Object {
+        "category": "fontWeight",
+        "type": "regular",
+      },
+      "name": "regular",
+      "original": Object {
+        "value": 400,
+      },
+      "path": Array [
+        "fontWeight",
+        "regular",
+      ],
+      "value": 400,
+    },
+  },
   "gradient": Object {
     "blueLight": Object {
       "attributes": Object {
@@ -2495,59 +2542,6 @@ Object {
           "base",
         ],
         "value": "16px",
-      },
-    },
-    "fontWeight": Object {
-      "bold": Object {
-        "attributes": Object {
-          "category": "size",
-          "item": "bold",
-          "type": "fontWeight",
-        },
-        "name": "bold",
-        "original": Object {
-          "value": 700,
-        },
-        "path": Array [
-          "size",
-          "fontWeight",
-          "bold",
-        ],
-        "value": 700,
-      },
-      "light": Object {
-        "attributes": Object {
-          "category": "size",
-          "item": "light",
-          "type": "fontWeight",
-        },
-        "name": "light",
-        "original": Object {
-          "value": 300,
-        },
-        "path": Array [
-          "size",
-          "fontWeight",
-          "light",
-        ],
-        "value": 300,
-      },
-      "regular": Object {
-        "attributes": Object {
-          "category": "size",
-          "item": "regular",
-          "type": "fontWeight",
-        },
-        "name": "regular",
-        "original": Object {
-          "value": 400,
-        },
-        "path": Array [
-          "size",
-          "fontWeight",
-          "regular",
-        ],
-        "value": 400,
       },
     },
     "spatial": Object {

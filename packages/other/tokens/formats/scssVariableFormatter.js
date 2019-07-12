@@ -89,7 +89,7 @@ module.exports = ({ properties }) => {
     valueTransform: ({ value }) => (_.isString(value) ? value : `${value}rem`),
   });
 
-  const fontWeight = generateVariables(properties.size.fontWeight, {
+  const fontWeight = generateVariables(properties.fontWeight, {
     prefix: 'font-weight',
   });
 
