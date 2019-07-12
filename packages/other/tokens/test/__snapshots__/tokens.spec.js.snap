@@ -2106,6 +2106,38 @@ Object {
       "value": "linear-gradient(-135deg, #b8eef4, #78c8de)",
     },
   },
+  "lineHeight": Object {
+    "base": Object {
+      "attributes": Object {
+        "category": "lineHeight",
+        "type": "base",
+      },
+      "name": "base",
+      "original": Object {
+        "value": "1.5",
+      },
+      "path": Array [
+        "lineHeight",
+        "base",
+      ],
+      "value": "1.5",
+    },
+    "heading": Object {
+      "attributes": Object {
+        "category": "lineHeight",
+        "type": "heading",
+      },
+      "name": "heading",
+      "original": Object {
+        "value": "1.25",
+      },
+      "path": Array [
+        "lineHeight",
+        "heading",
+      ],
+      "value": "1.25",
+    },
+  },
   "opacity": Object {
     "10": Object {
       "attributes": Object {
@@ -2516,42 +2548,6 @@ Object {
           "regular",
         ],
         "value": 400,
-      },
-    },
-    "lineHeight": Object {
-      "base": Object {
-        "attributes": Object {
-          "category": "size",
-          "item": "base",
-          "type": "lineHeight",
-        },
-        "name": "base",
-        "original": Object {
-          "value": "1.5",
-        },
-        "path": Array [
-          "size",
-          "lineHeight",
-          "base",
-        ],
-        "value": "1.5",
-      },
-      "heading": Object {
-        "attributes": Object {
-          "category": "size",
-          "item": "heading",
-          "type": "lineHeight",
-        },
-        "name": "heading",
-        "original": Object {
-          "value": "1.25",
-        },
-        "path": Array [
-          "size",
-          "lineHeight",
-          "heading",
-        ],
-        "value": "1.25",
       },
     },
     "spatial": Object {

@@ -11,10 +11,7 @@
       "700": { "value": 2, "attributes": { "legacyName": "h2" } },
       "800": { "value": 2.5, "attributes": { "legacyName": "h1" } }
     },
-    "lineHeight": {
-      "base": { "value": "1.5" },
-      "heading": { "value": "1.25" }
-    },
+
     "fontWeight": {
       "bold": { "value": 700 },
       "light": { "value": 300 },

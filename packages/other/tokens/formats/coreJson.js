@@ -42,7 +42,7 @@ module.exports = dictionary => {
       fontWeight => `${fontWeight}`
     ),
     gradients: extractValues(dictionary.properties.gradient),
-    lineHeight: extractValues(dictionary.properties.size.lineHeight),
+    lineHeight: extractValues(dictionary.properties.lineHeight),
     spatial: {
       angles: extractValueArray(dictionary.properties.size.spatial.angle).join(
         ' '

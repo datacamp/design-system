@@ -93,7 +93,7 @@ module.exports = ({ properties }) => {
     prefix: 'font-weight',
   });
 
-  const lineHeight = generateVariables(properties.size.lineHeight, {
+  const lineHeight = generateVariables(properties.lineHeight, {
     prefix: 'line-height',
   });
 
