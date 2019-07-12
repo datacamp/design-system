@@ -2544,450 +2544,247 @@ Object {
         "value": "16px",
       },
     },
-    "spatial": Object {
-      "angle": Object {
-        "180": Object {
-          "attributes": Object {
-            "category": "size",
-            "item": "angle",
-            "subitem": "180",
-            "type": "spatial",
-          },
-          "name": "180",
-          "original": Object {
-            "value": "180",
-          },
-          "path": Array [
-            "size",
-            "spatial",
-            "angle",
-            "180",
-          ],
-          "value": "180",
+    "space": Object {
+      "0": Object {
+        "attributes": Object {
+          "category": "size",
+          "item": "0",
+          "type": "space",
         },
-        "270": Object {
-          "attributes": Object {
-            "category": "size",
-            "item": "angle",
-            "subitem": "270",
-            "type": "spatial",
-          },
-          "name": "270",
-          "original": Object {
-            "value": "270",
-          },
-          "path": Array [
-            "size",
-            "spatial",
-            "angle",
-            "270",
-          ],
-          "value": "270",
+        "name": "0",
+        "original": Object {
+          "value": 0,
         },
-        "30": Object {
-          "attributes": Object {
-            "category": "size",
-            "item": "angle",
-            "subitem": "30",
-            "type": "spatial",
-          },
-          "name": "30",
-          "original": Object {
-            "value": "30",
-          },
-          "path": Array [
-            "size",
-            "spatial",
-            "angle",
-            "30",
-          ],
-          "value": "30",
-        },
-        "360": Object {
-          "attributes": Object {
-            "category": "size",
-            "item": "angle",
-            "subitem": "360",
-            "type": "spatial",
-          },
-          "name": "360",
-          "original": Object {
-            "value": "360",
-          },
-          "path": Array [
-            "size",
-            "spatial",
-            "angle",
-            "360",
-          ],
-          "value": "360",
-        },
-        "45": Object {
-          "attributes": Object {
-            "category": "size",
-            "item": "angle",
-            "subitem": "45",
-            "type": "spatial",
-          },
-          "name": "45",
-          "original": Object {
-            "value": "45",
-          },
-          "path": Array [
-            "size",
-            "spatial",
-            "angle",
-            "45",
-          ],
-          "value": "45",
-        },
-        "60": Object {
-          "attributes": Object {
-            "category": "size",
-            "item": "angle",
-            "subitem": "60",
-            "type": "spatial",
-          },
-          "name": "60",
-          "original": Object {
-            "value": "60",
-          },
-          "path": Array [
-            "size",
-            "spatial",
-            "angle",
-            "60",
-          ],
-          "value": "60",
-        },
-        "90": Object {
-          "attributes": Object {
-            "category": "size",
-            "item": "angle",
-            "subitem": "90",
-            "type": "spatial",
-          },
-          "name": "90",
-          "original": Object {
-            "value": "90",
-          },
-          "path": Array [
-            "size",
-            "spatial",
-            "angle",
-            "90",
-          ],
-          "value": "90",
-        },
+        "path": Array [
+          "size",
+          "space",
+          "0",
+        ],
+        "value": 0,
       },
-      "commonSize": Object {
-        "12": Object {
-          "attributes": Object {
-            "category": "size",
-            "item": "commonSize",
-            "subitem": "12",
-            "type": "spatial",
-          },
-          "name": "12",
-          "original": Object {
-            "value": "{size.spatial.size.12.value}",
-          },
-          "path": Array [
-            "size",
-            "spatial",
-            "commonSize",
-            "12",
-          ],
+      "12": Object {
+        "attributes": Object {
+          "category": "size",
+          "item": "12",
+          "type": "space",
+        },
+        "name": "12",
+        "original": Object {
           "value": 12,
         },
-        "16": Object {
-          "attributes": Object {
-            "category": "size",
-            "item": "commonSize",
-            "subitem": "16",
-            "type": "spatial",
-          },
-          "name": "16",
-          "original": Object {
-            "value": "{size.spatial.size.16.value}",
-          },
-          "path": Array [
-            "size",
-            "spatial",
-            "commonSize",
-            "16",
-          ],
+        "path": Array [
+          "size",
+          "space",
+          "12",
+        ],
+        "value": 12,
+      },
+      "128": Object {
+        "attributes": Object {
+          "category": "size",
+          "item": "128",
+          "type": "space",
+        },
+        "name": "128",
+        "original": Object {
+          "value": 128,
+        },
+        "path": Array [
+          "size",
+          "space",
+          "128",
+        ],
+        "value": 128,
+      },
+      "16": Object {
+        "attributes": Object {
+          "category": "size",
+          "item": "16",
+          "type": "space",
+        },
+        "name": "16",
+        "original": Object {
           "value": 16,
         },
-        "24": Object {
-          "attributes": Object {
-            "category": "size",
-            "item": "commonSize",
-            "subitem": "24",
-            "type": "spatial",
-          },
-          "name": "24",
-          "original": Object {
-            "value": "{size.spatial.size.24.value}",
-          },
-          "path": Array [
-            "size",
-            "spatial",
-            "commonSize",
-            "24",
-          ],
+        "path": Array [
+          "size",
+          "space",
+          "16",
+        ],
+        "value": 16,
+      },
+      "2": Object {
+        "attributes": Object {
+          "category": "size",
+          "item": "2",
+          "type": "space",
+        },
+        "name": "2",
+        "original": Object {
+          "value": 2,
+        },
+        "path": Array [
+          "size",
+          "space",
+          "2",
+        ],
+        "value": 2,
+      },
+      "24": Object {
+        "attributes": Object {
+          "category": "size",
+          "item": "24",
+          "type": "space",
+        },
+        "name": "24",
+        "original": Object {
           "value": 24,
         },
-        "32": Object {
-          "attributes": Object {
-            "category": "size",
-            "item": "commonSize",
-            "subitem": "32",
-            "type": "spatial",
-          },
-          "name": "32",
-          "original": Object {
-            "value": "{size.spatial.size.32.value}",
-          },
-          "path": Array [
-            "size",
-            "spatial",
-            "commonSize",
-            "32",
-          ],
+        "path": Array [
+          "size",
+          "space",
+          "24",
+        ],
+        "value": 24,
+      },
+      "32": Object {
+        "attributes": Object {
+          "category": "size",
+          "item": "32",
+          "type": "space",
+        },
+        "name": "32",
+        "original": Object {
           "value": 32,
         },
-        "36": Object {
-          "attributes": Object {
-            "category": "size",
-            "item": "commonSize",
-            "subitem": "36",
-            "type": "spatial",
-          },
-          "name": "36",
-          "original": Object {
-            "value": "{size.spatial.size.36.value}",
-          },
-          "path": Array [
-            "size",
-            "spatial",
-            "commonSize",
-            "36",
-          ],
+        "path": Array [
+          "size",
+          "space",
+          "32",
+        ],
+        "value": 32,
+      },
+      "36": Object {
+        "attributes": Object {
+          "category": "size",
+          "item": "36",
+          "type": "space",
+        },
+        "name": "36",
+        "original": Object {
           "value": 36,
         },
-        "48": Object {
-          "attributes": Object {
-            "category": "size",
-            "item": "commonSize",
-            "subitem": "48",
-            "type": "spatial",
-          },
-          "name": "48",
-          "original": Object {
-            "value": "{size.spatial.size.48.value}",
-          },
-          "path": Array [
-            "size",
-            "spatial",
-            "commonSize",
-            "48",
-          ],
+        "path": Array [
+          "size",
+          "space",
+          "36",
+        ],
+        "value": 36,
+      },
+      "4": Object {
+        "attributes": Object {
+          "category": "size",
+          "item": "4",
+          "type": "space",
+        },
+        "name": "4",
+        "original": Object {
+          "value": 4,
+        },
+        "path": Array [
+          "size",
+          "space",
+          "4",
+        ],
+        "value": 4,
+      },
+      "48": Object {
+        "attributes": Object {
+          "category": "size",
+          "item": "48",
+          "type": "space",
+        },
+        "name": "48",
+        "original": Object {
           "value": 48,
         },
-        "64": Object {
-          "attributes": Object {
-            "category": "size",
-            "item": "commonSize",
-            "subitem": "64",
-            "type": "spatial",
-          },
-          "name": "64",
-          "original": Object {
-            "value": "{size.spatial.size.64.value}",
-          },
-          "path": Array [
-            "size",
-            "spatial",
-            "commonSize",
-            "64",
-          ],
+        "path": Array [
+          "size",
+          "space",
+          "48",
+        ],
+        "value": 48,
+      },
+      "64": Object {
+        "attributes": Object {
+          "category": "size",
+          "item": "64",
+          "type": "space",
+        },
+        "name": "64",
+        "original": Object {
           "value": 64,
         },
-        "8": Object {
-          "attributes": Object {
-            "category": "size",
-            "item": "commonSize",
-            "subitem": "8",
-            "type": "spatial",
-          },
-          "name": "8",
-          "original": Object {
-            "value": "{size.spatial.size.8.value}",
-          },
-          "path": Array [
-            "size",
-            "spatial",
-            "commonSize",
-            "8",
-          ],
+        "path": Array [
+          "size",
+          "space",
+          "64",
+        ],
+        "value": 64,
+      },
+      "8": Object {
+        "attributes": Object {
+          "category": "size",
+          "item": "8",
+          "type": "space",
+        },
+        "name": "8",
+        "original": Object {
           "value": 8,
         },
+        "path": Array [
+          "size",
+          "space",
+          "8",
+        ],
+        "value": 8,
       },
-      "measure": Object {
-        "160": Object {
-          "attributes": Object {
-            "category": "size",
-            "item": "measure",
-            "subitem": "160",
-            "type": "spatial",
-          },
-          "name": "160",
-          "original": Object {
-            "value": "160",
-          },
-          "path": Array [
-            "size",
-            "spatial",
-            "measure",
-            "160",
-          ],
-          "value": "160",
+      "80": Object {
+        "attributes": Object {
+          "category": "size",
+          "item": "80",
+          "type": "space",
         },
-        "192": Object {
-          "attributes": Object {
-            "category": "size",
-            "item": "measure",
-            "subitem": "192",
-            "type": "spatial",
-          },
-          "name": "192",
-          "original": Object {
-            "value": "192",
-          },
-          "path": Array [
-            "size",
-            "spatial",
-            "measure",
-            "192",
-          ],
-          "value": "192",
+        "name": "80",
+        "original": Object {
+          "value": 80,
         },
-        "256": Object {
-          "attributes": Object {
-            "category": "size",
-            "item": "measure",
-            "subitem": "256",
-            "type": "spatial",
-          },
-          "name": "256",
-          "original": Object {
-            "value": "256",
-          },
-          "path": Array [
-            "size",
-            "spatial",
-            "measure",
-            "256",
-          ],
-          "value": "256",
-        },
-        "320": Object {
-          "attributes": Object {
-            "category": "size",
-            "item": "measure",
-            "subitem": "320",
-            "type": "spatial",
-          },
-          "name": "320",
-          "original": Object {
-            "value": "320",
-          },
-          "path": Array [
-            "size",
-            "spatial",
-            "measure",
-            "320",
-          ],
-          "value": "320",
-        },
-        "480": Object {
-          "attributes": Object {
-            "category": "size",
-            "item": "measure",
-            "subitem": "480",
-            "type": "spatial",
-          },
-          "name": "480",
-          "original": Object {
-            "value": "480",
-          },
-          "path": Array [
-            "size",
-            "spatial",
-            "measure",
-            "480",
-          ],
-          "value": "480",
-        },
-        "640": Object {
-          "attributes": Object {
-            "category": "size",
-            "item": "measure",
-            "subitem": "640",
-            "type": "spatial",
-          },
-          "name": "640",
-          "original": Object {
-            "value": "640",
-          },
-          "path": Array [
-            "size",
-            "spatial",
-            "measure",
-            "640",
-          ],
-          "value": "640",
-        },
-        "800": Object {
-          "attributes": Object {
-            "category": "size",
-            "item": "measure",
-            "subitem": "800",
-            "type": "spatial",
-          },
-          "name": "800",
-          "original": Object {
-            "value": "800",
-          },
-          "path": Array [
-            "size",
-            "spatial",
-            "measure",
-            "800",
-          ],
-          "value": "800",
-        },
-        "960": Object {
-          "attributes": Object {
-            "category": "size",
-            "item": "measure",
-            "subitem": "960",
-            "type": "spatial",
-          },
-          "name": "960",
-          "original": Object {
-            "value": "960",
-          },
-          "path": Array [
-            "size",
-            "spatial",
-            "measure",
-            "960",
-          ],
-          "value": "960",
-        },
+        "path": Array [
+          "size",
+          "space",
+          "80",
+        ],
+        "value": 80,
       },
+      "96": Object {
+        "attributes": Object {
+          "category": "size",
+          "item": "96",
+          "type": "space",
+        },
+        "name": "96",
+        "original": Object {
+          "value": 96,
+        },
+        "path": Array [
+          "size",
+          "space",
+          "96",
+        ],
+        "value": 96,
+      },
+    },
+    "spatial": Object {
       "multiplier": Object {
         "attributes": Object {
           "category": "size",
@@ -3309,255 +3106,6 @@ Object {
             "90",
           ],
           "value": "90",
-        },
-      },
-      "size": Object {
-        "12": Object {
-          "attributes": Object {
-            "category": "size",
-            "item": "size",
-            "subitem": "12",
-            "type": "spatial",
-          },
-          "name": "12",
-          "original": Object {
-            "value": 12,
-          },
-          "path": Array [
-            "size",
-            "spatial",
-            "size",
-            "12",
-          ],
-          "value": 12,
-        },
-        "128": Object {
-          "attributes": Object {
-            "category": "size",
-            "item": "size",
-            "subitem": "128",
-            "type": "spatial",
-          },
-          "name": "128",
-          "original": Object {
-            "value": 128,
-          },
-          "path": Array [
-            "size",
-            "spatial",
-            "size",
-            "128",
-          ],
-          "value": 128,
-        },
-        "16": Object {
-          "attributes": Object {
-            "category": "size",
-            "item": "size",
-            "subitem": "16",
-            "type": "spatial",
-          },
-          "name": "16",
-          "original": Object {
-            "value": 16,
-          },
-          "path": Array [
-            "size",
-            "spatial",
-            "size",
-            "16",
-          ],
-          "value": 16,
-        },
-        "2": Object {
-          "attributes": Object {
-            "category": "size",
-            "item": "size",
-            "subitem": "2",
-            "type": "spatial",
-          },
-          "name": "2",
-          "original": Object {
-            "value": 2,
-          },
-          "path": Array [
-            "size",
-            "spatial",
-            "size",
-            "2",
-          ],
-          "value": 2,
-        },
-        "24": Object {
-          "attributes": Object {
-            "category": "size",
-            "item": "size",
-            "subitem": "24",
-            "type": "spatial",
-          },
-          "name": "24",
-          "original": Object {
-            "value": 24,
-          },
-          "path": Array [
-            "size",
-            "spatial",
-            "size",
-            "24",
-          ],
-          "value": 24,
-        },
-        "32": Object {
-          "attributes": Object {
-            "category": "size",
-            "item": "size",
-            "subitem": "32",
-            "type": "spatial",
-          },
-          "name": "32",
-          "original": Object {
-            "value": 32,
-          },
-          "path": Array [
-            "size",
-            "spatial",
-            "size",
-            "32",
-          ],
-          "value": 32,
-        },
-        "36": Object {
-          "attributes": Object {
-            "category": "size",
-            "item": "size",
-            "subitem": "36",
-            "type": "spatial",
-          },
-          "name": "36",
-          "original": Object {
-            "value": 36,
-          },
-          "path": Array [
-            "size",
-            "spatial",
-            "size",
-            "36",
-          ],
-          "value": 36,
-        },
-        "4": Object {
-          "attributes": Object {
-            "category": "size",
-            "item": "size",
-            "subitem": "4",
-            "type": "spatial",
-          },
-          "name": "4",
-          "original": Object {
-            "value": 4,
-          },
-          "path": Array [
-            "size",
-            "spatial",
-            "size",
-            "4",
-          ],
-          "value": 4,
-        },
-        "48": Object {
-          "attributes": Object {
-            "category": "size",
-            "item": "size",
-            "subitem": "48",
-            "type": "spatial",
-          },
-          "name": "48",
-          "original": Object {
-            "value": 48,
-          },
-          "path": Array [
-            "size",
-            "spatial",
-            "size",
-            "48",
-          ],
-          "value": 48,
-        },
-        "64": Object {
-          "attributes": Object {
-            "category": "size",
-            "item": "size",
-            "subitem": "64",
-            "type": "spatial",
-          },
-          "name": "64",
-          "original": Object {
-            "value": 64,
-          },
-          "path": Array [
-            "size",
-            "spatial",
-            "size",
-            "64",
-          ],
-          "value": 64,
-        },
-        "8": Object {
-          "attributes": Object {
-            "category": "size",
-            "item": "size",
-            "subitem": "8",
-            "type": "spatial",
-          },
-          "name": "8",
-          "original": Object {
-            "value": 8,
-          },
-          "path": Array [
-            "size",
-            "spatial",
-            "size",
-            "8",
-          ],
-          "value": 8,
-        },
-        "80": Object {
-          "attributes": Object {
-            "category": "size",
-            "item": "size",
-            "subitem": "80",
-            "type": "spatial",
-          },
-          "name": "80",
-          "original": Object {
-            "value": 80,
-          },
-          "path": Array [
-            "size",
-            "spatial",
-            "size",
-            "80",
-          ],
-          "value": 80,
-        },
-        "96": Object {
-          "attributes": Object {
-            "category": "size",
-            "item": "size",
-            "subitem": "96",
-            "type": "spatial",
-          },
-          "name": "96",
-          "original": Object {
-            "value": 96,
-          },
-          "path": Array [
-            "size",
-            "spatial",
-            "size",
-            "96",
-          ],
-          "value": 96,
         },
       },
       "zIndex": Object {

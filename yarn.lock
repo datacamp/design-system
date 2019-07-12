@@ -6969,6 +6969,11 @@ dedent@^0.7.0:
   resolved "https://registry.yarnpkg.com/dedent/-/dedent-0.7.0.tgz#2495ddbaf6eb874abb0e1be9df22d2e5a544326c"
   integrity sha1-JJXduvbrh0q7Dhvp3yLS5aVEMmw=
 
+deep-cleaner@1.2.1:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/deep-cleaner/-/deep-cleaner-1.2.1.tgz#abc30c05bbf79a43abaf449da50e41d89ba47890"
+  integrity sha512-/WLL2O+GnNA/t9DRagOBT7ckJnfz5wV/8TqLo5bHykcBlXPH0+PeUzd0/s2MzOQ3IiRRIFpcWVe016rCqQIhMA==
+
 deep-equal@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/deep-equal/-/deep-equal-1.0.1.tgz#f5d260292b660e084eff4cdbc9f08ad3247448b5"

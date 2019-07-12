@@ -1,8 +1,18 @@
 const _ = require('lodash');
 const tinycolor = require('tinycolor2');
 const omitDeep = require('omit-deep-lodash');
+const deepCleaner = require('deep-cleaner');
 
 const stripKeys = ['scssSortValue'];
+
+const stripDeprecatedProps = tokens => {
+  return _.mapValues(tokens, property => {
+    if (!_.has(property, 'attributes')) {
+      return stripDeprecatedProps(property);
+    }
+    return property.attributes.deprecated ? undefined : property;
+  });
+};
 
 const replaceColorValues = object =>
   _.mapValues(object, property => {
@@ -28,11 +38,12 @@ const replaceFontSizeValues = object =>
 module.exports = dictionary => {
   const { color, size } = dictionary.properties;
 
-  const fullTokens = {
+  const fullTokens = stripDeprecatedProps({
     ...dictionary.properties,
     size: { ...size, font: replaceFontSizeValues(size.font) },
     color: replaceColorValues(color), // replace color objects with string formats
-  };
-
-  return JSON.stringify(omitDeep(fullTokens, stripKeys));
+  });
+  return JSON.stringify(
+    deepCleaner(deepCleaner(omitDeep(fullTokens, stripKeys)))
+  );
 };
