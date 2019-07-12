@@ -60,9 +60,7 @@ module.exports = dictionary => {
       sizes: extractValueArray(dictionary.properties.size.spatial.size).join(
         ' '
       ),
-      zIndex: extractValueArray(dictionary.properties.size.spatial.zIndex).join(
-        ' '
-      ),
+      zIndex: extractValueArray(dictionary.properties.zIndex).join(' '),
     },
   };
   return JSON.stringify(tokens);

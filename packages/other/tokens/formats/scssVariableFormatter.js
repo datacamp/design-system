@@ -52,9 +52,7 @@ module.exports = ({ properties }) => {
     `$dc-angles: ${extractValueArray(properties.size.spatial.angle).join(
       ' '
     )};`,
-    `$dc-z-indexes: ${extractValueArray(properties.size.spatial.zIndex).join(
-      ' '
-    )};`,
+    `$dc-z-indexes: ${extractValueArray(properties.zIndex).join(' ')};`,
   ].join('\n');
 
   const colorObject = {
