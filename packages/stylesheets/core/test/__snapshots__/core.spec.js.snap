@@ -2994,11 +2994,14 @@ th {
 .dc-u-td-none {
   text-decoration: none !important; }
 .dc-u-tor-mixed {
-  text-orientation: mixed !important; }
+  -webkit-text-orientation: mixed !important;
+          text-orientation: mixed !important; }
 .dc-u-tor-sideways {
-  text-orientation: sideways !important; }
+  -webkit-text-orientation: sideways !important;
+          text-orientation: sideways !important; }
 .dc-u-tor-upright {
-  text-orientation: upright !important; }
+  -webkit-text-orientation: upright !important;
+          text-orientation: upright !important; }
 .dc-u-tof-clip {
   text-overflow: clip !important; }
 .dc-u-tof-ellipsis {
