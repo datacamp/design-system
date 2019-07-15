@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.9.2](https://github.com/datacamp/design-system/compare/@datacamp/waffles-catalog-doc-site@1.9.1...@datacamp/waffles-catalog-doc-site@1.9.2) (2019-07-15)
+
+
+### Bug Fixes
+
+* grammar on component library index page ([6bbaf89](https://github.com/datacamp/design-system/commit/6bbaf89))
+
+
+
+
+
 ## [1.9.1](https://github.com/datacamp/design-system/compare/@datacamp/waffles-catalog-doc-site@1.9.0...@datacamp/waffles-catalog-doc-site@1.9.1) (2019-07-15)
 
 
