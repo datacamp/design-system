@@ -118,7 +118,7 @@ export default () => {
             <h4>React-native</h4>
             <p>
               There are also react-native versions of all these icons. These can
-              be used in the same ways as on web, the only difference being that
+              be used the same way as on web, the only difference being that
               instead of <code>className</code>, the <code>style</code> prop can
               be used to add custom styling. These components can be imported as
               follows:
