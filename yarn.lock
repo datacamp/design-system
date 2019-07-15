@@ -1371,7 +1371,7 @@
   resolved "https://registry.yarnpkg.com/@hapi/hoek/-/hoek-8.0.2.tgz#f63a5ff00e891a4e7aa98f11119f9515c6672032"
   integrity sha512-O6o6mrV4P65vVccxymuruucb+GhP2zl9NLCG8OdoFRS8BEGw3vwpPp20wpAtpbQQxz1CEUtmxJGgWhjq1XA3qw==
 
-"@hapi/joi@^15.0.3":
+"@hapi/joi@^15.1.0":
   version "15.1.0"
   resolved "https://registry.yarnpkg.com/@hapi/joi/-/joi-15.1.0.tgz#940cb749b5c55c26ab3b34ce362e82b6162c8e7a"
   integrity sha512-n6kaRQO8S+kepUTbXL9O/UOL788Odqs38/VOfoCrATDtTvyfiO3fgjlSRaNkHabpTLgM7qru9ifqXlXbXk8SeQ==
@@ -12113,7 +12113,7 @@ mini-css-extract-plugin@0.7.0, mini-css-extract-plugin@^0.7.0:
     schema-utils "^1.0.0"
     webpack-sources "^1.1.0"
 
-mini-svg-data-uri@^1.0.3:
+mini-svg-data-uri@^1.1.3:
   version "1.1.3"
   resolved "https://registry.yarnpkg.com/mini-svg-data-uri/-/mini-svg-data-uri-1.1.3.tgz#9759ee5f4d89a4b724d089ce52eab4b623bfbc88"
   integrity sha512-EeKOmdzekjdPe53/GdxmUpNgDQFkNeSte6XkJmOBt4BfWL6FQ9G9RtLNh+JMjFS3LhdpSICMIkZdznjiecASHQ==
@@ -16924,16 +16924,16 @@ svg-sprite@^1.5.0:
     xpath "^0.0.27"
     yargs "^12.0.2"
 
-svg-spritemap-webpack-plugin@3.3.5:
-  version "3.3.5"
-  resolved "https://registry.yarnpkg.com/svg-spritemap-webpack-plugin/-/svg-spritemap-webpack-plugin-3.3.5.tgz#74660d6b650eb3907569a8c2bda8fc3816669773"
-  integrity sha512-IVojln2CNL+yaXsiIY/nO4fl+69+5sZjiTRdvjYy+TeP/p7OnxZu8ZU8aB6rQ7CuLmUYJUqmfu4Zhs8tjB/WJw==
+svg-spritemap-webpack-plugin@3.3.6:
+  version "3.3.6"
+  resolved "https://registry.yarnpkg.com/svg-spritemap-webpack-plugin/-/svg-spritemap-webpack-plugin-3.3.6.tgz#473402a0d12dfcf40b6e2d20f16214c0a19d39df"
+  integrity sha512-kBfzSV1IGIuBkLbtFNBnJhYekauHgWncy0X70MseDBj8M+qZrRyz8v1rBVnTv0BUzh3uPxgr4BmUB0MIy4PyPA==
   dependencies:
-    "@hapi/joi" "^15.0.3"
+    "@hapi/joi" "^15.1.0"
     glob "^7.1.4"
     html4-id "^1.0.0"
     loader-utils "^1.2.3"
-    mini-svg-data-uri "^1.0.3"
+    mini-svg-data-uri "^1.1.3"
     mkdirp "^0.5.1"
     svg4everybody "^2.1.9"
     svgo "^1.2.2"

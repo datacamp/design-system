@@ -112,9 +112,10 @@ module.exports = {
       }
     ),
 
+    // remove webpack artifact
     new RemovePlugin({
       after: {
-        include: ['ingredients.scss', '1.ingredients.scss'],
+        include: ['ingredients.scss'],
         root: 'lib',
       },
     }),
