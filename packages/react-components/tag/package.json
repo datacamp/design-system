@@ -45,7 +45,7 @@
     "jest-emotion": "^10.0.14",
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
-    "typescript": "3.5.2"
+    "typescript": "3.5.3"
   },
   "dependencies": {
     "@babel/runtime": "^7.5.4",
