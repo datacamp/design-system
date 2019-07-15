@@ -31,7 +31,7 @@ export default () => {
               The waffles component library is a collection of independent
               styled react components. To use them in applications, simply
               install the relevant package and use the components as documented
-              on its page on this site.
+              on the relevant page on this site.
             </p>
           </div>
         </section>
