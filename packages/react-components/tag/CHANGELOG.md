@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.4.0](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/tag/compare/@datacamp/waffles-tag@0.3.11...@datacamp/waffles-tag@0.4.0) (2019-07-15)
+
+
+### Features
+
+* use babel runtime in builds ([f8451ab](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/tag/commit/f8451ab))
+
+
+
+
+
 ## [0.3.11](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/tag/compare/@datacamp/waffles-tag@0.3.10...@datacamp/waffles-tag@0.3.11) (2019-07-10)
 
 **Note:** Version bump only for package @datacamp/waffles-tag

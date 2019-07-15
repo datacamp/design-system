@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.2.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-core@1.1.10...@datacamp/waffles-core@1.2.0) (2019-07-15)
+
+
+### Features
+
+* include webkit prefix for .dc-u-tor utility classes ([8ae0d38](https://github.com/datacamp/design-system/commit/8ae0d38))
+
+
+
+
+
 ## [1.1.10](https://github.com/datacamp/design-system/compare/@datacamp/waffles-core@1.1.9...@datacamp/waffles-core@1.1.10) (2019-07-10)
 
 

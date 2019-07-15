@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.10.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-storybook@1.9.0...@datacamp/waffles-storybook@1.10.0) (2019-07-15)
+
+
+### Features
+
+* add accessibility panel to storybook ([3987d26](https://github.com/datacamp/design-system/commit/3987d26))
+* use babel runtime in builds ([f8451ab](https://github.com/datacamp/design-system/commit/f8451ab))
+
+
+
+
+
 # [1.9.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-storybook@1.8.1...@datacamp/waffles-storybook@1.9.0) (2019-07-10)
 
 

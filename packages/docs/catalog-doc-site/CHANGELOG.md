@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.9.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-catalog-doc-site@1.8.0...@datacamp/waffles-catalog-doc-site@1.9.0) (2019-07-15)
+
+
+### Features
+
+* add documentation for react-native icons ([5ef0487](https://github.com/datacamp/design-system/commit/5ef0487))
+
+
+
+
+
 # [1.8.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-catalog-doc-site@1.7.1...@datacamp/waffles-catalog-doc-site@1.8.0) (2019-07-10)
 
 
