@@ -92,15 +92,6 @@ workflows:
             branches:
               only:
                 - staging
-  build_and_deploy_prod:
-    jobs:
-      - build-and-test:
-          context: org-global
-          filters:
-            branches:
-              ignore: /.*/
-            tags:
-              only: /@datacamp\/waffles-catalog-doc-site@.*/
       - deploy-doc-site:
           requires:
             - build-and-test
