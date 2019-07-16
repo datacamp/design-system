@@ -99,7 +99,7 @@ module.exports = ({ properties }) => {
     prefix: 'border',
   });
 
-  const boxShadow = generateVariables(properties.boxShadow, {
+  const boxShadow = generateVariables(properties.shadow, {
     prefix: 'box-shadow',
   });
 

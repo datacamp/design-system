@@ -8,7 +8,7 @@ module.exports = dictionary => {
   const tokens = {
     animation: extractValues(dictionary.properties.animation),
     border: extractValues(dictionary.properties.size.border),
-    boxShadow: extractValues(dictionary.properties.boxShadow),
+    boxShadow: extractValues(dictionary.properties.shadow),
     breakpoints: {
       ...extractValues(dictionary.properties.breakpoints),
       ..._.mapValues(

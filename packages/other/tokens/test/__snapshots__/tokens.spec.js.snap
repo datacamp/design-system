@@ -169,158 +169,6 @@ Object {
       },
     },
   },
-  "boxShadow": Object {
-    "border": Object {
-      "attributes": Object {
-        "category": "boxShadow",
-        "type": "border",
-      },
-      "name": "border",
-      "original": Object {
-        "value": "0 0 0 1px #e6eaeb",
-      },
-      "path": Array [
-        "boxShadow",
-        "border",
-      ],
-      "value": "0 0 0 1px #e6eaeb",
-    },
-    "color": Object {
-      "attributes": Object {
-        "category": "boxShadow",
-        "type": "color",
-      },
-      "name": "color",
-      "original": Object {
-        "value": "rgba(0, 0, 0, 0.15)",
-      },
-      "path": Array [
-        "boxShadow",
-        "color",
-      ],
-      "value": "rgba(0, 0, 0, 0.15)",
-    },
-    "lg": Object {
-      "attributes": Object {
-        "category": "boxShadow",
-        "type": "lg",
-      },
-      "name": "lg",
-      "original": Object {
-        "value": "0 3px 5px 0 {boxShadow.color.value}",
-      },
-      "path": Array [
-        "boxShadow",
-        "lg",
-      ],
-      "value": "0 3px 5px 0 rgba(0, 0, 0, 0.15)",
-    },
-    "md": Object {
-      "attributes": Object {
-        "category": "boxShadow",
-        "type": "md",
-      },
-      "name": "md",
-      "original": Object {
-        "value": "0 1px 3px 0 {boxShadow.color.value}",
-      },
-      "path": Array [
-        "boxShadow",
-        "md",
-      ],
-      "value": "0 1px 3px 0 rgba(0, 0, 0, 0.15)",
-    },
-    "sm": Object {
-      "attributes": Object {
-        "category": "boxShadow",
-        "type": "sm",
-      },
-      "name": "sm",
-      "original": Object {
-        "value": "0 1px 2px 0 {boxShadow.color.value}",
-      },
-      "path": Array [
-        "boxShadow",
-        "sm",
-      ],
-      "value": "0 1px 2px 0 rgba(0, 0, 0, 0.15)",
-    },
-    "xl": Object {
-      "attributes": Object {
-        "category": "boxShadow",
-        "type": "xl",
-      },
-      "name": "xl",
-      "original": Object {
-        "value": "0 4px 8px 0 {boxShadow.color.value}",
-      },
-      "path": Array [
-        "boxShadow",
-        "xl",
-      ],
-      "value": "0 4px 8px 0 rgba(0, 0, 0, 0.15)",
-    },
-    "xlGreen": Object {
-      "attributes": Object {
-        "category": "boxShadow",
-        "type": "xlGreen",
-      },
-      "name": "xlGreen",
-      "original": Object {
-        "value": "0 4px 8px 0 rgba(54, 213, 125, 0.3)",
-      },
-      "path": Array [
-        "boxShadow",
-        "xlGreen",
-      ],
-      "value": "0 4px 8px 0 rgba(54, 213, 125, 0.3)",
-    },
-    "xlOrange": Object {
-      "attributes": Object {
-        "category": "boxShadow",
-        "type": "xlOrange",
-      },
-      "name": "xlOrange",
-      "original": Object {
-        "value": "0 4px 8px 0 rgba(255, 148, 0, 0.3)",
-      },
-      "path": Array [
-        "boxShadow",
-        "xlOrange",
-      ],
-      "value": "0 4px 8px 0 rgba(255, 148, 0, 0.3)",
-    },
-    "xlPurple": Object {
-      "attributes": Object {
-        "category": "boxShadow",
-        "type": "xlPurple",
-      },
-      "name": "xlPurple",
-      "original": Object {
-        "value": "0 4px 8px 0 rgba(132, 104, 196, 0.3)",
-      },
-      "path": Array [
-        "boxShadow",
-        "xlPurple",
-      ],
-      "value": "0 4px 8px 0 rgba(132, 104, 196, 0.3)",
-    },
-    "xxl": Object {
-      "attributes": Object {
-        "category": "boxShadow",
-        "type": "xxl",
-      },
-      "name": "xxl",
-      "original": Object {
-        "value": "0 10px 20px 0 {boxShadow.color.value}",
-      },
-      "path": Array [
-        "boxShadow",
-        "xxl",
-      ],
-      "value": "0 10px 20px 0 rgba(0, 0, 0, 0.15)",
-    },
-  },
   "breakpoints": Object {
     "4K": Object {
       "attributes": Object {
@@ -2350,6 +2198,83 @@ Object {
         "small",
       ],
       "value": "4px",
+    },
+  },
+  "shadow": Object {
+    "border": Object {
+      "attributes": Object {
+        "category": "shadow",
+        "type": "border",
+      },
+      "name": "border",
+      "original": Object {
+        "value": "0 0 0 1px #e6eaeb",
+      },
+      "path": Array [
+        "shadow",
+        "border",
+      ],
+      "value": "0 0 0 1px #e6eaeb",
+    },
+    "lg": Object {
+      "attributes": Object {
+        "category": "shadow",
+        "type": "lg",
+      },
+      "name": "lg",
+      "original": Object {
+        "value": "0 3px 5px 0 {shadow.color.value}",
+      },
+      "path": Array [
+        "shadow",
+        "lg",
+      ],
+      "value": "0 3px 5px 0 rgba(0, 0, 0, 0.15)",
+    },
+    "md": Object {
+      "attributes": Object {
+        "category": "shadow",
+        "type": "md",
+      },
+      "name": "md",
+      "original": Object {
+        "value": "0 1px 3px 0 {shadow.color.value}",
+      },
+      "path": Array [
+        "shadow",
+        "md",
+      ],
+      "value": "0 1px 3px 0 rgba(0, 0, 0, 0.15)",
+    },
+    "sm": Object {
+      "attributes": Object {
+        "category": "shadow",
+        "type": "sm",
+      },
+      "name": "sm",
+      "original": Object {
+        "value": "0 1px 2px 0 {shadow.color.value}",
+      },
+      "path": Array [
+        "shadow",
+        "sm",
+      ],
+      "value": "0 1px 2px 0 rgba(0, 0, 0, 0.15)",
+    },
+    "xl": Object {
+      "attributes": Object {
+        "category": "shadow",
+        "type": "xl",
+      },
+      "name": "xl",
+      "original": Object {
+        "value": "0 4px 8px 0 {shadow.color.value}",
+      },
+      "path": Array [
+        "shadow",
+        "xl",
+      ],
+      "value": "0 4px 8px 0 rgba(0, 0, 0, 0.15)",
     },
   },
   "size": Object {
