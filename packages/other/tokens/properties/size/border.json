@@ -1,1 +1,7 @@
-{ "size": { "border": { "radius": { "value": "4px" } } } }
+{
+  "size": {
+    "border": {
+      "radius": { "value": "4px", "attributes": { "deprecated": true } }
+    }
+  }
+}

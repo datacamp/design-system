@@ -1,0 +1,8 @@
+{
+  "radii": {
+    "none": { "value": 0 },
+    "small": { "value": "4px" },
+    "large": { "value": "8px" },
+    "circle": { "value": "50%" }
+  }
+}

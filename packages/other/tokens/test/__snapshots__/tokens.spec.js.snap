@@ -2337,26 +2337,69 @@ Object {
       "value": 0.9,
     },
   },
-  "size": Object {
-    "border": Object {
-      "radius": Object {
-        "attributes": Object {
-          "category": "size",
-          "item": "radius",
-          "type": "border",
-        },
-        "name": "radius",
-        "original": Object {
-          "value": "4px",
-        },
-        "path": Array [
-          "size",
-          "border",
-          "radius",
-        ],
+  "radii": Object {
+    "circle": Object {
+      "attributes": Object {
+        "category": "radii",
+        "type": "circle",
+      },
+      "name": "circle",
+      "original": Object {
+        "value": "50%",
+      },
+      "path": Array [
+        "radii",
+        "circle",
+      ],
+      "value": "50%",
+    },
+    "large": Object {
+      "attributes": Object {
+        "category": "radii",
+        "type": "large",
+      },
+      "name": "large",
+      "original": Object {
+        "value": "8px",
+      },
+      "path": Array [
+        "radii",
+        "large",
+      ],
+      "value": "8px",
+    },
+    "none": Object {
+      "attributes": Object {
+        "category": "radii",
+        "type": "none",
+      },
+      "name": "none",
+      "original": Object {
+        "value": 0,
+      },
+      "path": Array [
+        "radii",
+        "none",
+      ],
+      "value": 0,
+    },
+    "small": Object {
+      "attributes": Object {
+        "category": "radii",
+        "type": "small",
+      },
+      "name": "small",
+      "original": Object {
         "value": "4px",
       },
+      "path": Array [
+        "radii",
+        "small",
+      ],
+      "value": "4px",
     },
+  },
+  "size": Object {
     "font": Object {
       "100": Object {
         "attributes": Object {
