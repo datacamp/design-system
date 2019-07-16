@@ -20,8 +20,8 @@ interface HeadingProps {
 
 const baseHeaderStyle = css({
   color: tokens.color.opaque.greyDark.value.rgb,
-  fontWeight: tokens.size.fontWeight.bold.value,
-  lineHeight: tokens.size.lineHeight.heading.value,
+  fontWeight: tokens.fontWeight.bold.value,
+  lineHeight: tokens.lineHeight.heading.value,
   margin: 0,
   [ssrSafeFirstChildSelector]: {
     marginTop: 0,
@@ -48,8 +48,8 @@ const getStyle = (size: Size, multiLine: boolean): SerializedStyles => {
       fontSize: tokens.size.font[size].value,
       marginTop:
         size === 800
-          ? tokens.size.spatial.size[24].value
-          : tokens.size.spatial.size[16].value,
+          ? tokens.size.space[24].value
+          : tokens.size.space[16].value,
     }
   );
 };

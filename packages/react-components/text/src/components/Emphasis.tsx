@@ -13,8 +13,8 @@ interface EmphasisProps {
 
 const emphasisStyle = css(baseStyle, {
   fontStyle: 'italic',
-  fontWeight: tokens.size.fontWeight.regular.value,
-  lineHeight: tokens.size.font.base.value,
+  fontWeight: tokens.fontWeight.regular.value,
+  lineHeight: tokens.size.font[300].value,
 });
 
 const Emphasis: React.FC<EmphasisProps> = ({

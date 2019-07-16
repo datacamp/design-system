@@ -7,7 +7,7 @@ const boldItalic = css(
     '@font-face': {
       fontFamily: tokens.asset.font.sansSerif.value,
       fontStyle: 'italic',
-      fontWeight: tokens.size.fontWeight.bold.value,
+      fontWeight: tokens.fontWeight.bold.value,
       src:
         "local('Lato Bold Italic'), local('Lato-BoldItalic'), url(https://fonts.gstatic.com/s/lato/v14/AcvTq8Q0lyKKNxRlL28Rn4X0hVgzZQUfRDuZrPvH3D8.woff2) format('woff2'), url(https://fonts.gstatic.com/s/lato/v14/AcvTq8Q0lyKKNxRlL28Rnz8E0i7KZn-EPnyo3HZu7kw.woff) format('woff')",
       unicodeRange:
@@ -19,7 +19,7 @@ const boldItalic = css(
     '@font-face': {
       fontFamily: tokens.asset.font.sansSerif.value,
       fontStyle: 'italic',
-      fontWeight: tokens.size.fontWeight.bold.value,
+      fontWeight: tokens.fontWeight.bold.value,
       src:
         "local('Lato Bold Italic'), local('Lato-BoldItalic'), url(https://fonts.gstatic.com/s/lato/v14/HkF_qI1x_noxlxhrhMQYEJBw1xU1rKptJj_0jans920.woff2) format('woff2'), url(https://fonts.gstatic.com/s/lato/v14/AcvTq8Q0lyKKNxRlL28Rnz8E0i7KZn-EPnyo3HZu7kw.woff) format('woff')",
       unicodeRange:
@@ -34,7 +34,7 @@ const boldNormal = css(
     '@font-face': {
       fontFamily: tokens.asset.font.sansSerif.value,
       fontStyle: 'normal',
-      fontWeight: tokens.size.fontWeight.bold.value,
+      fontWeight: tokens.fontWeight.bold.value,
       src:
         "local('Lato Bold'), local('Lato-Bold'), url(https://fonts.gstatic.com/s/lato/v14/rZPI2gHXi8zxUjnybc2ZQFKPGs1ZzpMvnHX-7fPOuAc.woff2) format('woff2'), url(https://fonts.gstatic.com/s/lato/v14/I1Pn3gihk5vyP0Yw5GqKsQ.woff) format('woff')",
       unicodeRange:
@@ -46,7 +46,7 @@ const boldNormal = css(
     '@font-face': {
       fontFamily: tokens.asset.font.sansSerif.value,
       fontStyle: 'normal',
-      fontWeight: tokens.size.fontWeight.bold.value,
+      fontWeight: tokens.fontWeight.bold.value,
       src:
         "local('Lato Bold'), local('Lato-Bold'), url(https://fonts.gstatic.com/s/lato/v14/MgNNr5y1C_tIEuLEmicLmwLUuEpTyoUstqEm5AMlJo4.woff2) format('woff2'), url(https://fonts.gstatic.com/s/lato/v14/I1Pn3gihk5vyP0Yw5GqKsQ.woff) format('woff')",
       unicodeRange:

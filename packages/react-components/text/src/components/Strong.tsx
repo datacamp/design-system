@@ -12,7 +12,7 @@ interface StrongProps {
 }
 
 const strongStyle = css(baseStyle, {
-  fontWeight: tokens.size.fontWeight.bold.value,
+  fontWeight: tokens.fontWeight.bold.value,
   lineHeight: tokens.size.font.base.value,
 });
 

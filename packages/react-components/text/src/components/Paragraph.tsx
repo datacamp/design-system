@@ -19,10 +19,10 @@ interface ParagraphProps {
 
 const paragraphStyle = css(baseStyle, {
   fontSize: tokens.size.font[300].value,
-  fontWeight: tokens.size.fontWeight.regular.value,
-  lineHeight: tokens.size.lineHeight.base.value,
+  fontWeight: tokens.fontWeight.regular.value,
+  lineHeight: tokens.lineHeight.base.value,
   margin: 0,
-  marginTop: tokens.size.spatial.size[8].value,
+  marginTop: tokens.size.space[8].value,
   [ssrSafeFirstChildSelector]: {
     marginTop: 0,
   },
