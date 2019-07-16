@@ -3,6 +3,26 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.6.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-tokens@0.5.2...@datacamp/waffles-tokens@0.6.0) (2019-07-16)
+
+
+### Features
+
+* add opacity values to future tokens ([b6e44c5](https://github.com/datacamp/design-system/commit/b6e44c5))
+* deprecate spatial in favour of space properties ([6996d5a](https://github.com/datacamp/design-system/commit/6996d5a))
+* make fontWeight first class token ([95961c3](https://github.com/datacamp/design-system/commit/95961c3))
+* make lineHeight first class token ([1278a44](https://github.com/datacamp/design-system/commit/1278a44))
+* make radii first class token ([dfc2d86](https://github.com/datacamp/design-system/commit/dfc2d86))
+* make zIndex first class token ([f77e5ea](https://github.com/datacamp/design-system/commit/f77e5ea))
+* remove animation from future-tokens ([db3779a](https://github.com/datacamp/design-system/commit/db3779a))
+* remove multiplier from future-tokens ([195fffb](https://github.com/datacamp/design-system/commit/195fffb))
+* remove percentages from future tokens ([019daff](https://github.com/datacamp/design-system/commit/019daff))
+* trim shadows in future tokens ([db62d36](https://github.com/datacamp/design-system/commit/db62d36))
+
+
+
+
+
 ## [0.5.2](https://github.com/datacamp/design-system/compare/@datacamp/waffles-tokens@0.5.1...@datacamp/waffles-tokens@0.5.2) (2019-07-15)
 
 **Note:** Version bump only for package @datacamp/waffles-tokens

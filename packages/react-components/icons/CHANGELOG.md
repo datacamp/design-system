@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.2.0](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/icons/compare/@datacamp/waffles-icons@1.1.0...@datacamp/waffles-icons@1.2.0) (2019-07-16)
+
+
+### Features
+
+* expose es module as well as common js ([8a6c9e2](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/icons/commit/8a6c9e2))
+
+
+
+
+
 # [1.1.0](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/icons/compare/@datacamp/waffles-icons@1.0.9...@datacamp/waffles-icons@1.1.0) (2019-07-15)
 
 

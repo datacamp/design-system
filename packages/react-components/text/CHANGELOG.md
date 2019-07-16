@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.9.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-text@0.8.0...@datacamp/waffles-text@0.9.0) (2019-07-16)
+
+
+### Bug Fixes
+
+* use latest tokens structure ([390650c](https://github.com/datacamp/design-system/commit/390650c))
+
+
+### Features
+
+* expose es module as well as common js ([8a6c9e2](https://github.com/datacamp/design-system/commit/8a6c9e2))
+
+
+
+
+
 # [0.8.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-text@0.7.0...@datacamp/waffles-text@0.8.0) (2019-07-15)
 
 
