@@ -7,19 +7,35 @@ const pluginTypescriptToProptypes = require('babel-plugin-typescript-to-proptype
   .default;
 const pluginTransformRuntime = require('@babel/plugin-transform-runtime');
 
+const targets = {
+  browsers: ['last 2 versions', 'Firefox ESR', 'not IE < 11'],
+};
+
 module.exports = () => ({
+  env: {
+    cjs: {
+      presets: [
+        [
+          presetEnv,
+          {
+            modules: 'cjs',
+            targets,
+          },
+        ],
+      ],
+    },
+    es: {
+      presets: [
+        [
+          presetEnv,
+          {
+            modules: false,
+            targets,
+          },
+        ],
+      ],
+    },
+  },
   plugins: [pluginLodash, pluginTypescriptToProptypes, pluginTransformRuntime],
-  presets: [
-    [
-      presetEnv,
-      {
-        targets: {
-          browsers: ['last 2 versions', 'Firefox ESR', 'not IE < 11'],
-        },
-      },
-    ],
-    presetReact,
-    presetTypescript,
-    presetCSSProp,
-  ],
+  presets: [[presetEnv], presetReact, presetTypescript, presetCSSProp],
 });

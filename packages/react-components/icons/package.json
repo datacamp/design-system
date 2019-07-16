@@ -2,6 +2,7 @@
   "name": "@datacamp/waffles-icons",
   "version": "1.1.0",
   "main": "lib/web/index.js",
+  "module": "es/web/index.js",
   "license": "ISC",
   "sideEffects": false,
   "repository": {
@@ -10,7 +11,7 @@
   },
   "scripts": {
     "build": "gulp build",
-    "clean": "rm -rf build && rm -rf lib && rm -rf sprites && rm -rf zip",
+    "clean": "rm -rf build lib sprites zip es",
     "prepare": "yarn clean && yarn build",
     "type-check": "tsc --rootDir build --noEmit"
   },

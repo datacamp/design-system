@@ -167,17 +167,26 @@ const generateTypescriptMobile = series(
 
 function transpileToJS() {
   return src('./build/**')
-    .pipe(babel({ configFile: './babel7.config.js' }))
+    .pipe(babel({ configFile: './babel7.config.js', envName: 'cjs' }))
     .pipe(dest('./lib'));
+}
+function transpileToES() {
+  return src('./build/**')
+    .pipe(babel({ configFile: './babel7.config.js', envName: 'es' }))
+    .pipe(dest('./es'));
 }
 
 function createTypings() {
   const tsProject = ts.createProject('tsconfig.json');
   const tsResult = src('./build/**').pipe(tsProject());
-  return tsResult.dts.pipe(dest('./lib'));
+  return tsResult.dts.pipe(dest('./lib')).pipe(dest('./es'));
 }
 
-const transpileTypescript = parallel(transpileToJS, createTypings);
+const transpileTypescript = parallel(
+  transpileToJS,
+  transpileToES,
+  createTypings
+);
 
 function generateSprites() {
   return loadAllSVGs()

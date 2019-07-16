@@ -2,19 +2,22 @@
   "name": "@datacamp/waffles-text",
   "version": "0.8.0",
   "main": "lib/index.js",
+  "module": "es/index.js",
+  "types": "types/index.d.ts",
   "license": "UNLICENSED",
   "sideEffects": [
     "lib/sideEffects/*"
   ],
   "scripts": {
-    "build:js": "babel src --extensions '.tsx','.ts' --out-dir lib --ignore \"src/**/*.spec.tsx\",\"src/**/*.spec.ts\" --config-file ./babel7.config.js",
-    "clean": "rm -rf lib",
-    "build:types": "tsc --rootDir src --declarationDir lib --emitDeclarationOnly",
-    "build": "yarn build:types && yarn build:js",
+    "build:cjs": "BABEL_ENV=cjs babel src --extensions '.tsx','.ts' --out-dir lib --ignore \"src/**/*.spec.tsx\",\"src/**/*.spec.ts\" --config-file ./babel7.config.js",
+    "build:es": "BABEL_ENV=es babel src --extensions '.tsx','.ts' --out-dir es --ignore \"src/**/*.spec.tsx\",\"src/**/*.spec.ts\" --config-file ./babel7.config.js",
+    "clean": "rm -rf lib es types",
+    "build:types": "tsc --rootDir src --declarationDir types --emitDeclarationOnly",
+    "build": "yarn build:types && yarn build:cjs && yarn build:es",
     "prepare": " yarn clean && yarn build",
     "test": "jest",
     "type-check": "tsc --noEmit",
-    "watch": "yarn build:js --watch"
+    "watch": "yarn build:es --watch"
   },
   "devDependencies": {
     "@babel/cli": "7.5.0",
