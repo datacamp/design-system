@@ -44,6 +44,6 @@ module.exports = dictionary => {
     color: replaceColorValues(color), // replace color objects with string formats
   });
   return JSON.stringify(
-    deepCleaner(deepCleaner(omitDeep(fullTokens, stripKeys)))
+    deepCleaner(deepCleaner(deepCleaner(omitDeep(fullTokens, stripKeys))))
   );
 };

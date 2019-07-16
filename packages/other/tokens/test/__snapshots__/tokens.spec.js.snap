@@ -2784,25 +2784,6 @@ Object {
         "value": 96,
       },
     },
-    "spatial": Object {
-      "multiplier": Object {
-        "attributes": Object {
-          "category": "size",
-          "item": "multiplier",
-          "type": "spatial",
-        },
-        "name": "multiplier",
-        "original": Object {
-          "value": "2",
-        },
-        "path": Array [
-          "size",
-          "spatial",
-          "multiplier",
-        ],
-        "value": "2",
-      },
-    },
   },
   "zIndex": Object {
     "10": Object {

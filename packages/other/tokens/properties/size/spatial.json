@@ -17,7 +17,7 @@
       "128": { "value": 128 }
     },
     "spatial": {
-      "multiplier": { "value": "2" },
+      "multiplier": { "value": "2", "attributes": { "deprecated": true } },
       "size": {
         "2": { "value": 2, "attributes": { "deprecated": true } },
         "4": { "value": 4, "attributes": { "deprecated": true } },
