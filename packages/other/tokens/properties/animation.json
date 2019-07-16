@@ -1,7 +1,13 @@
 {
   "animation": {
-    "duration": { "value": "0.3s" },
-    "ease": { "value": "cubic-bezier(0.77, 0, 0.175, 1)" },
-    "transition": { "value": "0.3s cubic-bezier(0.77, 0, 0.175, 1)" }
+    "duration": { "value": "0.3s", "attributes": { "deprecated": true } },
+    "ease": {
+      "value": "cubic-bezier(0.77, 0, 0.175, 1)",
+      "attributes": { "deprecated": true }
+    },
+    "transition": {
+      "value": "0.3s cubic-bezier(0.77, 0, 0.175, 1)",
+      "attributes": { "deprecated": true }
+    }
   }
 }

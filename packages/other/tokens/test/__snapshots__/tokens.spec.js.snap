@@ -123,53 +123,6 @@ Object {
 
 exports[`tokens generates the future-tokens 1`] = `
 Object {
-  "animation": Object {
-    "duration": Object {
-      "attributes": Object {
-        "category": "animation",
-        "type": "duration",
-      },
-      "name": "duration",
-      "original": Object {
-        "value": "0.3s",
-      },
-      "path": Array [
-        "animation",
-        "duration",
-      ],
-      "value": "0.3s",
-    },
-    "ease": Object {
-      "attributes": Object {
-        "category": "animation",
-        "type": "ease",
-      },
-      "name": "ease",
-      "original": Object {
-        "value": "cubic-bezier(0.77, 0, 0.175, 1)",
-      },
-      "path": Array [
-        "animation",
-        "ease",
-      ],
-      "value": "cubic-bezier(0.77, 0, 0.175, 1)",
-    },
-    "transition": Object {
-      "attributes": Object {
-        "category": "animation",
-        "type": "transition",
-      },
-      "name": "transition",
-      "original": Object {
-        "value": "0.3s cubic-bezier(0.77, 0, 0.175, 1)",
-      },
-      "path": Array [
-        "animation",
-        "transition",
-      ],
-      "value": "0.3s cubic-bezier(0.77, 0, 0.175, 1)",
-    },
-  },
   "asset": Object {
     "font": Object {
       "mono": Object {
