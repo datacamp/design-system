@@ -34,7 +34,7 @@
     "css-loader": "3.0.0",
     "directory-tree": "2.2.3",
     "jest": "24.8.0",
-    "mini-css-extract-plugin": "0.7.0",
+    "mini-css-extract-plugin": "0.8.0",
     "node-sass": "4.12.0",
     "node-sass-json-importer": "4.1.0",
     "omit-deep-lodash": "1.1.4",
