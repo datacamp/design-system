@@ -38,7 +38,7 @@
     "typescript": "3.5.3"
   },
   "dependencies": {
-    "@babel/runtime": "^7.5.4",
+    "@babel/runtime": "^7.5.5",
     "@types/react-native": "^0.60.2",
     "react-native-svg": "^9.5.3"
   },
