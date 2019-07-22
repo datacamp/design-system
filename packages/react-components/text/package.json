@@ -20,7 +20,7 @@
     "watch": "yarn build:es --watch"
   },
   "devDependencies": {
-    "@babel/cli": "7.5.0",
+    "@babel/cli": "7.5.5",
     "@babel/core": "7.5.5",
     "@datacamp/waffles-axe-render": "^1.1.1",
     "@datacamp/waffles-babel-preset": "^1.2.0",
