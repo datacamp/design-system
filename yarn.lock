@@ -17172,10 +17172,10 @@ svg-sprite@^1.5.0:
     xpath "^0.0.27"
     yargs "^12.0.2"
 
-svg-spritemap-webpack-plugin@3.3.6:
-  version "3.3.6"
-  resolved "https://registry.yarnpkg.com/svg-spritemap-webpack-plugin/-/svg-spritemap-webpack-plugin-3.3.6.tgz#473402a0d12dfcf40b6e2d20f16214c0a19d39df"
-  integrity sha512-kBfzSV1IGIuBkLbtFNBnJhYekauHgWncy0X70MseDBj8M+qZrRyz8v1rBVnTv0BUzh3uPxgr4BmUB0MIy4PyPA==
+svg-spritemap-webpack-plugin@3.3.7:
+  version "3.3.7"
+  resolved "https://registry.yarnpkg.com/svg-spritemap-webpack-plugin/-/svg-spritemap-webpack-plugin-3.3.7.tgz#f8b9d69c69916d01c8ea9508bdc313137c7064b0"
+  integrity sha512-rC08lsb5TjdcusL6qBbrdVYUzwIl4K9OLeqPI6QFhDS82kXjTR2tpNULU+R2dIpghvK+VkNZlBZ5nC6tieU5Hw==
   dependencies:
     "@hapi/joi" "^15.1.0"
     glob "^7.1.4"
