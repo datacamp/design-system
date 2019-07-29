@@ -32,7 +32,7 @@
     "@percy/storybook": "3.1.0",
     "@storybook/addon-a11y": "5.1.9",
     "babel-loader": "8.0.5",
-    "webpack": "4.35.3",
+    "webpack": "4.38.0",
     "webpack-bundle-analyzer": "^3.3.2"
   }
 }
