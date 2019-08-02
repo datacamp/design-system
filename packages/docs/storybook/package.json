@@ -33,6 +33,6 @@
     "@storybook/addon-a11y": "5.1.10",
     "babel-loader": "8.0.5",
     "webpack": "4.38.0",
-    "webpack-bundle-analyzer": "^3.3.2"
+    "webpack-bundle-analyzer": "3.4.1"
   }
 }
