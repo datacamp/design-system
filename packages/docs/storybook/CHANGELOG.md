@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.11.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-storybook@1.10.1...@datacamp/waffles-storybook@1.11.0) (2019-08-06)
+
+
+### Features
+
+* add bundle analyzer to storybook ([3c7c215](https://github.com/datacamp/design-system/commit/3c7c215))
+
+
+
+
+
 ## [1.10.1](https://github.com/datacamp/design-system/compare/@datacamp/waffles-storybook@1.10.0...@datacamp/waffles-storybook@1.10.1) (2019-07-16)
 
 **Note:** Version bump only for package @datacamp/waffles-storybook
