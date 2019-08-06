@@ -6,7 +6,8 @@
   "types": "types/index.d.ts",
   "license": "UNLICENSED",
   "sideEffects": [
-    "lib/sideEffects/*"
+    "lib/sideEffects/*",
+    "es/sideEffects/*"
   ],
   "scripts": {
     "build:cjs": "BABEL_ENV=cjs babel src --extensions '.tsx','.ts' --out-dir lib --ignore \"src/**/*.spec.tsx\",\"src/**/*.spec.ts\" --config-file ./babel7.config.js",
