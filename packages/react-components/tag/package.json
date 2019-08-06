@@ -43,7 +43,7 @@
     "copyfiles": "^2.1.1",
     "enzyme": "^3.10.0",
     "enzyme-adapter-react-16": "^1.14.0",
-    "enzyme-to-json": "3.3.5",
+    "enzyme-to-json": "3.4.0",
     "jest": "24.6.0",
     "jest-emotion": "^10.0.14",
     "react": "^16.6.3",
