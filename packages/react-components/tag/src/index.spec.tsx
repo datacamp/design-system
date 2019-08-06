@@ -1,5 +1,7 @@
+import '@testing-library/jest-dom/extend-expect';
+
+import axeRender from '@datacamp/waffles-axe-render';
 import { getColor, getContrastColor } from '@datacamp/waffles-core';
-import { mount } from 'enzyme';
 import { matchers } from 'jest-emotion';
 import React from 'react';
 
@@ -7,42 +9,53 @@ import Tag from '.';
 
 expect.extend(matchers);
 
+const exampleTagBody = '50XP';
+
 describe('<Tag />', () => {
-  it('creates a default tag', () => {
-    const tag = mount(<Tag>50XP</Tag>);
-    expect(tag).toMatchSnapshot();
+  it('creates a default tag', async () => {
+    const { container } = await axeRender(<Tag>{exampleTagBody}</Tag>);
+    expect(container.firstChild).toMatchSnapshot();
   });
 
-  it('sets the background color and infers text color', () => {
-    const wrapper = mount(<Tag color="red">50XP</Tag>);
+  it('sets the background color and infers text color', async () => {
+    const { getByText } = await axeRender(
+      <Tag color="red">{exampleTagBody}</Tag>
+    );
     const backgroundColor = getColor('red');
     const textColor = getContrastColor('red');
 
-    expect(wrapper).toHaveStyleRule('background-color', backgroundColor);
-    expect(wrapper).toHaveStyleRule('color', textColor);
+    expect(getByText(exampleTagBody)).toHaveStyleRule(
+      'background-color',
+      backgroundColor
+    );
+    expect(getByText(exampleTagBody)).toHaveStyleRule('color', textColor);
   });
 
-  it('sets the text color based on the property when provided', () => {
-    const wrapper = mount(<Tag textColor="red">50XP</Tag>);
+  it('sets the text color based on the property when provided', async () => {
+    const { getByText } = await axeRender(
+      <Tag textColor="red">{exampleTagBody}</Tag>
+    );
 
-    expect(wrapper).toHaveStyleRule('color', getColor('red'));
+    expect(getByText(exampleTagBody)).toHaveStyleRule('color', getColor('red'));
   });
 
-  it('has a default border radius', () => {
-    const wrapper = mount(<Tag>50XP</Tag>);
+  it('has a default border radius', async () => {
+    const { getByText } = await axeRender(<Tag>{exampleTagBody}</Tag>);
 
-    expect(wrapper).toHaveStyleRule('border-radius', '12px');
+    expect(getByText(exampleTagBody)).toHaveStyleRule('border-radius', '12px');
   });
 
-  it('sets the border radius when rounded=true', () => {
-    const wrapper = mount(<Tag rounded>50XP</Tag>);
+  it('sets the border radius when rounded=true', async () => {
+    const { getByText } = await axeRender(<Tag rounded>{exampleTagBody}</Tag>);
 
-    expect(wrapper).toHaveStyleRule('border-radius', '4px');
+    expect(getByText(exampleTagBody)).toHaveStyleRule('border-radius', '4px');
   });
 
-  it('Adds the extraClass to the className', () => {
-    const wrapper = mount(<Tag extraClass="test-class">50XP</Tag>);
+  it('Adds the extraClass to the className', async () => {
+    const { getByText } = await axeRender(
+      <Tag extraClass="test-class">{exampleTagBody}</Tag>
+    );
 
-    expect(wrapper.find('div').hasClass('test-class')).toBe(true);
+    expect(getByText(exampleTagBody)).toHaveClass('test-class');
   });
 });
