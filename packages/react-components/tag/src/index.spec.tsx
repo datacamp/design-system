@@ -10,6 +10,7 @@ import Tag from '.';
 expect.extend(matchers);
 
 const exampleTagBody = '50XP';
+const exampleDataAttributes = { test: 'example' };
 
 describe('<Tag />', () => {
   it('creates a default tag', async () => {
@@ -51,11 +52,19 @@ describe('<Tag />', () => {
     expect(getByText(exampleTagBody)).toHaveStyleRule('border-radius', '4px');
   });
 
-  it('Adds the extraClass to the className', async () => {
+  it('adds the extraClass to the className', async () => {
     const { getByText } = await axeRender(
       <Tag extraClass="test-class">{exampleTagBody}</Tag>
     );
 
     expect(getByText(exampleTagBody)).toHaveClass('test-class');
+  });
+
+  it('sets the data attributes', async () => {
+    const { getByText } = await axeRender(
+      <Tag dataAttributes={exampleDataAttributes}>{exampleTagBody}</Tag>
+    );
+
+    expect(getByText(exampleTagBody)).toHaveAttribute('data-test', 'example');
   });
 });
