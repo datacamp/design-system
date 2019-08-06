@@ -15133,10 +15133,10 @@ react-live@^2.0.1:
     react-simple-code-editor "^0.9.0"
     unescape "^0.2.0"
 
-react-native-svg@^9.5.3:
-  version "9.5.3"
-  resolved "https://registry.yarnpkg.com/react-native-svg/-/react-native-svg-9.5.3.tgz#2389f3ffd700c6441166496a1aeade31ead89c59"
-  integrity sha512-VUOe4TLz7RFdmm/XT9EH87VSwlRykx49qbwJMA+dh9eFM7KPY1qH3kEyN7uRCqJD2eE8toxt9NpjR6ByvtPNlA==
+react-native-svg@^9.6.2:
+  version "9.6.2"
+  resolved "https://registry.yarnpkg.com/react-native-svg/-/react-native-svg-9.6.2.tgz#e29b626f115230e0f0f3693887f36e60b5b01408"
+  integrity sha512-TwTEkGTe2aRh1VBemFIuc6bCvPmlVUAd2kk4HmZLuxyBDAzEAbWYFsvDSkGd9mZ06ghx1gDg+c0hrH3y0q/eDA==
 
 react-popper-tooltip@^2.8.3:
   version "2.8.3"
