@@ -22,15 +22,17 @@ const baseTagStyle = css({
 export interface TagProps {
   children: string;
   color?: string;
+  dataAttributes?: { [key: string]: string };
   extraClass?: string;
   rounded?: boolean;
   textColor?: string;
 }
 
 const Tag: React.SFC<TagProps> = ({
-  extraClass,
   children,
   color = 'primaryLightest',
+  dataAttributes = {},
+  extraClass,
   rounded = false,
   textColor,
 }) => {
@@ -46,6 +48,7 @@ const Tag: React.SFC<TagProps> = ({
         borderRadius: rounded ? '4px' : '12px',
         color: parsedTextColor,
       })}
+      dataAttributes={dataAttributes}
     >
       {children}
     </Text>
