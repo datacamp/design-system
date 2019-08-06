@@ -27,13 +27,9 @@ exports[`<Tag /> creates a default tag 1`] = `
   border-radius: 12px;
 }
 
-<Tag>
-  <StyledTagDiv>
-    <div
-      className="emotion-0 emotion-1"
-    >
-      50XP
-    </div>
-  </StyledTagDiv>
-</Tag>
+<div
+  class="emotion-0 emotion-1"
+>
+  50XP
+</div>
 `;
