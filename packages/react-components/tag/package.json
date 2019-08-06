@@ -54,7 +54,7 @@
     "@babel/runtime": "^7.5.5",
     "@datacamp/waffles-core": "^1.2.2",
     "@datacamp/waffles-tokens": "^0.6.0",
-    "@emotion/core": "^10.0.14",
+    "@emotion/core": "^10.0.15",
     "@emotion/styled": "^10.0.15",
     "emotion": "^10.0.14",
     "lodash": "^4.17.13",
