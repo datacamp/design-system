@@ -1,5 +1,6 @@
 /* @jsx jsx */
-import { jsx } from '@emotion/core'; // eslint-disable-line no-unused-vars
+import { ArrowRightIcon } from '@datacamp/waffles-icons';
+import { css, jsx } from '@emotion/core'; // eslint-disable-line no-unused-vars
 import { Page } from 'catalog';
 import React from 'react';
 
@@ -11,6 +12,9 @@ const ContainerStyle = {
   margin: '0 30px 0 40px',
   maxWidth: '1024px',
 };
+
+const arrowRightIconCss = { marginLeft: 8 };
+const arrowRightIconSize = 12;
 
 export default () => {
   return (
@@ -38,11 +42,10 @@ export default () => {
             </p>
             <a className="dc-btn dc-btn--inline" href="/content">
               View Content Guidelines
-              <span className="dc-icon dc-icon--size-12 dc-icon--flex dc-u-ml-8">
-                <svg className="dc-icon__svg">
-                  <use xlinkHref="#arrow_2_right" />
-                </svg>
-              </span>
+              <ArrowRightIcon
+                css={css(arrowRightIconCss)}
+                size={arrowRightIconSize}
+              />
             </a>
           </div>
 
@@ -55,11 +58,10 @@ export default () => {
             </p>
             <a className="dc-btn dc-btn--inline" href="/design/logo">
               View Design Guidelines
-              <span className="dc-icon dc-icon--size-12 dc-icon--flex dc-u-ml-8">
-                <svg className="dc-icon__svg">
-                  <use xlinkHref="#arrow_2_right" />
-                </svg>
-              </span>
+              <ArrowRightIcon
+                css={css(arrowRightIconCss)}
+                size={arrowRightIconSize}
+              />{' '}
             </a>
           </div>
 
@@ -76,11 +78,10 @@ export default () => {
             </p>
             <a className="dc-btn dc-btn--inline" href="/components">
               Explore Component Library
-              <span className="dc-icon dc-icon--size-12 dc-icon--flex dc-u-ml-8">
-                <svg className="dc-icon__svg">
-                  <use xlinkHref="#arrow_2_right" />
-                </svg>
-              </span>
+              <ArrowRightIcon
+                css={css(arrowRightIconCss)}
+                size={arrowRightIconSize}
+              />{' '}
             </a>
           </div>
         </section>
@@ -99,11 +100,10 @@ export default () => {
           </p>
           <a className="dc-btn dc-btn--inline" href="/articles/01-tokens">
             Read Full Article
-            <span className="dc-icon dc-icon--size-12 dc-icon--flex dc-u-ml-8">
-              <svg className="dc-icon__svg">
-                <use xlinkHref="#arrow_2_right" />
-              </svg>
-            </span>
+            <ArrowRightIcon
+              css={css(arrowRightIconCss)}
+              size={arrowRightIconSize}
+            />{' '}
           </a>
         </article>
       </Page>
