@@ -1,0 +1,81 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Card /> snapshots renders a card with elevation 0 1`] = `
+.emotion-0 {
+  background-color: rgb(255,255,255);
+  border-radius: 4px;
+  box-shadow: 0 0 0 1px #e6eaeb;
+}
+
+<div
+  class="emotion-0"
+>
+  <p>
+    example content
+  </p>
+</div>
+`;
+
+exports[`<Card /> snapshots renders a card with elevation 1 1`] = `
+.emotion-0 {
+  background-color: rgb(255,255,255);
+  border-radius: 4px;
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,0.15);
+}
+
+<div
+  class="emotion-0"
+>
+  <p>
+    example content
+  </p>
+</div>
+`;
+
+exports[`<Card /> snapshots renders a card with elevation 2 1`] = `
+.emotion-0 {
+  background-color: rgb(255,255,255);
+  border-radius: 4px;
+  box-shadow: 0 1px 3px 0 rgba(0,0,0,0.15);
+}
+
+<div
+  class="emotion-0"
+>
+  <p>
+    example content
+  </p>
+</div>
+`;
+
+exports[`<Card /> snapshots renders a card with elevation 3 1`] = `
+.emotion-0 {
+  background-color: rgb(255,255,255);
+  border-radius: 4px;
+  box-shadow: 0 3px 5px 0 rgba(0,0,0,0.15);
+}
+
+<div
+  class="emotion-0"
+>
+  <p>
+    example content
+  </p>
+</div>
+`;
+
+exports[`<Card /> snapshots renders a card with elevation 4 1`] = `
+.emotion-0 {
+  background-color: rgb(255,255,255);
+  border-radius: 4px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.15);
+}
+
+<div
+  class="emotion-0"
+>
+  <p>
+    example content
+  </p>
+</div>
+`;
