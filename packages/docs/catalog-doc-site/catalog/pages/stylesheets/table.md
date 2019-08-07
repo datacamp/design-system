@@ -1,3 +1,4 @@
+
 ## SCSS Import
 `@import @datacamp/waffles-core/scss/components/table.scss`;
 
@@ -103,7 +104,8 @@ Tables for data. These base styles will require in-app customization for column 
 ```
 
 ## Bordered
-
+ 
+ 
 ```html
 <div class="dc-table-wrapper dc-table-wrapper--bordered">
   <table class="dc-table dc-table--white">
@@ -158,7 +160,8 @@ Tables for data. These base styles will require in-app customization for column 
         <td class="dc-table__td">22/01/2018 at 09:12 am</td>
         <td class="dc-table__td">Image</td>
         <td class="dc-table__td">72 kB</td>
-        <td class="dc-table__td dc-table__td--shrink dc-table__td--icon">
+       <td class="dc-table__td"
+<td class="dc-table__td dc-table__td--shrink dc-table__td--icon">
           <svg class="dc-icon--primary" width="18" height="18">
             <use xlink:href="#download" />
           </svg>

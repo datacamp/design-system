@@ -1,9 +1,13 @@
 /* @jsx jsx */
-import { jsx } from '@emotion/core';
+import { DownloadIcon } from '@datacamp/waffles-icons';
+import { css, jsx } from '@emotion/core';
 import { Page } from 'catalog';
 import React from 'react';
 
 import CustomHeader from '../../components/CustomHeader';
+
+const downloadIconCss = css({ marginLeft: 8 });
+const downloadIconSize = 12;
 
 export default () => {
   return (
@@ -35,11 +39,7 @@ export default () => {
               href="/logo/regular.zip"
             >
               Download EPS, SVG, PNG
-              <span className="dc-icon dc-icon--size-12 dc-icon--flex dc-u-ml-8">
-                <svg className="dc-icon__svg">
-                  <use xlinkHref="#download" />
-                </svg>
-              </span>
+              <DownloadIcon css={downloadIconCss} size={downloadIconSize} />
             </a>
           </div>
 
@@ -65,11 +65,7 @@ export default () => {
               href="/logo/inverted.zip"
             >
               Download EPS, SVG, PNG
-              <span className="dc-icon dc-icon--size-12 dc-icon--flex dc-u-ml-8">
-                <svg className="dc-icon__svg">
-                  <use xlinkHref="#download" />
-                </svg>
-              </span>
+              <DownloadIcon css={downloadIconCss} size={downloadIconSize} />
             </a>
           </div>
 
@@ -95,11 +91,7 @@ export default () => {
               href="/logo/monochrome.zip"
             >
               Download EPS, SVG, PNG
-              <span className="dc-icon dc-icon--size-12 dc-icon--flex dc-u-ml-8">
-                <svg className="dc-icon__svg">
-                  <use xlinkHref="#download" />
-                </svg>
-              </span>
+              <DownloadIcon css={downloadIconCss} size={downloadIconSize} />
             </a>
           </div>
         </section>
@@ -124,11 +116,7 @@ export default () => {
               href="/logo/icon.zip"
             >
               Download EPS, SVG, PNG
-              <span className="dc-icon dc-icon--size-12 dc-icon--flex dc-u-ml-8">
-                <svg className="dc-icon__svg">
-                  <use xlinkHref="#download" />
-                </svg>
-              </span>
+              <DownloadIcon css={downloadIconCss} size={downloadIconSize} />
             </a>
           </div>
 
@@ -153,11 +141,7 @@ export default () => {
               href="/logo/icon-monochrome.zip"
             >
               Download EPS, SVG, PNG
-              <span className="dc-icon dc-icon--size-12 dc-icon--flex dc-u-ml-8">
-                <svg className="dc-icon__svg">
-                  <use xlinkHref="#download" />
-                </svg>
-              </span>
+              <DownloadIcon css={downloadIconCss} size={downloadIconSize} />
             </a>
           </div>
           <div
@@ -189,11 +173,7 @@ export default () => {
               href="/logo/business-regular.zip"
             >
               Download EPS, SVG, PNG
-              <span className="dc-icon dc-icon--size-12 dc-icon--flex dc-u-ml-8">
-                <svg className="dc-icon__svg">
-                  <use xlinkHref="#download" />
-                </svg>
-              </span>
+              <DownloadIcon css={downloadIconCss} size={downloadIconSize} />
             </a>
           </div>
 
@@ -215,11 +195,7 @@ export default () => {
               href="/logo/business-inverted.zip"
             >
               Download EPS, SVG, PNG
-              <span className="dc-icon dc-icon--size-12 dc-icon--flex dc-u-ml-8">
-                <svg className="dc-icon__svg">
-                  <use xlinkHref="#download" />
-                </svg>
-              </span>
+              <DownloadIcon css={downloadIconCss} size={downloadIconSize} />
             </a>
           </div>
 
@@ -241,11 +217,7 @@ export default () => {
               href="/logo/business-monochrome.zip"
             >
               Download EPS, SVG, PNG
-              <span className="dc-icon dc-icon--size-12 dc-icon--flex dc-u-ml-8">
-                <svg className="dc-icon__svg">
-                  <use xlinkHref="#download" />
-                </svg>
-              </span>
+              <DownloadIcon css={downloadIconCss} size={downloadIconSize} />
             </a>
           </div>
         </section>
