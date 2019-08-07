@@ -2,7 +2,7 @@
   "shadow": {
     "border": { "value": "0 0 0 1px #e6eaeb" },
     "color": {
-      "value": "rgba(0, 0, 0, 0.15)",
+      "value": "rgba(0,0,0,0.15)",
       "attributes": { "deprecated": true }
     },
     "lg": { "value": "0 3px 5px 0 {shadow.color.value}" },

@@ -13406,15 +13406,15 @@ $dc-border-radius: 4px;
 
 /** Box shadow */
 $dc-box-shadow-border: 0 0 0 1px #e6eaeb;
-$dc-box-shadow-color: rgba(0, 0, 0, 0.15);
-$dc-box-shadow-lg: 0 3px 5px 0 rgba(0, 0, 0, 0.15);
-$dc-box-shadow-md: 0 1px 3px 0 rgba(0, 0, 0, 0.15);
-$dc-box-shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.15);
-$dc-box-shadow-xl: 0 4px 8px 0 rgba(0, 0, 0, 0.15);
+$dc-box-shadow-color: rgba(0,0,0,0.15);
+$dc-box-shadow-lg: 0 3px 5px 0 rgba(0,0,0,0.15);
+$dc-box-shadow-md: 0 1px 3px 0 rgba(0,0,0,0.15);
+$dc-box-shadow-sm: 0 1px 2px 0 rgba(0,0,0,0.15);
+$dc-box-shadow-xl: 0 4px 8px 0 rgba(0,0,0,0.15);
 $dc-box-shadow-xl-green: 0 4px 8px 0 rgba(54, 213, 125, 0.3);
 $dc-box-shadow-xl-orange: 0 4px 8px 0 rgba(255, 148, 0, 0.3);
 $dc-box-shadow-xl-purple: 0 4px 8px 0 rgba(132, 104, 196, 0.3);
-$dc-box-shadow-xxl: 0 10px 20px 0 rgba(0, 0, 0, 0.15);
+$dc-box-shadow-xxl: 0 10px 20px 0 rgba(0,0,0,0.15);
 
 
 /** Animation */
@@ -14174,15 +14174,15 @@ Object {
   },
   "boxShadow": Object {
     "border": "0 0 0 1px #e6eaeb",
-    "color": "rgba(0, 0, 0, 0.15)",
-    "lg": "0 3px 5px 0 rgba(0, 0, 0, 0.15)",
-    "md": "0 1px 3px 0 rgba(0, 0, 0, 0.15)",
-    "sm": "0 1px 2px 0 rgba(0, 0, 0, 0.15)",
-    "xl": "0 4px 8px 0 rgba(0, 0, 0, 0.15)",
+    "color": "rgba(0,0,0,0.15)",
+    "lg": "0 3px 5px 0 rgba(0,0,0,0.15)",
+    "md": "0 1px 3px 0 rgba(0,0,0,0.15)",
+    "sm": "0 1px 2px 0 rgba(0,0,0,0.15)",
+    "xl": "0 4px 8px 0 rgba(0,0,0,0.15)",
     "xlGreen": "0 4px 8px 0 rgba(54, 213, 125, 0.3)",
     "xlOrange": "0 4px 8px 0 rgba(255, 148, 0, 0.3)",
     "xlPurple": "0 4px 8px 0 rgba(132, 104, 196, 0.3)",
-    "xxl": "0 10px 20px 0 rgba(0, 0, 0, 0.15)",
+    "xxl": "0 10px 20px 0 rgba(0,0,0,0.15)",
   },
   "breakpoints": Object {
     "4K": "1920px",
