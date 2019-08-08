@@ -17,6 +17,11 @@ export default {
       title: 'Tokens',
     },
     {
+      content: pageLoader(() => import('../../pages/componentLibrary/card.js')),
+      path: '/component-library/card',
+      title: 'Card',
+    },
+    {
       content: pageLoader(() =>
         import('../../pages/componentLibrary/icons.js')
       ),

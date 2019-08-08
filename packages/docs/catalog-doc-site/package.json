@@ -14,6 +14,7 @@
   },
   "dependencies": {
     "@datacamp/waffles-button": "^0.1.20",
+    "@datacamp/waffles-card": "^0.1.20",
     "@datacamp/waffles-core": "^1.2.3",
     "@datacamp/waffles-icons": "^1.2.2",
     "@datacamp/waffles-tag": "^0.6.0",
@@ -30,7 +31,6 @@
     "react-live": "^2.0.1"
   },
   "devDependencies": {
-    "@datacamp/waffles-card": "^0.1.20",
     "@datacamp/waffles-count-indicator": "^0.1.20",
     "@datacamp/waffles-dropdown": "^0.1.20",
     "@datacamp/waffles-flash-banner": "^0.1.20",

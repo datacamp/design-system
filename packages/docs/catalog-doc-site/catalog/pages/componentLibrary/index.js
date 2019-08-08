@@ -8,9 +8,9 @@ const components = [
   { docLink: '/component-library/tag', name: 'Tag', status: 'Available' },
   { docLink: '/component-library/icons', name: 'Icon', status: 'Available' },
   { docLink: '/component-library/text', name: 'Text', status: 'Available' },
+  { docLink: '/component-library/card', name: 'Card', status: 'Avilable' },
   { name: 'Pill', status: 'Planned' },
   { name: 'Badge', status: 'Planned' },
-  { name: 'Card', status: 'Planned' },
   { name: 'Table', status: 'Planned' },
 ];
 
