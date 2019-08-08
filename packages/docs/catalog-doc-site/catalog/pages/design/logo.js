@@ -5,6 +5,14 @@ import { Page } from 'catalog';
 import React from 'react';
 
 import CustomHeader from '../../components/CustomHeader';
+import businessInverted from '../../download/business-inverted.zip';
+import businessMonochrome from '../../download/business-monochrome.zip';
+import businessRegular from '../../download/business-regular.zip';
+import iconMonochrome from '../../download/icon-monochrome.zip';
+import icon from '../../download/icon.zip';
+import Inverted from '../../download/Inverted.zip';
+import Monochrome from '../../download/Monochrome.zip';
+import Regular from '../../download/Regular.zip';
 
 const downloadIconCss = css({ marginLeft: 8 });
 const downloadIconSize = 12;
@@ -36,9 +44,10 @@ export default () => {
             </p>
             <a
               className="dc-btn dc-btn--inline dc-u-mt-8"
-              href="/logo/regular.zip"
+              download="Regular.zip"
+              href={Regular}
             >
-              Download EPS, SVG, PNG
+              Download for print & web
               <DownloadIcon css={downloadIconCss} size={downloadIconSize} />
             </a>
           </div>
@@ -62,9 +71,10 @@ export default () => {
             </p>
             <a
               className="dc-btn dc-btn--inline dc-u-mt-8"
-              href="/logo/inverted.zip"
+              download="Inverted.zip"
+              href={Inverted}
             >
-              Download EPS, SVG, PNG
+              Download for print & web
               <DownloadIcon css={downloadIconCss} size={downloadIconSize} />
             </a>
           </div>
@@ -88,9 +98,10 @@ export default () => {
             </p>
             <a
               className="dc-btn dc-btn--inline dc-u-mt-8"
-              href="/logo/monochrome.zip"
+              download="Monochrome.zip"
+              href={Monochrome}
             >
-              Download EPS, SVG, PNG
+              Download for print & web
               <DownloadIcon css={downloadIconCss} size={downloadIconSize} />
             </a>
           </div>
@@ -113,9 +124,10 @@ export default () => {
             </p>
             <a
               className="dc-btn dc-btn--inline dc-u-mt-8"
-              href="/logo/icon.zip"
+              download="icon.zip"
+              href={icon}
             >
-              Download EPS, SVG, PNG
+              Download for web
               <DownloadIcon css={downloadIconCss} size={downloadIconSize} />
             </a>
           </div>
@@ -138,9 +150,10 @@ export default () => {
             </p>
             <a
               className="dc-btn dc-btn--inline dc-u-mt-8"
-              href="/logo/icon-monochrome.zip"
+              download="icon-monochrome.zip"
+              href={iconMonochrome}
             >
-              Download EPS, SVG, PNG
+              Download for web
               <DownloadIcon css={downloadIconCss} size={downloadIconSize} />
             </a>
           </div>
@@ -170,9 +183,10 @@ export default () => {
             </div>
             <a
               className="dc-btn dc-btn--inline dc-u-mt-8"
-              href="/logo/business-regular.zip"
+              download="business-regular.zip"
+              href={businessRegular}
             >
-              Download EPS, SVG, PNG
+              Download for print & web
               <DownloadIcon css={downloadIconCss} size={downloadIconSize} />
             </a>
           </div>
@@ -192,9 +206,10 @@ export default () => {
             </div>
             <a
               className="dc-btn dc-btn--inline dc-u-mt-8"
-              href="/logo/business-inverted.zip"
+              download="business-inverted.zip"
+              href={businessInverted}
             >
-              Download EPS, SVG, PNG
+              Download for print & web
               <DownloadIcon css={downloadIconCss} size={downloadIconSize} />
             </a>
           </div>
@@ -214,9 +229,10 @@ export default () => {
             </div>
             <a
               className="dc-btn dc-btn--inline dc-u-mt-8"
-              href="/logo/business-monochrome.zip"
+              download="business-monochrome.zip"
+              href={businessMonochrome}
             >
-              Download EPS, SVG, PNG
+              Download for print & web
               <DownloadIcon css={downloadIconCss} size={downloadIconSize} />
             </a>
           </div>
