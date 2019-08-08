@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.9.2](https://github.com/datacamp/design-system/compare/@datacamp/waffles-text@0.9.1...@datacamp/waffles-text@0.9.2) (2019-08-08)
+
+
+### Bug Fixes
+
+* list es module side effects ([b032559](https://github.com/datacamp/design-system/commit/b032559))
+
+
+
+
+
 ## [0.9.1](https://github.com/datacamp/design-system/compare/@datacamp/waffles-text@0.9.0...@datacamp/waffles-text@0.9.1) (2019-08-06)
 
 **Note:** Version bump only for package @datacamp/waffles-text

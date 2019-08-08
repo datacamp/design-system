@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.6.0](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/tag/compare/@datacamp/waffles-tag@0.5.1...@datacamp/waffles-tag@0.6.0) (2019-08-08)
+
+
+### Features
+
+* allow data attributes ([fe1ad95](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/tag/commit/fe1ad95))
+* use Text component to render Tag ([6d367ce](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/tag/commit/6d367ce))
+
+
+
+
+
 ## [0.5.1](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/tag/compare/@datacamp/waffles-tag@0.5.0...@datacamp/waffles-tag@0.5.1) (2019-08-06)
 
 **Note:** Version bump only for package @datacamp/waffles-tag
