@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.10.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-catalog-doc-site@1.9.5...@datacamp/waffles-catalog-doc-site@1.10.0) (2019-08-08)
+
+
+### Features
+
+* switched to icon component ([922ec1e](https://github.com/datacamp/design-system/commit/922ec1e))
+
+
+
+
+
 ## [1.9.5](https://github.com/datacamp/design-system/compare/@datacamp/waffles-catalog-doc-site@1.9.4...@datacamp/waffles-catalog-doc-site@1.9.5) (2019-08-08)
 
 **Note:** Version bump only for package @datacamp/waffles-catalog-doc-site
