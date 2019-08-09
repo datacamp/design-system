@@ -1,3 +1,7 @@
 .example-class {
   color: red !important;
 }
+
+.example-class code {
+  color: red !important;
+}
