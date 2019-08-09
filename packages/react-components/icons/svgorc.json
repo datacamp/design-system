@@ -58,7 +58,7 @@
       "name": "removeNonInheritableGroupAttrs"
     },
     {
-      "name": "removeTitle"
+      "removeTitle": false
     },
     {
       "name": "removeUnknownsAndDefaults"
