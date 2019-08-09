@@ -9,6 +9,7 @@ const babel = require('gulp-babel');
 const ts = require('gulp-typescript');
 const svgSprite = require('gulp-svg-sprite');
 const zip = require('gulp-zip');
+const svgoConfig = require('./svgorc.json');
 
 function loadAllSVGs() {
   return merge(
@@ -30,6 +31,7 @@ const commonSVGRConfig = {
   plugins: ['@svgr/plugin-svgo', '@svgr/plugin-jsx', '@svgr/plugin-prettier'],
   prettier: true,
   replaceAttrValues: { '#3AC': '{color}' },
+  svgoConfig,
 };
 
 function buildTypescriptWebComponents() {
@@ -41,8 +43,11 @@ function buildTypescriptWebComponents() {
         return svgr(content, {
           ...commonSVGRConfig,
           svgProps: {
+            'aria-hidden': '{ariaHidden}',
             className: '{className}',
             height: '{size}',
+            ref: '{ref}',
+            role: 'img',
             width: '{size}',
           },
           template({ template }, opts, { jsx }) {
@@ -50,15 +55,24 @@ function buildTypescriptWebComponents() {
               plugins: ['typescript'],
             });
             return typescriptTemplate.ast`
-              import * as React from 'react';
+            import * as React from 'react';
 
-              interface IconProps {
-                size?: 12 | 18 | 24,
-                className?: string,
-                color?: string
-              }
-
-              const ${componentName} = ({size = 18, className, color = 'currentColor'}: IconProps) => ${jsx};
+            interface IconProps {
+              size?: 12 | 18 | 24;
+              className?: string;
+              color?: string;
+              'aria-hidden'?: boolean;
+            }
+            const ${componentName} = React.forwardRef(
+              (
+                {
+                  size = 18,
+                  className,
+                  color = 'currentColor',
+                  'aria-hidden': ariaHidden = false,
+                }: IconProps,
+                ref: React.Ref<SVGSVGElement>
+              ) => ${jsx})
               export default ${componentName};
             `;
           },
