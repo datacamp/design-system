@@ -1,4 +1,5 @@
 import {
+  CodeBlock,
   Emphasis,
   Heading,
   Paragraph,
@@ -291,6 +292,32 @@ export default () => {
                     '<Paragraph>\n  <Small>\n    Here is some small text. And this contains some <Strong>strong text</Strong>. And <Emphasis>here is some emphasized text</Emphasis>\n  </Small>\n</Paragraph>'
                   }
                   scope={{ Emphasis, Paragraph, Small, Strong }}
+                />
+              </tbody>
+            </table>
+          </div>
+          <div className="dc-card dc-u-p-24 dc-u-mt-8">
+            <Heading as="h3" size={500}>
+              CodeBlock
+            </Heading>
+            <Paragraph>
+              The CodeBlock component renders preformatted monospace text. It
+              can be imported as follows
+            </Paragraph>
+            <pre>
+              <code>
+                {"import { CodeBlock } from '@datacamp/waffles-text';"}
+              </code>
+            </pre>
+            <Paragraph>
+              The CodeBlock component can be used on its own. It can only take a
+              string as children. It supports all the same props as Text.
+            </Paragraph>
+            <table className="dc-table dc-table--bordered">
+              <tbody>
+                <LazyLiveEditCells
+                  code={`<CodeBlock>{\`gapminder %>%\n  filter(year == 2007) %>%\n  arrange(desc(gdpPercap))\`}\n</CodeBlock>`}
+                  scope={{ CodeBlock, Emphasis, Paragraph, Small, Strong }}
                 />
               </tbody>
             </table>
