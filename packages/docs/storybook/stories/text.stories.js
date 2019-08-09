@@ -1,6 +1,7 @@
 import './styles.css';
 
 import {
+  CodeBlock,
   Emphasis,
   Heading,
   Paragraph,
@@ -14,6 +15,65 @@ import { storiesOf } from '@storybook/react';
 import React from 'react';
 
 storiesOf('waffles-text', module)
+  .add('Flow all components', () => (
+    <>
+      <Heading as="h1" size={800} multiLine>
+        This is a Heading with size 800
+      </Heading>
+      <Paragraph>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a enim
+        quis nisi sollicitudin tincidunt in nec leo. Quisque mattis pretium
+        nulla, id malesuada nisi viverra consectetur. Donec auctor dapibus nisl
+        sit amet tempor. Integer nec diam sit amet sem sollicitudin consectetur.
+      </Paragraph>
+      <Paragraph>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a enim
+        quis nisi sollicitudin tincidunt in nec leo. Quisque mattis pretium
+        nulla, id malesuada nisi viverra consectetur. Donec auctor dapibus nisl
+        sit amet tempor. Integer nec diam sit amet sem sollicitudin consectetur.
+      </Paragraph>
+      <CodeBlock>{`this is the standard styling
+gapminder %>%
+  filter(year == 2007) %>%
+  arrange(desc(gdpPercap))`}</CodeBlock>
+      <Paragraph>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a enim
+        quis nisi sollicitudin tincidunt in nec leo. Quisque mattis pretium
+        nulla, id malesuada nisi viverra consectetur. Donec auctor dapibus nisl
+        sit amet tempor. Integer nec diam sit amet sem sollicitudin consectetur.
+      </Paragraph>
+      <CodeBlock>{`this is the standard styling
+gapminder %>%
+  filter(year == 2007) %>%
+  arrange(desc(gdpPercap))`}</CodeBlock>
+      <CodeBlock>{`this is the standard styling
+gapminder %>%
+filter(year == 2007) %>%
+arrange(desc(gdpPercap))`}</CodeBlock>
+      <Paragraph>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a enim
+        quis nisi sollicitudin tincidunt in nec leo. Quisque mattis pretium
+        nulla, id malesuada nisi viverra consectetur. Donec auctor dapibus nisl
+        sit amet tempor. Integer nec diam sit amet sem sollicitudin consectetur.
+      </Paragraph>
+      <Heading as="h2" size="800">
+        This is a heading
+      </Heading>
+      <CodeBlock>{`this is the standard styling
+gapminder %>%
+filter(year == 2007) %>%
+arrange(desc(gdpPercap))`}</CodeBlock>
+      <Heading as="h2" size="700">
+        This is a heading
+      </Heading>
+      <Paragraph>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a enim
+        quis nisi sollicitudin tincidunt in nec leo. Quisque mattis pretium
+        nulla, id malesuada nisi viverra consectetur. Donec auctor dapibus nisl
+        sit amet tempor. Integer nec diam sit amet sem sollicitudin consectetur.
+      </Paragraph>
+    </>
+  ))
   .add('Text Component', () => (
     <>
       <Text>This is the default text</Text>
@@ -209,4 +269,22 @@ storiesOf('waffles-text', module)
         </div>
       </>
     );
-  });
+  })
+  .add('CodeBlock component', () => (
+    <div css={{ height: '100%}', width: 300 }}>
+      <CodeBlock>{`this is the standard styling
+gapminder %>%
+  filter(year == 2007) %>%
+  arrange(desc(gdpPercap))`}</CodeBlock>
+      <CodeBlock className="example-class">{`font colour set with a className
+gapminder %>%
+  filter(year == 2007) %>%
+  arrange(desc(gdpPercap))`}</CodeBlock>
+      <CodeBlock
+        css={{ backgroundColor: color.opaque.greyLighter.value.rgb }}
+      >{`background colour set with css prop
+gapminder %>%
+  filter(year == 2007) %>%
+  arrange(desc(gdpPercap))`}</CodeBlock>
+    </div>
+  ));
