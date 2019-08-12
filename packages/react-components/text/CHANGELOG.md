@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.10.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-text@0.9.2...@datacamp/waffles-text@0.10.0) (2019-08-12)
+
+
+### Features
+
+* add CodeBlock component ([64e9cc6](https://github.com/datacamp/design-system/commit/64e9cc6))
+
+
+
+
+
 ## [0.9.2](https://github.com/datacamp/design-system/compare/@datacamp/waffles-text@0.9.1...@datacamp/waffles-text@0.9.2) (2019-08-08)
 
 

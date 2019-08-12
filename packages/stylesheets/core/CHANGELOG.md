@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.2.4](https://github.com/datacamp/design-system/compare/@datacamp/waffles-core@1.2.3...@datacamp/waffles-core@1.2.4) (2019-08-12)
+
+
+### Bug Fixes
+
+* remove whitespace from rgba token value ([14b4671](https://github.com/datacamp/design-system/commit/14b4671))
+
+
+
+
+
 ## [1.2.3](https://github.com/datacamp/design-system/compare/@datacamp/waffles-core@1.2.2...@datacamp/waffles-core@1.2.3) (2019-08-08)
 
 **Note:** Version bump only for package @datacamp/waffles-core

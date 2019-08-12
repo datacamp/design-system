@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.11.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-catalog-doc-site@1.10.0...@datacamp/waffles-catalog-doc-site@1.11.0) (2019-08-12)
+
+
+### Features
+
+* add docs for CodeBlock component ([dc20c9e](https://github.com/datacamp/design-system/commit/dc20c9e))
+* documentation for card component ([eda65fa](https://github.com/datacamp/design-system/commit/eda65fa))
+* print-logos ([f3417b1](https://github.com/datacamp/design-system/commit/f3417b1))
+
+
+
+
+
 # [1.10.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-catalog-doc-site@1.9.5...@datacamp/waffles-catalog-doc-site@1.10.0) (2019-08-08)
 
 

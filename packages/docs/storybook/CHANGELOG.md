@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.12.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-storybook@1.11.1...@datacamp/waffles-storybook@1.12.0) (2019-08-12)
+
+
+### Features
+
+* add CodeBlock stories ([3a6be8e](https://github.com/datacamp/design-system/commit/3a6be8e))
+* add stories for Card ([f03bae6](https://github.com/datacamp/design-system/commit/f03bae6))
+
+
+
+
+
 ## [1.11.1](https://github.com/datacamp/design-system/compare/@datacamp/waffles-storybook@1.11.0...@datacamp/waffles-storybook@1.11.1) (2019-08-08)
 
 **Note:** Version bump only for package @datacamp/waffles-storybook

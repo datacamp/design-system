@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.6.1](https://github.com/datacamp/design-system/compare/@datacamp/waffles-tokens@0.6.0...@datacamp/waffles-tokens@0.6.1) (2019-08-12)
+
+
+### Bug Fixes
+
+* remove whitespace from rgba token value ([14b4671](https://github.com/datacamp/design-system/commit/14b4671))
+
+
+
+
+
 # [0.6.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-tokens@0.5.2...@datacamp/waffles-tokens@0.6.0) (2019-07-16)
 
 
