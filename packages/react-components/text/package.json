@@ -28,7 +28,7 @@
     "@datacamp/waffles-tsconfig": "^1.1.1",
     "@testing-library/jest-dom": "4.0.0",
     "@testing-library/react": "8.0.7",
-    "@types/jest": "24.0.16",
+    "@types/jest": "24.0.17",
     "@types/lodash": "4.14.136",
     "babel-jest": "24.6.0",
     "jest": "24.6.0",
