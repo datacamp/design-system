@@ -56,7 +56,7 @@
     "eslint-plugin-sort-keys-fix": "1.0.1",
     "eslint-plugin-typescript-sort-keys": "0.4.0",
     "eslint-import-resolver-typescript": "^1.1.1",
-    "husky": "^3.0.2",
+    "husky": "^3.0.3",
     "lerna": "^3.16.4",
     "prettier": "^1.18.2",
     "typescript": "3.5.3"
