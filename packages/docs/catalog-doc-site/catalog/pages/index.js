@@ -91,14 +91,17 @@ export default () => {
           css={{ marginTop: '24px', padding: '32px', width: '65%' }}
         >
           <h5 className="dc-chapeau-title dc-u-color-grey">What&apos;s New</h5>
-          <h3 className="dc-u-mt-16 dc-u-mb-0">The Future of Tokens</h3>
+          <h3 className="dc-u-mt-16 dc-u-mb-0">Migrating Icons</h3>
           <p>
-            A new article on design tokens has been published.{' '}
-            <a href="/articles/01-tokens">The future of tokens</a> talks about
-            how design tokens are used within Waffles, and what the future
-            vision is for the <code>@datacamp/waffles-tokens</code> package.
+            A new article on migrating icons has been published.{' '}
+            <a href="/articles/02-icon-migration">Migrating Icons</a> talks
+            about how to transition from the styleguide icons to using the{' '}
+            <code>@datacamp/waffles-icons</code> package.
           </p>
-          <a className="dc-btn dc-btn--inline" href="/articles/01-tokens">
+          <a
+            className="dc-btn dc-btn--inline"
+            href="/articles/02-icon-migration"
+          >
             Read Full Article
             <ArrowRightIcon
               css={css(arrowRightIconCss)}
