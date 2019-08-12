@@ -17,6 +17,7 @@ storiesOf('waffles-card').add('elevation levels', () => (
         key={elevation}
         css={{ margin: 16, padding: 24, width: 300 }}
         elevation={elevation}
+        hoverElevation={4}
       >
         <Paragraph>This is a paragraph with some padding.</Paragraph>
       </Card>

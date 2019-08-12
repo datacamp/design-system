@@ -132,18 +132,31 @@ describe('<Card />', () => {
   });
 
   describe('snapshots', () => {
-    ((Object.keys(
-      elevationMap
-    ) as unknown) as (keyof typeof elevationMap)[]).forEach(elevation => {
-      it(`renders a card with elevation ${elevation}`, async () => {
-        const { container } = await axeRender(
-          <Card elevation={elevation}>
-            <p>example content</p>
-          </Card>
-        );
+    Object.keys(elevationMap)
+      .map(key => parseInt(key, 10))
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
+      .forEach((elevation: any) => {
+        it(`renders a card with elevation ${elevation}`, async () => {
+          const { container } = await axeRender(
+            <Card elevation={elevation}>
+              <p>example content</p>
+            </Card>
+          );
 
-        expect(container.firstChild).toMatchSnapshot();
+          expect(container.firstChild).toMatchSnapshot();
+        });
+
+        if (elevation === 0) return; // no hover snapshot for level 0
+
+        it(`renders a card with hoverElevation ${elevation}`, async () => {
+          const { container } = await axeRender(
+            <Card hoverElevation={elevation}>
+              <p>example content</p>
+            </Card>
+          );
+
+          expect(container.firstChild).toMatchSnapshot();
+        });
       });
-    });
   });
 });
