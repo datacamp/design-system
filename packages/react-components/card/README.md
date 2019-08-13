@@ -1,11 +1,3 @@
-# `card`
+# Card
 
-> TODO: description
-
-## Usage
-
-```
-const card = require('card');
-
-// TODO: DEMONSTRATE API
-```
+Usage documentation available at [waffles.datacamp.com/component-library/card](https://waffles.datacamp.com/component-library/card).
