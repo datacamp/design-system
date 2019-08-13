@@ -1547,7 +1547,7 @@
     jest-runner "^24.8.0"
     jest-runtime "^24.8.0"
 
-"@jest/transform@^24.6.0", "@jest/transform@^24.8.0":
+"@jest/transform@^24.8.0":
   version "24.8.0"
   resolved "https://registry.yarnpkg.com/@jest/transform/-/transform-24.8.0.tgz#628fb99dce4f9d254c6fd9341e3eea262e06fef5"
   integrity sha512-xBMfFUP7TortCs0O+Xtez2W7Zu1PLH9bvJgtraN1CDST6LBM/eTOZ9SfwS/lvV8yOfcDpFmwf9bq5cYbXvqsvA==
@@ -1568,7 +1568,7 @@
     source-map "^0.6.1"
     write-file-atomic "2.4.1"
 
-"@jest/types@^24.6.0", "@jest/types@^24.8.0":
+"@jest/types@^24.8.0":
   version "24.8.0"
   resolved "https://registry.yarnpkg.com/@jest/types/-/types-24.8.0.tgz#f31e25948c58f0abd8c845ae26fcea1491dea7ad"
   integrity sha512-g17UxVr2YfBtaMUxn9u/4+siG1ptg9IGYAYwvpwn61nBg779RXnjE/m7CxYcIzEt0AbHZZAHSEZNhkE2WxURVg==
@@ -4139,20 +4139,7 @@ babel-helpers@^6.24.1:
     babel-runtime "^6.22.0"
     babel-template "^6.24.1"
 
-babel-jest@24.6.0:
-  version "24.6.0"
-  resolved "https://registry.yarnpkg.com/babel-jest/-/babel-jest-24.6.0.tgz#58aa1e6a3d72fdd986644a92529f0ec7d2f1cf61"
-  integrity sha512-HpI/orChKlJZbWC2p52ghWeK+UYqU9ql+zYw+ctOr3vIuPZowcSL13RwReW5ZeYKxsRr8dZmQozGvPX93Gw1tw==
-  dependencies:
-    "@jest/transform" "^24.6.0"
-    "@jest/types" "^24.6.0"
-    "@types/babel__core" "^7.1.0"
-    babel-plugin-istanbul "^5.1.0"
-    babel-preset-jest "^24.6.0"
-    chalk "^2.4.2"
-    slash "^2.0.0"
-
-babel-jest@^24.6.0, babel-jest@^24.8.0:
+babel-jest@24.8.0, babel-jest@^24.8.0:
   version "24.8.0"
   resolved "https://registry.yarnpkg.com/babel-jest/-/babel-jest-24.8.0.tgz#5c15ff2b28e20b0f45df43fe6b7f2aae93dba589"
   integrity sha512-+5/kaZt4I9efoXzPlZASyK/lN9qdRKmmUav9smVc0ruPQD7IsfucQ87gpOE8mn2jbDuS6M/YOW6n3v9ZoIfgnw==
