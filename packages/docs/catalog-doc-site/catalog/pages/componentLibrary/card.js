@@ -38,14 +38,17 @@ export default () => {
               <code>div</code> element, but this can be overriden using the{' '}
               <code>as</code> prop. To style the card an <code>elevation</code>{' '}
               can be provided between 0 and 4, this will set the border or
-              shadow of the Card.
+              shadow of the Card. A <code>hoverElevation</code> can also be
+              applied. This will animate the card to raise it when a user
+              hovers. The <code>hoverElevation</code> should always be greater
+              than the <code>elevation</code> when provided.
             </Paragraph>
             <table className="dc-table dc-table--bordered">
               <tbody>
                 <tr>
                   <LazyLiveEditCells
                     code={
-                      '<Card as="section" elevation={0}>\n  <Paragraph>Here is some content</Paragraph>\n</Card>'
+                      '<Card as="section" elevation={0} hoverElevation={4}>\n  <Paragraph>Here is some content</Paragraph>\n</Card>'
                     }
                     scope={{ Card, Paragraph }}
                   />
