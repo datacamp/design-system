@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Markdown /> renders 1`] = `
+.emotion-0 {
+  color: rgb(77,83,86);
+  font-family: sans-serif;
+  font-family: Lato;
+  font-style: normal;
+  color: rgb(61,66,81);
+  font-weight: 700;
+  line-height: 1.25;
+  margin: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 40px;
+  margin-top: 24px;
+}
+
+.emotion-0:first-child:not(style),
+.emotion-0 style:first-child + * {
+  margin-top: 0;
+}
+
+<h1
+  class="emotion-0"
+>
+  This is an h1 tag
+</h1>
+`;
