@@ -46,7 +46,7 @@
     "copyfiles": "^2.1.1",
     "jest": "24.6.0",
     "jest-emotion": "^10.0.14",
-    "react": "^16.6.3",
+    "react": "^16.9.0",
     "react-dom": "^16.6.3",
     "typescript": "3.5.3"
   },

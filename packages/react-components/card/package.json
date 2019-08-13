@@ -38,7 +38,7 @@
     "babel-jest": "24.8.0",
     "jest": "24.6.0",
     "jest-emotion": "10.0.14",
-    "react": "16.8.6",
+    "react": "16.9.0",
     "react-dom": "16.8.6"
   },
   "dependencies": {
