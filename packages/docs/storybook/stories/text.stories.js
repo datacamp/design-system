@@ -1,6 +1,7 @@
 import './styles.css';
 
 import {
+  Code,
   CodeBlock,
   Emphasis,
   Heading,
@@ -286,5 +287,51 @@ gapminder %>%
 gapminder %>%
   filter(year == 2007) %>%
   arrange(desc(gdpPercap))`}</CodeBlock>
+    </div>
+  ))
+  .add('Code Component', () => (
+    <div css={{ height: '100%}', width: 200 }}>
+      <Paragraph>This is a paragraph containing code components</Paragraph>
+      <br />
+
+      <Paragraph>
+        This is the default code component:
+        <br />
+        We&apos;ve already loaded the <Code>Gapminder</Code>and{' '}
+        <Code>dplyr</Code>
+        packages.
+        <br />
+        Type gapminder in your <Code>R Terminal</Code>, to the right, to display
+        the object.
+      </Paragraph>
+      <br />
+
+      <Paragraph>
+        This has additional style added using a css prop:
+        <br />
+        We&apos;ve already loaded the{' '}
+        <Code css={{ color: color.opaque.primary.value.hex }}>Gapminder</Code>
+        and <Code css={{ color: color.opaque.primary.value.hex }}>dplyr</Code>
+        packages.
+        <br />
+        Type gapminder in your{' '}
+        <Code css={{ color: color.opaque.primary.value.hex }}>R Terminal</Code>,
+        to the right, to display the object.
+      </Paragraph>
+      <br />
+
+      <Paragraph>
+        This has additional style added using a className :
+        <br />
+        We&apos;ve already loaded the{' '}
+        <Code className="example-class">Gapminder</Code>
+        and <Code className="example-class">dplyr</Code>
+        packages.
+        <br />
+        Type gapminder in your <Code className="example-class">R Terminal</Code>
+        , to the right, to display the object.
+        <br />
+      </Paragraph>
+      <br />
     </div>
   ));
