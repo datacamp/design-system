@@ -28,7 +28,12 @@ function generateComponentName(fileName) {
 const commonSVGRConfig = {
   dimensions: false,
   expandProps: false,
-  plugins: ['@svgr/plugin-svgo', '@svgr/plugin-jsx', '@svgr/plugin-prettier'],
+  plugins: [
+    '@svgr/plugin-svgo',
+    '@svgr/plugin-jsx',
+    '@svgr/plugin-prettier',
+    // '@svgr/babel-plugin-svg-dynamic-title',
+  ],
   prettier: true,
   replaceAttrValues: { '#3AC': '{color}' },
   svgoConfig,
@@ -50,6 +55,7 @@ function buildTypescriptWebComponents() {
             role: 'img',
             width: '{size}',
           },
+          titleProp: true,
           template({ template }, opts, { jsx }) {
             const typescriptTemplate = template.smart({
               plugins: ['typescript'],
@@ -58,18 +64,20 @@ function buildTypescriptWebComponents() {
             import * as React from 'react';
 
             interface IconProps {
-              size?: 12 | 18 | 24;
+              'aria-hidden'?: boolean;
               className?: string;
               color?: string;
-              'aria-hidden'?: boolean;
+              size?: 12 | 18 | 24;
+              title?: string;
             }
             const ${componentName} = React.forwardRef(
               (
                 {
-                  size = 18,
+                  'aria-hidden': ariaHidden = false,
                   className,
                   color = 'currentColor',
-                  'aria-hidden': ariaHidden = false,
+                  size = 18,
+                  title,
                 }: IconProps,
                 ref: React.Ref<SVGSVGElement>
               ) => ${jsx})
