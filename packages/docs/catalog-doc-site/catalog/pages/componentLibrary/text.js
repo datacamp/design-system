@@ -1,4 +1,5 @@
 import {
+  Code,
   CodeBlock,
   Emphasis,
   Heading,
@@ -318,6 +319,31 @@ export default () => {
                 <LazyLiveEditCells
                   code={`<CodeBlock>{\`gapminder %>%\n  filter(year == 2007) %>%\n  arrange(desc(gdpPercap))\`}\n</CodeBlock>`}
                   scope={{ CodeBlock, Emphasis, Paragraph, Small, Strong }}
+                />
+              </tbody>
+            </table>
+          </div>
+          <div className="dc-card dc-u-p-24 dc-u-mt-8">
+            <Heading as="h3" size={500}>
+              Code
+            </Heading>
+            <Paragraph>
+              The Code component renders inline preformatted monospace text. It
+              can be imported as follows
+            </Paragraph>
+            <pre>
+              <code>{"import { Code } from '@datacamp/waffles-text';"}</code>
+            </pre>
+            <Paragraph>
+              The Code component should be used within a Paragraph. It can take
+              strings as children along with Strong and Emphasis components. It
+              supports all the same props as Text.
+            </Paragraph>
+            <table className="dc-table dc-table--bordered">
+              <tbody>
+                <LazyLiveEditCells
+                  code={`<Paragraph>We've already loaded the <Code>{\`Gapminder\`}</Code>and <Code>{\`dplyr\`}</Code>packages</Paragraph>`}
+                  scope={{ Code, Emphasis, Paragraph, Small, Strong }}
                 />
               </tbody>
             </table>
