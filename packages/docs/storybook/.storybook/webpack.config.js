@@ -8,6 +8,7 @@ module.exports = async ({ config, mode }) => {
     new BundleAnalyzerPlugin({
       analyzerMode: dev ? 'server' : 'static',
       openAnalyzer: dev,
+      analyzerPort: 8889,
     })
   );
   return config;
