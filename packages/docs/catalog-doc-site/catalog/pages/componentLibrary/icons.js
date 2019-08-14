@@ -35,8 +35,14 @@ export default () => {
                   {"import { AddCircleIcon } from '@datacamp/waffles-icons';"}
                 </code>
               </pre>
-              All these components accept the same set of properties as
-              described below.
+              All these components accept the same set of properties. For screen
+              readers to be able to present the icons they all include a default
+              title, however this should be overriden using the{' '}
+              <code>title</code> prop if the icon is serving a specific purpose.
+              If the icon is being used purely for decoration, and related text
+              is sufficient, set the <code>aria-hidden</code> prop to{' '}
+              <code>true</code>. This will prevent screen readers from
+              announcing its presence.
             </p>
             <table className="dc-table dc-table--bordered">
               <thead className="dc-table__thead">
