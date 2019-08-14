@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshots renders 1`] = `
+.emotion-0 {
+  border-radius: 4px;
+  color: rgb(61,66,81);
+  font-family: monospace;
+  font-family: Roboto Mono;
+  font-size: 14px;
+  -webkit-letter-spacing: 0;
+  -moz-letter-spacing: 0;
+  -ms-letter-spacing: 0;
+  letter-spacing: 0;
+  line-height: 1.5;
+  background-color: rgb(235,244,247);
+  box-shadow: 0 0 0 1px #e6eaeb;
+  margin-left: 2px;
+  margin-right: 4px;
+  padding-bottom: 0;
+  padding-left: 2px;
+  padding-right: 2px;
+  padding-top: 0;
+}
+
+<code
+  class="emotion-0"
+>
+  example code
+</code>
+`;

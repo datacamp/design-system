@@ -1,4 +1,5 @@
 import * as components from '.';
+import Code from './components/Code';
 import CodeBlock from './components/CodeBlock';
 import Emphasis from './components/Emphasis';
 import Heading from './components/Heading';
@@ -10,6 +11,7 @@ import Text from './components/Text';
 describe('index', () => {
   it('exports all the components', () => {
     expect(components).toEqual({
+      Code,
       CodeBlock,
       Emphasis,
       Heading,
