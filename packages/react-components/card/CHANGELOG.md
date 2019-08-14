@@ -3,6 +3,24 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.0.0](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/card/compare/@datacamp/waffles-card@0.2.0...@datacamp/waffles-card@1.0.0) (2019-08-14)
+
+
+### Features
+
+* add link to docsite on readme ([5450340](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/card/commit/5450340))
+* card hover state ([6b5ee6e](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/card/commit/6b5ee6e))
+
+
+### BREAKING CHANGES
+
+* not a real breaking change, just releasing as v1 of 
+component
+
+
+
+
+
 # [0.2.0](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/card/compare/@datacamp/waffles-card@0.1.20...@datacamp/waffles-card@0.2.0) (2019-08-12)
 
 

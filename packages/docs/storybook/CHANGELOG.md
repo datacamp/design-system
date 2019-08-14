@@ -3,6 +3,24 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.13.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-storybook@1.12.0...@datacamp/waffles-storybook@1.13.0) (2019-08-14)
+
+
+### Bug Fixes
+
+* used different port ([f6be9f8](https://github.com/datacamp/design-system/commit/f6be9f8))
+
+
+### Features
+
+* add stories for code component ([5dba3e7](https://github.com/datacamp/design-system/commit/5dba3e7))
+* card hover state ([6b5ee6e](https://github.com/datacamp/design-system/commit/6b5ee6e))
+* control hover state of Card component ([1d62615](https://github.com/datacamp/design-system/commit/1d62615))
+
+
+
+
+
 # [1.12.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-storybook@1.11.1...@datacamp/waffles-storybook@1.12.0) (2019-08-12)
 
 
