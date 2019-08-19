@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.3.0](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/icons/compare/@datacamp/waffles-icons@1.2.3...@datacamp/waffles-icons@1.3.0) (2019-08-19)
+
+
+### Features
+
+* add ability to override title of icon ([77c6118](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/icons/commit/77c6118))
+* add titles to all icons ([21dab10](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/icons/commit/21dab10))
+* make icons WCAG compliant ([14324e2](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/icons/commit/14324e2))
+
+
+
+
+
 ## [1.2.3](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/icons/compare/@datacamp/waffles-icons@1.2.2...@datacamp/waffles-icons@1.2.3) (2019-08-14)
 
 **Note:** Version bump only for package @datacamp/waffles-icons

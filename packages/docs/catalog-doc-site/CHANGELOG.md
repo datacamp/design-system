@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.13.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-catalog-doc-site@1.12.0...@datacamp/waffles-catalog-doc-site@1.13.0) (2019-08-19)
+
+
+### Features
+
+* add accessibility information to icon docs ([a28205c](https://github.com/datacamp/design-system/commit/a28205c))
+
+
+
+
+
 # [1.12.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-catalog-doc-site@1.11.0...@datacamp/waffles-catalog-doc-site@1.12.0) (2019-08-14)
 
 
