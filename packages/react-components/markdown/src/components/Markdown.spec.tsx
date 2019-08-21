@@ -11,6 +11,6 @@ const fullExample: string = fs
 describe('<Markdown />', () => {
   it('renders', () => {
     const { container } = render(<Markdown source={fullExample} />);
-    expect(container.firstChild).toMatchSnapshot();
+    expect(container).toMatchSnapshot();
   });
 });
