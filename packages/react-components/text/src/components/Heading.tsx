@@ -2,16 +2,18 @@ import tokens from '@datacamp/waffles-tokens/lib/future-tokens.json';
 import { css, SerializedStyles } from '@emotion/core';
 import React from 'react';
 
+import PlainString from '../alternateComponents/PlainString';
 import baseStyle from '../baseStyle';
 import computeDataAttributes from '../computeDataAttributes';
 import ssrSafeFirstChildSelector from '../ssrSafeFirstChildSelector';
+import validateChildrenProp from '../validateChildrenProp';
+import Strong from './Strong';
 
 export type Size = 300 | 400 | 500 | 600 | 700 | 800;
 export type HeadingElement = 'h1' | 'h2' | 'h3' | 'h4' | 'h5' | 'h6';
-
-interface HeadingProps {
+export interface HeadingProps {
   as: HeadingElement;
-  children: string;
+  children: React.ReactNode;
   className?: string;
   dataAttributes?: { [key: string]: string };
   multiLine?: boolean;
@@ -54,14 +56,16 @@ const getStyle = (size: Size, multiLine: boolean): SerializedStyles => {
   );
 };
 
-const Heading: React.FC<HeadingProps> = ({
-  children,
-  as: Element,
-  className,
-  size,
-  dataAttributes,
-  multiLine = false,
-}) => {
+const Heading: React.FC<HeadingProps> = props => {
+  validateChildrenProp(props, 'Heading', [PlainString, Strong]);
+  const {
+    children,
+    as: Element,
+    className,
+    size,
+    dataAttributes,
+    multiLine = false,
+  } = props;
   const parsedDataAttributes = computeDataAttributes(dataAttributes);
   const style = getStyle(size, multiLine);
 

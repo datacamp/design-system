@@ -8,7 +8,7 @@ import codeStyle from '../codeStyle';
 import computeDataAttributes from '../computeDataAttributes';
 import ssrSafeFirstChildSelector from '../ssrSafeFirstChildSelector';
 
-interface CodeBlockProps {
+export interface CodeBlockProps {
   children: string;
   className?: string;
   dataAttributes?: { [key: string]: string };

@@ -7,7 +7,7 @@ import React from 'react';
 import codeStyle from '../codeStyle';
 import computeDataAttributes from '../computeDataAttributes';
 
-interface CodeProps {
+export interface CodeProps {
   children: string;
   className?: string;
   dataAttributes?: { [key: string]: string };

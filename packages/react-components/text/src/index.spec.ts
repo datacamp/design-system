@@ -1,4 +1,8 @@
 import * as components from '.';
+import AlternateCode from './alternateComponents/AlternateCode';
+import AlternateCodeBlock from './alternateComponents/AlternateCodeBlock';
+import AlternateHeading from './alternateComponents/AlternateHeading';
+import PlainString from './alternateComponents/PlainString';
 import Code from './components/Code';
 import CodeBlock from './components/CodeBlock';
 import Emphasis from './components/Emphasis';
@@ -19,6 +23,12 @@ describe('index', () => {
       Small,
       Strong,
       Text,
+      alternateComponents: {
+        AlternateCode,
+        AlternateCodeBlock,
+        AlternateHeading,
+        PlainString,
+      },
     });
   });
 });
