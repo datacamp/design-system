@@ -2,17 +2,20 @@ import tokens from '@datacamp/waffles-tokens/lib/future-tokens.json';
 import { css } from '@emotion/core';
 import React from 'react';
 
+import AlternateCode from '../alternateComponents/AlternateCode';
+import PlainString from '../alternateComponents/PlainString';
 import baseStyle from '../baseStyle';
 import computeDataAttributes from '../computeDataAttributes';
 import ssrSafeFirstChildSelector from '../ssrSafeFirstChildSelector';
 import validateChildrenProp from '../validateChildrenProp';
+import Code from './Code';
 import Emphasis from './Emphasis';
 import Small from './Small';
 import Strong from './Strong';
 import Text from './Text';
 
 interface ParagraphProps {
-  children: string | (string | React.ReactElement)[];
+  children: React.ReactNode;
   className?: string;
   dataAttributes?: { [key: string]: string };
 }
@@ -34,7 +37,13 @@ const Paragraph: React.FC<ParagraphProps> = props => {
     Text,
     Small,
     Emphasis,
+    Code,
+    AlternateCode,
+    PlainString,
     'br',
+    'del',
+    'img',
+    'a',
   ]);
   const { children, className, dataAttributes } = props;
   const parsedDataAttributes = computeDataAttributes(dataAttributes);

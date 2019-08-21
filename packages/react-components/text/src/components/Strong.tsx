@@ -2,11 +2,15 @@ import tokens from '@datacamp/waffles-tokens/lib/future-tokens.json';
 import { css } from '@emotion/core';
 import React from 'react';
 
+import PlainString from '../alternateComponents/PlainString';
 import baseStyle from '../baseStyle';
 import computeDataAttributes from '../computeDataAttributes';
+import validateChildrenProp from '../validateChildrenProp';
+import Emphasis from './Emphasis';
+import Text from './Text';
 
 interface StrongProps {
-  children: string;
+  children: string | React.ReactNode | (string | React.ReactNode)[];
   className?: string;
   dataAttributes?: { [key: string]: string };
 }
@@ -16,11 +20,9 @@ const strongStyle = css(baseStyle, {
   lineHeight: tokens.size.font.base.value,
 });
 
-const Strong: React.FC<StrongProps> = ({
-  children,
-  className,
-  dataAttributes,
-}) => {
+const Strong: React.FC<StrongProps> = props => {
+  validateChildrenProp(props, 'Strong', [Text, Emphasis, PlainString]);
+  const { children, className, dataAttributes } = props;
   const parsedDataAttributes = computeDataAttributes(dataAttributes);
 
   return (

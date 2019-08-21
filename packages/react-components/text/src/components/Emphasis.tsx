@@ -2,11 +2,15 @@ import tokens from '@datacamp/waffles-tokens/lib/future-tokens.json';
 import { css } from '@emotion/core';
 import React from 'react';
 
+import PlainString from '../alternateComponents/PlainString';
 import baseStyle from '../baseStyle';
 import computeDataAttributes from '../computeDataAttributes';
+import validateChildrenProp from '../validateChildrenProp';
+import Strong from './Strong';
+import Text from './Text';
 
 interface EmphasisProps {
-  children: string;
+  children: string | React.ReactNode | (string | React.ReactNode)[];
   className?: string;
   dataAttributes?: { [key: string]: string };
 }
@@ -17,11 +21,9 @@ const emphasisStyle = css(baseStyle, {
   lineHeight: tokens.size.font[300].value,
 });
 
-const Emphasis: React.FC<EmphasisProps> = ({
-  children,
-  className,
-  dataAttributes,
-}) => {
+const Emphasis: React.FC<EmphasisProps> = props => {
+  validateChildrenProp(props, 'Emphasis', [Text, Strong, PlainString]);
+  const { children, className, dataAttributes } = props;
   const parsedDataAttributes = computeDataAttributes(dataAttributes);
 
   return (

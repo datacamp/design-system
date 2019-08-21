@@ -1,7 +1,9 @@
 import { get, isString } from 'lodash';
 import PropTypes from 'prop-types';
 
-type ValidComponents = (React.FC<any> | string)[]; // eslint-disable-line @typescript-eslint/no-explicit-any
+type ValidComponents = (
+  | ((props: React.PropsWithChildren<any>) => React.ReactNode) // eslint-disable-line @typescript-eslint/no-explicit-any
+  | string)[];
 interface PropValues {
   [key: string]: any; // eslint-disable-line @typescript-eslint/no-explicit-any
 }
