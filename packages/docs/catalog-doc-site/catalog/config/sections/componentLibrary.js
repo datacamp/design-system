@@ -29,6 +29,13 @@ export default {
       title: 'Icons',
     },
     {
+      content: pageLoader(() =>
+        import('../../pages/componentLibrary/markdown.js')
+      ),
+      path: '/component-library/markdown',
+      title: 'Markdown',
+    },
+    {
       content: pageLoader(() => import('../../pages/componentLibrary/text.js')),
       path: '/component-library/text',
       title: 'Text',
