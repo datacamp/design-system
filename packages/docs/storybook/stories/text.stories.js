@@ -113,6 +113,10 @@ arrange(desc(gdpPercap))`}</CodeBlock>
       <Strong className="example-class">
         This has additional style added using a className
       </Strong>
+      <br />
+      <Strong>
+        This has <Emphasis>emphasis text</Emphasis> as a child
+      </Strong>
     </Paragraph>
   ))
   .add('Emphasis Component', () => (
@@ -127,6 +131,10 @@ arrange(desc(gdpPercap))`}</CodeBlock>
       <br />
       <Emphasis className="example-class">
         This has additional style added using a className
+      </Emphasis>
+      <br />
+      <Emphasis>
+        This has <Strong>strong text</Strong> nested inside
       </Emphasis>
     </Paragraph>
   ))
@@ -166,13 +174,13 @@ arrange(desc(gdpPercap))`}</CodeBlock>
         convallis arcu eu neque tincidunt condimentum.
       </Paragraph>
       <Paragraph>
-        This is a paragraph containing a some Text, Strong, Emphasis and Small
-        children. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-        a enim quis nisi sollicitudin tincidunt in nec leo.{' '}
+        This is a paragraph containing a some Text, Strong, Emphasis, Code and
+        Small children. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Donec a enim quis nisi sollicitudin tincidunt in nec leo.{' '}
         <Strong>Quisque mattis</Strong> pretium nulla,{' '}
         <Small>id malesuada nisi</Small> viverra consectetur. Donec auctor
-        dapibus nisl sit amet tempor. Integer nec diam sit amet sem sollicitudin
-        consectetur.{' '}
+        dapibus nisl sit amet tempor. Integer nec <Code>diam sit amet sem</Code>{' '}
+        sollicitudin consectetur.{' '}
         <Text css={{ color: color.opaque.primary.value.hex }}>
           Vestibulum velit turpis
         </Text>
