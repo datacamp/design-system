@@ -34,6 +34,13 @@ export default {
       title: 'Text',
     },
     {
+      content: pageLoader(() =>
+        import('../../pages/componentLibrary/button.js')
+      ),
+      path: '/component-library/button',
+      title: 'Button',
+    },
+    {
       content: pageLoader(() => import('../../pages/componentLibrary/tag.js')),
       path: '/component-library/tag',
       title: 'Tag',
