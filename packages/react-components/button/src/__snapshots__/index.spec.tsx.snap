@@ -1,0 +1,1792 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Button /> snapshots renders a button with appearance default, intent danger and size large 1`] = `
+.emotion-0 {
+  color: rgb(77,83,86);
+  font-family: sans-serif;
+  font-family: Lato;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  font-size: 20px;
+  line-height: 64px;
+  color: #3D4251;
+  font-weight: bold;
+}
+
+.emotion-1 {
+  border: none;
+  border-radius: 4px;
+  font-family: Lato;
+  font-weight: bold;
+  padding: 16px;
+  text-transform: capitalize;
+  -webkit-transition: 0.15s;
+  transition: 0.15s;
+  padding: 0 32px;
+  background-color: white;
+  box-shadow: inset 0 0 0 1px #FE5C5C;
+}
+
+.emotion-1:active {
+  -webkit-transform: perspective(1px) scale(0.975);
+  -ms-transform: perspective(1px) scale(0.975);
+  transform: perspective(1px) scale(0.975);
+}
+
+.emotion-1:focus {
+  outline: 0;
+}
+
+.emotion-1:hover {
+  cursor: pointer;
+}
+
+.emotion-1:disabled,
+.emotion-1:hover:disabled,
+.emotion-1:active:disabled {
+  box-shadow: inset 0 0 0 1px #FEDEDE;
+  cursor: not-allowed;
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+}
+
+.emotion-1:focus {
+  box-shadow: 0 0 0 4px #FEDEDE,inset 0 0 0 1px #FE5C5C;
+}
+
+.emotion-1:hover {
+  box-shadow: inset 0 0 0 1px #B64242;
+}
+
+.emotion-1:hover:focus {
+  box-shadow: 0 0 0 4px #FEDEDE,inset 0 0 0 1px #B64242;
+}
+
+<button
+  class="emotion-1"
+  type="button"
+>
+  <span
+    class="emotion-0"
+  >
+    this is a button
+  </span>
+</button>
+`;
+
+exports[`<Button /> snapshots renders a button with appearance default, intent danger and size medium 1`] = `
+.emotion-0 {
+  color: rgb(77,83,86);
+  font-family: sans-serif;
+  font-family: Lato;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  font-size: 16px;
+  line-height: 48px;
+  color: #3D4251;
+  font-weight: bold;
+}
+
+.emotion-1 {
+  border: none;
+  border-radius: 4px;
+  font-family: Lato;
+  font-weight: bold;
+  padding: 16px;
+  text-transform: capitalize;
+  -webkit-transition: 0.15s;
+  transition: 0.15s;
+  padding: 0 16px;
+  background-color: white;
+  box-shadow: inset 0 0 0 1px #FE5C5C;
+}
+
+.emotion-1:active {
+  -webkit-transform: perspective(1px) scale(0.975);
+  -ms-transform: perspective(1px) scale(0.975);
+  transform: perspective(1px) scale(0.975);
+}
+
+.emotion-1:focus {
+  outline: 0;
+}
+
+.emotion-1:hover {
+  cursor: pointer;
+}
+
+.emotion-1:disabled,
+.emotion-1:hover:disabled,
+.emotion-1:active:disabled {
+  box-shadow: inset 0 0 0 1px #FEDEDE;
+  cursor: not-allowed;
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+}
+
+.emotion-1:focus {
+  box-shadow: 0 0 0 4px #FEDEDE,inset 0 0 0 1px #FE5C5C;
+}
+
+.emotion-1:hover {
+  box-shadow: inset 0 0 0 1px #B64242;
+}
+
+.emotion-1:hover:focus {
+  box-shadow: 0 0 0 4px #FEDEDE,inset 0 0 0 1px #B64242;
+}
+
+<button
+  class="emotion-1"
+  type="button"
+>
+  <span
+    class="emotion-0"
+  >
+    this is a button
+  </span>
+</button>
+`;
+
+exports[`<Button /> snapshots renders a button with appearance default, intent danger and size small 1`] = `
+.emotion-0 {
+  color: rgb(77,83,86);
+  font-family: sans-serif;
+  font-family: Lato;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  font-size: 16px;
+  line-height: 36px;
+  color: #3D4251;
+  font-weight: bold;
+}
+
+.emotion-1 {
+  border: none;
+  border-radius: 4px;
+  font-family: Lato;
+  font-weight: bold;
+  padding: 16px;
+  text-transform: capitalize;
+  -webkit-transition: 0.15s;
+  transition: 0.15s;
+  padding: 0 16px;
+  background-color: white;
+  box-shadow: inset 0 0 0 1px #FE5C5C;
+}
+
+.emotion-1:active {
+  -webkit-transform: perspective(1px) scale(0.975);
+  -ms-transform: perspective(1px) scale(0.975);
+  transform: perspective(1px) scale(0.975);
+}
+
+.emotion-1:focus {
+  outline: 0;
+}
+
+.emotion-1:hover {
+  cursor: pointer;
+}
+
+.emotion-1:disabled,
+.emotion-1:hover:disabled,
+.emotion-1:active:disabled {
+  box-shadow: inset 0 0 0 1px #FEDEDE;
+  cursor: not-allowed;
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+}
+
+.emotion-1:focus {
+  box-shadow: 0 0 0 4px #FEDEDE,inset 0 0 0 1px #FE5C5C;
+}
+
+.emotion-1:hover {
+  box-shadow: inset 0 0 0 1px #B64242;
+}
+
+.emotion-1:hover:focus {
+  box-shadow: 0 0 0 4px #FEDEDE,inset 0 0 0 1px #B64242;
+}
+
+<button
+  class="emotion-1"
+  type="button"
+>
+  <span
+    class="emotion-0"
+  >
+    this is a button
+  </span>
+</button>
+`;
+
+exports[`<Button /> snapshots renders a button with appearance default, intent neutral and size large 1`] = `
+.emotion-1 {
+  border: none;
+  border-radius: 4px;
+  font-family: Lato;
+  font-weight: bold;
+  padding: 16px;
+  text-transform: capitalize;
+  -webkit-transition: 0.15s;
+  transition: 0.15s;
+  padding: 0 32px;
+  background-color: white;
+  box-shadow: inset 0 0 0 1px #33AACC;
+}
+
+.emotion-1:active {
+  -webkit-transform: perspective(1px) scale(0.975);
+  -ms-transform: perspective(1px) scale(0.975);
+  transform: perspective(1px) scale(0.975);
+}
+
+.emotion-1:focus {
+  outline: 0;
+}
+
+.emotion-1:hover {
+  cursor: pointer;
+}
+
+.emotion-1:disabled,
+.emotion-1:hover:disabled,
+.emotion-1:active:disabled {
+  box-shadow: inset 0 0 0 1px #DCECF1;
+  cursor: not-allowed;
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+}
+
+.emotion-1:focus {
+  box-shadow: 0 0 0 4px #DCECF1,inset 0 0 0 1px #33AACC;
+}
+
+.emotion-1:hover {
+  box-shadow: inset 0 0 0 1px #2E8FAB;
+}
+
+.emotion-1:hover:focus {
+  box-shadow: 0 0 0 4px #DCECF1,inset 0 0 0 1px #2E8FAB;
+}
+
+.emotion-0 {
+  color: rgb(77,83,86);
+  font-family: sans-serif;
+  font-family: Lato;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  font-size: 20px;
+  line-height: 64px;
+  color: #3D4251;
+  font-weight: bold;
+}
+
+<button
+  class="emotion-1"
+  type="button"
+>
+  <span
+    class="emotion-0"
+  >
+    this is a button
+  </span>
+</button>
+`;
+
+exports[`<Button /> snapshots renders a button with appearance default, intent neutral and size medium 1`] = `
+.emotion-1 {
+  border: none;
+  border-radius: 4px;
+  font-family: Lato;
+  font-weight: bold;
+  padding: 16px;
+  text-transform: capitalize;
+  -webkit-transition: 0.15s;
+  transition: 0.15s;
+  padding: 0 16px;
+  background-color: white;
+  box-shadow: inset 0 0 0 1px #33AACC;
+}
+
+.emotion-1:active {
+  -webkit-transform: perspective(1px) scale(0.975);
+  -ms-transform: perspective(1px) scale(0.975);
+  transform: perspective(1px) scale(0.975);
+}
+
+.emotion-1:focus {
+  outline: 0;
+}
+
+.emotion-1:hover {
+  cursor: pointer;
+}
+
+.emotion-1:disabled,
+.emotion-1:hover:disabled,
+.emotion-1:active:disabled {
+  box-shadow: inset 0 0 0 1px #DCECF1;
+  cursor: not-allowed;
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+}
+
+.emotion-1:focus {
+  box-shadow: 0 0 0 4px #DCECF1,inset 0 0 0 1px #33AACC;
+}
+
+.emotion-1:hover {
+  box-shadow: inset 0 0 0 1px #2E8FAB;
+}
+
+.emotion-1:hover:focus {
+  box-shadow: 0 0 0 4px #DCECF1,inset 0 0 0 1px #2E8FAB;
+}
+
+.emotion-0 {
+  color: rgb(77,83,86);
+  font-family: sans-serif;
+  font-family: Lato;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  font-size: 16px;
+  line-height: 48px;
+  color: #3D4251;
+  font-weight: bold;
+}
+
+<button
+  class="emotion-1"
+  type="button"
+>
+  <span
+    class="emotion-0"
+  >
+    this is a button
+  </span>
+</button>
+`;
+
+exports[`<Button /> snapshots renders a button with appearance default, intent neutral and size small 1`] = `
+.emotion-1 {
+  border: none;
+  border-radius: 4px;
+  font-family: Lato;
+  font-weight: bold;
+  padding: 16px;
+  text-transform: capitalize;
+  -webkit-transition: 0.15s;
+  transition: 0.15s;
+  padding: 0 16px;
+  background-color: white;
+  box-shadow: inset 0 0 0 1px #33AACC;
+}
+
+.emotion-1:active {
+  -webkit-transform: perspective(1px) scale(0.975);
+  -ms-transform: perspective(1px) scale(0.975);
+  transform: perspective(1px) scale(0.975);
+}
+
+.emotion-1:focus {
+  outline: 0;
+}
+
+.emotion-1:hover {
+  cursor: pointer;
+}
+
+.emotion-1:disabled,
+.emotion-1:hover:disabled,
+.emotion-1:active:disabled {
+  box-shadow: inset 0 0 0 1px #DCECF1;
+  cursor: not-allowed;
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+}
+
+.emotion-1:focus {
+  box-shadow: 0 0 0 4px #DCECF1,inset 0 0 0 1px #33AACC;
+}
+
+.emotion-1:hover {
+  box-shadow: inset 0 0 0 1px #2E8FAB;
+}
+
+.emotion-1:hover:focus {
+  box-shadow: 0 0 0 4px #DCECF1,inset 0 0 0 1px #2E8FAB;
+}
+
+.emotion-0 {
+  color: rgb(77,83,86);
+  font-family: sans-serif;
+  font-family: Lato;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  font-size: 16px;
+  line-height: 36px;
+  color: #3D4251;
+  font-weight: bold;
+}
+
+<button
+  class="emotion-1"
+  type="button"
+>
+  <span
+    class="emotion-0"
+  >
+    this is a button
+  </span>
+</button>
+`;
+
+exports[`<Button /> snapshots renders a button with appearance default, intent success and size large 1`] = `
+.emotion-0 {
+  color: rgb(77,83,86);
+  font-family: sans-serif;
+  font-family: Lato;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  font-size: 20px;
+  line-height: 64px;
+  color: #3D4251;
+  font-weight: bold;
+}
+
+.emotion-1 {
+  border: none;
+  border-radius: 4px;
+  font-family: Lato;
+  font-weight: bold;
+  padding: 16px;
+  text-transform: capitalize;
+  -webkit-transition: 0.15s;
+  transition: 0.15s;
+  padding: 0 32px;
+  background-color: white;
+  box-shadow: inset 0 0 0 1px #36D57D;
+}
+
+.emotion-1:active {
+  -webkit-transform: perspective(1px) scale(0.975);
+  -ms-transform: perspective(1px) scale(0.975);
+  transform: perspective(1px) scale(0.975);
+}
+
+.emotion-1:focus {
+  outline: 0;
+}
+
+.emotion-1:hover {
+  cursor: pointer;
+}
+
+.emotion-1:disabled,
+.emotion-1:hover:disabled,
+.emotion-1:active:disabled {
+  box-shadow: inset 0 0 0 1px #E7F2EC;
+  cursor: not-allowed;
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+}
+
+.emotion-1:focus {
+  box-shadow: 0 0 0 4px #E7F2EC,inset 0 0 0 1px #36D57D;
+}
+
+.emotion-1:hover {
+  box-shadow: inset 0 0 0 1px #29A360;
+}
+
+.emotion-1:hover:focus {
+  box-shadow: 0 0 0 4px #E7F2EC,inset 0 0 0 1px #29A360;
+}
+
+<button
+  class="emotion-1"
+  type="button"
+>
+  <span
+    class="emotion-0"
+  >
+    this is a button
+  </span>
+</button>
+`;
+
+exports[`<Button /> snapshots renders a button with appearance default, intent success and size medium 1`] = `
+.emotion-0 {
+  color: rgb(77,83,86);
+  font-family: sans-serif;
+  font-family: Lato;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  font-size: 16px;
+  line-height: 48px;
+  color: #3D4251;
+  font-weight: bold;
+}
+
+.emotion-1 {
+  border: none;
+  border-radius: 4px;
+  font-family: Lato;
+  font-weight: bold;
+  padding: 16px;
+  text-transform: capitalize;
+  -webkit-transition: 0.15s;
+  transition: 0.15s;
+  padding: 0 16px;
+  background-color: white;
+  box-shadow: inset 0 0 0 1px #36D57D;
+}
+
+.emotion-1:active {
+  -webkit-transform: perspective(1px) scale(0.975);
+  -ms-transform: perspective(1px) scale(0.975);
+  transform: perspective(1px) scale(0.975);
+}
+
+.emotion-1:focus {
+  outline: 0;
+}
+
+.emotion-1:hover {
+  cursor: pointer;
+}
+
+.emotion-1:disabled,
+.emotion-1:hover:disabled,
+.emotion-1:active:disabled {
+  box-shadow: inset 0 0 0 1px #E7F2EC;
+  cursor: not-allowed;
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+}
+
+.emotion-1:focus {
+  box-shadow: 0 0 0 4px #E7F2EC,inset 0 0 0 1px #36D57D;
+}
+
+.emotion-1:hover {
+  box-shadow: inset 0 0 0 1px #29A360;
+}
+
+.emotion-1:hover:focus {
+  box-shadow: 0 0 0 4px #E7F2EC,inset 0 0 0 1px #29A360;
+}
+
+<button
+  class="emotion-1"
+  type="button"
+>
+  <span
+    class="emotion-0"
+  >
+    this is a button
+  </span>
+</button>
+`;
+
+exports[`<Button /> snapshots renders a button with appearance default, intent success and size small 1`] = `
+.emotion-0 {
+  color: rgb(77,83,86);
+  font-family: sans-serif;
+  font-family: Lato;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  font-size: 16px;
+  line-height: 36px;
+  color: #3D4251;
+  font-weight: bold;
+}
+
+.emotion-1 {
+  border: none;
+  border-radius: 4px;
+  font-family: Lato;
+  font-weight: bold;
+  padding: 16px;
+  text-transform: capitalize;
+  -webkit-transition: 0.15s;
+  transition: 0.15s;
+  padding: 0 16px;
+  background-color: white;
+  box-shadow: inset 0 0 0 1px #36D57D;
+}
+
+.emotion-1:active {
+  -webkit-transform: perspective(1px) scale(0.975);
+  -ms-transform: perspective(1px) scale(0.975);
+  transform: perspective(1px) scale(0.975);
+}
+
+.emotion-1:focus {
+  outline: 0;
+}
+
+.emotion-1:hover {
+  cursor: pointer;
+}
+
+.emotion-1:disabled,
+.emotion-1:hover:disabled,
+.emotion-1:active:disabled {
+  box-shadow: inset 0 0 0 1px #E7F2EC;
+  cursor: not-allowed;
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+}
+
+.emotion-1:focus {
+  box-shadow: 0 0 0 4px #E7F2EC,inset 0 0 0 1px #36D57D;
+}
+
+.emotion-1:hover {
+  box-shadow: inset 0 0 0 1px #29A360;
+}
+
+.emotion-1:hover:focus {
+  box-shadow: 0 0 0 4px #E7F2EC,inset 0 0 0 1px #29A360;
+}
+
+<button
+  class="emotion-1"
+  type="button"
+>
+  <span
+    class="emotion-0"
+  >
+    this is a button
+  </span>
+</button>
+`;
+
+exports[`<Button /> snapshots renders a button with appearance default, intent warning and size large 1`] = `
+.emotion-0 {
+  color: rgb(77,83,86);
+  font-family: sans-serif;
+  font-family: Lato;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  font-size: 20px;
+  line-height: 64px;
+  color: #3D4251;
+  font-weight: bold;
+}
+
+.emotion-1 {
+  border: none;
+  border-radius: 4px;
+  font-family: Lato;
+  font-weight: bold;
+  padding: 16px;
+  text-transform: capitalize;
+  -webkit-transition: 0.15s;
+  transition: 0.15s;
+  padding: 0 32px;
+  background-color: white;
+  box-shadow: inset 0 0 0 1px #FF9400;
+}
+
+.emotion-1:active {
+  -webkit-transform: perspective(1px) scale(0.975);
+  -ms-transform: perspective(1px) scale(0.975);
+  transform: perspective(1px) scale(0.975);
+}
+
+.emotion-1:focus {
+  outline: 0;
+}
+
+.emotion-1:hover {
+  cursor: pointer;
+}
+
+.emotion-1:disabled,
+.emotion-1:hover:disabled,
+.emotion-1:active:disabled {
+  box-shadow: inset 0 0 0 1px #FFEED5;
+  cursor: not-allowed;
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+}
+
+.emotion-1:focus {
+  box-shadow: 0 0 0 4px #FFEED5,inset 0 0 0 1px #FF9400;
+}
+
+.emotion-1:hover {
+  box-shadow: inset 0 0 0 1px #C87400;
+}
+
+.emotion-1:hover:focus {
+  box-shadow: 0 0 0 4px #FFEED5,inset 0 0 0 1px #C87400;
+}
+
+<button
+  class="emotion-1"
+  type="button"
+>
+  <span
+    class="emotion-0"
+  >
+    this is a button
+  </span>
+</button>
+`;
+
+exports[`<Button /> snapshots renders a button with appearance default, intent warning and size medium 1`] = `
+.emotion-0 {
+  color: rgb(77,83,86);
+  font-family: sans-serif;
+  font-family: Lato;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  font-size: 16px;
+  line-height: 48px;
+  color: #3D4251;
+  font-weight: bold;
+}
+
+.emotion-1 {
+  border: none;
+  border-radius: 4px;
+  font-family: Lato;
+  font-weight: bold;
+  padding: 16px;
+  text-transform: capitalize;
+  -webkit-transition: 0.15s;
+  transition: 0.15s;
+  padding: 0 16px;
+  background-color: white;
+  box-shadow: inset 0 0 0 1px #FF9400;
+}
+
+.emotion-1:active {
+  -webkit-transform: perspective(1px) scale(0.975);
+  -ms-transform: perspective(1px) scale(0.975);
+  transform: perspective(1px) scale(0.975);
+}
+
+.emotion-1:focus {
+  outline: 0;
+}
+
+.emotion-1:hover {
+  cursor: pointer;
+}
+
+.emotion-1:disabled,
+.emotion-1:hover:disabled,
+.emotion-1:active:disabled {
+  box-shadow: inset 0 0 0 1px #FFEED5;
+  cursor: not-allowed;
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+}
+
+.emotion-1:focus {
+  box-shadow: 0 0 0 4px #FFEED5,inset 0 0 0 1px #FF9400;
+}
+
+.emotion-1:hover {
+  box-shadow: inset 0 0 0 1px #C87400;
+}
+
+.emotion-1:hover:focus {
+  box-shadow: 0 0 0 4px #FFEED5,inset 0 0 0 1px #C87400;
+}
+
+<button
+  class="emotion-1"
+  type="button"
+>
+  <span
+    class="emotion-0"
+  >
+    this is a button
+  </span>
+</button>
+`;
+
+exports[`<Button /> snapshots renders a button with appearance default, intent warning and size small 1`] = `
+.emotion-0 {
+  color: rgb(77,83,86);
+  font-family: sans-serif;
+  font-family: Lato;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  font-size: 16px;
+  line-height: 36px;
+  color: #3D4251;
+  font-weight: bold;
+}
+
+.emotion-1 {
+  border: none;
+  border-radius: 4px;
+  font-family: Lato;
+  font-weight: bold;
+  padding: 16px;
+  text-transform: capitalize;
+  -webkit-transition: 0.15s;
+  transition: 0.15s;
+  padding: 0 16px;
+  background-color: white;
+  box-shadow: inset 0 0 0 1px #FF9400;
+}
+
+.emotion-1:active {
+  -webkit-transform: perspective(1px) scale(0.975);
+  -ms-transform: perspective(1px) scale(0.975);
+  transform: perspective(1px) scale(0.975);
+}
+
+.emotion-1:focus {
+  outline: 0;
+}
+
+.emotion-1:hover {
+  cursor: pointer;
+}
+
+.emotion-1:disabled,
+.emotion-1:hover:disabled,
+.emotion-1:active:disabled {
+  box-shadow: inset 0 0 0 1px #FFEED5;
+  cursor: not-allowed;
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+}
+
+.emotion-1:focus {
+  box-shadow: 0 0 0 4px #FFEED5,inset 0 0 0 1px #FF9400;
+}
+
+.emotion-1:hover {
+  box-shadow: inset 0 0 0 1px #C87400;
+}
+
+.emotion-1:hover:focus {
+  box-shadow: 0 0 0 4px #FFEED5,inset 0 0 0 1px #C87400;
+}
+
+<button
+  class="emotion-1"
+  type="button"
+>
+  <span
+    class="emotion-0"
+  >
+    this is a button
+  </span>
+</button>
+`;
+
+exports[`<Button /> snapshots renders a button with appearance primary, intent danger and size large 1`] = `
+.emotion-0 {
+  color: rgb(77,83,86);
+  font-family: sans-serif;
+  font-family: Lato;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  font-size: 20px;
+  line-height: 64px;
+  color: white;
+  font-weight: bold;
+}
+
+.emotion-1 {
+  border: none;
+  border-radius: 4px;
+  font-family: Lato;
+  font-weight: bold;
+  padding: 16px;
+  text-transform: capitalize;
+  -webkit-transition: 0.15s;
+  transition: 0.15s;
+  padding: 0 32px;
+  background-color: rgb(254,92,92);
+}
+
+.emotion-1:active {
+  -webkit-transform: perspective(1px) scale(0.975);
+  -ms-transform: perspective(1px) scale(0.975);
+  transform: perspective(1px) scale(0.975);
+}
+
+.emotion-1:focus {
+  outline: 0;
+}
+
+.emotion-1:hover {
+  cursor: pointer;
+}
+
+.emotion-1:disabled,
+.emotion-1:hover:disabled,
+.emotion-1:active:disabled {
+  background-color: #FEDEDE;
+  cursor: not-allowed;
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+}
+
+.emotion-1:focus {
+  box-shadow: 0 0 0 4px #FEDEDE;
+}
+
+.emotion-1:hover {
+  background-color: #B64242;
+}
+
+<button
+  class="emotion-1"
+  type="button"
+>
+  <span
+    class="emotion-0"
+  >
+    this is a button
+  </span>
+</button>
+`;
+
+exports[`<Button /> snapshots renders a button with appearance primary, intent danger and size medium 1`] = `
+.emotion-0 {
+  color: rgb(77,83,86);
+  font-family: sans-serif;
+  font-family: Lato;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  font-size: 16px;
+  line-height: 48px;
+  color: white;
+  font-weight: bold;
+}
+
+.emotion-1 {
+  border: none;
+  border-radius: 4px;
+  font-family: Lato;
+  font-weight: bold;
+  padding: 16px;
+  text-transform: capitalize;
+  -webkit-transition: 0.15s;
+  transition: 0.15s;
+  padding: 0 16px;
+  background-color: rgb(254,92,92);
+}
+
+.emotion-1:active {
+  -webkit-transform: perspective(1px) scale(0.975);
+  -ms-transform: perspective(1px) scale(0.975);
+  transform: perspective(1px) scale(0.975);
+}
+
+.emotion-1:focus {
+  outline: 0;
+}
+
+.emotion-1:hover {
+  cursor: pointer;
+}
+
+.emotion-1:disabled,
+.emotion-1:hover:disabled,
+.emotion-1:active:disabled {
+  background-color: #FEDEDE;
+  cursor: not-allowed;
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+}
+
+.emotion-1:focus {
+  box-shadow: 0 0 0 4px #FEDEDE;
+}
+
+.emotion-1:hover {
+  background-color: #B64242;
+}
+
+<button
+  class="emotion-1"
+  type="button"
+>
+  <span
+    class="emotion-0"
+  >
+    this is a button
+  </span>
+</button>
+`;
+
+exports[`<Button /> snapshots renders a button with appearance primary, intent danger and size small 1`] = `
+.emotion-1 {
+  border: none;
+  border-radius: 4px;
+  font-family: Lato;
+  font-weight: bold;
+  padding: 16px;
+  text-transform: capitalize;
+  -webkit-transition: 0.15s;
+  transition: 0.15s;
+  padding: 0 16px;
+  background-color: rgb(254,92,92);
+}
+
+.emotion-1:active {
+  -webkit-transform: perspective(1px) scale(0.975);
+  -ms-transform: perspective(1px) scale(0.975);
+  transform: perspective(1px) scale(0.975);
+}
+
+.emotion-1:focus {
+  outline: 0;
+}
+
+.emotion-1:hover {
+  cursor: pointer;
+}
+
+.emotion-1:disabled,
+.emotion-1:hover:disabled,
+.emotion-1:active:disabled {
+  background-color: #FEDEDE;
+  cursor: not-allowed;
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+}
+
+.emotion-1:focus {
+  box-shadow: 0 0 0 4px #FEDEDE;
+}
+
+.emotion-1:hover {
+  background-color: #B64242;
+}
+
+.emotion-0 {
+  color: rgb(77,83,86);
+  font-family: sans-serif;
+  font-family: Lato;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  font-size: 16px;
+  line-height: 36px;
+  color: white;
+  font-weight: bold;
+}
+
+<button
+  class="emotion-1"
+  type="button"
+>
+  <span
+    class="emotion-0"
+  >
+    this is a button
+  </span>
+</button>
+`;
+
+exports[`<Button /> snapshots renders a button with appearance primary, intent neutral and size large 1`] = `
+.emotion-1 {
+  border: none;
+  border-radius: 4px;
+  font-family: Lato;
+  font-weight: bold;
+  padding: 16px;
+  text-transform: capitalize;
+  -webkit-transition: 0.15s;
+  transition: 0.15s;
+  padding: 0 32px;
+  background-color: rgb(51,170,204);
+}
+
+.emotion-1:active {
+  -webkit-transform: perspective(1px) scale(0.975);
+  -ms-transform: perspective(1px) scale(0.975);
+  transform: perspective(1px) scale(0.975);
+}
+
+.emotion-1:focus {
+  outline: 0;
+}
+
+.emotion-1:hover {
+  cursor: pointer;
+}
+
+.emotion-1:disabled,
+.emotion-1:hover:disabled,
+.emotion-1:active:disabled {
+  background-color: #DCECF1;
+  cursor: not-allowed;
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+}
+
+.emotion-1:focus {
+  box-shadow: 0 0 0 4px #DCECF1;
+}
+
+.emotion-1:hover {
+  background-color: #2E8FAB;
+  box-shadow: 0 0 0 4px #DCECF1;
+}
+
+.emotion-0 {
+  color: rgb(77,83,86);
+  font-family: sans-serif;
+  font-family: Lato;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  font-size: 20px;
+  line-height: 64px;
+  color: white;
+  font-weight: bold;
+}
+
+<button
+  class="emotion-1"
+  type="button"
+>
+  <span
+    class="emotion-0"
+  >
+    this is a button
+  </span>
+</button>
+`;
+
+exports[`<Button /> snapshots renders a button with appearance primary, intent neutral and size medium 1`] = `
+.emotion-1 {
+  border: none;
+  border-radius: 4px;
+  font-family: Lato;
+  font-weight: bold;
+  padding: 16px;
+  text-transform: capitalize;
+  -webkit-transition: 0.15s;
+  transition: 0.15s;
+  padding: 0 16px;
+  background-color: rgb(51,170,204);
+}
+
+.emotion-1:active {
+  -webkit-transform: perspective(1px) scale(0.975);
+  -ms-transform: perspective(1px) scale(0.975);
+  transform: perspective(1px) scale(0.975);
+}
+
+.emotion-1:focus {
+  outline: 0;
+}
+
+.emotion-1:hover {
+  cursor: pointer;
+}
+
+.emotion-1:disabled,
+.emotion-1:hover:disabled,
+.emotion-1:active:disabled {
+  background-color: #DCECF1;
+  cursor: not-allowed;
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+}
+
+.emotion-1:focus {
+  box-shadow: 0 0 0 4px #DCECF1;
+}
+
+.emotion-1:hover {
+  background-color: #2E8FAB;
+  box-shadow: 0 0 0 4px #DCECF1;
+}
+
+.emotion-0 {
+  color: rgb(77,83,86);
+  font-family: sans-serif;
+  font-family: Lato;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  font-size: 16px;
+  line-height: 48px;
+  color: white;
+  font-weight: bold;
+}
+
+<button
+  class="emotion-1"
+  type="button"
+>
+  <span
+    class="emotion-0"
+  >
+    this is a button
+  </span>
+</button>
+`;
+
+exports[`<Button /> snapshots renders a button with appearance primary, intent neutral and size small 1`] = `
+.emotion-1 {
+  border: none;
+  border-radius: 4px;
+  font-family: Lato;
+  font-weight: bold;
+  padding: 16px;
+  text-transform: capitalize;
+  -webkit-transition: 0.15s;
+  transition: 0.15s;
+  padding: 0 16px;
+  background-color: rgb(51,170,204);
+}
+
+.emotion-1:active {
+  -webkit-transform: perspective(1px) scale(0.975);
+  -ms-transform: perspective(1px) scale(0.975);
+  transform: perspective(1px) scale(0.975);
+}
+
+.emotion-1:focus {
+  outline: 0;
+}
+
+.emotion-1:hover {
+  cursor: pointer;
+}
+
+.emotion-1:disabled,
+.emotion-1:hover:disabled,
+.emotion-1:active:disabled {
+  background-color: #DCECF1;
+  cursor: not-allowed;
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+}
+
+.emotion-1:focus {
+  box-shadow: 0 0 0 4px #DCECF1;
+}
+
+.emotion-1:hover {
+  background-color: #2E8FAB;
+  box-shadow: 0 0 0 4px #DCECF1;
+}
+
+.emotion-0 {
+  color: rgb(77,83,86);
+  font-family: sans-serif;
+  font-family: Lato;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  font-size: 16px;
+  line-height: 36px;
+  color: white;
+  font-weight: bold;
+}
+
+<button
+  class="emotion-1"
+  type="button"
+>
+  <span
+    class="emotion-0"
+  >
+    this is a button
+  </span>
+</button>
+`;
+
+exports[`<Button /> snapshots renders a button with appearance primary, intent success and size large 1`] = `
+.emotion-0 {
+  color: rgb(77,83,86);
+  font-family: sans-serif;
+  font-family: Lato;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  font-size: 20px;
+  line-height: 64px;
+  color: white;
+  font-weight: bold;
+}
+
+.emotion-1 {
+  border: none;
+  border-radius: 4px;
+  font-family: Lato;
+  font-weight: bold;
+  padding: 16px;
+  text-transform: capitalize;
+  -webkit-transition: 0.15s;
+  transition: 0.15s;
+  padding: 0 32px;
+  background-color: rgb(54,213,125);
+}
+
+.emotion-1:active {
+  -webkit-transform: perspective(1px) scale(0.975);
+  -ms-transform: perspective(1px) scale(0.975);
+  transform: perspective(1px) scale(0.975);
+}
+
+.emotion-1:focus {
+  outline: 0;
+}
+
+.emotion-1:hover {
+  cursor: pointer;
+}
+
+.emotion-1:disabled,
+.emotion-1:hover:disabled,
+.emotion-1:active:disabled {
+  background-color: #E7F2EC;
+  cursor: not-allowed;
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+}
+
+.emotion-1:focus {
+  box-shadow: 0 0 0 4px #E7F2EC;
+}
+
+.emotion-1:hover {
+  background-color: #29A360;
+}
+
+<button
+  class="emotion-1"
+  type="button"
+>
+  <span
+    class="emotion-0"
+  >
+    this is a button
+  </span>
+</button>
+`;
+
+exports[`<Button /> snapshots renders a button with appearance primary, intent success and size medium 1`] = `
+.emotion-0 {
+  color: rgb(77,83,86);
+  font-family: sans-serif;
+  font-family: Lato;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  font-size: 16px;
+  line-height: 48px;
+  color: white;
+  font-weight: bold;
+}
+
+.emotion-1 {
+  border: none;
+  border-radius: 4px;
+  font-family: Lato;
+  font-weight: bold;
+  padding: 16px;
+  text-transform: capitalize;
+  -webkit-transition: 0.15s;
+  transition: 0.15s;
+  padding: 0 16px;
+  background-color: rgb(54,213,125);
+}
+
+.emotion-1:active {
+  -webkit-transform: perspective(1px) scale(0.975);
+  -ms-transform: perspective(1px) scale(0.975);
+  transform: perspective(1px) scale(0.975);
+}
+
+.emotion-1:focus {
+  outline: 0;
+}
+
+.emotion-1:hover {
+  cursor: pointer;
+}
+
+.emotion-1:disabled,
+.emotion-1:hover:disabled,
+.emotion-1:active:disabled {
+  background-color: #E7F2EC;
+  cursor: not-allowed;
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+}
+
+.emotion-1:focus {
+  box-shadow: 0 0 0 4px #E7F2EC;
+}
+
+.emotion-1:hover {
+  background-color: #29A360;
+}
+
+<button
+  class="emotion-1"
+  type="button"
+>
+  <span
+    class="emotion-0"
+  >
+    this is a button
+  </span>
+</button>
+`;
+
+exports[`<Button /> snapshots renders a button with appearance primary, intent success and size small 1`] = `
+.emotion-1 {
+  border: none;
+  border-radius: 4px;
+  font-family: Lato;
+  font-weight: bold;
+  padding: 16px;
+  text-transform: capitalize;
+  -webkit-transition: 0.15s;
+  transition: 0.15s;
+  padding: 0 16px;
+  background-color: rgb(54,213,125);
+}
+
+.emotion-1:active {
+  -webkit-transform: perspective(1px) scale(0.975);
+  -ms-transform: perspective(1px) scale(0.975);
+  transform: perspective(1px) scale(0.975);
+}
+
+.emotion-1:focus {
+  outline: 0;
+}
+
+.emotion-1:hover {
+  cursor: pointer;
+}
+
+.emotion-1:disabled,
+.emotion-1:hover:disabled,
+.emotion-1:active:disabled {
+  background-color: #E7F2EC;
+  cursor: not-allowed;
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+}
+
+.emotion-1:focus {
+  box-shadow: 0 0 0 4px #E7F2EC;
+}
+
+.emotion-1:hover {
+  background-color: #29A360;
+}
+
+.emotion-0 {
+  color: rgb(77,83,86);
+  font-family: sans-serif;
+  font-family: Lato;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  font-size: 16px;
+  line-height: 36px;
+  color: white;
+  font-weight: bold;
+}
+
+<button
+  class="emotion-1"
+  type="button"
+>
+  <span
+    class="emotion-0"
+  >
+    this is a button
+  </span>
+</button>
+`;
+
+exports[`<Button /> snapshots renders a button with appearance primary, intent warning and size large 1`] = `
+.emotion-0 {
+  color: rgb(77,83,86);
+  font-family: sans-serif;
+  font-family: Lato;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  font-size: 20px;
+  line-height: 64px;
+  color: white;
+  font-weight: bold;
+}
+
+.emotion-1 {
+  border: none;
+  border-radius: 4px;
+  font-family: Lato;
+  font-weight: bold;
+  padding: 16px;
+  text-transform: capitalize;
+  -webkit-transition: 0.15s;
+  transition: 0.15s;
+  padding: 0 32px;
+  background-color: rgb(255,148,0);
+}
+
+.emotion-1:active {
+  -webkit-transform: perspective(1px) scale(0.975);
+  -ms-transform: perspective(1px) scale(0.975);
+  transform: perspective(1px) scale(0.975);
+}
+
+.emotion-1:focus {
+  outline: 0;
+}
+
+.emotion-1:hover {
+  cursor: pointer;
+}
+
+.emotion-1:disabled,
+.emotion-1:hover:disabled,
+.emotion-1:active:disabled {
+  background-color: #FFEED5;
+  cursor: not-allowed;
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+}
+
+.emotion-1:focus {
+  box-shadow: 0 0 0 4px #FFEED5;
+}
+
+.emotion-1:hover {
+  background-color: #C87400;
+}
+
+<button
+  class="emotion-1"
+  type="button"
+>
+  <span
+    class="emotion-0"
+  >
+    this is a button
+  </span>
+</button>
+`;
+
+exports[`<Button /> snapshots renders a button with appearance primary, intent warning and size medium 1`] = `
+.emotion-0 {
+  color: rgb(77,83,86);
+  font-family: sans-serif;
+  font-family: Lato;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  font-size: 16px;
+  line-height: 48px;
+  color: white;
+  font-weight: bold;
+}
+
+.emotion-1 {
+  border: none;
+  border-radius: 4px;
+  font-family: Lato;
+  font-weight: bold;
+  padding: 16px;
+  text-transform: capitalize;
+  -webkit-transition: 0.15s;
+  transition: 0.15s;
+  padding: 0 16px;
+  background-color: rgb(255,148,0);
+}
+
+.emotion-1:active {
+  -webkit-transform: perspective(1px) scale(0.975);
+  -ms-transform: perspective(1px) scale(0.975);
+  transform: perspective(1px) scale(0.975);
+}
+
+.emotion-1:focus {
+  outline: 0;
+}
+
+.emotion-1:hover {
+  cursor: pointer;
+}
+
+.emotion-1:disabled,
+.emotion-1:hover:disabled,
+.emotion-1:active:disabled {
+  background-color: #FFEED5;
+  cursor: not-allowed;
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+}
+
+.emotion-1:focus {
+  box-shadow: 0 0 0 4px #FFEED5;
+}
+
+.emotion-1:hover {
+  background-color: #C87400;
+}
+
+<button
+  class="emotion-1"
+  type="button"
+>
+  <span
+    class="emotion-0"
+  >
+    this is a button
+  </span>
+</button>
+`;
+
+exports[`<Button /> snapshots renders a button with appearance primary, intent warning and size small 1`] = `
+.emotion-1 {
+  border: none;
+  border-radius: 4px;
+  font-family: Lato;
+  font-weight: bold;
+  padding: 16px;
+  text-transform: capitalize;
+  -webkit-transition: 0.15s;
+  transition: 0.15s;
+  padding: 0 16px;
+  background-color: rgb(255,148,0);
+}
+
+.emotion-1:active {
+  -webkit-transform: perspective(1px) scale(0.975);
+  -ms-transform: perspective(1px) scale(0.975);
+  transform: perspective(1px) scale(0.975);
+}
+
+.emotion-1:focus {
+  outline: 0;
+}
+
+.emotion-1:hover {
+  cursor: pointer;
+}
+
+.emotion-1:disabled,
+.emotion-1:hover:disabled,
+.emotion-1:active:disabled {
+  background-color: #FFEED5;
+  cursor: not-allowed;
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+}
+
+.emotion-1:focus {
+  box-shadow: 0 0 0 4px #FFEED5;
+}
+
+.emotion-1:hover {
+  background-color: #C87400;
+}
+
+.emotion-0 {
+  color: rgb(77,83,86);
+  font-family: sans-serif;
+  font-family: Lato;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  font-size: 16px;
+  line-height: 36px;
+  color: white;
+  font-weight: bold;
+}
+
+<button
+  class="emotion-1"
+  type="button"
+>
+  <span
+    class="emotion-0"
+  >
+    this is a button
+  </span>
+</button>
+`;
