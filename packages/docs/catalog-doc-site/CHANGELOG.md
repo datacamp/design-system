@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.14.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-catalog-doc-site@1.13.0...@datacamp/waffles-catalog-doc-site@1.14.0) (2019-08-23)
+
+
+### Features
+
+* button docs ([e7e38e8](https://github.com/datacamp/design-system/commit/e7e38e8))
+
+
+
+
+
 # [1.13.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-catalog-doc-site@1.12.0...@datacamp/waffles-catalog-doc-site@1.13.0) (2019-08-19)
 
 

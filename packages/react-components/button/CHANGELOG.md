@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.2.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-button@0.1.20...@datacamp/waffles-button@0.2.0) (2019-08-23)
+
+
+### Features
+
+* add button component ([67cd64e](https://github.com/datacamp/design-system/commit/67cd64e))
+
+
+
+
+
 ## [0.1.20](https://github.com/datacamp/design-system/compare/@datacamp/waffles-button@0.1.19...@datacamp/waffles-button@0.1.20) (2019-06-11)
 
 **Note:** Version bump only for package @datacamp/waffles-button
