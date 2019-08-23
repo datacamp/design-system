@@ -55,7 +55,7 @@
     "@datacamp/waffles-core": "^1.2.6",
     "@datacamp/waffles-text": "^0.11.1",
     "@datacamp/waffles-tokens": "^0.6.2",
-    "@emotion/core": "^10.0.15",
+    "@emotion/core": "^10.0.16",
     "lodash": "^4.17.13",
     "prop-types": "^15.6.0"
   },
