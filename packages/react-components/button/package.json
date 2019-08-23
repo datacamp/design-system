@@ -36,7 +36,7 @@
     "@testing-library/user-event": "4.2.4",
     "@types/jest": "24.0.17",
     "babel-jest": "24.8.0",
-    "jest": "24.6.0",
+    "jest": "24.9.0",
     "jest-emotion": "10.0.14",
     "react": "16.9.0",
     "react-dom": "16.9.0"
