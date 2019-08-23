@@ -2,6 +2,7 @@ version: 2.1
 orbs:
   datacamp-ecr: datacamp/ecr@0
   datacamp-deploy: datacamp/deploy@1
+  slack: circleci/slack@3.4.1
 jobs:
   build:
     docker:
@@ -98,10 +99,74 @@ jobs:
             export AWS_ACCESS_KEY_ID=$PROD_AWS_ACCESS_KEY_ID
             export AWS_SECRET_ACCESS_KEY=$PROD_AWS_SECRET_ACCESS_KEY
             aws cloudfront create-invalidation --distribution-id ${CLOUDFRONT_ID} --paths "/index.html"
-
+  mutation-test:
+    resource_class: xlarge
+    docker:
+      - image: circleci/node:12.4.0-browsers
+    steps:
+      - attach_workspace:
+          at: "."
+      - run:
+          name: stryker mutation tests
+          command: yarn stryker
+      - persist_to_workspace:
+          root: "."
+          paths:
+            - ./**
+  send-to-slack:
+    docker:
+      - image: circleci/node
+    steps:
+      - slack/notify:
+          message: Available to view at https://waffles-stryker-report.datacamp-staging.com/ (needs VPN)
+          include_project_field: false
+          include_job_number_field: false
+          include_visit_job_action: false
+          title: Check it party people, the mutation test results are in
+          color: '#33aacc'
+          channel: '#design-system-squad'
 workflows:
   version: 2
-  build_and_deploy:
+  run_mutation_testing:
+    triggers:
+      - schedule:
+          cron: "0 0 * * 4"
+          filters:
+            branches:
+              only:
+                - master
+    jobs:
+      - build:
+          context: org-global
+      - mutation-test:
+          requires:
+            - build
+          context: org-global
+      - datacamp-ecr/build_and_push_image_to_ecr:
+          requires:
+            - mutation-test
+          name: push-stryker-image
+          context: org-global
+          aws-access-key-id: $STAGING_AWS_ACCESS_KEY_ID
+          aws-secret-access-key: $STAGING_AWS_SECRET_ACCESS_KEY
+          account-url: $STAGING_ECR_URL
+          repo: waffles-stryker-report
+          pre-build-steps:
+            - attach_workspace:
+                at: "."
+      - datacamp-deploy/deploy:
+          name: deploy-stryker-report
+          context: org-global
+          new-deploy-opt-in: true
+          deploy-url: $STAGING_LAMBDA_DEPLOY_URL
+          deploy-password: $STAGING_LAMBDA_DEPLOY_PASSWORD
+          requires:
+            - push-stryker-image
+      - send-to-slack:
+          context: org-global
+          requires:
+            - deploy-stryker-report
+  do_everything:
     jobs:
       - build:
           context: org-global
@@ -121,6 +186,8 @@ workflows:
           filters:
             tags:
               only: /.*/
+            branches:
+              ignore: /master/
       - upload-to-percy:
           requires:
             - test

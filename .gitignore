@@ -21,4 +21,7 @@ Thumbs.db
 tmp
 es
 types
+
+.stryker-tmp
+reports
 componentMetadata.json

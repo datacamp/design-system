@@ -22,7 +22,8 @@
     "prepare": " yarn clean && yarn build",
     "test": "jest",
     "type-check": "tsc --noEmit",
-    "watch": "yarn build:es --watch"
+    "watch": "yarn build:es --watch",
+    "stryker": "stryker run"
   },
   "devDependencies": {
     "@babel/cli": "7.6.4",
@@ -32,6 +33,10 @@
     "@datacamp/waffles-icons": "^1.7.1",
     "@datacamp/waffles-tsconfig": "^1.1.4",
     "@emotion/core": "^10.0.17",
+    "@stryker-mutator/core": "^2.0.2",
+    "@stryker-mutator/html-reporter": "^2.0.2",
+    "@stryker-mutator/jest-runner": "^2.0.2",
+    "@stryker-mutator/typescript": "^2.0.2",
     "@testing-library/jest-dom": "4.2.3",
     "@testing-library/react": "8.0.7",
     "@testing-library/user-event": "7.1.2",
