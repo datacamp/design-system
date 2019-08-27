@@ -1376,7 +1376,6 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent n
 
 .emotion-1:hover {
   background-color: #2E8FAB;
-  box-shadow: 0 0 0 4px #DCECF1;
 }
 
 .emotion-0 {
@@ -1461,7 +1460,6 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent n
 
 .emotion-1:hover {
   background-color: #2E8FAB;
-  box-shadow: 0 0 0 4px #DCECF1;
 }
 
 .emotion-0 {
@@ -1546,7 +1544,6 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent n
 
 .emotion-1:hover {
   background-color: #2E8FAB;
-  box-shadow: 0 0 0 4px #DCECF1;
 }
 
 .emotion-0 {
