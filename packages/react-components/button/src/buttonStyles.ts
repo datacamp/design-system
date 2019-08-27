@@ -56,7 +56,7 @@ const defaultStyle = css({
     transform: 'none',
   },
   ':focus': { boxShadow: ' 0 0 0 4px #DCECF1' },
-  ':hover': { backgroundColor: '#2E8FAB', boxShadow: ' 0 0 0 4px #DCECF1' },
+  ':hover': { backgroundColor: '#2E8FAB' },
   backgroundColor: tokens.color.opaque.primary.value.rgb,
 });
 
