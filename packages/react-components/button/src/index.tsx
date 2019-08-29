@@ -33,7 +33,7 @@ interface LinkButtonProps extends BaseButtonProps {
 }
 
 interface ButtonButtonProps extends BaseButtonProps {
-  onClick: () => {};
+  onClick: () => void;
   type?: 'button';
 }
 
