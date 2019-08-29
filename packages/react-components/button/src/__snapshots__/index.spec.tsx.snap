@@ -10,17 +10,29 @@ exports[`<Button /> snapshots renders a button with appearance default, intent d
   font-weight: 400;
   line-height: 16px;
   font-size: 20px;
+  font-weight: bold;
   line-height: 64px;
   color: #3D4251;
-  font-weight: bold;
 }
 
 .emotion-1 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
   border: none;
   border-radius: 4px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   font-family: Lato;
   font-weight: bold;
-  padding: 16px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 0 16px;
   text-transform: capitalize;
   -webkit-transition: 0.15s;
   transition: 0.15s;
@@ -87,17 +99,29 @@ exports[`<Button /> snapshots renders a button with appearance default, intent d
   font-weight: 400;
   line-height: 16px;
   font-size: 16px;
+  font-weight: bold;
   line-height: 48px;
   color: #3D4251;
-  font-weight: bold;
 }
 
 .emotion-1 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
   border: none;
   border-radius: 4px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   font-family: Lato;
   font-weight: bold;
-  padding: 16px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 0 16px;
   text-transform: capitalize;
   -webkit-transition: 0.15s;
   transition: 0.15s;
@@ -164,17 +188,29 @@ exports[`<Button /> snapshots renders a button with appearance default, intent d
   font-weight: 400;
   line-height: 16px;
   font-size: 16px;
+  font-weight: bold;
   line-height: 36px;
   color: #3D4251;
-  font-weight: bold;
 }
 
 .emotion-1 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
   border: none;
   border-radius: 4px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   font-family: Lato;
   font-weight: bold;
-  padding: 16px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 0 16px;
   text-transform: capitalize;
   -webkit-transition: 0.15s;
   transition: 0.15s;
@@ -233,11 +269,23 @@ exports[`<Button /> snapshots renders a button with appearance default, intent d
 
 exports[`<Button /> snapshots renders a button with appearance default, intent neutral and size large 1`] = `
 .emotion-1 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
   border: none;
   border-radius: 4px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   font-family: Lato;
   font-weight: bold;
-  padding: 16px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 0 16px;
   text-transform: capitalize;
   -webkit-transition: 0.15s;
   transition: 0.15s;
@@ -291,9 +339,9 @@ exports[`<Button /> snapshots renders a button with appearance default, intent n
   font-weight: 400;
   line-height: 16px;
   font-size: 20px;
+  font-weight: bold;
   line-height: 64px;
   color: #3D4251;
-  font-weight: bold;
 }
 
 <button
@@ -310,11 +358,23 @@ exports[`<Button /> snapshots renders a button with appearance default, intent n
 
 exports[`<Button /> snapshots renders a button with appearance default, intent neutral and size medium 1`] = `
 .emotion-1 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
   border: none;
   border-radius: 4px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   font-family: Lato;
   font-weight: bold;
-  padding: 16px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 0 16px;
   text-transform: capitalize;
   -webkit-transition: 0.15s;
   transition: 0.15s;
@@ -368,9 +428,9 @@ exports[`<Button /> snapshots renders a button with appearance default, intent n
   font-weight: 400;
   line-height: 16px;
   font-size: 16px;
+  font-weight: bold;
   line-height: 48px;
   color: #3D4251;
-  font-weight: bold;
 }
 
 <button
@@ -387,11 +447,23 @@ exports[`<Button /> snapshots renders a button with appearance default, intent n
 
 exports[`<Button /> snapshots renders a button with appearance default, intent neutral and size small 1`] = `
 .emotion-1 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
   border: none;
   border-radius: 4px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   font-family: Lato;
   font-weight: bold;
-  padding: 16px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 0 16px;
   text-transform: capitalize;
   -webkit-transition: 0.15s;
   transition: 0.15s;
@@ -445,9 +517,9 @@ exports[`<Button /> snapshots renders a button with appearance default, intent n
   font-weight: 400;
   line-height: 16px;
   font-size: 16px;
+  font-weight: bold;
   line-height: 36px;
   color: #3D4251;
-  font-weight: bold;
 }
 
 <button
@@ -472,17 +544,29 @@ exports[`<Button /> snapshots renders a button with appearance default, intent s
   font-weight: 400;
   line-height: 16px;
   font-size: 20px;
+  font-weight: bold;
   line-height: 64px;
   color: #3D4251;
-  font-weight: bold;
 }
 
 .emotion-1 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
   border: none;
   border-radius: 4px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   font-family: Lato;
   font-weight: bold;
-  padding: 16px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 0 16px;
   text-transform: capitalize;
   -webkit-transition: 0.15s;
   transition: 0.15s;
@@ -549,17 +633,29 @@ exports[`<Button /> snapshots renders a button with appearance default, intent s
   font-weight: 400;
   line-height: 16px;
   font-size: 16px;
+  font-weight: bold;
   line-height: 48px;
   color: #3D4251;
-  font-weight: bold;
 }
 
 .emotion-1 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
   border: none;
   border-radius: 4px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   font-family: Lato;
   font-weight: bold;
-  padding: 16px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 0 16px;
   text-transform: capitalize;
   -webkit-transition: 0.15s;
   transition: 0.15s;
@@ -626,17 +722,29 @@ exports[`<Button /> snapshots renders a button with appearance default, intent s
   font-weight: 400;
   line-height: 16px;
   font-size: 16px;
+  font-weight: bold;
   line-height: 36px;
   color: #3D4251;
-  font-weight: bold;
 }
 
 .emotion-1 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
   border: none;
   border-radius: 4px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   font-family: Lato;
   font-weight: bold;
-  padding: 16px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 0 16px;
   text-transform: capitalize;
   -webkit-transition: 0.15s;
   transition: 0.15s;
@@ -703,17 +811,29 @@ exports[`<Button /> snapshots renders a button with appearance default, intent w
   font-weight: 400;
   line-height: 16px;
   font-size: 20px;
+  font-weight: bold;
   line-height: 64px;
   color: #3D4251;
-  font-weight: bold;
 }
 
 .emotion-1 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
   border: none;
   border-radius: 4px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   font-family: Lato;
   font-weight: bold;
-  padding: 16px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 0 16px;
   text-transform: capitalize;
   -webkit-transition: 0.15s;
   transition: 0.15s;
@@ -780,17 +900,29 @@ exports[`<Button /> snapshots renders a button with appearance default, intent w
   font-weight: 400;
   line-height: 16px;
   font-size: 16px;
+  font-weight: bold;
   line-height: 48px;
   color: #3D4251;
-  font-weight: bold;
 }
 
 .emotion-1 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
   border: none;
   border-radius: 4px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   font-family: Lato;
   font-weight: bold;
-  padding: 16px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 0 16px;
   text-transform: capitalize;
   -webkit-transition: 0.15s;
   transition: 0.15s;
@@ -857,17 +989,29 @@ exports[`<Button /> snapshots renders a button with appearance default, intent w
   font-weight: 400;
   line-height: 16px;
   font-size: 16px;
+  font-weight: bold;
   line-height: 36px;
   color: #3D4251;
-  font-weight: bold;
 }
 
 .emotion-1 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
   border: none;
   border-radius: 4px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   font-family: Lato;
   font-weight: bold;
-  padding: 16px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 0 16px;
   text-transform: capitalize;
   -webkit-transition: 0.15s;
   transition: 0.15s;
@@ -934,17 +1078,29 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent d
   font-weight: 400;
   line-height: 16px;
   font-size: 20px;
+  font-weight: bold;
   line-height: 64px;
   color: white;
-  font-weight: bold;
 }
 
 .emotion-1 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
   border: none;
   border-radius: 4px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   font-family: Lato;
   font-weight: bold;
-  padding: 16px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 0 16px;
   text-transform: capitalize;
   -webkit-transition: 0.15s;
   transition: 0.15s;
@@ -1006,17 +1162,29 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent d
   font-weight: 400;
   line-height: 16px;
   font-size: 16px;
+  font-weight: bold;
   line-height: 48px;
   color: white;
-  font-weight: bold;
 }
 
 .emotion-1 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
   border: none;
   border-radius: 4px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   font-family: Lato;
   font-weight: bold;
-  padding: 16px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 0 16px;
   text-transform: capitalize;
   -webkit-transition: 0.15s;
   transition: 0.15s;
@@ -1070,11 +1238,23 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent d
 
 exports[`<Button /> snapshots renders a button with appearance primary, intent danger and size small 1`] = `
 .emotion-1 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
   border: none;
   border-radius: 4px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   font-family: Lato;
   font-weight: bold;
-  padding: 16px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 0 16px;
   text-transform: capitalize;
   -webkit-transition: 0.15s;
   transition: 0.15s;
@@ -1123,9 +1303,9 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent d
   font-weight: 400;
   line-height: 16px;
   font-size: 16px;
+  font-weight: bold;
   line-height: 36px;
   color: white;
-  font-weight: bold;
 }
 
 <button
@@ -1142,11 +1322,23 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent d
 
 exports[`<Button /> snapshots renders a button with appearance primary, intent neutral and size large 1`] = `
 .emotion-1 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
   border: none;
   border-radius: 4px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   font-family: Lato;
   font-weight: bold;
-  padding: 16px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 0 16px;
   text-transform: capitalize;
   -webkit-transition: 0.15s;
   transition: 0.15s;
@@ -1196,9 +1388,9 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent n
   font-weight: 400;
   line-height: 16px;
   font-size: 20px;
+  font-weight: bold;
   line-height: 64px;
   color: white;
-  font-weight: bold;
 }
 
 <button
@@ -1215,11 +1407,23 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent n
 
 exports[`<Button /> snapshots renders a button with appearance primary, intent neutral and size medium 1`] = `
 .emotion-1 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
   border: none;
   border-radius: 4px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   font-family: Lato;
   font-weight: bold;
-  padding: 16px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 0 16px;
   text-transform: capitalize;
   -webkit-transition: 0.15s;
   transition: 0.15s;
@@ -1269,9 +1473,9 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent n
   font-weight: 400;
   line-height: 16px;
   font-size: 16px;
+  font-weight: bold;
   line-height: 48px;
   color: white;
-  font-weight: bold;
 }
 
 <button
@@ -1288,11 +1492,23 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent n
 
 exports[`<Button /> snapshots renders a button with appearance primary, intent neutral and size small 1`] = `
 .emotion-1 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
   border: none;
   border-radius: 4px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   font-family: Lato;
   font-weight: bold;
-  padding: 16px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 0 16px;
   text-transform: capitalize;
   -webkit-transition: 0.15s;
   transition: 0.15s;
@@ -1342,9 +1558,9 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent n
   font-weight: 400;
   line-height: 16px;
   font-size: 16px;
+  font-weight: bold;
   line-height: 36px;
   color: white;
-  font-weight: bold;
 }
 
 <button
@@ -1369,17 +1585,29 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent s
   font-weight: 400;
   line-height: 16px;
   font-size: 20px;
+  font-weight: bold;
   line-height: 64px;
   color: white;
-  font-weight: bold;
 }
 
 .emotion-1 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
   border: none;
   border-radius: 4px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   font-family: Lato;
   font-weight: bold;
-  padding: 16px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 0 16px;
   text-transform: capitalize;
   -webkit-transition: 0.15s;
   transition: 0.15s;
@@ -1441,17 +1669,29 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent s
   font-weight: 400;
   line-height: 16px;
   font-size: 16px;
+  font-weight: bold;
   line-height: 48px;
   color: white;
-  font-weight: bold;
 }
 
 .emotion-1 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
   border: none;
   border-radius: 4px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   font-family: Lato;
   font-weight: bold;
-  padding: 16px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 0 16px;
   text-transform: capitalize;
   -webkit-transition: 0.15s;
   transition: 0.15s;
@@ -1505,11 +1745,23 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent s
 
 exports[`<Button /> snapshots renders a button with appearance primary, intent success and size small 1`] = `
 .emotion-1 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
   border: none;
   border-radius: 4px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   font-family: Lato;
   font-weight: bold;
-  padding: 16px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 0 16px;
   text-transform: capitalize;
   -webkit-transition: 0.15s;
   transition: 0.15s;
@@ -1558,9 +1810,9 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent s
   font-weight: 400;
   line-height: 16px;
   font-size: 16px;
+  font-weight: bold;
   line-height: 36px;
   color: white;
-  font-weight: bold;
 }
 
 <button
@@ -1585,17 +1837,29 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent w
   font-weight: 400;
   line-height: 16px;
   font-size: 20px;
+  font-weight: bold;
   line-height: 64px;
   color: white;
-  font-weight: bold;
 }
 
 .emotion-1 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
   border: none;
   border-radius: 4px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   font-family: Lato;
   font-weight: bold;
-  padding: 16px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 0 16px;
   text-transform: capitalize;
   -webkit-transition: 0.15s;
   transition: 0.15s;
@@ -1657,17 +1921,29 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent w
   font-weight: 400;
   line-height: 16px;
   font-size: 16px;
+  font-weight: bold;
   line-height: 48px;
   color: white;
-  font-weight: bold;
 }
 
 .emotion-1 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
   border: none;
   border-radius: 4px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   font-family: Lato;
   font-weight: bold;
-  padding: 16px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 0 16px;
   text-transform: capitalize;
   -webkit-transition: 0.15s;
   transition: 0.15s;
@@ -1721,11 +1997,23 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent w
 
 exports[`<Button /> snapshots renders a button with appearance primary, intent warning and size small 1`] = `
 .emotion-1 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
   border: none;
   border-radius: 4px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   font-family: Lato;
   font-weight: bold;
-  padding: 16px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 0 16px;
   text-transform: capitalize;
   -webkit-transition: 0.15s;
   transition: 0.15s;
@@ -1774,9 +2062,9 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent w
   font-weight: 400;
   line-height: 16px;
   font-size: 16px;
+  font-weight: bold;
   line-height: 36px;
   color: white;
-  font-weight: bold;
 }
 
 <button

@@ -1,6 +1,7 @@
 import '@testing-library/jest-dom/extend-expect';
 
 import axeRender from '@datacamp/waffles-axe-render';
+import { render } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import React from 'react';
 
@@ -142,7 +143,9 @@ describe('<Button />', () => {
         </Button>
       );
 
-      expect(container.firstChild).toHaveStyle(`background-color:  #FF9400`);
+      expect(container.firstChild).toHaveStyle(
+        `background-color: tokens.color.opaque.orange.value.rgb`
+      );
     });
 
     it('renders a green button for the appearance="primary" and intent="success', async () => {
@@ -152,7 +155,9 @@ describe('<Button />', () => {
         </Button>
       );
 
-      expect(container.firstChild).toHaveStyle(`background-color:  #36D57D`);
+      expect(container.firstChild).toHaveStyle(
+        `background-color:  tokens.color.opaque.green.value.rgb`
+      );
     });
   });
 
@@ -207,6 +212,41 @@ describe('<Button />', () => {
 
       expect(buttonElement).toHaveStyle(`box-shadow: inset 0 0 0 1px #36D57D`);
       expect(buttonElement).toHaveStyle(`background-color: white`);
+    });
+  });
+
+  describe('isLoading', () => {
+    it('renders a spinner when the prop "isLoading" is passed to the button', async () => {
+      const { container, getByText, getByTitle } = await render(
+        <Button isLoading>btn loading</Button>
+      );
+
+      const buttonElement = container.firstChild;
+      const spinnerElement = getByTitle('Spinner') as HTMLElement;
+      expect(buttonElement).toContainElement(spinnerElement);
+      expect(getByText('btn loading') as HTMLElement).toHaveStyle(
+        `color: transparent`
+      );
+    });
+
+    it('renders a dark spinner when the appearance="default" (or undefined)', async () => {
+      const { container } = await render(<Button isLoading>Loading</Button>);
+
+      const spinnerElement = container.querySelector('g');
+
+      expect(spinnerElement).toHaveAttribute('fill', '#3D4251');
+    });
+
+    it('renders a white spinner when the appearance="primary"', async () => {
+      const { container } = await render(
+        <Button appearance="primary" isLoading>
+          Loading
+        </Button>
+      );
+
+      const spinnerElement = container.querySelector('g');
+
+      expect(spinnerElement).toHaveAttribute('fill', '#ffffff');
     });
   });
 
