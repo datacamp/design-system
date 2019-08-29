@@ -12,7 +12,8 @@
     "@typescript-eslint",
     "sort-keys-fix",
     "simple-import-sort",
-    "typescript-sort-keys"
+    "typescript-sort-keys",
+    "react-hooks"
   ],
   "rules": {
     "prettier/prettier": "error",
@@ -59,7 +60,9 @@
     "react/jsx-sort-props": [
       "error",
       { "shorthandLast": true, "reservedFirst": true }
-    ]
+    ],
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "error"
   },
   "globals": {},
   "env": {
