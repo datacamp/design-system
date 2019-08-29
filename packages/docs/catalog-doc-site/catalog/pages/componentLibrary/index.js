@@ -8,7 +8,7 @@ const components = [
   { docLink: '/component-library/tag', name: 'Tag', status: 'Available' },
   { docLink: '/component-library/icons', name: 'Icon', status: 'Available' },
   { docLink: '/component-library/text', name: 'Text', status: 'Available' },
-  { docLink: '/component-library/card', name: 'Card', status: 'Avilable' },
+  { docLink: '/component-library/card', name: 'Card', status: 'Available' },
   { name: 'Pill', status: 'Planned' },
   { name: 'Badge', status: 'Planned' },
   { name: 'Table', status: 'Planned' },
