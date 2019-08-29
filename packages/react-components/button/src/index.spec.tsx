@@ -265,17 +265,24 @@ describe('<Button />', () => {
       'success',
     ];
     const buttonAppearance: ('primary' | 'default')[] = ['primary', 'default'];
-
+    const isLoadings: boolean[] = [true, false];
     buttonSizes.forEach(size => {
       buttonIntents.forEach(intent => {
         buttonAppearance.forEach(appearance => {
-          it(`renders a button with appearance ${appearance}, intent ${intent} and size ${size}`, async () => {
-            const { container } = await axeRender(
-              <Button appearance={appearance} intent={intent} size={size}>
-                {exampleText}
-              </Button>
-            );
-            expect(container.firstChild).toMatchSnapshot();
+          isLoadings.forEach(isLoading => {
+            it(`renders a button with appearance ${appearance}, intent ${intent}, size ${size} and isLoading ${isLoading}`, async () => {
+              const { container } = await axeRender(
+                <Button
+                  appearance={appearance}
+                  intent={intent}
+                  isLoading={isLoading}
+                  size={size}
+                >
+                  {exampleText}
+                </Button>
+              );
+              expect(container.firstChild).toMatchSnapshot();
+            });
           });
         });
       });
