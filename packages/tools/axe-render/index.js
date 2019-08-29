@@ -5,7 +5,7 @@ expect.extend(toHaveNoViolations);
 
 const axeRender = (ui, options) => {
   const renderResult = render(ui, options);
-  return axe(renderResult.container.innerHTML).then(html => {
+  return axe(document.body.innerHTML).then(html => {
     expect(html).toHaveNoViolations();
     return renderResult;
   });
