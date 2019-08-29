@@ -14,22 +14,38 @@ const warningOutlineHoverBorder = 'inset 0 0 0 1px #C87400';
 const successFocusShadow = '0 0 0 4px #E7F2EC';
 const successOutline = 'inset 0 0 0 1px #36D57D';
 const successOutlineHoverBorder = 'inset 0 0 0 1px #29A360';
+
 // BASE STYLES
 const baseStyle = css({
   ':active': { transform: 'perspective(1px) scale(0.975)' },
   ':focus': { outline: '0' },
   ':hover': { cursor: 'pointer' },
+  alignItems: 'center',
   border: 'none',
   borderRadius: '4px',
+  display: 'flex',
+
   fontFamily: 'Lato',
   fontWeight: 'bold',
-  padding: ' 16px',
+  justifyContent: 'center',
+
+  padding: ' 0 16px',
   textTransform: 'capitalize',
   transition: '0.15s',
 });
 
 const baseOutlineStyle = css({
   backgroundColor: 'white',
+});
+
+const baseLoadingStyle = css({
+  ':active': { transform: 'none' },
+  ':focus, :hover:focus, : hover': {
+    cursor: 'wait',
+  },
+  backgroundColor: 'white',
+  padding: '0 16px',
+  position: 'relative',
 });
 
 // PRIMARY STYLES
@@ -81,6 +97,24 @@ const warningStyle = css({
   ':hover': {
     backgroundColor: ' #C87400',
   },
+  backgroundColor: tokens.color.opaque.orange.value.rgb,
+});
+
+// PRIMARY LOADING STYLES
+
+const primaryLoadingStyle = css(baseLoadingStyle, {
+  backgroundColor: tokens.color.opaque.primary.value.rgb,
+});
+
+const dangerLoadingStyle = css(baseLoadingStyle, {
+  backgroundColor: tokens.color.opaque.red.value.rgb,
+});
+
+const successLoadingStyle = css(baseLoadingStyle, {
+  backgroundColor: tokens.color.opaque.green.value.rgb,
+});
+
+const warningLoadingStyle = css(baseLoadingStyle, {
   backgroundColor: tokens.color.opaque.orange.value.rgb,
 });
 
@@ -141,12 +175,42 @@ const successOutlineStyle = css(baseOutlineStyle, {
   boxShadow: successOutline,
 });
 
+// /OUTLINE LOADING STYLES
+
+const outlineLoadingStyle = css(baseLoadingStyle, {
+  boxShadow: defaultOutline,
+});
+
+const dangerOutlineLoadingStyle = css(baseLoadingStyle, {
+  boxShadow: dangerOutline,
+});
+
+const warningOutlineLoadingStyle = css(baseLoadingStyle, {
+  boxShadow: warningOutline,
+});
+
+const successOutlineLoadingStyle = css(baseLoadingStyle, {
+  boxShadow: successOutline,
+});
+
 // FONT SIZES
-const fontSizeDefault = css({ fontSize: '16px', lineHeight: '48px' });
+const fontSizeDefault = css({
+  fontSize: '16px',
+  fontWeight: 'bold',
+  lineHeight: '48px',
+});
 
-const fontSizeSmall = css({ fontSize: '16px', lineHeight: '36px' });
+const fontSizeSmall = css({
+  fontSize: '16px',
+  fontWeight: 'bold',
+  lineHeight: '36px',
+});
 
-const fontSizeLarge = css({ fontSize: '20px', lineHeight: '64px' });
+const fontSizeLarge = css({
+  fontSize: '20px',
+  fontWeight: 'bold',
+  lineHeight: '64px',
+});
 
 // FUNCTIONS TO DEFINE STYLE
 
@@ -158,44 +222,87 @@ const getSize = (size: 'small' | 'medium' | 'large'): SerializedStyles => {
 };
 
 const getPrimaryStyle = (
+  intent: 'danger' | 'warning' | 'success' | 'neutral'
+): SerializedStyles => {
+  switch (intent) {
+    case 'danger':
+      return dangerStyle;
+    case 'warning':
+      return warningStyle;
+    case 'success':
+      return successStyle;
+    case 'neutral':
+    default:
+      return defaultStyle;
+  }
+};
+
+const getPrimaryLoadingStyle = (
+  intent: 'danger' | 'warning' | 'success' | 'neutral'
+): SerializedStyles => {
+  switch (intent) {
+    case 'danger':
+      return dangerLoadingStyle;
+    case 'warning':
+      return warningLoadingStyle;
+    case 'success':
+      return successLoadingStyle;
+    case 'neutral':
+    default:
+      return primaryLoadingStyle;
+  }
+};
+
+const getOutlineLoadingStyle = (
   intent?: 'danger' | 'warning' | 'success' | 'neutral'
 ): SerializedStyles => {
-  if (intent === 'danger') {
-    return dangerStyle;
+  switch (intent) {
+    case 'danger':
+      return dangerOutlineLoadingStyle;
+    case 'warning':
+      return warningOutlineLoadingStyle;
+    case 'success':
+      return successOutlineLoadingStyle;
+    case 'neutral':
+    default:
+      return outlineLoadingStyle;
   }
-  if (intent === 'warning') {
-    return warningStyle;
-  }
-  if (intent === 'success') {
-    return successStyle;
-  }
-
-  return defaultStyle;
 };
 
 const getOutlineStyle = (
   intent?: 'danger' | 'warning' | 'success' | 'neutral'
 ): SerializedStyles => {
-  if (intent === 'danger') {
-    return dangerOutlineStyle;
+  switch (intent) {
+    case 'danger':
+      return dangerOutlineStyle;
+    case 'warning':
+      return warningOutlineStyle;
+    case 'success':
+      return successOutlineStyle;
+    case 'neutral':
+    default:
+      return defaultOutlineStyle;
   }
-  if (intent === 'warning') {
-    return warningOutlineStyle;
-  }
-  if (intent === 'success') {
-    return successOutlineStyle;
-  }
-  return defaultOutlineStyle;
 };
 
 const getFontSize = (size?: 'small' | 'medium' | 'large'): SerializedStyles => {
-  if (size === 'large') {
-    return fontSizeLarge;
+  switch (size) {
+    case 'large':
+      return fontSizeLarge;
+    case 'small':
+      return fontSizeSmall;
+    default:
+      return fontSizeDefault;
   }
-  if (size === 'small') {
-    return fontSizeSmall;
-  }
-  return fontSizeDefault;
 };
 
-export { baseStyle, getFontSize, getOutlineStyle, getPrimaryStyle, getSize };
+export {
+  baseStyle,
+  getFontSize,
+  getOutlineLoadingStyle,
+  getOutlineStyle,
+  getPrimaryStyle,
+  getPrimaryLoadingStyle,
+  getSize,
+  primaryLoadingStyle,
+};
