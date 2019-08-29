@@ -1,0 +1,368 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AlertModal /> isOpen mounts nothing when false 1`] = `
+<body
+  class=""
+>
+  <div
+    class="ReactModalPortal"
+  />
+  <div />
+  <div
+    class="ReactModalPortal"
+  />
+</body>
+`;
+
+exports[`<AlertModal /> isOpen renders the modal via a portal when true 1`] = `
+.emotion-10 {
+  opacity: 1 !important;
+  -webkit-transform: translate(-50%,-50%) scale(1) !important;
+  -ms-transform: translate(-50%,-50%) scale(1) !important;
+  transform: translate(-50%,-50%) scale(1) !important;
+}
+
+.emotion-9 {
+  left: 50%;
+  margin: auto;
+  opacity: 0;
+  outline: none;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translate(-50%,-50%) scale(0.5);
+  -ms-transform: translate(-50%,-50%) scale(0.5);
+  transform: translate(-50%,-50%) scale(0.5);
+  -webkit-transition: 0.4s cubic-bezier(0.19,1,0.22,1);
+  transition: 0.4s cubic-bezier(0.19,1,0.22,1);
+  width: 480px;
+}
+
+.emotion-12 {
+  opacity: 1 !important;
+}
+
+.emotion-11 {
+  background-color: rgba(38,62,99,0.8);
+  bottom: 0;
+  left: 0;
+  opacity: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  -webkit-transition: opacity 0.6s cubic-bezier(0.19,1,0.22,1);
+  transition: opacity 0.6s cubic-bezier(0.19,1,0.22,1);
+}
+
+.emotion-13 {
+  overflow: hidden;
+}
+
+.emotion-8 {
+  background-color: rgb(255,255,255);
+  border-radius: 4px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.15);
+  -webkit-transition: all 0.6s cubic-bezier(0.075,0.82,0.165,1);
+  transition: all 0.6s cubic-bezier(0.075,0.82,0.165,1);
+  padding: 32px;
+  text-align: center;
+}
+
+.emotion-0 {
+  background-color: white;
+  border: none;
+  border-radius: 2px;
+  color: rgb(61,66,81);
+  cursor: pointer;
+  height: 32px;
+  outline: none;
+  padding: 0;
+  position: absolute;
+  right: 8px;
+  top: 8px;
+  width: 32px;
+}
+
+.emotion-0:active {
+  color: rgb(51,170,204);
+}
+
+.emotion-0:focus {
+  background-color: rgb(240,244,245);
+}
+
+.emotion-0:hover {
+  background-color: rgb(240,244,245);
+}
+
+.emotion-1 {
+  color: rgb(77,83,86);
+  font-family: sans-serif;
+  font-family: Lato;
+  font-style: normal;
+  color: rgb(61,66,81);
+  font-weight: 700;
+  line-height: 1.25;
+  margin: 0;
+  overflow: auto;
+  white-space: normal;
+  font-size: 24px;
+  margin-top: 16px;
+}
+
+.emotion-1:first-child:not(style),
+.emotion-1 style:first-child + * {
+  margin-top: 0;
+}
+
+.emotion-2 {
+  color: rgb(77,83,86);
+  font-family: sans-serif;
+  font-family: Lato;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  margin: 0;
+  margin-top: 8px;
+}
+
+.emotion-2:first-child:not(style),
+.emotion-2 style:first-child + * {
+  margin-top: 0;
+}
+
+.emotion-7 {
+  margin-top: 24px;
+}
+
+.emotion-4 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border: none;
+  border-radius: 4px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: Lato;
+  font-weight: bold;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 0 16px;
+  text-transform: capitalize;
+  -webkit-transition: 0.15s;
+  transition: 0.15s;
+  padding: 0 16px;
+  background-color: white;
+  box-shadow: inset 0 0 0 1px #33AACC;
+  margin-right: 16px;
+}
+
+.emotion-4:active {
+  -webkit-transform: perspective(1px) scale(0.975);
+  -ms-transform: perspective(1px) scale(0.975);
+  transform: perspective(1px) scale(0.975);
+}
+
+.emotion-4:focus {
+  outline: 0;
+}
+
+.emotion-4:hover {
+  cursor: pointer;
+}
+
+.emotion-4:disabled,
+.emotion-4:hover:disabled,
+.emotion-4:active:disabled {
+  box-shadow: inset 0 0 0 1px #DCECF1;
+  cursor: not-allowed;
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+}
+
+.emotion-4:focus {
+  box-shadow: 0 0 0 4px #DCECF1,inset 0 0 0 1px #33AACC;
+}
+
+.emotion-4:hover {
+  box-shadow: inset 0 0 0 1px #2E8FAB;
+}
+
+.emotion-4:hover:focus {
+  box-shadow: 0 0 0 4px #DCECF1,inset 0 0 0 1px #2E8FAB;
+}
+
+.emotion-3 {
+  color: rgb(77,83,86);
+  font-family: sans-serif;
+  font-family: Lato;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 48px;
+  color: #3D4251;
+}
+
+.emotion-6 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border: none;
+  border-radius: 4px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: Lato;
+  font-weight: bold;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 0 16px;
+  text-transform: capitalize;
+  -webkit-transition: 0.15s;
+  transition: 0.15s;
+  padding: 0 16px;
+  background-color: rgb(51,170,204);
+}
+
+.emotion-6:active {
+  -webkit-transform: perspective(1px) scale(0.975);
+  -ms-transform: perspective(1px) scale(0.975);
+  transform: perspective(1px) scale(0.975);
+}
+
+.emotion-6:focus {
+  outline: 0;
+}
+
+.emotion-6:hover {
+  cursor: pointer;
+}
+
+.emotion-6:disabled,
+.emotion-6:hover:disabled,
+.emotion-6:active:disabled {
+  background-color: #DCECF1;
+  cursor: not-allowed;
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+}
+
+.emotion-6:focus {
+  box-shadow: 0 0 0 4px #DCECF1;
+}
+
+.emotion-6:hover {
+  background-color: #2E8FAB;
+}
+
+.emotion-5 {
+  color: rgb(77,83,86);
+  font-family: sans-serif;
+  font-family: Lato;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 48px;
+  color: white;
+}
+
+<body
+  class="emotion-13"
+>
+  <div
+    aria-hidden="true"
+  />
+  <div
+    class="ReactModalPortal"
+  >
+    <div
+      class="modal-overlay emotion-11 emotion-12"
+    >
+      <div
+        aria-label="Alert dialog"
+        class="emotion-9 emotion-10"
+        role="dialog"
+        tabindex="-1"
+      >
+        <div
+          class="emotion-8"
+        >
+          <button
+            aria-label="Close"
+            class="emotion-0"
+            type="button"
+          >
+            <svg
+              aria-hidden="false"
+              height="18"
+              role="img"
+              viewBox="0 0 18 18"
+              width="18"
+            >
+              <title>
+                Cross
+              </title>
+              <path
+                d="M9.005 7.625l4.83-4.83a.976.976 0 0 1 1.38 1.38l-4.83 4.83 4.82 4.82a.976.976 0 1 1-1.38 1.38l-4.82-4.82-4.83 4.83a.976.976 0 0 1-1.38-1.38l4.83-4.83-4.84-4.84a.976.976 0 1 1 1.38-1.38l4.84 4.84z"
+                fill="currentColor"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </button>
+          <h1
+            class="emotion-1"
+          >
+            test title
+          </h1>
+          <p
+            class="emotion-2"
+          >
+            test description
+          </p>
+          <div
+            class="emotion-7"
+          >
+            <button
+              class="emotion-4"
+              type="button"
+            >
+              <span
+                class="emotion-3"
+              >
+                Cancel
+              </span>
+            </button>
+            <button
+              class="emotion-6"
+              type="button"
+            >
+              <span
+                class="emotion-5"
+              >
+                Confirm
+              </span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+`;
