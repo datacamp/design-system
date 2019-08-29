@@ -81,7 +81,7 @@ export default () => {
                   </td>
                   <LazyLiveEditCells
                     code={
-                      '<Button appearance="default" intent="success" >Button</Button>'
+                      '<Button appearance="primary" intent="success" >Button</Button>'
                     }
                     scope={{ Button }}
                   />
@@ -90,11 +90,23 @@ export default () => {
                   <th>disabled</th>
                   <td>disabled (optional)</td>
                   <td>
-                    The button can be disabled by passing
-                    `&quot;`disabled`&quot;` as a prop
+                    The button can be disabled by passing &quot;disabled&quot;
+                    as a prop
                   </td>
                   <LazyLiveEditCells
                     code={'<Button intent="warning" disabled  >Button</Button>'}
+                    scope={{ Button }}
+                  />
+                </tr>
+                <tr className="dc-table__tr">
+                  <th>isLoading</th>
+                  <td>isLoading (optional)</td>
+                  <td>
+                    By passing &quot;isLoading&quot; as a prop, the button will
+                    be disabled and it will render a spinner
+                  </td>
+                  <LazyLiveEditCells
+                    code={'<Button isLoading>Loading</Button>'}
                     scope={{ Button }}
                   />
                 </tr>
