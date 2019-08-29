@@ -140,23 +140,19 @@ storiesOf('waffles-button', module).add('Button Component', () => (
     </tr>
     <tr>
       <td>
-        {' '}
         <Button disabled>Disabled</Button>
       </td>
       <td>
-        {' '}
         <Button intent="danger" disabled>
           Disabled
         </Button>
       </td>
       <td>
-        {' '}
         <Button intent="success" disabled>
           Disabled
         </Button>
       </td>
       <td>
-        {' '}
         <Button intent="warning" disabled>
           Disabled
         </Button>
@@ -164,27 +160,129 @@ storiesOf('waffles-button', module).add('Button Component', () => (
     </tr>
     <tr>
       <td>
-        {' '}
         <Button appearance="primary" disabled>
           Disabled
         </Button>
       </td>
       <td>
-        {' '}
         <Button appearance="primary" intent="danger" disabled>
           Disabled
         </Button>
       </td>
       <td>
-        {' '}
         <Button appearance="primary" intent="success" disabled>
           Disabled
         </Button>
       </td>
       <td>
-        {' '}
         <Button appearance="primary" intent="warning" disabled>
           Disabled
+        </Button>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <Button isLoading>isLoading</Button>
+      </td>
+      <td>
+        <Button intent="danger" isLoading>
+          isLoading
+        </Button>
+      </td>
+      <td>
+        <Button intent="success" isLoading>
+          isLoading
+        </Button>
+      </td>
+      <td>
+        <Button intent="warning" isLoading>
+          isLoading
+        </Button>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <Button appearance="primary" isLoading>
+          isLoading
+        </Button>
+      </td>
+      <td>
+        <Button appearance="primary" intent="danger" isLoading>
+          isLoading
+        </Button>
+      </td>
+      <td>
+        <Button appearance="primary" intent="success" isLoading>
+          isLoading
+        </Button>
+      </td>
+      <td>
+        <Button appearance="primary" intent="warning" isLoading>
+          isLoading
+        </Button>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <Button size="large" isLoading>
+          isLoading
+        </Button>
+      </td>
+      <td>
+        <Button intent="danger" size="large" isLoading>
+          isLoading
+        </Button>
+      </td>
+      <td>
+        <Button intent="success" size="large" isLoading>
+          isLoading
+        </Button>
+      </td>
+      <td>
+        <Button intent="warning" size="large" isLoading>
+          isLoading
+        </Button>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <Button size="small" isLoading>
+          isLoading
+        </Button>
+      </td>
+      <td>
+        <Button intent="danger" size="small" isLoading>
+          isLoading
+        </Button>
+      </td>
+      <td>
+        <Button intent="success" size="small" isLoading>
+          isLoading
+        </Button>
+      </td>
+      <td>
+        <Button intent="warning" size="small" isLoading>
+          isLoading
+        </Button>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <Button isLoading>test different sizes</Button>
+      </td>
+      <td>
+        <Button intent="danger" isLoading>
+          test different sizes
+        </Button>
+      </td>
+      <td>
+        <Button intent="success" size="large" isLoading>
+          test different sizes
+        </Button>
+      </td>
+      <td>
+        <Button intent="warning" size="small" isLoading>
+          test different sizes
         </Button>
       </td>
     </tr>
