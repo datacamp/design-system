@@ -3,6 +3,20 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.15.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-storybook@1.14.0...@datacamp/waffles-storybook@1.15.0) (2019-08-29)
+
+
+### Features
+
+* add isLoading to Button story ([ead4252](https://github.com/datacamp/design-system/commit/ead4252))
+* add Markdown component ([3fa78cd](https://github.com/datacamp/design-system/commit/3fa78cd))
+* add story for markdown component ([8aa445a](https://github.com/datacamp/design-system/commit/8aa445a))
+* stories for new text nestings ([12d071e](https://github.com/datacamp/design-system/commit/12d071e))
+
+
+
+
+
 # [1.14.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-storybook@1.13.1...@datacamp/waffles-storybook@1.14.0) (2019-08-23)
 
 

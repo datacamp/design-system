@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.3.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-button@0.2.0...@datacamp/waffles-button@0.3.0) (2019-08-29)
+
+
+### Bug Fixes
+
+* button disabled hover ([7d6b153](https://github.com/datacamp/design-system/commit/7d6b153))
+* remove ssr nth child warnings for animation ([d150497](https://github.com/datacamp/design-system/commit/d150497))
+
+
+### Features
+
+* add isLoading to Button ([2331da2](https://github.com/datacamp/design-system/commit/2331da2))
+
+
+
+
+
 # [0.2.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-button@0.1.20...@datacamp/waffles-button@0.2.0) (2019-08-23)
 
 

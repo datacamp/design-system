@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.15.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-catalog-doc-site@1.14.0...@datacamp/waffles-catalog-doc-site@1.15.0) (2019-08-29)
+
+
+### Bug Fixes
+
+* typo ([ae49522](https://github.com/datacamp/design-system/commit/ae49522))
+
+
+### Features
+
+* add isLoading to Button doc ([3890ac6](https://github.com/datacamp/design-system/commit/3890ac6))
+* add minimal documentation for markdown component ([0a2b769](https://github.com/datacamp/design-system/commit/0a2b769))
+
+
+
+
+
 # [1.14.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-catalog-doc-site@1.13.0...@datacamp/waffles-catalog-doc-site@1.14.0) (2019-08-23)
 
 
