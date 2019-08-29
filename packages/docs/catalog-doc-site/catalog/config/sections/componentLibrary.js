@@ -36,6 +36,13 @@ export default {
       title: 'Markdown',
     },
     {
+      content: pageLoader(() =>
+        import('../../pages/componentLibrary/modals.js')
+      ),
+      path: '/component-library/modals',
+      title: 'Modals',
+    },
+    {
       content: pageLoader(() => import('../../pages/componentLibrary/text.js')),
       path: '/component-library/text',
       title: 'Text',
