@@ -111,7 +111,7 @@ export default () => {
                   />
                 </tr>
                 <tr className="dc-table__tr">
-                  <th>Type</th>
+                  <th>Type=&quot;link&quot; </th>
                   <td>
                     type=&quot;link&quot; (optional) target=&quot;_self&quot;
                     (default) | target=&quot;_blank&quot; (optional)
@@ -123,6 +123,20 @@ export default () => {
                   <LazyLiveEditCells
                     code={
                       '<Button type="link" href="https://www.datacamp.com">Link</Button>'
+                    }
+                    scope={{ Button }}
+                  />
+                </tr>
+                <tr className="dc-table__tr">
+                  <th>Type=&quot;submit&quot; </th>
+                  <td>type=&quot;submit&quot; (optional)</td>
+                  <td>
+                    When type=&quot;submit&quot; the props &quot;onClick&quot;
+                    and &quot;href&quot; are not allowed.
+                  </td>
+                  <LazyLiveEditCells
+                    code={
+                      '<Button appearance="primary intent="success" type="submit" >Submit</Button>'
                     }
                     scope={{ Button }}
                   />
