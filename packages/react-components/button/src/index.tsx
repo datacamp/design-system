@@ -34,99 +34,111 @@ interface LinkButtonProps extends BaseButtonProps {
 
 interface ButtonButtonProps extends BaseButtonProps {
   onClick: () => void;
-  type?: 'button';
+  type?: 'button' | undefined;
 }
 
-const Button = React.forwardRef<any, LinkButtonProps | ButtonButtonProps>(
-  (props, ref) => {
-    const {
-      appearance = 'default',
-      ariaLabel,
-      children,
-      className,
-      dataAttributes,
-      disabled,
-      intent = 'neutral',
-      isLoading = false,
-      size = 'medium',
-    } = props;
+interface SubmitButtonProps extends BaseButtonProps {
+  type: 'submit';
+}
 
-    const parsedDataAttributes = computeDataAttributes(dataAttributes);
+const Button = React.forwardRef<
+  any,
+  LinkButtonProps | ButtonButtonProps | SubmitButtonProps
+>((props, ref) => {
+  const {
+    appearance = 'default',
+    ariaLabel,
+    children,
+    className,
+    dataAttributes,
+    disabled,
+    intent = 'neutral',
+    isLoading = false,
+    size = 'medium',
+  } = props;
 
-    // TEXT STYLES
+  const parsedDataAttributes = computeDataAttributes(dataAttributes);
 
-    const getOutlineTextColor = disabled
-      ? css({ color: '#D1D3D8' })
-      : css({ color: '#3D4251' });
+  // TEXT STYLES
 
-    const baseTextStyle =
-      appearance === 'primary' ? css({ color: 'white' }) : getOutlineTextColor;
+  const getOutlineTextColor = disabled
+    ? css({ color: '#D1D3D8' })
+    : css({ color: '#3D4251' });
 
-    const getTextStyle = (): SerializedStyles => {
-      return css(
-        getFontSize(size),
-        isLoading ? { color: 'transparent' } : baseTextStyle
-      );
-    };
+  const baseTextStyle =
+    appearance === 'primary' ? css({ color: 'white' }) : getOutlineTextColor;
 
-    // BUTTON STYLES
-
-    const appearanceStyle =
-      appearance === 'primary'
-        ? getPrimaryStyle(intent)
-        : getOutlineStyle(intent);
-
-    const isLoadingStyle =
-      appearance === 'primary'
-        ? css(getPrimaryLoadingStyle(intent))
-        : css(getOutlineLoadingStyle(intent));
-
-    const getButtonStyle = (): SerializedStyles => {
-      return css(
-        baseStyle,
-        getSize(size),
-        isLoading ? isLoadingStyle : appearanceStyle,
-        props.type === 'link' && { display: 'inline-block' }
-      );
-    };
-
-    const commonProps = {
-      'aria-label': ariaLabel,
-      className,
-      css: getButtonStyle,
-      disabled,
-      ...parsedDataAttributes,
-      ref,
-    };
-
-    const buttonContent = (
-      <>
-        {isLoading && (
-          <Spinner
-            css={{ position: 'absolute' }}
-            inverted={appearance === 'primary'}
-          />
-        )}
-        <Text css={getTextStyle}>{children}</Text>
-      </>
+  const getTextStyle = (): SerializedStyles => {
+    return css(
+      getFontSize(size),
+      isLoading ? { color: 'transparent' } : baseTextStyle
     );
+  };
 
-    if (props.type === 'link') {
-      const { href, target } = props;
-      return (
-        <a {...commonProps} href={href} target={target}>
-          {buttonContent}
-        </a>
-      );
-    }
+  // BUTTON STYLES
 
-    const { onClick } = props;
+  const appearanceStyle =
+    appearance === 'primary'
+      ? getPrimaryStyle(intent)
+      : getOutlineStyle(intent);
+
+  const isLoadingStyle =
+    appearance === 'primary'
+      ? css(getPrimaryLoadingStyle(intent))
+      : css(getOutlineLoadingStyle(intent));
+
+  const getButtonStyle = (): SerializedStyles => {
+    return css(
+      baseStyle,
+      getSize(size),
+      isLoading ? isLoadingStyle : appearanceStyle
+    );
+  };
+
+  const commonProps = {
+    'aria-label': ariaLabel,
+    className,
+    css: getButtonStyle,
+    disabled,
+    ...parsedDataAttributes,
+    ref,
+  };
+
+  const buttonContent = (
+    <>
+      {isLoading && (
+        <Spinner
+          css={{ position: 'absolute' }}
+          inverted={appearance === 'primary'}
+        />
+      )}
+      <Text css={getTextStyle}>{children}</Text>
+    </>
+  );
+
+  if (props.type === 'link') {
+    const { href, target } = props;
     return (
-      <button {...commonProps} onClick={onClick} type="button">
+      <a {...commonProps} href={href} target={target}>
+        {buttonContent}
+      </a>
+    );
+  }
+
+  if (props.type === 'submit') {
+    return (
+      <button {...commonProps} type="submit">
         {buttonContent}
       </button>
     );
   }
-);
+
+  const { onClick } = props;
+  return (
+    <button {...commonProps} onClick={onClick} type="button">
+      {buttonContent}
+    </button>
+  );
+});
 
 export default Button;
