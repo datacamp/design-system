@@ -23,6 +23,7 @@ interface AlertModalProps {
   dataAttributes?: { [key: string]: string };
   description: string;
   intent?: 'neutral' | 'success' | 'warning' | 'danger';
+  isLoading?: boolean;
   isOpen: boolean;
   onClose: (origin: CloseOrigin) => void;
   onConfirm: () => void;
@@ -36,6 +37,7 @@ const AlertDialog: React.FC<AlertModalProps> = ({
   dataAttributes,
   description,
   intent = 'neutral',
+  isLoading = false,
   isOpen,
   onClose,
   onConfirm,
