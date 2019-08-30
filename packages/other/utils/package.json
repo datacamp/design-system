@@ -1,0 +1,40 @@
+{
+  "name": "@datacamp/waffles-utils",
+  "version": "1.0.0",
+  "description": "Various collection of things to be shared across waffles packages",
+  "author": "Louis Bailey <louis@datacamp.com>",
+  "homepage": "https://github.com/datacamp/design-system/tree/master/packages/docs/waffles-utils#readme",
+  "license": "UNLICENSED",
+  "main": "lib/index.js",
+  "module": "es/index.js",
+  "types": "types/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/datacamp/design-system.git"
+  },
+  "scripts": {
+    "build:cjs": "BABEL_ENV=cjs babel src --extensions '.tsx','.ts' --out-dir lib --ignore \"src/**/*.spec.tsx\",\"src/**/*.spec.ts\" --config-file ./babel7.config.js",
+    "build:es": "BABEL_ENV=es babel src --extensions '.tsx','.ts' --out-dir es --ignore \"src/**/*.spec.tsx\",\"src/**/*.spec.ts\" --config-file ./babel7.config.js",
+    "build:legacy": "copyfiles -u 1 legacy/*.scss lib",
+    "clean": "rm -rf lib es types",
+    "build:types": "tsc --rootDir src --declarationDir types --emitDeclarationOnly",
+    "build": "yarn build:types && yarn build:cjs && yarn build:es && yarn build:legacy",
+    "prepare": " yarn clean && yarn build",
+    "test": "jest",
+    "type-check": "tsc --noEmit",
+    "watch": "yarn build:es --watch"
+  },
+  "devDependencies": {
+    "@babel/cli": "7.5.5",
+    "@babel/core": "7.5.5",
+    "@datacamp/waffles-babel-preset": "^1.2.1",
+    "@datacamp/waffles-tsconfig": "^1.1.1",
+    "@types/jest": "24.0.18",
+    "babel-jest": "24.9.0",
+    "jest": "24.9.0"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.5.5",
+    "lodash": "^4.17.13"
+  }
+}
