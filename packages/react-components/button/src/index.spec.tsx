@@ -296,6 +296,17 @@ describe('<Button />', () => {
     });
   });
 
+  describe('href and target props', () => {
+    it('renders a button type="submit" if type="submit"', async () => {
+      const { container } = await axeRender(
+        <Button type="submit">Submit</Button>
+      );
+      const buttonElement = container.firstChild as HTMLElement;
+
+      expect(buttonElement).toHaveAttribute('type', 'submit');
+    });
+  });
+
   describe('snapshots', () => {
     const exampleText = 'this is a button';
 

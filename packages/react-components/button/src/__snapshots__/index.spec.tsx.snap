@@ -22,6 +22,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent d
   align-items: center;
   border: none;
   border-radius: 4px;
+  display: inline-block;
   font-family: Lato;
   font-weight: bold;
   -webkit-box-pack: center;
@@ -33,6 +34,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent d
   text-transform: capitalize;
   -webkit-transition: 0.15s;
   transition: 0.15s;
+  white-space: nowrap;
   padding: 0 32px;
   background-color: white;
   box-shadow: inset 0 0 0 1px #FE5C5C;
@@ -187,6 +189,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent d
   align-items: center;
   border: none;
   border-radius: 4px;
+  display: inline-block;
   font-family: Lato;
   font-weight: bold;
   -webkit-box-pack: center;
@@ -198,6 +201,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent d
   text-transform: capitalize;
   -webkit-transition: 0.15s;
   transition: 0.15s;
+  white-space: nowrap;
   padding: 0 32px;
   background-color: white;
   display: -webkit-inline-box;
@@ -233,6 +237,10 @@ exports[`<Button /> snapshots renders a button with appearance default, intent d
 .emotion-3:hover:focus,
 .emotion-3:hover {
   cursor: wait;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 <button
@@ -394,6 +402,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent d
   align-items: center;
   border: none;
   border-radius: 4px;
+  display: inline-block;
   font-family: Lato;
   font-weight: bold;
   -webkit-box-pack: center;
@@ -405,6 +414,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent d
   text-transform: capitalize;
   -webkit-transition: 0.15s;
   transition: 0.15s;
+  white-space: nowrap;
   padding: 0 16px;
   background-color: white;
   box-shadow: inset 0 0 0 1px #FE5C5C;
@@ -559,6 +569,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent d
   align-items: center;
   border: none;
   border-radius: 4px;
+  display: inline-block;
   font-family: Lato;
   font-weight: bold;
   -webkit-box-pack: center;
@@ -570,6 +581,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent d
   text-transform: capitalize;
   -webkit-transition: 0.15s;
   transition: 0.15s;
+  white-space: nowrap;
   padding: 0 16px;
   background-color: white;
   display: -webkit-inline-box;
@@ -605,6 +617,10 @@ exports[`<Button /> snapshots renders a button with appearance default, intent d
 .emotion-3:hover:focus,
 .emotion-3:hover {
   cursor: wait;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 <button
@@ -766,6 +782,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent d
   align-items: center;
   border: none;
   border-radius: 4px;
+  display: inline-block;
   font-family: Lato;
   font-weight: bold;
   -webkit-box-pack: center;
@@ -777,6 +794,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent d
   text-transform: capitalize;
   -webkit-transition: 0.15s;
   transition: 0.15s;
+  white-space: nowrap;
   padding: 0 16px;
   background-color: white;
   box-shadow: inset 0 0 0 1px #FE5C5C;
@@ -931,6 +949,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent d
   align-items: center;
   border: none;
   border-radius: 4px;
+  display: inline-block;
   font-family: Lato;
   font-weight: bold;
   -webkit-box-pack: center;
@@ -942,6 +961,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent d
   text-transform: capitalize;
   -webkit-transition: 0.15s;
   transition: 0.15s;
+  white-space: nowrap;
   padding: 0 16px;
   background-color: white;
   display: -webkit-inline-box;
@@ -977,6 +997,10 @@ exports[`<Button /> snapshots renders a button with appearance default, intent d
 .emotion-3:hover:focus,
 .emotion-3:hover {
   cursor: wait;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 <button
@@ -1124,6 +1148,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent n
   align-items: center;
   border: none;
   border-radius: 4px;
+  display: inline-block;
   font-family: Lato;
   font-weight: bold;
   -webkit-box-pack: center;
@@ -1135,6 +1160,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent n
   text-transform: capitalize;
   -webkit-transition: 0.15s;
   transition: 0.15s;
+  white-space: nowrap;
   padding: 0 32px;
   background-color: white;
   box-shadow: inset 0 0 0 1px #33AACC;
@@ -1303,6 +1329,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent n
   align-items: center;
   border: none;
   border-radius: 4px;
+  display: inline-block;
   font-family: Lato;
   font-weight: bold;
   -webkit-box-pack: center;
@@ -1314,6 +1341,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent n
   text-transform: capitalize;
   -webkit-transition: 0.15s;
   transition: 0.15s;
+  white-space: nowrap;
   padding: 0 32px;
   background-color: white;
   display: -webkit-inline-box;
@@ -1349,6 +1377,10 @@ exports[`<Button /> snapshots renders a button with appearance default, intent n
 .emotion-3:hover:focus,
 .emotion-3:hover {
   cursor: wait;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 <button
@@ -1496,6 +1528,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent n
   align-items: center;
   border: none;
   border-radius: 4px;
+  display: inline-block;
   font-family: Lato;
   font-weight: bold;
   -webkit-box-pack: center;
@@ -1507,6 +1540,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent n
   text-transform: capitalize;
   -webkit-transition: 0.15s;
   transition: 0.15s;
+  white-space: nowrap;
   padding: 0 16px;
   background-color: white;
   box-shadow: inset 0 0 0 1px #33AACC;
@@ -1592,6 +1626,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent n
   align-items: center;
   border: none;
   border-radius: 4px;
+  display: inline-block;
   font-family: Lato;
   font-weight: bold;
   -webkit-box-pack: center;
@@ -1603,6 +1638,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent n
   text-transform: capitalize;
   -webkit-transition: 0.15s;
   transition: 0.15s;
+  white-space: nowrap;
   padding: 0 16px;
   background-color: white;
   display: -webkit-inline-box;
@@ -1638,6 +1674,10 @@ exports[`<Button /> snapshots renders a button with appearance default, intent n
 .emotion-3:hover:focus,
 .emotion-3:hover {
   cursor: wait;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .emotion-1 {
@@ -1868,6 +1908,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent n
   align-items: center;
   border: none;
   border-radius: 4px;
+  display: inline-block;
   font-family: Lato;
   font-weight: bold;
   -webkit-box-pack: center;
@@ -1879,6 +1920,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent n
   text-transform: capitalize;
   -webkit-transition: 0.15s;
   transition: 0.15s;
+  white-space: nowrap;
   padding: 0 16px;
   background-color: white;
   box-shadow: inset 0 0 0 1px #33AACC;
@@ -1964,6 +2006,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent n
   align-items: center;
   border: none;
   border-radius: 4px;
+  display: inline-block;
   font-family: Lato;
   font-weight: bold;
   -webkit-box-pack: center;
@@ -1975,6 +2018,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent n
   text-transform: capitalize;
   -webkit-transition: 0.15s;
   transition: 0.15s;
+  white-space: nowrap;
   padding: 0 16px;
   background-color: white;
   display: -webkit-inline-box;
@@ -2010,6 +2054,10 @@ exports[`<Button /> snapshots renders a button with appearance default, intent n
 .emotion-3:hover:focus,
 .emotion-3:hover {
   cursor: wait;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .emotion-1 {
@@ -2254,6 +2302,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent s
   align-items: center;
   border: none;
   border-radius: 4px;
+  display: inline-block;
   font-family: Lato;
   font-weight: bold;
   -webkit-box-pack: center;
@@ -2265,6 +2314,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent s
   text-transform: capitalize;
   -webkit-transition: 0.15s;
   transition: 0.15s;
+  white-space: nowrap;
   padding: 0 32px;
   background-color: white;
   box-shadow: inset 0 0 0 1px #36D57D;
@@ -2419,6 +2469,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent s
   align-items: center;
   border: none;
   border-radius: 4px;
+  display: inline-block;
   font-family: Lato;
   font-weight: bold;
   -webkit-box-pack: center;
@@ -2430,6 +2481,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent s
   text-transform: capitalize;
   -webkit-transition: 0.15s;
   transition: 0.15s;
+  white-space: nowrap;
   padding: 0 32px;
   background-color: white;
   display: -webkit-inline-box;
@@ -2465,6 +2517,10 @@ exports[`<Button /> snapshots renders a button with appearance default, intent s
 .emotion-3:hover:focus,
 .emotion-3:hover {
   cursor: wait;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 <button
@@ -2626,6 +2682,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent s
   align-items: center;
   border: none;
   border-radius: 4px;
+  display: inline-block;
   font-family: Lato;
   font-weight: bold;
   -webkit-box-pack: center;
@@ -2637,6 +2694,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent s
   text-transform: capitalize;
   -webkit-transition: 0.15s;
   transition: 0.15s;
+  white-space: nowrap;
   padding: 0 16px;
   background-color: white;
   box-shadow: inset 0 0 0 1px #36D57D;
@@ -2791,6 +2849,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent s
   align-items: center;
   border: none;
   border-radius: 4px;
+  display: inline-block;
   font-family: Lato;
   font-weight: bold;
   -webkit-box-pack: center;
@@ -2802,6 +2861,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent s
   text-transform: capitalize;
   -webkit-transition: 0.15s;
   transition: 0.15s;
+  white-space: nowrap;
   padding: 0 16px;
   background-color: white;
   display: -webkit-inline-box;
@@ -2837,6 +2897,10 @@ exports[`<Button /> snapshots renders a button with appearance default, intent s
 .emotion-3:hover:focus,
 .emotion-3:hover {
   cursor: wait;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 <button
@@ -2998,6 +3062,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent s
   align-items: center;
   border: none;
   border-radius: 4px;
+  display: inline-block;
   font-family: Lato;
   font-weight: bold;
   -webkit-box-pack: center;
@@ -3009,6 +3074,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent s
   text-transform: capitalize;
   -webkit-transition: 0.15s;
   transition: 0.15s;
+  white-space: nowrap;
   padding: 0 16px;
   background-color: white;
   box-shadow: inset 0 0 0 1px #36D57D;
@@ -3163,6 +3229,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent s
   align-items: center;
   border: none;
   border-radius: 4px;
+  display: inline-block;
   font-family: Lato;
   font-weight: bold;
   -webkit-box-pack: center;
@@ -3174,6 +3241,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent s
   text-transform: capitalize;
   -webkit-transition: 0.15s;
   transition: 0.15s;
+  white-space: nowrap;
   padding: 0 16px;
   background-color: white;
   display: -webkit-inline-box;
@@ -3209,6 +3277,10 @@ exports[`<Button /> snapshots renders a button with appearance default, intent s
 .emotion-3:hover:focus,
 .emotion-3:hover {
   cursor: wait;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 <button
@@ -3370,6 +3442,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent w
   align-items: center;
   border: none;
   border-radius: 4px;
+  display: inline-block;
   font-family: Lato;
   font-weight: bold;
   -webkit-box-pack: center;
@@ -3381,6 +3454,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent w
   text-transform: capitalize;
   -webkit-transition: 0.15s;
   transition: 0.15s;
+  white-space: nowrap;
   padding: 0 32px;
   background-color: white;
   box-shadow: inset 0 0 0 1px #FF9400;
@@ -3535,6 +3609,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent w
   align-items: center;
   border: none;
   border-radius: 4px;
+  display: inline-block;
   font-family: Lato;
   font-weight: bold;
   -webkit-box-pack: center;
@@ -3546,6 +3621,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent w
   text-transform: capitalize;
   -webkit-transition: 0.15s;
   transition: 0.15s;
+  white-space: nowrap;
   padding: 0 32px;
   background-color: white;
   display: -webkit-inline-box;
@@ -3581,6 +3657,10 @@ exports[`<Button /> snapshots renders a button with appearance default, intent w
 .emotion-3:hover:focus,
 .emotion-3:hover {
   cursor: wait;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 <button
@@ -3742,6 +3822,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent w
   align-items: center;
   border: none;
   border-radius: 4px;
+  display: inline-block;
   font-family: Lato;
   font-weight: bold;
   -webkit-box-pack: center;
@@ -3753,6 +3834,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent w
   text-transform: capitalize;
   -webkit-transition: 0.15s;
   transition: 0.15s;
+  white-space: nowrap;
   padding: 0 16px;
   background-color: white;
   box-shadow: inset 0 0 0 1px #FF9400;
@@ -3907,6 +3989,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent w
   align-items: center;
   border: none;
   border-radius: 4px;
+  display: inline-block;
   font-family: Lato;
   font-weight: bold;
   -webkit-box-pack: center;
@@ -3918,6 +4001,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent w
   text-transform: capitalize;
   -webkit-transition: 0.15s;
   transition: 0.15s;
+  white-space: nowrap;
   padding: 0 16px;
   background-color: white;
   display: -webkit-inline-box;
@@ -3953,6 +4037,10 @@ exports[`<Button /> snapshots renders a button with appearance default, intent w
 .emotion-3:hover:focus,
 .emotion-3:hover {
   cursor: wait;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 <button
@@ -4114,6 +4202,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent w
   align-items: center;
   border: none;
   border-radius: 4px;
+  display: inline-block;
   font-family: Lato;
   font-weight: bold;
   -webkit-box-pack: center;
@@ -4125,6 +4214,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent w
   text-transform: capitalize;
   -webkit-transition: 0.15s;
   transition: 0.15s;
+  white-space: nowrap;
   padding: 0 16px;
   background-color: white;
   box-shadow: inset 0 0 0 1px #FF9400;
@@ -4279,6 +4369,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent w
   align-items: center;
   border: none;
   border-radius: 4px;
+  display: inline-block;
   font-family: Lato;
   font-weight: bold;
   -webkit-box-pack: center;
@@ -4290,6 +4381,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent w
   text-transform: capitalize;
   -webkit-transition: 0.15s;
   transition: 0.15s;
+  white-space: nowrap;
   padding: 0 16px;
   background-color: white;
   display: -webkit-inline-box;
@@ -4325,6 +4417,10 @@ exports[`<Button /> snapshots renders a button with appearance default, intent w
 .emotion-3:hover:focus,
 .emotion-3:hover {
   cursor: wait;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 <button
@@ -4486,6 +4582,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent d
   align-items: center;
   border: none;
   border-radius: 4px;
+  display: inline-block;
   font-family: Lato;
   font-weight: bold;
   -webkit-box-pack: center;
@@ -4497,6 +4594,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent d
   text-transform: capitalize;
   -webkit-transition: 0.15s;
   transition: 0.15s;
+  white-space: nowrap;
   padding: 0 32px;
   background-color: rgb(254,92,92);
 }
@@ -4646,6 +4744,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent d
   align-items: center;
   border: none;
   border-radius: 4px;
+  display: inline-block;
   font-family: Lato;
   font-weight: bold;
   -webkit-box-pack: center;
@@ -4657,6 +4756,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent d
   text-transform: capitalize;
   -webkit-transition: 0.15s;
   transition: 0.15s;
+  white-space: nowrap;
   padding: 0 32px;
   background-color: white;
   display: -webkit-inline-box;
@@ -4692,6 +4792,10 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent d
 .emotion-3:hover:focus,
 .emotion-3:hover {
   cursor: wait;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 <button
@@ -4853,6 +4957,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent d
   align-items: center;
   border: none;
   border-radius: 4px;
+  display: inline-block;
   font-family: Lato;
   font-weight: bold;
   -webkit-box-pack: center;
@@ -4864,6 +4969,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent d
   text-transform: capitalize;
   -webkit-transition: 0.15s;
   transition: 0.15s;
+  white-space: nowrap;
   padding: 0 16px;
   background-color: rgb(254,92,92);
 }
@@ -5013,6 +5119,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent d
   align-items: center;
   border: none;
   border-radius: 4px;
+  display: inline-block;
   font-family: Lato;
   font-weight: bold;
   -webkit-box-pack: center;
@@ -5024,6 +5131,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent d
   text-transform: capitalize;
   -webkit-transition: 0.15s;
   transition: 0.15s;
+  white-space: nowrap;
   padding: 0 16px;
   background-color: white;
   display: -webkit-inline-box;
@@ -5059,6 +5167,10 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent d
 .emotion-3:hover:focus,
 .emotion-3:hover {
   cursor: wait;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 <button
@@ -5206,6 +5318,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent d
   align-items: center;
   border: none;
   border-radius: 4px;
+  display: inline-block;
   font-family: Lato;
   font-weight: bold;
   -webkit-box-pack: center;
@@ -5217,6 +5330,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent d
   text-transform: capitalize;
   -webkit-transition: 0.15s;
   transition: 0.15s;
+  white-space: nowrap;
   padding: 0 16px;
   background-color: rgb(254,92,92);
 }
@@ -5380,6 +5494,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent d
   align-items: center;
   border: none;
   border-radius: 4px;
+  display: inline-block;
   font-family: Lato;
   font-weight: bold;
   -webkit-box-pack: center;
@@ -5391,6 +5506,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent d
   text-transform: capitalize;
   -webkit-transition: 0.15s;
   transition: 0.15s;
+  white-space: nowrap;
   padding: 0 16px;
   background-color: white;
   display: -webkit-inline-box;
@@ -5426,6 +5542,10 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent d
 .emotion-3:hover:focus,
 .emotion-3:hover {
   cursor: wait;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 <button
@@ -5573,6 +5693,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent n
   align-items: center;
   border: none;
   border-radius: 4px;
+  display: inline-block;
   font-family: Lato;
   font-weight: bold;
   -webkit-box-pack: center;
@@ -5584,6 +5705,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent n
   text-transform: capitalize;
   -webkit-transition: 0.15s;
   transition: 0.15s;
+  white-space: nowrap;
   padding: 0 32px;
   background-color: rgb(51,170,204);
 }
@@ -5733,6 +5855,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent n
   align-items: center;
   border: none;
   border-radius: 4px;
+  display: inline-block;
   font-family: Lato;
   font-weight: bold;
   -webkit-box-pack: center;
@@ -5744,6 +5867,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent n
   text-transform: capitalize;
   -webkit-transition: 0.15s;
   transition: 0.15s;
+  white-space: nowrap;
   padding: 0 32px;
   background-color: white;
   display: -webkit-inline-box;
@@ -5779,6 +5903,10 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent n
 .emotion-3:hover:focus,
 .emotion-3:hover {
   cursor: wait;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .emotion-2 {
@@ -5940,6 +6068,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent n
   align-items: center;
   border: none;
   border-radius: 4px;
+  display: inline-block;
   font-family: Lato;
   font-weight: bold;
   -webkit-box-pack: center;
@@ -5951,6 +6080,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent n
   text-transform: capitalize;
   -webkit-transition: 0.15s;
   transition: 0.15s;
+  white-space: nowrap;
   padding: 0 16px;
   background-color: rgb(51,170,204);
 }
@@ -6114,6 +6244,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent n
   align-items: center;
   border: none;
   border-radius: 4px;
+  display: inline-block;
   font-family: Lato;
   font-weight: bold;
   -webkit-box-pack: center;
@@ -6125,6 +6256,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent n
   text-transform: capitalize;
   -webkit-transition: 0.15s;
   transition: 0.15s;
+  white-space: nowrap;
   padding: 0 16px;
   background-color: white;
   display: -webkit-inline-box;
@@ -6160,6 +6292,10 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent n
 .emotion-3:hover:focus,
 .emotion-3:hover {
   cursor: wait;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 <button
@@ -6307,6 +6443,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent n
   align-items: center;
   border: none;
   border-radius: 4px;
+  display: inline-block;
   font-family: Lato;
   font-weight: bold;
   -webkit-box-pack: center;
@@ -6318,6 +6455,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent n
   text-transform: capitalize;
   -webkit-transition: 0.15s;
   transition: 0.15s;
+  white-space: nowrap;
   padding: 0 16px;
   background-color: rgb(51,170,204);
 }
@@ -6467,6 +6605,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent n
   align-items: center;
   border: none;
   border-radius: 4px;
+  display: inline-block;
   font-family: Lato;
   font-weight: bold;
   -webkit-box-pack: center;
@@ -6478,6 +6617,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent n
   text-transform: capitalize;
   -webkit-transition: 0.15s;
   transition: 0.15s;
+  white-space: nowrap;
   padding: 0 16px;
   background-color: white;
   display: -webkit-inline-box;
@@ -6513,6 +6653,10 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent n
 .emotion-3:hover:focus,
 .emotion-3:hover {
   cursor: wait;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .emotion-2 {
@@ -6688,6 +6832,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent s
   align-items: center;
   border: none;
   border-radius: 4px;
+  display: inline-block;
   font-family: Lato;
   font-weight: bold;
   -webkit-box-pack: center;
@@ -6699,6 +6844,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent s
   text-transform: capitalize;
   -webkit-transition: 0.15s;
   transition: 0.15s;
+  white-space: nowrap;
   padding: 0 32px;
   background-color: rgb(54,213,125);
 }
@@ -6848,6 +6994,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent s
   align-items: center;
   border: none;
   border-radius: 4px;
+  display: inline-block;
   font-family: Lato;
   font-weight: bold;
   -webkit-box-pack: center;
@@ -6859,6 +7006,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent s
   text-transform: capitalize;
   -webkit-transition: 0.15s;
   transition: 0.15s;
+  white-space: nowrap;
   padding: 0 32px;
   background-color: white;
   display: -webkit-inline-box;
@@ -6894,6 +7042,10 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent s
 .emotion-3:hover:focus,
 .emotion-3:hover {
   cursor: wait;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 <button
@@ -7055,6 +7207,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent s
   align-items: center;
   border: none;
   border-radius: 4px;
+  display: inline-block;
   font-family: Lato;
   font-weight: bold;
   -webkit-box-pack: center;
@@ -7066,6 +7219,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent s
   text-transform: capitalize;
   -webkit-transition: 0.15s;
   transition: 0.15s;
+  white-space: nowrap;
   padding: 0 16px;
   background-color: rgb(54,213,125);
 }
@@ -7215,6 +7369,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent s
   align-items: center;
   border: none;
   border-radius: 4px;
+  display: inline-block;
   font-family: Lato;
   font-weight: bold;
   -webkit-box-pack: center;
@@ -7226,6 +7381,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent s
   text-transform: capitalize;
   -webkit-transition: 0.15s;
   transition: 0.15s;
+  white-space: nowrap;
   padding: 0 16px;
   background-color: white;
   display: -webkit-inline-box;
@@ -7261,6 +7417,10 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent s
 .emotion-3:hover:focus,
 .emotion-3:hover {
   cursor: wait;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 <button
@@ -7408,6 +7568,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent s
   align-items: center;
   border: none;
   border-radius: 4px;
+  display: inline-block;
   font-family: Lato;
   font-weight: bold;
   -webkit-box-pack: center;
@@ -7419,6 +7580,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent s
   text-transform: capitalize;
   -webkit-transition: 0.15s;
   transition: 0.15s;
+  white-space: nowrap;
   padding: 0 16px;
   background-color: rgb(54,213,125);
 }
@@ -7582,6 +7744,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent s
   align-items: center;
   border: none;
   border-radius: 4px;
+  display: inline-block;
   font-family: Lato;
   font-weight: bold;
   -webkit-box-pack: center;
@@ -7593,6 +7756,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent s
   text-transform: capitalize;
   -webkit-transition: 0.15s;
   transition: 0.15s;
+  white-space: nowrap;
   padding: 0 16px;
   background-color: white;
   display: -webkit-inline-box;
@@ -7628,6 +7792,10 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent s
 .emotion-3:hover:focus,
 .emotion-3:hover {
   cursor: wait;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 <button
@@ -7789,6 +7957,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent w
   align-items: center;
   border: none;
   border-radius: 4px;
+  display: inline-block;
   font-family: Lato;
   font-weight: bold;
   -webkit-box-pack: center;
@@ -7800,6 +7969,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent w
   text-transform: capitalize;
   -webkit-transition: 0.15s;
   transition: 0.15s;
+  white-space: nowrap;
   padding: 0 32px;
   background-color: rgb(255,148,0);
 }
@@ -7949,6 +8119,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent w
   align-items: center;
   border: none;
   border-radius: 4px;
+  display: inline-block;
   font-family: Lato;
   font-weight: bold;
   -webkit-box-pack: center;
@@ -7960,6 +8131,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent w
   text-transform: capitalize;
   -webkit-transition: 0.15s;
   transition: 0.15s;
+  white-space: nowrap;
   padding: 0 32px;
   background-color: white;
   display: -webkit-inline-box;
@@ -7995,6 +8167,10 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent w
 .emotion-3:hover:focus,
 .emotion-3:hover {
   cursor: wait;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 <button
@@ -8156,6 +8332,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent w
   align-items: center;
   border: none;
   border-radius: 4px;
+  display: inline-block;
   font-family: Lato;
   font-weight: bold;
   -webkit-box-pack: center;
@@ -8167,6 +8344,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent w
   text-transform: capitalize;
   -webkit-transition: 0.15s;
   transition: 0.15s;
+  white-space: nowrap;
   padding: 0 16px;
   background-color: rgb(255,148,0);
 }
@@ -8316,6 +8494,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent w
   align-items: center;
   border: none;
   border-radius: 4px;
+  display: inline-block;
   font-family: Lato;
   font-weight: bold;
   -webkit-box-pack: center;
@@ -8327,6 +8506,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent w
   text-transform: capitalize;
   -webkit-transition: 0.15s;
   transition: 0.15s;
+  white-space: nowrap;
   padding: 0 16px;
   background-color: white;
   display: -webkit-inline-box;
@@ -8362,6 +8542,10 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent w
 .emotion-3:hover:focus,
 .emotion-3:hover {
   cursor: wait;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 <button
@@ -8509,6 +8693,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent w
   align-items: center;
   border: none;
   border-radius: 4px;
+  display: inline-block;
   font-family: Lato;
   font-weight: bold;
   -webkit-box-pack: center;
@@ -8520,6 +8705,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent w
   text-transform: capitalize;
   -webkit-transition: 0.15s;
   transition: 0.15s;
+  white-space: nowrap;
   padding: 0 16px;
   background-color: rgb(255,148,0);
 }
@@ -8683,6 +8869,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent w
   align-items: center;
   border: none;
   border-radius: 4px;
+  display: inline-block;
   font-family: Lato;
   font-weight: bold;
   -webkit-box-pack: center;
@@ -8694,6 +8881,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent w
   text-transform: capitalize;
   -webkit-transition: 0.15s;
   transition: 0.15s;
+  white-space: nowrap;
   padding: 0 16px;
   background-color: white;
   display: -webkit-inline-box;
@@ -8729,6 +8917,10 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent w
 .emotion-3:hover:focus,
 .emotion-3:hover {
   cursor: wait;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 <button

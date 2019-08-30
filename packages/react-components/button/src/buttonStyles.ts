@@ -23,13 +23,14 @@ const baseStyle = css({
   alignItems: 'center',
   border: 'none',
   borderRadius: '4px',
-
+  display: 'inline-block',
   fontFamily: 'Lato',
   fontWeight: 'bold',
   justifyContent: 'center',
   textDecoration: 'none',
   textTransform: 'capitalize',
   transition: '0.15s',
+  whiteSpace: 'nowrap',
 });
 
 const baseOutlineStyle = css({
@@ -40,6 +41,7 @@ const baseLoadingStyle = css({
   ':active': { transform: 'none' },
   ':focus, :hover:focus, : hover': {
     cursor: 'wait',
+    display: 'flex',
   },
   backgroundColor: 'white',
   display: 'inline-flex',
