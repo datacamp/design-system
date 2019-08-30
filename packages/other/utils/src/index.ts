@@ -1,1 +1,3 @@
-export default 'asdf';
+import ssrSafeFirstChildSelector from './ssrSafeFirstChildSelector';
+
+export { ssrSafeFirstChildSelector };
