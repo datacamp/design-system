@@ -136,7 +136,7 @@ export default () => {
                   </td>
                   <LazyLiveEditCells
                     code={
-                      '<Button appearance="primary intent="success" type="submit" >Submit</Button>'
+                      '<Button appearance="primary" intent="success" type="submit" >Submit</Button>'
                     }
                     scope={{ Button }}
                   />
