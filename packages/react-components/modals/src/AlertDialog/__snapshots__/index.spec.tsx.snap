@@ -68,12 +68,27 @@ exports[`<AlertModal /> isOpen renders the modal via a portal when true 1`] = `
 }
 
 .emotion-0 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
   background-color: white;
   border: none;
   border-radius: 2px;
   color: rgb(61,66,81);
   cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   height: 32px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   outline: none;
   padding: 0;
   position: absolute;
@@ -142,17 +157,14 @@ exports[`<AlertModal /> isOpen renders the modal via a portal when true 1`] = `
   align-items: center;
   border: none;
   border-radius: 4px;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
   font-family: Lato;
   font-weight: bold;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  padding: 0 16px;
+  -webkit-text-decoration: none;
+  text-decoration: none;
   text-transform: capitalize;
   -webkit-transition: 0.15s;
   transition: 0.15s;
@@ -219,17 +231,14 @@ exports[`<AlertModal /> isOpen renders the modal via a portal when true 1`] = `
   align-items: center;
   border: none;
   border-radius: 4px;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
   font-family: Lato;
   font-weight: bold;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  padding: 0 16px;
+  -webkit-text-decoration: none;
+  text-decoration: none;
   text-transform: capitalize;
   -webkit-transition: 0.15s;
   transition: 0.15s;
