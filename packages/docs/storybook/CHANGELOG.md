@@ -3,6 +3,20 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.16.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-storybook@1.15.0...@datacamp/waffles-storybook@1.16.0) (2019-08-30)
+
+
+### Features
+
+* add stories for alert dialog ([f037b9d](https://github.com/datacamp/design-system/commit/f037b9d))
+* add story for type="link" ([5ebcdc3](https://github.com/datacamp/design-system/commit/5ebcdc3))
+* add submit button documentation ([ba53676](https://github.com/datacamp/design-system/commit/ba53676))
+* add submit button story ([a9df3aa](https://github.com/datacamp/design-system/commit/a9df3aa))
+
+
+
+
+
 # [1.15.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-storybook@1.14.0...@datacamp/waffles-storybook@1.15.0) (2019-08-29)
 
 

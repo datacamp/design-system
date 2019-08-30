@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.3](https://github.com/datacamp/design-system/compare/@datacamp/waffles-axe-render@1.1.2...@datacamp/waffles-axe-render@1.1.3) (2019-08-30)
+
+
+### Bug Fixes
+
+* allow custom containers ([3df3c5e](https://github.com/datacamp/design-system/commit/3df3c5e))
+
+
+
+
+
 ## [1.1.2](https://github.com/datacamp/design-system/compare/@datacamp/waffles-axe-render@1.1.1...@datacamp/waffles-axe-render@1.1.2) (2019-08-06)
 
 **Note:** Version bump only for package @datacamp/waffles-axe-render

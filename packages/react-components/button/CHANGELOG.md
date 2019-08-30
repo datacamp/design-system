@@ -3,6 +3,30 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.0.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-button@0.3.0...@datacamp/waffles-button@1.0.0) (2019-08-30)
+
+
+### Bug Fixes
+
+* expose types correctly ([006aa4a](https://github.com/datacamp/design-system/commit/006aa4a))
+
+
+### Features
+
+* add href and target ([82f545d](https://github.com/datacamp/design-system/commit/82f545d))
+* add submit button documentation ([ba53676](https://github.com/datacamp/design-system/commit/ba53676))
+* add submit type ([10df1cd](https://github.com/datacamp/design-system/commit/10df1cd))
+* alert dialog ([dfc2a50](https://github.com/datacamp/design-system/commit/dfc2a50))
+
+
+### BREAKING CHANGES
+
+* Version 1 of modal
+
+
+
+
+
 # [0.3.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-button@0.2.0...@datacamp/waffles-button@0.3.0) (2019-08-29)
 
 

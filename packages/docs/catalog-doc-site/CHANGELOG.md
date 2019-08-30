@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.16.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-catalog-doc-site@1.15.0...@datacamp/waffles-catalog-doc-site@1.16.0) (2019-08-30)
+
+
+### Features
+
+* add documentation for alert dialog ([10f8121](https://github.com/datacamp/design-system/commit/10f8121))
+* add submit button documentation ([ba53676](https://github.com/datacamp/design-system/commit/ba53676))
+* doc for button-link added ([d11bc2d](https://github.com/datacamp/design-system/commit/d11bc2d))
+
+
+
+
+
 # [1.15.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-catalog-doc-site@1.14.0...@datacamp/waffles-catalog-doc-site@1.15.0) (2019-08-29)
 
 
