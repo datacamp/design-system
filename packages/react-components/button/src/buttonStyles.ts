@@ -23,13 +23,11 @@ const baseStyle = css({
   alignItems: 'center',
   border: 'none',
   borderRadius: '4px',
-  display: 'flex',
 
   fontFamily: 'Lato',
   fontWeight: 'bold',
   justifyContent: 'center',
-
-  padding: ' 0 16px',
+  textDecoration: 'none',
   textTransform: 'capitalize',
   transition: '0.15s',
 });
@@ -44,6 +42,7 @@ const baseLoadingStyle = css({
     cursor: 'wait',
   },
   backgroundColor: 'white',
+  display: 'inline-flex',
   padding: '0 16px',
   position: 'relative',
 });
