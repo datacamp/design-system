@@ -1,4 +1,5 @@
 import tokens from '@datacamp/waffles-tokens/lib/future-tokens.json';
+import { ssrSafeFirstChildSelector } from '@datacamp/waffles-utils';
 import { css } from '@emotion/core';
 import React from 'react';
 
@@ -6,7 +7,6 @@ import AlternateCode from '../alternateComponents/AlternateCode';
 import PlainString from '../alternateComponents/PlainString';
 import baseStyle from '../baseStyle';
 import computeDataAttributes from '../computeDataAttributes';
-import ssrSafeFirstChildSelector from '../ssrSafeFirstChildSelector';
 import validateChildrenProp from '../validateChildrenProp';
 import Code from './Code';
 import Emphasis from './Emphasis';
