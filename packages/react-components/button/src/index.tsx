@@ -14,7 +14,7 @@ import {
 import computeDataAttributes from './computeDataAttributes';
 import Spinner from './spinner';
 
-interface ButtonProps {
+interface BaseButtonProps {
   appearance?: 'default' | 'primary';
   ariaLabel?: string;
   children: string;
@@ -23,11 +23,21 @@ interface ButtonProps {
   disabled?: boolean;
   intent?: 'neutral' | 'danger' | 'success' | 'warning';
   isLoading?: boolean;
-  onClick?: () => {};
   size?: 'small' | 'medium' | 'large';
 }
 
-const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
+interface LinkButtonProps extends BaseButtonProps {
+  href: string;
+  target?: '_blank' | undefined;
+  type: 'link';
+}
+
+interface ButtonButtonProps extends BaseButtonProps {
+  onClick: () => {};
+  type?: 'button';
+}
+
+const Button = React.forwardRef<any, LinkButtonProps | ButtonButtonProps>(
   (props, ref) => {
     const {
       appearance = 'default',
@@ -38,7 +48,6 @@ const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
       disabled,
       intent = 'neutral',
       isLoading = false,
-      onClick,
       size = 'medium',
     } = props;
 
@@ -76,21 +85,22 @@ const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
       return css(
         baseStyle,
         getSize(size),
-        isLoading ? isLoadingStyle : appearanceStyle
+        isLoading ? isLoadingStyle : appearanceStyle,
+        props.type === 'link' && { display: 'inline-block' }
       );
     };
 
-    return (
-      <button
-        aria-label={ariaLabel}
-        className={className}
-        css={getButtonStyle}
-        disabled={disabled}
-        onClick={onClick}
-        {...parsedDataAttributes}
-        ref={ref}
-        type="button"
-      >
+    const commonProps = {
+      'aria-label': ariaLabel,
+      className,
+      css: getButtonStyle,
+      disabled,
+      ...parsedDataAttributes,
+      ref,
+    };
+
+    const buttonContent = (
+      <>
         {isLoading && (
           <Spinner
             css={{ position: 'absolute' }}
@@ -98,6 +108,22 @@ const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
           />
         )}
         <Text css={getTextStyle}>{children}</Text>
+      </>
+    );
+
+    if (props.type === 'link') {
+      const { href, target } = props;
+      return (
+        <a {...commonProps} href={href} target={target}>
+          {buttonContent}
+        </a>
+      );
+    }
+
+    const { onClick } = props;
+    return (
+      <button {...commonProps} onClick={onClick} type="button">
+        {buttonContent}
       </button>
     );
   }

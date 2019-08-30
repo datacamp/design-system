@@ -8,10 +8,12 @@ import React from 'react';
 import Button from '.';
 
 describe('<Button />', () => {
+  const someFunction = jest.fn();
+
   it('renders a button element containing the text', async () => {
     const exampleText = 'this is a button';
     const { container, getByText } = await axeRender(
-      <Button>{exampleText}</Button>
+      <Button onClick={someFunction}>{exampleText}</Button>
     );
     const buttonElement = container.firstChild as HTMLElement;
     expect(buttonElement.tagName).toEqual('BUTTON');
@@ -23,7 +25,9 @@ describe('<Button />', () => {
   it('sets the dataAttributes on the button element', async () => {
     const data = { test: 'example' };
     const { container } = await axeRender(
-      <Button dataAttributes={data}>button text</Button>
+      <Button dataAttributes={data} onClick={someFunction}>
+        button text
+      </Button>
     );
 
     expect(container.firstChild).toHaveAttribute('data-test', 'example');
@@ -32,7 +36,9 @@ describe('<Button />', () => {
   it('sets className on the button element', async () => {
     const testClass = 'test-className';
     const { container } = await axeRender(
-      <Button className={testClass}>button text</Button>
+      <Button className={testClass} onClick={someFunction}>
+        button text
+      </Button>
     );
 
     expect(container.firstChild).toHaveClass(testClass);
@@ -41,14 +47,15 @@ describe('<Button />', () => {
   it('sets the aria-label on the button element', async () => {
     const exempleAriaLabel = 'add button';
     const { container } = await axeRender(
-      <Button ariaLabel={exempleAriaLabel}>button text</Button>
+      <Button ariaLabel={exempleAriaLabel} onClick={someFunction}>
+        button text
+      </Button>
     );
 
     expect(container.firstChild).toHaveAttribute('aria-label', 'add button');
   });
 
   it('calls the function on click', async () => {
-    const someFunction = jest.fn();
     const { getByText } = await axeRender(
       <Button onClick={someFunction}>click me</Button>
     );
@@ -59,7 +66,9 @@ describe('<Button />', () => {
 
   it('renders the disabled property', async () => {
     const { container } = await axeRender(
-      <Button disabled>disabled button</Button>
+      <Button onClick={someFunction} disabled>
+        disabled button
+      </Button>
     );
 
     const buttonElement = container.firstChild;
@@ -70,7 +79,9 @@ describe('<Button />', () => {
   describe('button size', () => {
     it('renders the small button for the size="small" ', async () => {
       const { queryByText, container } = await axeRender(
-        <Button size="small">btn small</Button>
+        <Button onClick={someFunction} size="small">
+          btn small
+        </Button>
       );
 
       const buttonElement = container.firstChild;
@@ -81,7 +92,9 @@ describe('<Button />', () => {
 
     it('renders the medium button for the size="medium" ', async () => {
       const { queryByText, container } = await axeRender(
-        <Button size="medium">btn medium</Button>
+        <Button onClick={someFunction} size="medium">
+          btn medium
+        </Button>
       );
 
       const buttonElement = container.firstChild;
@@ -92,7 +105,9 @@ describe('<Button />', () => {
 
     it('renders the large button for the size="large" ', async () => {
       const { queryByText, container } = await axeRender(
-        <Button size="large">large btn</Button>
+        <Button onClick={someFunction} size="large">
+          large btn
+        </Button>
       );
 
       const buttonElement = container.firstChild;
@@ -104,7 +119,7 @@ describe('<Button />', () => {
 
     it('renders the medium size if no size props is specified', async () => {
       const { queryByText, container } = await axeRender(
-        <Button>default size btn</Button>
+        <Button onClick={someFunction}>default size btn</Button>
       );
 
       const buttonElement = container.firstChild;
@@ -116,7 +131,7 @@ describe('<Button />', () => {
   describe('primary button color', () => {
     it('renders a blue button for the appearance="primary" and intent="neutral', async () => {
       const { container } = await axeRender(
-        <Button appearance="primary" intent="neutral">
+        <Button appearance="primary" intent="neutral" onClick={someFunction}>
           btn
         </Button>
       );
@@ -128,7 +143,7 @@ describe('<Button />', () => {
 
     it('renders a red button for the appearance="primary" and intent="danger', async () => {
       const { container } = await axeRender(
-        <Button appearance="primary" intent="danger">
+        <Button appearance="primary" intent="danger" onClick={someFunction}>
           btn
         </Button>
       );
@@ -138,7 +153,7 @@ describe('<Button />', () => {
 
     it('renders an orange button for the appearance="primary" and intent="warning', async () => {
       const { container } = await axeRender(
-        <Button appearance="primary" intent="warning">
+        <Button appearance="primary" intent="warning" onClick={someFunction}>
           btn
         </Button>
       );
@@ -150,7 +165,7 @@ describe('<Button />', () => {
 
     it('renders a green button for the appearance="primary" and intent="success', async () => {
       const { container } = await axeRender(
-        <Button appearance="primary" intent="success">
+        <Button appearance="primary" intent="success" onClick={someFunction}>
           btn
         </Button>
       );
@@ -164,7 +179,7 @@ describe('<Button />', () => {
   describe(' default button color', () => {
     it('renders a blue outline button for the intent="neutral', async () => {
       const { container } = await axeRender(
-        <Button appearance="default" intent="neutral">
+        <Button appearance="default" intent="neutral" onClick={someFunction}>
           btn
         </Button>
       );
@@ -177,7 +192,7 @@ describe('<Button />', () => {
 
     it('renders a red outline button for the intent="danger', async () => {
       const { container } = await axeRender(
-        <Button appearance="default" intent="danger">
+        <Button appearance="default" intent="danger" onClick={someFunction}>
           btn
         </Button>
       );
@@ -190,7 +205,7 @@ describe('<Button />', () => {
 
     it('renders an orange outline button for the intent="warning', async () => {
       const { container } = await axeRender(
-        <Button appearance="default" intent="warning">
+        <Button appearance="default" intent="warning" onClick={someFunction}>
           btn
         </Button>
       );
@@ -203,7 +218,7 @@ describe('<Button />', () => {
 
     it('renders a green outline button for the intent="success', async () => {
       const { container } = await axeRender(
-        <Button appearance="default" intent="success">
+        <Button appearance="default" intent="success" onClick={someFunction}>
           btn
         </Button>
       );
@@ -218,7 +233,9 @@ describe('<Button />', () => {
   describe('isLoading', () => {
     it('renders a spinner when the prop "isLoading" is passed to the button', async () => {
       const { container, getByText, getByTitle } = await render(
-        <Button isLoading>btn loading</Button>
+        <Button onClick={someFunction} isLoading>
+          btn loading
+        </Button>
       );
 
       const buttonElement = container.firstChild;
@@ -230,7 +247,11 @@ describe('<Button />', () => {
     });
 
     it('renders a dark spinner when the appearance="default" (or undefined)', async () => {
-      const { container } = await render(<Button isLoading>Loading</Button>);
+      const { container } = await render(
+        <Button onClick={someFunction} isLoading>
+          Loading
+        </Button>
+      );
 
       const spinnerElement = container.querySelector('g');
 
@@ -239,7 +260,7 @@ describe('<Button />', () => {
 
     it('renders a white spinner when the appearance="primary"', async () => {
       const { container } = await render(
-        <Button appearance="primary" isLoading>
+        <Button appearance="primary" onClick={someFunction} isLoading>
           Loading
         </Button>
       );
@@ -247,6 +268,31 @@ describe('<Button />', () => {
       const spinnerElement = container.querySelector('g');
 
       expect(spinnerElement).toHaveAttribute('fill', '#ffffff');
+    });
+  });
+
+  describe('href and target props', () => {
+    it('renders an "<a> </a>" tag if type=link', async () => {
+      const { container } = await axeRender(
+        <Button href="https://www.google.com" type="link">
+          Link
+        </Button>
+      );
+      const buttonElement = container.firstChild as HTMLElement;
+
+      expect(buttonElement.tagName).toEqual('A');
+      expect(buttonElement).toHaveAttribute('href', 'https://www.google.com');
+    });
+
+    it('assigns the "target" prop to the target attribute', async () => {
+      const { container } = await axeRender(
+        <Button href="https://www.google.com" target="_blank" type="link">
+          Link
+        </Button>
+      );
+      const buttonElement = container.firstChild as HTMLElement;
+
+      expect(buttonElement).toHaveAttribute('target', '_blank');
     });
   });
 
@@ -276,6 +322,7 @@ describe('<Button />', () => {
                   appearance={appearance}
                   intent={intent}
                   isLoading={isLoading}
+                  onClick={someFunction}
                   size={size}
                 >
                   {exampleText}
