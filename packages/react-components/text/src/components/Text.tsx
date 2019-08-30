@@ -1,9 +1,9 @@
 import tokens from '@datacamp/waffles-tokens/lib/future-tokens.json';
+import { computeDataAttributes } from '@datacamp/waffles-utils';
 import { css } from '@emotion/core';
 import React from 'react';
 
 import baseStyle from '../baseStyle';
-import computeDataAttributes from '../computeDataAttributes';
 import validateChildrenProp from '../validateChildrenProp';
 import Small from './Small';
 import Strong from './Strong';
