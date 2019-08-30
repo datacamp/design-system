@@ -110,6 +110,23 @@ export default () => {
                     scope={{ Button }}
                   />
                 </tr>
+                <tr className="dc-table__tr">
+                  <th>Type</th>
+                  <td>
+                    type=&quot;link&quot; (optional) target=&quot;_self&quot;
+                    (default) | target=&quot;_blank&quot; (optional)
+                  </td>
+                  <td>
+                    When type=&quot;link&quot; you can pass href and target as
+                    props. Target is &quot;_self&quot; by default.
+                  </td>
+                  <LazyLiveEditCells
+                    code={
+                      '<Button type="link" href="https://www.datacamp.com">Link</Button>'
+                    }
+                    scope={{ Button }}
+                  />
+                </tr>
               </tbody>
             </table>
           </div>
