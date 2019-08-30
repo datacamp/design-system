@@ -1,4 +1,5 @@
 import { Text } from '@datacamp/waffles-text';
+import { computeDataAttributes } from '@datacamp/waffles-utils';
 import { css, SerializedStyles } from '@emotion/core';
 import React from 'react';
 
@@ -11,7 +12,6 @@ import {
   getPrimaryStyle,
   getSize,
 } from './buttonStyles';
-import computeDataAttributes from './computeDataAttributes';
 import Spinner from './spinner';
 
 interface BaseButtonProps {
