@@ -237,10 +237,6 @@ exports[`<Button /> snapshots renders a button with appearance default, intent d
 .emotion-3:hover:focus,
 .emotion-3:hover {
   cursor: wait;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
 }
 
 <button
@@ -617,10 +613,6 @@ exports[`<Button /> snapshots renders a button with appearance default, intent d
 .emotion-3:hover:focus,
 .emotion-3:hover {
   cursor: wait;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
 }
 
 <button
@@ -997,10 +989,6 @@ exports[`<Button /> snapshots renders a button with appearance default, intent d
 .emotion-3:hover:focus,
 .emotion-3:hover {
   cursor: wait;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
 }
 
 <button
@@ -1377,10 +1365,6 @@ exports[`<Button /> snapshots renders a button with appearance default, intent n
 .emotion-3:hover:focus,
 .emotion-3:hover {
   cursor: wait;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
 }
 
 <button
@@ -1674,10 +1658,6 @@ exports[`<Button /> snapshots renders a button with appearance default, intent n
 .emotion-3:hover:focus,
 .emotion-3:hover {
   cursor: wait;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
 }
 
 .emotion-1 {
@@ -2054,10 +2034,6 @@ exports[`<Button /> snapshots renders a button with appearance default, intent n
 .emotion-3:hover:focus,
 .emotion-3:hover {
   cursor: wait;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
 }
 
 .emotion-1 {
@@ -2517,10 +2493,6 @@ exports[`<Button /> snapshots renders a button with appearance default, intent s
 .emotion-3:hover:focus,
 .emotion-3:hover {
   cursor: wait;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
 }
 
 <button
@@ -2897,10 +2869,6 @@ exports[`<Button /> snapshots renders a button with appearance default, intent s
 .emotion-3:hover:focus,
 .emotion-3:hover {
   cursor: wait;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
 }
 
 <button
@@ -3277,10 +3245,6 @@ exports[`<Button /> snapshots renders a button with appearance default, intent s
 .emotion-3:hover:focus,
 .emotion-3:hover {
   cursor: wait;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
 }
 
 <button
@@ -3657,10 +3621,6 @@ exports[`<Button /> snapshots renders a button with appearance default, intent w
 .emotion-3:hover:focus,
 .emotion-3:hover {
   cursor: wait;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
 }
 
 <button
@@ -4037,10 +3997,6 @@ exports[`<Button /> snapshots renders a button with appearance default, intent w
 .emotion-3:hover:focus,
 .emotion-3:hover {
   cursor: wait;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
 }
 
 <button
@@ -4417,10 +4373,6 @@ exports[`<Button /> snapshots renders a button with appearance default, intent w
 .emotion-3:hover:focus,
 .emotion-3:hover {
   cursor: wait;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
 }
 
 <button
@@ -4792,10 +4744,6 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent d
 .emotion-3:hover:focus,
 .emotion-3:hover {
   cursor: wait;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
 }
 
 <button
@@ -5167,10 +5115,6 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent d
 .emotion-3:hover:focus,
 .emotion-3:hover {
   cursor: wait;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
 }
 
 <button
@@ -5542,10 +5486,6 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent d
 .emotion-3:hover:focus,
 .emotion-3:hover {
   cursor: wait;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
 }
 
 <button
@@ -5903,10 +5843,6 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent n
 .emotion-3:hover:focus,
 .emotion-3:hover {
   cursor: wait;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
 }
 
 .emotion-2 {
@@ -6292,10 +6228,6 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent n
 .emotion-3:hover:focus,
 .emotion-3:hover {
   cursor: wait;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
 }
 
 <button
@@ -6653,10 +6585,6 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent n
 .emotion-3:hover:focus,
 .emotion-3:hover {
   cursor: wait;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
 }
 
 .emotion-2 {
@@ -7042,10 +6970,6 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent s
 .emotion-3:hover:focus,
 .emotion-3:hover {
   cursor: wait;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
 }
 
 <button
@@ -7417,10 +7341,6 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent s
 .emotion-3:hover:focus,
 .emotion-3:hover {
   cursor: wait;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
 }
 
 <button
@@ -7792,10 +7712,6 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent s
 .emotion-3:hover:focus,
 .emotion-3:hover {
   cursor: wait;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
 }
 
 <button
@@ -8167,10 +8083,6 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent w
 .emotion-3:hover:focus,
 .emotion-3:hover {
   cursor: wait;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
 }
 
 <button
@@ -8542,10 +8454,6 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent w
 .emotion-3:hover:focus,
 .emotion-3:hover {
   cursor: wait;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
 }
 
 <button
@@ -8917,10 +8825,6 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent w
 .emotion-3:hover:focus,
 .emotion-3:hover {
   cursor: wait;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
 }
 
 <button

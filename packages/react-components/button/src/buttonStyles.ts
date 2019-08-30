@@ -41,7 +41,6 @@ const baseLoadingStyle = css({
   ':active': { transform: 'none' },
   ':focus, :hover:focus, : hover': {
     cursor: 'wait',
-    display: 'flex',
   },
   backgroundColor: 'white',
   display: 'inline-flex',
