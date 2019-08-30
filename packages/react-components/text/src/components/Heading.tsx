@@ -1,11 +1,13 @@
 import tokens from '@datacamp/waffles-tokens/lib/future-tokens.json';
-import { ssrSafeFirstChildSelector } from '@datacamp/waffles-utils';
+import {
+  computeDataAttributes,
+  ssrSafeFirstChildSelector,
+} from '@datacamp/waffles-utils';
 import { css, SerializedStyles } from '@emotion/core';
 import React from 'react';
 
 import PlainString from '../alternateComponents/PlainString';
 import baseStyle from '../baseStyle';
-import computeDataAttributes from '../computeDataAttributes';
 import validateChildrenProp from '../validateChildrenProp';
 import Strong from './Strong';
 
