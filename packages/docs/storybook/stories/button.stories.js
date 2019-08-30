@@ -264,28 +264,30 @@ storiesOf('waffles-button', module).add('Button Component', () => (
     </tr>
     <tr>
       <td>
-        <Button isLoading>isLoading</Button>
-      </td>
-      <td>
-        <Button intent="danger" isLoading>
-          isLoading
+        <Button appearance="primary" type="submit">
+          Submit
         </Button>
       </td>
       <td>
-        <Button intent="success" isLoading>
-          isLoading
+        <Button appearance="primary" intent="danger" type="submit">
+          Submit
         </Button>
       </td>
       <td>
-        <Button intent="warning" isLoading>
-          isLoading
+        <Button appearance="primary" intent="success" type="submit">
+          Submit
+        </Button>
+      </td>
+      <td>
+        <Button appearance="primary" intent="warning" type="submit">
+          Submit
         </Button>
       </td>
     </tr>
     <tr>
       <td>
-        <Button appearance="primary" isLoading>
-          isLoading
+        <Button appearance="primary" type="submit" isLoading>
+          Submit
         </Button>
       </td>
       <td>
@@ -300,7 +302,7 @@ storiesOf('waffles-button', module).add('Button Component', () => (
       </td>
       <td>
         <Button appearance="primary" intent="warning" isLoading>
-          isLoading
+          Submit
         </Button>
       </td>
     </tr>
@@ -328,43 +330,98 @@ storiesOf('waffles-button', module).add('Button Component', () => (
     </tr>
     <tr>
       <td>
-        <Button size="small" isLoading>
-          isLoading
+        <Button appearance="primary" href="https://www.google.com" type="link">
+          Link
         </Button>
       </td>
       <td>
-        <Button intent="danger" size="small" isLoading>
-          isLoading
+        <Button
+          appearance="primary"
+          href="https://www.google.com"
+          intent="danger"
+          target="_blank"
+          type="link"
+        >
+          Link
         </Button>
       </td>
       <td>
-        <Button intent="success" size="small" isLoading>
-          isLoading
+        <Button
+          appearance="primary"
+          href="https://www.google.com"
+          intent="success"
+          type="link"
+        >
+          Link
         </Button>
       </td>
       <td>
-        <Button intent="warning" size="small" isLoading>
-          isLoading
+        <Button
+          appearance="primary"
+          href="https://www.google.com"
+          intent="warning"
+          type="link"
+        >
+          Link
         </Button>
       </td>
     </tr>
     <tr>
       <td>
-        <Button isLoading>test different sizes</Button>
-      </td>
-      <td>
-        <Button intent="danger" isLoading>
-          test different sizes
+        <Button appearance="primary" href="https://www.google.com/" type="link">
+          Link
         </Button>
       </td>
       <td>
-        <Button intent="success" size="large" isLoading>
-          test different sizes
+        <Button
+          appearance="primary"
+          href="https://www.google.com"
+          intent="danger"
+          target="_blank"
+          type="link"
+        >
+          Link target blank
         </Button>
       </td>
       <td>
-        <Button intent="warning" size="small" isLoading>
-          test different sizes
+        <Button
+          href="https://www.google.com/"
+          intent="warning"
+          size="small"
+          target="_blank"
+          type="link"
+        >
+          Link small target blank
+        </Button>
+      </td>
+      <td>
+        <Button
+          appearance="primary"
+          href="https://www.google.com"
+          intent="warning"
+          type="link"
+        >
+          Link
+        </Button>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <Button type="submit">Submit</Button>
+      </td>
+      <td>
+        <Button intent="danger" type="submit">
+          Submit
+        </Button>
+      </td>
+      <td>
+        <Button intent="warning" size="small" type="submit">
+          Submit
+        </Button>
+      </td>
+      <td>
+        <Button appearance="primary" intent="warning" type="submit">
+          Submit
         </Button>
       </td>
     </tr>

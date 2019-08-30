@@ -9,30 +9,22 @@ const headings = `
 #### This is an h4 tag
 ##### This is an h5 tag
 ###### This is an h6 tag
-
 ## Heading with __emphasis__ inside
 `;
 
 const paragraphs = `
 This is the first paragraph.
-
 This is a second paragraph.
-
 This paragraph should  
 have 2 lines.
 `;
 
 const emphasis = `
 *This text will be italic*
-
 _This will also be italic_
-
 **This text will be bold**
-
 __This will also be bold__
-
 Only the word **strong** should be strong.
-
 _You **can** combine them_
 `;
 
@@ -46,7 +38,6 @@ const lists = `
 * Item 2
   * Item 2a
   * Item 2b
-
 ### Ordered list
 1. Item 1
 1. Item 2
@@ -61,38 +52,29 @@ const images = `
 
 const links = `
 http://github.com - automatic!
-
 [GitHub](http://github.com)
 `;
 
 const blockquotes = `
 As Kanye West said:
-
 > We're living the future so
 > the present is our past.
 `;
 
 const code = `
 This paragraphs contains \`inline code\`.
-
     This is a code block
     with 2 lines
       and 2 space indentation
-
-
 The following code block should highlight python code:
-
 \`\`\`python
 numbers = [1, 2, 3]
 asStrings = [str(x) for x in stuff]
 \`\`\`
-
 The following code block should highlight javascript code:
-
 \`\`\`js
 var React = require('react');
 var Markdown = require('react-markdown');
-
 React.render(
   <Markdown source="# Your markdown here" />,
   document.getElementById('content')
@@ -116,11 +98,8 @@ Content in the first column | Content in the second column
 
 const textComponents = `
 ${headings}
-
 ${paragraphs}
-
 ${emphasis}
-
 ${strikethrough}
 `;
 
@@ -133,9 +112,7 @@ const htmlTags = `
     <td>its a table</td>
   </tr>
 </table>
-
 <script>alert("obviously you shouldn’t see this")</script>
-
 <style>body{border: 40px dotted red !important;}</style>
 `;
 
