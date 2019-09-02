@@ -3,11 +3,16 @@ import tokens from '@datacamp/waffles-tokens/lib/future-tokens.json';
 import { css } from '@emotion/core';
 import React from 'react';
 
-const CloseButton: React.FC<{ onClick: () => void }> = ({ onClick }) => (
+const CloseButton: React.FC<{ onClick: () => void; disabled: boolean }> = ({
+  onClick,
+  disabled,
+}) => (
   <button
     aria-label="Close"
     css={css({
       ':active': { color: tokens.color.opaque.primary.value.rgb },
+      ':disabled': { color: '#D1D3D8' },
+      ':disabled:hover, :disabled:focus': { backgroundColor: 'transparent' },
       ':focus': {
         backgroundColor: tokens.color.opaque.porcelain.value.rgb,
       },
@@ -17,7 +22,7 @@ const CloseButton: React.FC<{ onClick: () => void }> = ({ onClick }) => (
       border: 'none',
       borderRadius: 2,
       color: tokens.color.opaque.greyDark.value.rgb,
-      cursor: 'pointer',
+      cursor: !disabled ? 'pointer' : 'not-allowed',
       display: 'flex',
       flexDirection: 'column',
       height: tokens.size.space[32].value,
@@ -29,7 +34,8 @@ const CloseButton: React.FC<{ onClick: () => void }> = ({ onClick }) => (
       top: tokens.size.space[8].value,
       width: tokens.size.space[32].value,
     })}
-    onClick={onClick}
+    disabled={disabled}
+    onClick={!disabled ? onClick : undefined}
     type="button"
   >
     <CrossIcon size={18} />

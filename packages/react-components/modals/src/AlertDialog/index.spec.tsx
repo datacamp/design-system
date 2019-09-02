@@ -213,6 +213,137 @@ describe('<AlertModal />', () => {
     });
   });
 
+  describe('isLoading', () => {
+    it('disables the Cancel button when isLoading', async () => {
+      const { getByTitle, baseElement } = await axeRender(
+        <AlertDialog
+          description="test description"
+          onClose={() => {}}
+          onConfirm={() => {}}
+          title="test title"
+          isLoading
+          isOpen
+        />,
+        getRenderOptions()
+      );
+
+      const closeButton = getByTitle('Cross') as HTMLElement;
+
+      expect(closeButton).toBeDisabled();
+      expect(baseElement).toMatchSnapshot();
+    });
+
+    it('renders a loading confirm button when isLoading', async () => {
+      const { getByText, getByTitle } = await axeRender(
+        <AlertDialog
+          description="test description"
+          onClose={() => {}}
+          onConfirm={() => {}}
+          title="test title"
+          isLoading
+          isOpen
+        />,
+        getRenderOptions()
+      );
+
+      const confirmButtonElement = (getByText(
+        'Confirm'
+      ) as HTMLElement).closest('button');
+
+      const spinnerElement = getByTitle('Spinner') as HTMLElement;
+      expect(confirmButtonElement).toContainElement(spinnerElement);
+    });
+
+    it('disables the X button when isLoading', async () => {
+      const onClose = jest.fn();
+
+      const { getByTitle } = await axeRender(
+        <AlertDialog
+          description="test description"
+          onClose={onClose}
+          onConfirm={() => {}}
+          title="test title"
+          isLoading
+          isOpen
+        />,
+        getRenderOptions()
+      );
+
+      const closeButton = getByTitle('Cross') as HTMLElement;
+
+      userEvent.click(closeButton);
+      expect(onClose).not.toHaveBeenCalledTimes(1);
+    });
+
+    it("doesn't close when clicking the Cancel button if isLoading", async () => {
+      const onClose = jest.fn();
+
+      const { getByText } = await axeRender(
+        <AlertDialog
+          description="test description"
+          onClose={onClose}
+          onConfirm={() => {}}
+          title="test title"
+          isLoading
+          isOpen
+        />,
+        getRenderOptions()
+      );
+
+      const closeButton = getByText('Cancel') as HTMLElement;
+
+      userEvent.click(closeButton);
+      expect(onClose).not.toHaveBeenCalledTimes(1);
+    });
+
+    it("doesn't close when clicking the background overlay if isLoading", async () => {
+      const onClose = jest.fn();
+      const { baseElement } = await axeRender(
+        <AlertDialog
+          description="test description"
+          onClose={onClose}
+          onConfirm={() => {}}
+          title="test title"
+          isLoading
+          isOpen
+        />,
+        getRenderOptions()
+      );
+
+      // need to use querySelector since there is no real content/label for the background
+      const backgroundOverlayElement = baseElement.querySelector(
+        '.modal-overlay'
+      ) as HTMLElement;
+
+      userEvent.click(backgroundOverlayElement);
+      expect(onClose).not.toHaveBeenCalledTimes(1);
+    });
+
+    it("doesn't close when clicking escape if isLoading", async () => {
+      const onClose = jest.fn();
+      const { getByRole } = await axeRender(
+        <AlertDialog
+          description="test description"
+          onClose={onClose}
+          onConfirm={() => {}}
+          title="test title"
+          isLoading
+          isOpen
+        />,
+        getRenderOptions()
+      );
+
+      const dialogElement = getByRole('dialog') as HTMLElement;
+
+      fireEvent.keyDown(dialogElement, {
+        key: 'ESC',
+        keyCode: 27,
+      });
+
+      expect(onClose).not.toHaveBeenCalledTimes(1);
+    });
+  });
+
   describe('intent', () => {
     it('renders a neutral intent by default', async () => {
       const { getByText } = await axeRender(

@@ -123,6 +123,16 @@ export default () => {
                   </td>
                 </tr>
                 <tr className="dc-table__tr">
+                  <th>isLoading</th>
+                  <td>boolean - optional</td>
+                  <td>
+                    When this is set to true the Modal will show a spinner in
+                    the confirmation button. <Code>cancelButton</Code>,
+                    <Code>overlayClick</Code> and <Code>escKey</Code> will be
+                    disabled.
+                  </td>
+                </tr>
+                <tr className="dc-table__tr">
                   <th>isOpen</th>
                   <td>boolean - required</td>
                   <td>

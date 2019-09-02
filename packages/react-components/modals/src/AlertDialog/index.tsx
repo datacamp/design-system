@@ -86,11 +86,11 @@ const AlertDialog: React.FC<AlertModalProps> = ({
             data={dataAttributes}
             isOpen={isOpen}
             onAfterOpen={onAfterOpen}
-            onRequestClose={onRequestClose}
+            onRequestClose={!isLoading ? onRequestClose : undefined}
             overlayClassName={overlayClassName}
           >
             <Card css={css({ padding: 32, textAlign: 'center' })} elevation={4}>
-              <CloseButton onClick={onCloseButton} />
+              <CloseButton disabled={isLoading} onClick={onCloseButton} />
               <Heading as="h1" size={600} multiLine>
                 {title}
               </Heading>
@@ -99,6 +99,7 @@ const AlertDialog: React.FC<AlertModalProps> = ({
                 <Button
                   ref={cancelButtonRef}
                   css={{ marginRight: 16 }}
+                  disabled={isLoading}
                   onClick={onCancelButton}
                 >
                   {cancelButtonText}
@@ -107,6 +108,7 @@ const AlertDialog: React.FC<AlertModalProps> = ({
                   ref={confirmButtonRef}
                   appearance="primary"
                   intent={intent}
+                  isLoading={isLoading}
                   onClick={onConfirm}
                 >
                   {confirmButtonText}

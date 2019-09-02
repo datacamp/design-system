@@ -135,7 +135,11 @@ const Button = React.forwardRef<
 
   const { onClick } = props;
   return (
-    <button {...commonProps} onClick={onClick} type="button">
+    <button
+      {...commonProps}
+      onClick={!isLoading ? onClick : undefined}
+      type="button"
+    >
       {buttonContent}
     </button>
   );
