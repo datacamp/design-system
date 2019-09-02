@@ -127,8 +127,8 @@ export default () => {
                   <td>boolean - optional</td>
                   <td>
                     When this is set to true the Modal will show a spinner in
-                    the confirmation button. <Code>cancelButton</Code>,
-                    <Code>overlayClick</Code> and <Code>escKey</Code> will be
+                    the confirmation button. &quot;cancelButton&quot;,
+                    &quot;overlayClick&quot; and &quot;escKey&quot; will be
                     disabled.
                   </td>
                 </tr>
