@@ -215,7 +215,7 @@ describe('<AlertModal />', () => {
 
   describe('isLoading', () => {
     it('disables the Cancel button when isLoading', async () => {
-      const { getByTitle, baseElement } = await axeRender(
+      const { container, getByTitle } = await axeRender(
         <AlertDialog
           description="test description"
           onClose={() => {}}
@@ -230,7 +230,7 @@ describe('<AlertModal />', () => {
       const closeButton = getByTitle('Cross') as HTMLElement;
 
       expect(closeButton).toBeDisabled();
-      expect(baseElement).toMatchSnapshot();
+      expect(container.firstChild).toMatchSnapshot();
     });
 
     it('renders a loading confirm button when isLoading', async () => {
