@@ -23,6 +23,9 @@ jobs:
       - run:
           name: Check types
           command: yarn type-check
+      - run:
+          name: Upload to percy
+          command: yarn percy
       - persist_to_workspace:
           root: "."
           paths:

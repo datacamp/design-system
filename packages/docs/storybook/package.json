@@ -10,7 +10,7 @@
     "build": "build-storybook -c .storybook -o lib",
     "clean": "rm -rf lib",
     "prepare": "yarn clean && yarn build",
-    "test": "percy-storybook --fail_on_empty=true --build_dir=lib --widths=320,1280"
+    "percy": "percy-storybook --fail_on_empty=true --build_dir=lib --widths=320,1280"
   },
   "dependencies": {
     "@babel/runtime": "^7.5.5",
