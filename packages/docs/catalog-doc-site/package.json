@@ -22,7 +22,7 @@
     "@datacamp/waffles-tag": "^0.6.5",
     "@datacamp/waffles-text": "^0.12.1",
     "@datacamp/waffles-tokens": "^0.6.2",
-    "@emotion/core": "^10.0.16",
+    "@emotion/core": "^10.0.17",
     "@emotion/styled": "^10.0.17",
     "catalog": "^3.6.0",
     "classnames": "^2.2.5",
