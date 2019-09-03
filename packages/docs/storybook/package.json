@@ -24,7 +24,7 @@
     "@datacamp/waffles-text": "^0.12.1",
     "@datacamp/waffles-tokens": "^0.6.2",
     "@emotion/core": "10.0.16",
-    "@emotion/styled": "10.0.15",
+    "@emotion/styled": "10.0.17",
     "@storybook/addon-knobs": "5.1.11",
     "@storybook/react": "5.1.11",
     "react": "16.8.6",
