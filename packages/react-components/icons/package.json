@@ -35,7 +35,7 @@
     "gulp-zip": "^5.0.0",
     "merge-stream": "^2.0.0",
     "react": "^16.8.6",
-    "typescript": "3.5.3"
+    "typescript": "3.6.2"
   },
   "dependencies": {
     "@babel/runtime": "^7.5.5",
