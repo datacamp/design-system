@@ -24,8 +24,6 @@ const baseStyle = css({
   border: 'none',
   borderRadius: '4px',
   display: 'inline-block',
-  fontFamily: 'Lato',
-  fontWeight: 'bold',
   justifyContent: 'center',
   textDecoration: 'none',
   textTransform: 'capitalize',
@@ -221,6 +219,16 @@ const getSize = (size: 'small' | 'medium' | 'large'): SerializedStyles => {
   return css({ padding: '0 16px' });
 };
 
+const getIconSize = (size: 'small' | 'medium' | 'large'): SerializedStyles => {
+  if (size === 'large') {
+    return css({ padding: ' 20px 20px' });
+  }
+  if (size === 'small') {
+    return css({ padding: ' 9px 9px' });
+  }
+  return css({ padding: '15px 15px' });
+};
+
 const getPrimaryStyle = (
   intent: 'danger' | 'warning' | 'success' | 'neutral'
 ): SerializedStyles => {
@@ -298,6 +306,7 @@ const getFontSize = (size?: 'small' | 'medium' | 'large'): SerializedStyles => {
 
 export {
   baseStyle,
+  getIconSize,
   getFontSize,
   getOutlineLoadingStyle,
   getOutlineStyle,

@@ -1,9 +1,12 @@
 import { Text } from '@datacamp/waffles-text';
-import { css, SerializedStyles } from '@emotion/core';
-import React from 'react';
+import { ClassNames, css, SerializedStyles } from '@emotion/core';
+import tokens from '@datacamp/waffles-tokens/lib/future-tokens.json';
+
+import React, { ReactChild } from 'react';
 
 import {
   baseStyle,
+  getIconSize,
   getFontSize,
   getOutlineLoadingStyle,
   getOutlineStyle,
@@ -88,21 +91,41 @@ const Button = React.forwardRef<
       : css(getOutlineLoadingStyle(intent));
 
   const getButtonStyle = (): SerializedStyles => {
+    if (typeof children === 'string') {
+      return css(
+        baseStyle,
+        getSize(size),
+        isLoading ? isLoadingStyle : appearanceStyle
+      );
+    }
     return css(
       baseStyle,
-      getSize(size),
+      getIconSize(size),
       isLoading ? isLoadingStyle : appearanceStyle
     );
   };
 
   const commonProps = {
     'aria-label': ariaLabel,
+    children,
     className,
     css: getButtonStyle,
     disabled,
     ...parsedDataAttributes,
     ref,
   };
+
+  const largeIconStyle = css`
+    color: ${tokens.color.opaque.primary.value.rgb};
+
+    height: 24px;
+    width: 28px;
+  `;
+
+  const defaultIconStyle = css`
+    height: 18px;
+    width: 18px;
+  `;
 
   const buttonContent = (
     <>
@@ -112,7 +135,22 @@ const Button = React.forwardRef<
           inverted={appearance === 'primary'}
         />
       )}
-      <Text css={getTextStyle}>{children}</Text>
+      <ClassNames>
+        {({ css: generateClassName }) => {
+          return React.Children.map(children, child =>
+            React.isValidElement(child) ? (
+              React.cloneElement(child, {
+                className:
+                  size === 'large'
+                    ? generateClassName(largeIconStyle)
+                    : generateClassName(defaultIconStyle),
+              })
+            ) : (
+              <Text css={getTextStyle}>{child}</Text>
+            )
+          );
+        }}
+      </ClassNames>
     </>
   );
 
