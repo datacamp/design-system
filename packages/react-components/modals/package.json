@@ -49,7 +49,7 @@
     "@datacamp/waffles-icons": "^1.3.2",
     "@datacamp/waffles-text": "^0.12.1",
     "@datacamp/waffles-tokens": "^0.6.1",
-    "@emotion/core": "^10.0.15",
+    "@emotion/core": "^10.0.17",
     "@types/react-modal": "^3.8.3",
     "lodash": "^4.17.13",
     "prop-types": "^15.7.2",
