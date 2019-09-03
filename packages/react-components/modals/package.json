@@ -50,7 +50,7 @@
     "@datacamp/waffles-text": "^0.12.1",
     "@datacamp/waffles-tokens": "^0.6.1",
     "@emotion/core": "^10.0.15",
-    "@types/react-modal": "^3.8.2",
+    "@types/react-modal": "^3.8.3",
     "lodash": "^4.17.13",
     "prop-types": "^15.7.2",
     "react-modal": "^3.9.1",
