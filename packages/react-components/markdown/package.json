@@ -45,7 +45,7 @@
     "@babel/runtime": "^7.5.5",
     "@datacamp/waffles-text": "^0.12.1",
     "prop-types": "^15.7.2",
-    "react-markdown": "^4.2.1"
+    "react-markdown": "^4.2.2"
   },
   "peerDependencies": {
     "react": "^16.8.6",
