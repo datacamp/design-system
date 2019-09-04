@@ -1,6 +1,7 @@
 import './styles.css';
 
 import Button from '@datacamp/waffles-button';
+import { AddCircleIcon } from '@datacamp/waffles-icons';
 import { storiesOf } from '@storybook/react';
 import React from 'react';
 
@@ -424,6 +425,72 @@ storiesOf('waffles-button', module).add('Button Component', () => (
       <td>
         <Button intent="success" size="large" type="submit">
           submit Large
+        </Button>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <Button size="small">
+          <AddCircleIcon />
+        </Button>
+      </td>
+      <td>
+        <Button>
+          <AddCircleIcon />
+        </Button>
+      </td>
+      <td>
+        <Button size="large">
+          <AddCircleIcon />
+        </Button>
+      </td>
+      <td>
+        <Button appearance="primary">
+          <AddCircleIcon />
+        </Button>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <Button intent="danger">
+          <AddCircleIcon />
+        </Button>
+      </td>
+      <td>
+        <Button intent="warning">
+          <AddCircleIcon />
+        </Button>
+      </td>
+      <td>
+        <Button intent="success">
+          <AddCircleIcon />
+        </Button>
+      </td>
+      <td>
+        <Button>
+          <AddCircleIcon appearance="primary" disabled />
+        </Button>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <Button intent="danger" disabled>
+          <AddCircleIcon />
+        </Button>
+      </td>
+      <td>
+        <Button intent="warning" disabled>
+          <AddCircleIcon />
+        </Button>
+      </td>
+      <td>
+        <Button intent="success" disabled>
+          <AddCircleIcon />
+        </Button>
+      </td>
+      <td>
+        <Button disabled>
+          <AddCircleIcon />
         </Button>
       </td>
     </tr>
