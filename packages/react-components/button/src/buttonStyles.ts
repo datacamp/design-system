@@ -221,12 +221,12 @@ const getSize = (size: 'small' | 'medium' | 'large'): SerializedStyles => {
 
 const getIconSize = (size: 'small' | 'medium' | 'large'): SerializedStyles => {
   if (size === 'large') {
-    return css({ padding: ' 20px 20px' });
+    return css({ padding: ' 20px 22px' });
   }
   if (size === 'small') {
-    return css({ padding: ' 9px 9px' });
+    return css({ padding: ' 9px 11px' });
   }
-  return css({ padding: '15px 15px' });
+  return css({ padding: '15px 17px' });
 };
 
 const getPrimaryStyle = (

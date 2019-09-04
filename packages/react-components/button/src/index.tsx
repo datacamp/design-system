@@ -1,13 +1,12 @@
 import { Text } from '@datacamp/waffles-text';
-import { ClassNames, css, SerializedStyles } from '@emotion/core';
 import tokens from '@datacamp/waffles-tokens/lib/future-tokens.json';
-
-import React, { ReactChild } from 'react';
+import { ClassNames, css, SerializedStyles } from '@emotion/core';
+import React from 'react';
 
 import {
   baseStyle,
-  getIconSize,
   getFontSize,
+  getIconSize,
   getOutlineLoadingStyle,
   getOutlineStyle,
   getPrimaryLoadingStyle,
@@ -117,12 +116,12 @@ const Button = React.forwardRef<
 
   const largeIconStyle = css`
     color: ${tokens.color.opaque.primary.value.rgb};
-
     height: 24px;
-    width: 28px;
+    width: 24px;
   `;
 
   const defaultIconStyle = css`
+    color: ${tokens.color.opaque.primary.value.rgb};
     height: 18px;
     width: 18px;
   `;
@@ -136,14 +135,89 @@ const Button = React.forwardRef<
         />
       )}
       <ClassNames>
-        {({ css: generateClassName }) => {
+        {({ css: generateClassName, cx }) => {
+          const getSizeClass =
+            size === 'large'
+              ? generateClassName(largeIconStyle)
+              : generateClassName(defaultIconStyle);
+
+          const getPrimaryColorClass =
+            appearance === 'primary' &&
+            generateClassName(
+              css`
+                color: white;
+              `
+            );
+
+          const getDangerClass =
+            (appearance === 'default' || undefined) && intent === 'danger'
+              ? generateClassName(css`
+                  color: ${tokens.color.opaque.red.value.rgb};
+                `)
+              : null;
+
+          const getWarningClass =
+            (appearance === 'default' || undefined) && intent === 'warning'
+              ? generateClassName(css`
+                  color: ${tokens.color.opaque.orange.value.rgb};
+                `)
+              : null;
+
+          const getSuccessClass =
+            (appearance === 'default' || undefined) && intent === 'success'
+              ? generateClassName(css`
+                  color: ${tokens.color.opaque.green.value.rgb};
+                `)
+              : null;
+
+          const getDisabledDangerClass =
+            (appearance === 'default' || undefined) &&
+            intent === 'danger' &&
+            disabled
+              ? generateClassName(css`
+                  color: #fedede;
+                `)
+              : null;
+
+          const getDisabledSuccessClass =
+            (appearance === 'default' || undefined) &&
+            intent === 'success' &&
+            disabled
+              ? generateClassName(css`
+                  color: #e7f2ec;
+                `)
+              : null;
+
+          const getDisabledWarningClass =
+            (appearance === 'default' || undefined) &&
+            intent === 'warning' &&
+            disabled
+              ? generateClassName(css`
+                  color: #ffeed5;
+                `)
+              : null;
+
+          const getDisabledNeutralClass =
+            (appearance === 'default' || undefined) && disabled
+              ? generateClassName(css`
+                  color: #dcecf1;
+                `)
+              : null;
+
           return React.Children.map(children, child =>
             React.isValidElement(child) ? (
               React.cloneElement(child, {
-                className:
-                  size === 'large'
-                    ? generateClassName(largeIconStyle)
-                    : generateClassName(defaultIconStyle),
+                className: cx(
+                  getSizeClass,
+                  getPrimaryColorClass,
+                  getDangerClass,
+                  getSuccessClass,
+                  getWarningClass,
+                  getDisabledNeutralClass,
+                  getDisabledDangerClass,
+                  getDisabledSuccessClass,
+                  getDisabledWarningClass
+                ),
               })
             ) : (
               <Text css={getTextStyle}>{child}</Text>
