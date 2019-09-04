@@ -494,5 +494,71 @@ storiesOf('waffles-button', module).add('Button Component', () => (
         </Button>
       </td>
     </tr>
+    <tr>
+      <td>
+        <Button appearance="primary" intent="danger" disabled>
+          <AddCircleIcon />
+        </Button>
+      </td>
+      <td>
+        <Button appearance="primary" intent="warning" disabled>
+          <AddCircleIcon />
+        </Button>
+      </td>
+      <td>
+        <Button appearance="primary" intent="success" disabled>
+          <AddCircleIcon />
+        </Button>
+      </td>
+      <td>
+        <Button appearance="primary" disabled>
+          <AddCircleIcon />
+        </Button>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <Button appearance="primary" intent="danger" isLoading>
+          <AddCircleIcon />
+        </Button>
+      </td>
+      <td>
+        <Button appearance="primary" intent="warning" isLoading>
+          <AddCircleIcon />
+        </Button>
+      </td>
+      <td>
+        <Button appearance="primary" intent="success" isLoading>
+          <AddCircleIcon />
+        </Button>
+      </td>
+      <td>
+        <Button appearance="primary" isLoading>
+          <AddCircleIcon />
+        </Button>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <Button intent="danger" isLoading>
+          <AddCircleIcon />
+        </Button>
+      </td>
+      <td>
+        <Button intent="warning" isLoading>
+          <AddCircleIcon />
+        </Button>
+      </td>
+      <td>
+        <Button intent="success" isLoading>
+          <AddCircleIcon />
+        </Button>
+      </td>
+      <td>
+        <Button isLoading>
+          <AddCircleIcon />
+        </Button>
+      </td>
+    </tr>
   </table>
 ));

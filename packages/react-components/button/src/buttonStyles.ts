@@ -46,6 +46,16 @@ const baseLoadingStyle = css({
   position: 'relative',
 });
 
+const iconLoadingStyle = css(baseStyle, {
+  ':active': { transform: 'none' },
+  ':focus, :hover:focus, : hover': {
+    cursor: 'wait',
+  },
+  display: 'inline-flex',
+  padding: '20px',
+  position: 'relative',
+});
+
 // PRIMARY STYLES
 const defaultStyle = css({
   ':disabled, :hover:disabled, :active:disabled': {
@@ -277,6 +287,22 @@ const getOutlineLoadingStyle = (
   }
 };
 
+const getOutlineIconLoadingStyle = (
+  intent?: 'danger' | 'warning' | 'success' | 'neutral'
+): SerializedStyles => {
+  switch (intent) {
+    case 'danger':
+      return css({ backgroundColor: 'white', boxShadow: dangerOutline });
+    case 'warning':
+      return css({ backgroundColor: 'white', boxShadow: warningOutline });
+    case 'success':
+      return css({ backgroundColor: 'white', boxShadow: successOutline });
+    case 'neutral':
+    default:
+      return css({ backgroundColor: 'white', boxShadow: defaultOutline });
+  }
+};
+
 const getOutlineStyle = (
   intent?: 'danger' | 'warning' | 'success' | 'neutral'
 ): SerializedStyles => {
@@ -293,6 +319,54 @@ const getOutlineStyle = (
   }
 };
 
+const getIconOutlineColor = (
+  intent: 'danger' | 'warning' | 'success' | 'neutral'
+): string => {
+  switch (intent) {
+    case 'danger':
+      return tokens.color.opaque.red.value.rgb;
+    case 'warning':
+      return tokens.color.opaque.orange.value.rgb;
+    case 'success':
+      return tokens.color.opaque.green.value.rgb;
+    case 'neutral':
+    default:
+      return tokens.color.opaque.primary.value.rgb;
+  }
+};
+
+const getDisabledIconColor = (
+  intent: 'danger' | 'warning' | 'success' | 'neutral'
+): string => {
+  switch (intent) {
+    case 'danger':
+      return '#fedede';
+    case 'warning':
+      return '#ffeed5';
+    case 'success':
+      return ' #e7f2ec';
+    case 'neutral':
+    default:
+      return '#dcecf1';
+  }
+};
+
+const getPrimaryIconLoadingColor = (
+  intent: 'danger' | 'warning' | 'success' | 'neutral'
+): SerializedStyles => {
+  switch (intent) {
+    case 'danger':
+      return css({ backgroundColor: tokens.color.opaque.red.value.rgb });
+    case 'warning':
+      return css({ backgroundColor: tokens.color.opaque.orange.value.rgb });
+    case 'success':
+      return css({ backgroundColor: tokens.color.opaque.green.value.rgb });
+    case 'neutral':
+    default:
+      return css({ backgroundColor: tokens.color.opaque.primary.value.rgb });
+  }
+};
+
 const getFontSize = (size?: 'small' | 'medium' | 'large'): SerializedStyles => {
   switch (size) {
     case 'large':
@@ -306,10 +380,15 @@ const getFontSize = (size?: 'small' | 'medium' | 'large'): SerializedStyles => {
 
 export {
   baseStyle,
+  iconLoadingStyle,
+  getDisabledIconColor,
   getIconSize,
   getFontSize,
+  getIconOutlineColor,
+  getOutlineIconLoadingStyle,
   getOutlineLoadingStyle,
   getOutlineStyle,
+  getPrimaryIconLoadingColor,
   getPrimaryStyle,
   getPrimaryLoadingStyle,
   getSize,
