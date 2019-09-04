@@ -1,6 +1,5 @@
 import { Text } from '@datacamp/waffles-text';
-import tokens from '@datacamp/waffles-tokens/lib/future-tokens.json';
-import { ClassNames, css, SerializedStyles } from '@emotion/core';
+import { css, SerializedStyles } from '@emotion/core';
 import React from 'react';
 
 import {
@@ -124,19 +123,6 @@ const Button = React.forwardRef<
     ref,
   };
 
-  const largeIconStyle = css`
-    height: 24px;
-    width: 24px;
-  `;
-
-  const defaultIconStyle = css`
-    height: 18px;
-    width: 18px;
-  `;
-
-  const iconSize =
-    size === 'large' ? css(largeIconStyle) : css(defaultIconStyle);
-
   const isIconDisabled = disabled
     ? getDisabledIconColor(intent)
     : getIconOutlineColor(intent);
@@ -151,22 +137,16 @@ const Button = React.forwardRef<
           inverted={appearance === 'primary'}
         />
       )}
-      <ClassNames>
-        {({ css: generateClassName }) => {
-          const getSizeClass = generateClassName(iconSize);
-
-          return React.Children.map(children, child =>
-            React.isValidElement(child) ? (
-              React.cloneElement(child, {
-                className: getSizeClass,
-                color: isLoading ? 'transparent' : getColor,
-              })
-            ) : (
-              <Text css={getTextStyle}>{child}</Text>
-            )
-          );
-        }}
-      </ClassNames>
+      {React.Children.map(children, child =>
+        React.isValidElement(child) ? (
+          React.cloneElement(child, {
+            color: isLoading ? 'transparent' : getColor,
+            size: size === 'large' ? 24 : 18,
+          })
+        ) : (
+          <Text css={getTextStyle}>{child}</Text>
+        )
+      )}
     </>
   );
 
