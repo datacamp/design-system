@@ -23,8 +23,6 @@ exports[`<Button /> snapshots renders a button with appearance default, intent d
   border: none;
   border-radius: 4px;
   display: inline-block;
-  font-family: Lato;
-  font-weight: bold;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -190,8 +188,6 @@ exports[`<Button /> snapshots renders a button with appearance default, intent d
   border: none;
   border-radius: 4px;
   display: inline-block;
-  font-family: Lato;
-  font-weight: bold;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -399,8 +395,6 @@ exports[`<Button /> snapshots renders a button with appearance default, intent d
   border: none;
   border-radius: 4px;
   display: inline-block;
-  font-family: Lato;
-  font-weight: bold;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -566,8 +560,6 @@ exports[`<Button /> snapshots renders a button with appearance default, intent d
   border: none;
   border-radius: 4px;
   display: inline-block;
-  font-family: Lato;
-  font-weight: bold;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -775,8 +767,6 @@ exports[`<Button /> snapshots renders a button with appearance default, intent d
   border: none;
   border-radius: 4px;
   display: inline-block;
-  font-family: Lato;
-  font-weight: bold;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -942,8 +932,6 @@ exports[`<Button /> snapshots renders a button with appearance default, intent d
   border: none;
   border-radius: 4px;
   display: inline-block;
-  font-family: Lato;
-  font-weight: bold;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -1137,8 +1125,6 @@ exports[`<Button /> snapshots renders a button with appearance default, intent n
   border: none;
   border-radius: 4px;
   display: inline-block;
-  font-family: Lato;
-  font-weight: bold;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -1318,8 +1304,6 @@ exports[`<Button /> snapshots renders a button with appearance default, intent n
   border: none;
   border-radius: 4px;
   display: inline-block;
-  font-family: Lato;
-  font-weight: bold;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -1513,8 +1497,6 @@ exports[`<Button /> snapshots renders a button with appearance default, intent n
   border: none;
   border-radius: 4px;
   display: inline-block;
-  font-family: Lato;
-  font-weight: bold;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -1611,8 +1593,6 @@ exports[`<Button /> snapshots renders a button with appearance default, intent n
   border: none;
   border-radius: 4px;
   display: inline-block;
-  font-family: Lato;
-  font-weight: bold;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -1889,8 +1869,6 @@ exports[`<Button /> snapshots renders a button with appearance default, intent n
   border: none;
   border-radius: 4px;
   display: inline-block;
-  font-family: Lato;
-  font-weight: bold;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -1987,8 +1965,6 @@ exports[`<Button /> snapshots renders a button with appearance default, intent n
   border: none;
   border-radius: 4px;
   display: inline-block;
-  font-family: Lato;
-  font-weight: bold;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -2279,8 +2255,6 @@ exports[`<Button /> snapshots renders a button with appearance default, intent s
   border: none;
   border-radius: 4px;
   display: inline-block;
-  font-family: Lato;
-  font-weight: bold;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -2446,8 +2420,6 @@ exports[`<Button /> snapshots renders a button with appearance default, intent s
   border: none;
   border-radius: 4px;
   display: inline-block;
-  font-family: Lato;
-  font-weight: bold;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -2655,8 +2627,6 @@ exports[`<Button /> snapshots renders a button with appearance default, intent s
   border: none;
   border-radius: 4px;
   display: inline-block;
-  font-family: Lato;
-  font-weight: bold;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -2822,8 +2792,6 @@ exports[`<Button /> snapshots renders a button with appearance default, intent s
   border: none;
   border-radius: 4px;
   display: inline-block;
-  font-family: Lato;
-  font-weight: bold;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -3031,8 +2999,6 @@ exports[`<Button /> snapshots renders a button with appearance default, intent s
   border: none;
   border-radius: 4px;
   display: inline-block;
-  font-family: Lato;
-  font-weight: bold;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -3198,8 +3164,6 @@ exports[`<Button /> snapshots renders a button with appearance default, intent s
   border: none;
   border-radius: 4px;
   display: inline-block;
-  font-family: Lato;
-  font-weight: bold;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -3407,8 +3371,6 @@ exports[`<Button /> snapshots renders a button with appearance default, intent w
   border: none;
   border-radius: 4px;
   display: inline-block;
-  font-family: Lato;
-  font-weight: bold;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -3574,8 +3536,6 @@ exports[`<Button /> snapshots renders a button with appearance default, intent w
   border: none;
   border-radius: 4px;
   display: inline-block;
-  font-family: Lato;
-  font-weight: bold;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -3783,8 +3743,6 @@ exports[`<Button /> snapshots renders a button with appearance default, intent w
   border: none;
   border-radius: 4px;
   display: inline-block;
-  font-family: Lato;
-  font-weight: bold;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -3950,8 +3908,6 @@ exports[`<Button /> snapshots renders a button with appearance default, intent w
   border: none;
   border-radius: 4px;
   display: inline-block;
-  font-family: Lato;
-  font-weight: bold;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -4159,8 +4115,6 @@ exports[`<Button /> snapshots renders a button with appearance default, intent w
   border: none;
   border-radius: 4px;
   display: inline-block;
-  font-family: Lato;
-  font-weight: bold;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -4326,8 +4280,6 @@ exports[`<Button /> snapshots renders a button with appearance default, intent w
   border: none;
   border-radius: 4px;
   display: inline-block;
-  font-family: Lato;
-  font-weight: bold;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -4535,8 +4487,6 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent d
   border: none;
   border-radius: 4px;
   display: inline-block;
-  font-family: Lato;
-  font-weight: bold;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -4697,8 +4647,6 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent d
   border: none;
   border-radius: 4px;
   display: inline-block;
-  font-family: Lato;
-  font-weight: bold;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -4906,8 +4854,6 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent d
   border: none;
   border-radius: 4px;
   display: inline-block;
-  font-family: Lato;
-  font-weight: bold;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -5068,8 +5014,6 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent d
   border: none;
   border-radius: 4px;
   display: inline-block;
-  font-family: Lato;
-  font-weight: bold;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -5263,8 +5207,6 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent d
   border: none;
   border-radius: 4px;
   display: inline-block;
-  font-family: Lato;
-  font-weight: bold;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -5439,8 +5381,6 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent d
   border: none;
   border-radius: 4px;
   display: inline-block;
-  font-family: Lato;
-  font-weight: bold;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -5634,8 +5574,6 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent n
   border: none;
   border-radius: 4px;
   display: inline-block;
-  font-family: Lato;
-  font-weight: bold;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -5796,8 +5734,6 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent n
   border: none;
   border-radius: 4px;
   display: inline-block;
-  font-family: Lato;
-  font-weight: bold;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -6005,8 +5941,6 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent n
   border: none;
   border-radius: 4px;
   display: inline-block;
-  font-family: Lato;
-  font-weight: bold;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -6181,8 +6115,6 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent n
   border: none;
   border-radius: 4px;
   display: inline-block;
-  font-family: Lato;
-  font-weight: bold;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -6376,8 +6308,6 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent n
   border: none;
   border-radius: 4px;
   display: inline-block;
-  font-family: Lato;
-  font-weight: bold;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -6538,8 +6468,6 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent n
   border: none;
   border-radius: 4px;
   display: inline-block;
-  font-family: Lato;
-  font-weight: bold;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -6761,8 +6689,6 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent s
   border: none;
   border-radius: 4px;
   display: inline-block;
-  font-family: Lato;
-  font-weight: bold;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -6923,8 +6849,6 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent s
   border: none;
   border-radius: 4px;
   display: inline-block;
-  font-family: Lato;
-  font-weight: bold;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -7132,8 +7056,6 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent s
   border: none;
   border-radius: 4px;
   display: inline-block;
-  font-family: Lato;
-  font-weight: bold;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -7294,8 +7216,6 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent s
   border: none;
   border-radius: 4px;
   display: inline-block;
-  font-family: Lato;
-  font-weight: bold;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -7489,8 +7409,6 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent s
   border: none;
   border-radius: 4px;
   display: inline-block;
-  font-family: Lato;
-  font-weight: bold;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -7665,8 +7583,6 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent s
   border: none;
   border-radius: 4px;
   display: inline-block;
-  font-family: Lato;
-  font-weight: bold;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -7874,8 +7790,6 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent w
   border: none;
   border-radius: 4px;
   display: inline-block;
-  font-family: Lato;
-  font-weight: bold;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -8036,8 +7950,6 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent w
   border: none;
   border-radius: 4px;
   display: inline-block;
-  font-family: Lato;
-  font-weight: bold;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -8245,8 +8157,6 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent w
   border: none;
   border-radius: 4px;
   display: inline-block;
-  font-family: Lato;
-  font-weight: bold;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -8407,8 +8317,6 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent w
   border: none;
   border-radius: 4px;
   display: inline-block;
-  font-family: Lato;
-  font-weight: bold;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -8602,8 +8510,6 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent w
   border: none;
   border-radius: 4px;
   display: inline-block;
-  font-family: Lato;
-  font-weight: bold;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -8778,8 +8684,6 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent w
   border: none;
   border-radius: 4px;
   display: inline-block;
-  font-family: Lato;
-  font-weight: bold;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;

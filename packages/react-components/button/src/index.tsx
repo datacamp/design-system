@@ -1,6 +1,6 @@
 import { Text } from '@datacamp/waffles-text';
 import { css, SerializedStyles } from '@emotion/core';
-import React from 'react';
+import React, { ReactElement } from 'react';
 
 import {
   baseStyle,
@@ -23,7 +23,7 @@ import Spinner from './spinner';
 interface BaseButtonProps {
   appearance?: 'default' | 'primary';
   ariaLabel?: string;
-  children: string;
+  children: string | ReactElement;
   className?: string;
   dataAttributes?: { [key: string]: string };
   disabled?: boolean;

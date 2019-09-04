@@ -1,5 +1,7 @@
 import '@testing-library/jest-dom/extend-expect';
 
+import { AddCircleIcon } from '@datacamp/waffles-icons';
+
 import axeRender from '@datacamp/waffles-axe-render';
 import { render } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
@@ -271,6 +273,53 @@ describe('<Button />', () => {
     });
   });
 
+  describe('Single icon', () => {
+    it('renders a single icon as a child', async () => {
+      const { container, getByTitle } = await render(
+        <Button onClick={someFunction}>
+          <AddCircleIcon />
+        </Button>
+      );
+
+      const buttonElement = container.firstChild;
+      const iconElement = getByTitle('Add') as HTMLElement;
+      expect(buttonElement).toContainElement(iconElement);
+    });
+
+    it('renders a small squared button when it has icon as a child and size="small"', async () => {
+      const { container } = await render(
+        <Button onClick={someFunction} size="small">
+          <AddCircleIcon />
+        </Button>
+      );
+
+      const buttonElement = container.firstChild;
+      expect(buttonElement).toHaveStyle(`height: 38px, width: 38px `);
+    });
+
+    it('renders a medium squared button when it has icon as a child and size="medium" or is undefined ', async () => {
+      const { container } = await render(
+        <Button onClick={someFunction}>
+          <AddCircleIcon />
+        </Button>
+      );
+
+      const buttonElement = container.firstChild;
+      expect(buttonElement).toHaveStyle(`height: 50px, width: 50px `);
+    });
+
+    it('renders a large squared button when it has icon as a child and size="large" ', async () => {
+      const { container } = await render(
+        <Button onClick={someFunction} size="large">
+          <AddCircleIcon />
+        </Button>
+      );
+
+      const buttonElement = container.firstChild;
+      expect(buttonElement).toHaveStyle(`height: 6px, width: 66px `);
+    });
+  });
+
   describe('href and target props', () => {
     it('renders an "<a> </a>" tag if type=link', async () => {
       const { container } = await axeRender(
@@ -344,6 +393,15 @@ describe('<Button />', () => {
           });
         });
       });
+    });
+
+    it(`renders a squared button with a single icon`, async () => {
+      const { container } = await axeRender(
+        <Button onClick={someFunction}>
+          <AddCircleIcon />
+        </Button>
+      );
+      expect(container.firstChild).toMatchSnapshot();
     });
   });
 });
