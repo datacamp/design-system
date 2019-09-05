@@ -101,6 +101,15 @@ exports[`<AlertModal /> isOpen renders the modal via a portal when true 1`] = `
   color: rgb(51,170,204);
 }
 
+.emotion-0:disabled {
+  color: #D1D3D8;
+}
+
+.emotion-0:disabled:hover,
+.emotion-0:disabled:focus {
+  background-color: transparent;
+}
+
 .emotion-0:focus {
   background-color: rgb(240,244,245);
 }
