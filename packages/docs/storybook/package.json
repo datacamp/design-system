@@ -17,6 +17,7 @@
     "@datacamp/waffles-button": "^1.0.0",
     "@datacamp/waffles-card": "^1.0.3",
     "@datacamp/waffles-core": "^1.2.8",
+    "@datacamp/waffles-form-elements": "^0.0.1",
     "@datacamp/waffles-icons": "^1.3.2",
     "@datacamp/waffles-markdown": "^0.1.1",
     "@datacamp/waffles-modals": "^1.0.0",

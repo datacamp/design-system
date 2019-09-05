@@ -59,6 +59,13 @@ export default {
       path: '/component-library/tag',
       title: 'Tag',
     },
+    {
+      content: pageLoader(() =>
+        import('../../pages/componentLibrary/formElements.js')
+      ),
+      path: '/component-library/formElements',
+      title: 'Form Elements',
+    },
   ],
   title: 'Component Library',
 };
