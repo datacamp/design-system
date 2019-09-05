@@ -51,7 +51,7 @@ const Button = React.forwardRef<
     children,
     className,
     dataAttributes,
-    disabled,
+    disabled = false,
     intent = 'neutral',
     isLoading = false,
     size = 'medium',
@@ -99,7 +99,7 @@ const Button = React.forwardRef<
     'aria-label': ariaLabel,
     className,
     css: getButtonStyle,
-    disabled,
+    disabled: disabled || isLoading,
     ...parsedDataAttributes,
     ref,
   };
