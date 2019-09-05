@@ -123,6 +123,15 @@ export default () => {
                   </td>
                 </tr>
                 <tr className="dc-table__tr">
+                  <th>isLoading</th>
+                  <td>boolean - optional</td>
+                  <td>
+                    When this is set to true the Modal will show a spinner in
+                    the confirmation button.The user will not be able to close
+                    the dialog while it&apos;s loading
+                  </td>
+                </tr>
+                <tr className="dc-table__tr">
                   <th>isOpen</th>
                   <td>boolean - required</td>
                   <td>
