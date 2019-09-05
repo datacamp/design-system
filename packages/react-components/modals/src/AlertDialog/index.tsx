@@ -23,6 +23,7 @@ interface AlertModalProps {
   dataAttributes?: { [key: string]: string };
   description: string;
   intent?: 'neutral' | 'success' | 'warning' | 'danger';
+  isLoading?: boolean;
   isOpen: boolean;
   onClose: (origin: CloseOrigin) => void;
   onConfirm: () => void;
@@ -36,6 +37,7 @@ const AlertDialog: React.FC<AlertModalProps> = ({
   dataAttributes,
   description,
   intent = 'neutral',
+  isLoading = false,
   isOpen,
   onClose,
   onConfirm,
@@ -86,9 +88,11 @@ const AlertDialog: React.FC<AlertModalProps> = ({
             onAfterOpen={onAfterOpen}
             onRequestClose={onRequestClose}
             overlayClassName={overlayClassName}
+            shouldCloseOnEsc={!isLoading}
+            shouldCloseOnOverlayClick={!isLoading}
           >
             <Card css={css({ padding: 32, textAlign: 'center' })} elevation={4}>
-              <CloseButton onClick={onCloseButton} />
+              <CloseButton disabled={isLoading} onClick={onCloseButton} />
               <Heading as="h1" size={600} multiLine>
                 {title}
               </Heading>
@@ -97,6 +101,7 @@ const AlertDialog: React.FC<AlertModalProps> = ({
                 <Button
                   ref={cancelButtonRef}
                   css={{ marginRight: 16 }}
+                  disabled={isLoading}
                   onClick={onCancelButton}
                 >
                   {cancelButtonText}
@@ -105,6 +110,7 @@ const AlertDialog: React.FC<AlertModalProps> = ({
                   ref={confirmButtonRef}
                   appearance="primary"
                   intent={intent}
+                  isLoading={isLoading}
                   onClick={onConfirm}
                 >
                   {confirmButtonText}
