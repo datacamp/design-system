@@ -241,6 +241,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent d
 
 <button
   class="emotion-3"
+  disabled=""
   type="button"
 >
   <svg
@@ -617,6 +618,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent d
 
 <button
   class="emotion-3"
+  disabled=""
   type="button"
 >
   <svg
@@ -993,6 +995,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent d
 
 <button
   class="emotion-3"
+  disabled=""
   type="button"
 >
   <svg
@@ -1369,6 +1372,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent n
 
 <button
   class="emotion-3"
+  disabled=""
   type="button"
 >
   <svg
@@ -1745,6 +1749,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent n
 
 <button
   class="emotion-3"
+  disabled=""
   type="button"
 >
   <svg
@@ -2121,6 +2126,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent n
 
 <button
   class="emotion-3"
+  disabled=""
   type="button"
 >
   <svg
@@ -2497,6 +2503,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent s
 
 <button
   class="emotion-3"
+  disabled=""
   type="button"
 >
   <svg
@@ -2873,6 +2880,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent s
 
 <button
   class="emotion-3"
+  disabled=""
   type="button"
 >
   <svg
@@ -3249,6 +3257,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent s
 
 <button
   class="emotion-3"
+  disabled=""
   type="button"
 >
   <svg
@@ -3625,6 +3634,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent w
 
 <button
   class="emotion-3"
+  disabled=""
   type="button"
 >
   <svg
@@ -4001,6 +4011,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent w
 
 <button
   class="emotion-3"
+  disabled=""
   type="button"
 >
   <svg
@@ -4377,6 +4388,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent w
 
 <button
   class="emotion-3"
+  disabled=""
   type="button"
 >
   <svg
@@ -4748,6 +4760,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent d
 
 <button
   class="emotion-3"
+  disabled=""
   type="button"
 >
   <svg
@@ -5119,6 +5132,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent d
 
 <button
   class="emotion-3"
+  disabled=""
   type="button"
 >
   <svg
@@ -5490,6 +5504,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent d
 
 <button
   class="emotion-3"
+  disabled=""
   type="button"
 >
   <svg
@@ -5861,6 +5876,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent n
 
 <button
   class="emotion-3"
+  disabled=""
   type="button"
 >
   <svg
@@ -6232,6 +6248,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent n
 
 <button
   class="emotion-3"
+  disabled=""
   type="button"
 >
   <svg
@@ -6603,6 +6620,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent n
 
 <button
   class="emotion-3"
+  disabled=""
   type="button"
 >
   <svg
@@ -6974,6 +6992,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent s
 
 <button
   class="emotion-3"
+  disabled=""
   type="button"
 >
   <svg
@@ -7345,6 +7364,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent s
 
 <button
   class="emotion-3"
+  disabled=""
   type="button"
 >
   <svg
@@ -7716,6 +7736,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent s
 
 <button
   class="emotion-3"
+  disabled=""
   type="button"
 >
   <svg
@@ -8087,6 +8108,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent w
 
 <button
   class="emotion-3"
+  disabled=""
   type="button"
 >
   <svg
@@ -8458,6 +8480,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent w
 
 <button
   class="emotion-3"
+  disabled=""
   type="button"
 >
   <svg
@@ -8829,6 +8852,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent w
 
 <button
   class="emotion-3"
+  disabled=""
   type="button"
 >
   <svg
