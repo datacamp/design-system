@@ -4,11 +4,10 @@ import React, { ReactElement } from 'react';
 
 import {
   baseStyle,
-  iconLoadingStyle,
   getDisabledIconColor,
   getFontSize,
-  getIconSize,
   getIconOutlineColor,
+  getIconSize,
   getOutlineIconLoadingStyle,
   getOutlineLoadingStyle,
   getOutlineStyle,
@@ -16,6 +15,7 @@ import {
   getPrimaryLoadingStyle,
   getPrimaryStyle,
   getSize,
+  iconLoadingStyle,
 } from './buttonStyles';
 import computeDataAttributes from './computeDataAttributes';
 import Spinner from './spinner';
@@ -47,10 +47,17 @@ interface SubmitButtonProps extends BaseButtonProps {
   type: 'submit';
 }
 
-const Button = React.forwardRef<
-  any,
-  LinkButtonProps | ButtonButtonProps | SubmitButtonProps
->((props, ref) => {
+interface IconButtonProps extends BaseButtonProps {
+  ariaLabel: string;
+}
+
+type ButtonWithChildProps = {
+  children: string | ReactElement;
+} extends React.ElementType
+  ? IconButtonProps
+  : ButtonButtonProps | LinkButtonProps | SubmitButtonProps;
+
+const Button = React.forwardRef<any, ButtonWithChildProps>((props, ref) => {
   const {
     appearance = 'default',
     ariaLabel,
@@ -152,6 +159,7 @@ const Button = React.forwardRef<
 
   if (props.type === 'link') {
     const { href, target } = props;
+
     return (
       <a {...commonProps} href={href} target={target}>
         {buttonContent}

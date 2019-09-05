@@ -1,8 +1,7 @@
 import '@testing-library/jest-dom/extend-expect';
 
-import { AddCircleIcon } from '@datacamp/waffles-icons';
-
 import axeRender from '@datacamp/waffles-axe-render';
+import { AddCircleIcon } from '@datacamp/waffles-icons';
 import { render } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import React from 'react';
@@ -46,7 +45,7 @@ describe('<Button />', () => {
     expect(container.firstChild).toHaveClass(testClass);
   });
 
-  it('sets the aria-label on the button element', async () => {
+  it('sets the ariaLabel on the button element', async () => {
     const exempleAriaLabel = 'add button';
     const { container } = await axeRender(
       <Button ariaLabel={exempleAriaLabel} onClick={someFunction}>
@@ -276,7 +275,7 @@ describe('<Button />', () => {
   describe('Single icon', () => {
     it('renders a single icon as a child', async () => {
       const { container, getByTitle } = await render(
-        <Button onClick={someFunction}>
+        <Button ariaLabel="add" onClick={someFunction}>
           <AddCircleIcon />
         </Button>
       );
@@ -288,7 +287,7 @@ describe('<Button />', () => {
 
     it('renders a small squared button when it has icon as a child and size="small"', async () => {
       const { container } = await render(
-        <Button onClick={someFunction} size="small">
+        <Button ariaLabel="add" onClick={someFunction} size="small">
           <AddCircleIcon />
         </Button>
       );
@@ -299,7 +298,7 @@ describe('<Button />', () => {
 
     it('renders a medium squared button when it has icon as a child and size="medium" or is undefined ', async () => {
       const { container } = await render(
-        <Button onClick={someFunction}>
+        <Button ariaLabel="add" onClick={someFunction}>
           <AddCircleIcon />
         </Button>
       );
@@ -310,13 +309,163 @@ describe('<Button />', () => {
 
     it('renders a large squared button when it has icon as a child and size="large" ', async () => {
       const { container } = await render(
-        <Button onClick={someFunction} size="large">
+        <Button ariaLabel="add" onClick={someFunction} size="large">
           <AddCircleIcon />
         </Button>
       );
 
       const buttonElement = container.firstChild;
       expect(buttonElement).toHaveStyle(`height: 6px, width: 66px `);
+    });
+
+    it('renders the disabled property', async () => {
+      const { container } = await axeRender(
+        <Button ariaLabel="add" onClick={someFunction} disabled>
+          <AddCircleIcon />
+        </Button>
+      );
+
+      const buttonElement = container.firstChild;
+
+      expect(buttonElement).toHaveAttribute('disabled');
+    });
+
+    it('renders a blue button for the appearance="primary" and intent="neutral', async () => {
+      const { container } = await axeRender(
+        <Button
+          appearance="primary"
+          ariaLabel="add"
+          intent="neutral"
+          onClick={someFunction}
+        >
+          <AddCircleIcon />
+        </Button>
+      );
+
+      expect(container.firstChild).toHaveStyle(
+        `background-color: tokens.color.opaque.primary.value.rgb`
+      );
+    });
+
+    it('renders a red button for the appearance="primary" and intent="danger', async () => {
+      const { container } = await axeRender(
+        <Button
+          appearance="primary"
+          ariaLabel="add"
+          intent="danger"
+          onClick={someFunction}
+        >
+          <AddCircleIcon />
+        </Button>
+      );
+
+      expect(container.firstChild).toHaveStyle(`background-color:  #FE5C5C`);
+    });
+
+    it('renders an orange button for the appearance="primary" and intent="warning', async () => {
+      const { container } = await axeRender(
+        <Button
+          appearance="primary"
+          ariaLabel="add"
+          intent="warning"
+          onClick={someFunction}
+        >
+          <AddCircleIcon />
+        </Button>
+      );
+
+      expect(container.firstChild).toHaveStyle(
+        `background-color: tokens.color.opaque.orange.value.rgb`
+      );
+    });
+
+    it('renders a green button for the appearance="primary" and intent="success', async () => {
+      const { container } = await axeRender(
+        <Button
+          appearance="primary"
+          ariaLabel="add"
+          intent="success"
+          onClick={someFunction}
+        >
+          <AddCircleIcon />
+        </Button>
+      );
+
+      expect(container.firstChild).toHaveStyle(
+        `background-color:  tokens.color.opaque.green.value.rgb`
+      );
+    });
+
+    it('renders a blue outline button for the intent="neutral', async () => {
+      const { container } = await axeRender(
+        <Button
+          appearance="default"
+          ariaLabel="add"
+          intent="neutral"
+          onClick={someFunction}
+        >
+          <AddCircleIcon />
+        </Button>
+      );
+
+      const buttonElement = container.firstChild;
+
+      expect(buttonElement).toHaveStyle(`box-shadow: inset 0 0 0 1px #33AACC`);
+      expect(buttonElement).toHaveStyle(`background-color: white`);
+    });
+
+    it('renders a red outline button for the intent="danger', async () => {
+      const { container } = await axeRender(
+        <Button
+          appearance="default"
+          ariaLabel="add"
+          intent="danger"
+          onClick={someFunction}
+        >
+          <AddCircleIcon />
+        </Button>
+      );
+
+      const buttonElement = container.firstChild;
+
+      expect(buttonElement).toHaveStyle(`box-shadow: inset 0 0 0 1px #FE5C5C`);
+      expect(buttonElement).toHaveStyle(`background-color: white`);
+    });
+
+    it('renders an orange outline button for the intent="warning', async () => {
+      const { container } = await axeRender(
+        <Button
+          appearance="default"
+          ariaLabel="add"
+          intent="warning"
+          onClick={someFunction}
+        >
+          <AddCircleIcon />
+        </Button>
+      );
+
+      const buttonElement = container.firstChild;
+
+      expect(buttonElement).toHaveStyle(`box-shadow: inset 0 0 0 1px #FF9400`);
+      expect(buttonElement).toHaveStyle(`background-color: white`);
+    });
+
+    it('renders a green outline button for the intent="success', async () => {
+      const { container } = await axeRender(
+        <Button
+          appearance="default"
+          ariaLabel="add"
+          intent="success"
+          onClick={someFunction}
+        >
+          <AddCircleIcon />
+        </Button>
+      );
+
+      const buttonElement = container.firstChild;
+
+      expect(buttonElement).toHaveStyle(`box-shadow: inset 0 0 0 1px #36D57D`);
+      expect(buttonElement).toHaveStyle(`background-color: white`);
     });
   });
 
@@ -397,7 +546,7 @@ describe('<Button />', () => {
 
     it(`renders a squared button with a single icon`, async () => {
       const { container } = await axeRender(
-        <Button onClick={someFunction}>
+        <Button ariaLabel="add" onClick={someFunction}>
           <AddCircleIcon />
         </Button>
       );

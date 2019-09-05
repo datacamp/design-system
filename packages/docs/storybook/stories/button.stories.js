@@ -457,7 +457,7 @@ storiesOf('waffles-button', module).add('Button Component', () => (
         </Button>
       </td>
       <td>
-        <Button intent="warning" size="large">
+        <Button aria-label="add" intent="warning" size="large">
           <AddCircleIcon />
         </Button>
       </td>
