@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.1](https://github.com/datacamp/design-system/compare/@datacamp/waffles-button@1.0.0...@datacamp/waffles-button@1.0.1) (2019-09-06)
+
+
+### Bug Fixes
+
+* disabling button when loading ([2b70d9e](https://github.com/datacamp/design-system/commit/2b70d9e))
+* use computeDataAttributes function from waffles-utils ([ef51de2](https://github.com/datacamp/design-system/commit/ef51de2))
+
+
+
+
+
 # [1.0.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-button@0.3.0...@datacamp/waffles-button@1.0.0) (2019-08-30)
 
 

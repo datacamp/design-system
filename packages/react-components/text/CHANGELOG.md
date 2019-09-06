@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.12.2](https://github.com/datacamp/design-system/compare/@datacamp/waffles-text@0.12.1...@datacamp/waffles-text@0.12.2) (2019-09-06)
+
+
+### Bug Fixes
+
+* use computeDataAttributes function from waffles-utils ([8bc3767](https://github.com/datacamp/design-system/commit/8bc3767))
+* use SSR safe version of :first-child from waffles-utils ([698ff65](https://github.com/datacamp/design-system/commit/698ff65))
+
+
+
+
+
 ## [0.12.1](https://github.com/datacamp/design-system/compare/@datacamp/waffles-text@0.12.0...@datacamp/waffles-text@0.12.1) (2019-08-30)
 
 **Note:** Version bump only for package @datacamp/waffles-text

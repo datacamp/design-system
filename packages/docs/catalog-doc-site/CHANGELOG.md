@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.17.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-catalog-doc-site@1.16.1...@datacamp/waffles-catalog-doc-site@1.17.0) (2019-09-06)
+
+
+### Features
+
+* adding doc for loading alert dialog ([ce6bf7e](https://github.com/datacamp/design-system/commit/ce6bf7e))
+
+
+
+
+
 ## [1.16.1](https://github.com/datacamp/design-system/compare/@datacamp/waffles-catalog-doc-site@1.16.0...@datacamp/waffles-catalog-doc-site@1.16.1) (2019-08-30)
 
 

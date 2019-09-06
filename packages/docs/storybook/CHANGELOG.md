@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.17.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-storybook@1.16.0...@datacamp/waffles-storybook@1.17.0) (2019-09-06)
+
+
+### Features
+
+* adding story for loading alert dialog ([8ea15b9](https://github.com/datacamp/design-system/commit/8ea15b9))
+
+
+
+
+
 # [1.16.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-storybook@1.15.0...@datacamp/waffles-storybook@1.16.0) (2019-08-30)
 
 
