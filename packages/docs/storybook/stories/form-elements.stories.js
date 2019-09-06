@@ -1,3 +1,4 @@
+import Button from '@datacamp/waffles-button';
 import { Input } from '@datacamp/waffles-form-elements';
 import { storiesOf } from '@storybook/react';
 import React, { createElement, useEffect, useRef, useState } from 'react';
@@ -46,10 +47,53 @@ storiesOf('waffles-form-elements', module).add('Input', () => {
             <td>
               <Input
                 name="story"
-                onChange={setValue}
+                onChange={() => {}}
                 placeholder="disabled"
-                value={value}
+                value=""
                 disabled
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <Button size="small">a small button for comparison</Button>
+            </td>
+            <td>
+              <Input
+                name="story"
+                onChange={() => {}}
+                placeholder="small"
+                size="small"
+                value=""
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <Button>medium button for comparison</Button>
+            </td>
+            <td>
+              <Input
+                name="story"
+                onChange={() => {}}
+                placeholder="medium"
+                size="medium"
+                value=""
+              />
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <Button size="large">here&apos;s a large button</Button>
+            </td>
+            <td>
+              <Input
+                name="story"
+                onChange={() => {}}
+                placeholder="large"
+                size="large"
+                value=""
               />
             </td>
           </tr>

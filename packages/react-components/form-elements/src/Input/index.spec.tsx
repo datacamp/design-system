@@ -117,7 +117,7 @@ describe('<Input />', () => {
       expect(container.firstChild).toHaveAttribute('placeholder', placeholder);
     });
 
-    it('disables the input if disabled is passed as a prop', () => {
+    it('disables the input if "disabled" is passed as a prop', () => {
       const placeholder = 'placeholder text';
       const { container } = render(
         <Input
@@ -129,6 +129,77 @@ describe('<Input />', () => {
         />
       );
       expect(container.firstChild).toHaveAttribute('disabled');
+    });
+
+    it('renders a small text input if size= "small" ', () => {
+      const placeholder = 'placeholder text';
+      const { container } = render(
+        <Input
+          name={testName}
+          onChange={() => {}}
+          placeholder={placeholder}
+          value={testValue}
+        />
+      );
+      expect(container.firstChild).toHaveStyle(`height: 36`);
+      expect(container.firstChild).toHaveStyle(`fontSize: 16`);
+    });
+
+    it('renders a medium text input if size= "medium" or undefined', () => {
+      const placeholder = 'placeholder text';
+      const { container } = render(
+        <Input
+          name={testName}
+          onChange={() => {}}
+          placeholder={placeholder}
+          value={testValue}
+        />
+      );
+      expect(container.firstChild).toHaveStyle(`height: 48`);
+      expect(container.firstChild).toHaveStyle(`fontSize: 16`);
+    });
+
+    it('renders a medium text input if size= "large" ', () => {
+      const placeholder = 'placeholder text';
+      const { container } = render(
+        <Input
+          name={testName}
+          onChange={() => {}}
+          placeholder={placeholder}
+          value={testValue}
+        />
+      );
+      expect(container.firstChild).toHaveStyle(`height: 64`);
+      expect(container.firstChild).toHaveStyle(`fontSize: 20`);
+    });
+  });
+});
+
+describe('snapshots', () => {
+  const exampleText = 'input text';
+
+  const inputSizes: ('small' | 'medium' | 'large')[] = [
+    'small',
+    'medium',
+    'large',
+  ];
+
+  const isDisabled: boolean[] = [true, false];
+  inputSizes.forEach(size => {
+    isDisabled.forEach(disabled => {
+      it(`renders an input with size ${size} and disabled ${disabled}`, async () => {
+        const { container } = render(
+          <Input
+            disabled={disabled}
+            name={exampleText}
+            onChange={() => {}}
+            placeholder={exampleText}
+            size={size}
+            value=""
+          />
+        );
+        expect(container.firstChild).toMatchSnapshot();
+      });
     });
   });
 });

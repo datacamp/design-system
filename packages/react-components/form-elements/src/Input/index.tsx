@@ -1,7 +1,8 @@
-import tokens from '@datacamp/waffles-tokens/lib/future-tokens.json';
 import { computeDataAttributes } from '@datacamp/waffles-utils';
 import { css } from '@emotion/core';
 import React, { forwardRef } from 'react';
+
+import { getSize, inputStyle } from './inputStyle';
 
 interface InputProps {
   /**
@@ -50,38 +51,14 @@ interface InputProps {
    */
   placeholder?: string;
   /**
+   * Select the size for the input element.
+   */
+  size?: 'small' | 'medium' | 'large';
+  /**
    * The value of the input. This should be controlled by listening to onChange.
    */
   value: string;
 }
-
-const inputStyle = css({
-  '::placeholder': {
-    color: tokens.color.opaque.primary.value.rgb,
-  },
-
-  ':disabled, :active:disabled, :focus:disabled': {
-    cursor: 'not-allowed',
-  },
-  ':disabled::placeholder': { color: '#D1D3D8' },
-
-  ':focus': {
-    boxShadow: `0 0 0 1px ${tokens.color.opaque.primary.value.rgb}`,
-    outline: 'none',
-  },
-  background: tokens.color.opaque.primaryLightest.value.rgb,
-  border: 0,
-  borderRadius: tokens.radii.small.value,
-  color: tokens.color.opaque.greyDark.value.rgb,
-  display: 'inline-block',
-  fontFamily: 'Lato',
-  fontSize: 15,
-  height: 20,
-  margin: 0,
-  padding: 14,
-  verticalAlign: 'middle',
-  whiteSpace: 'normal',
-});
 
 const Input = forwardRef<HTMLInputElement, InputProps>(
   (
@@ -95,6 +72,7 @@ const Input = forwardRef<HTMLInputElement, InputProps>(
       onBlur,
       onChange,
       placeholder,
+      size = 'medium',
       value,
     },
     ref
@@ -106,12 +84,14 @@ const Input = forwardRef<HTMLInputElement, InputProps>(
 
     const handleBlur = (): void => onBlur && onBlur();
 
+    const getInputStyle = css(getSize(size), inputStyle);
+
     return (
       <input
         ref={ref}
         autoComplete={autocomplete}
         className={className}
-        css={inputStyle}
+        css={getInputStyle}
         disabled={disabled}
         maxLength={maxLength}
         name={name}

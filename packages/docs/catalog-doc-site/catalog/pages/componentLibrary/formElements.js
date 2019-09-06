@@ -138,6 +138,14 @@ export default () => {
                   <td>boolean - optional</td>
                   <td>It blocks user interaction.</td>
                 </tr>
+                <tr className="dc-table__tr">
+                  <th>size</th>
+                  <td>small, medium, large - optional</td>
+                  <td>
+                    It sets the size of the input box (height and font-size), so
+                    that it can be used inline with the button component.
+                  </td>
+                </tr>
               </tbody>
             </table>
           </div>
