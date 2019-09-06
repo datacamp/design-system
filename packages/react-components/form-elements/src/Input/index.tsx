@@ -18,10 +18,17 @@ interface InputProps {
    * used as attributes on the rendered element.
    */
   dataAttributes?: { [key: string]: string };
+
+  /**
+   * It blocks user interaction.
+   */
+  disabled?: boolean;
+
   /**
    * The maximum number of characters permitted in the input.
    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/text#maxlength
    */
+
   maxLength?: number;
   /**
    * Used to set the html name attribute. Uniquely indentifies the input within
@@ -52,6 +59,12 @@ const inputStyle = css({
   '::placeholder': {
     color: tokens.color.opaque.primary.value.rgb,
   },
+
+  ':disabled, :active:disabled, :focus:disabled': {
+    cursor: 'not-allowed',
+  },
+  ':disabled::placeholder': { color: '#D1D3D8' },
+
   ':focus': {
     boxShadow: `0 0 0 1px ${tokens.color.opaque.primary.value.rgb}`,
     outline: 'none',
@@ -76,6 +89,7 @@ const Input = forwardRef<HTMLInputElement, InputProps>(
       autocomplete,
       className,
       dataAttributes,
+      disabled = false,
       maxLength,
       name,
       onBlur,
@@ -98,6 +112,7 @@ const Input = forwardRef<HTMLInputElement, InputProps>(
         autoComplete={autocomplete}
         className={className}
         css={inputStyle}
+        disabled={disabled}
         maxLength={maxLength}
         name={name}
         onBlur={handleBlur}
