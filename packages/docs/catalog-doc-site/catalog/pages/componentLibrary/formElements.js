@@ -1,6 +1,5 @@
-import Button from '@datacamp/waffles-button';
 import { Input } from '@datacamp/waffles-form-elements';
-import { Code, CodeBlock, Heading, Paragraph } from '@datacamp/waffles-text';
+import { Code, Heading, Paragraph } from '@datacamp/waffles-text';
 import { Page } from 'catalog';
 import React from 'react';
 
