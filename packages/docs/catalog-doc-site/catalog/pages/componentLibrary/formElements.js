@@ -129,6 +129,11 @@ export default () => {
                     listening to onChange.
                   </td>
                 </tr>
+                <tr className="dc-table__tr">
+                  <th>disabled</th>
+                  <td>boolean - optional</td>
+                  <td>It blocks user interaction.</td>
+                </tr>
               </tbody>
             </table>
           </div>
