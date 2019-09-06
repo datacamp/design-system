@@ -42,6 +42,16 @@ storiesOf('waffles-button', module).add('Button Component', () => (
           small
         </Button>
       </td>
+      <td>
+        <Button
+          appearance="primary"
+          intent="cta"
+          onClick={() => {}}
+          size="small"
+        >
+          small
+        </Button>
+      </td>
     </tr>
     <tr>
       <td>
@@ -66,6 +76,11 @@ storiesOf('waffles-button', module).add('Button Component', () => (
       </td>
       <td>
         <Button appearance="primary" intent="warning" onClick={() => {}}>
+          Warning
+        </Button>
+      </td>
+      <td>
+        <Button appearance="primary" intent="cta" onClick={() => {}}>
           Warning
         </Button>
       </td>
@@ -106,11 +121,21 @@ storiesOf('waffles-button', module).add('Button Component', () => (
           large
         </Button>
       </td>
+      <td>
+        <Button
+          appearance="primary"
+          intent="cta"
+          onClick={() => {}}
+          size="large"
+        >
+          large
+        </Button>
+      </td>
     </tr>
     <tr>
       <td>
         <Button appearance="default" onClick={() => {}} size="small">
-          outline small
+          small
         </Button>
       </td>
       <td>
@@ -120,7 +145,7 @@ storiesOf('waffles-button', module).add('Button Component', () => (
           onClick={() => {}}
           size="small"
         >
-          outline danger small
+          danger small
         </Button>
       </td>
       <td>
@@ -130,7 +155,7 @@ storiesOf('waffles-button', module).add('Button Component', () => (
           onClick={() => {}}
           size="small"
         >
-          outline success small
+          success small
         </Button>
       </td>
       <td>
@@ -140,7 +165,17 @@ storiesOf('waffles-button', module).add('Button Component', () => (
           onClick={() => {}}
           size="small"
         >
-          outline warning small
+          warning small
+        </Button>
+      </td>
+      <td>
+        <Button
+          appearance="default"
+          intent="cta"
+          onClick={() => {}}
+          size="small"
+        >
+          test cta default
         </Button>
       </td>
     </tr>
@@ -152,24 +187,24 @@ storiesOf('waffles-button', module).add('Button Component', () => (
       </td>
       <td>
         <Button appearance="default" intent="danger" onClick={() => {}}>
-          outline danger
+          danger
         </Button>
       </td>
       <td>
         <Button appearance="default" intent="success" onClick={() => {}}>
-          outline success
+          success
         </Button>
       </td>
       <td>
         <Button appearance="default" intent="warning" onClick={() => {}}>
-          outline warning
+          warning
         </Button>
       </td>
     </tr>
     <tr>
       <td>
         <Button appearance="default" onClick={() => {}} size="large">
-          outline large
+          large
         </Button>
       </td>
       <td>
@@ -179,7 +214,7 @@ storiesOf('waffles-button', module).add('Button Component', () => (
           onClick={() => {}}
           size="large"
         >
-          outline danger large
+          danger large
         </Button>
       </td>
       <td>
@@ -189,7 +224,7 @@ storiesOf('waffles-button', module).add('Button Component', () => (
           onClick={() => {}}
           size="large"
         >
-          outline success large
+          success large
         </Button>
       </td>
       <td>
@@ -199,7 +234,7 @@ storiesOf('waffles-button', module).add('Button Component', () => (
           onClick={() => {}}
           size="large"
         >
-          outline warning large
+          warning large
         </Button>
       </td>
     </tr>
@@ -261,6 +296,11 @@ storiesOf('waffles-button', module).add('Button Component', () => (
           Disabled
         </Button>
       </td>
+      <td>
+        <Button appearance="primary" intent="cta" onClick={() => {}} disabled>
+          Disabled
+        </Button>
+      </td>
     </tr>
     <tr>
       <td>
@@ -303,6 +343,11 @@ storiesOf('waffles-button', module).add('Button Component', () => (
           isLoading
         </Button>
       </td>
+      <td>
+        <Button appearance="primary" intent="cta" isLoading>
+          isLoading
+        </Button>
+      </td>
     </tr>
     <tr>
       <td>
@@ -322,6 +367,11 @@ storiesOf('waffles-button', module).add('Button Component', () => (
       </td>
       <td>
         <Button intent="warning" size="large" isLoading>
+          isLoading
+        </Button>
+      </td>
+      <td>
+        <Button appearance="primary" intent="cta" size="large" isLoading>
           isLoading
         </Button>
       </td>
@@ -367,6 +417,11 @@ storiesOf('waffles-button', module).add('Button Component', () => (
           test different sizes
         </Button>
       </td>
+      <td>
+        <Button appearance="primary" intent="cta" size="small" isLoading>
+          test different sizes
+        </Button>
+      </td>
     </tr>
     <tr>
       <td>
@@ -400,6 +455,17 @@ storiesOf('waffles-button', module).add('Button Component', () => (
         <Button
           href="https://www.google.com/?"
           intent="success"
+          size="large"
+          type="link"
+        >
+          Link Large
+        </Button>
+      </td>
+      <td>
+        <Button
+          appearance="primary"
+          href="https://www.google.com/?"
+          intent="cta"
           size="large"
           type="link"
         >

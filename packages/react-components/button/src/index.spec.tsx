@@ -163,6 +163,18 @@ describe('<Button />', () => {
       );
     });
 
+    it('renders a yellow button for the appearance="primary" and intent="cta', async () => {
+      const { container } = await axeRender(
+        <Button appearance="primary" intent="warning" onClick={someFunction}>
+          btn
+        </Button>
+      );
+
+      expect(container.firstChild).toHaveStyle(
+        `background-color: tokens.color.opaque.secondary.value.rgb`
+      );
+    });
+
     it('renders a green button for the appearance="primary" and intent="success', async () => {
       const { container } = await axeRender(
         <Button appearance="primary" intent="success" onClick={someFunction}>
@@ -227,6 +239,20 @@ describe('<Button />', () => {
 
       expect(buttonElement).toHaveStyle(`box-shadow: inset 0 0 0 1px #36D57D`);
       expect(buttonElement).toHaveStyle(`background-color: white`);
+    });
+
+    it('doesn\'t render a yellow outline button for the intent="success', async () => {
+      const { container } = await axeRender(
+        <Button appearance="default" intent="cta" onClick={someFunction}>
+          btn
+        </Button>
+      );
+
+      const buttonElement = container.firstChild;
+
+      expect(buttonElement).not.toHaveStyle(
+        `box-shadow: inset 0 0 0 1px #FFC844`
+      );
     });
   });
 
@@ -315,12 +341,12 @@ describe('<Button />', () => {
       'medium',
       'large',
     ];
-    const buttonIntents: ('neutral' | 'warning' | 'danger' | 'success')[] = [
-      'neutral',
-      'warning',
-      'danger',
-      'success',
-    ];
+    const buttonIntents: (
+      | 'cta'
+      | 'neutral'
+      | 'warning'
+      | 'danger'
+      | 'success')[] = ['neutral', 'warning', 'danger', 'success'];
     const buttonAppearance: ('primary' | 'default')[] = ['primary', 'default'];
     const isLoadings: boolean[] = [true, false];
     buttonSizes.forEach(size => {

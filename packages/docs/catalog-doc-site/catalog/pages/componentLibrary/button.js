@@ -31,8 +31,8 @@ export default () => {
               Properties
             </Heading>
             <Paragraph>
-              The Button component takes the <code>className</code>,{' '}
-              <code> dataAttributes</code>, <code>ariaLabel</code>,{' '}
+              The Button component takes the <code>className</code>,
+              <code> dataAttributes</code>, <code>ariaLabel</code>
               <code>onClick</code> and <code>ref</code> props
               <br />
               It can be styled with the props <code>intent</code> to choose the
@@ -62,9 +62,11 @@ export default () => {
                 </tr>
                 <tr className="dc-table__tr">
                   <th>intent</th>
-                  <td>neutral, danger, success, warning (optional)</td>
+                  <td>neutral, danger, success, warning, cta (optional)</td>
                   <td>
-                    It defines the color of the button. This defaults to neutral
+                    It defines the color of the button. This defaults to
+                    neutral. The &quot;cta&quot; intent can only be used with
+                    appearance=&quot;primary&quot;.
                   </td>
                   <LazyLiveEditCells
                     code={'<Button intent="danger">Button</Button>'}
@@ -136,7 +138,7 @@ export default () => {
                   </td>
                   <LazyLiveEditCells
                     code={
-                      '<Button appearance="primary" intent="success" type="submit" >Submit</Button>'
+                      '<Button appearance="primary" intent="cta" type="submit" >Submit</Button>'
                     }
                     scope={{ Button }}
                   />

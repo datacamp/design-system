@@ -21,30 +21,39 @@ interface BaseButtonProps {
   className?: string;
   dataAttributes?: { [key: string]: string };
   disabled?: boolean;
-  intent?: 'neutral' | 'danger' | 'success' | 'warning';
   isLoading?: boolean;
   size?: 'small' | 'medium' | 'large';
 }
 
-interface LinkButtonProps extends BaseButtonProps {
+interface OtherIntentsProps {
+  intent?: 'neutral' | 'danger' | 'success' | 'warning';
+}
+
+interface LinkButtonProps {
   href: string;
   target?: '_blank' | undefined;
   type: 'link';
 }
 
-interface ButtonButtonProps extends BaseButtonProps {
+interface ButtonButtonProps {
   onClick: () => void;
   type?: 'button' | undefined;
 }
 
-interface SubmitButtonProps extends BaseButtonProps {
+interface SubmitButtonProps {
   type: 'submit';
 }
 
-const Button = React.forwardRef<
-  any,
-  LinkButtonProps | ButtonButtonProps | SubmitButtonProps
->((props, ref) => {
+interface CtaButtonProps {
+  appearance: 'primary';
+  intent: 'cta';
+}
+
+type ButtonProps = BaseButtonProps &
+  (ButtonButtonProps | LinkButtonProps | SubmitButtonProps) &
+  (CtaButtonProps | OtherIntentsProps);
+
+const Button = React.forwardRef<any, ButtonProps>((props, ref) => {
   const {
     appearance = 'default',
     ariaLabel,

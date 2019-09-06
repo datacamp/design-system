@@ -73,6 +73,17 @@ const dangerStyle = css({
   backgroundColor: tokens.color.opaque.red.value.rgb,
 });
 
+const ctaStyle = css({
+  ':disabled, :hover:disabled, :active:disabled': {
+    backgroundColor: '#FFE9B4',
+    cursor: 'not-allowed',
+    transform: 'none',
+  },
+  ':focus': { boxShadow: ' 0 0 0 4px #FFE9B4' },
+  ':hover': { backgroundColor: ' #E7B743' },
+  backgroundColor: tokens.color.opaque.secondary.value.rgb,
+});
+
 const successStyle = css({
   ':disabled, :hover:disabled, :active:disabled': {
     backgroundColor: '#E7F2EC',
@@ -116,6 +127,10 @@ const successLoadingStyle = css(baseLoadingStyle, {
 
 const warningLoadingStyle = css(baseLoadingStyle, {
   backgroundColor: tokens.color.opaque.orange.value.rgb,
+});
+
+const ctaLoadingStyle = css(baseLoadingStyle, {
+  backgroundColor: tokens.color.opaque.secondary.value.rgb,
 });
 
 // DEFAULT (OUTLINE) STYLES
@@ -231,6 +246,8 @@ const getPrimaryStyle = (
       return warningStyle;
     case 'success':
       return successStyle;
+    case 'cta':
+      return ctaStyle;
     case 'neutral':
     default:
       return defaultStyle;
@@ -247,6 +264,8 @@ const getPrimaryLoadingStyle = (
       return warningLoadingStyle;
     case 'success':
       return successLoadingStyle;
+    case 'cta':
+      return ctaLoadingStyle;
     case 'neutral':
     default:
       return primaryLoadingStyle;
