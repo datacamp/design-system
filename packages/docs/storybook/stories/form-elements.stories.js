@@ -37,12 +37,7 @@ storiesOf('waffles-form-elements', module).add('Input', () => {
               />
             </td>
             <td>
-              <Input
-                name="story"
-                onChange={setValue}
-                placeholder="editable"
-                value={value}
-              />
+              <Input name="story" onChange={() => {}} placeholder="" value="" />
             </td>
             <td>
               <Input
@@ -90,10 +85,10 @@ storiesOf('waffles-form-elements', module).add('Input', () => {
             <td>
               <Input
                 name="story"
-                onChange={() => {}}
-                placeholder="large"
+                onChange={setValue}
+                placeholder="editable"
                 size="large"
-                value=""
+                value={value}
               />
             </td>
           </tr>
