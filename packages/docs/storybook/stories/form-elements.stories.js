@@ -43,6 +43,15 @@ storiesOf('waffles-form-elements', module).add('Input', () => {
                 value={value}
               />
             </td>
+            <td>
+              <Input
+                name="story"
+                onChange={setValue}
+                placeholder="disabled"
+                value={value}
+                disabled
+              />
+            </td>
           </tr>
         </tbody>
       </table>
