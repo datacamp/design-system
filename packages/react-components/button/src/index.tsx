@@ -15,7 +15,6 @@ import {
 import Spinner from './spinner';
 
 interface BaseButtonProps {
-  appearance?: 'default' | 'primary';
   ariaLabel?: string;
   children: string;
   className?: string;
@@ -23,10 +22,6 @@ interface BaseButtonProps {
   disabled?: boolean;
   isLoading?: boolean;
   size?: 'small' | 'medium' | 'large';
-}
-
-interface OtherIntentsProps {
-  intent?: 'neutral' | 'danger' | 'success' | 'warning';
 }
 
 interface LinkButtonProps {
@@ -44,14 +39,19 @@ interface SubmitButtonProps {
   type: 'submit';
 }
 
-interface CtaButtonProps {
+interface CtaIntentProps {
   appearance: 'primary';
   intent: 'cta';
 }
 
+interface OtherIntentsProps {
+  appearance?: 'default' | 'primary';
+  intent?: 'neutral' | 'danger' | 'success' | 'warning' | 'cta';
+}
+
 type ButtonProps = BaseButtonProps &
   (ButtonButtonProps | LinkButtonProps | SubmitButtonProps) &
-  (CtaButtonProps | OtherIntentsProps);
+  (CtaIntentProps | OtherIntentsProps);
 
 const Button = React.forwardRef<any, ButtonProps>((props, ref) => {
   const {

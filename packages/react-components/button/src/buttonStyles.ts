@@ -237,7 +237,7 @@ const getSize = (size: 'small' | 'medium' | 'large'): SerializedStyles => {
 };
 
 const getPrimaryStyle = (
-  intent: 'danger' | 'warning' | 'success' | 'neutral'
+  intent: 'cta' | 'danger' | 'warning' | 'success' | 'neutral'
 ): SerializedStyles => {
   switch (intent) {
     case 'danger':
@@ -255,7 +255,7 @@ const getPrimaryStyle = (
 };
 
 const getPrimaryLoadingStyle = (
-  intent: 'danger' | 'warning' | 'success' | 'neutral'
+  intent: 'cta' | 'danger' | 'warning' | 'success' | 'neutral'
 ): SerializedStyles => {
   switch (intent) {
     case 'danger':
@@ -273,7 +273,7 @@ const getPrimaryLoadingStyle = (
 };
 
 const getOutlineLoadingStyle = (
-  intent?: 'danger' | 'warning' | 'success' | 'neutral'
+  intent?: 'cta' | 'danger' | 'warning' | 'success' | 'neutral'
 ): SerializedStyles => {
   switch (intent) {
     case 'danger':
@@ -289,7 +289,7 @@ const getOutlineLoadingStyle = (
 };
 
 const getOutlineStyle = (
-  intent?: 'danger' | 'warning' | 'success' | 'neutral'
+  intent?: 'cta' | 'danger' | 'warning' | 'success' | 'neutral'
 ): SerializedStyles => {
   switch (intent) {
     case 'danger':
