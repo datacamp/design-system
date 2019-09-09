@@ -42,7 +42,7 @@
     "react-dom": "16.8.6"
   },
   "dependencies": {
-    "@babel/runtime": "^7.5.5",
+    "@babel/runtime": "^7.6.0",
     "@datacamp/waffles-text": "^0.12.2",
     "prop-types": "^15.7.2",
     "react-markdown": "^4.2.2"
