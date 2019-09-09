@@ -16,5 +16,6 @@
     "/node_modules/regexpu-core",
     "/node_modules/unicode-match-property-ecmascript",
     "/node_modules/unicode-match-property-value-ecmascript"
-  ]
+  ],
+  "babelrc": false
 }
