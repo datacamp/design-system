@@ -166,9 +166,11 @@ exports[`<AlertModal /> isOpen renders the modal via a portal when true 1`] = `
   align-items: center;
   border: none;
   border-radius: 4px;
-  display: inline-block;
-  font-family: Lato;
-  font-weight: bold;
+  cursor: pointer;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -179,9 +181,9 @@ exports[`<AlertModal /> isOpen renders the modal via a portal when true 1`] = `
   -webkit-transition: 0.15s;
   transition: 0.15s;
   white-space: nowrap;
-  padding: 0 16px;
   background-color: white;
-  box-shadow: inset 0 0 0 1px #33AACC;
+  box-shadow: inset 0 0 0 1px #33aacc;
+  padding: 0 16px;
   margin-right: 16px;
 }
 
@@ -191,26 +193,28 @@ exports[`<AlertModal /> isOpen renders the modal via a portal when true 1`] = `
   transform: perspective(1px) scale(0.975);
 }
 
-.emotion-4:focus {
-  outline: 0;
-}
-
-.emotion-4:hover {
-  cursor: pointer;
-}
-
 .emotion-4:disabled,
 .emotion-4:hover:disabled,
 .emotion-4:active:disabled {
-  box-shadow: inset 0 0 0 1px #DCECF1;
-  cursor: not-allowed;
   -webkit-transform: none;
   -ms-transform: none;
   transform: none;
 }
 
 .emotion-4:focus {
-  box-shadow: 0 0 0 4px #DCECF1,inset 0 0 0 1px #33AACC;
+  outline: 0;
+}
+
+.emotion-4:disabled,
+.emotion-4:hover:disabled,
+.emotion-4:active:disabled {
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+}
+
+.emotion-4:focus {
+  box-shadow: 0 0 0 4px #DCECF1,inset 0 0 0 1px #33aacc;
 }
 
 .emotion-4:hover {
@@ -230,9 +234,9 @@ exports[`<AlertModal /> isOpen renders the modal via a portal when true 1`] = `
   font-weight: 400;
   line-height: 16px;
   font-size: 16px;
-  font-weight: bold;
   line-height: 48px;
   color: #3D4251;
+  font-weight: bold;
 }
 
 .emotion-6 {
@@ -242,9 +246,11 @@ exports[`<AlertModal /> isOpen renders the modal via a portal when true 1`] = `
   align-items: center;
   border: none;
   border-radius: 4px;
-  display: inline-block;
-  font-family: Lato;
-  font-weight: bold;
+  cursor: pointer;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -255,8 +261,8 @@ exports[`<AlertModal /> isOpen renders the modal via a portal when true 1`] = `
   -webkit-transition: 0.15s;
   transition: 0.15s;
   white-space: nowrap;
+  background-color: #33aacc;
   padding: 0 16px;
-  background-color: rgb(51,170,204);
 }
 
 .emotion-6:active {
@@ -265,22 +271,16 @@ exports[`<AlertModal /> isOpen renders the modal via a portal when true 1`] = `
   transform: perspective(1px) scale(0.975);
 }
 
-.emotion-6:focus {
-  outline: 0;
-}
-
-.emotion-6:hover {
-  cursor: pointer;
-}
-
 .emotion-6:disabled,
 .emotion-6:hover:disabled,
 .emotion-6:active:disabled {
-  background-color: #DCECF1;
-  cursor: not-allowed;
   -webkit-transform: none;
   -ms-transform: none;
   transform: none;
+}
+
+.emotion-6:focus {
+  outline: 0;
 }
 
 .emotion-6:focus {
@@ -300,9 +300,9 @@ exports[`<AlertModal /> isOpen renders the modal via a portal when true 1`] = `
   font-weight: 400;
   line-height: 16px;
   font-size: 16px;
-  font-weight: bold;
   line-height: 48px;
   color: white;
+  font-weight: bold;
 }
 
 <body
