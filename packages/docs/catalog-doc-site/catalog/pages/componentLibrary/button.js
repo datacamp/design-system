@@ -1,5 +1,6 @@
 import Button from '@datacamp/waffles-button';
-import { Heading, Paragraph } from '@datacamp/waffles-text';
+import { AddCircleIcon } from '@datacamp/waffles-icons';
+import { Code, Heading, Paragraph } from '@datacamp/waffles-text';
 import { Page } from 'catalog';
 import React from 'react';
 
@@ -139,6 +140,20 @@ export default () => {
                       '<Button appearance="primary" intent="success" type="submit" >Submit</Button>'
                     }
                     scope={{ Button }}
+                  />
+                </tr>
+                <tr>
+                  <th>children</th>
+                  <td>string | Icon</td>
+                  <td>
+                    The content of the button. When this is one of the
+                    components exposed by <Code>@datacamp/waffles-icons</Code>,
+                    the button will render as a square. In this situation
+                    ariaLabel is required.
+                  </td>
+                  <LazyLiveEditCells
+                    code={'<Button type="submit"><AddCircleIcon /></Button>'}
+                    scope={{ AddCircleIcon, Button }}
                   />
                 </tr>
               </tbody>
