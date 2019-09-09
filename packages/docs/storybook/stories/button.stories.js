@@ -1,6 +1,7 @@
 import './styles.css';
 
 import Button from '@datacamp/waffles-button';
+import { AddCircleIcon } from '@datacamp/waffles-icons';
 import { storiesOf } from '@storybook/react';
 import React from 'react';
 
@@ -424,6 +425,138 @@ storiesOf('waffles-button', module).add('Button Component', () => (
       <td>
         <Button intent="success" size="large" type="submit">
           submit Large
+        </Button>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <Button size="small">
+          <AddCircleIcon />
+        </Button>
+      </td>
+      <td>
+        <Button>
+          <AddCircleIcon />
+        </Button>
+      </td>
+      <td>
+        <Button size="large">
+          <AddCircleIcon />
+        </Button>
+      </td>
+      <td>
+        <Button appearance="primary">
+          <AddCircleIcon />
+        </Button>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <Button intent="danger" size="small">
+          <AddCircleIcon />
+        </Button>
+      </td>
+      <td>
+        <Button aria-label="add" intent="warning" size="large">
+          <AddCircleIcon />
+        </Button>
+      </td>
+      <td>
+        <Button intent="success">
+          <AddCircleIcon />
+        </Button>
+      </td>
+      <td>
+        <Button>
+          <AddCircleIcon appearance="primary" disabled />
+        </Button>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <Button intent="danger" disabled>
+          <AddCircleIcon />
+        </Button>
+      </td>
+      <td>
+        <Button intent="warning" disabled>
+          <AddCircleIcon />
+        </Button>
+      </td>
+      <td>
+        <Button intent="success" disabled>
+          <AddCircleIcon />
+        </Button>
+      </td>
+      <td>
+        <Button disabled>
+          <AddCircleIcon />
+        </Button>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <Button appearance="primary" intent="danger" disabled>
+          <AddCircleIcon />
+        </Button>
+      </td>
+      <td>
+        <Button appearance="primary" intent="warning" disabled>
+          <AddCircleIcon />
+        </Button>
+      </td>
+      <td>
+        <Button appearance="primary" intent="success" disabled>
+          <AddCircleIcon />
+        </Button>
+      </td>
+      <td>
+        <Button appearance="primary" disabled>
+          <AddCircleIcon />
+        </Button>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <Button appearance="primary" intent="danger" isLoading>
+          <AddCircleIcon />
+        </Button>
+      </td>
+      <td>
+        <Button appearance="primary" intent="warning" isLoading>
+          <AddCircleIcon />
+        </Button>
+      </td>
+      <td>
+        <Button appearance="primary" intent="success" isLoading>
+          <AddCircleIcon />
+        </Button>
+      </td>
+      <td>
+        <Button appearance="primary" isLoading>
+          <AddCircleIcon />
+        </Button>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <Button intent="danger" isLoading>
+          <AddCircleIcon />
+        </Button>
+      </td>
+      <td>
+        <Button intent="warning" isLoading>
+          <AddCircleIcon />
+        </Button>
+      </td>
+      <td>
+        <Button intent="success" isLoading>
+          <AddCircleIcon />
+        </Button>
+      </td>
+      <td>
+        <Button isLoading>
+          <AddCircleIcon />
         </Button>
       </td>
     </tr>
