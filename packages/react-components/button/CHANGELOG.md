@@ -3,6 +3,24 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-button@1.0.1...@datacamp/waffles-button@2.0.0) (2019-09-09)
+
+
+### Features
+
+* icon as a child of button ([ce0ee6f](https://github.com/datacamp/design-system/commit/ce0ee6f))
+
+
+### BREAKING CHANGES
+
+* adds waffles-icons as a peer dependency
+
+Co-Authored-By: cat <caterina.mennito@gmail.com>
+
+
+
+
+
 ## [1.0.1](https://github.com/datacamp/design-system/compare/@datacamp/waffles-button@1.0.0...@datacamp/waffles-button@1.0.1) (2019-09-06)
 
 

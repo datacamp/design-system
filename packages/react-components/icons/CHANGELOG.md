@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.4.0](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/icons/compare/@datacamp/waffles-icons@1.3.3...@datacamp/waffles-icons@1.4.0) (2019-09-09)
+
+
+### Features
+
+* random icon ([044168f](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/icons/commit/044168f))
+* scala icon ([ae82397](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/icons/commit/ae82397))
+
+
+
+
+
 ## [1.3.3](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/icons/compare/@datacamp/waffles-icons@1.3.2...@datacamp/waffles-icons@1.3.3) (2019-09-06)
 
 **Note:** Version bump only for package @datacamp/waffles-icons
