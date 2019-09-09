@@ -1,23 +1,26 @@
+import * as Icons from '@datacamp/waffles-icons';
 import { Text } from '@datacamp/waffles-text';
 import { computeDataAttributes } from '@datacamp/waffles-utils';
 import { css, SerializedStyles } from '@emotion/core';
-import React from 'react';
+import { childrenOfType } from 'airbnb-prop-types';
+import PropTypes from 'prop-types';
+import React, { ReactElement } from 'react';
 
 import {
+  baseColors,
+  baseLoadingStyle,
   baseStyle,
-  getFontSize,
-  getOutlineLoadingStyle,
-  getOutlineStyle,
-  getPrimaryLoadingStyle,
-  getPrimaryStyle,
+  disabledColors,
+  fontSizes,
+  getAppearanceStyle,
+  getDisabledStyle,
+  getIconSize,
   getSize,
 } from './buttonStyles';
 import Spinner from './spinner';
 
 interface BaseButtonProps {
   appearance?: 'default' | 'primary';
-  ariaLabel?: string;
-  children: string;
   className?: string;
   dataAttributes?: { [key: string]: string };
   disabled?: boolean;
@@ -26,25 +29,40 @@ interface BaseButtonProps {
   size?: 'small' | 'medium' | 'large';
 }
 
-interface LinkButtonProps extends BaseButtonProps {
+interface LinkButtonProps {
   href: string;
   target?: '_blank' | undefined;
   type: 'link';
 }
 
-interface ButtonButtonProps extends BaseButtonProps {
+interface ButtonButtonProps {
   onClick: () => void;
   type?: 'button' | undefined;
 }
 
-interface SubmitButtonProps extends BaseButtonProps {
+interface SubmitButtonProps {
   type: 'submit';
 }
 
-const Button = React.forwardRef<
-  any,
-  LinkButtonProps | ButtonButtonProps | SubmitButtonProps
->((props, ref) => {
+interface StringChildProps {
+  ariaLabel?: string;
+  children: string;
+}
+
+interface IconChildProps {
+  ariaLabel: string;
+  /**
+   * When providing a react element as a child, it can only be one of the Icon
+   * components exposed by @datacamp/waffles-icons
+   */
+  children: ReactElement;
+}
+
+type ButtonProps = BaseButtonProps &
+  (ButtonButtonProps | LinkButtonProps | SubmitButtonProps) &
+  (StringChildProps | IconChildProps);
+
+const Button: React.FC<ButtonProps & { innerRef?: React.Ref<any> }> = props => {
   const {
     appearance = 'default',
     ariaLabel,
@@ -52,6 +70,7 @@ const Button = React.forwardRef<
     className,
     dataAttributes,
     disabled = false,
+    innerRef,
     intent = 'neutral',
     isLoading = false,
     size = 'medium',
@@ -61,47 +80,39 @@ const Button = React.forwardRef<
 
   // TEXT STYLES
 
-  const getOutlineTextColor = disabled
-    ? css({ color: '#D1D3D8' })
-    : css({ color: '#3D4251' });
+  const outlineTextColor = disabled ? '#D1D3D8' : '#3D4251';
+  const outlineIconColor = disabled
+    ? disabledColors[intent]
+    : baseColors[intent];
 
-  const baseTextStyle =
-    appearance === 'primary' ? css({ color: 'white' }) : getOutlineTextColor;
+  const textColor = appearance === 'primary' ? 'white' : outlineTextColor;
+  const getColor = appearance === 'primary' ? 'white' : outlineIconColor;
 
   const getTextStyle = (): SerializedStyles => {
-    return css(
-      getFontSize(size),
-      isLoading ? { color: 'transparent' } : baseTextStyle
-    );
+    return css(fontSizes[size], {
+      color: isLoading ? 'transparent' : textColor,
+      fontWeight: 'bold',
+    });
   };
 
   // BUTTON STYLES
 
-  const appearanceStyle =
-    appearance === 'primary'
-      ? getPrimaryStyle(intent)
-      : getOutlineStyle(intent);
-
-  const isLoadingStyle =
-    appearance === 'primary'
-      ? css(getPrimaryLoadingStyle(intent))
-      : css(getOutlineLoadingStyle(intent));
-
-  const getButtonStyle = (): SerializedStyles => {
-    return css(
-      baseStyle,
-      getSize(size),
-      isLoading ? isLoadingStyle : appearanceStyle
-    );
-  };
+  const buttonStyle = css(
+    baseStyle,
+    getAppearanceStyle(appearance, intent, !isLoading && !disabled),
+    disabled && getDisabledStyle(appearance, intent),
+    isLoading && baseLoadingStyle,
+    typeof children === 'string' ? getSize(size) : getIconSize(size)
+  );
 
   const commonProps = {
     'aria-label': ariaLabel,
+    children,
     className,
-    css: getButtonStyle,
+    css: buttonStyle,
     disabled: disabled || isLoading,
     ...parsedDataAttributes,
-    ref,
+    ref: innerRef,
   };
 
   const buttonContent = (
@@ -112,12 +123,21 @@ const Button = React.forwardRef<
           inverted={appearance === 'primary'}
         />
       )}
-      <Text css={getTextStyle}>{children}</Text>
+      {React.isValidElement(children) ? (
+        React.cloneElement(children, {
+          color: isLoading ? 'transparent' : getColor,
+          size: size === 'large' ? 24 : 18,
+        })
+      ) : (
+        <Text css={getTextStyle}>{children}</Text>
+      )}
     </>
   );
 
+  // eslint-disable-next-line react/destructuring-assignment
   if (props.type === 'link') {
     const { href, target } = props;
+
     return (
       <a {...commonProps} href={href} target={target}>
         {buttonContent}
@@ -125,6 +145,7 @@ const Button = React.forwardRef<
     );
   }
 
+  // eslint-disable-next-line react/destructuring-assignment
   if (props.type === 'submit') {
     return (
       <button {...commonProps} type="submit">
@@ -135,10 +156,24 @@ const Button = React.forwardRef<
 
   const { onClick } = props;
   return (
-    <button {...commonProps} onClick={onClick} type="button">
+    <button
+      {...commonProps}
+      onClick={!isLoading ? onClick : undefined}
+      type="button"
+    >
       {buttonContent}
     </button>
   );
-});
+};
 
-export default Button;
+// additional prop-types validation that the child is either icon or string
+Button.propTypes = {
+  children: PropTypes.oneOfType([
+    PropTypes.string,
+    childrenOfType(...Object.values(Icons)),
+  ]) as PropTypes.Validator<ReactElement>,
+};
+
+export default React.forwardRef<any, ButtonProps>((props, ref) => (
+  <Button innerRef={ref} {...props} />
+));
