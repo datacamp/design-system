@@ -17,9 +17,23 @@ export default {
       title: 'Tokens',
     },
     {
+      content: pageLoader(() =>
+        import('../../pages/componentLibrary/button.js')
+      ),
+      path: '/component-library/button',
+      title: 'Button',
+    },
+    {
       content: pageLoader(() => import('../../pages/componentLibrary/card.js')),
       path: '/component-library/card',
       title: 'Card',
+    },
+    {
+      content: pageLoader(() =>
+        import('../../pages/componentLibrary/formElements.js')
+      ),
+      path: '/component-library/formElements',
+      title: 'Form Elements',
     },
     {
       content: pageLoader(() =>
@@ -46,13 +60,6 @@ export default {
       content: pageLoader(() => import('../../pages/componentLibrary/text.js')),
       path: '/component-library/text',
       title: 'Text',
-    },
-    {
-      content: pageLoader(() =>
-        import('../../pages/componentLibrary/button.js')
-      ),
-      path: '/component-library/button',
-      title: 'Button',
     },
     {
       content: pageLoader(() => import('../../pages/componentLibrary/tag.js')),
