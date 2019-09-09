@@ -54,7 +54,7 @@ module.exports = {
     });
 
     config.module.rules[0].oneOf.unshift({
-      exclude: /node_modules\?!(buble)/,
+      exclude: /node_modules\/(?!(buble|regexpu-core|unicode-match-property-ecmascript|unicode-match-property-value-ecmascript)).*/,
       test: /\.js$/,
       use: 'babel-loader',
     });
