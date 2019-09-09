@@ -1,0 +1,57 @@
+{
+  "name": "@datacamp/waffles-form-elements",
+  "version": "0.0.1",
+  "main": "lib/index.js",
+  "module": "es/index.js",
+  "types": "types/index.d.ts",
+  "license": "UNLICENSED",
+  "sideEffects": [
+    "lib/sideEffects/*",
+    "es/sideEffects/*"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/form-elements/"
+  },
+  "scripts": {
+    "build:cjs": "BABEL_ENV=cjs babel src --extensions '.tsx','.ts' --out-dir lib --ignore \"src/**/*.spec.tsx\",\"src/**/*.spec.ts\" --config-file ./babel7.config.js",
+    "build:es": "BABEL_ENV=es babel src --extensions '.tsx','.ts' --out-dir es --ignore \"src/**/*.spec.tsx\",\"src/**/*.spec.ts\" --config-file ./babel7.config.js",
+    "clean": "rm -rf lib es types",
+    "build:types": "tsc --rootDir src --declarationDir types --emitDeclarationOnly",
+    "build": "yarn build:types && yarn build:cjs && yarn build:es",
+    "prepare": " yarn clean && yarn build",
+    "test": "jest",
+    "type-check": "tsc --noEmit",
+    "watch": "yarn build:es --watch"
+  },
+  "devDependencies": {
+    "@babel/cli": "7.5.5",
+    "@babel/core": "7.5.5",
+    "@datacamp/waffles-axe-render": "^1.1.3",
+    "@datacamp/waffles-babel-preset": "^1.2.1",
+    "@datacamp/waffles-tsconfig": "^1.1.1",
+    "@testing-library/jest-dom": "4.1.0",
+    "@testing-library/react": "8.0.7",
+    "@testing-library/user-event": "7.0.0",
+    "@types/jest": "24.0.18",
+    "@types/lodash": "4.14.138",
+    "babel-jest": "24.9.0",
+    "jest": "24.9.0",
+    "jest-emotion": "10.0.17",
+    "react": "16.8.6",
+    "react-dom": "16.8.6"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.5.5",
+    "@datacamp/waffles-text": "^0.12.1",
+    "@datacamp/waffles-tokens": "^0.6.1",
+    "@datacamp/waffles-utils": "^1.0.0",
+    "@emotion/core": "^10.0.17",
+    "lodash": "^4.17.13",
+    "prop-types": "^15.7.2"
+  },
+  "peerDependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  }
+}
