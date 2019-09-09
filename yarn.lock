@@ -15253,10 +15253,10 @@ react-modal@^3.9.1:
     react-lifecycles-compat "^3.0.0"
     warning "^4.0.3"
 
-react-native-svg@^9.8.4:
-  version "9.8.4"
-  resolved "https://registry.yarnpkg.com/react-native-svg/-/react-native-svg-9.8.4.tgz#6fd28198ae991b30cfbea10bb445b55870f0457c"
-  integrity sha512-s0kCURCQyupf9qL3ZPccZ43Hxkvmccf+tZ1/Tq2bAiORLNhVCI0gtI57zqqHsKk5PnTKmnqT8aTWfp5TzYgZWw==
+react-native-svg@^9.8.6:
+  version "9.8.6"
+  resolved "https://registry.yarnpkg.com/react-native-svg/-/react-native-svg-9.8.6.tgz#6bbdcc517f3c9aa63b9fb20e7abf0bba7b47d156"
+  integrity sha512-kVZLb9q6YxW9mzP5BtsGX04Iqy987QtavwvfOgebdOtBJa2d3KHb7HXsJfgCdlsWbADYXx1PtvjzSFmFi7u1aA==
 
 react-popper-tooltip@^2.8.3:
   version "2.8.3"
