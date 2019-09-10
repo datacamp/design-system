@@ -502,6 +502,56 @@ describe('<Button />', () => {
     });
   });
 
+  describe('Icon and text', () => {
+    it('renders an icon and a string as children', async () => {
+      const { container, getByText, getByTitle } = await render(
+        <Button onClick={someFunction}>
+          TestText
+          <AddCircleIcon />
+        </Button>
+      );
+
+      const buttonElement = container.firstChild;
+      const iconElement = getByTitle('Add') as HTMLElement;
+      expect(buttonElement).toContainElement(iconElement);
+      expect(buttonElement).toContainElement(getByText('TestText'));
+    });
+
+    it("doesn't add padding to the top and bottom ", async () => {
+      const { container } = await render(
+        <Button onClick={someFunction}>
+          TestText
+          <AddCircleIcon />
+        </Button>
+      );
+
+      const buttonElement = container.firstChild;
+      expect(buttonElement).toHaveStyle(`padding-top: 0, padding-bottom: 0`);
+    });
+
+    it('the text has a margin on the right if it is the first child', async () => {
+      const { getByText } = await render(
+        <Button onClick={someFunction}>
+          TestText
+          <AddCircleIcon />
+        </Button>
+      );
+
+      expect(getByText('TestText')).toHaveStyle(`marginRight: 10px`);
+    });
+
+    it('the text has a margin on the left if it is not the first child', async () => {
+      const { getByText } = await render(
+        <Button onClick={someFunction}>
+          <AddCircleIcon />
+          TestText
+        </Button>
+      );
+
+      expect(getByText('TestText')).toHaveStyle(`marginLeft: 10px`);
+    });
+  });
+
   describe('href and target props', () => {
     it('renders an "<a> </a>" tag if type=link', async () => {
       const { container } = await axeRender(
