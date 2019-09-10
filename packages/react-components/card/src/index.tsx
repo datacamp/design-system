@@ -16,7 +16,7 @@ type elevationKeys = 0 | 1 | 2 | 3 | 4;
 
 interface CardProps {
   as?: 'div' | 'section' | 'aside';
-  children: React.ReactElement | React.ReactElement[];
+  children: React.ReactNode;
   className?: string;
   elevation?: elevationKeys;
   hoverElevation?: elevationKeys;
