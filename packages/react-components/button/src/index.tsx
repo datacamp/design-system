@@ -69,9 +69,14 @@ interface PrimaryProps {
 
 type intents = 'neutral' | 'danger' | 'success' | 'warning';
 
+interface IconTextChildProps {
+  ariaLabel?: string;
+  children: (string | ReactElement)[];
+}
+
 type ButtonProps = BaseButtonProps &
   (ButtonButtonProps | LinkButtonProps | SubmitButtonProps) &
-  (StringChildProps | IconChildProps) &
+  (StringChildProps | IconChildProps | IconTextChildProps) &
   (DefaultProps | PrimaryProps);
 
 const Button: React.FC<ButtonProps & { innerRef?: React.Ref<any> }> = props => {
@@ -104,21 +109,35 @@ const Button: React.FC<ButtonProps & { innerRef?: React.Ref<any> }> = props => {
   const textColor = appearance === 'primary' ? ctaTextColor : outlineTextColor;
   const getColor = appearance === 'primary' ? ctaTextColor : outlineIconColor;
 
-  const getTextStyle = (): SerializedStyles => {
-    return css(fontSizes[size], {
-      color: isLoading ? 'transparent' : textColor,
-      fontWeight: 'bold',
+  const getTextStyle = css(fontSizes[size], {
+    color: isLoading ? 'transparent' : textColor,
+    fontWeight: 'bold',
+  });
+
+  const setMargin = size === 'large' ? '18px' : '8px';
+
+  const getMargin = (i: number | undefined): SerializedStyles => {
+    if (i === 1) {
+      return css(getTextStyle, {
+        marginLeft: setMargin,
+      });
+    }
+    return css(getTextStyle, {
+      marginRight: setMargin,
     });
   };
 
   // BUTTON STYLES
+
+  const checkSingleChild =
+    typeof children === 'string' ? getSize(size) : getIconSize(size);
 
   const buttonStyle = css(
     baseStyle,
     getAppearanceStyle(appearance, intent, !isLoading && !disabled),
     disabled && getDisabledStyle(appearance, intent),
     isLoading && baseLoadingStyle,
-    typeof children === 'string' ? getSize(size) : getIconSize(size)
+    React.Children.count(children) === 1 ? checkSingleChild : getSize(size)
   );
 
   const commonProps = {
@@ -131,6 +150,25 @@ const Button: React.FC<ButtonProps & { innerRef?: React.Ref<any> }> = props => {
     ref: innerRef,
   };
 
+  const iconOrText = (
+    child: string | ReactElement<{ color: string; size: number }>,
+    i?: number
+  ): ReactElement => {
+    if (React.isValidElement(child)) {
+      return React.cloneElement(child, {
+        color: isLoading ? 'transparent' : getColor,
+        size: size === 'large' ? 24 : 18,
+      });
+    }
+    return (
+      <Text
+        css={React.Children.count(children) > 1 ? getMargin(i) : getTextStyle}
+      >
+        {child}
+      </Text>
+    );
+  };
+
   const buttonContent = (
     <>
       {isLoading && (
@@ -139,14 +177,12 @@ const Button: React.FC<ButtonProps & { innerRef?: React.Ref<any> }> = props => {
           inverted={appearance === 'primary' && intent !== 'cta'}
         />
       )}
-      {React.isValidElement(children) ? (
-        React.cloneElement(children, {
-          color: isLoading ? 'transparent' : getColor,
-          size: size === 'large' ? 24 : 18,
-        })
-      ) : (
-        <Text css={getTextStyle}>{children}</Text>
-      )}
+      {React.Children.count(children) > 1
+        ? React.Children.map<unknown, string | ReactElement>(
+            children,
+            (child, i) => iconOrText(child, i)
+          )
+        : iconOrText(children as string | ReactElement)}
     </>
   );
 
@@ -185,6 +221,10 @@ const Button: React.FC<ButtonProps & { innerRef?: React.Ref<any> }> = props => {
 // additional prop-types validation that the child is either icon or string
 Button.propTypes = {
   children: PropTypes.oneOfType([
+    PropTypes.arrayOf(PropTypes.oneOfType([
+      PropTypes.string,
+      childrenOfType(...Object.values(Icons)),
+    ]) as PropTypes.Validator<ReactElement>),
     PropTypes.string,
     childrenOfType(...Object.values(Icons)),
   ]) as PropTypes.Validator<ReactElement>,
