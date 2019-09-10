@@ -2,6 +2,7 @@
 
 exports[`snapshots renders 1`] = `
 .emotion-0 {
+  border: 0;
   border-radius: 4px;
   color: rgb(61,66,81);
   font-family: monospace;
@@ -12,6 +13,8 @@ exports[`snapshots renders 1`] = `
   -ms-letter-spacing: 0;
   letter-spacing: 0;
   line-height: 1.5;
+  margin: 0;
+  padding: 0;
   background-color: rgb(235,244,247);
   box-shadow: 0 0 0 1px #e6eaeb;
   margin-left: 2px;
