@@ -64,7 +64,7 @@ const inputStyle = css({
   ':disabled, :active:disabled, :focus:disabled': {
     cursor: 'not-allowed',
   },
-  ':disabled::placeholder': { color: '#D1D3D8' },
+  ':disabled::placeholder': { color: tokens.color.opaque.greyLight.value.rgb },
 
   ':focus': {
     boxShadow: `inset 0 0 0 1px ${tokens.color.opaque.primary.value.rgb}`,
