@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.18.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-storybook@1.17.0...@datacamp/waffles-storybook@1.18.0) (2019-09-09)
+
+
+### Features
+
+* add icon buttons to story ([8f84c0a](https://github.com/datacamp/design-system/commit/8f84c0a))
+* stories for input component ([b4af7f9](https://github.com/datacamp/design-system/commit/b4af7f9))
+
+
+
+
+
 # [1.17.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-storybook@1.16.0...@datacamp/waffles-storybook@1.17.0) (2019-09-06)
 
 

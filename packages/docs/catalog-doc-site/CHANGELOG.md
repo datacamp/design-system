@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.18.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-catalog-doc-site@1.17.0...@datacamp/waffles-catalog-doc-site@1.18.0) (2019-09-09)
+
+
+### Bug Fixes
+
+* catalog issue with node_modules ([b733a5f](https://github.com/datacamp/design-system/commit/b733a5f))
+
+
+### Features
+
+* add documentation for icon button ([b96c2be](https://github.com/datacamp/design-system/commit/b96c2be))
+* documentation for input component ([f8a2336](https://github.com/datacamp/design-system/commit/f8a2336))
+
+
+
+
+
 # [1.17.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-catalog-doc-site@1.16.1...@datacamp/waffles-catalog-doc-site@1.17.0) (2019-09-06)
 
 
