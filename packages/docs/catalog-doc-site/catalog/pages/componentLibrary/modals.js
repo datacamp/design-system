@@ -1,5 +1,5 @@
 import Button from '@datacamp/waffles-button';
-import { AlertDialog } from '@datacamp/waffles-modals';
+import { AlertDialog, Dialog } from '@datacamp/waffles-modals';
 import { Code, CodeBlock, Heading, Paragraph } from '@datacamp/waffles-text';
 import { Page } from 'catalog';
 import React from 'react';
@@ -56,7 +56,7 @@ export default () => {
 
   return (
     <>
-      <Button onClick={() => setIsOpen(true)}>open modal</Button>
+      <Button onClick={() => setIsOpen(true)}>open alert</Button>
       <AlertDialog
         confirmButtonText="Delete"
         cancelButtonText="Cancel"
@@ -172,6 +172,115 @@ export default () => {
                   <th>title</th>
                   <td>string - required</td>
                   <td>The main heading for the modal.</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div className="dc-card dc-u-p-24 dc-u-mt-8">
+            <Heading as="h3" size={500}>
+              Dialog
+            </Heading>
+            <Paragraph>
+              The dialog should be used to block interaction with the rest of
+              the page while open. It provides the frame within which to supply
+              custom dialog content.
+            </Paragraph>
+            <table className="dc-table dc-table--bordered">
+              <tbody>
+                <tr>
+                  <LazyLiveEditCells
+                    code={`() => {
+  const [isOpen, setIsOpen] = React.useState(false);
+
+  return (
+    <>
+      <Button onClick={() => setIsOpen(true)}>open dialog</Button>
+      <Dialog isOpen={isOpen} onClose={origin => setIsOpen(false)}>
+        <div style={{ padding: "32px" }}>content</div>
+      </Dialog>
+    </>
+  );
+};`}
+                    scope={{ Button, Dialog }}
+                  />
+                </tr>
+              </tbody>
+            </table>
+            <table className="dc-table dc-table--bordered">
+              <thead className="dc-table__thead">
+                <tr className="dc-table__tr">
+                  <th>Property</th>
+                  <th>Type</th>
+                  <th>Description</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr className="dc-table__tr">
+                  <th>children</th>
+                  <td>ReactNode</td>
+                  <td>
+                    The content to render in the modal. This can be any valid
+                    React.
+                  </td>
+                </tr>
+                <tr className="dc-table__tr">
+                  <th>dataAttributes</th>
+                  <td>object - optional</td>
+                  <td>
+                    As with all the other waffles components, dataAttributes can
+                    be used to set data- html attributes on the element
+                  </td>
+                </tr>
+                <tr className="dc-table__tr">
+                  <th>hideCloseButton</th>
+                  <td>boolean - optional</td>
+                  <td>
+                    When this is set to true, the closeButton will not be shown
+                    in the top right corner. Alternative ways to exit the dialog
+                    should be provided in the content.
+                  </td>
+                </tr>
+                <tr className="dc-table__tr">
+                  <th>isOpen</th>
+                  <td>boolean - required</td>
+                  <td>
+                    When this is set to true the Modal will show. It is
+                    preferred to use this to control when to display the dialog
+                    rather than simply mounting and unmounting as setting this
+                    to false allows the close animation to play fully.
+                  </td>
+                </tr>
+                <tr className="dc-table__tr">
+                  <th>onClose</th>
+                  <td>
+                    <Code>
+                      (origin: overlayClick | escKey | closeButton) =&gt; void
+                    </Code>{' '}
+                    - required
+                  </td>
+                  <td>
+                    This function is called whenever the user requests to close
+                    the dialog. It is the responsibility of the application to
+                    handle this correctly and set isOpen to false. This function
+                    will be called with an origin string that specifies how the
+                    user requested to close the modal.
+                  </td>
+                </tr>
+                <tr className="dc-table__tr">
+                  <th>shouldCloseOnEsc</th>
+                  <td>boolean - optional</td>
+                  <td>
+                    By default the dialog will close when the user presses the
+                    escape key. When this is false, this behaviour is disabled.
+                  </td>
+                </tr>
+                <tr className="dc-table__tr">
+                  <th>shouldCloseOnOverlayClick</th>
+                  <td>boolean - optional</td>
+                  <td>
+                    By default the dialog will close when the user clicks on the
+                    backdrop. When this is false, this behaviour is disabled.
+                  </td>
                 </tr>
               </tbody>
             </table>
