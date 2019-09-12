@@ -1,5 +1,6 @@
 import * as Icons from '@datacamp/waffles-icons';
 import { Text } from '@datacamp/waffles-text';
+import tokens from '@datacamp/waffles-tokens/lib/future-tokens.json';
 import { computeDataAttributes } from '@datacamp/waffles-utils';
 import { css, SerializedStyles } from '@emotion/core';
 import { childrenOfType } from 'airbnb-prop-types';
@@ -20,11 +21,9 @@ import {
 import Spinner from './spinner';
 
 interface BaseButtonProps {
-  appearance?: 'default' | 'primary';
   className?: string;
   dataAttributes?: { [key: string]: string };
   disabled?: boolean;
-  intent?: 'neutral' | 'danger' | 'success' | 'warning';
   isLoading?: boolean;
   size?: 'small' | 'medium' | 'large';
 }
@@ -58,9 +57,22 @@ interface IconChildProps {
   children: ReactElement;
 }
 
+interface DefaultProps {
+  appearance?: 'default';
+  intent?: intents;
+}
+
+interface PrimaryProps {
+  appearance: 'primary';
+  intent?: intents | 'cta';
+}
+
+type intents = 'neutral' | 'danger' | 'success' | 'warning';
+
 type ButtonProps = BaseButtonProps &
   (ButtonButtonProps | LinkButtonProps | SubmitButtonProps) &
-  (StringChildProps | IconChildProps);
+  (StringChildProps | IconChildProps) &
+  (DefaultProps | PrimaryProps);
 
 const Button: React.FC<ButtonProps & { innerRef?: React.Ref<any> }> = props => {
   const {
@@ -80,13 +92,17 @@ const Button: React.FC<ButtonProps & { innerRef?: React.Ref<any> }> = props => {
 
   // TEXT STYLES
 
-  const outlineTextColor = disabled ? '#D1D3D8' : '#3D4251';
+  const outlineTextColor = disabled
+    ? tokens.color.opaque.greyLight.value.hex
+    : tokens.color.opaque.greyDark.value.hex;
   const outlineIconColor = disabled
     ? disabledColors[intent]
     : baseColors[intent];
 
-  const textColor = appearance === 'primary' ? 'white' : outlineTextColor;
-  const getColor = appearance === 'primary' ? 'white' : outlineIconColor;
+  const ctaTextColor = intent === 'cta' ? outlineTextColor : 'white';
+
+  const textColor = appearance === 'primary' ? ctaTextColor : outlineTextColor;
+  const getColor = appearance === 'primary' ? ctaTextColor : outlineIconColor;
 
   const getTextStyle = (): SerializedStyles => {
     return css(fontSizes[size], {
@@ -120,7 +136,7 @@ const Button: React.FC<ButtonProps & { innerRef?: React.Ref<any> }> = props => {
       {isLoading && (
         <Spinner
           css={{ position: 'absolute' }}
-          inverted={appearance === 'primary'}
+          inverted={appearance === 'primary' && intent !== 'cta'}
         />
       )}
       {React.isValidElement(children) ? (
