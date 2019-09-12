@@ -235,7 +235,7 @@ exports[`<AlertModal /> isOpen renders the modal via a portal when true 1`] = `
   line-height: 16px;
   font-size: 16px;
   line-height: 48px;
-  color: #3D4251;
+  color: #3d4251;
   font-weight: bold;
 }
 

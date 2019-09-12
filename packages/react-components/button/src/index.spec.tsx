@@ -167,6 +167,18 @@ describe('<Button />', () => {
       );
     });
 
+    it('renders a yellow button for the appearance="primary" and intent="cta', async () => {
+      const { container } = await axeRender(
+        <Button appearance="primary" intent="cta" onClick={someFunction}>
+          btn
+        </Button>
+      );
+
+      expect(container.firstChild).toHaveStyle(
+        `background-color: ${tokens.color.opaque.secondary.value.hex}`
+      );
+    });
+
     it('renders a green button for the appearance="primary" and intent="success', async () => {
       const { container } = await axeRender(
         <Button appearance="primary" intent="success" onClick={someFunction}>
@@ -534,32 +546,53 @@ describe('<Button />', () => {
       'medium',
       'large',
     ];
-    const buttonIntents: ('neutral' | 'warning' | 'danger' | 'success')[] = [
-      'neutral',
-      'warning',
-      'danger',
-      'success',
-    ];
-    const buttonAppearance: ('primary' | 'default')[] = ['primary', 'default'];
     const isLoadings: boolean[] = [true, false];
     buttonSizes.forEach(size => {
-      buttonIntents.forEach(intent => {
-        buttonAppearance.forEach(appearance => {
-          isLoadings.forEach(isLoading => {
-            it(`renders a button with appearance ${appearance}, intent ${intent}, size ${size} and isLoading ${isLoading}`, async () => {
-              const { container } = await axeRender(
-                <Button
-                  appearance={appearance}
-                  intent={intent}
-                  isLoading={isLoading}
-                  onClick={someFunction}
-                  size={size}
-                >
-                  {exampleText}
-                </Button>
-              );
-              expect(container.firstChild).toMatchSnapshot();
-            });
+      (['neutral', 'warning', 'danger', 'success'] as (
+        | 'neutral'
+        | 'warning'
+        | 'danger'
+        | 'success')[]).forEach(intent => {
+        isLoadings.forEach(isLoading => {
+          it(`renders a button with appearance default, intent ${intent}, size ${size} and isLoading ${isLoading}`, async () => {
+            const { container } = await axeRender(
+              <Button
+                appearance="default"
+                intent={intent}
+                isLoading={isLoading}
+                onClick={someFunction}
+                size={size}
+              >
+                {exampleText}
+              </Button>
+            );
+            expect(container.firstChild).toMatchSnapshot();
+          });
+        });
+      });
+    });
+
+    buttonSizes.forEach(size => {
+      (['cta', 'neutral', 'warning', 'danger', 'success'] as (
+        | 'cta'
+        | 'neutral'
+        | 'warning'
+        | 'danger'
+        | 'success')[]).forEach(intent => {
+        isLoadings.forEach(isLoading => {
+          it(`renders a button with appearance primary, intent ${intent}, size ${size} and isLoading ${isLoading}`, async () => {
+            const { container } = await axeRender(
+              <Button
+                appearance="primary"
+                intent={intent}
+                isLoading={isLoading}
+                onClick={someFunction}
+                size={size}
+              >
+                {exampleText}
+              </Button>
+            );
+            expect(container.firstChild).toMatchSnapshot();
           });
         });
       });

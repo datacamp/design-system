@@ -2,6 +2,7 @@ import tokens from '@datacamp/waffles-tokens/lib/future-tokens.json';
 import { css, SerializedStyles } from '@emotion/core';
 
 interface IntentMap {
+  cta: string;
   danger: string;
   neutral: string;
   success: string;
@@ -12,6 +13,7 @@ type Intent = keyof IntentMap;
 
 // CUSTOM TOKENS
 const baseColors: IntentMap = {
+  cta: tokens.color.opaque.secondary.value.hex,
   danger: tokens.color.opaque.red.value.hex,
   neutral: tokens.color.opaque.primary.value.hex,
   success: tokens.color.opaque.green.value.hex,
@@ -19,6 +21,7 @@ const baseColors: IntentMap = {
 };
 
 const hoverColors: IntentMap = {
+  cta: ' #E7B743',
   danger: '#B64242',
   neutral: '#2E8FAB',
   success: '#29A360',
@@ -26,6 +29,7 @@ const hoverColors: IntentMap = {
 };
 
 const disabledColors: IntentMap = {
+  cta: '#FFE9B4',
   danger: '#FEDEDE',
   neutral: '#DCECF1',
   success: '#E7F2EC',
