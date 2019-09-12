@@ -1,6 +1,7 @@
 import React from 'react';
 
 import BaseDialog, { CloseOrigin } from '../BaseDialog';
+import Header from './Header';
 
 interface DialogProps {
   /**
@@ -56,5 +57,7 @@ const Dialog = ({
     {children}
   </BaseDialog>
 );
+
+Dialog.Header = Header;
 
 export default Dialog;
