@@ -229,4 +229,20 @@ describe('<Dialog />', () => {
     const dialogElement = getByRole('dialog') as HTMLElement;
     expect(dialogElement).toHaveStyle(`width: ${width};`);
   });
+
+  it('renders with a Header', async () => {
+    const testTitle = 'test title';
+
+    const { getByText, baseElement } = await axeRender(
+      <Dialog onClose={() => {}} isOpen>
+        <Dialog.Header>{testTitle}</Dialog.Header>
+        children
+      </Dialog>,
+      getRenderOptions()
+    );
+
+    expect(getByText(testTitle)).toBeInTheDocument();
+
+    expect(baseElement).toMatchSnapshot();
+  });
 });
