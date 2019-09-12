@@ -195,12 +195,17 @@ export default () => {
   return (
     <>
       <Button onClick={() => setIsOpen(true)}>open dialog</Button>
-      <Dialog isOpen={isOpen} onClose={origin => setIsOpen(false)}>
+      <Dialog
+        isOpen={isOpen}
+        onClose={origin => setIsOpen(false)}
+      >
+        <Dialog.Header>This is the Title</Dialog.Header>
         <div style={{ padding: "32px" }}>content</div>
       </Dialog>
     </>
   );
-};`}
+};
+`}
                     scope={{ Button, Dialog }}
                   />
                 </tr>
@@ -220,7 +225,8 @@ export default () => {
                   <td>ReactNode</td>
                   <td>
                     The content to render in the modal. This can be any valid
-                    React.
+                    React. Use the Dialog.Header component to add a title to the
+                    dialog.
                   </td>
                 </tr>
                 <tr className="dc-table__tr">
