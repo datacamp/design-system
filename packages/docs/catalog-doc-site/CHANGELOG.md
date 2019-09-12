@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.19.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-catalog-doc-site@1.18.0...@datacamp/waffles-catalog-doc-site@1.19.0) (2019-09-12)
+
+
+### Features
+
+* add cta intent doc ([1f03e50](https://github.com/datacamp/design-system/commit/1f03e50))
+* add stories for disabled input (+4 squashed commits) ([56e5602](https://github.com/datacamp/design-system/commit/56e5602))
+* documentation for Dialog component ([82f4dd1](https://github.com/datacamp/design-system/commit/82f4dd1))
+
+
+
+
+
 # [1.18.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-catalog-doc-site@1.17.0...@datacamp/waffles-catalog-doc-site@1.18.0) (2019-09-09)
 
 

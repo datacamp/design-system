@@ -3,6 +3,24 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.19.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-storybook@1.18.0...@datacamp/waffles-storybook@1.19.0) (2019-09-12)
+
+
+### Bug Fixes
+
+* update stories to use compliant colours ([254254d](https://github.com/datacamp/design-system/commit/254254d))
+
+
+### Features
+
+* add stories for Dialog component ([b9a3f09](https://github.com/datacamp/design-system/commit/b9a3f09))
+* add stories for disabled input (+4 squashed commits) ([56e5602](https://github.com/datacamp/design-system/commit/56e5602))
+* add story for cta intent ([ef51101](https://github.com/datacamp/design-system/commit/ef51101))
+
+
+
+
+
 # [1.18.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-storybook@1.17.0...@datacamp/waffles-storybook@1.18.0) (2019-09-09)
 
 

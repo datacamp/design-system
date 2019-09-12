@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.6](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/card/compare/@datacamp/waffles-card@1.0.5...@datacamp/waffles-card@1.0.6) (2019-09-12)
+
+
+### Bug Fixes
+
+* allow ReactNode as child of card ([a6f9846](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/card/commit/a6f9846))
+
+
+
+
+
 ## [1.0.5](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/card/compare/@datacamp/waffles-card@1.0.4...@datacamp/waffles-card@1.0.5) (2019-09-09)
 
 **Note:** Version bump only for package @datacamp/waffles-card

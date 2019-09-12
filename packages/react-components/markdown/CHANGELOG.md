@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.4](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/markdown/compare/@datacamp/waffles-markdown@0.1.3...@datacamp/waffles-markdown@0.1.4) (2019-09-12)
+
+
+### Bug Fixes
+
+* codeBlock style override margin ([218f705](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/markdown/commit/218f705))
+
+
+
+
+
 ## [0.1.3](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/markdown/compare/@datacamp/waffles-markdown@0.1.2...@datacamp/waffles-markdown@0.1.3) (2019-09-09)
 
 **Note:** Version bump only for package @datacamp/waffles-markdown

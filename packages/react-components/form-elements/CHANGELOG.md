@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.1.0](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/form-elements/compare/@datacamp/waffles-form-elements@1.0.0...@datacamp/waffles-form-elements@1.1.0) (2019-09-12)
+
+
+### Bug Fixes
+
+* tokens ([755692f](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/form-elements/commit/755692f))
+
+
+### Features
+
+* add stories for disabled input (+4 squashed commits) ([56e5602](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/form-elements/commit/56e5602))
+
+
+
+
+
 # 1.0.0 (2019-09-09)
 
 

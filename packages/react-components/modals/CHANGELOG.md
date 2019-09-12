@@ -3,6 +3,20 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.2.0](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/modals/compare/@datacamp/waffles-modals@1.1.1...@datacamp/waffles-modals@1.2.0) (2019-09-12)
+
+
+### Features
+
+* add cta intent ([dde87ba](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/modals/commit/dde87ba))
+* add Dialog component ([db73421](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/modals/commit/db73421))
+* add private BaseDialog component ([bc5e4bd](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/modals/commit/bc5e4bd))
+* use BaseDialog to render AlertDialog ([fcfa598](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/modals/commit/fcfa598))
+
+
+
+
+
 ## [1.1.1](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/modals/compare/@datacamp/waffles-modals@1.1.0...@datacamp/waffles-modals@1.1.1) (2019-09-09)
 
 **Note:** Version bump only for package @datacamp/waffles-modals

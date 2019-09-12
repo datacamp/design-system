@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.1.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-button@2.0.0...@datacamp/waffles-button@2.1.0) (2019-09-12)
+
+
+### Features
+
+* add cta intent ([dde87ba](https://github.com/datacamp/design-system/commit/dde87ba))
+
+
+
+
+
 # [2.0.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-button@1.0.1...@datacamp/waffles-button@2.0.0) (2019-09-09)
 
 
