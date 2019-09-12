@@ -63,9 +63,11 @@ export default () => {
                 </tr>
                 <tr className="dc-table__tr">
                   <th>intent</th>
-                  <td>neutral, danger, success, warning (optional)</td>
+                  <td>cta, neutral, danger, success, warning (optional)</td>
                   <td>
-                    It defines the color of the button. This defaults to neutral
+                    It defines the color of the button. This defaults to
+                    neutral. The cta intent can be used only with the primary
+                    appearance
                   </td>
                   <LazyLiveEditCells
                     code={'<Button intent="danger">Button</Button>'}
