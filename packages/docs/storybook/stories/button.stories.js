@@ -43,6 +43,16 @@ storiesOf('waffles-button', module).add('Button Component', () => (
           small
         </Button>
       </td>
+      <td>
+        <Button
+          appearance="primary"
+          intent="cta"
+          onClick={() => {}}
+          size="small"
+        >
+          small
+        </Button>
+      </td>
     </tr>
     <tr>
       <td>
@@ -67,6 +77,11 @@ storiesOf('waffles-button', module).add('Button Component', () => (
       </td>
       <td>
         <Button appearance="primary" intent="warning" onClick={() => {}}>
+          Warning
+        </Button>
+      </td>
+      <td>
+        <Button appearance="primary" intent="cta" onClick={() => {}}>
           Warning
         </Button>
       </td>
@@ -101,6 +116,16 @@ storiesOf('waffles-button', module).add('Button Component', () => (
         <Button
           appearance="primary"
           intent="warning"
+          onClick={() => {}}
+          size="large"
+        >
+          large
+        </Button>
+      </td>
+      <td>
+        <Button
+          appearance="primary"
+          intent="cta"
           onClick={() => {}}
           size="large"
         >
@@ -262,6 +287,11 @@ storiesOf('waffles-button', module).add('Button Component', () => (
           Disabled
         </Button>
       </td>
+      <td>
+        <Button appearance="primary" intent="cta" onClick={() => {}} disabled>
+          Disabled
+        </Button>
+      </td>
     </tr>
     <tr>
       <td>
@@ -304,6 +334,11 @@ storiesOf('waffles-button', module).add('Button Component', () => (
           isLoading
         </Button>
       </td>
+      <td>
+        <Button appearance="primary" intent="cta" isLoading>
+          isLoading
+        </Button>
+      </td>
     </tr>
     <tr>
       <td>
@@ -323,6 +358,11 @@ storiesOf('waffles-button', module).add('Button Component', () => (
       </td>
       <td>
         <Button intent="warning" size="large" isLoading>
+          isLoading
+        </Button>
+      </td>
+      <td>
+        <Button appearance="primary" intent="cta" size="large" isLoading>
           isLoading
         </Button>
       </td>
@@ -368,6 +408,11 @@ storiesOf('waffles-button', module).add('Button Component', () => (
           test different sizes
         </Button>
       </td>
+      <td>
+        <Button appearance="primary" intent="cta" size="small" isLoading>
+          test different sizes
+        </Button>
+      </td>
     </tr>
     <tr>
       <td>
@@ -401,6 +446,17 @@ storiesOf('waffles-button', module).add('Button Component', () => (
         <Button
           href="https://www.google.com/?"
           intent="success"
+          size="large"
+          type="link"
+        >
+          Link Large
+        </Button>
+      </td>
+      <td>
+        <Button
+          appearance="primary"
+          href="https://www.google.com/?"
+          intent="cta"
           size="large"
           type="link"
         >
@@ -467,8 +523,8 @@ storiesOf('waffles-button', module).add('Button Component', () => (
         </Button>
       </td>
       <td>
-        <Button>
-          <AddCircleIcon appearance="primary" disabled />
+        <Button appearance="primary" intent="cta">
+          <AddCircleIcon />
         </Button>
       </td>
     </tr>
@@ -510,8 +566,14 @@ storiesOf('waffles-button', module).add('Button Component', () => (
           <AddCircleIcon />
         </Button>
       </td>
+
       <td>
         <Button appearance="primary" disabled>
+          <AddCircleIcon />
+        </Button>
+      </td>
+      <td>
+        <Button appearance="primary" intent="cta" disabled>
           <AddCircleIcon />
         </Button>
       </td>
@@ -532,8 +594,14 @@ storiesOf('waffles-button', module).add('Button Component', () => (
           <AddCircleIcon />
         </Button>
       </td>
+
       <td>
         <Button appearance="primary" isLoading>
+          <AddCircleIcon />
+        </Button>
+      </td>
+      <td>
+        <Button appearance="primary" intent="cta" isLoading>
           <AddCircleIcon />
         </Button>
       </td>
