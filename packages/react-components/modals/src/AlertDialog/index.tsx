@@ -1,21 +1,9 @@
 import Button from '@datacamp/waffles-button';
-import Card from '@datacamp/waffles-card';
 import { Heading, Paragraph } from '@datacamp/waffles-text';
-import { ClassNames, css } from '@emotion/core';
+import { css } from '@emotion/core';
 import React, { createRef } from 'react';
-import ReactModal from 'react-modal';
 
-import {
-  animationTime,
-  bodyOpenStyle,
-  contentStyle,
-  contentStyleAfterOpen,
-  contentStyleBeforeClose,
-  overlayStyle,
-  overlayStyleAfterOpen,
-  overlayStyleBeforeClose,
-} from './AlertDialogStyles';
-import CloseButton from './CloseButton';
+import BaseDialog, { CloseOrigin as BaseCloseOrigin } from '../BaseDialog';
 
 interface AlertModalProps {
   cancelButtonText?: string;
@@ -29,7 +17,7 @@ interface AlertModalProps {
   onConfirm: () => void;
   title: string;
 }
-type CloseOrigin = 'cancelButton' | 'overlayClick' | 'escKey' | 'closeButton';
+type CloseOrigin = 'cancelButton' | BaseCloseOrigin;
 
 const AlertDialog: React.FC<AlertModalProps> = ({
   cancelButtonText = 'Cancel',
@@ -45,10 +33,6 @@ const AlertDialog: React.FC<AlertModalProps> = ({
 }) => {
   // Callbacks to set the correct origin when closing
   const onCancelButton = (): void => onClose('cancelButton');
-  const onCloseButton = (): void => onClose('closeButton');
-  const onRequestClose = (
-    event: React.MouseEvent | React.KeyboardEvent
-  ): void => onClose(event.type === 'click' ? 'overlayClick' : 'escKey');
 
   // Focus on the button when the Modal opens
   const cancelButtonRef = createRef<HTMLButtonElement>();
@@ -64,63 +48,44 @@ const AlertDialog: React.FC<AlertModalProps> = ({
   };
 
   return (
-    <ClassNames>
-      {({ css: generateClassName, cx }) => {
-        const className = {
-          afterOpen: generateClassName(contentStyleAfterOpen),
-          base: generateClassName(contentStyle),
-          beforeClose: generateClassName(contentStyleBeforeClose),
-        };
-        const overlayClassName = {
-          afterOpen: generateClassName(overlayStyleAfterOpen),
-          base: cx('modal-overlay', generateClassName(overlayStyle)),
-          beforeClose: generateClassName(overlayStyleBeforeClose),
-        };
-        const bodyOpenClassName = generateClassName(bodyOpenStyle);
-        return (
-          <ReactModal
-            bodyOpenClassName={bodyOpenClassName}
-            className={className}
-            closeTimeoutMS={animationTime}
-            contentLabel="Alert dialog"
-            data={dataAttributes}
-            isOpen={isOpen}
-            onAfterOpen={onAfterOpen}
-            onRequestClose={onRequestClose}
-            overlayClassName={overlayClassName}
-            shouldCloseOnEsc={!isLoading}
-            shouldCloseOnOverlayClick={!isLoading}
+    <BaseDialog
+      closeButtonDisabled={isLoading}
+      contentLabel="Alert dialog"
+      dataAttributes={dataAttributes}
+      hideCloseButton={false}
+      isOpen={isOpen}
+      onAfterOpen={onAfterOpen}
+      onClose={onClose}
+      shouldCloseOnEsc={!isLoading}
+      shouldCloseOnOverlayClick={!isLoading}
+      width="480px"
+    >
+      <div css={css({ padding: 32, textAlign: 'center' })}>
+        <Heading as="h1" size={600} multiLine>
+          {title}
+        </Heading>
+        <Paragraph>{description}</Paragraph>
+        <div css={{ marginTop: 24 }}>
+          <Button
+            ref={cancelButtonRef}
+            css={{ marginRight: 16 }}
+            disabled={isLoading}
+            onClick={onCancelButton}
           >
-            <Card css={css({ padding: 32, textAlign: 'center' })} elevation={4}>
-              <CloseButton disabled={isLoading} onClick={onCloseButton} />
-              <Heading as="h1" size={600} multiLine>
-                {title}
-              </Heading>
-              <Paragraph>{description}</Paragraph>
-              <div css={{ marginTop: 24 }}>
-                <Button
-                  ref={cancelButtonRef}
-                  css={{ marginRight: 16 }}
-                  disabled={isLoading}
-                  onClick={onCancelButton}
-                >
-                  {cancelButtonText}
-                </Button>
-                <Button
-                  ref={confirmButtonRef}
-                  appearance="primary"
-                  intent={intent}
-                  isLoading={isLoading}
-                  onClick={onConfirm}
-                >
-                  {confirmButtonText}
-                </Button>
-              </div>
-            </Card>
-          </ReactModal>
-        );
-      }}
-    </ClassNames>
+            {cancelButtonText}
+          </Button>
+          <Button
+            ref={confirmButtonRef}
+            appearance="primary"
+            intent={intent}
+            isLoading={isLoading}
+            onClick={onConfirm}
+          >
+            {confirmButtonText}
+          </Button>
+        </div>
+      </div>
+    </BaseDialog>
   );
 };
 

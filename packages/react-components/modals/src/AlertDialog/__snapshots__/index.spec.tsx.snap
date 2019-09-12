@@ -15,14 +15,14 @@ exports[`<AlertModal /> isOpen mounts nothing when false 1`] = `
 `;
 
 exports[`<AlertModal /> isOpen renders the modal via a portal when true 1`] = `
-.emotion-10 {
+.emotion-11 {
   opacity: 1 !important;
   -webkit-transform: translate(-50%,-50%) scale(1) !important;
   -ms-transform: translate(-50%,-50%) scale(1) !important;
   transform: translate(-50%,-50%) scale(1) !important;
 }
 
-.emotion-9 {
+.emotion-10 {
   left: 50%;
   margin: auto;
   opacity: 0;
@@ -37,11 +37,11 @@ exports[`<AlertModal /> isOpen renders the modal via a portal when true 1`] = `
   width: 480px;
 }
 
-.emotion-12 {
+.emotion-13 {
   opacity: 1 !important;
 }
 
-.emotion-11 {
+.emotion-12 {
   background-color: rgba(38,62,99,0.8);
   bottom: 0;
   left: 0;
@@ -53,18 +53,8 @@ exports[`<AlertModal /> isOpen renders the modal via a portal when true 1`] = `
   transition: opacity 0.6s cubic-bezier(0.19,1,0.22,1);
 }
 
-.emotion-13 {
+.emotion-14 {
   overflow: hidden;
-}
-
-.emotion-8 {
-  background-color: rgb(255,255,255);
-  border-radius: 4px;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.15);
-  -webkit-transition: all 0.6s cubic-bezier(0.075,0.82,0.165,1);
-  transition: all 0.6s cubic-bezier(0.075,0.82,0.165,1);
-  padding: 32px;
-  text-align: center;
 }
 
 .emotion-0 {
@@ -116,6 +106,19 @@ exports[`<AlertModal /> isOpen renders the modal via a portal when true 1`] = `
 
 .emotion-0:hover {
   background-color: rgb(240,244,245);
+}
+
+.emotion-9 {
+  background-color: rgb(255,255,255);
+  border-radius: 4px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.15);
+  -webkit-transition: all 0.6s cubic-bezier(0.075,0.82,0.165,1);
+  transition: all 0.6s cubic-bezier(0.075,0.82,0.165,1);
+}
+
+.emotion-8 {
+  padding: 32px;
+  text-align: center;
 }
 
 .emotion-1 {
@@ -306,7 +309,7 @@ exports[`<AlertModal /> isOpen renders the modal via a portal when true 1`] = `
 }
 
 <body
-  class="emotion-13"
+  class="emotion-14"
 >
   <div
     aria-hidden="true"
@@ -315,72 +318,76 @@ exports[`<AlertModal /> isOpen renders the modal via a portal when true 1`] = `
     class="ReactModalPortal"
   >
     <div
-      class="modal-overlay emotion-11 emotion-12"
+      class="modal-overlay emotion-12 emotion-13"
     >
       <div
         aria-label="Alert dialog"
-        class="emotion-9 emotion-10"
+        class="emotion-10 emotion-11"
         role="dialog"
         tabindex="-1"
       >
-        <div
-          class="emotion-8"
+        <button
+          aria-label="Close"
+          class="emotion-0"
+          type="button"
         >
-          <button
-            aria-label="Close"
-            class="emotion-0"
-            type="button"
+          <svg
+            aria-hidden="false"
+            height="18"
+            role="img"
+            viewBox="0 0 18 18"
+            width="18"
           >
-            <svg
-              aria-hidden="false"
-              height="18"
-              role="img"
-              viewBox="0 0 18 18"
-              width="18"
-            >
-              <title>
-                Cross
-              </title>
-              <path
-                d="M9.005 7.625l4.83-4.83a.976.976 0 0 1 1.38 1.38l-4.83 4.83 4.82 4.82a.976.976 0 1 1-1.38 1.38l-4.82-4.82-4.83 4.83a.976.976 0 0 1-1.38-1.38l4.83-4.83-4.84-4.84a.976.976 0 1 1 1.38-1.38l4.84 4.84z"
-                fill="currentColor"
-                fill-rule="evenodd"
-              />
-            </svg>
-          </button>
-          <h1
-            class="emotion-1"
-          >
-            test title
-          </h1>
-          <p
-            class="emotion-2"
-          >
-            test description
-          </p>
+            <title>
+              Cross
+            </title>
+            <path
+              d="M9.005 7.625l4.83-4.83a.976.976 0 0 1 1.38 1.38l-4.83 4.83 4.82 4.82a.976.976 0 1 1-1.38 1.38l-4.82-4.82-4.83 4.83a.976.976 0 0 1-1.38-1.38l4.83-4.83-4.84-4.84a.976.976 0 1 1 1.38-1.38l4.84 4.84z"
+              fill="currentColor"
+              fill-rule="evenodd"
+            />
+          </svg>
+        </button>
+        <div
+          class="emotion-9"
+        >
           <div
-            class="emotion-7"
+            class="emotion-8"
           >
-            <button
-              class="emotion-4"
-              type="button"
+            <h1
+              class="emotion-1"
             >
-              <span
-                class="emotion-3"
-              >
-                Cancel
-              </span>
-            </button>
-            <button
-              class="emotion-6"
-              type="button"
+              test title
+            </h1>
+            <p
+              class="emotion-2"
             >
-              <span
-                class="emotion-5"
+              test description
+            </p>
+            <div
+              class="emotion-7"
+            >
+              <button
+                class="emotion-4"
+                type="button"
               >
-                Confirm
-              </span>
-            </button>
+                <span
+                  class="emotion-3"
+                >
+                  Cancel
+                </span>
+              </button>
+              <button
+                class="emotion-6"
+                type="button"
+              >
+                <span
+                  class="emotion-5"
+                >
+                  Confirm
+                </span>
+              </button>
+            </div>
           </div>
         </div>
       </div>

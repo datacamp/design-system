@@ -79,7 +79,7 @@ arrange(desc(gdpPercap))`}</CodeBlock>
     <>
       <Text>This is the default text</Text>
       <br />
-      <Text css={{ color: color.opaque.primary.value.hex }}>
+      <Text css={{ color: color.opaque.primaryDark.value.hex }}>
         This has additional style added using a css prop
       </Text>
       <br />
@@ -106,7 +106,7 @@ arrange(desc(gdpPercap))`}</CodeBlock>
       <br />
       <Strong>This is the default strong text</Strong>
       <br />
-      <Strong css={{ color: color.opaque.primary.value.hex }}>
+      <Strong css={{ color: color.opaque.primaryDark.value.hex }}>
         This has additional style added using a css prop
       </Strong>
       <br />
@@ -125,7 +125,7 @@ arrange(desc(gdpPercap))`}</CodeBlock>
       <br />
       <Emphasis>This is the default emphasis text</Emphasis>
       <br />
-      <Emphasis css={{ color: color.opaque.primary.value.hex }}>
+      <Emphasis css={{ color: color.opaque.primaryDark.value.hex }}>
         This has additional style added using a css prop
       </Emphasis>
       <br />
@@ -144,7 +144,7 @@ arrange(desc(gdpPercap))`}</CodeBlock>
       <br />
       <Small>This is the default small text</Small>
       <br />
-      <Small css={{ color: color.opaque.primary.value.hex }}>
+      <Small css={{ color: color.opaque.primaryDark.value.hex }}>
         This has additional style added using a css prop
       </Small>
       <br />
@@ -181,14 +181,14 @@ arrange(desc(gdpPercap))`}</CodeBlock>
         <Small>id malesuada nisi</Small> viverra consectetur. Donec auctor
         dapibus nisl sit amet tempor. Integer nec <Code>diam sit amet sem</Code>{' '}
         sollicitudin consectetur.{' '}
-        <Text css={{ color: color.opaque.primary.value.hex }}>
+        <Text css={{ color: color.opaque.primaryDark.value.hex }}>
           Vestibulum velit turpis
         </Text>
         , egestas eget massa non, consectetur volutpat quam. Sed eu mi eget sem
         euismod iaculis. Aenean a ante <Emphasis>mattis orci</Emphasis> dapibus
         pulvinar. Quisque convallis arcu eu neque tincidunt condimentum.
       </Paragraph>
-      <Paragraph css={{ color: color.opaque.primary.value.hex }}>
+      <Paragraph css={{ color: color.opaque.primaryDark.value.hex }}>
         This has additional style added using a css prop
       </Paragraph>
       <Paragraph className="example-class">
@@ -252,7 +252,7 @@ arrange(desc(gdpPercap))`}</CodeBlock>
         </Paragraph>
         <Heading
           as={element}
-          css={{ color: color.opaque.primary.value.hex }}
+          css={{ color: color.opaque.primaryDark.value.hex }}
           size={600}
         >
           This is a Heading with styling added using a css prop
@@ -318,13 +318,18 @@ gapminder %>%
         This has additional style added using a css prop:
         <br />
         We&apos;ve already loaded the{' '}
-        <Code css={{ color: color.opaque.primary.value.hex }}>Gapminder</Code>
-        and <Code css={{ color: color.opaque.primary.value.hex }}>dplyr</Code>
+        <Code css={{ color: color.opaque.primaryDark.value.hex }}>
+          Gapminder
+        </Code>
+        and{' '}
+        <Code css={{ color: color.opaque.primaryDark.value.hex }}>dplyr</Code>
         packages.
         <br />
         Type gapminder in your{' '}
-        <Code css={{ color: color.opaque.primary.value.hex }}>R Terminal</Code>,
-        to the right, to display the object.
+        <Code css={{ color: color.opaque.primaryDark.value.hex }}>
+          R Terminal
+        </Code>
+        , to the right, to display the object.
       </Paragraph>
       <br />
 

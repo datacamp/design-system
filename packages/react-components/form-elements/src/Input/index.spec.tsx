@@ -116,5 +116,19 @@ describe('<Input />', () => {
       );
       expect(container.firstChild).toHaveAttribute('placeholder', placeholder);
     });
+
+    it('disables the input if disabled is passed as a prop', () => {
+      const placeholder = 'placeholder text';
+      const { container } = render(
+        <Input
+          name={testName}
+          onChange={() => {}}
+          placeholder={placeholder}
+          value={testValue}
+          disabled
+        />
+      );
+      expect(container.firstChild).toHaveAttribute('disabled');
+    });
   });
 });

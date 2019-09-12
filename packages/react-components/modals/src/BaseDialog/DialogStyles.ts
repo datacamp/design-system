@@ -2,8 +2,6 @@ import tokens from '@datacamp/waffles-tokens/lib/future-tokens.json';
 import { css } from '@emotion/core';
 import tinycolor from 'tinycolor2';
 
-// These styles can most likely be split and extracted into a base modal component in the future
-
 export const animationTime = 600;
 
 export const bodyOpenStyle = css({ overflow: 'hidden' });
@@ -38,7 +36,6 @@ export const contentStyle = css({
   top: '50%',
   transform: 'translate(-50%, -50%) scale(0.5)',
   transition: `0.4s cubic-bezier(0.19, 1, 0.22, 1);`,
-  width: 480,
 });
 
 export const contentStyleAfterOpen = css`
