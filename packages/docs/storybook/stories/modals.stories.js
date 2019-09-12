@@ -60,31 +60,64 @@ storiesOf('waffles-modals', module).add(`loading AlertDialog`, () => {
   });
 });
 
-storiesOf('waffles-modals', module).add('free children Dialog', () => {
-  return createElement(() => {
-    const [isOpen, setIsOpen] = useState(true);
-    return (
-      <>
-        <Paragraph>this is some content behind the modal</Paragraph>
-        <Paragraph>this is some content behind the modal</Paragraph>
-        <Button onClick={() => setIsOpen(true)}>Open Modal</Button>
-        <Dialog
-          isOpen={isOpen}
-          onClose={origin => {
-            console.log(origin); // eslint-disable-line no-console
-            setIsOpen(false);
-          }}
-        >
-          <Heading as="h1" size={300}>
-            custom content
-          </Heading>
-          <Paragraph>
-            This is just some content, it will should wrap if it gets too long,
-            but also it will be covered by the close button. It is up to the
-            consumer to define their content appropriately.
-          </Paragraph>
-        </Dialog>
-      </>
-    );
+storiesOf('waffles-modals', module)
+  .add('free children Dialog', () => {
+    return createElement(() => {
+      const [isOpen, setIsOpen] = useState(true);
+      return (
+        <>
+          <Paragraph>this is some content behind the modal</Paragraph>
+          <Paragraph>this is some content behind the modal</Paragraph>
+          <Button onClick={() => setIsOpen(true)}>Open Modal</Button>
+          <Dialog
+            isOpen={isOpen}
+            onClose={origin => {
+              console.log(origin); // eslint-disable-line no-console
+              setIsOpen(false);
+            }}
+          >
+            <Heading as="h1" size={300}>
+              custom content
+            </Heading>
+            <Paragraph>
+              This is just some content, it will should wrap if it gets too
+              long, but also it will be covered by the close button. It is up to
+              the consumer to define their content appropriately.
+            </Paragraph>
+          </Dialog>
+        </>
+      );
+    });
+  })
+  .add('free children Dialog with Header', () => {
+    return createElement(() => {
+      const [isOpen, setIsOpen] = useState(true);
+      return (
+        <>
+          <Paragraph>this is some content behind the modal</Paragraph>
+          <Paragraph>this is some content behind the modal</Paragraph>
+          <Button onClick={() => setIsOpen(true)}>Open Modal</Button>
+          <Dialog
+            isOpen={isOpen}
+            onClose={origin => {
+              console.log(origin); // eslint-disable-line no-console
+              setIsOpen(false);
+            }}
+            width="600px"
+          >
+            <Dialog.Header>
+              With a very long title that should truncate and be spaced
+              correctly
+            </Dialog.Header>
+            <div>
+              <Paragraph>
+                This is just some content, it will should wrap if it gets too
+                long, but also it will stretch. It is up to the consumer to
+                define their content appropriately.
+              </Paragraph>
+            </div>
+          </Dialog>
+        </>
+      );
+    });
   });
-});
