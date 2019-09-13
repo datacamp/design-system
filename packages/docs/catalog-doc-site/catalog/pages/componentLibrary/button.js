@@ -1,6 +1,6 @@
-import Button from '@datacamp/waffles-button';
+import Button, { ButtonGroup } from '@datacamp/waffles-button';
 import { AddCircleIcon } from '@datacamp/waffles-icons';
-import { Code, Heading, Paragraph } from '@datacamp/waffles-text';
+import { Code, CodeBlock, Heading, Paragraph } from '@datacamp/waffles-text';
 import { Page } from 'catalog';
 import React from 'react';
 
@@ -23,18 +23,25 @@ export default () => {
               About
             </Heading>
             <Paragraph>
-              A primitive button component, available from the{' '}
-              <code>@datacamp/waffles-button</code> package on npm.
+              The <code>@datacamp/waffles-button</code> package on npm contains
+              a Button component, and also a ButtonGroup that can be used for
+              layout purposes.
             </Paragraph>
           </div>
           <div className="dc-card dc-u-p-24 dc-u-mt-8">
             <Heading as="h3" size={500}>
-              Properties
+              Button
             </Heading>
             <Paragraph>
-              The Button component takes the <code>className</code>,{' '}
-              <code> dataAttributes</code>, <code>ariaLabel</code>,{' '}
-              <code>onClick</code> and <code>ref</code> props
+              The Button component can be imported as shown:
+            </Paragraph>
+            <CodeBlock>
+              {"import Button from '@datacamp/waffles-button';"}
+            </CodeBlock>
+            <Paragraph>
+              It takes the <code>className</code>, <code> dataAttributes</code>,{' '}
+              <code>ariaLabel</code>, <code>onClick</code> and <code>ref</code>{' '}
+              props
               <br />
               It can be styled with the props <code>intent</code> to choose the
               color, <code>appearance</code> to choose between the outline
@@ -156,6 +163,39 @@ export default () => {
                   <LazyLiveEditCells
                     code={'<Button type="submit"><AddCircleIcon /></Button>'}
                     scope={{ AddCircleIcon, Button }}
+                  />
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div className="dc-card dc-u-p-24 dc-u-mt-8">
+            <Heading as="h3" size={500}>
+              ButtonGroup
+            </Heading>
+            <Paragraph>
+              The ButtonGroup component can be used to wrap a set of Buttons and
+              show them in a row. It can be imported alongside the Button as
+              shown:
+            </Paragraph>
+            <CodeBlock>
+              {
+                "import Button, { ButtonGroup } from '@datacamp/waffles-button';"
+              }
+            </CodeBlock>
+            <Paragraph>
+              It does not take any props other than className, which can be used
+              to add styles to the container div.
+            </Paragraph>
+            <table className="dc-table dc-table--bordered">
+              <tbody>
+                <tr>
+                  <LazyLiveEditCells
+                    code={`<ButtonGroup>
+  <Button onClick={() => {}}>Button 1</Button>
+  <Button onClick={() => {}}>Button 2</Button>
+  <Button onClick={() => {}}>Button 3</Button>
+</ButtonGroup>`}
+                    scope={{ Button, ButtonGroup }}
                   />
                 </tr>
               </tbody>
