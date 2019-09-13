@@ -3,9 +3,9 @@ import { Text } from '@datacamp/waffles-text';
 import tokens from '@datacamp/waffles-tokens/lib/future-tokens.json';
 import { computeDataAttributes } from '@datacamp/waffles-utils';
 import { css, SerializedStyles } from '@emotion/core';
-import { childrenOfType } from 'airbnb-prop-types';
+import { childrenOfType, nChildren } from 'airbnb-prop-types';
 import PropTypes from 'prop-types';
-import React, { ReactElement } from 'react';
+import React, { ComponentProps, ReactElement } from 'react';
 
 import {
   baseColors,
@@ -19,6 +19,9 @@ import {
   getSize,
 } from './buttonStyles';
 import Spinner from './spinner';
+
+type IconType = typeof Icons.AddCircleIcon; // Could use any Icon here
+type IconElement = ReactElement<ComponentProps<IconType>, IconType>;
 
 interface BaseButtonProps {
   className?: string;
@@ -54,7 +57,7 @@ interface IconChildProps {
    * When providing a react element as a child, it can only be one of the Icon
    * components exposed by @datacamp/waffles-icons
    */
-  children: ReactElement;
+  children: IconElement;
 }
 
 interface DefaultProps {
@@ -71,7 +74,7 @@ type intents = 'neutral' | 'danger' | 'success' | 'warning';
 
 interface IconTextChildProps {
   ariaLabel?: string;
-  children: [string, ReactElement] | [ReactElement, string];
+  children: [string, IconElement] | [IconElement, string];
 }
 
 type ButtonProps = BaseButtonProps &
@@ -116,7 +119,7 @@ const Button: React.FC<ButtonProps & { innerRef?: React.Ref<any> }> = props => {
 
   const margin = size === 'large' ? '18px' : '8px';
 
-  const getTextStyle = (i: number | undefined): SerializedStyles => {
+  const getTextStyleWithMargin = (i: number | undefined): SerializedStyles => {
     if (i === 1) {
       return css(baseTextStyle, {
         marginLeft: margin,
@@ -141,7 +144,6 @@ const Button: React.FC<ButtonProps & { innerRef?: React.Ref<any> }> = props => {
 
   const commonProps = {
     'aria-label': ariaLabel,
-    children,
     className,
     css: buttonStyle,
     disabled: disabled || isLoading,
@@ -150,24 +152,26 @@ const Button: React.FC<ButtonProps & { innerRef?: React.Ref<any> }> = props => {
   };
 
   const iconOrText = (
-    child: string | ReactElement<{ color: string; size: number }>,
+    child: string | IconElement,
     i?: number
   ): ReactElement => {
-    if (React.isValidElement(child)) {
-      return React.cloneElement(child, {
-        color: isLoading ? 'transparent' : getColor,
-        size: size === 'large' ? 24 : 18,
-      });
+    if (typeof child === 'string') {
+      return (
+        <Text
+          css={
+            React.Children.count(children) > 1
+              ? getTextStyleWithMargin(i)
+              : baseTextStyle
+          }
+        >
+          {child}
+        </Text>
+      );
     }
-    return (
-      <Text
-        css={
-          React.Children.count(children) > 1 ? getTextStyle(i) : baseTextStyle
-        }
-      >
-        {child}
-      </Text>
-    );
+    return React.cloneElement(child, {
+      color: isLoading ? 'transparent' : getColor,
+      size: size === 'large' ? 24 : 18,
+    });
   };
 
   const buttonContent = (
@@ -178,9 +182,8 @@ const Button: React.FC<ButtonProps & { innerRef?: React.Ref<any> }> = props => {
           inverted={appearance === 'primary' && intent !== 'cta'}
         />
       )}
-      {React.Children.map<unknown, string | ReactElement>(
-        children,
-        (child, i) => iconOrText(child, i)
+      {React.Children.map<unknown, string | IconElement>(children, (child, i) =>
+        iconOrText(child, i)
       )}
     </>
   );
@@ -218,15 +221,17 @@ const Button: React.FC<ButtonProps & { innerRef?: React.Ref<any> }> = props => {
 };
 
 // additional prop-types validation that the child is either icon or string
+const iconValidator = childrenOfType(...Object.values(Icons));
+
 Button.propTypes = {
   children: PropTypes.oneOfType([
-    PropTypes.arrayOf(PropTypes.oneOfType([
-      PropTypes.string,
-      childrenOfType(...Object.values(Icons)),
-    ]) as PropTypes.Validator<ReactElement>),
+    nChildren(
+      2,
+      PropTypes.arrayOf(PropTypes.oneOfType([PropTypes.string, iconValidator]))
+    ),
     PropTypes.string,
-    childrenOfType(...Object.values(Icons)),
-  ]) as PropTypes.Validator<ReactElement>,
+    iconValidator,
+  ]) as PropTypes.Validator<IconElement>,
 };
 
 export default React.forwardRef<any, ButtonProps>((props, ref) => (
