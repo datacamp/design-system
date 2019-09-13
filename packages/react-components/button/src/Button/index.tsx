@@ -77,7 +77,7 @@ interface IconTextChildProps {
   children: [string, IconElement] | [IconElement, string];
 }
 
-type ButtonProps = BaseButtonProps &
+export type ButtonProps = BaseButtonProps &
   (ButtonButtonProps | LinkButtonProps | SubmitButtonProps) &
   (StringChildProps | IconChildProps | IconTextChildProps) &
   (DefaultProps | PrimaryProps);
