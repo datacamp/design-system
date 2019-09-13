@@ -117,7 +117,8 @@ const Button: React.FC<ButtonProps & { innerRef?: React.Ref<any> }> = props => {
     fontWeight: 'bold',
   });
 
-  const margin = size === 'large' ? '18px' : '8px';
+  const margin =
+    size === 'large' ? tokens.size.space[16].value : tokens.size.space[8].value;
 
   const getTextStyleWithMargin = (i: number | undefined): SerializedStyles => {
     if (i === 1) {
