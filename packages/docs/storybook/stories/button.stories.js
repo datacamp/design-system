@@ -1,6 +1,6 @@
 import './styles.css';
 
-import Button from '@datacamp/waffles-button';
+import Button, { ButtonGroup } from '@datacamp/waffles-button';
 import { AddCircleIcon } from '@datacamp/waffles-icons';
 import { storiesOf } from '@storybook/react';
 import React from 'react';
@@ -727,4 +727,11 @@ storiesOf('waffles-button', module)
         </tr>
       </table>
     </>
+  ))
+  .add('ButtonGroup', () => (
+    <ButtonGroup>
+      <Button>Button 1</Button>
+      <Button>Button 2</Button>
+      <Button>Button 3</Button>
+    </ButtonGroup>
   ));
