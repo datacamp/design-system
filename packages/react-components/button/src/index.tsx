@@ -71,7 +71,7 @@ type intents = 'neutral' | 'danger' | 'success' | 'warning';
 
 interface IconTextChildProps {
   ariaLabel?: string;
-  children: (string | ReactElement)[];
+  children: [string, ReactElement] | [ReactElement, string];
 }
 
 type ButtonProps = BaseButtonProps &
@@ -109,35 +109,34 @@ const Button: React.FC<ButtonProps & { innerRef?: React.Ref<any> }> = props => {
   const textColor = appearance === 'primary' ? ctaTextColor : outlineTextColor;
   const getColor = appearance === 'primary' ? ctaTextColor : outlineIconColor;
 
-  const getTextStyle = css(fontSizes[size], {
+  const baseTextStyle = css(fontSizes[size], {
     color: isLoading ? 'transparent' : textColor,
     fontWeight: 'bold',
   });
 
-  const setMargin = size === 'large' ? '18px' : '8px';
+  const margin = size === 'large' ? '18px' : '8px';
 
-  const getMargin = (i: number | undefined): SerializedStyles => {
+  const getTextStyle = (i: number | undefined): SerializedStyles => {
     if (i === 1) {
-      return css(getTextStyle, {
-        marginLeft: setMargin,
+      return css(baseTextStyle, {
+        marginLeft: margin,
       });
     }
-    return css(getTextStyle, {
-      marginRight: setMargin,
+    return css(baseTextStyle, {
+      marginRight: margin,
     });
   };
 
   // BUTTON STYLES
-
-  const checkSingleChild =
-    typeof children === 'string' ? getSize(size) : getIconSize(size);
 
   const buttonStyle = css(
     baseStyle,
     getAppearanceStyle(appearance, intent, !isLoading && !disabled),
     disabled && getDisabledStyle(appearance, intent),
     isLoading && baseLoadingStyle,
-    React.Children.count(children) === 1 ? checkSingleChild : getSize(size)
+    React.Children.count(children) > 1 || typeof children === 'string'
+      ? getSize(size)
+      : getIconSize(size)
   );
 
   const commonProps = {
@@ -162,7 +161,9 @@ const Button: React.FC<ButtonProps & { innerRef?: React.Ref<any> }> = props => {
     }
     return (
       <Text
-        css={React.Children.count(children) > 1 ? getMargin(i) : getTextStyle}
+        css={
+          React.Children.count(children) > 1 ? getTextStyle(i) : baseTextStyle
+        }
       >
         {child}
       </Text>
@@ -177,12 +178,10 @@ const Button: React.FC<ButtonProps & { innerRef?: React.Ref<any> }> = props => {
           inverted={appearance === 'primary' && intent !== 'cta'}
         />
       )}
-      {React.Children.count(children) > 1
-        ? React.Children.map<unknown, string | ReactElement>(
-            children,
-            (child, i) => iconOrText(child, i)
-          )
-        : iconOrText(children as string | ReactElement)}
+      {React.Children.map<unknown, string | ReactElement>(
+        children,
+        (child, i) => iconOrText(child, i)
+      )}
     </>
   );
 
