@@ -235,6 +235,10 @@ Button.propTypes = {
   ]) as PropTypes.Validator<IconElement>,
 };
 
-export default React.forwardRef<any, ButtonProps>((props, ref) => (
+const ButtonWithRef = React.forwardRef<any, ButtonProps>((props, ref) => (
   <Button innerRef={ref} {...props} />
 ));
+
+ButtonWithRef.displayName = 'Button';
+
+export default ButtonWithRef;
