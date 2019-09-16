@@ -118,17 +118,23 @@ describe('<Input />', () => {
     });
 
     it('disables the input if disabled is passed as a prop', () => {
-      const placeholder = 'placeholder text';
       const { container } = render(
-        <Input
-          name={testName}
-          onChange={() => {}}
-          placeholder={placeholder}
-          value={testValue}
-          disabled
-        />
+        <Input name={testName} onChange={() => {}} value={testValue} disabled />
       );
       expect(container.firstChild).toHaveAttribute('disabled');
+    });
+
+    it('sets the label', () => {
+      const testLabel = 'label text';
+      const { getByLabelText } = render(
+        <Input
+          label={testLabel}
+          name={testName}
+          onChange={() => {}}
+          value={testValue}
+        />
+      );
+      expect(getByLabelText(testLabel)).toBeInTheDocument();
     });
   });
 });
