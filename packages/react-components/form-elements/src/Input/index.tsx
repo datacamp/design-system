@@ -1,5 +1,9 @@
+import { Text } from '@datacamp/waffles-text';
 import tokens from '@datacamp/waffles-tokens/lib/future-tokens.json';
-import { computeDataAttributes } from '@datacamp/waffles-utils';
+import {
+  computeDataAttributes,
+  ssrSafeFirstChildSelector,
+} from '@datacamp/waffles-utils';
 import { css } from '@emotion/core';
 import React, { forwardRef } from 'react';
 
@@ -18,17 +22,18 @@ interface InputProps {
    * used as attributes on the rendered element.
    */
   dataAttributes?: { [key: string]: string };
-
   /**
    * It blocks user interaction.
    */
   disabled?: boolean;
-
+  /**
+   * It sets a label above the input
+   */
+  label?: string;
   /**
    * The maximum number of characters permitted in the input.
    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/text#maxlength
    */
-
   maxLength?: number;
   /**
    * Used to set the html name attribute. Uniquely indentifies the input within
@@ -74,6 +79,7 @@ const inputStyle = css({
   border: 0,
   borderRadius: tokens.radii.small.value,
   boxShadow: `inset 0 0 0 1px ${tokens.color.opaque.greyLight.value.rgb}`,
+  boxSizing: 'border-box',
   color: tokens.color.opaque.grey.value.rgb,
   display: 'inline-block',
   fontFamily: [
@@ -81,10 +87,26 @@ const inputStyle = css({
     tokens.asset.font.sansSerif.value,
   ],
   fontSize: tokens.size.space[16].value,
-  height: tokens.size.space[32].value,
+  height: tokens.size.space[48].value,
   margin: 0,
   padding: `${tokens.size.space[8].value}px ${tokens.size.space[16].value}px`,
   verticalAlign: 'middle',
+  width: '100%',
+});
+
+const labelStyle = css({
+  display: 'block',
+
+  marginTop: tokens.size.space[16].value,
+  [ssrSafeFirstChildSelector]: {
+    marginTop: 0,
+  },
+});
+
+const textStyle = css({
+  display: 'block',
+  fontWeight: 'bold',
+  marginBottom: tokens.size.space[12].value,
 });
 
 const Input = forwardRef<HTMLInputElement, InputProps>(
@@ -94,6 +116,7 @@ const Input = forwardRef<HTMLInputElement, InputProps>(
       className,
       dataAttributes,
       disabled = false,
+      label,
       maxLength,
       name,
       onBlur,
@@ -110,13 +133,14 @@ const Input = forwardRef<HTMLInputElement, InputProps>(
 
     const handleBlur = (): void => onBlur && onBlur();
 
-    return (
+    const inputElement = (
       <input
         ref={ref}
         autoComplete={autocomplete}
         className={className}
         css={inputStyle}
         disabled={disabled}
+        id={name}
         maxLength={maxLength}
         name={name}
         onBlur={handleBlur}
@@ -125,6 +149,20 @@ const Input = forwardRef<HTMLInputElement, InputProps>(
         value={value}
         {...parsedDataAttributes}
       />
+    );
+
+    return (
+      <>
+        {label ? (
+          // eslint-disable-next-line jsx-a11y/label-has-for
+          <label css={labelStyle} htmlFor={name}>
+            <Text css={textStyle}>{label}</Text>
+            {inputElement}
+          </label>
+        ) : (
+          <>{inputElement}</>
+        )}
+      </>
     );
   }
 );
