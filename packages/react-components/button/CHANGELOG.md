@@ -3,6 +3,25 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.2.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-button@2.1.0...@datacamp/waffles-button@2.2.0) (2019-09-16)
+
+
+### Bug Fixes
+
+* displayName for exported button ([7c0e1c6](https://github.com/datacamp/design-system/commit/7c0e1c6))
+* naming and other stuff ([3b36d79](https://github.com/datacamp/design-system/commit/3b36d79))
+* tokens and add cta to storybook ([33c78e1](https://github.com/datacamp/design-system/commit/33c78e1))
+
+
+### Features
+
+* add ButtonGroup component ([8353543](https://github.com/datacamp/design-system/commit/8353543))
+* icon-text ([cffbe9c](https://github.com/datacamp/design-system/commit/cffbe9c))
+
+
+
+
+
 # [2.1.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-button@2.0.0...@datacamp/waffles-button@2.1.0) (2019-09-12)
 
 

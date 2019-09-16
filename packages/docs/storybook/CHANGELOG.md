@@ -3,6 +3,25 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.20.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-storybook@1.19.0...@datacamp/waffles-storybook@1.20.0) (2019-09-16)
+
+
+### Bug Fixes
+
+* tokens and add cta to storybook ([33c78e1](https://github.com/datacamp/design-system/commit/33c78e1))
+
+
+### Features
+
+* add story for ButtonGroup ([489aa34](https://github.com/datacamp/design-system/commit/489aa34))
+* add Story for Dialog with Header ([232b41d](https://github.com/datacamp/design-system/commit/232b41d))
+* add story for input with label ([fd2d558](https://github.com/datacamp/design-system/commit/fd2d558))
+* icon-text ([cffbe9c](https://github.com/datacamp/design-system/commit/cffbe9c))
+
+
+
+
+
 # [1.19.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-storybook@1.18.0...@datacamp/waffles-storybook@1.19.0) (2019-09-12)
 
 

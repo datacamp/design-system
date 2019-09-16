@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.5.0](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/icons/compare/@datacamp/waffles-icons@1.4.1...@datacamp/waffles-icons@1.5.0) (2019-09-16)
+
+
+### Features
+
+* bookmark icon ([26b5274](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/icons/commit/26b5274))
+
+
+
+
+
 ## [1.4.1](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/icons/compare/@datacamp/waffles-icons@1.4.0...@datacamp/waffles-icons@1.4.1) (2019-09-12)
 
 **Note:** Version bump only for package @datacamp/waffles-icons

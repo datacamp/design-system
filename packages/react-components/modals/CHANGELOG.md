@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.3.0](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/modals/compare/@datacamp/waffles-modals@1.2.0...@datacamp/waffles-modals@1.3.0) (2019-09-16)
+
+
+### Features
+
+* add Dialog.Header component ([cc2e8a5](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/modals/commit/cc2e8a5))
+
+
+
+
+
 # [1.2.0](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/modals/compare/@datacamp/waffles-modals@1.1.1...@datacamp/waffles-modals@1.2.0) (2019-09-12)
 
 

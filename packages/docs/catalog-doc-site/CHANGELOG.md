@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.20.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-catalog-doc-site@1.19.0...@datacamp/waffles-catalog-doc-site@1.20.0) (2019-09-16)
+
+
+### Features
+
+* add Docs for ButtonGroup ([9a4235b](https://github.com/datacamp/design-system/commit/9a4235b))
+* add Documentation for Dialog with Header ([52b8697](https://github.com/datacamp/design-system/commit/52b8697))
+* add documentation for the input with label ([f0ecf20](https://github.com/datacamp/design-system/commit/f0ecf20))
+
+
+
+
+
 # [1.19.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-catalog-doc-site@1.18.0...@datacamp/waffles-catalog-doc-site@1.19.0) (2019-09-12)
 
 
