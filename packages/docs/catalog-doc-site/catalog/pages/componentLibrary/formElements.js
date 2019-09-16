@@ -134,6 +134,11 @@ export default () => {
                   <td>boolean - optional</td>
                   <td>It blocks user interaction.</td>
                 </tr>
+                <tr className="dc-table__tr">
+                  <th>label</th>
+                  <td>string - optional</td>
+                  <td>It sets a label above the input</td>
+                </tr>
               </tbody>
             </table>
           </div>
