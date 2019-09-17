@@ -1,6 +1,8 @@
 import React from 'react';
 
 import BaseDialog, { CloseOrigin } from '../BaseDialog';
+import Body from './Body';
+import Footer from './Footer';
 import Header from './Header';
 
 interface DialogProps {
@@ -59,5 +61,7 @@ const Dialog = ({
 );
 
 Dialog.Header = Header;
+Dialog.Body = Body;
+Dialog.Footer = Footer;
 
 export default Dialog;
