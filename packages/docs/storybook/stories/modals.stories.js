@@ -34,33 +34,32 @@ setAppElement('#root');
   });
 });
 
-storiesOf('waffles-modals', module).add(`loading AlertDialog`, () => {
-  return createElement(() => {
-    const [isOpen, setIsOpen] = useState(true);
-    return (
-      <>
-        <Paragraph>this is some content behind the modal</Paragraph>
-        <Paragraph>this is some content behind the modal</Paragraph>
-        <Button onClick={() => setIsOpen(true)}>Open Modal</Button>
-        <AlertDialog
-          description="Please wait."
-          isOpen={isOpen}
-          onClose={origin => {
-            console.log(origin); // eslint-disable-line no-console
-            setIsOpen(false);
-          }}
-          onConfirm={
-            () => alert('confirmed!!') // eslint-disable-line no-alert
-          }
-          title="Your content is loading"
-          isLoading
-        />
-      </>
-    );
-  });
-});
-
 storiesOf('waffles-modals', module)
+  .add(`loading AlertDialog`, () => {
+    return createElement(() => {
+      const [isOpen, setIsOpen] = useState(true);
+      return (
+        <>
+          <Paragraph>this is some content behind the modal</Paragraph>
+          <Paragraph>this is some content behind the modal</Paragraph>
+          <Button onClick={() => setIsOpen(true)}>Open Modal</Button>
+          <AlertDialog
+            description="Please wait."
+            isOpen={isOpen}
+            onClose={origin => {
+              console.log(origin); // eslint-disable-line no-console
+              setIsOpen(false);
+            }}
+            onConfirm={
+              () => alert('confirmed!!') // eslint-disable-line no-alert
+            }
+            title="Your content is loading"
+            isLoading
+          />
+        </>
+      );
+    });
+  })
   .add('free children Dialog', () => {
     return createElement(() => {
       const [isOpen, setIsOpen] = useState(true);
@@ -89,7 +88,7 @@ storiesOf('waffles-modals', module)
       );
     });
   })
-  .add('free children Dialog with Header', () => {
+  .add('Dialog with Header & Body', () => {
     return createElement(() => {
       const [isOpen, setIsOpen] = useState(true);
       return (
@@ -105,17 +104,56 @@ storiesOf('waffles-modals', module)
             }}
             width="600px"
           >
-            <Dialog.Header>
-              With a very long title that should truncate and be spaced
-              correctly
-            </Dialog.Header>
-            <div>
+            <Dialog.Header>Dialog with a Body</Dialog.Header>
+            <Dialog.Body>
               <Paragraph>
-                This is just some content, it will should wrap if it gets too
-                long, but also it will stretch. It is up to the consumer to
-                define their content appropriately.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Vestibulum eu sapien imperdiet, cursus ex at, hendrerit nisl.
+                Nulla non gravida libero. Duis quis lacus odio. Suspendisse
+                neque turpis, finibus id est non, vehicula vestibulum sapien.
+                Mauris pharetra mi eu est aliquet posuere. Aenean ullamcorper,
+                mauris euismod molestie suscipit, dolor nisl rutrum quam, eu
+                eleifend elit ipsum ac nisl.
               </Paragraph>
-            </div>
+            </Dialog.Body>
+          </Dialog>
+        </>
+      );
+    });
+  })
+  .add('Dialog with Header, Body & Footer', () => {
+    return createElement(() => {
+      const [isOpen, setIsOpen] = useState(true);
+      return (
+        <>
+          <Paragraph>this is some content behind the modal</Paragraph>
+          <Paragraph>this is some content behind the modal</Paragraph>
+          <Button onClick={() => setIsOpen(true)}>Open Modal</Button>
+          <Dialog
+            isOpen={isOpen}
+            onClose={origin => {
+              console.log(origin); // eslint-disable-line no-console
+              setIsOpen(false);
+            }}
+            width="600px"
+          >
+            <Dialog.Header>Dialog with a Body and Footer</Dialog.Header>
+            <Dialog.Body>
+              <Paragraph>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Vestibulum eu sapien imperdiet, cursus ex at, hendrerit nisl.
+                Nulla non gravida libero. Duis quis lacus odio. Suspendisse
+                neque turpis, finibus id est non, vehicula vestibulum sapien.
+                Mauris pharetra mi eu est aliquet posuere. Aenean ullamcorper,
+                mauris euismod molestie suscipit, dolor nisl rutrum quam, eu
+                eleifend elit ipsum ac nisl.
+              </Paragraph>
+            </Dialog.Body>
+            <Dialog.Footer>
+              <Button appearance="primary" type="submit">
+                Button
+              </Button>
+            </Dialog.Footer>
           </Dialog>
         </>
       );
