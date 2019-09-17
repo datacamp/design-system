@@ -195,18 +195,27 @@ export default () => {
   return (
     <>
       <Button onClick={() => setIsOpen(true)}>open dialog</Button>
-      <Dialog
-        isOpen={isOpen}
-        onClose={origin => setIsOpen(false)}
-      >
+      <Dialog isOpen={isOpen} onClose={origin => setIsOpen(false)}>
         <Dialog.Header>This is the Title</Dialog.Header>
-        <div style={{ padding: "32px" }}>content</div>
+        <Dialog.Body>
+          <Paragraph>
+            Some Content for the modal. Lorem ipsum dolor sit amet, consectetur
+            adipiscing elit.
+          </Paragraph>
+          <Paragraph>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          </Paragraph>
+        </Dialog.Body>
+        <Dialog.Footer>
+          <Button appearance="primary" onClick={() => {}}>
+            A single button can be placed in the footer
+          </Button>
+        </Dialog.Footer>
       </Dialog>
     </>
   );
-};
-`}
-                    scope={{ Button, Dialog }}
+};`}
+                    scope={{ Button, Dialog, Paragraph }}
                   />
                 </tr>
               </tbody>
@@ -225,8 +234,9 @@ export default () => {
                   <td>ReactNode</td>
                   <td>
                     The content to render in the modal. This can be any valid
-                    React. Use the Dialog.Header component to add a title to the
-                    dialog.
+                    React. Use the Dialog.Header, Dialog.Body, & Dialog.Footer
+                    components to add some formatting to your content. The
+                    Footer can take a single button as a child.
                   </td>
                 </tr>
                 <tr className="dc-table__tr">
@@ -286,6 +296,14 @@ export default () => {
                   <td>
                     By default the dialog will close when the user clicks on the
                     backdrop. When this is false, this behaviour is disabled.
+                  </td>
+                </tr>
+                <tr className="dc-table__tr">
+                  <th>width</th>
+                  <td>string - optional</td>
+                  <td>
+                    By default the dialog will size to the content provided,
+                    however it can be useful to provide a fixed width.
                   </td>
                 </tr>
               </tbody>
