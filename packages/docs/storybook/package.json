@@ -26,7 +26,7 @@
     "@datacamp/waffles-tokens": "^0.6.3",
     "@emotion/core": "10.0.17",
     "@emotion/styled": "10.0.17",
-    "@storybook/addon-knobs": "5.1.11",
+    "@storybook/addon-knobs": "5.2.0",
     "@storybook/react": "5.2.0",
     "react": "16.8.6",
     "react-dom": "16.8.6"
