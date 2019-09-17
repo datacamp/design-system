@@ -1,6 +1,7 @@
 import '@testing-library/jest-dom/extend-expect';
 
 import axeRender from '@datacamp/waffles-axe-render';
+import Button from '@datacamp/waffles-button';
 import { fireEvent, RenderOptions } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import * as React from 'react';
@@ -242,6 +243,27 @@ describe('<Dialog />', () => {
     );
 
     expect(getByText(testTitle)).toBeInTheDocument();
+
+    // expect(baseElement).toMatchSnapshot();
+  });
+
+  it('renders with a Header, Body & Footer', async () => {
+    const testTitle = 'test title';
+
+    const { getByText } = await axeRender(
+      <Dialog onClose={() => {}} isOpen>
+        <Dialog.Header>{testTitle}</Dialog.Header>
+        <Dialog.Body>children</Dialog.Body>
+        <Dialog.Footer>
+          <Button onClick={() => {}}>Button</Button>
+        </Dialog.Footer>
+      </Dialog>,
+      getRenderOptions()
+    );
+
+    expect(getByText(testTitle)).toBeInTheDocument();
+    expect(getByText('children')).toBeInTheDocument();
+    expect(getByText('Button')).toBeInTheDocument();
 
     // expect(baseElement).toMatchSnapshot();
   });
