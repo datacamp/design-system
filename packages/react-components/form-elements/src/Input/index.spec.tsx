@@ -1,5 +1,6 @@
 import '@testing-library/jest-dom/extend-expect';
 
+import tokens from '@datacamp/waffles-tokens/lib/future-tokens.json';
 import { fireEvent, render } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import React from 'react';
@@ -191,6 +192,26 @@ describe('<Input />', () => {
       );
       expect(container.firstChild).toHaveStyle(`height: 64`);
       expect(container.firstChild).toHaveStyle(`fontSize: 20`);
+    });
+
+    it('adds an error message under the input field if error is passed as a prop', () => {
+      const testLabel = 'label text';
+      const testError = 'Test error';
+
+      const { getByText } = render(
+        <Input
+          errorMessage={testError}
+          label={testLabel}
+          name={testName}
+          onChange={() => {}}
+          value={testValue}
+        />
+      );
+      expect(getByText(testError)).toBeInTheDocument();
+      expect(getByText(testError)).toHaveStyle(
+        `color: ${tokens.color.opaque.red.value.hex}`
+      );
+      expect(getByText(testError)).toHaveStyle(`font-size: '14px`);
     });
   });
 });

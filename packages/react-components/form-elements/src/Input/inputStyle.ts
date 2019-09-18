@@ -21,7 +21,6 @@ const inputStyle = css({
   borderRadius: tokens.radii.small.value,
   boxShadow: `inset 0 0 0 1px ${tokens.color.opaque.greyLight.value.rgb}`,
   boxSizing: 'border-box',
-
   color: tokens.color.opaque.grey.value.rgb,
   display: 'inline-block',
   fontFamily: [
