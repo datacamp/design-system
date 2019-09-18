@@ -1,4 +1,4 @@
-import Button from '@datacamp/waffles-button';
+import Button, { ButtonGroup } from '@datacamp/waffles-button';
 import { Heading, Paragraph } from '@datacamp/waffles-text';
 import { css } from '@emotion/core';
 import React, { createRef } from 'react';
@@ -65,10 +65,9 @@ const AlertDialog: React.FC<AlertModalProps> = ({
           {title}
         </Heading>
         <Paragraph>{description}</Paragraph>
-        <div css={{ marginTop: 24 }}>
+        <ButtonGroup css={{ marginTop: 24 }}>
           <Button
             ref={cancelButtonRef}
-            css={{ marginRight: 16 }}
             disabled={isLoading}
             onClick={onCancelButton}
           >
@@ -83,7 +82,7 @@ const AlertDialog: React.FC<AlertModalProps> = ({
           >
             {confirmButtonText}
           </Button>
-        </div>
+        </ButtonGroup>
       </div>
     </BaseDialog>
   );
