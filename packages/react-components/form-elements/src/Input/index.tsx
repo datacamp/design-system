@@ -7,6 +7,8 @@ import {
 import { css } from '@emotion/core';
 import React, { forwardRef } from 'react';
 
+import { inputSizes, inputStyle } from './inputStyle';
+
 interface InputProps {
   /**
    * Corresponds to the html autocomplete types.
@@ -55,44 +57,14 @@ interface InputProps {
    */
   placeholder?: string;
   /**
+   * Select the size for the input element.
+   */
+  size?: 'small' | 'medium' | 'large';
+  /**
    * The value of the input. This should be controlled by listening to onChange.
    */
   value: string;
 }
-
-const inputStyle = css({
-  '::placeholder': {
-    color: tokens.color.opaque.greyOslo.value.rgb,
-    fontFamily: 'inherit',
-  },
-
-  ':disabled, :active:disabled, :focus:disabled': {
-    cursor: 'not-allowed',
-  },
-  ':disabled::placeholder': { color: tokens.color.opaque.greyLight.value.rgb },
-
-  ':focus': {
-    boxShadow: `inset 0 0 0 1px ${tokens.color.opaque.primary.value.rgb}`,
-    outline: 'none',
-  },
-  background: 'white',
-  border: 0,
-  borderRadius: tokens.radii.small.value,
-  boxShadow: `inset 0 0 0 1px ${tokens.color.opaque.greyLight.value.rgb}`,
-  boxSizing: 'border-box',
-  color: tokens.color.opaque.grey.value.rgb,
-  display: 'inline-block',
-  fontFamily: [
-    tokens.asset.font.sansSerif.attributes.fallback,
-    tokens.asset.font.sansSerif.value,
-  ],
-  fontSize: tokens.size.space[16].value,
-  height: tokens.size.space[48].value,
-  margin: 0,
-  padding: `${tokens.size.space[8].value}px ${tokens.size.space[16].value}px`,
-  verticalAlign: 'middle',
-  width: '100%',
-});
 
 const labelStyle = css({
   display: 'block',
@@ -122,6 +94,7 @@ const Input = forwardRef<HTMLInputElement, InputProps>(
       onBlur,
       onChange,
       placeholder,
+      size = 'medium',
       value,
     },
     ref
@@ -133,12 +106,18 @@ const Input = forwardRef<HTMLInputElement, InputProps>(
 
     const handleBlur = (): void => onBlur && onBlur();
 
+    const getInputStyle = css(
+      inputSizes[size],
+      inputStyle,
+      label && css({ width: '100%' })
+    );
+
     const inputElement = (
       <input
         ref={ref}
         autoComplete={autocomplete}
         className={className}
-        css={inputStyle}
+        css={getInputStyle}
         disabled={disabled}
         id={name}
         maxLength={maxLength}
