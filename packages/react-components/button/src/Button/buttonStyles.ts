@@ -55,6 +55,7 @@ const baseStyle = css({
   textDecoration: 'none',
   textTransform: 'capitalize',
   transition: '0.15s',
+  verticalAlign: 'baseline',
   whiteSpace: 'nowrap',
 });
 
