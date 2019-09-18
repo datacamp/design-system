@@ -139,6 +139,11 @@ export default () => {
                   <td>string - optional</td>
                   <td>It sets a label above the input</td>
                 </tr>
+                <tr className="dc-table__tr">
+                  <th>size </th>
+                  <td>small, medium, large - optional</td>
+                  <td>It defines the size of the input</td>
+                </tr>
               </tbody>
             </table>
           </div>
