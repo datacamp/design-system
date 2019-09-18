@@ -11,7 +11,7 @@ describe('<Input />', () => {
   describe('without label', () => {
     // cannot use axeRender here as no label will fail
 
-    const testName = 'test name';
+    const testName = 'test-name';
     const testValue = 'test value';
 
     it('sets the correct name and value on the input', () => {
@@ -126,7 +126,7 @@ describe('<Input />', () => {
     });
 
     it('sets the label', () => {
-      const testLabel = 'label text';
+      const testLabel = 'labelText';
       const { getByLabelText } = render(
         <Input
           label={testLabel}
@@ -136,6 +136,19 @@ describe('<Input />', () => {
         />
       );
       expect(getByLabelText(testLabel)).toBeInTheDocument();
+    });
+
+    it('sets the id', () => {
+      const testId = 'name input';
+      const { container } = render(
+        <Input
+          id={testId}
+          name={testName}
+          onChange={() => {}}
+          value={testValue}
+        />
+      );
+      expect(container.firstChild).toHaveAttribute('id', testId);
     });
 
     it('disables the input if "disabled" is passed as a prop', () => {

@@ -68,7 +68,6 @@ exports[`snapshots renders an input with size large and disabled false 1`] = `
 
 <input
   class="emotion-0"
-  id="input text"
   name="input text"
   placeholder="input text"
   value=""
@@ -144,7 +143,6 @@ exports[`snapshots renders an input with size large and disabled true 1`] = `
 <input
   class="emotion-0"
   disabled=""
-  id="input text"
   name="input text"
   placeholder="input text"
   value=""
@@ -219,7 +217,6 @@ exports[`snapshots renders an input with size medium and disabled false 1`] = `
 
 <input
   class="emotion-0"
-  id="input text"
   name="input text"
   placeholder="input text"
   value=""
@@ -295,7 +292,6 @@ exports[`snapshots renders an input with size medium and disabled true 1`] = `
 <input
   class="emotion-0"
   disabled=""
-  id="input text"
   name="input text"
   placeholder="input text"
   value=""
@@ -370,7 +366,6 @@ exports[`snapshots renders an input with size small and disabled false 1`] = `
 
 <input
   class="emotion-0"
-  id="input text"
   name="input text"
   placeholder="input text"
   value=""
@@ -446,7 +441,6 @@ exports[`snapshots renders an input with size small and disabled true 1`] = `
 <input
   class="emotion-0"
   disabled=""
-  id="input text"
   name="input text"
   placeholder="input text"
   value=""

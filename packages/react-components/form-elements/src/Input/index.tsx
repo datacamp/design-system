@@ -32,6 +32,10 @@ interface InputProps {
    * It shows an error message under the input field.
    */
   errorMessage?: string;
+  /*
+   * Sets an unique input id
+   */
+  id?: string;
   /**
    * It sets a label above the input
    */
@@ -99,6 +103,7 @@ const Input = forwardRef<HTMLInputElement, InputProps>(
       dataAttributes,
       disabled = false,
       errorMessage,
+      id,
       label,
       maxLength,
       name,
@@ -130,7 +135,7 @@ const Input = forwardRef<HTMLInputElement, InputProps>(
         className={className}
         css={getInputStyle}
         disabled={disabled}
-        id={name}
+        id={id}
         maxLength={maxLength}
         name={name}
         onBlur={handleBlur}
@@ -145,7 +150,7 @@ const Input = forwardRef<HTMLInputElement, InputProps>(
       <>
         {label ? (
           // eslint-disable-next-line jsx-a11y/label-has-for
-          <label css={labelStyle} htmlFor={name}>
+          <label css={labelStyle} htmlFor={id}>
             <Text css={textStyle}>{label}</Text>
             {inputElement}
             {errorMessage && (
