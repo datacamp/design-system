@@ -134,6 +134,14 @@ storiesOf('waffles-form-elements', module)
             placeholder="with label"
             value=""
           />
+          <Input
+            errorMessage="This is not right"
+            label="Another test label"
+            name="story5"
+            onChange={() => {}}
+            placeholder="with label"
+            value=""
+          />
         </div>
       );
     });
