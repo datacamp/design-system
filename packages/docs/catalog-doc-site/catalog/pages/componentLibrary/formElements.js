@@ -149,6 +149,11 @@ export default () => {
                   <td>string - optional</td>
                   <td>It renders an error message under the input field</td>
                 </tr>
+                <tr className="dc-table__tr">
+                  <th>id</th>
+                  <td>string - optional</td>
+                  <td>It sets an unique input id </td>
+                </tr>
               </tbody>
             </table>
           </div>
