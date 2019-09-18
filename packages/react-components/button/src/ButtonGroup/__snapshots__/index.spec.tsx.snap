@@ -27,6 +27,7 @@ exports[`ButtonGroup renders the buttons with spaces 1`] = `
   text-transform: capitalize;
   -webkit-transition: 0.15s;
   transition: 0.15s;
+  vertical-align: baseline;
   white-space: nowrap;
   background-color: white;
   box-shadow: inset 0 0 0 1px #33aacc;
@@ -107,6 +108,7 @@ exports[`ButtonGroup renders the buttons with spaces 1`] = `
   text-transform: capitalize;
   -webkit-transition: 0.15s;
   transition: 0.15s;
+  vertical-align: baseline;
   white-space: nowrap;
   background-color: white;
   box-shadow: inset 0 0 0 1px #33aacc;

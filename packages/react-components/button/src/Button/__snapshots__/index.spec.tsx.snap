@@ -36,6 +36,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent d
   text-transform: capitalize;
   -webkit-transition: 0.15s;
   transition: 0.15s;
+  vertical-align: baseline;
   white-space: nowrap;
   background-color: white;
   box-shadow: inset 0 0 0 1px #fe5c5c;
@@ -207,6 +208,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent d
   text-transform: capitalize;
   -webkit-transition: 0.15s;
   transition: 0.15s;
+  vertical-align: baseline;
   white-space: nowrap;
   background-color: white;
   box-shadow: inset 0 0 0 1px #fe5c5c;
@@ -430,6 +432,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent d
   text-transform: capitalize;
   -webkit-transition: 0.15s;
   transition: 0.15s;
+  vertical-align: baseline;
   white-space: nowrap;
   background-color: white;
   box-shadow: inset 0 0 0 1px #fe5c5c;
@@ -601,6 +604,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent d
   text-transform: capitalize;
   -webkit-transition: 0.15s;
   transition: 0.15s;
+  vertical-align: baseline;
   white-space: nowrap;
   background-color: white;
   box-shadow: inset 0 0 0 1px #fe5c5c;
@@ -824,6 +828,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent d
   text-transform: capitalize;
   -webkit-transition: 0.15s;
   transition: 0.15s;
+  vertical-align: baseline;
   white-space: nowrap;
   background-color: white;
   box-shadow: inset 0 0 0 1px #fe5c5c;
@@ -995,6 +1000,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent d
   text-transform: capitalize;
   -webkit-transition: 0.15s;
   transition: 0.15s;
+  vertical-align: baseline;
   white-space: nowrap;
   background-color: white;
   box-shadow: inset 0 0 0 1px #fe5c5c;
@@ -1204,6 +1210,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent n
   text-transform: capitalize;
   -webkit-transition: 0.15s;
   transition: 0.15s;
+  vertical-align: baseline;
   white-space: nowrap;
   background-color: white;
   box-shadow: inset 0 0 0 1px #33aacc;
@@ -1375,6 +1382,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent n
   text-transform: capitalize;
   -webkit-transition: 0.15s;
   transition: 0.15s;
+  vertical-align: baseline;
   white-space: nowrap;
   background-color: white;
   box-shadow: inset 0 0 0 1px #33aacc;
@@ -1598,6 +1606,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent n
   text-transform: capitalize;
   -webkit-transition: 0.15s;
   transition: 0.15s;
+  vertical-align: baseline;
   white-space: nowrap;
   background-color: white;
   box-shadow: inset 0 0 0 1px #33aacc;
@@ -1700,6 +1709,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent n
   text-transform: capitalize;
   -webkit-transition: 0.15s;
   transition: 0.15s;
+  vertical-align: baseline;
   white-space: nowrap;
   background-color: white;
   box-shadow: inset 0 0 0 1px #33aacc;
@@ -1992,6 +2002,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent n
   text-transform: capitalize;
   -webkit-transition: 0.15s;
   transition: 0.15s;
+  vertical-align: baseline;
   white-space: nowrap;
   background-color: white;
   box-shadow: inset 0 0 0 1px #33aacc;
@@ -2094,6 +2105,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent n
   text-transform: capitalize;
   -webkit-transition: 0.15s;
   transition: 0.15s;
+  vertical-align: baseline;
   white-space: nowrap;
   background-color: white;
   box-shadow: inset 0 0 0 1px #33aacc;
@@ -2400,6 +2412,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent s
   text-transform: capitalize;
   -webkit-transition: 0.15s;
   transition: 0.15s;
+  vertical-align: baseline;
   white-space: nowrap;
   background-color: white;
   box-shadow: inset 0 0 0 1px #36d57d;
@@ -2571,6 +2584,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent s
   text-transform: capitalize;
   -webkit-transition: 0.15s;
   transition: 0.15s;
+  vertical-align: baseline;
   white-space: nowrap;
   background-color: white;
   box-shadow: inset 0 0 0 1px #36d57d;
@@ -2794,6 +2808,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent s
   text-transform: capitalize;
   -webkit-transition: 0.15s;
   transition: 0.15s;
+  vertical-align: baseline;
   white-space: nowrap;
   background-color: white;
   box-shadow: inset 0 0 0 1px #36d57d;
@@ -2965,6 +2980,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent s
   text-transform: capitalize;
   -webkit-transition: 0.15s;
   transition: 0.15s;
+  vertical-align: baseline;
   white-space: nowrap;
   background-color: white;
   box-shadow: inset 0 0 0 1px #36d57d;
@@ -3188,6 +3204,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent s
   text-transform: capitalize;
   -webkit-transition: 0.15s;
   transition: 0.15s;
+  vertical-align: baseline;
   white-space: nowrap;
   background-color: white;
   box-shadow: inset 0 0 0 1px #36d57d;
@@ -3359,6 +3376,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent s
   text-transform: capitalize;
   -webkit-transition: 0.15s;
   transition: 0.15s;
+  vertical-align: baseline;
   white-space: nowrap;
   background-color: white;
   box-shadow: inset 0 0 0 1px #36d57d;
@@ -3582,6 +3600,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent w
   text-transform: capitalize;
   -webkit-transition: 0.15s;
   transition: 0.15s;
+  vertical-align: baseline;
   white-space: nowrap;
   background-color: white;
   box-shadow: inset 0 0 0 1px #ff9400;
@@ -3753,6 +3772,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent w
   text-transform: capitalize;
   -webkit-transition: 0.15s;
   transition: 0.15s;
+  vertical-align: baseline;
   white-space: nowrap;
   background-color: white;
   box-shadow: inset 0 0 0 1px #ff9400;
@@ -3976,6 +3996,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent w
   text-transform: capitalize;
   -webkit-transition: 0.15s;
   transition: 0.15s;
+  vertical-align: baseline;
   white-space: nowrap;
   background-color: white;
   box-shadow: inset 0 0 0 1px #ff9400;
@@ -4147,6 +4168,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent w
   text-transform: capitalize;
   -webkit-transition: 0.15s;
   transition: 0.15s;
+  vertical-align: baseline;
   white-space: nowrap;
   background-color: white;
   box-shadow: inset 0 0 0 1px #ff9400;
@@ -4370,6 +4392,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent w
   text-transform: capitalize;
   -webkit-transition: 0.15s;
   transition: 0.15s;
+  vertical-align: baseline;
   white-space: nowrap;
   background-color: white;
   box-shadow: inset 0 0 0 1px #ff9400;
@@ -4541,6 +4564,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent w
   text-transform: capitalize;
   -webkit-transition: 0.15s;
   transition: 0.15s;
+  vertical-align: baseline;
   white-space: nowrap;
   background-color: white;
   box-shadow: inset 0 0 0 1px #ff9400;
@@ -4764,6 +4788,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent c
   text-transform: capitalize;
   -webkit-transition: 0.15s;
   transition: 0.15s;
+  vertical-align: baseline;
   white-space: nowrap;
   background-color: #ffc844;
   padding: 0 32px;
@@ -4922,6 +4947,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent c
   text-transform: capitalize;
   -webkit-transition: 0.15s;
   transition: 0.15s;
+  vertical-align: baseline;
   white-space: nowrap;
   background-color: #ffc844;
   position: relative;
@@ -5136,6 +5162,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent c
   text-transform: capitalize;
   -webkit-transition: 0.15s;
   transition: 0.15s;
+  vertical-align: baseline;
   white-space: nowrap;
   background-color: #ffc844;
   padding: 0 16px;
@@ -5294,6 +5321,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent c
   text-transform: capitalize;
   -webkit-transition: 0.15s;
   transition: 0.15s;
+  vertical-align: baseline;
   white-space: nowrap;
   background-color: #ffc844;
   position: relative;
@@ -5508,6 +5536,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent c
   text-transform: capitalize;
   -webkit-transition: 0.15s;
   transition: 0.15s;
+  vertical-align: baseline;
   white-space: nowrap;
   background-color: #ffc844;
   padding: 0 16px;
@@ -5666,6 +5695,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent c
   text-transform: capitalize;
   -webkit-transition: 0.15s;
   transition: 0.15s;
+  vertical-align: baseline;
   white-space: nowrap;
   background-color: #ffc844;
   position: relative;
@@ -5880,6 +5910,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent d
   text-transform: capitalize;
   -webkit-transition: 0.15s;
   transition: 0.15s;
+  vertical-align: baseline;
   white-space: nowrap;
   background-color: #fe5c5c;
   padding: 0 32px;
@@ -6038,6 +6069,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent d
   text-transform: capitalize;
   -webkit-transition: 0.15s;
   transition: 0.15s;
+  vertical-align: baseline;
   white-space: nowrap;
   background-color: #fe5c5c;
   position: relative;
@@ -6252,6 +6284,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent d
   text-transform: capitalize;
   -webkit-transition: 0.15s;
   transition: 0.15s;
+  vertical-align: baseline;
   white-space: nowrap;
   background-color: #fe5c5c;
   padding: 0 16px;
@@ -6410,6 +6443,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent d
   text-transform: capitalize;
   -webkit-transition: 0.15s;
   transition: 0.15s;
+  vertical-align: baseline;
   white-space: nowrap;
   background-color: #fe5c5c;
   position: relative;
@@ -6610,6 +6644,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent d
   text-transform: capitalize;
   -webkit-transition: 0.15s;
   transition: 0.15s;
+  vertical-align: baseline;
   white-space: nowrap;
   background-color: #fe5c5c;
   padding: 0 16px;
@@ -6782,6 +6817,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent d
   text-transform: capitalize;
   -webkit-transition: 0.15s;
   transition: 0.15s;
+  vertical-align: baseline;
   white-space: nowrap;
   background-color: #fe5c5c;
   position: relative;
@@ -6982,6 +7018,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent n
   text-transform: capitalize;
   -webkit-transition: 0.15s;
   transition: 0.15s;
+  vertical-align: baseline;
   white-space: nowrap;
   background-color: #33aacc;
   padding: 0 32px;
@@ -7154,6 +7191,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent n
   text-transform: capitalize;
   -webkit-transition: 0.15s;
   transition: 0.15s;
+  vertical-align: baseline;
   white-space: nowrap;
   background-color: #33aacc;
   position: relative;
@@ -7354,6 +7392,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent n
   text-transform: capitalize;
   -webkit-transition: 0.15s;
   transition: 0.15s;
+  vertical-align: baseline;
   white-space: nowrap;
   background-color: #33aacc;
   padding: 0 16px;
@@ -7526,6 +7565,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent n
   text-transform: capitalize;
   -webkit-transition: 0.15s;
   transition: 0.15s;
+  vertical-align: baseline;
   white-space: nowrap;
   background-color: #33aacc;
   position: relative;
@@ -7726,6 +7766,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent n
   text-transform: capitalize;
   -webkit-transition: 0.15s;
   transition: 0.15s;
+  vertical-align: baseline;
   white-space: nowrap;
   background-color: #33aacc;
   padding: 0 16px;
@@ -7884,6 +7925,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent n
   text-transform: capitalize;
   -webkit-transition: 0.15s;
   transition: 0.15s;
+  vertical-align: baseline;
   white-space: nowrap;
   background-color: #33aacc;
   position: relative;
@@ -8112,6 +8154,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent s
   text-transform: capitalize;
   -webkit-transition: 0.15s;
   transition: 0.15s;
+  vertical-align: baseline;
   white-space: nowrap;
   background-color: #36d57d;
   padding: 0 32px;
@@ -8270,6 +8313,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent s
   text-transform: capitalize;
   -webkit-transition: 0.15s;
   transition: 0.15s;
+  vertical-align: baseline;
   white-space: nowrap;
   background-color: #36d57d;
   position: relative;
@@ -8484,6 +8528,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent s
   text-transform: capitalize;
   -webkit-transition: 0.15s;
   transition: 0.15s;
+  vertical-align: baseline;
   white-space: nowrap;
   background-color: #36d57d;
   padding: 0 16px;
@@ -8642,6 +8687,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent s
   text-transform: capitalize;
   -webkit-transition: 0.15s;
   transition: 0.15s;
+  vertical-align: baseline;
   white-space: nowrap;
   background-color: #36d57d;
   position: relative;
@@ -8842,6 +8888,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent s
   text-transform: capitalize;
   -webkit-transition: 0.15s;
   transition: 0.15s;
+  vertical-align: baseline;
   white-space: nowrap;
   background-color: #36d57d;
   padding: 0 16px;
@@ -9014,6 +9061,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent s
   text-transform: capitalize;
   -webkit-transition: 0.15s;
   transition: 0.15s;
+  vertical-align: baseline;
   white-space: nowrap;
   background-color: #36d57d;
   position: relative;
@@ -9228,6 +9276,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent w
   text-transform: capitalize;
   -webkit-transition: 0.15s;
   transition: 0.15s;
+  vertical-align: baseline;
   white-space: nowrap;
   background-color: #ff9400;
   padding: 0 32px;
@@ -9386,6 +9435,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent w
   text-transform: capitalize;
   -webkit-transition: 0.15s;
   transition: 0.15s;
+  vertical-align: baseline;
   white-space: nowrap;
   background-color: #ff9400;
   position: relative;
@@ -9600,6 +9650,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent w
   text-transform: capitalize;
   -webkit-transition: 0.15s;
   transition: 0.15s;
+  vertical-align: baseline;
   white-space: nowrap;
   background-color: #ff9400;
   padding: 0 16px;
@@ -9758,6 +9809,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent w
   text-transform: capitalize;
   -webkit-transition: 0.15s;
   transition: 0.15s;
+  vertical-align: baseline;
   white-space: nowrap;
   background-color: #ff9400;
   position: relative;
@@ -9958,6 +10010,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent w
   text-transform: capitalize;
   -webkit-transition: 0.15s;
   transition: 0.15s;
+  vertical-align: baseline;
   white-space: nowrap;
   background-color: #ff9400;
   padding: 0 16px;
@@ -10130,6 +10183,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent w
   text-transform: capitalize;
   -webkit-transition: 0.15s;
   transition: 0.15s;
+  vertical-align: baseline;
   white-space: nowrap;
   background-color: #ff9400;
   position: relative;
@@ -10330,6 +10384,7 @@ exports[`<Button /> snapshots renders a squared button with a single icon 1`] = 
   text-transform: capitalize;
   -webkit-transition: 0.15s;
   transition: 0.15s;
+  vertical-align: baseline;
   white-space: nowrap;
   background-color: white;
   box-shadow: inset 0 0 0 1px #33aacc;
