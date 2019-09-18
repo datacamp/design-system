@@ -288,4 +288,22 @@ describe('<Dialog />', () => {
 
     // expect(baseElement).toMatchSnapshot();
   });
+
+  it('renders a ButtonGroup in the Footer', async () => {
+    const { getByText } = await axeRender(
+      <Dialog.Footer>
+        <Button onClick={() => {}}>Button1</Button>
+        <Button onClick={() => {}}>Button2</Button>
+      </Dialog.Footer>,
+      getRenderOptions()
+    );
+
+    expect(getByText('Button1')).toBeInTheDocument();
+    expect(getByText('Button2')).toBeInTheDocument();
+    expect(getByText('Button2')).toHaveStyle(
+      `marginLeft: tokens.size.space[16].value`
+    );
+
+    // expect(baseElement).toMatchSnapshot();
+  });
 });

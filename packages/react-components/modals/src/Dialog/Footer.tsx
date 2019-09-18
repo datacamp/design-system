@@ -1,4 +1,4 @@
-import Button from '@datacamp/waffles-button';
+import Button, { ButtonGroup } from '@datacamp/waffles-button';
 import tokens from '@datacamp/waffles-tokens/lib/future-tokens.json';
 import { css } from '@emotion/core';
 import { childrenOfType, nChildren } from 'airbnb-prop-types';
@@ -34,7 +34,15 @@ const Footer = ({ children }: FooterProps): React.ReactElement => (
 
 Footer.propTypes = {
   children: PropTypes.oneOfType([
-    nChildren(2, PropTypes.arrayOf(childrenOfType(Button))),
+    nChildren(
+      2,
+      PropTypes.arrayOf(
+        PropTypes.oneOfType([
+          childrenOfType(Button),
+          childrenOfType(ButtonGroup),
+        ])
+      )
+    ),
     childrenOfType(Button).isRequired,
   ]),
 };

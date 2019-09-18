@@ -236,7 +236,8 @@ export default () => {
                     The content to render in the modal. This can be any valid
                     React. Use the Dialog.Header, Dialog.Body, & Dialog.Footer
                     components to add some formatting to your content. The
-                    Footer can take a single button as a child.
+                    Footer can take one or two buttons or ButtonGroup as
+                    children.
                   </td>
                 </tr>
                 <tr className="dc-table__tr">
