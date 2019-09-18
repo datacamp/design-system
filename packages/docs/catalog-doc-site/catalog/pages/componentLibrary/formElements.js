@@ -144,6 +144,11 @@ export default () => {
                   <td>small, medium, large - optional</td>
                   <td>It defines the size of the input</td>
                 </tr>
+                <tr className="dc-table__tr">
+                  <th>errorMessage </th>
+                  <td>string - optional</td>
+                  <td>It renders an error message under the input field</td>
+                </tr>
               </tbody>
             </table>
           </div>
