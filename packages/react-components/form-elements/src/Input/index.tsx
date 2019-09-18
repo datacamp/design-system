@@ -29,6 +29,10 @@ interface InputProps {
    */
   disabled?: boolean;
   /**
+   * It shows an error message under the input field.
+   */
+  errorMessage?: string;
+  /**
    * It sets a label above the input
    */
   label?: string;
@@ -68,7 +72,6 @@ interface InputProps {
 
 const labelStyle = css({
   display: 'block',
-
   marginTop: tokens.size.space[16].value,
   [ssrSafeFirstChildSelector]: {
     marginTop: 0,
@@ -76,9 +79,16 @@ const labelStyle = css({
 });
 
 const textStyle = css({
-  display: 'block',
-  fontWeight: 'bold',
+  display: 'inline-block',
+  fontWeight: tokens.fontWeight.bold.value,
   marginBottom: tokens.size.space[12].value,
+});
+
+const errorMessageStyle = css({
+  color: tokens.color.opaque.red.value.hex,
+  display: 'block',
+  fontSize: '14px',
+  marginTop: tokens.size.space[8].value,
 });
 
 const Input = forwardRef<HTMLInputElement, InputProps>(
@@ -88,6 +98,7 @@ const Input = forwardRef<HTMLInputElement, InputProps>(
       className,
       dataAttributes,
       disabled = false,
+      errorMessage,
       label,
       maxLength,
       name,
@@ -137,6 +148,9 @@ const Input = forwardRef<HTMLInputElement, InputProps>(
           <label css={labelStyle} htmlFor={name}>
             <Text css={textStyle}>{label}</Text>
             {inputElement}
+            {errorMessage && (
+              <Text css={errorMessageStyle}>{errorMessage}</Text>
+            )}
           </label>
         ) : (
           <>{inputElement}</>
