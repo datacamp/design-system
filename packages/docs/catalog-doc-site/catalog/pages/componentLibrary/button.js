@@ -109,14 +109,14 @@ export default () => {
                   />
                 </tr>
                 <tr className="dc-table__tr">
-                  <th>isLoading</th>
-                  <td>isLoading (optional)</td>
+                  <th>loading</th>
+                  <td>loading (optional)</td>
                   <td>
-                    By passing &quot;isLoading&quot; as a prop, the button will
-                    be disabled and it will render a spinner
+                    By passing &quot;loading&quot; as a prop, the button will be
+                    disabled and it will render a spinner
                   </td>
                   <LazyLiveEditCells
-                    code={'<Button isLoading>Loading</Button>'}
+                    code={'<Button loading>Loading</Button>'}
                     scope={{ Button }}
                   />
                 </tr>
