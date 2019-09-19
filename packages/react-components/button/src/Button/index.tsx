@@ -27,7 +27,7 @@ interface BaseButtonProps {
   className?: string;
   dataAttributes?: { [key: string]: string };
   disabled?: boolean;
-  isLoading?: boolean;
+  loading?: boolean;
   size?: 'small' | 'medium' | 'large';
 }
 
@@ -92,7 +92,7 @@ const Button: React.FC<ButtonProps & { innerRef?: React.Ref<any> }> = props => {
     disabled = false,
     innerRef,
     intent = 'neutral',
-    isLoading = false,
+    loading = false,
     size = 'medium',
   } = props;
 
@@ -113,7 +113,7 @@ const Button: React.FC<ButtonProps & { innerRef?: React.Ref<any> }> = props => {
   const getColor = appearance === 'primary' ? ctaTextColor : outlineIconColor;
 
   const baseTextStyle = css(fontSizes[size], {
-    color: isLoading ? 'transparent' : textColor,
+    color: loading ? 'transparent' : textColor,
     fontWeight: 'bold',
   });
 
@@ -135,9 +135,9 @@ const Button: React.FC<ButtonProps & { innerRef?: React.Ref<any> }> = props => {
 
   const buttonStyle = css(
     baseStyle,
-    getAppearanceStyle(appearance, intent, !isLoading && !disabled),
+    getAppearanceStyle(appearance, intent, !loading && !disabled),
     disabled && getDisabledStyle(appearance, intent),
-    isLoading && baseLoadingStyle,
+    loading && baseLoadingStyle,
     React.Children.count(children) > 1 || typeof children === 'string'
       ? getSize(size)
       : getIconSize(size)
@@ -147,7 +147,7 @@ const Button: React.FC<ButtonProps & { innerRef?: React.Ref<any> }> = props => {
     'aria-label': ariaLabel,
     className,
     css: buttonStyle,
-    disabled: disabled || isLoading,
+    disabled: disabled || loading,
     ...parsedDataAttributes,
     ref: innerRef,
   };
@@ -170,14 +170,14 @@ const Button: React.FC<ButtonProps & { innerRef?: React.Ref<any> }> = props => {
       );
     }
     return React.cloneElement(child, {
-      color: isLoading ? 'transparent' : getColor,
+      color: loading ? 'transparent' : getColor,
       size: size === 'large' ? 24 : 18,
     });
   };
 
   const buttonContent = (
     <>
-      {isLoading && (
+      {loading && (
         <Spinner
           css={{ position: 'absolute' }}
           inverted={appearance === 'primary' && intent !== 'cta'}
@@ -213,7 +213,7 @@ const Button: React.FC<ButtonProps & { innerRef?: React.Ref<any> }> = props => {
   return (
     <button
       {...commonProps}
-      onClick={!isLoading ? onClick : undefined}
+      onClick={!loading ? onClick : undefined}
       type="button"
     >
       {buttonContent}
