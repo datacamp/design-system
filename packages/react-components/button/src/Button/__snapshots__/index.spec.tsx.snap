@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<Button /> snapshots renders a button with appearance default, intent danger, size large and isLoading false 1`] = `
+exports[`<Button /> snapshots renders a button with appearance default, intent danger, size large and loading false 1`] = `
 .emotion-0 {
   color: rgb(77,83,86);
   font-family: sans-serif;
@@ -93,7 +93,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent d
 </button>
 `;
 
-exports[`<Button /> snapshots renders a button with appearance default, intent danger, size large and isLoading true 1`] = `
+exports[`<Button /> snapshots renders a button with appearance default, intent danger, size large and loading true 1`] = `
 @keyframes animation-0 {
   0% {
     opacity: 0;
@@ -396,7 +396,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent d
 </button>
 `;
 
-exports[`<Button /> snapshots renders a button with appearance default, intent danger, size medium and isLoading false 1`] = `
+exports[`<Button /> snapshots renders a button with appearance default, intent danger, size medium and loading false 1`] = `
 .emotion-0 {
   color: rgb(77,83,86);
   font-family: sans-serif;
@@ -407,402 +407,6 @@ exports[`<Button /> snapshots renders a button with appearance default, intent d
   line-height: 16px;
   font-size: 16px;
   line-height: 48px;
-  color: #3d4251;
-  font-weight: bold;
-}
-
-.emotion-1 {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  text-transform: capitalize;
-  -webkit-transition: 0.15s;
-  transition: 0.15s;
-  vertical-align: baseline;
-  white-space: nowrap;
-  background-color: white;
-  box-shadow: inset 0 0 0 1px #fe5c5c;
-  padding: 0 16px;
-}
-
-.emotion-1:active {
-  -webkit-transform: perspective(1px) scale(0.975);
-  -ms-transform: perspective(1px) scale(0.975);
-  transform: perspective(1px) scale(0.975);
-}
-
-.emotion-1:disabled,
-.emotion-1:hover:disabled,
-.emotion-1:active:disabled {
-  -webkit-transform: none;
-  -ms-transform: none;
-  transform: none;
-}
-
-.emotion-1:focus {
-  outline: 0;
-}
-
-.emotion-1:disabled,
-.emotion-1:hover:disabled,
-.emotion-1:active:disabled {
-  -webkit-transform: none;
-  -ms-transform: none;
-  transform: none;
-}
-
-.emotion-1:focus {
-  box-shadow: 0 0 0 4px #FEDEDE,inset 0 0 0 1px #fe5c5c;
-}
-
-.emotion-1:hover {
-  box-shadow: inset 0 0 0 1px #B64242;
-}
-
-.emotion-1:hover:focus {
-  box-shadow: 0 0 0 4px #FEDEDE,inset 0 0 0 1px #B64242;
-}
-
-<button
-  class="emotion-1"
-  type="button"
->
-  <span
-    class="emotion-0"
-  >
-    this is a button
-  </span>
-</button>
-`;
-
-exports[`<Button /> snapshots renders a button with appearance default, intent danger, size medium and isLoading true 1`] = `
-@keyframes animation-0 {
-  0% {
-    opacity: 0;
-  }
-
-  100% {
-    opacity: 1;
-  }
-}
-
-.emotion-1 {
-  position: absolute;
-}
-
-.emotion-0 g {
-  -webkit-animation: animation-0 1s infinite;
-  animation: animation-0 1s infinite;
-}
-
-.emotion-0 g:nth-child(1):not(style) {
-  -webkit-animation-delay: -0.9166666666666666s;
-  animation-delay: -0.9166666666666666s;
-}
-
-.emotion-0 g:nth-child(2):not(style) {
-  -webkit-animation-delay: -0.8333333333333334s;
-  animation-delay: -0.8333333333333334s;
-}
-
-.emotion-0 g:nth-child(3):not(style) {
-  -webkit-animation-delay: -0.75s;
-  animation-delay: -0.75s;
-}
-
-.emotion-0 g:nth-child(4):not(style) {
-  -webkit-animation-delay: -0.6666666666666666s;
-  animation-delay: -0.6666666666666666s;
-}
-
-.emotion-0 g:nth-child(5):not(style) {
-  -webkit-animation-delay: -0.5833333333333334s;
-  animation-delay: -0.5833333333333334s;
-}
-
-.emotion-0 g:nth-child(6):not(style) {
-  -webkit-animation-delay: -0.5s;
-  animation-delay: -0.5s;
-}
-
-.emotion-0 g:nth-child(7):not(style) {
-  -webkit-animation-delay: -0.4166666666666667s;
-  animation-delay: -0.4166666666666667s;
-}
-
-.emotion-0 g:nth-child(8):not(style) {
-  -webkit-animation-delay: -0.3333333333333333s;
-  animation-delay: -0.3333333333333333s;
-}
-
-.emotion-0 g:nth-child(9):not(style) {
-  -webkit-animation-delay: -0.25s;
-  animation-delay: -0.25s;
-}
-
-.emotion-0 g:nth-child(10):not(style) {
-  -webkit-animation-delay: -0.16666666666666666s;
-  animation-delay: -0.16666666666666666s;
-}
-
-.emotion-0 g:nth-child(11):not(style) {
-  -webkit-animation-delay: -0.08333333333333333s;
-  animation-delay: -0.08333333333333333s;
-}
-
-.emotion-0 g:nth-child(12):not(style) {
-  -webkit-animation-delay: 0s;
-  animation-delay: 0s;
-}
-
-.emotion-2 {
-  color: rgb(77,83,86);
-  font-family: sans-serif;
-  font-family: Lato;
-  font-style: normal;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 16px;
-  font-size: 16px;
-  line-height: 48px;
-  color: transparent;
-  font-weight: bold;
-}
-
-.emotion-3 {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  text-transform: capitalize;
-  -webkit-transition: 0.15s;
-  transition: 0.15s;
-  vertical-align: baseline;
-  white-space: nowrap;
-  background-color: white;
-  box-shadow: inset 0 0 0 1px #fe5c5c;
-  position: relative;
-  padding: 0 16px;
-}
-
-.emotion-3:active {
-  -webkit-transform: perspective(1px) scale(0.975);
-  -ms-transform: perspective(1px) scale(0.975);
-  transform: perspective(1px) scale(0.975);
-}
-
-.emotion-3:disabled,
-.emotion-3:hover:disabled,
-.emotion-3:active:disabled {
-  -webkit-transform: none;
-  -ms-transform: none;
-  transform: none;
-}
-
-.emotion-3:focus {
-  outline: 0;
-}
-
-.emotion-3:disabled,
-.emotion-3:hover:disabled,
-.emotion-3:active:disabled {
-  -webkit-transform: none;
-  -ms-transform: none;
-  transform: none;
-}
-
-.emotion-3:focus {
-  box-shadow: 0 0 0 4px #FEDEDE,inset 0 0 0 1px #fe5c5c;
-}
-
-.emotion-3:active {
-  -webkit-transform: none;
-  -ms-transform: none;
-  transform: none;
-}
-
-.emotion-3:focus,
-.emotion-3:hover:focus,
-.emotion-3:hover {
-  cursor: wait;
-}
-
-<button
-  class="emotion-3"
-  disabled=""
-  type="button"
->
-  <svg
-    class="emotion-1"
-    height="16"
-    viewBox="0 0 54 54"
-    width="16"
-    xmlns="http://www.w3.org/2000/svg"
-  >
-    <title>
-      Spinner
-    </title>
-    <g
-      class="emotion-0"
-      fill="#3D4251"
-      fill-rule="nonzero"
-    >
-      <g
-        transform="translate(24)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(30 15 71.785)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(60 15 47.785)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(90 15 39)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(120 15 33.928)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(150 15 30.215)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(180 15 27)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(-150 15 23.785)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(-120 15 20.072)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(-90 15 15)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(-60 15 6.215)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(-30 15 -17.785)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-    </g>
-  </svg>
-  <span
-    class="emotion-2"
-  >
-    this is a button
-  </span>
-</button>
-`;
-
-exports[`<Button /> snapshots renders a button with appearance default, intent danger, size small and isLoading false 1`] = `
-.emotion-0 {
-  color: rgb(77,83,86);
-  font-family: sans-serif;
-  font-family: Lato;
-  font-style: normal;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 16px;
-  font-size: 16px;
-  line-height: 36px;
   color: #3d4251;
   font-weight: bold;
 }
@@ -885,7 +489,403 @@ exports[`<Button /> snapshots renders a button with appearance default, intent d
 </button>
 `;
 
-exports[`<Button /> snapshots renders a button with appearance default, intent danger, size small and isLoading true 1`] = `
+exports[`<Button /> snapshots renders a button with appearance default, intent danger, size medium and loading true 1`] = `
+@keyframes animation-0 {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.emotion-1 {
+  position: absolute;
+}
+
+.emotion-0 g {
+  -webkit-animation: animation-0 1s infinite;
+  animation: animation-0 1s infinite;
+}
+
+.emotion-0 g:nth-child(1):not(style) {
+  -webkit-animation-delay: -0.9166666666666666s;
+  animation-delay: -0.9166666666666666s;
+}
+
+.emotion-0 g:nth-child(2):not(style) {
+  -webkit-animation-delay: -0.8333333333333334s;
+  animation-delay: -0.8333333333333334s;
+}
+
+.emotion-0 g:nth-child(3):not(style) {
+  -webkit-animation-delay: -0.75s;
+  animation-delay: -0.75s;
+}
+
+.emotion-0 g:nth-child(4):not(style) {
+  -webkit-animation-delay: -0.6666666666666666s;
+  animation-delay: -0.6666666666666666s;
+}
+
+.emotion-0 g:nth-child(5):not(style) {
+  -webkit-animation-delay: -0.5833333333333334s;
+  animation-delay: -0.5833333333333334s;
+}
+
+.emotion-0 g:nth-child(6):not(style) {
+  -webkit-animation-delay: -0.5s;
+  animation-delay: -0.5s;
+}
+
+.emotion-0 g:nth-child(7):not(style) {
+  -webkit-animation-delay: -0.4166666666666667s;
+  animation-delay: -0.4166666666666667s;
+}
+
+.emotion-0 g:nth-child(8):not(style) {
+  -webkit-animation-delay: -0.3333333333333333s;
+  animation-delay: -0.3333333333333333s;
+}
+
+.emotion-0 g:nth-child(9):not(style) {
+  -webkit-animation-delay: -0.25s;
+  animation-delay: -0.25s;
+}
+
+.emotion-0 g:nth-child(10):not(style) {
+  -webkit-animation-delay: -0.16666666666666666s;
+  animation-delay: -0.16666666666666666s;
+}
+
+.emotion-0 g:nth-child(11):not(style) {
+  -webkit-animation-delay: -0.08333333333333333s;
+  animation-delay: -0.08333333333333333s;
+}
+
+.emotion-0 g:nth-child(12):not(style) {
+  -webkit-animation-delay: 0s;
+  animation-delay: 0s;
+}
+
+.emotion-2 {
+  color: rgb(77,83,86);
+  font-family: sans-serif;
+  font-family: Lato;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  font-size: 16px;
+  line-height: 48px;
+  color: transparent;
+  font-weight: bold;
+}
+
+.emotion-3 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  -webkit-transition: 0.15s;
+  transition: 0.15s;
+  vertical-align: baseline;
+  white-space: nowrap;
+  background-color: white;
+  box-shadow: inset 0 0 0 1px #fe5c5c;
+  position: relative;
+  padding: 0 16px;
+}
+
+.emotion-3:active {
+  -webkit-transform: perspective(1px) scale(0.975);
+  -ms-transform: perspective(1px) scale(0.975);
+  transform: perspective(1px) scale(0.975);
+}
+
+.emotion-3:disabled,
+.emotion-3:hover:disabled,
+.emotion-3:active:disabled {
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+}
+
+.emotion-3:focus {
+  outline: 0;
+}
+
+.emotion-3:disabled,
+.emotion-3:hover:disabled,
+.emotion-3:active:disabled {
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+}
+
+.emotion-3:focus {
+  box-shadow: 0 0 0 4px #FEDEDE,inset 0 0 0 1px #fe5c5c;
+}
+
+.emotion-3:active {
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+}
+
+.emotion-3:focus,
+.emotion-3:hover:focus,
+.emotion-3:hover {
+  cursor: wait;
+}
+
+<button
+  class="emotion-3"
+  disabled=""
+  type="button"
+>
+  <svg
+    class="emotion-1"
+    height="16"
+    viewBox="0 0 54 54"
+    width="16"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <title>
+      Spinner
+    </title>
+    <g
+      class="emotion-0"
+      fill="#3D4251"
+      fill-rule="nonzero"
+    >
+      <g
+        transform="translate(24)"
+      >
+        <rect
+          height="12"
+          rx="3"
+          width="6"
+        />
+      </g>
+      <g
+        transform="rotate(30 15 71.785)"
+      >
+        <rect
+          height="12"
+          rx="3"
+          width="6"
+        />
+      </g>
+      <g
+        transform="rotate(60 15 47.785)"
+      >
+        <rect
+          height="12"
+          rx="3"
+          width="6"
+        />
+      </g>
+      <g
+        transform="rotate(90 15 39)"
+      >
+        <rect
+          height="12"
+          rx="3"
+          width="6"
+        />
+      </g>
+      <g
+        transform="rotate(120 15 33.928)"
+      >
+        <rect
+          height="12"
+          rx="3"
+          width="6"
+        />
+      </g>
+      <g
+        transform="rotate(150 15 30.215)"
+      >
+        <rect
+          height="12"
+          rx="3"
+          width="6"
+        />
+      </g>
+      <g
+        transform="rotate(180 15 27)"
+      >
+        <rect
+          height="12"
+          rx="3"
+          width="6"
+        />
+      </g>
+      <g
+        transform="rotate(-150 15 23.785)"
+      >
+        <rect
+          height="12"
+          rx="3"
+          width="6"
+        />
+      </g>
+      <g
+        transform="rotate(-120 15 20.072)"
+      >
+        <rect
+          height="12"
+          rx="3"
+          width="6"
+        />
+      </g>
+      <g
+        transform="rotate(-90 15 15)"
+      >
+        <rect
+          height="12"
+          rx="3"
+          width="6"
+        />
+      </g>
+      <g
+        transform="rotate(-60 15 6.215)"
+      >
+        <rect
+          height="12"
+          rx="3"
+          width="6"
+        />
+      </g>
+      <g
+        transform="rotate(-30 15 -17.785)"
+      >
+        <rect
+          height="12"
+          rx="3"
+          width="6"
+        />
+      </g>
+    </g>
+  </svg>
+  <span
+    class="emotion-2"
+  >
+    this is a button
+  </span>
+</button>
+`;
+
+exports[`<Button /> snapshots renders a button with appearance default, intent danger, size small and loading false 1`] = `
+.emotion-0 {
+  color: rgb(77,83,86);
+  font-family: sans-serif;
+  font-family: Lato;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  font-size: 16px;
+  line-height: 36px;
+  color: #3d4251;
+  font-weight: bold;
+}
+
+.emotion-1 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  -webkit-transition: 0.15s;
+  transition: 0.15s;
+  vertical-align: baseline;
+  white-space: nowrap;
+  background-color: white;
+  box-shadow: inset 0 0 0 1px #fe5c5c;
+  padding: 0 16px;
+}
+
+.emotion-1:active {
+  -webkit-transform: perspective(1px) scale(0.975);
+  -ms-transform: perspective(1px) scale(0.975);
+  transform: perspective(1px) scale(0.975);
+}
+
+.emotion-1:disabled,
+.emotion-1:hover:disabled,
+.emotion-1:active:disabled {
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+}
+
+.emotion-1:focus {
+  outline: 0;
+}
+
+.emotion-1:disabled,
+.emotion-1:hover:disabled,
+.emotion-1:active:disabled {
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+}
+
+.emotion-1:focus {
+  box-shadow: 0 0 0 4px #FEDEDE,inset 0 0 0 1px #fe5c5c;
+}
+
+.emotion-1:hover {
+  box-shadow: inset 0 0 0 1px #B64242;
+}
+
+.emotion-1:hover:focus {
+  box-shadow: 0 0 0 4px #FEDEDE,inset 0 0 0 1px #B64242;
+}
+
+<button
+  class="emotion-1"
+  type="button"
+>
+  <span
+    class="emotion-0"
+  >
+    this is a button
+  </span>
+</button>
+`;
+
+exports[`<Button /> snapshots renders a button with appearance default, intent danger, size small and loading true 1`] = `
 @keyframes animation-0 {
   0% {
     opacity: 0;
@@ -1188,7 +1188,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent d
 </button>
 `;
 
-exports[`<Button /> snapshots renders a button with appearance default, intent neutral, size large and isLoading false 1`] = `
+exports[`<Button /> snapshots renders a button with appearance default, intent neutral, size large and loading false 1`] = `
 .emotion-1 {
   -webkit-align-items: center;
   -webkit-box-align: center;
@@ -1281,7 +1281,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent n
 </button>
 `;
 
-exports[`<Button /> snapshots renders a button with appearance default, intent neutral, size large and isLoading true 1`] = `
+exports[`<Button /> snapshots renders a button with appearance default, intent neutral, size large and loading true 1`] = `
 @keyframes animation-0 {
   0% {
     opacity: 0;
@@ -1584,403 +1584,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent n
 </button>
 `;
 
-exports[`<Button /> snapshots renders a button with appearance default, intent neutral, size medium and isLoading false 1`] = `
-.emotion-1 {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  text-transform: capitalize;
-  -webkit-transition: 0.15s;
-  transition: 0.15s;
-  vertical-align: baseline;
-  white-space: nowrap;
-  background-color: white;
-  box-shadow: inset 0 0 0 1px #33aacc;
-  padding: 0 16px;
-}
-
-.emotion-1:active {
-  -webkit-transform: perspective(1px) scale(0.975);
-  -ms-transform: perspective(1px) scale(0.975);
-  transform: perspective(1px) scale(0.975);
-}
-
-.emotion-1:disabled,
-.emotion-1:hover:disabled,
-.emotion-1:active:disabled {
-  -webkit-transform: none;
-  -ms-transform: none;
-  transform: none;
-}
-
-.emotion-1:focus {
-  outline: 0;
-}
-
-.emotion-1:disabled,
-.emotion-1:hover:disabled,
-.emotion-1:active:disabled {
-  -webkit-transform: none;
-  -ms-transform: none;
-  transform: none;
-}
-
-.emotion-1:focus {
-  box-shadow: 0 0 0 4px #DCECF1,inset 0 0 0 1px #33aacc;
-}
-
-.emotion-1:hover {
-  box-shadow: inset 0 0 0 1px #2E8FAB;
-}
-
-.emotion-1:hover:focus {
-  box-shadow: 0 0 0 4px #DCECF1,inset 0 0 0 1px #2E8FAB;
-}
-
-.emotion-0 {
-  color: rgb(77,83,86);
-  font-family: sans-serif;
-  font-family: Lato;
-  font-style: normal;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 16px;
-  font-size: 16px;
-  line-height: 48px;
-  color: #3d4251;
-  font-weight: bold;
-}
-
-<button
-  class="emotion-1"
-  type="button"
->
-  <span
-    class="emotion-0"
-  >
-    this is a button
-  </span>
-</button>
-`;
-
-exports[`<Button /> snapshots renders a button with appearance default, intent neutral, size medium and isLoading true 1`] = `
-@keyframes animation-0 {
-  0% {
-    opacity: 0;
-  }
-
-  100% {
-    opacity: 1;
-  }
-}
-
-.emotion-3 {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  text-transform: capitalize;
-  -webkit-transition: 0.15s;
-  transition: 0.15s;
-  vertical-align: baseline;
-  white-space: nowrap;
-  background-color: white;
-  box-shadow: inset 0 0 0 1px #33aacc;
-  position: relative;
-  padding: 0 16px;
-}
-
-.emotion-3:active {
-  -webkit-transform: perspective(1px) scale(0.975);
-  -ms-transform: perspective(1px) scale(0.975);
-  transform: perspective(1px) scale(0.975);
-}
-
-.emotion-3:disabled,
-.emotion-3:hover:disabled,
-.emotion-3:active:disabled {
-  -webkit-transform: none;
-  -ms-transform: none;
-  transform: none;
-}
-
-.emotion-3:focus {
-  outline: 0;
-}
-
-.emotion-3:disabled,
-.emotion-3:hover:disabled,
-.emotion-3:active:disabled {
-  -webkit-transform: none;
-  -ms-transform: none;
-  transform: none;
-}
-
-.emotion-3:focus {
-  box-shadow: 0 0 0 4px #DCECF1,inset 0 0 0 1px #33aacc;
-}
-
-.emotion-3:active {
-  -webkit-transform: none;
-  -ms-transform: none;
-  transform: none;
-}
-
-.emotion-3:focus,
-.emotion-3:hover:focus,
-.emotion-3:hover {
-  cursor: wait;
-}
-
-.emotion-1 {
-  position: absolute;
-}
-
-.emotion-0 g {
-  -webkit-animation: animation-0 1s infinite;
-  animation: animation-0 1s infinite;
-}
-
-.emotion-0 g:nth-child(1):not(style) {
-  -webkit-animation-delay: -0.9166666666666666s;
-  animation-delay: -0.9166666666666666s;
-}
-
-.emotion-0 g:nth-child(2):not(style) {
-  -webkit-animation-delay: -0.8333333333333334s;
-  animation-delay: -0.8333333333333334s;
-}
-
-.emotion-0 g:nth-child(3):not(style) {
-  -webkit-animation-delay: -0.75s;
-  animation-delay: -0.75s;
-}
-
-.emotion-0 g:nth-child(4):not(style) {
-  -webkit-animation-delay: -0.6666666666666666s;
-  animation-delay: -0.6666666666666666s;
-}
-
-.emotion-0 g:nth-child(5):not(style) {
-  -webkit-animation-delay: -0.5833333333333334s;
-  animation-delay: -0.5833333333333334s;
-}
-
-.emotion-0 g:nth-child(6):not(style) {
-  -webkit-animation-delay: -0.5s;
-  animation-delay: -0.5s;
-}
-
-.emotion-0 g:nth-child(7):not(style) {
-  -webkit-animation-delay: -0.4166666666666667s;
-  animation-delay: -0.4166666666666667s;
-}
-
-.emotion-0 g:nth-child(8):not(style) {
-  -webkit-animation-delay: -0.3333333333333333s;
-  animation-delay: -0.3333333333333333s;
-}
-
-.emotion-0 g:nth-child(9):not(style) {
-  -webkit-animation-delay: -0.25s;
-  animation-delay: -0.25s;
-}
-
-.emotion-0 g:nth-child(10):not(style) {
-  -webkit-animation-delay: -0.16666666666666666s;
-  animation-delay: -0.16666666666666666s;
-}
-
-.emotion-0 g:nth-child(11):not(style) {
-  -webkit-animation-delay: -0.08333333333333333s;
-  animation-delay: -0.08333333333333333s;
-}
-
-.emotion-0 g:nth-child(12):not(style) {
-  -webkit-animation-delay: 0s;
-  animation-delay: 0s;
-}
-
-.emotion-2 {
-  color: rgb(77,83,86);
-  font-family: sans-serif;
-  font-family: Lato;
-  font-style: normal;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 16px;
-  font-size: 16px;
-  line-height: 48px;
-  color: transparent;
-  font-weight: bold;
-}
-
-<button
-  class="emotion-3"
-  disabled=""
-  type="button"
->
-  <svg
-    class="emotion-1"
-    height="16"
-    viewBox="0 0 54 54"
-    width="16"
-    xmlns="http://www.w3.org/2000/svg"
-  >
-    <title>
-      Spinner
-    </title>
-    <g
-      class="emotion-0"
-      fill="#3D4251"
-      fill-rule="nonzero"
-    >
-      <g
-        transform="translate(24)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(30 15 71.785)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(60 15 47.785)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(90 15 39)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(120 15 33.928)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(150 15 30.215)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(180 15 27)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(-150 15 23.785)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(-120 15 20.072)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(-90 15 15)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(-60 15 6.215)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(-30 15 -17.785)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-    </g>
-  </svg>
-  <span
-    class="emotion-2"
-  >
-    this is a button
-  </span>
-</button>
-`;
-
-exports[`<Button /> snapshots renders a button with appearance default, intent neutral, size small and isLoading false 1`] = `
+exports[`<Button /> snapshots renders a button with appearance default, intent neutral, size medium and loading false 1`] = `
 .emotion-1 {
   -webkit-align-items: center;
   -webkit-box-align: center;
@@ -2056,6 +1660,402 @@ exports[`<Button /> snapshots renders a button with appearance default, intent n
   font-weight: 400;
   line-height: 16px;
   font-size: 16px;
+  line-height: 48px;
+  color: #3d4251;
+  font-weight: bold;
+}
+
+<button
+  class="emotion-1"
+  type="button"
+>
+  <span
+    class="emotion-0"
+  >
+    this is a button
+  </span>
+</button>
+`;
+
+exports[`<Button /> snapshots renders a button with appearance default, intent neutral, size medium and loading true 1`] = `
+@keyframes animation-0 {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.emotion-3 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  -webkit-transition: 0.15s;
+  transition: 0.15s;
+  vertical-align: baseline;
+  white-space: nowrap;
+  background-color: white;
+  box-shadow: inset 0 0 0 1px #33aacc;
+  position: relative;
+  padding: 0 16px;
+}
+
+.emotion-3:active {
+  -webkit-transform: perspective(1px) scale(0.975);
+  -ms-transform: perspective(1px) scale(0.975);
+  transform: perspective(1px) scale(0.975);
+}
+
+.emotion-3:disabled,
+.emotion-3:hover:disabled,
+.emotion-3:active:disabled {
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+}
+
+.emotion-3:focus {
+  outline: 0;
+}
+
+.emotion-3:disabled,
+.emotion-3:hover:disabled,
+.emotion-3:active:disabled {
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+}
+
+.emotion-3:focus {
+  box-shadow: 0 0 0 4px #DCECF1,inset 0 0 0 1px #33aacc;
+}
+
+.emotion-3:active {
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+}
+
+.emotion-3:focus,
+.emotion-3:hover:focus,
+.emotion-3:hover {
+  cursor: wait;
+}
+
+.emotion-1 {
+  position: absolute;
+}
+
+.emotion-0 g {
+  -webkit-animation: animation-0 1s infinite;
+  animation: animation-0 1s infinite;
+}
+
+.emotion-0 g:nth-child(1):not(style) {
+  -webkit-animation-delay: -0.9166666666666666s;
+  animation-delay: -0.9166666666666666s;
+}
+
+.emotion-0 g:nth-child(2):not(style) {
+  -webkit-animation-delay: -0.8333333333333334s;
+  animation-delay: -0.8333333333333334s;
+}
+
+.emotion-0 g:nth-child(3):not(style) {
+  -webkit-animation-delay: -0.75s;
+  animation-delay: -0.75s;
+}
+
+.emotion-0 g:nth-child(4):not(style) {
+  -webkit-animation-delay: -0.6666666666666666s;
+  animation-delay: -0.6666666666666666s;
+}
+
+.emotion-0 g:nth-child(5):not(style) {
+  -webkit-animation-delay: -0.5833333333333334s;
+  animation-delay: -0.5833333333333334s;
+}
+
+.emotion-0 g:nth-child(6):not(style) {
+  -webkit-animation-delay: -0.5s;
+  animation-delay: -0.5s;
+}
+
+.emotion-0 g:nth-child(7):not(style) {
+  -webkit-animation-delay: -0.4166666666666667s;
+  animation-delay: -0.4166666666666667s;
+}
+
+.emotion-0 g:nth-child(8):not(style) {
+  -webkit-animation-delay: -0.3333333333333333s;
+  animation-delay: -0.3333333333333333s;
+}
+
+.emotion-0 g:nth-child(9):not(style) {
+  -webkit-animation-delay: -0.25s;
+  animation-delay: -0.25s;
+}
+
+.emotion-0 g:nth-child(10):not(style) {
+  -webkit-animation-delay: -0.16666666666666666s;
+  animation-delay: -0.16666666666666666s;
+}
+
+.emotion-0 g:nth-child(11):not(style) {
+  -webkit-animation-delay: -0.08333333333333333s;
+  animation-delay: -0.08333333333333333s;
+}
+
+.emotion-0 g:nth-child(12):not(style) {
+  -webkit-animation-delay: 0s;
+  animation-delay: 0s;
+}
+
+.emotion-2 {
+  color: rgb(77,83,86);
+  font-family: sans-serif;
+  font-family: Lato;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  font-size: 16px;
+  line-height: 48px;
+  color: transparent;
+  font-weight: bold;
+}
+
+<button
+  class="emotion-3"
+  disabled=""
+  type="button"
+>
+  <svg
+    class="emotion-1"
+    height="16"
+    viewBox="0 0 54 54"
+    width="16"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <title>
+      Spinner
+    </title>
+    <g
+      class="emotion-0"
+      fill="#3D4251"
+      fill-rule="nonzero"
+    >
+      <g
+        transform="translate(24)"
+      >
+        <rect
+          height="12"
+          rx="3"
+          width="6"
+        />
+      </g>
+      <g
+        transform="rotate(30 15 71.785)"
+      >
+        <rect
+          height="12"
+          rx="3"
+          width="6"
+        />
+      </g>
+      <g
+        transform="rotate(60 15 47.785)"
+      >
+        <rect
+          height="12"
+          rx="3"
+          width="6"
+        />
+      </g>
+      <g
+        transform="rotate(90 15 39)"
+      >
+        <rect
+          height="12"
+          rx="3"
+          width="6"
+        />
+      </g>
+      <g
+        transform="rotate(120 15 33.928)"
+      >
+        <rect
+          height="12"
+          rx="3"
+          width="6"
+        />
+      </g>
+      <g
+        transform="rotate(150 15 30.215)"
+      >
+        <rect
+          height="12"
+          rx="3"
+          width="6"
+        />
+      </g>
+      <g
+        transform="rotate(180 15 27)"
+      >
+        <rect
+          height="12"
+          rx="3"
+          width="6"
+        />
+      </g>
+      <g
+        transform="rotate(-150 15 23.785)"
+      >
+        <rect
+          height="12"
+          rx="3"
+          width="6"
+        />
+      </g>
+      <g
+        transform="rotate(-120 15 20.072)"
+      >
+        <rect
+          height="12"
+          rx="3"
+          width="6"
+        />
+      </g>
+      <g
+        transform="rotate(-90 15 15)"
+      >
+        <rect
+          height="12"
+          rx="3"
+          width="6"
+        />
+      </g>
+      <g
+        transform="rotate(-60 15 6.215)"
+      >
+        <rect
+          height="12"
+          rx="3"
+          width="6"
+        />
+      </g>
+      <g
+        transform="rotate(-30 15 -17.785)"
+      >
+        <rect
+          height="12"
+          rx="3"
+          width="6"
+        />
+      </g>
+    </g>
+  </svg>
+  <span
+    class="emotion-2"
+  >
+    this is a button
+  </span>
+</button>
+`;
+
+exports[`<Button /> snapshots renders a button with appearance default, intent neutral, size small and loading false 1`] = `
+.emotion-1 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  -webkit-transition: 0.15s;
+  transition: 0.15s;
+  vertical-align: baseline;
+  white-space: nowrap;
+  background-color: white;
+  box-shadow: inset 0 0 0 1px #33aacc;
+  padding: 0 16px;
+}
+
+.emotion-1:active {
+  -webkit-transform: perspective(1px) scale(0.975);
+  -ms-transform: perspective(1px) scale(0.975);
+  transform: perspective(1px) scale(0.975);
+}
+
+.emotion-1:disabled,
+.emotion-1:hover:disabled,
+.emotion-1:active:disabled {
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+}
+
+.emotion-1:focus {
+  outline: 0;
+}
+
+.emotion-1:disabled,
+.emotion-1:hover:disabled,
+.emotion-1:active:disabled {
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+}
+
+.emotion-1:focus {
+  box-shadow: 0 0 0 4px #DCECF1,inset 0 0 0 1px #33aacc;
+}
+
+.emotion-1:hover {
+  box-shadow: inset 0 0 0 1px #2E8FAB;
+}
+
+.emotion-1:hover:focus {
+  box-shadow: 0 0 0 4px #DCECF1,inset 0 0 0 1px #2E8FAB;
+}
+
+.emotion-0 {
+  color: rgb(77,83,86);
+  font-family: sans-serif;
+  font-family: Lato;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  font-size: 16px;
   line-height: 36px;
   color: #3d4251;
   font-weight: bold;
@@ -2073,7 +2073,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent n
 </button>
 `;
 
-exports[`<Button /> snapshots renders a button with appearance default, intent neutral, size small and isLoading true 1`] = `
+exports[`<Button /> snapshots renders a button with appearance default, intent neutral, size small and loading true 1`] = `
 @keyframes animation-0 {
   0% {
     opacity: 0;
@@ -2376,7 +2376,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent n
 </button>
 `;
 
-exports[`<Button /> snapshots renders a button with appearance default, intent success, size large and isLoading false 1`] = `
+exports[`<Button /> snapshots renders a button with appearance default, intent success, size large and loading false 1`] = `
 .emotion-0 {
   color: rgb(77,83,86);
   font-family: sans-serif;
@@ -2469,7 +2469,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent s
 </button>
 `;
 
-exports[`<Button /> snapshots renders a button with appearance default, intent success, size large and isLoading true 1`] = `
+exports[`<Button /> snapshots renders a button with appearance default, intent success, size large and loading true 1`] = `
 @keyframes animation-0 {
   0% {
     opacity: 0;
@@ -2772,7 +2772,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent s
 </button>
 `;
 
-exports[`<Button /> snapshots renders a button with appearance default, intent success, size medium and isLoading false 1`] = `
+exports[`<Button /> snapshots renders a button with appearance default, intent success, size medium and loading false 1`] = `
 .emotion-0 {
   color: rgb(77,83,86);
   font-family: sans-serif;
@@ -2783,402 +2783,6 @@ exports[`<Button /> snapshots renders a button with appearance default, intent s
   line-height: 16px;
   font-size: 16px;
   line-height: 48px;
-  color: #3d4251;
-  font-weight: bold;
-}
-
-.emotion-1 {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  text-transform: capitalize;
-  -webkit-transition: 0.15s;
-  transition: 0.15s;
-  vertical-align: baseline;
-  white-space: nowrap;
-  background-color: white;
-  box-shadow: inset 0 0 0 1px #36d57d;
-  padding: 0 16px;
-}
-
-.emotion-1:active {
-  -webkit-transform: perspective(1px) scale(0.975);
-  -ms-transform: perspective(1px) scale(0.975);
-  transform: perspective(1px) scale(0.975);
-}
-
-.emotion-1:disabled,
-.emotion-1:hover:disabled,
-.emotion-1:active:disabled {
-  -webkit-transform: none;
-  -ms-transform: none;
-  transform: none;
-}
-
-.emotion-1:focus {
-  outline: 0;
-}
-
-.emotion-1:disabled,
-.emotion-1:hover:disabled,
-.emotion-1:active:disabled {
-  -webkit-transform: none;
-  -ms-transform: none;
-  transform: none;
-}
-
-.emotion-1:focus {
-  box-shadow: 0 0 0 4px #E7F2EC,inset 0 0 0 1px #36d57d;
-}
-
-.emotion-1:hover {
-  box-shadow: inset 0 0 0 1px #29A360;
-}
-
-.emotion-1:hover:focus {
-  box-shadow: 0 0 0 4px #E7F2EC,inset 0 0 0 1px #29A360;
-}
-
-<button
-  class="emotion-1"
-  type="button"
->
-  <span
-    class="emotion-0"
-  >
-    this is a button
-  </span>
-</button>
-`;
-
-exports[`<Button /> snapshots renders a button with appearance default, intent success, size medium and isLoading true 1`] = `
-@keyframes animation-0 {
-  0% {
-    opacity: 0;
-  }
-
-  100% {
-    opacity: 1;
-  }
-}
-
-.emotion-1 {
-  position: absolute;
-}
-
-.emotion-0 g {
-  -webkit-animation: animation-0 1s infinite;
-  animation: animation-0 1s infinite;
-}
-
-.emotion-0 g:nth-child(1):not(style) {
-  -webkit-animation-delay: -0.9166666666666666s;
-  animation-delay: -0.9166666666666666s;
-}
-
-.emotion-0 g:nth-child(2):not(style) {
-  -webkit-animation-delay: -0.8333333333333334s;
-  animation-delay: -0.8333333333333334s;
-}
-
-.emotion-0 g:nth-child(3):not(style) {
-  -webkit-animation-delay: -0.75s;
-  animation-delay: -0.75s;
-}
-
-.emotion-0 g:nth-child(4):not(style) {
-  -webkit-animation-delay: -0.6666666666666666s;
-  animation-delay: -0.6666666666666666s;
-}
-
-.emotion-0 g:nth-child(5):not(style) {
-  -webkit-animation-delay: -0.5833333333333334s;
-  animation-delay: -0.5833333333333334s;
-}
-
-.emotion-0 g:nth-child(6):not(style) {
-  -webkit-animation-delay: -0.5s;
-  animation-delay: -0.5s;
-}
-
-.emotion-0 g:nth-child(7):not(style) {
-  -webkit-animation-delay: -0.4166666666666667s;
-  animation-delay: -0.4166666666666667s;
-}
-
-.emotion-0 g:nth-child(8):not(style) {
-  -webkit-animation-delay: -0.3333333333333333s;
-  animation-delay: -0.3333333333333333s;
-}
-
-.emotion-0 g:nth-child(9):not(style) {
-  -webkit-animation-delay: -0.25s;
-  animation-delay: -0.25s;
-}
-
-.emotion-0 g:nth-child(10):not(style) {
-  -webkit-animation-delay: -0.16666666666666666s;
-  animation-delay: -0.16666666666666666s;
-}
-
-.emotion-0 g:nth-child(11):not(style) {
-  -webkit-animation-delay: -0.08333333333333333s;
-  animation-delay: -0.08333333333333333s;
-}
-
-.emotion-0 g:nth-child(12):not(style) {
-  -webkit-animation-delay: 0s;
-  animation-delay: 0s;
-}
-
-.emotion-2 {
-  color: rgb(77,83,86);
-  font-family: sans-serif;
-  font-family: Lato;
-  font-style: normal;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 16px;
-  font-size: 16px;
-  line-height: 48px;
-  color: transparent;
-  font-weight: bold;
-}
-
-.emotion-3 {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  text-transform: capitalize;
-  -webkit-transition: 0.15s;
-  transition: 0.15s;
-  vertical-align: baseline;
-  white-space: nowrap;
-  background-color: white;
-  box-shadow: inset 0 0 0 1px #36d57d;
-  position: relative;
-  padding: 0 16px;
-}
-
-.emotion-3:active {
-  -webkit-transform: perspective(1px) scale(0.975);
-  -ms-transform: perspective(1px) scale(0.975);
-  transform: perspective(1px) scale(0.975);
-}
-
-.emotion-3:disabled,
-.emotion-3:hover:disabled,
-.emotion-3:active:disabled {
-  -webkit-transform: none;
-  -ms-transform: none;
-  transform: none;
-}
-
-.emotion-3:focus {
-  outline: 0;
-}
-
-.emotion-3:disabled,
-.emotion-3:hover:disabled,
-.emotion-3:active:disabled {
-  -webkit-transform: none;
-  -ms-transform: none;
-  transform: none;
-}
-
-.emotion-3:focus {
-  box-shadow: 0 0 0 4px #E7F2EC,inset 0 0 0 1px #36d57d;
-}
-
-.emotion-3:active {
-  -webkit-transform: none;
-  -ms-transform: none;
-  transform: none;
-}
-
-.emotion-3:focus,
-.emotion-3:hover:focus,
-.emotion-3:hover {
-  cursor: wait;
-}
-
-<button
-  class="emotion-3"
-  disabled=""
-  type="button"
->
-  <svg
-    class="emotion-1"
-    height="16"
-    viewBox="0 0 54 54"
-    width="16"
-    xmlns="http://www.w3.org/2000/svg"
-  >
-    <title>
-      Spinner
-    </title>
-    <g
-      class="emotion-0"
-      fill="#3D4251"
-      fill-rule="nonzero"
-    >
-      <g
-        transform="translate(24)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(30 15 71.785)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(60 15 47.785)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(90 15 39)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(120 15 33.928)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(150 15 30.215)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(180 15 27)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(-150 15 23.785)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(-120 15 20.072)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(-90 15 15)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(-60 15 6.215)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(-30 15 -17.785)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-    </g>
-  </svg>
-  <span
-    class="emotion-2"
-  >
-    this is a button
-  </span>
-</button>
-`;
-
-exports[`<Button /> snapshots renders a button with appearance default, intent success, size small and isLoading false 1`] = `
-.emotion-0 {
-  color: rgb(77,83,86);
-  font-family: sans-serif;
-  font-family: Lato;
-  font-style: normal;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 16px;
-  font-size: 16px;
-  line-height: 36px;
   color: #3d4251;
   font-weight: bold;
 }
@@ -3261,7 +2865,403 @@ exports[`<Button /> snapshots renders a button with appearance default, intent s
 </button>
 `;
 
-exports[`<Button /> snapshots renders a button with appearance default, intent success, size small and isLoading true 1`] = `
+exports[`<Button /> snapshots renders a button with appearance default, intent success, size medium and loading true 1`] = `
+@keyframes animation-0 {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.emotion-1 {
+  position: absolute;
+}
+
+.emotion-0 g {
+  -webkit-animation: animation-0 1s infinite;
+  animation: animation-0 1s infinite;
+}
+
+.emotion-0 g:nth-child(1):not(style) {
+  -webkit-animation-delay: -0.9166666666666666s;
+  animation-delay: -0.9166666666666666s;
+}
+
+.emotion-0 g:nth-child(2):not(style) {
+  -webkit-animation-delay: -0.8333333333333334s;
+  animation-delay: -0.8333333333333334s;
+}
+
+.emotion-0 g:nth-child(3):not(style) {
+  -webkit-animation-delay: -0.75s;
+  animation-delay: -0.75s;
+}
+
+.emotion-0 g:nth-child(4):not(style) {
+  -webkit-animation-delay: -0.6666666666666666s;
+  animation-delay: -0.6666666666666666s;
+}
+
+.emotion-0 g:nth-child(5):not(style) {
+  -webkit-animation-delay: -0.5833333333333334s;
+  animation-delay: -0.5833333333333334s;
+}
+
+.emotion-0 g:nth-child(6):not(style) {
+  -webkit-animation-delay: -0.5s;
+  animation-delay: -0.5s;
+}
+
+.emotion-0 g:nth-child(7):not(style) {
+  -webkit-animation-delay: -0.4166666666666667s;
+  animation-delay: -0.4166666666666667s;
+}
+
+.emotion-0 g:nth-child(8):not(style) {
+  -webkit-animation-delay: -0.3333333333333333s;
+  animation-delay: -0.3333333333333333s;
+}
+
+.emotion-0 g:nth-child(9):not(style) {
+  -webkit-animation-delay: -0.25s;
+  animation-delay: -0.25s;
+}
+
+.emotion-0 g:nth-child(10):not(style) {
+  -webkit-animation-delay: -0.16666666666666666s;
+  animation-delay: -0.16666666666666666s;
+}
+
+.emotion-0 g:nth-child(11):not(style) {
+  -webkit-animation-delay: -0.08333333333333333s;
+  animation-delay: -0.08333333333333333s;
+}
+
+.emotion-0 g:nth-child(12):not(style) {
+  -webkit-animation-delay: 0s;
+  animation-delay: 0s;
+}
+
+.emotion-2 {
+  color: rgb(77,83,86);
+  font-family: sans-serif;
+  font-family: Lato;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  font-size: 16px;
+  line-height: 48px;
+  color: transparent;
+  font-weight: bold;
+}
+
+.emotion-3 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  -webkit-transition: 0.15s;
+  transition: 0.15s;
+  vertical-align: baseline;
+  white-space: nowrap;
+  background-color: white;
+  box-shadow: inset 0 0 0 1px #36d57d;
+  position: relative;
+  padding: 0 16px;
+}
+
+.emotion-3:active {
+  -webkit-transform: perspective(1px) scale(0.975);
+  -ms-transform: perspective(1px) scale(0.975);
+  transform: perspective(1px) scale(0.975);
+}
+
+.emotion-3:disabled,
+.emotion-3:hover:disabled,
+.emotion-3:active:disabled {
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+}
+
+.emotion-3:focus {
+  outline: 0;
+}
+
+.emotion-3:disabled,
+.emotion-3:hover:disabled,
+.emotion-3:active:disabled {
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+}
+
+.emotion-3:focus {
+  box-shadow: 0 0 0 4px #E7F2EC,inset 0 0 0 1px #36d57d;
+}
+
+.emotion-3:active {
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+}
+
+.emotion-3:focus,
+.emotion-3:hover:focus,
+.emotion-3:hover {
+  cursor: wait;
+}
+
+<button
+  class="emotion-3"
+  disabled=""
+  type="button"
+>
+  <svg
+    class="emotion-1"
+    height="16"
+    viewBox="0 0 54 54"
+    width="16"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <title>
+      Spinner
+    </title>
+    <g
+      class="emotion-0"
+      fill="#3D4251"
+      fill-rule="nonzero"
+    >
+      <g
+        transform="translate(24)"
+      >
+        <rect
+          height="12"
+          rx="3"
+          width="6"
+        />
+      </g>
+      <g
+        transform="rotate(30 15 71.785)"
+      >
+        <rect
+          height="12"
+          rx="3"
+          width="6"
+        />
+      </g>
+      <g
+        transform="rotate(60 15 47.785)"
+      >
+        <rect
+          height="12"
+          rx="3"
+          width="6"
+        />
+      </g>
+      <g
+        transform="rotate(90 15 39)"
+      >
+        <rect
+          height="12"
+          rx="3"
+          width="6"
+        />
+      </g>
+      <g
+        transform="rotate(120 15 33.928)"
+      >
+        <rect
+          height="12"
+          rx="3"
+          width="6"
+        />
+      </g>
+      <g
+        transform="rotate(150 15 30.215)"
+      >
+        <rect
+          height="12"
+          rx="3"
+          width="6"
+        />
+      </g>
+      <g
+        transform="rotate(180 15 27)"
+      >
+        <rect
+          height="12"
+          rx="3"
+          width="6"
+        />
+      </g>
+      <g
+        transform="rotate(-150 15 23.785)"
+      >
+        <rect
+          height="12"
+          rx="3"
+          width="6"
+        />
+      </g>
+      <g
+        transform="rotate(-120 15 20.072)"
+      >
+        <rect
+          height="12"
+          rx="3"
+          width="6"
+        />
+      </g>
+      <g
+        transform="rotate(-90 15 15)"
+      >
+        <rect
+          height="12"
+          rx="3"
+          width="6"
+        />
+      </g>
+      <g
+        transform="rotate(-60 15 6.215)"
+      >
+        <rect
+          height="12"
+          rx="3"
+          width="6"
+        />
+      </g>
+      <g
+        transform="rotate(-30 15 -17.785)"
+      >
+        <rect
+          height="12"
+          rx="3"
+          width="6"
+        />
+      </g>
+    </g>
+  </svg>
+  <span
+    class="emotion-2"
+  >
+    this is a button
+  </span>
+</button>
+`;
+
+exports[`<Button /> snapshots renders a button with appearance default, intent success, size small and loading false 1`] = `
+.emotion-0 {
+  color: rgb(77,83,86);
+  font-family: sans-serif;
+  font-family: Lato;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  font-size: 16px;
+  line-height: 36px;
+  color: #3d4251;
+  font-weight: bold;
+}
+
+.emotion-1 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  -webkit-transition: 0.15s;
+  transition: 0.15s;
+  vertical-align: baseline;
+  white-space: nowrap;
+  background-color: white;
+  box-shadow: inset 0 0 0 1px #36d57d;
+  padding: 0 16px;
+}
+
+.emotion-1:active {
+  -webkit-transform: perspective(1px) scale(0.975);
+  -ms-transform: perspective(1px) scale(0.975);
+  transform: perspective(1px) scale(0.975);
+}
+
+.emotion-1:disabled,
+.emotion-1:hover:disabled,
+.emotion-1:active:disabled {
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+}
+
+.emotion-1:focus {
+  outline: 0;
+}
+
+.emotion-1:disabled,
+.emotion-1:hover:disabled,
+.emotion-1:active:disabled {
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+}
+
+.emotion-1:focus {
+  box-shadow: 0 0 0 4px #E7F2EC,inset 0 0 0 1px #36d57d;
+}
+
+.emotion-1:hover {
+  box-shadow: inset 0 0 0 1px #29A360;
+}
+
+.emotion-1:hover:focus {
+  box-shadow: 0 0 0 4px #E7F2EC,inset 0 0 0 1px #29A360;
+}
+
+<button
+  class="emotion-1"
+  type="button"
+>
+  <span
+    class="emotion-0"
+  >
+    this is a button
+  </span>
+</button>
+`;
+
+exports[`<Button /> snapshots renders a button with appearance default, intent success, size small and loading true 1`] = `
 @keyframes animation-0 {
   0% {
     opacity: 0;
@@ -3564,7 +3564,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent s
 </button>
 `;
 
-exports[`<Button /> snapshots renders a button with appearance default, intent warning, size large and isLoading false 1`] = `
+exports[`<Button /> snapshots renders a button with appearance default, intent warning, size large and loading false 1`] = `
 .emotion-0 {
   color: rgb(77,83,86);
   font-family: sans-serif;
@@ -3657,7 +3657,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent w
 </button>
 `;
 
-exports[`<Button /> snapshots renders a button with appearance default, intent warning, size large and isLoading true 1`] = `
+exports[`<Button /> snapshots renders a button with appearance default, intent warning, size large and loading true 1`] = `
 @keyframes animation-0 {
   0% {
     opacity: 0;
@@ -3960,7 +3960,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent w
 </button>
 `;
 
-exports[`<Button /> snapshots renders a button with appearance default, intent warning, size medium and isLoading false 1`] = `
+exports[`<Button /> snapshots renders a button with appearance default, intent warning, size medium and loading false 1`] = `
 .emotion-0 {
   color: rgb(77,83,86);
   font-family: sans-serif;
@@ -4053,7 +4053,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent w
 </button>
 `;
 
-exports[`<Button /> snapshots renders a button with appearance default, intent warning, size medium and isLoading true 1`] = `
+exports[`<Button /> snapshots renders a button with appearance default, intent warning, size medium and loading true 1`] = `
 @keyframes animation-0 {
   0% {
     opacity: 0;
@@ -4356,7 +4356,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent w
 </button>
 `;
 
-exports[`<Button /> snapshots renders a button with appearance default, intent warning, size small and isLoading false 1`] = `
+exports[`<Button /> snapshots renders a button with appearance default, intent warning, size small and loading false 1`] = `
 .emotion-0 {
   color: rgb(77,83,86);
   font-family: sans-serif;
@@ -4449,7 +4449,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent w
 </button>
 `;
 
-exports[`<Button /> snapshots renders a button with appearance default, intent warning, size small and isLoading true 1`] = `
+exports[`<Button /> snapshots renders a button with appearance default, intent warning, size small and loading true 1`] = `
 @keyframes animation-0 {
   0% {
     opacity: 0;
@@ -4752,7 +4752,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent w
 </button>
 `;
 
-exports[`<Button /> snapshots renders a button with appearance primary, intent cta, size large and isLoading false 1`] = `
+exports[`<Button /> snapshots renders a button with appearance primary, intent cta, size large and loading false 1`] = `
 .emotion-0 {
   color: rgb(77,83,86);
   font-family: sans-serif;
@@ -4832,7 +4832,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent c
 </button>
 `;
 
-exports[`<Button /> snapshots renders a button with appearance primary, intent cta, size large and isLoading true 1`] = `
+exports[`<Button /> snapshots renders a button with appearance primary, intent cta, size large and loading true 1`] = `
 @keyframes animation-0 {
   0% {
     opacity: 0;
@@ -5126,7 +5126,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent c
 </button>
 `;
 
-exports[`<Button /> snapshots renders a button with appearance primary, intent cta, size medium and isLoading false 1`] = `
+exports[`<Button /> snapshots renders a button with appearance primary, intent cta, size medium and loading false 1`] = `
 .emotion-0 {
   color: rgb(77,83,86);
   font-family: sans-serif;
@@ -5206,7 +5206,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent c
 </button>
 `;
 
-exports[`<Button /> snapshots renders a button with appearance primary, intent cta, size medium and isLoading true 1`] = `
+exports[`<Button /> snapshots renders a button with appearance primary, intent cta, size medium and loading true 1`] = `
 @keyframes animation-0 {
   0% {
     opacity: 0;
@@ -5500,7 +5500,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent c
 </button>
 `;
 
-exports[`<Button /> snapshots renders a button with appearance primary, intent cta, size small and isLoading false 1`] = `
+exports[`<Button /> snapshots renders a button with appearance primary, intent cta, size small and loading false 1`] = `
 .emotion-0 {
   color: rgb(77,83,86);
   font-family: sans-serif;
@@ -5580,7 +5580,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent c
 </button>
 `;
 
-exports[`<Button /> snapshots renders a button with appearance primary, intent cta, size small and isLoading true 1`] = `
+exports[`<Button /> snapshots renders a button with appearance primary, intent cta, size small and loading true 1`] = `
 @keyframes animation-0 {
   0% {
     opacity: 0;
@@ -5874,7 +5874,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent c
 </button>
 `;
 
-exports[`<Button /> snapshots renders a button with appearance primary, intent danger, size large and isLoading false 1`] = `
+exports[`<Button /> snapshots renders a button with appearance primary, intent danger, size large and loading false 1`] = `
 .emotion-0 {
   color: rgb(77,83,86);
   font-family: sans-serif;
@@ -5954,7 +5954,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent d
 </button>
 `;
 
-exports[`<Button /> snapshots renders a button with appearance primary, intent danger, size large and isLoading true 1`] = `
+exports[`<Button /> snapshots renders a button with appearance primary, intent danger, size large and loading true 1`] = `
 @keyframes animation-0 {
   0% {
     opacity: 0;
@@ -6248,7 +6248,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent d
 </button>
 `;
 
-exports[`<Button /> snapshots renders a button with appearance primary, intent danger, size medium and isLoading false 1`] = `
+exports[`<Button /> snapshots renders a button with appearance primary, intent danger, size medium and loading false 1`] = `
 .emotion-0 {
   color: rgb(77,83,86);
   font-family: sans-serif;
@@ -6263,366 +6263,6 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent d
   font-weight: bold;
 }
 
-.emotion-1 {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  text-transform: capitalize;
-  -webkit-transition: 0.15s;
-  transition: 0.15s;
-  vertical-align: baseline;
-  white-space: nowrap;
-  background-color: #fe5c5c;
-  padding: 0 16px;
-}
-
-.emotion-1:active {
-  -webkit-transform: perspective(1px) scale(0.975);
-  -ms-transform: perspective(1px) scale(0.975);
-  transform: perspective(1px) scale(0.975);
-}
-
-.emotion-1:disabled,
-.emotion-1:hover:disabled,
-.emotion-1:active:disabled {
-  -webkit-transform: none;
-  -ms-transform: none;
-  transform: none;
-}
-
-.emotion-1:focus {
-  outline: 0;
-}
-
-.emotion-1:focus {
-  box-shadow: 0 0 0 4px #FEDEDE;
-}
-
-.emotion-1:hover {
-  background-color: #B64242;
-}
-
-<button
-  class="emotion-1"
-  type="button"
->
-  <span
-    class="emotion-0"
-  >
-    this is a button
-  </span>
-</button>
-`;
-
-exports[`<Button /> snapshots renders a button with appearance primary, intent danger, size medium and isLoading true 1`] = `
-@keyframes animation-0 {
-  0% {
-    opacity: 0;
-  }
-
-  100% {
-    opacity: 1;
-  }
-}
-
-.emotion-1 {
-  position: absolute;
-}
-
-.emotion-0 g {
-  -webkit-animation: animation-0 1s infinite;
-  animation: animation-0 1s infinite;
-}
-
-.emotion-0 g:nth-child(1):not(style) {
-  -webkit-animation-delay: -0.9166666666666666s;
-  animation-delay: -0.9166666666666666s;
-}
-
-.emotion-0 g:nth-child(2):not(style) {
-  -webkit-animation-delay: -0.8333333333333334s;
-  animation-delay: -0.8333333333333334s;
-}
-
-.emotion-0 g:nth-child(3):not(style) {
-  -webkit-animation-delay: -0.75s;
-  animation-delay: -0.75s;
-}
-
-.emotion-0 g:nth-child(4):not(style) {
-  -webkit-animation-delay: -0.6666666666666666s;
-  animation-delay: -0.6666666666666666s;
-}
-
-.emotion-0 g:nth-child(5):not(style) {
-  -webkit-animation-delay: -0.5833333333333334s;
-  animation-delay: -0.5833333333333334s;
-}
-
-.emotion-0 g:nth-child(6):not(style) {
-  -webkit-animation-delay: -0.5s;
-  animation-delay: -0.5s;
-}
-
-.emotion-0 g:nth-child(7):not(style) {
-  -webkit-animation-delay: -0.4166666666666667s;
-  animation-delay: -0.4166666666666667s;
-}
-
-.emotion-0 g:nth-child(8):not(style) {
-  -webkit-animation-delay: -0.3333333333333333s;
-  animation-delay: -0.3333333333333333s;
-}
-
-.emotion-0 g:nth-child(9):not(style) {
-  -webkit-animation-delay: -0.25s;
-  animation-delay: -0.25s;
-}
-
-.emotion-0 g:nth-child(10):not(style) {
-  -webkit-animation-delay: -0.16666666666666666s;
-  animation-delay: -0.16666666666666666s;
-}
-
-.emotion-0 g:nth-child(11):not(style) {
-  -webkit-animation-delay: -0.08333333333333333s;
-  animation-delay: -0.08333333333333333s;
-}
-
-.emotion-0 g:nth-child(12):not(style) {
-  -webkit-animation-delay: 0s;
-  animation-delay: 0s;
-}
-
-.emotion-2 {
-  color: rgb(77,83,86);
-  font-family: sans-serif;
-  font-family: Lato;
-  font-style: normal;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 16px;
-  font-size: 16px;
-  line-height: 48px;
-  color: transparent;
-  font-weight: bold;
-}
-
-.emotion-3 {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  text-transform: capitalize;
-  -webkit-transition: 0.15s;
-  transition: 0.15s;
-  vertical-align: baseline;
-  white-space: nowrap;
-  background-color: #fe5c5c;
-  position: relative;
-  padding: 0 16px;
-}
-
-.emotion-3:active {
-  -webkit-transform: perspective(1px) scale(0.975);
-  -ms-transform: perspective(1px) scale(0.975);
-  transform: perspective(1px) scale(0.975);
-}
-
-.emotion-3:disabled,
-.emotion-3:hover:disabled,
-.emotion-3:active:disabled {
-  -webkit-transform: none;
-  -ms-transform: none;
-  transform: none;
-}
-
-.emotion-3:focus {
-  outline: 0;
-}
-
-.emotion-3:focus {
-  box-shadow: 0 0 0 4px #FEDEDE;
-}
-
-.emotion-3:active {
-  -webkit-transform: none;
-  -ms-transform: none;
-  transform: none;
-}
-
-.emotion-3:focus,
-.emotion-3:hover:focus,
-.emotion-3:hover {
-  cursor: wait;
-}
-
-<button
-  class="emotion-3"
-  disabled=""
-  type="button"
->
-  <svg
-    class="emotion-1"
-    height="16"
-    viewBox="0 0 54 54"
-    width="16"
-    xmlns="http://www.w3.org/2000/svg"
-  >
-    <title>
-      Spinner
-    </title>
-    <g
-      class="emotion-0"
-      fill="#ffffff"
-      fill-rule="nonzero"
-    >
-      <g
-        transform="translate(24)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(30 15 71.785)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(60 15 47.785)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(90 15 39)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(120 15 33.928)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(150 15 30.215)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(180 15 27)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(-150 15 23.785)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(-120 15 20.072)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(-90 15 15)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(-60 15 6.215)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(-30 15 -17.785)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-    </g>
-  </svg>
-  <span
-    class="emotion-2"
-  >
-    this is a button
-  </span>
-</button>
-`;
-
-exports[`<Button /> snapshots renders a button with appearance primary, intent danger, size small and isLoading false 1`] = `
 .emotion-1 {
   -webkit-align-items: center;
   -webkit-box-align: center;
@@ -6676,6 +6316,366 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent d
   background-color: #B64242;
 }
 
+<button
+  class="emotion-1"
+  type="button"
+>
+  <span
+    class="emotion-0"
+  >
+    this is a button
+  </span>
+</button>
+`;
+
+exports[`<Button /> snapshots renders a button with appearance primary, intent danger, size medium and loading true 1`] = `
+@keyframes animation-0 {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.emotion-1 {
+  position: absolute;
+}
+
+.emotion-0 g {
+  -webkit-animation: animation-0 1s infinite;
+  animation: animation-0 1s infinite;
+}
+
+.emotion-0 g:nth-child(1):not(style) {
+  -webkit-animation-delay: -0.9166666666666666s;
+  animation-delay: -0.9166666666666666s;
+}
+
+.emotion-0 g:nth-child(2):not(style) {
+  -webkit-animation-delay: -0.8333333333333334s;
+  animation-delay: -0.8333333333333334s;
+}
+
+.emotion-0 g:nth-child(3):not(style) {
+  -webkit-animation-delay: -0.75s;
+  animation-delay: -0.75s;
+}
+
+.emotion-0 g:nth-child(4):not(style) {
+  -webkit-animation-delay: -0.6666666666666666s;
+  animation-delay: -0.6666666666666666s;
+}
+
+.emotion-0 g:nth-child(5):not(style) {
+  -webkit-animation-delay: -0.5833333333333334s;
+  animation-delay: -0.5833333333333334s;
+}
+
+.emotion-0 g:nth-child(6):not(style) {
+  -webkit-animation-delay: -0.5s;
+  animation-delay: -0.5s;
+}
+
+.emotion-0 g:nth-child(7):not(style) {
+  -webkit-animation-delay: -0.4166666666666667s;
+  animation-delay: -0.4166666666666667s;
+}
+
+.emotion-0 g:nth-child(8):not(style) {
+  -webkit-animation-delay: -0.3333333333333333s;
+  animation-delay: -0.3333333333333333s;
+}
+
+.emotion-0 g:nth-child(9):not(style) {
+  -webkit-animation-delay: -0.25s;
+  animation-delay: -0.25s;
+}
+
+.emotion-0 g:nth-child(10):not(style) {
+  -webkit-animation-delay: -0.16666666666666666s;
+  animation-delay: -0.16666666666666666s;
+}
+
+.emotion-0 g:nth-child(11):not(style) {
+  -webkit-animation-delay: -0.08333333333333333s;
+  animation-delay: -0.08333333333333333s;
+}
+
+.emotion-0 g:nth-child(12):not(style) {
+  -webkit-animation-delay: 0s;
+  animation-delay: 0s;
+}
+
+.emotion-2 {
+  color: rgb(77,83,86);
+  font-family: sans-serif;
+  font-family: Lato;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  font-size: 16px;
+  line-height: 48px;
+  color: transparent;
+  font-weight: bold;
+}
+
+.emotion-3 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  -webkit-transition: 0.15s;
+  transition: 0.15s;
+  vertical-align: baseline;
+  white-space: nowrap;
+  background-color: #fe5c5c;
+  position: relative;
+  padding: 0 16px;
+}
+
+.emotion-3:active {
+  -webkit-transform: perspective(1px) scale(0.975);
+  -ms-transform: perspective(1px) scale(0.975);
+  transform: perspective(1px) scale(0.975);
+}
+
+.emotion-3:disabled,
+.emotion-3:hover:disabled,
+.emotion-3:active:disabled {
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+}
+
+.emotion-3:focus {
+  outline: 0;
+}
+
+.emotion-3:focus {
+  box-shadow: 0 0 0 4px #FEDEDE;
+}
+
+.emotion-3:active {
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+}
+
+.emotion-3:focus,
+.emotion-3:hover:focus,
+.emotion-3:hover {
+  cursor: wait;
+}
+
+<button
+  class="emotion-3"
+  disabled=""
+  type="button"
+>
+  <svg
+    class="emotion-1"
+    height="16"
+    viewBox="0 0 54 54"
+    width="16"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <title>
+      Spinner
+    </title>
+    <g
+      class="emotion-0"
+      fill="#ffffff"
+      fill-rule="nonzero"
+    >
+      <g
+        transform="translate(24)"
+      >
+        <rect
+          height="12"
+          rx="3"
+          width="6"
+        />
+      </g>
+      <g
+        transform="rotate(30 15 71.785)"
+      >
+        <rect
+          height="12"
+          rx="3"
+          width="6"
+        />
+      </g>
+      <g
+        transform="rotate(60 15 47.785)"
+      >
+        <rect
+          height="12"
+          rx="3"
+          width="6"
+        />
+      </g>
+      <g
+        transform="rotate(90 15 39)"
+      >
+        <rect
+          height="12"
+          rx="3"
+          width="6"
+        />
+      </g>
+      <g
+        transform="rotate(120 15 33.928)"
+      >
+        <rect
+          height="12"
+          rx="3"
+          width="6"
+        />
+      </g>
+      <g
+        transform="rotate(150 15 30.215)"
+      >
+        <rect
+          height="12"
+          rx="3"
+          width="6"
+        />
+      </g>
+      <g
+        transform="rotate(180 15 27)"
+      >
+        <rect
+          height="12"
+          rx="3"
+          width="6"
+        />
+      </g>
+      <g
+        transform="rotate(-150 15 23.785)"
+      >
+        <rect
+          height="12"
+          rx="3"
+          width="6"
+        />
+      </g>
+      <g
+        transform="rotate(-120 15 20.072)"
+      >
+        <rect
+          height="12"
+          rx="3"
+          width="6"
+        />
+      </g>
+      <g
+        transform="rotate(-90 15 15)"
+      >
+        <rect
+          height="12"
+          rx="3"
+          width="6"
+        />
+      </g>
+      <g
+        transform="rotate(-60 15 6.215)"
+      >
+        <rect
+          height="12"
+          rx="3"
+          width="6"
+        />
+      </g>
+      <g
+        transform="rotate(-30 15 -17.785)"
+      >
+        <rect
+          height="12"
+          rx="3"
+          width="6"
+        />
+      </g>
+    </g>
+  </svg>
+  <span
+    class="emotion-2"
+  >
+    this is a button
+  </span>
+</button>
+`;
+
+exports[`<Button /> snapshots renders a button with appearance primary, intent danger, size small and loading false 1`] = `
+.emotion-1 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  -webkit-transition: 0.15s;
+  transition: 0.15s;
+  vertical-align: baseline;
+  white-space: nowrap;
+  background-color: #fe5c5c;
+  padding: 0 16px;
+}
+
+.emotion-1:active {
+  -webkit-transform: perspective(1px) scale(0.975);
+  -ms-transform: perspective(1px) scale(0.975);
+  transform: perspective(1px) scale(0.975);
+}
+
+.emotion-1:disabled,
+.emotion-1:hover:disabled,
+.emotion-1:active:disabled {
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+}
+
+.emotion-1:focus {
+  outline: 0;
+}
+
+.emotion-1:focus {
+  box-shadow: 0 0 0 4px #FEDEDE;
+}
+
+.emotion-1:hover {
+  background-color: #B64242;
+}
+
 .emotion-0 {
   color: rgb(77,83,86);
   font-family: sans-serif;
@@ -6702,7 +6702,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent d
 </button>
 `;
 
-exports[`<Button /> snapshots renders a button with appearance primary, intent danger, size small and isLoading true 1`] = `
+exports[`<Button /> snapshots renders a button with appearance primary, intent danger, size small and loading true 1`] = `
 @keyframes animation-0 {
   0% {
     opacity: 0;
@@ -6996,7 +6996,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent d
 </button>
 `;
 
-exports[`<Button /> snapshots renders a button with appearance primary, intent neutral, size large and isLoading false 1`] = `
+exports[`<Button /> snapshots renders a button with appearance primary, intent neutral, size large and loading false 1`] = `
 .emotion-1 {
   -webkit-align-items: center;
   -webkit-box-align: center;
@@ -7076,7 +7076,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent n
 </button>
 `;
 
-exports[`<Button /> snapshots renders a button with appearance primary, intent neutral, size large and isLoading true 1`] = `
+exports[`<Button /> snapshots renders a button with appearance primary, intent neutral, size large and loading true 1`] = `
 @keyframes animation-0 {
   0% {
     opacity: 0;
@@ -7370,381 +7370,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent n
 </button>
 `;
 
-exports[`<Button /> snapshots renders a button with appearance primary, intent neutral, size medium and isLoading false 1`] = `
-.emotion-1 {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  text-transform: capitalize;
-  -webkit-transition: 0.15s;
-  transition: 0.15s;
-  vertical-align: baseline;
-  white-space: nowrap;
-  background-color: #33aacc;
-  padding: 0 16px;
-}
-
-.emotion-1:active {
-  -webkit-transform: perspective(1px) scale(0.975);
-  -ms-transform: perspective(1px) scale(0.975);
-  transform: perspective(1px) scale(0.975);
-}
-
-.emotion-1:disabled,
-.emotion-1:hover:disabled,
-.emotion-1:active:disabled {
-  -webkit-transform: none;
-  -ms-transform: none;
-  transform: none;
-}
-
-.emotion-1:focus {
-  outline: 0;
-}
-
-.emotion-1:focus {
-  box-shadow: 0 0 0 4px #DCECF1;
-}
-
-.emotion-1:hover {
-  background-color: #2E8FAB;
-}
-
-.emotion-0 {
-  color: rgb(77,83,86);
-  font-family: sans-serif;
-  font-family: Lato;
-  font-style: normal;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 16px;
-  font-size: 16px;
-  line-height: 48px;
-  color: white;
-  font-weight: bold;
-}
-
-<button
-  class="emotion-1"
-  type="button"
->
-  <span
-    class="emotion-0"
-  >
-    this is a button
-  </span>
-</button>
-`;
-
-exports[`<Button /> snapshots renders a button with appearance primary, intent neutral, size medium and isLoading true 1`] = `
-@keyframes animation-0 {
-  0% {
-    opacity: 0;
-  }
-
-  100% {
-    opacity: 1;
-  }
-}
-
-.emotion-1 {
-  position: absolute;
-}
-
-.emotion-0 g {
-  -webkit-animation: animation-0 1s infinite;
-  animation: animation-0 1s infinite;
-}
-
-.emotion-0 g:nth-child(1):not(style) {
-  -webkit-animation-delay: -0.9166666666666666s;
-  animation-delay: -0.9166666666666666s;
-}
-
-.emotion-0 g:nth-child(2):not(style) {
-  -webkit-animation-delay: -0.8333333333333334s;
-  animation-delay: -0.8333333333333334s;
-}
-
-.emotion-0 g:nth-child(3):not(style) {
-  -webkit-animation-delay: -0.75s;
-  animation-delay: -0.75s;
-}
-
-.emotion-0 g:nth-child(4):not(style) {
-  -webkit-animation-delay: -0.6666666666666666s;
-  animation-delay: -0.6666666666666666s;
-}
-
-.emotion-0 g:nth-child(5):not(style) {
-  -webkit-animation-delay: -0.5833333333333334s;
-  animation-delay: -0.5833333333333334s;
-}
-
-.emotion-0 g:nth-child(6):not(style) {
-  -webkit-animation-delay: -0.5s;
-  animation-delay: -0.5s;
-}
-
-.emotion-0 g:nth-child(7):not(style) {
-  -webkit-animation-delay: -0.4166666666666667s;
-  animation-delay: -0.4166666666666667s;
-}
-
-.emotion-0 g:nth-child(8):not(style) {
-  -webkit-animation-delay: -0.3333333333333333s;
-  animation-delay: -0.3333333333333333s;
-}
-
-.emotion-0 g:nth-child(9):not(style) {
-  -webkit-animation-delay: -0.25s;
-  animation-delay: -0.25s;
-}
-
-.emotion-0 g:nth-child(10):not(style) {
-  -webkit-animation-delay: -0.16666666666666666s;
-  animation-delay: -0.16666666666666666s;
-}
-
-.emotion-0 g:nth-child(11):not(style) {
-  -webkit-animation-delay: -0.08333333333333333s;
-  animation-delay: -0.08333333333333333s;
-}
-
-.emotion-0 g:nth-child(12):not(style) {
-  -webkit-animation-delay: 0s;
-  animation-delay: 0s;
-}
-
-.emotion-2 {
-  color: rgb(77,83,86);
-  font-family: sans-serif;
-  font-family: Lato;
-  font-style: normal;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 16px;
-  font-size: 16px;
-  line-height: 48px;
-  color: transparent;
-  font-weight: bold;
-}
-
-.emotion-3 {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  text-transform: capitalize;
-  -webkit-transition: 0.15s;
-  transition: 0.15s;
-  vertical-align: baseline;
-  white-space: nowrap;
-  background-color: #33aacc;
-  position: relative;
-  padding: 0 16px;
-}
-
-.emotion-3:active {
-  -webkit-transform: perspective(1px) scale(0.975);
-  -ms-transform: perspective(1px) scale(0.975);
-  transform: perspective(1px) scale(0.975);
-}
-
-.emotion-3:disabled,
-.emotion-3:hover:disabled,
-.emotion-3:active:disabled {
-  -webkit-transform: none;
-  -ms-transform: none;
-  transform: none;
-}
-
-.emotion-3:focus {
-  outline: 0;
-}
-
-.emotion-3:focus {
-  box-shadow: 0 0 0 4px #DCECF1;
-}
-
-.emotion-3:active {
-  -webkit-transform: none;
-  -ms-transform: none;
-  transform: none;
-}
-
-.emotion-3:focus,
-.emotion-3:hover:focus,
-.emotion-3:hover {
-  cursor: wait;
-}
-
-<button
-  class="emotion-3"
-  disabled=""
-  type="button"
->
-  <svg
-    class="emotion-1"
-    height="16"
-    viewBox="0 0 54 54"
-    width="16"
-    xmlns="http://www.w3.org/2000/svg"
-  >
-    <title>
-      Spinner
-    </title>
-    <g
-      class="emotion-0"
-      fill="#ffffff"
-      fill-rule="nonzero"
-    >
-      <g
-        transform="translate(24)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(30 15 71.785)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(60 15 47.785)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(90 15 39)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(120 15 33.928)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(150 15 30.215)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(180 15 27)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(-150 15 23.785)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(-120 15 20.072)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(-90 15 15)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(-60 15 6.215)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(-30 15 -17.785)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-    </g>
-  </svg>
-  <span
-    class="emotion-2"
-  >
-    this is a button
-  </span>
-</button>
-`;
-
-exports[`<Button /> snapshots renders a button with appearance primary, intent neutral, size small and isLoading false 1`] = `
+exports[`<Button /> snapshots renders a button with appearance primary, intent neutral, size medium and loading false 1`] = `
 .emotion-1 {
   -webkit-align-items: center;
   -webkit-box-align: center;
@@ -7807,6 +7433,380 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent n
   font-weight: 400;
   line-height: 16px;
   font-size: 16px;
+  line-height: 48px;
+  color: white;
+  font-weight: bold;
+}
+
+<button
+  class="emotion-1"
+  type="button"
+>
+  <span
+    class="emotion-0"
+  >
+    this is a button
+  </span>
+</button>
+`;
+
+exports[`<Button /> snapshots renders a button with appearance primary, intent neutral, size medium and loading true 1`] = `
+@keyframes animation-0 {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.emotion-1 {
+  position: absolute;
+}
+
+.emotion-0 g {
+  -webkit-animation: animation-0 1s infinite;
+  animation: animation-0 1s infinite;
+}
+
+.emotion-0 g:nth-child(1):not(style) {
+  -webkit-animation-delay: -0.9166666666666666s;
+  animation-delay: -0.9166666666666666s;
+}
+
+.emotion-0 g:nth-child(2):not(style) {
+  -webkit-animation-delay: -0.8333333333333334s;
+  animation-delay: -0.8333333333333334s;
+}
+
+.emotion-0 g:nth-child(3):not(style) {
+  -webkit-animation-delay: -0.75s;
+  animation-delay: -0.75s;
+}
+
+.emotion-0 g:nth-child(4):not(style) {
+  -webkit-animation-delay: -0.6666666666666666s;
+  animation-delay: -0.6666666666666666s;
+}
+
+.emotion-0 g:nth-child(5):not(style) {
+  -webkit-animation-delay: -0.5833333333333334s;
+  animation-delay: -0.5833333333333334s;
+}
+
+.emotion-0 g:nth-child(6):not(style) {
+  -webkit-animation-delay: -0.5s;
+  animation-delay: -0.5s;
+}
+
+.emotion-0 g:nth-child(7):not(style) {
+  -webkit-animation-delay: -0.4166666666666667s;
+  animation-delay: -0.4166666666666667s;
+}
+
+.emotion-0 g:nth-child(8):not(style) {
+  -webkit-animation-delay: -0.3333333333333333s;
+  animation-delay: -0.3333333333333333s;
+}
+
+.emotion-0 g:nth-child(9):not(style) {
+  -webkit-animation-delay: -0.25s;
+  animation-delay: -0.25s;
+}
+
+.emotion-0 g:nth-child(10):not(style) {
+  -webkit-animation-delay: -0.16666666666666666s;
+  animation-delay: -0.16666666666666666s;
+}
+
+.emotion-0 g:nth-child(11):not(style) {
+  -webkit-animation-delay: -0.08333333333333333s;
+  animation-delay: -0.08333333333333333s;
+}
+
+.emotion-0 g:nth-child(12):not(style) {
+  -webkit-animation-delay: 0s;
+  animation-delay: 0s;
+}
+
+.emotion-2 {
+  color: rgb(77,83,86);
+  font-family: sans-serif;
+  font-family: Lato;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  font-size: 16px;
+  line-height: 48px;
+  color: transparent;
+  font-weight: bold;
+}
+
+.emotion-3 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  -webkit-transition: 0.15s;
+  transition: 0.15s;
+  vertical-align: baseline;
+  white-space: nowrap;
+  background-color: #33aacc;
+  position: relative;
+  padding: 0 16px;
+}
+
+.emotion-3:active {
+  -webkit-transform: perspective(1px) scale(0.975);
+  -ms-transform: perspective(1px) scale(0.975);
+  transform: perspective(1px) scale(0.975);
+}
+
+.emotion-3:disabled,
+.emotion-3:hover:disabled,
+.emotion-3:active:disabled {
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+}
+
+.emotion-3:focus {
+  outline: 0;
+}
+
+.emotion-3:focus {
+  box-shadow: 0 0 0 4px #DCECF1;
+}
+
+.emotion-3:active {
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+}
+
+.emotion-3:focus,
+.emotion-3:hover:focus,
+.emotion-3:hover {
+  cursor: wait;
+}
+
+<button
+  class="emotion-3"
+  disabled=""
+  type="button"
+>
+  <svg
+    class="emotion-1"
+    height="16"
+    viewBox="0 0 54 54"
+    width="16"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <title>
+      Spinner
+    </title>
+    <g
+      class="emotion-0"
+      fill="#ffffff"
+      fill-rule="nonzero"
+    >
+      <g
+        transform="translate(24)"
+      >
+        <rect
+          height="12"
+          rx="3"
+          width="6"
+        />
+      </g>
+      <g
+        transform="rotate(30 15 71.785)"
+      >
+        <rect
+          height="12"
+          rx="3"
+          width="6"
+        />
+      </g>
+      <g
+        transform="rotate(60 15 47.785)"
+      >
+        <rect
+          height="12"
+          rx="3"
+          width="6"
+        />
+      </g>
+      <g
+        transform="rotate(90 15 39)"
+      >
+        <rect
+          height="12"
+          rx="3"
+          width="6"
+        />
+      </g>
+      <g
+        transform="rotate(120 15 33.928)"
+      >
+        <rect
+          height="12"
+          rx="3"
+          width="6"
+        />
+      </g>
+      <g
+        transform="rotate(150 15 30.215)"
+      >
+        <rect
+          height="12"
+          rx="3"
+          width="6"
+        />
+      </g>
+      <g
+        transform="rotate(180 15 27)"
+      >
+        <rect
+          height="12"
+          rx="3"
+          width="6"
+        />
+      </g>
+      <g
+        transform="rotate(-150 15 23.785)"
+      >
+        <rect
+          height="12"
+          rx="3"
+          width="6"
+        />
+      </g>
+      <g
+        transform="rotate(-120 15 20.072)"
+      >
+        <rect
+          height="12"
+          rx="3"
+          width="6"
+        />
+      </g>
+      <g
+        transform="rotate(-90 15 15)"
+      >
+        <rect
+          height="12"
+          rx="3"
+          width="6"
+        />
+      </g>
+      <g
+        transform="rotate(-60 15 6.215)"
+      >
+        <rect
+          height="12"
+          rx="3"
+          width="6"
+        />
+      </g>
+      <g
+        transform="rotate(-30 15 -17.785)"
+      >
+        <rect
+          height="12"
+          rx="3"
+          width="6"
+        />
+      </g>
+    </g>
+  </svg>
+  <span
+    class="emotion-2"
+  >
+    this is a button
+  </span>
+</button>
+`;
+
+exports[`<Button /> snapshots renders a button with appearance primary, intent neutral, size small and loading false 1`] = `
+.emotion-1 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  -webkit-transition: 0.15s;
+  transition: 0.15s;
+  vertical-align: baseline;
+  white-space: nowrap;
+  background-color: #33aacc;
+  padding: 0 16px;
+}
+
+.emotion-1:active {
+  -webkit-transform: perspective(1px) scale(0.975);
+  -ms-transform: perspective(1px) scale(0.975);
+  transform: perspective(1px) scale(0.975);
+}
+
+.emotion-1:disabled,
+.emotion-1:hover:disabled,
+.emotion-1:active:disabled {
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+}
+
+.emotion-1:focus {
+  outline: 0;
+}
+
+.emotion-1:focus {
+  box-shadow: 0 0 0 4px #DCECF1;
+}
+
+.emotion-1:hover {
+  background-color: #2E8FAB;
+}
+
+.emotion-0 {
+  color: rgb(77,83,86);
+  font-family: sans-serif;
+  font-family: Lato;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  font-size: 16px;
   line-height: 36px;
   color: white;
   font-weight: bold;
@@ -7824,7 +7824,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent n
 </button>
 `;
 
-exports[`<Button /> snapshots renders a button with appearance primary, intent neutral, size small and isLoading true 1`] = `
+exports[`<Button /> snapshots renders a button with appearance primary, intent neutral, size small and loading true 1`] = `
 @keyframes animation-0 {
   0% {
     opacity: 0;
@@ -8118,7 +8118,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent n
 </button>
 `;
 
-exports[`<Button /> snapshots renders a button with appearance primary, intent success, size large and isLoading false 1`] = `
+exports[`<Button /> snapshots renders a button with appearance primary, intent success, size large and loading false 1`] = `
 .emotion-0 {
   color: rgb(77,83,86);
   font-family: sans-serif;
@@ -8198,7 +8198,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent s
 </button>
 `;
 
-exports[`<Button /> snapshots renders a button with appearance primary, intent success, size large and isLoading true 1`] = `
+exports[`<Button /> snapshots renders a button with appearance primary, intent success, size large and loading true 1`] = `
 @keyframes animation-0 {
   0% {
     opacity: 0;
@@ -8492,7 +8492,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent s
 </button>
 `;
 
-exports[`<Button /> snapshots renders a button with appearance primary, intent success, size medium and isLoading false 1`] = `
+exports[`<Button /> snapshots renders a button with appearance primary, intent success, size medium and loading false 1`] = `
 .emotion-0 {
   color: rgb(77,83,86);
   font-family: sans-serif;
@@ -8572,7 +8572,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent s
 </button>
 `;
 
-exports[`<Button /> snapshots renders a button with appearance primary, intent success, size medium and isLoading true 1`] = `
+exports[`<Button /> snapshots renders a button with appearance primary, intent success, size medium and loading true 1`] = `
 @keyframes animation-0 {
   0% {
     opacity: 0;
@@ -8866,7 +8866,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent s
 </button>
 `;
 
-exports[`<Button /> snapshots renders a button with appearance primary, intent success, size small and isLoading false 1`] = `
+exports[`<Button /> snapshots renders a button with appearance primary, intent success, size small and loading false 1`] = `
 .emotion-1 {
   -webkit-align-items: center;
   -webkit-box-align: center;
@@ -8946,7 +8946,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent s
 </button>
 `;
 
-exports[`<Button /> snapshots renders a button with appearance primary, intent success, size small and isLoading true 1`] = `
+exports[`<Button /> snapshots renders a button with appearance primary, intent success, size small and loading true 1`] = `
 @keyframes animation-0 {
   0% {
     opacity: 0;
@@ -9240,7 +9240,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent s
 </button>
 `;
 
-exports[`<Button /> snapshots renders a button with appearance primary, intent warning, size large and isLoading false 1`] = `
+exports[`<Button /> snapshots renders a button with appearance primary, intent warning, size large and loading false 1`] = `
 .emotion-0 {
   color: rgb(77,83,86);
   font-family: sans-serif;
@@ -9320,7 +9320,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent w
 </button>
 `;
 
-exports[`<Button /> snapshots renders a button with appearance primary, intent warning, size large and isLoading true 1`] = `
+exports[`<Button /> snapshots renders a button with appearance primary, intent warning, size large and loading true 1`] = `
 @keyframes animation-0 {
   0% {
     opacity: 0;
@@ -9614,7 +9614,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent w
 </button>
 `;
 
-exports[`<Button /> snapshots renders a button with appearance primary, intent warning, size medium and isLoading false 1`] = `
+exports[`<Button /> snapshots renders a button with appearance primary, intent warning, size medium and loading false 1`] = `
 .emotion-0 {
   color: rgb(77,83,86);
   font-family: sans-serif;
@@ -9694,7 +9694,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent w
 </button>
 `;
 
-exports[`<Button /> snapshots renders a button with appearance primary, intent warning, size medium and isLoading true 1`] = `
+exports[`<Button /> snapshots renders a button with appearance primary, intent warning, size medium and loading true 1`] = `
 @keyframes animation-0 {
   0% {
     opacity: 0;
@@ -9988,7 +9988,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent w
 </button>
 `;
 
-exports[`<Button /> snapshots renders a button with appearance primary, intent warning, size small and isLoading false 1`] = `
+exports[`<Button /> snapshots renders a button with appearance primary, intent warning, size small and loading false 1`] = `
 .emotion-1 {
   -webkit-align-items: center;
   -webkit-box-align: center;
@@ -10068,7 +10068,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent w
 </button>
 `;
 
-exports[`<Button /> snapshots renders a button with appearance primary, intent warning, size small and isLoading true 1`] = `
+exports[`<Button /> snapshots renders a button with appearance primary, intent warning, size small and loading true 1`] = `
 @keyframes animation-0 {
   0% {
     opacity: 0;

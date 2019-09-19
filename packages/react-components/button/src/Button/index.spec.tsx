@@ -254,10 +254,10 @@ describe('<Button />', () => {
     });
   });
 
-  describe('isLoading', () => {
-    it('renders a spinner when the prop "isLoading" is passed to the button', async () => {
+  describe('loading', () => {
+    it('renders a spinner when the prop "loading" is passed to the button', async () => {
       const { container, getByText, getByTitle } = await render(
-        <Button onClick={someFunction} isLoading>
+        <Button onClick={someFunction} loading>
           btn loading
         </Button>
       );
@@ -272,7 +272,7 @@ describe('<Button />', () => {
 
     it('renders a dark spinner when the appearance="default" (or undefined)', async () => {
       const { container } = await render(
-        <Button onClick={someFunction} isLoading>
+        <Button onClick={someFunction} loading>
           Loading
         </Button>
       );
@@ -284,7 +284,7 @@ describe('<Button />', () => {
 
     it('renders a white spinner when the appearance="primary"', async () => {
       const { container } = await render(
-        <Button appearance="primary" onClick={someFunction} isLoading>
+        <Button appearance="primary" onClick={someFunction} loading>
           Loading
         </Button>
       );
@@ -596,20 +596,20 @@ describe('<Button />', () => {
       'medium',
       'large',
     ];
-    const isLoadings: boolean[] = [true, false];
+    const loadings: boolean[] = [true, false];
     buttonSizes.forEach(size => {
       (['neutral', 'warning', 'danger', 'success'] as (
         | 'neutral'
         | 'warning'
         | 'danger'
         | 'success')[]).forEach(intent => {
-        isLoadings.forEach(isLoading => {
-          it(`renders a button with appearance default, intent ${intent}, size ${size} and isLoading ${isLoading}`, async () => {
+        loadings.forEach(loading => {
+          it(`renders a button with appearance default, intent ${intent}, size ${size} and loading ${loading}`, async () => {
             const { container } = await axeRender(
               <Button
                 appearance="default"
                 intent={intent}
-                isLoading={isLoading}
+                loading={loading}
                 onClick={someFunction}
                 size={size}
               >
@@ -629,13 +629,13 @@ describe('<Button />', () => {
         | 'warning'
         | 'danger'
         | 'success')[]).forEach(intent => {
-        isLoadings.forEach(isLoading => {
-          it(`renders a button with appearance primary, intent ${intent}, size ${size} and isLoading ${isLoading}`, async () => {
+        loadings.forEach(loading => {
+          it(`renders a button with appearance primary, intent ${intent}, size ${size} and loading ${loading}`, async () => {
             const { container } = await axeRender(
               <Button
                 appearance="primary"
                 intent={intent}
-                isLoading={isLoading}
+                loading={loading}
                 onClick={someFunction}
                 size={size}
               >
