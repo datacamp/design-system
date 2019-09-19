@@ -3,6 +3,21 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.3.0](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/form-elements/compare/@datacamp/waffles-form-elements@1.2.0...@datacamp/waffles-form-elements@1.3.0) (2019-09-19)
+
+
+### Features
+
+* add icon to input field ([0a52d3c](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/form-elements/commit/0a52d3c))
+* add id for the input ([e59327d](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/form-elements/commit/e59327d))
+* add input error message ([162c609](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/form-elements/commit/162c609))
+* add required/optional to the input ([889c409](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/form-elements/commit/889c409))
+* input sizes ([71485c1](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/form-elements/commit/71485c1))
+
+
+
+
+
 # [1.2.0](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/form-elements/compare/@datacamp/waffles-form-elements@1.1.0...@datacamp/waffles-form-elements@1.2.0) (2019-09-16)
 
 

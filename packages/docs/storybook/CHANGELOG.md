@@ -3,6 +3,28 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.21.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-storybook@1.20.0...@datacamp/waffles-storybook@1.21.0) (2019-09-19)
+
+
+### Bug Fixes
+
+* use loading on button stories ([6312702](https://github.com/datacamp/design-system/commit/6312702))
+* use loading on modal story ([7a296f2](https://github.com/datacamp/design-system/commit/7a296f2))
+
+
+### Features
+
+* add input error message story ([070fc8e](https://github.com/datacamp/design-system/commit/070fc8e))
+* add Stories for Dialog with Body/Footer ([651d100](https://github.com/datacamp/design-system/commit/651d100))
+* add story for input size ([6a102bb](https://github.com/datacamp/design-system/commit/6a102bb))
+* add story for input with icon ([ce9b69b](https://github.com/datacamp/design-system/commit/ce9b69b))
+* add story required/optional input ([592d6de](https://github.com/datacamp/design-system/commit/592d6de))
+* story for two buttons in the footer ([cac42e0](https://github.com/datacamp/design-system/commit/cac42e0))
+
+
+
+
+
 # [1.20.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-storybook@1.19.0...@datacamp/waffles-storybook@1.20.0) (2019-09-16)
 
 

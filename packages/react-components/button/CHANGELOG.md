@@ -3,6 +3,27 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [3.0.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-button@2.2.0...@datacamp/waffles-button@3.0.0) (2019-09-19)
+
+
+### Bug Fixes
+
+* button vertical align ([847b97e](https://github.com/datacamp/design-system/commit/847b97e))
+
+
+### Features
+
+* change isLoading to loading ([76b4fb3](https://github.com/datacamp/design-system/commit/76b4fb3))
+
+
+### BREAKING CHANGES
+
+* the isLoading prop is renamed to loading
+
+
+
+
+
 # [2.2.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-button@2.1.0...@datacamp/waffles-button@2.2.0) (2019-09-16)
 
 

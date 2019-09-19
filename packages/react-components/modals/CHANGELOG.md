@@ -3,6 +3,31 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/modals/compare/@datacamp/waffles-modals@1.3.0...@datacamp/waffles-modals@2.0.0) (2019-09-19)
+
+
+### Bug Fixes
+
+* button vertical align ([847b97e](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/modals/commit/847b97e))
+* use ButtonGroup to position buttons in AlertDialog ([0fc1b70](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/modals/commit/0fc1b70))
+
+
+### Features
+
+* add Dialog.Body & Dialog.Footer components ([0a5a169](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/modals/commit/0a5a169))
+* add documentation for input size ([6f8461c](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/modals/commit/6f8461c))
+* allow two buttons in the footer ([f98c298](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/modals/commit/f98c298))
+* isLoading renamed to loading ([458a44e](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/modals/commit/458a44e))
+
+
+### BREAKING CHANGES
+
+* the isLoading prop is renamed to loading
+
+
+
+
+
 # [1.3.0](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/modals/compare/@datacamp/waffles-modals@1.2.0...@datacamp/waffles-modals@1.3.0) (2019-09-16)
 
 
