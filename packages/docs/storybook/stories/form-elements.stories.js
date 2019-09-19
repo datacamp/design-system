@@ -1,5 +1,6 @@
 import Button from '@datacamp/waffles-button';
 import { Input } from '@datacamp/waffles-form-elements';
+import { AddCircleIcon } from '@datacamp/waffles-icons';
 import { storiesOf } from '@storybook/react';
 import React, { createElement, useEffect, useRef, useState } from 'react';
 
@@ -29,7 +30,7 @@ storiesOf('waffles-form-elements', module)
                 </td>
                 <td>
                   <Input
-                    name="story"
+                    name="story1"
                     onChange={() => {}}
                     value="with a value"
                   />
@@ -37,14 +38,14 @@ storiesOf('waffles-form-elements', module)
                 <td>
                   <Input
                     ref={focusRef}
-                    name="story"
+                    name="story2"
                     onChange={() => {}}
                     value="initial focus"
                   />
                 </td>
                 <td>
                   <Input
-                    name="story"
+                    name="story3"
                     onChange={setValue}
                     placeholder="editable"
                     value={value}
@@ -52,7 +53,7 @@ storiesOf('waffles-form-elements', module)
                 </td>
                 <td>
                   <Input
-                    name="story"
+                    name="story4"
                     onChange={() => {}}
                     placeholder="disabled"
                     value=""
@@ -164,6 +165,63 @@ storiesOf('waffles-form-elements', module)
             name="story5"
             onChange={() => {}}
             placeholder="with label"
+            value=""
+          />
+        </div>
+      );
+    });
+  })
+  .add('Input with icon', () => {
+    return createElement(() => {
+      const focusRef = useRef();
+      useEffect(() => {
+        if (focusRef && focusRef.current) {
+          focusRef.current.focus();
+        }
+      }, [focusRef]);
+
+      return (
+        <div>
+          <Input
+            icon={<AddCircleIcon />}
+            label="Test label"
+            name="story8"
+            onChange={() => {}}
+            placeholder="with icon and label"
+            value=""
+          />
+
+          <Input
+            icon={<AddCircleIcon />}
+            label="Test label"
+            name="story9"
+            onChange={() => {}}
+            placeholder="with icon and label"
+            value=""
+          />
+
+          <Input
+            icon={<AddCircleIcon />}
+            name="story5"
+            onChange={() => {}}
+            placeholder="with icon"
+            value=""
+          />
+          <Input
+            icon={<AddCircleIcon />}
+            name="story6"
+            onChange={() => {}}
+            placeholder="with icon"
+            size="large"
+            value=""
+          />
+
+          <Input
+            icon={<AddCircleIcon />}
+            name="story7"
+            onChange={() => {}}
+            placeholder="with icon"
+            size="small"
             value=""
           />
         </div>
