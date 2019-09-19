@@ -226,6 +226,44 @@ describe('<Input />', () => {
       );
       expect(getByText(testError)).toHaveStyle(`font-size: '14px`);
     });
+
+    it('renders the indication "required" above the input field if required is passed as a prop ', () => {
+      const testLabel = 'label text';
+
+      const { getByText } = render(
+        <Input
+          label={testLabel}
+          name={testName}
+          onChange={() => {}}
+          value={testValue}
+          required
+        />
+      );
+      expect(getByText('required')).toBeInTheDocument();
+      expect(getByText('required')).toHaveStyle(
+        `color: ${tokens.color.opaque.greyOslo.value.hex}`
+      );
+      expect(getByText('required')).toHaveStyle(`font-size: '14px`);
+    });
+
+    it('renders the indication "optional" above the input field if required={false} is passed as a prop ', () => {
+      const testLabel = 'label text';
+
+      const { getByText } = render(
+        <Input
+          label={testLabel}
+          name={testName}
+          onChange={() => {}}
+          required={false}
+          value={testValue}
+        />
+      );
+      expect(getByText('optional')).toBeInTheDocument();
+      expect(getByText('optional')).toHaveStyle(
+        `color: ${tokens.color.opaque.greyOslo.value.hex}`
+      );
+      expect(getByText('optional')).toHaveStyle(`font-size: '14px`);
+    });
   });
 });
 
@@ -237,22 +275,28 @@ describe('snapshots', () => {
     'medium',
     'large',
   ];
+  const disabled: boolean[] = [true, false];
+  const required: (boolean | undefined)[] = [undefined, true, false];
 
-  const isDisabled: boolean[] = [true, false];
   inputSizes.forEach(size => {
-    isDisabled.forEach(disabled => {
-      it(`renders an input with size ${size} and disabled ${disabled}`, async () => {
-        const { container } = render(
-          <Input
-            disabled={disabled}
-            name={exampleText}
-            onChange={() => {}}
-            placeholder={exampleText}
-            size={size}
-            value=""
-          />
-        );
-        expect(container.firstChild).toMatchSnapshot();
+    required.forEach(isRequired => {
+      disabled.forEach(isDisabled => {
+        it(`renders an input with size ${size}, disabled=${isDisabled}, required=${isRequired}`, async () => {
+          const { container } = await render(
+            <Input
+              disabled={isDisabled}
+              errorMessage="test error"
+              label="test label"
+              name={exampleText}
+              onChange={() => {}}
+              placeholder={exampleText}
+              required={isRequired}
+              size={size}
+              value=""
+            />
+          );
+          expect(container.firstChild).toMatchSnapshot();
+        });
       });
     });
   });
