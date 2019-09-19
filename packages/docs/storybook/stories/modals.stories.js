@@ -54,7 +54,7 @@ storiesOf('waffles-modals', module)
               () => alert('confirmed!!') // eslint-disable-line no-alert
             }
             title="Your content is loading"
-            isLoading
+            loading
           />
         </>
       );
