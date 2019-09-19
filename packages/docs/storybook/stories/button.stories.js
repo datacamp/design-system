@@ -302,121 +302,121 @@ storiesOf('waffles-button', module)
         </tr>
         <tr>
           <td>
-            <Button isLoading>isLoading</Button>
+            <Button loading>isLoading</Button>
           </td>
           <td>
-            <Button intent="danger" isLoading>
+            <Button intent="danger" loading>
               isLoading
             </Button>
           </td>
           <td>
-            <Button intent="success" isLoading>
+            <Button intent="success" loading>
               isLoading
             </Button>
           </td>
           <td>
-            <Button intent="warning" isLoading>
-              isLoading
-            </Button>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <Button appearance="primary" isLoading>
-              isLoading
-            </Button>
-          </td>
-          <td>
-            <Button appearance="primary" intent="danger" isLoading>
-              isLoading
-            </Button>
-          </td>
-          <td>
-            <Button appearance="primary" intent="success" isLoading>
-              isLoading
-            </Button>
-          </td>
-          <td>
-            <Button appearance="primary" intent="warning" isLoading>
-              isLoading
-            </Button>
-          </td>
-          <td>
-            <Button appearance="primary" intent="cta" isLoading>
+            <Button intent="warning" loading>
               isLoading
             </Button>
           </td>
         </tr>
         <tr>
           <td>
-            <Button size="large" isLoading>
+            <Button appearance="primary" loading>
               isLoading
             </Button>
           </td>
           <td>
-            <Button intent="danger" size="large" isLoading>
+            <Button appearance="primary" intent="danger" loading>
               isLoading
             </Button>
           </td>
           <td>
-            <Button intent="success" size="large" isLoading>
+            <Button appearance="primary" intent="success" loading>
               isLoading
             </Button>
           </td>
           <td>
-            <Button intent="warning" size="large" isLoading>
+            <Button appearance="primary" intent="warning" loading>
               isLoading
             </Button>
           </td>
           <td>
-            <Button appearance="primary" intent="cta" size="large" isLoading>
-              isLoading
-            </Button>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <Button size="small" isLoading>
-              isLoading
-            </Button>
-          </td>
-          <td>
-            <Button intent="danger" size="small" isLoading>
-              isLoading
-            </Button>
-          </td>
-          <td>
-            <Button intent="success" size="small" isLoading>
-              isLoading
-            </Button>
-          </td>
-          <td>
-            <Button intent="warning" size="small" isLoading>
+            <Button appearance="primary" intent="cta" loading>
               isLoading
             </Button>
           </td>
         </tr>
         <tr>
           <td>
-            <Button isLoading>test different sizes</Button>
+            <Button size="large" loading>
+              isLoading
+            </Button>
           </td>
           <td>
-            <Button intent="danger" isLoading>
+            <Button intent="danger" size="large" loading>
+              isLoading
+            </Button>
+          </td>
+          <td>
+            <Button intent="success" size="large" loading>
+              isLoading
+            </Button>
+          </td>
+          <td>
+            <Button intent="warning" size="large" loading>
+              isLoading
+            </Button>
+          </td>
+          <td>
+            <Button appearance="primary" intent="cta" size="large" loading>
+              isLoading
+            </Button>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <Button size="small" loading>
+              isLoading
+            </Button>
+          </td>
+          <td>
+            <Button intent="danger" size="small" loading>
+              isLoading
+            </Button>
+          </td>
+          <td>
+            <Button intent="success" size="small" loading>
+              isLoading
+            </Button>
+          </td>
+          <td>
+            <Button intent="warning" size="small" loading>
+              isLoading
+            </Button>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <Button loading>test different sizes</Button>
+          </td>
+          <td>
+            <Button intent="danger" loading>
               test different sizes
             </Button>
           </td>
           <td>
-            <Button intent="success" size="large" isLoading>
+            <Button intent="success" size="large" loading>
               test different sizes
             </Button>
           </td>
           <td>
-            <Button intent="warning" size="small" isLoading>
+            <Button intent="warning" size="small" loading>
               test different sizes
             </Button>
           </td>
           <td>
-            <Button appearance="primary" intent="cta" size="small" isLoading>
+            <Button appearance="primary" intent="cta" size="small" loading>
               test different sizes
             </Button>
           </td>
@@ -598,50 +598,50 @@ storiesOf('waffles-button', module)
         </tr>
         <tr>
           <td>
-            <Button appearance="primary" intent="danger" isLoading>
+            <Button appearance="primary" intent="danger" loading>
               <AddCircleIcon />
             </Button>
           </td>
           <td>
-            <Button appearance="primary" intent="warning" isLoading>
+            <Button appearance="primary" intent="warning" loading>
               <AddCircleIcon />
             </Button>
           </td>
           <td>
-            <Button appearance="primary" intent="success" isLoading>
+            <Button appearance="primary" intent="success" loading>
               <AddCircleIcon />
             </Button>
           </td>
 
           <td>
-            <Button appearance="primary" isLoading>
+            <Button appearance="primary" loading>
               <AddCircleIcon />
             </Button>
           </td>
           <td>
-            <Button appearance="primary" intent="cta" isLoading>
+            <Button appearance="primary" intent="cta" loading>
               <AddCircleIcon />
             </Button>
           </td>
         </tr>
         <tr>
           <td>
-            <Button intent="danger" isLoading>
+            <Button intent="danger" loading>
               <AddCircleIcon />
             </Button>
           </td>
           <td>
-            <Button intent="warning" isLoading>
+            <Button intent="warning" loading>
               <AddCircleIcon />
             </Button>
           </td>
           <td>
-            <Button intent="success" isLoading>
+            <Button intent="success" loading>
               <AddCircleIcon />
             </Button>
           </td>
           <td>
-            <Button isLoading>
+            <Button loading>
               <AddCircleIcon />
             </Button>
           </td>
@@ -707,7 +707,7 @@ storiesOf('waffles-button', module)
         </tr>
         <tr>
           <td>
-            <Button appearance="primary" intent="danger" isLoading>
+            <Button appearance="primary" intent="danger" loading>
               Add
               <AddCircleIcon />
             </Button>
