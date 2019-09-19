@@ -213,16 +213,16 @@ describe('<AlertModal />', () => {
     });
   });
 
-  describe('isLoading', () => {
-    it('renders a loading confirm button when isLoading', async () => {
+  describe('loading', () => {
+    it('renders a loading confirm button when loading', async () => {
       const { getByText, getByTitle } = await axeRender(
         <AlertDialog
           description="test description"
           onClose={() => {}}
           onConfirm={() => {}}
           title="test title"
-          isLoading
           isOpen
+          loading
         />,
         getRenderOptions()
       );
@@ -235,7 +235,7 @@ describe('<AlertModal />', () => {
       expect(confirmButtonElement).toContainElement(spinnerElement);
     });
 
-    it('disables the X button when isLoading', async () => {
+    it('disables the X button when loading', async () => {
       const onClose = jest.fn();
 
       const { getByTitle } = await axeRender(
@@ -244,8 +244,8 @@ describe('<AlertModal />', () => {
           onClose={onClose}
           onConfirm={() => {}}
           title="test title"
-          isLoading
           isOpen
+          loading
         />,
         getRenderOptions()
       );
@@ -256,7 +256,7 @@ describe('<AlertModal />', () => {
       expect(onClose).not.toHaveBeenCalled();
     });
 
-    it("doesn't close when clicking the Cancel button if isLoading", async () => {
+    it("doesn't close when clicking the Cancel button if loading", async () => {
       const onClose = jest.fn();
 
       const { getByText } = await axeRender(
@@ -265,8 +265,8 @@ describe('<AlertModal />', () => {
           onClose={onClose}
           onConfirm={() => {}}
           title="test title"
-          isLoading
           isOpen
+          loading
         />,
         getRenderOptions()
       );
@@ -277,7 +277,7 @@ describe('<AlertModal />', () => {
       expect(onClose).not.toHaveBeenCalled();
     });
 
-    it("doesn't close when clicking the background overlay if isLoading", async () => {
+    it("doesn't close when clicking the background overlay if loading", async () => {
       const onClose = jest.fn();
       const { baseElement } = await axeRender(
         <AlertDialog
@@ -285,8 +285,8 @@ describe('<AlertModal />', () => {
           onClose={onClose}
           onConfirm={() => {}}
           title="test title"
-          isLoading
           isOpen
+          loading
         />,
         getRenderOptions()
       );
@@ -300,7 +300,7 @@ describe('<AlertModal />', () => {
       expect(onClose).not.toHaveBeenCalled();
     });
 
-    it("doesn't close when clicking escape if isLoading", async () => {
+    it("doesn't close when clicking escape if loading", async () => {
       const onClose = jest.fn();
       const { getByRole } = await axeRender(
         <AlertDialog
@@ -308,8 +308,8 @@ describe('<AlertModal />', () => {
           onClose={onClose}
           onConfirm={() => {}}
           title="test title"
-          isLoading
           isOpen
+          loading
         />,
         getRenderOptions()
       );

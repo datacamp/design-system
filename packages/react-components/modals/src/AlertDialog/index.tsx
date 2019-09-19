@@ -11,8 +11,8 @@ interface AlertModalProps {
   dataAttributes?: { [key: string]: string };
   description: string;
   intent?: 'neutral' | 'success' | 'warning' | 'danger';
-  isLoading?: boolean;
   isOpen: boolean;
+  loading?: boolean;
   onClose: (origin: CloseOrigin) => void;
   onConfirm: () => void;
   title: string;
@@ -25,7 +25,7 @@ const AlertDialog: React.FC<AlertModalProps> = ({
   dataAttributes,
   description,
   intent = 'neutral',
-  isLoading = false,
+  loading = false,
   isOpen,
   onClose,
   onConfirm,
@@ -49,15 +49,15 @@ const AlertDialog: React.FC<AlertModalProps> = ({
 
   return (
     <BaseDialog
-      closeButtonDisabled={isLoading}
+      closeButtonDisabled={loading}
       contentLabel="Alert dialog"
       dataAttributes={dataAttributes}
       hideCloseButton={false}
       isOpen={isOpen}
       onAfterOpen={onAfterOpen}
       onClose={onClose}
-      shouldCloseOnEsc={!isLoading}
-      shouldCloseOnOverlayClick={!isLoading}
+      shouldCloseOnEsc={!loading}
+      shouldCloseOnOverlayClick={!loading}
       width="480px"
     >
       <div css={css({ padding: 32, textAlign: 'center' })}>
@@ -68,7 +68,7 @@ const AlertDialog: React.FC<AlertModalProps> = ({
         <ButtonGroup css={{ marginTop: 24 }}>
           <Button
             ref={cancelButtonRef}
-            disabled={isLoading}
+            disabled={loading}
             onClick={onCancelButton}
           >
             {cancelButtonText}
@@ -77,7 +77,7 @@ const AlertDialog: React.FC<AlertModalProps> = ({
             ref={confirmButtonRef}
             appearance="primary"
             intent={intent}
-            isLoading={isLoading}
+            loading={loading}
             onClick={onConfirm}
           >
             {confirmButtonText}
