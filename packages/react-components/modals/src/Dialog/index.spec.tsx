@@ -2,6 +2,7 @@ import '@testing-library/jest-dom/extend-expect';
 
 import axeRender from '@datacamp/waffles-axe-render';
 import Button from '@datacamp/waffles-button';
+import tokens from '@datacamp/waffles-tokens/lib/future-tokens.json';
 import { fireEvent, RenderOptions } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import * as React from 'react';
@@ -264,6 +265,26 @@ describe('<Dialog />', () => {
     expect(getByText(testTitle)).toBeInTheDocument();
     expect(getByText('children')).toBeInTheDocument();
     expect(getByText('Button')).toBeInTheDocument();
+
+    // expect(baseElement).toMatchSnapshot();
+  });
+
+  it('renders two buttons in the Footer with space in between', async () => {
+    const { container } = await axeRender(
+      <Dialog.Footer>
+        <Button onClick={() => {}}>Button1</Button>
+        <Button onClick={() => {}}>Button2</Button>
+      </Dialog.Footer>,
+      getRenderOptions()
+    );
+
+    expect(container.firstChild).toHaveStyle(`justifyContent: space-between`);
+    expect(container.firstChild).toHaveStyle(
+      `paddingLeft: ${tokens.size.space[16].value}`
+    );
+    expect(container.firstChild).toHaveStyle(
+      `paddingRight: ${tokens.size.space[16].value}`
+    );
 
     // expect(baseElement).toMatchSnapshot();
   });
