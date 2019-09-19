@@ -1,4 +1,5 @@
 import { Input } from '@datacamp/waffles-form-elements';
+import { AddCircleIcon } from '@datacamp/waffles-icons';
 import { Code, Heading, Paragraph } from '@datacamp/waffles-text';
 import { Page } from 'catalog';
 import React from 'react';
@@ -153,6 +154,22 @@ export default () => {
                   <th>id</th>
                   <td>string - optional</td>
                   <td>It sets an unique input id </td>
+                  <th>icon</th>
+                  <td>ReactElement - optional</td>
+                  <td>
+                    It renders a waffle icon inside the input field. The icon
+                    component needs to be passed as a prop, as follows:
+                    <tr>
+                      <td>
+                        <LazyLiveEditCells
+                          code={`<Input
+                                  icon={<AddCircleIcon/>}
+                                /> `}
+                          scope={{ AddCircleIcon, Input }}
+                        />
+                      </td>
+                    </tr>
+                  </td>
                 </tr>
                 <tr className="dc-table__tr">
                   <th>required </th>
