@@ -43,6 +43,7 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.6.0",
+    "@datacamp/waffles-icons": "^1.5.0",
     "@datacamp/waffles-text": "^0.12.4",
     "@datacamp/waffles-tokens": "^0.6.1",
     "@datacamp/waffles-utils": "^1.1.2",

@@ -28,26 +28,37 @@ const inputStyle = css({
     tokens.asset.font.sansSerif.value,
   ],
   margin: 0,
-  padding: `${tokens.size.space[8].value}px ${tokens.size.space[16].value}px`,
   verticalAlign: 'baseline',
 });
 
 const inputSizes = {
   large: {
     fontSize: 20,
-    height: 64,
-    padding: `0 ${tokens.size.space[24].value}  `,
+    height: tokens.size.space[64].value,
+    padding: `0 ${tokens.size.space[24].value}px  `,
   },
   medium: {
     fontSize: 16,
-    height: 48,
-    padding: `0 ${tokens.size.space[16].value}  `,
+    height: tokens.size.space[48].value,
+    padding: `0 ${tokens.size.space[16].value}px  `,
   },
   small: {
     fontSize: 16,
-    height: 36,
-    padding: `0 ${tokens.size.space[12].value}  `,
+    height: tokens.size.space[36].value,
+    padding: `0 ${tokens.size.space[12].value}px  `,
   },
 };
 
-export { inputSizes, inputStyle };
+const paddings = {
+  large: { padding: `0 ${tokens.size.space[48].value}px` },
+  medium: { padding: `0 ${tokens.size.space[36].value}px  ` },
+  small: { padding: `0 ${tokens.size.space[36].value}px  ` },
+};
+
+const iconSize = {
+  large: 24,
+  medium: 18,
+  small: 12,
+};
+
+export { inputSizes, inputStyle, iconSize, paddings };
