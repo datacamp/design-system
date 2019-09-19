@@ -154,6 +154,16 @@ export default () => {
                   <td>string - optional</td>
                   <td>It sets an unique input id </td>
                 </tr>
+                <tr className="dc-table__tr">
+                  <th>required </th>
+                  <td>boolean- optional</td>
+                  <td>
+                    Adds a required or optional indication. If required=true it
+                    adds the text &quot;required&quot; on the top-right of the
+                    input, if required=false it adds &quot;optional&quot; The
+                    default value is undefined, which doesn&apos;t add anything.
+                  </td>
+                </tr>
               </tbody>
             </table>
           </div>
