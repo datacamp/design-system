@@ -64,16 +64,20 @@ interface InputProps {
    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/text#placeholder
    */
   placeholder?: string;
+  /*
+   * It defines wheter the input field is required or not. If required=true it adds the text 'required' on the top-right of the input, if required=false it adds 'optional'. The default value is undefined, which doesn't add anything.
+   */
+  required?: boolean;
   /**
    * Select the size for the input element.
    */
   size?: 'small' | 'medium' | 'large';
+
   /**
    * The value of the input. This should be controlled by listening to onChange.
    */
   value: string;
 }
-
 const labelStyle = css({
   display: 'block',
   marginTop: tokens.size.space[16].value,
@@ -95,6 +99,12 @@ const errorMessageStyle = css({
   marginTop: tokens.size.space[8].value,
 });
 
+const requiredStyle = css({
+  color: tokens.color.opaque.greyOslo.value.hex,
+  display: 'inline-block',
+  fontSize: '14px',
+});
+
 const Input = forwardRef<HTMLInputElement, InputProps>(
   (
     {
@@ -102,7 +112,7 @@ const Input = forwardRef<HTMLInputElement, InputProps>(
       className,
       dataAttributes,
       disabled = false,
-      errorMessage,
+      errorMessage = undefined,
       id,
       label,
       maxLength,
@@ -111,6 +121,7 @@ const Input = forwardRef<HTMLInputElement, InputProps>(
       onChange,
       placeholder,
       size = 'medium',
+      required = undefined,
       value,
     },
     ref
@@ -129,34 +140,51 @@ const Input = forwardRef<HTMLInputElement, InputProps>(
     );
 
     const inputElement = (
-      <input
-        ref={ref}
-        autoComplete={autocomplete}
-        className={className}
-        css={getInputStyle}
-        disabled={disabled}
-        id={id}
-        maxLength={maxLength}
-        name={name}
-        onBlur={handleBlur}
-        onChange={handleChange}
-        placeholder={placeholder}
-        value={value}
-        {...parsedDataAttributes}
-      />
+      <>
+        <input
+          ref={ref}
+          autoComplete={autocomplete}
+          className={className}
+          css={getInputStyle}
+          disabled={disabled}
+          id={id}
+          maxLength={maxLength}
+          name={name}
+          onBlur={handleBlur}
+          onChange={handleChange}
+          placeholder={placeholder}
+          value={value}
+          {...parsedDataAttributes}
+        />
+      </>
     );
 
     return (
       <>
         {label ? (
-          // eslint-disable-next-line jsx-a11y/label-has-for
-          <label css={labelStyle} htmlFor={id}>
-            <Text css={textStyle}>{label}</Text>
-            {inputElement}
-            {errorMessage && (
-              <Text css={errorMessageStyle}>{errorMessage}</Text>
-            )}
-          </label>
+          <>
+            {/* eslint-disable-next-line jsx-a11y/label-has-for */}
+            <label css={labelStyle} htmlFor={id}>
+              <span
+                css={{
+                  display: 'inline-flex',
+                  justifyContent: 'space-between',
+                  width: '100%',
+                }}
+              >
+                <Text css={textStyle}>{label}</Text>
+                {required !== undefined && (
+                  <Text css={requiredStyle}>
+                    {required ? 'required' : 'optional'}
+                  </Text>
+                )}
+              </span>
+              {inputElement}
+              {errorMessage && (
+                <Text css={errorMessageStyle}>{errorMessage}</Text>
+              )}
+            </label>
+          </>
         ) : (
           <>{inputElement}</>
         )}
