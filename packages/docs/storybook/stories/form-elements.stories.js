@@ -108,6 +108,13 @@ storiesOf('waffles-form-elements', module)
         <div>
           <Input
             label="Test label"
+            name="story"
+            onChange={() => {}}
+            placeholder="with label"
+            value=""
+          />
+          <Input
+            label="Another test label"
             name="story1"
             onChange={() => {}}
             placeholder="with label"
@@ -128,10 +135,27 @@ storiesOf('waffles-form-elements', module)
             value=""
           />
           <Input
+            errorMessage="This is not right"
             label="Another test label"
             name="story4"
             onChange={() => {}}
-            placeholder="with label"
+            placeholder="with error"
+            value=""
+          />
+          <Input
+            label="Another test label"
+            name="story4"
+            onChange={() => {}}
+            placeholder="Required"
+            value=""
+            required
+          />
+          <Input
+            label="Another test label"
+            name="story5"
+            onChange={() => {}}
+            placeholder="Not required"
+            required={false}
             value=""
           />
           <Input
