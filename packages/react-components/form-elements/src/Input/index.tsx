@@ -4,10 +4,10 @@ import {
   computeDataAttributes,
   ssrSafeFirstChildSelector,
 } from '@datacamp/waffles-utils';
-import { css } from '@emotion/core';
-import React, { forwardRef } from 'react';
+import { ClassNames, css } from '@emotion/core';
+import React, { forwardRef, ReactElement } from 'react';
 
-import { inputSizes, inputStyle } from './inputStyle';
+import { iconSize, inputSizes, inputStyle, paddings } from './inputStyle';
 
 interface InputProps {
   /**
@@ -32,6 +32,10 @@ interface InputProps {
    * It shows an error message under the input field.
    */
   errorMessage?: string;
+  /*
+   * It renders an icon inside the input field
+   */
+  icon?: ReactElement;
   /*
    * Sets an unique input id
    */
@@ -114,6 +118,7 @@ const Input = forwardRef<HTMLInputElement, InputProps>(
       disabled = false,
       errorMessage = undefined,
       id,
+      icon,
       label,
       maxLength,
       name,
@@ -136,11 +141,33 @@ const Input = forwardRef<HTMLInputElement, InputProps>(
     const getInputStyle = css(
       inputSizes[size],
       inputStyle,
+      icon && paddings[size],
       label && css({ width: '100%' })
+    );
+
+    const iconStyle = css({
+      display: 'inline-block',
+      left: tokens.size.space[12].value,
+      position: 'absolute',
+      top: (inputSizes[size].height - iconSize[size]) / 2,
+    });
+
+    const iconElement = icon && (
+      <div css={{ position: 'relative' }}>
+        <ClassNames>
+          {({ css: getClassName }) =>
+            React.cloneElement(icon, {
+              className: getClassName(iconStyle),
+              size: iconSize[size],
+            })
+          }
+        </ClassNames>
+      </div>
     );
 
     const inputElement = (
       <>
+        {iconElement}
         <input
           ref={ref}
           autoComplete={autocomplete}

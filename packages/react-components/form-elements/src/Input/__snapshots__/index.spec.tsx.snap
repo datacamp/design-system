@@ -66,7 +66,7 @@ exports[`snapshots renders an input with size large, disabled=false, required=fa
 .emotion-3 {
   font-size: 20px;
   height: 64px;
-  padding: 0 24;
+  padding: 0 24px;
   background: white;
   border: 0;
   border-radius: 4px;
@@ -77,7 +77,6 @@ exports[`snapshots renders an input with size large, disabled=false, required=fa
   font-family: sans-serif;
   font-family: Lato;
   margin: 0;
-  padding: 8px 16px;
   vertical-align: baseline;
   width: 100%;
 }
@@ -226,7 +225,7 @@ exports[`snapshots renders an input with size large, disabled=false, required=tr
 .emotion-3 {
   font-size: 20px;
   height: 64px;
-  padding: 0 24;
+  padding: 0 24px;
   background: white;
   border: 0;
   border-radius: 4px;
@@ -237,7 +236,6 @@ exports[`snapshots renders an input with size large, disabled=false, required=tr
   font-family: sans-serif;
   font-family: Lato;
   margin: 0;
-  padding: 8px 16px;
   vertical-align: baseline;
   width: 100%;
 }
@@ -373,7 +371,7 @@ exports[`snapshots renders an input with size large, disabled=false, required=un
 .emotion-2 {
   font-size: 20px;
   height: 64px;
-  padding: 0 24;
+  padding: 0 24px;
   background: white;
   border: 0;
   border-radius: 4px;
@@ -384,7 +382,6 @@ exports[`snapshots renders an input with size large, disabled=false, required=un
   font-family: sans-serif;
   font-family: Lato;
   margin: 0;
-  padding: 8px 16px;
   vertical-align: baseline;
   width: 100%;
 }
@@ -528,7 +525,7 @@ exports[`snapshots renders an input with size large, disabled=true, required=fal
 .emotion-3 {
   font-size: 20px;
   height: 64px;
-  padding: 0 24;
+  padding: 0 24px;
   background: white;
   border: 0;
   border-radius: 4px;
@@ -539,7 +536,6 @@ exports[`snapshots renders an input with size large, disabled=true, required=fal
   font-family: sans-serif;
   font-family: Lato;
   margin: 0;
-  padding: 8px 16px;
   vertical-align: baseline;
   width: 100%;
 }
@@ -689,7 +685,7 @@ exports[`snapshots renders an input with size large, disabled=true, required=tru
 .emotion-3 {
   font-size: 20px;
   height: 64px;
-  padding: 0 24;
+  padding: 0 24px;
   background: white;
   border: 0;
   border-radius: 4px;
@@ -700,7 +696,6 @@ exports[`snapshots renders an input with size large, disabled=true, required=tru
   font-family: sans-serif;
   font-family: Lato;
   margin: 0;
-  padding: 8px 16px;
   vertical-align: baseline;
   width: 100%;
 }
@@ -837,7 +832,7 @@ exports[`snapshots renders an input with size large, disabled=true, required=und
 .emotion-2 {
   font-size: 20px;
   height: 64px;
-  padding: 0 24;
+  padding: 0 24px;
   background: white;
   border: 0;
   border-radius: 4px;
@@ -848,7 +843,6 @@ exports[`snapshots renders an input with size large, disabled=true, required=und
   font-family: sans-serif;
   font-family: Lato;
   margin: 0;
-  padding: 8px 16px;
   vertical-align: baseline;
   width: 100%;
 }
@@ -966,7 +960,7 @@ exports[`snapshots renders an input with size medium, disabled=false, required=f
 .emotion-3 {
   font-size: 16px;
   height: 48px;
-  padding: 0 16;
+  padding: 0 16px;
   background: white;
   border: 0;
   border-radius: 4px;
@@ -977,7 +971,6 @@ exports[`snapshots renders an input with size medium, disabled=false, required=f
   font-family: sans-serif;
   font-family: Lato;
   margin: 0;
-  padding: 8px 16px;
   vertical-align: baseline;
   width: 100%;
 }
@@ -1126,7 +1119,7 @@ exports[`snapshots renders an input with size medium, disabled=false, required=t
 .emotion-3 {
   font-size: 16px;
   height: 48px;
-  padding: 0 16;
+  padding: 0 16px;
   background: white;
   border: 0;
   border-radius: 4px;
@@ -1137,7 +1130,6 @@ exports[`snapshots renders an input with size medium, disabled=false, required=t
   font-family: sans-serif;
   font-family: Lato;
   margin: 0;
-  padding: 8px 16px;
   vertical-align: baseline;
   width: 100%;
 }
@@ -1286,7 +1278,7 @@ exports[`snapshots renders an input with size medium, disabled=false, required=u
 .emotion-2 {
   font-size: 16px;
   height: 48px;
-  padding: 0 16;
+  padding: 0 16px;
   background: white;
   border: 0;
   border-radius: 4px;
@@ -1297,7 +1289,6 @@ exports[`snapshots renders an input with size medium, disabled=false, required=u
   font-family: sans-serif;
   font-family: Lato;
   margin: 0;
-  padding: 8px 16px;
   vertical-align: baseline;
   width: 100%;
 }
@@ -1428,7 +1419,7 @@ exports[`snapshots renders an input with size medium, disabled=true, required=fa
 .emotion-3 {
   font-size: 16px;
   height: 48px;
-  padding: 0 16;
+  padding: 0 16px;
   background: white;
   border: 0;
   border-radius: 4px;
@@ -1439,7 +1430,6 @@ exports[`snapshots renders an input with size medium, disabled=true, required=fa
   font-family: sans-serif;
   font-family: Lato;
   margin: 0;
-  padding: 8px 16px;
   vertical-align: baseline;
   width: 100%;
 }
@@ -1589,7 +1579,7 @@ exports[`snapshots renders an input with size medium, disabled=true, required=tr
 .emotion-3 {
   font-size: 16px;
   height: 48px;
-  padding: 0 16;
+  padding: 0 16px;
   background: white;
   border: 0;
   border-radius: 4px;
@@ -1600,7 +1590,6 @@ exports[`snapshots renders an input with size medium, disabled=true, required=tr
   font-family: sans-serif;
   font-family: Lato;
   margin: 0;
-  padding: 8px 16px;
   vertical-align: baseline;
   width: 100%;
 }
@@ -1750,7 +1739,7 @@ exports[`snapshots renders an input with size medium, disabled=true, required=un
 .emotion-2 {
   font-size: 16px;
   height: 48px;
-  padding: 0 16;
+  padding: 0 16px;
   background: white;
   border: 0;
   border-radius: 4px;
@@ -1761,7 +1750,6 @@ exports[`snapshots renders an input with size medium, disabled=true, required=un
   font-family: sans-serif;
   font-family: Lato;
   margin: 0;
-  padding: 8px 16px;
   vertical-align: baseline;
   width: 100%;
 }
@@ -1920,7 +1908,7 @@ exports[`snapshots renders an input with size small, disabled=false, required=fa
 .emotion-3 {
   font-size: 16px;
   height: 36px;
-  padding: 0 12;
+  padding: 0 12px;
   background: white;
   border: 0;
   border-radius: 4px;
@@ -1931,7 +1919,6 @@ exports[`snapshots renders an input with size small, disabled=false, required=fa
   font-family: sans-serif;
   font-family: Lato;
   margin: 0;
-  padding: 8px 16px;
   vertical-align: baseline;
   width: 100%;
 }
@@ -2080,7 +2067,7 @@ exports[`snapshots renders an input with size small, disabled=false, required=tr
 .emotion-3 {
   font-size: 16px;
   height: 36px;
-  padding: 0 12;
+  padding: 0 12px;
   background: white;
   border: 0;
   border-radius: 4px;
@@ -2091,7 +2078,6 @@ exports[`snapshots renders an input with size small, disabled=false, required=tr
   font-family: sans-serif;
   font-family: Lato;
   margin: 0;
-  padding: 8px 16px;
   vertical-align: baseline;
   width: 100%;
 }
@@ -2227,7 +2213,7 @@ exports[`snapshots renders an input with size small, disabled=false, required=un
 .emotion-2 {
   font-size: 16px;
   height: 36px;
-  padding: 0 12;
+  padding: 0 12px;
   background: white;
   border: 0;
   border-radius: 4px;
@@ -2238,7 +2224,6 @@ exports[`snapshots renders an input with size small, disabled=false, required=un
   font-family: sans-serif;
   font-family: Lato;
   margin: 0;
-  padding: 8px 16px;
   vertical-align: baseline;
   width: 100%;
 }
@@ -2382,7 +2367,7 @@ exports[`snapshots renders an input with size small, disabled=true, required=fal
 .emotion-3 {
   font-size: 16px;
   height: 36px;
-  padding: 0 12;
+  padding: 0 12px;
   background: white;
   border: 0;
   border-radius: 4px;
@@ -2393,7 +2378,6 @@ exports[`snapshots renders an input with size small, disabled=true, required=fal
   font-family: sans-serif;
   font-family: Lato;
   margin: 0;
-  padding: 8px 16px;
   vertical-align: baseline;
   width: 100%;
 }
@@ -2543,7 +2527,7 @@ exports[`snapshots renders an input with size small, disabled=true, required=tru
 .emotion-3 {
   font-size: 16px;
   height: 36px;
-  padding: 0 12;
+  padding: 0 12px;
   background: white;
   border: 0;
   border-radius: 4px;
@@ -2554,7 +2538,6 @@ exports[`snapshots renders an input with size small, disabled=true, required=tru
   font-family: sans-serif;
   font-family: Lato;
   margin: 0;
-  padding: 8px 16px;
   vertical-align: baseline;
   width: 100%;
 }
@@ -2691,7 +2674,7 @@ exports[`snapshots renders an input with size small, disabled=true, required=und
 .emotion-2 {
   font-size: 16px;
   height: 36px;
-  padding: 0 12;
+  padding: 0 12px;
   background: white;
   border: 0;
   border-radius: 4px;
@@ -2702,7 +2685,6 @@ exports[`snapshots renders an input with size small, disabled=true, required=und
   font-family: sans-serif;
   font-family: Lato;
   margin: 0;
-  padding: 8px 16px;
   vertical-align: baseline;
   width: 100%;
 }
