@@ -46,15 +46,22 @@ export default () => {
                     code={`() => {
   const [value, setValue] = React.useState('');
   return (
+    <>
     <Input
       name="test"
       onChange={setValue}
       placeholder="placeholder text"
       value={value}
     />
+    <Input      
+    icon={<AddCircleIcon/>}
+    label="Label"
+    placeholder="an input with label and icon"
+                                />
+                                </>
   )
 }`}
-                    scope={{ Input }}
+                    scope={{ AddCircleIcon, Input }}
                   />
                 </tr>
               </tbody>
@@ -154,21 +161,13 @@ export default () => {
                   <th>id</th>
                   <td>string - optional</td>
                   <td>It sets an unique input id </td>
+                </tr>
+                <tr className="dc-table__tr">
                   <th>icon</th>
                   <td>ReactElement - optional</td>
                   <td>
                     It renders a waffle icon inside the input field. The icon
-                    component needs to be passed as a prop, as follows:
-                    <tr>
-                      <td>
-                        <LazyLiveEditCells
-                          code={`<Input
-                                  icon={<AddCircleIcon/>}
-                                /> `}
-                          scope={{ AddCircleIcon, Input }}
-                        />
-                      </td>
-                    </tr>
+                    component needs to be passed as a prop.
                   </td>
                 </tr>
                 <tr className="dc-table__tr">
