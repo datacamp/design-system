@@ -43,7 +43,8 @@ Footer.propTypes = {
         ])
       )
     ),
-    childrenOfType(Button).isRequired,
+    PropTypes.oneOfType([childrenOfType(ButtonGroup), childrenOfType(Button)])
+      .isRequired,
   ]),
 };
 
