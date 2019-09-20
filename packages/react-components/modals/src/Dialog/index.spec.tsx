@@ -1,7 +1,7 @@
 import '@testing-library/jest-dom/extend-expect';
 
 import axeRender from '@datacamp/waffles-axe-render';
-import Button from '@datacamp/waffles-button';
+import Button, { ButtonGroup } from '@datacamp/waffles-button';
 import tokens from '@datacamp/waffles-tokens/lib/future-tokens.json';
 import { fireEvent, RenderOptions } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
@@ -292,8 +292,10 @@ describe('<Dialog />', () => {
   it('renders a ButtonGroup in the Footer', async () => {
     const { getByText } = await axeRender(
       <Dialog.Footer>
-        <Button onClick={() => {}}>Button1</Button>
-        <Button onClick={() => {}}>Button2</Button>
+        <ButtonGroup>
+          <Button onClick={() => {}}>Button1</Button>
+          <Button onClick={() => {}}>Button2</Button>
+        </ButtonGroup>
       </Dialog.Footer>,
       getRenderOptions()
     );
@@ -301,7 +303,7 @@ describe('<Dialog />', () => {
     expect(getByText('Button1')).toBeInTheDocument();
     expect(getByText('Button2')).toBeInTheDocument();
     expect(getByText('Button2')).toHaveStyle(
-      `marginLeft: tokens.size.space[16].value`
+      `marginLeft: ${tokens.size.space[16].value}`
     );
 
     // expect(baseElement).toMatchSnapshot();
