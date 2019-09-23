@@ -39,7 +39,7 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.6.0",
-    "@types/react-native": "^0.60.14",
+    "@types/react-native": "^0.60.15",
     "react-native-svg": "^9.9.4"
   },
   "peerDependencies": {
