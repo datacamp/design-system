@@ -8,7 +8,6 @@ import PropTypes from 'prop-types';
 import React, { ComponentProps, ReactElement } from 'react';
 
 import {
-  baseColors,
   baseLoadingStyle,
   baseStyle,
   disabledColors,
@@ -103,9 +102,7 @@ const Button: React.FC<ButtonProps & { innerRef?: React.Ref<any> }> = props => {
   const outlineTextColor = disabled
     ? tokens.color.opaque.greyLight.value.hex
     : tokens.color.opaque.greyDark.value.hex;
-  const outlineIconColor = disabled
-    ? disabledColors[intent]
-    : baseColors[intent];
+  const outlineIconColor = disabled ? disabledColors[intent] : 'currentColor';
 
   const ctaTextColor = intent === 'cta' ? outlineTextColor : 'white';
 
