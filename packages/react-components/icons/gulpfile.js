@@ -1,3 +1,4 @@
+/* eslint-disable no-param-reassign */
 const { src, dest, series, parallel } = require('gulp');
 const rename = require('gulp-rename');
 const merge = require('merge-stream');
@@ -10,6 +11,7 @@ const ts = require('gulp-typescript');
 const svgSprite = require('gulp-svg-sprite');
 const zip = require('gulp-zip');
 const svgoConfig = require('./svgorc.json');
+const sharp = require('sharp');
 
 function loadAllSVGs() {
   return merge(
@@ -88,14 +90,12 @@ function buildTypescriptWebComponents() {
       })
     )
     .pipe(
-      /* eslint-disable no-param-reassign  */
       rename(path => {
         path.basename = generateComponentName(
           `${path.basename}${path.extname}`
         );
         path.extname = '.tsx';
       })
-      /* eslint-enable no-param-reassign  */
     )
     .pipe(dest('./build/web'));
 }
@@ -137,14 +137,12 @@ function buildTypescriptMobileComponents() {
       })
     )
     .pipe(
-      /* eslint-disable no-param-reassign  */
       rename(path => {
         path.basename = generateComponentName(
           `${path.basename}${path.extname}`
         );
         path.extname = '.tsx';
       })
-      /* eslint-enable no-param-reassign  */
     )
     .pipe(dest('./build/mobile'));
 }
@@ -234,8 +232,48 @@ function generateSprites() {
     .pipe(dest('./sprites'));
 }
 
-function generateZip() {
+function loadResizedColorSVGs({ color, suffix }) {
   return loadAllSVGs()
+    .pipe(
+      transform('utf8', content =>
+        content
+          .replace(/#3AC/g, color)
+          .replace('width="18" height="18"', 'width="512" height="512"')
+      )
+    )
+    .pipe(
+      rename(path => {
+        path.dirname += `/${path.basename}`;
+        path.basename += suffix;
+      })
+    );
+}
+
+function generatePNG() {
+  return merge([
+    loadResizedColorSVGs({ color: '#33aacc', suffix: '-primary' }),
+    loadResizedColorSVGs({ color: '#ffffff', suffix: '-white' }),
+    loadResizedColorSVGs({ color: '#3d4251', suffix: '-darkGrey' }),
+  ])
+    .pipe(
+      transform(content =>
+        sharp(content)
+          .png()
+          .toBuffer()
+      )
+    )
+    .pipe(rename({ extname: '.png' }));
+}
+
+function generateZip() {
+  return merge([
+    loadAllSVGs().pipe(
+      rename(path => {
+        path.dirname += `/${path.basename}`;
+      })
+    ),
+    generatePNG(),
+  ])
     .pipe(zip('icons.zip'))
     .pipe(dest('./zip'));
 }
