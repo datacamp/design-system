@@ -14,24 +14,35 @@ interface ButtonGroupProps {
 const ButtonGroup = ({
   children,
   className,
-}: ButtonGroupProps): React.ReactElement => (
-  <div
-    className={className}
-    css={{ display: 'inline-block', whiteSpace: 'nowrap' }}
-  >
-    <ClassNames>
-      {({ css }) =>
-        React.Children.map(children, (child, index) =>
-          React.cloneElement(child, {
-            className: css({
-              marginLeft: index > 0 ? tokens.size.space[16].value : 0,
-            }),
+}: ButtonGroupProps): React.ReactElement => {
+  const childrenProps = React.Children.map(children, ({ props }) => props);
+
+  if (!childrenProps.every(({ size }) => size === childrenProps[0].size)) {
+    throw Error('All Buttons in ButtonGroup must be the same size');
+  }
+
+  return (
+    <div
+      className={className}
+      css={{ display: 'inline-flex', whiteSpace: 'nowrap' }}
+    >
+      <ClassNames>
+        {({ css }) =>
+          React.Children.map(children, (child, index) => {
+            return React.cloneElement(child, {
+              className: css({
+                marginLeft:
+                  index > 0 && childrenProps[0].appearance !== 'primary'
+                    ? tokens.size.space[16].value
+                    : 0,
+              }),
+            });
           })
-        )
-      }
-    </ClassNames>
-  </div>
-);
+        }
+      </ClassNames>
+    </div>
+  );
+};
 
 ButtonGroup.propTypes = {
   children: PropTypes.arrayOf(childrenOfType(Button).isRequired).isRequired,
