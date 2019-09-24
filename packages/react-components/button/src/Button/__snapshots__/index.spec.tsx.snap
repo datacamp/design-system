@@ -10,7 +10,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent d
   font-weight: 400;
   line-height: 16px;
   font-size: 20px;
-  line-height: 64px;
+  line-height: 62px;
   color: #3d4251;
   font-weight: bold;
 }
@@ -22,6 +22,8 @@ exports[`<Button /> snapshots renders a button with appearance default, intent d
   align-items: center;
   border: none;
   border-radius: 4px;
+  border-style: solid;
+  border-width: 1px;
   cursor: pointer;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -39,9 +41,9 @@ exports[`<Button /> snapshots renders a button with appearance default, intent d
   vertical-align: baseline;
   white-space: nowrap;
   background-color: white;
-  box-shadow: inset 0 0 0 1px #fe5c5c;
+  border-color: #fe5c5c;
   color: #fe5c5c;
-  padding: 0 32px;
+  padding: 0 31px;
 }
 
 .emotion-1:active {
@@ -62,25 +64,12 @@ exports[`<Button /> snapshots renders a button with appearance default, intent d
   outline: 0;
 }
 
-.emotion-1:disabled,
-.emotion-1:hover:disabled,
-.emotion-1:active:disabled {
-  -webkit-transform: none;
-  -ms-transform: none;
-  transform: none;
-}
-
 .emotion-1:focus {
-  box-shadow: 0 0 0 4px #FEDEDE,inset 0 0 0 1px #fe5c5c;
+  box-shadow: 0 0 0 4px #FEDEDE;
 }
 
 .emotion-1:hover {
-  box-shadow: inset 0 0 0 1px #B64242;
-  color: #B64242;
-}
-
-.emotion-1:hover:focus {
-  box-shadow: 0 0 0 4px #FEDEDE,inset 0 0 0 1px #B64242;
+  border-color: #B64242;
 }
 
 <button
@@ -184,7 +173,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent d
   font-weight: 400;
   line-height: 16px;
   font-size: 20px;
-  line-height: 64px;
+  line-height: 62px;
   color: transparent;
   font-weight: bold;
 }
@@ -196,6 +185,8 @@ exports[`<Button /> snapshots renders a button with appearance default, intent d
   align-items: center;
   border: none;
   border-radius: 4px;
+  border-style: solid;
+  border-width: 1px;
   cursor: pointer;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -213,10 +204,10 @@ exports[`<Button /> snapshots renders a button with appearance default, intent d
   vertical-align: baseline;
   white-space: nowrap;
   background-color: white;
-  box-shadow: inset 0 0 0 1px #fe5c5c;
+  border-color: #fe5c5c;
   color: #fe5c5c;
   position: relative;
-  padding: 0 32px;
+  padding: 0 31px;
 }
 
 .emotion-3:active {
@@ -237,16 +228,8 @@ exports[`<Button /> snapshots renders a button with appearance default, intent d
   outline: 0;
 }
 
-.emotion-3:disabled,
-.emotion-3:hover:disabled,
-.emotion-3:active:disabled {
-  -webkit-transform: none;
-  -ms-transform: none;
-  transform: none;
-}
-
 .emotion-3:focus {
-  box-shadow: 0 0 0 4px #FEDEDE,inset 0 0 0 1px #fe5c5c;
+  box-shadow: 0 0 0 4px #FEDEDE;
 }
 
 .emotion-3:active {
@@ -409,7 +392,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent d
   font-weight: 400;
   line-height: 16px;
   font-size: 16px;
-  line-height: 48px;
+  line-height: 46px;
   color: #3d4251;
   font-weight: bold;
 }
@@ -421,6 +404,8 @@ exports[`<Button /> snapshots renders a button with appearance default, intent d
   align-items: center;
   border: none;
   border-radius: 4px;
+  border-style: solid;
+  border-width: 1px;
   cursor: pointer;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -438,9 +423,9 @@ exports[`<Button /> snapshots renders a button with appearance default, intent d
   vertical-align: baseline;
   white-space: nowrap;
   background-color: white;
-  box-shadow: inset 0 0 0 1px #fe5c5c;
+  border-color: #fe5c5c;
   color: #fe5c5c;
-  padding: 0 16px;
+  padding: 0 15px;
 }
 
 .emotion-1:active {
@@ -461,25 +446,12 @@ exports[`<Button /> snapshots renders a button with appearance default, intent d
   outline: 0;
 }
 
-.emotion-1:disabled,
-.emotion-1:hover:disabled,
-.emotion-1:active:disabled {
-  -webkit-transform: none;
-  -ms-transform: none;
-  transform: none;
-}
-
 .emotion-1:focus {
-  box-shadow: 0 0 0 4px #FEDEDE,inset 0 0 0 1px #fe5c5c;
+  box-shadow: 0 0 0 4px #FEDEDE;
 }
 
 .emotion-1:hover {
-  box-shadow: inset 0 0 0 1px #B64242;
-  color: #B64242;
-}
-
-.emotion-1:hover:focus {
-  box-shadow: 0 0 0 4px #FEDEDE,inset 0 0 0 1px #B64242;
+  border-color: #B64242;
 }
 
 <button
@@ -583,7 +555,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent d
   font-weight: 400;
   line-height: 16px;
   font-size: 16px;
-  line-height: 48px;
+  line-height: 46px;
   color: transparent;
   font-weight: bold;
 }
@@ -595,6 +567,8 @@ exports[`<Button /> snapshots renders a button with appearance default, intent d
   align-items: center;
   border: none;
   border-radius: 4px;
+  border-style: solid;
+  border-width: 1px;
   cursor: pointer;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -612,10 +586,10 @@ exports[`<Button /> snapshots renders a button with appearance default, intent d
   vertical-align: baseline;
   white-space: nowrap;
   background-color: white;
-  box-shadow: inset 0 0 0 1px #fe5c5c;
+  border-color: #fe5c5c;
   color: #fe5c5c;
   position: relative;
-  padding: 0 16px;
+  padding: 0 15px;
 }
 
 .emotion-3:active {
@@ -636,16 +610,8 @@ exports[`<Button /> snapshots renders a button with appearance default, intent d
   outline: 0;
 }
 
-.emotion-3:disabled,
-.emotion-3:hover:disabled,
-.emotion-3:active:disabled {
-  -webkit-transform: none;
-  -ms-transform: none;
-  transform: none;
-}
-
 .emotion-3:focus {
-  box-shadow: 0 0 0 4px #FEDEDE,inset 0 0 0 1px #fe5c5c;
+  box-shadow: 0 0 0 4px #FEDEDE;
 }
 
 .emotion-3:active {
@@ -808,7 +774,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent d
   font-weight: 400;
   line-height: 16px;
   font-size: 16px;
-  line-height: 36px;
+  line-height: 34px;
   color: #3d4251;
   font-weight: bold;
 }
@@ -820,6 +786,8 @@ exports[`<Button /> snapshots renders a button with appearance default, intent d
   align-items: center;
   border: none;
   border-radius: 4px;
+  border-style: solid;
+  border-width: 1px;
   cursor: pointer;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -837,9 +805,9 @@ exports[`<Button /> snapshots renders a button with appearance default, intent d
   vertical-align: baseline;
   white-space: nowrap;
   background-color: white;
-  box-shadow: inset 0 0 0 1px #fe5c5c;
+  border-color: #fe5c5c;
   color: #fe5c5c;
-  padding: 0 16px;
+  padding: 0 15px;
 }
 
 .emotion-1:active {
@@ -860,25 +828,12 @@ exports[`<Button /> snapshots renders a button with appearance default, intent d
   outline: 0;
 }
 
-.emotion-1:disabled,
-.emotion-1:hover:disabled,
-.emotion-1:active:disabled {
-  -webkit-transform: none;
-  -ms-transform: none;
-  transform: none;
-}
-
 .emotion-1:focus {
-  box-shadow: 0 0 0 4px #FEDEDE,inset 0 0 0 1px #fe5c5c;
+  box-shadow: 0 0 0 4px #FEDEDE;
 }
 
 .emotion-1:hover {
-  box-shadow: inset 0 0 0 1px #B64242;
-  color: #B64242;
-}
-
-.emotion-1:hover:focus {
-  box-shadow: 0 0 0 4px #FEDEDE,inset 0 0 0 1px #B64242;
+  border-color: #B64242;
 }
 
 <button
@@ -982,7 +937,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent d
   font-weight: 400;
   line-height: 16px;
   font-size: 16px;
-  line-height: 36px;
+  line-height: 34px;
   color: transparent;
   font-weight: bold;
 }
@@ -994,6 +949,8 @@ exports[`<Button /> snapshots renders a button with appearance default, intent d
   align-items: center;
   border: none;
   border-radius: 4px;
+  border-style: solid;
+  border-width: 1px;
   cursor: pointer;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -1011,10 +968,10 @@ exports[`<Button /> snapshots renders a button with appearance default, intent d
   vertical-align: baseline;
   white-space: nowrap;
   background-color: white;
-  box-shadow: inset 0 0 0 1px #fe5c5c;
+  border-color: #fe5c5c;
   color: #fe5c5c;
   position: relative;
-  padding: 0 16px;
+  padding: 0 15px;
 }
 
 .emotion-3:active {
@@ -1035,16 +992,8 @@ exports[`<Button /> snapshots renders a button with appearance default, intent d
   outline: 0;
 }
 
-.emotion-3:disabled,
-.emotion-3:hover:disabled,
-.emotion-3:active:disabled {
-  -webkit-transform: none;
-  -ms-transform: none;
-  transform: none;
-}
-
 .emotion-3:focus {
-  box-shadow: 0 0 0 4px #FEDEDE,inset 0 0 0 1px #fe5c5c;
+  box-shadow: 0 0 0 4px #FEDEDE;
 }
 
 .emotion-3:active {
@@ -1205,6 +1154,8 @@ exports[`<Button /> snapshots renders a button with appearance default, intent n
   align-items: center;
   border: none;
   border-radius: 4px;
+  border-style: solid;
+  border-width: 1px;
   cursor: pointer;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -1222,9 +1173,9 @@ exports[`<Button /> snapshots renders a button with appearance default, intent n
   vertical-align: baseline;
   white-space: nowrap;
   background-color: white;
-  box-shadow: inset 0 0 0 1px #33aacc;
+  border-color: #33aacc;
   color: #33aacc;
-  padding: 0 32px;
+  padding: 0 31px;
 }
 
 .emotion-1:active {
@@ -1245,25 +1196,12 @@ exports[`<Button /> snapshots renders a button with appearance default, intent n
   outline: 0;
 }
 
-.emotion-1:disabled,
-.emotion-1:hover:disabled,
-.emotion-1:active:disabled {
-  -webkit-transform: none;
-  -ms-transform: none;
-  transform: none;
-}
-
 .emotion-1:focus {
-  box-shadow: 0 0 0 4px #DCECF1,inset 0 0 0 1px #33aacc;
+  box-shadow: 0 0 0 4px #DCECF1;
 }
 
 .emotion-1:hover {
-  box-shadow: inset 0 0 0 1px #2E8FAB;
-  color: #2E8FAB;
-}
-
-.emotion-1:hover:focus {
-  box-shadow: 0 0 0 4px #DCECF1,inset 0 0 0 1px #2E8FAB;
+  border-color: #2E8FAB;
 }
 
 .emotion-0 {
@@ -1275,7 +1213,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent n
   font-weight: 400;
   line-height: 16px;
   font-size: 20px;
-  line-height: 64px;
+  line-height: 62px;
   color: #3d4251;
   font-weight: bold;
 }
@@ -1379,6 +1317,8 @@ exports[`<Button /> snapshots renders a button with appearance default, intent n
   align-items: center;
   border: none;
   border-radius: 4px;
+  border-style: solid;
+  border-width: 1px;
   cursor: pointer;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -1396,10 +1336,10 @@ exports[`<Button /> snapshots renders a button with appearance default, intent n
   vertical-align: baseline;
   white-space: nowrap;
   background-color: white;
-  box-shadow: inset 0 0 0 1px #33aacc;
+  border-color: #33aacc;
   color: #33aacc;
   position: relative;
-  padding: 0 32px;
+  padding: 0 31px;
 }
 
 .emotion-3:active {
@@ -1420,16 +1360,8 @@ exports[`<Button /> snapshots renders a button with appearance default, intent n
   outline: 0;
 }
 
-.emotion-3:disabled,
-.emotion-3:hover:disabled,
-.emotion-3:active:disabled {
-  -webkit-transform: none;
-  -ms-transform: none;
-  transform: none;
-}
-
 .emotion-3:focus {
-  box-shadow: 0 0 0 4px #DCECF1,inset 0 0 0 1px #33aacc;
+  box-shadow: 0 0 0 4px #DCECF1;
 }
 
 .emotion-3:active {
@@ -1453,7 +1385,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent n
   font-weight: 400;
   line-height: 16px;
   font-size: 20px;
-  line-height: 64px;
+  line-height: 62px;
   color: transparent;
   font-weight: bold;
 }
@@ -1604,6 +1536,8 @@ exports[`<Button /> snapshots renders a button with appearance default, intent n
   align-items: center;
   border: none;
   border-radius: 4px;
+  border-style: solid;
+  border-width: 1px;
   cursor: pointer;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -1621,9 +1555,9 @@ exports[`<Button /> snapshots renders a button with appearance default, intent n
   vertical-align: baseline;
   white-space: nowrap;
   background-color: white;
-  box-shadow: inset 0 0 0 1px #33aacc;
+  border-color: #33aacc;
   color: #33aacc;
-  padding: 0 16px;
+  padding: 0 15px;
 }
 
 .emotion-1:active {
@@ -1644,25 +1578,12 @@ exports[`<Button /> snapshots renders a button with appearance default, intent n
   outline: 0;
 }
 
-.emotion-1:disabled,
-.emotion-1:hover:disabled,
-.emotion-1:active:disabled {
-  -webkit-transform: none;
-  -ms-transform: none;
-  transform: none;
-}
-
 .emotion-1:focus {
-  box-shadow: 0 0 0 4px #DCECF1,inset 0 0 0 1px #33aacc;
+  box-shadow: 0 0 0 4px #DCECF1;
 }
 
 .emotion-1:hover {
-  box-shadow: inset 0 0 0 1px #2E8FAB;
-  color: #2E8FAB;
-}
-
-.emotion-1:hover:focus {
-  box-shadow: 0 0 0 4px #DCECF1,inset 0 0 0 1px #2E8FAB;
+  border-color: #2E8FAB;
 }
 
 .emotion-0 {
@@ -1674,7 +1595,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent n
   font-weight: 400;
   line-height: 16px;
   font-size: 16px;
-  line-height: 48px;
+  line-height: 46px;
   color: #3d4251;
   font-weight: bold;
 }
@@ -1709,6 +1630,8 @@ exports[`<Button /> snapshots renders a button with appearance default, intent n
   align-items: center;
   border: none;
   border-radius: 4px;
+  border-style: solid;
+  border-width: 1px;
   cursor: pointer;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -1726,10 +1649,10 @@ exports[`<Button /> snapshots renders a button with appearance default, intent n
   vertical-align: baseline;
   white-space: nowrap;
   background-color: white;
-  box-shadow: inset 0 0 0 1px #33aacc;
+  border-color: #33aacc;
   color: #33aacc;
   position: relative;
-  padding: 0 16px;
+  padding: 0 15px;
 }
 
 .emotion-3:active {
@@ -1750,16 +1673,8 @@ exports[`<Button /> snapshots renders a button with appearance default, intent n
   outline: 0;
 }
 
-.emotion-3:disabled,
-.emotion-3:hover:disabled,
-.emotion-3:active:disabled {
-  -webkit-transform: none;
-  -ms-transform: none;
-  transform: none;
-}
-
 .emotion-3:focus {
-  box-shadow: 0 0 0 4px #DCECF1,inset 0 0 0 1px #33aacc;
+  box-shadow: 0 0 0 4px #DCECF1;
 }
 
 .emotion-3:active {
@@ -1852,7 +1767,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent n
   font-weight: 400;
   line-height: 16px;
   font-size: 16px;
-  line-height: 48px;
+  line-height: 46px;
   color: transparent;
   font-weight: bold;
 }
@@ -2003,6 +1918,8 @@ exports[`<Button /> snapshots renders a button with appearance default, intent n
   align-items: center;
   border: none;
   border-radius: 4px;
+  border-style: solid;
+  border-width: 1px;
   cursor: pointer;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -2020,9 +1937,9 @@ exports[`<Button /> snapshots renders a button with appearance default, intent n
   vertical-align: baseline;
   white-space: nowrap;
   background-color: white;
-  box-shadow: inset 0 0 0 1px #33aacc;
+  border-color: #33aacc;
   color: #33aacc;
-  padding: 0 16px;
+  padding: 0 15px;
 }
 
 .emotion-1:active {
@@ -2043,25 +1960,12 @@ exports[`<Button /> snapshots renders a button with appearance default, intent n
   outline: 0;
 }
 
-.emotion-1:disabled,
-.emotion-1:hover:disabled,
-.emotion-1:active:disabled {
-  -webkit-transform: none;
-  -ms-transform: none;
-  transform: none;
-}
-
 .emotion-1:focus {
-  box-shadow: 0 0 0 4px #DCECF1,inset 0 0 0 1px #33aacc;
+  box-shadow: 0 0 0 4px #DCECF1;
 }
 
 .emotion-1:hover {
-  box-shadow: inset 0 0 0 1px #2E8FAB;
-  color: #2E8FAB;
-}
-
-.emotion-1:hover:focus {
-  box-shadow: 0 0 0 4px #DCECF1,inset 0 0 0 1px #2E8FAB;
+  border-color: #2E8FAB;
 }
 
 .emotion-0 {
@@ -2073,7 +1977,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent n
   font-weight: 400;
   line-height: 16px;
   font-size: 16px;
-  line-height: 36px;
+  line-height: 34px;
   color: #3d4251;
   font-weight: bold;
 }
@@ -2108,6 +2012,8 @@ exports[`<Button /> snapshots renders a button with appearance default, intent n
   align-items: center;
   border: none;
   border-radius: 4px;
+  border-style: solid;
+  border-width: 1px;
   cursor: pointer;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -2125,10 +2031,10 @@ exports[`<Button /> snapshots renders a button with appearance default, intent n
   vertical-align: baseline;
   white-space: nowrap;
   background-color: white;
-  box-shadow: inset 0 0 0 1px #33aacc;
+  border-color: #33aacc;
   color: #33aacc;
   position: relative;
-  padding: 0 16px;
+  padding: 0 15px;
 }
 
 .emotion-3:active {
@@ -2149,16 +2055,8 @@ exports[`<Button /> snapshots renders a button with appearance default, intent n
   outline: 0;
 }
 
-.emotion-3:disabled,
-.emotion-3:hover:disabled,
-.emotion-3:active:disabled {
-  -webkit-transform: none;
-  -ms-transform: none;
-  transform: none;
-}
-
 .emotion-3:focus {
-  box-shadow: 0 0 0 4px #DCECF1,inset 0 0 0 1px #33aacc;
+  box-shadow: 0 0 0 4px #DCECF1;
 }
 
 .emotion-3:active {
@@ -2251,7 +2149,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent n
   font-weight: 400;
   line-height: 16px;
   font-size: 16px;
-  line-height: 36px;
+  line-height: 34px;
   color: transparent;
   font-weight: bold;
 }
@@ -2404,7 +2302,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent s
   font-weight: 400;
   line-height: 16px;
   font-size: 20px;
-  line-height: 64px;
+  line-height: 62px;
   color: #3d4251;
   font-weight: bold;
 }
@@ -2416,6 +2314,8 @@ exports[`<Button /> snapshots renders a button with appearance default, intent s
   align-items: center;
   border: none;
   border-radius: 4px;
+  border-style: solid;
+  border-width: 1px;
   cursor: pointer;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -2433,9 +2333,9 @@ exports[`<Button /> snapshots renders a button with appearance default, intent s
   vertical-align: baseline;
   white-space: nowrap;
   background-color: white;
-  box-shadow: inset 0 0 0 1px #36d57d;
+  border-color: #36d57d;
   color: #36d57d;
-  padding: 0 32px;
+  padding: 0 31px;
 }
 
 .emotion-1:active {
@@ -2456,25 +2356,12 @@ exports[`<Button /> snapshots renders a button with appearance default, intent s
   outline: 0;
 }
 
-.emotion-1:disabled,
-.emotion-1:hover:disabled,
-.emotion-1:active:disabled {
-  -webkit-transform: none;
-  -ms-transform: none;
-  transform: none;
-}
-
 .emotion-1:focus {
-  box-shadow: 0 0 0 4px #E7F2EC,inset 0 0 0 1px #36d57d;
+  box-shadow: 0 0 0 4px #E7F2EC;
 }
 
 .emotion-1:hover {
-  box-shadow: inset 0 0 0 1px #29A360;
-  color: #29A360;
-}
-
-.emotion-1:hover:focus {
-  box-shadow: 0 0 0 4px #E7F2EC,inset 0 0 0 1px #29A360;
+  border-color: #29A360;
 }
 
 <button
@@ -2578,7 +2465,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent s
   font-weight: 400;
   line-height: 16px;
   font-size: 20px;
-  line-height: 64px;
+  line-height: 62px;
   color: transparent;
   font-weight: bold;
 }
@@ -2590,6 +2477,8 @@ exports[`<Button /> snapshots renders a button with appearance default, intent s
   align-items: center;
   border: none;
   border-radius: 4px;
+  border-style: solid;
+  border-width: 1px;
   cursor: pointer;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -2607,10 +2496,10 @@ exports[`<Button /> snapshots renders a button with appearance default, intent s
   vertical-align: baseline;
   white-space: nowrap;
   background-color: white;
-  box-shadow: inset 0 0 0 1px #36d57d;
+  border-color: #36d57d;
   color: #36d57d;
   position: relative;
-  padding: 0 32px;
+  padding: 0 31px;
 }
 
 .emotion-3:active {
@@ -2631,16 +2520,8 @@ exports[`<Button /> snapshots renders a button with appearance default, intent s
   outline: 0;
 }
 
-.emotion-3:disabled,
-.emotion-3:hover:disabled,
-.emotion-3:active:disabled {
-  -webkit-transform: none;
-  -ms-transform: none;
-  transform: none;
-}
-
 .emotion-3:focus {
-  box-shadow: 0 0 0 4px #E7F2EC,inset 0 0 0 1px #36d57d;
+  box-shadow: 0 0 0 4px #E7F2EC;
 }
 
 .emotion-3:active {
@@ -2803,7 +2684,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent s
   font-weight: 400;
   line-height: 16px;
   font-size: 16px;
-  line-height: 48px;
+  line-height: 46px;
   color: #3d4251;
   font-weight: bold;
 }
@@ -2815,6 +2696,8 @@ exports[`<Button /> snapshots renders a button with appearance default, intent s
   align-items: center;
   border: none;
   border-radius: 4px;
+  border-style: solid;
+  border-width: 1px;
   cursor: pointer;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -2832,9 +2715,9 @@ exports[`<Button /> snapshots renders a button with appearance default, intent s
   vertical-align: baseline;
   white-space: nowrap;
   background-color: white;
-  box-shadow: inset 0 0 0 1px #36d57d;
+  border-color: #36d57d;
   color: #36d57d;
-  padding: 0 16px;
+  padding: 0 15px;
 }
 
 .emotion-1:active {
@@ -2855,25 +2738,12 @@ exports[`<Button /> snapshots renders a button with appearance default, intent s
   outline: 0;
 }
 
-.emotion-1:disabled,
-.emotion-1:hover:disabled,
-.emotion-1:active:disabled {
-  -webkit-transform: none;
-  -ms-transform: none;
-  transform: none;
-}
-
 .emotion-1:focus {
-  box-shadow: 0 0 0 4px #E7F2EC,inset 0 0 0 1px #36d57d;
+  box-shadow: 0 0 0 4px #E7F2EC;
 }
 
 .emotion-1:hover {
-  box-shadow: inset 0 0 0 1px #29A360;
-  color: #29A360;
-}
-
-.emotion-1:hover:focus {
-  box-shadow: 0 0 0 4px #E7F2EC,inset 0 0 0 1px #29A360;
+  border-color: #29A360;
 }
 
 <button
@@ -2977,7 +2847,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent s
   font-weight: 400;
   line-height: 16px;
   font-size: 16px;
-  line-height: 48px;
+  line-height: 46px;
   color: transparent;
   font-weight: bold;
 }
@@ -2989,6 +2859,8 @@ exports[`<Button /> snapshots renders a button with appearance default, intent s
   align-items: center;
   border: none;
   border-radius: 4px;
+  border-style: solid;
+  border-width: 1px;
   cursor: pointer;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -3006,10 +2878,10 @@ exports[`<Button /> snapshots renders a button with appearance default, intent s
   vertical-align: baseline;
   white-space: nowrap;
   background-color: white;
-  box-shadow: inset 0 0 0 1px #36d57d;
+  border-color: #36d57d;
   color: #36d57d;
   position: relative;
-  padding: 0 16px;
+  padding: 0 15px;
 }
 
 .emotion-3:active {
@@ -3030,16 +2902,8 @@ exports[`<Button /> snapshots renders a button with appearance default, intent s
   outline: 0;
 }
 
-.emotion-3:disabled,
-.emotion-3:hover:disabled,
-.emotion-3:active:disabled {
-  -webkit-transform: none;
-  -ms-transform: none;
-  transform: none;
-}
-
 .emotion-3:focus {
-  box-shadow: 0 0 0 4px #E7F2EC,inset 0 0 0 1px #36d57d;
+  box-shadow: 0 0 0 4px #E7F2EC;
 }
 
 .emotion-3:active {
@@ -3202,7 +3066,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent s
   font-weight: 400;
   line-height: 16px;
   font-size: 16px;
-  line-height: 36px;
+  line-height: 34px;
   color: #3d4251;
   font-weight: bold;
 }
@@ -3214,6 +3078,8 @@ exports[`<Button /> snapshots renders a button with appearance default, intent s
   align-items: center;
   border: none;
   border-radius: 4px;
+  border-style: solid;
+  border-width: 1px;
   cursor: pointer;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -3231,9 +3097,9 @@ exports[`<Button /> snapshots renders a button with appearance default, intent s
   vertical-align: baseline;
   white-space: nowrap;
   background-color: white;
-  box-shadow: inset 0 0 0 1px #36d57d;
+  border-color: #36d57d;
   color: #36d57d;
-  padding: 0 16px;
+  padding: 0 15px;
 }
 
 .emotion-1:active {
@@ -3254,25 +3120,12 @@ exports[`<Button /> snapshots renders a button with appearance default, intent s
   outline: 0;
 }
 
-.emotion-1:disabled,
-.emotion-1:hover:disabled,
-.emotion-1:active:disabled {
-  -webkit-transform: none;
-  -ms-transform: none;
-  transform: none;
-}
-
 .emotion-1:focus {
-  box-shadow: 0 0 0 4px #E7F2EC,inset 0 0 0 1px #36d57d;
+  box-shadow: 0 0 0 4px #E7F2EC;
 }
 
 .emotion-1:hover {
-  box-shadow: inset 0 0 0 1px #29A360;
-  color: #29A360;
-}
-
-.emotion-1:hover:focus {
-  box-shadow: 0 0 0 4px #E7F2EC,inset 0 0 0 1px #29A360;
+  border-color: #29A360;
 }
 
 <button
@@ -3376,7 +3229,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent s
   font-weight: 400;
   line-height: 16px;
   font-size: 16px;
-  line-height: 36px;
+  line-height: 34px;
   color: transparent;
   font-weight: bold;
 }
@@ -3388,6 +3241,8 @@ exports[`<Button /> snapshots renders a button with appearance default, intent s
   align-items: center;
   border: none;
   border-radius: 4px;
+  border-style: solid;
+  border-width: 1px;
   cursor: pointer;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -3405,10 +3260,10 @@ exports[`<Button /> snapshots renders a button with appearance default, intent s
   vertical-align: baseline;
   white-space: nowrap;
   background-color: white;
-  box-shadow: inset 0 0 0 1px #36d57d;
+  border-color: #36d57d;
   color: #36d57d;
   position: relative;
-  padding: 0 16px;
+  padding: 0 15px;
 }
 
 .emotion-3:active {
@@ -3429,16 +3284,8 @@ exports[`<Button /> snapshots renders a button with appearance default, intent s
   outline: 0;
 }
 
-.emotion-3:disabled,
-.emotion-3:hover:disabled,
-.emotion-3:active:disabled {
-  -webkit-transform: none;
-  -ms-transform: none;
-  transform: none;
-}
-
 .emotion-3:focus {
-  box-shadow: 0 0 0 4px #E7F2EC,inset 0 0 0 1px #36d57d;
+  box-shadow: 0 0 0 4px #E7F2EC;
 }
 
 .emotion-3:active {
@@ -3601,7 +3448,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent w
   font-weight: 400;
   line-height: 16px;
   font-size: 20px;
-  line-height: 64px;
+  line-height: 62px;
   color: #3d4251;
   font-weight: bold;
 }
@@ -3613,6 +3460,8 @@ exports[`<Button /> snapshots renders a button with appearance default, intent w
   align-items: center;
   border: none;
   border-radius: 4px;
+  border-style: solid;
+  border-width: 1px;
   cursor: pointer;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -3630,9 +3479,9 @@ exports[`<Button /> snapshots renders a button with appearance default, intent w
   vertical-align: baseline;
   white-space: nowrap;
   background-color: white;
-  box-shadow: inset 0 0 0 1px #ff9400;
+  border-color: #ff9400;
   color: #ff9400;
-  padding: 0 32px;
+  padding: 0 31px;
 }
 
 .emotion-1:active {
@@ -3653,25 +3502,12 @@ exports[`<Button /> snapshots renders a button with appearance default, intent w
   outline: 0;
 }
 
-.emotion-1:disabled,
-.emotion-1:hover:disabled,
-.emotion-1:active:disabled {
-  -webkit-transform: none;
-  -ms-transform: none;
-  transform: none;
-}
-
 .emotion-1:focus {
-  box-shadow: 0 0 0 4px #FFEED5,inset 0 0 0 1px #ff9400;
+  box-shadow: 0 0 0 4px #FFEED5;
 }
 
 .emotion-1:hover {
-  box-shadow: inset 0 0 0 1px #C87400;
-  color: #C87400;
-}
-
-.emotion-1:hover:focus {
-  box-shadow: 0 0 0 4px #FFEED5,inset 0 0 0 1px #C87400;
+  border-color: #C87400;
 }
 
 <button
@@ -3775,7 +3611,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent w
   font-weight: 400;
   line-height: 16px;
   font-size: 20px;
-  line-height: 64px;
+  line-height: 62px;
   color: transparent;
   font-weight: bold;
 }
@@ -3787,6 +3623,8 @@ exports[`<Button /> snapshots renders a button with appearance default, intent w
   align-items: center;
   border: none;
   border-radius: 4px;
+  border-style: solid;
+  border-width: 1px;
   cursor: pointer;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -3804,10 +3642,10 @@ exports[`<Button /> snapshots renders a button with appearance default, intent w
   vertical-align: baseline;
   white-space: nowrap;
   background-color: white;
-  box-shadow: inset 0 0 0 1px #ff9400;
+  border-color: #ff9400;
   color: #ff9400;
   position: relative;
-  padding: 0 32px;
+  padding: 0 31px;
 }
 
 .emotion-3:active {
@@ -3828,16 +3666,8 @@ exports[`<Button /> snapshots renders a button with appearance default, intent w
   outline: 0;
 }
 
-.emotion-3:disabled,
-.emotion-3:hover:disabled,
-.emotion-3:active:disabled {
-  -webkit-transform: none;
-  -ms-transform: none;
-  transform: none;
-}
-
 .emotion-3:focus {
-  box-shadow: 0 0 0 4px #FFEED5,inset 0 0 0 1px #ff9400;
+  box-shadow: 0 0 0 4px #FFEED5;
 }
 
 .emotion-3:active {
@@ -4000,7 +3830,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent w
   font-weight: 400;
   line-height: 16px;
   font-size: 16px;
-  line-height: 48px;
+  line-height: 46px;
   color: #3d4251;
   font-weight: bold;
 }
@@ -4012,6 +3842,8 @@ exports[`<Button /> snapshots renders a button with appearance default, intent w
   align-items: center;
   border: none;
   border-radius: 4px;
+  border-style: solid;
+  border-width: 1px;
   cursor: pointer;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -4029,9 +3861,9 @@ exports[`<Button /> snapshots renders a button with appearance default, intent w
   vertical-align: baseline;
   white-space: nowrap;
   background-color: white;
-  box-shadow: inset 0 0 0 1px #ff9400;
+  border-color: #ff9400;
   color: #ff9400;
-  padding: 0 16px;
+  padding: 0 15px;
 }
 
 .emotion-1:active {
@@ -4052,25 +3884,12 @@ exports[`<Button /> snapshots renders a button with appearance default, intent w
   outline: 0;
 }
 
-.emotion-1:disabled,
-.emotion-1:hover:disabled,
-.emotion-1:active:disabled {
-  -webkit-transform: none;
-  -ms-transform: none;
-  transform: none;
-}
-
 .emotion-1:focus {
-  box-shadow: 0 0 0 4px #FFEED5,inset 0 0 0 1px #ff9400;
+  box-shadow: 0 0 0 4px #FFEED5;
 }
 
 .emotion-1:hover {
-  box-shadow: inset 0 0 0 1px #C87400;
-  color: #C87400;
-}
-
-.emotion-1:hover:focus {
-  box-shadow: 0 0 0 4px #FFEED5,inset 0 0 0 1px #C87400;
+  border-color: #C87400;
 }
 
 <button
@@ -4174,7 +3993,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent w
   font-weight: 400;
   line-height: 16px;
   font-size: 16px;
-  line-height: 48px;
+  line-height: 46px;
   color: transparent;
   font-weight: bold;
 }
@@ -4186,6 +4005,8 @@ exports[`<Button /> snapshots renders a button with appearance default, intent w
   align-items: center;
   border: none;
   border-radius: 4px;
+  border-style: solid;
+  border-width: 1px;
   cursor: pointer;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -4203,10 +4024,10 @@ exports[`<Button /> snapshots renders a button with appearance default, intent w
   vertical-align: baseline;
   white-space: nowrap;
   background-color: white;
-  box-shadow: inset 0 0 0 1px #ff9400;
+  border-color: #ff9400;
   color: #ff9400;
   position: relative;
-  padding: 0 16px;
+  padding: 0 15px;
 }
 
 .emotion-3:active {
@@ -4227,16 +4048,8 @@ exports[`<Button /> snapshots renders a button with appearance default, intent w
   outline: 0;
 }
 
-.emotion-3:disabled,
-.emotion-3:hover:disabled,
-.emotion-3:active:disabled {
-  -webkit-transform: none;
-  -ms-transform: none;
-  transform: none;
-}
-
 .emotion-3:focus {
-  box-shadow: 0 0 0 4px #FFEED5,inset 0 0 0 1px #ff9400;
+  box-shadow: 0 0 0 4px #FFEED5;
 }
 
 .emotion-3:active {
@@ -4399,7 +4212,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent w
   font-weight: 400;
   line-height: 16px;
   font-size: 16px;
-  line-height: 36px;
+  line-height: 34px;
   color: #3d4251;
   font-weight: bold;
 }
@@ -4411,6 +4224,8 @@ exports[`<Button /> snapshots renders a button with appearance default, intent w
   align-items: center;
   border: none;
   border-radius: 4px;
+  border-style: solid;
+  border-width: 1px;
   cursor: pointer;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -4428,9 +4243,9 @@ exports[`<Button /> snapshots renders a button with appearance default, intent w
   vertical-align: baseline;
   white-space: nowrap;
   background-color: white;
-  box-shadow: inset 0 0 0 1px #ff9400;
+  border-color: #ff9400;
   color: #ff9400;
-  padding: 0 16px;
+  padding: 0 15px;
 }
 
 .emotion-1:active {
@@ -4451,25 +4266,12 @@ exports[`<Button /> snapshots renders a button with appearance default, intent w
   outline: 0;
 }
 
-.emotion-1:disabled,
-.emotion-1:hover:disabled,
-.emotion-1:active:disabled {
-  -webkit-transform: none;
-  -ms-transform: none;
-  transform: none;
-}
-
 .emotion-1:focus {
-  box-shadow: 0 0 0 4px #FFEED5,inset 0 0 0 1px #ff9400;
+  box-shadow: 0 0 0 4px #FFEED5;
 }
 
 .emotion-1:hover {
-  box-shadow: inset 0 0 0 1px #C87400;
-  color: #C87400;
-}
-
-.emotion-1:hover:focus {
-  box-shadow: 0 0 0 4px #FFEED5,inset 0 0 0 1px #C87400;
+  border-color: #C87400;
 }
 
 <button
@@ -4573,7 +4375,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent w
   font-weight: 400;
   line-height: 16px;
   font-size: 16px;
-  line-height: 36px;
+  line-height: 34px;
   color: transparent;
   font-weight: bold;
 }
@@ -4585,6 +4387,8 @@ exports[`<Button /> snapshots renders a button with appearance default, intent w
   align-items: center;
   border: none;
   border-radius: 4px;
+  border-style: solid;
+  border-width: 1px;
   cursor: pointer;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -4602,10 +4406,10 @@ exports[`<Button /> snapshots renders a button with appearance default, intent w
   vertical-align: baseline;
   white-space: nowrap;
   background-color: white;
-  box-shadow: inset 0 0 0 1px #ff9400;
+  border-color: #ff9400;
   color: #ff9400;
   position: relative;
-  padding: 0 16px;
+  padding: 0 15px;
 }
 
 .emotion-3:active {
@@ -4626,16 +4430,8 @@ exports[`<Button /> snapshots renders a button with appearance default, intent w
   outline: 0;
 }
 
-.emotion-3:disabled,
-.emotion-3:hover:disabled,
-.emotion-3:active:disabled {
-  -webkit-transform: none;
-  -ms-transform: none;
-  transform: none;
-}
-
 .emotion-3:focus {
-  box-shadow: 0 0 0 4px #FFEED5,inset 0 0 0 1px #ff9400;
+  box-shadow: 0 0 0 4px #FFEED5;
 }
 
 .emotion-3:active {
@@ -4798,7 +4594,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent c
   font-weight: 400;
   line-height: 16px;
   font-size: 20px;
-  line-height: 64px;
+  line-height: 62px;
   color: #3d4251;
   font-weight: bold;
 }
@@ -4810,6 +4606,8 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent c
   align-items: center;
   border: none;
   border-radius: 4px;
+  border-style: solid;
+  border-width: 1px;
   cursor: pointer;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -4826,8 +4624,11 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent c
   transition: 0.15s;
   vertical-align: baseline;
   white-space: nowrap;
+  background-color: white;
+  border-color: #ffc844;
+  color: #ffc844;
   background-color: #ffc844;
-  padding: 0 32px;
+  padding: 0 31px;
 }
 
 .emotion-1:active {
@@ -4853,7 +4654,13 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent c
 }
 
 .emotion-1:hover {
+  border-color: #E7B743;
+}
+
+.emotion-1:hover {
   background-color: #E7B743;
+  border-color: #E7B743;
+  color: #E7B743;
 }
 
 <button
@@ -4957,7 +4764,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent c
   font-weight: 400;
   line-height: 16px;
   font-size: 20px;
-  line-height: 64px;
+  line-height: 62px;
   color: transparent;
   font-weight: bold;
 }
@@ -4969,6 +4776,8 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent c
   align-items: center;
   border: none;
   border-radius: 4px;
+  border-style: solid;
+  border-width: 1px;
   cursor: pointer;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -4985,9 +4794,12 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent c
   transition: 0.15s;
   vertical-align: baseline;
   white-space: nowrap;
+  background-color: white;
+  border-color: #ffc844;
+  color: #ffc844;
   background-color: #ffc844;
   position: relative;
-  padding: 0 32px;
+  padding: 0 31px;
 }
 
 .emotion-3:active {
@@ -5172,7 +4984,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent c
   font-weight: 400;
   line-height: 16px;
   font-size: 16px;
-  line-height: 48px;
+  line-height: 46px;
   color: #3d4251;
   font-weight: bold;
 }
@@ -5184,6 +4996,8 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent c
   align-items: center;
   border: none;
   border-radius: 4px;
+  border-style: solid;
+  border-width: 1px;
   cursor: pointer;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -5200,8 +5014,11 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent c
   transition: 0.15s;
   vertical-align: baseline;
   white-space: nowrap;
+  background-color: white;
+  border-color: #ffc844;
+  color: #ffc844;
   background-color: #ffc844;
-  padding: 0 16px;
+  padding: 0 15px;
 }
 
 .emotion-1:active {
@@ -5227,7 +5044,13 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent c
 }
 
 .emotion-1:hover {
+  border-color: #E7B743;
+}
+
+.emotion-1:hover {
   background-color: #E7B743;
+  border-color: #E7B743;
+  color: #E7B743;
 }
 
 <button
@@ -5331,7 +5154,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent c
   font-weight: 400;
   line-height: 16px;
   font-size: 16px;
-  line-height: 48px;
+  line-height: 46px;
   color: transparent;
   font-weight: bold;
 }
@@ -5343,6 +5166,8 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent c
   align-items: center;
   border: none;
   border-radius: 4px;
+  border-style: solid;
+  border-width: 1px;
   cursor: pointer;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -5359,9 +5184,12 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent c
   transition: 0.15s;
   vertical-align: baseline;
   white-space: nowrap;
+  background-color: white;
+  border-color: #ffc844;
+  color: #ffc844;
   background-color: #ffc844;
   position: relative;
-  padding: 0 16px;
+  padding: 0 15px;
 }
 
 .emotion-3:active {
@@ -5546,7 +5374,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent c
   font-weight: 400;
   line-height: 16px;
   font-size: 16px;
-  line-height: 36px;
+  line-height: 34px;
   color: #3d4251;
   font-weight: bold;
 }
@@ -5558,6 +5386,8 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent c
   align-items: center;
   border: none;
   border-radius: 4px;
+  border-style: solid;
+  border-width: 1px;
   cursor: pointer;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -5574,8 +5404,11 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent c
   transition: 0.15s;
   vertical-align: baseline;
   white-space: nowrap;
+  background-color: white;
+  border-color: #ffc844;
+  color: #ffc844;
   background-color: #ffc844;
-  padding: 0 16px;
+  padding: 0 15px;
 }
 
 .emotion-1:active {
@@ -5601,7 +5434,13 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent c
 }
 
 .emotion-1:hover {
+  border-color: #E7B743;
+}
+
+.emotion-1:hover {
   background-color: #E7B743;
+  border-color: #E7B743;
+  color: #E7B743;
 }
 
 <button
@@ -5705,7 +5544,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent c
   font-weight: 400;
   line-height: 16px;
   font-size: 16px;
-  line-height: 36px;
+  line-height: 34px;
   color: transparent;
   font-weight: bold;
 }
@@ -5717,6 +5556,8 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent c
   align-items: center;
   border: none;
   border-radius: 4px;
+  border-style: solid;
+  border-width: 1px;
   cursor: pointer;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -5733,9 +5574,12 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent c
   transition: 0.15s;
   vertical-align: baseline;
   white-space: nowrap;
+  background-color: white;
+  border-color: #ffc844;
+  color: #ffc844;
   background-color: #ffc844;
   position: relative;
-  padding: 0 16px;
+  padding: 0 15px;
 }
 
 .emotion-3:active {
@@ -5920,7 +5764,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent d
   font-weight: 400;
   line-height: 16px;
   font-size: 20px;
-  line-height: 64px;
+  line-height: 62px;
   color: white;
   font-weight: bold;
 }
@@ -5932,6 +5776,8 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent d
   align-items: center;
   border: none;
   border-radius: 4px;
+  border-style: solid;
+  border-width: 1px;
   cursor: pointer;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -5948,8 +5794,11 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent d
   transition: 0.15s;
   vertical-align: baseline;
   white-space: nowrap;
+  background-color: white;
+  border-color: #fe5c5c;
+  color: #fe5c5c;
   background-color: #fe5c5c;
-  padding: 0 32px;
+  padding: 0 31px;
 }
 
 .emotion-1:active {
@@ -5975,7 +5824,13 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent d
 }
 
 .emotion-1:hover {
+  border-color: #B64242;
+}
+
+.emotion-1:hover {
   background-color: #B64242;
+  border-color: #B64242;
+  color: #B64242;
 }
 
 <button
@@ -6079,7 +5934,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent d
   font-weight: 400;
   line-height: 16px;
   font-size: 20px;
-  line-height: 64px;
+  line-height: 62px;
   color: transparent;
   font-weight: bold;
 }
@@ -6091,6 +5946,8 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent d
   align-items: center;
   border: none;
   border-radius: 4px;
+  border-style: solid;
+  border-width: 1px;
   cursor: pointer;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -6107,9 +5964,12 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent d
   transition: 0.15s;
   vertical-align: baseline;
   white-space: nowrap;
+  background-color: white;
+  border-color: #fe5c5c;
+  color: #fe5c5c;
   background-color: #fe5c5c;
   position: relative;
-  padding: 0 32px;
+  padding: 0 31px;
 }
 
 .emotion-3:active {
@@ -6294,7 +6154,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent d
   font-weight: 400;
   line-height: 16px;
   font-size: 16px;
-  line-height: 48px;
+  line-height: 46px;
   color: white;
   font-weight: bold;
 }
@@ -6306,6 +6166,8 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent d
   align-items: center;
   border: none;
   border-radius: 4px;
+  border-style: solid;
+  border-width: 1px;
   cursor: pointer;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -6322,8 +6184,11 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent d
   transition: 0.15s;
   vertical-align: baseline;
   white-space: nowrap;
+  background-color: white;
+  border-color: #fe5c5c;
+  color: #fe5c5c;
   background-color: #fe5c5c;
-  padding: 0 16px;
+  padding: 0 15px;
 }
 
 .emotion-1:active {
@@ -6349,7 +6214,13 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent d
 }
 
 .emotion-1:hover {
+  border-color: #B64242;
+}
+
+.emotion-1:hover {
   background-color: #B64242;
+  border-color: #B64242;
+  color: #B64242;
 }
 
 <button
@@ -6453,7 +6324,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent d
   font-weight: 400;
   line-height: 16px;
   font-size: 16px;
-  line-height: 48px;
+  line-height: 46px;
   color: transparent;
   font-weight: bold;
 }
@@ -6465,6 +6336,8 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent d
   align-items: center;
   border: none;
   border-radius: 4px;
+  border-style: solid;
+  border-width: 1px;
   cursor: pointer;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -6481,9 +6354,12 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent d
   transition: 0.15s;
   vertical-align: baseline;
   white-space: nowrap;
+  background-color: white;
+  border-color: #fe5c5c;
+  color: #fe5c5c;
   background-color: #fe5c5c;
   position: relative;
-  padding: 0 16px;
+  padding: 0 15px;
 }
 
 .emotion-3:active {
@@ -6666,6 +6542,8 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent d
   align-items: center;
   border: none;
   border-radius: 4px;
+  border-style: solid;
+  border-width: 1px;
   cursor: pointer;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -6682,8 +6560,11 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent d
   transition: 0.15s;
   vertical-align: baseline;
   white-space: nowrap;
+  background-color: white;
+  border-color: #fe5c5c;
+  color: #fe5c5c;
   background-color: #fe5c5c;
-  padding: 0 16px;
+  padding: 0 15px;
 }
 
 .emotion-1:active {
@@ -6709,7 +6590,13 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent d
 }
 
 .emotion-1:hover {
+  border-color: #B64242;
+}
+
+.emotion-1:hover {
   background-color: #B64242;
+  border-color: #B64242;
+  color: #B64242;
 }
 
 .emotion-0 {
@@ -6721,7 +6608,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent d
   font-weight: 400;
   line-height: 16px;
   font-size: 16px;
-  line-height: 36px;
+  line-height: 34px;
   color: white;
   font-weight: bold;
 }
@@ -6827,7 +6714,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent d
   font-weight: 400;
   line-height: 16px;
   font-size: 16px;
-  line-height: 36px;
+  line-height: 34px;
   color: transparent;
   font-weight: bold;
 }
@@ -6839,6 +6726,8 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent d
   align-items: center;
   border: none;
   border-radius: 4px;
+  border-style: solid;
+  border-width: 1px;
   cursor: pointer;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -6855,9 +6744,12 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent d
   transition: 0.15s;
   vertical-align: baseline;
   white-space: nowrap;
+  background-color: white;
+  border-color: #fe5c5c;
+  color: #fe5c5c;
   background-color: #fe5c5c;
   position: relative;
-  padding: 0 16px;
+  padding: 0 15px;
 }
 
 .emotion-3:active {
@@ -7040,6 +6932,8 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent n
   align-items: center;
   border: none;
   border-radius: 4px;
+  border-style: solid;
+  border-width: 1px;
   cursor: pointer;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -7056,8 +6950,11 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent n
   transition: 0.15s;
   vertical-align: baseline;
   white-space: nowrap;
+  background-color: white;
+  border-color: #33aacc;
+  color: #33aacc;
   background-color: #33aacc;
-  padding: 0 32px;
+  padding: 0 31px;
 }
 
 .emotion-1:active {
@@ -7083,7 +6980,13 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent n
 }
 
 .emotion-1:hover {
+  border-color: #2E8FAB;
+}
+
+.emotion-1:hover {
   background-color: #2E8FAB;
+  border-color: #2E8FAB;
+  color: #2E8FAB;
 }
 
 .emotion-0 {
@@ -7095,7 +6998,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent n
   font-weight: 400;
   line-height: 16px;
   font-size: 20px;
-  line-height: 64px;
+  line-height: 62px;
   color: white;
   font-weight: bold;
 }
@@ -7201,7 +7104,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent n
   font-weight: 400;
   line-height: 16px;
   font-size: 20px;
-  line-height: 64px;
+  line-height: 62px;
   color: transparent;
   font-weight: bold;
 }
@@ -7213,6 +7116,8 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent n
   align-items: center;
   border: none;
   border-radius: 4px;
+  border-style: solid;
+  border-width: 1px;
   cursor: pointer;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -7229,9 +7134,12 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent n
   transition: 0.15s;
   vertical-align: baseline;
   white-space: nowrap;
+  background-color: white;
+  border-color: #33aacc;
+  color: #33aacc;
   background-color: #33aacc;
   position: relative;
-  padding: 0 32px;
+  padding: 0 31px;
 }
 
 .emotion-3:active {
@@ -7414,6 +7322,8 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent n
   align-items: center;
   border: none;
   border-radius: 4px;
+  border-style: solid;
+  border-width: 1px;
   cursor: pointer;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -7430,8 +7340,11 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent n
   transition: 0.15s;
   vertical-align: baseline;
   white-space: nowrap;
+  background-color: white;
+  border-color: #33aacc;
+  color: #33aacc;
   background-color: #33aacc;
-  padding: 0 16px;
+  padding: 0 15px;
 }
 
 .emotion-1:active {
@@ -7457,7 +7370,13 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent n
 }
 
 .emotion-1:hover {
+  border-color: #2E8FAB;
+}
+
+.emotion-1:hover {
   background-color: #2E8FAB;
+  border-color: #2E8FAB;
+  color: #2E8FAB;
 }
 
 .emotion-0 {
@@ -7469,7 +7388,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent n
   font-weight: 400;
   line-height: 16px;
   font-size: 16px;
-  line-height: 48px;
+  line-height: 46px;
   color: white;
   font-weight: bold;
 }
@@ -7575,7 +7494,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent n
   font-weight: 400;
   line-height: 16px;
   font-size: 16px;
-  line-height: 48px;
+  line-height: 46px;
   color: transparent;
   font-weight: bold;
 }
@@ -7587,6 +7506,8 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent n
   align-items: center;
   border: none;
   border-radius: 4px;
+  border-style: solid;
+  border-width: 1px;
   cursor: pointer;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -7603,9 +7524,12 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent n
   transition: 0.15s;
   vertical-align: baseline;
   white-space: nowrap;
+  background-color: white;
+  border-color: #33aacc;
+  color: #33aacc;
   background-color: #33aacc;
   position: relative;
-  padding: 0 16px;
+  padding: 0 15px;
 }
 
 .emotion-3:active {
@@ -7788,6 +7712,8 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent n
   align-items: center;
   border: none;
   border-radius: 4px;
+  border-style: solid;
+  border-width: 1px;
   cursor: pointer;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -7804,8 +7730,11 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent n
   transition: 0.15s;
   vertical-align: baseline;
   white-space: nowrap;
+  background-color: white;
+  border-color: #33aacc;
+  color: #33aacc;
   background-color: #33aacc;
-  padding: 0 16px;
+  padding: 0 15px;
 }
 
 .emotion-1:active {
@@ -7831,7 +7760,13 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent n
 }
 
 .emotion-1:hover {
+  border-color: #2E8FAB;
+}
+
+.emotion-1:hover {
   background-color: #2E8FAB;
+  border-color: #2E8FAB;
+  color: #2E8FAB;
 }
 
 .emotion-0 {
@@ -7843,7 +7778,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent n
   font-weight: 400;
   line-height: 16px;
   font-size: 16px;
-  line-height: 36px;
+  line-height: 34px;
   color: white;
   font-weight: bold;
 }
@@ -7947,6 +7882,8 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent n
   align-items: center;
   border: none;
   border-radius: 4px;
+  border-style: solid;
+  border-width: 1px;
   cursor: pointer;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -7963,9 +7900,12 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent n
   transition: 0.15s;
   vertical-align: baseline;
   white-space: nowrap;
+  background-color: white;
+  border-color: #33aacc;
+  color: #33aacc;
   background-color: #33aacc;
   position: relative;
-  padding: 0 16px;
+  padding: 0 15px;
 }
 
 .emotion-3:active {
@@ -8011,7 +7951,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent n
   font-weight: 400;
   line-height: 16px;
   font-size: 16px;
-  line-height: 36px;
+  line-height: 34px;
   color: transparent;
   font-weight: bold;
 }
@@ -8164,7 +8104,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent s
   font-weight: 400;
   line-height: 16px;
   font-size: 20px;
-  line-height: 64px;
+  line-height: 62px;
   color: white;
   font-weight: bold;
 }
@@ -8176,6 +8116,8 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent s
   align-items: center;
   border: none;
   border-radius: 4px;
+  border-style: solid;
+  border-width: 1px;
   cursor: pointer;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -8192,8 +8134,11 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent s
   transition: 0.15s;
   vertical-align: baseline;
   white-space: nowrap;
+  background-color: white;
+  border-color: #36d57d;
+  color: #36d57d;
   background-color: #36d57d;
-  padding: 0 32px;
+  padding: 0 31px;
 }
 
 .emotion-1:active {
@@ -8219,7 +8164,13 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent s
 }
 
 .emotion-1:hover {
+  border-color: #29A360;
+}
+
+.emotion-1:hover {
   background-color: #29A360;
+  border-color: #29A360;
+  color: #29A360;
 }
 
 <button
@@ -8323,7 +8274,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent s
   font-weight: 400;
   line-height: 16px;
   font-size: 20px;
-  line-height: 64px;
+  line-height: 62px;
   color: transparent;
   font-weight: bold;
 }
@@ -8335,6 +8286,8 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent s
   align-items: center;
   border: none;
   border-radius: 4px;
+  border-style: solid;
+  border-width: 1px;
   cursor: pointer;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -8351,9 +8304,12 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent s
   transition: 0.15s;
   vertical-align: baseline;
   white-space: nowrap;
+  background-color: white;
+  border-color: #36d57d;
+  color: #36d57d;
   background-color: #36d57d;
   position: relative;
-  padding: 0 32px;
+  padding: 0 31px;
 }
 
 .emotion-3:active {
@@ -8538,7 +8494,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent s
   font-weight: 400;
   line-height: 16px;
   font-size: 16px;
-  line-height: 48px;
+  line-height: 46px;
   color: white;
   font-weight: bold;
 }
@@ -8550,6 +8506,8 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent s
   align-items: center;
   border: none;
   border-radius: 4px;
+  border-style: solid;
+  border-width: 1px;
   cursor: pointer;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -8566,8 +8524,11 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent s
   transition: 0.15s;
   vertical-align: baseline;
   white-space: nowrap;
+  background-color: white;
+  border-color: #36d57d;
+  color: #36d57d;
   background-color: #36d57d;
-  padding: 0 16px;
+  padding: 0 15px;
 }
 
 .emotion-1:active {
@@ -8593,7 +8554,13 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent s
 }
 
 .emotion-1:hover {
+  border-color: #29A360;
+}
+
+.emotion-1:hover {
   background-color: #29A360;
+  border-color: #29A360;
+  color: #29A360;
 }
 
 <button
@@ -8697,7 +8664,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent s
   font-weight: 400;
   line-height: 16px;
   font-size: 16px;
-  line-height: 48px;
+  line-height: 46px;
   color: transparent;
   font-weight: bold;
 }
@@ -8709,6 +8676,8 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent s
   align-items: center;
   border: none;
   border-radius: 4px;
+  border-style: solid;
+  border-width: 1px;
   cursor: pointer;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -8725,9 +8694,12 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent s
   transition: 0.15s;
   vertical-align: baseline;
   white-space: nowrap;
+  background-color: white;
+  border-color: #36d57d;
+  color: #36d57d;
   background-color: #36d57d;
   position: relative;
-  padding: 0 16px;
+  padding: 0 15px;
 }
 
 .emotion-3:active {
@@ -8910,6 +8882,8 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent s
   align-items: center;
   border: none;
   border-radius: 4px;
+  border-style: solid;
+  border-width: 1px;
   cursor: pointer;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -8926,8 +8900,11 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent s
   transition: 0.15s;
   vertical-align: baseline;
   white-space: nowrap;
+  background-color: white;
+  border-color: #36d57d;
+  color: #36d57d;
   background-color: #36d57d;
-  padding: 0 16px;
+  padding: 0 15px;
 }
 
 .emotion-1:active {
@@ -8953,7 +8930,13 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent s
 }
 
 .emotion-1:hover {
+  border-color: #29A360;
+}
+
+.emotion-1:hover {
   background-color: #29A360;
+  border-color: #29A360;
+  color: #29A360;
 }
 
 .emotion-0 {
@@ -8965,7 +8948,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent s
   font-weight: 400;
   line-height: 16px;
   font-size: 16px;
-  line-height: 36px;
+  line-height: 34px;
   color: white;
   font-weight: bold;
 }
@@ -9071,7 +9054,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent s
   font-weight: 400;
   line-height: 16px;
   font-size: 16px;
-  line-height: 36px;
+  line-height: 34px;
   color: transparent;
   font-weight: bold;
 }
@@ -9083,6 +9066,8 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent s
   align-items: center;
   border: none;
   border-radius: 4px;
+  border-style: solid;
+  border-width: 1px;
   cursor: pointer;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -9099,9 +9084,12 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent s
   transition: 0.15s;
   vertical-align: baseline;
   white-space: nowrap;
+  background-color: white;
+  border-color: #36d57d;
+  color: #36d57d;
   background-color: #36d57d;
   position: relative;
-  padding: 0 16px;
+  padding: 0 15px;
 }
 
 .emotion-3:active {
@@ -9286,7 +9274,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent w
   font-weight: 400;
   line-height: 16px;
   font-size: 20px;
-  line-height: 64px;
+  line-height: 62px;
   color: white;
   font-weight: bold;
 }
@@ -9298,6 +9286,8 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent w
   align-items: center;
   border: none;
   border-radius: 4px;
+  border-style: solid;
+  border-width: 1px;
   cursor: pointer;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -9314,8 +9304,11 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent w
   transition: 0.15s;
   vertical-align: baseline;
   white-space: nowrap;
+  background-color: white;
+  border-color: #ff9400;
+  color: #ff9400;
   background-color: #ff9400;
-  padding: 0 32px;
+  padding: 0 31px;
 }
 
 .emotion-1:active {
@@ -9341,7 +9334,13 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent w
 }
 
 .emotion-1:hover {
+  border-color: #C87400;
+}
+
+.emotion-1:hover {
   background-color: #C87400;
+  border-color: #C87400;
+  color: #C87400;
 }
 
 <button
@@ -9445,7 +9444,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent w
   font-weight: 400;
   line-height: 16px;
   font-size: 20px;
-  line-height: 64px;
+  line-height: 62px;
   color: transparent;
   font-weight: bold;
 }
@@ -9457,6 +9456,8 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent w
   align-items: center;
   border: none;
   border-radius: 4px;
+  border-style: solid;
+  border-width: 1px;
   cursor: pointer;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -9473,9 +9474,12 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent w
   transition: 0.15s;
   vertical-align: baseline;
   white-space: nowrap;
+  background-color: white;
+  border-color: #ff9400;
+  color: #ff9400;
   background-color: #ff9400;
   position: relative;
-  padding: 0 32px;
+  padding: 0 31px;
 }
 
 .emotion-3:active {
@@ -9660,7 +9664,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent w
   font-weight: 400;
   line-height: 16px;
   font-size: 16px;
-  line-height: 48px;
+  line-height: 46px;
   color: white;
   font-weight: bold;
 }
@@ -9672,6 +9676,8 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent w
   align-items: center;
   border: none;
   border-radius: 4px;
+  border-style: solid;
+  border-width: 1px;
   cursor: pointer;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -9688,8 +9694,11 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent w
   transition: 0.15s;
   vertical-align: baseline;
   white-space: nowrap;
+  background-color: white;
+  border-color: #ff9400;
+  color: #ff9400;
   background-color: #ff9400;
-  padding: 0 16px;
+  padding: 0 15px;
 }
 
 .emotion-1:active {
@@ -9715,7 +9724,13 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent w
 }
 
 .emotion-1:hover {
+  border-color: #C87400;
+}
+
+.emotion-1:hover {
   background-color: #C87400;
+  border-color: #C87400;
+  color: #C87400;
 }
 
 <button
@@ -9819,7 +9834,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent w
   font-weight: 400;
   line-height: 16px;
   font-size: 16px;
-  line-height: 48px;
+  line-height: 46px;
   color: transparent;
   font-weight: bold;
 }
@@ -9831,6 +9846,8 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent w
   align-items: center;
   border: none;
   border-radius: 4px;
+  border-style: solid;
+  border-width: 1px;
   cursor: pointer;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -9847,9 +9864,12 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent w
   transition: 0.15s;
   vertical-align: baseline;
   white-space: nowrap;
+  background-color: white;
+  border-color: #ff9400;
+  color: #ff9400;
   background-color: #ff9400;
   position: relative;
-  padding: 0 16px;
+  padding: 0 15px;
 }
 
 .emotion-3:active {
@@ -10032,6 +10052,8 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent w
   align-items: center;
   border: none;
   border-radius: 4px;
+  border-style: solid;
+  border-width: 1px;
   cursor: pointer;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -10048,8 +10070,11 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent w
   transition: 0.15s;
   vertical-align: baseline;
   white-space: nowrap;
+  background-color: white;
+  border-color: #ff9400;
+  color: #ff9400;
   background-color: #ff9400;
-  padding: 0 16px;
+  padding: 0 15px;
 }
 
 .emotion-1:active {
@@ -10075,7 +10100,13 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent w
 }
 
 .emotion-1:hover {
+  border-color: #C87400;
+}
+
+.emotion-1:hover {
   background-color: #C87400;
+  border-color: #C87400;
+  color: #C87400;
 }
 
 .emotion-0 {
@@ -10087,7 +10118,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent w
   font-weight: 400;
   line-height: 16px;
   font-size: 16px;
-  line-height: 36px;
+  line-height: 34px;
   color: white;
   font-weight: bold;
 }
@@ -10193,7 +10224,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent w
   font-weight: 400;
   line-height: 16px;
   font-size: 16px;
-  line-height: 36px;
+  line-height: 34px;
   color: transparent;
   font-weight: bold;
 }
@@ -10205,6 +10236,8 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent w
   align-items: center;
   border: none;
   border-radius: 4px;
+  border-style: solid;
+  border-width: 1px;
   cursor: pointer;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -10221,9 +10254,12 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent w
   transition: 0.15s;
   vertical-align: baseline;
   white-space: nowrap;
+  background-color: white;
+  border-color: #ff9400;
+  color: #ff9400;
   background-color: #ff9400;
   position: relative;
-  padding: 0 16px;
+  padding: 0 15px;
 }
 
 .emotion-3:active {
@@ -10406,6 +10442,8 @@ exports[`<Button /> snapshots renders a squared button with a single icon 1`] = 
   align-items: center;
   border: none;
   border-radius: 4px;
+  border-style: solid;
+  border-width: 1px;
   cursor: pointer;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -10423,9 +10461,9 @@ exports[`<Button /> snapshots renders a squared button with a single icon 1`] = 
   vertical-align: baseline;
   white-space: nowrap;
   background-color: white;
-  box-shadow: inset 0 0 0 1px #33aacc;
+  border-color: #33aacc;
   color: #33aacc;
-  padding: 15px 16px;
+  padding: 14px 15px;
 }
 
 .emotion-0:active {
@@ -10446,25 +10484,12 @@ exports[`<Button /> snapshots renders a squared button with a single icon 1`] = 
   outline: 0;
 }
 
-.emotion-0:disabled,
-.emotion-0:hover:disabled,
-.emotion-0:active:disabled {
-  -webkit-transform: none;
-  -ms-transform: none;
-  transform: none;
-}
-
 .emotion-0:focus {
-  box-shadow: 0 0 0 4px #DCECF1,inset 0 0 0 1px #33aacc;
+  box-shadow: 0 0 0 4px #DCECF1;
 }
 
 .emotion-0:hover {
-  box-shadow: inset 0 0 0 1px #2E8FAB;
-  color: #2E8FAB;
-}
-
-.emotion-0:hover:focus {
-  box-shadow: 0 0 0 4px #DCECF1,inset 0 0 0 1px #2E8FAB;
+  border-color: #2E8FAB;
 }
 
 <button
