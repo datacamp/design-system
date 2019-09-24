@@ -1,7 +1,10 @@
 import './styles.css';
 
-import Button, { ButtonGroup } from '@datacamp/waffles-button';
-import { AddCircleIcon } from '@datacamp/waffles-icons';
+import Button, {
+  ButtonGroup,
+  CompactButtonGroup,
+} from '@datacamp/waffles-button';
+import { AddCircleIcon, ChevronDownIcon } from '@datacamp/waffles-icons';
 import { storiesOf } from '@storybook/react';
 import React from 'react';
 
@@ -732,6 +735,50 @@ storiesOf('waffles-button', module)
     <ButtonGroup>
       <Button>Button 1</Button>
       <Button>Button 2</Button>
-      <Button>Button 3</Button>
+      <Button appearance="primary" intent="success">
+        <AddCircleIcon />
+        Button 3
+      </Button>
+      <Button appearance="primary" intent="danger">
+        <ChevronDownIcon />
+      </Button>
     </ButtonGroup>
+  ))
+  .add('compact ButtonGroup', () => (
+    <div
+      css={{
+        display: 'flex',
+        div: { marginBottom: 10 },
+        flexDirection: 'column',
+      }}
+    >
+      {['neutral', 'warning', 'danger', 'success', 'cta'].map(intent => (
+        <CompactButtonGroup key={intent}>
+          <Button appearance="primary" intent={intent}>
+            Button 1
+          </Button>
+          <Button appearance="primary" intent={intent}>
+            Button 2
+          </Button>
+          <Button appearance="primary" intent={intent}>
+            <AddCircleIcon /> with icon
+          </Button>
+          <Button appearance="primary" intent={intent}>
+            <ChevronDownIcon />
+          </Button>
+        </CompactButtonGroup>
+      ))}
+      {['neutral', 'warning', 'danger', 'success'].map(intent => (
+        <CompactButtonGroup key={intent}>
+          <Button intent={intent}>Button 1</Button>
+          <Button intent={intent}>Button 2</Button>
+          <Button intent={intent}>
+            <AddCircleIcon /> with icon
+          </Button>
+          <Button intent={intent}>
+            <ChevronDownIcon />
+          </Button>
+        </CompactButtonGroup>
+      ))}
+    </div>
   ));
