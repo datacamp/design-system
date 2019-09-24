@@ -283,6 +283,32 @@ storiesOf('waffles-form-elements', module)
                   </Select>
                 </td>
               </tr>
+              <tr>
+                <td>
+                  <Select
+                    name="story2"
+                    onChange={() => {}}
+                    size="large"
+                    value="opt2"
+                  >
+                    <SelectOption value="opt1">opt1</SelectOption>
+                    <SelectOption value="opt2">opt2</SelectOption>
+                    <SelectOption value="opt3">opt3</SelectOption>
+                  </Select>
+                </td>
+                <td>
+                  <Select
+                    name="story2"
+                    onChange={() => {}}
+                    size="small"
+                    value="opt2"
+                  >
+                    <SelectOption value="opt1">opt1</SelectOption>
+                    <SelectOption value="opt2">opt2</SelectOption>
+                    <SelectOption value="opt3">opt3</SelectOption>
+                  </Select>
+                </td>
+              </tr>
             </tbody>
           </table>
         </div>

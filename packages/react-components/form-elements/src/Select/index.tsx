@@ -6,6 +6,7 @@ import { childrenOfType } from 'airbnb-prop-types';
 import PropTypes from 'prop-types';
 import React, { Component, forwardRef, ReactElement } from 'react';
 
+import { selectSizes, topSpace } from '../formStyles';
 import Option, { OptionProps } from './Option';
 
 interface SelectProps {
@@ -41,6 +42,10 @@ interface SelectProps {
    */
   onChange: (value: string) => void;
   /**
+   * Select the size for the select element.
+   */
+  size?: 'small' | 'medium' | 'large';
+  /**
    * The value of the select element. This should be controlled by listening to onChange.
    */
   value: string;
@@ -74,7 +79,6 @@ const selectStyle = css({
   ],
   fontSize: '16px',
   margin: 0,
-  padding: '8px 34px 8px 16px',
   verticalAlign: 'baseline',
   width: '100%',
   zIndex: 1,
@@ -84,7 +88,7 @@ const iconStyle = css({
   pointerEvents: 'none',
   position: 'absolute',
   right: tokens.size.space[8].value,
-  top: tokens.size.space[12].value,
+  //top: tokens.size.space[12].value,
 });
 
 class Select extends Component<SelectProps, SelectState> {
@@ -124,13 +128,14 @@ class Select extends Component<SelectProps, SelectState> {
       disabled = false,
       innerRef,
       name,
+      size = 'medium',
       value,
     } = this.props;
 
     const { focus } = this.state;
     const parsedDataAttributes = computeDataAttributes(dataAttributes);
 
-    const getSelectStyle = css(selectStyle, {
+    const getSelectStyle = css(selectStyle, selectSizes[size], {
       color: disabled
         ? tokens.color.opaque.greyLight.value.rgb
         : tokens.color.opaque.greyOslo.value.rgb,
@@ -159,8 +164,9 @@ class Select extends Component<SelectProps, SelectState> {
         <ClassNames>
           {({ css: getClassName }) =>
             React.cloneElement(<ChevronDownIcon />, {
-              className: getClassName(iconStyle),
+              className: getClassName(iconStyle, topSpace[size]),
               color: focus ? tokens.color.opaque.primary.value.rgb : getColor,
+              size: size === 'large' ? 24 : 18,
             })
           }
         </ClassNames>
