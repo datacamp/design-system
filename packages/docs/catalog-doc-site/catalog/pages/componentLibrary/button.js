@@ -1,5 +1,12 @@
-import Button, { ButtonGroup } from '@datacamp/waffles-button';
-import { AddCircleIcon } from '@datacamp/waffles-icons';
+import Button, {
+  ButtonGroup,
+  CompactButtonGroup,
+} from '@datacamp/waffles-button';
+import {
+  AddCircleIcon,
+  BackIcon,
+  ChevronDownIcon,
+} from '@datacamp/waffles-icons';
 import { Code, CodeBlock, Heading, Paragraph } from '@datacamp/waffles-text';
 import { Page } from 'catalog';
 import React from 'react';
@@ -184,18 +191,69 @@ export default () => {
             </CodeBlock>
             <Paragraph>
               It does not take any props other than className, which can be used
-              to add styles to the container div.
+              to add styles to the container div. All the Buttons must be the
+              same size.
             </Paragraph>
             <table className="dc-table dc-table--bordered">
               <tbody>
                 <tr>
                   <LazyLiveEditCells
                     code={`<ButtonGroup>
-  <Button onClick={() => {}}>Button 1</Button>
-  <Button onClick={() => {}}>Button 2</Button>
-  <Button onClick={() => {}}>Button 3</Button>
+  <Button onClick={() => {}}>
+    Button 1
+  </Button>
+  <Button onClick={() => {}}>
+    <BackIcon />
+  </Button>
+  <Button
+    appearance="primary"
+    onClick={() => {}}
+  >
+    Button 3
+  </Button>
 </ButtonGroup>`}
-                    scope={{ Button, ButtonGroup }}
+                    scope={{ BackIcon, Button, ButtonGroup }}
+                  />
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div className="dc-card dc-u-p-24 dc-u-mt-8">
+            <Heading as="h3" size={500}>
+              CompactButtonGroup
+            </Heading>
+            <Paragraph>
+              The CompactButtonGroup component can be used to wrap a set of
+              Buttons and join them together. It can be imported alongside the
+              Button as shown:
+            </Paragraph>
+            <CodeBlock>
+              {
+                "import Button, { CompactButtonGroup } from '@datacamp/waffles-button';"
+              }
+            </CodeBlock>
+            <Paragraph>
+              It does not take any props other than className, which can be used
+              to add styles to the container div. All the Buttons must have the
+              same apperance, intent, size and disabled state.
+            </Paragraph>
+            <table className="dc-table dc-table--bordered">
+              <tbody>
+                <tr>
+                  <LazyLiveEditCells
+                    code={`<CompactButtonGroup>
+  <Button appearance="primary" onClick={() => {}}>
+    Button 1
+  </Button>
+  <Button appearance="primary" onClick={() => {}}>
+    Button 2
+  </Button>
+  <Button appearance="primary" onClick={() => {}}>
+    <ChevronDownIcon />
+  </Button>
+</CompactButtonGroup>
+`}
+                    scope={{ Button, ChevronDownIcon, CompactButtonGroup }}
                   />
                 </tr>
               </tbody>
