@@ -189,6 +189,7 @@ exports[`<AlertModal /> isOpen renders the modal via a portal when true 1`] = `
   white-space: nowrap;
   background-color: white;
   box-shadow: inset 0 0 0 1px #33aacc;
+  color: #33aacc;
   padding: 0 16px;
   margin-left: 0;
 }
@@ -225,6 +226,7 @@ exports[`<AlertModal /> isOpen renders the modal via a portal when true 1`] = `
 
 .emotion-4:hover {
   box-shadow: inset 0 0 0 1px #2E8FAB;
+  color: #2E8FAB;
 }
 
 .emotion-4:hover:focus {

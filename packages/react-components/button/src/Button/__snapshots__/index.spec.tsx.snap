@@ -40,6 +40,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent d
   white-space: nowrap;
   background-color: white;
   box-shadow: inset 0 0 0 1px #fe5c5c;
+  color: #fe5c5c;
   padding: 0 32px;
 }
 
@@ -75,6 +76,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent d
 
 .emotion-1:hover {
   box-shadow: inset 0 0 0 1px #B64242;
+  color: #B64242;
 }
 
 .emotion-1:hover:focus {
@@ -212,6 +214,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent d
   white-space: nowrap;
   background-color: white;
   box-shadow: inset 0 0 0 1px #fe5c5c;
+  color: #fe5c5c;
   position: relative;
   padding: 0 32px;
 }
@@ -436,6 +439,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent d
   white-space: nowrap;
   background-color: white;
   box-shadow: inset 0 0 0 1px #fe5c5c;
+  color: #fe5c5c;
   padding: 0 16px;
 }
 
@@ -471,6 +475,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent d
 
 .emotion-1:hover {
   box-shadow: inset 0 0 0 1px #B64242;
+  color: #B64242;
 }
 
 .emotion-1:hover:focus {
@@ -608,6 +613,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent d
   white-space: nowrap;
   background-color: white;
   box-shadow: inset 0 0 0 1px #fe5c5c;
+  color: #fe5c5c;
   position: relative;
   padding: 0 16px;
 }
@@ -832,6 +838,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent d
   white-space: nowrap;
   background-color: white;
   box-shadow: inset 0 0 0 1px #fe5c5c;
+  color: #fe5c5c;
   padding: 0 16px;
 }
 
@@ -867,6 +874,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent d
 
 .emotion-1:hover {
   box-shadow: inset 0 0 0 1px #B64242;
+  color: #B64242;
 }
 
 .emotion-1:hover:focus {
@@ -1004,6 +1012,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent d
   white-space: nowrap;
   background-color: white;
   box-shadow: inset 0 0 0 1px #fe5c5c;
+  color: #fe5c5c;
   position: relative;
   padding: 0 16px;
 }
@@ -1214,6 +1223,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent n
   white-space: nowrap;
   background-color: white;
   box-shadow: inset 0 0 0 1px #33aacc;
+  color: #33aacc;
   padding: 0 32px;
 }
 
@@ -1249,6 +1259,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent n
 
 .emotion-1:hover {
   box-shadow: inset 0 0 0 1px #2E8FAB;
+  color: #2E8FAB;
 }
 
 .emotion-1:hover:focus {
@@ -1386,6 +1397,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent n
   white-space: nowrap;
   background-color: white;
   box-shadow: inset 0 0 0 1px #33aacc;
+  color: #33aacc;
   position: relative;
   padding: 0 32px;
 }
@@ -1610,6 +1622,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent n
   white-space: nowrap;
   background-color: white;
   box-shadow: inset 0 0 0 1px #33aacc;
+  color: #33aacc;
   padding: 0 16px;
 }
 
@@ -1645,6 +1658,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent n
 
 .emotion-1:hover {
   box-shadow: inset 0 0 0 1px #2E8FAB;
+  color: #2E8FAB;
 }
 
 .emotion-1:hover:focus {
@@ -1713,6 +1727,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent n
   white-space: nowrap;
   background-color: white;
   box-shadow: inset 0 0 0 1px #33aacc;
+  color: #33aacc;
   position: relative;
   padding: 0 16px;
 }
@@ -2006,6 +2021,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent n
   white-space: nowrap;
   background-color: white;
   box-shadow: inset 0 0 0 1px #33aacc;
+  color: #33aacc;
   padding: 0 16px;
 }
 
@@ -2041,6 +2057,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent n
 
 .emotion-1:hover {
   box-shadow: inset 0 0 0 1px #2E8FAB;
+  color: #2E8FAB;
 }
 
 .emotion-1:hover:focus {
@@ -2109,6 +2126,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent n
   white-space: nowrap;
   background-color: white;
   box-shadow: inset 0 0 0 1px #33aacc;
+  color: #33aacc;
   position: relative;
   padding: 0 16px;
 }
@@ -2416,6 +2434,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent s
   white-space: nowrap;
   background-color: white;
   box-shadow: inset 0 0 0 1px #36d57d;
+  color: #36d57d;
   padding: 0 32px;
 }
 
@@ -2451,6 +2470,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent s
 
 .emotion-1:hover {
   box-shadow: inset 0 0 0 1px #29A360;
+  color: #29A360;
 }
 
 .emotion-1:hover:focus {
@@ -2588,6 +2608,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent s
   white-space: nowrap;
   background-color: white;
   box-shadow: inset 0 0 0 1px #36d57d;
+  color: #36d57d;
   position: relative;
   padding: 0 32px;
 }
@@ -2812,6 +2833,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent s
   white-space: nowrap;
   background-color: white;
   box-shadow: inset 0 0 0 1px #36d57d;
+  color: #36d57d;
   padding: 0 16px;
 }
 
@@ -2847,6 +2869,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent s
 
 .emotion-1:hover {
   box-shadow: inset 0 0 0 1px #29A360;
+  color: #29A360;
 }
 
 .emotion-1:hover:focus {
@@ -2984,6 +3007,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent s
   white-space: nowrap;
   background-color: white;
   box-shadow: inset 0 0 0 1px #36d57d;
+  color: #36d57d;
   position: relative;
   padding: 0 16px;
 }
@@ -3208,6 +3232,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent s
   white-space: nowrap;
   background-color: white;
   box-shadow: inset 0 0 0 1px #36d57d;
+  color: #36d57d;
   padding: 0 16px;
 }
 
@@ -3243,6 +3268,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent s
 
 .emotion-1:hover {
   box-shadow: inset 0 0 0 1px #29A360;
+  color: #29A360;
 }
 
 .emotion-1:hover:focus {
@@ -3380,6 +3406,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent s
   white-space: nowrap;
   background-color: white;
   box-shadow: inset 0 0 0 1px #36d57d;
+  color: #36d57d;
   position: relative;
   padding: 0 16px;
 }
@@ -3604,6 +3631,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent w
   white-space: nowrap;
   background-color: white;
   box-shadow: inset 0 0 0 1px #ff9400;
+  color: #ff9400;
   padding: 0 32px;
 }
 
@@ -3639,6 +3667,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent w
 
 .emotion-1:hover {
   box-shadow: inset 0 0 0 1px #C87400;
+  color: #C87400;
 }
 
 .emotion-1:hover:focus {
@@ -3776,6 +3805,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent w
   white-space: nowrap;
   background-color: white;
   box-shadow: inset 0 0 0 1px #ff9400;
+  color: #ff9400;
   position: relative;
   padding: 0 32px;
 }
@@ -4000,6 +4030,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent w
   white-space: nowrap;
   background-color: white;
   box-shadow: inset 0 0 0 1px #ff9400;
+  color: #ff9400;
   padding: 0 16px;
 }
 
@@ -4035,6 +4066,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent w
 
 .emotion-1:hover {
   box-shadow: inset 0 0 0 1px #C87400;
+  color: #C87400;
 }
 
 .emotion-1:hover:focus {
@@ -4172,6 +4204,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent w
   white-space: nowrap;
   background-color: white;
   box-shadow: inset 0 0 0 1px #ff9400;
+  color: #ff9400;
   position: relative;
   padding: 0 16px;
 }
@@ -4396,6 +4429,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent w
   white-space: nowrap;
   background-color: white;
   box-shadow: inset 0 0 0 1px #ff9400;
+  color: #ff9400;
   padding: 0 16px;
 }
 
@@ -4431,6 +4465,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent w
 
 .emotion-1:hover {
   box-shadow: inset 0 0 0 1px #C87400;
+  color: #C87400;
 }
 
 .emotion-1:hover:focus {
@@ -4568,6 +4603,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent w
   white-space: nowrap;
   background-color: white;
   box-shadow: inset 0 0 0 1px #ff9400;
+  color: #ff9400;
   position: relative;
   padding: 0 16px;
 }
@@ -10388,6 +10424,7 @@ exports[`<Button /> snapshots renders a squared button with a single icon 1`] = 
   white-space: nowrap;
   background-color: white;
   box-shadow: inset 0 0 0 1px #33aacc;
+  color: #33aacc;
   padding: 15px 16px;
 }
 
@@ -10423,6 +10460,7 @@ exports[`<Button /> snapshots renders a squared button with a single icon 1`] = 
 
 .emotion-0:hover {
   box-shadow: inset 0 0 0 1px #2E8FAB;
+  color: #2E8FAB;
 }
 
 .emotion-0:hover:focus {
@@ -10446,7 +10484,7 @@ exports[`<Button /> snapshots renders a squared button with a single icon 1`] = 
     </title>
     <path
       d="M9 16A7 7 0 1 0 9 2a7 7 0 0 0 0 14zm0 2A9 9 0 1 1 9 0a9 9 0 0 1 0 18zm1-10h3a1 1 0 0 1 0 2h-3v3a1 1 0 0 1-2 0v-3H5a1 1 0 1 1 0-2h3V5a1 1 0 1 1 2 0v3z"
-      fill="#33aacc"
+      fill="currentColor"
       fill-rule="evenodd"
     />
   </svg>

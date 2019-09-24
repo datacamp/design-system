@@ -96,7 +96,11 @@ const getPrimaryStyle = (intent: Intent, enabled: boolean): SerializedStyles =>
       ':focus': { boxShadow: `0 0 0 4px ${disabledColors[intent]}` },
       backgroundColor: baseColors[intent],
     },
-    enabled && { ':hover': { backgroundColor: hoverColors[intent] } }
+    enabled && {
+      ':hover': {
+        backgroundColor: hoverColors[intent],
+      },
+    }
   );
 
 const getDefaultStyle = (intent: Intent, enabled: boolean): SerializedStyles =>
@@ -110,9 +114,13 @@ const getDefaultStyle = (intent: Intent, enabled: boolean): SerializedStyles =>
       },
       backgroundColor: 'white',
       boxShadow: getOutline(intent),
+      color: baseColors[intent],
     },
     enabled && {
-      ':hover': { boxShadow: `inset 0 0 0 1px ${hoverColors[intent]}` },
+      ':hover': {
+        boxShadow: `inset 0 0 0 1px ${hoverColors[intent]}`,
+        color: hoverColors[intent],
+      },
       ':hover:focus': {
         boxShadow: `0 0 0 4px ${disabledColors[intent]}, inset 0 0 0 1px ${hoverColors[intent]}`,
       },
@@ -149,4 +157,5 @@ export {
   getDisabledStyle,
   getIconSize,
   getSize,
+  hoverColors,
 };
