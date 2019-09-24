@@ -2,7 +2,10 @@
 
 exports[`ButtonGroup renders the buttons with spaces 1`] = `
 .emotion-6 {
-  display: inline-block;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
   white-space: nowrap;
 }
 
