@@ -5,7 +5,7 @@ import userEvent from '@testing-library/user-event';
 import React from 'react';
 
 import Select from '.';
-import Option from './Option/Option';
+import SelectOption from './Option';
 
 describe('<Select>', () => {
   const testName = 'test-name';
@@ -14,8 +14,8 @@ describe('<Select>', () => {
   it('sets the correct name on the select element', () => {
     const { getByRole } = render(
       <Select name={testName} onChange={() => {}} value={testValue}>
-        <Option value={testValue}>option1</Option>
-        <Option value={testValue}>option2</Option>
+        <SelectOption value={testValue}>option1</SelectOption>
+        <SelectOption value={testValue}>option2</SelectOption>
       </Select>
     );
 
@@ -26,8 +26,8 @@ describe('<Select>', () => {
   it('renders options', () => {
     const { getByText } = render(
       <Select name={testName} onChange={() => {}} value={testValue}>
-        <Option value={testValue}>option1</Option>
-        <Option value={testValue}>option2</Option>
+        <SelectOption value={testValue}>option1</SelectOption>
+        <SelectOption value={testValue}>option2</SelectOption>
       </Select>
     );
 
@@ -44,8 +44,8 @@ describe('<Select>', () => {
         onChange={() => {}}
         value={testValue}
       >
-        <Option value={testValue}>option1</Option>
-        <Option value={testValue}>option2</Option>
+        <SelectOption value={testValue}>option1</SelectOption>
+        <SelectOption value={testValue}>option2</SelectOption>
       </Select>
     );
     const selectElement = getByRole('listbox') as HTMLElement;
@@ -62,8 +62,8 @@ describe('<Select>', () => {
         onChange={() => {}}
         value={testValue}
       >
-        <Option value={testValue}>option1</Option>
-        <Option value={testValue}>option2</Option>
+        <SelectOption value={testValue}>option1</SelectOption>
+        <SelectOption value={testValue}>option2</SelectOption>
       </Select>
     );
     const selectElement = getByRole('listbox') as HTMLElement;
@@ -80,8 +80,8 @@ describe('<Select>', () => {
         onChange={() => {}}
         value={testValue}
       >
-        <Option value={testValue}>option1</Option>
-        <Option value={testValue}>option2</Option>
+        <SelectOption value={testValue}>option1</SelectOption>
+        <SelectOption value={testValue}>option2</SelectOption>
       </Select>
     );
     const selectElement = getByRole('listbox') as HTMLElement;
@@ -94,8 +94,8 @@ describe('<Select>', () => {
     const onChange = jest.fn();
     const { getByRole } = render(
       <Select name={testName} onChange={onChange} value={testValue}>
-        <Option value="value1">option1</Option>
-        <Option value="value2">option2</Option>
+        <SelectOption value="value1">option1</SelectOption>
+        <SelectOption value="value2">option2</SelectOption>
       </Select>
     );
     const selectElement = getByRole('listbox') as HTMLElement;
@@ -107,8 +107,8 @@ describe('<Select>', () => {
   it('disables the select element', () => {
     const { getByRole } = render(
       <Select name={testName} onChange={() => {}} value={testValue} disabled>
-        <Option value="value1">option1</Option>
-        <Option value="value2">option2</Option>
+        <SelectOption value="value1">option1</SelectOption>
+        <SelectOption value="value2">option2</SelectOption>
       </Select>
     );
     const selectElement = getByRole('listbox') as HTMLElement;
@@ -118,8 +118,8 @@ describe('<Select>', () => {
   it('renders an arrow icon', async () => {
     const { getByTitle } = await render(
       <Select name={testName} onChange={() => {}} value={testValue} disabled>
-        <Option value="value1">option1</Option>
-        <Option value="value2">option2</Option>
+        <SelectOption value="value1">option1</SelectOption>
+        <SelectOption value="value2">option2</SelectOption>
       </Select>
     );
 
@@ -128,11 +128,13 @@ describe('<Select>', () => {
   });
 });
 
-describe('<Option>', () => {
+describe('<SelectOption>', () => {
   const testValue = 'test value';
 
-  it('sets the correct value on the Option element', () => {
-    const { getByRole } = render(<Option value={testValue}>option2</Option>);
+  it('sets the correct value on the SelectOption element', () => {
+    const { getByRole } = render(
+      <SelectOption value={testValue}>option2</SelectOption>
+    );
 
     const optionElement = getByRole('option') as HTMLElement;
     expect(optionElement).toHaveAttribute('value', testValue);
@@ -140,9 +142,9 @@ describe('<Option>', () => {
 
   it('sets the disabled attribute', () => {
     const { getByRole } = render(
-      <Option value={testValue} disabled>
+      <SelectOption value={testValue} disabled>
         option2
-      </Option>
+      </SelectOption>
     );
 
     const optionElement = getByRole('option') as HTMLElement;
