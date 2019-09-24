@@ -21,7 +21,7 @@ const baseColors: IntentMap = {
 };
 
 const hoverColors: IntentMap = {
-  cta: ' #E7B743',
+  cta: '#E7B743',
   danger: '#B64242',
   neutral: '#2E8FAB',
   success: '#29A360',
@@ -36,9 +36,6 @@ const disabledColors: IntentMap = {
   warning: '#FFEED5',
 };
 
-const getOutline = (intent: Intent): string =>
-  `inset 0 0 0 1px ${baseColors[intent]}`;
-
 // BASE STYLES
 const baseStyle = css({
   ':active': { transform: 'perspective(1px) scale(0.975)' },
@@ -49,6 +46,8 @@ const baseStyle = css({
   alignItems: 'center',
   border: 'none',
   borderRadius: '4px',
+  borderStyle: 'solid',
+  borderWidth: '1px',
   cursor: 'pointer',
   display: 'inline-flex',
   justifyContent: 'center',
@@ -69,60 +68,53 @@ const baseLoadingStyle = css({
 
 const getSize = (size: 'small' | 'medium' | 'large'): SerializedStyles => {
   if (size === 'large') {
-    return css({ padding: '0 32px' });
+    return css({ padding: '0 31px' });
   }
-  return css({ padding: '0 16px' });
+  return css({ padding: '0 15px' });
 };
 
 const getIconSize = (size: 'small' | 'medium' | 'large'): SerializedStyles => {
   if (size === 'large') {
-    return css({ padding: ' 20px 21px' });
+    return css({ padding: '19px 20px' });
   }
   if (size === 'small') {
-    return css({ padding: ' 9px 10px' });
+    return css({ padding: '8px 9px' });
   }
-  return css({ padding: '15px 16px' });
+  return css({ padding: '14px 15px' });
 };
 
 const fontSizes = {
-  large: { fontSize: '20px', lineHeight: '64px' },
-  medium: { fontSize: '16px', lineHeight: '48px' },
-  small: { fontSize: '16px', lineHeight: '36px' },
+  large: { fontSize: '20px', lineHeight: '62px' },
+  medium: { fontSize: '16px', lineHeight: '46px' },
+  small: { fontSize: '16px', lineHeight: '34px' },
 };
+
+const getDefaultStyle = (intent: Intent, enabled: boolean): SerializedStyles =>
+  css(
+    {
+      ':focus': {
+        boxShadow: `0 0 0 4px ${disabledColors[intent]}}`,
+      },
+      backgroundColor: 'white',
+      borderColor: baseColors[intent],
+      color: baseColors[intent],
+    },
+    enabled && {
+      ':hover': { borderColor: hoverColors[intent] },
+    }
+  );
 
 const getPrimaryStyle = (intent: Intent, enabled: boolean): SerializedStyles =>
   css(
+    getDefaultStyle(intent, enabled),
     {
-      ':focus': { boxShadow: `0 0 0 4px ${disabledColors[intent]}` },
       backgroundColor: baseColors[intent],
     },
     enabled && {
       ':hover': {
         backgroundColor: hoverColors[intent],
-      },
-    }
-  );
-
-const getDefaultStyle = (intent: Intent, enabled: boolean): SerializedStyles =>
-  css(
-    {
-      ':disabled,  :hover:disabled, :active:disabled': {
-        transform: 'none',
-      },
-      ':focus': {
-        boxShadow: `0 0 0 4px ${disabledColors[intent]}, ${getOutline(intent)}`,
-      },
-      backgroundColor: 'white',
-      boxShadow: getOutline(intent),
-      color: baseColors[intent],
-    },
-    enabled && {
-      ':hover': {
-        boxShadow: `inset 0 0 0 1px ${hoverColors[intent]}`,
+        borderColor: hoverColors[intent],
         color: hoverColors[intent],
-      },
-      ':hover:focus': {
-        boxShadow: `0 0 0 4px ${disabledColors[intent]}, inset 0 0 0 1px ${hoverColors[intent]}`,
       },
     }
   );
@@ -141,10 +133,11 @@ const getDisabledStyle = (
   intent: Intent
 ): SerializedStyles =>
   css(
-    { cursor: 'not-allowed' },
-    appearance === 'primary'
-      ? { backgroundColor: disabledColors[intent] }
-      : { boxShadow: `inset 0 0 0 1px ${disabledColors[intent]}` }
+    { borderColor: disabledColors[intent], cursor: 'not-allowed' },
+    appearance === 'primary' && {
+      backgroundColor: disabledColors[intent],
+      borderColor: disabledColors[intent],
+    }
   );
 
 export {

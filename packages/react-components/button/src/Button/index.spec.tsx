@@ -3,7 +3,6 @@ import '@testing-library/jest-dom/extend-expect';
 import axeRender from '@datacamp/waffles-axe-render';
 import { AddCircleIcon } from '@datacamp/waffles-icons';
 import tokens from '@datacamp/waffles-tokens/lib/future-tokens.json';
-import { render } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import React from 'react';
 
@@ -88,8 +87,8 @@ describe('<Button />', () => {
 
       const buttonElement = container.firstChild;
 
-      expect(buttonElement).toHaveStyle(`padding: 0 16px;`);
-      expect(queryByText('btn small')).toHaveStyle(`line-height: 36px`);
+      expect(buttonElement).toHaveStyle(`padding: 0 15px;`);
+      expect(queryByText('btn small')).toHaveStyle(`line-height: 34px`);
     });
 
     it('renders the medium button for the size="medium" ', async () => {
@@ -101,8 +100,8 @@ describe('<Button />', () => {
 
       const buttonElement = container.firstChild;
 
-      expect(buttonElement).toHaveStyle(`padding: 0 16px;`);
-      expect(queryByText('btn medium')).toHaveStyle(`line-height: 48px`);
+      expect(buttonElement).toHaveStyle(`padding: 0 15px;`);
+      expect(queryByText('btn medium')).toHaveStyle(`line-height: 46px`);
     });
 
     it('renders the large button for the size="large" ', async () => {
@@ -114,9 +113,9 @@ describe('<Button />', () => {
 
       const buttonElement = container.firstChild;
 
-      expect(buttonElement).toHaveStyle(`padding: 0 32px;`);
+      expect(buttonElement).toHaveStyle(`padding: 0 31px;`);
       expect(queryByText('large btn')).toHaveStyle(`font-size: 20px`);
-      expect(queryByText('large btn')).toHaveStyle(`line-height: 64px`);
+      expect(queryByText('large btn')).toHaveStyle(`line-height: 62px`);
     });
 
     it('renders the medium size if no size props is specified', async () => {
@@ -125,8 +124,8 @@ describe('<Button />', () => {
       );
 
       const buttonElement = container.firstChild;
-      expect(buttonElement).toHaveStyle(`padding: 0 16px;`);
-      expect(queryByText('default size btn')).toHaveStyle(`line-height: 48px`);
+      expect(buttonElement).toHaveStyle(`padding: 0 15px;`);
+      expect(queryByText('default size btn')).toHaveStyle(`line-height: 46px`);
     });
   });
 
@@ -139,7 +138,10 @@ describe('<Button />', () => {
       );
 
       expect(container.firstChild).toHaveStyle(
-        `background-color: tokens.color.opaque.primary.value.rgb`
+        `background-color: ${tokens.color.opaque.primary.value.hex};`
+      );
+      expect(container.firstChild).toHaveStyle(
+        `border-color: ${tokens.color.opaque.primary.value.hex};`
       );
     });
 
@@ -151,7 +153,10 @@ describe('<Button />', () => {
       );
 
       expect(container.firstChild).toHaveStyle(
-        `background-color: ${tokens.color.opaque.red.value.hex}`
+        `background-color: ${tokens.color.opaque.red.value.hex};`
+      );
+      expect(container.firstChild).toHaveStyle(
+        `border-color: ${tokens.color.opaque.red.value.hex};`
       );
     });
 
@@ -163,7 +168,10 @@ describe('<Button />', () => {
       );
 
       expect(container.firstChild).toHaveStyle(
-        `background-color: ${tokens.color.opaque.orange.value.hex}`
+        `background-color: ${tokens.color.opaque.orange.value.hex};`
+      );
+      expect(container.firstChild).toHaveStyle(
+        `border-color: ${tokens.color.opaque.orange.value.hex};`
       );
     });
 
@@ -175,7 +183,10 @@ describe('<Button />', () => {
       );
 
       expect(container.firstChild).toHaveStyle(
-        `background-color: ${tokens.color.opaque.secondary.value.hex}`
+        `background-color: ${tokens.color.opaque.secondary.value.hex};`
+      );
+      expect(container.firstChild).toHaveStyle(
+        `border-color: ${tokens.color.opaque.secondary.value.hex};`
       );
     });
 
@@ -203,7 +214,7 @@ describe('<Button />', () => {
       const buttonElement = container.firstChild;
 
       expect(buttonElement).toHaveStyle(
-        `box-shadow: inset 0 0 0 1px ${tokens.color.opaque.primary.value.hex}`
+        `border-color: ${tokens.color.opaque.primary.value.hex}`
       );
       expect(buttonElement).toHaveStyle(`background-color: white`);
     });
@@ -218,7 +229,7 @@ describe('<Button />', () => {
       const buttonElement = container.firstChild;
 
       expect(buttonElement).toHaveStyle(
-        `box-shadow: inset 0 0 0 1px ${tokens.color.opaque.red.value.hex}`
+        `border-color: ${tokens.color.opaque.red.value.hex}`
       );
       expect(buttonElement).toHaveStyle(`background-color: white`);
     });
@@ -233,7 +244,7 @@ describe('<Button />', () => {
       const buttonElement = container.firstChild;
 
       expect(buttonElement).toHaveStyle(
-        `box-shadow: inset 0 0 0 1px ${tokens.color.opaque.orange.value.hex}`
+        `border-color: ${tokens.color.opaque.orange.value.hex}`
       );
       expect(buttonElement).toHaveStyle(`background-color: white`);
     });
@@ -248,7 +259,7 @@ describe('<Button />', () => {
       const buttonElement = container.firstChild;
 
       expect(buttonElement).toHaveStyle(
-        `box-shadow: inset 0 0 0 1px ${tokens.color.opaque.green.value.hex}`
+        `border-color: ${tokens.color.opaque.green.value.hex}`
       );
       expect(buttonElement).toHaveStyle(`background-color: white`);
     });
@@ -256,7 +267,7 @@ describe('<Button />', () => {
 
   describe('loading', () => {
     it('renders a spinner when the prop "loading" is passed to the button', async () => {
-      const { container, getByText, getByTitle } = await render(
+      const { container, getByText, getByTitle } = await axeRender(
         <Button onClick={someFunction} loading>
           btn loading
         </Button>
@@ -271,7 +282,7 @@ describe('<Button />', () => {
     });
 
     it('renders a dark spinner when the appearance="default" (or undefined)', async () => {
-      const { container } = await render(
+      const { container } = await axeRender(
         <Button onClick={someFunction} loading>
           Loading
         </Button>
@@ -283,7 +294,7 @@ describe('<Button />', () => {
     });
 
     it('renders a white spinner when the appearance="primary"', async () => {
-      const { container } = await render(
+      const { container } = await axeRender(
         <Button appearance="primary" onClick={someFunction} loading>
           Loading
         </Button>
@@ -297,7 +308,7 @@ describe('<Button />', () => {
 
   describe('Single icon', () => {
     it('renders a single icon as a child', async () => {
-      const { container, getByTitle } = await render(
+      const { container, getByTitle } = await axeRender(
         <Button ariaLabel="add" onClick={someFunction}>
           <AddCircleIcon />
         </Button>
@@ -309,7 +320,7 @@ describe('<Button />', () => {
     });
 
     it('renders a small squared button when it has icon as a child and size="small"', async () => {
-      const { container } = await render(
+      const { container } = await axeRender(
         <Button ariaLabel="add" onClick={someFunction} size="small">
           <AddCircleIcon />
         </Button>
@@ -320,7 +331,7 @@ describe('<Button />', () => {
     });
 
     it('renders a medium squared button when it has icon as a child and size="medium" or is undefined ', async () => {
-      const { container } = await render(
+      const { container } = await axeRender(
         <Button ariaLabel="add" onClick={someFunction}>
           <AddCircleIcon />
         </Button>
@@ -331,7 +342,7 @@ describe('<Button />', () => {
     });
 
     it('renders a large squared button when it has icon as a child and size="large" ', async () => {
-      const { container } = await render(
+      const { container } = await axeRender(
         <Button ariaLabel="add" onClick={someFunction} size="large">
           <AddCircleIcon />
         </Button>
@@ -368,6 +379,9 @@ describe('<Button />', () => {
       expect(container.firstChild).toHaveStyle(
         `background-color: ${tokens.color.opaque.primary.value.hex}`
       );
+      expect(container.firstChild).toHaveStyle(
+        `border-color: ${tokens.color.opaque.primary.value.hex}`
+      );
     });
 
     it('renders a red button for the appearance="primary" and intent="danger', async () => {
@@ -384,6 +398,9 @@ describe('<Button />', () => {
 
       expect(container.firstChild).toHaveStyle(
         `background-color: ${tokens.color.opaque.red.value.hex}`
+      );
+      expect(container.firstChild).toHaveStyle(
+        `border-color: ${tokens.color.opaque.red.value.hex}`
       );
     });
 
@@ -402,6 +419,9 @@ describe('<Button />', () => {
       expect(container.firstChild).toHaveStyle(
         `background-color: ${tokens.color.opaque.orange.value.hex}`
       );
+      expect(container.firstChild).toHaveStyle(
+        `border-color: ${tokens.color.opaque.orange.value.hex}`
+      );
     });
 
     it('renders a green button for the appearance="primary" and intent="success', async () => {
@@ -418,6 +438,9 @@ describe('<Button />', () => {
 
       expect(container.firstChild).toHaveStyle(
         `background-color: ${tokens.color.opaque.green.value.hex}`
+      );
+      expect(container.firstChild).toHaveStyle(
+        `border-color: ${tokens.color.opaque.green.value.hex}`
       );
     });
 
@@ -436,7 +459,7 @@ describe('<Button />', () => {
       const buttonElement = container.firstChild;
 
       expect(buttonElement).toHaveStyle(
-        `box-shadow: inset 0 0 0 1px ${tokens.color.opaque.primary.value.hex}`
+        `border-color: ${tokens.color.opaque.primary.value.hex}`
       );
       expect(buttonElement).toHaveStyle(`background-color: white`);
     });
@@ -456,7 +479,7 @@ describe('<Button />', () => {
       const buttonElement = container.firstChild;
 
       expect(buttonElement).toHaveStyle(
-        `box-shadow: inset 0 0 0 1px ${tokens.color.opaque.red.value.hex}`
+        `border-color: ${tokens.color.opaque.red.value.hex}`
       );
       expect(buttonElement).toHaveStyle(`background-color: white`);
     });
@@ -476,7 +499,7 @@ describe('<Button />', () => {
       const buttonElement = container.firstChild;
 
       expect(buttonElement).toHaveStyle(
-        `box-shadow: inset 0 0 0 1px ${tokens.color.opaque.orange.value.hex}`
+        `border-color: ${tokens.color.opaque.orange.value.hex}`
       );
       expect(buttonElement).toHaveStyle(`background-color: white`);
     });
@@ -496,7 +519,7 @@ describe('<Button />', () => {
       const buttonElement = container.firstChild;
 
       expect(buttonElement).toHaveStyle(
-        `box-shadow: inset 0 0 0 1px ${tokens.color.opaque.green.value.hex}`
+        `border-color: ${tokens.color.opaque.green.value.hex}`
       );
       expect(buttonElement).toHaveStyle(`background-color: white`);
     });
@@ -504,7 +527,7 @@ describe('<Button />', () => {
 
   describe('Icon and text', () => {
     it('renders an icon and a string as children', async () => {
-      const { container, getByText, getByTitle } = await render(
+      const { container, getByText, getByTitle } = await axeRender(
         <Button onClick={someFunction}>
           TestText
           <AddCircleIcon />
@@ -514,11 +537,13 @@ describe('<Button />', () => {
       const buttonElement = container.firstChild;
       const iconElement = getByTitle('Add') as HTMLElement;
       expect(buttonElement).toContainElement(iconElement);
-      expect(buttonElement).toContainElement(getByText('TestText'));
+      expect(buttonElement).toContainElement(getByText(
+        'TestText'
+      ) as HTMLElement);
     });
 
     it("doesn't add padding to the top and bottom ", async () => {
-      const { container } = await render(
+      const { container } = await axeRender(
         <Button onClick={someFunction}>
           TestText
           <AddCircleIcon />
@@ -530,7 +555,7 @@ describe('<Button />', () => {
     });
 
     it('the text has a margin on the right if it is the first child', async () => {
-      const { getByText } = await render(
+      const { getByText } = await axeRender(
         <Button onClick={someFunction}>
           TestText
           <AddCircleIcon />
@@ -541,7 +566,7 @@ describe('<Button />', () => {
     });
 
     it('the text has a margin on the left if it is not the first child', async () => {
-      const { getByText } = await render(
+      const { getByText } = await axeRender(
         <Button onClick={someFunction}>
           <AddCircleIcon />
           TestText
