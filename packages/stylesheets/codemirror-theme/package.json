@@ -1,0 +1,7 @@
+{
+  "name": "@datacamp/waffles-codemirror-theme",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/datacamp-engineering/design-system/tree/master/packages/stylesheets/codemirror-theme",
+  "license": "UNLICENSED"
+}
