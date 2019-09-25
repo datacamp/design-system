@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.21.1](https://github.com/datacamp/design-system/compare/@datacamp/waffles-catalog-doc-site@1.21.0...@datacamp/waffles-catalog-doc-site@1.21.1) (2019-09-25)
+
+
+### Bug Fixes
+
+* input doc ([50939ff](https://github.com/datacamp/design-system/commit/50939ff))
+* lint (+3 squashed commits) ([d4bc868](https://github.com/datacamp/design-system/commit/d4bc868))
+
+
+
+
+
 # [1.21.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-catalog-doc-site@1.20.0...@datacamp/waffles-catalog-doc-site@1.21.0) (2019-09-19)
 
 

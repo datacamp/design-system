@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.1.0](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/modals/compare/@datacamp/waffles-modals@2.0.0...@datacamp/waffles-modals@2.1.0) (2019-09-25)
+
+
+### Bug Fixes
+
+* lint (+3 squashed commits) ([d4bc868](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/modals/commit/d4bc868))
+* proptypes ([7366b9a](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/modals/commit/7366b9a))
+
+
+### Features
+
+* add hover colour for default icon buttons ([0242331](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/modals/commit/0242331))
+
+
+
+
+
 # [2.0.0](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/modals/compare/@datacamp/waffles-modals@1.3.0...@datacamp/waffles-modals@2.0.0) (2019-09-19)
 
 

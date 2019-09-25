@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.6.0](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/icons/compare/@datacamp/waffles-icons@1.5.1...@datacamp/waffles-icons@1.6.0) (2019-09-25)
+
+
+### Features
+
+* generate png icons in the zip file ([9febb7e](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/icons/commit/9febb7e))
+
+
+
+
+
 ## [1.5.1](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/icons/compare/@datacamp/waffles-icons@1.5.0...@datacamp/waffles-icons@1.5.1) (2019-09-19)
 
 **Note:** Version bump only for package @datacamp/waffles-icons

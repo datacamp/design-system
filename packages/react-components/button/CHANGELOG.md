@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [3.1.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-button@3.0.0...@datacamp/waffles-button@3.1.0) (2019-09-25)
+
+
+### Features
+
+* add hover colour for default icon buttons ([0242331](https://github.com/datacamp/design-system/commit/0242331))
+
+
+
+
+
 # [3.0.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-button@2.2.0...@datacamp/waffles-button@3.0.0) (2019-09-19)
 
 
