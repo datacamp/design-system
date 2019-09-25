@@ -6,6 +6,7 @@ const pluginLodash = require('babel-plugin-lodash');
 const pluginTypescriptToProptypes = require('babel-plugin-typescript-to-proptypes')
   .default;
 const pluginTransformRuntime = require('@babel/plugin-transform-runtime');
+const pluginProposalClassProperties = require('@babel/plugin-proposal-class-properties');
 
 const targets = {
   browsers: ['last 2 versions', 'Firefox ESR', 'not IE < 11'],
@@ -36,6 +37,11 @@ module.exports = () => ({
       ],
     },
   },
-  plugins: [pluginLodash, pluginTypescriptToProptypes, pluginTransformRuntime],
+  plugins: [
+    pluginLodash,
+    pluginProposalClassProperties,
+    pluginTypescriptToProptypes,
+    pluginTransformRuntime,
+  ],
   presets: [[presetEnv], presetReact, presetTypescript, presetCSSProp],
 });
