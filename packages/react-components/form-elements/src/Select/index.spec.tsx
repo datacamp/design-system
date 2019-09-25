@@ -1,5 +1,6 @@
 import '@testing-library/jest-dom/extend-expect';
 
+import tokens from '@datacamp/waffles-tokens/lib/future-tokens.json';
 import { fireEvent, render } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import React from 'react';
@@ -125,6 +126,72 @@ describe('<Select>', () => {
 
     const iconElement = getByTitle('Down Chevron') as HTMLElement;
     expect(iconElement).toBeInTheDocument();
+  });
+
+  it('renders a large select element if size="large"', () => {
+    const { getByRole } = render(
+      <Select
+        name={testName}
+        onChange={() => {}}
+        size="large"
+        value={testValue}
+      >
+        <SelectOption value="value1">option1</SelectOption>
+        <SelectOption value="value2">option2</SelectOption>
+      </Select>
+    );
+    const selectElement = getByRole('listbox') as HTMLElement;
+    expect(selectElement).toHaveStyle(
+      ` height: ${tokens.size.space[64].value}`
+    );
+    expect(selectElement).toHaveStyle('fontSize: 20');
+    expect(selectElement).toHaveStyle(
+      ` padding: 0 ${tokens.size.space[64].value}px  `
+    );
+  });
+
+  it('renders a small select element if size="small"', () => {
+    const { getByRole } = render(
+      <Select
+        name={testName}
+        onChange={() => {}}
+        size="small"
+        value={testValue}
+      >
+        <SelectOption value="value1">option1</SelectOption>
+        <SelectOption value="value2">option2</SelectOption>
+      </Select>
+    );
+    const selectElement = getByRole('listbox') as HTMLElement;
+    expect(selectElement).toHaveStyle(
+      ` height: ${tokens.size.space[36].value}`
+    );
+    expect(selectElement).toHaveStyle('fontSize: 16');
+    expect(selectElement).toHaveStyle(
+      ` padding: 0 ${tokens.size.space[36].value}px  `
+    );
+  });
+
+  it('renders a medium select element if size="medium"', () => {
+    const { getByRole } = render(
+      <Select
+        name={testName}
+        onChange={() => {}}
+        size="medium"
+        value={testValue}
+      >
+        <SelectOption value="value1">option1</SelectOption>
+        <SelectOption value="value2">option2</SelectOption>
+      </Select>
+    );
+    const selectElement = getByRole('listbox') as HTMLElement;
+    expect(selectElement).toHaveStyle(
+      ` height: ${tokens.size.space[48].value}`
+    );
+    expect(selectElement).toHaveStyle('fontSize: 16');
+    expect(selectElement).toHaveStyle(
+      ` padding: 0 ${tokens.size.space[48].value}px  `
+    );
   });
 });
 

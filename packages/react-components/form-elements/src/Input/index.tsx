@@ -7,7 +7,13 @@ import {
 import { ClassNames, css } from '@emotion/core';
 import React, { forwardRef, ReactElement } from 'react';
 
-import { iconSize, inputSizes, inputStyle, paddings } from './inputStyle';
+import {
+  baseFormSizes,
+  iconSize,
+  inputPaddings,
+  inputStyle,
+  inputWithIconPaddings,
+} from '../formStyles';
 
 interface InputProps {
   /**
@@ -138,10 +144,12 @@ const Input = forwardRef<HTMLInputElement, InputProps>(
 
     const handleBlur = (): void => onBlur && onBlur();
 
+    const inputSize = css(baseFormSizes[size], inputPaddings[size]);
+
     const getInputStyle = css(
-      inputSizes[size],
+      inputSize,
       inputStyle,
-      icon && paddings[size],
+      icon && inputWithIconPaddings[size],
       label && css({ width: '100%' })
     );
 
@@ -149,7 +157,7 @@ const Input = forwardRef<HTMLInputElement, InputProps>(
       display: 'inline-block',
       left: tokens.size.space[12].value,
       position: 'absolute',
-      top: (inputSizes[size].height - iconSize[size]) / 2,
+      top: (baseFormSizes[size].height - iconSize[size]) / 2,
     });
 
     const iconElement = icon && (

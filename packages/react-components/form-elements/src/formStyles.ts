@@ -1,17 +1,10 @@
 import tokens from '@datacamp/waffles-tokens/lib/future-tokens.json';
 import { css } from '@emotion/core';
 
-const inputStyle = css({
-  '::placeholder': {
-    color: tokens.color.opaque.greyOslo.value.rgb,
-    fontFamily: 'inherit',
-  },
-
+const baseFormStyle = css({
   ':disabled, :active:disabled, :focus:disabled': {
     cursor: 'not-allowed',
   },
-  ':disabled::placeholder': { color: '#D1D3D8' },
-
   ':focus': {
     boxShadow: `inset 0 0 0 1px ${tokens.color.opaque.primary.value.rgb}`,
     outline: 'none',
@@ -21,7 +14,6 @@ const inputStyle = css({
   borderRadius: tokens.radii.small.value,
   boxShadow: `inset 0 0 0 1px ${tokens.color.opaque.greyLight.value.rgb}`,
   boxSizing: 'border-box',
-  color: tokens.color.opaque.grey.value.rgb,
   display: 'inline-block',
   fontFamily: [
     tokens.asset.font.sansSerif.attributes.fallback,
@@ -31,58 +23,74 @@ const inputStyle = css({
   verticalAlign: 'baseline',
 });
 
-const inputSizes = {
+const inputStyle = css(baseFormStyle, {
+  '::placeholder': {
+    color: tokens.color.opaque.greyOslo.value.rgb,
+    fontFamily: 'inherit',
+  },
+  ':disabled::placeholder': { color: '#D1D3D8' },
+});
+
+const selectStyle = css(baseFormStyle, {
+  ':disabled, :active:disabled, :focus:disabled, :hover:disabled': {
+    boxShadow: `inset 0 0 0 1px ${tokens.color.opaque.greyLight.value.rgb}`,
+  },
+  MozAppearance: 'none',
+  WebkitAppearance: 'none',
+  appearance: 'none',
+  width: '100%',
+  zIndex: 1,
+});
+
+const baseFormSizes = {
   large: {
     fontSize: 20,
     height: tokens.size.space[64].value,
-    padding: `0 ${tokens.size.space[24].value}px  `,
   },
   medium: {
     fontSize: 16,
     height: tokens.size.space[48].value,
-    padding: `0 ${tokens.size.space[16].value}px  `,
   },
   small: {
     fontSize: 16,
     height: tokens.size.space[36].value,
+  },
+};
+
+const inputPaddings = {
+  large: {
+    padding: `0 ${tokens.size.space[24].value}px  `,
+  },
+  medium: {
+    padding: `0 ${tokens.size.space[16].value}px  `,
+  },
+  small: {
     padding: `0 ${tokens.size.space[12].value}px  `,
   },
 };
 
-const selectSizes = {
+const selectPaddings = {
   large: {
-    fontSize: 20,
-    height: tokens.size.space[64].value,
-    padding: `0 ${tokens.size.space[48].value}px  `,
+    padding: `0 ${tokens.size.space[64].value}px  `,
   },
   medium: {
-    fontSize: 16,
-    height: tokens.size.space[48].value,
-    padding: `0 34px  `,
+    padding: `0 ${tokens.size.space[48].value}px  `,
   },
   small: {
-    fontSize: 16,
-    height: tokens.size.space[36].value,
-    padding: `0  30px  `,
+    padding: `0 ${tokens.size.space[36].value}px  `,
   },
 };
 
-const paddings = {
+const inputWithIconPaddings = {
   large: { padding: `0 ${tokens.size.space[48].value}px` },
   medium: { padding: `0 ${tokens.size.space[36].value}px  ` },
   small: { padding: `0 ${tokens.size.space[36].value}px  ` },
 };
 
-const selectPaddings = {
-  large: {
-    padding: `22px ${tokens.size.space[48].value}px 22px  ${tokens.size.space[24].value}px`,
-  },
-  medium: {
-    padding: `${tokens.size.space[8].value}px 34px ${tokens.size.space[8].value}px ${tokens.size.space[16].value}px `,
-  },
-  small: {
-    padding: `${tokens.size.space[8].value}px 30px ${tokens.size.space[8].value}px ${tokens.size.space[12].value}px `,
-  },
+const selectIconSizes = {
+  large: 24,
+  medium: 18,
+  small: 18,
 };
 
 const iconSize = {
@@ -91,18 +99,20 @@ const iconSize = {
   small: 12,
 };
 
-const topSpace = {
-  large: { top: '20px' },
-  medium: { top: '15px' },
-  small: { top: '9px' },
+const arrowIconPosition = {
+  large: { right: tokens.size.space[24].value, top: '20px' },
+  medium: { right: tokens.size.space[16].value, top: '15px' },
+  small: { right: tokens.size.space[12].value, top: '9px' },
 };
 
 export {
-  inputSizes,
+  arrowIconPosition,
+  baseFormSizes,
+  inputPaddings,
   inputStyle,
   iconSize,
-  paddings,
+  inputWithIconPaddings,
+  selectIconSizes,
   selectPaddings,
-  selectSizes,
-  topSpace,
+  selectStyle,
 };

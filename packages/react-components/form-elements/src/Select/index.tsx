@@ -6,7 +6,13 @@ import { childrenOfType } from 'airbnb-prop-types';
 import PropTypes from 'prop-types';
 import React, { Component, forwardRef, ReactElement } from 'react';
 
-import { selectSizes, topSpace } from '../formStyles';
+import {
+  arrowIconPosition,
+  baseFormSizes,
+  selectIconSizes,
+  selectPaddings,
+  selectStyle,
+} from '../formStyles';
 import Option, { OptionProps } from './Option';
 
 interface SelectProps {
@@ -55,40 +61,9 @@ interface SelectState {
   focus: boolean;
 }
 
-const selectStyle = css({
-  ':disabled, :active:disabled, :focus:disabled, :hover:disabled': {
-    boxShadow: `inset 0 0 0 1px ${tokens.color.opaque.greyLight.value.rgb}`,
-    cursor: 'not-allowed',
-  },
-  ':focus': {
-    boxShadow: `inset 0 0 0 1px ${tokens.color.opaque.primary.value.rgb}`,
-    outline: 'none',
-  },
-  MozAppearance: 'none',
-  WebkitAppearance: 'none',
-  appearance: 'none',
-  background: 'white',
-  border: 0,
-  borderRadius: tokens.radii.small.value,
-  boxShadow: `inset 0 0 0 1px ${tokens.color.opaque.greyLight.value.rgb}`,
-  boxSizing: 'border-box',
-  display: 'inline-block',
-  fontFamily: [
-    tokens.asset.font.sansSerif.attributes.fallback,
-    tokens.asset.font.sansSerif.value,
-  ],
-  fontSize: '16px',
-  margin: 0,
-  verticalAlign: 'baseline',
-  width: '100%',
-  zIndex: 1,
-});
-
 const iconStyle = css({
   pointerEvents: 'none',
   position: 'absolute',
-  right: tokens.size.space[8].value,
-  //top: tokens.size.space[12].value,
 });
 
 class Select extends Component<SelectProps, SelectState> {
@@ -135,7 +110,9 @@ class Select extends Component<SelectProps, SelectState> {
     const { focus } = this.state;
     const parsedDataAttributes = computeDataAttributes(dataAttributes);
 
-    const getSelectStyle = css(selectStyle, selectSizes[size], {
+    const selectSizes = css(baseFormSizes[size], selectPaddings[size]);
+
+    const getSelectStyle = css(selectStyle, selectSizes, {
       color: disabled
         ? tokens.color.opaque.greyLight.value.rgb
         : tokens.color.opaque.greyOslo.value.rgb,
@@ -164,9 +141,9 @@ class Select extends Component<SelectProps, SelectState> {
         <ClassNames>
           {({ css: getClassName }) =>
             React.cloneElement(<ChevronDownIcon />, {
-              className: getClassName(iconStyle, topSpace[size]),
+              className: getClassName(iconStyle, arrowIconPosition[size]),
               color: focus ? tokens.color.opaque.primary.value.rgb : getColor,
-              size: size === 'large' ? 24 : 18,
+              size: selectIconSizes[size],
             })
           }
         </ClassNames>
