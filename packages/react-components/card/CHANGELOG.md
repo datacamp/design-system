@@ -3,6 +3,24 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/card/compare/@datacamp/waffles-card@1.0.8...@datacamp/waffles-card@2.0.0) (2019-09-27)
+
+
+### Bug Fixes
+
+* add @emotion/core as a peer dependency ([1c70721](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/card/commit/1c70721))
+
+
+### BREAKING CHANGES
+
+* @emotion/core is now a peerDependency rather than a 
+dependency. This is to ensure that only one version is used. This 
+package now requires @emotion/core to be installed alongside it.
+
+
+
+
+
 ## [1.0.8](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/card/compare/@datacamp/waffles-card@1.0.7...@datacamp/waffles-card@1.0.8) (2019-09-25)
 
 **Note:** Version bump only for package @datacamp/waffles-card

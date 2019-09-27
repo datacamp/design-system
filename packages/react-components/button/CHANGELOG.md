@@ -3,6 +3,31 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [4.0.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-button@3.1.0...@datacamp/waffles-button@4.0.0) (2019-09-27)
+
+
+### Bug Fixes
+
+* add @emotion/core as a peer dependency ([1c70721](https://github.com/datacamp/design-system/commit/1c70721))
+* throw error when using different size Buttons in ButtonGroup ([3955206](https://github.com/datacamp/design-system/commit/3955206))
+* use real borders on buttons ([a4bbb5d](https://github.com/datacamp/design-system/commit/a4bbb5d))
+
+
+### Features
+
+* add CompactButtonGroup component ([4ef2e4f](https://github.com/datacamp/design-system/commit/4ef2e4f))
+
+
+### BREAKING CHANGES
+
+* @emotion/core is now a peerDependency rather than a 
+dependency. This is to ensure that only one version is used. This 
+package now requires @emotion/core to be installed alongside it.
+
+
+
+
+
 # [3.1.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-button@3.0.0...@datacamp/waffles-button@3.1.0) (2019-09-25)
 
 

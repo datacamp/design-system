@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.22.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-storybook@1.21.1...@datacamp/waffles-storybook@1.22.0) (2019-09-27)
+
+
+### Features
+
+* add story for CompactButtonGroup ([3d20b43](https://github.com/datacamp/design-system/commit/3d20b43))
+
+
+
+
+
 ## [1.21.1](https://github.com/datacamp/design-system/compare/@datacamp/waffles-storybook@1.21.0...@datacamp/waffles-storybook@1.21.1) (2019-09-25)
 
 

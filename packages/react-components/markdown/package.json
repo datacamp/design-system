@@ -1,6 +1,6 @@
 {
   "name": "@datacamp/waffles-markdown",
-  "version": "0.1.6",
+  "version": "1.0.0",
   "main": "lib/index.js",
   "module": "es/index.js",
   "types": "types/index.d.ts",
@@ -43,7 +43,7 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.6.0",
-    "@datacamp/waffles-text": "^0.12.6",
+    "@datacamp/waffles-text": "^1.0.0",
     "prop-types": "^15.7.2",
     "react-markdown": "^4.2.2"
   },

@@ -3,6 +3,24 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.0.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-text@0.12.6...@datacamp/waffles-text@1.0.0) (2019-09-27)
+
+
+### Bug Fixes
+
+* add @emotion/core as a peer dependency ([1c70721](https://github.com/datacamp/design-system/commit/1c70721))
+
+
+### BREAKING CHANGES
+
+* @emotion/core is now a peerDependency rather than a 
+dependency. This is to ensure that only one version is used. This 
+package now requires @emotion/core to be installed alongside it.
+
+
+
+
+
 ## [0.12.6](https://github.com/datacamp/design-system/compare/@datacamp/waffles-text@0.12.5...@datacamp/waffles-text@0.12.6) (2019-09-25)
 
 **Note:** Version bump only for package @datacamp/waffles-text

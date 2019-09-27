@@ -3,6 +3,26 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [3.0.0](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/modals/compare/@datacamp/waffles-modals@2.1.0...@datacamp/waffles-modals@3.0.0) (2019-09-27)
+
+
+### Bug Fixes
+
+* add @emotion/core as a peer dependency ([1c70721](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/modals/commit/1c70721))
+* add z index to modal overlay ([a2960cf](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/modals/commit/a2960cf))
+* use updated buttons in AlertDialog ([b1d7174](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/modals/commit/b1d7174))
+
+
+### BREAKING CHANGES
+
+* @emotion/core is now a peerDependency rather than a 
+dependency. This is to ensure that only one version is used. This 
+package now requires @emotion/core to be installed alongside it.
+
+
+
+
+
 # [2.1.0](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/modals/compare/@datacamp/waffles-modals@2.0.0...@datacamp/waffles-modals@2.1.0) (2019-09-25)
 
 
