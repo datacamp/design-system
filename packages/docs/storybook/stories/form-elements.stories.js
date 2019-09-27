@@ -1,5 +1,5 @@
 import Button from '@datacamp/waffles-button';
-import { Input } from '@datacamp/waffles-form-elements';
+import { Input, Radio, RadioList } from '@datacamp/waffles-form-elements';
 import { AddCircleIcon } from '@datacamp/waffles-icons';
 import { storiesOf } from '@storybook/react';
 import React, { createElement, useEffect, useRef, useState } from 'react';
@@ -224,6 +224,56 @@ storiesOf('waffles-form-elements', module)
             size="small"
             value=""
           />
+        </div>
+      );
+    });
+  })
+
+  .add('RadioList', () => {
+    const [value, setValue] = useState('value1');
+
+    return createElement(() => {
+      const focusRef = useRef();
+      useEffect(() => {
+        if (focusRef && focusRef.current) {
+          focusRef.current.focus();
+        }
+      }, [focusRef]);
+
+      return (
+        <div>
+          <RadioList
+            label="test label"
+            name="testName"
+            onChange={setValue}
+            value={value}
+          >
+            <Radio value="value1" />
+            <Radio value="value2" />
+            <Radio value="disabled" disabled />
+          </RadioList>
+
+          <RadioList
+            label="label 2"
+            name="testName"
+            onChange={() => {}}
+            value=""
+            required
+          >
+            <Radio value="value3" />
+            <Radio value="value4" />
+          </RadioList>
+
+          <RadioList
+            label="label 3"
+            name="testName"
+            onChange={() => {}}
+            required={false}
+            value=""
+          >
+            <Radio value="value5" />
+            <Radio value="value6" />
+          </RadioList>
         </div>
       );
     });
