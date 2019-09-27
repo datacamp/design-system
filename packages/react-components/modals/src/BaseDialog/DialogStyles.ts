@@ -17,6 +17,7 @@ export const overlayStyle = css({
   right: 0,
   top: 0,
   transition: `opacity 0.6s cubic-bezier(0.19, 1, 0.22, 1)`,
+  zIndex: parseInt(tokens.zIndex[100].value, 10),
 });
 
 export const overlayStyleAfterOpen = css`
