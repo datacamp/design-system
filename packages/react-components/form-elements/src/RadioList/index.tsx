@@ -22,6 +22,10 @@ export interface RadioListProps {
    */
   dataAttributes?: { [key: string]: string };
   /**
+   * It shows an error message under the radio group.
+   */
+  errorMessage?: string;
+  /**
    * It sets a label next to the radio button
    */
   label?: string;
@@ -59,6 +63,13 @@ const labelStyle = css({
   },
 });
 
+const errorMessageStyle = css({
+  color: tokens.color.opaque.red.value.hex,
+  display: 'block',
+  fontSize: '14px',
+  marginTop: tokens.size.space[8].value,
+});
+
 const RadioList: React.FC<
   RadioListProps & { innerRef?: React.Ref<any> }
 > = props => {
@@ -66,6 +77,7 @@ const RadioList: React.FC<
     children,
     className,
     dataAttributes,
+    errorMessage = undefined,
     label,
     name,
     onChange,
@@ -79,6 +91,7 @@ const RadioList: React.FC<
     <RadioContextProvider
       value={{
         className,
+        errorMessage,
         name,
         onChange,
         parsedDataAttributes,
@@ -95,6 +108,7 @@ const RadioList: React.FC<
           <Text css={requiredStyle}>{required ? 'required' : 'optional'}</Text>
         )}
         {children}
+        {errorMessage && <Text css={errorMessageStyle}>{errorMessage}</Text>}
       </div>
     </RadioContextProvider>
   );

@@ -1,67 +1,20 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`snapshots renders a radio button group 1`] = `
-.emotion-13 {
+.emotion-14 {
   display: block;
   margin-top: 16px;
 }
 
-.emotion-13:first-child:not(style),
-.emotion-13 style:first-child + * {
+.emotion-14:first-child:not(style),
+.emotion-14 style:first-child + * {
   margin-top: 0;
-}
-
-.emotion-4 {
-  color: #d1d3d8;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  margin-top: 14px;
-  position: relative;
-}
-
-.emotion-4:focus,
-.emotion-4:active {
-  color: #33aacc;
-}
-
-.emotion-4:active span:first-of-type {
-  box-shadow: inset 0 0 0 2px #33aacc;
-}
-
-.emotion-4:focus-within span:first-of-type {
-  box-shadow: inset 0 0 0 2px #33aacc;
 }
 
 .emotion-3 input[type="radio"] {
   opacity: 0;
   position: absolute;
   width: 0;
-}
-
-.emotion-0 {
-  border-radius: 50%;
-  box-shadow: inset 0 0 0 1px currentColor;
-  height: 16px;
-  margin-top: 2px;
-  position: absolute;
-  width: 16px;
-  box-shadow: inset 0 0 0 1px #33aacc;
-}
-
-.emotion-0:active {
-  box-shadow: inset 0 0 0 2px currentColor;
-}
-
-.emotion-1 {
-  background-color: #33aacc;
-  border-radius: 50%;
-  height: 8px;
-  margin-left: 4px;
-  margin-top: 6px;
-  position: absolute;
-  width: 8px;
 }
 
 .emotion-2 {
@@ -88,6 +41,98 @@ exports[`snapshots renders a radio button group 1`] = `
   box-shadow: inset 0 0 0 2px currentColor;
 }
 
+.emotion-4 {
+  color: #d1d3d8;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 14px;
+  position: relative;
+  color: #fe5c5c;
+}
+
+.emotion-4:focus,
+.emotion-4:active {
+  color: #33aacc;
+}
+
+.emotion-4:active span:first-of-type {
+  box-shadow: inset 0 0 0 2px #fe5c5c;
+}
+
+.emotion-4:focus-within span:first-of-type {
+  box-shadow: inset 0 0 0 2px #fe5c5c;
+}
+
+.emotion-4:active span:first-of-type {
+  box-shadox: inset 0 0 0 2px #fe5c5c;
+}
+
+.emotion-4:focus-within span:first-of-type {
+  box-shadow: inset 0 0 0 2px #fe5c5c;
+}
+
+.emotion-0 {
+  border-radius: 50%;
+  box-shadow: inset 0 0 0 1px currentColor;
+  height: 16px;
+  margin-top: 2px;
+  position: absolute;
+  width: 16px;
+  box-shadow: inset 0 0 0 1px #33aacc;
+  box-shadow: inset 0 0 0 1px #fe5c5c;
+}
+
+.emotion-0:active {
+  box-shadow: inset 0 0 0 2px currentColor;
+}
+
+.emotion-0:active {
+  box-shadow: inset 0 0 0 2px #fe5c5c;
+}
+
+.emotion-0:focus {
+  box-shadow: inset 0 0 0 2px #fe5c5c;
+}
+
+.emotion-1 {
+  border-radius: 50%;
+  height: 8px;
+  margin-left: 4px;
+  margin-top: 6px;
+  position: absolute;
+  width: 8px;
+  background-color: #33aacc;
+  background-color: #fe5c5c;
+}
+
+.emotion-13 {
+  color: rgb(77,83,86);
+  font-family: sans-serif;
+  font-family: Lato;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  color: #fe5c5c;
+  display: block;
+  font-size: 14px;
+  margin-top: 8px;
+}
+
+.emotion-10 {
+  color: rgb(77,83,86);
+  font-family: sans-serif;
+  font-family: Lato;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  margin-left: 24px;
+  color: #d1d3d8;
+}
+
 .emotion-12 {
   color: #d1d3d8;
   display: -webkit-box;
@@ -104,27 +149,15 @@ exports[`snapshots renders a radio button group 1`] = `
 }
 
 .emotion-12:active span:first-of-type {
-  box-shadow: inset 0 0 0 1px #d1d3d8;
+  box-shadow: inset 0 0 0 2px #fe5c5c;
 }
 
 .emotion-12:focus-within span:first-of-type {
-  box-shadow: inset 0 0 0 1px #d1d3d8;
-}
-
-.emotion-10 {
-  color: rgb(77,83,86);
-  font-family: sans-serif;
-  font-family: Lato;
-  font-style: normal;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 16px;
-  margin-left: 24px;
-  color: #d1d3d8;
+  box-shadow: inset 0 0 0 2px #fe5c5c;
 }
 
 <div
-  class="emotion-13"
+  class="emotion-14"
 >
   <div
     class="emotion-4"
@@ -197,71 +230,29 @@ exports[`snapshots renders a radio button group 1`] = `
       </span>
     </label>
   </div>
+  <span
+    class="emotion-13"
+  >
+    test error
+  </span>
 </div>
 `;
 
 exports[`snapshots renders a radio button group 2`] = `
-.emotion-14 {
+.emotion-15 {
   display: block;
   margin-top: 16px;
 }
 
-.emotion-14:first-child:not(style),
-.emotion-14 style:first-child + * {
+.emotion-15:first-child:not(style),
+.emotion-15 style:first-child + * {
   margin-top: 0;
-}
-
-.emotion-5 {
-  color: #d1d3d8;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  margin-top: 14px;
-  position: relative;
-}
-
-.emotion-5:focus,
-.emotion-5:active {
-  color: #33aacc;
-}
-
-.emotion-5:active span:first-of-type {
-  box-shadow: inset 0 0 0 2px #33aacc;
-}
-
-.emotion-5:focus-within span:first-of-type {
-  box-shadow: inset 0 0 0 2px #33aacc;
 }
 
 .emotion-4 input[type="radio"] {
   opacity: 0;
   position: absolute;
   width: 0;
-}
-
-.emotion-1 {
-  border-radius: 50%;
-  box-shadow: inset 0 0 0 1px currentColor;
-  height: 16px;
-  margin-top: 2px;
-  position: absolute;
-  width: 16px;
-  box-shadow: inset 0 0 0 1px #33aacc;
-}
-
-.emotion-1:active {
-  box-shadow: inset 0 0 0 2px currentColor;
-}
-
-.emotion-2 {
-  background-color: #33aacc;
-  border-radius: 50%;
-  height: 8px;
-  margin-left: 4px;
-  margin-top: 6px;
-  position: absolute;
-  width: 8px;
 }
 
 .emotion-3 {
@@ -301,6 +292,98 @@ exports[`snapshots renders a radio button group 2`] = `
   font-size: 14px;
 }
 
+.emotion-5 {
+  color: #d1d3d8;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 14px;
+  position: relative;
+  color: #fe5c5c;
+}
+
+.emotion-5:focus,
+.emotion-5:active {
+  color: #33aacc;
+}
+
+.emotion-5:active span:first-of-type {
+  box-shadow: inset 0 0 0 2px #fe5c5c;
+}
+
+.emotion-5:focus-within span:first-of-type {
+  box-shadow: inset 0 0 0 2px #fe5c5c;
+}
+
+.emotion-5:active span:first-of-type {
+  box-shadox: inset 0 0 0 2px #fe5c5c;
+}
+
+.emotion-5:focus-within span:first-of-type {
+  box-shadow: inset 0 0 0 2px #fe5c5c;
+}
+
+.emotion-1 {
+  border-radius: 50%;
+  box-shadow: inset 0 0 0 1px currentColor;
+  height: 16px;
+  margin-top: 2px;
+  position: absolute;
+  width: 16px;
+  box-shadow: inset 0 0 0 1px #33aacc;
+  box-shadow: inset 0 0 0 1px #fe5c5c;
+}
+
+.emotion-1:active {
+  box-shadow: inset 0 0 0 2px currentColor;
+}
+
+.emotion-1:active {
+  box-shadow: inset 0 0 0 2px #fe5c5c;
+}
+
+.emotion-1:focus {
+  box-shadow: inset 0 0 0 2px #fe5c5c;
+}
+
+.emotion-2 {
+  border-radius: 50%;
+  height: 8px;
+  margin-left: 4px;
+  margin-top: 6px;
+  position: absolute;
+  width: 8px;
+  background-color: #33aacc;
+  background-color: #fe5c5c;
+}
+
+.emotion-14 {
+  color: rgb(77,83,86);
+  font-family: sans-serif;
+  font-family: Lato;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  color: #fe5c5c;
+  display: block;
+  font-size: 14px;
+  margin-top: 8px;
+}
+
+.emotion-11 {
+  color: rgb(77,83,86);
+  font-family: sans-serif;
+  font-family: Lato;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  margin-left: 24px;
+  color: #d1d3d8;
+}
+
 .emotion-13 {
   color: #d1d3d8;
   display: -webkit-box;
@@ -317,27 +400,15 @@ exports[`snapshots renders a radio button group 2`] = `
 }
 
 .emotion-13:active span:first-of-type {
-  box-shadow: inset 0 0 0 1px #d1d3d8;
+  box-shadow: inset 0 0 0 2px #fe5c5c;
 }
 
 .emotion-13:focus-within span:first-of-type {
-  box-shadow: inset 0 0 0 1px #d1d3d8;
-}
-
-.emotion-11 {
-  color: rgb(77,83,86);
-  font-family: sans-serif;
-  font-family: Lato;
-  font-style: normal;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 16px;
-  margin-left: 24px;
-  color: #d1d3d8;
+  box-shadow: inset 0 0 0 2px #fe5c5c;
 }
 
 <div
-  class="emotion-14"
+  class="emotion-15"
 >
   <span
     class="emotion-0"
@@ -415,71 +486,29 @@ exports[`snapshots renders a radio button group 2`] = `
       </span>
     </label>
   </div>
+  <span
+    class="emotion-14"
+  >
+    test error
+  </span>
 </div>
 `;
 
 exports[`snapshots renders a radio button group 3`] = `
-.emotion-14 {
+.emotion-15 {
   display: block;
   margin-top: 16px;
 }
 
-.emotion-14:first-child:not(style),
-.emotion-14 style:first-child + * {
+.emotion-15:first-child:not(style),
+.emotion-15 style:first-child + * {
   margin-top: 0;
-}
-
-.emotion-5 {
-  color: #d1d3d8;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  margin-top: 14px;
-  position: relative;
-}
-
-.emotion-5:focus,
-.emotion-5:active {
-  color: #33aacc;
-}
-
-.emotion-5:active span:first-of-type {
-  box-shadow: inset 0 0 0 2px #33aacc;
-}
-
-.emotion-5:focus-within span:first-of-type {
-  box-shadow: inset 0 0 0 2px #33aacc;
 }
 
 .emotion-4 input[type="radio"] {
   opacity: 0;
   position: absolute;
   width: 0;
-}
-
-.emotion-1 {
-  border-radius: 50%;
-  box-shadow: inset 0 0 0 1px currentColor;
-  height: 16px;
-  margin-top: 2px;
-  position: absolute;
-  width: 16px;
-  box-shadow: inset 0 0 0 1px #33aacc;
-}
-
-.emotion-1:active {
-  box-shadow: inset 0 0 0 2px currentColor;
-}
-
-.emotion-2 {
-  background-color: #33aacc;
-  border-radius: 50%;
-  height: 8px;
-  margin-left: 4px;
-  margin-top: 6px;
-  position: absolute;
-  width: 8px;
 }
 
 .emotion-3 {
@@ -519,6 +548,98 @@ exports[`snapshots renders a radio button group 3`] = `
   font-size: 14px;
 }
 
+.emotion-5 {
+  color: #d1d3d8;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 14px;
+  position: relative;
+  color: #fe5c5c;
+}
+
+.emotion-5:focus,
+.emotion-5:active {
+  color: #33aacc;
+}
+
+.emotion-5:active span:first-of-type {
+  box-shadow: inset 0 0 0 2px #fe5c5c;
+}
+
+.emotion-5:focus-within span:first-of-type {
+  box-shadow: inset 0 0 0 2px #fe5c5c;
+}
+
+.emotion-5:active span:first-of-type {
+  box-shadox: inset 0 0 0 2px #fe5c5c;
+}
+
+.emotion-5:focus-within span:first-of-type {
+  box-shadow: inset 0 0 0 2px #fe5c5c;
+}
+
+.emotion-1 {
+  border-radius: 50%;
+  box-shadow: inset 0 0 0 1px currentColor;
+  height: 16px;
+  margin-top: 2px;
+  position: absolute;
+  width: 16px;
+  box-shadow: inset 0 0 0 1px #33aacc;
+  box-shadow: inset 0 0 0 1px #fe5c5c;
+}
+
+.emotion-1:active {
+  box-shadow: inset 0 0 0 2px currentColor;
+}
+
+.emotion-1:active {
+  box-shadow: inset 0 0 0 2px #fe5c5c;
+}
+
+.emotion-1:focus {
+  box-shadow: inset 0 0 0 2px #fe5c5c;
+}
+
+.emotion-2 {
+  border-radius: 50%;
+  height: 8px;
+  margin-left: 4px;
+  margin-top: 6px;
+  position: absolute;
+  width: 8px;
+  background-color: #33aacc;
+  background-color: #fe5c5c;
+}
+
+.emotion-14 {
+  color: rgb(77,83,86);
+  font-family: sans-serif;
+  font-family: Lato;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  color: #fe5c5c;
+  display: block;
+  font-size: 14px;
+  margin-top: 8px;
+}
+
+.emotion-11 {
+  color: rgb(77,83,86);
+  font-family: sans-serif;
+  font-family: Lato;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  margin-left: 24px;
+  color: #d1d3d8;
+}
+
 .emotion-13 {
   color: #d1d3d8;
   display: -webkit-box;
@@ -535,27 +656,15 @@ exports[`snapshots renders a radio button group 3`] = `
 }
 
 .emotion-13:active span:first-of-type {
-  box-shadow: inset 0 0 0 1px #d1d3d8;
+  box-shadow: inset 0 0 0 2px #fe5c5c;
 }
 
 .emotion-13:focus-within span:first-of-type {
-  box-shadow: inset 0 0 0 1px #d1d3d8;
-}
-
-.emotion-11 {
-  color: rgb(77,83,86);
-  font-family: sans-serif;
-  font-family: Lato;
-  font-style: normal;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 16px;
-  margin-left: 24px;
-  color: #d1d3d8;
+  box-shadow: inset 0 0 0 2px #fe5c5c;
 }
 
 <div
-  class="emotion-14"
+  class="emotion-15"
 >
   <span
     class="emotion-0"
@@ -633,5 +742,10 @@ exports[`snapshots renders a radio button group 3`] = `
       </span>
     </label>
   </div>
+  <span
+    class="emotion-14"
+  >
+    test error
+  </span>
 </div>
 `;

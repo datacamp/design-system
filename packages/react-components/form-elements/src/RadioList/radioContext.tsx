@@ -2,6 +2,7 @@ import React from 'react';
 
 export interface RadioContextInterface {
   className?: string;
+  errorMessage?: string;
   label?: string;
   name: string;
   onChange: (value: string) => void;

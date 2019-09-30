@@ -243,6 +243,7 @@ storiesOf('waffles-form-elements', module)
       return (
         <div>
           <RadioList
+            errorMessage="this is an error"
             label="test label"
             name="testName"
             onChange={setValue}
@@ -265,6 +266,7 @@ storiesOf('waffles-form-elements', module)
           </RadioList>
 
           <RadioList
+            errorMessage="this is an error"
             label="label 3"
             name="testName"
             onChange={() => {}}
@@ -273,6 +275,16 @@ storiesOf('waffles-form-elements', module)
           >
             <Radio value="value5" />
             <Radio value="value6" />
+          </RadioList>
+
+          <RadioList
+            label="label 3"
+            name="testName"
+            onChange={() => {}}
+            value=""
+          >
+            <Radio value="value7" />
+            <Radio value="value8" />
           </RadioList>
         </div>
       );

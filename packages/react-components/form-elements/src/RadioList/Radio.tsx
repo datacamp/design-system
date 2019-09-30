@@ -28,7 +28,6 @@ const iconStyle: SerializedStyles = css({
 
 // adds a filled circle inside the radio button if it's checked
 const checkedIconStyle = css({
-  backgroundColor: tokens.color.opaque.primary.value.hex,
   borderRadius: '50%',
   height: '8px',
   marginLeft: '4px',
@@ -51,24 +50,43 @@ const divStyle = css({
   position: 'relative',
 });
 
+const errorStyle = css({
+  ':active span:first-of-type': {
+    boxShadox: `inset 0 0 0 2px ${tokens.color.opaque.red.value.hex}`,
+  },
+  ':focus-within span:first-of-type': {
+    boxShadow: `inset 0 0 0 2px ${tokens.color.opaque.red.value.hex}`,
+  },
+  color: tokens.color.opaque.red.value.hex,
+});
+
 const Radio = ({ disabled, value }: RadioProps): React.ReactElement => {
+  const isDisabled = css({
+    boxShadow: disabled
+      ? `inset 0 0 0 1px ${tokens.color.opaque.greyLight.value.hex}`
+      : `inset 0 0 0 2px ${tokens.color.opaque.primary.value.hex}`,
+  });
   return (
     <RadioContextConsumer>
       {contextValue =>
         contextValue && (
           <div
-            css={css(divStyle, {
-              ':active span:first-of-type': {
-                boxShadow: disabled
-                  ? `inset 0 0 0 1px ${tokens.color.opaque.greyLight.value.hex}`
-                  : `inset 0 0 0 2px ${tokens.color.opaque.primary.value.hex}`,
+            css={css(
+              divStyle,
+              {
+                ':active span:first-of-type': contextValue.errorMessage
+                  ? {
+                      boxShadow: `inset 0 0 0 2px ${tokens.color.opaque.red.value.hex}`,
+                    }
+                  : isDisabled,
+                ':focus-within span:first-of-type': contextValue.errorMessage
+                  ? {
+                      boxShadow: `inset 0 0 0 2px ${tokens.color.opaque.red.value.hex}`,
+                    }
+                  : isDisabled,
               },
-              ':focus-within span:first-of-type': {
-                boxShadow: disabled
-                  ? `inset 0 0 0 1px ${tokens.color.opaque.greyLight.value.hex}`
-                  : `inset 0 0 0 2px ${tokens.color.opaque.primary.value.hex}`,
-              },
-            })}
+              contextValue.errorMessage && !disabled && errorStyle
+            )}
           >
             <label
               css={{
@@ -94,15 +112,41 @@ const Radio = ({ disabled, value }: RadioProps): React.ReactElement => {
               <span
                 css={
                   contextValue.value === value
-                    ? css(iconStyle, {
-                        boxShadow: disabled
-                          ? `inset 0 0 0 1px ${tokens.color.opaque.greyLight.value.hex}`
-                          : `inset 0 0 0 1px ${tokens.color.opaque.primary.value.hex}`,
-                      })
+                    ? css(
+                        iconStyle,
+                        {
+                          boxShadow: disabled
+                            ? `inset 0 0 0 1px ${tokens.color.opaque.greyLight.value.hex}`
+                            : `inset 0 0 0 1px ${tokens.color.opaque.primary.value.hex}`,
+                        },
+                        contextValue.errorMessage && {
+                          ':active': {
+                            boxShadow: `inset 0 0 0 2px ${tokens.color.opaque.red.value.hex}`,
+                          },
+                          ':focus': {
+                            boxShadow: `inset 0 0 0 2px ${tokens.color.opaque.red.value.hex}`,
+                          },
+                          boxShadow: `inset 0 0 0 1px ${tokens.color.opaque.red.value.hex}`,
+                        }
+                      )
                     : css(iconStyle)
                 }
               />
-              {contextValue.value === value && <span css={checkedIconStyle} />}
+              {contextValue.value === value && (
+                <span
+                  css={css(
+                    checkedIconStyle,
+                    {
+                      backgroundColor: disabled
+                        ? tokens.color.opaque.greyLight.value.hex
+                        : tokens.color.opaque.primary.value.hex,
+                    },
+                    contextValue.errorMessage && {
+                      backgroundColor: tokens.color.opaque.red.value.hex,
+                    }
+                  )}
+                />
+              )}
 
               <Text
                 css={

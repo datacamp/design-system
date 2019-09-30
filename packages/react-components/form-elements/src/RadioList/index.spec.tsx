@@ -37,6 +37,27 @@ describe('<RadioList>', () => {
     );
     expect(getByText('required')).toHaveStyle(`font-size: '14px`);
   });
+
+  it('adds an error message under the input field if error is passed as a prop', () => {
+    const testError = 'Test error';
+
+    const { getByText } = render(
+      <RadioList
+        errorMessage={testError}
+        name={testName}
+        onChange={() => {}}
+        value={testValue}
+      >
+        <Radio value={testValue} />
+        <Radio value="value2" />
+      </RadioList>
+    );
+    expect(getByText(testError)).toBeInTheDocument();
+    expect(getByText(testError)).toHaveStyle(
+      `color: ${tokens.color.opaque.red.value.hex}`
+    );
+    expect(getByText(testError)).toHaveStyle(`font-size: '14px`);
+  });
 });
 
 describe('<Radio>', () => {
@@ -149,6 +170,7 @@ describe('snapshots', () => {
     it(`renders a radio button group`, async () => {
       const { container } = await render(
         <RadioList
+          errorMessage="test error"
           name={testName}
           onChange={() => {}}
           required={isRequired}
