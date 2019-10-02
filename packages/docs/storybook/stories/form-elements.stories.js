@@ -1,5 +1,5 @@
 import Button from '@datacamp/waffles-button';
-import { Input } from '@datacamp/waffles-form-elements';
+import { Input, Select, SelectOption } from '@datacamp/waffles-form-elements';
 import { AddCircleIcon } from '@datacamp/waffles-icons';
 import { storiesOf } from '@storybook/react';
 import React, { createElement, useEffect, useRef, useState } from 'react';
@@ -224,6 +224,114 @@ storiesOf('waffles-form-elements', module)
             size="small"
             value=""
           />
+        </div>
+      );
+    });
+  })
+  .add('Select', () => {
+    return createElement(() => {
+      const [value, setValue] = useState('');
+      const focusRef = useRef();
+      useEffect(() => {
+        if (focusRef && focusRef.current) {
+          focusRef.current.focus();
+        }
+      }, [focusRef]);
+
+      return (
+        <div>
+          <div css={{ display: 'flex' }}>
+            <Select name="story1" onChange={setValue} value={value}>
+              <SelectOption value="opt1">opt1</SelectOption>
+              <SelectOption value="opt2">opt2</SelectOption>
+              <SelectOption value="opt3">opt3</SelectOption>
+            </Select>
+
+            <Select name="story2" onChange={() => {}} value="opt3">
+              <SelectOption value="opt1">opt1</SelectOption>
+              <SelectOption value="opt2">opt2</SelectOption>
+              <SelectOption value="opt3">opt3</SelectOption>
+            </Select>
+
+            <Select
+              name="story3"
+              onChange={() => {}}
+              value="disabled2"
+              disabled
+            >
+              <SelectOption value="opt1">disabled</SelectOption>
+              <SelectOption value="opt2">disabled2</SelectOption>
+              <SelectOption value="opt3">disabled3</SelectOption>
+            </Select>
+
+            <Select name="story4" onChange={() => {}} value="opt2">
+              <SelectOption value="opt1" disabled>
+                disabled option
+              </SelectOption>
+              <SelectOption value="opt2">with disabled option</SelectOption>
+              <SelectOption value="opt3">with disabled option</SelectOption>
+            </Select>
+          </div>
+          <div>
+            <Select name="story5" onChange={() => {}} size="large" value="opt2">
+              <SelectOption value="opt1">large1</SelectOption>
+              <SelectOption value="opt2">large2</SelectOption>
+              <SelectOption value="opt3">large3</SelectOption>
+            </Select>
+
+            <Select name="story6" onChange={() => {}} size="small" value="opt2">
+              <SelectOption value="opt1">small1</SelectOption>
+              <SelectOption value="opt2">small2</SelectOption>
+              <SelectOption value="opt3">small3</SelectOption>
+            </Select>
+
+            <Select
+              label="This is a label"
+              name="story7"
+              onChange={() => {}}
+              value="opt2"
+            >
+              <SelectOption value="opt1">opt1</SelectOption>
+              <SelectOption value="opt2">opt2</SelectOption>
+              <SelectOption value="opt3">opt3</SelectOption>
+            </Select>
+
+            <Select
+              errorMessage="this is an error message"
+              label="This is a label"
+              name="story8"
+              onChange={() => {}}
+              value="opt2"
+            >
+              <SelectOption value="opt1">opt1</SelectOption>
+              <SelectOption value="opt2">opt2</SelectOption>
+              <SelectOption value="opt3">opt3</SelectOption>
+            </Select>
+
+            <Select
+              label="This is a label"
+              name="story9"
+              onChange={() => {}}
+              value="opt2"
+              required
+            >
+              <SelectOption value="opt1">opt1</SelectOption>
+              <SelectOption value="opt2">opt2</SelectOption>
+              <SelectOption value="opt3">opt3</SelectOption>
+            </Select>
+
+            <Select
+              label="This is a label"
+              name="story10"
+              onChange={() => {}}
+              required={false}
+              value="opt2"
+            >
+              <SelectOption value="opt1">opt1</SelectOption>
+              <SelectOption value="opt2">opt2</SelectOption>
+              <SelectOption value="opt3">opt3</SelectOption>
+            </Select>
+          </div>
         </div>
       );
     });
