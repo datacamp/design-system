@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.23.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-catalog-doc-site@1.22.0...@datacamp/waffles-catalog-doc-site@1.23.0) (2019-10-02)
+
+
+### Features
+
+* add docs for select component ([9d50938](https://github.com/datacamp/design-system/commit/9d50938))
+
+
+
+
+
 # [1.22.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-catalog-doc-site@1.21.1...@datacamp/waffles-catalog-doc-site@1.22.0) (2019-09-27)
 
 

@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.3.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-babel-preset@1.2.6...@datacamp/waffles-babel-preset@1.3.0) (2019-10-02)
+
+
+### Features
+
+* allow class properties ([fa08354](https://github.com/datacamp/design-system/commit/fa08354))
+
+
+
+
+
 ## [1.2.6](https://github.com/datacamp/design-system/compare/@datacamp/waffles-babel-preset@1.2.5...@datacamp/waffles-babel-preset@1.2.6) (2019-09-25)
 
 **Note:** Version bump only for package @datacamp/waffles-babel-preset

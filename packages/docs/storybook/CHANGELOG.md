@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.23.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-storybook@1.22.0...@datacamp/waffles-storybook@1.23.0) (2019-10-02)
+
+
+### Features
+
+* add stories for select component ([f9919b3](https://github.com/datacamp/design-system/commit/f9919b3))
+
+
+
+
+
 # [1.22.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-storybook@1.21.1...@datacamp/waffles-storybook@1.22.0) (2019-09-27)
 
 
