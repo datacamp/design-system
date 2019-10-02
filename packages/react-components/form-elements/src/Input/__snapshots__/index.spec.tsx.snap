@@ -66,19 +66,31 @@ exports[`snapshots renders an input with size large, disabled=false, required=fa
 .emotion-3 {
   font-size: 20px;
   height: 64px;
-  padding: 0 24px;
+  padding-left: 24px;
+  padding-right: 24px;
   background: white;
   border: 0;
   border-radius: 4px;
   box-shadow: inset 0 0 0 1px rgb(209,211,216);
   box-sizing: border-box;
-  color: rgb(77,83,86);
   display: inline-block;
   font-family: sans-serif;
   font-family: Lato;
   margin: 0;
   vertical-align: baseline;
+  color: rgb(133,144,148);
   width: 100%;
+}
+
+.emotion-3:disabled,
+.emotion-3:active:disabled,
+.emotion-3:focus:disabled {
+  cursor: not-allowed;
+}
+
+.emotion-3:focus {
+  box-shadow: inset 0 0 0 1px rgb(51,170,204);
+  outline: none;
 }
 
 .emotion-3::-webkit-input-placeholder {
@@ -101,12 +113,6 @@ exports[`snapshots renders an input with size large, disabled=false, required=fa
   font-family: inherit;
 }
 
-.emotion-3:disabled,
-.emotion-3:active:disabled,
-.emotion-3:focus:disabled {
-  cursor: not-allowed;
-}
-
 .emotion-3:disabled::-webkit-input-placeholder {
   color: #D1D3D8;
 }
@@ -121,11 +127,6 @@ exports[`snapshots renders an input with size large, disabled=false, required=fa
 
 .emotion-3:disabled::placeholder {
   color: #D1D3D8;
-}
-
-.emotion-3:focus {
-  box-shadow: inset 0 0 0 1px rgb(51,170,204);
-  outline: none;
 }
 
 <label
@@ -225,19 +226,31 @@ exports[`snapshots renders an input with size large, disabled=false, required=tr
 .emotion-3 {
   font-size: 20px;
   height: 64px;
-  padding: 0 24px;
+  padding-left: 24px;
+  padding-right: 24px;
   background: white;
   border: 0;
   border-radius: 4px;
   box-shadow: inset 0 0 0 1px rgb(209,211,216);
   box-sizing: border-box;
-  color: rgb(77,83,86);
   display: inline-block;
   font-family: sans-serif;
   font-family: Lato;
   margin: 0;
   vertical-align: baseline;
+  color: rgb(133,144,148);
   width: 100%;
+}
+
+.emotion-3:disabled,
+.emotion-3:active:disabled,
+.emotion-3:focus:disabled {
+  cursor: not-allowed;
+}
+
+.emotion-3:focus {
+  box-shadow: inset 0 0 0 1px rgb(51,170,204);
+  outline: none;
 }
 
 .emotion-3::-webkit-input-placeholder {
@@ -260,12 +273,6 @@ exports[`snapshots renders an input with size large, disabled=false, required=tr
   font-family: inherit;
 }
 
-.emotion-3:disabled,
-.emotion-3:active:disabled,
-.emotion-3:focus:disabled {
-  cursor: not-allowed;
-}
-
 .emotion-3:disabled::-webkit-input-placeholder {
   color: #D1D3D8;
 }
@@ -280,11 +287,6 @@ exports[`snapshots renders an input with size large, disabled=false, required=tr
 
 .emotion-3:disabled::placeholder {
   color: #D1D3D8;
-}
-
-.emotion-3:focus {
-  box-shadow: inset 0 0 0 1px rgb(51,170,204);
-  outline: none;
 }
 
 <label
@@ -371,19 +373,31 @@ exports[`snapshots renders an input with size large, disabled=false, required=un
 .emotion-2 {
   font-size: 20px;
   height: 64px;
-  padding: 0 24px;
+  padding-left: 24px;
+  padding-right: 24px;
   background: white;
   border: 0;
   border-radius: 4px;
   box-shadow: inset 0 0 0 1px rgb(209,211,216);
   box-sizing: border-box;
-  color: rgb(77,83,86);
   display: inline-block;
   font-family: sans-serif;
   font-family: Lato;
   margin: 0;
   vertical-align: baseline;
+  color: rgb(133,144,148);
   width: 100%;
+}
+
+.emotion-2:disabled,
+.emotion-2:active:disabled,
+.emotion-2:focus:disabled {
+  cursor: not-allowed;
+}
+
+.emotion-2:focus {
+  box-shadow: inset 0 0 0 1px rgb(51,170,204);
+  outline: none;
 }
 
 .emotion-2::-webkit-input-placeholder {
@@ -406,12 +420,6 @@ exports[`snapshots renders an input with size large, disabled=false, required=un
   font-family: inherit;
 }
 
-.emotion-2:disabled,
-.emotion-2:active:disabled,
-.emotion-2:focus:disabled {
-  cursor: not-allowed;
-}
-
 .emotion-2:disabled::-webkit-input-placeholder {
   color: #D1D3D8;
 }
@@ -426,11 +434,6 @@ exports[`snapshots renders an input with size large, disabled=false, required=un
 
 .emotion-2:disabled::placeholder {
   color: #D1D3D8;
-}
-
-.emotion-2:focus {
-  box-shadow: inset 0 0 0 1px rgb(51,170,204);
-  outline: none;
 }
 
 <label
@@ -525,19 +528,31 @@ exports[`snapshots renders an input with size large, disabled=true, required=fal
 .emotion-3 {
   font-size: 20px;
   height: 64px;
-  padding: 0 24px;
+  padding-left: 24px;
+  padding-right: 24px;
   background: white;
   border: 0;
   border-radius: 4px;
   box-shadow: inset 0 0 0 1px rgb(209,211,216);
   box-sizing: border-box;
-  color: rgb(77,83,86);
   display: inline-block;
   font-family: sans-serif;
   font-family: Lato;
   margin: 0;
   vertical-align: baseline;
+  color: rgb(133,144,148);
   width: 100%;
+}
+
+.emotion-3:disabled,
+.emotion-3:active:disabled,
+.emotion-3:focus:disabled {
+  cursor: not-allowed;
+}
+
+.emotion-3:focus {
+  box-shadow: inset 0 0 0 1px rgb(51,170,204);
+  outline: none;
 }
 
 .emotion-3::-webkit-input-placeholder {
@@ -560,12 +575,6 @@ exports[`snapshots renders an input with size large, disabled=true, required=fal
   font-family: inherit;
 }
 
-.emotion-3:disabled,
-.emotion-3:active:disabled,
-.emotion-3:focus:disabled {
-  cursor: not-allowed;
-}
-
 .emotion-3:disabled::-webkit-input-placeholder {
   color: #D1D3D8;
 }
@@ -580,11 +589,6 @@ exports[`snapshots renders an input with size large, disabled=true, required=fal
 
 .emotion-3:disabled::placeholder {
   color: #D1D3D8;
-}
-
-.emotion-3:focus {
-  box-shadow: inset 0 0 0 1px rgb(51,170,204);
-  outline: none;
 }
 
 <label
@@ -685,19 +689,31 @@ exports[`snapshots renders an input with size large, disabled=true, required=tru
 .emotion-3 {
   font-size: 20px;
   height: 64px;
-  padding: 0 24px;
+  padding-left: 24px;
+  padding-right: 24px;
   background: white;
   border: 0;
   border-radius: 4px;
   box-shadow: inset 0 0 0 1px rgb(209,211,216);
   box-sizing: border-box;
-  color: rgb(77,83,86);
   display: inline-block;
   font-family: sans-serif;
   font-family: Lato;
   margin: 0;
   vertical-align: baseline;
+  color: rgb(133,144,148);
   width: 100%;
+}
+
+.emotion-3:disabled,
+.emotion-3:active:disabled,
+.emotion-3:focus:disabled {
+  cursor: not-allowed;
+}
+
+.emotion-3:focus {
+  box-shadow: inset 0 0 0 1px rgb(51,170,204);
+  outline: none;
 }
 
 .emotion-3::-webkit-input-placeholder {
@@ -720,12 +736,6 @@ exports[`snapshots renders an input with size large, disabled=true, required=tru
   font-family: inherit;
 }
 
-.emotion-3:disabled,
-.emotion-3:active:disabled,
-.emotion-3:focus:disabled {
-  cursor: not-allowed;
-}
-
 .emotion-3:disabled::-webkit-input-placeholder {
   color: #D1D3D8;
 }
@@ -740,11 +750,6 @@ exports[`snapshots renders an input with size large, disabled=true, required=tru
 
 .emotion-3:disabled::placeholder {
   color: #D1D3D8;
-}
-
-.emotion-3:focus {
-  box-shadow: inset 0 0 0 1px rgb(51,170,204);
-  outline: none;
 }
 
 <label
@@ -832,19 +837,31 @@ exports[`snapshots renders an input with size large, disabled=true, required=und
 .emotion-2 {
   font-size: 20px;
   height: 64px;
-  padding: 0 24px;
+  padding-left: 24px;
+  padding-right: 24px;
   background: white;
   border: 0;
   border-radius: 4px;
   box-shadow: inset 0 0 0 1px rgb(209,211,216);
   box-sizing: border-box;
-  color: rgb(77,83,86);
   display: inline-block;
   font-family: sans-serif;
   font-family: Lato;
   margin: 0;
   vertical-align: baseline;
+  color: rgb(133,144,148);
   width: 100%;
+}
+
+.emotion-2:disabled,
+.emotion-2:active:disabled,
+.emotion-2:focus:disabled {
+  cursor: not-allowed;
+}
+
+.emotion-2:focus {
+  box-shadow: inset 0 0 0 1px rgb(51,170,204);
+  outline: none;
 }
 
 .emotion-2::-webkit-input-placeholder {
@@ -867,12 +884,6 @@ exports[`snapshots renders an input with size large, disabled=true, required=und
   font-family: inherit;
 }
 
-.emotion-2:disabled,
-.emotion-2:active:disabled,
-.emotion-2:focus:disabled {
-  cursor: not-allowed;
-}
-
 .emotion-2:disabled::-webkit-input-placeholder {
   color: #D1D3D8;
 }
@@ -887,11 +898,6 @@ exports[`snapshots renders an input with size large, disabled=true, required=und
 
 .emotion-2:disabled::placeholder {
   color: #D1D3D8;
-}
-
-.emotion-2:focus {
-  box-shadow: inset 0 0 0 1px rgb(51,170,204);
-  outline: none;
 }
 
 <label
@@ -960,19 +966,31 @@ exports[`snapshots renders an input with size medium, disabled=false, required=f
 .emotion-3 {
   font-size: 16px;
   height: 48px;
-  padding: 0 16px;
+  padding-left: 16px;
+  padding-right: 16px;
   background: white;
   border: 0;
   border-radius: 4px;
   box-shadow: inset 0 0 0 1px rgb(209,211,216);
   box-sizing: border-box;
-  color: rgb(77,83,86);
   display: inline-block;
   font-family: sans-serif;
   font-family: Lato;
   margin: 0;
   vertical-align: baseline;
+  color: rgb(133,144,148);
   width: 100%;
+}
+
+.emotion-3:disabled,
+.emotion-3:active:disabled,
+.emotion-3:focus:disabled {
+  cursor: not-allowed;
+}
+
+.emotion-3:focus {
+  box-shadow: inset 0 0 0 1px rgb(51,170,204);
+  outline: none;
 }
 
 .emotion-3::-webkit-input-placeholder {
@@ -995,12 +1013,6 @@ exports[`snapshots renders an input with size medium, disabled=false, required=f
   font-family: inherit;
 }
 
-.emotion-3:disabled,
-.emotion-3:active:disabled,
-.emotion-3:focus:disabled {
-  cursor: not-allowed;
-}
-
 .emotion-3:disabled::-webkit-input-placeholder {
   color: #D1D3D8;
 }
@@ -1015,11 +1027,6 @@ exports[`snapshots renders an input with size medium, disabled=false, required=f
 
 .emotion-3:disabled::placeholder {
   color: #D1D3D8;
-}
-
-.emotion-3:focus {
-  box-shadow: inset 0 0 0 1px rgb(51,170,204);
-  outline: none;
 }
 
 .emotion-4 {
@@ -1119,19 +1126,31 @@ exports[`snapshots renders an input with size medium, disabled=false, required=t
 .emotion-3 {
   font-size: 16px;
   height: 48px;
-  padding: 0 16px;
+  padding-left: 16px;
+  padding-right: 16px;
   background: white;
   border: 0;
   border-radius: 4px;
   box-shadow: inset 0 0 0 1px rgb(209,211,216);
   box-sizing: border-box;
-  color: rgb(77,83,86);
   display: inline-block;
   font-family: sans-serif;
   font-family: Lato;
   margin: 0;
   vertical-align: baseline;
+  color: rgb(133,144,148);
   width: 100%;
+}
+
+.emotion-3:disabled,
+.emotion-3:active:disabled,
+.emotion-3:focus:disabled {
+  cursor: not-allowed;
+}
+
+.emotion-3:focus {
+  box-shadow: inset 0 0 0 1px rgb(51,170,204);
+  outline: none;
 }
 
 .emotion-3::-webkit-input-placeholder {
@@ -1154,12 +1173,6 @@ exports[`snapshots renders an input with size medium, disabled=false, required=t
   font-family: inherit;
 }
 
-.emotion-3:disabled,
-.emotion-3:active:disabled,
-.emotion-3:focus:disabled {
-  cursor: not-allowed;
-}
-
 .emotion-3:disabled::-webkit-input-placeholder {
   color: #D1D3D8;
 }
@@ -1174,11 +1187,6 @@ exports[`snapshots renders an input with size medium, disabled=false, required=t
 
 .emotion-3:disabled::placeholder {
   color: #D1D3D8;
-}
-
-.emotion-3:focus {
-  box-shadow: inset 0 0 0 1px rgb(51,170,204);
-  outline: none;
 }
 
 .emotion-4 {
@@ -1278,19 +1286,31 @@ exports[`snapshots renders an input with size medium, disabled=false, required=u
 .emotion-2 {
   font-size: 16px;
   height: 48px;
-  padding: 0 16px;
+  padding-left: 16px;
+  padding-right: 16px;
   background: white;
   border: 0;
   border-radius: 4px;
   box-shadow: inset 0 0 0 1px rgb(209,211,216);
   box-sizing: border-box;
-  color: rgb(77,83,86);
   display: inline-block;
   font-family: sans-serif;
   font-family: Lato;
   margin: 0;
   vertical-align: baseline;
+  color: rgb(133,144,148);
   width: 100%;
+}
+
+.emotion-2:disabled,
+.emotion-2:active:disabled,
+.emotion-2:focus:disabled {
+  cursor: not-allowed;
+}
+
+.emotion-2:focus {
+  box-shadow: inset 0 0 0 1px rgb(51,170,204);
+  outline: none;
 }
 
 .emotion-2::-webkit-input-placeholder {
@@ -1313,12 +1333,6 @@ exports[`snapshots renders an input with size medium, disabled=false, required=u
   font-family: inherit;
 }
 
-.emotion-2:disabled,
-.emotion-2:active:disabled,
-.emotion-2:focus:disabled {
-  cursor: not-allowed;
-}
-
 .emotion-2:disabled::-webkit-input-placeholder {
   color: #D1D3D8;
 }
@@ -1333,11 +1347,6 @@ exports[`snapshots renders an input with size medium, disabled=false, required=u
 
 .emotion-2:disabled::placeholder {
   color: #D1D3D8;
-}
-
-.emotion-2:focus {
-  box-shadow: inset 0 0 0 1px rgb(51,170,204);
-  outline: none;
 }
 
 .emotion-3 {
@@ -1419,19 +1428,31 @@ exports[`snapshots renders an input with size medium, disabled=true, required=fa
 .emotion-3 {
   font-size: 16px;
   height: 48px;
-  padding: 0 16px;
+  padding-left: 16px;
+  padding-right: 16px;
   background: white;
   border: 0;
   border-radius: 4px;
   box-shadow: inset 0 0 0 1px rgb(209,211,216);
   box-sizing: border-box;
-  color: rgb(77,83,86);
   display: inline-block;
   font-family: sans-serif;
   font-family: Lato;
   margin: 0;
   vertical-align: baseline;
+  color: rgb(133,144,148);
   width: 100%;
+}
+
+.emotion-3:disabled,
+.emotion-3:active:disabled,
+.emotion-3:focus:disabled {
+  cursor: not-allowed;
+}
+
+.emotion-3:focus {
+  box-shadow: inset 0 0 0 1px rgb(51,170,204);
+  outline: none;
 }
 
 .emotion-3::-webkit-input-placeholder {
@@ -1454,12 +1475,6 @@ exports[`snapshots renders an input with size medium, disabled=true, required=fa
   font-family: inherit;
 }
 
-.emotion-3:disabled,
-.emotion-3:active:disabled,
-.emotion-3:focus:disabled {
-  cursor: not-allowed;
-}
-
 .emotion-3:disabled::-webkit-input-placeholder {
   color: #D1D3D8;
 }
@@ -1474,11 +1489,6 @@ exports[`snapshots renders an input with size medium, disabled=true, required=fa
 
 .emotion-3:disabled::placeholder {
   color: #D1D3D8;
-}
-
-.emotion-3:focus {
-  box-shadow: inset 0 0 0 1px rgb(51,170,204);
-  outline: none;
 }
 
 .emotion-4 {
@@ -1579,19 +1589,31 @@ exports[`snapshots renders an input with size medium, disabled=true, required=tr
 .emotion-3 {
   font-size: 16px;
   height: 48px;
-  padding: 0 16px;
+  padding-left: 16px;
+  padding-right: 16px;
   background: white;
   border: 0;
   border-radius: 4px;
   box-shadow: inset 0 0 0 1px rgb(209,211,216);
   box-sizing: border-box;
-  color: rgb(77,83,86);
   display: inline-block;
   font-family: sans-serif;
   font-family: Lato;
   margin: 0;
   vertical-align: baseline;
+  color: rgb(133,144,148);
   width: 100%;
+}
+
+.emotion-3:disabled,
+.emotion-3:active:disabled,
+.emotion-3:focus:disabled {
+  cursor: not-allowed;
+}
+
+.emotion-3:focus {
+  box-shadow: inset 0 0 0 1px rgb(51,170,204);
+  outline: none;
 }
 
 .emotion-3::-webkit-input-placeholder {
@@ -1614,12 +1636,6 @@ exports[`snapshots renders an input with size medium, disabled=true, required=tr
   font-family: inherit;
 }
 
-.emotion-3:disabled,
-.emotion-3:active:disabled,
-.emotion-3:focus:disabled {
-  cursor: not-allowed;
-}
-
 .emotion-3:disabled::-webkit-input-placeholder {
   color: #D1D3D8;
 }
@@ -1634,11 +1650,6 @@ exports[`snapshots renders an input with size medium, disabled=true, required=tr
 
 .emotion-3:disabled::placeholder {
   color: #D1D3D8;
-}
-
-.emotion-3:focus {
-  box-shadow: inset 0 0 0 1px rgb(51,170,204);
-  outline: none;
 }
 
 .emotion-4 {
@@ -1739,19 +1750,31 @@ exports[`snapshots renders an input with size medium, disabled=true, required=un
 .emotion-2 {
   font-size: 16px;
   height: 48px;
-  padding: 0 16px;
+  padding-left: 16px;
+  padding-right: 16px;
   background: white;
   border: 0;
   border-radius: 4px;
   box-shadow: inset 0 0 0 1px rgb(209,211,216);
   box-sizing: border-box;
-  color: rgb(77,83,86);
   display: inline-block;
   font-family: sans-serif;
   font-family: Lato;
   margin: 0;
   vertical-align: baseline;
+  color: rgb(133,144,148);
   width: 100%;
+}
+
+.emotion-2:disabled,
+.emotion-2:active:disabled,
+.emotion-2:focus:disabled {
+  cursor: not-allowed;
+}
+
+.emotion-2:focus {
+  box-shadow: inset 0 0 0 1px rgb(51,170,204);
+  outline: none;
 }
 
 .emotion-2::-webkit-input-placeholder {
@@ -1774,12 +1797,6 @@ exports[`snapshots renders an input with size medium, disabled=true, required=un
   font-family: inherit;
 }
 
-.emotion-2:disabled,
-.emotion-2:active:disabled,
-.emotion-2:focus:disabled {
-  cursor: not-allowed;
-}
-
 .emotion-2:disabled::-webkit-input-placeholder {
   color: #D1D3D8;
 }
@@ -1794,11 +1811,6 @@ exports[`snapshots renders an input with size medium, disabled=true, required=un
 
 .emotion-2:disabled::placeholder {
   color: #D1D3D8;
-}
-
-.emotion-2:focus {
-  box-shadow: inset 0 0 0 1px rgb(51,170,204);
-  outline: none;
 }
 
 .emotion-3 {
@@ -1908,19 +1920,31 @@ exports[`snapshots renders an input with size small, disabled=false, required=fa
 .emotion-3 {
   font-size: 16px;
   height: 36px;
-  padding: 0 12px;
+  padding-left: 12px;
+  padding-right: 12px;
   background: white;
   border: 0;
   border-radius: 4px;
   box-shadow: inset 0 0 0 1px rgb(209,211,216);
   box-sizing: border-box;
-  color: rgb(77,83,86);
   display: inline-block;
   font-family: sans-serif;
   font-family: Lato;
   margin: 0;
   vertical-align: baseline;
+  color: rgb(133,144,148);
   width: 100%;
+}
+
+.emotion-3:disabled,
+.emotion-3:active:disabled,
+.emotion-3:focus:disabled {
+  cursor: not-allowed;
+}
+
+.emotion-3:focus {
+  box-shadow: inset 0 0 0 1px rgb(51,170,204);
+  outline: none;
 }
 
 .emotion-3::-webkit-input-placeholder {
@@ -1943,12 +1967,6 @@ exports[`snapshots renders an input with size small, disabled=false, required=fa
   font-family: inherit;
 }
 
-.emotion-3:disabled,
-.emotion-3:active:disabled,
-.emotion-3:focus:disabled {
-  cursor: not-allowed;
-}
-
 .emotion-3:disabled::-webkit-input-placeholder {
   color: #D1D3D8;
 }
@@ -1963,11 +1981,6 @@ exports[`snapshots renders an input with size small, disabled=false, required=fa
 
 .emotion-3:disabled::placeholder {
   color: #D1D3D8;
-}
-
-.emotion-3:focus {
-  box-shadow: inset 0 0 0 1px rgb(51,170,204);
-  outline: none;
 }
 
 <label
@@ -2067,19 +2080,31 @@ exports[`snapshots renders an input with size small, disabled=false, required=tr
 .emotion-3 {
   font-size: 16px;
   height: 36px;
-  padding: 0 12px;
+  padding-left: 12px;
+  padding-right: 12px;
   background: white;
   border: 0;
   border-radius: 4px;
   box-shadow: inset 0 0 0 1px rgb(209,211,216);
   box-sizing: border-box;
-  color: rgb(77,83,86);
   display: inline-block;
   font-family: sans-serif;
   font-family: Lato;
   margin: 0;
   vertical-align: baseline;
+  color: rgb(133,144,148);
   width: 100%;
+}
+
+.emotion-3:disabled,
+.emotion-3:active:disabled,
+.emotion-3:focus:disabled {
+  cursor: not-allowed;
+}
+
+.emotion-3:focus {
+  box-shadow: inset 0 0 0 1px rgb(51,170,204);
+  outline: none;
 }
 
 .emotion-3::-webkit-input-placeholder {
@@ -2102,12 +2127,6 @@ exports[`snapshots renders an input with size small, disabled=false, required=tr
   font-family: inherit;
 }
 
-.emotion-3:disabled,
-.emotion-3:active:disabled,
-.emotion-3:focus:disabled {
-  cursor: not-allowed;
-}
-
 .emotion-3:disabled::-webkit-input-placeholder {
   color: #D1D3D8;
 }
@@ -2122,11 +2141,6 @@ exports[`snapshots renders an input with size small, disabled=false, required=tr
 
 .emotion-3:disabled::placeholder {
   color: #D1D3D8;
-}
-
-.emotion-3:focus {
-  box-shadow: inset 0 0 0 1px rgb(51,170,204);
-  outline: none;
 }
 
 <label
@@ -2213,19 +2227,31 @@ exports[`snapshots renders an input with size small, disabled=false, required=un
 .emotion-2 {
   font-size: 16px;
   height: 36px;
-  padding: 0 12px;
+  padding-left: 12px;
+  padding-right: 12px;
   background: white;
   border: 0;
   border-radius: 4px;
   box-shadow: inset 0 0 0 1px rgb(209,211,216);
   box-sizing: border-box;
-  color: rgb(77,83,86);
   display: inline-block;
   font-family: sans-serif;
   font-family: Lato;
   margin: 0;
   vertical-align: baseline;
+  color: rgb(133,144,148);
   width: 100%;
+}
+
+.emotion-2:disabled,
+.emotion-2:active:disabled,
+.emotion-2:focus:disabled {
+  cursor: not-allowed;
+}
+
+.emotion-2:focus {
+  box-shadow: inset 0 0 0 1px rgb(51,170,204);
+  outline: none;
 }
 
 .emotion-2::-webkit-input-placeholder {
@@ -2248,12 +2274,6 @@ exports[`snapshots renders an input with size small, disabled=false, required=un
   font-family: inherit;
 }
 
-.emotion-2:disabled,
-.emotion-2:active:disabled,
-.emotion-2:focus:disabled {
-  cursor: not-allowed;
-}
-
 .emotion-2:disabled::-webkit-input-placeholder {
   color: #D1D3D8;
 }
@@ -2268,11 +2288,6 @@ exports[`snapshots renders an input with size small, disabled=false, required=un
 
 .emotion-2:disabled::placeholder {
   color: #D1D3D8;
-}
-
-.emotion-2:focus {
-  box-shadow: inset 0 0 0 1px rgb(51,170,204);
-  outline: none;
 }
 
 <label
@@ -2367,19 +2382,31 @@ exports[`snapshots renders an input with size small, disabled=true, required=fal
 .emotion-3 {
   font-size: 16px;
   height: 36px;
-  padding: 0 12px;
+  padding-left: 12px;
+  padding-right: 12px;
   background: white;
   border: 0;
   border-radius: 4px;
   box-shadow: inset 0 0 0 1px rgb(209,211,216);
   box-sizing: border-box;
-  color: rgb(77,83,86);
   display: inline-block;
   font-family: sans-serif;
   font-family: Lato;
   margin: 0;
   vertical-align: baseline;
+  color: rgb(133,144,148);
   width: 100%;
+}
+
+.emotion-3:disabled,
+.emotion-3:active:disabled,
+.emotion-3:focus:disabled {
+  cursor: not-allowed;
+}
+
+.emotion-3:focus {
+  box-shadow: inset 0 0 0 1px rgb(51,170,204);
+  outline: none;
 }
 
 .emotion-3::-webkit-input-placeholder {
@@ -2402,12 +2429,6 @@ exports[`snapshots renders an input with size small, disabled=true, required=fal
   font-family: inherit;
 }
 
-.emotion-3:disabled,
-.emotion-3:active:disabled,
-.emotion-3:focus:disabled {
-  cursor: not-allowed;
-}
-
 .emotion-3:disabled::-webkit-input-placeholder {
   color: #D1D3D8;
 }
@@ -2422,11 +2443,6 @@ exports[`snapshots renders an input with size small, disabled=true, required=fal
 
 .emotion-3:disabled::placeholder {
   color: #D1D3D8;
-}
-
-.emotion-3:focus {
-  box-shadow: inset 0 0 0 1px rgb(51,170,204);
-  outline: none;
 }
 
 <label
@@ -2527,19 +2543,31 @@ exports[`snapshots renders an input with size small, disabled=true, required=tru
 .emotion-3 {
   font-size: 16px;
   height: 36px;
-  padding: 0 12px;
+  padding-left: 12px;
+  padding-right: 12px;
   background: white;
   border: 0;
   border-radius: 4px;
   box-shadow: inset 0 0 0 1px rgb(209,211,216);
   box-sizing: border-box;
-  color: rgb(77,83,86);
   display: inline-block;
   font-family: sans-serif;
   font-family: Lato;
   margin: 0;
   vertical-align: baseline;
+  color: rgb(133,144,148);
   width: 100%;
+}
+
+.emotion-3:disabled,
+.emotion-3:active:disabled,
+.emotion-3:focus:disabled {
+  cursor: not-allowed;
+}
+
+.emotion-3:focus {
+  box-shadow: inset 0 0 0 1px rgb(51,170,204);
+  outline: none;
 }
 
 .emotion-3::-webkit-input-placeholder {
@@ -2562,12 +2590,6 @@ exports[`snapshots renders an input with size small, disabled=true, required=tru
   font-family: inherit;
 }
 
-.emotion-3:disabled,
-.emotion-3:active:disabled,
-.emotion-3:focus:disabled {
-  cursor: not-allowed;
-}
-
 .emotion-3:disabled::-webkit-input-placeholder {
   color: #D1D3D8;
 }
@@ -2582,11 +2604,6 @@ exports[`snapshots renders an input with size small, disabled=true, required=tru
 
 .emotion-3:disabled::placeholder {
   color: #D1D3D8;
-}
-
-.emotion-3:focus {
-  box-shadow: inset 0 0 0 1px rgb(51,170,204);
-  outline: none;
 }
 
 <label
@@ -2674,19 +2691,31 @@ exports[`snapshots renders an input with size small, disabled=true, required=und
 .emotion-2 {
   font-size: 16px;
   height: 36px;
-  padding: 0 12px;
+  padding-left: 12px;
+  padding-right: 12px;
   background: white;
   border: 0;
   border-radius: 4px;
   box-shadow: inset 0 0 0 1px rgb(209,211,216);
   box-sizing: border-box;
-  color: rgb(77,83,86);
   display: inline-block;
   font-family: sans-serif;
   font-family: Lato;
   margin: 0;
   vertical-align: baseline;
+  color: rgb(133,144,148);
   width: 100%;
+}
+
+.emotion-2:disabled,
+.emotion-2:active:disabled,
+.emotion-2:focus:disabled {
+  cursor: not-allowed;
+}
+
+.emotion-2:focus {
+  box-shadow: inset 0 0 0 1px rgb(51,170,204);
+  outline: none;
 }
 
 .emotion-2::-webkit-input-placeholder {
@@ -2709,12 +2738,6 @@ exports[`snapshots renders an input with size small, disabled=true, required=und
   font-family: inherit;
 }
 
-.emotion-2:disabled,
-.emotion-2:active:disabled,
-.emotion-2:focus:disabled {
-  cursor: not-allowed;
-}
-
 .emotion-2:disabled::-webkit-input-placeholder {
   color: #D1D3D8;
 }
@@ -2729,11 +2752,6 @@ exports[`snapshots renders an input with size small, disabled=true, required=und
 
 .emotion-2:disabled::placeholder {
   color: #D1D3D8;
-}
-
-.emotion-2:focus {
-  box-shadow: inset 0 0 0 1px rgb(51,170,204);
-  outline: none;
 }
 
 <label

@@ -1,13 +1,16 @@
-import { Text } from '@datacamp/waffles-text';
 import tokens from '@datacamp/waffles-tokens/lib/future-tokens.json';
-import {
-  computeDataAttributes,
-  ssrSafeFirstChildSelector,
-} from '@datacamp/waffles-utils';
+import { computeDataAttributes } from '@datacamp/waffles-utils';
 import { ClassNames, css } from '@emotion/core';
 import React, { forwardRef, ReactElement } from 'react';
 
-import { iconSize, inputSizes, inputStyle, paddings } from './inputStyle';
+import {
+  baseFormSizes,
+  iconSize,
+  inputPaddings,
+  inputStyle,
+  inputWithIconPaddings,
+} from '../formStyles';
+import Label from '../Label';
 
 interface InputProps {
   /**
@@ -82,32 +85,6 @@ interface InputProps {
    */
   value: string;
 }
-const labelStyle = css({
-  display: 'block',
-  marginTop: tokens.size.space[16].value,
-  [ssrSafeFirstChildSelector]: {
-    marginTop: 0,
-  },
-});
-
-const textStyle = css({
-  display: 'inline-block',
-  fontWeight: tokens.fontWeight.bold.value,
-  marginBottom: tokens.size.space[12].value,
-});
-
-const errorMessageStyle = css({
-  color: tokens.color.opaque.red.value.hex,
-  display: 'block',
-  fontSize: '14px',
-  marginTop: tokens.size.space[8].value,
-});
-
-const requiredStyle = css({
-  color: tokens.color.opaque.greyOslo.value.hex,
-  display: 'inline-block',
-  fontSize: '14px',
-});
 
 const Input = forwardRef<HTMLInputElement, InputProps>(
   (
@@ -138,10 +115,12 @@ const Input = forwardRef<HTMLInputElement, InputProps>(
 
     const handleBlur = (): void => onBlur && onBlur();
 
+    const inputSize = css(baseFormSizes[size], inputPaddings[size]);
+
     const getInputStyle = css(
-      inputSizes[size],
+      inputSize,
       inputStyle,
-      icon && paddings[size],
+      icon && inputWithIconPaddings[size],
       label && css({ width: '100%' })
     );
 
@@ -149,7 +128,7 @@ const Input = forwardRef<HTMLInputElement, InputProps>(
       display: 'inline-block',
       left: tokens.size.space[12].value,
       position: 'absolute',
-      top: (inputSizes[size].height - iconSize[size]) / 2,
+      top: (baseFormSizes[size].height - iconSize[size]) / 2,
     });
 
     const iconElement = icon && (
@@ -189,29 +168,14 @@ const Input = forwardRef<HTMLInputElement, InputProps>(
     return (
       <>
         {label ? (
-          <>
-            {/* eslint-disable-next-line jsx-a11y/label-has-for */}
-            <label css={labelStyle} htmlFor={id}>
-              <span
-                css={{
-                  display: 'inline-flex',
-                  justifyContent: 'space-between',
-                  width: '100%',
-                }}
-              >
-                <Text css={textStyle}>{label}</Text>
-                {required !== undefined && (
-                  <Text css={requiredStyle}>
-                    {required ? 'required' : 'optional'}
-                  </Text>
-                )}
-              </span>
-              {inputElement}
-              {errorMessage && (
-                <Text css={errorMessageStyle}>{errorMessage}</Text>
-              )}
-            </label>
-          </>
+          <Label
+            errorMessage={errorMessage}
+            id={id}
+            label={label}
+            required={required}
+          >
+            {inputElement}
+          </Label>
         ) : (
           <>{inputElement}</>
         )}

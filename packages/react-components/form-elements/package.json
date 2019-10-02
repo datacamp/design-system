@@ -48,6 +48,7 @@
     "@datacamp/waffles-text": "^1.0.0",
     "@datacamp/waffles-tokens": "^0.6.4",
     "@datacamp/waffles-utils": "^1.1.4",
+    "airbnb-prop-types": "^2.15.0",
     "lodash": "^4.17.13",
     "prop-types": "^15.7.2"
   },
