@@ -27,6 +27,7 @@ interface SelectProps {
    * used as attributes on the rendered element.
    */
   dataAttributes?: { [key: string]: string };
+  description?: string;
   /**
    * It blocks user interaction.
    */
@@ -121,6 +122,7 @@ class Select extends Component<SelectProps, SelectState> {
       size = 'medium',
       required = undefined,
       value,
+      description,
     } = this.props;
 
     const { focus } = this.state;
@@ -165,6 +167,7 @@ class Select extends Component<SelectProps, SelectState> {
 
     return label ? (
       <Label
+        description={description}
         errorMessage={errorMessage}
         id={name}
         label={label}
