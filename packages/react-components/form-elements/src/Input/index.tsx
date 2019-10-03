@@ -27,6 +27,7 @@ interface InputProps {
    * used as attributes on the rendered element.
    */
   dataAttributes?: { [key: string]: string };
+  description?: string;
   /**
    * It blocks user interaction.
    */
@@ -92,6 +93,7 @@ const Input = forwardRef<HTMLInputElement, InputProps>(
       autocomplete,
       className,
       dataAttributes,
+      description,
       disabled = false,
       errorMessage = undefined,
       id,
@@ -169,6 +171,7 @@ const Input = forwardRef<HTMLInputElement, InputProps>(
       <>
         {label ? (
           <Label
+            description={description}
             errorMessage={errorMessage}
             id={id}
             label={label}

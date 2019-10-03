@@ -1,4 +1,4 @@
-import { Text } from '@datacamp/waffles-text';
+import { Small, Text } from '@datacamp/waffles-text';
 import tokens from '@datacamp/waffles-tokens/lib/future-tokens.json';
 import { ssrSafeFirstChildSelector } from '@datacamp/waffles-utils';
 import { css } from '@emotion/core';
@@ -6,6 +6,7 @@ import React from 'react';
 
 interface LabelProps {
   children: React.ReactNode;
+  description?: string;
   errorMessage?: string;
   id?: string;
   label: string;
@@ -43,6 +44,7 @@ const Label = ({
   id,
   label,
   required,
+  description,
   errorMessage,
   children,
 }: LabelProps): React.ReactElement => {
@@ -64,6 +66,7 @@ const Label = ({
             </Text>
           )}
         </span>
+        {description && <Small>{description}</Small>}
         {children}
         {errorMessage && <Text css={errorMessageStyle}>{errorMessage}</Text>}
       </label>
