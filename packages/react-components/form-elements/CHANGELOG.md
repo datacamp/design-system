@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.2.0](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/form-elements/compare/@datacamp/waffles-form-elements@2.1.0...@datacamp/waffles-form-elements@2.2.0) (2019-10-03)
+
+
+### Features
+
+* add descriptions to Input and Select components ([f4fc743](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/form-elements/commit/f4fc743))
+
+
+
+
+
 # [2.1.0](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/form-elements/compare/@datacamp/waffles-form-elements@2.0.0...@datacamp/waffles-form-elements@2.1.0) (2019-10-02)
 
 

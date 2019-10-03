@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [4.0.2](https://github.com/datacamp/design-system/compare/@datacamp/waffles-button@4.0.1...@datacamp/waffles-button@4.0.2) (2019-10-03)
+
+
+### Bug Fixes
+
+* allow null children in ButtonGroup ([e0b92a2](https://github.com/datacamp/design-system/commit/e0b92a2))
+
+
+
+
+
 ## [4.0.1](https://github.com/datacamp/design-system/compare/@datacamp/waffles-button@4.0.0...@datacamp/waffles-button@4.0.1) (2019-10-02)
 
 **Note:** Version bump only for package @datacamp/waffles-button
