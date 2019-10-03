@@ -15,7 +15,11 @@ const ButtonGroup = ({
   children,
   className,
 }: ButtonGroupProps): React.ReactElement => {
-  const childrenProps = React.Children.map(children, ({ props }) => props);
+  const childrenProps = React.Children.map(children, child => {
+    return child === null
+      ? { appearance: undefined, size: undefined }
+      : child.props;
+  });
 
   if (!childrenProps.every(({ size }) => size === childrenProps[0].size)) {
     throw Error('All Buttons in ButtonGroup must be the same size');
@@ -29,6 +33,7 @@ const ButtonGroup = ({
       <ClassNames>
         {({ css }) =>
           React.Children.map(children, (child, index) => {
+            if (child === null) return null;
             return React.cloneElement(child, {
               className: css({
                 marginLeft:
@@ -45,7 +50,7 @@ const ButtonGroup = ({
 };
 
 ButtonGroup.propTypes = {
-  children: PropTypes.arrayOf(childrenOfType(Button).isRequired).isRequired,
+  children: PropTypes.arrayOf(childrenOfType(Button)).isRequired,
 };
 
 export default ButtonGroup;
