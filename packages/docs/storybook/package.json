@@ -28,7 +28,7 @@
     "@emotion/styled": "10.0.17",
     "@storybook/addon-knobs": "5.2.1",
     "@storybook/react": "5.2.1",
-    "react": "16.8.6",
+    "react": "16.10.1",
     "react-dom": "16.8.6"
   },
   "devDependencies": {
