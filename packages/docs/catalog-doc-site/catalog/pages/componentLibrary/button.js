@@ -168,7 +168,9 @@ export default () => {
                     ariaLabel is required.
                   </td>
                   <LazyLiveEditCells
-                    code={'<Button type="submit"><AddCircleIcon /></Button>'}
+                    code={
+                      '<Button type="submit" ariaLabel="add item"><AddCircleIcon /></Button>'
+                    }
                     scope={{ AddCircleIcon, Button }}
                   />
                 </tr>
