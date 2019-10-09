@@ -35,7 +35,7 @@ const AllButtonCombos = ({ children }) => (
 );
 
 storiesOf('waffles-button', module)
-  .addParameters({ percy: { widths: [1300] } })
+  .addParameters({ percy: { widths: [1500] } })
   .add('Button with text', () => (
     <AllButtonCombos>
       {({ appearance, state, intent, size }) => (
