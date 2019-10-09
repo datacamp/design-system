@@ -10,7 +10,7 @@ interface CompactButtonGroupProps {
   className?: string;
 }
 
-const CompactButtonGroup = ({
+const CompactButtonGroup: React.FC<CompactButtonGroupProps> = ({
   children,
   className,
 }: CompactButtonGroupProps): React.ReactElement => {
@@ -68,6 +68,6 @@ const CompactButtonGroup = ({
 
 CompactButtonGroup.propTypes = {
   children: PropTypes.arrayOf(childrenOfType(Button).isRequired).isRequired,
-};
+} as React.WeakValidationMap<CompactButtonGroupProps>;
 
 export default CompactButtonGroup;
