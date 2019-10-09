@@ -65,6 +65,7 @@ exports[`ButtonGroup renders the buttons or CompactButtonGroups with spaces 1`] 
 
 .emotion-1:hover {
   border-color: #2E8FAB;
+  color: #2E8FAB;
 }
 
 .emotion-0 {
@@ -137,6 +138,7 @@ exports[`ButtonGroup renders the buttons or CompactButtonGroups with spaces 1`] 
 
 .emotion-3:hover {
   border-color: #2E8FAB;
+  color: #2E8FAB;
 }
 
 .emotion-10 {
@@ -205,6 +207,7 @@ exports[`ButtonGroup renders the buttons or CompactButtonGroups with spaces 1`] 
 
 .emotion-7:hover {
   border-color: #2E8FAB;
+  color: #2E8FAB;
 }
 
 .emotion-7:active {
@@ -279,6 +282,7 @@ exports[`ButtonGroup renders the buttons or CompactButtonGroups with spaces 1`] 
 
 .emotion-9:hover {
   border-color: #2E8FAB;
+  color: #2E8FAB;
 }
 
 .emotion-9:active {
