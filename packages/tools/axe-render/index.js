@@ -3,12 +3,11 @@ import { axe, toHaveNoViolations } from 'jest-axe';
 
 expect.extend(toHaveNoViolations);
 
-const axeRender = (ui, options) => {
+const axeRender = async (ui, options) => {
   const renderResult = render(ui, options);
-  return axe(document.body.innerHTML).then(html => {
-    expect(html).toHaveNoViolations();
-    return renderResult;
-  });
+  const html = await axe(document.body.innerHTML);
+  expect(html).toHaveNoViolations();
+  return renderResult;
 };
 
 export default axeRender;
