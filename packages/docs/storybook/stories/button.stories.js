@@ -742,6 +742,11 @@ storiesOf('waffles-button', module)
       <Button appearance="primary" intent="danger">
         <ChevronDownIcon />
       </Button>
+      <CompactButtonGroup>
+        <Button appearance="primary">Nested</Button>
+        <Button appearance="primary">Compact</Button>
+      </CompactButtonGroup>
+      {false /* to ensure conditional rendering works */}
     </ButtonGroup>
   ))
   .add('compact ButtonGroup', () => (
