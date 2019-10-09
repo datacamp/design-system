@@ -43,7 +43,8 @@
     "jest": "24.9.0",
     "jest-emotion": "10.0.17",
     "react": "16.8.6",
-    "react-dom": "16.8.6"
+    "react-dom": "16.8.6",
+    "react-error-boundary": "^1.2.5"
   },
   "dependencies": {
     "@babel/runtime": "^7.6.0",
