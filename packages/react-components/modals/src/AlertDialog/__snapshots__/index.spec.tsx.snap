@@ -224,6 +224,7 @@ exports[`<AlertModal /> isOpen renders the modal via a portal when true 1`] = `
 
 .emotion-4:hover {
   border-color: #2E8FAB;
+  color: #2E8FAB;
 }
 
 .emotion-3 {
@@ -297,12 +298,12 @@ exports[`<AlertModal /> isOpen renders the modal via a portal when true 1`] = `
 
 .emotion-6:hover {
   border-color: #2E8FAB;
+  color: #2E8FAB;
 }
 
 .emotion-6:hover {
   background-color: #2E8FAB;
   border-color: #2E8FAB;
-  color: #2E8FAB;
 }
 
 .emotion-5 {
