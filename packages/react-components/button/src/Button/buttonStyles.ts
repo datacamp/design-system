@@ -100,7 +100,10 @@ const getDefaultStyle = (intent: Intent, enabled: boolean): SerializedStyles =>
       color: baseColors[intent],
     },
     enabled && {
-      ':hover': { borderColor: hoverColors[intent] },
+      ':hover': {
+        borderColor: hoverColors[intent],
+        color: hoverColors[intent],
+      },
     }
   );
 
@@ -114,7 +117,6 @@ const getPrimaryStyle = (intent: Intent, enabled: boolean): SerializedStyles =>
       ':hover': {
         backgroundColor: hoverColors[intent],
         borderColor: hoverColors[intent],
-        color: hoverColors[intent],
       },
     }
   );
