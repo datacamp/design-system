@@ -3,6 +3,24 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.24.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-storybook@1.23.1...@datacamp/waffles-storybook@1.24.0) (2019-10-10)
+
+
+### Bug Fixes
+
+* use wider screen for percy snapshots of button ([8157af0](https://github.com/datacamp/design-system/commit/8157af0))
+
+
+### Features
+
+* add story for nested button group ([b8f1b4d](https://github.com/datacamp/design-system/commit/b8f1b4d))
+* add story for nested button group ([51050d0](https://github.com/datacamp/design-system/commit/51050d0))
+* simplify Button stories ([b9b3add](https://github.com/datacamp/design-system/commit/b9b3add))
+
+
+
+
+
 ## [1.23.1](https://github.com/datacamp/design-system/compare/@datacamp/waffles-storybook@1.23.0...@datacamp/waffles-storybook@1.23.1) (2019-10-03)
 
 **Note:** Version bump only for package @datacamp/waffles-storybook

@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.2.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-utils@1.1.5...@datacamp/waffles-utils@1.2.0) (2019-10-10)
+
+
+### Features
+
+* add isChildType function ([17fcbf2](https://github.com/datacamp/design-system/commit/17fcbf2))
+
+
+
+
+
 ## [1.1.5](https://github.com/datacamp/design-system/compare/@datacamp/waffles-utils@1.1.4...@datacamp/waffles-utils@1.1.5) (2019-10-02)
 
 **Note:** Version bump only for package @datacamp/waffles-utils

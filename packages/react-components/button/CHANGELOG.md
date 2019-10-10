@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [4.1.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-button@4.0.2...@datacamp/waffles-button@4.1.0) (2019-10-10)
+
+
+### Bug Fixes
+
+* icon button hover colour ([c8a86f5](https://github.com/datacamp/design-system/commit/c8a86f5))
+* prop typing for compact button group ([f0b95fe](https://github.com/datacamp/design-system/commit/f0b95fe))
+
+
+### Features
+
+* allow nesting of CompactButtonGroup inside ButtonGroup ([3882f64](https://github.com/datacamp/design-system/commit/3882f64))
+
+
+
+
+
 ## [4.0.2](https://github.com/datacamp/design-system/compare/@datacamp/waffles-button@4.0.1...@datacamp/waffles-button@4.0.2) (2019-10-03)
 
 

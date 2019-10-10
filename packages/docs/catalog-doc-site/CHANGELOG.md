@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.24.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-catalog-doc-site@1.23.1...@datacamp/waffles-catalog-doc-site@1.24.0) (2019-10-10)
+
+
+### Bug Fixes
+
+* button.js docs ([6288ca4](https://github.com/datacamp/design-system/commit/6288ca4))
+
+
+### Features
+
+* roadmap Q4 2019 ([40907c4](https://github.com/datacamp/design-system/commit/40907c4))
+
+
+
+
+
 ## [1.23.1](https://github.com/datacamp/design-system/compare/@datacamp/waffles-catalog-doc-site@1.23.0...@datacamp/waffles-catalog-doc-site@1.23.1) (2019-10-03)
 
 **Note:** Version bump only for package @datacamp/waffles-catalog-doc-site

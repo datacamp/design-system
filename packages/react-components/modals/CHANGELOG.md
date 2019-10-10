@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.0.3](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/modals/compare/@datacamp/waffles-modals@3.0.2...@datacamp/waffles-modals@3.0.3) (2019-10-10)
+
+
+### Bug Fixes
+
+* use latest buttons in dialogs ([6b33002](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/modals/commit/6b33002))
+
+
+
+
+
 ## [3.0.2](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/modals/compare/@datacamp/waffles-modals@3.0.1...@datacamp/waffles-modals@3.0.2) (2019-10-03)
 
 **Note:** Version bump only for package @datacamp/waffles-modals
