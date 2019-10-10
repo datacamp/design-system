@@ -134,4 +134,13 @@ storiesOf('waffles-button', module)
         </CompactButtonGroup>
       ))}
     </div>
+  ))
+  .add('nested ButtonGroup', () => (
+    <ButtonGroup>
+      <Button>Button 1</Button>
+      <CompactButtonGroup>
+        <Button>Button 2</Button>
+        <Button>Button 3</Button>
+      </CompactButtonGroup>
+    </ButtonGroup>
   ));
