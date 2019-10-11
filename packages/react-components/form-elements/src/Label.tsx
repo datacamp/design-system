@@ -5,10 +5,11 @@ import { css } from '@emotion/core';
 import React from 'react';
 
 interface LabelProps {
+  as?: 'label' | 'div';
   children: React.ReactNode;
   description?: string;
   errorMessage?: string;
-  id?: string;
+  htmlFor?: string;
   label: string;
   required?: boolean;
 }
@@ -41,7 +42,8 @@ const requiredStyle = css({
 });
 
 const Label = ({
-  id,
+  as: Element = 'label',
+  htmlFor,
   label,
   required,
   description,
@@ -51,7 +53,7 @@ const Label = ({
   return (
     <>
       {/* eslint-disable-next-line jsx-a11y/label-has-for */}
-      <label css={labelStyle} htmlFor={id}>
+      <Element css={labelStyle} htmlFor={htmlFor}>
         <span
           css={{
             display: 'inline-flex',
@@ -69,7 +71,7 @@ const Label = ({
         {description && <Small>{description}</Small>}
         {children}
         {errorMessage && <Text css={errorMessageStyle}>{errorMessage}</Text>}
-      </label>
+      </Element>
     </>
   );
 };

@@ -173,7 +173,7 @@ const Input = forwardRef<HTMLInputElement, InputProps>(
           <Label
             description={description}
             errorMessage={errorMessage}
-            id={id}
+            htmlFor={id}
             label={label}
             required={required}
           >

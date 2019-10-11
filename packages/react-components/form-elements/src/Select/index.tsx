@@ -169,7 +169,7 @@ class Select extends Component<SelectProps, SelectState> {
       <Label
         description={description}
         errorMessage={errorMessage}
-        id={name}
+        htmlFor={name}
         label={label}
         required={required}
       >

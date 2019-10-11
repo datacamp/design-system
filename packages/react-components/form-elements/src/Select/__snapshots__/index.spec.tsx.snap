@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`snapshots renders a select element with size large, disabled=false, required=false 1`] = `
+exports[`with label snapshots renders a select element with size large, disabled=false, required=false 1`] = `
 .emotion-5 {
   position: relative;
 }
@@ -120,7 +120,7 @@ exports[`snapshots renders a select element with size large, disabled=false, req
 
 <label
   class="emotion-7"
-  for="input text"
+  for="this is a name"
 >
   <span
     class="emotion-2"
@@ -141,7 +141,7 @@ exports[`snapshots renders a select element with size large, disabled=false, req
   >
     <select
       class="emotion-3"
-      name="input text"
+      name="this is a name"
     >
       <option
         value="value1"
@@ -186,7 +186,7 @@ exports[`snapshots renders a select element with size large, disabled=false, req
 </label>
 `;
 
-exports[`snapshots renders a select element with size large, disabled=false, required=true 1`] = `
+exports[`with label snapshots renders a select element with size large, disabled=false, required=true 1`] = `
 .emotion-5 {
   position: relative;
 }
@@ -306,7 +306,7 @@ exports[`snapshots renders a select element with size large, disabled=false, req
 
 <label
   class="emotion-7"
-  for="input text"
+  for="this is a name"
 >
   <span
     class="emotion-2"
@@ -327,7 +327,7 @@ exports[`snapshots renders a select element with size large, disabled=false, req
   >
     <select
       class="emotion-3"
-      name="input text"
+      name="this is a name"
     >
       <option
         value="value1"
@@ -372,7 +372,7 @@ exports[`snapshots renders a select element with size large, disabled=false, req
 </label>
 `;
 
-exports[`snapshots renders a select element with size large, disabled=false, required=undefined 1`] = `
+exports[`with label snapshots renders a select element with size large, disabled=false, required=undefined 1`] = `
 .emotion-4 {
   position: relative;
 }
@@ -479,7 +479,7 @@ exports[`snapshots renders a select element with size large, disabled=false, req
 
 <label
   class="emotion-6"
-  for="input text"
+  for="this is a name"
 >
   <span
     class="emotion-1"
@@ -495,7 +495,7 @@ exports[`snapshots renders a select element with size large, disabled=false, req
   >
     <select
       class="emotion-2"
-      name="input text"
+      name="this is a name"
     >
       <option
         value="value1"
@@ -540,194 +540,7 @@ exports[`snapshots renders a select element with size large, disabled=false, req
 </label>
 `;
 
-exports[`snapshots renders a select element with size large, disabled=true, required=false 1`] = `
-.emotion-5 {
-  position: relative;
-}
-
-.emotion-4 {
-  pointer-events: none;
-  position: absolute;
-  right: 24px;
-  top: 20px;
-}
-
-.emotion-7 {
-  display: block;
-  margin-top: 16px;
-}
-
-.emotion-7:first-child:not(style),
-.emotion-7 style:first-child + * {
-  margin-top: 0;
-}
-
-.emotion-2 {
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  width: 100%;
-}
-
-.emotion-0 {
-  color: rgb(77,83,86);
-  font-family: sans-serif;
-  font-family: Lato;
-  font-style: normal;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 16px;
-  display: inline-block;
-  font-weight: 700;
-  margin-bottom: 12px;
-}
-
-.emotion-6 {
-  color: rgb(77,83,86);
-  font-family: sans-serif;
-  font-family: Lato;
-  font-style: normal;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 16px;
-  color: #fe5c5c;
-  display: block;
-  font-size: 14px;
-  margin-top: 8px;
-}
-
-.emotion-1 {
-  color: rgb(77,83,86);
-  font-family: sans-serif;
-  font-family: Lato;
-  font-style: normal;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 16px;
-  color: #859094;
-  display: inline-block;
-  font-size: 14px;
-}
-
-.emotion-3 {
-  background: white;
-  border: 0;
-  border-radius: 4px;
-  box-shadow: inset 0 0 0 1px rgb(209,211,216);
-  box-sizing: border-box;
-  display: inline-block;
-  font-family: sans-serif;
-  font-family: Lato;
-  margin: 0;
-  vertical-align: baseline;
-  -moz-appearance: none;
-  -webkit-appearance: none;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  width: 100%;
-  z-index: 1;
-  font-size: 20px;
-  height: 64px;
-  padding-left: 24px;
-  padding-right: 64px;
-  color: rgb(209,211,216);
-  width: 100%;
-}
-
-.emotion-3:disabled,
-.emotion-3:active:disabled,
-.emotion-3:focus:disabled {
-  cursor: not-allowed;
-}
-
-.emotion-3:focus {
-  box-shadow: inset 0 0 0 1px rgb(51,170,204);
-  outline: none;
-}
-
-.emotion-3:disabled,
-.emotion-3:active:disabled,
-.emotion-3:focus:disabled,
-.emotion-3:hover:disabled {
-  box-shadow: inset 0 0 0 1px rgb(209,211,216);
-}
-
-<label
-  class="emotion-7"
-  for="input text"
->
-  <span
-    class="emotion-2"
-  >
-    <span
-      class="emotion-0"
-    >
-      test label
-    </span>
-    <span
-      class="emotion-1"
-    >
-      optional
-    </span>
-  </span>
-  <div
-    class="emotion-5"
-  >
-    <select
-      class="emotion-3"
-      disabled=""
-      name="input text"
-    >
-      <option
-        value="value1"
-      >
-        option1
-      </option>
-      <option
-        value="value2"
-      >
-        option2
-      </option>
-      <option
-        disabled=""
-        value="value3"
-      >
-        option3
-      </option>
-    </select>
-    <svg
-      aria-hidden="false"
-      class="emotion-4"
-      height="24"
-      role="img"
-      viewBox="0 0 18 18"
-      width="24"
-    >
-      <title>
-        Down Chevron
-      </title>
-      <path
-        d="M8.244 12.155l-4.95-4.947a1 1 0 1 1 1.415-1.415l4.294 4.291 4.293-4.279a.998.998 0 0 1 1.413.003c.39.392.388 1.025-.003 1.415l-5.002 4.986a.998.998 0 0 1-1.46-.054z"
-        fill="rgb(209, 211, 216)"
-        fill-rule="evenodd"
-      />
-    </svg>
-  </div>
-  <span
-    class="emotion-6"
-  >
-    test error
-  </span>
-</label>
-`;
-
-exports[`snapshots renders a select element with size large, disabled=true, required=true 1`] = `
+exports[`with label snapshots renders a select element with size large, disabled=true, required=false 1`] = `
 .emotion-5 {
   position: relative;
 }
@@ -847,7 +660,7 @@ exports[`snapshots renders a select element with size large, disabled=true, requ
 
 <label
   class="emotion-7"
-  for="input text"
+  for="this is a name"
 >
   <span
     class="emotion-2"
@@ -860,7 +673,7 @@ exports[`snapshots renders a select element with size large, disabled=true, requ
     <span
       class="emotion-1"
     >
-      required
+      optional
     </span>
   </span>
   <div
@@ -869,7 +682,7 @@ exports[`snapshots renders a select element with size large, disabled=true, requ
     <select
       class="emotion-3"
       disabled=""
-      name="input text"
+      name="this is a name"
     >
       <option
         value="value1"
@@ -914,7 +727,194 @@ exports[`snapshots renders a select element with size large, disabled=true, requ
 </label>
 `;
 
-exports[`snapshots renders a select element with size large, disabled=true, required=undefined 1`] = `
+exports[`with label snapshots renders a select element with size large, disabled=true, required=true 1`] = `
+.emotion-5 {
+  position: relative;
+}
+
+.emotion-4 {
+  pointer-events: none;
+  position: absolute;
+  right: 24px;
+  top: 20px;
+}
+
+.emotion-7 {
+  display: block;
+  margin-top: 16px;
+}
+
+.emotion-7:first-child:not(style),
+.emotion-7 style:first-child + * {
+  margin-top: 0;
+}
+
+.emotion-2 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.emotion-0 {
+  color: rgb(77,83,86);
+  font-family: sans-serif;
+  font-family: Lato;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  display: inline-block;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.emotion-6 {
+  color: rgb(77,83,86);
+  font-family: sans-serif;
+  font-family: Lato;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  color: #fe5c5c;
+  display: block;
+  font-size: 14px;
+  margin-top: 8px;
+}
+
+.emotion-1 {
+  color: rgb(77,83,86);
+  font-family: sans-serif;
+  font-family: Lato;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  color: #859094;
+  display: inline-block;
+  font-size: 14px;
+}
+
+.emotion-3 {
+  background: white;
+  border: 0;
+  border-radius: 4px;
+  box-shadow: inset 0 0 0 1px rgb(209,211,216);
+  box-sizing: border-box;
+  display: inline-block;
+  font-family: sans-serif;
+  font-family: Lato;
+  margin: 0;
+  vertical-align: baseline;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 100%;
+  z-index: 1;
+  font-size: 20px;
+  height: 64px;
+  padding-left: 24px;
+  padding-right: 64px;
+  color: rgb(209,211,216);
+  width: 100%;
+}
+
+.emotion-3:disabled,
+.emotion-3:active:disabled,
+.emotion-3:focus:disabled {
+  cursor: not-allowed;
+}
+
+.emotion-3:focus {
+  box-shadow: inset 0 0 0 1px rgb(51,170,204);
+  outline: none;
+}
+
+.emotion-3:disabled,
+.emotion-3:active:disabled,
+.emotion-3:focus:disabled,
+.emotion-3:hover:disabled {
+  box-shadow: inset 0 0 0 1px rgb(209,211,216);
+}
+
+<label
+  class="emotion-7"
+  for="this is a name"
+>
+  <span
+    class="emotion-2"
+  >
+    <span
+      class="emotion-0"
+    >
+      test label
+    </span>
+    <span
+      class="emotion-1"
+    >
+      required
+    </span>
+  </span>
+  <div
+    class="emotion-5"
+  >
+    <select
+      class="emotion-3"
+      disabled=""
+      name="this is a name"
+    >
+      <option
+        value="value1"
+      >
+        option1
+      </option>
+      <option
+        value="value2"
+      >
+        option2
+      </option>
+      <option
+        disabled=""
+        value="value3"
+      >
+        option3
+      </option>
+    </select>
+    <svg
+      aria-hidden="false"
+      class="emotion-4"
+      height="24"
+      role="img"
+      viewBox="0 0 18 18"
+      width="24"
+    >
+      <title>
+        Down Chevron
+      </title>
+      <path
+        d="M8.244 12.155l-4.95-4.947a1 1 0 1 1 1.415-1.415l4.294 4.291 4.293-4.279a.998.998 0 0 1 1.413.003c.39.392.388 1.025-.003 1.415l-5.002 4.986a.998.998 0 0 1-1.46-.054z"
+        fill="rgb(209, 211, 216)"
+        fill-rule="evenodd"
+      />
+    </svg>
+  </div>
+  <span
+    class="emotion-6"
+  >
+    test error
+  </span>
+</label>
+`;
+
+exports[`with label snapshots renders a select element with size large, disabled=true, required=undefined 1`] = `
 .emotion-4 {
   position: relative;
 }
@@ -1021,7 +1021,7 @@ exports[`snapshots renders a select element with size large, disabled=true, requ
 
 <label
   class="emotion-6"
-  for="input text"
+  for="this is a name"
 >
   <span
     class="emotion-1"
@@ -1038,7 +1038,7 @@ exports[`snapshots renders a select element with size large, disabled=true, requ
     <select
       class="emotion-2"
       disabled=""
-      name="input text"
+      name="this is a name"
     >
       <option
         value="value1"
@@ -1083,7 +1083,7 @@ exports[`snapshots renders a select element with size large, disabled=true, requ
 </label>
 `;
 
-exports[`snapshots renders a select element with size medium, disabled=false, required=false 1`] = `
+exports[`with label snapshots renders a select element with size medium, disabled=false, required=false 1`] = `
 .emotion-5 {
   position: relative;
 }
@@ -1203,7 +1203,7 @@ exports[`snapshots renders a select element with size medium, disabled=false, re
 
 <label
   class="emotion-7"
-  for="input text"
+  for="this is a name"
 >
   <span
     class="emotion-2"
@@ -1224,7 +1224,7 @@ exports[`snapshots renders a select element with size medium, disabled=false, re
   >
     <select
       class="emotion-3"
-      name="input text"
+      name="this is a name"
     >
       <option
         value="value1"
@@ -1269,7 +1269,7 @@ exports[`snapshots renders a select element with size medium, disabled=false, re
 </label>
 `;
 
-exports[`snapshots renders a select element with size medium, disabled=false, required=true 1`] = `
+exports[`with label snapshots renders a select element with size medium, disabled=false, required=true 1`] = `
 .emotion-5 {
   position: relative;
 }
@@ -1389,7 +1389,7 @@ exports[`snapshots renders a select element with size medium, disabled=false, re
 
 <label
   class="emotion-7"
-  for="input text"
+  for="this is a name"
 >
   <span
     class="emotion-2"
@@ -1410,7 +1410,7 @@ exports[`snapshots renders a select element with size medium, disabled=false, re
   >
     <select
       class="emotion-3"
-      name="input text"
+      name="this is a name"
     >
       <option
         value="value1"
@@ -1455,7 +1455,7 @@ exports[`snapshots renders a select element with size medium, disabled=false, re
 </label>
 `;
 
-exports[`snapshots renders a select element with size medium, disabled=false, required=undefined 1`] = `
+exports[`with label snapshots renders a select element with size medium, disabled=false, required=undefined 1`] = `
 .emotion-4 {
   position: relative;
 }
@@ -1562,7 +1562,7 @@ exports[`snapshots renders a select element with size medium, disabled=false, re
 
 <label
   class="emotion-6"
-  for="input text"
+  for="this is a name"
 >
   <span
     class="emotion-1"
@@ -1578,7 +1578,7 @@ exports[`snapshots renders a select element with size medium, disabled=false, re
   >
     <select
       class="emotion-2"
-      name="input text"
+      name="this is a name"
     >
       <option
         value="value1"
@@ -1623,7 +1623,7 @@ exports[`snapshots renders a select element with size medium, disabled=false, re
 </label>
 `;
 
-exports[`snapshots renders a select element with size medium, disabled=true, required=false 1`] = `
+exports[`with label snapshots renders a select element with size medium, disabled=true, required=false 1`] = `
 .emotion-5 {
   position: relative;
 }
@@ -1743,7 +1743,7 @@ exports[`snapshots renders a select element with size medium, disabled=true, req
 
 <label
   class="emotion-7"
-  for="input text"
+  for="this is a name"
 >
   <span
     class="emotion-2"
@@ -1765,7 +1765,7 @@ exports[`snapshots renders a select element with size medium, disabled=true, req
     <select
       class="emotion-3"
       disabled=""
-      name="input text"
+      name="this is a name"
     >
       <option
         value="value1"
@@ -1810,7 +1810,7 @@ exports[`snapshots renders a select element with size medium, disabled=true, req
 </label>
 `;
 
-exports[`snapshots renders a select element with size medium, disabled=true, required=true 1`] = `
+exports[`with label snapshots renders a select element with size medium, disabled=true, required=true 1`] = `
 .emotion-5 {
   position: relative;
 }
@@ -1930,7 +1930,7 @@ exports[`snapshots renders a select element with size medium, disabled=true, req
 
 <label
   class="emotion-7"
-  for="input text"
+  for="this is a name"
 >
   <span
     class="emotion-2"
@@ -1952,7 +1952,7 @@ exports[`snapshots renders a select element with size medium, disabled=true, req
     <select
       class="emotion-3"
       disabled=""
-      name="input text"
+      name="this is a name"
     >
       <option
         value="value1"
@@ -1997,7 +1997,7 @@ exports[`snapshots renders a select element with size medium, disabled=true, req
 </label>
 `;
 
-exports[`snapshots renders a select element with size medium, disabled=true, required=undefined 1`] = `
+exports[`with label snapshots renders a select element with size medium, disabled=true, required=undefined 1`] = `
 .emotion-4 {
   position: relative;
 }
@@ -2104,7 +2104,7 @@ exports[`snapshots renders a select element with size medium, disabled=true, req
 
 <label
   class="emotion-6"
-  for="input text"
+  for="this is a name"
 >
   <span
     class="emotion-1"
@@ -2121,7 +2121,7 @@ exports[`snapshots renders a select element with size medium, disabled=true, req
     <select
       class="emotion-2"
       disabled=""
-      name="input text"
+      name="this is a name"
     >
       <option
         value="value1"
@@ -2166,7 +2166,7 @@ exports[`snapshots renders a select element with size medium, disabled=true, req
 </label>
 `;
 
-exports[`snapshots renders a select element with size small, disabled=false, required=false 1`] = `
+exports[`with label snapshots renders a select element with size small, disabled=false, required=false 1`] = `
 .emotion-5 {
   position: relative;
 }
@@ -2286,7 +2286,7 @@ exports[`snapshots renders a select element with size small, disabled=false, req
 
 <label
   class="emotion-7"
-  for="input text"
+  for="this is a name"
 >
   <span
     class="emotion-2"
@@ -2307,7 +2307,7 @@ exports[`snapshots renders a select element with size small, disabled=false, req
   >
     <select
       class="emotion-3"
-      name="input text"
+      name="this is a name"
     >
       <option
         value="value1"
@@ -2352,7 +2352,7 @@ exports[`snapshots renders a select element with size small, disabled=false, req
 </label>
 `;
 
-exports[`snapshots renders a select element with size small, disabled=false, required=true 1`] = `
+exports[`with label snapshots renders a select element with size small, disabled=false, required=true 1`] = `
 .emotion-5 {
   position: relative;
 }
@@ -2472,7 +2472,7 @@ exports[`snapshots renders a select element with size small, disabled=false, req
 
 <label
   class="emotion-7"
-  for="input text"
+  for="this is a name"
 >
   <span
     class="emotion-2"
@@ -2493,7 +2493,7 @@ exports[`snapshots renders a select element with size small, disabled=false, req
   >
     <select
       class="emotion-3"
-      name="input text"
+      name="this is a name"
     >
       <option
         value="value1"
@@ -2538,7 +2538,7 @@ exports[`snapshots renders a select element with size small, disabled=false, req
 </label>
 `;
 
-exports[`snapshots renders a select element with size small, disabled=false, required=undefined 1`] = `
+exports[`with label snapshots renders a select element with size small, disabled=false, required=undefined 1`] = `
 .emotion-4 {
   position: relative;
 }
@@ -2645,7 +2645,7 @@ exports[`snapshots renders a select element with size small, disabled=false, req
 
 <label
   class="emotion-6"
-  for="input text"
+  for="this is a name"
 >
   <span
     class="emotion-1"
@@ -2661,7 +2661,7 @@ exports[`snapshots renders a select element with size small, disabled=false, req
   >
     <select
       class="emotion-2"
-      name="input text"
+      name="this is a name"
     >
       <option
         value="value1"
@@ -2706,7 +2706,7 @@ exports[`snapshots renders a select element with size small, disabled=false, req
 </label>
 `;
 
-exports[`snapshots renders a select element with size small, disabled=true, required=false 1`] = `
+exports[`with label snapshots renders a select element with size small, disabled=true, required=false 1`] = `
 .emotion-5 {
   position: relative;
 }
@@ -2826,7 +2826,7 @@ exports[`snapshots renders a select element with size small, disabled=true, requ
 
 <label
   class="emotion-7"
-  for="input text"
+  for="this is a name"
 >
   <span
     class="emotion-2"
@@ -2848,7 +2848,7 @@ exports[`snapshots renders a select element with size small, disabled=true, requ
     <select
       class="emotion-3"
       disabled=""
-      name="input text"
+      name="this is a name"
     >
       <option
         value="value1"
@@ -2893,7 +2893,7 @@ exports[`snapshots renders a select element with size small, disabled=true, requ
 </label>
 `;
 
-exports[`snapshots renders a select element with size small, disabled=true, required=true 1`] = `
+exports[`with label snapshots renders a select element with size small, disabled=true, required=true 1`] = `
 .emotion-5 {
   position: relative;
 }
@@ -3013,7 +3013,7 @@ exports[`snapshots renders a select element with size small, disabled=true, requ
 
 <label
   class="emotion-7"
-  for="input text"
+  for="this is a name"
 >
   <span
     class="emotion-2"
@@ -3035,7 +3035,7 @@ exports[`snapshots renders a select element with size small, disabled=true, requ
     <select
       class="emotion-3"
       disabled=""
-      name="input text"
+      name="this is a name"
     >
       <option
         value="value1"
@@ -3080,7 +3080,7 @@ exports[`snapshots renders a select element with size small, disabled=true, requ
 </label>
 `;
 
-exports[`snapshots renders a select element with size small, disabled=true, required=undefined 1`] = `
+exports[`with label snapshots renders a select element with size small, disabled=true, required=undefined 1`] = `
 .emotion-4 {
   position: relative;
 }
@@ -3187,7 +3187,7 @@ exports[`snapshots renders a select element with size small, disabled=true, requ
 
 <label
   class="emotion-6"
-  for="input text"
+  for="this is a name"
 >
   <span
     class="emotion-1"
@@ -3204,7 +3204,7 @@ exports[`snapshots renders a select element with size small, disabled=true, requ
     <select
       class="emotion-2"
       disabled=""
-      name="input text"
+      name="this is a name"
     >
       <option
         value="value1"

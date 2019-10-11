@@ -305,42 +305,40 @@ describe('with label', () => {
     );
     expect(getByText('optional')).toHaveStyle(`font-size: '14px`);
   });
-});
 
-describe('snapshots', () => {
-  const exampleText = 'input text';
+  describe('snapshots', () => {
+    const selectSizes: ('small' | 'medium' | 'large')[] = [
+      'small',
+      'medium',
+      'large',
+    ];
+    const disabled: boolean[] = [true, false];
+    const required: (boolean | undefined)[] = [undefined, true, false];
 
-  const selectSizes: ('small' | 'medium' | 'large')[] = [
-    'small',
-    'medium',
-    'large',
-  ];
-  const disabled: boolean[] = [true, false];
-  const required: (boolean | undefined)[] = [undefined, true, false];
-
-  selectSizes.forEach(size => {
-    required.forEach(isRequired => {
-      disabled.forEach(isDisabled => {
-        it(`renders a select element with size ${size}, disabled=${isDisabled}, required=${isRequired}`, async () => {
-          const { container } = await render(
-            <Select
-              disabled={isDisabled}
-              errorMessage="test error"
-              label="test label"
-              name={exampleText}
-              onChange={() => {}}
-              required={isRequired}
-              size={size}
-              value=""
-            >
-              <SelectOption value="value1">option1</SelectOption>
-              <SelectOption value="value2">option2</SelectOption>
-              <SelectOption value="value3" disabled>
-                option3
-              </SelectOption>
-            </Select>
-          );
-          expect(container.firstChild).toMatchSnapshot();
+    selectSizes.forEach(size => {
+      required.forEach(isRequired => {
+        disabled.forEach(isDisabled => {
+          it(`renders a select element with size ${size}, disabled=${isDisabled}, required=${isRequired}`, async () => {
+            const { container } = render(
+              <Select
+                disabled={isDisabled}
+                errorMessage="test error"
+                label="test label"
+                name={testName}
+                onChange={() => {}}
+                required={isRequired}
+                size={size}
+                value=""
+              >
+                <SelectOption value="value1">option1</SelectOption>
+                <SelectOption value="value2">option2</SelectOption>
+                <SelectOption value="value3" disabled>
+                  option3
+                </SelectOption>
+              </Select>
+            );
+            expect(container.firstChild).toMatchSnapshot();
+          });
         });
       });
     });
