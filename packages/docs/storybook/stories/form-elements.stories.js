@@ -1,5 +1,11 @@
 import Button from '@datacamp/waffles-button';
-import { Input, Select, SelectOption } from '@datacamp/waffles-form-elements';
+import {
+  Input,
+  Radio,
+  RadioList,
+  Select,
+  SelectOption,
+} from '@datacamp/waffles-form-elements';
 import { AddCircleIcon } from '@datacamp/waffles-icons';
 import { storiesOf } from '@storybook/react';
 import React, { createElement, useEffect, useRef, useState } from 'react';
@@ -332,6 +338,84 @@ storiesOf('waffles-form-elements', module)
               <SelectOption value="opt3">opt3</SelectOption>
             </Select>
           </div>
+        </div>
+      );
+    });
+  })
+
+  .add('RadioList', () => {
+    return createElement(() => {
+      const [value1, setValue1] = useState('');
+      const [value2, setValue2] = useState('value4');
+      const [value3, setValue3] = useState('');
+      const [value4, setValue4] = useState('');
+      const [value5, setValue5] = useState('');
+      return (
+        <div>
+          <RadioList
+            label="Normal RadioList"
+            name="radio1"
+            onChange={setValue1}
+            value={value1}
+          >
+            <Radio value="value1">Item 1</Radio>
+            <Radio value="value2">Item 2</Radio>
+            <Radio value="disabled" disabled>
+              Disabled item
+            </Radio>
+          </RadioList>
+          <RadioList
+            label="Disabled RadioList"
+            name="radio2"
+            onChange={setValue2}
+            value={value2}
+            disabled
+          >
+            <Radio value="value3">Item 1</Radio>
+            <Radio value="value4">Item 2</Radio>
+            <Radio value="disabled" disabled>
+              Disabled item
+            </Radio>
+          </RadioList>
+          <RadioList
+            errorMessage="This is the error message"
+            label="RadioList with error"
+            name="radio3"
+            onChange={setValue3}
+            value={value3}
+          >
+            <Radio value="value5">Item 1</Radio>
+            <Radio value="value6">Item 2</Radio>
+            <Radio value="disabled" disabled>
+              Disabled item
+            </Radio>
+          </RadioList>
+          <RadioList
+            label="Required RadioList"
+            name="radio4"
+            onChange={setValue4}
+            value={value4}
+            required
+          >
+            <Radio value="value7">Item 1</Radio>
+            <Radio value="value8">Item 2</Radio>
+            <Radio value="disabled" disabled>
+              Disabled item
+            </Radio>
+          </RadioList>
+          <RadioList
+            label="Optional RadioList"
+            name="radio5"
+            onChange={setValue5}
+            required={false}
+            value={value5}
+          >
+            <Radio value="value9">Item 1</Radio>
+            <Radio value="value10">Item 2</Radio>
+            <Radio value="disabled" disabled>
+              Disabled item
+            </Radio>
+          </RadioList>
         </div>
       );
     });
