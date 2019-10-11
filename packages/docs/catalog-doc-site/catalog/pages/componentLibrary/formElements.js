@@ -1,4 +1,10 @@
-import { Input, Select, SelectOption } from '@datacamp/waffles-form-elements';
+import {
+  Input,
+  Radio,
+  RadioList,
+  Select,
+  SelectOption,
+} from '@datacamp/waffles-form-elements';
 import { AddCircleIcon, ChevronDownIcon } from '@datacamp/waffles-icons';
 import { Code, Heading, Paragraph } from '@datacamp/waffles-text';
 import { Page } from 'catalog';
@@ -53,7 +59,7 @@ export default () => {
       placeholder="placeholder text"
       value={value}
     />
-    <Input      
+    <Input
     icon={<AddCircleIcon/>}
     label="Label"
     placeholder="an input with label and icon"
@@ -263,6 +269,115 @@ export default () => {
                   <td>
                     The value of the select element. This should be controlled
                     by listening to onChange.
+                  </td>
+                </tr>
+                <tr className="dc-table__tr">
+                  <th>disabled</th>
+                  <td>boolean - optional</td>
+                  <td>It blocks user interaction.</td>
+                </tr>
+                <tr className="dc-table__tr">
+                  <th>size </th>
+                  <td>small, medium, large - optional</td>
+                  <td>It defines the size of the select element</td>
+                </tr>
+                <tr className="dc-table__tr">
+                  <th>label</th>
+                  <td>string - optional</td>
+                  <td>It sets a label above the select element</td>
+                </tr>
+                <tr className="dc-table__tr">
+                  <th>errorMessage </th>
+                  <td>string - optional</td>
+                  <td>It renders an error message under the select element</td>
+                </tr>
+                <tr className="dc-table__tr">
+                  <th>required </th>
+                  <td>boolean- optional</td>
+                  <td>
+                    Adds a required or optional indication. If required=true it
+                    adds the text &quot;required&quot; on the top-right of the
+                    select element, if required=false it adds
+                    &quot;optional&quot; The default value is undefined, which
+                    doesn&apos;t add anything.
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div className="dc-card dc-u-p-24 dc-u-mt-8">
+            <Heading as="h3" size={500}>
+              RadioList Component
+            </Heading>
+            <Paragraph>
+              The RadioList component should be used in a form. It takes the
+              waffles Radio component as children. The Radio component takes
+              &quot;disabled&quot; and &quot;value&quot; as props. Below there
+              is a simple example of how this can be used.
+            </Paragraph>
+            <table className="dc-table dc-table--bordered">
+              <tbody>
+                <tr>
+                  <LazyLiveEditCells
+                    code={`() => {
+  const [value, setValue] = React.useState('');
+  return (
+    <RadioList label="Choose an option" name="test name" onChange={setValue} value={value}>
+      <Radio value="opt1">option 1</Radio>
+      <Radio value="opt2">option 2</Radio>
+      <Radio value="opt3" disabled>option 3</Radio>
+  </RadioList>
+  )
+}`}
+                    scope={{ Radio, RadioList }}
+                  />
+                </tr>
+              </tbody>
+            </table>
+            <table className="dc-table dc-table--bordered">
+              <thead className="dc-table__thead">
+                <tr className="dc-table__tr">
+                  <th>Property</th>
+                  <th>Type</th>
+                  <th>Description</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr className="dc-table__tr">
+                  <th>className</th>
+                  <td>string - optional</td>
+                  <td>It sets the class on the rendered element.</td>
+                </tr>
+                <tr className="dc-table__tr">
+                  <th>dataAttributes</th>
+                  <td>object - optional</td>
+                  <td>
+                    As with all the other waffles components, dataAttributes can
+                    be used to set data- html attributes on the element
+                  </td>
+                </tr>
+                <tr className="dc-table__tr">
+                  <th>name</th>
+                  <td>string - required</td>
+                  <td>
+                    Used to set the html name attribute. Uniquely indentifies
+                    the select element within the current form context.
+                  </td>
+                </tr>
+                <tr className="dc-table__tr">
+                  <th>onChange</th>
+                  <td>function - required</td>
+                  <td>
+                    Called when the user selects an option. This should be used
+                    to set the value.
+                  </td>
+                </tr>
+                <tr className="dc-table__tr">
+                  <th>value</th>
+                  <td>string - required</td>
+                  <td>
+                    The value of the RadioList element. This should be
+                    controlled by listening to onChange.
                   </td>
                 </tr>
                 <tr className="dc-table__tr">
