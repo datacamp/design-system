@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.25.1](https://github.com/datacamp/design-system/compare/@datacamp/waffles-catalog-doc-site@1.25.0...@datacamp/waffles-catalog-doc-site@1.25.1) (2019-10-14)
+
+
+### Bug Fixes
+
+* remove duplicates from roadmap page ([e96d9f6](https://github.com/datacamp/design-system/commit/e96d9f6))
+
+
+
+
+
 # [1.25.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-catalog-doc-site@1.24.0...@datacamp/waffles-catalog-doc-site@1.25.0) (2019-10-14)
 
 
