@@ -30,19 +30,16 @@ const components = [
   { name: 'Navigation', status: 'Under Consideration' },
   { name: 'Code Editor', status: 'Under Consideration' },
   { name: 'Dropdown Menu', status: 'Under Consideration' },
-  { name: 'Code Editor', status: 'Under Consideration' },
   { name: 'Resizable Elements', status: 'Under Consideration' },
   { name: 'Progress Bar', status: 'Under Consideration' },
   { name: 'Fluid Stack Layout', status: 'Under Consideration' },
   { name: 'Collapsing Sections', status: 'Under Consideration' },
   { name: 'Avatars', status: 'Under Consideration' },
-  { name: 'Collapsing Sections', status: 'Under Consideration' },
   { name: 'Key Value List', status: 'Under Consideration' },
   { name: 'Data Table', status: 'Under Consideration' },
   { name: 'Autocomplete', status: 'Under Consideration' },
   { name: 'Charts', status: 'Under Consideration' },
   { name: 'Tabs', status: 'Under Consideration' },
-  { name: 'Data Table', status: 'Under Consideration' },
 ];
 
 const tagColorMap = {
