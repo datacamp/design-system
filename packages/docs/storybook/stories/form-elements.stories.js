@@ -114,121 +114,62 @@ storiesOf('waffles-form-elements', module)
       return (
         <div>
           <Input
-            label="Test label"
+            label="Input with label"
             name="story"
             onChange={() => {}}
-            placeholder="with label"
+            placeholder="placeholder text"
             value=""
           />
           <Input
-            label="Another test label"
+            description="This is a description"
+            label="Input with a description"
             name="story1"
             onChange={() => {}}
-            placeholder="with label"
+            placeholder="placeholder text"
             value=""
           />
           <Input
-            label="Another test label"
+            errorMessage="This is an error message"
+            label="Input with an error message"
             name="story2"
             onChange={() => {}}
-            placeholder="with label"
+            placeholder="placeholder text"
             value=""
           />
           <Input
-            label="Another test label"
+            label="Required Input"
             name="story3"
             onChange={() => {}}
-            placeholder="with label"
+            placeholder="placeholder text"
+            value=""
+            required
+          />
+          <Input
+            label="Optional input"
+            name="story4"
+            onChange={() => {}}
+            placeholder="with error"
+            required={false}
             value=""
           />
           <Input
-            errorMessage="This is not right"
-            label="Another test label"
+            icon={<AddCircleIcon color="#3ac" />}
+            label="Input with an icon"
             name="story4"
             onChange={() => {}}
             placeholder="with error"
             value=""
           />
           <Input
-            label="Another test label"
+            description="This is a description"
+            errorMessage="This is a error message"
+            icon={<AddCircleIcon color="#3ac" />}
+            label="Input with everything"
             name="story4"
             onChange={() => {}}
-            placeholder="Required"
+            placeholder="with error"
             value=""
             required
-          />
-          <Input
-            label="Another test label"
-            name="story5"
-            onChange={() => {}}
-            placeholder="Not required"
-            required={false}
-            value=""
-          />
-          <Input
-            errorMessage="This is not right"
-            label="Another test label"
-            name="story5"
-            onChange={() => {}}
-            placeholder="with label"
-            value=""
-          />
-        </div>
-      );
-    });
-  })
-  .add('Input with icon', () => {
-    return createElement(() => {
-      const focusRef = useRef();
-      useEffect(() => {
-        if (focusRef && focusRef.current) {
-          focusRef.current.focus();
-        }
-      }, [focusRef]);
-
-      return (
-        <div>
-          <Input
-            icon={<AddCircleIcon />}
-            label="Test label"
-            name="story8"
-            onChange={() => {}}
-            placeholder="with icon and label"
-            value=""
-          />
-
-          <Input
-            icon={<AddCircleIcon />}
-            label="Test label"
-            name="story9"
-            onChange={() => {}}
-            placeholder="with icon and label"
-            value=""
-          />
-
-          <Input
-            icon={<AddCircleIcon />}
-            name="story5"
-            onChange={() => {}}
-            placeholder="with icon"
-            value=""
-          />
-          <Input
-            icon={<AddCircleIcon />}
-            name="story6"
-            onChange={() => {}}
-            placeholder="with icon"
-            size="large"
-            value=""
-          />
-
-          <Input
-            icon={<AddCircleIcon />}
-            name="story7"
-            onChange={() => {}}
-            placeholder="with icon"
-            size="small"
-            value=""
           />
         </div>
       );
