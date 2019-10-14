@@ -1,17 +1,21 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`snapshots renders an input with size large, disabled=false, required=false 1`] = `
-.emotion-5 {
+.emotion-7 {
   display: block;
   margin-top: 16px;
 }
 
-.emotion-5:first-child:not(style),
-.emotion-5 style:first-child + * {
+.emotion-7:first-child:not(style),
+.emotion-7 style:first-child + * {
   margin-top: 0;
 }
 
-.emotion-2 {
+.emotion-4 {
+  margin-bottom: 12px;
+}
+
+.emotion-3 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -31,12 +35,12 @@ exports[`snapshots renders an input with size large, disabled=false, required=fa
   font-size: 16px;
   font-weight: 400;
   line-height: 16px;
+  color: #3d4251;
   display: inline-block;
   font-weight: 700;
-  margin-bottom: 12px;
 }
 
-.emotion-4 {
+.emotion-6 {
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;
@@ -48,6 +52,10 @@ exports[`snapshots renders an input with size large, disabled=false, required=fa
   display: block;
   font-size: 14px;
   margin-top: 8px;
+}
+
+.emotion-2 {
+  white-space: nowrap;
 }
 
 .emotion-1 {
@@ -63,7 +71,7 @@ exports[`snapshots renders an input with size large, disabled=false, required=fa
   font-size: 14px;
 }
 
-.emotion-3 {
+.emotion-5 {
   font-size: 20px;
   height: 64px;
   padding-left: 24px;
@@ -82,78 +90,86 @@ exports[`snapshots renders an input with size large, disabled=false, required=fa
   width: 100%;
 }
 
-.emotion-3:disabled,
-.emotion-3:active:disabled,
-.emotion-3:focus:disabled {
+.emotion-5:disabled,
+.emotion-5:active:disabled,
+.emotion-5:focus:disabled {
   cursor: not-allowed;
 }
 
-.emotion-3:focus {
+.emotion-5:focus {
   box-shadow: inset 0 0 0 1px rgb(51,170,204);
   outline: none;
 }
 
-.emotion-3::-webkit-input-placeholder {
+.emotion-5::-webkit-input-placeholder {
   color: rgb(133,144,148);
   font-family: inherit;
 }
 
-.emotion-3::-moz-placeholder {
+.emotion-5::-moz-placeholder {
   color: rgb(133,144,148);
   font-family: inherit;
 }
 
-.emotion-3:-ms-input-placeholder {
+.emotion-5:-ms-input-placeholder {
   color: rgb(133,144,148);
   font-family: inherit;
 }
 
-.emotion-3::placeholder {
+.emotion-5::placeholder {
   color: rgb(133,144,148);
   font-family: inherit;
 }
 
-.emotion-3:disabled::-webkit-input-placeholder {
+.emotion-5:disabled::-webkit-input-placeholder {
   color: #D1D3D8;
 }
 
-.emotion-3:disabled::-moz-placeholder {
+.emotion-5:disabled::-moz-placeholder {
   color: #D1D3D8;
 }
 
-.emotion-3:disabled:-ms-input-placeholder {
+.emotion-5:disabled:-ms-input-placeholder {
   color: #D1D3D8;
 }
 
-.emotion-3:disabled::placeholder {
+.emotion-5:disabled::placeholder {
   color: #D1D3D8;
 }
 
 <label
-  class="emotion-5"
+  class="emotion-7"
 >
-  <span
-    class="emotion-2"
+  <div
+    class="emotion-4"
   >
     <span
-      class="emotion-0"
+      class="emotion-3"
     >
-      test label
+      <span
+        class="emotion-0"
+      >
+        test label
+      </span>
+      <div
+        class="emotion-2"
+      >
+        <span
+          class="emotion-1"
+        >
+          Optional
+        </span>
+      </div>
     </span>
-    <span
-      class="emotion-1"
-    >
-      optional
-    </span>
-  </span>
+  </div>
   <input
-    class="emotion-3"
+    class="emotion-5"
     name="input text"
     placeholder="input text"
     value=""
   />
   <span
-    class="emotion-4"
+    class="emotion-6"
   >
     test error
   </span>
@@ -161,17 +177,21 @@ exports[`snapshots renders an input with size large, disabled=false, required=fa
 `;
 
 exports[`snapshots renders an input with size large, disabled=false, required=true 1`] = `
-.emotion-5 {
+.emotion-8 {
   display: block;
   margin-top: 16px;
 }
 
-.emotion-5:first-child:not(style),
-.emotion-5 style:first-child + * {
+.emotion-8:first-child:not(style),
+.emotion-8 style:first-child + * {
   margin-top: 0;
 }
 
-.emotion-2 {
+.emotion-5 {
+  margin-bottom: 12px;
+}
+
+.emotion-4 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -191,12 +211,12 @@ exports[`snapshots renders an input with size large, disabled=false, required=tr
   font-size: 16px;
   font-weight: 400;
   line-height: 16px;
+  color: #3d4251;
   display: inline-block;
   font-weight: 700;
-  margin-bottom: 12px;
 }
 
-.emotion-4 {
+.emotion-7 {
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;
@@ -210,7 +230,23 @@ exports[`snapshots renders an input with size large, disabled=false, required=tr
   margin-top: 8px;
 }
 
+.emotion-3 {
+  white-space: nowrap;
+}
+
 .emotion-1 {
+  color: rgb(77,83,86);
+  font-family: sans-serif;
+  font-family: Lato;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  color: #fe5c5c;
+  margin-right: 4px;
+}
+
+.emotion-2 {
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;
@@ -223,7 +259,7 @@ exports[`snapshots renders an input with size large, disabled=false, required=tr
   font-size: 14px;
 }
 
-.emotion-3 {
+.emotion-6 {
   font-size: 20px;
   height: 64px;
   padding-left: 24px;
@@ -242,78 +278,91 @@ exports[`snapshots renders an input with size large, disabled=false, required=tr
   width: 100%;
 }
 
-.emotion-3:disabled,
-.emotion-3:active:disabled,
-.emotion-3:focus:disabled {
+.emotion-6:disabled,
+.emotion-6:active:disabled,
+.emotion-6:focus:disabled {
   cursor: not-allowed;
 }
 
-.emotion-3:focus {
+.emotion-6:focus {
   box-shadow: inset 0 0 0 1px rgb(51,170,204);
   outline: none;
 }
 
-.emotion-3::-webkit-input-placeholder {
+.emotion-6::-webkit-input-placeholder {
   color: rgb(133,144,148);
   font-family: inherit;
 }
 
-.emotion-3::-moz-placeholder {
+.emotion-6::-moz-placeholder {
   color: rgb(133,144,148);
   font-family: inherit;
 }
 
-.emotion-3:-ms-input-placeholder {
+.emotion-6:-ms-input-placeholder {
   color: rgb(133,144,148);
   font-family: inherit;
 }
 
-.emotion-3::placeholder {
+.emotion-6::placeholder {
   color: rgb(133,144,148);
   font-family: inherit;
 }
 
-.emotion-3:disabled::-webkit-input-placeholder {
+.emotion-6:disabled::-webkit-input-placeholder {
   color: #D1D3D8;
 }
 
-.emotion-3:disabled::-moz-placeholder {
+.emotion-6:disabled::-moz-placeholder {
   color: #D1D3D8;
 }
 
-.emotion-3:disabled:-ms-input-placeholder {
+.emotion-6:disabled:-ms-input-placeholder {
   color: #D1D3D8;
 }
 
-.emotion-3:disabled::placeholder {
+.emotion-6:disabled::placeholder {
   color: #D1D3D8;
 }
 
 <label
-  class="emotion-5"
+  class="emotion-8"
 >
-  <span
-    class="emotion-2"
+  <div
+    class="emotion-5"
   >
     <span
-      class="emotion-0"
+      class="emotion-4"
     >
-      test label
+      <span
+        class="emotion-0"
+      >
+        test label
+      </span>
+      <div
+        class="emotion-3"
+      >
+        <span
+          class="emotion-1"
+        >
+          •
+        </span>
+        <span
+          class="emotion-2"
+        >
+          Required
+        </span>
+      </div>
     </span>
-    <span
-      class="emotion-1"
-    >
-      required
-    </span>
-  </span>
+  </div>
   <input
-    class="emotion-3"
+    class="emotion-6"
     name="input text"
     placeholder="input text"
     value=""
   />
   <span
-    class="emotion-4"
+    class="emotion-7"
   >
     test error
   </span>
@@ -321,14 +370,18 @@ exports[`snapshots renders an input with size large, disabled=false, required=tr
 `;
 
 exports[`snapshots renders an input with size large, disabled=false, required=undefined 1`] = `
-.emotion-4 {
+.emotion-5 {
   display: block;
   margin-top: 16px;
 }
 
-.emotion-4:first-child:not(style),
-.emotion-4 style:first-child + * {
+.emotion-5:first-child:not(style),
+.emotion-5 style:first-child + * {
   margin-top: 0;
+}
+
+.emotion-2 {
+  margin-bottom: 12px;
 }
 
 .emotion-1 {
@@ -351,12 +404,12 @@ exports[`snapshots renders an input with size large, disabled=false, required=un
   font-size: 16px;
   font-weight: 400;
   line-height: 16px;
+  color: #3d4251;
   display: inline-block;
   font-weight: 700;
-  margin-bottom: 12px;
 }
 
-.emotion-3 {
+.emotion-4 {
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;
@@ -370,7 +423,7 @@ exports[`snapshots renders an input with size large, disabled=false, required=un
   margin-top: 8px;
 }
 
-.emotion-2 {
+.emotion-3 {
   font-size: 20px;
   height: 64px;
   padding-left: 24px;
@@ -389,73 +442,77 @@ exports[`snapshots renders an input with size large, disabled=false, required=un
   width: 100%;
 }
 
-.emotion-2:disabled,
-.emotion-2:active:disabled,
-.emotion-2:focus:disabled {
+.emotion-3:disabled,
+.emotion-3:active:disabled,
+.emotion-3:focus:disabled {
   cursor: not-allowed;
 }
 
-.emotion-2:focus {
+.emotion-3:focus {
   box-shadow: inset 0 0 0 1px rgb(51,170,204);
   outline: none;
 }
 
-.emotion-2::-webkit-input-placeholder {
+.emotion-3::-webkit-input-placeholder {
   color: rgb(133,144,148);
   font-family: inherit;
 }
 
-.emotion-2::-moz-placeholder {
+.emotion-3::-moz-placeholder {
   color: rgb(133,144,148);
   font-family: inherit;
 }
 
-.emotion-2:-ms-input-placeholder {
+.emotion-3:-ms-input-placeholder {
   color: rgb(133,144,148);
   font-family: inherit;
 }
 
-.emotion-2::placeholder {
+.emotion-3::placeholder {
   color: rgb(133,144,148);
   font-family: inherit;
 }
 
-.emotion-2:disabled::-webkit-input-placeholder {
+.emotion-3:disabled::-webkit-input-placeholder {
   color: #D1D3D8;
 }
 
-.emotion-2:disabled::-moz-placeholder {
+.emotion-3:disabled::-moz-placeholder {
   color: #D1D3D8;
 }
 
-.emotion-2:disabled:-ms-input-placeholder {
+.emotion-3:disabled:-ms-input-placeholder {
   color: #D1D3D8;
 }
 
-.emotion-2:disabled::placeholder {
+.emotion-3:disabled::placeholder {
   color: #D1D3D8;
 }
 
 <label
-  class="emotion-4"
+  class="emotion-5"
 >
-  <span
-    class="emotion-1"
+  <div
+    class="emotion-2"
   >
     <span
-      class="emotion-0"
+      class="emotion-1"
     >
-      test label
+      <span
+        class="emotion-0"
+      >
+        test label
+      </span>
     </span>
-  </span>
+  </div>
   <input
-    class="emotion-2"
+    class="emotion-3"
     name="input text"
     placeholder="input text"
     value=""
   />
   <span
-    class="emotion-3"
+    class="emotion-4"
   >
     test error
   </span>
@@ -463,17 +520,21 @@ exports[`snapshots renders an input with size large, disabled=false, required=un
 `;
 
 exports[`snapshots renders an input with size large, disabled=true, required=false 1`] = `
-.emotion-5 {
+.emotion-7 {
   display: block;
   margin-top: 16px;
 }
 
-.emotion-5:first-child:not(style),
-.emotion-5 style:first-child + * {
+.emotion-7:first-child:not(style),
+.emotion-7 style:first-child + * {
   margin-top: 0;
 }
 
-.emotion-2 {
+.emotion-4 {
+  margin-bottom: 12px;
+}
+
+.emotion-3 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -493,12 +554,12 @@ exports[`snapshots renders an input with size large, disabled=true, required=fal
   font-size: 16px;
   font-weight: 400;
   line-height: 16px;
+  color: #3d4251;
   display: inline-block;
   font-weight: 700;
-  margin-bottom: 12px;
 }
 
-.emotion-4 {
+.emotion-6 {
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;
@@ -510,6 +571,10 @@ exports[`snapshots renders an input with size large, disabled=true, required=fal
   display: block;
   font-size: 14px;
   margin-top: 8px;
+}
+
+.emotion-2 {
+  white-space: nowrap;
 }
 
 .emotion-1 {
@@ -525,7 +590,7 @@ exports[`snapshots renders an input with size large, disabled=true, required=fal
   font-size: 14px;
 }
 
-.emotion-3 {
+.emotion-5 {
   font-size: 20px;
   height: 64px;
   padding-left: 24px;
@@ -544,79 +609,87 @@ exports[`snapshots renders an input with size large, disabled=true, required=fal
   width: 100%;
 }
 
-.emotion-3:disabled,
-.emotion-3:active:disabled,
-.emotion-3:focus:disabled {
+.emotion-5:disabled,
+.emotion-5:active:disabled,
+.emotion-5:focus:disabled {
   cursor: not-allowed;
 }
 
-.emotion-3:focus {
+.emotion-5:focus {
   box-shadow: inset 0 0 0 1px rgb(51,170,204);
   outline: none;
 }
 
-.emotion-3::-webkit-input-placeholder {
+.emotion-5::-webkit-input-placeholder {
   color: rgb(133,144,148);
   font-family: inherit;
 }
 
-.emotion-3::-moz-placeholder {
+.emotion-5::-moz-placeholder {
   color: rgb(133,144,148);
   font-family: inherit;
 }
 
-.emotion-3:-ms-input-placeholder {
+.emotion-5:-ms-input-placeholder {
   color: rgb(133,144,148);
   font-family: inherit;
 }
 
-.emotion-3::placeholder {
+.emotion-5::placeholder {
   color: rgb(133,144,148);
   font-family: inherit;
 }
 
-.emotion-3:disabled::-webkit-input-placeholder {
+.emotion-5:disabled::-webkit-input-placeholder {
   color: #D1D3D8;
 }
 
-.emotion-3:disabled::-moz-placeholder {
+.emotion-5:disabled::-moz-placeholder {
   color: #D1D3D8;
 }
 
-.emotion-3:disabled:-ms-input-placeholder {
+.emotion-5:disabled:-ms-input-placeholder {
   color: #D1D3D8;
 }
 
-.emotion-3:disabled::placeholder {
+.emotion-5:disabled::placeholder {
   color: #D1D3D8;
 }
 
 <label
-  class="emotion-5"
+  class="emotion-7"
 >
-  <span
-    class="emotion-2"
+  <div
+    class="emotion-4"
   >
     <span
-      class="emotion-0"
+      class="emotion-3"
     >
-      test label
+      <span
+        class="emotion-0"
+      >
+        test label
+      </span>
+      <div
+        class="emotion-2"
+      >
+        <span
+          class="emotion-1"
+        >
+          Optional
+        </span>
+      </div>
     </span>
-    <span
-      class="emotion-1"
-    >
-      optional
-    </span>
-  </span>
+  </div>
   <input
-    class="emotion-3"
+    class="emotion-5"
     disabled=""
     name="input text"
     placeholder="input text"
     value=""
   />
   <span
-    class="emotion-4"
+    class="emotion-6"
   >
     test error
   </span>
@@ -624,17 +697,21 @@ exports[`snapshots renders an input with size large, disabled=true, required=fal
 `;
 
 exports[`snapshots renders an input with size large, disabled=true, required=true 1`] = `
-.emotion-5 {
+.emotion-8 {
   display: block;
   margin-top: 16px;
 }
 
-.emotion-5:first-child:not(style),
-.emotion-5 style:first-child + * {
+.emotion-8:first-child:not(style),
+.emotion-8 style:first-child + * {
   margin-top: 0;
 }
 
-.emotion-2 {
+.emotion-5 {
+  margin-bottom: 12px;
+}
+
+.emotion-4 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -654,12 +731,12 @@ exports[`snapshots renders an input with size large, disabled=true, required=tru
   font-size: 16px;
   font-weight: 400;
   line-height: 16px;
+  color: #3d4251;
   display: inline-block;
   font-weight: 700;
-  margin-bottom: 12px;
 }
 
-.emotion-4 {
+.emotion-7 {
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;
@@ -673,7 +750,23 @@ exports[`snapshots renders an input with size large, disabled=true, required=tru
   margin-top: 8px;
 }
 
+.emotion-3 {
+  white-space: nowrap;
+}
+
 .emotion-1 {
+  color: rgb(77,83,86);
+  font-family: sans-serif;
+  font-family: Lato;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  color: #fe5c5c;
+  margin-right: 4px;
+}
+
+.emotion-2 {
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;
@@ -686,7 +779,7 @@ exports[`snapshots renders an input with size large, disabled=true, required=tru
   font-size: 14px;
 }
 
-.emotion-3 {
+.emotion-6 {
   font-size: 20px;
   height: 64px;
   padding-left: 24px;
@@ -705,79 +798,92 @@ exports[`snapshots renders an input with size large, disabled=true, required=tru
   width: 100%;
 }
 
-.emotion-3:disabled,
-.emotion-3:active:disabled,
-.emotion-3:focus:disabled {
+.emotion-6:disabled,
+.emotion-6:active:disabled,
+.emotion-6:focus:disabled {
   cursor: not-allowed;
 }
 
-.emotion-3:focus {
+.emotion-6:focus {
   box-shadow: inset 0 0 0 1px rgb(51,170,204);
   outline: none;
 }
 
-.emotion-3::-webkit-input-placeholder {
+.emotion-6::-webkit-input-placeholder {
   color: rgb(133,144,148);
   font-family: inherit;
 }
 
-.emotion-3::-moz-placeholder {
+.emotion-6::-moz-placeholder {
   color: rgb(133,144,148);
   font-family: inherit;
 }
 
-.emotion-3:-ms-input-placeholder {
+.emotion-6:-ms-input-placeholder {
   color: rgb(133,144,148);
   font-family: inherit;
 }
 
-.emotion-3::placeholder {
+.emotion-6::placeholder {
   color: rgb(133,144,148);
   font-family: inherit;
 }
 
-.emotion-3:disabled::-webkit-input-placeholder {
+.emotion-6:disabled::-webkit-input-placeholder {
   color: #D1D3D8;
 }
 
-.emotion-3:disabled::-moz-placeholder {
+.emotion-6:disabled::-moz-placeholder {
   color: #D1D3D8;
 }
 
-.emotion-3:disabled:-ms-input-placeholder {
+.emotion-6:disabled:-ms-input-placeholder {
   color: #D1D3D8;
 }
 
-.emotion-3:disabled::placeholder {
+.emotion-6:disabled::placeholder {
   color: #D1D3D8;
 }
 
 <label
-  class="emotion-5"
+  class="emotion-8"
 >
-  <span
-    class="emotion-2"
+  <div
+    class="emotion-5"
   >
     <span
-      class="emotion-0"
+      class="emotion-4"
     >
-      test label
+      <span
+        class="emotion-0"
+      >
+        test label
+      </span>
+      <div
+        class="emotion-3"
+      >
+        <span
+          class="emotion-1"
+        >
+          •
+        </span>
+        <span
+          class="emotion-2"
+        >
+          Required
+        </span>
+      </div>
     </span>
-    <span
-      class="emotion-1"
-    >
-      required
-    </span>
-  </span>
+  </div>
   <input
-    class="emotion-3"
+    class="emotion-6"
     disabled=""
     name="input text"
     placeholder="input text"
     value=""
   />
   <span
-    class="emotion-4"
+    class="emotion-7"
   >
     test error
   </span>
@@ -785,14 +891,18 @@ exports[`snapshots renders an input with size large, disabled=true, required=tru
 `;
 
 exports[`snapshots renders an input with size large, disabled=true, required=undefined 1`] = `
-.emotion-4 {
+.emotion-5 {
   display: block;
   margin-top: 16px;
 }
 
-.emotion-4:first-child:not(style),
-.emotion-4 style:first-child + * {
+.emotion-5:first-child:not(style),
+.emotion-5 style:first-child + * {
   margin-top: 0;
+}
+
+.emotion-2 {
+  margin-bottom: 12px;
 }
 
 .emotion-1 {
@@ -815,12 +925,12 @@ exports[`snapshots renders an input with size large, disabled=true, required=und
   font-size: 16px;
   font-weight: 400;
   line-height: 16px;
+  color: #3d4251;
   display: inline-block;
   font-weight: 700;
-  margin-bottom: 12px;
 }
 
-.emotion-3 {
+.emotion-4 {
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;
@@ -834,7 +944,7 @@ exports[`snapshots renders an input with size large, disabled=true, required=und
   margin-top: 8px;
 }
 
-.emotion-2 {
+.emotion-3 {
   font-size: 20px;
   height: 64px;
   padding-left: 24px;
@@ -853,74 +963,78 @@ exports[`snapshots renders an input with size large, disabled=true, required=und
   width: 100%;
 }
 
-.emotion-2:disabled,
-.emotion-2:active:disabled,
-.emotion-2:focus:disabled {
+.emotion-3:disabled,
+.emotion-3:active:disabled,
+.emotion-3:focus:disabled {
   cursor: not-allowed;
 }
 
-.emotion-2:focus {
+.emotion-3:focus {
   box-shadow: inset 0 0 0 1px rgb(51,170,204);
   outline: none;
 }
 
-.emotion-2::-webkit-input-placeholder {
+.emotion-3::-webkit-input-placeholder {
   color: rgb(133,144,148);
   font-family: inherit;
 }
 
-.emotion-2::-moz-placeholder {
+.emotion-3::-moz-placeholder {
   color: rgb(133,144,148);
   font-family: inherit;
 }
 
-.emotion-2:-ms-input-placeholder {
+.emotion-3:-ms-input-placeholder {
   color: rgb(133,144,148);
   font-family: inherit;
 }
 
-.emotion-2::placeholder {
+.emotion-3::placeholder {
   color: rgb(133,144,148);
   font-family: inherit;
 }
 
-.emotion-2:disabled::-webkit-input-placeholder {
+.emotion-3:disabled::-webkit-input-placeholder {
   color: #D1D3D8;
 }
 
-.emotion-2:disabled::-moz-placeholder {
+.emotion-3:disabled::-moz-placeholder {
   color: #D1D3D8;
 }
 
-.emotion-2:disabled:-ms-input-placeholder {
+.emotion-3:disabled:-ms-input-placeholder {
   color: #D1D3D8;
 }
 
-.emotion-2:disabled::placeholder {
+.emotion-3:disabled::placeholder {
   color: #D1D3D8;
 }
 
 <label
-  class="emotion-4"
+  class="emotion-5"
 >
-  <span
-    class="emotion-1"
+  <div
+    class="emotion-2"
   >
     <span
-      class="emotion-0"
+      class="emotion-1"
     >
-      test label
+      <span
+        class="emotion-0"
+      >
+        test label
+      </span>
     </span>
-  </span>
+  </div>
   <input
-    class="emotion-2"
+    class="emotion-3"
     disabled=""
     name="input text"
     placeholder="input text"
     value=""
   />
   <span
-    class="emotion-3"
+    class="emotion-4"
   >
     test error
   </span>
@@ -928,17 +1042,21 @@ exports[`snapshots renders an input with size large, disabled=true, required=und
 `;
 
 exports[`snapshots renders an input with size medium, disabled=false, required=false 1`] = `
-.emotion-5 {
+.emotion-7 {
   display: block;
   margin-top: 16px;
 }
 
-.emotion-5:first-child:not(style),
-.emotion-5 style:first-child + * {
+.emotion-7:first-child:not(style),
+.emotion-7 style:first-child + * {
   margin-top: 0;
 }
 
-.emotion-2 {
+.emotion-4 {
+  margin-bottom: 12px;
+}
+
+.emotion-3 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -958,12 +1076,12 @@ exports[`snapshots renders an input with size medium, disabled=false, required=f
   font-size: 16px;
   font-weight: 400;
   line-height: 16px;
+  color: #3d4251;
   display: inline-block;
   font-weight: 700;
-  margin-bottom: 12px;
 }
 
-.emotion-3 {
+.emotion-5 {
   font-size: 16px;
   height: 48px;
   padding-left: 16px;
@@ -982,54 +1100,54 @@ exports[`snapshots renders an input with size medium, disabled=false, required=f
   width: 100%;
 }
 
-.emotion-3:disabled,
-.emotion-3:active:disabled,
-.emotion-3:focus:disabled {
+.emotion-5:disabled,
+.emotion-5:active:disabled,
+.emotion-5:focus:disabled {
   cursor: not-allowed;
 }
 
-.emotion-3:focus {
+.emotion-5:focus {
   box-shadow: inset 0 0 0 1px rgb(51,170,204);
   outline: none;
 }
 
-.emotion-3::-webkit-input-placeholder {
+.emotion-5::-webkit-input-placeholder {
   color: rgb(133,144,148);
   font-family: inherit;
 }
 
-.emotion-3::-moz-placeholder {
+.emotion-5::-moz-placeholder {
   color: rgb(133,144,148);
   font-family: inherit;
 }
 
-.emotion-3:-ms-input-placeholder {
+.emotion-5:-ms-input-placeholder {
   color: rgb(133,144,148);
   font-family: inherit;
 }
 
-.emotion-3::placeholder {
+.emotion-5::placeholder {
   color: rgb(133,144,148);
   font-family: inherit;
 }
 
-.emotion-3:disabled::-webkit-input-placeholder {
+.emotion-5:disabled::-webkit-input-placeholder {
   color: #D1D3D8;
 }
 
-.emotion-3:disabled::-moz-placeholder {
+.emotion-5:disabled::-moz-placeholder {
   color: #D1D3D8;
 }
 
-.emotion-3:disabled:-ms-input-placeholder {
+.emotion-5:disabled:-ms-input-placeholder {
   color: #D1D3D8;
 }
 
-.emotion-3:disabled::placeholder {
+.emotion-5:disabled::placeholder {
   color: #D1D3D8;
 }
 
-.emotion-4 {
+.emotion-6 {
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;
@@ -1041,6 +1159,10 @@ exports[`snapshots renders an input with size medium, disabled=false, required=f
   display: block;
   font-size: 14px;
   margin-top: 8px;
+}
+
+.emotion-2 {
+  white-space: nowrap;
 }
 
 .emotion-1 {
@@ -1057,30 +1179,38 @@ exports[`snapshots renders an input with size medium, disabled=false, required=f
 }
 
 <label
-  class="emotion-5"
+  class="emotion-7"
 >
-  <span
-    class="emotion-2"
+  <div
+    class="emotion-4"
   >
     <span
-      class="emotion-0"
+      class="emotion-3"
     >
-      test label
+      <span
+        class="emotion-0"
+      >
+        test label
+      </span>
+      <div
+        class="emotion-2"
+      >
+        <span
+          class="emotion-1"
+        >
+          Optional
+        </span>
+      </div>
     </span>
-    <span
-      class="emotion-1"
-    >
-      optional
-    </span>
-  </span>
+  </div>
   <input
-    class="emotion-3"
+    class="emotion-5"
     name="input text"
     placeholder="input text"
     value=""
   />
   <span
-    class="emotion-4"
+    class="emotion-6"
   >
     test error
   </span>
@@ -1088,17 +1218,21 @@ exports[`snapshots renders an input with size medium, disabled=false, required=f
 `;
 
 exports[`snapshots renders an input with size medium, disabled=false, required=true 1`] = `
-.emotion-5 {
+.emotion-8 {
   display: block;
   margin-top: 16px;
 }
 
-.emotion-5:first-child:not(style),
-.emotion-5 style:first-child + * {
+.emotion-8:first-child:not(style),
+.emotion-8 style:first-child + * {
   margin-top: 0;
 }
 
-.emotion-2 {
+.emotion-5 {
+  margin-bottom: 12px;
+}
+
+.emotion-4 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -1118,12 +1252,12 @@ exports[`snapshots renders an input with size medium, disabled=false, required=t
   font-size: 16px;
   font-weight: 400;
   line-height: 16px;
+  color: #3d4251;
   display: inline-block;
   font-weight: 700;
-  margin-bottom: 12px;
 }
 
-.emotion-3 {
+.emotion-6 {
   font-size: 16px;
   height: 48px;
   padding-left: 16px;
@@ -1142,54 +1276,54 @@ exports[`snapshots renders an input with size medium, disabled=false, required=t
   width: 100%;
 }
 
-.emotion-3:disabled,
-.emotion-3:active:disabled,
-.emotion-3:focus:disabled {
+.emotion-6:disabled,
+.emotion-6:active:disabled,
+.emotion-6:focus:disabled {
   cursor: not-allowed;
 }
 
-.emotion-3:focus {
+.emotion-6:focus {
   box-shadow: inset 0 0 0 1px rgb(51,170,204);
   outline: none;
 }
 
-.emotion-3::-webkit-input-placeholder {
+.emotion-6::-webkit-input-placeholder {
   color: rgb(133,144,148);
   font-family: inherit;
 }
 
-.emotion-3::-moz-placeholder {
+.emotion-6::-moz-placeholder {
   color: rgb(133,144,148);
   font-family: inherit;
 }
 
-.emotion-3:-ms-input-placeholder {
+.emotion-6:-ms-input-placeholder {
   color: rgb(133,144,148);
   font-family: inherit;
 }
 
-.emotion-3::placeholder {
+.emotion-6::placeholder {
   color: rgb(133,144,148);
   font-family: inherit;
 }
 
-.emotion-3:disabled::-webkit-input-placeholder {
+.emotion-6:disabled::-webkit-input-placeholder {
   color: #D1D3D8;
 }
 
-.emotion-3:disabled::-moz-placeholder {
+.emotion-6:disabled::-moz-placeholder {
   color: #D1D3D8;
 }
 
-.emotion-3:disabled:-ms-input-placeholder {
+.emotion-6:disabled:-ms-input-placeholder {
   color: #D1D3D8;
 }
 
-.emotion-3:disabled::placeholder {
+.emotion-6:disabled::placeholder {
   color: #D1D3D8;
 }
 
-.emotion-4 {
+.emotion-7 {
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;
@@ -1203,7 +1337,23 @@ exports[`snapshots renders an input with size medium, disabled=false, required=t
   margin-top: 8px;
 }
 
+.emotion-3 {
+  white-space: nowrap;
+}
+
 .emotion-1 {
+  color: rgb(77,83,86);
+  font-family: sans-serif;
+  font-family: Lato;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  color: #fe5c5c;
+  margin-right: 4px;
+}
+
+.emotion-2 {
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;
@@ -1217,30 +1367,43 @@ exports[`snapshots renders an input with size medium, disabled=false, required=t
 }
 
 <label
-  class="emotion-5"
+  class="emotion-8"
 >
-  <span
-    class="emotion-2"
+  <div
+    class="emotion-5"
   >
     <span
-      class="emotion-0"
+      class="emotion-4"
     >
-      test label
+      <span
+        class="emotion-0"
+      >
+        test label
+      </span>
+      <div
+        class="emotion-3"
+      >
+        <span
+          class="emotion-1"
+        >
+          •
+        </span>
+        <span
+          class="emotion-2"
+        >
+          Required
+        </span>
+      </div>
     </span>
-    <span
-      class="emotion-1"
-    >
-      required
-    </span>
-  </span>
+  </div>
   <input
-    class="emotion-3"
+    class="emotion-6"
     name="input text"
     placeholder="input text"
     value=""
   />
   <span
-    class="emotion-4"
+    class="emotion-7"
   >
     test error
   </span>
@@ -1248,14 +1411,18 @@ exports[`snapshots renders an input with size medium, disabled=false, required=t
 `;
 
 exports[`snapshots renders an input with size medium, disabled=false, required=undefined 1`] = `
-.emotion-4 {
+.emotion-5 {
   display: block;
   margin-top: 16px;
 }
 
-.emotion-4:first-child:not(style),
-.emotion-4 style:first-child + * {
+.emotion-5:first-child:not(style),
+.emotion-5 style:first-child + * {
   margin-top: 0;
+}
+
+.emotion-2 {
+  margin-bottom: 12px;
 }
 
 .emotion-1 {
@@ -1278,12 +1445,12 @@ exports[`snapshots renders an input with size medium, disabled=false, required=u
   font-size: 16px;
   font-weight: 400;
   line-height: 16px;
+  color: #3d4251;
   display: inline-block;
   font-weight: 700;
-  margin-bottom: 12px;
 }
 
-.emotion-2 {
+.emotion-3 {
   font-size: 16px;
   height: 48px;
   padding-left: 16px;
@@ -1302,54 +1469,54 @@ exports[`snapshots renders an input with size medium, disabled=false, required=u
   width: 100%;
 }
 
-.emotion-2:disabled,
-.emotion-2:active:disabled,
-.emotion-2:focus:disabled {
+.emotion-3:disabled,
+.emotion-3:active:disabled,
+.emotion-3:focus:disabled {
   cursor: not-allowed;
 }
 
-.emotion-2:focus {
+.emotion-3:focus {
   box-shadow: inset 0 0 0 1px rgb(51,170,204);
   outline: none;
 }
 
-.emotion-2::-webkit-input-placeholder {
+.emotion-3::-webkit-input-placeholder {
   color: rgb(133,144,148);
   font-family: inherit;
 }
 
-.emotion-2::-moz-placeholder {
+.emotion-3::-moz-placeholder {
   color: rgb(133,144,148);
   font-family: inherit;
 }
 
-.emotion-2:-ms-input-placeholder {
+.emotion-3:-ms-input-placeholder {
   color: rgb(133,144,148);
   font-family: inherit;
 }
 
-.emotion-2::placeholder {
+.emotion-3::placeholder {
   color: rgb(133,144,148);
   font-family: inherit;
 }
 
-.emotion-2:disabled::-webkit-input-placeholder {
+.emotion-3:disabled::-webkit-input-placeholder {
   color: #D1D3D8;
 }
 
-.emotion-2:disabled::-moz-placeholder {
+.emotion-3:disabled::-moz-placeholder {
   color: #D1D3D8;
 }
 
-.emotion-2:disabled:-ms-input-placeholder {
+.emotion-3:disabled:-ms-input-placeholder {
   color: #D1D3D8;
 }
 
-.emotion-2:disabled::placeholder {
+.emotion-3:disabled::placeholder {
   color: #D1D3D8;
 }
 
-.emotion-3 {
+.emotion-4 {
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;
@@ -1364,25 +1531,29 @@ exports[`snapshots renders an input with size medium, disabled=false, required=u
 }
 
 <label
-  class="emotion-4"
+  class="emotion-5"
 >
-  <span
-    class="emotion-1"
+  <div
+    class="emotion-2"
   >
     <span
-      class="emotion-0"
+      class="emotion-1"
     >
-      test label
+      <span
+        class="emotion-0"
+      >
+        test label
+      </span>
     </span>
-  </span>
+  </div>
   <input
-    class="emotion-2"
+    class="emotion-3"
     name="input text"
     placeholder="input text"
     value=""
   />
   <span
-    class="emotion-3"
+    class="emotion-4"
   >
     test error
   </span>
@@ -1390,17 +1561,21 @@ exports[`snapshots renders an input with size medium, disabled=false, required=u
 `;
 
 exports[`snapshots renders an input with size medium, disabled=true, required=false 1`] = `
-.emotion-5 {
+.emotion-7 {
   display: block;
   margin-top: 16px;
 }
 
-.emotion-5:first-child:not(style),
-.emotion-5 style:first-child + * {
+.emotion-7:first-child:not(style),
+.emotion-7 style:first-child + * {
   margin-top: 0;
 }
 
-.emotion-2 {
+.emotion-4 {
+  margin-bottom: 12px;
+}
+
+.emotion-3 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -1420,12 +1595,12 @@ exports[`snapshots renders an input with size medium, disabled=true, required=fa
   font-size: 16px;
   font-weight: 400;
   line-height: 16px;
+  color: #3d4251;
   display: inline-block;
   font-weight: 700;
-  margin-bottom: 12px;
 }
 
-.emotion-3 {
+.emotion-5 {
   font-size: 16px;
   height: 48px;
   padding-left: 16px;
@@ -1444,54 +1619,54 @@ exports[`snapshots renders an input with size medium, disabled=true, required=fa
   width: 100%;
 }
 
-.emotion-3:disabled,
-.emotion-3:active:disabled,
-.emotion-3:focus:disabled {
+.emotion-5:disabled,
+.emotion-5:active:disabled,
+.emotion-5:focus:disabled {
   cursor: not-allowed;
 }
 
-.emotion-3:focus {
+.emotion-5:focus {
   box-shadow: inset 0 0 0 1px rgb(51,170,204);
   outline: none;
 }
 
-.emotion-3::-webkit-input-placeholder {
+.emotion-5::-webkit-input-placeholder {
   color: rgb(133,144,148);
   font-family: inherit;
 }
 
-.emotion-3::-moz-placeholder {
+.emotion-5::-moz-placeholder {
   color: rgb(133,144,148);
   font-family: inherit;
 }
 
-.emotion-3:-ms-input-placeholder {
+.emotion-5:-ms-input-placeholder {
   color: rgb(133,144,148);
   font-family: inherit;
 }
 
-.emotion-3::placeholder {
+.emotion-5::placeholder {
   color: rgb(133,144,148);
   font-family: inherit;
 }
 
-.emotion-3:disabled::-webkit-input-placeholder {
+.emotion-5:disabled::-webkit-input-placeholder {
   color: #D1D3D8;
 }
 
-.emotion-3:disabled::-moz-placeholder {
+.emotion-5:disabled::-moz-placeholder {
   color: #D1D3D8;
 }
 
-.emotion-3:disabled:-ms-input-placeholder {
+.emotion-5:disabled:-ms-input-placeholder {
   color: #D1D3D8;
 }
 
-.emotion-3:disabled::placeholder {
+.emotion-5:disabled::placeholder {
   color: #D1D3D8;
 }
 
-.emotion-4 {
+.emotion-6 {
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;
@@ -1503,6 +1678,10 @@ exports[`snapshots renders an input with size medium, disabled=true, required=fa
   display: block;
   font-size: 14px;
   margin-top: 8px;
+}
+
+.emotion-2 {
+  white-space: nowrap;
 }
 
 .emotion-1 {
@@ -1519,31 +1698,39 @@ exports[`snapshots renders an input with size medium, disabled=true, required=fa
 }
 
 <label
-  class="emotion-5"
+  class="emotion-7"
 >
-  <span
-    class="emotion-2"
+  <div
+    class="emotion-4"
   >
     <span
-      class="emotion-0"
+      class="emotion-3"
     >
-      test label
+      <span
+        class="emotion-0"
+      >
+        test label
+      </span>
+      <div
+        class="emotion-2"
+      >
+        <span
+          class="emotion-1"
+        >
+          Optional
+        </span>
+      </div>
     </span>
-    <span
-      class="emotion-1"
-    >
-      optional
-    </span>
-  </span>
+  </div>
   <input
-    class="emotion-3"
+    class="emotion-5"
     disabled=""
     name="input text"
     placeholder="input text"
     value=""
   />
   <span
-    class="emotion-4"
+    class="emotion-6"
   >
     test error
   </span>
@@ -1551,17 +1738,21 @@ exports[`snapshots renders an input with size medium, disabled=true, required=fa
 `;
 
 exports[`snapshots renders an input with size medium, disabled=true, required=true 1`] = `
-.emotion-5 {
+.emotion-8 {
   display: block;
   margin-top: 16px;
 }
 
-.emotion-5:first-child:not(style),
-.emotion-5 style:first-child + * {
+.emotion-8:first-child:not(style),
+.emotion-8 style:first-child + * {
   margin-top: 0;
 }
 
-.emotion-2 {
+.emotion-5 {
+  margin-bottom: 12px;
+}
+
+.emotion-4 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -1581,12 +1772,12 @@ exports[`snapshots renders an input with size medium, disabled=true, required=tr
   font-size: 16px;
   font-weight: 400;
   line-height: 16px;
+  color: #3d4251;
   display: inline-block;
   font-weight: 700;
-  margin-bottom: 12px;
 }
 
-.emotion-3 {
+.emotion-6 {
   font-size: 16px;
   height: 48px;
   padding-left: 16px;
@@ -1605,54 +1796,54 @@ exports[`snapshots renders an input with size medium, disabled=true, required=tr
   width: 100%;
 }
 
-.emotion-3:disabled,
-.emotion-3:active:disabled,
-.emotion-3:focus:disabled {
+.emotion-6:disabled,
+.emotion-6:active:disabled,
+.emotion-6:focus:disabled {
   cursor: not-allowed;
 }
 
-.emotion-3:focus {
+.emotion-6:focus {
   box-shadow: inset 0 0 0 1px rgb(51,170,204);
   outline: none;
 }
 
-.emotion-3::-webkit-input-placeholder {
+.emotion-6::-webkit-input-placeholder {
   color: rgb(133,144,148);
   font-family: inherit;
 }
 
-.emotion-3::-moz-placeholder {
+.emotion-6::-moz-placeholder {
   color: rgb(133,144,148);
   font-family: inherit;
 }
 
-.emotion-3:-ms-input-placeholder {
+.emotion-6:-ms-input-placeholder {
   color: rgb(133,144,148);
   font-family: inherit;
 }
 
-.emotion-3::placeholder {
+.emotion-6::placeholder {
   color: rgb(133,144,148);
   font-family: inherit;
 }
 
-.emotion-3:disabled::-webkit-input-placeholder {
+.emotion-6:disabled::-webkit-input-placeholder {
   color: #D1D3D8;
 }
 
-.emotion-3:disabled::-moz-placeholder {
+.emotion-6:disabled::-moz-placeholder {
   color: #D1D3D8;
 }
 
-.emotion-3:disabled:-ms-input-placeholder {
+.emotion-6:disabled:-ms-input-placeholder {
   color: #D1D3D8;
 }
 
-.emotion-3:disabled::placeholder {
+.emotion-6:disabled::placeholder {
   color: #D1D3D8;
 }
 
-.emotion-4 {
+.emotion-7 {
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;
@@ -1666,7 +1857,23 @@ exports[`snapshots renders an input with size medium, disabled=true, required=tr
   margin-top: 8px;
 }
 
+.emotion-3 {
+  white-space: nowrap;
+}
+
 .emotion-1 {
+  color: rgb(77,83,86);
+  font-family: sans-serif;
+  font-family: Lato;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  color: #fe5c5c;
+  margin-right: 4px;
+}
+
+.emotion-2 {
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;
@@ -1680,31 +1887,44 @@ exports[`snapshots renders an input with size medium, disabled=true, required=tr
 }
 
 <label
-  class="emotion-5"
+  class="emotion-8"
 >
-  <span
-    class="emotion-2"
+  <div
+    class="emotion-5"
   >
     <span
-      class="emotion-0"
+      class="emotion-4"
     >
-      test label
+      <span
+        class="emotion-0"
+      >
+        test label
+      </span>
+      <div
+        class="emotion-3"
+      >
+        <span
+          class="emotion-1"
+        >
+          •
+        </span>
+        <span
+          class="emotion-2"
+        >
+          Required
+        </span>
+      </div>
     </span>
-    <span
-      class="emotion-1"
-    >
-      required
-    </span>
-  </span>
+  </div>
   <input
-    class="emotion-3"
+    class="emotion-6"
     disabled=""
     name="input text"
     placeholder="input text"
     value=""
   />
   <span
-    class="emotion-4"
+    class="emotion-7"
   >
     test error
   </span>
@@ -1712,14 +1932,18 @@ exports[`snapshots renders an input with size medium, disabled=true, required=tr
 `;
 
 exports[`snapshots renders an input with size medium, disabled=true, required=undefined 1`] = `
-.emotion-4 {
+.emotion-5 {
   display: block;
   margin-top: 16px;
 }
 
-.emotion-4:first-child:not(style),
-.emotion-4 style:first-child + * {
+.emotion-5:first-child:not(style),
+.emotion-5 style:first-child + * {
   margin-top: 0;
+}
+
+.emotion-2 {
+  margin-bottom: 12px;
 }
 
 .emotion-1 {
@@ -1742,12 +1966,12 @@ exports[`snapshots renders an input with size medium, disabled=true, required=un
   font-size: 16px;
   font-weight: 400;
   line-height: 16px;
+  color: #3d4251;
   display: inline-block;
   font-weight: 700;
-  margin-bottom: 12px;
 }
 
-.emotion-2 {
+.emotion-3 {
   font-size: 16px;
   height: 48px;
   padding-left: 16px;
@@ -1766,54 +1990,54 @@ exports[`snapshots renders an input with size medium, disabled=true, required=un
   width: 100%;
 }
 
-.emotion-2:disabled,
-.emotion-2:active:disabled,
-.emotion-2:focus:disabled {
+.emotion-3:disabled,
+.emotion-3:active:disabled,
+.emotion-3:focus:disabled {
   cursor: not-allowed;
 }
 
-.emotion-2:focus {
+.emotion-3:focus {
   box-shadow: inset 0 0 0 1px rgb(51,170,204);
   outline: none;
 }
 
-.emotion-2::-webkit-input-placeholder {
+.emotion-3::-webkit-input-placeholder {
   color: rgb(133,144,148);
   font-family: inherit;
 }
 
-.emotion-2::-moz-placeholder {
+.emotion-3::-moz-placeholder {
   color: rgb(133,144,148);
   font-family: inherit;
 }
 
-.emotion-2:-ms-input-placeholder {
+.emotion-3:-ms-input-placeholder {
   color: rgb(133,144,148);
   font-family: inherit;
 }
 
-.emotion-2::placeholder {
+.emotion-3::placeholder {
   color: rgb(133,144,148);
   font-family: inherit;
 }
 
-.emotion-2:disabled::-webkit-input-placeholder {
+.emotion-3:disabled::-webkit-input-placeholder {
   color: #D1D3D8;
 }
 
-.emotion-2:disabled::-moz-placeholder {
+.emotion-3:disabled::-moz-placeholder {
   color: #D1D3D8;
 }
 
-.emotion-2:disabled:-ms-input-placeholder {
+.emotion-3:disabled:-ms-input-placeholder {
   color: #D1D3D8;
 }
 
-.emotion-2:disabled::placeholder {
+.emotion-3:disabled::placeholder {
   color: #D1D3D8;
 }
 
-.emotion-3 {
+.emotion-4 {
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;
@@ -1828,26 +2052,30 @@ exports[`snapshots renders an input with size medium, disabled=true, required=un
 }
 
 <label
-  class="emotion-4"
+  class="emotion-5"
 >
-  <span
-    class="emotion-1"
+  <div
+    class="emotion-2"
   >
     <span
-      class="emotion-0"
+      class="emotion-1"
     >
-      test label
+      <span
+        class="emotion-0"
+      >
+        test label
+      </span>
     </span>
-  </span>
+  </div>
   <input
-    class="emotion-2"
+    class="emotion-3"
     disabled=""
     name="input text"
     placeholder="input text"
     value=""
   />
   <span
-    class="emotion-3"
+    class="emotion-4"
   >
     test error
   </span>
@@ -1855,17 +2083,21 @@ exports[`snapshots renders an input with size medium, disabled=true, required=un
 `;
 
 exports[`snapshots renders an input with size small, disabled=false, required=false 1`] = `
-.emotion-5 {
+.emotion-7 {
   display: block;
   margin-top: 16px;
 }
 
-.emotion-5:first-child:not(style),
-.emotion-5 style:first-child + * {
+.emotion-7:first-child:not(style),
+.emotion-7 style:first-child + * {
   margin-top: 0;
 }
 
-.emotion-2 {
+.emotion-4 {
+  margin-bottom: 12px;
+}
+
+.emotion-3 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -1885,12 +2117,12 @@ exports[`snapshots renders an input with size small, disabled=false, required=fa
   font-size: 16px;
   font-weight: 400;
   line-height: 16px;
+  color: #3d4251;
   display: inline-block;
   font-weight: 700;
-  margin-bottom: 12px;
 }
 
-.emotion-4 {
+.emotion-6 {
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;
@@ -1902,6 +2134,10 @@ exports[`snapshots renders an input with size small, disabled=false, required=fa
   display: block;
   font-size: 14px;
   margin-top: 8px;
+}
+
+.emotion-2 {
+  white-space: nowrap;
 }
 
 .emotion-1 {
@@ -1917,7 +2153,7 @@ exports[`snapshots renders an input with size small, disabled=false, required=fa
   font-size: 14px;
 }
 
-.emotion-3 {
+.emotion-5 {
   font-size: 16px;
   height: 36px;
   padding-left: 12px;
@@ -1936,78 +2172,86 @@ exports[`snapshots renders an input with size small, disabled=false, required=fa
   width: 100%;
 }
 
-.emotion-3:disabled,
-.emotion-3:active:disabled,
-.emotion-3:focus:disabled {
+.emotion-5:disabled,
+.emotion-5:active:disabled,
+.emotion-5:focus:disabled {
   cursor: not-allowed;
 }
 
-.emotion-3:focus {
+.emotion-5:focus {
   box-shadow: inset 0 0 0 1px rgb(51,170,204);
   outline: none;
 }
 
-.emotion-3::-webkit-input-placeholder {
+.emotion-5::-webkit-input-placeholder {
   color: rgb(133,144,148);
   font-family: inherit;
 }
 
-.emotion-3::-moz-placeholder {
+.emotion-5::-moz-placeholder {
   color: rgb(133,144,148);
   font-family: inherit;
 }
 
-.emotion-3:-ms-input-placeholder {
+.emotion-5:-ms-input-placeholder {
   color: rgb(133,144,148);
   font-family: inherit;
 }
 
-.emotion-3::placeholder {
+.emotion-5::placeholder {
   color: rgb(133,144,148);
   font-family: inherit;
 }
 
-.emotion-3:disabled::-webkit-input-placeholder {
+.emotion-5:disabled::-webkit-input-placeholder {
   color: #D1D3D8;
 }
 
-.emotion-3:disabled::-moz-placeholder {
+.emotion-5:disabled::-moz-placeholder {
   color: #D1D3D8;
 }
 
-.emotion-3:disabled:-ms-input-placeholder {
+.emotion-5:disabled:-ms-input-placeholder {
   color: #D1D3D8;
 }
 
-.emotion-3:disabled::placeholder {
+.emotion-5:disabled::placeholder {
   color: #D1D3D8;
 }
 
 <label
-  class="emotion-5"
+  class="emotion-7"
 >
-  <span
-    class="emotion-2"
+  <div
+    class="emotion-4"
   >
     <span
-      class="emotion-0"
+      class="emotion-3"
     >
-      test label
+      <span
+        class="emotion-0"
+      >
+        test label
+      </span>
+      <div
+        class="emotion-2"
+      >
+        <span
+          class="emotion-1"
+        >
+          Optional
+        </span>
+      </div>
     </span>
-    <span
-      class="emotion-1"
-    >
-      optional
-    </span>
-  </span>
+  </div>
   <input
-    class="emotion-3"
+    class="emotion-5"
     name="input text"
     placeholder="input text"
     value=""
   />
   <span
-    class="emotion-4"
+    class="emotion-6"
   >
     test error
   </span>
@@ -2015,17 +2259,21 @@ exports[`snapshots renders an input with size small, disabled=false, required=fa
 `;
 
 exports[`snapshots renders an input with size small, disabled=false, required=true 1`] = `
-.emotion-5 {
+.emotion-8 {
   display: block;
   margin-top: 16px;
 }
 
-.emotion-5:first-child:not(style),
-.emotion-5 style:first-child + * {
+.emotion-8:first-child:not(style),
+.emotion-8 style:first-child + * {
   margin-top: 0;
 }
 
-.emotion-2 {
+.emotion-5 {
+  margin-bottom: 12px;
+}
+
+.emotion-4 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -2045,12 +2293,12 @@ exports[`snapshots renders an input with size small, disabled=false, required=tr
   font-size: 16px;
   font-weight: 400;
   line-height: 16px;
+  color: #3d4251;
   display: inline-block;
   font-weight: 700;
-  margin-bottom: 12px;
 }
 
-.emotion-4 {
+.emotion-7 {
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;
@@ -2064,7 +2312,23 @@ exports[`snapshots renders an input with size small, disabled=false, required=tr
   margin-top: 8px;
 }
 
+.emotion-3 {
+  white-space: nowrap;
+}
+
 .emotion-1 {
+  color: rgb(77,83,86);
+  font-family: sans-serif;
+  font-family: Lato;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  color: #fe5c5c;
+  margin-right: 4px;
+}
+
+.emotion-2 {
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;
@@ -2077,7 +2341,7 @@ exports[`snapshots renders an input with size small, disabled=false, required=tr
   font-size: 14px;
 }
 
-.emotion-3 {
+.emotion-6 {
   font-size: 16px;
   height: 36px;
   padding-left: 12px;
@@ -2096,78 +2360,91 @@ exports[`snapshots renders an input with size small, disabled=false, required=tr
   width: 100%;
 }
 
-.emotion-3:disabled,
-.emotion-3:active:disabled,
-.emotion-3:focus:disabled {
+.emotion-6:disabled,
+.emotion-6:active:disabled,
+.emotion-6:focus:disabled {
   cursor: not-allowed;
 }
 
-.emotion-3:focus {
+.emotion-6:focus {
   box-shadow: inset 0 0 0 1px rgb(51,170,204);
   outline: none;
 }
 
-.emotion-3::-webkit-input-placeholder {
+.emotion-6::-webkit-input-placeholder {
   color: rgb(133,144,148);
   font-family: inherit;
 }
 
-.emotion-3::-moz-placeholder {
+.emotion-6::-moz-placeholder {
   color: rgb(133,144,148);
   font-family: inherit;
 }
 
-.emotion-3:-ms-input-placeholder {
+.emotion-6:-ms-input-placeholder {
   color: rgb(133,144,148);
   font-family: inherit;
 }
 
-.emotion-3::placeholder {
+.emotion-6::placeholder {
   color: rgb(133,144,148);
   font-family: inherit;
 }
 
-.emotion-3:disabled::-webkit-input-placeholder {
+.emotion-6:disabled::-webkit-input-placeholder {
   color: #D1D3D8;
 }
 
-.emotion-3:disabled::-moz-placeholder {
+.emotion-6:disabled::-moz-placeholder {
   color: #D1D3D8;
 }
 
-.emotion-3:disabled:-ms-input-placeholder {
+.emotion-6:disabled:-ms-input-placeholder {
   color: #D1D3D8;
 }
 
-.emotion-3:disabled::placeholder {
+.emotion-6:disabled::placeholder {
   color: #D1D3D8;
 }
 
 <label
-  class="emotion-5"
+  class="emotion-8"
 >
-  <span
-    class="emotion-2"
+  <div
+    class="emotion-5"
   >
     <span
-      class="emotion-0"
+      class="emotion-4"
     >
-      test label
+      <span
+        class="emotion-0"
+      >
+        test label
+      </span>
+      <div
+        class="emotion-3"
+      >
+        <span
+          class="emotion-1"
+        >
+          •
+        </span>
+        <span
+          class="emotion-2"
+        >
+          Required
+        </span>
+      </div>
     </span>
-    <span
-      class="emotion-1"
-    >
-      required
-    </span>
-  </span>
+  </div>
   <input
-    class="emotion-3"
+    class="emotion-6"
     name="input text"
     placeholder="input text"
     value=""
   />
   <span
-    class="emotion-4"
+    class="emotion-7"
   >
     test error
   </span>
@@ -2175,14 +2452,18 @@ exports[`snapshots renders an input with size small, disabled=false, required=tr
 `;
 
 exports[`snapshots renders an input with size small, disabled=false, required=undefined 1`] = `
-.emotion-4 {
+.emotion-5 {
   display: block;
   margin-top: 16px;
 }
 
-.emotion-4:first-child:not(style),
-.emotion-4 style:first-child + * {
+.emotion-5:first-child:not(style),
+.emotion-5 style:first-child + * {
   margin-top: 0;
+}
+
+.emotion-2 {
+  margin-bottom: 12px;
 }
 
 .emotion-1 {
@@ -2205,12 +2486,12 @@ exports[`snapshots renders an input with size small, disabled=false, required=un
   font-size: 16px;
   font-weight: 400;
   line-height: 16px;
+  color: #3d4251;
   display: inline-block;
   font-weight: 700;
-  margin-bottom: 12px;
 }
 
-.emotion-3 {
+.emotion-4 {
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;
@@ -2224,7 +2505,7 @@ exports[`snapshots renders an input with size small, disabled=false, required=un
   margin-top: 8px;
 }
 
-.emotion-2 {
+.emotion-3 {
   font-size: 16px;
   height: 36px;
   padding-left: 12px;
@@ -2243,73 +2524,77 @@ exports[`snapshots renders an input with size small, disabled=false, required=un
   width: 100%;
 }
 
-.emotion-2:disabled,
-.emotion-2:active:disabled,
-.emotion-2:focus:disabled {
+.emotion-3:disabled,
+.emotion-3:active:disabled,
+.emotion-3:focus:disabled {
   cursor: not-allowed;
 }
 
-.emotion-2:focus {
+.emotion-3:focus {
   box-shadow: inset 0 0 0 1px rgb(51,170,204);
   outline: none;
 }
 
-.emotion-2::-webkit-input-placeholder {
+.emotion-3::-webkit-input-placeholder {
   color: rgb(133,144,148);
   font-family: inherit;
 }
 
-.emotion-2::-moz-placeholder {
+.emotion-3::-moz-placeholder {
   color: rgb(133,144,148);
   font-family: inherit;
 }
 
-.emotion-2:-ms-input-placeholder {
+.emotion-3:-ms-input-placeholder {
   color: rgb(133,144,148);
   font-family: inherit;
 }
 
-.emotion-2::placeholder {
+.emotion-3::placeholder {
   color: rgb(133,144,148);
   font-family: inherit;
 }
 
-.emotion-2:disabled::-webkit-input-placeholder {
+.emotion-3:disabled::-webkit-input-placeholder {
   color: #D1D3D8;
 }
 
-.emotion-2:disabled::-moz-placeholder {
+.emotion-3:disabled::-moz-placeholder {
   color: #D1D3D8;
 }
 
-.emotion-2:disabled:-ms-input-placeholder {
+.emotion-3:disabled:-ms-input-placeholder {
   color: #D1D3D8;
 }
 
-.emotion-2:disabled::placeholder {
+.emotion-3:disabled::placeholder {
   color: #D1D3D8;
 }
 
 <label
-  class="emotion-4"
+  class="emotion-5"
 >
-  <span
-    class="emotion-1"
+  <div
+    class="emotion-2"
   >
     <span
-      class="emotion-0"
+      class="emotion-1"
     >
-      test label
+      <span
+        class="emotion-0"
+      >
+        test label
+      </span>
     </span>
-  </span>
+  </div>
   <input
-    class="emotion-2"
+    class="emotion-3"
     name="input text"
     placeholder="input text"
     value=""
   />
   <span
-    class="emotion-3"
+    class="emotion-4"
   >
     test error
   </span>
@@ -2317,17 +2602,21 @@ exports[`snapshots renders an input with size small, disabled=false, required=un
 `;
 
 exports[`snapshots renders an input with size small, disabled=true, required=false 1`] = `
-.emotion-5 {
+.emotion-7 {
   display: block;
   margin-top: 16px;
 }
 
-.emotion-5:first-child:not(style),
-.emotion-5 style:first-child + * {
+.emotion-7:first-child:not(style),
+.emotion-7 style:first-child + * {
   margin-top: 0;
 }
 
-.emotion-2 {
+.emotion-4 {
+  margin-bottom: 12px;
+}
+
+.emotion-3 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -2347,12 +2636,12 @@ exports[`snapshots renders an input with size small, disabled=true, required=fal
   font-size: 16px;
   font-weight: 400;
   line-height: 16px;
+  color: #3d4251;
   display: inline-block;
   font-weight: 700;
-  margin-bottom: 12px;
 }
 
-.emotion-4 {
+.emotion-6 {
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;
@@ -2364,6 +2653,10 @@ exports[`snapshots renders an input with size small, disabled=true, required=fal
   display: block;
   font-size: 14px;
   margin-top: 8px;
+}
+
+.emotion-2 {
+  white-space: nowrap;
 }
 
 .emotion-1 {
@@ -2379,7 +2672,7 @@ exports[`snapshots renders an input with size small, disabled=true, required=fal
   font-size: 14px;
 }
 
-.emotion-3 {
+.emotion-5 {
   font-size: 16px;
   height: 36px;
   padding-left: 12px;
@@ -2398,79 +2691,87 @@ exports[`snapshots renders an input with size small, disabled=true, required=fal
   width: 100%;
 }
 
-.emotion-3:disabled,
-.emotion-3:active:disabled,
-.emotion-3:focus:disabled {
+.emotion-5:disabled,
+.emotion-5:active:disabled,
+.emotion-5:focus:disabled {
   cursor: not-allowed;
 }
 
-.emotion-3:focus {
+.emotion-5:focus {
   box-shadow: inset 0 0 0 1px rgb(51,170,204);
   outline: none;
 }
 
-.emotion-3::-webkit-input-placeholder {
+.emotion-5::-webkit-input-placeholder {
   color: rgb(133,144,148);
   font-family: inherit;
 }
 
-.emotion-3::-moz-placeholder {
+.emotion-5::-moz-placeholder {
   color: rgb(133,144,148);
   font-family: inherit;
 }
 
-.emotion-3:-ms-input-placeholder {
+.emotion-5:-ms-input-placeholder {
   color: rgb(133,144,148);
   font-family: inherit;
 }
 
-.emotion-3::placeholder {
+.emotion-5::placeholder {
   color: rgb(133,144,148);
   font-family: inherit;
 }
 
-.emotion-3:disabled::-webkit-input-placeholder {
+.emotion-5:disabled::-webkit-input-placeholder {
   color: #D1D3D8;
 }
 
-.emotion-3:disabled::-moz-placeholder {
+.emotion-5:disabled::-moz-placeholder {
   color: #D1D3D8;
 }
 
-.emotion-3:disabled:-ms-input-placeholder {
+.emotion-5:disabled:-ms-input-placeholder {
   color: #D1D3D8;
 }
 
-.emotion-3:disabled::placeholder {
+.emotion-5:disabled::placeholder {
   color: #D1D3D8;
 }
 
 <label
-  class="emotion-5"
+  class="emotion-7"
 >
-  <span
-    class="emotion-2"
+  <div
+    class="emotion-4"
   >
     <span
-      class="emotion-0"
+      class="emotion-3"
     >
-      test label
+      <span
+        class="emotion-0"
+      >
+        test label
+      </span>
+      <div
+        class="emotion-2"
+      >
+        <span
+          class="emotion-1"
+        >
+          Optional
+        </span>
+      </div>
     </span>
-    <span
-      class="emotion-1"
-    >
-      optional
-    </span>
-  </span>
+  </div>
   <input
-    class="emotion-3"
+    class="emotion-5"
     disabled=""
     name="input text"
     placeholder="input text"
     value=""
   />
   <span
-    class="emotion-4"
+    class="emotion-6"
   >
     test error
   </span>
@@ -2478,17 +2779,21 @@ exports[`snapshots renders an input with size small, disabled=true, required=fal
 `;
 
 exports[`snapshots renders an input with size small, disabled=true, required=true 1`] = `
-.emotion-5 {
+.emotion-8 {
   display: block;
   margin-top: 16px;
 }
 
-.emotion-5:first-child:not(style),
-.emotion-5 style:first-child + * {
+.emotion-8:first-child:not(style),
+.emotion-8 style:first-child + * {
   margin-top: 0;
 }
 
-.emotion-2 {
+.emotion-5 {
+  margin-bottom: 12px;
+}
+
+.emotion-4 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -2508,9 +2813,203 @@ exports[`snapshots renders an input with size small, disabled=true, required=tru
   font-size: 16px;
   font-weight: 400;
   line-height: 16px;
+  color: #3d4251;
   display: inline-block;
   font-weight: 700;
+}
+
+.emotion-7 {
+  color: rgb(77,83,86);
+  font-family: sans-serif;
+  font-family: Lato;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  color: #fe5c5c;
+  display: block;
+  font-size: 14px;
+  margin-top: 8px;
+}
+
+.emotion-3 {
+  white-space: nowrap;
+}
+
+.emotion-1 {
+  color: rgb(77,83,86);
+  font-family: sans-serif;
+  font-family: Lato;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  color: #fe5c5c;
+  margin-right: 4px;
+}
+
+.emotion-2 {
+  color: rgb(77,83,86);
+  font-family: sans-serif;
+  font-family: Lato;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  color: #859094;
+  display: inline-block;
+  font-size: 14px;
+}
+
+.emotion-6 {
+  font-size: 16px;
+  height: 36px;
+  padding-left: 12px;
+  padding-right: 12px;
+  background: white;
+  border: 0;
+  border-radius: 4px;
+  box-shadow: inset 0 0 0 1px rgb(209,211,216);
+  box-sizing: border-box;
+  display: inline-block;
+  font-family: sans-serif;
+  font-family: Lato;
+  margin: 0;
+  vertical-align: baseline;
+  color: rgb(133,144,148);
+  width: 100%;
+}
+
+.emotion-6:disabled,
+.emotion-6:active:disabled,
+.emotion-6:focus:disabled {
+  cursor: not-allowed;
+}
+
+.emotion-6:focus {
+  box-shadow: inset 0 0 0 1px rgb(51,170,204);
+  outline: none;
+}
+
+.emotion-6::-webkit-input-placeholder {
+  color: rgb(133,144,148);
+  font-family: inherit;
+}
+
+.emotion-6::-moz-placeholder {
+  color: rgb(133,144,148);
+  font-family: inherit;
+}
+
+.emotion-6:-ms-input-placeholder {
+  color: rgb(133,144,148);
+  font-family: inherit;
+}
+
+.emotion-6::placeholder {
+  color: rgb(133,144,148);
+  font-family: inherit;
+}
+
+.emotion-6:disabled::-webkit-input-placeholder {
+  color: #D1D3D8;
+}
+
+.emotion-6:disabled::-moz-placeholder {
+  color: #D1D3D8;
+}
+
+.emotion-6:disabled:-ms-input-placeholder {
+  color: #D1D3D8;
+}
+
+.emotion-6:disabled::placeholder {
+  color: #D1D3D8;
+}
+
+<label
+  class="emotion-8"
+>
+  <div
+    class="emotion-5"
+  >
+    <span
+      class="emotion-4"
+    >
+      <span
+        class="emotion-0"
+      >
+        test label
+      </span>
+      <div
+        class="emotion-3"
+      >
+        <span
+          class="emotion-1"
+        >
+          •
+        </span>
+        <span
+          class="emotion-2"
+        >
+          Required
+        </span>
+      </div>
+    </span>
+  </div>
+  <input
+    class="emotion-6"
+    disabled=""
+    name="input text"
+    placeholder="input text"
+    value=""
+  />
+  <span
+    class="emotion-7"
+  >
+    test error
+  </span>
+</label>
+`;
+
+exports[`snapshots renders an input with size small, disabled=true, required=undefined 1`] = `
+.emotion-5 {
+  display: block;
+  margin-top: 16px;
+}
+
+.emotion-5:first-child:not(style),
+.emotion-5 style:first-child + * {
+  margin-top: 0;
+}
+
+.emotion-2 {
   margin-bottom: 12px;
+}
+
+.emotion-1 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.emotion-0 {
+  color: rgb(77,83,86);
+  font-family: sans-serif;
+  font-family: Lato;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  color: #3d4251;
+  display: inline-block;
+  font-weight: 700;
 }
 
 .emotion-4 {
@@ -2525,19 +3024,6 @@ exports[`snapshots renders an input with size small, disabled=true, required=tru
   display: block;
   font-size: 14px;
   margin-top: 8px;
-}
-
-.emotion-1 {
-  color: rgb(77,83,86);
-  font-family: sans-serif;
-  font-family: Lato;
-  font-style: normal;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 16px;
-  color: #859094;
-  display: inline-block;
-  font-size: 14px;
 }
 
 .emotion-3 {
@@ -2609,20 +3095,19 @@ exports[`snapshots renders an input with size small, disabled=true, required=tru
 <label
   class="emotion-5"
 >
-  <span
+  <div
     class="emotion-2"
   >
     <span
-      class="emotion-0"
-    >
-      test label
-    </span>
-    <span
       class="emotion-1"
     >
-      required
+      <span
+        class="emotion-0"
+      >
+        test label
+      </span>
     </span>
-  </span>
+  </div>
   <input
     class="emotion-3"
     disabled=""
@@ -2632,149 +3117,6 @@ exports[`snapshots renders an input with size small, disabled=true, required=tru
   />
   <span
     class="emotion-4"
-  >
-    test error
-  </span>
-</label>
-`;
-
-exports[`snapshots renders an input with size small, disabled=true, required=undefined 1`] = `
-.emotion-4 {
-  display: block;
-  margin-top: 16px;
-}
-
-.emotion-4:first-child:not(style),
-.emotion-4 style:first-child + * {
-  margin-top: 0;
-}
-
-.emotion-1 {
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  width: 100%;
-}
-
-.emotion-0 {
-  color: rgb(77,83,86);
-  font-family: sans-serif;
-  font-family: Lato;
-  font-style: normal;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 16px;
-  display: inline-block;
-  font-weight: 700;
-  margin-bottom: 12px;
-}
-
-.emotion-3 {
-  color: rgb(77,83,86);
-  font-family: sans-serif;
-  font-family: Lato;
-  font-style: normal;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 16px;
-  color: #fe5c5c;
-  display: block;
-  font-size: 14px;
-  margin-top: 8px;
-}
-
-.emotion-2 {
-  font-size: 16px;
-  height: 36px;
-  padding-left: 12px;
-  padding-right: 12px;
-  background: white;
-  border: 0;
-  border-radius: 4px;
-  box-shadow: inset 0 0 0 1px rgb(209,211,216);
-  box-sizing: border-box;
-  display: inline-block;
-  font-family: sans-serif;
-  font-family: Lato;
-  margin: 0;
-  vertical-align: baseline;
-  color: rgb(133,144,148);
-  width: 100%;
-}
-
-.emotion-2:disabled,
-.emotion-2:active:disabled,
-.emotion-2:focus:disabled {
-  cursor: not-allowed;
-}
-
-.emotion-2:focus {
-  box-shadow: inset 0 0 0 1px rgb(51,170,204);
-  outline: none;
-}
-
-.emotion-2::-webkit-input-placeholder {
-  color: rgb(133,144,148);
-  font-family: inherit;
-}
-
-.emotion-2::-moz-placeholder {
-  color: rgb(133,144,148);
-  font-family: inherit;
-}
-
-.emotion-2:-ms-input-placeholder {
-  color: rgb(133,144,148);
-  font-family: inherit;
-}
-
-.emotion-2::placeholder {
-  color: rgb(133,144,148);
-  font-family: inherit;
-}
-
-.emotion-2:disabled::-webkit-input-placeholder {
-  color: #D1D3D8;
-}
-
-.emotion-2:disabled::-moz-placeholder {
-  color: #D1D3D8;
-}
-
-.emotion-2:disabled:-ms-input-placeholder {
-  color: #D1D3D8;
-}
-
-.emotion-2:disabled::placeholder {
-  color: #D1D3D8;
-}
-
-<label
-  class="emotion-4"
->
-  <span
-    class="emotion-1"
-  >
-    <span
-      class="emotion-0"
-    >
-      test label
-    </span>
-  </span>
-  <input
-    class="emotion-2"
-    disabled=""
-    name="input text"
-    placeholder="input text"
-    value=""
-  />
-  <span
-    class="emotion-3"
   >
     test error
   </span>

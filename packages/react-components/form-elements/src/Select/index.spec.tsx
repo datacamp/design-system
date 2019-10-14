@@ -24,6 +24,24 @@ describe('<Select>', () => {
     expect(selectElement).toHaveAttribute('name', testName);
   });
 
+  it('adds the description', () => {
+    const testDescription = 'this is a test description';
+    const { getByText } = render(
+      <Select
+        description={testDescription}
+        label="test label"
+        name={testName}
+        onChange={() => {}}
+        value={testValue}
+      >
+        <SelectOption value={testValue}>option1</SelectOption>
+        <SelectOption value={testValue}>option2</SelectOption>
+      </Select>
+    );
+
+    expect(getByText(testDescription)).toBeInTheDocument();
+  });
+
   it('renders options', () => {
     const { getByText } = render(
       <Select name={testName} onChange={() => {}} value={testValue}>
@@ -262,7 +280,7 @@ describe('with label', () => {
     expect(getByText(testError)).toHaveStyle(`font-size: '14px`);
   });
 
-  it('renders the indication "required" above the input field if required is passed as a prop ', () => {
+  it('renders the indication "Required" above the input field if required is passed as a prop ', () => {
     const testLabel = 'label text';
 
     const { getByText } = render(
@@ -277,14 +295,14 @@ describe('with label', () => {
         <SelectOption value="value2">option2</SelectOption>
       </Select>
     );
-    expect(getByText('required')).toBeInTheDocument();
-    expect(getByText('required')).toHaveStyle(
+    expect(getByText('Required')).toBeInTheDocument();
+    expect(getByText('Required')).toHaveStyle(
       `color: ${tokens.color.opaque.greyOslo.value.hex}`
     );
-    expect(getByText('required')).toHaveStyle(`font-size: '14px`);
+    expect(getByText('Required')).toHaveStyle(`font-size: '14px`);
   });
 
-  it('renders the indication "optional" above the input field if required={false} is passed as a prop ', () => {
+  it('renders the indication "Optional" above the input field if required={false} is passed as a prop ', () => {
     const testLabel = 'label text';
 
     const { getByText } = render(
@@ -299,11 +317,11 @@ describe('with label', () => {
         <SelectOption value="value2">option2</SelectOption>
       </Select>
     );
-    expect(getByText('optional')).toBeInTheDocument();
-    expect(getByText('optional')).toHaveStyle(
+    expect(getByText('Optional')).toBeInTheDocument();
+    expect(getByText('Optional')).toHaveStyle(
       `color: ${tokens.color.opaque.greyOslo.value.hex}`
     );
-    expect(getByText('optional')).toHaveStyle(`font-size: '14px`);
+    expect(getByText('Optional')).toHaveStyle(`font-size: '14px`);
   });
 
   describe('snapshots', () => {
