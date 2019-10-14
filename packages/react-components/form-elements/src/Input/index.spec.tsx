@@ -258,14 +258,14 @@ describe('<Input />', () => {
           required
         />
       );
-      expect(getByText('required')).toBeInTheDocument();
-      expect(getByText('required')).toHaveStyle(
+      expect(getByText('Required')).toBeInTheDocument();
+      expect(getByText('Required')).toHaveStyle(
         `color: ${tokens.color.opaque.greyOslo.value.hex}`
       );
-      expect(getByText('required')).toHaveStyle(`font-size: '14px`);
+      expect(getByText('Required')).toHaveStyle(`font-size: '14px`);
     });
 
-    it('renders the indication "optional" above the input field if required={false} is passed as a prop ', () => {
+    it('renders the indication "Optional" above the input field if required={false} is passed as a prop ', () => {
       const testLabel = 'label text';
 
       const { getByText } = render(
@@ -277,11 +277,11 @@ describe('<Input />', () => {
           value={testValue}
         />
       );
-      expect(getByText('optional')).toBeInTheDocument();
-      expect(getByText('optional')).toHaveStyle(
+      expect(getByText('Optional')).toBeInTheDocument();
+      expect(getByText('Optional')).toHaveStyle(
         `color: ${tokens.color.opaque.greyOslo.value.hex}`
       );
-      expect(getByText('optional')).toHaveStyle(`font-size: '14px`);
+      expect(getByText('Optional')).toHaveStyle(`font-size: '14px`);
     });
   });
 });
@@ -300,6 +300,21 @@ describe('with label', () => {
       />
     );
     expect(getByLabelText(testLabel)).toBeInTheDocument();
+  });
+
+  it('sets the description', () => {
+    const testLabel = 'label text';
+    const testDescription = 'description text';
+    const { getByText } = render(
+      <Input
+        description={testDescription}
+        label={testLabel}
+        name={testName}
+        onChange={() => {}}
+        value={testValue}
+      />
+    );
+    expect(getByText(testDescription)).toBeInTheDocument();
   });
 });
 

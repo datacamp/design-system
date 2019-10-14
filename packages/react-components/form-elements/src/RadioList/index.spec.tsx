@@ -36,7 +36,7 @@ describe('<RadioList>', () => {
   });
 
   describe('required', () => {
-    it('renders the indication "required" above the radio group if required is passed as a prop', () => {
+    it('renders the indication "Required" above the radio group if required is passed as a prop', () => {
       const { getByText } = render(
         <RadioList
           label={testLabel}
@@ -50,9 +50,9 @@ describe('<RadioList>', () => {
         </RadioList>
       );
 
-      expect(getByText('required')).toBeInTheDocument();
+      expect(getByText('Required')).toBeInTheDocument();
     });
-    it('renders the indication "optional" above the radio group if required=false is passed as a prop', () => {
+    it('renders the indication "Optional" above the radio group if required=false is passed as a prop', () => {
       const { getByText } = render(
         <RadioList
           label={testLabel}
@@ -66,7 +66,7 @@ describe('<RadioList>', () => {
         </RadioList>
       );
 
-      expect(getByText('optional')).toBeInTheDocument();
+      expect(getByText('Optional')).toBeInTheDocument();
     });
   });
 

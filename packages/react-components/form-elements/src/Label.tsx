@@ -1,4 +1,4 @@
-import { Small, Text } from '@datacamp/waffles-text';
+import { Text } from '@datacamp/waffles-text';
 import tokens from '@datacamp/waffles-tokens/lib/future-tokens.json';
 import { ssrSafeFirstChildSelector } from '@datacamp/waffles-utils';
 import { css } from '@emotion/core';
@@ -23,9 +23,9 @@ const labelStyle = css({
 });
 
 const textStyle = css({
+  color: tokens.color.opaque.greyDark.value.hex,
   display: 'inline-block',
   fontWeight: tokens.fontWeight.bold.value,
-  marginBottom: tokens.size.space[12].value,
 });
 
 const errorMessageStyle = css({
@@ -54,21 +54,47 @@ const Label = ({
     <>
       {/* eslint-disable-next-line jsx-a11y/label-has-for */}
       <Element css={labelStyle} htmlFor={htmlFor}>
-        <span
-          css={{
-            display: 'inline-flex',
-            justifyContent: 'space-between',
-            width: '100%',
-          }}
-        >
-          <Text css={textStyle}>{label}</Text>
-          {required !== undefined && (
-            <Text css={requiredStyle}>
-              {required ? 'required' : 'optional'}
+        <div css={{ marginBottom: tokens.size.space[12].value }}>
+          <span
+            css={{
+              display: 'inline-flex',
+              justifyContent: 'space-between',
+              width: '100%',
+            }}
+          >
+            <Text css={textStyle}>{label}</Text>
+            {required !== undefined && (
+              <div css={{ whiteSpace: 'nowrap' }}>
+                {required ? (
+                  <>
+                    <Text
+                      css={{
+                        color: tokens.color.opaque.red.value.hex,
+                        marginRight: tokens.size.space[4].value,
+                      }}
+                    >
+                      •
+                    </Text>
+                    <Text css={requiredStyle}>Required</Text>
+                  </>
+                ) : (
+                  <Text css={requiredStyle}>Optional</Text>
+                )}
+              </div>
+            )}
+          </span>
+          {description && (
+            <Text
+              css={{
+                color: tokens.color.opaque.grey.value.hex,
+                display: 'inline-block',
+                marginTop: tokens.size.space[8].value,
+              }}
+            >
+              {description}
             </Text>
           )}
-        </span>
-        {description && <Small>{description}</Small>}
+        </div>
         {children}
         {errorMessage && <Text css={errorMessageStyle}>{errorMessage}</Text>}
       </Element>
