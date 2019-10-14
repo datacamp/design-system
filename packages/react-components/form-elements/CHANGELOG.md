@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.3.0](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/form-elements/compare/@datacamp/waffles-form-elements@2.2.1...@datacamp/waffles-form-elements@2.3.0) (2019-10-14)
+
+
+### Bug Fixes
+
+* label id on Select & Input components ([637faf5](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/form-elements/commit/637faf5))
+
+
+### Features
+
+* add RadioList & Radio components ([714f247](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/form-elements/commit/714f247))
+
+
+
+
+
 ## [2.2.1](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/form-elements/compare/@datacamp/waffles-form-elements@2.2.0...@datacamp/waffles-form-elements@2.2.1) (2019-10-10)
 
 **Note:** Version bump only for package @datacamp/waffles-form-elements

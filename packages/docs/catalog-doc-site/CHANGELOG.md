@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.25.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-catalog-doc-site@1.24.0...@datacamp/waffles-catalog-doc-site@1.25.0) (2019-10-14)
+
+
+### Bug Fixes
+
+* remove duplicate entry from roadmap ([ba218fc](https://github.com/datacamp/design-system/commit/ba218fc))
+
+
+### Features
+
+* add doc for RadioList ([6e3e09f](https://github.com/datacamp/design-system/commit/6e3e09f))
+
+
+
+
+
 # [1.24.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-catalog-doc-site@1.23.1...@datacamp/waffles-catalog-doc-site@1.24.0) (2019-10-10)
 
 

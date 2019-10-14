@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.25.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-storybook@1.24.0...@datacamp/waffles-storybook@1.25.0) (2019-10-14)
+
+
+### Features
+
+* add stories for RadioList ([6cdb449](https://github.com/datacamp/design-system/commit/6cdb449))
+
+
+
+
+
 # [1.24.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-storybook@1.23.1...@datacamp/waffles-storybook@1.24.0) (2019-10-10)
 
 
