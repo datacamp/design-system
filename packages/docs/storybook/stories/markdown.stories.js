@@ -17,9 +17,6 @@ const paragraphs = `
 This is the first paragraph.
 
 This is a second paragraph.
-
-This paragraph should
-have 2 lines.
 `;
 
 const emphasis = `
