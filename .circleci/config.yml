@@ -1,6 +1,6 @@
 version: 2
 jobs:
-  build-and-test:
+  build:
     docker:
       - image: circleci/node:12.4.0-browsers
     steps:
@@ -11,6 +11,16 @@ jobs:
             cp ci/.npmrc .npmrc
             yarn install --frozen-lockfile
             yarn bootstrap
+      - persist_to_workspace:
+          root: "."
+          paths:
+            - ./**
+  test:
+    docker:
+      - image: circleci/node:12.4.0-browsers
+    steps:
+      - attach_workspace:
+          at: "."
       - run:
           name: Lint
           command: yarn lint
@@ -23,13 +33,15 @@ jobs:
       - run:
           name: Check types
           command: yarn type-check
+  upload-to-percy:
+    docker:
+      - image: circleci/node:12.4.0-browsers
+    steps:
+      - attach_workspace:
+          at: "."
       - run:
           name: Upload to percy
           command: yarn percy
-      - persist_to_workspace:
-          root: "."
-          paths:
-            - ./**
   deploy-staging-site:
     docker:
       - image: ${STAGING_ECR_URL}/docker-deploy
@@ -85,14 +97,35 @@ workflows:
   version: 2
   build_and_deploy:
     jobs:
-      - build-and-test:
+      - build:
+          context: org-global
+          filters:
+            tags:
+              only: /.*/
+      - test:
+          requires:
+            - build
+          context: org-global
+          filters:
+            tags:
+              only: /.*/
+      - hold-for-pr:
+          type: approval
+          context: org-global
+          filters:
+            tags:
+              only: /.*/
+      - upload-to-percy:
+          requires:
+            - build
+            - hold-for-pr
           context: org-global
           filters:
             tags:
               only: /.*/
       - deploy-staging-site:
           requires:
-            - build-and-test
+            - test
           context: org-global
           filters:
             branches:
@@ -100,7 +133,7 @@ workflows:
                 - staging
       - deploy-doc-site:
           requires:
-            - build-and-test
+            - test
           context: org-global
           filters:
             branches:
