@@ -799,6 +799,14 @@ export default () => {
             </tr>
             <tr>
               <td>
+                <code className="dc-u-ws-nowrap">.dc-u-fx-jcsb</code>
+              </td>
+              <td>
+                <code>justify-content: space-between;</code>
+              </td>
+            </tr>
+            <tr>
+              <td>
                 <code className="dc-u-ws-nowrap">.dc-u-fx-ais</code>
               </td>
               <td>
