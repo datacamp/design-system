@@ -164,6 +164,11 @@ export default () => {
                   <td>It renders an error message under the input field</td>
                 </tr>
                 <tr className="dc-table__tr">
+                  <th>description </th>
+                  <td>string - optional</td>
+                  <td>It renders a description under the label</td>
+                </tr>
+                <tr className="dc-table__tr">
                   <th>id</th>
                   <td>string - optional</td>
                   <td>It sets an unique input id </td>
@@ -292,6 +297,11 @@ export default () => {
                   <td>It renders an error message under the select element</td>
                 </tr>
                 <tr className="dc-table__tr">
+                  <th>description </th>
+                  <td>string - optional</td>
+                  <td>It renders a description under the label</td>
+                </tr>
+                <tr className="dc-table__tr">
                   <th>required </th>
                   <td>boolean- optional</td>
                   <td>
@@ -399,6 +409,11 @@ export default () => {
                   <th>errorMessage </th>
                   <td>string - optional</td>
                   <td>It renders an error message under the select element</td>
+                </tr>
+                <tr className="dc-table__tr">
+                  <th>description </th>
+                  <td>string - optional</td>
+                  <td>It renders a description under the label</td>
                 </tr>
                 <tr className="dc-table__tr">
                   <th>required </th>
