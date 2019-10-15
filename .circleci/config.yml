@@ -6,11 +6,14 @@ jobs:
     steps:
       - checkout
       - run:
-          name: Build
-          command: |
-            cp ci/.npmrc .npmrc
-            yarn install --frozen-lockfile
-            yarn bootstrap
+          name: Copy NPM config
+          command: cp ci/.npmrc .npmrc
+      - run:
+          name: Install lerna
+          command: yarn global add lerna
+      - run:
+          name: Install and Build
+          command: yarn bootstrap
       - persist_to_workspace:
           root: "."
           paths:
