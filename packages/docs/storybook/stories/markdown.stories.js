@@ -18,7 +18,7 @@ This is the first paragraph.
 
 This is a second paragraph.
 
-This paragraph should  
+This paragraph should
 have 2 lines.
 `;
 
@@ -150,14 +150,6 @@ const all =
   tables +
   htmlTags;
 
-storiesOf('waffles-markdown', module)
-  .add('Text components', () => <Markdown source={textComponents} />)
-  .add('Lists', () => <Markdown source={lists} />)
-  .add('Images', () => <Markdown source={images} />)
-  .add('Links', () => <Markdown source={links} />)
-  .add('Blockquotes', () => <Markdown source={blockquotes} />)
-  .add('Code', () => <Markdown source={code} />)
-  .add('Task lists', () => <Markdown source={taskLists} />)
-  .add('Tables', () => <Markdown source={tables} />)
-  .add('HTML tags', () => <Markdown source={htmlTags} />)
-  .add('All components', () => <Markdown source={all} />);
+storiesOf('waffles-markdown', module).add('All components', () => (
+  <Markdown source={all} />
+));
