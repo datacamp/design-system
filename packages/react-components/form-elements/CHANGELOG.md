@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.4.0](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/form-elements/compare/@datacamp/waffles-form-elements@2.3.0...@datacamp/waffles-form-elements@2.4.0) (2019-10-17)
+
+
+### Features
+
+* position description & add indicator to required elements ([bbcc833](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/form-elements/commit/bbcc833))
+
+
+
+
+
 # [2.3.0](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/form-elements/compare/@datacamp/waffles-form-elements@2.2.1...@datacamp/waffles-form-elements@2.3.0) (2019-10-14)
 
 

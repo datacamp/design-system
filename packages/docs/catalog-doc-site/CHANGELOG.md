@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.26.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-catalog-doc-site@1.25.1...@datacamp/waffles-catalog-doc-site@1.26.0) (2019-10-17)
+
+
+### Features
+
+* add "space-between" to justify-content docs ([752bbba](https://github.com/datacamp/design-system/commit/752bbba))
+* add docs for form element descriptions ([b21c45d](https://github.com/datacamp/design-system/commit/b21c45d))
+
+
+
+
+
 ## [1.25.1](https://github.com/datacamp/design-system/compare/@datacamp/waffles-catalog-doc-site@1.25.0...@datacamp/waffles-catalog-doc-site@1.25.1) (2019-10-14)
 
 

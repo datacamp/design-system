@@ -3,6 +3,25 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.26.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-storybook@1.25.0...@datacamp/waffles-storybook@1.26.0) (2019-10-17)
+
+
+### Bug Fixes
+
+* combine all icons into one story ([4575219](https://github.com/datacamp/design-system/commit/4575219))
+* only take percy screenshots at one size unless overridden ([3359b21](https://github.com/datacamp/design-system/commit/3359b21))
+* only use full flow markdown story ([d909fa3](https://github.com/datacamp/design-system/commit/d909fa3))
+* remove 2 line markdown story ([bf9d95f](https://github.com/datacamp/design-system/commit/bf9d95f))
+
+
+### Features
+
+* add stories for form element descriptions ([cdc6f09](https://github.com/datacamp/design-system/commit/cdc6f09))
+
+
+
+
+
 # [1.25.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-storybook@1.24.0...@datacamp/waffles-storybook@1.25.0) (2019-10-14)
 
 
