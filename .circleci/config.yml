@@ -1,4 +1,7 @@
-version: 2
+version: 2.1
+orbs:
+  datacamp-ecr: datacamp/ecr@0
+  datacamp-deploy: datacamp/deploy@1
 jobs:
   build:
     docker:
@@ -120,12 +123,37 @@ workflows:
               only: /.*/
       - upload-to-percy:
           requires:
-            - build
+            - test
             - hold-for-pr
           context: org-global
           filters:
             tags:
               only: /.*/
+      - datacamp-ecr/build_and_push_image_to_ecr:
+          requires:
+            - test
+            - hold-for-pr
+          name: push-storybook-image
+          context: org-global
+          aws-access-key-id: $STAGING_AWS_ACCESS_KEY_ID
+          aws-secret-access-key: $STAGING_AWS_SECRET_ACCESS_KEY
+          account-url: $STAGING_ECR_URL
+          repo: waffles-storybook
+          path: packages/docs/storybook
+          dockerfile: packages/docs/storybook/Dockerfile
+          pre-build-steps:
+            - attach_workspace:
+                at: "."
+      - datacamp-deploy/backstage-deploy: # backstage
+          name: deploy-storybook
+          context: org-global
+          file: packages/docs/storybook/ecs.backstage.json
+          extra-env: "BRANCH=${CIRCLE_BRANCH//\\//-}"
+          new-deploy-opt-in: true
+          deploy-url: $STAGING_LAMBDA_DEPLOY_URL
+          deploy-password: $STAGING_LAMBDA_DEPLOY_PASSWORD
+          requires:
+            - push-storybook-image
       - deploy-staging-site:
           requires:
             - test
