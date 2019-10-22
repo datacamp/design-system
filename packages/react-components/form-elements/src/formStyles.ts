@@ -29,7 +29,7 @@ const inputStyle = css(baseFormStyle, {
     fontFamily: 'inherit',
   },
   ':disabled::placeholder': { color: '#D1D3D8' },
-  color: tokens.color.opaque.greyOslo.value.rgb,
+  color: tokens.color.opaque.greyDark.value.rgb,
 });
 
 const selectStyle = css(baseFormStyle, {

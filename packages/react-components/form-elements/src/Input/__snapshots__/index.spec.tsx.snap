@@ -86,7 +86,7 @@ exports[`snapshots renders an input with size large, disabled=false, required=fa
   font-family: Lato;
   margin: 0;
   vertical-align: baseline;
-  color: rgb(133,144,148);
+  color: rgb(61,66,81);
   width: 100%;
 }
 
@@ -166,6 +166,7 @@ exports[`snapshots renders an input with size large, disabled=false, required=fa
     class="emotion-5"
     name="input text"
     placeholder="input text"
+    type="text"
     value=""
   />
   <span
@@ -274,7 +275,7 @@ exports[`snapshots renders an input with size large, disabled=false, required=tr
   font-family: Lato;
   margin: 0;
   vertical-align: baseline;
-  color: rgb(133,144,148);
+  color: rgb(61,66,81);
   width: 100%;
 }
 
@@ -359,6 +360,7 @@ exports[`snapshots renders an input with size large, disabled=false, required=tr
     class="emotion-6"
     name="input text"
     placeholder="input text"
+    type="text"
     value=""
   />
   <span
@@ -438,7 +440,7 @@ exports[`snapshots renders an input with size large, disabled=false, required=un
   font-family: Lato;
   margin: 0;
   vertical-align: baseline;
-  color: rgb(133,144,148);
+  color: rgb(61,66,81);
   width: 100%;
 }
 
@@ -509,6 +511,7 @@ exports[`snapshots renders an input with size large, disabled=false, required=un
     class="emotion-3"
     name="input text"
     placeholder="input text"
+    type="text"
     value=""
   />
   <span
@@ -605,7 +608,7 @@ exports[`snapshots renders an input with size large, disabled=true, required=fal
   font-family: Lato;
   margin: 0;
   vertical-align: baseline;
-  color: rgb(133,144,148);
+  color: rgb(61,66,81);
   width: 100%;
 }
 
@@ -686,6 +689,7 @@ exports[`snapshots renders an input with size large, disabled=true, required=fal
     disabled=""
     name="input text"
     placeholder="input text"
+    type="text"
     value=""
   />
   <span
@@ -794,7 +798,7 @@ exports[`snapshots renders an input with size large, disabled=true, required=tru
   font-family: Lato;
   margin: 0;
   vertical-align: baseline;
-  color: rgb(133,144,148);
+  color: rgb(61,66,81);
   width: 100%;
 }
 
@@ -880,6 +884,7 @@ exports[`snapshots renders an input with size large, disabled=true, required=tru
     disabled=""
     name="input text"
     placeholder="input text"
+    type="text"
     value=""
   />
   <span
@@ -959,7 +964,7 @@ exports[`snapshots renders an input with size large, disabled=true, required=und
   font-family: Lato;
   margin: 0;
   vertical-align: baseline;
-  color: rgb(133,144,148);
+  color: rgb(61,66,81);
   width: 100%;
 }
 
@@ -1031,6 +1036,7 @@ exports[`snapshots renders an input with size large, disabled=true, required=und
     disabled=""
     name="input text"
     placeholder="input text"
+    type="text"
     value=""
   />
   <span
@@ -1096,7 +1102,7 @@ exports[`snapshots renders an input with size medium, disabled=false, required=f
   font-family: Lato;
   margin: 0;
   vertical-align: baseline;
-  color: rgb(133,144,148);
+  color: rgb(61,66,81);
   width: 100%;
 }
 
@@ -1207,6 +1213,7 @@ exports[`snapshots renders an input with size medium, disabled=false, required=f
     class="emotion-5"
     name="input text"
     placeholder="input text"
+    type="text"
     value=""
   />
   <span
@@ -1272,7 +1279,7 @@ exports[`snapshots renders an input with size medium, disabled=false, required=t
   font-family: Lato;
   margin: 0;
   vertical-align: baseline;
-  color: rgb(133,144,148);
+  color: rgb(61,66,81);
   width: 100%;
 }
 
@@ -1400,6 +1407,7 @@ exports[`snapshots renders an input with size medium, disabled=false, required=t
     class="emotion-6"
     name="input text"
     placeholder="input text"
+    type="text"
     value=""
   />
   <span
@@ -1465,7 +1473,7 @@ exports[`snapshots renders an input with size medium, disabled=false, required=u
   font-family: Lato;
   margin: 0;
   vertical-align: baseline;
-  color: rgb(133,144,148);
+  color: rgb(61,66,81);
   width: 100%;
 }
 
@@ -1550,6 +1558,7 @@ exports[`snapshots renders an input with size medium, disabled=false, required=u
     class="emotion-3"
     name="input text"
     placeholder="input text"
+    type="text"
     value=""
   />
   <span
@@ -1615,7 +1624,7 @@ exports[`snapshots renders an input with size medium, disabled=true, required=fa
   font-family: Lato;
   margin: 0;
   vertical-align: baseline;
-  color: rgb(133,144,148);
+  color: rgb(61,66,81);
   width: 100%;
 }
 
@@ -1727,6 +1736,7 @@ exports[`snapshots renders an input with size medium, disabled=true, required=fa
     disabled=""
     name="input text"
     placeholder="input text"
+    type="text"
     value=""
   />
   <span
@@ -1792,7 +1802,7 @@ exports[`snapshots renders an input with size medium, disabled=true, required=tr
   font-family: Lato;
   margin: 0;
   vertical-align: baseline;
-  color: rgb(133,144,148);
+  color: rgb(61,66,81);
   width: 100%;
 }
 
@@ -1921,6 +1931,7 @@ exports[`snapshots renders an input with size medium, disabled=true, required=tr
     disabled=""
     name="input text"
     placeholder="input text"
+    type="text"
     value=""
   />
   <span
@@ -1986,7 +1997,7 @@ exports[`snapshots renders an input with size medium, disabled=true, required=un
   font-family: Lato;
   margin: 0;
   vertical-align: baseline;
-  color: rgb(133,144,148);
+  color: rgb(61,66,81);
   width: 100%;
 }
 
@@ -2072,6 +2083,7 @@ exports[`snapshots renders an input with size medium, disabled=true, required=un
     disabled=""
     name="input text"
     placeholder="input text"
+    type="text"
     value=""
   />
   <span
@@ -2168,7 +2180,7 @@ exports[`snapshots renders an input with size small, disabled=false, required=fa
   font-family: Lato;
   margin: 0;
   vertical-align: baseline;
-  color: rgb(133,144,148);
+  color: rgb(61,66,81);
   width: 100%;
 }
 
@@ -2248,6 +2260,7 @@ exports[`snapshots renders an input with size small, disabled=false, required=fa
     class="emotion-5"
     name="input text"
     placeholder="input text"
+    type="text"
     value=""
   />
   <span
@@ -2356,7 +2369,7 @@ exports[`snapshots renders an input with size small, disabled=false, required=tr
   font-family: Lato;
   margin: 0;
   vertical-align: baseline;
-  color: rgb(133,144,148);
+  color: rgb(61,66,81);
   width: 100%;
 }
 
@@ -2441,6 +2454,7 @@ exports[`snapshots renders an input with size small, disabled=false, required=tr
     class="emotion-6"
     name="input text"
     placeholder="input text"
+    type="text"
     value=""
   />
   <span
@@ -2520,7 +2534,7 @@ exports[`snapshots renders an input with size small, disabled=false, required=un
   font-family: Lato;
   margin: 0;
   vertical-align: baseline;
-  color: rgb(133,144,148);
+  color: rgb(61,66,81);
   width: 100%;
 }
 
@@ -2591,6 +2605,7 @@ exports[`snapshots renders an input with size small, disabled=false, required=un
     class="emotion-3"
     name="input text"
     placeholder="input text"
+    type="text"
     value=""
   />
   <span
@@ -2687,7 +2702,7 @@ exports[`snapshots renders an input with size small, disabled=true, required=fal
   font-family: Lato;
   margin: 0;
   vertical-align: baseline;
-  color: rgb(133,144,148);
+  color: rgb(61,66,81);
   width: 100%;
 }
 
@@ -2768,6 +2783,7 @@ exports[`snapshots renders an input with size small, disabled=true, required=fal
     disabled=""
     name="input text"
     placeholder="input text"
+    type="text"
     value=""
   />
   <span
@@ -2876,7 +2892,7 @@ exports[`snapshots renders an input with size small, disabled=true, required=tru
   font-family: Lato;
   margin: 0;
   vertical-align: baseline;
-  color: rgb(133,144,148);
+  color: rgb(61,66,81);
   width: 100%;
 }
 
@@ -2962,6 +2978,7 @@ exports[`snapshots renders an input with size small, disabled=true, required=tru
     disabled=""
     name="input text"
     placeholder="input text"
+    type="text"
     value=""
   />
   <span
@@ -3041,7 +3058,7 @@ exports[`snapshots renders an input with size small, disabled=true, required=und
   font-family: Lato;
   margin: 0;
   vertical-align: baseline;
-  color: rgb(133,144,148);
+  color: rgb(61,66,81);
   width: 100%;
 }
 
@@ -3113,6 +3130,7 @@ exports[`snapshots renders an input with size small, disabled=true, required=und
     disabled=""
     name="input text"
     placeholder="input text"
+    type="text"
     value=""
   />
   <span
