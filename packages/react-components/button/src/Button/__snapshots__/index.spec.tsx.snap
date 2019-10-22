@@ -10475,7 +10475,7 @@ exports[`<Button /> snapshots renders a squared button with a single icon 1`] = 
   background-color: white;
   border-color: #33aacc;
   color: #33aacc;
-  padding: 14px 15px;
+  padding: 14px;
 }
 
 .emotion-0:active {

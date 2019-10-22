@@ -75,12 +75,12 @@ const getSize = (size: 'small' | 'medium' | 'large'): SerializedStyles => {
 
 const getIconSize = (size: 'small' | 'medium' | 'large'): SerializedStyles => {
   if (size === 'large') {
-    return css({ padding: '19px 20px' });
+    return css({ padding: '19px' });
   }
   if (size === 'small') {
-    return css({ padding: '8px 9px' });
+    return css({ padding: '8px' });
   }
-  return css({ padding: '14px 15px' });
+  return css({ padding: '14px' });
 };
 
 const fontSizes = {
