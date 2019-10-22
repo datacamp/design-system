@@ -111,6 +111,18 @@ storiesOf('waffles-form-elements', module)
         }
       }, [focusRef]);
 
+      const [dateValue, setDateValue] = useState();
+      const [dateTimeLocalValue, setDateTimeLocalValue] = useState();
+      const [emailValue, setEmailValue] = useState('user@datacamp.com');
+      const [monthValue, setMonthValue] = useState();
+      const [numberValue, setNumberValue] = useState(567);
+      const [passwordValue, setPasswordValue] = useState('abcde');
+      const [searchValue, setSearchValue] = useState();
+      const [telValue, setTelValue] = useState();
+      const [timeValue, setTimeValue] = useState();
+      const [urlValue, setURLValue] = useState();
+      const [weekValue, setWeekValue] = useState();
+
       return (
         <div>
           <Input
@@ -155,7 +167,7 @@ storiesOf('waffles-form-elements', module)
           <Input
             icon={<AddCircleIcon color="#3ac" />}
             label="Input with an icon"
-            name="story4"
+            name="story5"
             onChange={() => {}}
             placeholder="with error"
             value=""
@@ -165,11 +177,88 @@ storiesOf('waffles-form-elements', module)
             errorMessage="This is a error message"
             icon={<AddCircleIcon color="#3ac" />}
             label="Input with everything"
-            name="story4"
+            name="story6"
             onChange={() => {}}
             placeholder="with error"
             value=""
             required
+          />
+          <Input
+            label="type='date'"
+            name="story7"
+            onChange={setDateValue}
+            type="date"
+            value={dateValue}
+          />
+          <Input
+            label="type='datetime-local'"
+            name="story8"
+            onChange={setDateTimeLocalValue}
+            type="datetime-local"
+            value={dateTimeLocalValue}
+          />
+          <Input
+            label="type='email'"
+            name="story9"
+            onChange={setEmailValue}
+            type="email"
+            value={emailValue}
+          />
+          <Input
+            label="type='month'"
+            name="story10"
+            onChange={setMonthValue}
+            type="month"
+            value={monthValue}
+          />
+          <Input
+            label="type='number'"
+            name="story11"
+            onChange={setNumberValue}
+            type="number"
+            value={numberValue}
+          />
+          <Input
+            label="type='password'"
+            name="story12"
+            onChange={setPasswordValue}
+            type="password"
+            value={passwordValue}
+          />
+          <Input
+            label="type='search'"
+            name="story13"
+            onChange={setSearchValue}
+            type="search"
+            value={searchValue}
+          />
+          <Input
+            label="type='tel'"
+            name="story14"
+            onChange={setTelValue}
+            type="tel"
+            value={telValue}
+          />
+          <Input
+            label="type='time'"
+            name="story15"
+            onChange={setTimeValue}
+            type="time"
+            value={timeValue}
+          />
+          <Input
+            label="type='url'"
+            name="story16"
+            onChange={setURLValue}
+            type="url"
+            value={urlValue}
+          />
+          <Input
+            label="type='week'"
+            name="story17"
+            onChange={setWeekValue}
+            type="week"
+            value={weekValue}
           />
         </div>
       );
