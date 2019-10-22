@@ -49,10 +49,18 @@ interface InputProps {
    */
   label?: string;
   /**
+   * The maximum value of the input.
+   */
+  max?: 'string' | 'number';
+  /**
    * The maximum number of characters permitted in the input.
    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/text#maxlength
    */
   maxLength?: number;
+  /**
+   * The minimum value of the input.
+   */
+  min?: 'string' | 'number';
   /**
    * Used to set the html name attribute. Uniquely indentifies the input within
    * the current form context.
@@ -80,6 +88,26 @@ interface InputProps {
    * Select the size for the input element.
    */
   size?: 'small' | 'medium' | 'large';
+  /**
+   * The step size for a number input.
+   */
+  step?: 'string' | 'number';
+  /**
+   * The type of input to render. This corresponds to a set of html input types.
+   */
+  type?:
+    | 'text'
+    | 'date'
+    | 'datetime-local'
+    | 'email'
+    | 'month'
+    | 'number'
+    | 'password'
+    | 'search'
+    | 'tel'
+    | 'time'
+    | 'url'
+    | 'week';
 
   /**
    * The value of the input. This should be controlled by listening to onChange.
@@ -107,6 +135,10 @@ const Input = forwardRef<HTMLInputElement, InputProps>(
       size = 'medium',
       required = undefined,
       value,
+      type = 'text',
+      min,
+      max,
+      step,
     },
     ref
   ) => {
@@ -156,11 +188,15 @@ const Input = forwardRef<HTMLInputElement, InputProps>(
           css={getInputStyle}
           disabled={disabled}
           id={id}
+          max={max}
           maxLength={maxLength}
+          min={min}
           name={name}
           onBlur={handleBlur}
           onChange={handleChange}
           placeholder={placeholder}
+          step={step}
+          type={type}
           value={value}
           {...parsedDataAttributes}
         />
