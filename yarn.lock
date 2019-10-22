@@ -3172,10 +3172,10 @@
     "@babel/runtime" "^7.5.4"
     "@testing-library/dom" "^5.5.4"
 
-"@testing-library/user-event@7.0.1":
-  version "7.0.1"
-  resolved "https://registry.yarnpkg.com/@testing-library/user-event/-/user-event-7.0.1.tgz#c69bc0c691f8ee83faaaef60d7dd85b07532fa36"
-  integrity sha512-U5KHL2wyTWmKM3JW9eMI1fd/4B8qcJKuu6uKktZuTG17MTJNsbmH0dkiTHg3a1kN1xrkAAel8VVaq5fmEpuV4A==
+"@testing-library/user-event@7.1.2":
+  version "7.1.2"
+  resolved "https://registry.yarnpkg.com/@testing-library/user-event/-/user-event-7.1.2.tgz#3a71bb8a45a1e08b71a54c9efcee9927f3895e80"
+  integrity sha512-lDyCVxxgX5lrgCa75ELCfWcdEDyfisjqoDIM3YsghQ+lyViIac/qT67qabQ/HmoVxyikFKovjKwWdn3b/oKhZA==
 
 "@types/airbnb-prop-types@2.13.1":
   version "2.13.1"
