@@ -149,6 +149,9 @@ workflows:
           pre-build-steps:
             - attach_workspace:
                 at: "."
+          filters:
+            branches:
+              ignore: /dependabot.*/
       - datacamp-deploy/backstage-deploy: # backstage
           name: deploy-storybook
           context: org-global
