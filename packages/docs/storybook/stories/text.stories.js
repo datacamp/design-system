@@ -31,8 +31,10 @@ storiesOf('waffles-text', module)
       <Paragraph>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a enim
         quis nisi sollicitudin tincidunt in nec leo. Quisque mattis pretium
-        nulla, id malesuada nisi viverra consectetur. Donec auctor dapibus nisl
-        sit amet tempor. Integer nec diam sit amet sem sollicitudin consectetur.
+        nulla, id malesuada nisi viverra{' '}
+        <Link href="https://datacamp.com">consectetur</Link>. Donec auctor
+        dapibus nisl sit amet tempor. Integer nec diam sit amet sem sollicitudin
+        consectetur.
       </Paragraph>
       <CodeBlock>{`this is the standard styling
 gapminder %>%
@@ -191,10 +193,11 @@ arrange(desc(gdpPercap))`}</CodeBlock>
         convallis arcu eu neque tincidunt condimentum.
       </Paragraph>
       <Paragraph>
-        This is a paragraph containing a some Text, Strong, Emphasis, Code and
-        Small children. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-        Donec a enim quis nisi sollicitudin tincidunt in nec leo.{' '}
-        <Strong>Quisque mattis</Strong> pretium nulla,{' '}
+        This is a paragraph containing a some Text, Strong, Emphasis, Link, Code
+        and Small children. Lorem ipsum dolor sit amet, consectetur adipiscing
+        elit. Donec a enim quis nisi{' '}
+        <Link href="https://datacamp.com">sollicitudin tincidunt</Link> in nec
+        leo. <Strong>Quisque mattis</Strong> pretium nulla,{' '}
         <Small>id malesuada nisi</Small> viverra consectetur. Donec auctor
         dapibus nisl sit amet tempor. Integer nec <Code>diam sit amet sem</Code>{' '}
         sollicitudin consectetur.{' '}
