@@ -5,6 +5,7 @@ import {
   CodeBlock,
   Emphasis,
   Heading,
+  Link,
   Paragraph,
   Small,
   Strong,
@@ -98,6 +99,22 @@ arrange(desc(gdpPercap))`}</CodeBlock>
       <Text>
         This has <Emphasis>these words</Emphasis> emphasized
       </Text>
+    </>
+  ))
+  .add('Link Component', () => (
+    <>
+      <Link href="https://datacamp.com">This is the default text</Link>
+      <br />
+      <Link
+        css={{ color: color.opaque.primaryDark.value.hex }}
+        href="https://datacamp.com"
+      >
+        This has additional style added using a css prop
+      </Link>
+      <br />
+      <Link className="example-class" href="https://datacamp.com">
+        This has additional style added using a className
+      </Link>
     </>
   ))
   .add('Strong Component', () => (
