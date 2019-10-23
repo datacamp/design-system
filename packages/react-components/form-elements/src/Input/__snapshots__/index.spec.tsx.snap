@@ -37,7 +37,14 @@ exports[`snapshots renders an input with size large, disabled=false, required=fa
   line-height: 16px;
   color: #3d4251;
   display: inline-block;
+  -webkit-flex: 0 1 auto;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
   font-weight: 700;
+  margin-right: 4px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .emotion-6 {
@@ -55,6 +62,9 @@ exports[`snapshots renders an input with size large, disabled=false, required=fa
 }
 
 .emotion-2 {
+  -webkit-flex: none;
+  -ms-flex: none;
+  flex: none;
   white-space: nowrap;
 }
 
@@ -214,7 +224,14 @@ exports[`snapshots renders an input with size large, disabled=false, required=tr
   line-height: 16px;
   color: #3d4251;
   display: inline-block;
+  -webkit-flex: 0 1 auto;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
   font-weight: 700;
+  margin-right: 4px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .emotion-7 {
@@ -232,6 +249,9 @@ exports[`snapshots renders an input with size large, disabled=false, required=tr
 }
 
 .emotion-3 {
+  -webkit-flex: none;
+  -ms-flex: none;
+  flex: none;
   white-space: nowrap;
 }
 
@@ -408,7 +428,14 @@ exports[`snapshots renders an input with size large, disabled=false, required=un
   line-height: 16px;
   color: #3d4251;
   display: inline-block;
+  -webkit-flex: 0 1 auto;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
   font-weight: 700;
+  margin-right: 4px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .emotion-4 {
@@ -559,7 +586,14 @@ exports[`snapshots renders an input with size large, disabled=true, required=fal
   line-height: 16px;
   color: #3d4251;
   display: inline-block;
+  -webkit-flex: 0 1 auto;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
   font-weight: 700;
+  margin-right: 4px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .emotion-6 {
@@ -577,6 +611,9 @@ exports[`snapshots renders an input with size large, disabled=true, required=fal
 }
 
 .emotion-2 {
+  -webkit-flex: none;
+  -ms-flex: none;
+  flex: none;
   white-space: nowrap;
 }
 
@@ -737,7 +774,14 @@ exports[`snapshots renders an input with size large, disabled=true, required=tru
   line-height: 16px;
   color: #3d4251;
   display: inline-block;
+  -webkit-flex: 0 1 auto;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
   font-weight: 700;
+  margin-right: 4px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .emotion-7 {
@@ -755,6 +799,9 @@ exports[`snapshots renders an input with size large, disabled=true, required=tru
 }
 
 .emotion-3 {
+  -webkit-flex: none;
+  -ms-flex: none;
+  flex: none;
   white-space: nowrap;
 }
 
@@ -932,7 +979,14 @@ exports[`snapshots renders an input with size large, disabled=true, required=und
   line-height: 16px;
   color: #3d4251;
   display: inline-block;
+  -webkit-flex: 0 1 auto;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
   font-weight: 700;
+  margin-right: 4px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .emotion-4 {
@@ -1084,7 +1138,14 @@ exports[`snapshots renders an input with size medium, disabled=false, required=f
   line-height: 16px;
   color: #3d4251;
   display: inline-block;
+  -webkit-flex: 0 1 auto;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
   font-weight: 700;
+  margin-right: 4px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .emotion-5 {
@@ -1168,6 +1229,9 @@ exports[`snapshots renders an input with size medium, disabled=false, required=f
 }
 
 .emotion-2 {
+  -webkit-flex: none;
+  -ms-flex: none;
+  flex: none;
   white-space: nowrap;
 }
 
@@ -1261,7 +1325,14 @@ exports[`snapshots renders an input with size medium, disabled=false, required=t
   line-height: 16px;
   color: #3d4251;
   display: inline-block;
+  -webkit-flex: 0 1 auto;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
   font-weight: 700;
+  margin-right: 4px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .emotion-6 {
@@ -1345,6 +1416,9 @@ exports[`snapshots renders an input with size medium, disabled=false, required=t
 }
 
 .emotion-3 {
+  -webkit-flex: none;
+  -ms-flex: none;
+  flex: none;
   white-space: nowrap;
 }
 
@@ -1455,7 +1529,14 @@ exports[`snapshots renders an input with size medium, disabled=false, required=u
   line-height: 16px;
   color: #3d4251;
   display: inline-block;
+  -webkit-flex: 0 1 auto;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
   font-weight: 700;
+  margin-right: 4px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .emotion-3 {
@@ -1606,7 +1687,14 @@ exports[`snapshots renders an input with size medium, disabled=true, required=fa
   line-height: 16px;
   color: #3d4251;
   display: inline-block;
+  -webkit-flex: 0 1 auto;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
   font-weight: 700;
+  margin-right: 4px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .emotion-5 {
@@ -1690,6 +1778,9 @@ exports[`snapshots renders an input with size medium, disabled=true, required=fa
 }
 
 .emotion-2 {
+  -webkit-flex: none;
+  -ms-flex: none;
+  flex: none;
   white-space: nowrap;
 }
 
@@ -1784,7 +1875,14 @@ exports[`snapshots renders an input with size medium, disabled=true, required=tr
   line-height: 16px;
   color: #3d4251;
   display: inline-block;
+  -webkit-flex: 0 1 auto;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
   font-weight: 700;
+  margin-right: 4px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .emotion-6 {
@@ -1868,6 +1966,9 @@ exports[`snapshots renders an input with size medium, disabled=true, required=tr
 }
 
 .emotion-3 {
+  -webkit-flex: none;
+  -ms-flex: none;
+  flex: none;
   white-space: nowrap;
 }
 
@@ -1979,7 +2080,14 @@ exports[`snapshots renders an input with size medium, disabled=true, required=un
   line-height: 16px;
   color: #3d4251;
   display: inline-block;
+  -webkit-flex: 0 1 auto;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
   font-weight: 700;
+  margin-right: 4px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .emotion-3 {
@@ -2131,7 +2239,14 @@ exports[`snapshots renders an input with size small, disabled=false, required=fa
   line-height: 16px;
   color: #3d4251;
   display: inline-block;
+  -webkit-flex: 0 1 auto;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
   font-weight: 700;
+  margin-right: 4px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .emotion-6 {
@@ -2149,6 +2264,9 @@ exports[`snapshots renders an input with size small, disabled=false, required=fa
 }
 
 .emotion-2 {
+  -webkit-flex: none;
+  -ms-flex: none;
+  flex: none;
   white-space: nowrap;
 }
 
@@ -2308,7 +2426,14 @@ exports[`snapshots renders an input with size small, disabled=false, required=tr
   line-height: 16px;
   color: #3d4251;
   display: inline-block;
+  -webkit-flex: 0 1 auto;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
   font-weight: 700;
+  margin-right: 4px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .emotion-7 {
@@ -2326,6 +2451,9 @@ exports[`snapshots renders an input with size small, disabled=false, required=tr
 }
 
 .emotion-3 {
+  -webkit-flex: none;
+  -ms-flex: none;
+  flex: none;
   white-space: nowrap;
 }
 
@@ -2502,7 +2630,14 @@ exports[`snapshots renders an input with size small, disabled=false, required=un
   line-height: 16px;
   color: #3d4251;
   display: inline-block;
+  -webkit-flex: 0 1 auto;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
   font-weight: 700;
+  margin-right: 4px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .emotion-4 {
@@ -2653,7 +2788,14 @@ exports[`snapshots renders an input with size small, disabled=true, required=fal
   line-height: 16px;
   color: #3d4251;
   display: inline-block;
+  -webkit-flex: 0 1 auto;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
   font-weight: 700;
+  margin-right: 4px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .emotion-6 {
@@ -2671,6 +2813,9 @@ exports[`snapshots renders an input with size small, disabled=true, required=fal
 }
 
 .emotion-2 {
+  -webkit-flex: none;
+  -ms-flex: none;
+  flex: none;
   white-space: nowrap;
 }
 
@@ -2831,7 +2976,14 @@ exports[`snapshots renders an input with size small, disabled=true, required=tru
   line-height: 16px;
   color: #3d4251;
   display: inline-block;
+  -webkit-flex: 0 1 auto;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
   font-weight: 700;
+  margin-right: 4px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .emotion-7 {
@@ -2849,6 +3001,9 @@ exports[`snapshots renders an input with size small, disabled=true, required=tru
 }
 
 .emotion-3 {
+  -webkit-flex: none;
+  -ms-flex: none;
+  flex: none;
   white-space: nowrap;
 }
 
@@ -3026,7 +3181,14 @@ exports[`snapshots renders an input with size small, disabled=true, required=und
   line-height: 16px;
   color: #3d4251;
   display: inline-block;
+  -webkit-flex: 0 1 auto;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
   font-weight: 700;
+  margin-right: 4px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .emotion-4 {

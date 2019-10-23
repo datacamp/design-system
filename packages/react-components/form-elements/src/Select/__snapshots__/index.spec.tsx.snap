@@ -41,7 +41,14 @@ exports[`with label snapshots renders a select element with size large, disabled
   line-height: 16px;
   color: #3d4251;
   display: inline-block;
+  -webkit-flex: 0 1 auto;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
   font-weight: 700;
+  margin-right: 4px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .emotion-6 {
@@ -66,6 +73,9 @@ exports[`with label snapshots renders a select element with size large, disabled
 }
 
 .emotion-2 {
+  -webkit-flex: none;
+  -ms-flex: none;
+  flex: none;
   white-space: nowrap;
 }
 
@@ -243,7 +253,14 @@ exports[`with label snapshots renders a select element with size large, disabled
   line-height: 16px;
   color: #3d4251;
   display: inline-block;
+  -webkit-flex: 0 1 auto;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
   font-weight: 700;
+  margin-right: 4px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .emotion-7 {
@@ -268,6 +285,9 @@ exports[`with label snapshots renders a select element with size large, disabled
 }
 
 .emotion-3 {
+  -webkit-flex: none;
+  -ms-flex: none;
+  flex: none;
   white-space: nowrap;
 }
 
@@ -462,7 +482,14 @@ exports[`with label snapshots renders a select element with size large, disabled
   line-height: 16px;
   color: #3d4251;
   display: inline-block;
+  -webkit-flex: 0 1 auto;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
   font-weight: 700;
+  margin-right: 4px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .emotion-4 {
@@ -638,7 +665,14 @@ exports[`with label snapshots renders a select element with size large, disabled
   line-height: 16px;
   color: #3d4251;
   display: inline-block;
+  -webkit-flex: 0 1 auto;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
   font-weight: 700;
+  margin-right: 4px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .emotion-6 {
@@ -663,6 +697,9 @@ exports[`with label snapshots renders a select element with size large, disabled
 }
 
 .emotion-2 {
+  -webkit-flex: none;
+  -ms-flex: none;
+  flex: none;
   white-space: nowrap;
 }
 
@@ -841,7 +878,14 @@ exports[`with label snapshots renders a select element with size large, disabled
   line-height: 16px;
   color: #3d4251;
   display: inline-block;
+  -webkit-flex: 0 1 auto;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
   font-weight: 700;
+  margin-right: 4px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .emotion-7 {
@@ -866,6 +910,9 @@ exports[`with label snapshots renders a select element with size large, disabled
 }
 
 .emotion-3 {
+  -webkit-flex: none;
+  -ms-flex: none;
+  flex: none;
   white-space: nowrap;
 }
 
@@ -1061,7 +1108,14 @@ exports[`with label snapshots renders a select element with size large, disabled
   line-height: 16px;
   color: #3d4251;
   display: inline-block;
+  -webkit-flex: 0 1 auto;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
   font-weight: 700;
+  margin-right: 4px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .emotion-4 {
@@ -1245,7 +1299,14 @@ exports[`with label snapshots renders a select element with size medium, disable
   line-height: 16px;
   color: #3d4251;
   display: inline-block;
+  -webkit-flex: 0 1 auto;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
   font-weight: 700;
+  margin-right: 4px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .emotion-5 {
@@ -1307,6 +1368,9 @@ exports[`with label snapshots renders a select element with size medium, disable
 }
 
 .emotion-2 {
+  -webkit-flex: none;
+  -ms-flex: none;
+  flex: none;
   white-space: nowrap;
 }
 
@@ -1447,7 +1511,14 @@ exports[`with label snapshots renders a select element with size medium, disable
   line-height: 16px;
   color: #3d4251;
   display: inline-block;
+  -webkit-flex: 0 1 auto;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
   font-weight: 700;
+  margin-right: 4px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .emotion-6 {
@@ -1509,6 +1580,9 @@ exports[`with label snapshots renders a select element with size medium, disable
 }
 
 .emotion-3 {
+  -webkit-flex: none;
+  -ms-flex: none;
+  flex: none;
   white-space: nowrap;
 }
 
@@ -1666,7 +1740,14 @@ exports[`with label snapshots renders a select element with size medium, disable
   line-height: 16px;
   color: #3d4251;
   display: inline-block;
+  -webkit-flex: 0 1 auto;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
   font-weight: 700;
+  margin-right: 4px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .emotion-3 {
@@ -1842,7 +1923,14 @@ exports[`with label snapshots renders a select element with size medium, disable
   line-height: 16px;
   color: #3d4251;
   display: inline-block;
+  -webkit-flex: 0 1 auto;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
   font-weight: 700;
+  margin-right: 4px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .emotion-8 {
@@ -1860,6 +1948,9 @@ exports[`with label snapshots renders a select element with size medium, disable
 }
 
 .emotion-2 {
+  -webkit-flex: none;
+  -ms-flex: none;
+  flex: none;
   white-space: nowrap;
 }
 
@@ -2045,7 +2136,14 @@ exports[`with label snapshots renders a select element with size medium, disable
   line-height: 16px;
   color: #3d4251;
   display: inline-block;
+  -webkit-flex: 0 1 auto;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
   font-weight: 700;
+  margin-right: 4px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .emotion-9 {
@@ -2063,6 +2161,9 @@ exports[`with label snapshots renders a select element with size medium, disable
 }
 
 .emotion-3 {
+  -webkit-flex: none;
+  -ms-flex: none;
+  flex: none;
   white-space: nowrap;
 }
 
@@ -2265,7 +2366,14 @@ exports[`with label snapshots renders a select element with size medium, disable
   line-height: 16px;
   color: #3d4251;
   display: inline-block;
+  -webkit-flex: 0 1 auto;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
   font-weight: 700;
+  margin-right: 4px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .emotion-6 {
@@ -2435,7 +2543,14 @@ exports[`with label snapshots renders a select element with size small, disabled
   line-height: 16px;
   color: #3d4251;
   display: inline-block;
+  -webkit-flex: 0 1 auto;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
   font-weight: 700;
+  margin-right: 4px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .emotion-6 {
@@ -2460,6 +2575,9 @@ exports[`with label snapshots renders a select element with size small, disabled
 }
 
 .emotion-2 {
+  -webkit-flex: none;
+  -ms-flex: none;
+  flex: none;
   white-space: nowrap;
 }
 
@@ -2637,7 +2755,14 @@ exports[`with label snapshots renders a select element with size small, disabled
   line-height: 16px;
   color: #3d4251;
   display: inline-block;
+  -webkit-flex: 0 1 auto;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
   font-weight: 700;
+  margin-right: 4px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .emotion-7 {
@@ -2662,6 +2787,9 @@ exports[`with label snapshots renders a select element with size small, disabled
 }
 
 .emotion-3 {
+  -webkit-flex: none;
+  -ms-flex: none;
+  flex: none;
   white-space: nowrap;
 }
 
@@ -2856,7 +2984,14 @@ exports[`with label snapshots renders a select element with size small, disabled
   line-height: 16px;
   color: #3d4251;
   display: inline-block;
+  -webkit-flex: 0 1 auto;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
   font-weight: 700;
+  margin-right: 4px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .emotion-4 {
@@ -3032,7 +3167,14 @@ exports[`with label snapshots renders a select element with size small, disabled
   line-height: 16px;
   color: #3d4251;
   display: inline-block;
+  -webkit-flex: 0 1 auto;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
   font-weight: 700;
+  margin-right: 4px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .emotion-6 {
@@ -3057,6 +3199,9 @@ exports[`with label snapshots renders a select element with size small, disabled
 }
 
 .emotion-2 {
+  -webkit-flex: none;
+  -ms-flex: none;
+  flex: none;
   white-space: nowrap;
 }
 
@@ -3235,7 +3380,14 @@ exports[`with label snapshots renders a select element with size small, disabled
   line-height: 16px;
   color: #3d4251;
   display: inline-block;
+  -webkit-flex: 0 1 auto;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
   font-weight: 700;
+  margin-right: 4px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .emotion-7 {
@@ -3260,6 +3412,9 @@ exports[`with label snapshots renders a select element with size small, disabled
 }
 
 .emotion-3 {
+  -webkit-flex: none;
+  -ms-flex: none;
+  flex: none;
   white-space: nowrap;
 }
 
@@ -3455,7 +3610,14 @@ exports[`with label snapshots renders a select element with size small, disabled
   line-height: 16px;
   color: #3d4251;
   display: inline-block;
+  -webkit-flex: 0 1 auto;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
   font-weight: 700;
+  margin-right: 4px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .emotion-4 {
