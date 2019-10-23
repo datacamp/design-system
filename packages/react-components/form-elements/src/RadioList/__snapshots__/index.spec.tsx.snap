@@ -37,7 +37,14 @@ exports[`<RadioList> snapshots renders a radio list 1`] = `
   line-height: 16px;
   color: #3d4251;
   display: inline-block;
+  -webkit-flex: 0 1 auto;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
   font-weight: 700;
+  margin-right: 4px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .emotion-7 {

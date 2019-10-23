@@ -1,4 +1,4 @@
-import { Text } from '@datacamp/waffles-text';
+import { Paragraph, Text } from '@datacamp/waffles-text';
 import tokens from '@datacamp/waffles-tokens/lib/future-tokens.json';
 import { ssrSafeFirstChildSelector } from '@datacamp/waffles-utils';
 import { css } from '@emotion/core';
@@ -25,7 +25,12 @@ const labelStyle = css({
 const textStyle = css({
   color: tokens.color.opaque.greyDark.value.hex,
   display: 'inline-block',
+  flex: '0 1 auto',
   fontWeight: tokens.fontWeight.bold.value,
+  marginRight: tokens.size.space[4].value,
+  overflow: 'hidden',
+  textOverflow: 'ellipsis',
+  whiteSpace: 'nowrap',
 });
 
 const errorMessageStyle = css({
@@ -64,7 +69,7 @@ const Label = ({
           >
             <Text css={textStyle}>{label}</Text>
             {required !== undefined && (
-              <div css={{ whiteSpace: 'nowrap' }}>
+              <div css={{ flex: 'none', whiteSpace: 'nowrap' }}>
                 {required ? (
                   <>
                     <Text
@@ -84,15 +89,13 @@ const Label = ({
             )}
           </span>
           {description && (
-            <Text
+            <Paragraph
               css={{
-                color: tokens.color.opaque.grey.value.hex,
-                display: 'inline-block',
                 marginTop: tokens.size.space[8].value,
               }}
             >
               {description}
-            </Text>
+            </Paragraph>
           )}
         </div>
         {children}
