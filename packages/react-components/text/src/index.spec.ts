@@ -7,6 +7,7 @@ import Code from './components/Code';
 import CodeBlock from './components/CodeBlock';
 import Emphasis from './components/Emphasis';
 import Heading from './components/Heading';
+import Link from './components/Link';
 import Paragraph from './components/Paragraph';
 import Small from './components/Small';
 import Strong from './components/Strong';
@@ -19,6 +20,7 @@ describe('index', () => {
       CodeBlock,
       Emphasis,
       Heading,
+      Link,
       Paragraph,
       Small,
       Strong,

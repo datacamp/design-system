@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Text /> renders with a string 1`] = `
+.emotion-0 {
+  color: rgb(77,83,86);
+  font-family: sans-serif;
+  font-family: Lato;
+  font-style: normal;
+  color: #33aacc;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+<a
+  class="example-class emotion-0"
+  data-cy="othertest"
+  data-example="testdata"
+  href="https://datacamp.com"
+>
+  Some example text.
+</a>
+`;

@@ -11,6 +11,7 @@ export { default as Heading } from './components/Heading';
 export { default as Emphasis } from './components/Emphasis';
 export { default as CodeBlock } from './components/CodeBlock';
 export { default as Code } from './components/Code';
+export { default as Link } from './components/Link';
 
 export const alternateComponents = {
   AlternateCode,
