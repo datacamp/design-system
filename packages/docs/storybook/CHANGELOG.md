@@ -3,6 +3,20 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.27.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-storybook@1.26.0...@datacamp/waffles-storybook@1.27.0) (2019-10-23)
+
+
+### Features
+
+* add stories for Input types ([884b75b](https://github.com/datacamp/design-system/commit/884b75b))
+* add stories for Link component ([893d388](https://github.com/datacamp/design-system/commit/893d388))
+* add stories for Link in Paragraph ([53acf55](https://github.com/datacamp/design-system/commit/53acf55))
+* branch deploy storybook ([f09af38](https://github.com/datacamp/design-system/commit/f09af38))
+
+
+
+
+
 # [1.26.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-storybook@1.25.0...@datacamp/waffles-storybook@1.26.0) (2019-10-17)
 
 

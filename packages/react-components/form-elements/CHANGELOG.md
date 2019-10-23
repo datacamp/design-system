@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.5.0](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/form-elements/compare/@datacamp/waffles-form-elements@2.4.0...@datacamp/waffles-form-elements@2.5.0) (2019-10-23)
+
+
+### Bug Fixes
+
+* label and description overflows ([bd15651](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/form-elements/commit/bd15651))
+* value colour different to placeholder colour ([e1738fc](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/form-elements/commit/e1738fc))
+
+
+### Features
+
+* accept type on Input ([e4c06b7](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/form-elements/commit/e4c06b7))
+
+
+
+
+
 # [2.4.0](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/form-elements/compare/@datacamp/waffles-form-elements@2.3.0...@datacamp/waffles-form-elements@2.4.0) (2019-10-17)
 
 

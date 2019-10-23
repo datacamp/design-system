@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.1.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-text@1.0.4...@datacamp/waffles-text@1.1.0) (2019-10-23)
+
+
+### Features
+
+* add Link component ([baded70](https://github.com/datacamp/design-system/commit/baded70))
+* allow Link as a child of Paragraph ([fac5b9d](https://github.com/datacamp/design-system/commit/fac5b9d))
+
+
+
+
+
 ## [1.0.4](https://github.com/datacamp/design-system/compare/@datacamp/waffles-text@1.0.3...@datacamp/waffles-text@1.0.4) (2019-10-17)
 
 **Note:** Version bump only for package @datacamp/waffles-text

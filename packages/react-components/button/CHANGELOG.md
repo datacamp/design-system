@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [4.1.3](https://github.com/datacamp/design-system/compare/@datacamp/waffles-button@4.1.2...@datacamp/waffles-button@4.1.3) (2019-10-23)
+
+
+### Bug Fixes
+
+* make icon button square ([9706029](https://github.com/datacamp/design-system/commit/9706029))
+
+
+
+
+
 ## [4.1.2](https://github.com/datacamp/design-system/compare/@datacamp/waffles-button@4.1.1...@datacamp/waffles-button@4.1.2) (2019-10-17)
 
 **Note:** Version bump only for package @datacamp/waffles-button

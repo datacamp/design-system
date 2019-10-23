@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.7.0](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/icons/compare/@datacamp/waffles-icons@1.6.4...@datacamp/waffles-icons@1.7.0) (2019-10-23)
+
+
+### Features
+
+* added exit icon ([b592c64](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/icons/commit/b592c64))
+
+
+
+
+
 ## [1.6.4](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/icons/compare/@datacamp/waffles-icons@1.6.3...@datacamp/waffles-icons@1.6.4) (2019-10-17)
 
 **Note:** Version bump only for package @datacamp/waffles-icons
