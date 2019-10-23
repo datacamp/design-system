@@ -191,11 +191,12 @@ describe('<Input />', () => {
           name={testName}
           onChange={() => {}}
           placeholder={placeholder}
+          size="small"
           value={testValue}
         />
       );
-      expect(container.firstChild).toHaveStyle(`height: 36`);
-      expect(container.firstChild).toHaveStyle(`fontSize: 16`);
+      expect(container.firstChild).toHaveStyle(`height: 36px;`);
+      expect(container.firstChild).toHaveStyle(`font-size: 16px;`);
     });
 
     it('renders a medium text input if size= "medium" or undefined', () => {
@@ -208,8 +209,8 @@ describe('<Input />', () => {
           value={testValue}
         />
       );
-      expect(container.firstChild).toHaveStyle(`height: 48`);
-      expect(container.firstChild).toHaveStyle(`fontSize: 16`);
+      expect(container.firstChild).toHaveStyle(`height: 48px;`);
+      expect(container.firstChild).toHaveStyle(`font-size: 16px;`);
     });
 
     it('renders a medium text input if size= "large" ', () => {
@@ -219,11 +220,12 @@ describe('<Input />', () => {
           name={testName}
           onChange={() => {}}
           placeholder={placeholder}
+          size="large"
           value={testValue}
         />
       );
-      expect(container.firstChild).toHaveStyle(`height: 64`);
-      expect(container.firstChild).toHaveStyle(`fontSize: 20`);
+      expect(container.firstChild).toHaveStyle(`height: 64px;`);
+      expect(container.firstChild).toHaveStyle(`font-size: 20px;`);
     });
 
     it('adds an error message under the input field if error is passed as a prop', () => {
@@ -243,7 +245,7 @@ describe('<Input />', () => {
       expect(getByText(testError)).toHaveStyle(
         `color: ${tokens.color.opaque.red.value.hex}`
       );
-      expect(getByText(testError)).toHaveStyle(`font-size: '14px`);
+      expect(getByText(testError)).toHaveStyle(`font-size: 14px`);
     });
 
     it('renders the indication "required" above the input field if required is passed as a prop ', () => {
@@ -260,9 +262,9 @@ describe('<Input />', () => {
       );
       expect(getByText('Required')).toBeInTheDocument();
       expect(getByText('Required')).toHaveStyle(
-        `color: ${tokens.color.opaque.greyOslo.value.hex}`
+        `color: ${tokens.color.opaque.greyOslo.value.hex};`
       );
-      expect(getByText('Required')).toHaveStyle(`font-size: '14px`);
+      expect(getByText('Required')).toHaveStyle(`font-size: 14px;`);
     });
 
     it('renders the indication "Optional" above the input field if required={false} is passed as a prop ', () => {
@@ -279,9 +281,9 @@ describe('<Input />', () => {
       );
       expect(getByText('Optional')).toBeInTheDocument();
       expect(getByText('Optional')).toHaveStyle(
-        `color: ${tokens.color.opaque.greyOslo.value.hex}`
+        `color: ${tokens.color.opaque.greyOslo.value.hex};`
       );
-      expect(getByText('Optional')).toHaveStyle(`font-size: '14px`);
+      expect(getByText('Optional')).toHaveStyle(`font-size: 14px;`);
     });
   });
 });

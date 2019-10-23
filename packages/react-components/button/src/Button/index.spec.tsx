@@ -551,7 +551,8 @@ describe('<Button />', () => {
       );
 
       const buttonElement = container.firstChild;
-      expect(buttonElement).toHaveStyle(`padding-top: 0, padding-bottom: 0`);
+      expect(buttonElement).toHaveStyle(`padding-top: 0;`);
+      expect(buttonElement).toHaveStyle(`padding-bottom: 0;`);
     });
 
     it('the text has a margin on the right if it is the first child', async () => {
@@ -562,7 +563,7 @@ describe('<Button />', () => {
         </Button>
       );
 
-      expect(getByText('TestText')).toHaveStyle(`marginRight: 10px`);
+      expect(getByText('TestText')).toHaveStyle(`margin-right: 8px;`);
     });
 
     it('the text has a margin on the left if it is not the first child', async () => {
@@ -573,7 +574,7 @@ describe('<Button />', () => {
         </Button>
       );
 
-      expect(getByText('TestText')).toHaveStyle(`marginLeft: 10px`);
+      expect(getByText('TestText')).toHaveStyle(`margin-left: 8px;`);
     });
   });
 

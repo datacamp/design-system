@@ -278,7 +278,7 @@ describe('<Dialog />', () => {
       getRenderOptions()
     );
 
-    expect(container.firstChild).toHaveStyle(`justifyContent: space-between`);
+    expect(container.firstChild).toHaveStyle(`justify-content: space-between`);
     expect(container.firstChild).toHaveStyle(
       `paddingLeft: ${tokens.size.space[16].value}`
     );

@@ -30,14 +30,14 @@ describe('ButtonGroup', () => {
 
     expect(
       (getByText('Button 2') as HTMLElement).closest('button')
-    ).toHaveStyle(`margin-left: ${tokens.size.space[16].value};`);
+    ).toHaveStyle(`margin-left: ${tokens.size.space[16].value}px;`);
 
     expect(
       (getByText('Button 3') as HTMLElement).closest('button')
-    ).toHaveStyle(`margin-left: ${tokens.size.space[16].value};`);
+    ).toHaveStyle(`margin-left: ${tokens.size.space[16].value}px;`);
 
     expect(container.querySelector(`.compact`) as HTMLElement).toHaveStyle(
-      `margin-left: ${tokens.size.space[16].value};`
+      `margin-left: ${tokens.size.space[16].value}px;`
     );
     expect(container.firstChild).toMatchSnapshot();
   });

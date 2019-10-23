@@ -160,11 +160,11 @@ describe('<Select>', () => {
     );
     const selectElement = getByRole('listbox') as HTMLElement;
     expect(selectElement).toHaveStyle(
-      ` height: ${tokens.size.space[64].value}`
+      ` height: ${tokens.size.space[64].value}px;`
     );
-    expect(selectElement).toHaveStyle('fontSize: 20');
+    expect(selectElement).toHaveStyle('font-size: 20px;');
     expect(selectElement).toHaveStyle(
-      `paddingRight: ${tokens.size.space[64].value}px`
+      `padding-right: ${tokens.size.space[64].value}px;`
     );
   });
 
@@ -182,11 +182,11 @@ describe('<Select>', () => {
     );
     const selectElement = getByRole('listbox') as HTMLElement;
     expect(selectElement).toHaveStyle(
-      ` height: ${tokens.size.space[36].value}`
+      ` height: ${tokens.size.space[36].value}px;`
     );
-    expect(selectElement).toHaveStyle('fontSize: 16');
+    expect(selectElement).toHaveStyle('font-size: 16px;');
     expect(selectElement).toHaveStyle(
-      `paddingRight: ${tokens.size.space[36].value}px`
+      `padding-right: ${tokens.size.space[36].value}px;`
     );
   });
 
@@ -204,11 +204,11 @@ describe('<Select>', () => {
     );
     const selectElement = getByRole('listbox') as HTMLElement;
     expect(selectElement).toHaveStyle(
-      ` height: ${tokens.size.space[48].value}`
+      ` height: ${tokens.size.space[48].value}px;`
     );
-    expect(selectElement).toHaveStyle('fontSize: 16');
+    expect(selectElement).toHaveStyle('font-size: 16px;');
     expect(selectElement).toHaveStyle(
-      `paddingRight: ${tokens.size.space[48].value}px`
+      `padding-right: ${tokens.size.space[48].value}px`
     );
   });
 });
@@ -275,9 +275,9 @@ describe('with label', () => {
     );
     expect(getByText(testError)).toBeInTheDocument();
     expect(getByText(testError)).toHaveStyle(
-      `color: ${tokens.color.opaque.red.value.hex}`
+      `color: ${tokens.color.opaque.red.value.hex};`
     );
-    expect(getByText(testError)).toHaveStyle(`font-size: '14px`);
+    expect(getByText(testError)).toHaveStyle(`font-size: 14px;`);
   });
 
   it('renders the indication "Required" above the input field if required is passed as a prop ', () => {
@@ -297,9 +297,9 @@ describe('with label', () => {
     );
     expect(getByText('Required')).toBeInTheDocument();
     expect(getByText('Required')).toHaveStyle(
-      `color: ${tokens.color.opaque.greyOslo.value.hex}`
+      `color: ${tokens.color.opaque.greyOslo.value.hex};`
     );
-    expect(getByText('Required')).toHaveStyle(`font-size: '14px`);
+    expect(getByText('Required')).toHaveStyle(`font-size: 14px;`);
   });
 
   it('renders the indication "Optional" above the input field if required={false} is passed as a prop ', () => {
@@ -319,9 +319,9 @@ describe('with label', () => {
     );
     expect(getByText('Optional')).toBeInTheDocument();
     expect(getByText('Optional')).toHaveStyle(
-      `color: ${tokens.color.opaque.greyOslo.value.hex}`
+      `color: ${tokens.color.opaque.greyOslo.value.hex};`
     );
-    expect(getByText('Optional')).toHaveStyle(`font-size: '14px`);
+    expect(getByText('Optional')).toHaveStyle(`font-size: 14px;`);
   });
 
   describe('snapshots', () => {
