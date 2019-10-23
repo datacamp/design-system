@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<Paragraph /> renders with Strong, Small, Text, and Emphasis children 1`] = `
-.emotion-4 {
+exports[`<Paragraph /> renders with Strong, Small, Text, Link and Emphasis children 1`] = `
+.emotion-5 {
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;
@@ -13,8 +13,8 @@ exports[`<Paragraph /> renders with Strong, Small, Text, and Emphasis children 1
   margin-top: 8px;
 }
 
-.emotion-4:first-child:not(style),
-.emotion-4 style:first-child + * {
+.emotion-5:first-child:not(style),
+.emotion-5 style:first-child + * {
   margin-top: 0;
 }
 
@@ -56,8 +56,22 @@ exports[`<Paragraph /> renders with Strong, Small, Text, and Emphasis children 1
   line-height: 16px;
 }
 
+.emotion-4 {
+  color: rgb(77,83,86);
+  font-family: sans-serif;
+  font-family: Lato;
+  font-style: normal;
+  color: #33aacc;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
 <p
-  class="example-class emotion-4"
+  class="example-class emotion-5"
   data-cy="othertest"
   data-example="testdata"
 >
@@ -87,6 +101,14 @@ exports[`<Paragraph /> renders with Strong, Small, Text, and Emphasis children 1
   >
     emphasis text
   </em>
+  . It also contains
+   
+  <a
+    class="emotion-4"
+    href="https://datacamp.com"
+  >
+    a link
+  </a>
   .
 </p>
 `;

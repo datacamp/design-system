@@ -4,6 +4,7 @@ import axeRender from '@datacamp/waffles-axe-render';
 import React from 'react';
 
 import Emphasis from './Emphasis';
+import Link from './Link';
 import Paragraph from './Paragraph';
 import Small from './Small';
 import Strong from './Strong';
@@ -23,12 +24,13 @@ describe('<Paragraph />', () => {
     expect(container.firstChild).toMatchSnapshot();
   });
 
-  it('renders with Strong, Small, Text, and Emphasis children', async () => {
+  it('renders with Strong, Small, Text, Link and Emphasis children', async () => {
     const { container } = await axeRender(
       <Paragraph className={testClassName} dataAttributes={testDataAttributes}>
         Some example text <Strong>with strong</Strong> included, and also some{' '}
         <Text>custom text</Text>. It has some <Small>small text</Small> and{' '}
-        <Emphasis>emphasis text</Emphasis>.
+        <Emphasis>emphasis text</Emphasis>. It also contains{' '}
+        <Link href="https://datacamp.com">a link</Link>.
       </Paragraph>
     );
     expect(container.firstChild).toMatchSnapshot();

@@ -12,6 +12,7 @@ import baseStyle from '../baseStyle';
 import validateChildrenProp from '../validateChildrenProp';
 import Code from './Code';
 import Emphasis from './Emphasis';
+import Link from './Link';
 import Small from './Small';
 import Strong from './Strong';
 import Text from './Text';
@@ -40,6 +41,7 @@ const Paragraph: React.FC<ParagraphProps> = props => {
     Small,
     Emphasis,
     Code,
+    Link,
     AlternateCode,
     PlainString,
     'br',
