@@ -139,6 +139,14 @@ Unless space will not allow you to spell it out fully, always use “administrat
 ### B2C, B2B
 The terms B2C and B2B should only be used internally.
 
+### Admin
+Always use “admin” instead of “administrator” when referring to administrators of business subscriptions.
+
+When describing different levels of access for admins, do not use the terms “billable” or “non-billable” externally; these designations should only ever be used internally.
+
+To describe admins who only have access to the dashboard, and not DataCamp learning content, you can use the terms “dashboard-only admin” or “admin-only access.”
+
+
 ### Coding languages
 Follow the style of the original name of the language. Correct style of DataCamp-supported languages are below:
 * Git
@@ -148,6 +156,8 @@ Follow the style of the original name of the language. Correct style of DataCamp
 * Apache Spark
 * spreadsheets (only capitalize at the beginning of a sentence, or in a title/course name)
 * SQL
+	* PostgreSQL
+* Scala
 
 ### Coding packages and libraries
 Follow the style of the original name of the package, including original capitalization style. Even at the beginning of a sentence, packages should not be capitalized unless the package name is capitalized. Correct style of a selection of packages are below:
@@ -159,7 +169,9 @@ Follow the style of the original name of the package, including original capital
 * ggmap
 * ggplot2
 * ggvis
+* H2O
 * highcharter
+* Keras
 * Matplotlib
 * NumPy
 * pandas
@@ -225,6 +237,14 @@ Always use the word “instructor” (not “teacher”) in copy that refers to 
 * Community author: Any individual who creates non-premium content that is not featured on datacamp.com. Examples of this type of content include: tutorials; courses created for classroom settings or corporate training using the Teach App, but that are not on datacamp.com or the DataCamp Community. Should not be used in marketing materials.
 * Author: Sometimes used generically to refer to any individual who has created any kind of content using DataCamp. This more generic term may be helpful when we are referring to something that affects all authors, such as announcing an update to the Teach Editor. Should not be used in marketing materials.
 
+### Joins
+Never use a hyphen for the following: self joins, semi joins, anti joins, cross joins, inner joins, outer joins.
+* Incorrect: self-join
+
+### Licenses
+Always use the term “licenses” in reference to licenses purchased for DataCamp for Business members. Never use the term “seats” in this context.
+
+
 ### Spreadsheets
 Capitalize when used in a title or course name, but do not capitalize when used in a sentence. The singular or plural form can be used; the choice should be determined based on readability.
 * Ex: Python for Spreadsheet Users
@@ -241,6 +261,9 @@ The terms Teach, Teach App, and Teach Editor should only be used internally and 
 	* Can also be referred to as “the Teach dashboard.”
 * Teach Editor: Refers to the content editor.
 	* Can also be referred to as the “content editor.” Should not be referred to as the “course editor,” which excludes projects, practice and tutorials; and should not be referred to as “the editor,” which is too general.
+
+### Tidyverse
+When talking about the package, never capitalize it. If you're talking about it more generally, capitalize only at the start of sentences.
 
 ### Users
 Users should be referred to as learners. In the context of enterprise customers, learners may be referred to as employees or team members in sales and marketing materials.
