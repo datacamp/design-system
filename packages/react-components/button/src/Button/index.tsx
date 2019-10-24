@@ -167,8 +167,10 @@ const Button: React.FC<ButtonProps & { innerRef?: React.Ref<any> }> = props => {
       );
     }
     return React.cloneElement(child, {
+      'aria-hidden': true, // hide icon from screen reader so only ariaLabel or button text is read.
       color: loading ? 'transparent' : getColor,
       size: size === 'large' ? 24 : 18,
+      title: '', // remove tooltip from icon within button
     });
   };
 

@@ -308,14 +308,14 @@ describe('<Button />', () => {
 
   describe('Single icon', () => {
     it('renders a single icon as a child', async () => {
-      const { container, getByTitle } = await axeRender(
+      const { container } = await axeRender(
         <Button ariaLabel="add" onClick={someFunction}>
           <AddCircleIcon />
         </Button>
       );
 
       const buttonElement = container.firstChild;
-      const iconElement = getByTitle('Add') as HTMLElement;
+      const iconElement = container.querySelector('svg');
       expect(buttonElement).toContainElement(iconElement);
     });
 
@@ -527,7 +527,7 @@ describe('<Button />', () => {
 
   describe('Icon and text', () => {
     it('renders an icon and a string as children', async () => {
-      const { container, getByText, getByTitle } = await axeRender(
+      const { container, getByText } = await axeRender(
         <Button onClick={someFunction}>
           TestText
           <AddCircleIcon />
@@ -535,7 +535,7 @@ describe('<Button />', () => {
       );
 
       const buttonElement = container.firstChild;
-      const iconElement = getByTitle('Add') as HTMLElement;
+      const iconElement = container.querySelector('svg');
       expect(buttonElement).toContainElement(iconElement);
       expect(buttonElement).toContainElement(getByText(
         'TestText'
