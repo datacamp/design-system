@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.27.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-catalog-doc-site@1.26.1...@datacamp/waffles-catalog-doc-site@1.27.0) (2019-10-25)
+
+
+### Features
+
+* update grammar section ([774e828](https://github.com/datacamp/design-system/commit/774e828))
+
+
+
+
+
 ## [1.26.1](https://github.com/datacamp/design-system/compare/@datacamp/waffles-catalog-doc-site@1.26.0...@datacamp/waffles-catalog-doc-site@1.26.1) (2019-10-23)
 
 **Note:** Version bump only for package @datacamp/waffles-catalog-doc-site
