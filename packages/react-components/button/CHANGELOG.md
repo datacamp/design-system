@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [4.1.5](https://github.com/datacamp/design-system/compare/@datacamp/waffles-button@4.1.4...@datacamp/waffles-button@4.1.5) (2019-10-25)
+
+
+### Bug Fixes
+
+* stop making button public ([402f049](https://github.com/datacamp/design-system/commit/402f049))
+
+
+
+
+
 ## [4.1.4](https://github.com/datacamp/design-system/compare/@datacamp/waffles-button@4.1.3...@datacamp/waffles-button@4.1.4) (2019-10-25)
 
 
