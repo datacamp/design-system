@@ -30,6 +30,11 @@ const ButtonGroup = ({
     throw Error('All Buttons in ButtonGroup must be the same size');
   }
 
+  const gap =
+    sizes[0] === 'small'
+      ? tokens.size.space[8].value
+      : tokens.size.space[16].value;
+
   return (
     <div
       className={className}
@@ -44,9 +49,7 @@ const ButtonGroup = ({
             }>;
             return React.cloneElement(childElement, {
               className: cx(
-                css({
-                  marginLeft: index > 0 ? tokens.size.space[16].value : 0,
-                }),
+                css({ marginLeft: index > 0 ? gap : 0 }),
                 childElement.props.className
               ),
             });
