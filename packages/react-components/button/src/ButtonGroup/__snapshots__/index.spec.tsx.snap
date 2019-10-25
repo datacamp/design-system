@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`ButtonGroup renders the buttons or CompactButtonGroups with spaces 1`] = `
+exports[`ButtonGroup renders the buttons or CompactButtonGroups with 16px spaces 1`] = `
 .emotion-11 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -297,6 +297,365 @@ exports[`ButtonGroup renders the buttons or CompactButtonGroups with spaces 1`] 
 
 .emotion-9:hover {
   z-index: 1;
+}
+
+<div
+  class="emotion-11"
+>
+  <button
+    class="emotion-1"
+    type="submit"
+  >
+    <span
+      class="emotion-0"
+    >
+      Button 1
+    </span>
+  </button>
+  <button
+    class="emotion-3"
+    type="submit"
+  >
+    <span
+      class="emotion-0"
+    >
+      Button 2
+    </span>
+  </button>
+  <button
+    class="emotion-3"
+    type="submit"
+  >
+    <span
+      class="emotion-0"
+    >
+      Button 3
+    </span>
+  </button>
+  <div
+    class="compact emotion-10"
+  >
+    <button
+      class="emotion-7"
+      type="submit"
+    >
+      <span
+        class="emotion-0"
+      >
+        Button 4
+      </span>
+    </button>
+    <button
+      class="emotion-9"
+      type="submit"
+    >
+      <span
+        class="emotion-0"
+      >
+        Button 5
+      </span>
+    </button>
+  </div>
+</div>
+`;
+
+exports[`ButtonGroup renders the small buttons or CompactButtonGroups with 8px spaces 1`] = `
+.emotion-11 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  white-space: nowrap;
+}
+
+.emotion-1 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border: none;
+  border-radius: 4px;
+  border-style: solid;
+  border-width: 1px;
+  cursor: pointer;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  -webkit-transition: 0.15s;
+  transition: 0.15s;
+  vertical-align: baseline;
+  white-space: nowrap;
+  background-color: white;
+  border-color: #33aacc;
+  color: #33aacc;
+  padding: 0 15px;
+  margin-left: 0;
+}
+
+.emotion-1:active {
+  -webkit-transform: perspective(1px) scale(0.975);
+  -ms-transform: perspective(1px) scale(0.975);
+  transform: perspective(1px) scale(0.975);
+}
+
+.emotion-1:disabled,
+.emotion-1:hover:disabled,
+.emotion-1:active:disabled {
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+}
+
+.emotion-1:focus {
+  outline: 0;
+}
+
+.emotion-1:focus {
+  box-shadow: 0 0 0 4px #DCECF1;
+}
+
+.emotion-1:hover {
+  border-color: #2E8FAB;
+  color: #2E8FAB;
+}
+
+.emotion-7 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border: none;
+  border-radius: 4px;
+  border-style: solid;
+  border-width: 1px;
+  cursor: pointer;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  -webkit-transition: 0.15s;
+  transition: 0.15s;
+  vertical-align: baseline;
+  white-space: nowrap;
+  background-color: white;
+  border-color: #33aacc;
+  color: #33aacc;
+  padding: 0 15px;
+  border-radius: 4px 0px 0px 4px;
+  margin: 0;
+}
+
+.emotion-7:active {
+  -webkit-transform: perspective(1px) scale(0.975);
+  -ms-transform: perspective(1px) scale(0.975);
+  transform: perspective(1px) scale(0.975);
+}
+
+.emotion-7:disabled,
+.emotion-7:hover:disabled,
+.emotion-7:active:disabled {
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+}
+
+.emotion-7:focus {
+  outline: 0;
+}
+
+.emotion-7:focus {
+  box-shadow: 0 0 0 4px #DCECF1;
+}
+
+.emotion-7:hover {
+  border-color: #2E8FAB;
+  color: #2E8FAB;
+}
+
+.emotion-7:active {
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+}
+
+.emotion-7:focus {
+  box-shadow: none;
+}
+
+.emotion-7:hover {
+  z-index: 1;
+}
+
+.emotion-9 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border: none;
+  border-radius: 4px;
+  border-style: solid;
+  border-width: 1px;
+  cursor: pointer;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  -webkit-transition: 0.15s;
+  transition: 0.15s;
+  vertical-align: baseline;
+  white-space: nowrap;
+  background-color: white;
+  border-color: #33aacc;
+  color: #33aacc;
+  padding: 0 15px;
+  border-radius: 0px 4px 4px 0px;
+  margin: 0;
+  margin-left: -1px;
+}
+
+.emotion-9:active {
+  -webkit-transform: perspective(1px) scale(0.975);
+  -ms-transform: perspective(1px) scale(0.975);
+  transform: perspective(1px) scale(0.975);
+}
+
+.emotion-9:disabled,
+.emotion-9:hover:disabled,
+.emotion-9:active:disabled {
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+}
+
+.emotion-9:focus {
+  outline: 0;
+}
+
+.emotion-9:focus {
+  box-shadow: 0 0 0 4px #DCECF1;
+}
+
+.emotion-9:hover {
+  border-color: #2E8FAB;
+  color: #2E8FAB;
+}
+
+.emotion-9:active {
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+}
+
+.emotion-9:focus {
+  box-shadow: none;
+}
+
+.emotion-9:hover {
+  z-index: 1;
+}
+
+.emotion-0 {
+  color: rgb(77,83,86);
+  font-family: sans-serif;
+  font-family: Lato;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  font-size: 16px;
+  line-height: 34px;
+  color: #3d4251;
+  font-weight: bold;
+}
+
+.emotion-3 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border: none;
+  border-radius: 4px;
+  border-style: solid;
+  border-width: 1px;
+  cursor: pointer;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  -webkit-transition: 0.15s;
+  transition: 0.15s;
+  vertical-align: baseline;
+  white-space: nowrap;
+  background-color: white;
+  border-color: #33aacc;
+  color: #33aacc;
+  padding: 0 15px;
+  margin-left: 8px;
+}
+
+.emotion-3:active {
+  -webkit-transform: perspective(1px) scale(0.975);
+  -ms-transform: perspective(1px) scale(0.975);
+  transform: perspective(1px) scale(0.975);
+}
+
+.emotion-3:disabled,
+.emotion-3:hover:disabled,
+.emotion-3:active:disabled {
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+}
+
+.emotion-3:focus {
+  outline: 0;
+}
+
+.emotion-3:focus {
+  box-shadow: 0 0 0 4px #DCECF1;
+}
+
+.emotion-3:hover {
+  border-color: #2E8FAB;
+  color: #2E8FAB;
+}
+
+.emotion-10 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  white-space: nowrap;
+  margin-left: 8px;
 }
 
 <div

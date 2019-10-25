@@ -10,7 +10,7 @@ import CompactButtonGroup from '../CompactButtonGroup';
 import ButtonGroup from '.';
 
 describe('ButtonGroup', () => {
-  it('renders the buttons or CompactButtonGroups with spaces', async () => {
+  it('renders the buttons or CompactButtonGroups with 16px spaces', async () => {
     const { container, getByText } = await axeRender(
       <ButtonGroup>
         <Button type="submit">Button 1</Button>
@@ -38,6 +38,48 @@ describe('ButtonGroup', () => {
 
     expect(container.querySelector(`.compact`) as HTMLElement).toHaveStyle(
       `margin-left: ${tokens.size.space[16].value}px;`
+    );
+    expect(container.firstChild).toMatchSnapshot();
+  });
+
+  it('renders the small buttons or CompactButtonGroups with 8px spaces', async () => {
+    const { container, getByText } = await axeRender(
+      <ButtonGroup>
+        <Button size="small" type="submit">
+          Button 1
+        </Button>
+        <Button size="small" type="submit">
+          Button 2
+        </Button>
+        <Button size="small" type="submit">
+          Button 3
+        </Button>
+        <CompactButtonGroup className="compact">
+          <Button size="small" type="submit">
+            Button 4
+          </Button>
+          <Button size="small" type="submit">
+            Button 5
+          </Button>
+        </CompactButtonGroup>
+        {false /* ensures conditional rendering is ok */}
+      </ButtonGroup>
+    );
+
+    expect(
+      (getByText('Button 1') as HTMLElement).closest('button')
+    ).toHaveStyle('margin-left: 0;');
+
+    expect(
+      (getByText('Button 2') as HTMLElement).closest('button')
+    ).toHaveStyle(`margin-left: ${tokens.size.space[8].value}px;`);
+
+    expect(
+      (getByText('Button 3') as HTMLElement).closest('button')
+    ).toHaveStyle(`margin-left: ${tokens.size.space[8].value}px;`);
+
+    expect(container.querySelector(`.compact`) as HTMLElement).toHaveStyle(
+      `margin-left: ${tokens.size.space[8].value}px;`
     );
     expect(container.firstChild).toMatchSnapshot();
   });
