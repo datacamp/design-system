@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [4.2.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-button@4.1.5...@datacamp/waffles-button@4.2.0) (2019-10-31)
+
+
+### Features
+
+* use smaller gaps when for ButtonGroup with small buttons ([66a9783](https://github.com/datacamp/design-system/commit/66a9783))
+
+
+
+
+
 ## [4.1.5](https://github.com/datacamp/design-system/compare/@datacamp/waffles-button@4.1.4...@datacamp/waffles-button@4.1.5) (2019-10-25)
 
 
