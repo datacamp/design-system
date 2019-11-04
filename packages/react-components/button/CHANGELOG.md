@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [4.3.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-button@4.2.0...@datacamp/waffles-button@4.3.0) (2019-11-04)
+
+
+### Features
+
+* generate component metadata ([4d5dc63](https://github.com/datacamp/design-system/commit/4d5dc63))
+
+
+
+
+
 # [4.2.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-button@4.1.5...@datacamp/waffles-button@4.2.0) (2019-10-31)
 
 

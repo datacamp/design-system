@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.1.0](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/card/compare/@datacamp/waffles-card@2.0.6...@datacamp/waffles-card@2.1.0) (2019-11-04)
+
+
+### Features
+
+* generate component metadata ([4d5dc63](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/card/commit/4d5dc63))
+
+
+
+
+
 ## [2.0.6](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/card/compare/@datacamp/waffles-card@2.0.5...@datacamp/waffles-card@2.0.6) (2019-10-31)
 
 **Note:** Version bump only for package @datacamp/waffles-card

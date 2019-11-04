@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.2.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-text@1.1.2...@datacamp/waffles-text@1.2.0) (2019-11-04)
+
+
+### Features
+
+* generate component metadata ([4d5dc63](https://github.com/datacamp/design-system/commit/4d5dc63))
+
+
+
+
+
 ## [1.1.2](https://github.com/datacamp/design-system/compare/@datacamp/waffles-text@1.1.1...@datacamp/waffles-text@1.1.2) (2019-10-31)
 
 **Note:** Version bump only for package @datacamp/waffles-text

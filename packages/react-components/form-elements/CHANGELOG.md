@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.6.0](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/form-elements/compare/@datacamp/waffles-form-elements@2.5.2...@datacamp/waffles-form-elements@2.6.0) (2019-11-04)
+
+
+### Features
+
+* generate component metadata ([4d5dc63](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/form-elements/commit/4d5dc63))
+
+
+
+
+
 ## [2.5.2](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/form-elements/compare/@datacamp/waffles-form-elements@2.5.1...@datacamp/waffles-form-elements@2.5.2) (2019-10-31)
 
 **Note:** Version bump only for package @datacamp/waffles-form-elements
