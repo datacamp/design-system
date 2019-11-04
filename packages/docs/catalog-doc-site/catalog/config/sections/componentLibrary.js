@@ -32,7 +32,7 @@ export default {
       content: pageLoader(() =>
         import('../../pages/componentLibrary/formElements.js')
       ),
-      path: '/component-library/formElements',
+      path: '/component-library/form-elements',
       title: 'Form Elements',
     },
     {

@@ -1,11 +1,23 @@
-import Button from '@datacamp/waffles-button';
+import Button, { ButtonGroup } from '@datacamp/waffles-button';
+import Card from '@datacamp/waffles-card';
 import { AlertDialog, Dialog } from '@datacamp/waffles-modals';
-import { Code, CodeBlock, Heading, Paragraph } from '@datacamp/waffles-text';
+import modalData from '@datacamp/waffles-modals/componentMetadata.json';
+import {
+  Code,
+  CodeBlock,
+  Heading,
+  Paragraph,
+  Strong,
+  Text,
+} from '@datacamp/waffles-text';
+/* @jsx jsx */
+import { jsx } from '@emotion/core';
 import { Page } from 'catalog';
 import React from 'react';
 
 import CustomHeader from '../../components/CustomHeader';
 import LazyLiveEditCells from '../../components/LazyLiveEditCells';
+import PropTable from '../../components/PropTable';
 
 export default () => {
   return (
@@ -18,40 +30,46 @@ export default () => {
 
       <Page>
         <section className="dc-u-maxw-100pc">
-          <div className="dc-card dc-u-p-24 dc-u-mt-8">
+          <Card css={{ padding: 24 }} elevation={2}>
             <Heading as="h3" size={500}>
-              About
+              Importing
             </Heading>
             <Paragraph>
-              The <Code>@datacamp/waffles-modals</Code> package contains
-              multiple modals that can be used for different purposes. Before
-              using any of the exposed modals, <Code>setAppElement</Code> should
-              be called with the root element of the application. This will
-              normally be the same as the element used for rendering react.
+              Waffles exposes several components from within{' '}
+              <Code>@datacamp/waffles-modals</Code>.
+            </Paragraph>
+            <ul>
+              <li>
+                <Text>
+                  <Strong>AlertDialog –</Strong> Asks for confirmation before
+                  performing an action.
+                </Text>
+              </li>
+              <li>
+                <Text>
+                  <Strong>Dialog –</Strong> Enables custom content to be
+                  displayed in a way that blocks interaction with the rest of
+                  the page.
+                </Text>
+              </li>
+            </ul>
+            <Paragraph>
+              Before using any of these components, <Code>setAppElement</Code>{' '}
+              should be called with the root element of the application. This
+              will normally be the same as the element used for rendering react.
             </Paragraph>
             <CodeBlock>
               {
-                "import { setAppElement } from '@datacamp/waffles-modals';\n\nsetAppElement('#root');"
+                "import { AlertDialog, Dialog, setAppElement } from '@datacamp/waffles-modals';\n\nsetAppElement('#root');"
               }
             </CodeBlock>
-          </div>
-          <div className="dc-card dc-u-p-24 dc-u-mt-8">
+          </Card>
+          <Card css={{ marginTop: 16, padding: 24 }} elevation={2}>
             <Heading as="h3" size={500}>
-              Alert Dialog
+              AlertDialog Example
             </Heading>
-            <Paragraph>
-              The alert dialog should be used whenever user confirmation is
-              required before performing an action. It takes no children as its
-              behaviour is controlled entirely by the properties set on the
-              component. Below there is a simple example of how this can be
-              used, feel free to change some of the values and see how it
-              impacts the Modal.
-            </Paragraph>
-            <table className="dc-table dc-table--bordered">
-              <tbody>
-                <tr>
-                  <LazyLiveEditCells
-                    code={`() => {
+            <LazyLiveEditCells
+              code={`() => {
   const [isOpen, setIsOpen] = React.useState(false);
 
   return (
@@ -70,126 +88,16 @@ export default () => {
     </>
   );
 };`}
-                    scope={{ AlertDialog, Button }}
-                  />
-                </tr>
-              </tbody>
-            </table>
-            <table className="dc-table dc-table--bordered">
-              <thead className="dc-table__thead">
-                <tr className="dc-table__tr">
-                  <th>Property</th>
-                  <th>Type</th>
-                  <th>Description</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr className="dc-table__tr">
-                  <th>cancelButtonText</th>
-                  <td>string - optional</td>
-                  <td>
-                    By default the cancel button will say &quot;Cancel&quot;.
-                    This can be overriden by this prop.
-                  </td>
-                </tr>
-                <tr className="dc-table__tr">
-                  <th>confirmButtonText</th>
-                  <td>string - optional</td>
-                  <td>
-                    By default the confirm button will say &quot;Confirm&quot;.
-                    This can be overriden by this prop.
-                  </td>
-                </tr>
-                <tr className="dc-table__tr">
-                  <th>dataAttributes</th>
-                  <td>object - optional</td>
-                  <td>
-                    As with all the other waffles components, dataAttributes can
-                    be used to set data- html attributes on the element
-                  </td>
-                </tr>
-                <tr className="dc-table__tr">
-                  <th>description</th>
-                  <td>string - required</td>
-                  <td>The body text to render in the modal</td>
-                </tr>
-                <tr className="dc-table__tr">
-                  <th>intent</th>
-                  <td>neutral | success | warning | danger - optional</td>
-                  <td>
-                    The main intention of the modal. This is used to set the
-                    button colours and to provide a default focus when the modal
-                    opens.
-                  </td>
-                </tr>
-                <tr className="dc-table__tr">
-                  <th>isLoading</th>
-                  <td>boolean - optional</td>
-                  <td>
-                    When this is set to true the Modal will show a spinner in
-                    the confirmation button.The user will not be able to close
-                    the dialog while it&apos;s loading
-                  </td>
-                </tr>
-                <tr className="dc-table__tr">
-                  <th>isOpen</th>
-                  <td>boolean - required</td>
-                  <td>
-                    When this is set to true the Modal will show. It is
-                    preferred to use this to control when to display the dialog
-                    rather than simply mounting and unmounting as setting this
-                    to false allows the close animation to play fully.
-                  </td>
-                </tr>
-                <tr className="dc-table__tr">
-                  <th>onClose</th>
-                  <td>
-                    <Code>
-                      (origin: cancelButton | overlayClick | escKey |
-                      closeButton) =&gt; void
-                    </Code>{' '}
-                    - required
-                  </td>
-                  <td>
-                    This function is called whenever the user requests to close
-                    the dialog. It is the responsibility of the application to
-                    handle this correctly and set isOpen to false. This function
-                    will be called with an origin string that specifies how the
-                    user requested to close the modal.
-                  </td>
-                </tr>
-                <tr className="dc-table__tr">
-                  <th>onConfirm</th>
-                  <td>
-                    <Code>() =&gt; void</Code> - required
-                  </td>
-                  <td>
-                    This function is called whenever the user clicks the confirm
-                    button.
-                  </td>
-                </tr>
-                <tr className="dc-table__tr">
-                  <th>title</th>
-                  <td>string - required</td>
-                  <td>The main heading for the modal.</td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-          <div className="dc-card dc-u-p-24 dc-u-mt-8">
+              scope={{ AlertDialog, Button }}
+            />
+          </Card>
+
+          <Card css={{ marginTop: 16, padding: 24 }} elevation={2}>
             <Heading as="h3" size={500}>
-              Dialog
+              Dialog Example
             </Heading>
-            <Paragraph>
-              The dialog should be used to block interaction with the rest of
-              the page while open. It provides the frame within which to supply
-              custom dialog content.
-            </Paragraph>
-            <table className="dc-table dc-table--bordered">
-              <tbody>
-                <tr>
-                  <LazyLiveEditCells
-                    code={`() => {
+            <LazyLiveEditCells
+              code={`() => {
   const [isOpen, setIsOpen] = React.useState(false);
 
   return (
@@ -199,117 +107,59 @@ export default () => {
         <Dialog.Header>This is the Title</Dialog.Header>
         <Dialog.Body>
           <Paragraph>
-            Some Content for the modal. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-          </Paragraph>
-          <Paragraph>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
+            nec purus ultrices, convallis nisi a, elementum sem. Pellentesque
+            varius felis luctus risus interdum, a tristique odio molestie. Sed
+            sagittis diam a porttitor porttitor. Sed feugiat quam non felis
+            blandit sollicitudin. Duis tempus dolor eget dolor faucibus lobortis.
+            Nulla non ipsum id dui ultrices sagittis. Fusce dictum est massa, ac
+            cursus nibh ullamcorper sed. Maecenas hendrerit pharetra nibh, ut
+            luctus enim posuere ac. Mauris erat libero, tincidunt non purus ac,
+            facilisis venenatis ex. Cras luctus posuere leo vitae dictum. Cras
+            posuere mattis tortor quis pretium.
           </Paragraph>
         </Dialog.Body>
         <Dialog.Footer>
-          <Button appearance="primary" onClick={() => {}}>
-            A single button can be placed in the footer
-          </Button>
+          <Button onClick={() => setIsOpen(false)}>Cancel</Button>
+          <ButtonGroup>
+            <Button intent="danger" onClick={() => setIsOpen(false)}>Delete</Button>
+            <Button appearance="primary" onClick={() => setIsOpen(false)}>
+              Confirm
+            </Button>
+          </ButtonGroup>
         </Dialog.Footer>
       </Dialog>
     </>
   );
-};`}
-                    scope={{ Button, Dialog, Paragraph }}
-                  />
-                </tr>
-              </tbody>
-            </table>
-            <table className="dc-table dc-table--bordered">
-              <thead className="dc-table__thead">
-                <tr className="dc-table__tr">
-                  <th>Property</th>
-                  <th>Type</th>
-                  <th>Description</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr className="dc-table__tr">
-                  <th>children</th>
-                  <td>ReactNode</td>
-                  <td>
-                    The content to render in the modal. This can be any valid
-                    React. Use the Dialog.Header, Dialog.Body, & Dialog.Footer
-                    components to add some formatting to your content. The
-                    Footer can take one or two buttons or ButtonGroup as
-                    children.
-                  </td>
-                </tr>
-                <tr className="dc-table__tr">
-                  <th>dataAttributes</th>
-                  <td>object - optional</td>
-                  <td>
-                    As with all the other waffles components, dataAttributes can
-                    be used to set data- html attributes on the element
-                  </td>
-                </tr>
-                <tr className="dc-table__tr">
-                  <th>hideCloseButton</th>
-                  <td>boolean - optional</td>
-                  <td>
-                    When this is set to true, the closeButton will not be shown
-                    in the top right corner. Alternative ways to exit the dialog
-                    should be provided in the content.
-                  </td>
-                </tr>
-                <tr className="dc-table__tr">
-                  <th>isOpen</th>
-                  <td>boolean - required</td>
-                  <td>
-                    When this is set to true the Modal will show. It is
-                    preferred to use this to control when to display the dialog
-                    rather than simply mounting and unmounting as setting this
-                    to false allows the close animation to play fully.
-                  </td>
-                </tr>
-                <tr className="dc-table__tr">
-                  <th>onClose</th>
-                  <td>
-                    <Code>
-                      (origin: overlayClick | escKey | closeButton) =&gt; void
-                    </Code>{' '}
-                    - required
-                  </td>
-                  <td>
-                    This function is called whenever the user requests to close
-                    the dialog. It is the responsibility of the application to
-                    handle this correctly and set isOpen to false. This function
-                    will be called with an origin string that specifies how the
-                    user requested to close the modal.
-                  </td>
-                </tr>
-                <tr className="dc-table__tr">
-                  <th>shouldCloseOnEsc</th>
-                  <td>boolean - optional</td>
-                  <td>
-                    By default the dialog will close when the user presses the
-                    escape key. When this is false, this behaviour is disabled.
-                  </td>
-                </tr>
-                <tr className="dc-table__tr">
-                  <th>shouldCloseOnOverlayClick</th>
-                  <td>boolean - optional</td>
-                  <td>
-                    By default the dialog will close when the user clicks on the
-                    backdrop. When this is false, this behaviour is disabled.
-                  </td>
-                </tr>
-                <tr className="dc-table__tr">
-                  <th>width</th>
-                  <td>string - optional</td>
-                  <td>
-                    By default the dialog will size to the content provided,
-                    however it can be useful to provide a fixed width.
-                  </td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
+}`}
+              scope={{ Button, ButtonGroup, Dialog, Paragraph }}
+            />
+          </Card>
+
+          <Heading as="h2" size={600}>
+            Properties
+          </Heading>
+
+          <PropTable
+            componentData={modalData['src/AlertDialog/index.tsx']}
+            componentName="AlertDialog"
+          />
+          <PropTable
+            componentData={modalData['src/Dialog/index.tsx']}
+            componentName="Dialog"
+          />
+          <PropTable
+            componentData={modalData['src/Dialog/Header.tsx']}
+            componentName="Dialog.Header"
+          />
+          <PropTable
+            componentData={modalData['src/Dialog/Body.tsx']}
+            componentName="Dialog.Body"
+          />
+          <PropTable
+            componentData={modalData['src/Dialog/Footer.tsx']}
+            componentName="Dialog.Footer"
+          />
         </section>
       </Page>
     </main>

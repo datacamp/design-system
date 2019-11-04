@@ -1,10 +1,15 @@
+import Card from '@datacamp/waffles-card';
 import Markdown from '@datacamp/waffles-markdown';
-import { Code, Heading, Paragraph } from '@datacamp/waffles-text';
+import MarkdownData from '@datacamp/waffles-markdown/componentMetadata.json';
+import { Heading, Paragraph } from '@datacamp/waffles-text';
+/* @jsx jsx */
+import { jsx } from '@emotion/core';
 import { Page } from 'catalog';
 import React from 'react';
 
 import CustomHeader from '../../components/CustomHeader';
 import LazyLiveEditCells from '../../components/LazyLiveEditCells';
+import PropTable from '../../components/PropTable';
 
 export default () => {
   return (
@@ -17,7 +22,7 @@ export default () => {
 
       <Page>
         <section className="dc-u-maxw-100pc">
-          <div className="dc-card dc-u-p-24 dc-u-mt-8">
+          <Card css={{ marginTop: 16, padding: 24 }} elevation={2}>
             <Heading as="h3" size={500}>
               About
             </Heading>
@@ -30,28 +35,25 @@ export default () => {
               intending to use this component, please contact the design system
               squad for assistance.
             </Paragraph>
-          </div>
-          <div className="dc-card dc-u-p-24 dc-u-mt-8">
-            <Heading as="h3" size={500}>
-              Properties
-            </Heading>
-            <Paragraph>
-              The markdown component uses a <Code>source</Code> property to
-              determine what to render.
-            </Paragraph>
-            <table className="dc-table dc-table--bordered">
-              <tbody>
-                <tr>
-                  <LazyLiveEditCells
-                    code={
-                      '<Markdown\n  source={`\n## Example heading\nThis is some content\n`}\n/>;'
-                    }
-                    scope={{ Markdown }}
-                  />
-                </tr>
-              </tbody>
-            </table>
-          </div>
+            <LazyLiveEditCells
+              code={`<Markdown
+  source={\`
+## Example heading
+This is some content
+  \`}
+/>`}
+              scope={{ Markdown }}
+            />
+          </Card>
+
+          <Heading as="h3" size={500}>
+            Properties
+          </Heading>
+
+          <PropTable
+            componentData={MarkdownData['src/components/Markdown.tsx'][0]}
+            componentName="Markdown"
+          />
         </section>
       </Page>
     </main>

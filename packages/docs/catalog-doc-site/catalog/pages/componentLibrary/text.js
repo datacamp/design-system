@@ -1,18 +1,24 @@
+import Card from '@datacamp/waffles-card';
 import {
   Code,
   CodeBlock,
   Emphasis,
   Heading,
+  Link,
   Paragraph,
   Small,
   Strong,
   Text,
 } from '@datacamp/waffles-text';
+import TextData from '@datacamp/waffles-text/componentMetadata.json';
+/* @jsx jsx */
+import { jsx } from '@emotion/core';
 import { Page } from 'catalog';
 import React from 'react';
 
 import CustomHeader from '../../components/CustomHeader';
 import LazyLiveEditCells from '../../components/LazyLiveEditCells';
+import PropTable from '../../components/PropTable';
 
 export default () => {
   return (
@@ -25,329 +31,176 @@ export default () => {
 
       <Page>
         <section className="dc-u-maxw-100pc">
-          <div className="dc-card dc-u-p-24 dc-u-mt-8">
+          <Card css={{ padding: 24 }} elevation={2}>
             <Heading as="h3" size={500}>
-              About
+              Importing
             </Heading>
             <Paragraph>
-              The text package contains all the components necessary for
-              typography that conforms to the waffles design system. All these
-              components are detailed below.
+              Waffles exposes several components from the{' '}
+              <Code>@datacamp/waffles-text</Code> package.
             </Paragraph>
-          </div>
-          <div className="dc-card dc-u-p-24 dc-u-mt-8">
+            <ul>
+              <li>
+                <Text>
+                  <Strong>Text –</Strong> The base text component that can be
+                  used as a building block for everthing else.
+                </Text>
+              </li>
+              <li>
+                <Text>
+                  <Strong>Paragraph –</Strong> Renders a block of text.
+                </Text>
+              </li>
+              <li>
+                <Text>
+                  <Strong>Heading –</Strong> Renders various sized headings.
+                </Text>
+              </li>
+              <li>
+                <Text>
+                  <Strong>Strong –</Strong> Renders bold text.
+                </Text>
+              </li>
+              <li>
+                <Text>
+                  <Strong>Emphasis –</Strong> Renders italic text.
+                </Text>
+              </li>
+              <li>
+                <Text>
+                  <Strong>Small –</Strong> Renders text at a size smaller than
+                  the default.
+                </Text>
+              </li>
+              <li>
+                <Text>
+                  <Strong>Code –</Strong> Renders inline code.
+                </Text>
+              </li>
+              <li>
+                <Text>
+                  <Strong>CodeBlock –</Strong> Renders a preformatted block of
+                  code.
+                </Text>
+              </li>
+              <li>
+                <Text>
+                  <Strong>Link –</Strong> Renders an anchor component.
+                </Text>
+              </li>
+            </ul>
+            <CodeBlock>
+              {`import {
+  Code,
+  CodeBlock,
+  Emphasis,
+  Heading,
+  Link,
+  Paragraph,
+  Small,
+  Strong,
+  Text,
+} from '@datacamp/waffles-text';`}
+            </CodeBlock>
+          </Card>
+
+          <Card css={{ marginTop: 16, padding: 24 }} elevation={2}>
             <Heading as="h3" size={500}>
-              Text
+              Example
             </Heading>
-            <Paragraph>
-              The Text component is the basis for all the other components. It
-              can be imported as follows
-            </Paragraph>
-            <pre>
-              <code>{"import { Text } from '@datacamp/waffles-text';"}</code>
-            </pre>
-            <Paragraph>
-              The Text component will render a span containing the text provided
-              as children to the component. It has no line height, and so can be
-              used wherever text is needed in another component. If a block of
-              text is being rendered, the Paragraph would be a better choice of
-              component.
-            </Paragraph>
-            <Heading as="h4" size={300}>
-              Properties
-            </Heading>
-            <table className="dc-table dc-table--bordered">
-              <thead className="dc-table__thead">
-                <tr className="dc-table__tr">
-                  <th>Property</th>
-                  <th>Type</th>
-                  <th>Description</th>
-                  <th style={{ minWidth: '275px' }}>Example code</th>
-                  <th>Live Preview</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr className="dc-table__tr">
-                  <th>children</th>
-                  <td>string - required</td>
-                  <td>The text to render</td>
-                  <LazyLiveEditCells
-                    code="<Text>Example</Text>"
-                    scope={{ Text }}
-                  />
-                </tr>
-                <tr className="dc-table__tr">
-                  <th>className</th>
-                  <td>string - optional</td>
-                  <td>
-                    Any extra css class required for the element. This also
-                    allows styling via emotion or other libraries that use
-                    className.
-                  </td>
-                  <LazyLiveEditCells
-                    code={
-                      '<Text\n  className="dc-u-bgc-red"\n>\n  Example\n</Text>'
-                    }
-                    scope={{ Text }}
-                  />
-                </tr>
-                <tr className="dc-table__tr">
-                  <th>dataAttributes</th>
-                  <td>object - optional</td>
-                  <td>
-                    Any data-attributes to add to the rendered element. Inspect
-                    the rendered element in the preview to see how the
-                    attributes are added.
-                  </td>
-                  <LazyLiveEditCells
-                    code={
-                      "<Text\n  dataAttributes={{\n    cy: 'test'\n  }}\n>\n  Example\n</Text>"
-                    }
-                    scope={{ Text }}
-                  />
-                </tr>
-              </tbody>
-            </table>
-          </div>
-          <div className="dc-card dc-u-p-24 dc-u-mt-8">
-            <Heading as="h3" size={500}>
-              Heading
-            </Heading>
-            <Paragraph>
-              The Heading component renders a heading at various different
-              sizes. It can be imported as follows
-            </Paragraph>
-            <pre>
-              <code>{"import { Heading } from '@datacamp/waffles-text';"}</code>
-            </pre>
-            <Paragraph>
-              The Heading component can be used to identify different areas of
-              the page. The Heading supports all of the props on Text, plus
-              those detailed below.
-            </Paragraph>
-            <Heading as="h4" size={300}>
-              Properties
-            </Heading>
-            <table className="dc-table dc-table--bordered">
-              <thead className="dc-table__thead">
-                <tr className="dc-table__tr">
-                  <th>Property</th>
-                  <th>Type</th>
-                  <th>Description</th>
-                  <th style={{ minWidth: '275px' }}>Example code</th>
-                  <th>Live Preview</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr className="dc-table__tr">
-                  <th>as</th>
-                  <td>string - required</td>
-                  <td>
-                    The element to use when rendering. This can be any of the
-                    valid HTML heading elements.
-                  </td>
-                  <LazyLiveEditCells
-                    code={
-                      '<Heading\n  as="h4"\n  size={400}\n>\n  Example\n</Heading>'
-                    }
-                    scope={{ Heading }}
-                  />
-                </tr>
-                <tr className="dc-table__tr">
-                  <th>size</th>
-                  <td>number - required</td>
-                  <td>
-                    The size of the heading. This can be any multiple of 100
-                    between 300 and 800 inclusive.
-                  </td>
-                  <LazyLiveEditCells
-                    code={
-                      '<Heading\n  as="h2"\n  size={600}\n>\n  Example</Heading>'
-                    }
-                    scope={{ Heading }}
-                  />
-                </tr>
-                <tr className="dc-table__tr">
-                  <th>multiLine</th>
-                  <td>boolean - optional</td>
-                  <td>
-                    Whether to allow text wrapping. This defaults to false and
-                    will truncate text that is too long.
-                  </td>
-                  <LazyLiveEditCells
-                    code={
-                      '<Heading\n  as="h2"\n  size={500}\n  multiLine\n>\n  Example of a long heading\n</Heading>'
-                    }
-                    scope={{ Heading }}
-                  />
-                </tr>
-              </tbody>
-            </table>
-          </div>
-          <div className="dc-card dc-u-p-24 dc-u-mt-8">
-            <Heading as="h3" size={500}>
-              Paragraph
-            </Heading>
-            <Paragraph>
-              The Paragraph component renders a a block of text. It can be
-              imported as follows
-            </Paragraph>
-            <pre>
-              <code>
-                {"import { Paragraph } from '@datacamp/waffles-text';"}
-              </code>
-            </pre>
-            <Paragraph>
-              The Paragraph component should be used whenever there is a block
-              of text content to render. It supports all the same props as Text,
-              the only difference being that the children can include other text
-              elements and not just a string.
-            </Paragraph>
-            <table className="dc-table dc-table--bordered">
-              <tbody>
-                <LazyLiveEditCells
-                  code={
-                    '<Paragraph>\nHere is some example text in a paragraph. It can support other text components as children. As an example <Strong>this is a Strong component</Strong>. As another example <Small>this is a Small component</Small>. And also <Emphasis>here is an Emphasis component</Emphasis>.\n</Paragraph>'
-                  }
-                  scope={{ Emphasis, Paragraph, Small, Strong }}
-                />
-              </tbody>
-            </table>
-          </div>
-          <div className="dc-card dc-u-p-24 dc-u-mt-8">
-            <Heading as="h3" size={500}>
-              Strong
-            </Heading>
-            <Paragraph>
-              The Strong component brings attention to some text. It can be
-              imported as follows
-            </Paragraph>
-            <pre>
-              <code>{"import { Strong } from '@datacamp/waffles-text';"}</code>
-            </pre>
-            <Paragraph>
-              The Strong component should be used within a Paragraph if there is
-              a word or a phrase that has additional importance. It supports all
-              the same props as Text.
-            </Paragraph>
-            <table className="dc-table dc-table--bordered">
-              <tbody>
-                <LazyLiveEditCells
-                  code={
-                    '<Paragraph>\n  <Strong>Here is some strong text.</Strong>\n</Paragraph>'
-                  }
-                  scope={{ Paragraph, Small, Strong }}
-                />
-              </tbody>
-            </table>
-          </div>
-          <div className="dc-card dc-u-p-24 dc-u-mt-8">
-            <Heading as="h3" size={500}>
-              Emphasis
-            </Heading>
-            <Paragraph>
-              The Emphasis component adds a stress emphasis to some text when
-              reading. It can be imported as follows
-            </Paragraph>
-            <pre>
-              <code>
-                {"import { Emphasis } from '@datacamp/waffles-text';"}
-              </code>
-            </pre>
-            <Paragraph>
-              The Emphasis component should be used within a Paragraph if there
-              is a word or a phrase that should be emphasized when reading. It
-              supports all the same props as Text.
-            </Paragraph>
-            <table className="dc-table dc-table--bordered">
-              <tbody>
-                <LazyLiveEditCells
-                  code={
-                    '<Paragraph>\n  <Emphasis>Here is some emphasized text.</Emphasis>\n</Paragraph>'
-                  }
-                  scope={{ Emphasis, Paragraph, Small, Strong }}
-                />
-              </tbody>
-            </table>
-          </div>
-          <div className="dc-card dc-u-p-24 dc-u-mt-8">
-            <Heading as="h3" size={500}>
-              Small
-            </Heading>
-            <Paragraph>
-              The Small component renders text at a smaller size than normal. It
-              can be imported as follows
-            </Paragraph>
-            <pre>
-              <code>{"import { Small } from '@datacamp/waffles-text';"}</code>
-            </pre>
-            <Paragraph>
-              The Small component should be used within a Paragraph. It can take
-              strings as children along with Strong and Emphasis components. It
-              supports all the same props as Text.
-            </Paragraph>
-            <table className="dc-table dc-table--bordered">
-              <tbody>
-                <LazyLiveEditCells
-                  code={
-                    '<Paragraph>\n  <Small>\n    Here is some small text. And this contains some <Strong>strong text</Strong>. And <Emphasis>here is some emphasized text</Emphasis>\n  </Small>\n</Paragraph>'
-                  }
-                  scope={{ Emphasis, Paragraph, Small, Strong }}
-                />
-              </tbody>
-            </table>
-          </div>
-          <div className="dc-card dc-u-p-24 dc-u-mt-8">
-            <Heading as="h3" size={500}>
-              CodeBlock
-            </Heading>
-            <Paragraph>
-              The CodeBlock component renders preformatted monospace text. It
-              can be imported as follows
-            </Paragraph>
-            <pre>
-              <code>
-                {"import { CodeBlock } from '@datacamp/waffles-text';"}
-              </code>
-            </pre>
-            <Paragraph>
-              The CodeBlock component can be used on its own. It can only take a
-              string as children. It supports all the same props as Text.
-            </Paragraph>
-            <table className="dc-table dc-table--bordered">
-              <tbody>
-                <LazyLiveEditCells
-                  code={`<CodeBlock>{\`gapminder %>%\n  filter(year == 2007) %>%\n  arrange(desc(gdpPercap))\`}\n</CodeBlock>`}
-                  scope={{ CodeBlock, Emphasis, Paragraph, Small, Strong }}
-                />
-              </tbody>
-            </table>
-          </div>
-          <div className="dc-card dc-u-p-24 dc-u-mt-8">
-            <Heading as="h3" size={500}>
-              Code
-            </Heading>
-            <Paragraph>
-              The Code component renders inline preformatted monospace text. It
-              can be imported as follows
-            </Paragraph>
-            <pre>
-              <code>{"import { Code } from '@datacamp/waffles-text';"}</code>
-            </pre>
-            <Paragraph>
-              The Code component should be used within a Paragraph. It can take
-              strings as children along with Strong and Emphasis components. It
-              supports all the same props as Text.
-            </Paragraph>
-            <table className="dc-table dc-table--bordered">
-              <tbody>
-                <LazyLiveEditCells
-                  code={`<Paragraph>We've already loaded the <Code>{\`Gapminder\`}</Code>and <Code>{\`dplyr\`}</Code>packages</Paragraph>`}
-                  scope={{ Code, Emphasis, Paragraph, Small, Strong }}
-                />
-              </tbody>
-            </table>
-          </div>
+            <LazyLiveEditCells
+              code={`<>
+  <Heading size={700} as="h1">
+    Some content
+  </Heading>
+  <Paragraph>
+    This is a paragraph containing a some Text,
+    Strong, Emphasis, Link, Code and Small
+    children. Lorem ipsum dolor sit amet,
+    consectetur adipiscing elit. Donec a enim quis
+    nisi{" "}
+    <Link href="https://datacamp.com">
+      sollicitudin tincidunt
+    </Link>{" "}
+    in nec leo. <Strong>Quisque mattis</Strong>{" "}
+    pretium nulla,{" "}
+    <Small>id malesuada nisi</Small> viverra
+    consectetur. Donec auctor dapibus nisl sit
+    amet tempor. Integer nec{" "}
+    <Code>diam sit amet sem</Code> sollicitudin
+    consectetur.{" "}
+    <Text className="dc-u-color-red">
+      Vestibulum velit turpis
+    </Text>
+    , egestas eget massa non, consectetur volutpat
+    quam. Sed eu mi eget sem euismod iaculis.
+    Aenean a ante <Emphasis>mattis orci</Emphasis>{" "}
+    dapibus pulvinar. Quisque convallis arcu eu
+    neque tincidunt condimentum.
+  </Paragraph>
+  <Heading size={600} as="h3" multiLine>
+    Some extra content with a long name that needs
+    to wrap
+  </Heading>
+  <CodeBlock>{\`gapminder %>%
+filter(year == 2007) %>%
+arrange(desc(gdpPercap))\`}</CodeBlock>
+</>`}
+              scope={{
+                Code,
+                CodeBlock,
+                Emphasis,
+                Heading,
+                Link,
+                Paragraph,
+                Small,
+                Strong,
+                Text,
+              }}
+            />
+          </Card>
+          <Heading as="h2" size={600}>
+            Properties
+          </Heading>
+          <PropTable
+            componentData={TextData['src/components/Text.tsx'][0]}
+            componentName="Text"
+          />
+
+          <PropTable
+            componentData={TextData['src/components/Paragraph.tsx'][0]}
+            componentName="Paragraph"
+          />
+
+          <PropTable
+            componentData={TextData['src/components/Strong.tsx'][0]}
+            componentName="Strong"
+          />
+
+          <PropTable
+            componentData={TextData['src/components/Emphasis.tsx'][0]}
+            componentName="Emphasis"
+          />
+
+          <PropTable
+            componentData={TextData['src/components/Small.tsx'][0]}
+            componentName="Small"
+          />
+
+          <PropTable
+            componentData={TextData['src/components/CodeBlock.tsx'][0]}
+            componentName="CodeBlock"
+          />
+
+          <PropTable
+            componentData={TextData['src/components/Code.tsx'][0]}
+            componentName="Code"
+          />
+
+          <PropTable
+            componentData={TextData['src/components/Link.tsx'][0]}
+            componentName="Link"
+          />
         </section>
       </Page>
     </main>

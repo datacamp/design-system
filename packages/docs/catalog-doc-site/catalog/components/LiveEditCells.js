@@ -1,3 +1,5 @@
+/* @jsx jsx */
+import { jsx } from '@emotion/core';
 import styled from '@emotion/styled';
 import PropTypes from 'prop-types';
 import React from 'react';
@@ -16,10 +18,11 @@ const StyledProvider = styled(LiveProvider)`
 
 const StyledEditor = styled.div`
   background: ${background};
-  font-family: 'Source Code Pro', monospace;
   font-size: 14px;
-  overflow: auto;
-  white-space: no-wrap;
+  flex: auto;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  caret-color: 'white';
 
   * > textarea:focus {
     outline: none;
@@ -28,18 +31,24 @@ const StyledEditor = styled.div`
 
 const StyledPreview = styled(LivePreview)`
   position: relative;
-  padding: 0.5rem;
+  padding: 16px;
   background: white;
   color: black;
   height: auto;
   overflow: hidden;
+  flex: auto;
+  border: 1px solid #e6eaeb;
+  border-left: 0;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  max-width: 50%;
 `;
 
 const StyledError = styled(LiveError)`
   display: block;
   padding: 8px;
   background: ${red};
-
+  width: '100%';
   color: ${foreground};
   white-space: pre-wrap;
   text-align: left;
@@ -49,15 +58,15 @@ const StyledError = styled(LiveError)`
 
 const LiveEditCells = ({ noInline, code, scope }) => (
   <StyledProvider code={code} noInline={noInline} scope={scope}>
-    <td>
-      <StyledEditor>
-        <LiveEditor />
-      </StyledEditor>
+    <div css={{ marginTop: 16, width: '100%' }}>
+      <div css={{ display: 'flex', width: '100%' }}>
+        <StyledEditor>
+          <LiveEditor />
+        </StyledEditor>
+        <StyledPreview />
+      </div>
       <StyledError />
-    </td>
-    <td>
-      <StyledPreview />
-    </td>
+    </div>
   </StyledProvider>
 );
 
