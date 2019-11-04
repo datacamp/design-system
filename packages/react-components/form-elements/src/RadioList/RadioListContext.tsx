@@ -1,7 +1,7 @@
 import React from 'react';
 
 export interface RadioContextInterface {
-  disabled?: boolean;
+  disabled: boolean;
   hasError: boolean;
   name: string;
   onChange: (value: string) => void;

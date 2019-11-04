@@ -1,7 +1,7 @@
 import tokens from '@datacamp/waffles-tokens/lib/future-tokens.json';
 import { computeDataAttributes } from '@datacamp/waffles-utils';
 import { ClassNames, css } from '@emotion/core';
-import React, { forwardRef, ReactElement } from 'react';
+import React, { forwardRef, ReactElement, Ref } from 'react';
 
 import {
   baseFormSizes,
@@ -14,12 +14,12 @@ import Label from '../Label';
 
 interface InputProps {
   /**
-   * Corresponds to the html autocomplete types.
-   * https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/autocomplete
+   * Sets the autocomplete attribute on the rendered input element.
    */
   autocomplete?: string;
   /**
-   * Sets the class on the rendered element.
+   * Sets the css className on the rendered element. Can be used to add custom
+   * styling.
    */
   className?: string;
   /**
@@ -27,25 +27,34 @@ interface InputProps {
    * used as attributes on the rendered element.
    */
   dataAttributes?: { [key: string]: string };
+  /**
+   * When provided the description will show underneath the label. Only
+   * available when 'label' is also specified.
+   */
   description?: string;
   /**
-   * It blocks user interaction.
+   * Disables the input when true.
    */
   disabled?: boolean;
   /**
-   * It shows an error message under the input field.
+   * When provided the errorMessage will show underneath the input. Only
+   * available when label is also specified.
    */
   errorMessage?: string;
-  /*
-   * It renders an icon inside the input field
+  /**
+   * When an icon is provided it will render inside the input. This can only be
+   * an component from the @datacamp/waffles-icons package.
    */
   icon?: ReactElement;
-  /*
-   * Sets an unique input id
+  /**
+   * Sets the html id on the rendered input element.
    */
   id?: string;
   /**
-   * It sets a label above the input
+   * Renders label text above the input. If this is not provided the input will
+   * render inline. When a label is provided many other props are also available
+   * and this component becomes a block that can be stacked with other form
+   * elements.
    */
   label?: string;
   /**
@@ -53,8 +62,7 @@ interface InputProps {
    */
   max?: 'string' | 'number';
   /**
-   * The maximum number of characters permitted in the input.
-   * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/text#maxlength
+   * Sets the maxLength attribute on the rendered input.
    */
   maxLength?: number;
   /**
@@ -77,15 +85,17 @@ interface InputProps {
   onChange: (value: string) => void;
   /**
    * The placeholder text to render before the user has entered a value.
-   * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/text#placeholder
    */
   placeholder?: string;
-  /*
-   * It defines wheter the input field is required or not. If required=true it adds the text 'required' on the top-right of the input, if required=false it adds 'optional'. The default value is undefined, which doesn't add anything.
+  /**
+   * It defines wheter the input field is required or not. If required=true it
+   * adds the text 'Required' on the top-right of the input, if required=false
+   * it adds 'Optional'. The default value is undefined, which doesn't add
+   * anything. This is only available when 'label' is also provided.
    */
   required?: boolean;
   /**
-   * Select the size for the input element.
+   * The size of the input element.
    */
   size?: 'small' | 'medium' | 'large';
   /**
@@ -110,117 +120,112 @@ interface InputProps {
     | 'week';
 
   /**
-   * The value of the input. This should be controlled by listening to onChange.
+   * The current value of the input. This should be controlled by listening to
+   * onChange.
    */
   value: string;
 }
 
-const Input = forwardRef<HTMLInputElement, InputProps>(
-  (
-    {
-      autocomplete,
-      className,
-      dataAttributes,
-      description,
-      disabled = false,
-      errorMessage = undefined,
-      id,
-      icon,
-      label,
-      maxLength,
-      name,
-      onBlur,
-      onChange,
-      placeholder,
-      size = 'medium',
-      required = undefined,
-      value,
-      type = 'text',
-      min,
-      max,
-      step,
-    },
-    ref
-  ) => {
-    const parsedDataAttributes = computeDataAttributes(dataAttributes);
+const InternalInput = ({
+  autocomplete,
+  className,
+  dataAttributes,
+  description,
+  disabled = false,
+  errorMessage,
+  id,
+  icon,
+  label,
+  maxLength,
+  name,
+  onBlur,
+  onChange,
+  placeholder,
+  size = 'medium',
+  required,
+  value,
+  innerRef,
+  type = 'text',
+}: InputProps & { innerRef?: Ref<HTMLInputElement> }): ReactElement => {
+  const parsedDataAttributes = computeDataAttributes(dataAttributes);
 
-    const handleChange = (event: React.ChangeEvent<HTMLInputElement>): void =>
-      onChange(event.target.value);
+  const handleChange = (event: React.ChangeEvent<HTMLInputElement>): void =>
+    onChange(event.target.value);
 
-    const handleBlur = (): void => onBlur && onBlur();
+  const handleBlur = (): void => onBlur && onBlur();
 
-    const inputSize = css(baseFormSizes[size], inputPaddings[size]);
+  const inputSize = css(baseFormSizes[size], inputPaddings[size]);
 
-    const getInputStyle = css(
-      inputSize,
-      inputStyle,
-      icon && inputWithIconPaddings[size],
-      label && css({ width: '100%' })
-    );
+  const getInputStyle = css(
+    inputSize,
+    inputStyle,
+    icon && inputWithIconPaddings[size],
+    label && css({ width: '100%' })
+  );
 
-    const iconStyle = css({
-      display: 'inline-block',
-      left: tokens.size.space[12].value,
-      position: 'absolute',
-      top: (baseFormSizes[size].height - iconSize[size]) / 2,
-    });
+  const iconStyle = css({
+    display: 'inline-block',
+    left: tokens.size.space[12].value,
+    position: 'absolute',
+    top: (baseFormSizes[size].height - iconSize[size]) / 2,
+  });
 
-    const iconElement = icon && (
-      <div css={{ position: 'relative' }}>
-        <ClassNames>
-          {({ css: getClassName }) =>
-            React.cloneElement(icon, {
-              className: getClassName(iconStyle),
-              size: iconSize[size],
-            })
-          }
-        </ClassNames>
-      </div>
-    );
+  const iconElement = icon && (
+    <div css={{ position: 'relative' }}>
+      <ClassNames>
+        {({ css: getClassName }) =>
+          React.cloneElement(icon, {
+            className: getClassName(iconStyle),
+            size: iconSize[size],
+          })
+        }
+      </ClassNames>
+    </div>
+  );
 
-    const inputElement = (
-      <>
-        {iconElement}
-        <input
-          ref={ref}
-          autoComplete={autocomplete}
-          className={className}
-          css={getInputStyle}
-          disabled={disabled}
-          id={id}
-          max={max}
-          maxLength={maxLength}
-          min={min}
-          name={name}
-          onBlur={handleBlur}
-          onChange={handleChange}
-          placeholder={placeholder}
-          step={step}
-          type={type}
-          value={value}
-          {...parsedDataAttributes}
-        />
-      </>
-    );
+  const inputElement = (
+    <>
+      {iconElement}
+      <input
+        ref={innerRef}
+        autoComplete={autocomplete}
+        className={className}
+        css={getInputStyle}
+        disabled={disabled}
+        id={id}
+        maxLength={maxLength}
+        name={name}
+        onBlur={handleBlur}
+        onChange={handleChange}
+        placeholder={placeholder}
+        type={type}
+        value={value}
+        {...parsedDataAttributes}
+      />
+    </>
+  );
 
-    return (
-      <>
-        {label ? (
-          <Label
-            description={description}
-            errorMessage={errorMessage}
-            htmlFor={id}
-            label={label}
-            required={required}
-          >
-            {inputElement}
-          </Label>
-        ) : (
-          <>{inputElement}</>
-        )}
-      </>
-    );
-  }
-);
+  return (
+    <>
+      {label ? (
+        <Label
+          description={description}
+          errorMessage={errorMessage}
+          htmlFor={id}
+          label={label}
+          required={required}
+        >
+          {inputElement}
+        </Label>
+      ) : (
+        <>{inputElement}</>
+      )}
+    </>
+  );
+};
+
+const Input = forwardRef<HTMLInputElement, InputProps>((props, ref) => (
+  <InternalInput innerRef={ref} {...props} />
+));
 
 export default Input;

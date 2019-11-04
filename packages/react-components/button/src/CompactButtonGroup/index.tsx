@@ -6,11 +6,20 @@ import React from 'react';
 import Button, { ButtonProps } from '../Button';
 
 interface CompactButtonGroupProps {
+  /**
+   * The content of the CompactButtonGroup to render. This must be a set of
+   * Button components. All Buttons within a CompactButtonGroup must have the
+   * same appearance, intent, size & disabled state.
+   */
   children: React.ReactElement<ButtonProps>[];
+  /**
+   * Sets the css class of the rendered element. Can be used to apply custom
+   * styles.
+   */
   className?: string;
 }
 
-const CompactButtonGroup: React.FC<CompactButtonGroupProps> = ({
+const CompactButtonGroup = ({
   children,
   className,
 }: CompactButtonGroupProps): React.ReactElement => {

@@ -3,6 +3,9 @@ import tokens from '@datacamp/waffles-tokens/lib/future-tokens.json';
 import React from 'react';
 
 export interface HeaderProps {
+  /**
+   * The title of the Dialog.
+   */
   children: string;
 }
 

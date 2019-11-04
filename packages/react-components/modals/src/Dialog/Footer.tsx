@@ -3,10 +3,10 @@ import tokens from '@datacamp/waffles-tokens/lib/future-tokens.json';
 import { css } from '@emotion/core';
 import { childrenOfType, nChildren } from 'airbnb-prop-types';
 import PropTypes from 'prop-types';
-import React from 'react';
+import React, { ReactElement } from 'react';
 
 export interface FooterProps {
-  children: React.ReactElement | React.ReactElement[];
+  children: ReactElement | ReactElement[];
 }
 
 const baseStyle = css({
@@ -24,7 +24,7 @@ const defaultStyle = css(baseStyle, {
   textAlign: 'center',
 });
 
-const Footer = ({ children }: FooterProps): React.ReactElement => (
+const Footer = ({ children }: FooterProps): ReactElement => (
   <div
     css={React.Children.count(children) === 2 ? twoChildrenStyle : defaultStyle}
   >
@@ -33,6 +33,10 @@ const Footer = ({ children }: FooterProps): React.ReactElement => (
 );
 
 Footer.propTypes = {
+  /**
+   * Accepts either 1 or 2 children. These can be either Buttons or
+   * ButtonGroups.
+   */
   children: PropTypes.oneOfType([
     nChildren(
       2,

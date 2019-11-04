@@ -9,7 +9,11 @@ import Button from '../Button';
 import CompactButtonGroup from '../CompactButtonGroup';
 
 interface ButtonGroupProps {
-  children: React.ReactNode[];
+  children: React.ReactNode;
+  /**
+   * Sets the css class of the rendered element. Can be used to apply custom
+   * styles.
+   */
   className?: string;
 }
 
@@ -61,6 +65,11 @@ const ButtonGroup = ({
 };
 
 ButtonGroup.propTypes = {
+  /**
+   * The content of the ButtonGroup to render. This must be a set of Button
+   * and/or CompactButtonGroup components. All Buttons within a ButtonGroup must
+   * be the same size.
+   */
   children: PropTypes.arrayOf(
     PropTypes.oneOfType([
       childrenOfType(Button),

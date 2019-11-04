@@ -4,7 +4,7 @@ import {
   ssrSafeFirstChildSelector,
 } from '@datacamp/waffles-utils';
 import { css, SerializedStyles } from '@emotion/core';
-import React from 'react';
+import React, { ReactElement, ReactNode } from 'react';
 
 import PlainString from '../alternateComponents/PlainString';
 import baseStyle from '../baseStyle';
@@ -14,11 +14,33 @@ import Strong from './Strong';
 export type Size = 300 | 400 | 500 | 600 | 700 | 800;
 export type HeadingElement = 'h1' | 'h2' | 'h3' | 'h4' | 'h5' | 'h6';
 export interface HeadingProps {
+  /**
+   * The html element to render.
+   */
   as: HeadingElement;
-  children: React.ReactNode;
+  /**
+   * The content of the Heading. This should be a string, but it can also
+   * contain Strong components.
+   */
+  children: ReactNode;
+  /**
+   * Sets the css class of the rendered element. Can be used to apply custom
+   * styles.
+   */
   className?: string;
+  /**
+   * As with all the other waffles components, dataAttributes can be used to set
+   * data- html attributes on the element.
+   */
   dataAttributes?: { [key: string]: string };
+  /**
+   * When true, the Heading will wrap text. By default the text will be
+   * truncated.
+   */
   multiLine?: boolean;
+  /**
+   * The size of the Heading to render.
+   */
   size: Size;
 }
 
@@ -58,7 +80,7 @@ const getStyle = (size: Size, multiLine: boolean): SerializedStyles => {
   );
 };
 
-const Heading: React.FC<HeadingProps> = props => {
+const Heading = (props: HeadingProps): ReactElement => {
   validateChildrenProp(props, 'Heading', [PlainString, Strong]);
   const {
     children,
@@ -77,5 +99,7 @@ const Heading: React.FC<HeadingProps> = props => {
     </Element>
   );
 };
+
+Heading.defaultProps = { multiLine: false };
 
 export default Heading;
