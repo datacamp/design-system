@@ -1,10 +1,14 @@
 import Card from '@datacamp/waffles-card';
-import { Heading, Paragraph } from '@datacamp/waffles-text';
+import CardData from '@datacamp/waffles-card/componentMetadata.json';
+import { Code, CodeBlock, Heading, Paragraph } from '@datacamp/waffles-text';
+/* @jsx jsx */
+import { jsx } from '@emotion/core';
 import { Page } from 'catalog';
 import React from 'react';
 
 import CustomHeader from '../../components/CustomHeader';
 import LazyLiveEditCells from '../../components/LazyLiveEditCells';
+import PropTable from '../../components/PropTable';
 
 export default () => {
   return (
@@ -17,45 +21,68 @@ export default () => {
 
       <Page>
         <section className="dc-u-maxw-100pc">
-          <div className="dc-card dc-u-p-24 dc-u-mt-8">
+          <Card css={{ padding: 24 }} elevation={2}>
             <Heading as="h3" size={500}>
-              About
+              Importing
             </Heading>
             <Paragraph>
-              A primitive layout component to display content, available from
-              the <code>@datacamp/waffles-card</code> package on npm. It can be
-              used both as a building block for other components, and also as a
-              way to separate content into logical sections.
+              Waffles exposes the <Code>Card</Code> component from within{' '}
+              <Code>@datacamp/waffles-card</Code>.
             </Paragraph>
-          </div>
-          <div className="dc-card dc-u-p-24 dc-u-mt-8">
+            <CodeBlock>
+              {"import Card from '@datacamp/waffles-card';"}
+            </CodeBlock>
+          </Card>
+
+          <Card css={{ marginTop: 16, padding: 24 }} elevation={2}>
             <Heading as="h3" size={500}>
-              Properties
+              Basic Example
             </Heading>
             <Paragraph>
-              The Card component takes the same <code>className</code> prop as
-              the other components. By default it will render using an html{' '}
-              <code>div</code> element, but this can be overriden using the{' '}
-              <code>as</code> prop. To style the card an <code>elevation</code>{' '}
-              can be provided between 0 and 4, this will set the border or
-              shadow of the Card. A <code>hoverElevation</code> can also be
-              applied. This will animate the card to raise it when a user
-              hovers. The <code>hoverElevation</code> should always be greater
-              than the <code>elevation</code> when provided.
+              This example highlights how a <Code>Card</Code> can be used to
+              display content in its own section.
             </Paragraph>
-            <table className="dc-table dc-table--bordered">
-              <tbody>
-                <tr>
-                  <LazyLiveEditCells
-                    code={
-                      '<Card as="section" elevation={0} hoverElevation={4}>\n  <Paragraph>Here is some content</Paragraph>\n</Card>'
-                    }
-                    scope={{ Card, Paragraph }}
-                  />
-                </tr>
-              </tbody>
-            </table>
-          </div>
+            <LazyLiveEditCells
+              code={`<Card className="dc-u-p-24">
+  <Heading as="h5" size={400}>
+    A Card
+  </Heading>
+  <Paragraph>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi et felis at ex hendrerit euismod. Aenean ut eros nisl. Etiam maximus augue ut velit fermentum, id aliquam elit tempor. Aenean commodo, urna et posuere auctor, neque justo scelerisque quam, quis ullamcorper ex ligula sed odio. Suspendisse at eros ante.
+  </Paragraph>
+</Card>`}
+              scope={{ Card, Heading, Paragraph }}
+            />
+          </Card>
+          <Card css={{ marginTop: 16, padding: 24 }} elevation={2}>
+            <Heading as="h3" size={500}>
+              Elevation Example
+            </Heading>
+            <Paragraph>
+              This example highlights how a <Code>Card</Code> can be used with
+              an elevation and a coloured background.
+            </Paragraph>
+            <LazyLiveEditCells
+              code={`<div className="dc-u-p-24 dc-u-bgc-porcelain">
+  <Card className="dc-u-p-24" elevation={2} hoverElevation={4}>
+    <Heading as="h5" size={400}>
+      A Card
+    </Heading>
+    <Paragraph>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi et felis at ex hendrerit euismod. Aenean ut eros nisl. Etiam maximus augue ut velit fermentum, id aliquam elit tempor. Aenean commodo, urna et posuere auctor, neque justo scelerisque quam, quis ullamcorper ex ligula sed odio. Suspendisse at eros ante.
+    </Paragraph>
+  </Card>
+</div>`}
+              scope={{ Card, Heading, Paragraph }}
+            />
+          </Card>
+          <Heading as="h3" size={500}>
+            Properties
+          </Heading>
+          <PropTable
+            componentData={CardData['src/index.tsx'][0]}
+            componentName="Card"
+          />
         </section>
       </Page>
     </main>
