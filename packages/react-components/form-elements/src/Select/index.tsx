@@ -4,7 +4,7 @@ import { computeDataAttributes } from '@datacamp/waffles-utils';
 import { css } from '@emotion/core';
 import { childrenOfType } from 'airbnb-prop-types';
 import PropTypes from 'prop-types';
-import React, { Component, forwardRef, ReactElement } from 'react';
+import React, { Component, forwardRef, ReactElement, Ref } from 'react';
 
 import {
   arrowIconPosition,
@@ -27,26 +27,29 @@ interface SelectProps {
    * used as attributes on the rendered element.
    */
   dataAttributes?: { [key: string]: string };
+  /**
+   * When provided the description will show underneath the label. Only
+   * available when 'label' is also specified.
+   */
   description?: string;
   /**
-   * It blocks user interaction.
+   * Disables the Select when true.
    */
   disabled?: boolean;
   /**
-   * It shows an error message under the select element.
+   * When provided the errorMessage will show underneath the Select. Only
+   * available when label is also specified.
    */
   errorMessage?: string;
   /**
-   * ref
-   */
-  innerRef?: React.Ref<HTMLSelectElement>;
-  /**
-   * It sets a label above the select element
+   * Renders label text above the Select. If this is not provided the Select will
+   * render inline. When a label is provided many other props are also available
+   * and this component becomes a block that can be stacked with other form
+   * elements.
    */
   label?: string;
   /**
-   * Used to set the html name attribute. Uniquely indentifies the select within
-   * the current form context.
+   * Sets the name attribute on the rendered select.
    */
   name: string;
   /**
@@ -54,19 +57,24 @@ interface SelectProps {
    */
   onBlur?: () => void;
   /**
-   * Called when the user changes the value selected
+   * Called when the user requests a change to the value of the select. This
+   * should be used to set the value.
    */
   onChange: (value: string) => void;
-  /*
-   * It defines wheter the select element is required or not. If required=true it adds the text 'required' on the top-right of the select, if required=false it adds 'optional'. The default value is undefined, which doesn't add anything.
+  /**
+   * It defines wheter the select field is required or not. If required=true it
+   * adds the text 'Required' on the top-right of the select, if required=false
+   * it adds 'Optional'. The default value is undefined, which doesn't add
+   * anything. This is only available when 'label' is also provided.
    */
   required?: boolean;
   /**
-   * Select the size for the select element.
+   * The size of the select element.
    */
   size?: 'small' | 'medium' | 'large';
   /**
-   * The value of the select element. This should be controlled by listening to onChange.
+   * The current value of the select. This should be controlled by listening to
+   * onChange.
    */
   value: string;
 }
@@ -80,7 +88,10 @@ const iconStyle = css({
   position: 'absolute',
 });
 
-class Select extends Component<SelectProps, SelectState> {
+class Select extends Component<
+  SelectProps & { innerRef?: Ref<HTMLSelectElement> },
+  SelectState
+> {
   public static Option = Option;
 
   public static propTypes = {
@@ -180,6 +191,13 @@ class Select extends Component<SelectProps, SelectState> {
     );
   }
 }
+
+Select.propTypes = {
+  /**
+   * Takes multiple SelectOption components as children.
+   */
+  children: PropTypes.arrayOf(childrenOfType(Option)).isRequired,
+};
 
 export default forwardRef<HTMLSelectElement, SelectProps>((props, ref) => (
   <Select {...props} innerRef={ref} />

@@ -12,9 +12,10 @@
   "scripts": {
     "build:cjs": "BABEL_ENV=cjs babel src --extensions '.tsx','.ts' --out-dir lib --ignore \"src/**/*.spec.tsx\",\"src/**/*.spec.ts\" --config-file ./babel7.config.js",
     "build:es": "BABEL_ENV=es babel src --extensions '.tsx','.ts' --out-dir es --ignore \"src/**/*.spec.tsx\",\"src/**/*.spec.ts\" --config-file ./babel7.config.js",
-    "clean": "rm -rf lib es types",
+    "clean": "rm -rf lib es types componentMetadata.json",
     "build:types": "tsc --rootDir src --declarationDir types --emitDeclarationOnly",
-    "build": "yarn build:types && yarn build:cjs && yarn build:es",
+    "build:metadata": "react-docgen src --exclude \"/^.+spec.+$/\" -x tsx -o componentMetadata.json --resolver findAllComponentDefinitions",
+    "build": "yarn build:types && yarn build:cjs && yarn build:es && yarn build:metadata",
     "prepare": " yarn clean && yarn build",
     "test": "jest",
     "type-check": "tsc --noEmit",
@@ -35,6 +36,7 @@
     "jest": "24.9.0",
     "jest-emotion": "10.0.17",
     "react": "16.8.6",
+    "react-docgen": "5.0.0-beta.1",
     "react-dom": "16.8.6"
   },
   "dependencies": {

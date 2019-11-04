@@ -23,10 +23,28 @@ type IconType = typeof Icons.AddCircleIcon; // Could use any Icon here
 type IconElement = ReactElement<ComponentProps<IconType>, IconType>;
 
 interface BaseButtonProps {
+  /**
+   * Sets the css class of the rendered element. Can be used to apply custom
+   * styles.
+   */
   className?: string;
+  /**
+   * As with all the other waffles components, dataAttributes can be used to set
+   * data- html attributes on the element.
+   */
   dataAttributes?: { [key: string]: string };
+  /**
+   * The button can be disabled by passing "disabled" as a prop.
+   */
   disabled?: boolean;
+  /**
+   * By passing "loading" as a prop, the button will be disabled and it will
+   * render a spinner.
+   */
   loading?: boolean;
+  /**
+   * The size of the button to render.
+   */
   size?: 'small' | 'medium' | 'large';
 }
 
@@ -81,7 +99,9 @@ export type ButtonProps = BaseButtonProps &
   (StringChildProps | IconChildProps | IconTextChildProps) &
   (DefaultProps | PrimaryProps);
 
-const Button: React.FC<ButtonProps & { innerRef?: React.Ref<any> }> = props => {
+const InternalButton = (
+  props: ButtonProps & { innerRef?: React.Ref<any> }
+): React.ReactElement => {
   const {
     appearance = 'default',
     ariaLabel,
@@ -223,7 +243,21 @@ const Button: React.FC<ButtonProps & { innerRef?: React.Ref<any> }> = props => {
 // additional prop-types validation that the child is either icon or string
 const iconValidator = childrenOfType(...Object.values(Icons));
 
-Button.propTypes = {
+InternalButton.propTypes = {
+  /**
+   * When the appearance is "primary", the button will have a filled colour.
+   */
+  appearance: PropTypes.oneOf(['default', 'primary']),
+  /**
+   * Set the aria-label on the rendered element. This is required when using a single icon as a child.
+   */
+  ariaLabel: PropTypes.string,
+  /**
+   * The content of the button. This can either be text, and icon, or a
+   * combination of the two. When this is one of the components exposed by
+   * @datacamp/waffles-icons, the button will render as a square. In this
+   * situation ariaLabel is required.
+   */
   children: PropTypes.oneOfType([
     nChildren(
       2,
@@ -231,13 +265,46 @@ Button.propTypes = {
     ),
     PropTypes.string,
     iconValidator,
-  ]) as PropTypes.Validator<IconElement>,
+  ]).isRequired,
+  /**
+   * The destination of the link. Only available when type="link".
+   */
+  href: PropTypes.string,
+  /**
+   * Defines the color of the button. The cta intent can be used only with
+   * the primary appearance.
+   */
+  intent: PropTypes.oneOf(['neutral', 'danger', 'success', 'warning', 'cta']),
+  /**
+   * The callback fired when the button is clicked. Only available when
+   * type="button".
+   */
+  onClick: PropTypes.func,
+  /**
+   * Specifies where to open the linked document. Only available when
+   * type="link".
+   */
+  target: PropTypes.string,
+  /**
+   * Determines what is rendered, and what other props are available. The type
+   * "submit" should be used for form submissions. The type "link" will render
+   * an <a> tag, and should be used with an 'href'. And the type "button" should
+   * be used with the 'onClick' prop.
+   */
+  type: PropTypes.oneOf(['button', 'link', 'submit']),
 };
 
-const ButtonWithRef = React.forwardRef<any, ButtonProps>((props, ref) => (
-  <Button innerRef={ref} {...props} />
+InternalButton.defaultProps = {
+  appearance: 'default',
+  disabled: false,
+  intent: 'neutral',
+  loading: false,
+  size: 'medium',
+  type: 'button',
+};
+
+const Button = React.forwardRef<any, ButtonProps>((props, ref) => (
+  <InternalButton innerRef={ref} {...props} />
 ));
 
-ButtonWithRef.displayName = 'Button';
-
-export default ButtonWithRef;
+export default Button;

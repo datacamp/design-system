@@ -1,7 +1,7 @@
 import tokens from '@datacamp/waffles-tokens/lib/future-tokens.json';
 import { computeDataAttributes } from '@datacamp/waffles-utils';
 import { css } from '@emotion/core';
-import React from 'react';
+import React, { ReactElement, ReactNode } from 'react';
 
 import baseStyle from '../baseStyle';
 import validateChildrenProp from '../validateChildrenProp';
@@ -9,8 +9,20 @@ import Small from './Small';
 import Strong from './Strong';
 
 export interface TextProps {
-  children: string | (string | React.ReactElement)[];
+  /**
+   * The content to display. Can contain a combination of strings, Small
+   * components, and Strong Components.
+   */
+  children: ReactNode;
+  /**
+   * Sets the css class of the rendered element. Can be used to apply custom
+   * styles.
+   */
   className?: string;
+  /**
+   * As with all the other waffles components, dataAttributes can be used to set
+   * data- html attributes on the element.
+   */
   dataAttributes?: { [key: string]: string };
 }
 
@@ -20,7 +32,7 @@ const textStyle = css(baseStyle, {
   lineHeight: tokens.size.font.base.value,
 });
 
-const Text: React.FC<TextProps> = (props: TextProps) => {
+const Text = (props: TextProps): ReactElement => {
   validateChildrenProp(props, 'Text', [Small, Strong]);
   const { children, className, dataAttributes } = props;
   const parsedDataAttributes = computeDataAttributes(dataAttributes);

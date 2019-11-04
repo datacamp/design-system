@@ -19,8 +19,10 @@ interface DialogProps {
    */
   isOpen: boolean;
   /**
-   * Called when the modal is closed
-   * @param origin The original source of the request to close.
+   * This function is called whenever the user requests to close the Dialog. It
+   * is the responsibility of the application to handle this correctly and set
+   * isOpen to false. This function will be called with an origin string that
+   * specifies how the user requested to close the modal.
    */
   onClose: (origin: CloseOrigin) => void;
   /**

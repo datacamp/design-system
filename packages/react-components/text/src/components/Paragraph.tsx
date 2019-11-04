@@ -4,7 +4,7 @@ import {
   ssrSafeFirstChildSelector,
 } from '@datacamp/waffles-utils';
 import { css } from '@emotion/core';
-import React from 'react';
+import React, { ReactElement, ReactNode } from 'react';
 
 import AlternateCode from '../alternateComponents/AlternateCode';
 import PlainString from '../alternateComponents/PlainString';
@@ -18,8 +18,21 @@ import Strong from './Strong';
 import Text from './Text';
 
 interface ParagraphProps {
-  children: React.ReactNode;
+  /**
+   * The content to display. Can contain a combination of strings, Text
+   * components, Strong components, Small components, Emphasis components, and
+   * Code components.
+   */
+  children: ReactNode;
+  /**
+   * Sets the css class of the rendered element. Can be used to apply custom
+   * styles.
+   */
   className?: string;
+  /**
+   * As with all the other waffles components, dataAttributes can be used to set
+   * data- html attributes on the element.
+   */
   dataAttributes?: { [key: string]: string };
 }
 
@@ -34,7 +47,7 @@ const paragraphStyle = css(baseStyle, {
   },
 });
 
-const Paragraph: React.FC<ParagraphProps> = props => {
+const Paragraph = (props: ParagraphProps): ReactElement => {
   validateChildrenProp(props, 'Paragraph', [
     Strong,
     Text,

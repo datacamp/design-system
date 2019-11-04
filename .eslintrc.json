@@ -63,7 +63,8 @@
       { "shorthandLast": true, "reservedFirst": true }
     ],
     "react-hooks/rules-of-hooks": "error",
-    "react-hooks/exhaustive-deps": "error"
+    "react-hooks/exhaustive-deps": "error",
+    "react/default-props-match-prop-types": "off"
   },
   "globals": {},
   "env": {

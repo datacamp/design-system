@@ -2,7 +2,7 @@ import { Text } from '@datacamp/waffles-text';
 import tokens from '@datacamp/waffles-tokens/lib/future-tokens.json';
 import { ssrSafeFirstChildSelector } from '@datacamp/waffles-utils';
 import { css } from '@emotion/core';
-import React from 'react';
+import React, { ReactElement } from 'react';
 
 import RadioIcon from './RadioIcon';
 import RadioListContext from './RadioListContext';
@@ -13,12 +13,13 @@ export interface RadioProps {
    */
   children: string;
   /**
-   * It blocks user interaction.
+   * When true this individual option will be disabled. This is overriden when
+   * disabled is set on RadioList itself.
    */
   disabled?: boolean;
   /**
-   * The value of the radio list. This should be controlled by listening to
-   * onChange.
+   * The value of this option. If this matches the value provided to the parent
+   * `RadioList`, this option will be selected.
    */
   value: string;
 }
@@ -43,7 +44,14 @@ const focusStyle = {
   width: 18,
 };
 
-const Radio: React.FC<RadioProps> = ({ disabled, value, children }) => {
+/**
+ * Can only be used within `RadioList`
+ */
+const Radio = ({
+  disabled = false,
+  value,
+  children,
+}: RadioProps): ReactElement => {
   return (
     <RadioListContext.Consumer>
       {contextValue => {
@@ -77,7 +85,7 @@ const Radio: React.FC<RadioProps> = ({ disabled, value, children }) => {
             />
             <RadioIcon
               checked={contextValue.value === value}
-              disabled={disabled || contextValue.disabled || false}
+              disabled={disabled || contextValue.disabled}
               error={contextValue.hasError}
             />
             <Text

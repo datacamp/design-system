@@ -4,11 +4,17 @@ import {
   Paragraph,
   Strong,
 } from '@datacamp/waffles-text';
-import React from 'react';
+import React, { ReactElement } from 'react';
 import ReactMarkdown from 'react-markdown';
 
 interface MarkdownProps {
+  /**
+   * Adds a css className to the rendered element.
+   */
   className?: string;
+  /**
+   * The markdown string to render.
+   */
   source: string;
 }
 
@@ -29,7 +35,7 @@ const renderers = {
   text: PlainString as any, // eslint-disable-line @typescript-eslint/no-explicit-any
 };
 
-const Markdown: React.FC<MarkdownProps> = props => {
+const Markdown = (props: MarkdownProps): ReactElement => {
   const { source, className } = props;
   return (
     <ReactMarkdown

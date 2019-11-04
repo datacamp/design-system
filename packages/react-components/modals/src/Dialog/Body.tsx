@@ -1,11 +1,15 @@
 import tokens from '@datacamp/waffles-tokens/lib/future-tokens.json';
-import React from 'react';
+import React, { ReactElement, ReactNode } from 'react';
 
 export interface BodyProps {
-  children: React.ReactNode;
+  /**
+   * The content to render inside the Dialog. Should be used along with
+   * `Dialog.Header`.
+   */
+  children: ReactNode;
 }
 
-const Body = ({ children }: BodyProps): React.ReactElement => (
+const Body = ({ children }: BodyProps): ReactElement => (
   <div
     css={{
       paddingBottom: tokens.size.space[32].value,

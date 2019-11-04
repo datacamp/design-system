@@ -1,7 +1,7 @@
 import tokens from '@datacamp/waffles-tokens/lib/future-tokens.json';
 import { css } from '@emotion/core';
 import PropTypes from 'prop-types';
-import * as React from 'react';
+import React, { ReactElement, ReactNode } from 'react';
 
 export const elevationMap = {
   0: tokens.shadow.border.value,
@@ -15,20 +15,37 @@ export const elevationMap = {
 type elevationKeys = 0 | 1 | 2 | 3 | 4;
 
 interface CardProps {
+  /**
+   * The html element to render.
+   */
   as?: 'div' | 'section' | 'aside';
-  children: React.ReactNode;
+  /**
+   * The content of the card.
+   */
+  children: ReactNode;
+  /**
+   * A css className. This can be used to add custom styling.
+   */
   className?: string;
+  /**
+   * The border/shadow to use on the Card. 0 corresponds to a border, and the
+   * other values correspond to levels of shadow.
+   */
   elevation?: elevationKeys;
+  /**
+   * The border/shadow to use when the Card is hovered. Accepts the same values
+   * as elevation, and must also be greater than the elevation level provided.
+   */
   hoverElevation?: elevationKeys;
 }
 
-const Card: React.FC<CardProps> = ({
+const Card = ({
   as: Element = 'div',
   children,
   className,
   elevation = 0,
   hoverElevation,
-}) => {
+}: CardProps): ReactElement => {
   // warn when hoverElevation is less than elevation
   PropTypes.checkPropTypes(
     {
