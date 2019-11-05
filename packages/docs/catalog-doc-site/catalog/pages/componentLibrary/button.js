@@ -81,10 +81,17 @@ export default () => {
             </Paragraph>
             <LazyLiveEditCells
               code={`<ButtonGroup>
-  <Button type="submit" appearance="primary" intent="success">
+  <Button
+    type="submit"
+    appearance="primary"
+    intent="success"
+  >
     Submit
   </Button>
-  <Button onClick={() => alert("Alert!")}>
+  <Button
+    onClick={() => alert("Alert!")}
+    tooltipText="Click here to see an alert"
+  >
     open alert
   </Button>
   <Button
