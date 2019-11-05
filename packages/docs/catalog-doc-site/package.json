@@ -10,7 +10,8 @@
   "scripts": {
     "build": "catalog build",
     "start": "catalog start",
-    "prepare": "yarn build"
+    "prepare": "yarn build",
+    "postinstall": "rm -rf node_modules/react # hack to ensure we always use the hoisted version of react"
   },
   "dependencies": {
     "@datacamp/waffles-button": "^4.3.0",
