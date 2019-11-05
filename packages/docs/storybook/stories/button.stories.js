@@ -20,12 +20,18 @@ const AllButtonCombos = ({ children }) => (
   >
     {['default', 'primary'].map(appearance =>
       ['small', 'medium', 'large'].map(size => (
-        <ButtonGroup>
+        <ButtonGroup key={`${appearance}${size}`}>
           {[null, 'loading', 'disabled'].map(state => {
             const availableIntents =
               appearance === 'primary' ? [...intents, 'cta'] : intents;
             return availableIntents.map(intent =>
-              children({ appearance, intent, size, state })
+              children({
+                appearance,
+                intent,
+                key: `${appearance}${intent}${size}${state}`,
+                size,
+                state,
+              })
             );
           })}
         </ButtonGroup>
@@ -38,13 +44,15 @@ storiesOf('waffles-button', module)
   .addParameters({ percy: { widths: [1500] } })
   .add('Button with text', () => (
     <AllButtonCombos>
-      {({ appearance, state, intent, size }) => (
+      {({ appearance, state, intent, size, key }) => (
         <Button
+          key={key}
           appearance={appearance}
           disabled={state === 'disabled'}
           intent={intent}
           loading={state === 'loading'}
           size={size}
+          tooltipText="tooltip text"
         >
           Button
         </Button>
@@ -54,13 +62,15 @@ storiesOf('waffles-button', module)
 
   .add('Button with icon', () => (
     <AllButtonCombos>
-      {({ appearance, state, intent, size }) => (
+      {({ appearance, state, intent, size, key }) => (
         <Button
+          key={key}
           appearance={appearance}
           disabled={state === 'disabled'}
           intent={intent}
           loading={state === 'loading'}
           size={size}
+          tooltipText="tooltip text"
         >
           <AddCircleIcon />
         </Button>
@@ -70,26 +80,30 @@ storiesOf('waffles-button', module)
   .add('Button with icon and text', () => (
     <>
       <AllButtonCombos>
-        {({ appearance, state, intent, size }) => (
+        {({ appearance, state, intent, size, key }) => (
           <Button
+            key={key}
             appearance={appearance}
             disabled={state === 'disabled'}
             intent={intent}
             loading={state === 'loading'}
             size={size}
+            tooltipText="tooltip text"
           >
             <AddCircleIcon /> Add
           </Button>
         )}
       </AllButtonCombos>
       <AllButtonCombos>
-        {({ appearance, state, intent, size }) => (
+        {({ appearance, state, intent, size, key }) => (
           <Button
+            key={key}
             appearance={appearance}
             disabled={state === 'disabled'}
             intent={intent}
             loading={state === 'loading'}
             size={size}
+            tooltipText="tooltip text"
           >
             Add <AddCircleIcon />
           </Button>
