@@ -10525,3 +10525,261 @@ exports[`<Button /> snapshots renders a squared button with a single icon 1`] = 
   </svg>
 </button>
 `;
+
+exports[`<Button /> tooltips displays/removes the tooltip on focus/blur 1`] = `
+.emotion-1 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border: none;
+  border-radius: 4px;
+  border-style: solid;
+  border-width: 1px;
+  cursor: pointer;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  -webkit-transition: 0.15s;
+  transition: 0.15s;
+  vertical-align: baseline;
+  white-space: nowrap;
+  background-color: white;
+  border-color: #33aacc;
+  color: #33aacc;
+  padding: 0 15px;
+}
+
+.emotion-1:active {
+  -webkit-transform: perspective(1px) scale(0.975);
+  -ms-transform: perspective(1px) scale(0.975);
+  transform: perspective(1px) scale(0.975);
+}
+
+.emotion-1:disabled,
+.emotion-1:hover:disabled,
+.emotion-1:active:disabled {
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+}
+
+.emotion-1:focus {
+  outline: 0;
+}
+
+.emotion-1:focus {
+  box-shadow: 0 0 0 4px #DCECF1;
+}
+
+.emotion-1:hover {
+  border-color: #2E8FAB;
+  color: #2E8FAB;
+}
+
+.emotion-0 {
+  color: rgb(77,83,86);
+  font-family: sans-serif;
+  font-family: Lato;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  font-size: 16px;
+  line-height: 46px;
+  color: #3d4251;
+  font-weight: bold;
+}
+
+.emotion-3 {
+  left: 0;
+  position: absolute;
+  top: 0;
+  -webkit-transform: translate(-50%,0);
+  -ms-transform: translate(-50%,0);
+  transform: translate(-50%,0);
+}
+
+.emotion-2 {
+  color: rgb(77,83,86);
+  font-family: sans-serif;
+  font-family: Lato;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  background-color: #0c1626;
+  border-radius: 4px;
+  color: #ffffff;
+  display: block;
+  font-size: 14px;
+  margin-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 8px;
+}
+
+<body>
+  <div>
+    <button
+      aria-describedby="mock-id"
+      class="emotion-1"
+      type="button"
+    >
+      <span
+        class="emotion-0"
+      >
+        Confirm
+      </span>
+    </button>
+  </div>
+  <div
+    class="emotion-3"
+    id="mock-id"
+  >
+    <span
+      class="emotion-2"
+    >
+      tooltip text
+    </span>
+  </div>
+</body>
+`;
+
+exports[`<Button /> tooltips displays/removes the tooltip on hover/unhover 1`] = `
+.emotion-1 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border: none;
+  border-radius: 4px;
+  border-style: solid;
+  border-width: 1px;
+  cursor: pointer;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  -webkit-transition: 0.15s;
+  transition: 0.15s;
+  vertical-align: baseline;
+  white-space: nowrap;
+  background-color: white;
+  border-color: #33aacc;
+  color: #33aacc;
+  padding: 0 15px;
+}
+
+.emotion-1:active {
+  -webkit-transform: perspective(1px) scale(0.975);
+  -ms-transform: perspective(1px) scale(0.975);
+  transform: perspective(1px) scale(0.975);
+}
+
+.emotion-1:disabled,
+.emotion-1:hover:disabled,
+.emotion-1:active:disabled {
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+}
+
+.emotion-1:focus {
+  outline: 0;
+}
+
+.emotion-1:focus {
+  box-shadow: 0 0 0 4px #DCECF1;
+}
+
+.emotion-1:hover {
+  border-color: #2E8FAB;
+  color: #2E8FAB;
+}
+
+.emotion-0 {
+  color: rgb(77,83,86);
+  font-family: sans-serif;
+  font-family: Lato;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  font-size: 16px;
+  line-height: 46px;
+  color: #3d4251;
+  font-weight: bold;
+}
+
+.emotion-3 {
+  left: 0;
+  position: absolute;
+  top: 0;
+  -webkit-transform: translate(-50%,0);
+  -ms-transform: translate(-50%,0);
+  transform: translate(-50%,0);
+}
+
+.emotion-2 {
+  color: rgb(77,83,86);
+  font-family: sans-serif;
+  font-family: Lato;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  background-color: #0c1626;
+  border-radius: 4px;
+  color: #ffffff;
+  display: block;
+  font-size: 14px;
+  margin-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 8px;
+}
+
+<body>
+  <div>
+    <button
+      aria-describedby="mock-id"
+      class="emotion-1"
+      type="button"
+    >
+      <span
+        class="emotion-0"
+      >
+        Confirm
+      </span>
+    </button>
+  </div>
+  <div
+    class="emotion-3"
+    id="mock-id"
+  >
+    <span
+      class="emotion-2"
+    >
+      tooltip text
+    </span>
+  </div>
+</body>
+`;

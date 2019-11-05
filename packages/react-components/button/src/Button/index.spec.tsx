@@ -3,10 +3,13 @@ import '@testing-library/jest-dom/extend-expect';
 import axeRender from '@datacamp/waffles-axe-render';
 import { AddCircleIcon } from '@datacamp/waffles-icons';
 import tokens from '@datacamp/waffles-tokens/lib/future-tokens.json';
+import { fireEvent } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import React from 'react';
 
 import Button from '.';
+
+jest.mock('react-uid', () => ({ useUIDSeed: () => () => 'mock-id' }));
 
 describe('<Button />', () => {
   const someFunction = jest.fn();
@@ -611,6 +614,42 @@ describe('<Button />', () => {
       const buttonElement = container.firstChild as HTMLElement;
 
       expect(buttonElement).toHaveAttribute('type', 'submit');
+    });
+  });
+
+  describe('tooltips', () => {
+    it('displays/removes the tooltip on focus/blur', async () => {
+      const tooltipText = 'tooltip text';
+      const { container, getByText, baseElement } = await axeRender(
+        <Button onClick={() => {}} tooltipText={tooltipText}>
+          Confirm
+        </Button>
+      );
+      const buttonElement = container.firstChild as HTMLElement;
+      fireEvent.focus(buttonElement);
+      const tooltipElement = getByText(tooltipText);
+      expect(tooltipElement).toBeInTheDocument();
+      expect(baseElement).toMatchSnapshot();
+
+      fireEvent.blur(buttonElement);
+      expect(tooltipElement).not.toBeInTheDocument();
+    });
+
+    it('displays/removes the tooltip on hover/unhover', async () => {
+      const tooltipText = 'tooltip text';
+      const { container, getByText, baseElement } = await axeRender(
+        <Button onClick={() => {}} tooltipText={tooltipText}>
+          Confirm
+        </Button>
+      );
+      const buttonElement = container.firstChild as HTMLElement;
+      fireEvent.mouseEnter(buttonElement);
+      const tooltipElement = getByText(tooltipText);
+      expect(tooltipElement).toBeInTheDocument();
+      expect(baseElement).toMatchSnapshot();
+
+      fireEvent.mouseLeave(buttonElement);
+      expect(tooltipElement).not.toBeInTheDocument();
     });
   });
 
