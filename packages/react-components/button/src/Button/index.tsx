@@ -5,8 +5,11 @@ import { computeDataAttributes } from '@datacamp/waffles-utils';
 import { css, SerializedStyles } from '@emotion/core';
 import { childrenOfType, nChildren } from 'airbnb-prop-types';
 import PropTypes from 'prop-types';
-import React, { ComponentProps, ReactElement } from 'react';
+import React, { ComponentProps, ReactElement, useRef, useState } from 'react';
+import { useUIDSeed } from 'react-uid';
+import { mergeRefs } from 'use-callback-ref';
 
+import Tooltip from '../Tooltip';
 import {
   baseLoadingStyle,
   baseStyle,
@@ -46,6 +49,10 @@ interface BaseButtonProps {
    * The size of the button to render.
    */
   size?: 'small' | 'medium' | 'large';
+  /**
+   * An additional description to show on hover or focus.
+   */
+  tooltipText?: string;
 }
 
 interface LinkButtonProps {
@@ -113,19 +120,19 @@ const InternalButton = (
     intent = 'neutral',
     loading = false,
     size = 'medium',
+    tooltipText,
   } = props;
 
-  const parsedDataAttributes = computeDataAttributes(dataAttributes);
-
-  // TEXT STYLES
-
+  const buttonRef = useRef<HTMLElement>();
+  const [hasFocus, setHasFocus] = useState(false);
+  const [hasHover, setHasHover] = useState(false);
+  const uidSeed = useUIDSeed();
+  const tooltipId = uidSeed('button-tooltip');
   const outlineTextColor = disabled
     ? tokens.color.opaque.greyLight.value.hex
     : tokens.color.opaque.greyDark.value.hex;
-  const outlineIconColor = disabled ? disabledColors[intent] : 'currentColor';
-
   const ctaTextColor = intent === 'cta' ? outlineTextColor : 'white';
-
+  const outlineIconColor = disabled ? disabledColors[intent] : 'currentColor';
   const textColor = appearance === 'primary' ? ctaTextColor : outlineTextColor;
   const getColor = appearance === 'primary' ? ctaTextColor : outlineIconColor;
 
@@ -133,10 +140,8 @@ const InternalButton = (
     color: loading ? 'transparent' : textColor,
     fontWeight: 'bold',
   });
-
   const margin =
     size === 'large' ? tokens.size.space[16].value : tokens.size.space[8].value;
-
   const getTextStyleWithMargin = (i: number | undefined): SerializedStyles => {
     if (i === 1) {
       return css(baseTextStyle, {
@@ -147,9 +152,7 @@ const InternalButton = (
       marginRight: margin,
     });
   };
-
-  // BUTTON STYLES
-
+  const parsedDataAttributes = computeDataAttributes(dataAttributes);
   const buttonStyle = css(
     baseStyle,
     getAppearanceStyle(appearance, intent, !loading && !disabled),
@@ -160,83 +163,78 @@ const InternalButton = (
       : getIconSize(size)
   );
 
-  const commonProps = {
-    'aria-label': ariaLabel,
-    className,
-    css: buttonStyle,
-    disabled: disabled || loading,
-    ...parsedDataAttributes,
-    ref: innerRef,
-  };
-
-  const iconOrText = (
-    child: string | IconElement,
-    i?: number
-  ): ReactElement => {
-    if (typeof child === 'string') {
-      return (
-        <Text
-          css={
-            React.Children.count(children) > 1
-              ? getTextStyleWithMargin(i)
-              : baseTextStyle
-          }
-        >
-          {child}
-        </Text>
-      );
+  // eslint-disable-next-line @typescript-eslint/explicit-function-return-type
+  const { Element, ...otherProps } = (() => {
+    switch (props.type) {
+      case 'link':
+        return {
+          Element: 'a',
+          href: props.href,
+          target: props.target,
+        } as const;
+      case 'submit':
+        return { Element: 'button', type: 'submit' } as const;
+      case 'button':
+      default:
+        return {
+          Element: 'button',
+          onClick: !loading ? props.onClick : undefined,
+          type: 'button',
+        } as const;
     }
-    return React.cloneElement(child, {
-      'aria-hidden': true, // hide icon from screen reader so only ariaLabel or button text is read.
-      color: loading ? 'transparent' : getColor,
-      size: size === 'large' ? 24 : 18,
-      title: '', // remove tooltip from icon within button
-    });
-  };
+  })();
 
-  const buttonContent = (
+  const tooltipVisible = !(disabled || loading) && (hasFocus || hasHover);
+
+  return (
     <>
-      {loading && (
-        <Spinner
-          css={{ position: 'absolute' }}
-          inverted={appearance === 'primary' && intent !== 'cta'}
-        />
-      )}
-      {React.Children.map<unknown, string | IconElement>(children, (child, i) =>
-        iconOrText(child, i)
+      <Element
+        ref={innerRef ? mergeRefs([buttonRef, innerRef]) : buttonRef}
+        aria-describedby={tooltipText && tooltipVisible ? tooltipId : undefined}
+        aria-label={ariaLabel}
+        className={className}
+        css={buttonStyle}
+        disabled={disabled || loading}
+        onBlur={() => setHasFocus(false)}
+        onFocus={() => setHasFocus(true)}
+        onMouseEnter={() => setHasHover(true)}
+        onMouseLeave={() => setHasHover(false)}
+        {...otherProps}
+        {...parsedDataAttributes}
+      >
+        {loading && (
+          <Spinner
+            css={{ position: 'absolute' }}
+            inverted={appearance === 'primary' && intent !== 'cta'}
+          />
+        )}
+        {React.Children.map(children, (child, i) =>
+          typeof child === 'string' ? (
+            <Text
+              css={
+                React.Children.count(children) > 1
+                  ? getTextStyleWithMargin(i)
+                  : baseTextStyle
+              }
+            >
+              {child}
+            </Text>
+          ) : (
+            React.cloneElement(child, {
+              'aria-hidden': true, // hide icon from screen reader so only ariaLabel or button text is read.
+              color: loading ? 'transparent' : getColor,
+              size: size === 'large' ? 24 : 18,
+              title: '', // remove tooltip from icon within button
+            })
+          )
+        )}
+      </Element>
+      {tooltipText && (
+        <Tooltip id={tooltipId} target={buttonRef} visible={tooltipVisible}>
+          {tooltipText}
+        </Tooltip>
       )}
     </>
-  );
-
-  // eslint-disable-next-line react/destructuring-assignment
-  if (props.type === 'link') {
-    const { href, target } = props;
-
-    return (
-      <a {...commonProps} href={href} target={target}>
-        {buttonContent}
-      </a>
-    );
-  }
-
-  // eslint-disable-next-line react/destructuring-assignment
-  if (props.type === 'submit') {
-    return (
-      <button {...commonProps} type="submit">
-        {buttonContent}
-      </button>
-    );
-  }
-
-  const { onClick } = props;
-  return (
-    <button
-      {...commonProps}
-      onClick={!loading ? onClick : undefined}
-      type="button"
-    >
-      {buttonContent}
-    </button>
   );
 };
 
