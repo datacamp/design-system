@@ -149,6 +149,7 @@ To describe admins who only have access to the dashboard, and not DataCamp learn
 
 ### Coding languages
 Follow the style of the original name of the language. Correct style of DataCamp-supported languages are below:
+* Bash
 * Git
 * Python
 * R
