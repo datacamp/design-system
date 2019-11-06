@@ -219,7 +219,7 @@ describe('<Button />', () => {
       expect(buttonElement).toHaveStyle(
         `border-color: ${tokens.color.opaque.primary.value.hex}`
       );
-      expect(buttonElement).toHaveStyle(`background-color: white`);
+      expect(buttonElement).toHaveStyle(`background-color: transparent`);
     });
 
     it('renders a red outline button for the intent="danger', async () => {
@@ -234,7 +234,7 @@ describe('<Button />', () => {
       expect(buttonElement).toHaveStyle(
         `border-color: ${tokens.color.opaque.red.value.hex}`
       );
-      expect(buttonElement).toHaveStyle(`background-color: white`);
+      expect(buttonElement).toHaveStyle(`background-color: transparent`);
     });
 
     it('renders an orange outline button for the intent="warning', async () => {
@@ -249,7 +249,7 @@ describe('<Button />', () => {
       expect(buttonElement).toHaveStyle(
         `border-color: ${tokens.color.opaque.orange.value.hex}`
       );
-      expect(buttonElement).toHaveStyle(`background-color: white`);
+      expect(buttonElement).toHaveStyle(`background-color: transparent`);
     });
 
     it('renders a green outline button for the intent="success', async () => {
@@ -264,7 +264,7 @@ describe('<Button />', () => {
       expect(buttonElement).toHaveStyle(
         `border-color: ${tokens.color.opaque.green.value.hex}`
       );
-      expect(buttonElement).toHaveStyle(`background-color: white`);
+      expect(buttonElement).toHaveStyle(`background-color: transparent`);
     });
   });
 
@@ -464,7 +464,7 @@ describe('<Button />', () => {
       expect(buttonElement).toHaveStyle(
         `border-color: ${tokens.color.opaque.primary.value.hex}`
       );
-      expect(buttonElement).toHaveStyle(`background-color: white`);
+      expect(buttonElement).toHaveStyle(`background-color: transparent`);
     });
 
     it('renders a red outline button for the intent="danger', async () => {
@@ -484,7 +484,7 @@ describe('<Button />', () => {
       expect(buttonElement).toHaveStyle(
         `border-color: ${tokens.color.opaque.red.value.hex}`
       );
-      expect(buttonElement).toHaveStyle(`background-color: white`);
+      expect(buttonElement).toHaveStyle(`background-color: transparent`);
     });
 
     it('renders an orange outline button for the intent="warning', async () => {
@@ -504,7 +504,7 @@ describe('<Button />', () => {
       expect(buttonElement).toHaveStyle(
         `border-color: ${tokens.color.opaque.orange.value.hex}`
       );
-      expect(buttonElement).toHaveStyle(`background-color: white`);
+      expect(buttonElement).toHaveStyle(`background-color: transparent`);
     });
 
     it('renders a green outline button for the intent="success', async () => {
@@ -524,7 +524,7 @@ describe('<Button />', () => {
       expect(buttonElement).toHaveStyle(
         `border-color: ${tokens.color.opaque.green.value.hex}`
       );
-      expect(buttonElement).toHaveStyle(`background-color: white`);
+      expect(buttonElement).toHaveStyle(`background-color: transparent`);
     });
   });
 

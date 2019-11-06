@@ -34,7 +34,7 @@ exports[`ButtonGroup renders the buttons or CompactButtonGroups with 16px spaces
   transition: 0.15s;
   vertical-align: baseline;
   white-space: nowrap;
-  background-color: white;
+  background-color: transparent;
   border-color: #33aacc;
   color: #33aacc;
   padding: 0 15px;
@@ -60,7 +60,7 @@ exports[`ButtonGroup renders the buttons or CompactButtonGroups with 16px spaces
 }
 
 .emotion-1:focus {
-  box-shadow: 0 0 0 4px #DCECF1;
+  box-shadow: 0 0 0 4px rgba(51,170,204,0.2);
 }
 
 .emotion-1:hover {
@@ -107,7 +107,7 @@ exports[`ButtonGroup renders the buttons or CompactButtonGroups with 16px spaces
   transition: 0.15s;
   vertical-align: baseline;
   white-space: nowrap;
-  background-color: white;
+  background-color: transparent;
   border-color: #33aacc;
   color: #33aacc;
   padding: 0 15px;
@@ -133,7 +133,7 @@ exports[`ButtonGroup renders the buttons or CompactButtonGroups with 16px spaces
 }
 
 .emotion-3:focus {
-  box-shadow: 0 0 0 4px #DCECF1;
+  box-shadow: 0 0 0 4px rgba(51,170,204,0.2);
 }
 
 .emotion-3:hover {
@@ -175,7 +175,7 @@ exports[`ButtonGroup renders the buttons or CompactButtonGroups with 16px spaces
   transition: 0.15s;
   vertical-align: baseline;
   white-space: nowrap;
-  background-color: white;
+  background-color: transparent;
   border-color: #33aacc;
   color: #33aacc;
   padding: 0 15px;
@@ -202,7 +202,7 @@ exports[`ButtonGroup renders the buttons or CompactButtonGroups with 16px spaces
 }
 
 .emotion-7:focus {
-  box-shadow: 0 0 0 4px #DCECF1;
+  box-shadow: 0 0 0 4px rgba(51,170,204,0.2);
 }
 
 .emotion-7:hover {
@@ -249,7 +249,7 @@ exports[`ButtonGroup renders the buttons or CompactButtonGroups with 16px spaces
   transition: 0.15s;
   vertical-align: baseline;
   white-space: nowrap;
-  background-color: white;
+  background-color: transparent;
   border-color: #33aacc;
   color: #33aacc;
   padding: 0 15px;
@@ -277,7 +277,7 @@ exports[`ButtonGroup renders the buttons or CompactButtonGroups with 16px spaces
 }
 
 .emotion-9:focus {
-  box-shadow: 0 0 0 4px #DCECF1;
+  box-shadow: 0 0 0 4px rgba(51,170,204,0.2);
 }
 
 .emotion-9:hover {
@@ -393,7 +393,7 @@ exports[`ButtonGroup renders the small buttons or CompactButtonGroups with 8px s
   transition: 0.15s;
   vertical-align: baseline;
   white-space: nowrap;
-  background-color: white;
+  background-color: transparent;
   border-color: #33aacc;
   color: #33aacc;
   padding: 0 15px;
@@ -419,7 +419,7 @@ exports[`ButtonGroup renders the small buttons or CompactButtonGroups with 8px s
 }
 
 .emotion-1:focus {
-  box-shadow: 0 0 0 4px #DCECF1;
+  box-shadow: 0 0 0 4px rgba(51,170,204,0.2);
 }
 
 .emotion-1:hover {
@@ -452,7 +452,7 @@ exports[`ButtonGroup renders the small buttons or CompactButtonGroups with 8px s
   transition: 0.15s;
   vertical-align: baseline;
   white-space: nowrap;
-  background-color: white;
+  background-color: transparent;
   border-color: #33aacc;
   color: #33aacc;
   padding: 0 15px;
@@ -479,7 +479,7 @@ exports[`ButtonGroup renders the small buttons or CompactButtonGroups with 8px s
 }
 
 .emotion-7:focus {
-  box-shadow: 0 0 0 4px #DCECF1;
+  box-shadow: 0 0 0 4px rgba(51,170,204,0.2);
 }
 
 .emotion-7:hover {
@@ -526,7 +526,7 @@ exports[`ButtonGroup renders the small buttons or CompactButtonGroups with 8px s
   transition: 0.15s;
   vertical-align: baseline;
   white-space: nowrap;
-  background-color: white;
+  background-color: transparent;
   border-color: #33aacc;
   color: #33aacc;
   padding: 0 15px;
@@ -554,7 +554,7 @@ exports[`ButtonGroup renders the small buttons or CompactButtonGroups with 8px s
 }
 
 .emotion-9:focus {
-  box-shadow: 0 0 0 4px #DCECF1;
+  box-shadow: 0 0 0 4px rgba(51,170,204,0.2);
 }
 
 .emotion-9:hover {
@@ -615,7 +615,7 @@ exports[`ButtonGroup renders the small buttons or CompactButtonGroups with 8px s
   transition: 0.15s;
   vertical-align: baseline;
   white-space: nowrap;
-  background-color: white;
+  background-color: transparent;
   border-color: #33aacc;
   color: #33aacc;
   padding: 0 15px;
@@ -641,7 +641,7 @@ exports[`ButtonGroup renders the small buttons or CompactButtonGroups with 8px s
 }
 
 .emotion-3:focus {
-  box-shadow: 0 0 0 4px #DCECF1;
+  box-shadow: 0 0 0 4px rgba(51,170,204,0.2);
 }
 
 .emotion-3:hover {

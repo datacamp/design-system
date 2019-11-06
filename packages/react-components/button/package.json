@@ -55,6 +55,7 @@
     "prop-types": "^15.7.2",
     "react-merge-refs": "^1.0.0",
     "react-uid": "^2.2.0",
+    "tinycolor2": "^1.4.1",
     "use-callback-ref": "^1.2.1"
   },
   "peerDependencies": {
