@@ -193,7 +193,7 @@ exports[`<AlertModal /> isOpen renders the modal via a portal when true 1`] = `
   transition: 0.15s;
   vertical-align: baseline;
   white-space: nowrap;
-  background-color: white;
+  background-color: transparent;
   border-color: #33aacc;
   color: #33aacc;
   padding: 0 15px;
@@ -219,7 +219,7 @@ exports[`<AlertModal /> isOpen renders the modal via a portal when true 1`] = `
 }
 
 .emotion-4:focus {
-  box-shadow: 0 0 0 4px #DCECF1;
+  box-shadow: 0 0 0 4px rgba(51,170,204,0.2);
 }
 
 .emotion-4:hover {
@@ -266,7 +266,7 @@ exports[`<AlertModal /> isOpen renders the modal via a portal when true 1`] = `
   transition: 0.15s;
   vertical-align: baseline;
   white-space: nowrap;
-  background-color: white;
+  background-color: transparent;
   border-color: #33aacc;
   color: #33aacc;
   background-color: #33aacc;
@@ -293,7 +293,7 @@ exports[`<AlertModal /> isOpen renders the modal via a portal when true 1`] = `
 }
 
 .emotion-6:focus {
-  box-shadow: 0 0 0 4px #DCECF1;
+  box-shadow: 0 0 0 4px rgba(51,170,204,0.2);
 }
 
 .emotion-6:hover {
