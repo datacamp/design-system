@@ -193,14 +193,6 @@ workflows:
             - test
             - hold-for-pr
           context: org-global
-      - upload-to-percy:
-          requires:
-            - test
-          name: upload-to-percy-master
-          context: org-global
-          filters:
-            branches:
-              only: /master/
       - datacamp-ecr/build_and_push_image_to_ecr:
           requires:
             - test
@@ -218,7 +210,9 @@ workflows:
                 at: "."
           filters:
             branches:
-              ignore: /dependabot.*/
+              ignore:
+                - master
+                - /dependabot.*/
       - datacamp-deploy/backstage-deploy: # backstage
           name: deploy-storybook
           context: org-global
