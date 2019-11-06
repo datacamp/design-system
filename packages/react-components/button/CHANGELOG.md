@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [4.4.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-button@4.3.0...@datacamp/waffles-button@4.4.0) (2019-11-06)
+
+
+### Features
+
+* add tooltipText to button ([5b5051a](https://github.com/datacamp/design-system/commit/5b5051a))
+* button states on dark backgrounds ([bc0f3d8](https://github.com/datacamp/design-system/commit/bc0f3d8))
+
+
+
+
+
 # [4.3.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-button@4.2.0...@datacamp/waffles-button@4.3.0) (2019-11-04)
 
 

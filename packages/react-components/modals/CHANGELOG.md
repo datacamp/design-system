@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.1.1](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/modals/compare/@datacamp/waffles-modals@3.1.0...@datacamp/waffles-modals@3.1.1) (2019-11-06)
+
+
+### Bug Fixes
+
+* use latest button ([6e340e0](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/modals/commit/6e340e0))
+
+
+
+
+
 # [3.1.0](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/modals/compare/@datacamp/waffles-modals@3.0.9...@datacamp/waffles-modals@3.1.0) (2019-11-04)
 
 

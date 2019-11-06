@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.2.19](https://github.com/datacamp/design-system/compare/@datacamp/waffles-core@1.2.18...@datacamp/waffles-core@1.2.19) (2019-11-06)
+
+**Note:** Version bump only for package @datacamp/waffles-core
+
+
+
+
+
 ## [1.2.18](https://github.com/datacamp/design-system/compare/@datacamp/waffles-core@1.2.17...@datacamp/waffles-core@1.2.18) (2019-10-31)
 
 **Note:** Version bump only for package @datacamp/waffles-core

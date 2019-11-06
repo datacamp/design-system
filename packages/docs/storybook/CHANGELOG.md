@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.28.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-storybook@1.27.4...@datacamp/waffles-storybook@1.28.0) (2019-11-06)
+
+
+### Features
+
+* add tooltips to button stories ([8efd7b1](https://github.com/datacamp/design-system/commit/8efd7b1))
+
+
+
+
+
 ## [1.27.4](https://github.com/datacamp/design-system/compare/@datacamp/waffles-storybook@1.27.3...@datacamp/waffles-storybook@1.27.4) (2019-11-04)
 
 **Note:** Version bump only for package @datacamp/waffles-storybook

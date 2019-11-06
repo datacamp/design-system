@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.29.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-catalog-doc-site@1.28.0...@datacamp/waffles-catalog-doc-site@1.29.0) (2019-11-06)
+
+
+### Bug Fixes
+
+* allow components with hooks on docsite ([d62ac7e](https://github.com/datacamp/design-system/commit/d62ac7e))
+
+
+### Features
+
+* add Bash ([fe8d61b](https://github.com/datacamp/design-system/commit/fe8d61b))
+* add docs for tooltipText to button ([0ff7e17](https://github.com/datacamp/design-system/commit/0ff7e17))
+
+
+
+
+
 # [1.28.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-catalog-doc-site@1.27.2...@datacamp/waffles-catalog-doc-site@1.28.0) (2019-11-04)
 
 
