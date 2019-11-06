@@ -11,9 +11,9 @@ import { mergeRefs } from 'use-callback-ref';
 
 import Tooltip from '../Tooltip';
 import {
+  baseColors,
   baseLoadingStyle,
   baseStyle,
-  disabledColors,
   fontSizes,
   getAppearanceStyle,
   getDisabledStyle,
@@ -128,11 +128,9 @@ const InternalButton = (
   const [hasHover, setHasHover] = useState(false);
   const uidSeed = useUIDSeed();
   const tooltipId = uidSeed('button-tooltip');
-  const outlineTextColor = disabled
-    ? tokens.color.opaque.greyLight.value.hex
-    : tokens.color.opaque.greyDark.value.hex;
+  const outlineTextColor = tokens.color.opaque.greyDark.value.hex;
   const ctaTextColor = intent === 'cta' ? outlineTextColor : 'white';
-  const outlineIconColor = disabled ? disabledColors[intent] : 'currentColor';
+  const outlineIconColor = disabled ? baseColors[intent] : 'currentColor';
   const textColor = appearance === 'primary' ? ctaTextColor : outlineTextColor;
   const getColor = appearance === 'primary' ? ctaTextColor : outlineIconColor;
 

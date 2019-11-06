@@ -1,5 +1,6 @@
 import tokens from '@datacamp/waffles-tokens/lib/future-tokens.json';
 import { css, SerializedStyles } from '@emotion/core';
+import tinycolor from 'tinycolor2';
 
 interface IntentMap {
   cta: string;
@@ -28,13 +29,10 @@ const hoverColors: IntentMap = {
   warning: '#C87400',
 };
 
-const disabledColors: IntentMap = {
-  cta: '#FFE9B4',
-  danger: '#FEDEDE',
-  neutral: '#DCECF1',
-  success: '#E7F2EC',
-  warning: '#FFEED5',
-};
+const getFocusColor = (intent: Intent): string =>
+  tinycolor(baseColors[intent])
+    .setAlpha(0.2)
+    .toRgbString();
 
 // BASE STYLES
 const baseStyle = css({
@@ -93,9 +91,9 @@ const getDefaultStyle = (intent: Intent, enabled: boolean): SerializedStyles =>
   css(
     {
       ':focus': {
-        boxShadow: `0 0 0 4px ${disabledColors[intent]}}`,
+        boxShadow: `0 0 0 4px ${getFocusColor(intent)}}`,
       },
-      backgroundColor: 'white',
+      backgroundColor: 'transparent',
       borderColor: baseColors[intent],
       color: baseColors[intent],
     },
@@ -135,10 +133,10 @@ const getDisabledStyle = (
   intent: Intent
 ): SerializedStyles =>
   css(
-    { borderColor: disabledColors[intent], cursor: 'not-allowed' },
+    { borderColor: baseColors[intent], cursor: 'not-allowed', opacity: 0.2 },
     appearance === 'primary' && {
-      backgroundColor: disabledColors[intent],
-      borderColor: disabledColors[intent],
+      backgroundColor: baseColors[intent],
+      borderColor: baseColors[intent],
     }
   );
 
@@ -146,7 +144,6 @@ export {
   baseColors,
   baseLoadingStyle,
   baseStyle,
-  disabledColors,
   fontSizes,
   getAppearanceStyle,
   getDisabledStyle,

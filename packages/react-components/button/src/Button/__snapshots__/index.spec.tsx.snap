@@ -40,7 +40,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent d
   transition: 0.15s;
   vertical-align: baseline;
   white-space: nowrap;
-  background-color: white;
+  background-color: transparent;
   border-color: #fe5c5c;
   color: #fe5c5c;
   padding: 0 31px;
@@ -65,7 +65,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent d
 }
 
 .emotion-1:focus {
-  box-shadow: 0 0 0 4px #FEDEDE;
+  box-shadow: 0 0 0 4px rgba(254,92,92,0.2);
 }
 
 .emotion-1:hover {
@@ -204,7 +204,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent d
   transition: 0.15s;
   vertical-align: baseline;
   white-space: nowrap;
-  background-color: white;
+  background-color: transparent;
   border-color: #fe5c5c;
   color: #fe5c5c;
   position: relative;
@@ -230,7 +230,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent d
 }
 
 .emotion-3:focus {
-  box-shadow: 0 0 0 4px #FEDEDE;
+  box-shadow: 0 0 0 4px rgba(254,92,92,0.2);
 }
 
 .emotion-3:active {
@@ -423,7 +423,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent d
   transition: 0.15s;
   vertical-align: baseline;
   white-space: nowrap;
-  background-color: white;
+  background-color: transparent;
   border-color: #fe5c5c;
   color: #fe5c5c;
   padding: 0 15px;
@@ -448,7 +448,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent d
 }
 
 .emotion-1:focus {
-  box-shadow: 0 0 0 4px #FEDEDE;
+  box-shadow: 0 0 0 4px rgba(254,92,92,0.2);
 }
 
 .emotion-1:hover {
@@ -587,7 +587,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent d
   transition: 0.15s;
   vertical-align: baseline;
   white-space: nowrap;
-  background-color: white;
+  background-color: transparent;
   border-color: #fe5c5c;
   color: #fe5c5c;
   position: relative;
@@ -613,7 +613,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent d
 }
 
 .emotion-3:focus {
-  box-shadow: 0 0 0 4px #FEDEDE;
+  box-shadow: 0 0 0 4px rgba(254,92,92,0.2);
 }
 
 .emotion-3:active {
@@ -806,7 +806,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent d
   transition: 0.15s;
   vertical-align: baseline;
   white-space: nowrap;
-  background-color: white;
+  background-color: transparent;
   border-color: #fe5c5c;
   color: #fe5c5c;
   padding: 0 15px;
@@ -831,7 +831,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent d
 }
 
 .emotion-1:focus {
-  box-shadow: 0 0 0 4px #FEDEDE;
+  box-shadow: 0 0 0 4px rgba(254,92,92,0.2);
 }
 
 .emotion-1:hover {
@@ -970,7 +970,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent d
   transition: 0.15s;
   vertical-align: baseline;
   white-space: nowrap;
-  background-color: white;
+  background-color: transparent;
   border-color: #fe5c5c;
   color: #fe5c5c;
   position: relative;
@@ -996,7 +996,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent d
 }
 
 .emotion-3:focus {
-  box-shadow: 0 0 0 4px #FEDEDE;
+  box-shadow: 0 0 0 4px rgba(254,92,92,0.2);
 }
 
 .emotion-3:active {
@@ -1175,7 +1175,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent n
   transition: 0.15s;
   vertical-align: baseline;
   white-space: nowrap;
-  background-color: white;
+  background-color: transparent;
   border-color: #33aacc;
   color: #33aacc;
   padding: 0 31px;
@@ -1200,7 +1200,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent n
 }
 
 .emotion-1:focus {
-  box-shadow: 0 0 0 4px #DCECF1;
+  box-shadow: 0 0 0 4px rgba(51,170,204,0.2);
 }
 
 .emotion-1:hover {
@@ -1339,7 +1339,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent n
   transition: 0.15s;
   vertical-align: baseline;
   white-space: nowrap;
-  background-color: white;
+  background-color: transparent;
   border-color: #33aacc;
   color: #33aacc;
   position: relative;
@@ -1365,7 +1365,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent n
 }
 
 .emotion-3:focus {
-  box-shadow: 0 0 0 4px #DCECF1;
+  box-shadow: 0 0 0 4px rgba(51,170,204,0.2);
 }
 
 .emotion-3:active {
@@ -1558,7 +1558,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent n
   transition: 0.15s;
   vertical-align: baseline;
   white-space: nowrap;
-  background-color: white;
+  background-color: transparent;
   border-color: #33aacc;
   color: #33aacc;
   padding: 0 15px;
@@ -1583,7 +1583,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent n
 }
 
 .emotion-1:focus {
-  box-shadow: 0 0 0 4px #DCECF1;
+  box-shadow: 0 0 0 4px rgba(51,170,204,0.2);
 }
 
 .emotion-1:hover {
@@ -1653,7 +1653,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent n
   transition: 0.15s;
   vertical-align: baseline;
   white-space: nowrap;
-  background-color: white;
+  background-color: transparent;
   border-color: #33aacc;
   color: #33aacc;
   position: relative;
@@ -1679,7 +1679,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent n
 }
 
 .emotion-3:focus {
-  box-shadow: 0 0 0 4px #DCECF1;
+  box-shadow: 0 0 0 4px rgba(51,170,204,0.2);
 }
 
 .emotion-3:active {
@@ -1941,7 +1941,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent n
   transition: 0.15s;
   vertical-align: baseline;
   white-space: nowrap;
-  background-color: white;
+  background-color: transparent;
   border-color: #33aacc;
   color: #33aacc;
   padding: 0 15px;
@@ -1966,7 +1966,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent n
 }
 
 .emotion-1:focus {
-  box-shadow: 0 0 0 4px #DCECF1;
+  box-shadow: 0 0 0 4px rgba(51,170,204,0.2);
 }
 
 .emotion-1:hover {
@@ -2036,7 +2036,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent n
   transition: 0.15s;
   vertical-align: baseline;
   white-space: nowrap;
-  background-color: white;
+  background-color: transparent;
   border-color: #33aacc;
   color: #33aacc;
   position: relative;
@@ -2062,7 +2062,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent n
 }
 
 .emotion-3:focus {
-  box-shadow: 0 0 0 4px #DCECF1;
+  box-shadow: 0 0 0 4px rgba(51,170,204,0.2);
 }
 
 .emotion-3:active {
@@ -2338,7 +2338,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent s
   transition: 0.15s;
   vertical-align: baseline;
   white-space: nowrap;
-  background-color: white;
+  background-color: transparent;
   border-color: #36d57d;
   color: #36d57d;
   padding: 0 31px;
@@ -2363,7 +2363,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent s
 }
 
 .emotion-1:focus {
-  box-shadow: 0 0 0 4px #E7F2EC;
+  box-shadow: 0 0 0 4px rgba(54,213,125,0.2);
 }
 
 .emotion-1:hover {
@@ -2502,7 +2502,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent s
   transition: 0.15s;
   vertical-align: baseline;
   white-space: nowrap;
-  background-color: white;
+  background-color: transparent;
   border-color: #36d57d;
   color: #36d57d;
   position: relative;
@@ -2528,7 +2528,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent s
 }
 
 .emotion-3:focus {
-  box-shadow: 0 0 0 4px #E7F2EC;
+  box-shadow: 0 0 0 4px rgba(54,213,125,0.2);
 }
 
 .emotion-3:active {
@@ -2721,7 +2721,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent s
   transition: 0.15s;
   vertical-align: baseline;
   white-space: nowrap;
-  background-color: white;
+  background-color: transparent;
   border-color: #36d57d;
   color: #36d57d;
   padding: 0 15px;
@@ -2746,7 +2746,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent s
 }
 
 .emotion-1:focus {
-  box-shadow: 0 0 0 4px #E7F2EC;
+  box-shadow: 0 0 0 4px rgba(54,213,125,0.2);
 }
 
 .emotion-1:hover {
@@ -2885,7 +2885,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent s
   transition: 0.15s;
   vertical-align: baseline;
   white-space: nowrap;
-  background-color: white;
+  background-color: transparent;
   border-color: #36d57d;
   color: #36d57d;
   position: relative;
@@ -2911,7 +2911,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent s
 }
 
 .emotion-3:focus {
-  box-shadow: 0 0 0 4px #E7F2EC;
+  box-shadow: 0 0 0 4px rgba(54,213,125,0.2);
 }
 
 .emotion-3:active {
@@ -3104,7 +3104,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent s
   transition: 0.15s;
   vertical-align: baseline;
   white-space: nowrap;
-  background-color: white;
+  background-color: transparent;
   border-color: #36d57d;
   color: #36d57d;
   padding: 0 15px;
@@ -3129,7 +3129,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent s
 }
 
 .emotion-1:focus {
-  box-shadow: 0 0 0 4px #E7F2EC;
+  box-shadow: 0 0 0 4px rgba(54,213,125,0.2);
 }
 
 .emotion-1:hover {
@@ -3268,7 +3268,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent s
   transition: 0.15s;
   vertical-align: baseline;
   white-space: nowrap;
-  background-color: white;
+  background-color: transparent;
   border-color: #36d57d;
   color: #36d57d;
   position: relative;
@@ -3294,7 +3294,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent s
 }
 
 .emotion-3:focus {
-  box-shadow: 0 0 0 4px #E7F2EC;
+  box-shadow: 0 0 0 4px rgba(54,213,125,0.2);
 }
 
 .emotion-3:active {
@@ -3487,7 +3487,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent w
   transition: 0.15s;
   vertical-align: baseline;
   white-space: nowrap;
-  background-color: white;
+  background-color: transparent;
   border-color: #ff9400;
   color: #ff9400;
   padding: 0 31px;
@@ -3512,7 +3512,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent w
 }
 
 .emotion-1:focus {
-  box-shadow: 0 0 0 4px #FFEED5;
+  box-shadow: 0 0 0 4px rgba(255,148,0,0.2);
 }
 
 .emotion-1:hover {
@@ -3651,7 +3651,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent w
   transition: 0.15s;
   vertical-align: baseline;
   white-space: nowrap;
-  background-color: white;
+  background-color: transparent;
   border-color: #ff9400;
   color: #ff9400;
   position: relative;
@@ -3677,7 +3677,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent w
 }
 
 .emotion-3:focus {
-  box-shadow: 0 0 0 4px #FFEED5;
+  box-shadow: 0 0 0 4px rgba(255,148,0,0.2);
 }
 
 .emotion-3:active {
@@ -3870,7 +3870,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent w
   transition: 0.15s;
   vertical-align: baseline;
   white-space: nowrap;
-  background-color: white;
+  background-color: transparent;
   border-color: #ff9400;
   color: #ff9400;
   padding: 0 15px;
@@ -3895,7 +3895,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent w
 }
 
 .emotion-1:focus {
-  box-shadow: 0 0 0 4px #FFEED5;
+  box-shadow: 0 0 0 4px rgba(255,148,0,0.2);
 }
 
 .emotion-1:hover {
@@ -4034,7 +4034,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent w
   transition: 0.15s;
   vertical-align: baseline;
   white-space: nowrap;
-  background-color: white;
+  background-color: transparent;
   border-color: #ff9400;
   color: #ff9400;
   position: relative;
@@ -4060,7 +4060,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent w
 }
 
 .emotion-3:focus {
-  box-shadow: 0 0 0 4px #FFEED5;
+  box-shadow: 0 0 0 4px rgba(255,148,0,0.2);
 }
 
 .emotion-3:active {
@@ -4253,7 +4253,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent w
   transition: 0.15s;
   vertical-align: baseline;
   white-space: nowrap;
-  background-color: white;
+  background-color: transparent;
   border-color: #ff9400;
   color: #ff9400;
   padding: 0 15px;
@@ -4278,7 +4278,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent w
 }
 
 .emotion-1:focus {
-  box-shadow: 0 0 0 4px #FFEED5;
+  box-shadow: 0 0 0 4px rgba(255,148,0,0.2);
 }
 
 .emotion-1:hover {
@@ -4417,7 +4417,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent w
   transition: 0.15s;
   vertical-align: baseline;
   white-space: nowrap;
-  background-color: white;
+  background-color: transparent;
   border-color: #ff9400;
   color: #ff9400;
   position: relative;
@@ -4443,7 +4443,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent w
 }
 
 .emotion-3:focus {
-  box-shadow: 0 0 0 4px #FFEED5;
+  box-shadow: 0 0 0 4px rgba(255,148,0,0.2);
 }
 
 .emotion-3:active {
@@ -4636,7 +4636,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent c
   transition: 0.15s;
   vertical-align: baseline;
   white-space: nowrap;
-  background-color: white;
+  background-color: transparent;
   border-color: #ffc844;
   color: #ffc844;
   background-color: #ffc844;
@@ -4662,7 +4662,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent c
 }
 
 .emotion-1:focus {
-  box-shadow: 0 0 0 4px #FFE9B4;
+  box-shadow: 0 0 0 4px rgba(255,200,68,0.2);
 }
 
 .emotion-1:hover {
@@ -4806,7 +4806,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent c
   transition: 0.15s;
   vertical-align: baseline;
   white-space: nowrap;
-  background-color: white;
+  background-color: transparent;
   border-color: #ffc844;
   color: #ffc844;
   background-color: #ffc844;
@@ -4833,7 +4833,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent c
 }
 
 .emotion-3:focus {
-  box-shadow: 0 0 0 4px #FFE9B4;
+  box-shadow: 0 0 0 4px rgba(255,200,68,0.2);
 }
 
 .emotion-3:active {
@@ -5026,7 +5026,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent c
   transition: 0.15s;
   vertical-align: baseline;
   white-space: nowrap;
-  background-color: white;
+  background-color: transparent;
   border-color: #ffc844;
   color: #ffc844;
   background-color: #ffc844;
@@ -5052,7 +5052,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent c
 }
 
 .emotion-1:focus {
-  box-shadow: 0 0 0 4px #FFE9B4;
+  box-shadow: 0 0 0 4px rgba(255,200,68,0.2);
 }
 
 .emotion-1:hover {
@@ -5196,7 +5196,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent c
   transition: 0.15s;
   vertical-align: baseline;
   white-space: nowrap;
-  background-color: white;
+  background-color: transparent;
   border-color: #ffc844;
   color: #ffc844;
   background-color: #ffc844;
@@ -5223,7 +5223,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent c
 }
 
 .emotion-3:focus {
-  box-shadow: 0 0 0 4px #FFE9B4;
+  box-shadow: 0 0 0 4px rgba(255,200,68,0.2);
 }
 
 .emotion-3:active {
@@ -5416,7 +5416,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent c
   transition: 0.15s;
   vertical-align: baseline;
   white-space: nowrap;
-  background-color: white;
+  background-color: transparent;
   border-color: #ffc844;
   color: #ffc844;
   background-color: #ffc844;
@@ -5442,7 +5442,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent c
 }
 
 .emotion-1:focus {
-  box-shadow: 0 0 0 4px #FFE9B4;
+  box-shadow: 0 0 0 4px rgba(255,200,68,0.2);
 }
 
 .emotion-1:hover {
@@ -5586,7 +5586,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent c
   transition: 0.15s;
   vertical-align: baseline;
   white-space: nowrap;
-  background-color: white;
+  background-color: transparent;
   border-color: #ffc844;
   color: #ffc844;
   background-color: #ffc844;
@@ -5613,7 +5613,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent c
 }
 
 .emotion-3:focus {
-  box-shadow: 0 0 0 4px #FFE9B4;
+  box-shadow: 0 0 0 4px rgba(255,200,68,0.2);
 }
 
 .emotion-3:active {
@@ -5806,7 +5806,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent d
   transition: 0.15s;
   vertical-align: baseline;
   white-space: nowrap;
-  background-color: white;
+  background-color: transparent;
   border-color: #fe5c5c;
   color: #fe5c5c;
   background-color: #fe5c5c;
@@ -5832,7 +5832,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent d
 }
 
 .emotion-1:focus {
-  box-shadow: 0 0 0 4px #FEDEDE;
+  box-shadow: 0 0 0 4px rgba(254,92,92,0.2);
 }
 
 .emotion-1:hover {
@@ -5976,7 +5976,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent d
   transition: 0.15s;
   vertical-align: baseline;
   white-space: nowrap;
-  background-color: white;
+  background-color: transparent;
   border-color: #fe5c5c;
   color: #fe5c5c;
   background-color: #fe5c5c;
@@ -6003,7 +6003,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent d
 }
 
 .emotion-3:focus {
-  box-shadow: 0 0 0 4px #FEDEDE;
+  box-shadow: 0 0 0 4px rgba(254,92,92,0.2);
 }
 
 .emotion-3:active {
@@ -6196,7 +6196,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent d
   transition: 0.15s;
   vertical-align: baseline;
   white-space: nowrap;
-  background-color: white;
+  background-color: transparent;
   border-color: #fe5c5c;
   color: #fe5c5c;
   background-color: #fe5c5c;
@@ -6222,7 +6222,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent d
 }
 
 .emotion-1:focus {
-  box-shadow: 0 0 0 4px #FEDEDE;
+  box-shadow: 0 0 0 4px rgba(254,92,92,0.2);
 }
 
 .emotion-1:hover {
@@ -6366,7 +6366,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent d
   transition: 0.15s;
   vertical-align: baseline;
   white-space: nowrap;
-  background-color: white;
+  background-color: transparent;
   border-color: #fe5c5c;
   color: #fe5c5c;
   background-color: #fe5c5c;
@@ -6393,7 +6393,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent d
 }
 
 .emotion-3:focus {
-  box-shadow: 0 0 0 4px #FEDEDE;
+  box-shadow: 0 0 0 4px rgba(254,92,92,0.2);
 }
 
 .emotion-3:active {
@@ -6572,7 +6572,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent d
   transition: 0.15s;
   vertical-align: baseline;
   white-space: nowrap;
-  background-color: white;
+  background-color: transparent;
   border-color: #fe5c5c;
   color: #fe5c5c;
   background-color: #fe5c5c;
@@ -6598,7 +6598,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent d
 }
 
 .emotion-1:focus {
-  box-shadow: 0 0 0 4px #FEDEDE;
+  box-shadow: 0 0 0 4px rgba(254,92,92,0.2);
 }
 
 .emotion-1:hover {
@@ -6756,7 +6756,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent d
   transition: 0.15s;
   vertical-align: baseline;
   white-space: nowrap;
-  background-color: white;
+  background-color: transparent;
   border-color: #fe5c5c;
   color: #fe5c5c;
   background-color: #fe5c5c;
@@ -6783,7 +6783,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent d
 }
 
 .emotion-3:focus {
-  box-shadow: 0 0 0 4px #FEDEDE;
+  box-shadow: 0 0 0 4px rgba(254,92,92,0.2);
 }
 
 .emotion-3:active {
@@ -6962,7 +6962,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent n
   transition: 0.15s;
   vertical-align: baseline;
   white-space: nowrap;
-  background-color: white;
+  background-color: transparent;
   border-color: #33aacc;
   color: #33aacc;
   background-color: #33aacc;
@@ -6988,7 +6988,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent n
 }
 
 .emotion-1:focus {
-  box-shadow: 0 0 0 4px #DCECF1;
+  box-shadow: 0 0 0 4px rgba(51,170,204,0.2);
 }
 
 .emotion-1:hover {
@@ -7146,7 +7146,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent n
   transition: 0.15s;
   vertical-align: baseline;
   white-space: nowrap;
-  background-color: white;
+  background-color: transparent;
   border-color: #33aacc;
   color: #33aacc;
   background-color: #33aacc;
@@ -7173,7 +7173,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent n
 }
 
 .emotion-3:focus {
-  box-shadow: 0 0 0 4px #DCECF1;
+  box-shadow: 0 0 0 4px rgba(51,170,204,0.2);
 }
 
 .emotion-3:active {
@@ -7352,7 +7352,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent n
   transition: 0.15s;
   vertical-align: baseline;
   white-space: nowrap;
-  background-color: white;
+  background-color: transparent;
   border-color: #33aacc;
   color: #33aacc;
   background-color: #33aacc;
@@ -7378,7 +7378,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent n
 }
 
 .emotion-1:focus {
-  box-shadow: 0 0 0 4px #DCECF1;
+  box-shadow: 0 0 0 4px rgba(51,170,204,0.2);
 }
 
 .emotion-1:hover {
@@ -7536,7 +7536,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent n
   transition: 0.15s;
   vertical-align: baseline;
   white-space: nowrap;
-  background-color: white;
+  background-color: transparent;
   border-color: #33aacc;
   color: #33aacc;
   background-color: #33aacc;
@@ -7563,7 +7563,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent n
 }
 
 .emotion-3:focus {
-  box-shadow: 0 0 0 4px #DCECF1;
+  box-shadow: 0 0 0 4px rgba(51,170,204,0.2);
 }
 
 .emotion-3:active {
@@ -7742,7 +7742,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent n
   transition: 0.15s;
   vertical-align: baseline;
   white-space: nowrap;
-  background-color: white;
+  background-color: transparent;
   border-color: #33aacc;
   color: #33aacc;
   background-color: #33aacc;
@@ -7768,7 +7768,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent n
 }
 
 .emotion-1:focus {
-  box-shadow: 0 0 0 4px #DCECF1;
+  box-shadow: 0 0 0 4px rgba(51,170,204,0.2);
 }
 
 .emotion-1:hover {
@@ -7912,7 +7912,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent n
   transition: 0.15s;
   vertical-align: baseline;
   white-space: nowrap;
-  background-color: white;
+  background-color: transparent;
   border-color: #33aacc;
   color: #33aacc;
   background-color: #33aacc;
@@ -7939,7 +7939,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent n
 }
 
 .emotion-3:focus {
-  box-shadow: 0 0 0 4px #DCECF1;
+  box-shadow: 0 0 0 4px rgba(51,170,204,0.2);
 }
 
 .emotion-3:active {
@@ -8146,7 +8146,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent s
   transition: 0.15s;
   vertical-align: baseline;
   white-space: nowrap;
-  background-color: white;
+  background-color: transparent;
   border-color: #36d57d;
   color: #36d57d;
   background-color: #36d57d;
@@ -8172,7 +8172,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent s
 }
 
 .emotion-1:focus {
-  box-shadow: 0 0 0 4px #E7F2EC;
+  box-shadow: 0 0 0 4px rgba(54,213,125,0.2);
 }
 
 .emotion-1:hover {
@@ -8316,7 +8316,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent s
   transition: 0.15s;
   vertical-align: baseline;
   white-space: nowrap;
-  background-color: white;
+  background-color: transparent;
   border-color: #36d57d;
   color: #36d57d;
   background-color: #36d57d;
@@ -8343,7 +8343,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent s
 }
 
 .emotion-3:focus {
-  box-shadow: 0 0 0 4px #E7F2EC;
+  box-shadow: 0 0 0 4px rgba(54,213,125,0.2);
 }
 
 .emotion-3:active {
@@ -8536,7 +8536,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent s
   transition: 0.15s;
   vertical-align: baseline;
   white-space: nowrap;
-  background-color: white;
+  background-color: transparent;
   border-color: #36d57d;
   color: #36d57d;
   background-color: #36d57d;
@@ -8562,7 +8562,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent s
 }
 
 .emotion-1:focus {
-  box-shadow: 0 0 0 4px #E7F2EC;
+  box-shadow: 0 0 0 4px rgba(54,213,125,0.2);
 }
 
 .emotion-1:hover {
@@ -8706,7 +8706,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent s
   transition: 0.15s;
   vertical-align: baseline;
   white-space: nowrap;
-  background-color: white;
+  background-color: transparent;
   border-color: #36d57d;
   color: #36d57d;
   background-color: #36d57d;
@@ -8733,7 +8733,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent s
 }
 
 .emotion-3:focus {
-  box-shadow: 0 0 0 4px #E7F2EC;
+  box-shadow: 0 0 0 4px rgba(54,213,125,0.2);
 }
 
 .emotion-3:active {
@@ -8912,7 +8912,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent s
   transition: 0.15s;
   vertical-align: baseline;
   white-space: nowrap;
-  background-color: white;
+  background-color: transparent;
   border-color: #36d57d;
   color: #36d57d;
   background-color: #36d57d;
@@ -8938,7 +8938,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent s
 }
 
 .emotion-1:focus {
-  box-shadow: 0 0 0 4px #E7F2EC;
+  box-shadow: 0 0 0 4px rgba(54,213,125,0.2);
 }
 
 .emotion-1:hover {
@@ -9096,7 +9096,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent s
   transition: 0.15s;
   vertical-align: baseline;
   white-space: nowrap;
-  background-color: white;
+  background-color: transparent;
   border-color: #36d57d;
   color: #36d57d;
   background-color: #36d57d;
@@ -9123,7 +9123,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent s
 }
 
 .emotion-3:focus {
-  box-shadow: 0 0 0 4px #E7F2EC;
+  box-shadow: 0 0 0 4px rgba(54,213,125,0.2);
 }
 
 .emotion-3:active {
@@ -9316,7 +9316,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent w
   transition: 0.15s;
   vertical-align: baseline;
   white-space: nowrap;
-  background-color: white;
+  background-color: transparent;
   border-color: #ff9400;
   color: #ff9400;
   background-color: #ff9400;
@@ -9342,7 +9342,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent w
 }
 
 .emotion-1:focus {
-  box-shadow: 0 0 0 4px #FFEED5;
+  box-shadow: 0 0 0 4px rgba(255,148,0,0.2);
 }
 
 .emotion-1:hover {
@@ -9486,7 +9486,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent w
   transition: 0.15s;
   vertical-align: baseline;
   white-space: nowrap;
-  background-color: white;
+  background-color: transparent;
   border-color: #ff9400;
   color: #ff9400;
   background-color: #ff9400;
@@ -9513,7 +9513,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent w
 }
 
 .emotion-3:focus {
-  box-shadow: 0 0 0 4px #FFEED5;
+  box-shadow: 0 0 0 4px rgba(255,148,0,0.2);
 }
 
 .emotion-3:active {
@@ -9706,7 +9706,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent w
   transition: 0.15s;
   vertical-align: baseline;
   white-space: nowrap;
-  background-color: white;
+  background-color: transparent;
   border-color: #ff9400;
   color: #ff9400;
   background-color: #ff9400;
@@ -9732,7 +9732,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent w
 }
 
 .emotion-1:focus {
-  box-shadow: 0 0 0 4px #FFEED5;
+  box-shadow: 0 0 0 4px rgba(255,148,0,0.2);
 }
 
 .emotion-1:hover {
@@ -9876,7 +9876,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent w
   transition: 0.15s;
   vertical-align: baseline;
   white-space: nowrap;
-  background-color: white;
+  background-color: transparent;
   border-color: #ff9400;
   color: #ff9400;
   background-color: #ff9400;
@@ -9903,7 +9903,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent w
 }
 
 .emotion-3:focus {
-  box-shadow: 0 0 0 4px #FFEED5;
+  box-shadow: 0 0 0 4px rgba(255,148,0,0.2);
 }
 
 .emotion-3:active {
@@ -10082,7 +10082,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent w
   transition: 0.15s;
   vertical-align: baseline;
   white-space: nowrap;
-  background-color: white;
+  background-color: transparent;
   border-color: #ff9400;
   color: #ff9400;
   background-color: #ff9400;
@@ -10108,7 +10108,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent w
 }
 
 .emotion-1:focus {
-  box-shadow: 0 0 0 4px #FFEED5;
+  box-shadow: 0 0 0 4px rgba(255,148,0,0.2);
 }
 
 .emotion-1:hover {
@@ -10266,7 +10266,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent w
   transition: 0.15s;
   vertical-align: baseline;
   white-space: nowrap;
-  background-color: white;
+  background-color: transparent;
   border-color: #ff9400;
   color: #ff9400;
   background-color: #ff9400;
@@ -10293,7 +10293,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent w
 }
 
 .emotion-3:focus {
-  box-shadow: 0 0 0 4px #FFEED5;
+  box-shadow: 0 0 0 4px rgba(255,148,0,0.2);
 }
 
 .emotion-3:active {
@@ -10472,7 +10472,7 @@ exports[`<Button /> snapshots renders a squared button with a single icon 1`] = 
   transition: 0.15s;
   vertical-align: baseline;
   white-space: nowrap;
-  background-color: white;
+  background-color: transparent;
   border-color: #33aacc;
   color: #33aacc;
   padding: 14px;
@@ -10497,7 +10497,7 @@ exports[`<Button /> snapshots renders a squared button with a single icon 1`] = 
 }
 
 .emotion-0:focus {
-  box-shadow: 0 0 0 4px #DCECF1;
+  box-shadow: 0 0 0 4px rgba(51,170,204,0.2);
 }
 
 .emotion-0:hover {
@@ -10552,7 +10552,7 @@ exports[`<Button /> tooltips displays/removes the tooltip on focus/blur 1`] = `
   transition: 0.15s;
   vertical-align: baseline;
   white-space: nowrap;
-  background-color: white;
+  background-color: transparent;
   border-color: #33aacc;
   color: #33aacc;
   padding: 0 15px;
@@ -10577,7 +10577,7 @@ exports[`<Button /> tooltips displays/removes the tooltip on focus/blur 1`] = `
 }
 
 .emotion-1:focus {
-  box-shadow: 0 0 0 4px #DCECF1;
+  box-shadow: 0 0 0 4px rgba(51,170,204,0.2);
 }
 
 .emotion-1:hover {
@@ -10681,7 +10681,7 @@ exports[`<Button /> tooltips displays/removes the tooltip on hover/unhover 1`] =
   transition: 0.15s;
   vertical-align: baseline;
   white-space: nowrap;
-  background-color: white;
+  background-color: transparent;
   border-color: #33aacc;
   color: #33aacc;
   padding: 0 15px;
@@ -10706,7 +10706,7 @@ exports[`<Button /> tooltips displays/removes the tooltip on hover/unhover 1`] =
 }
 
 .emotion-1:focus {
-  box-shadow: 0 0 0 4px #DCECF1;
+  box-shadow: 0 0 0 4px rgba(51,170,204,0.2);
 }
 
 .emotion-1:hover {
