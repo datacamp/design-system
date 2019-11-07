@@ -50,6 +50,21 @@ interface BaseButtonProps {
    */
   size?: 'small' | 'medium' | 'large';
   /**
+   * When tooltipText is provided, this determines the position of that text.
+   * "top", "bottom", "left", and "right" will position the tooltip at the
+   * centre of that side. The other styles can be used to prevent the tooltip
+   * from overflowing when it is longer than the button.
+   */
+  tooltipPosition?:
+    | 'bottom'
+    | 'top'
+    | 'left'
+    | 'right'
+    | 'bottomRight'
+    | 'bottomLeft'
+    | 'topLeft'
+    | 'topRight';
+  /**
    * An additional description to show on hover or focus.
    */
   tooltipText?: string;
@@ -121,6 +136,7 @@ const InternalButton = (
     loading = false,
     size = 'medium',
     tooltipText,
+    tooltipPosition = 'bottom',
   } = props;
 
   const buttonRef = useRef<HTMLElement>();
@@ -228,7 +244,12 @@ const InternalButton = (
         )}
       </Element>
       {tooltipText && (
-        <Tooltip id={tooltipId} target={buttonRef} visible={tooltipVisible}>
+        <Tooltip
+          id={tooltipId}
+          position={tooltipPosition}
+          target={buttonRef}
+          visible={tooltipVisible}
+        >
           {tooltipText}
         </Tooltip>
       )}
@@ -296,6 +317,7 @@ InternalButton.defaultProps = {
   intent: 'neutral',
   loading: false,
   size: 'medium',
+  tooltipPosition: 'bottom',
   type: 'button',
 };
 

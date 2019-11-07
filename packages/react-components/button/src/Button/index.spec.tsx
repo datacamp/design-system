@@ -620,7 +620,7 @@ describe('<Button />', () => {
   describe('tooltips', () => {
     it('displays/removes the tooltip on focus/blur', async () => {
       const tooltipText = 'tooltip text';
-      const { container, getByText, baseElement } = await axeRender(
+      const { container, getByText } = await axeRender(
         <Button onClick={() => {}} tooltipText={tooltipText}>
           Confirm
         </Button>
@@ -629,7 +629,6 @@ describe('<Button />', () => {
       fireEvent.focus(buttonElement);
       const tooltipElement = getByText(tooltipText);
       expect(tooltipElement).toBeInTheDocument();
-      expect(baseElement).toMatchSnapshot();
 
       fireEvent.blur(buttonElement);
       expect(tooltipElement).not.toBeInTheDocument();
@@ -637,7 +636,7 @@ describe('<Button />', () => {
 
     it('displays/removes the tooltip on hover/unhover', async () => {
       const tooltipText = 'tooltip text';
-      const { container, getByText, baseElement } = await axeRender(
+      const { container, getByText } = await axeRender(
         <Button onClick={() => {}} tooltipText={tooltipText}>
           Confirm
         </Button>
@@ -646,10 +645,39 @@ describe('<Button />', () => {
       fireEvent.mouseEnter(buttonElement);
       const tooltipElement = getByText(tooltipText);
       expect(tooltipElement).toBeInTheDocument();
-      expect(baseElement).toMatchSnapshot();
 
       fireEvent.mouseLeave(buttonElement);
       expect(tooltipElement).not.toBeInTheDocument();
+    });
+
+    describe('tooltip position snapshots', () => {
+      ([
+        undefined,
+        'bottom',
+        'top',
+        'left',
+        'right',
+        'bottomLeft',
+        'bottomRight',
+        'topLeft',
+        'topRight',
+      ] as const).forEach(tooltipPosition =>
+        it(`renders the tooltip at ${tooltipPosition}`, async () => {
+          const tooltipText = 'tooltip text';
+          const { baseElement, container } = await axeRender(
+            <Button
+              onClick={() => {}}
+              tooltipPosition={tooltipPosition}
+              tooltipText={tooltipText}
+            >
+              Confirm
+            </Button>
+          );
+          const buttonElement = container.firstChild as HTMLElement;
+          fireEvent.mouseEnter(buttonElement);
+          expect(baseElement).toMatchSnapshot();
+        })
+      );
     });
   });
 
