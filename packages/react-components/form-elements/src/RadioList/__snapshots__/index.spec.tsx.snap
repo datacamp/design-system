@@ -28,6 +28,7 @@ exports[`<RadioList> snapshots renders a radio list 1`] = `
 }
 
 .emotion-0 {
+  -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;
@@ -85,6 +86,7 @@ exports[`<RadioList> snapshots renders a radio list 1`] = `
 }
 
 .emotion-6 {
+  -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;
@@ -120,6 +122,7 @@ exports[`<RadioList> snapshots renders a radio list 1`] = `
 }
 
 .emotion-16 {
+  -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;
@@ -147,6 +150,7 @@ exports[`<RadioList> snapshots renders a radio list 1`] = `
 }
 
 .emotion-14 {
+  -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;

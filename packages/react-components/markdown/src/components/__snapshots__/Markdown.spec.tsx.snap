@@ -2,6 +2,7 @@
 
 exports[`<Markdown /> renders 1`] = `
 .emotion-0 {
+  -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;
@@ -23,6 +24,7 @@ exports[`<Markdown /> renders 1`] = `
 }
 
 .emotion-1 {
+  -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;
@@ -44,6 +46,7 @@ exports[`<Markdown /> renders 1`] = `
 }
 
 .emotion-2 {
+  -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;
@@ -65,6 +68,7 @@ exports[`<Markdown /> renders 1`] = `
 }
 
 .emotion-3 {
+  -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;
@@ -86,6 +90,7 @@ exports[`<Markdown /> renders 1`] = `
 }
 
 .emotion-4 {
+  -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;
@@ -107,6 +112,7 @@ exports[`<Markdown /> renders 1`] = `
 }
 
 .emotion-5 {
+  -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;
@@ -128,6 +134,7 @@ exports[`<Markdown /> renders 1`] = `
 }
 
 .emotion-6 {
+  -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;
@@ -137,6 +144,7 @@ exports[`<Markdown /> renders 1`] = `
 }
 
 .emotion-8 {
+  -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;
@@ -154,6 +162,7 @@ exports[`<Markdown /> renders 1`] = `
 }
 
 .emotion-11 {
+  -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;

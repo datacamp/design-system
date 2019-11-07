@@ -28,6 +28,7 @@ exports[`snapshots renders an input with size large, disabled=false, required=fa
 }
 
 .emotion-0 {
+  -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;
@@ -48,6 +49,7 @@ exports[`snapshots renders an input with size large, disabled=false, required=fa
 }
 
 .emotion-6 {
+  -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;
@@ -69,6 +71,7 @@ exports[`snapshots renders an input with size large, disabled=false, required=fa
 }
 
 .emotion-1 {
+  -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;
@@ -215,6 +218,7 @@ exports[`snapshots renders an input with size large, disabled=false, required=tr
 }
 
 .emotion-0 {
+  -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;
@@ -235,6 +239,7 @@ exports[`snapshots renders an input with size large, disabled=false, required=tr
 }
 
 .emotion-7 {
+  -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;
@@ -256,6 +261,7 @@ exports[`snapshots renders an input with size large, disabled=false, required=tr
 }
 
 .emotion-1 {
+  -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;
@@ -268,6 +274,7 @@ exports[`snapshots renders an input with size large, disabled=false, required=tr
 }
 
 .emotion-2 {
+  -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;
@@ -419,6 +426,7 @@ exports[`snapshots renders an input with size large, disabled=false, required=un
 }
 
 .emotion-0 {
+  -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;
@@ -439,6 +447,7 @@ exports[`snapshots renders an input with size large, disabled=false, required=un
 }
 
 .emotion-4 {
+  -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;
@@ -577,6 +586,7 @@ exports[`snapshots renders an input with size large, disabled=true, required=fal
 }
 
 .emotion-0 {
+  -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;
@@ -597,6 +607,7 @@ exports[`snapshots renders an input with size large, disabled=true, required=fal
 }
 
 .emotion-6 {
+  -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;
@@ -618,6 +629,7 @@ exports[`snapshots renders an input with size large, disabled=true, required=fal
 }
 
 .emotion-1 {
+  -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;
@@ -765,6 +777,7 @@ exports[`snapshots renders an input with size large, disabled=true, required=tru
 }
 
 .emotion-0 {
+  -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;
@@ -785,6 +798,7 @@ exports[`snapshots renders an input with size large, disabled=true, required=tru
 }
 
 .emotion-7 {
+  -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;
@@ -806,6 +820,7 @@ exports[`snapshots renders an input with size large, disabled=true, required=tru
 }
 
 .emotion-1 {
+  -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;
@@ -818,6 +833,7 @@ exports[`snapshots renders an input with size large, disabled=true, required=tru
 }
 
 .emotion-2 {
+  -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;
@@ -970,6 +986,7 @@ exports[`snapshots renders an input with size large, disabled=true, required=und
 }
 
 .emotion-0 {
+  -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;
@@ -990,6 +1007,7 @@ exports[`snapshots renders an input with size large, disabled=true, required=und
 }
 
 .emotion-4 {
+  -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;
@@ -1129,6 +1147,7 @@ exports[`snapshots renders an input with size medium, disabled=false, required=f
 }
 
 .emotion-0 {
+  -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;
@@ -1215,6 +1234,7 @@ exports[`snapshots renders an input with size medium, disabled=false, required=f
 }
 
 .emotion-6 {
+  -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;
@@ -1236,6 +1256,7 @@ exports[`snapshots renders an input with size medium, disabled=false, required=f
 }
 
 .emotion-1 {
+  -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;
@@ -1316,6 +1337,7 @@ exports[`snapshots renders an input with size medium, disabled=false, required=t
 }
 
 .emotion-0 {
+  -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;
@@ -1402,6 +1424,7 @@ exports[`snapshots renders an input with size medium, disabled=false, required=t
 }
 
 .emotion-7 {
+  -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;
@@ -1423,6 +1446,7 @@ exports[`snapshots renders an input with size medium, disabled=false, required=t
 }
 
 .emotion-1 {
+  -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;
@@ -1435,6 +1459,7 @@ exports[`snapshots renders an input with size medium, disabled=false, required=t
 }
 
 .emotion-2 {
+  -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;
@@ -1520,6 +1545,7 @@ exports[`snapshots renders an input with size medium, disabled=false, required=u
 }
 
 .emotion-0 {
+  -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;
@@ -1606,6 +1632,7 @@ exports[`snapshots renders an input with size medium, disabled=false, required=u
 }
 
 .emotion-4 {
+  -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;
@@ -1678,6 +1705,7 @@ exports[`snapshots renders an input with size medium, disabled=true, required=fa
 }
 
 .emotion-0 {
+  -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;
@@ -1764,6 +1792,7 @@ exports[`snapshots renders an input with size medium, disabled=true, required=fa
 }
 
 .emotion-6 {
+  -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;
@@ -1785,6 +1814,7 @@ exports[`snapshots renders an input with size medium, disabled=true, required=fa
 }
 
 .emotion-1 {
+  -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;
@@ -1866,6 +1896,7 @@ exports[`snapshots renders an input with size medium, disabled=true, required=tr
 }
 
 .emotion-0 {
+  -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;
@@ -1952,6 +1983,7 @@ exports[`snapshots renders an input with size medium, disabled=true, required=tr
 }
 
 .emotion-7 {
+  -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;
@@ -1973,6 +2005,7 @@ exports[`snapshots renders an input with size medium, disabled=true, required=tr
 }
 
 .emotion-1 {
+  -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;
@@ -1985,6 +2018,7 @@ exports[`snapshots renders an input with size medium, disabled=true, required=tr
 }
 
 .emotion-2 {
+  -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;
@@ -2071,6 +2105,7 @@ exports[`snapshots renders an input with size medium, disabled=true, required=un
 }
 
 .emotion-0 {
+  -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;
@@ -2157,6 +2192,7 @@ exports[`snapshots renders an input with size medium, disabled=true, required=un
 }
 
 .emotion-4 {
+  -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;
@@ -2230,6 +2266,7 @@ exports[`snapshots renders an input with size small, disabled=false, required=fa
 }
 
 .emotion-0 {
+  -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;
@@ -2250,6 +2287,7 @@ exports[`snapshots renders an input with size small, disabled=false, required=fa
 }
 
 .emotion-6 {
+  -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;
@@ -2271,6 +2309,7 @@ exports[`snapshots renders an input with size small, disabled=false, required=fa
 }
 
 .emotion-1 {
+  -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;
@@ -2417,6 +2456,7 @@ exports[`snapshots renders an input with size small, disabled=false, required=tr
 }
 
 .emotion-0 {
+  -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;
@@ -2437,6 +2477,7 @@ exports[`snapshots renders an input with size small, disabled=false, required=tr
 }
 
 .emotion-7 {
+  -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;
@@ -2458,6 +2499,7 @@ exports[`snapshots renders an input with size small, disabled=false, required=tr
 }
 
 .emotion-1 {
+  -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;
@@ -2470,6 +2512,7 @@ exports[`snapshots renders an input with size small, disabled=false, required=tr
 }
 
 .emotion-2 {
+  -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;
@@ -2621,6 +2664,7 @@ exports[`snapshots renders an input with size small, disabled=false, required=un
 }
 
 .emotion-0 {
+  -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;
@@ -2641,6 +2685,7 @@ exports[`snapshots renders an input with size small, disabled=false, required=un
 }
 
 .emotion-4 {
+  -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;
@@ -2779,6 +2824,7 @@ exports[`snapshots renders an input with size small, disabled=true, required=fal
 }
 
 .emotion-0 {
+  -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;
@@ -2799,6 +2845,7 @@ exports[`snapshots renders an input with size small, disabled=true, required=fal
 }
 
 .emotion-6 {
+  -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;
@@ -2820,6 +2867,7 @@ exports[`snapshots renders an input with size small, disabled=true, required=fal
 }
 
 .emotion-1 {
+  -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;
@@ -2967,6 +3015,7 @@ exports[`snapshots renders an input with size small, disabled=true, required=tru
 }
 
 .emotion-0 {
+  -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;
@@ -2987,6 +3036,7 @@ exports[`snapshots renders an input with size small, disabled=true, required=tru
 }
 
 .emotion-7 {
+  -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;
@@ -3008,6 +3058,7 @@ exports[`snapshots renders an input with size small, disabled=true, required=tru
 }
 
 .emotion-1 {
+  -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;
@@ -3020,6 +3071,7 @@ exports[`snapshots renders an input with size small, disabled=true, required=tru
 }
 
 .emotion-2 {
+  -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;
@@ -3172,6 +3224,7 @@ exports[`snapshots renders an input with size small, disabled=true, required=und
 }
 
 .emotion-0 {
+  -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;
@@ -3192,6 +3245,7 @@ exports[`snapshots renders an input with size small, disabled=true, required=und
 }
 
 .emotion-4 {
+  -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;

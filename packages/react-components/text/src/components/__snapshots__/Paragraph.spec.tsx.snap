@@ -2,6 +2,7 @@
 
 exports[`<Paragraph /> renders with Strong, Small, Text, Link and Emphasis children 1`] = `
 .emotion-5 {
+  -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;
@@ -19,6 +20,7 @@ exports[`<Paragraph /> renders with Strong, Small, Text, Link and Emphasis child
 }
 
 .emotion-0 {
+  -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;
@@ -28,6 +30,7 @@ exports[`<Paragraph /> renders with Strong, Small, Text, Link and Emphasis child
 }
 
 .emotion-1 {
+  -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;
@@ -38,6 +41,7 @@ exports[`<Paragraph /> renders with Strong, Small, Text, Link and Emphasis child
 }
 
 .emotion-2 {
+  -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;
@@ -47,6 +51,7 @@ exports[`<Paragraph /> renders with Strong, Small, Text, Link and Emphasis child
 }
 
 .emotion-3 {
+  -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;
@@ -57,6 +62,7 @@ exports[`<Paragraph /> renders with Strong, Small, Text, Link and Emphasis child
 }
 
 .emotion-4 {
+  -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;
@@ -115,6 +121,7 @@ exports[`<Paragraph /> renders with Strong, Small, Text, Link and Emphasis child
 
 exports[`<Paragraph /> renders with a string 1`] = `
 .emotion-0 {
+  -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;

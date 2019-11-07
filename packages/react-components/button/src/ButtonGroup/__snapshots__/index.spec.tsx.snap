@@ -69,6 +69,7 @@ exports[`ButtonGroup renders the buttons or CompactButtonGroups with 16px spaces
 }
 
 .emotion-0 {
+  -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;
@@ -577,6 +578,7 @@ exports[`ButtonGroup renders the small buttons or CompactButtonGroups with 8px s
 }
 
 .emotion-0 {
+  -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;

@@ -2,6 +2,7 @@
 
 exports[`<Button /> snapshots renders a button with appearance default, intent danger, size large and loading false 1`] = `
 .emotion-0 {
+  -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;
@@ -166,6 +167,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent d
 }
 
 .emotion-2 {
+  -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;
@@ -385,6 +387,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent d
 
 exports[`<Button /> snapshots renders a button with appearance default, intent danger, size medium and loading false 1`] = `
 .emotion-0 {
+  -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;
@@ -549,6 +552,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent d
 }
 
 .emotion-2 {
+  -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;
@@ -768,6 +772,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent d
 
 exports[`<Button /> snapshots renders a button with appearance default, intent danger, size small and loading false 1`] = `
 .emotion-0 {
+  -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;
@@ -932,6 +937,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent d
 }
 
 .emotion-2 {
+  -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;
@@ -1209,6 +1215,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent n
 }
 
 .emotion-0 {
+  -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;
@@ -1381,6 +1388,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent n
 }
 
 .emotion-2 {
+  -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;
@@ -1592,6 +1600,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent n
 }
 
 .emotion-0 {
+  -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;
@@ -1764,6 +1773,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent n
 }
 
 .emotion-2 {
+  -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;
@@ -1975,6 +1985,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent n
 }
 
 .emotion-0 {
+  -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;
@@ -2147,6 +2158,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent n
 }
 
 .emotion-2 {
+  -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;
@@ -2300,6 +2312,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent n
 
 exports[`<Button /> snapshots renders a button with appearance default, intent success, size large and loading false 1`] = `
 .emotion-0 {
+  -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;
@@ -2464,6 +2477,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent s
 }
 
 .emotion-2 {
+  -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;
@@ -2683,6 +2697,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent s
 
 exports[`<Button /> snapshots renders a button with appearance default, intent success, size medium and loading false 1`] = `
 .emotion-0 {
+  -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;
@@ -2847,6 +2862,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent s
 }
 
 .emotion-2 {
+  -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;
@@ -3066,6 +3082,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent s
 
 exports[`<Button /> snapshots renders a button with appearance default, intent success, size small and loading false 1`] = `
 .emotion-0 {
+  -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;
@@ -3230,6 +3247,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent s
 }
 
 .emotion-2 {
+  -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;
@@ -3449,6 +3467,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent s
 
 exports[`<Button /> snapshots renders a button with appearance default, intent warning, size large and loading false 1`] = `
 .emotion-0 {
+  -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;
@@ -3613,6 +3632,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent w
 }
 
 .emotion-2 {
+  -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;
@@ -3832,6 +3852,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent w
 
 exports[`<Button /> snapshots renders a button with appearance default, intent warning, size medium and loading false 1`] = `
 .emotion-0 {
+  -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;
@@ -3996,6 +4017,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent w
 }
 
 .emotion-2 {
+  -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;
@@ -4215,6 +4237,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent w
 
 exports[`<Button /> snapshots renders a button with appearance default, intent warning, size small and loading false 1`] = `
 .emotion-0 {
+  -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;
@@ -4379,6 +4402,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent w
 }
 
 .emotion-2 {
+  -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;
@@ -4598,6 +4622,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent w
 
 exports[`<Button /> snapshots renders a button with appearance primary, intent cta, size large and loading false 1`] = `
 .emotion-0 {
+  -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;
@@ -4768,6 +4793,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent c
 }
 
 .emotion-2 {
+  -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;
@@ -4988,6 +5014,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent c
 
 exports[`<Button /> snapshots renders a button with appearance primary, intent cta, size medium and loading false 1`] = `
 .emotion-0 {
+  -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;
@@ -5158,6 +5185,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent c
 }
 
 .emotion-2 {
+  -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;
@@ -5378,6 +5406,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent c
 
 exports[`<Button /> snapshots renders a button with appearance primary, intent cta, size small and loading false 1`] = `
 .emotion-0 {
+  -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;
@@ -5548,6 +5577,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent c
 }
 
 .emotion-2 {
+  -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;
@@ -5768,6 +5798,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent c
 
 exports[`<Button /> snapshots renders a button with appearance primary, intent danger, size large and loading false 1`] = `
 .emotion-0 {
+  -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;
@@ -5938,6 +5969,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent d
 }
 
 .emotion-2 {
+  -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;
@@ -6158,6 +6190,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent d
 
 exports[`<Button /> snapshots renders a button with appearance primary, intent danger, size medium and loading false 1`] = `
 .emotion-0 {
+  -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;
@@ -6328,6 +6361,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent d
 }
 
 .emotion-2 {
+  -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;
@@ -6612,6 +6646,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent d
 }
 
 .emotion-0 {
+  -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;
@@ -6718,6 +6753,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent d
 }
 
 .emotion-2 {
+  -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;
@@ -7002,6 +7038,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent n
 }
 
 .emotion-0 {
+  -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;
@@ -7108,6 +7145,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent n
 }
 
 .emotion-2 {
+  -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;
@@ -7392,6 +7430,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent n
 }
 
 .emotion-0 {
+  -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;
@@ -7498,6 +7537,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent n
 }
 
 .emotion-2 {
+  -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;
@@ -7782,6 +7822,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent n
 }
 
 .emotion-0 {
+  -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;
@@ -7955,6 +7996,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent n
 }
 
 .emotion-2 {
+  -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;
@@ -8108,6 +8150,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent n
 
 exports[`<Button /> snapshots renders a button with appearance primary, intent success, size large and loading false 1`] = `
 .emotion-0 {
+  -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;
@@ -8278,6 +8321,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent s
 }
 
 .emotion-2 {
+  -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;
@@ -8498,6 +8542,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent s
 
 exports[`<Button /> snapshots renders a button with appearance primary, intent success, size medium and loading false 1`] = `
 .emotion-0 {
+  -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;
@@ -8668,6 +8713,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent s
 }
 
 .emotion-2 {
+  -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;
@@ -8952,6 +8998,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent s
 }
 
 .emotion-0 {
+  -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;
@@ -9058,6 +9105,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent s
 }
 
 .emotion-2 {
+  -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;
@@ -9278,6 +9326,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent s
 
 exports[`<Button /> snapshots renders a button with appearance primary, intent warning, size large and loading false 1`] = `
 .emotion-0 {
+  -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;
@@ -9448,6 +9497,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent w
 }
 
 .emotion-2 {
+  -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;
@@ -9668,6 +9718,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent w
 
 exports[`<Button /> snapshots renders a button with appearance primary, intent warning, size medium and loading false 1`] = `
 .emotion-0 {
+  -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;
@@ -9838,6 +9889,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent w
 }
 
 .emotion-2 {
+  -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;
@@ -10122,6 +10174,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent w
 }
 
 .emotion-0 {
+  -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;
@@ -10228,6 +10281,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent w
 }
 
 .emotion-2 {
+  -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;
@@ -10586,6 +10640,7 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at b
 }
 
 .emotion-0 {
+  -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;
@@ -10609,6 +10664,7 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at b
 }
 
 .emotion-2 {
+  -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;
@@ -10716,6 +10772,7 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at b
 }
 
 .emotion-0 {
+  -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;
@@ -10736,6 +10793,7 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at b
 }
 
 .emotion-2 {
+  -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;
@@ -10843,6 +10901,7 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at b
 }
 
 .emotion-0 {
+  -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;
@@ -10866,6 +10925,7 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at b
 }
 
 .emotion-2 {
+  -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;
@@ -10973,6 +11033,7 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at l
 }
 
 .emotion-0 {
+  -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;
@@ -10996,6 +11057,7 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at l
 }
 
 .emotion-2 {
+  -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;
@@ -11103,6 +11165,7 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at r
 }
 
 .emotion-0 {
+  -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;
@@ -11126,6 +11189,7 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at r
 }
 
 .emotion-2 {
+  -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;
@@ -11233,6 +11297,7 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at t
 }
 
 .emotion-0 {
+  -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;
@@ -11256,6 +11321,7 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at t
 }
 
 .emotion-2 {
+  -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;
@@ -11363,6 +11429,7 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at t
 }
 
 .emotion-0 {
+  -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;
@@ -11386,6 +11453,7 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at t
 }
 
 .emotion-2 {
+  -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;
@@ -11493,6 +11561,7 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at t
 }
 
 .emotion-0 {
+  -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;
@@ -11516,6 +11585,7 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at t
 }
 
 .emotion-2 {
+  -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;
@@ -11623,6 +11693,7 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at u
 }
 
 .emotion-0 {
+  -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;
@@ -11646,6 +11717,7 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at u
 }
 
 .emotion-2 {
+  -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
   font-family: Lato;
