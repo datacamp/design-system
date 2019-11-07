@@ -5,6 +5,7 @@ import Button, {
   CompactButtonGroup,
 } from '@datacamp/waffles-button';
 import { AddCircleIcon, ChevronDownIcon } from '@datacamp/waffles-icons';
+import { select } from '@storybook/addon-knobs';
 import { storiesOf } from '@storybook/react';
 import React from 'react';
 
@@ -40,6 +41,22 @@ const AllButtonCombos = ({ children }) => (
   </div>
 );
 
+const getTooltipPosition = () =>
+  select(
+    'tooltipPosition',
+    [
+      'bottom',
+      'top',
+      'left',
+      'right',
+      'bottomLeft',
+      'bottomRight',
+      'topLeft',
+      'topRight',
+    ],
+    'bottom'
+  );
+
 storiesOf('waffles-button', module)
   .addParameters({ percy: { widths: [1500] } })
   .add('Button with text', () => (
@@ -52,7 +69,8 @@ storiesOf('waffles-button', module)
           intent={intent}
           loading={state === 'loading'}
           size={size}
-          tooltipText="tooltip text"
+          tooltipPosition={getTooltipPosition()}
+          tooltipText="very long tooltip text"
         >
           Button
         </Button>
@@ -70,7 +88,8 @@ storiesOf('waffles-button', module)
           intent={intent}
           loading={state === 'loading'}
           size={size}
-          tooltipText="tooltip text"
+          tooltipPosition={getTooltipPosition()}
+          tooltipText="very long tooltip text"
         >
           <AddCircleIcon />
         </Button>
@@ -88,7 +107,8 @@ storiesOf('waffles-button', module)
             intent={intent}
             loading={state === 'loading'}
             size={size}
-            tooltipText="tooltip text"
+            tooltipPosition={getTooltipPosition()}
+            tooltipText="very long tooltip text"
           >
             <AddCircleIcon /> Add
           </Button>
@@ -103,7 +123,8 @@ storiesOf('waffles-button', module)
             intent={intent}
             loading={state === 'loading'}
             size={size}
-            tooltipText="tooltip text"
+            tooltipPosition={getTooltipPosition()}
+            tooltipText="very long tooltip text"
           >
             Add <AddCircleIcon />
           </Button>
