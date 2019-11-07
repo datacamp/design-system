@@ -130,7 +130,7 @@ workflows:
   run_mutation_testing:
     triggers:
       - schedule:
-          cron: "0 0 * * 4"
+          cron: "0 0 * * 5"
           filters:
             branches:
               only:
