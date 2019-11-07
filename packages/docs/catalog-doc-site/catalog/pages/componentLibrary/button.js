@@ -85,6 +85,8 @@ export default () => {
     type="submit"
     appearance="primary"
     intent="success"
+    tooltipText="Submit your answer"
+    tooltipPosition="bottomLeft"
   >
     Submit
   </Button>
