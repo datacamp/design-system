@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [4.5.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-button@4.4.0...@datacamp/waffles-button@4.5.0) (2019-11-12)
+
+
+### Features
+
+* add tooltipPosition to Button ([60e7fe6](https://github.com/datacamp/design-system/commit/60e7fe6))
+
+
+
+
+
 # [4.4.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-button@4.3.0...@datacamp/waffles-button@4.4.0) (2019-11-06)
 
 

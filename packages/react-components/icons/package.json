@@ -1,6 +1,6 @@
 {
   "name": "@datacamp/waffles-icons",
-  "version": "1.7.2",
+  "version": "1.7.3",
   "main": "lib/web/index.js",
   "module": "es/web/index.js",
   "license": "ISC",

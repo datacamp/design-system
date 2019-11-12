@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.30.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-catalog-doc-site@1.29.0...@datacamp/waffles-catalog-doc-site@1.30.0) (2019-11-12)
+
+
+### Features
+
+* add tooltipPosition to docs ([73d2f60](https://github.com/datacamp/design-system/commit/73d2f60))
+
+
+
+
+
 # [1.29.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-catalog-doc-site@1.28.0...@datacamp/waffles-catalog-doc-site@1.29.0) (2019-11-06)
 
 

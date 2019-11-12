@@ -1,6 +1,6 @@
 {
   "name": "@datacamp/waffles-utils",
-  "version": "1.2.4",
+  "version": "1.2.5",
   "description": "Various collection of things to be shared across waffles packages",
   "author": "Louis Bailey <louis@datacamp.com>",
   "homepage": "https://github.com/datacamp/design-system/tree/master/packages/docs/waffles-utils#readme",

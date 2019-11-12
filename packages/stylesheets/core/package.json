@@ -1,6 +1,6 @@
 {
   "name": "@datacamp/waffles-core",
-  "version": "1.2.19",
+  "version": "1.2.20",
   "description": "Core tokens and styles for DataCamp Design System",
   "keywords": [
     "css",
