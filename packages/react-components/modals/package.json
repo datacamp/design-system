@@ -27,7 +27,7 @@
     "stryker": "stryker run"
   },
   "devDependencies": {
-    "@babel/cli": "7.6.4",
+    "@babel/cli": "7.7.0",
     "@babel/core": "7.6.4",
     "@datacamp/waffles-axe-render": "^1.1.4",
     "@datacamp/waffles-babel-preset": "^1.3.5",
