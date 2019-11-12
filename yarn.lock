@@ -2974,14 +2974,6 @@
     mutation-testing-elements "^1.0.2"
     rimraf "~2.6.1"
 
-"@stryker-mutator/jest-runner@^2.0.2":
-  version "2.0.2"
-  resolved "https://registry.yarnpkg.com/@stryker-mutator/jest-runner/-/jest-runner-2.0.2.tgz#869394f093d043c5523a027f05a377f6e4133911"
-  integrity sha512-3AIEqt9bD7gl3TqfSaVawbpuVjdBKt32I2u4+RY20/PuoDD11QF03ME0ixuN5HYZh2H2CIh142w3DY5EV4+jhw==
-  dependencies:
-    "@stryker-mutator/api" "^2.0.2"
-    semver "~6.2.0"
-
 "@stryker-mutator/typescript@^2.0.2":
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/@stryker-mutator/typescript/-/typescript-2.0.2.tgz#e8c519f989851e0cd77fe024ff9acd07bb4c00c9"
