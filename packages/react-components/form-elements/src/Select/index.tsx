@@ -92,8 +92,6 @@ class Select extends Component<
   SelectProps & { innerRef?: Ref<HTMLSelectElement> },
   SelectState
 > {
-  public static Option = Option;
-
   public static propTypes = {
     children: PropTypes.arrayOf(childrenOfType(Option)).isRequired,
   };
@@ -119,6 +117,8 @@ class Select extends Component<
     const { onBlur } = this.props;
     if (onBlur) onBlur();
   };
+
+  public static Option = Option;
 
   public render(): ReactElement {
     const {

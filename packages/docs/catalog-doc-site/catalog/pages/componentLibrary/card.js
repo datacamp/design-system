@@ -30,7 +30,7 @@ export default () => {
               <Code>@datacamp/waffles-card</Code>.
             </Paragraph>
             <CodeBlock>
-              {"import Card from '@datacamp/waffles-card';"}
+              import Card from $apos;@datacamp/waffles-card&apos;;
             </CodeBlock>
           </Card>
 

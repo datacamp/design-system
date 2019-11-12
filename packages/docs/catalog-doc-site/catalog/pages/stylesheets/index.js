@@ -40,7 +40,8 @@ export default () => {
                   Import all of the Design SCSS as part of your build.
                 </p>
                 <code className="dc-u-ml-0">
-                  {`@import "@datacamp/waffles-core/lib/scss/ingredients";`}
+                  @import
+                  &quot;@datacamp/waffles-core/lib/scss/ingredients&quot;;
                 </code>
               </div>
             </article>
