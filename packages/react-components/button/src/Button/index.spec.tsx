@@ -679,6 +679,26 @@ describe('<Button />', () => {
         })
       );
     });
+
+    describe('tooltip appearance snapshots', () => {
+      ([undefined, 'dark', 'light'] as const).forEach(tooltipAppearance =>
+        it(`renders a tooltip with appearance ${tooltipAppearance}`, async () => {
+          const tooltipText = 'tooltip text';
+          const { baseElement, container } = await axeRender(
+            <Button
+              onClick={() => {}}
+              tooltipAppearance={tooltipAppearance}
+              tooltipText={tooltipText}
+            >
+              Confirm
+            </Button>
+          );
+          const buttonElement = container.firstChild as HTMLElement;
+          fireEvent.mouseEnter(buttonElement);
+          expect(baseElement).toMatchSnapshot();
+        })
+      );
+    });
   });
 
   describe('snapshots', () => {
