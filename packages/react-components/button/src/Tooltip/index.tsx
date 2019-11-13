@@ -1,3 +1,4 @@
+import Card from '@datacamp/waffles-card';
 import { Text } from '@datacamp/waffles-text';
 import tokens from '@datacamp/waffles-tokens/lib/future-tokens.json';
 import { css } from '@emotion/core';
@@ -5,6 +6,7 @@ import React, { MutableRefObject, ReactElement } from 'react';
 import { createPortal } from 'react-dom';
 
 interface TooltipProps {
+  appearance: 'light' | 'dark';
   children: string;
   id: string;
   position:
@@ -31,7 +33,25 @@ const marginMap = {
   topRight: css({ marginBottom: tokens.size.space[8].value }),
 };
 
+const cardStyles = {
+  dark: css({
+    backgroundColor: tokens.color.opaque.primaryDarkest.value.hex,
+    boxShadow: 'none', // override default card border
+  }),
+  light: css({
+    backgroundColor: tokens.color.opaque.white.value.hex,
+  }),
+};
+
+const textStyles = {
+  dark: css({ color: tokens.color.opaque.white.value.hex }),
+  light: css({ color: tokens.color.opaque.grey.value.hex }),
+};
+
+const elevations = { dark: 0, light: 2 } as const;
+
 const Tooltip = ({
+  appearance,
   children,
   id,
   visible,
@@ -94,25 +114,31 @@ const Tooltip = ({
       )}
       id={id}
     >
-      <Text
+      <Card
         css={css(
           {
-            backgroundColor: tokens.color.opaque.primaryDarkest.value.hex,
-            borderRadius: tokens.radii.small.value,
-            color: tokens.color.opaque.white.value.hex,
-            display: 'block',
-            fontSize: tokens.size.font[200].value,
             paddingBottom: tokens.size.space[8].value,
             paddingLeft: tokens.size.space[12].value,
             paddingRight: tokens.size.space[12].value,
             paddingTop: tokens.size.space[8].value,
-            whiteSpace: 'nowrap',
           },
-          marginMap[position]
+          marginMap[position],
+          cardStyles[appearance]
         )}
+        elevation={elevations[appearance]}
       >
-        {children}
-      </Text>
+        <Text
+          css={css(
+            {
+              fontSize: tokens.size.font[200].value,
+              whiteSpace: 'nowrap',
+            },
+            textStyles[appearance]
+          )}
+        >
+          {children}
+        </Text>
+      </Card>
     </div>,
     document.body
   );

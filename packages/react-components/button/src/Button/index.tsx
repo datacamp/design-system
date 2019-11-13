@@ -50,6 +50,11 @@ interface BaseButtonProps {
    */
   size?: 'small' | 'medium' | 'large';
   /**
+   * When tooltipText is provided, this sets the colour of the tooltip. It
+   * should be used make the tooltip visible on different colour backgrounds.
+   */
+  tooltipAppearance?: 'light' | 'dark';
+  /**
    * When tooltipText is provided, this determines the position of that text.
    * "top", "bottom", "left", and "right" will position the tooltip at the
    * centre of that side. The other styles can be used to prevent the tooltip
@@ -135,6 +140,7 @@ const InternalButton = (
     intent = 'neutral',
     loading = false,
     size = 'medium',
+    tooltipAppearance = 'dark',
     tooltipText,
     tooltipPosition = 'bottom',
   } = props;
@@ -245,6 +251,7 @@ const InternalButton = (
       </Element>
       {tooltipText && (
         <Tooltip
+          appearance={tooltipAppearance}
           id={tooltipId}
           position={tooltipPosition}
           target={buttonRef}
@@ -317,6 +324,7 @@ InternalButton.defaultProps = {
   intent: 'neutral',
   loading: false,
   size: 'medium',
+  tooltipAppearance: 'dark',
   tooltipPosition: 'bottom',
   type: 'button',
 };

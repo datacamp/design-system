@@ -10580,6 +10580,434 @@ exports[`<Button /> snapshots renders a squared button with a single icon 1`] = 
 </button>
 `;
 
+exports[`<Button /> tooltips tooltip appearance snapshots renders a tooltip with appearance dark 1`] = `
+.emotion-1 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border: none;
+  border-radius: 4px;
+  border-style: solid;
+  border-width: 1px;
+  cursor: pointer;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  -webkit-transition: 0.15s;
+  transition: 0.15s;
+  vertical-align: baseline;
+  white-space: nowrap;
+  background-color: transparent;
+  border-color: #33aacc;
+  color: #33aacc;
+  padding: 0 15px;
+}
+
+.emotion-1:active {
+  -webkit-transform: perspective(1px) scale(0.975);
+  -ms-transform: perspective(1px) scale(0.975);
+  transform: perspective(1px) scale(0.975);
+}
+
+.emotion-1:disabled,
+.emotion-1:hover:disabled,
+.emotion-1:active:disabled {
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+}
+
+.emotion-1:focus {
+  outline: 0;
+}
+
+.emotion-1:focus {
+  box-shadow: 0 0 0 4px rgba(51,170,204,0.2);
+}
+
+.emotion-1:hover {
+  border-color: #2E8FAB;
+  color: #2E8FAB;
+}
+
+.emotion-0 {
+  -webkit-font-smoothing: antialiased;
+  color: rgb(77,83,86);
+  font-family: sans-serif;
+  font-family: Lato;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  font-size: 16px;
+  line-height: 46px;
+  color: #3d4251;
+  font-weight: bold;
+}
+
+.emotion-4 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  -webkit-transform: translate(-50%,0);
+  -ms-transform: translate(-50%,0);
+  transform: translate(-50%,0);
+}
+
+.emotion-3 {
+  background-color: rgb(255,255,255);
+  border-radius: 4px;
+  box-shadow: 0 0 0 1px #e6eaeb;
+  -webkit-transition: all 0.6s cubic-bezier(0.075,0.82,0.165,1);
+  transition: all 0.6s cubic-bezier(0.075,0.82,0.165,1);
+  padding-bottom: 8px;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 8px;
+  margin-top: 8px;
+  background-color: #0c1626;
+  box-shadow: none;
+}
+
+.emotion-2 {
+  -webkit-font-smoothing: antialiased;
+  color: rgb(77,83,86);
+  font-family: sans-serif;
+  font-family: Lato;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  font-size: 14px;
+  white-space: nowrap;
+  color: #ffffff;
+}
+
+<body>
+  <div>
+    <button
+      aria-describedby="mock-id"
+      class="emotion-1"
+      type="button"
+    >
+      <span
+        class="emotion-0"
+      >
+        Confirm
+      </span>
+    </button>
+  </div>
+  <div
+    class="emotion-4"
+    id="mock-id"
+  >
+    <div
+      class="emotion-3"
+    >
+      <span
+        class="emotion-2"
+      >
+        tooltip text
+      </span>
+    </div>
+  </div>
+</body>
+`;
+
+exports[`<Button /> tooltips tooltip appearance snapshots renders a tooltip with appearance light 1`] = `
+.emotion-1 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border: none;
+  border-radius: 4px;
+  border-style: solid;
+  border-width: 1px;
+  cursor: pointer;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  -webkit-transition: 0.15s;
+  transition: 0.15s;
+  vertical-align: baseline;
+  white-space: nowrap;
+  background-color: transparent;
+  border-color: #33aacc;
+  color: #33aacc;
+  padding: 0 15px;
+}
+
+.emotion-1:active {
+  -webkit-transform: perspective(1px) scale(0.975);
+  -ms-transform: perspective(1px) scale(0.975);
+  transform: perspective(1px) scale(0.975);
+}
+
+.emotion-1:disabled,
+.emotion-1:hover:disabled,
+.emotion-1:active:disabled {
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+}
+
+.emotion-1:focus {
+  outline: 0;
+}
+
+.emotion-1:focus {
+  box-shadow: 0 0 0 4px rgba(51,170,204,0.2);
+}
+
+.emotion-1:hover {
+  border-color: #2E8FAB;
+  color: #2E8FAB;
+}
+
+.emotion-0 {
+  -webkit-font-smoothing: antialiased;
+  color: rgb(77,83,86);
+  font-family: sans-serif;
+  font-family: Lato;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  font-size: 16px;
+  line-height: 46px;
+  color: #3d4251;
+  font-weight: bold;
+}
+
+.emotion-4 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  -webkit-transform: translate(-50%,0);
+  -ms-transform: translate(-50%,0);
+  transform: translate(-50%,0);
+}
+
+.emotion-3 {
+  background-color: rgb(255,255,255);
+  border-radius: 4px;
+  box-shadow: 0 1px 3px 0 rgba(0,0,0,0.15);
+  -webkit-transition: all 0.6s cubic-bezier(0.075,0.82,0.165,1);
+  transition: all 0.6s cubic-bezier(0.075,0.82,0.165,1);
+  padding-bottom: 8px;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 8px;
+  margin-top: 8px;
+  background-color: #ffffff;
+}
+
+.emotion-2 {
+  -webkit-font-smoothing: antialiased;
+  color: rgb(77,83,86);
+  font-family: sans-serif;
+  font-family: Lato;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  font-size: 14px;
+  white-space: nowrap;
+  color: #4d5356;
+}
+
+<body>
+  <div>
+    <button
+      aria-describedby="mock-id"
+      class="emotion-1"
+      type="button"
+    >
+      <span
+        class="emotion-0"
+      >
+        Confirm
+      </span>
+    </button>
+  </div>
+  <div
+    class="emotion-4"
+    id="mock-id"
+  >
+    <div
+      class="emotion-3"
+    >
+      <span
+        class="emotion-2"
+      >
+        tooltip text
+      </span>
+    </div>
+  </div>
+</body>
+`;
+
+exports[`<Button /> tooltips tooltip appearance snapshots renders a tooltip with appearance undefined 1`] = `
+.emotion-1 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border: none;
+  border-radius: 4px;
+  border-style: solid;
+  border-width: 1px;
+  cursor: pointer;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  -webkit-transition: 0.15s;
+  transition: 0.15s;
+  vertical-align: baseline;
+  white-space: nowrap;
+  background-color: transparent;
+  border-color: #33aacc;
+  color: #33aacc;
+  padding: 0 15px;
+}
+
+.emotion-1:active {
+  -webkit-transform: perspective(1px) scale(0.975);
+  -ms-transform: perspective(1px) scale(0.975);
+  transform: perspective(1px) scale(0.975);
+}
+
+.emotion-1:disabled,
+.emotion-1:hover:disabled,
+.emotion-1:active:disabled {
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+}
+
+.emotion-1:focus {
+  outline: 0;
+}
+
+.emotion-1:focus {
+  box-shadow: 0 0 0 4px rgba(51,170,204,0.2);
+}
+
+.emotion-1:hover {
+  border-color: #2E8FAB;
+  color: #2E8FAB;
+}
+
+.emotion-0 {
+  -webkit-font-smoothing: antialiased;
+  color: rgb(77,83,86);
+  font-family: sans-serif;
+  font-family: Lato;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  font-size: 16px;
+  line-height: 46px;
+  color: #3d4251;
+  font-weight: bold;
+}
+
+.emotion-4 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  -webkit-transform: translate(-50%,0);
+  -ms-transform: translate(-50%,0);
+  transform: translate(-50%,0);
+}
+
+.emotion-3 {
+  background-color: rgb(255,255,255);
+  border-radius: 4px;
+  box-shadow: 0 0 0 1px #e6eaeb;
+  -webkit-transition: all 0.6s cubic-bezier(0.075,0.82,0.165,1);
+  transition: all 0.6s cubic-bezier(0.075,0.82,0.165,1);
+  padding-bottom: 8px;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 8px;
+  margin-top: 8px;
+  background-color: #0c1626;
+  box-shadow: none;
+}
+
+.emotion-2 {
+  -webkit-font-smoothing: antialiased;
+  color: rgb(77,83,86);
+  font-family: sans-serif;
+  font-family: Lato;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  font-size: 14px;
+  white-space: nowrap;
+  color: #ffffff;
+}
+
+<body>
+  <div>
+    <button
+      aria-describedby="mock-id"
+      class="emotion-1"
+      type="button"
+    >
+      <span
+        class="emotion-0"
+      >
+        Confirm
+      </span>
+    </button>
+  </div>
+  <div
+    class="emotion-4"
+    id="mock-id"
+  >
+    <div
+      class="emotion-3"
+    >
+      <span
+        class="emotion-2"
+      >
+        tooltip text
+      </span>
+    </div>
+  </div>
+</body>
+`;
+
 exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at bottom 1`] = `
 .emotion-1 {
   -webkit-align-items: center;
@@ -10654,13 +11082,28 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at b
   font-weight: bold;
 }
 
-.emotion-3 {
+.emotion-4 {
   position: absolute;
   left: 0;
   top: 0;
   -webkit-transform: translate(-50%,0);
   -ms-transform: translate(-50%,0);
   transform: translate(-50%,0);
+}
+
+.emotion-3 {
+  background-color: rgb(255,255,255);
+  border-radius: 4px;
+  box-shadow: 0 0 0 1px #e6eaeb;
+  -webkit-transition: all 0.6s cubic-bezier(0.075,0.82,0.165,1);
+  transition: all 0.6s cubic-bezier(0.075,0.82,0.165,1);
+  padding-bottom: 8px;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 8px;
+  margin-top: 8px;
+  background-color: #0c1626;
+  box-shadow: none;
 }
 
 .emotion-2 {
@@ -10672,17 +11115,9 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at b
   font-size: 16px;
   font-weight: 400;
   line-height: 16px;
-  background-color: #0c1626;
-  border-radius: 4px;
-  color: #ffffff;
-  display: block;
   font-size: 14px;
-  padding-bottom: 8px;
-  padding-left: 12px;
-  padding-right: 12px;
-  padding-top: 8px;
   white-space: nowrap;
-  margin-top: 8px;
+  color: #ffffff;
 }
 
 <body>
@@ -10700,14 +11135,18 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at b
     </button>
   </div>
   <div
-    class="emotion-3"
+    class="emotion-4"
     id="mock-id"
   >
-    <span
-      class="emotion-2"
+    <div
+      class="emotion-3"
     >
-      tooltip text
-    </span>
+      <span
+        class="emotion-2"
+      >
+        tooltip text
+      </span>
+    </div>
   </div>
 </body>
 `;
@@ -10786,12 +11225,6 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at b
   font-weight: bold;
 }
 
-.emotion-3 {
-  position: absolute;
-  left: 0;
-  top: 0;
-}
-
 .emotion-2 {
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
@@ -10801,17 +11234,30 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at b
   font-size: 16px;
   font-weight: 400;
   line-height: 16px;
-  background-color: #0c1626;
-  border-radius: 4px;
-  color: #ffffff;
-  display: block;
   font-size: 14px;
+  white-space: nowrap;
+  color: #ffffff;
+}
+
+.emotion-4 {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.emotion-3 {
+  background-color: rgb(255,255,255);
+  border-radius: 4px;
+  box-shadow: 0 0 0 1px #e6eaeb;
+  -webkit-transition: all 0.6s cubic-bezier(0.075,0.82,0.165,1);
+  transition: all 0.6s cubic-bezier(0.075,0.82,0.165,1);
   padding-bottom: 8px;
   padding-left: 12px;
   padding-right: 12px;
   padding-top: 8px;
-  white-space: nowrap;
   margin-top: 8px;
+  background-color: #0c1626;
+  box-shadow: none;
 }
 
 <body>
@@ -10829,14 +11275,18 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at b
     </button>
   </div>
   <div
-    class="emotion-3"
+    class="emotion-4"
     id="mock-id"
   >
-    <span
-      class="emotion-2"
+    <div
+      class="emotion-3"
     >
-      tooltip text
-    </span>
+      <span
+        class="emotion-2"
+      >
+        tooltip text
+      </span>
+    </div>
   </div>
 </body>
 `;
@@ -10915,15 +11365,6 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at b
   font-weight: bold;
 }
 
-.emotion-3 {
-  position: absolute;
-  left: 0;
-  top: 0;
-  -webkit-transform: translate(-100%);
-  -ms-transform: translate(-100%);
-  transform: translate(-100%);
-}
-
 .emotion-2 {
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
@@ -10933,17 +11374,33 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at b
   font-size: 16px;
   font-weight: 400;
   line-height: 16px;
-  background-color: #0c1626;
-  border-radius: 4px;
-  color: #ffffff;
-  display: block;
   font-size: 14px;
+  white-space: nowrap;
+  color: #ffffff;
+}
+
+.emotion-4 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  -webkit-transform: translate(-100%);
+  -ms-transform: translate(-100%);
+  transform: translate(-100%);
+}
+
+.emotion-3 {
+  background-color: rgb(255,255,255);
+  border-radius: 4px;
+  box-shadow: 0 0 0 1px #e6eaeb;
+  -webkit-transition: all 0.6s cubic-bezier(0.075,0.82,0.165,1);
+  transition: all 0.6s cubic-bezier(0.075,0.82,0.165,1);
   padding-bottom: 8px;
   padding-left: 12px;
   padding-right: 12px;
   padding-top: 8px;
-  white-space: nowrap;
   margin-top: 8px;
+  background-color: #0c1626;
+  box-shadow: none;
 }
 
 <body>
@@ -10961,14 +11418,18 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at b
     </button>
   </div>
   <div
-    class="emotion-3"
+    class="emotion-4"
     id="mock-id"
   >
-    <span
-      class="emotion-2"
+    <div
+      class="emotion-3"
     >
-      tooltip text
-    </span>
+      <span
+        class="emotion-2"
+      >
+        tooltip text
+      </span>
+    </div>
   </div>
 </body>
 `;
@@ -11047,15 +11508,6 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at l
   font-weight: bold;
 }
 
-.emotion-3 {
-  position: absolute;
-  left: 0;
-  top: 0;
-  -webkit-transform: translate(-100%,-50%);
-  -ms-transform: translate(-100%,-50%);
-  transform: translate(-100%,-50%);
-}
-
 .emotion-2 {
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
@@ -11065,17 +11517,33 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at l
   font-size: 16px;
   font-weight: 400;
   line-height: 16px;
-  background-color: #0c1626;
-  border-radius: 4px;
-  color: #ffffff;
-  display: block;
   font-size: 14px;
+  white-space: nowrap;
+  color: #ffffff;
+}
+
+.emotion-4 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  -webkit-transform: translate(-100%,-50%);
+  -ms-transform: translate(-100%,-50%);
+  transform: translate(-100%,-50%);
+}
+
+.emotion-3 {
+  background-color: rgb(255,255,255);
+  border-radius: 4px;
+  box-shadow: 0 0 0 1px #e6eaeb;
+  -webkit-transition: all 0.6s cubic-bezier(0.075,0.82,0.165,1);
+  transition: all 0.6s cubic-bezier(0.075,0.82,0.165,1);
   padding-bottom: 8px;
   padding-left: 12px;
   padding-right: 12px;
   padding-top: 8px;
-  white-space: nowrap;
   margin-right: 8px;
+  background-color: #0c1626;
+  box-shadow: none;
 }
 
 <body>
@@ -11093,14 +11561,18 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at l
     </button>
   </div>
   <div
-    class="emotion-3"
+    class="emotion-4"
     id="mock-id"
   >
-    <span
-      class="emotion-2"
+    <div
+      class="emotion-3"
     >
-      tooltip text
-    </span>
+      <span
+        class="emotion-2"
+      >
+        tooltip text
+      </span>
+    </div>
   </div>
 </body>
 `;
@@ -11179,15 +11651,6 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at r
   font-weight: bold;
 }
 
-.emotion-3 {
-  position: absolute;
-  left: 0;
-  top: 0;
-  -webkit-transform: translate(0,-50%);
-  -ms-transform: translate(0,-50%);
-  transform: translate(0,-50%);
-}
-
 .emotion-2 {
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
@@ -11197,17 +11660,33 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at r
   font-size: 16px;
   font-weight: 400;
   line-height: 16px;
-  background-color: #0c1626;
-  border-radius: 4px;
-  color: #ffffff;
-  display: block;
   font-size: 14px;
+  white-space: nowrap;
+  color: #ffffff;
+}
+
+.emotion-4 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  -webkit-transform: translate(0,-50%);
+  -ms-transform: translate(0,-50%);
+  transform: translate(0,-50%);
+}
+
+.emotion-3 {
+  background-color: rgb(255,255,255);
+  border-radius: 4px;
+  box-shadow: 0 0 0 1px #e6eaeb;
+  -webkit-transition: all 0.6s cubic-bezier(0.075,0.82,0.165,1);
+  transition: all 0.6s cubic-bezier(0.075,0.82,0.165,1);
   padding-bottom: 8px;
   padding-left: 12px;
   padding-right: 12px;
   padding-top: 8px;
-  white-space: nowrap;
   margin-left: 8px;
+  background-color: #0c1626;
+  box-shadow: none;
 }
 
 <body>
@@ -11225,14 +11704,18 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at r
     </button>
   </div>
   <div
-    class="emotion-3"
+    class="emotion-4"
     id="mock-id"
   >
-    <span
-      class="emotion-2"
+    <div
+      class="emotion-3"
     >
-      tooltip text
-    </span>
+      <span
+        class="emotion-2"
+      >
+        tooltip text
+      </span>
+    </div>
   </div>
 </body>
 `;
@@ -11311,15 +11794,6 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at t
   font-weight: bold;
 }
 
-.emotion-3 {
-  position: absolute;
-  left: 0;
-  top: 0;
-  -webkit-transform: translate(-50%,-100%);
-  -ms-transform: translate(-50%,-100%);
-  transform: translate(-50%,-100%);
-}
-
 .emotion-2 {
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
@@ -11329,17 +11803,33 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at t
   font-size: 16px;
   font-weight: 400;
   line-height: 16px;
-  background-color: #0c1626;
-  border-radius: 4px;
-  color: #ffffff;
-  display: block;
   font-size: 14px;
+  white-space: nowrap;
+  color: #ffffff;
+}
+
+.emotion-4 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  -webkit-transform: translate(-50%,-100%);
+  -ms-transform: translate(-50%,-100%);
+  transform: translate(-50%,-100%);
+}
+
+.emotion-3 {
+  background-color: rgb(255,255,255);
+  border-radius: 4px;
+  box-shadow: 0 0 0 1px #e6eaeb;
+  -webkit-transition: all 0.6s cubic-bezier(0.075,0.82,0.165,1);
+  transition: all 0.6s cubic-bezier(0.075,0.82,0.165,1);
   padding-bottom: 8px;
   padding-left: 12px;
   padding-right: 12px;
   padding-top: 8px;
-  white-space: nowrap;
   margin-bottom: 8px;
+  background-color: #0c1626;
+  box-shadow: none;
 }
 
 <body>
@@ -11357,14 +11847,18 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at t
     </button>
   </div>
   <div
-    class="emotion-3"
+    class="emotion-4"
     id="mock-id"
   >
-    <span
-      class="emotion-2"
+    <div
+      class="emotion-3"
     >
-      tooltip text
-    </span>
+      <span
+        class="emotion-2"
+      >
+        tooltip text
+      </span>
+    </div>
   </div>
 </body>
 `;
@@ -11443,15 +11937,6 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at t
   font-weight: bold;
 }
 
-.emotion-3 {
-  position: absolute;
-  left: 0;
-  top: 0;
-  -webkit-transform: translate(0,-100%);
-  -ms-transform: translate(0,-100%);
-  transform: translate(0,-100%);
-}
-
 .emotion-2 {
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
@@ -11461,17 +11946,33 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at t
   font-size: 16px;
   font-weight: 400;
   line-height: 16px;
-  background-color: #0c1626;
-  border-radius: 4px;
-  color: #ffffff;
-  display: block;
   font-size: 14px;
+  white-space: nowrap;
+  color: #ffffff;
+}
+
+.emotion-4 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  -webkit-transform: translate(0,-100%);
+  -ms-transform: translate(0,-100%);
+  transform: translate(0,-100%);
+}
+
+.emotion-3 {
+  background-color: rgb(255,255,255);
+  border-radius: 4px;
+  box-shadow: 0 0 0 1px #e6eaeb;
+  -webkit-transition: all 0.6s cubic-bezier(0.075,0.82,0.165,1);
+  transition: all 0.6s cubic-bezier(0.075,0.82,0.165,1);
   padding-bottom: 8px;
   padding-left: 12px;
   padding-right: 12px;
   padding-top: 8px;
-  white-space: nowrap;
   margin-bottom: 8px;
+  background-color: #0c1626;
+  box-shadow: none;
 }
 
 <body>
@@ -11489,14 +11990,18 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at t
     </button>
   </div>
   <div
-    class="emotion-3"
+    class="emotion-4"
     id="mock-id"
   >
-    <span
-      class="emotion-2"
+    <div
+      class="emotion-3"
     >
-      tooltip text
-    </span>
+      <span
+        class="emotion-2"
+      >
+        tooltip text
+      </span>
+    </div>
   </div>
 </body>
 `;
@@ -11575,15 +12080,6 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at t
   font-weight: bold;
 }
 
-.emotion-3 {
-  position: absolute;
-  left: 0;
-  top: 0;
-  -webkit-transform: translate(-100%,-100%);
-  -ms-transform: translate(-100%,-100%);
-  transform: translate(-100%,-100%);
-}
-
 .emotion-2 {
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
@@ -11593,17 +12089,33 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at t
   font-size: 16px;
   font-weight: 400;
   line-height: 16px;
-  background-color: #0c1626;
-  border-radius: 4px;
-  color: #ffffff;
-  display: block;
   font-size: 14px;
+  white-space: nowrap;
+  color: #ffffff;
+}
+
+.emotion-4 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  -webkit-transform: translate(-100%,-100%);
+  -ms-transform: translate(-100%,-100%);
+  transform: translate(-100%,-100%);
+}
+
+.emotion-3 {
+  background-color: rgb(255,255,255);
+  border-radius: 4px;
+  box-shadow: 0 0 0 1px #e6eaeb;
+  -webkit-transition: all 0.6s cubic-bezier(0.075,0.82,0.165,1);
+  transition: all 0.6s cubic-bezier(0.075,0.82,0.165,1);
   padding-bottom: 8px;
   padding-left: 12px;
   padding-right: 12px;
   padding-top: 8px;
-  white-space: nowrap;
   margin-bottom: 8px;
+  background-color: #0c1626;
+  box-shadow: none;
 }
 
 <body>
@@ -11621,14 +12133,18 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at t
     </button>
   </div>
   <div
-    class="emotion-3"
+    class="emotion-4"
     id="mock-id"
   >
-    <span
-      class="emotion-2"
+    <div
+      class="emotion-3"
     >
-      tooltip text
-    </span>
+      <span
+        class="emotion-2"
+      >
+        tooltip text
+      </span>
+    </div>
   </div>
 </body>
 `;
@@ -11707,13 +12223,28 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at u
   font-weight: bold;
 }
 
-.emotion-3 {
+.emotion-4 {
   position: absolute;
   left: 0;
   top: 0;
   -webkit-transform: translate(-50%,0);
   -ms-transform: translate(-50%,0);
   transform: translate(-50%,0);
+}
+
+.emotion-3 {
+  background-color: rgb(255,255,255);
+  border-radius: 4px;
+  box-shadow: 0 0 0 1px #e6eaeb;
+  -webkit-transition: all 0.6s cubic-bezier(0.075,0.82,0.165,1);
+  transition: all 0.6s cubic-bezier(0.075,0.82,0.165,1);
+  padding-bottom: 8px;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 8px;
+  margin-top: 8px;
+  background-color: #0c1626;
+  box-shadow: none;
 }
 
 .emotion-2 {
@@ -11725,17 +12256,9 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at u
   font-size: 16px;
   font-weight: 400;
   line-height: 16px;
-  background-color: #0c1626;
-  border-radius: 4px;
-  color: #ffffff;
-  display: block;
   font-size: 14px;
-  padding-bottom: 8px;
-  padding-left: 12px;
-  padding-right: 12px;
-  padding-top: 8px;
   white-space: nowrap;
-  margin-top: 8px;
+  color: #ffffff;
 }
 
 <body>
@@ -11753,14 +12276,18 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at u
     </button>
   </div>
   <div
-    class="emotion-3"
+    class="emotion-4"
     id="mock-id"
   >
-    <span
-      class="emotion-2"
+    <div
+      class="emotion-3"
     >
-      tooltip text
-    </span>
+      <span
+        class="emotion-2"
+      >
+        tooltip text
+      </span>
+    </div>
   </div>
 </body>
 `;
