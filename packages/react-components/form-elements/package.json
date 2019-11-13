@@ -39,7 +39,6 @@
     "@testing-library/jest-dom": "4.2.3",
     "@testing-library/react": "8.0.7",
     "@testing-library/user-event": "7.1.2",
-    "@types/jest": "24.0.21",
     "@types/lodash": "4.14.144",
     "babel-jest": "24.9.0",
     "jest": "24.9.0",
