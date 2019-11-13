@@ -57,6 +57,9 @@ const getTooltipPosition = () =>
     'bottom'
   );
 
+const getTooltipAppearance = () =>
+  select('tooltipAppearance', ['dark', 'light'], 'dark');
+
 storiesOf('waffles-button', module)
   .addParameters({ percy: { widths: [1500] } })
   .add('Button with text', () => (
@@ -69,6 +72,7 @@ storiesOf('waffles-button', module)
           intent={intent}
           loading={state === 'loading'}
           size={size}
+          tooltipAppearance={getTooltipAppearance()}
           tooltipPosition={getTooltipPosition()}
           tooltipText="very long tooltip text"
         >
@@ -88,6 +92,7 @@ storiesOf('waffles-button', module)
           intent={intent}
           loading={state === 'loading'}
           size={size}
+          tooltipAppearance={getTooltipAppearance()}
           tooltipPosition={getTooltipPosition()}
           tooltipText="very long tooltip text"
         >
@@ -107,6 +112,7 @@ storiesOf('waffles-button', module)
             intent={intent}
             loading={state === 'loading'}
             size={size}
+            tooltipAppearance={getTooltipAppearance()}
             tooltipPosition={getTooltipPosition()}
             tooltipText="very long tooltip text"
           >
@@ -123,6 +129,7 @@ storiesOf('waffles-button', module)
             intent={intent}
             loading={state === 'loading'}
             size={size}
+            tooltipAppearance={getTooltipAppearance()}
             tooltipPosition={getTooltipPosition()}
             tooltipText="very long tooltip text"
           >
