@@ -31,7 +31,7 @@
     "@datacamp/waffles-tsconfig": "^1.1.4",
     "babel-jest": "24.9.0",
     "jest": "24.9.0",
-    "react": "16.8.6"
+    "react": "16.11.0"
   },
   "dependencies": {
     "@babel/runtime": "^7.6.3",
