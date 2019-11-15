@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.30.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-storybook@1.29.0...@datacamp/waffles-storybook@1.30.0) (2019-11-15)
+
+
+### Features
+
+* add tooltipAppearance to stories ([c12b70e](https://github.com/datacamp/design-system/commit/c12b70e))
+
+
+
+
+
 # [1.29.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-storybook@1.28.0...@datacamp/waffles-storybook@1.29.0) (2019-11-12)
 
 

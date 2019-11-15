@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [4.6.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-button@4.5.0...@datacamp/waffles-button@4.6.0) (2019-11-15)
+
+
+### Bug Fixes
+
+* antialias fonts ([a7de3b2](https://github.com/datacamp/design-system/commit/a7de3b2))
+
+
+### Features
+
+* add tooltipAppearance to Button ([19758e6](https://github.com/datacamp/design-system/commit/19758e6))
+
+
+
+
+
 # [4.5.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-button@4.4.0...@datacamp/waffles-button@4.5.0) (2019-11-12)
 
 

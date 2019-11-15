@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.6.3](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/form-elements/compare/@datacamp/waffles-form-elements@2.6.2...@datacamp/waffles-form-elements@2.6.3) (2019-11-15)
+
+
+### Bug Fixes
+
+* antialias fonts ([a7de3b2](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/form-elements/commit/a7de3b2))
+
+
+
+
+
 ## [2.6.2](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/form-elements/compare/@datacamp/waffles-form-elements@2.6.1...@datacamp/waffles-form-elements@2.6.2) (2019-11-12)
 
 **Note:** Version bump only for package @datacamp/waffles-form-elements
