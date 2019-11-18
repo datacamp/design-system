@@ -1,9 +1,9 @@
 import React from 'react';
 
 import BaseDialog, { CloseOrigin } from '../BaseDialog';
-import Body from './Body';
-import Footer from './Footer';
-import Header from './Header';
+import Body from '../shared/Body';
+import Footer from '../shared/Footer';
+import Header from '../shared/Header';
 
 interface DialogProps {
   /**
