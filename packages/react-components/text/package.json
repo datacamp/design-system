@@ -32,7 +32,7 @@
     "@stryker-mutator/core": "^2.0.2",
     "@stryker-mutator/html-reporter": "^2.3.0",
     "@stryker-mutator/typescript": "^2.0.2",
-    "@testing-library/jest-dom": "4.2.3",
+    "@testing-library/jest-dom": "4.2.4",
     "@testing-library/react": "8.0.7",
     "@types/lodash": "4.14.144",
     "babel-jest": "24.9.0",
