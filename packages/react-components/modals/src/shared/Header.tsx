@@ -12,6 +12,7 @@ export interface HeaderProps {
 const Header = ({ children }: HeaderProps): React.ReactElement => (
   <header
     css={{
+      flex: 'none',
       paddingBottom: tokens.size.space[24].value,
       paddingLeft: tokens.size.space[32].value,
       paddingRight: tokens.size.space[32].value,

@@ -12,6 +12,8 @@ export interface BodyProps {
 const Body = ({ children }: BodyProps): ReactElement => (
   <div
     css={{
+      flex: 'auto',
+      overflowY: 'auto',
       paddingBottom: tokens.size.space[32].value,
       paddingLeft: tokens.size.space[32].value,
       paddingRight: tokens.size.space[32].value,

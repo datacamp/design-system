@@ -3,7 +3,11 @@ import { ClassNames } from '@emotion/core';
 import React from 'react';
 import ReactModal from 'react-modal';
 
+import { CloseOrigin } from '../BaseDialog';
+import Body from '../shared/Body';
 import CloseButton from '../shared/CloseButton';
+import Footer from '../shared/Footer';
+import Header from '../shared/Header';
 import {
   bodyOpenStyle,
   overlayStyle,
@@ -15,11 +19,11 @@ import {
   contentStyle,
   contentStyleAfterOpen,
   contentStyleBeforeClose,
-} from './DialogStyles';
+} from './PanelStyles';
 
-interface DialogProps {
+interface PanelProps {
   /**
-   * The content of the Dialog
+   * The content of the dialog to render
    */
   children: React.ReactNode;
   /**
@@ -27,19 +31,11 @@ interface DialogProps {
    */
   closeButtonDisabled?: boolean;
   /**
-   * Used to set the ariaLabel for the modal
+   * When true, the close button in the top right corner will not be shown
    */
-  contentLabel: string;
+  hideCloseButton?: boolean;
   /**
-   * Used to set data- html attributes
-   */
-  dataAttributes?: { [key: string]: string };
-  /**
-   * When set to true, a close button will show in the top right corner
-   */
-  hideCloseButton: boolean;
-  /**
-   * Show or hide the dialog
+   * Whether to hide or show the Panel
    */
   isOpen: boolean;
   /**
@@ -47,39 +43,38 @@ interface DialogProps {
    */
   onAfterOpen?: () => void;
   /**
-   * Called when the modal is closed
-   * @param origin The original source of the request to close.
+   * This function is called whenever the user requests to close the Panel. It
+   * is the responsibility of the application to handle this correctly and set
+   * isOpen to false. This function will be called with an origin string that
+   * specifies how the user requested to close the modal.
    */
   onClose: (origin: CloseOrigin) => void;
   /**
-   * When set to true the Esc key can be used to close the dialog
+   * When true (default), the Panel will close when the Esc key is pressed.
    */
-  shouldCloseOnEsc: boolean;
+  shouldCloseOnEsc?: boolean;
   /**
-   * When set to true the dialog will close when the background is clicked
+   * When true (default), the Panel will close when the bckground overlay is
+   * clicked.
    */
-  shouldCloseOnOverlayClick: boolean;
+  shouldCloseOnOverlayClick?: boolean;
   /**
-   * Forces a specific width on the Modal
+   * Forces a specific width
    */
   width?: string;
 }
 
-export type CloseOrigin = 'overlayClick' | 'escKey' | 'closeButton';
-
-const Dialog: React.FC<DialogProps> = ({
+const Panel = ({
   children,
-  contentLabel,
-  dataAttributes,
   closeButtonDisabled = false,
-  hideCloseButton,
+  hideCloseButton = false,
   isOpen,
   onAfterOpen,
   onClose,
-  shouldCloseOnEsc,
-  shouldCloseOnOverlayClick,
-  width,
-}) => {
+  shouldCloseOnEsc = true,
+  shouldCloseOnOverlayClick = true,
+  width = '45%',
+}: PanelProps): React.ReactElement => {
   // Callbacks to set the correct origin when closing
   const onCloseButton = (): void => onClose('closeButton');
   const onRequestClose = (
@@ -105,8 +100,7 @@ const Dialog: React.FC<DialogProps> = ({
             bodyOpenClassName={bodyOpenClassName}
             className={modalClassName}
             closeTimeoutMS={animationTime}
-            contentLabel={contentLabel}
-            data={dataAttributes}
+            contentLabel="Panel"
             isOpen={isOpen}
             onAfterOpen={onAfterOpen}
             onRequestClose={onRequestClose}
@@ -120,7 +114,16 @@ const Dialog: React.FC<DialogProps> = ({
                 onClick={onCloseButton}
               />
             )}
-            <Card elevation={4}>
+            <Card
+              css={{
+                borderRadius: 0,
+                display: 'flex',
+                flexDirection: 'column',
+                height: '100%',
+                width: '100%',
+              }}
+              elevation={4}
+            >
               <>{children}</>
             </Card>
           </ReactModal>
@@ -130,4 +133,8 @@ const Dialog: React.FC<DialogProps> = ({
   );
 };
 
-export default Dialog;
+Panel.Header = Header;
+Panel.Body = Body;
+Panel.Footer = Footer;
+
+export default Panel;
