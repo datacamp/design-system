@@ -3,7 +3,7 @@
   Waffles is DataCamp's Design System
 </h1>
 
-[![lerna](https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg)](https://lernajs.io/)
+[![lerna](https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg)](https://lerna.js.org/)
 
 This repository holds all of the code for the waffles design system. This includes but is not limited to the documentation site, design tokens and a react component library. Full details on usage can be found on [waffles.datacamp.com](https://waffles.datacamp.com).
 
