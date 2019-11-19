@@ -18,8 +18,12 @@ const components = [
     name: 'Form Elements',
     status: 'Available',
   },
+  {
+    docLink: '/component-library/button',
+    name: 'Tooltips',
+    status: 'Available',
+  },
 
-  { name: 'Tooltips', status: 'Planned' },
   { name: 'Flash Banner', status: 'Planned' },
   { name: 'Badge + Pill', status: 'Planned' },
   { name: 'Checkbox', status: 'Planned' },
