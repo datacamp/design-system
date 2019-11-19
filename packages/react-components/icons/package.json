@@ -1,6 +1,6 @@
 {
   "name": "@datacamp/waffles-icons",
-  "version": "1.7.4",
+  "version": "1.8.0",
   "main": "lib/web/index.js",
   "module": "es/web/index.js",
   "license": "ISC",
@@ -18,7 +18,7 @@
   "devDependencies": {
     "@babel/cli": "^7.7.0",
     "@babel/core": "^7.6.4",
-    "@datacamp/waffles-babel-preset": "^1.3.6",
+    "@datacamp/waffles-babel-preset": "^1.3.7",
     "@datacamp/waffles-tsconfig": "^1.1.4",
     "@svgr/core": "^4.3.3",
     "@svgr/plugin-prettier": "^4.3.2",

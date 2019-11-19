@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.31.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-catalog-doc-site@1.30.1...@datacamp/waffles-catalog-doc-site@1.31.0) (2019-11-19)
+
+
+### Features
+
+* add Panel docs ([fdb93b9](https://github.com/datacamp/design-system/commit/fdb93b9))
+* update roadmap with tooltips ([2184b2e](https://github.com/datacamp/design-system/commit/2184b2e))
+
+
+
+
+
 ## [1.30.1](https://github.com/datacamp/design-system/compare/@datacamp/waffles-catalog-doc-site@1.30.0...@datacamp/waffles-catalog-doc-site@1.30.1) (2019-11-15)
 
 **Note:** Version bump only for package @datacamp/waffles-catalog-doc-site

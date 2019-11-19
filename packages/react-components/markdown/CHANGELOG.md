@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.4](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/markdown/compare/@datacamp/waffles-markdown@1.1.3...@datacamp/waffles-markdown@1.1.4) (2019-11-19)
+
+**Note:** Version bump only for package @datacamp/waffles-markdown
+
+
+
+
+
 ## [1.1.3](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/markdown/compare/@datacamp/waffles-markdown@1.1.2...@datacamp/waffles-markdown@1.1.3) (2019-11-15)
 
 

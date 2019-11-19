@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [3.2.0](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/modals/compare/@datacamp/waffles-modals@3.1.3...@datacamp/waffles-modals@3.2.0) (2019-11-19)
+
+
+### Features
+
+* add Panel component ([c41a091](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/modals/commit/c41a091))
+
+
+
+
+
 ## [3.1.3](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/modals/compare/@datacamp/waffles-modals@3.1.2...@datacamp/waffles-modals@3.1.3) (2019-11-15)
 
 

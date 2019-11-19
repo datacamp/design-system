@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.31.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-storybook@1.30.0...@datacamp/waffles-storybook@1.31.0) (2019-11-19)
+
+
+### Features
+
+* add stories for Panel ([e1a3773](https://github.com/datacamp/design-system/commit/e1a3773))
+
+
+
+
+
 # [1.30.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-storybook@1.29.0...@datacamp/waffles-storybook@1.30.0) (2019-11-15)
 
 
