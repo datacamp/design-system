@@ -117,7 +117,7 @@ exports[`with label snapshots renders a select element with size large, disabled
   height: 64px;
   padding-left: 24px;
   padding-right: 64px;
-  color: rgb(133,144,148);
+  color: rgb(61,66,81);
   width: 100%;
 }
 
@@ -345,7 +345,7 @@ exports[`with label snapshots renders a select element with size large, disabled
   height: 64px;
   padding-left: 24px;
   padding-right: 64px;
-  color: rgb(133,144,148);
+  color: rgb(61,66,81);
   width: 100%;
 }
 
@@ -544,7 +544,7 @@ exports[`with label snapshots renders a select element with size large, disabled
   height: 64px;
   padding-left: 24px;
   padding-right: 64px;
-  color: rgb(133,144,148);
+  color: rgb(61,66,81);
   width: 100%;
 }
 
@@ -1350,7 +1350,7 @@ exports[`with label snapshots renders a select element with size medium, disable
   height: 48px;
   padding-left: 16px;
   padding-right: 48px;
-  color: rgb(133,144,148);
+  color: rgb(61,66,81);
   width: 100%;
 }
 
@@ -1565,7 +1565,7 @@ exports[`with label snapshots renders a select element with size medium, disable
   height: 48px;
   padding-left: 16px;
   padding-right: 48px;
-  color: rgb(133,144,148);
+  color: rgb(61,66,81);
   width: 100%;
 }
 
@@ -1798,7 +1798,7 @@ exports[`with label snapshots renders a select element with size medium, disable
   height: 48px;
   padding-left: 16px;
   padding-right: 48px;
-  color: rgb(133,144,148);
+  color: rgb(61,66,81);
   width: 100%;
 }
 
@@ -2655,7 +2655,7 @@ exports[`with label snapshots renders a select element with size small, disabled
   height: 36px;
   padding-left: 12px;
   padding-right: 36px;
-  color: rgb(133,144,148);
+  color: rgb(61,66,81);
   width: 100%;
 }
 
@@ -2883,7 +2883,7 @@ exports[`with label snapshots renders a select element with size small, disabled
   height: 36px;
   padding-left: 12px;
   padding-right: 36px;
-  color: rgb(133,144,148);
+  color: rgb(61,66,81);
   width: 100%;
 }
 
@@ -3082,7 +3082,7 @@ exports[`with label snapshots renders a select element with size small, disabled
   height: 36px;
   padding-left: 12px;
   padding-right: 36px;
-  color: rgb(133,144,148);
+  color: rgb(61,66,81);
   width: 100%;
 }
 

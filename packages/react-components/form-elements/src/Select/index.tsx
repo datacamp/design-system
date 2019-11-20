@@ -144,7 +144,7 @@ class Select extends Component<
     const getSelectStyle = css(selectStyle, selectSizes, {
       color: disabled
         ? tokens.color.opaque.greyLight.value.rgb
-        : tokens.color.opaque.greyOslo.value.rgb,
+        : tokens.color.opaque.greyDark.value.rgb,
       width: label && '100%',
     });
 
