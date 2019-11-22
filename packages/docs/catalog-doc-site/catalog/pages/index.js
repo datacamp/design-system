@@ -76,7 +76,7 @@ export default () => {
               Use components as building blocks as you develop new products and
               features.
             </p>
-            <a className="dc-btn dc-btn--inline" href="/components">
+            <a className="dc-btn dc-btn--inline" href="/component-library">
               Explore Component Library
               <ArrowRightIcon
                 css={css(arrowRightIconCss)}
