@@ -1,10 +1,6 @@
 /*
-Waffles theme for code-mirror
+Waffles Dark theme for code-mirror
 */
-
-@import url('https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap');
-
-/* Color scheme for code-mirror */
 
 .cm-s-waffles-dark {
   font-size: 14px !important;
