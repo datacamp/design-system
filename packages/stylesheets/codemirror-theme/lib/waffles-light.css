@@ -1,0 +1,112 @@
+/*
+Waffles Light theme for code-mirror
+*/
+
+.cm-s-waffles-light {
+  font-size: 14px !important;
+  line-height: 1.5em;
+  color-profile: sRGB;
+  rendering-intent: auto;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.cm-s-waffles-light {
+  color: #3d4251;
+  background-color: #fff;
+}
+
+.cm-s-waffles-light .CodeMirror-widget {
+  text-shadow: none;
+}
+
+.cm-s-waffles-light .cm-header { color: #29a360; }
+.cm-s-waffles-light .cm-quote { color: #3d4251; }
+
+.cm-s-waffles-light .cm-keyword { color: #8468c4; }
+.cm-s-waffles-light .cm-atom { color: #8468c4; }
+.cm-s-waffles-light .cm-number { color: #ad662c; }
+.cm-s-waffles-light .cm-def { color: #fe5c5c; }
+
+.cm-s-waffles-light .cm-variable { color: #4d5356; }
+.cm-s-waffles-light .cm-variable-2 { color: #ad662c; }
+.cm-s-waffles-light .cm-variable-3, .cm-s-waffles-light .cm-type { color: #33AACC; }
+
+.cm-s-waffles-light .cm-property { color: #8468c4; }
+.cm-s-waffles-light .cm-operator { color: #3d4251; }
+
+.cm-s-waffles-light .cm-comment { color: #29a360; }
+
+.cm-s-waffles-light .cm-string { color: #29a360; }
+.cm-s-waffles-light .cm-string-2 { color: #ad662c; }
+
+.cm-s-waffles-light .cm-meta { color: #29a360; }
+.cm-s-waffles-light .cm-qualifier { color: #ad662c; }
+.cm-s-waffles-light .cm-builtin { color: #fe5c5c; }
+.cm-s-waffles-light .cm-bracket { color: #fe5c5c; }
+.cm-s-waffles-light .CodeMirror-matchingbracket { color: #3d4251 !important; }
+.cm-s-waffles-light .CodeMirror-nonmatchingbracket { color: #fe5c5c; }
+.cm-s-waffles-light .cm-tag { color: #29a360; }
+.cm-s-waffles-light .cm-attribute { color: #29a360; }
+
+.cm-s-waffles-light .cm-hr {
+  color: transparent;
+  border-top: 1px solid #859094;
+  display: block;
+}
+.cm-s-waffles-light .cm-link { color: #859094; cursor: pointer; }
+.cm-s-waffles-light .cm-special { color: #6c71c4; }
+.cm-s-waffles-light .cm-em {
+  color: #859094;
+  text-decoration: underline;
+  text-decoration-style: dotted;
+}
+.cm-s-waffles-light .cm-error,
+.cm-s-waffles-light .cm-invalidchar {
+  color: #859094;
+  border-bottom: 1px dotted #FE5C5C;
+}
+
+.cm-s-waffles-light div.CodeMirror-selected { background: #e6eaeb; }
+.cm-s-waffles-light.CodeMirror ::selection { background: #e6eaeb; }
+.cm-s-waffles-light .CodeMirror-line::-moz-selection, .CodeMirror-line > span::-moz-selection, .CodeMirror-line > span > span::-moz-selection { background: #e6eaeb; }
+
+/* Editor styling */
+
+/* Remove gutter border */
+.cm-s-waffles-light .CodeMirror-gutters {
+  border-right: 0;
+}
+
+/* Gutter colors and line number styling based of color scheme (dark / light) */
+
+/* Dark */
+.cm-s-waffles-light .CodeMirror-gutters {
+  background-color: #fff;
+}
+
+.cm-s-waffles-light .CodeMirror-linenumber {
+  color: #859094;
+}
+
+/* Common */
+.cm-s-waffles-light .CodeMirror-linenumber {
+  padding: 0 8px;
+}
+.cm-s-waffles-light .CodeMirror-guttermarker-subtle { color: #e6eaeb; }
+.cm-s-waffles-light .CodeMirror-guttermarker { color: #ddd; }
+
+.cm-s-waffles-light .CodeMirror-gutter .CodeMirror-gutter-text {
+  color: #586e75;
+}
+
+/* Cursor */
+.cm-s-waffles-light .CodeMirror-cursor { border-left: 2px solid #3d4251; }
+
+/* Fat cursor */
+.cm-s-waffles-light.cm-fat-cursor .CodeMirror-cursor { background: #859094; }
+.cm-s-waffles-light .cm-animate-fat-cursor { background-color: #859094; }
+
+/* Active line */
+.cm-s-waffles-light .CodeMirror-activeline-background {
+  background: #fff;
+}
