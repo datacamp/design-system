@@ -40,7 +40,7 @@ export default () => {
             </p>
             <p>
               This file contains quite a flat data structure that can be seen in
-              the <a href="/component-libary/tokens">documentation</a>. This
+              the <a href="/component-library/tokens">documentation</a>. This
               makes all the values easily accessible however there is little
               flexibility for consumers. Also as we introduce concepts such as
               full color palettes and intention based styling it will be hard to
