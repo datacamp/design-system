@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.32.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-storybook@1.31.0...@datacamp/waffles-storybook@1.32.0) (2019-11-26)
+
+
+### Features
+
+* use GlobalFontFaces component via decorator on all stories ([a4d6aed](https://github.com/datacamp/design-system/commit/a4d6aed))
+
+
+
+
+
 # [1.31.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-storybook@1.30.0...@datacamp/waffles-storybook@1.31.0) (2019-11-19)
 
 

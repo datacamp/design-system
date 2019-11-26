@@ -3,6 +3,24 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-text@1.2.4...@datacamp/waffles-text@2.0.0) (2019-11-26)
+
+
+### Features
+
+* add GlobalFontFaces component ([63cce76](https://github.com/datacamp/design-system/commit/63cce76))
+
+
+### BREAKING CHANGES
+
+* Text components will no longer load the font faces 
+automatically, the GlobalFontFaces component should be included on the 
+page if your application is not using the provided scss files.
+
+
+
+
+
 ## [1.2.4](https://github.com/datacamp/design-system/compare/@datacamp/waffles-text@1.2.3...@datacamp/waffles-text@1.2.4) (2019-11-19)
 
 **Note:** Version bump only for package @datacamp/waffles-text

@@ -3,6 +3,25 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.32.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-catalog-doc-site@1.31.0...@datacamp/waffles-catalog-doc-site@1.32.0) (2019-11-26)
+
+
+### Bug Fixes
+
+* component library link ([efed121](https://github.com/datacamp/design-system/commit/efed121))
+* error 404 link ([b82e52a](https://github.com/datacamp/design-system/commit/b82e52a))
+
+
+### Features
+
+* document GlobalFontFaces component ([ba836d0](https://github.com/datacamp/design-system/commit/ba836d0))
+* google analytics ([e83fbbf](https://github.com/datacamp/design-system/commit/e83fbbf))
+* icon migration ([2c9305c](https://github.com/datacamp/design-system/commit/2c9305c))
+
+
+
+
+
 # [1.31.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-catalog-doc-site@1.30.1...@datacamp/waffles-catalog-doc-site@1.31.0) (2019-11-19)
 
 
