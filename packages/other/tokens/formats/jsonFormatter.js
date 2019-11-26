@@ -40,8 +40,8 @@ module.exports = dictionary => {
 
   const fullTokens = stripDeprecatedProps({
     ...dictionary.properties,
-    size: { ...size, font: replaceFontSizeValues(size.font) },
-    color: replaceColorValues(color), // replace color objects with string formats
+    color: replaceColorValues(color),
+    size: { ...size, font: replaceFontSizeValues(size.font) }, // replace color objects with string formats
   });
   return JSON.stringify(
     deepCleaner(deepCleaner(deepCleaner(omitDeep(fullTokens, stripKeys))))

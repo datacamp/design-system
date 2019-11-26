@@ -57,7 +57,6 @@ function buildTypescriptWebComponents() {
             role: 'img',
             width: '{size}',
           },
-          titleProp: true,
           template({ template }, opts, { jsx }) {
             const typescriptTemplate = template.smart({
               plugins: ['typescript'],
@@ -86,6 +85,7 @@ function buildTypescriptWebComponents() {
               export default ${componentName};
             `;
           },
+          titleProp: true,
         });
       })
     )

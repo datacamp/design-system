@@ -59,7 +59,7 @@
     "eslint-plugin-react": "^7.16.0",
     "eslint-plugin-react-hooks": "2.3.0",
     "eslint-plugin-simple-import-sort": "5.0.0",
-    "eslint-plugin-sort-keys-fix": "1.0.1",
+    "eslint-plugin-sort-keys-fix": "1.1.0",
     "eslint-plugin-typescript-sort-keys": "0.4.0",
     "husky": "^3.0.9",
     "lerna": "^3.19.0",
