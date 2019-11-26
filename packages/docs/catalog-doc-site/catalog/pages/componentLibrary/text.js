@@ -42,6 +42,14 @@ export default () => {
             <ul>
               <li>
                 <Text>
+                  <Strong>GlobalFontFaces –</Strong> A global component that
+                  loads the font faces used by the other components. If the
+                  waffles scss is not being used, this component should be
+                  mounted on the page.
+                </Text>
+              </li>
+              <li>
+                <Text>
                   <Strong>Text –</Strong> The base text component that can be
                   used as a building block for everthing else.
                 </Text>
