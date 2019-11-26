@@ -1,5 +1,3 @@
-import '../sideEffects/injectMonoFontFace';
-
 import tokens from '@datacamp/waffles-tokens/lib/future-tokens.json';
 import { computeDataAttributes } from '@datacamp/waffles-utils';
 import { css } from '@emotion/core';

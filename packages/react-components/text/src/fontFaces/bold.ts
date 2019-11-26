@@ -1,5 +1,5 @@
 import tokens from '@datacamp/waffles-tokens/lib/future-tokens.json';
-import { css, injectGlobal } from 'emotion';
+import { css } from '@emotion/core';
 
 const boldItalic = css(
   {
@@ -55,4 +55,4 @@ const boldNormal = css(
   }
 );
 
-injectGlobal(boldItalic, boldNormal);
+export default css(boldItalic, boldNormal);

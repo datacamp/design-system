@@ -6,6 +6,7 @@ import PlainString from './alternateComponents/PlainString';
 import Code from './components/Code';
 import CodeBlock from './components/CodeBlock';
 import Emphasis from './components/Emphasis';
+import GlobalFontFaces from './components/GlobalFontFaces';
 import Heading from './components/Heading';
 import Link from './components/Link';
 import Paragraph from './components/Paragraph';
@@ -19,6 +20,7 @@ describe('index', () => {
       Code,
       CodeBlock,
       Emphasis,
+      GlobalFontFaces,
       Heading,
       Link,
       Paragraph,
