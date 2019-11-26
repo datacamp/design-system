@@ -46,7 +46,6 @@
     "@babel/runtime": "^7.6.3",
     "@datacamp/waffles-tokens": "^0.6.6",
     "@datacamp/waffles-utils": "^1.2.7",
-    "emotion": "^10.0.17",
     "lodash": "^4.17.13",
     "prop-types": "^15.7.2"
   },
