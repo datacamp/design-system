@@ -35,8 +35,10 @@ module.exports = {
           {
             loader: 'sass-loader',
             options: {
-              importer: sassJsonImporter(),
-              outputStyle: 'expanded',
+              sassOptions: {
+                importer: sassJsonImporter(),
+                outputStyle: 'expanded',
+              },
               sourceMap: !dev,
             },
           },
