@@ -21,9 +21,9 @@ describe('<Button />', () => {
     );
     const buttonElement = container.firstChild as HTMLElement;
     expect(buttonElement.tagName).toEqual('BUTTON');
-    expect(buttonElement).toContainElement(getByText(
-      exampleText
-    ) as HTMLElement);
+    expect(buttonElement).toContainElement(
+      getByText(exampleText) as HTMLElement
+    );
   });
 
   it('sets the dataAttributes on the button element', async () => {
@@ -540,9 +540,9 @@ describe('<Button />', () => {
       const buttonElement = container.firstChild;
       const iconElement = container.querySelector('svg');
       expect(buttonElement).toContainElement(iconElement);
-      expect(buttonElement).toContainElement(getByText(
-        'TestText'
-      ) as HTMLElement);
+      expect(buttonElement).toContainElement(
+        getByText('TestText') as HTMLElement
+      );
     });
 
     it("doesn't add padding to the top and bottom ", async () => {
@@ -715,7 +715,8 @@ describe('<Button />', () => {
         | 'neutral'
         | 'warning'
         | 'danger'
-        | 'success')[]).forEach(intent => {
+        | 'success'
+      )[]).forEach(intent => {
         loadings.forEach(loading => {
           it(`renders a button with appearance default, intent ${intent}, size ${size} and loading ${loading}`, async () => {
             const { container } = await axeRender(
@@ -741,7 +742,8 @@ describe('<Button />', () => {
         | 'neutral'
         | 'warning'
         | 'danger'
-        | 'success')[]).forEach(intent => {
+        | 'success'
+      )[]).forEach(intent => {
         loadings.forEach(loading => {
           it(`renders a button with appearance primary, intent ${intent}, size ${size} and loading ${loading}`, async () => {
             const { container } = await axeRender(

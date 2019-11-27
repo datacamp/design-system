@@ -30,9 +30,9 @@ describe('<Dialog />', () => {
       expect(container).toHaveAttribute('aria-hidden', 'true'); // app gets hidden when open
 
       const modalElement = getByRole('dialog');
-      expect(modalElement).toContainElement(getByText(
-        'children'
-      ) as HTMLElement);
+      expect(modalElement).toContainElement(
+        getByText('children') as HTMLElement
+      );
       expect(baseElement).toMatchSnapshot();
     });
 

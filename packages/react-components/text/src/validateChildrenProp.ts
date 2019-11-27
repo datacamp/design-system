@@ -3,7 +3,8 @@ import PropTypes from 'prop-types';
 
 type ValidComponents = (
   | ((props: React.PropsWithChildren<any>) => React.ReactNode) // eslint-disable-line @typescript-eslint/no-explicit-any
-  | string)[];
+  | string
+)[];
 interface PropValues {
   [key: string]: any; // eslint-disable-line @typescript-eslint/no-explicit-any
 }
