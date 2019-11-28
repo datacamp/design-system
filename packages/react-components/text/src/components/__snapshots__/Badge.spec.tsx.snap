@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Badge renders with the provided colour, className and content 1`] = `
+.emotion-0 {
+  -webkit-font-smoothing: antialiased;
+  color: rgb(77,83,86);
+  font-family: sans-serif;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px;
+  border-radius: 4px;
+  display: inline-block;
+  text-transform: uppercase;
+  background-color: black;
+  color: white;
+  font-size: 14px;
+  line-height: 18px;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+<strong
+  class="test-class emotion-0"
+>
+  test content
+</strong>
+`;
