@@ -1,5 +1,6 @@
 import Card from '@datacamp/waffles-card';
 import {
+  Badge,
   Code,
   CodeBlock,
   Emphasis,
@@ -11,6 +12,7 @@ import {
   Text,
 } from '@datacamp/waffles-text';
 import TextData from '@datacamp/waffles-text/componentMetadata.json';
+import { colors } from '@datacamp/waffles-tokens';
 /* @jsx jsx */
 import { jsx } from '@emotion/core';
 import { Page } from 'catalog';
@@ -96,9 +98,15 @@ export default () => {
                   <Strong>Link –</Strong> Renders an anchor component.
                 </Text>
               </li>
+              <li>
+                <Text>
+                  <Strong>Badge –</Strong> Renders a coloured badge.
+                </Text>
+              </li>
             </ul>
             <CodeBlock>
               {`import {
+  Badge,
   Code,
   CodeBlock,
   Emphasis,
@@ -153,8 +161,10 @@ export default () => {
   <CodeBlock>{\`gapminder %>%
 filter(year == 2007) %>%
 arrange(desc(gdpPercap))\`}</CodeBlock>
+<Badge color={colors.primary} size="large">Badge</Badge>
 </>`}
               scope={{
+                Badge,
                 Code,
                 CodeBlock,
                 Emphasis,
@@ -164,6 +174,7 @@ arrange(desc(gdpPercap))\`}</CodeBlock>
                 Small,
                 Strong,
                 Text,
+                colors,
               }}
             />
           </Card>
@@ -208,6 +219,11 @@ arrange(desc(gdpPercap))\`}</CodeBlock>
           <PropTable
             componentData={TextData['src/components/Link.tsx'][0]}
             componentName="Link"
+          />
+
+          <PropTable
+            componentData={TextData['src/components/Badge.tsx'][0]}
+            componentName="Badge"
           />
         </section>
       </Page>
