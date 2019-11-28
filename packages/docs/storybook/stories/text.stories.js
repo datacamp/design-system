@@ -1,6 +1,7 @@
 import './styles.css';
 
 import {
+  Badge,
   Code,
   CodeBlock,
   Emphasis,
@@ -366,5 +367,38 @@ gapminder %>%
         <br />
       </Paragraph>
       <br />
+    </div>
+  ))
+  .add('Badge Component', () => (
+    <div>
+      <div
+        css={{
+          display: 'flex',
+          justifyContent: 'space-between',
+          marginBottom: 8,
+          width: '600px',
+        }}
+      >
+        <Badge color="#3ac" size="large">
+          Badge
+        </Badge>
+        <Badge color="#ffc844" size="large">
+          Badge
+        </Badge>
+        <Badge color="rgb(207, 220, 225)" size="large">
+          Badge
+        </Badge>
+      </div>
+      <div
+        css={{
+          display: 'flex',
+          justifyContent: 'space-between',
+          width: '600px',
+        }}
+      >
+        <Badge color="#3ac">Badge</Badge>
+        <Badge color="#ffc844">Badge</Badge>
+        <Badge color="rgb(207, 220, 225)">Badge</Badge>
+      </div>
     </div>
   ));
