@@ -13,6 +13,7 @@ export { default as CodeBlock } from './components/CodeBlock';
 export { default as Code } from './components/Code';
 export { default as Link } from './components/Link';
 export { default as GlobalFontFaces } from './components/GlobalFontFaces';
+export { default as Badge } from './components/Badge';
 
 export const alternateComponents = {
   AlternateCode,
