@@ -27,10 +27,10 @@ addParameters({
 
 // always include the font faces similar to an app's root element
 const fontFaceDecorator = storyfn => (
-  <>
+  <React.StrictMode>
     <GlobalFontFaces />
     {storyfn()}
-  </>
+  </React.StrictMode>
 );
 addDecorator(fontFaceDecorator);
 
