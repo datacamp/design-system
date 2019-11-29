@@ -40,7 +40,7 @@ export default () => {
             <p className="dc-u-mt-0">
               Learn about how we use language to create a thoughtful experience.
             </p>
-            <a className="dc-btn dc-btn--inline" href="/content">
+            <a className="dc-btn dc-btn--inline" href="/content/grammar">
               View Content Guidelines
               <ArrowRightIcon
                 css={css(arrowRightIconCss)}
