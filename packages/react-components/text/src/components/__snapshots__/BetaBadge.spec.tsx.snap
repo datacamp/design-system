@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BetaBadge renders with the provided className 1`] = `
+.emotion-0 {
+  -webkit-font-smoothing: antialiased;
+  color: rgb(77,83,86);
+  font-family: sans-serif;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px;
+  border-radius: 4px;
+  display: inline-block;
+  text-transform: uppercase;
+  color: white;
+  font-size: 16px;
+  line-height: 24px;
+  padding-left: 8px;
+  padding-right: 8px;
+  background: linear-gradient(-136deg,#c06ac8,#8468c4);
+  color: white;
+}
+
+<strong
+  class="test-class emotion-0"
+>
+  Beta
+</strong>
+`;
