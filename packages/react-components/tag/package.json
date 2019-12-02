@@ -58,7 +58,7 @@
     "typescript": "3.6.4"
   },
   "dependencies": {
-    "@babel/runtime": "^7.6.3",
+    "@babel/runtime": "^7.7.4",
     "@datacamp/waffles-core": "^1.2.23",
     "@datacamp/waffles-text": "^2.0.0",
     "@datacamp/waffles-tokens": "^0.6.6",
