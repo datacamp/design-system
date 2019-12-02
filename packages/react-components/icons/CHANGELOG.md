@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.8.2](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/icons/compare/@datacamp/waffles-icons@1.8.1...@datacamp/waffles-icons@1.8.2) (2019-12-02)
+
+**Note:** Version bump only for package @datacamp/waffles-icons
+
+
+
+
+
 ## [1.8.1](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/icons/compare/@datacamp/waffles-icons@1.8.0...@datacamp/waffles-icons@1.8.1) (2019-11-26)
 
 **Note:** Version bump only for package @datacamp/waffles-icons

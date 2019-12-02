@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.33.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-catalog-doc-site@1.32.0...@datacamp/waffles-catalog-doc-site@1.33.0) (2019-12-02)
+
+
+### Bug Fixes
+
+* link to grammar page ([399b256](https://github.com/datacamp/design-system/commit/399b256))
+
+
+### Features
+
+* add BetaBadge doc ([60ce30b](https://github.com/datacamp/design-system/commit/60ce30b))
+* add doc for Badge ([a5ec83b](https://github.com/datacamp/design-system/commit/a5ec83b))
+
+
+
+
+
 # [1.32.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-catalog-doc-site@1.31.0...@datacamp/waffles-catalog-doc-site@1.32.0) (2019-11-26)
 
 

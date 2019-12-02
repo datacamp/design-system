@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.33.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-storybook@1.32.0...@datacamp/waffles-storybook@1.33.0) (2019-12-02)
+
+
+### Features
+
+* add BetaBadge to story ([bda59d1](https://github.com/datacamp/design-system/commit/bda59d1))
+* add story for Badge ([ce1023a](https://github.com/datacamp/design-system/commit/ce1023a))
+
+
+
+
+
 # [1.32.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-storybook@1.31.0...@datacamp/waffles-storybook@1.32.0) (2019-11-26)
 
 

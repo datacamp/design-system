@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.1.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-text@2.0.0...@datacamp/waffles-text@2.1.0) (2019-12-02)
+
+
+### Features
+
+* add Badge component ([8300a15](https://github.com/datacamp/design-system/commit/8300a15))
+* add BetaBadge component ([0ce8798](https://github.com/datacamp/design-system/commit/0ce8798))
+
+
+
+
+
 # [2.0.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-text@1.2.4...@datacamp/waffles-text@2.0.0) (2019-11-26)
 
 
