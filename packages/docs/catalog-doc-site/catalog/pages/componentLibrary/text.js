@@ -1,6 +1,7 @@
 import Card from '@datacamp/waffles-card';
 import {
   Badge,
+  BetaBadge,
   Code,
   CodeBlock,
   Emphasis,
@@ -103,10 +104,18 @@ export default () => {
                   <Strong>Badge –</Strong> Renders a coloured badge.
                 </Text>
               </li>
+              <li>
+                <Text>
+                  <Strong>BetaBadge –</Strong> A specific version of the Badge
+                  component used to signify and product or feature is in Beta.
+                  It has a a fixed colour and size.
+                </Text>
+              </li>
             </ul>
             <CodeBlock>
               {`import {
   Badge,
+  BetaBadge,
   Code,
   CodeBlock,
   Emphasis,
@@ -154,6 +163,7 @@ export default () => {
     dapibus pulvinar. Quisque convallis arcu eu
     neque tincidunt condimentum.
   </Paragraph>
+  <BetaBadge />
   <Heading size={600} as="h3" multiLine>
     Some extra content with a long name that needs
     to wrap
@@ -165,6 +175,7 @@ arrange(desc(gdpPercap))\`}</CodeBlock>
 </>`}
               scope={{
                 Badge,
+                BetaBadge,
                 Code,
                 CodeBlock,
                 Emphasis,
@@ -224,6 +235,11 @@ arrange(desc(gdpPercap))\`}</CodeBlock>
           <PropTable
             componentData={TextData['src/components/Badge.tsx'][0]}
             componentName="Badge"
+          />
+
+          <PropTable
+            componentData={TextData['src/components/BetaBadge.tsx'][0]}
+            componentName="BetaBadge"
           />
         </section>
       </Page>
