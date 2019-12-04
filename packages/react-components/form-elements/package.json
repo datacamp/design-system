@@ -42,7 +42,7 @@
     "@types/lodash": "4.14.149",
     "babel-jest": "24.9.0",
     "jest": "24.9.0",
-    "jest-emotion": "10.0.17",
+    "jest-emotion": "10.0.26",
     "react": "16.8.6",
     "react-docgen": "5.0.0-beta.1",
     "react-dom": "16.8.6"
