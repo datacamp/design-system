@@ -62,6 +62,13 @@ export default {
       title: 'Text',
     },
     {
+      content: pageLoader(() =>
+        import('../../pages/componentLibrary/toast.js')
+      ),
+      path: '/component-library/toast',
+      title: 'Toast',
+    },
+    {
       content: pageLoader(() => import('../../pages/componentLibrary/tag.js')),
       path: '/component-library/tag',
       title: 'Tag',
