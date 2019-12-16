@@ -1,0 +1,4 @@
+{
+  "extends": "@datacamp/waffles-tsconfig",
+  "exclude": ["lib"]
+}

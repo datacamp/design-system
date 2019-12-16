@@ -72,7 +72,7 @@
     semver "^5.4.1"
     source-map "^0.5.0"
 
-"@babel/core@^7.7.5":
+"@babel/core@^7.4.4", "@babel/core@^7.7.5":
   version "7.7.5"
   resolved "https://registry.yarnpkg.com/@babel/core/-/core-7.7.5.tgz#ae1323cd035b5160293307f50647e83f8ba62f7e"
   integrity sha512-M42+ScN4+1S9iB6f+TL7QBpoQETxbclx+KNoKJABghnKYE+fMzSGqst0BZJc8CpI625bwPwYgUyRvxZ+0mZzpw==
@@ -1090,7 +1090,7 @@
   dependencies:
     regenerator-runtime "^0.13.2"
 
-"@babel/runtime@^7.0.0", "@babel/runtime@^7.1.2", "@babel/runtime@^7.4.2", "@babel/runtime@^7.4.3", "@babel/runtime@^7.4.4", "@babel/runtime@^7.4.5", "@babel/runtime@^7.5.0", "@babel/runtime@^7.5.1", "@babel/runtime@^7.5.5", "@babel/runtime@^7.6.2", "@babel/runtime@^7.7.6":
+"@babel/runtime@^7.0.0", "@babel/runtime@^7.1.2", "@babel/runtime@^7.4.2", "@babel/runtime@^7.4.3", "@babel/runtime@^7.4.4", "@babel/runtime@^7.4.5", "@babel/runtime@^7.5.0", "@babel/runtime@^7.5.1", "@babel/runtime@^7.5.4", "@babel/runtime@^7.5.5", "@babel/runtime@^7.6.2", "@babel/runtime@^7.6.3", "@babel/runtime@^7.7.6":
   version "7.7.6"
   resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.7.6.tgz#d18c511121aff1b4f2cd1d452f1bac9601dd830f"
   integrity sha512-BWAJxpNVa0QlE5gZdWjSxXtemZyZ9RmrmVozxt3NUXeZhVIJ5ANyqmMc0JDrivBZyxUuQvFxlvH4OWWOogGfUw==
@@ -2901,7 +2901,7 @@
     telejson "^3.0.2"
     util-deprecate "^1.0.2"
 
-"@stryker-mutator/api@^2.0.2", "@stryker-mutator/api@^2.4.0":
+"@stryker-mutator/api@^2.0.2", "@stryker-mutator/api@^2.3.0", "@stryker-mutator/api@^2.4.0":
   version "2.4.0"
   resolved "https://registry.yarnpkg.com/@stryker-mutator/api/-/api-2.4.0.tgz#9e710b6dde7f889d5c6d573f349bb622c57b9a57"
   integrity sha512-VV12SWtoHKM8G2CSUHD7b8O6zJSygHjAju+e9qOjmrTaEgy8KUVO7OWuUNcRLpcRDVAlB2osuo3qndMstpPExg==
@@ -2909,7 +2909,7 @@
     mutation-testing-report-schema "^1.1.0"
     tslib "~1.10.0"
 
-"@stryker-mutator/core@^2.0.2":
+"@stryker-mutator/core@2.0.2", "@stryker-mutator/core@^2.0.2":
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/@stryker-mutator/core/-/core-2.0.2.tgz#3dbfa4dd114c3c98918fe6373d81968ff3d3978a"
   integrity sha512-NtBsdCc+btduV9/20XjZ7ijnH/R/pBKoIcp2G+r7m9KxoEHh3tR8pKJV6a/ZmUJPbVQH37NNUVZOPWOUk7fE4A==
@@ -2936,6 +2936,18 @@
     typed-inject "~2.0.0"
     typed-rest-client "~1.5.0"
 
+"@stryker-mutator/html-reporter@2.3.0":
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/@stryker-mutator/html-reporter/-/html-reporter-2.3.0.tgz#2f7251b9b83849aa3f4e5f54a612f273004c2f23"
+  integrity sha512-MTkz47R55caThuPY1c3gl1NZl2eslv6j2MqBAtNwiaZ8nHnyofrAXkBhqDEy82Ipbcz7rQBpD4E/N6PTaAgEtQ==
+  dependencies:
+    "@stryker-mutator/api" "^2.3.0"
+    "@stryker-mutator/util" "^2.3.0"
+    file-url "~3.0.0"
+    mkdirp "~0.5.1"
+    mutation-testing-elements "^1.0.2"
+    rimraf "~3.0.0"
+
 "@stryker-mutator/html-reporter@^2.4.0":
   version "2.4.0"
   resolved "https://registry.yarnpkg.com/@stryker-mutator/html-reporter/-/html-reporter-2.4.0.tgz#2d7d4370841604afbf6d6f3f7e2faaf174c16393"
@@ -2948,7 +2960,7 @@
     mutation-testing-elements "^1.0.2"
     rimraf "~3.0.0"
 
-"@stryker-mutator/typescript@^2.4.0":
+"@stryker-mutator/typescript@2.4.0", "@stryker-mutator/typescript@^2.4.0":
   version "2.4.0"
   resolved "https://registry.yarnpkg.com/@stryker-mutator/typescript/-/typescript-2.4.0.tgz#91a07a3682b43c37e4b9cd67e6c2fbd25086ea1b"
   integrity sha512-LUIqBP93VKf+PD2Z3Md4qJoFRfqGvwsQTsI/gI5cM6p8plhOT7mNqoTCmHPvqDOwKMaHRR4ltGEA8eSkQ92AOQ==
@@ -2959,7 +2971,7 @@
     semver "~6.3.0"
     tslib "~1.10.0"
 
-"@stryker-mutator/util@^2.0.2", "@stryker-mutator/util@^2.4.0":
+"@stryker-mutator/util@^2.0.2", "@stryker-mutator/util@^2.3.0", "@stryker-mutator/util@^2.4.0":
   version "2.4.0"
   resolved "https://registry.yarnpkg.com/@stryker-mutator/util/-/util-2.4.0.tgz#20e1e2f2388ae4e91f67f442224d479a539edf27"
   integrity sha512-+pKsudzHy7r51S39bpo/2N4lmdnFb9qhF34My3Y5BtXWZEcKm+FELWkCAC4H8CmO/j0RgTLyfnQDoaw4MjdLgg==
@@ -3075,6 +3087,17 @@
     "@svgr/plugin-svgo" "^4.2.0"
     loader-utils "^1.2.3"
 
+"@testing-library/dom@^5.5.4":
+  version "5.6.1"
+  resolved "https://registry.yarnpkg.com/@testing-library/dom/-/dom-5.6.1.tgz#705a1cb4a039b877c1e69e916824038e837ab637"
+  integrity sha512-Y1T2bjtvQMewffn1CJ28kpgnuvPYKsBcZMagEH0ppfEMZPDc8AkkEnTk4smrGZKw0cblNB3lhM2FMnpfLExlHg==
+  dependencies:
+    "@babel/runtime" "^7.5.5"
+    "@sheerun/mutationobserver-shim" "^0.3.2"
+    aria-query "3.0.0"
+    pretty-format "^24.8.0"
+    wait-for-expect "^1.2.0"
+
 "@testing-library/dom@^6.11.0":
   version "6.11.0"
   resolved "https://registry.yarnpkg.com/@testing-library/dom/-/dom-6.11.0.tgz#962a38f1a721fdb7c9e35e7579e33ff13a00eda4"
@@ -3101,6 +3124,14 @@
     lodash "^4.17.11"
     pretty-format "^24.0.0"
     redent "^3.0.0"
+
+"@testing-library/react@8.0.7":
+  version "8.0.7"
+  resolved "https://registry.yarnpkg.com/@testing-library/react/-/react-8.0.7.tgz#b5992c9156e926850a0e3a7c882ae1aed83b1c77"
+  integrity sha512-6XoeWSr3UCdxMswbkW0BmuXYw8a6w+stt+5gg4D4zAcljfhXETQ5o28bjJFwNab4OPg8gBNK8KIVot86L4Q8Vg==
+  dependencies:
+    "@babel/runtime" "^7.5.4"
+    "@testing-library/dom" "^5.5.4"
 
 "@testing-library/react@9.4.0":
   version "9.4.0"
@@ -4168,7 +4199,7 @@ ast-types@0.11.3:
   resolved "https://registry.yarnpkg.com/ast-types/-/ast-types-0.11.3.tgz#c20757fe72ee71278ea0ff3d87e5c2ca30d9edf8"
   integrity sha512-XA5o5dsNw8MhyW0Q7MWXJWc4oOzZKbdsEJq45h7c8q/d9DwWZ5F2ugUc1PuMLPGsUnphCt/cNDHu8JeBbxf1qA==
 
-ast-types@0.12.4:
+ast-types@0.12.4, ast-types@^0.12.4:
   version "0.12.4"
   resolved "https://registry.yarnpkg.com/ast-types/-/ast-types-0.12.4.tgz#71ce6383800f24efc9a1a3308f3a6e420a0974d1"
   integrity sha512-ky/YVYCbtVAS8TdMIaTiPFHwEpRB5z1hctepJplTr3UW5q8TDrpIMCILyk8pmLxGtn2KCtC/lSn7zOsaI7nzDw==
@@ -6251,7 +6282,7 @@ class-utils@^0.3.5:
     isobject "^3.0.0"
     static-extend "^0.1.1"
 
-classnames@^2.2.5:
+classnames@^2.2.5, classnames@^2.2.6:
   version "2.2.6"
   resolved "https://registry.yarnpkg.com/classnames/-/classnames-2.2.6.tgz#43935bffdd291f326dad0a205309b38d00f650ce"
   integrity sha512-JR/iSQOSt+LQIWwrwEzJ9uk0xfN3mTVYMwt1Ir5mUcSN6pU+V4zQFFaJsclJbPuAUQH+yfWef6tm7l1quW3C8Q==
@@ -7364,6 +7395,11 @@ csstype@^2.2.0, csstype@^2.5.2, csstype@^2.5.7:
   resolved "https://registry.yarnpkg.com/csstype/-/csstype-2.6.5.tgz#1cd1dff742ebf4d7c991470ae71e12bb6751e034"
   integrity sha512-JsTaiksRsel5n7XwqPAfB0l3TFKdpjW/kgAELf9vrb5adGA7UCPLajKK5s3nFrcFm3Rkyp/Qkgl73ENc1UY3cA==
 
+csstype@^2.6.7:
+  version "2.6.8"
+  resolved "https://registry.yarnpkg.com/csstype/-/csstype-2.6.8.tgz#0fb6fc2417ffd2816a418c9336da74d7f07db431"
+  integrity sha512-msVS9qTuMT5zwAGCVm4mxfrZ18BNc6Csd0oJAtiFMZ1FAx1CCvy2+5MDmYoix63LM/6NDbNtodCiGYGmFgO0dA==
+
 currently-unhandled@^0.4.1:
   version "0.4.1"
   resolved "https://registry.yarnpkg.com/currently-unhandled/-/currently-unhandled-0.4.1.tgz#988df33feab191ef799a61369dd76c17adf957ea"
@@ -7791,6 +7827,14 @@ dom-helpers@^3.2.1, dom-helpers@^3.4.0:
   integrity sha512-LnuPJ+dwqKDIyotW1VzmOZ5TONUN7CwkCR5hrgawTUbkBGYdeoNLZo6nNfGkCrjtE1nXXaj7iMMpDa8/d9WoIA==
   dependencies:
     "@babel/runtime" "^7.1.2"
+
+dom-helpers@^5.0.1:
+  version "5.1.3"
+  resolved "https://registry.yarnpkg.com/dom-helpers/-/dom-helpers-5.1.3.tgz#7233248eb3a2d1f74aafca31e52c5299cc8ce821"
+  integrity sha512-nZD1OtwfWGRBWlpANxacBEZrEuLa16o1nh7YopFWeoF68Zt8GGEmzHu6Xv4F3XaFIC+YXtTLrzgqKxFgLEe4jw==
+  dependencies:
+    "@babel/runtime" "^7.6.3"
+    csstype "^2.6.7"
 
 dom-iterator@^1.0.0:
   version "1.0.0"
@@ -11269,6 +11313,16 @@ jest-each@^24.9.0:
     jest-get-type "^24.9.0"
     jest-util "^24.9.0"
     pretty-format "^24.9.0"
+
+jest-emotion@10.0.17:
+  version "10.0.17"
+  resolved "https://registry.yarnpkg.com/jest-emotion/-/jest-emotion-10.0.17.tgz#e65a881771f522c123d61721d9bb0095dcb6cf40"
+  integrity sha512-Z0SqaeXGr9dshhY5z9ctfPiw2qTw5BRbCsbBWziTtSdiLnqFprj2NuF38lMrpSMFKjNY+q+rioRI5gVyQZrrxA==
+  dependencies:
+    "@babel/runtime" "^7.5.5"
+    "@types/jest" "^23.0.2"
+    chalk "^2.4.1"
+    css "^2.2.1"
 
 jest-emotion@10.0.26, jest-emotion@^10.0.26:
   version "10.0.26"
@@ -15145,7 +15199,7 @@ pretty-error@^2.0.2, pretty-error@^2.1.1:
     renderkid "^2.0.1"
     utila "~0.4"
 
-pretty-format@^24.0.0, pretty-format@^24.3.0, pretty-format@^24.9.0:
+pretty-format@^24.0.0, pretty-format@^24.3.0, pretty-format@^24.8.0, pretty-format@^24.9.0:
   version "24.9.0"
   resolved "https://registry.yarnpkg.com/pretty-format/-/pretty-format-24.9.0.tgz#12fac31b37019a4eea3c11aa9a959eb7628aa7c9"
   integrity sha512-00ZMZUiHaJrNfk33guavqgvfJS30sLYf0f8+Srklv0AMPodGGHcoHgksZ3OThYnIvOd+8yMCn0YiEOogjlgsnA==
@@ -15610,6 +15664,20 @@ react-docgen@5.0.0:
     node-dir "^0.1.10"
     strip-indent "^3.0.0"
 
+react-docgen@5.0.0-beta.1:
+  version "5.0.0-beta.1"
+  resolved "https://registry.yarnpkg.com/react-docgen/-/react-docgen-5.0.0-beta.1.tgz#3654ab8f5cb7abacbfc122c1950c45d8e77048da"
+  integrity sha512-CbbHF5jXrgyXuP3gQcN1zG4YpNj5QQuxTsEhKH3UXQN01V4cho/eL926ya6ecCWryUtlK97QGRxtK48KbCtXEQ==
+  dependencies:
+    "@babel/core" "^7.4.4"
+    "@babel/runtime" "^7.0.0"
+    ast-types "^0.12.4"
+    async "^2.1.4"
+    commander "^2.19.0"
+    doctrine "^3.0.0"
+    node-dir "^0.1.10"
+    strip-indent "^2.0.0"
+
 react-docgen@^4.1.0:
   version "4.1.1"
   resolved "https://registry.yarnpkg.com/react-docgen/-/react-docgen-4.1.1.tgz#8fef0212dbf14733e09edecef1de6b224d87219e"
@@ -15882,6 +15950,16 @@ react-textarea-autosize@^7.1.0:
     "@babel/runtime" "^7.1.2"
     prop-types "^15.6.0"
 
+react-toastify@^5.4.1:
+  version "5.4.1"
+  resolved "https://registry.yarnpkg.com/react-toastify/-/react-toastify-5.4.1.tgz#27533ca33753631016c44122934c7b6548352fcb"
+  integrity sha512-24EwkWrj47Id/HGjYfdcntaZpAQ3J5NX31SnGRD66hM/KvPKVJzPiDBPZ+/RZ3SvNkbNWfHpPKFWzenJjC26hg==
+  dependencies:
+    "@babel/runtime" "^7.4.2"
+    classnames "^2.2.6"
+    prop-types "^15.7.2"
+    react-transition-group "^4"
+
 react-transition-group@^2.2.1:
   version "2.9.0"
   resolved "https://registry.yarnpkg.com/react-transition-group/-/react-transition-group-2.9.0.tgz#df9cdb025796211151a436c69a8f3b97b5b07c8d"
@@ -15891,6 +15969,16 @@ react-transition-group@^2.2.1:
     loose-envify "^1.4.0"
     prop-types "^15.6.2"
     react-lifecycles-compat "^3.0.4"
+
+react-transition-group@^4:
+  version "4.3.0"
+  resolved "https://registry.yarnpkg.com/react-transition-group/-/react-transition-group-4.3.0.tgz#fea832e386cf8796c58b61874a3319704f5ce683"
+  integrity sha512-1qRV1ZuVSdxPlPf4O8t7inxUGpdyO5zG9IoNfJxSO0ImU2A1YWkEQvFPuIPZmMLkg5hYs7vv5mMOyfgSkvAwvw==
+  dependencies:
+    "@babel/runtime" "^7.5.5"
+    dom-helpers "^5.0.1"
+    loose-envify "^1.4.0"
+    prop-types "^15.6.2"
 
 react-uid@^2.2.0:
   version "2.2.0"
@@ -19134,6 +19222,11 @@ w3c-hr-time@^1.0.1:
   integrity sha1-gqwr/2PZUOqeMYmlimViX+3xkEU=
   dependencies:
     browser-process-hrtime "^0.1.2"
+
+wait-for-expect@^1.2.0:
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/wait-for-expect/-/wait-for-expect-1.3.0.tgz#65241ce355425f907f5d127bdb5e72c412ff830c"
+  integrity sha512-8fJU7jiA96HfGPt+P/UilelSAZfhMBJ52YhKzlmZQvKEZU2EcD1GQ0yqGB6liLdHjYtYAoGVigYwdxr5rktvzA==
 
 wait-for-expect@^3.0.0:
   version "3.0.1"

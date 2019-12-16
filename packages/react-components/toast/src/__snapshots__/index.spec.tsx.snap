@@ -1,0 +1,295 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`toast mounts a success toast 1`] = `
+.emotion-4 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: white;
+  border-radius: 4px;
+  box-shadow: 0px 0px 1px 0px rgba(61,66,81,0.3),0px 8px 12px -4px rgba(61,66,81,0.3);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  max-width: 512px;
+  min-width: 250px;
+  position: relative;
+}
+
+.emotion-0 {
+  background-color: #36d57d;
+  border-radius: 4px 0px 0px 4px;
+  height: 100%;
+  position: absolute;
+  width: 4px;
+}
+
+.emotion-1 {
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  margin-left: 16px;
+}
+
+.emotion-2 {
+  -webkit-font-smoothing: antialiased;
+  color: rgb(77,83,86);
+  font-family: sans-serif;
+  font-family: Lato;
+  font-style: normal;
+  color: rgb(61,66,81);
+  font-weight: 700;
+  line-height: 1.25;
+  margin: 0;
+  overflow: auto;
+  white-space: normal;
+  font-size: 14px;
+  margin-top: 16px;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  margin: 12px;
+}
+
+.emotion-2:first-child:not(style),
+.emotion-2 style:first-child + * {
+  margin-top: 0;
+}
+
+.emotion-3 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  aria-label: close;
+  background: none;
+  border: none;
+  border-radius: 2px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  height: 20px;
+  -webkit-box-pack: space-around;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: space-around;
+  justify-content: space-around;
+  margin-right: 12px;
+  padding: 0;
+  width: 20px;
+}
+
+.emotion-3:hover {
+  background-color: #f0f4f5;
+}
+
+<div
+  class="Toastify__toast-body"
+  role="alert"
+>
+  <div
+    class="emotion-4"
+  >
+    <div
+      class="emotion-0"
+    />
+    <svg
+      aria-hidden="false"
+      class="emotion-1"
+      height="18"
+      role="img"
+      viewBox="0 0 18 18"
+      width="18"
+    >
+      <title>
+        success
+      </title>
+      <path
+        d="M9 18A9 9 0 1 1 9 0a9 9 0 0 1 0 18zm2.326-11.96l-3.355 4.143L6.63 8.627a1 1 0 1 0-1.514 1.307l2.124 2.461a1 1 0 0 0 1.534-.024l4.108-5.073a1 1 0 0 0-1.555-1.259z"
+        fill="#36d57d"
+        fill-rule="evenodd"
+      />
+    </svg>
+    <h4
+      class="emotion-2"
+    >
+      test toast title
+    </h4>
+    <button
+      class="emotion-3"
+      type="button"
+    >
+      <svg
+        aria-hidden="true"
+        height="12"
+        role="img"
+        viewBox="0 0 18 18"
+        width="12"
+      >
+        <path
+          d="M9.005 7.625l4.83-4.83a.976.976 0 0 1 1.38 1.38l-4.83 4.83 4.82 4.82a.976.976 0 1 1-1.38 1.38l-4.82-4.82-4.83 4.83a.976.976 0 0 1-1.38-1.38l4.83-4.83-4.84-4.84a.976.976 0 1 1 1.38-1.38l4.84 4.84z"
+          fill="currentColor"
+          fill-rule="evenodd"
+        />
+      </svg>
+    </button>
+  </div>
+</div>
+`;
+
+exports[`toast mounts an error toast 1`] = `
+.emotion-4 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: white;
+  border-radius: 4px;
+  box-shadow: 0px 0px 1px 0px rgba(61,66,81,0.3),0px 8px 12px -4px rgba(61,66,81,0.3);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  max-width: 512px;
+  min-width: 250px;
+  position: relative;
+}
+
+.emotion-1 {
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  margin-left: 16px;
+}
+
+.emotion-2 {
+  -webkit-font-smoothing: antialiased;
+  color: rgb(77,83,86);
+  font-family: sans-serif;
+  font-family: Lato;
+  font-style: normal;
+  color: rgb(61,66,81);
+  font-weight: 700;
+  line-height: 1.25;
+  margin: 0;
+  overflow: auto;
+  white-space: normal;
+  font-size: 14px;
+  margin-top: 16px;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  margin: 12px;
+}
+
+.emotion-2:first-child:not(style),
+.emotion-2 style:first-child + * {
+  margin-top: 0;
+}
+
+.emotion-3 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  aria-label: close;
+  background: none;
+  border: none;
+  border-radius: 2px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  height: 20px;
+  -webkit-box-pack: space-around;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: space-around;
+  justify-content: space-around;
+  margin-right: 12px;
+  padding: 0;
+  width: 20px;
+}
+
+.emotion-3:hover {
+  background-color: #f0f4f5;
+}
+
+.emotion-0 {
+  background-color: #fe5c5c;
+  border-radius: 4px 0px 0px 4px;
+  height: 100%;
+  position: absolute;
+  width: 4px;
+}
+
+<div
+  class="Toastify__toast-body"
+  role="alert"
+>
+  <div
+    class="emotion-4"
+  >
+    <div
+      class="emotion-0"
+    />
+    <svg
+      aria-hidden="false"
+      class="emotion-1"
+      height="18"
+      role="img"
+      viewBox="0 0 18 18"
+      width="18"
+    >
+      <title>
+        error
+      </title>
+      <path
+        d="M9 18A9 9 0 1 1 9 0a9 9 0 0 1 0 18zm1.414-9l2.122-2.121a1 1 0 1 0-1.415-1.415L9 7.586 6.879 5.464A1 1 0 0 0 5.464 6.88L7.586 9l-2.122 2.121a1 1 0 0 0 1.415 1.415L9 10.414l2.121 2.122a1 1 0 0 0 1.415-1.415L10.414 9z"
+        fill="#fe5c5c"
+        fill-rule="evenodd"
+      />
+    </svg>
+    <h4
+      class="emotion-2"
+    >
+      test toast title
+    </h4>
+    <button
+      class="emotion-3"
+      type="button"
+    >
+      <svg
+        aria-hidden="true"
+        height="12"
+        role="img"
+        viewBox="0 0 18 18"
+        width="12"
+      >
+        <path
+          d="M9.005 7.625l4.83-4.83a.976.976 0 0 1 1.38 1.38l-4.83 4.83 4.82 4.82a.976.976 0 1 1-1.38 1.38l-4.82-4.82-4.83 4.83a.976.976 0 0 1-1.38-1.38l4.83-4.83-4.84-4.84a.976.976 0 1 1 1.38-1.38l4.84 4.84z"
+          fill="currentColor"
+          fill-rule="evenodd"
+        />
+      </svg>
+    </button>
+  </div>
+</div>
+`;
