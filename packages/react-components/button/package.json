@@ -49,7 +49,7 @@
     "react-error-boundary": "^1.2.5"
   },
   "dependencies": {
-    "@babel/runtime": "^7.7.4",
+    "@babel/runtime": "^7.7.6",
     "@datacamp/waffles-card": "^2.1.6",
     "@datacamp/waffles-text": "^2.1.0",
     "@datacamp/waffles-tokens": "^0.6.7",
