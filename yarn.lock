@@ -8494,10 +8494,10 @@ eslint-plugin-sort-keys-fix@1.1.0:
   dependencies:
     requireindex "~1.2.0"
 
-eslint-plugin-typescript-sort-keys@0.4.0:
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-typescript-sort-keys/-/eslint-plugin-typescript-sort-keys-0.4.0.tgz#71b5c570fbed41a685ec8905219f4cfdbe2c6dff"
-  integrity sha512-kmIbs5CYYUtYUpZbFyaBWlI+10WDZxfeVlVTgtKkGoPChHBz/Sm+/deeJpO93peI+79dkseFKsZKsJEfbfh+2g==
+eslint-plugin-typescript-sort-keys@0.5.0:
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-typescript-sort-keys/-/eslint-plugin-typescript-sort-keys-0.5.0.tgz#dea8d5d4d3305010e23c7132d909e0cd474b96a4"
+  integrity sha512-TZ5i5UqtUfASpi86RkpYisv+MZUuac2X4FgUJ/e6wHpkvCCGk8tw77cBP0vzuNEtkaec6HfJ6kuflnOgmtMRyA==
   dependencies:
     natural-compare-lite "~1.4.0"
     requireindex "~1.2.0"
