@@ -1,5 +1,68 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`<Heading /> renders at each size renders at size 200, multiLine=false 1`] = `
+.emotion-0 {
+  -webkit-font-smoothing: antialiased;
+  color: rgb(77,83,86);
+  font-family: sans-serif;
+  font-family: Lato;
+  font-style: normal;
+  color: rgb(61,66,81);
+  font-weight: 700;
+  line-height: 1.25;
+  margin: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 14px;
+  margin-top: 16px;
+}
+
+.emotion-0:first-child:not(style),
+.emotion-0 style:first-child + * {
+  margin-top: 0;
+}
+
+<h2
+  class="example-class emotion-0"
+  data-cy="othertest"
+  data-example="testdata"
+>
+  Some example text.
+</h2>
+`;
+
+exports[`<Heading /> renders at each size renders at size 200, multiLine=true 1`] = `
+.emotion-0 {
+  -webkit-font-smoothing: antialiased;
+  color: rgb(77,83,86);
+  font-family: sans-serif;
+  font-family: Lato;
+  font-style: normal;
+  color: rgb(61,66,81);
+  font-weight: 700;
+  line-height: 1.25;
+  margin: 0;
+  overflow: auto;
+  white-space: normal;
+  font-size: 14px;
+  margin-top: 16px;
+}
+
+.emotion-0:first-child:not(style),
+.emotion-0 style:first-child + * {
+  margin-top: 0;
+}
+
+<h2
+  class="example-class emotion-0"
+  data-cy="othertest"
+  data-example="testdata"
+>
+  Some example text.
+</h2>
+`;
+
 exports[`<Heading /> renders at each size renders at size 300, multiLine=false 1`] = `
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
