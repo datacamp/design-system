@@ -35,7 +35,7 @@
     "@babel/core": "7.7.4",
     "@datacamp/waffles-babel-preset": "^1.3.9",
     "@percy/storybook": "3.2.0",
-    "@storybook/addon-a11y": "5.2.6",
+    "@storybook/addon-a11y": "5.2.8",
     "babel-loader": "8.0.5",
     "webpack": "4.41.2",
     "webpack-bundle-analyzer": "3.6.0"
