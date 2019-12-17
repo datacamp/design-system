@@ -11,4 +11,4 @@ jobs:
         uses: adamzolyak/monorepo-pr-labeler-action@patching
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          BASE_DIRS: 'packages'
+          BASE_DIRS: 'packages/docs|packages/other|packages/react-components|packages/tools'
