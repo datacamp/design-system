@@ -55,7 +55,7 @@
     "@datacamp/waffles-icons": "^1.8.2",
     "@datacamp/waffles-text": "^2.1.0",
     "@datacamp/waffles-tokens": "^0.6.7",
-    "@types/react-modal": "^3.10.0",
+    "@types/react-modal": "^3.10.1",
     "airbnb-prop-types": "^2.15.0",
     "lodash": "^4.17.13",
     "prop-types": "^15.7.2",
