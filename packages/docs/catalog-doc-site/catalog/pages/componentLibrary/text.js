@@ -198,6 +198,11 @@ arrange(desc(gdpPercap))\`}</CodeBlock>
           />
 
           <PropTable
+            componentData={TextData['src/components/Heading.tsx'][0]}
+            componentName="Heading"
+          />
+
+          <PropTable
             componentData={TextData['src/components/Paragraph.tsx'][0]}
             componentName="Paragraph"
           />
