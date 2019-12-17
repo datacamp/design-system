@@ -17,7 +17,7 @@
     "deep-cleaner": "1.2.1",
     "jest": "^24.9.0",
     "lodash": "^4.17.13",
-    "nodemon": "^2.0.1",
+    "nodemon": "^2.0.2",
     "omit-deep-lodash": "^1.1.4",
     "style-dictionary": "2.8.3",
     "tinycolor2": "^1.4.1"
