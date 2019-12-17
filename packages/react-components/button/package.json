@@ -44,7 +44,7 @@
     "jest": "24.9.0",
     "jest-emotion": "10.0.26",
     "react": "16.8.6",
-    "react-docgen": "5.0.0-beta.1",
+    "react-docgen": "5.0.0",
     "react-dom": "16.8.6",
     "react-error-boundary": "^1.2.5"
   },
