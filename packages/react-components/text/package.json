@@ -1,6 +1,6 @@
 {
   "name": "@datacamp/waffles-text",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "main": "lib/index.js",
   "module": "es/index.js",
   "types": "types/index.d.ts",
@@ -25,9 +25,9 @@
   "devDependencies": {
     "@babel/cli": "7.7.4",
     "@babel/core": "7.7.4",
-    "@datacamp/waffles-axe-render": "^1.1.4",
-    "@datacamp/waffles-babel-preset": "^1.3.9",
-    "@datacamp/waffles-tsconfig": "^1.1.5",
+    "@datacamp/waffles-axe-render": "^1.2.0",
+    "@datacamp/waffles-babel-preset": "^1.3.10",
+    "@datacamp/waffles-tsconfig": "^1.1.6",
     "@emotion/core": "^10.0.17",
     "@stryker-mutator/core": "^2.0.2",
     "@stryker-mutator/html-reporter": "^2.4.0",
@@ -44,8 +44,8 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.7.6",
-    "@datacamp/waffles-tokens": "^0.6.7",
-    "@datacamp/waffles-utils": "^1.2.9",
+    "@datacamp/waffles-tokens": "^0.6.8",
+    "@datacamp/waffles-utils": "^1.3.0",
     "lodash": "^4.17.13",
     "prop-types": "^15.7.2",
     "tinycolor2": "^1.4.1"

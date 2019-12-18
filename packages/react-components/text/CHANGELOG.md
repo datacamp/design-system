@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.2.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-text@2.1.0...@datacamp/waffles-text@2.2.0) (2019-12-18)
+
+
+### Features
+
+* allow size 200 for Heading ([4b2d4cf](https://github.com/datacamp/design-system/commit/4b2d4cf))
+* update testing library ([c067839](https://github.com/datacamp/design-system/commit/c067839))
+
+
+
+
+
 # [2.1.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-text@2.0.0...@datacamp/waffles-text@2.1.0) (2019-12-02)
 
 

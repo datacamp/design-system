@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [4.7.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-button@4.6.3...@datacamp/waffles-button@4.7.0) (2019-12-18)
+
+
+### Features
+
+* update testing library ([c067839](https://github.com/datacamp/design-system/commit/c067839))
+
+
+
+
+
 ## [4.6.3](https://github.com/datacamp/design-system/compare/@datacamp/waffles-button@4.6.2...@datacamp/waffles-button@4.6.3) (2019-12-02)
 
 **Note:** Version bump only for package @datacamp/waffles-button

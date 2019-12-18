@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.34.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-catalog-doc-site@1.33.0...@datacamp/waffles-catalog-doc-site@1.34.0) (2019-12-18)
+
+
+### Bug Fixes
+
+* add missing Heading docs ([991bd0f](https://github.com/datacamp/design-system/commit/991bd0f))
+
+
+### Features
+
+* docs for toast ([9853bcf](https://github.com/datacamp/design-system/commit/9853bcf))
+* update tracks grammar ([74bf848](https://github.com/datacamp/design-system/commit/74bf848))
+
+
+
+
+
 # [1.33.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-catalog-doc-site@1.32.0...@datacamp/waffles-catalog-doc-site@1.33.0) (2019-12-02)
 
 

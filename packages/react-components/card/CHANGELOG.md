@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.2.0](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/card/compare/@datacamp/waffles-card@2.1.6...@datacamp/waffles-card@2.2.0) (2019-12-18)
+
+
+### Features
+
+* update testing library ([c067839](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/card/commit/c067839))
+
+
+
+
+
 ## [2.1.6](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/card/compare/@datacamp/waffles-card@2.1.5...@datacamp/waffles-card@2.1.6) (2019-12-02)
 
 **Note:** Version bump only for package @datacamp/waffles-card

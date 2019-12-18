@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.2.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-axe-render@1.1.4...@datacamp/waffles-axe-render@1.2.0) (2019-12-18)
+
+
+### Bug Fixes
+
+* update to only check rendered content ([0ce385a](https://github.com/datacamp/design-system/commit/0ce385a))
+
+
+### Features
+
+* update testing library ([c067839](https://github.com/datacamp/design-system/commit/c067839))
+
+
+
+
+
 ## [1.1.4](https://github.com/datacamp/design-system/compare/@datacamp/waffles-axe-render@1.1.3...@datacamp/waffles-axe-render@1.1.4) (2019-10-10)
 
 **Note:** Version bump only for package @datacamp/waffles-axe-render

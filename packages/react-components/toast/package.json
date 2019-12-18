@@ -1,6 +1,6 @@
 {
   "name": "@datacamp/waffles-toast",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "The Waffles Toast",
   "keywords": [
     "toast"
@@ -27,10 +27,10 @@
   "devDependencies": {
     "@babel/cli": "7.7.4",
     "@babel/core": "7.7.4",
-    "@datacamp/waffles-axe-render": "1.1.4",
-    "@datacamp/waffles-babel-preset": "1.3.9",
-    "@datacamp/waffles-icons": "1.8.2",
-    "@datacamp/waffles-tsconfig": "1.1.5",
+    "@datacamp/waffles-axe-render": "^1.2.0",
+    "@datacamp/waffles-babel-preset": "^1.3.10",
+    "@datacamp/waffles-icons": "^1.8.3",
+    "@datacamp/waffles-tsconfig": "^1.1.6",
     "@emotion/core": "10.0.17",
     "@stryker-mutator/core": "2.0.2",
     "@stryker-mutator/html-reporter": "2.3.0",
@@ -47,8 +47,8 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.7.6",
-    "@datacamp/waffles-text": "^2.1.0",
-    "@datacamp/waffles-tokens": "^0.6.7",
+    "@datacamp/waffles-text": "^2.2.0",
+    "@datacamp/waffles-tokens": "^0.6.8",
     "prop-types": "^15.7.2",
     "react-toastify": "^5.4.1"
   },
