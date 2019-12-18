@@ -6,7 +6,7 @@
   "license": "UNLICENSED",
   "private": true,
   "dependencies": {
-    "jest-axe": "3.1.1"
+    "jest-axe": "3.2.0"
   },
   "devDependencies": {
     "@testing-library/react": "9.4.0"
