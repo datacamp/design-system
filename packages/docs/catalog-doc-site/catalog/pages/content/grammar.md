@@ -194,10 +194,12 @@ Follow the style of the original name of the package, including original capital
 * xts
 * zoo
 
-### Courses, practice, projects
-In general, do not capitalize “courses,” “practice,” or “projects” in a sentence; always capitalize them in a title or headline.
+### Courses, tracks, practice, projects
+In general, do not capitalize “courses,” “tracks,” “career tracks,” “skill tracks,” “practice,” or “projects” in a sentence; always capitalize them in a title or headline.
 * Courses: Do not capitalize in a sentence.
 	* Exercises within a course should be referred to as “practice exercises.”
+* Tracks: Do not capitalize the word “track(s),” or “career tracks” or “skill tracks” in a sentence.
+	* Ex: “Skill tracks are shorter than career tracks and help you master complementary skills.”
 * Projects: Do not capitalize in a sentence. You do not need to add “DataCamp” in front of “projects.”
 * Practice: Do not capitalize in a sentence. Always refer to practice as “coding challenges,” or a “set of coding challenges” when referring to a practice pool.
 	* Incorrect: Practice pools, modes, modules, sessions, exercises.
