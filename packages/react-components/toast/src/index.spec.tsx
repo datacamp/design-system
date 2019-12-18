@@ -1,6 +1,6 @@
 import '@testing-library/jest-dom/extend-expect';
 
-import axeRender from '@datacamp/waffles-axe-render';
+import { render } from '@testing-library/react';
 import React from 'react';
 
 import { toast, ToastContainer } from '.';
@@ -8,9 +8,9 @@ import { toast, ToastContainer } from '.';
 jest.useFakeTimers();
 
 describe('toast', () => {
-  it('mounts a success toast', async () => {
+  it('mounts a success toast', () => {
     const title = 'test toast title';
-    const { getByText, getByRole } = await axeRender(<ToastContainer />);
+    const { getByText, getByRole } = render(<ToastContainer />);
     toast({ intent: 'success', title });
     jest.runAllTimers();
     const renderedToast = getByRole('alert');
@@ -19,9 +19,9 @@ describe('toast', () => {
     expect(renderedToast).toMatchSnapshot();
   });
 
-  it('mounts an error toast', async () => {
+  it('mounts an error toast', () => {
     const title = 'test toast title';
-    const { getByText, getByRole } = await axeRender(<ToastContainer />);
+    const { getByText, getByRole } = render(<ToastContainer />);
     toast({ intent: 'error', title });
     jest.runAllTimers();
     const renderedToast = getByRole('alert');
