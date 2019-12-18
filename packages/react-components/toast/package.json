@@ -31,7 +31,7 @@
     "@datacamp/waffles-babel-preset": "1.3.9",
     "@datacamp/waffles-icons": "1.8.2",
     "@datacamp/waffles-tsconfig": "1.1.5",
-    "@emotion/core": "10.0.17",
+    "@emotion/core": "10.0.22",
     "@stryker-mutator/core": "2.0.2",
     "@stryker-mutator/html-reporter": "2.3.0",
     "@stryker-mutator/typescript": "2.4.0",

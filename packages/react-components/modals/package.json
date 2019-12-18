@@ -32,7 +32,7 @@
     "@datacamp/waffles-axe-render": "^1.1.4",
     "@datacamp/waffles-babel-preset": "^1.3.9",
     "@datacamp/waffles-tsconfig": "^1.1.5",
-    "@emotion/core": "^10.0.17",
+    "@emotion/core": "^10.0.22",
     "@stryker-mutator/core": "^2.0.2",
     "@stryker-mutator/html-reporter": "^2.4.0",
     "@stryker-mutator/typescript": "^2.4.0",
@@ -63,7 +63,7 @@
     "tinycolor2": "^1.4.1"
   },
   "peerDependencies": {
-    "@emotion/core": "^10.0.17",
+    "@emotion/core": "^10.0.22",
     "react": "^16.8.6",
     "react-dom": "^16.8.6"
   }
