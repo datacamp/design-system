@@ -29,7 +29,7 @@
     "@emotion/styled": "10.0.17",
     "@storybook/addon-knobs": "5.2.8",
     "@storybook/react": "5.2.8",
-    "react": "16.8.6",
+    "react": "16.12.0",
     "react-dom": "16.8.6"
   },
   "devDependencies": {
