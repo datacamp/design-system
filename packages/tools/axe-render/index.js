@@ -5,7 +5,7 @@ expect.extend(toHaveNoViolations);
 
 const axeRender = async (ui, options) => {
   const renderResult = render(ui, options);
-  const html = await axe(document.body.innerHTML);
+  const html = await axe(renderResult.container);
   expect(html).toHaveNoViolations();
   return renderResult;
 };
