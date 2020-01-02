@@ -70,6 +70,7 @@ function buildTypescriptWebComponents() {
               color?: string;
               size?: 12 | 18 | 24;
               title?: string;
+              titleId?: string;
             }
             const ${componentName} = React.forwardRef(
               (
@@ -79,6 +80,7 @@ function buildTypescriptWebComponents() {
                   color = 'currentColor',
                   size = 18,
                   title,
+                  titleId
                 }: IconProps,
                 ref: React.Ref<SVGSVGElement>
               ) => ${jsx})
