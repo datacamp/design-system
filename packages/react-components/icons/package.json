@@ -16,7 +16,7 @@
     "type-check": "tsc --rootDir build --noEmit"
   },
   "devDependencies": {
-    "@babel/cli": "^7.7.4",
+    "@babel/cli": "^7.7.7",
     "@babel/core": "^7.7.4",
     "@datacamp/waffles-babel-preset": "^1.3.10",
     "@datacamp/waffles-tsconfig": "^1.1.6",
