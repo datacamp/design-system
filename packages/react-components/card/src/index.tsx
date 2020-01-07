@@ -37,6 +37,7 @@ interface CardProps {
    * as elevation, and must also be greater than the elevation level provided.
    */
   hoverElevation?: elevationKeys;
+  id?: string;
 }
 
 const Card = ({
@@ -45,6 +46,7 @@ const Card = ({
   className,
   elevation = 0,
   hoverElevation,
+  id,
 }: CardProps): ReactElement => {
   // warn when hoverElevation is less than elevation
   PropTypes.checkPropTypes(
@@ -79,6 +81,7 @@ const Card = ({
         boxShadow: elevationMap[elevation],
         transition: 'all 0.6s cubic-bezier(0.075, 0.82, 0.165, 1)',
       })}
+      id={id}
     >
       {children}
     </Element>
