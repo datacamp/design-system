@@ -1,9 +1,9 @@
 import Card from '@datacamp/waffles-card';
+import Positioner from '@datacamp/waffles-positioner';
 import { Text } from '@datacamp/waffles-text';
 import tokens from '@datacamp/waffles-tokens/lib/future-tokens.json';
 import { css } from '@emotion/core';
 import React, { MutableRefObject, ReactElement } from 'react';
-import { createPortal } from 'react-dom';
 
 interface TooltipProps {
   appearance: 'light' | 'dark';
@@ -58,62 +58,8 @@ const Tooltip = ({
   target,
   position,
 }: TooltipProps): ReactElement | null => {
-  if (!visible || !target.current) return null;
-
-  const targetBox = target.current.getBoundingClientRect();
-
-  const layoutCSSMap = {
-    bottom: css({
-      left: window.scrollX + (targetBox.left + targetBox.right) / 2,
-      top: targetBox.bottom + window.scrollY,
-      transform: 'translate(-50%, 0)',
-    }),
-    bottomLeft: css({
-      left: window.scrollX + targetBox.left,
-      top: targetBox.bottom + window.scrollY,
-    }),
-    bottomRight: css({
-      left: window.scrollX + targetBox.left + targetBox.width,
-      top: targetBox.bottom + window.scrollY,
-      transform: 'translate(-100%)',
-    }),
-    left: css({
-      left: window.scrollX + targetBox.left,
-      top: window.scrollY + targetBox.top + targetBox.height / 2,
-      transform: 'translate(-100%, -50%)',
-    }),
-    right: css({
-      left: window.scrollX + targetBox.right,
-      top: window.scrollY + targetBox.top + targetBox.height / 2,
-      transform: 'translate(0, -50%)',
-    }),
-    top: css({
-      left: window.scrollX + (targetBox.left + targetBox.right) / 2,
-      top: targetBox.top + window.scrollY,
-      transform: 'translate(-50%, -100%)',
-    }),
-    topLeft: css({
-      left: window.scrollX + targetBox.left,
-      top: targetBox.top + window.scrollY,
-      transform: 'translate(0, -100%)',
-    }),
-    topRight: css({
-      left: window.scrollX + targetBox.left + targetBox.width,
-      top: targetBox.top + window.scrollY,
-      transform: 'translate(-100%, -100%)',
-    }),
-  };
-
-  return createPortal(
-    <div
-      css={css(
-        {
-          position: 'absolute',
-        },
-        layoutCSSMap[position]
-      )}
-      id={id}
-    >
+  return (
+    <Positioner position={position} target={target} visible={visible}>
       <Card
         css={css(
           {
@@ -126,6 +72,7 @@ const Tooltip = ({
           cardStyles[appearance]
         )}
         elevation={elevations[appearance]}
+        id={id}
       >
         <Text
           css={css(
@@ -139,8 +86,7 @@ const Tooltip = ({
           {children}
         </Text>
       </Card>
-    </div>,
-    document.body
+    </Positioner>
   );
 };
 
