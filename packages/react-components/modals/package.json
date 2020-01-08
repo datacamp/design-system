@@ -43,7 +43,7 @@
     "@types/tinycolor2": "1.4.2",
     "babel-jest": "24.9.0",
     "jest": "24.9.0",
-    "jest-emotion": "10.0.26",
+    "jest-emotion": "10.0.27",
     "react": "16.8.6",
     "react-docgen": "5.1.0",
     "react-dom": "16.8.6"
