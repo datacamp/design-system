@@ -9,7 +9,6 @@ storiesOf('waffles-card', module).add('elevation levels', () => {
   return (
     <div
       css={{
-        backgroundColor: '#F0F4F5',
         height: '100%',
         paddingTop: '16px',
         width: '100%',
