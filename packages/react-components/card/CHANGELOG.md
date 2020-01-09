@@ -3,6 +3,25 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [3.0.0](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/card/compare/@datacamp/waffles-card@2.2.0...@datacamp/waffles-card@3.0.0) (2020-01-09)
+
+
+### Features
+
+* allow id to be set on Card ([f59cecb](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/card/commit/f59cecb))
+* show border for all elevation levels ([ef32fd8](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/card/commit/ef32fd8))
+
+
+### BREAKING CHANGES
+
+* This version will add a border to all cards no matter 
+their elevation level. This allows them to be placed on white 
+backgrounds
+
+
+
+
+
 # [2.2.0](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/card/compare/@datacamp/waffles-card@2.1.6...@datacamp/waffles-card@2.2.0) (2019-12-18)
 
 

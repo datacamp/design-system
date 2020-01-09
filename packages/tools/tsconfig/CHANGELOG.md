@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.7](https://github.com/datacamp/design-system/compare/@datacamp/waffles-tsconfig@1.1.6...@datacamp/waffles-tsconfig@1.1.7) (2020-01-09)
+
+**Note:** Version bump only for package @datacamp/waffles-tsconfig
+
+
+
+
+
 ## [1.1.6](https://github.com/datacamp/design-system/compare/@datacamp/waffles-tsconfig@1.1.5...@datacamp/waffles-tsconfig@1.1.6) (2019-12-18)
 
 **Note:** Version bump only for package @datacamp/waffles-tsconfig

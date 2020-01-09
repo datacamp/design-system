@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [5.0.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-button@4.7.0...@datacamp/waffles-button@5.0.0) (2020-01-09)
+
+
+### Features
+
+* use positioner in tooltip ([f25627d](https://github.com/datacamp/design-system/commit/f25627d))
+* use updated card within tooltips ([fe18c72](https://github.com/datacamp/design-system/commit/fe18c72))
+
+
+### BREAKING CHANGES
+
+* light tooltips will now show with a border
+
+
+
+
+
 # [4.7.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-button@4.6.3...@datacamp/waffles-button@4.7.0) (2019-12-18)
 
 

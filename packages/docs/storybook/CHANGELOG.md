@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.35.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-storybook@1.34.0...@datacamp/waffles-storybook@1.35.0) (2020-01-09)
+
+
+### Features
+
+* add stories for Positioner ([17c7a49](https://github.com/datacamp/design-system/commit/17c7a49))
+* remove coloured background from card story ([eb26589](https://github.com/datacamp/design-system/commit/eb26589))
+
+
+
+
+
 # [1.34.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-storybook@1.33.0...@datacamp/waffles-storybook@1.34.0) (2019-12-18)
 
 

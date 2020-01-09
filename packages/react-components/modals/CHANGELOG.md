@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [4.0.0](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/modals/compare/@datacamp/waffles-modals@3.3.0...@datacamp/waffles-modals@4.0.0) (2020-01-09)
+
+
+### Features
+
+* uses updated card with border ([93eab30](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/modals/commit/93eab30))
+
+
+### BREAKING CHANGES
+
+* modals will now show with a border as well as a shadow
+
+
+
+
+
 # [3.3.0](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/modals/compare/@datacamp/waffles-modals@3.2.2...@datacamp/waffles-modals@3.3.0) (2019-12-18)
 
 
