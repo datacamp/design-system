@@ -5,10 +5,10 @@ import React, { ReactElement, ReactNode } from 'react';
 
 export const elevationMap = {
   0: tokens.shadow.border.value,
-  1: tokens.shadow.sm.value,
-  2: tokens.shadow.md.value,
-  3: tokens.shadow.lg.value,
-  4: tokens.shadow.xl.value,
+  1: `0px 0px 1px 0px rgba(61, 66, 81, 0.3), ${tokens.shadow.sm.value}`,
+  2: `0px 0px 1px 0px rgba(61, 66, 81, 0.3), ${tokens.shadow.md.value}`,
+  3: `0px 0px 1px 0px rgba(61, 66, 81, 0.3), ${tokens.shadow.lg.value}`,
+  4: `0px 0px 1px 0px rgba(61, 66, 81, 0.3), ${tokens.shadow.xl.value}`,
 };
 
 // same as keyof typeof elevationMap but able to generate proptypes correctly
