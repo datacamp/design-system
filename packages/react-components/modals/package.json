@@ -38,7 +38,7 @@
     "@stryker-mutator/typescript": "^2.4.0",
     "@testing-library/jest-dom": "4.2.4",
     "@testing-library/react": "9.4.0",
-    "@testing-library/user-event": "7.1.2",
+    "@testing-library/user-event": "8.0.3",
     "@types/lodash": "4.14.149",
     "@types/tinycolor2": "1.4.2",
     "babel-jest": "24.9.0",
