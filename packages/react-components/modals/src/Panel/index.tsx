@@ -16,9 +16,9 @@ import {
 } from '../sharedStyles';
 import {
   animationTime,
-  contentStyle,
   contentStyleAfterOpen,
-  contentStyleBeforeClose,
+  contentStyles,
+  contentStylesBeforeClose,
 } from './PanelStyles';
 
 interface PanelProps {
@@ -50,6 +50,10 @@ interface PanelProps {
    */
   onClose: (origin: CloseOrigin) => void;
   /**
+   * The side of the screen to display the Panel on.
+   */
+  position?: 'left' | 'right';
+  /**
    * When true (default), the Panel will close when the Esc key is pressed.
    */
   shouldCloseOnEsc?: boolean;
@@ -74,6 +78,7 @@ const Panel = ({
   shouldCloseOnEsc = true,
   shouldCloseOnOverlayClick = true,
   width = '45%',
+  position = 'right',
 }: PanelProps): React.ReactElement => {
   // Callbacks to set the correct origin when closing
   const onCloseButton = (): void => onClose('closeButton');
@@ -86,8 +91,8 @@ const Panel = ({
       {({ css: generateClassName, cx }) => {
         const modalClassName = {
           afterOpen: generateClassName(contentStyleAfterOpen),
-          base: generateClassName(contentStyle, { width }),
-          beforeClose: generateClassName(contentStyleBeforeClose),
+          base: generateClassName(contentStyles[position], { width }),
+          beforeClose: generateClassName(contentStylesBeforeClose[position]),
         };
         const overlayClassName = {
           afterOpen: generateClassName(overlayStyleAfterOpen),
