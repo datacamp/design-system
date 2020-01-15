@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [4.1.0](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/modals/compare/@datacamp/waffles-modals@4.0.0...@datacamp/waffles-modals@4.1.0) (2020-01-15)
+
+
+### Features
+
+* add position prop to Panel to place on left or right of screen ([7d137bf](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/modals/commit/7d137bf))
+
+
+
+
+
 # [4.0.0](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/modals/compare/@datacamp/waffles-modals@3.3.0...@datacamp/waffles-modals@4.0.0) (2020-01-09)
 
 

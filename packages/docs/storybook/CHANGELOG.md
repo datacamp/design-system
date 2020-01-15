@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.36.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-storybook@1.35.0...@datacamp/waffles-storybook@1.36.0) (2020-01-15)
+
+
+### Features
+
+* add story for left panel ([4ca2e15](https://github.com/datacamp/design-system/commit/4ca2e15))
+
+
+
+
+
 # [1.35.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-storybook@1.34.0...@datacamp/waffles-storybook@1.35.0) (2020-01-09)
 
 
