@@ -332,4 +332,34 @@ storiesOf('waffles-modals', module)
         </>
       );
     });
+  })
+  .add('Panel on the Left', () => {
+    return createElement(() => {
+      const [isOpen, setIsOpen] = useState(true);
+      return (
+        <>
+          <Paragraph>this is some content behind the modal</Paragraph>
+          <Paragraph>this is some content behind the modal</Paragraph>
+          <Button onClick={() => setIsOpen(true)}>Open Modal</Button>
+          <Panel
+            isOpen={isOpen}
+            onClose={origin => {
+              console.log(origin); // eslint-disable-line no-console
+              setIsOpen(false);
+            }}
+            position="left"
+          >
+            <Panel.Header>Panel with a Body and Footer</Panel.Header>
+            <Panel.Body>
+              <LoremParagraph />
+              <LoremParagraph />
+              <LoremParagraph />
+              <LoremParagraph />
+              <LoremParagraph />
+              <LoremParagraph />
+            </Panel.Body>
+          </Panel>
+        </>
+      );
+    });
   });
