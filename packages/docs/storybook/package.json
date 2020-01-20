@@ -27,7 +27,7 @@
     "@datacamp/waffles-toast": "^1.0.3",
     "@datacamp/waffles-tokens": "^0.6.8",
     "@emotion/core": "10.0.17",
-    "@storybook/addon-knobs": "5.3.3",
+    "@storybook/addon-knobs": "5.3.7",
     "@storybook/react": "5.2.8",
     "react": "16.8.6",
     "react-dom": "16.8.6"
