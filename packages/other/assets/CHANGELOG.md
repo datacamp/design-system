@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.2](https://github.com/datacamp/design-system/compare/@datacamp/waffles-assets@1.0.1...@datacamp/waffles-assets@1.0.2) (2020-01-20)
+
+
+### Bug Fixes
+
+* viewbox values ([4c117af](https://github.com/datacamp/design-system/commit/4c117af))
+
+
+
+
+
 ## [1.0.1](https://github.com/datacamp/design-system/compare/@datacamp/waffles-assets@1.0.0...@datacamp/waffles-assets@1.0.1) (2020-01-20)
 
 
