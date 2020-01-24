@@ -7,6 +7,7 @@ const pluginTypescriptToProptypes = require('babel-plugin-typescript-to-proptype
   .default;
 const pluginTransformRuntime = require('@babel/plugin-transform-runtime');
 const pluginProposalClassProperties = require('@babel/plugin-proposal-class-properties');
+const pluginTransformReactRemovePropTypes = require('babel-plugin-transform-react-remove-prop-types');
 
 const targets = {
   browsers: ['last 2 versions', 'Firefox ESR', 'not IE < 11'],
@@ -41,6 +42,7 @@ module.exports = () => ({
     pluginLodash,
     pluginProposalClassProperties,
     pluginTypescriptToProptypes,
+    [pluginTransformReactRemovePropTypes, { mode: 'wrap' }], // must happen after typescript to proptypes conversion
     pluginTransformRuntime,
   ],
   presets: [[presetEnv], presetReact, presetTypescript, presetCSSProp],
