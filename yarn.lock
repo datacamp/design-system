@@ -3827,12 +3827,11 @@
   dependencies:
     "@types/react" "*"
 
-"@types/react-native@^0.60.28":
-  version "0.60.28"
-  resolved "https://registry.yarnpkg.com/@types/react-native/-/react-native-0.60.28.tgz#5982bc1e96defb033bc243adcb9ed315bdacd737"
-  integrity sha512-X9oC4gPoHhYbAUxaddeBRVHqq307zSR6SzaIoQFjghe7a/90mJ1bqXnv49AkisN1LKI66i8dkIrb5IOvQEJ/0Q==
+"@types/react-native@^0.61.4":
+  version "0.61.4"
+  resolved "https://registry.yarnpkg.com/@types/react-native/-/react-native-0.61.4.tgz#dfd323579c98a447ca7d152e94fb1507e84de7d2"
+  integrity sha512-RWU51dCIEjvgT0QuclgAha/P9fdAvnDzilhatx85LcTKTH2S3PSOUNZlbxwyZLMrqpCek5xsBOjSA5nOIFYq4A==
   dependencies:
-    "@types/prop-types" "*"
     "@types/react" "*"
 
 "@types/react-syntax-highlighter@10.1.0":
