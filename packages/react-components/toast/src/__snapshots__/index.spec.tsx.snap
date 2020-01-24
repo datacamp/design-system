@@ -20,6 +20,7 @@ exports[`toast mounts a success toast 1`] = `
   max-width: 512px;
   min-width: 250px;
   position: relative;
+  z-index: 999;
 }
 
 .emotion-0 {
@@ -167,6 +168,7 @@ exports[`toast mounts an error toast 1`] = `
   max-width: 512px;
   min-width: 250px;
   position: relative;
+  z-index: 999;
 }
 
 .emotion-1 {
