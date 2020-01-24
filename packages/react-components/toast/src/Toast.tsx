@@ -53,6 +53,7 @@ const Toast = ({
         maxWidth: 512,
         minWidth: 250,
         position: 'relative',
+        zIndex: parseInt(tokens.zIndex[999].value, 10),
       })}
     >
       <div
