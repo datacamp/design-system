@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.4.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-babel-preset@1.3.12...@datacamp/waffles-babel-preset@1.4.0) (2020-01-27)
+
+
+### Features
+
+* strip prop types from production builds ([40c0b4c](https://github.com/datacamp/design-system/commit/40c0b4c))
+
+
+
+
+
 ## [1.3.12](https://github.com/datacamp/design-system/compare/@datacamp/waffles-babel-preset@1.3.11...@datacamp/waffles-babel-preset@1.3.12) (2020-01-15)
 
 **Note:** Version bump only for package @datacamp/waffles-babel-preset
