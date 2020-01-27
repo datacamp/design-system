@@ -1,3 +1,4 @@
+import tokens from '@datacamp/waffles-tokens/lib/future-tokens.json';
 import { ClassNames, keyframes } from '@emotion/core';
 import React from 'react';
 import {
@@ -5,7 +6,6 @@ import {
   ToastContainer as ToastifyContainer,
   ToastContainerProps,
 } from 'react-toastify';
-
 // needed for invisible progress bar timing
 const linearProgress = keyframes({
   '0%': {
@@ -64,6 +64,7 @@ const ToastContainer = (props: ToastContainerProps): React.ReactElement => (
             position: 'fixed',
             top: 0,
             transform: 'translateX(-50%)',
+            zIndex: parseInt(tokens.zIndex[999].value, 10),
           })}
           closeButton={false}
           closeOnClick={false}
