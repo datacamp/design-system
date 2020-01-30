@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.5](https://github.com/datacamp/design-system/compare/@datacamp/waffles-toast@1.0.4...@datacamp/waffles-toast@1.0.5) (2020-01-30)
+
+
+### Bug Fixes
+
+* add z-index to toast container to make them appear above modals ([2e17a04](https://github.com/datacamp/design-system/commit/2e17a04))
+
+
+
+
+
 ## [1.0.4](https://github.com/datacamp/design-system/compare/@datacamp/waffles-toast@1.0.3...@datacamp/waffles-toast@1.0.4) (2020-01-27)
 
 

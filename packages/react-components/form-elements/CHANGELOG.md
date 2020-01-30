@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.7.5](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/form-elements/compare/@datacamp/waffles-form-elements@2.7.4...@datacamp/waffles-form-elements@2.7.5) (2020-01-30)
+
+
+### Bug Fixes
+
+* input appearance on ios ([cd67a8e](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/form-elements/commit/cd67a8e))
+
+
+
+
+
 ## [2.7.4](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/form-elements/compare/@datacamp/waffles-form-elements@2.7.3...@datacamp/waffles-form-elements@2.7.4) (2020-01-27)
 
 **Note:** Version bump only for package @datacamp/waffles-form-elements

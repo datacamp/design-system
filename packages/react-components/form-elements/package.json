@@ -1,6 +1,6 @@
 {
   "name": "@datacamp/waffles-form-elements",
-  "version": "2.7.4",
+  "version": "2.7.5",
   "main": "lib/index.js",
   "module": "es/index.js",
   "types": "types/index.d.ts",
