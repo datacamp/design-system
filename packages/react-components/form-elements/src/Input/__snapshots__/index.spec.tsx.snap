@@ -89,6 +89,7 @@ exports[`snapshots renders an input with size large, disabled=false, required=fa
   height: 64px;
   padding-left: 24px;
   padding-right: 24px;
+  -webkit-appearance: none;
   background: white;
   border: 0;
   border-radius: 4px;
@@ -292,6 +293,7 @@ exports[`snapshots renders an input with size large, disabled=false, required=tr
   height: 64px;
   padding-left: 24px;
   padding-right: 24px;
+  -webkit-appearance: none;
   background: white;
   border: 0;
   border-radius: 4px;
@@ -466,6 +468,7 @@ exports[`snapshots renders an input with size large, disabled=false, required=un
   height: 64px;
   padding-left: 24px;
   padding-right: 24px;
+  -webkit-appearance: none;
   background: white;
   border: 0;
   border-radius: 4px;
@@ -647,6 +650,7 @@ exports[`snapshots renders an input with size large, disabled=true, required=fal
   height: 64px;
   padding-left: 24px;
   padding-right: 24px;
+  -webkit-appearance: none;
   background: white;
   border: 0;
   border-radius: 4px;
@@ -851,6 +855,7 @@ exports[`snapshots renders an input with size large, disabled=true, required=tru
   height: 64px;
   padding-left: 24px;
   padding-right: 24px;
+  -webkit-appearance: none;
   background: white;
   border: 0;
   border-radius: 4px;
@@ -1026,6 +1031,7 @@ exports[`snapshots renders an input with size large, disabled=true, required=und
   height: 64px;
   padding-left: 24px;
   padding-right: 24px;
+  -webkit-appearance: none;
   background: white;
   border: 0;
   border-radius: 4px;
@@ -1172,6 +1178,7 @@ exports[`snapshots renders an input with size medium, disabled=false, required=f
   height: 48px;
   padding-left: 16px;
   padding-right: 16px;
+  -webkit-appearance: none;
   background: white;
   border: 0;
   border-radius: 4px;
@@ -1362,6 +1369,7 @@ exports[`snapshots renders an input with size medium, disabled=false, required=t
   height: 48px;
   padding-left: 16px;
   padding-right: 16px;
+  -webkit-appearance: none;
   background: white;
   border: 0;
   border-radius: 4px;
@@ -1570,6 +1578,7 @@ exports[`snapshots renders an input with size medium, disabled=false, required=u
   height: 48px;
   padding-left: 16px;
   padding-right: 16px;
+  -webkit-appearance: none;
   background: white;
   border: 0;
   border-radius: 4px;
@@ -1730,6 +1739,7 @@ exports[`snapshots renders an input with size medium, disabled=true, required=fa
   height: 48px;
   padding-left: 16px;
   padding-right: 16px;
+  -webkit-appearance: none;
   background: white;
   border: 0;
   border-radius: 4px;
@@ -1921,6 +1931,7 @@ exports[`snapshots renders an input with size medium, disabled=true, required=tr
   height: 48px;
   padding-left: 16px;
   padding-right: 16px;
+  -webkit-appearance: none;
   background: white;
   border: 0;
   border-radius: 4px;
@@ -2130,6 +2141,7 @@ exports[`snapshots renders an input with size medium, disabled=true, required=un
   height: 48px;
   padding-left: 16px;
   padding-right: 16px;
+  -webkit-appearance: none;
   background: white;
   border: 0;
   border-radius: 4px;
@@ -2327,6 +2339,7 @@ exports[`snapshots renders an input with size small, disabled=false, required=fa
   height: 36px;
   padding-left: 12px;
   padding-right: 12px;
+  -webkit-appearance: none;
   background: white;
   border: 0;
   border-radius: 4px;
@@ -2530,6 +2543,7 @@ exports[`snapshots renders an input with size small, disabled=false, required=tr
   height: 36px;
   padding-left: 12px;
   padding-right: 12px;
+  -webkit-appearance: none;
   background: white;
   border: 0;
   border-radius: 4px;
@@ -2704,6 +2718,7 @@ exports[`snapshots renders an input with size small, disabled=false, required=un
   height: 36px;
   padding-left: 12px;
   padding-right: 12px;
+  -webkit-appearance: none;
   background: white;
   border: 0;
   border-radius: 4px;
@@ -2885,6 +2900,7 @@ exports[`snapshots renders an input with size small, disabled=true, required=fal
   height: 36px;
   padding-left: 12px;
   padding-right: 12px;
+  -webkit-appearance: none;
   background: white;
   border: 0;
   border-radius: 4px;
@@ -3089,6 +3105,7 @@ exports[`snapshots renders an input with size small, disabled=true, required=tru
   height: 36px;
   padding-left: 12px;
   padding-right: 12px;
+  -webkit-appearance: none;
   background: white;
   border: 0;
   border-radius: 4px;
@@ -3264,6 +3281,7 @@ exports[`snapshots renders an input with size small, disabled=true, required=und
   height: 36px;
   padding-left: 12px;
   padding-right: 12px;
+  -webkit-appearance: none;
   background: white;
   border: 0;
   border-radius: 4px;
