@@ -9,6 +9,7 @@ const baseFormStyle = css({
     boxShadow: `inset 0 0 0 1px ${tokens.color.opaque.primary.value.rgb}`,
     outline: 'none',
   },
+  WebkitAppearance: 'none',
   background: 'white',
   border: 0,
   borderRadius: tokens.radii.small.value,

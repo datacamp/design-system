@@ -96,6 +96,7 @@ exports[`with label snapshots renders a select element with size large, disabled
 }
 
 .emotion-5 {
+  -webkit-appearance: none;
   background: white;
   border: 0;
   border-radius: 4px;
@@ -324,6 +325,7 @@ exports[`with label snapshots renders a select element with size large, disabled
 }
 
 .emotion-6 {
+  -webkit-appearance: none;
   background: white;
   border: 0;
   border-radius: 4px;
@@ -523,6 +525,7 @@ exports[`with label snapshots renders a select element with size large, disabled
 }
 
 .emotion-3 {
+  -webkit-appearance: none;
   background: white;
   border: 0;
   border-radius: 4px;
@@ -729,6 +732,7 @@ exports[`with label snapshots renders a select element with size large, disabled
 }
 
 .emotion-5 {
+  -webkit-appearance: none;
   background: white;
   border: 0;
   border-radius: 4px;
@@ -958,6 +962,7 @@ exports[`with label snapshots renders a select element with size large, disabled
 }
 
 .emotion-6 {
+  -webkit-appearance: none;
   background: white;
   border: 0;
   border-radius: 4px;
@@ -1158,6 +1163,7 @@ exports[`with label snapshots renders a select element with size large, disabled
 }
 
 .emotion-3 {
+  -webkit-appearance: none;
   background: white;
   border: 0;
   border-radius: 4px;
@@ -1329,6 +1335,7 @@ exports[`with label snapshots renders a select element with size medium, disable
 }
 
 .emotion-5 {
+  -webkit-appearance: none;
   background: white;
   border: 0;
   border-radius: 4px;
@@ -1544,6 +1551,7 @@ exports[`with label snapshots renders a select element with size medium, disable
 }
 
 .emotion-6 {
+  -webkit-appearance: none;
   background: white;
   border: 0;
   border-radius: 4px;
@@ -1777,6 +1785,7 @@ exports[`with label snapshots renders a select element with size medium, disable
 }
 
 .emotion-3 {
+  -webkit-appearance: none;
   background: white;
   border: 0;
   border-radius: 4px;
@@ -1998,6 +2007,7 @@ exports[`with label snapshots renders a select element with size medium, disable
 }
 
 .emotion-5 {
+  -webkit-appearance: none;
   background: white;
   border: 0;
   border-radius: 4px;
@@ -2227,6 +2237,7 @@ exports[`with label snapshots renders a select element with size medium, disable
 }
 
 .emotion-6 {
+  -webkit-appearance: none;
   background: white;
   border: 0;
   border-radius: 4px;
@@ -2427,6 +2438,7 @@ exports[`with label snapshots renders a select element with size medium, disable
 }
 
 .emotion-3 {
+  -webkit-appearance: none;
   background: white;
   border: 0;
   border-radius: 4px;
@@ -2634,6 +2646,7 @@ exports[`with label snapshots renders a select element with size small, disabled
 }
 
 .emotion-5 {
+  -webkit-appearance: none;
   background: white;
   border: 0;
   border-radius: 4px;
@@ -2862,6 +2875,7 @@ exports[`with label snapshots renders a select element with size small, disabled
 }
 
 .emotion-6 {
+  -webkit-appearance: none;
   background: white;
   border: 0;
   border-radius: 4px;
@@ -3061,6 +3075,7 @@ exports[`with label snapshots renders a select element with size small, disabled
 }
 
 .emotion-3 {
+  -webkit-appearance: none;
   background: white;
   border: 0;
   border-radius: 4px;
@@ -3267,6 +3282,7 @@ exports[`with label snapshots renders a select element with size small, disabled
 }
 
 .emotion-5 {
+  -webkit-appearance: none;
   background: white;
   border: 0;
   border-radius: 4px;
@@ -3496,6 +3512,7 @@ exports[`with label snapshots renders a select element with size small, disabled
 }
 
 .emotion-6 {
+  -webkit-appearance: none;
   background: white;
   border: 0;
   border-radius: 4px;
@@ -3696,6 +3713,7 @@ exports[`with label snapshots renders a select element with size small, disabled
 }
 
 .emotion-3 {
+  -webkit-appearance: none;
   background: white;
   border: 0;
   border-radius: 4px;
