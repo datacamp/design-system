@@ -35,7 +35,7 @@
     "@stryker-mutator/core": "2.4.0",
     "@stryker-mutator/html-reporter": "2.5.0",
     "@stryker-mutator/typescript": "2.4.0",
-    "@testing-library/jest-dom": "4.2.4",
+    "@testing-library/jest-dom": "5.0.2",
     "@testing-library/react": "8.0.7",
     "@types/airbnb-prop-types": "2.13.1",
     "babel-jest": "24.9.0",
