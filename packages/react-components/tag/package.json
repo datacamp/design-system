@@ -51,7 +51,7 @@
     "jest": "24.9.0",
     "jest-emotion": "^10.0.26",
     "react": "^16.6.3",
-    "react-docgen": "5.1.0",
+    "react-docgen": "5.2.0",
     "react-dom": "^16.6.3",
     "typescript": "3.7.4"
   },
