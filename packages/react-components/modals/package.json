@@ -36,7 +36,7 @@
     "@stryker-mutator/core": "^2.4.0",
     "@stryker-mutator/html-reporter": "^2.5.0",
     "@stryker-mutator/typescript": "^2.4.0",
-    "@testing-library/jest-dom": "4.2.4",
+    "@testing-library/jest-dom": "5.1.1",
     "@testing-library/react": "9.4.0",
     "@testing-library/user-event": "8.0.3",
     "@types/lodash": "4.14.149",
