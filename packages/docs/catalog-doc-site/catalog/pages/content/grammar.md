@@ -18,7 +18,7 @@ Only proper nouns (the name of a person, place, or organization) and the first w
 
 For more specific guidelines on the capitalization of DataCamp product features, see [DataCamp and Common Data Science Terminology](Common Data Science) in this guide.
 
-Also see [Titles, headlines, subtitles](#59-titles-headlines-subtitles).
+Also see [Titles, headlines, subtitles](#titles-headlines-subtitles).
 
 ## Comma usage
 The Oxford comma (see examples below) should continue to be used in most body copy, such as course descriptions, the main text of blog posts and emails, and long-form articles. Because we are frequently writing about complex topics, the Oxford comma can be helpful to clarify the meaning of sentences.
@@ -163,36 +163,56 @@ Follow the style of the original name of the language. Correct style of DataCamp
 ### Coding packages and libraries
 Follow the style of the original name of the package, including original capitalization style. Even at the beginning of a sentence, packages should not be capitalized unless the package name is capitalized. Correct style of a selection of packages are below:
 * astsa
+* Bash
 * Bokeh
 * broom
 * data.table
+* datetime
 * dplyr
 * ggmap
 * ggplot2
 * ggvis
 * H2O
-* highcharter
+* Highcharter
 * Keras
+* lubridate
+* MASS
+* MATLAB
 * Matplotlib
 * NumPy
+* os
 * pandas
+* pickle
 * plotly
 * polyglot
+* psych
 * purrr
 * PySpark
+* PythonLand
 * R Markdown
+* random
 * raster
+* RColorBrewer
+* readr
+* requests
+* rpart
 * scikit-learn
 * SciPy
 * seaborn
 * sf
 * Shiny
+* sklearn
 * spaCy
 * sparklyr
+* statsmodels
 * stringr
+* TensorFlow
+* tibble
 * tidyr
+* urllib
 * xts
 * zoo
+
 
 ### Courses, tracks, practice, projects
 In general, do not capitalize “courses,” “tracks,” “career tracks,” “skill tracks,” “practice,” or “projects” in a sentence; always capitalize them in a title or headline.
@@ -289,58 +309,3 @@ When referring to XP, always use capital letters and use a space between XP and 
 * Twitter, tweet, tweeted, retweet
 * website
 * YouTube
-
-## Course Naming Guidelines
-### General guidelines for all course names
-* Descriptive
-	* Course names should describe the core topic of the course. They should be intuitive for the intended audience and use real words (not made up). Optimize for SEO.
-* Distinct
-	* Course names should not overlap/conflict with other course names.
-* Durable
-	* Course names need to endure beyond the current hype cycle (i.e. not just a trending term).
-* Length
-	* Limit course names to 40 characters for course names (paid ads cut off text past that limit). The shorter the better for SEO (noting that “with pandas” or “in Python” helps SEO).
-
-### Abbreviations
-Commonly used abbreviations are okay to use (e.g. IDE). When in doubt, spell out terms in the course description.
-* Spell out “Introduction”; do not use “Intro.”
-
-### Capitalization
-Course names and chapter titles should be written in title case: Capitalize the first letter of all words in a course name and chapter title except “stop words,” such as articles and prepositions. Examples of stop words in English include: a, all, and, for, each, how, in, with.  [Click here for a list of stop words.](https://kb.yoast.com/kb/list-stop-words/)
-
-Exercise names and slide titles should be written in sentence case: Only capitalize the first word of the exercise name or title and any proper nouns.
-
-### Coding languages, packages and libraries
-See [Coding languages and Coding packages and libraries](#technologies-coding-languages-and-packages).
-
-### DataFrames, data.frame, data frames
-See [DataFrames, data.frame, data frames](#dataframes-dataframe-data-frames).
-
-### Dataset
-See [Dataset](#dataset).
-
-###  Domains
-_Currently a recommendation, not a strict rule:_
-Only include the domain (e.g. HR, marketing) in a course name when necessary for clarity. Prioritize outcomes and learning objectives over domains.
-
-For example, “HR Analytics in Python: Predicting Employee Churn” does not need to include “HR.” The domain is clearly understood based on the rest of the course name.
-
-Alternatively, “Marketing Analytics in R: Choice Modeling” benefits from including the domain “marketing” for learners who are not familiar with choice modeling.
-
-### Proficiency levels
-Use consistent terminology when referring to proficiency levels.
-* For introductory courses, use the following construction: “Introduction to [course topic]”
-* Do not use alternative words such as “foundation(s),” “fundamentals,” or “basics.”
-	* Correct: Introduction to Inference, Introduction to Spreadsheets
-	* Incorrect: Foundations of Inference, Big Data Fundamentals
-
-### Punctuation
-* Do not use Oxford commas in course names.
-* Do not use ampersands in course names.
-
-### Technologies, coding languages and packages
-* Course names should reflect the following construction: “with” a package, “in” a technology.
-	* Ex: With pandas in Python
-	* Ex: With ggplot2 in R
-* For consistency, lean in favor of course names ending with “in [language]” or “with [package].”
-	* Ex: “Exploratory Data Analysis in SQL” is preferred over “SQL for Exploratory Data Analysis.”

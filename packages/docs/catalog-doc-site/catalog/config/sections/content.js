@@ -6,6 +6,13 @@ const pages = [
     path: '/content/grammar',
     title: 'Grammar',
   },
+  {
+    content: pageLoader(() =>
+      import('../../pages/content/course-naming-guidelines.md')
+    ),
+    path: '/content/course-naming-guidelines',
+    title: 'Course Naming',
+  },
 ];
 
 export default {
