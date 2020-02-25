@@ -20,7 +20,7 @@ export default () => {
               The Design package contains the &quot;core&quot; styles that are
               necessary to build UIs at DataCamp. Ingredients is an option that
               will import all of the styles, including{' '}
-              <a href="/design-utilities">Design Utilities</a>.
+              <a href="/stylesheets/utility-classes">Design Utilities</a>.
             </p>
 
             <h5 id="installation">Install Core</h5>
