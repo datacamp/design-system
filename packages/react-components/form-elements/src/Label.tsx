@@ -62,6 +62,7 @@ const Label = ({
         <div css={{ marginBottom: tokens.size.space[12].value }}>
           <span
             css={{
+              alignItems: 'center',
               display: 'inline-flex',
               justifyContent: 'space-between',
               width: '100%',
