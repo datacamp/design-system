@@ -1,6 +1,5 @@
 import { css } from '@emotion/core';
 import React, { MutableRefObject } from 'react';
-import { createPortal } from 'react-dom';
 
 interface PositionerProps {
   /**
@@ -27,73 +26,92 @@ const Positioner = ({
   position,
 }: PositionerProps): React.ReactElement | null => {
   const [shouldRender, setShouldRender] = React.useState(false);
+  const [targetBox, setTargetBox] = React.useState({
+    bottom: 0,
+    height: 0,
+    left: 0,
+    right: 0,
+    top: 0,
+    width: 0,
+  });
 
   React.useEffect(() => {
     setShouldRender(visible && !!target.current);
   }, [visible, target]);
 
-  if (!shouldRender) return null;
+  React.useEffect(() => {
+    const resetPosition = (): void => {
+      setTargetBox((target.current as HTMLElement).getBoundingClientRect());
+    };
 
-  const targetBox = (target.current as HTMLElement).getBoundingClientRect();
+    if (shouldRender) {
+      setTargetBox((target.current as HTMLElement).getBoundingClientRect());
+      window.addEventListener('scroll', resetPosition, true);
+      window.addEventListener('resize', resetPosition, true);
+    }
+
+    return () => {
+      window.removeEventListener('scroll', resetPosition, true);
+      window.removeEventListener('resize', resetPosition, true);
+    };
+  }, [shouldRender, target]);
+
+  if (!shouldRender) return null;
 
   const layoutCSSMap = {
     bottom: css({
-      left: window.scrollX + (targetBox.left + targetBox.right) / 2,
-      top: targetBox.bottom + window.scrollY,
+      left: (targetBox.left + targetBox.right) / 2,
+      top: targetBox.bottom,
       transform: 'translate(-50%, 0)',
     }),
     bottomLeft: css({
-      left: window.scrollX + targetBox.left,
-      top: targetBox.bottom + window.scrollY,
+      left: targetBox.left,
+      top: targetBox.bottom,
     }),
     bottomRight: css({
-      left: window.scrollX + targetBox.left + targetBox.width,
-      top: targetBox.bottom + window.scrollY,
+      left: targetBox.left + targetBox.width,
+      top: targetBox.bottom,
       transform: 'translate(-100%)',
     }),
     left: css({
-      left: window.scrollX + targetBox.left,
-      top: window.scrollY + targetBox.top + targetBox.height / 2,
+      left: targetBox.left,
+      top: targetBox.top + targetBox.height / 2,
       transform: 'translate(-100%, -50%)',
     }),
     right: css({
-      left: window.scrollX + targetBox.right,
-      top: window.scrollY + targetBox.top + targetBox.height / 2,
+      left: targetBox.right,
+      top: targetBox.top + targetBox.height / 2,
       transform: 'translate(0, -50%)',
     }),
     top: css({
-      left: window.scrollX + (targetBox.left + targetBox.right) / 2,
-      top: targetBox.top + window.scrollY,
+      left: (targetBox.left + targetBox.right) / 2,
+      top: targetBox.top,
       transform: 'translate(-50%, -100%)',
     }),
     topLeft: css({
-      left: window.scrollX + targetBox.left,
-      top: targetBox.top + window.scrollY,
+      left: targetBox.left,
+      top: targetBox.top,
       transform: 'translate(0, -100%)',
     }),
     topRight: css({
-      left: window.scrollX + targetBox.left + targetBox.width,
-      top: targetBox.top + window.scrollY,
+      left: targetBox.left + targetBox.width,
+      top: targetBox.top,
       transform: 'translate(-100%, -100%)',
     }),
   };
 
   return (
-    <>
-      {createPortal(
-        <div
-          css={css(
-            {
-              position: 'absolute',
-            },
-            layoutCSSMap[position]
-          )}
-        >
-          {children}
-        </div>,
-        document.body
+    <div
+      css={css(
+        {
+          position: 'fixed',
+          zIndex: 1,
+        },
+        layoutCSSMap[position]
       )}
-    </>
+    >
+      {children}
+    </div>
   );
 };
 
