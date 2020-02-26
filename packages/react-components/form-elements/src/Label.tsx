@@ -1,6 +1,6 @@
 import { Paragraph, Text } from '@datacamp/waffles-text';
 import tokens from '@datacamp/waffles-tokens/lib/future-tokens.json';
-import { ssrSafeFirstChildSelector } from '@datacamp/waffles-utils';
+import { ssrSafeNotFirstChildSelector } from '@datacamp/waffles-utils';
 import { css } from '@emotion/core';
 import React from 'react';
 
@@ -16,9 +16,9 @@ interface LabelProps {
 
 const labelStyle = css({
   display: 'block',
-  marginTop: tokens.size.space[16].value,
-  [ssrSafeFirstChildSelector]: {
-    marginTop: 0,
+  marginTop: 0,
+  [ssrSafeNotFirstChildSelector]: {
+    marginTop: tokens.size.space[16].value,
   },
 });
 

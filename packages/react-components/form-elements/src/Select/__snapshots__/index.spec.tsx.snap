@@ -7,12 +7,11 @@ exports[`with label snapshots renders a select element with size large, disabled
 
 .emotion-9 {
   display: block;
-  margin-top: 16px;
+  margin-top: 0;
 }
 
-.emotion-9:first-child:not(style),
-.emotion-9 style:first-child + * {
-  margin-top: 0;
+*:not(style) ~ .emotion-9 {
+  margin-top: 16px;
 }
 
 .emotion-4 {
@@ -223,12 +222,11 @@ exports[`with label snapshots renders a select element with size large, disabled
 
 .emotion-10 {
   display: block;
-  margin-top: 16px;
+  margin-top: 0;
 }
 
-.emotion-10:first-child:not(style),
-.emotion-10 style:first-child + * {
-  margin-top: 0;
+*:not(style) ~ .emotion-10 {
+  margin-top: 16px;
 }
 
 .emotion-5 {
@@ -457,12 +455,11 @@ exports[`with label snapshots renders a select element with size large, disabled
 
 .emotion-7 {
   display: block;
-  margin-top: 16px;
+  margin-top: 0;
 }
 
-.emotion-7:first-child:not(style),
-.emotion-7 style:first-child + * {
-  margin-top: 0;
+*:not(style) ~ .emotion-7 {
+  margin-top: 16px;
 }
 
 .emotion-2 {
@@ -643,12 +640,11 @@ exports[`with label snapshots renders a select element with size large, disabled
 
 .emotion-9 {
   display: block;
-  margin-top: 16px;
+  margin-top: 0;
 }
 
-.emotion-9:first-child:not(style),
-.emotion-9 style:first-child + * {
-  margin-top: 0;
+*:not(style) ~ .emotion-9 {
+  margin-top: 16px;
 }
 
 .emotion-4 {
@@ -860,12 +856,11 @@ exports[`with label snapshots renders a select element with size large, disabled
 
 .emotion-10 {
   display: block;
-  margin-top: 16px;
+  margin-top: 0;
 }
 
-.emotion-10:first-child:not(style),
-.emotion-10 style:first-child + * {
-  margin-top: 0;
+*:not(style) ~ .emotion-10 {
+  margin-top: 16px;
 }
 
 .emotion-5 {
@@ -1095,12 +1090,11 @@ exports[`with label snapshots renders a select element with size large, disabled
 
 .emotion-7 {
   display: block;
-  margin-top: 16px;
+  margin-top: 0;
 }
 
-.emotion-7:first-child:not(style),
-.emotion-7 style:first-child + * {
-  margin-top: 0;
+*:not(style) ~ .emotion-7 {
+  margin-top: 16px;
 }
 
 .emotion-2 {
@@ -1289,12 +1283,11 @@ exports[`with label snapshots renders a select element with size medium, disable
 
 .emotion-9 {
   display: block;
-  margin-top: 16px;
+  margin-top: 0;
 }
 
-.emotion-9:first-child:not(style),
-.emotion-9 style:first-child + * {
-  margin-top: 0;
+*:not(style) ~ .emotion-9 {
+  margin-top: 16px;
 }
 
 .emotion-4 {
@@ -1505,12 +1498,11 @@ exports[`with label snapshots renders a select element with size medium, disable
 
 .emotion-10 {
   display: block;
-  margin-top: 16px;
+  margin-top: 0;
 }
 
-.emotion-10:first-child:not(style),
-.emotion-10 style:first-child + * {
-  margin-top: 0;
+*:not(style) ~ .emotion-10 {
+  margin-top: 16px;
 }
 
 .emotion-5 {
@@ -1739,12 +1731,11 @@ exports[`with label snapshots renders a select element with size medium, disable
 
 .emotion-7 {
   display: block;
-  margin-top: 16px;
+  margin-top: 0;
 }
 
-.emotion-7:first-child:not(style),
-.emotion-7 style:first-child + * {
-  margin-top: 0;
+*:not(style) ~ .emotion-7 {
+  margin-top: 16px;
 }
 
 .emotion-2 {
@@ -1925,12 +1916,11 @@ exports[`with label snapshots renders a select element with size medium, disable
 
 .emotion-9 {
   display: block;
-  margin-top: 16px;
+  margin-top: 0;
 }
 
-.emotion-9:first-child:not(style),
-.emotion-9 style:first-child + * {
-  margin-top: 0;
+*:not(style) ~ .emotion-9 {
+  margin-top: 16px;
 }
 
 .emotion-4 {
@@ -2142,12 +2132,11 @@ exports[`with label snapshots renders a select element with size medium, disable
 
 .emotion-10 {
   display: block;
-  margin-top: 16px;
+  margin-top: 0;
 }
 
-.emotion-10:first-child:not(style),
-.emotion-10 style:first-child + * {
-  margin-top: 0;
+*:not(style) ~ .emotion-10 {
+  margin-top: 16px;
 }
 
 .emotion-5 {
@@ -2377,12 +2366,11 @@ exports[`with label snapshots renders a select element with size medium, disable
 
 .emotion-7 {
   display: block;
-  margin-top: 16px;
+  margin-top: 0;
 }
 
-.emotion-7:first-child:not(style),
-.emotion-7 style:first-child + * {
-  margin-top: 0;
+*:not(style) ~ .emotion-7 {
+  margin-top: 16px;
 }
 
 .emotion-2 {
@@ -2557,12 +2545,11 @@ exports[`with label snapshots renders a select element with size small, disabled
 
 .emotion-9 {
   display: block;
-  margin-top: 16px;
+  margin-top: 0;
 }
 
-.emotion-9:first-child:not(style),
-.emotion-9 style:first-child + * {
-  margin-top: 0;
+*:not(style) ~ .emotion-9 {
+  margin-top: 16px;
 }
 
 .emotion-4 {
@@ -2773,12 +2760,11 @@ exports[`with label snapshots renders a select element with size small, disabled
 
 .emotion-10 {
   display: block;
-  margin-top: 16px;
+  margin-top: 0;
 }
 
-.emotion-10:first-child:not(style),
-.emotion-10 style:first-child + * {
-  margin-top: 0;
+*:not(style) ~ .emotion-10 {
+  margin-top: 16px;
 }
 
 .emotion-5 {
@@ -3007,12 +2993,11 @@ exports[`with label snapshots renders a select element with size small, disabled
 
 .emotion-7 {
   display: block;
-  margin-top: 16px;
+  margin-top: 0;
 }
 
-.emotion-7:first-child:not(style),
-.emotion-7 style:first-child + * {
-  margin-top: 0;
+*:not(style) ~ .emotion-7 {
+  margin-top: 16px;
 }
 
 .emotion-2 {
@@ -3193,12 +3178,11 @@ exports[`with label snapshots renders a select element with size small, disabled
 
 .emotion-9 {
   display: block;
-  margin-top: 16px;
+  margin-top: 0;
 }
 
-.emotion-9:first-child:not(style),
-.emotion-9 style:first-child + * {
-  margin-top: 0;
+*:not(style) ~ .emotion-9 {
+  margin-top: 16px;
 }
 
 .emotion-4 {
@@ -3410,12 +3394,11 @@ exports[`with label snapshots renders a select element with size small, disabled
 
 .emotion-10 {
   display: block;
-  margin-top: 16px;
+  margin-top: 0;
 }
 
-.emotion-10:first-child:not(style),
-.emotion-10 style:first-child + * {
-  margin-top: 0;
+*:not(style) ~ .emotion-10 {
+  margin-top: 16px;
 }
 
 .emotion-5 {
@@ -3645,12 +3628,11 @@ exports[`with label snapshots renders a select element with size small, disabled
 
 .emotion-7 {
   display: block;
-  margin-top: 16px;
+  margin-top: 0;
 }
 
-.emotion-7:first-child:not(style),
-.emotion-7 style:first-child + * {
-  margin-top: 0;
+*:not(style) ~ .emotion-7 {
+  margin-top: 16px;
 }
 
 .emotion-2 {
