@@ -1,7 +1,7 @@
 import tokens from '@datacamp/waffles-tokens/lib/future-tokens.json';
 import {
   computeDataAttributes,
-  ssrSafeFirstChildSelector,
+  ssrSafeNotFirstChildSelector,
 } from '@datacamp/waffles-utils';
 import { css } from '@emotion/core';
 import React, { ReactElement, ReactNode } from 'react';
@@ -41,10 +41,7 @@ const paragraphStyle = css(baseStyle, {
   fontWeight: tokens.fontWeight.regular.value,
   lineHeight: tokens.lineHeight.base.value,
   margin: 0,
-  marginTop: tokens.size.space[8].value,
-  [ssrSafeFirstChildSelector]: {
-    marginTop: 0,
-  },
+  [ssrSafeNotFirstChildSelector]: { marginTop: tokens.size.space[8].value },
 });
 
 const Paragraph = (props: ParagraphProps): ReactElement => {

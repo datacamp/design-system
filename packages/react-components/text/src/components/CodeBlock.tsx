@@ -1,7 +1,7 @@
 import tokens from '@datacamp/waffles-tokens/lib/future-tokens.json';
 import {
   computeDataAttributes,
-  ssrSafeFirstChildSelector,
+  ssrSafeNotFirstChildSelector,
 } from '@datacamp/waffles-utils';
 import { css } from '@emotion/core';
 import React, { ReactElement } from 'react';
@@ -32,14 +32,13 @@ const preStyle = css({
   boxShadow: tokens.shadow.border.value,
   lineHeight: tokens.lineHeight.base.value,
   margin: 0,
-  marginTop: tokens.size.space[12].value,
   overflow: 'scroll',
   paddingBottom: tokens.size.space[8].value,
   paddingLeft: tokens.size.space[12].value,
   paddingRight: tokens.size.space[12].value,
   paddingTop: tokens.size.space[8].value,
-  [ssrSafeFirstChildSelector]: {
-    marginTop: 0,
+  [ssrSafeNotFirstChildSelector]: {
+    marginTop: tokens.size.space[12].value,
   },
 });
 

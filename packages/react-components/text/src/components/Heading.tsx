@@ -1,7 +1,7 @@
 import tokens from '@datacamp/waffles-tokens/lib/future-tokens.json';
 import {
   computeDataAttributes,
-  ssrSafeFirstChildSelector,
+  ssrSafeNotFirstChildSelector,
 } from '@datacamp/waffles-utils';
 import { css, SerializedStyles } from '@emotion/core';
 import React, { ReactElement, ReactNode } from 'react';
@@ -49,9 +49,6 @@ const baseHeaderStyle = css({
   fontWeight: tokens.fontWeight.bold.value,
   lineHeight: tokens.lineHeight.heading.value,
   margin: 0,
-  [ssrSafeFirstChildSelector]: {
-    marginTop: 0,
-  },
 });
 
 const singleLineStyle = css({
@@ -72,10 +69,12 @@ const getStyle = (size: Size, multiLine: boolean): SerializedStyles => {
     multiLine ? multiLineStyle : singleLineStyle,
     {
       fontSize: tokens.size.font[size].value,
-      marginTop:
-        size === 800
-          ? tokens.size.space[24].value
-          : tokens.size.space[16].value,
+      [ssrSafeNotFirstChildSelector]: {
+        marginTop:
+          size === 800
+            ? tokens.size.space[24].value
+            : tokens.size.space[16].value,
+      },
     }
   );
 };
