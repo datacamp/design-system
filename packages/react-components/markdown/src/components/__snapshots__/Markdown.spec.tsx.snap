@@ -15,12 +15,10 @@ exports[`<Markdown /> renders 1`] = `
   text-overflow: ellipsis;
   white-space: nowrap;
   font-size: 40px;
-  margin-top: 24px;
 }
 
-.emotion-0:first-child:not(style),
-.emotion-0 style:first-child + * {
-  margin-top: 0;
+*:not(style) ~ .emotion-0 {
+  margin-top: 24px;
 }
 
 .emotion-1 {
@@ -37,12 +35,10 @@ exports[`<Markdown /> renders 1`] = `
   text-overflow: ellipsis;
   white-space: nowrap;
   font-size: 32px;
-  margin-top: 16px;
 }
 
-.emotion-1:first-child:not(style),
-.emotion-1 style:first-child + * {
-  margin-top: 0;
+*:not(style) ~ .emotion-1 {
+  margin-top: 16px;
 }
 
 .emotion-2 {
@@ -59,12 +55,10 @@ exports[`<Markdown /> renders 1`] = `
   text-overflow: ellipsis;
   white-space: nowrap;
   font-size: 24px;
-  margin-top: 16px;
 }
 
-.emotion-2:first-child:not(style),
-.emotion-2 style:first-child + * {
-  margin-top: 0;
+*:not(style) ~ .emotion-2 {
+  margin-top: 16px;
 }
 
 .emotion-3 {
@@ -81,12 +75,10 @@ exports[`<Markdown /> renders 1`] = `
   text-overflow: ellipsis;
   white-space: nowrap;
   font-size: 20px;
-  margin-top: 16px;
 }
 
-.emotion-3:first-child:not(style),
-.emotion-3 style:first-child + * {
-  margin-top: 0;
+*:not(style) ~ .emotion-3 {
+  margin-top: 16px;
 }
 
 .emotion-4 {
@@ -103,12 +95,10 @@ exports[`<Markdown /> renders 1`] = `
   text-overflow: ellipsis;
   white-space: nowrap;
   font-size: 18px;
-  margin-top: 16px;
 }
 
-.emotion-4:first-child:not(style),
-.emotion-4 style:first-child + * {
-  margin-top: 0;
+*:not(style) ~ .emotion-4 {
+  margin-top: 16px;
 }
 
 .emotion-5 {
@@ -125,12 +115,10 @@ exports[`<Markdown /> renders 1`] = `
   text-overflow: ellipsis;
   white-space: nowrap;
   font-size: 16px;
-  margin-top: 16px;
 }
 
-.emotion-5:first-child:not(style),
-.emotion-5 style:first-child + * {
-  margin-top: 0;
+*:not(style) ~ .emotion-5 {
+  margin-top: 16px;
 }
 
 .emotion-6 {
@@ -153,12 +141,10 @@ exports[`<Markdown /> renders 1`] = `
   font-weight: 400;
   line-height: 1.5;
   margin: 0;
-  margin-top: 8px;
 }
 
-.emotion-8:first-child:not(style),
-.emotion-8 style:first-child + * {
-  margin-top: 0;
+*:not(style) ~ .emotion-8 {
+  margin-top: 8px;
 }
 
 .emotion-11 {
@@ -203,7 +189,6 @@ exports[`<Markdown /> renders 1`] = `
   box-shadow: 0 0 0 1px #e6eaeb;
   line-height: 1.5;
   margin: 0;
-  margin-top: 12px;
   overflow: scroll;
   padding-bottom: 8px;
   padding-left: 12px;
@@ -211,9 +196,8 @@ exports[`<Markdown /> renders 1`] = `
   padding-top: 8px;
 }
 
-.emotion-35:first-child:not(style),
-.emotion-35 style:first-child + * {
-  margin-top: 0;
+*:not(style) ~ .emotion-35 {
+  margin-top: 12px;
 }
 
 .emotion-34 {
