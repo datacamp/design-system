@@ -70,14 +70,11 @@ const Toast = ({
         css={css({ flexShrink: 0, marginLeft: 16 })}
         title={intent}
       />
-      <Heading
-        as="h4"
-        css={css({ flexGrow: 1, margin: 12 })}
-        size={200}
-        multiLine
-      >
-        {title}
-      </Heading>
+      <div css={css({ flexGrow: 1, margin: 12 })}>
+        <Heading as="h4" size={200} multiLine>
+          {title}
+        </Heading>
+      </div>
       {closeToast && (
         <button
           css={css({
