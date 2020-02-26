@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`toast mounts a success toast 1`] = `
-.emotion-4 {
+.emotion-5 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -38,6 +38,14 @@ exports[`toast mounts a success toast 1`] = `
   margin-left: 16px;
 }
 
+.emotion-3 {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  margin: 12px;
+}
+
 .emotion-2 {
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
@@ -51,20 +59,13 @@ exports[`toast mounts a success toast 1`] = `
   overflow: auto;
   white-space: normal;
   font-size: 14px;
+}
+
+*:not(style) ~ .emotion-2 {
   margin-top: 16px;
-  -webkit-box-flex: 1;
-  -webkit-flex-grow: 1;
-  -ms-flex-positive: 1;
-  flex-grow: 1;
-  margin: 12px;
 }
 
-.emotion-2:first-child:not(style),
-.emotion-2 style:first-child + * {
-  margin-top: 0;
-}
-
-.emotion-3 {
+.emotion-4 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -90,7 +91,7 @@ exports[`toast mounts a success toast 1`] = `
   width: 20px;
 }
 
-.emotion-3:hover {
+.emotion-4:hover {
   background-color: #f0f4f5;
 }
 
@@ -99,7 +100,7 @@ exports[`toast mounts a success toast 1`] = `
   role="alert"
 >
   <div
-    class="emotion-4"
+    class="emotion-5"
   >
     <div
       class="emotion-0"
@@ -121,13 +122,17 @@ exports[`toast mounts a success toast 1`] = `
         fill-rule="evenodd"
       />
     </svg>
-    <h4
-      class="emotion-2"
-    >
-      test toast title
-    </h4>
-    <button
+    <div
       class="emotion-3"
+    >
+      <h4
+        class="emotion-2"
+      >
+        test toast title
+      </h4>
+    </div>
+    <button
+      class="emotion-4"
       type="button"
     >
       <svg
@@ -149,7 +154,7 @@ exports[`toast mounts a success toast 1`] = `
 `;
 
 exports[`toast mounts an error toast 1`] = `
-.emotion-4 {
+.emotion-5 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -178,6 +183,14 @@ exports[`toast mounts an error toast 1`] = `
   margin-left: 16px;
 }
 
+.emotion-3 {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  margin: 12px;
+}
+
 .emotion-2 {
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
@@ -191,20 +204,13 @@ exports[`toast mounts an error toast 1`] = `
   overflow: auto;
   white-space: normal;
   font-size: 14px;
+}
+
+*:not(style) ~ .emotion-2 {
   margin-top: 16px;
-  -webkit-box-flex: 1;
-  -webkit-flex-grow: 1;
-  -ms-flex-positive: 1;
-  flex-grow: 1;
-  margin: 12px;
 }
 
-.emotion-2:first-child:not(style),
-.emotion-2 style:first-child + * {
-  margin-top: 0;
-}
-
-.emotion-3 {
+.emotion-4 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -230,7 +236,7 @@ exports[`toast mounts an error toast 1`] = `
   width: 20px;
 }
 
-.emotion-3:hover {
+.emotion-4:hover {
   background-color: #f0f4f5;
 }
 
@@ -247,7 +253,7 @@ exports[`toast mounts an error toast 1`] = `
   role="alert"
 >
   <div
-    class="emotion-4"
+    class="emotion-5"
   >
     <div
       class="emotion-0"
@@ -269,13 +275,17 @@ exports[`toast mounts an error toast 1`] = `
         fill-rule="evenodd"
       />
     </svg>
-    <h4
-      class="emotion-2"
-    >
-      test toast title
-    </h4>
-    <button
+    <div
       class="emotion-3"
+    >
+      <h4
+        class="emotion-2"
+      >
+        test toast title
+      </h4>
+    </div>
+    <button
+      class="emotion-4"
       type="button"
     >
       <svg
