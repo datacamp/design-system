@@ -3,12 +3,11 @@
 exports[`snapshots renders an input with size large, disabled=false, required=false 1`] = `
 .emotion-7 {
   display: block;
-  margin-top: 16px;
+  margin-top: 0;
 }
 
-.emotion-7:first-child:not(style),
-.emotion-7 style:first-child + * {
-  margin-top: 0;
+*:not(style) ~ .emotion-7 {
+  margin-top: 16px;
 }
 
 .emotion-4 {
@@ -194,12 +193,11 @@ exports[`snapshots renders an input with size large, disabled=false, required=fa
 exports[`snapshots renders an input with size large, disabled=false, required=true 1`] = `
 .emotion-8 {
   display: block;
-  margin-top: 16px;
+  margin-top: 0;
 }
 
-.emotion-8:first-child:not(style),
-.emotion-8 style:first-child + * {
-  margin-top: 0;
+*:not(style) ~ .emotion-8 {
+  margin-top: 16px;
 }
 
 .emotion-5 {
@@ -403,12 +401,11 @@ exports[`snapshots renders an input with size large, disabled=false, required=tr
 exports[`snapshots renders an input with size large, disabled=false, required=undefined 1`] = `
 .emotion-5 {
   display: block;
-  margin-top: 16px;
+  margin-top: 0;
 }
 
-.emotion-5:first-child:not(style),
-.emotion-5 style:first-child + * {
-  margin-top: 0;
+*:not(style) ~ .emotion-5 {
+  margin-top: 16px;
 }
 
 .emotion-2 {
@@ -564,12 +561,11 @@ exports[`snapshots renders an input with size large, disabled=false, required=un
 exports[`snapshots renders an input with size large, disabled=true, required=false 1`] = `
 .emotion-7 {
   display: block;
-  margin-top: 16px;
+  margin-top: 0;
 }
 
-.emotion-7:first-child:not(style),
-.emotion-7 style:first-child + * {
-  margin-top: 0;
+*:not(style) ~ .emotion-7 {
+  margin-top: 16px;
 }
 
 .emotion-4 {
@@ -756,12 +752,11 @@ exports[`snapshots renders an input with size large, disabled=true, required=fal
 exports[`snapshots renders an input with size large, disabled=true, required=true 1`] = `
 .emotion-8 {
   display: block;
-  margin-top: 16px;
+  margin-top: 0;
 }
 
-.emotion-8:first-child:not(style),
-.emotion-8 style:first-child + * {
-  margin-top: 0;
+*:not(style) ~ .emotion-8 {
+  margin-top: 16px;
 }
 
 .emotion-5 {
@@ -966,12 +961,11 @@ exports[`snapshots renders an input with size large, disabled=true, required=tru
 exports[`snapshots renders an input with size large, disabled=true, required=undefined 1`] = `
 .emotion-5 {
   display: block;
-  margin-top: 16px;
+  margin-top: 0;
 }
 
-.emotion-5:first-child:not(style),
-.emotion-5 style:first-child + * {
-  margin-top: 0;
+*:not(style) ~ .emotion-5 {
+  margin-top: 16px;
 }
 
 .emotion-2 {
@@ -1128,12 +1122,11 @@ exports[`snapshots renders an input with size large, disabled=true, required=und
 exports[`snapshots renders an input with size medium, disabled=false, required=false 1`] = `
 .emotion-7 {
   display: block;
-  margin-top: 16px;
+  margin-top: 0;
 }
 
-.emotion-7:first-child:not(style),
-.emotion-7 style:first-child + * {
-  margin-top: 0;
+*:not(style) ~ .emotion-7 {
+  margin-top: 16px;
 }
 
 .emotion-4 {
@@ -1319,12 +1312,11 @@ exports[`snapshots renders an input with size medium, disabled=false, required=f
 exports[`snapshots renders an input with size medium, disabled=false, required=true 1`] = `
 .emotion-8 {
   display: block;
-  margin-top: 16px;
+  margin-top: 0;
 }
 
-.emotion-8:first-child:not(style),
-.emotion-8 style:first-child + * {
-  margin-top: 0;
+*:not(style) ~ .emotion-8 {
+  margin-top: 16px;
 }
 
 .emotion-5 {
@@ -1528,12 +1520,11 @@ exports[`snapshots renders an input with size medium, disabled=false, required=t
 exports[`snapshots renders an input with size medium, disabled=false, required=undefined 1`] = `
 .emotion-5 {
   display: block;
-  margin-top: 16px;
+  margin-top: 0;
 }
 
-.emotion-5:first-child:not(style),
-.emotion-5 style:first-child + * {
-  margin-top: 0;
+*:not(style) ~ .emotion-5 {
+  margin-top: 16px;
 }
 
 .emotion-2 {
@@ -1689,12 +1680,11 @@ exports[`snapshots renders an input with size medium, disabled=false, required=u
 exports[`snapshots renders an input with size medium, disabled=true, required=false 1`] = `
 .emotion-7 {
   display: block;
-  margin-top: 16px;
+  margin-top: 0;
 }
 
-.emotion-7:first-child:not(style),
-.emotion-7 style:first-child + * {
-  margin-top: 0;
+*:not(style) ~ .emotion-7 {
+  margin-top: 16px;
 }
 
 .emotion-4 {
@@ -1881,12 +1871,11 @@ exports[`snapshots renders an input with size medium, disabled=true, required=fa
 exports[`snapshots renders an input with size medium, disabled=true, required=true 1`] = `
 .emotion-8 {
   display: block;
-  margin-top: 16px;
+  margin-top: 0;
 }
 
-.emotion-8:first-child:not(style),
-.emotion-8 style:first-child + * {
-  margin-top: 0;
+*:not(style) ~ .emotion-8 {
+  margin-top: 16px;
 }
 
 .emotion-5 {
@@ -2091,12 +2080,11 @@ exports[`snapshots renders an input with size medium, disabled=true, required=tr
 exports[`snapshots renders an input with size medium, disabled=true, required=undefined 1`] = `
 .emotion-5 {
   display: block;
-  margin-top: 16px;
+  margin-top: 0;
 }
 
-.emotion-5:first-child:not(style),
-.emotion-5 style:first-child + * {
-  margin-top: 0;
+*:not(style) ~ .emotion-5 {
+  margin-top: 16px;
 }
 
 .emotion-2 {
@@ -2253,12 +2241,11 @@ exports[`snapshots renders an input with size medium, disabled=true, required=un
 exports[`snapshots renders an input with size small, disabled=false, required=false 1`] = `
 .emotion-7 {
   display: block;
-  margin-top: 16px;
+  margin-top: 0;
 }
 
-.emotion-7:first-child:not(style),
-.emotion-7 style:first-child + * {
-  margin-top: 0;
+*:not(style) ~ .emotion-7 {
+  margin-top: 16px;
 }
 
 .emotion-4 {
@@ -2444,12 +2431,11 @@ exports[`snapshots renders an input with size small, disabled=false, required=fa
 exports[`snapshots renders an input with size small, disabled=false, required=true 1`] = `
 .emotion-8 {
   display: block;
-  margin-top: 16px;
+  margin-top: 0;
 }
 
-.emotion-8:first-child:not(style),
-.emotion-8 style:first-child + * {
-  margin-top: 0;
+*:not(style) ~ .emotion-8 {
+  margin-top: 16px;
 }
 
 .emotion-5 {
@@ -2653,12 +2639,11 @@ exports[`snapshots renders an input with size small, disabled=false, required=tr
 exports[`snapshots renders an input with size small, disabled=false, required=undefined 1`] = `
 .emotion-5 {
   display: block;
-  margin-top: 16px;
+  margin-top: 0;
 }
 
-.emotion-5:first-child:not(style),
-.emotion-5 style:first-child + * {
-  margin-top: 0;
+*:not(style) ~ .emotion-5 {
+  margin-top: 16px;
 }
 
 .emotion-2 {
@@ -2814,12 +2799,11 @@ exports[`snapshots renders an input with size small, disabled=false, required=un
 exports[`snapshots renders an input with size small, disabled=true, required=false 1`] = `
 .emotion-7 {
   display: block;
-  margin-top: 16px;
+  margin-top: 0;
 }
 
-.emotion-7:first-child:not(style),
-.emotion-7 style:first-child + * {
-  margin-top: 0;
+*:not(style) ~ .emotion-7 {
+  margin-top: 16px;
 }
 
 .emotion-4 {
@@ -3006,12 +2990,11 @@ exports[`snapshots renders an input with size small, disabled=true, required=fal
 exports[`snapshots renders an input with size small, disabled=true, required=true 1`] = `
 .emotion-8 {
   display: block;
-  margin-top: 16px;
+  margin-top: 0;
 }
 
-.emotion-8:first-child:not(style),
-.emotion-8 style:first-child + * {
-  margin-top: 0;
+*:not(style) ~ .emotion-8 {
+  margin-top: 16px;
 }
 
 .emotion-5 {
@@ -3216,12 +3199,11 @@ exports[`snapshots renders an input with size small, disabled=true, required=tru
 exports[`snapshots renders an input with size small, disabled=true, required=undefined 1`] = `
 .emotion-5 {
   display: block;
-  margin-top: 16px;
+  margin-top: 0;
 }
 
-.emotion-5:first-child:not(style),
-.emotion-5 style:first-child + * {
-  margin-top: 0;
+*:not(style) ~ .emotion-5 {
+  margin-top: 16px;
 }
 
 .emotion-2 {

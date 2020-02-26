@@ -3,12 +3,11 @@
 exports[`<RadioList> snapshots renders a radio list 1`] = `
 .emotion-17 {
   display: block;
-  margin-top: 16px;
+  margin-top: 0;
 }
 
-.emotion-17:first-child:not(style),
-.emotion-17 style:first-child + * {
-  margin-top: 0;
+*:not(style) ~ .emotion-17 {
+  margin-top: 16px;
 }
 
 .emotion-2 {
@@ -54,13 +53,12 @@ exports[`<RadioList> snapshots renders a radio list 1`] = `
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  margin-top: 14px;
+  margin-top: 0;
   position: relative;
 }
 
-.emotion-7:first-child:not(style),
-.emotion-7 style:first-child + * {
-  margin-top: 0;
+*:not(style) ~ .emotion-7 {
+  margin-top: 14px;
 }
 
 .emotion-3 {

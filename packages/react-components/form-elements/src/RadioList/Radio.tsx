@@ -1,6 +1,6 @@
 import { Text } from '@datacamp/waffles-text';
 import tokens from '@datacamp/waffles-tokens/lib/future-tokens.json';
-import { ssrSafeFirstChildSelector } from '@datacamp/waffles-utils';
+import { ssrSafeNotFirstChildSelector } from '@datacamp/waffles-utils';
 import { css } from '@emotion/core';
 import React, { ReactElement } from 'react';
 
@@ -31,9 +31,9 @@ const textStyle = css({
 const divStyle = css({
   color: tokens.color.opaque.greyLight.value.hex,
   display: 'flex',
-  marginTop: '14px',
+  marginTop: 0,
   position: 'relative',
-  [ssrSafeFirstChildSelector]: { marginTop: 0 },
+  [ssrSafeNotFirstChildSelector]: { marginTop: '14px' },
 });
 
 const focusStyle = {
