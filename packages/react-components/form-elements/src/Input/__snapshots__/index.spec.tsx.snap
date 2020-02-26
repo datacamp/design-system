@@ -15,6 +15,10 @@ exports[`snapshots renders an input with size large, disabled=false, required=fa
 }
 
 .emotion-3 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -205,6 +209,10 @@ exports[`snapshots renders an input with size large, disabled=false, required=tr
 }
 
 .emotion-4 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -413,6 +421,10 @@ exports[`snapshots renders an input with size large, disabled=false, required=un
 }
 
 .emotion-1 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -573,6 +585,10 @@ exports[`snapshots renders an input with size large, disabled=true, required=fal
 }
 
 .emotion-3 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -764,6 +780,10 @@ exports[`snapshots renders an input with size large, disabled=true, required=tru
 }
 
 .emotion-4 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -973,6 +993,10 @@ exports[`snapshots renders an input with size large, disabled=true, required=und
 }
 
 .emotion-1 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -1134,6 +1158,10 @@ exports[`snapshots renders an input with size medium, disabled=false, required=f
 }
 
 .emotion-3 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -1324,6 +1352,10 @@ exports[`snapshots renders an input with size medium, disabled=false, required=t
 }
 
 .emotion-4 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -1532,6 +1564,10 @@ exports[`snapshots renders an input with size medium, disabled=false, required=u
 }
 
 .emotion-1 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -1692,6 +1728,10 @@ exports[`snapshots renders an input with size medium, disabled=true, required=fa
 }
 
 .emotion-3 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -1883,6 +1923,10 @@ exports[`snapshots renders an input with size medium, disabled=true, required=tr
 }
 
 .emotion-4 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -2092,6 +2136,10 @@ exports[`snapshots renders an input with size medium, disabled=true, required=un
 }
 
 .emotion-1 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -2253,6 +2301,10 @@ exports[`snapshots renders an input with size small, disabled=false, required=fa
 }
 
 .emotion-3 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -2443,6 +2495,10 @@ exports[`snapshots renders an input with size small, disabled=false, required=tr
 }
 
 .emotion-4 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -2651,6 +2707,10 @@ exports[`snapshots renders an input with size small, disabled=false, required=un
 }
 
 .emotion-1 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -2811,6 +2871,10 @@ exports[`snapshots renders an input with size small, disabled=true, required=fal
 }
 
 .emotion-3 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -3002,6 +3066,10 @@ exports[`snapshots renders an input with size small, disabled=true, required=tru
 }
 
 .emotion-4 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -3211,6 +3279,10 @@ exports[`snapshots renders an input with size small, disabled=true, required=und
 }
 
 .emotion-1 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
