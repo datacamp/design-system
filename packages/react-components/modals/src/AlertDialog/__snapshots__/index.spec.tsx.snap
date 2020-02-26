@@ -86,6 +86,7 @@ exports[`<AlertModal /> isOpen renders the modal via a portal when true 1`] = `
   right: 8px;
   top: 8px;
   width: 32px;
+  z-index: 1;
 }
 
 .emotion-0:active {
