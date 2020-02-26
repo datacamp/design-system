@@ -33,6 +33,7 @@ const CloseButton: React.FC<{ disabled: boolean; onClick: () => void }> = ({
       right: tokens.size.space[8].value,
       top: tokens.size.space[8].value,
       width: tokens.size.space[32].value,
+      zIndex: 1,
     })}
     disabled={disabled}
     onClick={onClick}
