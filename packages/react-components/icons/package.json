@@ -22,7 +22,7 @@
     "@datacamp/waffles-tsconfig": "^1.1.7",
     "@svgr/core": "^5.0.1",
     "@svgr/plugin-prettier": "^5.0.1",
-    "@svgr/plugin-svgo": "^5.0.1",
+    "@svgr/plugin-svgo": "^5.2.0",
     "@types/react": "^16.9.9",
     "camelcase": "^5.3.1",
     "gulp": "^4.0.2",
@@ -41,9 +41,11 @@
   "dependencies": {
     "@babel/runtime": "^7.7.6",
     "@types/react-native": "^0.60.28",
+    "prop-types": "^15.7.2",
     "react-native-svg": "^9.13.6"
   },
   "peerDependencies": {
+    "@emotion/core": "^10.0.17",
     "react": "^16.8.6"
   }
 }
