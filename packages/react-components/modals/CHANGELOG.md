@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [4.1.3](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/modals/compare/@datacamp/waffles-modals@4.1.2...@datacamp/waffles-modals@4.1.3) (2020-02-27)
+
+
+### Bug Fixes
+
+* remove ssr flicker from text inside AlertDialog ([b332dc0](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/modals/commit/b332dc0))
+* set z index of close button in modals ([f02aa51](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/modals/commit/f02aa51))
+
+
+
+
+
 ## [4.1.2](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/modals/compare/@datacamp/waffles-modals@4.1.1...@datacamp/waffles-modals@4.1.2) (2020-01-27)
 
 **Note:** Version bump only for package @datacamp/waffles-modals

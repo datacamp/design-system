@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.2.4](https://github.com/datacamp/design-system/compare/@datacamp/waffles-text@2.2.3...@datacamp/waffles-text@2.2.4) (2020-02-27)
+
+
+### Bug Fixes
+
+* remove ssr flicker on text elements ([941f045](https://github.com/datacamp/design-system/commit/941f045))
+
+
+
+
+
 ## [2.2.3](https://github.com/datacamp/design-system/compare/@datacamp/waffles-text@2.2.2...@datacamp/waffles-text@2.2.3) (2020-01-27)
 
 **Note:** Version bump only for package @datacamp/waffles-text

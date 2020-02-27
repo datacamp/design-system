@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.35.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-catalog-doc-site@1.34.5...@datacamp/waffles-catalog-doc-site@1.35.0) (2020-02-27)
+
+
+### Bug Fixes
+
+* link to utilities on stylesheets page ([c15ac90](https://github.com/datacamp/design-system/commit/c15ac90))
+
+
+### Features
+
+* add Course Naming section to content pages ([e8f53d9](https://github.com/datacamp/design-system/commit/e8f53d9))
+
+
+
+
+
 ## [1.34.5](https://github.com/datacamp/design-system/compare/@datacamp/waffles-catalog-doc-site@1.34.4...@datacamp/waffles-catalog-doc-site@1.34.5) (2020-01-30)
 
 **Note:** Version bump only for package @datacamp/waffles-catalog-doc-site

@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.6](https://github.com/datacamp/design-system/compare/@datacamp/waffles-toast@1.0.5...@datacamp/waffles-toast@1.0.6) (2020-02-27)
+
+
+### Bug Fixes
+
+* remove ssr flicker from text inside toast ([afe5c39](https://github.com/datacamp/design-system/commit/afe5c39))
+
+
+
+
+
 ## [1.0.5](https://github.com/datacamp/design-system/compare/@datacamp/waffles-toast@1.0.4...@datacamp/waffles-toast@1.0.5) (2020-01-30)
 
 

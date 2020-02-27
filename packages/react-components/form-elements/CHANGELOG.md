@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.8.0](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/form-elements/compare/@datacamp/waffles-form-elements@2.7.5...@datacamp/waffles-form-elements@2.8.0) (2020-02-27)
+
+
+### Bug Fixes
+
+* remove ssr flicker from labels and radio lists ([11165a1](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/form-elements/commit/11165a1))
+* vertical alignment of required/optional label ([8fda66a](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/form-elements/commit/8fda66a))
+
+
+### Features
+
+* expose Label component to allow for custom form elements ([5055903](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/form-elements/commit/5055903))
+
+
+
+
+
 ## [2.7.5](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/form-elements/compare/@datacamp/waffles-form-elements@2.7.4...@datacamp/waffles-form-elements@2.7.5) (2020-01-30)
 
 

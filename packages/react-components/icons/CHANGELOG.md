@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.9.2](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/icons/compare/@datacamp/waffles-icons@1.9.1...@datacamp/waffles-icons@1.9.2) (2020-02-27)
+
+
+### Bug Fixes
+
+* correctly list emotion and prop types dependencies ([10bcea6](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/icons/commit/10bcea6))
+
+
+
+
+
 ## [1.9.1](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/icons/compare/@datacamp/waffles-icons@1.9.0...@datacamp/waffles-icons@1.9.1) (2020-01-27)
 
 **Note:** Version bump only for package @datacamp/waffles-icons
