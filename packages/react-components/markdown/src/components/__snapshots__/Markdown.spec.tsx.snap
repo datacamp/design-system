@@ -158,7 +158,31 @@ exports[`<Markdown /> renders 1`] = `
   line-height: 16px;
 }
 
-.emotion-32 {
+.emotion-29 {
+  -webkit-font-smoothing: antialiased;
+  color: rgb(77,83,86);
+  font-family: sans-serif;
+  font-family: Lato;
+  font-style: normal;
+  list-style-position: inside;
+  margin: 0;
+  padding: 0;
+}
+
+.emotion-29 .emotion-29 {
+  padding-left: 16px;
+}
+
+*:not(style) ~ .emotion-29 {
+  margin-top: 16px;
+}
+
+.emotion-26 {
+  line-height: 1.5em;
+  margin-top: 8px;
+}
+
+.emotion-45 {
   border: 0;
   border-radius: 4px;
   color: rgb(61,66,81);
@@ -182,7 +206,7 @@ exports[`<Markdown /> renders 1`] = `
   padding-top: 0;
 }
 
-.emotion-35 {
+.emotion-48 {
   background-color: rgb(235,244,247);
   border: 0;
   border-radius: 4px;
@@ -196,11 +220,11 @@ exports[`<Markdown /> renders 1`] = `
   padding-top: 8px;
 }
 
-*:not(style) ~ .emotion-35 {
+*:not(style) ~ .emotion-48 {
   margin-top: 12px;
 }
 
-.emotion-34 {
+.emotion-47 {
   border: 0;
   border-radius: 4px;
   color: rgb(61,66,81);
@@ -351,17 +375,29 @@ exports[`<Markdown /> renders 1`] = `
   >
     Unordered list
   </h3>
-  <ul>
-    <li>
+  <ul
+    class="emotion-29"
+  >
+    <li
+      class="emotion-26"
+    >
       Item 1
     </li>
-    <li>
+    <li
+      class="emotion-26"
+    >
       Item 2
-      <ul>
-        <li>
+      <ul
+        class="emotion-29"
+      >
+        <li
+          class="emotion-26"
+        >
           Item 2a
         </li>
-        <li>
+        <li
+          class="emotion-26"
+        >
           Item 2b
         </li>
       </ul>
@@ -372,20 +408,34 @@ exports[`<Markdown /> renders 1`] = `
   >
     Ordered list
   </h3>
-  <ol>
-    <li>
+  <ol
+    class="emotion-29"
+  >
+    <li
+      class="emotion-26"
+    >
       Item 1
     </li>
-    <li>
+    <li
+      class="emotion-26"
+    >
       Item 2
     </li>
-    <li>
+    <li
+      class="emotion-26"
+    >
       Item 3
-      <ol>
-        <li>
+      <ol
+        class="emotion-29"
+      >
+        <li
+          class="emotion-26"
+        >
           Item 3a
         </li>
-        <li>
+        <li
+          class="emotion-26"
+        >
           Item 3b
         </li>
       </ol>
@@ -436,17 +486,17 @@ the present is our past.
   >
     This paragraphs contains 
     <code
-      class="emotion-32"
+      class="emotion-45"
     >
       inline code
     </code>
     .
   </p>
   <pre
-    class="emotion-35"
+    class="emotion-48"
   >
     <code
-      class="emotion-34"
+      class="emotion-47"
     >
       This is a code block
 with 2 lines
@@ -459,10 +509,10 @@ with 2 lines
     The following code block should highlight python code:
   </p>
   <pre
-    class="emotion-35"
+    class="emotion-48"
   >
     <code
-      class="emotion-34"
+      class="emotion-47"
     >
       numbers = [1, 2, 3]
 asStrings = [str(x) for x in stuff]
@@ -474,10 +524,10 @@ asStrings = [str(x) for x in stuff]
     The following code block should highlight javascript code:
   </p>
   <pre
-    class="emotion-35"
+    class="emotion-48"
   >
     <code
-      class="emotion-34"
+      class="emotion-47"
     >
       var React = require('react');
 var Markdown = require('react-markdown');
@@ -488,10 +538,15 @@ React.render(
 );
     </code>
   </pre>
-  <ul>
-    <li>
+  <ul
+    class="emotion-29"
+  >
+    <li
+      class="emotion-26"
+    >
       <input
         checked=""
+        disabled=""
         readonly=""
         type="checkbox"
       />
@@ -513,24 +568,33 @@ React.render(
       &lt;/del&gt;
        supported
     </li>
-    <li>
+    <li
+      class="emotion-26"
+    >
       <input
         checked=""
+        disabled=""
         readonly=""
         type="checkbox"
       />
       list syntax required (any unordered or ordered list supported)
     </li>
-    <li>
+    <li
+      class="emotion-26"
+    >
       <input
         checked=""
+        disabled=""
         readonly=""
         type="checkbox"
       />
       this is a complete item
     </li>
-    <li>
+    <li
+      class="emotion-26"
+    >
       <input
+        disabled=""
         readonly=""
         type="checkbox"
       />

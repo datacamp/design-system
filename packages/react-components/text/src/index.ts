@@ -1,6 +1,7 @@
 import AlternateCode from './alternateComponents/AlternateCode';
 import AlternateCodeBlock from './alternateComponents/AlternateCodeBlock';
 import AlternateHeading from './alternateComponents/AlternateHeading';
+import AlternateListItem from './alternateComponents/AlternateListItem';
 import PlainString from './alternateComponents/PlainString';
 
 export { default as Text } from './components/Text';
@@ -21,5 +22,6 @@ export const alternateComponents = {
   AlternateCode,
   AlternateCodeBlock,
   AlternateHeading,
+  AlternateListItem,
   PlainString,
 };
