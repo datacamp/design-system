@@ -11,6 +11,7 @@ import Emphasis from './components/Emphasis';
 import GlobalFontFaces from './components/GlobalFontFaces';
 import Heading from './components/Heading';
 import Link from './components/Link';
+import List from './components/List';
 import Paragraph from './components/Paragraph';
 import Small from './components/Small';
 import Strong from './components/Strong';
@@ -27,6 +28,7 @@ describe('index', () => {
       GlobalFontFaces,
       Heading,
       Link,
+      List,
       Paragraph,
       Small,
       Strong,
