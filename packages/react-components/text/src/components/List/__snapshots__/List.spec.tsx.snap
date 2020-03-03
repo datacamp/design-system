@@ -1,0 +1,121 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`List renders an ordered list 1`] = `
+.emotion-4 {
+  -webkit-font-smoothing: antialiased;
+  color: rgb(77,83,86);
+  font-family: sans-serif;
+  font-family: Lato;
+  font-style: normal;
+  list-style-position: inside;
+  margin: 0;
+  padding: 0;
+}
+
+.emotion-4 .emotion-4 {
+  padding-left: 16px;
+}
+
+*:not(style) ~ .emotion-4 {
+  margin-top: 16px;
+}
+
+.emotion-0 {
+  line-height: 1.5em;
+  margin-top: 8px;
+}
+
+<ul
+  class="test-class emotion-4"
+>
+  <li
+    class="emotion-0"
+  >
+    top level item 1
+  </li>
+  <li
+    class="emotion-0"
+  >
+    top level item 2
+  </li>
+  <li
+    class="emotion-0"
+  >
+    nested items
+    <ul
+      class="emotion-4"
+    >
+      <li
+        class="emotion-0"
+      >
+        nested item 1
+      </li>
+      <li
+        class="emotion-0"
+      >
+        nested item 2
+      </li>
+    </ul>
+  </li>
+</ul>
+`;
+
+exports[`List renders an unordered list 1`] = `
+.emotion-4 {
+  -webkit-font-smoothing: antialiased;
+  color: rgb(77,83,86);
+  font-family: sans-serif;
+  font-family: Lato;
+  font-style: normal;
+  list-style-position: inside;
+  margin: 0;
+  padding: 0;
+}
+
+.emotion-4 .emotion-4 {
+  padding-left: 16px;
+}
+
+*:not(style) ~ .emotion-4 {
+  margin-top: 16px;
+}
+
+.emotion-0 {
+  line-height: 1.5em;
+  margin-top: 8px;
+}
+
+<ul
+  class="test-class emotion-4"
+>
+  <li
+    class="emotion-0"
+  >
+    top level item 1
+  </li>
+  <li
+    class="emotion-0"
+  >
+    top level item 2
+  </li>
+  <li
+    class="emotion-0"
+  >
+    nested items
+    <ul
+      class="emotion-4"
+    >
+      <li
+        class="emotion-0"
+      >
+        nested item 1
+      </li>
+      <li
+        class="emotion-0"
+      >
+        nested item 2
+      </li>
+    </ul>
+  </li>
+</ul>
+`;

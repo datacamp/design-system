@@ -46,6 +46,7 @@
     "@babel/runtime": "^7.9.2",
     "@datacamp/waffles-tokens": "^0.6.9",
     "@datacamp/waffles-utils": "^2.0.1",
+    "airbnb-prop-types": "^2.15.0",
     "lodash": "^4.17.13",
     "prop-types": "^15.7.2",
     "tinycolor2": "^1.4.1"
