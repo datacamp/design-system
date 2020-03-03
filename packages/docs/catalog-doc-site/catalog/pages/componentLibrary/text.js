@@ -7,6 +7,7 @@ import {
   Emphasis,
   Heading,
   Link,
+  List,
   Paragraph,
   Small,
   Strong,
@@ -111,6 +112,12 @@ export default () => {
                   It has a a fixed colour and size.
                 </Text>
               </li>
+              <li>
+                <Text>
+                  <Strong>List –</Strong> Renders either an ordered or unordered
+                  list.
+                </Text>
+              </li>
             </ul>
             <CodeBlock>
               {`import {
@@ -121,6 +128,7 @@ export default () => {
   Emphasis,
   Heading,
   Link,
+  List,
   Paragraph,
   Small,
   Strong,
@@ -148,10 +156,9 @@ export default () => {
       sollicitudin tincidunt
     </Link>{" "}
     in nec leo. <Strong>Quisque mattis</Strong>{" "}
-    pretium nulla,{" "}
-    <Small>id malesuada nisi</Small> viverra
-    consectetur. Donec auctor dapibus nisl sit
-    amet tempor. Integer nec{" "}
+    pretium nulla, <Small>id malesuada nisi</Small>{" "}
+    viverra consectetur. Donec auctor dapibus nisl
+    sit amet tempor. Integer nec{" "}
     <Code>diam sit amet sem</Code> sollicitudin
     consectetur.{" "}
     <Text className="dc-u-color-red">
@@ -163,6 +170,10 @@ export default () => {
     dapibus pulvinar. Quisque convallis arcu eu
     neque tincidunt condimentum.
   </Paragraph>
+  <List>
+    <List.Item>First Item</List.Item>
+    <List.Item>Second Item</List.Item>
+  </List>
   <BetaBadge />
   <Heading size={600} as="h3" multiLine>
     Some extra content with a long name that needs
@@ -171,7 +182,9 @@ export default () => {
   <CodeBlock>{\`gapminder %>%
 filter(year == 2007) %>%
 arrange(desc(gdpPercap))\`}</CodeBlock>
-<Badge color={colors.primary} size="large">Badge</Badge>
+  <Badge color={colors.primary} size="large">
+    Badge
+  </Badge>
 </>`}
               scope={{
                 Badge,
@@ -181,6 +194,7 @@ arrange(desc(gdpPercap))\`}</CodeBlock>
                 Emphasis,
                 Heading,
                 Link,
+                List,
                 Paragraph,
                 Small,
                 Strong,
@@ -245,6 +259,16 @@ arrange(desc(gdpPercap))\`}</CodeBlock>
           <PropTable
             componentData={TextData['src/components/BetaBadge.tsx'][0]}
             componentName="BetaBadge"
+          />
+
+          <PropTable
+            componentData={TextData['src/components/List/index.tsx'][0]}
+            componentName="List"
+          />
+
+          <PropTable
+            componentData={TextData['src/components/List/ListItem.tsx'][0]}
+            componentName="List.Item"
           />
         </section>
       </Page>
