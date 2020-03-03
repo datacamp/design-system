@@ -1,6 +1,7 @@
 import {
   alternateComponents,
   Emphasis,
+  List,
   Paragraph,
   Strong,
 } from '@datacamp/waffles-text';
@@ -23,6 +24,7 @@ const {
   AlternateCodeBlock,
   AlternateHeading,
   PlainString,
+  AlternateListItem,
 } = alternateComponents;
 
 const renderers = {
@@ -30,9 +32,11 @@ const renderers = {
   emphasis: Emphasis,
   heading: AlternateHeading,
   inlineCode: AlternateCode,
+  list: List,
+  listItem: AlternateListItem,
   paragraph: Paragraph,
-  strong: Strong,
-  text: PlainString as any, // eslint-disable-line @typescript-eslint/no-explicit-any
+  strong: Strong, // eslint-disable-line @typescript-eslint/no-explicit-any
+  text: PlainString as any,
 };
 
 const Markdown = (props: MarkdownProps): ReactElement => {

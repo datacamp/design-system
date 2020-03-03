@@ -2,6 +2,7 @@ import * as components from '.';
 import AlternateCode from './alternateComponents/AlternateCode';
 import AlternateCodeBlock from './alternateComponents/AlternateCodeBlock';
 import AlternateHeading from './alternateComponents/AlternateHeading';
+import AlternateListItem from './alternateComponents/AlternateListItem';
 import PlainString from './alternateComponents/PlainString';
 import Badge from './components/Badge';
 import BetaBadge from './components/BetaBadge';
@@ -37,6 +38,7 @@ describe('index', () => {
         AlternateCode,
         AlternateCodeBlock,
         AlternateHeading,
+        AlternateListItem,
         PlainString,
       },
     });
