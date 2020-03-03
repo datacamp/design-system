@@ -23,13 +23,17 @@ const components = [
     name: 'Tooltips',
     status: 'Available',
   },
+  { docLink: '/component-library/toast', name: 'Toast', status: 'Available' },
+  {
+    docLink: '/component-library/text',
+    name: 'Badge + Pill',
+    status: 'Available',
+  },
+  { docLink: '/component-library/text', name: 'Link', status: 'Available' },
 
-  { name: 'Flash Banner', status: 'Planned' },
-  { name: 'Badge + Pill', status: 'Planned' },
   { name: 'Checkbox', status: 'Planned' },
   { name: 'Switch', status: 'Planned' },
   { name: 'Assets', status: 'Planned' },
-  { name: 'Link', status: 'Planned' },
 
   { name: 'Navigation', status: 'Under Consideration' },
   { name: 'Code Editor', status: 'Under Consideration' },
