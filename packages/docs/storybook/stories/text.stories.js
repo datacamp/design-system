@@ -8,6 +8,7 @@ import {
   Emphasis,
   Heading,
   Link,
+  List,
   Paragraph,
   Small,
   Strong,
@@ -62,6 +63,20 @@ arrange(desc(gdpPercap))`}</CodeBlock>
         nulla, id malesuada nisi viverra consectetur. Donec auctor dapibus nisl
         sit amet tempor. Integer nec diam sit amet sem sollicitudin consectetur.
       </Paragraph>
+      <List>
+        <List.Item>item text</List.Item>
+        <List.Item>
+          nested items
+          <List>
+            <List.Item>item text</List.Item>
+            <List.Item>item text</List.Item>
+            <List.Item>item text</List.Item>
+            <List.Item>item text</List.Item>
+          </List>
+        </List.Item>
+        <List.Item>item text</List.Item>
+        <List.Item>item text</List.Item>
+      </List>
       <Heading as="h2" size="800">
         This is a heading
       </Heading>
@@ -402,5 +417,37 @@ gapminder %>%
         <Badge color="#ffc844">Badge</Badge>
         <Badge color="rgb(207, 220, 225)">Badge</Badge>
       </div>
+    </div>
+  ))
+  .add('List Component', () => (
+    <div>
+      <List>
+        <List.Item>item text</List.Item>
+        <List.Item>
+          nested items
+          <List>
+            <List.Item>item text</List.Item>
+            <List.Item>item text</List.Item>
+            <List.Item>item text</List.Item>
+            <List.Item>item text</List.Item>
+          </List>
+        </List.Item>
+        <List.Item>item text</List.Item>
+        <List.Item>item text</List.Item>
+      </List>
+      <List ordered>
+        <List.Item>item text</List.Item>
+        <List.Item>
+          nested items
+          <List ordered>
+            <List.Item>item text</List.Item>
+            <List.Item>item text</List.Item>
+            <List.Item>item text</List.Item>
+            <List.Item>item text</List.Item>
+          </List>
+        </List.Item>
+        <List.Item>item text</List.Item>
+        <List.Item>item text</List.Item>
+      </List>
     </div>
   ));
