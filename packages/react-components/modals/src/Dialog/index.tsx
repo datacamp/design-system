@@ -35,9 +35,10 @@ interface DialogProps {
    */
   shouldCloseOnOverlayClick?: boolean;
   /**
-   * Forces a specific width
+   * The width of the Dialog in pixels. This will be used when the user's screen
+   * is sufficiently large. Otherwise the Dialog will fit to the user's screen.
    */
-  width?: string;
+  width: number;
 }
 
 const Dialog = ({

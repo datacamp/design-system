@@ -3,12 +3,14 @@ import tokens from '@datacamp/waffles-tokens/lib/future-tokens.json';
 import { css } from '@emotion/core';
 import React from 'react';
 
-const CloseButton: React.FC<{ disabled: boolean; onClick: () => void }> = ({
-  onClick,
-  disabled = false,
-}) => (
+const CloseButton: React.FC<{
+  className?: string;
+  disabled: boolean;
+  onClick: () => void;
+}> = ({ onClick, disabled = false, className }) => (
   <button
     aria-label="Close"
+    className={className}
     css={css({
       ':active': { color: tokens.color.opaque.primary.value.rgb },
       ':disabled': { color: '#D1D3D8' },

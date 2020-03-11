@@ -17,23 +17,35 @@ exports[`<Dialog /> isOpen mounts nothing when false 1`] = `
 exports[`<Dialog /> isOpen renders the modal via a portal when true 1`] = `
 .emotion-3 {
   opacity: 1 !important;
-  -webkit-transform: translate(-50%,-50%) scale(1) !important;
-  -ms-transform: translate(-50%,-50%) scale(1) !important;
-  transform: translate(-50%,-50%) scale(1) !important;
+  -webkit-transform: scale(1) !important;
+  -ms-transform: scale(1) !important;
+  transform: scale(1) !important;
 }
 
 .emotion-2 {
-  left: 50%;
-  margin: auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  min-width: 0;
   opacity: 0;
   outline: none;
-  position: absolute;
-  top: 50%;
-  -webkit-transform: translate(-50%,-50%) scale(0.5);
-  -ms-transform: translate(-50%,-50%) scale(0.5);
-  transform: translate(-50%,-50%) scale(0.5);
+  -webkit-transform: scale(0.5);
+  -ms-transform: scale(0.5);
+  transform: scale(0.5);
   -webkit-transition: 0.4s cubic-bezier(0.19,1,0.22,1);
   transition: 0.4s cubic-bezier(0.19,1,0.22,1);
+  box-sizing: border-box;
+  max-height: 100%;
+  padding: 8px;
+  width: 616px;
 }
 
 .emotion-5 {
@@ -41,8 +53,20 @@ exports[`<Dialog /> isOpen renders the modal via a portal when true 1`] = `
 }
 
 .emotion-4 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
   background-color: rgba(38,62,99,0.8);
   bottom: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   left: 0;
   opacity: 0;
   position: fixed;
@@ -86,6 +110,8 @@ exports[`<Dialog /> isOpen renders the modal via a portal when true 1`] = `
   top: 8px;
   width: 32px;
   z-index: 1;
+  right: 16px;
+  top: 16px;
 }
 
 .emotion-0:active {
@@ -115,6 +141,16 @@ exports[`<Dialog /> isOpen renders the modal via a portal when true 1`] = `
   box-shadow: 0px 0px 1px 0px rgba(61,66,81,0.3),0 4px 8px 0 rgba(0,0,0,0.15);
   -webkit-transition: all 0.6s cubic-bezier(0.075,0.82,0.165,1);
   transition: all 0.6s cubic-bezier(0.075,0.82,0.165,1);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  max-height: 100%;
+  overflow: hidden;
+  width: 100%;
 }
 
 <body
