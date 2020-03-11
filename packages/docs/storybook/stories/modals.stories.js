@@ -51,6 +51,7 @@ const LoremParagraph = () => (
 });
 
 storiesOf('waffles-modals', module)
+  .addParameters({ percy: { widths: [320, 1280] } })
   .add(`loading AlertDialog`, () => {
     return createElement(() => {
       const [isOpen, setIsOpen] = useState(true);
@@ -90,6 +91,7 @@ storiesOf('waffles-modals', module)
               console.log(origin); // eslint-disable-line no-console
               setIsOpen(false);
             }}
+            width={600}
           >
             <Heading as="h1" size={300}>
               custom content
@@ -118,7 +120,7 @@ storiesOf('waffles-modals', module)
               console.log(origin); // eslint-disable-line no-console
               setIsOpen(false);
             }}
-            width="600px"
+            width={600}
           >
             <Dialog.Header>Dialog with a Body</Dialog.Header>
             <Dialog.Body>
@@ -143,7 +145,7 @@ storiesOf('waffles-modals', module)
               console.log(origin); // eslint-disable-line no-console
               setIsOpen(false);
             }}
-            width="600px"
+            width={600}
           >
             <Dialog.Header>Dialog with a Body and Footer</Dialog.Header>
             <Dialog.Body>
@@ -173,7 +175,7 @@ storiesOf('waffles-modals', module)
               console.log(origin); // eslint-disable-line no-console
               setIsOpen(false);
             }}
-            width="600px"
+            width={600}
           >
             <Dialog.Header>Dialog with a Body and Footer</Dialog.Header>
             <Dialog.Body>
@@ -207,7 +209,7 @@ storiesOf('waffles-modals', module)
                 console.log(origin); // eslint-disable-line no-console
                 setIsOpen(false);
               }}
-              width="600px"
+              width={600}
             >
               <Dialog.Header>Dialog with a Body and Footer</Dialog.Header>
               <Dialog.Body>
@@ -250,7 +252,7 @@ storiesOf('waffles-modals', module)
               console.log(origin); // eslint-disable-line no-console
               setIsOpen(false);
             }}
-            width="600px"
+            width={600}
           >
             <Dialog.Header>Dialog with a Body and Footer</Dialog.Header>
             <Dialog.Body>
