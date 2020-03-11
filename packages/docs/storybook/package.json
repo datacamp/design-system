@@ -33,7 +33,7 @@
     "react-dom": "16.8.6"
   },
   "devDependencies": {
-    "@babel/core": "7.7.7",
+    "@babel/core": "7.8.7",
     "@datacamp/waffles-babel-preset": "^1.4.1",
     "@percy/storybook": "3.2.0",
     "@storybook/addon-a11y": "5.2.8",

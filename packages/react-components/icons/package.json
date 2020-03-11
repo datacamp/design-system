@@ -17,7 +17,7 @@
   },
   "devDependencies": {
     "@babel/cli": "^7.7.7",
-    "@babel/core": "^7.7.7",
+    "@babel/core": "^7.8.7",
     "@datacamp/waffles-babel-preset": "^1.4.1",
     "@datacamp/waffles-tsconfig": "^1.1.8",
     "@svgr/core": "^5.0.1",
