@@ -37,7 +37,7 @@
     "@testing-library/jest-dom": "5.1.1",
     "@testing-library/react": "9.4.1",
     "babel-jest": "25.1.0",
-    "jest": "24.9.0",
+    "jest": "25.1.0",
     "jest-emotion": "10.0.26",
     "react": "16.8.6",
     "react-docgen": "5.2.1",
