@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.37.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-storybook@1.36.4...@datacamp/waffles-storybook@1.37.0) (2020-03-11)
+
+
+### Features
+
+* update modal stories to be responsive ([7fc63df](https://github.com/datacamp/design-system/commit/7fc63df))
+
+
+
+
+
 ## [1.36.4](https://github.com/datacamp/design-system/compare/@datacamp/waffles-storybook@1.36.3...@datacamp/waffles-storybook@1.36.4) (2020-02-27)
 
 **Note:** Version bump only for package @datacamp/waffles-storybook

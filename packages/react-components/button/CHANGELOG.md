@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [5.0.5](https://github.com/datacamp/design-system/compare/@datacamp/waffles-button@5.0.4...@datacamp/waffles-button@5.0.5) (2020-03-11)
+
+
+### Bug Fixes
+
+* preserve tooltip position on scroll ([88a4511](https://github.com/datacamp/design-system/commit/88a4511))
+
+
+
+
+
 ## [5.0.4](https://github.com/datacamp/design-system/compare/@datacamp/waffles-button@5.0.3...@datacamp/waffles-button@5.0.4) (2020-02-27)
 
 **Note:** Version bump only for package @datacamp/waffles-button

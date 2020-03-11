@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.36.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-catalog-doc-site@1.35.0...@datacamp/waffles-catalog-doc-site@1.36.0) (2020-03-11)
+
+
+### Features
+
+* update prop example for dialog ([b591ddf](https://github.com/datacamp/design-system/commit/b591ddf))
+
+
+
+
+
 # [1.35.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-catalog-doc-site@1.34.5...@datacamp/waffles-catalog-doc-site@1.35.0) (2020-02-27)
 
 

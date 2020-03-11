@@ -3,6 +3,29 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [5.0.0](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/modals/compare/@datacamp/waffles-modals@4.1.3...@datacamp/waffles-modals@5.0.0) (2020-03-11)
+
+
+### Features
+
+* responsive sizing for Dialogs ([a6cd899](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/modals/commit/a6cd899))
+
+
+### BREAKING CHANGES
+
+* The way the width of the Dialog component has changed. 
+Width is no longer an optional string, and instead is a mandatory number 
+used to set the width in pixels. Check the documentation to what the 
+behaviour of this prop is. The Dialog component will now shrink to fit 
+the screen if necessary. This could affect the layout or positioning 
+inside the Dialog, however if the included Dialog.Header, Dialog.Body, 
+and Dialog.Footer components are already being used, the impact should 
+be minimal.
+
+
+
+
+
 ## [4.1.3](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/modals/compare/@datacamp/waffles-modals@4.1.2...@datacamp/waffles-modals@4.1.3) (2020-02-27)
 
 
