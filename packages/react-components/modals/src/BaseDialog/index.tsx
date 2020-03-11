@@ -1,4 +1,5 @@
 import Card from '@datacamp/waffles-card';
+import tokens from '@datacamp/waffles-tokens/lib/future-tokens.json';
 import { ClassNames } from '@emotion/core';
 import React from 'react';
 import ReactModal from 'react-modal';
@@ -60,9 +61,9 @@ interface DialogProps {
    */
   shouldCloseOnOverlayClick: boolean;
   /**
-   * Forces a specific width on the Modal
+   * Forces a specific width on the Modal. This
    */
-  width?: string;
+  width: number;
 }
 
 export type CloseOrigin = 'overlayClick' | 'escKey' | 'closeButton';
@@ -91,7 +92,12 @@ const Dialog: React.FC<DialogProps> = ({
       {({ css: generateClassName, cx }) => {
         const modalClassName = {
           afterOpen: generateClassName(contentStyleAfterOpen),
-          base: generateClassName(contentStyle, { width }),
+          base: generateClassName(contentStyle, {
+            boxSizing: 'border-box',
+            maxHeight: '100%',
+            padding: 8,
+            width: width + 16,
+          }),
           beforeClose: generateClassName(contentStyleBeforeClose),
         };
         const overlayClassName = {
@@ -116,12 +122,25 @@ const Dialog: React.FC<DialogProps> = ({
           >
             {!hideCloseButton && (
               <CloseButton
+                css={{
+                  right: tokens.size.space[16].value,
+                  top: tokens.size.space[16].value,
+                }}
                 disabled={closeButtonDisabled}
                 onClick={onCloseButton}
               />
             )}
-            <Card elevation={4}>
-              <>{children}</>
+            <Card
+              css={{
+                display: 'flex',
+                flexDirection: 'column',
+                maxHeight: '100%',
+                overflow: 'hidden',
+                width: '100%',
+              }}
+              elevation={4}
+            >
+              {children}
             </Card>
           </ReactModal>
         );

@@ -43,8 +43,20 @@ exports[`<Panel /> isOpen renders the modal via a portal when true 1`] = `
 }
 
 .emotion-4 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
   background-color: rgba(38,62,99,0.8);
   bottom: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   left: 0;
   opacity: 0;
   position: fixed;

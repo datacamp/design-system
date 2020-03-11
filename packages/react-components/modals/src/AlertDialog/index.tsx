@@ -98,7 +98,7 @@ const AlertDialog = ({
       onClose={onClose}
       shouldCloseOnEsc={!loading}
       shouldCloseOnOverlayClick={!loading}
-      width="480px"
+      width={480}
     >
       <div css={css({ padding: 32, textAlign: 'center' })}>
         <Heading as="h1" size={600} multiLine>

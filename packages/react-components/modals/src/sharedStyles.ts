@@ -5,10 +5,13 @@ import tinycolor from 'tinycolor2';
 export const bodyOpenStyle = css({ overflow: 'hidden' });
 
 export const overlayStyle = css({
+  alignItems: 'center',
   backgroundColor: tinycolor(tokens.color.opaque.primaryDark.value.rgb)
     .setAlpha(0.8)
     .toRgbString(),
   bottom: 0,
+  display: 'flex',
+  justifyContent: 'center',
   left: 0,
   opacity: 0,
   position: 'fixed',
