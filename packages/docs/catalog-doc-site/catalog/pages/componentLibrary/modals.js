@@ -110,7 +110,7 @@ export default () => {
   return (
     <>
       <Button onClick={() => setIsOpen(true)}>open dialog</Button>
-      <Dialog isOpen={isOpen} onClose={origin => setIsOpen(false)}>
+      <Dialog isOpen={isOpen} onClose={origin => setIsOpen(false)} width={600} >
         <Dialog.Header>This is the Title</Dialog.Header>
         <Dialog.Body>
           <Paragraph>
