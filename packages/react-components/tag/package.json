@@ -53,7 +53,7 @@
     "react": "^16.6.3",
     "react-docgen": "5.2.1",
     "react-dom": "^16.6.3",
-    "typescript": "3.8.2"
+    "typescript": "3.8.3"
   },
   "dependencies": {
     "@babel/runtime": "^7.7.6",
