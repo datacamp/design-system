@@ -64,7 +64,7 @@
     "husky": "^4.2.3",
     "lerna": "^3.20.2",
     "prettier": "^1.19.1",
-    "react": "16.8.6",
+    "react": "16.13.1",
     "react-dom": "16.8.6",
     "svglint": "1.0.5",
     "typescript": "3.8.2"

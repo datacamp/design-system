@@ -34,7 +34,7 @@
     "gulp-typescript": "^5.0.1",
     "gulp-zip": "^5.0.1",
     "merge-stream": "^2.0.0",
-    "react": "^16.8.6",
+    "react": "^16.13.1",
     "sharp": "0.24.1",
     "typescript": "3.8.2"
   },
@@ -46,6 +46,6 @@
   },
   "peerDependencies": {
     "@emotion/core": "^10.0.17",
-    "react": "^16.8.6"
+    "react": "^16.13.1"
   }
 }
