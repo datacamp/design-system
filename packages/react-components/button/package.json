@@ -33,7 +33,7 @@
     "@datacamp/waffles-icons": "^1.9.3",
     "@datacamp/waffles-tsconfig": "^1.1.8",
     "@emotion/core": "^10.0.17",
-    "@stryker-mutator/core": "^2.5.0",
+    "@stryker-mutator/core": "^3.0.2",
     "@stryker-mutator/html-reporter": "^2.5.0",
     "@stryker-mutator/typescript": "^2.5.0",
     "@testing-library/jest-dom": "5.1.1",
