@@ -154,7 +154,7 @@ const InternalButton = (
   const ctaTextColor = intent === 'cta' ? outlineTextColor : 'white';
   const outlineIconColor = disabled ? baseColors[intent] : 'currentColor';
   const textColor = appearance === 'primary' ? ctaTextColor : outlineTextColor;
-  const getColor = appearance === 'primary' ? ctaTextColor : outlineIconColor;
+  const iconColor = appearance === 'primary' ? ctaTextColor : outlineIconColor;
 
   const baseTextStyle = css(fontSizes[size], {
     color: loading ? 'transparent' : textColor,
@@ -242,7 +242,7 @@ const InternalButton = (
           ) : (
             React.cloneElement(child, {
               'aria-hidden': true, // hide icon from screen reader so only ariaLabel or button text is read.
-              color: loading ? 'transparent' : getColor,
+              color: loading ? 'transparent' : child.props.color ?? iconColor,
               size: size === 'large' ? 24 : 18,
               title: '', // remove tooltip from icon within button
             })
