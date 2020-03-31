@@ -156,7 +156,6 @@ class Select extends Component<
     const selectElement = (
       <div css={{ position: 'relative' }}>
         <select
-          ref={innerRef}
           className={className}
           css={getSelectStyle}
           disabled={disabled}
@@ -164,6 +163,7 @@ class Select extends Component<
           onBlur={this.handleBlur}
           onChange={this.handleChange}
           onFocus={this.setFocus}
+          ref={innerRef}
           value={value}
           {...parsedDataAttributes}
         >

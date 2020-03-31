@@ -136,10 +136,10 @@ describe('<Input />', () => {
     it('disables the input if disabled is passed as a prop', () => {
       const { getByRole } = render(
         <Input
+          disabled
           name={testName}
           onChange={() => {}}
           value={testValue}
-          disabled
         />,
       );
       expect(getByRole('textbox')).toHaveAttribute('disabled');
@@ -179,11 +179,11 @@ describe('<Input />', () => {
       const placeholder = 'placeholder text';
       const { getByRole } = render(
         <Input
+          disabled
           name={testName}
           onChange={() => {}}
           placeholder={placeholder}
           value={testValue}
-          disabled
         />,
       );
       expect(getByRole('textbox')).toHaveAttribute('disabled');
@@ -261,8 +261,8 @@ describe('<Input />', () => {
           label={testLabel}
           name={testName}
           onChange={() => {}}
-          value={testValue}
           required
+          value={testValue}
         />,
       );
       expect(getByText('Required')).toBeInTheDocument();

@@ -70,7 +70,7 @@ describe('<Button />', () => {
 
   it('renders the disabled property', async () => {
     const { container } = await axeRender(
-      <Button onClick={someFunction} disabled>
+      <Button disabled onClick={someFunction}>
         disabled button
       </Button>,
     );
@@ -271,7 +271,7 @@ describe('<Button />', () => {
   describe('loading', () => {
     it('renders a spinner when the prop "loading" is passed to the button', async () => {
       const { container, getByText, getByTitle } = await axeRender(
-        <Button onClick={someFunction} loading>
+        <Button loading onClick={someFunction}>
           btn loading
         </Button>,
       );
@@ -286,7 +286,7 @@ describe('<Button />', () => {
 
     it('renders a dark spinner when the appearance="default" (or undefined)', async () => {
       const { container } = await axeRender(
-        <Button onClick={someFunction} loading>
+        <Button loading onClick={someFunction}>
           Loading
         </Button>,
       );
@@ -298,7 +298,7 @@ describe('<Button />', () => {
 
     it('renders a white spinner when the appearance="primary"', async () => {
       const { container } = await axeRender(
-        <Button appearance="primary" onClick={someFunction} loading>
+        <Button appearance="primary" loading onClick={someFunction}>
           Loading
         </Button>,
       );
@@ -357,7 +357,7 @@ describe('<Button />', () => {
 
     it('renders the disabled property', async () => {
       const { container } = await axeRender(
-        <Button ariaLabel="add" onClick={someFunction} disabled>
+        <Button ariaLabel="add" disabled onClick={someFunction}>
           <AddCircleIcon />
         </Button>,
       );

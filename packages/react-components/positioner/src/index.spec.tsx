@@ -19,9 +19,9 @@ describe('Positioner', () => {
       const { baseElement } = await axeRender(
         <>
           <div
-            ref={ref}
             css={{ height: 50, width: 50 }}
             data-test-id="target"
+            ref={ref}
           />
           <Positioner position={position} target={ref} visible>
             <div css={{ height: 10, width: 10 }} data-test-id="element" />

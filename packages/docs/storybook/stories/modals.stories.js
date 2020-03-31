@@ -63,6 +63,7 @@ storiesOf('waffles-modals', module)
           <AlertDialog
             description="Please wait."
             isOpen={isOpen}
+            loading
             onClose={origin => {
               console.log(origin); // eslint-disable-line no-console
               setIsOpen(false);
@@ -71,7 +72,6 @@ storiesOf('waffles-modals', module)
               () => alert('confirmed!!') // eslint-disable-line no-alert
             }
             title="Your content is loading"
-            loading
           />
         </>
       );

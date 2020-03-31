@@ -42,8 +42,8 @@ describe('<RadioList>', () => {
           label={testLabel}
           name={testName}
           onChange={() => {}}
-          value={testValue}
           required
+          value={testValue}
         >
           <Radio value={testValue}>item 1</Radio>
           <Radio value="value2">item 2</Radio>
@@ -91,11 +91,11 @@ describe('<RadioList>', () => {
   it('disables the whole component', () => {
     const { getByLabelText } = render(
       <RadioList
+        disabled
         label="test-label"
         name={testName}
         onChange={() => {}}
         value="value1"
-        disabled
       >
         <Radio value="value1">item 1</Radio>
         <Radio value="value2">item 2</Radio>
@@ -118,7 +118,7 @@ describe('<RadioList>', () => {
         value="value1"
       >
         <Radio value="value1">item 1</Radio>
-        <Radio value="value2" disabled>
+        <Radio disabled value="value2">
           item 2
         </Radio>
       </RadioList>,
@@ -207,7 +207,7 @@ describe('<RadioList>', () => {
         >
           <Radio value={testValue}>item 1</Radio>
           <Radio value="value2">item 2</Radio>
-          <Radio value="value2" disabled>
+          <Radio disabled value="value2">
             item 3
           </Radio>
         </RadioList>,

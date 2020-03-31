@@ -101,24 +101,24 @@ const AlertDialog = ({
       width={480}
     >
       <div css={css({ padding: 32, textAlign: 'center' })}>
-        <Heading as="h1" size={600} multiLine>
+        <Heading as="h1" multiLine size={600}>
           {title}
         </Heading>
         <Paragraph>{description}</Paragraph>
         <ButtonGroup css={{ marginTop: 24 }}>
           <Button
-            ref={cancelButtonRef}
             disabled={loading}
             onClick={onCancelButton}
+            ref={cancelButtonRef}
           >
             {cancelButtonText}
           </Button>
           <Button
-            ref={confirmButtonRef}
             appearance="primary"
             intent={intent}
             loading={loading}
             onClick={onConfirm}
+            ref={confirmButtonRef}
           >
             {confirmButtonText}
           </Button>

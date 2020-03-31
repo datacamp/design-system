@@ -14,7 +14,7 @@ const AlternateListItem: React.FC<AlternateListItemProps> = ({
   // Copied from react-markdown default renderer
   let checkbox = null;
   if (checked !== null && checked !== undefined) {
-    checkbox = <input checked={checked} type="checkbox" disabled readOnly />;
+    checkbox = <input checked={checked} disabled readOnly type="checkbox" />;
   }
 
   return (

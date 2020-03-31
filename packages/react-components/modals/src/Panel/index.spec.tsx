@@ -21,7 +21,7 @@ describe('<Panel />', () => {
   describe('isOpen', () => {
     it('renders the modal via a portal when true', async () => {
       const { container, getByText, baseElement, getByRole } = await axeRender(
-        <Panel onClose={() => {}} isOpen>
+        <Panel isOpen onClose={() => {}}>
           children
         </Panel>,
         getRenderOptions(),
@@ -55,7 +55,7 @@ describe('<Panel />', () => {
       const onClose = jest.fn();
 
       const { getByTitle } = await axeRender(
-        <Panel onClose={onClose} isOpen>
+        <Panel isOpen onClose={onClose}>
           children
         </Panel>,
         getRenderOptions(),
@@ -72,7 +72,7 @@ describe('<Panel />', () => {
       const onClose = jest.fn();
 
       const { getByTitle } = await axeRender(
-        <Panel hideCloseButton={false} onClose={onClose} isOpen>
+        <Panel hideCloseButton={false} isOpen onClose={onClose}>
           children
         </Panel>,
         getRenderOptions(),
@@ -89,7 +89,7 @@ describe('<Panel />', () => {
       const onClose = jest.fn();
 
       const { queryByTitle } = await axeRender(
-        <Panel onClose={onClose} hideCloseButton isOpen>
+        <Panel hideCloseButton isOpen onClose={onClose}>
           children
         </Panel>,
         getRenderOptions(),
@@ -103,7 +103,7 @@ describe('<Panel />', () => {
     it('closes when clicking the background overlay by default', async () => {
       const onClose = jest.fn();
       const { baseElement } = await axeRender(
-        <Panel onClose={onClose} isOpen>
+        <Panel isOpen onClose={onClose}>
           children
         </Panel>,
         getRenderOptions(),
@@ -122,7 +122,7 @@ describe('<Panel />', () => {
     it('closes when clicking the background overlay when shouldCloseOnOverlayClick=true', async () => {
       const onClose = jest.fn();
       const { baseElement } = await axeRender(
-        <Panel onClose={onClose} isOpen shouldCloseOnOverlayClick>
+        <Panel isOpen onClose={onClose} shouldCloseOnOverlayClick>
           children
         </Panel>,
         getRenderOptions(),
@@ -141,7 +141,7 @@ describe('<Panel />', () => {
     it("doesn't when clicking the background overlay when shouldCloseOnOverlayClick=false", async () => {
       const onClose = jest.fn();
       const { baseElement } = await axeRender(
-        <Panel onClose={onClose} shouldCloseOnOverlayClick={false} isOpen>
+        <Panel isOpen onClose={onClose} shouldCloseOnOverlayClick={false}>
           children
         </Panel>,
         getRenderOptions(),
@@ -161,7 +161,7 @@ describe('<Panel />', () => {
     it('closes when clicking escape by default', async () => {
       const onClose = jest.fn();
       const { getByRole } = await axeRender(
-        <Panel onClose={onClose} isOpen>
+        <Panel isOpen onClose={onClose}>
           children
         </Panel>,
         getRenderOptions(),
@@ -181,7 +181,7 @@ describe('<Panel />', () => {
     it('closes when clicking escape if shouldCloseOnEsc=true', async () => {
       const onClose = jest.fn();
       const { getByRole } = await axeRender(
-        <Panel onClose={onClose} isOpen shouldCloseOnEsc>
+        <Panel isOpen onClose={onClose} shouldCloseOnEsc>
           children
         </Panel>,
         getRenderOptions(),
@@ -201,7 +201,7 @@ describe('<Panel />', () => {
     it("doesn't close when clicking escape if shouldCloseOnEsc=false", async () => {
       const onClose = jest.fn();
       const { getByRole } = await axeRender(
-        <Panel onClose={onClose} shouldCloseOnEsc={false} isOpen>
+        <Panel isOpen onClose={onClose} shouldCloseOnEsc={false}>
           children
         </Panel>,
         getRenderOptions(),
@@ -222,7 +222,7 @@ describe('<Panel />', () => {
     const onClose = jest.fn();
     const width = '200px';
     const { getByRole } = await axeRender(
-      <Panel onClose={onClose} width={width} isOpen>
+      <Panel isOpen onClose={onClose} width={width}>
         children
       </Panel>,
       getRenderOptions(),
@@ -236,7 +236,7 @@ describe('<Panel />', () => {
     const testTitle = 'test title';
 
     const { getByText } = await axeRender(
-      <Panel onClose={() => {}} isOpen>
+      <Panel isOpen onClose={() => {}}>
         <Panel.Header>{testTitle}</Panel.Header>
         children
       </Panel>,
@@ -252,7 +252,7 @@ describe('<Panel />', () => {
     const testTitle = 'test title';
 
     const { getByText } = await axeRender(
-      <Panel onClose={() => {}} isOpen>
+      <Panel isOpen onClose={() => {}}>
         <Panel.Header>{testTitle}</Panel.Header>
         <Panel.Body>children</Panel.Body>
         <Panel.Footer>

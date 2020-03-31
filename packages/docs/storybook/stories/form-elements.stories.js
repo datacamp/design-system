@@ -43,9 +43,9 @@ storiesOf('waffles-form-elements', module)
                 </td>
                 <td>
                   <Input
-                    ref={focusRef}
                     name="story2"
                     onChange={() => {}}
+                    ref={focusRef}
                     value="initial focus"
                   />
                 </td>
@@ -59,11 +59,11 @@ storiesOf('waffles-form-elements', module)
                 </td>
                 <td>
                   <Input
+                    disabled
                     name="story4"
                     onChange={() => {}}
                     placeholder="disabled"
                     value=""
-                    disabled
                   />
                 </td>
               </tr>
@@ -153,8 +153,8 @@ storiesOf('waffles-form-elements', module)
             name="story3"
             onChange={() => {}}
             placeholder="placeholder text"
-            value=""
             required
+            value=""
           />
           <Input
             label="Optional input"
@@ -180,8 +180,8 @@ storiesOf('waffles-form-elements', module)
             name="story6"
             onChange={() => {}}
             placeholder="with error"
-            value=""
             required
+            value=""
           />
           <Input
             label="type='date'"
@@ -290,10 +290,10 @@ storiesOf('waffles-form-elements', module)
             </Select>
 
             <Select
+              disabled
               name="story3"
               onChange={() => {}}
               value="disabled2"
-              disabled
             >
               <SelectOption value="opt1">disabled</SelectOption>
               <SelectOption value="opt2">disabled2</SelectOption>
@@ -301,7 +301,7 @@ storiesOf('waffles-form-elements', module)
             </Select>
 
             <Select name="story4" onChange={() => {}} value="opt2">
-              <SelectOption value="opt1" disabled>
+              <SelectOption disabled value="opt1">
                 disabled option
               </SelectOption>
               <SelectOption value="opt2">with disabled option</SelectOption>
@@ -348,8 +348,8 @@ storiesOf('waffles-form-elements', module)
               label="This is a label"
               name="story9"
               onChange={() => {}}
-              value="opt2"
               required
+              value="opt2"
             >
               <SelectOption value="opt1">opt1</SelectOption>
               <SelectOption value="opt2">opt2</SelectOption>
@@ -390,20 +390,20 @@ storiesOf('waffles-form-elements', module)
           >
             <Radio value="value1">Item 1</Radio>
             <Radio value="value2">Item 2</Radio>
-            <Radio value="disabled" disabled>
+            <Radio disabled value="disabled">
               Disabled item
             </Radio>
           </RadioList>
           <RadioList
+            disabled
             label="Disabled RadioList"
             name="radio2"
             onChange={setValue2}
             value={value2}
-            disabled
           >
             <Radio value="value3">Item 1</Radio>
             <Radio value="value4">Item 2</Radio>
-            <Radio value="disabled" disabled>
+            <Radio disabled value="disabled">
               Disabled item
             </Radio>
           </RadioList>
@@ -416,7 +416,7 @@ storiesOf('waffles-form-elements', module)
           >
             <Radio value="value5">Item 1</Radio>
             <Radio value="value6">Item 2</Radio>
-            <Radio value="disabled" disabled>
+            <Radio disabled value="disabled">
               Disabled item
             </Radio>
           </RadioList>
@@ -424,12 +424,12 @@ storiesOf('waffles-form-elements', module)
             label="Required RadioList"
             name="radio4"
             onChange={setValue4}
-            value={value4}
             required
+            value={value4}
           >
             <Radio value="value7">Item 1</Radio>
             <Radio value="value8">Item 2</Radio>
-            <Radio value="disabled" disabled>
+            <Radio disabled value="disabled">
               Disabled item
             </Radio>
           </RadioList>
@@ -442,7 +442,7 @@ storiesOf('waffles-form-elements', module)
           >
             <Radio value="value9">Item 1</Radio>
             <Radio value="value10">Item 2</Radio>
-            <Radio value="disabled" disabled>
+            <Radio disabled value="disabled">
               Disabled item
             </Radio>
           </RadioList>

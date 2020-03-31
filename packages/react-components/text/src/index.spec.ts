@@ -22,6 +22,13 @@ import * as components from '.';
 describe('index', () => {
   it('exports all the components', () => {
     expect(components).toEqual({
+      alternateComponents: {
+        AlternateCode,
+        AlternateCodeBlock,
+        AlternateHeading,
+        AlternateListItem,
+        PlainString,
+      },
       Badge,
       BetaBadge,
       Code,
@@ -35,13 +42,6 @@ describe('index', () => {
       Small,
       Strong,
       Text,
-      alternateComponents: {
-        AlternateCode,
-        AlternateCodeBlock,
-        AlternateHeading,
-        AlternateListItem,
-        PlainString,
-      },
     });
   });
 });

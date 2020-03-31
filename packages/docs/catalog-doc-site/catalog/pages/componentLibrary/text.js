@@ -191,6 +191,7 @@ arrange(desc(gdpPercap))\`}</CodeBlock>
                 BetaBadge,
                 Code,
                 CodeBlock,
+                colors,
                 Emphasis,
                 Heading,
                 Link,
@@ -199,7 +200,6 @@ arrange(desc(gdpPercap))\`}</CodeBlock>
                 Small,
                 Strong,
                 Text,
-                colors,
               }}
             />
           </Card>

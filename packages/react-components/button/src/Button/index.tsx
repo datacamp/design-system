@@ -210,7 +210,6 @@ const InternalButton = (
   return (
     <>
       <Element
-        ref={innerRef ? mergeRefs([buttonRef, innerRef]) : buttonRef}
         aria-describedby={tooltipText && tooltipVisible ? tooltipId : undefined}
         aria-label={ariaLabel}
         className={className}
@@ -220,6 +219,7 @@ const InternalButton = (
         onFocus={() => setHasFocus(true)}
         onMouseEnter={() => setHasHover(true)}
         onMouseLeave={() => setHasHover(false)}
+        ref={innerRef ? mergeRefs([buttonRef, innerRef]) : buttonRef}
         {...otherProps}
         {...parsedDataAttributes}
       >

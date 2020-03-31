@@ -89,7 +89,7 @@ export default () => {
     </Button>
   </ButtonGroup>
 </>`}
-              scope={{ Button, ButtonGroup, ToastContainer, toast }}
+              scope={{ Button, ButtonGroup, toast, ToastContainer }}
             />
           </Card>
           <Heading as="h3" size={500}>

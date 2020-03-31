@@ -49,7 +49,7 @@ export default (
   props: PropValues,
   componentName: string,
   validComponents: ValidComponents,
-) => {
+): void => {
   const checkSingleChild = getCheckSingleChild(validComponents);
   const extraPropTypeValidators = {
     children: PropTypes.oneOfType([

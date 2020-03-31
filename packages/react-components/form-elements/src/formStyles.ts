@@ -9,7 +9,6 @@ const baseFormStyle = css({
     boxShadow: `inset 0 0 0 1px ${tokens.color.opaque.primary.value.rgb}`,
     outline: 'none',
   },
-  WebkitAppearance: 'none',
   background: 'white',
   border: 0,
   borderRadius: tokens.radii.small.value,
@@ -22,6 +21,7 @@ const baseFormStyle = css({
   ],
   margin: 0,
   verticalAlign: 'baseline',
+  WebkitAppearance: 'none',
 });
 
 const inputStyle = css(baseFormStyle, {
@@ -37,9 +37,9 @@ const selectStyle = css(baseFormStyle, {
   ':disabled, :active:disabled, :focus:disabled, :hover:disabled': {
     boxShadow: `inset 0 0 0 1px ${tokens.color.opaque.greyLight.value.rgb}`,
   },
+  appearance: 'none',
   MozAppearance: 'none',
   WebkitAppearance: 'none',
-  appearance: 'none',
   width: '100%',
   zIndex: 1,
 });

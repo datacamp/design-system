@@ -21,7 +21,7 @@ describe('<Dialog />', () => {
   describe('isOpen', () => {
     it('renders the modal via a portal when true', async () => {
       const { container, getByText, baseElement, getByRole } = await axeRender(
-        <Dialog onClose={() => {}} width={600} isOpen>
+        <Dialog isOpen onClose={() => {}} width={600}>
           children
         </Dialog>,
         getRenderOptions(),
@@ -55,7 +55,7 @@ describe('<Dialog />', () => {
       const onClose = jest.fn();
 
       const { getByTitle } = await axeRender(
-        <Dialog onClose={onClose} width={600} isOpen>
+        <Dialog isOpen onClose={onClose} width={600}>
           children
         </Dialog>,
         getRenderOptions(),
@@ -72,7 +72,7 @@ describe('<Dialog />', () => {
       const onClose = jest.fn();
 
       const { getByTitle } = await axeRender(
-        <Dialog hideCloseButton={false} onClose={onClose} width={600} isOpen>
+        <Dialog hideCloseButton={false} isOpen onClose={onClose} width={600}>
           children
         </Dialog>,
         getRenderOptions(),
@@ -89,7 +89,7 @@ describe('<Dialog />', () => {
       const onClose = jest.fn();
 
       const { queryByTitle } = await axeRender(
-        <Dialog onClose={onClose} width={600} hideCloseButton isOpen>
+        <Dialog hideCloseButton isOpen onClose={onClose} width={600}>
           children
         </Dialog>,
         getRenderOptions(),
@@ -103,7 +103,7 @@ describe('<Dialog />', () => {
     it('closes when clicking the background overlay by default', async () => {
       const onClose = jest.fn();
       const { baseElement } = await axeRender(
-        <Dialog onClose={onClose} width={600} isOpen>
+        <Dialog isOpen onClose={onClose} width={600}>
           children
         </Dialog>,
         getRenderOptions(),
@@ -122,7 +122,7 @@ describe('<Dialog />', () => {
     it('closes when clicking the background overlay when shouldCloseOnOverlayClick=true', async () => {
       const onClose = jest.fn();
       const { baseElement } = await axeRender(
-        <Dialog onClose={onClose} width={600} isOpen shouldCloseOnOverlayClick>
+        <Dialog isOpen onClose={onClose} shouldCloseOnOverlayClick width={600}>
           children
         </Dialog>,
         getRenderOptions(),
@@ -142,10 +142,10 @@ describe('<Dialog />', () => {
       const onClose = jest.fn();
       const { baseElement } = await axeRender(
         <Dialog
+          isOpen
           onClose={onClose}
           shouldCloseOnOverlayClick={false}
           width={600}
-          isOpen
         >
           children
         </Dialog>,
@@ -166,7 +166,7 @@ describe('<Dialog />', () => {
     it('closes when clicking escape by default', async () => {
       const onClose = jest.fn();
       const { getByRole } = await axeRender(
-        <Dialog onClose={onClose} width={600} isOpen>
+        <Dialog isOpen onClose={onClose} width={600}>
           children
         </Dialog>,
         getRenderOptions(),
@@ -186,7 +186,7 @@ describe('<Dialog />', () => {
     it('closes when clicking escape if shouldCloseOnEsc=true', async () => {
       const onClose = jest.fn();
       const { getByRole } = await axeRender(
-        <Dialog onClose={onClose} width={600} isOpen shouldCloseOnEsc>
+        <Dialog isOpen onClose={onClose} shouldCloseOnEsc width={600}>
           children
         </Dialog>,
         getRenderOptions(),
@@ -206,7 +206,7 @@ describe('<Dialog />', () => {
     it("doesn't close when clicking escape if shouldCloseOnEsc=false", async () => {
       const onClose = jest.fn();
       const { getByRole } = await axeRender(
-        <Dialog onClose={onClose} shouldCloseOnEsc={false} width={600} isOpen>
+        <Dialog isOpen onClose={onClose} shouldCloseOnEsc={false} width={600}>
           children
         </Dialog>,
         getRenderOptions(),
@@ -226,7 +226,7 @@ describe('<Dialog />', () => {
   it('sets the width', async () => {
     const onClose = jest.fn();
     const { getByRole } = await axeRender(
-      <Dialog onClose={onClose} width={200} isOpen>
+      <Dialog isOpen onClose={onClose} width={200}>
         children
       </Dialog>,
       getRenderOptions(),
@@ -240,7 +240,7 @@ describe('<Dialog />', () => {
     const testTitle = 'test title';
 
     const { getByText } = await axeRender(
-      <Dialog onClose={() => {}} width={600} isOpen>
+      <Dialog isOpen onClose={() => {}} width={600}>
         <Dialog.Header>{testTitle}</Dialog.Header>
         children
       </Dialog>,
@@ -256,7 +256,7 @@ describe('<Dialog />', () => {
     const testTitle = 'test title';
 
     const { getByText } = await axeRender(
-      <Dialog onClose={() => {}} width={600} isOpen>
+      <Dialog isOpen onClose={() => {}} width={600}>
         <Dialog.Header>{testTitle}</Dialog.Header>
         <Dialog.Body>children</Dialog.Body>
         <Dialog.Footer>

@@ -71,7 +71,7 @@ const Toast = ({
         title={intent}
       />
       <div css={css({ flexGrow: 1, margin: 12 })}>
-        <Heading as="h4" size={200} multiLine>
+        <Heading as="h4" multiLine size={200}>
           {title}
         </Heading>
       </div>
@@ -97,7 +97,7 @@ const Toast = ({
           onClick={closeToast}
           type="button"
         >
-          <CrossIcon size={12} title="" aria-hidden />
+          <CrossIcon aria-hidden size={12} title="" />
         </button>
       )}
     </div>

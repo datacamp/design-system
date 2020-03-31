@@ -186,8 +186,8 @@ export default () => {
                     <use xlink:href="#add" />
                   </svg>
                 </span>'
-                span={2}
                 showSource
+                span={2}
               />
 
               <HtmlSpecimen
@@ -197,8 +197,8 @@ export default () => {
                     <use xlink:href="#add" />
                   </svg>
                 </span>'
-                span={2}
                 showSource
+                span={2}
               />
 
               <HtmlSpecimen
@@ -208,8 +208,8 @@ export default () => {
                     <use xlink:href="#add" />
                   </svg>
                 </span>'
-                span={2}
                 showSource
+                span={2}
               />
             </div>
 
@@ -230,8 +230,8 @@ export default () => {
                     <use xlink:href="#add" />
                   </svg>
                 </span>'
-                span={2}
                 showSource
+                span={2}
               />
 
               <HtmlSpecimen
@@ -241,8 +241,8 @@ export default () => {
                     <use xlink:href="#add" />
                   </svg>
                 </span>'
-                span={2}
                 showSource
+                span={2}
               />
 
               <HtmlSpecimen
@@ -252,8 +252,8 @@ export default () => {
                     <use xlink:href="#add" />
                   </svg>
                 </span>'
-                span={2}
                 showSource
+                span={2}
               />
             </div>
 
@@ -274,8 +274,8 @@ export default () => {
                     <use xlink:href="#add" />
                   </svg>
                 </span>'
-                span={2}
                 showSource
+                span={2}
               />
 
               <HtmlSpecimen
@@ -285,8 +285,8 @@ export default () => {
                     <use xlink:href="#add" />
                   </svg>
                 </span>'
-                span={2}
                 showSource
+                span={2}
               />
 
               <HtmlSpecimen
@@ -296,8 +296,8 @@ export default () => {
                     <use xlink:href="#add" />
                   </svg>
                 </span>'
-                span={2}
                 showSource
+                span={2}
               />
             </div>
 
@@ -323,8 +323,8 @@ export default () => {
                     </svg>
                   </span>
                 </p>'
-                  span={3}
                   showSource
+                  span={3}
                 />
 
                 <HtmlSpecimen
@@ -337,8 +337,8 @@ export default () => {
                     </svg>
                   </span>
                 </p>'
-                  span={3}
                   showSource
+                  span={3}
                 />
               </div>
             </section>
@@ -353,7 +353,7 @@ export default () => {
 
               <ul className="dc-u-lst-none dc-u-m-none dc-u-p-none dc-u-fx dc-u-fx-fww">
                 {obj.map(name => (
-                  <li key={name} className="dc-u-w-50pc">
+                  <li className="dc-u-w-50pc" key={name}>
                     <div className="dc-card dc-u-m-8 dc-u-ta-center">
                       <span className="dc-icon dc-icon--size-12">
                         <svg className="dc-icon__svg">
@@ -392,8 +392,8 @@ export default () => {
             </p>
             <button
               className="dc-btn dc-btn--sm dc-btn--secondary"
-              type="button"
               disabled
+              type="button"
             >
               <span className="dc-icon dc-icon--size-18 dc-icon--grey-dark dc-icon--flex dc-u-mr-8">
                 <svg className="dc-icon__svg">

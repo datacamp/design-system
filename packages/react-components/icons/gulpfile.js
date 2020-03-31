@@ -10,8 +10,8 @@ const babel = require('gulp-babel');
 const ts = require('gulp-typescript');
 const svgSprite = require('gulp-svg-sprite');
 const zip = require('gulp-zip');
-const svgoConfig = require('./svgorc.json');
 const sharp = require('sharp');
+const svgoConfig = require('./svgorc.json');
 
 function loadAllSVGs() {
   return merge(
