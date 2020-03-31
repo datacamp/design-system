@@ -5,6 +5,11 @@
   "module": "es/index.js",
   "types": "types/index.d.ts",
   "license": "UNLICENSED",
+  "files": [
+    "es",
+    "lib",
+    "types"
+  ],
   "sideEffects": [
     "lib/sideEffects/*",
     "es/sideEffects/*"
