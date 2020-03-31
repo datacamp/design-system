@@ -11,6 +11,7 @@ import {
   overlayStyleAfterOpen,
   overlayStyleBeforeClose,
 } from '../sharedStyles';
+
 import {
   animationTime,
   contentStyle,

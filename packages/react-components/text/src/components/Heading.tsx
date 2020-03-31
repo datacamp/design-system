@@ -9,6 +9,7 @@ import React, { ReactElement, ReactNode } from 'react';
 import PlainString from '../alternateComponents/PlainString';
 import baseStyle from '../baseStyle';
 import validateChildrenProp from '../validateChildrenProp';
+
 import Strong from './Strong';
 
 export type Size = 200 | 300 | 400 | 500 | 600 | 700 | 800;

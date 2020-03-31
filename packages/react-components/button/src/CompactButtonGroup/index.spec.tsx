@@ -4,6 +4,7 @@ import axeRender from '@datacamp/waffles-axe-render';
 import React from 'react';
 
 import Button from '../Button';
+
 import CompactButtonGroup from '.';
 
 describe('CompactButtonGroup', () => {

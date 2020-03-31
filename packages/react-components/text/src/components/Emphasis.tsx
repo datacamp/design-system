@@ -6,6 +6,7 @@ import React, { ReactElement, ReactNode } from 'react';
 import PlainString from '../alternateComponents/PlainString';
 import baseStyle from '../baseStyle';
 import validateChildrenProp from '../validateChildrenProp';
+
 import Strong from './Strong';
 import Text from './Text';
 
