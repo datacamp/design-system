@@ -5,6 +5,7 @@ import React, { ReactElement, ReactNode } from 'react';
 
 import baseStyle from '../baseStyle';
 import validateChildrenProp from '../validateChildrenProp';
+
 import Small from './Small';
 import Strong from './Strong';
 

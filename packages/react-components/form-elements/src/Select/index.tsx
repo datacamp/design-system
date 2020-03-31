@@ -14,6 +14,7 @@ import {
   selectStyle,
 } from '../formStyles';
 import Label from '../Label';
+
 import Option, { OptionProps } from './Option';
 
 interface SelectProps {

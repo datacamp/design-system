@@ -7,6 +7,7 @@ import ErrorBoundary from 'react-error-boundary';
 
 import Button from '../Button';
 import CompactButtonGroup from '../CompactButtonGroup';
+
 import ButtonGroup from '.';
 
 describe('ButtonGroup', () => {

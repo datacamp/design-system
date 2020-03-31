@@ -10,6 +10,7 @@ import AlternateCode from '../alternateComponents/AlternateCode';
 import PlainString from '../alternateComponents/PlainString';
 import baseStyle from '../baseStyle';
 import validateChildrenProp from '../validateChildrenProp';
+
 import Code from './Code';
 import Emphasis from './Emphasis';
 import Link from './Link';

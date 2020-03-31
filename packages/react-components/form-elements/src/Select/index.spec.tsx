@@ -5,8 +5,9 @@ import { fireEvent, render } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import React from 'react';
 
-import Select from '.';
 import SelectOption from './Option';
+
+import Select from '.';
 
 describe('<Select>', () => {
   const testName = 'test-name';

@@ -10,6 +10,7 @@ import { useUIDSeed } from 'react-uid';
 import { mergeRefs } from 'use-callback-ref';
 
 import Tooltip from '../Tooltip';
+
 import {
   baseColors,
   baseLoadingStyle,

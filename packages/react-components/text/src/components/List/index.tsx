@@ -8,6 +8,7 @@ import PropTypes from 'prop-types';
 import React, { ReactElement, ReactNode } from 'react';
 
 import baseStyle from '../../baseStyle';
+
 import ListItem from './ListItem';
 
 interface ListProps {
