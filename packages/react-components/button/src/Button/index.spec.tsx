@@ -606,8 +606,8 @@ describe('<Button />', () => {
     });
   });
 
-  describe('href and target props', () => {
-    it('renders a button type="submit" if type="submit"', async () => {
+  describe('type=submit', () => {
+    it('renders a button type="submit"', async () => {
       const { container } = await axeRender(
         <Button type="submit">Submit</Button>,
       );
