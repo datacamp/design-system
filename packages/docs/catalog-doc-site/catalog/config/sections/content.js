@@ -8,7 +8,7 @@ const pages = [
   },
   {
     content: pageLoader(() =>
-      import('../../pages/content/course-naming-guidelines.md')
+      import('../../pages/content/course-naming-guidelines.md'),
     ),
     path: '/content/course-naming-guidelines',
     title: 'Course Naming',

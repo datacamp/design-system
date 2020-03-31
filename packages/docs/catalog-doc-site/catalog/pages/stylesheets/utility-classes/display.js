@@ -106,12 +106,12 @@ export default () => {
                   <tr key={name}>
                     <td>
                       <code className="dc-u-ws-nowrap">{`.dc-u-d-b@${dashify(
-                        name
+                        name,
                       )}`}</code>
                     </td>
                     <td>{value}</td>
                   </tr>
-                )
+                ),
               )}
             </tbody>
           </table>
@@ -132,12 +132,12 @@ export default () => {
                   <tr key={name}>
                     <td>
                       <code className="dc-u-ws-nowrap">{`.dc-u-d-i@${dashify(
-                        name
+                        name,
                       )}`}</code>
                     </td>
                     <td>{value}</td>
                   </tr>
-                )
+                ),
               )}
             </tbody>
           </table>
@@ -158,12 +158,12 @@ export default () => {
                   <tr key={name}>
                     <td>
                       <code className="dc-u-ws-nowrap">{`.dc-u-d-ib@${dashify(
-                        name
+                        name,
                       )}`}</code>
                     </td>
                     <td>{value}</td>
                   </tr>
-                )
+                ),
               )}
             </tbody>
           </table>
@@ -184,12 +184,12 @@ export default () => {
                   <tr key={name}>
                     <td>
                       <code className="dc-u-ws-nowrap">{`.dc-u-d-none@${dashify(
-                        name
+                        name,
                       )}`}</code>
                     </td>
                     <td>{value}</td>
                   </tr>
-                )
+                ),
               )}
             </tbody>
           </table>
@@ -210,12 +210,12 @@ export default () => {
                   <tr key={name}>
                     <td>
                       <code className="dc-u-ws-nowrap">{`.dc-u-d-tbl@${dashify(
-                        name
+                        name,
                       )}`}</code>
                     </td>
                     <td>{value}</td>
                   </tr>
-                )
+                ),
               )}
             </tbody>
           </table>
@@ -236,12 +236,12 @@ export default () => {
                   <tr key={name}>
                     <td>
                       <code className="dc-u-ws-nowrap">{`.dc-u-d-tbl-cell@${dashify(
-                        name
+                        name,
                       )}`}</code>
                     </td>
                     <td>{value}</td>
                   </tr>
-                )
+                ),
               )}
             </tbody>
           </table>

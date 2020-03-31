@@ -27,17 +27,17 @@ describe('<AlertModal />', () => {
           title="test title"
           isOpen
         />,
-        getRenderOptions()
+        getRenderOptions(),
       );
 
       expect(container).toHaveAttribute('aria-hidden', 'true'); // app gets hidden when open
 
       const modalElement = getByRole('dialog');
       expect(modalElement).toContainElement(
-        getByText('test title') as HTMLElement
+        getByText('test title') as HTMLElement,
       );
       expect(modalElement).toContainElement(
-        getByText('test description') as HTMLElement
+        getByText('test description') as HTMLElement,
       );
       expect(baseElement).toMatchSnapshot();
     });
@@ -51,7 +51,7 @@ describe('<AlertModal />', () => {
           onConfirm={() => {}}
           title="test title"
         />,
-        getRenderOptions()
+        getRenderOptions(),
       );
 
       expect(container).not.toHaveAttribute('aria-hidden', 'true'); // app is interactive when hidden
@@ -71,7 +71,7 @@ describe('<AlertModal />', () => {
           title="test title"
           isOpen
         />,
-        getRenderOptions()
+        getRenderOptions(),
       );
       const confirmationButton = getByText('Confirm') as HTMLElement;
       userEvent.click(confirmationButton);
@@ -91,7 +91,7 @@ describe('<AlertModal />', () => {
           title="test title"
           isOpen
         />,
-        getRenderOptions()
+        getRenderOptions(),
       );
       const confirmationButton = getByText(confirmButtonText) as HTMLElement;
       userEvent.click(confirmationButton);
@@ -112,7 +112,7 @@ describe('<AlertModal />', () => {
           title="test title"
           isOpen
         />,
-        getRenderOptions()
+        getRenderOptions(),
       );
 
       const closeButton = getByTitle('Cross') as HTMLElement;
@@ -133,7 +133,7 @@ describe('<AlertModal />', () => {
           title="test title"
           isOpen
         />,
-        getRenderOptions()
+        getRenderOptions(),
       );
 
       const closeButton = getByText('Cancel') as HTMLElement;
@@ -155,7 +155,7 @@ describe('<AlertModal />', () => {
           title="test title"
           isOpen
         />,
-        getRenderOptions()
+        getRenderOptions(),
       );
 
       const closeButton = getByText(cancelButtonText) as HTMLElement;
@@ -175,12 +175,12 @@ describe('<AlertModal />', () => {
           title="test title"
           isOpen
         />,
-        getRenderOptions()
+        getRenderOptions(),
       );
 
       // need to use querySelector since there is no real content/label for the background
       const backgroundOverlayElement = baseElement.querySelector(
-        '.modal-overlay'
+        '.modal-overlay',
       ) as HTMLElement;
 
       userEvent.click(backgroundOverlayElement);
@@ -198,7 +198,7 @@ describe('<AlertModal />', () => {
           title="test title"
           isOpen
         />,
-        getRenderOptions()
+        getRenderOptions(),
       );
 
       const dialogElement = getByRole('dialog') as HTMLElement;
@@ -224,11 +224,11 @@ describe('<AlertModal />', () => {
           isOpen
           loading
         />,
-        getRenderOptions()
+        getRenderOptions(),
       );
 
       const confirmButtonElement = (getByText(
-        'Confirm'
+        'Confirm',
       ) as HTMLElement).closest('button');
 
       const spinnerElement = getByTitle('Spinner') as HTMLElement;
@@ -247,7 +247,7 @@ describe('<AlertModal />', () => {
           isOpen
           loading
         />,
-        getRenderOptions()
+        getRenderOptions(),
       );
 
       const closeButton = getByTitle('Cross') as HTMLElement;
@@ -268,7 +268,7 @@ describe('<AlertModal />', () => {
           isOpen
           loading
         />,
-        getRenderOptions()
+        getRenderOptions(),
       );
 
       const closeButton = getByText('Cancel') as HTMLElement;
@@ -288,12 +288,12 @@ describe('<AlertModal />', () => {
           isOpen
           loading
         />,
-        getRenderOptions()
+        getRenderOptions(),
       );
 
       // need to use querySelector since there is no real content/label for the background
       const backgroundOverlayElement = baseElement.querySelector(
-        '.modal-overlay'
+        '.modal-overlay',
       ) as HTMLElement;
 
       userEvent.click(backgroundOverlayElement);
@@ -311,7 +311,7 @@ describe('<AlertModal />', () => {
           isOpen
           loading
         />,
-        getRenderOptions()
+        getRenderOptions(),
       );
 
       const dialogElement = getByRole('dialog') as HTMLElement;
@@ -335,14 +335,14 @@ describe('<AlertModal />', () => {
           title="test title"
           isOpen
         />,
-        getRenderOptions()
+        getRenderOptions(),
       );
       const confirmButtonElement = (getByText(
-        'Confirm'
+        'Confirm',
       ) as HTMLElement).closest('button');
       expect(confirmButtonElement).toHaveFocus();
       expect(confirmButtonElement).toHaveStyle(
-        `background-color: ${tokens.color.opaque.primary.value.rgb}`
+        `background-color: ${tokens.color.opaque.primary.value.rgb}`,
       );
     });
 
@@ -356,14 +356,14 @@ describe('<AlertModal />', () => {
           title="test title"
           isOpen
         />,
-        getRenderOptions()
+        getRenderOptions(),
       );
       const confirmButtonElement = (getByText(
-        'Confirm'
+        'Confirm',
       ) as HTMLElement).closest('button');
       expect(confirmButtonElement).toHaveFocus();
       expect(confirmButtonElement).toHaveStyle(
-        `background-color: ${tokens.color.opaque.primary.value.rgb}`
+        `background-color: ${tokens.color.opaque.primary.value.rgb}`,
       );
     });
 
@@ -377,14 +377,14 @@ describe('<AlertModal />', () => {
           title="test title"
           isOpen
         />,
-        getRenderOptions()
+        getRenderOptions(),
       );
       const confirmButtonElement = (getByText(
-        'Confirm'
+        'Confirm',
       ) as HTMLElement).closest('button');
       expect(confirmButtonElement).toHaveFocus();
       expect(confirmButtonElement).toHaveStyle(
-        `background-color: ${tokens.color.opaque.green.value.rgb}`
+        `background-color: ${tokens.color.opaque.green.value.rgb}`,
       );
     });
 
@@ -398,17 +398,17 @@ describe('<AlertModal />', () => {
           title="test title"
           isOpen
         />,
-        getRenderOptions()
+        getRenderOptions(),
       );
       const cancelButtonElement = (getByText('Cancel') as HTMLElement).closest(
-        'button'
+        'button',
       );
       const confirmButtonElement = (getByText(
-        'Confirm'
+        'Confirm',
       ) as HTMLElement).closest('button');
       expect(cancelButtonElement).toHaveFocus();
       expect(confirmButtonElement).toHaveStyle(
-        `background-color: ${tokens.color.opaque.orange.value.rgb}`
+        `background-color: ${tokens.color.opaque.orange.value.rgb}`,
       );
     });
 
@@ -422,17 +422,17 @@ describe('<AlertModal />', () => {
           title="test title"
           isOpen
         />,
-        getRenderOptions()
+        getRenderOptions(),
       );
       const cancelButtonElement = (getByText('Cancel') as HTMLElement).closest(
-        'button'
+        'button',
       );
       const confirmButtonElement = (getByText(
-        'Confirm'
+        'Confirm',
       ) as HTMLElement).closest('button');
       expect(cancelButtonElement).toHaveFocus();
       expect(confirmButtonElement).toHaveStyle(
-        `background-color: ${tokens.color.opaque.red.value.rgb}`
+        `background-color: ${tokens.color.opaque.red.value.rgb}`,
       );
     });
   });

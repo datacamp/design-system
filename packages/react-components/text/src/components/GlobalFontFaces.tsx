@@ -10,7 +10,7 @@ const allFontFaces = css(
   boldFontFace,
   lightFontFace,
   monoFontFace,
-  regularFontFace
+  regularFontFace,
 );
 
 const GlobalFontFaces = (): React.ReactElement => (

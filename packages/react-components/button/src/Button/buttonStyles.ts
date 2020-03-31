@@ -102,7 +102,7 @@ const getDefaultStyle = (intent: Intent, enabled: boolean): SerializedStyles =>
         borderColor: hoverColors[intent],
         color: hoverColors[intent],
       },
-    }
+    },
   );
 
 const getPrimaryStyle = (intent: Intent, enabled: boolean): SerializedStyles =>
@@ -116,13 +116,13 @@ const getPrimaryStyle = (intent: Intent, enabled: boolean): SerializedStyles =>
         backgroundColor: hoverColors[intent],
         borderColor: hoverColors[intent],
       },
-    }
+    },
   );
 
 const getAppearanceStyle = (
   appearance: 'primary' | 'default',
   intent: Intent,
-  enabled: boolean
+  enabled: boolean,
 ): SerializedStyles =>
   appearance === 'primary'
     ? getPrimaryStyle(intent, enabled)
@@ -130,14 +130,14 @@ const getAppearanceStyle = (
 
 const getDisabledStyle = (
   appearance: 'primary' | 'default',
-  intent: Intent
+  intent: Intent,
 ): SerializedStyles =>
   css(
     { borderColor: baseColors[intent], cursor: 'not-allowed', opacity: 0.2 },
     appearance === 'primary' && {
       backgroundColor: baseColors[intent],
       borderColor: baseColors[intent],
-    }
+    },
   );
 
 export {

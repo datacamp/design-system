@@ -17,7 +17,7 @@ describe('<Input />', () => {
 
     it('sets the correct name and value on the input', () => {
       const { getByRole } = render(
-        <Input name={testName} onChange={() => {}} value={testValue} />
+        <Input name={testName} onChange={() => {}} value={testValue} />,
       );
 
       const inputElement = getByRole('textbox') as HTMLElement;
@@ -34,7 +34,7 @@ describe('<Input />', () => {
           name={testName}
           onChange={() => {}}
           value={testValue}
-        />
+        />,
       );
 
       const inputElement = getByRole('textbox') as HTMLElement;
@@ -50,7 +50,7 @@ describe('<Input />', () => {
           name={testName}
           onChange={() => {}}
           value={testValue}
-        />
+        />,
       );
       const inputElement = getByRole('textbox') as HTMLElement;
 
@@ -65,7 +65,7 @@ describe('<Input />', () => {
           name={testName}
           onChange={() => {}}
           value={testValue}
-        />
+        />,
       );
       const inputElement = getByRole('textbox') as HTMLElement;
 
@@ -80,7 +80,7 @@ describe('<Input />', () => {
           name={testName}
           onChange={() => {}}
           value={testValue}
-        />
+        />,
       );
 
       const inputElement = getByRole('textbox') as HTMLElement;
@@ -96,7 +96,7 @@ describe('<Input />', () => {
           onBlur={onBlur}
           onChange={() => {}}
           value={testValue}
-        />
+        />,
       );
 
       const inputElement = getByRole('textbox') as HTMLElement;
@@ -108,7 +108,7 @@ describe('<Input />', () => {
     it('calls the onChange function', () => {
       const onChange = jest.fn();
       const { getByRole } = render(
-        <Input name={testName} onChange={onChange} value={testValue} />
+        <Input name={testName} onChange={onChange} value={testValue} />,
       );
       const testString = 'test string';
       const inputElement = getByRole('textbox') as HTMLElement;
@@ -125,17 +125,22 @@ describe('<Input />', () => {
           onChange={() => {}}
           placeholder={placeholder}
           value={testValue}
-        />
+        />,
       );
       expect(getByRole('textbox') as HTMLElement).toHaveAttribute(
         'placeholder',
-        placeholder
+        placeholder,
       );
     });
 
     it('disables the input if disabled is passed as a prop', () => {
       const { getByRole } = render(
-        <Input name={testName} onChange={() => {}} value={testValue} disabled />
+        <Input
+          name={testName}
+          onChange={() => {}}
+          value={testValue}
+          disabled
+        />,
       );
       expect(getByRole('textbox')).toHaveAttribute('disabled');
     });
@@ -150,7 +155,7 @@ describe('<Input />', () => {
           onChange={() => {}}
           placeholder={placeholder}
           value={testValue}
-        />
+        />,
       );
 
       const iconElement = getByTitle('Add') as HTMLElement;
@@ -165,7 +170,7 @@ describe('<Input />', () => {
           name={testName}
           onChange={() => {}}
           value={testValue}
-        />
+        />,
       );
       expect(getByRole('textbox')).toHaveAttribute('id', testId);
     });
@@ -179,7 +184,7 @@ describe('<Input />', () => {
           placeholder={placeholder}
           value={testValue}
           disabled
-        />
+        />,
       );
       expect(getByRole('textbox')).toHaveAttribute('disabled');
     });
@@ -193,7 +198,7 @@ describe('<Input />', () => {
           placeholder={placeholder}
           size="small"
           value={testValue}
-        />
+        />,
       );
       expect(container.firstChild).toHaveStyle(`height: 36px;`);
       expect(container.firstChild).toHaveStyle(`font-size: 16px;`);
@@ -207,7 +212,7 @@ describe('<Input />', () => {
           onChange={() => {}}
           placeholder={placeholder}
           value={testValue}
-        />
+        />,
       );
       expect(container.firstChild).toHaveStyle(`height: 48px;`);
       expect(container.firstChild).toHaveStyle(`font-size: 16px;`);
@@ -222,7 +227,7 @@ describe('<Input />', () => {
           placeholder={placeholder}
           size="large"
           value={testValue}
-        />
+        />,
       );
       expect(container.firstChild).toHaveStyle(`height: 64px;`);
       expect(container.firstChild).toHaveStyle(`font-size: 20px;`);
@@ -239,11 +244,11 @@ describe('<Input />', () => {
           name={testName}
           onChange={() => {}}
           value={testValue}
-        />
+        />,
       );
       expect(getByText(testError)).toBeInTheDocument();
       expect(getByText(testError)).toHaveStyle(
-        `color: ${tokens.color.opaque.red.value.hex}`
+        `color: ${tokens.color.opaque.red.value.hex}`,
       );
       expect(getByText(testError)).toHaveStyle(`font-size: 14px`);
     });
@@ -258,11 +263,11 @@ describe('<Input />', () => {
           onChange={() => {}}
           value={testValue}
           required
-        />
+        />,
       );
       expect(getByText('Required')).toBeInTheDocument();
       expect(getByText('Required')).toHaveStyle(
-        `color: ${tokens.color.opaque.greyOslo.value.hex};`
+        `color: ${tokens.color.opaque.greyOslo.value.hex};`,
       );
       expect(getByText('Required')).toHaveStyle(`font-size: 14px;`);
     });
@@ -277,11 +282,11 @@ describe('<Input />', () => {
           onChange={() => {}}
           required={false}
           value={testValue}
-        />
+        />,
       );
       expect(getByText('Optional')).toBeInTheDocument();
       expect(getByText('Optional')).toHaveStyle(
-        `color: ${tokens.color.opaque.greyOslo.value.hex};`
+        `color: ${tokens.color.opaque.greyOslo.value.hex};`,
       );
       expect(getByText('Optional')).toHaveStyle(`font-size: 14px;`);
     });
@@ -299,7 +304,7 @@ describe('with label', () => {
         name={testName}
         onChange={() => {}}
         value={testValue}
-      />
+      />,
     );
     expect(getByLabelText(testLabel)).toBeInTheDocument();
   });
@@ -314,7 +319,7 @@ describe('with label', () => {
         name={testName}
         onChange={() => {}}
         value={testValue}
-      />
+      />,
     );
     expect(getByText(testDescription)).toBeInTheDocument();
   });
@@ -346,7 +351,7 @@ describe('snapshots', () => {
               required={isRequired}
               size={size}
               value=""
-            />
+            />,
           );
           expect(container.firstChild).toMatchSnapshot();
         });

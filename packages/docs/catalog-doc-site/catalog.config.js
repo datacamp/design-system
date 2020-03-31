@@ -76,7 +76,7 @@ module.exports = {
       new BundleAnalyzerPlugin({
         analyzerMode: dev ? 'server' : 'static',
         openAnalyzer: dev,
-      })
+      }),
     );
 
     return config;

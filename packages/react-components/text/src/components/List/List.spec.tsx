@@ -18,7 +18,7 @@ describe('List', () => {
             <List.Item>nested item 2</List.Item>
           </List>
         </List.Item>
-      </List>
+      </List>,
     );
     expect(container.firstChild).toHaveClass('test-class');
     expect(container.firstChild).toMatchSnapshot();
@@ -36,7 +36,7 @@ describe('List', () => {
             <List.Item>nested item 2</List.Item>
           </List>
         </List.Item>
-      </List>
+      </List>,
     );
     expect(container.firstChild).toHaveClass('test-class');
     expect(container.firstChild).toMatchSnapshot();

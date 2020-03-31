@@ -12,7 +12,7 @@ describe('Badge', () => {
     const { getByText } = await axeRender(
       <Badge className="test-class" color="black">
         {testContent}
-      </Badge>
+      </Badge>,
     );
     const element = getByText(testContent) as HTMLElement;
     expect(element).toHaveStyle('background-color: black');
@@ -25,32 +25,32 @@ describe('Badge', () => {
       const { getByText } = await axeRender(
         <Badge color="black" size="small">
           {testContent}
-        </Badge>
+        </Badge>,
       );
       const element = getByText(testContent) as HTMLElement;
       expect(element).toHaveStyle(`font-size: ${tokens.size.font[200].value}`);
       expect(element).toHaveStyle(`line-height: 18px`);
       expect(element).toHaveStyle(
-        `padding-left: ${tokens.size.space[4].value}px`
+        `padding-left: ${tokens.size.space[4].value}px`,
       );
       expect(element).toHaveStyle(
-        `padding-right: ${tokens.size.space[4].value}px`
+        `padding-right: ${tokens.size.space[4].value}px`,
       );
     });
     it('renders a large badge', async () => {
       const { getByText } = await axeRender(
         <Badge color="black" size="large">
           {testContent}
-        </Badge>
+        </Badge>,
       );
       const element = getByText(testContent) as HTMLElement;
       expect(element).toHaveStyle(`font-size: ${tokens.size.font[300].value}`);
       expect(element).toHaveStyle(`line-height: 24px`);
       expect(element).toHaveStyle(
-        `padding-left: ${tokens.size.space[8].value}px`
+        `padding-left: ${tokens.size.space[8].value}px`,
       );
       expect(element).toHaveStyle(
-        `padding-right: ${tokens.size.space[8].value}px`
+        `padding-right: ${tokens.size.space[8].value}px`,
       );
     });
   });
@@ -60,7 +60,7 @@ describe('Badge', () => {
       const { getByText } = await axeRender(
         <Badge color={tokens.color.opaque.primary.value.hex}>
           {testContent}
-        </Badge>
+        </Badge>,
       );
       const element = getByText(testContent) as HTMLElement;
       expect(element).toHaveStyle('color: white');
@@ -70,7 +70,7 @@ describe('Badge', () => {
       const { getByText } = await axeRender(
         <Badge color={tokens.color.opaque.greyLighter.value.hex}>
           {testContent}
-        </Badge>
+        </Badge>,
       );
       const element = getByText(testContent) as HTMLElement;
       expect(element).toHaveStyle('color: rgba(12, 22, 38, 0.8)');

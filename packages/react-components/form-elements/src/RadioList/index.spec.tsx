@@ -22,7 +22,7 @@ describe('<RadioList>', () => {
       >
         <Radio value={testValue}>item 1</Radio>
         <Radio value="value2">item 2</Radio>
-      </RadioList>
+      </RadioList>,
     );
 
     expect(getByText(testLabel) as HTMLElement).toBeInTheDocument();
@@ -47,7 +47,7 @@ describe('<RadioList>', () => {
         >
           <Radio value={testValue}>item 1</Radio>
           <Radio value="value2">item 2</Radio>
-        </RadioList>
+        </RadioList>,
       );
 
       expect(getByText('Required')).toBeInTheDocument();
@@ -63,7 +63,7 @@ describe('<RadioList>', () => {
         >
           <Radio value={testValue}>item 1</Radio>
           <Radio value="value2">item 2</Radio>
-        </RadioList>
+        </RadioList>,
       );
 
       expect(getByText('Optional')).toBeInTheDocument();
@@ -83,7 +83,7 @@ describe('<RadioList>', () => {
       >
         <Radio value={testValue}>item 1</Radio>
         <Radio value="value2">item 2</Radio>
-      </RadioList>
+      </RadioList>,
     );
     expect(getByText(testError)).toBeInTheDocument();
   });
@@ -99,7 +99,7 @@ describe('<RadioList>', () => {
       >
         <Radio value="value1">item 1</Radio>
         <Radio value="value2">item 2</Radio>
-      </RadioList>
+      </RadioList>,
     );
 
     const radioElement1 = getByLabelText('item 1') as HTMLElement;
@@ -121,7 +121,7 @@ describe('<RadioList>', () => {
         <Radio value="value2" disabled>
           item 2
         </Radio>
-      </RadioList>
+      </RadioList>,
     );
 
     const radioElement1 = getByLabelText('item 1') as HTMLElement;
@@ -142,7 +142,7 @@ describe('<RadioList>', () => {
         >
           <Radio value="value1">item 1</Radio>
           <Radio value="value2">item 2</Radio>
-        </RadioList>
+        </RadioList>,
       );
 
       const radioElement1 = getByLabelText('item 1') as HTMLElement;
@@ -162,7 +162,7 @@ describe('<RadioList>', () => {
         >
           <Radio value="value1">item 1</Radio>
           <Radio value="value2">item 2</Radio>
-        </RadioList>
+        </RadioList>,
       );
 
       const radioElement1 = getByLabelText('item 1') as HTMLElement;
@@ -183,7 +183,7 @@ describe('<RadioList>', () => {
         >
           <Radio value="value1">item 1</Radio>
           <Radio value="value2">item 2</Radio>
-        </RadioList>
+        </RadioList>,
       );
 
       const radioElement2 = getByLabelText('item 2') as HTMLElement;
@@ -210,7 +210,7 @@ describe('<RadioList>', () => {
           <Radio value="value2" disabled>
             item 3
           </Radio>
-        </RadioList>
+        </RadioList>,
       );
       expect(container.firstChild).toMatchSnapshot();
     });

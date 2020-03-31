@@ -14,7 +14,7 @@ describe('<Card />', () => {
       const { container } = await axeRender(
         <Card as="section">
           <p>{testText}</p>
-        </Card>
+        </Card>,
       );
 
       expect((container.firstChild as HTMLElement).tagName).toEqual('SECTION');
@@ -24,7 +24,7 @@ describe('<Card />', () => {
       const { container } = await axeRender(
         <Card>
           <p>{testText}</p>
-        </Card>
+        </Card>,
       );
 
       expect((container.firstChild as HTMLElement).tagName).toEqual('DIV');
@@ -36,7 +36,7 @@ describe('<Card />', () => {
       const { container, getByText } = await axeRender(
         <Card as="section">
           <p>{testText}</p>
-        </Card>
+        </Card>,
       );
       const childElement = getByText(testText) as HTMLElement;
 
@@ -50,7 +50,7 @@ describe('<Card />', () => {
       const { container } = await axeRender(
         <Card className={testClass}>
           <p>{testText}</p>
-        </Card>
+        </Card>,
       );
 
       expect(container.firstChild).toHaveClass(testClass);
@@ -62,11 +62,11 @@ describe('<Card />', () => {
       const { container } = await axeRender(
         <Card>
           <p>{testText}</p>
-        </Card>
+        </Card>,
       );
 
       expect(container.firstChild).toHaveStyle(
-        `box-shadow: ${shadow.border.value}`
+        `box-shadow: ${shadow.border.value}`,
       );
     });
 
@@ -74,11 +74,11 @@ describe('<Card />', () => {
       const { container } = await axeRender(
         <Card elevation={0}>
           <p>{testText}</p>
-        </Card>
+        </Card>,
       );
 
       expect(container.firstChild).toHaveStyle(
-        `box-shadow: ${shadow.border.value}`
+        `box-shadow: ${shadow.border.value}`,
       );
     });
 
@@ -86,11 +86,11 @@ describe('<Card />', () => {
       const { container } = await axeRender(
         <Card elevation={1}>
           <p>{testText}</p>
-        </Card>
+        </Card>,
       );
 
       expect(container.firstChild).toHaveStyle(
-        `box-shadow: 0px 0px 1px 0px rgba(61,66,81,0.3),${shadow.sm.value}`
+        `box-shadow: 0px 0px 1px 0px rgba(61,66,81,0.3),${shadow.sm.value}`,
       );
     });
 
@@ -98,11 +98,11 @@ describe('<Card />', () => {
       const { container } = await axeRender(
         <Card elevation={2}>
           <p>{testText}</p>
-        </Card>
+        </Card>,
       );
 
       expect(container.firstChild).toHaveStyle(
-        `box-shadow: 0px 0px 1px 0px rgba(61,66,81,0.3),${shadow.md.value}`
+        `box-shadow: 0px 0px 1px 0px rgba(61,66,81,0.3),${shadow.md.value}`,
       );
     });
 
@@ -110,11 +110,11 @@ describe('<Card />', () => {
       const { container } = await axeRender(
         <Card elevation={3}>
           <p>{testText}</p>
-        </Card>
+        </Card>,
       );
 
       expect(container.firstChild).toHaveStyle(
-        `box-shadow: 0px 0px 1px 0px rgba(61,66,81,0.3),${shadow.lg.value}`
+        `box-shadow: 0px 0px 1px 0px rgba(61,66,81,0.3),${shadow.lg.value}`,
       );
     });
 
@@ -122,11 +122,11 @@ describe('<Card />', () => {
       const { container } = await axeRender(
         <Card elevation={4}>
           <p>{testText}</p>
-        </Card>
+        </Card>,
       );
 
       expect(container.firstChild).toHaveStyle(
-        `box-shadow: 0px 0px 1px 0px rgba(61,66,81,0.3),${shadow.xl.value}`
+        `box-shadow: 0px 0px 1px 0px rgba(61,66,81,0.3),${shadow.xl.value}`,
       );
     });
   });
@@ -140,7 +140,7 @@ describe('<Card />', () => {
           const { container } = await axeRender(
             <Card elevation={elevation}>
               <p>example content</p>
-            </Card>
+            </Card>,
           );
 
           expect(container.firstChild).toMatchSnapshot();
@@ -152,7 +152,7 @@ describe('<Card />', () => {
           const { container } = await axeRender(
             <Card hoverElevation={elevation}>
               <p>example content</p>
-            </Card>
+            </Card>,
           );
 
           expect(container.firstChild).toMatchSnapshot();

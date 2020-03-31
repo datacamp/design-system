@@ -13,7 +13,7 @@ describe('CompactButtonGroup', () => {
         <Button type="submit">Button 1</Button>
         <Button type="submit">Button 2</Button>
         <Button type="submit">Button 3</Button>
-      </CompactButtonGroup>
+      </CompactButtonGroup>,
     );
 
     const button1 = (getByText('Button 1') as HTMLElement).closest('button');
@@ -39,7 +39,7 @@ describe('CompactButtonGroup', () => {
         <Button type="submit">Button 1</Button>
         <Button type="submit">Button 2</Button>
         <Button type="submit">Button 3</Button>
-      </CompactButtonGroup>
+      </CompactButtonGroup>,
     );
 
     expect(container.firstChild).toHaveClass(testClass);

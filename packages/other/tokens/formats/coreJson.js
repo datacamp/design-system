@@ -17,7 +17,7 @@ module.exports = dictionary => {
         }),
         prop => {
           return prop.attributes.below;
-        }
+        },
       ),
     },
     colors: extractColors({
@@ -26,39 +26,39 @@ module.exports = dictionary => {
     }),
     fontFamily: _.mapValues(
       extractValues(dictionary.properties.asset.font),
-      fontFamily => `'${fontFamily}'`
+      fontFamily => `'${fontFamily}'`,
     ),
     fontSize: _.mapValues(
       extractValues(
         _.mapKeys(
           dictionary.properties.size.font,
-          ({ attributes }, key) => attributes.legacyName || key
-        )
+          ({ attributes }, key) => attributes.legacyName || key,
+        ),
       ),
-      fontSize => (_.isString(fontSize) ? fontSize : `${fontSize}rem`)
+      fontSize => (_.isString(fontSize) ? fontSize : `${fontSize}rem`),
     ),
     fontWeight: _.mapValues(
       extractValues(dictionary.properties.fontWeight),
-      fontWeight => `${fontWeight}`
+      fontWeight => `${fontWeight}`,
     ),
     gradients: extractValues(dictionary.properties.gradient),
     lineHeight: extractValues(dictionary.properties.lineHeight),
     spatial: {
       angles: extractValueArray(dictionary.properties.size.spatial.angle).join(
-        ' '
+        ' ',
       ),
       commonSizes: extractValueArray(
-        dictionary.properties.size.spatial.commonSize
+        dictionary.properties.size.spatial.commonSize,
       ).join(' '),
       measure: extractValueArray(
-        dictionary.properties.size.spatial.measure
+        dictionary.properties.size.spatial.measure,
       ).join(' '),
       multiplier: dictionary.properties.size.spatial.multiplier.value,
       percentages: extractValueArray(
-        dictionary.properties.size.spatial.percentage
+        dictionary.properties.size.spatial.percentage,
       ).join(' '),
       sizes: extractValueArray(dictionary.properties.size.spatial.size).join(
-        ' '
+        ' ',
       ),
       zIndex: extractValueArray(dictionary.properties.zIndex).join(' '),
     },

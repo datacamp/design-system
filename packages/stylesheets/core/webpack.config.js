@@ -93,7 +93,7 @@ module.exports = {
               .toString()
               .replace(
                 "@import '~@datacamp/waffles-tokens/lib/variables.scss';",
-                "@import 'design/variables.scss';"
+                "@import 'design/variables.scss';",
               );
           },
         },
@@ -112,7 +112,7 @@ module.exports = {
       ],
       {
         ignore: ['**/.*'],
-      }
+      },
     ),
 
     // remove webpack artifact

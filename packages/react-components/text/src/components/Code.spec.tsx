@@ -16,7 +16,7 @@ describe('<Code /', () => {
 it('sets the className on the code element', async () => {
   const className = 'test-class';
   const { container } = await axeRender(
-    <Code className={className}>example code</Code>
+    <Code className={className}>example code</Code>,
   );
 
   expect(container.firstChild).toHaveClass(className);
@@ -25,7 +25,7 @@ it('sets the className on the code element', async () => {
 it('sets the dataAttributes on the code element', async () => {
   const data = { test: 'example' };
   const { container } = await axeRender(
-    <Code dataAttributes={data}>example code</Code>
+    <Code dataAttributes={data}>example code</Code>,
   );
 
   expect(container.firstChild).toHaveAttribute('data-test', 'example');

@@ -4,7 +4,7 @@ import { pageLoader } from 'catalog';
 const utilityClassPages = [
   {
     content: pageLoader(() =>
-      import('../../pages/stylesheets/utility-classes/background.js')
+      import('../../pages/stylesheets/utility-classes/background.js'),
     ),
     hideFromMenu: true,
     path: '/stylesheets/utility-classes/background',
@@ -12,7 +12,7 @@ const utilityClassPages = [
   },
   {
     content: pageLoader(() =>
-      import('../../pages/stylesheets/utility-classes/border.js')
+      import('../../pages/stylesheets/utility-classes/border.js'),
     ),
     hideFromMenu: true,
     path: '/stylesheets/utility-classes/border',
@@ -20,7 +20,7 @@ const utilityClassPages = [
   },
   {
     content: pageLoader(() =>
-      import('../../pages/stylesheets/utility-classes/border-radius.js')
+      import('../../pages/stylesheets/utility-classes/border-radius.js'),
     ),
     hideFromMenu: true,
     path: '/stylesheets/utility-classes/border-radius',
@@ -28,7 +28,7 @@ const utilityClassPages = [
   },
   {
     content: pageLoader(() =>
-      import('../../pages/stylesheets/utility-classes/box-shadow.js')
+      import('../../pages/stylesheets/utility-classes/box-shadow.js'),
     ),
     hideFromMenu: true,
     path: '/stylesheets/utility-classes/box-shadow',
@@ -36,7 +36,7 @@ const utilityClassPages = [
   },
   {
     content: pageLoader(() =>
-      import('../../pages/stylesheets/utility-classes/color.js')
+      import('../../pages/stylesheets/utility-classes/color.js'),
     ),
     hideFromMenu: true,
     path: '/stylesheets/utility-classes/color',
@@ -44,7 +44,7 @@ const utilityClassPages = [
   },
   {
     content: pageLoader(() =>
-      import('../../pages/stylesheets/utility-classes/cursor.js')
+      import('../../pages/stylesheets/utility-classes/cursor.js'),
     ),
     hideFromMenu: true,
     path: '/stylesheets/utility-classes/cursor',
@@ -52,7 +52,7 @@ const utilityClassPages = [
   },
   {
     content: pageLoader(() =>
-      import('../../pages/stylesheets/utility-classes/display.js')
+      import('../../pages/stylesheets/utility-classes/display.js'),
     ),
     hideFromMenu: true,
     path: '/stylesheets/utility-classes/display',
@@ -60,7 +60,7 @@ const utilityClassPages = [
   },
   {
     content: pageLoader(() =>
-      import('../../pages/stylesheets/utility-classes/flexbox-containers.js')
+      import('../../pages/stylesheets/utility-classes/flexbox-containers.js'),
     ),
     hideFromMenu: true,
     path: '/stylesheets/utility-classes/flexbox-containers',
@@ -68,7 +68,7 @@ const utilityClassPages = [
   },
   {
     content: pageLoader(() =>
-      import('../../pages/stylesheets/utility-classes/flexbox-items.js')
+      import('../../pages/stylesheets/utility-classes/flexbox-items.js'),
     ),
     hideFromMenu: true,
     path: '/stylesheets/utility-classes/flexbox-items',
@@ -76,7 +76,7 @@ const utilityClassPages = [
   },
   {
     content: pageLoader(() =>
-      import('../../pages/stylesheets/utility-classes/font.js')
+      import('../../pages/stylesheets/utility-classes/font.js'),
     ),
     hideFromMenu: true,
     path: '/stylesheets/utility-classes/font',
@@ -84,7 +84,7 @@ const utilityClassPages = [
   },
   {
     content: pageLoader(() =>
-      import('../../pages/stylesheets/utility-classes/height.js')
+      import('../../pages/stylesheets/utility-classes/height.js'),
     ),
     hideFromMenu: true,
     path: '/stylesheets/utility-classes/height',
@@ -92,7 +92,7 @@ const utilityClassPages = [
   },
   {
     content: pageLoader(() =>
-      import('../../pages/stylesheets/utility-classes/letter-spacing.js')
+      import('../../pages/stylesheets/utility-classes/letter-spacing.js'),
     ),
     hideFromMenu: true,
     path: '/stylesheets/utility-classes/letter-spacing',
@@ -100,7 +100,7 @@ const utilityClassPages = [
   },
   {
     content: pageLoader(() =>
-      import('../../pages/stylesheets/utility-classes/line-height.js')
+      import('../../pages/stylesheets/utility-classes/line-height.js'),
     ),
     hideFromMenu: true,
     path: '/stylesheets/utility-classes/line-height',
@@ -108,7 +108,7 @@ const utilityClassPages = [
   },
   {
     content: pageLoader(() =>
-      import('../../pages/stylesheets/utility-classes/list.js')
+      import('../../pages/stylesheets/utility-classes/list.js'),
     ),
     hideFromMenu: true,
     path: '/stylesheets/utility-classes/list',
@@ -116,7 +116,7 @@ const utilityClassPages = [
   },
   {
     content: pageLoader(() =>
-      import('../../pages/stylesheets/utility-classes/margin.js')
+      import('../../pages/stylesheets/utility-classes/margin.js'),
     ),
     hideFromMenu: true,
     path: '/stylesheets/utility-classes/margin',
@@ -124,7 +124,7 @@ const utilityClassPages = [
   },
   {
     content: pageLoader(() =>
-      import('../../pages/stylesheets/utility-classes/max-height.js')
+      import('../../pages/stylesheets/utility-classes/max-height.js'),
     ),
     hideFromMenu: true,
     path: '/stylesheets/utility-classes/max-height',
@@ -132,7 +132,7 @@ const utilityClassPages = [
   },
   {
     content: pageLoader(() =>
-      import('../../pages/stylesheets/utility-classes/max-width.js')
+      import('../../pages/stylesheets/utility-classes/max-width.js'),
     ),
     hideFromMenu: true,
     path: '/stylesheets/utility-classes/max-width',
@@ -140,7 +140,7 @@ const utilityClassPages = [
   },
   {
     content: pageLoader(() =>
-      import('../../pages/stylesheets/utility-classes/min-height.js')
+      import('../../pages/stylesheets/utility-classes/min-height.js'),
     ),
     hideFromMenu: true,
     path: '/stylesheets/utility-classes/min-height',
@@ -148,7 +148,7 @@ const utilityClassPages = [
   },
   {
     content: pageLoader(() =>
-      import('../../pages/stylesheets/utility-classes/min-width.js')
+      import('../../pages/stylesheets/utility-classes/min-width.js'),
     ),
     hideFromMenu: true,
     path: '/stylesheets/utility-classes/min-width',
@@ -156,7 +156,7 @@ const utilityClassPages = [
   },
   {
     content: pageLoader(() =>
-      import('../../pages/stylesheets/utility-classes/opacity.js')
+      import('../../pages/stylesheets/utility-classes/opacity.js'),
     ),
     hideFromMenu: true,
     path: '/stylesheets/utility-classes/opacity',
@@ -164,7 +164,7 @@ const utilityClassPages = [
   },
   {
     content: pageLoader(() =>
-      import('../../pages/stylesheets/utility-classes/overflow.js')
+      import('../../pages/stylesheets/utility-classes/overflow.js'),
     ),
     hideFromMenu: true,
     path: '/stylesheets/utility-classes/overflow',
@@ -172,7 +172,7 @@ const utilityClassPages = [
   },
   {
     content: pageLoader(() =>
-      import('../../pages/stylesheets/utility-classes/word-break.js')
+      import('../../pages/stylesheets/utility-classes/word-break.js'),
     ),
     hideFromMenu: true,
     path: '/stylesheets/utility-classes/word-break',
@@ -188,7 +188,7 @@ const pages = [
   },
   {
     content: pageLoader(() =>
-      import('../../pages/stylesheets/utility-classes.js')
+      import('../../pages/stylesheets/utility-classes.js'),
     ),
     path: '/stylesheets/utility-classes',
     title: 'Utility Classes',
@@ -205,7 +205,7 @@ const pages = [
   },
   {
     content: pageLoader(() =>
-      import('../../pages/stylesheets/count-indicator.md')
+      import('../../pages/stylesheets/count-indicator.md'),
     ),
     path: '/stylesheets/count-indicator',
     title: 'Count Indicator',
@@ -217,7 +217,7 @@ const pages = [
   },
   {
     content: pageLoader(() =>
-      import('../../pages/stylesheets/flash-banner.md')
+      import('../../pages/stylesheets/flash-banner.md'),
     ),
     path: '/stylesheets/flash-banner',
     title: 'Flash Banner',
@@ -239,7 +239,7 @@ const pages = [
   },
   {
     content: pageLoader(() =>
-      import('../../pages/stylesheets/progress-bar.md')
+      import('../../pages/stylesheets/progress-bar.md'),
     ),
     path: '/stylesheets/progress-bar',
     title: 'Progress Bar',

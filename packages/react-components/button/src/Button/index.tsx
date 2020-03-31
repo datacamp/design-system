@@ -127,7 +127,7 @@ export type ButtonProps = BaseButtonProps &
   (DefaultProps | PrimaryProps);
 
 const InternalButton = (
-  props: ButtonProps & { innerRef?: React.Ref<any> }
+  props: ButtonProps & { innerRef?: React.Ref<any> },
 ): React.ReactElement => {
   const {
     appearance = 'default',
@@ -180,7 +180,7 @@ const InternalButton = (
     loading && baseLoadingStyle,
     React.Children.count(children) > 1 || typeof children === 'string'
       ? getSize(size)
-      : getIconSize(size)
+      : getIconSize(size),
   );
 
   // eslint-disable-next-line @typescript-eslint/explicit-function-return-type
@@ -246,7 +246,7 @@ const InternalButton = (
               size: size === 'large' ? 24 : 18,
               title: '', // remove tooltip from icon within button
             })
-          )
+          ),
         )}
       </Element>
       {tooltipText && (
@@ -285,7 +285,7 @@ InternalButton.propTypes = {
   children: PropTypes.oneOfType([
     nChildren(
       2,
-      PropTypes.arrayOf(PropTypes.oneOfType([PropTypes.string, iconValidator]))
+      PropTypes.arrayOf(PropTypes.oneOfType([PropTypes.string, iconValidator])),
     ),
     PropTypes.string,
     iconValidator,

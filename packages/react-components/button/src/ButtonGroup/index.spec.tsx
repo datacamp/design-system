@@ -21,23 +21,23 @@ describe('ButtonGroup', () => {
           <Button type="submit">Button 5</Button>
         </CompactButtonGroup>
         {false /* ensures conditional rendering is ok */}
-      </ButtonGroup>
+      </ButtonGroup>,
     );
 
     expect(
-      (getByText('Button 1') as HTMLElement).closest('button')
+      (getByText('Button 1') as HTMLElement).closest('button'),
     ).toHaveStyle('margin-left: 0;');
 
     expect(
-      (getByText('Button 2') as HTMLElement).closest('button')
+      (getByText('Button 2') as HTMLElement).closest('button'),
     ).toHaveStyle(`margin-left: ${tokens.size.space[16].value}px;`);
 
     expect(
-      (getByText('Button 3') as HTMLElement).closest('button')
+      (getByText('Button 3') as HTMLElement).closest('button'),
     ).toHaveStyle(`margin-left: ${tokens.size.space[16].value}px;`);
 
     expect(container.querySelector(`.compact`) as HTMLElement).toHaveStyle(
-      `margin-left: ${tokens.size.space[16].value}px;`
+      `margin-left: ${tokens.size.space[16].value}px;`,
     );
     expect(container.firstChild).toMatchSnapshot();
   });
@@ -63,23 +63,23 @@ describe('ButtonGroup', () => {
           </Button>
         </CompactButtonGroup>
         {false /* ensures conditional rendering is ok */}
-      </ButtonGroup>
+      </ButtonGroup>,
     );
 
     expect(
-      (getByText('Button 1') as HTMLElement).closest('button')
+      (getByText('Button 1') as HTMLElement).closest('button'),
     ).toHaveStyle('margin-left: 0;');
 
     expect(
-      (getByText('Button 2') as HTMLElement).closest('button')
+      (getByText('Button 2') as HTMLElement).closest('button'),
     ).toHaveStyle(`margin-left: ${tokens.size.space[8].value}px;`);
 
     expect(
-      (getByText('Button 3') as HTMLElement).closest('button')
+      (getByText('Button 3') as HTMLElement).closest('button'),
     ).toHaveStyle(`margin-left: ${tokens.size.space[8].value}px;`);
 
     expect(container.querySelector(`.compact`) as HTMLElement).toHaveStyle(
-      `margin-left: ${tokens.size.space[8].value}px;`
+      `margin-left: ${tokens.size.space[8].value}px;`,
     );
     expect(container.firstChild).toMatchSnapshot();
   });
@@ -91,7 +91,7 @@ describe('ButtonGroup', () => {
         <Button type="submit">Button 1</Button>
         <Button type="submit">Button 2</Button>
         <Button type="submit">Button 3</Button>
-      </ButtonGroup>
+      </ButtonGroup>,
     );
 
     expect(container.firstChild).toHaveClass(testClass);
@@ -110,13 +110,13 @@ describe('ButtonGroup', () => {
             Button 3
           </Button>
         </ButtonGroup>
-      </ErrorBoundary>
+      </ErrorBoundary>,
     );
 
     expect(onError).toHaveBeenCalledTimes(1);
     expect(onError).toHaveBeenCalledWith(
       Error('All Buttons in ButtonGroup must be the same size'),
-      expect.anything()
+      expect.anything(),
     );
   });
 
@@ -138,13 +138,13 @@ describe('ButtonGroup', () => {
             </Button>
           </CompactButtonGroup>
         </ButtonGroup>
-      </ErrorBoundary>
+      </ErrorBoundary>,
     );
 
     expect(onError).toHaveBeenCalledTimes(1);
     expect(onError).toHaveBeenCalledWith(
       Error('All Buttons in ButtonGroup must be the same size'),
-      expect.anything()
+      expect.anything(),
     );
   });
 });

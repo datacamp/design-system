@@ -15,7 +15,7 @@ export default [
   },
   {
     content: pageLoader(() =>
-      import('../../pages/articles/02-icon-migration.js')
+      import('../../pages/articles/02-icon-migration.js'),
     ),
     hideFromMenu: true,
     path: '/articles/02-icon-migration',

@@ -26,7 +26,7 @@ describe('Positioner', () => {
           <Positioner position={position} target={ref} visible>
             <div css={{ height: 10, width: 10 }} data-test-id="element" />
           </Positioner>
-        </>
+        </>,
       );
 
       expect(baseElement).toMatchSnapshot();

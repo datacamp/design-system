@@ -19,7 +19,7 @@ describe('<Paragraph />', () => {
     const { container } = await axeRender(
       <Paragraph className={testClassName} dataAttributes={testDataAttributes}>
         {testText}
-      </Paragraph>
+      </Paragraph>,
     );
     expect(container.firstChild).toMatchSnapshot();
   });
@@ -31,7 +31,7 @@ describe('<Paragraph />', () => {
         <Text>custom text</Text>. It has some <Small>small text</Small> and{' '}
         <Emphasis>emphasis text</Emphasis>. It also contains{' '}
         <Link href="https://datacamp.com">a link</Link>.
-      </Paragraph>
+      </Paragraph>,
     );
     expect(container.firstChild).toMatchSnapshot();
   });
@@ -43,22 +43,22 @@ describe('<Paragraph />', () => {
 
   it('sets the className', async () => {
     const { getByText } = await axeRender(
-      <Paragraph className={testClassName}>{testText}</Paragraph>
+      <Paragraph className={testClassName}>{testText}</Paragraph>,
     );
     expect(getByText(testText)).toHaveClass(testClassName);
   });
 
   it('sets the data attributes', async () => {
     const { getByText } = await axeRender(
-      <Paragraph dataAttributes={testDataAttributes}>{testText}</Paragraph>
+      <Paragraph dataAttributes={testDataAttributes}>{testText}</Paragraph>,
     );
     expect(getByText(testText)).toHaveAttribute(
       'data-cy',
-      testDataAttributes.cy
+      testDataAttributes.cy,
     );
     expect(getByText(testText)).toHaveAttribute(
       'data-example',
-      testDataAttributes.example
+      testDataAttributes.example,
     );
   });
 });
