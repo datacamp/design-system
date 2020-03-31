@@ -236,7 +236,7 @@ storiesOf('waffles-modals', module)
           </>
         );
       });
-    }
+    },
   )
   .add('Dialog with Header, Body & Footer with one ButtonGroup', () => {
     return createElement(() => {

@@ -18,14 +18,14 @@ describe('<Text />', () => {
         href="https://datacamp.com"
       >
         {testText}
-      </Link>
+      </Link>,
     );
     expect(container.firstChild).toMatchSnapshot();
   });
 
   it('sets the text in the a', async () => {
     const { getByText } = await axeRender(
-      <Link href="https://datacamp.com">{testText}</Link>
+      <Link href="https://datacamp.com">{testText}</Link>,
     );
     expect(getByText(testText)).toBeDefined();
   });
@@ -34,7 +34,7 @@ describe('<Text />', () => {
     const { getByText } = await axeRender(
       <Link className={testClassName} href="https://datacamp.com">
         {testText}
-      </Link>
+      </Link>,
     );
     expect(getByText(testText)).toHaveClass(testClassName);
   });
@@ -43,15 +43,15 @@ describe('<Text />', () => {
     const { getByText } = await axeRender(
       <Link dataAttributes={testDataAttributes} href="https://datacamp.com">
         {testText}
-      </Link>
+      </Link>,
     );
     expect(getByText(testText)).toHaveAttribute(
       'data-cy',
-      testDataAttributes.cy
+      testDataAttributes.cy,
     );
     expect(getByText(testText)).toHaveAttribute(
       'data-example',
-      testDataAttributes.example
+      testDataAttributes.example,
     );
   });
 });

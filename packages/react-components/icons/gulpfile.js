@@ -17,7 +17,7 @@ function loadAllSVGs() {
   return merge(
     src('./invertedIcons/*.svg').pipe(rename({ suffix: '-inverted' })),
     src('./brandIcons/*.svg').pipe(rename({ suffix: '-brand' })),
-    src('./standardIcons/*.svg')
+    src('./standardIcons/*.svg'),
   );
 }
 
@@ -89,15 +89,15 @@ function buildTypescriptWebComponents() {
           },
           titleProp: true,
         });
-      })
+      }),
     )
     .pipe(
       rename(path => {
         path.basename = generateComponentName(
-          `${path.basename}${path.extname}`
+          `${path.basename}${path.extname}`,
         );
         path.extname = '.tsx';
-      })
+      }),
     )
     .pipe(dest('./build/web'));
 }
@@ -136,15 +136,15 @@ function buildTypescriptMobileComponents() {
             `;
           },
         });
-      })
+      }),
     )
     .pipe(
       rename(path => {
         path.basename = generateComponentName(
-          `${path.basename}${path.extname}`
+          `${path.basename}${path.extname}`,
         );
         path.extname = '.tsx';
-      })
+      }),
     )
     .pipe(dest('./build/mobile'));
 }
@@ -158,7 +158,7 @@ function generateWebIndexFile() {
           const componentName = generateComponentName(fileName);
           return `export { default as ${componentName}Icon } from './${componentName}';`;
         },
-      })
+      }),
     )
     .pipe(dest('./build/web/'));
 }
@@ -172,19 +172,19 @@ function generateMobileIndexFile() {
           const componentName = generateComponentName(fileName);
           return `export { default as ${componentName}Icon } from './${componentName}';`;
         },
-      })
+      }),
     )
     .pipe(dest('./build/mobile/'));
 }
 
 const generateTypescriptWeb = series(
   buildTypescriptWebComponents,
-  generateWebIndexFile
+  generateWebIndexFile,
 );
 
 const generateTypescriptMobile = series(
   buildTypescriptMobileComponents,
-  generateMobileIndexFile
+  generateMobileIndexFile,
 );
 
 function transpileToJS() {
@@ -207,7 +207,7 @@ function createTypings() {
 const transpileTypescript = parallel(
   transpileToJS,
   transpileToES,
-  createTypings
+  createTypings,
 );
 
 function generateSprites() {
@@ -229,7 +229,7 @@ function generateSprites() {
             },
           ],
         },
-      })
+      }),
     )
     .pipe(dest('./sprites'));
 }
@@ -240,14 +240,14 @@ function loadResizedColorSVGs({ color, suffix }) {
       transform('utf8', content =>
         content
           .replace(/#3AC/g, color)
-          .replace('width="18" height="18"', 'width="512" height="512"')
-      )
+          .replace('width="18" height="18"', 'width="512" height="512"'),
+      ),
     )
     .pipe(
       rename(path => {
         path.dirname += `/${path.basename}`;
         path.basename += suffix;
-      })
+      }),
     );
 }
 
@@ -261,8 +261,8 @@ function generatePNG() {
       transform(content =>
         sharp(content)
           .png()
-          .toBuffer()
-      )
+          .toBuffer(),
+      ),
     )
     .pipe(rename({ extname: '.png' }));
 }
@@ -272,7 +272,7 @@ function generateZip() {
     loadAllSVGs().pipe(
       rename(path => {
         path.dirname += `/${path.basename}`;
-      })
+      }),
     ),
     generatePNG(),
   ])
@@ -285,6 +285,6 @@ exports.build = parallel(
   generateZip,
   series(
     parallel(generateTypescriptWeb, generateTypescriptMobile),
-    transpileTypescript
-  )
+    transpileTypescript,
+  ),
 );

@@ -24,14 +24,14 @@ describe('<Dialog />', () => {
         <Dialog onClose={() => {}} width={600} isOpen>
           children
         </Dialog>,
-        getRenderOptions()
+        getRenderOptions(),
       );
 
       expect(container).toHaveAttribute('aria-hidden', 'true'); // app gets hidden when open
 
       const modalElement = getByRole('dialog');
       expect(modalElement).toContainElement(
-        getByText('children') as HTMLElement
+        getByText('children') as HTMLElement,
       );
       expect(baseElement).toMatchSnapshot();
     });
@@ -41,7 +41,7 @@ describe('<Dialog />', () => {
         <Dialog isOpen={false} onClose={() => {}} width={600}>
           children
         </Dialog>,
-        getRenderOptions()
+        getRenderOptions(),
       );
 
       expect(container).not.toHaveAttribute('aria-hidden', 'true'); // app is interactive when hidden
@@ -58,7 +58,7 @@ describe('<Dialog />', () => {
         <Dialog onClose={onClose} width={600} isOpen>
           children
         </Dialog>,
-        getRenderOptions()
+        getRenderOptions(),
       );
 
       const closeButton = getByTitle('Cross') as HTMLElement;
@@ -75,7 +75,7 @@ describe('<Dialog />', () => {
         <Dialog hideCloseButton={false} onClose={onClose} width={600} isOpen>
           children
         </Dialog>,
-        getRenderOptions()
+        getRenderOptions(),
       );
 
       const closeButton = getByTitle('Cross') as HTMLElement;
@@ -92,7 +92,7 @@ describe('<Dialog />', () => {
         <Dialog onClose={onClose} width={600} hideCloseButton isOpen>
           children
         </Dialog>,
-        getRenderOptions()
+        getRenderOptions(),
       );
 
       expect(queryByTitle('Cross')).not.toBeInTheDocument();
@@ -106,12 +106,12 @@ describe('<Dialog />', () => {
         <Dialog onClose={onClose} width={600} isOpen>
           children
         </Dialog>,
-        getRenderOptions()
+        getRenderOptions(),
       );
 
       // need to use querySelector since there is no real content/label for the background
       const backgroundOverlayElement = baseElement.querySelector(
-        '.modal-overlay'
+        '.modal-overlay',
       ) as HTMLElement;
 
       userEvent.click(backgroundOverlayElement);
@@ -125,12 +125,12 @@ describe('<Dialog />', () => {
         <Dialog onClose={onClose} width={600} isOpen shouldCloseOnOverlayClick>
           children
         </Dialog>,
-        getRenderOptions()
+        getRenderOptions(),
       );
 
       // need to use querySelector since there is no real content/label for the background
       const backgroundOverlayElement = baseElement.querySelector(
-        '.modal-overlay'
+        '.modal-overlay',
       ) as HTMLElement;
 
       userEvent.click(backgroundOverlayElement);
@@ -149,12 +149,12 @@ describe('<Dialog />', () => {
         >
           children
         </Dialog>,
-        getRenderOptions()
+        getRenderOptions(),
       );
 
       // need to use querySelector since there is no real content/label for the background
       const backgroundOverlayElement = baseElement.querySelector(
-        '.modal-overlay'
+        '.modal-overlay',
       ) as HTMLElement;
 
       userEvent.click(backgroundOverlayElement);
@@ -169,7 +169,7 @@ describe('<Dialog />', () => {
         <Dialog onClose={onClose} width={600} isOpen>
           children
         </Dialog>,
-        getRenderOptions()
+        getRenderOptions(),
       );
 
       const dialogElement = getByRole('dialog') as HTMLElement;
@@ -189,7 +189,7 @@ describe('<Dialog />', () => {
         <Dialog onClose={onClose} width={600} isOpen shouldCloseOnEsc>
           children
         </Dialog>,
-        getRenderOptions()
+        getRenderOptions(),
       );
 
       const dialogElement = getByRole('dialog') as HTMLElement;
@@ -209,7 +209,7 @@ describe('<Dialog />', () => {
         <Dialog onClose={onClose} shouldCloseOnEsc={false} width={600} isOpen>
           children
         </Dialog>,
-        getRenderOptions()
+        getRenderOptions(),
       );
 
       const dialogElement = getByRole('dialog') as HTMLElement;
@@ -229,7 +229,7 @@ describe('<Dialog />', () => {
       <Dialog onClose={onClose} width={200} isOpen>
         children
       </Dialog>,
-      getRenderOptions()
+      getRenderOptions(),
     );
 
     const dialogElement = getByRole('dialog') as HTMLElement;
@@ -244,7 +244,7 @@ describe('<Dialog />', () => {
         <Dialog.Header>{testTitle}</Dialog.Header>
         children
       </Dialog>,
-      getRenderOptions()
+      getRenderOptions(),
     );
 
     expect(getByText(testTitle)).toBeInTheDocument();
@@ -263,7 +263,7 @@ describe('<Dialog />', () => {
           <Button onClick={() => {}}>Button</Button>
         </Dialog.Footer>
       </Dialog>,
-      getRenderOptions()
+      getRenderOptions(),
     );
 
     expect(getByText(testTitle)).toBeInTheDocument();
@@ -279,15 +279,15 @@ describe('<Dialog />', () => {
         <Button onClick={() => {}}>Button1</Button>
         <Button onClick={() => {}}>Button2</Button>
       </Dialog.Footer>,
-      getRenderOptions()
+      getRenderOptions(),
     );
 
     expect(container.firstChild).toHaveStyle(`justify-content: space-between`);
     expect(container.firstChild).toHaveStyle(
-      `paddingLeft: ${tokens.size.space[16].value}`
+      `paddingLeft: ${tokens.size.space[16].value}`,
     );
     expect(container.firstChild).toHaveStyle(
-      `paddingRight: ${tokens.size.space[16].value}`
+      `paddingRight: ${tokens.size.space[16].value}`,
     );
 
     // expect(baseElement).toMatchSnapshot();
@@ -301,13 +301,13 @@ describe('<Dialog />', () => {
           <Button onClick={() => {}}>Button2</Button>
         </ButtonGroup>
       </Dialog.Footer>,
-      getRenderOptions()
+      getRenderOptions(),
     );
 
     expect(getByText('Button1')).toBeInTheDocument();
     expect(getByText('Button2')).toBeInTheDocument();
     expect(getByText('Button2')).toHaveStyle(
-      `marginLeft: ${tokens.size.space[16].value}`
+      `marginLeft: ${tokens.size.space[16].value}`,
     );
 
     // expect(baseElement).toMatchSnapshot();

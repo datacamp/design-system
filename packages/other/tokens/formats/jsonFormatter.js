@@ -44,6 +44,6 @@ module.exports = dictionary => {
     size: { ...size, font: replaceFontSizeValues(size.font) }, // replace color objects with string formats
   });
   return JSON.stringify(
-    deepCleaner(deepCleaner(deepCleaner(omitDeep(fullTokens, stripKeys))))
+    deepCleaner(deepCleaner(deepCleaner(omitDeep(fullTokens, stripKeys)))),
   );
 };

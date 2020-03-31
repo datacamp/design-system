@@ -84,7 +84,7 @@ const Dialog: React.FC<DialogProps> = ({
   // Callbacks to set the correct origin when closing
   const onCloseButton = (): void => onClose('closeButton');
   const onRequestClose = (
-    event: React.MouseEvent | React.KeyboardEvent
+    event: React.MouseEvent | React.KeyboardEvent,
   ): void => onClose(event.type === 'click' ? 'overlayClick' : 'escKey');
 
   return (

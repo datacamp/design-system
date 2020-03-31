@@ -17,12 +17,12 @@ describe('<Button />', () => {
   it('renders a button element containing the text', async () => {
     const exampleText = 'this is a button';
     const { container, getByText } = await axeRender(
-      <Button onClick={someFunction}>{exampleText}</Button>
+      <Button onClick={someFunction}>{exampleText}</Button>,
     );
     const buttonElement = container.firstChild as HTMLElement;
     expect(buttonElement.tagName).toEqual('BUTTON');
     expect(buttonElement).toContainElement(
-      getByText(exampleText) as HTMLElement
+      getByText(exampleText) as HTMLElement,
     );
   });
 
@@ -31,7 +31,7 @@ describe('<Button />', () => {
     const { container } = await axeRender(
       <Button dataAttributes={data} onClick={someFunction}>
         button text
-      </Button>
+      </Button>,
     );
 
     expect(container.firstChild).toHaveAttribute('data-test', 'example');
@@ -42,7 +42,7 @@ describe('<Button />', () => {
     const { container } = await axeRender(
       <Button className={testClass} onClick={someFunction}>
         button text
-      </Button>
+      </Button>,
     );
 
     expect(container.firstChild).toHaveClass(testClass);
@@ -53,7 +53,7 @@ describe('<Button />', () => {
     const { container } = await axeRender(
       <Button ariaLabel={exempleAriaLabel} onClick={someFunction}>
         button text
-      </Button>
+      </Button>,
     );
 
     expect(container.firstChild).toHaveAttribute('aria-label', 'add button');
@@ -61,7 +61,7 @@ describe('<Button />', () => {
 
   it('calls the function on click', async () => {
     const { getByText } = await axeRender(
-      <Button onClick={someFunction}>click me</Button>
+      <Button onClick={someFunction}>click me</Button>,
     );
     userEvent.click(getByText('click me') as HTMLElement);
 
@@ -72,7 +72,7 @@ describe('<Button />', () => {
     const { container } = await axeRender(
       <Button onClick={someFunction} disabled>
         disabled button
-      </Button>
+      </Button>,
     );
 
     const buttonElement = container.firstChild;
@@ -85,7 +85,7 @@ describe('<Button />', () => {
       const { queryByText, container } = await axeRender(
         <Button onClick={someFunction} size="small">
           btn small
-        </Button>
+        </Button>,
       );
 
       const buttonElement = container.firstChild;
@@ -98,7 +98,7 @@ describe('<Button />', () => {
       const { queryByText, container } = await axeRender(
         <Button onClick={someFunction} size="medium">
           btn medium
-        </Button>
+        </Button>,
       );
 
       const buttonElement = container.firstChild;
@@ -111,7 +111,7 @@ describe('<Button />', () => {
       const { queryByText, container } = await axeRender(
         <Button onClick={someFunction} size="large">
           large btn
-        </Button>
+        </Button>,
       );
 
       const buttonElement = container.firstChild;
@@ -123,7 +123,7 @@ describe('<Button />', () => {
 
     it('renders the medium size if no size props is specified', async () => {
       const { queryByText, container } = await axeRender(
-        <Button onClick={someFunction}>default size btn</Button>
+        <Button onClick={someFunction}>default size btn</Button>,
       );
 
       const buttonElement = container.firstChild;
@@ -137,14 +137,14 @@ describe('<Button />', () => {
       const { container } = await axeRender(
         <Button appearance="primary" intent="neutral" onClick={someFunction}>
           btn
-        </Button>
+        </Button>,
       );
 
       expect(container.firstChild).toHaveStyle(
-        `background-color: ${tokens.color.opaque.primary.value.hex};`
+        `background-color: ${tokens.color.opaque.primary.value.hex};`,
       );
       expect(container.firstChild).toHaveStyle(
-        `border-color: ${tokens.color.opaque.primary.value.hex};`
+        `border-color: ${tokens.color.opaque.primary.value.hex};`,
       );
     });
 
@@ -152,14 +152,14 @@ describe('<Button />', () => {
       const { container } = await axeRender(
         <Button appearance="primary" intent="danger" onClick={someFunction}>
           btn
-        </Button>
+        </Button>,
       );
 
       expect(container.firstChild).toHaveStyle(
-        `background-color: ${tokens.color.opaque.red.value.hex};`
+        `background-color: ${tokens.color.opaque.red.value.hex};`,
       );
       expect(container.firstChild).toHaveStyle(
-        `border-color: ${tokens.color.opaque.red.value.hex};`
+        `border-color: ${tokens.color.opaque.red.value.hex};`,
       );
     });
 
@@ -167,14 +167,14 @@ describe('<Button />', () => {
       const { container } = await axeRender(
         <Button appearance="primary" intent="warning" onClick={someFunction}>
           btn
-        </Button>
+        </Button>,
       );
 
       expect(container.firstChild).toHaveStyle(
-        `background-color: ${tokens.color.opaque.orange.value.hex};`
+        `background-color: ${tokens.color.opaque.orange.value.hex};`,
       );
       expect(container.firstChild).toHaveStyle(
-        `border-color: ${tokens.color.opaque.orange.value.hex};`
+        `border-color: ${tokens.color.opaque.orange.value.hex};`,
       );
     });
 
@@ -182,14 +182,14 @@ describe('<Button />', () => {
       const { container } = await axeRender(
         <Button appearance="primary" intent="cta" onClick={someFunction}>
           btn
-        </Button>
+        </Button>,
       );
 
       expect(container.firstChild).toHaveStyle(
-        `background-color: ${tokens.color.opaque.secondary.value.hex};`
+        `background-color: ${tokens.color.opaque.secondary.value.hex};`,
       );
       expect(container.firstChild).toHaveStyle(
-        `border-color: ${tokens.color.opaque.secondary.value.hex};`
+        `border-color: ${tokens.color.opaque.secondary.value.hex};`,
       );
     });
 
@@ -197,11 +197,11 @@ describe('<Button />', () => {
       const { container } = await axeRender(
         <Button appearance="primary" intent="success" onClick={someFunction}>
           btn
-        </Button>
+        </Button>,
       );
 
       expect(container.firstChild).toHaveStyle(
-        `background-color: ${tokens.color.opaque.green.value.rgb}`
+        `background-color: ${tokens.color.opaque.green.value.rgb}`,
       );
     });
   });
@@ -211,13 +211,13 @@ describe('<Button />', () => {
       const { container } = await axeRender(
         <Button appearance="default" intent="neutral" onClick={someFunction}>
           btn
-        </Button>
+        </Button>,
       );
 
       const buttonElement = container.firstChild;
 
       expect(buttonElement).toHaveStyle(
-        `border-color: ${tokens.color.opaque.primary.value.hex}`
+        `border-color: ${tokens.color.opaque.primary.value.hex}`,
       );
       expect(buttonElement).toHaveStyle(`background-color: transparent`);
     });
@@ -226,13 +226,13 @@ describe('<Button />', () => {
       const { container } = await axeRender(
         <Button appearance="default" intent="danger" onClick={someFunction}>
           btn
-        </Button>
+        </Button>,
       );
 
       const buttonElement = container.firstChild;
 
       expect(buttonElement).toHaveStyle(
-        `border-color: ${tokens.color.opaque.red.value.hex}`
+        `border-color: ${tokens.color.opaque.red.value.hex}`,
       );
       expect(buttonElement).toHaveStyle(`background-color: transparent`);
     });
@@ -241,13 +241,13 @@ describe('<Button />', () => {
       const { container } = await axeRender(
         <Button appearance="default" intent="warning" onClick={someFunction}>
           btn
-        </Button>
+        </Button>,
       );
 
       const buttonElement = container.firstChild;
 
       expect(buttonElement).toHaveStyle(
-        `border-color: ${tokens.color.opaque.orange.value.hex}`
+        `border-color: ${tokens.color.opaque.orange.value.hex}`,
       );
       expect(buttonElement).toHaveStyle(`background-color: transparent`);
     });
@@ -256,13 +256,13 @@ describe('<Button />', () => {
       const { container } = await axeRender(
         <Button appearance="default" intent="success" onClick={someFunction}>
           btn
-        </Button>
+        </Button>,
       );
 
       const buttonElement = container.firstChild;
 
       expect(buttonElement).toHaveStyle(
-        `border-color: ${tokens.color.opaque.green.value.hex}`
+        `border-color: ${tokens.color.opaque.green.value.hex}`,
       );
       expect(buttonElement).toHaveStyle(`background-color: transparent`);
     });
@@ -273,14 +273,14 @@ describe('<Button />', () => {
       const { container, getByText, getByTitle } = await axeRender(
         <Button onClick={someFunction} loading>
           btn loading
-        </Button>
+        </Button>,
       );
 
       const buttonElement = container.firstChild;
       const spinnerElement = getByTitle('Spinner') as HTMLElement;
       expect(buttonElement).toContainElement(spinnerElement);
       expect(getByText('btn loading') as HTMLElement).toHaveStyle(
-        `color: transparent`
+        `color: transparent`,
       );
     });
 
@@ -288,7 +288,7 @@ describe('<Button />', () => {
       const { container } = await axeRender(
         <Button onClick={someFunction} loading>
           Loading
-        </Button>
+        </Button>,
       );
 
       const spinnerElement = container.querySelector('g');
@@ -300,7 +300,7 @@ describe('<Button />', () => {
       const { container } = await axeRender(
         <Button appearance="primary" onClick={someFunction} loading>
           Loading
-        </Button>
+        </Button>,
       );
 
       const spinnerElement = container.querySelector('g');
@@ -314,7 +314,7 @@ describe('<Button />', () => {
       const { container } = await axeRender(
         <Button ariaLabel="add" onClick={someFunction}>
           <AddCircleIcon />
-        </Button>
+        </Button>,
       );
 
       const buttonElement = container.firstChild;
@@ -326,7 +326,7 @@ describe('<Button />', () => {
       const { container } = await axeRender(
         <Button ariaLabel="add" onClick={someFunction} size="small">
           <AddCircleIcon />
-        </Button>
+        </Button>,
       );
 
       const buttonElement = container.firstChild;
@@ -337,7 +337,7 @@ describe('<Button />', () => {
       const { container } = await axeRender(
         <Button ariaLabel="add" onClick={someFunction}>
           <AddCircleIcon />
-        </Button>
+        </Button>,
       );
 
       const buttonElement = container.firstChild;
@@ -348,7 +348,7 @@ describe('<Button />', () => {
       const { container } = await axeRender(
         <Button ariaLabel="add" onClick={someFunction} size="large">
           <AddCircleIcon />
-        </Button>
+        </Button>,
       );
 
       const buttonElement = container.firstChild;
@@ -359,7 +359,7 @@ describe('<Button />', () => {
       const { container } = await axeRender(
         <Button ariaLabel="add" onClick={someFunction} disabled>
           <AddCircleIcon />
-        </Button>
+        </Button>,
       );
 
       const buttonElement = container.firstChild;
@@ -376,14 +376,14 @@ describe('<Button />', () => {
           onClick={someFunction}
         >
           <AddCircleIcon />
-        </Button>
+        </Button>,
       );
 
       expect(container.firstChild).toHaveStyle(
-        `background-color: ${tokens.color.opaque.primary.value.hex}`
+        `background-color: ${tokens.color.opaque.primary.value.hex}`,
       );
       expect(container.firstChild).toHaveStyle(
-        `border-color: ${tokens.color.opaque.primary.value.hex}`
+        `border-color: ${tokens.color.opaque.primary.value.hex}`,
       );
     });
 
@@ -396,14 +396,14 @@ describe('<Button />', () => {
           onClick={someFunction}
         >
           <AddCircleIcon />
-        </Button>
+        </Button>,
       );
 
       expect(container.firstChild).toHaveStyle(
-        `background-color: ${tokens.color.opaque.red.value.hex}`
+        `background-color: ${tokens.color.opaque.red.value.hex}`,
       );
       expect(container.firstChild).toHaveStyle(
-        `border-color: ${tokens.color.opaque.red.value.hex}`
+        `border-color: ${tokens.color.opaque.red.value.hex}`,
       );
     });
 
@@ -416,14 +416,14 @@ describe('<Button />', () => {
           onClick={someFunction}
         >
           <AddCircleIcon />
-        </Button>
+        </Button>,
       );
 
       expect(container.firstChild).toHaveStyle(
-        `background-color: ${tokens.color.opaque.orange.value.hex}`
+        `background-color: ${tokens.color.opaque.orange.value.hex}`,
       );
       expect(container.firstChild).toHaveStyle(
-        `border-color: ${tokens.color.opaque.orange.value.hex}`
+        `border-color: ${tokens.color.opaque.orange.value.hex}`,
       );
     });
 
@@ -436,14 +436,14 @@ describe('<Button />', () => {
           onClick={someFunction}
         >
           <AddCircleIcon />
-        </Button>
+        </Button>,
       );
 
       expect(container.firstChild).toHaveStyle(
-        `background-color: ${tokens.color.opaque.green.value.hex}`
+        `background-color: ${tokens.color.opaque.green.value.hex}`,
       );
       expect(container.firstChild).toHaveStyle(
-        `border-color: ${tokens.color.opaque.green.value.hex}`
+        `border-color: ${tokens.color.opaque.green.value.hex}`,
       );
     });
 
@@ -456,13 +456,13 @@ describe('<Button />', () => {
           onClick={someFunction}
         >
           <AddCircleIcon />
-        </Button>
+        </Button>,
       );
 
       const buttonElement = container.firstChild;
 
       expect(buttonElement).toHaveStyle(
-        `border-color: ${tokens.color.opaque.primary.value.hex}`
+        `border-color: ${tokens.color.opaque.primary.value.hex}`,
       );
       expect(buttonElement).toHaveStyle(`background-color: transparent`);
     });
@@ -476,13 +476,13 @@ describe('<Button />', () => {
           onClick={someFunction}
         >
           <AddCircleIcon />
-        </Button>
+        </Button>,
       );
 
       const buttonElement = container.firstChild;
 
       expect(buttonElement).toHaveStyle(
-        `border-color: ${tokens.color.opaque.red.value.hex}`
+        `border-color: ${tokens.color.opaque.red.value.hex}`,
       );
       expect(buttonElement).toHaveStyle(`background-color: transparent`);
     });
@@ -496,13 +496,13 @@ describe('<Button />', () => {
           onClick={someFunction}
         >
           <AddCircleIcon />
-        </Button>
+        </Button>,
       );
 
       const buttonElement = container.firstChild;
 
       expect(buttonElement).toHaveStyle(
-        `border-color: ${tokens.color.opaque.orange.value.hex}`
+        `border-color: ${tokens.color.opaque.orange.value.hex}`,
       );
       expect(buttonElement).toHaveStyle(`background-color: transparent`);
     });
@@ -516,13 +516,13 @@ describe('<Button />', () => {
           onClick={someFunction}
         >
           <AddCircleIcon />
-        </Button>
+        </Button>,
       );
 
       const buttonElement = container.firstChild;
 
       expect(buttonElement).toHaveStyle(
-        `border-color: ${tokens.color.opaque.green.value.hex}`
+        `border-color: ${tokens.color.opaque.green.value.hex}`,
       );
       expect(buttonElement).toHaveStyle(`background-color: transparent`);
     });
@@ -534,14 +534,14 @@ describe('<Button />', () => {
         <Button onClick={someFunction}>
           TestText
           <AddCircleIcon />
-        </Button>
+        </Button>,
       );
 
       const buttonElement = container.firstChild;
       const iconElement = container.querySelector('svg');
       expect(buttonElement).toContainElement(iconElement);
       expect(buttonElement).toContainElement(
-        getByText('TestText') as HTMLElement
+        getByText('TestText') as HTMLElement,
       );
     });
 
@@ -550,7 +550,7 @@ describe('<Button />', () => {
         <Button onClick={someFunction}>
           TestText
           <AddCircleIcon />
-        </Button>
+        </Button>,
       );
 
       const buttonElement = container.firstChild;
@@ -563,7 +563,7 @@ describe('<Button />', () => {
         <Button onClick={someFunction}>
           TestText
           <AddCircleIcon />
-        </Button>
+        </Button>,
       );
 
       expect(getByText('TestText')).toHaveStyle(`margin-right: 8px;`);
@@ -574,7 +574,7 @@ describe('<Button />', () => {
         <Button onClick={someFunction}>
           <AddCircleIcon />
           TestText
-        </Button>
+        </Button>,
       );
 
       expect(getByText('TestText')).toHaveStyle(`margin-left: 8px;`);
@@ -586,7 +586,7 @@ describe('<Button />', () => {
       const { container } = await axeRender(
         <Button href="https://www.google.com" type="link">
           Link
-        </Button>
+        </Button>,
       );
       const buttonElement = container.firstChild as HTMLElement;
 
@@ -598,7 +598,7 @@ describe('<Button />', () => {
       const { container } = await axeRender(
         <Button href="https://www.google.com" target="_blank" type="link">
           Link
-        </Button>
+        </Button>,
       );
       const buttonElement = container.firstChild as HTMLElement;
 
@@ -609,7 +609,7 @@ describe('<Button />', () => {
   describe('href and target props', () => {
     it('renders a button type="submit" if type="submit"', async () => {
       const { container } = await axeRender(
-        <Button type="submit">Submit</Button>
+        <Button type="submit">Submit</Button>,
       );
       const buttonElement = container.firstChild as HTMLElement;
 
@@ -623,7 +623,7 @@ describe('<Button />', () => {
       const { container, getByText } = await axeRender(
         <Button onClick={() => {}} tooltipText={tooltipText}>
           Confirm
-        </Button>
+        </Button>,
       );
       const buttonElement = container.firstChild as HTMLElement;
       fireEvent.focus(buttonElement);
@@ -639,7 +639,7 @@ describe('<Button />', () => {
       const { container, getByText } = await axeRender(
         <Button onClick={() => {}} tooltipText={tooltipText}>
           Confirm
-        </Button>
+        </Button>,
       );
       const buttonElement = container.firstChild as HTMLElement;
       fireEvent.mouseEnter(buttonElement);
@@ -671,12 +671,12 @@ describe('<Button />', () => {
               tooltipText={tooltipText}
             >
               Confirm
-            </Button>
+            </Button>,
           );
           const buttonElement = container.firstChild as HTMLElement;
           fireEvent.mouseEnter(buttonElement);
           expect(baseElement).toMatchSnapshot();
-        })
+        }),
       );
     });
 
@@ -691,12 +691,12 @@ describe('<Button />', () => {
               tooltipText={tooltipText}
             >
               Confirm
-            </Button>
+            </Button>,
           );
           const buttonElement = container.firstChild as HTMLElement;
           fireEvent.mouseEnter(buttonElement);
           expect(baseElement).toMatchSnapshot();
-        })
+        }),
       );
     });
   });
@@ -728,7 +728,7 @@ describe('<Button />', () => {
                 size={size}
               >
                 {exampleText}
-              </Button>
+              </Button>,
             );
             expect(container.firstChild).toMatchSnapshot();
           });
@@ -755,7 +755,7 @@ describe('<Button />', () => {
                 size={size}
               >
                 {exampleText}
-              </Button>
+              </Button>,
             );
             expect(container.firstChild).toMatchSnapshot();
           });
@@ -767,7 +767,7 @@ describe('<Button />', () => {
       const { container } = await axeRender(
         <Button ariaLabel="add" onClick={someFunction}>
           <AddCircleIcon />
-        </Button>
+        </Button>,
       );
       expect(container.firstChild).toMatchSnapshot();
     });

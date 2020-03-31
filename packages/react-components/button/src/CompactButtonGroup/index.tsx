@@ -35,11 +35,11 @@ const CompactButtonGroup = ({
         appearance === childrenProps[0].appearance &&
         disabled === childrenProps[0].disabled &&
         intent === childrenProps[0].intent &&
-        size === childrenProps[0].size
+        size === childrenProps[0].size,
     )
   ) {
     throw Error(
-      'All Buttons in compact CompactButtonGroup must have the same appearance, intent, size & disabled state'
+      'All Buttons in compact CompactButtonGroup must have the same appearance, intent, size & disabled state',
     );
   }
 

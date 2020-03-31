@@ -8,11 +8,11 @@ export { default as Toast } from './Toast';
 
 export const toast = (
   { title, intent }: { intent: 'success' | 'error'; title: string },
-  options?: ToastOptions
+  options?: ToastOptions,
 ): string | number =>
   toastify(
     ({ closeToast }: { closeToast: () => void }) => (
       <Toast closeToast={closeToast} intent={intent} title={title} />
     ),
-    options
+    options,
   );

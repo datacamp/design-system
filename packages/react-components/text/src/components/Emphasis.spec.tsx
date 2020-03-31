@@ -14,7 +14,7 @@ describe('<Emphasis />', () => {
     const { container } = await axeRender(
       <Emphasis className={testClassName} dataAttributes={testDataAttributes}>
         {testText}
-      </Emphasis>
+      </Emphasis>,
     );
     expect(container.firstChild).toMatchSnapshot();
   });
@@ -26,22 +26,22 @@ describe('<Emphasis />', () => {
 
   it('sets the className', async () => {
     const { getByText } = await axeRender(
-      <Emphasis className={testClassName}>{testText}</Emphasis>
+      <Emphasis className={testClassName}>{testText}</Emphasis>,
     );
     expect(getByText(testText)).toHaveClass(testClassName);
   });
 
   it('sets the data attributes', async () => {
     const { getByText } = await axeRender(
-      <Emphasis dataAttributes={testDataAttributes}>{testText}</Emphasis>
+      <Emphasis dataAttributes={testDataAttributes}>{testText}</Emphasis>,
     );
     expect(getByText(testText)).toHaveAttribute(
       'data-cy',
-      testDataAttributes.cy
+      testDataAttributes.cy,
     );
     expect(getByText(testText)).toHaveAttribute(
       'data-example',
-      testDataAttributes.example
+      testDataAttributes.example,
     );
   });
 });

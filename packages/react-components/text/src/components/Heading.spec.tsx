@@ -25,11 +25,11 @@ describe('<Heading />', () => {
               size={size}
             >
               {testText}
-            </Heading>
+            </Heading>,
           );
           expect(container.firstChild).toMatchSnapshot();
         });
-      })
+      }),
     );
   });
 
@@ -37,7 +37,7 @@ describe('<Heading />', () => {
     const { getByText } = await axeRender(
       <Heading as="h2" size={400}>
         {testText}
-      </Heading>
+      </Heading>,
     );
     expect(getByText(testText)).toBeDefined();
   });
@@ -46,7 +46,7 @@ describe('<Heading />', () => {
     const { getByText } = await axeRender(
       <Heading as="h2" className={testClassName} size={300}>
         {testText}
-      </Heading>
+      </Heading>,
     );
     expect(getByText(testText)).toHaveClass(testClassName);
   });
@@ -55,7 +55,7 @@ describe('<Heading />', () => {
     const { container } = await axeRender(
       <Heading as="h5" dataAttributes={testDataAttributes} size={300}>
         {testText}
-      </Heading>
+      </Heading>,
     );
     expect(container.querySelector('h5')).not.toBeNull();
   });
@@ -64,15 +64,15 @@ describe('<Heading />', () => {
     const { getByText } = await axeRender(
       <Heading as="h2" dataAttributes={testDataAttributes} size={300}>
         {testText}
-      </Heading>
+      </Heading>,
     );
     expect(getByText(testText)).toHaveAttribute(
       'data-cy',
-      testDataAttributes.cy
+      testDataAttributes.cy,
     );
     expect(getByText(testText)).toHaveAttribute(
       'data-example',
-      testDataAttributes.example
+      testDataAttributes.example,
     );
   });
 });

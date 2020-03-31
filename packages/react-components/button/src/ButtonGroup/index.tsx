@@ -54,7 +54,7 @@ const ButtonGroup = ({
             return React.cloneElement(childElement, {
               className: cx(
                 css({ marginLeft: index > 0 ? gap : 0 }),
-                childElement.props.className
+                childElement.props.className,
               ),
             });
           })
@@ -74,7 +74,7 @@ ButtonGroup.propTypes = {
     PropTypes.oneOfType([
       childrenOfType(Button),
       childrenOfType(CompactButtonGroup),
-    ])
+    ]),
   ).isRequired,
 };
 

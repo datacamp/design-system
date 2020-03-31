@@ -237,7 +237,7 @@ arrange(desc(gdpPercap))`}</CodeBlock>
     const element = select(
       'element',
       ['h1', 'h2', 'h3', 'h4', 'h5', 'h6'],
-      'h3'
+      'h3',
     );
     return (
       <>

@@ -160,7 +160,7 @@ const InternalInput = ({
     inputSize,
     inputStyle,
     icon && inputWithIconPaddings[size],
-    label && css({ width: '100%' })
+    label && css({ width: '100%' }),
   );
 
   const iconStyle = css({

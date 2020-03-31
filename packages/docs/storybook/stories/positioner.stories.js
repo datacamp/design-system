@@ -81,5 +81,5 @@ storiesOf('waffles-positioner', module).add('positioner', () =>
         </Positioner>
       </>
     );
-  })
+  }),
 );

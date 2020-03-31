@@ -45,8 +45,8 @@ Footer.propTypes = {
         PropTypes.oneOfType([
           childrenOfType(Button),
           childrenOfType(ButtonGroup),
-        ])
-      )
+        ]),
+      ),
     ),
     PropTypes.oneOfType([childrenOfType(ButtonGroup), childrenOfType(Button)])
       .isRequired,

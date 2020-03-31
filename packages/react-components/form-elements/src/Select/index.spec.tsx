@@ -17,7 +17,7 @@ describe('<Select>', () => {
       <Select name={testName} onChange={() => {}} value={testValue}>
         <SelectOption value={testValue}>option1</SelectOption>
         <SelectOption value={testValue}>option2</SelectOption>
-      </Select>
+      </Select>,
     );
 
     const selectElement = getByRole('listbox') as HTMLElement;
@@ -36,7 +36,7 @@ describe('<Select>', () => {
       >
         <SelectOption value={testValue}>option1</SelectOption>
         <SelectOption value={testValue}>option2</SelectOption>
-      </Select>
+      </Select>,
     );
 
     expect(getByText(testDescription)).toBeInTheDocument();
@@ -47,7 +47,7 @@ describe('<Select>', () => {
       <Select name={testName} onChange={() => {}} value={testValue}>
         <SelectOption value={testValue}>option1</SelectOption>
         <SelectOption value={testValue}>option2</SelectOption>
-      </Select>
+      </Select>,
     );
 
     expect(getByText('option1')).toBeInTheDocument();
@@ -65,7 +65,7 @@ describe('<Select>', () => {
       >
         <SelectOption value={testValue}>option1</SelectOption>
         <SelectOption value={testValue}>option2</SelectOption>
-      </Select>
+      </Select>,
     );
     const selectElement = getByRole('listbox') as HTMLElement;
 
@@ -83,7 +83,7 @@ describe('<Select>', () => {
       >
         <SelectOption value={testValue}>option1</SelectOption>
         <SelectOption value={testValue}>option2</SelectOption>
-      </Select>
+      </Select>,
     );
     const selectElement = getByRole('listbox') as HTMLElement;
 
@@ -101,7 +101,7 @@ describe('<Select>', () => {
       >
         <SelectOption value={testValue}>option1</SelectOption>
         <SelectOption value={testValue}>option2</SelectOption>
-      </Select>
+      </Select>,
     );
     const selectElement = getByRole('listbox') as HTMLElement;
 
@@ -115,7 +115,7 @@ describe('<Select>', () => {
       <Select name={testName} onChange={onChange} value={testValue}>
         <SelectOption value="value1">option1</SelectOption>
         <SelectOption value="value2">option2</SelectOption>
-      </Select>
+      </Select>,
     );
     const selectElement = getByRole('listbox') as HTMLElement;
 
@@ -128,7 +128,7 @@ describe('<Select>', () => {
       <Select name={testName} onChange={() => {}} value={testValue} disabled>
         <SelectOption value="value1">option1</SelectOption>
         <SelectOption value="value2">option2</SelectOption>
-      </Select>
+      </Select>,
     );
     const selectElement = getByRole('listbox') as HTMLElement;
     expect(selectElement).toHaveAttribute('disabled');
@@ -139,7 +139,7 @@ describe('<Select>', () => {
       <Select name={testName} onChange={() => {}} value={testValue} disabled>
         <SelectOption value="value1">option1</SelectOption>
         <SelectOption value="value2">option2</SelectOption>
-      </Select>
+      </Select>,
     );
 
     const iconElement = getByTitle('Down Chevron') as HTMLElement;
@@ -156,15 +156,15 @@ describe('<Select>', () => {
       >
         <SelectOption value="value1">option1</SelectOption>
         <SelectOption value="value2">option2</SelectOption>
-      </Select>
+      </Select>,
     );
     const selectElement = getByRole('listbox') as HTMLElement;
     expect(selectElement).toHaveStyle(
-      ` height: ${tokens.size.space[64].value}px;`
+      ` height: ${tokens.size.space[64].value}px;`,
     );
     expect(selectElement).toHaveStyle('font-size: 20px;');
     expect(selectElement).toHaveStyle(
-      `padding-right: ${tokens.size.space[64].value}px;`
+      `padding-right: ${tokens.size.space[64].value}px;`,
     );
   });
 
@@ -178,15 +178,15 @@ describe('<Select>', () => {
       >
         <SelectOption value="value1">option1</SelectOption>
         <SelectOption value="value2">option2</SelectOption>
-      </Select>
+      </Select>,
     );
     const selectElement = getByRole('listbox') as HTMLElement;
     expect(selectElement).toHaveStyle(
-      ` height: ${tokens.size.space[36].value}px;`
+      ` height: ${tokens.size.space[36].value}px;`,
     );
     expect(selectElement).toHaveStyle('font-size: 16px;');
     expect(selectElement).toHaveStyle(
-      `padding-right: ${tokens.size.space[36].value}px;`
+      `padding-right: ${tokens.size.space[36].value}px;`,
     );
   });
 
@@ -200,15 +200,15 @@ describe('<Select>', () => {
       >
         <SelectOption value="value1">option1</SelectOption>
         <SelectOption value="value2">option2</SelectOption>
-      </Select>
+      </Select>,
     );
     const selectElement = getByRole('listbox') as HTMLElement;
     expect(selectElement).toHaveStyle(
-      ` height: ${tokens.size.space[48].value}px;`
+      ` height: ${tokens.size.space[48].value}px;`,
     );
     expect(selectElement).toHaveStyle('font-size: 16px;');
     expect(selectElement).toHaveStyle(
-      `padding-right: ${tokens.size.space[48].value}px`
+      `padding-right: ${tokens.size.space[48].value}px`,
     );
   });
 });
@@ -218,7 +218,7 @@ describe('<SelectOption>', () => {
 
   it('sets the correct value on the SelectOption element', () => {
     const { getByRole } = render(
-      <SelectOption value={testValue}>option2</SelectOption>
+      <SelectOption value={testValue}>option2</SelectOption>,
     );
 
     const optionElement = getByRole('option') as HTMLElement;
@@ -229,7 +229,7 @@ describe('<SelectOption>', () => {
     const { getByRole } = render(
       <SelectOption value={testValue} disabled>
         option2
-      </SelectOption>
+      </SelectOption>,
     );
 
     const optionElement = getByRole('option') as HTMLElement;
@@ -252,7 +252,7 @@ describe('with label', () => {
       >
         <SelectOption value="value1">option1</SelectOption>
         <SelectOption value="value2">option2</SelectOption>
-      </Select>
+      </Select>,
     );
     expect(getByText(testLabel)).toBeInTheDocument();
   });
@@ -271,11 +271,11 @@ describe('with label', () => {
       >
         <SelectOption value="value1">option1</SelectOption>
         <SelectOption value="value2">option2</SelectOption>
-      </Select>
+      </Select>,
     );
     expect(getByText(testError)).toBeInTheDocument();
     expect(getByText(testError)).toHaveStyle(
-      `color: ${tokens.color.opaque.red.value.hex};`
+      `color: ${tokens.color.opaque.red.value.hex};`,
     );
     expect(getByText(testError)).toHaveStyle(`font-size: 14px;`);
   });
@@ -293,11 +293,11 @@ describe('with label', () => {
       >
         <SelectOption value="value1">option1</SelectOption>
         <SelectOption value="value2">option2</SelectOption>
-      </Select>
+      </Select>,
     );
     expect(getByText('Required')).toBeInTheDocument();
     expect(getByText('Required')).toHaveStyle(
-      `color: ${tokens.color.opaque.greyOslo.value.hex};`
+      `color: ${tokens.color.opaque.greyOslo.value.hex};`,
     );
     expect(getByText('Required')).toHaveStyle(`font-size: 14px;`);
   });
@@ -315,11 +315,11 @@ describe('with label', () => {
       >
         <SelectOption value="value1">option1</SelectOption>
         <SelectOption value="value2">option2</SelectOption>
-      </Select>
+      </Select>,
     );
     expect(getByText('Optional')).toBeInTheDocument();
     expect(getByText('Optional')).toHaveStyle(
-      `color: ${tokens.color.opaque.greyOslo.value.hex};`
+      `color: ${tokens.color.opaque.greyOslo.value.hex};`,
     );
     expect(getByText('Optional')).toHaveStyle(`font-size: 14px;`);
   });
@@ -353,7 +353,7 @@ describe('with label', () => {
                 <SelectOption value="value3" disabled>
                   option3
                 </SelectOption>
-              </Select>
+              </Select>,
             );
             expect(container.firstChild).toMatchSnapshot();
           });

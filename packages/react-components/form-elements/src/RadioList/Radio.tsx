@@ -75,7 +75,7 @@ const Radio = ({
                   // affects the style of the RadioIcon
                   ':active + span': focusStyle,
                   ':focus + span': focusStyle,
-                }
+                },
               )}
               disabled={elementDisabled}
               id={value}
@@ -93,7 +93,7 @@ const Radio = ({
                 textStyle,
                 elementDisabled && {
                   color: tokens.color.opaque.greyLight.value.hex,
-                }
+                },
               )}
             >
               {children}

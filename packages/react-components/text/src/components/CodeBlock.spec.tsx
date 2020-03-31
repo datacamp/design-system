@@ -17,7 +17,7 @@ describe('<CodeBlock />', () => {
   it('sets the className on the pre element', async () => {
     const className = 'test-class';
     const { container } = await axeRender(
-      <CodeBlock className={className}>example code</CodeBlock>
+      <CodeBlock className={className}>example code</CodeBlock>,
     );
 
     expect(container.firstChild).toHaveClass(className);
@@ -26,7 +26,7 @@ describe('<CodeBlock />', () => {
   it('sets the dataAttributes on the pre element', async () => {
     const data = { test: 'example' };
     const { container } = await axeRender(
-      <CodeBlock dataAttributes={data}>example code</CodeBlock>
+      <CodeBlock dataAttributes={data}>example code</CodeBlock>,
     );
 
     expect(container.firstChild).toHaveAttribute('data-test', 'example');
@@ -35,7 +35,7 @@ describe('<CodeBlock />', () => {
   describe('snapshots', () => {
     it('renders', async () => {
       const { container } = await axeRender(
-        <CodeBlock>example code</CodeBlock>
+        <CodeBlock>example code</CodeBlock>,
       );
 
       expect(container.firstChild).toMatchSnapshot();

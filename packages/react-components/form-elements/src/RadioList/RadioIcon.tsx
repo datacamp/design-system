@@ -24,7 +24,7 @@ const RadioIcon: React.FC<{
             boxSizing: 'border-box',
             position: 'absolute',
           },
-          { height: '16px', left: 1, top: 1, width: '16px' }
+          { height: '16px', left: 1, top: 1, width: '16px' },
         )}
       />
       {checked && (

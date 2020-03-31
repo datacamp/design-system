@@ -32,11 +32,11 @@ const AllButtonCombos = ({ children }) => (
                 key: `${appearance}${intent}${size}${state}`,
                 size,
                 state,
-              })
+              }),
             );
           })}
         </ButtonGroup>
-      ))
+      )),
     )}
   </div>
 );
@@ -54,7 +54,7 @@ const getTooltipPosition = () =>
       'topLeft',
       'topRight',
     ],
-    'bottom'
+    'bottom',
   );
 
 const getTooltipAppearance = () =>

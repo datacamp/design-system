@@ -75,7 +75,7 @@ const getStyle = (size: Size, multiLine: boolean): SerializedStyles => {
             ? tokens.size.space[24].value
             : tokens.size.space[16].value,
       },
-    }
+    },
   );
 };
 

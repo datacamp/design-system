@@ -54,7 +54,7 @@ const Card = ({
       hoverElevation() {
         if (hoverElevation !== undefined && hoverElevation <= elevation) {
           return new Error(
-            'Invalid prop `hoverElevation` supplied to `Card`. hoverElevation must be greater than elevation'
+            'Invalid prop `hoverElevation` supplied to `Card`. hoverElevation must be greater than elevation',
           );
         }
         return null;
@@ -62,7 +62,7 @@ const Card = ({
     },
     { elevation, hoverElevation },
     'hoverElevation',
-    'Card'
+    'Card',
   );
 
   return (

@@ -20,21 +20,21 @@ describe('<Tag />', () => {
 
   it('sets the background color and infers text color', async () => {
     const { getByText } = await axeRender(
-      <Tag color="red">{exampleTagBody}</Tag>
+      <Tag color="red">{exampleTagBody}</Tag>,
     );
     const backgroundColor = getColor('red');
     const textColor = getContrastColor('red');
 
     expect(getByText(exampleTagBody)).toHaveStyleRule(
       'background-color',
-      backgroundColor
+      backgroundColor,
     );
     expect(getByText(exampleTagBody)).toHaveStyleRule('color', textColor);
   });
 
   it('sets the text color based on the property when provided', async () => {
     const { getByText } = await axeRender(
-      <Tag textColor="red">{exampleTagBody}</Tag>
+      <Tag textColor="red">{exampleTagBody}</Tag>,
     );
 
     expect(getByText(exampleTagBody)).toHaveStyleRule('color', getColor('red'));
@@ -54,7 +54,7 @@ describe('<Tag />', () => {
 
   it('adds the extraClass to the className', async () => {
     const { getByText } = await axeRender(
-      <Tag extraClass="test-class">{exampleTagBody}</Tag>
+      <Tag extraClass="test-class">{exampleTagBody}</Tag>,
     );
 
     expect(getByText(exampleTagBody)).toHaveClass('test-class');
@@ -62,7 +62,7 @@ describe('<Tag />', () => {
 
   it('sets the data attributes', async () => {
     const { getByText } = await axeRender(
-      <Tag dataAttributes={exampleDataAttributes}>{exampleTagBody}</Tag>
+      <Tag dataAttributes={exampleDataAttributes}>{exampleTagBody}</Tag>,
     );
 
     expect(getByText(exampleTagBody)).toHaveAttribute('data-test', 'example');

@@ -69,7 +69,7 @@ const Tooltip = ({
             paddingTop: tokens.size.space[8].value,
           },
           marginMap[position],
-          cardStyles[appearance]
+          cardStyles[appearance],
         )}
         elevation={elevations[appearance]}
         id={id}
@@ -80,7 +80,7 @@ const Tooltip = ({
               fontSize: tokens.size.font[200].value,
               whiteSpace: 'nowrap',
             },
-            textStyles[appearance]
+            textStyles[appearance],
           )}
         >
           {children}

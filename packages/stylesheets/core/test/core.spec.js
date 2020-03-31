@@ -13,7 +13,7 @@ describe('Core', () => {
     const structure = omitDeep(dir, 'size');
     const cssDirIndex = _.findIndex(
       structure.children,
-      ({ name }) => name === 'css'
+      ({ name }) => name === 'css',
     );
     const cssFiles = structure.children[cssDirIndex].children;
     structure.children[cssDirIndex].children = cssFiles.map(file => ({

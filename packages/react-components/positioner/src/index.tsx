@@ -107,7 +107,7 @@ const Positioner = ({
           position: 'fixed',
           zIndex: 1,
         },
-        layoutCSSMap[position]
+        layoutCSSMap[position],
       )}
     >
       {children}

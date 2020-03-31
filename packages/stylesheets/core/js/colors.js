@@ -124,7 +124,7 @@ const checkValidColors = color => {
   if (regex.exec(color) !== null) {
     // eslint-disable-next-line no-console
     console.error(
-      `Deprecated color name: ${color}, please use the camelCase version of this color.`
+      `Deprecated color name: ${color}, please use the camelCase version of this color.`,
     );
   }
 };

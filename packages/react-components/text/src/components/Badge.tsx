@@ -67,7 +67,7 @@ const Badge = ({
     css={css(
       baseStyle,
       { backgroundColor: color, color: getTextColor(color) },
-      sizeStyles[size]
+      sizeStyles[size],
     )}
   >
     {children}

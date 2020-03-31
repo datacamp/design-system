@@ -24,14 +24,14 @@ describe('<Panel />', () => {
         <Panel onClose={() => {}} isOpen>
           children
         </Panel>,
-        getRenderOptions()
+        getRenderOptions(),
       );
 
       expect(container).toHaveAttribute('aria-hidden', 'true'); // app gets hidden when open
 
       const modalElement = getByRole('dialog');
       expect(modalElement).toContainElement(
-        getByText('children') as HTMLElement
+        getByText('children') as HTMLElement,
       );
       expect(baseElement).toMatchSnapshot();
     });
@@ -41,7 +41,7 @@ describe('<Panel />', () => {
         <Panel isOpen={false} onClose={() => {}}>
           children
         </Panel>,
-        getRenderOptions()
+        getRenderOptions(),
       );
 
       expect(container).not.toHaveAttribute('aria-hidden', 'true'); // app is interactive when hidden
@@ -58,7 +58,7 @@ describe('<Panel />', () => {
         <Panel onClose={onClose} isOpen>
           children
         </Panel>,
-        getRenderOptions()
+        getRenderOptions(),
       );
 
       const closeButton = getByTitle('Cross') as HTMLElement;
@@ -75,7 +75,7 @@ describe('<Panel />', () => {
         <Panel hideCloseButton={false} onClose={onClose} isOpen>
           children
         </Panel>,
-        getRenderOptions()
+        getRenderOptions(),
       );
 
       const closeButton = getByTitle('Cross') as HTMLElement;
@@ -92,7 +92,7 @@ describe('<Panel />', () => {
         <Panel onClose={onClose} hideCloseButton isOpen>
           children
         </Panel>,
-        getRenderOptions()
+        getRenderOptions(),
       );
 
       expect(queryByTitle('Cross')).not.toBeInTheDocument();
@@ -106,12 +106,12 @@ describe('<Panel />', () => {
         <Panel onClose={onClose} isOpen>
           children
         </Panel>,
-        getRenderOptions()
+        getRenderOptions(),
       );
 
       // need to use querySelector since there is no real content/label for the background
       const backgroundOverlayElement = baseElement.querySelector(
-        '.modal-overlay'
+        '.modal-overlay',
       ) as HTMLElement;
 
       userEvent.click(backgroundOverlayElement);
@@ -125,12 +125,12 @@ describe('<Panel />', () => {
         <Panel onClose={onClose} isOpen shouldCloseOnOverlayClick>
           children
         </Panel>,
-        getRenderOptions()
+        getRenderOptions(),
       );
 
       // need to use querySelector since there is no real content/label for the background
       const backgroundOverlayElement = baseElement.querySelector(
-        '.modal-overlay'
+        '.modal-overlay',
       ) as HTMLElement;
 
       userEvent.click(backgroundOverlayElement);
@@ -144,12 +144,12 @@ describe('<Panel />', () => {
         <Panel onClose={onClose} shouldCloseOnOverlayClick={false} isOpen>
           children
         </Panel>,
-        getRenderOptions()
+        getRenderOptions(),
       );
 
       // need to use querySelector since there is no real content/label for the background
       const backgroundOverlayElement = baseElement.querySelector(
-        '.modal-overlay'
+        '.modal-overlay',
       ) as HTMLElement;
 
       userEvent.click(backgroundOverlayElement);
@@ -164,7 +164,7 @@ describe('<Panel />', () => {
         <Panel onClose={onClose} isOpen>
           children
         </Panel>,
-        getRenderOptions()
+        getRenderOptions(),
       );
 
       const dialogElement = getByRole('dialog') as HTMLElement;
@@ -184,7 +184,7 @@ describe('<Panel />', () => {
         <Panel onClose={onClose} isOpen shouldCloseOnEsc>
           children
         </Panel>,
-        getRenderOptions()
+        getRenderOptions(),
       );
 
       const dialogElement = getByRole('dialog') as HTMLElement;
@@ -204,7 +204,7 @@ describe('<Panel />', () => {
         <Panel onClose={onClose} shouldCloseOnEsc={false} isOpen>
           children
         </Panel>,
-        getRenderOptions()
+        getRenderOptions(),
       );
 
       const dialogElement = getByRole('dialog') as HTMLElement;
@@ -225,7 +225,7 @@ describe('<Panel />', () => {
       <Panel onClose={onClose} width={width} isOpen>
         children
       </Panel>,
-      getRenderOptions()
+      getRenderOptions(),
     );
 
     const dialogElement = getByRole('dialog') as HTMLElement;
@@ -240,7 +240,7 @@ describe('<Panel />', () => {
         <Panel.Header>{testTitle}</Panel.Header>
         children
       </Panel>,
-      getRenderOptions()
+      getRenderOptions(),
     );
 
     expect(getByText(testTitle)).toBeInTheDocument();
@@ -259,7 +259,7 @@ describe('<Panel />', () => {
           <Button onClick={() => {}}>Button</Button>
         </Panel.Footer>
       </Panel>,
-      getRenderOptions()
+      getRenderOptions(),
     );
 
     expect(getByText(testTitle)).toBeInTheDocument();
@@ -275,15 +275,15 @@ describe('<Panel />', () => {
         <Button onClick={() => {}}>Button1</Button>
         <Button onClick={() => {}}>Button2</Button>
       </Panel.Footer>,
-      getRenderOptions()
+      getRenderOptions(),
     );
 
     expect(container.firstChild).toHaveStyle(`justify-content: space-between`);
     expect(container.firstChild).toHaveStyle(
-      `paddingLeft: ${tokens.size.space[16].value}`
+      `paddingLeft: ${tokens.size.space[16].value}`,
     );
     expect(container.firstChild).toHaveStyle(
-      `paddingRight: ${tokens.size.space[16].value}`
+      `paddingRight: ${tokens.size.space[16].value}`,
     );
 
     // expect(baseElement).toMatchSnapshot();
@@ -297,13 +297,13 @@ describe('<Panel />', () => {
           <Button onClick={() => {}}>Button2</Button>
         </ButtonGroup>
       </Panel.Footer>,
-      getRenderOptions()
+      getRenderOptions(),
     );
 
     expect(getByText('Button1')).toBeInTheDocument();
     expect(getByText('Button2')).toBeInTheDocument();
     expect(getByText('Button2')).toHaveStyle(
-      `marginLeft: ${tokens.size.space[16].value}`
+      `marginLeft: ${tokens.size.space[16].value}`,
     );
 
     // expect(baseElement).toMatchSnapshot();

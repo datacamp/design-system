@@ -8,11 +8,11 @@ const generateVariables = (
     prefix = '',
     keyTransform = _.kebabCase,
     valueTransform = prop => prop.value,
-  } = {}
+  } = {},
 ) => {
   const sortedData = _.sortBy(
     Object.entries(object).map(([key, data]) => ({ data, key })),
-    'data.attributes.scssSortValue'
+    'data.attributes.scssSortValue',
   );
   return _.reduce(
     sortedData,
@@ -22,7 +22,7 @@ const generateVariables = (
         prefix === '' ? '' : '-'
       }${variableName}: ${valueTransform(data, key)};\n`;
     },
-    ''
+    '',
   );
 };
 
@@ -36,21 +36,21 @@ module.exports = ({ properties }) => {
     `$dc-multiplier: ${properties.size.spatial.multiplier.value};`,
     '// Spatial lists for generating utility classes',
     `$dc-spatial: ${extractValueArray(properties.size.spatial.size).join(
-      ' '
+      ' ',
     )};`,
     `$dc-spatial-common: ${extractValueArray(
-      properties.size.spatial.commonSize
+      properties.size.spatial.commonSize,
     ).join(' ')};`,
     `$dc-measure: ${extractValueArray(properties.size.spatial.measure).join(
-      ' '
+      ' ',
     )};`,
     `$dc-spatial-all: join(\n  $list1: $dc-spatial,\n  $list2: $dc-measure,\n);`,
     '// Percentages list for generating utility classes',
     `$dc-percentages: ${extractValueArray(
-      properties.size.spatial.percentage
+      properties.size.spatial.percentage,
     ).join(' ')};`,
     `$dc-angles: ${extractValueArray(properties.size.spatial.angle).join(
-      ' '
+      ' ',
     )};`,
     `$dc-z-indexes: ${extractValueArray(properties.zIndex).join(' ')};`,
   ].join('\n');
@@ -68,7 +68,7 @@ module.exports = ({ properties }) => {
     colorObject,
     (result, value, key) =>
       `${result}  '${_.kebabCase(key)}': $dc-${_.kebabCase(key)},\n`,
-    "  'currentColor': currentColor,\n  'transparent': transparent,\n"
+    "  'currentColor': currentColor,\n  'transparent': transparent,\n",
   )});`;
 
   const gradients = generateVariables(properties.gradient, {
@@ -124,9 +124,9 @@ module.exports = ({ properties }) => {
       .reduce(
         (result, { attributes: { type: key } }) =>
           `${result}  '${transformBreakpointKey(
-            key
+            key,
           )}': $dc-bp-${transformBreakpointKey(key)},\n`,
-        ''
+        '',
       )});`,
     `$dc-breakpoints-hd: (\n${_(properties.breakpoints)
       .sortBy('attributes.scssSortValue')
@@ -134,9 +134,9 @@ module.exports = ({ properties }) => {
       .reduce(
         (result, { attributes: { type: key } }) =>
           `${result}  '${transformBreakpointKey(
-            key
+            key,
           )}': $dc-bp-${transformBreakpointKey(key)},\n`,
-        ''
+        '',
       )});`,
     '$dc-breakpoints-all: map-merge($dc-breakpoints, $dc-breakpoints-hd);',
     `$dc-breakpoints-below: (\n${_(properties.breakpoints)
@@ -145,9 +145,9 @@ module.exports = ({ properties }) => {
       .reduce(
         (result, { attributes: { type: key } }) =>
           `${result}  '${transformBreakpointKey(
-            key
+            key,
           )}': $dc-bp-below-${transformBreakpointKey(key)},\n`,
-        ''
+        '',
       )});`,
     `$dc-breakpoints-below-hd: (\n${_(properties.breakpoints)
       .sortBy('attributes.scssSortValue')
@@ -155,9 +155,9 @@ module.exports = ({ properties }) => {
       .reduce(
         (result, { attributes: { type: key } }) =>
           `${result}  '${transformBreakpointKey(
-            key
+            key,
           )}': $dc-bp-below-${transformBreakpointKey(key)},\n`,
-        ''
+        '',
       )});`,
     `$dc-breakpoints-below-all: map-merge($dc-breakpoints-below, $dc-breakpoints-below-hd);`,
   ].join('\n');

@@ -16,7 +16,7 @@ describe('<Text />', () => {
     const { container } = await axeRender(
       <Text className={testClassName} dataAttributes={testDataAttributes}>
         {testText}
-      </Text>
+      </Text>,
     );
     expect(container.firstChild).toMatchSnapshot();
   });
@@ -25,7 +25,7 @@ describe('<Text />', () => {
     const { container } = await axeRender(
       <Text className={testClassName} dataAttributes={testDataAttributes}>
         Some example text <Strong>with strong</Strong> included.
-      </Text>
+      </Text>,
     );
     expect(container.firstChild).toMatchSnapshot();
   });
@@ -34,7 +34,7 @@ describe('<Text />', () => {
     const { container } = await axeRender(
       <Text className={testClassName} dataAttributes={testDataAttributes}>
         Some example text <Small>with strong</Small> included.
-      </Text>
+      </Text>,
     );
     expect(container.firstChild).toMatchSnapshot();
   });
@@ -46,22 +46,22 @@ describe('<Text />', () => {
 
   it('sets the className', async () => {
     const { getByText } = await axeRender(
-      <Text className={testClassName}>{testText}</Text>
+      <Text className={testClassName}>{testText}</Text>,
     );
     expect(getByText(testText)).toHaveClass(testClassName);
   });
 
   it('sets the data attributes', async () => {
     const { getByText } = await axeRender(
-      <Text dataAttributes={testDataAttributes}>{testText}</Text>
+      <Text dataAttributes={testDataAttributes}>{testText}</Text>,
     );
     expect(getByText(testText)).toHaveAttribute(
       'data-cy',
-      testDataAttributes.cy
+      testDataAttributes.cy,
     );
     expect(getByText(testText)).toHaveAttribute(
       'data-example',
-      testDataAttributes.example
+      testDataAttributes.example,
     );
   });
 });

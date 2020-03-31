@@ -33,8 +33,8 @@ storiesOf('waffles-tag', module)
         .concat([['default', undefined]]),
       {
         showDarkBackground: true,
-      }
-    )
+      },
+    ),
   )
   .add(
     'Customize',
@@ -55,5 +55,5 @@ storiesOf('waffles-tag', module)
         </Tag>
       );
     },
-    { percy: { skip: true } }
+    { percy: { skip: true } },
   );

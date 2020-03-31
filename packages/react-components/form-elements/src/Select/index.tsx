@@ -106,7 +106,7 @@ class Select extends Component<
   };
 
   private handleChange = (
-    event: React.ChangeEvent<HTMLSelectElement>
+    event: React.ChangeEvent<HTMLSelectElement>,
   ): void => {
     const { onChange } = this.props;
     return onChange(event.target.value);
