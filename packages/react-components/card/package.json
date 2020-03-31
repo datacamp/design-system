@@ -41,7 +41,7 @@
     "@testing-library/react": "9.4.1",
     "@types/lodash": "4.14.149",
     "babel-jest": "25.1.0",
-    "jest": "25.1.0",
+    "jest": "25.2.4",
     "jest-emotion": "10.0.26",
     "react": "16.8.6",
     "react-docgen": "5.2.1",
