@@ -1340,6 +1340,11 @@
   resolved "https://registry.yarnpkg.com/@csstools/convert-colors/-/convert-colors-1.4.0.tgz#ad495dc41b12e75d588c6db8b9834f08fa131eb7"
   integrity sha512-5a6wqoJV/xEdbRNKVo6I4hO3VjyDq//8q2f9I6PBAvMesJHFauXDorcNCsr9RzvsZnaWi5NYCcfyqP1QeFHFbw==
 
+"@datacamp/prettier-config@^0.1.0":
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/@datacamp/prettier-config/-/prettier-config-0.1.0.tgz#dac4cfeb9335bfae53b76790ff77e26cdf2a0314"
+  integrity sha512-8++3xusrvfRnRKnxE043Hp60dKwCffhJjoDmhjqMynxvhD8TRtslGCc8SIliyeKJYLVTOVgdu+EyUhl8a59cJQ==
+
 "@emotion/babel-plugin-jsx-pragmatic@^0.1.5":
   version "0.1.5"
   resolved "https://registry.yarnpkg.com/@emotion/babel-plugin-jsx-pragmatic/-/babel-plugin-jsx-pragmatic-0.1.5.tgz#27debfe9c27c4d83574d509787ae553bf8a34d7e"
