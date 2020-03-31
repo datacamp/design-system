@@ -27,8 +27,8 @@ export default () => {
           <ul className="dc-u-fx dc-u-fx-fww dc-u-m-none dc-u-p-none">
             {obj.map(name => (
               <li
-                key={name}
                 className="dc-u-fx dc-u-fx-fdc dc-u-fx-aic dc-u-fx-jcc"
+                key={name}
                 style={{
                   background: getColor(name),
                   color: getContrastColor(name),

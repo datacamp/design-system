@@ -57,7 +57,6 @@ const Label = ({
 }: LabelProps): React.ReactElement => {
   return (
     <>
-      {/* eslint-disable-next-line jsx-a11y/label-has-for */}
       <Element css={labelStyle} htmlFor={htmlFor}>
         <div css={{ marginBottom: tokens.size.space[12].value }}>
           <span

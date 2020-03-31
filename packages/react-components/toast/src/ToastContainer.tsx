@@ -69,10 +69,10 @@ const ToastContainer = (props: ToastContainerProps): React.ReactElement => (
           closeButton={false}
           closeOnClick={false}
           draggable={false}
+          hideProgressBar
           position="top-center"
           toastClassName={css({ marginTop: 16 })}
           transition={transition}
-          hideProgressBar
           {...props}
         />
       );

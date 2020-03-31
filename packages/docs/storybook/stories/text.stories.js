@@ -22,7 +22,7 @@ import React from 'react';
 storiesOf('waffles-text', module)
   .add('Flow all components', () => (
     <>
-      <Heading as="h1" size={800} multiLine>
+      <Heading as="h1" multiLine size={800}>
         This is a Heading with size 800
       </Heading>
       <Paragraph>
@@ -245,42 +245,42 @@ arrange(desc(gdpPercap))`}</CodeBlock>
           This is an initial paragraph so that the margin-top on first heading
           is visible
         </Paragraph>
-        <Heading as={element} size={800} multiLine>
+        <Heading as={element} multiLine size={800}>
           This is a Heading with size 800
         </Heading>
         <Paragraph>
           This is some content in a paragraph to demonstrate the spacing below
           the last Heading.
         </Paragraph>
-        <Heading as={element} size={700} multiLine>
+        <Heading as={element} multiLine size={700}>
           This is a Heading with size 700
         </Heading>
         <Paragraph>
           This is some content in a paragraph to demonstrate the spacing below
           the last Heading.
         </Paragraph>
-        <Heading as={element} size={600} multiLine>
+        <Heading as={element} multiLine size={600}>
           This is a Heading with size 600
         </Heading>
         <Paragraph>
           This is some content in a paragraph to demonstrate the spacing below
           the last Heading.
         </Paragraph>
-        <Heading as={element} size={500} multiLine>
+        <Heading as={element} multiLine size={500}>
           This is a Heading with size 500
         </Heading>
         <Paragraph>
           This is some content in a paragraph to demonstrate the spacing below
           the last Heading.
         </Paragraph>
-        <Heading as={element} size={400} multiLine>
+        <Heading as={element} multiLine size={400}>
           This is a Heading with size 400
         </Heading>
         <Paragraph>
           This is some content in a paragraph to demonstrate the spacing below
           the last Heading.
         </Paragraph>
-        <Heading as={element} size={300} multiLine>
+        <Heading as={element} multiLine size={300}>
           This is a Heading with size 300
         </Heading>
         <Paragraph>
@@ -309,7 +309,7 @@ arrange(desc(gdpPercap))`}</CodeBlock>
           Below is a long Heading in a fixed box with multiLine=true
         </Paragraph>
         <div css={{ border: '1px solid black', width: 200 }}>
-          <Heading as={element} size={600} multiLine>
+          <Heading as={element} multiLine size={600}>
             A lot of content that does not fit
           </Heading>
         </div>

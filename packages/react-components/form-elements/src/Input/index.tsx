@@ -187,7 +187,6 @@ const InternalInput = ({
     <>
       {iconElement}
       <input
-        ref={innerRef}
         autoComplete={autocomplete}
         className={className}
         css={getInputStyle}
@@ -198,6 +197,7 @@ const InternalInput = ({
         onBlur={handleBlur}
         onChange={handleChange}
         placeholder={placeholder}
+        ref={innerRef}
         type={type}
         value={value}
         {...parsedDataAttributes}

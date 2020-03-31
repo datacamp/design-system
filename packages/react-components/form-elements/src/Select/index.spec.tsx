@@ -126,7 +126,7 @@ describe('<Select>', () => {
 
   it('disables the select element', () => {
     const { getByRole } = render(
-      <Select name={testName} onChange={() => {}} value={testValue} disabled>
+      <Select disabled name={testName} onChange={() => {}} value={testValue}>
         <SelectOption value="value1">option1</SelectOption>
         <SelectOption value="value2">option2</SelectOption>
       </Select>,
@@ -137,7 +137,7 @@ describe('<Select>', () => {
 
   it('renders an arrow icon', async () => {
     const { getByTitle } = await render(
-      <Select name={testName} onChange={() => {}} value={testValue} disabled>
+      <Select disabled name={testName} onChange={() => {}} value={testValue}>
         <SelectOption value="value1">option1</SelectOption>
         <SelectOption value="value2">option2</SelectOption>
       </Select>,
@@ -228,7 +228,7 @@ describe('<SelectOption>', () => {
 
   it('sets the disabled attribute', () => {
     const { getByRole } = render(
-      <SelectOption value={testValue} disabled>
+      <SelectOption disabled value={testValue}>
         option2
       </SelectOption>,
     );
@@ -289,8 +289,8 @@ describe('with label', () => {
         label={testLabel}
         name={testName}
         onChange={() => {}}
-        value={testValue}
         required
+        value={testValue}
       >
         <SelectOption value="value1">option1</SelectOption>
         <SelectOption value="value2">option2</SelectOption>
@@ -351,7 +351,7 @@ describe('with label', () => {
               >
                 <SelectOption value="value1">option1</SelectOption>
                 <SelectOption value="value2">option2</SelectOption>
-                <SelectOption value="value3" disabled>
+                <SelectOption disabled value="value3">
                   option3
                 </SelectOption>
               </Select>,

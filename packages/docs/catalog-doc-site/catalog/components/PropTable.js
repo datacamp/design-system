@@ -53,7 +53,7 @@ const PropTable = ({ componentData, componentName, id }) => {
         </thead>
         <tbody>
           {Object.entries(props || {}).map(([name, data]) => (
-            <tr key={name} className="dc-table__tr">
+            <tr className="dc-table__tr" key={name}>
               <th>{name === 'innerRef' ? 'ref' : name}</th>
               <td>{getTypeString(data)}</td>
               <td>

@@ -16,12 +16,12 @@ storiesOf('waffles-card', module).add('elevation levels', () => {
     >
       {Object.keys(elevationMap).map(elevation => (
         <Card
-          key={elevation}
           css={{ margin: 16, padding: 24, width: 300 }}
           elevation={parseInt(elevation, 10)}
           hoverElevation={
             hoverElevation > elevation ? hoverElevation : undefined
           }
+          key={elevation}
         >
           <Paragraph>This is a paragraph with some padding.</Paragraph>
         </Card>

@@ -29,29 +29,29 @@ storiesOf('waffles-positioner', module).add('positioner', () =>
             gridTemplateRows: '1fr 1fr 1fr',
           }}
         >
-          <div ref={bottomLeftRef} css={targetStyle}>
+          <div css={targetStyle} ref={bottomLeftRef}>
             bottomLeft target
           </div>
-          <div ref={bottomRef} css={targetStyle}>
+          <div css={targetStyle} ref={bottomRef}>
             bottom target
           </div>
-          <div ref={bottomRightRef} css={targetStyle}>
+          <div css={targetStyle} ref={bottomRightRef}>
             bottomRight target
           </div>
-          <div ref={rightRef} css={targetStyle}>
+          <div css={targetStyle} ref={rightRef}>
             right target
           </div>
           <div />
-          <div ref={leftRef} css={targetStyle}>
+          <div css={targetStyle} ref={leftRef}>
             left target
           </div>
-          <div ref={topLeftRef} css={targetStyle}>
+          <div css={targetStyle} ref={topLeftRef}>
             topLeft target
           </div>
-          <div ref={topRef} css={targetStyle}>
+          <div css={targetStyle} ref={topRef}>
             top target
           </div>
-          <div ref={topRightRef} css={targetStyle}>
+          <div css={targetStyle} ref={topRightRef}>
             topRight target
           </div>
         </div>

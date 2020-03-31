@@ -22,10 +22,10 @@ describe('<AlertModal />', () => {
       const { container, getByText, baseElement, getByRole } = await axeRender(
         <AlertDialog
           description="test description"
+          isOpen
           onClose={() => {}}
           onConfirm={() => {}}
           title="test title"
-          isOpen
         />,
         getRenderOptions(),
       );
@@ -66,10 +66,10 @@ describe('<AlertModal />', () => {
       const { getByText } = await axeRender(
         <AlertDialog
           description="test description"
+          isOpen
           onClose={() => {}}
           onConfirm={onConfirm}
           title="test title"
-          isOpen
         />,
         getRenderOptions(),
       );
@@ -86,10 +86,10 @@ describe('<AlertModal />', () => {
         <AlertDialog
           confirmButtonText={confirmButtonText}
           description="test description"
+          isOpen
           onClose={() => {}}
           onConfirm={onConfirm}
           title="test title"
-          isOpen
         />,
         getRenderOptions(),
       );
@@ -107,10 +107,10 @@ describe('<AlertModal />', () => {
       const { getByTitle } = await axeRender(
         <AlertDialog
           description="test description"
+          isOpen
           onClose={onClose}
           onConfirm={() => {}}
           title="test title"
-          isOpen
         />,
         getRenderOptions(),
       );
@@ -128,10 +128,10 @@ describe('<AlertModal />', () => {
       const { getByText } = await axeRender(
         <AlertDialog
           description="test description"
+          isOpen
           onClose={onClose}
           onConfirm={() => {}}
           title="test title"
-          isOpen
         />,
         getRenderOptions(),
       );
@@ -150,10 +150,10 @@ describe('<AlertModal />', () => {
         <AlertDialog
           cancelButtonText={cancelButtonText}
           description="test description"
+          isOpen
           onClose={onClose}
           onConfirm={() => {}}
           title="test title"
-          isOpen
         />,
         getRenderOptions(),
       );
@@ -170,10 +170,10 @@ describe('<AlertModal />', () => {
       const { baseElement } = await axeRender(
         <AlertDialog
           description="test description"
+          isOpen
           onClose={onClose}
           onConfirm={() => {}}
           title="test title"
-          isOpen
         />,
         getRenderOptions(),
       );
@@ -193,10 +193,10 @@ describe('<AlertModal />', () => {
       const { getByRole } = await axeRender(
         <AlertDialog
           description="test description"
+          isOpen
           onClose={onClose}
           onConfirm={() => {}}
           title="test title"
-          isOpen
         />,
         getRenderOptions(),
       );
@@ -218,11 +218,11 @@ describe('<AlertModal />', () => {
       const { getByText, getByTitle } = await axeRender(
         <AlertDialog
           description="test description"
+          isOpen
+          loading
           onClose={() => {}}
           onConfirm={() => {}}
           title="test title"
-          isOpen
-          loading
         />,
         getRenderOptions(),
       );
@@ -241,11 +241,11 @@ describe('<AlertModal />', () => {
       const { getByTitle } = await axeRender(
         <AlertDialog
           description="test description"
+          isOpen
+          loading
           onClose={onClose}
           onConfirm={() => {}}
           title="test title"
-          isOpen
-          loading
         />,
         getRenderOptions(),
       );
@@ -262,11 +262,11 @@ describe('<AlertModal />', () => {
       const { getByText } = await axeRender(
         <AlertDialog
           description="test description"
+          isOpen
+          loading
           onClose={onClose}
           onConfirm={() => {}}
           title="test title"
-          isOpen
-          loading
         />,
         getRenderOptions(),
       );
@@ -282,11 +282,11 @@ describe('<AlertModal />', () => {
       const { baseElement } = await axeRender(
         <AlertDialog
           description="test description"
+          isOpen
+          loading
           onClose={onClose}
           onConfirm={() => {}}
           title="test title"
-          isOpen
-          loading
         />,
         getRenderOptions(),
       );
@@ -305,11 +305,11 @@ describe('<AlertModal />', () => {
       const { getByRole } = await axeRender(
         <AlertDialog
           description="test description"
+          isOpen
+          loading
           onClose={onClose}
           onConfirm={() => {}}
           title="test title"
-          isOpen
-          loading
         />,
         getRenderOptions(),
       );
@@ -330,10 +330,10 @@ describe('<AlertModal />', () => {
       const { getByText } = await axeRender(
         <AlertDialog
           description="test description"
+          isOpen
           onClose={() => {}}
           onConfirm={() => {}}
           title="test title"
-          isOpen
         />,
         getRenderOptions(),
       );
@@ -351,10 +351,10 @@ describe('<AlertModal />', () => {
         <AlertDialog
           description="test description"
           intent="neutral"
+          isOpen
           onClose={() => {}}
           onConfirm={() => {}}
           title="test title"
-          isOpen
         />,
         getRenderOptions(),
       );
@@ -372,10 +372,10 @@ describe('<AlertModal />', () => {
         <AlertDialog
           description="test description"
           intent="success"
+          isOpen
           onClose={() => {}}
           onConfirm={() => {}}
           title="test title"
-          isOpen
         />,
         getRenderOptions(),
       );
@@ -393,10 +393,10 @@ describe('<AlertModal />', () => {
         <AlertDialog
           description="test description"
           intent="warning"
+          isOpen
           onClose={() => {}}
           onConfirm={() => {}}
           title="test title"
-          isOpen
         />,
         getRenderOptions(),
       );
@@ -417,10 +417,10 @@ describe('<AlertModal />', () => {
         <AlertDialog
           description="test description"
           intent="danger"
+          isOpen
           onClose={() => {}}
           onConfirm={() => {}}
           title="test title"
-          isOpen
         />,
         getRenderOptions(),
       );

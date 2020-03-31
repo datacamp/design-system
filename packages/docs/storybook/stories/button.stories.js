@@ -66,10 +66,10 @@ storiesOf('waffles-button', module)
     <AllButtonCombos>
       {({ appearance, state, intent, size, key }) => (
         <Button
-          key={key}
           appearance={appearance}
           disabled={state === 'disabled'}
           intent={intent}
+          key={key}
           loading={state === 'loading'}
           size={size}
           tooltipAppearance={getTooltipAppearance()}
@@ -86,10 +86,10 @@ storiesOf('waffles-button', module)
     <AllButtonCombos>
       {({ appearance, state, intent, size, key }) => (
         <Button
-          key={key}
           appearance={appearance}
           disabled={state === 'disabled'}
           intent={intent}
+          key={key}
           loading={state === 'loading'}
           size={size}
           tooltipAppearance={getTooltipAppearance()}
@@ -106,10 +106,10 @@ storiesOf('waffles-button', module)
       <AllButtonCombos>
         {({ appearance, state, intent, size, key }) => (
           <Button
-            key={key}
             appearance={appearance}
             disabled={state === 'disabled'}
             intent={intent}
+            key={key}
             loading={state === 'loading'}
             size={size}
             tooltipAppearance={getTooltipAppearance()}
@@ -123,10 +123,10 @@ storiesOf('waffles-button', module)
       <AllButtonCombos>
         {({ appearance, state, intent, size, key }) => (
           <Button
-            key={key}
             appearance={appearance}
             disabled={state === 'disabled'}
             intent={intent}
+            key={key}
             loading={state === 'loading'}
             size={size}
             tooltipAppearance={getTooltipAppearance()}
