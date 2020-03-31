@@ -4,6 +4,11 @@
   "main": "lib/index.js",
   "module": "es/index.js",
   "types": "types/index.d.ts",
+  "files": [
+    "es",
+    "lib",
+    "types"
+  ],
   "license": "UNLICENSED",
   "sideEffects": [
     "lib/sideEffects/*",

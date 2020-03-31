@@ -8,6 +8,11 @@
   "main": "lib/index.js",
   "module": "es/index.js",
   "types": "types/index.d.ts",
+  "files": [
+    "es",
+    "lib",
+    "types"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/datacamp/design-system.git"
