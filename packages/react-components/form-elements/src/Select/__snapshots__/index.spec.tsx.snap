@@ -99,7 +99,6 @@ exports[`with label snapshots renders a select element with size large, disabled
 }
 
 .emotion-5 {
-  -webkit-appearance: none;
   background: white;
   border: 0;
   border-radius: 4px;
@@ -110,11 +109,12 @@ exports[`with label snapshots renders a select element with size large, disabled
   font-family: Lato;
   margin: 0;
   vertical-align: baseline;
-  -moz-appearance: none;
   -webkit-appearance: none;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
   width: 100%;
   z-index: 1;
   font-size: 20px;
@@ -331,7 +331,6 @@ exports[`with label snapshots renders a select element with size large, disabled
 }
 
 .emotion-6 {
-  -webkit-appearance: none;
   background: white;
   border: 0;
   border-radius: 4px;
@@ -342,11 +341,12 @@ exports[`with label snapshots renders a select element with size large, disabled
   font-family: Lato;
   margin: 0;
   vertical-align: baseline;
-  -moz-appearance: none;
   -webkit-appearance: none;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
   width: 100%;
   z-index: 1;
   font-size: 20px;
@@ -534,7 +534,6 @@ exports[`with label snapshots renders a select element with size large, disabled
 }
 
 .emotion-3 {
-  -webkit-appearance: none;
   background: white;
   border: 0;
   border-radius: 4px;
@@ -545,11 +544,12 @@ exports[`with label snapshots renders a select element with size large, disabled
   font-family: Lato;
   margin: 0;
   vertical-align: baseline;
-  -moz-appearance: none;
   -webkit-appearance: none;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
   width: 100%;
   z-index: 1;
   font-size: 20px;
@@ -744,7 +744,6 @@ exports[`with label snapshots renders a select element with size large, disabled
 }
 
 .emotion-5 {
-  -webkit-appearance: none;
   background: white;
   border: 0;
   border-radius: 4px;
@@ -755,11 +754,12 @@ exports[`with label snapshots renders a select element with size large, disabled
   font-family: Lato;
   margin: 0;
   vertical-align: baseline;
-  -moz-appearance: none;
   -webkit-appearance: none;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
   width: 100%;
   z-index: 1;
   font-size: 20px;
@@ -977,7 +977,6 @@ exports[`with label snapshots renders a select element with size large, disabled
 }
 
 .emotion-6 {
-  -webkit-appearance: none;
   background: white;
   border: 0;
   border-radius: 4px;
@@ -988,11 +987,12 @@ exports[`with label snapshots renders a select element with size large, disabled
   font-family: Lato;
   margin: 0;
   vertical-align: baseline;
-  -moz-appearance: none;
   -webkit-appearance: none;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
   width: 100%;
   z-index: 1;
   font-size: 20px;
@@ -1181,7 +1181,6 @@ exports[`with label snapshots renders a select element with size large, disabled
 }
 
 .emotion-3 {
-  -webkit-appearance: none;
   background: white;
   border: 0;
   border-radius: 4px;
@@ -1192,11 +1191,12 @@ exports[`with label snapshots renders a select element with size large, disabled
   font-family: Lato;
   margin: 0;
   vertical-align: baseline;
-  -moz-appearance: none;
   -webkit-appearance: none;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
   width: 100%;
   z-index: 1;
   font-size: 20px;
@@ -1356,7 +1356,6 @@ exports[`with label snapshots renders a select element with size medium, disable
 }
 
 .emotion-5 {
-  -webkit-appearance: none;
   background: white;
   border: 0;
   border-radius: 4px;
@@ -1367,11 +1366,12 @@ exports[`with label snapshots renders a select element with size medium, disable
   font-family: Lato;
   margin: 0;
   vertical-align: baseline;
-  -moz-appearance: none;
   -webkit-appearance: none;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
   width: 100%;
   z-index: 1;
   font-size: 16px;
@@ -1575,7 +1575,6 @@ exports[`with label snapshots renders a select element with size medium, disable
 }
 
 .emotion-6 {
-  -webkit-appearance: none;
   background: white;
   border: 0;
   border-radius: 4px;
@@ -1586,11 +1585,12 @@ exports[`with label snapshots renders a select element with size medium, disable
   font-family: Lato;
   margin: 0;
   vertical-align: baseline;
-  -moz-appearance: none;
   -webkit-appearance: none;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
   width: 100%;
   z-index: 1;
   font-size: 16px;
@@ -1812,7 +1812,6 @@ exports[`with label snapshots renders a select element with size medium, disable
 }
 
 .emotion-3 {
-  -webkit-appearance: none;
   background: white;
   border: 0;
   border-radius: 4px;
@@ -1823,11 +1822,12 @@ exports[`with label snapshots renders a select element with size medium, disable
   font-family: Lato;
   margin: 0;
   vertical-align: baseline;
-  -moz-appearance: none;
   -webkit-appearance: none;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
   width: 100%;
   z-index: 1;
   font-size: 16px;
@@ -2037,7 +2037,6 @@ exports[`with label snapshots renders a select element with size medium, disable
 }
 
 .emotion-5 {
-  -webkit-appearance: none;
   background: white;
   border: 0;
   border-radius: 4px;
@@ -2048,11 +2047,12 @@ exports[`with label snapshots renders a select element with size medium, disable
   font-family: Lato;
   margin: 0;
   vertical-align: baseline;
-  -moz-appearance: none;
   -webkit-appearance: none;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
   width: 100%;
   z-index: 1;
   font-size: 16px;
@@ -2270,7 +2270,6 @@ exports[`with label snapshots renders a select element with size medium, disable
 }
 
 .emotion-6 {
-  -webkit-appearance: none;
   background: white;
   border: 0;
   border-radius: 4px;
@@ -2281,11 +2280,12 @@ exports[`with label snapshots renders a select element with size medium, disable
   font-family: Lato;
   margin: 0;
   vertical-align: baseline;
-  -moz-appearance: none;
   -webkit-appearance: none;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
   width: 100%;
   z-index: 1;
   font-size: 16px;
@@ -2474,7 +2474,6 @@ exports[`with label snapshots renders a select element with size medium, disable
 }
 
 .emotion-3 {
-  -webkit-appearance: none;
   background: white;
   border: 0;
   border-radius: 4px;
@@ -2485,11 +2484,12 @@ exports[`with label snapshots renders a select element with size medium, disable
   font-family: Lato;
   margin: 0;
   vertical-align: baseline;
-  -moz-appearance: none;
   -webkit-appearance: none;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
   width: 100%;
   z-index: 1;
   font-size: 16px;
@@ -2685,7 +2685,6 @@ exports[`with label snapshots renders a select element with size small, disabled
 }
 
 .emotion-5 {
-  -webkit-appearance: none;
   background: white;
   border: 0;
   border-radius: 4px;
@@ -2696,11 +2695,12 @@ exports[`with label snapshots renders a select element with size small, disabled
   font-family: Lato;
   margin: 0;
   vertical-align: baseline;
-  -moz-appearance: none;
   -webkit-appearance: none;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
   width: 100%;
   z-index: 1;
   font-size: 16px;
@@ -2917,7 +2917,6 @@ exports[`with label snapshots renders a select element with size small, disabled
 }
 
 .emotion-6 {
-  -webkit-appearance: none;
   background: white;
   border: 0;
   border-radius: 4px;
@@ -2928,11 +2927,12 @@ exports[`with label snapshots renders a select element with size small, disabled
   font-family: Lato;
   margin: 0;
   vertical-align: baseline;
-  -moz-appearance: none;
   -webkit-appearance: none;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
   width: 100%;
   z-index: 1;
   font-size: 16px;
@@ -3120,7 +3120,6 @@ exports[`with label snapshots renders a select element with size small, disabled
 }
 
 .emotion-3 {
-  -webkit-appearance: none;
   background: white;
   border: 0;
   border-radius: 4px;
@@ -3131,11 +3130,12 @@ exports[`with label snapshots renders a select element with size small, disabled
   font-family: Lato;
   margin: 0;
   vertical-align: baseline;
-  -moz-appearance: none;
   -webkit-appearance: none;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
   width: 100%;
   z-index: 1;
   font-size: 16px;
@@ -3330,7 +3330,6 @@ exports[`with label snapshots renders a select element with size small, disabled
 }
 
 .emotion-5 {
-  -webkit-appearance: none;
   background: white;
   border: 0;
   border-radius: 4px;
@@ -3341,11 +3340,12 @@ exports[`with label snapshots renders a select element with size small, disabled
   font-family: Lato;
   margin: 0;
   vertical-align: baseline;
-  -moz-appearance: none;
   -webkit-appearance: none;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
   width: 100%;
   z-index: 1;
   font-size: 16px;
@@ -3563,7 +3563,6 @@ exports[`with label snapshots renders a select element with size small, disabled
 }
 
 .emotion-6 {
-  -webkit-appearance: none;
   background: white;
   border: 0;
   border-radius: 4px;
@@ -3574,11 +3573,12 @@ exports[`with label snapshots renders a select element with size small, disabled
   font-family: Lato;
   margin: 0;
   vertical-align: baseline;
-  -moz-appearance: none;
   -webkit-appearance: none;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
   width: 100%;
   z-index: 1;
   font-size: 16px;
@@ -3767,7 +3767,6 @@ exports[`with label snapshots renders a select element with size small, disabled
 }
 
 .emotion-3 {
-  -webkit-appearance: none;
   background: white;
   border: 0;
   border-radius: 4px;
@@ -3778,11 +3777,12 @@ exports[`with label snapshots renders a select element with size small, disabled
   font-family: Lato;
   margin: 0;
   vertical-align: baseline;
-  -moz-appearance: none;
   -webkit-appearance: none;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
   width: 100%;
   z-index: 1;
   font-size: 16px;
