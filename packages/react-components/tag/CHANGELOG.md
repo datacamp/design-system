@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.2.6](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/tag/compare/@datacamp/waffles-tag@1.2.5...@datacamp/waffles-tag@1.2.6) (2020-04-01)
+
+
+### Bug Fixes
+
+* remove dev files from bundled packages ([d14472d](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/tag/commit/d14472d))
+
+
+
+
+
 ## [1.2.5](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/tag/compare/@datacamp/waffles-tag@1.2.4...@datacamp/waffles-tag@1.2.5) (2020-03-11)
 
 **Note:** Version bump only for package @datacamp/waffles-tag

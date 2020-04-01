@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.38.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-storybook@1.37.0...@datacamp/waffles-storybook@1.38.0) (2020-04-01)
+
+
+### Features
+
+* add stories for list component ([8c463d4](https://github.com/datacamp/design-system/commit/8c463d4))
+
+
+
+
+
 # [1.37.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-storybook@1.36.4...@datacamp/waffles-storybook@1.37.0) (2020-03-11)
 
 

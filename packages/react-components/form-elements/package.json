@@ -1,6 +1,6 @@
 {
   "name": "@datacamp/waffles-form-elements",
-  "version": "2.8.1",
+  "version": "2.8.2",
   "main": "lib/index.js",
   "module": "es/index.js",
   "types": "types/index.d.ts",
@@ -34,9 +34,9 @@
   "devDependencies": {
     "@babel/cli": "7.7.7",
     "@babel/core": "7.8.7",
-    "@datacamp/waffles-axe-render": "^1.2.1",
-    "@datacamp/waffles-babel-preset": "^1.4.2",
-    "@datacamp/waffles-tsconfig": "^1.1.8",
+    "@datacamp/waffles-axe-render": "^1.2.2",
+    "@datacamp/waffles-babel-preset": "^1.4.3",
+    "@datacamp/waffles-tsconfig": "^1.1.9",
     "@emotion/core": "^10.0.17",
     "@stryker-mutator/core": "^3.0.2",
     "@stryker-mutator/html-reporter": "^2.5.0",
@@ -54,10 +54,10 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.9.2",
-    "@datacamp/waffles-icons": "^1.9.3",
-    "@datacamp/waffles-text": "^2.2.5",
-    "@datacamp/waffles-tokens": "^0.6.9",
-    "@datacamp/waffles-utils": "^2.0.1",
+    "@datacamp/waffles-icons": "^1.9.4",
+    "@datacamp/waffles-text": "^3.0.0",
+    "@datacamp/waffles-tokens": "^0.6.10",
+    "@datacamp/waffles-utils": "^2.0.2",
     "airbnb-prop-types": "^2.15.0",
     "lodash": "^4.17.13",
     "prop-types": "^15.7.2"

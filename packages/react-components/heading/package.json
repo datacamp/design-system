@@ -1,6 +1,6 @@
 {
   "name": "@datacamp/waffles-heading",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Creates heading element h1, h2, h3, h4, h5, h6",
   "main": "src/index.js",
   "homepage": "https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/heading/README.md",

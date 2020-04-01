@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.9.4](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/icons/compare/@datacamp/waffles-icons@1.9.3...@datacamp/waffles-icons@1.9.4) (2020-04-01)
+
+
+### Bug Fixes
+
+* remove dev files from bundled packages ([d14472d](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/icons/commit/d14472d))
+
+
+
+
+
 ## [1.9.3](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/icons/compare/@datacamp/waffles-icons@1.9.2...@datacamp/waffles-icons@1.9.3) (2020-03-11)
 
 **Note:** Version bump only for package @datacamp/waffles-icons

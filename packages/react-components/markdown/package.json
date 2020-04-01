@@ -1,6 +1,6 @@
 {
   "name": "@datacamp/waffles-markdown",
-  "version": "1.2.5",
+  "version": "2.0.0",
   "main": "lib/index.js",
   "module": "es/index.js",
   "types": "types/index.d.ts",
@@ -35,9 +35,9 @@
   "devDependencies": {
     "@babel/cli": "7.7.7",
     "@babel/core": "7.8.7",
-    "@datacamp/waffles-axe-render": "^1.2.1",
-    "@datacamp/waffles-babel-preset": "^1.4.2",
-    "@datacamp/waffles-tsconfig": "^1.1.8",
+    "@datacamp/waffles-axe-render": "^1.2.2",
+    "@datacamp/waffles-babel-preset": "^1.4.3",
+    "@datacamp/waffles-tsconfig": "^1.1.9",
     "@stryker-mutator/core": "^3.0.2",
     "@stryker-mutator/html-reporter": "^2.5.0",
     "@stryker-mutator/typescript": "^2.5.0",
@@ -53,7 +53,7 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.9.2",
-    "@datacamp/waffles-text": "^2.2.5",
+    "@datacamp/waffles-text": "^3.0.0",
     "prop-types": "^15.7.2",
     "react-markdown": "^4.3.1"
   },

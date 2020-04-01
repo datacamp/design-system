@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [5.1.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-button@5.0.5...@datacamp/waffles-button@5.1.0) (2020-04-01)
+
+
+### Bug Fixes
+
+* remove dev files from bundled packages ([d14472d](https://github.com/datacamp/design-system/commit/d14472d))
+
+
+### Features
+
+* preserve icon color in button if provided ([77befcc](https://github.com/datacamp/design-system/commit/77befcc))
+
+
+
+
+
 ## [5.0.5](https://github.com/datacamp/design-system/compare/@datacamp/waffles-button@5.0.4...@datacamp/waffles-button@5.0.5) (2020-03-11)
 
 

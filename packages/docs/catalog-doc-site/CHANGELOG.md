@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.37.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-catalog-doc-site@1.36.0...@datacamp/waffles-catalog-doc-site@1.37.0) (2020-04-01)
+
+
+### Features
+
+* add docs for list ([96401f4](https://github.com/datacamp/design-system/commit/96401f4))
+* update component status page ([283f905](https://github.com/datacamp/design-system/commit/283f905))
+
+
+
+
+
 # [1.36.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-catalog-doc-site@1.35.0...@datacamp/waffles-catalog-doc-site@1.36.0) (2020-03-11)
 
 

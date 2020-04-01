@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.6.10](https://github.com/datacamp/design-system/compare/@datacamp/waffles-tokens@0.6.9...@datacamp/waffles-tokens@0.6.10) (2020-04-01)
+
+
+### Bug Fixes
+
+* remove dev files from bundled packages ([d14472d](https://github.com/datacamp/design-system/commit/d14472d))
+
+
+
+
+
 ## [0.6.9](https://github.com/datacamp/design-system/compare/@datacamp/waffles-tokens@0.6.8...@datacamp/waffles-tokens@0.6.9) (2020-03-11)
 
 **Note:** Version bump only for package @datacamp/waffles-tokens
