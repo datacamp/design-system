@@ -32,10 +32,6 @@ interface CardProps {
    * other values correspond to levels of shadow.
    */
   elevation?: elevationKeys;
-  /**
-   * The border/shadow to use when the Card is hovered. Accepts the same values
-   * as elevation, and must also be greater than the elevation level provided.
-   */
   hoverElevation?: elevationKeys;
   id?: string;
 }
@@ -48,23 +44,6 @@ const Card = ({
   hoverElevation,
   id,
 }: CardProps): ReactElement => {
-  // warn when hoverElevation is less than elevation
-  PropTypes.checkPropTypes(
-    {
-      hoverElevation() {
-        if (hoverElevation !== undefined && hoverElevation <= elevation) {
-          return new Error(
-            'Invalid prop `hoverElevation` supplied to `Card`. hoverElevation must be greater than elevation',
-          );
-        }
-        return null;
-      },
-    },
-    { elevation, hoverElevation },
-    'hoverElevation',
-    'Card',
-  );
-
   return (
     <Element
       className={className}
@@ -86,6 +65,22 @@ const Card = ({
       {children}
     </Element>
   );
+};
+
+Card.propTypes = {
+  /**
+   * The border/shadow to use when the Card is hovered. Accepts the same values
+   * as elevation, and must also be greater than the elevation level provided.
+   */
+  hoverElevation(props: CardProps) {
+    const { hoverElevation, elevation } = props;
+    if (hoverElevation !== undefined && hoverElevation <= (elevation ?? 0)) {
+      return new Error(
+        'Invalid prop `hoverElevation` supplied to `Card`. hoverElevation must be greater than elevation',
+      );
+    }
+    return null;
+  },
 };
 
 export default Card;
