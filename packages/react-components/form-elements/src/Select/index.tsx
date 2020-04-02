@@ -8,7 +8,8 @@ import React, { Component, forwardRef, ReactElement, Ref } from 'react';
 
 import {
   arrowIconPosition,
-  baseFormSizes,
+  fontSizes,
+  heights,
   selectIconSizes,
   selectPaddings,
   selectStyle,
@@ -145,7 +146,10 @@ class Select extends Component<
     const { focus } = this.state;
     const parsedDataAttributes = computeDataAttributes(dataAttributes);
 
-    const selectSizes = css(baseFormSizes[size], selectPaddings[size]);
+    const selectSizes = css(
+      { fontSize: fontSizes[size], height: heights[size] },
+      selectPaddings[size],
+    );
 
     const getSelectStyle = css(selectStyle, selectSizes, {
       color: disabled

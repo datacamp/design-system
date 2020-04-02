@@ -4,7 +4,8 @@ import { ClassNames, css } from '@emotion/core';
 import React, { forwardRef, ReactElement, Ref } from 'react';
 
 import {
-  baseFormSizes,
+  fontSizes,
+  heights,
   iconSize,
   inputPaddings,
   inputStyle,
@@ -154,7 +155,10 @@ const InternalInput = ({
 
   const handleBlur = (): void => onBlur && onBlur();
 
-  const inputSize = css(baseFormSizes[size], inputPaddings[size]);
+  const inputSize = css(
+    { fontSize: fontSizes[size], height: heights[size] },
+    inputPaddings[size],
+  );
 
   const getInputStyle = css(
     inputSize,
@@ -167,7 +171,7 @@ const InternalInput = ({
     display: 'inline-block',
     left: tokens.size.space[12].value,
     position: 'absolute',
-    top: (baseFormSizes[size].height - iconSize[size]) / 2,
+    top: (heights[size] - iconSize[size]) / 2,
   });
 
   const iconElement = icon && (
