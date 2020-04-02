@@ -44,19 +44,16 @@ const selectStyle = css(baseFormStyle, {
   zIndex: 1,
 });
 
-const baseFormSizes = {
-  large: {
-    fontSize: 20,
-    height: tokens.size.space[64].value,
-  },
-  medium: {
-    fontSize: 16,
-    height: tokens.size.space[48].value,
-  },
-  small: {
-    fontSize: 16,
-    height: tokens.size.space[36].value,
-  },
+const fontSizes = {
+  large: 20,
+  medium: 16,
+  small: 16,
+};
+
+const heights = {
+  large: tokens.size.space[64].value,
+  medium: tokens.size.space[48].value,
+  small: tokens.size.space[36].value,
 };
 
 const inputPaddings = {
@@ -115,7 +112,8 @@ const arrowIconPosition = {
 
 export {
   arrowIconPosition,
-  baseFormSizes,
+  heights,
+  fontSizes,
   inputPaddings,
   inputStyle,
   iconSize,
