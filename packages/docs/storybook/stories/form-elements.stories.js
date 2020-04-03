@@ -5,6 +5,7 @@ import {
   RadioList,
   Select,
   SelectOption,
+  TextArea,
 } from '@datacamp/waffles-form-elements';
 import { AddCircleIcon } from '@datacamp/waffles-icons';
 import { storiesOf } from '@storybook/react';
@@ -275,6 +276,143 @@ storiesOf('waffles-form-elements', module)
             onChange={setWeekValue}
             type="week"
             value={weekValue}
+          />
+        </div>
+      );
+    });
+  })
+  .add('TextArea', () => {
+    return createElement(() => {
+      const [value, setValue] = useState('');
+      const focusRef = useRef();
+      useEffect(() => {
+        if (focusRef && focusRef.current) {
+          focusRef.current.focus();
+        }
+      }, [focusRef]);
+
+      return (
+        <div>
+          <table>
+            <tbody>
+              <tr>
+                <td>
+                  <label htmlFor="story">custom label</label>
+                  <TextArea
+                    id="story"
+                    name="story"
+                    onChange={() => {}}
+                    placeholder="placeholder text"
+                    value=""
+                  />
+                </td>
+                <td>
+                  <label htmlFor="story1">custom label</label>
+                  <TextArea
+                    id="story1"
+                    name="story1"
+                    onChange={() => {}}
+                    value="with a value"
+                  />
+                </td>
+                <td>
+                  <label htmlFor="story2">custom label</label>
+                  <TextArea
+                    id="story2"
+                    name="story2"
+                    onChange={() => {}}
+                    ref={focusRef}
+                    value="initial focus"
+                  />
+                </td>
+                <td>
+                  <label htmlFor="story3">custom label</label>
+                  <TextArea
+                    id="story3"
+                    name="story3"
+                    onChange={setValue}
+                    placeholder="editable"
+                    value={value}
+                  />
+                </td>
+                <td>
+                  <label htmlFor="story4">custom label</label>
+                  <TextArea
+                    disabled
+                    id="story4"
+                    name="story4"
+                    onChange={() => {}}
+                    placeholder="disabled"
+                    value=""
+                  />
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      );
+    });
+  })
+  .add('TextArea with label', () => {
+    return createElement(() => {
+      const focusRef = useRef();
+      useEffect(() => {
+        if (focusRef && focusRef.current) {
+          focusRef.current.focus();
+        }
+      }, [focusRef]);
+
+      return (
+        <div>
+          <TextArea
+            label="TextArea with label"
+            name="story"
+            onChange={() => {}}
+            placeholder="placeholder text"
+            value=""
+          />
+          <TextArea
+            description="This is a description"
+            label="TextArea with a description"
+            name="story1"
+            onChange={() => {}}
+            placeholder="placeholder text"
+            value=""
+          />
+          <TextArea
+            errorMessage="This is an error message"
+            label="TextArea with an error message"
+            name="story2"
+            onChange={() => {}}
+            placeholder="placeholder text"
+            value=""
+          />
+          <TextArea
+            label="Required TextArea"
+            name="story3"
+            onChange={() => {}}
+            placeholder="placeholder text"
+            required
+            value=""
+          />
+          <TextArea
+            label="Optional input"
+            name="story4"
+            onChange={() => {}}
+            placeholder="with error"
+            required={false}
+            value=""
+          />
+          <TextArea
+            description="This is a description"
+            errorMessage="This is a error message"
+            icon={<AddCircleIcon color="#3ac" />}
+            label="TextArea with everything"
+            name="story6"
+            onChange={() => {}}
+            placeholder="with error"
+            required
+            value=""
           />
         </div>
       );
