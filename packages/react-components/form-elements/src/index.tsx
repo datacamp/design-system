@@ -4,3 +4,4 @@ export { default as SelectOption } from './Select/Option';
 export { default as RadioList } from './RadioList';
 export { default as Radio } from './RadioList/Radio';
 export { default as Label } from './Label';
+export { default as TextArea } from './TextArea';

@@ -1,0 +1,1150 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshots renders an input with size disabled=false, required=false 1`] = `
+.emotion-7 {
+  display: block;
+  margin-top: 0;
+}
+
+*:not(style) ~ .emotion-7 {
+  margin-top: 16px;
+}
+
+.emotion-4 {
+  margin-bottom: 12px;
+}
+
+.emotion-3 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.emotion-0 {
+  -webkit-font-smoothing: antialiased;
+  color: rgb(77,83,86);
+  font-family: sans-serif;
+  font-family: Lato;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  color: #3d4251;
+  display: inline-block;
+  -webkit-flex: 0 1 auto;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
+  font-weight: 700;
+  margin-right: 4px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.emotion-5 {
+  font-size: 16px;
+  padding-bottom: 12px;
+  padding-top: 12px;
+  resize: none;
+  padding-left: 16px;
+  padding-right: 16px;
+  background: white;
+  border: 0;
+  border-radius: 4px;
+  box-shadow: inset 0 0 0 1px rgb(209,211,216);
+  box-sizing: border-box;
+  display: inline-block;
+  font-family: sans-serif;
+  font-family: Lato;
+  margin: 0;
+  vertical-align: baseline;
+  -webkit-appearance: none;
+  color: rgb(61,66,81);
+  width: 100%;
+}
+
+.emotion-5:disabled,
+.emotion-5:active:disabled,
+.emotion-5:focus:disabled {
+  cursor: not-allowed;
+}
+
+.emotion-5:focus {
+  box-shadow: inset 0 0 0 1px rgb(51,170,204);
+  outline: none;
+}
+
+.emotion-5::-webkit-input-placeholder {
+  color: rgb(133,144,148);
+  font-family: inherit;
+}
+
+.emotion-5::-moz-placeholder {
+  color: rgb(133,144,148);
+  font-family: inherit;
+}
+
+.emotion-5:-ms-input-placeholder {
+  color: rgb(133,144,148);
+  font-family: inherit;
+}
+
+.emotion-5::placeholder {
+  color: rgb(133,144,148);
+  font-family: inherit;
+}
+
+.emotion-5:disabled::-webkit-input-placeholder {
+  color: #D1D3D8;
+}
+
+.emotion-5:disabled::-moz-placeholder {
+  color: #D1D3D8;
+}
+
+.emotion-5:disabled:-ms-input-placeholder {
+  color: #D1D3D8;
+}
+
+.emotion-5:disabled::placeholder {
+  color: #D1D3D8;
+}
+
+.emotion-6 {
+  -webkit-font-smoothing: antialiased;
+  color: rgb(77,83,86);
+  font-family: sans-serif;
+  font-family: Lato;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  color: #fe5c5c;
+  display: block;
+  font-size: 14px;
+  margin-top: 8px;
+}
+
+.emotion-2 {
+  -webkit-flex: none;
+  -ms-flex: none;
+  flex: none;
+  white-space: nowrap;
+}
+
+.emotion-1 {
+  -webkit-font-smoothing: antialiased;
+  color: rgb(77,83,86);
+  font-family: sans-serif;
+  font-family: Lato;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  color: #859094;
+  display: inline-block;
+  font-size: 14px;
+}
+
+<label
+  class="emotion-7"
+>
+  <div
+    class="emotion-4"
+  >
+    <span
+      class="emotion-3"
+    >
+      <span
+        class="emotion-0"
+      >
+        test label
+      </span>
+      <div
+        class="emotion-2"
+      >
+        <span
+          class="emotion-1"
+        >
+          Optional
+        </span>
+      </div>
+    </span>
+  </div>
+  <textarea
+    class="emotion-5"
+    name="input text"
+    placeholder="input text"
+    rows="2"
+  />
+  <span
+    class="emotion-6"
+  >
+    test error
+  </span>
+</label>
+`;
+
+exports[`snapshots renders an input with size disabled=false, required=true 1`] = `
+.emotion-8 {
+  display: block;
+  margin-top: 0;
+}
+
+*:not(style) ~ .emotion-8 {
+  margin-top: 16px;
+}
+
+.emotion-5 {
+  margin-bottom: 12px;
+}
+
+.emotion-4 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.emotion-0 {
+  -webkit-font-smoothing: antialiased;
+  color: rgb(77,83,86);
+  font-family: sans-serif;
+  font-family: Lato;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  color: #3d4251;
+  display: inline-block;
+  -webkit-flex: 0 1 auto;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
+  font-weight: 700;
+  margin-right: 4px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.emotion-6 {
+  font-size: 16px;
+  padding-bottom: 12px;
+  padding-top: 12px;
+  resize: none;
+  padding-left: 16px;
+  padding-right: 16px;
+  background: white;
+  border: 0;
+  border-radius: 4px;
+  box-shadow: inset 0 0 0 1px rgb(209,211,216);
+  box-sizing: border-box;
+  display: inline-block;
+  font-family: sans-serif;
+  font-family: Lato;
+  margin: 0;
+  vertical-align: baseline;
+  -webkit-appearance: none;
+  color: rgb(61,66,81);
+  width: 100%;
+}
+
+.emotion-6:disabled,
+.emotion-6:active:disabled,
+.emotion-6:focus:disabled {
+  cursor: not-allowed;
+}
+
+.emotion-6:focus {
+  box-shadow: inset 0 0 0 1px rgb(51,170,204);
+  outline: none;
+}
+
+.emotion-6::-webkit-input-placeholder {
+  color: rgb(133,144,148);
+  font-family: inherit;
+}
+
+.emotion-6::-moz-placeholder {
+  color: rgb(133,144,148);
+  font-family: inherit;
+}
+
+.emotion-6:-ms-input-placeholder {
+  color: rgb(133,144,148);
+  font-family: inherit;
+}
+
+.emotion-6::placeholder {
+  color: rgb(133,144,148);
+  font-family: inherit;
+}
+
+.emotion-6:disabled::-webkit-input-placeholder {
+  color: #D1D3D8;
+}
+
+.emotion-6:disabled::-moz-placeholder {
+  color: #D1D3D8;
+}
+
+.emotion-6:disabled:-ms-input-placeholder {
+  color: #D1D3D8;
+}
+
+.emotion-6:disabled::placeholder {
+  color: #D1D3D8;
+}
+
+.emotion-7 {
+  -webkit-font-smoothing: antialiased;
+  color: rgb(77,83,86);
+  font-family: sans-serif;
+  font-family: Lato;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  color: #fe5c5c;
+  display: block;
+  font-size: 14px;
+  margin-top: 8px;
+}
+
+.emotion-3 {
+  -webkit-flex: none;
+  -ms-flex: none;
+  flex: none;
+  white-space: nowrap;
+}
+
+.emotion-1 {
+  -webkit-font-smoothing: antialiased;
+  color: rgb(77,83,86);
+  font-family: sans-serif;
+  font-family: Lato;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  color: #fe5c5c;
+  margin-right: 4px;
+}
+
+.emotion-2 {
+  -webkit-font-smoothing: antialiased;
+  color: rgb(77,83,86);
+  font-family: sans-serif;
+  font-family: Lato;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  color: #859094;
+  display: inline-block;
+  font-size: 14px;
+}
+
+<label
+  class="emotion-8"
+>
+  <div
+    class="emotion-5"
+  >
+    <span
+      class="emotion-4"
+    >
+      <span
+        class="emotion-0"
+      >
+        test label
+      </span>
+      <div
+        class="emotion-3"
+      >
+        <span
+          class="emotion-1"
+        >
+          •
+        </span>
+        <span
+          class="emotion-2"
+        >
+          Required
+        </span>
+      </div>
+    </span>
+  </div>
+  <textarea
+    class="emotion-6"
+    name="input text"
+    placeholder="input text"
+    rows="2"
+  />
+  <span
+    class="emotion-7"
+  >
+    test error
+  </span>
+</label>
+`;
+
+exports[`snapshots renders an input with size disabled=false, required=undefined 1`] = `
+.emotion-5 {
+  display: block;
+  margin-top: 0;
+}
+
+*:not(style) ~ .emotion-5 {
+  margin-top: 16px;
+}
+
+.emotion-2 {
+  margin-bottom: 12px;
+}
+
+.emotion-1 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.emotion-0 {
+  -webkit-font-smoothing: antialiased;
+  color: rgb(77,83,86);
+  font-family: sans-serif;
+  font-family: Lato;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  color: #3d4251;
+  display: inline-block;
+  -webkit-flex: 0 1 auto;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
+  font-weight: 700;
+  margin-right: 4px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.emotion-3 {
+  font-size: 16px;
+  padding-bottom: 12px;
+  padding-top: 12px;
+  resize: none;
+  padding-left: 16px;
+  padding-right: 16px;
+  background: white;
+  border: 0;
+  border-radius: 4px;
+  box-shadow: inset 0 0 0 1px rgb(209,211,216);
+  box-sizing: border-box;
+  display: inline-block;
+  font-family: sans-serif;
+  font-family: Lato;
+  margin: 0;
+  vertical-align: baseline;
+  -webkit-appearance: none;
+  color: rgb(61,66,81);
+  width: 100%;
+}
+
+.emotion-3:disabled,
+.emotion-3:active:disabled,
+.emotion-3:focus:disabled {
+  cursor: not-allowed;
+}
+
+.emotion-3:focus {
+  box-shadow: inset 0 0 0 1px rgb(51,170,204);
+  outline: none;
+}
+
+.emotion-3::-webkit-input-placeholder {
+  color: rgb(133,144,148);
+  font-family: inherit;
+}
+
+.emotion-3::-moz-placeholder {
+  color: rgb(133,144,148);
+  font-family: inherit;
+}
+
+.emotion-3:-ms-input-placeholder {
+  color: rgb(133,144,148);
+  font-family: inherit;
+}
+
+.emotion-3::placeholder {
+  color: rgb(133,144,148);
+  font-family: inherit;
+}
+
+.emotion-3:disabled::-webkit-input-placeholder {
+  color: #D1D3D8;
+}
+
+.emotion-3:disabled::-moz-placeholder {
+  color: #D1D3D8;
+}
+
+.emotion-3:disabled:-ms-input-placeholder {
+  color: #D1D3D8;
+}
+
+.emotion-3:disabled::placeholder {
+  color: #D1D3D8;
+}
+
+.emotion-4 {
+  -webkit-font-smoothing: antialiased;
+  color: rgb(77,83,86);
+  font-family: sans-serif;
+  font-family: Lato;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  color: #fe5c5c;
+  display: block;
+  font-size: 14px;
+  margin-top: 8px;
+}
+
+<label
+  class="emotion-5"
+>
+  <div
+    class="emotion-2"
+  >
+    <span
+      class="emotion-1"
+    >
+      <span
+        class="emotion-0"
+      >
+        test label
+      </span>
+    </span>
+  </div>
+  <textarea
+    class="emotion-3"
+    name="input text"
+    placeholder="input text"
+    rows="2"
+  />
+  <span
+    class="emotion-4"
+  >
+    test error
+  </span>
+</label>
+`;
+
+exports[`snapshots renders an input with size disabled=true, required=false 1`] = `
+.emotion-7 {
+  display: block;
+  margin-top: 0;
+}
+
+*:not(style) ~ .emotion-7 {
+  margin-top: 16px;
+}
+
+.emotion-4 {
+  margin-bottom: 12px;
+}
+
+.emotion-3 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.emotion-0 {
+  -webkit-font-smoothing: antialiased;
+  color: rgb(77,83,86);
+  font-family: sans-serif;
+  font-family: Lato;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  color: #3d4251;
+  display: inline-block;
+  -webkit-flex: 0 1 auto;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
+  font-weight: 700;
+  margin-right: 4px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.emotion-5 {
+  font-size: 16px;
+  padding-bottom: 12px;
+  padding-top: 12px;
+  resize: none;
+  padding-left: 16px;
+  padding-right: 16px;
+  background: white;
+  border: 0;
+  border-radius: 4px;
+  box-shadow: inset 0 0 0 1px rgb(209,211,216);
+  box-sizing: border-box;
+  display: inline-block;
+  font-family: sans-serif;
+  font-family: Lato;
+  margin: 0;
+  vertical-align: baseline;
+  -webkit-appearance: none;
+  color: rgb(61,66,81);
+  width: 100%;
+}
+
+.emotion-5:disabled,
+.emotion-5:active:disabled,
+.emotion-5:focus:disabled {
+  cursor: not-allowed;
+}
+
+.emotion-5:focus {
+  box-shadow: inset 0 0 0 1px rgb(51,170,204);
+  outline: none;
+}
+
+.emotion-5::-webkit-input-placeholder {
+  color: rgb(133,144,148);
+  font-family: inherit;
+}
+
+.emotion-5::-moz-placeholder {
+  color: rgb(133,144,148);
+  font-family: inherit;
+}
+
+.emotion-5:-ms-input-placeholder {
+  color: rgb(133,144,148);
+  font-family: inherit;
+}
+
+.emotion-5::placeholder {
+  color: rgb(133,144,148);
+  font-family: inherit;
+}
+
+.emotion-5:disabled::-webkit-input-placeholder {
+  color: #D1D3D8;
+}
+
+.emotion-5:disabled::-moz-placeholder {
+  color: #D1D3D8;
+}
+
+.emotion-5:disabled:-ms-input-placeholder {
+  color: #D1D3D8;
+}
+
+.emotion-5:disabled::placeholder {
+  color: #D1D3D8;
+}
+
+.emotion-6 {
+  -webkit-font-smoothing: antialiased;
+  color: rgb(77,83,86);
+  font-family: sans-serif;
+  font-family: Lato;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  color: #fe5c5c;
+  display: block;
+  font-size: 14px;
+  margin-top: 8px;
+}
+
+.emotion-2 {
+  -webkit-flex: none;
+  -ms-flex: none;
+  flex: none;
+  white-space: nowrap;
+}
+
+.emotion-1 {
+  -webkit-font-smoothing: antialiased;
+  color: rgb(77,83,86);
+  font-family: sans-serif;
+  font-family: Lato;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  color: #859094;
+  display: inline-block;
+  font-size: 14px;
+}
+
+<label
+  class="emotion-7"
+>
+  <div
+    class="emotion-4"
+  >
+    <span
+      class="emotion-3"
+    >
+      <span
+        class="emotion-0"
+      >
+        test label
+      </span>
+      <div
+        class="emotion-2"
+      >
+        <span
+          class="emotion-1"
+        >
+          Optional
+        </span>
+      </div>
+    </span>
+  </div>
+  <textarea
+    class="emotion-5"
+    disabled=""
+    name="input text"
+    placeholder="input text"
+    rows="2"
+  />
+  <span
+    class="emotion-6"
+  >
+    test error
+  </span>
+</label>
+`;
+
+exports[`snapshots renders an input with size disabled=true, required=true 1`] = `
+.emotion-8 {
+  display: block;
+  margin-top: 0;
+}
+
+*:not(style) ~ .emotion-8 {
+  margin-top: 16px;
+}
+
+.emotion-5 {
+  margin-bottom: 12px;
+}
+
+.emotion-4 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.emotion-0 {
+  -webkit-font-smoothing: antialiased;
+  color: rgb(77,83,86);
+  font-family: sans-serif;
+  font-family: Lato;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  color: #3d4251;
+  display: inline-block;
+  -webkit-flex: 0 1 auto;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
+  font-weight: 700;
+  margin-right: 4px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.emotion-6 {
+  font-size: 16px;
+  padding-bottom: 12px;
+  padding-top: 12px;
+  resize: none;
+  padding-left: 16px;
+  padding-right: 16px;
+  background: white;
+  border: 0;
+  border-radius: 4px;
+  box-shadow: inset 0 0 0 1px rgb(209,211,216);
+  box-sizing: border-box;
+  display: inline-block;
+  font-family: sans-serif;
+  font-family: Lato;
+  margin: 0;
+  vertical-align: baseline;
+  -webkit-appearance: none;
+  color: rgb(61,66,81);
+  width: 100%;
+}
+
+.emotion-6:disabled,
+.emotion-6:active:disabled,
+.emotion-6:focus:disabled {
+  cursor: not-allowed;
+}
+
+.emotion-6:focus {
+  box-shadow: inset 0 0 0 1px rgb(51,170,204);
+  outline: none;
+}
+
+.emotion-6::-webkit-input-placeholder {
+  color: rgb(133,144,148);
+  font-family: inherit;
+}
+
+.emotion-6::-moz-placeholder {
+  color: rgb(133,144,148);
+  font-family: inherit;
+}
+
+.emotion-6:-ms-input-placeholder {
+  color: rgb(133,144,148);
+  font-family: inherit;
+}
+
+.emotion-6::placeholder {
+  color: rgb(133,144,148);
+  font-family: inherit;
+}
+
+.emotion-6:disabled::-webkit-input-placeholder {
+  color: #D1D3D8;
+}
+
+.emotion-6:disabled::-moz-placeholder {
+  color: #D1D3D8;
+}
+
+.emotion-6:disabled:-ms-input-placeholder {
+  color: #D1D3D8;
+}
+
+.emotion-6:disabled::placeholder {
+  color: #D1D3D8;
+}
+
+.emotion-7 {
+  -webkit-font-smoothing: antialiased;
+  color: rgb(77,83,86);
+  font-family: sans-serif;
+  font-family: Lato;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  color: #fe5c5c;
+  display: block;
+  font-size: 14px;
+  margin-top: 8px;
+}
+
+.emotion-3 {
+  -webkit-flex: none;
+  -ms-flex: none;
+  flex: none;
+  white-space: nowrap;
+}
+
+.emotion-1 {
+  -webkit-font-smoothing: antialiased;
+  color: rgb(77,83,86);
+  font-family: sans-serif;
+  font-family: Lato;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  color: #fe5c5c;
+  margin-right: 4px;
+}
+
+.emotion-2 {
+  -webkit-font-smoothing: antialiased;
+  color: rgb(77,83,86);
+  font-family: sans-serif;
+  font-family: Lato;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  color: #859094;
+  display: inline-block;
+  font-size: 14px;
+}
+
+<label
+  class="emotion-8"
+>
+  <div
+    class="emotion-5"
+  >
+    <span
+      class="emotion-4"
+    >
+      <span
+        class="emotion-0"
+      >
+        test label
+      </span>
+      <div
+        class="emotion-3"
+      >
+        <span
+          class="emotion-1"
+        >
+          •
+        </span>
+        <span
+          class="emotion-2"
+        >
+          Required
+        </span>
+      </div>
+    </span>
+  </div>
+  <textarea
+    class="emotion-6"
+    disabled=""
+    name="input text"
+    placeholder="input text"
+    rows="2"
+  />
+  <span
+    class="emotion-7"
+  >
+    test error
+  </span>
+</label>
+`;
+
+exports[`snapshots renders an input with size disabled=true, required=undefined 1`] = `
+.emotion-5 {
+  display: block;
+  margin-top: 0;
+}
+
+*:not(style) ~ .emotion-5 {
+  margin-top: 16px;
+}
+
+.emotion-2 {
+  margin-bottom: 12px;
+}
+
+.emotion-1 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.emotion-0 {
+  -webkit-font-smoothing: antialiased;
+  color: rgb(77,83,86);
+  font-family: sans-serif;
+  font-family: Lato;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  color: #3d4251;
+  display: inline-block;
+  -webkit-flex: 0 1 auto;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
+  font-weight: 700;
+  margin-right: 4px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.emotion-3 {
+  font-size: 16px;
+  padding-bottom: 12px;
+  padding-top: 12px;
+  resize: none;
+  padding-left: 16px;
+  padding-right: 16px;
+  background: white;
+  border: 0;
+  border-radius: 4px;
+  box-shadow: inset 0 0 0 1px rgb(209,211,216);
+  box-sizing: border-box;
+  display: inline-block;
+  font-family: sans-serif;
+  font-family: Lato;
+  margin: 0;
+  vertical-align: baseline;
+  -webkit-appearance: none;
+  color: rgb(61,66,81);
+  width: 100%;
+}
+
+.emotion-3:disabled,
+.emotion-3:active:disabled,
+.emotion-3:focus:disabled {
+  cursor: not-allowed;
+}
+
+.emotion-3:focus {
+  box-shadow: inset 0 0 0 1px rgb(51,170,204);
+  outline: none;
+}
+
+.emotion-3::-webkit-input-placeholder {
+  color: rgb(133,144,148);
+  font-family: inherit;
+}
+
+.emotion-3::-moz-placeholder {
+  color: rgb(133,144,148);
+  font-family: inherit;
+}
+
+.emotion-3:-ms-input-placeholder {
+  color: rgb(133,144,148);
+  font-family: inherit;
+}
+
+.emotion-3::placeholder {
+  color: rgb(133,144,148);
+  font-family: inherit;
+}
+
+.emotion-3:disabled::-webkit-input-placeholder {
+  color: #D1D3D8;
+}
+
+.emotion-3:disabled::-moz-placeholder {
+  color: #D1D3D8;
+}
+
+.emotion-3:disabled:-ms-input-placeholder {
+  color: #D1D3D8;
+}
+
+.emotion-3:disabled::placeholder {
+  color: #D1D3D8;
+}
+
+.emotion-4 {
+  -webkit-font-smoothing: antialiased;
+  color: rgb(77,83,86);
+  font-family: sans-serif;
+  font-family: Lato;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  color: #fe5c5c;
+  display: block;
+  font-size: 14px;
+  margin-top: 8px;
+}
+
+<label
+  class="emotion-5"
+>
+  <div
+    class="emotion-2"
+  >
+    <span
+      class="emotion-1"
+    >
+      <span
+        class="emotion-0"
+      >
+        test label
+      </span>
+    </span>
+  </div>
+  <textarea
+    class="emotion-3"
+    disabled=""
+    name="input text"
+    placeholder="input text"
+    rows="2"
+  />
+  <span
+    class="emotion-4"
+  >
+    test error
+  </span>
+</label>
+`;

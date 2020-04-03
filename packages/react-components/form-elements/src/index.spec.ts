@@ -4,11 +4,12 @@ import RadioList from './RadioList/index';
 import Radio from './RadioList/Radio';
 import Select from './Select';
 import SelectOption from './Select/Option';
+import TextArea from './TextArea';
 
 import * as packageExports from '.';
 
 describe('package index', () => {
-  it('exports Input, Radio, RadioList, Select and SelectOption ', () => {
+  it('exports all the components', () => {
     expect(packageExports).toEqual({
       Input,
       Label,
@@ -16,6 +17,7 @@ describe('package index', () => {
       RadioList,
       Select,
       SelectOption,
+      TextArea,
     });
   });
 });
