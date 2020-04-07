@@ -11,9 +11,9 @@ import {
   Code,
   CodeBlock,
   Heading,
+  List,
   Paragraph,
   Strong,
-  Text,
 } from '@datacamp/waffles-text';
 /* @jsx jsx */
 import { jsx } from '@emotion/core';
@@ -43,38 +43,28 @@ export default () => {
               Waffles exposes several components from within{' '}
               <Code>@datacamp/waffles-form-elements</Code>.
             </Paragraph>
-            <ul>
-              <li>
-                <Text>
-                  <Strong>Input –</Strong> Able to handle multiple types of text
-                  input.
-                </Text>
-              </li>
-              <li>
-                <Text>
-                  <Strong>Select –</Strong> Allows the user to select one from a
-                  list of options.
-                </Text>
-              </li>
-              <li>
-                <Text>
-                  <Strong>SelectOption -</Strong> To be used within a{' '}
-                  <Code>Select</Code> to specify an available option.
-                </Text>
-              </li>
-              <li>
-                <Text>
-                  <Strong>RadioList –</Strong> Allows the user to choose one
-                  from a list of options.
-                </Text>
-              </li>
-              <li>
-                <Text>
-                  <Strong>Radio -</Strong> To be used within a{' '}
-                  <Code>RadioList</Code> to specify an available option.
-                </Text>
-              </li>
-            </ul>
+            <List>
+              <List.Item>
+                <Strong>Input –</Strong> Able to handle multiple types of text
+                input.
+              </List.Item>
+              <List.Item>
+                <Strong>Select –</Strong> Allows the user to select one from a
+                list of options.
+              </List.Item>
+              <List.Item>
+                <Strong>SelectOption -</Strong> To be used within a{' '}
+                <Code>Select</Code> to specify an available option.
+              </List.Item>
+              <List.Item>
+                <Strong>RadioList –</Strong> Allows the user to choose one from
+                a list of options.
+              </List.Item>
+              <List.Item>
+                <Strong>Radio -</Strong> To be used within a{' '}
+                <Code>RadioList</Code> to specify an available option.
+              </List.Item>
+            </List>
             <CodeBlock>
               {`import {
   Input,

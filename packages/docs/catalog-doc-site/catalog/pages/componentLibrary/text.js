@@ -43,82 +43,55 @@ export default () => {
               Waffles exposes several components from the{' '}
               <Code>@datacamp/waffles-text</Code> package.
             </Paragraph>
-            <ul>
-              <li>
-                <Text>
-                  <Strong>GlobalFontFaces –</Strong> A global component that
-                  loads the font faces used by the other components. If the
-                  waffles scss is not being used, this component should be
-                  mounted on the page.
-                </Text>
-              </li>
-              <li>
-                <Text>
-                  <Strong>Text –</Strong> The base text component that can be
-                  used as a building block for everthing else.
-                </Text>
-              </li>
-              <li>
-                <Text>
-                  <Strong>Paragraph –</Strong> Renders a block of text.
-                </Text>
-              </li>
-              <li>
-                <Text>
-                  <Strong>Heading –</Strong> Renders various sized headings.
-                </Text>
-              </li>
-              <li>
-                <Text>
-                  <Strong>Strong –</Strong> Renders bold text.
-                </Text>
-              </li>
-              <li>
-                <Text>
-                  <Strong>Emphasis –</Strong> Renders italic text.
-                </Text>
-              </li>
-              <li>
-                <Text>
-                  <Strong>Small –</Strong> Renders text at a size smaller than
-                  the default.
-                </Text>
-              </li>
-              <li>
-                <Text>
-                  <Strong>Code –</Strong> Renders inline code.
-                </Text>
-              </li>
-              <li>
-                <Text>
-                  <Strong>CodeBlock –</Strong> Renders a preformatted block of
-                  code.
-                </Text>
-              </li>
-              <li>
-                <Text>
-                  <Strong>Link –</Strong> Renders an anchor component.
-                </Text>
-              </li>
-              <li>
-                <Text>
-                  <Strong>Badge –</Strong> Renders a coloured badge.
-                </Text>
-              </li>
-              <li>
-                <Text>
-                  <Strong>BetaBadge –</Strong> A specific version of the Badge
-                  component used to signify and product or feature is in Beta.
-                  It has a a fixed colour and size.
-                </Text>
-              </li>
-              <li>
-                <Text>
-                  <Strong>List –</Strong> Renders either an ordered or unordered
-                  list.
-                </Text>
-              </li>
-            </ul>
+            <List>
+              <List.Item>
+                <Strong>GlobalFontFaces –</Strong> A global component that loads
+                the font faces used by the other components. If the waffles scss
+                is not being used, this component should be mounted on the page.
+              </List.Item>
+              <List.Item>
+                <Strong>Text –</Strong> The base text component that can be used
+                as a building block for everthing else.
+              </List.Item>
+              <List.Item>
+                <Strong>Paragraph –</Strong> Renders a block of text.
+              </List.Item>
+              <List.Item>
+                <Strong>Heading –</Strong> Renders various sized headings.
+              </List.Item>
+              <List.Item>
+                <Strong>Strong –</Strong> Renders bold text.
+              </List.Item>
+              <List.Item>
+                <Strong>Emphasis –</Strong> Renders italic text.
+              </List.Item>
+              <List.Item>
+                <Strong>Small –</Strong> Renders text at a size smaller than the
+                default.
+              </List.Item>
+              <List.Item>
+                <Strong>Code –</Strong> Renders inline code.
+              </List.Item>
+              <List.Item>
+                <Strong>CodeBlock –</Strong> Renders a preformatted block of
+                code.
+              </List.Item>
+              <List.Item>
+                <Strong>Link –</Strong> Renders an anchor component.
+              </List.Item>
+              <List.Item>
+                <Strong>Badge –</Strong> Renders a coloured badge.
+              </List.Item>
+              <List.Item>
+                <Strong>BetaBadge –</Strong> A specific version of the Badge
+                component used to signify and product or feature is in Beta. It
+                has a a fixed colour and size.
+              </List.Item>
+              <List.Item>
+                <Strong>List –</Strong> Renders either an ordered or unordered
+                list.
+              </List.Item>
+            </List>
             <CodeBlock>
               {`import {
   Badge,

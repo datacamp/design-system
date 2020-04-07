@@ -9,9 +9,9 @@ import {
   Code,
   CodeBlock,
   Heading,
+  List,
   Paragraph,
   Strong,
-  Text,
 } from '@datacamp/waffles-text';
 /* @jsx jsx */
 import { jsx } from '@emotion/core';
@@ -42,27 +42,21 @@ export default () => {
               Waffles exposes several components from within{' '}
               <Code>@datacamp/waffles-button</Code>.
             </Paragraph>
-            <ul>
-              <li>
-                <Text>
-                  <Strong>Button –</Strong> Able to have an icon on the left or
-                  right.
-                </Text>
-              </li>
-              <li>
-                <Text>
-                  <Strong>ButtonGroup –</Strong> Enables you to layout several
-                  buttons of the same size with consistent spacing.
-                </Text>
-              </li>
-              <li>
-                <Text>
-                  <Strong>CompactButtonGroup –</Strong> Enables you to
-                  concatenate multiple buttons into one. It can also be nested
-                  inside a <Code>ButtonGroup</Code>.
-                </Text>
-              </li>
-            </ul>
+            <List>
+              <List.Item>
+                <Strong>Button –</Strong> Able to have an icon on the left or
+                right.
+              </List.Item>
+              <List.Item>
+                <Strong>ButtonGroup –</Strong> Enables you to layout several
+                buttons of the same size with consistent spacing.
+              </List.Item>
+              <List.Item>
+                <Strong>CompactButtonGroup –</Strong> Enables you to concatenate
+                multiple buttons into one. It can also be nested inside a{' '}
+                <Code>ButtonGroup</Code>.
+              </List.Item>
+            </List>
             <CodeBlock>
               {
                 "import Button, { ButtonGroup, CompactButtonGroup } from '@datacamp/waffles-button';"
