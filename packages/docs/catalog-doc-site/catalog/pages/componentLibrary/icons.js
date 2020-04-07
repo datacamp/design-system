@@ -1,4 +1,5 @@
 import * as Icons from '@datacamp/waffles-icons';
+import { List } from '@datacamp/waffles-text';
 import { colors } from '@datacamp/waffles-tokens';
 import { Page } from 'catalog';
 import { chunk } from 'lodash';
@@ -150,33 +151,33 @@ export default () => {
               </a>
               . Feel free to use whichever makes most sense for your use case.
             </p>
-            <ul>
-              <li>
+            <List>
+              <List.Item>
                 <code>
                   @datacamp/waffles-icons/sprites/css/svg/sprite.css-bde2e71c.svg
                 </code>
-              </li>
-              <li>
+              </List.Item>
+              <List.Item>
                 <code>
                   @datacamp/waffles-icons/sprites/defs/svg/sprite.defs.svg
                 </code>
-              </li>
-              <li>
+              </List.Item>
+              <List.Item>
                 <code>
                   @datacamp/waffles-icons/sprites/stack/svg/sprite.stack.svg
                 </code>
-              </li>
-              <li>
+              </List.Item>
+              <List.Item>
                 <code>
                   @datacamp/waffles-icons/sprites/symbol/svg/sprite.symbol.svg
                 </code>
-              </li>
-              <li>
+              </List.Item>
+              <List.Item>
                 <code>
                   @datacamp/waffles-icons/sprites/view/svg/sprite.view-f796bea8.svg
                 </code>
-              </li>
-            </ul>
+              </List.Item>
+            </List>
           </div>
         </section>
       </Page>
