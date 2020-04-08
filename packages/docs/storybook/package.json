@@ -38,7 +38,7 @@
     "@percy/storybook": "3.3.0",
     "@storybook/addon-a11y": "5.3.17",
     "babel-loader": "8.1.0",
-    "webpack": "4.41.5",
+    "webpack": "4.42.1",
     "webpack-bundle-analyzer": "3.6.0"
   }
 }
