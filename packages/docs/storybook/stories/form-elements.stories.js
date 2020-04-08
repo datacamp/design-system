@@ -27,7 +27,9 @@ storiesOf('waffles-form-elements', module)
             <tbody>
               <tr>
                 <td>
+                  <label htmlFor="story">custom label</label>
                   <Input
+                    id="story"
                     name="story"
                     onChange={() => {}}
                     placeholder="placeholder text"
@@ -35,14 +37,18 @@ storiesOf('waffles-form-elements', module)
                   />
                 </td>
                 <td>
+                  <label htmlFor="story1">custom label</label>
                   <Input
+                    id="story1"
                     name="story1"
                     onChange={() => {}}
                     value="with a value"
                   />
                 </td>
                 <td>
+                  <label htmlFor="story2">custom label</label>
                   <Input
+                    id="story2"
                     name="story2"
                     onChange={() => {}}
                     ref={focusRef}
@@ -50,7 +56,9 @@ storiesOf('waffles-form-elements', module)
                   />
                 </td>
                 <td>
+                  <label htmlFor="story3">custom label</label>
                   <Input
+                    id="story3"
                     name="story3"
                     onChange={setValue}
                     placeholder="editable"
@@ -58,8 +66,10 @@ storiesOf('waffles-form-elements', module)
                   />
                 </td>
                 <td>
+                  <label htmlFor="story4">custom label</label>
                   <Input
                     disabled
+                    id="story4"
                     name="story4"
                     onChange={() => {}}
                     placeholder="disabled"
@@ -70,8 +80,10 @@ storiesOf('waffles-form-elements', module)
             </tbody>
           </table>
           <div>
+            <label htmlFor="story5">custom label</label>
             <Button size="small">Small</Button>
             <Input
+              id="story5"
               name="story5"
               onChange={() => {}}
               placeholder="small input"
@@ -80,18 +92,22 @@ storiesOf('waffles-form-elements', module)
             />
           </div>
           <div>
+            <label htmlFor="story6">custom label</label>
             <Button>medium</Button>
             <Input
-              name="story5"
+              id="story6"
+              name="story6"
               onChange={() => {}}
               placeholder="medium input"
               value=""
             />
           </div>
           <div>
+            <label htmlFor="story7">custom label</label>
             <Button size="large">large</Button>
             <Input
-              name="story5"
+              id="story7"
+              name="story7"
               onChange={() => {}}
               placeholder="large input"
               size="large"
@@ -277,20 +293,22 @@ storiesOf('waffles-form-elements', module)
       return (
         <div>
           <div css={{ display: 'flex' }}>
-            <Select name="story1" onChange={setValue} value={value}>
+            <label htmlFor="story1">custom label</label>
+            <Select id="story1" name="story1" onChange={setValue} value={value}>
               <SelectOption value="opt1">opt1</SelectOption>
               <SelectOption value="opt2">opt2</SelectOption>
               <SelectOption value="opt3">opt3</SelectOption>
             </Select>
-
-            <Select name="story2" onChange={() => {}} value="opt3">
+            <label htmlFor="story2">custom label</label>
+            <Select id="story2" name="story2" onChange={() => {}} value="opt3">
               <SelectOption value="opt1">opt1</SelectOption>
               <SelectOption value="opt2">opt2</SelectOption>
               <SelectOption value="opt3">opt3</SelectOption>
             </Select>
-
+            <label htmlFor="story3">custom label</label>
             <Select
               disabled
+              id="story3"
               name="story3"
               onChange={() => {}}
               value="disabled2"
@@ -299,8 +317,8 @@ storiesOf('waffles-form-elements', module)
               <SelectOption value="opt2">disabled2</SelectOption>
               <SelectOption value="opt3">disabled3</SelectOption>
             </Select>
-
-            <Select name="story4" onChange={() => {}} value="opt2">
+            <label htmlFor="story4">custom label</label>
+            <Select id="story4" name="story4" onChange={() => {}} value="opt2">
               <SelectOption disabled value="opt1">
                 disabled option
               </SelectOption>
@@ -309,13 +327,26 @@ storiesOf('waffles-form-elements', module)
             </Select>
           </div>
           <div>
-            <Select name="story5" onChange={() => {}} size="large" value="opt2">
+            <label htmlFor="story5">custom label</label>
+            <Select
+              id="story5"
+              name="story5"
+              onChange={() => {}}
+              size="large"
+              value="opt2"
+            >
               <SelectOption value="opt1">large1</SelectOption>
               <SelectOption value="opt2">large2</SelectOption>
               <SelectOption value="opt3">large3</SelectOption>
             </Select>
-
-            <Select name="story6" onChange={() => {}} size="small" value="opt2">
+            <label htmlFor="story6">custom label</label>
+            <Select
+              id="story6"
+              name="story6"
+              onChange={() => {}}
+              size="small"
+              value="opt2"
+            >
               <SelectOption value="opt1">small1</SelectOption>
               <SelectOption value="opt2">small2</SelectOption>
               <SelectOption value="opt3">small3</SelectOption>
@@ -390,7 +421,7 @@ storiesOf('waffles-form-elements', module)
           >
             <Radio value="value1">Item 1</Radio>
             <Radio value="value2">Item 2</Radio>
-            <Radio disabled value="disabled">
+            <Radio disabled value="disabled1">
               Disabled item
             </Radio>
           </RadioList>
@@ -403,7 +434,7 @@ storiesOf('waffles-form-elements', module)
           >
             <Radio value="value3">Item 1</Radio>
             <Radio value="value4">Item 2</Radio>
-            <Radio disabled value="disabled">
+            <Radio disabled value="disabled2">
               Disabled item
             </Radio>
           </RadioList>
@@ -416,7 +447,7 @@ storiesOf('waffles-form-elements', module)
           >
             <Radio value="value5">Item 1</Radio>
             <Radio value="value6">Item 2</Radio>
-            <Radio disabled value="disabled">
+            <Radio disabled value="disabled3">
               Disabled item
             </Radio>
           </RadioList>
@@ -429,7 +460,7 @@ storiesOf('waffles-form-elements', module)
           >
             <Radio value="value7">Item 1</Radio>
             <Radio value="value8">Item 2</Radio>
-            <Radio disabled value="disabled">
+            <Radio disabled value="disabled4">
               Disabled item
             </Radio>
           </RadioList>
@@ -442,7 +473,7 @@ storiesOf('waffles-form-elements', module)
           >
             <Radio value="value9">Item 1</Radio>
             <Radio value="value10">Item 2</Radio>
-            <Radio disabled value="disabled">
+            <Radio disabled value="disabled5">
               Disabled item
             </Radio>
           </RadioList>
