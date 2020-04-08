@@ -54,6 +54,7 @@
     "airbnb-prop-types": "^2.15.0",
     "lodash": "^4.17.13",
     "prop-types": "^15.7.2",
+    "react-uid": "^2.2.0",
     "tinycolor2": "^1.4.1"
   },
   "peerDependencies": {
