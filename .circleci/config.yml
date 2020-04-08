@@ -40,6 +40,25 @@ jobs:
       - run:
           name: Check types
           command: yarn type-check
+  cypress-test-storybook:
+    docker:
+      - image: cypress/browsers:node12.14.0-chrome79-ff71
+    steps:
+      - attach_workspace:
+          at: "."
+      - run:
+          name: Install cypress binaries
+          command: yarn cypress install
+          working_directory: ~/project/packages/docs/storybook
+      - run:
+          name: Launch storybook
+          command: yarn start
+          working_directory: ~/project/packages/docs/storybook
+          background: true
+      - run:
+          name: Run cypress
+          command: yarn cypress:ci
+          working_directory: ~/project/packages/docs/storybook
   upload-to-percy:
     docker:
       - image: circleci/node:12.4.0-browsers
@@ -180,6 +199,13 @@ workflows:
           filters:
             tags:
               only: /.*/
+      - cypress-test-storybook:
+          requires:
+            - build
+          context: org-global
+          filters:
+            tags:
+              only: /.*/
       - hold-for-pr:
           type: approval
           context: org-global
@@ -191,11 +217,13 @@ workflows:
       - upload-to-percy:
           requires:
             - test
+            - cypress-test-storybook
             - hold-for-pr
           context: org-global
       - datacamp-ecr/build_and_push_image_to_ecr:
           requires:
             - test
+            - cypress-test-storybook
             - hold-for-pr
           name: push-storybook-image
           context: org-global
@@ -225,6 +253,7 @@ workflows:
             - push-storybook-image
       - deploy-staging-site:
           requires:
+            - cypress-test-storybook
             - test
           context: org-global
           filters:
@@ -233,6 +262,7 @@ workflows:
                 - staging
       - deploy-doc-site:
           requires:
+            - cypress-test-storybook
             - test
           context: org-global
           filters:

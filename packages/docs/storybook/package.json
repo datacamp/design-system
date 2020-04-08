@@ -11,7 +11,8 @@
     "clean": "rm -rf lib",
     "prepare": "yarn clean && yarn build",
     "percy": "percy-storybook --fail_on_empty=true --build_dir=lib --widths=1280",
-    "cypress:open": "cypress open"
+    "cypress:open": "cypress open",
+    "cypress:ci": "cypress run"
   },
   "dependencies": {
     "@babel/runtime": "^7.9.2",
