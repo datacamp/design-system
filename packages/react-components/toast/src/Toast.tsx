@@ -77,6 +77,7 @@ const Toast = ({
       </div>
       {closeToast && (
         <button
+          aria-label="Close Toast Notification"
           css={css({
             ':hover': {
               backgroundColor: tokens.color.opaque.porcelain.value.hex,
