@@ -132,6 +132,7 @@ exports[`toast mounts a success toast 1`] = `
       </h4>
     </div>
     <button
+      aria-label="Close Toast Notification"
       class="emotion-4"
       type="button"
     >
@@ -285,6 +286,7 @@ exports[`toast mounts an error toast 1`] = `
       </h4>
     </div>
     <button
+      aria-label="Close Toast Notification"
       class="emotion-4"
       type="button"
     >
