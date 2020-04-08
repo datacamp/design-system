@@ -18,6 +18,7 @@ const Body = ({ children }: BodyProps): ReactElement => (
       paddingLeft: tokens.size.space[32].value,
       paddingRight: tokens.size.space[32].value,
     }}
+    tabIndex={0} // must be focusable to allow keyboard scrolling
   >
     {children}
   </div>
