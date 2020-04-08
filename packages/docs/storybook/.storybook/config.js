@@ -1,13 +1,20 @@
+import 'cypress-storybook/react';
+
 import { GlobalFontFaces } from '@datacamp/waffles-text';
 import { withA11y } from '@storybook/addon-a11y';
 import { withKnobs } from '@storybook/addon-knobs';
-import { addDecorator, addParameters, configure } from '@storybook/react';
-import React from 'react'
+import {
+  addDecorator,
+  addParameters,
+  configure,
+  getStorybook,
+} from '@storybook/react';
+import React from 'react';
+
 function loadStories() {
   const req = require.context('../stories', true, /^.+\.stories\.js$/);
   req.keys().forEach(filename => req(filename));
 }
-
 addDecorator(withKnobs);
 addDecorator(withA11y);
 addParameters({
@@ -35,3 +42,5 @@ const fontFaceDecorator = storyfn => (
 addDecorator(fontFaceDecorator);
 
 configure(loadStories, module);
+
+window.stories = getStorybook();

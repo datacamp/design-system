@@ -6,11 +6,12 @@
   "private": true,
   "homepage": "https://github.com/datacamp-engineering/design-system/tree/master/packages/docs/storybook/README.md",
   "scripts": {
-    "start": "start-storybook",
+    "start": "start-storybook -p 6006",
     "build": "build-storybook -c .storybook -o lib",
     "clean": "rm -rf lib",
     "prepare": "yarn clean && yarn build",
-    "percy": "percy-storybook --fail_on_empty=true --build_dir=lib --widths=1280"
+    "percy": "percy-storybook --fail_on_empty=true --build_dir=lib --widths=1280",
+    "cypress:open": "cypress open"
   },
   "dependencies": {
     "@babel/runtime": "^7.9.2",
@@ -29,6 +30,7 @@
     "@emotion/core": "10.0.17",
     "@storybook/addon-knobs": "5.3.17",
     "@storybook/react": "5.2.8",
+    "cypress": "^4.3.0",
     "react": "16.8.6",
     "react-dom": "16.8.6"
   },
@@ -38,6 +40,8 @@
     "@percy/storybook": "3.3.0",
     "@storybook/addon-a11y": "5.3.17",
     "babel-loader": "8.1.0",
+    "cypress-axe": "^0.8.1",
+    "cypress-storybook": "^0.1.1",
     "webpack": "4.41.5",
     "webpack-bundle-analyzer": "3.6.0"
   }
