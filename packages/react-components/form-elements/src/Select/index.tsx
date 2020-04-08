@@ -43,6 +43,10 @@ interface SelectProps {
    */
   errorMessage?: string;
   /**
+   * Sets the html id on the rendered select element.
+   */
+  id?: string;
+  /**
    * Renders label text above the Select. If this is not provided the Select will
    * render inline. When a label is provided many other props are also available
    * and this component becomes a block that can be stacked with other form
@@ -135,6 +139,7 @@ class Select extends Component<
       required = undefined,
       value,
       description,
+      id,
     } = this.props;
 
     const { focus } = this.state;
@@ -159,6 +164,7 @@ class Select extends Component<
           className={className}
           css={getSelectStyle}
           disabled={disabled}
+          id={id}
           name={name}
           onBlur={this.handleBlur}
           onChange={this.handleChange}
