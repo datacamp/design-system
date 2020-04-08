@@ -381,26 +381,42 @@ exports[`<Markdown /> renders 1`] = `
     <li
       class="emotion-26"
     >
-      Item 1
+      <span
+        id="1val-checkbox-description"
+      >
+        Item 1
+      </span>
     </li>
     <li
       class="emotion-26"
     >
-      Item 2
-      <ul
-        class="emotion-29"
+      <span
+        id="2val-checkbox-description"
       >
-        <li
-          class="emotion-26"
+        Item 2
+        <ul
+          class="emotion-29"
         >
-          Item 2a
-        </li>
-        <li
-          class="emotion-26"
-        >
-          Item 2b
-        </li>
-      </ul>
+          <li
+            class="emotion-26"
+          >
+            <span
+              id="3val-checkbox-description"
+            >
+              Item 2a
+            </span>
+          </li>
+          <li
+            class="emotion-26"
+          >
+            <span
+              id="4val-checkbox-description"
+            >
+              Item 2b
+            </span>
+          </li>
+        </ul>
+      </span>
     </li>
   </ul>
   <h3
@@ -414,31 +430,51 @@ exports[`<Markdown /> renders 1`] = `
     <li
       class="emotion-26"
     >
-      Item 1
-    </li>
-    <li
-      class="emotion-26"
-    >
-      Item 2
-    </li>
-    <li
-      class="emotion-26"
-    >
-      Item 3
-      <ol
-        class="emotion-29"
+      <span
+        id="5val-checkbox-description"
       >
-        <li
-          class="emotion-26"
+        Item 1
+      </span>
+    </li>
+    <li
+      class="emotion-26"
+    >
+      <span
+        id="6val-checkbox-description"
+      >
+        Item 2
+      </span>
+    </li>
+    <li
+      class="emotion-26"
+    >
+      <span
+        id="7val-checkbox-description"
+      >
+        Item 3
+        <ol
+          class="emotion-29"
         >
-          Item 3a
-        </li>
-        <li
-          class="emotion-26"
-        >
-          Item 3b
-        </li>
-      </ol>
+          <li
+            class="emotion-26"
+          >
+            <span
+              id="8val-checkbox-description"
+            >
+              Item 3a
+            </span>
+          </li>
+          <li
+            class="emotion-26"
+          >
+            <span
+              id="9val-checkbox-description"
+            >
+              Item 3b
+            </span>
+          </li>
+        </ol>
+      </span>
     </li>
   </ol>
   <p
@@ -494,6 +530,7 @@ the present is our past.
   </p>
   <pre
     class="emotion-48"
+    tabindex="0"
   >
     <code
       class="emotion-47"
@@ -510,6 +547,7 @@ with 2 lines
   </p>
   <pre
     class="emotion-48"
+    tabindex="0"
   >
     <code
       class="emotion-47"
@@ -525,6 +563,7 @@ asStrings = [str(x) for x in stuff]
   </p>
   <pre
     class="emotion-48"
+    tabindex="0"
   >
     <code
       class="emotion-47"
@@ -545,60 +584,80 @@ React.render(
       class="emotion-26"
     >
       <input
+        aria-labelledby="10val-checkbox-description"
         checked=""
         disabled=""
         readonly=""
         type="checkbox"
       />
-      @mentions, #refs, 
-      <a
-        href="http://github.com"
+      <span
+        id="10val-checkbox-description"
       >
-        links
-      </a>
-      , 
-      <strong
-        class="emotion-6"
+        @mentions, #refs, 
+        <a
+          href="http://github.com"
+        >
+          links
+        </a>
+        , 
+        <strong
+          class="emotion-6"
+        >
+          formatting
+        </strong>
+        , and 
+        &lt;del&gt;
+        tags
+        &lt;/del&gt;
+         supported
+      </span>
+    </li>
+    <li
+      class="emotion-26"
+    >
+      <input
+        aria-labelledby="11val-checkbox-description"
+        checked=""
+        disabled=""
+        readonly=""
+        type="checkbox"
+      />
+      <span
+        id="11val-checkbox-description"
       >
-        formatting
-      </strong>
-      , and 
-      &lt;del&gt;
-      tags
-      &lt;/del&gt;
-       supported
+        list syntax required (any unordered or ordered list supported)
+      </span>
     </li>
     <li
       class="emotion-26"
     >
       <input
+        aria-labelledby="12val-checkbox-description"
         checked=""
         disabled=""
         readonly=""
         type="checkbox"
       />
-      list syntax required (any unordered or ordered list supported)
+      <span
+        id="12val-checkbox-description"
+      >
+        this is a complete item
+      </span>
     </li>
     <li
       class="emotion-26"
     >
       <input
-        checked=""
+        aria-labelledby="13val-checkbox-description"
         disabled=""
         readonly=""
         type="checkbox"
       />
-      this is a complete item
-    </li>
-    <li
-      class="emotion-26"
-    >
-      <input
-        disabled=""
-        readonly=""
-        type="checkbox"
-      />
-      this is an incomplete item
+      <span
+        id="13val-checkbox-description"
+      >
+        this is an incomplete item
+      </span>
     </li>
   </ul>
   <table>
