@@ -48,7 +48,7 @@
     "@babel/runtime": "^7.9.2",
     "@types/react-native": "^0.60.31",
     "prop-types": "^15.7.2",
-    "react-native-svg": "^9.13.6"
+    "react-native-svg": "^12.0.3"
   },
   "peerDependencies": {
     "@emotion/core": "^10.0.17",
