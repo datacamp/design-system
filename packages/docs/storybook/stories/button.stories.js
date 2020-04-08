@@ -87,6 +87,7 @@ storiesOf('waffles-button', module)
       {({ appearance, state, intent, size, key }) => (
         <Button
           appearance={appearance}
+          ariaLabel="plus button"
           disabled={state === 'disabled'}
           intent={intent}
           key={key}
@@ -158,7 +159,7 @@ storiesOf('waffles-button', module)
           <Button appearance="primary" intent={intent}>
             <AddCircleIcon /> with icon
           </Button>
-          <Button appearance="primary" intent={intent}>
+          <Button appearance="primary" ariaLabel="See more" intent={intent}>
             <ChevronDownIcon />
           </Button>
         </CompactButtonGroup>
@@ -170,7 +171,7 @@ storiesOf('waffles-button', module)
           <Button intent={intent}>
             <AddCircleIcon /> with icon
           </Button>
-          <Button intent={intent}>
+          <Button ariaLabel="See more" intent={intent}>
             <ChevronDownIcon />
           </Button>
         </CompactButtonGroup>
