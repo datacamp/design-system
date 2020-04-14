@@ -6,6 +6,7 @@ import {
   setAppElement,
 } from '@datacamp/waffles-modals';
 import { Heading, Paragraph } from '@datacamp/waffles-text';
+import { number } from '@storybook/addon-knobs';
 import { storiesOf } from '@storybook/react';
 import React, { createElement, useState } from 'react';
 
@@ -266,6 +267,34 @@ storiesOf('waffles-modals', module)
                 </Button>
               </ButtonGroup>
             </Dialog.Footer>
+          </Dialog>
+        </>
+      );
+    });
+  })
+  .add('Dialog with Steps indicator', () => {
+    return createElement(() => {
+      const [isOpen, setIsOpen] = useState(true);
+
+      return (
+        <>
+          <Paragraph>this is some content behind the modal</Paragraph>
+          <Paragraph>this is some content behind the modal</Paragraph>
+          <Button onClick={() => setIsOpen(true)}>Open Modal</Button>
+          <Dialog
+            currentStep={3}
+            isOpen={isOpen}
+            onClose={origin => {
+              console.log(origin); // eslint-disable-line no-console
+              setIsOpen(false);
+            }}
+            totalSteps={5}
+            width={600}
+          >
+            <Dialog.Header>Dialog with a Body and Footer</Dialog.Header>
+            <Dialog.Body>
+              <LoremParagraph />
+            </Dialog.Body>
           </Dialog>
         </>
       );
