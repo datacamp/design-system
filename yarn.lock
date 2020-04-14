@@ -3367,13 +3367,13 @@
     mutation-testing-report-schema "^1.1.0"
     tslib "~1.10.0"
 
-"@stryker-mutator/api@^3.0.2":
-  version "3.0.2"
-  resolved "https://registry.yarnpkg.com/@stryker-mutator/api/-/api-3.0.2.tgz#22c5ea0d1f30ac7d1031a9d25200e75a68f7eb54"
-  integrity sha512-tgnMG38CBY332liGDcd5dFqgonoMQ/vbFoGHS07Pr6fu+h2ZvuXRnHZ48mvAZqjNPBUIJqEl5XnXfFLNc4BwTg==
+"@stryker-mutator/api@^3.0.2", "@stryker-mutator/api@^3.1.0":
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/@stryker-mutator/api/-/api-3.1.0.tgz#7eb6f1e1f2af17ff0425c6aa0d4d244ca822e972"
+  integrity sha512-HhfcATYxcIWpzOZ2J8MiqUkNyipF4QvJi8aDxI2r0Zc2aLkJZWj/VMrOuCVX/5AJqCpAJXSeVk/A+z2A15fQEg==
   dependencies:
     mutation-testing-report-schema "~1.3.0"
-    surrial "^2.0.1"
+    surrial "~2.0.2"
     tslib "~1.11.1"
 
 "@stryker-mutator/core@3.0.2", "@stryker-mutator/core@^3.0.2":
@@ -3418,26 +3418,26 @@
     mutation-testing-elements "^1.0.2"
     rimraf "~3.0.0"
 
-"@stryker-mutator/typescript@2.5.0", "@stryker-mutator/typescript@^2.5.0":
-  version "2.5.0"
-  resolved "https://registry.yarnpkg.com/@stryker-mutator/typescript/-/typescript-2.5.0.tgz#3f6eb5620d00bbfce4f1ff8e8fe587b8c11a609d"
-  integrity sha512-y7NrmkTdvoS+Ef+6K8Z1WBRmQ5+Fh66ThWayCJrGBzd0PbNZEcSmv72ZtaYdWbAFwS46lg2hzwPd+q6E63QgLw==
+"@stryker-mutator/typescript@3.1.0", "@stryker-mutator/typescript@^3.1.0":
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/@stryker-mutator/typescript/-/typescript-3.1.0.tgz#beb4f220acded7c8c6498975c673dba5ca57e2b4"
+  integrity sha512-HExZsNguVD93V4x1nzq+qZqpeGJ7qujGeW+vHLSVX7l3O0hmUNDAW48JA69Q1R9X9drVExNsfVfWNbQH1IEXUQ==
   dependencies:
-    "@stryker-mutator/api" "^2.5.0"
-    "@stryker-mutator/util" "^2.5.0"
+    "@stryker-mutator/api" "^3.1.0"
+    "@stryker-mutator/util" "^3.1.0"
     lodash.flatmap "~4.5.0"
     semver "~6.3.0"
-    tslib "~1.10.0"
+    tslib "~1.11.1"
 
 "@stryker-mutator/util@^2.5.0":
   version "2.5.0"
   resolved "https://registry.yarnpkg.com/@stryker-mutator/util/-/util-2.5.0.tgz#486808420b30f671d17748fd3b94473107c9adf1"
   integrity sha512-l3bTvN2YbhwPPO0F6WBbUkgY6NC/34/jxpVQGlw0rZn72MPuRQBJtrfAH7KFN0OBG4QmIA6PC6c4z0X5IaWfow==
 
-"@stryker-mutator/util@^3.0.2":
-  version "3.0.2"
-  resolved "https://registry.yarnpkg.com/@stryker-mutator/util/-/util-3.0.2.tgz#5af98ce29f3f2b1cdf5cd4cc0f1a01902ea8bfed"
-  integrity sha512-XOSkQrMPQTXy2wxCKkHwNgwVmo2C/2vhJANx/KKbcX6cJ6CuX2y3cPZwQynSBLSVJ0pw0Puu/zzwve6i0tHxtQ==
+"@stryker-mutator/util@^3.0.2", "@stryker-mutator/util@^3.1.0":
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/@stryker-mutator/util/-/util-3.1.0.tgz#6b1989a3c50eee76579b1ff20cbe5e62717a141a"
+  integrity sha512-9u5cekP4VfYOdrBoRIJeYiVXiW/5EQfwPe029GFNn07OiSDsikiQQDI23xzew3DzDFTzQfN1dsPgqjB/r5kolw==
 
 "@svgr/babel-plugin-add-jsx-attribute@^4.2.0":
   version "4.2.0"
@@ -19608,6 +19608,11 @@ surrial@^2.0.1:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/surrial/-/surrial-2.0.1.tgz#25d74e51601bac90e56becbe7e071d7f953d59a3"
   integrity sha512-s1LQlqY4am79aFsRLFtpqirqqqIODxdVX8RlphoYktb/9GMbMBqH15UraSoyGt5S5UEvpUzWaY0LcEhrvCh12g==
+
+surrial@~2.0.2:
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/surrial/-/surrial-2.0.2.tgz#739afbc9821ebf6aa4e3e9f32abf0021b73ef2b3"
+  integrity sha512-YQ0XyrdBI8Kx10lIK81zOGXdGtc0P+3FTqEtCdaKzfEJKJWDju2QPp+XhzihmN2KOTRDtkKSyQQXZHYP+SqapA==
 
 sver-compat@^1.5.0:
   version "1.5.0"
