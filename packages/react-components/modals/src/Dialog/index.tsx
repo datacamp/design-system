@@ -5,11 +5,19 @@ import Body from '../shared/Body';
 import Footer from '../shared/Footer';
 import Header from '../shared/Header';
 
+import StepsIndicator from './StepsIndicator';
+
 interface DialogProps {
   /**
    * The content of the dialog to render
    */
   children: React.ReactNode;
+  /**
+   * Only effective when used in conjunction with totalSteps. Determines how
+   * many of the step indicators to highlight. The mechanism for controlling the
+   * step and navigating between them, should be provided within your content.
+   */
+  currentStep?: number;
   /**
    * When true, the close button in the top right corner will not be shown
    */
@@ -35,6 +43,12 @@ interface DialogProps {
    */
   shouldCloseOnOverlayClick?: boolean;
   /**
+   * The total number of step indicators to show beneath the Dialog. When
+   * present this can be used along with currentStep to display a multi-step
+   * dialog.
+   */
+  totalSteps?: number;
+  /**
    * The width of the Dialog in pixels. This will be used when the user's screen
    * is sufficiently large. Otherwise the Dialog will fit to the user's screen.
    */
@@ -42,6 +56,8 @@ interface DialogProps {
 }
 
 const Dialog = ({
+  currentStep,
+  totalSteps,
   children,
   hideCloseButton = false,
   isOpen,
@@ -51,6 +67,11 @@ const Dialog = ({
   width,
 }: DialogProps): React.ReactElement => (
   <BaseDialog
+    additionalContent={
+      totalSteps && (
+        <StepsIndicator currentStep={currentStep} totalSteps={totalSteps} />
+      )
+    }
     contentLabel="Dialog"
     hideCloseButton={hideCloseButton}
     isOpen={isOpen}

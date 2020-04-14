@@ -273,6 +273,23 @@ describe('<Dialog />', () => {
     // expect(baseElement).toMatchSnapshot();
   });
 
+  it('renders the correct steps indicator', async () => {
+    const { getByLabelText } = await axeRender(
+      <Dialog
+        currentStep={3}
+        isOpen
+        onClose={() => {}}
+        totalSteps={5}
+        width={600}
+      >
+        <Dialog.Body>children</Dialog.Body>
+      </Dialog>,
+      getRenderOptions(),
+    );
+
+    expect(getByLabelText('Step 3 of 5')).toBeInTheDocument();
+  });
+
   it('renders two buttons in the Footer with space in between', async () => {
     const { container } = await axeRender(
       <Dialog.Footer>

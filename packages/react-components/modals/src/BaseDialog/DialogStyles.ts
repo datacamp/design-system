@@ -3,6 +3,7 @@ import { css } from '@emotion/core';
 export const animationTime = 600;
 
 export const contentStyle = css({
+  alignItems: 'center',
   display: 'flex',
   flexDirection: 'column',
   justifyContent: 'center',

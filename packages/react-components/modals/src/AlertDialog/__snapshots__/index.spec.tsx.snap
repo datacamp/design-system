@@ -23,6 +23,10 @@ exports[`<AlertModal /> isOpen renders the modal via a portal when true 1`] = `
 }
 
 .emotion-10 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
