@@ -21,6 +21,10 @@ import {
 
 interface DialogProps {
   /**
+   * Will be rendered underneatch the dialog
+   */
+  additionalContent?: React.ReactNode;
+  /**
    * The content of the Dialog
    */
   children: React.ReactNode;
@@ -70,6 +74,7 @@ interface DialogProps {
 export type CloseOrigin = 'overlayClick' | 'escKey' | 'closeButton';
 
 const Dialog: React.FC<DialogProps> = ({
+  additionalContent,
   children,
   contentLabel,
   dataAttributes,
@@ -143,6 +148,7 @@ const Dialog: React.FC<DialogProps> = ({
             >
               {children}
             </Card>
+            {additionalContent}
           </ReactModal>
         );
       }}

@@ -60,6 +60,7 @@
     "@datacamp/waffles-icons": "^1.9.4",
     "@datacamp/waffles-text": "^3.0.0",
     "@datacamp/waffles-tokens": "^0.6.10",
+    "@datacamp/waffles-utils": "^2.0.2",
     "@types/react-modal": "^3.10.5",
     "airbnb-prop-types": "^2.15.0",
     "lodash": "^4.17.13",
