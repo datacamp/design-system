@@ -50,7 +50,12 @@ const CodeBlock = ({
   const parsedDataAttributes = computeDataAttributes(dataAttributes);
 
   return (
-    <pre className={className} css={preStyle} {...parsedDataAttributes}>
+    <pre
+      className={className}
+      css={preStyle}
+      tabIndex={0} // Must be keyboard focusable for keyboard scrolling
+      {...parsedDataAttributes}
+    >
       <code css={codeStyle}>{children}</code>
     </pre>
   );

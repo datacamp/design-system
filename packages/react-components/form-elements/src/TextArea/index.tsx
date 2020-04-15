@@ -1,16 +1,8 @@
-import tokens from '@datacamp/waffles-tokens/lib/future-tokens.json';
 import { computeDataAttributes } from '@datacamp/waffles-utils';
-import { ClassNames, css } from '@emotion/core';
+import { css } from '@emotion/core';
 import React, { forwardRef, ReactElement, Ref } from 'react';
 
-import {
-  fontSizes,
-  heights,
-  iconSize,
-  inputPaddings,
-  inputStyle,
-  inputWithIconPaddings,
-} from '../formStyles';
+import { fontSizes, inputPaddings, inputStyle } from '../formStyles';
 import Label from '../Label';
 
 interface InputProps {
@@ -43,11 +35,6 @@ interface InputProps {
    */
   errorMessage?: string;
   /**
-   * When an icon is provided it will render inside the input. This can only be
-   * an component from the @datacamp/waffles-icons package.
-   */
-  icon?: ReactElement;
-  /**
    * Sets the html id on the rendered input element.
    */
   id?: string;
@@ -58,10 +45,6 @@ interface InputProps {
    * elements.
    */
   label?: string;
-  /**
-   * The maximum value of the input.
-   */
-  max?: 'string' | 'number';
   /**
    * Sets the maxLength attribute on the rendered input.
    */
@@ -96,30 +79,10 @@ interface InputProps {
    */
   required?: boolean;
   /**
-   * The size of the input element.
+   * The number of visible lines of text. This contols the height of the
+   * TextArea.
    */
-  size?: 'small' | 'medium' | 'large';
-  /**
-   * The step size for a number input.
-   */
-  step?: 'string' | 'number';
-  /**
-   * The type of input to render. This corresponds to a set of html input types.
-   */
-  type?:
-    | 'text'
-    | 'date'
-    | 'datetime-local'
-    | 'email'
-    | 'month'
-    | 'number'
-    | 'password'
-    | 'search'
-    | 'tel'
-    | 'time'
-    | 'url'
-    | 'week';
-
+  rows?: number;
   /**
    * The current value of the input. This should be controlled by listening to
    * onChange.
@@ -135,78 +98,53 @@ const InternalInput = ({
   disabled = false,
   errorMessage,
   id,
-  icon,
   label,
   maxLength,
   name,
   onBlur,
   onChange,
   placeholder,
-  size = 'medium',
   required,
   value,
   innerRef,
-  type = 'text',
-}: InputProps & { innerRef?: Ref<HTMLInputElement> }): ReactElement => {
+  rows = 2,
+}: InputProps & { innerRef?: Ref<HTMLTextAreaElement> }): ReactElement => {
   const parsedDataAttributes = computeDataAttributes(dataAttributes);
 
-  const handleChange = (event: React.ChangeEvent<HTMLInputElement>): void =>
+  const handleChange = (event: React.ChangeEvent<HTMLTextAreaElement>): void =>
     onChange(event.target.value);
 
   const handleBlur = (): void => onBlur && onBlur();
 
-  const inputSize = css(
-    { fontSize: fontSizes[size], height: heights[size] },
-    inputPaddings[size],
-  );
-
-  const getInputStyle = css(
-    inputSize,
+  const textAreaStyle = css(
+    {
+      fontSize: fontSizes.medium,
+      paddingBottom: 12,
+      paddingTop: 12,
+      resize: 'none',
+    },
+    inputPaddings.medium,
     inputStyle,
-    icon && inputWithIconPaddings[size],
     label && css({ width: '100%' }),
   );
 
-  const iconStyle = css({
-    display: 'inline-block',
-    left: tokens.size.space[12].value,
-    position: 'absolute',
-    top: (heights[size] - iconSize[size]) / 2,
-  });
-
-  const iconElement = icon && (
-    <div css={{ position: 'relative' }}>
-      <ClassNames>
-        {({ css: getClassName }) =>
-          React.cloneElement(icon, {
-            className: getClassName(iconStyle),
-            size: iconSize[size],
-          })
-        }
-      </ClassNames>
-    </div>
-  );
-
   const inputElement = (
-    <>
-      {iconElement}
-      <input
-        autoComplete={autocomplete}
-        className={className}
-        css={getInputStyle}
-        disabled={disabled}
-        id={id}
-        maxLength={maxLength}
-        name={name}
-        onBlur={handleBlur}
-        onChange={handleChange}
-        placeholder={placeholder}
-        ref={innerRef}
-        type={type}
-        value={value}
-        {...parsedDataAttributes}
-      />
-    </>
+    <textarea
+      autoComplete={autocomplete}
+      className={className}
+      css={textAreaStyle}
+      disabled={disabled}
+      id={id}
+      maxLength={maxLength}
+      name={name}
+      onBlur={handleBlur}
+      onChange={handleChange}
+      placeholder={placeholder}
+      ref={innerRef}
+      rows={rows}
+      value={value}
+      {...parsedDataAttributes}
+    />
   );
 
   return (
@@ -228,7 +166,7 @@ const InternalInput = ({
   );
 };
 
-const Input = forwardRef<HTMLInputElement, InputProps>((props, ref) => (
+const Input = forwardRef<HTMLTextAreaElement, InputProps>((props, ref) => (
   <InternalInput innerRef={ref} {...props} />
 ));
 

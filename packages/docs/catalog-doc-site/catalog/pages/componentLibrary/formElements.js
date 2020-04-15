@@ -5,15 +5,16 @@ import {
   RadioList,
   Select,
   SelectOption,
+  TextArea,
 } from '@datacamp/waffles-form-elements';
 import FormElementData from '@datacamp/waffles-form-elements/componentMetadata.json';
 import {
   Code,
   CodeBlock,
   Heading,
+  List,
   Paragraph,
   Strong,
-  Text,
 } from '@datacamp/waffles-text';
 /* @jsx jsx */
 import { jsx } from '@emotion/core';
@@ -43,38 +44,32 @@ export default () => {
               Waffles exposes several components from within{' '}
               <Code>@datacamp/waffles-form-elements</Code>.
             </Paragraph>
-            <ul>
-              <li>
-                <Text>
-                  <Strong>Input –</Strong> Able to handle multiple types of text
-                  input.
-                </Text>
-              </li>
-              <li>
-                <Text>
-                  <Strong>Select –</Strong> Allows the user to select one from a
-                  list of options.
-                </Text>
-              </li>
-              <li>
-                <Text>
-                  <Strong>SelectOption -</Strong> To be used within a{' '}
-                  <Code>Select</Code> to specify an available option.
-                </Text>
-              </li>
-              <li>
-                <Text>
-                  <Strong>RadioList –</Strong> Allows the user to choose one
-                  from a list of options.
-                </Text>
-              </li>
-              <li>
-                <Text>
-                  <Strong>Radio -</Strong> To be used within a{' '}
-                  <Code>RadioList</Code> to specify an available option.
-                </Text>
-              </li>
-            </ul>
+            <List>
+              <List.Item>
+                <Strong>Input –</Strong> Able to handle multiple types of text
+                input.
+              </List.Item>
+              <List.Item>
+                <Strong>Select –</Strong> Allows the user to select one from a
+                list of options.
+              </List.Item>
+              <List.Item>
+                <Strong>SelectOption -</Strong> To be used within a{' '}
+                <Code>Select</Code> to specify an available option.
+              </List.Item>
+              <List.Item>
+                <Strong>RadioList –</Strong> Allows the user to choose one from
+                a list of options.
+              </List.Item>
+              <List.Item>
+                <Strong>Radio -</Strong> To be used within a{' '}
+                <Code>RadioList</Code> to specify an available option.
+              </List.Item>
+              <List.Item>
+                <Strong>TextArea -</Strong> Able to handle longer form text
+                input.
+              </List.Item>
+            </List>
             <CodeBlock>
               {`import {
   Input,
@@ -82,6 +77,7 @@ export default () => {
   RadioList,
   Select,
   SelectOption,
+  TextArea
 } from '@datacamp/waffles-form-elements';`}
             </CodeBlock>
           </Card>
@@ -98,6 +94,7 @@ export default () => {
   const [name, setName] = React.useState("");
   const [fave, setFave] = React.useState("");
   const [loveLevel, setLoveLevel] = React.useState("");
+  const [description, setDescription] = React.useState("");
 
   return (
     <form>
@@ -129,10 +126,26 @@ export default () => {
         <Radio value="siblings">My Siblings</Radio>
         <Radio value="children">My Children</Radio>
       </RadioList>
+      <TextArea
+        name="description"
+        label="Feelings"
+        description="Describe how using waffles components makes you feel."
+        value={description}
+        onChange={setDescription}
+        placeholder="I get all these warm fuzzy feelings..."
+        rows={6}
+      />
     </form>
   );
 };`}
-              scope={{ Input, Radio, RadioList, Select, SelectOption }}
+              scope={{
+                Input,
+                Radio,
+                RadioList,
+                Select,
+                SelectOption,
+                TextArea,
+              }}
             />
           </Card>
           <Heading as="h3" size={500}>
@@ -157,6 +170,10 @@ export default () => {
           <PropTable
             componentData={FormElementData['src/RadioList/Radio.tsx'][0]}
             componentName="Radio"
+          />
+          <PropTable
+            componentData={FormElementData['src/TextArea/index.tsx'][0]}
+            componentName="TextArea"
           />
         </section>
       </Page>

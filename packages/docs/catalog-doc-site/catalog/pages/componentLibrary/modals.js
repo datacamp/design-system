@@ -6,9 +6,9 @@ import {
   Code,
   CodeBlock,
   Heading,
+  List,
   Paragraph,
   Strong,
-  Text,
 } from '@datacamp/waffles-text';
 /* @jsx jsx */
 import { jsx } from '@emotion/core';
@@ -38,28 +38,21 @@ export default () => {
               Waffles exposes several components from within{' '}
               <Code>@datacamp/waffles-modals</Code>.
             </Paragraph>
-            <ul>
-              <li>
-                <Text>
-                  <Strong>AlertDialog –</Strong> Asks for confirmation before
-                  performing an action.
-                </Text>
-              </li>
-              <li>
-                <Text>
-                  <Strong>Dialog –</Strong> Enables custom content to be
-                  displayed in a way that blocks interaction with the rest of
-                  the page.
-                </Text>
-              </li>
-              <li>
-                <Text>
-                  <Strong>Panel –</Strong> Enables larger amounts of custom
-                  content to be displayed in a way that blocks interaction with
-                  the rest of the page.
-                </Text>
-              </li>
-            </ul>
+            <List>
+              <List.Item>
+                <Strong>AlertDialog –</Strong> Asks for confirmation before
+                performing an action.
+              </List.Item>
+              <List.Item>
+                <Strong>Dialog –</Strong> Enables custom content to be displayed
+                in a way that blocks interaction with the rest of the page.
+              </List.Item>
+              <List.Item>
+                <Strong>Panel –</Strong> Enables larger amounts of custom
+                content to be displayed in a way that blocks interaction with
+                the rest of the page.
+              </List.Item>
+            </List>
             <Paragraph>
               Before using any of these components, <Code>setAppElement</Code>{' '}
               should be called with the root element of the application. This

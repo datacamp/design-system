@@ -8,7 +8,8 @@ import React, { Component, forwardRef, ReactElement, Ref } from 'react';
 
 import {
   arrowIconPosition,
-  baseFormSizes,
+  fontSizes,
+  heights,
   selectIconSizes,
   selectPaddings,
   selectStyle,
@@ -42,6 +43,10 @@ interface SelectProps {
    * available when label is also specified.
    */
   errorMessage?: string;
+  /**
+   * Sets the html id on the rendered select element.
+   */
+  id?: string;
   /**
    * Renders label text above the Select. If this is not provided the Select will
    * render inline. When a label is provided many other props are also available
@@ -135,12 +140,16 @@ class Select extends Component<
       required = undefined,
       value,
       description,
+      id,
     } = this.props;
 
     const { focus } = this.state;
     const parsedDataAttributes = computeDataAttributes(dataAttributes);
 
-    const selectSizes = css(baseFormSizes[size], selectPaddings[size]);
+    const selectSizes = css(
+      { fontSize: fontSizes[size], height: heights[size] },
+      selectPaddings[size],
+    );
 
     const getSelectStyle = css(selectStyle, selectSizes, {
       color: disabled
@@ -159,6 +168,7 @@ class Select extends Component<
           className={className}
           css={getSelectStyle}
           disabled={disabled}
+          id={id}
           name={name}
           onBlur={this.handleBlur}
           onChange={this.handleChange}

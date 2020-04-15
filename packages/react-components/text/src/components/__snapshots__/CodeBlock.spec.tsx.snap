@@ -37,6 +37,7 @@ exports[`<CodeBlock /> snapshots renders 1`] = `
 
 <pre
   class="emotion-1"
+  tabindex="0"
 >
   <code
     class="emotion-0"

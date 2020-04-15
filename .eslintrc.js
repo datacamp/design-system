@@ -1,7 +1,7 @@
 const { testFilesGlobPatterns } = require('@datacamp/eslint-config/helpers');
 
 module.exports = {
-  extends: ['@datacamp/eslint-config/typescript'],
+  extends: ['@datacamp/eslint-config/typescript', 'plugin:cypress/recommended'],
   rules: {
     'react/jsx-filename-extension': 'off',
     'import/no-extraneous-dependencies': [
@@ -15,6 +15,7 @@ module.exports = {
           '**/webpack.config.js',
           '**/gulpfile.js',
           'packages/other/**/*.js',
+          '**/cypress/**',
         ],
       },
     ],
@@ -48,6 +49,15 @@ module.exports = {
     {
       files: [...testFilesGlobPatterns, '**/*.stories.js'],
       rules: { '@typescript-eslint/no-empty-function': 'off' },
+    },
+    {
+      files: ['**/cypress/**/*.js'],
+      rules: {
+        'jest/valid-expect': 'off',
+        'jest/expect-expect': 'off',
+        '@typescript-eslint/no-var-requires': 'off',
+        'jest/valid-expect-in-promise': 'off',
+      },
     },
   ],
 };
