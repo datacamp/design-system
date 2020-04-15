@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.9.0](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/form-elements/compare/@datacamp/waffles-form-elements@2.8.2...@datacamp/waffles-form-elements@2.9.0) (2020-04-15)
+
+
+### Features
+
+* add TextArea component ([9a9247d](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/form-elements/commit/9a9247d))
+* allow id to be set on Select component ([7ee9a69](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/form-elements/commit/7ee9a69))
+
+
+
+
+
 ## [2.8.2](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/form-elements/compare/@datacamp/waffles-form-elements@2.8.1...@datacamp/waffles-form-elements@2.8.2) (2020-04-01)
 
 

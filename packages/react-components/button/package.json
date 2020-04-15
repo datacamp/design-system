@@ -1,6 +1,6 @@
 {
   "name": "@datacamp/waffles-button",
-  "version": "5.1.0",
+  "version": "5.1.1",
   "description": "The Waffles Button",
   "keywords": [
     "button"
@@ -34,8 +34,8 @@
     "@babel/cli": "7.7.7",
     "@babel/core": "7.9.0",
     "@datacamp/waffles-axe-render": "^1.2.2",
-    "@datacamp/waffles-babel-preset": "^1.4.3",
-    "@datacamp/waffles-icons": "^1.9.4",
+    "@datacamp/waffles-babel-preset": "^1.4.4",
+    "@datacamp/waffles-icons": "^1.9.5",
     "@datacamp/waffles-tsconfig": "^1.1.9",
     "@emotion/core": "^10.0.17",
     "@stryker-mutator/core": "^3.0.2",
@@ -55,11 +55,11 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.9.2",
-    "@datacamp/waffles-card": "^3.0.5",
-    "@datacamp/waffles-positioner": "^1.0.5",
-    "@datacamp/waffles-text": "^3.0.0",
+    "@datacamp/waffles-card": "^3.0.6",
+    "@datacamp/waffles-positioner": "^1.0.6",
+    "@datacamp/waffles-text": "^3.0.1",
     "@datacamp/waffles-tokens": "^0.6.10",
-    "@datacamp/waffles-utils": "^2.0.2",
+    "@datacamp/waffles-utils": "^2.0.3",
     "airbnb-prop-types": "^2.15.0",
     "lodash": "^4.17.13",
     "prop-types": "^15.7.2",

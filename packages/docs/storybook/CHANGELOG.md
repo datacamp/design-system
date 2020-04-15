@@ -3,6 +3,24 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.39.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-storybook@1.38.0...@datacamp/waffles-storybook@1.39.0) (2020-04-15)
+
+
+### Bug Fixes
+
+* add missing aria labels to icon buttons ([6cc70be](https://github.com/datacamp/design-system/commit/6cc70be))
+
+
+### Features
+
+* add custom labels to form components ([57fb54f](https://github.com/datacamp/design-system/commit/57fb54f))
+* add stories for TextArea ([e373580](https://github.com/datacamp/design-system/commit/e373580))
+* add story for multi step dialog ([13ea854](https://github.com/datacamp/design-system/commit/13ea854))
+
+
+
+
+
 # [1.38.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-storybook@1.37.0...@datacamp/waffles-storybook@1.38.0) (2020-04-01)
 
 

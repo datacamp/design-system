@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.38.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-catalog-doc-site@1.37.0...@datacamp/waffles-catalog-doc-site@1.38.0) (2020-04-15)
+
+
+### Features
+
+* add docs for TextArea ([4fe43cd](https://github.com/datacamp/design-system/commit/4fe43cd))
+* use waffles list components in documentation ([be1fe47](https://github.com/datacamp/design-system/commit/be1fe47))
+
+
+
+
+
 # [1.37.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-catalog-doc-site@1.36.0...@datacamp/waffles-catalog-doc-site@1.37.0) (2020-04-01)
 
 

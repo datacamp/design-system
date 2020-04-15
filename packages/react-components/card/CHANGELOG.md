@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.0.6](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/card/compare/@datacamp/waffles-card@3.0.5...@datacamp/waffles-card@3.0.6) (2020-04-15)
+
+
+### Bug Fixes
+
+* allow prop type validation to be tree shaken ([f8feb7e](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/card/commit/f8feb7e))
+
+
+
+
+
 ## [3.0.5](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/card/compare/@datacamp/waffles-card@3.0.4...@datacamp/waffles-card@3.0.5) (2020-04-01)
 
 

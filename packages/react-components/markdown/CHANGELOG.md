@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.0.1](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/markdown/compare/@datacamp/waffles-markdown@2.0.0...@datacamp/waffles-markdown@2.0.1) (2020-04-15)
+
+
+### Bug Fixes
+
+* aria labelledby attributes for markdown checkbox lists ([922faee](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/markdown/commit/922faee))
+
+
+
+
+
 # [2.0.0](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/markdown/compare/@datacamp/waffles-markdown@1.2.5...@datacamp/waffles-markdown@2.0.0) (2020-04-01)
 
 

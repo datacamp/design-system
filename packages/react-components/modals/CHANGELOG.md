@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [5.1.0](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/modals/compare/@datacamp/waffles-modals@5.0.1...@datacamp/waffles-modals@5.1.0) (2020-04-15)
+
+
+### Bug Fixes
+
+* add keyboard focus to modal & panel body to allow keyboard scroll ([924be9c](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/modals/commit/924be9c))
+
+
+### Features
+
+* add multi step functionality to Dialog ([3919e5b](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/modals/commit/3919e5b))
+
+
+
+
+
 ## [5.0.1](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/modals/compare/@datacamp/waffles-modals@5.0.0...@datacamp/waffles-modals@5.0.1) (2020-04-01)
 
 

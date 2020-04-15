@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.0.1](https://github.com/datacamp/design-system/compare/@datacamp/waffles-text@3.0.0...@datacamp/waffles-text@3.0.1) (2020-04-15)
+
+
+### Bug Fixes
+
+* add keyboard focus to CodeBlock to allow keyboard scrolling ([e1ecb01](https://github.com/datacamp/design-system/commit/e1ecb01))
+* set arialabel on checkboxes used in markdown lists ([5460f74](https://github.com/datacamp/design-system/commit/5460f74))
+
+
+
+
+
 # [3.0.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-text@2.2.5...@datacamp/waffles-text@3.0.0) (2020-04-01)
 
 
