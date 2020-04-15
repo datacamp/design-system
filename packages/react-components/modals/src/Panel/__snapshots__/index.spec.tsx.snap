@@ -145,7 +145,17 @@ exports[`<Panel /> isOpen renders the modal via a portal when true 1`] = `
   class="emotion-6"
 >
   <div
+    data-react-modal-body-trap=""
+    style="position: absolute; opacity: 0;"
+    tabindex="0"
+  />
+  <div
     aria-hidden="true"
+  />
+  <div
+    data-react-modal-body-trap=""
+    style="position: absolute; opacity: 0;"
+    tabindex="0"
   />
   <div
     class="ReactModalPortal"
