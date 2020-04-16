@@ -114,7 +114,7 @@ describe('<Input />', () => {
       const inputElement = getByRole('textbox') as HTMLElement;
 
       userEvent.type(inputElement, testString);
-      expect(onChange).toHaveBeenCalledWith(testString);
+      expect(onChange).toHaveBeenCalledWith(testValue + testString);
     });
 
     it('sets the placeholder', () => {
