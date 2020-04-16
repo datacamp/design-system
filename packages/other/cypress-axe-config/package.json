@@ -10,32 +10,8 @@
     "type": "git",
     "url": "git+https://github.com/datacamp/design-system.git"
   },
-  "scripts": {
-    "build:cjs": "BABEL_ENV=cjs babel src --extensions '.tsx','.ts' --out-dir lib --ignore \"src/**/*.spec.tsx\",\"src/**/*.spec.ts\" --config-file ./babel7.config.js",
-    "build:es": "BABEL_ENV=es babel src --extensions '.tsx','.ts' --out-dir es --ignore \"src/**/*.spec.tsx\",\"src/**/*.spec.ts\" --config-file ./babel7.config.js",
-    "build:legacy": "copyfiles -u 1 legacy/*.scss lib",
-    "clean": "rm -rf lib es types",
-    "build:types": "tsc --rootDir src --declarationDir types --emitDeclarationOnly",
-    "build": "yarn build:types && yarn build:cjs && yarn build:es && yarn build:legacy",
-    "prepare": " yarn clean && yarn build",
-    "test": "jest",
-    "type-check": "tsc --noEmit",
-    "watch": "yarn build:es --watch"
-  },
-  "devDependencies": {
-    "@babel/cli": "7.7.7",
-    "@babel/core": "7.9.0",
-    "@datacamp/waffles-babel-preset": "^1.4.4",
-    "@datacamp/waffles-tsconfig": "^1.1.9",
-    "babel-jest": "25.1.0",
-    "jest": "25.2.4",
-    "react": "16.8.6"
-  },
-  "dependencies": {
-    "@babel/runtime": "^7.9.2",
-    "lodash": "^4.17.13"
-  },
-  "peerDependencies": {
-    "react": "^16.8.6"
-  }
+  "scripts": {},
+  "devDependencies": {},
+  "dependencies": {},
+  "peerDependencies": {}
 }
