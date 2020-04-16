@@ -1,3 +1,5 @@
+import cypressAxeConfig from '@datacamp/waffles-cypress-axe-config';
+
 describe('a11y testing', () => {
   before(() => {
     cy.visitStorybook();
@@ -20,14 +22,7 @@ describe('a11y testing', () => {
       })
       .each(({ category, title }) => {
         cy.loadStory(category, title);
-        cy.checkA11y(null, {
-          rules: {
-            'aria-hidden-focus': { enabled: false }, // Our modals manually keyboard trap so this throws false errors
-            'color-contrast': { enabled: false }, // remove after rebranding
-            'landmark-one-main': { enabled: false }, // storybook is not a real app so landmark is on parent
-            region: { enabled: false }, // storybook is not a real app so landmark is on parent
-          },
-        });
+        cy.checkA11y(null, cypressAxeConfig);
       });
   });
 });
