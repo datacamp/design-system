@@ -5,6 +5,7 @@ import * as Waffles from './generated/logos/waffles';
 import * as TechnologiesLogos from './generated/technologies';
 import * as TopicsLogos from './generated/topics';
 
+export { default as TechLogo } from './custom/TechLogo';
 export const Logos = { Datacamp, DatacampB2B, Signal, Waffles };
 
 export const Technologies = TechnologiesLogos;
