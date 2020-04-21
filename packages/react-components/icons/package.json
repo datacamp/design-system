@@ -27,7 +27,7 @@
     "@datacamp/waffles-babel-preset": "^1.4.4",
     "@datacamp/waffles-tsconfig": "^1.1.9",
     "@svgr/core": "^5.3.1",
-    "@svgr/plugin-prettier": "^5.0.1",
+    "@svgr/plugin-prettier": "^5.3.1",
     "@svgr/plugin-svgo": "^5.2.0",
     "@types/react": "^16.9.9",
     "camelcase": "^5.3.1",
