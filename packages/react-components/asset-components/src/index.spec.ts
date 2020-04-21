@@ -62,6 +62,7 @@ describe('index', () => {
             },
           },
         },
+        "TechLogo": [Function],
         "Technologies": Object {
           "Git": Object {
             "$$typeof": Symbol(react.forward_ref),
