@@ -57,11 +57,7 @@
     "svglint": "1.0.5",
     "typescript": "3.8.3"
   },
-  "browserslist": [
-    "last 2 versions",
-    "Firefox ESR",
-    "not IE < 11"
-  ],
+  "browserslist": ["last 2 versions", "Firefox ESR", "not IE < 11"],
   "engines": {
     "yarn": "^1.15.2"
   },
@@ -90,7 +86,8 @@
       "**/sass-loader/**",
       "**/jest",
       "**/jest/**",
-      "**/@babel/runtime/**"
+      "**/@babel/runtime/**",
+      "**/cosmiconfig"
     ]
   }
 }
