@@ -1,0 +1,57 @@
+{
+  "name": "@datacamp/waffles-asset-components",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "module": "es/index.js",
+  "types": "types/index.d.ts",
+  "license": "UNLICENSED",
+  "files": ["es", "lib", "types"],
+  "sideEffects": ["lib/sideEffects/*", "es/sideEffects/*"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/card/"
+  },
+  "scripts": {
+    "build:src": "svgr --out-dir src/generated --ext tsx --typescript --ref ../../other/assets",
+    "build:cjs": "BABEL_ENV=cjs babel src --extensions '.tsx','.ts' --out-dir lib --ignore \"src/**/*.spec.tsx\",\"src/**/*.spec.ts\" --config-file ./babel7.config.js",
+    "build:es": "BABEL_ENV=es babel src --extensions '.tsx','.ts' --out-dir es --ignore \"src/**/*.spec.tsx\",\"src/**/*.spec.ts\" --config-file ./babel7.config.js",
+    "clean": "rm -rf lib es types componentMetadata.json src/generated",
+    "build:types": "tsc --rootDir src --declarationDir types --emitDeclarationOnly",
+    "build": "yarn build:src && yarn build:types && yarn build:cjs && yarn build:es",
+    "prepare": "yarn clean && yarn build",
+    "test": "jest",
+    "type-check": "tsc --noEmit",
+    "watch": "yarn build:es --watch",
+    "stryker": "stryker run"
+  },
+  "devDependencies": {
+    "@babel/cli": "7.7.7",
+    "@babel/core": "7.9.0",
+    "@datacamp/waffles-assets": "^1.0.2",
+    "@datacamp/waffles-axe-render": "^1.2.2",
+    "@datacamp/waffles-babel-preset": "^1.4.4",
+    "@datacamp/waffles-tsconfig": "^1.1.9",
+    "@emotion/core": "^10.0.17",
+    "@stryker-mutator/core": "^3.0.2",
+    "@stryker-mutator/html-reporter": "^2.5.0",
+    "@stryker-mutator/typescript": "^3.1.0",
+    "@svgr/cli": "^5.3.1",
+    "@testing-library/jest-dom": "5.1.1",
+    "@testing-library/react": "9.4.1",
+    "@types/lodash": "4.14.149",
+    "babel-jest": "25.1.0",
+    "jest": "25.2.4",
+    "jest-emotion": "10.0.32",
+    "react": "16.8.6",
+    "react-dom": "16.8.6"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.9.2",
+    "prop-types": "^15.7.2"
+  },
+  "peerDependencies": {
+    "@emotion/core": "^10.0.17",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  }
+}

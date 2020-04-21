@@ -2,6 +2,7 @@ const { testFilesGlobPatterns } = require('@datacamp/eslint-config/helpers');
 
 module.exports = {
   extends: ['@datacamp/eslint-config/typescript', 'plugin:cypress/recommended'],
+  ignorePatterns: ['**/generated/**'],
   rules: {
     'react/jsx-filename-extension': 'off',
     'import/no-extraneous-dependencies': [
