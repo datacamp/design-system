@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.40.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-storybook@1.39.0...@datacamp/waffles-storybook@1.40.0) (2020-04-24)
+
+
+### Features
+
+* use shared cypress-axe-config ([d15e39b](https://github.com/datacamp/design-system/commit/d15e39b))
+
+
+
+
+
 # [1.39.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-storybook@1.38.0...@datacamp/waffles-storybook@1.39.0) (2020-04-15)
 
 
