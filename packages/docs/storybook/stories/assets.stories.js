@@ -1,8 +1,10 @@
 import {
   Logos,
+  TechLogo,
   Technologies,
   Topics,
 } from '@datacamp/waffles-asset-components';
+import { text } from '@storybook/addon-knobs';
 import { storiesOf } from '@storybook/react';
 import React from 'react';
 
@@ -26,4 +28,7 @@ storiesOf('waffles-asset-components', module)
   })
   .add('Topics', () => {
     return Object.values(Topics).map(Topic => <Topic />);
+  })
+  .add('TechLogo', () => {
+    return <TechLogo technology={text('technology', 'R')} />;
   });
