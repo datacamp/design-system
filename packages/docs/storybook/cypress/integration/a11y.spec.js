@@ -22,7 +22,10 @@ describe('a11y testing', () => {
       })
       .each(({ category, title }) => {
         cy.loadStory(category, title);
-        cy.checkA11y(null, cypressAxeConfig);
+        cy.checkA11y(
+          { exclude: [['path'], ['mask'], ['linearGradient']] },
+          cypressAxeConfig,
+        );
       });
   });
 });
