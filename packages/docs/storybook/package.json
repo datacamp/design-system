@@ -16,6 +16,7 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.9.2",
+    "@datacamp/waffles-asset-components": "^1.0.0",
     "@datacamp/waffles-button": "^5.1.2",
     "@datacamp/waffles-card": "^3.0.7",
     "@datacamp/waffles-core": "^1.2.33",
