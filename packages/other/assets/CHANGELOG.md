@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.3](https://github.com/datacamp/design-system/compare/@datacamp/waffles-assets@1.0.2...@datacamp/waffles-assets@1.0.3) (2020-04-27)
+
+
+### Bug Fixes
+
+* single color datacamp icon is now valid svg ([beb5d25](https://github.com/datacamp/design-system/commit/beb5d25))
+
+
+
+
+
 ## [1.0.2](https://github.com/datacamp/design-system/compare/@datacamp/waffles-assets@1.0.1...@datacamp/waffles-assets@1.0.2) (2020-01-20)
 
 

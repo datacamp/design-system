@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.41.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-storybook@1.40.0...@datacamp/waffles-storybook@1.41.0) (2020-04-27)
+
+
+### Bug Fixes
+
+* ignore svgs in a11y tests ([d8fe68e](https://github.com/datacamp/design-system/commit/d8fe68e))
+
+
+### Features
+
+* add stories for waffles assets ([7aad9a5](https://github.com/datacamp/design-system/commit/7aad9a5))
+* add story for TechLogo component ([c6f2583](https://github.com/datacamp/design-system/commit/c6f2583))
+
+
+
+
+
 # [1.40.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-storybook@1.39.0...@datacamp/waffles-storybook@1.40.0) (2020-04-24)
 
 
