@@ -45,7 +45,7 @@
     "babel-loader": "8.1.0",
     "cypress-axe": "^0.8.1",
     "cypress-storybook": "^0.1.1",
-    "webpack": "4.41.5",
+    "webpack": "4.43.0",
     "webpack-bundle-analyzer": "3.7.0"
   }
 }
