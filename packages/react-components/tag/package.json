@@ -51,7 +51,7 @@
     "@testing-library/react": "9.4.1",
     "@types/lodash": "^4.14.149",
     "@types/react": "^16.9.9",
-    "babel-jest": "^25.1.0",
+    "babel-jest": "^25.4.0",
     "copyfiles": "^2.2.0",
     "jest": "25.2.4",
     "jest-emotion": "^10.0.32",
