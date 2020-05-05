@@ -45,7 +45,7 @@
     "@testing-library/react": "9.4.1",
     "@testing-library/user-event": "10.1.0",
     "@types/airbnb-prop-types": "2.13.1",
-    "babel-jest": "25.1.0",
+    "babel-jest": "26.0.0",
     "jest": "25.2.4",
     "jest-emotion": "10.0.32",
     "react": "16.8.6",

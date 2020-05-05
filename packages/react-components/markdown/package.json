@@ -44,7 +44,7 @@
     "@testing-library/jest-dom": "5.1.1",
     "@testing-library/react": "9.4.1",
     "@types/lodash": "4.14.149",
-    "babel-jest": "25.1.0",
+    "babel-jest": "26.0.0",
     "jest": "25.2.4",
     "jest-emotion": "10.0.32",
     "react": "16.8.6",
