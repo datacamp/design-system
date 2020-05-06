@@ -18,6 +18,13 @@ export default {
     },
     {
       content: pageLoader(() =>
+        import('../../pages/componentLibrary/assets.js'),
+      ),
+      path: '/component-library/assets',
+      title: 'Assets',
+    },
+    {
+      content: pageLoader(() =>
         import('../../pages/componentLibrary/button.js'),
       ),
       path: '/component-library/button',
