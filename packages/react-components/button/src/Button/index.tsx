@@ -5,7 +5,13 @@ import { computeDataAttributes } from '@datacamp/waffles-utils';
 import { css, SerializedStyles } from '@emotion/core';
 import { childrenOfType, nChildren } from 'airbnb-prop-types';
 import PropTypes from 'prop-types';
-import React, { ComponentProps, ReactElement, useRef, useState } from 'react';
+import React, {
+  ComponentProps,
+  ReactElement,
+  useEffect,
+  useRef,
+  useState,
+} from 'react';
 import { useUIDSeed } from 'react-uid';
 import { mergeRefs } from 'use-callback-ref';
 
@@ -149,6 +155,14 @@ const InternalButton = (
   const buttonRef = useRef<HTMLElement>();
   const [hasFocus, setHasFocus] = useState(false);
   const [hasHover, setHasHover] = useState(false);
+
+  // remove hover state when disabling a button
+  useEffect(() => {
+    if (loading || disabled) {
+      setHasHover(false);
+    }
+  }, [loading, disabled]);
+
   const uidSeed = useUIDSeed();
   const tooltipId = uidSeed('button-tooltip');
   const outlineTextColor = tokens.color.opaque.greyDark.value.hex;
