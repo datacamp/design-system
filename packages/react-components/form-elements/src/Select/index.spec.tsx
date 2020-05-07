@@ -21,7 +21,7 @@ describe('<Select>', () => {
       </Select>,
     );
 
-    const selectElement = getByRole('listbox') as HTMLElement;
+    const selectElement = getByRole('combobox') as HTMLElement;
     expect(selectElement).toHaveAttribute('name', testName);
   });
 
@@ -68,7 +68,7 @@ describe('<Select>', () => {
         <SelectOption value={testValue}>option2</SelectOption>
       </Select>,
     );
-    const selectElement = getByRole('listbox') as HTMLElement;
+    const selectElement = getByRole('combobox') as HTMLElement;
 
     expect(selectElement).toHaveClass(testClassName);
   });
@@ -86,7 +86,7 @@ describe('<Select>', () => {
         <SelectOption value={testValue}>option2</SelectOption>
       </Select>,
     );
-    const selectElement = getByRole('listbox') as HTMLElement;
+    const selectElement = getByRole('combobox') as HTMLElement;
 
     expect(selectElement).toHaveAttribute('data-test', 'example');
   });
@@ -104,7 +104,7 @@ describe('<Select>', () => {
         <SelectOption value={testValue}>option2</SelectOption>
       </Select>,
     );
-    const selectElement = getByRole('listbox') as HTMLElement;
+    const selectElement = getByRole('combobox') as HTMLElement;
 
     fireEvent.blur(selectElement);
     expect(onBlur).toHaveBeenCalledTimes(1);
@@ -118,7 +118,7 @@ describe('<Select>', () => {
         <SelectOption value="value2">option2</SelectOption>
       </Select>,
     );
-    const selectElement = getByRole('listbox') as HTMLElement;
+    const selectElement = getByRole('combobox') as HTMLElement;
 
     userEvent.selectOptions(selectElement, 'value2');
     expect(onChange).toHaveBeenCalledWith('value2');
@@ -131,7 +131,7 @@ describe('<Select>', () => {
         <SelectOption value="value2">option2</SelectOption>
       </Select>,
     );
-    const selectElement = getByRole('listbox') as HTMLElement;
+    const selectElement = getByRole('combobox') as HTMLElement;
     expect(selectElement).toHaveAttribute('disabled');
   });
 
@@ -159,7 +159,7 @@ describe('<Select>', () => {
         <SelectOption value="value2">option2</SelectOption>
       </Select>,
     );
-    const selectElement = getByRole('listbox') as HTMLElement;
+    const selectElement = getByRole('combobox') as HTMLElement;
     expect(selectElement).toHaveStyle(
       ` height: ${tokens.size.space[64].value}px;`,
     );
@@ -181,7 +181,7 @@ describe('<Select>', () => {
         <SelectOption value="value2">option2</SelectOption>
       </Select>,
     );
-    const selectElement = getByRole('listbox') as HTMLElement;
+    const selectElement = getByRole('combobox') as HTMLElement;
     expect(selectElement).toHaveStyle(
       ` height: ${tokens.size.space[36].value}px;`,
     );
@@ -203,7 +203,7 @@ describe('<Select>', () => {
         <SelectOption value="value2">option2</SelectOption>
       </Select>,
     );
-    const selectElement = getByRole('listbox') as HTMLElement;
+    const selectElement = getByRole('combobox') as HTMLElement;
     expect(selectElement).toHaveStyle(
       ` height: ${tokens.size.space[48].value}px;`,
     );
