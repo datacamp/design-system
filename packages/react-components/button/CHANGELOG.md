@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [5.1.4](https://github.com/datacamp/design-system/compare/@datacamp/waffles-button@5.1.3...@datacamp/waffles-button@5.1.4) (2020-05-07)
+
+
+### Bug Fixes
+
+* remove stuck tooltip when disabling button ([a098af4](https://github.com/datacamp/design-system/commit/a098af4))
+
+
+
+
+
 ## [5.1.3](https://github.com/datacamp/design-system/compare/@datacamp/waffles-button@5.1.2...@datacamp/waffles-button@5.1.3) (2020-04-27)
 
 **Note:** Version bump only for package @datacamp/waffles-button

@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.10.0](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/icons/compare/@datacamp/waffles-icons@1.9.7...@datacamp/waffles-icons@1.10.0) (2020-05-07)
+
+
+### Features
+
+* google icons ([1290ef1](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/icons/commit/1290ef1))
+
+
+
+
+
 ## [1.9.7](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/icons/compare/@datacamp/waffles-icons@1.9.6...@datacamp/waffles-icons@1.9.7) (2020-04-27)
 
 **Note:** Version bump only for package @datacamp/waffles-icons
