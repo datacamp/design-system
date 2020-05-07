@@ -142,7 +142,7 @@ describe('<Input />', () => {
           value={testValue}
         />,
       );
-      expect(getByRole('textbox')).toHaveAttribute('disabled');
+      expect(getByRole('textbox')).toBeDisabled();
     });
 
     it('renders an icon inside the input field', async () => {
@@ -186,7 +186,7 @@ describe('<Input />', () => {
           value={testValue}
         />,
       );
-      expect(getByRole('textbox')).toHaveAttribute('disabled');
+      expect(getByRole('textbox')).toBeDisabled();
     });
 
     it('renders a small text input if size= "small" ', () => {

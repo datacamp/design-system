@@ -132,7 +132,7 @@ describe('<Select>', () => {
       </Select>,
     );
     const selectElement = getByRole('combobox') as HTMLElement;
-    expect(selectElement).toHaveAttribute('disabled');
+    expect(selectElement).toBeDisabled();
   });
 
   it('renders an arrow icon', async () => {
@@ -234,7 +234,7 @@ describe('<SelectOption>', () => {
     );
 
     const optionElement = getByRole('option') as HTMLElement;
-    expect(optionElement).toHaveAttribute('disabled');
+    expect(optionElement).toBeDisabled();
   });
 });
 

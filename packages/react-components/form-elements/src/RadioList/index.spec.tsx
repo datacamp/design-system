@@ -105,8 +105,8 @@ describe('<RadioList>', () => {
     const radioElement1 = getByLabelText('item 1') as HTMLElement;
     const radioElement2 = getByLabelText('item 2') as HTMLElement;
 
-    expect(radioElement1).toHaveAttribute('disabled');
-    expect(radioElement2).toHaveAttribute('disabled');
+    expect(radioElement1).toBeDisabled();
+    expect(radioElement2).toBeDisabled();
   });
 
   it('disables an individual option', () => {
@@ -127,8 +127,8 @@ describe('<RadioList>', () => {
     const radioElement1 = getByLabelText('item 1') as HTMLElement;
     const radioElement2 = getByLabelText('item 2') as HTMLElement;
 
-    expect(radioElement1).not.toHaveAttribute('disabled');
-    expect(radioElement2).toHaveAttribute('disabled');
+    expect(radioElement1).toBeEnabled();
+    expect(radioElement2).toBeDisabled();
   });
 
   describe('interactivity', () => {
@@ -148,8 +148,8 @@ describe('<RadioList>', () => {
       const radioElement1 = getByLabelText('item 1') as HTMLElement;
       const radioElement2 = getByLabelText('item 2') as HTMLElement;
 
-      expect(radioElement1).not.toHaveAttribute('checked');
-      expect(radioElement2).not.toHaveAttribute('checked');
+      expect(radioElement1).not.toBeChecked();
+      expect(radioElement2).not.toBeChecked();
     });
 
     it('selects the correct option for the value', () => {
@@ -168,8 +168,8 @@ describe('<RadioList>', () => {
       const radioElement1 = getByLabelText('item 1') as HTMLElement;
       const radioElement2 = getByLabelText('item 2') as HTMLElement;
 
-      expect(radioElement1).toHaveAttribute('checked');
-      expect(radioElement2).not.toHaveAttribute('checked');
+      expect(radioElement1).toBeChecked();
+      expect(radioElement2).not.toBeChecked();
     });
 
     it('calls onChange with the selected value', () => {

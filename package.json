@@ -49,6 +49,8 @@
     "commitlint": "^8.3.5",
     "eslint": "^6.8.0",
     "eslint-plugin-cypress": "^2.10.3",
+    "eslint-plugin-jest-dom": "^2.1.0",
+    "eslint-plugin-testing-library": "^3.1.0",
     "husky": "^4.2.5",
     "lerna": "^3.20.2",
     "prettier": "^1.19.1",
@@ -57,7 +59,11 @@
     "svglint": "1.0.5",
     "typescript": "3.8.3"
   },
-  "browserslist": ["last 2 versions", "Firefox ESR", "not IE < 11"],
+  "browserslist": [
+    "last 2 versions",
+    "Firefox ESR",
+    "not IE < 11"
+  ],
   "engines": {
     "yarn": "^1.15.2"
   },

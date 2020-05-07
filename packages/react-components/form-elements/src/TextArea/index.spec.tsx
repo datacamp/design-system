@@ -141,7 +141,7 @@ describe('<TextArea />', () => {
           value={testValue}
         />,
       );
-      expect(getByRole('textbox')).toHaveAttribute('disabled');
+      expect(getByRole('textbox')).toBeDisabled();
     });
 
     it('sets the id', () => {
@@ -168,7 +168,7 @@ describe('<TextArea />', () => {
           value={testValue}
         />,
       );
-      expect(getByRole('textbox')).toHaveAttribute('disabled');
+      expect(getByRole('textbox')).toBeDisabled();
     });
 
     it('sets the rows attribute', () => {

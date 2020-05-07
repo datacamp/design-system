@@ -77,7 +77,7 @@ describe('<Button />', () => {
 
     const buttonElement = container.firstChild;
 
-    expect(buttonElement).toHaveAttribute('disabled');
+    expect(buttonElement).toBeDisabled();
   });
 
   describe('button size', () => {
@@ -364,7 +364,7 @@ describe('<Button />', () => {
 
       const buttonElement = container.firstChild;
 
-      expect(buttonElement).toHaveAttribute('disabled');
+      expect(buttonElement).toBeDisabled();
     });
 
     it('renders a blue button for the appearance="primary" and intent="neutral', async () => {
