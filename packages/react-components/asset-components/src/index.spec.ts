@@ -6,174 +6,57 @@ describe('index', () => {
       Object {
         "Logos": Object {
           "Datacamp": Object {
-            "Icon": Object {
-              "$$typeof": Symbol(react.forward_ref),
-              "render": [Function],
-            },
-            "Inverted": Object {
-              "$$typeof": Symbol(react.forward_ref),
-              "render": [Function],
-            },
-            "Regular": Object {
-              "$$typeof": Symbol(react.forward_ref),
-              "render": [Function],
-            },
-            "SingleColor": Object {
-              "$$typeof": Symbol(react.forward_ref),
-              "render": [Function],
-            },
+            "Icon": [Function],
+            "Inverted": [Function],
+            "Regular": [Function],
+            "SingleColor": [Function],
           },
           "DatacampB2B": Object {
-            "Inverted": Object {
-              "$$typeof": Symbol(react.forward_ref),
-              "render": [Function],
-            },
-            "Regular": Object {
-              "$$typeof": Symbol(react.forward_ref),
-              "render": [Function],
-            },
-            "SingleColor": Object {
-              "$$typeof": Symbol(react.forward_ref),
-              "render": [Function],
-            },
+            "Inverted": [Function],
+            "Regular": [Function],
+            "SingleColor": [Function],
           },
           "Signal": Object {
-            "Inverted": Object {
-              "$$typeof": Symbol(react.forward_ref),
-              "render": [Function],
-            },
+            "Inverted": [Function],
           },
           "Waffles": Object {
-            "Icon": Object {
-              "$$typeof": Symbol(react.forward_ref),
-              "render": [Function],
-            },
-            "Inverted": Object {
-              "$$typeof": Symbol(react.forward_ref),
-              "render": [Function],
-            },
-            "Regular": Object {
-              "$$typeof": Symbol(react.forward_ref),
-              "render": [Function],
-            },
-            "SingleColor": Object {
-              "$$typeof": Symbol(react.forward_ref),
-              "render": [Function],
-            },
+            "Icon": [Function],
+            "Inverted": [Function],
+            "Regular": [Function],
+            "SingleColor": [Function],
           },
         },
         "TechLogo": [Function],
         "Technologies": Object {
-          "Git": Object {
-            "$$typeof": Symbol(react.forward_ref),
-            "render": [Function],
-          },
-          "Python": Object {
-            "$$typeof": Symbol(react.forward_ref),
-            "render": [Function],
-          },
-          "R": Object {
-            "$$typeof": Symbol(react.forward_ref),
-            "render": [Function],
-          },
-          "Scala": Object {
-            "$$typeof": Symbol(react.forward_ref),
-            "render": [Function],
-          },
-          "Shell": Object {
-            "$$typeof": Symbol(react.forward_ref),
-            "render": [Function],
-          },
-          "Spreadsheet": Object {
-            "$$typeof": Symbol(react.forward_ref),
-            "render": [Function],
-          },
-          "Sql": Object {
-            "$$typeof": Symbol(react.forward_ref),
-            "render": [Function],
-          },
-          "Tableau": Object {
-            "$$typeof": Symbol(react.forward_ref),
-            "render": [Function],
-          },
-          "Theory": Object {
-            "$$typeof": Symbol(react.forward_ref),
-            "render": [Function],
-          },
+          "Git": [Function],
+          "Python": [Function],
+          "R": [Function],
+          "Scala": [Function],
+          "Shell": [Function],
+          "Spreadsheet": [Function],
+          "Sql": [Function],
+          "Tableau": [Function],
+          "Theory": [Function],
         },
         "Topics": Object {
-          "AppliedFinance": Object {
-            "$$typeof": Symbol(react.forward_ref),
-            "render": [Function],
-          },
-          "CaseStudies": Object {
-            "$$typeof": Symbol(react.forward_ref),
-            "render": [Function],
-          },
-          "DataEngineering": Object {
-            "$$typeof": Symbol(react.forward_ref),
-            "render": [Function],
-          },
-          "DataManipulation": Object {
-            "$$typeof": Symbol(react.forward_ref),
-            "render": [Function],
-          },
-          "DataScientist": Object {
-            "$$typeof": Symbol(react.forward_ref),
-            "render": [Function],
-          },
-          "DataVisualization": Object {
-            "$$typeof": Symbol(react.forward_ref),
-            "render": [Function],
-          },
-          "ImportAndCleaningData": Object {
-            "$$typeof": Symbol(react.forward_ref),
-            "render": [Function],
-          },
-          "MachineLearning": Object {
-            "$$typeof": Symbol(react.forward_ref),
-            "render": [Function],
-          },
-          "Management": Object {
-            "$$typeof": Symbol(react.forward_ref),
-            "render": [Function],
-          },
-          "Other": Object {
-            "$$typeof": Symbol(react.forward_ref),
-            "render": [Function],
-          },
-          "ProbabilityAndStatistics": Object {
-            "$$typeof": Symbol(react.forward_ref),
-            "render": [Function],
-          },
-          "Programming": Object {
-            "$$typeof": Symbol(react.forward_ref),
-            "render": [Function],
-          },
-          "PythonProgramming": Object {
-            "$$typeof": Symbol(react.forward_ref),
-            "render": [Function],
-          },
-          "RProgramming": Object {
-            "$$typeof": Symbol(react.forward_ref),
-            "render": [Function],
-          },
-          "Reporting": Object {
-            "$$typeof": Symbol(react.forward_ref),
-            "render": [Function],
-          },
-          "Spreadsheet": Object {
-            "$$typeof": Symbol(react.forward_ref),
-            "render": [Function],
-          },
-          "SqlProgramming": Object {
-            "$$typeof": Symbol(react.forward_ref),
-            "render": [Function],
-          },
-          "TimeSeries": Object {
-            "$$typeof": Symbol(react.forward_ref),
-            "render": [Function],
-          },
+          "AppliedFinance": [Function],
+          "CaseStudies": [Function],
+          "DataEngineering": [Function],
+          "DataManipulation": [Function],
+          "DataScientist": [Function],
+          "DataVisualization": [Function],
+          "ImportAndCleaningData": [Function],
+          "MachineLearning": [Function],
+          "Management": [Function],
+          "Other": [Function],
+          "ProbabilityAndStatistics": [Function],
+          "Programming": [Function],
+          "PythonProgramming": [Function],
+          "RProgramming": [Function],
+          "Reporting": [Function],
+          "Spreadsheet": [Function],
+          "SqlProgramming": [Function],
+          "TimeSeries": [Function],
         },
       }
     `);
