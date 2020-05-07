@@ -1,14 +1,8 @@
 import * as React from 'react';
-interface SVGRProps {
-  svgRef?: React.Ref<SVGSVGElement>;
-}
 
-function SvgGit({
-  svgRef,
-  ...props
-}: React.SVGProps<SVGSVGElement> & SVGRProps) {
+function SvgGit(props: React.SVGProps<SVGSVGElement>) {
   return (
-    <svg width={39} height={39} ref={svgRef} {...props}>
+    <svg width={39} height={39} {...props}>
       <defs>
         <linearGradient
           id="git_svg__b"
@@ -37,7 +31,4 @@ function SvgGit({
   );
 }
 
-const ForwardRef = React.forwardRef((props, ref: React.Ref<SVGSVGElement>) => (
-  <SvgGit svgRef={ref} {...props} />
-));
-export default ForwardRef;
+export default SvgGit;

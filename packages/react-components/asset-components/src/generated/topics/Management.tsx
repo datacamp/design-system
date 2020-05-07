@@ -1,14 +1,8 @@
 import * as React from 'react';
-interface SVGRProps {
-  svgRef?: React.Ref<SVGSVGElement>;
-}
 
-function SvgManagement({
-  svgRef,
-  ...props
-}: React.SVGProps<SVGSVGElement> & SVGRProps) {
+function SvgManagement(props: React.SVGProps<SVGSVGElement>) {
   return (
-    <svg width={192} height={192} ref={svgRef} {...props}>
+    <svg width={192} height={192} {...props}>
       <defs>
         <linearGradient
           id="management_svg__a"
@@ -259,7 +253,4 @@ function SvgManagement({
   );
 }
 
-const ForwardRef = React.forwardRef((props, ref: React.Ref<SVGSVGElement>) => (
-  <SvgManagement svgRef={ref} {...props} />
-));
-export default ForwardRef;
+export default SvgManagement;

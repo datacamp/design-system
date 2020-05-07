@@ -1,14 +1,8 @@
 import * as React from 'react';
-interface SVGRProps {
-  svgRef?: React.Ref<SVGSVGElement>;
-}
 
-function SvgTableau({
-  svgRef,
-  ...props
-}: React.SVGProps<SVGSVGElement> & SVGRProps) {
+function SvgTableau(props: React.SVGProps<SVGSVGElement>) {
   return (
-    <svg width={39} height={39} ref={svgRef} {...props}>
+    <svg width={39} height={39} {...props}>
       <defs>
         <linearGradient
           id="tableau_svg__a"
@@ -33,7 +27,4 @@ function SvgTableau({
   );
 }
 
-const ForwardRef = React.forwardRef((props, ref: React.Ref<SVGSVGElement>) => (
-  <SvgTableau svgRef={ref} {...props} />
-));
-export default ForwardRef;
+export default SvgTableau;

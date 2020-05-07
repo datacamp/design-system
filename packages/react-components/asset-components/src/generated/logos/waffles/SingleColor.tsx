@@ -1,14 +1,8 @@
 import * as React from 'react';
-interface SVGRProps {
-  svgRef?: React.Ref<SVGSVGElement>;
-}
 
-function SvgSingleColor({
-  svgRef,
-  ...props
-}: React.SVGProps<SVGSVGElement> & SVGRProps) {
+function SvgSingleColor(props: React.SVGProps<SVGSVGElement>) {
   return (
-    <svg width={151} height={35} ref={svgRef} {...props}>
+    <svg width={151} height={35} {...props}>
       <defs>
         <path
           id="single-color_svg__a"
@@ -28,7 +22,4 @@ function SvgSingleColor({
   );
 }
 
-const ForwardRef = React.forwardRef((props, ref: React.Ref<SVGSVGElement>) => (
-  <SvgSingleColor svgRef={ref} {...props} />
-));
-export default ForwardRef;
+export default SvgSingleColor;

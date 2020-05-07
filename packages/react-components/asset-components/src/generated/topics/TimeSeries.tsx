@@ -1,14 +1,8 @@
 import * as React from 'react';
-interface SVGRProps {
-  svgRef?: React.Ref<SVGSVGElement>;
-}
 
-function SvgTimeSeries({
-  svgRef,
-  ...props
-}: React.SVGProps<SVGSVGElement> & SVGRProps) {
+function SvgTimeSeries(props: React.SVGProps<SVGSVGElement>) {
   return (
-    <svg width={192} height={192} ref={svgRef} {...props}>
+    <svg width={192} height={192} {...props}>
       <defs>
         <path id="time-series_svg__a" d="M0 0h192v192H0z" />
         <path
@@ -431,7 +425,4 @@ function SvgTimeSeries({
   );
 }
 
-const ForwardRef = React.forwardRef((props, ref: React.Ref<SVGSVGElement>) => (
-  <SvgTimeSeries svgRef={ref} {...props} />
-));
-export default ForwardRef;
+export default SvgTimeSeries;

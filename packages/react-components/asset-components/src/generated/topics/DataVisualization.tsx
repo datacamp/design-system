@@ -1,14 +1,8 @@
 import * as React from 'react';
-interface SVGRProps {
-  svgRef?: React.Ref<SVGSVGElement>;
-}
 
-function SvgDataVisualization({
-  svgRef,
-  ...props
-}: React.SVGProps<SVGSVGElement> & SVGRProps) {
+function SvgDataVisualization(props: React.SVGProps<SVGSVGElement>) {
   return (
-    <svg width={192} height={192} ref={svgRef} {...props}>
+    <svg width={192} height={192} {...props}>
       <defs>
         <linearGradient
           id="data-visualization_svg__a"
@@ -267,7 +261,4 @@ function SvgDataVisualization({
   );
 }
 
-const ForwardRef = React.forwardRef((props, ref: React.Ref<SVGSVGElement>) => (
-  <SvgDataVisualization svgRef={ref} {...props} />
-));
-export default ForwardRef;
+export default SvgDataVisualization;

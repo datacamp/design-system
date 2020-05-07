@@ -1,14 +1,8 @@
 import * as React from 'react';
-interface SVGRProps {
-  svgRef?: React.Ref<SVGSVGElement>;
-}
 
-function SvgMachineLearning({
-  svgRef,
-  ...props
-}: React.SVGProps<SVGSVGElement> & SVGRProps) {
+function SvgMachineLearning(props: React.SVGProps<SVGSVGElement>) {
   return (
-    <svg width={192} height={192} ref={svgRef} {...props}>
+    <svg width={192} height={192} {...props}>
       <defs>
         <linearGradient
           id="machine-learning_svg__e"
@@ -472,7 +466,4 @@ function SvgMachineLearning({
   );
 }
 
-const ForwardRef = React.forwardRef((props, ref: React.Ref<SVGSVGElement>) => (
-  <SvgMachineLearning svgRef={ref} {...props} />
-));
-export default ForwardRef;
+export default SvgMachineLearning;

@@ -1,14 +1,8 @@
 import * as React from 'react';
-interface SVGRProps {
-  svgRef?: React.Ref<SVGSVGElement>;
-}
 
-function SvgPython({
-  svgRef,
-  ...props
-}: React.SVGProps<SVGSVGElement> & SVGRProps) {
+function SvgPython(props: React.SVGProps<SVGSVGElement>) {
   return (
-    <svg width={39} height={39} ref={svgRef} {...props}>
+    <svg width={39} height={39} {...props}>
       <defs>
         <linearGradient
           id="python_svg__a"
@@ -34,7 +28,4 @@ function SvgPython({
   );
 }
 
-const ForwardRef = React.forwardRef((props, ref: React.Ref<SVGSVGElement>) => (
-  <SvgPython svgRef={ref} {...props} />
-));
-export default ForwardRef;
+export default SvgPython;

@@ -1,14 +1,8 @@
 import * as React from 'react';
-interface SVGRProps {
-  svgRef?: React.Ref<SVGSVGElement>;
-}
 
-function SvgPythonProgramming({
-  svgRef,
-  ...props
-}: React.SVGProps<SVGSVGElement> & SVGRProps) {
+function SvgPythonProgramming(props: React.SVGProps<SVGSVGElement>) {
   return (
-    <svg width={192} height={192} ref={svgRef} {...props}>
+    <svg width={192} height={192} {...props}>
       <defs>
         <linearGradient
           id="python-programming_svg__b"
@@ -202,7 +196,4 @@ function SvgPythonProgramming({
   );
 }
 
-const ForwardRef = React.forwardRef((props, ref: React.Ref<SVGSVGElement>) => (
-  <SvgPythonProgramming svgRef={ref} {...props} />
-));
-export default ForwardRef;
+export default SvgPythonProgramming;

@@ -1,14 +1,8 @@
 import * as React from 'react';
-interface SVGRProps {
-  svgRef?: React.Ref<SVGSVGElement>;
-}
 
-function SvgScala({
-  svgRef,
-  ...props
-}: React.SVGProps<SVGSVGElement> & SVGRProps) {
+function SvgScala(props: React.SVGProps<SVGSVGElement>) {
   return (
-    <svg width={39} height={39} ref={svgRef} {...props}>
+    <svg width={39} height={39} {...props}>
       <defs>
         <linearGradient
           id="scala_svg__a"
@@ -34,7 +28,4 @@ function SvgScala({
   );
 }
 
-const ForwardRef = React.forwardRef((props, ref: React.Ref<SVGSVGElement>) => (
-  <SvgScala svgRef={ref} {...props} />
-));
-export default ForwardRef;
+export default SvgScala;

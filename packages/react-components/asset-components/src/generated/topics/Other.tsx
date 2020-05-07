@@ -1,14 +1,8 @@
 import * as React from 'react';
-interface SVGRProps {
-  svgRef?: React.Ref<SVGSVGElement>;
-}
 
-function SvgOther({
-  svgRef,
-  ...props
-}: React.SVGProps<SVGSVGElement> & SVGRProps) {
+function SvgOther(props: React.SVGProps<SVGSVGElement>) {
   return (
-    <svg width={192} height={192} ref={svgRef} {...props}>
+    <svg width={192} height={192} {...props}>
       <defs>
         <linearGradient id="other_svg__a" x1="50%" x2="50%" y1="0%" y2="100%">
           <stop offset="0%" stopColor="#D4E4F1" />
@@ -38,7 +32,4 @@ function SvgOther({
   );
 }
 
-const ForwardRef = React.forwardRef((props, ref: React.Ref<SVGSVGElement>) => (
-  <SvgOther svgRef={ref} {...props} />
-));
-export default ForwardRef;
+export default SvgOther;

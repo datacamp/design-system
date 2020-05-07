@@ -1,14 +1,8 @@
 import * as React from 'react';
-interface SVGRProps {
-  svgRef?: React.Ref<SVGSVGElement>;
-}
 
-function SvgSql({
-  svgRef,
-  ...props
-}: React.SVGProps<SVGSVGElement> & SVGRProps) {
+function SvgSql(props: React.SVGProps<SVGSVGElement>) {
   return (
-    <svg width={39} height={39} ref={svgRef} {...props}>
+    <svg width={39} height={39} {...props}>
       <defs>
         <linearGradient id="sql_svg__b" x1="50%" x2="50%" y1="0%" y2="100%">
           <stop offset="0%" stopColor="#B8BCF9" />
@@ -32,7 +26,4 @@ function SvgSql({
   );
 }
 
-const ForwardRef = React.forwardRef((props, ref: React.Ref<SVGSVGElement>) => (
-  <SvgSql svgRef={ref} {...props} />
-));
-export default ForwardRef;
+export default SvgSql;

@@ -1,14 +1,8 @@
 import * as React from 'react';
-interface SVGRProps {
-  svgRef?: React.Ref<SVGSVGElement>;
-}
 
-function SvgDataScientist({
-  svgRef,
-  ...props
-}: React.SVGProps<SVGSVGElement> & SVGRProps) {
+function SvgDataScientist(props: React.SVGProps<SVGSVGElement>) {
   return (
-    <svg width={192} height={192} ref={svgRef} {...props}>
+    <svg width={192} height={192} {...props}>
       <defs>
         <path id="data-scientist_svg__a" d="M0 0h192v192H0z" />
         <path
@@ -256,7 +250,4 @@ function SvgDataScientist({
   );
 }
 
-const ForwardRef = React.forwardRef((props, ref: React.Ref<SVGSVGElement>) => (
-  <SvgDataScientist svgRef={ref} {...props} />
-));
-export default ForwardRef;
+export default SvgDataScientist;

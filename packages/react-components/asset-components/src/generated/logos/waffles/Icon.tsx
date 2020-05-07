@@ -1,14 +1,8 @@
 import * as React from 'react';
-interface SVGRProps {
-  svgRef?: React.Ref<SVGSVGElement>;
-}
 
-function SvgIcon({
-  svgRef,
-  ...props
-}: React.SVGProps<SVGSVGElement> & SVGRProps) {
+function SvgIcon(props: React.SVGProps<SVGSVGElement>) {
   return (
-    <svg width={34} height={34} ref={svgRef} {...props}>
+    <svg width={34} height={34} {...props}>
       <g transform="translate(-8 -8)" fill="none">
         <circle cx={25} cy={25} r={17} fill="#FFF" />
         <path
@@ -20,7 +14,4 @@ function SvgIcon({
   );
 }
 
-const ForwardRef = React.forwardRef((props, ref: React.Ref<SVGSVGElement>) => (
-  <SvgIcon svgRef={ref} {...props} />
-));
-export default ForwardRef;
+export default SvgIcon;

@@ -1,14 +1,8 @@
 import * as React from 'react';
-interface SVGRProps {
-  svgRef?: React.Ref<SVGSVGElement>;
-}
 
-function SvgInverted({
-  svgRef,
-  ...props
-}: React.SVGProps<SVGSVGElement> & SVGRProps) {
+function SvgInverted(props: React.SVGProps<SVGSVGElement>) {
   return (
-    <svg width={169} height={41} ref={svgRef} {...props}>
+    <svg width={169} height={41} {...props}>
       <defs>
         <path
           id="inverted_svg__a"
@@ -42,7 +36,4 @@ function SvgInverted({
   );
 }
 
-const ForwardRef = React.forwardRef((props, ref: React.Ref<SVGSVGElement>) => (
-  <SvgInverted svgRef={ref} {...props} />
-));
-export default ForwardRef;
+export default SvgInverted;

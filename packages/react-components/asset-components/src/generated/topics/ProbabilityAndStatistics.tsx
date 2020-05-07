@@ -1,14 +1,8 @@
 import * as React from 'react';
-interface SVGRProps {
-  svgRef?: React.Ref<SVGSVGElement>;
-}
 
-function SvgProbabilityAndStatistics({
-  svgRef,
-  ...props
-}: React.SVGProps<SVGSVGElement> & SVGRProps) {
+function SvgProbabilityAndStatistics(props: React.SVGProps<SVGSVGElement>) {
   return (
-    <svg width={192} height={192} ref={svgRef} {...props}>
+    <svg width={192} height={192} {...props}>
       <defs>
         <path
           id="probability-and-statistics_svg__b"
@@ -301,7 +295,4 @@ function SvgProbabilityAndStatistics({
   );
 }
 
-const ForwardRef = React.forwardRef((props, ref: React.Ref<SVGSVGElement>) => (
-  <SvgProbabilityAndStatistics svgRef={ref} {...props} />
-));
-export default ForwardRef;
+export default SvgProbabilityAndStatistics;

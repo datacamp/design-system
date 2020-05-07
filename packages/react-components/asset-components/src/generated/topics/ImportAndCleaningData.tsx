@@ -1,14 +1,8 @@
 import * as React from 'react';
-interface SVGRProps {
-  svgRef?: React.Ref<SVGSVGElement>;
-}
 
-function SvgImportAndCleaningData({
-  svgRef,
-  ...props
-}: React.SVGProps<SVGSVGElement> & SVGRProps) {
+function SvgImportAndCleaningData(props: React.SVGProps<SVGSVGElement>) {
   return (
-    <svg width={192} height={192} ref={svgRef} {...props}>
+    <svg width={192} height={192} {...props}>
       <defs>
         <path id="import-and-cleaning-data_svg__a" d="M0 0h192v192H0z" />
         <path
@@ -271,7 +265,4 @@ function SvgImportAndCleaningData({
   );
 }
 
-const ForwardRef = React.forwardRef((props, ref: React.Ref<SVGSVGElement>) => (
-  <SvgImportAndCleaningData svgRef={ref} {...props} />
-));
-export default ForwardRef;
+export default SvgImportAndCleaningData;
