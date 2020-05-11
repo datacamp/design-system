@@ -50,7 +50,7 @@
     "jest": "25.2.4",
     "jest-emotion": "10.0.32",
     "react": "16.8.6",
-    "react-docgen": "5.2.1",
+    "react-docgen": "5.3.0",
     "react-dom": "16.8.6"
   },
   "dependencies": {
