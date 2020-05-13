@@ -39,7 +39,7 @@
     "@datacamp/waffles-babel-preset": "^1.4.6",
     "@datacamp/waffles-tsconfig": "^1.1.9",
     "@stryker-mutator/core": "^3.0.2",
-    "@stryker-mutator/html-reporter": "^2.5.0",
+    "@stryker-mutator/html-reporter": "^3.1.0",
     "@stryker-mutator/typescript": "^3.1.0",
     "@testing-library/jest-dom": "5.1.1",
     "@testing-library/react": "9.4.1",
