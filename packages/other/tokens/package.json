@@ -20,7 +20,7 @@
     "deep-cleaner": "1.2.1",
     "jest": "^26.0.1",
     "lodash": "^4.17.13",
-    "nodemon": "^2.0.2",
+    "nodemon": "^2.0.4",
     "omit-deep-lodash": "^1.1.4",
     "style-dictionary": "2.10.0",
     "tinycolor2": "^1.4.1"
