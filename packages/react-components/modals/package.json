@@ -47,7 +47,7 @@
     "@types/lodash": "4.14.149",
     "@types/tinycolor2": "1.4.2",
     "babel-jest": "25.1.0",
-    "jest": "25.2.4",
+    "jest": "26.0.1",
     "jest-emotion": "10.0.32",
     "react": "16.8.6",
     "react-docgen": "5.3.0",
