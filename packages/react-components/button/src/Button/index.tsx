@@ -160,6 +160,7 @@ const InternalButton = (
   useEffect(() => {
     if (loading || disabled) {
       setHasHover(false);
+      setHasFocus(false);
     }
   }, [loading, disabled]);
 
