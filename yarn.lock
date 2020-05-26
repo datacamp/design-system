@@ -4110,10 +4110,10 @@
     "@types/source-list-map" "*"
     source-map "^0.6.1"
 
-"@types/webpack@^4.41.6":
-  version "4.41.7"
-  resolved "https://registry.yarnpkg.com/@types/webpack/-/webpack-4.41.7.tgz#22be27dbd4362b01c3954ca9b021dbc9328d9511"
-  integrity sha512-OQG9viYwO0V1NaNV7d0n79V+n6mjOV30CwgFPIfTzwmk8DHbt+C4f2aBGdCYbo3yFyYD6sjXfqqOjwkl1j+ulA==
+"@types/webpack@4.41.12":
+  version "4.41.12"
+  resolved "https://registry.yarnpkg.com/@types/webpack/-/webpack-4.41.12.tgz#0386ee2a2814368e2f2397abb036c0bf173ff6c3"
+  integrity sha512-BpCtM4NnBen6W+KEhrL9jKuZCXVtiH6+0b6cxdvNt2EwU949Al334PjQSl2BeAyvAX9mgoNNG21wvjP3xZJJ5w==
   dependencies:
     "@types/anymatch" "*"
     "@types/node" "*"
@@ -18137,13 +18137,13 @@ remove-bom-stream@^1.2.0:
     safe-buffer "^5.1.0"
     through2 "^2.0.3"
 
-remove-files-webpack-plugin@1.4.0:
-  version "1.4.0"
-  resolved "https://registry.yarnpkg.com/remove-files-webpack-plugin/-/remove-files-webpack-plugin-1.4.0.tgz#f216fd04b2d3f3dee464e3362cc88fa7eb2822c2"
-  integrity sha512-qlHn4EHNjWi6LiNV6aWCXROKjQg28sF/VxJ2FK+p5pPUQyLIBGlBAs/TUMxdVeToHSxq2RuA2XGgxcaDeTRnUg==
+remove-files-webpack-plugin@1.4.2:
+  version "1.4.2"
+  resolved "https://registry.yarnpkg.com/remove-files-webpack-plugin/-/remove-files-webpack-plugin-1.4.2.tgz#6fa22fb7797e08f92fa2efecc3d10087c696e2f2"
+  integrity sha512-oRuzmlSiqSYX724sufzuJUVFmELfWo8Y8kWNCATzr917ybpGkp4CxhbNrFsvhQBsrzvfaIK+lHvYpjcrG7fAdw==
   dependencies:
-    "@types/webpack" "^4.41.6"
-    trash "^6.1.1"
+    "@types/webpack" "4.41.12"
+    trash "6.1.1"
 
 remove-trailing-separator@^1.0.1, remove-trailing-separator@^1.1.0:
   version "1.1.0"
@@ -20338,7 +20338,7 @@ tr46@^2.0.2:
   dependencies:
     punycode "^2.1.1"
 
-trash@^6.1.1:
+trash@6.1.1:
   version "6.1.1"
   resolved "https://registry.yarnpkg.com/trash/-/trash-6.1.1.tgz#8fb863421b31f32571f2650b53534934d5e63025"
   integrity sha512-4i56lCmz2RG6WZN018hf4L75L5HboaFuKkHx3wDG/ihevI99e0OgFyl8w6G4ioqBm62V4EJqCy5xw3vQSNXU8A==
