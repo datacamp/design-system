@@ -1,6 +1,6 @@
 {
   "name": "@datacamp/waffles-storybook",
-  "version": "1.41.4-beta.2",
+  "version": "1.41.4-beta.3",
   "main": "index.js",
   "license": "NONE",
   "private": true,
@@ -39,7 +39,7 @@
   "devDependencies": {
     "@babel/core": "7.9.6",
     "@datacamp/waffles-babel-preset": "^1.4.8",
-    "@datacamp/waffles-cypress-axe-config": "^1.2.0-beta.0",
+    "@datacamp/waffles-cypress-axe-config": "^1.2.0-beta.1",
     "@percy/storybook": "3.3.0",
     "@storybook/addon-a11y": "5.3.18",
     "babel-loader": "8.1.0",
