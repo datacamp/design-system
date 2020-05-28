@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.1.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-assets@1.0.3...@datacamp/waffles-assets@1.1.0) (2020-05-28)
+
+
+### Features
+
+* add Power BI icon ([44f0e66](https://github.com/datacamp/design-system/commit/44f0e66))
+
+
+
+
+
 ## [1.0.3](https://github.com/datacamp/design-system/compare/@datacamp/waffles-assets@1.0.2...@datacamp/waffles-assets@1.0.3) (2020-04-27)
 
 
