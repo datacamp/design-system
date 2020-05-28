@@ -1,6 +1,6 @@
 {
   "name": "@datacamp/waffles-text",
-  "version": "3.0.6",
+  "version": "3.0.7-beta.0",
   "main": "lib/index.js",
   "module": "es/index.js",
   "types": "types/index.d.ts",
@@ -50,7 +50,7 @@
   "dependencies": {
     "@babel/runtime": "^7.9.2",
     "@datacamp/waffles-tokens": "^0.6.11",
-    "@datacamp/waffles-utils": "^2.0.8",
+    "@datacamp/waffles-utils": "^2.0.9-beta.0",
     "airbnb-prop-types": "^2.15.0",
     "lodash": "^4.17.13",
     "prop-types": "^15.7.2",
