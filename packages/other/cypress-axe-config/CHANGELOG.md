@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.1-beta.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-cypress-axe-config@1.1.0...@datacamp/waffles-cypress-axe-config@1.1.1-beta.0) (2020-05-28)
+
+
+### Bug Fixes
+
+* readme typo ([1843da6](https://github.com/datacamp/design-system/commit/1843da6))
+
+
+
+
+
 # 1.1.0 (2020-04-24)
 
 
