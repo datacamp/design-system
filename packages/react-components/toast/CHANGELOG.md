@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.15](https://github.com/datacamp/design-system/compare/@datacamp/waffles-toast@1.0.14...@datacamp/waffles-toast@1.0.15) (2020-05-28)
+
+**Note:** Version bump only for package @datacamp/waffles-toast
+
+
+
+
+
 ## [1.0.14](https://github.com/datacamp/design-system/compare/@datacamp/waffles-toast@1.0.13...@datacamp/waffles-toast@1.0.14) (2020-05-28)
 
 **Note:** Version bump only for package @datacamp/waffles-toast
