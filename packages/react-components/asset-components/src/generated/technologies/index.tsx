@@ -1,4 +1,5 @@
 export { default as Git } from './Git'
+export { default as PowerBi } from './PowerBi'
 export { default as Python } from './Python'
 export { default as R } from './R'
 export { default as Scala } from './Scala'
