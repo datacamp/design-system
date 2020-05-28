@@ -2,6 +2,7 @@ import React from 'react';
 
 import {
   Git,
+  PowerBi,
   Python,
   R,
   Scala,
@@ -14,6 +15,9 @@ import {
 
 export const logoComponents = {
   Git,
+  'Power BI': PowerBi,
+  // eslint-disable-next-line @typescript-eslint/camelcase
+  power_bi: PowerBi,
   python: Python,
   R,
   Scala,
