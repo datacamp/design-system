@@ -36,7 +36,7 @@
     "type-check": "lerna run type-check",
     "build": "lerna run build",
     "publish-packages": "lerna publish --conventional-commits --create-release github",
-    "beta-publish-packages": "lerna publish --conventional-commits --create-release github --conventional-prerelease --preid beta --pre-dist-tag beta",
+    "beta-publish-packages": "lerna publish --conventional-commits --create-release github --conventional-prerelease --preid beta --pre-dist-tag beta --include-merged-tags --allow-branch beta",
     "commitlint:ci": "commitlint --config commitlint.config.js --from \"origin/master\"",
     "stryker": "lerna run stryker --concurrency=1 --stream"
   },
