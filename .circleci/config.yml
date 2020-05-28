@@ -279,4 +279,4 @@ workflows:
             branches:
               ignore: /.*/
             tags:
-              only: /.*/
+              ignore: /beta/
