@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [5.1.9-beta.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-button@5.1.8...@datacamp/waffles-button@5.1.9-beta.0) (2020-05-29)
+
+**Note:** Version bump only for package @datacamp/waffles-button
+
+
+
+
+
 ## [5.1.8](https://github.com/datacamp/design-system/compare/@datacamp/waffles-button@5.1.7...@datacamp/waffles-button@5.1.8) (2020-05-29)
 
 **Note:** Version bump only for package @datacamp/waffles-button
