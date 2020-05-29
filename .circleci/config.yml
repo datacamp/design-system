@@ -128,6 +128,31 @@ jobs:
             export AWS_ACCESS_KEY_ID=$PROD_AWS_ACCESS_KEY_ID
             export AWS_SECRET_ACCESS_KEY=$PROD_AWS_SECRET_ACCESS_KEY
             aws cloudfront create-invalidation --distribution-id ${CLOUDFRONT_ID} --paths "/index.html"
+  deploy-beta-site:
+    docker:
+      - image: ${STAGING_ECR_URL}/docker-deploy
+        aws_auth:
+          aws_access_key_id: $STAGING_AWS_ACCESS_KEY_ID
+          aws_secret_access_key: $STAGING_AWS_SECRET_ACCESS_KEY
+    environment:
+      BUCKET: waffles-beta
+      CLOUDFRONT_ID: E1CXE0Y8K4D1S7
+    steps:
+      - attach_workspace:
+          at: "."
+      - run:
+          name: S3 Sync
+          command: |
+            export AWS_ACCESS_KEY_ID=${PROD_AWS_ACCESS_KEY_ID}
+            export AWS_SECRET_ACCESS_KEY=${PROD_AWS_SECRET_ACCESS_KEY}
+            aws s3 sync --delete --acl public-read packages/docs/catalog-doc-site/catalog/build s3://${BUCKET}.datacamp.com/live
+            #aws s3 sync --acl public-read packages/docs/catalog-doc-site/catalog/build/static/media s3://${BUCKET}.datacamp.com/live/media
+      - run:
+          name: Invalidate Cache
+          command: |
+            export AWS_ACCESS_KEY_ID=$PROD_AWS_ACCESS_KEY_ID
+            export AWS_SECRET_ACCESS_KEY=$PROD_AWS_SECRET_ACCESS_KEY
+            aws cloudfront create-invalidation --distribution-id ${CLOUDFRONT_ID} --paths "/index.html"
   mutation-test:
     resource_class: xlarge
     docker:
@@ -280,3 +305,13 @@ workflows:
               ignore: /.*/
             tags:
               ignore: /.*beta.*/
+      - deploy-beta-site:
+          requires:
+            - cypress-test-storybook
+            - test
+          context: org-global
+          filters:
+            branches:
+              ignore: /.*/
+            tags:
+              only: /.*beta.*/
