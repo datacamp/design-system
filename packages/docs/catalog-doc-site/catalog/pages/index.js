@@ -19,10 +19,13 @@ const arrowRightIconSize = 12;
 export default () => {
   return (
     <main>
-      <header className="dc-u-bgg-chambray-cloudburst dc-u-pt-96 dc-u-pb-128">
+      <header
+        className="dc-u-pt-96 dc-u-pb-128"
+        css={{ backgroundColor: 'red' }}
+      >
         <div style={ContainerStyle}>
           <h1 className="dc-u-color-white dc-u-mt-0">
-            Waffles is DataCamp&apos;s Design System
+            This is the BETA site, it looks great
           </h1>
           <p className="dc-u-color-white dc-u-mb-64 dc-u-maxw-640">
             Waffles provides all the tools you need to build wonderful
