@@ -1,6 +1,6 @@
 {
   "name": "@datacamp/waffles-card",
-  "version": "3.0.10",
+  "version": "3.0.11",
   "main": "lib/index.js",
   "module": "es/index.js",
   "types": "types/index.d.ts",

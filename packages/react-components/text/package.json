@@ -1,6 +1,6 @@
 {
   "name": "@datacamp/waffles-text",
-  "version": "3.0.6",
+  "version": "3.0.7",
   "main": "lib/index.js",
   "module": "es/index.js",
   "types": "types/index.d.ts",
