@@ -18,14 +18,14 @@ const arrowRightIconSize = 12;
 
 export default () => {
   return (
-    <main>
+    <main css={{ backgroundColor: 'green' }}>
       <header
         className="dc-u-pt-96 dc-u-pb-128"
         css={{ backgroundColor: 'red' }}
       >
         <div style={ContainerStyle}>
           <h1 className="dc-u-color-white dc-u-mt-0">
-            This is the BETA site, it looks great
+            This is the BETA waffles site. I am not a designer
           </h1>
           <p className="dc-u-color-white dc-u-mb-64 dc-u-maxw-640">
             Waffles provides all the tools you need to build wonderful
