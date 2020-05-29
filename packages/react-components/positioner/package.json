@@ -1,6 +1,6 @@
 {
   "name": "@datacamp/waffles-positioner",
-  "version": "1.0.12-beta.0",
+  "version": "1.0.12",
   "description": "The Waffles Positioner",
   "keywords": [
     "button"
@@ -38,7 +38,7 @@
     "@emotion/core": "^10.0.17",
     "@stryker-mutator/core": "^3.0.2",
     "@stryker-mutator/html-reporter": "^3.1.0",
-    "@stryker-mutator/typescript": "^3.1.0",
+    "@stryker-mutator/typescript": "^3.2.4",
     "@testing-library/jest-dom": "5.1.1",
     "@testing-library/react": "9.4.1",
     "babel-jest": "25.1.0",

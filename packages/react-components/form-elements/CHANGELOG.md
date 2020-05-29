@@ -3,7 +3,7 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-## [2.9.7-beta.0](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/form-elements/compare/@datacamp/waffles-form-elements@2.9.6...@datacamp/waffles-form-elements@2.9.7-beta.0) (2020-05-28)
+## [2.9.7](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/form-elements/compare/@datacamp/waffles-form-elements@2.9.6...@datacamp/waffles-form-elements@2.9.7) (2020-05-29)
 
 **Note:** Version bump only for package @datacamp/waffles-form-elements
 
@@ -326,8 +326,8 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### BREAKING CHANGES
 
-* @emotion/core is now a peerDependency rather than a 
-dependency. This is to ensure that only one version is used. This 
+* @emotion/core is now a peerDependency rather than a
+dependency. This is to ensure that only one version is used. This
 package now requires @emotion/core to be installed alongside it.
 
 

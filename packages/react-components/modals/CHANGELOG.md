@@ -3,7 +3,7 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-## [5.1.7-beta.0](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/modals/compare/@datacamp/waffles-modals@5.1.6...@datacamp/waffles-modals@5.1.7-beta.0) (2020-05-28)
+## [5.1.7](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/modals/compare/@datacamp/waffles-modals@5.1.6...@datacamp/waffles-modals@5.1.7) (2020-05-29)
 
 **Note:** Version bump only for package @datacamp/waffles-modals
 
@@ -96,13 +96,13 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### BREAKING CHANGES
 
-* The way the width of the Dialog component has changed. 
-Width is no longer an optional string, and instead is a mandatory number 
-used to set the width in pixels. Check the documentation to what the 
-behaviour of this prop is. The Dialog component will now shrink to fit 
-the screen if necessary. This could affect the layout or positioning 
-inside the Dialog, however if the included Dialog.Header, Dialog.Body, 
-and Dialog.Footer components are already being used, the impact should 
+* The way the width of the Dialog component has changed.
+Width is no longer an optional string, and instead is a mandatory number
+used to set the width in pixels. Check the documentation to what the
+behaviour of this prop is. The Dialog component will now shrink to fit
+the screen if necessary. This could affect the layout or positioning
+inside the Dialog, however if the included Dialog.Header, Dialog.Body,
+and Dialog.Footer components are already being used, the impact should
 be minimal.
 
 
@@ -330,8 +330,8 @@ be minimal.
 
 ### BREAKING CHANGES
 
-* @emotion/core is now a peerDependency rather than a 
-dependency. This is to ensure that only one version is used. This 
+* @emotion/core is now a peerDependency rather than a
+dependency. This is to ensure that only one version is used. This
 package now requires @emotion/core to be installed alongside it.
 
 

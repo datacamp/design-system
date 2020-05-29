@@ -3,7 +3,7 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-## [3.0.7-beta.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-text@3.0.6...@datacamp/waffles-text@3.0.7-beta.0) (2020-05-28)
+## [3.0.7](https://github.com/datacamp/design-system/compare/@datacamp/waffles-text@3.0.6...@datacamp/waffles-text@3.0.7) (2020-05-29)
 
 **Note:** Version bump only for package @datacamp/waffles-text
 
@@ -163,8 +163,8 @@ than the browser default
 
 ### BREAKING CHANGES
 
-* Text components will no longer load the font faces 
-automatically, the GlobalFontFaces component should be included on the 
+* Text components will no longer load the font faces
+automatically, the GlobalFontFaces component should be included on the
 page if your application is not using the provided scss files.
 
 
@@ -287,8 +287,8 @@ page if your application is not using the provided scss files.
 
 ### BREAKING CHANGES
 
-* @emotion/core is now a peerDependency rather than a 
-dependency. This is to ensure that only one version is used. This 
+* @emotion/core is now a peerDependency rather than a
+dependency. This is to ensure that only one version is used. This
 package now requires @emotion/core to be installed alongside it.
 
 

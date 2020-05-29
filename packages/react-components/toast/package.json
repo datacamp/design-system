@@ -1,6 +1,6 @@
 {
   "name": "@datacamp/waffles-toast",
-  "version": "1.0.16-beta.0",
+  "version": "1.0.16",
   "description": "The Waffles Toast",
   "keywords": [
     "toast"
@@ -39,7 +39,7 @@
     "@emotion/core": "10.0.17",
     "@stryker-mutator/core": "3.0.2",
     "@stryker-mutator/html-reporter": "3.1.0",
-    "@stryker-mutator/typescript": "3.1.0",
+    "@stryker-mutator/typescript": "3.2.4",
     "@testing-library/jest-dom": "5.1.1",
     "@testing-library/react": "9.4.1",
     "@types/airbnb-prop-types": "2.13.1",
@@ -52,7 +52,7 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.9.2",
-    "@datacamp/waffles-text": "^3.0.7-beta.0",
+    "@datacamp/waffles-text": "^3.0.7",
     "@datacamp/waffles-tokens": "^0.6.11",
     "prop-types": "^15.7.2",
     "react-toastify": "^5.5.0"
