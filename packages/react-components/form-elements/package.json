@@ -42,7 +42,7 @@
     "@stryker-mutator/html-reporter": "^3.1.0",
     "@stryker-mutator/typescript": "^3.2.4",
     "@testing-library/jest-dom": "5.1.1",
-    "@testing-library/react": "9.4.1",
+    "@testing-library/react": "10.0.5",
     "@testing-library/user-event": "10.3.1",
     "@types/lodash": "4.14.153",
     "babel-jest": "25.1.0",
