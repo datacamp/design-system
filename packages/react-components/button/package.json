@@ -51,7 +51,7 @@
     "react": "16.8.6",
     "react-docgen": "5.3.0",
     "react-dom": "16.8.6",
-    "react-error-boundary": "^1.2.5"
+    "react-error-boundary": "^2.2.1"
   },
   "dependencies": {
     "@babel/runtime": "^7.9.2",
