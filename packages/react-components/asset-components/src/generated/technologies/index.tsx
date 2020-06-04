@@ -1,3 +1,4 @@
+export { default as Excel } from './Excel'
 export { default as Git } from './Git'
 export { default as PowerBi } from './PowerBi'
 export { default as Python } from './Python'
