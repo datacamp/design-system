@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.0.10-beta.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-utils@2.0.9...@datacamp/waffles-utils@2.0.10-beta.0) (2020-06-05)
+
+**Note:** Version bump only for package @datacamp/waffles-utils
+
+
+
+
+
 ## [2.0.9](https://github.com/datacamp/design-system/compare/@datacamp/waffles-utils@2.0.8...@datacamp/waffles-utils@2.0.9) (2020-06-05)
 
 **Note:** Version bump only for package @datacamp/waffles-utils
