@@ -1,12 +1,12 @@
 {
   "name": "@datacamp/waffles-tsconfig",
-  "version": "1.1.9",
+  "version": "1.1.10",
   "main": "tsconfig.json",
   "homepage": "https://github.com/datacamp-engineering/design-system/tree/master/packages/tools/tsconfig/README.md",
   "license": "UNLICENSED",
   "private": true,
   "devDependencies": {
-    "typescript": "3.8.3"
+    "typescript": "3.9.3"
   },
   "peerDependencies": {
     "typescript": "^3.4.3"

@@ -3,9 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-## [1.2.2-beta.0](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/card/compare/@datacamp/waffles-asset-components@1.2.1...@datacamp/waffles-asset-components@1.2.2-beta.0) (2020-05-29)
+# [1.3.0](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/card/compare/@datacamp/waffles-asset-components@1.2.1...@datacamp/waffles-asset-components@1.3.0) (2020-06-05)
 
-**Note:** Version bump only for package @datacamp/waffles-asset-components
+
+### Features
+
+* add excel tech component ([66117a8](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/card/commit/66117a8))
+* add excel to TechLogo component ([f9dc742](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/card/commit/f9dc742))
 
 
 

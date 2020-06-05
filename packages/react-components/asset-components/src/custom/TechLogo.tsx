@@ -1,6 +1,7 @@
 import React from 'react';
 
 import {
+  Excel,
   Git,
   PowerBi,
   Python,
@@ -14,6 +15,8 @@ import {
 } from '../generated/technologies';
 
 export const logoComponents = {
+  Excel,
+  excel: Excel,
   Git,
   'Power BI': PowerBi,
   // eslint-disable-next-line @typescript-eslint/camelcase

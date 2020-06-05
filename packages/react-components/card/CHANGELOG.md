@@ -3,7 +3,7 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-## [3.0.12-beta.0](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/card/compare/@datacamp/waffles-card@3.0.11...@datacamp/waffles-card@3.0.12-beta.0) (2020-05-29)
+## [3.0.12](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/card/compare/@datacamp/waffles-card@3.0.11...@datacamp/waffles-card@3.0.12) (2020-06-05)
 
 **Note:** Version bump only for package @datacamp/waffles-card
 
@@ -116,8 +116,8 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### BREAKING CHANGES
 
-* This version will add a border to all cards no matter 
-their elevation level. This allows them to be placed on white 
+* This version will add a border to all cards no matter
+their elevation level. This allows them to be placed on white
 backgrounds
 
 
@@ -252,8 +252,8 @@ backgrounds
 
 ### BREAKING CHANGES
 
-* @emotion/core is now a peerDependency rather than a 
-dependency. This is to ensure that only one version is used. This 
+* @emotion/core is now a peerDependency rather than a
+dependency. This is to ensure that only one version is used. This
 package now requires @emotion/core to be installed alongside it.
 
 
@@ -338,7 +338,7 @@ package now requires @emotion/core to be installed alongside it.
 
 ### BREAKING CHANGES
 
-* not a real breaking change, just releasing as v1 of 
+* not a real breaking change, just releasing as v1 of
 component
 
 

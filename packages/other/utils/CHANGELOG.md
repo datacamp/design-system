@@ -3,7 +3,7 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-## [2.0.9-beta.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-utils@2.0.8...@datacamp/waffles-utils@2.0.9-beta.0) (2020-05-28)
+## [2.0.9](https://github.com/datacamp/design-system/compare/@datacamp/waffles-utils@2.0.8...@datacamp/waffles-utils@2.0.9) (2020-06-05)
 
 **Note:** Version bump only for package @datacamp/waffles-utils
 
@@ -91,12 +91,12 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### BREAKING CHANGES
 
-* The ssrSafeFirstChildSelector actually never worked 
-correctly. There isn't a fix for this so it has been removed. It has 
-been replaced by the ssrSafeNotFirstChildSelector which does the 
-opposite. It will apply if the element is not the first child of its 
-parent. It can be used in the same situation as the previous 
-implementation by switching the around the default style and the 
+* The ssrSafeFirstChildSelector actually never worked
+correctly. There isn't a fix for this so it has been removed. It has
+been replaced by the ssrSafeNotFirstChildSelector which does the
+opposite. It will apply if the element is not the first child of its
+parent. It can be used in the same situation as the previous
+implementation by switching the around the default style and the
 override since they now apply to the other set of elements.
 
 

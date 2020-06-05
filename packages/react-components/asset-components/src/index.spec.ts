@@ -28,6 +28,7 @@ describe('index', () => {
         },
         "TechLogo": [Function],
         "Technologies": Object {
+          "Excel": [Function],
           "Git": [Function],
           "PowerBi": [Function],
           "Python": [Function],
