@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.2.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-assets@1.1.0...@datacamp/waffles-assets@1.2.0) (2020-06-05)
+
+
+### Features
+
+* add excel to technologies ([2b80f7c](https://github.com/datacamp/design-system/commit/2b80f7c))
+
+
+
+
+
 # [1.1.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-assets@1.0.3...@datacamp/waffles-assets@1.1.0) (2020-05-28)
 
 
