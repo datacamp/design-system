@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [3.0.0-beta.0](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/markdown/compare/@datacamp/waffles-markdown@2.0.9-beta.0...@datacamp/waffles-markdown@3.0.0-beta.0) (2020-06-08)
+
+
+### Features
+
+* change sans-serif font ([6f2d3cd](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/markdown/commit/6f2d3cd))
+
+
+### BREAKING CHANGES
+
+* The sans-serif font has changed from Lato to Studio-Feixen-Sans-Variable
+
+
+
+
+
 ## [2.0.9-beta.0](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/markdown/compare/@datacamp/waffles-markdown@2.0.8...@datacamp/waffles-markdown@2.0.9-beta.0) (2020-06-05)
 
 **Note:** Version bump only for package @datacamp/waffles-markdown

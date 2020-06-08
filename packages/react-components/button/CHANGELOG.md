@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [6.0.0-beta.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-button@5.1.10-beta.0...@datacamp/waffles-button@6.0.0-beta.0) (2020-06-08)
+
+
+### Features
+
+* change sans-serif font ([6f2d3cd](https://github.com/datacamp/design-system/commit/6f2d3cd))
+
+
+### BREAKING CHANGES
+
+* The sans-serif font has changed from Lato to Studio-Feixen-Sans-Variable
+
+
+
+
+
 ## [5.1.10-beta.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-button@5.1.9...@datacamp/waffles-button@5.1.10-beta.0) (2020-06-05)
 
 **Note:** Version bump only for package @datacamp/waffles-button

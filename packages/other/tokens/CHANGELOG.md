@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.0.0-beta.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-tokens@0.6.11...@datacamp/waffles-tokens@1.0.0-beta.0) (2020-06-08)
+
+
+### Features
+
+* change sans-serif font ([6f2d3cd](https://github.com/datacamp/design-system/commit/6f2d3cd))
+
+
+### BREAKING CHANGES
+
+* The sans-serif font has changed from Lato to Studio-Feixen-Sans-Variable
+
+
+
+
+
 ## [0.6.11](https://github.com/datacamp/design-system/compare/@datacamp/waffles-tokens@0.6.10...@datacamp/waffles-tokens@0.6.11) (2020-05-20)
 
 **Note:** Version bump only for package @datacamp/waffles-tokens

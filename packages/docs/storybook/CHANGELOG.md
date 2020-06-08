@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0-beta.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-storybook@1.41.8-beta.0...@datacamp/waffles-storybook@2.0.0-beta.0) (2020-06-08)
+
+
+### Features
+
+* change sans-serif font ([6f2d3cd](https://github.com/datacamp/design-system/commit/6f2d3cd))
+
+
+### BREAKING CHANGES
+
+* The sans-serif font has changed from Lato to Studio-Feixen-Sans-Variable
+
+
+
+
+
 ## [1.41.8-beta.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-storybook@1.41.7...@datacamp/waffles-storybook@1.41.8-beta.0) (2020-06-05)
 
 **Note:** Version bump only for package @datacamp/waffles-storybook
