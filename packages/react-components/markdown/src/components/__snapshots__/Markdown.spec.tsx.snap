@@ -5,7 +5,7 @@ exports[`<Markdown /> renders 1`] = `
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   color: rgb(61,66,81);
   font-weight: 700;
@@ -25,7 +25,7 @@ exports[`<Markdown /> renders 1`] = `
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   color: rgb(61,66,81);
   font-weight: 700;
@@ -45,7 +45,7 @@ exports[`<Markdown /> renders 1`] = `
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   color: rgb(61,66,81);
   font-weight: 700;
@@ -65,7 +65,7 @@ exports[`<Markdown /> renders 1`] = `
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   color: rgb(61,66,81);
   font-weight: 700;
@@ -85,7 +85,7 @@ exports[`<Markdown /> renders 1`] = `
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   color: rgb(61,66,81);
   font-weight: 700;
@@ -105,7 +105,7 @@ exports[`<Markdown /> renders 1`] = `
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   color: rgb(61,66,81);
   font-weight: 700;
@@ -125,7 +125,7 @@ exports[`<Markdown /> renders 1`] = `
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-weight: 700;
   line-height: 16px;
@@ -135,7 +135,7 @@ exports[`<Markdown /> renders 1`] = `
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -151,7 +151,7 @@ exports[`<Markdown /> renders 1`] = `
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-style: italic;
   font-weight: 400;
@@ -162,7 +162,7 @@ exports[`<Markdown /> renders 1`] = `
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   list-style-position: inside;
   margin: 0;

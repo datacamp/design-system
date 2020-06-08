@@ -34,7 +34,7 @@ exports[`snapshots renders an input with size disabled=false, required=false 1`]
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -65,7 +65,7 @@ exports[`snapshots renders an input with size disabled=false, required=false 1`]
   box-sizing: border-box;
   display: inline-block;
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   margin: 0;
   vertical-align: baseline;
   -webkit-appearance: none;
@@ -124,7 +124,7 @@ exports[`snapshots renders an input with size disabled=false, required=false 1`]
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -146,7 +146,7 @@ exports[`snapshots renders an input with size disabled=false, required=false 1`]
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -229,7 +229,7 @@ exports[`snapshots renders an input with size disabled=false, required=true 1`] 
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -260,7 +260,7 @@ exports[`snapshots renders an input with size disabled=false, required=true 1`] 
   box-sizing: border-box;
   display: inline-block;
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   margin: 0;
   vertical-align: baseline;
   -webkit-appearance: none;
@@ -319,7 +319,7 @@ exports[`snapshots renders an input with size disabled=false, required=true 1`] 
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -341,7 +341,7 @@ exports[`snapshots renders an input with size disabled=false, required=true 1`] 
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -354,7 +354,7 @@ exports[`snapshots renders an input with size disabled=false, required=true 1`] 
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -442,7 +442,7 @@ exports[`snapshots renders an input with size disabled=false, required=undefined
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -473,7 +473,7 @@ exports[`snapshots renders an input with size disabled=false, required=undefined
   box-sizing: border-box;
   display: inline-block;
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   margin: 0;
   vertical-align: baseline;
   -webkit-appearance: none;
@@ -532,7 +532,7 @@ exports[`snapshots renders an input with size disabled=false, required=undefined
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -607,7 +607,7 @@ exports[`snapshots renders an input with size disabled=true, required=false 1`] 
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -638,7 +638,7 @@ exports[`snapshots renders an input with size disabled=true, required=false 1`] 
   box-sizing: border-box;
   display: inline-block;
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   margin: 0;
   vertical-align: baseline;
   -webkit-appearance: none;
@@ -697,7 +697,7 @@ exports[`snapshots renders an input with size disabled=true, required=false 1`] 
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -719,7 +719,7 @@ exports[`snapshots renders an input with size disabled=true, required=false 1`] 
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -803,7 +803,7 @@ exports[`snapshots renders an input with size disabled=true, required=true 1`] =
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -834,7 +834,7 @@ exports[`snapshots renders an input with size disabled=true, required=true 1`] =
   box-sizing: border-box;
   display: inline-block;
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   margin: 0;
   vertical-align: baseline;
   -webkit-appearance: none;
@@ -893,7 +893,7 @@ exports[`snapshots renders an input with size disabled=true, required=true 1`] =
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -915,7 +915,7 @@ exports[`snapshots renders an input with size disabled=true, required=true 1`] =
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -928,7 +928,7 @@ exports[`snapshots renders an input with size disabled=true, required=true 1`] =
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -1017,7 +1017,7 @@ exports[`snapshots renders an input with size disabled=true, required=undefined 
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -1048,7 +1048,7 @@ exports[`snapshots renders an input with size disabled=true, required=undefined 
   box-sizing: border-box;
   display: inline-block;
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   margin: 0;
   vertical-align: baseline;
   -webkit-appearance: none;
@@ -1107,7 +1107,7 @@ exports[`snapshots renders an input with size disabled=true, required=undefined 
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;

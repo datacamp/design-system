@@ -38,7 +38,7 @@ exports[`with label snapshots renders a select element with size large, disabled
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -66,7 +66,7 @@ exports[`with label snapshots renders a select element with size large, disabled
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -88,7 +88,7 @@ exports[`with label snapshots renders a select element with size large, disabled
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -106,7 +106,7 @@ exports[`with label snapshots renders a select element with size large, disabled
   box-sizing: border-box;
   display: inline-block;
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   margin: 0;
   vertical-align: baseline;
   -webkit-appearance: none;
@@ -257,7 +257,7 @@ exports[`with label snapshots renders a select element with size large, disabled
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -285,7 +285,7 @@ exports[`with label snapshots renders a select element with size large, disabled
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -307,7 +307,7 @@ exports[`with label snapshots renders a select element with size large, disabled
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -320,7 +320,7 @@ exports[`with label snapshots renders a select element with size large, disabled
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -338,7 +338,7 @@ exports[`with label snapshots renders a select element with size large, disabled
   box-sizing: border-box;
   display: inline-block;
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   margin: 0;
   vertical-align: baseline;
   -webkit-appearance: none;
@@ -494,7 +494,7 @@ exports[`with label snapshots renders a select element with size large, disabled
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -522,7 +522,7 @@ exports[`with label snapshots renders a select element with size large, disabled
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -541,7 +541,7 @@ exports[`with label snapshots renders a select element with size large, disabled
   box-sizing: border-box;
   display: inline-block;
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   margin: 0;
   vertical-align: baseline;
   -webkit-appearance: none;
@@ -683,7 +683,7 @@ exports[`with label snapshots renders a select element with size large, disabled
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -711,7 +711,7 @@ exports[`with label snapshots renders a select element with size large, disabled
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -733,7 +733,7 @@ exports[`with label snapshots renders a select element with size large, disabled
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -751,7 +751,7 @@ exports[`with label snapshots renders a select element with size large, disabled
   box-sizing: border-box;
   display: inline-block;
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   margin: 0;
   vertical-align: baseline;
   -webkit-appearance: none;
@@ -903,7 +903,7 @@ exports[`with label snapshots renders a select element with size large, disabled
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -931,7 +931,7 @@ exports[`with label snapshots renders a select element with size large, disabled
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -953,7 +953,7 @@ exports[`with label snapshots renders a select element with size large, disabled
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -966,7 +966,7 @@ exports[`with label snapshots renders a select element with size large, disabled
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -984,7 +984,7 @@ exports[`with label snapshots renders a select element with size large, disabled
   box-sizing: border-box;
   display: inline-block;
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   margin: 0;
   vertical-align: baseline;
   -webkit-appearance: none;
@@ -1141,7 +1141,7 @@ exports[`with label snapshots renders a select element with size large, disabled
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -1169,7 +1169,7 @@ exports[`with label snapshots renders a select element with size large, disabled
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -1188,7 +1188,7 @@ exports[`with label snapshots renders a select element with size large, disabled
   box-sizing: border-box;
   display: inline-block;
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   margin: 0;
   vertical-align: baseline;
   -webkit-appearance: none;
@@ -1338,7 +1338,7 @@ exports[`with label snapshots renders a select element with size medium, disable
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -1363,7 +1363,7 @@ exports[`with label snapshots renders a select element with size medium, disable
   box-sizing: border-box;
   display: inline-block;
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   margin: 0;
   vertical-align: baseline;
   -webkit-appearance: none;
@@ -1404,7 +1404,7 @@ exports[`with label snapshots renders a select element with size medium, disable
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -1426,7 +1426,7 @@ exports[`with label snapshots renders a select element with size medium, disable
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -1557,7 +1557,7 @@ exports[`with label snapshots renders a select element with size medium, disable
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -1582,7 +1582,7 @@ exports[`with label snapshots renders a select element with size medium, disable
   box-sizing: border-box;
   display: inline-block;
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   margin: 0;
   vertical-align: baseline;
   -webkit-appearance: none;
@@ -1623,7 +1623,7 @@ exports[`with label snapshots renders a select element with size medium, disable
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -1645,7 +1645,7 @@ exports[`with label snapshots renders a select element with size medium, disable
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -1658,7 +1658,7 @@ exports[`with label snapshots renders a select element with size medium, disable
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -1794,7 +1794,7 @@ exports[`with label snapshots renders a select element with size medium, disable
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -1819,7 +1819,7 @@ exports[`with label snapshots renders a select element with size medium, disable
   box-sizing: border-box;
   display: inline-block;
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   margin: 0;
   vertical-align: baseline;
   -webkit-appearance: none;
@@ -1860,7 +1860,7 @@ exports[`with label snapshots renders a select element with size medium, disable
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -1983,7 +1983,7 @@ exports[`with label snapshots renders a select element with size medium, disable
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -2004,7 +2004,7 @@ exports[`with label snapshots renders a select element with size medium, disable
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -2026,7 +2026,7 @@ exports[`with label snapshots renders a select element with size medium, disable
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -2044,7 +2044,7 @@ exports[`with label snapshots renders a select element with size medium, disable
   box-sizing: border-box;
   display: inline-block;
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   margin: 0;
   vertical-align: baseline;
   -webkit-appearance: none;
@@ -2203,7 +2203,7 @@ exports[`with label snapshots renders a select element with size medium, disable
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -2224,7 +2224,7 @@ exports[`with label snapshots renders a select element with size medium, disable
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -2246,7 +2246,7 @@ exports[`with label snapshots renders a select element with size medium, disable
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -2259,7 +2259,7 @@ exports[`with label snapshots renders a select element with size medium, disable
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -2277,7 +2277,7 @@ exports[`with label snapshots renders a select element with size medium, disable
   box-sizing: border-box;
   display: inline-block;
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   margin: 0;
   vertical-align: baseline;
   -webkit-appearance: none;
@@ -2441,7 +2441,7 @@ exports[`with label snapshots renders a select element with size medium, disable
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -2462,7 +2462,7 @@ exports[`with label snapshots renders a select element with size medium, disable
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -2481,7 +2481,7 @@ exports[`with label snapshots renders a select element with size medium, disable
   box-sizing: border-box;
   display: inline-block;
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   margin: 0;
   vertical-align: baseline;
   -webkit-appearance: none;
@@ -2624,7 +2624,7 @@ exports[`with label snapshots renders a select element with size small, disabled
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -2652,7 +2652,7 @@ exports[`with label snapshots renders a select element with size small, disabled
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -2674,7 +2674,7 @@ exports[`with label snapshots renders a select element with size small, disabled
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -2692,7 +2692,7 @@ exports[`with label snapshots renders a select element with size small, disabled
   box-sizing: border-box;
   display: inline-block;
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   margin: 0;
   vertical-align: baseline;
   -webkit-appearance: none;
@@ -2843,7 +2843,7 @@ exports[`with label snapshots renders a select element with size small, disabled
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -2871,7 +2871,7 @@ exports[`with label snapshots renders a select element with size small, disabled
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -2893,7 +2893,7 @@ exports[`with label snapshots renders a select element with size small, disabled
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -2906,7 +2906,7 @@ exports[`with label snapshots renders a select element with size small, disabled
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -2924,7 +2924,7 @@ exports[`with label snapshots renders a select element with size small, disabled
   box-sizing: border-box;
   display: inline-block;
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   margin: 0;
   vertical-align: baseline;
   -webkit-appearance: none;
@@ -3080,7 +3080,7 @@ exports[`with label snapshots renders a select element with size small, disabled
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -3108,7 +3108,7 @@ exports[`with label snapshots renders a select element with size small, disabled
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -3127,7 +3127,7 @@ exports[`with label snapshots renders a select element with size small, disabled
   box-sizing: border-box;
   display: inline-block;
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   margin: 0;
   vertical-align: baseline;
   -webkit-appearance: none;
@@ -3269,7 +3269,7 @@ exports[`with label snapshots renders a select element with size small, disabled
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -3297,7 +3297,7 @@ exports[`with label snapshots renders a select element with size small, disabled
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -3319,7 +3319,7 @@ exports[`with label snapshots renders a select element with size small, disabled
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -3337,7 +3337,7 @@ exports[`with label snapshots renders a select element with size small, disabled
   box-sizing: border-box;
   display: inline-block;
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   margin: 0;
   vertical-align: baseline;
   -webkit-appearance: none;
@@ -3489,7 +3489,7 @@ exports[`with label snapshots renders a select element with size small, disabled
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -3517,7 +3517,7 @@ exports[`with label snapshots renders a select element with size small, disabled
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -3539,7 +3539,7 @@ exports[`with label snapshots renders a select element with size small, disabled
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -3552,7 +3552,7 @@ exports[`with label snapshots renders a select element with size small, disabled
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -3570,7 +3570,7 @@ exports[`with label snapshots renders a select element with size small, disabled
   box-sizing: border-box;
   display: inline-block;
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   margin: 0;
   vertical-align: baseline;
   -webkit-appearance: none;
@@ -3727,7 +3727,7 @@ exports[`with label snapshots renders a select element with size small, disabled
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -3755,7 +3755,7 @@ exports[`with label snapshots renders a select element with size small, disabled
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -3774,7 +3774,7 @@ exports[`with label snapshots renders a select element with size small, disabled
   box-sizing: border-box;
   display: inline-block;
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   margin: 0;
   vertical-align: baseline;
   -webkit-appearance: none;

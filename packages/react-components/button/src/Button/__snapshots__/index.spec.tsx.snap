@@ -5,7 +5,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent d
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -170,7 +170,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent d
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -390,7 +390,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent d
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -555,7 +555,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent d
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -775,7 +775,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent d
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -940,7 +940,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent d
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -1218,7 +1218,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent n
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -1391,7 +1391,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent n
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -1603,7 +1603,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent n
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -1776,7 +1776,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent n
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -1988,7 +1988,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent n
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -2161,7 +2161,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent n
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -2315,7 +2315,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent s
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -2480,7 +2480,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent s
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -2700,7 +2700,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent s
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -2865,7 +2865,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent s
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -3085,7 +3085,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent s
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -3250,7 +3250,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent s
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -3470,7 +3470,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent w
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -3635,7 +3635,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent w
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -3855,7 +3855,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent w
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -4020,7 +4020,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent w
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -4240,7 +4240,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent w
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -4405,7 +4405,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent w
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -4625,7 +4625,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent c
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -4796,7 +4796,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent c
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -5017,7 +5017,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent c
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -5188,7 +5188,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent c
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -5409,7 +5409,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent c
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -5580,7 +5580,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent c
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -5801,7 +5801,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent d
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -5972,7 +5972,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent d
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -6193,7 +6193,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent d
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -6364,7 +6364,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent d
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -6649,7 +6649,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent d
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -6756,7 +6756,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent d
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -7041,7 +7041,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent n
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -7148,7 +7148,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent n
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -7433,7 +7433,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent n
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -7540,7 +7540,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent n
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -7825,7 +7825,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent n
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -7999,7 +7999,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent n
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -8153,7 +8153,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent s
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -8324,7 +8324,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent s
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -8545,7 +8545,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent s
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -8716,7 +8716,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent s
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -9001,7 +9001,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent s
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -9108,7 +9108,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent s
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -9329,7 +9329,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent w
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -9500,7 +9500,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent w
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -9721,7 +9721,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent w
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -9892,7 +9892,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent w
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -10177,7 +10177,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent w
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -10284,7 +10284,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent w
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -10643,7 +10643,7 @@ exports[`<Button /> tooltips tooltip appearance snapshots renders a tooltip with
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -10683,7 +10683,7 @@ exports[`<Button /> tooltips tooltip appearance snapshots renders a tooltip with
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -10787,7 +10787,7 @@ exports[`<Button /> tooltips tooltip appearance snapshots renders a tooltip with
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -10826,7 +10826,7 @@ exports[`<Button /> tooltips tooltip appearance snapshots renders a tooltip with
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -10930,7 +10930,7 @@ exports[`<Button /> tooltips tooltip appearance snapshots renders a tooltip with
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -10970,7 +10970,7 @@ exports[`<Button /> tooltips tooltip appearance snapshots renders a tooltip with
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -11074,7 +11074,7 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at b
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -11114,7 +11114,7 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at b
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -11218,7 +11218,7 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at b
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -11233,7 +11233,7 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at b
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -11359,7 +11359,7 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at b
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -11374,7 +11374,7 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at b
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -11503,7 +11503,7 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at l
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -11518,7 +11518,7 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at l
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -11647,7 +11647,7 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at r
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -11662,7 +11662,7 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at r
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -11791,7 +11791,7 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at t
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -11806,7 +11806,7 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at t
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -11935,7 +11935,7 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at t
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -11950,7 +11950,7 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at t
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -12079,7 +12079,7 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at t
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -12094,7 +12094,7 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at t
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -12223,7 +12223,7 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at u
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -12263,7 +12263,7 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at u
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;

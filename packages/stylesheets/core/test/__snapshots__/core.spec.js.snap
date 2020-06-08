@@ -2,110 +2,10 @@
 
 exports[`Core generates the correct files: lib/css/waffles.css 1`] = `
 "@charset \\"UTF-8\\";
-/**
- * Disabled stylelint because it's incorrectly identifying unicode as SCSS
- * [stylelint] Expected \\"U+0100\\" to be \\"u+0100\\" (value-keyword-case)
- * [stylelint] Expected single space before \\"+\\" (scss/operator-no-unspaced)
-*/
-/* stylelint-disable */
-/* https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i,800,800i */
-/* latin-ext */
 @font-face {
-  font-family: 'Lato';
-  font-style: italic;
-  font-weight: 300;
-  src: local(\\"Lato Light Italic\\"), local(\\"Lato-LightItalic\\"), url(https://fonts.gstatic.com/s/lato/v14/XNVd6tsqi9wmKNvnh5HNEIX0hVgzZQUfRDuZrPvH3D8.woff2) format(\\"woff2\\"), url(https://fonts.gstatic.com/s/lato/v14/XNVd6tsqi9wmKNvnh5HNED8E0i7KZn-EPnyo3HZu7kw.woff) format(\\"woff\\");
-  unicode-range: U+0100-24F, U+0259, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+  font-family: 'Studio-Feixen-Sans-Variable';
+  src: url(9556bf5ec66abe353f8179a985707f62.ttf) format(\\"truetype\\");
 }
-/* latin */
-@font-face {
-  font-family: 'Lato';
-  font-style: italic;
-  font-weight: 300;
-  src: local(\\"Lato Light Italic\\"), local(\\"Lato-LightItalic\\"), url(https://fonts.gstatic.com/s/lato/v14/2HG_tEPiQ4Z6795cGfdivJBw1xU1rKptJj_0jans920.woff2) format(\\"woff2\\"), url(https://fonts.gstatic.com/s/lato/v14/XNVd6tsqi9wmKNvnh5HNED8E0i7KZn-EPnyo3HZu7kw.woff) format(\\"woff\\");
-  unicode-range: U+0000-0FF, U+0131, U+0152-153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2212, U+2215;
-}
-/* latin-ext */
-@font-face {
-  font-family: 'Lato';
-  font-style: italic;
-  font-weight: 400;
-  src: local(\\"Lato Italic\\"), local(\\"Lato-Italic\\"), url(https://fonts.gstatic.com/s/lato/v14/cT2GN3KRBUX69GVJ2b2hxn-_kf6ByYO6CLYdB4HQE-Y.woff2) format(\\"woff2\\"), url(https://fonts.gstatic.com/s/lato/v14/G-cgiyv4b0HVLV2M8HoP9A.woff) format(\\"woff\\");
-  unicode-range: U+0100-24F, U+0259, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
-}
-/* latin */
-@font-face {
-  font-family: 'Lato';
-  font-style: italic;
-  font-weight: 400;
-  src: local(\\"Lato Italic\\"), local(\\"Lato-Italic\\"), url(https://fonts.gstatic.com/s/lato/v14/1KWMyx7m-L0fkQGwYhWwuuvvDin1pK8aKteLpeZ5c0A.woff2) format(\\"woff2\\"), url(https://fonts.gstatic.com/s/lato/v14/G-cgiyv4b0HVLV2M8HoP9A.woff) format(\\"woff\\");
-  unicode-range: U+0000-0FF, U+0131, U+0152-153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2212, U+2215;
-}
-/* latin-ext */
-@font-face {
-  font-family: 'Lato';
-  font-style: italic;
-  font-weight: 700;
-  src: local(\\"Lato Bold Italic\\"), local(\\"Lato-BoldItalic\\"), url(https://fonts.gstatic.com/s/lato/v14/AcvTq8Q0lyKKNxRlL28Rn4X0hVgzZQUfRDuZrPvH3D8.woff2) format(\\"woff2\\"), url(https://fonts.gstatic.com/s/lato/v14/AcvTq8Q0lyKKNxRlL28Rnz8E0i7KZn-EPnyo3HZu7kw.woff) format(\\"woff\\");
-  unicode-range: U+0100-24F, U+0259, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
-}
-/* latin */
-@font-face {
-  font-family: 'Lato';
-  font-style: italic;
-  font-weight: 700;
-  src: local(\\"Lato Bold Italic\\"), local(\\"Lato-BoldItalic\\"), url(https://fonts.gstatic.com/s/lato/v14/HkF_qI1x_noxlxhrhMQYEJBw1xU1rKptJj_0jans920.woff2) format(\\"woff2\\"), url(https://fonts.gstatic.com/s/lato/v14/AcvTq8Q0lyKKNxRlL28Rnz8E0i7KZn-EPnyo3HZu7kw.woff) format(\\"woff\\");
-  unicode-range: U+0000-0FF, U+0131, U+0152-153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2212, U+2215;
-}
-/* latin-ext */
-@font-face {
-  font-family: 'Lato';
-  font-style: normal;
-  font-weight: 300;
-  src: local(\\"Lato Light\\"), local(\\"Lato-Light\\"), url(https://fonts.gstatic.com/s/lato/v14/IY9HZVvI1cMoAHxvl0w9LVKPGs1ZzpMvnHX-7fPOuAc.woff2) format(\\"woff2\\"), url(https://fonts.gstatic.com/s/lato/v14/kU6VHbqMAZhaN_nXCmLQsQ.woff) format(\\"woff\\");
-  unicode-range: U+0100-24F, U+0259, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
-}
-/* latin */
-@font-face {
-  font-family: 'Lato';
-  font-style: normal;
-  font-weight: 300;
-  src: local(\\"Lato Light\\"), local(\\"Lato-Light\\"), url(https://fonts.gstatic.com/s/lato/v14/22JRxvfANxSmnAhzbFH8PgLUuEpTyoUstqEm5AMlJo4.woff2) format(\\"woff2\\"), url(https://fonts.gstatic.com/s/lato/v14/kU6VHbqMAZhaN_nXCmLQsQ.woff) format(\\"woff\\");
-  unicode-range: U+0000-0FF, U+0131, U+0152-153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2212, U+2215;
-}
-/* latin-ext */
-@font-face {
-  font-family: 'Lato';
-  font-style: normal;
-  font-weight: 400;
-  src: local(\\"Lato Regular\\"), local(\\"Lato-Regular\\"), url(https://fonts.gstatic.com/s/lato/v14/8qcEw_nrk_5HEcCpYdJu8BTbgVql8nDJpwnrE27mub0.woff2) format(\\"woff2\\"), url(https://fonts.gstatic.com/s/lato/v14/1bHRUMxmJHoup12DnI9XmQ.woff) format(\\"woff\\");
-  unicode-range: U+0100-24F, U+0259, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
-}
-/* latin */
-@font-face {
-  font-family: 'Lato';
-  font-style: normal;
-  font-weight: 400;
-  src: local(\\"Lato Regular\\"), local(\\"Lato-Regular\\"), url(https://fonts.gstatic.com/s/lato/v14/MDadn8DQ_3oT6kvnUq_2r_esZW2xOQ-xsNqO47m55DA.woff2) format(\\"woff2\\"), url(https://fonts.gstatic.com/s/lato/v14/1bHRUMxmJHoup12DnI9XmQ.woff) format(\\"woff\\");
-  unicode-range: U+0000-0FF, U+0131, U+0152-153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2212, U+2215;
-}
-/* latin-ext */
-@font-face {
-  font-family: 'Lato';
-  font-style: normal;
-  font-weight: 700;
-  src: local(\\"Lato Bold\\"), local(\\"Lato-Bold\\"), url(https://fonts.gstatic.com/s/lato/v14/rZPI2gHXi8zxUjnybc2ZQFKPGs1ZzpMvnHX-7fPOuAc.woff2) format(\\"woff2\\"), url(https://fonts.gstatic.com/s/lato/v14/I1Pn3gihk5vyP0Yw5GqKsQ.woff) format(\\"woff\\");
-  unicode-range: U+0100-24F, U+0259, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
-}
-/* latin */
-@font-face {
-  font-family: 'Lato';
-  font-style: normal;
-  font-weight: 700;
-  src: local(\\"Lato Bold\\"), local(\\"Lato-Bold\\"), url(https://fonts.gstatic.com/s/lato/v14/MgNNr5y1C_tIEuLEmicLmwLUuEpTyoUstqEm5AMlJo4.woff2) format(\\"woff2\\"), url(https://fonts.gstatic.com/s/lato/v14/I1Pn3gihk5vyP0Yw5GqKsQ.woff) format(\\"woff\\");
-  unicode-range: U+0000-0FF, U+0131, U+0152-153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2212, U+2215;
-}
-/* stylelint-enable */
 /**
  * Disabled stylelint because it's incorrectly identifying unicode as SCSS
  * [stylelint] Expected \\"U+0100\\" to be \\"u+0100\\" (value-keyword-case)
@@ -2559,7 +2459,7 @@ th {
 }
 /** Font */
 .dc-u-ff-sans-serif {
-  font-family: \\"Lato\\", sans-serif !important;
+  font-family: \\"Studio-Feixen-Sans-Variable\\", sans-serif !important;
 }
 .dc-u-ff-mono {
   font-family: \\"Roboto Mono\\", monospace !important;
@@ -4647,11 +4547,12 @@ html {
 }
 body {
   color: #4d5356;
-  font-family: \\"Lato\\", sans-serif;
+  font-family: \\"Studio-Feixen-Sans-Variable\\", sans-serif;
   font-size: 100%;
   -webkit-font-smoothing: antialiased;
   font-weight: 400;
   line-height: 1.5;
+  font-variation-settings: 'wdth' 0;
 }
 h1,
 .h1,
@@ -13291,6 +13192,7 @@ body {
   -webkit-font-smoothing: antialiased;
   font-weight: $dc-font-weight-regular;
   line-height: $dc-line-height-base;
+  font-variation-settings: 'wdth' 0;
 }
 
 // Headings
@@ -15330,7 +15232,7 @@ $dc-gradient-turquoise: linear-gradient(-135deg, #b8eef4, #78c8de);
 /** Typography */
 
 // Font family
-$dc-font-family-sans-serif: 'Lato', sans-serif;
+$dc-font-family-sans-serif: 'Studio-Feixen-Sans-Variable', sans-serif;
 $dc-font-family-mono: 'Roboto Mono', monospace;
 
 // Font size
@@ -15433,126 +15335,11 @@ $dc-sides: (
 "
 `;
 
-exports[`Core generates the correct files: lib/scss/design/vendor/_lato-font.scss 1`] = `
-"/**
- * Disabled stylelint because it's incorrectly identifying unicode as SCSS
- * [stylelint] Expected \\"U+0100\\" to be \\"u+0100\\" (value-keyword-case)
- * [stylelint] Expected single space before \\"+\\" (scss/operator-no-unspaced)
-*/
-
-/* stylelint-disable */
-
-/* https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i,800,800i */
-
-/* latin-ext */
-@font-face {
-  font-family: 'Lato';
-  font-style: italic;
-  font-weight: 300;
-  src: local('Lato Light Italic'), local('Lato-LightItalic'), url(https://fonts.gstatic.com/s/lato/v14/XNVd6tsqi9wmKNvnh5HNEIX0hVgzZQUfRDuZrPvH3D8.woff2) format('woff2'), url(https://fonts.gstatic.com/s/lato/v14/XNVd6tsqi9wmKNvnh5HNED8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
-  unicode-range: U+0100 - 024F, U+0259, U+1E00 - 1EFF, U+20A0 - 20AB, U+20AD-20CF, U+2C60 - 2C7F, U+A720-A7FF;
+exports[`Core generates the correct files: lib/scss/design/vendor/_feixen-font.scss 1`] = `
+"@font-face {
+  font-family: 'Studio-Feixen-Sans-Variable';
+  src: url('./Studio-Feixen-Sans-Variable.ttf') format('truetype');
 }
-
-/* latin */
-@font-face {
-  font-family: 'Lato';
-  font-style: italic;
-  font-weight: 300;
-  src: local('Lato Light Italic'), local('Lato-LightItalic'), url(https://fonts.gstatic.com/s/lato/v14/2HG_tEPiQ4Z6795cGfdivJBw1xU1rKptJj_0jans920.woff2) format('woff2'), url(https://fonts.gstatic.com/s/lato/v14/XNVd6tsqi9wmKNvnh5HNED8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
-  unicode-range: U+0000 - 00FF, U+0131, U+0152 - 0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000 - 206F, U+2074, U+20AC, U+2122, U+2212, U+2215;
-}
-
-/* latin-ext */
-@font-face {
-  font-family: 'Lato';
-  font-style: italic;
-  font-weight: 400;
-  src: local('Lato Italic'), local('Lato-Italic'), url(https://fonts.gstatic.com/s/lato/v14/cT2GN3KRBUX69GVJ2b2hxn-_kf6ByYO6CLYdB4HQE-Y.woff2) format('woff2'), url(https://fonts.gstatic.com/s/lato/v14/G-cgiyv4b0HVLV2M8HoP9A.woff) format('woff');
-  unicode-range: U+0100 - 024F, U+0259, U+1E00 - 1EFF, U+20A0 - 20AB, U+20AD-20CF, U+2C60 - 2C7F, U+A720-A7FF;
-}
-
-/* latin */
-@font-face {
-  font-family: 'Lato';
-  font-style: italic;
-  font-weight: 400;
-  src: local('Lato Italic'), local('Lato-Italic'), url(https://fonts.gstatic.com/s/lato/v14/1KWMyx7m-L0fkQGwYhWwuuvvDin1pK8aKteLpeZ5c0A.woff2) format('woff2'), url(https://fonts.gstatic.com/s/lato/v14/G-cgiyv4b0HVLV2M8HoP9A.woff) format('woff');
-  unicode-range: U+0000 - 00FF, U+0131, U+0152 - 0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000 - 206F, U+2074, U+20AC, U+2122, U+2212, U+2215;
-}
-
-/* latin-ext */
-@font-face {
-  font-family: 'Lato';
-  font-style: italic;
-  font-weight: 700;
-  src: local('Lato Bold Italic'), local('Lato-BoldItalic'), url(https://fonts.gstatic.com/s/lato/v14/AcvTq8Q0lyKKNxRlL28Rn4X0hVgzZQUfRDuZrPvH3D8.woff2) format('woff2'), url(https://fonts.gstatic.com/s/lato/v14/AcvTq8Q0lyKKNxRlL28Rnz8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
-  unicode-range: U+0100 - 024F, U+0259, U+1E00 - 1EFF, U+20A0 - 20AB, U+20AD-20CF, U+2C60 - 2C7F, U+A720-A7FF;
-}
-
-/* latin */
-@font-face {
-  font-family: 'Lato';
-  font-style: italic;
-  font-weight: 700;
-  src: local('Lato Bold Italic'), local('Lato-BoldItalic'), url(https://fonts.gstatic.com/s/lato/v14/HkF_qI1x_noxlxhrhMQYEJBw1xU1rKptJj_0jans920.woff2) format('woff2'), url(https://fonts.gstatic.com/s/lato/v14/AcvTq8Q0lyKKNxRlL28Rnz8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
-  unicode-range: U+0000 - 00FF, U+0131, U+0152 - 0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000 - 206F, U+2074, U+20AC, U+2122, U+2212, U+2215;
-}
-
-/* latin-ext */
-@font-face {
-  font-family: 'Lato';
-  font-style: normal;
-  font-weight: 300;
-  src: local('Lato Light'), local('Lato-Light'), url(https://fonts.gstatic.com/s/lato/v14/IY9HZVvI1cMoAHxvl0w9LVKPGs1ZzpMvnHX-7fPOuAc.woff2) format('woff2'), url(https://fonts.gstatic.com/s/lato/v14/kU6VHbqMAZhaN_nXCmLQsQ.woff) format('woff');
-  unicode-range: U+0100 - 024F, U+0259, U+1E00 - 1EFF, U+20A0 - 20AB, U+20AD-20CF, U+2C60 - 2C7F, U+A720-A7FF;
-}
-
-/* latin */
-@font-face {
-  font-family: 'Lato';
-  font-style: normal;
-  font-weight: 300;
-  src: local('Lato Light'), local('Lato-Light'), url(https://fonts.gstatic.com/s/lato/v14/22JRxvfANxSmnAhzbFH8PgLUuEpTyoUstqEm5AMlJo4.woff2) format('woff2'), url(https://fonts.gstatic.com/s/lato/v14/kU6VHbqMAZhaN_nXCmLQsQ.woff) format('woff');
-  unicode-range: U+0000 - 00FF, U+0131, U+0152 - 0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000 - 206F, U+2074, U+20AC, U+2122, U+2212, U+2215;
-}
-
-/* latin-ext */
-@font-face {
-  font-family: 'Lato';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v14/8qcEw_nrk_5HEcCpYdJu8BTbgVql8nDJpwnrE27mub0.woff2) format('woff2'), url(https://fonts.gstatic.com/s/lato/v14/1bHRUMxmJHoup12DnI9XmQ.woff) format('woff');
-  unicode-range: U+0100 - 024F, U+0259, U+1E00 - 1EFF, U+20A0 - 20AB, U+20AD-20CF, U+2C60 - 2C7F, U+A720-A7FF;
-}
-
-/* latin */
-@font-face {
-  font-family: 'Lato';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v14/MDadn8DQ_3oT6kvnUq_2r_esZW2xOQ-xsNqO47m55DA.woff2) format('woff2'), url(https://fonts.gstatic.com/s/lato/v14/1bHRUMxmJHoup12DnI9XmQ.woff) format('woff');
-  unicode-range: U+0000 - 00FF, U+0131, U+0152 - 0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000 - 206F, U+2074, U+20AC, U+2122, U+2212, U+2215;
-}
-
-/* latin-ext */
-@font-face {
-  font-family: 'Lato';
-  font-style: normal;
-  font-weight: 700;
-  src: local('Lato Bold'), local('Lato-Bold'), url(https://fonts.gstatic.com/s/lato/v14/rZPI2gHXi8zxUjnybc2ZQFKPGs1ZzpMvnHX-7fPOuAc.woff2) format('woff2'), url(https://fonts.gstatic.com/s/lato/v14/I1Pn3gihk5vyP0Yw5GqKsQ.woff) format('woff');
-  unicode-range: U+0100 - 024F, U+0259, U+1E00 - 1EFF, U+20A0 - 20AB, U+20AD-20CF, U+2C60 - 2C7F, U+A720-A7FF;
-}
-
-/* latin */
-@font-face {
-  font-family: 'Lato';
-  font-style: normal;
-  font-weight: 700;
-  src: local('Lato Bold'), local('Lato-Bold'), url(https://fonts.gstatic.com/s/lato/v14/MgNNr5y1C_tIEuLEmicLmwLUuEpTyoUstqEm5AMlJo4.woff2) format('woff2'), url(https://fonts.gstatic.com/s/lato/v14/I1Pn3gihk5vyP0Yw5GqKsQ.woff) format('woff');
-  unicode-range: U+0000 - 00FF, U+0131, U+0152 - 0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000 - 206F, U+2074, U+20AC, U+2122, U+2212, U+2215;
-}
-
-/* stylelint-enable */
 "
 `;
 
@@ -16085,7 +15872,7 @@ exports[`Core generates the correct files: lib/scss/ingredients.scss 1`] = `
 // -------------------------------------
 
 //----- Vendor -----//
-@import 'design/vendor/lato-font';
+@import 'design/vendor/feixen-font';
 @import 'design/vendor/roboto-mono-font';
 @import 'design/vendor/normalize';
 
@@ -16189,7 +15976,7 @@ Object {
   },
   "fontFamily": Object {
     "mono": "'Roboto Mono'",
-    "sansSerif": "'Lato'",
+    "sansSerif": "'Studio-Feixen-Sans-Variable'",
   },
   "fontSize": Object {
     "base": "16px",
@@ -16240,6 +16027,12 @@ Object {
 exports[`Core has correct file structure 1`] = `
 Object {
   "children": Array [
+    Object {
+      "extension": ".ttf",
+      "name": "9556bf5ec66abe353f8179a985707f62.ttf",
+      "path": "lib/9556bf5ec66abe353f8179a985707f62.ttf",
+      "type": "file",
+    },
     Object {
       "children": Array [
         Object {
@@ -17123,6 +16916,12 @@ Object {
     Object {
       "children": Array [
         Object {
+          "extension": ".ttf",
+          "name": "Studio-Feixen-Sans-Variable.ttf",
+          "path": "lib/scss/Studio-Feixen-Sans-Variable.ttf",
+          "type": "file",
+        },
+        Object {
           "extension": ".scss",
           "name": "custom.scss",
           "path": "lib/scss/custom.scss",
@@ -17398,9 +17197,15 @@ Object {
             Object {
               "children": Array [
                 Object {
+                  "extension": ".ttf",
+                  "name": "Studio-Feixen-Sans-Variable.ttf",
+                  "path": "lib/scss/design/vendor/Studio-Feixen-Sans-Variable.ttf",
+                  "type": "file",
+                },
+                Object {
                   "extension": ".scss",
-                  "name": "_lato-font.scss",
-                  "path": "lib/scss/design/vendor/_lato-font.scss",
+                  "name": "_feixen-font.scss",
+                  "path": "lib/scss/design/vendor/_feixen-font.scss",
                   "type": "file",
                 },
                 Object {

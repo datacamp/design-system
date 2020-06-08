@@ -72,7 +72,7 @@ exports[`ButtonGroup renders the buttons or CompactButtonGroups with 16px spaces
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -581,7 +581,7 @@ exports[`ButtonGroup renders the small buttons or CompactButtonGroups with 8px s
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;

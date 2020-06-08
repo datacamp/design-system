@@ -60,7 +60,7 @@ module.exports = {
     });
 
     config.module.rules[0].oneOf.unshift({
-      test: /\.zip$/,
+      test: /\.(zip|ttf)$/,
       use: [
         {
           loader: 'file-loader',
