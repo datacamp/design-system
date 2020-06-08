@@ -5,7 +5,7 @@ exports[`List renders an ordered list 1`] = `
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   list-style-position: inside;
   margin: 0;
@@ -65,7 +65,7 @@ exports[`List renders an unordered list 1`] = `
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   list-style-position: inside;
   margin: 0;

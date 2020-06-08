@@ -2,7 +2,7 @@
   "asset": {
     "font": {
       "sansSerif": {
-        "value": "Lato",
+        "value": "Studio-Feixen-Sans-Variable",
         "attributes": { "fallback": "sans-serif" }
       },
       "mono": {

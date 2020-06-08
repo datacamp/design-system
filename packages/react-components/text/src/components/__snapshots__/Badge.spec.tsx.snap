@@ -5,7 +5,7 @@ exports[`Badge renders with the provided colour, className and content 1`] = `
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-weight: 700;
   line-height: 16px;
