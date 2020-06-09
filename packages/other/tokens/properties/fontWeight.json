@@ -1,7 +1,7 @@
 {
   "fontWeight": {
-    "bold": { "value": 700 },
-    "light": { "value": 300 },
-    "regular": { "value": 400 }
+    "bold": { "value": 350 },
+    "light": { "value": 100 },
+    "regular": { "value": 170 }
   }
 }

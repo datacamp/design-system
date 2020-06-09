@@ -169,7 +169,7 @@ exports[`<AlertModal /> isOpen renders the modal via a portal when true 1`] = `
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   color: rgb(61,66,81);
-  font-weight: 700;
+  font-weight: 350;
   line-height: 1.25;
   margin: 0;
   overflow: auto;
@@ -188,7 +188,7 @@ exports[`<AlertModal /> isOpen renders the modal via a portal when true 1`] = `
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 170;
   line-height: 1.5;
   margin: 0;
 }
@@ -272,7 +272,7 @@ exports[`<AlertModal /> isOpen renders the modal via a portal when true 1`] = `
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 170;
   line-height: 16px;
   font-size: 16px;
   line-height: 46px;
@@ -352,7 +352,7 @@ exports[`<AlertModal /> isOpen renders the modal via a portal when true 1`] = `
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 170;
   line-height: 16px;
   font-size: 16px;
   line-height: 46px;
