@@ -87,9 +87,9 @@ Object {
     "small": "0.875rem",
   },
   "fontWeight": Object {
-    "bold": "700",
-    "light": "300",
-    "regular": "400",
+    "bold": "350",
+    "light": "100",
+    "regular": "170",
   },
   "gradients": Object {
     "blueLight": "linear-gradient(-143deg, #7dd4e7, #7099d7)",
@@ -1685,13 +1685,13 @@ Object {
       },
       "name": "bold",
       "original": Object {
-        "value": 700,
+        "value": 350,
       },
       "path": Array [
         "fontWeight",
         "bold",
       ],
-      "value": 700,
+      "value": 350,
     },
     "light": Object {
       "attributes": Object {
@@ -1700,13 +1700,13 @@ Object {
       },
       "name": "light",
       "original": Object {
-        "value": 300,
+        "value": 100,
       },
       "path": Array [
         "fontWeight",
         "light",
       ],
-      "value": 300,
+      "value": 100,
     },
     "regular": Object {
       "attributes": Object {
@@ -1715,13 +1715,13 @@ Object {
       },
       "name": "regular",
       "original": Object {
-        "value": 400,
+        "value": 170,
       },
       "path": Array [
         "fontWeight",
         "regular",
       ],
-      "value": 400,
+      "value": 170,
     },
   },
   "gradient": Object {
@@ -3005,9 +3005,9 @@ $dc-font-size-h1: 2.5rem;
 $dc-font-size-base: 16px;
 
 // Font weight
-$dc-font-weight-bold: 700;
-$dc-font-weight-light: 300;
-$dc-font-weight-regular: 400;
+$dc-font-weight-bold: 350;
+$dc-font-weight-light: 100;
+$dc-font-weight-regular: 170;
 
 // Line height
 $dc-line-height-base: 1.5;

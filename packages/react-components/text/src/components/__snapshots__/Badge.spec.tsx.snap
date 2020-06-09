@@ -7,7 +7,7 @@ exports[`Badge renders with the provided colour, className and content 1`] = `
   font-family: sans-serif;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 350;
   line-height: 16px;
   border-radius: 4px;
   display: inline-block;

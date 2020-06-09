@@ -8,7 +8,7 @@ exports[`<Tag /> creates a default tag 1`] = `
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 170;
   line-height: 16px;
   -webkit-align-items: center;
   -webkit-box-align: center;
@@ -20,7 +20,7 @@ exports[`<Tag /> creates a default tag 1`] = `
   display: -ms-inline-flexbox;
   display: inline-flex;
   font-size: 12px;
-  font-weight: 700;
+  font-weight: 350;
   -webkit-letter-spacing: 0.6px;
   -moz-letter-spacing: 0.6px;
   -ms-letter-spacing: 0.6px;

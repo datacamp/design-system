@@ -2644,13 +2644,13 @@ th {
   font-style: normal !important;
 }
 .dc-u-fw-light {
-  font-weight: 300 !important;
+  font-weight: 100 !important;
 }
 .dc-u-fw-regular {
-  font-weight: 400 !important;
+  font-weight: 170 !important;
 }
 .dc-u-fw-bold {
-  font-weight: 700 !important;
+  font-weight: 350 !important;
 }
 /** Height */
 .dc-u-h-0 {
@@ -4502,7 +4502,7 @@ a,
 .dc-link {
   border-bottom: 1px solid transparent;
   color: #33aacc;
-  font-weight: 700;
+  font-weight: 350;
   text-decoration: none;
   -webkit-transition: border-color 0.3s cubic-bezier(0.77, 0, 0.175, 1);
   transition: border-color 0.3s cubic-bezier(0.77, 0, 0.175, 1);
@@ -4551,7 +4551,7 @@ body {
   font-family: \\"Studio-Feixen-Sans-Variable\\", sans-serif;
   font-size: 100%;
   -webkit-font-smoothing: antialiased;
-  font-weight: 400;
+  font-weight: 170;
   line-height: 1.5;
   font-variation-settings: 'wdth' 0;
 }
@@ -4574,7 +4574,7 @@ h6,
 .h6,
 .dc-h6 {
   color: #3d4251;
-  font-weight: 700;
+  font-weight: 350;
   line-height: 1.25;
   margin: 0.25em 0;
 }
@@ -4612,7 +4612,7 @@ h6,
 .chapeau-title,
 .dc-chapeau-title {
   font-size: 0.875rem;
-  font-weight: 700;
+  font-weight: 350;
   letter-spacing: 2px;
   text-transform: uppercase;
 }
@@ -4636,7 +4636,7 @@ small {
 a {
   border-bottom: 1px solid transparent;
   color: #33aacc;
-  font-weight: 700;
+  font-weight: 350;
   text-decoration: none;
   -webkit-transition: border-color 0.3s cubic-bezier(0.77, 0, 0.175, 1);
   transition: border-color 0.3s cubic-bezier(0.77, 0, 0.175, 1);
@@ -4680,7 +4680,7 @@ pre code {
 /* stylelint-enable */
 mark {
   color: #263e63;
-  font-weight: 700;
+  font-weight: 350;
   margin: 0 0.3em;
   padding: 0.3em 0.4em;
 }
@@ -4694,7 +4694,7 @@ dd {
 }
 dt {
   color: #33aacc;
-  font-weight: 700;
+  font-weight: 350;
   text-transform: uppercase;
 }
 .smaller-title {
@@ -4703,7 +4703,7 @@ dt {
 }
 .subhead {
   color: #7ecce2;
-  font-weight: 300;
+  font-weight: 100;
   letter-spacing: 5px;
   margin-top: spacing(3);
   text-transform: uppercase;
@@ -4733,7 +4733,7 @@ dt {
   display: -ms-flexbox;
   display: flex;
   font-size: 16px;
-  font-weight: 700;
+  font-weight: 350;
   line-height: 1.5;
   margin-bottom: 12px;
 }
@@ -4900,7 +4900,7 @@ dt {
 .tabs input[type=radio]:checked + label {
   background-color: #ffffff;
   color: #3d4251;
-  font-weight: 700;
+  font-weight: 350;
 }
 /* stylelint-enable */
 .form-error {
@@ -5064,7 +5064,7 @@ dt {
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
-  font-weight: 400;
+  font-weight: 170;
   line-height: 1.5;
   margin-left: 8px;
   position: relative;
@@ -5262,7 +5262,7 @@ dt {
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
-  font-weight: 400;
+  font-weight: 170;
   line-height: 1.5;
   margin-left: 8px;
   position: relative;
@@ -7572,7 +7572,7 @@ code.clean {
 }
 .link-borderless {
   border-bottom: 0;
-  font-weight: 400;
+  font-weight: 170;
 }
 .link-borderless:hover {
   border-bottom: 0;
@@ -15248,9 +15248,9 @@ $dc-font-size-h1: 2.5rem;
 $dc-font-size-base: 16px;
 
 // Font weight
-$dc-font-weight-bold: 700;
-$dc-font-weight-light: 300;
-$dc-font-weight-regular: 400;
+$dc-font-weight-bold: 350;
+$dc-font-weight-light: 100;
+$dc-font-weight-regular: 170;
 
 // Line height
 $dc-line-height-base: 1.5;
@@ -15992,9 +15992,9 @@ Object {
     "small": "0.875rem",
   },
   "fontWeight": Object {
-    "bold": "700",
-    "light": "300",
-    "regular": "400",
+    "bold": "350",
+    "light": "100",
+    "regular": "170",
   },
   "gradients": Object {
     "blueLight": "linear-gradient(-143deg, #7dd4e7, #7099d7)",
