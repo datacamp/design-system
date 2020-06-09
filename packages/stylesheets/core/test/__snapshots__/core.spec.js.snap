@@ -5,6 +5,7 @@ exports[`Core generates the correct files: lib/css/waffles.css 1`] = `
 @font-face {
   font-family: 'Studio-Feixen-Sans-Variable';
   src: url(9556bf5ec66abe353f8179a985707f62.ttf) format(\\"truetype\\");
+  font-weight: 100 400;
 }
 /**
  * Disabled stylelint because it's incorrectly identifying unicode as SCSS
@@ -15339,6 +15340,7 @@ exports[`Core generates the correct files: lib/scss/design/vendor/_feixen-font.s
 "@font-face {
   font-family: 'Studio-Feixen-Sans-Variable';
   src: url('./Studio-Feixen-Sans-Variable.ttf') format('truetype');
+  font-weight: 100 400;
 }
 "
 `;
