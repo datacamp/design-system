@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.0.13](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/card/compare/@datacamp/waffles-card@3.0.12...@datacamp/waffles-card@3.0.13) (2020-06-09)
+
+**Note:** Version bump only for package @datacamp/waffles-card
+
+
+
+
+
 ## [3.0.12](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/card/compare/@datacamp/waffles-card@3.0.11...@datacamp/waffles-card@3.0.12) (2020-06-05)
 
 **Note:** Version bump only for package @datacamp/waffles-card
