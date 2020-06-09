@@ -3,6 +3,24 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0-beta.1](https://github.com/datacamp/design-system/compare/@datacamp/waffles-core@2.0.0-beta.0...@datacamp/waffles-core@2.0.0-beta.1) (2020-06-09)
+
+
+### Features
+
+* load font in a way to allow font-weight to work ([186c1eb](https://github.com/datacamp/design-system/commit/186c1eb))
+* update font weights for new branding ([cf0f3bc](https://github.com/datacamp/design-system/commit/cf0f3bc))
+
+
+### BREAKING CHANGES
+
+* Font weights have been updated to work with new 
+branding
+
+
+
+
+
 # [2.0.0-beta.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-core@1.2.39-beta.0...@datacamp/waffles-core@2.0.0-beta.0) (2020-06-08)
 
 

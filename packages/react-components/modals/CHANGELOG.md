@@ -3,6 +3,25 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [6.0.0-beta.1](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/modals/compare/@datacamp/waffles-modals@5.1.9...@datacamp/waffles-modals@6.0.0-beta.1) (2020-06-09)
+
+
+### Features
+
+* change sans-serif font ([6f2d3cd](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/modals/commit/6f2d3cd))
+* update font weights for new branding ([cf0f3bc](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/modals/commit/cf0f3bc))
+
+
+### BREAKING CHANGES
+
+* Font weights have been updated to work with new 
+branding
+* The sans-serif font has changed from Lato to Studio-Feixen-Sans-Variable
+
+
+
+
+
 # [6.0.0-beta.0](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/modals/compare/@datacamp/waffles-modals@5.1.9-beta.0...@datacamp/waffles-modals@6.0.0-beta.0) (2020-06-08)
 
 
