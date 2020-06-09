@@ -19,7 +19,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-## [3.0.9-beta.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-text@3.0.8...@datacamp/waffles-text@3.0.9-beta.0) (2020-06-05)
+## [3.0.9](https://github.com/datacamp/design-system/compare/@datacamp/waffles-text@3.0.8...@datacamp/waffles-text@3.0.9) (2020-06-09)
 
 **Note:** Version bump only for package @datacamp/waffles-text
 

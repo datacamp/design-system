@@ -19,7 +19,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-## [1.2.16-beta.0](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/tag/compare/@datacamp/waffles-tag@1.2.15...@datacamp/waffles-tag@1.2.16-beta.0) (2020-06-05)
+## [1.2.16](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/tag/compare/@datacamp/waffles-tag@1.2.15...@datacamp/waffles-tag@1.2.16) (2020-06-09)
 
 **Note:** Version bump only for package @datacamp/waffles-tag
 

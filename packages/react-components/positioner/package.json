@@ -1,21 +1,15 @@
 {
   "name": "@datacamp/waffles-positioner",
-  "version": "1.0.14-beta.0",
+  "version": "1.0.14",
   "description": "The Waffles Positioner",
-  "keywords": [
-    "button"
-  ],
+  "keywords": ["button"],
   "author": "Dan Denney <dd.subscriptions@gmail.com>",
   "homepage": "https://github.com/datacamp/design-system/tree/master/packages/positioner/README.md",
   "license": "ISC",
   "main": "lib/index.js",
   "module": "es/index.js",
   "types": "types/index.d.ts",
-  "files": [
-    "es",
-    "lib",
-    "types"
-  ],
+  "files": ["es", "lib", "types"],
   "scripts": {
     "build:cjs": "BABEL_ENV=cjs babel src --extensions '.tsx','.ts' --out-dir lib --ignore \"src/**/*.spec.tsx\",\"src/**/*.spec.ts\" --config-file ./babel7.config.js",
     "build:es": "BABEL_ENV=es babel src --extensions '.tsx','.ts' --out-dir es --ignore \"src/**/*.spec.tsx\",\"src/**/*.spec.ts\" --config-file ./babel7.config.js",
@@ -39,7 +33,7 @@
     "@stryker-mutator/core": "^3.0.2",
     "@stryker-mutator/html-reporter": "^3.1.0",
     "@stryker-mutator/typescript": "^3.2.4",
-    "@testing-library/jest-dom": "5.1.1",
+    "@testing-library/jest-dom": "5.9.0",
     "@testing-library/react": "9.4.1",
     "babel-jest": "25.1.0",
     "jest": "26.0.1",

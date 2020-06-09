@@ -19,7 +19,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-## [1.0.18-beta.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-toast@1.0.17...@datacamp/waffles-toast@1.0.18-beta.0) (2020-06-05)
+## [1.0.18](https://github.com/datacamp/design-system/compare/@datacamp/waffles-toast@1.0.17...@datacamp/waffles-toast@1.0.18) (2020-06-09)
 
 **Note:** Version bump only for package @datacamp/waffles-toast
 

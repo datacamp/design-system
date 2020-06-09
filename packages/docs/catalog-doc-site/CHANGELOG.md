@@ -28,6 +28,9 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 * make doc site look obviously beta ([b8cd2ff](https://github.com/datacamp/design-system/commit/b8cd2ff))
 * make the docsite very obviously beta ([a3d2c2d](https://github.com/datacamp/design-system/commit/a3d2c2d))
+## [1.39.6](https://github.com/datacamp/design-system/compare/@datacamp/waffles-catalog-doc-site@1.39.5...@datacamp/waffles-catalog-doc-site@1.39.6) (2020-06-09)
+
+**Note:** Version bump only for package @datacamp/waffles-catalog-doc-site
 
 
 
