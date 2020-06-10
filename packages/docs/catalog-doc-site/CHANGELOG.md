@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0-beta.2](https://github.com/datacamp/design-system/compare/@datacamp/waffles-catalog-doc-site@2.0.0-beta.1...@datacamp/waffles-catalog-doc-site@2.0.0-beta.2) (2020-06-10)
+
+
+### Features
+
+* host the studio feixen fonts ([543f3db](https://github.com/datacamp/design-system/commit/543f3db))
+
+
+
+
+
 # [2.0.0-beta.1](https://github.com/datacamp/design-system/compare/@datacamp/waffles-catalog-doc-site@1.39.6...@datacamp/waffles-catalog-doc-site@2.0.0-beta.1) (2020-06-09)
 
 
