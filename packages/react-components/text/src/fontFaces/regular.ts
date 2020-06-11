@@ -5,6 +5,7 @@ export default css({
   /* latin-ext */
   '@font-face': {
     fontFamily: tokens.asset.font.sansSerif.value,
-    src: "url('./Studio-Feixen-Sans-Variable.ttf') format('truetype')",
+    src:
+      "url('https://waffles-beta.datacamp.com/fonts/studio-feixen-sans-variable.ttf') format('truetype')",
   },
 });
