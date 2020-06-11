@@ -4,8 +4,8 @@ exports[`Core generates the correct files: lib/css/waffles.css 1`] = `
 "@charset \\"UTF-8\\";
 @font-face {
   font-family: 'Studio-Feixen-Sans-Variable';
-  src: url(9556bf5ec66abe353f8179a985707f62.ttf) format(\\"truetype\\");
-  font-weight: 100 400;
+  src: url(\\"https://waffles-beta.datacamp.com/fonts/studio-feixen-sans-variable.ttf\\") format(\\"truetype\\");
+  font-weight: 100 900;
 }
 /**
  * Disabled stylelint because it's incorrectly identifying unicode as SCSS
@@ -15339,8 +15339,9 @@ $dc-sides: (
 exports[`Core generates the correct files: lib/scss/design/vendor/_feixen-font.scss 1`] = `
 "@font-face {
   font-family: 'Studio-Feixen-Sans-Variable';
-  src: url('./Studio-Feixen-Sans-Variable.ttf') format('truetype');
-  font-weight: 100 400;
+  src: url('https://waffles-beta.datacamp.com/fonts/studio-feixen-sans-variable.ttf')
+    format('truetype');
+  font-weight: 100 900;
 }
 "
 `;
@@ -16029,12 +16030,6 @@ Object {
 exports[`Core has correct file structure 1`] = `
 Object {
   "children": Array [
-    Object {
-      "extension": ".ttf",
-      "name": "9556bf5ec66abe353f8179a985707f62.ttf",
-      "path": "lib/9556bf5ec66abe353f8179a985707f62.ttf",
-      "type": "file",
-    },
     Object {
       "children": Array [
         Object {
@@ -16918,12 +16913,6 @@ Object {
     Object {
       "children": Array [
         Object {
-          "extension": ".ttf",
-          "name": "Studio-Feixen-Sans-Variable.ttf",
-          "path": "lib/scss/Studio-Feixen-Sans-Variable.ttf",
-          "type": "file",
-        },
-        Object {
           "extension": ".scss",
           "name": "custom.scss",
           "path": "lib/scss/custom.scss",
@@ -17198,12 +17187,6 @@ Object {
             },
             Object {
               "children": Array [
-                Object {
-                  "extension": ".ttf",
-                  "name": "Studio-Feixen-Sans-Variable.ttf",
-                  "path": "lib/scss/design/vendor/Studio-Feixen-Sans-Variable.ttf",
-                  "type": "file",
-                },
                 Object {
                   "extension": ".scss",
                   "name": "_feixen-font.scss",
