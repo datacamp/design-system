@@ -8,7 +8,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent d
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
-  font-weight: 170;
+  font-weight: 400;
   line-height: 16px;
   font-size: 20px;
   line-height: 62px;
@@ -173,7 +173,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent d
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
-  font-weight: 170;
+  font-weight: 400;
   line-height: 16px;
   font-size: 20px;
   line-height: 62px;
@@ -393,7 +393,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent d
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
-  font-weight: 170;
+  font-weight: 400;
   line-height: 16px;
   font-size: 16px;
   line-height: 46px;
@@ -558,7 +558,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent d
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
-  font-weight: 170;
+  font-weight: 400;
   line-height: 16px;
   font-size: 16px;
   line-height: 46px;
@@ -778,7 +778,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent d
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
-  font-weight: 170;
+  font-weight: 400;
   line-height: 16px;
   font-size: 16px;
   line-height: 34px;
@@ -943,7 +943,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent d
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
-  font-weight: 170;
+  font-weight: 400;
   line-height: 16px;
   font-size: 16px;
   line-height: 34px;
@@ -1221,7 +1221,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent n
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
-  font-weight: 170;
+  font-weight: 400;
   line-height: 16px;
   font-size: 20px;
   line-height: 62px;
@@ -1394,7 +1394,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent n
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
-  font-weight: 170;
+  font-weight: 400;
   line-height: 16px;
   font-size: 20px;
   line-height: 62px;
@@ -1606,7 +1606,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent n
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
-  font-weight: 170;
+  font-weight: 400;
   line-height: 16px;
   font-size: 16px;
   line-height: 46px;
@@ -1779,7 +1779,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent n
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
-  font-weight: 170;
+  font-weight: 400;
   line-height: 16px;
   font-size: 16px;
   line-height: 46px;
@@ -1991,7 +1991,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent n
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
-  font-weight: 170;
+  font-weight: 400;
   line-height: 16px;
   font-size: 16px;
   line-height: 34px;
@@ -2164,7 +2164,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent n
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
-  font-weight: 170;
+  font-weight: 400;
   line-height: 16px;
   font-size: 16px;
   line-height: 34px;
@@ -2318,7 +2318,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent s
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
-  font-weight: 170;
+  font-weight: 400;
   line-height: 16px;
   font-size: 20px;
   line-height: 62px;
@@ -2483,7 +2483,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent s
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
-  font-weight: 170;
+  font-weight: 400;
   line-height: 16px;
   font-size: 20px;
   line-height: 62px;
@@ -2703,7 +2703,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent s
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
-  font-weight: 170;
+  font-weight: 400;
   line-height: 16px;
   font-size: 16px;
   line-height: 46px;
@@ -2868,7 +2868,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent s
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
-  font-weight: 170;
+  font-weight: 400;
   line-height: 16px;
   font-size: 16px;
   line-height: 46px;
@@ -3088,7 +3088,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent s
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
-  font-weight: 170;
+  font-weight: 400;
   line-height: 16px;
   font-size: 16px;
   line-height: 34px;
@@ -3253,7 +3253,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent s
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
-  font-weight: 170;
+  font-weight: 400;
   line-height: 16px;
   font-size: 16px;
   line-height: 34px;
@@ -3473,7 +3473,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent w
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
-  font-weight: 170;
+  font-weight: 400;
   line-height: 16px;
   font-size: 20px;
   line-height: 62px;
@@ -3638,7 +3638,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent w
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
-  font-weight: 170;
+  font-weight: 400;
   line-height: 16px;
   font-size: 20px;
   line-height: 62px;
@@ -3858,7 +3858,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent w
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
-  font-weight: 170;
+  font-weight: 400;
   line-height: 16px;
   font-size: 16px;
   line-height: 46px;
@@ -4023,7 +4023,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent w
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
-  font-weight: 170;
+  font-weight: 400;
   line-height: 16px;
   font-size: 16px;
   line-height: 46px;
@@ -4243,7 +4243,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent w
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
-  font-weight: 170;
+  font-weight: 400;
   line-height: 16px;
   font-size: 16px;
   line-height: 34px;
@@ -4408,7 +4408,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent w
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
-  font-weight: 170;
+  font-weight: 400;
   line-height: 16px;
   font-size: 16px;
   line-height: 34px;
@@ -4628,7 +4628,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent c
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
-  font-weight: 170;
+  font-weight: 400;
   line-height: 16px;
   font-size: 20px;
   line-height: 62px;
@@ -4799,7 +4799,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent c
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
-  font-weight: 170;
+  font-weight: 400;
   line-height: 16px;
   font-size: 20px;
   line-height: 62px;
@@ -5020,7 +5020,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent c
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
-  font-weight: 170;
+  font-weight: 400;
   line-height: 16px;
   font-size: 16px;
   line-height: 46px;
@@ -5191,7 +5191,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent c
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
-  font-weight: 170;
+  font-weight: 400;
   line-height: 16px;
   font-size: 16px;
   line-height: 46px;
@@ -5412,7 +5412,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent c
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
-  font-weight: 170;
+  font-weight: 400;
   line-height: 16px;
   font-size: 16px;
   line-height: 34px;
@@ -5583,7 +5583,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent c
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
-  font-weight: 170;
+  font-weight: 400;
   line-height: 16px;
   font-size: 16px;
   line-height: 34px;
@@ -5804,7 +5804,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent d
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
-  font-weight: 170;
+  font-weight: 400;
   line-height: 16px;
   font-size: 20px;
   line-height: 62px;
@@ -5975,7 +5975,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent d
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
-  font-weight: 170;
+  font-weight: 400;
   line-height: 16px;
   font-size: 20px;
   line-height: 62px;
@@ -6196,7 +6196,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent d
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
-  font-weight: 170;
+  font-weight: 400;
   line-height: 16px;
   font-size: 16px;
   line-height: 46px;
@@ -6367,7 +6367,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent d
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
-  font-weight: 170;
+  font-weight: 400;
   line-height: 16px;
   font-size: 16px;
   line-height: 46px;
@@ -6652,7 +6652,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent d
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
-  font-weight: 170;
+  font-weight: 400;
   line-height: 16px;
   font-size: 16px;
   line-height: 34px;
@@ -6759,7 +6759,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent d
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
-  font-weight: 170;
+  font-weight: 400;
   line-height: 16px;
   font-size: 16px;
   line-height: 34px;
@@ -7044,7 +7044,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent n
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
-  font-weight: 170;
+  font-weight: 400;
   line-height: 16px;
   font-size: 20px;
   line-height: 62px;
@@ -7151,7 +7151,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent n
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
-  font-weight: 170;
+  font-weight: 400;
   line-height: 16px;
   font-size: 20px;
   line-height: 62px;
@@ -7436,7 +7436,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent n
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
-  font-weight: 170;
+  font-weight: 400;
   line-height: 16px;
   font-size: 16px;
   line-height: 46px;
@@ -7543,7 +7543,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent n
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
-  font-weight: 170;
+  font-weight: 400;
   line-height: 16px;
   font-size: 16px;
   line-height: 46px;
@@ -7828,7 +7828,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent n
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
-  font-weight: 170;
+  font-weight: 400;
   line-height: 16px;
   font-size: 16px;
   line-height: 34px;
@@ -8002,7 +8002,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent n
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
-  font-weight: 170;
+  font-weight: 400;
   line-height: 16px;
   font-size: 16px;
   line-height: 34px;
@@ -8156,7 +8156,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent s
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
-  font-weight: 170;
+  font-weight: 400;
   line-height: 16px;
   font-size: 20px;
   line-height: 62px;
@@ -8327,7 +8327,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent s
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
-  font-weight: 170;
+  font-weight: 400;
   line-height: 16px;
   font-size: 20px;
   line-height: 62px;
@@ -8548,7 +8548,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent s
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
-  font-weight: 170;
+  font-weight: 400;
   line-height: 16px;
   font-size: 16px;
   line-height: 46px;
@@ -8719,7 +8719,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent s
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
-  font-weight: 170;
+  font-weight: 400;
   line-height: 16px;
   font-size: 16px;
   line-height: 46px;
@@ -9004,7 +9004,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent s
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
-  font-weight: 170;
+  font-weight: 400;
   line-height: 16px;
   font-size: 16px;
   line-height: 34px;
@@ -9111,7 +9111,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent s
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
-  font-weight: 170;
+  font-weight: 400;
   line-height: 16px;
   font-size: 16px;
   line-height: 34px;
@@ -9332,7 +9332,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent w
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
-  font-weight: 170;
+  font-weight: 400;
   line-height: 16px;
   font-size: 20px;
   line-height: 62px;
@@ -9503,7 +9503,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent w
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
-  font-weight: 170;
+  font-weight: 400;
   line-height: 16px;
   font-size: 20px;
   line-height: 62px;
@@ -9724,7 +9724,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent w
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
-  font-weight: 170;
+  font-weight: 400;
   line-height: 16px;
   font-size: 16px;
   line-height: 46px;
@@ -9895,7 +9895,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent w
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
-  font-weight: 170;
+  font-weight: 400;
   line-height: 16px;
   font-size: 16px;
   line-height: 46px;
@@ -10180,7 +10180,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent w
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
-  font-weight: 170;
+  font-weight: 400;
   line-height: 16px;
   font-size: 16px;
   line-height: 34px;
@@ -10287,7 +10287,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent w
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
-  font-weight: 170;
+  font-weight: 400;
   line-height: 16px;
   font-size: 16px;
   line-height: 34px;
@@ -10646,7 +10646,7 @@ exports[`<Button /> tooltips tooltip appearance snapshots renders a tooltip with
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
-  font-weight: 170;
+  font-weight: 400;
   line-height: 16px;
   font-size: 16px;
   line-height: 46px;
@@ -10686,7 +10686,7 @@ exports[`<Button /> tooltips tooltip appearance snapshots renders a tooltip with
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
-  font-weight: 170;
+  font-weight: 400;
   line-height: 16px;
   font-size: 14px;
   white-space: nowrap;
@@ -10790,7 +10790,7 @@ exports[`<Button /> tooltips tooltip appearance snapshots renders a tooltip with
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
-  font-weight: 170;
+  font-weight: 400;
   line-height: 16px;
   font-size: 16px;
   line-height: 46px;
@@ -10829,7 +10829,7 @@ exports[`<Button /> tooltips tooltip appearance snapshots renders a tooltip with
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
-  font-weight: 170;
+  font-weight: 400;
   line-height: 16px;
   font-size: 14px;
   white-space: nowrap;
@@ -10933,7 +10933,7 @@ exports[`<Button /> tooltips tooltip appearance snapshots renders a tooltip with
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
-  font-weight: 170;
+  font-weight: 400;
   line-height: 16px;
   font-size: 16px;
   line-height: 46px;
@@ -10973,7 +10973,7 @@ exports[`<Button /> tooltips tooltip appearance snapshots renders a tooltip with
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
-  font-weight: 170;
+  font-weight: 400;
   line-height: 16px;
   font-size: 14px;
   white-space: nowrap;
@@ -11077,7 +11077,7 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at b
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
-  font-weight: 170;
+  font-weight: 400;
   line-height: 16px;
   font-size: 16px;
   line-height: 46px;
@@ -11117,7 +11117,7 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at b
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
-  font-weight: 170;
+  font-weight: 400;
   line-height: 16px;
   font-size: 14px;
   white-space: nowrap;
@@ -11221,7 +11221,7 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at b
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
-  font-weight: 170;
+  font-weight: 400;
   line-height: 16px;
   font-size: 16px;
   line-height: 46px;
@@ -11236,7 +11236,7 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at b
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
-  font-weight: 170;
+  font-weight: 400;
   line-height: 16px;
   font-size: 14px;
   white-space: nowrap;
@@ -11362,7 +11362,7 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at b
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
-  font-weight: 170;
+  font-weight: 400;
   line-height: 16px;
   font-size: 16px;
   line-height: 46px;
@@ -11377,7 +11377,7 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at b
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
-  font-weight: 170;
+  font-weight: 400;
   line-height: 16px;
   font-size: 14px;
   white-space: nowrap;
@@ -11506,7 +11506,7 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at l
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
-  font-weight: 170;
+  font-weight: 400;
   line-height: 16px;
   font-size: 16px;
   line-height: 46px;
@@ -11521,7 +11521,7 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at l
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
-  font-weight: 170;
+  font-weight: 400;
   line-height: 16px;
   font-size: 14px;
   white-space: nowrap;
@@ -11650,7 +11650,7 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at r
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
-  font-weight: 170;
+  font-weight: 400;
   line-height: 16px;
   font-size: 16px;
   line-height: 46px;
@@ -11665,7 +11665,7 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at r
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
-  font-weight: 170;
+  font-weight: 400;
   line-height: 16px;
   font-size: 14px;
   white-space: nowrap;
@@ -11794,7 +11794,7 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at t
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
-  font-weight: 170;
+  font-weight: 400;
   line-height: 16px;
   font-size: 16px;
   line-height: 46px;
@@ -11809,7 +11809,7 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at t
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
-  font-weight: 170;
+  font-weight: 400;
   line-height: 16px;
   font-size: 14px;
   white-space: nowrap;
@@ -11938,7 +11938,7 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at t
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
-  font-weight: 170;
+  font-weight: 400;
   line-height: 16px;
   font-size: 16px;
   line-height: 46px;
@@ -11953,7 +11953,7 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at t
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
-  font-weight: 170;
+  font-weight: 400;
   line-height: 16px;
   font-size: 14px;
   white-space: nowrap;
@@ -12082,7 +12082,7 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at t
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
-  font-weight: 170;
+  font-weight: 400;
   line-height: 16px;
   font-size: 16px;
   line-height: 46px;
@@ -12097,7 +12097,7 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at t
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
-  font-weight: 170;
+  font-weight: 400;
   line-height: 16px;
   font-size: 14px;
   white-space: nowrap;
@@ -12226,7 +12226,7 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at u
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
-  font-weight: 170;
+  font-weight: 400;
   line-height: 16px;
   font-size: 16px;
   line-height: 46px;
@@ -12266,7 +12266,7 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at u
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
-  font-weight: 170;
+  font-weight: 400;
   line-height: 16px;
   font-size: 14px;
   white-space: nowrap;

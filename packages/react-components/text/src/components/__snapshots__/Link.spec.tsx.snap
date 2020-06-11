@@ -10,7 +10,7 @@ exports[`<Text /> renders with a string 1`] = `
   color: #33aacc;
   cursor: pointer;
   font-size: 16px;
-  font-weight: 170;
+  font-weight: 400;
   line-height: 16px;
   -webkit-text-decoration: underline;
   text-decoration: underline;
