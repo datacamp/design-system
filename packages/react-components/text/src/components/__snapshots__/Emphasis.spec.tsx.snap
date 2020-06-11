@@ -8,7 +8,7 @@ exports[`<Emphasis /> renders 1`] = `
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-style: italic;
-  font-weight: 170;
+  font-weight: 400;
   line-height: 16px;
 }
 

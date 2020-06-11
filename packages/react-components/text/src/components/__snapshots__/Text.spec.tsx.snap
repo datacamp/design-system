@@ -8,7 +8,7 @@ exports[`<Text /> renders with Small children 1`] = `
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
-  font-weight: 170;
+  font-weight: 400;
   line-height: 16px;
 }
 
@@ -45,7 +45,7 @@ exports[`<Text /> renders with Strong children 1`] = `
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
-  font-weight: 170;
+  font-weight: 400;
   line-height: 16px;
 }
 
@@ -55,7 +55,7 @@ exports[`<Text /> renders with Strong children 1`] = `
   font-family: sans-serif;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
-  font-weight: 350;
+  font-weight: 800;
   line-height: 16px;
 }
 
@@ -82,7 +82,7 @@ exports[`<Text /> renders with a string 1`] = `
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
-  font-weight: 170;
+  font-weight: 400;
   line-height: 16px;
 }
 

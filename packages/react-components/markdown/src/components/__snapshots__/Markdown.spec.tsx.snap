@@ -8,7 +8,7 @@ exports[`<Markdown /> renders 1`] = `
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   color: rgb(61,66,81);
-  font-weight: 350;
+  font-weight: 800;
   line-height: 1.25;
   margin: 0;
   overflow: hidden;
@@ -28,7 +28,7 @@ exports[`<Markdown /> renders 1`] = `
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   color: rgb(61,66,81);
-  font-weight: 350;
+  font-weight: 800;
   line-height: 1.25;
   margin: 0;
   overflow: hidden;
@@ -48,7 +48,7 @@ exports[`<Markdown /> renders 1`] = `
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   color: rgb(61,66,81);
-  font-weight: 350;
+  font-weight: 800;
   line-height: 1.25;
   margin: 0;
   overflow: hidden;
@@ -68,7 +68,7 @@ exports[`<Markdown /> renders 1`] = `
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   color: rgb(61,66,81);
-  font-weight: 350;
+  font-weight: 800;
   line-height: 1.25;
   margin: 0;
   overflow: hidden;
@@ -88,7 +88,7 @@ exports[`<Markdown /> renders 1`] = `
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   color: rgb(61,66,81);
-  font-weight: 350;
+  font-weight: 800;
   line-height: 1.25;
   margin: 0;
   overflow: hidden;
@@ -108,7 +108,7 @@ exports[`<Markdown /> renders 1`] = `
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   color: rgb(61,66,81);
-  font-weight: 350;
+  font-weight: 800;
   line-height: 1.25;
   margin: 0;
   overflow: hidden;
@@ -127,7 +127,7 @@ exports[`<Markdown /> renders 1`] = `
   font-family: sans-serif;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
-  font-weight: 350;
+  font-weight: 800;
   line-height: 16px;
 }
 
@@ -138,7 +138,7 @@ exports[`<Markdown /> renders 1`] = `
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
-  font-weight: 170;
+  font-weight: 400;
   line-height: 1.5;
   margin: 0;
 }
@@ -154,7 +154,7 @@ exports[`<Markdown /> renders 1`] = `
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-style: italic;
-  font-weight: 170;
+  font-weight: 400;
   line-height: 16px;
 }
 

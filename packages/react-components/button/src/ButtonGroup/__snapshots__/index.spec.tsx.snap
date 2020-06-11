@@ -75,7 +75,7 @@ exports[`ButtonGroup renders the buttons or CompactButtonGroups with 16px spaces
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
-  font-weight: 170;
+  font-weight: 400;
   line-height: 16px;
   font-size: 16px;
   line-height: 46px;
@@ -584,7 +584,7 @@ exports[`ButtonGroup renders the small buttons or CompactButtonGroups with 8px s
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
-  font-weight: 170;
+  font-weight: 400;
   line-height: 16px;
   font-size: 16px;
   line-height: 34px;

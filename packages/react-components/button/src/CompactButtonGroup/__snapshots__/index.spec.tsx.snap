@@ -90,7 +90,7 @@ exports[`CompactButtonGroup renders the buttons next to each other 1`] = `
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
-  font-weight: 170;
+  font-weight: 400;
   line-height: 16px;
   font-size: 16px;
   line-height: 46px;
