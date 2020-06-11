@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0-beta.3](https://github.com/datacamp/design-system/compare/@datacamp/waffles-catalog-doc-site@2.0.0-beta.2...@datacamp/waffles-catalog-doc-site@2.0.0-beta.3) (2020-06-11)
+
+
+### Features
+
+* load font from hosted version ([0988a6c](https://github.com/datacamp/design-system/commit/0988a6c))
+
+
+
+
+
 # [2.0.0-beta.2](https://github.com/datacamp/design-system/compare/@datacamp/waffles-catalog-doc-site@2.0.0-beta.1...@datacamp/waffles-catalog-doc-site@2.0.0-beta.2) (2020-06-10)
 
 

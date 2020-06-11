@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0-beta.2](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/tag/compare/@datacamp/waffles-tag@2.0.0-beta.1...@datacamp/waffles-tag@2.0.0-beta.2) (2020-06-11)
+
+
+### Features
+
+* update font weights to work with latest font version ([812a41b](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/tag/commit/812a41b))
+
+
+
+
+
 # [2.0.0-beta.1](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/tag/compare/@datacamp/waffles-tag@1.2.16...@datacamp/waffles-tag@2.0.0-beta.1) (2020-06-09)
 
 

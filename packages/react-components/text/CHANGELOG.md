@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [4.0.0-beta.2](https://github.com/datacamp/design-system/compare/@datacamp/waffles-text@4.0.0-beta.1...@datacamp/waffles-text@4.0.0-beta.2) (2020-06-11)
+
+
+### Features
+
+* load font from hosted version ([bc575ce](https://github.com/datacamp/design-system/commit/bc575ce))
+* update font weights to work with latest font version ([812a41b](https://github.com/datacamp/design-system/commit/812a41b))
+
+
+
+
+
 # [4.0.0-beta.1](https://github.com/datacamp/design-system/compare/@datacamp/waffles-text@3.0.9...@datacamp/waffles-text@4.0.0-beta.1) (2020-06-09)
 
 

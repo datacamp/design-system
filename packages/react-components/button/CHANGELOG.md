@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [6.0.0-beta.2](https://github.com/datacamp/design-system/compare/@datacamp/waffles-button@6.0.0-beta.1...@datacamp/waffles-button@6.0.0-beta.2) (2020-06-11)
+
+
+### Features
+
+* update font weights to work with latest font version ([812a41b](https://github.com/datacamp/design-system/commit/812a41b))
+
+
+
+
+
 # [6.0.0-beta.1](https://github.com/datacamp/design-system/compare/@datacamp/waffles-button@5.1.10...@datacamp/waffles-button@6.0.0-beta.1) (2020-06-09)
 
 
