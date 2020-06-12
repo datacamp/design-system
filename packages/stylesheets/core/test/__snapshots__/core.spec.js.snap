@@ -4553,7 +4553,6 @@ body {
   -webkit-font-smoothing: antialiased;
   font-weight: 400;
   line-height: 1.5;
-  font-variation-settings: 'wdth' 0;
 }
 h1,
 .h1,
@@ -13193,7 +13192,6 @@ body {
   -webkit-font-smoothing: antialiased;
   font-weight: $dc-font-weight-regular;
   line-height: $dc-line-height-base;
-  font-variation-settings: 'wdth' 0;
 }
 
 // Headings
