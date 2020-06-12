@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0-beta.3](https://github.com/datacamp/design-system/compare/@datacamp/waffles-core@2.0.0-beta.2...@datacamp/waffles-core@2.0.0-beta.3) (2020-06-12)
+
+
+### Bug Fixes
+
+* font width/stretch for latest version of fonts ([f7a8ca8](https://github.com/datacamp/design-system/commit/f7a8ca8))
+
+
+
+
+
 # [2.0.0-beta.2](https://github.com/datacamp/design-system/compare/@datacamp/waffles-core@2.0.0-beta.1...@datacamp/waffles-core@2.0.0-beta.2) (2020-06-11)
 
 
