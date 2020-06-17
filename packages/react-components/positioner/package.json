@@ -41,7 +41,7 @@
     "@stryker-mutator/typescript": "^3.2.4",
     "@testing-library/jest-dom": "5.9.0",
     "@testing-library/react": "9.4.1",
-    "babel-jest": "25.1.0",
+    "babel-jest": "26.0.1",
     "jest": "26.0.1",
     "jest-emotion": "10.0.32",
     "react": "16.8.6",
