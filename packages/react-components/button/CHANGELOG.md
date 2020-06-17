@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [5.1.11](https://github.com/datacamp/design-system/compare/@datacamp/waffles-button@5.1.10...@datacamp/waffles-button@5.1.11) (2020-06-17)
+
+
+### Bug Fixes
+
+* add optional onClick to buttons with type="link" ([5ad2757](https://github.com/datacamp/design-system/commit/5ad2757))
+
+
+
+
+
 ## [5.1.10](https://github.com/datacamp/design-system/compare/@datacamp/waffles-button@5.1.9...@datacamp/waffles-button@5.1.10) (2020-06-09)
 
 **Note:** Version bump only for package @datacamp/waffles-button
