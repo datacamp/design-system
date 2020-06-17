@@ -55,7 +55,7 @@
     "react": "16.8.6",
     "react-dom": "16.8.6",
     "svglint": "1.0.5",
-    "typescript": "3.9.3"
+    "typescript": "3.9.5"
   },
   "browserslist": ["last 2 versions", "Firefox ESR", "not IE < 11"],
   "engines": {
