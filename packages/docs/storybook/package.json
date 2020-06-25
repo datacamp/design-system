@@ -41,7 +41,7 @@
     "@datacamp/waffles-babel-preset": "^1.4.10",
     "@datacamp/waffles-cypress-axe-config": "^1.1.1",
     "@percy/storybook": "3.3.0",
-    "@storybook/addon-a11y": "5.3.18",
+    "@storybook/addon-a11y": "5.3.19",
     "babel-loader": "8.1.0",
     "cypress-axe": "^0.8.1",
     "cypress-storybook": "^0.2.0",
