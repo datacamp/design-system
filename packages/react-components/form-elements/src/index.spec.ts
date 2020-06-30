@@ -1,3 +1,5 @@
+import CheckboxList from './CheckboxList';
+import Checkbox from './CheckboxList/Checkbox';
 import Input from './Input';
 import Label from './Label';
 import RadioList from './RadioList/index';
@@ -11,6 +13,8 @@ import * as packageExports from '.';
 describe('package index', () => {
   it('exports all the components', () => {
     expect(packageExports).toEqual({
+      Checkbox,
+      CheckboxList,
       Input,
       Label,
       Radio,
