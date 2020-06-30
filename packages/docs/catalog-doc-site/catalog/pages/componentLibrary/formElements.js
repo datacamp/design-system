@@ -1,5 +1,7 @@
 import Card from '@datacamp/waffles-card';
 import {
+  Checkbox,
+  CheckboxList,
   Input,
   Radio,
   RadioList,
@@ -66,12 +68,22 @@ export default () => {
                 <Code>RadioList</Code> to specify an available option.
               </List.Item>
               <List.Item>
+                <Strong>CheckboxList –</Strong> Allows the user to choose
+                multiple from a list of options.
+              </List.Item>
+              <List.Item>
+                <Strong>Checkbox -</Strong> To be used within a{' '}
+                <Code>CheckboxList</Code> to specify an available option.
+              </List.Item>
+              <List.Item>
                 <Strong>TextArea -</Strong> Able to handle longer form text
                 input.
               </List.Item>
             </List>
             <CodeBlock>
               {`import {
+  Checkbox,
+  CheckboxList,
   Input,
   Radio,
   RadioList,
@@ -139,6 +151,8 @@ export default () => {
   );
 };`}
               scope={{
+                Checkbox,
+                CheckboxList,
                 Input,
                 Radio,
                 RadioList,
@@ -170,6 +184,14 @@ export default () => {
           <PropTable
             componentData={FormElementData['src/RadioList/Radio.tsx'][0]}
             componentName="Radio"
+          />
+          <PropTable
+            componentData={FormElementData['src/CheckboxList/index.tsx'][0]}
+            componentName="CheckboxList"
+          />
+          <PropTable
+            componentData={FormElementData['src/CheckboxList/Checkbox.tsx'][0]}
+            componentName="Checkbox"
           />
           <PropTable
             componentData={FormElementData['src/TextArea/index.tsx'][0]}
