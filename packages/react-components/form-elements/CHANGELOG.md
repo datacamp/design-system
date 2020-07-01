@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.10.0](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/form-elements/compare/@datacamp/waffles-form-elements@2.9.10...@datacamp/waffles-form-elements@2.10.0) (2020-07-01)
+
+
+### Features
+
+* add CheckboxList component ([5c9b6c0](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/form-elements/commit/5c9b6c0))
+
+
+
+
+
 ## [2.9.10](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/form-elements/compare/@datacamp/waffles-form-elements@2.9.9...@datacamp/waffles-form-elements@2.9.10) (2020-06-17)
 
 **Note:** Version bump only for package @datacamp/waffles-form-elements
