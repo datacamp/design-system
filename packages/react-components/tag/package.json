@@ -39,7 +39,7 @@
   },
   "devDependencies": {
     "@babel/cli": "^7.7.7",
-    "@babel/core": "^7.9.6",
+    "@babel/core": "^7.10.3",
     "@datacamp/waffles-axe-render": "^1.2.2",
     "@datacamp/waffles-babel-preset": "^1.4.10",
     "@datacamp/waffles-tsconfig": "^1.1.11",
