@@ -18187,10 +18187,10 @@ remove-bom-stream@^1.2.0:
     safe-buffer "^5.1.0"
     through2 "^2.0.3"
 
-remove-files-webpack-plugin@1.4.2:
-  version "1.4.2"
-  resolved "https://registry.yarnpkg.com/remove-files-webpack-plugin/-/remove-files-webpack-plugin-1.4.2.tgz#6fa22fb7797e08f92fa2efecc3d10087c696e2f2"
-  integrity sha512-oRuzmlSiqSYX724sufzuJUVFmELfWo8Y8kWNCATzr917ybpGkp4CxhbNrFsvhQBsrzvfaIK+lHvYpjcrG7fAdw==
+remove-files-webpack-plugin@1.4.3:
+  version "1.4.3"
+  resolved "https://registry.yarnpkg.com/remove-files-webpack-plugin/-/remove-files-webpack-plugin-1.4.3.tgz#7e205b38693d75ce065791bfa478b53e28cb4118"
+  integrity sha512-NOqO5gB4uMeflnnKmouTcRWHPKCI2a3Ft44vQ7Os7avn/N3pK/TEPyCtja3W2A82BlWELXbueRUwPNhc+qNnag==
   dependencies:
     "@types/webpack" "4.41.12"
     trash "6.1.1"
