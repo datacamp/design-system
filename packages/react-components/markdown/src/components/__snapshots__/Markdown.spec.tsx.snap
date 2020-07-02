@@ -187,7 +187,7 @@ exports[`<Markdown /> renders 1`] = `
   border-radius: 4px;
   color: rgb(61,66,81);
   font-family: monospace;
-  font-family: Roboto Mono;
+  font-family: Studio-Feixen-Writer;
   font-size: 14px;
   -webkit-letter-spacing: 0;
   -moz-letter-spacing: 0;
@@ -229,7 +229,7 @@ exports[`<Markdown /> renders 1`] = `
   border-radius: 4px;
   color: rgb(61,66,81);
   font-family: monospace;
-  font-family: Roboto Mono;
+  font-family: Studio-Feixen-Writer;
   font-size: 14px;
   -webkit-letter-spacing: 0;
   -moz-letter-spacing: 0;

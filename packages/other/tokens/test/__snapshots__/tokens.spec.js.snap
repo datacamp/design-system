@@ -72,7 +72,7 @@ Object {
     "whiteTransparent": "rgba(255, 255, 255, 0.2)",
   },
   "fontFamily": Object {
-    "mono": "'Roboto Mono'",
+    "mono": "'Studio-Feixen-Writer'",
     "sansSerif": "'Studio-Feixen-Sans-Variable'",
   },
   "fontSize": Object {
@@ -137,14 +137,14 @@ Object {
           "attributes": Object {
             "fallback": "monospace",
           },
-          "value": "Roboto Mono",
+          "value": "Studio-Feixen-Writer",
         },
         "path": Array [
           "asset",
           "font",
           "mono",
         ],
-        "value": "Roboto Mono",
+        "value": "Studio-Feixen-Writer",
       },
       "sansSerif": Object {
         "attributes": Object {
@@ -2991,7 +2991,7 @@ $dc-gradient-turquoise: linear-gradient(-135deg, #b8eef4, #78c8de);
 
 // Font family
 $dc-font-family-sans-serif: 'Studio-Feixen-Sans-Variable', sans-serif;
-$dc-font-family-mono: 'Roboto Mono', monospace;
+$dc-font-family-mono: 'Studio-Feixen-Writer', monospace;
 
 // Font size
 $dc-font-size-micro: 0.75rem;
