@@ -6,8 +6,12 @@ exports[`with label snapshots renders a select element with size large, disabled
 }
 
 .emotion-9 {
+  border: 0;
   display: block;
+  margin: 0;
   margin-top: 0;
+  min-width: 0;
+  padding: 0;
 }
 
 *:not(style) ~ .emotion-9 {
@@ -15,7 +19,9 @@ exports[`with label snapshots renders a select element with size large, disabled
 }
 
 .emotion-4 {
+  display: block;
   margin-bottom: 12px;
+  padding: 0;
 }
 
 .emotion-3 {
@@ -147,7 +153,7 @@ exports[`with label snapshots renders a select element with size large, disabled
   class="emotion-9"
   for="this is a name"
 >
-  <div
+  <span
     class="emotion-4"
   >
     <span
@@ -168,7 +174,7 @@ exports[`with label snapshots renders a select element with size large, disabled
         </span>
       </div>
     </span>
-  </div>
+  </span>
   <div
     class="emotion-7"
   >
@@ -225,8 +231,12 @@ exports[`with label snapshots renders a select element with size large, disabled
 }
 
 .emotion-10 {
+  border: 0;
   display: block;
+  margin: 0;
   margin-top: 0;
+  min-width: 0;
+  padding: 0;
 }
 
 *:not(style) ~ .emotion-10 {
@@ -234,7 +244,9 @@ exports[`with label snapshots renders a select element with size large, disabled
 }
 
 .emotion-5 {
+  display: block;
   margin-bottom: 12px;
+  padding: 0;
 }
 
 .emotion-4 {
@@ -379,7 +391,7 @@ exports[`with label snapshots renders a select element with size large, disabled
   class="emotion-10"
   for="this is a name"
 >
-  <div
+  <span
     class="emotion-5"
   >
     <span
@@ -405,7 +417,7 @@ exports[`with label snapshots renders a select element with size large, disabled
         </span>
       </div>
     </span>
-  </div>
+  </span>
   <div
     class="emotion-8"
   >
@@ -462,8 +474,12 @@ exports[`with label snapshots renders a select element with size large, disabled
 }
 
 .emotion-7 {
+  border: 0;
   display: block;
+  margin: 0;
   margin-top: 0;
+  min-width: 0;
+  padding: 0;
 }
 
 *:not(style) ~ .emotion-7 {
@@ -471,7 +487,9 @@ exports[`with label snapshots renders a select element with size large, disabled
 }
 
 .emotion-2 {
+  display: block;
   margin-bottom: 12px;
+  padding: 0;
 }
 
 .emotion-1 {
@@ -582,7 +600,7 @@ exports[`with label snapshots renders a select element with size large, disabled
   class="emotion-7"
   for="this is a name"
 >
-  <div
+  <span
     class="emotion-2"
   >
     <span
@@ -594,7 +612,7 @@ exports[`with label snapshots renders a select element with size large, disabled
         test label
       </span>
     </span>
-  </div>
+  </span>
   <div
     class="emotion-5"
   >
@@ -651,8 +669,12 @@ exports[`with label snapshots renders a select element with size large, disabled
 }
 
 .emotion-9 {
+  border: 0;
   display: block;
+  margin: 0;
   margin-top: 0;
+  min-width: 0;
+  padding: 0;
 }
 
 *:not(style) ~ .emotion-9 {
@@ -660,7 +682,9 @@ exports[`with label snapshots renders a select element with size large, disabled
 }
 
 .emotion-4 {
+  display: block;
   margin-bottom: 12px;
+  padding: 0;
 }
 
 .emotion-3 {
@@ -792,7 +816,7 @@ exports[`with label snapshots renders a select element with size large, disabled
   class="emotion-9"
   for="this is a name"
 >
-  <div
+  <span
     class="emotion-4"
   >
     <span
@@ -813,7 +837,7 @@ exports[`with label snapshots renders a select element with size large, disabled
         </span>
       </div>
     </span>
-  </div>
+  </span>
   <div
     class="emotion-7"
   >
@@ -871,8 +895,12 @@ exports[`with label snapshots renders a select element with size large, disabled
 }
 
 .emotion-10 {
+  border: 0;
   display: block;
+  margin: 0;
   margin-top: 0;
+  min-width: 0;
+  padding: 0;
 }
 
 *:not(style) ~ .emotion-10 {
@@ -880,7 +908,9 @@ exports[`with label snapshots renders a select element with size large, disabled
 }
 
 .emotion-5 {
+  display: block;
   margin-bottom: 12px;
+  padding: 0;
 }
 
 .emotion-4 {
@@ -1025,7 +1055,7 @@ exports[`with label snapshots renders a select element with size large, disabled
   class="emotion-10"
   for="this is a name"
 >
-  <div
+  <span
     class="emotion-5"
   >
     <span
@@ -1051,7 +1081,7 @@ exports[`with label snapshots renders a select element with size large, disabled
         </span>
       </div>
     </span>
-  </div>
+  </span>
   <div
     class="emotion-8"
   >
@@ -1109,8 +1139,12 @@ exports[`with label snapshots renders a select element with size large, disabled
 }
 
 .emotion-7 {
+  border: 0;
   display: block;
+  margin: 0;
   margin-top: 0;
+  min-width: 0;
+  padding: 0;
 }
 
 *:not(style) ~ .emotion-7 {
@@ -1118,7 +1152,9 @@ exports[`with label snapshots renders a select element with size large, disabled
 }
 
 .emotion-2 {
+  display: block;
   margin-bottom: 12px;
+  padding: 0;
 }
 
 .emotion-1 {
@@ -1229,7 +1265,7 @@ exports[`with label snapshots renders a select element with size large, disabled
   class="emotion-7"
   for="this is a name"
 >
-  <div
+  <span
     class="emotion-2"
   >
     <span
@@ -1241,7 +1277,7 @@ exports[`with label snapshots renders a select element with size large, disabled
         test label
       </span>
     </span>
-  </div>
+  </span>
   <div
     class="emotion-5"
   >
@@ -1306,8 +1342,12 @@ exports[`with label snapshots renders a select element with size medium, disable
 }
 
 .emotion-9 {
+  border: 0;
   display: block;
+  margin: 0;
   margin-top: 0;
+  min-width: 0;
+  padding: 0;
 }
 
 *:not(style) ~ .emotion-9 {
@@ -1315,7 +1355,9 @@ exports[`with label snapshots renders a select element with size medium, disable
 }
 
 .emotion-4 {
+  display: block;
   margin-bottom: 12px;
+  padding: 0;
 }
 
 .emotion-3 {
@@ -1440,7 +1482,7 @@ exports[`with label snapshots renders a select element with size medium, disable
   class="emotion-9"
   for="this is a name"
 >
-  <div
+  <span
     class="emotion-4"
   >
     <span
@@ -1461,7 +1503,7 @@ exports[`with label snapshots renders a select element with size medium, disable
         </span>
       </div>
     </span>
-  </div>
+  </span>
   <div
     class="emotion-7"
   >
@@ -1525,8 +1567,12 @@ exports[`with label snapshots renders a select element with size medium, disable
 }
 
 .emotion-10 {
+  border: 0;
   display: block;
+  margin: 0;
   margin-top: 0;
+  min-width: 0;
+  padding: 0;
 }
 
 *:not(style) ~ .emotion-10 {
@@ -1534,7 +1580,9 @@ exports[`with label snapshots renders a select element with size medium, disable
 }
 
 .emotion-5 {
+  display: block;
   margin-bottom: 12px;
+  padding: 0;
 }
 
 .emotion-4 {
@@ -1672,7 +1720,7 @@ exports[`with label snapshots renders a select element with size medium, disable
   class="emotion-10"
   for="this is a name"
 >
-  <div
+  <span
     class="emotion-5"
   >
     <span
@@ -1698,7 +1746,7 @@ exports[`with label snapshots renders a select element with size medium, disable
         </span>
       </div>
     </span>
-  </div>
+  </span>
   <div
     class="emotion-8"
   >
@@ -1762,8 +1810,12 @@ exports[`with label snapshots renders a select element with size medium, disable
 }
 
 .emotion-7 {
+  border: 0;
   display: block;
+  margin: 0;
   margin-top: 0;
+  min-width: 0;
+  padding: 0;
 }
 
 *:not(style) ~ .emotion-7 {
@@ -1771,7 +1823,9 @@ exports[`with label snapshots renders a select element with size medium, disable
 }
 
 .emotion-2 {
+  display: block;
   margin-bottom: 12px;
+  padding: 0;
 }
 
 .emotion-1 {
@@ -1875,7 +1929,7 @@ exports[`with label snapshots renders a select element with size medium, disable
   class="emotion-7"
   for="this is a name"
 >
-  <div
+  <span
     class="emotion-2"
   >
     <span
@@ -1887,7 +1941,7 @@ exports[`with label snapshots renders a select element with size medium, disable
         test label
       </span>
     </span>
-  </div>
+  </span>
   <div
     class="emotion-5"
   >
@@ -1951,8 +2005,12 @@ exports[`with label snapshots renders a select element with size medium, disable
 }
 
 .emotion-9 {
+  border: 0;
   display: block;
+  margin: 0;
   margin-top: 0;
+  min-width: 0;
+  padding: 0;
 }
 
 *:not(style) ~ .emotion-9 {
@@ -1960,7 +2018,9 @@ exports[`with label snapshots renders a select element with size medium, disable
 }
 
 .emotion-4 {
+  display: block;
   margin-bottom: 12px;
+  padding: 0;
 }
 
 .emotion-3 {
@@ -2085,7 +2145,7 @@ exports[`with label snapshots renders a select element with size medium, disable
   class="emotion-9"
   for="this is a name"
 >
-  <div
+  <span
     class="emotion-4"
   >
     <span
@@ -2106,7 +2166,7 @@ exports[`with label snapshots renders a select element with size medium, disable
         </span>
       </div>
     </span>
-  </div>
+  </span>
   <div
     class="emotion-7"
   >
@@ -2171,8 +2231,12 @@ exports[`with label snapshots renders a select element with size medium, disable
 }
 
 .emotion-10 {
+  border: 0;
   display: block;
+  margin: 0;
   margin-top: 0;
+  min-width: 0;
+  padding: 0;
 }
 
 *:not(style) ~ .emotion-10 {
@@ -2180,7 +2244,9 @@ exports[`with label snapshots renders a select element with size medium, disable
 }
 
 .emotion-5 {
+  display: block;
   margin-bottom: 12px;
+  padding: 0;
 }
 
 .emotion-4 {
@@ -2318,7 +2384,7 @@ exports[`with label snapshots renders a select element with size medium, disable
   class="emotion-10"
   for="this is a name"
 >
-  <div
+  <span
     class="emotion-5"
   >
     <span
@@ -2344,7 +2410,7 @@ exports[`with label snapshots renders a select element with size medium, disable
         </span>
       </div>
     </span>
-  </div>
+  </span>
   <div
     class="emotion-8"
   >
@@ -2409,8 +2475,12 @@ exports[`with label snapshots renders a select element with size medium, disable
 }
 
 .emotion-7 {
+  border: 0;
   display: block;
+  margin: 0;
   margin-top: 0;
+  min-width: 0;
+  padding: 0;
 }
 
 *:not(style) ~ .emotion-7 {
@@ -2418,7 +2488,9 @@ exports[`with label snapshots renders a select element with size medium, disable
 }
 
 .emotion-2 {
+  display: block;
   margin-bottom: 12px;
+  padding: 0;
 }
 
 .emotion-1 {
@@ -2522,7 +2594,7 @@ exports[`with label snapshots renders a select element with size medium, disable
   class="emotion-7"
   for="this is a name"
 >
-  <div
+  <span
     class="emotion-2"
   >
     <span
@@ -2534,7 +2606,7 @@ exports[`with label snapshots renders a select element with size medium, disable
         test label
       </span>
     </span>
-  </div>
+  </span>
   <div
     class="emotion-5"
   >
@@ -2592,8 +2664,12 @@ exports[`with label snapshots renders a select element with size small, disabled
 }
 
 .emotion-9 {
+  border: 0;
   display: block;
+  margin: 0;
   margin-top: 0;
+  min-width: 0;
+  padding: 0;
 }
 
 *:not(style) ~ .emotion-9 {
@@ -2601,7 +2677,9 @@ exports[`with label snapshots renders a select element with size small, disabled
 }
 
 .emotion-4 {
+  display: block;
   margin-bottom: 12px;
+  padding: 0;
 }
 
 .emotion-3 {
@@ -2733,7 +2811,7 @@ exports[`with label snapshots renders a select element with size small, disabled
   class="emotion-9"
   for="this is a name"
 >
-  <div
+  <span
     class="emotion-4"
   >
     <span
@@ -2754,7 +2832,7 @@ exports[`with label snapshots renders a select element with size small, disabled
         </span>
       </div>
     </span>
-  </div>
+  </span>
   <div
     class="emotion-7"
   >
@@ -2811,8 +2889,12 @@ exports[`with label snapshots renders a select element with size small, disabled
 }
 
 .emotion-10 {
+  border: 0;
   display: block;
+  margin: 0;
   margin-top: 0;
+  min-width: 0;
+  padding: 0;
 }
 
 *:not(style) ~ .emotion-10 {
@@ -2820,7 +2902,9 @@ exports[`with label snapshots renders a select element with size small, disabled
 }
 
 .emotion-5 {
+  display: block;
   margin-bottom: 12px;
+  padding: 0;
 }
 
 .emotion-4 {
@@ -2965,7 +3049,7 @@ exports[`with label snapshots renders a select element with size small, disabled
   class="emotion-10"
   for="this is a name"
 >
-  <div
+  <span
     class="emotion-5"
   >
     <span
@@ -2991,7 +3075,7 @@ exports[`with label snapshots renders a select element with size small, disabled
         </span>
       </div>
     </span>
-  </div>
+  </span>
   <div
     class="emotion-8"
   >
@@ -3048,8 +3132,12 @@ exports[`with label snapshots renders a select element with size small, disabled
 }
 
 .emotion-7 {
+  border: 0;
   display: block;
+  margin: 0;
   margin-top: 0;
+  min-width: 0;
+  padding: 0;
 }
 
 *:not(style) ~ .emotion-7 {
@@ -3057,7 +3145,9 @@ exports[`with label snapshots renders a select element with size small, disabled
 }
 
 .emotion-2 {
+  display: block;
   margin-bottom: 12px;
+  padding: 0;
 }
 
 .emotion-1 {
@@ -3168,7 +3258,7 @@ exports[`with label snapshots renders a select element with size small, disabled
   class="emotion-7"
   for="this is a name"
 >
-  <div
+  <span
     class="emotion-2"
   >
     <span
@@ -3180,7 +3270,7 @@ exports[`with label snapshots renders a select element with size small, disabled
         test label
       </span>
     </span>
-  </div>
+  </span>
   <div
     class="emotion-5"
   >
@@ -3237,8 +3327,12 @@ exports[`with label snapshots renders a select element with size small, disabled
 }
 
 .emotion-9 {
+  border: 0;
   display: block;
+  margin: 0;
   margin-top: 0;
+  min-width: 0;
+  padding: 0;
 }
 
 *:not(style) ~ .emotion-9 {
@@ -3246,7 +3340,9 @@ exports[`with label snapshots renders a select element with size small, disabled
 }
 
 .emotion-4 {
+  display: block;
   margin-bottom: 12px;
+  padding: 0;
 }
 
 .emotion-3 {
@@ -3378,7 +3474,7 @@ exports[`with label snapshots renders a select element with size small, disabled
   class="emotion-9"
   for="this is a name"
 >
-  <div
+  <span
     class="emotion-4"
   >
     <span
@@ -3399,7 +3495,7 @@ exports[`with label snapshots renders a select element with size small, disabled
         </span>
       </div>
     </span>
-  </div>
+  </span>
   <div
     class="emotion-7"
   >
@@ -3457,8 +3553,12 @@ exports[`with label snapshots renders a select element with size small, disabled
 }
 
 .emotion-10 {
+  border: 0;
   display: block;
+  margin: 0;
   margin-top: 0;
+  min-width: 0;
+  padding: 0;
 }
 
 *:not(style) ~ .emotion-10 {
@@ -3466,7 +3566,9 @@ exports[`with label snapshots renders a select element with size small, disabled
 }
 
 .emotion-5 {
+  display: block;
   margin-bottom: 12px;
+  padding: 0;
 }
 
 .emotion-4 {
@@ -3611,7 +3713,7 @@ exports[`with label snapshots renders a select element with size small, disabled
   class="emotion-10"
   for="this is a name"
 >
-  <div
+  <span
     class="emotion-5"
   >
     <span
@@ -3637,7 +3739,7 @@ exports[`with label snapshots renders a select element with size small, disabled
         </span>
       </div>
     </span>
-  </div>
+  </span>
   <div
     class="emotion-8"
   >
@@ -3695,8 +3797,12 @@ exports[`with label snapshots renders a select element with size small, disabled
 }
 
 .emotion-7 {
+  border: 0;
   display: block;
+  margin: 0;
   margin-top: 0;
+  min-width: 0;
+  padding: 0;
 }
 
 *:not(style) ~ .emotion-7 {
@@ -3704,7 +3810,9 @@ exports[`with label snapshots renders a select element with size small, disabled
 }
 
 .emotion-2 {
+  display: block;
   margin-bottom: 12px;
+  padding: 0;
 }
 
 .emotion-1 {
@@ -3815,7 +3923,7 @@ exports[`with label snapshots renders a select element with size small, disabled
   class="emotion-7"
   for="this is a name"
 >
-  <div
+  <span
     class="emotion-2"
   >
     <span
@@ -3827,7 +3935,7 @@ exports[`with label snapshots renders a select element with size small, disabled
         test label
       </span>
     </span>
-  </div>
+  </span>
   <div
     class="emotion-5"
   >

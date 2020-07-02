@@ -10,6 +10,21 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
+## [2.0.11](https://github.com/datacamp/design-system/compare/@datacamp/waffles-utils@2.0.10...@datacamp/waffles-utils@2.0.11) (2020-07-01)
+
+**Note:** Version bump only for package @datacamp/waffles-utils
+
+
+
+
+
+## [2.0.10](https://github.com/datacamp/design-system/compare/@datacamp/waffles-utils@2.0.9...@datacamp/waffles-utils@2.0.10) (2020-06-17)
+
+**Note:** Version bump only for package @datacamp/waffles-utils
+
+
+
+
 
 ## [2.0.9](https://github.com/datacamp/design-system/compare/@datacamp/waffles-utils@2.0.8...@datacamp/waffles-utils@2.0.9) (2020-06-05)
 

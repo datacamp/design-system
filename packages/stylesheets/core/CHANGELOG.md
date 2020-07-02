@@ -37,7 +37,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### BREAKING CHANGES
 
-* Font weights have been updated to work with new 
+* Font weights have been updated to work with new
 branding
 
 
@@ -60,7 +60,15 @@ branding
 
 
 
-## [1.2.39-beta.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-core@1.2.38...@datacamp/waffles-core@1.2.39-beta.0) (2020-06-05)
+## [1.2.40](https://github.com/datacamp/design-system/compare/@datacamp/waffles-core@1.2.39...@datacamp/waffles-core@1.2.40) (2020-07-01)
+
+**Note:** Version bump only for package @datacamp/waffles-core
+
+
+
+
+
+## [1.2.39](https://github.com/datacamp/design-system/compare/@datacamp/waffles-core@1.2.38...@datacamp/waffles-core@1.2.39) (2020-06-17)
 
 **Note:** Version bump only for package @datacamp/waffles-core
 
@@ -511,7 +519,7 @@ branding
 
 ### BREAKING CHANGES
 
-* styling for the legacy .tag classes have been removed, 
+* styling for the legacy .tag classes have been removed,
 .dc-tag should be used instead
 
 

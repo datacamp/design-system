@@ -25,7 +25,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### BREAKING CHANGES
 
-* Font weights have been updated to work with new 
+* Font weights have been updated to work with new
 branding
 * The sans-serif font has changed from Lato to Studio-Feixen-Sans-Variable
 
@@ -44,6 +44,22 @@ branding
 ### BREAKING CHANGES
 
 * The sans-serif font has changed from Lato to Studio-Feixen-Sans-Variable
+
+
+
+
+
+## [1.0.20](https://github.com/datacamp/design-system/compare/@datacamp/waffles-toast@1.0.19...@datacamp/waffles-toast@1.0.20) (2020-07-01)
+
+**Note:** Version bump only for package @datacamp/waffles-toast
+
+
+
+
+
+## [1.0.19](https://github.com/datacamp/design-system/compare/@datacamp/waffles-toast@1.0.18...@datacamp/waffles-toast@1.0.19) (2020-06-17)
+
+**Note:** Version bump only for package @datacamp/waffles-toast
 
 
 

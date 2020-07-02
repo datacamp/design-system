@@ -51,7 +51,15 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-## [1.41.8-beta.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-storybook@1.41.7...@datacamp/waffles-storybook@1.41.8-beta.0) (2020-06-05)
+# [1.42.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-storybook@1.41.9...@datacamp/waffles-storybook@1.42.0) (2020-07-01)
+
+
+### Features
+
+* add story for CheckboxList ([7b8b428](https://github.com/datacamp/design-system/commit/7b8b428))
+
+
+
 ## [1.41.8](https://github.com/datacamp/design-system/compare/@datacamp/waffles-storybook@1.41.7...@datacamp/waffles-storybook@1.41.8) (2020-06-09)
 
 **Note:** Version bump only for package @datacamp/waffles-storybook

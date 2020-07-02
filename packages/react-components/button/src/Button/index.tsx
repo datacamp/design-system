@@ -84,6 +84,7 @@ interface BaseButtonProps {
 
 interface LinkButtonProps {
   href: string;
+  onClick?: () => void;
   target?: '_blank' | undefined;
   type: 'link';
 }
@@ -206,6 +207,7 @@ const InternalButton = (
         return {
           Element: 'a',
           href: props.href,
+          onClick: props.onClick,
           target: props.target,
         } as const;
       case 'submit':

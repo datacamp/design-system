@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<RadioList> snapshots renders a radio list 1`] = `
-.emotion-17 {
+exports[`<CheckboxList> snapshots renders a checkbox list 1`] = `
+.emotion-16 {
   border: 0;
   display: block;
   margin: 0;
@@ -10,7 +10,7 @@ exports[`<RadioList> snapshots renders a radio list 1`] = `
   padding: 0;
 }
 
-*:not(style) ~ .emotion-17 {
+*:not(style) ~ .emotion-16 {
   margin-top: 16px;
 }
 
@@ -40,7 +40,7 @@ exports[`<RadioList> snapshots renders a radio list 1`] = `
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
-  font-family: Studio-Feixen-Sans-Variable;
+  font-family: Lato;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -50,14 +50,14 @@ exports[`<RadioList> snapshots renders a radio list 1`] = `
   -webkit-flex: 0 1 auto;
   -ms-flex: 0 1 auto;
   flex: 0 1 auto;
-  font-weight: 800;
+  font-weight: 700;
   margin-right: 4px;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
 }
 
-.emotion-7 {
+.emotion-6 {
   color: #d1d3d8;
   display: -webkit-box;
   display: -webkit-flex;
@@ -67,7 +67,7 @@ exports[`<RadioList> snapshots renders a radio list 1`] = `
   position: relative;
 }
 
-*:not(style) ~ .emotion-7 {
+*:not(style) ~ .emotion-6 {
   margin-top: 14px;
 }
 
@@ -93,11 +93,11 @@ exports[`<RadioList> snapshots renders a radio list 1`] = `
   width: 18px;
 }
 
-.emotion-6 {
+.emotion-5 {
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
-  font-family: Studio-Feixen-Sans-Variable;
+  font-family: Lato;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -106,34 +106,36 @@ exports[`<RadioList> snapshots renders a radio list 1`] = `
 }
 
 .emotion-4 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
   border-color: #fe5c5c;
-  border-radius: 50%;
+  border-radius: 4px;
   border-style: solid;
   border-width: 1px;
   box-sizing: border-box;
-  position: absolute;
+  color: #fe5c5c;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   height: 16px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   left: 1px;
+  position: absolute;
   top: 1px;
   width: 16px;
 }
 
-.emotion-5 {
-  background-color: #fe5c5c;
-  border-radius: 50%;
-  box-sizing: border-box;
-  height: 8px;
-  margin-left: 5px;
-  margin-top: 5px;
-  position: absolute;
-  width: 8px;
-}
-
-.emotion-16 {
+.emotion-15 {
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
-  font-family: Studio-Feixen-Sans-Variable;
+  font-family: Lato;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -144,24 +146,37 @@ exports[`<RadioList> snapshots renders a radio list 1`] = `
   margin-top: 8px;
 }
 
-.emotion-13 {
+.emotion-12 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
   border-color: #e6eaeb;
-  border-radius: 50%;
+  border-radius: 4px;
   border-style: solid;
   border-width: 1px;
   box-sizing: border-box;
-  position: absolute;
+  color: #e6eaeb;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   height: 16px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   left: 1px;
+  position: absolute;
   top: 1px;
   width: 16px;
 }
 
-.emotion-14 {
+.emotion-13 {
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
-  font-family: Studio-Feixen-Sans-Variable;
+  font-family: Lato;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -170,16 +185,16 @@ exports[`<RadioList> snapshots renders a radio list 1`] = `
   color: #d1d3d8;
 }
 
-.emotion-12 {
+.emotion-11 {
   opacity: 0;
   position: absolute;
   width: 0;
 }
 
-<div
-  class="emotion-17"
+<fieldset
+  class="emotion-16"
 >
-  <span
+  <legend
     class="emotion-2"
   >
     <span
@@ -191,10 +206,10 @@ exports[`<RadioList> snapshots renders a radio list 1`] = `
         test label
       </span>
     </span>
-  </span>
+  </legend>
   <div>
     <label
-      class="emotion-7"
+      class="emotion-6"
       for="test value"
     >
       <input
@@ -202,64 +217,75 @@ exports[`<RadioList> snapshots renders a radio list 1`] = `
         class="emotion-3"
         id="test value"
         name="test-name"
-        type="radio"
+        type="checkbox"
       />
       <span
         class="emotion-4"
-      />
+      >
+        <svg
+          aria-hidden="true"
+          height="12"
+          role="img"
+          viewBox="0 0 18 18"
+          width="12"
+        >
+          <path
+            d="M13.746 4.337a1.015 1.015 0 0 1 1.409-.099c.417.354.462.97.101 1.378l-7.13 8.047a1.015 1.015 0 0 1-1.483.03L2.771 9.67a.961.961 0 0 1 .044-1.38 1.015 1.015 0 0 1 1.412.041l3.113 3.235 6.406-7.229z"
+            fill="currentColor"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </span>
       <span
         class="emotion-5"
-      />
-      <span
-        class="emotion-6"
       >
         item 1
       </span>
     </label>
     <label
-      class="emotion-7"
+      class="emotion-6"
       for="value2"
     >
       <input
         class="emotion-3"
         id="value2"
         name="test-name"
-        type="radio"
+        type="checkbox"
       />
       <span
         class="emotion-4"
       />
       <span
-        class="emotion-6"
+        class="emotion-5"
       >
         item 2
       </span>
     </label>
     <label
-      class="emotion-7"
+      class="emotion-6"
       for="value2"
     >
       <input
-        class="emotion-12"
+        class="emotion-11"
         disabled=""
         id="value2"
         name="test-name"
-        type="radio"
+        type="checkbox"
+      />
+      <span
+        class="emotion-12"
       />
       <span
         class="emotion-13"
-      />
-      <span
-        class="emotion-14"
       >
         item 3
       </span>
     </label>
   </div>
   <span
-    class="emotion-16"
+    class="emotion-15"
   >
     test error
   </span>
-</div>
+</fieldset>
 `;

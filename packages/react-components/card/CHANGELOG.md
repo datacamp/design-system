@@ -3,7 +3,7 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-## [3.0.13-beta.3](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/card/compare/@datacamp/waffles-card@3.0.13-beta.2...@datacamp/waffles-card@3.0.13-beta.3) (2020-06-11)
+## [3.0.15](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/card/compare/@datacamp/waffles-card@3.0.14...@datacamp/waffles-card@3.0.15) (2020-07-01)
 
 **Note:** Version bump only for package @datacamp/waffles-card
 
@@ -11,18 +11,9 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-## [3.0.13-beta.2](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/card/compare/@datacamp/waffles-card@3.0.13...@datacamp/waffles-card@3.0.13-beta.2) (2020-06-09)
+## [3.0.14](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/card/compare/@datacamp/waffles-card@3.0.13...@datacamp/waffles-card@3.0.14) (2020-06-17)
 
 **Note:** Version bump only for package @datacamp/waffles-card
-
-
-
-
-
-## [3.0.13-beta.1](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/card/compare/@datacamp/waffles-card@3.0.13-beta.0...@datacamp/waffles-card@3.0.13-beta.1) (2020-06-08)
-
-**Note:** Version bump only for package @datacamp/waffles-card
-
 
 
 

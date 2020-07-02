@@ -25,7 +25,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### BREAKING CHANGES
 
-* Font weights have been updated to work with new 
+* Font weights have been updated to work with new
 branding
 * The sans-serif font has changed from Lato to Studio-Feixen-Sans-Variable
 
@@ -44,6 +44,22 @@ branding
 ### BREAKING CHANGES
 
 * The sans-serif font has changed from Lato to Studio-Feixen-Sans-Variable
+
+
+
+
+## [2.0.11](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/markdown/compare/@datacamp/waffles-markdown@2.0.10...@datacamp/waffles-markdown@2.0.11) (2020-07-01)
+
+**Note:** Version bump only for package @datacamp/waffles-markdown
+
+
+
+
+
+## [2.0.10](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/markdown/compare/@datacamp/waffles-markdown@2.0.9...@datacamp/waffles-markdown@2.0.10) (2020-06-17)
+
+**Note:** Version bump only for package @datacamp/waffles-markdown
+
 
 
 

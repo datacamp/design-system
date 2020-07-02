@@ -1,5 +1,7 @@
 import Button from '@datacamp/waffles-button';
 import {
+  Checkbox,
+  CheckboxList,
   Input,
   Radio,
   RadioList,
@@ -615,6 +617,84 @@ storiesOf('waffles-form-elements', module)
               Disabled item
             </Radio>
           </RadioList>
+        </div>
+      );
+    });
+  })
+
+  .add('CheckboxList', () => {
+    return createElement(() => {
+      const [value1, setValue1] = useState([]);
+      const [value2, setValue2] = useState(['value4']);
+      const [value3, setValue3] = useState([]);
+      const [value4, setValue4] = useState([]);
+      const [value5, setValue5] = useState([]);
+      return (
+        <div>
+          <CheckboxList
+            label="Normal CheckboxList"
+            name="radio1"
+            onChange={setValue1}
+            value={value1}
+          >
+            <Checkbox value="value1">Item 1</Checkbox>
+            <Checkbox value="value2">Item 2</Checkbox>
+            <Checkbox disabled value="disabled1">
+              Disabled item
+            </Checkbox>
+          </CheckboxList>
+          <CheckboxList
+            disabled
+            label="Disabled CheckboxList"
+            name="radio2"
+            onChange={setValue2}
+            value={value2}
+          >
+            <Checkbox value="value3">Item 1</Checkbox>
+            <Checkbox value="value4">Item 2</Checkbox>
+            <Checkbox disabled value="disabled2">
+              Disabled item
+            </Checkbox>
+          </CheckboxList>
+          <CheckboxList
+            errorMessage="This is the error message"
+            label="CheckboxList with error"
+            name="radio3"
+            onChange={setValue3}
+            value={value3}
+          >
+            <Checkbox value="value5">Item 1</Checkbox>
+            <Checkbox value="value6">Item 2</Checkbox>
+            <Checkbox disabled value="disabled3">
+              Disabled item
+            </Checkbox>
+          </CheckboxList>
+          <CheckboxList
+            label="Required CheckboxList"
+            name="radio4"
+            onChange={setValue4}
+            required
+            value={value4}
+          >
+            <Checkbox value="value7">Item 1</Checkbox>
+            <Checkbox value="value8">Item 2</Checkbox>
+            <Checkbox disabled value="disabled4">
+              Disabled item
+            </Checkbox>
+          </CheckboxList>
+          <CheckboxList
+            label="Optional CheckboxList"
+            name="radio5"
+            onChange={setValue5}
+            required={false}
+            value={value5}
+          >
+            <Checkbox value="value9">Item 1</Checkbox>
+            <Checkbox value="value10">Item 2</Checkbox>
+            <Checkbox disabled value="disabled5">
+              Disabled item
+            </Checkbox>
+          </CheckboxList>
         </div>
       );
     });

@@ -2,8 +2,12 @@
 
 exports[`snapshots renders an input with size large, disabled=false, required=false 1`] = `
 .emotion-7 {
+  border: 0;
   display: block;
+  margin: 0;
   margin-top: 0;
+  min-width: 0;
+  padding: 0;
 }
 
 *:not(style) ~ .emotion-7 {
@@ -11,7 +15,9 @@ exports[`snapshots renders an input with size large, disabled=false, required=fa
 }
 
 .emotion-4 {
+  display: block;
   margin-bottom: 12px;
+  padding: 0;
 }
 
 .emotion-3 {
@@ -157,7 +163,7 @@ exports[`snapshots renders an input with size large, disabled=false, required=fa
 <label
   class="emotion-7"
 >
-  <div
+  <span
     class="emotion-4"
   >
     <span
@@ -178,7 +184,7 @@ exports[`snapshots renders an input with size large, disabled=false, required=fa
         </span>
       </div>
     </span>
-  </div>
+  </span>
   <input
     class="emotion-5"
     name="input text"
@@ -196,8 +202,12 @@ exports[`snapshots renders an input with size large, disabled=false, required=fa
 
 exports[`snapshots renders an input with size large, disabled=false, required=true 1`] = `
 .emotion-8 {
+  border: 0;
   display: block;
+  margin: 0;
   margin-top: 0;
+  min-width: 0;
+  padding: 0;
 }
 
 *:not(style) ~ .emotion-8 {
@@ -205,7 +215,9 @@ exports[`snapshots renders an input with size large, disabled=false, required=tr
 }
 
 .emotion-5 {
+  display: block;
   margin-bottom: 12px;
+  padding: 0;
 }
 
 .emotion-4 {
@@ -364,7 +376,7 @@ exports[`snapshots renders an input with size large, disabled=false, required=tr
 <label
   class="emotion-8"
 >
-  <div
+  <span
     class="emotion-5"
   >
     <span
@@ -390,7 +402,7 @@ exports[`snapshots renders an input with size large, disabled=false, required=tr
         </span>
       </div>
     </span>
-  </div>
+  </span>
   <input
     class="emotion-6"
     name="input text"
@@ -408,8 +420,12 @@ exports[`snapshots renders an input with size large, disabled=false, required=tr
 
 exports[`snapshots renders an input with size large, disabled=false, required=undefined 1`] = `
 .emotion-5 {
+  border: 0;
   display: block;
+  margin: 0;
   margin-top: 0;
+  min-width: 0;
+  padding: 0;
 }
 
 *:not(style) ~ .emotion-5 {
@@ -417,7 +433,9 @@ exports[`snapshots renders an input with size large, disabled=false, required=un
 }
 
 .emotion-2 {
+  display: block;
   margin-bottom: 12px;
+  padding: 0;
 }
 
 .emotion-1 {
@@ -542,7 +560,7 @@ exports[`snapshots renders an input with size large, disabled=false, required=un
 <label
   class="emotion-5"
 >
-  <div
+  <span
     class="emotion-2"
   >
     <span
@@ -554,7 +572,7 @@ exports[`snapshots renders an input with size large, disabled=false, required=un
         test label
       </span>
     </span>
-  </div>
+  </span>
   <input
     class="emotion-3"
     name="input text"
@@ -572,8 +590,12 @@ exports[`snapshots renders an input with size large, disabled=false, required=un
 
 exports[`snapshots renders an input with size large, disabled=true, required=false 1`] = `
 .emotion-7 {
+  border: 0;
   display: block;
+  margin: 0;
   margin-top: 0;
+  min-width: 0;
+  padding: 0;
 }
 
 *:not(style) ~ .emotion-7 {
@@ -581,7 +603,9 @@ exports[`snapshots renders an input with size large, disabled=true, required=fal
 }
 
 .emotion-4 {
+  display: block;
   margin-bottom: 12px;
+  padding: 0;
 }
 
 .emotion-3 {
@@ -727,7 +751,7 @@ exports[`snapshots renders an input with size large, disabled=true, required=fal
 <label
   class="emotion-7"
 >
-  <div
+  <span
     class="emotion-4"
   >
     <span
@@ -748,7 +772,7 @@ exports[`snapshots renders an input with size large, disabled=true, required=fal
         </span>
       </div>
     </span>
-  </div>
+  </span>
   <input
     class="emotion-5"
     disabled=""
@@ -767,8 +791,12 @@ exports[`snapshots renders an input with size large, disabled=true, required=fal
 
 exports[`snapshots renders an input with size large, disabled=true, required=true 1`] = `
 .emotion-8 {
+  border: 0;
   display: block;
+  margin: 0;
   margin-top: 0;
+  min-width: 0;
+  padding: 0;
 }
 
 *:not(style) ~ .emotion-8 {
@@ -776,7 +804,9 @@ exports[`snapshots renders an input with size large, disabled=true, required=tru
 }
 
 .emotion-5 {
+  display: block;
   margin-bottom: 12px;
+  padding: 0;
 }
 
 .emotion-4 {
@@ -935,7 +965,7 @@ exports[`snapshots renders an input with size large, disabled=true, required=tru
 <label
   class="emotion-8"
 >
-  <div
+  <span
     class="emotion-5"
   >
     <span
@@ -961,7 +991,7 @@ exports[`snapshots renders an input with size large, disabled=true, required=tru
         </span>
       </div>
     </span>
-  </div>
+  </span>
   <input
     class="emotion-6"
     disabled=""
@@ -980,8 +1010,12 @@ exports[`snapshots renders an input with size large, disabled=true, required=tru
 
 exports[`snapshots renders an input with size large, disabled=true, required=undefined 1`] = `
 .emotion-5 {
+  border: 0;
   display: block;
+  margin: 0;
   margin-top: 0;
+  min-width: 0;
+  padding: 0;
 }
 
 *:not(style) ~ .emotion-5 {
@@ -989,7 +1023,9 @@ exports[`snapshots renders an input with size large, disabled=true, required=und
 }
 
 .emotion-2 {
+  display: block;
   margin-bottom: 12px;
+  padding: 0;
 }
 
 .emotion-1 {
@@ -1114,7 +1150,7 @@ exports[`snapshots renders an input with size large, disabled=true, required=und
 <label
   class="emotion-5"
 >
-  <div
+  <span
     class="emotion-2"
   >
     <span
@@ -1126,7 +1162,7 @@ exports[`snapshots renders an input with size large, disabled=true, required=und
         test label
       </span>
     </span>
-  </div>
+  </span>
   <input
     class="emotion-3"
     disabled=""
@@ -1145,8 +1181,12 @@ exports[`snapshots renders an input with size large, disabled=true, required=und
 
 exports[`snapshots renders an input with size medium, disabled=false, required=false 1`] = `
 .emotion-7 {
+  border: 0;
   display: block;
+  margin: 0;
   margin-top: 0;
+  min-width: 0;
+  padding: 0;
 }
 
 *:not(style) ~ .emotion-7 {
@@ -1154,7 +1194,9 @@ exports[`snapshots renders an input with size medium, disabled=false, required=f
 }
 
 .emotion-4 {
+  display: block;
   margin-bottom: 12px;
+  padding: 0;
 }
 
 .emotion-3 {
@@ -1300,7 +1342,7 @@ exports[`snapshots renders an input with size medium, disabled=false, required=f
 <label
   class="emotion-7"
 >
-  <div
+  <span
     class="emotion-4"
   >
     <span
@@ -1321,7 +1363,7 @@ exports[`snapshots renders an input with size medium, disabled=false, required=f
         </span>
       </div>
     </span>
-  </div>
+  </span>
   <input
     class="emotion-5"
     name="input text"
@@ -1339,8 +1381,12 @@ exports[`snapshots renders an input with size medium, disabled=false, required=f
 
 exports[`snapshots renders an input with size medium, disabled=false, required=true 1`] = `
 .emotion-8 {
+  border: 0;
   display: block;
+  margin: 0;
   margin-top: 0;
+  min-width: 0;
+  padding: 0;
 }
 
 *:not(style) ~ .emotion-8 {
@@ -1348,7 +1394,9 @@ exports[`snapshots renders an input with size medium, disabled=false, required=t
 }
 
 .emotion-5 {
+  display: block;
   margin-bottom: 12px;
+  padding: 0;
 }
 
 .emotion-4 {
@@ -1507,7 +1555,7 @@ exports[`snapshots renders an input with size medium, disabled=false, required=t
 <label
   class="emotion-8"
 >
-  <div
+  <span
     class="emotion-5"
   >
     <span
@@ -1533,7 +1581,7 @@ exports[`snapshots renders an input with size medium, disabled=false, required=t
         </span>
       </div>
     </span>
-  </div>
+  </span>
   <input
     class="emotion-6"
     name="input text"
@@ -1551,8 +1599,12 @@ exports[`snapshots renders an input with size medium, disabled=false, required=t
 
 exports[`snapshots renders an input with size medium, disabled=false, required=undefined 1`] = `
 .emotion-5 {
+  border: 0;
   display: block;
+  margin: 0;
   margin-top: 0;
+  min-width: 0;
+  padding: 0;
 }
 
 *:not(style) ~ .emotion-5 {
@@ -1560,7 +1612,9 @@ exports[`snapshots renders an input with size medium, disabled=false, required=u
 }
 
 .emotion-2 {
+  display: block;
   margin-bottom: 12px;
+  padding: 0;
 }
 
 .emotion-1 {
@@ -1685,7 +1739,7 @@ exports[`snapshots renders an input with size medium, disabled=false, required=u
 <label
   class="emotion-5"
 >
-  <div
+  <span
     class="emotion-2"
   >
     <span
@@ -1697,7 +1751,7 @@ exports[`snapshots renders an input with size medium, disabled=false, required=u
         test label
       </span>
     </span>
-  </div>
+  </span>
   <input
     class="emotion-3"
     name="input text"
@@ -1715,8 +1769,12 @@ exports[`snapshots renders an input with size medium, disabled=false, required=u
 
 exports[`snapshots renders an input with size medium, disabled=true, required=false 1`] = `
 .emotion-7 {
+  border: 0;
   display: block;
+  margin: 0;
   margin-top: 0;
+  min-width: 0;
+  padding: 0;
 }
 
 *:not(style) ~ .emotion-7 {
@@ -1724,7 +1782,9 @@ exports[`snapshots renders an input with size medium, disabled=true, required=fa
 }
 
 .emotion-4 {
+  display: block;
   margin-bottom: 12px;
+  padding: 0;
 }
 
 .emotion-3 {
@@ -1870,7 +1930,7 @@ exports[`snapshots renders an input with size medium, disabled=true, required=fa
 <label
   class="emotion-7"
 >
-  <div
+  <span
     class="emotion-4"
   >
     <span
@@ -1891,7 +1951,7 @@ exports[`snapshots renders an input with size medium, disabled=true, required=fa
         </span>
       </div>
     </span>
-  </div>
+  </span>
   <input
     class="emotion-5"
     disabled=""
@@ -1910,8 +1970,12 @@ exports[`snapshots renders an input with size medium, disabled=true, required=fa
 
 exports[`snapshots renders an input with size medium, disabled=true, required=true 1`] = `
 .emotion-8 {
+  border: 0;
   display: block;
+  margin: 0;
   margin-top: 0;
+  min-width: 0;
+  padding: 0;
 }
 
 *:not(style) ~ .emotion-8 {
@@ -1919,7 +1983,9 @@ exports[`snapshots renders an input with size medium, disabled=true, required=tr
 }
 
 .emotion-5 {
+  display: block;
   margin-bottom: 12px;
+  padding: 0;
 }
 
 .emotion-4 {
@@ -2078,7 +2144,7 @@ exports[`snapshots renders an input with size medium, disabled=true, required=tr
 <label
   class="emotion-8"
 >
-  <div
+  <span
     class="emotion-5"
   >
     <span
@@ -2104,7 +2170,7 @@ exports[`snapshots renders an input with size medium, disabled=true, required=tr
         </span>
       </div>
     </span>
-  </div>
+  </span>
   <input
     class="emotion-6"
     disabled=""
@@ -2123,8 +2189,12 @@ exports[`snapshots renders an input with size medium, disabled=true, required=tr
 
 exports[`snapshots renders an input with size medium, disabled=true, required=undefined 1`] = `
 .emotion-5 {
+  border: 0;
   display: block;
+  margin: 0;
   margin-top: 0;
+  min-width: 0;
+  padding: 0;
 }
 
 *:not(style) ~ .emotion-5 {
@@ -2132,7 +2202,9 @@ exports[`snapshots renders an input with size medium, disabled=true, required=un
 }
 
 .emotion-2 {
+  display: block;
   margin-bottom: 12px;
+  padding: 0;
 }
 
 .emotion-1 {
@@ -2257,7 +2329,7 @@ exports[`snapshots renders an input with size medium, disabled=true, required=un
 <label
   class="emotion-5"
 >
-  <div
+  <span
     class="emotion-2"
   >
     <span
@@ -2269,7 +2341,7 @@ exports[`snapshots renders an input with size medium, disabled=true, required=un
         test label
       </span>
     </span>
-  </div>
+  </span>
   <input
     class="emotion-3"
     disabled=""
@@ -2288,8 +2360,12 @@ exports[`snapshots renders an input with size medium, disabled=true, required=un
 
 exports[`snapshots renders an input with size small, disabled=false, required=false 1`] = `
 .emotion-7 {
+  border: 0;
   display: block;
+  margin: 0;
   margin-top: 0;
+  min-width: 0;
+  padding: 0;
 }
 
 *:not(style) ~ .emotion-7 {
@@ -2297,7 +2373,9 @@ exports[`snapshots renders an input with size small, disabled=false, required=fa
 }
 
 .emotion-4 {
+  display: block;
   margin-bottom: 12px;
+  padding: 0;
 }
 
 .emotion-3 {
@@ -2443,7 +2521,7 @@ exports[`snapshots renders an input with size small, disabled=false, required=fa
 <label
   class="emotion-7"
 >
-  <div
+  <span
     class="emotion-4"
   >
     <span
@@ -2464,7 +2542,7 @@ exports[`snapshots renders an input with size small, disabled=false, required=fa
         </span>
       </div>
     </span>
-  </div>
+  </span>
   <input
     class="emotion-5"
     name="input text"
@@ -2482,8 +2560,12 @@ exports[`snapshots renders an input with size small, disabled=false, required=fa
 
 exports[`snapshots renders an input with size small, disabled=false, required=true 1`] = `
 .emotion-8 {
+  border: 0;
   display: block;
+  margin: 0;
   margin-top: 0;
+  min-width: 0;
+  padding: 0;
 }
 
 *:not(style) ~ .emotion-8 {
@@ -2491,7 +2573,9 @@ exports[`snapshots renders an input with size small, disabled=false, required=tr
 }
 
 .emotion-5 {
+  display: block;
   margin-bottom: 12px;
+  padding: 0;
 }
 
 .emotion-4 {
@@ -2650,7 +2734,7 @@ exports[`snapshots renders an input with size small, disabled=false, required=tr
 <label
   class="emotion-8"
 >
-  <div
+  <span
     class="emotion-5"
   >
     <span
@@ -2676,7 +2760,7 @@ exports[`snapshots renders an input with size small, disabled=false, required=tr
         </span>
       </div>
     </span>
-  </div>
+  </span>
   <input
     class="emotion-6"
     name="input text"
@@ -2694,8 +2778,12 @@ exports[`snapshots renders an input with size small, disabled=false, required=tr
 
 exports[`snapshots renders an input with size small, disabled=false, required=undefined 1`] = `
 .emotion-5 {
+  border: 0;
   display: block;
+  margin: 0;
   margin-top: 0;
+  min-width: 0;
+  padding: 0;
 }
 
 *:not(style) ~ .emotion-5 {
@@ -2703,7 +2791,9 @@ exports[`snapshots renders an input with size small, disabled=false, required=un
 }
 
 .emotion-2 {
+  display: block;
   margin-bottom: 12px;
+  padding: 0;
 }
 
 .emotion-1 {
@@ -2828,7 +2918,7 @@ exports[`snapshots renders an input with size small, disabled=false, required=un
 <label
   class="emotion-5"
 >
-  <div
+  <span
     class="emotion-2"
   >
     <span
@@ -2840,7 +2930,7 @@ exports[`snapshots renders an input with size small, disabled=false, required=un
         test label
       </span>
     </span>
-  </div>
+  </span>
   <input
     class="emotion-3"
     name="input text"
@@ -2858,8 +2948,12 @@ exports[`snapshots renders an input with size small, disabled=false, required=un
 
 exports[`snapshots renders an input with size small, disabled=true, required=false 1`] = `
 .emotion-7 {
+  border: 0;
   display: block;
+  margin: 0;
   margin-top: 0;
+  min-width: 0;
+  padding: 0;
 }
 
 *:not(style) ~ .emotion-7 {
@@ -2867,7 +2961,9 @@ exports[`snapshots renders an input with size small, disabled=true, required=fal
 }
 
 .emotion-4 {
+  display: block;
   margin-bottom: 12px;
+  padding: 0;
 }
 
 .emotion-3 {
@@ -3013,7 +3109,7 @@ exports[`snapshots renders an input with size small, disabled=true, required=fal
 <label
   class="emotion-7"
 >
-  <div
+  <span
     class="emotion-4"
   >
     <span
@@ -3034,7 +3130,7 @@ exports[`snapshots renders an input with size small, disabled=true, required=fal
         </span>
       </div>
     </span>
-  </div>
+  </span>
   <input
     class="emotion-5"
     disabled=""
@@ -3053,8 +3149,12 @@ exports[`snapshots renders an input with size small, disabled=true, required=fal
 
 exports[`snapshots renders an input with size small, disabled=true, required=true 1`] = `
 .emotion-8 {
+  border: 0;
   display: block;
+  margin: 0;
   margin-top: 0;
+  min-width: 0;
+  padding: 0;
 }
 
 *:not(style) ~ .emotion-8 {
@@ -3062,7 +3162,9 @@ exports[`snapshots renders an input with size small, disabled=true, required=tru
 }
 
 .emotion-5 {
+  display: block;
   margin-bottom: 12px;
+  padding: 0;
 }
 
 .emotion-4 {
@@ -3221,7 +3323,7 @@ exports[`snapshots renders an input with size small, disabled=true, required=tru
 <label
   class="emotion-8"
 >
-  <div
+  <span
     class="emotion-5"
   >
     <span
@@ -3247,7 +3349,7 @@ exports[`snapshots renders an input with size small, disabled=true, required=tru
         </span>
       </div>
     </span>
-  </div>
+  </span>
   <input
     class="emotion-6"
     disabled=""
@@ -3266,8 +3368,12 @@ exports[`snapshots renders an input with size small, disabled=true, required=tru
 
 exports[`snapshots renders an input with size small, disabled=true, required=undefined 1`] = `
 .emotion-5 {
+  border: 0;
   display: block;
+  margin: 0;
   margin-top: 0;
+  min-width: 0;
+  padding: 0;
 }
 
 *:not(style) ~ .emotion-5 {
@@ -3275,7 +3381,9 @@ exports[`snapshots renders an input with size small, disabled=true, required=und
 }
 
 .emotion-2 {
+  display: block;
   margin-bottom: 12px;
+  padding: 0;
 }
 
 .emotion-1 {
@@ -3400,7 +3508,7 @@ exports[`snapshots renders an input with size small, disabled=true, required=und
 <label
   class="emotion-5"
 >
-  <div
+  <span
     class="emotion-2"
   >
     <span
@@ -3412,7 +3520,7 @@ exports[`snapshots renders an input with size small, disabled=true, required=und
         test label
       </span>
     </span>
-  </div>
+  </span>
   <input
     class="emotion-3"
     disabled=""
