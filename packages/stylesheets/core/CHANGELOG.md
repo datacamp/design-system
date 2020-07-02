@@ -3,6 +3,33 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0-beta.4](https://github.com/datacamp/design-system/compare/@datacamp/waffles-core@1.2.40...@datacamp/waffles-core@2.0.0-beta.4) (2020-07-02)
+
+
+### Bug Fixes
+
+* font width/stretch for latest version of fonts ([f7a8ca8](https://github.com/datacamp/design-system/commit/f7a8ca8))
+
+
+### Features
+
+* change sans-serif font ([6f2d3cd](https://github.com/datacamp/design-system/commit/6f2d3cd))
+* load font from hosted version ([0988a6c](https://github.com/datacamp/design-system/commit/0988a6c))
+* load font in a way to allow font-weight to work ([186c1eb](https://github.com/datacamp/design-system/commit/186c1eb))
+* update font weights for new branding ([cf0f3bc](https://github.com/datacamp/design-system/commit/cf0f3bc))
+* update font weights to work with latest font version ([812a41b](https://github.com/datacamp/design-system/commit/812a41b))
+
+
+### BREAKING CHANGES
+
+* Font weights have been updated to work with new 
+branding
+* The sans-serif font has changed from Lato to Studio-Feixen-Sans-Variable
+
+
+
+
+
 # [2.0.0-beta.3](https://github.com/datacamp/design-system/compare/@datacamp/waffles-core@2.0.0-beta.2...@datacamp/waffles-core@2.0.0-beta.3) (2020-06-12)
 
 

@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.2.1-beta.1](https://github.com/datacamp/design-system/compare/@datacamp/waffles-assets@1.2.1-beta.0...@datacamp/waffles-assets@1.2.1-beta.1) (2020-07-02)
+
+**Note:** Version bump only for package @datacamp/waffles-assets
+
+
+
+
+
 ## [1.2.1-beta.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-assets@1.2.0...@datacamp/waffles-assets@1.2.1-beta.0) (2020-06-05)
 
 **Note:** Version bump only for package @datacamp/waffles-assets
