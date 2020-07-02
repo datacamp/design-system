@@ -7,70 +7,13 @@ exports[`Core generates the correct files: lib/css/waffles.css 1`] = `
   src: url(\\"https://waffles-beta.datacamp.com/fonts/studio-feixen-sans-variable.ttf\\") format(\\"truetype\\");
   font-weight: 100 900;
 }
-/**
- * Disabled stylelint because it's incorrectly identifying unicode as SCSS
- * [stylelint] Expected \\"U+0100\\" to be \\"u+0100\\" (value-keyword-case)
- * [stylelint] Expected single space before \\"+\\" (scss/operator-no-unspaced)
-*/
-/* stylelint-disable */
-/* https://fonts.googleapis.com/css?family=Roboto+Mono */
-/* cyrillic-ext */
 @font-face {
-  font-family: 'Roboto Mono';
+  font-family: 'Studio-Feixen-Writer';
+  src: url(\\"https://waffles-beta.datacamp.com/fonts/StudioFeixenSans-WriterRegular.eot\\");
+  src: url(\\"https://waffles-beta.datacamp.com/fonts/StudioFeixenSans-WriterRegular.eot\\") format(\\"embedded-opentype\\"), url(\\"https://waffles-beta.datacamp.com/fonts/StudioFeixenSans-WriterRegular.woff2\\") format(\\"woff2\\"), url(\\"https://waffles-beta.datacamp.com/fonts/StudioFeixenSans-WriterRegular\\") format(\\"woff\\"), url(\\"https://waffles-beta.datacamp.com/fonts/StudioFeixenSans-WriterRegular.ttf\\") format(\\"truetype\\");
+  font-weight: normal;
   font-style: normal;
-  font-weight: 400;
-  src: local(\\"Roboto Mono\\"), local(\\"RobotoMono-Regular\\"), url(https://fonts.gstatic.com/s/robotomono/v5/hMqPNLsu_dywMa4C_DEpY_ZraR2Tg8w2lzm7kLNL0-w.woff2) format(\\"woff2\\"), url(https://fonts.gstatic.com/s/robotomono/v5/hMqPNLsu_dywMa4C_DEpY4bN6UDyHWBl620a-IRfuBk.woff) format(\\"woff\\");
-  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
 }
-/* cyrillic */
-@font-face {
-  font-family: 'Roboto Mono';
-  font-style: normal;
-  font-weight: 400;
-  src: local(\\"Roboto Mono\\"), local(\\"RobotoMono-Regular\\"), url(https://fonts.gstatic.com/s/robotomono/v5/hMqPNLsu_dywMa4C_DEpY14sYYdJg5dU2qzJEVSuta0.woff2) format(\\"woff2\\"), url(https://fonts.gstatic.com/s/robotomono/v5/hMqPNLsu_dywMa4C_DEpY4bN6UDyHWBl620a-IRfuBk.woff) format(\\"woff\\");
-  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
-}
-/* greek-ext */
-@font-face {
-  font-family: 'Roboto Mono';
-  font-style: normal;
-  font-weight: 400;
-  src: local(\\"Roboto Mono\\"), local(\\"RobotoMono-Regular\\"), url(https://fonts.gstatic.com/s/robotomono/v5/hMqPNLsu_dywMa4C_DEpY1BW26QxpSj-_ZKm_xT4hWw.woff2) format(\\"woff2\\"), url(https://fonts.gstatic.com/s/robotomono/v5/hMqPNLsu_dywMa4C_DEpY4bN6UDyHWBl620a-IRfuBk.woff) format(\\"woff\\");
-  unicode-range: U+1F00-1FFF;
-}
-/* greek */
-@font-face {
-  font-family: 'Roboto Mono';
-  font-style: normal;
-  font-weight: 400;
-  src: local(\\"Roboto Mono\\"), local(\\"RobotoMono-Regular\\"), url(https://fonts.gstatic.com/s/robotomono/v5/hMqPNLsu_dywMa4C_DEpYwt_Rm691LTebKfY2ZkKSmI.woff2) format(\\"woff2\\"), url(https://fonts.gstatic.com/s/robotomono/v5/hMqPNLsu_dywMa4C_DEpY4bN6UDyHWBl620a-IRfuBk.woff) format(\\"woff\\");
-  unicode-range: U+0370-03FF;
-}
-/* vietnamese */
-@font-face {
-  font-family: 'Roboto Mono';
-  font-style: normal;
-  font-weight: 400;
-  src: local(\\"Roboto Mono\\"), local(\\"RobotoMono-Regular\\"), url(https://fonts.gstatic.com/s/robotomono/v5/hMqPNLsu_dywMa4C_DEpY9DiNsR5a-9Oe_Ivpu8XWlY.woff2) format(\\"woff2\\"), url(https://fonts.gstatic.com/s/robotomono/v5/hMqPNLsu_dywMa4C_DEpY4bN6UDyHWBl620a-IRfuBk.woff) format(\\"woff\\");
-  unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
-}
-/* latin-ext */
-@font-face {
-  font-family: 'Roboto Mono';
-  font-style: normal;
-  font-weight: 400;
-  src: local(\\"Roboto Mono\\"), local(\\"RobotoMono-Regular\\"), url(https://fonts.gstatic.com/s/robotomono/v5/hMqPNLsu_dywMa4C_DEpY6E8kM4xWR1_1bYURRojRGc.woff2) format(\\"woff2\\"), url(https://fonts.gstatic.com/s/robotomono/v5/hMqPNLsu_dywMa4C_DEpY4bN6UDyHWBl620a-IRfuBk.woff) format(\\"woff\\");
-  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
-}
-/* latin */
-@font-face {
-  font-family: 'Roboto Mono';
-  font-style: normal;
-  font-weight: 400;
-  src: local(\\"Roboto Mono\\"), local(\\"RobotoMono-Regular\\"), url(https://fonts.gstatic.com/s/robotomono/v5/hMqPNLsu_dywMa4C_DEpY4gp9Q8gbYrhqGlRav_IXfk.woff2) format(\\"woff2\\"), url(https://fonts.gstatic.com/s/robotomono/v5/hMqPNLsu_dywMa4C_DEpY4bN6UDyHWBl620a-IRfuBk.woff) format(\\"woff\\");
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2212, U+2215;
-}
-/* stylelint-enable */
 /* stylelint-disable */
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 /**
@@ -2463,7 +2406,7 @@ th {
   font-family: \\"Studio-Feixen-Sans-Variable\\", sans-serif !important;
 }
 .dc-u-ff-mono {
-  font-family: \\"Roboto Mono\\", monospace !important;
+  font-family: \\"Studio-Feixen-Writer\\", monospace !important;
 }
 .dc-u-fs-base {
   font-size: 16px !important;
@@ -4657,7 +4600,7 @@ mark {
 code {
   color: #3d4251;
   display: inline-block;
-  font-family: \\"Roboto Mono\\", monospace;
+  font-family: \\"Studio-Feixen-Writer\\", monospace;
   font-size: 0.875rem;
   line-height: 1;
   margin: 0 4px;
@@ -4665,7 +4608,7 @@ code {
 }
 pre {
   border-left: 4px solid #33aacc;
-  font-family: \\"Roboto Mono\\", monospace;
+  font-family: \\"Studio-Feixen-Writer\\", monospace;
   line-height: 1.8;
   overflow-x: auto;
   padding: spacing(3);
@@ -15232,7 +15175,7 @@ $dc-gradient-turquoise: linear-gradient(-135deg, #b8eef4, #78c8de);
 
 // Font family
 $dc-font-family-sans-serif: 'Studio-Feixen-Sans-Variable', sans-serif;
-$dc-font-family-mono: 'Roboto Mono', monospace;
+$dc-font-family-mono: 'Studio-Feixen-Writer', monospace;
 
 // Font size
 $dc-font-size-micro: 0.75rem;
@@ -15340,6 +15283,20 @@ exports[`Core generates the correct files: lib/scss/design/vendor/_feixen-font.s
   src: url('https://waffles-beta.datacamp.com/fonts/studio-feixen-sans-variable.ttf')
     format('truetype');
   font-weight: 100 900;
+}
+"
+`;
+
+exports[`Core generates the correct files: lib/scss/design/vendor/_feixen-writer.scss 1`] = `
+"@font-face {
+  font-family: 'Studio-Feixen-Writer';
+  src: url('https://waffles-beta.datacamp.com/fonts/StudioFeixenSans-WriterRegular.eot');
+  src: url('https://waffles-beta.datacamp.com/fonts/StudioFeixenSans-WriterRegular.eot') format('embedded-opentype'),
+    url('https://waffles-beta.datacamp.com/fonts/StudioFeixenSans-WriterRegular.woff2') format('woff2'),
+    url('https://waffles-beta.datacamp.com/fonts/StudioFeixenSans-WriterRegular') format('woff'),
+    url('https://waffles-beta.datacamp.com/fonts/StudioFeixenSans-WriterRegular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
 "
 `;
@@ -15782,84 +15739,6 @@ th {
 "
 `;
 
-exports[`Core generates the correct files: lib/scss/design/vendor/_roboto-mono-font.scss 1`] = `
-"/**
- * Disabled stylelint because it's incorrectly identifying unicode as SCSS
- * [stylelint] Expected \\"U+0100\\" to be \\"u+0100\\" (value-keyword-case)
- * [stylelint] Expected single space before \\"+\\" (scss/operator-no-unspaced)
-*/
-
-/* stylelint-disable */
-
-/* https://fonts.googleapis.com/css?family=Roboto+Mono */
-
-/* cyrillic-ext */
-@font-face {
-  font-family: 'Roboto Mono';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Roboto Mono'), local('RobotoMono-Regular'), url(https://fonts.gstatic.com/s/robotomono/v5/hMqPNLsu_dywMa4C_DEpY_ZraR2Tg8w2lzm7kLNL0-w.woff2) format('woff2'), url(https://fonts.gstatic.com/s/robotomono/v5/hMqPNLsu_dywMa4C_DEpY4bN6UDyHWBl620a-IRfuBk.woff) format('woff');
-  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
-}
-
-/* cyrillic */
-@font-face {
-  font-family: 'Roboto Mono';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Roboto Mono'), local('RobotoMono-Regular'), url(https://fonts.gstatic.com/s/robotomono/v5/hMqPNLsu_dywMa4C_DEpY14sYYdJg5dU2qzJEVSuta0.woff2) format('woff2'), url(https://fonts.gstatic.com/s/robotomono/v5/hMqPNLsu_dywMa4C_DEpY4bN6UDyHWBl620a-IRfuBk.woff) format('woff');
-  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
-}
-
-/* greek-ext */
-@font-face {
-  font-family: 'Roboto Mono';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Roboto Mono'), local('RobotoMono-Regular'), url(https://fonts.gstatic.com/s/robotomono/v5/hMqPNLsu_dywMa4C_DEpY1BW26QxpSj-_ZKm_xT4hWw.woff2) format('woff2'), url(https://fonts.gstatic.com/s/robotomono/v5/hMqPNLsu_dywMa4C_DEpY4bN6UDyHWBl620a-IRfuBk.woff) format('woff');
-  unicode-range: U+1F00-1FFF;
-}
-
-/* greek */
-@font-face {
-  font-family: 'Roboto Mono';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Roboto Mono'), local('RobotoMono-Regular'), url(https://fonts.gstatic.com/s/robotomono/v5/hMqPNLsu_dywMa4C_DEpYwt_Rm691LTebKfY2ZkKSmI.woff2) format('woff2'), url(https://fonts.gstatic.com/s/robotomono/v5/hMqPNLsu_dywMa4C_DEpY4bN6UDyHWBl620a-IRfuBk.woff) format('woff');
-  unicode-range: U+0370-03FF;
-}
-
-/* vietnamese */
-@font-face {
-  font-family: 'Roboto Mono';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Roboto Mono'), local('RobotoMono-Regular'), url(https://fonts.gstatic.com/s/robotomono/v5/hMqPNLsu_dywMa4C_DEpY9DiNsR5a-9Oe_Ivpu8XWlY.woff2) format('woff2'), url(https://fonts.gstatic.com/s/robotomono/v5/hMqPNLsu_dywMa4C_DEpY4bN6UDyHWBl620a-IRfuBk.woff) format('woff');
-  unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
-}
-
-/* latin-ext */
-@font-face {
-  font-family: 'Roboto Mono';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Roboto Mono'), local('RobotoMono-Regular'), url(https://fonts.gstatic.com/s/robotomono/v5/hMqPNLsu_dywMa4C_DEpY6E8kM4xWR1_1bYURRojRGc.woff2) format('woff2'), url(https://fonts.gstatic.com/s/robotomono/v5/hMqPNLsu_dywMa4C_DEpY4bN6UDyHWBl620a-IRfuBk.woff) format('woff');
-  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
-}
-
-/* latin */
-@font-face {
-  font-family: 'Roboto Mono';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Roboto Mono'), local('RobotoMono-Regular'), url(https://fonts.gstatic.com/s/robotomono/v5/hMqPNLsu_dywMa4C_DEpY4gp9Q8gbYrhqGlRav_IXfk.woff2) format('woff2'), url(https://fonts.gstatic.com/s/robotomono/v5/hMqPNLsu_dywMa4C_DEpY4bN6UDyHWBl620a-IRfuBk.woff) format('woff');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2212, U+2215;
-}
-
-/* stylelint-enable */
-"
-`;
-
 exports[`Core generates the correct files: lib/scss/ingredients.scss 1`] = `
 "// *************************************
 //
@@ -15874,7 +15753,7 @@ exports[`Core generates the correct files: lib/scss/ingredients.scss 1`] = `
 
 //----- Vendor -----//
 @import 'design/vendor/feixen-font';
-@import 'design/vendor/roboto-mono-font';
+@import 'design/vendor/feixen-writer';
 @import 'design/vendor/normalize';
 
 //----- Variables -----//
@@ -15976,7 +15855,7 @@ Object {
     "whiteTransparent": "rgba(255, 255, 255, 0.2)",
   },
   "fontFamily": Object {
-    "mono": "'Roboto Mono'",
+    "mono": "'Studio-Feixen-Writer'",
     "sansSerif": "'Studio-Feixen-Sans-Variable'",
   },
   "fontSize": Object {
@@ -17193,14 +17072,14 @@ Object {
                 },
                 Object {
                   "extension": ".scss",
-                  "name": "_normalize.scss",
-                  "path": "lib/scss/design/vendor/_normalize.scss",
+                  "name": "_feixen-writer.scss",
+                  "path": "lib/scss/design/vendor/_feixen-writer.scss",
                   "type": "file",
                 },
                 Object {
                   "extension": ".scss",
-                  "name": "_roboto-mono-font.scss",
-                  "path": "lib/scss/design/vendor/_roboto-mono-font.scss",
+                  "name": "_normalize.scss",
+                  "path": "lib/scss/design/vendor/_normalize.scss",
                   "type": "file",
                 },
               ],

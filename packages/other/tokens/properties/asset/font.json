@@ -6,7 +6,7 @@
         "attributes": { "fallback": "sans-serif" }
       },
       "mono": {
-        "value": "Roboto Mono",
+        "value": "Studio-Feixen-Writer",
         "attributes": { "fallback": "monospace" }
       }
     }
