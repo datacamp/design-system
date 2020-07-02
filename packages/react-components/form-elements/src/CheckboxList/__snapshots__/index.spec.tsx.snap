@@ -40,7 +40,7 @@ exports[`<CheckboxList> snapshots renders a checkbox list 1`] = `
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -50,7 +50,7 @@ exports[`<CheckboxList> snapshots renders a checkbox list 1`] = `
   -webkit-flex: 0 1 auto;
   -ms-flex: 0 1 auto;
   flex: 0 1 auto;
-  font-weight: 700;
+  font-weight: 800;
   margin-right: 4px;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -97,7 +97,7 @@ exports[`<CheckboxList> snapshots renders a checkbox list 1`] = `
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -135,7 +135,7 @@ exports[`<CheckboxList> snapshots renders a checkbox list 1`] = `
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -176,7 +176,7 @@ exports[`<CheckboxList> snapshots renders a checkbox list 1`] = `
   -webkit-font-smoothing: antialiased;
   color: rgb(77,83,86);
   font-family: sans-serif;
-  font-family: Lato;
+  font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
