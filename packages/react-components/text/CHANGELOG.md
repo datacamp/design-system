@@ -3,6 +3,33 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [4.0.0-beta.5](https://github.com/datacamp/design-system/compare/@datacamp/waffles-text@4.0.0-beta.4...@datacamp/waffles-text@4.0.0-beta.5) (2020-07-06)
+
+
+### Bug Fixes
+
+* load font weights when using the components ([75dcc68](https://github.com/datacamp/design-system/commit/75dcc68))
+
+
+### Features
+
+* add letter spacing for different size headings ([7b4ca34](https://github.com/datacamp/design-system/commit/7b4ca34))
+* add line height for large headings ([7d70c17](https://github.com/datacamp/design-system/commit/7d70c17))
+* update heading line height ([ca2da4f](https://github.com/datacamp/design-system/commit/ca2da4f))
+
+
+### BREAKING CHANGES
+
+* Headings with size 800 (or h1 from the style sheets) 
+now have a letter spacing of -1. Headings with size 700 & 600 (or h2 & 
+h3 from the style sheets) now have a letter spacing of -0.5
+* The line height for headings has changed from 1.25 to 
+1.2
+
+
+
+
+
 # [4.0.0-beta.4](https://github.com/datacamp/design-system/compare/@datacamp/waffles-text@4.0.0-beta.3...@datacamp/waffles-text@4.0.0-beta.4) (2020-07-06)
 
 
