@@ -107,7 +107,7 @@ Object {
   },
   "lineHeight": Object {
     "base": "1.5",
-    "heading": "1.25",
+    "heading": "1.2",
   },
   "spatial": Object {
     "angles": "30 45 60 90 180 270 360",
@@ -1977,13 +1977,13 @@ Object {
       },
       "name": "heading",
       "original": Object {
-        "value": "1.25",
+        "value": "1.2",
       },
       "path": Array [
         "lineHeight",
         "heading",
       ],
-      "value": "1.25",
+      "value": "1.2",
     },
   },
   "opacity": Object {
@@ -3011,7 +3011,7 @@ $dc-font-weight-regular: 400;
 
 // Line height
 $dc-line-height-base: 1.5;
-$dc-line-height-heading: 1.25;
+$dc-line-height-heading: 1.2;
 
 
 /** Border */

@@ -2794,7 +2794,7 @@ th {
   line-height: 1.5 !important;
 }
 .dc-u-lh-heading {
-  line-height: 1.25 !important;
+  line-height: 1.2 !important;
 }
 /** List */
 .dc-u-lst-unstyled {
@@ -4517,7 +4517,7 @@ h6,
 .dc-h6 {
   color: #3d4251;
   font-weight: 800;
-  line-height: 1.25;
+  line-height: 1.2;
   margin: 0.25em 0;
 }
 h1,
@@ -4617,7 +4617,7 @@ pre {
 }
 /* stylelint-disable */
 pre code {
-  line-height: 1.25;
+  line-height: 1.2;
 }
 /* stylelint-enable */
 mark {
@@ -15195,7 +15195,7 @@ $dc-font-weight-regular: 400;
 
 // Line height
 $dc-line-height-base: 1.5;
-$dc-line-height-heading: 1.25;
+$dc-line-height-heading: 1.2;
 
 
 /** Border */
@@ -15890,7 +15890,7 @@ Object {
   },
   "lineHeight": Object {
     "base": "1.5",
-    "heading": "1.25",
+    "heading": "1.2",
   },
   "spatial": Object {
     "angles": "30 45 60 90 180 270 360",
