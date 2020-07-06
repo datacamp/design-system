@@ -1,6 +1,7 @@
 {
   "lineHeight": {
     "base": { "value": "1.5" },
-    "heading": { "value": "1.2" }
+    "heading": { "value": "1.2" },
+    "largeHeading": { "value": "1.05" }
   }
 }

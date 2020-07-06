@@ -2796,6 +2796,9 @@ th {
 .dc-u-lh-heading {
   line-height: 1.2 !important;
 }
+.dc-u-lh-large-heading {
+  line-height: 1.05 !important;
+}
 /** List */
 .dc-u-lst-unstyled {
   list-style: none;
@@ -4524,6 +4527,7 @@ h1,
 .h1,
 .dc-h1 {
   font-size: 2.5rem;
+  line-height: 1.05;
 }
 h2,
 .h2,
@@ -13167,6 +13171,7 @@ h1,
 .h1,
 .dc-h1 {
   font-size: $dc-font-size-h1;
+  line-height: $dc-line-height-large-heading;
 }
 
 h2,
@@ -14421,6 +14426,10 @@ exports[`Core generates the correct files: lib/scss/design/utilities/_utilities.
   line-height: $dc-line-height-heading !important;
 }
 
+.dc-u-lh-large-heading {
+  line-height: $dc-line-height-large-heading !important;
+}
+
 /** List */
 
 .dc-u-lst-unstyled {
@@ -15196,6 +15205,7 @@ $dc-font-weight-regular: 400;
 // Line height
 $dc-line-height-base: 1.5;
 $dc-line-height-heading: 1.2;
+$dc-line-height-large-heading: 1.05;
 
 
 /** Border */
@@ -15891,6 +15901,7 @@ Object {
   "lineHeight": Object {
     "base": "1.5",
     "heading": "1.2",
+    "largeHeading": "1.05",
   },
   "spatial": Object {
     "angles": "30 45 60 90 180 270 360",

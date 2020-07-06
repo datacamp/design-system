@@ -9,12 +9,12 @@ exports[`<Heading /> renders at each size renders at size 200, multiLine=false 1
   font-style: normal;
   color: rgb(61,66,81);
   font-weight: 800;
-  line-height: 1.2;
   margin: 0;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
   font-size: 14px;
+  line-height: 1.2;
 }
 
 *:not(style) ~ .emotion-0 {
@@ -39,11 +39,11 @@ exports[`<Heading /> renders at each size renders at size 200, multiLine=true 1`
   font-style: normal;
   color: rgb(61,66,81);
   font-weight: 800;
-  line-height: 1.2;
   margin: 0;
   overflow: auto;
   white-space: normal;
   font-size: 14px;
+  line-height: 1.2;
 }
 
 *:not(style) ~ .emotion-0 {
@@ -68,12 +68,12 @@ exports[`<Heading /> renders at each size renders at size 300, multiLine=false 1
   font-style: normal;
   color: rgb(61,66,81);
   font-weight: 800;
-  line-height: 1.2;
   margin: 0;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
   font-size: 16px;
+  line-height: 1.2;
 }
 
 *:not(style) ~ .emotion-0 {
@@ -98,11 +98,11 @@ exports[`<Heading /> renders at each size renders at size 300, multiLine=true 1`
   font-style: normal;
   color: rgb(61,66,81);
   font-weight: 800;
-  line-height: 1.2;
   margin: 0;
   overflow: auto;
   white-space: normal;
   font-size: 16px;
+  line-height: 1.2;
 }
 
 *:not(style) ~ .emotion-0 {
@@ -127,12 +127,12 @@ exports[`<Heading /> renders at each size renders at size 400, multiLine=false 1
   font-style: normal;
   color: rgb(61,66,81);
   font-weight: 800;
-  line-height: 1.2;
   margin: 0;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
   font-size: 18px;
+  line-height: 1.2;
 }
 
 *:not(style) ~ .emotion-0 {
@@ -157,11 +157,11 @@ exports[`<Heading /> renders at each size renders at size 400, multiLine=true 1`
   font-style: normal;
   color: rgb(61,66,81);
   font-weight: 800;
-  line-height: 1.2;
   margin: 0;
   overflow: auto;
   white-space: normal;
   font-size: 18px;
+  line-height: 1.2;
 }
 
 *:not(style) ~ .emotion-0 {
@@ -186,12 +186,12 @@ exports[`<Heading /> renders at each size renders at size 500, multiLine=false 1
   font-style: normal;
   color: rgb(61,66,81);
   font-weight: 800;
-  line-height: 1.2;
   margin: 0;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
   font-size: 20px;
+  line-height: 1.2;
 }
 
 *:not(style) ~ .emotion-0 {
@@ -216,11 +216,11 @@ exports[`<Heading /> renders at each size renders at size 500, multiLine=true 1`
   font-style: normal;
   color: rgb(61,66,81);
   font-weight: 800;
-  line-height: 1.2;
   margin: 0;
   overflow: auto;
   white-space: normal;
   font-size: 20px;
+  line-height: 1.2;
 }
 
 *:not(style) ~ .emotion-0 {
@@ -245,12 +245,12 @@ exports[`<Heading /> renders at each size renders at size 600, multiLine=false 1
   font-style: normal;
   color: rgb(61,66,81);
   font-weight: 800;
-  line-height: 1.2;
   margin: 0;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
   font-size: 24px;
+  line-height: 1.2;
 }
 
 *:not(style) ~ .emotion-0 {
@@ -275,11 +275,11 @@ exports[`<Heading /> renders at each size renders at size 600, multiLine=true 1`
   font-style: normal;
   color: rgb(61,66,81);
   font-weight: 800;
-  line-height: 1.2;
   margin: 0;
   overflow: auto;
   white-space: normal;
   font-size: 24px;
+  line-height: 1.2;
 }
 
 *:not(style) ~ .emotion-0 {
@@ -304,12 +304,12 @@ exports[`<Heading /> renders at each size renders at size 700, multiLine=false 1
   font-style: normal;
   color: rgb(61,66,81);
   font-weight: 800;
-  line-height: 1.2;
   margin: 0;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
   font-size: 32px;
+  line-height: 1.2;
 }
 
 *:not(style) ~ .emotion-0 {
@@ -334,11 +334,11 @@ exports[`<Heading /> renders at each size renders at size 700, multiLine=true 1`
   font-style: normal;
   color: rgb(61,66,81);
   font-weight: 800;
-  line-height: 1.2;
   margin: 0;
   overflow: auto;
   white-space: normal;
   font-size: 32px;
+  line-height: 1.2;
 }
 
 *:not(style) ~ .emotion-0 {
@@ -363,12 +363,12 @@ exports[`<Heading /> renders at each size renders at size 800, multiLine=false 1
   font-style: normal;
   color: rgb(61,66,81);
   font-weight: 800;
-  line-height: 1.2;
   margin: 0;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
   font-size: 40px;
+  line-height: 1.05;
 }
 
 *:not(style) ~ .emotion-0 {
@@ -393,11 +393,11 @@ exports[`<Heading /> renders at each size renders at size 800, multiLine=true 1`
   font-style: normal;
   color: rgb(61,66,81);
   font-weight: 800;
-  line-height: 1.2;
   margin: 0;
   overflow: auto;
   white-space: normal;
   font-size: 40px;
+  line-height: 1.05;
 }
 
 *:not(style) ~ .emotion-0 {
