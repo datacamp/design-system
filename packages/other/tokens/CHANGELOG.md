@@ -3,6 +3,24 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.0.0-beta.4](https://github.com/datacamp/design-system/compare/@datacamp/waffles-tokens@1.0.0-beta.3...@datacamp/waffles-tokens@1.0.0-beta.4) (2020-07-06)
+
+
+### Features
+
+* use studio feixen writer for monospace font ([c585560](https://github.com/datacamp/design-system/commit/c585560))
+
+
+### BREAKING CHANGES
+
+* The monospace font has changed from Roboto-Mono to 
+Studio-Feixen-Writer. This may affect layout when using code or code 
+blocks.
+
+
+
+
+
 # [1.0.0-beta.3](https://github.com/datacamp/design-system/compare/@datacamp/waffles-tokens@1.0.0-beta.2...@datacamp/waffles-tokens@1.0.0-beta.3) (2020-07-02)
 
 **Note:** Version bump only for package @datacamp/waffles-tokens

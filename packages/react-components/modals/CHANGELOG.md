@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [6.0.0-beta.4](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/modals/compare/@datacamp/waffles-modals@6.0.0-beta.3...@datacamp/waffles-modals@6.0.0-beta.4) (2020-07-06)
+
+**Note:** Version bump only for package @datacamp/waffles-modals
+
+
+
+
+
 # [6.0.0-beta.3](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/modals/compare/@datacamp/waffles-modals@5.1.11...@datacamp/waffles-modals@6.0.0-beta.3) (2020-07-02)
 
 
