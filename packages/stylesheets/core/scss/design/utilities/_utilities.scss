@@ -1075,6 +1075,18 @@
   letter-spacing: 2px !important;
 }
 
+.dc-u-ls-base {
+  letter-spacing: $dc-letter-spacing-base !important;
+}
+
+.dc-u-ls-medium-heading {
+  letter-spacing: $dc-letter-spacing-medium-heading !important;
+}
+
+.dc-u-ls-large-heading {
+  letter-spacing: $dc-letter-spacing-large-heading !important;
+}
+
 /** Line height */
 .dc-u-lh-1 {
   line-height: 1 !important;

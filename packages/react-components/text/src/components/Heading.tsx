@@ -62,6 +62,16 @@ const multiLineStyle = css({
   whiteSpace: 'normal',
 });
 
+const letterSpacingMap = {
+  200: tokens.letterSpacings.base.value,
+  300: tokens.letterSpacings.base.value,
+  400: tokens.letterSpacings.base.value,
+  500: tokens.letterSpacings.base.value,
+  600: tokens.letterSpacings.mediumHeading.value,
+  700: tokens.letterSpacings.mediumHeading.value,
+  800: tokens.letterSpacings.largeHeading.value,
+};
+
 const getStyle = (size: Size, multiLine: boolean): SerializedStyles => {
   return css(
     baseStyle,
@@ -69,6 +79,7 @@ const getStyle = (size: Size, multiLine: boolean): SerializedStyles => {
     multiLine ? multiLineStyle : singleLineStyle,
     {
       fontSize: tokens.size.font[size].value,
+      letterSpacing: letterSpacingMap[size],
       lineHeight:
         size === 800
           ? tokens.lineHeight.largeHeading.value

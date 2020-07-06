@@ -103,6 +103,11 @@ module.exports = ({ properties }) => {
     prefix: 'box-shadow',
   });
 
+  const letterSpacings = generateVariables(properties.letterSpacings, {
+    prefix: 'letter-spacing',
+    valueTransform: ({ value }) => `${value}px`,
+  });
+
   const animation = generateVariables(properties.animation);
   const breakpoints = generateVariables(properties.breakpoints, {
     keyTransform: transformBreakpointKey,
@@ -206,6 +211,9 @@ ${boxShadow}
 
 /** Animation */
 ${animation}
+
+/* Letter Spacings */
+${letterSpacings}
 
 /** Breakpoints */
 ${breakpoints}

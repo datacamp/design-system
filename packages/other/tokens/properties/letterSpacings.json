@@ -1,0 +1,7 @@
+{
+  "letterSpacings": {
+    "base": { "value": 0 },
+    "mediumHeading": { "value": -0.5 },
+    "largeHeading": { "value": -1 }
+  }
+}

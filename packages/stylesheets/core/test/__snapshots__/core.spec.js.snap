@@ -388,6 +388,7 @@ th {
 /** Border */
 /** Box shadow */
 /** Animation */
+/* Letter Spacings */
 /** Breakpoints */
 /**
  * Shorthand for active, focus, hover pseudo classes.
@@ -2786,6 +2787,15 @@ th {
 .dc-u-ls-2 {
   letter-spacing: 2px !important;
 }
+.dc-u-ls-base {
+  letter-spacing: 0px !important;
+}
+.dc-u-ls-medium-heading {
+  letter-spacing: -0.5px !important;
+}
+.dc-u-ls-large-heading {
+  letter-spacing: -1px !important;
+}
 /** Line height */
 .dc-u-lh-1 {
   line-height: 1 !important;
@@ -4528,16 +4538,19 @@ h1,
 .dc-h1 {
   font-size: 2.5rem;
   line-height: 1.05;
+  letter-spacing: -1px;
 }
 h2,
 .h2,
 .dc-h2 {
   font-size: 2rem;
+  letter-spacing: -0.5px;
 }
 h3,
 .h3,
 .dc-h3 {
   font-size: 1.5rem;
+  letter-spacing: -0.5px;
 }
 h4,
 .h4,
@@ -13172,18 +13185,21 @@ h1,
 .dc-h1 {
   font-size: $dc-font-size-h1;
   line-height: $dc-line-height-large-heading;
+  letter-spacing: $dc-letter-spacing-large-heading;
 }
 
 h2,
 .h2,
 .dc-h2 {
   font-size: $dc-font-size-h2;
+  letter-spacing: $dc-letter-spacing-medium-heading;
 }
 
 h3,
 .h3,
 .dc-h3 {
   font-size: $dc-font-size-h3;
+  letter-spacing: $dc-letter-spacing-medium-heading;
 }
 
 h4,
@@ -14413,6 +14429,18 @@ exports[`Core generates the correct files: lib/scss/design/utilities/_utilities.
   letter-spacing: 2px !important;
 }
 
+.dc-u-ls-base {
+  letter-spacing: $dc-letter-spacing-base !important;
+}
+
+.dc-u-ls-medium-heading {
+  letter-spacing: $dc-letter-spacing-medium-heading !important;
+}
+
+.dc-u-ls-large-heading {
+  letter-spacing: $dc-letter-spacing-large-heading !important;
+}
+
 /** Line height */
 .dc-u-lh-1 {
   line-height: 1 !important;
@@ -15231,6 +15259,12 @@ $dc-ease: cubic-bezier(0.77, 0, 0.175, 1);
 $dc-transition: 0.3s cubic-bezier(0.77, 0, 0.175, 1);
 
 
+/* Letter Spacings */
+$dc-letter-spacing-base: 0px;
+$dc-letter-spacing-medium-heading: -0.5px;
+$dc-letter-spacing-large-heading: -1px;
+
+
 /** Breakpoints */
 $dc-bp-xs: 480px;
 $dc-bp-sm: 768px;
@@ -15897,6 +15931,11 @@ Object {
     "redLight": "linear-gradient(180deg, rgba(255, 255, 255, 0), rgba(254, 92, 92, 0.08))",
     "secondary": "linear-gradient(0deg, #ffc844, #fcd86c)",
     "turquoise": "linear-gradient(-135deg, #b8eef4, #78c8de)",
+  },
+  "letterSpacings": Object {
+    "base": 0,
+    "largeHeading": -1,
+    "mediumHeading": -0.5,
   },
   "lineHeight": Object {
     "base": "1.5",
