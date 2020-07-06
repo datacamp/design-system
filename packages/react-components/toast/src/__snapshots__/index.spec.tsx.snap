@@ -54,7 +54,7 @@ exports[`toast mounts a success toast 1`] = `
   font-style: normal;
   color: rgb(61,66,81);
   font-weight: 800;
-  line-height: 1.25;
+  line-height: 1.2;
   margin: 0;
   overflow: auto;
   white-space: normal;
@@ -200,7 +200,7 @@ exports[`toast mounts an error toast 1`] = `
   font-style: normal;
   color: rgb(61,66,81);
   font-weight: 800;
-  line-height: 1.25;
+  line-height: 1.2;
   margin: 0;
   overflow: auto;
   white-space: normal;
