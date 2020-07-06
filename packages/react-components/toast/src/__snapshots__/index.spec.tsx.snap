@@ -54,11 +54,11 @@ exports[`toast mounts a success toast 1`] = `
   font-style: normal;
   color: rgb(61,66,81);
   font-weight: 800;
-  line-height: 1.2;
   margin: 0;
   overflow: auto;
   white-space: normal;
   font-size: 14px;
+  line-height: 1.2;
 }
 
 *:not(style) ~ .emotion-2 {
@@ -200,11 +200,11 @@ exports[`toast mounts an error toast 1`] = `
   font-style: normal;
   color: rgb(61,66,81);
   font-weight: 800;
-  line-height: 1.2;
   margin: 0;
   overflow: auto;
   white-space: normal;
   font-size: 14px;
+  line-height: 1.2;
 }
 
 *:not(style) ~ .emotion-2 {

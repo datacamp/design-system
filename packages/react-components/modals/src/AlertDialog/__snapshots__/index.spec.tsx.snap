@@ -170,11 +170,11 @@ exports[`<AlertModal /> isOpen renders the modal via a portal when true 1`] = `
   font-style: normal;
   color: rgb(61,66,81);
   font-weight: 800;
-  line-height: 1.2;
   margin: 0;
   overflow: auto;
   white-space: normal;
   font-size: 24px;
+  line-height: 1.2;
 }
 
 *:not(style) ~ .emotion-1 {

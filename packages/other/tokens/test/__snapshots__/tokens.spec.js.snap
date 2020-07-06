@@ -108,6 +108,7 @@ Object {
   "lineHeight": Object {
     "base": "1.5",
     "heading": "1.2",
+    "largeHeading": "1.05",
   },
   "spatial": Object {
     "angles": "30 45 60 90 180 270 360",
@@ -1985,6 +1986,21 @@ Object {
       ],
       "value": "1.2",
     },
+    "largeHeading": Object {
+      "attributes": Object {
+        "category": "lineHeight",
+        "type": "largeHeading",
+      },
+      "name": "largeHeading",
+      "original": Object {
+        "value": "1.05",
+      },
+      "path": Array [
+        "lineHeight",
+        "largeHeading",
+      ],
+      "value": "1.05",
+    },
   },
   "opacity": Object {
     "10": Object {
@@ -3012,6 +3028,7 @@ $dc-font-weight-regular: 400;
 // Line height
 $dc-line-height-base: 1.5;
 $dc-line-height-heading: 1.2;
+$dc-line-height-large-heading: 1.05;
 
 
 /** Border */

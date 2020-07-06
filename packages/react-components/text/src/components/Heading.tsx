@@ -48,7 +48,6 @@ export interface HeadingProps {
 const baseHeaderStyle = css({
   color: tokens.color.opaque.greyDark.value.rgb,
   fontWeight: tokens.fontWeight.bold.value,
-  lineHeight: tokens.lineHeight.heading.value,
   margin: 0,
 });
 
@@ -70,6 +69,10 @@ const getStyle = (size: Size, multiLine: boolean): SerializedStyles => {
     multiLine ? multiLineStyle : singleLineStyle,
     {
       fontSize: tokens.size.font[size].value,
+      lineHeight:
+        size === 800
+          ? tokens.lineHeight.largeHeading.value
+          : tokens.lineHeight.heading.value,
       [ssrSafeNotFirstChildSelector]: {
         marginTop:
           size === 800
