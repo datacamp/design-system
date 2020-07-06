@@ -14,6 +14,10 @@ exports[`<Heading /> renders at each size renders at size 200, multiLine=false 1
   text-overflow: ellipsis;
   white-space: nowrap;
   font-size: 14px;
+  -webkit-letter-spacing: 0;
+  -moz-letter-spacing: 0;
+  -ms-letter-spacing: 0;
+  letter-spacing: 0;
   line-height: 1.2;
 }
 
@@ -43,6 +47,10 @@ exports[`<Heading /> renders at each size renders at size 200, multiLine=true 1`
   overflow: auto;
   white-space: normal;
   font-size: 14px;
+  -webkit-letter-spacing: 0;
+  -moz-letter-spacing: 0;
+  -ms-letter-spacing: 0;
+  letter-spacing: 0;
   line-height: 1.2;
 }
 
@@ -73,6 +81,10 @@ exports[`<Heading /> renders at each size renders at size 300, multiLine=false 1
   text-overflow: ellipsis;
   white-space: nowrap;
   font-size: 16px;
+  -webkit-letter-spacing: 0;
+  -moz-letter-spacing: 0;
+  -ms-letter-spacing: 0;
+  letter-spacing: 0;
   line-height: 1.2;
 }
 
@@ -102,6 +114,10 @@ exports[`<Heading /> renders at each size renders at size 300, multiLine=true 1`
   overflow: auto;
   white-space: normal;
   font-size: 16px;
+  -webkit-letter-spacing: 0;
+  -moz-letter-spacing: 0;
+  -ms-letter-spacing: 0;
+  letter-spacing: 0;
   line-height: 1.2;
 }
 
@@ -132,6 +148,10 @@ exports[`<Heading /> renders at each size renders at size 400, multiLine=false 1
   text-overflow: ellipsis;
   white-space: nowrap;
   font-size: 18px;
+  -webkit-letter-spacing: 0;
+  -moz-letter-spacing: 0;
+  -ms-letter-spacing: 0;
+  letter-spacing: 0;
   line-height: 1.2;
 }
 
@@ -161,6 +181,10 @@ exports[`<Heading /> renders at each size renders at size 400, multiLine=true 1`
   overflow: auto;
   white-space: normal;
   font-size: 18px;
+  -webkit-letter-spacing: 0;
+  -moz-letter-spacing: 0;
+  -ms-letter-spacing: 0;
+  letter-spacing: 0;
   line-height: 1.2;
 }
 
@@ -191,6 +215,10 @@ exports[`<Heading /> renders at each size renders at size 500, multiLine=false 1
   text-overflow: ellipsis;
   white-space: nowrap;
   font-size: 20px;
+  -webkit-letter-spacing: 0;
+  -moz-letter-spacing: 0;
+  -ms-letter-spacing: 0;
+  letter-spacing: 0;
   line-height: 1.2;
 }
 
@@ -220,6 +248,10 @@ exports[`<Heading /> renders at each size renders at size 500, multiLine=true 1`
   overflow: auto;
   white-space: normal;
   font-size: 20px;
+  -webkit-letter-spacing: 0;
+  -moz-letter-spacing: 0;
+  -ms-letter-spacing: 0;
+  letter-spacing: 0;
   line-height: 1.2;
 }
 
@@ -250,6 +282,10 @@ exports[`<Heading /> renders at each size renders at size 600, multiLine=false 1
   text-overflow: ellipsis;
   white-space: nowrap;
   font-size: 24px;
+  -webkit-letter-spacing: -0.5px;
+  -moz-letter-spacing: -0.5px;
+  -ms-letter-spacing: -0.5px;
+  letter-spacing: -0.5px;
   line-height: 1.2;
 }
 
@@ -279,6 +315,10 @@ exports[`<Heading /> renders at each size renders at size 600, multiLine=true 1`
   overflow: auto;
   white-space: normal;
   font-size: 24px;
+  -webkit-letter-spacing: -0.5px;
+  -moz-letter-spacing: -0.5px;
+  -ms-letter-spacing: -0.5px;
+  letter-spacing: -0.5px;
   line-height: 1.2;
 }
 
@@ -309,6 +349,10 @@ exports[`<Heading /> renders at each size renders at size 700, multiLine=false 1
   text-overflow: ellipsis;
   white-space: nowrap;
   font-size: 32px;
+  -webkit-letter-spacing: -0.5px;
+  -moz-letter-spacing: -0.5px;
+  -ms-letter-spacing: -0.5px;
+  letter-spacing: -0.5px;
   line-height: 1.2;
 }
 
@@ -338,6 +382,10 @@ exports[`<Heading /> renders at each size renders at size 700, multiLine=true 1`
   overflow: auto;
   white-space: normal;
   font-size: 32px;
+  -webkit-letter-spacing: -0.5px;
+  -moz-letter-spacing: -0.5px;
+  -ms-letter-spacing: -0.5px;
+  letter-spacing: -0.5px;
   line-height: 1.2;
 }
 
@@ -368,6 +416,10 @@ exports[`<Heading /> renders at each size renders at size 800, multiLine=false 1
   text-overflow: ellipsis;
   white-space: nowrap;
   font-size: 40px;
+  -webkit-letter-spacing: -1px;
+  -moz-letter-spacing: -1px;
+  -ms-letter-spacing: -1px;
+  letter-spacing: -1px;
   line-height: 1.05;
 }
 
@@ -397,6 +449,10 @@ exports[`<Heading /> renders at each size renders at size 800, multiLine=true 1`
   overflow: auto;
   white-space: normal;
   font-size: 40px;
+  -webkit-letter-spacing: -1px;
+  -moz-letter-spacing: -1px;
+  -ms-letter-spacing: -1px;
+  letter-spacing: -1px;
   line-height: 1.05;
 }
 

@@ -42,18 +42,21 @@ h1,
 .dc-h1 {
   font-size: $dc-font-size-h1;
   line-height: $dc-line-height-large-heading;
+  letter-spacing: $dc-letter-spacing-large-heading;
 }
 
 h2,
 .h2,
 .dc-h2 {
   font-size: $dc-font-size-h2;
+  letter-spacing: $dc-letter-spacing-medium-heading;
 }
 
 h3,
 .h3,
 .dc-h3 {
   font-size: $dc-font-size-h3;
+  letter-spacing: $dc-letter-spacing-medium-heading;
 }
 
 h4,

@@ -105,6 +105,11 @@ Object {
     "secondary": "linear-gradient(0deg, #ffc844, #fcd86c)",
     "turquoise": "linear-gradient(-135deg, #b8eef4, #78c8de)",
   },
+  "letterSpacings": Object {
+    "base": 0,
+    "largeHeading": -1,
+    "mediumHeading": -0.5,
+  },
   "lineHeight": Object {
     "base": "1.5",
     "heading": "1.2",
@@ -1955,6 +1960,53 @@ Object {
       "value": "linear-gradient(-135deg, #b8eef4, #78c8de)",
     },
   },
+  "letterSpacings": Object {
+    "base": Object {
+      "attributes": Object {
+        "category": "letterSpacings",
+        "type": "base",
+      },
+      "name": "base",
+      "original": Object {
+        "value": 0,
+      },
+      "path": Array [
+        "letterSpacings",
+        "base",
+      ],
+      "value": 0,
+    },
+    "largeHeading": Object {
+      "attributes": Object {
+        "category": "letterSpacings",
+        "type": "largeHeading",
+      },
+      "name": "largeHeading",
+      "original": Object {
+        "value": -1,
+      },
+      "path": Array [
+        "letterSpacings",
+        "largeHeading",
+      ],
+      "value": -1,
+    },
+    "mediumHeading": Object {
+      "attributes": Object {
+        "category": "letterSpacings",
+        "type": "mediumHeading",
+      },
+      "name": "mediumHeading",
+      "original": Object {
+        "value": -0.5,
+      },
+      "path": Array [
+        "letterSpacings",
+        "mediumHeading",
+      ],
+      "value": -0.5,
+    },
+  },
   "lineHeight": Object {
     "base": Object {
       "attributes": Object {
@@ -3052,6 +3104,12 @@ $dc-box-shadow-xxl: 0 10px 20px 0 rgba(0,0,0,0.15);
 $dc-duration: 0.3s;
 $dc-ease: cubic-bezier(0.77, 0, 0.175, 1);
 $dc-transition: 0.3s cubic-bezier(0.77, 0, 0.175, 1);
+
+
+/* Letter Spacings */
+$dc-letter-spacing-base: 0px;
+$dc-letter-spacing-medium-heading: -0.5px;
+$dc-letter-spacing-large-heading: -1px;
 
 
 /** Breakpoints */
