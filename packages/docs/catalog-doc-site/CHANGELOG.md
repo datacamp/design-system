@@ -3,6 +3,27 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0-beta.9](https://github.com/datacamp/design-system/compare/@datacamp/waffles-catalog-doc-site@1.41.0...@datacamp/waffles-catalog-doc-site@2.0.0-beta.9) (2020-07-07)
+
+
+### Features
+
+* change sans-serif font ([6f2d3cd](https://github.com/datacamp/design-system/commit/6f2d3cd))
+* host the studio feixen fonts ([543f3db](https://github.com/datacamp/design-system/commit/543f3db))
+* host writer font files ([04da56f](https://github.com/datacamp/design-system/commit/04da56f))
+* load font from hosted version ([0988a6c](https://github.com/datacamp/design-system/commit/0988a6c))
+* make doc site look obviously beta ([b8cd2ff](https://github.com/datacamp/design-system/commit/b8cd2ff))
+* make the docsite very obviously beta ([a3d2c2d](https://github.com/datacamp/design-system/commit/a3d2c2d))
+
+
+### BREAKING CHANGES
+
+* The sans-serif font has changed from Lato to Studio-Feixen-Sans-Variable
+
+
+
+
+
 # [2.0.0-beta.8](https://github.com/datacamp/design-system/compare/@datacamp/waffles-catalog-doc-site@2.0.0-beta.7...@datacamp/waffles-catalog-doc-site@2.0.0-beta.8) (2020-07-06)
 
 **Note:** Version bump only for package @datacamp/waffles-catalog-doc-site

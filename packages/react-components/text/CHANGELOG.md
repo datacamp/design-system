@@ -3,6 +3,44 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [4.0.0-beta.6](https://github.com/datacamp/design-system/compare/@datacamp/waffles-text@3.0.12...@datacamp/waffles-text@4.0.0-beta.6) (2020-07-07)
+
+
+### Bug Fixes
+
+* load font weights when using the components ([75dcc68](https://github.com/datacamp/design-system/commit/75dcc68))
+
+
+### Features
+
+* add letter spacing for different size headings ([7b4ca34](https://github.com/datacamp/design-system/commit/7b4ca34))
+* add line height for large headings ([7d70c17](https://github.com/datacamp/design-system/commit/7d70c17))
+* change sans-serif font ([6f2d3cd](https://github.com/datacamp/design-system/commit/6f2d3cd))
+* load font from hosted version ([bc575ce](https://github.com/datacamp/design-system/commit/bc575ce))
+* update font weights for new branding ([cf0f3bc](https://github.com/datacamp/design-system/commit/cf0f3bc))
+* update font weights to work with latest font version ([812a41b](https://github.com/datacamp/design-system/commit/812a41b))
+* update heading line height ([ca2da4f](https://github.com/datacamp/design-system/commit/ca2da4f))
+* use studio feixen writer for monospace font ([c585560](https://github.com/datacamp/design-system/commit/c585560))
+
+
+### BREAKING CHANGES
+
+* Headings with size 800 (or h1 from the style sheets) 
+now have a letter spacing of -1. Headings with size 700 & 600 (or h2 & 
+h3 from the style sheets) now have a letter spacing of -0.5
+* The line height for headings has changed from 1.25 to 
+1.2
+* The monospace font has changed from Roboto-Mono to 
+Studio-Feixen-Writer. This may affect layout when using code or code 
+blocks.
+* Font weights have been updated to work with new 
+branding
+* The sans-serif font has changed from Lato to Studio-Feixen-Sans-Variable
+
+
+
+
+
 # [4.0.0-beta.5](https://github.com/datacamp/design-system/compare/@datacamp/waffles-text@4.0.0-beta.4...@datacamp/waffles-text@4.0.0-beta.5) (2020-07-06)
 
 
