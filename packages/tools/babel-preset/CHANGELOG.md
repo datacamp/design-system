@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.4.12](https://github.com/datacamp/design-system/compare/@datacamp/waffles-babel-preset@1.4.11...@datacamp/waffles-babel-preset@1.4.12) (2020-07-07)
+
+**Note:** Version bump only for package @datacamp/waffles-babel-preset
+
+
+
+
+
 ## [1.4.11](https://github.com/datacamp/design-system/compare/@datacamp/waffles-babel-preset@1.4.10...@datacamp/waffles-babel-preset@1.4.11) (2020-07-01)
 
 **Note:** Version bump only for package @datacamp/waffles-babel-preset
