@@ -30,7 +30,19 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.5](https://github.com/datacamp/design-system/compare/@datacamp/waffles-catalog-doc-site@1.40.0...@datacamp/waffles-catalog-doc-site@2.0.0-beta.5) (2020-07-02)
+# [1.41.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-catalog-doc-site@1.40.0...@datacamp/waffles-catalog-doc-site@1.41.0) (2020-07-07)
+
+
+### Features
+
+
+* host new fonts on waffles doc site ([0622562](https://github.com/datacamp/design-system/commit/0622562))
+
+
+
+
+
+# [1.40.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-catalog-doc-site@1.39.7...@datacamp/waffles-catalog-doc-site@1.40.0) (2020-07-01)
 
 
 ### Features
