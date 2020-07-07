@@ -18,7 +18,7 @@
   "license": "UNLICENSED",
   "devDependencies": {
     "deep-cleaner": "1.2.1",
-    "jest": "^26.0.1",
+    "jest": "^26.1.0",
     "lodash": "^4.17.13",
     "nodemon": "^2.0.4",
     "omit-deep-lodash": "^1.1.4",
