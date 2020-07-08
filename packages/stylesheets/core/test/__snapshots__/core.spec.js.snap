@@ -4,8 +4,18 @@ exports[`Core generates the correct files: lib/css/waffles.css 1`] = `
 "@charset \\"UTF-8\\";
 @font-face {
   font-family: 'Studio-Feixen-Sans-Variable';
-  src: url(\\"https://waffles-beta.datacamp.com/fonts/studio-feixen-sans-variable.ttf\\") format(\\"truetype\\");
-  font-weight: 100 900;
+  src: url(\\"https://waffles-beta.datacamp.com/fonts/StudioFeixenSans-Medium.ttf\\") format(\\"truetype\\");
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'Studio-Feixen-Sans-Variable';
+  src: url(\\"https://waffles-beta.datacamp.com/fonts/StudioFeixenSans-Bold.ttf\\") format(\\"truetype\\");
+  font-weight: 800;
+}
+@font-face {
+  font-family: 'Studio-Feixen-Sans-Variable';
+  src: url(\\"https://waffles-beta.datacamp.com/fonts/StudioFeixenSans-Book.ttf\\") format(\\"truetype\\");
+  font-weight: 100;
 }
 @font-face {
   font-family: 'Studio-Feixen-Writer';
@@ -15324,9 +15334,23 @@ $dc-sides: (
 exports[`Core generates the correct files: lib/scss/design/vendor/_feixen-font.scss 1`] = `
 "@font-face {
   font-family: 'Studio-Feixen-Sans-Variable';
-  src: url('https://waffles-beta.datacamp.com/fonts/studio-feixen-sans-variable.ttf')
+  src: url('https://waffles-beta.datacamp.com/fonts/StudioFeixenSans-Medium.ttf')
     format('truetype');
-  font-weight: 100 900;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Studio-Feixen-Sans-Variable';
+  src: url('https://waffles-beta.datacamp.com/fonts/StudioFeixenSans-Bold.ttf')
+    format('truetype');
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: 'Studio-Feixen-Sans-Variable';
+  src: url('https://waffles-beta.datacamp.com/fonts/StudioFeixenSans-Book.ttf')
+    format('truetype');
+  font-weight: 100;
 }
 "
 `;
