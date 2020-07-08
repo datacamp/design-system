@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0-beta.8](https://github.com/datacamp/design-system/compare/@datacamp/waffles-core@2.0.0-beta.7...@datacamp/waffles-core@2.0.0-beta.8) (2020-07-08)
+
+
+### Features
+
+* temporarily load fonts from separate ttf files ([7a11485](https://github.com/datacamp/design-system/commit/7a11485))
+
+
+
+
+
 # [2.0.0-beta.7](https://github.com/datacamp/design-system/compare/@datacamp/waffles-core@1.2.41...@datacamp/waffles-core@2.0.0-beta.7) (2020-07-07)
 
 
