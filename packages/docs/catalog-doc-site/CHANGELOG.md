@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0-beta.11](https://github.com/datacamp/design-system/compare/@datacamp/waffles-catalog-doc-site@2.0.0-beta.10...@datacamp/waffles-catalog-doc-site@2.0.0-beta.11) (2020-07-09)
+
+
+### Features
+
+* show brand guidelines PDF on the homepage ([6e2ef68](https://github.com/datacamp/design-system/commit/6e2ef68))
+
+
+
+
+
 # [2.0.0-beta.10](https://github.com/datacamp/design-system/compare/@datacamp/waffles-catalog-doc-site@2.0.0-beta.9...@datacamp/waffles-catalog-doc-site@2.0.0-beta.10) (2020-07-08)
 
 **Note:** Version bump only for package @datacamp/waffles-catalog-doc-site
