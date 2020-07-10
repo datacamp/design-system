@@ -2473,6 +2473,23 @@ Object {
         ],
         "value": "24px",
       },
+      "650": Object {
+        "attributes": Object {
+          "category": "size",
+          "item": "650",
+          "type": "font",
+        },
+        "name": "650",
+        "original": Object {
+          "value": 1.75,
+        },
+        "path": Array [
+          "size",
+          "font",
+          "650",
+        ],
+        "value": "28px",
+      },
       "700": Object {
         "attributes": Object {
           "category": "size",
@@ -2515,14 +2532,35 @@ Object {
         ],
         "value": "40px",
       },
+      "900": Object {
+        "attributes": Object {
+          "category": "size",
+          "item": "900",
+          "type": "font",
+        },
+        "name": "900",
+        "original": Object {
+          "value": 3.125,
+        },
+        "path": Array [
+          "size",
+          "font",
+          "900",
+        ],
+        "value": "50px",
+      },
       "base": Object {
         "attributes": Object {
           "category": "size",
           "item": "base",
+          "legacyName": "base",
           "type": "font",
         },
         "name": "base",
         "original": Object {
+          "attributes": Object {
+            "legacyName": "base",
+          },
           "value": "16px",
         },
         "path": Array [
