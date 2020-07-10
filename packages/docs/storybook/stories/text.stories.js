@@ -245,6 +245,13 @@ arrange(desc(gdpPercap))`}</CodeBlock>
           This is an initial paragraph so that the margin-top on first heading
           is visible
         </Paragraph>
+        <Heading as={element} multiLine size={900}>
+          This is a Heading with size 900
+        </Heading>
+        <Paragraph>
+          This is some content in a paragraph to demonstrate the spacing below
+          the last Heading.
+        </Paragraph>
         <Heading as={element} multiLine size={800}>
           This is a Heading with size 800
         </Heading>
@@ -254,6 +261,13 @@ arrange(desc(gdpPercap))`}</CodeBlock>
         </Paragraph>
         <Heading as={element} multiLine size={700}>
           This is a Heading with size 700
+        </Heading>
+        <Paragraph>
+          This is some content in a paragraph to demonstrate the spacing below
+          the last Heading.
+        </Paragraph>
+        <Heading as={element} multiLine size={650}>
+          This is a Heading with size 650
         </Heading>
         <Paragraph>
           This is some content in a paragraph to demonstrate the spacing below
