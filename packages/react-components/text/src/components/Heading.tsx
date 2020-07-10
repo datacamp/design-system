@@ -12,7 +12,7 @@ import validateChildrenProp from '../validateChildrenProp';
 
 import Strong from './Strong';
 
-export type Size = 200 | 300 | 400 | 500 | 600 | 700 | 800;
+export type Size = 200 | 300 | 400 | 500 | 600 | 650 | 700 | 800 | 900;
 export type HeadingElement = 'h1' | 'h2' | 'h3' | 'h4' | 'h5' | 'h6';
 export interface HeadingProps {
   /**
@@ -68,8 +68,10 @@ const letterSpacingMap = {
   400: tokens.letterSpacings.base.value,
   500: tokens.letterSpacings.base.value,
   600: tokens.letterSpacings.mediumHeading.value,
+  650: tokens.letterSpacings.mediumHeading.value,
   700: tokens.letterSpacings.mediumHeading.value,
   800: tokens.letterSpacings.largeHeading.value,
+  900: tokens.letterSpacings.largeHeading.value,
 };
 
 const getStyle = (size: Size, multiLine: boolean): SerializedStyles => {
@@ -81,12 +83,12 @@ const getStyle = (size: Size, multiLine: boolean): SerializedStyles => {
       fontSize: tokens.size.font[size].value,
       letterSpacing: letterSpacingMap[size],
       lineHeight:
-        size === 800
+        size >= 800
           ? tokens.lineHeight.largeHeading.value
           : tokens.lineHeight.heading.value,
       [ssrSafeNotFirstChildSelector]: {
         marginTop:
-          size === 800
+          size >= 800
             ? tokens.size.space[24].value
             : tokens.size.space[16].value,
       },

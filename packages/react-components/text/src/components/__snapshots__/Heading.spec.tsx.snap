@@ -335,6 +335,73 @@ exports[`<Heading /> renders at each size renders at size 600, multiLine=true 1`
 </h2>
 `;
 
+exports[`<Heading /> renders at each size renders at size 650, multiLine=false 1`] = `
+.emotion-0 {
+  -webkit-font-smoothing: antialiased;
+  color: rgb(77,83,86);
+  font-family: sans-serif;
+  font-family: Studio-Feixen-Sans-Variable;
+  font-style: normal;
+  color: rgb(61,66,81);
+  font-weight: 800;
+  margin: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 28px;
+  -webkit-letter-spacing: -0.5px;
+  -moz-letter-spacing: -0.5px;
+  -ms-letter-spacing: -0.5px;
+  letter-spacing: -0.5px;
+  line-height: 1.2;
+}
+
+*:not(style) ~ .emotion-0 {
+  margin-top: 16px;
+}
+
+<h2
+  class="example-class emotion-0"
+  data-cy="othertest"
+  data-example="testdata"
+>
+  Some example text.
+</h2>
+`;
+
+exports[`<Heading /> renders at each size renders at size 650, multiLine=true 1`] = `
+.emotion-0 {
+  -webkit-font-smoothing: antialiased;
+  color: rgb(77,83,86);
+  font-family: sans-serif;
+  font-family: Studio-Feixen-Sans-Variable;
+  font-style: normal;
+  color: rgb(61,66,81);
+  font-weight: 800;
+  margin: 0;
+  overflow: auto;
+  white-space: normal;
+  font-size: 28px;
+  -webkit-letter-spacing: -0.5px;
+  -moz-letter-spacing: -0.5px;
+  -ms-letter-spacing: -0.5px;
+  letter-spacing: -0.5px;
+  line-height: 1.2;
+}
+
+*:not(style) ~ .emotion-0 {
+  margin-top: 16px;
+}
+
+<h2
+  class="example-class emotion-0"
+  data-cy="othertest"
+  data-example="testdata"
+>
+  Some example text.
+</h2>
+`;
+
 exports[`<Heading /> renders at each size renders at size 700, multiLine=false 1`] = `
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
@@ -449,6 +516,73 @@ exports[`<Heading /> renders at each size renders at size 800, multiLine=true 1`
   overflow: auto;
   white-space: normal;
   font-size: 40px;
+  -webkit-letter-spacing: -1px;
+  -moz-letter-spacing: -1px;
+  -ms-letter-spacing: -1px;
+  letter-spacing: -1px;
+  line-height: 1.05;
+}
+
+*:not(style) ~ .emotion-0 {
+  margin-top: 24px;
+}
+
+<h2
+  class="example-class emotion-0"
+  data-cy="othertest"
+  data-example="testdata"
+>
+  Some example text.
+</h2>
+`;
+
+exports[`<Heading /> renders at each size renders at size 900, multiLine=false 1`] = `
+.emotion-0 {
+  -webkit-font-smoothing: antialiased;
+  color: rgb(77,83,86);
+  font-family: sans-serif;
+  font-family: Studio-Feixen-Sans-Variable;
+  font-style: normal;
+  color: rgb(61,66,81);
+  font-weight: 800;
+  margin: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 50px;
+  -webkit-letter-spacing: -1px;
+  -moz-letter-spacing: -1px;
+  -ms-letter-spacing: -1px;
+  letter-spacing: -1px;
+  line-height: 1.05;
+}
+
+*:not(style) ~ .emotion-0 {
+  margin-top: 24px;
+}
+
+<h2
+  class="example-class emotion-0"
+  data-cy="othertest"
+  data-example="testdata"
+>
+  Some example text.
+</h2>
+`;
+
+exports[`<Heading /> renders at each size renders at size 900, multiLine=true 1`] = `
+.emotion-0 {
+  -webkit-font-smoothing: antialiased;
+  color: rgb(77,83,86);
+  font-family: sans-serif;
+  font-family: Studio-Feixen-Sans-Variable;
+  font-style: normal;
+  color: rgb(61,66,81);
+  font-weight: 800;
+  margin: 0;
+  overflow: auto;
+  white-space: normal;
+  font-size: 50px;
   -webkit-letter-spacing: -1px;
   -moz-letter-spacing: -1px;
   -ms-letter-spacing: -1px;

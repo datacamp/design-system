@@ -9,7 +9,7 @@ const testText = 'Some example text.';
 const testClassName = 'example-class';
 const testDataAttributes = { cy: 'othertest', example: 'testdata' };
 
-const headerSizes: Size[] = [200, 300, 400, 500, 600, 700, 800];
+const headerSizes: Size[] = [200, 300, 400, 500, 600, 650, 700, 800, 900];
 
 describe('<Heading />', () => {
   describe('renders at each size', () => {
