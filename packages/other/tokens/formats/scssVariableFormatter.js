@@ -8,10 +8,13 @@ const generateVariables = (
     prefix = '',
     keyTransform = _.kebabCase,
     valueTransform = prop => prop.value,
+    filter = () => true,
   } = {},
 ) => {
   const sortedData = _.sortBy(
-    Object.entries(object).map(([key, data]) => ({ data, key })),
+    Object.entries(object)
+      .filter(([key, data]) => filter(key, data))
+      .map(([key, data]) => ({ data, key })),
     'data.attributes.scssSortValue',
   );
   return _.reduce(
@@ -82,7 +85,8 @@ module.exports = ({ properties }) => {
   });
 
   const fontSize = generateVariables(properties.size.font, {
-    keyTransform: (key, data) => data.attributes.legacyName || key,
+    filter: (key, data) => data.attributes.legacyName,
+    keyTransform: (key, data) => data.attributes.legacyName,
     prefix: 'font-size',
     valueTransform: ({ value }) => (_.isString(value) ? value : `${value}rem`),
   });

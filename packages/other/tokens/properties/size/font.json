@@ -1,15 +1,17 @@
 {
   "size": {
     "font": {
-      "base": { "value": "16px" },
+      "base": { "value": "16px", "attributes": { "legacyName": "base" } },
       "100": { "value": 0.75, "attributes": { "legacyName": "micro" } },
       "200": { "value": 0.875, "attributes": { "legacyName": "small" } },
       "300": { "value": 1, "attributes": { "legacyName": "h6" } },
       "400": { "value": 1.125, "attributes": { "legacyName": "h5" } },
       "500": { "value": 1.25, "attributes": { "legacyName": "h4" } },
       "600": { "value": 1.5, "attributes": { "legacyName": "h3" } },
+      "650": { "value": 1.75 },
       "700": { "value": 2, "attributes": { "legacyName": "h2" } },
-      "800": { "value": 2.5, "attributes": { "legacyName": "h1" } }
+      "800": { "value": 2.5, "attributes": { "legacyName": "h1" } },
+      "900": { "value": 3.125 }
     }
   }
 }

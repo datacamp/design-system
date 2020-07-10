@@ -32,7 +32,7 @@ module.exports = dictionary => {
       extractValues(
         _.mapKeys(
           dictionary.properties.size.font,
-          ({ attributes }, key) => attributes.legacyName || key,
+          ({ attributes }, key) => attributes.legacyName || 'remove',
         ),
       ),
       fontSize => (_.isString(fontSize) ? fontSize : `${fontSize}rem`),
