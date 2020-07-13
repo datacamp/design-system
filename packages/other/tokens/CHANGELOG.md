@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.0.0-beta.7](https://github.com/datacamp/design-system/compare/@datacamp/waffles-tokens@1.0.0-beta.6...@datacamp/waffles-tokens@1.0.0-beta.7) (2020-07-13)
+
+
+### Features
+
+* add 900 and 650 heading sizes. Will not affect core or scss tokens ([65154de](https://github.com/datacamp/design-system/commit/65154de))
+
+
+
+
+
 # [1.0.0-beta.6](https://github.com/datacamp/design-system/compare/@datacamp/waffles-tokens@0.6.12...@datacamp/waffles-tokens@1.0.0-beta.6) (2020-07-07)
 
 

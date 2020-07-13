@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0-beta.9](https://github.com/datacamp/design-system/compare/@datacamp/waffles-storybook@2.0.0-beta.8...@datacamp/waffles-storybook@2.0.0-beta.9) (2020-07-13)
+
+
+### Features
+
+* add stories for 900 & 650 size headings ([32fb91d](https://github.com/datacamp/design-system/commit/32fb91d))
+
+
+
+
+
 # [2.0.0-beta.8](https://github.com/datacamp/design-system/compare/@datacamp/waffles-storybook@2.0.0-beta.7...@datacamp/waffles-storybook@2.0.0-beta.8) (2020-07-08)
 
 **Note:** Version bump only for package @datacamp/waffles-storybook

@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [4.0.0-beta.7](https://github.com/datacamp/design-system/compare/@datacamp/waffles-text@4.0.0-beta.6...@datacamp/waffles-text@4.0.0-beta.7) (2020-07-13)
+
+
+### Features
+
+* add 900 and 650 sizes to Heading component ([923c045](https://github.com/datacamp/design-system/commit/923c045))
+
+
+
+
+
 # [4.0.0-beta.6](https://github.com/datacamp/design-system/compare/@datacamp/waffles-text@3.0.12...@datacamp/waffles-text@4.0.0-beta.6) (2020-07-07)
 
 
