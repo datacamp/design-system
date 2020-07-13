@@ -6,6 +6,6 @@ export default css({
     fontFamily: tokens.asset.font.sansSerif.value,
     fontWeight: '100 900' as any,
     src:
-      "url('https://waffles-beta.datacamp.com/fonts/studio-feixen-sans-variable.ttf') format('truetype')",
+      "url('https://waffles.datacamp.com/fonts/studio-feixen-sans-variable.ttf') format('truetype')",
   },
 });

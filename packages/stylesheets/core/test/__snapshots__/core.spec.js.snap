@@ -4,23 +4,23 @@ exports[`Core generates the correct files: lib/css/waffles.css 1`] = `
 "@charset \\"UTF-8\\";
 @font-face {
   font-family: 'Studio-Feixen-Sans-Variable';
-  src: url(\\"https://waffles-beta.datacamp.com/fonts/StudioFeixenSans-Medium.ttf\\") format(\\"truetype\\");
+  src: url(\\"https://waffles.datacamp.com/fonts/StudioFeixenSans-Medium.ttf\\") format(\\"truetype\\");
   font-weight: 400;
 }
 @font-face {
   font-family: 'Studio-Feixen-Sans-Variable';
-  src: url(\\"https://waffles-beta.datacamp.com/fonts/StudioFeixenSans-Bold.ttf\\") format(\\"truetype\\");
+  src: url(\\"https://waffles.datacamp.com/fonts/StudioFeixenSans-Bold.ttf\\") format(\\"truetype\\");
   font-weight: 800;
 }
 @font-face {
   font-family: 'Studio-Feixen-Sans-Variable';
-  src: url(\\"https://waffles-beta.datacamp.com/fonts/StudioFeixenSans-Book.ttf\\") format(\\"truetype\\");
+  src: url(\\"https://waffles.datacamp.com/fonts/StudioFeixenSans-Book.ttf\\") format(\\"truetype\\");
   font-weight: 100;
 }
 @font-face {
   font-family: 'Studio-Feixen-Writer';
-  src: url(\\"https://waffles-beta.datacamp.com/fonts/StudioFeixenSans-WriterRegular.eot\\");
-  src: url(\\"https://waffles-beta.datacamp.com/fonts/StudioFeixenSans-WriterRegular.eot\\") format(\\"embedded-opentype\\"), url(\\"https://waffles-beta.datacamp.com/fonts/StudioFeixenSans-WriterRegular.woff2\\") format(\\"woff2\\"), url(\\"https://waffles-beta.datacamp.com/fonts/StudioFeixenSans-WriterRegular\\") format(\\"woff\\"), url(\\"https://waffles-beta.datacamp.com/fonts/StudioFeixenSans-WriterRegular.ttf\\") format(\\"truetype\\");
+  src: url(\\"https://waffles.datacamp.com/fonts/StudioFeixenSans-WriterRegular.eot\\");
+  src: url(\\"https://waffles.datacamp.com/fonts/StudioFeixenSans-WriterRegular.eot\\") format(\\"embedded-opentype\\"), url(\\"https://waffles.datacamp.com/fonts/StudioFeixenSans-WriterRegular.woff2\\") format(\\"woff2\\"), url(\\"https://waffles.datacamp.com/fonts/StudioFeixenSans-WriterRegular\\") format(\\"woff\\"), url(\\"https://waffles.datacamp.com/fonts/StudioFeixenSans-WriterRegular.ttf\\") format(\\"truetype\\");
   font-weight: normal;
   font-style: normal;
 }
@@ -15334,21 +15334,21 @@ $dc-sides: (
 exports[`Core generates the correct files: lib/scss/design/vendor/_feixen-font.scss 1`] = `
 "@font-face {
   font-family: 'Studio-Feixen-Sans-Variable';
-  src: url('https://waffles-beta.datacamp.com/fonts/StudioFeixenSans-Medium.ttf')
+  src: url('https://waffles.datacamp.com/fonts/StudioFeixenSans-Medium.ttf')
     format('truetype');
   font-weight: 400;
 }
 
 @font-face {
   font-family: 'Studio-Feixen-Sans-Variable';
-  src: url('https://waffles-beta.datacamp.com/fonts/StudioFeixenSans-Bold.ttf')
+  src: url('https://waffles.datacamp.com/fonts/StudioFeixenSans-Bold.ttf')
     format('truetype');
   font-weight: 800;
 }
 
 @font-face {
   font-family: 'Studio-Feixen-Sans-Variable';
-  src: url('https://waffles-beta.datacamp.com/fonts/StudioFeixenSans-Book.ttf')
+  src: url('https://waffles.datacamp.com/fonts/StudioFeixenSans-Book.ttf')
     format('truetype');
   font-weight: 100;
 }
@@ -15358,11 +15358,11 @@ exports[`Core generates the correct files: lib/scss/design/vendor/_feixen-font.s
 exports[`Core generates the correct files: lib/scss/design/vendor/_feixen-writer.scss 1`] = `
 "@font-face {
   font-family: 'Studio-Feixen-Writer';
-  src: url('https://waffles-beta.datacamp.com/fonts/StudioFeixenSans-WriterRegular.eot');
-  src: url('https://waffles-beta.datacamp.com/fonts/StudioFeixenSans-WriterRegular.eot') format('embedded-opentype'),
-    url('https://waffles-beta.datacamp.com/fonts/StudioFeixenSans-WriterRegular.woff2') format('woff2'),
-    url('https://waffles-beta.datacamp.com/fonts/StudioFeixenSans-WriterRegular') format('woff'),
-    url('https://waffles-beta.datacamp.com/fonts/StudioFeixenSans-WriterRegular.ttf') format('truetype');
+  src: url('https://waffles.datacamp.com/fonts/StudioFeixenSans-WriterRegular.eot');
+  src: url('https://waffles.datacamp.com/fonts/StudioFeixenSans-WriterRegular.eot') format('embedded-opentype'),
+    url('https://waffles.datacamp.com/fonts/StudioFeixenSans-WriterRegular.woff2') format('woff2'),
+    url('https://waffles.datacamp.com/fonts/StudioFeixenSans-WriterRegular') format('woff'),
+    url('https://waffles.datacamp.com/fonts/StudioFeixenSans-WriterRegular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
