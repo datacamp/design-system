@@ -4,6 +4,7 @@ describe('index', () => {
   it('exports everything', () => {
     expect(assets).toMatchInlineSnapshot(`
       Object {
+        "DatacampLogo": [Function],
         "Logos": Object {
           "Datacamp": Object {
             "CombinedGrey": [Function],
