@@ -1,4 +1,5 @@
 import {
+  DatacampLogo,
   Logos,
   TechLogo,
   Technologies,
@@ -31,4 +32,12 @@ storiesOf('waffles-asset-components', module)
   })
   .add('TechLogo', () => {
     return <TechLogo technology={text('technology', 'R')} />;
+  })
+  .add('DatacampLogo', () => {
+    return (
+      <DatacampLogo
+        logomarkColor={text('logomarkColor', '#03EF62')}
+        wordmarkColor={text('wordmarkColor', '#05192D')}
+      />
+    );
   });
