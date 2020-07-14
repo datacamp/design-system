@@ -1,4 +1,5 @@
 import {
+  DatacampLogo,
   Logos,
   TechLogo,
   Technologies,
@@ -58,6 +59,11 @@ export default () => {
             </Paragraph>
             <List>
               <List.Item>
+                <Strong>DatacampLogo –</Strong> A component that will display
+                the Datacamp logo in the colours specified by the
+                <Code>logomarkColor</Code> and <Code>wordmarkColor</Code> props.
+              </List.Item>
+              <List.Item>
                 <Strong>Logos –</Strong> Contains various forms of DataCamp
                 logos, and logos for other DataCamp products.
               </List.Item>
@@ -71,9 +77,12 @@ export default () => {
               </List.Item>
             </List>
             <CodeBlock>
-              {
-                "import { Logos, TechLogo, Topics } from '@datacamp/waffles-asset-components';"
-              }
+              {`import {
+  DatacampLogo,
+  Logos,
+  TechLogo,
+  Topics,
+} from '@datacamp/waffles-asset-components';`}
             </CodeBlock>
           </Card>
           <Card css={{ marginTop: 16, padding: 24 }} elevation={2}>
@@ -86,14 +95,26 @@ export default () => {
               these accept the same set of props as an svg, so the size and
               appearance can be customised.
             </Paragraph>
-            <ComponentTable
-              components={Logos.Datacamp}
-              nameFunction={name => `<Logos.Datacamp.${name} />`}
-            />
-            <ComponentTable
-              components={Logos.DatacampB2B}
-              nameFunction={name => `<Logos.DatacampB2B.${name} />`}
-            />
+            <table>
+              <tr>
+                <td>
+                  <CodeBlock>{`<DatacampLogo
+  logomarkColor="#03EF62"
+  wordmarkColor="#05192D"
+/>`}</CodeBlock>
+                </td>
+                <td
+                  css={{
+                    backgroundColor: tokens.color.opaque.greyOslo.value.hex,
+                  }}
+                >
+                  <DatacampLogo
+                    logomarkColor="#03EF62"
+                    wordmarkColor="#05192D"
+                  />
+                </td>
+              </tr>
+            </table>
             <ComponentTable
               components={Logos.Signal}
               nameFunction={name => `<Logos.Signal.${name} />`}
