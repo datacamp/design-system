@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0-beta.10](https://github.com/datacamp/design-system/compare/@datacamp/waffles-core@2.0.0-beta.9...@datacamp/waffles-core@2.0.0-beta.10) (2020-07-14)
+
+
+### Features
+
+* load studio feixen fonts from production waffles site ([2c154b1](https://github.com/datacamp/design-system/commit/2c154b1))
+
+
+
+
+
 # [2.0.0-beta.9](https://github.com/datacamp/design-system/compare/@datacamp/waffles-core@2.0.0-beta.8...@datacamp/waffles-core@2.0.0-beta.9) (2020-07-13)
 
 **Note:** Version bump only for package @datacamp/waffles-core

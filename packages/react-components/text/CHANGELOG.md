@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [4.0.0-beta.8](https://github.com/datacamp/design-system/compare/@datacamp/waffles-text@4.0.0-beta.7...@datacamp/waffles-text@4.0.0-beta.8) (2020-07-14)
+
+
+### Features
+
+* load studio feixen fonts from production waffles site ([2c154b1](https://github.com/datacamp/design-system/commit/2c154b1))
+
+
+
+
+
 # [4.0.0-beta.7](https://github.com/datacamp/design-system/compare/@datacamp/waffles-text@4.0.0-beta.6...@datacamp/waffles-text@4.0.0-beta.7) (2020-07-13)
 
 
