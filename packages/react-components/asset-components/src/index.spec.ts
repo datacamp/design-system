@@ -6,10 +6,19 @@ describe('index', () => {
       Object {
         "Logos": Object {
           "Datacamp": Object {
-            "Icon": [Function],
-            "Inverted": [Function],
-            "Regular": [Function],
-            "SingleColor": [Function],
+            "CombinedGrey": [Function],
+            "CombinedInverted": [Function],
+            "CombinedInvertedWithTagline": [Function],
+            "CombinedRegular": [Function],
+            "CombinedRegularWithTagline": [Function],
+            "CombinedWhite": [Function],
+            "LogomarkGreen": [Function],
+            "LogomarkGrey": [Function],
+            "LogomarkWhite": [Function],
+            "TaglineGrey": [Function],
+            "TaglineWhite": [Function],
+            "WordmarkGrey": [Function],
+            "WordmarkWhite": [Function],
           },
           "DatacampB2B": Object {
             "Inverted": [Function],
