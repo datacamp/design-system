@@ -65,7 +65,7 @@
     "@datacamp/waffles-core": "^1.2.41",
     "@datacamp/waffles-text": "^3.0.12",
     "@datacamp/waffles-tokens": "^0.6.12",
-    "lodash": "^4.17.13",
+    "lodash": "^4.17.19",
     "prop-types": "^15.6.0"
   },
   "peerDependencies": {
