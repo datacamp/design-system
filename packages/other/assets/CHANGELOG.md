@@ -3,6 +3,24 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0-beta.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-assets@1.2.1-beta.1...@datacamp/waffles-assets@2.0.0-beta.0) (2020-07-15)
+
+
+### Features
+
+* swap assets for new logos ([a535357](https://github.com/datacamp/design-system/commit/a535357))
+
+
+### BREAKING CHANGES
+
+* All the DataCamp logos have changed, including the 
+naming. Current imports will not work anymore, though it is recommended 
+to use the new DatacampLogo component going forwards
+
+
+
+
+
 ## [1.2.1-beta.1](https://github.com/datacamp/design-system/compare/@datacamp/waffles-assets@1.2.1-beta.0...@datacamp/waffles-assets@1.2.1-beta.1) (2020-07-02)
 
 **Note:** Version bump only for package @datacamp/waffles-assets
