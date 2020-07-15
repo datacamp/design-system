@@ -3,7 +3,7 @@ import '@testing-library/jest-dom/extend-expect';
 import axeRender from '@datacamp/waffles-axe-render';
 import tokens from '@datacamp/waffles-tokens/lib/future-tokens.json';
 import React from 'react';
-import ErrorBoundary from 'react-error-boundary';
+import { ErrorBoundary } from 'react-error-boundary';
 
 import Button from '../Button';
 import CompactButtonGroup from '../CompactButtonGroup';
@@ -103,7 +103,7 @@ describe('ButtonGroup', () => {
     spy.mockImplementation(() => {});
     const onError = jest.fn();
     await axeRender(
-      <ErrorBoundary onError={onError}>
+      <ErrorBoundary fallbackRender={() => null} onError={onError}>
         <ButtonGroup>
           <Button type="submit">Button 1</Button>
           <Button type="submit">Button 2</Button>
@@ -126,7 +126,7 @@ describe('ButtonGroup', () => {
     spy.mockImplementation(() => {});
     const onError = jest.fn();
     await axeRender(
-      <ErrorBoundary onError={onError}>
+      <ErrorBoundary fallbackRender={() => null} onError={onError}>
         <ButtonGroup>
           <Button type="submit">Button 1</Button>
           <Button type="submit">Button 2</Button>
