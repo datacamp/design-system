@@ -46,7 +46,7 @@
     "@testing-library/user-event": "10.3.1",
     "@types/lodash": "4.14.155",
     "@types/tinycolor2": "1.4.2",
-    "babel-jest": "25.1.0",
+    "babel-jest": "26.1.0",
     "jest": "26.1.0",
     "jest-emotion": "10.0.32",
     "react": "16.8.6",
