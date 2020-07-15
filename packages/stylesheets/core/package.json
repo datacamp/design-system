@@ -30,7 +30,7 @@
     "@babel/cli": "7.7.7",
     "@babel/core": "7.10.3",
     "@datacamp/waffles-babel-preset": "^1.4.12",
-    "copy-webpack-plugin": "5.1.1",
+    "copy-webpack-plugin": "6.0.3",
     "css-loader": "3.6.0",
     "directory-tree": "2.2.4",
     "jest": "26.1.0",
