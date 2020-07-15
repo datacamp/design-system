@@ -38,7 +38,7 @@
     "@datacamp/waffles-axe-render": "^1.2.2",
     "@datacamp/waffles-babel-preset": "^1.4.12",
     "@datacamp/waffles-tsconfig": "^1.1.11",
-    "@stryker-mutator/core": "^3.3.0",
+    "@stryker-mutator/core": "^3.3.1",
     "@stryker-mutator/html-reporter": "^3.1.0",
     "@stryker-mutator/typescript": "^3.2.4",
     "@testing-library/jest-dom": "5.11.0",
