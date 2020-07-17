@@ -3,6 +3,24 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0-beta.12](https://github.com/datacamp/design-system/compare/@datacamp/waffles-storybook@1.42.2...@datacamp/waffles-storybook@2.0.0-beta.12) (2020-07-17)
+
+
+### Features
+
+* add stories for 900 & 650 size headings ([32fb91d](https://github.com/datacamp/design-system/commit/32fb91d))
+* add story for DatacampLogo component ([cb095ac](https://github.com/datacamp/design-system/commit/cb095ac))
+* change sans-serif font ([6f2d3cd](https://github.com/datacamp/design-system/commit/6f2d3cd))
+
+
+### BREAKING CHANGES
+
+* The sans-serif font has changed from Lato to Studio-Feixen-Sans-Variable
+
+
+
+
+
 # [2.0.0-beta.11](https://github.com/datacamp/design-system/compare/@datacamp/waffles-storybook@2.0.0-beta.10...@datacamp/waffles-storybook@2.0.0-beta.11) (2020-07-15)
 
 
