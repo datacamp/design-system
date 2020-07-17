@@ -81,12 +81,12 @@ module.exports = {
       sprite: { prefix: false },
     }),
 
-    new CopyWebpackPlugin(
-      [
+    new CopyWebpackPlugin({
+      patterns: [
         // Copy source SCSS files (except ingredients) to package
         {
           from: 'scss/**/*',
-          ignore: ['ingredients.scss'],
+          globOptions: { ignore: ['**/ingredients.scss', '**/.*'] },
         },
         // Copy ingredients SCSS to package and replace variables import
         {
@@ -104,6 +104,7 @@ module.exports = {
         // Copy variables SCSS to package from waffles-tokens
         {
           from: 'node_modules/@datacamp/waffles-tokens/lib/variables.scss',
+          globOptions: { ignore: ['**/.*'] },
           to: 'scss/design',
         },
         // Copy raw svg icons to package
@@ -114,10 +115,7 @@ module.exports = {
           to: 'tokens.json',
         },
       ],
-      {
-        ignore: ['**/.*'],
-      },
-    ),
+    }),
 
     // remove webpack artifact
     new RemovePlugin({

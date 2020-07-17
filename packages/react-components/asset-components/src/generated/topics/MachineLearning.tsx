@@ -321,21 +321,21 @@ function SvgMachineLearning(props: React.SVGProps<SVGSVGElement>) {
         <path
           fill="url(#machine-learning_svg__x)"
           fillRule="nonzero"
-          d="M150.846 28.681l-53.85 39.85a3.6 3.6 0 0 0 4.283 5.787l53.85-39.85a3.6 3.6 0 1 0-4.283-5.787z"
+          d="M150.846 28.681l-53.85 39.85a3.6 3.6 0 004.283 5.787l53.85-39.85a3.6 3.6 0 10-4.283-5.787z"
           mask="url(#machine-learning_svg__b)"
           opacity={0.7}
         />
         <path
           fill="url(#machine-learning_svg__y)"
           fillRule="nonzero"
-          d="M26.16 62.6l16.943-43.055a3.6 3.6 0 0 0-6.7-2.637L19.46 59.963a3.6 3.6 0 1 0 6.7 2.636z"
+          d="M26.16 62.6l16.943-43.055a3.6 3.6 0 00-6.7-2.637L19.46 59.963a3.6 3.6 0 106.7 2.636z"
           mask="url(#machine-learning_svg__b)"
           opacity={0.7}
         />
         <path
           fill="url(#machine-learning_svg__z)"
           fillRule="nonzero"
-          d="M22.33 64.849l76.676 10.308a3.6 3.6 0 1 0 .959-7.136L23.289 57.713a3.6 3.6 0 1 0-.96 7.136z"
+          d="M22.33 64.849l76.676 10.308a3.6 3.6 0 10.959-7.136L23.289 57.713a3.6 3.6 0 10-.96 7.136z"
           mask="url(#machine-learning_svg__b)"
           opacity={0.7}
         />
@@ -396,7 +396,7 @@ function SvgMachineLearning(props: React.SVGProps<SVGSVGElement>) {
         <path
           fill="url(#machine-learning_svg__G)"
           fillRule="nonzero"
-          d="M44.725 28.458L96.729 74.1a3.6 3.6 0 1 0 4.816-5.353L49.54 23.105a3.6 3.6 0 1 0-4.815 5.353z"
+          d="M44.725 28.458L96.729 74.1a3.6 3.6 0 104.816-5.353L49.54 23.105a3.6 3.6 0 10-4.815 5.353z"
           mask="url(#machine-learning_svg__b)"
           opacity={0.7}
         />
@@ -430,7 +430,7 @@ function SvgMachineLearning(props: React.SVGProps<SVGSVGElement>) {
         <path
           fill="url(#machine-learning_svg__K)"
           fillRule="nonzero"
-          d="M164.586 110.87l-36.923-25.55a3.6 3.6 0 1 0-4.252 5.81l36.924 25.552a3.6 3.6 0 0 0 4.251-5.811z"
+          d="M164.586 110.87l-36.923-25.55a3.6 3.6 0 10-4.252 5.81l36.924 25.552a3.6 3.6 0 004.251-5.811z"
           mask="url(#machine-learning_svg__b)"
           opacity={0.7}
         />

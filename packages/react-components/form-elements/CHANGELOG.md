@@ -31,7 +31,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### BREAKING CHANGES
 
-* Font weights have been updated to work with new 
+* Font weights have been updated to work with new
 branding
 * The sans-serif font has changed from Lato to Studio-Feixen-Sans-Variable
 
@@ -116,6 +116,14 @@ branding
 ### BREAKING CHANGES
 
 * The sans-serif font has changed from Lato to Studio-Feixen-Sans-Variable
+
+
+
+
+## [2.10.2](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/form-elements/compare/@datacamp/waffles-form-elements@2.10.1...@datacamp/waffles-form-elements@2.10.2) (2020-07-17)
+
+**Note:** Version bump only for package @datacamp/waffles-form-elements
+
 
 
 
