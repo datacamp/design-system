@@ -21,4 +21,12 @@ export default [
     path: '/articles/02-icon-migration',
     title: 'Migrating Icons',
   },
+  {
+    content: pageLoader(() =>
+      import('../../pages/articles/03-brand-refresh.js'),
+    ),
+    hideFromMenu: true,
+    path: '/articles/03-brand-refresh',
+    title: 'Brand Refresh',
+  },
 ];
