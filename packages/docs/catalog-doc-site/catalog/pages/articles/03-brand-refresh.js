@@ -48,6 +48,24 @@ export default () => {
                   <li>
                     Letter Spacing and Line Heights now reflect the new fonts.
                   </li>
+                  <li>
+                    Gradients section has been removed. There are no longer any
+                    gradients, please use solid colours for backgrounds going
+                    forwards.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <code>@datacamp/waffles-core</code>
+                <ul>
+                  <li>
+                    All gradients have been removed. This means that all scss
+                    variables of the form <code>$dc-gradient-*</code> have been
+                    removed. Also all utility classes of the form{' '}
+                    <code>.dc-u-bgg-*</code> no longer exist. Make sure to
+                    search your codebase for references to these and replace
+                    with solid colours.
+                  </li>
                 </ul>
               </li>
               <li>
