@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0-beta.17](https://github.com/datacamp/design-system/compare/@datacamp/waffles-catalog-doc-site@2.0.0-beta.16...@datacamp/waffles-catalog-doc-site@2.0.0-beta.17) (2020-07-22)
+
+
+### Features
+
+* host jetbrains mono on the doc site ([2750aef](https://github.com/datacamp/design-system/commit/2750aef))
+
+
+
+
+
 # [2.0.0-beta.16](https://github.com/datacamp/design-system/compare/@datacamp/waffles-catalog-doc-site@2.0.0-beta.15...@datacamp/waffles-catalog-doc-site@2.0.0-beta.16) (2020-07-22)
 
 
