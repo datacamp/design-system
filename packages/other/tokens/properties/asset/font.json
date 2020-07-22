@@ -6,7 +6,7 @@
         "attributes": { "fallback": "sans-serif" }
       },
       "mono": {
-        "value": "Studio-Feixen-Writer",
+        "value": "JetBrainsMonoNL",
         "attributes": { "fallback": "monospace" }
       }
     }

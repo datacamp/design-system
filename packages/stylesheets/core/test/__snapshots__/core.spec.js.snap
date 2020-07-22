@@ -18,9 +18,8 @@ exports[`Core generates the correct files: lib/css/waffles.css 1`] = `
   font-weight: 100;
 }
 @font-face {
-  font-family: 'Studio-Feixen-Writer';
-  src: url(\\"https://waffles.datacamp.com/fonts/StudioFeixenSans-WriterRegular.eot\\");
-  src: url(\\"https://waffles.datacamp.com/fonts/StudioFeixenSans-WriterRegular.eot\\") format(\\"embedded-opentype\\"), url(\\"https://waffles.datacamp.com/fonts/StudioFeixenSans-WriterRegular.woff2\\") format(\\"woff2\\"), url(\\"https://waffles.datacamp.com/fonts/StudioFeixenSans-WriterRegular\\") format(\\"woff\\"), url(\\"https://waffles.datacamp.com/fonts/StudioFeixenSans-WriterRegular.ttf\\") format(\\"truetype\\");
+  font-family: 'JetBrainsMonoNL';
+  src: url(\\"https://waffles.datacamp.com/fonts/JetBrainsMonoNL-Regular.ttf\\") format(\\"truetype\\");
   font-weight: normal;
   font-style: normal;
 }
@@ -2417,7 +2416,7 @@ th {
   font-family: \\"Studio-Feixen-Sans-Variable\\", sans-serif !important;
 }
 .dc-u-ff-mono {
-  font-family: \\"Studio-Feixen-Writer\\", monospace !important;
+  font-family: \\"JetBrainsMonoNL\\", monospace !important;
 }
 .dc-u-fs-base {
   font-size: 16px !important;
@@ -4627,7 +4626,7 @@ mark {
 code {
   color: #3d4251;
   display: inline-block;
-  font-family: \\"Studio-Feixen-Writer\\", monospace;
+  font-family: \\"JetBrainsMonoNL\\", monospace;
   font-size: 0.875rem;
   line-height: 1;
   margin: 0 4px;
@@ -4635,7 +4634,7 @@ code {
 }
 pre {
   border-left: 4px solid #33aacc;
-  font-family: \\"Studio-Feixen-Writer\\", monospace;
+  font-family: \\"JetBrainsMonoNL\\", monospace;
   line-height: 1.8;
   overflow-x: auto;
   padding: spacing(3);
@@ -15222,7 +15221,7 @@ $dc-gradient-turquoise: linear-gradient(-135deg, #b8eef4, #78c8de);
 
 // Font family
 $dc-font-family-sans-serif: 'Studio-Feixen-Sans-Variable', sans-serif;
-$dc-font-family-mono: 'Studio-Feixen-Writer', monospace;
+$dc-font-family-mono: 'JetBrainsMonoNL', monospace;
 
 // Font size
 $dc-font-size-micro: 0.75rem;
@@ -15355,14 +15354,11 @@ exports[`Core generates the correct files: lib/scss/design/vendor/_feixen-font.s
 "
 `;
 
-exports[`Core generates the correct files: lib/scss/design/vendor/_feixen-writer.scss 1`] = `
+exports[`Core generates the correct files: lib/scss/design/vendor/_jetbrains-mono-font.scss 1`] = `
 "@font-face {
-  font-family: 'Studio-Feixen-Writer';
-  src: url('https://waffles.datacamp.com/fonts/StudioFeixenSans-WriterRegular.eot');
-  src: url('https://waffles.datacamp.com/fonts/StudioFeixenSans-WriterRegular.eot') format('embedded-opentype'),
-    url('https://waffles.datacamp.com/fonts/StudioFeixenSans-WriterRegular.woff2') format('woff2'),
-    url('https://waffles.datacamp.com/fonts/StudioFeixenSans-WriterRegular') format('woff'),
-    url('https://waffles.datacamp.com/fonts/StudioFeixenSans-WriterRegular.ttf') format('truetype');
+  font-family: 'JetBrainsMonoNL';
+  src: url('https://waffles.datacamp.com/fonts/JetBrainsMonoNL-Regular.ttf')
+    format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -15821,7 +15817,7 @@ exports[`Core generates the correct files: lib/scss/ingredients.scss 1`] = `
 
 //----- Vendor -----//
 @import 'design/vendor/feixen-font';
-@import 'design/vendor/feixen-writer';
+@import './design/vendor/jetbrains-mono-font';
 @import 'design/vendor/normalize';
 
 //----- Variables -----//
@@ -15923,7 +15919,7 @@ Object {
     "whiteTransparent": "rgba(255, 255, 255, 0.2)",
   },
   "fontFamily": Object {
-    "mono": "'Studio-Feixen-Writer'",
+    "mono": "'JetBrainsMonoNL'",
     "sansSerif": "'Studio-Feixen-Sans-Variable'",
   },
   "fontSize": Object {
@@ -17146,8 +17142,8 @@ Object {
                 },
                 Object {
                   "extension": ".scss",
-                  "name": "_feixen-writer.scss",
-                  "path": "lib/scss/design/vendor/_feixen-writer.scss",
+                  "name": "_jetbrains-mono-font.scss",
+                  "path": "lib/scss/design/vendor/_jetbrains-mono-font.scss",
                   "type": "file",
                 },
                 Object {
