@@ -392,7 +392,6 @@ th {
  */
 /** Spatial */
 /** Color */
-/** Gradient */
 /** Typography */
 /** Border */
 /** Box shadow */
@@ -478,7 +477,6 @@ th {
  * - Background
  *   - background (.dc-u-bg)
  *   - background-color (.dc-u-bgc)
- *   - background gradient (.dc-u-bgg)
  * - Border
  *   - border (.dc-u-b)
  *   - border-bottom/left/right/top (.dc-u-b[b/l/r/t])
@@ -581,7 +579,6 @@ th {
  *
  * Modifiers:
  *   bgc = background-color (.dc-u-bgc)
- *   bgg = background gradient (.dc-u-bgg)
  */
 .dc-u-bg-none {
   background: 0 !important;
@@ -678,40 +675,6 @@ th {
 }
 .dc-u-bgc-white-transparent {
   background-color: rgba(255, 255, 255, 0.2) !important;
-}
-.dc-u-bgg-chambray-cloudburst {
-  background-image: linear-gradient(268deg, #405f8f, #1c3050) !important;
-}
-.dc-u-bgg-primary {
-  background-image: linear-gradient(141deg, #2388b0, #33aacc) !important;
-}
-.dc-u-bgg-primary-dark {
-  background-image: linear-gradient(141deg, #20748d, #164d62) !important;
-}
-.dc-u-bgg-green,
-.dc-u-bgg-puertorico-deyork {
-  background-image: linear-gradient(32deg, #37bbab, #75c97e) !important;
-}
-.dc-u-bgg-primary-light {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0)), to(rgba(51, 170, 204, 0.08))) !important;
-  background-image: linear-gradient(180deg, rgba(255, 255, 255, 0), rgba(51, 170, 204, 0.08)) !important;
-}
-.dc-u-bgg-purple {
-  background-image: linear-gradient(-136deg, #c06ac8, #8468c4) !important;
-}
-.dc-u-bgg-red {
-  background-image: linear-gradient(45deg, #f06a8c, #f6a38d) !important;
-}
-.dc-u-bgg-red-light {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0)), to(rgba(254, 92, 92, 0.08))) !important;
-  background-image: linear-gradient(180deg, rgba(255, 255, 255, 0), rgba(254, 92, 92, 0.08)) !important;
-}
-.dc-u-bgg-secondary {
-  background-image: -webkit-gradient(linear, left bottom, left top, from(#ffc844), to(#fcd86c)) !important;
-  background-image: linear-gradient(0deg, #ffc844, #fcd86c) !important;
-}
-.dc-u-bgg-turquoise {
-  background-image: linear-gradient(-135deg, #b8eef4, #78c8de) !important;
 }
 /**
  * Border
@@ -4967,8 +4930,6 @@ dt {
       -ms-flex-align: center;
           align-items: center;
   background-color: #ffffff;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0)), to(rgba(51, 170, 204, 0.08)));
-  background-image: linear-gradient(180deg, rgba(255, 255, 255, 0), rgba(51, 170, 204, 0.08));
   border: 1px solid #d1d3d8;
   border-radius: 4px;
   display: -webkit-box;
@@ -4988,8 +4949,6 @@ dt {
   width: 16px;
 }
 .dc-has-error .dc-input-checkbox__indicator {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0)), to(rgba(254, 92, 92, 0.08)));
-  background-image: linear-gradient(180deg, rgba(255, 255, 255, 0), rgba(254, 92, 92, 0.08));
   border-color: #fe5c5c;
 }
 .dc-input-checkbox__input:disabled ~ .dc-input-checkbox__indicator {
@@ -5140,8 +5099,6 @@ dt {
       -ms-flex-align: center;
           align-items: center;
   background-color: #ffffff;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0)), to(rgba(51, 170, 204, 0.08)));
-  background-image: linear-gradient(180deg, rgba(255, 255, 255, 0), rgba(51, 170, 204, 0.08));
   border: 1px solid #d1d3d8;
   border-radius: 50%;
   display: -webkit-box;
@@ -5171,8 +5128,6 @@ dt {
   width: 8px;
 }
 .dc-has-error .dc-input-radio__indicator {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0)), to(rgba(254, 92, 92, 0.08)));
-  background-image: linear-gradient(180deg, rgba(255, 255, 255, 0), rgba(254, 92, 92, 0.08));
   border-color: #fe5c5c;
 }
 .dc-has-error .dc-input-radio__indicator::before {
@@ -7768,15 +7723,6 @@ code.clean {
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
 }
-/**
- * Primary gradient background
- * This is a utility class so use it sparingly.
- * If you need to add a custom selector to the same element for more styling,
- * you should specify the background-image there instead.
- */
-.u-bg-primary-gradient {
-  background-image: linear-gradient(141deg, #2388b0, #33aacc);
-}
 .u-img-fluid {
   height: auto;
   max-width: 100%;
@@ -8451,7 +8397,6 @@ exports[`Core generates the correct files: lib/scss/design/forms/_input-checkbox
 .dc-input-checkbox__indicator {
   align-items: center;
   background-color: $dc-white;
-  background-image: $dc-gradient-primary-light;
   border: 1px solid $dc-grey-light;
   border-radius: $dc-border-radius;
   display: flex;
@@ -8464,7 +8409,6 @@ exports[`Core generates the correct files: lib/scss/design/forms/_input-checkbox
 
   // has error
   .dc-has-error & {
-    background-image: $dc-gradient-red-light;
     border-color: $dc-red;
   }
 
@@ -8647,7 +8591,6 @@ exports[`Core generates the correct files: lib/scss/design/forms/_input-radio.sc
 .dc-input-radio__indicator {
   align-items: center;
   background-color: $dc-white;
-  background-image: $dc-gradient-primary-light;
   border: 1px solid $dc-grey-light;
   border-radius: 50%;
   display: flex;
@@ -8669,7 +8612,6 @@ exports[`Core generates the correct files: lib/scss/design/forms/_input-radio.sc
   }
 
   .dc-has-error & {
-    background-image: $dc-gradient-red-light;
     border-color: $dc-red;
 
     &::before {
@@ -11336,12 +11278,6 @@ $porcelain: #f0f4f5; // TODO: $dc-porcelain
 $white: #fff; // TODO: $dc-white
 $white-transparent: rgba(255, 255, 255, 0.2); // TODO: $dc-white-transparent
 
-// gradients
-$primary-dark-gradient: linear-gradient(141deg, #20748d, #164d62); // TODO: $dc-gradient-primary-dark
-$primary-gradient: linear-gradient(141deg, #2388b0, $primary); // TODO: $dc-gradient-primary
-$primary-light-gradient: linear-gradient(180deg, rgba($white, 0), rgba($primary, 0.075)); // TODO: $dc-gradient-primary-light
-$secondary-gradient: linear-gradient(0deg, $secondary, #fcd86c); // TODO: $dc-gradient-secondary
-$red-light-gradient: linear-gradient(180deg, rgba($white, 0), rgba($red, 0.075)); // TODO: $dc-gradient-red-light
 // @end-sass-export-section
 
 // ----- Typography ----- //
@@ -12210,17 +12146,6 @@ code.clean {
 
 .u-vh-align {
   @include vh-align;
-}
-
-/**
- * Primary gradient background
- * This is a utility class so use it sparingly.
- * If you need to add a custom selector to the same element for more styling,
- * you should specify the background-image there instead.
- */
-
-.u-bg-primary-gradient { // TODO: replace with .dc-u-bgg-primary
-  background-image: $dc-gradient-primary;
 }
 
 .u-img-fluid {
@@ -13374,7 +13299,6 @@ exports[`Core generates the correct files: lib/scss/design/utilities/_utilities.
  * - Background
  *   - background (.dc-u-bg)
  *   - background-color (.dc-u-bgc)
- *   - background gradient (.dc-u-bgg)
  * - Border
  *   - border (.dc-u-b)
  *   - border-bottom/left/right/top (.dc-u-b[b/l/r/t])
@@ -13481,7 +13405,6 @@ exports[`Core generates the correct files: lib/scss/design/utilities/_utilities.
  *
  * Modifiers:
  *   bgc = background-color (.dc-u-bgc)
- *   bgg = background gradient (.dc-u-bgg)
  */
 
 .dc-u-bg-none {
@@ -13493,48 +13416,6 @@ exports[`Core generates the correct files: lib/scss/design/utilities/_utilities.
   .dc-u-bgc-#{$color} {
     background-color: #{$hexcode} !important;
   }
-}
-
-// Background gradient (.dc-u-bgg)
-.dc-u-bgg-chambray-cloudburst {
-  background-image: $dc-gradient-chambray-cloudburst !important;
-}
-
-.dc-u-bgg-primary {
-  background-image: $dc-gradient-primary !important;
-}
-
-.dc-u-bgg-primary-dark {
-  background-image: $dc-gradient-primary-dark !important;
-}
-
-.dc-u-bgg-green,
-.dc-u-bgg-puertorico-deyork {
-  background-image: $dc-gradient-puertorico-deyork !important;
-}
-
-.dc-u-bgg-primary-light {
-  background-image: $dc-gradient-primary-light !important;
-}
-
-.dc-u-bgg-purple {
-  background-image: $dc-gradient-purple !important;
-}
-
-.dc-u-bgg-red {
-  background-image: $dc-gradient-red !important;
-}
-
-.dc-u-bgg-red-light {
-  background-image: $dc-gradient-red-light !important;
-}
-
-.dc-u-bgg-secondary {
-  background-image: $dc-gradient-secondary !important;
-}
-
-.dc-u-bgg-turquoise {
-  background-image: $dc-gradient-turquoise !important;
 }
 
 /**
@@ -15202,21 +15083,6 @@ $dc-colors: (
   'white-transparent': $dc-white-transparent,
 );
 
-/** Gradient */
-$dc-gradient-chambray-cloudburst: linear-gradient(268deg, #405f8f, #1c3050);
-$dc-gradient-puertorico-deyork: linear-gradient(32deg, #37bbab, #75c97e);
-$dc-gradient-blue-light: linear-gradient(-143deg, #7dd4e7, #7099d7);
-$dc-gradient-grey: linear-gradient(-135deg, #e7f1f6, #b6d1e5);
-$dc-gradient-primary: linear-gradient(141deg, #2388b0, #33aacc);
-$dc-gradient-primary-dark: linear-gradient(141deg, #20748d, #164d62);
-$dc-gradient-primary-light: linear-gradient(180deg, rgba(255, 255, 255, 0), rgba(51, 170, 204, 0.08));
-$dc-gradient-purple: linear-gradient(-136deg, #c06ac8, #8468c4);
-$dc-gradient-red: linear-gradient(45deg, #f06a8c, #f6a38d);
-$dc-gradient-red-light: linear-gradient(180deg, rgba(255, 255, 255, 0), rgba(254, 92, 92, 0.08));
-$dc-gradient-secondary: linear-gradient(0deg, #ffc844, #fcd86c);
-$dc-gradient-turquoise: linear-gradient(-135deg, #b8eef4, #78c8de);
-
-
 /** Typography */
 
 // Font family
@@ -15937,20 +15803,6 @@ Object {
     "bold": "800",
     "light": "100",
     "regular": "400",
-  },
-  "gradients": Object {
-    "blueLight": "linear-gradient(-143deg, #7dd4e7, #7099d7)",
-    "chambrayCloudburst": "linear-gradient(268deg, #405f8f, #1c3050)",
-    "grey": "linear-gradient(-135deg, #e7f1f6, #b6d1e5)",
-    "primary": "linear-gradient(141deg, #2388b0, #33aacc)",
-    "primaryDark": "linear-gradient(141deg, #20748d, #164d62)",
-    "primaryLight": "linear-gradient(180deg, rgba(255, 255, 255, 0), rgba(51, 170, 204, 0.08))",
-    "puertoricoDeyork": "linear-gradient(32deg, #37bbab, #75c97e)",
-    "purple": "linear-gradient(-136deg, #c06ac8, #8468c4)",
-    "red": "linear-gradient(45deg, #f06a8c, #f6a38d)",
-    "redLight": "linear-gradient(180deg, rgba(255, 255, 255, 0), rgba(254, 92, 92, 0.08))",
-    "secondary": "linear-gradient(0deg, #ffc844, #fcd86c)",
-    "turquoise": "linear-gradient(-135deg, #b8eef4, #78c8de)",
   },
   "letterSpacings": Object {
     "base": 0,

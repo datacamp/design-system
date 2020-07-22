@@ -35,12 +35,6 @@ $porcelain: #f0f4f5; // TODO: $dc-porcelain
 $white: #fff; // TODO: $dc-white
 $white-transparent: rgba(255, 255, 255, 0.2); // TODO: $dc-white-transparent
 
-// gradients
-$primary-dark-gradient: linear-gradient(141deg, #20748d, #164d62); // TODO: $dc-gradient-primary-dark
-$primary-gradient: linear-gradient(141deg, #2388b0, $primary); // TODO: $dc-gradient-primary
-$primary-light-gradient: linear-gradient(180deg, rgba($white, 0), rgba($primary, 0.075)); // TODO: $dc-gradient-primary-light
-$secondary-gradient: linear-gradient(0deg, $secondary, #fcd86c); // TODO: $dc-gradient-secondary
-$red-light-gradient: linear-gradient(180deg, rgba($white, 0), rgba($red, 0.075)); // TODO: $dc-gradient-red-light
 // @end-sass-export-section
 
 // ----- Typography ----- //

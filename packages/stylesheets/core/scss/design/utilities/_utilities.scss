@@ -11,7 +11,6 @@
  * - Background
  *   - background (.dc-u-bg)
  *   - background-color (.dc-u-bgc)
- *   - background gradient (.dc-u-bgg)
  * - Border
  *   - border (.dc-u-b)
  *   - border-bottom/left/right/top (.dc-u-b[b/l/r/t])
@@ -118,7 +117,6 @@
  *
  * Modifiers:
  *   bgc = background-color (.dc-u-bgc)
- *   bgg = background gradient (.dc-u-bgg)
  */
 
 .dc-u-bg-none {
@@ -130,48 +128,6 @@
   .dc-u-bgc-#{$color} {
     background-color: #{$hexcode} !important;
   }
-}
-
-// Background gradient (.dc-u-bgg)
-.dc-u-bgg-chambray-cloudburst {
-  background-image: $dc-gradient-chambray-cloudburst !important;
-}
-
-.dc-u-bgg-primary {
-  background-image: $dc-gradient-primary !important;
-}
-
-.dc-u-bgg-primary-dark {
-  background-image: $dc-gradient-primary-dark !important;
-}
-
-.dc-u-bgg-green,
-.dc-u-bgg-puertorico-deyork {
-  background-image: $dc-gradient-puertorico-deyork !important;
-}
-
-.dc-u-bgg-primary-light {
-  background-image: $dc-gradient-primary-light !important;
-}
-
-.dc-u-bgg-purple {
-  background-image: $dc-gradient-purple !important;
-}
-
-.dc-u-bgg-red {
-  background-image: $dc-gradient-red !important;
-}
-
-.dc-u-bgg-red-light {
-  background-image: $dc-gradient-red-light !important;
-}
-
-.dc-u-bgg-secondary {
-  background-image: $dc-gradient-secondary !important;
-}
-
-.dc-u-bgg-turquoise {
-  background-image: $dc-gradient-turquoise !important;
 }
 
 /**

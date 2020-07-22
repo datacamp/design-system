@@ -23,7 +23,6 @@
 .dc-input-checkbox__indicator {
   align-items: center;
   background-color: $dc-white;
-  background-image: $dc-gradient-primary-light;
   border: 1px solid $dc-grey-light;
   border-radius: $dc-border-radius;
   display: flex;
@@ -36,7 +35,6 @@
 
   // has error
   .dc-has-error & {
-    background-image: $dc-gradient-red-light;
     border-color: $dc-red;
   }
 
