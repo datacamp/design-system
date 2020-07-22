@@ -1,6 +1,6 @@
 ```html|no-source,plain
 <header
-  class="dc-u-bgg-chambray-cloudburst dc-u-pb-32 dc-u-pt-32 dc-u-pt-48 dc-u-ph-32"
+  class="dc-u-pb-32 dc-u-pt-32 dc-u-pt-48 dc-u-ph-32"
 >
   <p class="dc-chapeau-title dc-u-color-secondary dc-u-mb-0">Components</p>
   <h1 class="dc-h3 dc-u-color-white dc-u-mv-4">Button</h1>
