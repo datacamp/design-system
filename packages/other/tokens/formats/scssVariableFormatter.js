@@ -74,10 +74,6 @@ module.exports = ({ properties }) => {
     "  'currentColor': currentColor,\n  'transparent': transparent,\n",
   )});`;
 
-  const gradients = generateVariables(properties.gradient, {
-    prefix: 'gradient',
-  });
-
   const fontFamily = generateVariables(properties.asset.font, {
     prefix: 'font-family',
     valueTransform: ({ value, attributes }) =>
@@ -192,9 +188,6 @@ ${spatial}
 ${colors}
 // Color map
 ${colorMap}
-
-/** Gradient */
-${gradients}
 
 /** Typography */
 
