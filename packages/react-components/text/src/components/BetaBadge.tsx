@@ -12,7 +12,7 @@ interface BetaBadgeProps {
 }
 
 const betaBadgeStyle = css({
-  background: tokens.gradient.purple.value,
+  background: tokens.color.opaque.purple.value.hex,
   color: 'white',
 });
 
