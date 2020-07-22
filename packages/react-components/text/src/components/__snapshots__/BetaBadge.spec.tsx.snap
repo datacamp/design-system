@@ -17,7 +17,7 @@ exports[`BetaBadge renders with the provided className 1`] = `
   line-height: 24px;
   padding-left: 8px;
   padding-right: 8px;
-  background: linear-gradient(-136deg,#c06ac8,#8468c4);
+  background: #8468c4;
   color: white;
 }
 
