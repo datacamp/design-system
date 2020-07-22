@@ -7,10 +7,8 @@ const monoFont = css({
     fontFamily: tokens.asset.font.mono.value,
     fontStyle: 'normal',
     fontWeight: tokens.fontWeight.regular.value,
-    src: `url('https://waffles.datacamp.com/fonts/StudioFeixenSans-WriterRegular.eot') format('embedded-opentype'),
-        url('https://waffles.datacamp.com/fonts/StudioFeixenSans-WriterRegular.woff2') format('woff2'),
-        url('https://waffles.datacamp.com/fonts/StudioFeixenSans-WriterRegular') format('woff'),
-        url('https://waffles.datacamp.com/fonts/StudioFeixenSans-WriterRegular.ttf') format('truetype');`,
+    src: `url('https://waffles.datacamp.com/fonts/JetBrainsMonoNL-Regular.ttf')
+      format('truetype');`,
   },
 });
 
