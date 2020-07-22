@@ -27,7 +27,6 @@
 .dc-input-radio__indicator {
   align-items: center;
   background-color: $dc-white;
-  background-image: $dc-gradient-primary-light;
   border: 1px solid $dc-grey-light;
   border-radius: 50%;
   display: flex;
@@ -49,7 +48,6 @@
   }
 
   .dc-has-error & {
-    background-image: $dc-gradient-red-light;
     border-color: $dc-red;
 
     &::before {

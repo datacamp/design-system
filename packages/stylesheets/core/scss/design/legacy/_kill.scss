@@ -801,17 +801,6 @@ code.clean {
   @include vh-align;
 }
 
-/**
- * Primary gradient background
- * This is a utility class so use it sparingly.
- * If you need to add a custom selector to the same element for more styling,
- * you should specify the background-image there instead.
- */
-
-.u-bg-primary-gradient { // TODO: replace with .dc-u-bgg-primary
-  background-image: $dc-gradient-primary;
-}
-
 .u-img-fluid {
   height: auto;
   max-width: 100%;
