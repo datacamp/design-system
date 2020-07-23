@@ -3,6 +3,25 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.0.0-beta.9](https://github.com/datacamp/design-system/compare/@datacamp/waffles-tokens@1.0.0-beta.8...@datacamp/waffles-tokens@1.0.0-beta.9) (2020-07-23)
+
+
+### Features
+
+* remove gradients from tokens ([5545017](https://github.com/datacamp/design-system/commit/5545017))
+* use JetBrains MonoNL for code font ([cea2bbb](https://github.com/datacamp/design-system/commit/cea2bbb))
+
+
+### BREAKING CHANGES
+
+* the whole gradients section has been deleted. This 
+impacts, core and future tokens, as well as the scss variables
+* all monospace font now uses JetBrains MonoNL
+
+
+
+
+
 # [1.0.0-beta.8](https://github.com/datacamp/design-system/compare/@datacamp/waffles-tokens@0.6.13...@datacamp/waffles-tokens@1.0.0-beta.8) (2020-07-17)
 
 

@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0-beta.18](https://github.com/datacamp/design-system/compare/@datacamp/waffles-catalog-doc-site@2.0.0-beta.17...@datacamp/waffles-catalog-doc-site@2.0.0-beta.18) (2020-07-23)
+
+
+### Features
+
+* add details about gradient removal to upgrade article ([8313180](https://github.com/datacamp/design-system/commit/8313180))
+* remove gradients from docsite ([b82bc9f](https://github.com/datacamp/design-system/commit/b82bc9f))
+
+
+
+
+
 # [2.0.0-beta.17](https://github.com/datacamp/design-system/compare/@datacamp/waffles-catalog-doc-site@2.0.0-beta.16...@datacamp/waffles-catalog-doc-site@2.0.0-beta.17) (2020-07-22)
 
 

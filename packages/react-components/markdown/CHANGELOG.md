@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [3.0.0-beta.10](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/markdown/compare/@datacamp/waffles-markdown@3.0.0-beta.9...@datacamp/waffles-markdown@3.0.0-beta.10) (2020-07-23)
+
+
+### Features
+
+* use JetBrains MonoNL for code font ([cea2bbb](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/markdown/commit/cea2bbb))
+
+
+### BREAKING CHANGES
+
+* all monospace font now uses JetBrains MonoNL
+
+
+
+
+
 # [3.0.0-beta.9](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/markdown/compare/@datacamp/waffles-markdown@2.0.13...@datacamp/waffles-markdown@3.0.0-beta.9) (2020-07-17)
 
 

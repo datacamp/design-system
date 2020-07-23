@@ -1,6 +1,6 @@
 {
   "name": "@datacamp/waffles-card",
-  "version": "3.0.18-beta.0",
+  "version": "3.0.18-beta.1",
   "main": "lib/index.js",
   "module": "es/index.js",
   "types": "types/index.d.ts",
@@ -54,7 +54,7 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.9.2",
-    "@datacamp/waffles-tokens": "^1.0.0-beta.8",
+    "@datacamp/waffles-tokens": "^1.0.0-beta.9",
     "lodash": "^4.17.13",
     "prop-types": "^15.7.2"
   },

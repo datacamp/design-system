@@ -3,6 +3,25 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0-beta.12](https://github.com/datacamp/design-system/compare/@datacamp/waffles-core@2.0.0-beta.11...@datacamp/waffles-core@2.0.0-beta.12) (2020-07-23)
+
+
+### Features
+
+* remove gradients from waffles-core ([a21cb74](https://github.com/datacamp/design-system/commit/a21cb74))
+* use JetBrains MonoNL for code font ([cea2bbb](https://github.com/datacamp/design-system/commit/cea2bbb))
+
+
+### BREAKING CHANGES
+
+* All variables and utility classes related to gradients 
+have been removed.
+* all monospace font now uses JetBrains MonoNL
+
+
+
+
+
 # [2.0.0-beta.11](https://github.com/datacamp/design-system/compare/@datacamp/waffles-core@1.2.42...@datacamp/waffles-core@2.0.0-beta.11) (2020-07-17)
 
 
