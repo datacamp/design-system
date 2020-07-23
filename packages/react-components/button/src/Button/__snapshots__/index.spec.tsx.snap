@@ -3,7 +3,7 @@
 exports[`<Button /> snapshots renders a button with appearance default, intent danger, size large and loading false 1`] = `
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(77,83,86);
+  color: rgb(5,25,45);
   font-family: sans-serif;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
@@ -12,7 +12,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent d
   line-height: 16px;
   font-size: 20px;
   line-height: 62px;
-  color: #3d4251;
+  color: #05192d;
   font-weight: bold;
 }
 
@@ -42,8 +42,8 @@ exports[`<Button /> snapshots renders a button with appearance default, intent d
   vertical-align: baseline;
   white-space: nowrap;
   background-color: transparent;
-  border-color: #fe5c5c;
-  color: #fe5c5c;
+  border-color: #ff5400;
+  color: #ff5400;
   padding: 0 31px;
 }
 
@@ -66,7 +66,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent d
 }
 
 .emotion-1:focus {
-  box-shadow: 0 0 0 4px rgba(254,92,92,0.2);
+  box-shadow: 0 0 0 4px rgba(255,84,0,0.2);
 }
 
 .emotion-1:hover {
@@ -168,7 +168,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent d
 
 .emotion-2 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(77,83,86);
+  color: rgb(5,25,45);
   font-family: sans-serif;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
@@ -207,8 +207,8 @@ exports[`<Button /> snapshots renders a button with appearance default, intent d
   vertical-align: baseline;
   white-space: nowrap;
   background-color: transparent;
-  border-color: #fe5c5c;
-  color: #fe5c5c;
+  border-color: #ff5400;
+  color: #ff5400;
   position: relative;
   padding: 0 31px;
 }
@@ -232,7 +232,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent d
 }
 
 .emotion-3:focus {
-  box-shadow: 0 0 0 4px rgba(254,92,92,0.2);
+  box-shadow: 0 0 0 4px rgba(255,84,0,0.2);
 }
 
 .emotion-3:active {
@@ -388,7 +388,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent d
 exports[`<Button /> snapshots renders a button with appearance default, intent danger, size medium and loading false 1`] = `
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(77,83,86);
+  color: rgb(5,25,45);
   font-family: sans-serif;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
@@ -397,7 +397,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent d
   line-height: 16px;
   font-size: 16px;
   line-height: 46px;
-  color: #3d4251;
+  color: #05192d;
   font-weight: bold;
 }
 
@@ -427,8 +427,8 @@ exports[`<Button /> snapshots renders a button with appearance default, intent d
   vertical-align: baseline;
   white-space: nowrap;
   background-color: transparent;
-  border-color: #fe5c5c;
-  color: #fe5c5c;
+  border-color: #ff5400;
+  color: #ff5400;
   padding: 0 15px;
 }
 
@@ -451,7 +451,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent d
 }
 
 .emotion-1:focus {
-  box-shadow: 0 0 0 4px rgba(254,92,92,0.2);
+  box-shadow: 0 0 0 4px rgba(255,84,0,0.2);
 }
 
 .emotion-1:hover {
@@ -553,7 +553,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent d
 
 .emotion-2 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(77,83,86);
+  color: rgb(5,25,45);
   font-family: sans-serif;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
@@ -592,8 +592,8 @@ exports[`<Button /> snapshots renders a button with appearance default, intent d
   vertical-align: baseline;
   white-space: nowrap;
   background-color: transparent;
-  border-color: #fe5c5c;
-  color: #fe5c5c;
+  border-color: #ff5400;
+  color: #ff5400;
   position: relative;
   padding: 0 15px;
 }
@@ -617,7 +617,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent d
 }
 
 .emotion-3:focus {
-  box-shadow: 0 0 0 4px rgba(254,92,92,0.2);
+  box-shadow: 0 0 0 4px rgba(255,84,0,0.2);
 }
 
 .emotion-3:active {
@@ -773,7 +773,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent d
 exports[`<Button /> snapshots renders a button with appearance default, intent danger, size small and loading false 1`] = `
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(77,83,86);
+  color: rgb(5,25,45);
   font-family: sans-serif;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
@@ -782,7 +782,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent d
   line-height: 16px;
   font-size: 16px;
   line-height: 34px;
-  color: #3d4251;
+  color: #05192d;
   font-weight: bold;
 }
 
@@ -812,8 +812,8 @@ exports[`<Button /> snapshots renders a button with appearance default, intent d
   vertical-align: baseline;
   white-space: nowrap;
   background-color: transparent;
-  border-color: #fe5c5c;
-  color: #fe5c5c;
+  border-color: #ff5400;
+  color: #ff5400;
   padding: 0 15px;
 }
 
@@ -836,7 +836,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent d
 }
 
 .emotion-1:focus {
-  box-shadow: 0 0 0 4px rgba(254,92,92,0.2);
+  box-shadow: 0 0 0 4px rgba(255,84,0,0.2);
 }
 
 .emotion-1:hover {
@@ -938,7 +938,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent d
 
 .emotion-2 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(77,83,86);
+  color: rgb(5,25,45);
   font-family: sans-serif;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
@@ -977,8 +977,8 @@ exports[`<Button /> snapshots renders a button with appearance default, intent d
   vertical-align: baseline;
   white-space: nowrap;
   background-color: transparent;
-  border-color: #fe5c5c;
-  color: #fe5c5c;
+  border-color: #ff5400;
+  color: #ff5400;
   position: relative;
   padding: 0 15px;
 }
@@ -1002,7 +1002,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent d
 }
 
 .emotion-3:focus {
-  box-shadow: 0 0 0 4px rgba(254,92,92,0.2);
+  box-shadow: 0 0 0 4px rgba(255,84,0,0.2);
 }
 
 .emotion-3:active {
@@ -1182,8 +1182,8 @@ exports[`<Button /> snapshots renders a button with appearance default, intent n
   vertical-align: baseline;
   white-space: nowrap;
   background-color: transparent;
-  border-color: #33aacc;
-  color: #33aacc;
+  border-color: #05192d;
+  color: #05192d;
   padding: 0 31px;
 }
 
@@ -1206,7 +1206,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent n
 }
 
 .emotion-1:focus {
-  box-shadow: 0 0 0 4px rgba(51,170,204,0.2);
+  box-shadow: 0 0 0 4px rgba(5,25,45,0.2);
 }
 
 .emotion-1:hover {
@@ -1216,7 +1216,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent n
 
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(77,83,86);
+  color: rgb(5,25,45);
   font-family: sans-serif;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
@@ -1225,7 +1225,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent n
   line-height: 16px;
   font-size: 20px;
   line-height: 62px;
-  color: #3d4251;
+  color: #05192d;
   font-weight: bold;
 }
 
@@ -1347,8 +1347,8 @@ exports[`<Button /> snapshots renders a button with appearance default, intent n
   vertical-align: baseline;
   white-space: nowrap;
   background-color: transparent;
-  border-color: #33aacc;
-  color: #33aacc;
+  border-color: #05192d;
+  color: #05192d;
   position: relative;
   padding: 0 31px;
 }
@@ -1372,7 +1372,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent n
 }
 
 .emotion-3:focus {
-  box-shadow: 0 0 0 4px rgba(51,170,204,0.2);
+  box-shadow: 0 0 0 4px rgba(5,25,45,0.2);
 }
 
 .emotion-3:active {
@@ -1389,7 +1389,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent n
 
 .emotion-2 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(77,83,86);
+  color: rgb(5,25,45);
   font-family: sans-serif;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
@@ -1567,8 +1567,8 @@ exports[`<Button /> snapshots renders a button with appearance default, intent n
   vertical-align: baseline;
   white-space: nowrap;
   background-color: transparent;
-  border-color: #33aacc;
-  color: #33aacc;
+  border-color: #05192d;
+  color: #05192d;
   padding: 0 15px;
 }
 
@@ -1591,7 +1591,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent n
 }
 
 .emotion-1:focus {
-  box-shadow: 0 0 0 4px rgba(51,170,204,0.2);
+  box-shadow: 0 0 0 4px rgba(5,25,45,0.2);
 }
 
 .emotion-1:hover {
@@ -1601,7 +1601,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent n
 
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(77,83,86);
+  color: rgb(5,25,45);
   font-family: sans-serif;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
@@ -1610,7 +1610,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent n
   line-height: 16px;
   font-size: 16px;
   line-height: 46px;
-  color: #3d4251;
+  color: #05192d;
   font-weight: bold;
 }
 
@@ -1663,8 +1663,8 @@ exports[`<Button /> snapshots renders a button with appearance default, intent n
   vertical-align: baseline;
   white-space: nowrap;
   background-color: transparent;
-  border-color: #33aacc;
-  color: #33aacc;
+  border-color: #05192d;
+  color: #05192d;
   position: relative;
   padding: 0 15px;
 }
@@ -1688,7 +1688,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent n
 }
 
 .emotion-3:focus {
-  box-shadow: 0 0 0 4px rgba(51,170,204,0.2);
+  box-shadow: 0 0 0 4px rgba(5,25,45,0.2);
 }
 
 .emotion-3:active {
@@ -1774,7 +1774,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent n
 
 .emotion-2 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(77,83,86);
+  color: rgb(5,25,45);
   font-family: sans-serif;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
@@ -1952,8 +1952,8 @@ exports[`<Button /> snapshots renders a button with appearance default, intent n
   vertical-align: baseline;
   white-space: nowrap;
   background-color: transparent;
-  border-color: #33aacc;
-  color: #33aacc;
+  border-color: #05192d;
+  color: #05192d;
   padding: 0 15px;
 }
 
@@ -1976,7 +1976,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent n
 }
 
 .emotion-1:focus {
-  box-shadow: 0 0 0 4px rgba(51,170,204,0.2);
+  box-shadow: 0 0 0 4px rgba(5,25,45,0.2);
 }
 
 .emotion-1:hover {
@@ -1986,7 +1986,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent n
 
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(77,83,86);
+  color: rgb(5,25,45);
   font-family: sans-serif;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
@@ -1995,7 +1995,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent n
   line-height: 16px;
   font-size: 16px;
   line-height: 34px;
-  color: #3d4251;
+  color: #05192d;
   font-weight: bold;
 }
 
@@ -2048,8 +2048,8 @@ exports[`<Button /> snapshots renders a button with appearance default, intent n
   vertical-align: baseline;
   white-space: nowrap;
   background-color: transparent;
-  border-color: #33aacc;
-  color: #33aacc;
+  border-color: #05192d;
+  color: #05192d;
   position: relative;
   padding: 0 15px;
 }
@@ -2073,7 +2073,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent n
 }
 
 .emotion-3:focus {
-  box-shadow: 0 0 0 4px rgba(51,170,204,0.2);
+  box-shadow: 0 0 0 4px rgba(5,25,45,0.2);
 }
 
 .emotion-3:active {
@@ -2159,7 +2159,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent n
 
 .emotion-2 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(77,83,86);
+  color: rgb(5,25,45);
   font-family: sans-serif;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
@@ -2313,7 +2313,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent n
 exports[`<Button /> snapshots renders a button with appearance default, intent success, size large and loading false 1`] = `
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(77,83,86);
+  color: rgb(5,25,45);
   font-family: sans-serif;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
@@ -2322,7 +2322,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent s
   line-height: 16px;
   font-size: 20px;
   line-height: 62px;
-  color: #3d4251;
+  color: #05192d;
   font-weight: bold;
 }
 
@@ -2352,8 +2352,8 @@ exports[`<Button /> snapshots renders a button with appearance default, intent s
   vertical-align: baseline;
   white-space: nowrap;
   background-color: transparent;
-  border-color: #36d57d;
-  color: #36d57d;
+  border-color: #03ef62;
+  color: #03ef62;
   padding: 0 31px;
 }
 
@@ -2376,7 +2376,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent s
 }
 
 .emotion-1:focus {
-  box-shadow: 0 0 0 4px rgba(54,213,125,0.2);
+  box-shadow: 0 0 0 4px rgba(3,239,98,0.2);
 }
 
 .emotion-1:hover {
@@ -2478,7 +2478,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent s
 
 .emotion-2 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(77,83,86);
+  color: rgb(5,25,45);
   font-family: sans-serif;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
@@ -2517,8 +2517,8 @@ exports[`<Button /> snapshots renders a button with appearance default, intent s
   vertical-align: baseline;
   white-space: nowrap;
   background-color: transparent;
-  border-color: #36d57d;
-  color: #36d57d;
+  border-color: #03ef62;
+  color: #03ef62;
   position: relative;
   padding: 0 31px;
 }
@@ -2542,7 +2542,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent s
 }
 
 .emotion-3:focus {
-  box-shadow: 0 0 0 4px rgba(54,213,125,0.2);
+  box-shadow: 0 0 0 4px rgba(3,239,98,0.2);
 }
 
 .emotion-3:active {
@@ -2698,7 +2698,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent s
 exports[`<Button /> snapshots renders a button with appearance default, intent success, size medium and loading false 1`] = `
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(77,83,86);
+  color: rgb(5,25,45);
   font-family: sans-serif;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
@@ -2707,7 +2707,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent s
   line-height: 16px;
   font-size: 16px;
   line-height: 46px;
-  color: #3d4251;
+  color: #05192d;
   font-weight: bold;
 }
 
@@ -2737,8 +2737,8 @@ exports[`<Button /> snapshots renders a button with appearance default, intent s
   vertical-align: baseline;
   white-space: nowrap;
   background-color: transparent;
-  border-color: #36d57d;
-  color: #36d57d;
+  border-color: #03ef62;
+  color: #03ef62;
   padding: 0 15px;
 }
 
@@ -2761,7 +2761,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent s
 }
 
 .emotion-1:focus {
-  box-shadow: 0 0 0 4px rgba(54,213,125,0.2);
+  box-shadow: 0 0 0 4px rgba(3,239,98,0.2);
 }
 
 .emotion-1:hover {
@@ -2863,7 +2863,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent s
 
 .emotion-2 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(77,83,86);
+  color: rgb(5,25,45);
   font-family: sans-serif;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
@@ -2902,8 +2902,8 @@ exports[`<Button /> snapshots renders a button with appearance default, intent s
   vertical-align: baseline;
   white-space: nowrap;
   background-color: transparent;
-  border-color: #36d57d;
-  color: #36d57d;
+  border-color: #03ef62;
+  color: #03ef62;
   position: relative;
   padding: 0 15px;
 }
@@ -2927,7 +2927,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent s
 }
 
 .emotion-3:focus {
-  box-shadow: 0 0 0 4px rgba(54,213,125,0.2);
+  box-shadow: 0 0 0 4px rgba(3,239,98,0.2);
 }
 
 .emotion-3:active {
@@ -3083,7 +3083,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent s
 exports[`<Button /> snapshots renders a button with appearance default, intent success, size small and loading false 1`] = `
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(77,83,86);
+  color: rgb(5,25,45);
   font-family: sans-serif;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
@@ -3092,7 +3092,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent s
   line-height: 16px;
   font-size: 16px;
   line-height: 34px;
-  color: #3d4251;
+  color: #05192d;
   font-weight: bold;
 }
 
@@ -3122,8 +3122,8 @@ exports[`<Button /> snapshots renders a button with appearance default, intent s
   vertical-align: baseline;
   white-space: nowrap;
   background-color: transparent;
-  border-color: #36d57d;
-  color: #36d57d;
+  border-color: #03ef62;
+  color: #03ef62;
   padding: 0 15px;
 }
 
@@ -3146,7 +3146,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent s
 }
 
 .emotion-1:focus {
-  box-shadow: 0 0 0 4px rgba(54,213,125,0.2);
+  box-shadow: 0 0 0 4px rgba(3,239,98,0.2);
 }
 
 .emotion-1:hover {
@@ -3248,7 +3248,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent s
 
 .emotion-2 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(77,83,86);
+  color: rgb(5,25,45);
   font-family: sans-serif;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
@@ -3287,8 +3287,8 @@ exports[`<Button /> snapshots renders a button with appearance default, intent s
   vertical-align: baseline;
   white-space: nowrap;
   background-color: transparent;
-  border-color: #36d57d;
-  color: #36d57d;
+  border-color: #03ef62;
+  color: #03ef62;
   position: relative;
   padding: 0 15px;
 }
@@ -3312,7 +3312,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent s
 }
 
 .emotion-3:focus {
-  box-shadow: 0 0 0 4px rgba(54,213,125,0.2);
+  box-shadow: 0 0 0 4px rgba(3,239,98,0.2);
 }
 
 .emotion-3:active {
@@ -3468,7 +3468,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent s
 exports[`<Button /> snapshots renders a button with appearance default, intent warning, size large and loading false 1`] = `
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(77,83,86);
+  color: rgb(5,25,45);
   font-family: sans-serif;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
@@ -3477,7 +3477,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent w
   line-height: 16px;
   font-size: 20px;
   line-height: 62px;
-  color: #3d4251;
+  color: #05192d;
   font-weight: bold;
 }
 
@@ -3507,8 +3507,8 @@ exports[`<Button /> snapshots renders a button with appearance default, intent w
   vertical-align: baseline;
   white-space: nowrap;
   background-color: transparent;
-  border-color: #ff9400;
-  color: #ff9400;
+  border-color: #ff931e;
+  color: #ff931e;
   padding: 0 31px;
 }
 
@@ -3531,7 +3531,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent w
 }
 
 .emotion-1:focus {
-  box-shadow: 0 0 0 4px rgba(255,148,0,0.2);
+  box-shadow: 0 0 0 4px rgba(255,147,30,0.2);
 }
 
 .emotion-1:hover {
@@ -3633,7 +3633,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent w
 
 .emotion-2 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(77,83,86);
+  color: rgb(5,25,45);
   font-family: sans-serif;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
@@ -3672,8 +3672,8 @@ exports[`<Button /> snapshots renders a button with appearance default, intent w
   vertical-align: baseline;
   white-space: nowrap;
   background-color: transparent;
-  border-color: #ff9400;
-  color: #ff9400;
+  border-color: #ff931e;
+  color: #ff931e;
   position: relative;
   padding: 0 31px;
 }
@@ -3697,7 +3697,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent w
 }
 
 .emotion-3:focus {
-  box-shadow: 0 0 0 4px rgba(255,148,0,0.2);
+  box-shadow: 0 0 0 4px rgba(255,147,30,0.2);
 }
 
 .emotion-3:active {
@@ -3853,7 +3853,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent w
 exports[`<Button /> snapshots renders a button with appearance default, intent warning, size medium and loading false 1`] = `
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(77,83,86);
+  color: rgb(5,25,45);
   font-family: sans-serif;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
@@ -3862,7 +3862,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent w
   line-height: 16px;
   font-size: 16px;
   line-height: 46px;
-  color: #3d4251;
+  color: #05192d;
   font-weight: bold;
 }
 
@@ -3892,8 +3892,8 @@ exports[`<Button /> snapshots renders a button with appearance default, intent w
   vertical-align: baseline;
   white-space: nowrap;
   background-color: transparent;
-  border-color: #ff9400;
-  color: #ff9400;
+  border-color: #ff931e;
+  color: #ff931e;
   padding: 0 15px;
 }
 
@@ -3916,7 +3916,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent w
 }
 
 .emotion-1:focus {
-  box-shadow: 0 0 0 4px rgba(255,148,0,0.2);
+  box-shadow: 0 0 0 4px rgba(255,147,30,0.2);
 }
 
 .emotion-1:hover {
@@ -4018,7 +4018,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent w
 
 .emotion-2 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(77,83,86);
+  color: rgb(5,25,45);
   font-family: sans-serif;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
@@ -4057,8 +4057,8 @@ exports[`<Button /> snapshots renders a button with appearance default, intent w
   vertical-align: baseline;
   white-space: nowrap;
   background-color: transparent;
-  border-color: #ff9400;
-  color: #ff9400;
+  border-color: #ff931e;
+  color: #ff931e;
   position: relative;
   padding: 0 15px;
 }
@@ -4082,7 +4082,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent w
 }
 
 .emotion-3:focus {
-  box-shadow: 0 0 0 4px rgba(255,148,0,0.2);
+  box-shadow: 0 0 0 4px rgba(255,147,30,0.2);
 }
 
 .emotion-3:active {
@@ -4238,7 +4238,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent w
 exports[`<Button /> snapshots renders a button with appearance default, intent warning, size small and loading false 1`] = `
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(77,83,86);
+  color: rgb(5,25,45);
   font-family: sans-serif;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
@@ -4247,7 +4247,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent w
   line-height: 16px;
   font-size: 16px;
   line-height: 34px;
-  color: #3d4251;
+  color: #05192d;
   font-weight: bold;
 }
 
@@ -4277,8 +4277,8 @@ exports[`<Button /> snapshots renders a button with appearance default, intent w
   vertical-align: baseline;
   white-space: nowrap;
   background-color: transparent;
-  border-color: #ff9400;
-  color: #ff9400;
+  border-color: #ff931e;
+  color: #ff931e;
   padding: 0 15px;
 }
 
@@ -4301,7 +4301,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent w
 }
 
 .emotion-1:focus {
-  box-shadow: 0 0 0 4px rgba(255,148,0,0.2);
+  box-shadow: 0 0 0 4px rgba(255,147,30,0.2);
 }
 
 .emotion-1:hover {
@@ -4403,7 +4403,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent w
 
 .emotion-2 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(77,83,86);
+  color: rgb(5,25,45);
   font-family: sans-serif;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
@@ -4442,8 +4442,8 @@ exports[`<Button /> snapshots renders a button with appearance default, intent w
   vertical-align: baseline;
   white-space: nowrap;
   background-color: transparent;
-  border-color: #ff9400;
-  color: #ff9400;
+  border-color: #ff931e;
+  color: #ff931e;
   position: relative;
   padding: 0 15px;
 }
@@ -4467,7 +4467,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent w
 }
 
 .emotion-3:focus {
-  box-shadow: 0 0 0 4px rgba(255,148,0,0.2);
+  box-shadow: 0 0 0 4px rgba(255,147,30,0.2);
 }
 
 .emotion-3:active {
@@ -4623,7 +4623,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent w
 exports[`<Button /> snapshots renders a button with appearance primary, intent cta, size large and loading false 1`] = `
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(77,83,86);
+  color: rgb(5,25,45);
   font-family: sans-serif;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
@@ -4632,7 +4632,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent c
   line-height: 16px;
   font-size: 20px;
   line-height: 62px;
-  color: #3d4251;
+  color: #05192d;
   font-weight: bold;
 }
 
@@ -4662,9 +4662,9 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent c
   vertical-align: baseline;
   white-space: nowrap;
   background-color: transparent;
-  border-color: #ffc844;
-  color: #ffc844;
-  background-color: #ffc844;
+  border-color: #03ef62;
+  color: #03ef62;
+  background-color: #03ef62;
   padding: 0 31px;
 }
 
@@ -4687,7 +4687,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent c
 }
 
 .emotion-1:focus {
-  box-shadow: 0 0 0 4px rgba(255,200,68,0.2);
+  box-shadow: 0 0 0 4px rgba(3,239,98,0.2);
 }
 
 .emotion-1:hover {
@@ -4794,7 +4794,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent c
 
 .emotion-2 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(77,83,86);
+  color: rgb(5,25,45);
   font-family: sans-serif;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
@@ -4833,9 +4833,9 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent c
   vertical-align: baseline;
   white-space: nowrap;
   background-color: transparent;
-  border-color: #ffc844;
-  color: #ffc844;
-  background-color: #ffc844;
+  border-color: #03ef62;
+  color: #03ef62;
+  background-color: #03ef62;
   position: relative;
   padding: 0 31px;
 }
@@ -4859,7 +4859,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent c
 }
 
 .emotion-3:focus {
-  box-shadow: 0 0 0 4px rgba(255,200,68,0.2);
+  box-shadow: 0 0 0 4px rgba(3,239,98,0.2);
 }
 
 .emotion-3:active {
@@ -5015,7 +5015,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent c
 exports[`<Button /> snapshots renders a button with appearance primary, intent cta, size medium and loading false 1`] = `
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(77,83,86);
+  color: rgb(5,25,45);
   font-family: sans-serif;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
@@ -5024,7 +5024,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent c
   line-height: 16px;
   font-size: 16px;
   line-height: 46px;
-  color: #3d4251;
+  color: #05192d;
   font-weight: bold;
 }
 
@@ -5054,9 +5054,9 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent c
   vertical-align: baseline;
   white-space: nowrap;
   background-color: transparent;
-  border-color: #ffc844;
-  color: #ffc844;
-  background-color: #ffc844;
+  border-color: #03ef62;
+  color: #03ef62;
+  background-color: #03ef62;
   padding: 0 15px;
 }
 
@@ -5079,7 +5079,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent c
 }
 
 .emotion-1:focus {
-  box-shadow: 0 0 0 4px rgba(255,200,68,0.2);
+  box-shadow: 0 0 0 4px rgba(3,239,98,0.2);
 }
 
 .emotion-1:hover {
@@ -5186,7 +5186,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent c
 
 .emotion-2 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(77,83,86);
+  color: rgb(5,25,45);
   font-family: sans-serif;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
@@ -5225,9 +5225,9 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent c
   vertical-align: baseline;
   white-space: nowrap;
   background-color: transparent;
-  border-color: #ffc844;
-  color: #ffc844;
-  background-color: #ffc844;
+  border-color: #03ef62;
+  color: #03ef62;
+  background-color: #03ef62;
   position: relative;
   padding: 0 15px;
 }
@@ -5251,7 +5251,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent c
 }
 
 .emotion-3:focus {
-  box-shadow: 0 0 0 4px rgba(255,200,68,0.2);
+  box-shadow: 0 0 0 4px rgba(3,239,98,0.2);
 }
 
 .emotion-3:active {
@@ -5407,7 +5407,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent c
 exports[`<Button /> snapshots renders a button with appearance primary, intent cta, size small and loading false 1`] = `
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(77,83,86);
+  color: rgb(5,25,45);
   font-family: sans-serif;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
@@ -5416,7 +5416,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent c
   line-height: 16px;
   font-size: 16px;
   line-height: 34px;
-  color: #3d4251;
+  color: #05192d;
   font-weight: bold;
 }
 
@@ -5446,9 +5446,9 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent c
   vertical-align: baseline;
   white-space: nowrap;
   background-color: transparent;
-  border-color: #ffc844;
-  color: #ffc844;
-  background-color: #ffc844;
+  border-color: #03ef62;
+  color: #03ef62;
+  background-color: #03ef62;
   padding: 0 15px;
 }
 
@@ -5471,7 +5471,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent c
 }
 
 .emotion-1:focus {
-  box-shadow: 0 0 0 4px rgba(255,200,68,0.2);
+  box-shadow: 0 0 0 4px rgba(3,239,98,0.2);
 }
 
 .emotion-1:hover {
@@ -5578,7 +5578,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent c
 
 .emotion-2 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(77,83,86);
+  color: rgb(5,25,45);
   font-family: sans-serif;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
@@ -5617,9 +5617,9 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent c
   vertical-align: baseline;
   white-space: nowrap;
   background-color: transparent;
-  border-color: #ffc844;
-  color: #ffc844;
-  background-color: #ffc844;
+  border-color: #03ef62;
+  color: #03ef62;
+  background-color: #03ef62;
   position: relative;
   padding: 0 15px;
 }
@@ -5643,7 +5643,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent c
 }
 
 .emotion-3:focus {
-  box-shadow: 0 0 0 4px rgba(255,200,68,0.2);
+  box-shadow: 0 0 0 4px rgba(3,239,98,0.2);
 }
 
 .emotion-3:active {
@@ -5799,7 +5799,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent c
 exports[`<Button /> snapshots renders a button with appearance primary, intent danger, size large and loading false 1`] = `
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(77,83,86);
+  color: rgb(5,25,45);
   font-family: sans-serif;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
@@ -5838,9 +5838,9 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent d
   vertical-align: baseline;
   white-space: nowrap;
   background-color: transparent;
-  border-color: #fe5c5c;
-  color: #fe5c5c;
-  background-color: #fe5c5c;
+  border-color: #ff5400;
+  color: #ff5400;
+  background-color: #ff5400;
   padding: 0 31px;
 }
 
@@ -5863,7 +5863,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent d
 }
 
 .emotion-1:focus {
-  box-shadow: 0 0 0 4px rgba(254,92,92,0.2);
+  box-shadow: 0 0 0 4px rgba(255,84,0,0.2);
 }
 
 .emotion-1:hover {
@@ -5970,7 +5970,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent d
 
 .emotion-2 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(77,83,86);
+  color: rgb(5,25,45);
   font-family: sans-serif;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
@@ -6009,9 +6009,9 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent d
   vertical-align: baseline;
   white-space: nowrap;
   background-color: transparent;
-  border-color: #fe5c5c;
-  color: #fe5c5c;
-  background-color: #fe5c5c;
+  border-color: #ff5400;
+  color: #ff5400;
+  background-color: #ff5400;
   position: relative;
   padding: 0 31px;
 }
@@ -6035,7 +6035,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent d
 }
 
 .emotion-3:focus {
-  box-shadow: 0 0 0 4px rgba(254,92,92,0.2);
+  box-shadow: 0 0 0 4px rgba(255,84,0,0.2);
 }
 
 .emotion-3:active {
@@ -6191,7 +6191,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent d
 exports[`<Button /> snapshots renders a button with appearance primary, intent danger, size medium and loading false 1`] = `
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(77,83,86);
+  color: rgb(5,25,45);
   font-family: sans-serif;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
@@ -6230,9 +6230,9 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent d
   vertical-align: baseline;
   white-space: nowrap;
   background-color: transparent;
-  border-color: #fe5c5c;
-  color: #fe5c5c;
-  background-color: #fe5c5c;
+  border-color: #ff5400;
+  color: #ff5400;
+  background-color: #ff5400;
   padding: 0 15px;
 }
 
@@ -6255,7 +6255,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent d
 }
 
 .emotion-1:focus {
-  box-shadow: 0 0 0 4px rgba(254,92,92,0.2);
+  box-shadow: 0 0 0 4px rgba(255,84,0,0.2);
 }
 
 .emotion-1:hover {
@@ -6362,7 +6362,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent d
 
 .emotion-2 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(77,83,86);
+  color: rgb(5,25,45);
   font-family: sans-serif;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
@@ -6401,9 +6401,9 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent d
   vertical-align: baseline;
   white-space: nowrap;
   background-color: transparent;
-  border-color: #fe5c5c;
-  color: #fe5c5c;
-  background-color: #fe5c5c;
+  border-color: #ff5400;
+  color: #ff5400;
+  background-color: #ff5400;
   position: relative;
   padding: 0 15px;
 }
@@ -6427,7 +6427,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent d
 }
 
 .emotion-3:focus {
-  box-shadow: 0 0 0 4px rgba(254,92,92,0.2);
+  box-shadow: 0 0 0 4px rgba(255,84,0,0.2);
 }
 
 .emotion-3:active {
@@ -6607,9 +6607,9 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent d
   vertical-align: baseline;
   white-space: nowrap;
   background-color: transparent;
-  border-color: #fe5c5c;
-  color: #fe5c5c;
-  background-color: #fe5c5c;
+  border-color: #ff5400;
+  color: #ff5400;
+  background-color: #ff5400;
   padding: 0 15px;
 }
 
@@ -6632,7 +6632,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent d
 }
 
 .emotion-1:focus {
-  box-shadow: 0 0 0 4px rgba(254,92,92,0.2);
+  box-shadow: 0 0 0 4px rgba(255,84,0,0.2);
 }
 
 .emotion-1:hover {
@@ -6647,7 +6647,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent d
 
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(77,83,86);
+  color: rgb(5,25,45);
   font-family: sans-serif;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
@@ -6754,7 +6754,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent d
 
 .emotion-2 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(77,83,86);
+  color: rgb(5,25,45);
   font-family: sans-serif;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
@@ -6793,9 +6793,9 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent d
   vertical-align: baseline;
   white-space: nowrap;
   background-color: transparent;
-  border-color: #fe5c5c;
-  color: #fe5c5c;
-  background-color: #fe5c5c;
+  border-color: #ff5400;
+  color: #ff5400;
+  background-color: #ff5400;
   position: relative;
   padding: 0 15px;
 }
@@ -6819,7 +6819,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent d
 }
 
 .emotion-3:focus {
-  box-shadow: 0 0 0 4px rgba(254,92,92,0.2);
+  box-shadow: 0 0 0 4px rgba(255,84,0,0.2);
 }
 
 .emotion-3:active {
@@ -6999,9 +6999,9 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent n
   vertical-align: baseline;
   white-space: nowrap;
   background-color: transparent;
-  border-color: #33aacc;
-  color: #33aacc;
-  background-color: #33aacc;
+  border-color: #05192d;
+  color: #05192d;
+  background-color: #05192d;
   padding: 0 31px;
 }
 
@@ -7024,7 +7024,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent n
 }
 
 .emotion-1:focus {
-  box-shadow: 0 0 0 4px rgba(51,170,204,0.2);
+  box-shadow: 0 0 0 4px rgba(5,25,45,0.2);
 }
 
 .emotion-1:hover {
@@ -7039,7 +7039,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent n
 
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(77,83,86);
+  color: rgb(5,25,45);
   font-family: sans-serif;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
@@ -7146,7 +7146,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent n
 
 .emotion-2 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(77,83,86);
+  color: rgb(5,25,45);
   font-family: sans-serif;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
@@ -7185,9 +7185,9 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent n
   vertical-align: baseline;
   white-space: nowrap;
   background-color: transparent;
-  border-color: #33aacc;
-  color: #33aacc;
-  background-color: #33aacc;
+  border-color: #05192d;
+  color: #05192d;
+  background-color: #05192d;
   position: relative;
   padding: 0 31px;
 }
@@ -7211,7 +7211,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent n
 }
 
 .emotion-3:focus {
-  box-shadow: 0 0 0 4px rgba(51,170,204,0.2);
+  box-shadow: 0 0 0 4px rgba(5,25,45,0.2);
 }
 
 .emotion-3:active {
@@ -7391,9 +7391,9 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent n
   vertical-align: baseline;
   white-space: nowrap;
   background-color: transparent;
-  border-color: #33aacc;
-  color: #33aacc;
-  background-color: #33aacc;
+  border-color: #05192d;
+  color: #05192d;
+  background-color: #05192d;
   padding: 0 15px;
 }
 
@@ -7416,7 +7416,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent n
 }
 
 .emotion-1:focus {
-  box-shadow: 0 0 0 4px rgba(51,170,204,0.2);
+  box-shadow: 0 0 0 4px rgba(5,25,45,0.2);
 }
 
 .emotion-1:hover {
@@ -7431,7 +7431,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent n
 
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(77,83,86);
+  color: rgb(5,25,45);
   font-family: sans-serif;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
@@ -7538,7 +7538,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent n
 
 .emotion-2 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(77,83,86);
+  color: rgb(5,25,45);
   font-family: sans-serif;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
@@ -7577,9 +7577,9 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent n
   vertical-align: baseline;
   white-space: nowrap;
   background-color: transparent;
-  border-color: #33aacc;
-  color: #33aacc;
-  background-color: #33aacc;
+  border-color: #05192d;
+  color: #05192d;
+  background-color: #05192d;
   position: relative;
   padding: 0 15px;
 }
@@ -7603,7 +7603,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent n
 }
 
 .emotion-3:focus {
-  box-shadow: 0 0 0 4px rgba(51,170,204,0.2);
+  box-shadow: 0 0 0 4px rgba(5,25,45,0.2);
 }
 
 .emotion-3:active {
@@ -7783,9 +7783,9 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent n
   vertical-align: baseline;
   white-space: nowrap;
   background-color: transparent;
-  border-color: #33aacc;
-  color: #33aacc;
-  background-color: #33aacc;
+  border-color: #05192d;
+  color: #05192d;
+  background-color: #05192d;
   padding: 0 15px;
 }
 
@@ -7808,7 +7808,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent n
 }
 
 .emotion-1:focus {
-  box-shadow: 0 0 0 4px rgba(51,170,204,0.2);
+  box-shadow: 0 0 0 4px rgba(5,25,45,0.2);
 }
 
 .emotion-1:hover {
@@ -7823,7 +7823,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent n
 
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(77,83,86);
+  color: rgb(5,25,45);
   font-family: sans-serif;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
@@ -7954,9 +7954,9 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent n
   vertical-align: baseline;
   white-space: nowrap;
   background-color: transparent;
-  border-color: #33aacc;
-  color: #33aacc;
-  background-color: #33aacc;
+  border-color: #05192d;
+  color: #05192d;
+  background-color: #05192d;
   position: relative;
   padding: 0 15px;
 }
@@ -7980,7 +7980,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent n
 }
 
 .emotion-3:focus {
-  box-shadow: 0 0 0 4px rgba(51,170,204,0.2);
+  box-shadow: 0 0 0 4px rgba(5,25,45,0.2);
 }
 
 .emotion-3:active {
@@ -7997,7 +7997,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent n
 
 .emotion-2 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(77,83,86);
+  color: rgb(5,25,45);
   font-family: sans-serif;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
@@ -8151,7 +8151,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent n
 exports[`<Button /> snapshots renders a button with appearance primary, intent success, size large and loading false 1`] = `
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(77,83,86);
+  color: rgb(5,25,45);
   font-family: sans-serif;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
@@ -8190,9 +8190,9 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent s
   vertical-align: baseline;
   white-space: nowrap;
   background-color: transparent;
-  border-color: #36d57d;
-  color: #36d57d;
-  background-color: #36d57d;
+  border-color: #03ef62;
+  color: #03ef62;
+  background-color: #03ef62;
   padding: 0 31px;
 }
 
@@ -8215,7 +8215,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent s
 }
 
 .emotion-1:focus {
-  box-shadow: 0 0 0 4px rgba(54,213,125,0.2);
+  box-shadow: 0 0 0 4px rgba(3,239,98,0.2);
 }
 
 .emotion-1:hover {
@@ -8322,7 +8322,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent s
 
 .emotion-2 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(77,83,86);
+  color: rgb(5,25,45);
   font-family: sans-serif;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
@@ -8361,9 +8361,9 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent s
   vertical-align: baseline;
   white-space: nowrap;
   background-color: transparent;
-  border-color: #36d57d;
-  color: #36d57d;
-  background-color: #36d57d;
+  border-color: #03ef62;
+  color: #03ef62;
+  background-color: #03ef62;
   position: relative;
   padding: 0 31px;
 }
@@ -8387,7 +8387,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent s
 }
 
 .emotion-3:focus {
-  box-shadow: 0 0 0 4px rgba(54,213,125,0.2);
+  box-shadow: 0 0 0 4px rgba(3,239,98,0.2);
 }
 
 .emotion-3:active {
@@ -8543,7 +8543,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent s
 exports[`<Button /> snapshots renders a button with appearance primary, intent success, size medium and loading false 1`] = `
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(77,83,86);
+  color: rgb(5,25,45);
   font-family: sans-serif;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
@@ -8582,9 +8582,9 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent s
   vertical-align: baseline;
   white-space: nowrap;
   background-color: transparent;
-  border-color: #36d57d;
-  color: #36d57d;
-  background-color: #36d57d;
+  border-color: #03ef62;
+  color: #03ef62;
+  background-color: #03ef62;
   padding: 0 15px;
 }
 
@@ -8607,7 +8607,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent s
 }
 
 .emotion-1:focus {
-  box-shadow: 0 0 0 4px rgba(54,213,125,0.2);
+  box-shadow: 0 0 0 4px rgba(3,239,98,0.2);
 }
 
 .emotion-1:hover {
@@ -8714,7 +8714,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent s
 
 .emotion-2 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(77,83,86);
+  color: rgb(5,25,45);
   font-family: sans-serif;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
@@ -8753,9 +8753,9 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent s
   vertical-align: baseline;
   white-space: nowrap;
   background-color: transparent;
-  border-color: #36d57d;
-  color: #36d57d;
-  background-color: #36d57d;
+  border-color: #03ef62;
+  color: #03ef62;
+  background-color: #03ef62;
   position: relative;
   padding: 0 15px;
 }
@@ -8779,7 +8779,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent s
 }
 
 .emotion-3:focus {
-  box-shadow: 0 0 0 4px rgba(54,213,125,0.2);
+  box-shadow: 0 0 0 4px rgba(3,239,98,0.2);
 }
 
 .emotion-3:active {
@@ -8959,9 +8959,9 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent s
   vertical-align: baseline;
   white-space: nowrap;
   background-color: transparent;
-  border-color: #36d57d;
-  color: #36d57d;
-  background-color: #36d57d;
+  border-color: #03ef62;
+  color: #03ef62;
+  background-color: #03ef62;
   padding: 0 15px;
 }
 
@@ -8984,7 +8984,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent s
 }
 
 .emotion-1:focus {
-  box-shadow: 0 0 0 4px rgba(54,213,125,0.2);
+  box-shadow: 0 0 0 4px rgba(3,239,98,0.2);
 }
 
 .emotion-1:hover {
@@ -8999,7 +8999,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent s
 
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(77,83,86);
+  color: rgb(5,25,45);
   font-family: sans-serif;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
@@ -9106,7 +9106,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent s
 
 .emotion-2 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(77,83,86);
+  color: rgb(5,25,45);
   font-family: sans-serif;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
@@ -9145,9 +9145,9 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent s
   vertical-align: baseline;
   white-space: nowrap;
   background-color: transparent;
-  border-color: #36d57d;
-  color: #36d57d;
-  background-color: #36d57d;
+  border-color: #03ef62;
+  color: #03ef62;
+  background-color: #03ef62;
   position: relative;
   padding: 0 15px;
 }
@@ -9171,7 +9171,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent s
 }
 
 .emotion-3:focus {
-  box-shadow: 0 0 0 4px rgba(54,213,125,0.2);
+  box-shadow: 0 0 0 4px rgba(3,239,98,0.2);
 }
 
 .emotion-3:active {
@@ -9327,7 +9327,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent s
 exports[`<Button /> snapshots renders a button with appearance primary, intent warning, size large and loading false 1`] = `
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(77,83,86);
+  color: rgb(5,25,45);
   font-family: sans-serif;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
@@ -9366,9 +9366,9 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent w
   vertical-align: baseline;
   white-space: nowrap;
   background-color: transparent;
-  border-color: #ff9400;
-  color: #ff9400;
-  background-color: #ff9400;
+  border-color: #ff931e;
+  color: #ff931e;
+  background-color: #ff931e;
   padding: 0 31px;
 }
 
@@ -9391,7 +9391,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent w
 }
 
 .emotion-1:focus {
-  box-shadow: 0 0 0 4px rgba(255,148,0,0.2);
+  box-shadow: 0 0 0 4px rgba(255,147,30,0.2);
 }
 
 .emotion-1:hover {
@@ -9498,7 +9498,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent w
 
 .emotion-2 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(77,83,86);
+  color: rgb(5,25,45);
   font-family: sans-serif;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
@@ -9537,9 +9537,9 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent w
   vertical-align: baseline;
   white-space: nowrap;
   background-color: transparent;
-  border-color: #ff9400;
-  color: #ff9400;
-  background-color: #ff9400;
+  border-color: #ff931e;
+  color: #ff931e;
+  background-color: #ff931e;
   position: relative;
   padding: 0 31px;
 }
@@ -9563,7 +9563,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent w
 }
 
 .emotion-3:focus {
-  box-shadow: 0 0 0 4px rgba(255,148,0,0.2);
+  box-shadow: 0 0 0 4px rgba(255,147,30,0.2);
 }
 
 .emotion-3:active {
@@ -9719,7 +9719,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent w
 exports[`<Button /> snapshots renders a button with appearance primary, intent warning, size medium and loading false 1`] = `
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(77,83,86);
+  color: rgb(5,25,45);
   font-family: sans-serif;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
@@ -9758,9 +9758,9 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent w
   vertical-align: baseline;
   white-space: nowrap;
   background-color: transparent;
-  border-color: #ff9400;
-  color: #ff9400;
-  background-color: #ff9400;
+  border-color: #ff931e;
+  color: #ff931e;
+  background-color: #ff931e;
   padding: 0 15px;
 }
 
@@ -9783,7 +9783,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent w
 }
 
 .emotion-1:focus {
-  box-shadow: 0 0 0 4px rgba(255,148,0,0.2);
+  box-shadow: 0 0 0 4px rgba(255,147,30,0.2);
 }
 
 .emotion-1:hover {
@@ -9890,7 +9890,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent w
 
 .emotion-2 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(77,83,86);
+  color: rgb(5,25,45);
   font-family: sans-serif;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
@@ -9929,9 +9929,9 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent w
   vertical-align: baseline;
   white-space: nowrap;
   background-color: transparent;
-  border-color: #ff9400;
-  color: #ff9400;
-  background-color: #ff9400;
+  border-color: #ff931e;
+  color: #ff931e;
+  background-color: #ff931e;
   position: relative;
   padding: 0 15px;
 }
@@ -9955,7 +9955,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent w
 }
 
 .emotion-3:focus {
-  box-shadow: 0 0 0 4px rgba(255,148,0,0.2);
+  box-shadow: 0 0 0 4px rgba(255,147,30,0.2);
 }
 
 .emotion-3:active {
@@ -10135,9 +10135,9 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent w
   vertical-align: baseline;
   white-space: nowrap;
   background-color: transparent;
-  border-color: #ff9400;
-  color: #ff9400;
-  background-color: #ff9400;
+  border-color: #ff931e;
+  color: #ff931e;
+  background-color: #ff931e;
   padding: 0 15px;
 }
 
@@ -10160,7 +10160,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent w
 }
 
 .emotion-1:focus {
-  box-shadow: 0 0 0 4px rgba(255,148,0,0.2);
+  box-shadow: 0 0 0 4px rgba(255,147,30,0.2);
 }
 
 .emotion-1:hover {
@@ -10175,7 +10175,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent w
 
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(77,83,86);
+  color: rgb(5,25,45);
   font-family: sans-serif;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
@@ -10282,7 +10282,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent w
 
 .emotion-2 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(77,83,86);
+  color: rgb(5,25,45);
   font-family: sans-serif;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
@@ -10321,9 +10321,9 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent w
   vertical-align: baseline;
   white-space: nowrap;
   background-color: transparent;
-  border-color: #ff9400;
-  color: #ff9400;
-  background-color: #ff9400;
+  border-color: #ff931e;
+  color: #ff931e;
+  background-color: #ff931e;
   position: relative;
   padding: 0 15px;
 }
@@ -10347,7 +10347,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent w
 }
 
 .emotion-3:focus {
-  box-shadow: 0 0 0 4px rgba(255,148,0,0.2);
+  box-shadow: 0 0 0 4px rgba(255,147,30,0.2);
 }
 
 .emotion-3:active {
@@ -10527,8 +10527,8 @@ exports[`<Button /> snapshots renders a squared button with a single icon 1`] = 
   vertical-align: baseline;
   white-space: nowrap;
   background-color: transparent;
-  border-color: #33aacc;
-  color: #33aacc;
+  border-color: #05192d;
+  color: #05192d;
   padding: 14px;
 }
 
@@ -10551,7 +10551,7 @@ exports[`<Button /> snapshots renders a squared button with a single icon 1`] = 
 }
 
 .emotion-0:focus {
-  box-shadow: 0 0 0 4px rgba(51,170,204,0.2);
+  box-shadow: 0 0 0 4px rgba(5,25,45,0.2);
 }
 
 .emotion-0:hover {
@@ -10607,8 +10607,8 @@ exports[`<Button /> tooltips tooltip appearance snapshots renders a tooltip with
   vertical-align: baseline;
   white-space: nowrap;
   background-color: transparent;
-  border-color: #33aacc;
-  color: #33aacc;
+  border-color: #05192d;
+  color: #05192d;
   padding: 0 15px;
 }
 
@@ -10631,7 +10631,7 @@ exports[`<Button /> tooltips tooltip appearance snapshots renders a tooltip with
 }
 
 .emotion-1:focus {
-  box-shadow: 0 0 0 4px rgba(51,170,204,0.2);
+  box-shadow: 0 0 0 4px rgba(5,25,45,0.2);
 }
 
 .emotion-1:hover {
@@ -10641,7 +10641,7 @@ exports[`<Button /> tooltips tooltip appearance snapshots renders a tooltip with
 
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(77,83,86);
+  color: rgb(5,25,45);
   font-family: sans-serif;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
@@ -10650,7 +10650,7 @@ exports[`<Button /> tooltips tooltip appearance snapshots renders a tooltip with
   line-height: 16px;
   font-size: 16px;
   line-height: 46px;
-  color: #3d4251;
+  color: #05192d;
   font-weight: bold;
 }
 
@@ -10675,13 +10675,13 @@ exports[`<Button /> tooltips tooltip appearance snapshots renders a tooltip with
   padding-right: 12px;
   padding-top: 8px;
   margin-top: 8px;
-  background-color: #0c1626;
+  background-color: #05192d;
   box-shadow: none;
 }
 
 .emotion-2 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(77,83,86);
+  color: rgb(5,25,45);
   font-family: sans-serif;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
@@ -10751,8 +10751,8 @@ exports[`<Button /> tooltips tooltip appearance snapshots renders a tooltip with
   vertical-align: baseline;
   white-space: nowrap;
   background-color: transparent;
-  border-color: #33aacc;
-  color: #33aacc;
+  border-color: #05192d;
+  color: #05192d;
   padding: 0 15px;
 }
 
@@ -10775,7 +10775,7 @@ exports[`<Button /> tooltips tooltip appearance snapshots renders a tooltip with
 }
 
 .emotion-1:focus {
-  box-shadow: 0 0 0 4px rgba(51,170,204,0.2);
+  box-shadow: 0 0 0 4px rgba(5,25,45,0.2);
 }
 
 .emotion-1:hover {
@@ -10785,7 +10785,7 @@ exports[`<Button /> tooltips tooltip appearance snapshots renders a tooltip with
 
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(77,83,86);
+  color: rgb(5,25,45);
   font-family: sans-serif;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
@@ -10794,7 +10794,7 @@ exports[`<Button /> tooltips tooltip appearance snapshots renders a tooltip with
   line-height: 16px;
   font-size: 16px;
   line-height: 46px;
-  color: #3d4251;
+  color: #05192d;
   font-weight: bold;
 }
 
@@ -10819,12 +10819,12 @@ exports[`<Button /> tooltips tooltip appearance snapshots renders a tooltip with
   padding-right: 12px;
   padding-top: 8px;
   margin-top: 8px;
-  background-color: #ffffff;
+  background-color: #fffbf3;
 }
 
 .emotion-2 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(77,83,86);
+  color: rgb(5,25,45);
   font-family: sans-serif;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
@@ -10833,7 +10833,7 @@ exports[`<Button /> tooltips tooltip appearance snapshots renders a tooltip with
   line-height: 16px;
   font-size: 14px;
   white-space: nowrap;
-  color: #4d5356;
+  color: #05192d;
 }
 
 <body>
@@ -10894,8 +10894,8 @@ exports[`<Button /> tooltips tooltip appearance snapshots renders a tooltip with
   vertical-align: baseline;
   white-space: nowrap;
   background-color: transparent;
-  border-color: #33aacc;
-  color: #33aacc;
+  border-color: #05192d;
+  color: #05192d;
   padding: 0 15px;
 }
 
@@ -10918,7 +10918,7 @@ exports[`<Button /> tooltips tooltip appearance snapshots renders a tooltip with
 }
 
 .emotion-1:focus {
-  box-shadow: 0 0 0 4px rgba(51,170,204,0.2);
+  box-shadow: 0 0 0 4px rgba(5,25,45,0.2);
 }
 
 .emotion-1:hover {
@@ -10928,7 +10928,7 @@ exports[`<Button /> tooltips tooltip appearance snapshots renders a tooltip with
 
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(77,83,86);
+  color: rgb(5,25,45);
   font-family: sans-serif;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
@@ -10937,7 +10937,7 @@ exports[`<Button /> tooltips tooltip appearance snapshots renders a tooltip with
   line-height: 16px;
   font-size: 16px;
   line-height: 46px;
-  color: #3d4251;
+  color: #05192d;
   font-weight: bold;
 }
 
@@ -10962,13 +10962,13 @@ exports[`<Button /> tooltips tooltip appearance snapshots renders a tooltip with
   padding-right: 12px;
   padding-top: 8px;
   margin-top: 8px;
-  background-color: #0c1626;
+  background-color: #05192d;
   box-shadow: none;
 }
 
 .emotion-2 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(77,83,86);
+  color: rgb(5,25,45);
   font-family: sans-serif;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
@@ -11038,8 +11038,8 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at b
   vertical-align: baseline;
   white-space: nowrap;
   background-color: transparent;
-  border-color: #33aacc;
-  color: #33aacc;
+  border-color: #05192d;
+  color: #05192d;
   padding: 0 15px;
 }
 
@@ -11062,7 +11062,7 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at b
 }
 
 .emotion-1:focus {
-  box-shadow: 0 0 0 4px rgba(51,170,204,0.2);
+  box-shadow: 0 0 0 4px rgba(5,25,45,0.2);
 }
 
 .emotion-1:hover {
@@ -11072,7 +11072,7 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at b
 
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(77,83,86);
+  color: rgb(5,25,45);
   font-family: sans-serif;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
@@ -11081,7 +11081,7 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at b
   line-height: 16px;
   font-size: 16px;
   line-height: 46px;
-  color: #3d4251;
+  color: #05192d;
   font-weight: bold;
 }
 
@@ -11106,13 +11106,13 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at b
   padding-right: 12px;
   padding-top: 8px;
   margin-top: 8px;
-  background-color: #0c1626;
+  background-color: #05192d;
   box-shadow: none;
 }
 
 .emotion-2 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(77,83,86);
+  color: rgb(5,25,45);
   font-family: sans-serif;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
@@ -11182,8 +11182,8 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at b
   vertical-align: baseline;
   white-space: nowrap;
   background-color: transparent;
-  border-color: #33aacc;
-  color: #33aacc;
+  border-color: #05192d;
+  color: #05192d;
   padding: 0 15px;
 }
 
@@ -11206,7 +11206,7 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at b
 }
 
 .emotion-1:focus {
-  box-shadow: 0 0 0 4px rgba(51,170,204,0.2);
+  box-shadow: 0 0 0 4px rgba(5,25,45,0.2);
 }
 
 .emotion-1:hover {
@@ -11216,7 +11216,7 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at b
 
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(77,83,86);
+  color: rgb(5,25,45);
   font-family: sans-serif;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
@@ -11225,13 +11225,13 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at b
   line-height: 16px;
   font-size: 16px;
   line-height: 46px;
-  color: #3d4251;
+  color: #05192d;
   font-weight: bold;
 }
 
 .emotion-2 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(77,83,86);
+  color: rgb(5,25,45);
   font-family: sans-serif;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
@@ -11261,7 +11261,7 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at b
   padding-right: 12px;
   padding-top: 8px;
   margin-top: 8px;
-  background-color: #0c1626;
+  background-color: #05192d;
   box-shadow: none;
 }
 
@@ -11323,8 +11323,8 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at b
   vertical-align: baseline;
   white-space: nowrap;
   background-color: transparent;
-  border-color: #33aacc;
-  color: #33aacc;
+  border-color: #05192d;
+  color: #05192d;
   padding: 0 15px;
 }
 
@@ -11347,7 +11347,7 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at b
 }
 
 .emotion-1:focus {
-  box-shadow: 0 0 0 4px rgba(51,170,204,0.2);
+  box-shadow: 0 0 0 4px rgba(5,25,45,0.2);
 }
 
 .emotion-1:hover {
@@ -11357,7 +11357,7 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at b
 
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(77,83,86);
+  color: rgb(5,25,45);
   font-family: sans-serif;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
@@ -11366,13 +11366,13 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at b
   line-height: 16px;
   font-size: 16px;
   line-height: 46px;
-  color: #3d4251;
+  color: #05192d;
   font-weight: bold;
 }
 
 .emotion-2 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(77,83,86);
+  color: rgb(5,25,45);
   font-family: sans-serif;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
@@ -11405,7 +11405,7 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at b
   padding-right: 12px;
   padding-top: 8px;
   margin-top: 8px;
-  background-color: #0c1626;
+  background-color: #05192d;
   box-shadow: none;
 }
 
@@ -11467,8 +11467,8 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at l
   vertical-align: baseline;
   white-space: nowrap;
   background-color: transparent;
-  border-color: #33aacc;
-  color: #33aacc;
+  border-color: #05192d;
+  color: #05192d;
   padding: 0 15px;
 }
 
@@ -11491,7 +11491,7 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at l
 }
 
 .emotion-1:focus {
-  box-shadow: 0 0 0 4px rgba(51,170,204,0.2);
+  box-shadow: 0 0 0 4px rgba(5,25,45,0.2);
 }
 
 .emotion-1:hover {
@@ -11501,7 +11501,7 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at l
 
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(77,83,86);
+  color: rgb(5,25,45);
   font-family: sans-serif;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
@@ -11510,13 +11510,13 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at l
   line-height: 16px;
   font-size: 16px;
   line-height: 46px;
-  color: #3d4251;
+  color: #05192d;
   font-weight: bold;
 }
 
 .emotion-2 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(77,83,86);
+  color: rgb(5,25,45);
   font-family: sans-serif;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
@@ -11549,7 +11549,7 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at l
   padding-right: 12px;
   padding-top: 8px;
   margin-right: 8px;
-  background-color: #0c1626;
+  background-color: #05192d;
   box-shadow: none;
 }
 
@@ -11611,8 +11611,8 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at r
   vertical-align: baseline;
   white-space: nowrap;
   background-color: transparent;
-  border-color: #33aacc;
-  color: #33aacc;
+  border-color: #05192d;
+  color: #05192d;
   padding: 0 15px;
 }
 
@@ -11635,7 +11635,7 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at r
 }
 
 .emotion-1:focus {
-  box-shadow: 0 0 0 4px rgba(51,170,204,0.2);
+  box-shadow: 0 0 0 4px rgba(5,25,45,0.2);
 }
 
 .emotion-1:hover {
@@ -11645,7 +11645,7 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at r
 
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(77,83,86);
+  color: rgb(5,25,45);
   font-family: sans-serif;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
@@ -11654,13 +11654,13 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at r
   line-height: 16px;
   font-size: 16px;
   line-height: 46px;
-  color: #3d4251;
+  color: #05192d;
   font-weight: bold;
 }
 
 .emotion-2 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(77,83,86);
+  color: rgb(5,25,45);
   font-family: sans-serif;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
@@ -11693,7 +11693,7 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at r
   padding-right: 12px;
   padding-top: 8px;
   margin-left: 8px;
-  background-color: #0c1626;
+  background-color: #05192d;
   box-shadow: none;
 }
 
@@ -11755,8 +11755,8 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at t
   vertical-align: baseline;
   white-space: nowrap;
   background-color: transparent;
-  border-color: #33aacc;
-  color: #33aacc;
+  border-color: #05192d;
+  color: #05192d;
   padding: 0 15px;
 }
 
@@ -11779,7 +11779,7 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at t
 }
 
 .emotion-1:focus {
-  box-shadow: 0 0 0 4px rgba(51,170,204,0.2);
+  box-shadow: 0 0 0 4px rgba(5,25,45,0.2);
 }
 
 .emotion-1:hover {
@@ -11789,7 +11789,7 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at t
 
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(77,83,86);
+  color: rgb(5,25,45);
   font-family: sans-serif;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
@@ -11798,13 +11798,13 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at t
   line-height: 16px;
   font-size: 16px;
   line-height: 46px;
-  color: #3d4251;
+  color: #05192d;
   font-weight: bold;
 }
 
 .emotion-2 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(77,83,86);
+  color: rgb(5,25,45);
   font-family: sans-serif;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
@@ -11837,7 +11837,7 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at t
   padding-right: 12px;
   padding-top: 8px;
   margin-bottom: 8px;
-  background-color: #0c1626;
+  background-color: #05192d;
   box-shadow: none;
 }
 
@@ -11899,8 +11899,8 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at t
   vertical-align: baseline;
   white-space: nowrap;
   background-color: transparent;
-  border-color: #33aacc;
-  color: #33aacc;
+  border-color: #05192d;
+  color: #05192d;
   padding: 0 15px;
 }
 
@@ -11923,7 +11923,7 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at t
 }
 
 .emotion-1:focus {
-  box-shadow: 0 0 0 4px rgba(51,170,204,0.2);
+  box-shadow: 0 0 0 4px rgba(5,25,45,0.2);
 }
 
 .emotion-1:hover {
@@ -11933,7 +11933,7 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at t
 
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(77,83,86);
+  color: rgb(5,25,45);
   font-family: sans-serif;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
@@ -11942,13 +11942,13 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at t
   line-height: 16px;
   font-size: 16px;
   line-height: 46px;
-  color: #3d4251;
+  color: #05192d;
   font-weight: bold;
 }
 
 .emotion-2 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(77,83,86);
+  color: rgb(5,25,45);
   font-family: sans-serif;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
@@ -11981,7 +11981,7 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at t
   padding-right: 12px;
   padding-top: 8px;
   margin-bottom: 8px;
-  background-color: #0c1626;
+  background-color: #05192d;
   box-shadow: none;
 }
 
@@ -12043,8 +12043,8 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at t
   vertical-align: baseline;
   white-space: nowrap;
   background-color: transparent;
-  border-color: #33aacc;
-  color: #33aacc;
+  border-color: #05192d;
+  color: #05192d;
   padding: 0 15px;
 }
 
@@ -12067,7 +12067,7 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at t
 }
 
 .emotion-1:focus {
-  box-shadow: 0 0 0 4px rgba(51,170,204,0.2);
+  box-shadow: 0 0 0 4px rgba(5,25,45,0.2);
 }
 
 .emotion-1:hover {
@@ -12077,7 +12077,7 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at t
 
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(77,83,86);
+  color: rgb(5,25,45);
   font-family: sans-serif;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
@@ -12086,13 +12086,13 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at t
   line-height: 16px;
   font-size: 16px;
   line-height: 46px;
-  color: #3d4251;
+  color: #05192d;
   font-weight: bold;
 }
 
 .emotion-2 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(77,83,86);
+  color: rgb(5,25,45);
   font-family: sans-serif;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
@@ -12125,7 +12125,7 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at t
   padding-right: 12px;
   padding-top: 8px;
   margin-bottom: 8px;
-  background-color: #0c1626;
+  background-color: #05192d;
   box-shadow: none;
 }
 
@@ -12187,8 +12187,8 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at u
   vertical-align: baseline;
   white-space: nowrap;
   background-color: transparent;
-  border-color: #33aacc;
-  color: #33aacc;
+  border-color: #05192d;
+  color: #05192d;
   padding: 0 15px;
 }
 
@@ -12211,7 +12211,7 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at u
 }
 
 .emotion-1:focus {
-  box-shadow: 0 0 0 4px rgba(51,170,204,0.2);
+  box-shadow: 0 0 0 4px rgba(5,25,45,0.2);
 }
 
 .emotion-1:hover {
@@ -12221,7 +12221,7 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at u
 
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(77,83,86);
+  color: rgb(5,25,45);
   font-family: sans-serif;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
@@ -12230,7 +12230,7 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at u
   line-height: 16px;
   font-size: 16px;
   line-height: 46px;
-  color: #3d4251;
+  color: #05192d;
   font-weight: bold;
 }
 
@@ -12255,13 +12255,13 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at u
   padding-right: 12px;
   padding-top: 8px;
   margin-top: 8px;
-  background-color: #0c1626;
+  background-color: #05192d;
   box-shadow: none;
 }
 
 .emotion-2 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(77,83,86);
+  color: rgb(5,25,45);
   font-family: sans-serif;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;

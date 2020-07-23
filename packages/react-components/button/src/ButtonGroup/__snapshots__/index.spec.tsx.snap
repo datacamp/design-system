@@ -35,8 +35,8 @@ exports[`ButtonGroup renders the buttons or CompactButtonGroups with 16px spaces
   vertical-align: baseline;
   white-space: nowrap;
   background-color: transparent;
-  border-color: #33aacc;
-  color: #33aacc;
+  border-color: #05192d;
+  color: #05192d;
   padding: 0 15px;
   margin-left: 0;
 }
@@ -60,7 +60,7 @@ exports[`ButtonGroup renders the buttons or CompactButtonGroups with 16px spaces
 }
 
 .emotion-1:focus {
-  box-shadow: 0 0 0 4px rgba(51,170,204,0.2);
+  box-shadow: 0 0 0 4px rgba(5,25,45,0.2);
 }
 
 .emotion-1:hover {
@@ -70,7 +70,7 @@ exports[`ButtonGroup renders the buttons or CompactButtonGroups with 16px spaces
 
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(77,83,86);
+  color: rgb(5,25,45);
   font-family: sans-serif;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
@@ -79,7 +79,7 @@ exports[`ButtonGroup renders the buttons or CompactButtonGroups with 16px spaces
   line-height: 16px;
   font-size: 16px;
   line-height: 46px;
-  color: #3d4251;
+  color: #05192d;
   font-weight: bold;
 }
 
@@ -109,8 +109,8 @@ exports[`ButtonGroup renders the buttons or CompactButtonGroups with 16px spaces
   vertical-align: baseline;
   white-space: nowrap;
   background-color: transparent;
-  border-color: #33aacc;
-  color: #33aacc;
+  border-color: #05192d;
+  color: #05192d;
   padding: 0 15px;
   margin-left: 16px;
 }
@@ -134,7 +134,7 @@ exports[`ButtonGroup renders the buttons or CompactButtonGroups with 16px spaces
 }
 
 .emotion-3:focus {
-  box-shadow: 0 0 0 4px rgba(51,170,204,0.2);
+  box-shadow: 0 0 0 4px rgba(5,25,45,0.2);
 }
 
 .emotion-3:hover {
@@ -177,8 +177,8 @@ exports[`ButtonGroup renders the buttons or CompactButtonGroups with 16px spaces
   vertical-align: baseline;
   white-space: nowrap;
   background-color: transparent;
-  border-color: #33aacc;
-  color: #33aacc;
+  border-color: #05192d;
+  color: #05192d;
   padding: 0 15px;
   border-radius: 4px 0px 0px 4px;
   margin: 0;
@@ -203,7 +203,7 @@ exports[`ButtonGroup renders the buttons or CompactButtonGroups with 16px spaces
 }
 
 .emotion-7:focus {
-  box-shadow: 0 0 0 4px rgba(51,170,204,0.2);
+  box-shadow: 0 0 0 4px rgba(5,25,45,0.2);
 }
 
 .emotion-7:hover {
@@ -251,8 +251,8 @@ exports[`ButtonGroup renders the buttons or CompactButtonGroups with 16px spaces
   vertical-align: baseline;
   white-space: nowrap;
   background-color: transparent;
-  border-color: #33aacc;
-  color: #33aacc;
+  border-color: #05192d;
+  color: #05192d;
   padding: 0 15px;
   border-radius: 0px 4px 4px 0px;
   margin: 0;
@@ -278,7 +278,7 @@ exports[`ButtonGroup renders the buttons or CompactButtonGroups with 16px spaces
 }
 
 .emotion-9:focus {
-  box-shadow: 0 0 0 4px rgba(51,170,204,0.2);
+  box-shadow: 0 0 0 4px rgba(5,25,45,0.2);
 }
 
 .emotion-9:hover {
@@ -395,8 +395,8 @@ exports[`ButtonGroup renders the small buttons or CompactButtonGroups with 8px s
   vertical-align: baseline;
   white-space: nowrap;
   background-color: transparent;
-  border-color: #33aacc;
-  color: #33aacc;
+  border-color: #05192d;
+  color: #05192d;
   padding: 0 15px;
   margin-left: 0;
 }
@@ -420,7 +420,7 @@ exports[`ButtonGroup renders the small buttons or CompactButtonGroups with 8px s
 }
 
 .emotion-1:focus {
-  box-shadow: 0 0 0 4px rgba(51,170,204,0.2);
+  box-shadow: 0 0 0 4px rgba(5,25,45,0.2);
 }
 
 .emotion-1:hover {
@@ -454,8 +454,8 @@ exports[`ButtonGroup renders the small buttons or CompactButtonGroups with 8px s
   vertical-align: baseline;
   white-space: nowrap;
   background-color: transparent;
-  border-color: #33aacc;
-  color: #33aacc;
+  border-color: #05192d;
+  color: #05192d;
   padding: 0 15px;
   border-radius: 4px 0px 0px 4px;
   margin: 0;
@@ -480,7 +480,7 @@ exports[`ButtonGroup renders the small buttons or CompactButtonGroups with 8px s
 }
 
 .emotion-7:focus {
-  box-shadow: 0 0 0 4px rgba(51,170,204,0.2);
+  box-shadow: 0 0 0 4px rgba(5,25,45,0.2);
 }
 
 .emotion-7:hover {
@@ -528,8 +528,8 @@ exports[`ButtonGroup renders the small buttons or CompactButtonGroups with 8px s
   vertical-align: baseline;
   white-space: nowrap;
   background-color: transparent;
-  border-color: #33aacc;
-  color: #33aacc;
+  border-color: #05192d;
+  color: #05192d;
   padding: 0 15px;
   border-radius: 0px 4px 4px 0px;
   margin: 0;
@@ -555,7 +555,7 @@ exports[`ButtonGroup renders the small buttons or CompactButtonGroups with 8px s
 }
 
 .emotion-9:focus {
-  box-shadow: 0 0 0 4px rgba(51,170,204,0.2);
+  box-shadow: 0 0 0 4px rgba(5,25,45,0.2);
 }
 
 .emotion-9:hover {
@@ -579,7 +579,7 @@ exports[`ButtonGroup renders the small buttons or CompactButtonGroups with 8px s
 
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(77,83,86);
+  color: rgb(5,25,45);
   font-family: sans-serif;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
@@ -588,7 +588,7 @@ exports[`ButtonGroup renders the small buttons or CompactButtonGroups with 8px s
   line-height: 16px;
   font-size: 16px;
   line-height: 34px;
-  color: #3d4251;
+  color: #05192d;
   font-weight: bold;
 }
 
@@ -618,8 +618,8 @@ exports[`ButtonGroup renders the small buttons or CompactButtonGroups with 8px s
   vertical-align: baseline;
   white-space: nowrap;
   background-color: transparent;
-  border-color: #33aacc;
-  color: #33aacc;
+  border-color: #05192d;
+  color: #05192d;
   padding: 0 15px;
   margin-left: 8px;
 }
@@ -643,7 +643,7 @@ exports[`ButtonGroup renders the small buttons or CompactButtonGroups with 8px s
 }
 
 .emotion-3:focus {
-  box-shadow: 0 0 0 4px rgba(51,170,204,0.2);
+  box-shadow: 0 0 0 4px rgba(5,25,45,0.2);
 }
 
 .emotion-3:hover {

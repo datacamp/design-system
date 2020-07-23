@@ -14,11 +14,11 @@ type Intent = keyof IntentMap;
 
 // CUSTOM TOKENS
 const baseColors: IntentMap = {
-  cta: tokens.color.opaque.secondary.value.hex,
-  danger: tokens.color.opaque.red.value.hex,
-  neutral: tokens.color.opaque.primary.value.hex,
-  success: tokens.color.opaque.green.value.hex,
-  warning: tokens.color.opaque.orange.value.hex,
+  cta: tokens.color.primary.green.value.hex,
+  danger: tokens.color.primary.red.value.hex,
+  neutral: tokens.color.primary.navy.value.hex,
+  success: tokens.color.primary.green.value.hex,
+  warning: tokens.color.primary.orange.value.hex,
 };
 
 const hoverColors: IntentMap = {
