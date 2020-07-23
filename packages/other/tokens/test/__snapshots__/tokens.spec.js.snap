@@ -41,33 +41,47 @@ Object {
     "xs": "480px",
   },
   "colors": Object {
-    "geyser": "#cfdce1",
-    "green": "#36d57d",
-    "greenLight": "#a5ecc5",
-    "grey": "#4d5356",
-    "greyDark": "#3d4251",
-    "greyLight": "#d1d3d8",
-    "greyLighter": "#e6eaeb",
-    "greyOslo": "#859094",
-    "orange": "#ff9400",
-    "orangeDark": "#ad662c",
-    "porcelain": "#f0f4f5",
-    "primary": "#33aacc",
-    "primaryDark": "#263e63",
-    "primaryDarker": "#14243e",
-    "primaryDarkest": "#0c1626",
-    "primaryLight": "#7ecce2",
-    "primaryLighter": "#d5eaef",
-    "primaryLightest": "#ebf4f7",
-    "purple": "#8468c4",
-    "purpleDark": "#5d488c",
-    "purpleLight": "#a786f3",
-    "raven": "#737a80",
-    "red": "#fe5c5c",
-    "redLight": "#ffb5b5",
-    "secondary": "#ffc844",
-    "secondaryLight": "#fbe28d",
+    "beige100": "#fffbf3",
+    "beige200": "#f7f3eb",
+    "beige300": "#efebe4",
+    "beige400": "#e5e1da",
+    "blue": "#06bdfc",
+    "blueDark": "#009bd8",
+    "blueLight": "#60e7ff",
+    "blueText": "#007bb6",
+    "green": "#03ef62",
+    "greenDark": "#00c53b",
+    "greenLight": "#65ff8f",
+    "greenText": "#008700",
+    "grey100": "#f7f7fc",
+    "grey200": "#efefef",
+    "grey300": "#e8e8ea",
+    "grey400": "#d9d9e2",
+    "navy": "#05192d",
+    "navyDark": "#000820",
+    "navyLight": "#213147",
+    "navyText": "#05192d",
+    "orange": "#ff931e",
+    "orangeDark": "#d87300",
+    "orangeLight": "#ffbc4b",
+    "orangeText": "#b75900",
+    "pink": "#ff6ea9",
+    "pinkDark": "#dc4d8b",
+    "pinkLight": "#ff95cf",
+    "pinkText": "#bf3072",
+    "purple": "#7933ff",
+    "purpleDark": "#5646a5",
+    "purpleLight": "#974dff",
+    "purpleText": "#5646a5",
+    "red": "#ff5400",
+    "redDark": "#dd3400",
+    "redLight": "#ff782d",
+    "redText": "#c01100",
     "white": "#ffffff",
+    "yellow": "#fcce0d",
+    "yellowDark": "#cfa600",
+    "yellowLight": "#ffec3c",
+    "yellowText": "#907000",
   },
   "fontFamily": Object {
     "mono": "'JetBrainsMonoNL'",
@@ -330,1201 +344,1663 @@ Object {
     },
   },
   "color": Object {
-    "opaque": Object {
-      "geyser": Object {
+    "neutral": Object {
+      "beige100": Object {
         "attributes": Object {
           "category": "color",
-          "hex": "cfdce1",
+          "hex": "fffbf3",
           "hsl": Object {
             "a": 1,
-            "h": 196.66666666666663,
-            "l": 0.8470588235294118,
-            "s": 0.23076923076923067,
-          },
-          "hsv": Object {
-            "a": 1,
-            "h": 196.66666666666663,
-            "s": 0.07999999999999997,
-            "v": 0.8823529411764706,
-          },
-          "item": "geyser",
-          "rgb": Object {
-            "a": 1,
-            "b": 225,
-            "g": 220,
-            "r": 207,
-          },
-          "type": "opaque",
-        },
-        "name": "geyser",
-        "original": Object {
-          "value": Object {
-            "a": 1,
-            "b": 225,
-            "g": 220,
-            "r": 207,
-          },
-        },
-        "path": Array [
-          "color",
-          "opaque",
-          "geyser",
-        ],
-        "value": Object {
-          "hex": "#cfdce1",
-          "hex8": "#cfdce1ff",
-          "hsl": "hsl(197, 23%, 85%)",
-          "rgb": "rgb(207, 220, 225)",
-        },
-      },
-      "green": Object {
-        "attributes": Object {
-          "category": "color",
-          "hex": "36d57d",
-          "hsl": Object {
-            "a": 1,
-            "h": 146.7924528301887,
-            "l": 0.5235294117647059,
-            "s": 0.6543209876543211,
-          },
-          "hsv": Object {
-            "a": 1,
-            "h": 146.7924528301887,
-            "s": 0.7464788732394366,
-            "v": 0.8352941176470589,
-          },
-          "item": "green",
-          "rgb": Object {
-            "a": 1,
-            "b": 125,
-            "g": 213,
-            "r": 54,
-          },
-          "type": "opaque",
-        },
-        "name": "green",
-        "original": Object {
-          "value": Object {
-            "a": 1,
-            "b": 125,
-            "g": 213,
-            "r": 54,
-          },
-        },
-        "path": Array [
-          "color",
-          "opaque",
-          "green",
-        ],
-        "value": Object {
-          "hex": "#36d57d",
-          "hex8": "#36d57dff",
-          "hsl": "hsl(147, 65%, 52%)",
-          "rgb": "rgb(54, 213, 125)",
-        },
-      },
-      "greenLight": Object {
-        "attributes": Object {
-          "category": "color",
-          "hex": "a5ecc5",
-          "hsl": Object {
-            "a": 1,
-            "h": 147.04225352112675,
-            "l": 0.7862745098039217,
-            "s": 0.6513761467889909,
-          },
-          "hsv": Object {
-            "a": 1,
-            "h": 147.04225352112675,
-            "s": 0.3008474576271186,
-            "v": 0.9254901960784314,
-          },
-          "item": "greenLight",
-          "rgb": Object {
-            "a": 1,
-            "b": 197,
-            "g": 236,
-            "r": 165,
-          },
-          "type": "opaque",
-        },
-        "name": "greenLight",
-        "original": Object {
-          "value": Object {
-            "a": 1,
-            "b": 197,
-            "g": 236,
-            "r": 165,
-          },
-        },
-        "path": Array [
-          "color",
-          "opaque",
-          "greenLight",
-        ],
-        "value": Object {
-          "hex": "#a5ecc5",
-          "hex8": "#a5ecc5ff",
-          "hsl": "hsl(147, 65%, 79%)",
-          "rgb": "rgb(165, 236, 197)",
-        },
-      },
-      "grey": Object {
-        "attributes": Object {
-          "category": "color",
-          "hex": "4d5356",
-          "hsl": Object {
-            "a": 1,
-            "h": 200,
-            "l": 0.3196078431372549,
-            "s": 0.05521472392638044,
-          },
-          "hsv": Object {
-            "a": 1,
-            "h": 200,
-            "s": 0.10465116279069779,
-            "v": 0.33725490196078434,
-          },
-          "item": "grey",
-          "rgb": Object {
-            "a": 1,
-            "b": 86,
-            "g": 83,
-            "r": 77,
-          },
-          "type": "opaque",
-        },
-        "name": "grey",
-        "original": Object {
-          "value": Object {
-            "a": 1,
-            "b": 86,
-            "g": 83,
-            "r": 77,
-          },
-        },
-        "path": Array [
-          "color",
-          "opaque",
-          "grey",
-        ],
-        "value": Object {
-          "hex": "#4d5356",
-          "hex8": "#4d5356ff",
-          "hsl": "hsl(200, 6%, 32%)",
-          "rgb": "rgb(77, 83, 86)",
-        },
-      },
-      "greyDark": Object {
-        "attributes": Object {
-          "category": "color",
-          "hex": "3d4251",
-          "hsl": Object {
-            "a": 1,
-            "h": 224.99999999999997,
-            "l": 0.2784313725490196,
-            "s": 0.14084507042253516,
-          },
-          "hsv": Object {
-            "a": 1,
-            "h": 224.99999999999997,
-            "s": 0.2469135802469135,
-            "v": 0.3176470588235294,
-          },
-          "item": "greyDark",
-          "rgb": Object {
-            "a": 1,
-            "b": 81,
-            "g": 66,
-            "r": 61,
-          },
-          "type": "opaque",
-        },
-        "name": "greyDark",
-        "original": Object {
-          "value": Object {
-            "a": 1,
-            "b": 81,
-            "g": 66,
-            "r": 61,
-          },
-        },
-        "path": Array [
-          "color",
-          "opaque",
-          "greyDark",
-        ],
-        "value": Object {
-          "hex": "#3d4251",
-          "hex8": "#3d4251ff",
-          "hsl": "hsl(225, 14%, 28%)",
-          "rgb": "rgb(61, 66, 81)",
-        },
-      },
-      "greyLight": Object {
-        "attributes": Object {
-          "category": "color",
-          "hex": "d1d3d8",
-          "hsl": Object {
-            "a": 1,
-            "h": 222.85714285714292,
-            "l": 0.8333333333333333,
-            "s": 0.08235294117647064,
-          },
-          "hsv": Object {
-            "a": 1,
-            "h": 222.85714285714292,
-            "s": 0.032407407407407426,
-            "v": 0.8470588235294118,
-          },
-          "item": "greyLight",
-          "rgb": Object {
-            "a": 1,
-            "b": 216,
-            "g": 211,
-            "r": 209,
-          },
-          "type": "opaque",
-        },
-        "name": "greyLight",
-        "original": Object {
-          "value": Object {
-            "a": 1,
-            "b": 216,
-            "g": 211,
-            "r": 209,
-          },
-        },
-        "path": Array [
-          "color",
-          "opaque",
-          "greyLight",
-        ],
-        "value": Object {
-          "hex": "#d1d3d8",
-          "hex8": "#d1d3d8ff",
-          "hsl": "hsl(223, 8%, 83%)",
-          "rgb": "rgb(209, 211, 216)",
-        },
-      },
-      "greyLighter": Object {
-        "attributes": Object {
-          "category": "color",
-          "hex": "e6eaeb",
-          "hsl": Object {
-            "a": 1,
-            "h": 192,
-            "l": 0.9117647058823529,
-            "s": 0.11111111111111062,
-          },
-          "hsv": Object {
-            "a": 1,
-            "h": 192,
-            "s": 0.021276595744680778,
-            "v": 0.9215686274509803,
-          },
-          "item": "greyLighter",
-          "rgb": Object {
-            "a": 1,
-            "b": 235,
-            "g": 234,
-            "r": 230,
-          },
-          "type": "opaque",
-        },
-        "name": "greyLighter",
-        "original": Object {
-          "value": Object {
-            "a": 1,
-            "b": 235,
-            "g": 234,
-            "r": 230,
-          },
-        },
-        "path": Array [
-          "color",
-          "opaque",
-          "greyLighter",
-        ],
-        "value": Object {
-          "hex": "#e6eaeb",
-          "hex8": "#e6eaebff",
-          "hsl": "hsl(192, 11%, 91%)",
-          "rgb": "rgb(230, 234, 235)",
-        },
-      },
-      "greyOslo": Object {
-        "attributes": Object {
-          "category": "color",
-          "hex": "859094",
-          "hsl": Object {
-            "a": 1,
-            "h": 196.00000000000006,
-            "l": 0.5509803921568628,
-            "s": 0.06550218340611356,
-          },
-          "hsv": Object {
-            "a": 1,
-            "h": 196.00000000000006,
-            "s": 0.10135135135135137,
-            "v": 0.5803921568627451,
-          },
-          "item": "greyOslo",
-          "rgb": Object {
-            "a": 1,
-            "b": 148,
-            "g": 144,
-            "r": 133,
-          },
-          "type": "opaque",
-        },
-        "name": "greyOslo",
-        "original": Object {
-          "value": Object {
-            "a": 1,
-            "b": 148,
-            "g": 144,
-            "r": 133,
-          },
-        },
-        "path": Array [
-          "color",
-          "opaque",
-          "greyOslo",
-        ],
-        "value": Object {
-          "hex": "#859094",
-          "hex8": "#859094ff",
-          "hsl": "hsl(196, 7%, 55%)",
-          "rgb": "rgb(133, 144, 148)",
-        },
-      },
-      "orange": Object {
-        "attributes": Object {
-          "category": "color",
-          "hex": "ff9400",
-          "hsl": Object {
-            "a": 1,
-            "h": 34.82352941176471,
-            "l": 0.5,
+            "h": 39.99999999999995,
+            "l": 0.9764705882352941,
             "s": 1,
           },
           "hsv": Object {
             "a": 1,
-            "h": 34.82352941176471,
-            "s": 1,
+            "h": 39.99999999999995,
+            "s": 0.04705882352941182,
             "v": 1,
           },
-          "item": "orange",
+          "item": "beige100",
           "rgb": Object {
             "a": 1,
-            "b": 0,
-            "g": 148,
+            "b": 243,
+            "g": 251,
             "r": 255,
           },
-          "type": "opaque",
+          "type": "neutral",
         },
-        "name": "orange",
+        "name": "beige100",
         "original": Object {
           "value": Object {
             "a": 1,
-            "b": 0,
-            "g": 148,
+            "b": 243,
+            "g": 251,
             "r": 255,
           },
         },
         "path": Array [
           "color",
-          "opaque",
-          "orange",
+          "neutral",
+          "beige100",
         ],
         "value": Object {
-          "hex": "#ff9400",
-          "hex8": "#ff9400ff",
-          "hsl": "hsl(35, 100%, 50%)",
-          "rgb": "rgb(255, 148, 0)",
+          "hex": "#fffbf3",
+          "hex8": "#fffbf3ff",
+          "hsl": "hsl(40, 100%, 98%)",
+          "rgb": "rgb(255, 251, 243)",
         },
       },
-      "orangeDark": Object {
+      "beige200": Object {
         "attributes": Object {
           "category": "color",
-          "hex": "ad662c",
+          "hex": "f7f3eb",
           "hsl": Object {
             "a": 1,
-            "h": 26.976744186046517,
-            "l": 0.4254901960784314,
-            "s": 0.5944700460829492,
-          },
-          "hsv": Object {
-            "a": 1,
-            "h": 26.976744186046517,
-            "s": 0.745664739884393,
-            "v": 0.6784313725490196,
-          },
-          "item": "orangeDark",
-          "rgb": Object {
-            "a": 1,
-            "b": 44,
-            "g": 102,
-            "r": 173,
-          },
-          "type": "opaque",
-        },
-        "name": "orangeDark",
-        "original": Object {
-          "value": Object {
-            "a": 1,
-            "b": 44,
-            "g": 102,
-            "r": 173,
-          },
-        },
-        "path": Array [
-          "color",
-          "opaque",
-          "orangeDark",
-        ],
-        "value": Object {
-          "hex": "#ad662c",
-          "hex8": "#ad662cff",
-          "hsl": "hsl(27, 59%, 43%)",
-          "rgb": "rgb(173, 102, 44)",
-        },
-      },
-      "porcelain": Object {
-        "attributes": Object {
-          "category": "color",
-          "hex": "f0f4f5",
-          "hsl": Object {
-            "a": 1,
-            "h": 191.99999999999991,
-            "l": 0.9509803921568627,
-            "s": 0.20000000000000068,
-          },
-          "hsv": Object {
-            "a": 1,
-            "h": 191.99999999999991,
-            "s": 0.020408163265306166,
-            "v": 0.9607843137254902,
-          },
-          "item": "porcelain",
-          "rgb": Object {
-            "a": 1,
-            "b": 245,
-            "g": 244,
-            "r": 240,
-          },
-          "type": "opaque",
-        },
-        "name": "porcelain",
-        "original": Object {
-          "value": Object {
-            "a": 1,
-            "b": 245,
-            "g": 244,
-            "r": 240,
-          },
-        },
-        "path": Array [
-          "color",
-          "opaque",
-          "porcelain",
-        ],
-        "value": Object {
-          "hex": "#f0f4f5",
-          "hex8": "#f0f4f5ff",
-          "hsl": "hsl(192, 20%, 95%)",
-          "rgb": "rgb(240, 244, 245)",
-        },
-      },
-      "primary": Object {
-        "attributes": Object {
-          "category": "color",
-          "hex": "33aacc",
-          "hsl": Object {
-            "a": 1,
-            "h": 193.33333333333334,
-            "l": 0.5,
-            "s": 0.6000000000000001,
-          },
-          "hsv": Object {
-            "a": 1,
-            "h": 193.33333333333334,
-            "s": 0.7500000000000001,
-            "v": 0.8,
-          },
-          "item": "primary",
-          "rgb": Object {
-            "a": 1,
-            "b": 204,
-            "g": 170,
-            "r": 51,
-          },
-          "type": "opaque",
-        },
-        "name": "primary",
-        "original": Object {
-          "value": Object {
-            "a": 1,
-            "b": 204,
-            "g": 170,
-            "r": 51,
-          },
-        },
-        "path": Array [
-          "color",
-          "opaque",
-          "primary",
-        ],
-        "value": Object {
-          "hex": "#33aacc",
-          "hex8": "#33aaccff",
-          "hsl": "hsl(193, 60%, 50%)",
-          "rgb": "rgb(51, 170, 204)",
-        },
-      },
-      "primaryDark": Object {
-        "attributes": Object {
-          "category": "color",
-          "hex": "263e63",
-          "hsl": Object {
-            "a": 1,
-            "h": 216.39344262295083,
-            "l": 0.26862745098039215,
-            "s": 0.44525547445255476,
-          },
-          "hsv": Object {
-            "a": 1,
-            "h": 216.39344262295083,
-            "s": 0.6161616161616161,
-            "v": 0.38823529411764707,
-          },
-          "item": "primaryDark",
-          "rgb": Object {
-            "a": 1,
-            "b": 99,
-            "g": 62,
-            "r": 38,
-          },
-          "type": "opaque",
-        },
-        "name": "primaryDark",
-        "original": Object {
-          "value": Object {
-            "a": 1,
-            "b": 99,
-            "g": 62,
-            "r": 38,
-          },
-        },
-        "path": Array [
-          "color",
-          "opaque",
-          "primaryDark",
-        ],
-        "value": Object {
-          "hex": "#263e63",
-          "hex8": "#263e63ff",
-          "hsl": "hsl(216, 45%, 27%)",
-          "rgb": "rgb(38, 62, 99)",
-        },
-      },
-      "primaryDarker": Object {
-        "attributes": Object {
-          "category": "color",
-          "hex": "14243e",
-          "hsl": Object {
-            "a": 1,
-            "h": 217.14285714285714,
-            "l": 0.16078431372549018,
-            "s": 0.5121951219512195,
-          },
-          "hsv": Object {
-            "a": 1,
-            "h": 217.14285714285714,
-            "s": 0.6774193548387096,
-            "v": 0.24313725490196078,
-          },
-          "item": "primaryDarker",
-          "rgb": Object {
-            "a": 1,
-            "b": 62,
-            "g": 36,
-            "r": 20,
-          },
-          "type": "opaque",
-        },
-        "name": "primaryDarker",
-        "original": Object {
-          "value": Object {
-            "a": 1,
-            "b": 62,
-            "g": 36,
-            "r": 20,
-          },
-        },
-        "path": Array [
-          "color",
-          "opaque",
-          "primaryDarker",
-        ],
-        "value": Object {
-          "hex": "#14243e",
-          "hex8": "#14243eff",
-          "hsl": "hsl(217, 51%, 16%)",
-          "rgb": "rgb(20, 36, 62)",
-        },
-      },
-      "primaryDarkest": Object {
-        "attributes": Object {
-          "category": "color",
-          "hex": "0c1626",
-          "hsl": Object {
-            "a": 1,
-            "h": 216.9230769230769,
-            "l": 0.09803921568627451,
-            "s": 0.52,
-          },
-          "hsv": Object {
-            "a": 1,
-            "h": 216.9230769230769,
-            "s": 0.6842105263157895,
-            "v": 0.14901960784313725,
-          },
-          "item": "primaryDarkest",
-          "rgb": Object {
-            "a": 1,
-            "b": 38,
-            "g": 22,
-            "r": 12,
-          },
-          "type": "opaque",
-        },
-        "name": "primaryDarkest",
-        "original": Object {
-          "value": Object {
-            "a": 1,
-            "b": 38,
-            "g": 22,
-            "r": 12,
-          },
-        },
-        "path": Array [
-          "color",
-          "opaque",
-          "primaryDarkest",
-        ],
-        "value": Object {
-          "hex": "#0c1626",
-          "hex8": "#0c1626ff",
-          "hsl": "hsl(217, 52%, 10%)",
-          "rgb": "rgb(12, 22, 38)",
-        },
-      },
-      "primaryLight": Object {
-        "attributes": Object {
-          "category": "color",
-          "hex": "7ecce2",
-          "hsl": Object {
-            "a": 1,
-            "h": 193.2,
-            "l": 0.6901960784313725,
-            "s": 0.6329113924050632,
-          },
-          "hsv": Object {
-            "a": 1,
-            "h": 193.2,
-            "s": 0.44247787610619466,
-            "v": 0.8862745098039215,
-          },
-          "item": "primaryLight",
-          "rgb": Object {
-            "a": 1,
-            "b": 226,
-            "g": 204,
-            "r": 126,
-          },
-          "type": "opaque",
-        },
-        "name": "primaryLight",
-        "original": Object {
-          "value": Object {
-            "a": 1,
-            "b": 226,
-            "g": 204,
-            "r": 126,
-          },
-        },
-        "path": Array [
-          "color",
-          "opaque",
-          "primaryLight",
-        ],
-        "value": Object {
-          "hex": "#7ecce2",
-          "hex8": "#7ecce2ff",
-          "hsl": "hsl(193, 63%, 69%)",
-          "rgb": "rgb(126, 204, 226)",
-        },
-      },
-      "primaryLighter": Object {
-        "attributes": Object {
-          "category": "color",
-          "hex": "d5eaef",
-          "hsl": Object {
-            "a": 1,
-            "h": 191.53846153846155,
-            "l": 0.8862745098039215,
-            "s": 0.44827586206896547,
-          },
-          "hsv": Object {
-            "a": 1,
-            "h": 191.53846153846155,
-            "s": 0.10878661087866105,
-            "v": 0.9372549019607843,
-          },
-          "item": "primaryLighter",
-          "rgb": Object {
-            "a": 1,
-            "b": 239,
-            "g": 234,
-            "r": 213,
-          },
-          "type": "opaque",
-        },
-        "name": "primaryLighter",
-        "original": Object {
-          "value": Object {
-            "a": 1,
-            "b": 239,
-            "g": 234,
-            "r": 213,
-          },
-        },
-        "path": Array [
-          "color",
-          "opaque",
-          "primaryLighter",
-        ],
-        "value": Object {
-          "hex": "#d5eaef",
-          "hex8": "#d5eaefff",
-          "hsl": "hsl(192, 45%, 89%)",
-          "rgb": "rgb(213, 234, 239)",
-        },
-      },
-      "primaryLightest": Object {
-        "attributes": Object {
-          "category": "color",
-          "hex": "ebf4f7",
-          "hsl": Object {
-            "a": 1,
-            "h": 194.99999999999991,
+            "h": 39.99999999999995,
             "l": 0.9450980392156862,
             "s": 0.42857142857142927,
           },
           "hsv": Object {
             "a": 1,
-            "h": 194.99999999999991,
+            "h": 39.99999999999995,
             "s": 0.04858299595141706,
             "v": 0.9686274509803922,
           },
-          "item": "primaryLightest",
+          "item": "beige200",
           "rgb": Object {
             "a": 1,
-            "b": 247,
-            "g": 244,
-            "r": 235,
+            "b": 235,
+            "g": 243,
+            "r": 247,
           },
-          "type": "opaque",
+          "type": "neutral",
         },
-        "name": "primaryLightest",
+        "name": "beige200",
         "original": Object {
           "value": Object {
             "a": 1,
-            "b": 247,
-            "g": 244,
-            "r": 235,
+            "b": 235,
+            "g": 243,
+            "r": 247,
           },
         },
         "path": Array [
           "color",
-          "opaque",
-          "primaryLightest",
+          "neutral",
+          "beige200",
         ],
         "value": Object {
-          "hex": "#ebf4f7",
-          "hex8": "#ebf4f7ff",
-          "hsl": "hsl(195, 43%, 95%)",
-          "rgb": "rgb(235, 244, 247)",
+          "hex": "#f7f3eb",
+          "hex8": "#f7f3ebff",
+          "hsl": "hsl(40, 43%, 95%)",
+          "rgb": "rgb(247, 243, 235)",
+        },
+      },
+      "beige300": Object {
+        "attributes": Object {
+          "category": "color",
+          "hex": "efebe4",
+          "hsl": Object {
+            "a": 1,
+            "h": 38.18181818181808,
+            "l": 0.915686274509804,
+            "s": 0.25581395348837194,
+          },
+          "hsv": Object {
+            "a": 1,
+            "h": 38.18181818181808,
+            "s": 0.046025104602510414,
+            "v": 0.9372549019607843,
+          },
+          "item": "beige300",
+          "rgb": Object {
+            "a": 1,
+            "b": 228,
+            "g": 235,
+            "r": 239,
+          },
+          "type": "neutral",
+        },
+        "name": "beige300",
+        "original": Object {
+          "value": Object {
+            "a": 1,
+            "b": 228,
+            "g": 235,
+            "r": 239,
+          },
+        },
+        "path": Array [
+          "color",
+          "neutral",
+          "beige300",
+        ],
+        "value": Object {
+          "hex": "#efebe4",
+          "hex8": "#efebe4ff",
+          "hsl": "hsl(38, 26%, 92%)",
+          "rgb": "rgb(239, 235, 228)",
+        },
+      },
+      "beige400": Object {
+        "attributes": Object {
+          "category": "color",
+          "hex": "e5e1da",
+          "hsl": Object {
+            "a": 1,
+            "h": 38.181818181818144,
+            "l": 0.8764705882352941,
+            "s": 0.1746031746031748,
+          },
+          "hsv": Object {
+            "a": 1,
+            "h": 38.181818181818144,
+            "s": 0.04803493449781667,
+            "v": 0.8980392156862745,
+          },
+          "item": "beige400",
+          "rgb": Object {
+            "a": 1,
+            "b": 218,
+            "g": 225,
+            "r": 229,
+          },
+          "type": "neutral",
+        },
+        "name": "beige400",
+        "original": Object {
+          "value": Object {
+            "a": 1,
+            "b": 218,
+            "g": 225,
+            "r": 229,
+          },
+        },
+        "path": Array [
+          "color",
+          "neutral",
+          "beige400",
+        ],
+        "value": Object {
+          "hex": "#e5e1da",
+          "hex8": "#e5e1daff",
+          "hsl": "hsl(38, 17%, 88%)",
+          "rgb": "rgb(229, 225, 218)",
+        },
+      },
+      "grey100": Object {
+        "attributes": Object {
+          "category": "color",
+          "hex": "f7f7fc",
+          "hsl": Object {
+            "a": 1,
+            "h": 240,
+            "l": 0.9784313725490197,
+            "s": 0.454545454545456,
+          },
+          "hsv": Object {
+            "a": 1,
+            "h": 240,
+            "s": 0.019841269841269882,
+            "v": 0.9882352941176471,
+          },
+          "item": "grey100",
+          "rgb": Object {
+            "a": 1,
+            "b": 252,
+            "g": 247,
+            "r": 247,
+          },
+          "type": "neutral",
+        },
+        "name": "grey100",
+        "original": Object {
+          "value": Object {
+            "a": 1,
+            "b": 252,
+            "g": 247,
+            "r": 247,
+          },
+        },
+        "path": Array [
+          "color",
+          "neutral",
+          "grey100",
+        ],
+        "value": Object {
+          "hex": "#f7f7fc",
+          "hex8": "#f7f7fcff",
+          "hsl": "hsl(240, 45%, 98%)",
+          "rgb": "rgb(247, 247, 252)",
+        },
+      },
+      "grey200": Object {
+        "attributes": Object {
+          "category": "color",
+          "hex": "efefef",
+          "hsl": Object {
+            "a": 1,
+            "h": 0,
+            "l": 0.9372549019607843,
+            "s": 0,
+          },
+          "hsv": Object {
+            "a": 1,
+            "h": 0,
+            "s": 0,
+            "v": 0.9372549019607843,
+          },
+          "item": "grey200",
+          "rgb": Object {
+            "a": 1,
+            "b": 239,
+            "g": 239,
+            "r": 239,
+          },
+          "type": "neutral",
+        },
+        "name": "grey200",
+        "original": Object {
+          "value": Object {
+            "a": 1,
+            "b": 239,
+            "g": 239,
+            "r": 239,
+          },
+        },
+        "path": Array [
+          "color",
+          "neutral",
+          "grey200",
+        ],
+        "value": Object {
+          "hex": "#efefef",
+          "hex8": "#efefefff",
+          "hsl": "hsl(0, 0%, 94%)",
+          "rgb": "rgb(239, 239, 239)",
+        },
+      },
+      "grey300": Object {
+        "attributes": Object {
+          "category": "color",
+          "hex": "e8e8ea",
+          "hsl": Object {
+            "a": 1,
+            "h": 240,
+            "l": 0.9137254901960784,
+            "s": 0.04545454545454525,
+          },
+          "hsv": Object {
+            "a": 1,
+            "h": 240,
+            "s": 0.008547008547008517,
+            "v": 0.9176470588235294,
+          },
+          "item": "grey300",
+          "rgb": Object {
+            "a": 1,
+            "b": 234,
+            "g": 232,
+            "r": 232,
+          },
+          "type": "neutral",
+        },
+        "name": "grey300",
+        "original": Object {
+          "value": Object {
+            "a": 1,
+            "b": 234,
+            "g": 232,
+            "r": 232,
+          },
+        },
+        "path": Array [
+          "color",
+          "neutral",
+          "grey300",
+        ],
+        "value": Object {
+          "hex": "#e8e8ea",
+          "hex8": "#e8e8eaff",
+          "hsl": "hsl(240, 5%, 91%)",
+          "rgb": "rgb(232, 232, 234)",
+        },
+      },
+      "grey400": Object {
+        "attributes": Object {
+          "category": "color",
+          "hex": "d9d9e2",
+          "hsl": Object {
+            "a": 1,
+            "h": 240,
+            "l": 0.8686274509803922,
+            "s": 0.13432835820895514,
+          },
+          "hsv": Object {
+            "a": 1,
+            "h": 240,
+            "s": 0.03982300884955751,
+            "v": 0.8862745098039215,
+          },
+          "item": "grey400",
+          "rgb": Object {
+            "a": 1,
+            "b": 226,
+            "g": 217,
+            "r": 217,
+          },
+          "type": "neutral",
+        },
+        "name": "grey400",
+        "original": Object {
+          "value": Object {
+            "a": 1,
+            "b": 226,
+            "g": 217,
+            "r": 217,
+          },
+        },
+        "path": Array [
+          "color",
+          "neutral",
+          "grey400",
+        ],
+        "value": Object {
+          "hex": "#d9d9e2",
+          "hex8": "#d9d9e2ff",
+          "hsl": "hsl(240, 13%, 87%)",
+          "rgb": "rgb(217, 217, 226)",
+        },
+      },
+    },
+    "primary": Object {
+      "blue": Object {
+        "attributes": Object {
+          "category": "color",
+          "hex": "06bdfc",
+          "hsl": Object {
+            "a": 1,
+            "h": 195.36585365853657,
+            "l": 0.5058823529411764,
+            "s": 0.9761904761904763,
+          },
+          "hsv": Object {
+            "a": 1,
+            "h": 195.36585365853657,
+            "s": 0.9761904761904762,
+            "v": 0.9882352941176471,
+          },
+          "item": "blue",
+          "rgb": Object {
+            "a": 1,
+            "b": 252,
+            "g": 189,
+            "r": 6,
+          },
+          "type": "primary",
+        },
+        "name": "blue",
+        "original": Object {
+          "value": Object {
+            "a": 1,
+            "b": 252,
+            "g": 189,
+            "r": 6,
+          },
+        },
+        "path": Array [
+          "color",
+          "primary",
+          "blue",
+        ],
+        "value": Object {
+          "hex": "#06bdfc",
+          "hex8": "#06bdfcff",
+          "hsl": "hsl(195, 98%, 51%)",
+          "rgb": "rgb(6, 189, 252)",
+        },
+      },
+      "blueDark": Object {
+        "attributes": Object {
+          "category": "color",
+          "hex": "009bd8",
+          "hsl": Object {
+            "a": 1,
+            "h": 196.94444444444446,
+            "l": 0.4235294117647059,
+            "s": 1,
+          },
+          "hsv": Object {
+            "a": 1,
+            "h": 196.94444444444446,
+            "s": 1,
+            "v": 0.8470588235294118,
+          },
+          "item": "blueDark",
+          "rgb": Object {
+            "a": 1,
+            "b": 216,
+            "g": 155,
+            "r": 0,
+          },
+          "type": "primary",
+        },
+        "name": "blueDark",
+        "original": Object {
+          "value": Object {
+            "a": 1,
+            "b": 216,
+            "g": 155,
+            "r": 0,
+          },
+        },
+        "path": Array [
+          "color",
+          "primary",
+          "blueDark",
+        ],
+        "value": Object {
+          "hex": "#009bd8",
+          "hex8": "#009bd8ff",
+          "hsl": "hsl(197, 100%, 42%)",
+          "rgb": "rgb(0, 155, 216)",
+        },
+      },
+      "blueLight": Object {
+        "attributes": Object {
+          "category": "color",
+          "hex": "60e7ff",
+          "hsl": Object {
+            "a": 1,
+            "h": 189.0566037735849,
+            "l": 0.6882352941176471,
+            "s": 1,
+          },
+          "hsv": Object {
+            "a": 1,
+            "h": 189.0566037735849,
+            "s": 0.6235294117647059,
+            "v": 1,
+          },
+          "item": "blueLight",
+          "rgb": Object {
+            "a": 1,
+            "b": 255,
+            "g": 231,
+            "r": 96,
+          },
+          "type": "primary",
+        },
+        "name": "blueLight",
+        "original": Object {
+          "value": Object {
+            "a": 1,
+            "b": 255,
+            "g": 231,
+            "r": 96,
+          },
+        },
+        "path": Array [
+          "color",
+          "primary",
+          "blueLight",
+        ],
+        "value": Object {
+          "hex": "#60e7ff",
+          "hex8": "#60e7ffff",
+          "hsl": "hsl(189, 100%, 69%)",
+          "rgb": "rgb(96, 231, 255)",
+        },
+      },
+      "blueText": Object {
+        "attributes": Object {
+          "category": "color",
+          "hex": "007bb6",
+          "hsl": Object {
+            "a": 1,
+            "h": 199.45054945054943,
+            "l": 0.3568627450980392,
+            "s": 1,
+          },
+          "hsv": Object {
+            "a": 1,
+            "h": 199.45054945054943,
+            "s": 1,
+            "v": 0.7137254901960784,
+          },
+          "item": "blueText",
+          "rgb": Object {
+            "a": 1,
+            "b": 182,
+            "g": 123,
+            "r": 0,
+          },
+          "type": "primary",
+        },
+        "name": "blueText",
+        "original": Object {
+          "value": Object {
+            "a": 1,
+            "b": 182,
+            "g": 123,
+            "r": 0,
+          },
+        },
+        "path": Array [
+          "color",
+          "primary",
+          "blueText",
+        ],
+        "value": Object {
+          "hex": "#007bb6",
+          "hex8": "#007bb6ff",
+          "hsl": "hsl(199, 100%, 36%)",
+          "rgb": "rgb(0, 123, 182)",
+        },
+      },
+      "green": Object {
+        "attributes": Object {
+          "category": "color",
+          "hex": "03ef62",
+          "hsl": Object {
+            "a": 1,
+            "h": 144.15254237288136,
+            "l": 0.4745098039215686,
+            "s": 0.975206611570248,
+          },
+          "hsv": Object {
+            "a": 1,
+            "h": 144.15254237288136,
+            "s": 0.9874476987447699,
+            "v": 0.9372549019607843,
+          },
+          "item": "green",
+          "rgb": Object {
+            "a": 1,
+            "b": 98,
+            "g": 239,
+            "r": 3,
+          },
+          "type": "primary",
+        },
+        "name": "green",
+        "original": Object {
+          "value": Object {
+            "a": 1,
+            "b": 98,
+            "g": 239,
+            "r": 3,
+          },
+        },
+        "path": Array [
+          "color",
+          "primary",
+          "green",
+        ],
+        "value": Object {
+          "hex": "#03ef62",
+          "hex8": "#03ef62ff",
+          "hsl": "hsl(144, 98%, 47%)",
+          "rgb": "rgb(3, 239, 98)",
+        },
+      },
+      "greenDark": Object {
+        "attributes": Object {
+          "category": "color",
+          "hex": "00c53b",
+          "hsl": Object {
+            "a": 1,
+            "h": 137.96954314720813,
+            "l": 0.3862745098039216,
+            "s": 1,
+          },
+          "hsv": Object {
+            "a": 1,
+            "h": 137.96954314720813,
+            "s": 1,
+            "v": 0.7725490196078432,
+          },
+          "item": "greenDark",
+          "rgb": Object {
+            "a": 1,
+            "b": 59,
+            "g": 197,
+            "r": 0,
+          },
+          "type": "primary",
+        },
+        "name": "greenDark",
+        "original": Object {
+          "value": Object {
+            "a": 1,
+            "b": 59,
+            "g": 197,
+            "r": 0,
+          },
+        },
+        "path": Array [
+          "color",
+          "primary",
+          "greenDark",
+        ],
+        "value": Object {
+          "hex": "#00c53b",
+          "hex8": "#00c53bff",
+          "hsl": "hsl(138, 100%, 39%)",
+          "rgb": "rgb(0, 197, 59)",
+        },
+      },
+      "greenLight": Object {
+        "attributes": Object {
+          "category": "color",
+          "hex": "65ff8f",
+          "hsl": Object {
+            "a": 1,
+            "h": 136.36363636363637,
+            "l": 0.6980392156862745,
+            "s": 1,
+          },
+          "hsv": Object {
+            "a": 1,
+            "h": 136.36363636363637,
+            "s": 0.603921568627451,
+            "v": 1,
+          },
+          "item": "greenLight",
+          "rgb": Object {
+            "a": 1,
+            "b": 143,
+            "g": 255,
+            "r": 101,
+          },
+          "type": "primary",
+        },
+        "name": "greenLight",
+        "original": Object {
+          "value": Object {
+            "a": 1,
+            "b": 143,
+            "g": 255,
+            "r": 101,
+          },
+        },
+        "path": Array [
+          "color",
+          "primary",
+          "greenLight",
+        ],
+        "value": Object {
+          "hex": "#65ff8f",
+          "hex8": "#65ff8fff",
+          "hsl": "hsl(136, 100%, 70%)",
+          "rgb": "rgb(101, 255, 143)",
+        },
+      },
+      "greenText": Object {
+        "attributes": Object {
+          "category": "color",
+          "hex": "008700",
+          "hsl": Object {
+            "a": 1,
+            "h": 120,
+            "l": 0.2647058823529412,
+            "s": 1,
+          },
+          "hsv": Object {
+            "a": 1,
+            "h": 120,
+            "s": 1,
+            "v": 0.5294117647058824,
+          },
+          "item": "greenText",
+          "rgb": Object {
+            "a": 1,
+            "b": 0,
+            "g": 135,
+            "r": 0,
+          },
+          "type": "primary",
+        },
+        "name": "greenText",
+        "original": Object {
+          "value": Object {
+            "a": 1,
+            "b": 0,
+            "g": 135,
+            "r": 0,
+          },
+        },
+        "path": Array [
+          "color",
+          "primary",
+          "greenText",
+        ],
+        "value": Object {
+          "hex": "#008700",
+          "hex8": "#008700ff",
+          "hsl": "hsl(120, 100%, 26%)",
+          "rgb": "rgb(0, 135, 0)",
+        },
+      },
+      "navy": Object {
+        "attributes": Object {
+          "category": "color",
+          "hex": "05192d",
+          "hsl": Object {
+            "a": 1,
+            "h": 210,
+            "l": 0.09803921568627452,
+            "s": 0.7999999999999999,
+          },
+          "hsv": Object {
+            "a": 1,
+            "h": 210,
+            "s": 0.8888888888888888,
+            "v": 0.17647058823529413,
+          },
+          "item": "navy",
+          "rgb": Object {
+            "a": 1,
+            "b": 45,
+            "g": 25,
+            "r": 5,
+          },
+          "type": "primary",
+        },
+        "name": "navy",
+        "original": Object {
+          "value": Object {
+            "a": 1,
+            "b": 45,
+            "g": 25,
+            "r": 5,
+          },
+        },
+        "path": Array [
+          "color",
+          "primary",
+          "navy",
+        ],
+        "value": Object {
+          "hex": "#05192d",
+          "hex8": "#05192dff",
+          "hsl": "hsl(210, 80%, 10%)",
+          "rgb": "rgb(5, 25, 45)",
+        },
+      },
+      "navyDark": Object {
+        "attributes": Object {
+          "category": "color",
+          "hex": "000820",
+          "hsl": Object {
+            "a": 1,
+            "h": 225,
+            "l": 0.06274509803921569,
+            "s": 1,
+          },
+          "hsv": Object {
+            "a": 1,
+            "h": 225,
+            "s": 1,
+            "v": 0.12549019607843137,
+          },
+          "item": "navyDark",
+          "rgb": Object {
+            "a": 1,
+            "b": 32,
+            "g": 8,
+            "r": 0,
+          },
+          "type": "primary",
+        },
+        "name": "navyDark",
+        "original": Object {
+          "value": Object {
+            "a": 1,
+            "b": 32,
+            "g": 8,
+            "r": 0,
+          },
+        },
+        "path": Array [
+          "color",
+          "primary",
+          "navyDark",
+        ],
+        "value": Object {
+          "hex": "#000820",
+          "hex8": "#000820ff",
+          "hsl": "hsl(225, 100%, 6%)",
+          "rgb": "rgb(0, 8, 32)",
+        },
+      },
+      "navyLight": Object {
+        "attributes": Object {
+          "category": "color",
+          "hex": "213147",
+          "hsl": Object {
+            "a": 1,
+            "h": 214.73684210526315,
+            "l": 0.20392156862745098,
+            "s": 0.36538461538461536,
+          },
+          "hsv": Object {
+            "a": 1,
+            "h": 214.73684210526315,
+            "s": 0.5352112676056338,
+            "v": 0.2784313725490196,
+          },
+          "item": "navyLight",
+          "rgb": Object {
+            "a": 1,
+            "b": 71,
+            "g": 49,
+            "r": 33,
+          },
+          "type": "primary",
+        },
+        "name": "navyLight",
+        "original": Object {
+          "value": Object {
+            "a": 1,
+            "b": 71,
+            "g": 49,
+            "r": 33,
+          },
+        },
+        "path": Array [
+          "color",
+          "primary",
+          "navyLight",
+        ],
+        "value": Object {
+          "hex": "#213147",
+          "hex8": "#213147ff",
+          "hsl": "hsl(215, 37%, 20%)",
+          "rgb": "rgb(33, 49, 71)",
+        },
+      },
+      "navyText": Object {
+        "attributes": Object {
+          "category": "color",
+          "hex": "05192d",
+          "hsl": Object {
+            "a": 1,
+            "h": 210,
+            "l": 0.09803921568627452,
+            "s": 0.7999999999999999,
+          },
+          "hsv": Object {
+            "a": 1,
+            "h": 210,
+            "s": 0.8888888888888888,
+            "v": 0.17647058823529413,
+          },
+          "item": "navyText",
+          "rgb": Object {
+            "a": 1,
+            "b": 45,
+            "g": 25,
+            "r": 5,
+          },
+          "type": "primary",
+        },
+        "name": "navyText",
+        "original": Object {
+          "value": Object {
+            "a": 1,
+            "b": 45,
+            "g": 25,
+            "r": 5,
+          },
+        },
+        "path": Array [
+          "color",
+          "primary",
+          "navyText",
+        ],
+        "value": Object {
+          "hex": "#05192d",
+          "hex8": "#05192dff",
+          "hsl": "hsl(210, 80%, 10%)",
+          "rgb": "rgb(5, 25, 45)",
+        },
+      },
+      "orange": Object {
+        "attributes": Object {
+          "category": "color",
+          "hex": "ff931e",
+          "hsl": Object {
+            "a": 1,
+            "h": 31.199999999999996,
+            "l": 0.5588235294117647,
+            "s": 1,
+          },
+          "hsv": Object {
+            "a": 1,
+            "h": 31.199999999999996,
+            "s": 0.8823529411764706,
+            "v": 1,
+          },
+          "item": "orange",
+          "rgb": Object {
+            "a": 1,
+            "b": 30,
+            "g": 147,
+            "r": 255,
+          },
+          "type": "primary",
+        },
+        "name": "orange",
+        "original": Object {
+          "value": Object {
+            "a": 1,
+            "b": 30,
+            "g": 147,
+            "r": 255,
+          },
+        },
+        "path": Array [
+          "color",
+          "primary",
+          "orange",
+        ],
+        "value": Object {
+          "hex": "#ff931e",
+          "hex8": "#ff931eff",
+          "hsl": "hsl(31, 100%, 56%)",
+          "rgb": "rgb(255, 147, 30)",
+        },
+      },
+      "orangeDark": Object {
+        "attributes": Object {
+          "category": "color",
+          "hex": "d87300",
+          "hsl": Object {
+            "a": 1,
+            "h": 31.944444444444446,
+            "l": 0.4235294117647059,
+            "s": 1,
+          },
+          "hsv": Object {
+            "a": 1,
+            "h": 31.944444444444446,
+            "s": 1,
+            "v": 0.8470588235294118,
+          },
+          "item": "orangeDark",
+          "rgb": Object {
+            "a": 1,
+            "b": 0,
+            "g": 115,
+            "r": 216,
+          },
+          "type": "primary",
+        },
+        "name": "orangeDark",
+        "original": Object {
+          "value": Object {
+            "a": 1,
+            "b": 0,
+            "g": 115,
+            "r": 216,
+          },
+        },
+        "path": Array [
+          "color",
+          "primary",
+          "orangeDark",
+        ],
+        "value": Object {
+          "hex": "#d87300",
+          "hex8": "#d87300ff",
+          "hsl": "hsl(32, 100%, 42%)",
+          "rgb": "rgb(216, 115, 0)",
+        },
+      },
+      "orangeLight": Object {
+        "attributes": Object {
+          "category": "color",
+          "hex": "ffbc4b",
+          "hsl": Object {
+            "a": 1,
+            "h": 37.66666666666667,
+            "l": 0.6470588235294118,
+            "s": 1,
+          },
+          "hsv": Object {
+            "a": 1,
+            "h": 37.66666666666667,
+            "s": 0.7058823529411764,
+            "v": 1,
+          },
+          "item": "orangeLight",
+          "rgb": Object {
+            "a": 1,
+            "b": 75,
+            "g": 188,
+            "r": 255,
+          },
+          "type": "primary",
+        },
+        "name": "orangeLight",
+        "original": Object {
+          "value": Object {
+            "a": 1,
+            "b": 75,
+            "g": 188,
+            "r": 255,
+          },
+        },
+        "path": Array [
+          "color",
+          "primary",
+          "orangeLight",
+        ],
+        "value": Object {
+          "hex": "#ffbc4b",
+          "hex8": "#ffbc4bff",
+          "hsl": "hsl(38, 100%, 65%)",
+          "rgb": "rgb(255, 188, 75)",
+        },
+      },
+      "orangeText": Object {
+        "attributes": Object {
+          "category": "color",
+          "hex": "b75900",
+          "hsl": Object {
+            "a": 1,
+            "h": 29.18032786885246,
+            "l": 0.3588235294117647,
+            "s": 1,
+          },
+          "hsv": Object {
+            "a": 1,
+            "h": 29.18032786885246,
+            "s": 1,
+            "v": 0.7176470588235294,
+          },
+          "item": "orangeText",
+          "rgb": Object {
+            "a": 1,
+            "b": 0,
+            "g": 89,
+            "r": 183,
+          },
+          "type": "primary",
+        },
+        "name": "orangeText",
+        "original": Object {
+          "value": Object {
+            "a": 1,
+            "b": 0,
+            "g": 89,
+            "r": 183,
+          },
+        },
+        "path": Array [
+          "color",
+          "primary",
+          "orangeText",
+        ],
+        "value": Object {
+          "hex": "#b75900",
+          "hex8": "#b75900ff",
+          "hsl": "hsl(29, 100%, 36%)",
+          "rgb": "rgb(183, 89, 0)",
+        },
+      },
+      "pink": Object {
+        "attributes": Object {
+          "category": "color",
+          "hex": "ff6ea9",
+          "hsl": Object {
+            "a": 1,
+            "h": 335.5862068965517,
+            "l": 0.7156862745098039,
+            "s": 1,
+          },
+          "hsv": Object {
+            "a": 1,
+            "h": 335.5862068965517,
+            "s": 0.5686274509803921,
+            "v": 1,
+          },
+          "item": "pink",
+          "rgb": Object {
+            "a": 1,
+            "b": 169,
+            "g": 110,
+            "r": 255,
+          },
+          "type": "primary",
+        },
+        "name": "pink",
+        "original": Object {
+          "value": Object {
+            "a": 1,
+            "b": 169,
+            "g": 110,
+            "r": 255,
+          },
+        },
+        "path": Array [
+          "color",
+          "primary",
+          "pink",
+        ],
+        "value": Object {
+          "hex": "#ff6ea9",
+          "hex8": "#ff6ea9ff",
+          "hsl": "hsl(336, 100%, 72%)",
+          "rgb": "rgb(255, 110, 169)",
+        },
+      },
+      "pinkDark": Object {
+        "attributes": Object {
+          "category": "color",
+          "hex": "dc4d8b",
+          "hsl": Object {
+            "a": 1,
+            "h": 333.986013986014,
+            "l": 0.5823529411764706,
+            "s": 0.6713615023474179,
+          },
+          "hsv": Object {
+            "a": 1,
+            "h": 333.986013986014,
+            "s": 0.65,
+            "v": 0.8627450980392157,
+          },
+          "item": "pinkDark",
+          "rgb": Object {
+            "a": 1,
+            "b": 139,
+            "g": 77,
+            "r": 220,
+          },
+          "type": "primary",
+        },
+        "name": "pinkDark",
+        "original": Object {
+          "value": Object {
+            "a": 1,
+            "b": 139,
+            "g": 77,
+            "r": 220,
+          },
+        },
+        "path": Array [
+          "color",
+          "primary",
+          "pinkDark",
+        ],
+        "value": Object {
+          "hex": "#dc4d8b",
+          "hex8": "#dc4d8bff",
+          "hsl": "hsl(334, 67%, 58%)",
+          "rgb": "rgb(220, 77, 139)",
+        },
+      },
+      "pinkLight": Object {
+        "attributes": Object {
+          "category": "color",
+          "hex": "ff95cf",
+          "hsl": Object {
+            "a": 1,
+            "h": 327.1698113207547,
+            "l": 0.7921568627450981,
+            "s": 1,
+          },
+          "hsv": Object {
+            "a": 1,
+            "h": 327.1698113207547,
+            "s": 0.4156862745098039,
+            "v": 1,
+          },
+          "item": "pinkLight",
+          "rgb": Object {
+            "a": 1,
+            "b": 207,
+            "g": 149,
+            "r": 255,
+          },
+          "type": "primary",
+        },
+        "name": "pinkLight",
+        "original": Object {
+          "value": Object {
+            "a": 1,
+            "b": 207,
+            "g": 149,
+            "r": 255,
+          },
+        },
+        "path": Array [
+          "color",
+          "primary",
+          "pinkLight",
+        ],
+        "value": Object {
+          "hex": "#ff95cf",
+          "hex8": "#ff95cfff",
+          "hsl": "hsl(327, 100%, 79%)",
+          "rgb": "rgb(255, 149, 207)",
+        },
+      },
+      "pinkText": Object {
+        "attributes": Object {
+          "category": "color",
+          "hex": "bf3072",
+          "hsl": Object {
+            "a": 1,
+            "h": 332.30769230769226,
+            "l": 0.46862745098039216,
+            "s": 0.5983263598326359,
+          },
+          "hsv": Object {
+            "a": 1,
+            "h": 332.30769230769226,
+            "s": 0.7486910994764397,
+            "v": 0.7490196078431373,
+          },
+          "item": "pinkText",
+          "rgb": Object {
+            "a": 1,
+            "b": 114,
+            "g": 48,
+            "r": 191,
+          },
+          "type": "primary",
+        },
+        "name": "pinkText",
+        "original": Object {
+          "value": Object {
+            "a": 1,
+            "b": 114,
+            "g": 48,
+            "r": 191,
+          },
+        },
+        "path": Array [
+          "color",
+          "primary",
+          "pinkText",
+        ],
+        "value": Object {
+          "hex": "#bf3072",
+          "hex8": "#bf3072ff",
+          "hsl": "hsl(332, 60%, 47%)",
+          "rgb": "rgb(191, 48, 114)",
         },
       },
       "purple": Object {
         "attributes": Object {
           "category": "color",
-          "hex": "8468c4",
+          "hex": "7933ff",
           "hsl": Object {
             "a": 1,
-            "h": 258.26086956521743,
-            "l": 0.5882352941176471,
-            "s": 0.4380952380952381,
+            "h": 260.5882352941176,
+            "l": 0.6,
+            "s": 1,
           },
           "hsv": Object {
             "a": 1,
-            "h": 258.26086956521743,
-            "s": 0.46938775510204084,
-            "v": 0.7686274509803922,
+            "h": 260.5882352941176,
+            "s": 0.8,
+            "v": 1,
           },
           "item": "purple",
           "rgb": Object {
             "a": 1,
-            "b": 196,
-            "g": 104,
-            "r": 132,
+            "b": 255,
+            "g": 51,
+            "r": 121,
           },
-          "type": "opaque",
+          "type": "primary",
         },
         "name": "purple",
         "original": Object {
           "value": Object {
             "a": 1,
-            "b": 196,
-            "g": 104,
-            "r": 132,
+            "b": 255,
+            "g": 51,
+            "r": 121,
           },
         },
         "path": Array [
           "color",
-          "opaque",
+          "primary",
           "purple",
         ],
         "value": Object {
-          "hex": "#8468c4",
-          "hex8": "#8468c4ff",
-          "hsl": "hsl(258, 44%, 59%)",
-          "rgb": "rgb(132, 104, 196)",
+          "hex": "#7933ff",
+          "hex8": "#7933ffff",
+          "hsl": "hsl(261, 100%, 60%)",
+          "rgb": "rgb(121, 51, 255)",
         },
       },
       "purpleDark": Object {
         "attributes": Object {
           "category": "color",
-          "hex": "5d488c",
+          "hex": "5646a5",
           "hsl": Object {
             "a": 1,
-            "h": 258.52941176470586,
-            "l": 0.41568627450980394,
-            "s": 0.3207547169811321,
+            "h": 250.1052631578947,
+            "l": 0.4607843137254902,
+            "s": 0.40425531914893614,
           },
           "hsv": Object {
             "a": 1,
-            "h": 258.52941176470586,
-            "s": 0.48571428571428577,
-            "v": 0.5490196078431373,
+            "h": 250.1052631578947,
+            "s": 0.5757575757575757,
+            "v": 0.6470588235294118,
           },
           "item": "purpleDark",
           "rgb": Object {
             "a": 1,
-            "b": 140,
-            "g": 72,
-            "r": 93,
+            "b": 165,
+            "g": 70,
+            "r": 86,
           },
-          "type": "opaque",
+          "type": "primary",
         },
         "name": "purpleDark",
         "original": Object {
           "value": Object {
             "a": 1,
-            "b": 140,
-            "g": 72,
-            "r": 93,
+            "b": 165,
+            "g": 70,
+            "r": 86,
           },
         },
         "path": Array [
           "color",
-          "opaque",
+          "primary",
           "purpleDark",
         ],
         "value": Object {
-          "hex": "#5d488c",
-          "hex8": "#5d488cff",
-          "hsl": "hsl(259, 32%, 42%)",
-          "rgb": "rgb(93, 72, 140)",
+          "hex": "#5646a5",
+          "hex8": "#5646a5ff",
+          "hsl": "hsl(250, 40%, 46%)",
+          "rgb": "rgb(86, 70, 165)",
         },
       },
       "purpleLight": Object {
         "attributes": Object {
           "category": "color",
-          "hex": "a786f3",
+          "hex": "974dff",
           "hsl": Object {
             "a": 1,
-            "h": 258.1651376146789,
-            "l": 0.7392156862745098,
-            "s": 0.8195488721804509,
+            "h": 264.9438202247191,
+            "l": 0.6509803921568628,
+            "s": 1,
           },
           "hsv": Object {
             "a": 1,
-            "h": 258.1651376146789,
-            "s": 0.44855967078189296,
-            "v": 0.9529411764705882,
+            "h": 264.9438202247191,
+            "s": 0.6980392156862745,
+            "v": 1,
           },
           "item": "purpleLight",
           "rgb": Object {
             "a": 1,
-            "b": 243,
-            "g": 134,
-            "r": 167,
+            "b": 255,
+            "g": 77,
+            "r": 151,
           },
-          "type": "opaque",
+          "type": "primary",
         },
         "name": "purpleLight",
         "original": Object {
           "value": Object {
             "a": 1,
-            "b": 243,
-            "g": 134,
-            "r": 167,
+            "b": 255,
+            "g": 77,
+            "r": 151,
           },
         },
         "path": Array [
           "color",
-          "opaque",
+          "primary",
           "purpleLight",
         ],
         "value": Object {
-          "hex": "#a786f3",
-          "hex8": "#a786f3ff",
-          "hsl": "hsl(258, 82%, 74%)",
-          "rgb": "rgb(167, 134, 243)",
+          "hex": "#974dff",
+          "hex8": "#974dffff",
+          "hsl": "hsl(265, 100%, 65%)",
+          "rgb": "rgb(151, 77, 255)",
         },
       },
-      "raven": Object {
+      "purpleText": Object {
         "attributes": Object {
           "category": "color",
-          "hex": "737a80",
+          "hex": "5646a5",
           "hsl": Object {
             "a": 1,
-            "h": 207.69230769230768,
-            "l": 0.4764705882352941,
-            "s": 0.05349794238683126,
+            "h": 250.1052631578947,
+            "l": 0.4607843137254902,
+            "s": 0.40425531914893614,
           },
           "hsv": Object {
             "a": 1,
-            "h": 207.69230769230768,
-            "s": 0.10156249999999997,
-            "v": 0.5019607843137255,
+            "h": 250.1052631578947,
+            "s": 0.5757575757575757,
+            "v": 0.6470588235294118,
           },
-          "item": "raven",
+          "item": "purpleText",
           "rgb": Object {
             "a": 1,
-            "b": 128,
-            "g": 122,
-            "r": 115,
+            "b": 165,
+            "g": 70,
+            "r": 86,
           },
-          "type": "opaque",
+          "type": "primary",
         },
-        "name": "raven",
+        "name": "purpleText",
         "original": Object {
           "value": Object {
             "a": 1,
-            "b": 128,
-            "g": 122,
-            "r": 115,
+            "b": 165,
+            "g": 70,
+            "r": 86,
           },
         },
         "path": Array [
           "color",
-          "opaque",
-          "raven",
+          "primary",
+          "purpleText",
         ],
         "value": Object {
-          "hex": "#737a80",
-          "hex8": "#737a80ff",
-          "hsl": "hsl(208, 5%, 48%)",
-          "rgb": "rgb(115, 122, 128)",
+          "hex": "#5646a5",
+          "hex8": "#5646a5ff",
+          "hsl": "hsl(250, 40%, 46%)",
+          "rgb": "rgb(86, 70, 165)",
         },
       },
       "red": Object {
         "attributes": Object {
           "category": "color",
-          "hex": "fe5c5c",
+          "hex": "ff5400",
           "hsl": Object {
             "a": 1,
-            "h": 0,
-            "l": 0.6784313725490196,
-            "s": 0.9878048780487805,
+            "h": 19.764705882352942,
+            "l": 0.5,
+            "s": 1,
           },
           "hsv": Object {
             "a": 1,
-            "h": 0,
-            "s": 0.6377952755905512,
-            "v": 0.996078431372549,
+            "h": 19.764705882352942,
+            "s": 1,
+            "v": 1,
           },
           "item": "red",
           "rgb": Object {
             "a": 1,
-            "b": 92,
-            "g": 92,
-            "r": 254,
+            "b": 0,
+            "g": 84,
+            "r": 255,
           },
-          "type": "opaque",
+          "type": "primary",
         },
         "name": "red",
         "original": Object {
           "value": Object {
             "a": 1,
-            "b": 92,
-            "g": 92,
-            "r": 254,
+            "b": 0,
+            "g": 84,
+            "r": 255,
           },
         },
         "path": Array [
           "color",
-          "opaque",
+          "primary",
           "red",
         ],
         "value": Object {
-          "hex": "#fe5c5c",
-          "hex8": "#fe5c5cff",
-          "hsl": "hsl(0, 99%, 68%)",
-          "rgb": "rgb(254, 92, 92)",
+          "hex": "#ff5400",
+          "hex8": "#ff5400ff",
+          "hsl": "hsl(20, 100%, 50%)",
+          "rgb": "rgb(255, 84, 0)",
+        },
+      },
+      "redDark": Object {
+        "attributes": Object {
+          "category": "color",
+          "hex": "dd3400",
+          "hsl": Object {
+            "a": 1,
+            "h": 14.117647058823529,
+            "l": 0.43333333333333335,
+            "s": 1,
+          },
+          "hsv": Object {
+            "a": 1,
+            "h": 14.117647058823529,
+            "s": 1,
+            "v": 0.8666666666666667,
+          },
+          "item": "redDark",
+          "rgb": Object {
+            "a": 1,
+            "b": 0,
+            "g": 52,
+            "r": 221,
+          },
+          "type": "primary",
+        },
+        "name": "redDark",
+        "original": Object {
+          "value": Object {
+            "a": 1,
+            "b": 0,
+            "g": 52,
+            "r": 221,
+          },
+        },
+        "path": Array [
+          "color",
+          "primary",
+          "redDark",
+        ],
+        "value": Object {
+          "hex": "#dd3400",
+          "hex8": "#dd3400ff",
+          "hsl": "hsl(14, 100%, 43%)",
+          "rgb": "rgb(221, 52, 0)",
         },
       },
       "redLight": Object {
         "attributes": Object {
           "category": "color",
-          "hex": "ffb5b5",
+          "hex": "ff782d",
           "hsl": Object {
             "a": 1,
-            "h": 0,
-            "l": 0.8549019607843138,
+            "h": 21.428571428571423,
+            "l": 0.5882352941176471,
             "s": 1,
           },
           "hsv": Object {
             "a": 1,
-            "h": 0,
-            "s": 0.2901960784313725,
+            "h": 21.428571428571423,
+            "s": 0.8235294117647058,
             "v": 1,
           },
           "item": "redLight",
           "rgb": Object {
             "a": 1,
-            "b": 181,
-            "g": 181,
+            "b": 45,
+            "g": 120,
             "r": 255,
           },
-          "type": "opaque",
+          "type": "primary",
         },
         "name": "redLight",
         "original": Object {
           "value": Object {
             "a": 1,
-            "b": 181,
-            "g": 181,
+            "b": 45,
+            "g": 120,
             "r": 255,
           },
         },
         "path": Array [
           "color",
-          "opaque",
+          "primary",
           "redLight",
         ],
         "value": Object {
-          "hex": "#ffb5b5",
-          "hex8": "#ffb5b5ff",
-          "hsl": "hsl(0, 100%, 85%)",
-          "rgb": "rgb(255, 181, 181)",
+          "hex": "#ff782d",
+          "hex8": "#ff782dff",
+          "hsl": "hsl(21, 100%, 59%)",
+          "rgb": "rgb(255, 120, 45)",
         },
       },
-      "secondary": Object {
+      "redText": Object {
         "attributes": Object {
           "category": "color",
-          "hex": "ffc844",
+          "hex": "c01100",
           "hsl": Object {
             "a": 1,
-            "h": 42.35294117647058,
-            "l": 0.6333333333333333,
+            "h": 5.312500000000001,
+            "l": 0.3764705882352941,
             "s": 1,
           },
           "hsv": Object {
             "a": 1,
-            "h": 42.35294117647058,
-            "s": 0.7333333333333334,
-            "v": 1,
+            "h": 5.312500000000001,
+            "s": 1,
+            "v": 0.7529411764705882,
           },
-          "item": "secondary",
+          "item": "redText",
           "rgb": Object {
             "a": 1,
-            "b": 68,
-            "g": 200,
-            "r": 255,
+            "b": 0,
+            "g": 17,
+            "r": 192,
           },
-          "type": "opaque",
+          "type": "primary",
         },
-        "name": "secondary",
+        "name": "redText",
         "original": Object {
           "value": Object {
             "a": 1,
-            "b": 68,
-            "g": 200,
-            "r": 255,
+            "b": 0,
+            "g": 17,
+            "r": 192,
           },
         },
         "path": Array [
           "color",
-          "opaque",
-          "secondary",
+          "primary",
+          "redText",
         ],
         "value": Object {
-          "hex": "#ffc844",
-          "hex8": "#ffc844ff",
-          "hsl": "hsl(42, 100%, 63%)",
-          "rgb": "rgb(255, 200, 68)",
-        },
-      },
-      "secondaryLight": Object {
-        "attributes": Object {
-          "category": "color",
-          "hex": "fbe28d",
-          "hsl": Object {
-            "a": 1,
-            "h": 46.36363636363636,
-            "l": 0.7686274509803921,
-            "s": 0.9322033898305084,
-          },
-          "hsv": Object {
-            "a": 1,
-            "h": 46.36363636363636,
-            "s": 0.4382470119521912,
-            "v": 0.984313725490196,
-          },
-          "item": "secondaryLight",
-          "rgb": Object {
-            "a": 1,
-            "b": 141,
-            "g": 226,
-            "r": 251,
-          },
-          "type": "opaque",
-        },
-        "name": "secondaryLight",
-        "original": Object {
-          "value": Object {
-            "a": 1,
-            "b": 141,
-            "g": 226,
-            "r": 251,
-          },
-        },
-        "path": Array [
-          "color",
-          "opaque",
-          "secondaryLight",
-        ],
-        "value": Object {
-          "hex": "#fbe28d",
-          "hex8": "#fbe28dff",
-          "hsl": "hsl(46, 93%, 77%)",
-          "rgb": "rgb(251, 226, 141)",
+          "hex": "#c01100",
+          "hex8": "#c01100ff",
+          "hsl": "hsl(5, 100%, 38%)",
+          "rgb": "rgb(192, 17, 0)",
         },
       },
       "white": Object {
@@ -1550,7 +2026,7 @@ Object {
             "g": 255,
             "r": 255,
           },
-          "type": "opaque",
+          "type": "primary",
         },
         "name": "white",
         "original": Object {
@@ -1563,7 +2039,7 @@ Object {
         },
         "path": Array [
           "color",
-          "opaque",
+          "primary",
           "white",
         ],
         "value": Object {
@@ -1571,6 +2047,190 @@ Object {
           "hex8": "#ffffffff",
           "hsl": "hsl(0, 0%, 100%)",
           "rgb": "rgb(255, 255, 255)",
+        },
+      },
+      "yellow": Object {
+        "attributes": Object {
+          "category": "color",
+          "hex": "fcce0d",
+          "hsl": Object {
+            "a": 1,
+            "h": 48.45188284518828,
+            "l": 0.5196078431372549,
+            "s": 0.9755102040816327,
+          },
+          "hsv": Object {
+            "a": 1,
+            "h": 48.45188284518828,
+            "s": 0.9484126984126984,
+            "v": 0.9882352941176471,
+          },
+          "item": "yellow",
+          "rgb": Object {
+            "a": 1,
+            "b": 13,
+            "g": 206,
+            "r": 252,
+          },
+          "type": "primary",
+        },
+        "name": "yellow",
+        "original": Object {
+          "value": Object {
+            "a": 1,
+            "b": 13,
+            "g": 206,
+            "r": 252,
+          },
+        },
+        "path": Array [
+          "color",
+          "primary",
+          "yellow",
+        ],
+        "value": Object {
+          "hex": "#fcce0d",
+          "hex8": "#fcce0dff",
+          "hsl": "hsl(48, 98%, 52%)",
+          "rgb": "rgb(252, 206, 13)",
+        },
+      },
+      "yellowDark": Object {
+        "attributes": Object {
+          "category": "color",
+          "hex": "cfa600",
+          "hsl": Object {
+            "a": 1,
+            "h": 48.11594202898551,
+            "l": 0.40588235294117647,
+            "s": 1,
+          },
+          "hsv": Object {
+            "a": 1,
+            "h": 48.11594202898551,
+            "s": 1,
+            "v": 0.8117647058823529,
+          },
+          "item": "yellowDark",
+          "rgb": Object {
+            "a": 1,
+            "b": 0,
+            "g": 166,
+            "r": 207,
+          },
+          "type": "primary",
+        },
+        "name": "yellowDark",
+        "original": Object {
+          "value": Object {
+            "a": 1,
+            "b": 0,
+            "g": 166,
+            "r": 207,
+          },
+        },
+        "path": Array [
+          "color",
+          "primary",
+          "yellowDark",
+        ],
+        "value": Object {
+          "hex": "#cfa600",
+          "hex8": "#cfa600ff",
+          "hsl": "hsl(48, 100%, 41%)",
+          "rgb": "rgb(207, 166, 0)",
+        },
+      },
+      "yellowLight": Object {
+        "attributes": Object {
+          "category": "color",
+          "hex": "ffec3c",
+          "hsl": Object {
+            "a": 1,
+            "h": 54.15384615384615,
+            "l": 0.6176470588235294,
+            "s": 1,
+          },
+          "hsv": Object {
+            "a": 1,
+            "h": 54.15384615384615,
+            "s": 0.7647058823529411,
+            "v": 1,
+          },
+          "item": "yellowLight",
+          "rgb": Object {
+            "a": 1,
+            "b": 60,
+            "g": 236,
+            "r": 255,
+          },
+          "type": "primary",
+        },
+        "name": "yellowLight",
+        "original": Object {
+          "value": Object {
+            "a": 1,
+            "b": 60,
+            "g": 236,
+            "r": 255,
+          },
+        },
+        "path": Array [
+          "color",
+          "primary",
+          "yellowLight",
+        ],
+        "value": Object {
+          "hex": "#ffec3c",
+          "hex8": "#ffec3cff",
+          "hsl": "hsl(54, 100%, 62%)",
+          "rgb": "rgb(255, 236, 60)",
+        },
+      },
+      "yellowText": Object {
+        "attributes": Object {
+          "category": "color",
+          "hex": "907000",
+          "hsl": Object {
+            "a": 1,
+            "h": 46.666666666666664,
+            "l": 0.2823529411764706,
+            "s": 1,
+          },
+          "hsv": Object {
+            "a": 1,
+            "h": 46.666666666666664,
+            "s": 1,
+            "v": 0.5647058823529412,
+          },
+          "item": "yellowText",
+          "rgb": Object {
+            "a": 1,
+            "b": 0,
+            "g": 112,
+            "r": 144,
+          },
+          "type": "primary",
+        },
+        "name": "yellowText",
+        "original": Object {
+          "value": Object {
+            "a": 1,
+            "b": 0,
+            "g": 112,
+            "r": 144,
+          },
+        },
+        "path": Array [
+          "color",
+          "primary",
+          "yellowText",
+        ],
+        "value": Object {
+          "hex": "#907000",
+          "hex8": "#907000ff",
+          "hsl": "hsl(47, 100%, 28%)",
+          "rgb": "rgb(144, 112, 0)",
         },
       },
     },
@@ -2675,65 +3335,93 @@ $dc-angles: 30 45 60 90 180 270 360;
 $dc-z-indexes: 10 20 30 40 50 60 70 80 90 100 999;
 
 /** Color */
-$dc-green: #36d57d;
-$dc-green-light: #a5ecc5;
-$dc-geyser: #cfdce1;
-$dc-grey: #4d5356;
-$dc-grey-dark: #3d4251;
-$dc-grey-light: #d1d3d8;
-$dc-grey-lighter: #e6eaeb;
-$dc-grey-oslo: #859094;
-$dc-orange: #ff9400;
-$dc-orange-dark: #ad662c;
-$dc-porcelain: #f0f4f5;
-$dc-primary: #33aacc;
-$dc-primary-dark: #263e63;
-$dc-primary-darker: #14243e;
-$dc-primary-darkest: #0c1626;
-$dc-primary-light: #7ecce2;
-$dc-primary-lighter: #d5eaef;
-$dc-primary-lightest: #ebf4f7;
-$dc-purple: #8468c4;
-$dc-purple-dark: #5d488c;
-$dc-purple-light: #a786f3;
-$dc-raven: #737a80;
-$dc-red: #fe5c5c;
-$dc-red-light: #ffb5b5;
-$dc-secondary: #ffc844;
-$dc-secondary-light: #fbe28d;
+$dc-blue: #06bdfc;
+$dc-blue-dark: #009bd8;
+$dc-blue-light: #60e7ff;
+$dc-blue-text: #007bb6;
+$dc-green: #03ef62;
+$dc-green-dark: #00c53b;
+$dc-green-light: #65ff8f;
+$dc-green-text: #008700;
+$dc-navy: #05192d;
+$dc-navy-dark: #000820;
+$dc-navy-light: #213147;
+$dc-navy-text: #05192d;
+$dc-orange: #ff931e;
+$dc-orange-dark: #d87300;
+$dc-orange-light: #ffbc4b;
+$dc-orange-text: #b75900;
+$dc-pink: #ff6ea9;
+$dc-pink-dark: #dc4d8b;
+$dc-pink-light: #ff95cf;
+$dc-pink-text: #bf3072;
+$dc-purple: #7933ff;
+$dc-purple-dark: #5646a5;
+$dc-purple-light: #974dff;
+$dc-purple-text: #5646a5;
+$dc-red: #ff5400;
+$dc-red-dark: #dd3400;
+$dc-red-light: #ff782d;
+$dc-red-text: #c01100;
+$dc-yellow: #fcce0d;
+$dc-yellow-dark: #cfa600;
+$dc-yellow-light: #ffec3c;
+$dc-yellow-text: #907000;
 $dc-white: #ffffff;
+$dc-beige-100: #fffbf3;
+$dc-beige-200: #f7f3eb;
+$dc-beige-300: #efebe4;
+$dc-beige-400: #e5e1da;
+$dc-grey-100: #f7f7fc;
+$dc-grey-200: #efefef;
+$dc-grey-300: #e8e8ea;
+$dc-grey-400: #d9d9e2;
 
 // Color map
 $dc-colors: (
   'currentColor': currentColor,
   'transparent': transparent,
+  'blue': $dc-blue,
+  'blue-dark': $dc-blue-dark,
+  'blue-light': $dc-blue-light,
+  'blue-text': $dc-blue-text,
   'green': $dc-green,
+  'green-dark': $dc-green-dark,
   'green-light': $dc-green-light,
-  'geyser': $dc-geyser,
-  'grey': $dc-grey,
-  'grey-dark': $dc-grey-dark,
-  'grey-light': $dc-grey-light,
-  'grey-lighter': $dc-grey-lighter,
-  'grey-oslo': $dc-grey-oslo,
+  'green-text': $dc-green-text,
+  'navy': $dc-navy,
+  'navy-dark': $dc-navy-dark,
+  'navy-light': $dc-navy-light,
+  'navy-text': $dc-navy-text,
   'orange': $dc-orange,
   'orange-dark': $dc-orange-dark,
-  'porcelain': $dc-porcelain,
-  'primary': $dc-primary,
-  'primary-dark': $dc-primary-dark,
-  'primary-darker': $dc-primary-darker,
-  'primary-darkest': $dc-primary-darkest,
-  'primary-light': $dc-primary-light,
-  'primary-lighter': $dc-primary-lighter,
-  'primary-lightest': $dc-primary-lightest,
+  'orange-light': $dc-orange-light,
+  'orange-text': $dc-orange-text,
+  'pink': $dc-pink,
+  'pink-dark': $dc-pink-dark,
+  'pink-light': $dc-pink-light,
+  'pink-text': $dc-pink-text,
   'purple': $dc-purple,
   'purple-dark': $dc-purple-dark,
   'purple-light': $dc-purple-light,
-  'raven': $dc-raven,
+  'purple-text': $dc-purple-text,
   'red': $dc-red,
+  'red-dark': $dc-red-dark,
   'red-light': $dc-red-light,
-  'secondary': $dc-secondary,
-  'secondary-light': $dc-secondary-light,
+  'red-text': $dc-red-text,
+  'yellow': $dc-yellow,
+  'yellow-dark': $dc-yellow-dark,
+  'yellow-light': $dc-yellow-light,
+  'yellow-text': $dc-yellow-text,
   'white': $dc-white,
+  'beige-100': $dc-beige-100,
+  'beige-200': $dc-beige-200,
+  'beige-300': $dc-beige-300,
+  'beige-400': $dc-beige-400,
+  'grey-100': $dc-grey-100,
+  'grey-200': $dc-grey-200,
+  'grey-300': $dc-grey-300,
+  'grey-400': $dc-grey-400,
 );
 
 /** Typography */

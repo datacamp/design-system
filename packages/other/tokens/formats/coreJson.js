@@ -20,7 +20,10 @@ module.exports = dictionary => {
         },
       ),
     },
-    colors: extractColors(dictionary.properties.color.opaque),
+    colors: extractColors({
+      ...dictionary.properties.color.primary,
+      ...dictionary.properties.color.neutral,
+    }),
     fontFamily: _.mapValues(
       extractValues(dictionary.properties.asset.font),
       fontFamily => `'${fontFamily}'`,
