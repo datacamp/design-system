@@ -26,7 +26,7 @@ export interface CodeBlockProps {
 }
 
 const preStyle = css({
-  backgroundColor: tokens.color.opaque.primaryLightest.value.rgb,
+  backgroundColor: tokens.color.neutral.beige100.value.rgb,
   border: 0,
   borderRadius: tokens.radii.small.value,
   boxShadow: tokens.shadow.border.value,

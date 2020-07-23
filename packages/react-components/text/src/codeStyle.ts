@@ -4,7 +4,7 @@ import { css } from '@emotion/core';
 export default css({
   border: 0,
   borderRadius: tokens.radii.small.value,
-  color: tokens.color.opaque.greyDark.value.rgb,
+  color: tokens.color.primary.navyText.value.rgb,
   fontFamily: [
     tokens.asset.font.mono.attributes.fallback,
     tokens.asset.font.mono.value,

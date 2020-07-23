@@ -56,9 +56,9 @@ describe('Badge', () => {
   });
 
   describe('textColor', () => {
-    it('sets the text color to white on a primary background', async () => {
+    it('sets the text color to white on a navy background', async () => {
       const { getByText } = await axeRender(
-        <Badge color={tokens.color.opaque.primary.value.hex}>
+        <Badge color={tokens.color.primary.navy.value.hex}>
           {testContent}
         </Badge>,
       );
@@ -68,7 +68,7 @@ describe('Badge', () => {
 
     it('sets the text color to dark transparent grey on a light background', async () => {
       const { getByText } = await axeRender(
-        <Badge color={tokens.color.opaque.greyLighter.value.hex}>
+        <Badge color={tokens.color.neutral.beige100.value.hex}>
           {testContent}
         </Badge>,
       );

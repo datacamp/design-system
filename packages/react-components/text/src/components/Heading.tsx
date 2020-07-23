@@ -46,7 +46,7 @@ export interface HeadingProps {
 }
 
 const baseHeaderStyle = css({
-  color: tokens.color.opaque.greyDark.value.rgb,
+  color: tokens.color.primary.navyText.value.rgb,
   fontWeight: tokens.fontWeight.bold.value,
   margin: 0,
 });

@@ -27,7 +27,7 @@ interface LinkProps {
 }
 
 const linkStyle = css(baseStyle, {
-  color: tokens.color.opaque.primary.value.hex,
+  color: tokens.color.primary.blueText.value.hex,
   cursor: 'pointer',
   fontSize: tokens.size.font[300].value,
   fontWeight: tokens.fontWeight.regular.value,
