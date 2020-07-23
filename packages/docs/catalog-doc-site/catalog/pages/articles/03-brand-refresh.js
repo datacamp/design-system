@@ -53,6 +53,13 @@ export default () => {
                     gradients, please use solid colours for backgrounds going
                     forwards.
                   </li>
+                  <li>
+                    Transparent colours have been removed. When using the
+                    default export, <code>whiteTransparent</code> and{' '}
+                    <code>blackTransparent</code> properties have been removed.
+                    When using <code>future-tokens</code>, the whole{' '}
+                    <code>color.transparent</code> section has been removed.
+                  </li>
                 </ul>
               </li>
               <li>
@@ -65,6 +72,39 @@ export default () => {
                     <code>.dc-u-bgg-*</code> no longer exist. Make sure to
                     search your codebase for references to these and replace
                     with solid colours.
+                  </li>
+                  <li>
+                    Transparent colours have been removed. This means that the
+                    variables <code>$dc-white-transparent</code>,{' '}
+                    <code>$dc-black-transparent</code>, and{' '}
+                    <code>$white-transparent</code> are no longer available.
+                    Also the following utility classes have been removed:
+                    <ul>
+                      <li>
+                        <code>.dc-u-bgc-black-transparent</code>
+                      </li>
+                      <li>
+                        <code>.dc-u-bgc-white-transparent</code>
+                      </li>
+                      <li>
+                        <code>.dc-u-bc-black-transparent</code>
+                      </li>
+                      <li>
+                        <code>.dc-u-bc-white-transparent</code>
+                      </li>
+                      <li>
+                        <code>.dc-u-color-black-transparent</code>
+                      </li>
+                      <li>
+                        <code>.dc-u-color-white-transparent</code>
+                      </li>
+                      <li>
+                        <code>.dc-u-fill-black-transparent</code>
+                      </li>
+                      <li>
+                        <code>.dc-u-fill-white-transparent</code>
+                      </li>
+                    </ul>
                   </li>
                 </ul>
               </li>
