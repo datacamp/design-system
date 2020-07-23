@@ -141,10 +141,10 @@ describe('<Button />', () => {
       );
 
       expect(container.firstChild).toHaveStyle(
-        `background-color: ${tokens.color.opaque.primary.value.hex};`,
+        `background-color: ${tokens.color.primary.navy.value.hex};`,
       );
       expect(container.firstChild).toHaveStyle(
-        `border-color: ${tokens.color.opaque.primary.value.hex};`,
+        `border-color: ${tokens.color.primary.navy.value.hex};`,
       );
     });
 
@@ -156,10 +156,10 @@ describe('<Button />', () => {
       );
 
       expect(container.firstChild).toHaveStyle(
-        `background-color: ${tokens.color.opaque.red.value.hex};`,
+        `background-color: ${tokens.color.primary.red.value.hex};`,
       );
       expect(container.firstChild).toHaveStyle(
-        `border-color: ${tokens.color.opaque.red.value.hex};`,
+        `border-color: ${tokens.color.primary.red.value.hex};`,
       );
     });
 
@@ -171,14 +171,14 @@ describe('<Button />', () => {
       );
 
       expect(container.firstChild).toHaveStyle(
-        `background-color: ${tokens.color.opaque.orange.value.hex};`,
+        `background-color: ${tokens.color.primary.orange.value.hex};`,
       );
       expect(container.firstChild).toHaveStyle(
-        `border-color: ${tokens.color.opaque.orange.value.hex};`,
+        `border-color: ${tokens.color.primary.orange.value.hex};`,
       );
     });
 
-    it('renders a yellow button for the appearance="primary" and intent="cta', async () => {
+    it('renders a green button for the appearance="primary" and intent="cta', async () => {
       const { container } = await axeRender(
         <Button appearance="primary" intent="cta" onClick={someFunction}>
           btn
@@ -186,10 +186,10 @@ describe('<Button />', () => {
       );
 
       expect(container.firstChild).toHaveStyle(
-        `background-color: ${tokens.color.opaque.secondary.value.hex};`,
+        `background-color: ${tokens.color.primary.green.value.hex};`,
       );
       expect(container.firstChild).toHaveStyle(
-        `border-color: ${tokens.color.opaque.secondary.value.hex};`,
+        `border-color: ${tokens.color.primary.green.value.hex};`,
       );
     });
 
@@ -201,7 +201,7 @@ describe('<Button />', () => {
       );
 
       expect(container.firstChild).toHaveStyle(
-        `background-color: ${tokens.color.opaque.green.value.rgb}`,
+        `background-color: ${tokens.color.primary.green.value.rgb}`,
       );
     });
   });
@@ -217,7 +217,7 @@ describe('<Button />', () => {
       const buttonElement = container.firstChild;
 
       expect(buttonElement).toHaveStyle(
-        `border-color: ${tokens.color.opaque.primary.value.hex}`,
+        `border-color: ${tokens.color.primary.navy.value.hex}`,
       );
       expect(buttonElement).toHaveStyle(`background-color: transparent`);
     });
@@ -232,7 +232,7 @@ describe('<Button />', () => {
       const buttonElement = container.firstChild;
 
       expect(buttonElement).toHaveStyle(
-        `border-color: ${tokens.color.opaque.red.value.hex}`,
+        `border-color: ${tokens.color.primary.red.value.hex}`,
       );
       expect(buttonElement).toHaveStyle(`background-color: transparent`);
     });
@@ -247,7 +247,7 @@ describe('<Button />', () => {
       const buttonElement = container.firstChild;
 
       expect(buttonElement).toHaveStyle(
-        `border-color: ${tokens.color.opaque.orange.value.hex}`,
+        `border-color: ${tokens.color.primary.orange.value.hex}`,
       );
       expect(buttonElement).toHaveStyle(`background-color: transparent`);
     });
@@ -262,7 +262,7 @@ describe('<Button />', () => {
       const buttonElement = container.firstChild;
 
       expect(buttonElement).toHaveStyle(
-        `border-color: ${tokens.color.opaque.green.value.hex}`,
+        `border-color: ${tokens.color.primary.green.value.hex}`,
       );
       expect(buttonElement).toHaveStyle(`background-color: transparent`);
     });
@@ -380,10 +380,10 @@ describe('<Button />', () => {
       );
 
       expect(container.firstChild).toHaveStyle(
-        `background-color: ${tokens.color.opaque.primary.value.hex}`,
+        `background-color: ${tokens.color.primary.navy.value.hex}`,
       );
       expect(container.firstChild).toHaveStyle(
-        `border-color: ${tokens.color.opaque.primary.value.hex}`,
+        `border-color: ${tokens.color.primary.navy.value.hex}`,
       );
     });
 
@@ -400,10 +400,10 @@ describe('<Button />', () => {
       );
 
       expect(container.firstChild).toHaveStyle(
-        `background-color: ${tokens.color.opaque.red.value.hex}`,
+        `background-color: ${tokens.color.primary.red.value.hex}`,
       );
       expect(container.firstChild).toHaveStyle(
-        `border-color: ${tokens.color.opaque.red.value.hex}`,
+        `border-color: ${tokens.color.primary.red.value.hex}`,
       );
     });
 
@@ -420,10 +420,10 @@ describe('<Button />', () => {
       );
 
       expect(container.firstChild).toHaveStyle(
-        `background-color: ${tokens.color.opaque.orange.value.hex}`,
+        `background-color: ${tokens.color.primary.orange.value.hex}`,
       );
       expect(container.firstChild).toHaveStyle(
-        `border-color: ${tokens.color.opaque.orange.value.hex}`,
+        `border-color: ${tokens.color.primary.orange.value.hex}`,
       );
     });
 
@@ -440,10 +440,10 @@ describe('<Button />', () => {
       );
 
       expect(container.firstChild).toHaveStyle(
-        `background-color: ${tokens.color.opaque.green.value.hex}`,
+        `background-color: ${tokens.color.primary.green.value.hex}`,
       );
       expect(container.firstChild).toHaveStyle(
-        `border-color: ${tokens.color.opaque.green.value.hex}`,
+        `border-color: ${tokens.color.primary.green.value.hex}`,
       );
     });
 
@@ -462,7 +462,7 @@ describe('<Button />', () => {
       const buttonElement = container.firstChild;
 
       expect(buttonElement).toHaveStyle(
-        `border-color: ${tokens.color.opaque.primary.value.hex}`,
+        `border-color: ${tokens.color.primary.navy.value.hex}`,
       );
       expect(buttonElement).toHaveStyle(`background-color: transparent`);
     });
@@ -482,7 +482,7 @@ describe('<Button />', () => {
       const buttonElement = container.firstChild;
 
       expect(buttonElement).toHaveStyle(
-        `border-color: ${tokens.color.opaque.red.value.hex}`,
+        `border-color: ${tokens.color.primary.red.value.hex}`,
       );
       expect(buttonElement).toHaveStyle(`background-color: transparent`);
     });
@@ -502,7 +502,7 @@ describe('<Button />', () => {
       const buttonElement = container.firstChild;
 
       expect(buttonElement).toHaveStyle(
-        `border-color: ${tokens.color.opaque.orange.value.hex}`,
+        `border-color: ${tokens.color.primary.orange.value.hex}`,
       );
       expect(buttonElement).toHaveStyle(`background-color: transparent`);
     });
@@ -522,7 +522,7 @@ describe('<Button />', () => {
       const buttonElement = container.firstChild;
 
       expect(buttonElement).toHaveStyle(
-        `border-color: ${tokens.color.opaque.green.value.hex}`,
+        `border-color: ${tokens.color.primary.green.value.hex}`,
       );
       expect(buttonElement).toHaveStyle(`background-color: transparent`);
     });

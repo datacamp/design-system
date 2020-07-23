@@ -167,7 +167,7 @@ const InternalButton = (
 
   const uidSeed = useUIDSeed();
   const tooltipId = uidSeed('button-tooltip');
-  const outlineTextColor = tokens.color.opaque.greyDark.value.hex;
+  const outlineTextColor = tokens.color.primary.navyText.value.hex;
   const ctaTextColor = intent === 'cta' ? outlineTextColor : 'white';
   const outlineIconColor = disabled ? baseColors[intent] : 'currentColor';
   const textColor = appearance === 'primary' ? ctaTextColor : outlineTextColor;

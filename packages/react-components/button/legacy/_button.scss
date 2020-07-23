@@ -200,28 +200,22 @@ $_buttons-google-plus-hover: #e57062;
   }
 }
 
-// ----- Primary ----- //
-
-.dc-btn--primary {
-  @include btn-variant($background: $dc-primary-darker, $color: $dc-white, $hover: $dc-primary-dark);
-}
-
 // ----- Primary Light ----- //
 
 .dc-btn--primary-light {
-  @include btn-variant($background: $dc-primary, $color: $dc-white, $hover: $dc-primary-light);
+  @include btn-variant($background: $dc-green, $color: $dc-navy-text, $hover: $dc-green-dark);
 }
 
 // ----- Secondary ----- //
 
 .dc-btn--secondary {
-  @include btn-variant($background: $dc-secondary, $color: $dc-grey-dark, $hover: $dc-secondary-light);
+  @include btn-variant($background: $dc-yellow, $color: $dc-navy-text, $hover: $dc-yellow-dark);
 }
 
 // ----- Tertiary ----- //
 
 .dc-btn--tertiary {
-  @include btn-variant($background: transparent, $border-color: $dc-primary-light, $border-color-hover: $dc-secondary, $color: $dc-grey-dark);
+  @include btn-variant($background: transparent, $border-color: $dc-green, $border-color-hover: $dc-green-dark, $color: $dc-navy-text);
 }
 
 // TODO: Refactor into own button instead of having a dependence on `dc-btn--tertiary`. DON'T move above `tertiary`.
@@ -242,19 +236,19 @@ $_buttons-google-plus-hover: #e57062;
 // ----- Grey ----- //
 
 .dc-btn--grey {
-  @include btn-variant($background: $dc-grey-light, $color: $dc-grey-dark, $hover: $dc-grey-lighter);
+  @include btn-variant($background: $dc-grey-200, $color: $dc-navy-dark, $hover: $dc-grey-300);
 }
 
 // ----- Red ----- //
 
 .dc-btn--red {
-  @include btn-variant($background: $dc-red, $color: $dc-white, $hover: $dc-red-light);
+  @include btn-variant($background: $dc-red, $color: $dc-navy-text, $hover: $dc-red-dark);
 }
 
 // ----- Purple ----- //
 
 .dc-btn--purple {
-  @include btn-variant($background: $dc-purple, $color: $dc-white, $hover: $dc-purple-light);
+  @include btn-variant($background: $dc-purple, $color: $dc-navy-text, $hover: $dc-purple-dark);
 }
 
 // ----- Social ----- //
@@ -297,7 +291,7 @@ $_buttons-google-plus-hover: #e57062;
 // ----- White ----- //
 
 .dc-btn--white {
-  @include btn-variant($background: $dc-white, $color: $dc-grey-dark, $color-hover: $dc-primary);
+  @include btn-variant($background: $dc-white, $color: $dc-navy-text, $color-hover: $dc-green-text);
   transition: all $dc-transition;
 
   @include afh {
@@ -306,7 +300,7 @@ $_buttons-google-plus-hover: #e57062;
 
   &:active,
   &:focus {
-    border: 1px solid $dc-primary;
+    border: 1px solid $dc-green-text;
   }
 
   .dc-icon {
@@ -351,13 +345,13 @@ $_buttons-google-plus-hover: #e57062;
 // ----- Bordered Variants ----- //
 
 .dc-btn--bordered {
-  @include btn-variant($background: transparent, $border-color: $dc-grey-lighter, $color: $dc-grey-dark, $border-color-hover: $dc-primary);
+  @include btn-variant($background: transparent, $border-color: $dc-grey-100, $color: $dc-navy-text, $border-color-hover: $dc-green);
 }
 
 // Bordered White
 
 .dc-btn--bordered-white {
-  @include btn-variant($background: transparent, $border-color: $dc-grey-lighter, $color: $dc-white);
+  @include btn-variant($background: transparent, $border-color: $dc-grey-100, $color: $dc-white);
 
   @include state {
     background-color: rgba($color: $dc-white, $alpha: 0.2);
@@ -367,25 +361,25 @@ $_buttons-google-plus-hover: #e57062;
 // Bordered Red
 
 .dc-btn--bordered-red {
-  @include btn-variant($background: transparent, $border-color: $dc-red, $color: $dc-grey-dark);
+  @include btn-variant($background: transparent, $border-color: $dc-red, $color: $dc-navy-text);
 }
 
 // Bordered Green
 
 .dc-btn--bordered-green {
-  @include btn-variant($background: transparent, $border-color: $dc-green, $color: $dc-grey-dark);
+  @include btn-variant($background: transparent, $border-color: $dc-green, $color: $dc-navy-text);
 }
 
 // Bordered Grey Light
 
 .dc-btn--bordered-grey-light {
-  @include btn-variant($background: transparent, $border-color: $dc-grey-light, $border-color-hover: $dc-primary, $color: $dc-grey-dark);
+  @include btn-variant($background: transparent, $border-color: $dc-grey-100, $border-color-hover: $dc-green, $color: $dc-navy-text);
 }
 
 // Bordered Facebook
 
 .dc-btn--bordered-facebook {
-  @include btn-variant($background: transparent, $border-color: $dc-grey-light, $border-color-hover: $dc-grey-light, $color: $dc-grey-dark, $color-hover: $dc-white, $hover: $_buttons-facebook);
+  @include btn-variant($background: transparent, $border-color: $dc-grey-100, $border-color-hover: $dc-grey-200, $color: $dc-navy-text, $color-hover: $dc-white, $hover: $_buttons-facebook);
 
   @include state {
     .dc-icon--facebook-square {
@@ -401,7 +395,7 @@ $_buttons-google-plus-hover: #e57062;
 // Bordered Google Plus
 
 .dc-btn--bordered-google-plus {
-  @include btn-variant($background: transparent, $border-color: $dc-grey-light, $border-color-hover: $dc-grey-light, $color: $dc-grey-dark, $color-hover: $dc-white, $hover: $_buttons-google-plus);
+  @include btn-variant($background: transparent, $border-color: $dc-grey-100, $border-color-hover: $dc-grey-200, $color: $dc-navy-text, $color-hover: $dc-white, $hover: $_buttons-google-plus);
 
   @include state {
     .dc-icon--google-plus-square {
@@ -417,7 +411,7 @@ $_buttons-google-plus-hover: #e57062;
 // Bordered Linkedin
 
 .dc-btn--bordered-linkedin {
-  @include btn-variant($background: transparent, $border-color: $dc-grey-light, $border-color-hover: $dc-grey-light, $color: $dc-grey-dark, $color-hover: $dc-white, $hover: $_buttons-linkedin);
+  @include btn-variant($background: transparent, $border-color: $dc-grey-200, $border-color-hover: $dc-grey-200, $color: $dc-navy-text, $color-hover: $dc-white, $hover: $_buttons-linkedin);
 
   @include state {
     .dc-icon--linkedin-square {
@@ -435,11 +429,11 @@ $_buttons-google-plus-hover: #e57062;
 .dc-btn--inline {
   background-color: transparent;
   border: 0;
-  color: $dc-grey-dark;
+  color: $dc-grey-300;
   padding: 0;
 
   @include afh {
-    color: $dc-primary;
+    color: $dc-green;
   }
 }
 
@@ -493,17 +487,17 @@ $_buttons-google-plus-hover: #e57062;
 .dc-multi-btn--secondary {
   .dc-multi-btn__item:first-child,
   .dc-multi-btn__item:last-child {
-    background-color: $dc-secondary;
-    border-color: $dc-secondary;
+    background-color: $dc-yellow;
+    border-color: $dc-yellow;
 
     @include state {
-      background-color: $dc-secondary-light;
-      border-color: $dc-secondary-light;
+      background-color: $dc-yellow-light;
+      border-color: $dc-yellow-light;
     }
   }
 
   .dc-multi-btn__text {
-    color: $dc-grey-dark;
+    color: $dc-navy-text;
   }
 
   .dc-multi-btn__item:last-child {
@@ -550,7 +544,7 @@ $_buttons-google-plus-hover: #e57062;
 .dc-multi-btn--timer {
   .dc-multi-btn__item:first-child {
     background-color: $dc-white;
-    border-color: $dc-grey-lighter;
+    border-color: $dc-grey-100;
 
     @include state {
       background-color: $dc-white;
@@ -558,12 +552,12 @@ $_buttons-google-plus-hover: #e57062;
   }
 
   .dc-multi-btn__item:last-child {
-    background-color: $dc-secondary;
-    border-color: $dc-secondary;
+    background-color: $dc-yellow;
+    border-color: $dc-yellow;
 
     @include state {
-      background-color: $dc-secondary;
-      border-color: $dc-secondary;
+      background-color: $dc-yellow-light;
+      border-color: $dc-yellow-light;
     }
   }
 
@@ -571,7 +565,7 @@ $_buttons-google-plus-hover: #e57062;
   * 1. Hack to override browser default width
   */
   .dc-multi-btn__text {
-    color: $dc-grey-dark;
+    color: $dc-grey-300;
     flex-grow: 1;
     font-weight: 400;
     padding-left: 8px;
@@ -592,10 +586,10 @@ $_buttons-google-plus-hover: #e57062;
   }
 
   .dc-multi-btn__item:last-child {
-    border-left-color: $dc-grey-lighter;
+    border-left-color: $dc-grey-100;
 
     @include state {
-      border-left-color: $dc-grey-lighter;
+      border-left-color: $dc-grey-100;
     }
   }
 
@@ -604,7 +598,7 @@ $_buttons-google-plus-hover: #e57062;
   * 2: TODO: Review for duplication if there's a third, could be __input
   */
   .dc-multi-btn__text {
-    color: $dc-grey-dark;
+    color: $dc-grey-300;
     flex-grow: 1;
     font-weight: 400;
     padding-left: 8px;

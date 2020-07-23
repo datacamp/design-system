@@ -35,17 +35,17 @@ const marginMap = {
 
 const cardStyles = {
   dark: css({
-    backgroundColor: tokens.color.opaque.primaryDarkest.value.hex,
+    backgroundColor: tokens.color.primary.navy.value.hex,
     boxShadow: 'none', // override default card border
   }),
   light: css({
-    backgroundColor: tokens.color.opaque.white.value.hex,
+    backgroundColor: tokens.color.neutral.beige100.value.hex,
   }),
 };
 
 const textStyles = {
-  dark: css({ color: tokens.color.opaque.white.value.hex }),
-  light: css({ color: tokens.color.opaque.grey.value.hex }),
+  dark: css({ color: tokens.color.primary.white.value.hex }),
+  light: css({ color: tokens.color.primary.navyText.value.hex }),
 };
 
 const elevations = { dark: 0, light: 2 } as const;
