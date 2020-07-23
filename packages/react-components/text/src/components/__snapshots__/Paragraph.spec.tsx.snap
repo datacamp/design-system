@@ -3,7 +3,7 @@
 exports[`<Paragraph /> renders with Strong, Small, Text, Link and Emphasis children 1`] = `
 .emotion-5 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(77,83,86);
+  color: rgb(5,25,45);
   font-family: sans-serif;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
@@ -19,7 +19,7 @@ exports[`<Paragraph /> renders with Strong, Small, Text, Link and Emphasis child
 
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(77,83,86);
+  color: rgb(5,25,45);
   font-family: sans-serif;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
@@ -29,7 +29,7 @@ exports[`<Paragraph /> renders with Strong, Small, Text, Link and Emphasis child
 
 .emotion-1 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(77,83,86);
+  color: rgb(5,25,45);
   font-family: sans-serif;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
@@ -40,7 +40,7 @@ exports[`<Paragraph /> renders with Strong, Small, Text, Link and Emphasis child
 
 .emotion-2 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(77,83,86);
+  color: rgb(5,25,45);
   font-family: sans-serif;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
@@ -50,7 +50,7 @@ exports[`<Paragraph /> renders with Strong, Small, Text, Link and Emphasis child
 
 .emotion-3 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(77,83,86);
+  color: rgb(5,25,45);
   font-family: sans-serif;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
@@ -61,11 +61,11 @@ exports[`<Paragraph /> renders with Strong, Small, Text, Link and Emphasis child
 
 .emotion-4 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(77,83,86);
+  color: rgb(5,25,45);
   font-family: sans-serif;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
-  color: #33aacc;
+  color: #007bb6;
   cursor: pointer;
   font-size: 16px;
   font-weight: 400;
@@ -120,7 +120,7 @@ exports[`<Paragraph /> renders with Strong, Small, Text, Link and Emphasis child
 exports[`<Paragraph /> renders with a string 1`] = `
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(77,83,86);
+  color: rgb(5,25,45);
   font-family: sans-serif;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;

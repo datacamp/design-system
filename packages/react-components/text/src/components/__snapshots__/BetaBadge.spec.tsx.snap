@@ -3,7 +3,7 @@
 exports[`BetaBadge renders with the provided className 1`] = `
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(77,83,86);
+  color: rgb(5,25,45);
   font-family: sans-serif;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
@@ -12,13 +12,12 @@ exports[`BetaBadge renders with the provided className 1`] = `
   border-radius: 4px;
   display: inline-block;
   text-transform: uppercase;
+  background-color: #7933ff;
   color: white;
   font-size: 16px;
   line-height: 24px;
   padding-left: 8px;
   padding-right: 8px;
-  background: #8468c4;
-  color: white;
 }
 
 <strong

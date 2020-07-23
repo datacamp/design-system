@@ -2,7 +2,7 @@
 
 exports[`<CodeBlock /> snapshots renders 1`] = `
 .emotion-1 {
-  background-color: rgb(235,244,247);
+  background-color: rgb(255,251,243);
   border: 0;
   border-radius: 4px;
   box-shadow: 0 0 0 1px #e6eaeb;
@@ -22,7 +22,7 @@ exports[`<CodeBlock /> snapshots renders 1`] = `
 .emotion-0 {
   border: 0;
   border-radius: 4px;
-  color: rgb(61,66,81);
+  color: rgb(5,25,45);
   font-family: monospace;
   font-family: JetBrainsMonoNL;
   font-size: 14px;

@@ -23,7 +23,7 @@ export interface CodeProps {
 }
 
 const style = css(codeStyle, {
-  backgroundColor: tokens.color.opaque.primaryLightest.value.rgb,
+  backgroundColor: tokens.color.neutral.beige100.value.rgb,
   boxShadow: tokens.shadow.border.value,
   marginLeft: tokens.size.space[2].value,
   marginRight: tokens.size.space[4].value,

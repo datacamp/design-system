@@ -11,14 +11,12 @@ interface BetaBadgeProps {
   className?: string;
 }
 
-const betaBadgeStyle = css({
-  background: tokens.color.opaque.purple.value.hex,
-  color: 'white',
-});
-
 const BetaBadge = ({ className }: BetaBadgeProps): React.ReactElement => (
-  // color is overriden by betaBadgeStyle
-  <Badge className={className} color="" css={betaBadgeStyle} size="large">
+  <Badge
+    className={className}
+    color={tokens.color.primary.purple.value.hex}
+    size="large"
+  >
     Beta
   </Badge>
 );
