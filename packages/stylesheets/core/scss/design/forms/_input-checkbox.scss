@@ -23,7 +23,7 @@
 .dc-input-checkbox__indicator {
   align-items: center;
   background-color: $dc-white;
-  border: 1px solid $dc-grey-light;
+  border: 1px solid $dc-grey-200;
   border-radius: $dc-border-radius;
   display: flex;
   flex-shrink: 0;
@@ -41,30 +41,30 @@
   // disabled
   .dc-input-checkbox__input:disabled ~ & {
     background: $dc-white;
-    border-color: $dc-grey-lighter;
+    border-color: $dc-grey-100;
     cursor: not-allowed;
   }
 
   // checked
   .dc-input-checkbox__input:checked ~ & {
-    border-color: $dc-primary;
+    border-color: $dc-green;
   }
 
   // focus
   .dc-input-checkbox__input:focus ~ & {
-    border-color: $dc-primary;
-    box-shadow: 0 0 0 1px $dc-primary;
+    border-color: $dc-green;
+    box-shadow: 0 0 0 1px $dc-green;
   }
 
   // disabled and checked
   .dc-input-checkbox__input:disabled:checked ~ & {
-    border-color: $dc-grey-lighter;
+    border-color: $dc-grey-100;
   }
 
   // focus and checked
   .dc-input-checkbox__input:focus:checked ~ & {
-    border-color: $dc-primary;
-    box-shadow: 0 0 0 1px $dc-primary;
+    border-color: $dc-green;
+    box-shadow: 0 0 0 1px $dc-green;
   }
 
   // has error + checked
@@ -88,7 +88,7 @@
 /** text */
 
 .dc-input-checkbox__text {
-  color: $dc-grey;
+  color: $dc-navy-text;
   flex-grow: 1;
   font-weight: $dc-font-weight-regular;
   line-height: $dc-line-height-base;
@@ -99,18 +99,18 @@
 
   // disabled
   .dc-input-checkbox__input:disabled ~ & {
-    color: $dc-grey-oslo;
+    color: $dc-grey-100;
     cursor: not-allowed;
   }
 
   // checked
   .dc-input-checkbox__input:checked ~ & {
-    color: $dc-grey-dark;
+    color: $dc-navy-text;
   }
 
   // disabled and checked
   .dc-input-checkbox__input:disabled:checked ~ & {
-    color: $dc-grey-oslo;
+    color: $dc-grey-100;
   }
 }
 
@@ -125,13 +125,13 @@
 
   // checked
   .dc-input-checkbox__input:checked ~ .dc-input-checkbox__indicator & {
-    fill: $dc-primary;
+    fill: $dc-green;
     opacity: 1;
   }
 
   // disabled and checked
   .dc-input-checkbox__input:disabled:checked ~ .dc-input-checkbox__indicator & {
-    fill: $dc-grey-light;
+    fill: $dc-grey-200;
     opacity: 1;
   }
 

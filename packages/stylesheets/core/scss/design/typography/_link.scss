@@ -14,56 +14,14 @@
 a,
 .dc-link {
   border-bottom: 1px solid transparent;
-  color: $dc-primary;
+  color: $dc-blue-text;
   font-weight: $dc-font-weight-bold;
   text-decoration: none;
   transition: border-color $dc-transition;
 
   &:hover {
-    border-bottom-color: $dc-primary;
-    color: $dc-primary;
+    border-bottom-color: $dc-blue-text;
+    color: $dc-blue-text;
     text-decoration: none;
-  }
-}
-
-// -------------------------------------
-//   Modifiers
-// -------------------------------------
-
-.dc-link--grey {
-  border: 0;
-  color: $dc-grey;
-
-  @include state {
-    border: 0;
-    color: $dc-grey-dark;
-  }
-}
-
-.dc-link--grey-dark {
-  border: 0;
-  color: $dc-grey-dark;
-
-  @include state {
-    border: 0;
-  }
-}
-
-.dc-link--grey-oslo {
-  border: 0;
-  color: $dc-grey-oslo;
-
-  @include state {
-    border: 0;
-  }
-}
-
-.dc-link--secondary {
-  border-color: transparent;
-  color: $dc-secondary;
-
-  @include state {
-    border-color: $dc-secondary;
-    color: $dc-secondary;
   }
 }

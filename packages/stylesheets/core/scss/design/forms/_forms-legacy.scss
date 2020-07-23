@@ -17,7 +17,7 @@
 
 .dc-label {
   align-items: center;
-  color: $dc-grey-dark;
+  color: $dc-navy-text;
   display: flex;
   font-size: $dc-font-size-base;
   font-weight: $dc-font-weight-bold;
@@ -26,7 +26,7 @@
 }
 
 .dc-label__number {
-  background-color: $dc-primary;
+  background-color: $dc-green;
   border-radius: 50%;
   color: $dc-white;
   display: inline-block;
@@ -42,10 +42,10 @@
 
 .dc-input--text,
 .dc-textarea {
-  background-color: $dc-primary-lightest;
-  border: 1px solid $dc-primary-lightest;
+  background-color: $dc-beige-100;
+  border: 1px solid $dc-beige-100;
   border-radius: $dc-border-radius;
-  color: $dc-grey-dark;
+  color: $dc-navy-text;
   font-size: $dc-font-size-base;
   line-height: $dc-line-height-base;
   padding: 11px 15px; // +1px border
@@ -53,7 +53,7 @@
   width: 100%;
 
   &::placeholder {
-    color: $dc-primary;
+    color: $dc-green-text;
     transition: color $dc-duration;
   }
 
@@ -63,7 +63,7 @@
 
   &:focus,
   &.focus {
-    border-color: $dc-primary;
+    border-color: $dc-green;
     outline: none;
   }
 
@@ -88,7 +88,7 @@
   }
 
   &::-webkit-calendar-picker-indicator {
-    color: $dc-primary;
+    color: $dc-green-text;
   }
 }
 
@@ -134,7 +134,7 @@
 
 // Tabs
 .tabs {
-  background-color: $dc-primary-dark;
+  background-color: $dc-navy;
   border-radius: $dc-border-radius;
   display: flex;
   overflow: none;
@@ -176,7 +176,7 @@
 
 .tabs input[type=radio]:checked + label {
   background-color: $dc-white;
-  color: $dc-grey-dark;
+  color: $dc-navy-text;
   font-weight: $dc-font-weight-bold;
 }
 

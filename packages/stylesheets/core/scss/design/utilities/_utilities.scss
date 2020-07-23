@@ -144,14 +144,14 @@
  */
 
 .dc-u-b {
-  border: 1px solid $dc-grey-lighter !important;
+  border: 1px solid $dc-grey-100 !important;
 }
 
 // Additive: border-bottom/left/right/top (.dc-u-b[b/l/r/t])
 
 @each $side, $value in $dc-sides {
   .dc-u-b#{$side} {
-    border-#{$value}: 1px solid $dc-grey-lighter !important;
+    border-#{$value}: 1px solid $dc-grey-100 !important;
   }
 }
 
