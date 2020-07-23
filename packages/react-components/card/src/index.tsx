@@ -55,7 +55,7 @@ const Card = ({
                 transform: `translate(0, -1px)`,
               }
             : {},
-        backgroundColor: tokens.color.opaque.white.value.rgb,
+        backgroundColor: tokens.color.primary.white.value.rgb,
         borderRadius: tokens.radii.small.value,
         boxShadow: elevationMap[elevation],
         transition: 'all 0.6s cubic-bezier(0.075, 0.82, 0.165, 1)',

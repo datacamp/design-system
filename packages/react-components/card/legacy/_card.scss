@@ -21,7 +21,7 @@ $_card-padding-content: 24px;
 
 // border
 .dc-card--bordered {
-  border: 1px solid $dc-grey-lighter;
+  border: 1px solid $dc-grey-100;
   box-shadow: none;
   padding: $_card-padding-base - 1; // +1px border
 
@@ -68,12 +68,12 @@ $_card-padding-content: 24px;
   }
 
   .dc-card__header + .dc-card__body {
-    border-top: 1px solid $dc-grey-lighter;
+    border-top: 1px solid $dc-grey-100;
   }
 
   .dc-card__header + .dc-card__footer,
   .dc-card__body + .dc-card__footer {
-    border-top: 1px solid $dc-grey-lighter;
+    border-top: 1px solid $dc-grey-100;
   }
 
   &.dc-card--bordered {
@@ -105,7 +105,7 @@ $_card-padding-content: 24px;
 
   &.dc-card--bordered {
     @include afh {
-      border: 1px solid $dc-grey-lighter;
+      border: 1px solid $dc-grey-100;
       box-shadow: none;
     }
   }
