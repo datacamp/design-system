@@ -58,10 +58,7 @@ module.exports = ({ properties }) => {
     `$dc-z-indexes: ${extractValueArray(properties.zIndex).join(' ')};`,
   ].join('\n');
 
-  const colorObject = {
-    ...properties.color.opaque,
-    ...properties.color.transparent,
-  };
+  const colorObject = properties.color.opaque;
 
   const colors = generateVariables(colorObject, {
     valueTransform: ({ value }) => convertToColorString(value),

@@ -112,10 +112,6 @@ const COLORS = {
     color: colors.white,
     contrastColor: colors.greyDark,
   },
-  whiteTransparent: {
-    color: colors.whiteTransparent,
-    contrastColor: colors.greyDark,
-  },
 };
 
 const checkValidColors = color => {

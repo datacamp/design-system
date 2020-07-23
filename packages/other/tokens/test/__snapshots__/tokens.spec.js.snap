@@ -41,7 +41,6 @@ Object {
     "xs": "480px",
   },
   "colors": Object {
-    "blackTransparent": "rgba(0, 0, 0, 0.2)",
     "geyser": "#cfdce1",
     "green": "#36d57d",
     "greenLight": "#a5ecc5",
@@ -69,7 +68,6 @@ Object {
     "secondary": "#ffc844",
     "secondaryLight": "#fbe28d",
     "white": "#ffffff",
-    "whiteTransparent": "rgba(255, 255, 255, 0.2)",
   },
   "fontFamily": Object {
     "mono": "'JetBrainsMonoNL'",
@@ -1576,98 +1574,6 @@ Object {
         },
       },
     },
-    "transparent": Object {
-      "blackTransparent": Object {
-        "attributes": Object {
-          "category": "color",
-          "hex": "000000",
-          "hsl": Object {
-            "a": 0.2,
-            "h": 0,
-            "l": 0,
-            "s": 0,
-          },
-          "hsv": Object {
-            "a": 0.2,
-            "h": 0,
-            "s": 0,
-            "v": 0,
-          },
-          "item": "blackTransparent",
-          "rgb": Object {
-            "a": 0.2,
-            "b": 0,
-            "g": 0,
-            "r": 0,
-          },
-          "type": "transparent",
-        },
-        "name": "blackTransparent",
-        "original": Object {
-          "value": Object {
-            "a": 0.2,
-            "b": 0,
-            "g": 0,
-            "r": 0,
-          },
-        },
-        "path": Array [
-          "color",
-          "transparent",
-          "blackTransparent",
-        ],
-        "value": Object {
-          "hex8": "#00000033",
-          "hsl": "hsla(0, 0%, 0%, 0.2)",
-          "rgb": "rgba(0, 0, 0, 0.2)",
-        },
-      },
-      "whiteTransparent": Object {
-        "attributes": Object {
-          "category": "color",
-          "hex": "000000",
-          "hsl": Object {
-            "a": 0.2,
-            "h": 0,
-            "l": 0,
-            "s": 0,
-          },
-          "hsv": Object {
-            "a": 0.2,
-            "h": 0,
-            "s": 0,
-            "v": 0,
-          },
-          "item": "whiteTransparent",
-          "rgb": Object {
-            "a": 0.2,
-            "b": 0,
-            "g": 0,
-            "r": 0,
-          },
-          "type": "transparent",
-        },
-        "name": "whiteTransparent",
-        "original": Object {
-          "value": Object {
-            "a": 0.2,
-            "b": 255,
-            "g": 255,
-            "r": 255,
-          },
-        },
-        "path": Array [
-          "color",
-          "transparent",
-          "whiteTransparent",
-        ],
-        "value": Object {
-          "hex8": "#ffffff33",
-          "hsl": "hsla(0, 0%, 100%, 0.2)",
-          "rgb": "rgba(255, 255, 255, 0.2)",
-        },
-      },
-    },
   },
   "fontWeight": Object {
     "bold": Object {
@@ -2796,8 +2702,6 @@ $dc-red-light: #ffb5b5;
 $dc-secondary: #ffc844;
 $dc-secondary-light: #fbe28d;
 $dc-white: #ffffff;
-$dc-black-transparent: rgba(0, 0, 0, 0.2);
-$dc-white-transparent: rgba(255, 255, 255, 0.2);
 
 // Color map
 $dc-colors: (
@@ -2830,8 +2734,6 @@ $dc-colors: (
   'secondary': $dc-secondary,
   'secondary-light': $dc-secondary-light,
   'white': $dc-white,
-  'black-transparent': $dc-black-transparent,
-  'white-transparent': $dc-white-transparent,
 );
 
 /** Typography */
