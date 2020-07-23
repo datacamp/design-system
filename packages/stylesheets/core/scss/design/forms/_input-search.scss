@@ -17,7 +17,7 @@
   }
 
   &::placeholder {
-    color: $dc-grey;
+    color: $dc-navy-text;
     opacity: 0.8;
   }
 
@@ -35,7 +35,7 @@
 
 .dc-input-search__filter {
   background: $dc-white;
-  border-left: 1px solid $dc-grey-light;
+  border-left: 1px solid $dc-grey-200;
   border-radius: 0 24px 24px 0;
   display: block;
   padding: 6px 17px 6px 12px;
@@ -57,7 +57,7 @@
 
   .dc-is-open & {
     .dc-icon--filter {
-      color: $dc-primary;
+      color: $dc-green;
     }
   }
 }

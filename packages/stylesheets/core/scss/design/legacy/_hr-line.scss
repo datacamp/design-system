@@ -8,14 +8,14 @@
 .dc-hr-line {
   border: 0;
   border-bottom: 1px solid transparent;
-  border-top: 1px solid $dc-grey-light;
+  border-top: 1px solid $dc-grey-100;
   margin: 16px 0;
   padding: 0;
   text-align: center;
   width: 100%;
 
   legend {
-    color: $dc-grey;
+    color: $dc-navy-text;
     font-size: $dc-font-size-base;
     margin: 0 auto;
     padding: 0 16px;

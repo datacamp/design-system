@@ -2,7 +2,7 @@
   position: relative;
 
   &::after {
-    background-color: $dc-primary-lightest;
+    background-color: $dc-beige-100;
     border-left: 1px solid $dc-white;
     border-radius: 0 $dc-border-radius $dc-border-radius 0;
     content: '';
@@ -30,13 +30,13 @@
 
 .dc-select {
   appearance: none;
-  background-color: $dc-primary-lightest;
+  background-color: $dc-beige-100;
   background-image: none;
   border: 1px solid transparent;
   border-radius: $dc-border-radius;
   box-shadow: none;
   box-sizing: border-box;
-  color: $dc-primary;
+  color: $dc-navy-text;
   cursor: pointer;
   height: 48px; // firefox, IE11...
   line-height: $dc-line-height-base;
@@ -46,7 +46,7 @@
 
   &:focus,
   &.focus {
-    border-color: $dc-primary;
+    border-color: $dc-green;
     outline: none;
   }
 

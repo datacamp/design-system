@@ -1,31 +1,5 @@
 /* stylelint-disable */
 $baseline: 5px;
-$accent: #fdc551;
-$accent-dark: #6d561e;
-$accent-light: #ffe2a6;
-$accent-ultra-light: #fffdf7;
-$danger: rgb(221, 92, 92);
-$danger-light: rgba(221, 92, 92, 0.8);
-$dark-grey: $dc-grey-dark;
-$error: #c96768;
-$error-dark: #6e2a2a;
-$error-light: #ffbfbf;
-$light-green: $dc-green-light;
-$light-grey: $dc-grey-light;
-$lighter-grey: $dc-grey-lighter;
-$link-color: #3ac;
-$oslo-grey: $dc-grey-oslo;
-$primary-extra-light: $dc-primary-lightest;
-$light-red: $dc-red-light;
-$success: #83c967;
-$success-dark: #4d6e40;
-$success-light: #cfedc2;
-$text: #3a3a3a;
-$text-secondary: #666;
-$text-invert: #fff;
-$text-invert-secondary: $dc-primary-lighter;
-$text-tertiary: #a3a3a3;
-$border-color: $dc-primary-light; // TODO: replace with color in rule
 $border-width: 1px; // TODO: replace with 1px
 $button-radius: 4px; // TODO: replace with $dc-border-radius
 $button-font-size: $dc-font-size-base;
@@ -489,44 +463,6 @@ $sides: all, top, right, bottom, left;
 }
 
 /**
- * Outdated element selector from the headings
- * Needs to be searched to see if the defaults are ever used
- *
-*/
-
-blockquote {
-  background-color: $dc-primary-lightest;
-  border-left: 2px solid $dc-primary;
-  margin: 0;
-  margin-bottom: 32px;
-  padding: 32px;
-
-  &.centered {
-    border-left: none;
-  }
-
-  p {
-    color: $dc-primary;
-    font-size: $dc-font-size-h4;
-    font-style: italic;
-    margin: 0 0 0.25em;
-  }
-
-  cite {
-    color: $dc-primary-light;
-    font-size: $dc-font-size-base;
-    font-style: normal;
-    text-transform: uppercase;
-
-    &:before {
-      content: 'â€“';
-      display: inline-block;
-      margin-right: 4px;
-    }
-  }
-}
-
-/**
  * Outdated qualified selector
  * Needs to be searched for usage
  *
@@ -539,24 +475,6 @@ code.clean {
   padding: 0;
 }
 
-/**
- * Outdated approach
- * These should be utilities, need to search for usage
- *
-*/
-
-// TODO: find usage
-.yellow-link {
-  border: none;
-  color: $dc-secondary;
-  font-weight: bold;
-
-  &:hover,
-  &:active {
-    border-bottom: 1px solid $dc-secondary;
-    color: $dc-secondary;
-  }
-}
 
 .link-borderless {
   @include link-borderless();

@@ -15,7 +15,7 @@ table,
 // Baseline styles
 
 .table-wrapper {
-  border: 1px solid $dc-grey-lighter;
+  border: 1px solid $dc-grey-100;
   border-radius: $dc-border-radius;
   overflow: hidden;
 
@@ -36,7 +36,7 @@ table,
     > tr {
       > th,
       > td {
-        border-top: 1px solid $dc-grey-lighter;
+        border-top: 1px solid $dc-grey-100;
         padding: 10px;
         vertical-align: top;
       }
@@ -83,7 +83,7 @@ table,
 
 caption,
 .dc-table__caption {
-  color: $dc-grey-dark;
+  color: $dc-navy-text;
   padding-bottom: 10px;
   padding-top: 10px;
   text-align: left;
@@ -95,7 +95,7 @@ th {
 }
 
 .dc-table__th {
-  color: $dc-grey;
+  color: $dc-navy-text;
   cursor: pointer;
   font-size: 11px;
   letter-spacing: 2px;
@@ -119,7 +119,7 @@ th {
 
 td,
 .dc-table__td {
-  color: $dc-grey-dark;
+  color: $dc-navy-text;
   padding: 10px;
   vertical-align: middle;
 }
@@ -152,7 +152,7 @@ td,
 // Bordered Table
 
 .dc-table-wrapper--bordered {
-  border: 1px solid $dc-grey-lighter;
+  border: 1px solid $dc-grey-100;
   border-radius: $dc-border-radius;
   overflow: hidden;
 }
@@ -162,7 +162,7 @@ td,
 .dc-table--bordered {
   .dc-table__thead tr,
   .dc-table__tr {
-    border-bottom: 1px solid $dc-grey-lighter;
+    border-bottom: 1px solid $dc-grey-100;
   }
 
   .dc-table__tr:last-of-type {
@@ -173,14 +173,14 @@ td,
 // Bordered  with Filter
 
 .dc-table-header {
-  background-color: $dc-porcelain;
+  background-color: $dc-grey-100;
   border-radius: $dc-border-radius $dc-border-radius 0 0;
   padding: 16px;
 }
 
 .dc-table--search {
   .dc-table-wrapper {
-    border: 1px solid $dc-grey-lighter;
+    border: 1px solid $dc-grey-100;
     border-radius: 0 0 $dc-border-radius $dc-border-radius;
     border-top: 0;
   }
