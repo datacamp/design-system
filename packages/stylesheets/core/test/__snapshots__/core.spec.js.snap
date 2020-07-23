@@ -670,12 +670,6 @@ th {
 .dc-u-bgc-white {
   background-color: #ffffff !important;
 }
-.dc-u-bgc-black-transparent {
-  background-color: rgba(0, 0, 0, 0.2) !important;
-}
-.dc-u-bgc-white-transparent {
-  background-color: rgba(255, 255, 255, 0.2) !important;
-}
 /**
  * Border
  * ------
@@ -804,12 +798,6 @@ th {
 }
 .dc-u-bc-white {
   border-color: #ffffff !important;
-}
-.dc-u-bc-black-transparent {
-  border-color: rgba(0, 0, 0, 0.2) !important;
-}
-.dc-u-bc-white-transparent {
-  border-color: rgba(255, 255, 255, 0.2) !important;
 }
 /**
  * Border radius
@@ -1004,12 +992,6 @@ th {
 }
 .dc-u-color-white {
   color: #ffffff !important;
-}
-.dc-u-color-black-transparent {
-  color: rgba(0, 0, 0, 0.2) !important;
-}
-.dc-u-color-white-transparent {
-  color: rgba(255, 255, 255, 0.2) !important;
 }
 /** Cursor */
 .dc-u-cursor-auto {
@@ -1265,12 +1247,6 @@ th {
 }
 .dc-u-fill-white {
   fill: #ffffff !important;
-}
-.dc-u-fill-black-transparent {
-  fill: rgba(0, 0, 0, 0.2) !important;
-}
-.dc-u-fill-white-transparent {
-  fill: rgba(255, 255, 255, 0.2) !important;
 }
 /**
  * Flexbox
@@ -11276,7 +11252,6 @@ $geyser: #cfdce1; // TODO: $dc-geyser
 $grey-oslo: #859094; // TODO: $dc-grey-oslo
 $porcelain: #f0f4f5; // TODO: $dc-porcelain
 $white: #fff; // TODO: $dc-white
-$white-transparent: rgba(255, 255, 255, 0.2); // TODO: $dc-white-transparent
 
 // @end-sass-export-section
 
@@ -11372,7 +11347,6 @@ $text-secondary: #666;
 $text-invert: #fff;
 $text-invert-secondary: $dc-primary-lighter;
 $text-tertiary: #a3a3a3;
-$transparent-white: $dc-white-transparent;
 $border-color: $dc-primary-light; // TODO: replace with color in rule
 $border-width: 1px; // TODO: replace with 1px
 $button-radius: 4px; // TODO: replace with $dc-border-radius
@@ -15045,8 +15019,6 @@ $dc-red-light: #ffb5b5;
 $dc-secondary: #ffc844;
 $dc-secondary-light: #fbe28d;
 $dc-white: #ffffff;
-$dc-black-transparent: rgba(0, 0, 0, 0.2);
-$dc-white-transparent: rgba(255, 255, 255, 0.2);
 
 // Color map
 $dc-colors: (
@@ -15079,8 +15051,6 @@ $dc-colors: (
   'secondary': $dc-secondary,
   'secondary-light': $dc-secondary-light,
   'white': $dc-white,
-  'black-transparent': $dc-black-transparent,
-  'white-transparent': $dc-white-transparent,
 );
 
 /** Typography */
@@ -15754,7 +15724,6 @@ Object {
     "xs": "480px",
   },
   "colors": Object {
-    "blackTransparent": "rgba(0, 0, 0, 0.2)",
     "geyser": "#cfdce1",
     "green": "#36d57d",
     "greenLight": "#a5ecc5",
@@ -15782,7 +15751,6 @@ Object {
     "secondary": "#ffc844",
     "secondaryLight": "#fbe28d",
     "white": "#ffffff",
-    "whiteTransparent": "rgba(255, 255, 255, 0.2)",
   },
   "fontFamily": Object {
     "mono": "'JetBrainsMonoNL'",
