@@ -1,0 +1,47 @@
+{
+  "color": {
+    "primary": {
+      "blue": { "value": { "r": 6, "g": 189, "b": 252, "a": 1 } },
+      "blueDark": { "value": { "r": 0, "g": 155, "b": 216, "a": 1 } },
+      "blueLight": { "value": { "r": 96, "g": 231, "b": 255, "a": 1 } },
+      "blueText": { "value": { "r": 0, "g": 123, "b": 182, "a": 1 } },
+
+      "green": { "value": { "r": 3, "g": 239, "b": 98, "a": 1 } },
+      "greenDark": { "value": { "r": 0, "g": 197, "b": 59, "a": 1 } },
+      "greenLight": { "value": { "r": 101, "g": 255, "b": 143, "a": 1 } },
+      "greenText": { "value": { "r": 0, "g": 135, "b": 0, "a": 1 } },
+
+      "navy": { "value": { "r": 5, "g": 25, "b": 45, "a": 1 } },
+      "navyDark": { "value": { "r": 0, "g": 8, "b": 32, "a": 1 } },
+      "navyLight": { "value": { "r": 33, "g": 49, "b": 71, "a": 1 } },
+      "navyText": { "value": { "r": 5, "g": 25, "b": 45, "a": 1 } },
+
+      "orange": { "value": { "r": 255, "g": 147, "b": 30, "a": 1 } },
+      "orangeDark": { "value": { "r": 216, "g": 115, "b": 0, "a": 1 } },
+      "orangeLight": { "value": { "r": 255, "g": 188, "b": 75, "a": 1 } },
+      "orangeText": { "value": { "r": 183, "g": 89, "b": 0, "a": 1 } },
+
+      "pink": { "value": { "r": 255, "g": 110, "b": 169, "a": 1 } },
+      "pinkDark": { "value": { "r": 220, "g": 77, "b": 139, "a": 1 } },
+      "pinkLight": { "value": { "r": 255, "g": 149, "b": 207, "a": 1 } },
+      "pinkText": { "value": { "r": 191, "g": 48, "b": 114, "a": 1 } },
+
+      "purple": { "value": { "r": 121, "g": 51, "b": 255, "a": 1 } },
+      "purpleDark": { "value": { "r": 86, "g": 70, "b": 165, "a": 1 } },
+      "purpleLight": { "value": { "r": 151, "g": 77, "b": 255, "a": 1 } },
+      "purpleText": { "value": { "r": 86, "g": 70, "b": 165, "a": 1 } },
+
+      "red": { "value": { "r": 255, "g": 84, "b": 0, "a": 1 } },
+      "redDark": { "value": { "r": 221, "g": 52, "b": 0, "a": 1 } },
+      "redLight": { "value": { "r": 255, "g": 120, "b": 45, "a": 1 } },
+      "redText": { "value": { "r": 192, "g": 17, "b": 0, "a": 1 } },
+
+      "yellow": { "value": { "r": 252, "g": 206, "b": 13, "a": 1 } },
+      "yellowDark": { "value": { "r": 207, "g": 166, "b": 0, "a": 1 } },
+      "yellowLight": { "value": { "r": 255, "g": 236, "b": 60, "a": 1 } },
+      "yellowText": { "value": { "r": 144, "g": 112, "b": 0, "a": 1 } },
+
+      "white": { "value": { "r": 255, "g": 255, "b": 255, "a": 1 } }
+    }
+  }
+}
