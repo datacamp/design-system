@@ -61,7 +61,7 @@ exports[`<AlertModal /> isOpen renders the modal via a portal when true 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  background-color: rgba(38,62,99,0.8);
+  background-color: rgba(5,25,45,0.8);
   bottom: 0;
   display: -webkit-box;
   display: -webkit-flex;
@@ -93,7 +93,7 @@ exports[`<AlertModal /> isOpen renders the modal via a portal when true 1`] = `
   background-color: white;
   border: none;
   border-radius: 2px;
-  color: rgb(61,66,81);
+  color: rgb(5,25,45);
   cursor: pointer;
   display: -webkit-box;
   display: -webkit-flex;
@@ -119,7 +119,7 @@ exports[`<AlertModal /> isOpen renders the modal via a portal when true 1`] = `
 }
 
 .emotion-0:active {
-  color: rgb(51,170,204);
+  color: rgb(3,239,98);
 }
 
 .emotion-0:disabled {
@@ -132,11 +132,11 @@ exports[`<AlertModal /> isOpen renders the modal via a portal when true 1`] = `
 }
 
 .emotion-0:focus {
-  background-color: rgb(240,244,245);
+  background-color: rgb(247,243,235);
 }
 
 .emotion-0:hover {
-  background-color: rgb(240,244,245);
+  background-color: rgb(247,243,235);
 }
 
 .emotion-9 {
@@ -164,11 +164,11 @@ exports[`<AlertModal /> isOpen renders the modal via a portal when true 1`] = `
 
 .emotion-1 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(77,83,86);
+  color: rgb(5,25,45);
   font-family: sans-serif;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
-  color: rgb(61,66,81);
+  color: rgb(5,25,45);
   font-weight: 800;
   margin: 0;
   overflow: auto;
@@ -187,7 +187,7 @@ exports[`<AlertModal /> isOpen renders the modal via a portal when true 1`] = `
 
 .emotion-2 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(77,83,86);
+  color: rgb(5,25,45);
   font-family: sans-serif;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
@@ -236,8 +236,8 @@ exports[`<AlertModal /> isOpen renders the modal via a portal when true 1`] = `
   vertical-align: baseline;
   white-space: nowrap;
   background-color: transparent;
-  border-color: #33aacc;
-  color: #33aacc;
+  border-color: #05192d;
+  color: #05192d;
   padding: 0 15px;
   margin-left: 0;
 }
@@ -261,7 +261,7 @@ exports[`<AlertModal /> isOpen renders the modal via a portal when true 1`] = `
 }
 
 .emotion-4:focus {
-  box-shadow: 0 0 0 4px rgba(51,170,204,0.2);
+  box-shadow: 0 0 0 4px rgba(5,25,45,0.2);
 }
 
 .emotion-4:hover {
@@ -271,7 +271,7 @@ exports[`<AlertModal /> isOpen renders the modal via a portal when true 1`] = `
 
 .emotion-3 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(77,83,86);
+  color: rgb(5,25,45);
   font-family: sans-serif;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
@@ -280,7 +280,7 @@ exports[`<AlertModal /> isOpen renders the modal via a portal when true 1`] = `
   line-height: 16px;
   font-size: 16px;
   line-height: 46px;
-  color: #3d4251;
+  color: #05192d;
   font-weight: bold;
 }
 
@@ -310,9 +310,9 @@ exports[`<AlertModal /> isOpen renders the modal via a portal when true 1`] = `
   vertical-align: baseline;
   white-space: nowrap;
   background-color: transparent;
-  border-color: #33aacc;
-  color: #33aacc;
-  background-color: #33aacc;
+  border-color: #05192d;
+  color: #05192d;
+  background-color: #05192d;
   padding: 0 15px;
   margin-left: 16px;
 }
@@ -336,7 +336,7 @@ exports[`<AlertModal /> isOpen renders the modal via a portal when true 1`] = `
 }
 
 .emotion-6:focus {
-  box-shadow: 0 0 0 4px rgba(51,170,204,0.2);
+  box-shadow: 0 0 0 4px rgba(5,25,45,0.2);
 }
 
 .emotion-6:hover {
@@ -351,7 +351,7 @@ exports[`<AlertModal /> isOpen renders the modal via a portal when true 1`] = `
 
 .emotion-5 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(77,83,86);
+  color: rgb(5,25,45);
   font-family: sans-serif;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;

@@ -12,18 +12,18 @@ const CloseButton: React.FC<{
     aria-label="Close"
     className={className}
     css={css({
-      ':active': { color: tokens.color.opaque.primary.value.rgb },
+      ':active': { color: tokens.color.primary.green.value.rgb },
       ':disabled': { color: '#D1D3D8' },
       ':disabled:hover, :disabled:focus': { backgroundColor: 'transparent' },
       ':focus': {
-        backgroundColor: tokens.color.opaque.porcelain.value.rgb,
+        backgroundColor: tokens.color.neutral.beige200.value.rgb,
       },
-      ':hover': { backgroundColor: tokens.color.opaque.porcelain.value.rgb },
+      ':hover': { backgroundColor: tokens.color.neutral.beige200.value.rgb },
       alignItems: 'center',
       backgroundColor: 'white',
       border: 'none',
       borderRadius: 2,
-      color: tokens.color.opaque.greyDark.value.rgb,
+      color: tokens.color.primary.navyText.value.rgb,
       cursor: disabled ? 'not-allowed' : 'pointer',
       display: 'flex',
       flexDirection: 'column',

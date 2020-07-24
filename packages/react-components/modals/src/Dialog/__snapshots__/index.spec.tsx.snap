@@ -61,7 +61,7 @@ exports[`<Dialog /> isOpen renders the modal via a portal when true 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  background-color: rgba(38,62,99,0.8);
+  background-color: rgba(5,25,45,0.8);
   bottom: 0;
   display: -webkit-box;
   display: -webkit-flex;
@@ -93,7 +93,7 @@ exports[`<Dialog /> isOpen renders the modal via a portal when true 1`] = `
   background-color: white;
   border: none;
   border-radius: 2px;
-  color: rgb(61,66,81);
+  color: rgb(5,25,45);
   cursor: pointer;
   display: -webkit-box;
   display: -webkit-flex;
@@ -119,7 +119,7 @@ exports[`<Dialog /> isOpen renders the modal via a portal when true 1`] = `
 }
 
 .emotion-0:active {
-  color: rgb(51,170,204);
+  color: rgb(3,239,98);
 }
 
 .emotion-0:disabled {
@@ -132,11 +132,11 @@ exports[`<Dialog /> isOpen renders the modal via a portal when true 1`] = `
 }
 
 .emotion-0:focus {
-  background-color: rgb(240,244,245);
+  background-color: rgb(247,243,235);
 }
 
 .emotion-0:hover {
-  background-color: rgb(240,244,245);
+  background-color: rgb(247,243,235);
 }
 
 .emotion-1 {
