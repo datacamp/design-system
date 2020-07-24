@@ -342,7 +342,7 @@ describe('<AlertModal />', () => {
       ) as HTMLElement).closest('button');
       expect(confirmButtonElement).toHaveFocus();
       expect(confirmButtonElement).toHaveStyle(
-        `background-color: ${tokens.color.opaque.primary.value.rgb}`,
+        `background-color: ${tokens.color.primary.navy.value.rgb}`,
       );
     });
 
@@ -363,7 +363,7 @@ describe('<AlertModal />', () => {
       ) as HTMLElement).closest('button');
       expect(confirmButtonElement).toHaveFocus();
       expect(confirmButtonElement).toHaveStyle(
-        `background-color: ${tokens.color.opaque.primary.value.rgb}`,
+        `background-color: ${tokens.color.primary.navy.value.rgb}`,
       );
     });
 
@@ -384,7 +384,7 @@ describe('<AlertModal />', () => {
       ) as HTMLElement).closest('button');
       expect(confirmButtonElement).toHaveFocus();
       expect(confirmButtonElement).toHaveStyle(
-        `background-color: ${tokens.color.opaque.green.value.rgb}`,
+        `background-color: ${tokens.color.primary.green.value.rgb}`,
       );
     });
 
@@ -408,7 +408,7 @@ describe('<AlertModal />', () => {
       ) as HTMLElement).closest('button');
       expect(cancelButtonElement).toHaveFocus();
       expect(confirmButtonElement).toHaveStyle(
-        `background-color: ${tokens.color.opaque.orange.value.rgb}`,
+        `background-color: ${tokens.color.primary.orange.value.rgb}`,
       );
     });
 
@@ -432,7 +432,7 @@ describe('<AlertModal />', () => {
       ) as HTMLElement).closest('button');
       expect(cancelButtonElement).toHaveFocus();
       expect(confirmButtonElement).toHaveStyle(
-        `background-color: ${tokens.color.opaque.red.value.rgb}`,
+        `background-color: ${tokens.color.primary.red.value.rgb}`,
       );
     });
   });
