@@ -13,7 +13,7 @@ const testLabel = 'test label';
 
 describe('<CheckboxList>', () => {
   it('renders the list', () => {
-    const { getByLabelText, getByText, debug } = render(
+    const { getByLabelText, getByText } = render(
       <CheckboxList
         label={testLabel}
         name={testName}
@@ -26,7 +26,7 @@ describe('<CheckboxList>', () => {
     );
 
     expect(getByText(testLabel) as HTMLElement).toBeInTheDocument();
-    debug();
+
     const item1 = getByLabelText('item 1') as HTMLElement;
     const item2 = getByLabelText('item 2') as HTMLElement;
 

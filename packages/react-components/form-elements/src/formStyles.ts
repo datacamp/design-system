@@ -6,13 +6,13 @@ const baseFormStyle = css({
     cursor: 'not-allowed',
   },
   ':focus': {
-    boxShadow: `inset 0 0 0 1px ${tokens.color.opaque.primary.value.rgb}`,
+    boxShadow: `inset 0 0 0 1px ${tokens.color.primary.green.value.rgb}`,
     outline: 'none',
   },
   background: 'white',
   border: 0,
   borderRadius: tokens.radii.small.value,
-  boxShadow: `inset 0 0 0 1px ${tokens.color.opaque.greyLight.value.rgb}`,
+  boxShadow: `inset 0 0 0 1px ${tokens.color.neutral.grey200.value.rgb}`,
   boxSizing: 'border-box',
   display: 'inline-block',
   fontFamily: [
@@ -26,16 +26,16 @@ const baseFormStyle = css({
 
 const inputStyle = css(baseFormStyle, {
   '::placeholder': {
-    color: tokens.color.opaque.greyOslo.value.rgb,
+    color: tokens.color.primary.navyText.value.rgb,
     fontFamily: 'inherit',
   },
   ':disabled::placeholder': { color: '#D1D3D8' },
-  color: tokens.color.opaque.greyDark.value.rgb,
+  color: tokens.color.neutral.grey200.value.rgb,
 });
 
 const selectStyle = css(baseFormStyle, {
   ':disabled, :active:disabled, :focus:disabled, :hover:disabled': {
-    boxShadow: `inset 0 0 0 1px ${tokens.color.opaque.greyLight.value.rgb}`,
+    boxShadow: `inset 0 0 0 1px ${tokens.color.neutral.grey200.value.rgb}`,
   },
   appearance: 'none',
   MozAppearance: 'none',

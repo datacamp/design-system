@@ -38,14 +38,14 @@ exports[`snapshots renders an input with size large, disabled=false, required=fa
 
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(77,83,86);
+  color: rgb(5,25,45);
   font-family: sans-serif;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
   line-height: 16px;
-  color: #3d4251;
+  color: #05192d;
   display: inline-block;
   -webkit-flex: 0 1 auto;
   -ms-flex: 0 1 auto;
@@ -59,14 +59,14 @@ exports[`snapshots renders an input with size large, disabled=false, required=fa
 
 .emotion-6 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(77,83,86);
+  color: rgb(5,25,45);
   font-family: sans-serif;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
   line-height: 16px;
-  color: #fe5c5c;
+  color: #ff5400;
   display: block;
   font-size: 14px;
   margin-top: 8px;
@@ -81,14 +81,14 @@ exports[`snapshots renders an input with size large, disabled=false, required=fa
 
 .emotion-1 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(77,83,86);
+  color: rgb(5,25,45);
   font-family: sans-serif;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
   line-height: 16px;
-  color: #859094;
+  color: #05192d;
   display: inline-block;
   font-size: 14px;
 }
@@ -101,7 +101,7 @@ exports[`snapshots renders an input with size large, disabled=false, required=fa
   background: white;
   border: 0;
   border-radius: 4px;
-  box-shadow: inset 0 0 0 1px rgb(209,211,216);
+  box-shadow: inset 0 0 0 1px rgb(239,239,239);
   box-sizing: border-box;
   display: inline-block;
   font-family: sans-serif;
@@ -109,7 +109,7 @@ exports[`snapshots renders an input with size large, disabled=false, required=fa
   margin: 0;
   vertical-align: baseline;
   -webkit-appearance: none;
-  color: rgb(61,66,81);
+  color: rgb(239,239,239);
   width: 100%;
 }
 
@@ -120,27 +120,27 @@ exports[`snapshots renders an input with size large, disabled=false, required=fa
 }
 
 .emotion-5:focus {
-  box-shadow: inset 0 0 0 1px rgb(51,170,204);
+  box-shadow: inset 0 0 0 1px rgb(3,239,98);
   outline: none;
 }
 
 .emotion-5::-webkit-input-placeholder {
-  color: rgb(133,144,148);
+  color: rgb(5,25,45);
   font-family: inherit;
 }
 
 .emotion-5::-moz-placeholder {
-  color: rgb(133,144,148);
+  color: rgb(5,25,45);
   font-family: inherit;
 }
 
 .emotion-5:-ms-input-placeholder {
-  color: rgb(133,144,148);
+  color: rgb(5,25,45);
   font-family: inherit;
 }
 
 .emotion-5::placeholder {
-  color: rgb(133,144,148);
+  color: rgb(5,25,45);
   font-family: inherit;
 }
 
@@ -238,14 +238,14 @@ exports[`snapshots renders an input with size large, disabled=false, required=tr
 
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(77,83,86);
+  color: rgb(5,25,45);
   font-family: sans-serif;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
   line-height: 16px;
-  color: #3d4251;
+  color: #05192d;
   display: inline-block;
   -webkit-flex: 0 1 auto;
   -ms-flex: 0 1 auto;
@@ -259,14 +259,14 @@ exports[`snapshots renders an input with size large, disabled=false, required=tr
 
 .emotion-7 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(77,83,86);
+  color: rgb(5,25,45);
   font-family: sans-serif;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
   line-height: 16px;
-  color: #fe5c5c;
+  color: #ff5400;
   display: block;
   font-size: 14px;
   margin-top: 8px;
@@ -281,27 +281,27 @@ exports[`snapshots renders an input with size large, disabled=false, required=tr
 
 .emotion-1 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(77,83,86);
+  color: rgb(5,25,45);
   font-family: sans-serif;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
   line-height: 16px;
-  color: #fe5c5c;
+  color: #ff5400;
   margin-right: 4px;
 }
 
 .emotion-2 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(77,83,86);
+  color: rgb(5,25,45);
   font-family: sans-serif;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
   line-height: 16px;
-  color: #859094;
+  color: #05192d;
   display: inline-block;
   font-size: 14px;
 }
@@ -314,7 +314,7 @@ exports[`snapshots renders an input with size large, disabled=false, required=tr
   background: white;
   border: 0;
   border-radius: 4px;
-  box-shadow: inset 0 0 0 1px rgb(209,211,216);
+  box-shadow: inset 0 0 0 1px rgb(239,239,239);
   box-sizing: border-box;
   display: inline-block;
   font-family: sans-serif;
@@ -322,7 +322,7 @@ exports[`snapshots renders an input with size large, disabled=false, required=tr
   margin: 0;
   vertical-align: baseline;
   -webkit-appearance: none;
-  color: rgb(61,66,81);
+  color: rgb(239,239,239);
   width: 100%;
 }
 
@@ -333,27 +333,27 @@ exports[`snapshots renders an input with size large, disabled=false, required=tr
 }
 
 .emotion-6:focus {
-  box-shadow: inset 0 0 0 1px rgb(51,170,204);
+  box-shadow: inset 0 0 0 1px rgb(3,239,98);
   outline: none;
 }
 
 .emotion-6::-webkit-input-placeholder {
-  color: rgb(133,144,148);
+  color: rgb(5,25,45);
   font-family: inherit;
 }
 
 .emotion-6::-moz-placeholder {
-  color: rgb(133,144,148);
+  color: rgb(5,25,45);
   font-family: inherit;
 }
 
 .emotion-6:-ms-input-placeholder {
-  color: rgb(133,144,148);
+  color: rgb(5,25,45);
   font-family: inherit;
 }
 
 .emotion-6::placeholder {
-  color: rgb(133,144,148);
+  color: rgb(5,25,45);
   font-family: inherit;
 }
 
@@ -456,14 +456,14 @@ exports[`snapshots renders an input with size large, disabled=false, required=un
 
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(77,83,86);
+  color: rgb(5,25,45);
   font-family: sans-serif;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
   line-height: 16px;
-  color: #3d4251;
+  color: #05192d;
   display: inline-block;
   -webkit-flex: 0 1 auto;
   -ms-flex: 0 1 auto;
@@ -477,14 +477,14 @@ exports[`snapshots renders an input with size large, disabled=false, required=un
 
 .emotion-4 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(77,83,86);
+  color: rgb(5,25,45);
   font-family: sans-serif;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
   line-height: 16px;
-  color: #fe5c5c;
+  color: #ff5400;
   display: block;
   font-size: 14px;
   margin-top: 8px;
@@ -498,7 +498,7 @@ exports[`snapshots renders an input with size large, disabled=false, required=un
   background: white;
   border: 0;
   border-radius: 4px;
-  box-shadow: inset 0 0 0 1px rgb(209,211,216);
+  box-shadow: inset 0 0 0 1px rgb(239,239,239);
   box-sizing: border-box;
   display: inline-block;
   font-family: sans-serif;
@@ -506,7 +506,7 @@ exports[`snapshots renders an input with size large, disabled=false, required=un
   margin: 0;
   vertical-align: baseline;
   -webkit-appearance: none;
-  color: rgb(61,66,81);
+  color: rgb(239,239,239);
   width: 100%;
 }
 
@@ -517,27 +517,27 @@ exports[`snapshots renders an input with size large, disabled=false, required=un
 }
 
 .emotion-3:focus {
-  box-shadow: inset 0 0 0 1px rgb(51,170,204);
+  box-shadow: inset 0 0 0 1px rgb(3,239,98);
   outline: none;
 }
 
 .emotion-3::-webkit-input-placeholder {
-  color: rgb(133,144,148);
+  color: rgb(5,25,45);
   font-family: inherit;
 }
 
 .emotion-3::-moz-placeholder {
-  color: rgb(133,144,148);
+  color: rgb(5,25,45);
   font-family: inherit;
 }
 
 .emotion-3:-ms-input-placeholder {
-  color: rgb(133,144,148);
+  color: rgb(5,25,45);
   font-family: inherit;
 }
 
 .emotion-3::placeholder {
-  color: rgb(133,144,148);
+  color: rgb(5,25,45);
   font-family: inherit;
 }
 
@@ -626,14 +626,14 @@ exports[`snapshots renders an input with size large, disabled=true, required=fal
 
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(77,83,86);
+  color: rgb(5,25,45);
   font-family: sans-serif;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
   line-height: 16px;
-  color: #3d4251;
+  color: #05192d;
   display: inline-block;
   -webkit-flex: 0 1 auto;
   -ms-flex: 0 1 auto;
@@ -647,14 +647,14 @@ exports[`snapshots renders an input with size large, disabled=true, required=fal
 
 .emotion-6 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(77,83,86);
+  color: rgb(5,25,45);
   font-family: sans-serif;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
   line-height: 16px;
-  color: #fe5c5c;
+  color: #ff5400;
   display: block;
   font-size: 14px;
   margin-top: 8px;
@@ -669,14 +669,14 @@ exports[`snapshots renders an input with size large, disabled=true, required=fal
 
 .emotion-1 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(77,83,86);
+  color: rgb(5,25,45);
   font-family: sans-serif;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
   line-height: 16px;
-  color: #859094;
+  color: #05192d;
   display: inline-block;
   font-size: 14px;
 }
@@ -689,7 +689,7 @@ exports[`snapshots renders an input with size large, disabled=true, required=fal
   background: white;
   border: 0;
   border-radius: 4px;
-  box-shadow: inset 0 0 0 1px rgb(209,211,216);
+  box-shadow: inset 0 0 0 1px rgb(239,239,239);
   box-sizing: border-box;
   display: inline-block;
   font-family: sans-serif;
@@ -697,7 +697,7 @@ exports[`snapshots renders an input with size large, disabled=true, required=fal
   margin: 0;
   vertical-align: baseline;
   -webkit-appearance: none;
-  color: rgb(61,66,81);
+  color: rgb(239,239,239);
   width: 100%;
 }
 
@@ -708,27 +708,27 @@ exports[`snapshots renders an input with size large, disabled=true, required=fal
 }
 
 .emotion-5:focus {
-  box-shadow: inset 0 0 0 1px rgb(51,170,204);
+  box-shadow: inset 0 0 0 1px rgb(3,239,98);
   outline: none;
 }
 
 .emotion-5::-webkit-input-placeholder {
-  color: rgb(133,144,148);
+  color: rgb(5,25,45);
   font-family: inherit;
 }
 
 .emotion-5::-moz-placeholder {
-  color: rgb(133,144,148);
+  color: rgb(5,25,45);
   font-family: inherit;
 }
 
 .emotion-5:-ms-input-placeholder {
-  color: rgb(133,144,148);
+  color: rgb(5,25,45);
   font-family: inherit;
 }
 
 .emotion-5::placeholder {
-  color: rgb(133,144,148);
+  color: rgb(5,25,45);
   font-family: inherit;
 }
 
@@ -827,14 +827,14 @@ exports[`snapshots renders an input with size large, disabled=true, required=tru
 
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(77,83,86);
+  color: rgb(5,25,45);
   font-family: sans-serif;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
   line-height: 16px;
-  color: #3d4251;
+  color: #05192d;
   display: inline-block;
   -webkit-flex: 0 1 auto;
   -ms-flex: 0 1 auto;
@@ -848,14 +848,14 @@ exports[`snapshots renders an input with size large, disabled=true, required=tru
 
 .emotion-7 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(77,83,86);
+  color: rgb(5,25,45);
   font-family: sans-serif;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
   line-height: 16px;
-  color: #fe5c5c;
+  color: #ff5400;
   display: block;
   font-size: 14px;
   margin-top: 8px;
@@ -870,27 +870,27 @@ exports[`snapshots renders an input with size large, disabled=true, required=tru
 
 .emotion-1 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(77,83,86);
+  color: rgb(5,25,45);
   font-family: sans-serif;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
   line-height: 16px;
-  color: #fe5c5c;
+  color: #ff5400;
   margin-right: 4px;
 }
 
 .emotion-2 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(77,83,86);
+  color: rgb(5,25,45);
   font-family: sans-serif;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
   line-height: 16px;
-  color: #859094;
+  color: #05192d;
   display: inline-block;
   font-size: 14px;
 }
@@ -903,7 +903,7 @@ exports[`snapshots renders an input with size large, disabled=true, required=tru
   background: white;
   border: 0;
   border-radius: 4px;
-  box-shadow: inset 0 0 0 1px rgb(209,211,216);
+  box-shadow: inset 0 0 0 1px rgb(239,239,239);
   box-sizing: border-box;
   display: inline-block;
   font-family: sans-serif;
@@ -911,7 +911,7 @@ exports[`snapshots renders an input with size large, disabled=true, required=tru
   margin: 0;
   vertical-align: baseline;
   -webkit-appearance: none;
-  color: rgb(61,66,81);
+  color: rgb(239,239,239);
   width: 100%;
 }
 
@@ -922,27 +922,27 @@ exports[`snapshots renders an input with size large, disabled=true, required=tru
 }
 
 .emotion-6:focus {
-  box-shadow: inset 0 0 0 1px rgb(51,170,204);
+  box-shadow: inset 0 0 0 1px rgb(3,239,98);
   outline: none;
 }
 
 .emotion-6::-webkit-input-placeholder {
-  color: rgb(133,144,148);
+  color: rgb(5,25,45);
   font-family: inherit;
 }
 
 .emotion-6::-moz-placeholder {
-  color: rgb(133,144,148);
+  color: rgb(5,25,45);
   font-family: inherit;
 }
 
 .emotion-6:-ms-input-placeholder {
-  color: rgb(133,144,148);
+  color: rgb(5,25,45);
   font-family: inherit;
 }
 
 .emotion-6::placeholder {
-  color: rgb(133,144,148);
+  color: rgb(5,25,45);
   font-family: inherit;
 }
 
@@ -1046,14 +1046,14 @@ exports[`snapshots renders an input with size large, disabled=true, required=und
 
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(77,83,86);
+  color: rgb(5,25,45);
   font-family: sans-serif;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
   line-height: 16px;
-  color: #3d4251;
+  color: #05192d;
   display: inline-block;
   -webkit-flex: 0 1 auto;
   -ms-flex: 0 1 auto;
@@ -1067,14 +1067,14 @@ exports[`snapshots renders an input with size large, disabled=true, required=und
 
 .emotion-4 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(77,83,86);
+  color: rgb(5,25,45);
   font-family: sans-serif;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
   line-height: 16px;
-  color: #fe5c5c;
+  color: #ff5400;
   display: block;
   font-size: 14px;
   margin-top: 8px;
@@ -1088,7 +1088,7 @@ exports[`snapshots renders an input with size large, disabled=true, required=und
   background: white;
   border: 0;
   border-radius: 4px;
-  box-shadow: inset 0 0 0 1px rgb(209,211,216);
+  box-shadow: inset 0 0 0 1px rgb(239,239,239);
   box-sizing: border-box;
   display: inline-block;
   font-family: sans-serif;
@@ -1096,7 +1096,7 @@ exports[`snapshots renders an input with size large, disabled=true, required=und
   margin: 0;
   vertical-align: baseline;
   -webkit-appearance: none;
-  color: rgb(61,66,81);
+  color: rgb(239,239,239);
   width: 100%;
 }
 
@@ -1107,27 +1107,27 @@ exports[`snapshots renders an input with size large, disabled=true, required=und
 }
 
 .emotion-3:focus {
-  box-shadow: inset 0 0 0 1px rgb(51,170,204);
+  box-shadow: inset 0 0 0 1px rgb(3,239,98);
   outline: none;
 }
 
 .emotion-3::-webkit-input-placeholder {
-  color: rgb(133,144,148);
+  color: rgb(5,25,45);
   font-family: inherit;
 }
 
 .emotion-3::-moz-placeholder {
-  color: rgb(133,144,148);
+  color: rgb(5,25,45);
   font-family: inherit;
 }
 
 .emotion-3:-ms-input-placeholder {
-  color: rgb(133,144,148);
+  color: rgb(5,25,45);
   font-family: inherit;
 }
 
 .emotion-3::placeholder {
-  color: rgb(133,144,148);
+  color: rgb(5,25,45);
   font-family: inherit;
 }
 
@@ -1217,14 +1217,14 @@ exports[`snapshots renders an input with size medium, disabled=false, required=f
 
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(77,83,86);
+  color: rgb(5,25,45);
   font-family: sans-serif;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
   line-height: 16px;
-  color: #3d4251;
+  color: #05192d;
   display: inline-block;
   -webkit-flex: 0 1 auto;
   -ms-flex: 0 1 auto;
@@ -1244,7 +1244,7 @@ exports[`snapshots renders an input with size medium, disabled=false, required=f
   background: white;
   border: 0;
   border-radius: 4px;
-  box-shadow: inset 0 0 0 1px rgb(209,211,216);
+  box-shadow: inset 0 0 0 1px rgb(239,239,239);
   box-sizing: border-box;
   display: inline-block;
   font-family: sans-serif;
@@ -1252,7 +1252,7 @@ exports[`snapshots renders an input with size medium, disabled=false, required=f
   margin: 0;
   vertical-align: baseline;
   -webkit-appearance: none;
-  color: rgb(61,66,81);
+  color: rgb(239,239,239);
   width: 100%;
 }
 
@@ -1263,27 +1263,27 @@ exports[`snapshots renders an input with size medium, disabled=false, required=f
 }
 
 .emotion-5:focus {
-  box-shadow: inset 0 0 0 1px rgb(51,170,204);
+  box-shadow: inset 0 0 0 1px rgb(3,239,98);
   outline: none;
 }
 
 .emotion-5::-webkit-input-placeholder {
-  color: rgb(133,144,148);
+  color: rgb(5,25,45);
   font-family: inherit;
 }
 
 .emotion-5::-moz-placeholder {
-  color: rgb(133,144,148);
+  color: rgb(5,25,45);
   font-family: inherit;
 }
 
 .emotion-5:-ms-input-placeholder {
-  color: rgb(133,144,148);
+  color: rgb(5,25,45);
   font-family: inherit;
 }
 
 .emotion-5::placeholder {
-  color: rgb(133,144,148);
+  color: rgb(5,25,45);
   font-family: inherit;
 }
 
@@ -1305,14 +1305,14 @@ exports[`snapshots renders an input with size medium, disabled=false, required=f
 
 .emotion-6 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(77,83,86);
+  color: rgb(5,25,45);
   font-family: sans-serif;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
   line-height: 16px;
-  color: #fe5c5c;
+  color: #ff5400;
   display: block;
   font-size: 14px;
   margin-top: 8px;
@@ -1327,14 +1327,14 @@ exports[`snapshots renders an input with size medium, disabled=false, required=f
 
 .emotion-1 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(77,83,86);
+  color: rgb(5,25,45);
   font-family: sans-serif;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
   line-height: 16px;
-  color: #859094;
+  color: #05192d;
   display: inline-block;
   font-size: 14px;
 }
@@ -1417,14 +1417,14 @@ exports[`snapshots renders an input with size medium, disabled=false, required=t
 
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(77,83,86);
+  color: rgb(5,25,45);
   font-family: sans-serif;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
   line-height: 16px;
-  color: #3d4251;
+  color: #05192d;
   display: inline-block;
   -webkit-flex: 0 1 auto;
   -ms-flex: 0 1 auto;
@@ -1444,7 +1444,7 @@ exports[`snapshots renders an input with size medium, disabled=false, required=t
   background: white;
   border: 0;
   border-radius: 4px;
-  box-shadow: inset 0 0 0 1px rgb(209,211,216);
+  box-shadow: inset 0 0 0 1px rgb(239,239,239);
   box-sizing: border-box;
   display: inline-block;
   font-family: sans-serif;
@@ -1452,7 +1452,7 @@ exports[`snapshots renders an input with size medium, disabled=false, required=t
   margin: 0;
   vertical-align: baseline;
   -webkit-appearance: none;
-  color: rgb(61,66,81);
+  color: rgb(239,239,239);
   width: 100%;
 }
 
@@ -1463,27 +1463,27 @@ exports[`snapshots renders an input with size medium, disabled=false, required=t
 }
 
 .emotion-6:focus {
-  box-shadow: inset 0 0 0 1px rgb(51,170,204);
+  box-shadow: inset 0 0 0 1px rgb(3,239,98);
   outline: none;
 }
 
 .emotion-6::-webkit-input-placeholder {
-  color: rgb(133,144,148);
+  color: rgb(5,25,45);
   font-family: inherit;
 }
 
 .emotion-6::-moz-placeholder {
-  color: rgb(133,144,148);
+  color: rgb(5,25,45);
   font-family: inherit;
 }
 
 .emotion-6:-ms-input-placeholder {
-  color: rgb(133,144,148);
+  color: rgb(5,25,45);
   font-family: inherit;
 }
 
 .emotion-6::placeholder {
-  color: rgb(133,144,148);
+  color: rgb(5,25,45);
   font-family: inherit;
 }
 
@@ -1505,14 +1505,14 @@ exports[`snapshots renders an input with size medium, disabled=false, required=t
 
 .emotion-7 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(77,83,86);
+  color: rgb(5,25,45);
   font-family: sans-serif;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
   line-height: 16px;
-  color: #fe5c5c;
+  color: #ff5400;
   display: block;
   font-size: 14px;
   margin-top: 8px;
@@ -1527,27 +1527,27 @@ exports[`snapshots renders an input with size medium, disabled=false, required=t
 
 .emotion-1 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(77,83,86);
+  color: rgb(5,25,45);
   font-family: sans-serif;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
   line-height: 16px;
-  color: #fe5c5c;
+  color: #ff5400;
   margin-right: 4px;
 }
 
 .emotion-2 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(77,83,86);
+  color: rgb(5,25,45);
   font-family: sans-serif;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
   line-height: 16px;
-  color: #859094;
+  color: #05192d;
   display: inline-block;
   font-size: 14px;
 }
@@ -1635,14 +1635,14 @@ exports[`snapshots renders an input with size medium, disabled=false, required=u
 
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(77,83,86);
+  color: rgb(5,25,45);
   font-family: sans-serif;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
   line-height: 16px;
-  color: #3d4251;
+  color: #05192d;
   display: inline-block;
   -webkit-flex: 0 1 auto;
   -ms-flex: 0 1 auto;
@@ -1662,7 +1662,7 @@ exports[`snapshots renders an input with size medium, disabled=false, required=u
   background: white;
   border: 0;
   border-radius: 4px;
-  box-shadow: inset 0 0 0 1px rgb(209,211,216);
+  box-shadow: inset 0 0 0 1px rgb(239,239,239);
   box-sizing: border-box;
   display: inline-block;
   font-family: sans-serif;
@@ -1670,7 +1670,7 @@ exports[`snapshots renders an input with size medium, disabled=false, required=u
   margin: 0;
   vertical-align: baseline;
   -webkit-appearance: none;
-  color: rgb(61,66,81);
+  color: rgb(239,239,239);
   width: 100%;
 }
 
@@ -1681,27 +1681,27 @@ exports[`snapshots renders an input with size medium, disabled=false, required=u
 }
 
 .emotion-3:focus {
-  box-shadow: inset 0 0 0 1px rgb(51,170,204);
+  box-shadow: inset 0 0 0 1px rgb(3,239,98);
   outline: none;
 }
 
 .emotion-3::-webkit-input-placeholder {
-  color: rgb(133,144,148);
+  color: rgb(5,25,45);
   font-family: inherit;
 }
 
 .emotion-3::-moz-placeholder {
-  color: rgb(133,144,148);
+  color: rgb(5,25,45);
   font-family: inherit;
 }
 
 .emotion-3:-ms-input-placeholder {
-  color: rgb(133,144,148);
+  color: rgb(5,25,45);
   font-family: inherit;
 }
 
 .emotion-3::placeholder {
-  color: rgb(133,144,148);
+  color: rgb(5,25,45);
   font-family: inherit;
 }
 
@@ -1723,14 +1723,14 @@ exports[`snapshots renders an input with size medium, disabled=false, required=u
 
 .emotion-4 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(77,83,86);
+  color: rgb(5,25,45);
   font-family: sans-serif;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
   line-height: 16px;
-  color: #fe5c5c;
+  color: #ff5400;
   display: block;
   font-size: 14px;
   margin-top: 8px;
@@ -1805,14 +1805,14 @@ exports[`snapshots renders an input with size medium, disabled=true, required=fa
 
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(77,83,86);
+  color: rgb(5,25,45);
   font-family: sans-serif;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
   line-height: 16px;
-  color: #3d4251;
+  color: #05192d;
   display: inline-block;
   -webkit-flex: 0 1 auto;
   -ms-flex: 0 1 auto;
@@ -1832,7 +1832,7 @@ exports[`snapshots renders an input with size medium, disabled=true, required=fa
   background: white;
   border: 0;
   border-radius: 4px;
-  box-shadow: inset 0 0 0 1px rgb(209,211,216);
+  box-shadow: inset 0 0 0 1px rgb(239,239,239);
   box-sizing: border-box;
   display: inline-block;
   font-family: sans-serif;
@@ -1840,7 +1840,7 @@ exports[`snapshots renders an input with size medium, disabled=true, required=fa
   margin: 0;
   vertical-align: baseline;
   -webkit-appearance: none;
-  color: rgb(61,66,81);
+  color: rgb(239,239,239);
   width: 100%;
 }
 
@@ -1851,27 +1851,27 @@ exports[`snapshots renders an input with size medium, disabled=true, required=fa
 }
 
 .emotion-5:focus {
-  box-shadow: inset 0 0 0 1px rgb(51,170,204);
+  box-shadow: inset 0 0 0 1px rgb(3,239,98);
   outline: none;
 }
 
 .emotion-5::-webkit-input-placeholder {
-  color: rgb(133,144,148);
+  color: rgb(5,25,45);
   font-family: inherit;
 }
 
 .emotion-5::-moz-placeholder {
-  color: rgb(133,144,148);
+  color: rgb(5,25,45);
   font-family: inherit;
 }
 
 .emotion-5:-ms-input-placeholder {
-  color: rgb(133,144,148);
+  color: rgb(5,25,45);
   font-family: inherit;
 }
 
 .emotion-5::placeholder {
-  color: rgb(133,144,148);
+  color: rgb(5,25,45);
   font-family: inherit;
 }
 
@@ -1893,14 +1893,14 @@ exports[`snapshots renders an input with size medium, disabled=true, required=fa
 
 .emotion-6 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(77,83,86);
+  color: rgb(5,25,45);
   font-family: sans-serif;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
   line-height: 16px;
-  color: #fe5c5c;
+  color: #ff5400;
   display: block;
   font-size: 14px;
   margin-top: 8px;
@@ -1915,14 +1915,14 @@ exports[`snapshots renders an input with size medium, disabled=true, required=fa
 
 .emotion-1 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(77,83,86);
+  color: rgb(5,25,45);
   font-family: sans-serif;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
   line-height: 16px;
-  color: #859094;
+  color: #05192d;
   display: inline-block;
   font-size: 14px;
 }
@@ -2006,14 +2006,14 @@ exports[`snapshots renders an input with size medium, disabled=true, required=tr
 
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(77,83,86);
+  color: rgb(5,25,45);
   font-family: sans-serif;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
   line-height: 16px;
-  color: #3d4251;
+  color: #05192d;
   display: inline-block;
   -webkit-flex: 0 1 auto;
   -ms-flex: 0 1 auto;
@@ -2033,7 +2033,7 @@ exports[`snapshots renders an input with size medium, disabled=true, required=tr
   background: white;
   border: 0;
   border-radius: 4px;
-  box-shadow: inset 0 0 0 1px rgb(209,211,216);
+  box-shadow: inset 0 0 0 1px rgb(239,239,239);
   box-sizing: border-box;
   display: inline-block;
   font-family: sans-serif;
@@ -2041,7 +2041,7 @@ exports[`snapshots renders an input with size medium, disabled=true, required=tr
   margin: 0;
   vertical-align: baseline;
   -webkit-appearance: none;
-  color: rgb(61,66,81);
+  color: rgb(239,239,239);
   width: 100%;
 }
 
@@ -2052,27 +2052,27 @@ exports[`snapshots renders an input with size medium, disabled=true, required=tr
 }
 
 .emotion-6:focus {
-  box-shadow: inset 0 0 0 1px rgb(51,170,204);
+  box-shadow: inset 0 0 0 1px rgb(3,239,98);
   outline: none;
 }
 
 .emotion-6::-webkit-input-placeholder {
-  color: rgb(133,144,148);
+  color: rgb(5,25,45);
   font-family: inherit;
 }
 
 .emotion-6::-moz-placeholder {
-  color: rgb(133,144,148);
+  color: rgb(5,25,45);
   font-family: inherit;
 }
 
 .emotion-6:-ms-input-placeholder {
-  color: rgb(133,144,148);
+  color: rgb(5,25,45);
   font-family: inherit;
 }
 
 .emotion-6::placeholder {
-  color: rgb(133,144,148);
+  color: rgb(5,25,45);
   font-family: inherit;
 }
 
@@ -2094,14 +2094,14 @@ exports[`snapshots renders an input with size medium, disabled=true, required=tr
 
 .emotion-7 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(77,83,86);
+  color: rgb(5,25,45);
   font-family: sans-serif;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
   line-height: 16px;
-  color: #fe5c5c;
+  color: #ff5400;
   display: block;
   font-size: 14px;
   margin-top: 8px;
@@ -2116,27 +2116,27 @@ exports[`snapshots renders an input with size medium, disabled=true, required=tr
 
 .emotion-1 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(77,83,86);
+  color: rgb(5,25,45);
   font-family: sans-serif;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
   line-height: 16px;
-  color: #fe5c5c;
+  color: #ff5400;
   margin-right: 4px;
 }
 
 .emotion-2 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(77,83,86);
+  color: rgb(5,25,45);
   font-family: sans-serif;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
   line-height: 16px;
-  color: #859094;
+  color: #05192d;
   display: inline-block;
   font-size: 14px;
 }
@@ -2225,14 +2225,14 @@ exports[`snapshots renders an input with size medium, disabled=true, required=un
 
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(77,83,86);
+  color: rgb(5,25,45);
   font-family: sans-serif;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
   line-height: 16px;
-  color: #3d4251;
+  color: #05192d;
   display: inline-block;
   -webkit-flex: 0 1 auto;
   -ms-flex: 0 1 auto;
@@ -2252,7 +2252,7 @@ exports[`snapshots renders an input with size medium, disabled=true, required=un
   background: white;
   border: 0;
   border-radius: 4px;
-  box-shadow: inset 0 0 0 1px rgb(209,211,216);
+  box-shadow: inset 0 0 0 1px rgb(239,239,239);
   box-sizing: border-box;
   display: inline-block;
   font-family: sans-serif;
@@ -2260,7 +2260,7 @@ exports[`snapshots renders an input with size medium, disabled=true, required=un
   margin: 0;
   vertical-align: baseline;
   -webkit-appearance: none;
-  color: rgb(61,66,81);
+  color: rgb(239,239,239);
   width: 100%;
 }
 
@@ -2271,27 +2271,27 @@ exports[`snapshots renders an input with size medium, disabled=true, required=un
 }
 
 .emotion-3:focus {
-  box-shadow: inset 0 0 0 1px rgb(51,170,204);
+  box-shadow: inset 0 0 0 1px rgb(3,239,98);
   outline: none;
 }
 
 .emotion-3::-webkit-input-placeholder {
-  color: rgb(133,144,148);
+  color: rgb(5,25,45);
   font-family: inherit;
 }
 
 .emotion-3::-moz-placeholder {
-  color: rgb(133,144,148);
+  color: rgb(5,25,45);
   font-family: inherit;
 }
 
 .emotion-3:-ms-input-placeholder {
-  color: rgb(133,144,148);
+  color: rgb(5,25,45);
   font-family: inherit;
 }
 
 .emotion-3::placeholder {
-  color: rgb(133,144,148);
+  color: rgb(5,25,45);
   font-family: inherit;
 }
 
@@ -2313,14 +2313,14 @@ exports[`snapshots renders an input with size medium, disabled=true, required=un
 
 .emotion-4 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(77,83,86);
+  color: rgb(5,25,45);
   font-family: sans-serif;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
   line-height: 16px;
-  color: #fe5c5c;
+  color: #ff5400;
   display: block;
   font-size: 14px;
   margin-top: 8px;
@@ -2396,14 +2396,14 @@ exports[`snapshots renders an input with size small, disabled=false, required=fa
 
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(77,83,86);
+  color: rgb(5,25,45);
   font-family: sans-serif;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
   line-height: 16px;
-  color: #3d4251;
+  color: #05192d;
   display: inline-block;
   -webkit-flex: 0 1 auto;
   -ms-flex: 0 1 auto;
@@ -2417,14 +2417,14 @@ exports[`snapshots renders an input with size small, disabled=false, required=fa
 
 .emotion-6 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(77,83,86);
+  color: rgb(5,25,45);
   font-family: sans-serif;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
   line-height: 16px;
-  color: #fe5c5c;
+  color: #ff5400;
   display: block;
   font-size: 14px;
   margin-top: 8px;
@@ -2439,14 +2439,14 @@ exports[`snapshots renders an input with size small, disabled=false, required=fa
 
 .emotion-1 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(77,83,86);
+  color: rgb(5,25,45);
   font-family: sans-serif;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
   line-height: 16px;
-  color: #859094;
+  color: #05192d;
   display: inline-block;
   font-size: 14px;
 }
@@ -2459,7 +2459,7 @@ exports[`snapshots renders an input with size small, disabled=false, required=fa
   background: white;
   border: 0;
   border-radius: 4px;
-  box-shadow: inset 0 0 0 1px rgb(209,211,216);
+  box-shadow: inset 0 0 0 1px rgb(239,239,239);
   box-sizing: border-box;
   display: inline-block;
   font-family: sans-serif;
@@ -2467,7 +2467,7 @@ exports[`snapshots renders an input with size small, disabled=false, required=fa
   margin: 0;
   vertical-align: baseline;
   -webkit-appearance: none;
-  color: rgb(61,66,81);
+  color: rgb(239,239,239);
   width: 100%;
 }
 
@@ -2478,27 +2478,27 @@ exports[`snapshots renders an input with size small, disabled=false, required=fa
 }
 
 .emotion-5:focus {
-  box-shadow: inset 0 0 0 1px rgb(51,170,204);
+  box-shadow: inset 0 0 0 1px rgb(3,239,98);
   outline: none;
 }
 
 .emotion-5::-webkit-input-placeholder {
-  color: rgb(133,144,148);
+  color: rgb(5,25,45);
   font-family: inherit;
 }
 
 .emotion-5::-moz-placeholder {
-  color: rgb(133,144,148);
+  color: rgb(5,25,45);
   font-family: inherit;
 }
 
 .emotion-5:-ms-input-placeholder {
-  color: rgb(133,144,148);
+  color: rgb(5,25,45);
   font-family: inherit;
 }
 
 .emotion-5::placeholder {
-  color: rgb(133,144,148);
+  color: rgb(5,25,45);
   font-family: inherit;
 }
 
@@ -2596,14 +2596,14 @@ exports[`snapshots renders an input with size small, disabled=false, required=tr
 
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(77,83,86);
+  color: rgb(5,25,45);
   font-family: sans-serif;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
   line-height: 16px;
-  color: #3d4251;
+  color: #05192d;
   display: inline-block;
   -webkit-flex: 0 1 auto;
   -ms-flex: 0 1 auto;
@@ -2617,14 +2617,14 @@ exports[`snapshots renders an input with size small, disabled=false, required=tr
 
 .emotion-7 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(77,83,86);
+  color: rgb(5,25,45);
   font-family: sans-serif;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
   line-height: 16px;
-  color: #fe5c5c;
+  color: #ff5400;
   display: block;
   font-size: 14px;
   margin-top: 8px;
@@ -2639,27 +2639,27 @@ exports[`snapshots renders an input with size small, disabled=false, required=tr
 
 .emotion-1 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(77,83,86);
+  color: rgb(5,25,45);
   font-family: sans-serif;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
   line-height: 16px;
-  color: #fe5c5c;
+  color: #ff5400;
   margin-right: 4px;
 }
 
 .emotion-2 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(77,83,86);
+  color: rgb(5,25,45);
   font-family: sans-serif;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
   line-height: 16px;
-  color: #859094;
+  color: #05192d;
   display: inline-block;
   font-size: 14px;
 }
@@ -2672,7 +2672,7 @@ exports[`snapshots renders an input with size small, disabled=false, required=tr
   background: white;
   border: 0;
   border-radius: 4px;
-  box-shadow: inset 0 0 0 1px rgb(209,211,216);
+  box-shadow: inset 0 0 0 1px rgb(239,239,239);
   box-sizing: border-box;
   display: inline-block;
   font-family: sans-serif;
@@ -2680,7 +2680,7 @@ exports[`snapshots renders an input with size small, disabled=false, required=tr
   margin: 0;
   vertical-align: baseline;
   -webkit-appearance: none;
-  color: rgb(61,66,81);
+  color: rgb(239,239,239);
   width: 100%;
 }
 
@@ -2691,27 +2691,27 @@ exports[`snapshots renders an input with size small, disabled=false, required=tr
 }
 
 .emotion-6:focus {
-  box-shadow: inset 0 0 0 1px rgb(51,170,204);
+  box-shadow: inset 0 0 0 1px rgb(3,239,98);
   outline: none;
 }
 
 .emotion-6::-webkit-input-placeholder {
-  color: rgb(133,144,148);
+  color: rgb(5,25,45);
   font-family: inherit;
 }
 
 .emotion-6::-moz-placeholder {
-  color: rgb(133,144,148);
+  color: rgb(5,25,45);
   font-family: inherit;
 }
 
 .emotion-6:-ms-input-placeholder {
-  color: rgb(133,144,148);
+  color: rgb(5,25,45);
   font-family: inherit;
 }
 
 .emotion-6::placeholder {
-  color: rgb(133,144,148);
+  color: rgb(5,25,45);
   font-family: inherit;
 }
 
@@ -2814,14 +2814,14 @@ exports[`snapshots renders an input with size small, disabled=false, required=un
 
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(77,83,86);
+  color: rgb(5,25,45);
   font-family: sans-serif;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
   line-height: 16px;
-  color: #3d4251;
+  color: #05192d;
   display: inline-block;
   -webkit-flex: 0 1 auto;
   -ms-flex: 0 1 auto;
@@ -2835,14 +2835,14 @@ exports[`snapshots renders an input with size small, disabled=false, required=un
 
 .emotion-4 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(77,83,86);
+  color: rgb(5,25,45);
   font-family: sans-serif;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
   line-height: 16px;
-  color: #fe5c5c;
+  color: #ff5400;
   display: block;
   font-size: 14px;
   margin-top: 8px;
@@ -2856,7 +2856,7 @@ exports[`snapshots renders an input with size small, disabled=false, required=un
   background: white;
   border: 0;
   border-radius: 4px;
-  box-shadow: inset 0 0 0 1px rgb(209,211,216);
+  box-shadow: inset 0 0 0 1px rgb(239,239,239);
   box-sizing: border-box;
   display: inline-block;
   font-family: sans-serif;
@@ -2864,7 +2864,7 @@ exports[`snapshots renders an input with size small, disabled=false, required=un
   margin: 0;
   vertical-align: baseline;
   -webkit-appearance: none;
-  color: rgb(61,66,81);
+  color: rgb(239,239,239);
   width: 100%;
 }
 
@@ -2875,27 +2875,27 @@ exports[`snapshots renders an input with size small, disabled=false, required=un
 }
 
 .emotion-3:focus {
-  box-shadow: inset 0 0 0 1px rgb(51,170,204);
+  box-shadow: inset 0 0 0 1px rgb(3,239,98);
   outline: none;
 }
 
 .emotion-3::-webkit-input-placeholder {
-  color: rgb(133,144,148);
+  color: rgb(5,25,45);
   font-family: inherit;
 }
 
 .emotion-3::-moz-placeholder {
-  color: rgb(133,144,148);
+  color: rgb(5,25,45);
   font-family: inherit;
 }
 
 .emotion-3:-ms-input-placeholder {
-  color: rgb(133,144,148);
+  color: rgb(5,25,45);
   font-family: inherit;
 }
 
 .emotion-3::placeholder {
-  color: rgb(133,144,148);
+  color: rgb(5,25,45);
   font-family: inherit;
 }
 
@@ -2984,14 +2984,14 @@ exports[`snapshots renders an input with size small, disabled=true, required=fal
 
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(77,83,86);
+  color: rgb(5,25,45);
   font-family: sans-serif;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
   line-height: 16px;
-  color: #3d4251;
+  color: #05192d;
   display: inline-block;
   -webkit-flex: 0 1 auto;
   -ms-flex: 0 1 auto;
@@ -3005,14 +3005,14 @@ exports[`snapshots renders an input with size small, disabled=true, required=fal
 
 .emotion-6 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(77,83,86);
+  color: rgb(5,25,45);
   font-family: sans-serif;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
   line-height: 16px;
-  color: #fe5c5c;
+  color: #ff5400;
   display: block;
   font-size: 14px;
   margin-top: 8px;
@@ -3027,14 +3027,14 @@ exports[`snapshots renders an input with size small, disabled=true, required=fal
 
 .emotion-1 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(77,83,86);
+  color: rgb(5,25,45);
   font-family: sans-serif;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
   line-height: 16px;
-  color: #859094;
+  color: #05192d;
   display: inline-block;
   font-size: 14px;
 }
@@ -3047,7 +3047,7 @@ exports[`snapshots renders an input with size small, disabled=true, required=fal
   background: white;
   border: 0;
   border-radius: 4px;
-  box-shadow: inset 0 0 0 1px rgb(209,211,216);
+  box-shadow: inset 0 0 0 1px rgb(239,239,239);
   box-sizing: border-box;
   display: inline-block;
   font-family: sans-serif;
@@ -3055,7 +3055,7 @@ exports[`snapshots renders an input with size small, disabled=true, required=fal
   margin: 0;
   vertical-align: baseline;
   -webkit-appearance: none;
-  color: rgb(61,66,81);
+  color: rgb(239,239,239);
   width: 100%;
 }
 
@@ -3066,27 +3066,27 @@ exports[`snapshots renders an input with size small, disabled=true, required=fal
 }
 
 .emotion-5:focus {
-  box-shadow: inset 0 0 0 1px rgb(51,170,204);
+  box-shadow: inset 0 0 0 1px rgb(3,239,98);
   outline: none;
 }
 
 .emotion-5::-webkit-input-placeholder {
-  color: rgb(133,144,148);
+  color: rgb(5,25,45);
   font-family: inherit;
 }
 
 .emotion-5::-moz-placeholder {
-  color: rgb(133,144,148);
+  color: rgb(5,25,45);
   font-family: inherit;
 }
 
 .emotion-5:-ms-input-placeholder {
-  color: rgb(133,144,148);
+  color: rgb(5,25,45);
   font-family: inherit;
 }
 
 .emotion-5::placeholder {
-  color: rgb(133,144,148);
+  color: rgb(5,25,45);
   font-family: inherit;
 }
 
@@ -3185,14 +3185,14 @@ exports[`snapshots renders an input with size small, disabled=true, required=tru
 
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(77,83,86);
+  color: rgb(5,25,45);
   font-family: sans-serif;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
   line-height: 16px;
-  color: #3d4251;
+  color: #05192d;
   display: inline-block;
   -webkit-flex: 0 1 auto;
   -ms-flex: 0 1 auto;
@@ -3206,14 +3206,14 @@ exports[`snapshots renders an input with size small, disabled=true, required=tru
 
 .emotion-7 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(77,83,86);
+  color: rgb(5,25,45);
   font-family: sans-serif;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
   line-height: 16px;
-  color: #fe5c5c;
+  color: #ff5400;
   display: block;
   font-size: 14px;
   margin-top: 8px;
@@ -3228,27 +3228,27 @@ exports[`snapshots renders an input with size small, disabled=true, required=tru
 
 .emotion-1 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(77,83,86);
+  color: rgb(5,25,45);
   font-family: sans-serif;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
   line-height: 16px;
-  color: #fe5c5c;
+  color: #ff5400;
   margin-right: 4px;
 }
 
 .emotion-2 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(77,83,86);
+  color: rgb(5,25,45);
   font-family: sans-serif;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
   line-height: 16px;
-  color: #859094;
+  color: #05192d;
   display: inline-block;
   font-size: 14px;
 }
@@ -3261,7 +3261,7 @@ exports[`snapshots renders an input with size small, disabled=true, required=tru
   background: white;
   border: 0;
   border-radius: 4px;
-  box-shadow: inset 0 0 0 1px rgb(209,211,216);
+  box-shadow: inset 0 0 0 1px rgb(239,239,239);
   box-sizing: border-box;
   display: inline-block;
   font-family: sans-serif;
@@ -3269,7 +3269,7 @@ exports[`snapshots renders an input with size small, disabled=true, required=tru
   margin: 0;
   vertical-align: baseline;
   -webkit-appearance: none;
-  color: rgb(61,66,81);
+  color: rgb(239,239,239);
   width: 100%;
 }
 
@@ -3280,27 +3280,27 @@ exports[`snapshots renders an input with size small, disabled=true, required=tru
 }
 
 .emotion-6:focus {
-  box-shadow: inset 0 0 0 1px rgb(51,170,204);
+  box-shadow: inset 0 0 0 1px rgb(3,239,98);
   outline: none;
 }
 
 .emotion-6::-webkit-input-placeholder {
-  color: rgb(133,144,148);
+  color: rgb(5,25,45);
   font-family: inherit;
 }
 
 .emotion-6::-moz-placeholder {
-  color: rgb(133,144,148);
+  color: rgb(5,25,45);
   font-family: inherit;
 }
 
 .emotion-6:-ms-input-placeholder {
-  color: rgb(133,144,148);
+  color: rgb(5,25,45);
   font-family: inherit;
 }
 
 .emotion-6::placeholder {
-  color: rgb(133,144,148);
+  color: rgb(5,25,45);
   font-family: inherit;
 }
 
@@ -3404,14 +3404,14 @@ exports[`snapshots renders an input with size small, disabled=true, required=und
 
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(77,83,86);
+  color: rgb(5,25,45);
   font-family: sans-serif;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
   line-height: 16px;
-  color: #3d4251;
+  color: #05192d;
   display: inline-block;
   -webkit-flex: 0 1 auto;
   -ms-flex: 0 1 auto;
@@ -3425,14 +3425,14 @@ exports[`snapshots renders an input with size small, disabled=true, required=und
 
 .emotion-4 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(77,83,86);
+  color: rgb(5,25,45);
   font-family: sans-serif;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
   line-height: 16px;
-  color: #fe5c5c;
+  color: #ff5400;
   display: block;
   font-size: 14px;
   margin-top: 8px;
@@ -3446,7 +3446,7 @@ exports[`snapshots renders an input with size small, disabled=true, required=und
   background: white;
   border: 0;
   border-radius: 4px;
-  box-shadow: inset 0 0 0 1px rgb(209,211,216);
+  box-shadow: inset 0 0 0 1px rgb(239,239,239);
   box-sizing: border-box;
   display: inline-block;
   font-family: sans-serif;
@@ -3454,7 +3454,7 @@ exports[`snapshots renders an input with size small, disabled=true, required=und
   margin: 0;
   vertical-align: baseline;
   -webkit-appearance: none;
-  color: rgb(61,66,81);
+  color: rgb(239,239,239);
   width: 100%;
 }
 
@@ -3465,27 +3465,27 @@ exports[`snapshots renders an input with size small, disabled=true, required=und
 }
 
 .emotion-3:focus {
-  box-shadow: inset 0 0 0 1px rgb(51,170,204);
+  box-shadow: inset 0 0 0 1px rgb(3,239,98);
   outline: none;
 }
 
 .emotion-3::-webkit-input-placeholder {
-  color: rgb(133,144,148);
+  color: rgb(5,25,45);
   font-family: inherit;
 }
 
 .emotion-3::-moz-placeholder {
-  color: rgb(133,144,148);
+  color: rgb(5,25,45);
   font-family: inherit;
 }
 
 .emotion-3:-ms-input-placeholder {
-  color: rgb(133,144,148);
+  color: rgb(5,25,45);
   font-family: inherit;
 }
 
 .emotion-3::placeholder {
-  color: rgb(133,144,148);
+  color: rgb(5,25,45);
   font-family: inherit;
 }
 

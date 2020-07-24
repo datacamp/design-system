@@ -30,7 +30,7 @@ const textStyle = css({
 });
 
 const divStyle = css({
-  color: tokens.color.opaque.greyLight.value.hex,
+  color: tokens.color.neutral.grey200.value.hex,
   display: 'flex',
   marginTop: 0,
   position: 'relative',
@@ -93,7 +93,7 @@ const Checkbox = ({
         css={css(
           textStyle,
           elementDisabled && {
-            color: tokens.color.opaque.greyLight.value.hex,
+            color: tokens.color.neutral.grey100.value.hex,
           },
         )}
       >
