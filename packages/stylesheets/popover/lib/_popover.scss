@@ -2,7 +2,7 @@
 // Popovers
 // ------------------
 
-// In order to change the popover background-color 
+// In order to change the popover background-color
 // use the ".popover-trigger--primary" or ".popover-trigger--primary-dark" classes
 // on the triggering element(the one that's being clicked on)
 
@@ -17,10 +17,10 @@
   padding: 1px;
   font-weight: bold;
   text-align: center;
-  color: $dc-grey-dark;
+  color: $dc-navy-text;
   background-color: $dc-white;
   background-clip: padding-box;
-  border: 1px solid $dc-grey-lighter;
+  border: 1px solid $dc-grey-100;
   border-radius: $dc-border-radius;
 
   // Offset the popover to account for the popover arrow
@@ -68,7 +68,7 @@
     left: 50%;
     margin-left: -9px;
     border-bottom-width: 0;
-    border-top-color: $dc-grey-light;
+    border-top-color: $dc-grey-100;
     bottom: -9px;
     &:after {
       content: " ";
@@ -83,7 +83,7 @@
     left: -9px;
     margin-top: -9px;
     border-left-width: 0;
-    border-right-color: $dc-grey-light;
+    border-right-color: $dc-grey-100;
     &:after {
       content: " ";
       left: 1px;
@@ -96,7 +96,7 @@
     left: 50%;
     margin-left: -9px;
     border-top-width: 0;
-    border-bottom-color: $dc-grey-light;
+    border-bottom-color: $dc-grey-100;
     top: -9px;
     &:after {
       content: " ";
@@ -111,7 +111,7 @@
     top: 50%;
     right: -9px;
     margin-top: -9px;
-    border-left-color: $dc-grey-light;
+    border-left-color: $dc-grey-100;
     &:after {
       content: " ";
       right: auto;
@@ -125,33 +125,33 @@
 // This class should be used on the triggering element
 .popover-trigger--primary {
   & + .popover {
-    background-color: $dc-primary;
+    background-color: $dc-blue;
     color: $dc-white;
     border: 0;
 
     &.top > .arrow {
       border-top-color: transparent;
       &:after {
-        border-top-color: $dc-primary;
+        border-top-color: $dc-blue;
       }
     }
     &.right > .arrow {
       border-right-color: transparent;
       &:after {
-        border-right-color: $dc-primary;
+        border-right-color: $dc-blue;
       }
     }
     &.bottom > .arrow {
       border-bottom-color: transparent;
       &:after {
-        border-bottom-color: $dc-primary;
+        border-bottom-color: $dc-blue;
       }
     }
 
     &.left > .arrow {
       border-left-color: transparent;
       &:after {
-        border-left-color: $dc-primary;
+        border-left-color: $dc-blue;
       }
     }
   }
@@ -160,33 +160,33 @@
 // This class should be used on the triggering element
 .popover-trigger--primary-dark {
   & + .popover {
-    background-color: $dc-primary-dark;
+    background-color: $dc-navy;
     color: $dc-white;
     border: 0;
 
     &.top > .arrow {
       border-top-color: transparent;
       &:after {
-        border-top-color: $dc-primary-dark;
+        border-top-color: $dc-navy;
       }
     }
     &.right > .arrow {
       border-right-color: transparent;
       &:after {
-        border-right-color: $dc-primary-dark;
+        border-right-color: $dc-navy;
       }
     }
     &.bottom > .arrow {
       border-bottom-color: transparent;
       &:after {
-        border-bottom-color: $dc-primary-dark;
+        border-bottom-color: $dc-navy;
       }
     }
 
     &.left > .arrow {
       border-left-color: transparent;
       &:after {
-        border-left-color: $dc-primary-dark;
+        border-left-color: $dc-navy;
       }
     }
   }
