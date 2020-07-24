@@ -3,7 +3,7 @@
 exports[`<Tag /> creates a default tag 1`] = `
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(77,83,86);
+  color: rgb(5,25,45);
   font-family: sans-serif;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
@@ -14,7 +14,7 @@ exports[`<Tag /> creates a default tag 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  border: 1px solid #e6eaeb;
+  border: 1px solid #f7f7fc;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -30,9 +30,7 @@ exports[`<Tag /> creates a default tag 1`] = `
   position: relative;
   text-transform: uppercase;
   white-space: nowrap;
-  background-color: #ebf4f7;
   border-radius: 12px;
-  color: #3d4251;
 }
 
 <span

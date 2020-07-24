@@ -7,7 +7,7 @@ import React, { ReactElement } from 'react';
 
 const baseTagStyle = css({
   alignItems: 'center',
-  border: `1px solid ${tokens.color.opaque.greyLighter.value.hex}`,
+  border: `1px solid ${tokens.color.neutral.grey100.value.hex}`,
   display: 'inline-flex',
   fontSize: tokens.size.font[100].value,
   fontWeight: tokens.fontWeight.bold.value,
