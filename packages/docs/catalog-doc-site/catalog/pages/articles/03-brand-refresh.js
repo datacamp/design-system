@@ -60,6 +60,69 @@ export default () => {
                     When using <code>future-tokens</code>, the whole{' '}
                     <code>color.transparent</code> section has been removed.
                   </li>
+                  <li>
+                    All the colours have changed. The following colours have
+                    been removed from all forms of tokens, and will need to be
+                    replaced:
+                    <ul>
+                      <li>
+                        <code>geyser</code>
+                      </li>
+                      <li>
+                        <code>grey</code>
+                      </li>
+                      <li>
+                        <code>greyDark</code>
+                      </li>
+                      <li>
+                        <code>greyLight</code>
+                      </li>
+                      <li>
+                        <code>greyLighter</code>
+                      </li>
+                      <li>
+                        <code>greyOslo</code>
+                      </li>
+                      <li>
+                        <code>porcelain</code>
+                      </li>
+                      <li>
+                        <code>primary</code>
+                      </li>
+                      <li>
+                        <code>primaryDark</code>
+                      </li>
+                      <li>
+                        <code>primaryDarker</code>
+                      </li>
+                      <li>
+                        <code>primaryDarkest</code>
+                      </li>
+                      <li>
+                        <code>primaryLight</code>
+                      </li>
+                      <li>
+                        <code>primaryLighter</code>
+                      </li>
+                      <li>
+                        <code>primaryLightest</code>
+                      </li>
+                      <li>
+                        <code>raven</code>
+                      </li>
+                      <li>
+                        <code>secondary</code>
+                      </li>
+                      <li>
+                        <code>secondaryLight</code>
+                      </li>
+                      <li>
+                        <code>white</code>
+                      </li>
+                    </ul>
+                    Check the tokens documentation for details of the currently
+                    available colours.
+                  </li>
                 </ul>
               </li>
               <li>
@@ -105,6 +168,36 @@ export default () => {
                         <code>.dc-u-fill-white-transparent</code>
                       </li>
                     </ul>
+                  </li>
+                  <li>
+                    All the colours detailed above have had the associated scss
+                    variables and utility classes removed. These come in the
+                    following formats where the <code>*</code> is the name of
+                    the deprecated colour:
+                    <ul>
+                      <li>
+                        <code>$dc-*</code>
+                      </li>
+                      <li>
+                        <code>.dc-u-bgc-*</code>
+                      </li>
+                      <li>
+                        <code>.dc-u-bc-*</code>
+                      </li>
+                      <li>
+                        <code>.dc-u-color-*</code>
+                      </li>
+                      <li>
+                        <code>.dc-u-fill-*</code>
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    A number of already deprecated scss variables such as{' '}
+                    <code>$accent</code> have been removed.
+                  </li>
+                  <li>
+                    More details on deleted classes/components coming soon...
                   </li>
                 </ul>
               </li>
