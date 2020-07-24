@@ -3,11 +3,11 @@
 exports[`<Markdown /> renders 1`] = `
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(77,83,86);
+  color: rgb(5,25,45);
   font-family: sans-serif;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
-  color: rgb(61,66,81);
+  color: rgb(5,25,45);
   font-weight: 800;
   margin: 0;
   overflow: hidden;
@@ -27,11 +27,11 @@ exports[`<Markdown /> renders 1`] = `
 
 .emotion-1 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(77,83,86);
+  color: rgb(5,25,45);
   font-family: sans-serif;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
-  color: rgb(61,66,81);
+  color: rgb(5,25,45);
   font-weight: 800;
   margin: 0;
   overflow: hidden;
@@ -51,11 +51,11 @@ exports[`<Markdown /> renders 1`] = `
 
 .emotion-2 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(77,83,86);
+  color: rgb(5,25,45);
   font-family: sans-serif;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
-  color: rgb(61,66,81);
+  color: rgb(5,25,45);
   font-weight: 800;
   margin: 0;
   overflow: hidden;
@@ -75,11 +75,11 @@ exports[`<Markdown /> renders 1`] = `
 
 .emotion-3 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(77,83,86);
+  color: rgb(5,25,45);
   font-family: sans-serif;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
-  color: rgb(61,66,81);
+  color: rgb(5,25,45);
   font-weight: 800;
   margin: 0;
   overflow: hidden;
@@ -99,11 +99,11 @@ exports[`<Markdown /> renders 1`] = `
 
 .emotion-4 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(77,83,86);
+  color: rgb(5,25,45);
   font-family: sans-serif;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
-  color: rgb(61,66,81);
+  color: rgb(5,25,45);
   font-weight: 800;
   margin: 0;
   overflow: hidden;
@@ -123,11 +123,11 @@ exports[`<Markdown /> renders 1`] = `
 
 .emotion-5 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(77,83,86);
+  color: rgb(5,25,45);
   font-family: sans-serif;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
-  color: rgb(61,66,81);
+  color: rgb(5,25,45);
   font-weight: 800;
   margin: 0;
   overflow: hidden;
@@ -147,7 +147,7 @@ exports[`<Markdown /> renders 1`] = `
 
 .emotion-6 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(77,83,86);
+  color: rgb(5,25,45);
   font-family: sans-serif;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
@@ -157,7 +157,7 @@ exports[`<Markdown /> renders 1`] = `
 
 .emotion-8 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(77,83,86);
+  color: rgb(5,25,45);
   font-family: sans-serif;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
@@ -173,7 +173,7 @@ exports[`<Markdown /> renders 1`] = `
 
 .emotion-11 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(77,83,86);
+  color: rgb(5,25,45);
   font-family: sans-serif;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
@@ -184,7 +184,7 @@ exports[`<Markdown /> renders 1`] = `
 
 .emotion-29 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(77,83,86);
+  color: rgb(5,25,45);
   font-family: sans-serif;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
@@ -209,7 +209,7 @@ exports[`<Markdown /> renders 1`] = `
 .emotion-45 {
   border: 0;
   border-radius: 4px;
-  color: rgb(61,66,81);
+  color: rgb(5,25,45);
   font-family: monospace;
   font-family: JetBrainsMonoNL;
   font-size: 14px;
@@ -220,7 +220,7 @@ exports[`<Markdown /> renders 1`] = `
   line-height: 1.5;
   margin: 0;
   padding: 0;
-  background-color: rgb(235,244,247);
+  background-color: rgb(255,251,243);
   box-shadow: 0 0 0 1px #e6eaeb;
   margin-left: 2px;
   margin-right: 4px;
@@ -231,7 +231,7 @@ exports[`<Markdown /> renders 1`] = `
 }
 
 .emotion-48 {
-  background-color: rgb(235,244,247);
+  background-color: rgb(255,251,243);
   border: 0;
   border-radius: 4px;
   box-shadow: 0 0 0 1px #e6eaeb;
@@ -251,7 +251,7 @@ exports[`<Markdown /> renders 1`] = `
 .emotion-47 {
   border: 0;
   border-radius: 4px;
-  color: rgb(61,66,81);
+  color: rgb(5,25,45);
   font-family: monospace;
   font-family: JetBrainsMonoNL;
   font-size: 14px;
