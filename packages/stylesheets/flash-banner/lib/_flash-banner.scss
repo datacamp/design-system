@@ -121,7 +121,7 @@
 
 // Yellow / Notice
 .dc-flash--notice {
-  @include color-flash($bg: $dc-secondary, $link-color: $dc-secondary-light, $link-hover: $dc-white);
+  @include color-flash($bg: $dc-yellow, $link-color: $dc-yellow-light, $link-hover: $dc-white);
 }
 
 // Green / Success
