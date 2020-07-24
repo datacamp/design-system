@@ -9,8 +9,8 @@ import { css } from '@emotion/core';
 import React from 'react';
 
 const colors = {
-  error: tokens.color.opaque.red.value.hex,
-  success: tokens.color.opaque.green.value.hex,
+  error: tokens.color.primary.red.value.hex,
+  success: tokens.color.primary.green.value.hex,
 };
 
 const icons = {
@@ -80,7 +80,7 @@ const Toast = ({
           aria-label="Close Toast Notification"
           css={css({
             ':hover': {
-              backgroundColor: tokens.color.opaque.porcelain.value.hex,
+              backgroundColor: tokens.color.neutral.beige200.value.hex,
             },
             alignItems: 'center',
             ariaLabel: 'close',
