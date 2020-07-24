@@ -13,8 +13,8 @@
 
 .dc-tag {
   align-items: center;
-  background-color: $dc-primary-lightest;
-  border: 1px solid $dc-grey-lighter;
+  background-color: $dc-blue;
+  border: 1px solid $dc-grey-100;
   border-radius: 12px;
   display: inline-flex;
   font-size: $dc-font-size-micro;
@@ -34,7 +34,7 @@
 .dc-tag__close {
   background-color: $dc-white;
   border-radius: 50%;
-  color: $dc-primary;
+  color: $dc-blue;
   cursor: pointer;
   font-size: 8px;
   line-height: 0;
@@ -57,8 +57,8 @@
 
 .dc-tag--link {
   @include afh {
-    background-color: $dc-primary;
-    border-color: $dc-primary;
+    background-color: $dc-blue;
+    border-color: $dc-blue;
     color: $dc-white;
     cursor: pointer;
   }
@@ -84,19 +84,11 @@
   background-color: $dc-green;
 }
 
-.dc-tag--primary-light {
-  background-color: $dc-primary-light;
-}
-
-.dc-tag--secondary {
-  background-color: $dc-secondary;
-}
-
 .dc-tag--red {
   background-color: $dc-red;
 }
 
 .dc-tag--white {
   background-color: $dc-white;
-  color: $dc-grey-dark;
+  color: $dc-navy-text;
 }
