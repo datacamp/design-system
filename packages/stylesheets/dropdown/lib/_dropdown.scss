@@ -72,7 +72,7 @@
   z-index: 20;
 
   .dc-icon {
-    color: $dc-grey;
+    color: $dc-navy;
     opacity: 0.5;
   }
 }
@@ -86,10 +86,10 @@
 
   background-clip: padding-box;
   background-color: $dc-white;
-  border: solid 1px $dc-grey-lighter;
+  border: solid 1px $dc-grey-100;
   border-radius: $dc-border-radius;
   box-shadow: $dc-box-shadow-xl;
-  color: $dc-grey;
+  color: $dc-navy-text;
   display: none; // none by default, but block on "open" of the menu
   font-size: $dc-font-size-base; // Redeclare because nesting can cause inheritance issues
   min-width: 192px;
@@ -116,7 +116,7 @@
 
 .dc-dropdown__list--bordered {
   .dc-dropdown__item:not(:first-child) {
-    border-top: 1px solid $dc-grey-lighter;
+    border-top: 1px solid $dc-grey-100;
   }
 }
 
@@ -127,7 +127,7 @@
 .dc-dropdown__link {
   background-color: transparent;
   border: 0;
-  color: $dc-grey-dark;
+  color: $dc-navy-text;
   display: block;
   font-weight: $dc-font-weight-regular;
   line-height: 1;
@@ -138,8 +138,8 @@
   width: 100%;
 
   @include afh {
-    background-color: $dc-primary-lightest;
-    color: $dc-grey-dark;
+    background-color: $dc-beige-100;
+    color: $dc-navy-text;
     cursor: pointer;
   }
 
@@ -172,7 +172,7 @@
   .dc-dropdown__toggle::after {
     border: 5px solid transparent;
     border-bottom: 0;
-    border-top: 6px solid $dc-grey-oslo;
+    border-top: 6px solid $dc-grey-200;
     content: '';
     margin-left: 12px;
   }
@@ -201,7 +201,7 @@
   }
 
   .dc-dropdown__content::before {
-    border-bottom-color: $dc-grey-lighter;
+    border-bottom-color: $dc-grey-100;
     border-width: 4px;
     margin-left: -4px;
   }
@@ -228,14 +228,14 @@
 }
 
 .dc-dropdown--nav__link {
-  color: $dc-grey;
+  color: $dc-navy-text;
   display: block;
   transition: background-color $dc-transition, color $dc-transition;
 
   @include state {
-    background-color: $dc-primary-lightest;
+    background-color: $dc-beige-100;
     border-color: transparent;
-    color: $dc-grey-dark;
+    color: $dc-navy-text;
   }
 }
 
