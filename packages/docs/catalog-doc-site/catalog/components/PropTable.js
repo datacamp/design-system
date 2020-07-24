@@ -58,7 +58,7 @@ const PropTable = ({ componentData, componentName, id }) => {
               <td>{getTypeString(data)}</td>
               <td>
                 {data.required ? (
-                  <Text css={{ color: tokens.color.opaque.red.value.hex }}>
+                  <Text css={{ color: tokens.color.primary.redText.value.hex }}>
                     Required
                   </Text>
                 ) : (

@@ -1,25 +1,27 @@
+import tokens from '@datacamp/waffles-tokens/lib/future-tokens.json';
+
 export const logoSrc = '/logo-waffles-regular.svg';
 
 export const theme = {
-  background: '#f0f4f5',
-  brandColor: '#263e63',
-  codeColor: '#3d4251',
-  fontFamily: 'Studio-Feixen-Sans-Variable, sans-serif',
-  fontHeading: 'Studio-Feixen-Sans-Variable, sans-serif',
-  fontMono: "'Roboto Mono', monospace",
-  lightColor: '#d1d3d8',
-  linkColor: '#33aacc',
+  background: tokens.color.neutral.beige100.value.hex,
+  brandColor: tokens.color.primary.navy.value.hex,
+  codeColor: tokens.color.primary.navyText.value.hex,
+  fontFamily: tokens.asset.font.sansSerif.value,
+  fontHeading: tokens.asset.font.sansSerif.value,
+  fontMono: tokens.asset.font.mono.value,
+  lightColor: tokens.color.neutral.beige100.value.hex,
+  linkColor: tokens.color.primary.blueText.value.hex,
   navBarBackground: '#ffffff',
   navBarTextColor: '#3d4251',
   pageHeadingBackground: 'linear-gradient(268deg, #405f8f, #1c3050)',
   pageHeadingHeight: 140,
-  pageHeadingTextColor: '#fff',
-  sidebarColor: '#FFFFFF',
-  sidebarColorHeading: '#263e63',
-  sidebarColorLine: '#e6eaeb',
-  sidebarColorText: '#3d4251',
-  sidebarColorTextActive: '#33aacc',
-  textColor: '#3d4251',
+  pageHeadingTextColor: tokens.color.primary.white.value.hex,
+  sidebarColor: tokens.color.primary.navyDark.value.hex,
+  sidebarColorHeading: tokens.color.primary.green.value.hex,
+  sidebarColorLine: tokens.color.primary.navy.value.hex,
+  sidebarColorText: tokens.color.primary.white.value.hex,
+  sidebarColorTextActive: tokens.color.primary.green.value.hex,
+  textColor: tokens.color.primary.navyText.value.hex,
 };
 
 export const responsiveSizes = [
