@@ -2,7 +2,7 @@
   @include list-unstyled;
 
   align-items: flex-end;
-  border-bottom: 2px solid $dc-grey-light;
+  border-bottom: 2px solid $dc-grey-100;
   display: flex;
 }
 
@@ -17,7 +17,7 @@
 .dc-tabbed-nav__link {
   @include link-borderless;
 
-  color: $dc-grey;
+  color: $dc-navy-text;
   display: inline-block;
   font-size: $dc-font-size-small;
   font-weight: $dc-font-weight-regular;
@@ -26,13 +26,13 @@
   text-transform: uppercase;
 
   &.is-active {
-    color: $dc-primary;
+    color: $dc-green;
     font-weight: $dc-font-weight-bold;
 
     &::after {
-      background: $dc-primary;
+      background: $dc-green;
       border-radius: $dc-border-radius;
-      box-shadow: 0 2px 7px $dc-primary-light;
+      box-shadow: 0 2px 7px $dc-grey-100;
       content: '';
       height: 3px;
       left: 0;
