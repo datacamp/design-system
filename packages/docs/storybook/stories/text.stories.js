@@ -99,7 +99,7 @@ arrange(desc(gdpPercap))`}</CodeBlock>
     <>
       <Text>This is the default text</Text>
       <br />
-      <Text css={{ color: color.opaque.primaryDark.value.hex }}>
+      <Text css={{ color: color.primary.greenText.value.hex }}>
         This has additional style added using a css prop
       </Text>
       <br />
@@ -125,7 +125,7 @@ arrange(desc(gdpPercap))`}</CodeBlock>
       <Link href="https://datacamp.com">This is the default text</Link>
       <br />
       <Link
-        css={{ color: color.opaque.primaryDark.value.hex }}
+        css={{ color: color.primary.greenText.value.hex }}
         href="https://datacamp.com"
       >
         This has additional style added using a css prop
@@ -142,7 +142,7 @@ arrange(desc(gdpPercap))`}</CodeBlock>
       <br />
       <Strong>This is the default strong text</Strong>
       <br />
-      <Strong css={{ color: color.opaque.primaryDark.value.hex }}>
+      <Strong css={{ color: color.primary.greenText.value.hex }}>
         This has additional style added using a css prop
       </Strong>
       <br />
@@ -161,7 +161,7 @@ arrange(desc(gdpPercap))`}</CodeBlock>
       <br />
       <Emphasis>This is the default emphasis text</Emphasis>
       <br />
-      <Emphasis css={{ color: color.opaque.primaryDark.value.hex }}>
+      <Emphasis css={{ color: color.primary.greenText.value.hex }}>
         This has additional style added using a css prop
       </Emphasis>
       <br />
@@ -180,7 +180,7 @@ arrange(desc(gdpPercap))`}</CodeBlock>
       <br />
       <Small>This is the default small text</Small>
       <br />
-      <Small css={{ color: color.opaque.primaryDark.value.hex }}>
+      <Small css={{ color: color.primary.greenText.value.hex }}>
         This has additional style added using a css prop
       </Small>
       <br />
@@ -218,14 +218,14 @@ arrange(desc(gdpPercap))`}</CodeBlock>
         <Small>id malesuada nisi</Small> viverra consectetur. Donec auctor
         dapibus nisl sit amet tempor. Integer nec <Code>diam sit amet sem</Code>{' '}
         sollicitudin consectetur.{' '}
-        <Text css={{ color: color.opaque.primaryDark.value.hex }}>
+        <Text css={{ color: color.primary.greenText.value.hex }}>
           Vestibulum velit turpis
         </Text>
         , egestas eget massa non, consectetur volutpat quam. Sed eu mi eget sem
         euismod iaculis. Aenean a ante <Emphasis>mattis orci</Emphasis> dapibus
         pulvinar. Quisque convallis arcu eu neque tincidunt condimentum.
       </Paragraph>
-      <Paragraph css={{ color: color.opaque.primaryDark.value.hex }}>
+      <Paragraph css={{ color: color.primary.greenText.value.hex }}>
         This has additional style added using a css prop
       </Paragraph>
       <Paragraph className="example-class">
@@ -303,7 +303,7 @@ arrange(desc(gdpPercap))`}</CodeBlock>
         </Paragraph>
         <Heading
           as={element}
-          css={{ color: color.opaque.primaryDark.value.hex }}
+          css={{ color: color.primary.greenText.value.hex }}
           size={600}
         >
           This is a Heading with styling added using a css prop
@@ -341,7 +341,7 @@ gapminder %>%
   filter(year == 2007) %>%
   arrange(desc(gdpPercap))`}</CodeBlock>
       <CodeBlock
-        css={{ backgroundColor: color.opaque.greyLighter.value.rgb }}
+        css={{ backgroundColor: color.neutral.grey100.value.rgb }}
       >{`background colour set with css prop
 gapminder %>%
   filter(year == 2007) %>%
@@ -369,15 +369,15 @@ gapminder %>%
         This has additional style added using a css prop:
         <br />
         We&apos;ve already loaded the{' '}
-        <Code css={{ color: color.opaque.primaryDark.value.hex }}>
+        <Code css={{ color: color.primary.greenText.value.hex }}>
           Gapminder
         </Code>
         and{' '}
-        <Code css={{ color: color.opaque.primaryDark.value.hex }}>dplyr</Code>
+        <Code css={{ color: color.primary.greenText.value.hex }}>dplyr</Code>
         packages.
         <br />
         Type gapminder in your{' '}
-        <Code css={{ color: color.opaque.primaryDark.value.hex }}>
+        <Code css={{ color: color.primary.greenText.value.hex }}>
           R Terminal
         </Code>
         , to the right, to display the object.
