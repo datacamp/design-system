@@ -30,7 +30,9 @@ const ComponentTable = ({ components, nameFunction }) => {
           <td>
             <Code>{nameFunction(name)}</Code>
           </td>
-          <td css={{ backgroundColor: tokens.color.opaque.greyOslo.value.hex }}>
+          <td
+            css={{ backgroundColor: tokens.color.neutral.beige200.value.hex }}
+          >
             <Component />
           </td>
         </tr>
@@ -105,7 +107,7 @@ export default () => {
                 </td>
                 <td
                   css={{
-                    backgroundColor: tokens.color.opaque.greyOslo.value.hex,
+                    backgroundColor: tokens.color.neutral.beige200.value.hex,
                   }}
                 >
                   <DatacampLogo
