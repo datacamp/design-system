@@ -27,7 +27,7 @@ const labelStyle = css({
 });
 
 const textStyle = css({
-  color: tokens.color.opaque.greyDark.value.hex,
+  color: tokens.color.primary.navyText.value.hex,
   display: 'inline-block',
   flex: '0 1 auto',
   fontWeight: tokens.fontWeight.bold.value,
@@ -38,14 +38,14 @@ const textStyle = css({
 });
 
 const errorMessageStyle = css({
-  color: tokens.color.opaque.red.value.hex,
+  color: tokens.color.primary.red.value.hex,
   display: 'block',
   fontSize: '14px',
   marginTop: tokens.size.space[8].value,
 });
 
 const requiredStyle = css({
-  color: tokens.color.opaque.greyOslo.value.hex,
+  color: tokens.color.primary.navyText.value.hex,
   display: 'inline-block',
   fontSize: '14px',
 });
@@ -85,7 +85,7 @@ const Label = ({
                 <>
                   <Text
                     css={{
-                      color: tokens.color.opaque.red.value.hex,
+                      color: tokens.color.primary.red.value.hex,
                       marginRight: tokens.size.space[4].value,
                     }}
                   >

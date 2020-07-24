@@ -276,7 +276,7 @@ describe('with label', () => {
     );
     expect(getByText(testError)).toBeInTheDocument();
     expect(getByText(testError)).toHaveStyle(
-      `color: ${tokens.color.opaque.red.value.hex};`,
+      `color: ${tokens.color.primary.red.value.hex};`,
     );
     expect(getByText(testError)).toHaveStyle(`font-size: 14px;`);
   });
@@ -298,7 +298,7 @@ describe('with label', () => {
     );
     expect(getByText('Required')).toBeInTheDocument();
     expect(getByText('Required')).toHaveStyle(
-      `color: ${tokens.color.opaque.greyOslo.value.hex};`,
+      `color: ${tokens.color.primary.navyText.value.hex};`,
     );
     expect(getByText('Required')).toHaveStyle(`font-size: 14px;`);
   });
@@ -320,7 +320,7 @@ describe('with label', () => {
     );
     expect(getByText('Optional')).toBeInTheDocument();
     expect(getByText('Optional')).toHaveStyle(
-      `color: ${tokens.color.opaque.greyOslo.value.hex};`,
+      `color: ${tokens.color.primary.navyText.value.hex};`,
     );
     expect(getByText('Optional')).toHaveStyle(`font-size: 14px;`);
   });
