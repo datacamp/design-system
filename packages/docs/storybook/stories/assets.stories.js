@@ -5,7 +5,7 @@ import {
   Technologies,
   Topics,
 } from '@datacamp/waffles-asset-components';
-import { text } from '@storybook/addon-knobs';
+import { boolean, text } from '@storybook/addon-knobs';
 import { storiesOf } from '@storybook/react';
 import React from 'react';
 
@@ -34,10 +34,15 @@ storiesOf('waffles-asset-components', module)
     return <TechLogo technology={text('technology', 'R')} />;
   })
   .add('DatacampLogo', () => {
+    const logomarkColor = text('logomarkColor', '#03EF62');
     return (
-      <DatacampLogo
-        logomarkColor={text('logomarkColor', '#03EF62')}
-        wordmarkColor={text('wordmarkColor', '#05192D')}
-      />
+      <>
+        <DatacampLogo logomarkColor={logomarkColor} />
+        <DatacampLogo
+          logomarkColor={logomarkColor}
+          showWordmark
+          wordmarkColor={text('wordmarkColor', '#05192D')}
+        />
+      </>
     );
   });
