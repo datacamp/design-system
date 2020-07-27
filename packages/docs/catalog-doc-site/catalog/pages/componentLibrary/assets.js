@@ -100,8 +100,21 @@ export default () => {
             <table>
               <tr>
                 <td>
+                  <CodeBlock>{`<DatacampLogo logomarkColor="#03EF62" />`}</CodeBlock>
+                </td>
+                <td
+                  css={{
+                    backgroundColor: tokens.color.opaque.greyOslo.value.hex,
+                  }}
+                >
+                  <DatacampLogo logomarkColor="#03EF62" />
+                </td>
+              </tr>
+              <tr>
+                <td>
                   <CodeBlock>{`<DatacampLogo
   logomarkColor="#03EF62"
+  showWordmark
   wordmarkColor="#05192D"
 />`}</CodeBlock>
                 </td>
@@ -112,6 +125,7 @@ export default () => {
                 >
                   <DatacampLogo
                     logomarkColor="#03EF62"
+                    showWordmark
                     wordmarkColor="#05192D"
                   />
                 </td>
