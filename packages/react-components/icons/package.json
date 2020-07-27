@@ -46,7 +46,7 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.9.2",
-    "@types/react-native": "^0.60.31",
+    "@types/react-native": "^0.63.2",
     "prop-types": "^15.7.2",
     "react-native-svg": "^9.13.6"
   },
