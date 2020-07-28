@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0-beta.14](https://github.com/datacamp/design-system/compare/@datacamp/waffles-storybook@2.0.0-beta.13...@datacamp/waffles-storybook@2.0.0-beta.14) (2020-07-28)
+
+
+### Features
+
+* add story for DataCamp logo without wordmark ([7d73da0](https://github.com/datacamp/design-system/commit/7d73da0))
+* update colours in stories ([15d3e0f](https://github.com/datacamp/design-system/commit/15d3e0f))
+
+
+
+
+
 # [2.0.0-beta.13](https://github.com/datacamp/design-system/compare/@datacamp/waffles-storybook@2.0.0-beta.12...@datacamp/waffles-storybook@2.0.0-beta.13) (2020-07-23)
 
 **Note:** Version bump only for package @datacamp/waffles-storybook

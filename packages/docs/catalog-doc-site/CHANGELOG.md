@@ -3,6 +3,20 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0-beta.19](https://github.com/datacamp/design-system/compare/@datacamp/waffles-catalog-doc-site@2.0.0-beta.18...@datacamp/waffles-catalog-doc-site@2.0.0-beta.19) (2020-07-28)
+
+
+### Features
+
+* add doc for wordmark less Datacamp Logo ([904ef33](https://github.com/datacamp/design-system/commit/904ef33))
+* start documenting colour changes ([39502a8](https://github.com/datacamp/design-system/commit/39502a8))
+* update brand refresh article for transparent colour removal ([2686416](https://github.com/datacamp/design-system/commit/2686416))
+* update docsite colours V1 ([4196493](https://github.com/datacamp/design-system/commit/4196493))
+
+
+
+
+
 # [2.0.0-beta.18](https://github.com/datacamp/design-system/compare/@datacamp/waffles-catalog-doc-site@2.0.0-beta.17...@datacamp/waffles-catalog-doc-site@2.0.0-beta.18) (2020-07-23)
 
 

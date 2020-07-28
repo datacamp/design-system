@@ -3,6 +3,25 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0-beta.13](https://github.com/datacamp/design-system/compare/@datacamp/waffles-core@2.0.0-beta.12...@datacamp/waffles-core@2.0.0-beta.13) (2020-07-28)
+
+
+### Features
+
+* remove transparent colours ([89b8226](https://github.com/datacamp/design-system/commit/89b8226))
+* update the colours in core ([a52539d](https://github.com/datacamp/design-system/commit/a52539d))
+
+
+### BREAKING CHANGES
+
+* all the colours have changed, and a lot of classes have 
+been deprecated. Check the upgrading article for details
+* white-transparent and black-transparent no longer exist
+
+
+
+
+
 # [2.0.0-beta.12](https://github.com/datacamp/design-system/compare/@datacamp/waffles-core@2.0.0-beta.11...@datacamp/waffles-core@2.0.0-beta.12) (2020-07-23)
 
 

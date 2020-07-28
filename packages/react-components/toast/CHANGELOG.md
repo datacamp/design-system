@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0-beta.11](https://github.com/datacamp/design-system/compare/@datacamp/waffles-toast@2.0.0-beta.10...@datacamp/waffles-toast@2.0.0-beta.11) (2020-07-28)
+
+
+### Features
+
+* update toast colours V1 ([cd26f81](https://github.com/datacamp/design-system/commit/cd26f81))
+
+
+
+
+
 # [2.0.0-beta.10](https://github.com/datacamp/design-system/compare/@datacamp/waffles-toast@2.0.0-beta.9...@datacamp/waffles-toast@2.0.0-beta.10) (2020-07-23)
 
 **Note:** Version bump only for package @datacamp/waffles-toast

@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [4.0.0-beta.11](https://github.com/datacamp/design-system/compare/@datacamp/waffles-text@4.0.0-beta.10...@datacamp/waffles-text@4.0.0-beta.11) (2020-07-28)
+
+
+### Features
+
+* update text colours v1 ([e5aaeeb](https://github.com/datacamp/design-system/commit/e5aaeeb))
+
+
+
+
+
 # [4.0.0-beta.10](https://github.com/datacamp/design-system/compare/@datacamp/waffles-text@4.0.0-beta.9...@datacamp/waffles-text@4.0.0-beta.10) (2020-07-23)
 
 

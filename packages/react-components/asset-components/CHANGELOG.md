@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0-beta.2](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/card/compare/@datacamp/waffles-asset-components@2.0.0-beta.1...@datacamp/waffles-asset-components@2.0.0-beta.2) (2020-07-28)
+
+
+### Features
+
+* make wordmark optional on DatacampLogo component ([6346b6c](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/card/commit/6346b6c))
+
+
+
+
+
 # [2.0.0-beta.1](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/card/compare/@datacamp/waffles-asset-components@1.3.5...@datacamp/waffles-asset-components@2.0.0-beta.1) (2020-07-17)
 
 

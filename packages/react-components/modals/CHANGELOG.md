@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [6.0.0-beta.11](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/modals/compare/@datacamp/waffles-modals@6.0.0-beta.10...@datacamp/waffles-modals@6.0.0-beta.11) (2020-07-28)
+
+
+### Features
+
+* update modal colours V1 ([f00d87d](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/modals/commit/f00d87d))
+
+
+
+
+
 # [6.0.0-beta.10](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/modals/compare/@datacamp/waffles-modals@6.0.0-beta.9...@datacamp/waffles-modals@6.0.0-beta.10) (2020-07-23)
 
 **Note:** Version bump only for package @datacamp/waffles-modals

@@ -3,6 +3,25 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.0.0-beta.10](https://github.com/datacamp/design-system/compare/@datacamp/waffles-tokens@1.0.0-beta.9...@datacamp/waffles-tokens@1.0.0-beta.10) (2020-07-28)
+
+
+### Features
+
+* remove transparent colours ([89b8226](https://github.com/datacamp/design-system/commit/89b8226))
+* update colours in tokens ([eb3efad](https://github.com/datacamp/design-system/commit/eb3efad))
+
+
+### BREAKING CHANGES
+
+* All the colours have changed, and a lot have been 
+deprecated! check the migration article for more details
+* white-transparent and black-transparent no longer exist
+
+
+
+
+
 # [1.0.0-beta.9](https://github.com/datacamp/design-system/compare/@datacamp/waffles-tokens@1.0.0-beta.8...@datacamp/waffles-tokens@1.0.0-beta.9) (2020-07-23)
 
 
