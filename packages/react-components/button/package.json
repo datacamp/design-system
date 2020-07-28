@@ -32,7 +32,7 @@
   },
   "devDependencies": {
     "@babel/cli": "7.7.7",
-    "@babel/core": "7.10.3",
+    "@babel/core": "7.10.5",
     "@datacamp/waffles-axe-render": "^1.2.2",
     "@datacamp/waffles-babel-preset": "^1.4.12",
     "@datacamp/waffles-icons": "^1.10.6",
