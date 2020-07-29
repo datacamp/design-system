@@ -23,8 +23,8 @@ exports[`<Heading /> renders at each size renders at size 200, multiLine=false 1
 
 <h2
   class="example-class emotion-0"
-  data-cy="othertest"
   data-example="testdata"
+  data-item="othertest"
 >
   Some example text.
 </h2>
@@ -52,8 +52,8 @@ exports[`<Heading /> renders at each size renders at size 200, multiLine=true 1`
 
 <h2
   class="example-class emotion-0"
-  data-cy="othertest"
   data-example="testdata"
+  data-item="othertest"
 >
   Some example text.
 </h2>
@@ -82,8 +82,8 @@ exports[`<Heading /> renders at each size renders at size 300, multiLine=false 1
 
 <h2
   class="example-class emotion-0"
-  data-cy="othertest"
   data-example="testdata"
+  data-item="othertest"
 >
   Some example text.
 </h2>
@@ -111,8 +111,8 @@ exports[`<Heading /> renders at each size renders at size 300, multiLine=true 1`
 
 <h2
   class="example-class emotion-0"
-  data-cy="othertest"
   data-example="testdata"
+  data-item="othertest"
 >
   Some example text.
 </h2>
@@ -141,8 +141,8 @@ exports[`<Heading /> renders at each size renders at size 400, multiLine=false 1
 
 <h2
   class="example-class emotion-0"
-  data-cy="othertest"
   data-example="testdata"
+  data-item="othertest"
 >
   Some example text.
 </h2>
@@ -170,8 +170,8 @@ exports[`<Heading /> renders at each size renders at size 400, multiLine=true 1`
 
 <h2
   class="example-class emotion-0"
-  data-cy="othertest"
   data-example="testdata"
+  data-item="othertest"
 >
   Some example text.
 </h2>
@@ -200,8 +200,8 @@ exports[`<Heading /> renders at each size renders at size 500, multiLine=false 1
 
 <h2
   class="example-class emotion-0"
-  data-cy="othertest"
   data-example="testdata"
+  data-item="othertest"
 >
   Some example text.
 </h2>
@@ -229,8 +229,8 @@ exports[`<Heading /> renders at each size renders at size 500, multiLine=true 1`
 
 <h2
   class="example-class emotion-0"
-  data-cy="othertest"
   data-example="testdata"
+  data-item="othertest"
 >
   Some example text.
 </h2>
@@ -259,8 +259,8 @@ exports[`<Heading /> renders at each size renders at size 600, multiLine=false 1
 
 <h2
   class="example-class emotion-0"
-  data-cy="othertest"
   data-example="testdata"
+  data-item="othertest"
 >
   Some example text.
 </h2>
@@ -288,8 +288,8 @@ exports[`<Heading /> renders at each size renders at size 600, multiLine=true 1`
 
 <h2
   class="example-class emotion-0"
-  data-cy="othertest"
   data-example="testdata"
+  data-item="othertest"
 >
   Some example text.
 </h2>
@@ -318,8 +318,8 @@ exports[`<Heading /> renders at each size renders at size 700, multiLine=false 1
 
 <h2
   class="example-class emotion-0"
-  data-cy="othertest"
   data-example="testdata"
+  data-item="othertest"
 >
   Some example text.
 </h2>
@@ -347,8 +347,8 @@ exports[`<Heading /> renders at each size renders at size 700, multiLine=true 1`
 
 <h2
   class="example-class emotion-0"
-  data-cy="othertest"
   data-example="testdata"
+  data-item="othertest"
 >
   Some example text.
 </h2>
@@ -377,8 +377,8 @@ exports[`<Heading /> renders at each size renders at size 800, multiLine=false 1
 
 <h2
   class="example-class emotion-0"
-  data-cy="othertest"
   data-example="testdata"
+  data-item="othertest"
 >
   Some example text.
 </h2>
@@ -406,8 +406,8 @@ exports[`<Heading /> renders at each size renders at size 800, multiLine=true 1`
 
 <h2
   class="example-class emotion-0"
-  data-cy="othertest"
   data-example="testdata"
+  data-item="othertest"
 >
   Some example text.
 </h2>

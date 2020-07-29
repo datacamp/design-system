@@ -13,8 +13,8 @@ exports[`<Strong /> renders 1`] = `
 
 <strong
   class="example-class emotion-0"
-  data-cy="othertest"
   data-example="testdata"
+  data-item="othertest"
 >
   Some example text.
 </strong>

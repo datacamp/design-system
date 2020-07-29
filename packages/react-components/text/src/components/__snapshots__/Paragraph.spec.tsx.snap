@@ -76,8 +76,8 @@ exports[`<Paragraph /> renders with Strong, Small, Text, Link and Emphasis child
 
 <p
   class="example-class emotion-5"
-  data-cy="othertest"
   data-example="testdata"
+  data-item="othertest"
 >
   Some example text 
   <strong
@@ -136,8 +136,8 @@ exports[`<Paragraph /> renders with a string 1`] = `
 
 <p
   class="example-class emotion-0"
-  data-cy="othertest"
   data-example="testdata"
+  data-item="othertest"
 >
   Some example text.
 </p>

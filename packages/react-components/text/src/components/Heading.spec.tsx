@@ -7,7 +7,7 @@ import Heading, { Size } from './Heading';
 
 const testText = 'Some example text.';
 const testClassName = 'example-class';
-const testDataAttributes = { cy: 'othertest', example: 'testdata' };
+const testDataAttributes = { example: 'testdata', item: 'othertest' };
 
 const headerSizes: Size[] = [200, 300, 400, 500, 600, 700, 800];
 
@@ -67,8 +67,8 @@ describe('<Heading />', () => {
       </Heading>,
     );
     expect(getByText(testText)).toHaveAttribute(
-      'data-cy',
-      testDataAttributes.cy,
+      'data-item',
+      testDataAttributes.item,
     );
     expect(getByText(testText)).toHaveAttribute(
       'data-example',

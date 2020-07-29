@@ -34,8 +34,8 @@ exports[`<Small /> renders with Strong and Emphasis children 1`] = `
 
 <small
   class="example-class emotion-2"
-  data-cy="othertest"
   data-example="testdata"
+  data-item="othertest"
 >
   Some example text 
   <strong
@@ -67,8 +67,8 @@ exports[`<Small /> renders with a string 1`] = `
 
 <small
   class="example-class emotion-0"
-  data-cy="othertest"
   data-example="testdata"
+  data-item="othertest"
 >
   Some example text.
 </small>

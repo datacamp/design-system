@@ -7,7 +7,7 @@ import Emphasis from './Emphasis';
 
 const testText = 'Some example text.';
 const testClassName = 'example-class';
-const testDataAttributes = { cy: 'othertest', example: 'testdata' };
+const testDataAttributes = { example: 'testdata', item: 'othertest' };
 
 describe('<Emphasis />', () => {
   it('renders', async () => {
@@ -36,8 +36,8 @@ describe('<Emphasis />', () => {
       <Emphasis dataAttributes={testDataAttributes}>{testText}</Emphasis>,
     );
     expect(getByText(testText)).toHaveAttribute(
-      'data-cy',
-      testDataAttributes.cy,
+      'data-item',
+      testDataAttributes.item,
     );
     expect(getByText(testText)).toHaveAttribute(
       'data-example',
