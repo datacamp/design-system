@@ -9,7 +9,7 @@ import Text from './Text';
 
 const testText = 'Some example text.';
 const testClassName = 'example-class';
-const testDataAttributes = { cy: 'othertest', example: 'testdata' };
+const testDataAttributes = { example: 'testdata', item: 'othertest' };
 
 describe('<Text />', () => {
   it('renders with a string', async () => {
@@ -56,8 +56,8 @@ describe('<Text />', () => {
       <Text dataAttributes={testDataAttributes}>{testText}</Text>,
     );
     expect(getByText(testText)).toHaveAttribute(
-      'data-cy',
-      testDataAttributes.cy,
+      'data-item',
+      testDataAttributes.item,
     );
     expect(getByText(testText)).toHaveAttribute(
       'data-example',

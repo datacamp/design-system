@@ -14,8 +14,8 @@ exports[`<Emphasis /> renders 1`] = `
 
 <em
   class="example-class emotion-0"
-  data-cy="othertest"
   data-example="testdata"
+  data-item="othertest"
 >
   Some example text.
 </em>
