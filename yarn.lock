@@ -1526,10 +1526,10 @@
     debug "^3.1.0"
     lodash.once "^4.1.1"
 
-"@datacamp/eslint-config@^1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@datacamp/eslint-config/-/eslint-config-1.0.1.tgz#6e175001f197e4c17d8cd2cd886364b0f465c29b"
-  integrity sha512-SlN5OftUxRB6vbQZzy/wuc/TFD+BdxFIZ4aqHGIGOO2t9decL0aZGpylKZE3A2qiIQt17jHIywN0ttBdMy4kVw==
+"@datacamp/eslint-config@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@datacamp/eslint-config/-/eslint-config-1.1.0.tgz#4d5faf9a1b7d59d01e4c08b2a12c806d8cd81159"
+  integrity sha512-XEvkKwSUaGaz3UnVm8MQQuA22p5h8T6BV8X0jA5hqr+wn/fY/GHplRucftrVjKrhSNyzER79eOwxp8p05ikv5Q==
   dependencies:
     "@typescript-eslint/eslint-plugin" "^2.9.0"
     "@typescript-eslint/parser" "^2.9.0"
@@ -1541,7 +1541,7 @@
     eslint-plugin-json "^2.0.1"
     eslint-plugin-prettier "^3.1.0"
     eslint-plugin-react "^7.16.0"
-    eslint-plugin-react-hooks "^2.2.0"
+    eslint-plugin-react-hooks "^3.0.0"
     eslint-plugin-simple-import-sort "^5.0.0"
     eslint-plugin-sort-keys-fix "^1.0.1"
     eslint-plugin-typescript-sort-keys "^0.5.0"
@@ -9584,10 +9584,10 @@ eslint-plugin-prettier@^3.1.0:
   dependencies:
     prettier-linter-helpers "^1.0.0"
 
-eslint-plugin-react-hooks@^2.2.0:
-  version "2.5.1"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-react-hooks/-/eslint-plugin-react-hooks-2.5.1.tgz#4ef5930592588ce171abeb26f400c7fbcbc23cd0"
-  integrity sha512-Y2c4b55R+6ZzwtTppKwSmK/Kar8AdLiC2f9NADCuxbcTgPPg41Gyqa6b9GppgXSvCtkRw43ZE86CT5sejKC6/g==
+eslint-plugin-react-hooks@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-react-hooks/-/eslint-plugin-react-hooks-3.0.0.tgz#9e80c71846eb68dd29c3b21d832728aa66e5bd35"
+  integrity sha512-EjxTHxjLKIBWFgDJdhKKzLh5q+vjTFrqNZX36uIxWS4OfyXe5DawqPj3U5qeJ1ngLwatjzQnmR0Lz0J0YH3kxw==
 
 eslint-plugin-react@^7.16.0:
   version "7.19.0"
