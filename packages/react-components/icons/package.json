@@ -29,7 +29,7 @@
     "@svgr/core": "^5.4.0",
     "@svgr/plugin-prettier": "^5.4.0",
     "@svgr/plugin-svgo": "^5.4.0",
-    "@types/react": "^16.9.9",
+    "@types/react": "^16.9.43",
     "camelcase": "^6.0.0",
     "gulp": "^4.0.2",
     "gulp-babel": "^8.0.0",
