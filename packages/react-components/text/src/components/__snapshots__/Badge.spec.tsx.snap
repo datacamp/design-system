@@ -13,7 +13,7 @@ exports[`Badge renders with the provided colour, className and content 1`] = `
   display: inline-block;
   text-transform: uppercase;
   background-color: black;
-  color: white;
+  color: #ffffff;
   font-size: 14px;
   line-height: 18px;
   padding-left: 4px;

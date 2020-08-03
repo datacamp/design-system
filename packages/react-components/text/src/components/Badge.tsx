@@ -48,12 +48,15 @@ const sizeStyles = {
 };
 
 const getTextColor = (backgroundColor: string): string => {
-  // This should be 4.5 for compliance. 2.7 is just low enough to give white
-  // text on #3ac background
-  if (tinycolor.readability(backgroundColor, 'white') > 2.7) {
-    return 'white';
+  if (
+    tinycolor.readability(
+      backgroundColor,
+      tokens.color.primary.navyText.value.hex,
+    ) > 4.5
+  ) {
+    return tokens.color.primary.navyText.value.hex;
   }
-  return 'rgba(12, 22, 38, 0.8)';
+  return tokens.color.primary.white.value.hex;
 };
 
 const Badge = ({
