@@ -26,10 +26,9 @@ export interface CodeBlockProps {
 }
 
 const preStyle = css({
-  backgroundColor: tokens.color.neutral.beige100.value.rgb,
+  backgroundColor: tokens.color.neutral.beige300.value.rgb,
   border: 0,
   borderRadius: tokens.radii.small.value,
-  boxShadow: tokens.shadow.border.value,
   lineHeight: tokens.lineHeight.base.value,
   margin: 0,
   overflow: 'scroll',
