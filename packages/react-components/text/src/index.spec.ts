@@ -4,7 +4,6 @@ import AlternateHeading from './alternateComponents/AlternateHeading';
 import AlternateListItem from './alternateComponents/AlternateListItem';
 import PlainString from './alternateComponents/PlainString';
 import Badge from './components/Badge';
-import BetaBadge from './components/BetaBadge';
 import Code from './components/Code';
 import CodeBlock from './components/CodeBlock';
 import Emphasis from './components/Emphasis';
@@ -30,7 +29,6 @@ describe('index', () => {
         PlainString,
       },
       Badge,
-      BetaBadge,
       Code,
       CodeBlock,
       Emphasis,
