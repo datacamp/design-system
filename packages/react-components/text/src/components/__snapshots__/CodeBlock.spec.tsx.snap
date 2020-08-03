@@ -2,10 +2,9 @@
 
 exports[`<CodeBlock /> snapshots renders 1`] = `
 .emotion-1 {
-  background-color: rgb(255,251,243);
+  background-color: rgb(239,235,228);
   border: 0;
   border-radius: 4px;
-  box-shadow: 0 0 0 1px #e6eaeb;
   line-height: 1.5;
   margin: 0;
   overflow: scroll;
