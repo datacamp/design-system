@@ -15,8 +15,7 @@ exports[`snapshots renders 1`] = `
   line-height: 1.5;
   margin: 0;
   padding: 0;
-  background-color: rgb(255,251,243);
-  box-shadow: 0 0 0 1px #e6eaeb;
+  background-color: rgb(239,235,228);
   margin-left: 2px;
   margin-right: 4px;
   padding-bottom: 0;
