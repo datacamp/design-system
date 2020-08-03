@@ -18,8 +18,8 @@ exports[`<Text /> renders with a string 1`] = `
 
 <a
   class="example-class emotion-0"
-  data-cy="othertest"
   data-example="testdata"
+  data-item="othertest"
   href="https://datacamp.com"
 >
   Some example text.

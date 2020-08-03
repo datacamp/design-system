@@ -34,7 +34,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### BREAKING CHANGES
 
-* Font weights have been updated to work with new 
+* Font weights have been updated to work with new
 branding
 * The sans-serif font has changed from Lato to Studio-Feixen-Sans-Variable
 
@@ -51,6 +51,22 @@ branding
 
 
 # [2.0.0-beta.9](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/tag/compare/@datacamp/waffles-tag@2.0.0-beta.8...@datacamp/waffles-tag@2.0.0-beta.9) (2020-07-13)
+
+**Note:** Version bump only for package @datacamp/waffles-tag
+
+
+
+
+
+## [1.2.21](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/tag/compare/@datacamp/waffles-tag@1.2.20...@datacamp/waffles-tag@1.2.21) (2020-07-30)
+
+**Note:** Version bump only for package @datacamp/waffles-tag
+
+
+
+
+
+## [1.2.20](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/tag/compare/@datacamp/waffles-tag@1.2.19...@datacamp/waffles-tag@1.2.20) (2020-07-17)
 
 **Note:** Version bump only for package @datacamp/waffles-tag
 

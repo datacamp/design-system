@@ -24,8 +24,8 @@ exports[`<Text /> renders with Small children 1`] = `
 
 <span
   class="example-class emotion-1"
-  data-cy="othertest"
   data-example="testdata"
+  data-item="othertest"
 >
   Some example text 
   <small
@@ -61,8 +61,8 @@ exports[`<Text /> renders with Strong children 1`] = `
 
 <span
   class="example-class emotion-1"
-  data-cy="othertest"
   data-example="testdata"
+  data-item="othertest"
 >
   Some example text 
   <strong
@@ -88,8 +88,8 @@ exports[`<Text /> renders with a string 1`] = `
 
 <span
   class="example-class emotion-0"
-  data-cy="othertest"
   data-example="testdata"
+  data-item="othertest"
 >
   Some example text.
 </span>

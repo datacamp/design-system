@@ -7,7 +7,7 @@ import Strong from './Strong';
 
 const testText = 'Some example text.';
 const testClassName = 'example-class';
-const testDataAttributes = { cy: 'othertest', example: 'testdata' };
+const testDataAttributes = { example: 'testdata', item: 'othertest' };
 
 describe('<Strong />', () => {
   it('renders', async () => {
@@ -36,8 +36,8 @@ describe('<Strong />', () => {
       <Strong dataAttributes={testDataAttributes}>{testText}</Strong>,
     );
     expect(getByText(testText)).toHaveAttribute(
-      'data-cy',
-      testDataAttributes.cy,
+      'data-item',
+      testDataAttributes.item,
     );
     expect(getByText(testText)).toHaveAttribute(
       'data-example',

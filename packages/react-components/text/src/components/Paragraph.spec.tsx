@@ -12,7 +12,7 @@ import Text from './Text';
 
 const testText = 'Some example text.';
 const testClassName = 'example-class';
-const testDataAttributes = { cy: 'othertest', example: 'testdata' };
+const testDataAttributes = { example: 'testdata', item: 'othertest' };
 
 describe('<Paragraph />', () => {
   it('renders with a string', async () => {
@@ -53,8 +53,8 @@ describe('<Paragraph />', () => {
       <Paragraph dataAttributes={testDataAttributes}>{testText}</Paragraph>,
     );
     expect(getByText(testText)).toHaveAttribute(
-      'data-cy',
-      testDataAttributes.cy,
+      'data-item',
+      testDataAttributes.item,
     );
     expect(getByText(testText)).toHaveAttribute(
       'data-example',
