@@ -70,6 +70,11 @@ exports[`<Paragraph /> renders with Strong, Small, Text, Link and Emphasis child
   font-size: 16px;
   font-weight: 400;
   line-height: 16px;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.emotion-4:hover {
   -webkit-text-decoration: underline;
   text-decoration: underline;
 }
