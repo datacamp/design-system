@@ -37,6 +37,7 @@ describe('Badge', () => {
         `padding-right: ${tokens.size.space[4].value}px`,
       );
     });
+
     it('renders a large badge', async () => {
       const { getByText } = await axeRender(
         <Badge color="black" size="large">
@@ -63,17 +64,21 @@ describe('Badge', () => {
         </Badge>,
       );
       const element = getByText(testContent) as HTMLElement;
-      expect(element).toHaveStyle('color: white');
+      expect(element).toHaveStyle(
+        `color: ${tokens.color.primary.white.value.hex}`,
+      );
     });
 
-    it('sets the text color to dark transparent grey on a light background', async () => {
+    it('sets the text color to navyText on a neutral background', async () => {
       const { getByText } = await axeRender(
         <Badge color={tokens.color.neutral.beige100.value.hex}>
           {testContent}
         </Badge>,
       );
       const element = getByText(testContent) as HTMLElement;
-      expect(element).toHaveStyle('color: rgba(12, 22, 38, 0.8)');
+      expect(element).toHaveStyle(
+        `color: ${tokens.color.primary.navyText.value.hex}`,
+      );
     });
   });
 });
