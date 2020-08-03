@@ -1,4 +1,3 @@
-import Tag from '@datacamp/waffles-tag';
 import { pageLoader } from 'catalog';
 
 const utilityClassPages = [
@@ -261,7 +260,6 @@ const pages = [
   },
   {
     content: pageLoader(() => import('../../pages/stylesheets/tag.md')),
-    imports: { Tag },
     path: '/stylesheets/tag',
     title: 'Tag',
   },
