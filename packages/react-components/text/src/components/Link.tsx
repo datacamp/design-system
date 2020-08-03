@@ -27,12 +27,15 @@ interface LinkProps {
 }
 
 const linkStyle = css(baseStyle, {
+  ':hover': {
+    textDecoration: 'underline',
+  },
   color: tokens.color.primary.blueText.value.hex,
   cursor: 'pointer',
   fontSize: tokens.size.font[300].value,
   fontWeight: tokens.fontWeight.regular.value,
   lineHeight: tokens.size.font.base.value,
-  textDecoration: 'underline',
+  textDecoration: 'none',
 });
 
 const Link = ({
