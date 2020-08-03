@@ -2,7 +2,6 @@ import './styles.css';
 
 import {
   Badge,
-  BetaBadge,
   Code,
   CodeBlock,
   Emphasis,
@@ -418,7 +417,6 @@ gapminder %>%
         <Badge color="rgb(207, 220, 225)" size="large">
           Badge
         </Badge>
-        <BetaBadge />
       </div>
       <div
         css={{
