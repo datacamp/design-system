@@ -1,5 +1,6 @@
-import Tag from '@datacamp/waffles-tag';
 /* @jsx jsx */
+import { Badge } from '@datacamp/waffles-text';
+import tokens from '@datacamp/waffles-tokens/lib/future-tokens.json';
 import { jsx } from '@emotion/core';
 import { Page } from 'catalog';
 import React from 'react';
@@ -51,9 +52,9 @@ const components = [
 ];
 
 const tagColorMap = {
-  Available: 'green',
-  Planned: 'purple',
-  'Under Consideration': 'greyLighter',
+  Available: tokens.color.primary.green.value.hex,
+  Planned: tokens.color.primary.purple.value.hex,
+  'Under Consideration': tokens.color.neutral.beige300.value.hex,
 };
 
 export default () => {
@@ -103,7 +104,9 @@ export default () => {
                   <tr key={name}>
                     <td>{docLink ? <a href={docLink}>{name}</a> : name}</td>
                     <td css={{ textAlign: 'right' }}>
-                      <Tag color={tagColorMap[status]}>{status}</Tag>
+                      <Badge color={tagColorMap[status]} size="large">
+                        {status}
+                      </Badge>
                     </td>
                   </tr>
                 ))}
