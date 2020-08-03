@@ -231,6 +231,18 @@ export default () => {
                   </li>
                 </ul>
               </li>
+              <li>
+                <code>@datacamp/waffles-text</code>
+                <ul>
+                  <li>
+                    The <code>BetaBadge</code> component has been removed. This
+                    was previously a wrapper around the <code>Badge</code>{' '}
+                    component, that added the purple gradient background. Since
+                    there are no longer gradients, the <code>Badge</code>{' '}
+                    component can be used.
+                  </li>
+                </ul>
+              </li>
             </ul>
           </div>
         </section>
