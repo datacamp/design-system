@@ -42,9 +42,13 @@
     "@datacamp/waffles-cypress-axe-config": "^1.1.1",
     "@percy/storybook": "3.3.0",
     "@storybook/addon-a11y": "5.3.19",
+    "@storybook/preset-scss": "^1.0.2",
     "babel-loader": "8.1.0",
+    "css-loader": "^4.2.0",
     "cypress-axe": "^0.8.1",
     "cypress-storybook": "^0.2.1",
+    "sass-loader": "^9.0.2",
+    "style-loader": "^1.2.1",
     "webpack": "4.41.5",
     "webpack-bundle-analyzer": "3.8.0"
   }
