@@ -197,6 +197,11 @@ export default () => {
                     <code>$accent</code> have been removed.
                   </li>
                   <li>
+                    The <code>getColor</code> and <code>getContrastColor</code>{' '}
+                    javascript functions have been removed. Please access color
+                    values directly from the tokens.
+                  </li>
+                  <li>
                     More details on deleted classes/components coming soon...
                   </li>
                 </ul>
