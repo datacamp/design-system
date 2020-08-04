@@ -1,10 +1,9 @@
-import { getColor, getContrastColor } from '@datacamp/waffles-core';
 import { colors } from '@datacamp/waffles-tokens';
 import { Page } from 'catalog';
+import _ from 'lodash';
 import React from 'react';
 
 import CustomHeader from '../../../components/CustomHeader';
-import dashify from '../../../helpers/dashify';
 
 export default () => {
   const obj = Object.keys(colors);
@@ -30,13 +29,12 @@ export default () => {
                 className="dc-u-fx dc-u-fx-fdc dc-u-fx-aic dc-u-fx-jcc"
                 key={name}
                 style={{
-                  background: getColor(name),
-                  color: getContrastColor(name),
+                  background: colors[name],
                   height: '128px',
                   width: '256px',
                 }}
               >
-                <code>{`.dc-u-bgc-${dashify(name)}`}</code>
+                <code>{`.dc-u-bgc-${_.kebabCase(name)}`}</code>
               </li>
             ))}
           </ul>
