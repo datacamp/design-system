@@ -53,7 +53,7 @@
     "react-dom": "16.8.6"
   },
   "dependencies": {
-    "@babel/runtime": "^7.9.2",
+    "@babel/runtime": "^7.11.0",
     "@datacamp/waffles-icons": "^1.10.7",
     "@datacamp/waffles-text": "^3.0.14",
     "@datacamp/waffles-tokens": "^0.6.13",
