@@ -215,6 +215,17 @@ export default () => {
                   </li>
                 </ul>
               </li>
+              <li>
+                <code>@datacamp/waffles-tag</code>
+                <ul>
+                  <li>
+                    The Tag component has been removed. The Badge component from
+                    the <code>@datacamp/waffles-text</code> package should be
+                    used instead. The scss <code>dc-tag-*</code> classes still
+                    remain.
+                  </li>
+                </ul>
+              </li>
             </ul>
           </div>
         </section>
