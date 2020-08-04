@@ -1,9 +1,9 @@
 import { breakpoints } from '@datacamp/waffles-tokens';
 import { Page } from 'catalog';
+import _ from 'lodash';
 import React from 'react';
 
 import CustomHeader from '../../../components/CustomHeader';
-import dashify from '../../../helpers/dashify';
 import whitelist from '../../../helpers/whitelist';
 
 const blacklist = ['ws', '4K', '5K', 'belowWs', 'below4K', 'below5K'];
@@ -105,7 +105,7 @@ export default () => {
                 ([name, value]) => (
                   <tr key={name}>
                     <td>
-                      <code className="dc-u-ws-nowrap">{`.dc-u-d-b@${dashify(
+                      <code className="dc-u-ws-nowrap">{`.dc-u-d-b@${_.kebabCase(
                         name,
                       )}`}</code>
                     </td>
@@ -131,7 +131,7 @@ export default () => {
                 ([name, value]) => (
                   <tr key={name}>
                     <td>
-                      <code className="dc-u-ws-nowrap">{`.dc-u-d-i@${dashify(
+                      <code className="dc-u-ws-nowrap">{`.dc-u-d-i@${_.kebabCase(
                         name,
                       )}`}</code>
                     </td>
@@ -157,7 +157,7 @@ export default () => {
                 ([name, value]) => (
                   <tr key={name}>
                     <td>
-                      <code className="dc-u-ws-nowrap">{`.dc-u-d-ib@${dashify(
+                      <code className="dc-u-ws-nowrap">{`.dc-u-d-ib@${_.kebabCase(
                         name,
                       )}`}</code>
                     </td>
@@ -183,7 +183,7 @@ export default () => {
                 ([name, value]) => (
                   <tr key={name}>
                     <td>
-                      <code className="dc-u-ws-nowrap">{`.dc-u-d-none@${dashify(
+                      <code className="dc-u-ws-nowrap">{`.dc-u-d-none@${_.kebabCase(
                         name,
                       )}`}</code>
                     </td>
@@ -209,7 +209,7 @@ export default () => {
                 ([name, value]) => (
                   <tr key={name}>
                     <td>
-                      <code className="dc-u-ws-nowrap">{`.dc-u-d-tbl@${dashify(
+                      <code className="dc-u-ws-nowrap">{`.dc-u-d-tbl@${_.kebabCase(
                         name,
                       )}`}</code>
                     </td>
@@ -235,7 +235,7 @@ export default () => {
                 ([name, value]) => (
                   <tr key={name}>
                     <td>
-                      <code className="dc-u-ws-nowrap">{`.dc-u-d-tbl-cell@${dashify(
+                      <code className="dc-u-ws-nowrap">{`.dc-u-d-tbl-cell@${_.kebabCase(
                         name,
                       )}`}</code>
                     </td>

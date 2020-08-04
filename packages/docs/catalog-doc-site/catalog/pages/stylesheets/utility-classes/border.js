@@ -1,10 +1,9 @@
-import { getColor } from '@datacamp/waffles-core';
 import { colors } from '@datacamp/waffles-tokens';
 import { HintSpecimen, Page } from 'catalog';
+import _ from 'lodash';
 import React from 'react';
 
 import CustomHeader from '../../../components/CustomHeader';
-import dashify from '../../../helpers/dashify';
 
 const docsCustomBgLight = {
   background: '#f9fafa',
@@ -225,12 +224,12 @@ export default () => {
                 className="dc-u-fx dc-u-fx-fdc dc-u-fx-aic dc-u-fx-jcc dc-u-m-8"
                 key={name}
                 style={{
-                  border: `1px solid${getColor(name)}`,
+                  border: `1px solid${colors[name]}`,
                   height: '118px',
                   width: '236px',
                 }}
               >
-                <code>{`.dc-u-bc-${dashify(name)}`}</code>
+                <code>{`.dc-u-bc-${_.kebabCase(name)}`}</code>
               </li>
             ))}
           </ul>

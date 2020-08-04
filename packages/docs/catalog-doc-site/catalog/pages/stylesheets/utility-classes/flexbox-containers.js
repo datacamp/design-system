@@ -1,9 +1,9 @@
 import { breakpoints } from '@datacamp/waffles-tokens';
 import { Page } from 'catalog';
+import _ from 'lodash';
 import React from 'react';
 
 import CustomHeader from '../../../components/CustomHeader';
-import dashify from '../../../helpers/dashify';
 import whitelist from '../../../helpers/whitelist';
 
 const blacklist = ['ws', '4K', '5K', 'belowWs', 'below4K', 'below5K'];
@@ -76,7 +76,7 @@ export default () => {
                   ([name, value]) => (
                     <tr key={name}>
                       <td>
-                        <code className="dc-u-ws-nowrap">{`.dc-u-fx@${dashify(
+                        <code className="dc-u-ws-nowrap">{`.dc-u-fx@${_.kebabCase(
                           name,
                         )}`}</code>
                       </td>
@@ -102,7 +102,7 @@ export default () => {
                   ([name, value]) => (
                     <tr key={name}>
                       <td>
-                        <code className="dc-u-ws-nowrap">{`.dc-u-ifx@${dashify(
+                        <code className="dc-u-ws-nowrap">{`.dc-u-ifx@${_.kebabCase(
                           name,
                         )}`}</code>
                       </td>
@@ -189,7 +189,7 @@ export default () => {
                   ([name, value]) => (
                     <tr key={name}>
                       <td>
-                        <code className="dc-u-ws-nowrap">{`.dc-u-fx-fdc@${dashify(
+                        <code className="dc-u-ws-nowrap">{`.dc-u-fx-fdc@${_.kebabCase(
                           name,
                         )}`}</code>
                       </td>
@@ -215,7 +215,7 @@ export default () => {
                   ([name, value]) => (
                     <tr key={name}>
                       <td>
-                        <code className="dc-u-ws-nowrap">{`.dc-u-fx-fdcr@${dashify(
+                        <code className="dc-u-ws-nowrap">{`.dc-u-fx-fdcr@${_.kebabCase(
                           name,
                         )}`}</code>
                       </td>
@@ -241,7 +241,7 @@ export default () => {
                   ([name, value]) => (
                     <tr key={name}>
                       <td>
-                        <code className="dc-u-ws-nowrap">{`.dc-u-fx-fdr@${dashify(
+                        <code className="dc-u-ws-nowrap">{`.dc-u-fx-fdr@${_.kebabCase(
                           name,
                         )}`}</code>
                       </td>
@@ -267,7 +267,7 @@ export default () => {
                   ([name, value]) => (
                     <tr key={name}>
                       <td>
-                        <code className="dc-u-ws-nowrap">{`.dc-u-fx-fdrr@${dashify(
+                        <code className="dc-u-ws-nowrap">{`.dc-u-fx-fdrr@${_.kebabCase(
                           name,
                         )}`}</code>
                       </td>
@@ -405,7 +405,7 @@ export default () => {
                   ([name, value]) => (
                     <tr key={name}>
                       <td>
-                        <code className="dc-u-ws-nowrap">{`.dc-u-fx-aib@${dashify(
+                        <code className="dc-u-ws-nowrap">{`.dc-u-fx-aib@${_.kebabCase(
                           name,
                         )}`}</code>
                       </td>
@@ -431,7 +431,7 @@ export default () => {
                   ([name, value]) => (
                     <tr key={name}>
                       <td>
-                        <code className="dc-u-ws-nowrap">{`.dc-u-fx-aic@${dashify(
+                        <code className="dc-u-ws-nowrap">{`.dc-u-fx-aic@${_.kebabCase(
                           name,
                         )}`}</code>
                       </td>
@@ -457,7 +457,7 @@ export default () => {
                   ([name, value]) => (
                     <tr key={name}>
                       <td>
-                        <code className="dc-u-ws-nowrap">{`.dc-u-fx-aife@${dashify(
+                        <code className="dc-u-ws-nowrap">{`.dc-u-fx-aife@${_.kebabCase(
                           name,
                         )}`}</code>
                       </td>
@@ -483,7 +483,7 @@ export default () => {
                   ([name, value]) => (
                     <tr key={name}>
                       <td>
-                        <code className="dc-u-ws-nowrap">{`.dc-u-fx-aifs@${dashify(
+                        <code className="dc-u-ws-nowrap">{`.dc-u-fx-aifs@${_.kebabCase(
                           name,
                         )}`}</code>
                       </td>
@@ -509,7 +509,7 @@ export default () => {
                   ([name, value]) => (
                     <tr key={name}>
                       <td>
-                        <code className="dc-u-ws-nowrap">{`.dc-u-fx-ais@${dashify(
+                        <code className="dc-u-ws-nowrap">{`.dc-u-fx-ais@${_.kebabCase(
                           name,
                         )}`}</code>
                       </td>
@@ -606,7 +606,7 @@ export default () => {
                   ([name, value]) => (
                     <tr key={name}>
                       <td>
-                        <code className="dc-u-ws-nowrap">{`.dc-u-fx-acc@${dashify(
+                        <code className="dc-u-ws-nowrap">{`.dc-u-fx-acc@${_.kebabCase(
                           name,
                         )}`}</code>
                       </td>
@@ -632,7 +632,7 @@ export default () => {
                   ([name, value]) => (
                     <tr key={name}>
                       <td>
-                        <code className="dc-u-ws-nowrap">{`.dc-u-fx-acfe@${dashify(
+                        <code className="dc-u-ws-nowrap">{`.dc-u-fx-acfe@${_.kebabCase(
                           name,
                         )}`}</code>
                       </td>
@@ -658,7 +658,7 @@ export default () => {
                   ([name, value]) => (
                     <tr key={name}>
                       <td>
-                        <code className="dc-u-ws-nowrap">{`.dc-u-fx-acfs@${dashify(
+                        <code className="dc-u-ws-nowrap">{`.dc-u-fx-acfs@${_.kebabCase(
                           name,
                         )}`}</code>
                       </td>
@@ -684,7 +684,7 @@ export default () => {
                   ([name, value]) => (
                     <tr key={name}>
                       <td>
-                        <code className="dc-u-ws-nowrap">{`.dc-u-fx-acsa@${dashify(
+                        <code className="dc-u-ws-nowrap">{`.dc-u-fx-acsa@${_.kebabCase(
                           name,
                         )}`}</code>
                       </td>
@@ -710,7 +710,7 @@ export default () => {
                   ([name, value]) => (
                     <tr key={name}>
                       <td>
-                        <code className="dc-u-ws-nowrap">{`.dc-u-fx-acsb@${dashify(
+                        <code className="dc-u-ws-nowrap">{`.dc-u-fx-acsb@${_.kebabCase(
                           name,
                         )}`}</code>
                       </td>
@@ -736,7 +736,7 @@ export default () => {
                   ([name, value]) => (
                     <tr key={name}>
                       <td>
-                        <code className="dc-u-ws-nowrap">{`.dc-u-fx-acs@${dashify(
+                        <code className="dc-u-ws-nowrap">{`.dc-u-fx-acs@${_.kebabCase(
                           name,
                         )}`}</code>
                       </td>
@@ -839,7 +839,7 @@ export default () => {
                   ([name, value]) => (
                     <tr key={name}>
                       <td>
-                        <code className="dc-u-ws-nowrap">{`.dc-u-fx-jcc@${dashify(
+                        <code className="dc-u-ws-nowrap">{`.dc-u-fx-jcc@${_.kebabCase(
                           name,
                         )}`}</code>
                       </td>
@@ -865,7 +865,7 @@ export default () => {
                   ([name, value]) => (
                     <tr key={name}>
                       <td>
-                        <code className="dc-u-ws-nowrap">{`.dc-u-fx-jcfe@${dashify(
+                        <code className="dc-u-ws-nowrap">{`.dc-u-fx-jcfe@${_.kebabCase(
                           name,
                         )}`}</code>
                       </td>
@@ -891,7 +891,7 @@ export default () => {
                   ([name, value]) => (
                     <tr key={name}>
                       <td>
-                        <code className="dc-u-ws-nowrap">{`.dc-u-fx-jcfs@${dashify(
+                        <code className="dc-u-ws-nowrap">{`.dc-u-fx-jcfs@${_.kebabCase(
                           name,
                         )}`}</code>
                       </td>
@@ -917,7 +917,7 @@ export default () => {
                   ([name, value]) => (
                     <tr key={name}>
                       <td>
-                        <code className="dc-u-ws-nowrap">{`.dc-u-fx-jcsa@${dashify(
+                        <code className="dc-u-ws-nowrap">{`.dc-u-fx-jcsa@${_.kebabCase(
                           name,
                         )}`}</code>
                       </td>
@@ -943,7 +943,7 @@ export default () => {
                   ([name, value]) => (
                     <tr key={name}>
                       <td>
-                        <code className="dc-u-ws-nowrap">{`.dc-u-fx-jcsb@${dashify(
+                        <code className="dc-u-ws-nowrap">{`.dc-u-fx-jcsb@${_.kebabCase(
                           name,
                         )}`}</code>
                       </td>

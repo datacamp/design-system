@@ -1,9 +1,9 @@
 import { colors } from '@datacamp/waffles-tokens';
 import { Page } from 'catalog';
+import _ from 'lodash';
 import React from 'react';
 
 import CustomHeader from '../../../components/CustomHeader';
-import dashify from '../../../helpers/dashify';
 
 export default () => {
   const obj = Object.keys(colors);
@@ -37,14 +37,14 @@ export default () => {
                 <tr key={name}>
                   <td>
                     <code className="dc-u-ws-nowrap">
-                      .dc-u-color-{dashify(name)}
+                      .dc-u-color-{_.kebabCase(name)}
                     </code>
                   </td>
                   <td>
-                    <code>color: $dc-{dashify(name)};</code>
+                    <code>color: $dc-{_.kebabCase(name)};</code>
                   </td>
-                  <td className={`dc-u-color-${dashify(name)}`}>
-                    {dashify(name)}
+                  <td className={`dc-u-color-${_.kebabCase(name)}`}>
+                    {_.kebabCase(name)}
                   </td>
                 </tr>
               ))}
