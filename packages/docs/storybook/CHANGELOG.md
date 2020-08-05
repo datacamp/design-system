@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0-beta.16](https://github.com/datacamp/design-system/compare/@datacamp/waffles-storybook@2.0.0-beta.15...@datacamp/waffles-storybook@2.0.0-beta.16) (2020-08-05)
+
+
+### Features
+
+* remove BetaBadge stories ([ffd511f](https://github.com/datacamp/design-system/commit/ffd511f))
+* remove stories for Tag component ([8971913](https://github.com/datacamp/design-system/commit/8971913))
+
+
+
+
+
 # [2.0.0-beta.15](https://github.com/datacamp/design-system/compare/@datacamp/waffles-storybook@1.42.3...@datacamp/waffles-storybook@2.0.0-beta.15) (2020-08-03)
 
 

@@ -3,6 +3,28 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0-beta.21](https://github.com/datacamp/design-system/compare/@datacamp/waffles-catalog-doc-site@2.0.0-beta.20...@datacamp/waffles-catalog-doc-site@2.0.0-beta.21) (2020-08-05)
+
+
+### Bug Fixes
+
+* remove unused Tag import ([1b688e8](https://github.com/datacamp/design-system/commit/1b688e8))
+* replace dashify helper with same lodash method as used to generate ([9f02cca](https://github.com/datacamp/design-system/commit/9f02cca))
+
+
+### Features
+
+* add Tag deprecation to brand refresh article ([fe63a0b](https://github.com/datacamp/design-system/commit/fe63a0b))
+* detail BetaBadge deprecation in brand refresh article ([83dce44](https://github.com/datacamp/design-system/commit/83dce44))
+* detail core js removal on the brand refresh article ([a9ad13b](https://github.com/datacamp/design-system/commit/a9ad13b))
+* remove documentation for Tag component ([3390e2e](https://github.com/datacamp/design-system/commit/3390e2e))
+* update text docs to reflect BetaBadge removal ([f2582b4](https://github.com/datacamp/design-system/commit/f2582b4))
+* use Badge instead of Tag on component status page ([a75eca6](https://github.com/datacamp/design-system/commit/a75eca6))
+
+
+
+
+
 # [2.0.0-beta.20](https://github.com/datacamp/design-system/compare/@datacamp/waffles-catalog-doc-site@1.42.1...@datacamp/waffles-catalog-doc-site@2.0.0-beta.20) (2020-08-03)
 
 

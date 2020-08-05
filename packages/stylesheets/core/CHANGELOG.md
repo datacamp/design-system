@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0-beta.15](https://github.com/datacamp/design-system/compare/@datacamp/waffles-core@2.0.0-beta.14...@datacamp/waffles-core@2.0.0-beta.15) (2020-08-05)
+
+
+### Features
+
+* remove colour utils from core package ([a58d7c0](https://github.com/datacamp/design-system/commit/a58d7c0))
+
+
+### BREAKING CHANGES
+
+* The color functions, getColor and getContrastColor have 
+been removed. Please access colours directly from the tokens now.
+
+
+
+
+
 # [2.0.0-beta.14](https://github.com/datacamp/design-system/compare/@datacamp/waffles-core@1.2.43...@datacamp/waffles-core@2.0.0-beta.14) (2020-08-03)
 
 

@@ -3,6 +3,27 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [4.0.0-beta.13](https://github.com/datacamp/design-system/compare/@datacamp/waffles-text@4.0.0-beta.12...@datacamp/waffles-text@4.0.0-beta.13) (2020-08-05)
+
+
+### Features
+
+* remove BetaBadge component ([5fe97d4](https://github.com/datacamp/design-system/commit/5fe97d4))
+* update Badge text colours to match the new branding ([e841337](https://github.com/datacamp/design-system/commit/e841337))
+* update Code component to match new branding ([f9b9777](https://github.com/datacamp/design-system/commit/f9b9777))
+* update CodeBlock component to match new branding ([bdd85c1](https://github.com/datacamp/design-system/commit/bdd85c1))
+* update Link component to match the branding ([2ecdcc0](https://github.com/datacamp/design-system/commit/2ecdcc0))
+
+
+### BREAKING CHANGES
+
+* The BetaBadge component is no longer available, use the 
+Badge component instead
+
+
+
+
+
 # [4.0.0-beta.12](https://github.com/datacamp/design-system/compare/@datacamp/waffles-text@3.0.14...@datacamp/waffles-text@4.0.0-beta.12) (2020-08-03)
 
 

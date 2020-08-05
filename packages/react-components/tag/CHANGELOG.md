@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0-beta.15](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/tag/compare/@datacamp/waffles-tag@2.0.0-beta.14...@datacamp/waffles-tag@2.0.0-beta.15) (2020-08-05)
+
+
+### Features
+
+* remove Tag component ([daafa5f](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/tag/commit/daafa5f))
+
+
+### BREAKING CHANGES
+
+* The Tag component has been removed. Please use the 
+Badge component from the waffles-text package instead
+
+
+
+
+
 # [2.0.0-beta.14](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/tag/compare/@datacamp/waffles-tag@1.2.21...@datacamp/waffles-tag@2.0.0-beta.14) (2020-08-03)
 
 
