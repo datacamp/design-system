@@ -16664,12 +16664,6 @@ Object {
       "children": Array [
         Object {
           "extension": ".js",
-          "name": "colors.js",
-          "path": "lib/js/colors.js",
-          "type": "file",
-        },
-        Object {
-          "extension": ".js",
           "name": "iconNames.js",
           "path": "lib/js/iconNames.js",
           "type": "file",
