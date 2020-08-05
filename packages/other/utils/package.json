@@ -34,7 +34,7 @@
     "@babel/core": "7.11.0",
     "@datacamp/waffles-babel-preset": "^1.4.13",
     "@datacamp/waffles-tsconfig": "^1.1.11",
-    "babel-jest": "26.1.0",
+    "babel-jest": "26.2.2",
     "jest": "26.1.0",
     "react": "16.8.6"
   },
