@@ -234,4 +234,20 @@ storiesOf('stylesheets', module)
         <div class="dc-card__footer">Footer</div>
       </div>
     </>
+  ))
+  .add('tag', () => (
+    <>
+      <span class="dc-tag">This is a span tag</span>
+      <a class="dc-tag dc-tag--link" href="#">
+        This is a link tag
+      </a>
+      <span class="dc-tag dc-tag--hue dc-tag--primary-light">
+        This is a primary-light tag
+      </span>
+      <span class="dc-tag dc-tag--hue dc-tag--green">This is a green tag</span>
+      <span class="dc-tag dc-tag--hue dc-tag--secondary">
+        This is a secondary tag
+      </span>
+      <span class="dc-tag dc-tag--hue dc-tag--red">This is a red tag</span>
+    </>
   ));
