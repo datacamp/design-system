@@ -295,4 +295,19 @@ storiesOf('stylesheets', module)
         </div>
       </div>
     </>
+  ))
+  .add('pagination', () => (
+    <div class="dc-pagination">
+      <ul class="dc-pagination__list">
+        <li>
+          <button class="dc-pagination__page">1</button>
+        </li>
+        <li>
+          <button class="dc-pagination__page dc-is-active">2</button>
+        </li>
+        <li>
+          <button class="dc-pagination__page">3</button>
+        </li>
+      </ul>
+    </div>
   ));
