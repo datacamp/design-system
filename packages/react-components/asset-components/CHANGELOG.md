@@ -15,8 +15,8 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### BREAKING CHANGES
 
-* All the DataCamp logos have changed, including the 
-naming. Current imports will not work anymore, though it is recommended 
+* All the DataCamp logos have changed, including the
+naming. Current imports will not work anymore, though it is recommended
 to use the new DatacampLogo component going forwards
 
 
@@ -67,6 +67,14 @@ to use the new DatacampLogo component going forwards
 * All the DataCamp logos have changed, including the
 naming. Current imports will not work anymore, though it is recommended
 to use the new DatacampLogo component going forwards
+
+
+
+
+
+## [1.3.7](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/card/compare/@datacamp/waffles-asset-components@1.3.6...@datacamp/waffles-asset-components@1.3.7) (2020-08-06)
+
+**Note:** Version bump only for package @datacamp/waffles-asset-components
 
 
 

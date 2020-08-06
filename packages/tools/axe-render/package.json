@@ -1,12 +1,12 @@
 {
   "name": "@datacamp/waffles-axe-render",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "main": "index.js",
   "types": "./index.d.ts",
   "license": "UNLICENSED",
   "private": true,
   "dependencies": {
-    "jest-axe": "3.4.0"
+    "jest-axe": "3.5.0"
   },
   "devDependencies": {
     "@testing-library/react": "9.4.1"

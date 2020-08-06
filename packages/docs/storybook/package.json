@@ -15,16 +15,16 @@
     "cypress:ci": "cypress run"
   },
   "dependencies": {
-    "@babel/runtime": "^7.9.2",
+    "@babel/runtime": "^7.11.0",
     "@datacamp/waffles-asset-components": "^2.0.0-beta.3",
     "@datacamp/waffles-button": "^6.0.0-beta.13",
     "@datacamp/waffles-card": "^3.1.0-beta.1",
     "@datacamp/waffles-core": "^2.0.0-beta.15",
     "@datacamp/waffles-form-elements": "^3.0.0-beta.13",
-    "@datacamp/waffles-icons": "^1.10.8-beta.0",
+    "@datacamp/waffles-icons": "^1.10.8",
     "@datacamp/waffles-markdown": "^3.0.0-beta.13",
     "@datacamp/waffles-modals": "^6.0.0-beta.13",
-    "@datacamp/waffles-positioner": "^1.0.20-beta.0",
+    "@datacamp/waffles-positioner": "^1.0.20",
     "@datacamp/waffles-tag": "^2.0.0-beta.15",
     "@datacamp/waffles-text": "^4.0.0-beta.13",
     "@datacamp/waffles-toast": "^2.0.0-beta.13",
@@ -37,14 +37,14 @@
     "react-dom": "16.8.6"
   },
   "devDependencies": {
-    "@babel/core": "7.10.5",
-    "@datacamp/waffles-babel-preset": "^1.4.14-beta.0",
+    "@babel/core": "7.11.0",
+    "@datacamp/waffles-babel-preset": "^1.4.14",
     "@datacamp/waffles-cypress-axe-config": "^1.2.0-beta.3",
     "@percy/storybook": "3.3.0",
     "@storybook/addon-a11y": "5.3.19",
     "babel-loader": "8.1.0",
     "cypress-axe": "^0.8.1",
-    "cypress-storybook": "^0.2.0",
+    "cypress-storybook": "^0.2.1",
     "webpack": "4.41.5",
     "webpack-bundle-analyzer": "3.8.0"
   }

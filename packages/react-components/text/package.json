@@ -29,9 +29,9 @@
   },
   "devDependencies": {
     "@babel/cli": "7.7.7",
-    "@babel/core": "7.10.5",
-    "@datacamp/waffles-axe-render": "^1.2.2",
-    "@datacamp/waffles-babel-preset": "^1.4.14-beta.0",
+    "@babel/core": "7.11.0",
+    "@datacamp/waffles-axe-render": "^1.2.3",
+    "@datacamp/waffles-babel-preset": "^1.4.14",
     "@datacamp/waffles-tsconfig": "^1.1.11",
     "@emotion/core": "^10.0.17",
     "@stryker-mutator/core": "^3.3.1",
@@ -40,7 +40,7 @@
     "@testing-library/jest-dom": "5.11.0",
     "@testing-library/react": "9.4.1",
     "@types/lodash": "4.14.157",
-    "babel-jest": "26.1.0",
+    "babel-jest": "26.2.2",
     "jest": "26.1.0",
     "jest-emotion": "10.0.32",
     "react": "16.8.6",
@@ -48,9 +48,9 @@
     "react-dom": "16.8.6"
   },
   "dependencies": {
-    "@babel/runtime": "^7.9.2",
+    "@babel/runtime": "^7.11.0",
     "@datacamp/waffles-tokens": "^1.0.0-beta.10",
-    "@datacamp/waffles-utils": "^2.0.15-beta.0",
+    "@datacamp/waffles-utils": "^2.0.15",
     "airbnb-prop-types": "^2.16.0",
     "lodash": "^4.17.13",
     "prop-types": "^15.7.2",

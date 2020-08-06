@@ -24,7 +24,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### BREAKING CHANGES
 
-* Font weights have been updated to work with new 
+* Font weights have been updated to work with new
 branding
 * The sans-serif font has changed from Lato to Studio-Feixen-Sans-Variable
 
@@ -72,6 +72,14 @@ branding
 
 
 # [6.0.0-beta.8](https://github.com/datacamp/design-system/compare/@datacamp/waffles-button@6.0.0-beta.7...@datacamp/waffles-button@6.0.0-beta.8) (2020-07-14)
+
+**Note:** Version bump only for package @datacamp/waffles-button
+
+
+
+
+
+## [5.1.16](https://github.com/datacamp/design-system/compare/@datacamp/waffles-button@5.1.15...@datacamp/waffles-button@5.1.16) (2020-08-06)
 
 **Note:** Version bump only for package @datacamp/waffles-button
 
