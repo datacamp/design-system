@@ -255,4 +255,29 @@ storiesOf('stylesheets', module)
     <>
       <div class="dc-count-indicator dc-count-indicator--red">5</div>
     </>
+  ))
+  .add('dropdown', () => (
+    <>
+      <div class="dc-dropdown dc-is-open dc-u-w-100pc">
+        <div class="dc-dropdown__content">
+          <ul class="dc-dropdown__list dc-dropdown__list--bordered">
+            <li class="dc-dropdown__item">
+              <a class="dc-dropdown__link" href="#">
+                Action
+              </a>
+            </li>
+            <li class="dc-dropdown__item dc-is-active">
+              <a class="dc-dropdown__link" href="#">
+                Another Action
+              </a>
+            </li>
+            <li class="dc-dropdown__item" href="#">
+              <a class="dc-dropdown__link" href="#">
+                Something else here
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </>
   ));
