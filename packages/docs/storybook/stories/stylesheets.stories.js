@@ -280,4 +280,19 @@ storiesOf('stylesheets', module)
         </div>
       </div>
     </>
+  ))
+  .add('flash-banner', () => (
+    <>
+      <div class="dc-flash-wrapper">
+        <div class="dc-flash dc-flash--notice">
+          <div class="dc-flash__content">Flash notice</div>
+        </div>
+        <div class="dc-flash dc-flash--success">
+          <div class="dc-flash__content">Flash Success</div>
+        </div>
+        <div class="dc-flash dc-flash--error">
+          <div class="dc-flash__content">Flash error</div>
+        </div>
+      </div>
+    </>
   ));
