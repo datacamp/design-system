@@ -355,4 +355,43 @@ storiesOf('stylesheets', module)
         </div>
       </div>
     </>
+  ))
+  .add('tabbed-nav', () => (
+    <ul class="dc-tabbed-nav">
+      <li class="dc-tabbed-nav__item">
+        <a class="dc-tabbed-nav__link" href="#">
+          Admin
+        </a>
+      </li>
+      <li class="dc-tabbed-nav__item">
+        <a class="dc-tabbed-nav__link is-active" href="#">
+          Billing
+        </a>
+      </li>
+      <li class="dc-tabbed-nav__item">
+        <a class="dc-tabbed-nav__link" href="#">
+          Invoice settings
+        </a>
+      </li>
+      <li class="dc-tabbed-nav__item">
+        <a class="dc-tabbed-nav__link" href="#">
+          Integrations
+        </a>
+      </li>
+      <li class="dc-tabbed-nav__item">
+        <a class="dc-tabbed-nav__link" href="#">
+          Invite links
+        </a>
+      </li>
+      <li class="dc-tabbed-nav__item">
+        <a class="dc-tabbed-nav__link" href="#">
+          Remove members
+        </a>
+      </li>
+      <li class="dc-tabbed-nav__item">
+        <a class="dc-tabbed-nav__link" href="#">
+          Privacy
+        </a>
+      </li>
+    </ul>
   ));
