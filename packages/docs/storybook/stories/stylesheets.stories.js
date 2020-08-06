@@ -310,4 +310,49 @@ storiesOf('stylesheets', module)
         </li>
       </ul>
     </div>
+  ))
+  .add('progress-bar', () => (
+    <>
+      <div class="dc-progress-bar">
+        <div class="dc-progress-bar__bar">
+          <span class="dc-progress-bar__fill" style={{ width: '75%' }}></span>
+        </div>
+      </div>
+      <div class="dc-progress-bar dc-progress-bar--completed">
+        <div class="dc-progress-bar__bar">
+          <span class="dc-progress-bar__fill" style={{ width: '100%' }}>
+            100%
+          </span>
+        </div>
+      </div>
+      <div class="dc-progress-bar dc-progress-bar--small">
+        <div class="dc-progress-bar__bar">
+          <span class="dc-progress-bar__fill" style={{ width: '75%' }}></span>
+        </div>
+      </div>
+      <div class="dc-progress-bar dc-progress-bar--small">
+        <span class="dc-progress-bar__text">75%</span>
+        <div class="dc-progress-bar__bar">
+          <span class="dc-progress-bar__fill" style={{ width: '75%' }}></span>
+        </div>
+      </div>
+      <div class="dc-progress-bar dc-progress-bar--small dc-progress-bar--green">
+        <span class="dc-progress-bar__text">75%</span>
+        <div class="dc-progress-bar__bar">
+          <span class="dc-progress-bar__fill" style={{ width: '75%' }}></span>
+        </div>
+      </div>
+      <div class="dc-progress-bar dc-progress-bar--small dc-progress-bar--orange">
+        <span class="dc-progress-bar__text">75%</span>
+        <div class="dc-progress-bar__bar">
+          <span class="dc-progress-bar__fill" style={{ width: '75%' }}></span>
+        </div>
+      </div>
+      <div class="dc-progress-bar dc-progress-bar--small dc-progress-bar--red">
+        <span class="dc-progress-bar__text">75%</span>
+        <div class="dc-progress-bar__bar">
+          <span class="dc-progress-bar__fill" style={{ width: '75%' }}></span>
+        </div>
+      </div>
+    </>
   ));
