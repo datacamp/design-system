@@ -250,4 +250,9 @@ storiesOf('stylesheets', module)
       </span>
       <span class="dc-tag dc-tag--hue dc-tag--red">This is a red tag</span>
     </>
+  ))
+  .add('count-indicator', () => (
+    <>
+      <div class="dc-count-indicator dc-count-indicator--red">5</div>
+    </>
   ));
