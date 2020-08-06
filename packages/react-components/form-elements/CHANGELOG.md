@@ -3,6 +3,27 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [3.0.0-beta.14](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/form-elements/compare/@datacamp/waffles-form-elements@2.10.4...@datacamp/waffles-form-elements@3.0.0-beta.14) (2020-08-06)
+
+
+### Features
+
+* change sans-serif font ([6f2d3cd](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/form-elements/commit/6f2d3cd))
+* update font weights for new branding ([cf0f3bc](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/form-elements/commit/cf0f3bc))
+* update font weights to work with latest font version ([812a41b](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/form-elements/commit/812a41b))
+* update form element colours V1 ([0f33c36](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/form-elements/commit/0f33c36))
+
+
+### BREAKING CHANGES
+
+* Font weights have been updated to work with new 
+branding
+* The sans-serif font has changed from Lato to Studio-Feixen-Sans-Variable
+
+
+
+
+
 # [3.0.0-beta.13](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/form-elements/compare/@datacamp/waffles-form-elements@3.0.0-beta.12...@datacamp/waffles-form-elements@3.0.0-beta.13) (2020-08-05)
 
 **Note:** Version bump only for package @datacamp/waffles-form-elements

@@ -3,6 +3,60 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0-beta.16](https://github.com/datacamp/design-system/compare/@datacamp/waffles-core@1.2.44...@datacamp/waffles-core@2.0.0-beta.16) (2020-08-06)
+
+
+### Bug Fixes
+
+* font width/stretch for latest version of fonts ([f7a8ca8](https://github.com/datacamp/design-system/commit/f7a8ca8))
+
+
+### Features
+
+* add letter spacing for different size headings ([7b4ca34](https://github.com/datacamp/design-system/commit/7b4ca34))
+* add line height for large headings ([7d70c17](https://github.com/datacamp/design-system/commit/7d70c17))
+* change sans-serif font ([6f2d3cd](https://github.com/datacamp/design-system/commit/6f2d3cd))
+* load font from hosted version ([0988a6c](https://github.com/datacamp/design-system/commit/0988a6c))
+* load font in a way to allow font-weight to work ([186c1eb](https://github.com/datacamp/design-system/commit/186c1eb))
+* load studio feixen fonts from production waffles site ([2c154b1](https://github.com/datacamp/design-system/commit/2c154b1))
+* remove colour utils from core package ([a58d7c0](https://github.com/datacamp/design-system/commit/a58d7c0))
+* remove gradients from waffles-core ([a21cb74](https://github.com/datacamp/design-system/commit/a21cb74))
+* remove transparent colours ([89b8226](https://github.com/datacamp/design-system/commit/89b8226))
+* temporarily load fonts from separate ttf files ([7a11485](https://github.com/datacamp/design-system/commit/7a11485))
+* update font weights for new branding ([cf0f3bc](https://github.com/datacamp/design-system/commit/cf0f3bc))
+* update font weights to work with latest font version ([812a41b](https://github.com/datacamp/design-system/commit/812a41b))
+* update heading line height ([ca2da4f](https://github.com/datacamp/design-system/commit/ca2da4f))
+* update the colours in core ([a52539d](https://github.com/datacamp/design-system/commit/a52539d))
+* use JetBrains MonoNL for code font ([cea2bbb](https://github.com/datacamp/design-system/commit/cea2bbb))
+* use studio feixen writer for monospace font ([c585560](https://github.com/datacamp/design-system/commit/c585560))
+
+
+### BREAKING CHANGES
+
+* The color functions, getColor and getContrastColor have 
+been removed. Please access colours directly from the tokens now.
+* all the colours have changed, and a lot of classes have 
+been deprecated. Check the upgrading article for details
+* white-transparent and black-transparent no longer exist
+* All variables and utility classes related to gradients 
+have been removed.
+* all monospace font now uses JetBrains MonoNL
+* Headings with size 800 (or h1 from the style sheets) 
+now have a letter spacing of -1. Headings with size 700 & 600 (or h2 & 
+h3 from the style sheets) now have a letter spacing of -0.5
+* The line height for headings has changed from 1.25 to 
+1.2
+* The monospace font has changed from Roboto-Mono to 
+Studio-Feixen-Writer. This may affect layout when using code or code 
+blocks.
+* Font weights have been updated to work with new 
+branding
+* The sans-serif font has changed from Lato to Studio-Feixen-Sans-Variable
+
+
+
+
+
 # [2.0.0-beta.15](https://github.com/datacamp/design-system/compare/@datacamp/waffles-core@2.0.0-beta.14...@datacamp/waffles-core@2.0.0-beta.15) (2020-08-05)
 
 

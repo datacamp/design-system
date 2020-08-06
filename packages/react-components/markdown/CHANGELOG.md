@@ -3,6 +3,42 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [3.0.0-beta.14](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/markdown/compare/@datacamp/waffles-markdown@2.0.15...@datacamp/waffles-markdown@3.0.0-beta.14) (2020-08-06)
+
+
+### Features
+
+* add letter spacing for different size headings ([7b4ca34](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/markdown/commit/7b4ca34))
+* add line height for large headings ([7d70c17](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/markdown/commit/7d70c17))
+* change sans-serif font ([6f2d3cd](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/markdown/commit/6f2d3cd))
+* update font weights for new branding ([cf0f3bc](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/markdown/commit/cf0f3bc))
+* update font weights to work with latest font version ([812a41b](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/markdown/commit/812a41b))
+* update heading line height ([ca2da4f](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/markdown/commit/ca2da4f))
+* update markdown colours V1 ([e849273](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/markdown/commit/e849273))
+* update markdown to reflect text changes ([6648963](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/markdown/commit/6648963))
+* use JetBrains MonoNL for code font ([cea2bbb](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/markdown/commit/cea2bbb))
+* use studio feixen writer for monospace font ([c585560](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/markdown/commit/c585560))
+
+
+### BREAKING CHANGES
+
+* all monospace font now uses JetBrains MonoNL
+* Headings with size 800 (or h1 from the style sheets) 
+now have a letter spacing of -1. Headings with size 700 & 600 (or h2 & 
+h3 from the style sheets) now have a letter spacing of -0.5
+* The line height for headings has changed from 1.25 to 
+1.2
+* The monospace font has changed from Roboto-Mono to 
+Studio-Feixen-Writer. This may affect layout when using code or code 
+blocks.
+* Font weights have been updated to work with new 
+branding
+* The sans-serif font has changed from Lato to Studio-Feixen-Sans-Variable
+
+
+
+
+
 # [3.0.0-beta.13](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/markdown/compare/@datacamp/waffles-markdown@3.0.0-beta.12...@datacamp/waffles-markdown@3.0.0-beta.13) (2020-08-05)
 
 

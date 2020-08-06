@@ -3,6 +3,57 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [4.0.0-beta.14](https://github.com/datacamp/design-system/compare/@datacamp/waffles-text@3.0.15...@datacamp/waffles-text@4.0.0-beta.14) (2020-08-06)
+
+
+### Bug Fixes
+
+* load font weights when using the components ([75dcc68](https://github.com/datacamp/design-system/commit/75dcc68))
+
+
+### Features
+
+* add 900 and 650 sizes to Heading component ([923c045](https://github.com/datacamp/design-system/commit/923c045))
+* add letter spacing for different size headings ([7b4ca34](https://github.com/datacamp/design-system/commit/7b4ca34))
+* add line height for large headings ([7d70c17](https://github.com/datacamp/design-system/commit/7d70c17))
+* change sans-serif font ([6f2d3cd](https://github.com/datacamp/design-system/commit/6f2d3cd))
+* load font from hosted version ([bc575ce](https://github.com/datacamp/design-system/commit/bc575ce))
+* load studio feixen fonts from production waffles site ([2c154b1](https://github.com/datacamp/design-system/commit/2c154b1))
+* remove BetaBadge component ([5fe97d4](https://github.com/datacamp/design-system/commit/5fe97d4))
+* replace gradient on BetaBadge ([fa4e13e](https://github.com/datacamp/design-system/commit/fa4e13e))
+* update Badge text colours to match the new branding ([e841337](https://github.com/datacamp/design-system/commit/e841337))
+* update Code component to match new branding ([f9b9777](https://github.com/datacamp/design-system/commit/f9b9777))
+* update CodeBlock component to match new branding ([bdd85c1](https://github.com/datacamp/design-system/commit/bdd85c1))
+* update font weights for new branding ([cf0f3bc](https://github.com/datacamp/design-system/commit/cf0f3bc))
+* update font weights to work with latest font version ([812a41b](https://github.com/datacamp/design-system/commit/812a41b))
+* update heading line height ([ca2da4f](https://github.com/datacamp/design-system/commit/ca2da4f))
+* update Link component to match the branding ([2ecdcc0](https://github.com/datacamp/design-system/commit/2ecdcc0))
+* update text colours v1 ([e5aaeeb](https://github.com/datacamp/design-system/commit/e5aaeeb))
+* use JetBrains MonoNL for code font ([cea2bbb](https://github.com/datacamp/design-system/commit/cea2bbb))
+* use studio feixen writer for monospace font ([c585560](https://github.com/datacamp/design-system/commit/c585560))
+
+
+### BREAKING CHANGES
+
+* The BetaBadge component is no longer available, use the 
+Badge component instead
+* all monospace font now uses JetBrains MonoNL
+* Headings with size 800 (or h1 from the style sheets) 
+now have a letter spacing of -1. Headings with size 700 & 600 (or h2 & 
+h3 from the style sheets) now have a letter spacing of -0.5
+* The line height for headings has changed from 1.25 to 
+1.2
+* The monospace font has changed from Roboto-Mono to 
+Studio-Feixen-Writer. This may affect layout when using code or code 
+blocks.
+* Font weights have been updated to work with new 
+branding
+* The sans-serif font has changed from Lato to Studio-Feixen-Sans-Variable
+
+
+
+
+
 # [4.0.0-beta.13](https://github.com/datacamp/design-system/compare/@datacamp/waffles-text@4.0.0-beta.12...@datacamp/waffles-text@4.0.0-beta.13) (2020-08-05)
 
 
