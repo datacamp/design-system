@@ -454,4 +454,37 @@ storiesOf('stylesheets', module)
         </table>
       </div>
     </>
+  ))
+  .add('tabs', () => (
+    <div class="minimal-tabs-bar">
+      <ul class="minimal-tabs list-unstyled" role="tablist">
+        <li class="minimal-tab active">
+          <a
+            aria-controls="in-progress"
+            class="minimal-tab__link"
+            data-text="Courses in Progress (2)"
+            data-toggle="tab"
+            href="#in-progress"
+            role="tab"
+          >
+            Courses in Progress (2)
+          </a>
+        </li>
+        <li class="minimal-tab">
+          <a
+            aria-controls="completed"
+            class="minimal-tab__link"
+            data-text="Completed (4)"
+            data-toggle="tab"
+            href="#completed"
+            role="tab"
+          >
+            Completed (4)
+          </a>
+        </li>
+      </ul>
+      <a class="minimal-tabs__action" href="#">
+        Explore Course Library
+      </a>
+    </div>
   ));
