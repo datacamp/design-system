@@ -518,27 +518,23 @@ storiesOf('stylesheets', module)
     useStylesheet();
     return (
       <div className="minimal-tabs-bar">
-        <ul className="minimal-tabs list-unstyled" role="tablist">
+        <ul className="minimal-tabs list-unstyled">
           <li className="minimal-tab active">
             <a
-              aria-controls="in-progress"
               className="minimal-tab__link"
               data-text="Courses in Progress (2)"
               data-toggle="tab"
-              href="#in-progress"
-              role="tab"
+              href="#"
             >
               Courses in Progress (2)
             </a>
           </li>
           <li className="minimal-tab">
             <a
-              aria-controls="completed"
               className="minimal-tab__link"
               data-text="Completed (4)"
               data-toggle="tab"
-              href="#completed"
-              role="tab"
+              href="#"
             >
               Completed (4)
             </a>
