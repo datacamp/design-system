@@ -394,4 +394,64 @@ storiesOf('stylesheets', module)
         </a>
       </li>
     </ul>
+  ))
+  .add('table', () => (
+    <>
+      <div className="dc-table-wrapper dc-table-wrapper--bordered">
+        <table className="dc-table">
+          <thead className="dc-table__thead">
+            <tr>
+              <th className="dc-table__th">dc-table__th</th>
+              <th className="dc-table__th">dc-table__th</th>
+              <th className="dc-table__th">dc-table__th</th>
+            </tr>
+          </thead>
+          <tbody className="dc-table__tbody">
+            <tr>
+              <td className="dc-table__td">dc-table__td</td>
+              <td className="dc-table__td">dc-table__td</td>
+              <td className="dc-table__td">dc-table__td</td>
+            </tr>
+            <tr>
+              <td className="dc-table__td">dc-table__td</td>
+              <td className="dc-table__td">dc-table__td</td>
+              <td className="dc-table__td">dc-table__td</td>
+            </tr>
+            <tr>
+              <td className="dc-table__td">dc-table__td</td>
+              <td className="dc-table__td">dc-table__td</td>
+              <td className="dc-table__td">dc-table__td</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div className="dc-table-wrapper dc-table-wrapper--bordered">
+        <table className="dc-table dc-table--white dc-table--bordered">
+          <thead className="dc-table__thead">
+            <tr>
+              <th className="dc-table__th">dc-table__th</th>
+              <th className="dc-table__th">dc-table__th</th>
+              <th className="dc-table__th">dc-table__th</th>
+            </tr>
+          </thead>
+          <tbody className="dc-table__tbody">
+            <tr className="dc-table__tr">
+              <td className="dc-table__td">dc-table__td</td>
+              <td className="dc-table__td">dc-table__td</td>
+              <td className="dc-table__td">dc-table__td</td>
+            </tr>
+            <tr className="dc-table__tr">
+              <td className="dc-table__td">dc-table__td</td>
+              <td className="dc-table__td">dc-table__td</td>
+              <td className="dc-table__td">dc-table__td</td>
+            </tr>
+            <tr className="dc-table__tr">
+              <td className="dc-table__td">dc-table__td</td>
+              <td className="dc-table__td">dc-table__td</td>
+              <td className="dc-table__td">dc-table__td</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </>
   ));
