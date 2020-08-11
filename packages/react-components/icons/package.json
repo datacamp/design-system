@@ -41,7 +41,7 @@
     "gulp-zip": "^5.0.2",
     "merge-stream": "^2.0.0",
     "react": "^16.8.6",
-    "sharp": "0.25.2",
+    "sharp": "0.25.4",
     "typescript": "3.9.5"
   },
   "dependencies": {
