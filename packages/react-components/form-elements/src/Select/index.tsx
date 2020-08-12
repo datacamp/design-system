@@ -152,15 +152,9 @@ class Select extends Component<
     );
 
     const getSelectStyle = css(selectStyle, selectSizes, {
-      color: disabled
-        ? tokens.color.neutral.grey100.value.rgb
-        : tokens.color.primary.navyText.value.rgb,
+      color: tokens.color.primary.navyText.value.rgb,
       width: label && '100%',
     });
-
-    const getColor = disabled
-      ? tokens.color.neutral.grey100.value.rgb
-      : tokens.color.neutral.grey200.value.rgb;
 
     const selectElement = (
       <div css={{ position: 'relative' }}>
@@ -180,8 +174,12 @@ class Select extends Component<
           {children}
         </select>
         <ChevronDownIcon
-          color={focus ? tokens.color.primary.green.value.rgb : getColor}
-          css={css(iconStyle, arrowIconPosition[size])}
+          color={
+            focus ? tokens.color.primary.blueDark.value.rgb : 'currentColor'
+          }
+          css={css(iconStyle, arrowIconPosition[size], {
+            opacity: disabled ? 0.3 : 1,
+          })}
           size={selectIconSizes[size]}
         />
       </div>

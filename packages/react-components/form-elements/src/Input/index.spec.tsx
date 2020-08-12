@@ -247,10 +247,6 @@ describe('<Input />', () => {
         />,
       );
       expect(getByText(testError)).toBeInTheDocument();
-      expect(getByText(testError)).toHaveStyle(
-        `color: ${tokens.color.primary.red.value.hex}`,
-      );
-      expect(getByText(testError)).toHaveStyle(`font-size: 14px`);
     });
 
     it('renders the indication "required" above the input field if required is passed as a prop ', () => {
@@ -266,10 +262,6 @@ describe('<Input />', () => {
         />,
       );
       expect(getByText('Required')).toBeInTheDocument();
-      expect(getByText('Required')).toHaveStyle(
-        `color: ${tokens.color.primary.navyText.value.hex};`,
-      );
-      expect(getByText('Required')).toHaveStyle(`font-size: 14px;`);
     });
 
     it('renders the indication "Optional" above the input field if required={false} is passed as a prop ', () => {
@@ -285,10 +277,6 @@ describe('<Input />', () => {
         />,
       );
       expect(getByText('Optional')).toBeInTheDocument();
-      expect(getByText('Optional')).toHaveStyle(
-        `color: ${tokens.color.primary.navyText.value.hex};`,
-      );
-      expect(getByText('Optional')).toHaveStyle(`font-size: 14px;`);
     });
   });
 });

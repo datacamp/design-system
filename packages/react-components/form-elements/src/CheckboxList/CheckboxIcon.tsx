@@ -8,10 +8,9 @@ const CheckboxIcon: React.FC<{
   disabled: boolean;
   error: boolean;
 }> = ({ checked, disabled, error }) => {
-  let color = tokens.color.neutral.grey200.value.hex;
-  if (checked) color = tokens.color.primary.green.value.hex;
+  let color = tokens.color.neutral.beige400.value.hex;
+  if (checked) color = tokens.color.primary.blue.value.hex;
   if (error) color = tokens.color.primary.red.value.hex;
-  if (disabled) color = tokens.color.neutral.grey100.value.hex;
 
   return (
     <>
@@ -22,16 +21,15 @@ const CheckboxIcon: React.FC<{
           borderColor: color,
           borderRadius: '4px',
           borderStyle: 'solid',
-          borderWidth: '1px',
+          borderWidth: '2px',
           boxSizing: 'border-box',
           color,
           display: 'flex',
-          height: '16px',
+          height: '18px',
           justifyContent: 'center',
-          left: 1,
+          opacity: disabled ? 0.3 : 1,
           position: 'absolute',
-          top: 1,
-          width: '16px',
+          width: '18px',
         })}
       >
         {checked && (

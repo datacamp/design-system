@@ -30,20 +30,13 @@ const textStyle = css({
 });
 
 const divStyle = css({
-  color: tokens.color.neutral.grey200.value.hex,
+  alignItems: 'center',
   display: 'flex',
+  height: '20px',
   marginTop: 0,
   position: 'relative',
-  [ssrSafeNotFirstChildSelector]: { marginTop: '14px' },
+  [ssrSafeNotFirstChildSelector]: { marginTop: '10px' },
 });
-
-const focusStyle = {
-  borderWidth: 2,
-  height: 18,
-  left: 0,
-  top: 0,
-  width: 18,
-};
 
 /**
  * Can only be used within `CheckboxList`
@@ -61,6 +54,15 @@ const Checkbox = ({
   const elementDisabled = disabled || contextValue.disabled;
   const handleChange = (): void => contextValue.onChange(value);
   const isChecked = _.includes(contextValue.value, value);
+
+  const focusColor = contextValue.hasError
+    ? tokens.color.primary.redDark.value.hex
+    : tokens.color.primary.blueDark.value.hex;
+
+  const focusStyle = {
+    borderColor: focusColor,
+    color: focusColor,
+  };
 
   return (
     <label css={divStyle} htmlFor={value}>
@@ -93,7 +95,7 @@ const Checkbox = ({
         css={css(
           textStyle,
           elementDisabled && {
-            color: tokens.color.neutral.grey100.value.hex,
+            opacity: 0.3,
           },
         )}
       >

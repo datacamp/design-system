@@ -4,6 +4,8 @@ import { ssrSafeNotFirstChildSelector } from '@datacamp/waffles-utils';
 import { css } from '@emotion/core';
 import React from 'react';
 
+import { requiredStyle } from './formStyles';
+
 interface LabelProps {
   as?: 'label' | 'div' | 'fieldset';
   children: React.ReactNode;
@@ -38,16 +40,10 @@ const textStyle = css({
 });
 
 const errorMessageStyle = css({
-  color: tokens.color.primary.red.value.hex,
+  color: tokens.color.primary.redText.value.hex,
   display: 'block',
   fontSize: '14px',
   marginTop: tokens.size.space[8].value,
-});
-
-const requiredStyle = css({
-  color: tokens.color.primary.navyText.value.hex,
-  display: 'inline-block',
-  fontSize: '14px',
 });
 
 const Label = ({
@@ -68,6 +64,7 @@ const Label = ({
           display: 'block',
           marginBottom: tokens.size.space[12].value,
           padding: 0,
+          width: '100%',
         }}
       >
         <span

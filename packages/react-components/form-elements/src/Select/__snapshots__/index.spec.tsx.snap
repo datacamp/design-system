@@ -22,6 +22,7 @@ exports[`with label snapshots renders a select element with size large, disabled
   display: block;
   margin-bottom: 12px;
   padding: 0;
+  width: 100%;
 }
 
 .emotion-3 {
@@ -66,6 +67,7 @@ exports[`with label snapshots renders a select element with size large, disabled
   position: absolute;
   right: 24px;
   top: 20px;
+  opacity: 1;
 }
 
 .emotion-8 {
@@ -77,7 +79,7 @@ exports[`with label snapshots renders a select element with size large, disabled
   font-size: 16px;
   font-weight: 400;
   line-height: 16px;
-  color: #ff5400;
+  color: #c01100;
   display: block;
   font-size: 14px;
   margin-top: 8px;
@@ -99,7 +101,7 @@ exports[`with label snapshots renders a select element with size large, disabled
   font-size: 16px;
   font-weight: 400;
   line-height: 16px;
-  color: #05192d;
+  color: rgba(5,25,45,0.6);
   display: inline-block;
   font-size: 14px;
 }
@@ -108,7 +110,7 @@ exports[`with label snapshots renders a select element with size large, disabled
   background: white;
   border: 0;
   border-radius: 4px;
-  box-shadow: inset 0 0 0 1px rgb(239,239,239);
+  box-shadow: inset 0 0 0 2px rgb(229,225,218);
   box-sizing: border-box;
   display: inline-block;
   font-family: sans-serif;
@@ -135,18 +137,12 @@ exports[`with label snapshots renders a select element with size large, disabled
 .emotion-5:active:disabled,
 .emotion-5:focus:disabled {
   cursor: not-allowed;
+  opacity: 0.3;
 }
 
 .emotion-5:focus {
-  box-shadow: inset 0 0 0 1px rgb(3,239,98);
+  box-shadow: inset 0 0 0 2px rgb(0,155,216);
   outline: none;
-}
-
-.emotion-5:disabled,
-.emotion-5:active:disabled,
-.emotion-5:focus:disabled,
-.emotion-5:hover:disabled {
-  box-shadow: inset 0 0 0 1px rgb(239,239,239);
 }
 
 <label
@@ -212,7 +208,7 @@ exports[`with label snapshots renders a select element with size large, disabled
       </title>
       <path
         d="M8.244 12.155l-4.95-4.947a1 1 0 111.415-1.415l4.294 4.291 4.293-4.279a.998.998 0 011.413.003c.39.392.388 1.025-.003 1.415l-5.002 4.986a.998.998 0 01-1.46-.054z"
-        fill="rgb(239, 239, 239)"
+        fill="currentColor"
         fill-rule="evenodd"
       />
     </svg>
@@ -247,6 +243,7 @@ exports[`with label snapshots renders a select element with size large, disabled
   display: block;
   margin-bottom: 12px;
   padding: 0;
+  width: 100%;
 }
 
 .emotion-4 {
@@ -291,6 +288,7 @@ exports[`with label snapshots renders a select element with size large, disabled
   position: absolute;
   right: 24px;
   top: 20px;
+  opacity: 1;
 }
 
 .emotion-9 {
@@ -302,7 +300,7 @@ exports[`with label snapshots renders a select element with size large, disabled
   font-size: 16px;
   font-weight: 400;
   line-height: 16px;
-  color: #ff5400;
+  color: #c01100;
   display: block;
   font-size: 14px;
   margin-top: 8px;
@@ -337,7 +335,7 @@ exports[`with label snapshots renders a select element with size large, disabled
   font-size: 16px;
   font-weight: 400;
   line-height: 16px;
-  color: #05192d;
+  color: rgba(5,25,45,0.6);
   display: inline-block;
   font-size: 14px;
 }
@@ -346,7 +344,7 @@ exports[`with label snapshots renders a select element with size large, disabled
   background: white;
   border: 0;
   border-radius: 4px;
-  box-shadow: inset 0 0 0 1px rgb(239,239,239);
+  box-shadow: inset 0 0 0 2px rgb(229,225,218);
   box-sizing: border-box;
   display: inline-block;
   font-family: sans-serif;
@@ -373,18 +371,12 @@ exports[`with label snapshots renders a select element with size large, disabled
 .emotion-6:active:disabled,
 .emotion-6:focus:disabled {
   cursor: not-allowed;
+  opacity: 0.3;
 }
 
 .emotion-6:focus {
-  box-shadow: inset 0 0 0 1px rgb(3,239,98);
+  box-shadow: inset 0 0 0 2px rgb(0,155,216);
   outline: none;
-}
-
-.emotion-6:disabled,
-.emotion-6:active:disabled,
-.emotion-6:focus:disabled,
-.emotion-6:hover:disabled {
-  box-shadow: inset 0 0 0 1px rgb(239,239,239);
 }
 
 <label
@@ -455,7 +447,7 @@ exports[`with label snapshots renders a select element with size large, disabled
       </title>
       <path
         d="M8.244 12.155l-4.95-4.947a1 1 0 111.415-1.415l4.294 4.291 4.293-4.279a.998.998 0 011.413.003c.39.392.388 1.025-.003 1.415l-5.002 4.986a.998.998 0 01-1.46-.054z"
-        fill="rgb(239, 239, 239)"
+        fill="currentColor"
         fill-rule="evenodd"
       />
     </svg>
@@ -490,6 +482,7 @@ exports[`with label snapshots renders a select element with size large, disabled
   display: block;
   margin-bottom: 12px;
   padding: 0;
+  width: 100%;
 }
 
 .emotion-1 {
@@ -534,6 +527,7 @@ exports[`with label snapshots renders a select element with size large, disabled
   position: absolute;
   right: 24px;
   top: 20px;
+  opacity: 1;
 }
 
 .emotion-6 {
@@ -545,7 +539,7 @@ exports[`with label snapshots renders a select element with size large, disabled
   font-size: 16px;
   font-weight: 400;
   line-height: 16px;
-  color: #ff5400;
+  color: #c01100;
   display: block;
   font-size: 14px;
   margin-top: 8px;
@@ -555,7 +549,7 @@ exports[`with label snapshots renders a select element with size large, disabled
   background: white;
   border: 0;
   border-radius: 4px;
-  box-shadow: inset 0 0 0 1px rgb(239,239,239);
+  box-shadow: inset 0 0 0 2px rgb(229,225,218);
   box-sizing: border-box;
   display: inline-block;
   font-family: sans-serif;
@@ -582,18 +576,12 @@ exports[`with label snapshots renders a select element with size large, disabled
 .emotion-3:active:disabled,
 .emotion-3:focus:disabled {
   cursor: not-allowed;
+  opacity: 0.3;
 }
 
 .emotion-3:focus {
-  box-shadow: inset 0 0 0 1px rgb(3,239,98);
+  box-shadow: inset 0 0 0 2px rgb(0,155,216);
   outline: none;
-}
-
-.emotion-3:disabled,
-.emotion-3:active:disabled,
-.emotion-3:focus:disabled,
-.emotion-3:hover:disabled {
-  box-shadow: inset 0 0 0 1px rgb(239,239,239);
 }
 
 <label
@@ -650,7 +638,7 @@ exports[`with label snapshots renders a select element with size large, disabled
       </title>
       <path
         d="M8.244 12.155l-4.95-4.947a1 1 0 111.415-1.415l4.294 4.291 4.293-4.279a.998.998 0 011.413.003c.39.392.388 1.025-.003 1.415l-5.002 4.986a.998.998 0 01-1.46-.054z"
-        fill="rgb(239, 239, 239)"
+        fill="currentColor"
         fill-rule="evenodd"
       />
     </svg>
@@ -685,6 +673,7 @@ exports[`with label snapshots renders a select element with size large, disabled
   display: block;
   margin-bottom: 12px;
   padding: 0;
+  width: 100%;
 }
 
 .emotion-3 {
@@ -724,13 +713,6 @@ exports[`with label snapshots renders a select element with size large, disabled
   white-space: nowrap;
 }
 
-.emotion-6 {
-  pointer-events: none;
-  position: absolute;
-  right: 24px;
-  top: 20px;
-}
-
 .emotion-8 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
@@ -740,7 +722,7 @@ exports[`with label snapshots renders a select element with size large, disabled
   font-size: 16px;
   font-weight: 400;
   line-height: 16px;
-  color: #ff5400;
+  color: #c01100;
   display: block;
   font-size: 14px;
   margin-top: 8px;
@@ -762,7 +744,7 @@ exports[`with label snapshots renders a select element with size large, disabled
   font-size: 16px;
   font-weight: 400;
   line-height: 16px;
-  color: #05192d;
+  color: rgba(5,25,45,0.6);
   display: inline-block;
   font-size: 14px;
 }
@@ -771,7 +753,7 @@ exports[`with label snapshots renders a select element with size large, disabled
   background: white;
   border: 0;
   border-radius: 4px;
-  box-shadow: inset 0 0 0 1px rgb(239,239,239);
+  box-shadow: inset 0 0 0 2px rgb(229,225,218);
   box-sizing: border-box;
   display: inline-block;
   font-family: sans-serif;
@@ -790,7 +772,7 @@ exports[`with label snapshots renders a select element with size large, disabled
   height: 64px;
   padding-left: 24px;
   padding-right: 64px;
-  color: rgb(247,247,252);
+  color: rgb(5,25,45);
   width: 100%;
 }
 
@@ -798,18 +780,20 @@ exports[`with label snapshots renders a select element with size large, disabled
 .emotion-5:active:disabled,
 .emotion-5:focus:disabled {
   cursor: not-allowed;
+  opacity: 0.3;
 }
 
 .emotion-5:focus {
-  box-shadow: inset 0 0 0 1px rgb(3,239,98);
+  box-shadow: inset 0 0 0 2px rgb(0,155,216);
   outline: none;
 }
 
-.emotion-5:disabled,
-.emotion-5:active:disabled,
-.emotion-5:focus:disabled,
-.emotion-5:hover:disabled {
-  box-shadow: inset 0 0 0 1px rgb(239,239,239);
+.emotion-6 {
+  pointer-events: none;
+  position: absolute;
+  right: 24px;
+  top: 20px;
+  opacity: 0.3;
 }
 
 <label
@@ -876,7 +860,7 @@ exports[`with label snapshots renders a select element with size large, disabled
       </title>
       <path
         d="M8.244 12.155l-4.95-4.947a1 1 0 111.415-1.415l4.294 4.291 4.293-4.279a.998.998 0 011.413.003c.39.392.388 1.025-.003 1.415l-5.002 4.986a.998.998 0 01-1.46-.054z"
-        fill="rgb(247, 247, 252)"
+        fill="currentColor"
         fill-rule="evenodd"
       />
     </svg>
@@ -911,6 +895,7 @@ exports[`with label snapshots renders a select element with size large, disabled
   display: block;
   margin-bottom: 12px;
   padding: 0;
+  width: 100%;
 }
 
 .emotion-4 {
@@ -950,13 +935,6 @@ exports[`with label snapshots renders a select element with size large, disabled
   white-space: nowrap;
 }
 
-.emotion-7 {
-  pointer-events: none;
-  position: absolute;
-  right: 24px;
-  top: 20px;
-}
-
 .emotion-9 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
@@ -966,7 +944,7 @@ exports[`with label snapshots renders a select element with size large, disabled
   font-size: 16px;
   font-weight: 400;
   line-height: 16px;
-  color: #ff5400;
+  color: #c01100;
   display: block;
   font-size: 14px;
   margin-top: 8px;
@@ -1001,7 +979,7 @@ exports[`with label snapshots renders a select element with size large, disabled
   font-size: 16px;
   font-weight: 400;
   line-height: 16px;
-  color: #05192d;
+  color: rgba(5,25,45,0.6);
   display: inline-block;
   font-size: 14px;
 }
@@ -1010,7 +988,7 @@ exports[`with label snapshots renders a select element with size large, disabled
   background: white;
   border: 0;
   border-radius: 4px;
-  box-shadow: inset 0 0 0 1px rgb(239,239,239);
+  box-shadow: inset 0 0 0 2px rgb(229,225,218);
   box-sizing: border-box;
   display: inline-block;
   font-family: sans-serif;
@@ -1029,7 +1007,7 @@ exports[`with label snapshots renders a select element with size large, disabled
   height: 64px;
   padding-left: 24px;
   padding-right: 64px;
-  color: rgb(247,247,252);
+  color: rgb(5,25,45);
   width: 100%;
 }
 
@@ -1037,18 +1015,20 @@ exports[`with label snapshots renders a select element with size large, disabled
 .emotion-6:active:disabled,
 .emotion-6:focus:disabled {
   cursor: not-allowed;
+  opacity: 0.3;
 }
 
 .emotion-6:focus {
-  box-shadow: inset 0 0 0 1px rgb(3,239,98);
+  box-shadow: inset 0 0 0 2px rgb(0,155,216);
   outline: none;
 }
 
-.emotion-6:disabled,
-.emotion-6:active:disabled,
-.emotion-6:focus:disabled,
-.emotion-6:hover:disabled {
-  box-shadow: inset 0 0 0 1px rgb(239,239,239);
+.emotion-7 {
+  pointer-events: none;
+  position: absolute;
+  right: 24px;
+  top: 20px;
+  opacity: 0.3;
 }
 
 <label
@@ -1120,7 +1100,7 @@ exports[`with label snapshots renders a select element with size large, disabled
       </title>
       <path
         d="M8.244 12.155l-4.95-4.947a1 1 0 111.415-1.415l4.294 4.291 4.293-4.279a.998.998 0 011.413.003c.39.392.388 1.025-.003 1.415l-5.002 4.986a.998.998 0 01-1.46-.054z"
-        fill="rgb(247, 247, 252)"
+        fill="currentColor"
         fill-rule="evenodd"
       />
     </svg>
@@ -1155,6 +1135,7 @@ exports[`with label snapshots renders a select element with size large, disabled
   display: block;
   margin-bottom: 12px;
   padding: 0;
+  width: 100%;
 }
 
 .emotion-1 {
@@ -1194,13 +1175,6 @@ exports[`with label snapshots renders a select element with size large, disabled
   white-space: nowrap;
 }
 
-.emotion-4 {
-  pointer-events: none;
-  position: absolute;
-  right: 24px;
-  top: 20px;
-}
-
 .emotion-6 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
@@ -1210,7 +1184,7 @@ exports[`with label snapshots renders a select element with size large, disabled
   font-size: 16px;
   font-weight: 400;
   line-height: 16px;
-  color: #ff5400;
+  color: #c01100;
   display: block;
   font-size: 14px;
   margin-top: 8px;
@@ -1220,7 +1194,7 @@ exports[`with label snapshots renders a select element with size large, disabled
   background: white;
   border: 0;
   border-radius: 4px;
-  box-shadow: inset 0 0 0 1px rgb(239,239,239);
+  box-shadow: inset 0 0 0 2px rgb(229,225,218);
   box-sizing: border-box;
   display: inline-block;
   font-family: sans-serif;
@@ -1239,7 +1213,7 @@ exports[`with label snapshots renders a select element with size large, disabled
   height: 64px;
   padding-left: 24px;
   padding-right: 64px;
-  color: rgb(247,247,252);
+  color: rgb(5,25,45);
   width: 100%;
 }
 
@@ -1247,18 +1221,20 @@ exports[`with label snapshots renders a select element with size large, disabled
 .emotion-3:active:disabled,
 .emotion-3:focus:disabled {
   cursor: not-allowed;
+  opacity: 0.3;
 }
 
 .emotion-3:focus {
-  box-shadow: inset 0 0 0 1px rgb(3,239,98);
+  box-shadow: inset 0 0 0 2px rgb(0,155,216);
   outline: none;
 }
 
-.emotion-3:disabled,
-.emotion-3:active:disabled,
-.emotion-3:focus:disabled,
-.emotion-3:hover:disabled {
-  box-shadow: inset 0 0 0 1px rgb(239,239,239);
+.emotion-4 {
+  pointer-events: none;
+  position: absolute;
+  right: 24px;
+  top: 20px;
+  opacity: 0.3;
 }
 
 <label
@@ -1316,7 +1292,7 @@ exports[`with label snapshots renders a select element with size large, disabled
       </title>
       <path
         d="M8.244 12.155l-4.95-4.947a1 1 0 111.415-1.415l4.294 4.291 4.293-4.279a.998.998 0 011.413.003c.39.392.388 1.025-.003 1.415l-5.002 4.986a.998.998 0 01-1.46-.054z"
-        fill="rgb(247, 247, 252)"
+        fill="currentColor"
         fill-rule="evenodd"
       />
     </svg>
@@ -1339,6 +1315,7 @@ exports[`with label snapshots renders a select element with size medium, disable
   position: absolute;
   right: 16px;
   top: 15px;
+  opacity: 1;
 }
 
 .emotion-9 {
@@ -1358,6 +1335,7 @@ exports[`with label snapshots renders a select element with size medium, disable
   display: block;
   margin-bottom: 12px;
   padding: 0;
+  width: 100%;
 }
 
 .emotion-3 {
@@ -1401,7 +1379,7 @@ exports[`with label snapshots renders a select element with size medium, disable
   background: white;
   border: 0;
   border-radius: 4px;
-  box-shadow: inset 0 0 0 1px rgb(239,239,239);
+  box-shadow: inset 0 0 0 2px rgb(229,225,218);
   box-sizing: border-box;
   display: inline-block;
   font-family: sans-serif;
@@ -1428,18 +1406,12 @@ exports[`with label snapshots renders a select element with size medium, disable
 .emotion-5:active:disabled,
 .emotion-5:focus:disabled {
   cursor: not-allowed;
+  opacity: 0.3;
 }
 
 .emotion-5:focus {
-  box-shadow: inset 0 0 0 1px rgb(3,239,98);
+  box-shadow: inset 0 0 0 2px rgb(0,155,216);
   outline: none;
-}
-
-.emotion-5:disabled,
-.emotion-5:active:disabled,
-.emotion-5:focus:disabled,
-.emotion-5:hover:disabled {
-  box-shadow: inset 0 0 0 1px rgb(239,239,239);
 }
 
 .emotion-8 {
@@ -1451,7 +1423,7 @@ exports[`with label snapshots renders a select element with size medium, disable
   font-size: 16px;
   font-weight: 400;
   line-height: 16px;
-  color: #ff5400;
+  color: #c01100;
   display: block;
   font-size: 14px;
   margin-top: 8px;
@@ -1473,7 +1445,7 @@ exports[`with label snapshots renders a select element with size medium, disable
   font-size: 16px;
   font-weight: 400;
   line-height: 16px;
-  color: #05192d;
+  color: rgba(5,25,45,0.6);
   display: inline-block;
   font-size: 14px;
 }
@@ -1541,7 +1513,7 @@ exports[`with label snapshots renders a select element with size medium, disable
       </title>
       <path
         d="M8.244 12.155l-4.95-4.947a1 1 0 111.415-1.415l4.294 4.291 4.293-4.279a.998.998 0 011.413.003c.39.392.388 1.025-.003 1.415l-5.002 4.986a.998.998 0 01-1.46-.054z"
-        fill="rgb(239, 239, 239)"
+        fill="currentColor"
         fill-rule="evenodd"
       />
     </svg>
@@ -1564,6 +1536,7 @@ exports[`with label snapshots renders a select element with size medium, disable
   position: absolute;
   right: 16px;
   top: 15px;
+  opacity: 1;
 }
 
 .emotion-10 {
@@ -1583,6 +1556,7 @@ exports[`with label snapshots renders a select element with size medium, disable
   display: block;
   margin-bottom: 12px;
   padding: 0;
+  width: 100%;
 }
 
 .emotion-4 {
@@ -1626,7 +1600,7 @@ exports[`with label snapshots renders a select element with size medium, disable
   background: white;
   border: 0;
   border-radius: 4px;
-  box-shadow: inset 0 0 0 1px rgb(239,239,239);
+  box-shadow: inset 0 0 0 2px rgb(229,225,218);
   box-sizing: border-box;
   display: inline-block;
   font-family: sans-serif;
@@ -1653,18 +1627,12 @@ exports[`with label snapshots renders a select element with size medium, disable
 .emotion-6:active:disabled,
 .emotion-6:focus:disabled {
   cursor: not-allowed;
+  opacity: 0.3;
 }
 
 .emotion-6:focus {
-  box-shadow: inset 0 0 0 1px rgb(3,239,98);
+  box-shadow: inset 0 0 0 2px rgb(0,155,216);
   outline: none;
-}
-
-.emotion-6:disabled,
-.emotion-6:active:disabled,
-.emotion-6:focus:disabled,
-.emotion-6:hover:disabled {
-  box-shadow: inset 0 0 0 1px rgb(239,239,239);
 }
 
 .emotion-9 {
@@ -1676,7 +1644,7 @@ exports[`with label snapshots renders a select element with size medium, disable
   font-size: 16px;
   font-weight: 400;
   line-height: 16px;
-  color: #ff5400;
+  color: #c01100;
   display: block;
   font-size: 14px;
   margin-top: 8px;
@@ -1711,7 +1679,7 @@ exports[`with label snapshots renders a select element with size medium, disable
   font-size: 16px;
   font-weight: 400;
   line-height: 16px;
-  color: #05192d;
+  color: rgba(5,25,45,0.6);
   display: inline-block;
   font-size: 14px;
 }
@@ -1784,7 +1752,7 @@ exports[`with label snapshots renders a select element with size medium, disable
       </title>
       <path
         d="M8.244 12.155l-4.95-4.947a1 1 0 111.415-1.415l4.294 4.291 4.293-4.279a.998.998 0 011.413.003c.39.392.388 1.025-.003 1.415l-5.002 4.986a.998.998 0 01-1.46-.054z"
-        fill="rgb(239, 239, 239)"
+        fill="currentColor"
         fill-rule="evenodd"
       />
     </svg>
@@ -1807,6 +1775,7 @@ exports[`with label snapshots renders a select element with size medium, disable
   position: absolute;
   right: 16px;
   top: 15px;
+  opacity: 1;
 }
 
 .emotion-7 {
@@ -1826,6 +1795,7 @@ exports[`with label snapshots renders a select element with size medium, disable
   display: block;
   margin-bottom: 12px;
   padding: 0;
+  width: 100%;
 }
 
 .emotion-1 {
@@ -1869,7 +1839,7 @@ exports[`with label snapshots renders a select element with size medium, disable
   background: white;
   border: 0;
   border-radius: 4px;
-  box-shadow: inset 0 0 0 1px rgb(239,239,239);
+  box-shadow: inset 0 0 0 2px rgb(229,225,218);
   box-sizing: border-box;
   display: inline-block;
   font-family: sans-serif;
@@ -1896,18 +1866,12 @@ exports[`with label snapshots renders a select element with size medium, disable
 .emotion-3:active:disabled,
 .emotion-3:focus:disabled {
   cursor: not-allowed;
+  opacity: 0.3;
 }
 
 .emotion-3:focus {
-  box-shadow: inset 0 0 0 1px rgb(3,239,98);
+  box-shadow: inset 0 0 0 2px rgb(0,155,216);
   outline: none;
-}
-
-.emotion-3:disabled,
-.emotion-3:active:disabled,
-.emotion-3:focus:disabled,
-.emotion-3:hover:disabled {
-  box-shadow: inset 0 0 0 1px rgb(239,239,239);
 }
 
 .emotion-6 {
@@ -1919,7 +1883,7 @@ exports[`with label snapshots renders a select element with size medium, disable
   font-size: 16px;
   font-weight: 400;
   line-height: 16px;
-  color: #ff5400;
+  color: #c01100;
   display: block;
   font-size: 14px;
   margin-top: 8px;
@@ -1979,7 +1943,7 @@ exports[`with label snapshots renders a select element with size medium, disable
       </title>
       <path
         d="M8.244 12.155l-4.95-4.947a1 1 0 111.415-1.415l4.294 4.291 4.293-4.279a.998.998 0 011.413.003c.39.392.388 1.025-.003 1.415l-5.002 4.986a.998.998 0 01-1.46-.054z"
-        fill="rgb(239, 239, 239)"
+        fill="currentColor"
         fill-rule="evenodd"
       />
     </svg>
@@ -1995,13 +1959,6 @@ exports[`with label snapshots renders a select element with size medium, disable
 exports[`with label snapshots renders a select element with size medium, disabled=true, required=false 1`] = `
 .emotion-7 {
   position: relative;
-}
-
-.emotion-6 {
-  pointer-events: none;
-  position: absolute;
-  right: 16px;
-  top: 15px;
 }
 
 .emotion-9 {
@@ -2021,6 +1978,7 @@ exports[`with label snapshots renders a select element with size medium, disable
   display: block;
   margin-bottom: 12px;
   padding: 0;
+  width: 100%;
 }
 
 .emotion-3 {
@@ -2060,6 +2018,53 @@ exports[`with label snapshots renders a select element with size medium, disable
   white-space: nowrap;
 }
 
+.emotion-5 {
+  background: white;
+  border: 0;
+  border-radius: 4px;
+  box-shadow: inset 0 0 0 2px rgb(229,225,218);
+  box-sizing: border-box;
+  display: inline-block;
+  font-family: sans-serif;
+  font-family: Studio-Feixen-Sans-Variable;
+  margin: 0;
+  vertical-align: baseline;
+  -webkit-appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  width: 100%;
+  z-index: 1;
+  font-size: 16px;
+  height: 48px;
+  padding-left: 16px;
+  padding-right: 48px;
+  color: rgb(5,25,45);
+  width: 100%;
+}
+
+.emotion-5:disabled,
+.emotion-5:active:disabled,
+.emotion-5:focus:disabled {
+  cursor: not-allowed;
+  opacity: 0.3;
+}
+
+.emotion-5:focus {
+  box-shadow: inset 0 0 0 2px rgb(0,155,216);
+  outline: none;
+}
+
+.emotion-6 {
+  pointer-events: none;
+  position: absolute;
+  right: 16px;
+  top: 15px;
+  opacity: 0.3;
+}
+
 .emotion-8 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
@@ -2069,7 +2074,7 @@ exports[`with label snapshots renders a select element with size medium, disable
   font-size: 16px;
   font-weight: 400;
   line-height: 16px;
-  color: #ff5400;
+  color: #c01100;
   display: block;
   font-size: 14px;
   margin-top: 8px;
@@ -2091,54 +2096,9 @@ exports[`with label snapshots renders a select element with size medium, disable
   font-size: 16px;
   font-weight: 400;
   line-height: 16px;
-  color: #05192d;
+  color: rgba(5,25,45,0.6);
   display: inline-block;
   font-size: 14px;
-}
-
-.emotion-5 {
-  background: white;
-  border: 0;
-  border-radius: 4px;
-  box-shadow: inset 0 0 0 1px rgb(239,239,239);
-  box-sizing: border-box;
-  display: inline-block;
-  font-family: sans-serif;
-  font-family: Studio-Feixen-Sans-Variable;
-  margin: 0;
-  vertical-align: baseline;
-  -webkit-appearance: none;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  -moz-appearance: none;
-  -webkit-appearance: none;
-  width: 100%;
-  z-index: 1;
-  font-size: 16px;
-  height: 48px;
-  padding-left: 16px;
-  padding-right: 48px;
-  color: rgb(247,247,252);
-  width: 100%;
-}
-
-.emotion-5:disabled,
-.emotion-5:active:disabled,
-.emotion-5:focus:disabled {
-  cursor: not-allowed;
-}
-
-.emotion-5:focus {
-  box-shadow: inset 0 0 0 1px rgb(3,239,98);
-  outline: none;
-}
-
-.emotion-5:disabled,
-.emotion-5:active:disabled,
-.emotion-5:focus:disabled,
-.emotion-5:hover:disabled {
-  box-shadow: inset 0 0 0 1px rgb(239,239,239);
 }
 
 <label
@@ -2205,7 +2165,7 @@ exports[`with label snapshots renders a select element with size medium, disable
       </title>
       <path
         d="M8.244 12.155l-4.95-4.947a1 1 0 111.415-1.415l4.294 4.291 4.293-4.279a.998.998 0 011.413.003c.39.392.388 1.025-.003 1.415l-5.002 4.986a.998.998 0 01-1.46-.054z"
-        fill="rgb(247, 247, 252)"
+        fill="currentColor"
         fill-rule="evenodd"
       />
     </svg>
@@ -2221,13 +2181,6 @@ exports[`with label snapshots renders a select element with size medium, disable
 exports[`with label snapshots renders a select element with size medium, disabled=true, required=true 1`] = `
 .emotion-8 {
   position: relative;
-}
-
-.emotion-7 {
-  pointer-events: none;
-  position: absolute;
-  right: 16px;
-  top: 15px;
 }
 
 .emotion-10 {
@@ -2247,6 +2200,7 @@ exports[`with label snapshots renders a select element with size medium, disable
   display: block;
   margin-bottom: 12px;
   padding: 0;
+  width: 100%;
 }
 
 .emotion-4 {
@@ -2286,6 +2240,53 @@ exports[`with label snapshots renders a select element with size medium, disable
   white-space: nowrap;
 }
 
+.emotion-6 {
+  background: white;
+  border: 0;
+  border-radius: 4px;
+  box-shadow: inset 0 0 0 2px rgb(229,225,218);
+  box-sizing: border-box;
+  display: inline-block;
+  font-family: sans-serif;
+  font-family: Studio-Feixen-Sans-Variable;
+  margin: 0;
+  vertical-align: baseline;
+  -webkit-appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  width: 100%;
+  z-index: 1;
+  font-size: 16px;
+  height: 48px;
+  padding-left: 16px;
+  padding-right: 48px;
+  color: rgb(5,25,45);
+  width: 100%;
+}
+
+.emotion-6:disabled,
+.emotion-6:active:disabled,
+.emotion-6:focus:disabled {
+  cursor: not-allowed;
+  opacity: 0.3;
+}
+
+.emotion-6:focus {
+  box-shadow: inset 0 0 0 2px rgb(0,155,216);
+  outline: none;
+}
+
+.emotion-7 {
+  pointer-events: none;
+  position: absolute;
+  right: 16px;
+  top: 15px;
+  opacity: 0.3;
+}
+
 .emotion-9 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
@@ -2295,7 +2296,7 @@ exports[`with label snapshots renders a select element with size medium, disable
   font-size: 16px;
   font-weight: 400;
   line-height: 16px;
-  color: #ff5400;
+  color: #c01100;
   display: block;
   font-size: 14px;
   margin-top: 8px;
@@ -2330,54 +2331,9 @@ exports[`with label snapshots renders a select element with size medium, disable
   font-size: 16px;
   font-weight: 400;
   line-height: 16px;
-  color: #05192d;
+  color: rgba(5,25,45,0.6);
   display: inline-block;
   font-size: 14px;
-}
-
-.emotion-6 {
-  background: white;
-  border: 0;
-  border-radius: 4px;
-  box-shadow: inset 0 0 0 1px rgb(239,239,239);
-  box-sizing: border-box;
-  display: inline-block;
-  font-family: sans-serif;
-  font-family: Studio-Feixen-Sans-Variable;
-  margin: 0;
-  vertical-align: baseline;
-  -webkit-appearance: none;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  -moz-appearance: none;
-  -webkit-appearance: none;
-  width: 100%;
-  z-index: 1;
-  font-size: 16px;
-  height: 48px;
-  padding-left: 16px;
-  padding-right: 48px;
-  color: rgb(247,247,252);
-  width: 100%;
-}
-
-.emotion-6:disabled,
-.emotion-6:active:disabled,
-.emotion-6:focus:disabled {
-  cursor: not-allowed;
-}
-
-.emotion-6:focus {
-  box-shadow: inset 0 0 0 1px rgb(3,239,98);
-  outline: none;
-}
-
-.emotion-6:disabled,
-.emotion-6:active:disabled,
-.emotion-6:focus:disabled,
-.emotion-6:hover:disabled {
-  box-shadow: inset 0 0 0 1px rgb(239,239,239);
 }
 
 <label
@@ -2449,7 +2405,7 @@ exports[`with label snapshots renders a select element with size medium, disable
       </title>
       <path
         d="M8.244 12.155l-4.95-4.947a1 1 0 111.415-1.415l4.294 4.291 4.293-4.279a.998.998 0 011.413.003c.39.392.388 1.025-.003 1.415l-5.002 4.986a.998.998 0 01-1.46-.054z"
-        fill="rgb(247, 247, 252)"
+        fill="currentColor"
         fill-rule="evenodd"
       />
     </svg>
@@ -2465,13 +2421,6 @@ exports[`with label snapshots renders a select element with size medium, disable
 exports[`with label snapshots renders a select element with size medium, disabled=true, required=undefined 1`] = `
 .emotion-5 {
   position: relative;
-}
-
-.emotion-4 {
-  pointer-events: none;
-  position: absolute;
-  right: 16px;
-  top: 15px;
 }
 
 .emotion-7 {
@@ -2491,6 +2440,7 @@ exports[`with label snapshots renders a select element with size medium, disable
   display: block;
   margin-bottom: 12px;
   padding: 0;
+  width: 100%;
 }
 
 .emotion-1 {
@@ -2530,26 +2480,11 @@ exports[`with label snapshots renders a select element with size medium, disable
   white-space: nowrap;
 }
 
-.emotion-6 {
-  -webkit-font-smoothing: antialiased;
-  color: rgb(5,25,45);
-  font-family: sans-serif;
-  font-family: Studio-Feixen-Sans-Variable;
-  font-style: normal;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 16px;
-  color: #ff5400;
-  display: block;
-  font-size: 14px;
-  margin-top: 8px;
-}
-
 .emotion-3 {
   background: white;
   border: 0;
   border-radius: 4px;
-  box-shadow: inset 0 0 0 1px rgb(239,239,239);
+  box-shadow: inset 0 0 0 2px rgb(229,225,218);
   box-sizing: border-box;
   display: inline-block;
   font-family: sans-serif;
@@ -2568,7 +2503,7 @@ exports[`with label snapshots renders a select element with size medium, disable
   height: 48px;
   padding-left: 16px;
   padding-right: 48px;
-  color: rgb(247,247,252);
+  color: rgb(5,25,45);
   width: 100%;
 }
 
@@ -2576,18 +2511,35 @@ exports[`with label snapshots renders a select element with size medium, disable
 .emotion-3:active:disabled,
 .emotion-3:focus:disabled {
   cursor: not-allowed;
+  opacity: 0.3;
 }
 
 .emotion-3:focus {
-  box-shadow: inset 0 0 0 1px rgb(3,239,98);
+  box-shadow: inset 0 0 0 2px rgb(0,155,216);
   outline: none;
 }
 
-.emotion-3:disabled,
-.emotion-3:active:disabled,
-.emotion-3:focus:disabled,
-.emotion-3:hover:disabled {
-  box-shadow: inset 0 0 0 1px rgb(239,239,239);
+.emotion-4 {
+  pointer-events: none;
+  position: absolute;
+  right: 16px;
+  top: 15px;
+  opacity: 0.3;
+}
+
+.emotion-6 {
+  -webkit-font-smoothing: antialiased;
+  color: rgb(5,25,45);
+  font-family: sans-serif;
+  font-family: Studio-Feixen-Sans-Variable;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  color: #c01100;
+  display: block;
+  font-size: 14px;
+  margin-top: 8px;
 }
 
 <label
@@ -2645,7 +2597,7 @@ exports[`with label snapshots renders a select element with size medium, disable
       </title>
       <path
         d="M8.244 12.155l-4.95-4.947a1 1 0 111.415-1.415l4.294 4.291 4.293-4.279a.998.998 0 011.413.003c.39.392.388 1.025-.003 1.415l-5.002 4.986a.998.998 0 01-1.46-.054z"
-        fill="rgb(247, 247, 252)"
+        fill="currentColor"
         fill-rule="evenodd"
       />
     </svg>
@@ -2680,6 +2632,7 @@ exports[`with label snapshots renders a select element with size small, disabled
   display: block;
   margin-bottom: 12px;
   padding: 0;
+  width: 100%;
 }
 
 .emotion-3 {
@@ -2724,6 +2677,7 @@ exports[`with label snapshots renders a select element with size small, disabled
   position: absolute;
   right: 12px;
   top: 9px;
+  opacity: 1;
 }
 
 .emotion-8 {
@@ -2735,7 +2689,7 @@ exports[`with label snapshots renders a select element with size small, disabled
   font-size: 16px;
   font-weight: 400;
   line-height: 16px;
-  color: #ff5400;
+  color: #c01100;
   display: block;
   font-size: 14px;
   margin-top: 8px;
@@ -2757,7 +2711,7 @@ exports[`with label snapshots renders a select element with size small, disabled
   font-size: 16px;
   font-weight: 400;
   line-height: 16px;
-  color: #05192d;
+  color: rgba(5,25,45,0.6);
   display: inline-block;
   font-size: 14px;
 }
@@ -2766,7 +2720,7 @@ exports[`with label snapshots renders a select element with size small, disabled
   background: white;
   border: 0;
   border-radius: 4px;
-  box-shadow: inset 0 0 0 1px rgb(239,239,239);
+  box-shadow: inset 0 0 0 2px rgb(229,225,218);
   box-sizing: border-box;
   display: inline-block;
   font-family: sans-serif;
@@ -2793,18 +2747,12 @@ exports[`with label snapshots renders a select element with size small, disabled
 .emotion-5:active:disabled,
 .emotion-5:focus:disabled {
   cursor: not-allowed;
+  opacity: 0.3;
 }
 
 .emotion-5:focus {
-  box-shadow: inset 0 0 0 1px rgb(3,239,98);
+  box-shadow: inset 0 0 0 2px rgb(0,155,216);
   outline: none;
-}
-
-.emotion-5:disabled,
-.emotion-5:active:disabled,
-.emotion-5:focus:disabled,
-.emotion-5:hover:disabled {
-  box-shadow: inset 0 0 0 1px rgb(239,239,239);
 }
 
 <label
@@ -2870,7 +2818,7 @@ exports[`with label snapshots renders a select element with size small, disabled
       </title>
       <path
         d="M8.244 12.155l-4.95-4.947a1 1 0 111.415-1.415l4.294 4.291 4.293-4.279a.998.998 0 011.413.003c.39.392.388 1.025-.003 1.415l-5.002 4.986a.998.998 0 01-1.46-.054z"
-        fill="rgb(239, 239, 239)"
+        fill="currentColor"
         fill-rule="evenodd"
       />
     </svg>
@@ -2905,6 +2853,7 @@ exports[`with label snapshots renders a select element with size small, disabled
   display: block;
   margin-bottom: 12px;
   padding: 0;
+  width: 100%;
 }
 
 .emotion-4 {
@@ -2949,6 +2898,7 @@ exports[`with label snapshots renders a select element with size small, disabled
   position: absolute;
   right: 12px;
   top: 9px;
+  opacity: 1;
 }
 
 .emotion-9 {
@@ -2960,7 +2910,7 @@ exports[`with label snapshots renders a select element with size small, disabled
   font-size: 16px;
   font-weight: 400;
   line-height: 16px;
-  color: #ff5400;
+  color: #c01100;
   display: block;
   font-size: 14px;
   margin-top: 8px;
@@ -2995,7 +2945,7 @@ exports[`with label snapshots renders a select element with size small, disabled
   font-size: 16px;
   font-weight: 400;
   line-height: 16px;
-  color: #05192d;
+  color: rgba(5,25,45,0.6);
   display: inline-block;
   font-size: 14px;
 }
@@ -3004,7 +2954,7 @@ exports[`with label snapshots renders a select element with size small, disabled
   background: white;
   border: 0;
   border-radius: 4px;
-  box-shadow: inset 0 0 0 1px rgb(239,239,239);
+  box-shadow: inset 0 0 0 2px rgb(229,225,218);
   box-sizing: border-box;
   display: inline-block;
   font-family: sans-serif;
@@ -3031,18 +2981,12 @@ exports[`with label snapshots renders a select element with size small, disabled
 .emotion-6:active:disabled,
 .emotion-6:focus:disabled {
   cursor: not-allowed;
+  opacity: 0.3;
 }
 
 .emotion-6:focus {
-  box-shadow: inset 0 0 0 1px rgb(3,239,98);
+  box-shadow: inset 0 0 0 2px rgb(0,155,216);
   outline: none;
-}
-
-.emotion-6:disabled,
-.emotion-6:active:disabled,
-.emotion-6:focus:disabled,
-.emotion-6:hover:disabled {
-  box-shadow: inset 0 0 0 1px rgb(239,239,239);
 }
 
 <label
@@ -3113,7 +3057,7 @@ exports[`with label snapshots renders a select element with size small, disabled
       </title>
       <path
         d="M8.244 12.155l-4.95-4.947a1 1 0 111.415-1.415l4.294 4.291 4.293-4.279a.998.998 0 011.413.003c.39.392.388 1.025-.003 1.415l-5.002 4.986a.998.998 0 01-1.46-.054z"
-        fill="rgb(239, 239, 239)"
+        fill="currentColor"
         fill-rule="evenodd"
       />
     </svg>
@@ -3148,6 +3092,7 @@ exports[`with label snapshots renders a select element with size small, disabled
   display: block;
   margin-bottom: 12px;
   padding: 0;
+  width: 100%;
 }
 
 .emotion-1 {
@@ -3192,6 +3137,7 @@ exports[`with label snapshots renders a select element with size small, disabled
   position: absolute;
   right: 12px;
   top: 9px;
+  opacity: 1;
 }
 
 .emotion-6 {
@@ -3203,7 +3149,7 @@ exports[`with label snapshots renders a select element with size small, disabled
   font-size: 16px;
   font-weight: 400;
   line-height: 16px;
-  color: #ff5400;
+  color: #c01100;
   display: block;
   font-size: 14px;
   margin-top: 8px;
@@ -3213,7 +3159,7 @@ exports[`with label snapshots renders a select element with size small, disabled
   background: white;
   border: 0;
   border-radius: 4px;
-  box-shadow: inset 0 0 0 1px rgb(239,239,239);
+  box-shadow: inset 0 0 0 2px rgb(229,225,218);
   box-sizing: border-box;
   display: inline-block;
   font-family: sans-serif;
@@ -3240,18 +3186,12 @@ exports[`with label snapshots renders a select element with size small, disabled
 .emotion-3:active:disabled,
 .emotion-3:focus:disabled {
   cursor: not-allowed;
+  opacity: 0.3;
 }
 
 .emotion-3:focus {
-  box-shadow: inset 0 0 0 1px rgb(3,239,98);
+  box-shadow: inset 0 0 0 2px rgb(0,155,216);
   outline: none;
-}
-
-.emotion-3:disabled,
-.emotion-3:active:disabled,
-.emotion-3:focus:disabled,
-.emotion-3:hover:disabled {
-  box-shadow: inset 0 0 0 1px rgb(239,239,239);
 }
 
 <label
@@ -3308,7 +3248,7 @@ exports[`with label snapshots renders a select element with size small, disabled
       </title>
       <path
         d="M8.244 12.155l-4.95-4.947a1 1 0 111.415-1.415l4.294 4.291 4.293-4.279a.998.998 0 011.413.003c.39.392.388 1.025-.003 1.415l-5.002 4.986a.998.998 0 01-1.46-.054z"
-        fill="rgb(239, 239, 239)"
+        fill="currentColor"
         fill-rule="evenodd"
       />
     </svg>
@@ -3343,6 +3283,7 @@ exports[`with label snapshots renders a select element with size small, disabled
   display: block;
   margin-bottom: 12px;
   padding: 0;
+  width: 100%;
 }
 
 .emotion-3 {
@@ -3382,13 +3323,6 @@ exports[`with label snapshots renders a select element with size small, disabled
   white-space: nowrap;
 }
 
-.emotion-6 {
-  pointer-events: none;
-  position: absolute;
-  right: 12px;
-  top: 9px;
-}
-
 .emotion-8 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
@@ -3398,7 +3332,7 @@ exports[`with label snapshots renders a select element with size small, disabled
   font-size: 16px;
   font-weight: 400;
   line-height: 16px;
-  color: #ff5400;
+  color: #c01100;
   display: block;
   font-size: 14px;
   margin-top: 8px;
@@ -3420,7 +3354,7 @@ exports[`with label snapshots renders a select element with size small, disabled
   font-size: 16px;
   font-weight: 400;
   line-height: 16px;
-  color: #05192d;
+  color: rgba(5,25,45,0.6);
   display: inline-block;
   font-size: 14px;
 }
@@ -3429,7 +3363,7 @@ exports[`with label snapshots renders a select element with size small, disabled
   background: white;
   border: 0;
   border-radius: 4px;
-  box-shadow: inset 0 0 0 1px rgb(239,239,239);
+  box-shadow: inset 0 0 0 2px rgb(229,225,218);
   box-sizing: border-box;
   display: inline-block;
   font-family: sans-serif;
@@ -3448,7 +3382,7 @@ exports[`with label snapshots renders a select element with size small, disabled
   height: 36px;
   padding-left: 12px;
   padding-right: 36px;
-  color: rgb(247,247,252);
+  color: rgb(5,25,45);
   width: 100%;
 }
 
@@ -3456,18 +3390,20 @@ exports[`with label snapshots renders a select element with size small, disabled
 .emotion-5:active:disabled,
 .emotion-5:focus:disabled {
   cursor: not-allowed;
+  opacity: 0.3;
 }
 
 .emotion-5:focus {
-  box-shadow: inset 0 0 0 1px rgb(3,239,98);
+  box-shadow: inset 0 0 0 2px rgb(0,155,216);
   outline: none;
 }
 
-.emotion-5:disabled,
-.emotion-5:active:disabled,
-.emotion-5:focus:disabled,
-.emotion-5:hover:disabled {
-  box-shadow: inset 0 0 0 1px rgb(239,239,239);
+.emotion-6 {
+  pointer-events: none;
+  position: absolute;
+  right: 12px;
+  top: 9px;
+  opacity: 0.3;
 }
 
 <label
@@ -3534,7 +3470,7 @@ exports[`with label snapshots renders a select element with size small, disabled
       </title>
       <path
         d="M8.244 12.155l-4.95-4.947a1 1 0 111.415-1.415l4.294 4.291 4.293-4.279a.998.998 0 011.413.003c.39.392.388 1.025-.003 1.415l-5.002 4.986a.998.998 0 01-1.46-.054z"
-        fill="rgb(247, 247, 252)"
+        fill="currentColor"
         fill-rule="evenodd"
       />
     </svg>
@@ -3569,6 +3505,7 @@ exports[`with label snapshots renders a select element with size small, disabled
   display: block;
   margin-bottom: 12px;
   padding: 0;
+  width: 100%;
 }
 
 .emotion-4 {
@@ -3608,13 +3545,6 @@ exports[`with label snapshots renders a select element with size small, disabled
   white-space: nowrap;
 }
 
-.emotion-7 {
-  pointer-events: none;
-  position: absolute;
-  right: 12px;
-  top: 9px;
-}
-
 .emotion-9 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
@@ -3624,7 +3554,7 @@ exports[`with label snapshots renders a select element with size small, disabled
   font-size: 16px;
   font-weight: 400;
   line-height: 16px;
-  color: #ff5400;
+  color: #c01100;
   display: block;
   font-size: 14px;
   margin-top: 8px;
@@ -3659,7 +3589,7 @@ exports[`with label snapshots renders a select element with size small, disabled
   font-size: 16px;
   font-weight: 400;
   line-height: 16px;
-  color: #05192d;
+  color: rgba(5,25,45,0.6);
   display: inline-block;
   font-size: 14px;
 }
@@ -3668,7 +3598,7 @@ exports[`with label snapshots renders a select element with size small, disabled
   background: white;
   border: 0;
   border-radius: 4px;
-  box-shadow: inset 0 0 0 1px rgb(239,239,239);
+  box-shadow: inset 0 0 0 2px rgb(229,225,218);
   box-sizing: border-box;
   display: inline-block;
   font-family: sans-serif;
@@ -3687,7 +3617,7 @@ exports[`with label snapshots renders a select element with size small, disabled
   height: 36px;
   padding-left: 12px;
   padding-right: 36px;
-  color: rgb(247,247,252);
+  color: rgb(5,25,45);
   width: 100%;
 }
 
@@ -3695,18 +3625,20 @@ exports[`with label snapshots renders a select element with size small, disabled
 .emotion-6:active:disabled,
 .emotion-6:focus:disabled {
   cursor: not-allowed;
+  opacity: 0.3;
 }
 
 .emotion-6:focus {
-  box-shadow: inset 0 0 0 1px rgb(3,239,98);
+  box-shadow: inset 0 0 0 2px rgb(0,155,216);
   outline: none;
 }
 
-.emotion-6:disabled,
-.emotion-6:active:disabled,
-.emotion-6:focus:disabled,
-.emotion-6:hover:disabled {
-  box-shadow: inset 0 0 0 1px rgb(239,239,239);
+.emotion-7 {
+  pointer-events: none;
+  position: absolute;
+  right: 12px;
+  top: 9px;
+  opacity: 0.3;
 }
 
 <label
@@ -3778,7 +3710,7 @@ exports[`with label snapshots renders a select element with size small, disabled
       </title>
       <path
         d="M8.244 12.155l-4.95-4.947a1 1 0 111.415-1.415l4.294 4.291 4.293-4.279a.998.998 0 011.413.003c.39.392.388 1.025-.003 1.415l-5.002 4.986a.998.998 0 01-1.46-.054z"
-        fill="rgb(247, 247, 252)"
+        fill="currentColor"
         fill-rule="evenodd"
       />
     </svg>
@@ -3813,6 +3745,7 @@ exports[`with label snapshots renders a select element with size small, disabled
   display: block;
   margin-bottom: 12px;
   padding: 0;
+  width: 100%;
 }
 
 .emotion-1 {
@@ -3852,13 +3785,6 @@ exports[`with label snapshots renders a select element with size small, disabled
   white-space: nowrap;
 }
 
-.emotion-4 {
-  pointer-events: none;
-  position: absolute;
-  right: 12px;
-  top: 9px;
-}
-
 .emotion-6 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
@@ -3868,7 +3794,7 @@ exports[`with label snapshots renders a select element with size small, disabled
   font-size: 16px;
   font-weight: 400;
   line-height: 16px;
-  color: #ff5400;
+  color: #c01100;
   display: block;
   font-size: 14px;
   margin-top: 8px;
@@ -3878,7 +3804,7 @@ exports[`with label snapshots renders a select element with size small, disabled
   background: white;
   border: 0;
   border-radius: 4px;
-  box-shadow: inset 0 0 0 1px rgb(239,239,239);
+  box-shadow: inset 0 0 0 2px rgb(229,225,218);
   box-sizing: border-box;
   display: inline-block;
   font-family: sans-serif;
@@ -3897,7 +3823,7 @@ exports[`with label snapshots renders a select element with size small, disabled
   height: 36px;
   padding-left: 12px;
   padding-right: 36px;
-  color: rgb(247,247,252);
+  color: rgb(5,25,45);
   width: 100%;
 }
 
@@ -3905,18 +3831,20 @@ exports[`with label snapshots renders a select element with size small, disabled
 .emotion-3:active:disabled,
 .emotion-3:focus:disabled {
   cursor: not-allowed;
+  opacity: 0.3;
 }
 
 .emotion-3:focus {
-  box-shadow: inset 0 0 0 1px rgb(3,239,98);
+  box-shadow: inset 0 0 0 2px rgb(0,155,216);
   outline: none;
 }
 
-.emotion-3:disabled,
-.emotion-3:active:disabled,
-.emotion-3:focus:disabled,
-.emotion-3:hover:disabled {
-  box-shadow: inset 0 0 0 1px rgb(239,239,239);
+.emotion-4 {
+  pointer-events: none;
+  position: absolute;
+  right: 12px;
+  top: 9px;
+  opacity: 0.3;
 }
 
 <label
@@ -3974,7 +3902,7 @@ exports[`with label snapshots renders a select element with size small, disabled
       </title>
       <path
         d="M8.244 12.155l-4.95-4.947a1 1 0 111.415-1.415l4.294 4.291 4.293-4.279a.998.998 0 011.413.003c.39.392.388 1.025-.003 1.415l-5.002 4.986a.998.998 0 01-1.46-.054z"
-        fill="rgb(247, 247, 252)"
+        fill="currentColor"
         fill-rule="evenodd"
       />
     </svg>
