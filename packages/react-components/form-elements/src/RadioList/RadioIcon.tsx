@@ -7,25 +7,24 @@ const RadioIcon: React.FC<{
   disabled: boolean;
   error: boolean;
 }> = ({ checked, disabled, error }) => {
-  let color = tokens.color.neutral.grey200.value.hex;
-  if (checked) color = tokens.color.primary.green.value.hex;
+  let color = tokens.color.neutral.beige400.value.hex;
+  if (checked) color = tokens.color.primary.blue.value.hex;
   if (error) color = tokens.color.primary.red.value.hex;
-  if (disabled) color = tokens.color.neutral.grey100.value.hex;
 
   return (
     <>
       <span
-        css={css(
-          {
-            borderColor: color,
-            borderRadius: '50%',
-            borderStyle: 'solid',
-            borderWidth: '1px',
-            boxSizing: 'border-box',
-            position: 'absolute',
-          },
-          { height: '16px', left: 1, top: 1, width: '16px' },
-        )}
+        css={css({
+          borderColor: color,
+          borderRadius: '50%',
+          borderStyle: 'solid',
+          borderWidth: '2px',
+          boxSizing: 'border-box',
+          height: '18px',
+          opacity: disabled ? 0.3 : 1,
+          position: 'absolute',
+          width: '18px',
+        })}
       />
       {checked && (
         <span
@@ -35,7 +34,7 @@ const RadioIcon: React.FC<{
             boxSizing: 'border-box',
             height: '8px',
             marginLeft: '5px',
-            marginTop: '5px',
+            opacity: disabled ? 0.3 : 1,
             position: 'absolute',
             width: '8px',
           }}

@@ -1,18 +1,24 @@
 import tokens from '@datacamp/waffles-tokens/lib/future-tokens.json';
 import { css } from '@emotion/core';
+import tinycolor from 'tinycolor2';
+
+const placeholderColor = tinycolor(tokens.color.primary.navyText.value.rgb)
+  .setAlpha(0.6)
+  .toRgbString();
 
 const baseFormStyle = css({
   ':disabled, :active:disabled, :focus:disabled': {
     cursor: 'not-allowed',
+    opacity: 0.3,
   },
   ':focus': {
-    boxShadow: `inset 0 0 0 1px ${tokens.color.primary.green.value.rgb}`,
+    boxShadow: `inset 0 0 0 2px ${tokens.color.primary.blueDark.value.rgb}`,
     outline: 'none',
   },
   background: 'white',
   border: 0,
   borderRadius: tokens.radii.small.value,
-  boxShadow: `inset 0 0 0 1px ${tokens.color.neutral.grey200.value.rgb}`,
+  boxShadow: `inset 0 0 0 2px ${tokens.color.neutral.beige400.value.rgb}`,
   boxSizing: 'border-box',
   display: 'inline-block',
   fontFamily: [
@@ -26,17 +32,13 @@ const baseFormStyle = css({
 
 const inputStyle = css(baseFormStyle, {
   '::placeholder': {
-    color: tokens.color.primary.navyText.value.rgb,
+    color: placeholderColor,
     fontFamily: 'inherit',
   },
-  ':disabled::placeholder': { color: '#D1D3D8' },
-  color: tokens.color.neutral.grey200.value.rgb,
+  color: tokens.color.primary.navyText.value.rgb,
 });
 
 const selectStyle = css(baseFormStyle, {
-  ':disabled, :active:disabled, :focus:disabled, :hover:disabled': {
-    boxShadow: `inset 0 0 0 1px ${tokens.color.neutral.grey200.value.rgb}`,
-  },
   appearance: 'none',
   MozAppearance: 'none',
   WebkitAppearance: 'none',
@@ -110,7 +112,14 @@ const arrowIconPosition = {
   small: { right: tokens.size.space[12].value, top: '9px' },
 };
 
+const requiredStyle = css({
+  color: placeholderColor,
+  display: 'inline-block',
+  fontSize: '14px',
+});
+
 export {
+  requiredStyle,
   arrowIconPosition,
   heights,
   fontSizes,

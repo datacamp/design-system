@@ -60,7 +60,8 @@
     "@datacamp/waffles-utils": "^2.0.17-beta.0",
     "airbnb-prop-types": "^2.16.0",
     "lodash": "^4.17.13",
-    "prop-types": "^15.7.2"
+    "prop-types": "^15.7.2",
+    "tinycolor2": "^1.4.1"
   },
   "peerDependencies": {
     "@emotion/core": "^10.0.17",

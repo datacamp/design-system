@@ -29,20 +29,13 @@ const textStyle = css({
 });
 
 const divStyle = css({
-  color: tokens.color.primary.navyText.value.hex,
+  alignItems: 'center',
   display: 'flex',
+  height: '20px',
   marginTop: 0,
   position: 'relative',
-  [ssrSafeNotFirstChildSelector]: { marginTop: '14px' },
+  [ssrSafeNotFirstChildSelector]: { marginTop: '10px' },
 });
-
-const focusStyle = {
-  borderWidth: 2,
-  height: 18,
-  left: 0,
-  top: 0,
-  width: 18,
-};
 
 /**
  * Can only be used within `RadioList`
@@ -61,6 +54,13 @@ const Radio = ({
 
         const elementDisabled = disabled || contextValue.disabled;
         const handleChange = (): void => contextValue.onChange(value);
+
+        const focusStyle = {
+          borderColor: contextValue.hasError
+            ? tokens.color.primary.redDark.value.hex
+            : tokens.color.primary.blueDark.value.hex,
+        };
+
         return (
           <label css={divStyle} htmlFor={value}>
             <input
@@ -92,7 +92,7 @@ const Radio = ({
               css={css(
                 textStyle,
                 elementDisabled && {
-                  color: tokens.color.neutral.grey200.value.hex,
+                  opacity: 0.3,
                 },
               )}
             >
