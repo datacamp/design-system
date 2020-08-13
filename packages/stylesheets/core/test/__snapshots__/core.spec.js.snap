@@ -950,28 +950,28 @@ th {
 }
 /** Box shadow */
 .dc-u-bs-border {
-  -webkit-box-shadow: 0 0 0 1px #e6eaeb !important;
-          box-shadow: 0 0 0 1px #e6eaeb !important;
+  -webkit-box-shadow: 0 0 0 1px rgba(5, 25, 45, 0.1) !important;
+          box-shadow: 0 0 0 1px rgba(5, 25, 45, 0.1) !important;
 }
 .dc-u-bs-sm {
-  -webkit-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.15) !important;
-          box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.15) !important;
+  -webkit-box-shadow: 0 1px 4px -1px rgba(5, 25, 45, 0.3) !important;
+          box-shadow: 0 1px 4px -1px rgba(5, 25, 45, 0.3) !important;
 }
 .dc-u-bs-md {
-  -webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.15) !important;
-          box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.15) !important;
+  -webkit-box-shadow: 0 2px 4px -1px rgba(5, 25, 45, 0.3) !important;
+          box-shadow: 0 2px 4px -1px rgba(5, 25, 45, 0.3) !important;
 }
 .dc-u-bs-lg {
-  -webkit-box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.15) !important;
-          box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.15) !important;
+  -webkit-box-shadow: 0 3px 5px -1px rgba(5, 25, 45, 0.3) !important;
+          box-shadow: 0 3px 5px -1px rgba(5, 25, 45, 0.3) !important;
 }
 .dc-u-bs-xl {
-  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.15) !important;
-          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.15) !important;
+  -webkit-box-shadow: 0 8px 12px -4px rgba(5, 25, 45, 0.3) !important;
+          box-shadow: 0 8px 12px -4px rgba(5, 25, 45, 0.3) !important;
 }
 .dc-u-bs-xxl {
-  -webkit-box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.15) !important;
-          box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.15) !important;
+  -webkit-box-shadow: 0 10px 20px 0 rgba(5, 25, 45, 0.3) !important;
+          box-shadow: 0 10px 20px 0 rgba(5, 25, 45, 0.3) !important;
 }
 .dc-u-bs-xl-green {
   -webkit-box-shadow: 0 4px 8px 0 rgba(54, 213, 125, 0.3) !important;
@@ -5320,8 +5320,8 @@ dt {
   background: #ffffff url(\\"https://styleguide-assets.datacamp.com/images/enterprise/components/search/search-blue-6839bf2eb2.svg\\") no-repeat 16px center;
   border: 0;
   border-radius: 24px;
-  -webkit-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: 0 1px 4px -1px rgba(5, 25, 45, 0.3);
+          box-shadow: 0 1px 4px -1px rgba(5, 25, 45, 0.3);
   -webkit-box-sizing: border-box !important;
           box-sizing: border-box !important;
   height: auto;
@@ -5359,8 +5359,8 @@ dt {
   opacity: 0.8;
 }
 .dc-input-search:active, .dc-input-search:focus, .dc-input-search:hover, .dc-is-active.dc-input-search {
-  -webkit-box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: 0 3px 5px -1px rgba(5, 25, 45, 0.3);
+          box-shadow: 0 3px 5px -1px rgba(5, 25, 45, 0.3);
 }
 .dc-input-search__filter {
   background: #ffffff;
@@ -5411,8 +5411,8 @@ dt {
   background-color: #ffffff;
   border: 1px solid #f7f7fc;
   border-radius: 50%;
-  -webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: 0 2px 4px -1px rgba(5, 25, 45, 0.3);
+          box-shadow: 0 2px 4px -1px rgba(5, 25, 45, 0.3);
   content: '';
   display: block;
   height: 26px;
@@ -15080,16 +15080,16 @@ $dc-border-radius: 4px;
 
 
 /** Box shadow */
-$dc-box-shadow-border: 0 0 0 1px #e6eaeb;
-$dc-box-shadow-color: rgba(0,0,0,0.15);
-$dc-box-shadow-lg: 0 3px 5px 0 rgba(0,0,0,0.15);
-$dc-box-shadow-md: 0 1px 3px 0 rgba(0,0,0,0.15);
-$dc-box-shadow-sm: 0 1px 2px 0 rgba(0,0,0,0.15);
-$dc-box-shadow-xl: 0 4px 8px 0 rgba(0,0,0,0.15);
+$dc-box-shadow-border: 0 0 0 1px rgba(5,25,45,0.1);
+$dc-box-shadow-color: rgba(5,25,45,0.3);
+$dc-box-shadow-lg: 0 3px 5px -1px rgba(5,25,45,0.3);
+$dc-box-shadow-md: 0 2px 4px -1px rgba(5,25,45,0.3);
+$dc-box-shadow-sm: 0 1px 4px -1px rgba(5,25,45,0.3);
+$dc-box-shadow-xl: 0 8px 12px -4px rgba(5,25,45,0.3);
 $dc-box-shadow-xl-green: 0 4px 8px 0 rgba(54, 213, 125, 0.3);
 $dc-box-shadow-xl-orange: 0 4px 8px 0 rgba(255, 148, 0, 0.3);
 $dc-box-shadow-xl-purple: 0 4px 8px 0 rgba(132, 104, 196, 0.3);
-$dc-box-shadow-xxl: 0 10px 20px 0 rgba(0,0,0,0.15);
+$dc-box-shadow-xxl: 0 10px 20px 0 rgba(5,25,45,0.3);
 
 
 /** Animation */
@@ -15688,16 +15688,16 @@ Object {
     "radius": "4px",
   },
   "boxShadow": Object {
-    "border": "0 0 0 1px #e6eaeb",
-    "color": "rgba(0,0,0,0.15)",
-    "lg": "0 3px 5px 0 rgba(0,0,0,0.15)",
-    "md": "0 1px 3px 0 rgba(0,0,0,0.15)",
-    "sm": "0 1px 2px 0 rgba(0,0,0,0.15)",
-    "xl": "0 4px 8px 0 rgba(0,0,0,0.15)",
+    "border": "0 0 0 1px rgba(5,25,45,0.1)",
+    "color": "rgba(5,25,45,0.3)",
+    "lg": "0 3px 5px -1px rgba(5,25,45,0.3)",
+    "md": "0 2px 4px -1px rgba(5,25,45,0.3)",
+    "sm": "0 1px 4px -1px rgba(5,25,45,0.3)",
+    "xl": "0 8px 12px -4px rgba(5,25,45,0.3)",
     "xlGreen": "0 4px 8px 0 rgba(54, 213, 125, 0.3)",
     "xlOrange": "0 4px 8px 0 rgba(255, 148, 0, 0.3)",
     "xlPurple": "0 4px 8px 0 rgba(132, 104, 196, 0.3)",
-    "xxl": "0 10px 20px 0 rgba(0,0,0,0.15)",
+    "xxl": "0 10px 20px 0 rgba(5,25,45,0.3)",
   },
   "breakpoints": Object {
     "4K": "1920px",
