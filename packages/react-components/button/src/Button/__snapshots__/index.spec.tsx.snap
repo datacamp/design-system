@@ -10667,7 +10667,7 @@ exports[`<Button /> tooltips tooltip appearance snapshots renders a tooltip with
 .emotion-3 {
   background-color: rgb(255,255,255);
   border-radius: 4px;
-  box-shadow: 0 0 0 1px #e6eaeb;
+  box-shadow: 0 0 0 1px rgba(5,25,45,0.1);
   -webkit-transition: all 0.6s cubic-bezier(0.075,0.82,0.165,1);
   transition: all 0.6s cubic-bezier(0.075,0.82,0.165,1);
   padding-bottom: 8px;
@@ -10811,7 +10811,7 @@ exports[`<Button /> tooltips tooltip appearance snapshots renders a tooltip with
 .emotion-3 {
   background-color: rgb(255,255,255);
   border-radius: 4px;
-  box-shadow: 0px 0px 1px 0px rgba(61,66,81,0.3),0 1px 3px 0 rgba(0,0,0,0.15);
+  box-shadow: 0px 0px 1px 0px rgba(5,25,45,0.3),0 2px 4px -1px rgba(5,25,45,0.3);
   -webkit-transition: all 0.6s cubic-bezier(0.075,0.82,0.165,1);
   transition: all 0.6s cubic-bezier(0.075,0.82,0.165,1);
   padding-bottom: 8px;
@@ -10954,7 +10954,7 @@ exports[`<Button /> tooltips tooltip appearance snapshots renders a tooltip with
 .emotion-3 {
   background-color: rgb(255,255,255);
   border-radius: 4px;
-  box-shadow: 0 0 0 1px #e6eaeb;
+  box-shadow: 0 0 0 1px rgba(5,25,45,0.1);
   -webkit-transition: all 0.6s cubic-bezier(0.075,0.82,0.165,1);
   transition: all 0.6s cubic-bezier(0.075,0.82,0.165,1);
   padding-bottom: 8px;
@@ -11098,7 +11098,7 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at b
 .emotion-3 {
   background-color: rgb(255,255,255);
   border-radius: 4px;
-  box-shadow: 0 0 0 1px #e6eaeb;
+  box-shadow: 0 0 0 1px rgba(5,25,45,0.1);
   -webkit-transition: all 0.6s cubic-bezier(0.075,0.82,0.165,1);
   transition: all 0.6s cubic-bezier(0.075,0.82,0.165,1);
   padding-bottom: 8px;
@@ -11253,7 +11253,7 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at b
 .emotion-3 {
   background-color: rgb(255,255,255);
   border-radius: 4px;
-  box-shadow: 0 0 0 1px #e6eaeb;
+  box-shadow: 0 0 0 1px rgba(5,25,45,0.1);
   -webkit-transition: all 0.6s cubic-bezier(0.075,0.82,0.165,1);
   transition: all 0.6s cubic-bezier(0.075,0.82,0.165,1);
   padding-bottom: 8px;
@@ -11397,7 +11397,7 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at b
 .emotion-3 {
   background-color: rgb(255,255,255);
   border-radius: 4px;
-  box-shadow: 0 0 0 1px #e6eaeb;
+  box-shadow: 0 0 0 1px rgba(5,25,45,0.1);
   -webkit-transition: all 0.6s cubic-bezier(0.075,0.82,0.165,1);
   transition: all 0.6s cubic-bezier(0.075,0.82,0.165,1);
   padding-bottom: 8px;
@@ -11541,7 +11541,7 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at l
 .emotion-3 {
   background-color: rgb(255,255,255);
   border-radius: 4px;
-  box-shadow: 0 0 0 1px #e6eaeb;
+  box-shadow: 0 0 0 1px rgba(5,25,45,0.1);
   -webkit-transition: all 0.6s cubic-bezier(0.075,0.82,0.165,1);
   transition: all 0.6s cubic-bezier(0.075,0.82,0.165,1);
   padding-bottom: 8px;
@@ -11685,7 +11685,7 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at r
 .emotion-3 {
   background-color: rgb(255,255,255);
   border-radius: 4px;
-  box-shadow: 0 0 0 1px #e6eaeb;
+  box-shadow: 0 0 0 1px rgba(5,25,45,0.1);
   -webkit-transition: all 0.6s cubic-bezier(0.075,0.82,0.165,1);
   transition: all 0.6s cubic-bezier(0.075,0.82,0.165,1);
   padding-bottom: 8px;
@@ -11829,7 +11829,7 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at t
 .emotion-3 {
   background-color: rgb(255,255,255);
   border-radius: 4px;
-  box-shadow: 0 0 0 1px #e6eaeb;
+  box-shadow: 0 0 0 1px rgba(5,25,45,0.1);
   -webkit-transition: all 0.6s cubic-bezier(0.075,0.82,0.165,1);
   transition: all 0.6s cubic-bezier(0.075,0.82,0.165,1);
   padding-bottom: 8px;
@@ -11973,7 +11973,7 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at t
 .emotion-3 {
   background-color: rgb(255,255,255);
   border-radius: 4px;
-  box-shadow: 0 0 0 1px #e6eaeb;
+  box-shadow: 0 0 0 1px rgba(5,25,45,0.1);
   -webkit-transition: all 0.6s cubic-bezier(0.075,0.82,0.165,1);
   transition: all 0.6s cubic-bezier(0.075,0.82,0.165,1);
   padding-bottom: 8px;
@@ -12117,7 +12117,7 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at t
 .emotion-3 {
   background-color: rgb(255,255,255);
   border-radius: 4px;
-  box-shadow: 0 0 0 1px #e6eaeb;
+  box-shadow: 0 0 0 1px rgba(5,25,45,0.1);
   -webkit-transition: all 0.6s cubic-bezier(0.075,0.82,0.165,1);
   transition: all 0.6s cubic-bezier(0.075,0.82,0.165,1);
   padding-bottom: 8px;
@@ -12247,7 +12247,7 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at u
 .emotion-3 {
   background-color: rgb(255,255,255);
   border-radius: 4px;
-  box-shadow: 0 0 0 1px #e6eaeb;
+  box-shadow: 0 0 0 1px rgba(5,25,45,0.1);
   -webkit-transition: all 0.6s cubic-bezier(0.075,0.82,0.165,1);
   transition: all 0.6s cubic-bezier(0.075,0.82,0.165,1);
   padding-bottom: 8px;
