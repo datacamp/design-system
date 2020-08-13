@@ -11,16 +11,16 @@ Object {
     "radius": "4px",
   },
   "boxShadow": Object {
-    "border": "0 0 0 1px #e6eaeb",
-    "color": "rgba(0,0,0,0.15)",
-    "lg": "0 3px 5px 0 rgba(0,0,0,0.15)",
-    "md": "0 1px 3px 0 rgba(0,0,0,0.15)",
-    "sm": "0 1px 2px 0 rgba(0,0,0,0.15)",
-    "xl": "0 4px 8px 0 rgba(0,0,0,0.15)",
+    "border": "0 0 0 1px rgba(5,25,45,0.1)",
+    "color": "rgba(5,25,45,0.3)",
+    "lg": "0 3px 5px -1px rgba(5,25,45,0.3)",
+    "md": "0 2px 4px -1px rgba(5,25,45,0.3)",
+    "sm": "0 1px 4px -1px rgba(5,25,45,0.3)",
+    "xl": "0 8px 12px -4px rgba(5,25,45,0.3)",
     "xlGreen": "0 4px 8px 0 rgba(54, 213, 125, 0.3)",
     "xlOrange": "0 4px 8px 0 rgba(255, 148, 0, 0.3)",
     "xlPurple": "0 4px 8px 0 rgba(132, 104, 196, 0.3)",
-    "xxl": "0 10px 20px 0 rgba(0,0,0,0.15)",
+    "xxl": "0 10px 20px 0 rgba(5,25,45,0.3)",
   },
   "breakpoints": Object {
     "4K": "1920px",
@@ -2598,13 +2598,13 @@ Object {
       },
       "name": "border",
       "original": Object {
-        "value": "0 0 0 1px #e6eaeb",
+        "value": "0 0 0 1px rgba(5,25,45,0.1)",
       },
       "path": Array [
         "shadow",
         "border",
       ],
-      "value": "0 0 0 1px #e6eaeb",
+      "value": "0 0 0 1px rgba(5,25,45,0.1)",
     },
     "lg": Object {
       "attributes": Object {
@@ -2613,13 +2613,13 @@ Object {
       },
       "name": "lg",
       "original": Object {
-        "value": "0 3px 5px 0 {shadow.color.value}",
+        "value": "0 3px 5px -1px {shadow.color.value}",
       },
       "path": Array [
         "shadow",
         "lg",
       ],
-      "value": "0 3px 5px 0 rgba(0,0,0,0.15)",
+      "value": "0 3px 5px -1px rgba(5,25,45,0.3)",
     },
     "md": Object {
       "attributes": Object {
@@ -2628,13 +2628,13 @@ Object {
       },
       "name": "md",
       "original": Object {
-        "value": "0 1px 3px 0 {shadow.color.value}",
+        "value": "0 2px 4px -1px {shadow.color.value}",
       },
       "path": Array [
         "shadow",
         "md",
       ],
-      "value": "0 1px 3px 0 rgba(0,0,0,0.15)",
+      "value": "0 2px 4px -1px rgba(5,25,45,0.3)",
     },
     "sm": Object {
       "attributes": Object {
@@ -2643,13 +2643,13 @@ Object {
       },
       "name": "sm",
       "original": Object {
-        "value": "0 1px 2px 0 {shadow.color.value}",
+        "value": "0 1px 4px -1px {shadow.color.value}",
       },
       "path": Array [
         "shadow",
         "sm",
       ],
-      "value": "0 1px 2px 0 rgba(0,0,0,0.15)",
+      "value": "0 1px 4px -1px rgba(5,25,45,0.3)",
     },
     "xl": Object {
       "attributes": Object {
@@ -2658,13 +2658,13 @@ Object {
       },
       "name": "xl",
       "original": Object {
-        "value": "0 4px 8px 0 {shadow.color.value}",
+        "value": "0 8px 12px -4px {shadow.color.value}",
       },
       "path": Array [
         "shadow",
         "xl",
       ],
-      "value": "0 4px 8px 0 rgba(0,0,0,0.15)",
+      "value": "0 8px 12px -4px rgba(5,25,45,0.3)",
     },
   },
   "size": Object {
@@ -3457,16 +3457,16 @@ $dc-border-radius: 4px;
 
 
 /** Box shadow */
-$dc-box-shadow-border: 0 0 0 1px #e6eaeb;
-$dc-box-shadow-color: rgba(0,0,0,0.15);
-$dc-box-shadow-lg: 0 3px 5px 0 rgba(0,0,0,0.15);
-$dc-box-shadow-md: 0 1px 3px 0 rgba(0,0,0,0.15);
-$dc-box-shadow-sm: 0 1px 2px 0 rgba(0,0,0,0.15);
-$dc-box-shadow-xl: 0 4px 8px 0 rgba(0,0,0,0.15);
+$dc-box-shadow-border: 0 0 0 1px rgba(5,25,45,0.1);
+$dc-box-shadow-color: rgba(5,25,45,0.3);
+$dc-box-shadow-lg: 0 3px 5px -1px rgba(5,25,45,0.3);
+$dc-box-shadow-md: 0 2px 4px -1px rgba(5,25,45,0.3);
+$dc-box-shadow-sm: 0 1px 4px -1px rgba(5,25,45,0.3);
+$dc-box-shadow-xl: 0 8px 12px -4px rgba(5,25,45,0.3);
 $dc-box-shadow-xl-green: 0 4px 8px 0 rgba(54, 213, 125, 0.3);
 $dc-box-shadow-xl-orange: 0 4px 8px 0 rgba(255, 148, 0, 0.3);
 $dc-box-shadow-xl-purple: 0 4px 8px 0 rgba(132, 104, 196, 0.3);
-$dc-box-shadow-xxl: 0 10px 20px 0 rgba(0,0,0,0.15);
+$dc-box-shadow-xxl: 0 10px 20px 0 rgba(5,25,45,0.3);
 
 
 /** Animation */

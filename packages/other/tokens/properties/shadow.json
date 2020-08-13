@@ -1,14 +1,14 @@
 {
   "shadow": {
-    "border": { "value": "0 0 0 1px #e6eaeb" },
+    "border": { "value": "0 0 0 1px rgba(5,25,45,0.1)" },
     "color": {
-      "value": "rgba(0,0,0,0.15)",
+      "value": "rgba(5,25,45,0.3)",
       "attributes": { "deprecated": true }
     },
-    "lg": { "value": "0 3px 5px 0 {shadow.color.value}" },
-    "md": { "value": "0 1px 3px 0 {shadow.color.value}" },
-    "sm": { "value": "0 1px 2px 0 {shadow.color.value}" },
-    "xl": { "value": "0 4px 8px 0 {shadow.color.value}" },
+    "lg": { "value": "0 3px 5px -1px {shadow.color.value}" },
+    "md": { "value": "0 2px 4px -1px {shadow.color.value}" },
+    "sm": { "value": "0 1px 4px -1px {shadow.color.value}" },
+    "xl": { "value": "0 8px 12px -4px {shadow.color.value}" },
     "xlGreen": {
       "value": "0 4px 8px 0 rgba(54, 213, 125, 0.3)",
       "attributes": { "deprecated": true }
