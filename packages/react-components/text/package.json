@@ -1,6 +1,6 @@
 {
   "name": "@datacamp/waffles-text",
-  "version": "3.0.15",
+  "version": "3.0.16",
   "main": "lib/index.js",
   "module": "es/index.js",
   "types": "types/index.d.ts",
@@ -31,7 +31,7 @@
     "@babel/cli": "7.7.7",
     "@babel/core": "7.11.0",
     "@datacamp/waffles-axe-render": "^1.2.3",
-    "@datacamp/waffles-babel-preset": "^1.4.14",
+    "@datacamp/waffles-babel-preset": "^1.4.15",
     "@datacamp/waffles-tsconfig": "^1.1.11",
     "@emotion/core": "^10.0.17",
     "@stryker-mutator/core": "^3.3.1",
@@ -50,7 +50,7 @@
   "dependencies": {
     "@babel/runtime": "^7.11.0",
     "@datacamp/waffles-tokens": "^0.6.13",
-    "@datacamp/waffles-utils": "^2.0.15",
+    "@datacamp/waffles-utils": "^2.0.16",
     "airbnb-prop-types": "^2.16.0",
     "lodash": "^4.17.13",
     "prop-types": "^15.7.2",
