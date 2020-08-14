@@ -3,6 +3,48 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0-beta.23](https://github.com/datacamp/design-system/compare/@datacamp/waffles-catalog-doc-site@1.42.3...@datacamp/waffles-catalog-doc-site@2.0.0-beta.23) (2020-08-14)
+
+
+### Bug Fixes
+
+* remove unused Tag import ([1b688e8](https://github.com/datacamp/design-system/commit/1b688e8))
+* replace dashify helper with same lodash method as used to generate ([9f02cca](https://github.com/datacamp/design-system/commit/9f02cca))
+
+
+### Features
+
+* add details about gradient removal to upgrade article ([8313180](https://github.com/datacamp/design-system/commit/8313180))
+* add doc for wordmark less Datacamp Logo ([904ef33](https://github.com/datacamp/design-system/commit/904ef33))
+* add Tag deprecation to brand refresh article ([fe63a0b](https://github.com/datacamp/design-system/commit/fe63a0b))
+* brand refresh update article ([0fe747f](https://github.com/datacamp/design-system/commit/0fe747f))
+* change sans-serif font ([6f2d3cd](https://github.com/datacamp/design-system/commit/6f2d3cd))
+* detail BetaBadge deprecation in brand refresh article ([83dce44](https://github.com/datacamp/design-system/commit/83dce44))
+* detail core js removal on the brand refresh article ([a9ad13b](https://github.com/datacamp/design-system/commit/a9ad13b))
+* host the studio feixen fonts ([543f3db](https://github.com/datacamp/design-system/commit/543f3db))
+* host writer font files ([04da56f](https://github.com/datacamp/design-system/commit/04da56f))
+* load font from hosted version ([0988a6c](https://github.com/datacamp/design-system/commit/0988a6c))
+* make doc site look obviously beta ([b8cd2ff](https://github.com/datacamp/design-system/commit/b8cd2ff))
+* make the docsite very obviously beta ([a3d2c2d](https://github.com/datacamp/design-system/commit/a3d2c2d))
+* remove documentation for Tag component ([3390e2e](https://github.com/datacamp/design-system/commit/3390e2e))
+* remove gradients from docsite ([b82bc9f](https://github.com/datacamp/design-system/commit/b82bc9f))
+* show brand guidelines PDF on the homepage ([6e2ef68](https://github.com/datacamp/design-system/commit/6e2ef68))
+* start documenting colour changes ([39502a8](https://github.com/datacamp/design-system/commit/39502a8))
+* update asset documentation to reflect new logos ([a5a551e](https://github.com/datacamp/design-system/commit/a5a551e))
+* update brand refresh article for transparent colour removal ([2686416](https://github.com/datacamp/design-system/commit/2686416))
+* update docsite colours V1 ([4196493](https://github.com/datacamp/design-system/commit/4196493))
+* update text docs to reflect BetaBadge removal ([f2582b4](https://github.com/datacamp/design-system/commit/f2582b4))
+* use Badge instead of Tag on component status page ([a75eca6](https://github.com/datacamp/design-system/commit/a75eca6))
+
+
+### BREAKING CHANGES
+
+* The sans-serif font has changed from Lato to Studio-Feixen-Sans-Variable
+
+
+
+
+
 # [2.0.0-beta.22](https://github.com/datacamp/design-system/compare/@datacamp/waffles-catalog-doc-site@1.42.2...@datacamp/waffles-catalog-doc-site@2.0.0-beta.22) (2020-08-06)
 
 
