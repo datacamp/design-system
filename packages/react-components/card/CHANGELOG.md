@@ -25,6 +25,15 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
+
+## [3.0.20](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/card/compare/@datacamp/waffles-card@3.0.19...@datacamp/waffles-card@3.0.20) (2020-08-14)
+
+**Note:** Version bump only for package @datacamp/waffles-card
+
+
+
+
+
 ## [3.0.19](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/card/compare/@datacamp/waffles-card@3.0.18...@datacamp/waffles-card@3.0.19) (2020-08-06)
 
 **Note:** Version bump only for package @datacamp/waffles-card

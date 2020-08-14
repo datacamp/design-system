@@ -19,7 +19,7 @@
     "@datacamp/waffles-card": "^3.1.0-beta.2",
     "@datacamp/waffles-core": "^2.0.0-beta.16",
     "@datacamp/waffles-form-elements": "^3.0.0-beta.14",
-    "@datacamp/waffles-icons": "^1.10.9-beta.0",
+    "@datacamp/waffles-icons": "^1.10.9",
     "@datacamp/waffles-markdown": "^3.0.0-beta.14",
     "@datacamp/waffles-modals": "^6.0.0-beta.14",
     "@datacamp/waffles-tag": "^2.0.0-beta.15",

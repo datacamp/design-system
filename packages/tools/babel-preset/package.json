@@ -1,13 +1,13 @@
 {
   "name": "@datacamp/waffles-babel-preset",
-  "version": "1.4.15-beta.0",
+  "version": "1.4.15",
   "main": "index.js",
   "homepage": "https://github.com/datacamp-engineering/design-system/tree/master/packages/tools/babel-preset/README.md",
   "license": "UNLICENSED",
   "private": true,
   "dependencies": {
     "@babel/plugin-proposal-class-properties": "^7.10.1",
-    "@babel/plugin-transform-runtime": "^7.10.4",
+    "@babel/plugin-transform-runtime": "^7.11.0",
     "@babel/preset-env": "^7.11.0",
     "@babel/preset-react": "^7.8.3",
     "@babel/preset-typescript": "^7.10.4",

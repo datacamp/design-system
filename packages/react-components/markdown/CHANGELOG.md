@@ -23,15 +23,15 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 ### BREAKING CHANGES
 
 * all monospace font now uses JetBrains MonoNL
-* Headings with size 800 (or h1 from the style sheets) 
-now have a letter spacing of -1. Headings with size 700 & 600 (or h2 & 
+* Headings with size 800 (or h1 from the style sheets)
+now have a letter spacing of -1. Headings with size 700 & 600 (or h2 &
 h3 from the style sheets) now have a letter spacing of -0.5
-* The line height for headings has changed from 1.25 to 
+* The line height for headings has changed from 1.25 to
 1.2
-* The monospace font has changed from Roboto-Mono to 
-Studio-Feixen-Writer. This may affect layout when using code or code 
+* The monospace font has changed from Roboto-Mono to
+Studio-Feixen-Writer. This may affect layout when using code or code
 blocks.
-* Font weights have been updated to work with new 
+* Font weights have been updated to work with new
 branding
 * The sans-serif font has changed from Lato to Studio-Feixen-Sans-Variable
 
@@ -293,6 +293,14 @@ branding
 ### BREAKING CHANGES
 
 * The sans-serif font has changed from Lato to Studio-Feixen-Sans-Variable
+
+
+
+## [2.0.16](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/markdown/compare/@datacamp/waffles-markdown@2.0.15...@datacamp/waffles-markdown@2.0.16) (2020-08-14)
+
+**Note:** Version bump only for package @datacamp/waffles-markdown
+
+
 
 
 

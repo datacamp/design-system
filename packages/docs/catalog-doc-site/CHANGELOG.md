@@ -260,6 +260,13 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
+## [1.42.3](https://github.com/datacamp/design-system/compare/@datacamp/waffles-catalog-doc-site@1.42.2...@datacamp/waffles-catalog-doc-site@1.42.3) (2020-08-14)
+
+**Note:** Version bump only for package @datacamp/waffles-catalog-doc-site
+
+
+
+
 
 ## [1.42.2](https://github.com/datacamp/design-system/compare/@datacamp/waffles-catalog-doc-site@1.42.1...@datacamp/waffles-catalog-doc-site@1.42.2) (2020-08-06)
 

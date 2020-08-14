@@ -96,29 +96,6 @@ branding
 
 
 
-## [1.2.22](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/tag/compare/@datacamp/waffles-tag@1.2.21...@datacamp/waffles-tag@1.2.22) (2020-08-06)
-
-**Note:** Version bump only for package @datacamp/waffles-tag
-
-
-
-
-
-## [1.2.21](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/tag/compare/@datacamp/waffles-tag@1.2.20...@datacamp/waffles-tag@1.2.21) (2020-07-30)
-
-**Note:** Version bump only for package @datacamp/waffles-tag
-
-
-
-
-
-## [1.2.20](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/tag/compare/@datacamp/waffles-tag@1.2.19...@datacamp/waffles-tag@1.2.20) (2020-07-17)
-
-**Note:** Version bump only for package @datacamp/waffles-tag
-
-
-
-
 
 # [2.0.0-beta.8](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/tag/compare/@datacamp/waffles-tag@2.0.0-beta.7...@datacamp/waffles-tag@2.0.0-beta.8) (2020-07-08)
 
@@ -151,6 +128,37 @@ branding
 # [2.0.0-beta.6](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/tag/compare/@datacamp/waffles-tag@2.0.0-beta.5...@datacamp/waffles-tag@2.0.0-beta.6) (2020-07-06)
 
 **Note:** Version bump only for package @datacamp/waffles-tag
+
+
+
+## [1.2.23](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/tag/compare/@datacamp/waffles-tag@1.2.22...@datacamp/waffles-tag@1.2.23) (2020-08-14)
+
+**Note:** Version bump only for package @datacamp/waffles-tag
+
+
+
+
+
+## [1.2.22](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/tag/compare/@datacamp/waffles-tag@1.2.21...@datacamp/waffles-tag@1.2.22) (2020-08-06)
+
+**Note:** Version bump only for package @datacamp/waffles-tag
+
+
+
+
+
+## [1.2.21](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/tag/compare/@datacamp/waffles-tag@1.2.20...@datacamp/waffles-tag@1.2.21) (2020-07-30)
+
+**Note:** Version bump only for package @datacamp/waffles-tag
+
+
+
+
+
+## [1.2.20](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/tag/compare/@datacamp/waffles-tag@1.2.19...@datacamp/waffles-tag@1.2.20) (2020-07-17)
+
+**Note:** Version bump only for package @datacamp/waffles-tag
+
 
 
 

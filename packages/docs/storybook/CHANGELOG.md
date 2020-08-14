@@ -173,6 +173,32 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
+# [1.43.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-storybook@1.42.4...@datacamp/waffles-storybook@1.43.0) (2020-08-14)
+
+
+### Bug Fixes
+
+* invalid a11y role usage ([d7112c1](https://github.com/datacamp/design-system/commit/d7112c1))
+
+### Features
+
+* add stories for scss buttons ([d492e1a](https://github.com/datacamp/design-system/commit/d492e1a))
+* add stories for scss cards ([e09bb3f](https://github.com/datacamp/design-system/commit/e09bb3f))
+* add stories for scss flash-banner ([4c03f9a](https://github.com/datacamp/design-system/commit/4c03f9a))
+* add stories for scss progress bar ([57a96db](https://github.com/datacamp/design-system/commit/57a96db))
+* add stories for scss tables ([3fb18e8](https://github.com/datacamp/design-system/commit/3fb18e8))
+* add stories for scss tags ([1e3f134](https://github.com/datacamp/design-system/commit/1e3f134))
+* add story for count-indicator ([fd38cb3](https://github.com/datacamp/design-system/commit/fd38cb3))
+* add story for dropdown component ([6281c36](https://github.com/datacamp/design-system/commit/6281c36))
+* add story for scss pagination ([d20f77d](https://github.com/datacamp/design-system/commit/d20f77d))
+* add story for scss tabs ([37dfd75](https://github.com/datacamp/design-system/commit/37dfd75))
+* add story for tabbed-nav ([05bb70f](https://github.com/datacamp/design-system/commit/05bb70f))
+* lazy load stylesheet to only affect stories where it is needed ([d514fe8](https://github.com/datacamp/design-system/commit/d514fe8))
+
+
+
+
+
 ## [1.42.4](https://github.com/datacamp/design-system/compare/@datacamp/waffles-storybook@1.42.3...@datacamp/waffles-storybook@1.42.4) (2020-08-06)
 
 **Note:** Version bump only for package @datacamp/waffles-storybook
