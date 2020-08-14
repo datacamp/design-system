@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [3.0.0-beta.16](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/form-elements/compare/@datacamp/waffles-form-elements@3.0.0-beta.15...@datacamp/waffles-form-elements@3.0.0-beta.16) (2020-08-14)
+
+
+### Features
+
+* update form elements to reflect rebranding ([10d278d](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/form-elements/commit/10d278d))
+
+
+### BREAKING CHANGES
+
+* All colours of the form elements have changed
+
+
+
+
+
 # [3.0.0-beta.15](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/form-elements/compare/@datacamp/waffles-form-elements@2.10.5...@datacamp/waffles-form-elements@3.0.0-beta.15) (2020-08-14)
 
 

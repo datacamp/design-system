@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [6.0.0-beta.16](https://github.com/datacamp/design-system/compare/@datacamp/waffles-button@6.0.0-beta.15...@datacamp/waffles-button@6.0.0-beta.16) (2020-08-14)
+
+
+### Features
+
+* propogate card updates to button tooltips ([81b4218](https://github.com/datacamp/design-system/commit/81b4218))
+
+
+
+
+
 # [6.0.0-beta.15](https://github.com/datacamp/design-system/compare/@datacamp/waffles-button@5.1.17...@datacamp/waffles-button@6.0.0-beta.15) (2020-08-14)
 
 

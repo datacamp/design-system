@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0-beta.18](https://github.com/datacamp/design-system/compare/@datacamp/waffles-core@2.0.0-beta.17...@datacamp/waffles-core@2.0.0-beta.18) (2020-08-14)
+
+
+### Features
+
+* update shadow classes ([46c5ab7](https://github.com/datacamp/design-system/commit/46c5ab7))
+
+
+### BREAKING CHANGES
+
+* Shadows now use the new navy colour
+
+
+
+
+
 # [2.0.0-beta.17](https://github.com/datacamp/design-system/compare/@datacamp/waffles-core@1.2.45...@datacamp/waffles-core@2.0.0-beta.17) (2020-08-14)
 
 

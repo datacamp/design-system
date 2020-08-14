@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [6.0.0-beta.16](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/modals/compare/@datacamp/waffles-modals@6.0.0-beta.15...@datacamp/waffles-modals@6.0.0-beta.16) (2020-08-14)
+
+
+### Features
+
+* propogate card updates to modals ([75d252a](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/modals/commit/75d252a))
+
+
+
+
+
 # [6.0.0-beta.15](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/modals/compare/@datacamp/waffles-modals@5.1.16...@datacamp/waffles-modals@6.0.0-beta.15) (2020-08-14)
 
 

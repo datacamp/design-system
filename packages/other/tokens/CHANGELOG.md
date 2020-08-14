@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.0.0-beta.11](https://github.com/datacamp/design-system/compare/@datacamp/waffles-tokens@1.0.0-beta.10...@datacamp/waffles-tokens@1.0.0-beta.11) (2020-08-14)
+
+
+### Features
+
+* update shadow values in tokens to match the brand refresh ([2809f1e](https://github.com/datacamp/design-system/commit/2809f1e))
+
+
+### BREAKING CHANGES
+
+* All shadows now use transparencies of the navy colour 
+rather than the grey that was used before
+
+
+
+
+
 # [1.0.0-beta.10](https://github.com/datacamp/design-system/compare/@datacamp/waffles-tokens@1.0.0-beta.9...@datacamp/waffles-tokens@1.0.0-beta.10) (2020-07-28)
 
 
