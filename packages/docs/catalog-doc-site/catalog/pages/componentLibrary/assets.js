@@ -104,7 +104,7 @@ export default () => {
                 </td>
                 <td
                   css={{
-                    backgroundColor: tokens.color.opaque.greyOslo.value.hex,
+                    backgroundColor: tokens.color.opaque.grey400.value.hex,
                   }}
                 >
                   <DatacampLogo logomarkColor="#03EF62" />
