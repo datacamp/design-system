@@ -4784,7 +4784,6 @@ dt {
 .dc-label__number {
   background-color: #03ef62;
   border-radius: 50%;
-  color: #ffffff;
   display: inline-block;
   font-size: 0.875rem;
   line-height: 1;
@@ -4795,8 +4794,8 @@ dt {
 }
 .dc-input--text,
 .dc-textarea {
-  background-color: #fffbf3;
-  border: 1px solid #fffbf3;
+  background-color: #ffffff;
+  border: 2px solid #e5e1da;
   border-radius: 4px;
   color: #05192d;
   font-size: 16px;
@@ -4808,65 +4807,45 @@ dt {
 }
 .dc-input--text::-webkit-input-placeholder,
 .dc-textarea::-webkit-input-placeholder {
-  color: #008700;
+  color: rgba(5, 25, 45, 0.6);
   -webkit-transition: color 0.3s;
   transition: color 0.3s;
 }
 .dc-input--text::-moz-placeholder,
 .dc-textarea::-moz-placeholder {
-  color: #008700;
+  color: rgba(5, 25, 45, 0.6);
   -webkit-transition: color 0.3s;
   transition: color 0.3s;
 }
 .dc-input--text:-ms-input-placeholder,
 .dc-textarea:-ms-input-placeholder {
-  color: #008700;
+  color: rgba(5, 25, 45, 0.6);
   -webkit-transition: color 0.3s;
   transition: color 0.3s;
 }
 .dc-input--text::-ms-input-placeholder,
 .dc-textarea::-ms-input-placeholder {
-  color: #008700;
+  color: rgba(5, 25, 45, 0.6);
   -webkit-transition: color 0.3s;
   transition: color 0.3s;
 }
 .dc-input--text::placeholder,
 .dc-textarea::placeholder {
-  color: #008700;
+  color: rgba(5, 25, 45, 0.6);
   -webkit-transition: color 0.3s;
   transition: color 0.3s;
-}
-.dc-input--text:focus::-webkit-input-placeholder,
-.dc-textarea:focus::-webkit-input-placeholder {
-  color: rgba(0, 0, 0, 0);
-}
-.dc-input--text:focus::-moz-placeholder,
-.dc-textarea:focus::-moz-placeholder {
-  color: rgba(0, 0, 0, 0);
-}
-.dc-input--text:focus:-ms-input-placeholder,
-.dc-textarea:focus:-ms-input-placeholder {
-  color: rgba(0, 0, 0, 0);
-}
-.dc-input--text:focus::-ms-input-placeholder,
-.dc-textarea:focus::-ms-input-placeholder {
-  color: rgba(0, 0, 0, 0);
-}
-.dc-input--text:focus::placeholder,
-.dc-textarea:focus::placeholder {
-  color: rgba(0, 0, 0, 0);
 }
 .dc-input--text:focus, .dc-input--text.focus,
 .dc-textarea:focus,
 .dc-textarea.focus {
-  border-color: #03ef62;
+  border-color: #009bd8;
   outline: none;
 }
 .dc-input--text:disabled, .dc-input--text.dc-is-disabled,
 .dc-textarea:disabled,
 .dc-textarea.dc-is-disabled {
   cursor: not-allowed;
-  opacity: 0.5;
+  opacity: 0.3;
 }
 @media all and (-ms-high-contrast: none) {
   .dc-input--text {
@@ -4877,7 +4856,7 @@ dt {
   display: none;
 }
 .dc-input--date::-webkit-calendar-picker-indicator {
-  color: #008700;
+  color: #05192d;
 }
 .dc-input-combo {
   position: relative;
@@ -4963,16 +4942,16 @@ dt {
   position: relative;
 }
 .dc-select-container::after {
-  background-color: #fffbf3;
+  background-color: #ffffff;
   border-left: 1px solid #ffffff;
   border-radius: 0 4px 4px 0;
   content: '';
-  height: 46px;
+  height: 44px;
   pointer-events: none;
   position: absolute;
-  right: 1px;
-  top: 1px;
-  width: 47px;
+  right: 2px;
+  top: 2px;
+  width: 46px;
 }
 .dc-select-container::before {
   background: url(\\"https://styleguide-assets.datacamp.com/images/marketing/components/icons/arrow_down-19bbe4876d.svg\\") no-repeat 50% 50%/16px 16px;
@@ -4980,7 +4959,7 @@ dt {
   height: 16px;
   pointer-events: none;
   position: absolute;
-  right: 17px;
+  right: 18px;
   top: 50%;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
@@ -4991,9 +4970,9 @@ dt {
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
-  background-color: #fffbf3;
+  background-color: #ffffff;
   background-image: none;
-  border: 1px solid transparent;
+  border: 2px solid #e5e1da;
   border-radius: 4px;
   -webkit-box-shadow: none;
           box-shadow: none;
@@ -5009,12 +4988,12 @@ dt {
   width: 100%;
 }
 .dc-select:focus, .dc-select.focus {
-  border-color: #03ef62;
+  border-color: #009bd8;
   outline: none;
 }
 .dc-select:disabled, .dc-select.dc-is-disabled {
   cursor: not-allowed;
-  opacity: 0.5;
+  opacity: 0.3;
 }
 .dc-select ::-ms-expand {
   display: none;
@@ -5043,7 +5022,7 @@ dt {
       -ms-flex-align: center;
           align-items: center;
   background-color: #ffffff;
-  border: 1px solid #efefef;
+  border: 2px solid #e5e1da;
   border-radius: 4px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -5065,38 +5044,26 @@ dt {
   border-color: #ff5400;
 }
 .dc-input-checkbox__input:disabled ~ .dc-input-checkbox__indicator {
-  background: #ffffff;
-  border-color: #f7f7fc;
+  opacity: 0.3;
   cursor: not-allowed;
 }
 .dc-input-checkbox__input:checked ~ .dc-input-checkbox__indicator {
-  border-color: #03ef62;
+  border-color: #06bdfc;
 }
 .dc-input-checkbox__input:focus ~ .dc-input-checkbox__indicator {
-  border-color: #03ef62;
-  -webkit-box-shadow: 0 0 0 1px #03ef62;
-          box-shadow: 0 0 0 1px #03ef62;
-}
-.dc-input-checkbox__input:disabled:checked ~ .dc-input-checkbox__indicator {
-  border-color: #f7f7fc;
+  border-color: #009bd8;
 }
 .dc-input-checkbox__input:focus:checked ~ .dc-input-checkbox__indicator {
-  border-color: #03ef62;
-  -webkit-box-shadow: 0 0 0 1px #03ef62;
-          box-shadow: 0 0 0 1px #03ef62;
+  border-color: #009bd8;
 }
 .dc-has-error .dc-input-checkbox__input:checked ~ .dc-input-checkbox__indicator {
   border-color: #ff5400;
 }
 .dc-has-error .dc-input-checkbox__input:focus ~ .dc-input-checkbox__indicator {
-  border-color: #ff5400;
-  -webkit-box-shadow: 0 0 0 1px #ff5400;
-          box-shadow: 0 0 0 1px #ff5400;
+  border-color: #dd3400;
 }
 .dc-has-error .dc-input-checkbox__input:focus:checked ~ .dc-input-checkbox__indicator {
   border-color: #ff5400;
-  -webkit-box-shadow: 0 0 0 1px #ff5400;
-          box-shadow: 0 0 0 1px #ff5400;
 }
 /** text */
 .dc-input-checkbox__text {
@@ -5113,14 +5080,8 @@ dt {
   transition: color 0.3s cubic-bezier(0.77, 0, 0.175, 1);
 }
 .dc-input-checkbox__input:disabled ~ .dc-input-checkbox__text {
-  color: #f7f7fc;
+  opacity: 0.3;
   cursor: not-allowed;
-}
-.dc-input-checkbox__input:checked ~ .dc-input-checkbox__text {
-  color: #05192d;
-}
-.dc-input-checkbox__input:disabled:checked ~ .dc-input-checkbox__text {
-  color: #f7f7fc;
 }
 /** check */
 .dc-input-checkbox__check {
@@ -5132,12 +5093,11 @@ dt {
   width: 8px;
 }
 .dc-input-checkbox__input:checked ~ .dc-input-checkbox__indicator .dc-input-checkbox__check {
-  fill: #03ef62;
+  fill: #06bdfc;
   opacity: 1;
 }
 .dc-input-checkbox__input:disabled:checked ~ .dc-input-checkbox__indicator .dc-input-checkbox__check {
-  fill: #efefef;
-  opacity: 1;
+  opacity: 0.3;
 }
 .dc-has-error .dc-input-checkbox__input:checked ~ .dc-input-checkbox__indicator .dc-input-checkbox__check {
   fill: #ff5400;
@@ -5212,7 +5172,7 @@ dt {
       -ms-flex-align: center;
           align-items: center;
   background-color: #ffffff;
-  border: 1px solid #efefef;
+  border: 2px solid #e5e1da;
   border-radius: 50%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -5247,33 +5207,21 @@ dt {
   background: #ff5400;
 }
 .dc-input-radio__input:disabled ~ .dc-input-radio__indicator {
-  background: #ffffff;
-  border-color: #f7f7fc;
+  opacity: 0.3;
   cursor: not-allowed;
 }
 .dc-input-radio__input:checked ~ .dc-input-radio__indicator {
-  border-color: #03ef62;
+  border-color: #06bdfc;
 }
 .dc-input-radio__input:checked ~ .dc-input-radio__indicator::before {
-  background: #03ef62;
+  background: #06bdfc;
   opacity: 1;
 }
 .dc-input-radio__input:focus ~ .dc-input-radio__indicator {
-  border-color: #03ef62;
-  -webkit-box-shadow: 0 0 0 1px #03ef62;
-          box-shadow: 0 0 0 1px #03ef62;
-}
-.dc-input-radio__input:disabled:checked ~ .dc-input-radio__indicator {
-  border-color: #f7f7fc;
-}
-.dc-input-radio__input:disabled:checked ~ .dc-input-radio__indicator::before {
-  background: #efefef;
-  opacity: 1;
+  border-color: #009bd8;
 }
 .dc-input-radio__input:focus:checked ~ .dc-input-radio__indicator {
-  border-color: #03ef62;
-  -webkit-box-shadow: 0 0 0 1px #03ef62;
-          box-shadow: 0 0 0 1px #03ef62;
+  border-color: #009bd8;
 }
 .dc-has-error .dc-input-radio__input:checked ~ .dc-input-radio__indicator {
   border-color: #ff5400;
@@ -5283,14 +5231,10 @@ dt {
   opacity: 1;
 }
 .dc-has-error .dc-input-radio__input:focus ~ .dc-input-radio__indicator {
-  border-color: #ff5400;
-  -webkit-box-shadow: 0 0 0 1px #ff5400;
-          box-shadow: 0 0 0 1px #ff5400;
+  border-color: #dd3400;
 }
 .dc-has-error .dc-input-radio__input:focus:checked ~ .dc-input-radio__indicator {
-  border-color: #ff5400;
-  -webkit-box-shadow: 0 0 0 1px #ff5400;
-          box-shadow: 0 0 0 1px #ff5400;
+  border-color: #dd3400;
 }
 /** text */
 .dc-input-radio__text {
@@ -5307,14 +5251,8 @@ dt {
   transition: color 0.3s cubic-bezier(0.77, 0, 0.175, 1);
 }
 .dc-input-radio__input:disabled ~ .dc-input-radio__text {
-  color: #f7f7fc;
+  opacity: 0.3;
   cursor: not-allowed;
-}
-.dc-input-radio__input:checked ~ .dc-input-radio__text {
-  color: #e8e8ea;
-}
-.dc-input-radio__input:disabled:checked ~ .dc-input-radio__text {
-  color: #f7f7fc;
 }
 .dc-input-search {
   background: #ffffff url(\\"https://styleguide-assets.datacamp.com/images/enterprise/components/search/search-blue-6839bf2eb2.svg\\") no-repeat 16px center;
@@ -8266,7 +8204,6 @@ exports[`Core generates the correct files: lib/scss/design/forms/_forms-legacy.s
 .dc-label__number {
   background-color: $dc-green;
   border-radius: 50%;
-  color: $dc-white;
   display: inline-block;
   font-size: $dc-font-size-small;
   line-height: 1;
@@ -8280,8 +8217,8 @@ exports[`Core generates the correct files: lib/scss/design/forms/_forms-legacy.s
 
 .dc-input--text,
 .dc-textarea {
-  background-color: $dc-beige-100;
-  border: 1px solid $dc-beige-100;
+  background-color: $dc-white;
+  border: 2px solid $dc-beige-400;
   border-radius: $dc-border-radius;
   color: $dc-navy-text;
   font-size: $dc-font-size-base;
@@ -8291,24 +8228,20 @@ exports[`Core generates the correct files: lib/scss/design/forms/_forms-legacy.s
   width: 100%;
 
   &::placeholder {
-    color: $dc-green-text;
+    color: rgba($dc-navy-text, 0.6);
     transition: color $dc-duration;
-  }
-
-  &:focus::placeholder {
-    color: rgba(0, 0, 0, 0);
   }
 
   &:focus,
   &.focus {
-    border-color: $dc-green;
+    border-color: $dc-blue-dark;
     outline: none;
   }
 
   &:disabled,
   &.dc-is-disabled {
     cursor: not-allowed;
-    opacity: 0.5;
+    opacity: 0.3;
   }
 }
 
@@ -8326,7 +8259,7 @@ exports[`Core generates the correct files: lib/scss/design/forms/_forms-legacy.s
   }
 
   &::-webkit-calendar-picker-indicator {
-    color: $dc-green-text;
+    color: $dc-navy-text;
   }
 }
 
@@ -8464,7 +8397,7 @@ exports[`Core generates the correct files: lib/scss/design/forms/_input-checkbox
 .dc-input-checkbox__indicator {
   align-items: center;
   background-color: $dc-white;
-  border: 1px solid $dc-grey-200;
+  border: 2px solid $dc-beige-400;
   border-radius: $dc-border-radius;
   display: flex;
   flex-shrink: 0;
@@ -8481,31 +8414,23 @@ exports[`Core generates the correct files: lib/scss/design/forms/_input-checkbox
 
   // disabled
   .dc-input-checkbox__input:disabled ~ & {
-    background: $dc-white;
-    border-color: $dc-grey-100;
+    opacity: 0.3;
     cursor: not-allowed;
   }
 
   // checked
   .dc-input-checkbox__input:checked ~ & {
-    border-color: $dc-green;
+    border-color: $dc-blue;
   }
 
   // focus
   .dc-input-checkbox__input:focus ~ & {
-    border-color: $dc-green;
-    box-shadow: 0 0 0 1px $dc-green;
-  }
-
-  // disabled and checked
-  .dc-input-checkbox__input:disabled:checked ~ & {
-    border-color: $dc-grey-100;
+    border-color: $dc-blue-dark;
   }
 
   // focus and checked
   .dc-input-checkbox__input:focus:checked ~ & {
-    border-color: $dc-green;
-    box-shadow: 0 0 0 1px $dc-green;
+    border-color: $dc-blue-dark;
   }
 
   // has error + checked
@@ -8515,14 +8440,12 @@ exports[`Core generates the correct files: lib/scss/design/forms/_input-checkbox
 
   // has error + focused
   .dc-has-error .dc-input-checkbox__input:focus ~ & {
-    border-color: $dc-red;
-    box-shadow: 0 0 0 1px $dc-red;
+    border-color: $dc-red-dark;
   }
 
   // has error + focus and checked
   .dc-has-error .dc-input-checkbox__input:focus:checked ~ & {
     border-color: $dc-red;
-    box-shadow: 0 0 0 1px $dc-red;
   }
 }
 
@@ -8540,18 +8463,8 @@ exports[`Core generates the correct files: lib/scss/design/forms/_input-checkbox
 
   // disabled
   .dc-input-checkbox__input:disabled ~ & {
-    color: $dc-grey-100;
+    opacity: 0.3;
     cursor: not-allowed;
-  }
-
-  // checked
-  .dc-input-checkbox__input:checked ~ & {
-    color: $dc-navy-text;
-  }
-
-  // disabled and checked
-  .dc-input-checkbox__input:disabled:checked ~ & {
-    color: $dc-grey-100;
   }
 }
 
@@ -8566,14 +8479,13 @@ exports[`Core generates the correct files: lib/scss/design/forms/_input-checkbox
 
   // checked
   .dc-input-checkbox__input:checked ~ .dc-input-checkbox__indicator & {
-    fill: $dc-green;
+    fill: $dc-blue;
     opacity: 1;
   }
 
   // disabled and checked
   .dc-input-checkbox__input:disabled:checked ~ .dc-input-checkbox__indicator & {
-    fill: $dc-grey-200;
-    opacity: 1;
+    opacity: 0.3;
   }
 
   // has error + checked
@@ -8658,7 +8570,7 @@ exports[`Core generates the correct files: lib/scss/design/forms/_input-radio.sc
 .dc-input-radio__indicator {
   align-items: center;
   background-color: $dc-white;
-  border: 1px solid $dc-grey-200;
+  border: 2px solid $dc-beige-400;
   border-radius: 50%;
   display: flex;
   flex-shrink: 0;
@@ -8688,41 +8600,28 @@ exports[`Core generates the correct files: lib/scss/design/forms/_input-radio.sc
 
   // disabled
   .dc-input-radio__input:disabled ~ & {
-    background: $dc-white;
-    border-color: $dc-grey-100;
+    opacity: 0.3;
     cursor: not-allowed;
   }
 
   // checked
   .dc-input-radio__input:checked ~ & {
-    border-color: $dc-green;
+    border-color: $dc-blue;
 
     &::before {
-      background: $dc-green;
+      background: $dc-blue;
       opacity: 1;
     }
   }
 
   // focus
   .dc-input-radio__input:focus ~ & {
-    border-color: $dc-green;
-    box-shadow: 0 0 0 1px $dc-green;
-  }
-
-  // disabled and checked
-  .dc-input-radio__input:disabled:checked ~ & {
-    border-color: $dc-grey-100;
-
-    &::before {
-      background: $dc-grey-200;
-      opacity: 1;
-    }
+    border-color: $dc-blue-dark;
   }
 
   // focus and checked
   .dc-input-radio__input:focus:checked ~ & {
-    border-color: $dc-green;
-    box-shadow: 0 0 0 1px $dc-green;
+    border-color: $dc-blue-dark;
   }
 
   // has error + checked
@@ -8737,14 +8636,12 @@ exports[`Core generates the correct files: lib/scss/design/forms/_input-radio.sc
 
   // has error + focus
   .dc-has-error .dc-input-radio__input:focus ~ & {
-    border-color: $dc-red;
-    box-shadow: 0 0 0 1px $dc-red;
+    border-color: $dc-red-dark;
   }
 
   // has error + focus and checked
   .dc-has-error .dc-input-radio__input:focus:checked ~ & {
-    border-color: $dc-red;
-    box-shadow: 0 0 0 1px $dc-red;
+    border-color: $dc-red-dark;
   }
 }
 
@@ -8762,18 +8659,8 @@ exports[`Core generates the correct files: lib/scss/design/forms/_input-radio.sc
 
   // disabled
   .dc-input-radio__input:disabled ~ & {
-    color: $dc-grey-100;
+    opacity: 0.3;
     cursor: not-allowed;
-  }
-
-  // checked
-  .dc-input-radio__input:checked ~ & {
-    color: $dc-grey-300;
-  }
-
-  // disabled and checked
-  .dc-input-radio__input:disabled:checked ~ & {
-    color: $dc-grey-100;
   }
 }
 "
@@ -8926,16 +8813,16 @@ exports[`Core generates the correct files: lib/scss/design/forms/_select.scss 1`
   position: relative;
 
   &::after {
-    background-color: $dc-beige-100;
+    background-color: $dc-white;
     border-left: 1px solid $dc-white;
     border-radius: 0 $dc-border-radius $dc-border-radius 0;
     content: '';
-    height: 46px; // +1px border-top +1px border-bottom
+    height: 44px; // +2px border-top +2px border-bottom
     pointer-events: none;
     position: absolute;
-    right: 1px;
-    top: 1px;
-    width: 47px; // +1px border-left
+    right: 2px;
+    top: 2px;
+    width: 46px; // +2px border-left
   }
 
   &::before {
@@ -8944,7 +8831,7 @@ exports[`Core generates the correct files: lib/scss/design/forms/_select.scss 1`
     height: 16px;
     pointer-events: none;
     position: absolute;
-    right: 17px; // -1px border on dc-select
+    right: 18px; // -2px border on dc-select
     top: 50%;
     transform: translateY(-50%);
     width: 16px;
@@ -8954,9 +8841,9 @@ exports[`Core generates the correct files: lib/scss/design/forms/_select.scss 1`
 
 .dc-select {
   appearance: none;
-  background-color: $dc-beige-100;
+  background-color: $dc-white;
   background-image: none;
-  border: 1px solid transparent;
+  border: 2px solid $dc-beige-400;
   border-radius: $dc-border-radius;
   box-shadow: none;
   box-sizing: border-box;
@@ -8970,14 +8857,14 @@ exports[`Core generates the correct files: lib/scss/design/forms/_select.scss 1`
 
   &:focus,
   &.focus {
-    border-color: $dc-green;
+    border-color: $dc-blue-dark;
     outline: none;
   }
 
   &:disabled,
   &.dc-is-disabled {
     cursor: not-allowed;
-    opacity: 0.5;
+    opacity: 0.3;
   }
 
   ::-ms-expand {
