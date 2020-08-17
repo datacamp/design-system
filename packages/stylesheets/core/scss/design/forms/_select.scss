@@ -2,16 +2,16 @@
   position: relative;
 
   &::after {
-    background-color: $dc-beige-100;
+    background-color: $dc-white;
     border-left: 1px solid $dc-white;
     border-radius: 0 $dc-border-radius $dc-border-radius 0;
     content: '';
-    height: 46px; // +1px border-top +1px border-bottom
+    height: 44px; // +2px border-top +2px border-bottom
     pointer-events: none;
     position: absolute;
-    right: 1px;
-    top: 1px;
-    width: 47px; // +1px border-left
+    right: 2px;
+    top: 2px;
+    width: 46px; // +2px border-left
   }
 
   &::before {
@@ -20,7 +20,7 @@
     height: 16px;
     pointer-events: none;
     position: absolute;
-    right: 17px; // -1px border on dc-select
+    right: 18px; // -2px border on dc-select
     top: 50%;
     transform: translateY(-50%);
     width: 16px;
@@ -30,9 +30,9 @@
 
 .dc-select {
   appearance: none;
-  background-color: $dc-beige-100;
+  background-color: $dc-white;
   background-image: none;
-  border: 1px solid transparent;
+  border: 2px solid $dc-beige-400;
   border-radius: $dc-border-radius;
   box-shadow: none;
   box-sizing: border-box;
@@ -46,14 +46,14 @@
 
   &:focus,
   &.focus {
-    border-color: $dc-green;
+    border-color: $dc-blue-dark;
     outline: none;
   }
 
   &:disabled,
   &.dc-is-disabled {
     cursor: not-allowed;
-    opacity: 0.5;
+    opacity: 0.3;
   }
 
   ::-ms-expand {

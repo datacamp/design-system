@@ -27,7 +27,7 @@
 .dc-input-radio__indicator {
   align-items: center;
   background-color: $dc-white;
-  border: 1px solid $dc-grey-200;
+  border: 2px solid $dc-beige-400;
   border-radius: 50%;
   display: flex;
   flex-shrink: 0;
@@ -57,41 +57,28 @@
 
   // disabled
   .dc-input-radio__input:disabled ~ & {
-    background: $dc-white;
-    border-color: $dc-grey-100;
+    opacity: 0.3;
     cursor: not-allowed;
   }
 
   // checked
   .dc-input-radio__input:checked ~ & {
-    border-color: $dc-green;
+    border-color: $dc-blue;
 
     &::before {
-      background: $dc-green;
+      background: $dc-blue;
       opacity: 1;
     }
   }
 
   // focus
   .dc-input-radio__input:focus ~ & {
-    border-color: $dc-green;
-    box-shadow: 0 0 0 1px $dc-green;
-  }
-
-  // disabled and checked
-  .dc-input-radio__input:disabled:checked ~ & {
-    border-color: $dc-grey-100;
-
-    &::before {
-      background: $dc-grey-200;
-      opacity: 1;
-    }
+    border-color: $dc-blue-dark;
   }
 
   // focus and checked
   .dc-input-radio__input:focus:checked ~ & {
-    border-color: $dc-green;
-    box-shadow: 0 0 0 1px $dc-green;
+    border-color: $dc-blue-dark;
   }
 
   // has error + checked
@@ -106,14 +93,12 @@
 
   // has error + focus
   .dc-has-error .dc-input-radio__input:focus ~ & {
-    border-color: $dc-red;
-    box-shadow: 0 0 0 1px $dc-red;
+    border-color: $dc-red-dark;
   }
 
   // has error + focus and checked
   .dc-has-error .dc-input-radio__input:focus:checked ~ & {
-    border-color: $dc-red;
-    box-shadow: 0 0 0 1px $dc-red;
+    border-color: $dc-red-dark;
   }
 }
 
@@ -131,17 +116,7 @@
 
   // disabled
   .dc-input-radio__input:disabled ~ & {
-    color: $dc-grey-100;
+    opacity: 0.3;
     cursor: not-allowed;
-  }
-
-  // checked
-  .dc-input-radio__input:checked ~ & {
-    color: $dc-grey-300;
-  }
-
-  // disabled and checked
-  .dc-input-radio__input:disabled:checked ~ & {
-    color: $dc-grey-100;
   }
 }
