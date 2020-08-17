@@ -13,40 +13,19 @@
 
 .dc-tag {
   align-items: center;
-  background-color: $dc-blue;
-  border: 1px solid $dc-grey-100;
-  border-radius: 12px;
+  background-color: $dc-beige-400;
+  border-radius: 4px;
+  color: $dc-navy-text;
   display: inline-flex;
-  font-size: $dc-font-size-micro;
+  font-size: $dc-font-size-small;
   font-weight: $dc-font-weight-bold;
-  letter-spacing: 0.6px; // 1@16px->0.8@14px->0.6@12px
+  height: 18px;
   line-height: 1;
-  padding: 5px 11px; // +1px border
+  padding-left: 4px;
+  padding-right: 4px;
   position: relative;
   text-transform: uppercase;
   white-space: nowrap;
-}
-
-// -------------------------------------
-// Close
-// -------------------------------------
-
-.dc-tag__close {
-  background-color: $dc-white;
-  border-radius: 50%;
-  color: $dc-blue;
-  cursor: pointer;
-  font-size: 8px;
-  line-height: 0;
-  padding: 4px;
-  position: absolute;
-  right: -6px;
-  top: -6px;
-
-  .dc-icon {
-    height: 8px;
-    width: 8px;
-  }
 }
 
 // -------------------------------------
@@ -56,6 +35,8 @@
 // ----- Link ----- //
 
 .dc-tag--link {
+  color: $dc-blue-text;
+  border: none;
   @include afh {
     background-color: $dc-blue;
     border-color: $dc-blue;
@@ -64,31 +45,9 @@
   }
 }
 
-// ----- Hue ----- //
-
-.dc-tag--hue {
-  border: 0;
-  color: $dc-white;
-  padding: 6px 12px;
-
-  &:not(:first-of-type) {
-    margin-left: 8px;
-  }
-}
-
-// ----- Colors ----- //
-
-// TODO: replace usage of these with matching .dc-u-bgc-{color} utility classes
-
-.dc-tag--green {
-  background-color: $dc-green;
-}
-
-.dc-tag--red {
-  background-color: $dc-red;
-}
-
-.dc-tag--white {
-  background-color: $dc-white;
-  color: $dc-navy-text;
+.dc-tag--lg {
+  font-size: $dc-font-size-h6;
+  height: 24px;
+  padding-left: 8px;
+  padding-right: 8px;
 }
