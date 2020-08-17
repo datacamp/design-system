@@ -1,4 +1,4 @@
-Creates a small tag element for things like XP points. A tag can be linked or unlinked. For react projects it is recommended to use the [tag component](/component-library/tag).
+Creates a small tag element for things like XP points. A tag can be linked or unlinked. For react projects it is recommended to use the [badge component](/component-library/text).
 
 ## HTML Usage
 
@@ -17,23 +17,22 @@ Creates a small tag element for things like XP points. A tag can be linked or un
 
 ### HTML Modifiers
 
-#### Tag Hue
+#### Sizes
 
-Rounded tag, with varied background colors. Modifiers are a combination of reusable and app-specific states.
+By default the tag renders as a small tag. use a modifier to get a large one.
 
-```hint
-The `dc-tag--{color}` modifiers have been deprecated. Background and text colors can be set via utility classes.
+```html|show-source
+<span class="dc-tag dc-tag--lg">Large tag</span>
+```
+
+#### Colors
+
+Set the color of the tag using utility classes
+
+```html|show-source
+<span class="dc-tag dc-u-bgc-green">Green Utility Class</span>
 ```
 
 ```html|show-source
-<span class="dc-tag dc-tag--hue dc-u-bgc-green">Green Utility Class</span>
-```
-
-#### Tag XP
-
-```hint|warning
-The `tag tag--xp` modifier has been deprecated. Background, text color, and padding can be set via utility classes.
-```
-```html|show-source
-<span class="tag tag--xp">100 xp</span>
+<span class="dc-tag dc-u-bgc-navy dc-u-color-white">Navy Utility Class</span>
 ```
