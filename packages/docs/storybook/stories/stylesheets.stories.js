@@ -252,22 +252,36 @@ storiesOf('stylesheets', module)
     useStylesheet();
     return (
       <>
-        <span className="dc-tag">This is a span tag</span>
-        <a className="dc-tag dc-tag--link" href="#">
-          This is a link tag
-        </a>
-        <span className="dc-tag dc-tag--hue dc-tag--primary-light">
-          This is a primary-light tag
-        </span>
-        <span className="dc-tag dc-tag--hue dc-tag--green">
-          This is a green tag
-        </span>
-        <span className="dc-tag dc-tag--hue dc-tag--secondary">
-          This is a secondary tag
-        </span>
-        <span className="dc-tag dc-tag--hue dc-tag--red">
-          This is a red tag
-        </span>
+        <div>
+          <span className="dc-tag">This is a span tag</span>
+          <a className="dc-tag dc-tag--link" href="#">
+            This is a link tag
+          </a>
+          <span className="dc-tag dc-u-bgc-navy dc-u-color-white">
+            This is a navy tag
+          </span>
+          <span className="dc-tag dc-u-bgc-green">This is a green tag</span>
+          <span className="dc-tag dc-u-bgc-orange">This is an orange tag</span>
+          <span className="dc-tag dc-u-bgc-red">This is a red tag</span>
+        </div>
+        <div>
+          <span className="dc-tag dc-tag--lg">This is a span tag</span>
+          <a className="dc-tag dc-tag--lg dc-tag--link" href="#">
+            This is a link tag
+          </a>
+          <span className="dc-tag dc-tag--lg dc-u-bgc-navy dc-u-color-white">
+            This is a navy tag
+          </span>
+          <span className="dc-tag dc-tag--lg dc-u-bgc-green">
+            This is a green tag
+          </span>
+          <span className="dc-tag dc-tag--lg dc-u-bgc-orange">
+            This is an orange tag
+          </span>
+          <span className="dc-tag dc-tag--lg dc-u-bgc-red">
+            This is a red tag
+          </span>
+        </div>
       </>
     );
   })
