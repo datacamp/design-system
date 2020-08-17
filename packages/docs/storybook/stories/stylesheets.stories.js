@@ -1,4 +1,3 @@
-import { CheckmarkIcon } from '@datacamp/waffles-icons';
 import { storiesOf } from '@storybook/react';
 import React from 'react';
 
