@@ -1,3 +1,4 @@
+import { CheckmarkIcon } from '@datacamp/waffles-icons';
 import { storiesOf } from '@storybook/react';
 import React from 'react';
 
@@ -558,5 +559,156 @@ storiesOf('stylesheets', module)
           Explore Course Library
         </a>
       </div>
+    );
+  })
+  .add('forms', () => {
+    useStylesheet();
+    return (
+      <>
+        <label class="dc-label">With placeholder</label>
+        <input
+          class="dc-input--text"
+          placeholder="Placeholder text"
+          type="text"
+        />
+        <label class="dc-label">With value</label>
+        <input class="dc-input--text" type="text" value="value text" />
+        <label class="dc-label">Disabled</label>
+        <input
+          class="dc-input--text"
+          disabled
+          placeholder="Placeholder text"
+          type="text"
+        />
+        <label class="dc-label">Text area with placeholder</label>
+        <textarea
+          class="dc-textarea"
+          placeholder="DataCamp is awesome beacause..."
+          type="text"
+        ></textarea>
+        <label class="dc-label">Text area with contents</label>
+        <textarea
+          class="dc-textarea"
+          placeholder="DataCamp is awesome beacause..."
+          type="text"
+        >
+          text contents
+        </textarea>
+        <label class="dc-label">Disabled Text area</label>
+        <textarea
+          class="dc-textarea"
+          disabled
+          placeholder="DataCamp is awesome beacause..."
+          type="text"
+        ></textarea>
+        <label class="dc-label">Select</label>
+        <div class="dc-select-container">
+          <select class="dc-select">
+            <option selected value="">
+              Select a country...
+            </option>
+            <option>Belgium</option>
+            <option>USA</option>
+            <option>France</option>
+          </select>
+        </div>
+        <div>
+          <label class="dc-input-checkbox ">
+            <input class="dc-input-checkbox__input" type="checkbox" />
+            <span class="dc-input-checkbox__indicator u-fx-center">
+              <span class="dc-icon dc-input-checkbox__check">
+                {/** <svg class="dc-icon__svg">
+                <use xlinkHref="/assets/toolkit/images/core-components/icons/svg/symbols.svg#checkmark" />
+              </svg> */}
+              </span>
+            </span>
+            <span class="dc-input-checkbox__text">Checkbox</span>
+          </label>
+        </div>
+        <div>
+          <label class="dc-input-checkbox ">
+            <input checked class="dc-input-checkbox__input" type="checkbox" />
+            <span class="dc-input-checkbox__indicator u-fx-center">
+              <span class="dc-icon dc-input-checkbox__check">
+                {/** <svg class="dc-icon__svg">
+                <use xlinkHref="/assets/toolkit/images/core-components/icons/svg/symbols.svg#checkmark" />
+              </svg> */}
+              </span>
+            </span>
+            <span class="dc-input-checkbox__text">Checkbox Checked</span>
+          </label>
+        </div>
+        <div class="dc-has-error">
+          <label class="dc-input-checkbox">
+            <input checked class="dc-input-checkbox__input" type="checkbox" />
+            <span class="dc-input-checkbox__indicator u-fx-center">
+              <span class="dc-icon dc-input-checkbox__check">
+                {/** <svg class="dc-icon__svg">
+                <use xlinkHref="/assets/toolkit/images/core-components/icons/svg/symbols.svg#checkmark" />
+              </svg> */}
+              </span>
+            </span>
+            <span class="dc-input-checkbox__text">Checkbox with Error</span>
+          </label>
+        </div>
+        <div>
+          <label class="dc-input-checkbox">
+            <input class="dc-input-checkbox__input" disabled type="checkbox" />
+            <span class="dc-input-checkbox__indicator u-fx-center">
+              <span class="dc-icon dc-input-checkbox__check">
+                {/** <svg class="dc-icon__svg">
+                <use xlinkHref="/assets/toolkit/images/core-components/icons/svg/symbols.svg#checkmark" />
+              </svg> */}
+              </span>
+            </span>
+            <span class="dc-input-checkbox__text">Checkbox disabled</span>
+          </label>
+        </div>
+
+        <label class="dc-input-radio">
+          <input
+            class="dc-input-radio__input"
+            id="radio1"
+            name="radio"
+            type="radio"
+          />
+          <span class="dc-input-radio__indicator"></span>
+          <span class="dc-input-radio__text">Radio Label</span>
+        </label>
+        <label class="dc-input-radio u-spacing-t1 dc-has-error">
+          <input
+            class="dc-input-radio__input"
+            id="radio2"
+            name="radio"
+            type="radio"
+          />
+          <span class="dc-input-radio__indicator"></span>
+          <span class="dc-input-radio__text">Radio Label</span>
+        </label>
+        <label class="dc-input-radio u-spacing-t1">
+          <input
+            class="dc-input-radio__input"
+            disabled
+            id="radio2"
+            name="radio"
+            type="radio"
+          />
+          <span class="dc-input-radio__indicator"></span>
+          <span class="dc-input-radio__text">Radio Label</span>
+        </label>
+        <input class="dc-input-search " placeholder="Search..." type="search" />
+        <div class="dc-toggle-switch">
+          <span class="dc-toggle-switch__text">Lorem ipsum</span>
+          <input
+            class="dc-toggle-switch__input"
+            id="dc-toggle-switch__input"
+            type="checkbox"
+          />
+          <label
+            class="dc-toggle-switch__label"
+            for="dc-toggle-switch__input"
+          ></label>
+        </div>
+      </>
     );
   });
