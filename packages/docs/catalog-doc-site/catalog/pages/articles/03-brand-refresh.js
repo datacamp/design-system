@@ -226,8 +226,38 @@ export default () => {
                   <li>
                     The Tag component has been removed. The Badge component from
                     the <code>@datacamp/waffles-text</code> package should be
-                    used instead. The scss <code>dc-tag-*</code> classes still
-                    remain.
+                    used instead.
+                  </li>
+                  <li>
+                    The scss styles have been updated to bring the appearance in
+                    line with the Badge component. The following classes have
+                    been removed:
+                    <ul>
+                      <li>
+                        <code>.dc-tag__close</code>
+                      </li>
+                      <li>
+                        <code>.dc-tag--hue</code>
+                      </li>
+                      <li>
+                        <code>.dc-tag--green</code>
+                      </li>
+                      <li>
+                        <code>.dc-tag--primary-light</code>
+                      </li>
+                      <li>
+                        <code>.dc-tag--secondary</code>
+                      </li>
+                      <li>
+                        <code>.dc-tag--red</code>
+                      </li>
+                      <li>
+                        <code>.dc-tag--white</code>
+                      </li>
+                    </ul>
+                    Please now use the utility classes to set the color of your
+                    tags. Check the <a href="/stylesheets/tag">documentation</a>{' '}
+                    for more detail.
                   </li>
                 </ul>
               </li>
