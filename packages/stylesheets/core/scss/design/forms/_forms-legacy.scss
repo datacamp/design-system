@@ -28,7 +28,6 @@
 .dc-label__number {
   background-color: $dc-green;
   border-radius: 50%;
-  color: $dc-white;
   display: inline-block;
   font-size: $dc-font-size-small;
   line-height: 1;
@@ -42,8 +41,8 @@
 
 .dc-input--text,
 .dc-textarea {
-  background-color: $dc-beige-100;
-  border: 1px solid $dc-beige-100;
+  background-color: $dc-white;
+  border: 2px solid $dc-beige-400;
   border-radius: $dc-border-radius;
   color: $dc-navy-text;
   font-size: $dc-font-size-base;
@@ -53,24 +52,20 @@
   width: 100%;
 
   &::placeholder {
-    color: $dc-green-text;
+    color: rgba($dc-navy-text, 0.6);
     transition: color $dc-duration;
-  }
-
-  &:focus::placeholder {
-    color: rgba(0, 0, 0, 0);
   }
 
   &:focus,
   &.focus {
-    border-color: $dc-green;
+    border-color: $dc-blue-dark;
     outline: none;
   }
 
   &:disabled,
   &.dc-is-disabled {
     cursor: not-allowed;
-    opacity: 0.5;
+    opacity: 0.3;
   }
 }
 
@@ -88,7 +83,7 @@
   }
 
   &::-webkit-calendar-picker-indicator {
-    color: $dc-green-text;
+    color: $dc-navy-text;
   }
 }
 
