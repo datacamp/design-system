@@ -94,7 +94,7 @@ export default () => {
                 </div>
                 <span
                   css={{
-                    color: colors.greyOslo,
+                    color: colors.navyText,
                     display: 'block',
                     fontSize: 12,
                   }}
@@ -118,7 +118,7 @@ export default () => {
                 </div>
                 <span
                   css={{
-                    color: colors.greyOslo,
+                    color: colors.navyText,
                     display: 'block',
                     fontSize: 12,
                   }}
@@ -138,7 +138,7 @@ export default () => {
                 </div>
                 <span
                   css={{
-                    color: colors.greyOslo,
+                    color: colors.navyText,
                     display: 'block',
                     fontSize: 12,
                   }}
