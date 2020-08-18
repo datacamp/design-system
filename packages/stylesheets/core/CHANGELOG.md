@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0-beta.19](https://github.com/datacamp/design-system/compare/@datacamp/waffles-core@2.0.0-beta.18...@datacamp/waffles-core@2.0.0-beta.19) (2020-08-18)
+
+
+### Features
+
+* update scss forms to match new design ([9cbcde8](https://github.com/datacamp/design-system/commit/9cbcde8))
+
+
+### BREAKING CHANGES
+
+* the form classes now will look like those from the 
+rebranding, check the brand refresh article for more details
+
+
+
+
+
 # [2.0.0-beta.18](https://github.com/datacamp/design-system/compare/@datacamp/waffles-core@2.0.0-beta.17...@datacamp/waffles-core@2.0.0-beta.18) (2020-08-14)
 
 

@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0-beta.20](https://github.com/datacamp/design-system/compare/@datacamp/waffles-storybook@2.0.0-beta.19...@datacamp/waffles-storybook@2.0.0-beta.20) (2020-08-18)
+
+
+### Features
+
+* add stories for scss forms ([51002a9](https://github.com/datacamp/design-system/commit/51002a9))
+* update scss tag stories to reflect new branding ([7ebbcb4](https://github.com/datacamp/design-system/commit/7ebbcb4))
+
+
+
+
+
 # [2.0.0-beta.19](https://github.com/datacamp/design-system/compare/@datacamp/waffles-storybook@2.0.0-beta.18...@datacamp/waffles-storybook@2.0.0-beta.19) (2020-08-14)
 
 **Note:** Version bump only for package @datacamp/waffles-storybook

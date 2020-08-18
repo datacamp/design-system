@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0-beta.26](https://github.com/datacamp/design-system/compare/@datacamp/waffles-catalog-doc-site@2.0.0-beta.25...@datacamp/waffles-catalog-doc-site@2.0.0-beta.26) (2020-08-18)
+
+
+### Bug Fixes
+
+* broken colours on doc pages ([4f5911e](https://github.com/datacamp/design-system/commit/4f5911e))
+
+
+### Features
+
+* add tag scss details to the brand refresh article ([2aacaed](https://github.com/datacamp/design-system/commit/2aacaed))
+* update scss tag docs to reflect new branding ([ba2bf91](https://github.com/datacamp/design-system/commit/ba2bf91))
+
+
+
+
+
 # [2.0.0-beta.25](https://github.com/datacamp/design-system/compare/@datacamp/waffles-catalog-doc-site@2.0.0-beta.24...@datacamp/waffles-catalog-doc-site@2.0.0-beta.25) (2020-08-17)
 
 
