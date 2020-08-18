@@ -21,6 +21,7 @@ describe('a11y testing', () => {
         }, []);
       })
       .each(({ category, title }) => {
+        if (category === 'stylesheets') return;
         cy.loadStory(category, title);
         cy.checkA11y(
           { exclude: [['path'], ['mask'], ['linearGradient']] },
