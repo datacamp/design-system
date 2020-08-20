@@ -273,6 +273,21 @@ export default () => {
                   </li>
                 </ul>
               </li>
+              <li>
+                <code>@datacamp/waffles-button</code>
+                <ul>
+                  <li>
+                    The <code>cta</code> intent has been removed from the button
+                    component. In most cases <code>success</code> should be used
+                    instead.
+                  </li>
+                  <li>
+                    There is a new <code>b2b</code> intent that makes the button
+                    yellow for use on b2b marketing pages.
+                  </li>
+                  <li>scss updated coming soon...</li>
+                </ul>
+              </li>
             </ul>
           </div>
         </section>
