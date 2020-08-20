@@ -248,7 +248,7 @@ exports[`ButtonGroup renders the buttons or CompactButtonGroups with 16px spaces
   padding: 0 15px;
   border-radius: 0px 4px 4px 0px;
   margin: 0;
-  margin-left: -1px;
+  margin-left: -2px;
 }
 
 .emotion-9:active {
@@ -516,7 +516,7 @@ exports[`ButtonGroup renders the small buttons or CompactButtonGroups with 8px s
   padding: 0 15px;
   border-radius: 0px 4px 4px 0px;
   margin: 0;
-  margin-left: -1px;
+  margin-left: -2px;
 }
 
 .emotion-9:active {

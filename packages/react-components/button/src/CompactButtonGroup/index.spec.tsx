@@ -24,10 +24,10 @@ describe('CompactButtonGroup', () => {
     expect(button1).toHaveStyle('margin-left: 0;');
     expect(button1).toHaveStyle('border-radius: 4px 0px 0px 4px;');
 
-    expect(button2).toHaveStyle(`margin-left: -1px;`);
+    expect(button2).toHaveStyle(`margin-left: -2px;`);
     expect(button2).toHaveStyle('border-radius: 0px;');
 
-    expect(button3).toHaveStyle(`margin-left: -1px;`);
+    expect(button3).toHaveStyle(`margin-left: -2px;`);
     expect(button3).toHaveStyle('border-radius: 0px 4px 4px 0px;');
 
     expect(container.firstChild).toMatchSnapshot();
