@@ -119,10 +119,10 @@ interface DefaultProps {
 
 interface PrimaryProps {
   appearance: 'primary';
-  intent?: intents | 'cta';
+  intent?: intents;
 }
 
-type intents = 'neutral' | 'danger' | 'success' | 'warning';
+type intents = 'neutral' | 'danger' | 'success' | 'warning' | 'b2b';
 
 interface IconTextChildProps {
   ariaLabel?: string;
@@ -167,11 +167,11 @@ const InternalButton = (
 
   const uidSeed = useUIDSeed();
   const tooltipId = uidSeed('button-tooltip');
-  const outlineTextColor = tokens.color.primary.navyText.value.hex;
-  const ctaTextColor = intent === 'cta' ? outlineTextColor : 'white';
-  const outlineIconColor = disabled ? baseColors[intent] : 'currentColor';
-  const textColor = appearance === 'primary' ? ctaTextColor : outlineTextColor;
-  const iconColor = appearance === 'primary' ? ctaTextColor : outlineIconColor;
+  const textColor =
+    appearance === 'primary' && intent === 'neutral'
+      ? 'white'
+      : tokens.color.primary.navyText.value.hex;
+  const iconColor = appearance === 'primary' ? textColor : 'currentColor';
 
   const baseTextStyle = css(fontSizes[size], {
     color: loading ? 'transparent' : textColor,
@@ -189,7 +189,21 @@ const InternalButton = (
       marginRight: margin,
     });
   };
+
+  const focusStyle = css({
+    '::after': {
+      border: `1px dashed ${textColor}`,
+      bottom: 2,
+      content: "''",
+      left: 2,
+      position: 'absolute',
+      right: 2,
+      top: 2,
+    },
+  });
+
   const parsedDataAttributes = computeDataAttributes(dataAttributes);
+
   const buttonStyle = css(
     baseStyle,
     getAppearanceStyle(appearance, intent, !loading && !disabled),
@@ -198,6 +212,7 @@ const InternalButton = (
     React.Children.count(children) > 1 || typeof children === 'string'
       ? getSize(size)
       : getIconSize(size),
+    hasFocus && focusStyle,
   );
 
   // eslint-disable-next-line @typescript-eslint/explicit-function-return-type
@@ -241,10 +256,7 @@ const InternalButton = (
         {...parsedDataAttributes}
       >
         {loading && (
-          <Spinner
-            css={{ position: 'absolute' }}
-            inverted={appearance === 'primary' && intent !== 'cta'}
-          />
+          <Spinner color={textColor} css={{ position: 'absolute' }} />
         )}
         {React.Children.map(children, (child, i) =>
           typeof child === 'string' ? (
@@ -316,7 +328,7 @@ InternalButton.propTypes = {
    * Defines the color of the button. The cta intent can be used only with
    * the primary appearance.
    */
-  intent: PropTypes.oneOf(['neutral', 'danger', 'success', 'warning', 'cta']),
+  intent: PropTypes.oneOf(['neutral', 'danger', 'success', 'warning', 'b2b']),
   /**
    * The callback fired when the button is clicked. Only available when
    * type="button".

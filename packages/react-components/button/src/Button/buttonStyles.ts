@@ -3,7 +3,7 @@ import { css, SerializedStyles } from '@emotion/core';
 import tinycolor from 'tinycolor2';
 
 interface IntentMap {
-  cta: string;
+  b2b: string;
   danger: string;
   neutral: string;
   success: string;
@@ -14,7 +14,7 @@ type Intent = keyof IntentMap;
 
 // CUSTOM TOKENS
 const baseColors: IntentMap = {
-  cta: tokens.color.primary.green.value.hex,
+  b2b: tokens.color.primary.yellow.value.hex,
   danger: tokens.color.primary.red.value.hex,
   neutral: tokens.color.primary.navy.value.hex,
   success: tokens.color.primary.green.value.hex,
@@ -22,17 +22,12 @@ const baseColors: IntentMap = {
 };
 
 const hoverColors: IntentMap = {
-  cta: '#E7B743',
-  danger: '#B64242',
-  neutral: '#2E8FAB',
-  success: '#29A360',
-  warning: '#C87400',
+  b2b: tokens.color.primary.yellowLight.value.hex,
+  danger: tokens.color.primary.redLight.value.hex,
+  neutral: tokens.color.primary.navyLight.value.hex,
+  success: tokens.color.primary.greenLight.value.hex,
+  warning: tokens.color.primary.orangeLight.value.hex,
 };
-
-const getFocusColor = (intent: Intent): string =>
-  tinycolor(baseColors[intent])
-    .setAlpha(0.2)
-    .toRgbString();
 
 // BASE STYLES
 const baseStyle = css({
@@ -45,10 +40,11 @@ const baseStyle = css({
   border: 'none',
   borderRadius: '4px',
   borderStyle: 'solid',
-  borderWidth: '1px',
+  borderWidth: '2px',
   cursor: 'pointer',
   display: 'inline-flex',
   justifyContent: 'center',
+  position: 'relative',
   textDecoration: 'none',
   textTransform: 'capitalize',
   transition: '0.15s',
@@ -82,17 +78,14 @@ const getIconSize = (size: 'small' | 'medium' | 'large'): SerializedStyles => {
 };
 
 const fontSizes = {
-  large: { fontSize: '20px', lineHeight: '62px' },
-  medium: { fontSize: '16px', lineHeight: '46px' },
-  small: { fontSize: '16px', lineHeight: '34px' },
+  large: { fontSize: '20px', lineHeight: '60px' },
+  medium: { fontSize: '16px', lineHeight: '44px' },
+  small: { fontSize: '16px', lineHeight: '32px' },
 };
 
 const getDefaultStyle = (intent: Intent, enabled: boolean): SerializedStyles =>
   css(
     {
-      ':focus': {
-        boxShadow: `0 0 0 4px ${getFocusColor(intent)}}`,
-      },
       backgroundColor: 'transparent',
       borderColor: baseColors[intent],
       color: baseColors[intent],

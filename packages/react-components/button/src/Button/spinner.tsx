@@ -2,9 +2,9 @@ import React from 'react';
 
 import spinnerStyle from './spinnerStyles';
 
-const Spinner: React.FC<{ className?: string; inverted?: boolean }> = ({
+const Spinner: React.FC<{ className?: string; color: string }> = ({
   className,
-  inverted = false,
+  color,
 }) => {
   return (
     <svg
@@ -15,11 +15,7 @@ const Spinner: React.FC<{ className?: string; inverted?: boolean }> = ({
       xmlns="http://www.w3.org/2000/svg"
     >
       <title>Spinner</title>
-      <g
-        css={spinnerStyle}
-        fill={inverted ? '#ffffff' : '#3D4251'}
-        fillRule="nonzero"
-      >
+      <g css={spinnerStyle} fill={color} fillRule="nonzero">
         <g transform="translate(24)">
           <rect height="12" rx="3" width="6" />
         </g>
