@@ -127,7 +127,7 @@ exports[`CompactButtonGroup renders the buttons next to each other 1`] = `
   padding: 0 15px;
   border-radius: 0px;
   margin: 0;
-  margin-left: -1px;
+  margin-left: -2px;
 }
 
 .emotion-3:active {
@@ -199,7 +199,7 @@ exports[`CompactButtonGroup renders the buttons next to each other 1`] = `
   padding: 0 15px;
   border-radius: 0px 4px 4px 0px;
   margin: 0;
-  margin-left: -1px;
+  margin-left: -2px;
 }
 
 .emotion-5:active {

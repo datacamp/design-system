@@ -61,11 +61,11 @@ const CompactButtonGroup = ({
                 ':hover': { zIndex: 1 }, // to show hover border color
                 borderLeft:
                   index > 0 && isPrimaryButtonGroup
-                    ? '1px solid rgba(61, 66, 81, 0.25)'
+                    ? '1px solid rgba(5, 25, 45, 0.3)'
                     : undefined,
                 borderRadius: radii[index] || '0px', // only round corners on first & last child
                 margin: 0,
-                marginLeft: index > 0 ? '-1px' : undefined, // so only 1 border shows between buttons
+                marginLeft: index > 0 ? '-2px' : undefined, // so only 1 border shows between buttons
               }),
             });
           })
