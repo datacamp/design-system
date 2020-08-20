@@ -91,7 +91,7 @@ describe('<Button />', () => {
       const buttonElement = container.firstChild;
 
       expect(buttonElement).toHaveStyle(`padding: 0 15px;`);
-      expect(queryByText('btn small')).toHaveStyle(`line-height: 34px`);
+      expect(queryByText('btn small')).toHaveStyle(`line-height: 32px`);
     });
 
     it('renders the medium button for the size="medium" ', async () => {
@@ -104,7 +104,7 @@ describe('<Button />', () => {
       const buttonElement = container.firstChild;
 
       expect(buttonElement).toHaveStyle(`padding: 0 15px;`);
-      expect(queryByText('btn medium')).toHaveStyle(`line-height: 46px`);
+      expect(queryByText('btn medium')).toHaveStyle(`line-height: 44px`);
     });
 
     it('renders the large button for the size="large" ', async () => {
@@ -118,7 +118,7 @@ describe('<Button />', () => {
 
       expect(buttonElement).toHaveStyle(`padding: 0 31px;`);
       expect(queryByText('large btn')).toHaveStyle(`font-size: 20px`);
-      expect(queryByText('large btn')).toHaveStyle(`line-height: 62px`);
+      expect(queryByText('large btn')).toHaveStyle(`line-height: 60px`);
     });
 
     it('renders the medium size if no size props is specified', async () => {
@@ -128,7 +128,7 @@ describe('<Button />', () => {
 
       const buttonElement = container.firstChild;
       expect(buttonElement).toHaveStyle(`padding: 0 15px;`);
-      expect(queryByText('default size btn')).toHaveStyle(`line-height: 46px`);
+      expect(queryByText('default size btn')).toHaveStyle(`line-height: 44px`);
     });
   });
 
@@ -178,18 +178,18 @@ describe('<Button />', () => {
       );
     });
 
-    it('renders a green button for the appearance="primary" and intent="cta', async () => {
+    it('renders a yellow button for the appearance="primary" and intent="b2b', async () => {
       const { container } = await axeRender(
-        <Button appearance="primary" intent="cta" onClick={someFunction}>
+        <Button appearance="primary" intent="b2b" onClick={someFunction}>
           btn
         </Button>,
       );
 
       expect(container.firstChild).toHaveStyle(
-        `background-color: ${tokens.color.primary.green.value.hex};`,
+        `background-color: ${tokens.color.primary.yellow.value.hex};`,
       );
       expect(container.firstChild).toHaveStyle(
-        `border-color: ${tokens.color.primary.green.value.hex};`,
+        `border-color: ${tokens.color.primary.yellow.value.hex};`,
       );
     });
 
@@ -282,30 +282,6 @@ describe('<Button />', () => {
       expect(getByText('btn loading') as HTMLElement).toHaveStyle(
         `color: transparent`,
       );
-    });
-
-    it('renders a dark spinner when the appearance="default" (or undefined)', async () => {
-      const { container } = await axeRender(
-        <Button loading onClick={someFunction}>
-          Loading
-        </Button>,
-      );
-
-      const spinnerElement = container.querySelector('g');
-
-      expect(spinnerElement).toHaveAttribute('fill', '#3D4251');
-    });
-
-    it('renders a white spinner when the appearance="primary"', async () => {
-      const { container } = await axeRender(
-        <Button appearance="primary" loading onClick={someFunction}>
-          Loading
-        </Button>,
-      );
-
-      const spinnerElement = container.querySelector('g');
-
-      expect(spinnerElement).toHaveAttribute('fill', '#ffffff');
     });
   });
 
@@ -737,8 +713,8 @@ describe('<Button />', () => {
     });
 
     buttonSizes.forEach(size => {
-      (['cta', 'neutral', 'warning', 'danger', 'success'] as (
-        | 'cta'
+      (['b2b', 'neutral', 'warning', 'danger', 'success'] as (
+        | 'b2b'
         | 'neutral'
         | 'warning'
         | 'danger'
