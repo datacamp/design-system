@@ -100,7 +100,7 @@ export default () => {
   <Button
     type="link"
     appearance="primary"
-    intent="cta"
+    intent="b2b"
     href="https://datacamp.com"
   >
     Open Link
