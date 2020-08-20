@@ -9,7 +9,7 @@ import { select } from '@storybook/addon-knobs';
 import { storiesOf } from '@storybook/react';
 import React from 'react';
 
-const intents = ['neutral', 'warning', 'danger', 'success'];
+const intents = ['neutral', 'warning', 'danger', 'success', 'b2b'];
 
 const AllButtonCombos = ({ children }) => (
   <div
@@ -23,9 +23,7 @@ const AllButtonCombos = ({ children }) => (
       ['small', 'medium', 'large'].map(size => (
         <ButtonGroup key={`${appearance}${size}`}>
           {[null, 'loading', 'disabled'].map(state => {
-            const availableIntents =
-              appearance === 'primary' ? [...intents, 'cta'] : intents;
-            return availableIntents.map(intent =>
+            return intents.map(intent =>
               children({
                 appearance,
                 intent,
@@ -148,7 +146,7 @@ storiesOf('waffles-button', module)
         flexDirection: 'column',
       }}
     >
-      {['neutral', 'warning', 'danger', 'success', 'cta'].map(intent => (
+      {['neutral', 'warning', 'danger', 'success', 'b2b'].map(intent => (
         <CompactButtonGroup key={intent}>
           <Button appearance="primary" intent={intent}>
             Button 1
@@ -164,7 +162,7 @@ storiesOf('waffles-button', module)
           </Button>
         </CompactButtonGroup>
       ))}
-      {['neutral', 'warning', 'danger', 'success'].map(intent => (
+      {['neutral', 'warning', 'danger', 'success', 'b2b'].map(intent => (
         <CompactButtonGroup key={intent}>
           <Button intent={intent}>Button 1</Button>
           <Button intent={intent}>Button 2</Button>
