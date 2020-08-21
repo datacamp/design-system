@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0-beta.27](https://github.com/datacamp/design-system/compare/@datacamp/waffles-catalog-doc-site@2.0.0-beta.26...@datacamp/waffles-catalog-doc-site@2.0.0-beta.27) (2020-08-21)
+
+
+### Features
+
+* add button deets to brand refresh article ([2d5c3d1](https://github.com/datacamp/design-system/commit/2d5c3d1))
+* add inverted buttons to brand refresh article ([c658650](https://github.com/datacamp/design-system/commit/c658650))
+* update button docs for brand refresh ([8ad6f39](https://github.com/datacamp/design-system/commit/8ad6f39))
+
+
+
+
+
 # [2.0.0-beta.26](https://github.com/datacamp/design-system/compare/@datacamp/waffles-catalog-doc-site@2.0.0-beta.25...@datacamp/waffles-catalog-doc-site@2.0.0-beta.26) (2020-08-18)
 
 

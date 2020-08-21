@@ -3,6 +3,25 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [6.0.0-beta.17](https://github.com/datacamp/design-system/compare/@datacamp/waffles-button@6.0.0-beta.16...@datacamp/waffles-button@6.0.0-beta.17) (2020-08-21)
+
+
+### Features
+
+* add border radius to focus state ([f7ddc45](https://github.com/datacamp/design-system/commit/f7ddc45))
+* add inverted appearance for buttons ([72e1047](https://github.com/datacamp/design-system/commit/72e1047))
+* update buttons to match the brand refresh ([f8d26f2](https://github.com/datacamp/design-system/commit/f8d26f2))
+* update CompactButtonGroup to reflect brand refresh ([0ce6774](https://github.com/datacamp/design-system/commit/0ce6774))
+
+
+### BREAKING CHANGES
+
+* cta intent has been removed
+
+
+
+
+
 # [6.0.0-beta.16](https://github.com/datacamp/design-system/compare/@datacamp/waffles-button@6.0.0-beta.15...@datacamp/waffles-button@6.0.0-beta.16) (2020-08-14)
 
 

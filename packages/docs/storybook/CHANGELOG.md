@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0-beta.21](https://github.com/datacamp/design-system/compare/@datacamp/waffles-storybook@2.0.0-beta.20...@datacamp/waffles-storybook@2.0.0-beta.21) (2020-08-21)
+
+
+### Features
+
+* add inverted buttons to stories ([def8fce](https://github.com/datacamp/design-system/commit/def8fce))
+* update button stories to match new branding ([da44318](https://github.com/datacamp/design-system/commit/da44318))
+
+
+
+
+
 # [2.0.0-beta.20](https://github.com/datacamp/design-system/compare/@datacamp/waffles-storybook@2.0.0-beta.19...@datacamp/waffles-storybook@2.0.0-beta.20) (2020-08-18)
 
 

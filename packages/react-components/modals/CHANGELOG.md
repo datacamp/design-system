@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [6.0.0-beta.17](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/modals/compare/@datacamp/waffles-modals@6.0.0-beta.16...@datacamp/waffles-modals@6.0.0-beta.17) (2020-08-21)
+
+
+### Features
+
+* add border radius to focus state ([f7ddc45](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/modals/commit/f7ddc45))
+* update modals to use new buttons ([eecce7b](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/modals/commit/eecce7b))
+
+
+
+
+
 # [6.0.0-beta.16](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/modals/compare/@datacamp/waffles-modals@6.0.0-beta.15...@datacamp/waffles-modals@6.0.0-beta.16) (2020-08-14)
 
 
