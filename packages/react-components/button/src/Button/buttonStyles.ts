@@ -112,17 +112,37 @@ const getPrimaryStyle = (intent: Intent, enabled: boolean): SerializedStyles =>
     },
   );
 
-const getAppearanceStyle = (
-  appearance: 'primary' | 'default',
-  intent: Intent,
-  enabled: boolean,
-): SerializedStyles =>
-  appearance === 'primary'
-    ? getPrimaryStyle(intent, enabled)
+const getInvertedStyle = (intent: Intent, enabled: boolean): SerializedStyles =>
+  intent === 'neutral'
+    ? css(
+        {
+          backgroundColor: 'transparent',
+          borderColor: 'white',
+          color: 'white',
+        },
+        enabled && {
+          ':hover': {
+            borderColor: 'white',
+            color: 'white',
+          },
+        },
+      )
     : getDefaultStyle(intent, enabled);
 
+const appearanceStyleGetterMap = {
+  default: getDefaultStyle,
+  inverted: getInvertedStyle,
+  primary: getPrimaryStyle,
+};
+
+const getAppearanceStyle = (
+  appearance: 'primary' | 'default' | 'inverted',
+  intent: Intent,
+  enabled: boolean,
+): SerializedStyles => appearanceStyleGetterMap[appearance](intent, enabled);
+
 const getDisabledStyle = (
-  appearance: 'primary' | 'default',
+  appearance: 'primary' | 'default' | 'inverted',
   intent: Intent,
 ): SerializedStyles =>
   css(

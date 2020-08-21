@@ -738,6 +738,32 @@ describe('<Button />', () => {
         });
       });
     });
+    buttonSizes.forEach(size => {
+      (['b2b', 'neutral', 'warning', 'danger', 'success'] as (
+        | 'b2b'
+        | 'neutral'
+        | 'warning'
+        | 'danger'
+        | 'success'
+      )[]).forEach(intent => {
+        loadings.forEach(loading => {
+          it(`renders a button with appearance inverted, intent ${intent}, size ${size} and loading ${loading}`, async () => {
+            const { container } = await axeRender(
+              <Button
+                appearance="inverted"
+                intent={intent}
+                loading={loading}
+                onClick={someFunction}
+                size={size}
+              >
+                {exampleText}
+              </Button>,
+            );
+            expect(container.firstChild).toMatchSnapshot();
+          });
+        });
+      });
+    });
 
     it(`renders a squared button with a single icon`, async () => {
       const { container } = await axeRender(

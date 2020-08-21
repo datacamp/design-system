@@ -35,8 +35,10 @@ type IconElement = ReactElement<ComponentProps<IconType>, IconType>;
 interface BaseButtonProps {
   /**
    * When the appearance is "primary", the button will have a filled colour.
+   * When the appearance is "inverted", the text colour will be white for use on
+   * dark backgrounds.
    */
-  appearance?: 'default' | 'primary';
+  appearance?: 'default' | 'primary' | 'inverted';
   /**
    * Sets the css class of the rendered element. Can be used to apply custom
    * styles.
@@ -166,7 +168,8 @@ const InternalButton = (
   const uidSeed = useUIDSeed();
   const tooltipId = uidSeed('button-tooltip');
   const textColor =
-    appearance === 'primary' && intent === 'neutral'
+    (appearance === 'primary' && intent === 'neutral') ||
+    appearance === 'inverted'
       ? 'white'
       : tokens.color.primary.navyText.value.hex;
   const iconColor = appearance === 'primary' ? textColor : 'currentColor';
