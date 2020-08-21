@@ -5,6 +5,7 @@ import Button, {
   CompactButtonGroup,
 } from '@datacamp/waffles-button';
 import { AddCircleIcon, ChevronDownIcon } from '@datacamp/waffles-icons';
+import tokens from '@datacamp/waffles-tokens/lib/future-tokens.json';
 import { select } from '@storybook/addon-knobs';
 import { storiesOf } from '@storybook/react';
 import React from 'react';
@@ -14,12 +15,13 @@ const intents = ['neutral', 'warning', 'danger', 'success', 'b2b'];
 const AllButtonCombos = ({ children }) => (
   <div
     css={{
+      backgroundColor: tokens.color.neutral.beige400.value.hex,
       display: 'flex',
       div: { marginBottom: 10 },
       flexDirection: 'column',
     }}
   >
-    {['default', 'primary'].map(appearance =>
+    {['default', 'primary', 'inverted'].map(appearance =>
       ['small', 'medium', 'large'].map(size => (
         <ButtonGroup key={`${appearance}${size}`}>
           {[null, 'loading', 'disabled'].map(state => {
