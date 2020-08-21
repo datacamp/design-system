@@ -285,6 +285,12 @@ export default () => {
                     There is a new <code>b2b</code> intent that makes the button
                     yellow for use on b2b marketing pages.
                   </li>
+                  <li>
+                    There is a new <code>inverted</code> appearance that has
+                    white text. It works in the same way as the existing{' '}
+                    <code>default</code> appearance, in that it is only an
+                    outline, but can be used against dark backgrounds.
+                  </li>
                   <li>scss updated coming soon...</li>
                 </ul>
               </li>
