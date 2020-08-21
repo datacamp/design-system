@@ -34,6 +34,10 @@ type IconElement = ReactElement<ComponentProps<IconType>, IconType>;
 
 interface BaseButtonProps {
   /**
+   * When the appearance is "primary", the button will have a filled colour.
+   */
+  appearance?: 'default' | 'primary';
+  /**
    * Sets the css class of the rendered element. Can be used to apply custom
    * styles.
    */
@@ -47,6 +51,11 @@ interface BaseButtonProps {
    * The button can be disabled by passing "disabled" as a prop.
    */
   disabled?: boolean;
+  /**
+   * Defines the color of the button. The cta intent can be used only with
+   * the primary appearance.
+   */
+  intent?: intents;
   /**
    * By passing "loading" as a prop, the button will be disabled and it will
    * render a spinner.
@@ -112,16 +121,6 @@ interface IconChildProps {
   children: IconElement;
 }
 
-interface DefaultProps {
-  appearance?: 'default';
-  intent?: intents;
-}
-
-interface PrimaryProps {
-  appearance: 'primary';
-  intent?: intents;
-}
-
 type intents = 'neutral' | 'danger' | 'success' | 'warning' | 'b2b';
 
 interface IconTextChildProps {
@@ -131,8 +130,7 @@ interface IconTextChildProps {
 
 export type ButtonProps = BaseButtonProps &
   (ButtonButtonProps | LinkButtonProps | SubmitButtonProps) &
-  (StringChildProps | IconChildProps | IconTextChildProps) &
-  (DefaultProps | PrimaryProps);
+  (StringChildProps | IconChildProps | IconTextChildProps);
 
 const InternalButton = (
   props: ButtonProps & { innerRef?: React.Ref<any> },
@@ -300,10 +298,6 @@ const iconValidator = childrenOfType(...Object.values(Icons));
 
 InternalButton.propTypes = {
   /**
-   * When the appearance is "primary", the button will have a filled colour.
-   */
-  appearance: PropTypes.oneOf(['default', 'primary']),
-  /**
    * Set the aria-label on the rendered element. This is required when using a single icon as a child.
    */
   ariaLabel: PropTypes.string,
@@ -325,11 +319,6 @@ InternalButton.propTypes = {
    * The destination of the link. Only available when type="link".
    */
   href: PropTypes.string,
-  /**
-   * Defines the color of the button. The cta intent can be used only with
-   * the primary appearance.
-   */
-  intent: PropTypes.oneOf(['neutral', 'danger', 'success', 'warning', 'b2b']),
   /**
    * The callback fired when the button is clicked. Only available when
    * type="button".
