@@ -193,6 +193,7 @@ const InternalButton = (
   const focusStyle = css({
     '::after': {
       border: `1px dashed ${textColor}`,
+      borderRadius: 2,
       bottom: 2,
       content: "''",
       left: 2,

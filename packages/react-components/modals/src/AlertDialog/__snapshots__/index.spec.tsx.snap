@@ -360,6 +360,7 @@ exports[`<AlertModal /> isOpen renders the modal via a portal when true 1`] = `
 
 .emotion-6::after {
   border: 1px dashed white;
+  border-radius: 2px;
   bottom: 2px;
   content: '';
   left: 2px;
