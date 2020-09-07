@@ -47,7 +47,7 @@ const Toast = ({
         background: 'white',
         borderRadius: 4,
         boxShadow:
-          '0px 0px 1px 0px rgba(61, 66, 81, 0.3), 0px 8px 12px -4px rgba(61, 66, 81, 0.3)',
+          '0px 0px 1px 0px rgba(5, 25, 45, 0.3), 0px 8px 12px -4px rgba(5, 25, 45, 0.3)',
         display: 'flex',
         justifyContent: 'space-between',
         maxWidth: 512,
@@ -71,7 +71,7 @@ const Toast = ({
         title={intent}
       />
       <div css={css({ flexGrow: 1, margin: 12 })}>
-        <Heading as="h4" multiLine size={200}>
+        <Heading as="h4" multiLine size={300}>
           {title}
         </Heading>
       </div>
@@ -80,7 +80,7 @@ const Toast = ({
           aria-label="Close Toast Notification"
           css={css({
             ':hover': {
-              backgroundColor: tokens.color.neutral.beige200.value.hex,
+              backgroundColor: tokens.color.neutral.grey200.value.hex,
             },
             alignItems: 'center',
             ariaLabel: 'close',
