@@ -10,7 +10,7 @@ export interface FooterProps {
 }
 
 const baseStyle = css({
-  boxShadow: '0px -1px 0px 0px rgb(230, 234, 235)',
+  boxShadow: `0px -1px 0px 0px ${tokens.color.neutral.grey200.value.hex}`,
   display: 'flex',
   flex: 'none',
   padding: tokens.size.space[16].value,
