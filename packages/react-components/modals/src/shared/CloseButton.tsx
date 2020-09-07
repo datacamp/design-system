@@ -16,9 +16,9 @@ const CloseButton: React.FC<{
       ':disabled': { color: '#D1D3D8' },
       ':disabled:hover, :disabled:focus': { backgroundColor: 'transparent' },
       ':focus': {
-        backgroundColor: tokens.color.neutral.beige200.value.rgb,
+        backgroundColor: tokens.color.neutral.grey200.value.rgb,
       },
-      ':hover': { backgroundColor: tokens.color.neutral.beige200.value.rgb },
+      ':hover': { backgroundColor: tokens.color.neutral.grey200.value.rgb },
       alignItems: 'center',
       backgroundColor: 'white',
       border: 'none',
