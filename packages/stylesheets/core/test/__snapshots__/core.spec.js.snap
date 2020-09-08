@@ -4697,7 +4697,7 @@ a:hover {
 code,
 pre,
 mark {
-  background-color: #fffbf3;
+  background-color: #efebe4;
   border-radius: 4px;
 }
 code {
@@ -4705,21 +4705,21 @@ code {
   display: inline-block;
   font-family: \\"JetBrainsMonoNL\\", monospace;
   font-size: 0.875rem;
-  line-height: 1;
-  margin: 0 4px;
-  padding: 4px 6px;
+  line-height: 1.5;
+  margin: 0px 4px 0px 2px;
+  padding: 0px 2px;
 }
 pre {
   font-family: \\"JetBrainsMonoNL\\", monospace;
   line-height: 1.8;
   overflow-x: auto;
-  padding: spacing(3);
+  padding: 8px 12px;
   -webkit-transition: max-width 0.3s cubic-bezier(0.77, 0, 0.175, 1), margin 0.3s cubic-bezier(0.77, 0, 0.175, 1);
   transition: max-width 0.3s cubic-bezier(0.77, 0, 0.175, 1), margin 0.3s cubic-bezier(0.77, 0, 0.175, 1);
 }
 /* stylelint-disable */
 pre code {
-  line-height: 1.2;
+  line-height: 1.5;
 }
 /* stylelint-enable */
 mark {
@@ -13034,7 +13034,7 @@ a {
 code,
 pre,
 mark {
-  background-color: $dc-beige-100;
+  background-color: $dc-beige-300;
   border-radius: $dc-border-radius;
 }
 
@@ -13045,23 +13045,23 @@ code {
   display: inline-block;
   font-family: $dc-font-family-mono;
   font-size: $dc-font-size-small;
-  line-height: 1;
-  margin: 0 4px; // TODO: Update with new multiplier, changed from 3
-  padding: 4px 6px; // TODO: Update with new multiplier
+  line-height: $dc-line-height-base;
+  margin: 0px 4px 0px 2px;
+  padding: 0px 2px;
 }
 
 pre {
   font-family: $dc-font-family-mono;
   line-height: 1.8;
   overflow-x: auto;
-  padding: spacing(3);
+  padding: 8px 12px;
   transition: max-width $dc-transition, margin $dc-transition;
 }
 
 // ----- Muti-line Code Blocks ----- //
 /* stylelint-disable */
 pre code {
-  line-height: $dc-line-height-heading;
+  line-height: $dc-line-height-base;
 }
 /* stylelint-enable */
 
@@ -15048,7 +15048,9 @@ $dc-sides: (
 `;
 
 exports[`Core generates the correct files: lib/scss/design/vendor/_feixen-font.scss 1`] = `
-"@font-face {
+"// When editing this file don't forget to also update the font faces in the text package
+
+@font-face {
   font-family: 'Studio-Feixen-Sans-Variable';
   src: url('https://waffles.datacamp.com/fonts/StudioFeixenSans-Medium.ttf')
     format('truetype');
