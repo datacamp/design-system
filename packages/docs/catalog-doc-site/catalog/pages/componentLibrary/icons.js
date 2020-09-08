@@ -127,14 +127,13 @@ export default () => {
               There are also react-native versions of all these icons. These can
               be used the same way as on web, the only difference being that
               instead of <code>className</code>, the <code>style</code> prop can
-              be used to add custom styling. These components can be imported as
-              follows:
+              be used to add custom styling. These components can be imported in
+              the same way. When in a <code>react-native</code> environment,
+              this will resolve to the correct version.
             </p>
             <pre>
               <code>
-                {
-                  "import { AddCircleIcon } from '@datacamp/waffles-icons/mobile';"
-                }
+                {"import { AddCircleIcon } from '@datacamp/waffles-icons';"}
               </code>
             </pre>
           </div>
