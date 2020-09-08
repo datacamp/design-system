@@ -1,3 +1,5 @@
+// When editing this file don't forget to also update the font faces in the core package
+
 import tokens from '@datacamp/waffles-tokens/lib/future-tokens.json';
 import { css } from '@emotion/core';
 
