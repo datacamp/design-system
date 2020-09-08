@@ -129,7 +129,7 @@ a {
 code,
 pre,
 mark {
-  background-color: $dc-beige-100;
+  background-color: $dc-beige-300;
   border-radius: $dc-border-radius;
 }
 
@@ -140,23 +140,23 @@ code {
   display: inline-block;
   font-family: $dc-font-family-mono;
   font-size: $dc-font-size-small;
-  line-height: 1;
-  margin: 0 4px; // TODO: Update with new multiplier, changed from 3
-  padding: 4px 6px; // TODO: Update with new multiplier
+  line-height: $dc-line-height-base;
+  margin: 0px 4px 0px 2px;
+  padding: 0px 2px;
 }
 
 pre {
   font-family: $dc-font-family-mono;
   line-height: 1.8;
   overflow-x: auto;
-  padding: spacing(3);
+  padding: 8px 12px;
   transition: max-width $dc-transition, margin $dc-transition;
 }
 
 // ----- Muti-line Code Blocks ----- //
 /* stylelint-disable */
 pre code {
-  line-height: $dc-line-height-heading;
+  line-height: $dc-line-height-base;
 }
 /* stylelint-enable */
 
