@@ -131,7 +131,7 @@ function buildTypescriptMobileComponents() {
                 style?: StyleProp<ViewStyle>
               }
 
-              const ${componentName} = ({size = 18, color = 'currentColor', style}: IconProps) => ${jsx};
+              const ${componentName} = ({size = 18, color = 'white', style}: IconProps) => ${jsx};
               export default ${componentName};
             `;
           },
