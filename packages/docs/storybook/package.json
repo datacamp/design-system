@@ -6,8 +6,8 @@
   "private": true,
   "homepage": "https://github.com/datacamp-engineering/design-system/tree/master/packages/docs/storybook/README.md",
   "scripts": {
-    "start": "start-storybook -p 6006",
-    "build": "build-storybook -c .storybook -o lib",
+    "start": "BABEL_ENV=es start-storybook -p 6006",
+    "build": "BABEL_ENV=es build-storybook -c .storybook -o lib",
     "clean": "rm -rf lib",
     "prepare": "yarn clean && yarn build",
     "percy": "percy-storybook --fail_on_empty=true --build_dir=lib --widths=1280",

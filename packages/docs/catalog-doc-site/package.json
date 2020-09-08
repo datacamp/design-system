@@ -8,8 +8,8 @@
   "private": "true",
   "homepage": "https://github.com/datacamp-engineering/design-system/tree/master/packages/docs/catalog-doc-site/README.md",
   "scripts": {
-    "build": "catalog build",
-    "start": "catalog start",
+    "build": "BABEL_ENV=es catalog build",
+    "start": "BABEL_ENV=es catalog start",
     "prepare": "yarn build",
     "postinstall": "rm -rf node_modules/react # hack to ensure we always use the hoisted version of react"
   },
