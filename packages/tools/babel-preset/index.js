@@ -40,6 +40,7 @@ module.exports = () => ({
       ],
     },
     reactnative: { presets: [[presetEnv, { targets: { esmodules: true } }]] },
+    test: { presets: [presetCSSProp] },
   },
   plugins: [
     pluginLodash,
