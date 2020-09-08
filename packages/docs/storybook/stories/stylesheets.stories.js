@@ -710,4 +710,93 @@ storiesOf('stylesheets', module)
         </div>
       </>
     );
+  })
+  .add('text', () => {
+    useStylesheet();
+    return (
+      <>
+        <h1>This is an h1</h1>
+        <h2>This is an h2</h2>
+        <h3>This is an h3</h3>
+        <h4>This is an h4</h4>
+        <h5>This is an h5</h5>
+        <h6>This is an h6</h6>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a enim
+          quis nisi sollicitudin tincidunt in nec leo. Quisque mattis pretium
+          nulla, id malesuada nisi viverra consectetur. Donec auctor dapibus
+          nisl sit amet tempor. <code>Integer nec diam</code> sit amet sem
+          sollicitudin consectetur.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a enim
+          quis nisi sollicitudin tincidunt in nec leo. Quisque mattis pretium
+          nulla, id malesuada nisi viverra{' '}
+          <a href="https://datacamp.com">consectetur</a>. Donec auctor dapibus
+          nisl sit amet tempor. Integer nec diam sit amet sem sollicitudin
+          consectetur.
+        </p>
+        <pre>
+          <code>{`this is the standard styling
+gapminder %>%
+  filter(year == 2007) %>%
+  arrange(desc(gdpPercap))`}</code>
+        </pre>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a enim
+          quis nisi sollicitudin tincidunt in nec leo. Quisque mattis pretium
+          nulla, id malesuada nisi viverra consectetur. Donec auctor dapibus
+          nisl sit amet tempor. Integer nec diam sit amet sem sollicitudin
+          consectetur.
+        </p>
+        <pre>
+          <code>{`this is the standard styling
+gapminder %>%
+  filter(year == 2007) %>%
+  arrange(desc(gdpPercap))`}</code>
+        </pre>
+        <pre>
+          <code>{`this is the standard styling
+gapminder %>%
+filter(year == 2007) %>%
+arrange(desc(gdpPercap))`}</code>
+        </pre>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a enim
+          quis nisi sollicitudin tincidunt in nec leo. Quisque mattis pretium
+          nulla, id malesuada nisi viverra consectetur. Donec auctor dapibus
+          nisl sit amet tempor. Integer nec diam sit amet sem sollicitudin
+          consectetur.
+        </p>
+        <ul>
+          <li>item text</li>
+          <li>
+            nested items
+            <ul>
+              <li>item text</li>
+              <li>item text</li>
+              <li>item text</li>
+              <li>item text</li>
+            </ul>
+          </li>
+          <li>item text</li>
+          <li>item text</li>
+        </ul>
+        <h2 size="800">This is a heading</h2>
+        <pre>
+          <code>{`this is the standard styling
+gapminder %>%
+filter(year == 2007) %>%
+arrange(desc(gdpPercap))`}</code>
+        </pre>
+        <h2 size="700">This is a heading</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a enim
+          quis nisi sollicitudin tincidunt in nec leo. Quisque mattis pretium
+          nulla, id malesuada nisi viverra consectetur. Donec auctor dapibus
+          nisl sit amet tempor. Integer nec diam sit amet sem sollicitudin
+          consectetur.
+        </p>
+      </>
+    );
   });
