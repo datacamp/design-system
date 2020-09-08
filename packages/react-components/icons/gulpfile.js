@@ -188,26 +188,39 @@ const generateTypescriptMobile = series(
 );
 
 function transpileToJS() {
-  return src('./build/**')
+  return src('./build/web/*')
     .pipe(babel({ configFile: './babel7.config.js', envName: 'cjs' }))
     .pipe(dest('./lib'));
 }
 function transpileToES() {
-  return src('./build/**')
+  return src('./build/web/*')
     .pipe(babel({ configFile: './babel7.config.js', envName: 'es' }))
     .pipe(dest('./es'));
 }
+function transpileToMobile() {
+  return src('./build/mobile/*')
+    .pipe(babel({ configFile: './babel7.config.js', envName: 'reactnative' }))
+    .pipe(dest('./mobile'));
+}
 
-function createTypings() {
+function createWebTypings() {
   const tsProject = ts.createProject('tsconfig.json');
-  const tsResult = src('./build/**').pipe(tsProject());
+  const tsResult = src('./build/web/*').pipe(tsProject());
   return tsResult.dts.pipe(dest('./lib')).pipe(dest('./es'));
+}
+
+function createMobileTypings() {
+  const tsProject = ts.createProject('tsconfig.json');
+  const tsResult = src('./build/mobile/*').pipe(tsProject());
+  return tsResult.dts.pipe(dest('./mobile'));
 }
 
 const transpileTypescript = parallel(
   transpileToJS,
   transpileToES,
-  createTypings,
+  transpileToMobile,
+  createWebTypings,
+  createMobileTypings,
 );
 
 function generateSprites() {
