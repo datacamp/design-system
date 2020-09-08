@@ -4,6 +4,7 @@ package
 .vscode/settings.json
 build
 lib
+mobile
 !**/stylesheets/*/lib
 **/stylesheets/core/lib
 sprites

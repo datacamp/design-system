@@ -1,14 +1,10 @@
 {
   "name": "@datacamp/waffles-icons",
   "version": "1.10.10-beta.0",
-  "main": "lib/web/index.js",
-  "module": "es/web/index.js",
-  "files": [
-    "es",
-    "lib",
-    "types",
-    "sprites"
-  ],
+  "main": "lib/index.js",
+  "module": "es/index.js",
+  "react-native": "mobile/index.js",
+  "files": ["es", "lib", "types", "sprites", "mobile"],
   "license": "ISC",
   "sideEffects": false,
   "repository": {
@@ -17,7 +13,7 @@
   },
   "scripts": {
     "build": "gulp build",
-    "clean": "rm -rf build lib sprites zip es",
+    "clean": "rm -rf build lib sprites zip es mobile",
     "prepare": "yarn clean && yarn build",
     "type-check": "tsc --rootDir build --noEmit"
   },

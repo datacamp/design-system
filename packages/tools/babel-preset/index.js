@@ -24,6 +24,7 @@ module.exports = () => ({
             targets,
           },
         ],
+        presetCSSProp,
       ],
     },
     es: {
@@ -35,8 +36,10 @@ module.exports = () => ({
             targets,
           },
         ],
+        presetCSSProp,
       ],
     },
+    reactnative: { presets: [[presetEnv, { targets: { esmodules: true } }]] },
   },
   plugins: [
     pluginLodash,
@@ -45,5 +48,5 @@ module.exports = () => ({
     [pluginTransformReactRemovePropTypes, { mode: 'wrap' }], // must happen after typescript to proptypes conversion
     pluginTransformRuntime,
   ],
-  presets: [[presetEnv], presetReact, presetTypescript, presetCSSProp],
+  presets: [[presetEnv], presetReact, presetTypescript],
 });
