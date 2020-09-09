@@ -1,6 +1,6 @@
 {
   "name": "@datacamp/waffles-catalog-doc-site",
-  "version": "2.0.0-beta.28",
+  "version": "2.0.0-beta.29",
   "description": "",
   "main": "index.js",
   "author": "",
@@ -14,7 +14,7 @@
     "postinstall": "rm -rf node_modules/react # hack to ensure we always use the hoisted version of react"
   },
   "dependencies": {
-    "@datacamp/waffles-asset-components": "^2.0.0-beta.6",
+    "@datacamp/waffles-asset-components": "^2.0.0-beta.7",
     "@datacamp/waffles-button": "^6.0.0-beta.18",
     "@datacamp/waffles-card": "^4.0.0-beta.1",
     "@datacamp/waffles-core": "^2.0.0-beta.20",
