@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0-beta.22](https://github.com/datacamp/design-system/compare/@datacamp/waffles-storybook@2.0.0-beta.21...@datacamp/waffles-storybook@2.0.0-beta.22) (2020-09-09)
+
+
+### Bug Fixes
+
+* use babel config correctly ([073a233](https://github.com/datacamp/design-system/commit/073a233))
+
+
+### Features
+
+* add stylesheet text story ([449e491](https://github.com/datacamp/design-system/commit/449e491))
+
+
+
+
+
 # [2.0.0-beta.21](https://github.com/datacamp/design-system/compare/@datacamp/waffles-storybook@2.0.0-beta.20...@datacamp/waffles-storybook@2.0.0-beta.21) (2020-08-21)
 
 

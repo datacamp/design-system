@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0-beta.6](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/card/compare/@datacamp/waffles-asset-components@2.0.0-beta.5...@datacamp/waffles-asset-components@2.0.0-beta.6) (2020-09-09)
+
+**Note:** Version bump only for package @datacamp/waffles-asset-components
+
+
+
+
+
 # [2.0.0-beta.5](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/card/compare/@datacamp/waffles-asset-components@1.3.8...@datacamp/waffles-asset-components@2.0.0-beta.5) (2020-08-14)
 
 

@@ -3,6 +3,25 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0-beta.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-babel-preset@1.4.16-beta.0...@datacamp/waffles-babel-preset@2.0.0-beta.0) (2020-09-09)
+
+
+### Bug Fixes
+
+* allow emotion to run during tests ([1113ec5](https://github.com/datacamp/design-system/commit/1113ec5))
+* react-native builds ([827efcb](https://github.com/datacamp/design-system/commit/827efcb))
+
+
+### BREAKING CHANGES
+
+* icons are no longer nested within web/mobile. If 
+importing normally this shouldn't affect web apps, but for react native 
+imports they can now come from the root of the package.
+
+
+
+
+
 ## [1.4.16-beta.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-babel-preset@1.4.15...@datacamp/waffles-babel-preset@1.4.16-beta.0) (2020-08-14)
 
 **Note:** Version bump only for package @datacamp/waffles-babel-preset

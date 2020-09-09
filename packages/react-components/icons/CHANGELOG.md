@@ -3,6 +3,27 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0-beta.0](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/icons/compare/@datacamp/waffles-icons@1.10.10-beta.0...@datacamp/waffles-icons@2.0.0-beta.0) (2020-09-09)
+
+
+### Bug Fixes
+
+* make react-native default color white ([6bc1889](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/icons/commit/6bc1889))
+* react-native builds ([827efcb](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/icons/commit/827efcb))
+
+
+### BREAKING CHANGES
+
+* The default color for mobile icons is now white. This 
+doesn't affect web icons where the default remains 'currentColor'
+* icons are no longer nested within web/mobile. If 
+importing normally this shouldn't affect web apps, but for react native 
+imports they can now come from the root of the package.
+
+
+
+
+
 ## [1.10.10-beta.0](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/icons/compare/@datacamp/waffles-icons@1.10.9...@datacamp/waffles-icons@1.10.10-beta.0) (2020-08-14)
 
 **Note:** Version bump only for package @datacamp/waffles-icons

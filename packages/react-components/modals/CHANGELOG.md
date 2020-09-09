@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [6.0.0-beta.18](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/modals/compare/@datacamp/waffles-modals@6.0.0-beta.17...@datacamp/waffles-modals@6.0.0-beta.18) (2020-09-09)
+
+
+### Features
+
+* update modals for rebrand ([f666935](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/modals/commit/f666935))
+
+
+### BREAKING CHANGES
+
+* modals now reflect the new branding
+
+
+
+
+
 # [6.0.0-beta.17](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/modals/compare/@datacamp/waffles-modals@6.0.0-beta.16...@datacamp/waffles-modals@6.0.0-beta.17) (2020-08-21)
 
 
