@@ -1,1 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="39" height="39"><title>Shell</title><defs><linearGradient id="b" x1="50%" x2="50%" y1="98.012%" y2="5.507%"><stop offset="0%" stop-color="#405F8F"/><stop offset="100%" stop-color="#86A9DF"/></linearGradient><circle id="a" cx="19.5" cy="19.5" r="19.5"/></defs><g fill="none" fill-rule="evenodd"><mask id="c" fill="#fff"><use xlink:href="#a"/></mask><use fill="url(#b)" xlink:href="#a"/><path fill="#FFF" d="M30.269 21.537v3.202h-11.06v-3.202h11.06zM9.022 12.806l9.72 4.041v2.534l-9.72 4.05v-3.022l5.908-2.286-5.908-2.278v-3.039z" mask="url(#c)"/></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 39 39">
+  <title>Shell</title>
+  <g fill="none" fill-rule="evenodd">
+    <circle cx="19.5" cy="19.5" r="19.5" fill="#05192D"/>
+    <path fill="#FFF" d="M30.2686567,21.5373134 L30.2686567,24.738806 L19.2089552,24.738806 L19.2089552,21.5373134 L30.2686567,21.5373134 Z M9.02238806,12.8059701 L18.7424442,16.8470006 L18.7424442,19.3812062 L9.02238806,23.4307982 L9.02238806,20.4085868 L14.9296517,18.1226649 L9.02238806,15.8453045 L9.02238806,12.8059701 Z"/>
+  </g>
+</svg>
