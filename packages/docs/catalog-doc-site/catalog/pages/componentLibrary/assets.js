@@ -150,12 +150,12 @@ export default () => {
                 if (name === 'Sql') {
                   parsedName = 'SQL';
                 }
-                return `<TechLogo technology="${parsedName}" />`;
+                return `<TechLogo height={39} width={39} technology="${parsedName}" />`;
               }}
             />
             <ComponentTable
               components={Topics}
-              nameFunction={name => `<Topics.${name} />`}
+              nameFunction={name => `<Topics.${name} height={39} width={39} />`}
             />
           </Card>
           <Card css={{ marginTop: 16, padding: 24 }} elevation={2}>
