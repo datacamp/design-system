@@ -46,7 +46,7 @@
     "remove-files-webpack-plugin": "1.4.3",
     "sass-loader": "9.0.2",
     "style-loader": "0.23.1",
-    "svg-spritemap-webpack-plugin": "3.5.7",
+    "svg-spritemap-webpack-plugin": "3.5.9",
     "webpack": "4.41.5",
     "webpack-cli": "3.3.12",
     "webpack-manifest-plugin": "2.2.0"
