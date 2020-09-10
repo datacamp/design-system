@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0-beta.30](https://github.com/datacamp/design-system/compare/@datacamp/waffles-catalog-doc-site@2.0.0-beta.29...@datacamp/waffles-catalog-doc-site@2.0.0-beta.30) (2020-09-10)
+
+
+### Bug Fixes
+
+* techlogo docs ([946a176](https://github.com/datacamp/design-system/commit/946a176))
+
+
+
+
+
 # [2.0.0-beta.29](https://github.com/datacamp/design-system/compare/@datacamp/waffles-catalog-doc-site@2.0.0-beta.28...@datacamp/waffles-catalog-doc-site@2.0.0-beta.29) (2020-09-09)
 
 **Note:** Version bump only for package @datacamp/waffles-catalog-doc-site
