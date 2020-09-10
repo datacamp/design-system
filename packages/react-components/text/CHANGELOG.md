@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.0.17](https://github.com/datacamp/design-system/compare/@datacamp/waffles-text@3.0.16...@datacamp/waffles-text@3.0.17) (2020-09-10)
+
+**Note:** Version bump only for package @datacamp/waffles-text
+
+
+
+
+
 ## [3.0.16](https://github.com/datacamp/design-system/compare/@datacamp/waffles-text@3.0.15...@datacamp/waffles-text@3.0.16) (2020-08-14)
 
 **Note:** Version bump only for package @datacamp/waffles-text
