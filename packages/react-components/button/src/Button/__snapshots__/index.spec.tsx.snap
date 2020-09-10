@@ -10674,6 +10674,7 @@ exports[`<Button /> tooltips tooltip appearance snapshots renders a tooltip with
   padding-left: 12px;
   padding-right: 12px;
   padding-top: 8px;
+  z-index: 5;
   margin-top: 8px;
   background-color: #0c1626;
   box-shadow: none;
@@ -10818,6 +10819,7 @@ exports[`<Button /> tooltips tooltip appearance snapshots renders a tooltip with
   padding-left: 12px;
   padding-right: 12px;
   padding-top: 8px;
+  z-index: 5;
   margin-top: 8px;
   background-color: #ffffff;
 }
@@ -10961,6 +10963,7 @@ exports[`<Button /> tooltips tooltip appearance snapshots renders a tooltip with
   padding-left: 12px;
   padding-right: 12px;
   padding-top: 8px;
+  z-index: 5;
   margin-top: 8px;
   background-color: #0c1626;
   box-shadow: none;
@@ -11105,6 +11108,7 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at b
   padding-left: 12px;
   padding-right: 12px;
   padding-top: 8px;
+  z-index: 5;
   margin-top: 8px;
   background-color: #0c1626;
   box-shadow: none;
@@ -11260,6 +11264,7 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at b
   padding-left: 12px;
   padding-right: 12px;
   padding-top: 8px;
+  z-index: 5;
   margin-top: 8px;
   background-color: #0c1626;
   box-shadow: none;
@@ -11404,6 +11409,7 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at b
   padding-left: 12px;
   padding-right: 12px;
   padding-top: 8px;
+  z-index: 5;
   margin-top: 8px;
   background-color: #0c1626;
   box-shadow: none;
@@ -11548,6 +11554,7 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at l
   padding-left: 12px;
   padding-right: 12px;
   padding-top: 8px;
+  z-index: 5;
   margin-right: 8px;
   background-color: #0c1626;
   box-shadow: none;
@@ -11692,6 +11699,7 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at r
   padding-left: 12px;
   padding-right: 12px;
   padding-top: 8px;
+  z-index: 5;
   margin-left: 8px;
   background-color: #0c1626;
   box-shadow: none;
@@ -11836,6 +11844,7 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at t
   padding-left: 12px;
   padding-right: 12px;
   padding-top: 8px;
+  z-index: 5;
   margin-bottom: 8px;
   background-color: #0c1626;
   box-shadow: none;
@@ -11980,6 +11989,7 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at t
   padding-left: 12px;
   padding-right: 12px;
   padding-top: 8px;
+  z-index: 5;
   margin-bottom: 8px;
   background-color: #0c1626;
   box-shadow: none;
@@ -12124,6 +12134,7 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at t
   padding-left: 12px;
   padding-right: 12px;
   padding-top: 8px;
+  z-index: 5;
   margin-bottom: 8px;
   background-color: #0c1626;
   box-shadow: none;
@@ -12254,6 +12265,7 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at u
   padding-left: 12px;
   padding-right: 12px;
   padding-top: 8px;
+  z-index: 5;
   margin-top: 8px;
   background-color: #0c1626;
   box-shadow: none;
