@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [6.0.0-beta.21](https://github.com/datacamp/design-system/compare/@datacamp/waffles-button@6.0.0-beta.20...@datacamp/waffles-button@6.0.0-beta.21) (2020-09-11)
+
+
+### Features
+
+* update button scss for rebrand ([d7ea5ab](https://github.com/datacamp/design-system/commit/d7ea5ab))
+
+
+
+
+
 # [6.0.0-beta.20](https://github.com/datacamp/design-system/compare/@datacamp/waffles-button@6.0.0-beta.19...@datacamp/waffles-button@6.0.0-beta.20) (2020-09-11)
 
 

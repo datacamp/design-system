@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0-beta.32](https://github.com/datacamp/design-system/compare/@datacamp/waffles-catalog-doc-site@2.0.0-beta.31...@datacamp/waffles-catalog-doc-site@2.0.0-beta.32) (2020-09-11)
+
+
+### Features
+
+* add button scss to brand refresh article ([78a44ea](https://github.com/datacamp/design-system/commit/78a44ea))
+
+
+
+
+
 # [2.0.0-beta.31](https://github.com/datacamp/design-system/compare/@datacamp/waffles-catalog-doc-site@2.0.0-beta.30...@datacamp/waffles-catalog-doc-site@2.0.0-beta.31) (2020-09-11)
 
 **Note:** Version bump only for package @datacamp/waffles-catalog-doc-site
