@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [6.0.0-beta.20](https://github.com/datacamp/design-system/compare/@datacamp/waffles-button@6.0.0-beta.19...@datacamp/waffles-button@6.0.0-beta.20) (2020-09-11)
+
+
+### Bug Fixes
+
+* add z index to button tooltips ([002b269](https://github.com/datacamp/design-system/commit/002b269))
+
+
+
+
+
 # [6.0.0-beta.19](https://github.com/datacamp/design-system/compare/@datacamp/waffles-button@6.0.0-beta.18...@datacamp/waffles-button@6.0.0-beta.19) (2020-09-10)
 
 **Note:** Version bump only for package @datacamp/waffles-button

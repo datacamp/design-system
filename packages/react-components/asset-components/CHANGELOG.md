@@ -3,6 +3,27 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0-beta.8](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/card/compare/@datacamp/waffles-asset-components@1.3.9...@datacamp/waffles-asset-components@2.0.0-beta.8) (2020-09-11)
+
+
+### Features
+
+* add DatacampLogo component ([9a5634a](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/card/commit/9a5634a))
+* make wordmark optional on DatacampLogo component ([6346b6c](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/card/commit/6346b6c))
+* swap assets for new logos ([a535357](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/card/commit/a535357))
+* updated tech icons ([384e8aa](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/card/commit/384e8aa))
+
+
+### BREAKING CHANGES
+
+* All the DataCamp logos have changed, including the 
+naming. Current imports will not work anymore, though it is recommended 
+to use the new DatacampLogo component going forwards
+
+
+
+
+
 # [2.0.0-beta.7](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/card/compare/@datacamp/waffles-asset-components@2.0.0-beta.6...@datacamp/waffles-asset-components@2.0.0-beta.7) (2020-09-09)
 
 

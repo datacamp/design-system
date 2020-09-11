@@ -3,6 +3,24 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [4.0.0-beta.2](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/card/compare/@datacamp/waffles-card@3.0.21...@datacamp/waffles-card@4.0.0-beta.2) (2020-09-11)
+
+
+### Features
+
+* update card colours V1 ([83cca4a](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/card/commit/83cca4a))
+* update cards to reflect the new branding ([0b72af2](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/card/commit/0b72af2))
+
+
+### BREAKING CHANGES
+
+* cards now use the new navy colour for shadows and 
+borders
+
+
+
+
+
 # [4.0.0-beta.1](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/card/compare/@datacamp/waffles-card@4.0.0-beta.0...@datacamp/waffles-card@4.0.0-beta.1) (2020-09-09)
 
 **Note:** Version bump only for package @datacamp/waffles-card
