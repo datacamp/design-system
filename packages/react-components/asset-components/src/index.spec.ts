@@ -11,6 +11,7 @@ describe('index', () => {
           "Learn": [Function],
           "Practice": [Function],
         },
+        "ALPALoop": [Function],
         "DatacampLogo": [Function],
         "Logos": Object {
           "Datacamp": Object {
