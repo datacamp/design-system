@@ -22,7 +22,7 @@ $_buttons-google-plus-hover: #e57062;
 
 .dc-btn {
   align-items: center;
-  border: 1px solid transparent;
+  border: 2px solid transparent;
   border-radius: $dc-border-radius;
   display: inline-flex;
   font-size: $dc-font-size-base;
@@ -30,7 +30,7 @@ $_buttons-google-plus-hover: #e57062;
   font-weight: $dc-font-weight-bold;
   justify-content: center;
   letter-spacing: inherit;
-  padding: 11px 15px; // +1px border
+  padding: 10px 15px;
   position: relative;
   text-align: center;
   transition: background-color $dc-transition, border-color $dc-transition, color $dc-transition;
@@ -96,14 +96,14 @@ $_buttons-google-plus-hover: #e57062;
 
 // Small
 .dc-btn--sm {
-  padding: 5px 15px; // +1px border
+  padding: 4px 15px;
 }
 
 // Large
 .dc-btn--lg {
   font-size: $dc-font-size-h4;
   line-height: 1.6;
-  padding: 15px 31px; // +1px border
+  padding: 14px 31px;
 }
 
 // ----- Squared ----- //
@@ -203,19 +203,19 @@ $_buttons-google-plus-hover: #e57062;
 // ----- Primary Light ----- //
 
 .dc-btn--primary-light {
-  @include btn-variant($background: $dc-green, $color: $dc-navy-text, $hover: $dc-green-dark);
+  @include btn-variant($background: $dc-green, $color: $dc-navy-text, $hover: $dc-green-light);
 }
 
 // ----- Secondary ----- //
 
 .dc-btn--secondary {
-  @include btn-variant($background: $dc-yellow, $color: $dc-navy-text, $hover: $dc-yellow-dark);
+  @include btn-variant($background: $dc-navy, $color: $dc-white, $hover: $dc-navy-light);
 }
 
 // ----- Tertiary ----- //
 
 .dc-btn--tertiary {
-  @include btn-variant($background: transparent, $border-color: $dc-green, $border-color-hover: $dc-green-dark, $color: $dc-navy-text);
+  @include btn-variant($background: transparent, $border-color: $dc-navy, $border-color-hover: $dc-navy-light, $color: $dc-navy-text);
 }
 
 // TODO: Refactor into own button instead of having a dependence on `dc-btn--tertiary`. DON'T move above `tertiary`.
@@ -230,7 +230,7 @@ $_buttons-google-plus-hover: #e57062;
 // ----- Green ----- //
 
 .dc-btn--green {
-  @include btn-variant($background: $dc-green, $color: $dc-white, $hover: $dc-green-light);
+  @include btn-variant($background: $dc-green, $color: $dc-navy-text, $hover: $dc-green-light);
 }
 
 // ----- Grey ----- //
@@ -242,13 +242,18 @@ $_buttons-google-plus-hover: #e57062;
 // ----- Red ----- //
 
 .dc-btn--red {
-  @include btn-variant($background: $dc-red, $color: $dc-navy-text, $hover: $dc-red-dark);
+  @include btn-variant($background: $dc-red, $color: $dc-navy-text, $hover: $dc-red-light);
 }
 
 // ----- Purple ----- //
 
 .dc-btn--purple {
-  @include btn-variant($background: $dc-purple, $color: $dc-navy-text, $hover: $dc-purple-dark);
+  @include btn-variant($background: $dc-purple, $color: $dc-navy-text, $hover: $dc-purple-light);
+}
+// ----- Orange ----- //
+
+.dc-btn--orange {
+  @include btn-variant($background: $dc-orange, $color: $dc-navy-text, $hover: $dc-orange-light);
 }
 
 // ----- Social ----- //
@@ -345,7 +350,7 @@ $_buttons-google-plus-hover: #e57062;
 // ----- Bordered Variants ----- //
 
 .dc-btn--bordered {
-  @include btn-variant($background: transparent, $border-color: $dc-grey-100, $color: $dc-navy-text, $border-color-hover: $dc-green);
+  @include btn-variant($background: transparent, $border-color: $dc-navy, $color: $dc-navy-text, $border-color-hover: $dc-navy-light);
 }
 
 // Bordered White
