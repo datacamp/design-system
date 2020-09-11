@@ -291,7 +291,13 @@ export default () => {
                     <code>default</code> appearance, in that it is only an
                     outline, but can be used against dark backgrounds.
                   </li>
-                  <li>scss updated coming soon...</li>
+                  <li>
+                    Some of the scss class colours have been adapted to match
+                    the react intents, but no classes have been deprecated.
+                    Check the button docs to see the specific mapping, and
+                    contact the design system team if there is a variation you
+                    require and you are still using scss styling.
+                  </li>
                 </ul>
               </li>
             </ul>
