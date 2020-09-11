@@ -4,7 +4,7 @@ exports[`Core generates the correct files: lib/css/waffles.css 1`] = `
 "@charset \\"UTF-8\\";
 @font-face {
   font-family: 'Studio-Feixen-Sans-Variable';
-  src: url(\\"https://waffles.datacamp.com/fonts/StudioFeixenSans-Medium.ttf\\") format(\\"truetype\\");
+  src: url(\\"https://waffles.datacamp.com/fonts/StudioFeixenSans-Regular.ttf\\") format(\\"truetype\\");
   font-weight: 400;
 }
 @font-face {
@@ -15052,7 +15052,7 @@ exports[`Core generates the correct files: lib/scss/design/vendor/_feixen-font.s
 
 @font-face {
   font-family: 'Studio-Feixen-Sans-Variable';
-  src: url('https://waffles.datacamp.com/fonts/StudioFeixenSans-Medium.ttf')
+  src: url('https://waffles.datacamp.com/fonts/StudioFeixenSans-Regular.ttf')
     format('truetype');
   font-weight: 400;
 }
