@@ -4,6 +4,13 @@ describe('index', () => {
   it('exports everything', () => {
     expect(assets).toMatchInlineSnapshot(`
       Object {
+        "ALPA": Object {
+          "Alpa": [Function],
+          "Apply": [Function],
+          "Assess": [Function],
+          "Learn": [Function],
+          "Practice": [Function],
+        },
         "DatacampLogo": [Function],
         "Logos": Object {
           "Datacamp": Object {
