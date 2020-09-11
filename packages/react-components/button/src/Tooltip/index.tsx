@@ -67,6 +67,7 @@ const Tooltip = ({
             paddingLeft: tokens.size.space[12].value,
             paddingRight: tokens.size.space[12].value,
             paddingTop: tokens.size.space[8].value,
+            zIndex: 5,
           },
           marginMap[position],
           cardStyles[appearance],

@@ -24,7 +24,7 @@
     "@datacamp/waffles-icons": "^2.0.0-beta.0",
     "@datacamp/waffles-markdown": "^3.0.0-beta.18",
     "@datacamp/waffles-modals": "^6.0.0-beta.19",
-    "@datacamp/waffles-positioner": "^1.0.22-beta.1",
+    "@datacamp/waffles-positioner": "^1.0.22",
     "@datacamp/waffles-tag": "^2.0.0-beta.16",
     "@datacamp/waffles-text": "^4.0.0-beta.18",
     "@datacamp/waffles-toast": "^2.0.0-beta.18",

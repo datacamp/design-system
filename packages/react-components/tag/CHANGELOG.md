@@ -18,11 +18,11 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### BREAKING CHANGES
 
-* color classes have been removed and appearance has 
+* color classes have been removed and appearance has
 changed. Check brand refresh article for details
-* The Tag component has been removed. Please use the 
+* The Tag component has been removed. Please use the
 Badge component from the waffles-text package instead
-* Font weights have been updated to work with new 
+* Font weights have been updated to work with new
 branding
 * The sans-serif font has changed from Lato to Studio-Feixen-Sans-Variable
 
@@ -155,6 +155,16 @@ branding
 # [2.0.0-beta.6](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/tag/compare/@datacamp/waffles-tag@2.0.0-beta.5...@datacamp/waffles-tag@2.0.0-beta.6) (2020-07-06)
 
 **Note:** Version bump only for package @datacamp/waffles-tag
+
+
+
+
+## [1.2.24](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/tag/compare/@datacamp/waffles-tag@1.2.23...@datacamp/waffles-tag@1.2.24) (2020-09-10)
+
+**Note:** Version bump only for package @datacamp/waffles-tag
+
+
+
 
 
 

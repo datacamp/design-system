@@ -21,7 +21,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### BREAKING CHANGES
 
-* cards now use the new navy colour for shadows and 
+* cards now use the new navy colour for shadows and
 borders
 
 
@@ -56,6 +56,14 @@ borders
 ### Features
 
 * update card colours V1 ([83cca4a](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/card/commit/83cca4a))
+
+
+
+
+
+## [3.0.21](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/card/compare/@datacamp/waffles-card@3.0.20...@datacamp/waffles-card@3.0.21) (2020-09-10)
+
+**Note:** Version bump only for package @datacamp/waffles-card
 
 
 

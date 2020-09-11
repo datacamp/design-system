@@ -259,6 +259,14 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
+## [1.43.1](https://github.com/datacamp/design-system/compare/@datacamp/waffles-storybook@1.43.0...@datacamp/waffles-storybook@1.43.1) (2020-09-10)
+
+**Note:** Version bump only for package @datacamp/waffles-storybook
+
+
+
+
+
 # [1.43.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-storybook@1.42.4...@datacamp/waffles-storybook@1.43.0) (2020-08-14)
 
 
