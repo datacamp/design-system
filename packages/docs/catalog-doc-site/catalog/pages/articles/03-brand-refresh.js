@@ -218,6 +218,10 @@ export default () => {
                     check with a designer as to which logo asset is the most
                     appropriate for your use case.
                   </li>
+                  <li>
+                    There are some new assets to reflect the ALPA loop, check
+                    the asset docs for more information on how to use.
+                  </li>
                 </ul>
               </li>
               <li>
