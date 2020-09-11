@@ -6,7 +6,7 @@ import { css } from '@emotion/core';
 export default css`
   @font-face {
     font-family: ${tokens.asset.font.sansSerif.value};
-    src: url('https://waffles.datacamp.com/fonts/StudioFeixenSans-Medium.ttf')
+    src: url('https://waffles.datacamp.com/fonts/StudioFeixenSans-Regular.ttf')
       format('truetype');
     font-weight: ${tokens.fontWeight.regular.value};
   }
