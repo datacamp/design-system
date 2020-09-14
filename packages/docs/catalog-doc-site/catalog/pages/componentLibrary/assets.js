@@ -144,9 +144,9 @@ export default () => {
             <ComponentTable
               componentFunction={(Component, name) => (
                 <ALPALoop
-                  height={670}
+                  height={673}
                   highlight={name === 'Alpa' ? '' : name}
-                  width={674}
+                  width={673}
                 />
               )}
               components={ALPA}
