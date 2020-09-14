@@ -138,7 +138,7 @@
   width: 100%;
 
   @include afh {
-    background-color: $dc-beige-100;
+    background-color: $dc-grey-200;
     color: $dc-navy-text;
     cursor: pointer;
   }
@@ -233,7 +233,7 @@
   transition: background-color $dc-transition, color $dc-transition;
 
   @include state {
-    background-color: $dc-beige-100;
+    background-color: $dc-grey-200;
     border-color: transparent;
     color: $dc-navy-text;
   }
