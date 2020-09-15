@@ -14,7 +14,7 @@ $_progress-bar-height-small: 8px;
 }
 
 .dc-progress-bar__bar {
-  background: $dc-beige-100;
+  background: $dc-grey-300;
   border: 0;
   border-radius: $_progress-bar-height / 2;
   cursor: default;
@@ -75,9 +75,10 @@ $_progress-bar-height-small: 8px;
 }
 
 .dc-progress-bar__text {
-  color: $dc-blue-text;
+  color: $dc-navy-text;
+  opacity: 0.6;
   flex-shrink: 0;
-  font-weight: $dc-font-weight-bold;
+  font-weight: $dc-font-weight-regular;
   padding-right: 8px;
 }
 
@@ -89,28 +90,16 @@ $_progress-bar-height-small: 8px;
   .dc-progress-bar__fill {
     background-color: $dc-green;
   }
-
-  .dc-progress-bar__text {
-    color: $dc-green;
-  }
 }
 
 .dc-progress-bar--orange {
   .dc-progress-bar__fill {
     background-color: $dc-orange;
   }
-
-  .dc-progress-bar__text {
-    color: $dc-orange;
-  }
 }
 
 .dc-progress-bar--red {
   .dc-progress-bar__fill {
     background-color: $dc-red;
-  }
-
-  .dc-progress-bar__text {
-    color: $dc-red;
   }
 }
