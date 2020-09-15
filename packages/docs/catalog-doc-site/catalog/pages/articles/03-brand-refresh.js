@@ -32,6 +32,12 @@ export default () => {
               packages.
             </p>
 
+            <p>
+              Note that all waffles packages have had updates to colours, fonts
+              etc. It is important to update all waffles packages to the beta
+              versions in order to get all the updates.
+            </p>
+
             <h3>Breaking Changes</h3>
             <p>
               Unsurprisingly there are a number of breaking changes to the
