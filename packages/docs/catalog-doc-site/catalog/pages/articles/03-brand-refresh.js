@@ -304,6 +304,17 @@ export default () => {
                   </li>
                 </ul>
               </li>
+              <li>
+                <code>@datacamp/waffles-popover</code>
+                <ul>
+                  <li>
+                    This package/styles was only used in main-app, so has been
+                    completely deprecated. If you find yourself working on
+                    something that needs this. Please contact the design system
+                    team.
+                  </li>
+                </ul>
+              </li>
             </ul>
           </div>
         </section>
