@@ -224,6 +224,10 @@ export default () => {
                     check with a designer as to which logo asset is the most
                     appropriate for your use case.
                   </li>
+                  <li>
+                    There are some new assets to reflect the ALPA loop, check
+                    the asset docs for more information on how to use.
+                  </li>
                 </ul>
               </li>
               <li>
@@ -303,6 +307,17 @@ export default () => {
                     Check the button docs to see the specific mapping, and
                     contact the design system team if there is a variation you
                     require and you are still using scss styling.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <code>@datacamp/waffles-popover</code>
+                <ul>
+                  <li>
+                    This package/styles was only used in main-app, so has been
+                    completely deprecated. If you find yourself working on
+                    something that needs this. Please contact the design system
+                    team.
                   </li>
                 </ul>
               </li>

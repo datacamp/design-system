@@ -1,4 +1,6 @@
 import {
+  ALPA,
+  ALPALoop,
   DatacampLogo,
   Logos,
   TechLogo,
@@ -22,7 +24,11 @@ import React from 'react';
 
 import CustomHeader from '../../components/CustomHeader';
 
-const ComponentTable = ({ components, nameFunction }) => {
+const ComponentTable = ({
+  components,
+  nameFunction,
+  componentFunction = Component => <Component />,
+}) => {
   return (
     <table>
       {Object.entries(components).map(([name, Component]) => (
@@ -31,7 +37,7 @@ const ComponentTable = ({ components, nameFunction }) => {
             <Code>{nameFunction(name)}</Code>
           </td>
           <td css={{ backgroundColor: tokens.color.neutral.grey400.value.hex }}>
-            <Component />
+            {componentFunction(Component, name)}
           </td>
         </tr>
       ))}
@@ -59,6 +65,11 @@ export default () => {
             </Paragraph>
             <List>
               <List.Item>
+                <Strong>ALPALoop –</Strong> A component that can display the
+                ALPA loop graphic. Can highlight a section of the loop by
+                setting the <Code>highlight</Code> prop.
+              </List.Item>
+              <List.Item>
                 <Strong>DatacampLogo –</Strong> A component that will display
                 the Datacamp logo in the colours specified by the
                 <Code>logomarkColor</Code> and <Code>wordmarkColor</Code> props.
@@ -78,6 +89,7 @@ export default () => {
             </List>
             <CodeBlock>
               {`import {
+  ALPALoop,
   DatacampLogo,
   Logos,
   TechLogo,
@@ -130,6 +142,19 @@ export default () => {
               </tr>
             </table>
             <ComponentTable
+              componentFunction={(Component, name) => (
+                <ALPALoop
+                  height={673}
+                  highlight={name === 'Alpa' ? '' : name}
+                  width={673}
+                />
+              )}
+              components={ALPA}
+              nameFunction={name =>
+                `<ALPALoop ${name === 'Alpa' ? '' : 'highlight={name} '}/>`
+              }
+            />
+            <ComponentTable
               components={Logos.Signal}
               nameFunction={name => `<Logos.Signal.${name} />`}
             />
@@ -138,6 +163,9 @@ export default () => {
               nameFunction={name => `<Logos.Waffles.${name} />`}
             />
             <ComponentTable
+              componentFunction={Component => (
+                <Component height={39} width={39} />
+              )}
               components={Technologies}
               nameFunction={name => {
                 let parsedName = name;

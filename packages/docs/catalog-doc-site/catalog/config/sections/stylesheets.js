@@ -232,11 +232,6 @@ const pages = [
     title: 'Pagination',
   },
   {
-    content: pageLoader(() => import('../../pages/stylesheets/popover.md')),
-    path: '/stylesheets/popover',
-    title: 'Popover',
-  },
-  {
     content: pageLoader(() =>
       import('../../pages/stylesheets/progress-bar.md'),
     ),
