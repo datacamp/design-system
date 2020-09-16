@@ -58,7 +58,7 @@ const singleLineStyle = css({
 });
 
 const multiLineStyle = css({
-  overflow: 'auto',
+  overflow: 'reset',
   whiteSpace: 'normal',
 });
 
@@ -83,7 +83,7 @@ const getStyle = (size: Size, multiLine: boolean): SerializedStyles => {
       fontSize: tokens.size.font[size].value,
       letterSpacing: letterSpacingMap[size],
       lineHeight:
-        size >= 800
+        size >= 800 && multiLine
           ? tokens.lineHeight.largeHeading.value
           : tokens.lineHeight.heading.value,
       [ssrSafeNotFirstChildSelector]: {
