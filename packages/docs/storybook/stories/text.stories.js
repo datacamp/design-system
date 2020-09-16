@@ -315,7 +315,7 @@ arrange(desc(gdpPercap))`}</CodeBlock>
         </Paragraph>
         <div css={{ border: '1px solid black', width: 200 }}>
           <Heading as={element} size={600}>
-            A lot of content that does not fit
+            Long content that does not fit
           </Heading>
         </div>
         <Paragraph>
@@ -323,7 +323,7 @@ arrange(desc(gdpPercap))`}</CodeBlock>
         </Paragraph>
         <div css={{ border: '1px solid black', width: 200 }}>
           <Heading as={element} multiLine size={600}>
-            A lot of content that does not fit
+            Long content that does not fit
           </Heading>
         </div>
       </>
