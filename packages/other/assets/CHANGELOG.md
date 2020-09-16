@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0-beta.2](https://github.com/datacamp/design-system/compare/@datacamp/waffles-assets@2.0.0-beta.1...@datacamp/waffles-assets@2.0.0-beta.2) (2020-09-16)
+
+
+### Bug Fixes
+
+* alpa loop alignment ([dc02f06](https://github.com/datacamp/design-system/commit/dc02f06))
+
+
+### Features
+
+* add ALPA assets ([3415199](https://github.com/datacamp/design-system/commit/3415199))
+
+
+
+
+
 # [2.0.0-beta.1](https://github.com/datacamp/design-system/compare/@datacamp/waffles-assets@2.0.0-beta.0...@datacamp/waffles-assets@2.0.0-beta.1) (2020-09-09)
 
 

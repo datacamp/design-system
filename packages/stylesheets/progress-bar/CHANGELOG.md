@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.0.0-beta.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-progress-bar@0.2.0-beta.0...@datacamp/waffles-progress-bar@1.0.0-beta.0) (2020-09-16)
+
+
+### Features
+
+* update progress bar for the brand refresh ([f7da9dd](https://github.com/datacamp/design-system/commit/f7da9dd))
+
+
+### BREAKING CHANGES
+
+* progress bars are updated for the new branding. Check 
+the article for details
+
+
+
+
+
 # [0.2.0-beta.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-progress-bar@0.1.20...@datacamp/waffles-progress-bar@0.2.0-beta.0) (2020-07-28)
 
 

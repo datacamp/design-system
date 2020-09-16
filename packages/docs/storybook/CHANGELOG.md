@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0-beta.27](https://github.com/datacamp/design-system/compare/@datacamp/waffles-storybook@2.0.0-beta.26...@datacamp/waffles-storybook@2.0.0-beta.27) (2020-09-16)
+
+
+### Features
+
+* add stories for ALPA ([cfd6054](https://github.com/datacamp/design-system/commit/cfd6054))
+
+
+
+
+
 # [2.0.0-beta.26](https://github.com/datacamp/design-system/compare/@datacamp/waffles-storybook@2.0.0-beta.25...@datacamp/waffles-storybook@2.0.0-beta.26) (2020-09-11)
 
 **Note:** Version bump only for package @datacamp/waffles-storybook

@@ -3,6 +3,26 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0-beta.33](https://github.com/datacamp/design-system/compare/@datacamp/waffles-catalog-doc-site@2.0.0-beta.32...@datacamp/waffles-catalog-doc-site@2.0.0-beta.33) (2020-09-16)
+
+
+### Bug Fixes
+
+* alpa loop alignment ([dc02f06](https://github.com/datacamp/design-system/commit/dc02f06))
+
+
+### Features
+
+* add ALPA to brand refresh article ([e381980](https://github.com/datacamp/design-system/commit/e381980))
+* detail popover removal in brand refresh article ([c36a135](https://github.com/datacamp/design-system/commit/c36a135))
+* document ALPA components ([1bb3239](https://github.com/datacamp/design-system/commit/1bb3239))
+* extend brand refresh article ([301db02](https://github.com/datacamp/design-system/commit/301db02))
+* remove popover from docs ([d4d6d8e](https://github.com/datacamp/design-system/commit/d4d6d8e))
+
+
+
+
+
 # [2.0.0-beta.32](https://github.com/datacamp/design-system/compare/@datacamp/waffles-catalog-doc-site@2.0.0-beta.31...@datacamp/waffles-catalog-doc-site@2.0.0-beta.32) (2020-09-11)
 
 

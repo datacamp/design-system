@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.0.0-beta.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-dropdown@0.2.0-beta.0...@datacamp/waffles-dropdown@1.0.0-beta.0) (2020-09-16)
+
+
+### Features
+
+* update dropdown scss for brand refresh ([3a93c9b](https://github.com/datacamp/design-system/commit/3a93c9b))
+
+
+### BREAKING CHANGES
+
+* See brand refresh article
+
+
+
+
+
 # [0.2.0-beta.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-dropdown@0.1.20...@datacamp/waffles-dropdown@0.2.0-beta.0) (2020-07-28)
 
 

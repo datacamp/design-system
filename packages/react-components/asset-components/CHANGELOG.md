@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0-beta.9](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/card/compare/@datacamp/waffles-asset-components@2.0.0-beta.8...@datacamp/waffles-asset-components@2.0.0-beta.9) (2020-09-16)
+
+
+### Bug Fixes
+
+* alpa loop alignment ([dc02f06](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/card/commit/dc02f06))
+
+
+### Features
+
+* add ALPALoop component ([097715d](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/card/commit/097715d))
+* add generated ALPA asset components ([fc1cd40](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/card/commit/fc1cd40))
+
+
+
+
+
 # [2.0.0-beta.8](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/card/compare/@datacamp/waffles-asset-components@1.3.9...@datacamp/waffles-asset-components@2.0.0-beta.8) (2020-09-11)
 
 
