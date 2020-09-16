@@ -44,7 +44,7 @@ exports[`<Heading /> renders at each size renders at size 200, multiLine=true 1`
   color: rgb(5,25,45);
   font-weight: 800;
   margin: 0;
-  overflow: auto;
+  overflow: reset;
   white-space: normal;
   font-size: 14px;
   -webkit-letter-spacing: 0;
@@ -111,7 +111,7 @@ exports[`<Heading /> renders at each size renders at size 300, multiLine=true 1`
   color: rgb(5,25,45);
   font-weight: 800;
   margin: 0;
-  overflow: auto;
+  overflow: reset;
   white-space: normal;
   font-size: 16px;
   -webkit-letter-spacing: 0;
@@ -178,7 +178,7 @@ exports[`<Heading /> renders at each size renders at size 400, multiLine=true 1`
   color: rgb(5,25,45);
   font-weight: 800;
   margin: 0;
-  overflow: auto;
+  overflow: reset;
   white-space: normal;
   font-size: 18px;
   -webkit-letter-spacing: 0;
@@ -245,7 +245,7 @@ exports[`<Heading /> renders at each size renders at size 500, multiLine=true 1`
   color: rgb(5,25,45);
   font-weight: 800;
   margin: 0;
-  overflow: auto;
+  overflow: reset;
   white-space: normal;
   font-size: 20px;
   -webkit-letter-spacing: 0;
@@ -312,7 +312,7 @@ exports[`<Heading /> renders at each size renders at size 600, multiLine=true 1`
   color: rgb(5,25,45);
   font-weight: 800;
   margin: 0;
-  overflow: auto;
+  overflow: reset;
   white-space: normal;
   font-size: 24px;
   -webkit-letter-spacing: -0.5px;
@@ -379,7 +379,7 @@ exports[`<Heading /> renders at each size renders at size 650, multiLine=true 1`
   color: rgb(5,25,45);
   font-weight: 800;
   margin: 0;
-  overflow: auto;
+  overflow: reset;
   white-space: normal;
   font-size: 28px;
   -webkit-letter-spacing: -0.5px;
@@ -446,7 +446,7 @@ exports[`<Heading /> renders at each size renders at size 700, multiLine=true 1`
   color: rgb(5,25,45);
   font-weight: 800;
   margin: 0;
-  overflow: auto;
+  overflow: reset;
   white-space: normal;
   font-size: 32px;
   -webkit-letter-spacing: -0.5px;
@@ -487,7 +487,7 @@ exports[`<Heading /> renders at each size renders at size 800, multiLine=false 1
   -moz-letter-spacing: -1px;
   -ms-letter-spacing: -1px;
   letter-spacing: -1px;
-  line-height: 1.05;
+  line-height: 1.2;
 }
 
 *:not(style) ~ .emotion-0 {
@@ -513,7 +513,7 @@ exports[`<Heading /> renders at each size renders at size 800, multiLine=true 1`
   color: rgb(5,25,45);
   font-weight: 800;
   margin: 0;
-  overflow: auto;
+  overflow: reset;
   white-space: normal;
   font-size: 40px;
   -webkit-letter-spacing: -1px;
@@ -554,7 +554,7 @@ exports[`<Heading /> renders at each size renders at size 900, multiLine=false 1
   -moz-letter-spacing: -1px;
   -ms-letter-spacing: -1px;
   letter-spacing: -1px;
-  line-height: 1.05;
+  line-height: 1.2;
 }
 
 *:not(style) ~ .emotion-0 {
@@ -580,7 +580,7 @@ exports[`<Heading /> renders at each size renders at size 900, multiLine=true 1`
   color: rgb(5,25,45);
   font-weight: 800;
   margin: 0;
-  overflow: auto;
+  overflow: reset;
   white-space: normal;
   font-size: 50px;
   -webkit-letter-spacing: -1px;

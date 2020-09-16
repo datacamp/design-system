@@ -18,7 +18,7 @@ exports[`<Markdown /> renders 1`] = `
   -moz-letter-spacing: -1px;
   -ms-letter-spacing: -1px;
   letter-spacing: -1px;
-  line-height: 1.05;
+  line-height: 1.2;
 }
 
 *:not(style) ~ .emotion-0 {
