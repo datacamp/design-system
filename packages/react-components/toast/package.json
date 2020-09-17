@@ -1,6 +1,6 @@
 {
   "name": "@datacamp/waffles-toast",
-  "version": "1.0.26",
+  "version": "1.0.27",
   "description": "The Waffles Toast",
   "keywords": [
     "toast"
@@ -52,7 +52,7 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.11.0",
-    "@datacamp/waffles-text": "^3.0.17",
+    "@datacamp/waffles-text": "^3.1.0",
     "@datacamp/waffles-tokens": "^0.6.13",
     "prop-types": "^15.7.2",
     "react-toastify": "^6.0.8"

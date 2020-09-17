@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [3.1.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-text@3.0.17...@datacamp/waffles-text@3.1.0) (2020-09-17)
+
+
+### Features
+
+* accept ref on Link component ([a09c9d0](https://github.com/datacamp/design-system/commit/a09c9d0))
+* make href optional on Link ([53fccf2](https://github.com/datacamp/design-system/commit/53fccf2))
+
+
+
+
+
 ## [3.0.17](https://github.com/datacamp/design-system/compare/@datacamp/waffles-text@3.0.16...@datacamp/waffles-text@3.0.17) (2020-09-10)
 
 **Note:** Version bump only for package @datacamp/waffles-text
