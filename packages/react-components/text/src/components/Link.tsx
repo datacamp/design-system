@@ -23,7 +23,7 @@ interface LinkProps {
   /**
    * The url to navigate to, when the user clicks.
    */
-  href: string;
+  href?: string;
 }
 
 const linkStyle = css(baseStyle, {
