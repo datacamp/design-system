@@ -24,6 +24,15 @@ interface LinkProps {
    * The url to navigate to, when the user clicks.
    */
   href?: string;
+  /**
+   * Callback fired on click, can be used with client side navigation, but
+   * shouldn't be used in place of a button.
+   */
+  onClick?: React.MouseEventHandler;
+  /**
+   * Callback fired when the mouse enters the element
+   */
+  onMouseEnter?: React.MouseEventHandler;
 }
 
 const linkStyle = css(baseStyle, {
@@ -41,6 +50,8 @@ const InternalLink = ({
   children,
   innerRef,
   href,
+  onClick,
+  onMouseEnter,
 }: LinkProps & { innerRef?: React.Ref<HTMLAnchorElement> }): ReactElement => {
   const parsedDataAttributes = computeDataAttributes(dataAttributes);
   return (
@@ -48,6 +59,8 @@ const InternalLink = ({
       className={className}
       css={linkStyle}
       href={href}
+      onClick={onClick}
+      onMouseEnter={onMouseEnter}
       ref={innerRef}
       {...parsedDataAttributes}
     >
