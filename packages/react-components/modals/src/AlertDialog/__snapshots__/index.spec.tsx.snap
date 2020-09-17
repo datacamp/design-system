@@ -171,7 +171,7 @@ exports[`<AlertModal /> isOpen renders the modal via a portal when true 1`] = `
   color: rgb(5,25,45);
   font-weight: 800;
   margin: 0;
-  overflow: auto;
+  overflow: reset;
   white-space: normal;
   font-size: 24px;
   -webkit-letter-spacing: -0.5px;
