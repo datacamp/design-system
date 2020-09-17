@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [3.2.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-text@3.1.0...@datacamp/waffles-text@3.2.0) (2020-09-17)
+
+
+### Features
+
+* add onClick and onMouseEnter to Link component ([491bb28](https://github.com/datacamp/design-system/commit/491bb28))
+
+
+
+
+
 # [3.1.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-text@3.0.17...@datacamp/waffles-text@3.1.0) (2020-09-17)
 
 

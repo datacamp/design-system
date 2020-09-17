@@ -1,6 +1,6 @@
 {
   "name": "@datacamp/waffles-button",
-  "version": "5.1.19",
+  "version": "5.1.20",
   "description": "The Waffles Button",
   "keywords": [
     "button"
@@ -57,7 +57,7 @@
     "@babel/runtime": "^7.11.0",
     "@datacamp/waffles-card": "^3.0.21",
     "@datacamp/waffles-positioner": "^1.0.22",
-    "@datacamp/waffles-text": "^3.1.0",
+    "@datacamp/waffles-text": "^3.2.0",
     "@datacamp/waffles-tokens": "^0.6.13",
     "@datacamp/waffles-utils": "^2.0.16",
     "airbnb-prop-types": "^2.16.0",
