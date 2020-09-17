@@ -35,23 +35,29 @@ const linkStyle = css(baseStyle, {
   textDecoration: 'underline',
 });
 
-const Link = ({
+const InternalLink = ({
   className,
   dataAttributes,
   children,
+  innerRef,
   href,
-}: LinkProps): ReactElement => {
+}: LinkProps & { innerRef?: React.Ref<HTMLAnchorElement> }): ReactElement => {
   const parsedDataAttributes = computeDataAttributes(dataAttributes);
   return (
     <a
       className={className}
       css={linkStyle}
       href={href}
+      ref={innerRef}
       {...parsedDataAttributes}
     >
       {children}
     </a>
   );
 };
+
+const Link = React.forwardRef<HTMLAnchorElement, LinkProps>((props, ref) => (
+  <InternalLink {...props} innerRef={ref} />
+));
 
 export default Link;
