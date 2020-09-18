@@ -6,6 +6,7 @@ import React, { ReactElement, ReactNode } from 'react';
 import baseStyle from '../baseStyle';
 import validateChildrenProp from '../validateChildrenProp';
 
+import Emphasis from './Emphasis';
 import Small from './Small';
 import Strong from './Strong';
 
@@ -34,7 +35,7 @@ const textStyle = css(baseStyle, {
 });
 
 const Text = (props: TextProps): ReactElement => {
-  validateChildrenProp(props, 'Text', [Small, Strong]);
+  validateChildrenProp(props, 'Text', [Emphasis, Small, Strong]);
   const { children, className, dataAttributes } = props;
   const parsedDataAttributes = computeDataAttributes(dataAttributes);
 
