@@ -423,48 +423,6 @@ storiesOf('stylesheets', module)
       </>
     );
   })
-  .add('tabbed-nav', () => {
-    useStylesheet();
-    return (
-      <ul className="dc-tabbed-nav">
-        <li className="dc-tabbed-nav__item">
-          <a className="dc-tabbed-nav__link" href="#">
-            Admin
-          </a>
-        </li>
-        <li className="dc-tabbed-nav__item">
-          <a className="dc-tabbed-nav__link is-active" href="#">
-            Billing
-          </a>
-        </li>
-        <li className="dc-tabbed-nav__item">
-          <a className="dc-tabbed-nav__link" href="#">
-            Invoice settings
-          </a>
-        </li>
-        <li className="dc-tabbed-nav__item">
-          <a className="dc-tabbed-nav__link" href="#">
-            Integrations
-          </a>
-        </li>
-        <li className="dc-tabbed-nav__item">
-          <a className="dc-tabbed-nav__link" href="#">
-            Invite links
-          </a>
-        </li>
-        <li className="dc-tabbed-nav__item">
-          <a className="dc-tabbed-nav__link" href="#">
-            Remove members
-          </a>
-        </li>
-        <li className="dc-tabbed-nav__item">
-          <a className="dc-tabbed-nav__link" href="#">
-            Privacy
-          </a>
-        </li>
-      </ul>
-    );
-  })
   .add('table', () => {
     useStylesheet();
     return (
