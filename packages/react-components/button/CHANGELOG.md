@@ -197,6 +197,22 @@ branding
 
 
 
+## [5.1.20](https://github.com/datacamp/design-system/compare/@datacamp/waffles-button@5.1.19...@datacamp/waffles-button@5.1.20) (2020-09-17)
+
+**Note:** Version bump only for package @datacamp/waffles-button
+
+
+
+
+
+## [5.1.19](https://github.com/datacamp/design-system/compare/@datacamp/waffles-button@5.1.18...@datacamp/waffles-button@5.1.19) (2020-09-17)
+
+**Note:** Version bump only for package @datacamp/waffles-button
+
+
+
+
+
 ## [5.1.18](https://github.com/datacamp/design-system/compare/@datacamp/waffles-button@5.1.17...@datacamp/waffles-button@5.1.18) (2020-09-10)
 
 

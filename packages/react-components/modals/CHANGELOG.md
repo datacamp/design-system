@@ -293,6 +293,22 @@ h3 from the style sheets) now have a letter spacing of -0.5
 
 
 
+## [5.1.19](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/modals/compare/@datacamp/waffles-modals@5.1.18...@datacamp/waffles-modals@5.1.19) (2020-09-17)
+
+**Note:** Version bump only for package @datacamp/waffles-modals
+
+
+
+
+
+## [5.1.18](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/modals/compare/@datacamp/waffles-modals@5.1.17...@datacamp/waffles-modals@5.1.18) (2020-09-17)
+
+**Note:** Version bump only for package @datacamp/waffles-modals
+
+
+
+
+
 ## [5.1.17](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/modals/compare/@datacamp/waffles-modals@5.1.16...@datacamp/waffles-modals@5.1.17) (2020-09-10)
 
 **Note:** Version bump only for package @datacamp/waffles-modals

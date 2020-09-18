@@ -66,6 +66,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 ### Bug Fixes
 
 * load font weights when using the components ([75dcc68](https://github.com/datacamp/design-system/commit/75dcc68))
+# [3.2.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-text@3.1.0...@datacamp/waffles-text@3.2.0) (2020-09-17)
 
 
 ### Features
@@ -107,6 +108,7 @@ blocks.
 branding
 * The sans-serif font has changed from Lato to Studio-Feixen-Sans-Variable
 
+* add onClick and onMouseEnter to Link component ([491bb28](https://github.com/datacamp/design-system/commit/491bb28))
 
 
 
@@ -117,6 +119,8 @@ branding
 ### Bug Fixes
 
 * load font weights when using the components ([75dcc68](https://github.com/datacamp/design-system/commit/75dcc68))
+
+# [3.1.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-text@3.0.17...@datacamp/waffles-text@3.1.0) (2020-09-17)
 
 
 ### Features
@@ -463,6 +467,9 @@ branding
 ### BREAKING CHANGES
 
 * The sans-serif font has changed from Lato to Studio-Feixen-Sans-Variable
+* accept ref on Link component ([a09c9d0](https://github.com/datacamp/design-system/commit/a09c9d0))
+* make href optional on Link ([53fccf2](https://github.com/datacamp/design-system/commit/53fccf2))
+
 
 
 

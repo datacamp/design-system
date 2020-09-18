@@ -159,6 +159,22 @@ branding
 
 
 
+## [1.2.26](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/tag/compare/@datacamp/waffles-tag@1.2.25...@datacamp/waffles-tag@1.2.26) (2020-09-17)
+
+**Note:** Version bump only for package @datacamp/waffles-tag
+
+
+
+
+
+## [1.2.25](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/tag/compare/@datacamp/waffles-tag@1.2.24...@datacamp/waffles-tag@1.2.25) (2020-09-17)
+
+**Note:** Version bump only for package @datacamp/waffles-tag
+
+
+
+
+
 ## [1.2.24](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/tag/compare/@datacamp/waffles-tag@1.2.23...@datacamp/waffles-tag@1.2.24) (2020-09-10)
 
 **Note:** Version bump only for package @datacamp/waffles-tag

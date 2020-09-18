@@ -432,6 +432,23 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 * host writer font files ([04da56f](https://github.com/datacamp/design-system/commit/04da56f))
 
 
+
+
+## [1.42.6](https://github.com/datacamp/design-system/compare/@datacamp/waffles-catalog-doc-site@1.42.5...@datacamp/waffles-catalog-doc-site@1.42.6) (2020-09-17)
+
+**Note:** Version bump only for package @datacamp/waffles-catalog-doc-site
+
+
+
+
+## [1.42.5](https://github.com/datacamp/design-system/compare/@datacamp/waffles-catalog-doc-site@1.42.4...@datacamp/waffles-catalog-doc-site@1.42.5) (2020-09-17)
+
+**Note:** Version bump only for package @datacamp/waffles-catalog-doc-site
+
+
+
+
+
 ## [1.42.4](https://github.com/datacamp/design-system/compare/@datacamp/waffles-catalog-doc-site@1.42.3...@datacamp/waffles-catalog-doc-site@1.42.4) (2020-09-10)
 
 **Note:** Version bump only for package @datacamp/waffles-catalog-doc-site

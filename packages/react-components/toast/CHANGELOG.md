@@ -278,6 +278,22 @@ h3 from the style sheets) now have a letter spacing of -0.5
 
 
 
+## [1.0.28](https://github.com/datacamp/design-system/compare/@datacamp/waffles-toast@1.0.27...@datacamp/waffles-toast@1.0.28) (2020-09-17)
+
+**Note:** Version bump only for package @datacamp/waffles-toast
+
+
+
+
+
+## [1.0.27](https://github.com/datacamp/design-system/compare/@datacamp/waffles-toast@1.0.26...@datacamp/waffles-toast@1.0.27) (2020-09-17)
+
+**Note:** Version bump only for package @datacamp/waffles-toast
+
+
+
+
+
 ## [1.0.26](https://github.com/datacamp/design-system/compare/@datacamp/waffles-toast@1.0.25...@datacamp/waffles-toast@1.0.26) (2020-09-10)
 
 **Note:** Version bump only for package @datacamp/waffles-toast
