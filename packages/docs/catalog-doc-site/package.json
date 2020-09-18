@@ -43,7 +43,6 @@
     "@datacamp/waffles-icon": "^0.1.20",
     "@datacamp/waffles-pagination": "^0.1.20",
     "@datacamp/waffles-progress-bar": "^1.0.0-beta.0",
-    "@datacamp/waffles-tabbed-nav": "^0.2.0-beta.0",
     "@datacamp/waffles-table": "^0.1.20",
     "@datacamp/waffles-tabs": "^0.2.0-beta.0",
     "babel-plugin-lodash": "^3.3.4",
