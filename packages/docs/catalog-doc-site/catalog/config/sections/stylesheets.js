@@ -239,11 +239,6 @@ const pages = [
     title: 'Progress Bar',
   },
   {
-    content: pageLoader(() => import('../../pages/stylesheets/tabbed-nav.md')),
-    path: '/stylesheets/tabbed-nav',
-    title: 'Tabbed Nav',
-  },
-  {
     content: pageLoader(() => import('../../pages/stylesheets/table.md')),
     path: '/stylesheets/table',
     title: 'Table',
