@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [4.0.0-beta.22](https://github.com/datacamp/design-system/compare/@datacamp/waffles-text@4.0.0-beta.21...@datacamp/waffles-text@4.0.0-beta.22) (2020-09-18)
+
+
+### Features
+
+* accept ref on Link component ([a09c9d0](https://github.com/datacamp/design-system/commit/a09c9d0))
+* add onClick and onMouseEnter to Link component ([491bb28](https://github.com/datacamp/design-system/commit/491bb28))
+* make href optional on Link ([53fccf2](https://github.com/datacamp/design-system/commit/53fccf2))
+
+
+
+
+
 # [4.0.0-beta.21](https://github.com/datacamp/design-system/compare/@datacamp/waffles-text@4.0.0-beta.20...@datacamp/waffles-text@4.0.0-beta.21) (2020-09-17)
 
 

@@ -1,14 +1,20 @@
 {
   "name": "@datacamp/waffles-toast",
-  "version": "2.0.0-beta.21",
+  "version": "2.0.0-beta.22",
   "description": "The Waffles Toast",
-  "keywords": ["toast"],
+  "keywords": [
+    "toast"
+  ],
   "homepage": "https://github.com/datacamp/design-system/tree/master/packages/react-components/toast/README.md",
   "license": "ISC",
   "main": "lib/index.js",
   "module": "es/index.js",
   "types": "types/index.d.ts",
-  "files": ["es", "lib", "types"],
+  "files": [
+    "es",
+    "lib",
+    "types"
+  ],
   "scripts": {
     "build:cjs": "BABEL_ENV=cjs babel src --extensions '.tsx','.ts' --out-dir lib --ignore \"src/**/*.spec.tsx\",\"src/**/*.spec.ts\" --config-file ./babel7.config.js",
     "build:es": "BABEL_ENV=es babel src --extensions '.tsx','.ts' --out-dir es --ignore \"src/**/*.spec.tsx\",\"src/**/*.spec.ts\" --config-file ./babel7.config.js",
@@ -46,7 +52,7 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.11.0",
-    "@datacamp/waffles-text": "^4.0.0-beta.21",
+    "@datacamp/waffles-text": "^4.0.0-beta.22",
     "@datacamp/waffles-tokens": "^1.0.0-beta.11",
     "prop-types": "^15.7.2",
     "react-toastify": "^6.0.8"
