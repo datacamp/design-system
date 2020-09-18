@@ -316,7 +316,18 @@ export default () => {
                   <li>
                     This package/styles was only used in main-app, so has been
                     completely deprecated. If you find yourself working on
-                    something that needs this. Please contact the design system
+                    something that needs this, please contact the design system
+                    team.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <code>@datacamp/waffles-tabbed-nav</code>
+                <ul>
+                  <li>
+                    This package/styles was only used in inf selfserve, so has
+                    been completely deprecated. If you find yourself working on
+                    something that needs this, please contact the design system
                     team.
                   </li>
                 </ul>
