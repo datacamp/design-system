@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0-beta.30](https://github.com/datacamp/design-system/compare/@datacamp/waffles-storybook@2.0.0-beta.29...@datacamp/waffles-storybook@2.0.0-beta.30) (2020-09-22)
+
+
+### Features
+
+* remove stories for tabbed-nav ([6ad8512](https://github.com/datacamp/design-system/commit/6ad8512))
+
+
+
+
+
 # [2.0.0-beta.29](https://github.com/datacamp/design-system/compare/@datacamp/waffles-storybook@2.0.0-beta.28...@datacamp/waffles-storybook@2.0.0-beta.29) (2020-09-18)
 
 **Note:** Version bump only for package @datacamp/waffles-storybook

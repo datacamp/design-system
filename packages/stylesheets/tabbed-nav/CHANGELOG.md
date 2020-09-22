@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.0.0-beta.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-tabbed-nav@0.2.0-beta.0...@datacamp/waffles-tabbed-nav@1.0.0-beta.0) (2020-09-22)
+
+
+### Features
+
+* deprecate tabbed-nav ([c43b733](https://github.com/datacamp/design-system/commit/c43b733))
+
+
+### BREAKING CHANGES
+
+* tabbed nav styles have been removed
+
+
+
+
+
 # [0.2.0-beta.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-tabbed-nav@0.1.20...@datacamp/waffles-tabbed-nav@0.2.0-beta.0) (2020-07-28)
 
 

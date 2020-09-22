@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0-beta.36](https://github.com/datacamp/design-system/compare/@datacamp/waffles-catalog-doc-site@2.0.0-beta.35...@datacamp/waffles-catalog-doc-site@2.0.0-beta.36) (2020-09-22)
+
+
+### Features
+
+* add tabbed-nav deprecation to brand refresh article ([d2ed91d](https://github.com/datacamp/design-system/commit/d2ed91d))
+* remove documentation for tabbed-nav ([3e75e37](https://github.com/datacamp/design-system/commit/3e75e37))
+
+
+
+
+
 # [2.0.0-beta.35](https://github.com/datacamp/design-system/compare/@datacamp/waffles-catalog-doc-site@2.0.0-beta.34...@datacamp/waffles-catalog-doc-site@2.0.0-beta.35) (2020-09-18)
 
 **Note:** Version bump only for package @datacamp/waffles-catalog-doc-site
