@@ -75,10 +75,6 @@ exports[`CompactButtonGroup renders the buttons next to each other 1`] = `
   box-shadow: none;
 }
 
-.emotion-1:hover {
-  z-index: 1;
-}
-
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
@@ -161,10 +157,6 @@ exports[`CompactButtonGroup renders the buttons next to each other 1`] = `
   box-shadow: none;
 }
 
-.emotion-3:hover {
-  z-index: 1;
-}
-
 .emotion-5 {
   -webkit-align-items: center;
   -webkit-box-align: center;
@@ -230,10 +222,6 @@ exports[`CompactButtonGroup renders the buttons next to each other 1`] = `
 
 .emotion-5:focus {
   box-shadow: none;
-}
-
-.emotion-5:hover {
-  z-index: 1;
 }
 
 <div

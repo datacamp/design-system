@@ -209,10 +209,6 @@ exports[`ButtonGroup renders the buttons or CompactButtonGroups with 16px spaces
   box-shadow: none;
 }
 
-.emotion-7:hover {
-  z-index: 1;
-}
-
 .emotion-9 {
   -webkit-align-items: center;
   -webkit-box-align: center;
@@ -278,10 +274,6 @@ exports[`ButtonGroup renders the buttons or CompactButtonGroups with 16px spaces
 
 .emotion-9:focus {
   box-shadow: none;
-}
-
-.emotion-9:hover {
-  z-index: 1;
 }
 
 <div
@@ -474,10 +466,6 @@ exports[`ButtonGroup renders the small buttons or CompactButtonGroups with 8px s
   box-shadow: none;
 }
 
-.emotion-7:hover {
-  z-index: 1;
-}
-
 .emotion-9 {
   -webkit-align-items: center;
   -webkit-box-align: center;
@@ -543,10 +531,6 @@ exports[`ButtonGroup renders the small buttons or CompactButtonGroups with 8px s
 
 .emotion-9:focus {
   box-shadow: none;
-}
-
-.emotion-9:hover {
-  z-index: 1;
 }
 
 .emotion-0 {

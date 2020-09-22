@@ -58,7 +58,6 @@ const CompactButtonGroup = ({
               className: css({
                 ':active': { transform: 'none' },
                 ':focus': { boxShadow: 'none' },
-                ':hover': { zIndex: 1 }, // to show hover border color
                 borderLeft:
                   index > 0 && isPrimaryButtonGroup
                     ? '1px solid rgba(5, 25, 45, 0.3)'
