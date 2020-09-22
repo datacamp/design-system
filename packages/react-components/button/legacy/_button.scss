@@ -159,7 +159,7 @@ $_buttons-google-plus-hover: #e57062;
 
 // ----- Variant Mixin ----- //
 
-@mixin btn-variant($background, $color, $color-hover: $color, $hover: '', $border-color: $background, $border-color-hover: $border-color, $shadowed: false, $scale-type: '', $scale-percent: 10%) {
+@mixin btn-variant($background, $color, $color-hover: $color, $hover: '', $border-color: $background, $border-color-hover: $hover, $shadowed: false, $scale-type: '', $scale-percent: 10%) {
   background-color: $background;
   border-color: $border-color;
   color: $color;
@@ -167,7 +167,7 @@ $_buttons-google-plus-hover: #e57062;
   @include state {
     @if $hover != '' {
       background-color: $hover;
-      border-color: $hover;
+      border-color: $border-color-hover;
       color: $color-hover;
     } @else if $scale-type == 'darken' {
       background-color: darken($color: $background, $amount: $scale-percent);
@@ -215,7 +215,7 @@ $_buttons-google-plus-hover: #e57062;
 // ----- Tertiary ----- //
 
 .dc-btn--tertiary {
-  @include btn-variant($background: transparent, $border-color: $dc-navy, $border-color-hover: $dc-navy-light, $color: $dc-navy-text);
+  @include btn-variant($background: transparent, $border-color: $dc-navy, $hover: rgba($dc-navy, 0.15), $border-color-hover: $dc-navy, $color: $dc-navy-text);
 }
 
 // TODO: Refactor into own button instead of having a dependence on `dc-btn--tertiary`. DON'T move above `tertiary`.
