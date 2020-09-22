@@ -1,4 +1,4 @@
-import { get, isString } from 'lodash';
+import { get, isNumber, isString } from 'lodash';
 import PropTypes from 'prop-types';
 
 type ValidComponents = (
@@ -14,6 +14,7 @@ const isValidComponent = (
   validComponents: ValidComponents,
 ): boolean =>
   isString(value) ||
+  isNumber(value) ||
   validComponents.includes(get(value, 'type')) ||
   validComponents.includes(
     // This allows emotion styled versions of the valid components
