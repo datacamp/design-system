@@ -1,5 +1,6 @@
 import tokens from '@datacamp/waffles-tokens/lib/future-tokens.json';
 import { css, SerializedStyles } from '@emotion/core';
+import _ from 'lodash';
 import tinycolor from 'tinycolor2';
 
 interface IntentMap {
@@ -21,13 +22,19 @@ const baseColors: IntentMap = {
   warning: tokens.color.primary.orange.value.hex,
 };
 
-const hoverColors: IntentMap = {
+const primaryHoverColors: IntentMap = {
   b2b: tokens.color.primary.yellowLight.value.hex,
   danger: tokens.color.primary.redLight.value.hex,
   neutral: tokens.color.primary.navyLight.value.hex,
   success: tokens.color.primary.greenLight.value.hex,
   warning: tokens.color.primary.orangeLight.value.hex,
 };
+
+const outlineHoverColors: IntentMap = _.mapValues(baseColors, value =>
+  tinycolor(value)
+    .setAlpha(0.15)
+    .toRgbString(),
+);
 
 // BASE STYLES
 const baseStyle = css({
@@ -92,8 +99,7 @@ const getDefaultStyle = (intent: Intent, enabled: boolean): SerializedStyles =>
     },
     enabled && {
       ':hover': {
-        borderColor: hoverColors[intent],
-        color: hoverColors[intent],
+        backgroundColor: outlineHoverColors[intent],
       },
     },
   );
@@ -106,8 +112,8 @@ const getPrimaryStyle = (intent: Intent, enabled: boolean): SerializedStyles =>
     },
     enabled && {
       ':hover': {
-        backgroundColor: hoverColors[intent],
-        borderColor: hoverColors[intent],
+        backgroundColor: primaryHoverColors[intent],
+        borderColor: primaryHoverColors[intent],
       },
     },
   );
@@ -122,8 +128,9 @@ const getInvertedStyle = (intent: Intent, enabled: boolean): SerializedStyles =>
         },
         enabled && {
           ':hover': {
-            borderColor: 'white',
-            color: 'white',
+            backgroundColor: tinycolor(tokens.color.primary.white.value.hex)
+              .setAlpha(0.15)
+              .toRgbString(),
           },
         },
       )
@@ -162,5 +169,5 @@ export {
   getDisabledStyle,
   getIconSize,
   getSize,
-  hoverColors,
+  primaryHoverColors,
 };
