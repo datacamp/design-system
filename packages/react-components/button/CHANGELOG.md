@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [6.0.0-beta.25](https://github.com/datacamp/design-system/compare/@datacamp/waffles-button@6.0.0-beta.24...@datacamp/waffles-button@6.0.0-beta.25) (2020-09-23)
+
+
+### Bug Fixes
+
+* remove unnecessary z-index ([0825540](https://github.com/datacamp/design-system/commit/0825540))
+
+
+### Features
+
+* update hover colour on scss buttons ([a8f6f46](https://github.com/datacamp/design-system/commit/a8f6f46))
+* update hover colours to reflect new design ([ce6d512](https://github.com/datacamp/design-system/commit/ce6d512))
+
+
+
+
+
 # [6.0.0-beta.24](https://github.com/datacamp/design-system/compare/@datacamp/waffles-button@6.0.0-beta.23...@datacamp/waffles-button@6.0.0-beta.24) (2020-09-22)
 
 **Note:** Version bump only for package @datacamp/waffles-button
