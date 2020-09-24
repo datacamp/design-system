@@ -7,17 +7,17 @@
 }
 
 .minimal-tabs {
-  border-bottom: 1px solid $dc-grey-100;
+  border-bottom: 1px solid $dc-beige-400;
   display: flex;
   position: relative;
 }
 
 .minimal-tab__link {
   border: 0;
-  color: $dc-navy-text;
+  color: rgba($dc-navy-text,0.6);
   display: block;
   font-size: $dc-font-size-small;
-  font-weight: 300;
+  font-weight: $dc-font-weight-regular;
   padding-bottom: 8px;
   padding-top: 10px;
   text-transform: uppercase;
@@ -51,7 +51,7 @@
 
   &.active {
     &::after {
-      background-color: $dc-green;
+      background-color: $dc-navy;
       border-radius: 2px;
       content: '';
       display: block;
@@ -60,6 +60,7 @@
 
     .minimal-tab__link {
       font-weight: $dc-font-weight-bold;
+      color: $dc-navy-text;
     }
   }
 }
@@ -68,7 +69,7 @@
   background-color: $dc-beige-100;
   border: solid 1px $dc-beige-200;
   border-radius: $dc-border-radius;
-  color: $dc-green-text;
+  color: $dc-blue-text;
   display: inline-block;
   font-size: $dc-font-size-micro;
   margin-left: 1px;
@@ -81,7 +82,7 @@
 .minimal-tabs__action {
   align-items: center;
   border: 0;
-  color: $dc-navy-text;
+  color: $dc-blue-text;
   display: flex;
   font-weight: $dc-font-weight-bold;
   margin-top: -1px;
@@ -99,7 +100,7 @@
   &:hover,
   &:focus {
     border: 0;
-    color: $dc-green;
+    color: $dc-blue-text;
   }
 }
 
