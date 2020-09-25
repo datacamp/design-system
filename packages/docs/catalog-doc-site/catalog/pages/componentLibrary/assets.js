@@ -110,19 +110,20 @@ export default () => {
             <table>
               <tr>
                 <td>
-                  <CodeBlock>{`<DatacampLogo logomarkColor="#03EF62" />`}</CodeBlock>
+                  <CodeBlock>{`<DatacampLogo height={36} logomarkColor="#03EF62" />`}</CodeBlock>
                 </td>
                 <td
                   css={{
                     backgroundColor: tokens.color.neutral.grey400.value.hex,
                   }}
                 >
-                  <DatacampLogo logomarkColor="#03EF62" />
+                  <DatacampLogo height={36} logomarkColor="#03EF62" />
                 </td>
               </tr>
               <tr>
                 <td>
                   <CodeBlock>{`<DatacampLogo
+  height={36}
   logomarkColor="#03EF62"
   showWordmark
   wordmarkColor="#05192D"
@@ -134,6 +135,7 @@ export default () => {
                   }}
                 >
                   <DatacampLogo
+                    height={36}
                     logomarkColor="#03EF62"
                     showWordmark
                     wordmarkColor="#05192D"
