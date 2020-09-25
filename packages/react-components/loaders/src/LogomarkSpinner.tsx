@@ -35,7 +35,7 @@ const WordmarkSpinner = ({
     <g fill="none" fillRule="evenodd" stroke="none" strokeWidth="1">
       <polyline
         css={css({
-          animation: `${dash} 2s infinite cubic-bezier(0.65, 0, 0.35, 1) reverse`,
+          animation: `${dash} 2s infinite cubic-bezier(0.65, 0, 0.55, 1) reverse`,
           strokeDasharray: '170%',
           strokeDashoffset: 0,
         })}
