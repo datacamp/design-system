@@ -12,8 +12,8 @@ exports[`LogomarkSpinner renders with a custom color 1`] = `
 }
 
 .emotion-0 {
-  -webkit-animation: animation-0 2s infinite cubic-bezier(0.65,0,0.35,1) reverse;
-  animation: animation-0 2s infinite cubic-bezier(0.65,0,0.35,1) reverse;
+  -webkit-animation: animation-0 2s infinite cubic-bezier(0.65,0,0.55,1) reverse;
+  animation: animation-0 2s infinite cubic-bezier(0.65,0,0.55,1) reverse;
   stroke-dasharray: 170%;
   stroke-dashoffset: 0;
 }
@@ -59,8 +59,8 @@ exports[`LogomarkSpinner renders with a custom size 1`] = `
 }
 
 .emotion-0 {
-  -webkit-animation: animation-0 2s infinite cubic-bezier(0.65,0,0.35,1) reverse;
-  animation: animation-0 2s infinite cubic-bezier(0.65,0,0.35,1) reverse;
+  -webkit-animation: animation-0 2s infinite cubic-bezier(0.65,0,0.55,1) reverse;
+  animation: animation-0 2s infinite cubic-bezier(0.65,0,0.55,1) reverse;
   stroke-dasharray: 170%;
   stroke-dashoffset: 0;
 }
@@ -106,8 +106,8 @@ exports[`LogomarkSpinner renders with default props 1`] = `
 }
 
 .emotion-0 {
-  -webkit-animation: animation-0 2s infinite cubic-bezier(0.65,0,0.35,1) reverse;
-  animation: animation-0 2s infinite cubic-bezier(0.65,0,0.35,1) reverse;
+  -webkit-animation: animation-0 2s infinite cubic-bezier(0.65,0,0.55,1) reverse;
+  animation: animation-0 2s infinite cubic-bezier(0.65,0,0.55,1) reverse;
   stroke-dasharray: 170%;
   stroke-dashoffset: 0;
 }
