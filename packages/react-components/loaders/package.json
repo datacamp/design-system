@@ -1,0 +1,58 @@
+{
+  "name": "@datacamp/waffles-loaders",
+  "version": "0.0.1",
+  "description": "A collection of loading placeholders",
+  "keywords": ["button"],
+  "homepage": "https://github.com/datacamp/design-system/tree/master/packages/loaders/README.md",
+  "license": "UNLICENSED",
+  "main": "lib/index.js",
+  "module": "es/index.js",
+  "types": "types/index.d.ts",
+  "files": ["es", "lib", "types"],
+  "scripts": {
+    "build:cjs": "BABEL_ENV=cjs babel src --extensions '.tsx','.ts' --out-dir lib --ignore \"src/**/*.spec.tsx\",\"src/**/*.spec.ts\" --config-file ./babel7.config.js",
+    "build:es": "BABEL_ENV=es babel src --extensions '.tsx','.ts' --out-dir es --ignore \"src/**/*.spec.tsx\",\"src/**/*.spec.ts\" --config-file ./babel7.config.js",
+    "build:legacy": "copyfiles -u 1 legacy/*.scss lib",
+    "build:metadata": "react-docgen src --exclude \"/^.+spec.+$/\" -x tsx -o componentMetadata.json --resolver findAllComponentDefinitions",
+    "clean": "rm -rf lib es types componentMetadata.json",
+    "build:types": "tsc --rootDir src --declarationDir types --emitDeclarationOnly",
+    "build": "yarn build:types && yarn build:cjs && yarn build:es && yarn build:legacy && yarn build:metadata",
+    "prepare": " yarn clean && yarn build",
+    "test": "jest",
+    "type-check": "tsc --noEmit",
+    "watch": "yarn build:es --watch",
+    "stryker": "stryker run"
+  },
+  "devDependencies": {
+    "@babel/cli": "7.7.7",
+    "@babel/core": "7.11.0",
+    "@datacamp/waffles-axe-render": "^1.2.4-beta.0",
+    "@datacamp/waffles-babel-preset": "^2.0.0-beta.0",
+    "@datacamp/waffles-tsconfig": "^1.1.11",
+    "@emotion/core": "^10.0.17",
+    "@stryker-mutator/core": "^3.3.1",
+    "@stryker-mutator/html-reporter": "^3.1.0",
+    "@stryker-mutator/typescript": "^3.3.1",
+    "@testing-library/jest-dom": "5.11.3",
+    "@testing-library/react": "9.4.1",
+    "babel-jest": "26.2.2",
+    "jest": "26.1.0",
+    "jest-emotion": "10.0.32",
+    "react": "16.8.6",
+    "react-docgen": "5.3.0",
+    "react-dom": "16.8.6"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.11.0",
+    "@datacamp/waffles-tokens": "^1.0.0-beta.11"
+  },
+  "peerDependencies": {
+    "@emotion/core": "^10.0.17",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "bugs": {
+    "url": "https://github.com/datacamp/design-system/issues"
+  },
+  "gitHead": "033030174dbf18623ccd9c0174108c41a9e588a1"
+}
