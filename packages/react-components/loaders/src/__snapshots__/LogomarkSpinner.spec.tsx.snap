@@ -1,0 +1,142 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LogomarkSpinner renders with a custom color 1`] = `
+@keyframes animation-0 {
+  0% {
+    stroke-dashoffset: 340%;
+  }
+
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
+.emotion-0 {
+  -webkit-animation: animation-0 2s infinite cubic-bezier(0.65,0,0.35,1) reverse;
+  animation: animation-0 2s infinite cubic-bezier(0.65,0,0.35,1) reverse;
+  stroke-dasharray: 170%;
+  stroke-dashoffset: 0;
+}
+
+<svg
+  height="100px"
+  version="1.1"
+  viewBox="0 0 225 225"
+  width="100px"
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+>
+  <title>
+    Loading
+  </title>
+  <g
+    fill="none"
+    fill-rule="evenodd"
+    stroke="none"
+    stroke-width="1"
+  >
+    <polyline
+      class="emotion-0"
+      points="158.573452 177.08 112.038068 150.488473 112.038068 73.7151963 66 48 66 138.609263 157.803171 87.5483322"
+      stroke="red"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="12"
+    />
+  </g>
+</svg>
+`;
+
+exports[`LogomarkSpinner renders with a custom size 1`] = `
+@keyframes animation-0 {
+  0% {
+    stroke-dashoffset: 340%;
+  }
+
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
+.emotion-0 {
+  -webkit-animation: animation-0 2s infinite cubic-bezier(0.65,0,0.35,1) reverse;
+  animation: animation-0 2s infinite cubic-bezier(0.65,0,0.35,1) reverse;
+  stroke-dasharray: 170%;
+  stroke-dashoffset: 0;
+}
+
+<svg
+  height="200px"
+  version="1.1"
+  viewBox="0 0 225 225"
+  width="200px"
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+>
+  <title>
+    Loading
+  </title>
+  <g
+    fill="none"
+    fill-rule="evenodd"
+    stroke="none"
+    stroke-width="1"
+  >
+    <polyline
+      class="emotion-0"
+      points="158.573452 177.08 112.038068 150.488473 112.038068 73.7151963 66 48 66 138.609263 157.803171 87.5483322"
+      stroke="#05192d"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="12"
+    />
+  </g>
+</svg>
+`;
+
+exports[`LogomarkSpinner renders with default props 1`] = `
+@keyframes animation-0 {
+  0% {
+    stroke-dashoffset: 340%;
+  }
+
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
+.emotion-0 {
+  -webkit-animation: animation-0 2s infinite cubic-bezier(0.65,0,0.35,1) reverse;
+  animation: animation-0 2s infinite cubic-bezier(0.65,0,0.35,1) reverse;
+  stroke-dasharray: 170%;
+  stroke-dashoffset: 0;
+}
+
+<svg
+  height="100px"
+  version="1.1"
+  viewBox="0 0 225 225"
+  width="100px"
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+>
+  <title>
+    Loading
+  </title>
+  <g
+    fill="none"
+    fill-rule="evenodd"
+    stroke="none"
+    stroke-width="1"
+  >
+    <polyline
+      class="emotion-0"
+      points="158.573452 177.08 112.038068 150.488473 112.038068 73.7151963 66 48 66 138.609263 157.803171 87.5483322"
+      stroke="#05192d"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="12"
+    />
+  </g>
+</svg>
+`;
