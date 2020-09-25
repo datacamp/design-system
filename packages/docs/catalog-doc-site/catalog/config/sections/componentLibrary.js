@@ -51,6 +51,13 @@ export default {
     },
     {
       content: pageLoader(() =>
+        import('../../pages/componentLibrary/loaders.js'),
+      ),
+      path: '/component-library/loaders',
+      title: 'Loaders',
+    },
+    {
+      content: pageLoader(() =>
         import('../../pages/componentLibrary/markdown.js'),
       ),
       path: '/component-library/markdown',
