@@ -332,6 +332,15 @@ export default () => {
                   </li>
                 </ul>
               </li>
+              <li>
+                <code>@datacamp/waffles-loaders</code>
+                <ul>
+                  <li>
+                    This is a new package that contains a spinner based on the
+                    new logo. Check the documentation for more details.
+                  </li>
+                </ul>
+              </li>
             </ul>
           </div>
         </section>
