@@ -60,10 +60,12 @@ storiesOf('waffles-asset-components', module)
   })
   .add('DatacampLogo', () => {
     const logomarkColor = text('logomarkColor', '#03EF62');
+    const height = text('height', '36');
     return (
       <>
-        <DatacampLogo logomarkColor={logomarkColor} />
+        <DatacampLogo height={height} logomarkColor={logomarkColor} />
         <DatacampLogo
+          height={height}
           logomarkColor={logomarkColor}
           showWordmark
           wordmarkColor={text('wordmarkColor', '#05192D')}
