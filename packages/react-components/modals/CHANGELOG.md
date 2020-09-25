@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [6.0.0-beta.25](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/modals/compare/@datacamp/waffles-modals@6.0.0-beta.24...@datacamp/waffles-modals@6.0.0-beta.25) (2020-09-23)
+
+
+### Features
+
+* update button hovers in modals ([a5a4399](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/modals/commit/a5a4399))
+
+
+
+
+
 # [6.0.0-beta.24](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/modals/compare/@datacamp/waffles-modals@6.0.0-beta.23...@datacamp/waffles-modals@6.0.0-beta.24) (2020-09-22)
 
 **Note:** Version bump only for package @datacamp/waffles-modals

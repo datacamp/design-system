@@ -62,8 +62,7 @@ exports[`CompactButtonGroup renders the buttons next to each other 1`] = `
 }
 
 .emotion-1:hover {
-  border-color: #213147;
-  color: #213147;
+  background-color: rgba(5,25,45,0.15);
 }
 
 .emotion-1:active {
@@ -74,10 +73,6 @@ exports[`CompactButtonGroup renders the buttons next to each other 1`] = `
 
 .emotion-1:focus {
   box-shadow: none;
-}
-
-.emotion-1:hover {
-  z-index: 1;
 }
 
 .emotion-0 {
@@ -149,8 +144,7 @@ exports[`CompactButtonGroup renders the buttons next to each other 1`] = `
 }
 
 .emotion-3:hover {
-  border-color: #213147;
-  color: #213147;
+  background-color: rgba(5,25,45,0.15);
 }
 
 .emotion-3:active {
@@ -161,10 +155,6 @@ exports[`CompactButtonGroup renders the buttons next to each other 1`] = `
 
 .emotion-3:focus {
   box-shadow: none;
-}
-
-.emotion-3:hover {
-  z-index: 1;
 }
 
 .emotion-5 {
@@ -221,8 +211,7 @@ exports[`CompactButtonGroup renders the buttons next to each other 1`] = `
 }
 
 .emotion-5:hover {
-  border-color: #213147;
-  color: #213147;
+  background-color: rgba(5,25,45,0.15);
 }
 
 .emotion-5:active {
@@ -233,10 +222,6 @@ exports[`CompactButtonGroup renders the buttons next to each other 1`] = `
 
 .emotion-5:focus {
   box-shadow: none;
-}
-
-.emotion-5:hover {
-  z-index: 1;
 }
 
 <div
