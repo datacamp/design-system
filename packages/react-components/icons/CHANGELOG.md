@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0-beta.1](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/icons/compare/@datacamp/waffles-icons@2.0.0-beta.0...@datacamp/waffles-icons@2.0.0-beta.1) (2020-09-29)
+
+
+### Features
+
+* alpa icons ([492c9a3](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/icons/commit/492c9a3))
+
+
+
+
+
 # [2.0.0-beta.0](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/icons/compare/@datacamp/waffles-icons@1.10.10-beta.0...@datacamp/waffles-icons@2.0.0-beta.0) (2020-09-09)
 
 

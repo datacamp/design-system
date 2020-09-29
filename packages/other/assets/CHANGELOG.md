@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0-beta.3](https://github.com/datacamp/design-system/compare/@datacamp/waffles-assets@2.0.0-beta.2...@datacamp/waffles-assets@2.0.0-beta.3) (2020-09-29)
+
+
+### Bug Fixes
+
+* remove margins from logo assets ([40adbd5](https://github.com/datacamp/design-system/commit/40adbd5))
+
+
+
+
+
 # [2.0.0-beta.2](https://github.com/datacamp/design-system/compare/@datacamp/waffles-assets@2.0.0-beta.1...@datacamp/waffles-assets@2.0.0-beta.2) (2020-09-16)
 
 

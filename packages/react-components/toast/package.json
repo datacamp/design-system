@@ -1,6 +1,6 @@
 {
   "name": "@datacamp/waffles-toast",
-  "version": "2.0.0-beta.23",
+  "version": "2.0.0-beta.24",
   "description": "The Waffles Toast",
   "keywords": [
     "toast"
@@ -34,7 +34,7 @@
     "@babel/core": "7.11.0",
     "@datacamp/waffles-axe-render": "^1.2.4-beta.0",
     "@datacamp/waffles-babel-preset": "^2.0.0-beta.0",
-    "@datacamp/waffles-icons": "^2.0.0-beta.0",
+    "@datacamp/waffles-icons": "^2.0.0-beta.1",
     "@datacamp/waffles-tsconfig": "^1.1.11",
     "@emotion/core": "10.0.17",
     "@stryker-mutator/core": "3.3.1",

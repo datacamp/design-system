@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0-beta.38](https://github.com/datacamp/design-system/compare/@datacamp/waffles-catalog-doc-site@2.0.0-beta.37...@datacamp/waffles-catalog-doc-site@2.0.0-beta.38) (2020-09-29)
+
+
+### Features
+
+* add docs for loaders ([04dd05f](https://github.com/datacamp/design-system/commit/04dd05f))
+* mention loaders in the brand refresh article ([a0680ba](https://github.com/datacamp/design-system/commit/a0680ba))
+* update docs to reflect height in DatacampLogo ([0887cf5](https://github.com/datacamp/design-system/commit/0887cf5))
+
+
+
+
+
 # [2.0.0-beta.37](https://github.com/datacamp/design-system/compare/@datacamp/waffles-catalog-doc-site@2.0.0-beta.36...@datacamp/waffles-catalog-doc-site@2.0.0-beta.37) (2020-09-23)
 
 **Note:** Version bump only for package @datacamp/waffles-catalog-doc-site

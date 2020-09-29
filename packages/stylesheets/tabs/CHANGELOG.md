@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.0.0-beta.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-tabs@0.2.0-beta.0...@datacamp/waffles-tabs@1.0.0-beta.0) (2020-09-29)
+
+
+### Features
+
+* update tabs stylesheet to reflect the new branding ([3c05730](https://github.com/datacamp/design-system/commit/3c05730))
+
+
+### BREAKING CHANGES
+
+* tabs now use new colours etc.
+
+
+
+
+
 # [0.2.0-beta.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-tabs@0.1.20...@datacamp/waffles-tabs@0.2.0-beta.0) (2020-07-28)
 
 

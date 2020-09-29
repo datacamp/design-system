@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0-beta.10](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/card/compare/@datacamp/waffles-asset-components@2.0.0-beta.9...@datacamp/waffles-asset-components@2.0.0-beta.10) (2020-09-29)
+
+
+### Bug Fixes
+
+* remove margins from logo assets ([40adbd5](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/card/commit/40adbd5))
+
+
+### Features
+
+* allow resizing of DatacampLogo via height ([403af64](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/card/commit/403af64))
+
+
+
+
+
 # [2.0.0-beta.9](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/card/compare/@datacamp/waffles-asset-components@2.0.0-beta.8...@datacamp/waffles-asset-components@2.0.0-beta.9) (2020-09-16)
 
 

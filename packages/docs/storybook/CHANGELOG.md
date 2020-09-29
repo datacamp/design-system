@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0-beta.32](https://github.com/datacamp/design-system/compare/@datacamp/waffles-storybook@2.0.0-beta.31...@datacamp/waffles-storybook@2.0.0-beta.32) (2020-09-29)
+
+
+### Features
+
+* add height knob to DatacampLogo stories ([d2e27ff](https://github.com/datacamp/design-system/commit/d2e27ff))
+* add stories for LogomarkSpinner ([4214fd6](https://github.com/datacamp/design-system/commit/4214fd6))
+
+
+
+
+
 # [2.0.0-beta.31](https://github.com/datacamp/design-system/compare/@datacamp/waffles-storybook@2.0.0-beta.30...@datacamp/waffles-storybook@2.0.0-beta.31) (2020-09-23)
 
 **Note:** Version bump only for package @datacamp/waffles-storybook
