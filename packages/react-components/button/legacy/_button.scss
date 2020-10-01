@@ -296,20 +296,24 @@ $_buttons-google-plus-hover: #e57062;
 // ----- White ----- //
 
 .dc-btn--white {
-  @include btn-variant($background: $dc-white, $color: $dc-navy-text, $color-hover: $dc-green-text);
+  @include btn-variant($background: $dc-white, $color: $dc-navy-text, $color-hover: $dc-purple-text);
   transition: all $dc-transition;
 
   @include afh {
     border-color: $dc-white;
+    
+    .dc-icon {
+      fill: $dc-purple-text;
+    }
   }
 
   &:active,
   &:focus {
-    border: 1px solid $dc-green-text;
+    border: 1px solid $dc-purple-text;
   }
 
   .dc-icon {
-    transition: transform $dc-transition;
+    transition: all $dc-transition;
   }
 }
 
