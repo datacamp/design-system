@@ -108,6 +108,7 @@ export default () => {
   const [fave, setFave] = React.useState("");
   const [loveLevel, setLoveLevel] = React.useState("");
   const [description, setDescription] = React.useState("");
+  const [featureWishlist, setFeatureWishlist] = React.useState([]);
 
   return (
     <form>
@@ -139,6 +140,22 @@ export default () => {
         <Radio value="siblings">My Siblings</Radio>
         <Radio value="children">My Children</Radio>
       </RadioList>
+      <CheckboxList
+        label="What features should waffles have"
+        name="feature-wishlist"
+        onChange={setFeatureWishlist}
+        value={featureWishlist}
+      >
+        <Checkbox value="basic">
+          Basic features
+        </Checkbox>
+        <Checkbox value="wrap">
+          Wrapping text when the option takes quite a few words to clearly explain
+        </Checkbox>
+        <Checkbox value="all" disabled>
+          All features
+        </Checkbox>
+      </CheckboxList>
       <TextArea
         name="description"
         label="Feelings"
