@@ -13,6 +13,10 @@ export interface RadioProps {
    */
   children: string;
   /**
+   * Additionaly css className to add to the rendered element
+   */
+  className?: string;
+  /**
    * When true this individual option will be disabled. This is overriden when
    * disabled is set on RadioList itself.
    */
@@ -50,6 +54,7 @@ const Radio = ({
   htmlRequired,
   value,
   children,
+  className,
 }: RadioProps): ReactElement => {
   return (
     <RadioListContext.Consumer>
@@ -68,7 +73,7 @@ const Radio = ({
         };
 
         return (
-          <label css={divStyle} htmlFor={value}>
+          <label className={className} css={divStyle} htmlFor={value}>
             <input
               checked={contextValue.value === value}
               css={css(
