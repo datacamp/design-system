@@ -4,6 +4,7 @@ import Input from './Input';
 import Label from './Label';
 import RadioList from './RadioList/index';
 import Radio from './RadioList/Radio';
+import RadioIcon from './RadioList/RadioIcon';
 import Select from './Select';
 import SelectOption from './Select/Option';
 import TextArea from './TextArea';
@@ -18,6 +19,7 @@ describe('package index', () => {
       Input,
       Label,
       Radio,
+      RadioIcon,
       RadioList,
       Select,
       SelectOption,
