@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [3.0.0-beta.25](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/form-elements/compare/@datacamp/waffles-form-elements@3.0.0-beta.24...@datacamp/waffles-form-elements@3.0.0-beta.25) (2020-10-02)
+
+
+### Features
+
+* add className to Radio ([0307f8d](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/form-elements/commit/0307f8d))
+* add htmlRequired to form elements ([f88f89f](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/form-elements/commit/f88f89f))
+* expose RadioIcon for custom elements ([63c2292](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/form-elements/commit/63c2292))
+
+
+
+
+
 # [3.0.0-beta.24](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/form-elements/compare/@datacamp/waffles-form-elements@3.0.0-beta.23...@datacamp/waffles-form-elements@3.0.0-beta.24) (2020-09-29)
 
 **Note:** Version bump only for package @datacamp/waffles-form-elements

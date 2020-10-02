@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0-beta.11](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/card/compare/@datacamp/waffles-asset-components@2.0.0-beta.10...@datacamp/waffles-asset-components@2.0.0-beta.11) (2020-10-02)
+
+
+### Features
+
+* add more technology name alternatives to TechLogo ([6e4d9f1](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/card/commit/6e4d9f1))
+
+
+
+
+
 # [2.0.0-beta.10](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/card/compare/@datacamp/waffles-asset-components@2.0.0-beta.9...@datacamp/waffles-asset-components@2.0.0-beta.10) (2020-09-29)
 
 
