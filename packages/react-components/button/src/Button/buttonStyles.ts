@@ -158,6 +158,10 @@ const getDisabledStyle = (
       backgroundColor: baseColors[intent],
       borderColor: baseColors[intent],
     },
+    appearance === 'inverted' &&
+      intent === 'neutral' && {
+        borderColor: 'white',
+      },
   );
 
 export {
