@@ -43,6 +43,11 @@ interface InputProps {
    */
   errorMessage?: string;
   /**
+   * Sets the html attribute "required". Has no visual impact. Use the
+   * "required" prop to set visuals if required.
+   */
+  htmlRequired?: boolean;
+  /**
    * When an icon is provided it will render inside the input. This can only be
    * an component from the @datacamp/waffles-icons package.
    */
@@ -135,6 +140,7 @@ const InternalInput = ({
   disabled = false,
   errorMessage,
   id,
+  htmlRequired,
   icon,
   label,
   maxLength,
@@ -202,6 +208,7 @@ const InternalInput = ({
         onChange={handleChange}
         placeholder={placeholder}
         ref={innerRef}
+        required={htmlRequired}
         type={type}
         value={value}
         {...parsedDataAttributes}

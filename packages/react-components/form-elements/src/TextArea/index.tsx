@@ -35,6 +35,11 @@ interface InputProps {
    */
   errorMessage?: string;
   /**
+   * Sets the html attribute "required". Has no visual impact. Use the
+   * "required" prop to set visuals if required.
+   */
+  htmlRequired?: boolean;
+  /**
    * Sets the html id on the rendered input element.
    */
   id?: string;
@@ -108,6 +113,7 @@ const InternalInput = ({
   value,
   innerRef,
   rows = 2,
+  htmlRequired,
 }: InputProps & { innerRef?: Ref<HTMLTextAreaElement> }): ReactElement => {
   const parsedDataAttributes = computeDataAttributes(dataAttributes);
 
@@ -141,6 +147,7 @@ const InternalInput = ({
       onChange={handleChange}
       placeholder={placeholder}
       ref={innerRef}
+      required={htmlRequired}
       rows={rows}
       value={value}
       {...parsedDataAttributes}

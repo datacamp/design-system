@@ -18,6 +18,11 @@ export interface RadioProps {
    */
   disabled?: boolean;
   /**
+   * Sets the html attribute "required". Has no visual impact. Use the
+   * "required" prop to set visuals if required.
+   */
+  htmlRequired?: boolean;
+  /**
    * The value of this option. If this matches the value provided to the parent
    * `RadioList`, this option will be selected.
    */
@@ -42,6 +47,7 @@ const divStyle = css({
  */
 const Radio = ({
   disabled = false,
+  htmlRequired,
   value,
   children,
 }: RadioProps): ReactElement => {
@@ -81,6 +87,7 @@ const Radio = ({
               id={value}
               name={contextValue.name}
               onChange={handleChange}
+              required={htmlRequired}
               type="radio"
             />
             <RadioIcon
