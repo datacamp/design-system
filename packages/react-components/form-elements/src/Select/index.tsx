@@ -44,6 +44,11 @@ interface SelectProps {
    */
   errorMessage?: string;
   /**
+   * Sets the html attribute "required". Has no visual impact. Use the
+   * "required" prop to set visuals if required.
+   */
+  htmlRequired?: boolean;
+  /**
    * Sets the html id on the rendered select element.
    */
   id?: string;
@@ -141,6 +146,7 @@ class Select extends Component<
       value,
       description,
       id,
+      htmlRequired,
     } = this.props;
 
     const { focus } = this.state;
@@ -168,6 +174,7 @@ class Select extends Component<
           onChange={this.handleChange}
           onFocus={this.setFocus}
           ref={innerRef}
+          required={htmlRequired}
           value={value}
           {...parsedDataAttributes}
         >
