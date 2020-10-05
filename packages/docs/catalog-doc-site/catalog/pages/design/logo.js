@@ -1,4 +1,5 @@
 /* @jsx jsx */
+import { DatacampLogo } from '@datacamp/waffles-asset-components';
 import { DownloadIcon } from '@datacamp/waffles-icons';
 import { css, jsx } from '@emotion/core';
 import { Page } from 'catalog';
@@ -8,6 +9,7 @@ import CustomHeader from '../../components/CustomHeader';
 import businessInverted from '../../download/business-inverted.zip';
 import businessMonochrome from '../../download/business-monochrome.zip';
 import businessRegular from '../../download/business-regular.zip';
+import favicons from '../../download/favicon.zip';
 import iconMonochrome from '../../download/icon-monochrome.zip';
 import icon from '../../download/icon.zip';
 import Inverted from '../../download/Inverted.zip';
@@ -42,11 +44,7 @@ export default () => {
               To be used in any full display mockups where space allows. This is
               the preferable display.
             </p>
-            <a
-              className="dc-btn dc-btn--inline dc-u-mt-8"
-              download="Regular.zip"
-              href={Regular}
-            >
+            <a className="dc-u-mt-8" download="Regular.zip" href={Regular}>
               Download for print & web
               <DownloadIcon css={downloadIconCss} size={downloadIconSize} />
             </a>
@@ -69,11 +67,7 @@ export default () => {
               To be used in any full display mockups where space allows. This is
               the preferable display if the background is too dark.
             </p>
-            <a
-              className="dc-btn dc-btn--inline dc-u-mt-8"
-              download="Inverted.zip"
-              href={Inverted}
-            >
+            <a className="dc-u-mt-8" download="Inverted.zip" href={Inverted}>
               Download for print & web
               <DownloadIcon css={downloadIconCss} size={downloadIconSize} />
             </a>
@@ -97,7 +91,7 @@ export default () => {
               watermark.
             </p>
             <a
-              className="dc-btn dc-btn--inline dc-u-mt-8"
+              className="dc-u-mt-8"
               download="Monochrome.zip"
               href={Monochrome}
             >
@@ -122,11 +116,7 @@ export default () => {
               To be used as an avatar or watermark, also used for Enterprise
               plans.
             </p>
-            <a
-              className="dc-btn dc-btn--inline dc-u-mt-8"
-              download="icon.zip"
-              href={icon}
-            >
+            <a className="dc-u-mt-8" download="icon.zip" href={icon}>
               Download for web
               <DownloadIcon css={downloadIconCss} size={downloadIconSize} />
             </a>
@@ -149,7 +139,7 @@ export default () => {
               To be used as an avatar or watermark.
             </p>
             <a
-              className="dc-btn dc-btn--inline dc-u-mt-8"
+              className="dc-u-mt-8"
               download="icon-monochrome.zip"
               href={iconMonochrome}
             >
@@ -159,13 +149,24 @@ export default () => {
           </div>
           <div
             className="dc-card"
-            css={{
-              flex: '1 1 0',
-              marginLeft: 16,
-              padding: 24,
-              visibility: 'hidden',
-            }}
-          />
+            css={{ flex: '1 1 0', marginLeft: 16, padding: 24 }}
+          >
+            <h5 className="dc-u-m-none">Favicon</h5>
+            <div className="dc-card dc-card--bordered dc-u-p-24 dc-u-mv-16 dc-u-ta-center">
+              <DatacampLogo />
+            </div>
+            <p className="dc-u-m-none" css={{ minHeight: '48px' }}>
+              To be used in applications.
+            </p>
+            <a
+              className="dc-u-mt-8"
+              download="icon-monochrome.zip"
+              href={favicons}
+            >
+              Download favicons
+              <DownloadIcon css={downloadIconCss} size={downloadIconSize} />
+            </a>
+          </div>
         </section>
 
         <h4 className="dc-u-mt-32 dc-u-mb-16">Business Logo&apos;s</h4>
@@ -182,7 +183,7 @@ export default () => {
               />
             </div>
             <a
-              className="dc-btn dc-btn--inline dc-u-mt-8"
+              className="dc-u-mt-8"
               download="business-regular.zip"
               href={businessRegular}
             >
@@ -205,7 +206,7 @@ export default () => {
               />
             </div>
             <a
-              className="dc-btn dc-btn--inline dc-u-mt-8"
+              className="dc-u-mt-8"
               download="business-inverted.zip"
               href={businessInverted}
             >
@@ -228,7 +229,7 @@ export default () => {
               />
             </div>
             <a
-              className="dc-btn dc-btn--inline dc-u-mt-8"
+              className="dc-u-mt-8"
               download="business-monochrome.zip"
               href={businessMonochrome}
             >
