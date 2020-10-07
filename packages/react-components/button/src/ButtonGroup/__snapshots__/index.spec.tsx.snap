@@ -62,6 +62,8 @@ exports[`ButtonGroup renders the buttons or CompactButtonGroups with 16px spaces
 
 .emotion-1:hover {
   background-color: rgba(5,25,45,0.15);
+  border-color: #05192d;
+  color: #05192d;
 }
 
 .emotion-0 {
@@ -132,6 +134,8 @@ exports[`ButtonGroup renders the buttons or CompactButtonGroups with 16px spaces
 
 .emotion-3:hover {
   background-color: rgba(5,25,45,0.15);
+  border-color: #05192d;
+  color: #05192d;
 }
 
 .emotion-10 {
@@ -197,6 +201,8 @@ exports[`ButtonGroup renders the buttons or CompactButtonGroups with 16px spaces
 
 .emotion-7:hover {
   background-color: rgba(5,25,45,0.15);
+  border-color: #05192d;
+  color: #05192d;
 }
 
 .emotion-7:active {
@@ -264,6 +270,8 @@ exports[`ButtonGroup renders the buttons or CompactButtonGroups with 16px spaces
 
 .emotion-9:hover {
   background-color: rgba(5,25,45,0.15);
+  border-color: #05192d;
+  color: #05192d;
 }
 
 .emotion-9:active {
@@ -398,6 +406,8 @@ exports[`ButtonGroup renders the small buttons or CompactButtonGroups with 8px s
 
 .emotion-1:hover {
   background-color: rgba(5,25,45,0.15);
+  border-color: #05192d;
+  color: #05192d;
 }
 
 .emotion-7 {
@@ -454,6 +464,8 @@ exports[`ButtonGroup renders the small buttons or CompactButtonGroups with 8px s
 
 .emotion-7:hover {
   background-color: rgba(5,25,45,0.15);
+  border-color: #05192d;
+  color: #05192d;
 }
 
 .emotion-7:active {
@@ -521,6 +533,8 @@ exports[`ButtonGroup renders the small buttons or CompactButtonGroups with 8px s
 
 .emotion-9:hover {
   background-color: rgba(5,25,45,0.15);
+  border-color: #05192d;
+  color: #05192d;
 }
 
 .emotion-9:active {
@@ -601,6 +615,8 @@ exports[`ButtonGroup renders the small buttons or CompactButtonGroups with 8px s
 
 .emotion-3:hover {
   background-color: rgba(5,25,45,0.15);
+  border-color: #05192d;
+  color: #05192d;
 }
 
 .emotion-10 {

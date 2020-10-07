@@ -68,6 +68,8 @@ exports[`<Button /> snapshots renders a button with appearance default, intent d
 
 .emotion-1:hover {
   background-color: rgba(255,84,0,0.15);
+  border-color: #ff5400;
+  color: #ff5400;
 }
 
 <button
@@ -446,6 +448,8 @@ exports[`<Button /> snapshots renders a button with appearance default, intent d
 
 .emotion-1:hover {
   background-color: rgba(255,84,0,0.15);
+  border-color: #ff5400;
+  color: #ff5400;
 }
 
 <button
@@ -824,6 +828,8 @@ exports[`<Button /> snapshots renders a button with appearance default, intent d
 
 .emotion-1:hover {
   background-color: rgba(255,84,0,0.15);
+  border-color: #ff5400;
+  color: #ff5400;
 }
 
 <button
@@ -1187,6 +1193,8 @@ exports[`<Button /> snapshots renders a button with appearance default, intent n
 
 .emotion-1:hover {
   background-color: rgba(5,25,45,0.15);
+  border-color: #05192d;
+  color: #05192d;
 }
 
 .emotion-0 {
@@ -1565,6 +1573,8 @@ exports[`<Button /> snapshots renders a button with appearance default, intent n
 
 .emotion-1:hover {
   background-color: rgba(5,25,45,0.15);
+  border-color: #05192d;
+  color: #05192d;
 }
 
 .emotion-0 {
@@ -1943,6 +1953,8 @@ exports[`<Button /> snapshots renders a button with appearance default, intent n
 
 .emotion-1:hover {
   background-color: rgba(5,25,45,0.15);
+  border-color: #05192d;
+  color: #05192d;
 }
 
 .emotion-0 {
@@ -2336,6 +2348,8 @@ exports[`<Button /> snapshots renders a button with appearance default, intent s
 
 .emotion-1:hover {
   background-color: rgba(3,239,98,0.15);
+  border-color: #03ef62;
+  color: #03ef62;
 }
 
 <button
@@ -2714,6 +2728,8 @@ exports[`<Button /> snapshots renders a button with appearance default, intent s
 
 .emotion-1:hover {
   background-color: rgba(3,239,98,0.15);
+  border-color: #03ef62;
+  color: #03ef62;
 }
 
 <button
@@ -3092,6 +3108,8 @@ exports[`<Button /> snapshots renders a button with appearance default, intent s
 
 .emotion-1:hover {
   background-color: rgba(3,239,98,0.15);
+  border-color: #03ef62;
+  color: #03ef62;
 }
 
 <button
@@ -3470,6 +3488,8 @@ exports[`<Button /> snapshots renders a button with appearance default, intent w
 
 .emotion-1:hover {
   background-color: rgba(255,147,30,0.15);
+  border-color: #ff931e;
+  color: #ff931e;
 }
 
 <button
@@ -3848,6 +3868,8 @@ exports[`<Button /> snapshots renders a button with appearance default, intent w
 
 .emotion-1:hover {
   background-color: rgba(255,147,30,0.15);
+  border-color: #ff931e;
+  color: #ff931e;
 }
 
 <button
@@ -4226,6 +4248,8 @@ exports[`<Button /> snapshots renders a button with appearance default, intent w
 
 .emotion-1:hover {
   background-color: rgba(255,147,30,0.15);
+  border-color: #ff931e;
+  color: #ff931e;
 }
 
 <button
@@ -4604,6 +4628,8 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
 
 .emotion-1:hover {
   background-color: rgba(252,206,13,0.15);
+  border-color: #fcce0d;
+  color: #fcce0d;
 }
 
 <button
@@ -4982,6 +5008,8 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
 
 .emotion-1:hover {
   background-color: rgba(252,206,13,0.15);
+  border-color: #fcce0d;
+  color: #fcce0d;
 }
 
 <button
@@ -5360,6 +5388,8 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
 
 .emotion-1:hover {
   background-color: rgba(252,206,13,0.15);
+  border-color: #fcce0d;
+  color: #fcce0d;
 }
 
 <button
@@ -5723,6 +5753,8 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
 
 .emotion-1:hover {
   background-color: rgba(255,84,0,0.15);
+  border-color: #ff5400;
+  color: #ff5400;
 }
 
 .emotion-0 {
@@ -6116,6 +6148,8 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
 
 .emotion-1:hover {
   background-color: rgba(255,84,0,0.15);
+  border-color: #ff5400;
+  color: #ff5400;
 }
 
 <button
@@ -6479,6 +6513,8 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
 
 .emotion-1:hover {
   background-color: rgba(255,84,0,0.15);
+  border-color: #ff5400;
+  color: #ff5400;
 }
 
 .emotion-0 {
@@ -7991,6 +8027,8 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
 
 .emotion-1:hover {
   background-color: rgba(3,239,98,0.15);
+  border-color: #03ef62;
+  color: #03ef62;
 }
 
 .emotion-0 {
@@ -8384,6 +8422,8 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
 
 .emotion-1:hover {
   background-color: rgba(3,239,98,0.15);
+  border-color: #03ef62;
+  color: #03ef62;
 }
 
 <button
@@ -8747,6 +8787,8 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
 
 .emotion-1:hover {
   background-color: rgba(3,239,98,0.15);
+  border-color: #03ef62;
+  color: #03ef62;
 }
 
 .emotion-0 {
@@ -9125,6 +9167,8 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
 
 .emotion-1:hover {
   background-color: rgba(255,147,30,0.15);
+  border-color: #ff931e;
+  color: #ff931e;
 }
 
 .emotion-0 {
@@ -9518,6 +9562,8 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
 
 .emotion-1:hover {
   background-color: rgba(255,147,30,0.15);
+  border-color: #ff931e;
+  color: #ff931e;
 }
 
 <button
@@ -9881,6 +9927,8 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
 
 .emotion-1:hover {
   background-color: rgba(255,147,30,0.15);
+  border-color: #ff931e;
+  color: #ff931e;
 }
 
 .emotion-0 {
@@ -10275,6 +10323,8 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent b
 
 .emotion-1:hover {
   background-color: rgba(252,206,13,0.15);
+  border-color: #fcce0d;
+  color: #fcce0d;
 }
 
 .emotion-1:hover {
@@ -10660,6 +10710,8 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent b
 
 .emotion-1:hover {
   background-color: rgba(252,206,13,0.15);
+  border-color: #fcce0d;
+  color: #fcce0d;
 }
 
 .emotion-1:hover {
@@ -11045,6 +11097,8 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent b
 
 .emotion-1:hover {
   background-color: rgba(252,206,13,0.15);
+  border-color: #fcce0d;
+  color: #fcce0d;
 }
 
 .emotion-1:hover {
@@ -11430,6 +11484,8 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent d
 
 .emotion-1:hover {
   background-color: rgba(255,84,0,0.15);
+  border-color: #ff5400;
+  color: #ff5400;
 }
 
 .emotion-1:hover {
@@ -11815,6 +11871,8 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent d
 
 .emotion-1:hover {
   background-color: rgba(255,84,0,0.15);
+  border-color: #ff5400;
+  color: #ff5400;
 }
 
 .emotion-1:hover {
@@ -12200,6 +12258,8 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent d
 
 .emotion-1:hover {
   background-color: rgba(255,84,0,0.15);
+  border-color: #ff5400;
+  color: #ff5400;
 }
 
 .emotion-1:hover {
@@ -12570,6 +12630,8 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent n
 
 .emotion-1:hover {
   background-color: rgba(5,25,45,0.15);
+  border-color: #05192d;
+  color: #05192d;
 }
 
 .emotion-1:hover {
@@ -12955,6 +13017,8 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent n
 
 .emotion-1:hover {
   background-color: rgba(5,25,45,0.15);
+  border-color: #05192d;
+  color: #05192d;
 }
 
 .emotion-1:hover {
@@ -13340,6 +13404,8 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent n
 
 .emotion-1:hover {
   background-color: rgba(5,25,45,0.15);
+  border-color: #05192d;
+  color: #05192d;
 }
 
 .emotion-1:hover {
@@ -13740,6 +13806,8 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent s
 
 .emotion-1:hover {
   background-color: rgba(3,239,98,0.15);
+  border-color: #03ef62;
+  color: #03ef62;
 }
 
 .emotion-1:hover {
@@ -14125,6 +14193,8 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent s
 
 .emotion-1:hover {
   background-color: rgba(3,239,98,0.15);
+  border-color: #03ef62;
+  color: #03ef62;
 }
 
 .emotion-1:hover {
@@ -14510,6 +14580,8 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent s
 
 .emotion-1:hover {
   background-color: rgba(3,239,98,0.15);
+  border-color: #03ef62;
+  color: #03ef62;
 }
 
 .emotion-1:hover {
@@ -14895,6 +14967,8 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent w
 
 .emotion-1:hover {
   background-color: rgba(255,147,30,0.15);
+  border-color: #ff931e;
+  color: #ff931e;
 }
 
 .emotion-1:hover {
@@ -15280,6 +15354,8 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent w
 
 .emotion-1:hover {
   background-color: rgba(255,147,30,0.15);
+  border-color: #ff931e;
+  color: #ff931e;
 }
 
 .emotion-1:hover {
@@ -15665,6 +15741,8 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent w
 
 .emotion-1:hover {
   background-color: rgba(255,147,30,0.15);
+  border-color: #ff931e;
+  color: #ff931e;
 }
 
 .emotion-1:hover {
@@ -16034,6 +16112,8 @@ exports[`<Button /> snapshots renders a squared button with a single icon 1`] = 
 
 .emotion-0:hover {
   background-color: rgba(5,25,45,0.15);
+  border-color: #05192d;
+  color: #05192d;
 }
 
 <button
@@ -16110,6 +16190,8 @@ exports[`<Button /> tooltips tooltip appearance snapshots renders a tooltip with
 
 .emotion-1:hover {
   background-color: rgba(5,25,45,0.15);
+  border-color: #05192d;
+  color: #05192d;
 }
 
 .emotion-0 {
@@ -16251,6 +16333,8 @@ exports[`<Button /> tooltips tooltip appearance snapshots renders a tooltip with
 
 .emotion-1:hover {
   background-color: rgba(5,25,45,0.15);
+  border-color: #05192d;
+  color: #05192d;
 }
 
 .emotion-0 {
@@ -16391,6 +16475,8 @@ exports[`<Button /> tooltips tooltip appearance snapshots renders a tooltip with
 
 .emotion-1:hover {
   background-color: rgba(5,25,45,0.15);
+  border-color: #05192d;
+  color: #05192d;
 }
 
 .emotion-0 {
@@ -16532,6 +16618,8 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at b
 
 .emotion-1:hover {
   background-color: rgba(5,25,45,0.15);
+  border-color: #05192d;
+  color: #05192d;
 }
 
 .emotion-0 {
@@ -16673,6 +16761,8 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at b
 
 .emotion-1:hover {
   background-color: rgba(5,25,45,0.15);
+  border-color: #05192d;
+  color: #05192d;
 }
 
 .emotion-0 {
@@ -16811,6 +16901,8 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at b
 
 .emotion-1:hover {
   background-color: rgba(5,25,45,0.15);
+  border-color: #05192d;
+  color: #05192d;
 }
 
 .emotion-0 {
@@ -16952,6 +17044,8 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at l
 
 .emotion-1:hover {
   background-color: rgba(5,25,45,0.15);
+  border-color: #05192d;
+  color: #05192d;
 }
 
 .emotion-0 {
@@ -17093,6 +17187,8 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at r
 
 .emotion-1:hover {
   background-color: rgba(5,25,45,0.15);
+  border-color: #05192d;
+  color: #05192d;
 }
 
 .emotion-0 {
@@ -17234,6 +17330,8 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at t
 
 .emotion-1:hover {
   background-color: rgba(5,25,45,0.15);
+  border-color: #05192d;
+  color: #05192d;
 }
 
 .emotion-0 {
@@ -17375,6 +17473,8 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at t
 
 .emotion-1:hover {
   background-color: rgba(5,25,45,0.15);
+  border-color: #05192d;
+  color: #05192d;
 }
 
 .emotion-0 {
@@ -17516,6 +17616,8 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at t
 
 .emotion-1:hover {
   background-color: rgba(5,25,45,0.15);
+  border-color: #05192d;
+  color: #05192d;
 }
 
 .emotion-0 {
@@ -17657,6 +17759,8 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at u
 
 .emotion-1:hover {
   background-color: rgba(5,25,45,0.15);
+  border-color: #05192d;
+  color: #05192d;
 }
 
 .emotion-0 {

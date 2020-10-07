@@ -63,6 +63,8 @@ exports[`CompactButtonGroup renders the buttons next to each other 1`] = `
 
 .emotion-1:hover {
   background-color: rgba(5,25,45,0.15);
+  border-color: #05192d;
+  color: #05192d;
 }
 
 .emotion-1:active {
@@ -145,6 +147,8 @@ exports[`CompactButtonGroup renders the buttons next to each other 1`] = `
 
 .emotion-3:hover {
   background-color: rgba(5,25,45,0.15);
+  border-color: #05192d;
+  color: #05192d;
 }
 
 .emotion-3:active {
@@ -212,6 +216,8 @@ exports[`CompactButtonGroup renders the buttons next to each other 1`] = `
 
 .emotion-5:hover {
   background-color: rgba(5,25,45,0.15);
+  border-color: #05192d;
+  color: #05192d;
 }
 
 .emotion-5:active {
