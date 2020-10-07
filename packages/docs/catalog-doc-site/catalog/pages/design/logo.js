@@ -329,11 +329,7 @@ export default () => {
             <div className="dc-u-bgc-green dc-u-brad-all dc-u-p-24 dc-u-mv-16 dc-u-ta-center">
               <DatacampLogo logomarkColor="#05192D" />
             </div>
-            <a
-              className="dc-u-mt-8"
-              download="icon-monochrome.zip"
-              href={Favicons}
-            >
+            <a className="dc-u-mt-8" download="favicons.zip" href={Favicons}>
               Download favicons
               <DownloadIcon css={downloadIconCss} size={downloadIconSize} />
             </a>
