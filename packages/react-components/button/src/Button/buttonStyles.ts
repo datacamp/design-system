@@ -100,6 +100,9 @@ const getDefaultStyle = (intent: Intent, enabled: boolean): SerializedStyles =>
     enabled && {
       ':hover': {
         backgroundColor: outlineHoverColors[intent],
+        // The following are necessary to override specific css hover styles for anchors
+        borderColor: baseColors[intent],
+        color: baseColors[intent],
       },
     },
   );
