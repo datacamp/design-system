@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [6.0.0-beta.28](https://github.com/datacamp/design-system/compare/@datacamp/waffles-button@6.0.0-beta.27...@datacamp/waffles-button@6.0.0-beta.28) (2020-10-07)
+
+
+### Bug Fixes
+
+* hover colours for button links ([718cb08](https://github.com/datacamp/design-system/commit/718cb08))
+
+
+
+
+
 # [6.0.0-beta.27](https://github.com/datacamp/design-system/compare/@datacamp/waffles-button@6.0.0-beta.26...@datacamp/waffles-button@6.0.0-beta.27) (2020-10-02)
 
 

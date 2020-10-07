@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [6.0.0-beta.28](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/modals/compare/@datacamp/waffles-modals@6.0.0-beta.27...@datacamp/waffles-modals@6.0.0-beta.28) (2020-10-07)
+
+
+### Bug Fixes
+
+* hover colours for button links ([718cb08](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/modals/commit/718cb08))
+
+
+
+
+
 # [6.0.0-beta.27](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/modals/compare/@datacamp/waffles-modals@6.0.0-beta.26...@datacamp/waffles-modals@6.0.0-beta.27) (2020-10-02)
 
 **Note:** Version bump only for package @datacamp/waffles-modals

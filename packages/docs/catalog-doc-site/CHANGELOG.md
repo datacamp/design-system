@@ -3,6 +3,20 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0-beta.40](https://github.com/datacamp/design-system/compare/@datacamp/waffles-catalog-doc-site@2.0.0-beta.39...@datacamp/waffles-catalog-doc-site@2.0.0-beta.40) (2020-10-07)
+
+
+### Features
+
+* add favicon download ([5c1c54d](https://github.com/datacamp/design-system/commit/5c1c54d))
+* add logos ([3cfd21b](https://github.com/datacamp/design-system/commit/3cfd21b))
+* no logos ([fa2285a](https://github.com/datacamp/design-system/commit/fa2285a))
+* update logo docs ([53be1a1](https://github.com/datacamp/design-system/commit/53be1a1))
+
+
+
+
+
 # [2.0.0-beta.39](https://github.com/datacamp/design-system/compare/@datacamp/waffles-catalog-doc-site@2.0.0-beta.38...@datacamp/waffles-catalog-doc-site@2.0.0-beta.39) (2020-10-02)
 
 **Note:** Version bump only for package @datacamp/waffles-catalog-doc-site

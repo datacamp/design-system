@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.0.0-beta.1](https://github.com/datacamp/design-system/compare/@datacamp/waffles-progress-bar@1.0.0-beta.0...@datacamp/waffles-progress-bar@1.0.0-beta.1) (2020-10-07)
+
+
+### Bug Fixes
+
+* delete text shadow from progress-bar ([da0ee1c](https://github.com/datacamp/design-system/commit/da0ee1c))
+
+
+
+
+
 # [1.0.0-beta.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-progress-bar@0.2.0-beta.0...@datacamp/waffles-progress-bar@1.0.0-beta.0) (2020-09-16)
 
 

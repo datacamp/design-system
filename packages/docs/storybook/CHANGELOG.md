@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0-beta.34](https://github.com/datacamp/design-system/compare/@datacamp/waffles-storybook@2.0.0-beta.33...@datacamp/waffles-storybook@2.0.0-beta.34) (2020-10-07)
+
+**Note:** Version bump only for package @datacamp/waffles-storybook
+
+
+
+
+
 # [2.0.0-beta.33](https://github.com/datacamp/design-system/compare/@datacamp/waffles-storybook@2.0.0-beta.32...@datacamp/waffles-storybook@2.0.0-beta.33) (2020-10-02)
 
 **Note:** Version bump only for package @datacamp/waffles-storybook
