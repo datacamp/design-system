@@ -41,7 +41,6 @@ const WordmarkSpinner = ({
         })}
         points="158.573452 177.08 112.038068 150.488473 112.038068 73.7151963 66 48 66 138.609263 157.803171 87.5483322"
         stroke={color}
-        strokeLinecap="round"
         strokeLinejoin="round"
         strokeWidth="12"
       ></polyline>

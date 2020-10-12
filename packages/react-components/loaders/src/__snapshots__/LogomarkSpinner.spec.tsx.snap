@@ -39,7 +39,6 @@ exports[`LogomarkSpinner renders with a custom color 1`] = `
       class="emotion-0"
       points="158.573452 177.08 112.038068 150.488473 112.038068 73.7151963 66 48 66 138.609263 157.803171 87.5483322"
       stroke="red"
-      stroke-linecap="round"
       stroke-linejoin="round"
       stroke-width="12"
     />
@@ -86,7 +85,6 @@ exports[`LogomarkSpinner renders with a custom size 1`] = `
       class="emotion-0"
       points="158.573452 177.08 112.038068 150.488473 112.038068 73.7151963 66 48 66 138.609263 157.803171 87.5483322"
       stroke="#05192d"
-      stroke-linecap="round"
       stroke-linejoin="round"
       stroke-width="12"
     />
@@ -133,7 +131,6 @@ exports[`LogomarkSpinner renders with default props 1`] = `
       class="emotion-0"
       points="158.573452 177.08 112.038068 150.488473 112.038068 73.7151963 66 48 66 138.609263 157.803171 87.5483322"
       stroke="#05192d"
-      stroke-linecap="round"
       stroke-linejoin="round"
       stroke-width="12"
     />
