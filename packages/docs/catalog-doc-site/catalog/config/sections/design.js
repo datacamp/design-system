@@ -3,6 +3,11 @@ import { pageLoader } from 'catalog';
 export default {
   pages: [
     {
+      content: pageLoader(() => import('../../pages/design/colors.js')),
+      path: '/design/colors',
+      title: 'Colors',
+    },
+    {
       content: pageLoader(() => import('../../pages/design/icons.js')),
       path: '/design/icons',
       title: 'Icons',
