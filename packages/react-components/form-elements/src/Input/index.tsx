@@ -66,7 +66,7 @@ interface InputProps {
   /**
    * The maximum value of the input.
    */
-  max?: 'string' | 'number';
+  max?: string | number;
   /**
    * Sets the maxLength attribute on the rendered input.
    */
@@ -74,7 +74,7 @@ interface InputProps {
   /**
    * The minimum value of the input.
    */
-  min?: 'string' | 'number';
+  min?: string | number;
   /**
    * Used to set the html name attribute. Uniquely indentifies the input within
    * the current form context.
@@ -107,7 +107,7 @@ interface InputProps {
   /**
    * The step size for a number input.
    */
-  step?: 'string' | 'number';
+  step?: string | number;
   /**
    * The type of input to render. This corresponds to a set of html input types.
    */
