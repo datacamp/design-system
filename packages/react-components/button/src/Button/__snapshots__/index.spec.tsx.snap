@@ -4,7 +4,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent d
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
@@ -167,7 +167,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent d
 .emotion-2 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
@@ -384,7 +384,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent d
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
@@ -547,7 +547,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent d
 .emotion-2 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
@@ -764,7 +764,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent d
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
@@ -927,7 +927,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent d
 .emotion-2 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
@@ -1200,7 +1200,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent n
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
@@ -1370,7 +1370,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent n
 .emotion-2 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
@@ -1580,7 +1580,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent n
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
@@ -1750,7 +1750,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent n
 .emotion-2 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
@@ -1960,7 +1960,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent n
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
@@ -2130,7 +2130,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent n
 .emotion-2 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
@@ -2284,7 +2284,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent s
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
@@ -2447,7 +2447,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent s
 .emotion-2 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
@@ -2664,7 +2664,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent s
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
@@ -2827,7 +2827,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent s
 .emotion-2 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
@@ -3044,7 +3044,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent s
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
@@ -3207,7 +3207,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent s
 .emotion-2 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
@@ -3424,7 +3424,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent w
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
@@ -3587,7 +3587,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent w
 .emotion-2 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
@@ -3804,7 +3804,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent w
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
@@ -3967,7 +3967,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent w
 .emotion-2 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
@@ -4184,7 +4184,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent w
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
@@ -4347,7 +4347,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent w
 .emotion-2 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
@@ -4564,7 +4564,7 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
@@ -4727,7 +4727,7 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
 .emotion-2 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
@@ -4944,7 +4944,7 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
@@ -5107,7 +5107,7 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
 .emotion-2 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
@@ -5324,7 +5324,7 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
@@ -5487,7 +5487,7 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
 .emotion-2 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
@@ -5760,7 +5760,7 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
@@ -5867,7 +5867,7 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
 .emotion-2 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
@@ -6084,7 +6084,7 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
@@ -6247,7 +6247,7 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
 .emotion-2 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
@@ -6520,7 +6520,7 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
@@ -6627,7 +6627,7 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
 .emotion-2 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
@@ -6844,7 +6844,7 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
@@ -7005,7 +7005,7 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
 .emotion-2 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
@@ -7222,7 +7222,7 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
@@ -7383,7 +7383,7 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
 .emotion-2 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
@@ -7600,7 +7600,7 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
@@ -7761,7 +7761,7 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
 .emotion-2 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
@@ -8034,7 +8034,7 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
@@ -8141,7 +8141,7 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
 .emotion-2 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
@@ -8358,7 +8358,7 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
@@ -8521,7 +8521,7 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
 .emotion-2 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
@@ -8794,7 +8794,7 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
@@ -8901,7 +8901,7 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
 .emotion-2 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
@@ -9174,7 +9174,7 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
@@ -9281,7 +9281,7 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
 .emotion-2 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
@@ -9498,7 +9498,7 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
@@ -9661,7 +9661,7 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
 .emotion-2 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
@@ -9934,7 +9934,7 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
@@ -10041,7 +10041,7 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
 .emotion-2 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
@@ -10258,7 +10258,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent b
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
@@ -10427,7 +10427,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent b
 .emotion-2 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
@@ -10645,7 +10645,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent b
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
@@ -10814,7 +10814,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent b
 .emotion-2 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
@@ -11032,7 +11032,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent b
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
@@ -11201,7 +11201,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent b
 .emotion-2 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
@@ -11419,7 +11419,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent d
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
@@ -11588,7 +11588,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent d
 .emotion-2 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
@@ -11806,7 +11806,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent d
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
@@ -11975,7 +11975,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent d
 .emotion-2 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
@@ -12193,7 +12193,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent d
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
@@ -12362,7 +12362,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent d
 .emotion-2 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
@@ -12642,7 +12642,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent n
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
@@ -12749,7 +12749,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent n
 .emotion-2 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
@@ -13029,7 +13029,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent n
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
@@ -13136,7 +13136,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent n
 .emotion-2 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
@@ -13416,7 +13416,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent n
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
@@ -13523,7 +13523,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent n
 .emotion-2 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
@@ -13741,7 +13741,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent s
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
@@ -13910,7 +13910,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent s
 .emotion-2 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
@@ -14128,7 +14128,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent s
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
@@ -14297,7 +14297,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent s
 .emotion-2 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
@@ -14515,7 +14515,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent s
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
@@ -14684,7 +14684,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent s
 .emotion-2 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
@@ -14902,7 +14902,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent w
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
@@ -15071,7 +15071,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent w
 .emotion-2 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
@@ -15289,7 +15289,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent w
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
@@ -15458,7 +15458,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent w
 .emotion-2 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
@@ -15676,7 +15676,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent w
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
@@ -15845,7 +15845,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent w
 .emotion-2 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
@@ -16197,7 +16197,7 @@ exports[`<Button /> tooltips tooltip appearance snapshots renders a tooltip with
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
@@ -16238,7 +16238,7 @@ exports[`<Button /> tooltips tooltip appearance snapshots renders a tooltip with
 .emotion-2 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
@@ -16340,7 +16340,7 @@ exports[`<Button /> tooltips tooltip appearance snapshots renders a tooltip with
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
@@ -16380,7 +16380,7 @@ exports[`<Button /> tooltips tooltip appearance snapshots renders a tooltip with
 .emotion-2 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
@@ -16482,7 +16482,7 @@ exports[`<Button /> tooltips tooltip appearance snapshots renders a tooltip with
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
@@ -16523,7 +16523,7 @@ exports[`<Button /> tooltips tooltip appearance snapshots renders a tooltip with
 .emotion-2 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
@@ -16625,7 +16625,7 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at b
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
@@ -16666,7 +16666,7 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at b
 .emotion-2 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
@@ -16768,7 +16768,7 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at b
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
@@ -16783,7 +16783,7 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at b
 .emotion-2 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
@@ -16908,7 +16908,7 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at b
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
@@ -16923,7 +16923,7 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at b
 .emotion-2 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
@@ -17051,7 +17051,7 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at l
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
@@ -17066,7 +17066,7 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at l
 .emotion-2 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
@@ -17194,7 +17194,7 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at r
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
@@ -17209,7 +17209,7 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at r
 .emotion-2 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
@@ -17337,7 +17337,7 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at t
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
@@ -17352,7 +17352,7 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at t
 .emotion-2 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
@@ -17480,7 +17480,7 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at t
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
@@ -17495,7 +17495,7 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at t
 .emotion-2 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
@@ -17623,7 +17623,7 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at t
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
@@ -17638,7 +17638,7 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at t
 .emotion-2 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
@@ -17766,7 +17766,7 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at u
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
@@ -17807,7 +17807,7 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at u
 .emotion-2 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;

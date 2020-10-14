@@ -153,14 +153,14 @@ Object {
       "sansSerif": Object {
         "attributes": Object {
           "category": "asset",
-          "fallback": "sans-serif",
+          "fallback": "Arial",
           "item": "sansSerif",
           "type": "font",
         },
         "name": "sansSerif",
         "original": Object {
           "attributes": Object {
-            "fallback": "sans-serif",
+            "fallback": "Arial",
           },
           "value": "Studio-Feixen-Sans-Variable",
         },
@@ -3427,7 +3427,7 @@ $dc-colors: (
 /** Typography */
 
 // Font family
-$dc-font-family-sans-serif: 'Studio-Feixen-Sans-Variable', sans-serif;
+$dc-font-family-sans-serif: 'Studio-Feixen-Sans-Variable', Arial;
 $dc-font-family-mono: 'JetBrainsMonoNL', monospace;
 
 // Font size

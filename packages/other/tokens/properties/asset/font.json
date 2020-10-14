@@ -3,7 +3,7 @@
     "font": {
       "sansSerif": {
         "value": "Studio-Feixen-Sans-Variable",
-        "attributes": { "fallback": "sans-serif" }
+        "attributes": { "fallback": "Arial" }
       },
       "mono": {
         "value": "JetBrainsMonoNL",
