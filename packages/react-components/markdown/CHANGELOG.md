@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [3.0.0-beta.24](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/markdown/compare/@datacamp/waffles-markdown@3.0.0-beta.23...@datacamp/waffles-markdown@3.0.0-beta.24) (2020-10-14)
+
+
+### Features
+
+* explicitly disable ligatures for code ([23200b3](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/markdown/commit/23200b3))
+* set fallback font to Arial ([367c7f4](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/markdown/commit/367c7f4))
+* update font name to remove reference to Variable ([391248c](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/markdown/commit/391248c))
+
+
+
+
+
 # [3.0.0-beta.23](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/markdown/compare/@datacamp/waffles-markdown@3.0.0-beta.22...@datacamp/waffles-markdown@3.0.0-beta.23) (2020-09-22)
 
 **Note:** Version bump only for package @datacamp/waffles-markdown

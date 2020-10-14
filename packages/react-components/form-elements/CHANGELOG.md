@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [3.0.0-beta.26](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/form-elements/compare/@datacamp/waffles-form-elements@3.0.0-beta.25...@datacamp/waffles-form-elements@3.0.0-beta.26) (2020-10-14)
+
+
+### Features
+
+* set fallback font to Arial ([367c7f4](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/form-elements/commit/367c7f4))
+* update font name to remove reference to Variable ([391248c](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/form-elements/commit/391248c))
+
+
+
+
+
 # [3.0.0-beta.25](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/form-elements/compare/@datacamp/waffles-form-elements@3.0.0-beta.24...@datacamp/waffles-form-elements@3.0.0-beta.25) (2020-10-02)
 
 

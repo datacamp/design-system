@@ -3,6 +3,21 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [4.0.0-beta.24](https://github.com/datacamp/design-system/compare/@datacamp/waffles-text@4.0.0-beta.23...@datacamp/waffles-text@4.0.0-beta.24) (2020-10-14)
+
+
+### Features
+
+* explicitly disable ligatures for code ([23200b3](https://github.com/datacamp/design-system/commit/23200b3))
+* load all types of font file ([ee3f4c7](https://github.com/datacamp/design-system/commit/ee3f4c7))
+* set fallback font to Arial ([367c7f4](https://github.com/datacamp/design-system/commit/367c7f4))
+* set the font swap for react ([faef70a](https://github.com/datacamp/design-system/commit/faef70a))
+* update font name to remove reference to Variable ([391248c](https://github.com/datacamp/design-system/commit/391248c))
+
+
+
+
+
 # [4.0.0-beta.23](https://github.com/datacamp/design-system/compare/@datacamp/waffles-text@4.0.0-beta.22...@datacamp/waffles-text@4.0.0-beta.23) (2020-09-22)
 
 

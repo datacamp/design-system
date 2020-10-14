@@ -3,6 +3,21 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0-beta.22](https://github.com/datacamp/design-system/compare/@datacamp/waffles-core@2.0.0-beta.21...@datacamp/waffles-core@2.0.0-beta.22) (2020-10-14)
+
+
+### Features
+
+* disable ligatures in code in scss ([f0a9090](https://github.com/datacamp/design-system/commit/f0a9090))
+* load all the font formats in scss ([2037a66](https://github.com/datacamp/design-system/commit/2037a66))
+* set fallback font to Arial ([367c7f4](https://github.com/datacamp/design-system/commit/367c7f4))
+* set the font swap for scss ([c93785c](https://github.com/datacamp/design-system/commit/c93785c))
+* update font name to remove reference to Variable ([391248c](https://github.com/datacamp/design-system/commit/391248c))
+
+
+
+
+
 # [2.0.0-beta.21](https://github.com/datacamp/design-system/compare/@datacamp/waffles-core@2.0.0-beta.20...@datacamp/waffles-core@2.0.0-beta.21) (2020-09-11)
 
 

@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.0.0-beta.12](https://github.com/datacamp/design-system/compare/@datacamp/waffles-tokens@1.0.0-beta.11...@datacamp/waffles-tokens@1.0.0-beta.12) (2020-10-14)
+
+
+### Features
+
+* set fallback font to Arial ([367c7f4](https://github.com/datacamp/design-system/commit/367c7f4))
+* update font name to remove reference to Variable ([391248c](https://github.com/datacamp/design-system/commit/391248c))
+
+
+
+
+
 # [1.0.0-beta.11](https://github.com/datacamp/design-system/compare/@datacamp/waffles-tokens@1.0.0-beta.10...@datacamp/waffles-tokens@1.0.0-beta.11) (2020-08-14)
 
 

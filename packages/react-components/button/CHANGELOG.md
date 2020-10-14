@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [6.0.0-beta.29](https://github.com/datacamp/design-system/compare/@datacamp/waffles-button@6.0.0-beta.28...@datacamp/waffles-button@6.0.0-beta.29) (2020-10-14)
+
+
+### Features
+
+* set fallback font to Arial ([367c7f4](https://github.com/datacamp/design-system/commit/367c7f4))
+* update font name to remove reference to Variable ([391248c](https://github.com/datacamp/design-system/commit/391248c))
+
+
+
+
+
 # [6.0.0-beta.28](https://github.com/datacamp/design-system/compare/@datacamp/waffles-button@6.0.0-beta.27...@datacamp/waffles-button@6.0.0-beta.28) (2020-10-07)
 
 
