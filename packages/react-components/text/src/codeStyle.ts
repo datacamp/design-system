@@ -10,7 +10,7 @@ export default css({
     tokens.asset.font.mono.value,
   ],
   fontSize: tokens.size.font[200].value,
-
+  fontVariantLigatures: 'none',
   letterSpacing: 0,
   lineHeight: tokens.lineHeight.base.value,
   margin: 0,
