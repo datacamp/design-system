@@ -3,9 +3,6 @@ import { css } from '@emotion/core';
 
 export default css('-webkit-font-smoothing: antialiased;', {
   color: tokens.color.primary.navyText.value.rgb,
-  fontFamily: [
-    tokens.asset.font.sansSerif.attributes.fallback,
-    tokens.asset.font.sansSerif.value,
-  ],
+  fontFamily: `${tokens.asset.font.sansSerif.value}, ${tokens.asset.font.sansSerif.attributes.fallback}`,
   fontStyle: 'normal',
 });

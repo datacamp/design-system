@@ -4,8 +4,7 @@ exports[`List renders an ordered list 1`] = `
 .emotion-4 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: Arial;
-  font-family: Studio-Feixen-Sans;
+  font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
   list-style-position: inside;
   margin: 0;
@@ -64,8 +63,7 @@ exports[`List renders an unordered list 1`] = `
 .emotion-4 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: Arial;
-  font-family: Studio-Feixen-Sans;
+  font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
   list-style-position: inside;
   margin: 0;

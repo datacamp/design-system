@@ -40,8 +40,7 @@ exports[`snapshots renders an input with size disabled=false, required=false 1`]
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: Arial;
-  font-family: Studio-Feixen-Sans;
+  font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -115,8 +114,7 @@ exports[`snapshots renders an input with size disabled=false, required=false 1`]
 .emotion-6 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: Arial;
-  font-family: Studio-Feixen-Sans;
+  font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -137,8 +135,7 @@ exports[`snapshots renders an input with size disabled=false, required=false 1`]
 .emotion-1 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: Arial;
-  font-family: Studio-Feixen-Sans;
+  font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -227,8 +224,7 @@ exports[`snapshots renders an input with size disabled=false, required=true 1`] 
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: Arial;
-  font-family: Studio-Feixen-Sans;
+  font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -302,8 +298,7 @@ exports[`snapshots renders an input with size disabled=false, required=true 1`] 
 .emotion-7 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: Arial;
-  font-family: Studio-Feixen-Sans;
+  font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -324,8 +319,7 @@ exports[`snapshots renders an input with size disabled=false, required=true 1`] 
 .emotion-1 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: Arial;
-  font-family: Studio-Feixen-Sans;
+  font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -337,8 +331,7 @@ exports[`snapshots renders an input with size disabled=false, required=true 1`] 
 .emotion-2 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: Arial;
-  font-family: Studio-Feixen-Sans;
+  font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -432,8 +425,7 @@ exports[`snapshots renders an input with size disabled=false, required=undefined
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: Arial;
-  font-family: Studio-Feixen-Sans;
+  font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -507,8 +499,7 @@ exports[`snapshots renders an input with size disabled=false, required=undefined
 .emotion-4 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: Arial;
-  font-family: Studio-Feixen-Sans;
+  font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -589,8 +580,7 @@ exports[`snapshots renders an input with size disabled=true, required=false 1`] 
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: Arial;
-  font-family: Studio-Feixen-Sans;
+  font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -664,8 +654,7 @@ exports[`snapshots renders an input with size disabled=true, required=false 1`] 
 .emotion-6 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: Arial;
-  font-family: Studio-Feixen-Sans;
+  font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -686,8 +675,7 @@ exports[`snapshots renders an input with size disabled=true, required=false 1`] 
 .emotion-1 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: Arial;
-  font-family: Studio-Feixen-Sans;
+  font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -777,8 +765,7 @@ exports[`snapshots renders an input with size disabled=true, required=true 1`] =
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: Arial;
-  font-family: Studio-Feixen-Sans;
+  font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -852,8 +839,7 @@ exports[`snapshots renders an input with size disabled=true, required=true 1`] =
 .emotion-7 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: Arial;
-  font-family: Studio-Feixen-Sans;
+  font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -874,8 +860,7 @@ exports[`snapshots renders an input with size disabled=true, required=true 1`] =
 .emotion-1 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: Arial;
-  font-family: Studio-Feixen-Sans;
+  font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -887,8 +872,7 @@ exports[`snapshots renders an input with size disabled=true, required=true 1`] =
 .emotion-2 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: Arial;
-  font-family: Studio-Feixen-Sans;
+  font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -983,8 +967,7 @@ exports[`snapshots renders an input with size disabled=true, required=undefined 
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: Arial;
-  font-family: Studio-Feixen-Sans;
+  font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -1058,8 +1041,7 @@ exports[`snapshots renders an input with size disabled=true, required=undefined 
 .emotion-4 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: Arial;
-  font-family: Studio-Feixen-Sans;
+  font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;

@@ -4,8 +4,7 @@ exports[`<Text /> renders with Small children 1`] = `
 .emotion-1 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: Arial;
-  font-family: Studio-Feixen-Sans;
+  font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -15,8 +14,7 @@ exports[`<Text /> renders with Small children 1`] = `
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: Arial;
-  font-family: Studio-Feixen-Sans;
+  font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
   font-size: 14px;
   line-height: 16px;
@@ -41,8 +39,7 @@ exports[`<Text /> renders with Strong children 1`] = `
 .emotion-1 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: Arial;
-  font-family: Studio-Feixen-Sans;
+  font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -52,8 +49,7 @@ exports[`<Text /> renders with Strong children 1`] = `
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: Arial;
-  font-family: Studio-Feixen-Sans;
+  font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
   font-weight: 800;
   line-height: 16px;
@@ -78,8 +74,7 @@ exports[`<Text /> renders with a string 1`] = `
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: Arial;
-  font-family: Studio-Feixen-Sans;
+  font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
