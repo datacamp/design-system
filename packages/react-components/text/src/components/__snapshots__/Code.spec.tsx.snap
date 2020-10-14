@@ -8,6 +8,7 @@ exports[`snapshots renders 1`] = `
   font-family: monospace;
   font-family: JetBrainsMonoNL;
   font-size: 14px;
+  font-variant-ligatures: none;
   -webkit-letter-spacing: 0;
   -moz-letter-spacing: 0;
   -ms-letter-spacing: 0;
