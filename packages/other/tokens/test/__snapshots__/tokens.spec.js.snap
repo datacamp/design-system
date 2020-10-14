@@ -85,7 +85,7 @@ Object {
   },
   "fontFamily": Object {
     "mono": "'JetBrainsMonoNL'",
-    "sansSerif": "'Studio-Feixen-Sans-Variable'",
+    "sansSerif": "'Studio-Feixen-Sans'",
   },
   "fontSize": Object {
     "base": "16px",
@@ -162,14 +162,14 @@ Object {
           "attributes": Object {
             "fallback": "Arial",
           },
-          "value": "Studio-Feixen-Sans-Variable",
+          "value": "Studio-Feixen-Sans",
         },
         "path": Array [
           "asset",
           "font",
           "sansSerif",
         ],
-        "value": "Studio-Feixen-Sans-Variable",
+        "value": "Studio-Feixen-Sans",
       },
     },
   },
@@ -3427,7 +3427,7 @@ $dc-colors: (
 /** Typography */
 
 // Font family
-$dc-font-family-sans-serif: 'Studio-Feixen-Sans-Variable', Arial;
+$dc-font-family-sans-serif: 'Studio-Feixen-Sans', Arial;
 $dc-font-family-mono: 'JetBrainsMonoNL', monospace;
 
 // Font size

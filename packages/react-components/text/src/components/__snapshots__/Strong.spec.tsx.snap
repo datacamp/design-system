@@ -5,7 +5,7 @@ exports[`<Strong /> renders 1`] = `
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
   font-family: Arial;
-  font-family: Studio-Feixen-Sans-Variable;
+  font-family: Studio-Feixen-Sans;
   font-style: normal;
   font-weight: 800;
   line-height: 16px;
