@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [6.0.0-beta.30](https://github.com/datacamp/design-system/compare/@datacamp/waffles-button@6.0.0-beta.29...@datacamp/waffles-button@6.0.0-beta.30) (2020-10-14)
+
+
+### Bug Fixes
+
+* correct the fallback font implementation when in react ([9943bbc](https://github.com/datacamp/design-system/commit/9943bbc))
+
+
+
+
+
 # [6.0.0-beta.29](https://github.com/datacamp/design-system/compare/@datacamp/waffles-button@6.0.0-beta.28...@datacamp/waffles-button@6.0.0-beta.29) (2020-10-14)
 
 

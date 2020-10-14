@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0-beta.26](https://github.com/datacamp/design-system/compare/@datacamp/waffles-toast@2.0.0-beta.25...@datacamp/waffles-toast@2.0.0-beta.26) (2020-10-14)
+
+
+### Bug Fixes
+
+* correct the fallback font implementation when in react ([9943bbc](https://github.com/datacamp/design-system/commit/9943bbc))
+
+
+
+
+
 # [2.0.0-beta.25](https://github.com/datacamp/design-system/compare/@datacamp/waffles-toast@2.0.0-beta.24...@datacamp/waffles-toast@2.0.0-beta.25) (2020-10-14)
 
 

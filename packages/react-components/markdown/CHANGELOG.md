@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [3.0.0-beta.25](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/markdown/compare/@datacamp/waffles-markdown@3.0.0-beta.24...@datacamp/waffles-markdown@3.0.0-beta.25) (2020-10-14)
+
+
+### Bug Fixes
+
+* correct the fallback font implementation when in react ([9943bbc](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/markdown/commit/9943bbc))
+
+
+
+
+
 # [3.0.0-beta.24](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/markdown/compare/@datacamp/waffles-markdown@3.0.0-beta.23...@datacamp/waffles-markdown@3.0.0-beta.24) (2020-10-14)
 
 

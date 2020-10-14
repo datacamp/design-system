@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [3.0.0-beta.27](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/form-elements/compare/@datacamp/waffles-form-elements@3.0.0-beta.26...@datacamp/waffles-form-elements@3.0.0-beta.27) (2020-10-14)
+
+
+### Bug Fixes
+
+* actually pass max, min and step throught to rendered input ([23e0fb8](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/form-elements/commit/23e0fb8))
+* correct the fallback font implementation when in react ([9943bbc](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/form-elements/commit/9943bbc))
+
+
+
+
+
 # [3.0.0-beta.26](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/form-elements/compare/@datacamp/waffles-form-elements@3.0.0-beta.25...@datacamp/waffles-form-elements@3.0.0-beta.26) (2020-10-14)
 
 

@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [4.0.0-beta.25](https://github.com/datacamp/design-system/compare/@datacamp/waffles-text@4.0.0-beta.24...@datacamp/waffles-text@4.0.0-beta.25) (2020-10-14)
+
+
+### Bug Fixes
+
+* correct the fallback font implementation when in react ([9943bbc](https://github.com/datacamp/design-system/commit/9943bbc))
+
+
+
+
+
 # [4.0.0-beta.24](https://github.com/datacamp/design-system/compare/@datacamp/waffles-text@4.0.0-beta.23...@datacamp/waffles-text@4.0.0-beta.24) (2020-10-14)
 
 
