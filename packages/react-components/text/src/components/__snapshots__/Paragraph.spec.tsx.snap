@@ -4,7 +4,7 @@ exports[`<Paragraph /> renders with Strong, Small, Text, Link and Emphasis child
 .emotion-5 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
@@ -20,7 +20,7 @@ exports[`<Paragraph /> renders with Strong, Small, Text, Link and Emphasis child
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-weight: 800;
@@ -30,7 +30,7 @@ exports[`<Paragraph /> renders with Strong, Small, Text, Link and Emphasis child
 .emotion-1 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
@@ -41,7 +41,7 @@ exports[`<Paragraph /> renders with Strong, Small, Text, Link and Emphasis child
 .emotion-2 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 14px;
@@ -51,7 +51,7 @@ exports[`<Paragraph /> renders with Strong, Small, Text, Link and Emphasis child
 .emotion-3 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-style: italic;
@@ -62,7 +62,7 @@ exports[`<Paragraph /> renders with Strong, Small, Text, Link and Emphasis child
 .emotion-4 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   color: #007bb6;
@@ -126,7 +126,7 @@ exports[`<Paragraph /> renders with a string 1`] = `
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;

@@ -40,7 +40,7 @@ exports[`snapshots renders an input with size large, disabled=false, required=fa
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
@@ -61,7 +61,7 @@ exports[`snapshots renders an input with size large, disabled=false, required=fa
 .emotion-6 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
@@ -83,7 +83,7 @@ exports[`snapshots renders an input with size large, disabled=false, required=fa
 .emotion-1 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
@@ -105,7 +105,7 @@ exports[`snapshots renders an input with size large, disabled=false, required=fa
   box-shadow: inset 0 0 0 2px rgb(229,225,218);
   box-sizing: border-box;
   display: inline-block;
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   margin: 0;
   vertical-align: baseline;
@@ -226,7 +226,7 @@ exports[`snapshots renders an input with size large, disabled=false, required=tr
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
@@ -247,7 +247,7 @@ exports[`snapshots renders an input with size large, disabled=false, required=tr
 .emotion-7 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
@@ -269,7 +269,7 @@ exports[`snapshots renders an input with size large, disabled=false, required=tr
 .emotion-1 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
@@ -282,7 +282,7 @@ exports[`snapshots renders an input with size large, disabled=false, required=tr
 .emotion-2 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
@@ -304,7 +304,7 @@ exports[`snapshots renders an input with size large, disabled=false, required=tr
   box-shadow: inset 0 0 0 2px rgb(229,225,218);
   box-sizing: border-box;
   display: inline-block;
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   margin: 0;
   vertical-align: baseline;
@@ -430,7 +430,7 @@ exports[`snapshots renders an input with size large, disabled=false, required=un
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
@@ -451,7 +451,7 @@ exports[`snapshots renders an input with size large, disabled=false, required=un
 .emotion-4 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
@@ -474,7 +474,7 @@ exports[`snapshots renders an input with size large, disabled=false, required=un
   box-shadow: inset 0 0 0 2px rgb(229,225,218);
   box-sizing: border-box;
   display: inline-block;
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   margin: 0;
   vertical-align: baseline;
@@ -586,7 +586,7 @@ exports[`snapshots renders an input with size large, disabled=true, required=fal
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
@@ -607,7 +607,7 @@ exports[`snapshots renders an input with size large, disabled=true, required=fal
 .emotion-6 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
@@ -629,7 +629,7 @@ exports[`snapshots renders an input with size large, disabled=true, required=fal
 .emotion-1 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
@@ -651,7 +651,7 @@ exports[`snapshots renders an input with size large, disabled=true, required=fal
   box-shadow: inset 0 0 0 2px rgb(229,225,218);
   box-sizing: border-box;
   display: inline-block;
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   margin: 0;
   vertical-align: baseline;
@@ -773,7 +773,7 @@ exports[`snapshots renders an input with size large, disabled=true, required=tru
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
@@ -794,7 +794,7 @@ exports[`snapshots renders an input with size large, disabled=true, required=tru
 .emotion-7 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
@@ -816,7 +816,7 @@ exports[`snapshots renders an input with size large, disabled=true, required=tru
 .emotion-1 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
@@ -829,7 +829,7 @@ exports[`snapshots renders an input with size large, disabled=true, required=tru
 .emotion-2 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
@@ -851,7 +851,7 @@ exports[`snapshots renders an input with size large, disabled=true, required=tru
   box-shadow: inset 0 0 0 2px rgb(229,225,218);
   box-sizing: border-box;
   display: inline-block;
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   margin: 0;
   vertical-align: baseline;
@@ -978,7 +978,7 @@ exports[`snapshots renders an input with size large, disabled=true, required=und
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
@@ -999,7 +999,7 @@ exports[`snapshots renders an input with size large, disabled=true, required=und
 .emotion-4 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
@@ -1022,7 +1022,7 @@ exports[`snapshots renders an input with size large, disabled=true, required=und
   box-shadow: inset 0 0 0 2px rgb(229,225,218);
   box-sizing: border-box;
   display: inline-block;
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   margin: 0;
   vertical-align: baseline;
@@ -1135,7 +1135,7 @@ exports[`snapshots renders an input with size medium, disabled=false, required=f
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
@@ -1164,7 +1164,7 @@ exports[`snapshots renders an input with size medium, disabled=false, required=f
   box-shadow: inset 0 0 0 2px rgb(229,225,218);
   box-sizing: border-box;
   display: inline-block;
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   margin: 0;
   vertical-align: baseline;
@@ -1208,7 +1208,7 @@ exports[`snapshots renders an input with size medium, disabled=false, required=f
 .emotion-6 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
@@ -1230,7 +1230,7 @@ exports[`snapshots renders an input with size medium, disabled=false, required=f
 .emotion-1 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
@@ -1321,7 +1321,7 @@ exports[`snapshots renders an input with size medium, disabled=false, required=t
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
@@ -1350,7 +1350,7 @@ exports[`snapshots renders an input with size medium, disabled=false, required=t
   box-shadow: inset 0 0 0 2px rgb(229,225,218);
   box-sizing: border-box;
   display: inline-block;
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   margin: 0;
   vertical-align: baseline;
@@ -1394,7 +1394,7 @@ exports[`snapshots renders an input with size medium, disabled=false, required=t
 .emotion-7 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
@@ -1416,7 +1416,7 @@ exports[`snapshots renders an input with size medium, disabled=false, required=t
 .emotion-1 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
@@ -1429,7 +1429,7 @@ exports[`snapshots renders an input with size medium, disabled=false, required=t
 .emotion-2 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
@@ -1525,7 +1525,7 @@ exports[`snapshots renders an input with size medium, disabled=false, required=u
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
@@ -1554,7 +1554,7 @@ exports[`snapshots renders an input with size medium, disabled=false, required=u
   box-shadow: inset 0 0 0 2px rgb(229,225,218);
   box-sizing: border-box;
   display: inline-block;
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   margin: 0;
   vertical-align: baseline;
@@ -1598,7 +1598,7 @@ exports[`snapshots renders an input with size medium, disabled=false, required=u
 .emotion-4 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
@@ -1681,7 +1681,7 @@ exports[`snapshots renders an input with size medium, disabled=true, required=fa
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
@@ -1710,7 +1710,7 @@ exports[`snapshots renders an input with size medium, disabled=true, required=fa
   box-shadow: inset 0 0 0 2px rgb(229,225,218);
   box-sizing: border-box;
   display: inline-block;
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   margin: 0;
   vertical-align: baseline;
@@ -1754,7 +1754,7 @@ exports[`snapshots renders an input with size medium, disabled=true, required=fa
 .emotion-6 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
@@ -1776,7 +1776,7 @@ exports[`snapshots renders an input with size medium, disabled=true, required=fa
 .emotion-1 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
@@ -1868,7 +1868,7 @@ exports[`snapshots renders an input with size medium, disabled=true, required=tr
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
@@ -1897,7 +1897,7 @@ exports[`snapshots renders an input with size medium, disabled=true, required=tr
   box-shadow: inset 0 0 0 2px rgb(229,225,218);
   box-sizing: border-box;
   display: inline-block;
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   margin: 0;
   vertical-align: baseline;
@@ -1941,7 +1941,7 @@ exports[`snapshots renders an input with size medium, disabled=true, required=tr
 .emotion-7 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
@@ -1963,7 +1963,7 @@ exports[`snapshots renders an input with size medium, disabled=true, required=tr
 .emotion-1 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
@@ -1976,7 +1976,7 @@ exports[`snapshots renders an input with size medium, disabled=true, required=tr
 .emotion-2 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
@@ -2073,7 +2073,7 @@ exports[`snapshots renders an input with size medium, disabled=true, required=un
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
@@ -2102,7 +2102,7 @@ exports[`snapshots renders an input with size medium, disabled=true, required=un
   box-shadow: inset 0 0 0 2px rgb(229,225,218);
   box-sizing: border-box;
   display: inline-block;
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   margin: 0;
   vertical-align: baseline;
@@ -2146,7 +2146,7 @@ exports[`snapshots renders an input with size medium, disabled=true, required=un
 .emotion-4 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
@@ -2230,7 +2230,7 @@ exports[`snapshots renders an input with size small, disabled=false, required=fa
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
@@ -2251,7 +2251,7 @@ exports[`snapshots renders an input with size small, disabled=false, required=fa
 .emotion-6 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
@@ -2273,7 +2273,7 @@ exports[`snapshots renders an input with size small, disabled=false, required=fa
 .emotion-1 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
@@ -2295,7 +2295,7 @@ exports[`snapshots renders an input with size small, disabled=false, required=fa
   box-shadow: inset 0 0 0 2px rgb(229,225,218);
   box-sizing: border-box;
   display: inline-block;
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   margin: 0;
   vertical-align: baseline;
@@ -2416,7 +2416,7 @@ exports[`snapshots renders an input with size small, disabled=false, required=tr
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
@@ -2437,7 +2437,7 @@ exports[`snapshots renders an input with size small, disabled=false, required=tr
 .emotion-7 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
@@ -2459,7 +2459,7 @@ exports[`snapshots renders an input with size small, disabled=false, required=tr
 .emotion-1 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
@@ -2472,7 +2472,7 @@ exports[`snapshots renders an input with size small, disabled=false, required=tr
 .emotion-2 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
@@ -2494,7 +2494,7 @@ exports[`snapshots renders an input with size small, disabled=false, required=tr
   box-shadow: inset 0 0 0 2px rgb(229,225,218);
   box-sizing: border-box;
   display: inline-block;
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   margin: 0;
   vertical-align: baseline;
@@ -2620,7 +2620,7 @@ exports[`snapshots renders an input with size small, disabled=false, required=un
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
@@ -2641,7 +2641,7 @@ exports[`snapshots renders an input with size small, disabled=false, required=un
 .emotion-4 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
@@ -2664,7 +2664,7 @@ exports[`snapshots renders an input with size small, disabled=false, required=un
   box-shadow: inset 0 0 0 2px rgb(229,225,218);
   box-sizing: border-box;
   display: inline-block;
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   margin: 0;
   vertical-align: baseline;
@@ -2776,7 +2776,7 @@ exports[`snapshots renders an input with size small, disabled=true, required=fal
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
@@ -2797,7 +2797,7 @@ exports[`snapshots renders an input with size small, disabled=true, required=fal
 .emotion-6 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
@@ -2819,7 +2819,7 @@ exports[`snapshots renders an input with size small, disabled=true, required=fal
 .emotion-1 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
@@ -2841,7 +2841,7 @@ exports[`snapshots renders an input with size small, disabled=true, required=fal
   box-shadow: inset 0 0 0 2px rgb(229,225,218);
   box-sizing: border-box;
   display: inline-block;
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   margin: 0;
   vertical-align: baseline;
@@ -2963,7 +2963,7 @@ exports[`snapshots renders an input with size small, disabled=true, required=tru
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
@@ -2984,7 +2984,7 @@ exports[`snapshots renders an input with size small, disabled=true, required=tru
 .emotion-7 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
@@ -3006,7 +3006,7 @@ exports[`snapshots renders an input with size small, disabled=true, required=tru
 .emotion-1 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
@@ -3019,7 +3019,7 @@ exports[`snapshots renders an input with size small, disabled=true, required=tru
 .emotion-2 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
@@ -3041,7 +3041,7 @@ exports[`snapshots renders an input with size small, disabled=true, required=tru
   box-shadow: inset 0 0 0 2px rgb(229,225,218);
   box-sizing: border-box;
   display: inline-block;
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   margin: 0;
   vertical-align: baseline;
@@ -3168,7 +3168,7 @@ exports[`snapshots renders an input with size small, disabled=true, required=und
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
@@ -3189,7 +3189,7 @@ exports[`snapshots renders an input with size small, disabled=true, required=und
 .emotion-4 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
@@ -3212,7 +3212,7 @@ exports[`snapshots renders an input with size small, disabled=true, required=und
   box-shadow: inset 0 0 0 2px rgb(229,225,218);
   box-sizing: border-box;
   display: inline-block;
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   margin: 0;
   vertical-align: baseline;

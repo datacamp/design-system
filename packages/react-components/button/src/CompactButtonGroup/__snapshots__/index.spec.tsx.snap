@@ -80,7 +80,7 @@ exports[`CompactButtonGroup renders the buttons next to each other 1`] = `
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
-  font-family: sans-serif;
+  font-family: Arial;
   font-family: Studio-Feixen-Sans-Variable;
   font-style: normal;
   font-size: 16px;
