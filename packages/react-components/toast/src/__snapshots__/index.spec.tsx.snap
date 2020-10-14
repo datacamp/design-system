@@ -50,7 +50,7 @@ exports[`toast mounts a success toast 1`] = `
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
   font-family: Arial;
-  font-family: Studio-Feixen-Sans-Variable;
+  font-family: Studio-Feixen-Sans;
   font-style: normal;
   color: rgb(5,25,45);
   font-weight: 800;
@@ -200,7 +200,7 @@ exports[`toast mounts an error toast 1`] = `
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
   font-family: Arial;
-  font-family: Studio-Feixen-Sans-Variable;
+  font-family: Studio-Feixen-Sans;
   font-style: normal;
   color: rgb(5,25,45);
   font-weight: 800;

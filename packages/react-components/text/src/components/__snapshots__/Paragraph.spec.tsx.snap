@@ -5,7 +5,7 @@ exports[`<Paragraph /> renders with Strong, Small, Text, Link and Emphasis child
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
   font-family: Arial;
-  font-family: Studio-Feixen-Sans-Variable;
+  font-family: Studio-Feixen-Sans;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -21,7 +21,7 @@ exports[`<Paragraph /> renders with Strong, Small, Text, Link and Emphasis child
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
   font-family: Arial;
-  font-family: Studio-Feixen-Sans-Variable;
+  font-family: Studio-Feixen-Sans;
   font-style: normal;
   font-weight: 800;
   line-height: 16px;
@@ -31,7 +31,7 @@ exports[`<Paragraph /> renders with Strong, Small, Text, Link and Emphasis child
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
   font-family: Arial;
-  font-family: Studio-Feixen-Sans-Variable;
+  font-family: Studio-Feixen-Sans;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -42,7 +42,7 @@ exports[`<Paragraph /> renders with Strong, Small, Text, Link and Emphasis child
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
   font-family: Arial;
-  font-family: Studio-Feixen-Sans-Variable;
+  font-family: Studio-Feixen-Sans;
   font-style: normal;
   font-size: 14px;
   line-height: 16px;
@@ -52,7 +52,7 @@ exports[`<Paragraph /> renders with Strong, Small, Text, Link and Emphasis child
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
   font-family: Arial;
-  font-family: Studio-Feixen-Sans-Variable;
+  font-family: Studio-Feixen-Sans;
   font-style: normal;
   font-style: italic;
   font-weight: 400;
@@ -63,7 +63,7 @@ exports[`<Paragraph /> renders with Strong, Small, Text, Link and Emphasis child
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
   font-family: Arial;
-  font-family: Studio-Feixen-Sans-Variable;
+  font-family: Studio-Feixen-Sans;
   font-style: normal;
   color: #007bb6;
   cursor: pointer;
@@ -127,7 +127,7 @@ exports[`<Paragraph /> renders with a string 1`] = `
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
   font-family: Arial;
-  font-family: Studio-Feixen-Sans-Variable;
+  font-family: Studio-Feixen-Sans;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;

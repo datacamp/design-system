@@ -5,7 +5,7 @@ exports[`<Text /> renders with a string 1`] = `
   -webkit-font-smoothing: antialiased;
   color: rgb(5,25,45);
   font-family: Arial;
-  font-family: Studio-Feixen-Sans-Variable;
+  font-family: Studio-Feixen-Sans;
   font-style: normal;
   color: #007bb6;
   cursor: pointer;

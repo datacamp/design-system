@@ -3,19 +3,19 @@
 exports[`Core generates the correct files: lib/css/waffles.css 1`] = `
 "@charset \\"UTF-8\\";
 @font-face {
-  font-family: 'Studio-Feixen-Sans-Variable';
+  font-family: 'Studio-Feixen-Sans';
   src: url(\\"https://waffles.datacamp.com/fonts/StudioFeixenSans-Regular.woff2\\") format(\\"woff2\\"), url(\\"https://waffles.datacamp.com/fonts/StudioFeixenSans-Regular.woff\\") format(\\"woff\\"), url(\\"https://waffles.datacamp.com/fonts/StudioFeixenSans-Regular.ttf\\") format(\\"truetype\\");
   font-weight: 400;
   font-display: swap;
 }
 @font-face {
-  font-family: 'Studio-Feixen-Sans-Variable';
+  font-family: 'Studio-Feixen-Sans';
   src: url(\\"https://waffles.datacamp.com/fonts/StudioFeixenSans-Bold.woff2\\") format(\\"woff2\\"), url(\\"https://waffles.datacamp.com/fonts/StudioFeixenSans-Bold.woff\\") format(\\"woff\\"), url(\\"https://waffles.datacamp.com/fonts/StudioFeixenSans-Bold.ttf\\") format(\\"truetype\\");
   font-weight: 800;
   font-display: swap;
 }
 @font-face {
-  font-family: 'Studio-Feixen-Sans-Variable';
+  font-family: 'Studio-Feixen-Sans';
   src: url(\\"https://waffles.datacamp.com/fonts/StudioFeixenSans-Book.woff2\\") format(\\"woff2\\"), url(\\"https://waffles.datacamp.com/fonts/StudioFeixenSans-Book.woff\\") format(\\"woff\\"), url(\\"https://waffles.datacamp.com/fonts/StudioFeixenSans-Book.ttf\\") format(\\"truetype\\");
   font-weight: 100;
   font-display: swap;
@@ -2523,7 +2523,7 @@ th {
 }
 /** Font */
 .dc-u-ff-sans-serif {
-  font-family: \\"Studio-Feixen-Sans-Variable\\", Arial !important;
+  font-family: \\"Studio-Feixen-Sans\\", Arial !important;
 }
 .dc-u-ff-mono {
   font-family: \\"JetBrainsMonoNL\\", monospace !important;
@@ -4593,7 +4593,7 @@ html {
 }
 body {
   color: #05192d;
-  font-family: \\"Studio-Feixen-Sans-Variable\\", Arial;
+  font-family: \\"Studio-Feixen-Sans\\", Arial;
   font-size: 100%;
   -webkit-font-smoothing: antialiased;
   font-weight: 400;
@@ -14945,7 +14945,7 @@ $dc-colors: (
 /** Typography */
 
 // Font family
-$dc-font-family-sans-serif: 'Studio-Feixen-Sans-Variable', Arial;
+$dc-font-family-sans-serif: 'Studio-Feixen-Sans', Arial;
 $dc-font-family-mono: 'JetBrainsMonoNL', monospace;
 
 // Font size
@@ -15059,7 +15059,7 @@ exports[`Core generates the correct files: lib/scss/design/vendor/_feixen-font.s
 "// When editing this file don't forget to also update the font faces in the text package
 
 @font-face {
-  font-family: 'Studio-Feixen-Sans-Variable';
+  font-family: 'Studio-Feixen-Sans';
   src: url('https://waffles.datacamp.com/fonts/StudioFeixenSans-Regular.woff2')
       format('woff2'),
     url('https://waffles.datacamp.com/fonts/StudioFeixenSans-Regular.woff')
@@ -15071,7 +15071,7 @@ exports[`Core generates the correct files: lib/scss/design/vendor/_feixen-font.s
 }
 
 @font-face {
-  font-family: 'Studio-Feixen-Sans-Variable';
+  font-family: 'Studio-Feixen-Sans';
   src: url('https://waffles.datacamp.com/fonts/StudioFeixenSans-Bold.woff2')
       format('woff2'),
     url('https://waffles.datacamp.com/fonts/StudioFeixenSans-Bold.woff')
@@ -15083,7 +15083,7 @@ exports[`Core generates the correct files: lib/scss/design/vendor/_feixen-font.s
 }
 
 @font-face {
-  font-family: 'Studio-Feixen-Sans-Variable';
+  font-family: 'Studio-Feixen-Sans';
   src: url('https://waffles.datacamp.com/fonts/StudioFeixenSans-Book.woff2')
       format('woff2'),
     url('https://waffles.datacamp.com/fonts/StudioFeixenSans-Book.woff')
@@ -15678,7 +15678,7 @@ Object {
   },
   "fontFamily": Object {
     "mono": "'JetBrainsMonoNL'",
-    "sansSerif": "'Studio-Feixen-Sans-Variable'",
+    "sansSerif": "'Studio-Feixen-Sans'",
   },
   "fontSize": Object {
     "base": "16px",
