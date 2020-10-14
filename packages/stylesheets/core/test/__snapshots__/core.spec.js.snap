@@ -4708,6 +4708,10 @@ code {
   line-height: 1.5;
   margin: 0px 4px 0px 2px;
   padding: 0px 2px;
+  -webkit-font-feature-settings: none;
+          font-feature-settings: none;
+  -webkit-font-variant-ligatures: none;
+          font-variant-ligatures: none;
 }
 pre {
   font-family: \\"JetBrainsMonoNL\\", monospace;
@@ -13048,6 +13052,7 @@ code {
   line-height: $dc-line-height-base;
   margin: 0px 4px 0px 2px;
   padding: 0px 2px;
+  font-variant-ligatures: none;
 }
 
 pre {
