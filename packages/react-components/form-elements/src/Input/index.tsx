@@ -153,6 +153,9 @@ const InternalInput = ({
   value,
   innerRef,
   type = 'text',
+  max,
+  min,
+  step,
 }: InputProps & { innerRef?: Ref<HTMLInputElement> }): ReactElement => {
   const parsedDataAttributes = computeDataAttributes(dataAttributes);
 
@@ -202,13 +205,16 @@ const InternalInput = ({
         css={getInputStyle}
         disabled={disabled}
         id={id}
+        max={max}
         maxLength={maxLength}
+        min={min}
         name={name}
         onBlur={handleBlur}
         onChange={handleChange}
         placeholder={placeholder}
         ref={innerRef}
         required={htmlRequired}
+        step={step}
         type={type}
         value={value}
         {...parsedDataAttributes}
