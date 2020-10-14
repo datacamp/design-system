@@ -13,6 +13,7 @@ export default css`
       url('https://waffles.datacamp.com/fonts/StudioFeixenSans-Regular.ttf')
         format('truetype');
     font-weight: ${tokens.fontWeight.regular.value};
+    font-display: swap;
   }
 
   @font-face {
@@ -24,6 +25,7 @@ export default css`
       url('https://waffles.datacamp.com/fonts/StudioFeixenSans-Bold.ttf')
         format('truetype');
     font-weight: ${tokens.fontWeight.bold.value};
+    font-display: swap;
   }
 
   @font-face {
@@ -35,5 +37,6 @@ export default css`
       url('https://waffles.datacamp.com/fonts/StudioFeixenSans-Book.ttf')
         format('truetype');
     font-weight: ${tokens.fontWeight.light.value};
+    font-display: swap;
   }
 `;
