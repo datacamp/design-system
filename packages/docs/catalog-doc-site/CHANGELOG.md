@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0-beta.43](https://github.com/datacamp/design-system/compare/@datacamp/waffles-catalog-doc-site@2.0.0-beta.42...@datacamp/waffles-catalog-doc-site@2.0.0-beta.43) (2020-10-15)
+
+
+### Features
+
+* typography page ([0fcf8da](https://github.com/datacamp/design-system/commit/0fcf8da))
+* updates to colors page ([b9559df](https://github.com/datacamp/design-system/commit/b9559df))
+
+
+
+
+
 # [2.0.0-beta.42](https://github.com/datacamp/design-system/compare/@datacamp/waffles-catalog-doc-site@2.0.0-beta.41...@datacamp/waffles-catalog-doc-site@2.0.0-beta.42) (2020-10-14)
 
 **Note:** Version bump only for package @datacamp/waffles-catalog-doc-site

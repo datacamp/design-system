@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0-beta.2](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/icons/compare/@datacamp/waffles-icons@2.0.0-beta.1...@datacamp/waffles-icons@2.0.0-beta.2) (2020-10-15)
+
+
+### Features
+
+* update datacamp brand icon ([cd98c2e](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/icons/commit/cd98c2e))
+
+
+
+
+
 # [2.0.0-beta.1](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/icons/compare/@datacamp/waffles-icons@2.0.0-beta.0...@datacamp/waffles-icons@2.0.0-beta.1) (2020-09-29)
 
 

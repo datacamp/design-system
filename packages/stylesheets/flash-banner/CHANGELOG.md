@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.2.0-beta.1](https://github.com/datacamp/design-system/compare/@datacamp/waffles-flash-banner@0.2.0-beta.0...@datacamp/waffles-flash-banner@0.2.0-beta.1) (2020-10-15)
+
+
+### Features
+
+* rebrand the flash banner ([f8acd54](https://github.com/datacamp/design-system/commit/f8acd54))
+
+
+
+
+
 # [0.2.0-beta.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-flash-banner@0.1.20...@datacamp/waffles-flash-banner@0.2.0-beta.0) (2020-07-28)
 
 
