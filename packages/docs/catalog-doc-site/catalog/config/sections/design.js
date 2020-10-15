@@ -17,6 +17,11 @@ export default {
       path: '/design/logo',
       title: 'Logo',
     },
+    {
+      content: pageLoader(() => import('../../pages/design/typography.js')),
+      path: '/design/typography',
+      title: 'Typography',
+    },
   ],
   title: 'Design',
 };
