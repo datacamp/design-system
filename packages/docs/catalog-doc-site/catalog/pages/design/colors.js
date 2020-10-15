@@ -8,24 +8,21 @@ import React from 'react';
 
 import CustomHeader from '../../components/CustomHeader';
 
-const colors = _.pick(tokens.colors, [
-  'navy',
-  'green',
-  'blue',
-  'red',
-  'orange',
-  'purple',
-  'pink',
-  'yellow',
-  'beige100',
-  'beige200',
-  'beige300',
-  'beige400',
-  'grey100',
-  'grey200',
-  'grey300',
-  'grey400',
-]);
+const Colorlist = ({ category, colors }) => (
+  <li>
+    {category}
+    <ul>
+      {Object.entries(_.pick(tokens.colors, colors)).map(([name, value]) => (
+        <li css={css({ marginBottom: 8 })} key={name}>
+          {name} -{' '}
+          <Badge color={value} size="large">
+            {value}
+          </Badge>
+        </li>
+      ))}
+    </ul>
+  </li>
+);
 
 export default () => {
   return (
@@ -41,19 +38,31 @@ export default () => {
           <div className="dc-card" css={{ flex: '1 1 0', padding: 24 }}>
             <p>
               The DataCamp brand colors are listed below, with their resepective
-              hex codes. If you are wanting to use these colours in an
-              application, checkout the{' '}
-              <a href="/component-library/tokens">tokens package</a>.
+              hex codes. If you are wanting to use these colors in an
+              application, check out the{' '}
+              <a href="/component-library/tokens">tokens package</a>. For more
+              details on usage, download the full{' '}
+              <a href="/DC Guidelines (July 8).pdf">brand guidelines</a>.
             </p>
             <ul>
-              {Object.entries(colors).map(([name, value]) => (
-                <li css={css({ marginBottom: 8 })} key={name}>
-                  {name} -{' '}
-                  <Badge color={value} size="large">
-                    {value}
-                  </Badge>
-                </li>
-              ))}
+              <Colorlist category="Primary" colors={['navy', 'green']} />
+              <Colorlist
+                category="Secondary"
+                colors={['blue', 'red', 'orange', 'purple', 'pink', 'yellow']}
+              />
+              <Colorlist
+                category="Neutral"
+                colors={[
+                  'beige100',
+                  'beige200',
+                  'beige300',
+                  'beige400',
+                  'grey100',
+                  'grey200',
+                  'grey300',
+                  'grey400',
+                ]}
+              />
             </ul>
           </div>
         </section>
