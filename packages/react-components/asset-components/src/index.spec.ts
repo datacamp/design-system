@@ -34,9 +34,6 @@ describe('index', () => {
             "Regular": [Function],
             "SingleColor": [Function],
           },
-          "Signal": Object {
-            "Inverted": [Function],
-          },
           "Waffles": Object {
             "Icon": [Function],
             "Inverted": [Function],
