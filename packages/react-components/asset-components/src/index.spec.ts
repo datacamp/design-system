@@ -35,10 +35,8 @@ describe('index', () => {
             "SingleColor": [Function],
           },
           "Waffles": Object {
-            "Icon": [Function],
             "Inverted": [Function],
             "Regular": [Function],
-            "SingleColor": [Function],
           },
         },
         "TechLogo": [Function],
