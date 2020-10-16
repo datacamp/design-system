@@ -1,6 +1,6 @@
 import tokens from '@datacamp/waffles-tokens/lib/future-tokens.json';
 
-export const logoSrc = '/logo-waffles-regular.svg';
+export const logoSrc = '/logo-waffles-inverted.svg';
 
 export const theme = {
   background: tokens.color.neutral.beige100.value.hex,
