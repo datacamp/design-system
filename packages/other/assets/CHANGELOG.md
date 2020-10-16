@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0-beta.4](https://github.com/datacamp/design-system/compare/@datacamp/waffles-assets@2.0.0-beta.3...@datacamp/waffles-assets@2.0.0-beta.4) (2020-10-16)
+
+
+### Features
+
+* remove Signal Logo ([555eec3](https://github.com/datacamp/design-system/commit/555eec3))
+* update waffles logo ([e5ff474](https://github.com/datacamp/design-system/commit/e5ff474))
+
+
+
+
+
 # [2.0.0-beta.3](https://github.com/datacamp/design-system/compare/@datacamp/waffles-assets@2.0.0-beta.2...@datacamp/waffles-assets@2.0.0-beta.3) (2020-09-29)
 
 

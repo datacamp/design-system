@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0-beta.44](https://github.com/datacamp/design-system/compare/@datacamp/waffles-catalog-doc-site@2.0.0-beta.43...@datacamp/waffles-catalog-doc-site@2.0.0-beta.44) (2020-10-16)
+
+
+### Features
+
+* update waffles logo on doc site ([96fe816](https://github.com/datacamp/design-system/commit/96fe816))
+
+
+
+
+
 # [2.0.0-beta.43](https://github.com/datacamp/design-system/compare/@datacamp/waffles-catalog-doc-site@2.0.0-beta.42...@datacamp/waffles-catalog-doc-site@2.0.0-beta.43) (2020-10-15)
 
 
