@@ -5,7 +5,6 @@ import {
   Logos,
   TechLogo,
   Technologies,
-  Topics,
 } from '@datacamp/waffles-asset-components';
 import Card from '@datacamp/waffles-card';
 import {
@@ -153,12 +152,8 @@ export default () => {
               )}
               components={ALPA}
               nameFunction={name =>
-                `<ALPALoop ${name === 'Alpa' ? '' : 'highlight={name} '}/>`
+                `<ALPALoop ${name === 'Alpa' ? '' : `highlight="${name}" `}/>`
               }
-            />
-            <ComponentTable
-              components={Logos.Signal}
-              nameFunction={name => `<Logos.Signal.${name} />`}
             />
             <ComponentTable
               components={Logos.Waffles}
@@ -182,10 +177,6 @@ export default () => {
                 }
                 return `<TechLogo height={39} width={39} technology="${parsedName}" />`;
               }}
-            />
-            <ComponentTable
-              components={Topics}
-              nameFunction={name => `<Topics.${name} height={39} width={39} />`}
             />
           </Card>
           <Card css={{ marginTop: 16, padding: 24 }} elevation={2}>
