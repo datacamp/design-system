@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0-beta.45](https://github.com/datacamp/design-system/compare/@datacamp/waffles-catalog-doc-site@2.0.0-beta.44...@datacamp/waffles-catalog-doc-site@2.0.0-beta.45) (2020-10-19)
+
+
+### Bug Fixes
+
+* remove unused assets from docs page ([b4cde93](https://github.com/datacamp/design-system/commit/b4cde93))
+
+
+
+
+
 # [2.0.0-beta.44](https://github.com/datacamp/design-system/compare/@datacamp/waffles-catalog-doc-site@2.0.0-beta.43...@datacamp/waffles-catalog-doc-site@2.0.0-beta.44) (2020-10-16)
 
 

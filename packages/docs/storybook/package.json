@@ -1,6 +1,6 @@
 {
   "name": "@datacamp/waffles-storybook",
-  "version": "2.0.0-beta.38",
+  "version": "2.0.0-beta.39",
   "main": "index.js",
   "license": "NONE",
   "private": true,
@@ -24,7 +24,7 @@
     "@datacamp/waffles-icons": "^2.0.0-beta.2",
     "@datacamp/waffles-loaders": "^1.0.0-beta.1",
     "@datacamp/waffles-markdown": "^3.0.0-beta.25",
-    "@datacamp/waffles-modals": "^6.0.0-beta.31",
+    "@datacamp/waffles-modals": "^6.0.0-beta.32",
     "@datacamp/waffles-positioner": "^1.0.23-beta.0",
     "@datacamp/waffles-tag": "^2.0.0-beta.16",
     "@datacamp/waffles-text": "^4.0.0-beta.25",
