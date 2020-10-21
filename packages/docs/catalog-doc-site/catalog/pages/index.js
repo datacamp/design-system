@@ -17,7 +17,7 @@ export default () => {
       >
         <div style={ContainerStyle}>
           <h1 className="dc-u-mt-0" css={{ color: '#03EF62' }}>
-            This is the BETA waffles site
+            Waffles is the DataCamp design system
           </h1>
           <p className="dc-u-maxw-640" css={{ color: 'white' }}>
             Waffles provides all the tools you need to build wonderful
@@ -30,13 +30,10 @@ export default () => {
       <Page>
         <h2>Brand Guidelines</h2>
         <p>
-          Please find the updated Datacamp brand guidelines in the pdf below.
-          The rest of this site will be updated to reflect the information
-          contained below, but at present doesn't represent the latest
-          guidelines.
-        </p>
-        <p>
-          <strong>For internal use only, do not share.</strong>
+          Please find the full Datacamp brand guidelines in the pdf below. Check
+          out the rest of this site for information on how to apply these
+          guidelines, and documentation on our library of packages for use in
+          DataCamp applications.
         </p>
         <iframe
           css={{ minHeight: 660, width: '100%' }}
