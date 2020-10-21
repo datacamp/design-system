@@ -264,7 +264,6 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 * remove unused Tag import ([1b688e8](https://github.com/datacamp/design-system/commit/1b688e8))
 * replace dashify helper with same lodash method as used to generate ([9f02cca](https://github.com/datacamp/design-system/commit/9f02cca))
 
-
 ### Features
 
 * add details about gradient removal to upgrade article ([8313180](https://github.com/datacamp/design-system/commit/8313180))
@@ -552,6 +551,14 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 ### Features
 
 * host writer font files ([04da56f](https://github.com/datacamp/design-system/commit/04da56f))
+
+
+
+# [1.43.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-catalog-doc-site@1.42.6...@datacamp/waffles-catalog-doc-site@1.43.0) (2020-10-13)
+
+* host jetbrains mono in other formats ([dc34019](https://github.com/datacamp/design-system/commit/dc34019))
+
+
 
 
 
