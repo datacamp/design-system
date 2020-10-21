@@ -1,6 +1,6 @@
 {
   "name": "@datacamp/waffles-assets",
-  "version": "2.0.0-beta.4",
+  "version": "2.0.0",
   "description": "",
   "main": ".",
   "homepage": "https://github.com/datacamp-engineering/design-system/tree/master/packages/other/assets/README.md",
