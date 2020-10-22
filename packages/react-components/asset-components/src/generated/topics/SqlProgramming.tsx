@@ -1,8 +1,27 @@
 import * as React from 'react';
+interface SVGRProps {
+  title?: string;
+  titleId?: string;
+}
 
-function SvgSqlProgramming(props: React.SVGProps<SVGSVGElement>) {
+function SvgSqlProgramming({
+  title,
+  titleId,
+  ...props
+}: React.SVGProps<SVGSVGElement> & SVGRProps) {
   return (
-    <svg width={192} height={192} {...props}>
+    <svg
+      width={192}
+      height={192}
+      role="img"
+      aria-labelledby={titleId}
+      {...props}
+    >
+      {title === undefined ? (
+        <title id={titleId}>{'SQL Programming'}</title>
+      ) : title ? (
+        <title id={titleId}>{title}</title>
+      ) : null}
       <defs>
         <path id="sql-programming_svg__a" d="M0 0h192v192H0z" />
         <path

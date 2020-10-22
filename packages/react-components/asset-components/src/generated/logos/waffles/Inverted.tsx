@@ -1,8 +1,27 @@
 import * as React from 'react';
+interface SVGRProps {
+  title?: string;
+  titleId?: string;
+}
 
-function SvgInverted(props: React.SVGProps<SVGSVGElement>) {
+function SvgInverted({
+  title,
+  titleId,
+  ...props
+}: React.SVGProps<SVGSVGElement> & SVGRProps) {
   return (
-    <svg width={159} height={35} {...props}>
+    <svg
+      width={159}
+      height={35}
+      role="img"
+      aria-labelledby={titleId}
+      {...props}
+    >
+      {title === undefined ? (
+        <title id={titleId}>{'waffles/full'}</title>
+      ) : title ? (
+        <title id={titleId}>{title}</title>
+      ) : null}
       <g fill="none" fillRule="evenodd">
         <path
           d="M25.218 20.296l6.272 6.273c.03.03.06.058.091.084a17.495 17.495 0 01-2.479 3.115c-.969.97-2.022 1.8-3.136 2.494l-.08-.088-6.273-6.272 5.605-5.606zm8.125-8.123c1.176 3.527 1.149 7.386-.074 10.943l-5.435-5.435zM16.997 28.517l5.427 5.427a17.091 17.091 0 01-10.917.065l5.49-5.492zm9.106-25.339A16.579 16.579 0 0129.338 5.7c.915.914 1.7 1.91 2.356 2.964l-.074.067-6.369 6.368-5.534-5.534 6.369-6.368zM8.88 20.401l5.534 5.534-6.367 6.368a1.766 1.766 0 00-.054.056 16.601 16.601 0 01-2.96-2.355 16.579 16.579 0 01-2.521-3.234L8.88 20.4zm8.22-8.22l5.535 5.533-5.606 5.605-5.533-5.533 5.605-5.606zm-16.007.433L6.3 17.819.92 23.196a17.103 17.103 0 01.173-10.582zM5.27 5.936a17.56 17.56 0 013.11-2.478l6.14 6.14-5.606 5.605L2.78 9.068a17.536 17.536 0 012.262-2.9zm6.652-4.167a17.104 17.104 0 0110.608-.181l-5.395 5.394z"

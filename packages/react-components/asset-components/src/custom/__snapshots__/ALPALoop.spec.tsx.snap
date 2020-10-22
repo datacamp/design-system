@@ -2,8 +2,12 @@
 
 exports[`<ALPALoop /> renders a Apply logo 1`] = `
 <svg
+  role="img"
   viewBox="0 0 673 673"
 >
+  <title>
+    APPLY
+  </title>
   <defs>
     <filter
       filterUnits="objectBoundingBox"
@@ -197,8 +201,12 @@ exports[`<ALPALoop /> renders a Apply logo 1`] = `
 
 exports[`<ALPALoop /> renders a Assess logo 1`] = `
 <svg
+  role="img"
   viewBox="0 0 673 673"
 >
+  <title>
+    ASSESS
+  </title>
   <defs>
     <filter
       filterUnits="objectBoundingBox"
@@ -392,8 +400,12 @@ exports[`<ALPALoop /> renders a Assess logo 1`] = `
 
 exports[`<ALPALoop /> renders a Learn logo 1`] = `
 <svg
+  role="img"
   viewBox="0 0 673 673"
 >
+  <title>
+    LEARN
+  </title>
   <defs>
     <filter
       filterUnits="objectBoundingBox"
@@ -587,8 +599,12 @@ exports[`<ALPALoop /> renders a Learn logo 1`] = `
 
 exports[`<ALPALoop /> renders a Practice logo 1`] = `
 <svg
+  role="img"
   viewBox="0 0 673 673"
 >
+  <title>
+    PRACTICE
+  </title>
   <defs>
     <filter
       filterUnits="objectBoundingBox"

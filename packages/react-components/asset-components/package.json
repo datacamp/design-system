@@ -5,21 +5,14 @@
   "module": "es/index.js",
   "types": "types/index.d.ts",
   "license": "UNLICENSED",
-  "files": [
-    "es",
-    "lib",
-    "types"
-  ],
-  "sideEffects": [
-    "lib/sideEffects/*",
-    "es/sideEffects/*"
-  ],
+  "files": ["es", "lib", "types"],
+  "sideEffects": ["lib/sideEffects/*", "es/sideEffects/*"],
   "repository": {
     "type": "git",
     "url": "https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/card/"
   },
   "scripts": {
-    "build:src": "svgr --out-dir src/generated --ext tsx --typescript ../../other/assets",
+    "build:src": "svgr --svg-props role=img --title-prop --out-dir src/generated --ext tsx --typescript ../../other/assets",
     "build:cjs": "BABEL_ENV=cjs babel src --extensions '.tsx','.ts' --out-dir lib --ignore \"src/**/*.spec.tsx\",\"src/**/*.spec.ts\" --config-file ./babel7.config.js",
     "build:es": "BABEL_ENV=es babel src --extensions '.tsx','.ts' --out-dir es --ignore \"src/**/*.spec.tsx\",\"src/**/*.spec.ts\" --config-file ./babel7.config.js",
     "clean": "rm -rf lib es types componentMetadata.json src/generated",
