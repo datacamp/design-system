@@ -1,8 +1,27 @@
 import * as React from 'react';
+interface SVGRProps {
+  title?: string;
+  titleId?: string;
+}
 
-function SvgSingleColor(props: React.SVGProps<SVGSVGElement>) {
+function SvgSingleColor({
+  title,
+  titleId,
+  ...props
+}: React.SVGProps<SVGSVGElement> & SVGRProps) {
   return (
-    <svg width={169} height={40} {...props}>
+    <svg
+      width={169}
+      height={40}
+      role="img"
+      aria-labelledby={titleId}
+      {...props}
+    >
+      {title === undefined ? (
+        <title id={titleId}>{'DataCamp for Business'}</title>
+      ) : title ? (
+        <title id={titleId}>{title}</title>
+      ) : null}
       <defs>
         <path
           id="single-color_svg__a"

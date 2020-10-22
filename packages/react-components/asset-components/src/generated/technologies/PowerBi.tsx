@@ -1,8 +1,21 @@
 import * as React from 'react';
+interface SVGRProps {
+  title?: string;
+  titleId?: string;
+}
 
-function SvgPowerBi(props: React.SVGProps<SVGSVGElement>) {
+function SvgPowerBi({
+  title,
+  titleId,
+  ...props
+}: React.SVGProps<SVGSVGElement> & SVGRProps) {
   return (
-    <svg viewBox="0 0 39 39" {...props}>
+    <svg viewBox="0 0 39 39" role="img" aria-labelledby={titleId} {...props}>
+      {title === undefined ? (
+        <title id={titleId}>{'Power BI'}</title>
+      ) : title ? (
+        <title id={titleId}>{title}</title>
+      ) : null}
       <g fill="none" fillRule="evenodd">
         <circle cx={19.5} cy={19.5} r={19.5} fill="#05192D" />
         <path

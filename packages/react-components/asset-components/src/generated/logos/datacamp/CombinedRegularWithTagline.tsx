@@ -1,8 +1,23 @@
 import * as React from 'react';
+interface SVGRProps {
+  title?: string;
+  titleId?: string;
+}
 
-function SvgCombinedRegularWithTagline(props: React.SVGProps<SVGSVGElement>) {
+function SvgCombinedRegularWithTagline({
+  title,
+  titleId,
+  ...props
+}: React.SVGProps<SVGSVGElement> & SVGRProps) {
   return (
-    <svg width={352} height={193} {...props}>
+    <svg
+      width={352}
+      height={193}
+      role="img"
+      aria-labelledby={titleId}
+      {...props}
+    >
+      {title ? <title id={titleId}>{title}</title> : null}
       <g fill="#05192D" fillRule="evenodd">
         <path
           fillRule="nonzero"

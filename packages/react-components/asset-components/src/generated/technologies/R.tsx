@@ -1,8 +1,21 @@
 import * as React from 'react';
+interface SVGRProps {
+  title?: string;
+  titleId?: string;
+}
 
-function SvgR(props: React.SVGProps<SVGSVGElement>) {
+function SvgR({
+  title,
+  titleId,
+  ...props
+}: React.SVGProps<SVGSVGElement> & SVGRProps) {
   return (
-    <svg viewBox="0 0 39 39" {...props}>
+    <svg viewBox="0 0 39 39" role="img" aria-labelledby={titleId} {...props}>
+      {title === undefined ? (
+        <title id={titleId}>{'R'}</title>
+      ) : title ? (
+        <title id={titleId}>{title}</title>
+      ) : null}
       <g fill="none" fillRule="evenodd">
         <circle cx={19.5} cy={19.5} r={19.5} fill="#05192D" />
         <g fill="#FFF" fillRule="nonzero">

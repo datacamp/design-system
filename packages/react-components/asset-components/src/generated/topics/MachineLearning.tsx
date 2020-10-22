@@ -1,8 +1,27 @@
 import * as React from 'react';
+interface SVGRProps {
+  title?: string;
+  titleId?: string;
+}
 
-function SvgMachineLearning(props: React.SVGProps<SVGSVGElement>) {
+function SvgMachineLearning({
+  title,
+  titleId,
+  ...props
+}: React.SVGProps<SVGSVGElement> & SVGRProps) {
   return (
-    <svg width={192} height={192} {...props}>
+    <svg
+      width={192}
+      height={192}
+      role="img"
+      aria-labelledby={titleId}
+      {...props}
+    >
+      {title === undefined ? (
+        <title id={titleId}>{'Machine Learning'}</title>
+      ) : title ? (
+        <title id={titleId}>{title}</title>
+      ) : null}
       <defs>
         <linearGradient
           id="machine-learning_svg__e"

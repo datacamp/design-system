@@ -2,8 +2,12 @@
 
 exports[`<TechLogo /> renders a Excel logo 1`] = `
 <svg
+  role="img"
   viewBox="0 0 39 39"
 >
+  <title>
+    Excel
+  </title>
   <g
     fill="none"
     fill-rule="evenodd"
@@ -25,8 +29,12 @@ exports[`<TechLogo /> renders a Excel logo 1`] = `
 
 exports[`<TechLogo /> renders a Git logo 1`] = `
 <svg
+  role="img"
   viewBox="0 0 39 39"
 >
+  <title>
+    Git
+  </title>
   <g
     fill="none"
     fill-rule="evenodd"
@@ -47,8 +55,12 @@ exports[`<TechLogo /> renders a Git logo 1`] = `
 
 exports[`<TechLogo /> renders a Power BI logo 1`] = `
 <svg
+  role="img"
   viewBox="0 0 39 39"
 >
+  <title>
+    Power BI
+  </title>
   <g
     fill="none"
     fill-rule="evenodd"
@@ -69,8 +81,12 @@ exports[`<TechLogo /> renders a Power BI logo 1`] = `
 
 exports[`<TechLogo /> renders a PowerBi logo 1`] = `
 <svg
+  role="img"
   viewBox="0 0 39 39"
 >
+  <title>
+    Power BI
+  </title>
   <g
     fill="none"
     fill-rule="evenodd"
@@ -91,8 +107,12 @@ exports[`<TechLogo /> renders a PowerBi logo 1`] = `
 
 exports[`<TechLogo /> renders a Python logo 1`] = `
 <svg
+  role="img"
   viewBox="0 0 39 39"
 >
+  <title>
+    Python
+  </title>
   <g
     fill="none"
     fill-rule="evenodd"
@@ -114,8 +134,12 @@ exports[`<TechLogo /> renders a Python logo 1`] = `
 
 exports[`<TechLogo /> renders a R logo 1`] = `
 <svg
+  role="img"
   viewBox="0 0 39 39"
 >
+  <title>
+    R
+  </title>
   <g
     fill="none"
     fill-rule="evenodd"
@@ -143,8 +167,12 @@ exports[`<TechLogo /> renders a R logo 1`] = `
 
 exports[`<TechLogo /> renders a SQL logo 1`] = `
 <svg
+  role="img"
   viewBox="0 0 39 39"
 >
+  <title>
+    SQL
+  </title>
   <g
     fill="none"
     fill-rule="evenodd"
@@ -166,8 +194,12 @@ exports[`<TechLogo /> renders a SQL logo 1`] = `
 
 exports[`<TechLogo /> renders a Scala logo 1`] = `
 <svg
+  role="img"
   viewBox="0 0 39 39"
 >
+  <title>
+    Scala
+  </title>
   <g
     fill="none"
     fill-rule="evenodd"
@@ -189,8 +221,12 @@ exports[`<TechLogo /> renders a Scala logo 1`] = `
 
 exports[`<TechLogo /> renders a Shell logo 1`] = `
 <svg
+  role="img"
   viewBox="0 0 39 39"
 >
+  <title>
+    Shell
+  </title>
   <g
     fill="none"
     fill-rule="evenodd"
@@ -211,8 +247,12 @@ exports[`<TechLogo /> renders a Shell logo 1`] = `
 
 exports[`<TechLogo /> renders a Spreadsheets logo 1`] = `
 <svg
+  role="img"
   viewBox="0 0 39 39"
 >
+  <title>
+    Spreadsheet
+  </title>
   <g
     fill="none"
     fill-rule="evenodd"
@@ -233,8 +273,12 @@ exports[`<TechLogo /> renders a Spreadsheets logo 1`] = `
 
 exports[`<TechLogo /> renders a Sql logo 1`] = `
 <svg
+  role="img"
   viewBox="0 0 39 39"
 >
+  <title>
+    SQL
+  </title>
   <g
     fill="none"
     fill-rule="evenodd"
@@ -256,8 +300,12 @@ exports[`<TechLogo /> renders a Sql logo 1`] = `
 
 exports[`<TechLogo /> renders a Tableau logo 1`] = `
 <svg
+  role="img"
   viewBox="0 0 39 39"
 >
+  <title>
+    Tableau
+  </title>
   <g
     fill="none"
     fill-rule="evenodd"
@@ -278,8 +326,12 @@ exports[`<TechLogo /> renders a Tableau logo 1`] = `
 
 exports[`<TechLogo /> renders a Theory logo 1`] = `
 <svg
+  role="img"
   viewBox="0 0 39 39"
 >
+  <title>
+    Theory
+  </title>
   <g
     fill="none"
     fill-rule="evenodd"
@@ -300,8 +352,12 @@ exports[`<TechLogo /> renders a Theory logo 1`] = `
 
 exports[`<TechLogo /> renders a excel logo 1`] = `
 <svg
+  role="img"
   viewBox="0 0 39 39"
 >
+  <title>
+    Excel
+  </title>
   <g
     fill="none"
     fill-rule="evenodd"
@@ -323,8 +379,12 @@ exports[`<TechLogo /> renders a excel logo 1`] = `
 
 exports[`<TechLogo /> renders a power_bi logo 1`] = `
 <svg
+  role="img"
   viewBox="0 0 39 39"
 >
+  <title>
+    Power BI
+  </title>
   <g
     fill="none"
     fill-rule="evenodd"
@@ -345,8 +405,12 @@ exports[`<TechLogo /> renders a power_bi logo 1`] = `
 
 exports[`<TechLogo /> renders a python logo 1`] = `
 <svg
+  role="img"
   viewBox="0 0 39 39"
 >
+  <title>
+    Python
+  </title>
   <g
     fill="none"
     fill-rule="evenodd"

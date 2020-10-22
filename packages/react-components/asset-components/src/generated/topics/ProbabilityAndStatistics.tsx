@@ -1,8 +1,27 @@
 import * as React from 'react';
+interface SVGRProps {
+  title?: string;
+  titleId?: string;
+}
 
-function SvgProbabilityAndStatistics(props: React.SVGProps<SVGSVGElement>) {
+function SvgProbabilityAndStatistics({
+  title,
+  titleId,
+  ...props
+}: React.SVGProps<SVGSVGElement> & SVGRProps) {
   return (
-    <svg width={192} height={192} {...props}>
+    <svg
+      width={192}
+      height={192}
+      role="img"
+      aria-labelledby={titleId}
+      {...props}
+    >
+      {title === undefined ? (
+        <title id={titleId}>{'Probability and Statistics'}</title>
+      ) : title ? (
+        <title id={titleId}>{title}</title>
+      ) : null}
       <defs>
         <path
           id="probability-and-statistics_svg__b"

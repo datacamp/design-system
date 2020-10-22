@@ -1,8 +1,27 @@
 import * as React from 'react';
+interface SVGRProps {
+  title?: string;
+  titleId?: string;
+}
 
-function SvgOther(props: React.SVGProps<SVGSVGElement>) {
+function SvgOther({
+  title,
+  titleId,
+  ...props
+}: React.SVGProps<SVGSVGElement> & SVGRProps) {
   return (
-    <svg width={192} height={192} {...props}>
+    <svg
+      width={192}
+      height={192}
+      role="img"
+      aria-labelledby={titleId}
+      {...props}
+    >
+      {title === undefined ? (
+        <title id={titleId}>{'Other'}</title>
+      ) : title ? (
+        <title id={titleId}>{title}</title>
+      ) : null}
       <defs>
         <linearGradient id="other_svg__a" x1="50%" x2="50%" y1="0%" y2="100%">
           <stop offset="0%" stopColor="#D4E4F1" />

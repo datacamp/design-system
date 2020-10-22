@@ -1,8 +1,21 @@
 import * as React from 'react';
+interface SVGRProps {
+  title?: string;
+  titleId?: string;
+}
 
-function SvgAlpa(props: React.SVGProps<SVGSVGElement>) {
+function SvgAlpa({
+  title,
+  titleId,
+  ...props
+}: React.SVGProps<SVGSVGElement> & SVGRProps) {
   return (
-    <svg viewBox="0 0 673 673" {...props}>
+    <svg viewBox="0 0 673 673" role="img" aria-labelledby={titleId} {...props}>
+      {title === undefined ? (
+        <title id={titleId}>{'ALPA'}</title>
+      ) : title ? (
+        <title id={titleId}>{title}</title>
+      ) : null}
       <defs>
         <filter
           x="0%"

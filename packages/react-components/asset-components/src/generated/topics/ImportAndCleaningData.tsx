@@ -1,8 +1,27 @@
 import * as React from 'react';
+interface SVGRProps {
+  title?: string;
+  titleId?: string;
+}
 
-function SvgImportAndCleaningData(props: React.SVGProps<SVGSVGElement>) {
+function SvgImportAndCleaningData({
+  title,
+  titleId,
+  ...props
+}: React.SVGProps<SVGSVGElement> & SVGRProps) {
   return (
-    <svg width={192} height={192} {...props}>
+    <svg
+      width={192}
+      height={192}
+      role="img"
+      aria-labelledby={titleId}
+      {...props}
+    >
+      {title === undefined ? (
+        <title id={titleId}>{'Import and Cleaning Data'}</title>
+      ) : title ? (
+        <title id={titleId}>{title}</title>
+      ) : null}
       <defs>
         <path id="import-and-cleaning-data_svg__a" d="M0 0h192v192H0z" />
         <path
