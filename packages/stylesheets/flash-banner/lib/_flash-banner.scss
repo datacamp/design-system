@@ -121,15 +121,15 @@
 
 // Yellow / Notice
 .dc-flash--notice {
-  @include color-flash($bg: $dc-yellow, $link-color: $dc-blue, $link-hover: $dc-blue);
+  @include color-flash($bg: $dc-yellow, $link-color: $dc-navy-text, $link-hover: $dc-navy-text);
 }
 
 // Green / Success
 .dc-flash--success {
-  @include color-flash($bg: $dc-green, $link-color: $dc-blue, $link-hover: $dc-blue);
+  @include color-flash($bg: $dc-green, $link-color: $dc-navy-text, $link-hover: $dc-navy-text);
 }
 
 // Red / Error
 .dc-flash--error {
-  @include color-flash($bg: $dc-red, $link-color: $dc-blue, $link-hover: $dc-blue);
+  @include color-flash($bg: $dc-red, $link-color: $dc-navy-text, $link-hover: $dc-navy-text);
 }
