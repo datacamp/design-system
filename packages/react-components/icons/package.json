@@ -44,7 +44,7 @@
     "merge-stream": "^2.0.0",
     "react": "^16.8.6",
     "sharp": "0.25.4",
-    "typescript": "3.9.5"
+    "typescript": "3.9.7"
   },
   "dependencies": {
     "@babel/runtime": "^7.11.0",
