@@ -18,11 +18,11 @@
   },
   "devDependencies": {
     "@babel/core": "^7.11.0",
-    "typescript": "^3.9.5"
+    "typescript": "^3.9.7"
   },
   "peerDependencies": {
     "@babel/core": "^7.11.0",
     "@babel/runtime": "^7.5.1",
-    "typescript": "^3.9.5"
+    "typescript": "^3.9.7"
   }
 }
