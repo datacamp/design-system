@@ -148,7 +148,7 @@ export default () => {
   <CodeBlock>{\`gapminder %>%
 filter(year == 2007) %>%
 arrange(desc(gdpPercap))\`}</CodeBlock>
-  <Badge color={colors.primary} size="large">
+  <Badge color={colors.navy} size="large">
     Badge
   </Badge>
 </>`}
