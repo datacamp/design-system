@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.1.0](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/card/compare/@datacamp/waffles-asset-components@2.0.0...@datacamp/waffles-asset-components@2.1.0) (2020-10-26)
+
+
+### Features
+
+* add titles and roles to asset components ([204c3f5](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/card/commit/204c3f5))
+
+
+
+
+
 # [2.0.0](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/card/compare/@datacamp/waffles-asset-components@2.0.0-beta.12...@datacamp/waffles-asset-components@2.0.0) (2020-10-21)
 
 **Note:** Version bump only for package @datacamp/waffles-asset-components

@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.0.1](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/form-elements/compare/@datacamp/waffles-form-elements@3.0.0...@datacamp/waffles-form-elements@3.0.1) (2020-10-26)
+
+
+### Bug Fixes
+
+* radio button positioning in IE11 ([6e66c8d](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/form-elements/commit/6e66c8d))
+
+
+
+
+
 # [3.0.0](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/form-elements/compare/@datacamp/waffles-form-elements@3.0.0-beta.28...@datacamp/waffles-form-elements@3.0.0) (2020-10-21)
 
 **Note:** Version bump only for package @datacamp/waffles-form-elements

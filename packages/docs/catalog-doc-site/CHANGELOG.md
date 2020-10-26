@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.1.1](https://github.com/datacamp/design-system/compare/@datacamp/waffles-catalog-doc-site@2.1.0...@datacamp/waffles-catalog-doc-site@2.1.1) (2020-10-26)
+
+
+### Bug Fixes
+
+* remove reference to old colour on text docs ([4385704](https://github.com/datacamp/design-system/commit/4385704))
+
+
+
+
+
 # [2.1.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-catalog-doc-site@2.0.0...@datacamp/waffles-catalog-doc-site@2.1.0) (2020-10-21)
 
 
