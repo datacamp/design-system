@@ -39,7 +39,7 @@
     "react": "16.8.6"
   },
   "dependencies": {
-    "@babel/runtime": "^7.11.0",
+    "@babel/runtime": "^7.12.1",
     "lodash": "^4.17.13"
   },
   "peerDependencies": {
