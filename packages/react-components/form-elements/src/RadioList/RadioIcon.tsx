@@ -23,6 +23,7 @@ const RadioIcon: React.FC<{
           height: '18px',
           opacity: disabled ? 0.3 : 1,
           position: 'absolute',
+          top: '0px',
           width: '18px',
         })}
       />
@@ -36,6 +37,7 @@ const RadioIcon: React.FC<{
             marginLeft: '5px',
             opacity: disabled ? 0.3 : 1,
             position: 'absolute',
+            top: '5px',
             width: '8px',
           }}
         />
