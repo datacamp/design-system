@@ -191,17 +191,21 @@ const InternalButton = (
     });
   };
 
+  const focusStyleContent = {
+    border: `1px dashed ${textColor}`,
+    borderRadius: 2,
+    bottom: 2,
+    content: "''",
+    left: 2,
+    position: 'absolute',
+    right: 2,
+    top: 2,
+  } as const;
+
   const focusStyle = css({
-    '::after': {
-      border: `1px dashed ${textColor}`,
-      borderRadius: 2,
-      bottom: 2,
-      content: "''",
-      left: 2,
-      position: 'absolute',
-      right: 2,
-      top: 2,
-    },
+    ':focus::after': focusStyleContent, // add focus style
+    ':focus:not(:focus-visible)::after': { border: 'none' }, // in browsers that support :focus-visible hide the focus border
+    ':focus-visible::after': focusStyleContent, // in browsers that support :focus-visible reapply focus style
   });
 
   const parsedDataAttributes = computeDataAttributes(dataAttributes);
