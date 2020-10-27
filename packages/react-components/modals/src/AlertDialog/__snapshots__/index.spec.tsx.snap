@@ -356,7 +356,22 @@ exports[`<AlertModal /> isOpen renders the modal via a portal when true 1`] = `
   border-color: #213147;
 }
 
-.emotion-6::after {
+.emotion-6:focus::after {
+  border: 1px dashed white;
+  border-radius: 2px;
+  bottom: 2px;
+  content: '';
+  left: 2px;
+  position: absolute;
+  right: 2px;
+  top: 2px;
+}
+
+.emotion-6:focus:not(:focus-visible)::after {
+  border: none;
+}
+
+.emotion-6:focus-visible::after {
   border: 1px dashed white;
   border-radius: 2px;
   bottom: 2px;
