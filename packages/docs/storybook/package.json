@@ -38,7 +38,7 @@
     "react-dom": "16.8.6"
   },
   "devDependencies": {
-    "@babel/core": "7.11.0",
+    "@babel/core": "7.12.3",
     "@datacamp/waffles-babel-preset": "^2.0.1",
     "@datacamp/waffles-cypress-axe-config": "^1.2.0",
     "@percy/storybook": "3.3.1",
