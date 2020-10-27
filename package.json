@@ -44,7 +44,7 @@
   "devDependencies": {
     "@commitlint/config-conventional": "^8.3.4",
     "@datacamp/eslint-config": "^1.0.1",
-    "@datacamp/prettier-config": "^0.1.0",
+    "@datacamp/prettier-config": "^2.1.0",
     "@types/jest": "25.2.3",
     "@types/react-dom": "16.9.6",
     "commitlint": "^11.0.0",
@@ -52,7 +52,7 @@
     "eslint-plugin-cypress": "^2.11.1",
     "husky": "^4.2.5",
     "lerna": "^3.22.1",
-    "prettier": "^1.19.1",
+    "prettier": "^2.1.2",
     "react": "16.8.6",
     "react-dom": "16.8.6",
     "svglint": "1.0.5",
