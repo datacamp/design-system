@@ -48,7 +48,7 @@
     "react-dom": "16.8.6"
   },
   "dependencies": {
-    "@babel/runtime": "^7.11.0",
+    "@babel/runtime": "^7.12.1",
     "@datacamp/waffles-tokens": "^1.0.0",
     "@datacamp/waffles-utils": "^2.0.18",
     "airbnb-prop-types": "^2.16.0",
