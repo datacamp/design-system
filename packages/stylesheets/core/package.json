@@ -55,6 +55,6 @@
   "dependencies": {
     "@datacamp/waffles-tokens": "^1.0.0",
     "file-loader": "1.1.11",
-    "lodash": "^4.17.13"
+    "lodash": "^4.17.20"
   }
 }
