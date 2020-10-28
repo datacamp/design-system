@@ -12,7 +12,7 @@
     "prepare": "yarn clean && yarn build",
     "percy": "percy-storybook --fail_on_empty=true --build_dir=lib --widths=1280",
     "cypress:open": "cypress open",
-    "cypress:ci": "cypress run"
+    "cypress:ci": "wait-on http://localhost:6006/ && cypress run"
   },
   "dependencies": {
     "@babel/runtime": "^7.12.1",
@@ -50,6 +50,7 @@
     "cypress-storybook": "^0.2.1",
     "sass-loader": "^9.0.2",
     "style-loader": "^1.2.1",
+    "wait-on": "^5.2.0",
     "webpack": "4.41.5",
     "webpack-bundle-analyzer": "3.8.0"
   }
