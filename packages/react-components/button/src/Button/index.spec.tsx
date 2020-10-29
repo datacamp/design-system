@@ -80,6 +80,18 @@ describe('<Button />', () => {
     expect(buttonElement).toHaveAttribute('disabled');
   });
 
+  it('disables a link button', async () => {
+    const onClick = jest.fn();
+    const { getByText } = await axeRender(
+      <Button disabled href="abc" onClick={onClick} type="link">
+        disabled link button
+      </Button>,
+    );
+
+    userEvent.click(getByText('disabled link button') as HTMLElement);
+    expect(onClick).not.toHaveBeenCalled();
+  });
+
   describe('button size', () => {
     it('renders the small button for the size="small" ', async () => {
       const { queryByText, container } = await axeRender(
