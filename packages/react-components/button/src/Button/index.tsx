@@ -18,7 +18,6 @@ import { mergeRefs } from 'use-callback-ref';
 import Tooltip from '../Tooltip';
 
 import {
-  baseColors,
   baseLoadingStyle,
   baseStyle,
   fontSizes,
@@ -228,7 +227,16 @@ const InternalButton = (
         return {
           Element: 'a',
           href: props.href,
-          onClick: props.onClick,
+          // disabled prop does nothing on an anchor tag. This explicitly stops navigation on disabled link buttons
+          onClick:
+            disabled || loading
+              ? (
+                  e: React.MouseEvent<
+                    HTMLAnchorElement | HTMLButtonElement,
+                    MouseEvent
+                  >,
+                ) => e.preventDefault()
+              : props.onClick,
           target: props.target,
         } as const;
       case 'submit':
