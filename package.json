@@ -55,7 +55,7 @@
     "prettier": "^1.19.1",
     "react": "16.8.6",
     "react-dom": "16.8.6",
-    "svglint": "1.0.5",
+    "svglint": "1.0.6",
     "typescript": "3.9.7"
   },
   "browserslist": ["last 2 versions", "Firefox ESR", "not IE < 11"],
