@@ -2,6 +2,7 @@ import './styles.css';
 
 import Button, {
   ButtonGroup,
+  CloseButton,
   CompactButtonGroup,
 } from '@datacamp/waffles-button';
 import { AddCircleIcon, ChevronDownIcon } from '@datacamp/waffles-icons';
@@ -186,4 +187,11 @@ storiesOf('waffles-button', module)
         <Button>Button 3</Button>
       </CompactButtonGroup>
     </ButtonGroup>
+  ))
+  .add('CloseButton', () => (
+    <>
+      <CloseButton css={{ left: 10 }} />
+
+      <CloseButton css={{ left: 50 }} disabled />
+    </>
   ));
