@@ -1,11 +1,12 @@
+import { CloseButton } from '@datacamp/waffles-button';
 import Card from '@datacamp/waffles-card';
+import tokens from '@datacamp/waffles-tokens/lib/future-tokens.json';
 import { ClassNames } from '@emotion/core';
 import React from 'react';
 import ReactModal from 'react-modal';
 
 import { CloseOrigin } from '../BaseDialog';
 import Body from '../shared/Body';
-import CloseButton from '../shared/CloseButton';
 import Footer from '../shared/Footer';
 import Header from '../shared/Header';
 import {
@@ -116,6 +117,11 @@ const Panel = ({
           >
             {!hideCloseButton && (
               <CloseButton
+                css={{
+                  position: 'absolute',
+                  right: tokens.size.space[8].value,
+                  top: tokens.size.space[8].value,
+                }}
                 disabled={closeButtonDisabled}
                 onClick={onCloseButton}
               />

@@ -1,10 +1,10 @@
+import { CloseButton } from '@datacamp/waffles-button';
 import Card from '@datacamp/waffles-card';
 import tokens from '@datacamp/waffles-tokens/lib/future-tokens.json';
 import { ClassNames } from '@emotion/core';
 import React from 'react';
 import ReactModal from 'react-modal';
 
-import CloseButton from '../shared/CloseButton';
 import {
   bodyOpenStyle,
   overlayStyle,
@@ -129,6 +129,7 @@ const Dialog: React.FC<DialogProps> = ({
             {!hideCloseButton && (
               <CloseButton
                 css={{
+                  position: 'absolute',
                   right: tokens.size.space[16].value,
                   top: tokens.size.space[16].value,
                 }}

@@ -95,11 +95,11 @@ exports[`<Panel /> isOpen renders the modal via a portal when true 1`] = `
   justify-content: center;
   outline: none;
   padding: 0;
+  width: 32px;
+  z-index: 1;
   position: absolute;
   right: 8px;
   top: 8px;
-  width: 32px;
-  z-index: 1;
 }
 
 .emotion-0:active {
@@ -175,7 +175,7 @@ exports[`<Panel /> isOpen renders the modal via a portal when true 1`] = `
           type="button"
         >
           <svg
-            aria-hidden="false"
+            aria-hidden="true"
             height="18"
             role="img"
             viewBox="0 0 18 18"
