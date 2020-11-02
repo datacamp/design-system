@@ -73,29 +73,52 @@ exports[`toast mounts a success toast 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  aria-label: close;
-  background: none;
+  background-color: white;
   border: none;
   border-radius: 2px;
+  color: rgb(5,25,45);
+  cursor: pointer;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-flex-shrink: 0;
-  -ms-flex-negative: 0;
-  flex-shrink: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   height: 20px;
-  -webkit-box-pack: space-around;
-  -webkit-justify-content: space-around;
-  -ms-flex-pack: space-around;
-  justify-content: space-around;
-  margin-right: 12px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  outline: none;
   padding: 0;
   width: 20px;
+  z-index: 1;
+  -webkit-flex: none;
+  -ms-flex: none;
+  flex: none;
+  margin-right: 12px;
+}
+
+.emotion-4:active {
+  color: rgb(3,239,98);
+}
+
+.emotion-4:disabled {
+  color: #D1D3D8;
+}
+
+.emotion-4:disabled:hover,
+.emotion-4:disabled:focus {
+  background-color: transparent;
+}
+
+.emotion-4:focus {
+  background-color: rgb(239,239,239);
 }
 
 .emotion-4:hover {
-  background-color: #efefef;
+  background-color: rgb(239,239,239);
 }
 
 <div
@@ -135,7 +158,7 @@ exports[`toast mounts a success toast 1`] = `
       </h4>
     </div>
     <button
-      aria-label="Close Toast Notification"
+      aria-label="Close"
       class="emotion-4"
       type="button"
     >
@@ -146,6 +169,9 @@ exports[`toast mounts a success toast 1`] = `
         viewBox="0 0 18 18"
         width="12"
       >
+        <title>
+          Cross
+        </title>
         <path
           d="M9.005 7.625l4.83-4.83a.976.976 0 011.38 1.38l-4.83 4.83 4.82 4.82a.976.976 0 11-1.38 1.38l-4.82-4.82-4.83 4.83a.976.976 0 01-1.38-1.38l4.83-4.83-4.84-4.84a.976.976 0 111.38-1.38l4.84 4.84z"
           fill="currentColor"
@@ -222,29 +248,52 @@ exports[`toast mounts an error toast 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  aria-label: close;
-  background: none;
+  background-color: white;
   border: none;
   border-radius: 2px;
+  color: rgb(5,25,45);
+  cursor: pointer;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-flex-shrink: 0;
-  -ms-flex-negative: 0;
-  flex-shrink: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   height: 20px;
-  -webkit-box-pack: space-around;
-  -webkit-justify-content: space-around;
-  -ms-flex-pack: space-around;
-  justify-content: space-around;
-  margin-right: 12px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  outline: none;
   padding: 0;
   width: 20px;
+  z-index: 1;
+  -webkit-flex: none;
+  -ms-flex: none;
+  flex: none;
+  margin-right: 12px;
+}
+
+.emotion-4:active {
+  color: rgb(3,239,98);
+}
+
+.emotion-4:disabled {
+  color: #D1D3D8;
+}
+
+.emotion-4:disabled:hover,
+.emotion-4:disabled:focus {
+  background-color: transparent;
+}
+
+.emotion-4:focus {
+  background-color: rgb(239,239,239);
 }
 
 .emotion-4:hover {
-  background-color: #efefef;
+  background-color: rgb(239,239,239);
 }
 
 .emotion-0 {
@@ -292,7 +341,7 @@ exports[`toast mounts an error toast 1`] = `
       </h4>
     </div>
     <button
-      aria-label="Close Toast Notification"
+      aria-label="Close"
       class="emotion-4"
       type="button"
     >
@@ -303,6 +352,9 @@ exports[`toast mounts an error toast 1`] = `
         viewBox="0 0 18 18"
         width="12"
       >
+        <title>
+          Cross
+        </title>
         <path
           d="M9.005 7.625l4.83-4.83a.976.976 0 011.38 1.38l-4.83 4.83 4.82 4.82a.976.976 0 11-1.38 1.38l-4.82-4.82-4.83 4.83a.976.976 0 01-1.38-1.38l4.83-4.83-4.84-4.84a.976.976 0 111.38-1.38l4.84 4.84z"
           fill="currentColor"
