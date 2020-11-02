@@ -1,5 +1,6 @@
 import Button, {
   ButtonGroup,
+  CloseButton,
   CompactButtonGroup,
 } from '@datacamp/waffles-button';
 import ButtonData from '@datacamp/waffles-button/componentMetadata.json';
@@ -22,7 +23,13 @@ import CustomHeader from '../../components/CustomHeader';
 import LazyLiveEditCells from '../../components/LazyLiveEditCells';
 import PropTable from '../../components/PropTable';
 
-const liveEditScope = { Button, ButtonGroup, CompactButtonGroup, ...Icons };
+const liveEditScope = {
+  Button,
+  ButtonGroup,
+  CloseButton,
+  CompactButtonGroup,
+  ...Icons,
+};
 
 export default () => {
   return (
@@ -55,6 +62,11 @@ export default () => {
                 <Strong>CompactButtonGroup –</Strong> Enables you to concatenate
                 multiple buttons into one. It can also be nested inside a{' '}
                 <Code>ButtonGroup</Code>.
+              </List.Item>
+              <List.Item>
+                <Strong>CloseButton –</Strong> Used internally in other waffles
+                components. Please contact the team directly if you are
+                considering using in your own components.
               </List.Item>
             </List>
             <CodeBlock>
