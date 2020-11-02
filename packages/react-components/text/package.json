@@ -55,7 +55,7 @@
     "lodash": "^4.17.20",
     "prop-types": "^15.7.2",
     "react-uid": "^2.3.0",
-    "tinycolor2": "^1.4.1"
+    "tinycolor2": "^1.4.2"
   },
   "peerDependencies": {
     "@emotion/core": "^10.0.17",
