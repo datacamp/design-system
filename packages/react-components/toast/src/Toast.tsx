@@ -1,7 +1,7 @@
+import { CloseButton } from '@datacamp/waffles-button';
 import {
   CheckmarkCircleInvertedIcon,
   CrossCircleInvertedIcon,
-  CrossIcon,
 } from '@datacamp/waffles-icons';
 import { Heading } from '@datacamp/waffles-text';
 import tokens from '@datacamp/waffles-tokens/lib/future-tokens.json';
@@ -76,30 +76,11 @@ const Toast = ({
         </Heading>
       </div>
       {closeToast && (
-        <button
-          aria-label="Close Toast Notification"
-          css={css({
-            ':hover': {
-              backgroundColor: tokens.color.neutral.grey200.value.hex,
-            },
-            alignItems: 'center',
-            ariaLabel: 'close',
-            background: 'none',
-            border: 'none',
-            borderRadius: 2,
-            display: 'flex',
-            flexShrink: 0,
-            height: 20,
-            justifyContent: 'space-around',
-            marginRight: 12,
-            padding: 0,
-            width: 20,
-          })}
+        <CloseButton
+          css={{ flex: 'none', marginRight: 12 }}
           onClick={closeToast}
-          type="button"
-        >
-          <CrossIcon aria-hidden size={12} title="" />
-        </button>
+          size="small"
+        />
       )}
     </div>
   );
