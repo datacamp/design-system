@@ -23,6 +23,6 @@
     "nodemon": "^2.0.4",
     "omit-deep-lodash": "^1.1.4",
     "style-dictionary": "2.10.1",
-    "tinycolor2": "^1.4.1"
+    "tinycolor2": "^1.4.2"
   }
 }
