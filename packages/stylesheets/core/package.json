@@ -45,7 +45,7 @@
     "postcss-reporter": "^6.0.1",
     "remove-files-webpack-plugin": "1.4.3",
     "sass-loader": "9.0.2",
-    "style-loader": "0.23.1",
+    "style-loader": "2.0.0",
     "svg-spritemap-webpack-plugin": "3.5.10",
     "webpack": "4.41.5",
     "webpack-cli": "3.3.12",
