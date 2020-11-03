@@ -1,4 +1,3 @@
-// eslint-disable-next-line import/no-extraneous-dependencies
 const { testFilesGlobPatterns } = require('@datacamp/eslint-config/helpers');
 
 module.exports = {
@@ -8,10 +7,6 @@ module.exports = {
   extends: ['@datacamp/eslint-config/typescript', 'plugin:cypress/recommended'],
   ignorePatterns: ['**/generated/**'],
   overrides: [
-    {
-      files: ['*.js', '*.jsx'],
-      rules: { '@typescript-eslint/explicit-function-return-type': 'off' },
-    },
     {
       files: [...testFilesGlobPatterns, '**/*.stories.js'],
       rules: { '@typescript-eslint/no-empty-function': 'off' },
@@ -34,16 +29,6 @@ module.exports = {
   root: true,
   rules: {
     '@typescript-eslint/no-var-requires': 'off',
-    'import/extensions': [
-      'error',
-      'ignorePackages',
-      {
-        js: 'never',
-        jsx: 'never',
-        ts: 'never',
-        tsx: 'never',
-      },
-    ],
     'import/no-cycle': 'off',
     'import/no-extraneous-dependencies': [
       'error',
@@ -57,9 +42,9 @@ module.exports = {
           '**/gulpfile.js',
           'packages/other/**/*.js',
           '**/cypress/**',
+          '.eslintrc.js',
         ],
       },
     ],
-    'react/jsx-filename-extension': 'off',
   },
 };
