@@ -19,7 +19,7 @@ import Label from '../Label';
 import Option, { OptionProps } from './Option';
 
 interface SelectProps {
-  children: ReactElement<OptionProps>[];
+  children: Array<ReactElement<OptionProps>>;
   /**
    * Sets the class on the rendered element.
    */

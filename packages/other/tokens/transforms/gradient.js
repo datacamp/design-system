@@ -1,6 +1,6 @@
 const convertToColorString = require('../helpers/convertToColorString');
 
-module.exports = prop => {
+module.exports = (prop) => {
   return `linear-gradient(${
     prop.original.value.angle
   }deg, ${convertToColorString(

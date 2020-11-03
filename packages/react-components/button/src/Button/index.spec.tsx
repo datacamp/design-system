@@ -94,7 +94,7 @@ describe('<Button />', () => {
 
   describe('button size', () => {
     it('renders the small button for the size="small" ', async () => {
-      const { queryByText, container } = await axeRender(
+      const { container, queryByText } = await axeRender(
         <Button onClick={someFunction} size="small">
           btn small
         </Button>,
@@ -107,7 +107,7 @@ describe('<Button />', () => {
     });
 
     it('renders the medium button for the size="medium" ', async () => {
-      const { queryByText, container } = await axeRender(
+      const { container, queryByText } = await axeRender(
         <Button onClick={someFunction} size="medium">
           btn medium
         </Button>,
@@ -120,7 +120,7 @@ describe('<Button />', () => {
     });
 
     it('renders the large button for the size="large" ', async () => {
-      const { queryByText, container } = await axeRender(
+      const { container, queryByText } = await axeRender(
         <Button onClick={someFunction} size="large">
           large btn
         </Button>,
@@ -134,7 +134,7 @@ describe('<Button />', () => {
     });
 
     it('renders the medium size if no size props is specified', async () => {
-      const { queryByText, container } = await axeRender(
+      const { container, queryByText } = await axeRender(
         <Button onClick={someFunction}>default size btn</Button>,
       );
 
@@ -649,7 +649,7 @@ describe('<Button />', () => {
         'bottomRight',
         'topLeft',
         'topRight',
-      ] as const).forEach(tooltipPosition =>
+      ] as const).forEach((tooltipPosition) =>
         it(`renders the tooltip at ${tooltipPosition}`, async () => {
           const tooltipText = 'tooltip text';
           const { baseElement, container } = await axeRender(
@@ -669,7 +669,7 @@ describe('<Button />', () => {
     });
 
     describe('tooltip appearance snapshots', () => {
-      ([undefined, 'dark', 'light'] as const).forEach(tooltipAppearance =>
+      ([undefined, 'dark', 'light'] as const).forEach((tooltipAppearance) =>
         it(`renders a tooltip with appearance ${tooltipAppearance}`, async () => {
           const tooltipText = 'tooltip text';
           const { baseElement, container } = await axeRender(
@@ -692,20 +692,17 @@ describe('<Button />', () => {
   describe('snapshots', () => {
     const exampleText = 'this is a button';
 
-    const buttonSizes: ('small' | 'medium' | 'large')[] = [
+    const buttonSizes: Array<'small' | 'medium' | 'large'> = [
       'small',
       'medium',
       'large',
     ];
     const loadings: boolean[] = [true, false];
-    buttonSizes.forEach(size => {
-      (['neutral', 'warning', 'danger', 'success'] as (
-        | 'neutral'
-        | 'warning'
-        | 'danger'
-        | 'success'
-      )[]).forEach(intent => {
-        loadings.forEach(loading => {
+    buttonSizes.forEach((size) => {
+      (['neutral', 'warning', 'danger', 'success'] as Array<
+        'neutral' | 'warning' | 'danger' | 'success'
+      >).forEach((intent) => {
+        loadings.forEach((loading) => {
           it(`renders a button with appearance default, intent ${intent}, size ${size} and loading ${loading}`, async () => {
             const { container } = await axeRender(
               <Button
@@ -724,15 +721,11 @@ describe('<Button />', () => {
       });
     });
 
-    buttonSizes.forEach(size => {
-      (['b2b', 'neutral', 'warning', 'danger', 'success'] as (
-        | 'b2b'
-        | 'neutral'
-        | 'warning'
-        | 'danger'
-        | 'success'
-      )[]).forEach(intent => {
-        loadings.forEach(loading => {
+    buttonSizes.forEach((size) => {
+      (['b2b', 'neutral', 'warning', 'danger', 'success'] as Array<
+        'b2b' | 'neutral' | 'warning' | 'danger' | 'success'
+      >).forEach((intent) => {
+        loadings.forEach((loading) => {
           it(`renders a button with appearance primary, intent ${intent}, size ${size} and loading ${loading}`, async () => {
             const { container } = await axeRender(
               <Button
@@ -750,15 +743,11 @@ describe('<Button />', () => {
         });
       });
     });
-    buttonSizes.forEach(size => {
-      (['b2b', 'neutral', 'warning', 'danger', 'success'] as (
-        | 'b2b'
-        | 'neutral'
-        | 'warning'
-        | 'danger'
-        | 'success'
-      )[]).forEach(intent => {
-        loadings.forEach(loading => {
+    buttonSizes.forEach((size) => {
+      (['b2b', 'neutral', 'warning', 'danger', 'success'] as Array<
+        'b2b' | 'neutral' | 'warning' | 'danger' | 'success'
+      >).forEach((intent) => {
+        loadings.forEach((loading) => {
           it(`renders a button with appearance inverted, intent ${intent}, size ${size} and loading ${loading}`, async () => {
             const { container } = await axeRender(
               <Button

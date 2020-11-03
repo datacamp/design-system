@@ -21,7 +21,7 @@ const ButtonGroup = ({
   children,
   className,
 }: ButtonGroupProps): React.ReactElement => {
-  const sizes = React.Children.map(children, child => {
+  const sizes = React.Children.map(children, (child) => {
     if (!React.isValidElement(child)) return undefined;
     if (isChildType(child, Button)) return child.props.size || 'medium';
     if (isChildType(child, CompactButtonGroup)) {
@@ -30,7 +30,7 @@ const ButtonGroup = ({
     return undefined;
   });
 
-  if (!sizes.every(size => size === sizes[0])) {
+  if (!sizes.every((size) => size === sizes[0])) {
     throw Error('All Buttons in ButtonGroup must be the same size');
   }
 

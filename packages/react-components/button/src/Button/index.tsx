@@ -148,8 +148,8 @@ const InternalButton = (
     loading = false,
     size = 'medium',
     tooltipAppearance = 'dark',
-    tooltipText,
     tooltipPosition = 'bottom',
+    tooltipText,
   } = props;
 
   const buttonRef = useRef<HTMLElement>();

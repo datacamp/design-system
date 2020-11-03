@@ -8,12 +8,12 @@ describe('a11y testing', () => {
 
   it('renders every story', () => {
     cy.window()
-      .then(win => {
+      .then((win) => {
         return win.stories.reduce((stories, parentStory) => {
           const category = parentStory.kind;
           return [
             ...stories,
-            ...parentStory.stories.map(story => ({
+            ...parentStory.stories.map((story) => ({
               category,
               title: story.name,
             })),

@@ -43,7 +43,7 @@ export default () => {
             </tr>
           </thead>
           <tbody>
-            {Additive.map(a => (
+            {Additive.map((a) => (
               <tr key={a.class}>
                 <td>
                   <code className="dc-u-ws-nowrap">{`.dc-u-lst-${a.class}`}</code>
@@ -78,7 +78,7 @@ export default () => {
             </tr>
           </thead>
           <tbody>
-            {Subtractive.map(s => (
+            {Subtractive.map((s) => (
               <tr key={s.class}>
                 <td>
                   <code className="dc-u-ws-nowrap">{`.dc-u-lst-${s.class}`}</code>

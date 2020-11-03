@@ -47,7 +47,7 @@ export default () => {
                 <code>min-height: 0px;</code>
               </td>
             </tr>
-            {measures.map(value => (
+            {measures.map((value) => (
               <tr key={value}>
                 <td>
                   <code className="dc-u-ws-nowrap">{`.dc-u-minh-${value}`}</code>
@@ -74,7 +74,7 @@ export default () => {
             </tr>
           </thead>
           <tbody>
-            {ratios.map(value => (
+            {ratios.map((value) => (
               <tr key={value}>
                 <td>
                   <code className="dc-u-ws-nowrap">{`.dc-u-minh-${value}`}</code>

@@ -1,7 +1,7 @@
 const tinycolor = require('tinycolor2');
 const _ = require('lodash');
 
-module.exports = colorInput => {
+module.exports = (colorInput) => {
   if (_.isString(colorInput) && /{.+}/.test(colorInput)) return colorInput;
 
   const color = tinycolor(colorInput);

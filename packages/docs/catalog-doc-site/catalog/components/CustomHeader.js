@@ -4,7 +4,7 @@ import { jsx } from '@emotion/core'; // eslint-disable-line no-unused-vars
 import PropTypes from 'prop-types';
 import React from 'react';
 
-const CustomHeader = ({ section, subSection, description }) => (
+const CustomHeader = ({ description, section, subSection }) => (
   <header
     css={{
       backgroundColor: tokens.color.primary.navy.value.hex,

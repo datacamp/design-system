@@ -11,7 +11,7 @@ interface CompactButtonGroupProps {
    * Button components. All Buttons within a CompactButtonGroup must have the
    * same appearance, intent, size & disabled state.
    */
-  children: React.ReactElement<ButtonProps>[];
+  children: Array<React.ReactElement<ButtonProps>>;
   /**
    * Sets the css class of the rendered element. Can be used to apply custom
    * styles.
@@ -31,7 +31,7 @@ const CompactButtonGroup = ({
 
   if (
     !childrenProps.every(
-      ({ appearance, intent, disabled, size }) =>
+      ({ appearance, disabled, intent, size }) =>
         appearance === childrenProps[0].appearance &&
         disabled === childrenProps[0].disabled &&
         intent === childrenProps[0].intent &&

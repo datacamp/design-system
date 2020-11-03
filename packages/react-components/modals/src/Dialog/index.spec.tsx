@@ -20,7 +20,7 @@ describe('<Dialog />', () => {
 
   describe('isOpen', () => {
     it('renders the modal via a portal when true', async () => {
-      const { container, getByText, baseElement, getByRole } = await axeRender(
+      const { baseElement, container, getByRole, getByText } = await axeRender(
         <Dialog isOpen onClose={() => {}} width={600}>
           children
         </Dialog>,
@@ -37,7 +37,7 @@ describe('<Dialog />', () => {
     });
 
     it('mounts nothing when false', async () => {
-      const { container, baseElement, queryByRole } = await axeRender(
+      const { baseElement, container, queryByRole } = await axeRender(
         <Dialog isOpen={false} onClose={() => {}} width={600}>
           children
         </Dialog>,

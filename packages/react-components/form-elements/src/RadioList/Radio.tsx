@@ -50,15 +50,15 @@ const divStyle = css({
  * Can only be used within `RadioList`
  */
 const Radio = ({
+  children,
+  className,
   disabled = false,
   htmlRequired,
   value,
-  children,
-  className,
 }: RadioProps): ReactElement => {
   return (
     <RadioListContext.Consumer>
-      {contextValue => {
+      {(contextValue) => {
         if (contextValue === null) {
           throw new Error('Radio must be used with RadioList');
         }

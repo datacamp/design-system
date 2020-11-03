@@ -102,7 +102,9 @@ const InternalInput = ({
   description,
   disabled = false,
   errorMessage,
+  htmlRequired,
   id,
+  innerRef,
   label,
   maxLength,
   name,
@@ -110,10 +112,8 @@ const InternalInput = ({
   onChange,
   placeholder,
   required,
-  value,
-  innerRef,
   rows = 2,
-  htmlRequired,
+  value,
 }: InputProps & { innerRef?: Ref<HTMLTextAreaElement> }): ReactElement => {
   const parsedDataAttributes = computeDataAttributes(dataAttributes);
 

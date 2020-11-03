@@ -10,7 +10,7 @@ jest.useFakeTimers();
 describe('toast', () => {
   it('mounts a success toast', () => {
     const title = 'test toast title';
-    const { getByText, getByRole } = render(<ToastContainer />);
+    const { getByRole, getByText } = render(<ToastContainer />);
     toast({ intent: 'success', title });
     jest.runAllTimers();
     const renderedToast = getByRole('alert');
@@ -21,7 +21,7 @@ describe('toast', () => {
 
   it('mounts an error toast', () => {
     const title = 'test toast title';
-    const { getByText, getByRole } = render(<ToastContainer />);
+    const { getByRole, getByText } = render(<ToastContainer />);
     toast({ intent: 'error', title });
     jest.runAllTimers();
     const renderedToast = getByRole('alert');

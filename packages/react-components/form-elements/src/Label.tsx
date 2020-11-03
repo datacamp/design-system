@@ -48,12 +48,12 @@ const errorMessageStyle = css({
 
 const Label = ({
   as: Element = 'label',
+  children,
+  description,
+  errorMessage,
   htmlFor,
   label,
   required,
-  description,
-  errorMessage,
-  children,
 }: LabelProps): React.ReactElement => {
   const TitleElement = Element === 'fieldset' ? 'legend' : 'span';
 

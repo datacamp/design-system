@@ -11,11 +11,11 @@ import CustomHeader from '../../components/CustomHeader';
 
 const BrandIcons = _.filter(Object.entries(Icons), ([name]) => {
   return /BrandIcon$/.test(name);
-}).map(iconData => iconData[1]);
+}).map((iconData) => iconData[1]);
 
 const InvertedIcons = _.filter(Object.entries(Icons), ([name]) => {
   return /InvertedIcon$/.test(name);
-}).map(iconData => iconData[1]);
+}).map((iconData) => iconData[1]);
 
 const RegularIcons = _.difference(Object.values(Icons), [
   ...InvertedIcons,
@@ -41,7 +41,7 @@ export default () => {
           <section className="dc-u-maxw-640 dc-u-pr-32">
             <h5 css={{ margin: '0 0 12px 0' }}>Regular Icons</h5>
             <div className="dc-card dc-u-p-16" css={{ marginBottom: 24 }}>
-              {RegularIcons.map(Component => (
+              {RegularIcons.map((Component) => (
                 <Component color={colors.primary} css={iconStyle} />
               ))}
             </div>
@@ -55,14 +55,14 @@ export default () => {
                 padding: 16,
               }}
             >
-              {InvertedIcons.map(Component => (
+              {InvertedIcons.map((Component) => (
                 <Component color={colors.white} css={iconStyle} />
               ))}
             </div>
 
             <h5 css={{ margin: '0 0 12px 0' }}>Brand Icons</h5>
             <div className="dc-card dc-u-p-16" css={{ marginBottom: 24 }}>
-              {BrandIcons.map(Component => (
+              {BrandIcons.map((Component) => (
                 <Component color={colors.primary} css={iconStyle} />
               ))}
             </div>

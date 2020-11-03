@@ -56,7 +56,7 @@ const StyledError = styled(LiveError)`
   font-family: 'Source Code Pro', monospace;
 `;
 
-const LiveEditCells = ({ noInline, code, scope }) => (
+const LiveEditCells = ({ code, noInline, scope }) => (
   <StyledProvider code={code} noInline={noInline} scope={scope}>
     <div css={{ marginTop: 16, width: '100%' }}>
       <div css={{ display: 'flex', width: '100%' }}>

@@ -187,7 +187,7 @@ export default () => {
             </tr>
           </thead>
           <tbody>
-            {sizes.map(name => (
+            {sizes.map((name) => (
               <tr className="dc-u-bt">
                 <td>
                   <code>.dc-u-fs-{name}</code>

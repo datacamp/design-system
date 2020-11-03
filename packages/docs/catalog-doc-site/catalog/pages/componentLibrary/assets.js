@@ -26,7 +26,7 @@ import CustomHeader from '../../components/CustomHeader';
 const ComponentTable = ({
   components,
   nameFunction,
-  componentFunction = Component => <Component />,
+  componentFunction = (Component) => <Component />,
 }) => {
   return (
     <table>
@@ -151,20 +151,20 @@ export default () => {
                 />
               )}
               components={ALPA}
-              nameFunction={name =>
+              nameFunction={(name) =>
                 `<ALPALoop ${name === 'Alpa' ? '' : `highlight="${name}" `}/>`
               }
             />
             <ComponentTable
               components={Logos.Waffles}
-              nameFunction={name => `<Logos.Waffles.${name} />`}
+              nameFunction={(name) => `<Logos.Waffles.${name} />`}
             />
             <ComponentTable
-              componentFunction={Component => (
+              componentFunction={(Component) => (
                 <Component height={39} width={39} />
               )}
               components={Technologies}
-              nameFunction={name => {
+              nameFunction={(name) => {
                 let parsedName = name;
                 if (name === 'Python') {
                   parsedName = 'python';

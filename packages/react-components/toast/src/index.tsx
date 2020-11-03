@@ -7,7 +7,7 @@ export { default as ToastContainer } from './ToastContainer';
 export { default as Toast } from './Toast';
 
 export const toast = (
-  { title, intent }: { intent: 'success' | 'error'; title: string },
+  { intent, title }: { intent: 'success' | 'error'; title: string },
   options?: ToastOptions,
 ): string | number =>
   toastify(

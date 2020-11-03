@@ -8,10 +8,10 @@ interface DatacampLogoProps extends React.SVGProps<SVGSVGElement> {
 }
 
 const DatacampLogo = ({
-  logomarkColor = '#03EF62',
-  wordmarkColor = '#05192D',
-  showWordmark = false,
   height = 36,
+  logomarkColor = '#03EF62',
+  showWordmark = false,
+  wordmarkColor = '#05192D',
   ...svgProps
 }: DatacampLogoProps): React.ReactElement => {
   return (
