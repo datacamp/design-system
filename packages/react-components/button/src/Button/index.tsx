@@ -130,8 +130,8 @@ interface IconTextChildProps {
 }
 
 export type ButtonProps = BaseButtonProps &
-  (ButtonButtonProps | LinkButtonProps | SubmitButtonProps) &
-  (StringChildProps | IconChildProps | IconTextChildProps);
+  (SubmitButtonProps | LinkButtonProps | ButtonButtonProps) &
+  (IconTextChildProps | IconChildProps | StringChildProps);
 
 const InternalButton = (
   props: ButtonProps & { innerRef?: React.Ref<any> },
