@@ -1,6 +1,6 @@
 import React from 'react';
 
-const isChildType = <P extends Record<string, unknown>>(
+const isChildType = <P extends unknown>(
   child: React.ReactNode,
   type: React.ComponentType<P> | React.ExoticComponent<P>,
 ): child is React.ReactElement<P> =>
