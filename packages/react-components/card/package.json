@@ -1,6 +1,6 @@
 {
   "name": "@datacamp/waffles-card",
-  "version": "4.0.1",
+  "version": "4.0.2",
   "main": "lib/index.js",
   "module": "es/index.js",
   "types": "types/index.d.ts",
@@ -36,7 +36,7 @@
     "@babel/cli": "7.7.7",
     "@babel/core": "7.12.3",
     "@datacamp/waffles-axe-render": "^1.2.4",
-    "@datacamp/waffles-babel-preset": "^2.0.1",
+    "@datacamp/waffles-babel-preset": "^2.0.2",
     "@datacamp/waffles-tsconfig": "^1.1.12",
     "@emotion/core": "^10.0.17",
     "@stryker-mutator/core": "^3.3.1",
@@ -54,7 +54,7 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.12.1",
-    "@datacamp/waffles-tokens": "^1.0.0",
+    "@datacamp/waffles-tokens": "^1.0.1",
     "lodash": "^4.17.20",
     "prop-types": "^15.7.2"
   },

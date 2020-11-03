@@ -3,6 +3,24 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [6.1.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-button@6.0.1...@datacamp/waffles-button@6.1.0) (2020-11-03)
+
+
+### Bug Fixes
+
+* disabled buttons with type="link" ([b8b21e8](https://github.com/datacamp/design-system/commit/b8b21e8))
+* optional href for next compatibility ([b30535b](https://github.com/datacamp/design-system/commit/b30535b))
+
+
+### Features
+
+* add CloseButton component ([47fbd7b](https://github.com/datacamp/design-system/commit/47fbd7b))
+* only apply focus state with keyboard in supported browsers ([ac3f95d](https://github.com/datacamp/design-system/commit/ac3f95d))
+
+
+
+
+
 ## [6.0.1](https://github.com/datacamp/design-system/compare/@datacamp/waffles-button@6.0.0...@datacamp/waffles-button@6.0.1) (2020-10-26)
 
 **Note:** Version bump only for package @datacamp/waffles-button

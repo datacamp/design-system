@@ -1,6 +1,6 @@
 {
   "name": "@datacamp/waffles-utils",
-  "version": "2.0.18",
+  "version": "2.0.19",
   "description": "Various collection of utilities to be shared across waffles packages",
   "author": "Louis Bailey <louis@datacamp.com>",
   "homepage": "https://github.com/datacamp/design-system/tree/master/packages/docs/waffles-utils#readme",
@@ -32,7 +32,7 @@
   "devDependencies": {
     "@babel/cli": "7.7.7",
     "@babel/core": "7.12.3",
-    "@datacamp/waffles-babel-preset": "^2.0.1",
+    "@datacamp/waffles-babel-preset": "^2.0.2",
     "@datacamp/waffles-tsconfig": "^1.1.12",
     "babel-jest": "26.2.2",
     "jest": "26.6.1",

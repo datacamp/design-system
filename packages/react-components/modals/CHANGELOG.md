@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [6.0.2](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/modals/compare/@datacamp/waffles-modals@6.0.1...@datacamp/waffles-modals@6.0.2) (2020-11-03)
+
+
+### Bug Fixes
+
+* use shared CloseButton in modals ([d80f605](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/modals/commit/d80f605))
+
+
+
+
+
 ## [6.0.1](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/modals/compare/@datacamp/waffles-modals@6.0.0...@datacamp/waffles-modals@6.0.1) (2020-10-26)
 
 **Note:** Version bump only for package @datacamp/waffles-modals

@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.2.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-catalog-doc-site@2.1.1...@datacamp/waffles-catalog-doc-site@2.2.0) (2020-11-03)
+
+
+### Features
+
+* add note to documentation about the CloseButton ([78b590d](https://github.com/datacamp/design-system/commit/78b590d))
+
+
+
+
+
 ## [2.1.1](https://github.com/datacamp/design-system/compare/@datacamp/waffles-catalog-doc-site@2.1.0...@datacamp/waffles-catalog-doc-site@2.1.1) (2020-10-26)
 
 
