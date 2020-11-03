@@ -1,3 +1,4 @@
+// eslint-disable-next-line import/no-extraneous-dependencies
 const { testFilesGlobPatterns } = require('@datacamp/eslint-config/helpers');
 
 module.exports = {
@@ -37,10 +38,10 @@ module.exports = {
       'error',
       'ignorePackages',
       {
-        ts: 'never',
         js: 'never',
-        tsx: 'never',
         jsx: 'never',
+        ts: 'never',
+        tsx: 'never',
       },
     ],
     'import/no-cycle': 'off',

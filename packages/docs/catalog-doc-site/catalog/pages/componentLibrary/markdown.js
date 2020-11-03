@@ -1,3 +1,4 @@
+/* eslint-disable import/no-anonymous-default-export */
 import Card from '@datacamp/waffles-card';
 import Markdown from '@datacamp/waffles-markdown';
 import MarkdownData from '@datacamp/waffles-markdown/componentMetadata.json';

@@ -1,3 +1,4 @@
+/* eslint-disable sonarjs/no-identical-functions */
 /* eslint-disable no-param-reassign */
 const { dest, parallel, series, src } = require('gulp');
 const rename = require('gulp-rename');

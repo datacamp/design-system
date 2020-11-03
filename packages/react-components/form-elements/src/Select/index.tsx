@@ -99,7 +99,7 @@ const iconStyle = css({
   position: 'absolute',
 });
 
-class Select extends Component<
+class InternalSelect extends Component<
   SelectProps & { innerRef?: Ref<HTMLSelectElement> },
   SelectState
 > {
@@ -208,13 +208,15 @@ class Select extends Component<
   }
 }
 
-Select.propTypes = {
+InternalSelect.propTypes = {
   /**
    * Takes multiple SelectOption components as children.
    */
   children: PropTypes.arrayOf(childrenOfType(Option)).isRequired,
 };
 
-export default forwardRef<HTMLSelectElement, SelectProps>((props, ref) => (
-  <Select {...props} innerRef={ref} />
+const Select = forwardRef<HTMLSelectElement, SelectProps>((props, ref) => (
+  <InternalSelect {...props} innerRef={ref} />
 ));
+
+export default Select;

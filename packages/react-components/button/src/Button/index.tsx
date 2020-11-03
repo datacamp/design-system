@@ -220,7 +220,6 @@ const InternalButton = (
     hasFocus && focusStyle,
   );
 
-  // eslint-disable-next-line @typescript-eslint/explicit-function-return-type
   const { Element, ...otherProps } = (() => {
     switch (props.type) {
       case 'link':

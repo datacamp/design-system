@@ -35,7 +35,7 @@ const renderers = {
   list: List,
   listItem: AlternateListItem,
   paragraph: Paragraph,
-  strong: Strong, // eslint-disable-line @typescript-eslint/no-explicit-any
+  strong: Strong,
   text: PlainString as any,
 };
 

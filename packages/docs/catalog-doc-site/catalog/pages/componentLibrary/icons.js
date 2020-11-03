@@ -1,3 +1,4 @@
+/* eslint-disable import/no-anonymous-default-export */
 import * as Icons from '@datacamp/waffles-icons';
 import { List } from '@datacamp/waffles-text';
 import { colors } from '@datacamp/waffles-tokens';

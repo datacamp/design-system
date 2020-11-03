@@ -1,7 +1,7 @@
 import tokens from '@datacamp/waffles-tokens/lib/future-tokens.json';
 import { css } from '@emotion/core';
 
-export default css({
+const codeStyle = css({
   border: 0,
   borderRadius: tokens.radii.small.value,
   color: tokens.color.primary.navyText.value.rgb,
@@ -16,3 +16,5 @@ export default css({
   margin: 0,
   padding: 0,
 });
+
+export default codeStyle;

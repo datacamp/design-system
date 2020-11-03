@@ -139,6 +139,7 @@ const icons = [
 ];
 const obj = Object.values(icons);
 
+// eslint-disable-next-line import/no-anonymous-default-export
 export default () => {
   return (
     <main>

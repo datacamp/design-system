@@ -1,6 +1,6 @@
 import React from 'react';
 
-export interface CheckboxContextInterface {
+export interface CheckboxListContextInterface {
   disabled: boolean;
   hasError: boolean;
   name: string;
@@ -8,8 +8,8 @@ export interface CheckboxContextInterface {
   value: string[];
 }
 
-const CheckboxContext = React.createContext<CheckboxContextInterface | null>(
+const CheckboxListContext = React.createContext<CheckboxListContextInterface | null>(
   null,
 );
 
-export default CheckboxContext;
+export default CheckboxListContext;

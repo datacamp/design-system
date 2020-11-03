@@ -1,6 +1,6 @@
 import React from 'react';
 
-export interface RadioContextInterface {
+export interface RadioListContextInterface {
   disabled: boolean;
   hasError: boolean;
   name: string;
@@ -8,6 +8,8 @@ export interface RadioContextInterface {
   value: string;
 }
 
-const RadioContext = React.createContext<RadioContextInterface | null>(null);
+const RadioListContext = React.createContext<RadioListContextInterface | null>(
+  null,
+);
 
-export default RadioContext;
+export default RadioListContext;

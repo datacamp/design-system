@@ -1,3 +1,4 @@
+/* eslint-disable filenames/match-exported */
 import { Page } from 'catalog';
 import React from 'react';
 
@@ -16,7 +17,7 @@ const Subtractive = [
   },
 ];
 
-export default () => (
+const WordBreak = () => (
   <main>
     <CustomHeader
       description="Set where line breaks appear wherever text would otherwise overflow."
@@ -106,3 +107,5 @@ export default () => (
     </Page>
   </main>
 );
+
+export default WordBreak;

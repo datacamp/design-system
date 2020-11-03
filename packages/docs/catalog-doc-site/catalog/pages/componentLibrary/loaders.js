@@ -1,3 +1,4 @@
+/* eslint-disable import/no-anonymous-default-export */
 import Card from '@datacamp/waffles-card';
 import { LogomarkSpinner } from '@datacamp/waffles-loaders';
 import LoadersData from '@datacamp/waffles-loaders/componentMetadata.json';

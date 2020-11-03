@@ -1,3 +1,4 @@
+/* eslint-disable import/no-anonymous-default-export */
 /* @jsx jsx */
 import * as Icons from '@datacamp/waffles-icons';
 import iconsZip from '@datacamp/waffles-icons/zip/icons.zip';

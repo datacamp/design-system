@@ -1,3 +1,5 @@
+/* eslint-disable sonarjs/no-identical-functions */
+/* eslint-disable import/no-anonymous-default-export */
 import { spatial } from '@datacamp/waffles-tokens';
 import { Page } from 'catalog';
 import React from 'react';

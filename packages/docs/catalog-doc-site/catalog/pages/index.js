@@ -1,5 +1,6 @@
+/* eslint-disable import/no-anonymous-default-export */
 /* @jsx jsx */
-import { css, jsx } from '@emotion/core'; // eslint-disable-line no-unused-vars
+import { css, jsx } from '@emotion/core';
 import { Page } from 'catalog';
 import React from 'react';
 
