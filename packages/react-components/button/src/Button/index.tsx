@@ -93,7 +93,7 @@ interface BaseButtonProps {
 }
 
 interface LinkButtonProps {
-  href: string;
+  href?: string;
   onClick?: () => void;
   target?: '_blank' | undefined;
   type: 'link';
