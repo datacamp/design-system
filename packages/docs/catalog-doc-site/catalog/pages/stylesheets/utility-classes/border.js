@@ -1,3 +1,4 @@
+/* eslint-disable import/no-anonymous-default-export */
 import { colors } from '@datacamp/waffles-tokens';
 import { HintSpecimen, Page } from 'catalog';
 import _ from 'lodash';

@@ -1,3 +1,4 @@
+/* eslint-disable import/no-anonymous-default-export */
 /* @jsx jsx */
 import { DatacampLogo } from '@datacamp/waffles-asset-components';
 import { DownloadIcon } from '@datacamp/waffles-icons';

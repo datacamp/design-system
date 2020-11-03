@@ -1,6 +1,6 @@
 import tokens from '@datacamp/waffles-tokens/lib/future-tokens.json';
 /* @jsx jsx */
-import { jsx } from '@emotion/core'; // eslint-disable-line no-unused-vars
+import { jsx } from '@emotion/core';
 import PropTypes from 'prop-types';
 import React from 'react';
 

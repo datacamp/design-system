@@ -48,7 +48,7 @@ const getCheckSingleChild = (
 /* Extends the automated prop types validation generated from typescript to
 /* check for a custom set of components that can be accepted as children
 * */
-export default (
+const validateChildrenProp = (
   props: PropValues,
   componentName: string,
   validComponents: ValidComponents,
@@ -67,3 +67,5 @@ export default (
     componentName,
   );
 };
+
+export default validateChildrenProp;

@@ -11,17 +11,17 @@ const dash = keyframes({
   },
 });
 
-interface WordmarkSpinnerProps {
+interface LogomarkSpinner {
   className?: string;
   color?: string;
   size?: string;
 }
 
-const WordmarkSpinner = ({
+const LogomarkSpinner = ({
   size = '100px',
   className,
   color = tokens.color.primary.navy.value.hex,
-}: WordmarkSpinnerProps): React.ReactElement => (
+}: LogomarkSpinner): React.ReactElement => (
   <svg
     className={className}
     height={size}
@@ -48,4 +48,4 @@ const WordmarkSpinner = ({
   </svg>
 );
 
-export default WordmarkSpinner;
+export default LogomarkSpinner;

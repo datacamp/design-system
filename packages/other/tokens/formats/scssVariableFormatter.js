@@ -1,3 +1,4 @@
+/* eslint-disable sonarjs/no-identical-functions */
 const _ = require('lodash');
 const extractValueArray = require('../helpers/extractValueArray');
 const convertToColorString = require('../helpers/convertToColorString');

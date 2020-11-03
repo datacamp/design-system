@@ -19,7 +19,6 @@ export const logoComponents = {
   excel: Excel,
   Git,
   'Power BI': PowerBi,
-  // eslint-disable-next-line @typescript-eslint/camelcase
   power_bi: PowerBi,
   PowerBi,
   Python,

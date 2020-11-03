@@ -1,3 +1,4 @@
+/* eslint-disable import/no-anonymous-default-export */
 import Button, { ButtonGroup } from '@datacamp/waffles-button';
 import Card from '@datacamp/waffles-card';
 import {

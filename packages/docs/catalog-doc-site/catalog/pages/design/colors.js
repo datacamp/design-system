@@ -1,3 +1,4 @@
+/* eslint-disable import/no-anonymous-default-export */
 /* @jsx jsx */
 import { Badge } from '@datacamp/waffles-text';
 import tokens from '@datacamp/waffles-tokens';

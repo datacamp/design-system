@@ -1,6 +1,6 @@
+/* eslint-disable filenames/match-exported */
 import tokens from '@datacamp/waffles-tokens/lib/future-tokens.json';
 import { css } from '@emotion/core';
-import PropTypes from 'prop-types';
 import React, { ReactElement, ReactNode } from 'react';
 
 export const elevationMap = {
