@@ -269,10 +269,10 @@ describe('snapshots', () => {
   const exampleText = 'input text';
 
   const disabled: boolean[] = [true, false];
-  const required: (boolean | undefined)[] = [undefined, true, false];
+  const required: Array<boolean | undefined> = [undefined, true, false];
 
-  required.forEach(isRequired => {
-    disabled.forEach(isDisabled => {
+  required.forEach((isRequired) => {
+    disabled.forEach((isDisabled) => {
       it(`renders an input with size disabled=${isDisabled}, required=${isRequired}`, async () => {
         const { container } = render(
           <TextArea

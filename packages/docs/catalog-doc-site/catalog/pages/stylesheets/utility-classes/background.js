@@ -24,7 +24,7 @@ export default () => {
           </p>
 
           <ul className="dc-u-fx dc-u-fx-fww dc-u-m-none dc-u-p-none">
-            {obj.map(name => (
+            {obj.map((name) => (
               <li
                 className="dc-u-fx dc-u-fx-fdc dc-u-fx-aic dc-u-fx-jcc"
                 key={name}

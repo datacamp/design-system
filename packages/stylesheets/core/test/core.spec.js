@@ -4,7 +4,7 @@ const omitDeep = require('omit-deep-lodash');
 const _ = require('lodash');
 
 // remove hash from filename so snapshots are diffed rather than recreated
-const replaceFileName = fileName =>
+const replaceFileName = (fileName) =>
   fileName.replace(/(waffles)\.(\w+)(\.css)/, '$1$3');
 
 describe('Core', () => {
@@ -16,7 +16,7 @@ describe('Core', () => {
       ({ name }) => name === 'css',
     );
     const cssFiles = structure.children[cssDirIndex].children;
-    structure.children[cssDirIndex].children = cssFiles.map(file => ({
+    structure.children[cssDirIndex].children = cssFiles.map((file) => ({
       ...file,
       name: replaceFileName(file.name),
       path: replaceFileName(file.path),
@@ -25,7 +25,7 @@ describe('Core', () => {
   });
 
   it('generates the correct files', () => {
-    dirTree('lib', { extensions: /\.(css|scss|json)$/ }, item => {
+    dirTree('lib', { extensions: /\.(css|scss|json)$/ }, (item) => {
       const file =
         item.extension === '.json'
           ? require(`../${item.path}`) // eslint-disable-line

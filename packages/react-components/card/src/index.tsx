@@ -73,7 +73,7 @@ Card.propTypes = {
    * as elevation, and must also be greater than the elevation level provided.
    */
   hoverElevation(props: CardProps) {
-    const { hoverElevation, elevation } = props;
+    const { elevation, hoverElevation } = props;
     if (hoverElevation !== undefined && hoverElevation <= (elevation ?? 0)) {
       return new Error(
         'Invalid prop `hoverElevation` supplied to `Card`. hoverElevation must be greater than elevation',

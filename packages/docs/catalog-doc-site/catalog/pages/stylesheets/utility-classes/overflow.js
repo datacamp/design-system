@@ -43,7 +43,7 @@ export default () => {
             </tr>
           </thead>
           <tbody>
-            {Additive.map(a => (
+            {Additive.map((a) => (
               <tr key={a.class}>
                 <td>
                   <code className="dc-u-ws-nowrap">{`.dc-u-${a.class}`}</code>

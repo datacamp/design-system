@@ -9,7 +9,7 @@ import Checkbox, { CheckboxProps } from './Checkbox';
 import CheckboxListContext from './CheckboxListContext';
 
 export interface CheckboxListProps {
-  children: ReactElement<CheckboxProps>[];
+  children: Array<ReactElement<CheckboxProps>>;
   /**
    * When provided the description will show underneath the label. Only
    * available when 'label' is also specified.
@@ -65,7 +65,7 @@ const CheckboxList = ({
     (changedValue: string): void => {
       // removes if already exists, adds if it doesn't
       const newValue = _.includes(value, changedValue)
-        ? _.filter(value, item => item !== changedValue)
+        ? _.filter(value, (item) => item !== changedValue)
         : _.union(value, [changedValue]);
 
       onChange(newValue);

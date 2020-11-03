@@ -8,7 +8,7 @@ const CloseButton: React.FC<{
   disabled?: boolean;
   onClick: () => void;
   size?: 'small' | 'large';
-}> = ({ onClick, disabled = false, className, size = 'large' }) => (
+}> = ({ className, disabled = false, onClick, size = 'large' }) => (
   <button
     aria-label="Close"
     className={className}

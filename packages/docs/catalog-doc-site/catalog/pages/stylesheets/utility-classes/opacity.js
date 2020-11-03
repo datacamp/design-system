@@ -30,7 +30,7 @@ export default () => {
             </tr>
           </thead>
           <tbody>
-            {opacities.map(value => (
+            {opacities.map((value) => (
               <tr key={value}>
                 <td>
                   <code className="dc-u-ws-nowrap">{`.dc-u-op-${value}`}</code>

@@ -23,7 +23,7 @@ const LoremParagraph = () => (
   </Paragraph>
 );
 
-['neutral', 'danger', 'warning', 'success'].forEach(intent => {
+['neutral', 'danger', 'warning', 'success'].forEach((intent) => {
   storiesOf('waffles-modals', module).add(`${intent} AlertDialog`, () => {
     return createElement(() => {
       const [isOpen, setIsOpen] = useState(true);
@@ -36,7 +36,7 @@ const LoremParagraph = () => (
             description="Are you sure you want to proceed with this action, this can not be undone afterward."
             intent={intent}
             isOpen={isOpen}
-            onClose={origin => {
+            onClose={(origin) => {
               console.log(origin); // eslint-disable-line no-console
               setIsOpen(false);
             }}
@@ -65,7 +65,7 @@ storiesOf('waffles-modals', module)
             description="Please wait."
             isOpen={isOpen}
             loading
-            onClose={origin => {
+            onClose={(origin) => {
               console.log(origin); // eslint-disable-line no-console
               setIsOpen(false);
             }}
@@ -88,7 +88,7 @@ storiesOf('waffles-modals', module)
           <Button onClick={() => setIsOpen(true)}>Open Modal</Button>
           <Dialog
             isOpen={isOpen}
-            onClose={origin => {
+            onClose={(origin) => {
               console.log(origin); // eslint-disable-line no-console
               setIsOpen(false);
             }}
@@ -117,7 +117,7 @@ storiesOf('waffles-modals', module)
           <Button onClick={() => setIsOpen(true)}>Open Modal</Button>
           <Dialog
             isOpen={isOpen}
-            onClose={origin => {
+            onClose={(origin) => {
               console.log(origin); // eslint-disable-line no-console
               setIsOpen(false);
             }}
@@ -142,7 +142,7 @@ storiesOf('waffles-modals', module)
           <Button onClick={() => setIsOpen(true)}>Open Modal</Button>
           <Dialog
             isOpen={isOpen}
-            onClose={origin => {
+            onClose={(origin) => {
               console.log(origin); // eslint-disable-line no-console
               setIsOpen(false);
             }}
@@ -172,7 +172,7 @@ storiesOf('waffles-modals', module)
           <Button onClick={() => setIsOpen(true)}>Open Modal</Button>
           <Dialog
             isOpen={isOpen}
-            onClose={origin => {
+            onClose={(origin) => {
               console.log(origin); // eslint-disable-line no-console
               setIsOpen(false);
             }}
@@ -206,7 +206,7 @@ storiesOf('waffles-modals', module)
             <Button onClick={() => setIsOpen(true)}>Open Modal</Button>
             <Dialog
               isOpen={isOpen}
-              onClose={origin => {
+              onClose={(origin) => {
                 console.log(origin); // eslint-disable-line no-console
                 setIsOpen(false);
               }}
@@ -249,7 +249,7 @@ storiesOf('waffles-modals', module)
           <Button onClick={() => setIsOpen(true)}>Open Modal</Button>
           <Dialog
             isOpen={isOpen}
-            onClose={origin => {
+            onClose={(origin) => {
               console.log(origin); // eslint-disable-line no-console
               setIsOpen(false);
             }}
@@ -284,7 +284,7 @@ storiesOf('waffles-modals', module)
           <Dialog
             currentStep={3}
             isOpen={isOpen}
-            onClose={origin => {
+            onClose={(origin) => {
               console.log(origin); // eslint-disable-line no-console
               setIsOpen(false);
             }}
@@ -310,7 +310,7 @@ storiesOf('waffles-modals', module)
           <Button onClick={() => setIsOpen(true)}>Open Modal</Button>
           <Panel
             isOpen={isOpen}
-            onClose={origin => {
+            onClose={(origin) => {
               console.log(origin); // eslint-disable-line no-console
               setIsOpen(false);
             }}
@@ -345,7 +345,7 @@ storiesOf('waffles-modals', module)
           <Button onClick={() => setIsOpen(true)}>Open Modal</Button>
           <Panel
             isOpen={isOpen}
-            onClose={origin => {
+            onClose={(origin) => {
               console.log(origin); // eslint-disable-line no-console
               setIsOpen(false);
             }}
@@ -374,7 +374,7 @@ storiesOf('waffles-modals', module)
           <Button onClick={() => setIsOpen(true)}>Open Modal</Button>
           <Panel
             isOpen={isOpen}
-            onClose={origin => {
+            onClose={(origin) => {
               console.log(origin); // eslint-disable-line no-console
               setIsOpen(false);
             }}

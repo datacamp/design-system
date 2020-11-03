@@ -33,7 +33,7 @@ export default () => {
               </tr>
             </thead>
             <tbody>
-              {obj.map(name => (
+              {obj.map((name) => (
                 <tr key={name}>
                   <td>
                     <code className="dc-u-ws-nowrap">

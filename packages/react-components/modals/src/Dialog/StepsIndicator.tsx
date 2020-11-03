@@ -26,7 +26,7 @@ const StepsIndicator: React.FC<StepsIndicatorProps> = ({
     aria-label={`Step ${currentStep} of ${totalSteps}`}
     css={{ lineHeight: '8px', marginTop: 16, padding: 0 }}
   >
-    {_.times(totalSteps, i => (
+    {_.times(totalSteps, (i) => (
       <div
         css={css(indicatorStyle, {
           backgroundColor:

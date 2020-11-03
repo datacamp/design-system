@@ -76,9 +76,9 @@ export type CloseOrigin = 'overlayClick' | 'escKey' | 'closeButton';
 const Dialog: React.FC<DialogProps> = ({
   additionalContent,
   children,
+  closeButtonDisabled = false,
   contentLabel,
   dataAttributes,
-  closeButtonDisabled = false,
   hideCloseButton,
   isOpen,
   onAfterOpen,

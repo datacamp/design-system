@@ -54,9 +54,9 @@ const Tooltip = ({
   appearance,
   children,
   id,
-  visible,
-  target,
   position,
+  target,
+  visible,
 }: TooltipProps): ReactElement | null => {
   return (
     <Positioner position={position} target={target} visible={visible}>

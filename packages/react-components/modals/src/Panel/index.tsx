@@ -77,10 +77,10 @@ const Panel = ({
   isOpen,
   onAfterOpen,
   onClose,
+  position = 'right',
   shouldCloseOnEsc = true,
   shouldCloseOnOverlayClick = true,
   width = '45%',
-  position = 'right',
 }: PanelProps): React.ReactElement => {
   // Callbacks to set the correct origin when closing
   const onCloseButton = (): void => onClose('closeButton');

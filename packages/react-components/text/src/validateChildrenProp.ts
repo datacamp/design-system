@@ -1,10 +1,10 @@
 import { get, isNumber, isString } from 'lodash';
 import PropTypes from 'prop-types';
 
-type ValidComponents = (
+type ValidComponents = Array<
   | ((props: React.PropsWithChildren<any>) => React.ReactNode) // eslint-disable-line @typescript-eslint/no-explicit-any
   | string
-)[];
+>;
 interface PropValues {
   [key: string]: any; // eslint-disable-line @typescript-eslint/no-explicit-any
 }
@@ -35,7 +35,9 @@ const getCheckSingleChild = (
         `Invalid prop ${
           value.type
         } supplied to ${name}. only string and ${validComponents
-          .map(component => (isString(component) ? component : component.name))
+          .map((component) =>
+            isString(component) ? component : component.name,
+          )
           .join(',')} are allowed as children.`,
       );
     }

@@ -51,7 +51,7 @@ export default () => {
                 <code>min-width: 0px;</code>
               </td>
             </tr>
-            {sizes.map(value => (
+            {sizes.map((value) => (
               <tr key={value}>
                 <td>
                   <code className="dc-u-ws-nowrap">{`.dc-u-minw-${value}`}</code>
@@ -61,7 +61,7 @@ export default () => {
                 </td>
               </tr>
             ))}
-            {measures.map(value => (
+            {measures.map((value) => (
               <tr key={value}>
                 <td>
                   <code className="dc-u-ws-nowrap">{`.dc-u-minw-${value}`}</code>
@@ -96,7 +96,7 @@ export default () => {
             </tr>
           </thead>
           <tbody>
-            {percentages.map(value => (
+            {percentages.map((value) => (
               <tr key={value}>
                 <td>
                   <code className="dc-u-ws-nowrap">{`.dc-u-minw-${value}pc`}</code>

@@ -46,7 +46,7 @@ export default () => {
             </tr>
           </thead>
           <tbody>
-            {Sizes.map(size => (
+            {Sizes.map((size) => (
               <tr key={size}>
                 <td>
                   <code className="dc-u-ws-nowrap">{`.dc-u-m-${size}`}</code>

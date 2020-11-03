@@ -352,7 +352,7 @@ export default () => {
               </p>
 
               <ul className="dc-u-lst-none dc-u-m-none dc-u-p-none dc-u-fx dc-u-fx-fww">
-                {obj.map(name => (
+                {obj.map((name) => (
                   <li className="dc-u-w-50pc" key={name}>
                     <div className="dc-card dc-u-m-8 dc-u-ta-center">
                       <span className="dc-icon dc-icon--size-12">

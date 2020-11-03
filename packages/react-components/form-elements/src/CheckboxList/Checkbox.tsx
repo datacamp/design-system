@@ -42,9 +42,9 @@ const divStyle = css({
  * Can only be used within `CheckboxList`
  */
 const Checkbox = ({
+  children,
   disabled = false,
   value,
-  children,
 }: CheckboxProps): ReactElement => {
   const contextValue = React.useContext(CheckboxListContext);
   if (contextValue === null) {

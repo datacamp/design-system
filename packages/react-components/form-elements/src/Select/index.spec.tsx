@@ -318,17 +318,17 @@ describe('with label', () => {
   });
 
   describe('snapshots', () => {
-    const selectSizes: ('small' | 'medium' | 'large')[] = [
+    const selectSizes: Array<'small' | 'medium' | 'large'> = [
       'small',
       'medium',
       'large',
     ];
     const disabled: boolean[] = [true, false];
-    const required: (boolean | undefined)[] = [undefined, true, false];
+    const required: Array<boolean | undefined> = [undefined, true, false];
 
-    selectSizes.forEach(size => {
-      required.forEach(isRequired => {
-        disabled.forEach(isDisabled => {
+    selectSizes.forEach((size) => {
+      required.forEach((isRequired) => {
+        disabled.forEach((isDisabled) => {
           it(`renders a select element with size ${size}, disabled=${isDisabled}, required=${isRequired}`, async () => {
             const { container } = render(
               <Select

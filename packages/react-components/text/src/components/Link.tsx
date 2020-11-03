@@ -48,11 +48,11 @@ const linkStyle = css(baseStyle, {
 });
 
 const InternalLink = ({
+  children,
   className,
   dataAttributes,
-  children,
-  innerRef,
   href,
+  innerRef,
   onClick,
   onMouseEnter,
 }: LinkProps & { innerRef?: React.Ref<HTMLAnchorElement> }): ReactElement => {

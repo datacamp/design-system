@@ -4,7 +4,7 @@ const extractValues = require('../helpers/extractValues');
 const extractValueArray = require('../helpers/extractValueArray');
 const extractColors = require('../helpers/extractColors');
 
-module.exports = dictionary => {
+module.exports = (dictionary) => {
   const tokens = {
     animation: extractValues(dictionary.properties.animation),
     border: extractValues(dictionary.properties.size.border),
@@ -15,7 +15,7 @@ module.exports = dictionary => {
         _.mapKeys(dictionary.properties.breakpoints, (value, key) => {
           return _.camelCase(`below-${key}`);
         }),
-        prop => {
+        (prop) => {
           return prop.attributes.below;
         },
       ),
@@ -26,7 +26,7 @@ module.exports = dictionary => {
     }),
     fontFamily: _.mapValues(
       extractValues(dictionary.properties.asset.font),
-      fontFamily => `'${fontFamily}'`,
+      (fontFamily) => `'${fontFamily}'`,
     ),
     fontSize: _.mapValues(
       extractValues(
@@ -35,11 +35,11 @@ module.exports = dictionary => {
           ({ attributes }, key) => attributes.legacyName || 'remove',
         ),
       ),
-      fontSize => (_.isString(fontSize) ? fontSize : `${fontSize}rem`),
+      (fontSize) => (_.isString(fontSize) ? fontSize : `${fontSize}rem`),
     ),
     fontWeight: _.mapValues(
       extractValues(dictionary.properties.fontWeight),
-      fontWeight => `${fontWeight}`,
+      (fontWeight) => `${fontWeight}`,
     ),
     letterSpacings: extractValues(dictionary.properties.letterSpacings),
     lineHeight: extractValues(dictionary.properties.lineHeight),

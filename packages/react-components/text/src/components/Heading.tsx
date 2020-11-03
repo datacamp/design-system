@@ -99,12 +99,12 @@ const getStyle = (size: Size, multiLine: boolean): SerializedStyles => {
 const Heading = (props: HeadingProps): ReactElement => {
   validateChildrenProp(props, 'Heading', [PlainString, Strong]);
   const {
-    children,
     as: Element,
+    children,
     className,
-    size,
     dataAttributes,
     multiLine = false,
+    size,
   } = props;
   const parsedDataAttributes = computeDataAttributes(dataAttributes);
   const style = getStyle(size, multiLine);

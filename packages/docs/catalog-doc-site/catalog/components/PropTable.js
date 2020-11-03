@@ -35,7 +35,7 @@ const getTypeString = ({ tsType, type }) => {
 };
 
 const PropTable = ({ componentData, componentName, id }) => {
-  const { props, description } = componentData;
+  const { description, props } = componentData;
   return (
     <Card css={{ marginTop: 16, padding: 24 }} elevation={2} id={id}>
       <Heading as="h4" size={400}>

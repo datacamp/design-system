@@ -23,8 +23,8 @@ const {
   AlternateCode,
   AlternateCodeBlock,
   AlternateHeading,
-  PlainString,
   AlternateListItem,
+  PlainString,
 } = alternateComponents;
 
 const renderers = {
@@ -40,7 +40,7 @@ const renderers = {
 };
 
 const Markdown = (props: MarkdownProps): ReactElement => {
-  const { source, className } = props;
+  const { className, source } = props;
   return (
     <ReactMarkdown
       className={className}

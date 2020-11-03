@@ -133,7 +133,7 @@ describe('<Card />', () => {
 
   describe('snapshots', () => {
     Object.keys(elevationMap)
-      .map(key => parseInt(key, 10))
+      .map((key) => parseInt(key, 10))
       // eslint-disable-next-line @typescript-eslint/no-explicit-any
       .forEach((elevation: any) => {
         it(`renders a card with elevation ${elevation}`, async () => {

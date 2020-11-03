@@ -56,14 +56,14 @@ interface DialogProps {
 }
 
 const Dialog = ({
-  currentStep,
-  totalSteps,
   children,
+  currentStep,
   hideCloseButton = false,
   isOpen,
   onClose,
   shouldCloseOnEsc = true,
   shouldCloseOnOverlayClick = true,
+  totalSteps,
   width,
 }: DialogProps): React.ReactElement => (
   <BaseDialog

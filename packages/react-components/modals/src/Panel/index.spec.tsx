@@ -20,7 +20,7 @@ describe('<Panel />', () => {
 
   describe('isOpen', () => {
     it('renders the modal via a portal when true', async () => {
-      const { container, getByText, baseElement, getByRole } = await axeRender(
+      const { baseElement, container, getByRole, getByText } = await axeRender(
         <Panel isOpen onClose={() => {}}>
           children
         </Panel>,
@@ -37,7 +37,7 @@ describe('<Panel />', () => {
     });
 
     it('mounts nothing when false', async () => {
-      const { container, baseElement, queryByRole } = await axeRender(
+      const { baseElement, container, queryByRole } = await axeRender(
         <Panel isOpen={false} onClose={() => {}}>
           children
         </Panel>,
