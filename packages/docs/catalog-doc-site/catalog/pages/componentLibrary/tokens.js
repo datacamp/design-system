@@ -1,3 +1,4 @@
+/* eslint-disable import/no-anonymous-default-export */
 import tokens from '@datacamp/waffles-tokens';
 import { Page } from 'catalog';
 import React from 'react';

@@ -23,8 +23,8 @@ const {
   AlternateCode,
   AlternateCodeBlock,
   AlternateHeading,
-  PlainString,
   AlternateListItem,
+  PlainString,
 } = alternateComponents;
 
 const renderers = {
@@ -35,12 +35,12 @@ const renderers = {
   list: List,
   listItem: AlternateListItem,
   paragraph: Paragraph,
-  strong: Strong, // eslint-disable-line @typescript-eslint/no-explicit-any
+  strong: Strong,
   text: PlainString as any,
 };
 
 const Markdown = (props: MarkdownProps): ReactElement => {
-  const { source, className } = props;
+  const { className, source } = props;
   return (
     <ReactMarkdown
       className={className}

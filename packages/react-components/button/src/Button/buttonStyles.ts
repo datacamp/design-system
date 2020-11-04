@@ -30,10 +30,8 @@ const primaryHoverColors: IntentMap = {
   warning: tokens.color.primary.orangeLight.value.hex,
 };
 
-const outlineHoverColors: IntentMap = _.mapValues(baseColors, value =>
-  tinycolor(value)
-    .setAlpha(0.15)
-    .toRgbString(),
+const outlineHoverColors: IntentMap = _.mapValues(baseColors, (value) =>
+  tinycolor(value).setAlpha(0.15).toRgbString(),
 );
 
 // BASE STYLES

@@ -5,7 +5,7 @@ import React, { forwardRef, ReactElement, Ref } from 'react';
 import { fontSizes, inputPaddings, inputStyle } from '../formStyles';
 import Label from '../Label';
 
-interface InputProps {
+interface TextAreaProps {
   /**
    * Sets the autocomplete attribute on the rendered input element.
    */
@@ -95,14 +95,16 @@ interface InputProps {
   value: string;
 }
 
-const InternalInput = ({
+const InternalTextArea = ({
   autocomplete,
   className,
   dataAttributes,
   description,
   disabled = false,
   errorMessage,
+  htmlRequired,
   id,
+  innerRef,
   label,
   maxLength,
   name,
@@ -110,11 +112,9 @@ const InternalInput = ({
   onChange,
   placeholder,
   required,
-  value,
-  innerRef,
   rows = 2,
-  htmlRequired,
-}: InputProps & { innerRef?: Ref<HTMLTextAreaElement> }): ReactElement => {
+  value,
+}: TextAreaProps & { innerRef?: Ref<HTMLTextAreaElement> }): ReactElement => {
   const parsedDataAttributes = computeDataAttributes(dataAttributes);
 
   const handleChange = (event: React.ChangeEvent<HTMLTextAreaElement>): void =>
@@ -173,8 +173,8 @@ const InternalInput = ({
   );
 };
 
-const Input = forwardRef<HTMLTextAreaElement, InputProps>((props, ref) => (
-  <InternalInput innerRef={ref} {...props} />
-));
+const TextArea = forwardRef<HTMLTextAreaElement, TextAreaProps>(
+  (props, ref) => <InternalTextArea innerRef={ref} {...props} />,
+);
 
-export default Input;
+export default TextArea;

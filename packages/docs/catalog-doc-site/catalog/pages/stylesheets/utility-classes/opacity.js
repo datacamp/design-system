@@ -1,3 +1,4 @@
+/* eslint-disable import/no-anonymous-default-export */
 import { Page } from 'catalog';
 import React from 'react';
 
@@ -30,7 +31,7 @@ export default () => {
             </tr>
           </thead>
           <tbody>
-            {opacities.map(value => (
+            {opacities.map((value) => (
               <tr key={value}>
                 <td>
                   <code className="dc-u-ws-nowrap">{`.dc-u-op-${value}`}</code>

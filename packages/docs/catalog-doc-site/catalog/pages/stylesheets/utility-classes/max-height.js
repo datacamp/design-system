@@ -1,3 +1,4 @@
+/* eslint-disable import/no-anonymous-default-export */
 import { spatial } from '@datacamp/waffles-tokens';
 import { Page } from 'catalog';
 import React from 'react';
@@ -47,7 +48,7 @@ export default () => {
                 <code>max-height: 0px;</code>
               </td>
             </tr>
-            {pixels.map(value => (
+            {pixels.map((value) => (
               <tr key={value}>
                 <td>
                   <code className="dc-u-ws-nowrap">{`.dc-u-maxh-${value}`}</code>
@@ -74,7 +75,7 @@ export default () => {
             </tr>
           </thead>
           <tbody>
-            {ratios.map(value => (
+            {ratios.map((value) => (
               <tr key={value}>
                 <td>
                   <code className="dc-u-ws-nowrap">{`.dc-u-maxh-${value}`}</code>

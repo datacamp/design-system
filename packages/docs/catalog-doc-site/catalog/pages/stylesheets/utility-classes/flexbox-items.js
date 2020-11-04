@@ -1,3 +1,4 @@
+/* eslint-disable import/no-anonymous-default-export */
 import { Page } from 'catalog';
 import React from 'react';
 
@@ -255,7 +256,7 @@ export default () => {
                 <code>flex-basis: auto;</code>
               </td>
             </tr>
-            {widths.map(value => (
+            {widths.map((value) => (
               <tr key={value}>
                 <td>
                   <code className="dc-u-ws-nowrap">{`.dc-u-fxi-fb-${value}`}</code>
@@ -265,7 +266,7 @@ export default () => {
                 </td>
               </tr>
             ))}
-            {percentages.map(value => (
+            {percentages.map((value) => (
               <tr key={value}>
                 <td>
                   <code className="dc-u-ws-nowrap">{`.dc-u-fxi-fb-${value}pc`}</code>

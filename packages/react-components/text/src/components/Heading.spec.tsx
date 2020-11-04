@@ -13,8 +13,8 @@ const headerSizes: Size[] = [200, 300, 400, 500, 600, 650, 700, 800, 900];
 
 describe('<Heading />', () => {
   describe('renders at each size', () => {
-    headerSizes.forEach(size =>
-      [true, false].forEach(multiLine => {
+    headerSizes.forEach((size) =>
+      [true, false].forEach((multiLine) => {
         it(`renders at size ${size}, multiLine=${multiLine}`, async () => {
           const { container } = await axeRender(
             <Heading

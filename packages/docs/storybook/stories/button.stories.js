@@ -22,11 +22,11 @@ const AllButtonCombos = ({ children }) => (
       flexDirection: 'column',
     }}
   >
-    {['default', 'primary', 'inverted'].map(appearance =>
-      ['small', 'medium', 'large'].map(size => (
+    {['default', 'primary', 'inverted'].map((appearance) =>
+      ['small', 'medium', 'large'].map((size) => (
         <ButtonGroup key={`${appearance}${size}`}>
-          {[null, 'loading', 'disabled'].map(state => {
-            return intents.map(intent =>
+          {[null, 'loading', 'disabled'].map((state) => {
+            return intents.map((intent) =>
               children({
                 appearance,
                 intent,
@@ -65,7 +65,7 @@ storiesOf('waffles-button', module)
   .addParameters({ percy: { widths: [1500] } })
   .add('Button with text', () => (
     <AllButtonCombos>
-      {({ appearance, state, intent, size, key }) => (
+      {({ appearance, intent, key, size, state }) => (
         <Button
           appearance={appearance}
           disabled={state === 'disabled'}
@@ -85,7 +85,7 @@ storiesOf('waffles-button', module)
 
   .add('Button with icon', () => (
     <AllButtonCombos>
-      {({ appearance, state, intent, size, key }) => (
+      {({ appearance, intent, key, size, state }) => (
         <Button
           appearance={appearance}
           ariaLabel="plus button"
@@ -106,7 +106,7 @@ storiesOf('waffles-button', module)
   .add('Button with icon and text', () => (
     <>
       <AllButtonCombos>
-        {({ appearance, state, intent, size, key }) => (
+        {({ appearance, intent, key, size, state }) => (
           <Button
             appearance={appearance}
             disabled={state === 'disabled'}
@@ -123,7 +123,7 @@ storiesOf('waffles-button', module)
         )}
       </AllButtonCombos>
       <AllButtonCombos>
-        {({ appearance, state, intent, size, key }) => (
+        {({ appearance, intent, key, size, state }) => (
           <Button
             appearance={appearance}
             disabled={state === 'disabled'}
@@ -149,7 +149,7 @@ storiesOf('waffles-button', module)
         flexDirection: 'column',
       }}
     >
-      {['neutral', 'warning', 'danger', 'success', 'b2b'].map(intent => (
+      {['neutral', 'warning', 'danger', 'success', 'b2b'].map((intent) => (
         <CompactButtonGroup key={intent}>
           <Button appearance="primary" intent={intent}>
             Button 1
@@ -165,7 +165,7 @@ storiesOf('waffles-button', module)
           </Button>
         </CompactButtonGroup>
       ))}
-      {['neutral', 'warning', 'danger', 'success', 'b2b'].map(intent => (
+      {['neutral', 'warning', 'danger', 'success', 'b2b'].map((intent) => (
         <CompactButtonGroup key={intent}>
           <Button intent={intent}>Button 1</Button>
           <Button intent={intent}>Button 2</Button>

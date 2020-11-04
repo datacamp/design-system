@@ -133,8 +133,7 @@ describe('<Card />', () => {
 
   describe('snapshots', () => {
     Object.keys(elevationMap)
-      .map(key => parseInt(key, 10))
-      // eslint-disable-next-line @typescript-eslint/no-explicit-any
+      .map((key) => parseInt(key, 10))
       .forEach((elevation: any) => {
         it(`renders a card with elevation ${elevation}`, async () => {
           const { container } = await axeRender(

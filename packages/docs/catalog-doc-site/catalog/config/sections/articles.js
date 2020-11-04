@@ -1,6 +1,6 @@
 import { pageLoader } from 'catalog';
 
-export default [
+const articles = [
   {
     content: pageLoader(() => import('../../pages/articles/overview.js')),
     hideFromMenu: false,
@@ -30,3 +30,5 @@ export default [
     title: 'Brand Refresh',
   },
 ];
+
+export default articles;

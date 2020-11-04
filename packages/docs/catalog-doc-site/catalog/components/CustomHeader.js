@@ -1,10 +1,10 @@
 import tokens from '@datacamp/waffles-tokens/lib/future-tokens.json';
 /* @jsx jsx */
-import { jsx } from '@emotion/core'; // eslint-disable-line no-unused-vars
+import { jsx } from '@emotion/core';
 import PropTypes from 'prop-types';
 import React from 'react';
 
-const CustomHeader = ({ section, subSection, description }) => (
+const CustomHeader = ({ description, section, subSection }) => (
   <header
     css={{
       backgroundColor: tokens.color.primary.navy.value.hex,

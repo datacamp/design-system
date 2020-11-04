@@ -1,5 +1,6 @@
+/* eslint-disable sonarjs/no-identical-functions */
 /* eslint-disable no-param-reassign */
-const { src, dest, series, parallel } = require('gulp');
+const { dest, parallel, series, src } = require('gulp');
 const rename = require('gulp-rename');
 const merge = require('merge-stream');
 const svgr = require('@svgr/core').default;
@@ -92,7 +93,7 @@ function buildTypescriptWebComponents() {
       }),
     )
     .pipe(
-      rename(path => {
+      rename((path) => {
         path.basename = generateComponentName(
           `${path.basename}${path.extname}`,
         );
@@ -139,7 +140,7 @@ function buildTypescriptMobileComponents() {
       }),
     )
     .pipe(
-      rename(path => {
+      rename((path) => {
         path.basename = generateComponentName(
           `${path.basename}${path.extname}`,
         );
@@ -154,7 +155,7 @@ function generateWebIndexFile() {
     .pipe(
       concatFilenames('index.ts', {
         root: './build/web',
-        template: fileName => {
+        template: (fileName) => {
           const componentName = generateComponentName(fileName);
           return `export { default as ${componentName}Icon } from './${componentName}';`;
         },
@@ -168,7 +169,7 @@ function generateMobileIndexFile() {
     .pipe(
       concatFilenames('index.ts', {
         root: './build/mobile',
-        template: fileName => {
+        template: (fileName) => {
           const componentName = generateComponentName(fileName);
           return `export { default as ${componentName}Icon } from './${componentName}';`;
         },
@@ -237,7 +238,7 @@ function generateSprites() {
         shape: { transform: ['svgo'] },
         svg: {
           transform: [
-            svg => {
+            (svg) => {
               return svg.replace(/#3AC/g, 'currentColor');
             },
           ],
@@ -250,14 +251,14 @@ function generateSprites() {
 function loadResizedColorSVGs({ color, suffix }) {
   return loadAllSVGs()
     .pipe(
-      transform('utf8', content =>
+      transform('utf8', (content) =>
         content
           .replace(/#3AC/g, color)
           .replace('width="18" height="18"', 'width="512" height="512"'),
       ),
     )
     .pipe(
-      rename(path => {
+      rename((path) => {
         path.dirname += `/${path.basename}`;
         path.basename += suffix;
       }),
@@ -270,20 +271,14 @@ function generatePNG() {
     loadResizedColorSVGs({ color: '#ffffff', suffix: '-white' }),
     loadResizedColorSVGs({ color: '#3d4251', suffix: '-darkGrey' }),
   ])
-    .pipe(
-      transform(content =>
-        sharp(content)
-          .png()
-          .toBuffer(),
-      ),
-    )
+    .pipe(transform((content) => sharp(content).png().toBuffer()))
     .pipe(rename({ extname: '.png' }));
 }
 
 function generateZip() {
   return merge([
     loadAllSVGs().pipe(
-      rename(path => {
+      rename((path) => {
         path.dirname += `/${path.basename}`;
       }),
     ),

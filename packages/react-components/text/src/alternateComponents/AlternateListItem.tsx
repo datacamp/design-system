@@ -9,8 +9,8 @@ export interface AlternateListItemProps {
 }
 
 const AlternateListItem: React.FC<AlternateListItemProps> = ({
-  children,
   checked,
+  children,
 }) => {
   const uidSeed = useUIDSeed();
   const uid = uidSeed('checkbox-description');

@@ -1,3 +1,4 @@
+/* eslint-disable filenames/match-exported */
 import { render } from '@testing-library/react';
 
 declare const axeRender: (

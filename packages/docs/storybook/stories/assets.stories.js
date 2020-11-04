@@ -14,15 +14,15 @@ import React from 'react';
 
 storiesOf('waffles-asset-components', module)
   .add('Logos White Background', () => {
-    return Object.values(Logos).map(LogoCollection =>
-      Object.values(LogoCollection).map(Logo => <Logo />),
+    return Object.values(Logos).map((LogoCollection) =>
+      Object.values(LogoCollection).map((Logo) => <Logo />),
     );
   })
   .add('Logos Black Background', () => {
     return (
       <div css={{ backgroundColor: 'black' }}>
-        {Object.values(Logos).map(LogoCollection =>
-          Object.values(LogoCollection).map(Logo => <Logo />),
+        {Object.values(Logos).map((LogoCollection) =>
+          Object.values(LogoCollection).map((Logo) => <Logo />),
         )}
       </div>
     );
@@ -30,17 +30,17 @@ storiesOf('waffles-asset-components', module)
   .add('ALPA', () => {
     return (
       <div css={{ backgroundColor: tokens.colors.navy }}>
-        {Object.values(ALPA).map(ALPATHING => (
+        {Object.values(ALPA).map((ALPATHING) => (
           <ALPATHING />
         ))}
       </div>
     );
   })
   .add('Technologies', () => {
-    return Object.values(Technologies).map(Technology => <Technology />);
+    return Object.values(Technologies).map((Technology) => <Technology />);
   })
   .add('Topics', () => {
-    return Object.values(Topics).map(Topic => <Topic />);
+    return Object.values(Topics).map((Topic) => <Topic />);
   })
   .add('TechLogo', () => {
     return <TechLogo technology={text('technology', 'R')} />;

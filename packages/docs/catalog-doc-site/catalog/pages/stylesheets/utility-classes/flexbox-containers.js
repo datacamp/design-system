@@ -1,3 +1,4 @@
+/* eslint-disable import/no-anonymous-default-export */
 import { breakpoints } from '@datacamp/waffles-tokens';
 import { Page } from 'catalog';
 import _ from 'lodash';

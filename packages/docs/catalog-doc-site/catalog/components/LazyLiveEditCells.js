@@ -2,7 +2,7 @@ import React from 'react';
 
 const LiveEditCells = React.lazy(() => import('./LiveEditCells'));
 
-const LazyLiveEditCells = props => (
+const LazyLiveEditCells = (props) => (
   <React.Suspense
     fallback={
       <React.Fragment>

@@ -31,7 +31,7 @@ const tokenBuilder = styleDictionary.extend({
 });
 
 tokenBuilder.registerTransform({
-  matcher: prop => prop.attributes.category === 'gradient',
+  matcher: (prop) => prop.attributes.category === 'gradient',
   name: 'waffles/gradient',
   transformer: gradientTransform,
   type: 'value',

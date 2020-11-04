@@ -1,3 +1,4 @@
+/* eslint-disable filenames/match-exported */
 import { Page } from 'catalog';
 import React from 'react';
 
@@ -16,7 +17,7 @@ const Subtractive = [
   },
 ];
 
-export default () => (
+const WordBreak = () => (
   <main>
     <CustomHeader
       description="Set where line breaks appear wherever text would otherwise overflow."
@@ -41,7 +42,7 @@ export default () => (
           </tr>
         </thead>
         <tbody>
-          {Additive.map(a => (
+          {Additive.map((a) => (
             <tr key={a.class}>
               <td>
                 <code className="dc-u-ws-nowrap">{`.dc-u-wb-${a.class}`}</code>
@@ -85,7 +86,7 @@ export default () => (
           </tr>
         </thead>
         <tbody>
-          {Subtractive.map(s => (
+          {Subtractive.map((s) => (
             <tr key={s.class}>
               <td>
                 <code className="dc-u-ws-nowrap">{`.dc-u-wb-${s.class}`}</code>
@@ -106,3 +107,5 @@ export default () => (
     </Page>
   </main>
 );
+
+export default WordBreak;

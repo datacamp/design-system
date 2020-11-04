@@ -1,3 +1,4 @@
+/* eslint-disable sonarjs/no-identical-functions */
 import Button from '@datacamp/waffles-button';
 import {
   Checkbox,

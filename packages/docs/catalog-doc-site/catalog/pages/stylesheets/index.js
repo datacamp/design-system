@@ -1,3 +1,4 @@
+/* eslint-disable import/no-anonymous-default-export */
 import { HintSpecimen, Page } from 'catalog';
 import React from 'react';
 

@@ -25,7 +25,7 @@ interface DialogProps {
    */
   additionalContent?: React.ReactNode;
   /**
-   * The content of the Dialog
+   * The content of the BaseDialog
    */
   children: React.ReactNode;
   /**
@@ -73,12 +73,12 @@ interface DialogProps {
 
 export type CloseOrigin = 'overlayClick' | 'escKey' | 'closeButton';
 
-const Dialog: React.FC<DialogProps> = ({
+const BaseDialog: React.FC<DialogProps> = ({
   additionalContent,
   children,
+  closeButtonDisabled = false,
   contentLabel,
   dataAttributes,
-  closeButtonDisabled = false,
   hideCloseButton,
   isOpen,
   onAfterOpen,
@@ -157,4 +157,4 @@ const Dialog: React.FC<DialogProps> = ({
   );
 };
 
-export default Dialog;
+export default BaseDialog;

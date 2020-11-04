@@ -1,6 +1,6 @@
 import React from 'react';
 
-import spinnerStyle from './spinnerStyles';
+import spinnerStyle from './spinnerStyle';
 
 const Spinner: React.FC<{ className?: string; color: string }> = ({
   className,

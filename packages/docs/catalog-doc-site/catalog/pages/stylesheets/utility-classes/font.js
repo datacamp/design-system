@@ -1,3 +1,4 @@
+/* eslint-disable import/no-anonymous-default-export */
 import { Page } from 'catalog';
 import React from 'react';
 
@@ -187,7 +188,7 @@ export default () => {
             </tr>
           </thead>
           <tbody>
-            {sizes.map(name => (
+            {sizes.map((name) => (
               <tr className="dc-u-bt">
                 <td>
                   <code>.dc-u-fs-{name}</code>

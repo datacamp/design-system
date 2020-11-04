@@ -316,17 +316,17 @@ describe('with label', () => {
 describe('snapshots', () => {
   const exampleText = 'input text';
 
-  const inputSizes: ('small' | 'medium' | 'large')[] = [
+  const inputSizes: Array<'small' | 'medium' | 'large'> = [
     'small',
     'medium',
     'large',
   ];
   const disabled: boolean[] = [true, false];
-  const required: (boolean | undefined)[] = [undefined, true, false];
+  const required: Array<boolean | undefined> = [undefined, true, false];
 
-  inputSizes.forEach(size => {
-    required.forEach(isRequired => {
-      disabled.forEach(isDisabled => {
+  inputSizes.forEach((size) => {
+    required.forEach((isRequired) => {
+      disabled.forEach((isDisabled) => {
         it(`renders an input with size ${size}, disabled=${isDisabled}, required=${isRequired}`, async () => {
           const { container } = await render(
             <Input

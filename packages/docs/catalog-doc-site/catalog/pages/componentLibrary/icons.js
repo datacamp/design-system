@@ -1,3 +1,4 @@
+/* eslint-disable import/no-anonymous-default-export */
 import * as Icons from '@datacamp/waffles-icons';
 import { List } from '@datacamp/waffles-text';
 import { colors } from '@datacamp/waffles-tokens';
@@ -108,7 +109,7 @@ export default () => {
             <p>All available components are presented below:</p>
             <table>
               <tbody>
-                {chunk(Object.entries(Icons), 3).map(icons => (
+                {chunk(Object.entries(Icons), 3).map((icons) => (
                   <tr>
                     {icons.map(([name, Component]) => (
                       <td>

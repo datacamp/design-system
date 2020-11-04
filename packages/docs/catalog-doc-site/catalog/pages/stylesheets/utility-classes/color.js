@@ -1,3 +1,4 @@
+/* eslint-disable import/no-anonymous-default-export */
 import { colors } from '@datacamp/waffles-tokens';
 import { Page } from 'catalog';
 import _ from 'lodash';
@@ -33,7 +34,7 @@ export default () => {
               </tr>
             </thead>
             <tbody>
-              {obj.map(name => (
+              {obj.map((name) => (
                 <tr key={name}>
                   <td>
                     <code className="dc-u-ws-nowrap">

@@ -1,10 +1,35 @@
 const { testFilesGlobPatterns } = require('@datacamp/eslint-config/helpers');
 
 module.exports = {
+  env: {
+    browser: true,
+  },
   extends: ['@datacamp/eslint-config/typescript', 'plugin:cypress/recommended'],
   ignorePatterns: ['**/generated/**'],
+  overrides: [
+    {
+      files: [...testFilesGlobPatterns, '**/*.stories.js'],
+      rules: { '@typescript-eslint/no-empty-function': 'off' },
+    },
+    {
+      files: ['**/cypress/**/*.js'],
+      rules: {
+        '@typescript-eslint/no-var-requires': 'off',
+        'jest/expect-expect': 'off',
+        'jest/valid-expect': 'off',
+        'jest/valid-expect-in-promise': 'off',
+      },
+    },
+  ],
+  parserOptions: {
+    ecmaFeatures: {
+      jsx: true,
+    },
+  },
+  root: true,
   rules: {
-    'react/jsx-filename-extension': 'off',
+    '@typescript-eslint/no-var-requires': 'off',
+    'import/no-cycle': 'off',
     'import/no-extraneous-dependencies': [
       'error',
       {
@@ -17,48 +42,9 @@ module.exports = {
           '**/gulpfile.js',
           'packages/other/**/*.js',
           '**/cypress/**',
+          '.eslintrc.js',
         ],
       },
     ],
-    'import/no-cycle': 'off',
-    'import/extensions': [
-      'error',
-      'ignorePackages',
-      {
-        tsx: 'never',
-        ts: 'never',
-        jsx: 'never',
-        js: 'never',
-      },
-    ],
-    '@typescript-eslint/no-var-requires': 'off',
   },
-  env: {
-    browser: true,
-  },
-  root: true,
-  parserOptions: {
-    ecmaFeatures: {
-      jsx: true,
-    },
-  },
-  overrides: [
-    {
-      files: ['*.js', '*.jsx'],
-      rules: { '@typescript-eslint/explicit-function-return-type': 'off' },
-    },
-    {
-      files: [...testFilesGlobPatterns, '**/*.stories.js'],
-      rules: { '@typescript-eslint/no-empty-function': 'off' },
-    },
-    {
-      files: ['**/cypress/**/*.js'],
-      rules: {
-        'jest/valid-expect': 'off',
-        'jest/expect-expect': 'off',
-        '@typescript-eslint/no-var-requires': 'off',
-        'jest/valid-expect-in-promise': 'off',
-      },
-    },
-  ],
 };

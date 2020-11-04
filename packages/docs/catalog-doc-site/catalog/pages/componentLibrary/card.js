@@ -1,3 +1,4 @@
+/* eslint-disable import/no-anonymous-default-export */
 import Card from '@datacamp/waffles-card';
 import CardData from '@datacamp/waffles-card/componentMetadata.json';
 import { Code, CodeBlock, Heading, Paragraph } from '@datacamp/waffles-text';

@@ -1,3 +1,4 @@
+/* eslint-disable import/no-anonymous-default-export */
 /* @jsx jsx */
 import { Badge } from '@datacamp/waffles-text';
 import tokens from '@datacamp/waffles-tokens/lib/future-tokens.json';
@@ -100,7 +101,7 @@ export default () => {
                 </tr>
               </thead>
               <tbody>
-                {components.map(({ name, status, docLink }) => (
+                {components.map(({ docLink, name, status }) => (
                   <tr key={name}>
                     <td>{docLink ? <a href={docLink}>{name}</a> : name}</td>
                     <td css={{ textAlign: 'right' }}>

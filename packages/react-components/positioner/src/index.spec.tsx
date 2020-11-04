@@ -13,7 +13,7 @@ describe('Positioner', () => {
     'topLeft',
     'top',
     'topRight',
-  ] as const).forEach(position => {
+  ] as const).forEach((position) => {
     it(`renders on the ${position} on the target`, async () => {
       const ref = React.createRef<HTMLDivElement>();
       const { baseElement } = await axeRender(

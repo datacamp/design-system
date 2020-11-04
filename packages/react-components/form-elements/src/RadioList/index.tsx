@@ -8,7 +8,7 @@ import Radio, { RadioProps } from './Radio';
 import RadioListContext from './RadioListContext';
 
 export interface RadioListProps {
-  children: ReactElement<RadioProps>[];
+  children: Array<ReactElement<RadioProps>>;
   /**
    * When provided the description will show underneath the label. Only
    * available when 'label' is also specified.

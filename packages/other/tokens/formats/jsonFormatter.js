@@ -5,8 +5,8 @@ const deepCleaner = require('deep-cleaner');
 
 const stripKeys = ['scssSortValue'];
 
-const stripDeprecatedProps = tokens => {
-  return _.mapValues(tokens, property => {
+const stripDeprecatedProps = (tokens) => {
+  return _.mapValues(tokens, (property) => {
     if (!_.has(property, 'attributes')) {
       return stripDeprecatedProps(property);
     }
@@ -14,8 +14,8 @@ const stripDeprecatedProps = tokens => {
   });
 };
 
-const replaceColorValues = object =>
-  _.mapValues(object, property => {
+const replaceColorValues = (object) =>
+  _.mapValues(object, (property) => {
     if (!_.has(property, 'value')) {
       return replaceColorValues(property);
     }
@@ -29,13 +29,13 @@ const replaceColorValues = object =>
     return { ...property, value };
   });
 
-const replaceFontSizeValues = object =>
-  _.mapValues(object, property => {
+const replaceFontSizeValues = (object) =>
+  _.mapValues(object, (property) => {
     if (!_.isNumber(property.value)) return property;
     return { ...property, value: `${property.value * 16}px` };
   });
 
-module.exports = dictionary => {
+module.exports = (dictionary) => {
   const { color, size } = dictionary.properties;
 
   const fullTokens = stripDeprecatedProps({

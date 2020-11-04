@@ -14,7 +14,7 @@ storiesOf('waffles-card', module).add('elevation levels', () => {
         width: '100%',
       }}
     >
-      {Object.keys(elevationMap).map(elevation => (
+      {Object.keys(elevationMap).map((elevation) => (
         <Card
           css={{ margin: 16, padding: 24, width: 300 }}
           elevation={parseInt(elevation, 10)}

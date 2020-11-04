@@ -148,8 +148,8 @@ const InternalButton = (
     loading = false,
     size = 'medium',
     tooltipAppearance = 'dark',
-    tooltipText,
     tooltipPosition = 'bottom',
+    tooltipText,
   } = props;
 
   const buttonRef = useRef<HTMLElement>();
@@ -220,7 +220,6 @@ const InternalButton = (
     hasFocus && focusStyle,
   );
 
-  // eslint-disable-next-line @typescript-eslint/explicit-function-return-type
   const { Element, ...otherProps } = (() => {
     switch (props.type) {
       case 'link':

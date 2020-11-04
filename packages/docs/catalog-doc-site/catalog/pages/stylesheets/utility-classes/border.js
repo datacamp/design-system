@@ -1,3 +1,4 @@
+/* eslint-disable import/no-anonymous-default-export */
 import { colors } from '@datacamp/waffles-tokens';
 import { HintSpecimen, Page } from 'catalog';
 import _ from 'lodash';
@@ -219,7 +220,7 @@ export default () => {
 
         <section className="dc-u-bgc-white dc-u-mt-24 dc-u-p-8">
           <ul className="dc-u-fx dc-u-fx-fww dc-u-m-none dc-u-p-none">
-            {obj.map(name => (
+            {obj.map((name) => (
               <li
                 className="dc-u-fx dc-u-fx-fdc dc-u-fx-aic dc-u-fx-jcc dc-u-m-8"
                 key={name}

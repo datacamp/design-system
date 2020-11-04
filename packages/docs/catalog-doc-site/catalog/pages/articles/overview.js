@@ -1,6 +1,7 @@
+/* eslint-disable import/no-anonymous-default-export */
 /* @jsx jsx */
 import { ArrowRightIcon } from '@datacamp/waffles-icons';
-import { css, jsx } from '@emotion/core'; // eslint-disable-line no-unused-vars
+import { css, jsx } from '@emotion/core';
 import { Page } from 'catalog';
 import React from 'react';
 

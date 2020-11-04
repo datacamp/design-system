@@ -1,3 +1,4 @@
+/* eslint-disable filenames/match-exported */
 import { css } from '@emotion/core';
 import React, { MutableRefObject } from 'react';
 
@@ -21,9 +22,9 @@ interface PositionerProps {
 
 const Positioner = ({
   children,
-  visible,
-  target,
   position,
+  target,
+  visible,
 }: PositionerProps): React.ReactElement | null => {
   const [shouldRender, setShouldRender] = React.useState(false);
   const [targetBox, setTargetBox] = React.useState({
