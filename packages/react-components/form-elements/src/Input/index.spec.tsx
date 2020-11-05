@@ -110,7 +110,7 @@ describe('<Input />', () => {
       const { getByRole } = render(
         <Input name={testName} onChange={onChange} value={testValue} />,
       );
-      const testString = 'test string';
+      const testString = 'a';
       const inputElement = getByRole('textbox') as HTMLElement;
 
       userEvent.type(inputElement, testString);
