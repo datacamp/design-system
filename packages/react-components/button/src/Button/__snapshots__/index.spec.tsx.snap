@@ -8,7 +8,6 @@ exports[`<Button /> snapshots renders a button with appearance default, intent d
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   font-size: 20px;
   line-height: 60px;
   color: #05192d;
@@ -170,7 +169,6 @@ exports[`<Button /> snapshots renders a button with appearance default, intent d
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   font-size: 20px;
   line-height: 60px;
   color: transparent;
@@ -386,7 +384,6 @@ exports[`<Button /> snapshots renders a button with appearance default, intent d
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   font-size: 16px;
   line-height: 44px;
   color: #05192d;
@@ -548,7 +545,6 @@ exports[`<Button /> snapshots renders a button with appearance default, intent d
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   font-size: 16px;
   line-height: 44px;
   color: transparent;
@@ -764,7 +760,6 @@ exports[`<Button /> snapshots renders a button with appearance default, intent d
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   font-size: 16px;
   line-height: 32px;
   color: #05192d;
@@ -926,7 +921,6 @@ exports[`<Button /> snapshots renders a button with appearance default, intent d
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   font-size: 16px;
   line-height: 32px;
   color: transparent;
@@ -1198,7 +1192,6 @@ exports[`<Button /> snapshots renders a button with appearance default, intent n
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   font-size: 20px;
   line-height: 60px;
   color: #05192d;
@@ -1367,7 +1360,6 @@ exports[`<Button /> snapshots renders a button with appearance default, intent n
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   font-size: 20px;
   line-height: 60px;
   color: transparent;
@@ -1576,7 +1568,6 @@ exports[`<Button /> snapshots renders a button with appearance default, intent n
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   font-size: 16px;
   line-height: 44px;
   color: #05192d;
@@ -1745,7 +1736,6 @@ exports[`<Button /> snapshots renders a button with appearance default, intent n
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   font-size: 16px;
   line-height: 44px;
   color: transparent;
@@ -1954,7 +1944,6 @@ exports[`<Button /> snapshots renders a button with appearance default, intent n
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   font-size: 16px;
   line-height: 32px;
   color: #05192d;
@@ -2123,7 +2112,6 @@ exports[`<Button /> snapshots renders a button with appearance default, intent n
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   font-size: 16px;
   line-height: 32px;
   color: transparent;
@@ -2276,7 +2264,6 @@ exports[`<Button /> snapshots renders a button with appearance default, intent s
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   font-size: 20px;
   line-height: 60px;
   color: #05192d;
@@ -2438,7 +2425,6 @@ exports[`<Button /> snapshots renders a button with appearance default, intent s
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   font-size: 20px;
   line-height: 60px;
   color: transparent;
@@ -2654,7 +2640,6 @@ exports[`<Button /> snapshots renders a button with appearance default, intent s
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   font-size: 16px;
   line-height: 44px;
   color: #05192d;
@@ -2816,7 +2801,6 @@ exports[`<Button /> snapshots renders a button with appearance default, intent s
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   font-size: 16px;
   line-height: 44px;
   color: transparent;
@@ -3032,7 +3016,6 @@ exports[`<Button /> snapshots renders a button with appearance default, intent s
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   font-size: 16px;
   line-height: 32px;
   color: #05192d;
@@ -3194,7 +3177,6 @@ exports[`<Button /> snapshots renders a button with appearance default, intent s
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   font-size: 16px;
   line-height: 32px;
   color: transparent;
@@ -3410,7 +3392,6 @@ exports[`<Button /> snapshots renders a button with appearance default, intent w
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   font-size: 20px;
   line-height: 60px;
   color: #05192d;
@@ -3572,7 +3553,6 @@ exports[`<Button /> snapshots renders a button with appearance default, intent w
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   font-size: 20px;
   line-height: 60px;
   color: transparent;
@@ -3788,7 +3768,6 @@ exports[`<Button /> snapshots renders a button with appearance default, intent w
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   font-size: 16px;
   line-height: 44px;
   color: #05192d;
@@ -3950,7 +3929,6 @@ exports[`<Button /> snapshots renders a button with appearance default, intent w
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   font-size: 16px;
   line-height: 44px;
   color: transparent;
@@ -4166,7 +4144,6 @@ exports[`<Button /> snapshots renders a button with appearance default, intent w
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   font-size: 16px;
   line-height: 32px;
   color: #05192d;
@@ -4328,7 +4305,6 @@ exports[`<Button /> snapshots renders a button with appearance default, intent w
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   font-size: 16px;
   line-height: 32px;
   color: transparent;
@@ -4544,7 +4520,6 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   font-size: 20px;
   line-height: 60px;
   color: white;
@@ -4706,7 +4681,6 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   font-size: 20px;
   line-height: 60px;
   color: transparent;
@@ -4922,7 +4896,6 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   font-size: 16px;
   line-height: 44px;
   color: white;
@@ -5084,7 +5057,6 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   font-size: 16px;
   line-height: 44px;
   color: transparent;
@@ -5300,7 +5272,6 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   font-size: 16px;
   line-height: 32px;
   color: white;
@@ -5462,7 +5433,6 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   font-size: 16px;
   line-height: 32px;
   color: transparent;
@@ -5734,7 +5704,6 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   font-size: 20px;
   line-height: 60px;
   color: white;
@@ -5840,7 +5809,6 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   font-size: 20px;
   line-height: 60px;
   color: transparent;
@@ -6056,7 +6024,6 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   font-size: 16px;
   line-height: 44px;
   color: white;
@@ -6218,7 +6185,6 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   font-size: 16px;
   line-height: 44px;
   color: transparent;
@@ -6490,7 +6456,6 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   font-size: 16px;
   line-height: 32px;
   color: white;
@@ -6596,7 +6561,6 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   font-size: 16px;
   line-height: 32px;
   color: transparent;
@@ -6812,7 +6776,6 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   font-size: 20px;
   line-height: 60px;
   color: white;
@@ -6972,7 +6935,6 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   font-size: 20px;
   line-height: 60px;
   color: transparent;
@@ -7188,7 +7150,6 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   font-size: 16px;
   line-height: 44px;
   color: white;
@@ -7348,7 +7309,6 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   font-size: 16px;
   line-height: 44px;
   color: transparent;
@@ -7564,7 +7524,6 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   font-size: 16px;
   line-height: 32px;
   color: white;
@@ -7724,7 +7683,6 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   font-size: 16px;
   line-height: 32px;
   color: transparent;
@@ -7996,7 +7954,6 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   font-size: 20px;
   line-height: 60px;
   color: white;
@@ -8102,7 +8059,6 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   font-size: 20px;
   line-height: 60px;
   color: transparent;
@@ -8318,7 +8274,6 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   font-size: 16px;
   line-height: 44px;
   color: white;
@@ -8480,7 +8435,6 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   font-size: 16px;
   line-height: 44px;
   color: transparent;
@@ -8752,7 +8706,6 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   font-size: 16px;
   line-height: 32px;
   color: white;
@@ -8858,7 +8811,6 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   font-size: 16px;
   line-height: 32px;
   color: transparent;
@@ -9130,7 +9082,6 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   font-size: 20px;
   line-height: 60px;
   color: white;
@@ -9236,7 +9187,6 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   font-size: 20px;
   line-height: 60px;
   color: transparent;
@@ -9452,7 +9402,6 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   font-size: 16px;
   line-height: 44px;
   color: white;
@@ -9614,7 +9563,6 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   font-size: 16px;
   line-height: 44px;
   color: transparent;
@@ -9886,7 +9834,6 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   font-size: 16px;
   line-height: 32px;
   color: white;
@@ -9992,7 +9939,6 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   font-size: 16px;
   line-height: 32px;
   color: transparent;
@@ -10208,7 +10154,6 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent b
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   font-size: 20px;
   line-height: 60px;
   color: #05192d;
@@ -10376,7 +10321,6 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent b
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   font-size: 20px;
   line-height: 60px;
   color: transparent;
@@ -10593,7 +10537,6 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent b
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   font-size: 16px;
   line-height: 44px;
   color: #05192d;
@@ -10761,7 +10704,6 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent b
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   font-size: 16px;
   line-height: 44px;
   color: transparent;
@@ -10978,7 +10920,6 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent b
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   font-size: 16px;
   line-height: 32px;
   color: #05192d;
@@ -11146,7 +11087,6 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent b
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   font-size: 16px;
   line-height: 32px;
   color: transparent;
@@ -11363,7 +11303,6 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent d
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   font-size: 20px;
   line-height: 60px;
   color: #05192d;
@@ -11531,7 +11470,6 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent d
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   font-size: 20px;
   line-height: 60px;
   color: transparent;
@@ -11748,7 +11686,6 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent d
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   font-size: 16px;
   line-height: 44px;
   color: #05192d;
@@ -11916,7 +11853,6 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent d
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   font-size: 16px;
   line-height: 44px;
   color: transparent;
@@ -12133,7 +12069,6 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent d
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   font-size: 16px;
   line-height: 32px;
   color: #05192d;
@@ -12301,7 +12236,6 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent d
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   font-size: 16px;
   line-height: 32px;
   color: transparent;
@@ -12580,7 +12514,6 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent n
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   font-size: 20px;
   line-height: 60px;
   color: white;
@@ -12686,7 +12619,6 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent n
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   font-size: 20px;
   line-height: 60px;
   color: transparent;
@@ -12965,7 +12897,6 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent n
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   font-size: 16px;
   line-height: 44px;
   color: white;
@@ -13071,7 +13002,6 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent n
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   font-size: 16px;
   line-height: 44px;
   color: transparent;
@@ -13350,7 +13280,6 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent n
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   font-size: 16px;
   line-height: 32px;
   color: white;
@@ -13456,7 +13385,6 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent n
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   font-size: 16px;
   line-height: 32px;
   color: transparent;
@@ -13673,7 +13601,6 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent s
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   font-size: 20px;
   line-height: 60px;
   color: #05192d;
@@ -13841,7 +13768,6 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent s
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   font-size: 20px;
   line-height: 60px;
   color: transparent;
@@ -14058,7 +13984,6 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent s
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   font-size: 16px;
   line-height: 44px;
   color: #05192d;
@@ -14226,7 +14151,6 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent s
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   font-size: 16px;
   line-height: 44px;
   color: transparent;
@@ -14443,7 +14367,6 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent s
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   font-size: 16px;
   line-height: 32px;
   color: #05192d;
@@ -14611,7 +14534,6 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent s
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   font-size: 16px;
   line-height: 32px;
   color: transparent;
@@ -14828,7 +14750,6 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent w
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   font-size: 20px;
   line-height: 60px;
   color: #05192d;
@@ -14996,7 +14917,6 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent w
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   font-size: 20px;
   line-height: 60px;
   color: transparent;
@@ -15213,7 +15133,6 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent w
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   font-size: 16px;
   line-height: 44px;
   color: #05192d;
@@ -15381,7 +15300,6 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent w
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   font-size: 16px;
   line-height: 44px;
   color: transparent;
@@ -15598,7 +15516,6 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent w
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   font-size: 16px;
   line-height: 32px;
   color: #05192d;
@@ -15766,7 +15683,6 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent w
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   font-size: 16px;
   line-height: 32px;
   color: transparent;
@@ -16117,7 +16033,6 @@ exports[`<Button /> tooltips tooltip appearance snapshots renders a tooltip with
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   font-size: 16px;
   line-height: 44px;
   color: #05192d;
@@ -16157,7 +16072,6 @@ exports[`<Button /> tooltips tooltip appearance snapshots renders a tooltip with
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   font-size: 14px;
   white-space: nowrap;
   color: #ffffff;
@@ -16258,7 +16172,6 @@ exports[`<Button /> tooltips tooltip appearance snapshots renders a tooltip with
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   font-size: 16px;
   line-height: 44px;
   color: #05192d;
@@ -16297,7 +16210,6 @@ exports[`<Button /> tooltips tooltip appearance snapshots renders a tooltip with
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   font-size: 14px;
   white-space: nowrap;
   color: #05192d;
@@ -16398,7 +16310,6 @@ exports[`<Button /> tooltips tooltip appearance snapshots renders a tooltip with
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   font-size: 16px;
   line-height: 44px;
   color: #05192d;
@@ -16438,7 +16349,6 @@ exports[`<Button /> tooltips tooltip appearance snapshots renders a tooltip with
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   font-size: 14px;
   white-space: nowrap;
   color: #ffffff;
@@ -16539,7 +16449,6 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at b
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   font-size: 16px;
   line-height: 44px;
   color: #05192d;
@@ -16579,7 +16488,6 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at b
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   font-size: 14px;
   white-space: nowrap;
   color: #ffffff;
@@ -16680,7 +16588,6 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at b
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   font-size: 16px;
   line-height: 44px;
   color: #05192d;
@@ -16694,7 +16601,6 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at b
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   font-size: 14px;
   white-space: nowrap;
   color: #ffffff;
@@ -16818,7 +16724,6 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at b
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   font-size: 16px;
   line-height: 44px;
   color: #05192d;
@@ -16832,7 +16737,6 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at b
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   font-size: 14px;
   white-space: nowrap;
   color: #ffffff;
@@ -16959,7 +16863,6 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at l
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   font-size: 16px;
   line-height: 44px;
   color: #05192d;
@@ -16973,7 +16876,6 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at l
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   font-size: 14px;
   white-space: nowrap;
   color: #ffffff;
@@ -17100,7 +17002,6 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at r
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   font-size: 16px;
   line-height: 44px;
   color: #05192d;
@@ -17114,7 +17015,6 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at r
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   font-size: 14px;
   white-space: nowrap;
   color: #ffffff;
@@ -17241,7 +17141,6 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at t
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   font-size: 16px;
   line-height: 44px;
   color: #05192d;
@@ -17255,7 +17154,6 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at t
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   font-size: 14px;
   white-space: nowrap;
   color: #ffffff;
@@ -17382,7 +17280,6 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at t
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   font-size: 16px;
   line-height: 44px;
   color: #05192d;
@@ -17396,7 +17293,6 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at t
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   font-size: 14px;
   white-space: nowrap;
   color: #ffffff;
@@ -17523,7 +17419,6 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at t
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   font-size: 16px;
   line-height: 44px;
   color: #05192d;
@@ -17537,7 +17432,6 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at t
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   font-size: 14px;
   white-space: nowrap;
   color: #ffffff;
@@ -17664,7 +17558,6 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at u
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   font-size: 16px;
   line-height: 44px;
   color: #05192d;
@@ -17704,7 +17597,6 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at u
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   font-size: 14px;
   white-space: nowrap;
   color: #ffffff;

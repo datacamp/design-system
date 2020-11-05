@@ -32,7 +32,6 @@ exports[`<Paragraph /> renders with Strong, Small, Text, Link and Emphasis child
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
 }
 
 .emotion-2 {
