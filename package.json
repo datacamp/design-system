@@ -53,16 +53,12 @@
     "husky": "^4.2.5",
     "lerna": "^3.22.1",
     "prettier": "^2.1.2",
-    "react": "16.8.6",
-    "react-dom": "16.8.6",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
     "svglint": "1.0.6",
     "typescript": "3.9.7"
   },
-  "browserslist": [
-    "last 2 versions",
-    "Firefox ESR",
-    "not IE < 11"
-  ],
+  "browserslist": ["last 2 versions", "Firefox ESR", "not IE < 11"],
   "engines": {
     "yarn": "^1.15.2"
   },

@@ -4,13 +4,7 @@
   "main": "lib/index.js",
   "module": "es/index.js",
   "react-native": "mobile/index.js",
-  "files": [
-    "es",
-    "lib",
-    "types",
-    "sprites",
-    "mobile"
-  ],
+  "files": ["es", "lib", "types", "sprites", "mobile"],
   "license": "ISC",
   "sideEffects": false,
   "repository": {
@@ -43,7 +37,7 @@
     "gulp-typescript": "^5.0.1",
     "gulp-zip": "^5.0.2",
     "merge-stream": "^2.0.0",
-    "react": "^16.8.6",
+    "react": "17.0.1",
     "sharp": "0.26.2",
     "typescript": "3.9.7"
   },
@@ -55,6 +49,6 @@
   },
   "peerDependencies": {
     "@emotion/core": "^10.0.17",
-    "react": "^16.8.6"
+    "react": "^16.8.6 || ^17.0.1"
   }
 }

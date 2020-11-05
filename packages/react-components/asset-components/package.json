@@ -5,15 +5,8 @@
   "module": "es/index.js",
   "types": "types/index.d.ts",
   "license": "UNLICENSED",
-  "files": [
-    "es",
-    "lib",
-    "types"
-  ],
-  "sideEffects": [
-    "lib/sideEffects/*",
-    "es/sideEffects/*"
-  ],
+  "files": ["es", "lib", "types"],
+  "sideEffects": ["lib/sideEffects/*", "es/sideEffects/*"],
   "repository": {
     "type": "git",
     "url": "https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/card/"
@@ -49,8 +42,8 @@
     "babel-jest": "26.2.2",
     "jest": "26.6.1",
     "jest-emotion": "10.0.32",
-    "react": "16.8.6",
-    "react-dom": "16.8.6"
+    "react": "17.0.1",
+    "react-dom": "17.0.1"
   },
   "dependencies": {
     "@babel/runtime": "^7.12.1",
@@ -58,7 +51,7 @@
   },
   "peerDependencies": {
     "@emotion/core": "^10.0.17",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6"
+    "react": "^16.8.6 || ^17.0.1",
+    "react-dom": "^16.8.6 || ^17.0.1"
   }
 }
