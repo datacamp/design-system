@@ -44,7 +44,6 @@ exports[`snapshots renders an input with size disabled=false, required=false 1`]
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   color: #05192d;
   display: inline-block;
   -webkit-flex: 0 1 auto;
@@ -118,7 +117,6 @@ exports[`snapshots renders an input with size disabled=false, required=false 1`]
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   color: #c01100;
   display: block;
   font-size: 14px;
@@ -139,7 +137,6 @@ exports[`snapshots renders an input with size disabled=false, required=false 1`]
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   color: rgba(5,25,45,0.6);
   display: inline-block;
   font-size: 14px;
@@ -228,7 +225,6 @@ exports[`snapshots renders an input with size disabled=false, required=true 1`] 
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   color: #05192d;
   display: inline-block;
   -webkit-flex: 0 1 auto;
@@ -302,7 +298,6 @@ exports[`snapshots renders an input with size disabled=false, required=true 1`] 
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   color: #c01100;
   display: block;
   font-size: 14px;
@@ -323,7 +318,6 @@ exports[`snapshots renders an input with size disabled=false, required=true 1`] 
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   color: #ff5400;
   margin-right: 4px;
 }
@@ -335,7 +329,6 @@ exports[`snapshots renders an input with size disabled=false, required=true 1`] 
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   color: rgba(5,25,45,0.6);
   display: inline-block;
   font-size: 14px;
@@ -429,7 +422,6 @@ exports[`snapshots renders an input with size disabled=false, required=undefined
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   color: #05192d;
   display: inline-block;
   -webkit-flex: 0 1 auto;
@@ -503,7 +495,6 @@ exports[`snapshots renders an input with size disabled=false, required=undefined
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   color: #c01100;
   display: block;
   font-size: 14px;
@@ -584,7 +575,6 @@ exports[`snapshots renders an input with size disabled=true, required=false 1`] 
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   color: #05192d;
   display: inline-block;
   -webkit-flex: 0 1 auto;
@@ -658,7 +648,6 @@ exports[`snapshots renders an input with size disabled=true, required=false 1`] 
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   color: #c01100;
   display: block;
   font-size: 14px;
@@ -679,7 +668,6 @@ exports[`snapshots renders an input with size disabled=true, required=false 1`] 
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   color: rgba(5,25,45,0.6);
   display: inline-block;
   font-size: 14px;
@@ -769,7 +757,6 @@ exports[`snapshots renders an input with size disabled=true, required=true 1`] =
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   color: #05192d;
   display: inline-block;
   -webkit-flex: 0 1 auto;
@@ -843,7 +830,6 @@ exports[`snapshots renders an input with size disabled=true, required=true 1`] =
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   color: #c01100;
   display: block;
   font-size: 14px;
@@ -864,7 +850,6 @@ exports[`snapshots renders an input with size disabled=true, required=true 1`] =
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   color: #ff5400;
   margin-right: 4px;
 }
@@ -876,7 +861,6 @@ exports[`snapshots renders an input with size disabled=true, required=true 1`] =
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   color: rgba(5,25,45,0.6);
   display: inline-block;
   font-size: 14px;
@@ -971,7 +955,6 @@ exports[`snapshots renders an input with size disabled=true, required=undefined 
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   color: #05192d;
   display: inline-block;
   -webkit-flex: 0 1 auto;
@@ -1045,7 +1028,6 @@ exports[`snapshots renders an input with size disabled=true, required=undefined 
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   color: #c01100;
   display: block;
   font-size: 14px;

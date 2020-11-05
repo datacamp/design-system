@@ -73,7 +73,6 @@ exports[`ButtonGroup renders the buttons or CompactButtonGroups with 16px spaces
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   font-size: 16px;
   line-height: 44px;
   color: #05192d;
@@ -553,7 +552,6 @@ exports[`ButtonGroup renders the small buttons or CompactButtonGroups with 8px s
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   font-size: 16px;
   line-height: 32px;
   color: #05192d;

@@ -44,7 +44,6 @@ exports[`snapshots renders an input with size large, disabled=false, required=fa
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   color: #05192d;
   display: inline-block;
   -webkit-flex: 0 1 auto;
@@ -64,7 +63,6 @@ exports[`snapshots renders an input with size large, disabled=false, required=fa
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   color: #c01100;
   display: block;
   font-size: 14px;
@@ -85,7 +83,6 @@ exports[`snapshots renders an input with size large, disabled=false, required=fa
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   color: rgba(5,25,45,0.6);
   display: inline-block;
   font-size: 14px;
@@ -227,7 +224,6 @@ exports[`snapshots renders an input with size large, disabled=false, required=tr
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   color: #05192d;
   display: inline-block;
   -webkit-flex: 0 1 auto;
@@ -247,7 +243,6 @@ exports[`snapshots renders an input with size large, disabled=false, required=tr
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   color: #c01100;
   display: block;
   font-size: 14px;
@@ -268,7 +263,6 @@ exports[`snapshots renders an input with size large, disabled=false, required=tr
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   color: #ff5400;
   margin-right: 4px;
 }
@@ -280,7 +274,6 @@ exports[`snapshots renders an input with size large, disabled=false, required=tr
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   color: rgba(5,25,45,0.6);
   display: inline-block;
   font-size: 14px;
@@ -427,7 +420,6 @@ exports[`snapshots renders an input with size large, disabled=false, required=un
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   color: #05192d;
   display: inline-block;
   -webkit-flex: 0 1 auto;
@@ -447,7 +439,6 @@ exports[`snapshots renders an input with size large, disabled=false, required=un
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   color: #c01100;
   display: block;
   font-size: 14px;
@@ -581,7 +572,6 @@ exports[`snapshots renders an input with size large, disabled=true, required=fal
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   color: #05192d;
   display: inline-block;
   -webkit-flex: 0 1 auto;
@@ -601,7 +591,6 @@ exports[`snapshots renders an input with size large, disabled=true, required=fal
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   color: #c01100;
   display: block;
   font-size: 14px;
@@ -622,7 +611,6 @@ exports[`snapshots renders an input with size large, disabled=true, required=fal
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   color: rgba(5,25,45,0.6);
   display: inline-block;
   font-size: 14px;
@@ -765,7 +753,6 @@ exports[`snapshots renders an input with size large, disabled=true, required=tru
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   color: #05192d;
   display: inline-block;
   -webkit-flex: 0 1 auto;
@@ -785,7 +772,6 @@ exports[`snapshots renders an input with size large, disabled=true, required=tru
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   color: #c01100;
   display: block;
   font-size: 14px;
@@ -806,7 +792,6 @@ exports[`snapshots renders an input with size large, disabled=true, required=tru
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   color: #ff5400;
   margin-right: 4px;
 }
@@ -818,7 +803,6 @@ exports[`snapshots renders an input with size large, disabled=true, required=tru
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   color: rgba(5,25,45,0.6);
   display: inline-block;
   font-size: 14px;
@@ -966,7 +950,6 @@ exports[`snapshots renders an input with size large, disabled=true, required=und
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   color: #05192d;
   display: inline-block;
   -webkit-flex: 0 1 auto;
@@ -986,7 +969,6 @@ exports[`snapshots renders an input with size large, disabled=true, required=und
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   color: #c01100;
   display: block;
   font-size: 14px;
@@ -1121,7 +1103,6 @@ exports[`snapshots renders an input with size medium, disabled=false, required=f
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   color: #05192d;
   display: inline-block;
   -webkit-flex: 0 1 auto;
@@ -1193,7 +1174,6 @@ exports[`snapshots renders an input with size medium, disabled=false, required=f
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   color: #c01100;
   display: block;
   font-size: 14px;
@@ -1214,7 +1194,6 @@ exports[`snapshots renders an input with size medium, disabled=false, required=f
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   color: rgba(5,25,45,0.6);
   display: inline-block;
   font-size: 14px;
@@ -1304,7 +1283,6 @@ exports[`snapshots renders an input with size medium, disabled=false, required=t
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   color: #05192d;
   display: inline-block;
   -webkit-flex: 0 1 auto;
@@ -1376,7 +1354,6 @@ exports[`snapshots renders an input with size medium, disabled=false, required=t
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   color: #c01100;
   display: block;
   font-size: 14px;
@@ -1397,7 +1374,6 @@ exports[`snapshots renders an input with size medium, disabled=false, required=t
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   color: #ff5400;
   margin-right: 4px;
 }
@@ -1409,7 +1385,6 @@ exports[`snapshots renders an input with size medium, disabled=false, required=t
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   color: rgba(5,25,45,0.6);
   display: inline-block;
   font-size: 14px;
@@ -1504,7 +1479,6 @@ exports[`snapshots renders an input with size medium, disabled=false, required=u
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   color: #05192d;
   display: inline-block;
   -webkit-flex: 0 1 auto;
@@ -1576,7 +1550,6 @@ exports[`snapshots renders an input with size medium, disabled=false, required=u
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   color: #c01100;
   display: block;
   font-size: 14px;
@@ -1658,7 +1631,6 @@ exports[`snapshots renders an input with size medium, disabled=true, required=fa
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   color: #05192d;
   display: inline-block;
   -webkit-flex: 0 1 auto;
@@ -1730,7 +1702,6 @@ exports[`snapshots renders an input with size medium, disabled=true, required=fa
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   color: #c01100;
   display: block;
   font-size: 14px;
@@ -1751,7 +1722,6 @@ exports[`snapshots renders an input with size medium, disabled=true, required=fa
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   color: rgba(5,25,45,0.6);
   display: inline-block;
   font-size: 14px;
@@ -1842,7 +1812,6 @@ exports[`snapshots renders an input with size medium, disabled=true, required=tr
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   color: #05192d;
   display: inline-block;
   -webkit-flex: 0 1 auto;
@@ -1914,7 +1883,6 @@ exports[`snapshots renders an input with size medium, disabled=true, required=tr
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   color: #c01100;
   display: block;
   font-size: 14px;
@@ -1935,7 +1903,6 @@ exports[`snapshots renders an input with size medium, disabled=true, required=tr
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   color: #ff5400;
   margin-right: 4px;
 }
@@ -1947,7 +1914,6 @@ exports[`snapshots renders an input with size medium, disabled=true, required=tr
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   color: rgba(5,25,45,0.6);
   display: inline-block;
   font-size: 14px;
@@ -2043,7 +2009,6 @@ exports[`snapshots renders an input with size medium, disabled=true, required=un
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   color: #05192d;
   display: inline-block;
   -webkit-flex: 0 1 auto;
@@ -2115,7 +2080,6 @@ exports[`snapshots renders an input with size medium, disabled=true, required=un
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   color: #c01100;
   display: block;
   font-size: 14px;
@@ -2198,7 +2162,6 @@ exports[`snapshots renders an input with size small, disabled=false, required=fa
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   color: #05192d;
   display: inline-block;
   -webkit-flex: 0 1 auto;
@@ -2218,7 +2181,6 @@ exports[`snapshots renders an input with size small, disabled=false, required=fa
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   color: #c01100;
   display: block;
   font-size: 14px;
@@ -2239,7 +2201,6 @@ exports[`snapshots renders an input with size small, disabled=false, required=fa
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   color: rgba(5,25,45,0.6);
   display: inline-block;
   font-size: 14px;
@@ -2381,7 +2342,6 @@ exports[`snapshots renders an input with size small, disabled=false, required=tr
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   color: #05192d;
   display: inline-block;
   -webkit-flex: 0 1 auto;
@@ -2401,7 +2361,6 @@ exports[`snapshots renders an input with size small, disabled=false, required=tr
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   color: #c01100;
   display: block;
   font-size: 14px;
@@ -2422,7 +2381,6 @@ exports[`snapshots renders an input with size small, disabled=false, required=tr
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   color: #ff5400;
   margin-right: 4px;
 }
@@ -2434,7 +2392,6 @@ exports[`snapshots renders an input with size small, disabled=false, required=tr
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   color: rgba(5,25,45,0.6);
   display: inline-block;
   font-size: 14px;
@@ -2581,7 +2538,6 @@ exports[`snapshots renders an input with size small, disabled=false, required=un
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   color: #05192d;
   display: inline-block;
   -webkit-flex: 0 1 auto;
@@ -2601,7 +2557,6 @@ exports[`snapshots renders an input with size small, disabled=false, required=un
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   color: #c01100;
   display: block;
   font-size: 14px;
@@ -2735,7 +2690,6 @@ exports[`snapshots renders an input with size small, disabled=true, required=fal
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   color: #05192d;
   display: inline-block;
   -webkit-flex: 0 1 auto;
@@ -2755,7 +2709,6 @@ exports[`snapshots renders an input with size small, disabled=true, required=fal
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   color: #c01100;
   display: block;
   font-size: 14px;
@@ -2776,7 +2729,6 @@ exports[`snapshots renders an input with size small, disabled=true, required=fal
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   color: rgba(5,25,45,0.6);
   display: inline-block;
   font-size: 14px;
@@ -2919,7 +2871,6 @@ exports[`snapshots renders an input with size small, disabled=true, required=tru
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   color: #05192d;
   display: inline-block;
   -webkit-flex: 0 1 auto;
@@ -2939,7 +2890,6 @@ exports[`snapshots renders an input with size small, disabled=true, required=tru
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   color: #c01100;
   display: block;
   font-size: 14px;
@@ -2960,7 +2910,6 @@ exports[`snapshots renders an input with size small, disabled=true, required=tru
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   color: #ff5400;
   margin-right: 4px;
 }
@@ -2972,7 +2921,6 @@ exports[`snapshots renders an input with size small, disabled=true, required=tru
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   color: rgba(5,25,45,0.6);
   display: inline-block;
   font-size: 14px;
@@ -3120,7 +3068,6 @@ exports[`snapshots renders an input with size small, disabled=true, required=und
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   color: #05192d;
   display: inline-block;
   -webkit-flex: 0 1 auto;
@@ -3140,7 +3087,6 @@ exports[`snapshots renders an input with size small, disabled=true, required=und
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   color: #c01100;
   display: block;
   font-size: 14px;

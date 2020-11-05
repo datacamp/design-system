@@ -48,7 +48,6 @@ exports[`with label snapshots renders a select element with size large, disabled
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   color: #05192d;
   display: inline-block;
   -webkit-flex: 0 1 auto;
@@ -76,7 +75,6 @@ exports[`with label snapshots renders a select element with size large, disabled
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   color: #c01100;
   display: block;
   font-size: 14px;
@@ -97,7 +95,6 @@ exports[`with label snapshots renders a select element with size large, disabled
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   color: rgba(5,25,45,0.6);
   display: inline-block;
   font-size: 14px;
@@ -266,7 +263,6 @@ exports[`with label snapshots renders a select element with size large, disabled
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   color: #05192d;
   display: inline-block;
   -webkit-flex: 0 1 auto;
@@ -294,7 +290,6 @@ exports[`with label snapshots renders a select element with size large, disabled
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   color: #c01100;
   display: block;
   font-size: 14px;
@@ -315,7 +310,6 @@ exports[`with label snapshots renders a select element with size large, disabled
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   color: #ff5400;
   margin-right: 4px;
 }
@@ -327,7 +321,6 @@ exports[`with label snapshots renders a select element with size large, disabled
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   color: rgba(5,25,45,0.6);
   display: inline-block;
   font-size: 14px;
@@ -501,7 +494,6 @@ exports[`with label snapshots renders a select element with size large, disabled
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   color: #05192d;
   display: inline-block;
   -webkit-flex: 0 1 auto;
@@ -529,7 +521,6 @@ exports[`with label snapshots renders a select element with size large, disabled
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   color: #c01100;
   display: block;
   font-size: 14px;
@@ -690,7 +681,6 @@ exports[`with label snapshots renders a select element with size large, disabled
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   color: #05192d;
   display: inline-block;
   -webkit-flex: 0 1 auto;
@@ -710,7 +700,6 @@ exports[`with label snapshots renders a select element with size large, disabled
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   color: #c01100;
   display: block;
   font-size: 14px;
@@ -731,7 +720,6 @@ exports[`with label snapshots renders a select element with size large, disabled
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   color: rgba(5,25,45,0.6);
   display: inline-block;
   font-size: 14px;
@@ -909,7 +897,6 @@ exports[`with label snapshots renders a select element with size large, disabled
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   color: #05192d;
   display: inline-block;
   -webkit-flex: 0 1 auto;
@@ -929,7 +916,6 @@ exports[`with label snapshots renders a select element with size large, disabled
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   color: #c01100;
   display: block;
   font-size: 14px;
@@ -950,7 +936,6 @@ exports[`with label snapshots renders a select element with size large, disabled
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   color: #ff5400;
   margin-right: 4px;
 }
@@ -962,7 +947,6 @@ exports[`with label snapshots renders a select element with size large, disabled
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   color: rgba(5,25,45,0.6);
   display: inline-block;
   font-size: 14px;
@@ -1145,7 +1129,6 @@ exports[`with label snapshots renders a select element with size large, disabled
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   color: #05192d;
   display: inline-block;
   -webkit-flex: 0 1 auto;
@@ -1165,7 +1148,6 @@ exports[`with label snapshots renders a select element with size large, disabled
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   color: #c01100;
   display: block;
   font-size: 14px;
@@ -1343,7 +1325,6 @@ exports[`with label snapshots renders a select element with size medium, disable
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   color: #05192d;
   display: inline-block;
   -webkit-flex: 0 1 auto;
@@ -1402,7 +1383,6 @@ exports[`with label snapshots renders a select element with size medium, disable
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   color: #c01100;
   display: block;
   font-size: 14px;
@@ -1423,7 +1403,6 @@ exports[`with label snapshots renders a select element with size medium, disable
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   color: rgba(5,25,45,0.6);
   display: inline-block;
   font-size: 14px;
@@ -1561,7 +1540,6 @@ exports[`with label snapshots renders a select element with size medium, disable
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   color: #05192d;
   display: inline-block;
   -webkit-flex: 0 1 auto;
@@ -1620,7 +1598,6 @@ exports[`with label snapshots renders a select element with size medium, disable
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   color: #c01100;
   display: block;
   font-size: 14px;
@@ -1641,7 +1618,6 @@ exports[`with label snapshots renders a select element with size medium, disable
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   color: #ff5400;
   margin-right: 4px;
 }
@@ -1653,7 +1629,6 @@ exports[`with label snapshots renders a select element with size medium, disable
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   color: rgba(5,25,45,0.6);
   display: inline-block;
   font-size: 14px;
@@ -1796,7 +1771,6 @@ exports[`with label snapshots renders a select element with size medium, disable
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   color: #05192d;
   display: inline-block;
   -webkit-flex: 0 1 auto;
@@ -1855,7 +1829,6 @@ exports[`with label snapshots renders a select element with size medium, disable
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   color: #c01100;
   display: block;
   font-size: 14px;
@@ -1977,7 +1950,6 @@ exports[`with label snapshots renders a select element with size medium, disable
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   color: #05192d;
   display: inline-block;
   -webkit-flex: 0 1 auto;
@@ -2044,7 +2016,6 @@ exports[`with label snapshots renders a select element with size medium, disable
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   color: #c01100;
   display: block;
   font-size: 14px;
@@ -2065,7 +2036,6 @@ exports[`with label snapshots renders a select element with size medium, disable
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   color: rgba(5,25,45,0.6);
   display: inline-block;
   font-size: 14px;
@@ -2196,7 +2166,6 @@ exports[`with label snapshots renders a select element with size medium, disable
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   color: #05192d;
   display: inline-block;
   -webkit-flex: 0 1 auto;
@@ -2263,7 +2232,6 @@ exports[`with label snapshots renders a select element with size medium, disable
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   color: #c01100;
   display: block;
   font-size: 14px;
@@ -2284,7 +2252,6 @@ exports[`with label snapshots renders a select element with size medium, disable
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   color: #ff5400;
   margin-right: 4px;
 }
@@ -2296,7 +2263,6 @@ exports[`with label snapshots renders a select element with size medium, disable
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   color: rgba(5,25,45,0.6);
   display: inline-block;
   font-size: 14px;
@@ -2432,7 +2398,6 @@ exports[`with label snapshots renders a select element with size medium, disable
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   color: #05192d;
   display: inline-block;
   -webkit-flex: 0 1 auto;
@@ -2499,7 +2464,6 @@ exports[`with label snapshots renders a select element with size medium, disable
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   color: #c01100;
   display: block;
   font-size: 14px;
@@ -2622,7 +2586,6 @@ exports[`with label snapshots renders a select element with size small, disabled
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   color: #05192d;
   display: inline-block;
   -webkit-flex: 0 1 auto;
@@ -2650,7 +2613,6 @@ exports[`with label snapshots renders a select element with size small, disabled
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   color: #c01100;
   display: block;
   font-size: 14px;
@@ -2671,7 +2633,6 @@ exports[`with label snapshots renders a select element with size small, disabled
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   color: rgba(5,25,45,0.6);
   display: inline-block;
   font-size: 14px;
@@ -2840,7 +2801,6 @@ exports[`with label snapshots renders a select element with size small, disabled
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   color: #05192d;
   display: inline-block;
   -webkit-flex: 0 1 auto;
@@ -2868,7 +2828,6 @@ exports[`with label snapshots renders a select element with size small, disabled
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   color: #c01100;
   display: block;
   font-size: 14px;
@@ -2889,7 +2848,6 @@ exports[`with label snapshots renders a select element with size small, disabled
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   color: #ff5400;
   margin-right: 4px;
 }
@@ -2901,7 +2859,6 @@ exports[`with label snapshots renders a select element with size small, disabled
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   color: rgba(5,25,45,0.6);
   display: inline-block;
   font-size: 14px;
@@ -3075,7 +3032,6 @@ exports[`with label snapshots renders a select element with size small, disabled
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   color: #05192d;
   display: inline-block;
   -webkit-flex: 0 1 auto;
@@ -3103,7 +3059,6 @@ exports[`with label snapshots renders a select element with size small, disabled
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   color: #c01100;
   display: block;
   font-size: 14px;
@@ -3264,7 +3219,6 @@ exports[`with label snapshots renders a select element with size small, disabled
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   color: #05192d;
   display: inline-block;
   -webkit-flex: 0 1 auto;
@@ -3284,7 +3238,6 @@ exports[`with label snapshots renders a select element with size small, disabled
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   color: #c01100;
   display: block;
   font-size: 14px;
@@ -3305,7 +3258,6 @@ exports[`with label snapshots renders a select element with size small, disabled
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   color: rgba(5,25,45,0.6);
   display: inline-block;
   font-size: 14px;
@@ -3483,7 +3435,6 @@ exports[`with label snapshots renders a select element with size small, disabled
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   color: #05192d;
   display: inline-block;
   -webkit-flex: 0 1 auto;
@@ -3503,7 +3454,6 @@ exports[`with label snapshots renders a select element with size small, disabled
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   color: #c01100;
   display: block;
   font-size: 14px;
@@ -3524,7 +3474,6 @@ exports[`with label snapshots renders a select element with size small, disabled
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   color: #ff5400;
   margin-right: 4px;
 }
@@ -3536,7 +3485,6 @@ exports[`with label snapshots renders a select element with size small, disabled
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   color: rgba(5,25,45,0.6);
   display: inline-block;
   font-size: 14px;
@@ -3719,7 +3667,6 @@ exports[`with label snapshots renders a select element with size small, disabled
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   color: #05192d;
   display: inline-block;
   -webkit-flex: 0 1 auto;
@@ -3739,7 +3686,6 @@ exports[`with label snapshots renders a select element with size small, disabled
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 16px;
   color: #c01100;
   display: block;
   font-size: 14px;

@@ -31,7 +31,6 @@ export interface TextProps {
 const textStyle = css(baseStyle, {
   fontSize: tokens.size.font[300].value,
   fontWeight: tokens.fontWeight.regular.value,
-  lineHeight: tokens.size.font.base.value,
 });
 
 const Text = (props: TextProps): ReactElement => {
