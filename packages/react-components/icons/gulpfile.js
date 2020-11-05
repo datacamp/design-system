@@ -12,6 +12,7 @@ const ts = require('gulp-typescript');
 const svgSprite = require('gulp-svg-sprite');
 const zip = require('gulp-zip');
 const sharp = require('sharp');
+const { colors } = require('@datacamp/waffles-tokens');
 const svgoConfig = require('./svgorc.json');
 
 function loadAllSVGs() {
@@ -267,9 +268,9 @@ function loadResizedColorSVGs({ color, suffix }) {
 
 function generatePNG() {
   return merge([
-    loadResizedColorSVGs({ color: '#33aacc', suffix: '-primary' }),
-    loadResizedColorSVGs({ color: '#ffffff', suffix: '-white' }),
-    loadResizedColorSVGs({ color: '#3d4251', suffix: '-darkGrey' }),
+    loadResizedColorSVGs({ color: colors.green, suffix: '-green' }),
+    loadResizedColorSVGs({ color: colors.white, suffix: '-white' }),
+    loadResizedColorSVGs({ color: colors.navy, suffix: '-navy' }),
   ])
     .pipe(transform((content) => sharp(content).png().toBuffer()))
     .pipe(rename({ extname: '.png' }));
