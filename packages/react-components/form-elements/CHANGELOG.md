@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.0.3](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/form-elements/compare/@datacamp/waffles-form-elements@3.0.2...@datacamp/waffles-form-elements@3.0.3) (2020-11-06)
+
+
+### Bug Fixes
+
+* stop cutting off text with over specified line heights ([38242d4](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/form-elements/commit/38242d4))
+
+
+
+
+
 ## [3.0.2](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/form-elements/compare/@datacamp/waffles-form-elements@3.0.1...@datacamp/waffles-form-elements@3.0.2) (2020-11-03)
 
 **Note:** Version bump only for package @datacamp/waffles-form-elements

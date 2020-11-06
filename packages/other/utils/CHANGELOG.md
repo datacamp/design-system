@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.0.20](https://github.com/datacamp/design-system/compare/@datacamp/waffles-utils@2.0.19...@datacamp/waffles-utils@2.0.20) (2020-11-06)
+
+
+### Bug Fixes
+
+* util typing ([e0b1c31](https://github.com/datacamp/design-system/commit/e0b1c31))
+
+
+
+
+
 ## [2.0.19](https://github.com/datacamp/design-system/compare/@datacamp/waffles-utils@2.0.18...@datacamp/waffles-utils@2.0.19) (2020-11-03)
 
 **Note:** Version bump only for package @datacamp/waffles-utils

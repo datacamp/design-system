@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.1.0](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/icons/compare/@datacamp/waffles-icons@2.0.2...@datacamp/waffles-icons@2.1.0) (2020-11-06)
+
+
+### Features
+
+* rebrand icon zip ([744ddac](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/icons/commit/744ddac))
+
+
+
+
+
 ## [2.0.2](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/icons/compare/@datacamp/waffles-icons@2.0.1...@datacamp/waffles-icons@2.0.2) (2020-11-03)
 
 **Note:** Version bump only for package @datacamp/waffles-icons

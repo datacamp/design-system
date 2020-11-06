@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [6.1.1](https://github.com/datacamp/design-system/compare/@datacamp/waffles-button@6.1.0...@datacamp/waffles-button@6.1.1) (2020-11-06)
+
+
+### Bug Fixes
+
+* reorder typings for better error messages ([92e91e2](https://github.com/datacamp/design-system/commit/92e91e2))
+* stop cutting off text with over specified line heights ([38242d4](https://github.com/datacamp/design-system/commit/38242d4))
+
+
+
+
+
 # [6.1.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-button@6.0.1...@datacamp/waffles-button@6.1.0) (2020-11-03)
 
 
