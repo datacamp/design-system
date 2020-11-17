@@ -42,7 +42,7 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "@commitlint/config-conventional": "^8.3.4",
+    "@commitlint/config-conventional": "^11.0.0",
     "@datacamp/eslint-config": "^4.1.0",
     "@datacamp/prettier-config": "^2.1.0",
     "@types/jest": "26.0.15",
