@@ -1,5 +1,37 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`<Card /> headstones renders the content of the headstone in a box above the card 1`] = `
+.emotion-1 {
+  background-color: rgb(255,255,255);
+  border-radius: 4px;
+  box-shadow: 0 0 0 1px rgba(5,25,45,0.1);
+  -webkit-transition: all 0.6s cubic-bezier(0.075,0.82,0.165,1);
+  transition: all 0.6s cubic-bezier(0.075,0.82,0.165,1);
+  margin-top: 20px;
+  position: relative;
+}
+
+.emotion-0 {
+  height: 40px;
+  left: 32px;
+  position: absolute;
+  top: -20px;
+}
+
+<div
+  class="emotion-1"
+>
+  <div
+    class="emotion-0"
+  >
+    this is in the headstone
+  </div>
+  <p>
+    example content
+  </p>
+</div>
+`;
+
 exports[`<Card /> snapshots renders a card with elevation 0 1`] = `
 .emotion-0 {
   background-color: rgb(255,255,255);
