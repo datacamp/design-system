@@ -3,6 +3,7 @@ orbs:
   datacamp-ecr: datacamp/ecr@0
   datacamp-deploy: datacamp/deploy@1
   slack: circleci/slack@3.4.1
+  datacamp-circleci: datacamp/central-ci@1
 jobs:
   build:
     docker:
@@ -29,7 +30,7 @@ jobs:
           paths:
             - ~/.cache/yarn
       - persist_to_workspace:
-          root: "."
+          root: '.'
           paths:
             - ./**
   test:
@@ -37,7 +38,7 @@ jobs:
       - image: circleci/node:12.4.0-browsers
     steps:
       - attach_workspace:
-          at: "."
+          at: '.'
       - run:
           name: Lint
           command: yarn lint
@@ -55,7 +56,7 @@ jobs:
       - image: cypress/browsers:node12.14.0-chrome79-ff71
     steps:
       - attach_workspace:
-          at: "."
+          at: '.'
       - run:
           name: Install cypress binaries
           command: yarn cypress install
@@ -74,7 +75,7 @@ jobs:
       - image: circleci/node:12.4.0-browsers
     steps:
       - attach_workspace:
-          at: "."
+          at: '.'
       - run:
           name: Upload to percy
           command: yarn percy
@@ -89,7 +90,7 @@ jobs:
       CLOUDFRONT_ID: E16EOD0ZWD0L66
     steps:
       - attach_workspace:
-          at: "."
+          at: '.'
       - run:
           name: S3 Sync
           command: |
@@ -114,7 +115,7 @@ jobs:
       CLOUDFRONT_ID: E596C189UKISL
     steps:
       - attach_workspace:
-          at: "."
+          at: '.'
       - run:
           name: S3 Sync
           command: |
@@ -139,7 +140,7 @@ jobs:
       CLOUDFRONT_ID: E1CXE0Y8K4D1S7
     steps:
       - attach_workspace:
-          at: "."
+          at: '.'
       - run:
           name: S3 Sync
           command: |
@@ -159,12 +160,12 @@ jobs:
       - image: circleci/node:12.4.0-browsers
     steps:
       - attach_workspace:
-          at: "."
+          at: '.'
       - run:
           name: stryker mutation tests
           command: yarn stryker
       - persist_to_workspace:
-          root: "."
+          root: '.'
           paths:
             - ./**
   send-to-slack:
@@ -184,7 +185,7 @@ workflows:
   run_mutation_testing:
     triggers:
       - schedule:
-          cron: "0 0 * * 5"
+          cron: '0 0 * * 5'
           filters:
             branches:
               only:
@@ -207,7 +208,7 @@ workflows:
           repo: waffles-stryker-report
           pre-build-steps:
             - attach_workspace:
-                at: "."
+                at: '.'
       - datacamp-deploy/deploy:
           name: deploy-stryker-report
           context: org-global
@@ -241,6 +242,13 @@ workflows:
           filters:
             tags:
               only: /.*/
+      - datacamp-circleci/scan:
+          context: org-global
+          after-checkout:
+            - attach_workspace:
+                at: '.'
+          requires:
+            - test
       - hold-for-pr:
           type: approval
           context: org-global
@@ -270,7 +278,7 @@ workflows:
           dockerfile: packages/docs/storybook/Dockerfile
           pre-build-steps:
             - attach_workspace:
-                at: "."
+                at: '.'
           filters:
             branches:
               ignore:
