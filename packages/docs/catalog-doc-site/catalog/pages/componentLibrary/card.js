@@ -1,7 +1,14 @@
 /* eslint-disable import/no-anonymous-default-export */
+import { TechLogo } from '@datacamp/waffles-asset-components';
 import Card from '@datacamp/waffles-card';
 import CardData from '@datacamp/waffles-card/componentMetadata.json';
-import { Code, CodeBlock, Heading, Paragraph } from '@datacamp/waffles-text';
+import {
+  Code,
+  CodeBlock,
+  Heading,
+  Link,
+  Paragraph,
+} from '@datacamp/waffles-text';
 /* @jsx jsx */
 import { jsx } from '@emotion/core';
 import { Page } from 'catalog';
@@ -30,9 +37,7 @@ export default () => {
               Waffles exposes the <Code>Card</Code> component from within{' '}
               <Code>@datacamp/waffles-card</Code>.
             </Paragraph>
-            <CodeBlock>
-              import Card from $apos;@datacamp/waffles-card&apos;;
-            </CodeBlock>
+            <CodeBlock>{`import Card from '@datacamp/waffles-card'`}</CodeBlock>
           </Card>
 
           <Card css={{ marginTop: 16, padding: 24 }} elevation={2}>
@@ -64,7 +69,7 @@ export default () => {
               an elevation and a coloured background.
             </Paragraph>
             <LazyLiveEditCells
-              code={`<div className="dc-u-p-24 dc-u-bgc-porcelain">
+              code={`<div className="dc-u-p-24 dc-u-bgc-beige-100">
   <Card className="dc-u-p-24" elevation={2} hoverElevation={4}>
     <Heading as="h5" size={400}>
       A Card
@@ -75,6 +80,30 @@ export default () => {
   </Card>
 </div>`}
               scope={{ Card, Heading, Paragraph }}
+            />
+          </Card>
+          <Card css={{ marginTop: 16, padding: 24 }} elevation={2}>
+            <Heading as="h3" size={500}>
+              Head Stone Example
+            </Heading>
+            <Paragraph>
+              This example highlights how the <Code>headStone</Code> prop can be
+              used to display a{' '}
+              <Link href="/component-library/assets">TechLogo</Link> on a{' '}
+              <Code>Card</Code>.
+            </Paragraph>
+            <LazyLiveEditCells
+              code={`<div className="dc-u-p-24">
+  <Card className="dc-u-p-24" headStone={<TechLogo height={40} width={40}/>}>
+    <Heading as="h5" size={400}>
+      A Card
+    </Heading>
+    <Paragraph>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi et felis at ex hendrerit euismod. Aenean ut eros nisl. Etiam maximus augue ut velit fermentum, id aliquam elit tempor. Aenean commodo, urna et posuere auctor, neque justo scelerisque quam, quis ullamcorper ex ligula sed odio. Suspendisse at eros ante.
+    </Paragraph>
+  </Card>
+</div>`}
+              scope={{ Card, Heading, Paragraph, TechLogo }}
             />
           </Card>
           <Heading as="h3" size={500}>
