@@ -32,6 +32,13 @@ interface CardProps {
    * other values correspond to levels of shadow.
    */
   elevation?: elevationKeys;
+  /**
+   * Content to render sticking out the top of the card. This will be positioned
+   * sticking out the top of the card and can be used for technology icons etc.
+   * Note this adds a position and margin-top to the card style in order to
+   * position the head stone content correctly.
+   */
+  headStone?: ReactNode;
   hoverElevation?: elevationKeys;
   id?: string;
 }
@@ -41,27 +48,36 @@ const Card = ({
   children,
   className,
   elevation = 0,
+  headStone,
   hoverElevation,
   id,
 }: CardProps): ReactElement => {
   return (
     <Element
       className={className}
-      css={css({
-        ':hover':
-          hoverElevation !== undefined
-            ? {
-                boxShadow: elevationMap[hoverElevation],
-                transform: `translate(0, -1px)`,
-              }
-            : {},
-        backgroundColor: tokens.color.primary.white.value.rgb,
-        borderRadius: tokens.radii.small.value,
-        boxShadow: elevationMap[elevation],
-        transition: 'all 0.6s cubic-bezier(0.075, 0.82, 0.165, 1)',
-      })}
+      css={css(
+        {
+          ':hover':
+            hoverElevation !== undefined
+              ? {
+                  boxShadow: elevationMap[hoverElevation],
+                  transform: `translate(0, -1px)`,
+                }
+              : {},
+          backgroundColor: tokens.color.primary.white.value.rgb,
+          borderRadius: tokens.radii.small.value,
+          boxShadow: elevationMap[elevation],
+          transition: 'all 0.6s cubic-bezier(0.075, 0.82, 0.165, 1)',
+        },
+        headStone && { marginTop: 20, position: 'relative' },
+      )}
       id={id}
     >
+      {headStone && (
+        <div css={{ height: 40, left: 32, position: 'absolute', top: -20 }}>
+          {headStone}
+        </div>
+      )}
       {children}
     </Element>
   );

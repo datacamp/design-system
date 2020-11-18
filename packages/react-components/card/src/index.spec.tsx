@@ -131,6 +131,19 @@ describe('<Card />', () => {
     });
   });
 
+  describe('headstones', () => {
+    it('renders the content of the headstone in a box above the card', async () => {
+      const someHeadstoneContent = 'this is in the headstone';
+      const { container, getByText } = await axeRender(
+        <Card headStone={someHeadstoneContent}>
+          <p>example content</p>
+        </Card>,
+      );
+      expect(getByText(someHeadstoneContent)).toBeInTheDocument();
+      expect(container.firstChild).toMatchSnapshot();
+    });
+  });
+
   describe('snapshots', () => {
     Object.keys(elevationMap)
       .map((key) => parseInt(key, 10))
