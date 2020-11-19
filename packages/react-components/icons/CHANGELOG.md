@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.2.0](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/icons/compare/@datacamp/waffles-icons@2.1.0...@datacamp/waffles-icons@2.2.0) (2020-11-19)
+
+
+### Features
+
+* add react 17 compatibility ([fcf19c6](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/icons/commit/fcf19c6))
+* instagram icon ([0265c27](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/icons/commit/0265c27))
+
+
+
+
+
 # [2.1.0](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/icons/compare/@datacamp/waffles-icons@2.0.2...@datacamp/waffles-icons@2.1.0) (2020-11-06)
 
 

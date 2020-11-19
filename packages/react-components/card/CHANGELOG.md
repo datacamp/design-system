@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [4.1.0](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/card/compare/@datacamp/waffles-card@4.0.3...@datacamp/waffles-card@4.1.0) (2020-11-19)
+
+
+### Features
+
+* add headStone prop to Card ([1744ada](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/card/commit/1744ada))
+* add react 17 compatibility ([fcf19c6](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/card/commit/fcf19c6))
+
+
+
+
+
 ## [4.0.3](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/card/compare/@datacamp/waffles-card@4.0.2...@datacamp/waffles-card@4.0.3) (2020-11-06)
 
 **Note:** Version bump only for package @datacamp/waffles-card

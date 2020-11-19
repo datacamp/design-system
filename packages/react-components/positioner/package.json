@@ -1,15 +1,21 @@
 {
   "name": "@datacamp/waffles-positioner",
-  "version": "1.0.26",
+  "version": "1.1.0",
   "description": "The Waffles Positioner",
-  "keywords": ["button"],
+  "keywords": [
+    "button"
+  ],
   "author": "Dan Denney <dd.subscriptions@gmail.com>",
   "homepage": "https://github.com/datacamp/design-system/tree/master/packages/positioner/README.md",
   "license": "ISC",
   "main": "lib/index.js",
   "module": "es/index.js",
   "types": "types/index.d.ts",
-  "files": ["es", "lib", "types"],
+  "files": [
+    "es",
+    "lib",
+    "types"
+  ],
   "scripts": {
     "build:cjs": "BABEL_ENV=cjs babel src --extensions '.tsx','.ts' --out-dir lib --ignore \"src/**/*.spec.tsx\",\"src/**/*.spec.ts\" --config-file ./babel7.config.js",
     "build:es": "BABEL_ENV=es babel src --extensions '.tsx','.ts' --out-dir es --ignore \"src/**/*.spec.tsx\",\"src/**/*.spec.ts\" --config-file ./babel7.config.js",
@@ -26,8 +32,8 @@
   "devDependencies": {
     "@babel/cli": "7.7.7",
     "@babel/core": "7.12.3",
-    "@datacamp/waffles-axe-render": "^1.2.5",
-    "@datacamp/waffles-babel-preset": "^2.0.2",
+    "@datacamp/waffles-axe-render": "^1.2.6",
+    "@datacamp/waffles-babel-preset": "^2.0.3",
     "@datacamp/waffles-tsconfig": "^1.1.12",
     "@emotion/core": "^10.0.17",
     "@stryker-mutator/core": "^3.3.1",
@@ -44,7 +50,7 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.12.1",
-    "@datacamp/waffles-utils": "^2.0.20",
+    "@datacamp/waffles-utils": "^2.1.0",
     "prop-types": "^15.7.2"
   },
   "peerDependencies": {

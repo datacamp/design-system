@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [3.1.0](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/form-elements/compare/@datacamp/waffles-form-elements@3.0.3...@datacamp/waffles-form-elements@3.1.0) (2020-11-19)
+
+
+### Features
+
+* add react 17 compatibility ([fcf19c6](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/form-elements/commit/fcf19c6))
+
+
+
+
+
 ## [3.0.3](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/form-elements/compare/@datacamp/waffles-form-elements@3.0.2...@datacamp/waffles-form-elements@3.0.3) (2020-11-06)
 
 

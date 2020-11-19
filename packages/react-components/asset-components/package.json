@@ -1,12 +1,19 @@
 {
   "name": "@datacamp/waffles-asset-components",
-  "version": "2.1.2",
+  "version": "2.2.0",
   "main": "lib/index.js",
   "module": "es/index.js",
   "types": "types/index.d.ts",
   "license": "UNLICENSED",
-  "files": ["es", "lib", "types"],
-  "sideEffects": ["lib/sideEffects/*", "es/sideEffects/*"],
+  "files": [
+    "es",
+    "lib",
+    "types"
+  ],
+  "sideEffects": [
+    "lib/sideEffects/*",
+    "es/sideEffects/*"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/card/"
@@ -28,8 +35,8 @@
     "@babel/cli": "7.7.7",
     "@babel/core": "7.12.3",
     "@datacamp/waffles-assets": "^2.0.0",
-    "@datacamp/waffles-axe-render": "^1.2.5",
-    "@datacamp/waffles-babel-preset": "^2.0.2",
+    "@datacamp/waffles-axe-render": "^1.2.6",
+    "@datacamp/waffles-babel-preset": "^2.0.3",
     "@datacamp/waffles-tsconfig": "^1.1.12",
     "@emotion/core": "^10.0.17",
     "@stryker-mutator/core": "^3.3.1",

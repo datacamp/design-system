@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.1.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-utils@2.0.20...@datacamp/waffles-utils@2.1.0) (2020-11-19)
+
+
+### Features
+
+* add react 17 compatibility ([fcf19c6](https://github.com/datacamp/design-system/commit/fcf19c6))
+
+
+
+
+
 ## [2.0.20](https://github.com/datacamp/design-system/compare/@datacamp/waffles-utils@2.0.19...@datacamp/waffles-utils@2.0.20) (2020-11-06)
 
 

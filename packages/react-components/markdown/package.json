@@ -1,12 +1,19 @@
 {
   "name": "@datacamp/waffles-markdown",
-  "version": "3.0.3",
+  "version": "3.1.0",
   "main": "lib/index.js",
   "module": "es/index.js",
   "types": "types/index.d.ts",
-  "files": ["es", "lib", "types"],
+  "files": [
+    "es",
+    "lib",
+    "types"
+  ],
   "license": "UNLICENSED",
-  "sideEffects": ["lib/sideEffects/*", "es/sideEffects/*"],
+  "sideEffects": [
+    "lib/sideEffects/*",
+    "es/sideEffects/*"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/markdown/"
@@ -28,8 +35,8 @@
   "devDependencies": {
     "@babel/cli": "7.7.7",
     "@babel/core": "7.12.3",
-    "@datacamp/waffles-axe-render": "^1.2.5",
-    "@datacamp/waffles-babel-preset": "^2.0.2",
+    "@datacamp/waffles-axe-render": "^1.2.6",
+    "@datacamp/waffles-babel-preset": "^2.0.3",
     "@datacamp/waffles-tsconfig": "^1.1.12",
     "@stryker-mutator/core": "^3.3.1",
     "@stryker-mutator/html-reporter": "^3.1.0",
@@ -46,7 +53,7 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.12.1",
-    "@datacamp/waffles-text": "^4.0.3",
+    "@datacamp/waffles-text": "^4.1.0",
     "prop-types": "^15.7.2",
     "react-markdown": "^4.3.1"
   },

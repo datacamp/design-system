@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [6.1.0](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/modals/compare/@datacamp/waffles-modals@6.0.3...@datacamp/waffles-modals@6.1.0) (2020-11-19)
+
+
+### Features
+
+* add react 17 compatibility ([fcf19c6](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/modals/commit/fcf19c6))
+
+
+
+
+
 ## [6.0.3](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/modals/compare/@datacamp/waffles-modals@6.0.2...@datacamp/waffles-modals@6.0.3) (2020-11-06)
 
 

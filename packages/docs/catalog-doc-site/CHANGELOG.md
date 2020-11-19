@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.3.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-catalog-doc-site@2.2.1...@datacamp/waffles-catalog-doc-site@2.3.0) (2020-11-19)
+
+
+### Features
+
+* add documentation for card headstone ([638c590](https://github.com/datacamp/design-system/commit/638c590))
+* add react 17 compatibility ([fcf19c6](https://github.com/datacamp/design-system/commit/fcf19c6))
+
+
+
+
+
 ## [2.2.1](https://github.com/datacamp/design-system/compare/@datacamp/waffles-catalog-doc-site@2.2.0...@datacamp/waffles-catalog-doc-site@2.2.1) (2020-11-06)
 
 **Note:** Version bump only for package @datacamp/waffles-catalog-doc-site

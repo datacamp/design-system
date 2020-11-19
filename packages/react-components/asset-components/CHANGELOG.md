@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.2.0](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/card/compare/@datacamp/waffles-asset-components@2.1.2...@datacamp/waffles-asset-components@2.2.0) (2020-11-19)
+
+
+### Features
+
+* add react 17 compatibility ([fcf19c6](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/card/commit/fcf19c6))
+
+
+
+
+
 ## [2.1.2](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/card/compare/@datacamp/waffles-asset-components@2.1.1...@datacamp/waffles-asset-components@2.1.2) (2020-11-06)
 
 **Note:** Version bump only for package @datacamp/waffles-asset-components

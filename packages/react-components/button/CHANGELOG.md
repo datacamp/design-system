@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [6.2.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-button@6.1.1...@datacamp/waffles-button@6.2.0) (2020-11-19)
+
+
+### Features
+
+* add react 17 compatibility ([fcf19c6](https://github.com/datacamp/design-system/commit/fcf19c6))
+
+
+
+
+
 ## [6.1.1](https://github.com/datacamp/design-system/compare/@datacamp/waffles-button@6.1.0...@datacamp/waffles-button@6.1.1) (2020-11-06)
 
 
