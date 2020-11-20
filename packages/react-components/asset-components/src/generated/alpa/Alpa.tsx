@@ -16,26 +16,6 @@ function SvgAlpa({
       ) : title ? (
         <title id={titleId}>{title}</title>
       ) : null}
-      <defs>
-        <filter
-          x="0%"
-          y="0%"
-          width="100%"
-          height="100%"
-          filterUnits="objectBoundingBox"
-          id="ALPA_svg__a"
-        >
-          <feOffset in="SourceAlpha" result="shadowOffsetOuter1" />
-          <feColorMatrix
-            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.5 0"
-            in="shadowOffsetOuter1"
-          />
-        </filter>
-        <path
-          id="ALPA_svg__b"
-          d="M31.05 239.05l9.9 9.9L19.899 270l21.05 21.05-9.899 9.9L.1 270z"
-        />
-      </defs>
       <g fill="none" fillRule="evenodd">
         <g transform="translate(26)">
           <path
@@ -122,10 +102,10 @@ function SvgAlpa({
         <g fillRule="nonzero" transform="translate(317 372)">
           <use
             fill="#000"
-            filter="url(#ALPA_svg__a)"
-            xlinkHref="#ALPA_svg__b"
+            filter="url(#ALPA_svg__filter-2)"
+            xlinkHref="#ALPA_svg__path-1"
           />
-          <use fill="#FF931E" xlinkHref="#ALPA_svg__b" />
+          <use fill="#FF931E" xlinkHref="#ALPA_svg__path-1" />
         </g>
         <g transform="translate(471 473)">
           <ellipse

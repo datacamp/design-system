@@ -29,11 +29,6 @@ describe('index', () => {
             "WordmarkGrey": [Function],
             "WordmarkWhite": [Function],
           },
-          "DatacampB2B": Object {
-            "Inverted": [Function],
-            "Regular": [Function],
-            "SingleColor": [Function],
-          },
           "Waffles": Object {
             "Inverted": [Function],
             "Regular": [Function],
@@ -52,26 +47,6 @@ describe('index', () => {
           "Sql": [Function],
           "Tableau": [Function],
           "Theory": [Function],
-        },
-        "Topics": Object {
-          "AppliedFinance": [Function],
-          "CaseStudies": [Function],
-          "DataEngineering": [Function],
-          "DataManipulation": [Function],
-          "DataScientist": [Function],
-          "DataVisualization": [Function],
-          "ImportAndCleaningData": [Function],
-          "MachineLearning": [Function],
-          "Management": [Function],
-          "Other": [Function],
-          "ProbabilityAndStatistics": [Function],
-          "Programming": [Function],
-          "PythonProgramming": [Function],
-          "RProgramming": [Function],
-          "Reporting": [Function],
-          "Spreadsheet": [Function],
-          "SqlProgramming": [Function],
-          "TimeSeries": [Function],
         },
       }
     `);

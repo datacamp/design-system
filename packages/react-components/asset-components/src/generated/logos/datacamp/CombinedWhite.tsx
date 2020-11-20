@@ -18,7 +18,7 @@ function SvgCombinedWhite({
       {...props}
     >
       {title === undefined ? (
-        <title id={titleId}>{'datacamp/regular'}</title>
+        <title id={titleId}>{'datacamp logo'}</title>
       ) : title ? (
         <title id={titleId}>{title}</title>
       ) : null}
