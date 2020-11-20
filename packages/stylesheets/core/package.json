@@ -37,7 +37,7 @@
     "mini-css-extract-plugin": "0.9.0",
     "node-sass": "4.14.1",
     "node-sass-json-importer": "4.3.0",
-    "omit-deep-lodash": "1.1.4",
+    "omit-deep-lodash": "1.1.5",
     "postcss-browser-reporter": "^0.6.0",
     "postcss-import": "^12.0.1",
     "postcss-loader": "^3.0.0",
