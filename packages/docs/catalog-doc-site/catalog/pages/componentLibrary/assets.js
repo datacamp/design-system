@@ -83,9 +83,6 @@ export default () => {
                 for each technology. Controlled by the <Code>technology</Code>{' '}
                 prop.
               </List.Item>
-              <List.Item>
-                <Strong>Topics –</Strong> Contains images for different topics.
-              </List.Item>
             </List>
             <CodeBlock>
               {`import {
@@ -93,7 +90,6 @@ export default () => {
   DatacampLogo,
   Logos,
   TechLogo,
-  Topics,
 } from '@datacamp/waffles-asset-components';`}
             </CodeBlock>
           </Card>
