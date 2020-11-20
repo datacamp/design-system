@@ -29,7 +29,7 @@
   "main": "catalog/index.js",
   "scripts": {
     "bootstrap": "lerna clean --yes && lerna bootstrap && lerna run prepare --stream",
-    "lint": "svglint \"./packages/react-components/**/!(sprite)*.svg\" && eslint --ext js,jsx,ts,tsx --ignore-path .gitignore .",
+    "lint": "svglint \"./packages/{react-components,other}/**/!(sprite)*.svg\" && eslint --ext js,jsx,ts,tsx --ignore-path .gitignore .",
     "lint:fix": "yarn lint --fix",
     "test": "lerna run test --stream",
     "percy": "lerna run percy",
