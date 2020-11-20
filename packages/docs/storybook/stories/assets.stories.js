@@ -39,9 +39,6 @@ storiesOf('waffles-asset-components', module)
   .add('Technologies', () => {
     return Object.values(Technologies).map((Technology) => <Technology />);
   })
-  .add('Topics', () => {
-    return Object.values(Topics).map((Topic) => <Topic />);
-  })
   .add('TechLogo', () => {
     return <TechLogo technology={text('technology', 'R')} />;
   })
