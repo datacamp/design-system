@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18">
   <title>Stop</title>
-  <g id="icons/regular/stop" fill="none" fill-rule="evenodd" stroke="none" stroke-width="1">
-    <path id="stop" fill="#3AC" d="M4,4 L4,14 L14,14 L14,4 L4,4 Z M4,2 L14,2 C15.1045695,2 16,2.8954305 16,4 L16,14 C16,15.1045695 15.1045695,16 14,16 L4,16 C2.8954305,16 2,15.1045695 2,14 L2,4 C2,2.8954305 2.8954305,2 4,2 Z"/>
+  <g fill="none" fill-rule="evenodd" stroke="none" stroke-width="1">
+    <path fill="#3AC" d="M4,4 L4,14 L14,14 L14,4 L4,4 Z M4,2 L14,2 C15.1045695,2 16,2.8954305 16,4 L16,14 C16,15.1045695 15.1045695,16 14,16 L4,16 C2.8954305,16 2,15.1045695 2,14 L2,4 C2,2.8954305 2.8954305,2 4,2 Z"/>
   </g>
 </svg>
