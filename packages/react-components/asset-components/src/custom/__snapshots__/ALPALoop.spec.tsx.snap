@@ -8,29 +8,6 @@ exports[`<ALPALoop /> renders a Apply logo 1`] = `
   <title>
     APPLY
   </title>
-  <defs>
-    <filter
-      filterUnits="objectBoundingBox"
-      height="100%"
-      id="APPLY_svg__a"
-      width="100%"
-      x="0%"
-      y="0%"
-    >
-      <feoffset
-        in="SourceAlpha"
-        result="shadowOffsetOuter1"
-      />
-      <fecolormatrix
-        in="shadowOffsetOuter1"
-        values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.5 0"
-      />
-    </filter>
-    <path
-      d="M31.05 239.05l9.9 9.9L19.899 270l21.05 21.05-9.899 9.9L.1 270z"
-      id="APPLY_svg__b"
-    />
-  </defs>
   <g
     fill="none"
     fill-rule="evenodd"
@@ -162,12 +139,12 @@ exports[`<ALPALoop /> renders a Apply logo 1`] = `
       >
         <use
           fill="#000"
-          filter="url(#APPLY_svg__a)"
-          xlink:href="#APPLY_svg__b"
+          filter="url(#APPLY_svg__filter-2)"
+          xlink:href="#APPLY_svg__path-1"
         />
         <use
           fill="#FFF"
-          xlink:href="#APPLY_svg__b"
+          xlink:href="#APPLY_svg__path-1"
         />
       </g>
       <g
@@ -207,29 +184,6 @@ exports[`<ALPALoop /> renders a Assess logo 1`] = `
   <title>
     ASSESS
   </title>
-  <defs>
-    <filter
-      filterUnits="objectBoundingBox"
-      height="100%"
-      id="ASSESS_svg__a"
-      width="100%"
-      x="0%"
-      y="0%"
-    >
-      <feoffset
-        in="SourceAlpha"
-        result="shadowOffsetOuter1"
-      />
-      <fecolormatrix
-        in="shadowOffsetOuter1"
-        values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.5 0"
-      />
-    </filter>
-    <path
-      d="M31.05 239.05l9.9 9.9L19.899 270l21.05 21.05-9.899 9.9L.1 270z"
-      id="ASSESS_svg__b"
-    />
-  </defs>
   <g
     fill="none"
     fill-rule="evenodd"
@@ -361,12 +315,12 @@ exports[`<ALPALoop /> renders a Assess logo 1`] = `
       >
         <use
           fill="#000"
-          filter="url(#ASSESS_svg__a)"
-          xlink:href="#ASSESS_svg__b"
+          filter="url(#ASSESS_svg__filter-2)"
+          xlink:href="#ASSESS_svg__path-1"
         />
         <use
           fill="#FFF"
-          xlink:href="#ASSESS_svg__b"
+          xlink:href="#ASSESS_svg__path-1"
         />
       </g>
       <g
@@ -406,29 +360,6 @@ exports[`<ALPALoop /> renders a Learn logo 1`] = `
   <title>
     LEARN
   </title>
-  <defs>
-    <filter
-      filterUnits="objectBoundingBox"
-      height="100%"
-      id="LEARN_svg__a"
-      width="100%"
-      x="0%"
-      y="0%"
-    >
-      <feoffset
-        in="SourceAlpha"
-        result="shadowOffsetOuter1"
-      />
-      <fecolormatrix
-        in="shadowOffsetOuter1"
-        values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.5 0"
-      />
-    </filter>
-    <path
-      d="M31.05 239.05l9.9 9.9L19.899 270l21.05 21.05-9.899 9.9L.1 270z"
-      id="LEARN_svg__b"
-    />
-  </defs>
   <g
     fill="none"
     fill-rule="evenodd"
@@ -560,12 +491,12 @@ exports[`<ALPALoop /> renders a Learn logo 1`] = `
       >
         <use
           fill="#000"
-          filter="url(#LEARN_svg__a)"
-          xlink:href="#LEARN_svg__b"
+          filter="url(#LEARN_svg__filter-2)"
+          xlink:href="#LEARN_svg__path-1"
         />
         <use
           fill="#FFF"
-          xlink:href="#LEARN_svg__b"
+          xlink:href="#LEARN_svg__path-1"
         />
       </g>
       <g
@@ -605,29 +536,6 @@ exports[`<ALPALoop /> renders a Practice logo 1`] = `
   <title>
     PRACTICE
   </title>
-  <defs>
-    <filter
-      filterUnits="objectBoundingBox"
-      height="100%"
-      id="PRACTICE_svg__a"
-      width="100%"
-      x="0%"
-      y="0%"
-    >
-      <feoffset
-        in="SourceAlpha"
-        result="shadowOffsetOuter1"
-      />
-      <fecolormatrix
-        in="shadowOffsetOuter1"
-        values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.5 0"
-      />
-    </filter>
-    <path
-      d="M31.05 239.05l9.9 9.9L19.899 270l21.05 21.05-9.899 9.9L.1 270z"
-      id="PRACTICE_svg__b"
-    />
-  </defs>
   <g
     fill="none"
     fill-rule="evenodd"
@@ -757,12 +665,12 @@ exports[`<ALPALoop /> renders a Practice logo 1`] = `
     >
       <use
         fill="#000"
-        filter="url(#PRACTICE_svg__a)"
-        xlink:href="#PRACTICE_svg__b"
+        filter="url(#PRACTICE_svg__filter-2)"
+        xlink:href="#PRACTICE_svg__path-1"
       />
       <use
         fill="#FF931E"
-        xlink:href="#PRACTICE_svg__b"
+        xlink:href="#PRACTICE_svg__path-1"
       />
     </g>
     <g

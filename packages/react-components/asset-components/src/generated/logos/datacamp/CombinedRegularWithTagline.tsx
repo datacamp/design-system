@@ -17,7 +17,11 @@ function SvgCombinedRegularWithTagline({
       aria-labelledby={titleId}
       {...props}
     >
-      {title ? <title id={titleId}>{title}</title> : null}
+      {title === undefined ? (
+        <title id={titleId}>{'datacamp logo'}</title>
+      ) : title ? (
+        <title id={titleId}>{title}</title>
+      ) : null}
       <g fill="#05192D" fillRule="evenodd">
         <path
           fillRule="nonzero"

@@ -12,7 +12,7 @@ function SvgLogomarkGrey({
   return (
     <svg width={27} height={36} role="img" aria-labelledby={titleId} {...props}>
       {title === undefined ? (
-        <title id={titleId}>{'logo'}</title>
+        <title id={titleId}>{'datacamp logo'}</title>
       ) : title ? (
         <title id={titleId}>{title}</title>
       ) : null}
