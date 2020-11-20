@@ -15,8 +15,7 @@
   "backstage": {
     "environment": {
       "copyFrom": "/datacamp-staging/waffles-storybook",
-      "variables": {
-      }
+      "variables": {}
     }
   },
   "deployment": {

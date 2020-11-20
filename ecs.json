@@ -15,8 +15,7 @@
   "backstage": {
     "environment": {
       "copyFrom": "/datacamp-staging/waffles-stryker-report",
-      "variables": {
-      }
+      "variables": {}
     }
   },
   "deployment": {
