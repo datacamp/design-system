@@ -1,0 +1,1075 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tooltip renders on the bottom on the target 1`] = `
+.emotion-0 {
+  height: 50px;
+  width: 50px;
+}
+
+.emotion-1 {
+  -webkit-font-smoothing: antialiased;
+  color: rgb(5,25,45);
+  font-family: Studio-Feixen-Sans,Arial;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  font-size: 14px;
+  white-space: nowrap;
+  color: #05192d;
+}
+
+.emotion-3 {
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  -webkit-transform: translate(-50%,0);
+  -ms-transform: translate(-50%,0);
+  transform: translate(-50%,0);
+}
+
+.emotion-2 {
+  background-color: rgb(255,255,255);
+  border-radius: 4px;
+  box-shadow: 0px 0px 1px 0px rgba(5,25,45,0.3),0 2px 4px -1px rgba(5,25,45,0.3);
+  -webkit-transition: all 0.6s cubic-bezier(0.075,0.82,0.165,1);
+  transition: all 0.6s cubic-bezier(0.075,0.82,0.165,1);
+  padding-bottom: 8px;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 8px;
+  z-index: 1;
+  margin-top: 8px;
+  background-color: #fffbf3;
+}
+
+<body>
+  <div>
+    <div
+      class="emotion-0"
+      data-test-id="target"
+    />
+    <div
+      class="emotion-3"
+    >
+      <div
+        class="emotion-2"
+        id="abc"
+      >
+        <span
+          class="emotion-1"
+        >
+          tooltip text content
+        </span>
+      </div>
+    </div>
+  </div>
+</body>
+`;
+
+exports[`Tooltip renders on the bottom on the target 2`] = `
+.emotion-0 {
+  height: 50px;
+  width: 50px;
+}
+
+.emotion-1 {
+  -webkit-font-smoothing: antialiased;
+  color: rgb(5,25,45);
+  font-family: Studio-Feixen-Sans,Arial;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  font-size: 14px;
+  white-space: nowrap;
+  color: #ffffff;
+}
+
+.emotion-3 {
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  -webkit-transform: translate(-50%,0);
+  -ms-transform: translate(-50%,0);
+  transform: translate(-50%,0);
+}
+
+.emotion-2 {
+  background-color: rgb(255,255,255);
+  border-radius: 4px;
+  box-shadow: 0 0 0 1px rgba(5,25,45,0.1);
+  -webkit-transition: all 0.6s cubic-bezier(0.075,0.82,0.165,1);
+  transition: all 0.6s cubic-bezier(0.075,0.82,0.165,1);
+  padding-bottom: 8px;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 8px;
+  z-index: 1;
+  margin-top: 8px;
+  background-color: #05192d;
+  box-shadow: none;
+}
+
+<body>
+  <div>
+    <div
+      class="emotion-0"
+      data-test-id="target"
+    />
+    <div
+      class="emotion-3"
+    >
+      <div
+        class="emotion-2"
+        id="abc"
+      >
+        <span
+          class="emotion-1"
+        >
+          tooltip text content
+        </span>
+      </div>
+    </div>
+  </div>
+</body>
+`;
+
+exports[`Tooltip renders on the bottomLeft on the target 1`] = `
+.emotion-0 {
+  height: 50px;
+  width: 50px;
+}
+
+.emotion-3 {
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+}
+
+.emotion-2 {
+  background-color: rgb(255,255,255);
+  border-radius: 4px;
+  box-shadow: 0px 0px 1px 0px rgba(5,25,45,0.3),0 2px 4px -1px rgba(5,25,45,0.3);
+  -webkit-transition: all 0.6s cubic-bezier(0.075,0.82,0.165,1);
+  transition: all 0.6s cubic-bezier(0.075,0.82,0.165,1);
+  padding-bottom: 8px;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 8px;
+  z-index: 1;
+  margin-top: 8px;
+  background-color: #fffbf3;
+}
+
+.emotion-1 {
+  -webkit-font-smoothing: antialiased;
+  color: rgb(5,25,45);
+  font-family: Studio-Feixen-Sans,Arial;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  font-size: 14px;
+  white-space: nowrap;
+  color: #05192d;
+}
+
+<body>
+  <div>
+    <div
+      class="emotion-0"
+      data-test-id="target"
+    />
+    <div
+      class="emotion-3"
+    >
+      <div
+        class="emotion-2"
+        id="abc"
+      >
+        <span
+          class="emotion-1"
+        >
+          tooltip text content
+        </span>
+      </div>
+    </div>
+  </div>
+</body>
+`;
+
+exports[`Tooltip renders on the bottomLeft on the target 2`] = `
+.emotion-0 {
+  height: 50px;
+  width: 50px;
+}
+
+.emotion-3 {
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+}
+
+.emotion-2 {
+  background-color: rgb(255,255,255);
+  border-radius: 4px;
+  box-shadow: 0 0 0 1px rgba(5,25,45,0.1);
+  -webkit-transition: all 0.6s cubic-bezier(0.075,0.82,0.165,1);
+  transition: all 0.6s cubic-bezier(0.075,0.82,0.165,1);
+  padding-bottom: 8px;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 8px;
+  z-index: 1;
+  margin-top: 8px;
+  background-color: #05192d;
+  box-shadow: none;
+}
+
+.emotion-1 {
+  -webkit-font-smoothing: antialiased;
+  color: rgb(5,25,45);
+  font-family: Studio-Feixen-Sans,Arial;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  font-size: 14px;
+  white-space: nowrap;
+  color: #ffffff;
+}
+
+<body>
+  <div>
+    <div
+      class="emotion-0"
+      data-test-id="target"
+    />
+    <div
+      class="emotion-3"
+    >
+      <div
+        class="emotion-2"
+        id="abc"
+      >
+        <span
+          class="emotion-1"
+        >
+          tooltip text content
+        </span>
+      </div>
+    </div>
+  </div>
+</body>
+`;
+
+exports[`Tooltip renders on the bottomRight on the target 1`] = `
+.emotion-0 {
+  height: 50px;
+  width: 50px;
+}
+
+.emotion-1 {
+  -webkit-font-smoothing: antialiased;
+  color: rgb(5,25,45);
+  font-family: Studio-Feixen-Sans,Arial;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  font-size: 14px;
+  white-space: nowrap;
+  color: #05192d;
+}
+
+.emotion-3 {
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  -webkit-transform: translate(-100%);
+  -ms-transform: translate(-100%);
+  transform: translate(-100%);
+}
+
+.emotion-2 {
+  background-color: rgb(255,255,255);
+  border-radius: 4px;
+  box-shadow: 0px 0px 1px 0px rgba(5,25,45,0.3),0 2px 4px -1px rgba(5,25,45,0.3);
+  -webkit-transition: all 0.6s cubic-bezier(0.075,0.82,0.165,1);
+  transition: all 0.6s cubic-bezier(0.075,0.82,0.165,1);
+  padding-bottom: 8px;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 8px;
+  z-index: 1;
+  margin-top: 8px;
+  background-color: #fffbf3;
+}
+
+<body>
+  <div>
+    <div
+      class="emotion-0"
+      data-test-id="target"
+    />
+    <div
+      class="emotion-3"
+    >
+      <div
+        class="emotion-2"
+        id="abc"
+      >
+        <span
+          class="emotion-1"
+        >
+          tooltip text content
+        </span>
+      </div>
+    </div>
+  </div>
+</body>
+`;
+
+exports[`Tooltip renders on the bottomRight on the target 2`] = `
+.emotion-0 {
+  height: 50px;
+  width: 50px;
+}
+
+.emotion-1 {
+  -webkit-font-smoothing: antialiased;
+  color: rgb(5,25,45);
+  font-family: Studio-Feixen-Sans,Arial;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  font-size: 14px;
+  white-space: nowrap;
+  color: #ffffff;
+}
+
+.emotion-3 {
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  -webkit-transform: translate(-100%);
+  -ms-transform: translate(-100%);
+  transform: translate(-100%);
+}
+
+.emotion-2 {
+  background-color: rgb(255,255,255);
+  border-radius: 4px;
+  box-shadow: 0 0 0 1px rgba(5,25,45,0.1);
+  -webkit-transition: all 0.6s cubic-bezier(0.075,0.82,0.165,1);
+  transition: all 0.6s cubic-bezier(0.075,0.82,0.165,1);
+  padding-bottom: 8px;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 8px;
+  z-index: 1;
+  margin-top: 8px;
+  background-color: #05192d;
+  box-shadow: none;
+}
+
+<body>
+  <div>
+    <div
+      class="emotion-0"
+      data-test-id="target"
+    />
+    <div
+      class="emotion-3"
+    >
+      <div
+        class="emotion-2"
+        id="abc"
+      >
+        <span
+          class="emotion-1"
+        >
+          tooltip text content
+        </span>
+      </div>
+    </div>
+  </div>
+</body>
+`;
+
+exports[`Tooltip renders on the left on the target 1`] = `
+.emotion-0 {
+  height: 50px;
+  width: 50px;
+}
+
+.emotion-1 {
+  -webkit-font-smoothing: antialiased;
+  color: rgb(5,25,45);
+  font-family: Studio-Feixen-Sans,Arial;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  font-size: 14px;
+  white-space: nowrap;
+  color: #05192d;
+}
+
+.emotion-3 {
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  -webkit-transform: translate(-100%,-50%);
+  -ms-transform: translate(-100%,-50%);
+  transform: translate(-100%,-50%);
+}
+
+.emotion-2 {
+  background-color: rgb(255,255,255);
+  border-radius: 4px;
+  box-shadow: 0px 0px 1px 0px rgba(5,25,45,0.3),0 2px 4px -1px rgba(5,25,45,0.3);
+  -webkit-transition: all 0.6s cubic-bezier(0.075,0.82,0.165,1);
+  transition: all 0.6s cubic-bezier(0.075,0.82,0.165,1);
+  padding-bottom: 8px;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 8px;
+  z-index: 1;
+  margin-right: 8px;
+  background-color: #fffbf3;
+}
+
+<body>
+  <div>
+    <div
+      class="emotion-0"
+      data-test-id="target"
+    />
+    <div
+      class="emotion-3"
+    >
+      <div
+        class="emotion-2"
+        id="abc"
+      >
+        <span
+          class="emotion-1"
+        >
+          tooltip text content
+        </span>
+      </div>
+    </div>
+  </div>
+</body>
+`;
+
+exports[`Tooltip renders on the left on the target 2`] = `
+.emotion-0 {
+  height: 50px;
+  width: 50px;
+}
+
+.emotion-1 {
+  -webkit-font-smoothing: antialiased;
+  color: rgb(5,25,45);
+  font-family: Studio-Feixen-Sans,Arial;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  font-size: 14px;
+  white-space: nowrap;
+  color: #ffffff;
+}
+
+.emotion-3 {
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  -webkit-transform: translate(-100%,-50%);
+  -ms-transform: translate(-100%,-50%);
+  transform: translate(-100%,-50%);
+}
+
+.emotion-2 {
+  background-color: rgb(255,255,255);
+  border-radius: 4px;
+  box-shadow: 0 0 0 1px rgba(5,25,45,0.1);
+  -webkit-transition: all 0.6s cubic-bezier(0.075,0.82,0.165,1);
+  transition: all 0.6s cubic-bezier(0.075,0.82,0.165,1);
+  padding-bottom: 8px;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 8px;
+  z-index: 1;
+  margin-right: 8px;
+  background-color: #05192d;
+  box-shadow: none;
+}
+
+<body>
+  <div>
+    <div
+      class="emotion-0"
+      data-test-id="target"
+    />
+    <div
+      class="emotion-3"
+    >
+      <div
+        class="emotion-2"
+        id="abc"
+      >
+        <span
+          class="emotion-1"
+        >
+          tooltip text content
+        </span>
+      </div>
+    </div>
+  </div>
+</body>
+`;
+
+exports[`Tooltip renders on the right on the target 1`] = `
+.emotion-0 {
+  height: 50px;
+  width: 50px;
+}
+
+.emotion-1 {
+  -webkit-font-smoothing: antialiased;
+  color: rgb(5,25,45);
+  font-family: Studio-Feixen-Sans,Arial;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  font-size: 14px;
+  white-space: nowrap;
+  color: #05192d;
+}
+
+.emotion-3 {
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  -webkit-transform: translate(0,-50%);
+  -ms-transform: translate(0,-50%);
+  transform: translate(0,-50%);
+}
+
+.emotion-2 {
+  background-color: rgb(255,255,255);
+  border-radius: 4px;
+  box-shadow: 0px 0px 1px 0px rgba(5,25,45,0.3),0 2px 4px -1px rgba(5,25,45,0.3);
+  -webkit-transition: all 0.6s cubic-bezier(0.075,0.82,0.165,1);
+  transition: all 0.6s cubic-bezier(0.075,0.82,0.165,1);
+  padding-bottom: 8px;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 8px;
+  z-index: 1;
+  margin-left: 8px;
+  background-color: #fffbf3;
+}
+
+<body>
+  <div>
+    <div
+      class="emotion-0"
+      data-test-id="target"
+    />
+    <div
+      class="emotion-3"
+    >
+      <div
+        class="emotion-2"
+        id="abc"
+      >
+        <span
+          class="emotion-1"
+        >
+          tooltip text content
+        </span>
+      </div>
+    </div>
+  </div>
+</body>
+`;
+
+exports[`Tooltip renders on the right on the target 2`] = `
+.emotion-0 {
+  height: 50px;
+  width: 50px;
+}
+
+.emotion-1 {
+  -webkit-font-smoothing: antialiased;
+  color: rgb(5,25,45);
+  font-family: Studio-Feixen-Sans,Arial;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  font-size: 14px;
+  white-space: nowrap;
+  color: #ffffff;
+}
+
+.emotion-3 {
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  -webkit-transform: translate(0,-50%);
+  -ms-transform: translate(0,-50%);
+  transform: translate(0,-50%);
+}
+
+.emotion-2 {
+  background-color: rgb(255,255,255);
+  border-radius: 4px;
+  box-shadow: 0 0 0 1px rgba(5,25,45,0.1);
+  -webkit-transition: all 0.6s cubic-bezier(0.075,0.82,0.165,1);
+  transition: all 0.6s cubic-bezier(0.075,0.82,0.165,1);
+  padding-bottom: 8px;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 8px;
+  z-index: 1;
+  margin-left: 8px;
+  background-color: #05192d;
+  box-shadow: none;
+}
+
+<body>
+  <div>
+    <div
+      class="emotion-0"
+      data-test-id="target"
+    />
+    <div
+      class="emotion-3"
+    >
+      <div
+        class="emotion-2"
+        id="abc"
+      >
+        <span
+          class="emotion-1"
+        >
+          tooltip text content
+        </span>
+      </div>
+    </div>
+  </div>
+</body>
+`;
+
+exports[`Tooltip renders on the top on the target 1`] = `
+.emotion-0 {
+  height: 50px;
+  width: 50px;
+}
+
+.emotion-1 {
+  -webkit-font-smoothing: antialiased;
+  color: rgb(5,25,45);
+  font-family: Studio-Feixen-Sans,Arial;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  font-size: 14px;
+  white-space: nowrap;
+  color: #05192d;
+}
+
+.emotion-3 {
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  -webkit-transform: translate(-50%,-100%);
+  -ms-transform: translate(-50%,-100%);
+  transform: translate(-50%,-100%);
+}
+
+.emotion-2 {
+  background-color: rgb(255,255,255);
+  border-radius: 4px;
+  box-shadow: 0px 0px 1px 0px rgba(5,25,45,0.3),0 2px 4px -1px rgba(5,25,45,0.3);
+  -webkit-transition: all 0.6s cubic-bezier(0.075,0.82,0.165,1);
+  transition: all 0.6s cubic-bezier(0.075,0.82,0.165,1);
+  padding-bottom: 8px;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 8px;
+  z-index: 1;
+  margin-bottom: 8px;
+  background-color: #fffbf3;
+}
+
+<body>
+  <div>
+    <div
+      class="emotion-0"
+      data-test-id="target"
+    />
+    <div
+      class="emotion-3"
+    >
+      <div
+        class="emotion-2"
+        id="abc"
+      >
+        <span
+          class="emotion-1"
+        >
+          tooltip text content
+        </span>
+      </div>
+    </div>
+  </div>
+</body>
+`;
+
+exports[`Tooltip renders on the top on the target 2`] = `
+.emotion-0 {
+  height: 50px;
+  width: 50px;
+}
+
+.emotion-1 {
+  -webkit-font-smoothing: antialiased;
+  color: rgb(5,25,45);
+  font-family: Studio-Feixen-Sans,Arial;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  font-size: 14px;
+  white-space: nowrap;
+  color: #ffffff;
+}
+
+.emotion-3 {
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  -webkit-transform: translate(-50%,-100%);
+  -ms-transform: translate(-50%,-100%);
+  transform: translate(-50%,-100%);
+}
+
+.emotion-2 {
+  background-color: rgb(255,255,255);
+  border-radius: 4px;
+  box-shadow: 0 0 0 1px rgba(5,25,45,0.1);
+  -webkit-transition: all 0.6s cubic-bezier(0.075,0.82,0.165,1);
+  transition: all 0.6s cubic-bezier(0.075,0.82,0.165,1);
+  padding-bottom: 8px;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 8px;
+  z-index: 1;
+  margin-bottom: 8px;
+  background-color: #05192d;
+  box-shadow: none;
+}
+
+<body>
+  <div>
+    <div
+      class="emotion-0"
+      data-test-id="target"
+    />
+    <div
+      class="emotion-3"
+    >
+      <div
+        class="emotion-2"
+        id="abc"
+      >
+        <span
+          class="emotion-1"
+        >
+          tooltip text content
+        </span>
+      </div>
+    </div>
+  </div>
+</body>
+`;
+
+exports[`Tooltip renders on the topLeft on the target 1`] = `
+.emotion-0 {
+  height: 50px;
+  width: 50px;
+}
+
+.emotion-1 {
+  -webkit-font-smoothing: antialiased;
+  color: rgb(5,25,45);
+  font-family: Studio-Feixen-Sans,Arial;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  font-size: 14px;
+  white-space: nowrap;
+  color: #05192d;
+}
+
+.emotion-3 {
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  -webkit-transform: translate(0,-100%);
+  -ms-transform: translate(0,-100%);
+  transform: translate(0,-100%);
+}
+
+.emotion-2 {
+  background-color: rgb(255,255,255);
+  border-radius: 4px;
+  box-shadow: 0px 0px 1px 0px rgba(5,25,45,0.3),0 2px 4px -1px rgba(5,25,45,0.3);
+  -webkit-transition: all 0.6s cubic-bezier(0.075,0.82,0.165,1);
+  transition: all 0.6s cubic-bezier(0.075,0.82,0.165,1);
+  padding-bottom: 8px;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 8px;
+  z-index: 1;
+  margin-bottom: 8px;
+  background-color: #fffbf3;
+}
+
+<body>
+  <div>
+    <div
+      class="emotion-0"
+      data-test-id="target"
+    />
+    <div
+      class="emotion-3"
+    >
+      <div
+        class="emotion-2"
+        id="abc"
+      >
+        <span
+          class="emotion-1"
+        >
+          tooltip text content
+        </span>
+      </div>
+    </div>
+  </div>
+</body>
+`;
+
+exports[`Tooltip renders on the topLeft on the target 2`] = `
+.emotion-0 {
+  height: 50px;
+  width: 50px;
+}
+
+.emotion-1 {
+  -webkit-font-smoothing: antialiased;
+  color: rgb(5,25,45);
+  font-family: Studio-Feixen-Sans,Arial;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  font-size: 14px;
+  white-space: nowrap;
+  color: #ffffff;
+}
+
+.emotion-3 {
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  -webkit-transform: translate(0,-100%);
+  -ms-transform: translate(0,-100%);
+  transform: translate(0,-100%);
+}
+
+.emotion-2 {
+  background-color: rgb(255,255,255);
+  border-radius: 4px;
+  box-shadow: 0 0 0 1px rgba(5,25,45,0.1);
+  -webkit-transition: all 0.6s cubic-bezier(0.075,0.82,0.165,1);
+  transition: all 0.6s cubic-bezier(0.075,0.82,0.165,1);
+  padding-bottom: 8px;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 8px;
+  z-index: 1;
+  margin-bottom: 8px;
+  background-color: #05192d;
+  box-shadow: none;
+}
+
+<body>
+  <div>
+    <div
+      class="emotion-0"
+      data-test-id="target"
+    />
+    <div
+      class="emotion-3"
+    >
+      <div
+        class="emotion-2"
+        id="abc"
+      >
+        <span
+          class="emotion-1"
+        >
+          tooltip text content
+        </span>
+      </div>
+    </div>
+  </div>
+</body>
+`;
+
+exports[`Tooltip renders on the topRight on the target 1`] = `
+.emotion-0 {
+  height: 50px;
+  width: 50px;
+}
+
+.emotion-1 {
+  -webkit-font-smoothing: antialiased;
+  color: rgb(5,25,45);
+  font-family: Studio-Feixen-Sans,Arial;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  font-size: 14px;
+  white-space: nowrap;
+  color: #05192d;
+}
+
+.emotion-3 {
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  -webkit-transform: translate(-100%,-100%);
+  -ms-transform: translate(-100%,-100%);
+  transform: translate(-100%,-100%);
+}
+
+.emotion-2 {
+  background-color: rgb(255,255,255);
+  border-radius: 4px;
+  box-shadow: 0px 0px 1px 0px rgba(5,25,45,0.3),0 2px 4px -1px rgba(5,25,45,0.3);
+  -webkit-transition: all 0.6s cubic-bezier(0.075,0.82,0.165,1);
+  transition: all 0.6s cubic-bezier(0.075,0.82,0.165,1);
+  padding-bottom: 8px;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 8px;
+  z-index: 1;
+  margin-bottom: 8px;
+  background-color: #fffbf3;
+}
+
+<body>
+  <div>
+    <div
+      class="emotion-0"
+      data-test-id="target"
+    />
+    <div
+      class="emotion-3"
+    >
+      <div
+        class="emotion-2"
+        id="abc"
+      >
+        <span
+          class="emotion-1"
+        >
+          tooltip text content
+        </span>
+      </div>
+    </div>
+  </div>
+</body>
+`;
+
+exports[`Tooltip renders on the topRight on the target 2`] = `
+.emotion-0 {
+  height: 50px;
+  width: 50px;
+}
+
+.emotion-1 {
+  -webkit-font-smoothing: antialiased;
+  color: rgb(5,25,45);
+  font-family: Studio-Feixen-Sans,Arial;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  font-size: 14px;
+  white-space: nowrap;
+  color: #ffffff;
+}
+
+.emotion-3 {
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  -webkit-transform: translate(-100%,-100%);
+  -ms-transform: translate(-100%,-100%);
+  transform: translate(-100%,-100%);
+}
+
+.emotion-2 {
+  background-color: rgb(255,255,255);
+  border-radius: 4px;
+  box-shadow: 0 0 0 1px rgba(5,25,45,0.1);
+  -webkit-transition: all 0.6s cubic-bezier(0.075,0.82,0.165,1);
+  transition: all 0.6s cubic-bezier(0.075,0.82,0.165,1);
+  padding-bottom: 8px;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 8px;
+  z-index: 1;
+  margin-bottom: 8px;
+  background-color: #05192d;
+  box-shadow: none;
+}
+
+<body>
+  <div>
+    <div
+      class="emotion-0"
+      data-test-id="target"
+    />
+    <div
+      class="emotion-3"
+    >
+      <div
+        class="emotion-2"
+        id="abc"
+      >
+        <span
+          class="emotion-1"
+        >
+          tooltip text content
+        </span>
+      </div>
+    </div>
+  </div>
+</body>
+`;
