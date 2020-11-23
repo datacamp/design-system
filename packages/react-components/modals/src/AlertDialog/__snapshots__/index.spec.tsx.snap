@@ -402,6 +402,7 @@ exports[`<AlertModal /> isOpen renders the modal via a portal when true 1`] = `
     >
       <div
         aria-label="Alert dialog"
+        aria-modal="true"
         class="emotion-10 emotion-11"
         role="dialog"
         tabindex="-1"
