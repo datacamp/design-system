@@ -82,6 +82,13 @@ export default {
       path: '/component-library/toast',
       title: 'Toast',
     },
+    {
+      content: pageLoader(() =>
+        import('../../pages/componentLibrary/tooltip.js'),
+      ),
+      path: '/component-library/tooltip',
+      title: 'Tooltip',
+    },
   ],
   title: 'Component Library',
 };
