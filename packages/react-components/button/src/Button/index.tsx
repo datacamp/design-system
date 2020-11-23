@@ -1,6 +1,7 @@
 import * as Icons from '@datacamp/waffles-icons';
 import { Text } from '@datacamp/waffles-text';
 import tokens from '@datacamp/waffles-tokens/lib/future-tokens.json';
+import Tooltip from '@datacamp/waffles-tooltip';
 import { computeDataAttributes } from '@datacamp/waffles-utils';
 import { css, SerializedStyles } from '@emotion/core';
 import { childrenOfType, nChildren } from 'airbnb-prop-types';
@@ -14,8 +15,6 @@ import React, {
 } from 'react';
 import { useUIDSeed } from 'react-uid';
 import { mergeRefs } from 'use-callback-ref';
-
-import Tooltip from '../Tooltip';
 
 import {
   baseLoadingStyle,
