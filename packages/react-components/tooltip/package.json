@@ -1,0 +1,65 @@
+{
+  "name": "@datacamp/waffles-tooltip",
+  "version": "0.0.1",
+  "description": "The Waffles Tooltip",
+  "keywords": ["tooltip"],
+  "author": "Louis Bailey <louis@datacamp.com>",
+  "homepage": "https://github.com/datacamp/design-system/tree/master/packages/tooltip/README.md",
+  "license": "UNLICENSED",
+  "main": "lib/index.js",
+  "module": "es/index.js",
+  "types": "types/index.d.ts",
+  "files": ["es", "lib", "types"],
+  "scripts": {
+    "build:cjs": "BABEL_ENV=cjs babel src --extensions '.tsx','.ts' --out-dir lib --ignore \"src/**/*.spec.tsx\",\"src/**/*.spec.ts\" --config-file ./babel7.config.js",
+    "build:es": "BABEL_ENV=es babel src --extensions '.tsx','.ts' --out-dir es --ignore \"src/**/*.spec.tsx\",\"src/**/*.spec.ts\" --config-file ./babel7.config.js",
+    "build:metadata": "react-docgen src --exclude \"/^.+spec.+$/\" -x tsx -o componentMetadata.json --resolver findAllComponentDefinitions",
+    "clean": "rm -rf lib es types componentMetadata.json",
+    "build:types": "tsc --rootDir src --declarationDir types --emitDeclarationOnly",
+    "build": "yarn build:types && yarn build:cjs && yarn build:es && yarn build:metadata",
+    "prepare": " yarn clean && yarn build",
+    "test": "jest",
+    "type-check": "tsc --noEmit",
+    "watch": "yarn build:es --watch",
+    "stryker": "stryker run"
+  },
+  "devDependencies": {
+    "@babel/cli": "7.7.7",
+    "@babel/core": "7.12.3",
+    "@datacamp/waffles-axe-render": "^1.2.6",
+    "@datacamp/waffles-babel-preset": "^2.0.3",
+    "@datacamp/waffles-tsconfig": "^1.1.12",
+    "@emotion/core": "^10.0.17",
+    "@stryker-mutator/core": "^3.3.1",
+    "@stryker-mutator/html-reporter": "^3.1.0",
+    "@stryker-mutator/typescript": "^3.3.1",
+    "@testing-library/jest-dom": "5.11.5",
+    "@testing-library/react": "11.2.2",
+    "@testing-library/user-event": "12.2.0",
+    "@types/airbnb-prop-types": "2.13.1",
+    "babel-jest": "26.6.3",
+    "jest": "26.6.1",
+    "jest-emotion": "10.0.32",
+    "react": "17.0.1",
+    "react-docgen": "5.3.1",
+    "react-dom": "17.0.1",
+    "react-error-boundary": "^2.2.3"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.12.1",
+    "@datacamp/waffles-card": "^4.1.0",
+    "@datacamp/waffles-positioner": "^1.1.0",
+    "@datacamp/waffles-text": "^4.1.0",
+    "@datacamp/waffles-tokens": "^1.0.3",
+    "prop-types": "^15.7.2"
+  },
+  "peerDependencies": {
+    "@emotion/core": "^10.0.17",
+    "react": "^16.8.6 || ^17.0.1",
+    "react-dom": "^16.8.6 || ^17.0.1"
+  },
+  "bugs": {
+    "url": "https://github.com/datacamp/design-system/issues"
+  },
+  "gitHead": "033030174dbf18623ccd9c0174108c41a9e588a1"
+}
