@@ -9,7 +9,7 @@
     "jest-axe": "3.5.0"
   },
   "devDependencies": {
-    "@testing-library/react": "11.1.1"
+    "@testing-library/react": "11.2.2"
   },
   "peerDependencies": {
     "@testing-library/react": "^8.0.4"
