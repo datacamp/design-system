@@ -1,3 +1,4 @@
+import { HiddenIcon, VisibleIcon } from '@datacamp/waffles-icons';
 import tokens from '@datacamp/waffles-tokens/lib/future-tokens.json';
 import { computeDataAttributes } from '@datacamp/waffles-utils';
 import { ClassNames, css } from '@emotion/core';
@@ -157,6 +158,12 @@ const InternalInput = ({
   type = 'text',
   value,
 }: InputProps & { innerRef?: Ref<HTMLInputElement> }): ReactElement => {
+  const [passwordVisible, setPasswordVisible] = React.useState(false);
+  const togglePasswordVisibility = React.useCallback(
+    () => setPasswordVisible(!passwordVisible),
+    [passwordVisible],
+  );
+
   const parsedDataAttributes = computeDataAttributes(dataAttributes);
 
   const handleChange = (event: React.ChangeEvent<HTMLInputElement>): void =>
@@ -196,8 +203,36 @@ const InternalInput = ({
     </div>
   );
 
+  const showHidePasswordElement = type === 'password' && (
+    <button
+      aria-label={`${passwordVisible ? 'Hide' : 'Show'} Password`}
+      css={{
+        '&:active, &:focus, &:hover': {
+          opacity: 1,
+          outline: 0,
+        },
+        background: 'transparent',
+        border: 0,
+        color: tokens.color.primary.navyText.value.hex,
+        display: 'block',
+        opacity: 0.5,
+        position: 'absolute',
+        right: 12,
+        top: 11,
+      }}
+      onClick={togglePasswordVisibility}
+      type="button"
+    >
+      <i aria-hidden="true">
+        {passwordVisible ? <HiddenIcon size={24} /> : <VisibleIcon size={24} />}
+      </i>
+    </button>
+  );
+
   const inputElement = (
-    <>
+    <div
+      css={{ display: label ? 'block' : 'inline-block', position: 'relative' }}
+    >
       {iconElement}
       <input
         autoComplete={autocomplete}
@@ -215,11 +250,12 @@ const InternalInput = ({
         ref={innerRef}
         required={htmlRequired}
         step={step}
-        type={type}
+        type={type === 'password' && passwordVisible ? 'input' : type}
         value={value}
         {...parsedDataAttributes}
       />
-    </>
+      {showHidePasswordElement}
+    </div>
   );
 
   return (

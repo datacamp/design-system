@@ -191,7 +191,7 @@ describe('<Input />', () => {
 
     it('renders a small text input if size= "small" ', () => {
       const placeholder = 'placeholder text';
-      const { container } = render(
+      const { getByRole } = render(
         <Input
           name={testName}
           onChange={() => {}}
@@ -200,13 +200,13 @@ describe('<Input />', () => {
           value={testValue}
         />,
       );
-      expect(container.firstChild).toHaveStyle(`height: 36px;`);
-      expect(container.firstChild).toHaveStyle(`font-size: 16px;`);
+      expect(getByRole('textbox')).toHaveStyle(`height: 36px;`);
+      expect(getByRole('textbox')).toHaveStyle(`font-size: 16px;`);
     });
 
     it('renders a medium text input if size= "medium" or undefined', () => {
       const placeholder = 'placeholder text';
-      const { container } = render(
+      const { getByRole } = render(
         <Input
           name={testName}
           onChange={() => {}}
@@ -214,13 +214,13 @@ describe('<Input />', () => {
           value={testValue}
         />,
       );
-      expect(container.firstChild).toHaveStyle(`height: 48px;`);
-      expect(container.firstChild).toHaveStyle(`font-size: 16px;`);
+      expect(getByRole('textbox')).toHaveStyle(`height: 48px;`);
+      expect(getByRole('textbox')).toHaveStyle(`font-size: 16px;`);
     });
 
     it('renders a medium text input if size= "large" ', () => {
       const placeholder = 'placeholder text';
-      const { container } = render(
+      const { getByRole } = render(
         <Input
           name={testName}
           onChange={() => {}}
@@ -229,8 +229,8 @@ describe('<Input />', () => {
           value={testValue}
         />,
       );
-      expect(container.firstChild).toHaveStyle(`height: 64px;`);
-      expect(container.firstChild).toHaveStyle(`font-size: 20px;`);
+      expect(getByRole('textbox')).toHaveStyle(`height: 64px;`);
+      expect(getByRole('textbox')).toHaveStyle(`font-size: 20px;`);
     });
 
     it('adds an error message under the input field if error is passed as a prop', () => {
@@ -310,6 +310,33 @@ describe('with label', () => {
       />,
     );
     expect(getByText(testDescription)).toBeInTheDocument();
+  });
+});
+
+describe('type=password', () => {
+  it('shows then hides the password', () => {
+    const testValue = 'abcde';
+    const { getByLabelText } = render(
+      <Input
+        label="test input"
+        name="sdf"
+        onChange={() => {}}
+        type="password"
+        value={testValue}
+      />,
+    );
+
+    const element = getByLabelText('test input');
+
+    expect(element).toHaveAttribute('type', 'password');
+
+    userEvent.click(getByLabelText('Show Password'));
+
+    expect(element).toHaveAttribute('type', 'input');
+
+    userEvent.click(getByLabelText('Hide Password'));
+
+    expect(element).toHaveAttribute('type', 'password');
   });
 });
 
