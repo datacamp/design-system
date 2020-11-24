@@ -1,6 +1,4 @@
-import './index.css';
-
-import cx from 'classnames';
+import { css } from '@emotion/core';
 import PropTypes from 'prop-types';
 import React, { PureComponent } from 'react';
 
@@ -181,9 +179,10 @@ class ResizableElements extends PureComponent {
 
     return (
       <div
-        className={cx(`resizable-elements`, {
-          'resizable-elements__column': orientation === 'column',
-          'resizable-elements__row': orientation === 'row',
+        css={css({
+          height: '100%',
+          position: 'relative',
+          width: '100%',
         })}
         ref={this.parentRef}
       >
@@ -197,7 +196,15 @@ class ResizableElements extends PureComponent {
         >
           {this.state.draggingIndex !== -1 && (
             <div
-              className="resizable-elements__mask"
+              css={css({
+                background: 'transparent',
+                height: '100%',
+                left: 0,
+                position: 'fixed',
+                top: 0,
+                width: '100%',
+                zIndex: 100,
+              })}
               onMouseMove={this.drag}
               onMouseUp={this.stopDragging}
               role="separator"
@@ -225,23 +232,38 @@ class ResizableElements extends PureComponent {
             return (
               <React.Fragment>
                 <div
-                  style={{
+                  css={{
                     float: 'left',
                     overflow: 'hidden',
                     [orientationConf.fixedDimension]: '100%',
+                    position: 'relative',
+                  }}
+                  style={{
                     [orientationConf.adjustableDimension]: `calc(${sizePerc}% + ${
                       sizePx - splitterCorrection
                     }px)`,
-                    position: 'relative',
                   }}
                 >
                   {child}
                 </div>
                 {index < nbChildren - 1 && (
                   <div
-                    className={cx('resizable-elements__splitter', {
-                      show: this.state.draggingIndex === index,
-                    })}
+                    css={css(
+                      orientation === 'column' && {
+                        cursor: 'row-resize',
+                        height: 5,
+                        width: '100%',
+                      },
+                      orientation === 'row' && {
+                        cursor: 'col-resize',
+                        height: '100%',
+                        width: 5,
+                      },
+                      this.state.draggingIndex === index && {
+                        backgroundColor: '#e5e1da',
+                      },
+                      { ':hover': { backgroundColor: '#e5e1da' } },
+                    )}
                     onMouseDown={this.startDragging(index)}
                     role="separator"
                     style={{
