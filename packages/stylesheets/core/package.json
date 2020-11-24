@@ -1,6 +1,6 @@
 {
   "name": "@datacamp/waffles-core",
-  "version": "2.0.4",
+  "version": "2.0.5",
   "description": "Core tokens and styles for DataCamp Design System",
   "keywords": [
     "css",
@@ -29,7 +29,7 @@
   "devDependencies": {
     "@babel/cli": "7.7.7",
     "@babel/core": "7.12.7",
-    "@datacamp/waffles-babel-preset": "^2.0.3",
+    "@datacamp/waffles-babel-preset": "^2.0.4",
     "copy-webpack-plugin": "6.3.1",
     "css-loader": "3.6.0",
     "directory-tree": "2.2.5",
@@ -53,7 +53,7 @@
   },
   "gitHead": "033030174dbf18623ccd9c0174108c41a9e588a1",
   "dependencies": {
-    "@datacamp/waffles-tokens": "^1.0.3",
+    "@datacamp/waffles-tokens": "^1.0.4",
     "file-loader": "1.1.11",
     "lodash": "^4.17.20"
   }

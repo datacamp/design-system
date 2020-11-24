@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [6.1.1](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/modals/compare/@datacamp/waffles-modals@6.1.0...@datacamp/waffles-modals@6.1.1) (2020-11-24)
+
+
+### Bug Fixes
+
+* use a11y features from upgraded react-modal library ([dd809d3](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/modals/commit/dd809d3))
+
+
+
+
+
 # [6.1.0](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/modals/compare/@datacamp/waffles-modals@6.0.3...@datacamp/waffles-modals@6.1.0) (2020-11-19)
 
 

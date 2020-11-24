@@ -1,6 +1,6 @@
 {
   "name": "@datacamp/waffles-asset-components",
-  "version": "2.2.0",
+  "version": "2.2.1",
   "main": "lib/index.js",
   "module": "es/index.js",
   "types": "types/index.d.ts",
@@ -35,8 +35,8 @@
     "@babel/cli": "7.7.7",
     "@babel/core": "7.12.7",
     "@datacamp/waffles-assets": "^2.0.0",
-    "@datacamp/waffles-axe-render": "^1.2.6",
-    "@datacamp/waffles-babel-preset": "^2.0.3",
+    "@datacamp/waffles-axe-render": "^1.2.7",
+    "@datacamp/waffles-babel-preset": "^2.0.4",
     "@datacamp/waffles-tsconfig": "^1.1.12",
     "@emotion/core": "^10.0.17",
     "@stryker-mutator/core": "^3.3.1",

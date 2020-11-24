@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [3.2.0](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/form-elements/compare/@datacamp/waffles-form-elements@3.1.0...@datacamp/waffles-form-elements@3.2.0) (2020-11-24)
+
+
+### Features
+
+* add show/hide password button when input type="password" ([37097c6](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/form-elements/commit/37097c6))
+
+
+
+
+
 # [3.1.0](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/form-elements/compare/@datacamp/waffles-form-elements@3.0.3...@datacamp/waffles-form-elements@3.1.0) (2020-11-19)
 
 

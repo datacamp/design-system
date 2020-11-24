@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.3.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-storybook@2.2.0...@datacamp/waffles-storybook@2.3.0) (2020-11-24)
+
+
+### Features
+
+* add story for tooltips ([e9a21f2](https://github.com/datacamp/design-system/commit/e9a21f2))
+
+
+
+
+
 # [2.2.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-storybook@2.1.1...@datacamp/waffles-storybook@2.2.0) (2020-11-19)
 
 

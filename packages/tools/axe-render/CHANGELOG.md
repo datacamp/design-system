@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.2.7](https://github.com/datacamp/design-system/compare/@datacamp/waffles-axe-render@1.2.6...@datacamp/waffles-axe-render@1.2.7) (2020-11-24)
+
+**Note:** Version bump only for package @datacamp/waffles-axe-render
+
+
+
+
+
 ## [1.2.6](https://github.com/datacamp/design-system/compare/@datacamp/waffles-axe-render@1.2.5...@datacamp/waffles-axe-render@1.2.6) (2020-11-19)
 
 **Note:** Version bump only for package @datacamp/waffles-axe-render

@@ -1,6 +1,6 @@
 {
   "name": "@datacamp/waffles-positioner",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "The Waffles Positioner",
   "keywords": [
     "button"
@@ -32,8 +32,8 @@
   "devDependencies": {
     "@babel/cli": "7.7.7",
     "@babel/core": "7.12.7",
-    "@datacamp/waffles-axe-render": "^1.2.6",
-    "@datacamp/waffles-babel-preset": "^2.0.3",
+    "@datacamp/waffles-axe-render": "^1.2.7",
+    "@datacamp/waffles-babel-preset": "^2.0.4",
     "@datacamp/waffles-tsconfig": "^1.1.12",
     "@emotion/core": "^10.0.17",
     "@stryker-mutator/core": "^3.3.1",
@@ -50,7 +50,7 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.12.1",
-    "@datacamp/waffles-utils": "^2.1.0",
+    "@datacamp/waffles-utils": "^2.1.1",
     "prop-types": "^15.7.2"
   },
   "peerDependencies": {

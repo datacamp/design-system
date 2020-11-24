@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [6.2.1](https://github.com/datacamp/design-system/compare/@datacamp/waffles-button@6.2.0...@datacamp/waffles-button@6.2.1) (2020-11-24)
+
+
+### Bug Fixes
+
+* don't break empty button groups ([d57cc3c](https://github.com/datacamp/design-system/commit/d57cc3c))
+* replace internal tooltip with extracted version from package ([1ff11b9](https://github.com/datacamp/design-system/commit/1ff11b9))
+
+
+
+
+
 # [6.2.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-button@6.1.1...@datacamp/waffles-button@6.2.0) (2020-11-19)
 
 
