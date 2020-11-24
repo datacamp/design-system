@@ -1,10 +1,10 @@
 import { css } from '@emotion/core';
-import PropTypes from 'prop-types';
 import React, { PureComponent } from 'react';
 
 import CollapseContext from './CollapseContext';
 
-const clip = (value, min, max) => Math.min(Math.max(value, min), max);
+const clip = (value: number, min = 0, max = Infinity): number =>
+  Math.min(Math.max(value, min), max);
 
 const orientationMap = {
   column: {
@@ -21,16 +21,31 @@ const orientationMap = {
     fixedDimension: 'height',
     offset: 'x',
   },
-};
+} as const;
 
-class ResizableElements extends PureComponent {
-  static propTypes = {
-    children: PropTypes.node,
-    minSize: PropTypes.number,
-    orientation: PropTypes.oneOf(['row', 'column']),
-    proportions: PropTypes.arrayOf(PropTypes.number),
-  };
+interface ResizableElementsProps {
+  children: React.ReactNode;
+  minSize: number;
+  orientation: 'row' | 'column';
+  proportions: number[];
+}
 
+interface ResizeableElementsState {
+  collapsedFirstElement: boolean;
+  collapsedLastElement: boolean;
+  draggingDiff: number;
+  draggingIndex: number;
+  draggingMax?: number;
+  draggingMin?: number;
+  sizes: number[] | null;
+  startDraggingAt?: number;
+}
+
+class ResizableElements extends PureComponent<
+  ResizableElementsProps,
+  ResizeableElementsState,
+  ResizeableElementsState
+> {
   static defaultProps = {
     children: null,
     minSize: 30,
@@ -38,15 +53,19 @@ class ResizableElements extends PureComponent {
     proportions: null,
   };
 
-  state = {
-    collapsedFirstElement: false,
-    collapsedLastElement: false,
-    draggingDiff: 0,
-    draggingIndex: -1,
-    startDraggingAt: null,
-  };
+  constructor(props: ResizableElementsProps) {
+    super(props);
 
-  componentWillMount() {
+    this.state = {
+      collapsedFirstElement: false,
+      collapsedLastElement: false,
+      draggingDiff: 0,
+      draggingIndex: -1,
+      sizes: null,
+    };
+  }
+
+  componentWillMount(): void {
     const { children, proportions } = this.props;
     const nbChildren = this.getNumberOfElements();
     const childWidth = 100 / nbChildren;
@@ -56,22 +75,25 @@ class ResizableElements extends PureComponent {
       //       This will also make auto-uncollapsing trivial.
       sizes:
         proportions === null
-          ? React.Children.map(children, () => childWidth)
+          ? React.Children.map(children, () => childWidth) || null
           : proportions,
     });
   }
 
-  getNumberOfElements() {
+  getNumberOfElements(): number {
     const { children } = this.props;
     return React.Children.count(children);
   }
 
-  parentRef = React.createRef();
+  parentRef = React.createRef<HTMLDivElement>();
 
-  startDragging = (index) => (event) => {
+  startDragging = (index: number) => (
+    event: React.MouseEvent<HTMLDivElement, MouseEvent>,
+  ): void => {
     const { sizes } = this.state;
     const { minSize, orientation } = this.props;
     const orientationConf = orientationMap[orientation];
+    if (!this.parentRef.current || sizes === null) return;
     const parentBox = this.parentRef.current.getBoundingClientRect();
     const parentSize = parentBox[orientationConf.adjustableDimension];
     const parentOffset = parentBox[orientationConf.offset];
@@ -93,84 +115,85 @@ class ResizableElements extends PureComponent {
     });
   };
 
-  drag = (event) => {
+  drag = (event: React.MouseEvent<HTMLDivElement, MouseEvent>): void => {
     // Get it out the event, to persist event property
     const { orientation } = this.props;
     const orientationConf = orientationMap[orientation];
     const clientLoc = event[orientationConf.clientPosition];
     this.setState(({ draggingMax, draggingMin, startDraggingAt }) => ({
-      draggingDiff: clip(clientLoc - startDraggingAt, draggingMin, draggingMax),
+      draggingDiff: clip(
+        clientLoc - (startDraggingAt ?? 0),
+        draggingMin,
+        draggingMax,
+      ),
     }));
   };
 
-  stopDragging = () => {
-    this.setState(
-      (
-        {
-          collapsedFirstElement,
-          collapsedLastElement,
-          draggingDiff,
-          draggingIndex,
-          sizes,
-        },
-        { minSize, orientation },
-      ) => {
-        const nbElements = this.getNumberOfElements();
-        const orientationConf = orientationMap[orientation];
-        const parentBox = this.parentRef.current.getBoundingClientRect();
-        const parentSize = parentBox[orientationConf.adjustableDimension];
-        const newSizes = [...sizes];
-        const diff = (draggingDiff / parentSize) * 100;
-        const minProportion = (minSize / parentSize) * 100;
-        if (draggingIndex === 0 && collapsedFirstElement) {
-          // uncollapse first element
-          newSizes[0] = minProportion + diff;
-          newSizes[1] = sizes[1] + sizes[0] - newSizes[0];
-        } else if (draggingIndex === nbElements - 2 && collapsedLastElement) {
-          // uncollapse last element
-          newSizes[draggingIndex + 1] = minProportion - diff;
-          newSizes[draggingIndex] =
-            sizes[draggingIndex] +
-            sizes[draggingIndex + 1] -
-            newSizes[draggingIndex + 1];
-        } else {
-          newSizes[draggingIndex] = sizes[draggingIndex] + diff;
-          newSizes[draggingIndex + 1] = sizes[draggingIndex + 1] - diff;
-        }
+  stopDragging = (): void => {
+    this.setState((prevState, { minSize, orientation }) => {
+      const {
+        collapsedFirstElement,
+        collapsedLastElement,
+        draggingDiff,
+        draggingIndex,
+        sizes,
+      } = prevState;
+      const nbElements = this.getNumberOfElements();
+      const orientationConf = orientationMap[orientation];
+      if (!this.parentRef.current || !sizes) return prevState;
+      const parentBox = this.parentRef.current.getBoundingClientRect();
+      const parentSize = parentBox[orientationConf.adjustableDimension];
+      const newSizes = [...sizes];
+      const diff = (draggingDiff / parentSize) * 100;
+      const minProportion = (minSize / parentSize) * 100;
+      if (draggingIndex === 0 && collapsedFirstElement) {
+        // uncollapse first element
+        newSizes[0] = minProportion + diff;
+        newSizes[1] = sizes[1] + sizes[0] - newSizes[0];
+      } else if (draggingIndex === nbElements - 2 && collapsedLastElement) {
+        // uncollapse last element
+        newSizes[draggingIndex + 1] = minProportion - diff;
+        newSizes[draggingIndex] =
+          sizes[draggingIndex] +
+          sizes[draggingIndex + 1] -
+          newSizes[draggingIndex + 1];
+      } else {
+        newSizes[draggingIndex] = sizes[draggingIndex] + diff;
+        newSizes[draggingIndex + 1] = sizes[draggingIndex + 1] - diff;
+      }
 
-        return {
-          collapsedFirstElement:
-            draggingIndex === 0
-              ? newSizes[0] <= minProportion
-              : collapsedFirstElement,
-          collapsedLastElement:
-            draggingIndex === nbElements - 2
-              ? newSizes[nbElements - 1] <= minProportion
-              : collapsedLastElement,
-          draggingDiff: 0,
-          draggingIndex: -1,
-          draggingMax: null,
-          draggingMin: null,
-          sizes: newSizes,
-          startDraggingAt: null,
-        };
-      },
-    );
+      return {
+        collapsedFirstElement:
+          draggingIndex === 0
+            ? newSizes[0] <= minProportion
+            : collapsedFirstElement,
+        collapsedLastElement:
+          draggingIndex === nbElements - 2
+            ? newSizes[nbElements - 1] <= minProportion
+            : collapsedLastElement,
+        draggingDiff: 0,
+        draggingIndex: -1,
+        draggingMax: undefined,
+        draggingMin: undefined,
+        sizes: newSizes,
+        startDraggingAt: undefined,
+      };
+    });
   };
 
-  toggleFirstElement = () => {
+  toggleFirstElement = (): void => {
     this.setState(({ collapsedFirstElement }) => ({
       collapsedFirstElement: !collapsedFirstElement,
     }));
   };
 
-  toggleLastElement = () => {
+  toggleLastElement = (): void => {
     this.setState(({ collapsedLastElement }) => ({
       collapsedLastElement: !collapsedLastElement,
     }));
   };
 
-  render() {
+  render(): React.ReactElement {
     const { collapsedFirstElement, collapsedLastElement, sizes } = this.state;
     const { children, minSize, orientation } = this.props;
     const orientationConf = orientationMap[orientation];
@@ -216,7 +239,7 @@ class ResizableElements extends PureComponent {
             const collapsed =
               (index === 0 && collapsedFirstElement) ||
               (index === nbChildren - 1 && collapsedLastElement);
-            if (collapsed) {
+            if (collapsed || !sizes) {
               sizePx = minSize;
             } else {
               sizePerc = sizes[index];
