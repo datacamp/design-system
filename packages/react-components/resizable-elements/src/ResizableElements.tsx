@@ -1,5 +1,5 @@
 import { css } from '@emotion/core';
-import React, { PureComponent } from 'react';
+import React, { useEffect } from 'react';
 
 import CollapseContext from './CollapseContext';
 
@@ -41,60 +41,43 @@ interface ResizeableElementsState {
   startDraggingAt?: number;
 }
 
-class ResizableElements extends PureComponent<
-  ResizableElementsProps,
-  ResizeableElementsState,
-  ResizeableElementsState
-> {
-  static defaultProps = {
-    children: null,
-    minSize: 30,
-    orientation: 'row',
-    proportions: null,
-  };
+const ResizableElements = ({
+  children = null,
+  minSize = 30,
+  orientation = 'row',
+  proportions,
+}: ResizableElementsProps): React.ReactElement => {
+  const [state, setState] = React.useState<ResizeableElementsState>({
+    collapsedFirstElement: false,
+    collapsedLastElement: false,
+    draggingDiff: 0,
+    draggingIndex: -1,
+    sizes: null,
+  });
 
-  constructor(props: ResizableElementsProps) {
-    super(props);
+  const nbChildren = React.Children.count(children);
 
-    this.state = {
-      collapsedFirstElement: false,
-      collapsedLastElement: false,
-      draggingDiff: 0,
-      draggingIndex: -1,
-      sizes: null,
-    };
-  }
-
-  componentWillMount(): void {
-    const { children, proportions } = this.props;
-    const nbChildren = this.getNumberOfElements();
+  useEffect(() => {
     const childWidth = 100 / nbChildren;
 
-    this.setState({
-      // TODO: Need to split in sizesPerc and sizesPx to remove calculations from render function.
-      //       This will also make auto-uncollapsing trivial.
+    setState({
+      ...state,
       sizes:
         proportions === null
           ? React.Children.map(children, () => childWidth) || null
           : proportions,
     });
-  }
+  }, [children, nbChildren, proportions, state]);
 
-  getNumberOfElements(): number {
-    const { children } = this.props;
-    return React.Children.count(children);
-  }
+  const parentRef = React.useRef<HTMLDivElement>(null);
 
-  parentRef = React.createRef<HTMLDivElement>();
-
-  startDragging = (index: number) => (
+  const startDragging = (index: number) => (
     event: React.MouseEvent<HTMLDivElement, MouseEvent>,
   ): void => {
-    const { sizes } = this.state;
-    const { minSize, orientation } = this.props;
+    const { sizes } = state;
     const orientationConf = orientationMap[orientation];
-    if (!this.parentRef.current || sizes === null) return;
-    const parentBox = this.parentRef.current.getBoundingClientRect();
+    if (!parentRef.current || sizes === null) return;
+    const parentBox = parentRef.current.getBoundingClientRect();
     const parentSize = parentBox[orientationConf.adjustableDimension];
     const parentOffset = parentBox[orientationConf.offset];
     let draggingMin = (-sizes[index] / 100) * parentSize;
@@ -106,7 +89,8 @@ class ResizableElements extends PureComponent<
     draggingMax -= minSize;
 
     // state is only used in later setState callbacks, and causes linter warnings due to https://github.com/yannickcr/eslint-plugin-react/issues/1697
-    this.setState({
+    setState({
+      ...state,
       draggingDiff: 0,
       draggingIndex: index,
       draggingMax,
@@ -115,22 +99,24 @@ class ResizableElements extends PureComponent<
     });
   };
 
-  drag = (event: React.MouseEvent<HTMLDivElement, MouseEvent>): void => {
-    // Get it out the event, to persist event property
-    const { orientation } = this.props;
+  const drag = (event: React.MouseEvent<HTMLDivElement, MouseEvent>): void => {
     const orientationConf = orientationMap[orientation];
     const clientLoc = event[orientationConf.clientPosition];
-    this.setState(({ draggingMax, draggingMin, startDraggingAt }) => ({
-      draggingDiff: clip(
-        clientLoc - (startDraggingAt ?? 0),
-        draggingMin,
-        draggingMax,
-      ),
-    }));
+    setState((oldState) => {
+      const { draggingMax, draggingMin, startDraggingAt } = oldState;
+      return {
+        ...oldState,
+        draggingDiff: clip(
+          clientLoc - (startDraggingAt ?? 0),
+          draggingMin,
+          draggingMax,
+        ),
+      };
+    });
   };
 
-  stopDragging = (): void => {
-    this.setState((prevState, { minSize, orientation }) => {
+  const stopDragging = (): void => {
+    setState((prevState) => {
       const {
         collapsedFirstElement,
         collapsedLastElement,
@@ -138,10 +124,9 @@ class ResizableElements extends PureComponent<
         draggingIndex,
         sizes,
       } = prevState;
-      const nbElements = this.getNumberOfElements();
       const orientationConf = orientationMap[orientation];
-      if (!this.parentRef.current || !sizes) return prevState;
-      const parentBox = this.parentRef.current.getBoundingClientRect();
+      if (!parentRef.current || !sizes) return prevState;
+      const parentBox = parentRef.current.getBoundingClientRect();
       const parentSize = parentBox[orientationConf.adjustableDimension];
       const newSizes = [...sizes];
       const diff = (draggingDiff / parentSize) * 100;
@@ -150,7 +135,7 @@ class ResizableElements extends PureComponent<
         // uncollapse first element
         newSizes[0] = minProportion + diff;
         newSizes[1] = sizes[1] + sizes[0] - newSizes[0];
-      } else if (draggingIndex === nbElements - 2 && collapsedLastElement) {
+      } else if (draggingIndex === nbChildren - 2 && collapsedLastElement) {
         // uncollapse last element
         newSizes[draggingIndex + 1] = minProportion - diff;
         newSizes[draggingIndex] =
@@ -168,8 +153,8 @@ class ResizableElements extends PureComponent<
             ? newSizes[0] <= minProportion
             : collapsedFirstElement,
         collapsedLastElement:
-          draggingIndex === nbElements - 2
-            ? newSizes[nbElements - 1] <= minProportion
+          draggingIndex === nbChildren - 2
+            ? newSizes[nbChildren - 1] <= minProportion
             : collapsedLastElement,
         draggingDiff: 0,
         draggingIndex: -1,
@@ -181,129 +166,127 @@ class ResizableElements extends PureComponent<
     });
   };
 
-  toggleFirstElement = (): void => {
-    this.setState(({ collapsedFirstElement }) => ({
-      collapsedFirstElement: !collapsedFirstElement,
+  const toggleFirstElement = (): void => {
+    setState((oldState) => ({
+      ...oldState,
+      collapsedFirstElement: !oldState.collapsedFirstElement,
     }));
   };
 
-  toggleLastElement = (): void => {
-    this.setState(({ collapsedLastElement }) => ({
-      collapsedLastElement: !collapsedLastElement,
+  const toggleLastElement = (): void => {
+    setState((oldState) => ({
+      ...oldState,
+      collapsedLastElement: !oldState.collapsedLastElement,
     }));
   };
 
-  render(): React.ReactElement {
-    const { collapsedFirstElement, collapsedLastElement, sizes } = this.state;
-    const { children, minSize, orientation } = this.props;
-    const orientationConf = orientationMap[orientation];
-    const nbChildren = this.getNumberOfElements();
-    const splitterCorrection = ((nbChildren - 1) * 5) / nbChildren;
+  const { collapsedFirstElement, collapsedLastElement, sizes } = state;
+  const orientationConf = orientationMap[orientation];
+  const splitterCorrection = ((nbChildren - 1) * 5) / nbChildren;
 
-    return (
-      <div
-        css={css({
-          height: '100%',
-          position: 'relative',
-          width: '100%',
-        })}
-        ref={this.parentRef}
+  return (
+    <div
+      css={css({
+        height: '100%',
+        position: 'relative',
+        width: '100%',
+      })}
+      ref={parentRef}
+    >
+      <CollapseContext.Provider
+        value={{
+          collapsedFirstElement,
+          collapsedLastElement,
+          toggleFirstElement,
+          toggleLastElement,
+        }}
       >
-        <CollapseContext.Provider
-          value={{
-            collapsedFirstElement,
-            collapsedLastElement,
-            toggleFirstElement: this.toggleFirstElement,
-            toggleLastElement: this.toggleLastElement,
-          }}
-        >
-          {this.state.draggingIndex !== -1 && (
-            <div
-              css={css({
-                background: 'transparent',
-                height: '100%',
-                left: 0,
-                position: 'fixed',
-                top: 0,
-                width: '100%',
-                zIndex: 100,
-              })}
-              onMouseMove={this.drag}
-              onMouseUp={this.stopDragging}
-              role="separator"
-            />
-          )}
-          {React.Children.map(children, (child, index) => {
-            let sizePerc = 0;
-            let sizePx = 0;
-            const collapsed =
-              (index === 0 && collapsedFirstElement) ||
-              (index === nbChildren - 1 && collapsedLastElement);
-            if (collapsed || !sizes) {
-              sizePx = minSize;
-            } else {
-              sizePerc = sizes[index];
-              if (index === 1 && collapsedFirstElement) {
-                sizePerc += sizes[index - 1];
-                sizePx -= minSize;
-              }
-              if (index === nbChildren - 2 && collapsedLastElement) {
-                sizePerc += sizes[index + 1];
-                sizePx -= minSize;
-              }
+        {state.draggingIndex !== -1 && (
+          <div
+            css={css({
+              background: 'transparent',
+              height: '100%',
+              left: 0,
+              position: 'fixed',
+              top: 0,
+              width: '100%',
+              zIndex: 100,
+            })}
+            onMouseMove={drag}
+            onMouseUp={stopDragging}
+            role="separator"
+          />
+        )}
+        {React.Children.map(children, (child, index) => {
+          let sizePerc = 0;
+          let sizePx = 0;
+          const collapsed =
+            (index === 0 && collapsedFirstElement) ||
+            (index === nbChildren - 1 && collapsedLastElement);
+          if (collapsed || !sizes) {
+            sizePx = minSize;
+          } else {
+            sizePerc = sizes[index];
+            if (index === 1 && collapsedFirstElement) {
+              sizePerc += sizes[index - 1];
+              sizePx -= minSize;
             }
-            return (
-              <React.Fragment>
+            if (index === nbChildren - 2 && collapsedLastElement) {
+              sizePerc += sizes[index + 1];
+              sizePx -= minSize;
+            }
+          }
+          return (
+            <React.Fragment>
+              <div
+                css={{
+                  float: 'left',
+                  overflow: 'hidden',
+                  [orientationConf.fixedDimension]: '100%',
+                  position: 'relative',
+                }}
+                style={{
+                  [orientationConf.adjustableDimension]: `calc(${sizePerc}% + ${
+                    sizePx - splitterCorrection
+                  }px)`,
+                }}
+              >
+                {child}
+              </div>
+              {index < nbChildren - 1 && (
                 <div
-                  css={{
-                    float: 'left',
-                    overflow: 'hidden',
-                    [orientationConf.fixedDimension]: '100%',
-                    position: 'relative',
-                  }}
+                  css={css(
+                    orientation === 'column' && {
+                      cursor: 'row-resize',
+                      height: 5,
+                      width: '100%',
+                    },
+                    orientation === 'row' && {
+                      cursor: 'col-resize',
+                      height: '100%',
+                      width: 5,
+                    },
+                    state.draggingIndex === index && {
+                      backgroundColor: '#e5e1da',
+                    },
+                    { ':hover': { backgroundColor: '#e5e1da' } },
+                  )}
+                  onMouseDown={startDragging(index)}
+                  role="separator"
                   style={{
-                    [orientationConf.adjustableDimension]: `calc(${sizePerc}% + ${
-                      sizePx - splitterCorrection
-                    }px)`,
+                    [orientationConf.adjustablePosition]:
+                      state.draggingIndex === index
+                        ? `${state.draggingDiff}px`
+                        : '0px',
                   }}
-                >
-                  {child}
-                </div>
-                {index < nbChildren - 1 && (
-                  <div
-                    css={css(
-                      orientation === 'column' && {
-                        cursor: 'row-resize',
-                        height: 5,
-                        width: '100%',
-                      },
-                      orientation === 'row' && {
-                        cursor: 'col-resize',
-                        height: '100%',
-                        width: 5,
-                      },
-                      this.state.draggingIndex === index && {
-                        backgroundColor: '#e5e1da',
-                      },
-                      { ':hover': { backgroundColor: '#e5e1da' } },
-                    )}
-                    onMouseDown={this.startDragging(index)}
-                    role="separator"
-                    style={{
-                      [orientationConf.adjustablePosition]:
-                        this.state.draggingIndex === index
-                          ? `${this.state.draggingDiff}px`
-                          : '0px',
-                    }}
-                  />
-                )}
-              </React.Fragment>
-            );
-          })}
-        </CollapseContext.Provider>
-      </div>
-    );
-  }
-}
+                />
+              )}
+            </React.Fragment>
+          );
+        })}
+      </CollapseContext.Provider>
+    </div>
+  );
+};
 
 export default ResizableElements;
