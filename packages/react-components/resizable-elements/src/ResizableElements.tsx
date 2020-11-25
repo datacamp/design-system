@@ -1,6 +1,6 @@
 import { css } from '@emotion/core';
 import _ from 'lodash';
-import React, { useCallback, useEffect, useState } from 'react';
+import React, { useCallback, useState } from 'react';
 
 import CollapseContext from './CollapseContext';
 
@@ -26,9 +26,9 @@ const orientationMap = {
 
 interface ResizableElementsProps {
   children: React.ReactNode;
-  minSize: number;
+  minSize?: number;
   orientation: 'row' | 'column';
-  proportions: number[];
+  proportions?: number[];
 }
 
 const ResizableElements = ({
@@ -171,6 +171,8 @@ const ResizableElements = ({
   return (
     <div
       css={css({
+        display: 'flex',
+        flexDirection: orientation,
         height: '100%',
         position: 'relative',
         width: '100%',
@@ -207,7 +209,7 @@ const ResizableElements = ({
           const collapsed =
             (index === 0 && collapsedFirstElement) ||
             (index === nbChildren - 1 && collapsedLastElement);
-          if (collapsed || !sizes) {
+          if (collapsed) {
             sizePx = minSize;
           } else {
             sizePerc = sizes[index];

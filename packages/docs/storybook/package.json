@@ -26,6 +26,7 @@
     "@datacamp/waffles-markdown": "^3.1.1",
     "@datacamp/waffles-modals": "^6.1.1",
     "@datacamp/waffles-positioner": "^1.1.1",
+    "@datacamp/waffles-resizable-elements": "^0.1.0",
     "@datacamp/waffles-tag": "^2.0.0",
     "@datacamp/waffles-text": "^4.1.1",
     "@datacamp/waffles-toast": "^2.1.1",
