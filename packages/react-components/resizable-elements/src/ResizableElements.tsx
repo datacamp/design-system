@@ -1,5 +1,6 @@
 import { css } from '@emotion/core';
-import React, { useEffect } from 'react';
+import _ from 'lodash';
+import React, { useCallback, useEffect, useState } from 'react';
 
 import CollapseContext from './CollapseContext';
 
@@ -30,158 +31,141 @@ interface ResizableElementsProps {
   proportions: number[];
 }
 
-interface ResizeableElementsState {
-  collapsedFirstElement: boolean;
-  collapsedLastElement: boolean;
-  draggingDiff: number;
-  draggingIndex: number;
-  draggingMax?: number;
-  draggingMin?: number;
-  sizes: number[] | null;
-  startDraggingAt?: number;
-}
-
 const ResizableElements = ({
   children = null,
   minSize = 30,
   orientation = 'row',
   proportions,
 }: ResizableElementsProps): React.ReactElement => {
-  const [state, setState] = React.useState<ResizeableElementsState>({
-    collapsedFirstElement: false,
-    collapsedLastElement: false,
-    draggingDiff: 0,
-    draggingIndex: -1,
-    sizes: null,
-  });
+  const [collapsedFirstElement, setCollapsedFirstElement] = useState(false);
+  const [collapsedLastElement, setCollapsedLastElement] = useState(false);
+  const [draggingState, setDraggingState] = React.useState<{
+    draggingDiff: number;
+    draggingIndex: number;
+    draggingMax: number;
+    draggingMin: number;
+    startDraggingAt: number;
+  } | null>(null);
 
   const nbChildren = React.Children.count(children);
 
-  useEffect(() => {
-    const childWidth = 100 / nbChildren;
-
-    setState({
-      ...state,
-      sizes:
-        proportions === null
-          ? React.Children.map(children, () => childWidth) || null
-          : proportions,
-    });
-  }, [children, nbChildren, proportions, state]);
+  const [sizes, setSizes] = useState(() => {
+    return proportions || _.times(nbChildren, () => 100 / nbChildren);
+  });
 
   const parentRef = React.useRef<HTMLDivElement>(null);
+  const orientationConf = orientationMap[orientation];
 
-  const startDragging = (index: number) => (
-    event: React.MouseEvent<HTMLDivElement, MouseEvent>,
-  ): void => {
-    const { sizes } = state;
-    const orientationConf = orientationMap[orientation];
-    if (!parentRef.current || sizes === null) return;
-    const parentBox = parentRef.current.getBoundingClientRect();
-    const parentSize = parentBox[orientationConf.adjustableDimension];
-    const parentOffset = parentBox[orientationConf.offset];
-    let draggingMin = (-sizes[index] / 100) * parentSize;
-    let draggingMax = sizes[index + 1]
-      ? (sizes[index + 1] / 100) * parentSize
-      : event[orientationConf.clientPosition] - (parentOffset + parentSize);
-
-    draggingMin += minSize;
-    draggingMax -= minSize;
-
-    // state is only used in later setState callbacks, and causes linter warnings due to https://github.com/yannickcr/eslint-plugin-react/issues/1697
-    setState({
-      ...state,
-      draggingDiff: 0,
-      draggingIndex: index,
-      draggingMax,
-      draggingMin,
-      startDraggingAt: event[orientationConf.clientPosition],
-    });
-  };
-
-  const drag = (event: React.MouseEvent<HTMLDivElement, MouseEvent>): void => {
-    const orientationConf = orientationMap[orientation];
-    const clientLoc = event[orientationConf.clientPosition];
-    setState((oldState) => {
-      const { draggingMax, draggingMin, startDraggingAt } = oldState;
-      return {
-        ...oldState,
-        draggingDiff: clip(
-          clientLoc - (startDraggingAt ?? 0),
-          draggingMin,
-          draggingMax,
-        ),
-      };
-    });
-  };
-
-  const stopDragging = (): void => {
-    setState((prevState) => {
-      const {
-        collapsedFirstElement,
-        collapsedLastElement,
-        draggingDiff,
-        draggingIndex,
-        sizes,
-      } = prevState;
-      const orientationConf = orientationMap[orientation];
-      if (!parentRef.current || !sizes) return prevState;
+  const startDragging = useCallback(
+    (index: number) => (
+      event: React.MouseEvent<HTMLDivElement, MouseEvent>,
+    ): void => {
+      if (!parentRef.current || sizes === null) return;
       const parentBox = parentRef.current.getBoundingClientRect();
       const parentSize = parentBox[orientationConf.adjustableDimension];
-      const newSizes = [...sizes];
-      const diff = (draggingDiff / parentSize) * 100;
-      const minProportion = (minSize / parentSize) * 100;
-      if (draggingIndex === 0 && collapsedFirstElement) {
-        // uncollapse first element
-        newSizes[0] = minProportion + diff;
-        newSizes[1] = sizes[1] + sizes[0] - newSizes[0];
-      } else if (draggingIndex === nbChildren - 2 && collapsedLastElement) {
-        // uncollapse last element
-        newSizes[draggingIndex + 1] = minProportion - diff;
-        newSizes[draggingIndex] =
-          sizes[draggingIndex] +
-          sizes[draggingIndex + 1] -
-          newSizes[draggingIndex + 1];
-      } else {
-        newSizes[draggingIndex] = sizes[draggingIndex] + diff;
-        newSizes[draggingIndex + 1] = sizes[draggingIndex + 1] - diff;
-      }
+      const parentOffset = parentBox[orientationConf.offset];
+      let draggingMin = (-sizes[index] / 100) * parentSize;
+      let draggingMax = sizes[index + 1]
+        ? (sizes[index + 1] / 100) * parentSize
+        : event[orientationConf.clientPosition] - (parentOffset + parentSize);
 
-      return {
-        collapsedFirstElement:
-          draggingIndex === 0
-            ? newSizes[0] <= minProportion
-            : collapsedFirstElement,
-        collapsedLastElement:
-          draggingIndex === nbChildren - 2
-            ? newSizes[nbChildren - 1] <= minProportion
-            : collapsedLastElement,
+      draggingMin += minSize;
+      draggingMax -= minSize;
+
+      setDraggingState({
         draggingDiff: 0,
-        draggingIndex: -1,
-        draggingMax: undefined,
-        draggingMin: undefined,
-        sizes: newSizes,
-        startDraggingAt: undefined,
-      };
-    });
-  };
+        draggingIndex: index,
+        draggingMax,
+        draggingMin,
+        startDraggingAt: event[orientationConf.clientPosition],
+      });
+    },
+    [
+      minSize,
+      orientationConf.adjustableDimension,
+      orientationConf.clientPosition,
+      orientationConf.offset,
+      sizes,
+    ],
+  );
 
-  const toggleFirstElement = (): void => {
-    setState((oldState) => ({
-      ...oldState,
-      collapsedFirstElement: !oldState.collapsedFirstElement,
-    }));
-  };
+  const drag = useCallback(
+    (event: React.MouseEvent<HTMLDivElement, MouseEvent>): void => {
+      const clientLoc = event[orientationConf.clientPosition];
+      setDraggingState((oldState) => {
+        if (!oldState) return oldState;
+        const { draggingMax, draggingMin, startDraggingAt } = oldState;
+        return {
+          ...oldState,
+          draggingDiff: clip(
+            clientLoc - (startDraggingAt ?? 0),
+            draggingMin,
+            draggingMax,
+          ),
+        };
+      });
+    },
+    [orientationConf.clientPosition],
+  );
 
-  const toggleLastElement = (): void => {
-    setState((oldState) => ({
-      ...oldState,
-      collapsedLastElement: !oldState.collapsedLastElement,
-    }));
-  };
+  const stopDragging = useCallback((): void => {
+    if (!draggingState) return;
+    const { draggingDiff, draggingIndex } = draggingState;
+    if (!parentRef.current) return;
+    const parentBox = parentRef.current.getBoundingClientRect();
+    const parentSize = parentBox[orientationConf.adjustableDimension];
+    const newSizes = [...sizes];
+    const diff = (draggingDiff / parentSize) * 100;
+    const minProportion = (minSize / parentSize) * 100;
+    if (draggingIndex === 0 && collapsedFirstElement) {
+      // uncollapse first element
+      newSizes[0] = minProportion + diff;
+      newSizes[1] = sizes[1] + sizes[0] - newSizes[0];
+    } else if (draggingIndex === nbChildren - 2 && collapsedLastElement) {
+      // uncollapse last element
+      newSizes[draggingIndex + 1] = minProportion - diff;
+      newSizes[draggingIndex] =
+        sizes[draggingIndex] +
+        sizes[draggingIndex + 1] -
+        newSizes[draggingIndex + 1];
+    } else {
+      newSizes[draggingIndex] = sizes[draggingIndex] + diff;
+      newSizes[draggingIndex + 1] = sizes[draggingIndex + 1] - diff;
+    }
 
-  const { collapsedFirstElement, collapsedLastElement, sizes } = state;
-  const orientationConf = orientationMap[orientation];
+    setCollapsedFirstElement(
+      draggingIndex === 0
+        ? newSizes[0] <= minProportion
+        : collapsedFirstElement,
+    );
+
+    setCollapsedLastElement(
+      draggingIndex === nbChildren - 2
+        ? newSizes[nbChildren - 1] <= minProportion
+        : collapsedLastElement,
+    );
+
+    setSizes(newSizes);
+
+    setDraggingState(null);
+  }, [
+    collapsedFirstElement,
+    collapsedLastElement,
+    draggingState,
+    minSize,
+    nbChildren,
+    orientationConf.adjustableDimension,
+    sizes,
+  ]);
+
+  const toggleFirstElement = useCallback((): void => {
+    setCollapsedFirstElement((prev) => !prev);
+  }, []);
+
+  const toggleLastElement = useCallback((): void => {
+    setCollapsedLastElement((prev) => !prev);
+  }, []);
+
   const splitterCorrection = ((nbChildren - 1) * 5) / nbChildren;
 
   return (
@@ -201,7 +185,7 @@ const ResizableElements = ({
           toggleLastElement,
         }}
       >
-        {state.draggingIndex !== -1 && (
+        {draggingState && (
           <div
             css={css({
               background: 'transparent',
@@ -266,17 +250,18 @@ const ResizableElements = ({
                       height: '100%',
                       width: 5,
                     },
-                    state.draggingIndex === index && {
-                      backgroundColor: '#e5e1da',
-                    },
+                    draggingState &&
+                      draggingState.draggingIndex === index && {
+                        backgroundColor: '#e5e1da',
+                      },
                     { ':hover': { backgroundColor: '#e5e1da' } },
                   )}
                   onMouseDown={startDragging(index)}
                   role="separator"
                   style={{
                     [orientationConf.adjustablePosition]:
-                      state.draggingIndex === index
-                        ? `${state.draggingDiff}px`
+                      draggingState && draggingState.draggingIndex === index
+                        ? `${draggingState.draggingDiff}px`
                         : '0px',
                   }}
                 />
