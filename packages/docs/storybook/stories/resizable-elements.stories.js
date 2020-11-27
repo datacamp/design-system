@@ -1,3 +1,4 @@
+/* eslint-disable sonarjs/no-identical-functions */
 import ResizableElements, {
   CollapseContext,
 } from '@datacamp/waffles-resizable-elements';
