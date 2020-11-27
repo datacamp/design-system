@@ -1,10 +1,9 @@
 import { css } from '@emotion/core';
 import _ from 'lodash';
-import React, { useCallback, useReducer } from 'react';
+import React, { useCallback } from 'react';
 
 import calculateSizes from './calculateSizes';
 import CollapseContext from './CollapseContext';
-import FixedLengthArray from './FixedLengthArray';
 import reducer from './reducer';
 
 const orientationMap = {
@@ -24,20 +23,20 @@ const orientationMap = {
   },
 } as const;
 
-interface ResizableElementsProps<L extends number> {
-  children: FixedLengthArray<React.ReactNode, L>;
+interface ResizableElementsProps {
+  children: React.ReactNode[];
   minSize?: number;
   orientation: 'row' | 'column';
-  proportions?: FixedLengthArray<number, L>;
+  proportions?: number[];
 }
 
-const ResizableElements = <L extends number>({
+const ResizableElements = ({
   children,
   minSize = 30,
   orientation = 'row',
   proportions,
-}: ResizableElementsProps<L>): React.ReactElement => {
-  const nbChildren = React.Children.count(children) as L;
+}: ResizableElementsProps): React.ReactElement => {
+  const nbChildren = React.Children.count(children);
 
   const [
     {
@@ -47,17 +46,13 @@ const ResizableElements = <L extends number>({
       sizePercentages,
     },
     dispatch,
-  ] = useReducer(reducer, {
+  ] = React.useReducer(reducer, {
     collapsedFirstElement: false,
     collapsedLastElement: false,
     draggingState: null,
     minSize,
     sizePercentages:
-      proportions ||
-      (_.times(nbChildren, () => 100 / nbChildren) as FixedLengthArray<
-        number,
-        L
-      >),
+      proportions || (_.times(nbChildren, () => 100 / nbChildren) as number[]),
   });
 
   const containerRef = React.useRef<HTMLDivElement>(null);
@@ -115,8 +110,6 @@ const ResizableElements = <L extends number>({
   const toggleLastElement = useCallback((): void => {
     dispatch({ type: 'toggleLastElement' });
   }, []);
-
-  console.log(sizePercentages);
 
   const sizes = calculateSizes(
     sizePercentages,

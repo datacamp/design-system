@@ -1,11 +1,9 @@
-import FixedLengthArray from './FixedLengthArray';
-
-const calculateSizes = <L extends number>(
-  sizePercentages: FixedLengthArray<number, L>,
+const calculateSizes = (
+  sizePercentages: number[],
   collapsedFirstElement: boolean,
   collapsedLastElement: boolean,
   minSize: number,
-): FixedLengthArray<string, L> => {
+): string[] => {
   const nbChildren = sizePercentages.length;
   const splitterCorrection = ((nbChildren - 1) * 5) / nbChildren;
 

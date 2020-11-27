@@ -1,6 +1,4 @@
-import FixedLengthArray from './FixedLengthArray';
-
-interface State<L extends number> {
+interface State {
   collapsedFirstElement: boolean;
   collapsedLastElement: boolean;
   draggingState: {
@@ -11,12 +9,10 @@ interface State<L extends number> {
     startDraggingAt: number;
   } | null;
   minSize: number;
-  sizePercentages: FixedLengthArray<number, L>;
-
-  sizeValues?(): FixedLengthArray<string, L>;
+  sizePercentages: number[];
 }
 
-type Action<L extends number> =
+type Action =
   | {
       type: 'toggleFirstElement';
     }
@@ -24,7 +20,7 @@ type Action<L extends number> =
   | { clientLoc: number; type: 'dragUpdate' }
   | { parentSize: number; type: 'stopDragging' }
   | {
-      index: L;
+      index: number;
       parentOffset: number;
       parentSize: number;
       startPosition: number;
@@ -34,10 +30,7 @@ type Action<L extends number> =
 const clip = (value: number, min = 0, max = Infinity): number =>
   Math.min(Math.max(value, min), max);
 
-const reducer = <L extends number>(
-  state: State<L>,
-  action: Action<L>,
-): State<L> => {
+const reducer = (state: State, action: Action): State => {
   switch (action.type) {
     case 'toggleFirstElement':
       return { ...state, collapsedFirstElement: !state.collapsedFirstElement };
@@ -46,8 +39,10 @@ const reducer = <L extends number>(
       return { ...state, collapsedLastElement: !state.collapsedLastElement };
 
     case 'startDragging': {
-      const { minSize, sizePercentages } = state;
+      const { draggingState, minSize, sizePercentages } = state;
       const { index, parentOffset, parentSize, startPosition } = action;
+
+      if (draggingState) throw new Error('Already dragging');
 
       let draggingMin = (-sizePercentages[index] / 100) * parentSize;
       let draggingMax = sizePercentages[index + 1]
@@ -117,6 +112,8 @@ const reducer = <L extends number>(
         nextElementBaseSize = sizePercentages[draggingIndex + 1];
       }
 
+      const newSizes = [...sizePercentages];
+
       const newDraggingElementSize =
         draggingElementBaseSize +
         sizePercentages[draggingIndex + 1] -
@@ -129,6 +126,9 @@ const reducer = <L extends number>(
         draggingElementBaseSize -
         diff;
 
+      newSizes[draggingIndex] = newDraggingElementSize;
+      newSizes[draggingIndex + 1] = newNextElementSize;
+
       return {
         ...state,
         collapsedFirstElement:
@@ -137,11 +137,7 @@ const reducer = <L extends number>(
           draggingIndex === nbChildren - 2 &&
           newNextElementSize <= minProportion,
         draggingState: null,
-        sizePercentages: sizePercentages.map((sizePercentage, index) => {
-          if (index === draggingIndex) return newDraggingElementSize;
-          if (index === draggingIndex + 1) return newNextElementSize;
-          return sizePercentage;
-        }),
+        sizePercentages: newSizes,
       };
     }
 
