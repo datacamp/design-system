@@ -71,6 +71,13 @@ export default {
       title: 'Modals',
     },
     {
+      content: pageLoader(() =>
+        import('../../pages/componentLibrary/resizable-elements.js'),
+      ),
+      path: '/component-library/resizable-elements',
+      title: 'Resizable Elements',
+    },
+    {
       content: pageLoader(() => import('../../pages/componentLibrary/text.js')),
       path: '/component-library/text',
       title: 'Text',
