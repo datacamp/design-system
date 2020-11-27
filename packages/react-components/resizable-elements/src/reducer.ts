@@ -1,14 +1,33 @@
 interface State {
   collapsedFirstElement: boolean;
   collapsedLastElement: boolean;
-  draggingState: {
+  collapsedSize: number;
+  /**
+   * draggingState only exists while dragging.
+   * It contains all the information about the current "resizing"
+   */
+  draggingState?: {
+    /**
+     * The current number of pixels change in size to the element being resized
+     */
     draggingDiff: number;
+    /**
+     * The maximum possible draggingDiff value
+     */
+    draggingDiffMax: number;
+    /**
+     * The minimum possible draggingDiff value
+     */
+    draggingDiffMin: number;
+    /**
+     * The element currently being resized
+     */
     draggingIndex: number;
-    draggingMax: number;
-    draggingMin: number;
+    /**
+     * The initial position before the resize was started
+     */
     startDraggingAt: number;
-  } | null;
-  minSize: number;
+  };
   sizePercentages: number[];
 }
 
@@ -30,6 +49,11 @@ type Action =
 const clip = (value: number, min = 0, max = Infinity): number =>
   Math.min(Math.max(value, min), max);
 
+/**
+ * The reducer only stores proportions, and is independant of location.
+ * The orientation etc. is handled by the component itself.
+ * This means that pixel values are temporarily only needed for calculation, and come in through actions.
+ */
 const reducer = (state: State, action: Action): State => {
   switch (action.type) {
     case 'toggleFirstElement':
@@ -38,59 +62,69 @@ const reducer = (state: State, action: Action): State => {
     case 'toggleLastElement':
       return { ...state, collapsedLastElement: !state.collapsedLastElement };
 
+    // Initialises the draggingState based on current offsets and sizes.
     case 'startDragging': {
-      const { draggingState, minSize, sizePercentages } = state;
+      const { collapsedSize, draggingState, sizePercentages } = state;
       const { index, parentOffset, parentSize, startPosition } = action;
 
       if (draggingState) throw new Error('Already dragging');
 
-      let draggingMin = (-sizePercentages[index] / 100) * parentSize;
-      let draggingMax = sizePercentages[index + 1]
+      let draggingDiffMin = (-sizePercentages[index] / 100) * parentSize;
+      let draggingDiffMax = sizePercentages[index + 1]
         ? (sizePercentages[index + 1] / 100) * parentSize
         : startPosition - (parentOffset + parentSize);
 
-      draggingMin += minSize;
-      draggingMax -= minSize;
+      draggingDiffMin += collapsedSize;
+      draggingDiffMax -= collapsedSize;
 
       return {
         ...state,
         draggingState: {
           draggingDiff: 0,
+          draggingDiffMax,
+          draggingDiffMin,
           draggingIndex: index,
-          draggingMax,
-          draggingMin,
           startDraggingAt: startPosition,
         },
       };
     }
 
+    // Only updates draggingDiff value
     case 'dragUpdate': {
       const { draggingState } = state;
       if (!draggingState)
         throw new Error('Cannot fire dragUpdate without starting to drag');
 
-      const { draggingMax, draggingMin, startDraggingAt } = draggingState;
+      const {
+        draggingDiffMax,
+        draggingDiffMin,
+        startDraggingAt,
+      } = draggingState;
+
+      const currentDraggingDiff = action.clientLoc - startDraggingAt;
 
       return {
         ...state,
         draggingState: {
           ...draggingState,
           draggingDiff: clip(
-            action.clientLoc - startDraggingAt,
-            draggingMin,
-            draggingMax,
+            currentDraggingDiff,
+            draggingDiffMin,
+            draggingDiffMax,
           ),
         },
       };
     }
 
+    // Calculates new sizeProportions etc. based on last recorded draggingState
     case 'stopDragging': {
       const { draggingState } = state;
       if (!draggingState)
         throw new Error('Cannot fire stopDragging without starting to drag');
 
-      const diff = (draggingState.draggingDiff / action.parentSize) * 100;
-      const minProportion = (state.minSize / action.parentSize) * 100;
+      const diffPercentage =
+        (draggingState.draggingDiff / action.parentSize) * 100;
+      const minProportion = (state.collapsedSize / action.parentSize) * 100;
 
       const { draggingIndex } = draggingState;
       const { sizePercentages } = state;
@@ -118,13 +152,13 @@ const reducer = (state: State, action: Action): State => {
         draggingElementBaseSize +
         sizePercentages[draggingIndex + 1] -
         nextElementBaseSize +
-        diff;
+        diffPercentage;
 
       const newNextElementSize =
         nextElementBaseSize +
         sizePercentages[draggingIndex] -
         draggingElementBaseSize -
-        diff;
+        diffPercentage;
 
       newSizes[draggingIndex] = newDraggingElementSize;
       newSizes[draggingIndex + 1] = newNextElementSize;
@@ -136,7 +170,7 @@ const reducer = (state: State, action: Action): State => {
         collapsedLastElement:
           draggingIndex === nbChildren - 2 &&
           newNextElementSize <= minProportion,
-        draggingState: null,
+        draggingState: undefined,
         sizePercentages: newSizes,
       };
     }

@@ -4,8 +4,7 @@ describe('reducer', () => {
   const initialStateWithoutDragging = {
     collapsedFirstElement: false,
     collapsedLastElement: false,
-    draggingState: null,
-    minSize: 50,
+    collapsedSize: 50,
     sizePercentages: [25, 25, 25, 25],
   };
 
@@ -13,9 +12,9 @@ describe('reducer', () => {
     ...initialStateWithoutDragging,
     draggingState: {
       draggingDiff: 10,
+      draggingDiffMax: 100,
+      draggingDiffMin: 5,
       draggingIndex: 2,
-      draggingMax: 100,
-      draggingMin: 5,
       startDraggingAt: 300,
     },
   };
@@ -62,9 +61,9 @@ describe('reducer', () => {
         ...initialStateWithoutDragging,
         draggingState: {
           draggingDiff: 0,
+          draggingDiffMax: 75,
+          draggingDiffMin: -75,
           draggingIndex: 1,
-          draggingMax: 75,
-          draggingMin: -75,
           startDraggingAt: 100,
         },
       });
@@ -116,8 +115,7 @@ describe('reducer', () => {
       ).toEqual({
         collapsedFirstElement: false,
         collapsedLastElement: false,
-        draggingState: null,
-        minSize: 50,
+        collapsedSize: 50,
         sizePercentages: [25, 25, 26, 24],
       });
     });

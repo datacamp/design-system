@@ -24,17 +24,31 @@ const orientationMap = {
 } as const;
 
 interface ResizableElementsProps {
+  /**
+   * The elements to make "resizable". They will each be rendered inside a div that can change in size.
+   */
   children: React.ReactNode[];
-  minSize?: number;
+  /**
+   * The size of a "collapsed" element in pixels.
+   */
+  collapsedSize?: number;
+  /**
+   * An array of percentage values. This should be the same length as the number of elements.
+   * This determines the initial sizes of the elements. When not provided the elements will
+   * default to equal sizes.
+   */
+  initialProportions?: number[];
+  /**
+   * The layout of the child elements.
+   */
   orientation: 'row' | 'column';
-  proportions?: number[];
 }
 
 const ResizableElements = ({
   children,
-  minSize = 30,
+  collapsedSize = 30,
+  initialProportions,
   orientation = 'row',
-  proportions,
 }: ResizableElementsProps): React.ReactElement => {
   const nbChildren = React.Children.count(children);
 
@@ -49,10 +63,10 @@ const ResizableElements = ({
   ] = React.useReducer(reducer, {
     collapsedFirstElement: false,
     collapsedLastElement: false,
-    draggingState: null,
-    minSize,
+    collapsedSize,
     sizePercentages:
-      proportions || (_.times(nbChildren, () => 100 / nbChildren) as number[]),
+      initialProportions ||
+      (_.times(nbChildren, () => 100 / nbChildren) as number[]),
   });
 
   const containerRef = React.useRef<HTMLDivElement>(null);
@@ -115,7 +129,7 @@ const ResizableElements = ({
     sizePercentages,
     collapsedFirstElement,
     collapsedLastElement,
-    minSize,
+    collapsedSize,
   );
 
   return (
