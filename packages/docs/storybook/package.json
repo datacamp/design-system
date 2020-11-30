@@ -34,7 +34,7 @@
     "@emotion/core": "10.0.17",
     "@storybook/addon-knobs": "6.0.28",
     "@storybook/react": "5.2.8",
-    "cypress": "^5.5.0",
+    "cypress": "^6.0.0",
     "react": "17.0.1",
     "react-dom": "16.8.6"
   },
