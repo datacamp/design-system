@@ -1,7 +1,7 @@
 import axeRender from '@datacamp/waffles-axe-render';
 import React from 'react';
 
-import Positioner from './index';
+import Positioner from './Positioner';
 
 describe('Positioner', () => {
   ([
