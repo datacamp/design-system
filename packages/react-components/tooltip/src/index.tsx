@@ -1,6 +1,6 @@
 /* eslint-disable filenames/match-exported */
 import Card from '@datacamp/waffles-card';
-import Positioner from '@datacamp/waffles-positioner';
+import { usePositioner } from '@datacamp/waffles-positioner';
 import { Text } from '@datacamp/waffles-text';
 import tokens from '@datacamp/waffles-tokens/lib/future-tokens.json';
 import { css } from '@emotion/core';
@@ -45,17 +45,6 @@ interface TooltipProps {
   visible: boolean;
 }
 
-const marginMap = {
-  bottom: css({ marginTop: tokens.size.space[8].value }),
-  bottomLeft: css({ marginTop: tokens.size.space[8].value }),
-  bottomRight: css({ marginTop: tokens.size.space[8].value }),
-  left: css({ marginRight: tokens.size.space[8].value }),
-  right: css({ marginLeft: tokens.size.space[8].value }),
-  top: css({ marginBottom: tokens.size.space[8].value }),
-  topLeft: css({ marginBottom: tokens.size.space[8].value }),
-  topRight: css({ marginBottom: tokens.size.space[8].value }),
-};
-
 const cardStyles = {
   dark: css({
     backgroundColor: tokens.color.primary.navy.value.hex,
@@ -81,36 +70,38 @@ const Tooltip = ({
   target,
   visible,
 }: TooltipProps): ReactElement | null => {
+  const positionStyle = usePositioner({ offset: 8, position, target });
+
+  if (!visible) return null;
+
   return (
-    <Positioner position={position} target={target} visible={visible}>
-      <Card
+    <Card
+      css={css(
+        positionStyle,
+        {
+          paddingBottom: tokens.size.space[8].value,
+          paddingLeft: tokens.size.space[12].value,
+          paddingRight: tokens.size.space[12].value,
+          paddingTop: tokens.size.space[8].value,
+          zIndex: 1,
+        },
+        cardStyles[appearance],
+      )}
+      elevation={elevations[appearance]}
+      id={id}
+    >
+      <Text
         css={css(
           {
-            paddingBottom: tokens.size.space[8].value,
-            paddingLeft: tokens.size.space[12].value,
-            paddingRight: tokens.size.space[12].value,
-            paddingTop: tokens.size.space[8].value,
-            zIndex: 1,
+            fontSize: tokens.size.font[200].value,
+            whiteSpace: 'nowrap',
           },
-          marginMap[position],
-          cardStyles[appearance],
+          textStyles[appearance],
         )}
-        elevation={elevations[appearance]}
-        id={id}
       >
-        <Text
-          css={css(
-            {
-              fontSize: tokens.size.font[200].value,
-              whiteSpace: 'nowrap',
-            },
-            textStyles[appearance],
-          )}
-        >
-          {children}
-        </Text>
-      </Card>
-    </Positioner>
+        {children}
+      </Text>
+    </Card>
   );
 };
 
