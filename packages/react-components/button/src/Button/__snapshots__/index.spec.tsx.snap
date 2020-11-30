@@ -16039,28 +16039,23 @@ exports[`<Button /> tooltips tooltip appearance snapshots renders a tooltip with
   font-weight: bold;
 }
 
-.emotion-4 {
-  position: fixed;
-  z-index: 1;
-  left: 0;
-  top: 0;
-  -webkit-transform: translate(-50%,0);
-  -ms-transform: translate(-50%,0);
-  transform: translate(-50%,0);
-}
-
 .emotion-3 {
   background-color: rgb(255,255,255);
   border-radius: 4px;
   box-shadow: 0 0 0 1px rgba(5,25,45,0.1);
   -webkit-transition: all 0.6s cubic-bezier(0.075,0.82,0.165,1);
   transition: all 0.6s cubic-bezier(0.075,0.82,0.165,1);
+  position: fixed;
+  left: 0;
+  top: 8px;
+  -webkit-transform: translate(-50%,0);
+  -ms-transform: translate(-50%,0);
+  transform: translate(-50%,0);
   padding-bottom: 8px;
   padding-left: 12px;
   padding-right: 12px;
   padding-top: 8px;
   z-index: 1;
-  margin-top: 8px;
   background-color: #05192d;
   box-shadow: none;
 }
@@ -16091,18 +16086,14 @@ exports[`<Button /> tooltips tooltip appearance snapshots renders a tooltip with
       </span>
     </button>
     <div
-      class="emotion-4"
+      class="emotion-3"
+      id="mock-id"
     >
-      <div
-        class="emotion-3"
-        id="mock-id"
+      <span
+        class="emotion-2"
       >
-        <span
-          class="emotion-2"
-        >
-          tooltip text
-        </span>
-      </div>
+        tooltip text
+      </span>
     </div>
   </div>
 </body>
@@ -16178,28 +16169,23 @@ exports[`<Button /> tooltips tooltip appearance snapshots renders a tooltip with
   font-weight: bold;
 }
 
-.emotion-4 {
-  position: fixed;
-  z-index: 1;
-  left: 0;
-  top: 0;
-  -webkit-transform: translate(-50%,0);
-  -ms-transform: translate(-50%,0);
-  transform: translate(-50%,0);
-}
-
 .emotion-3 {
   background-color: rgb(255,255,255);
   border-radius: 4px;
   box-shadow: 0px 0px 1px 0px rgba(5,25,45,0.3),0 2px 4px -1px rgba(5,25,45,0.3);
   -webkit-transition: all 0.6s cubic-bezier(0.075,0.82,0.165,1);
   transition: all 0.6s cubic-bezier(0.075,0.82,0.165,1);
+  position: fixed;
+  left: 0;
+  top: 8px;
+  -webkit-transform: translate(-50%,0);
+  -ms-transform: translate(-50%,0);
+  transform: translate(-50%,0);
   padding-bottom: 8px;
   padding-left: 12px;
   padding-right: 12px;
   padding-top: 8px;
   z-index: 1;
-  margin-top: 8px;
   background-color: #fffbf3;
 }
 
@@ -16229,18 +16215,14 @@ exports[`<Button /> tooltips tooltip appearance snapshots renders a tooltip with
       </span>
     </button>
     <div
-      class="emotion-4"
+      class="emotion-3"
+      id="mock-id"
     >
-      <div
-        class="emotion-3"
-        id="mock-id"
+      <span
+        class="emotion-2"
       >
-        <span
-          class="emotion-2"
-        >
-          tooltip text
-        </span>
-      </div>
+        tooltip text
+      </span>
     </div>
   </div>
 </body>
@@ -16316,28 +16298,23 @@ exports[`<Button /> tooltips tooltip appearance snapshots renders a tooltip with
   font-weight: bold;
 }
 
-.emotion-4 {
-  position: fixed;
-  z-index: 1;
-  left: 0;
-  top: 0;
-  -webkit-transform: translate(-50%,0);
-  -ms-transform: translate(-50%,0);
-  transform: translate(-50%,0);
-}
-
 .emotion-3 {
   background-color: rgb(255,255,255);
   border-radius: 4px;
   box-shadow: 0 0 0 1px rgba(5,25,45,0.1);
   -webkit-transition: all 0.6s cubic-bezier(0.075,0.82,0.165,1);
   transition: all 0.6s cubic-bezier(0.075,0.82,0.165,1);
+  position: fixed;
+  left: 0;
+  top: 8px;
+  -webkit-transform: translate(-50%,0);
+  -ms-transform: translate(-50%,0);
+  transform: translate(-50%,0);
   padding-bottom: 8px;
   padding-left: 12px;
   padding-right: 12px;
   padding-top: 8px;
   z-index: 1;
-  margin-top: 8px;
   background-color: #05192d;
   box-shadow: none;
 }
@@ -16368,18 +16345,14 @@ exports[`<Button /> tooltips tooltip appearance snapshots renders a tooltip with
       </span>
     </button>
     <div
-      class="emotion-4"
+      class="emotion-3"
+      id="mock-id"
     >
-      <div
-        class="emotion-3"
-        id="mock-id"
+      <span
+        class="emotion-2"
       >
-        <span
-          class="emotion-2"
-        >
-          tooltip text
-        </span>
-      </div>
+        tooltip text
+      </span>
     </div>
   </div>
 </body>
@@ -16455,28 +16428,23 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at b
   font-weight: bold;
 }
 
-.emotion-4 {
-  position: fixed;
-  z-index: 1;
-  left: 0;
-  top: 0;
-  -webkit-transform: translate(-50%,0);
-  -ms-transform: translate(-50%,0);
-  transform: translate(-50%,0);
-}
-
 .emotion-3 {
   background-color: rgb(255,255,255);
   border-radius: 4px;
   box-shadow: 0 0 0 1px rgba(5,25,45,0.1);
   -webkit-transition: all 0.6s cubic-bezier(0.075,0.82,0.165,1);
   transition: all 0.6s cubic-bezier(0.075,0.82,0.165,1);
+  position: fixed;
+  left: 0;
+  top: 8px;
+  -webkit-transform: translate(-50%,0);
+  -ms-transform: translate(-50%,0);
+  transform: translate(-50%,0);
   padding-bottom: 8px;
   padding-left: 12px;
   padding-right: 12px;
   padding-top: 8px;
   z-index: 1;
-  margin-top: 8px;
   background-color: #05192d;
   box-shadow: none;
 }
@@ -16507,18 +16475,14 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at b
       </span>
     </button>
     <div
-      class="emotion-4"
+      class="emotion-3"
+      id="mock-id"
     >
-      <div
-        class="emotion-3"
-        id="mock-id"
+      <span
+        class="emotion-2"
       >
-        <span
-          class="emotion-2"
-        >
-          tooltip text
-        </span>
-      </div>
+        tooltip text
+      </span>
     </div>
   </div>
 </body>
@@ -16606,25 +16570,20 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at b
   color: #ffffff;
 }
 
-.emotion-4 {
-  position: fixed;
-  z-index: 1;
-  left: 0;
-  top: 0;
-}
-
 .emotion-3 {
   background-color: rgb(255,255,255);
   border-radius: 4px;
   box-shadow: 0 0 0 1px rgba(5,25,45,0.1);
   -webkit-transition: all 0.6s cubic-bezier(0.075,0.82,0.165,1);
   transition: all 0.6s cubic-bezier(0.075,0.82,0.165,1);
+  position: fixed;
+  left: 0;
+  top: 8px;
   padding-bottom: 8px;
   padding-left: 12px;
   padding-right: 12px;
   padding-top: 8px;
   z-index: 1;
-  margin-top: 8px;
   background-color: #05192d;
   box-shadow: none;
 }
@@ -16643,18 +16602,14 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at b
       </span>
     </button>
     <div
-      class="emotion-4"
+      class="emotion-3"
+      id="mock-id"
     >
-      <div
-        class="emotion-3"
-        id="mock-id"
+      <span
+        class="emotion-2"
       >
-        <span
-          class="emotion-2"
-        >
-          tooltip text
-        </span>
-      </div>
+        tooltip text
+      </span>
     </div>
   </div>
 </body>
@@ -16742,28 +16697,23 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at b
   color: #ffffff;
 }
 
-.emotion-4 {
-  position: fixed;
-  z-index: 1;
-  left: 0;
-  top: 0;
-  -webkit-transform: translate(-100%);
-  -ms-transform: translate(-100%);
-  transform: translate(-100%);
-}
-
 .emotion-3 {
   background-color: rgb(255,255,255);
   border-radius: 4px;
   box-shadow: 0 0 0 1px rgba(5,25,45,0.1);
   -webkit-transition: all 0.6s cubic-bezier(0.075,0.82,0.165,1);
   transition: all 0.6s cubic-bezier(0.075,0.82,0.165,1);
+  position: fixed;
+  left: 0;
+  top: 8px;
+  -webkit-transform: translate(-100%);
+  -ms-transform: translate(-100%);
+  transform: translate(-100%);
   padding-bottom: 8px;
   padding-left: 12px;
   padding-right: 12px;
   padding-top: 8px;
   z-index: 1;
-  margin-top: 8px;
   background-color: #05192d;
   box-shadow: none;
 }
@@ -16782,18 +16732,14 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at b
       </span>
     </button>
     <div
-      class="emotion-4"
+      class="emotion-3"
+      id="mock-id"
     >
-      <div
-        class="emotion-3"
-        id="mock-id"
+      <span
+        class="emotion-2"
       >
-        <span
-          class="emotion-2"
-        >
-          tooltip text
-        </span>
-      </div>
+        tooltip text
+      </span>
     </div>
   </div>
 </body>
@@ -16881,28 +16827,23 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at l
   color: #ffffff;
 }
 
-.emotion-4 {
-  position: fixed;
-  z-index: 1;
-  left: 0;
-  top: 0;
-  -webkit-transform: translate(-100%,-50%);
-  -ms-transform: translate(-100%,-50%);
-  transform: translate(-100%,-50%);
-}
-
 .emotion-3 {
   background-color: rgb(255,255,255);
   border-radius: 4px;
   box-shadow: 0 0 0 1px rgba(5,25,45,0.1);
   -webkit-transition: all 0.6s cubic-bezier(0.075,0.82,0.165,1);
   transition: all 0.6s cubic-bezier(0.075,0.82,0.165,1);
+  position: fixed;
+  left: -8px;
+  top: 0;
+  -webkit-transform: translate(-100%,-50%);
+  -ms-transform: translate(-100%,-50%);
+  transform: translate(-100%,-50%);
   padding-bottom: 8px;
   padding-left: 12px;
   padding-right: 12px;
   padding-top: 8px;
   z-index: 1;
-  margin-right: 8px;
   background-color: #05192d;
   box-shadow: none;
 }
@@ -16921,18 +16862,14 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at l
       </span>
     </button>
     <div
-      class="emotion-4"
+      class="emotion-3"
+      id="mock-id"
     >
-      <div
-        class="emotion-3"
-        id="mock-id"
+      <span
+        class="emotion-2"
       >
-        <span
-          class="emotion-2"
-        >
-          tooltip text
-        </span>
-      </div>
+        tooltip text
+      </span>
     </div>
   </div>
 </body>
@@ -17020,28 +16957,23 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at r
   color: #ffffff;
 }
 
-.emotion-4 {
-  position: fixed;
-  z-index: 1;
-  left: 0;
-  top: 0;
-  -webkit-transform: translate(0,-50%);
-  -ms-transform: translate(0,-50%);
-  transform: translate(0,-50%);
-}
-
 .emotion-3 {
   background-color: rgb(255,255,255);
   border-radius: 4px;
   box-shadow: 0 0 0 1px rgba(5,25,45,0.1);
   -webkit-transition: all 0.6s cubic-bezier(0.075,0.82,0.165,1);
   transition: all 0.6s cubic-bezier(0.075,0.82,0.165,1);
+  position: fixed;
+  left: 8px;
+  top: 0;
+  -webkit-transform: translate(0,-50%);
+  -ms-transform: translate(0,-50%);
+  transform: translate(0,-50%);
   padding-bottom: 8px;
   padding-left: 12px;
   padding-right: 12px;
   padding-top: 8px;
   z-index: 1;
-  margin-left: 8px;
   background-color: #05192d;
   box-shadow: none;
 }
@@ -17060,18 +16992,14 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at r
       </span>
     </button>
     <div
-      class="emotion-4"
+      class="emotion-3"
+      id="mock-id"
     >
-      <div
-        class="emotion-3"
-        id="mock-id"
+      <span
+        class="emotion-2"
       >
-        <span
-          class="emotion-2"
-        >
-          tooltip text
-        </span>
-      </div>
+        tooltip text
+      </span>
     </div>
   </div>
 </body>
@@ -17159,28 +17087,23 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at t
   color: #ffffff;
 }
 
-.emotion-4 {
-  position: fixed;
-  z-index: 1;
-  left: 0;
-  top: 0;
-  -webkit-transform: translate(-50%,-100%);
-  -ms-transform: translate(-50%,-100%);
-  transform: translate(-50%,-100%);
-}
-
 .emotion-3 {
   background-color: rgb(255,255,255);
   border-radius: 4px;
   box-shadow: 0 0 0 1px rgba(5,25,45,0.1);
   -webkit-transition: all 0.6s cubic-bezier(0.075,0.82,0.165,1);
   transition: all 0.6s cubic-bezier(0.075,0.82,0.165,1);
+  position: fixed;
+  left: 0;
+  top: -8px;
+  -webkit-transform: translate(-50%,-100%);
+  -ms-transform: translate(-50%,-100%);
+  transform: translate(-50%,-100%);
   padding-bottom: 8px;
   padding-left: 12px;
   padding-right: 12px;
   padding-top: 8px;
   z-index: 1;
-  margin-bottom: 8px;
   background-color: #05192d;
   box-shadow: none;
 }
@@ -17199,18 +17122,14 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at t
       </span>
     </button>
     <div
-      class="emotion-4"
+      class="emotion-3"
+      id="mock-id"
     >
-      <div
-        class="emotion-3"
-        id="mock-id"
+      <span
+        class="emotion-2"
       >
-        <span
-          class="emotion-2"
-        >
-          tooltip text
-        </span>
-      </div>
+        tooltip text
+      </span>
     </div>
   </div>
 </body>
@@ -17298,28 +17217,23 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at t
   color: #ffffff;
 }
 
-.emotion-4 {
-  position: fixed;
-  z-index: 1;
-  left: 0;
-  top: 0;
-  -webkit-transform: translate(0,-100%);
-  -ms-transform: translate(0,-100%);
-  transform: translate(0,-100%);
-}
-
 .emotion-3 {
   background-color: rgb(255,255,255);
   border-radius: 4px;
   box-shadow: 0 0 0 1px rgba(5,25,45,0.1);
   -webkit-transition: all 0.6s cubic-bezier(0.075,0.82,0.165,1);
   transition: all 0.6s cubic-bezier(0.075,0.82,0.165,1);
+  position: fixed;
+  left: 0;
+  top: -8px;
+  -webkit-transform: translate(0,-100%);
+  -ms-transform: translate(0,-100%);
+  transform: translate(0,-100%);
   padding-bottom: 8px;
   padding-left: 12px;
   padding-right: 12px;
   padding-top: 8px;
   z-index: 1;
-  margin-bottom: 8px;
   background-color: #05192d;
   box-shadow: none;
 }
@@ -17338,18 +17252,14 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at t
       </span>
     </button>
     <div
-      class="emotion-4"
+      class="emotion-3"
+      id="mock-id"
     >
-      <div
-        class="emotion-3"
-        id="mock-id"
+      <span
+        class="emotion-2"
       >
-        <span
-          class="emotion-2"
-        >
-          tooltip text
-        </span>
-      </div>
+        tooltip text
+      </span>
     </div>
   </div>
 </body>
@@ -17437,28 +17347,23 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at t
   color: #ffffff;
 }
 
-.emotion-4 {
-  position: fixed;
-  z-index: 1;
-  left: 0;
-  top: 0;
-  -webkit-transform: translate(-100%,-100%);
-  -ms-transform: translate(-100%,-100%);
-  transform: translate(-100%,-100%);
-}
-
 .emotion-3 {
   background-color: rgb(255,255,255);
   border-radius: 4px;
   box-shadow: 0 0 0 1px rgba(5,25,45,0.1);
   -webkit-transition: all 0.6s cubic-bezier(0.075,0.82,0.165,1);
   transition: all 0.6s cubic-bezier(0.075,0.82,0.165,1);
+  position: fixed;
+  left: 0;
+  top: -8px;
+  -webkit-transform: translate(-100%,-100%);
+  -ms-transform: translate(-100%,-100%);
+  transform: translate(-100%,-100%);
   padding-bottom: 8px;
   padding-left: 12px;
   padding-right: 12px;
   padding-top: 8px;
   z-index: 1;
-  margin-bottom: 8px;
   background-color: #05192d;
   box-shadow: none;
 }
@@ -17477,18 +17382,14 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at t
       </span>
     </button>
     <div
-      class="emotion-4"
+      class="emotion-3"
+      id="mock-id"
     >
-      <div
-        class="emotion-3"
-        id="mock-id"
+      <span
+        class="emotion-2"
       >
-        <span
-          class="emotion-2"
-        >
-          tooltip text
-        </span>
-      </div>
+        tooltip text
+      </span>
     </div>
   </div>
 </body>
@@ -17564,28 +17465,23 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at u
   font-weight: bold;
 }
 
-.emotion-4 {
-  position: fixed;
-  z-index: 1;
-  left: 0;
-  top: 0;
-  -webkit-transform: translate(-50%,0);
-  -ms-transform: translate(-50%,0);
-  transform: translate(-50%,0);
-}
-
 .emotion-3 {
   background-color: rgb(255,255,255);
   border-radius: 4px;
   box-shadow: 0 0 0 1px rgba(5,25,45,0.1);
   -webkit-transition: all 0.6s cubic-bezier(0.075,0.82,0.165,1);
   transition: all 0.6s cubic-bezier(0.075,0.82,0.165,1);
+  position: fixed;
+  left: 0;
+  top: 8px;
+  -webkit-transform: translate(-50%,0);
+  -ms-transform: translate(-50%,0);
+  transform: translate(-50%,0);
   padding-bottom: 8px;
   padding-left: 12px;
   padding-right: 12px;
   padding-top: 8px;
   z-index: 1;
-  margin-top: 8px;
   background-color: #05192d;
   box-shadow: none;
 }
@@ -17616,18 +17512,14 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at u
       </span>
     </button>
     <div
-      class="emotion-4"
+      class="emotion-3"
+      id="mock-id"
     >
-      <div
-        class="emotion-3"
-        id="mock-id"
+      <span
+        class="emotion-2"
       >
-        <span
-          class="emotion-2"
-        >
-          tooltip text
-        </span>
-      </div>
+        tooltip text
+      </span>
     </div>
   </div>
 </body>
