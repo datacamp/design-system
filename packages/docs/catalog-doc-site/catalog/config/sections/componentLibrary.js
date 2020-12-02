@@ -18,6 +18,13 @@ export default {
     },
     {
       content: pageLoader(() =>
+        import('../../pages/componentLibrary/animations.js'),
+      ),
+      path: '/component-library/animations',
+      title: 'Animations',
+    },
+    {
+      content: pageLoader(() =>
         import('../../pages/componentLibrary/assets.js'),
       ),
       path: '/component-library/assets',
