@@ -37,6 +37,7 @@ export default () => {
               {`function PositionExample() {
   const targetRef = React.useRef()
   const positionerStyles = usePositioner({
+    isVisible: true,
     target: targetRef,
     position: 'bottom',
     offset: 8
