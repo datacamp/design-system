@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.7.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-catalog-doc-site@2.6.0...@datacamp/waffles-catalog-doc-site@2.7.0) (2020-12-03)
+
+
+### Features
+
+* add white checkmark animation to doc site ([4323cbc](https://github.com/datacamp/design-system/commit/4323cbc))
+* resizable elements ([717b214](https://github.com/datacamp/design-system/commit/717b214))
+
+
+
+
+
 # [2.6.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-catalog-doc-site@2.5.1...@datacamp/waffles-catalog-doc-site@2.6.0) (2020-12-03)
 
 

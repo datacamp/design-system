@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.4.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-storybook@2.3.3...@datacamp/waffles-storybook@2.4.0) (2020-12-03)
+
+
+### Features
+
+* resizable elements ([717b214](https://github.com/datacamp/design-system/commit/717b214))
+
+
+
+
+
 ## [2.3.3](https://github.com/datacamp/design-system/compare/@datacamp/waffles-storybook@2.3.2...@datacamp/waffles-storybook@2.3.3) (2020-12-03)
 
 **Note:** Version bump only for package @datacamp/waffles-storybook
