@@ -27,9 +27,11 @@ const usePositioner = ({
     width: number;
   } | null>(null);
 
-  React.useLayoutEffect(() => {
+  React.useEffect(() => {
     const resetPosition = (): void => {
-      setTargetBox((target.current as HTMLElement).getBoundingClientRect());
+      if (!target.current) return;
+
+      setTargetBox(target.current.getBoundingClientRect());
     };
 
     resetPosition();
