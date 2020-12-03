@@ -1,6 +1,7 @@
 /* eslint-disable import/no-anonymous-default-export */
 import checkmarkGreenData from '@datacamp/waffles-animations/checkmark-green.json';
 import checkmarkNavyData from '@datacamp/waffles-animations/checkmark-navy.json';
+import checkmarkWhiteData from '@datacamp/waffles-animations/checkmark-white.json';
 import Card from '@datacamp/waffles-card';
 import {
   Code,
@@ -9,6 +10,7 @@ import {
   Link,
   Paragraph,
 } from '@datacamp/waffles-text';
+import tokens from '@datacamp/waffles-tokens';
 /* @jsx jsx */
 import { css, jsx } from '@emotion/core';
 import { Page } from 'catalog';
@@ -24,7 +26,13 @@ const ExampleRow = ({ animationData, srcPath }) => {
         <Code>{srcPath}</Code>
       </td>
       <td>
-        <div css={{ maxHeight: 300, maxWidth: 300 }}>
+        <div
+          css={{
+            backgroundColor: tokens.colors.beige400,
+            maxHeight: 300,
+            maxWidth: 300,
+          }}
+        >
           <Lottie animationData={animationData} />
         </div>
       </td>
@@ -90,6 +98,10 @@ const Component = () => (
                 <ExampleRow
                   animationData={checkmarkNavyData}
                   srcPath="@datacamp/waffles-animations/checkmark-navy.json"
+                />
+                <ExampleRow
+                  animationData={checkmarkWhiteData}
+                  srcPath="@datacamp/waffles-animations/checkmark-white.json"
                 />
               </tbody>
             </table>
