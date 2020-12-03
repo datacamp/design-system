@@ -1,6 +1,6 @@
 {
   "name": "@datacamp/waffles-asset-components",
-  "version": "2.2.1",
+  "version": "2.2.2",
   "main": "lib/index.js",
   "module": "es/index.js",
   "types": "types/index.d.ts",
@@ -39,7 +39,7 @@
     "@datacamp/waffles-babel-preset": "^2.0.4",
     "@datacamp/waffles-tsconfig": "^1.1.12",
     "@emotion/core": "^10.0.17",
-    "@stryker-mutator/core": "^3.3.1",
+    "@stryker-mutator/core": "^4.1.2",
     "@stryker-mutator/html-reporter": "^3.1.0",
     "@stryker-mutator/typescript": "^3.3.1",
     "@svgr/cli": "^5.4.0",

@@ -18,6 +18,13 @@ export default {
     },
     {
       content: pageLoader(() =>
+        import('../../pages/componentLibrary/animations.js'),
+      ),
+      path: '/component-library/animations',
+      title: 'Animations',
+    },
+    {
+      content: pageLoader(() =>
         import('../../pages/componentLibrary/assets.js'),
       ),
       path: '/component-library/assets',
@@ -69,6 +76,13 @@ export default {
       ),
       path: '/component-library/modals',
       title: 'Modals',
+    },
+    {
+      content: pageLoader(() =>
+        import('../../pages/componentLibrary/positioner.js'),
+      ),
+      path: '/component-library/positioner',
+      title: 'Positioner',
     },
     {
       content: pageLoader(() =>

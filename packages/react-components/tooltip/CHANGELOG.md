@@ -3,6 +3,36 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.3](https://github.com/datacamp/design-system/compare/@datacamp/waffles-tooltip@0.1.2...@datacamp/waffles-tooltip@0.1.3) (2020-12-03)
+
+
+### Bug Fixes
+
+* server side rendering for usePositioner ([741737c](https://github.com/datacamp/design-system/commit/741737c))
+
+
+
+
+
+## [0.1.2](https://github.com/datacamp/design-system/compare/@datacamp/waffles-tooltip@0.1.1...@datacamp/waffles-tooltip@0.1.2) (2020-12-03)
+
+**Note:** Version bump only for package @datacamp/waffles-tooltip
+
+
+
+
+
+## [0.1.1](https://github.com/datacamp/design-system/compare/@datacamp/waffles-tooltip@0.1.0...@datacamp/waffles-tooltip@0.1.1) (2020-12-03)
+
+
+### Bug Fixes
+
+* use new usePositioner hook to position tooltip ([352417a](https://github.com/datacamp/design-system/commit/352417a))
+
+
+
+
+
 # 0.1.0 (2020-11-24)
 
 
