@@ -16039,6 +16039,18 @@ exports[`<Button /> tooltips tooltip appearance snapshots renders a tooltip with
   font-weight: bold;
 }
 
+.emotion-2 {
+  -webkit-font-smoothing: antialiased;
+  color: rgb(5,25,45);
+  font-family: Studio-Feixen-Sans,Arial;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  font-size: 14px;
+  white-space: nowrap;
+  color: #ffffff;
+}
+
 .emotion-3 {
   background-color: rgb(255,255,255);
   border-radius: 4px;
@@ -16058,18 +16070,6 @@ exports[`<Button /> tooltips tooltip appearance snapshots renders a tooltip with
   z-index: 1;
   background-color: #05192d;
   box-shadow: none;
-}
-
-.emotion-2 {
-  -webkit-font-smoothing: antialiased;
-  color: rgb(5,25,45);
-  font-family: Studio-Feixen-Sans,Arial;
-  font-style: normal;
-  font-size: 16px;
-  font-weight: 400;
-  font-size: 14px;
-  white-space: nowrap;
-  color: #ffffff;
 }
 
 <body>
@@ -16169,6 +16169,18 @@ exports[`<Button /> tooltips tooltip appearance snapshots renders a tooltip with
   font-weight: bold;
 }
 
+.emotion-2 {
+  -webkit-font-smoothing: antialiased;
+  color: rgb(5,25,45);
+  font-family: Studio-Feixen-Sans,Arial;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  font-size: 14px;
+  white-space: nowrap;
+  color: #05192d;
+}
+
 .emotion-3 {
   background-color: rgb(255,255,255);
   border-radius: 4px;
@@ -16187,18 +16199,6 @@ exports[`<Button /> tooltips tooltip appearance snapshots renders a tooltip with
   padding-top: 8px;
   z-index: 1;
   background-color: #fffbf3;
-}
-
-.emotion-2 {
-  -webkit-font-smoothing: antialiased;
-  color: rgb(5,25,45);
-  font-family: Studio-Feixen-Sans,Arial;
-  font-style: normal;
-  font-size: 16px;
-  font-weight: 400;
-  font-size: 14px;
-  white-space: nowrap;
-  color: #05192d;
 }
 
 <body>
@@ -16298,6 +16298,18 @@ exports[`<Button /> tooltips tooltip appearance snapshots renders a tooltip with
   font-weight: bold;
 }
 
+.emotion-2 {
+  -webkit-font-smoothing: antialiased;
+  color: rgb(5,25,45);
+  font-family: Studio-Feixen-Sans,Arial;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  font-size: 14px;
+  white-space: nowrap;
+  color: #ffffff;
+}
+
 .emotion-3 {
   background-color: rgb(255,255,255);
   border-radius: 4px;
@@ -16317,18 +16329,6 @@ exports[`<Button /> tooltips tooltip appearance snapshots renders a tooltip with
   z-index: 1;
   background-color: #05192d;
   box-shadow: none;
-}
-
-.emotion-2 {
-  -webkit-font-smoothing: antialiased;
-  color: rgb(5,25,45);
-  font-family: Studio-Feixen-Sans,Arial;
-  font-style: normal;
-  font-size: 16px;
-  font-weight: 400;
-  font-size: 14px;
-  white-space: nowrap;
-  color: #ffffff;
 }
 
 <body>
@@ -16428,6 +16428,18 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at b
   font-weight: bold;
 }
 
+.emotion-2 {
+  -webkit-font-smoothing: antialiased;
+  color: rgb(5,25,45);
+  font-family: Studio-Feixen-Sans,Arial;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  font-size: 14px;
+  white-space: nowrap;
+  color: #ffffff;
+}
+
 .emotion-3 {
   background-color: rgb(255,255,255);
   border-radius: 4px;
@@ -16447,18 +16459,6 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at b
   z-index: 1;
   background-color: #05192d;
   box-shadow: none;
-}
-
-.emotion-2 {
-  -webkit-font-smoothing: antialiased;
-  color: rgb(5,25,45);
-  font-family: Studio-Feixen-Sans,Arial;
-  font-style: normal;
-  font-size: 16px;
-  font-weight: 400;
-  font-size: 14px;
-  white-space: nowrap;
-  color: #ffffff;
 }
 
 <body>
@@ -17465,6 +17465,18 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at u
   font-weight: bold;
 }
 
+.emotion-2 {
+  -webkit-font-smoothing: antialiased;
+  color: rgb(5,25,45);
+  font-family: Studio-Feixen-Sans,Arial;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  font-size: 14px;
+  white-space: nowrap;
+  color: #ffffff;
+}
+
 .emotion-3 {
   background-color: rgb(255,255,255);
   border-radius: 4px;
@@ -17484,18 +17496,6 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at u
   z-index: 1;
   background-color: #05192d;
   box-shadow: none;
-}
-
-.emotion-2 {
-  -webkit-font-smoothing: antialiased;
-  color: rgb(5,25,45);
-  font-family: Studio-Feixen-Sans,Arial;
-  font-style: normal;
-  font-size: 16px;
-  font-weight: 400;
-  font-size: 14px;
-  white-space: nowrap;
-  color: #ffffff;
 }
 
 <body>
