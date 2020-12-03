@@ -1,6 +1,6 @@
 {
   "name": "@datacamp/waffles-tooltip",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "The Waffles Tooltip",
   "keywords": [
     "tooltip"
@@ -53,9 +53,9 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.12.1",
-    "@datacamp/waffles-card": "^4.1.1",
-    "@datacamp/waffles-positioner": "^1.1.1",
-    "@datacamp/waffles-text": "^4.1.1",
+    "@datacamp/waffles-card": "^4.1.2",
+    "@datacamp/waffles-positioner": "^1.2.0",
+    "@datacamp/waffles-text": "^4.1.2",
     "@datacamp/waffles-tokens": "^1.0.4",
     "prop-types": "^15.7.2"
   },

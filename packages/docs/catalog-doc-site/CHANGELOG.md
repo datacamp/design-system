@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.5.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-catalog-doc-site@2.4.0...@datacamp/waffles-catalog-doc-site@2.5.0) (2020-12-03)
+
+
+### Features
+
+* add animation docs ([4c432ba](https://github.com/datacamp/design-system/commit/4c432ba))
+* add docs for usePositioner ([6a520fb](https://github.com/datacamp/design-system/commit/6a520fb))
+
+
+
+
+
 # [2.4.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-catalog-doc-site@2.3.0...@datacamp/waffles-catalog-doc-site@2.4.0) (2020-11-24)
 
 
