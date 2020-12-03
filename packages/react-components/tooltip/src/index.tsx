@@ -70,7 +70,12 @@ const Tooltip = ({
   target,
   visible,
 }: TooltipProps): ReactElement | null => {
-  const positionStyle = usePositioner({ offset: 8, position, target });
+  const positionStyle = usePositioner({
+    isVisible: visible,
+    offset: 8,
+    position,
+    target,
+  });
 
   if (!visible) return null;
 

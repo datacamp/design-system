@@ -27,7 +27,7 @@ const Positioner = ({
   target,
   visible,
 }: PositionerProps): React.ReactElement | null => {
-  const style = usePositioner({ position, target });
+  const style = usePositioner({ isVisible: visible, position, target });
 
   return visible ? <div css={css(style, { zIndex: 1 })}>{children}</div> : null;
 };

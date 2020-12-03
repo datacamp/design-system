@@ -2,10 +2,12 @@ import { css, SerializedStyles } from '@emotion/core';
 import React from 'react';
 
 const usePositioner = ({
+  isVisible,
   offset = 0,
   position,
   target,
 }: {
+  isVisible: boolean;
   offset?: number;
   position:
     | 'bottom'
@@ -29,7 +31,7 @@ const usePositioner = ({
 
   React.useEffect(() => {
     const resetPosition = (): void => {
-      if (!target.current) return;
+      if (!isVisible || !target.current) return;
 
       setTargetBox(target.current.getBoundingClientRect());
     };
@@ -42,9 +44,9 @@ const usePositioner = ({
       window.removeEventListener('scroll', resetPosition, true);
       window.removeEventListener('resize', resetPosition, true);
     };
-  }, [target]);
+  }, [isVisible, target]);
 
-  if (!targetBox) return css({ display: 'none' });
+  if (!targetBox || !isVisible) return css({ display: 'none' });
 
   const layoutCSSMap = {
     bottom: css({
