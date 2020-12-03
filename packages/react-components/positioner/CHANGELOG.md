@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.2.2](https://github.com/datacamp/design-system/compare/@datacamp/waffles-positioner@1.2.1...@datacamp/waffles-positioner@1.2.2) (2020-12-03)
+
+
+### Bug Fixes
+
+* server side rendering for usePositioner ([741737c](https://github.com/datacamp/design-system/commit/741737c))
+
+
+
+
+
 ## [1.2.1](https://github.com/datacamp/design-system/compare/@datacamp/waffles-positioner@1.2.0...@datacamp/waffles-positioner@1.2.1) (2020-12-03)
 
 
