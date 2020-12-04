@@ -26,3 +26,5 @@ types
 .stryker-tmp
 reports
 componentMetadata.json
+
+.next
