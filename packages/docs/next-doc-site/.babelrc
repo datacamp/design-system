@@ -1,0 +1,7 @@
+{
+  "presets": [
+    "@datacamp/waffles-babel-preset",
+    "next/babel",
+    "@emotion/babel-preset-css-prop"
+  ]
+}
