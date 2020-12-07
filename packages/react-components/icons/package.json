@@ -30,7 +30,7 @@
     "@datacamp/waffles-tokens": "^1.0.4",
     "@datacamp/waffles-tsconfig": "^1.1.12",
     "@svgr/core": "^5.4.0",
-    "@svgr/plugin-prettier": "^5.4.0",
+    "@svgr/plugin-prettier": "^5.5.0",
     "@svgr/plugin-svgo": "^5.5.0",
     "@types/react": "^17.0.0",
     "camelcase": "^6.2.0",
