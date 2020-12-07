@@ -64,7 +64,7 @@
     "airbnb-prop-types": "^2.16.0",
     "lodash": "^4.17.20",
     "prop-types": "^15.7.2",
-    "react-merge-refs": "^1.0.0",
+    "react-merge-refs": "^1.1.0",
     "react-uid": "^2.3.0",
     "tinycolor2": "^1.4.2",
     "use-callback-ref": "^1.2.4"
