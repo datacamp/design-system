@@ -2,6 +2,8 @@
 import checkmarkGreenData from '@datacamp/waffles-animations/checkmark-green.json';
 import checkmarkNavyData from '@datacamp/waffles-animations/checkmark-navy.json';
 import checkmarkWhiteData from '@datacamp/waffles-animations/checkmark-white.json';
+import logomarkSpinnerNavyData from '@datacamp/waffles-animations/logomark-spinner-navy.json';
+import logomarkSpinnerWhiteData from '@datacamp/waffles-animations/logomark-spinner-white.json';
 import Card from '@datacamp/waffles-card';
 import {
   Code,
@@ -21,18 +23,12 @@ import CustomHeader from '../../components/CustomHeader';
 
 const ExampleRow = ({ animationData, srcPath }) => {
   return (
-    <tr css={css({ display: 'flex' })}>
+    <tr>
       <td>
         <Code>{srcPath}</Code>
       </td>
-      <td>
-        <div
-          css={{
-            backgroundColor: tokens.colors.beige400,
-            maxHeight: 300,
-            maxWidth: 300,
-          }}
-        >
+      <td css={{ backgroundColor: tokens.colors.beige400 }}>
+        <div css={{ maxWidth: 300 }}>
           <Lottie animationData={animationData} />
         </div>
       </td>
@@ -102,6 +98,14 @@ const Component = () => (
                 <ExampleRow
                   animationData={checkmarkWhiteData}
                   srcPath="@datacamp/waffles-animations/checkmark-white.json"
+                />
+                <ExampleRow
+                  animationData={logomarkSpinnerNavyData}
+                  srcPath="@datacamp/waffles-animations/logomerk-spinner-navy.json"
+                />
+                <ExampleRow
+                  animationData={logomarkSpinnerWhiteData}
+                  srcPath="@datacamp/waffles-animations/logomerk-spinner-white.json"
                 />
               </tbody>
             </table>
