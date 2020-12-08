@@ -42,7 +42,7 @@
     "@stryker-mutator/core": "^4.1.2",
     "@stryker-mutator/html-reporter": "^3.1.0",
     "@stryker-mutator/typescript": "^3.3.1",
-    "@svgr/cli": "^5.4.0",
+    "@svgr/cli": "^5.5.0",
     "@testing-library/jest-dom": "5.11.6",
     "@testing-library/react": "11.2.2",
     "@types/lodash": "4.14.165",
