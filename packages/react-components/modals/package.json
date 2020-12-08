@@ -44,7 +44,7 @@
     "@testing-library/jest-dom": "5.11.5",
     "@testing-library/react": "11.2.2",
     "@testing-library/user-event": "12.2.0",
-    "@types/lodash": "4.14.162",
+    "@types/lodash": "4.14.165",
     "@types/tinycolor2": "1.4.2",
     "babel-jest": "26.6.3",
     "jest": "26.6.1",
