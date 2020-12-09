@@ -1,139 +1,451 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`LogomarkSpinner renders with a custom color 1`] = `
-@keyframes animation-0 {
-  0% {
-    stroke-dashoffset: 340%;
-  }
-
-  100% {
-    stroke-dashoffset: 0;
-  }
-}
-
+exports[`LogomarkSpinner renders a white spinner 1`] = `
 .emotion-0 {
-  -webkit-animation: animation-0 2s infinite cubic-bezier(0.65,0,0.55,1) reverse;
-  animation: animation-0 2s infinite cubic-bezier(0.65,0,0.55,1) reverse;
-  stroke-dasharray: 170%;
-  stroke-dashoffset: 0;
+  width: 100px;
 }
 
-<svg
-  height="100px"
-  version="1.1"
-  viewBox="0 0 225 225"
-  width="100px"
-  xmlns="http://www.w3.org/2000/svg"
-  xmlns:xlink="http://www.w3.org/1999/xlink"
+<div
+  class="emotion-0"
 >
-  <title>
-    Loading
-  </title>
-  <g
-    fill="none"
-    fill-rule="evenodd"
-    stroke="none"
-    stroke-width="1"
+  <svg
+    height="940"
+    preserveAspectRatio="xMidYMid meet"
+    style="width: 100%; height: 100%; transform: translate3d(0,0,0);"
+    viewBox="0 0 730 940"
+    width="730"
+    xmlns="http://www.w3.org/2000/svg"
   >
-    <polyline
-      class="emotion-0"
-      points="158.573452 177.08 112.038068 150.488473 112.038068 73.7151963 66 48 66 138.609263 157.803171 87.5483322"
-      stroke="red"
-      stroke-linejoin="round"
-      stroke-width="12"
-    />
-  </g>
-</svg>
+    <defs>
+      <clippath
+        id="__lottie_element_18"
+      >
+        <rect
+          height="940"
+          width="730"
+          x="0"
+          y="0"
+        />
+      </clippath>
+      <clippath
+        id="__lottie_element_20"
+      >
+        <path
+          d="M0,0 L1080,0 L1080,1080 L0,1080z"
+        />
+      </clippath>
+      <path
+        d=""
+        fill-opacity="1"
+      />
+      <clippath
+        id="__lottie_element_21"
+      >
+        <path
+          clip-rule="nonzero"
+          d=" M806,337 C806,337 814,333 814,333 C814,333 920,399 920,399 C920,399 912,405 912,405 C912,405 806,337 806,337"
+          fill="#ffffff"
+          fill-opacity="1"
+        />
+      </clippath>
+    </defs>
+    <g
+      clip-path="url(#__lottie_element_18)"
+    >
+      <g
+        clip-path="url(#__lottie_element_20)"
+        opacity="1"
+        style="display: block;"
+        transform="matrix(1,0,0,1,-185,-76)"
+      >
+        <g
+          clip-path="url(#__lottie_element_21)"
+        >
+          <g
+            opacity="1"
+            style="display: block;"
+            transform="matrix(1,0,0,1,572,564)"
+          >
+            <g
+              opacity="1"
+              transform="matrix(1,0,0,1,0,0)"
+            >
+              <path
+                d=" M266.9230041503906,-174.93099975585938 C266.9230041503906,-174.93099975585938 254.01199340820312,-167.57899475097656 231.97000122070312,-155.0279998779297"
+                fill-opacity="0"
+                stroke="rgb(255,255,255)"
+                stroke-linecap="butt"
+                stroke-linejoin="round"
+                stroke-opacity="1"
+                stroke-width="78"
+              />
+            </g>
+          </g>
+          <g
+            opacity="1"
+            style="display: block;"
+            transform="matrix(1,0,0,1,572,564)"
+          >
+            <g
+              opacity="1"
+              transform="matrix(1,0,0,1,0,0)"
+            >
+              <path
+                d=" M247.79200744628906,-209.06900024414062 C247.79200744628906,-209.06900024414062 211.9720001220703,-188.41000366210938 211.9720001220703,-188.41000366210938 C211.9720001220703,-188.41000366210938 285.1780090332031,-140.968994140625 285.1780090332031,-140.968994140625 C285.1780090332031,-140.968994140625 322.125,-161.4250030517578 322.125,-161.4250030517578 C322.125,-161.4250030517578 247.79200744628906,-209.06900024414062 247.79200744628906,-209.06900024414062z"
+                fill="rgb(255,255,255)"
+                fill-opacity="1"
+              />
+            </g>
+            <g
+              opacity="1"
+              transform="matrix(1,0,0,1,0,0)"
+            >
+              <path
+                d=" M-1164,282"
+                fill="rgb(255,255,255)"
+                fill-opacity="1"
+              />
+            </g>
+            <g
+              opacity="1"
+              transform="matrix(1,0,0,1,0,0)"
+            >
+              <path
+                d=" M255.25,-205.75"
+                fill="rgb(255,255,255)"
+                fill-opacity="1"
+              />
+            </g>
+          </g>
+          <g
+            opacity="1"
+            style="display: block;"
+            transform="matrix(1,-0.00008192614768631756,0.00008192614768631756,1,537.0617065429688,583.92431640625)"
+          >
+            <g
+              opacity="1"
+              transform="matrix(1,0,0,1,0,0)"
+            >
+              <path
+                d=" M254.04800415039062,-211.28900146484375 C254.04800415039062,-211.28900146484375 246.83399963378906,-208.5959930419922 246.83399963378906,-208.5959930419922 C246.83399963378906,-208.5959930419922 244.95599365234375,-118.01499938964844 244.95599365234375,-118.01499938964844 C244.95599365234375,-118.01499938964844 328.125,-164.9250030517578 328.125,-164.9250030517578 C328.125,-164.9250030517578 254.04800415039062,-211.28900146484375 254.04800415039062,-211.28900146484375z"
+                fill="rgb(255,255,255)"
+                fill-opacity="1"
+              />
+            </g>
+            <g
+              opacity="1"
+              transform="matrix(1,0,0,1,0,0)"
+            >
+              <path
+                d="M0 0"
+                fill="rgb(255,255,255)"
+                fill-opacity="1"
+              />
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </svg>
+</div>
 `;
 
 exports[`LogomarkSpinner renders with a custom size 1`] = `
-@keyframes animation-0 {
-  0% {
-    stroke-dashoffset: 340%;
-  }
-
-  100% {
-    stroke-dashoffset: 0;
-  }
-}
-
 .emotion-0 {
-  -webkit-animation: animation-0 2s infinite cubic-bezier(0.65,0,0.55,1) reverse;
-  animation: animation-0 2s infinite cubic-bezier(0.65,0,0.55,1) reverse;
-  stroke-dasharray: 170%;
-  stroke-dashoffset: 0;
+  width: 200px;
 }
 
-<svg
-  height="200px"
-  version="1.1"
-  viewBox="0 0 225 225"
-  width="200px"
-  xmlns="http://www.w3.org/2000/svg"
-  xmlns:xlink="http://www.w3.org/1999/xlink"
+<div
+  class="emotion-0"
 >
-  <title>
-    Loading
-  </title>
-  <g
-    fill="none"
-    fill-rule="evenodd"
-    stroke="none"
-    stroke-width="1"
+  <svg
+    height="940"
+    preserveAspectRatio="xMidYMid meet"
+    style="width: 100%; height: 100%; transform: translate3d(0,0,0);"
+    viewBox="0 0 730 940"
+    width="730"
+    xmlns="http://www.w3.org/2000/svg"
   >
-    <polyline
-      class="emotion-0"
-      points="158.573452 177.08 112.038068 150.488473 112.038068 73.7151963 66 48 66 138.609263 157.803171 87.5483322"
-      stroke="#05192d"
-      stroke-linejoin="round"
-      stroke-width="12"
-    />
-  </g>
-</svg>
+    <defs>
+      <clippath
+        id="__lottie_element_34"
+      >
+        <rect
+          height="940"
+          width="730"
+          x="0"
+          y="0"
+        />
+      </clippath>
+      <clippath
+        id="__lottie_element_36"
+      >
+        <path
+          d="M0,0 L1080,0 L1080,1080 L0,1080z"
+        />
+      </clippath>
+      <path
+        d=""
+        fill-opacity="1"
+      />
+      <clippath
+        id="__lottie_element_37"
+      >
+        <path
+          clip-rule="nonzero"
+          d=" M806,337 C806,337 814,333 814,333 C814,333 920,399 920,399 C920,399 912,405 912,405 C912,405 806,337 806,337"
+          fill="#ffffff"
+          fill-opacity="1"
+        />
+      </clippath>
+    </defs>
+    <g
+      clip-path="url(#__lottie_element_34)"
+    >
+      <g
+        clip-path="url(#__lottie_element_36)"
+        opacity="1"
+        style="display: block;"
+        transform="matrix(1,0,0,1,-185,-76)"
+      >
+        <g
+          clip-path="url(#__lottie_element_37)"
+        >
+          <g
+            opacity="1"
+            style="display: block;"
+            transform="matrix(1,0,0,1,572,564)"
+          >
+            <g
+              opacity="1"
+              transform="matrix(1,0,0,1,0,0)"
+            >
+              <path
+                d=" M266.9230041503906,-174.93099975585938 C266.9230041503906,-174.93099975585938 254.01199340820312,-167.57899475097656 231.97000122070312,-155.0279998779297"
+                fill-opacity="0"
+                stroke="rgb(5,25,45)"
+                stroke-linecap="butt"
+                stroke-linejoin="round"
+                stroke-opacity="1"
+                stroke-width="78"
+              />
+            </g>
+          </g>
+          <g
+            opacity="1"
+            style="display: block;"
+            transform="matrix(1,0,0,1,572,564)"
+          >
+            <g
+              opacity="1"
+              transform="matrix(1,0,0,1,0,0)"
+            >
+              <path
+                d=" M247.79200744628906,-209.06900024414062 C247.79200744628906,-209.06900024414062 211.9720001220703,-188.41000366210938 211.9720001220703,-188.41000366210938 C211.9720001220703,-188.41000366210938 285.1780090332031,-140.968994140625 285.1780090332031,-140.968994140625 C285.1780090332031,-140.968994140625 322.125,-161.4250030517578 322.125,-161.4250030517578 C322.125,-161.4250030517578 247.79200744628906,-209.06900024414062 247.79200744628906,-209.06900024414062z"
+                fill="rgb(5,25,45)"
+                fill-opacity="1"
+              />
+            </g>
+            <g
+              opacity="1"
+              transform="matrix(1,0,0,1,0,0)"
+            >
+              <path
+                d=" M-1164,282"
+                fill="rgb(5,25,45)"
+                fill-opacity="1"
+              />
+            </g>
+            <g
+              opacity="1"
+              transform="matrix(1,0,0,1,0,0)"
+            >
+              <path
+                d=" M255.25,-205.75"
+                fill="rgb(5,25,45)"
+                fill-opacity="1"
+              />
+            </g>
+          </g>
+          <g
+            opacity="1"
+            style="display: block;"
+            transform="matrix(1,-0.00008192614768631756,0.00008192614768631756,1,537.0617065429688,583.92431640625)"
+          >
+            <g
+              opacity="1"
+              transform="matrix(1,0,0,1,0,0)"
+            >
+              <path
+                d=" M254.04800415039062,-211.28900146484375 C254.04800415039062,-211.28900146484375 246.83399963378906,-208.5959930419922 246.83399963378906,-208.5959930419922 C246.83399963378906,-208.5959930419922 244.95599365234375,-118.01499938964844 244.95599365234375,-118.01499938964844 C244.95599365234375,-118.01499938964844 328.125,-164.9250030517578 328.125,-164.9250030517578 C328.125,-164.9250030517578 254.04800415039062,-211.28900146484375 254.04800415039062,-211.28900146484375z"
+                fill="rgb(5,25,45)"
+                fill-opacity="1"
+              />
+            </g>
+            <g
+              opacity="1"
+              transform="matrix(1,0,0,1,0,0)"
+            >
+              <path
+                d="M0 0"
+                fill="rgb(5,25,45)"
+                fill-opacity="1"
+              />
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </svg>
+</div>
 `;
 
 exports[`LogomarkSpinner renders with default props 1`] = `
-@keyframes animation-0 {
-  0% {
-    stroke-dashoffset: 340%;
-  }
-
-  100% {
-    stroke-dashoffset: 0;
-  }
-}
-
 .emotion-0 {
-  -webkit-animation: animation-0 2s infinite cubic-bezier(0.65,0,0.55,1) reverse;
-  animation: animation-0 2s infinite cubic-bezier(0.65,0,0.55,1) reverse;
-  stroke-dasharray: 170%;
-  stroke-dashoffset: 0;
+  width: 100px;
 }
 
-<svg
-  height="100px"
-  version="1.1"
-  viewBox="0 0 225 225"
-  width="100px"
-  xmlns="http://www.w3.org/2000/svg"
-  xmlns:xlink="http://www.w3.org/1999/xlink"
+<div
+  class="emotion-0"
 >
-  <title>
-    Loading
-  </title>
-  <g
-    fill="none"
-    fill-rule="evenodd"
-    stroke="none"
-    stroke-width="1"
+  <svg
+    height="940"
+    preserveAspectRatio="xMidYMid meet"
+    style="width: 100%; height: 100%; transform: translate3d(0,0,0);"
+    viewBox="0 0 730 940"
+    width="730"
+    xmlns="http://www.w3.org/2000/svg"
   >
-    <polyline
-      class="emotion-0"
-      points="158.573452 177.08 112.038068 150.488473 112.038068 73.7151963 66 48 66 138.609263 157.803171 87.5483322"
-      stroke="#05192d"
-      stroke-linejoin="round"
-      stroke-width="12"
-    />
-  </g>
-</svg>
+    <defs>
+      <clippath
+        id="__lottie_element_2"
+      >
+        <rect
+          height="940"
+          width="730"
+          x="0"
+          y="0"
+        />
+      </clippath>
+      <clippath
+        id="__lottie_element_4"
+      >
+        <path
+          d="M0,0 L1080,0 L1080,1080 L0,1080z"
+        />
+      </clippath>
+      <path
+        d=""
+        fill-opacity="1"
+      />
+      <clippath
+        id="__lottie_element_5"
+      >
+        <path
+          clip-rule="nonzero"
+          d=" M806,337 C806,337 814,333 814,333 C814,333 920,399 920,399 C920,399 912,405 912,405 C912,405 806,337 806,337"
+          fill="#ffffff"
+          fill-opacity="1"
+        />
+      </clippath>
+    </defs>
+    <g
+      clip-path="url(#__lottie_element_2)"
+    >
+      <g
+        clip-path="url(#__lottie_element_4)"
+        opacity="1"
+        style="display: block;"
+        transform="matrix(1,0,0,1,-185,-76)"
+      >
+        <g
+          clip-path="url(#__lottie_element_5)"
+        >
+          <g
+            opacity="1"
+            style="display: block;"
+            transform="matrix(1,0,0,1,572,564)"
+          >
+            <g
+              opacity="1"
+              transform="matrix(1,0,0,1,0,0)"
+            >
+              <path
+                d=" M266.9230041503906,-174.93099975585938 C266.9230041503906,-174.93099975585938 254.01199340820312,-167.57899475097656 231.97000122070312,-155.0279998779297"
+                fill-opacity="0"
+                stroke="rgb(5,25,45)"
+                stroke-linecap="butt"
+                stroke-linejoin="round"
+                stroke-opacity="1"
+                stroke-width="78"
+              />
+            </g>
+          </g>
+          <g
+            opacity="1"
+            style="display: block;"
+            transform="matrix(1,0,0,1,572,564)"
+          >
+            <g
+              opacity="1"
+              transform="matrix(1,0,0,1,0,0)"
+            >
+              <path
+                d=" M247.79200744628906,-209.06900024414062 C247.79200744628906,-209.06900024414062 211.9720001220703,-188.41000366210938 211.9720001220703,-188.41000366210938 C211.9720001220703,-188.41000366210938 285.1780090332031,-140.968994140625 285.1780090332031,-140.968994140625 C285.1780090332031,-140.968994140625 322.125,-161.4250030517578 322.125,-161.4250030517578 C322.125,-161.4250030517578 247.79200744628906,-209.06900024414062 247.79200744628906,-209.06900024414062z"
+                fill="rgb(5,25,45)"
+                fill-opacity="1"
+              />
+            </g>
+            <g
+              opacity="1"
+              transform="matrix(1,0,0,1,0,0)"
+            >
+              <path
+                d=" M-1164,282"
+                fill="rgb(5,25,45)"
+                fill-opacity="1"
+              />
+            </g>
+            <g
+              opacity="1"
+              transform="matrix(1,0,0,1,0,0)"
+            >
+              <path
+                d=" M255.25,-205.75"
+                fill="rgb(5,25,45)"
+                fill-opacity="1"
+              />
+            </g>
+          </g>
+          <g
+            opacity="1"
+            style="display: block;"
+            transform="matrix(1,-0.00008192614768631756,0.00008192614768631756,1,537.0617065429688,583.92431640625)"
+          >
+            <g
+              opacity="1"
+              transform="matrix(1,0,0,1,0,0)"
+            >
+              <path
+                d=" M254.04800415039062,-211.28900146484375 C254.04800415039062,-211.28900146484375 246.83399963378906,-208.5959930419922 246.83399963378906,-208.5959930419922 C246.83399963378906,-208.5959930419922 244.95599365234375,-118.01499938964844 244.95599365234375,-118.01499938964844 C244.95599365234375,-118.01499938964844 328.125,-164.9250030517578 328.125,-164.9250030517578 C328.125,-164.9250030517578 254.04800415039062,-211.28900146484375 254.04800415039062,-211.28900146484375z"
+                fill="rgb(5,25,45)"
+                fill-opacity="1"
+              />
+            </g>
+            <g
+              opacity="1"
+              transform="matrix(1,0,0,1,0,0)"
+            >
+              <path
+                d="M0 0"
+                fill="rgb(5,25,45)"
+                fill-opacity="1"
+              />
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </svg>
+</div>
 `;

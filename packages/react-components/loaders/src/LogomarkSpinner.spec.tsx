@@ -8,8 +8,8 @@ describe('LogomarkSpinner', () => {
     expect(container.firstChild).toMatchSnapshot();
   });
 
-  it('renders with a custom color', () => {
-    const { container } = render(<LogomarkSpinner color="red" />);
+  it('renders a white spinner', () => {
+    const { container } = render(<LogomarkSpinner color="white" />);
     expect(container.firstChild).toMatchSnapshot();
   });
 
