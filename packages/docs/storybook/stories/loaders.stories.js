@@ -5,10 +5,10 @@ import React from 'react';
 
 storiesOf('waffles-loaders', module).add('LogomarkSpinner', () => {
   return (
-    <>
+    <div css={{ backgroundColor: color.neutral.beige400.value.hex }}>
       <LogomarkSpinner />
       <LogomarkSpinner size="200px" />
-      <LogomarkSpinner color={color.primary.green.value.hex} />
-    </>
+      <LogomarkSpinner color="white" />
+    </div>
   );
 });
