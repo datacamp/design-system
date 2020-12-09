@@ -50,7 +50,7 @@ export default () => {
               code={`    <>
   <LogomarkSpinner />
   <LogomarkSpinner size="200px" />
-  <LogomarkSpinner color={colors.green} />
+  <LogomarkSpinner color="white" />
 </>`}
               scope={{ colors, LogomarkSpinner }}
             />
