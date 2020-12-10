@@ -1,10 +1,12 @@
 import tokens from '@datacamp/waffles-tokens/lib/future-tokens.json';
 import { computeDataAttributes } from '@datacamp/waffles-utils';
 import { css } from '@emotion/core';
+import { childrenOfType } from 'airbnb-prop-types';
+import PropTypes from 'prop-types';
 import React, { ReactElement, ReactNode } from 'react';
 
+import PlainString from '../alternateComponents/PlainString';
 import baseStyle from '../baseStyle';
-import validateChildrenProp from '../validateChildrenProp';
 
 import Emphasis from './Emphasis';
 import Strong from './Strong';
@@ -32,10 +34,11 @@ const smallStyle = css(baseStyle, {
   lineHeight: tokens.size.font.base.value,
 });
 
-const Small = (props: SmallProps): ReactElement => {
-  const { children, className, dataAttributes } = props;
-  validateChildrenProp(props, 'Small', [Strong, Emphasis]);
-
+const Small = ({
+  children,
+  className,
+  dataAttributes,
+}: SmallProps): ReactElement => {
   const parsedDataAttributes = computeDataAttributes(dataAttributes);
 
   return (
@@ -43,6 +46,21 @@ const Small = (props: SmallProps): ReactElement => {
       {children}
     </small>
   );
+};
+
+const validChildType = PropTypes.oneOfType([
+  childrenOfType(Strong),
+  childrenOfType(Emphasis),
+  childrenOfType(PlainString),
+  PropTypes.string,
+  PropTypes.number,
+]);
+
+Small.propTypes = {
+  children: PropTypes.oneOfType([
+    validChildType,
+    PropTypes.arrayOf(validChildType),
+  ]),
 };
 
 export default Small;

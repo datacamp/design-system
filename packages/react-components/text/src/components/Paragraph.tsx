@@ -4,12 +4,13 @@ import {
   ssrSafeNotFirstChildSelector,
 } from '@datacamp/waffles-utils';
 import { css } from '@emotion/core';
+import { childrenOfType } from 'airbnb-prop-types';
+import PropTypes from 'prop-types';
 import React, { ReactElement, ReactNode } from 'react';
 
 import AlternateCode from '../alternateComponents/AlternateCode';
 import PlainString from '../alternateComponents/PlainString';
 import baseStyle from '../baseStyle';
-import validateChildrenProp from '../validateChildrenProp';
 
 import Code from './Code';
 import Emphasis from './Emphasis';
@@ -45,22 +46,11 @@ const paragraphStyle = css(baseStyle, {
   [ssrSafeNotFirstChildSelector]: { marginTop: tokens.size.space[8].value },
 });
 
-const Paragraph = (props: ParagraphProps): ReactElement => {
-  validateChildrenProp(props, 'Paragraph', [
-    Strong,
-    Text,
-    Small,
-    Emphasis,
-    Code,
-    Link,
-    AlternateCode,
-    PlainString,
-    'br',
-    'del',
-    'img',
-    'a',
-  ]);
-  const { children, className, dataAttributes } = props;
+const Paragraph = ({
+  children,
+  className,
+  dataAttributes,
+}: ParagraphProps): ReactElement => {
   const parsedDataAttributes = computeDataAttributes(dataAttributes);
 
   return (
@@ -68,6 +58,30 @@ const Paragraph = (props: ParagraphProps): ReactElement => {
       {children}
     </p>
   );
+};
+
+const validChildType = PropTypes.oneOfType([
+  childrenOfType(Strong),
+  childrenOfType(Text),
+  childrenOfType(Small),
+  childrenOfType(Emphasis),
+  childrenOfType(Code),
+  childrenOfType(Link),
+  childrenOfType(AlternateCode),
+  childrenOfType(PlainString),
+  childrenOfType('br'),
+  childrenOfType('del'),
+  childrenOfType('img'),
+  childrenOfType('a'),
+  PropTypes.string,
+  PropTypes.number,
+]);
+
+Paragraph.propTypes = {
+  children: PropTypes.oneOfType([
+    validChildType,
+    PropTypes.arrayOf(validChildType),
+  ]),
 };
 
 export default Paragraph;
