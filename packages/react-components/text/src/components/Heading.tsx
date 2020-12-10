@@ -4,11 +4,12 @@ import {
   ssrSafeNotFirstChildSelector,
 } from '@datacamp/waffles-utils';
 import { css, SerializedStyles } from '@emotion/core';
+import { childrenOfType } from 'airbnb-prop-types';
+import PropTypes from 'prop-types';
 import React, { ReactElement, ReactNode } from 'react';
 
 import PlainString from '../alternateComponents/PlainString';
 import baseStyle from '../baseStyle';
-import validateChildrenProp from '../validateChildrenProp';
 
 import Strong from './Strong';
 
@@ -96,16 +97,14 @@ const getStyle = (size: Size, multiLine: boolean): SerializedStyles => {
   );
 };
 
-const Heading = (props: HeadingProps): ReactElement => {
-  validateChildrenProp(props, 'Heading', [PlainString, Strong]);
-  const {
-    as: Element,
-    children,
-    className,
-    dataAttributes,
-    multiLine = false,
-    size,
-  } = props;
+const Heading = ({
+  as: Element,
+  children,
+  className,
+  dataAttributes,
+  multiLine = false,
+  size,
+}: HeadingProps): ReactElement => {
   const parsedDataAttributes = computeDataAttributes(dataAttributes);
   const style = getStyle(size, multiLine);
 
@@ -117,5 +116,19 @@ const Heading = (props: HeadingProps): ReactElement => {
 };
 
 Heading.defaultProps = { multiLine: false };
+
+const validChildType = PropTypes.oneOfType([
+  childrenOfType(Strong),
+  childrenOfType(PlainString),
+  PropTypes.string,
+  PropTypes.number,
+]);
+
+Heading.propTypes = {
+  children: PropTypes.oneOfType([
+    validChildType,
+    PropTypes.arrayOf(validChildType),
+  ]),
+};
 
 export default Heading;
