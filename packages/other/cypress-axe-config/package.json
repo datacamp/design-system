@@ -4,7 +4,7 @@
   "description": "Waffles options for use within cypress-axe.",
   "author": "Louis Bailey <louis@datacamp.com>",
   "homepage": "https://github.com/datacamp/design-system/tree/master/packages/other/cypress-axe-config#readme",
-  "license": "UNLICENSED",
+  "license": "MIT",
   "main": "./config.js",
   "repository": {
     "type": "git",

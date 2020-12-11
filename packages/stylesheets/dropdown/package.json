@@ -2,12 +2,10 @@
   "name": "@datacamp/waffles-dropdown",
   "version": "1.0.0",
   "description": "The Waffles dropdown",
-  "keywords": [
-    "dropdown"
-  ],
+  "keywords": ["dropdown"],
   "author": "Dan Denney <dd.subscriptions@gmail.com>",
   "homepage": "https://github.com/datacamp/design-system/tree/master/packages/dropdown/README.md",
-  "license": "ISC",
+  "license": "MIT",
   "main": "lib/dropdown.js",
   "scripts": {},
   "bugs": {

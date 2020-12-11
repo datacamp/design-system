@@ -4,16 +4,9 @@
   "main": "lib/index.js",
   "module": "es/index.js",
   "types": "types/index.d.ts",
-  "license": "UNLICENSED",
-  "files": [
-    "es",
-    "lib",
-    "types"
-  ],
-  "sideEffects": [
-    "lib/sideEffects/*",
-    "es/sideEffects/*"
-  ],
+  "license": "MIT",
+  "files": ["es", "lib", "types"],
+  "sideEffects": ["lib/sideEffects/*", "es/sideEffects/*"],
   "repository": {
     "type": "git",
     "url": "https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/card/"

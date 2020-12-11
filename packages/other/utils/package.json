@@ -4,15 +4,11 @@
   "description": "Various collection of utilities to be shared across waffles packages",
   "author": "Louis Bailey <louis@datacamp.com>",
   "homepage": "https://github.com/datacamp/design-system/tree/master/packages/docs/waffles-utils#readme",
-  "license": "UNLICENSED",
+  "license": "MIT",
   "main": "lib/index.js",
   "module": "es/index.js",
   "types": "types/index.d.ts",
-  "files": [
-    "es",
-    "lib",
-    "types"
-  ],
+  "files": ["es", "lib", "types"],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/datacamp/design-system.git"

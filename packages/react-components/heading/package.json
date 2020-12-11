@@ -7,10 +7,8 @@
   "scripts": {},
   "keywords": [],
   "author": "DataCamp",
-  "contributors": [
-    "Jordan Wade <jjwade31@gmail.com>"
-  ],
-  "license": "ISC",
+  "contributors": ["Jordan Wade <jjwade31@gmail.com>"],
+  "license": "MIT",
   "directories": {
     "src": "src"
   },
@@ -18,9 +16,5 @@
     "access": "restricted"
   },
   "gitHead": "033030174dbf18623ccd9c0174108c41a9e588a1",
-  "browserslist": [
-    "last 2 versions",
-    "Firefox ESR",
-    "not IE < 11"
-  ]
+  "browserslist": ["last 2 versions", "Firefox ESR", "not IE < 11"]
 }

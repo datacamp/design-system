@@ -2,12 +2,10 @@
   "name": "@datacamp/waffles-tabbed-nav",
   "version": "1.0.0",
   "description": "The Waffles tabbed nav",
-  "keywords": [
-    "nav"
-  ],
+  "keywords": ["nav"],
   "author": "Dan Denney <dd.subscriptions@gmail.com>",
   "homepage": "https://github.com/datacamp/design-system/tree/master/packages/tabbed-nav/README.md",
-  "license": "ISC",
+  "license": "MIT",
   "main": "lib/tabbed-nav.js",
   "scripts": {},
   "bugs": {

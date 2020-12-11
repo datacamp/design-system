@@ -3,9 +3,7 @@
   "version": "1.0.4",
   "description": "",
   "main": "lib/core-tokens.json",
-  "files": [
-    "lib"
-  ],
+  "files": ["lib"],
   "homepage": "https://github.com/datacamp-engineering/design-system/tree/master/packages/other/tokens/README.md",
   "scripts": {
     "build": "yarn clean && node build.js",
@@ -15,7 +13,7 @@
     "test": "jest"
   },
   "author": "",
-  "license": "UNLICENSED",
+  "license": "MIT",
   "devDependencies": {
     "deep-cleaner": "1.2.1",
     "jest": "^26.6.1",

@@ -4,14 +4,8 @@
   "main": "lib/index.js",
   "module": "es/index.js",
   "react-native": "mobile/index.js",
-  "files": [
-    "es",
-    "lib",
-    "types",
-    "sprites",
-    "mobile"
-  ],
-  "license": "ISC",
+  "files": ["es", "lib", "types", "sprites", "mobile"],
+  "license": "MIT",
   "sideEffects": false,
   "repository": {
     "type": "git",

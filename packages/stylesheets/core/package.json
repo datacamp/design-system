@@ -2,12 +2,7 @@
   "name": "@datacamp/waffles-core",
   "version": "2.0.6",
   "description": "Core tokens and styles for DataCamp Design System",
-  "keywords": [
-    "css",
-    "javascript",
-    "sass",
-    "webpack"
-  ],
+  "keywords": ["css", "javascript", "sass", "webpack"],
   "author": "DataCamp",
   "contributors": [
     "Dan Denney <dd.subscriptions@gmail.com>",
@@ -15,7 +10,7 @@
     "Aaron Bates <aaron@aaronbates.me>"
   ],
   "homepage": "https://github.com/datacamp-engineering/design-system/tree/master/packages/stylesheets/core/README.md",
-  "license": "UNLICENSED",
+  "license": "MIT",
   "publishConfig": {
     "access": "restricted"
   },

@@ -2,12 +2,10 @@
   "name": "@datacamp/waffles-tabs",
   "version": "1.0.0",
   "description": "The Waffles tabs",
-  "keywords": [
-    "tabs"
-  ],
+  "keywords": ["tabs"],
   "author": "Dan Denney <dd.subscriptions@gmail.com>",
   "homepage": "https://github.com/datacamp/design-system/tree/master/packages/tabs/README.md",
-  "license": "ISC",
+  "license": "MIT",
   "main": "lib/tabs.js",
   "scripts": {},
   "bugs": {

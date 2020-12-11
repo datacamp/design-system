@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "private": "true",
   "homepage": "https://github.com/datacamp-engineering/design-system/tree/master/packages/docs/catalog-doc-site/README.md",
   "scripts": {
