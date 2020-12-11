@@ -4,7 +4,7 @@
   "description": "The Waffles count indicator",
   "author": "Dan Denney <dd.subscriptions@gmail.com>",
   "homepage": "https://github.com/datacamp/design-system/tree/master/packages/count-indicator/README.md",
-  "license": "ISC",
+  "license": "MIT",
   "main": "lib/count-indicator.js",
   "scripts": {},
   "bugs": {

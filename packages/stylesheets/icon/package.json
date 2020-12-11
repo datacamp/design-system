@@ -2,12 +2,10 @@
   "name": "@datacamp/waffles-icon",
   "version": "0.1.20",
   "description": "The Waffles icon",
-  "keywords": [
-    "icon"
-  ],
+  "keywords": ["icon"],
   "author": "Dan Denney <dd.subscriptions@gmail.com>",
   "homepage": "https://github.com/datacamp/design-system/tree/master/packages/icon/README.md",
-  "license": "ISC",
+  "license": "MIT",
   "main": "lib/icon.js",
   "scripts": {},
   "bugs": {

@@ -3,7 +3,7 @@
   "version": "1.2.7",
   "main": "index.js",
   "types": "./index.d.ts",
-  "license": "UNLICENSED",
+  "license": "MIT",
   "private": true,
   "dependencies": {
     "jest-axe": "3.5.0"

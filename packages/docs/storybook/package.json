@@ -2,7 +2,7 @@
   "name": "@datacamp/waffles-storybook",
   "version": "2.5.0",
   "main": "index.js",
-  "license": "NONE",
+  "license": "MIT",
   "private": true,
   "homepage": "https://github.com/datacamp-engineering/design-system/tree/master/packages/docs/storybook/README.md",
   "scripts": {

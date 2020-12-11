@@ -4,7 +4,7 @@
   "description": "The Waffles popover",
   "author": "Dan Denney <dd.subscriptions@gmail.com>",
   "homepage": "https://github.com/datacamp/design-system/tree/master/packages/popover/README.md",
-  "license": "ISC",
+  "license": "MIT",
   "main": "lib/popover.js",
   "scripts": {},
   "bugs": {
