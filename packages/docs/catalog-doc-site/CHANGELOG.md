@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.8.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-catalog-doc-site@2.7.0...@datacamp/waffles-catalog-doc-site@2.8.0) (2020-12-10)
+
+
+### Features
+
+* add logomark spinner to animations ([6733fc3](https://github.com/datacamp/design-system/commit/6733fc3))
+* update docs for loaders ([63c9929](https://github.com/datacamp/design-system/commit/63c9929))
+
+
+
+
+
 # [2.7.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-catalog-doc-site@2.6.0...@datacamp/waffles-catalog-doc-site@2.7.0) (2020-12-03)
 
 

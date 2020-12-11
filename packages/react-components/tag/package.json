@@ -1,6 +1,6 @@
 {
   "name": "@datacamp/waffles-tag",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Creates a small tag element for things like XP points.",
   "main": "lib/index.js",
   "module": "es/index.js",

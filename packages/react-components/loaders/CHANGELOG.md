@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-loaders@1.1.2...@datacamp/waffles-loaders@2.0.0) (2020-12-10)
+
+
+### Features
+
+* use updated animation for logomark spinner ([d3f0511](https://github.com/datacamp/design-system/commit/d3f0511))
+
+
+### BREAKING CHANGES
+
+* color is no longer a free choice and is now limited to 'navy' or 'white'.
+
+
+
+
+
 ## [1.1.2](https://github.com/datacamp/design-system/compare/@datacamp/waffles-loaders@1.1.1...@datacamp/waffles-loaders@1.1.2) (2020-12-03)
 
 **Note:** Version bump only for package @datacamp/waffles-loaders
