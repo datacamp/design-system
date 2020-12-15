@@ -2,7 +2,7 @@
 import Card from '@datacamp/waffles-card';
 import ResizableElements from '@datacamp/waffles-resizable-elements';
 import ResizableElementsData from '@datacamp/waffles-resizable-elements/componentMetadata.json';
-import { Heading, Paragraph } from '@datacamp/waffles-text';
+import { Code, Heading, Paragraph } from '@datacamp/waffles-text';
 /* @jsx jsx */
 import { jsx } from '@emotion/core';
 import { Page } from 'catalog';
