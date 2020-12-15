@@ -88,7 +88,6 @@ jobs:
           aws_secret_access_key: $STAGING_AWS_SECRET_ACCESS_KEY
     environment:
       BUCKET: waffles
-      CLOUDFRONT_ID: E16EOD0ZWD0L66
     steps:
       - attach_workspace:
           at: '.'
@@ -104,7 +103,7 @@ jobs:
           command: |
             export AWS_ACCESS_KEY_ID=$STAGING_AWS_ACCESS_KEY_ID
             export AWS_SECRET_ACCESS_KEY=$STAGING_AWS_SECRET_ACCESS_KEY
-            aws cloudfront create-invalidation --distribution-id ${CLOUDFRONT_ID} --paths "/index.html"
+            aws cloudfront create-invalidation --distribution-id ${STAGING_CLOUDFRONT_ID} --paths "/index.html"
   deploy-doc-site:
     docker:
       - image: ${STAGING_ECR_URL}/docker-deploy
@@ -113,7 +112,6 @@ jobs:
           aws_secret_access_key: $STAGING_AWS_SECRET_ACCESS_KEY
     environment:
       BUCKET: waffles
-      CLOUDFRONT_ID: E596C189UKISL
     steps:
       - attach_workspace:
           at: '.'
@@ -129,7 +127,7 @@ jobs:
           command: |
             export AWS_ACCESS_KEY_ID=$PROD_AWS_ACCESS_KEY_ID
             export AWS_SECRET_ACCESS_KEY=$PROD_AWS_SECRET_ACCESS_KEY
-            aws cloudfront create-invalidation --distribution-id ${CLOUDFRONT_ID} --paths "/index.html"
+            aws cloudfront create-invalidation --distribution-id ${PROD_CLOUDFRONT_ID} --paths "/index.html"
   deploy-beta-site:
     docker:
       - image: ${STAGING_ECR_URL}/docker-deploy
@@ -138,7 +136,6 @@ jobs:
           aws_secret_access_key: $STAGING_AWS_SECRET_ACCESS_KEY
     environment:
       BUCKET: waffles-beta
-      CLOUDFRONT_ID: E1CXE0Y8K4D1S7
     steps:
       - attach_workspace:
           at: '.'
@@ -154,7 +151,7 @@ jobs:
           command: |
             export AWS_ACCESS_KEY_ID=$PROD_AWS_ACCESS_KEY_ID
             export AWS_SECRET_ACCESS_KEY=$PROD_AWS_SECRET_ACCESS_KEY
-            aws cloudfront create-invalidation --distribution-id ${CLOUDFRONT_ID} --paths "/index.html"
+            aws cloudfront create-invalidation --distribution-id ${BETA_CLOUDFRONT_ID} --paths "/index.html"
   mutation-test:
     resource_class: xlarge
     docker:
