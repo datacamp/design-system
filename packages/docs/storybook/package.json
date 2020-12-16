@@ -47,7 +47,7 @@
     "@storybook/addon-a11y": "6.1.9",
     "@storybook/preset-scss": "^1.0.3",
     "babel-loader": "8.2.2",
-    "css-loader": "^4.2.0",
+    "css-loader": "^5.0.1",
     "cypress-axe": "^0.8.1",
     "cypress-storybook": "^0.2.1",
     "sass-loader": "^9.0.2",
