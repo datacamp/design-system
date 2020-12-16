@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.2.4](https://github.com/datacamp/design-system/compare/@datacamp/waffles-positioner@1.2.3...@datacamp/waffles-positioner@1.2.4) (2020-12-16)
+
+**Note:** Version bump only for package @datacamp/waffles-positioner
+
+
+
+
+
 ## [1.2.3](https://github.com/datacamp/design-system/compare/@datacamp/waffles-positioner@1.2.2...@datacamp/waffles-positioner@1.2.3) (2020-12-10)
 
 **Note:** Version bump only for package @datacamp/waffles-positioner

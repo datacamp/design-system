@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.2](https://github.com/datacamp/design-system/compare/@datacamp/waffles-flash-banner@0.2.1...@datacamp/waffles-flash-banner@0.2.2) (2020-12-16)
+
+**Note:** Version bump only for package @datacamp/waffles-flash-banner
+
+
+
+
+
 ## [0.2.1](https://github.com/datacamp/design-system/compare/@datacamp/waffles-flash-banner@0.2.0...@datacamp/waffles-flash-banner@0.2.1) (2020-10-26)
 
 

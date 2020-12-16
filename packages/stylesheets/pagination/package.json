@@ -1,8 +1,10 @@
 {
   "name": "@datacamp/waffles-pagination",
-  "version": "0.1.20",
+  "version": "0.1.21",
   "description": "The Waffles pagination",
-  "keywords": ["pagination"],
+  "keywords": [
+    "pagination"
+  ],
   "author": "Dan Denney <dd.subscriptions@gmail.com>",
   "homepage": "https://github.com/datacamp/design-system/tree/master/packages/pagination/README.md",
   "license": "MIT",

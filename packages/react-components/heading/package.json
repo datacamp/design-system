@@ -1,13 +1,15 @@
 {
   "name": "@datacamp/waffles-heading",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Creates heading element h1, h2, h3, h4, h5, h6",
   "main": "src/index.js",
   "homepage": "https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/heading/README.md",
   "scripts": {},
   "keywords": [],
   "author": "DataCamp",
-  "contributors": ["Jordan Wade <jjwade31@gmail.com>"],
+  "contributors": [
+    "Jordan Wade <jjwade31@gmail.com>"
+  ],
   "license": "MIT",
   "directories": {
     "src": "src"
@@ -16,5 +18,9 @@
     "access": "restricted"
   },
   "gitHead": "033030174dbf18623ccd9c0174108c41a9e588a1",
-  "browserslist": ["last 2 versions", "Firefox ESR", "not IE < 11"]
+  "browserslist": [
+    "last 2 versions",
+    "Firefox ESR",
+    "not IE < 11"
+  ]
 }

@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [4.1.4](https://github.com/datacamp/design-system/compare/@datacamp/waffles-text@4.1.3...@datacamp/waffles-text@4.1.4) (2020-12-16)
+
+
+### Bug Fixes
+
+* replace old prop type hacks ([ac2da11](https://github.com/datacamp/design-system/commit/ac2da11))
+
+
+
+
+
 ## [4.1.3](https://github.com/datacamp/design-system/compare/@datacamp/waffles-text@4.1.2...@datacamp/waffles-text@4.1.3) (2020-12-10)
 
 **Note:** Version bump only for package @datacamp/waffles-text

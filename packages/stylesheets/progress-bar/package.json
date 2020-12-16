@@ -1,8 +1,11 @@
 {
   "name": "@datacamp/waffles-progress-bar",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "The Waffles progress bar",
-  "keywords": ["progress", "bar"],
+  "keywords": [
+    "progress",
+    "bar"
+  ],
   "author": "Dan Denney <dd.subscriptions@gmail.com>",
   "homepage": "https://github.com/datacamp/design-system/tree/master/packages/progress-bar/README.md",
   "license": "MIT",

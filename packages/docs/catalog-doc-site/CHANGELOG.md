@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.9.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-catalog-doc-site@2.8.0...@datacamp/waffles-catalog-doc-site@2.9.0) (2020-12-16)
+
+
+### Bug Fixes
+
+* imports on resizable elements page ([a889fb3](https://github.com/datacamp/design-system/commit/a889fb3))
+
+
+### Features
+
+* update component statuses ([6d4b72e](https://github.com/datacamp/design-system/commit/6d4b72e))
+
+
+
+
+
 # [2.8.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-catalog-doc-site@2.7.0...@datacamp/waffles-catalog-doc-site@2.8.0) (2020-12-10)
 
 
