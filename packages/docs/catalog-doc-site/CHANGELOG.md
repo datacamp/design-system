@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.9.1](https://github.com/datacamp/design-system/compare/@datacamp/waffles-catalog-doc-site@2.9.0...@datacamp/waffles-catalog-doc-site@2.9.1) (2020-12-17)
+
+
+### Bug Fixes
+
+* logo on readme ([d637949](https://github.com/datacamp/design-system/commit/d637949))
+
+
+
+
+
 # [2.9.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-catalog-doc-site@2.8.0...@datacamp/waffles-catalog-doc-site@2.9.0) (2020-12-16)
 
 
