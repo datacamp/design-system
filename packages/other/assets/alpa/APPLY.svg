@@ -48,10 +48,7 @@
                 </g>
                 <g opacity="0.3" transform="translate(317.000000, 372.000000)">
                     <path d="M328.932113,0.00101985356 C311.030482,154.806678 179.092788,275 19,275 L19,275 L19,261 C171.357975,261 297.003785,147.04856 314.832658,0.00273826507 Z" fill="#FFFFFF"></path>
-                    <g fill-rule="nonzero">
-                        <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
-                        <use fill="#FFFFFF" xlink:href="#path-1"></use>
-                    </g>
+                    <polygon fill="#FFFFFF" fill-rule="nonzero" points="31.0502525 237.050253 40.9497475 246.949747 19.899 268 40.9497475 289.050253 31.0502525 298.949747 0.100505063 268"></polygon>
                     <g transform="translate(154.000000, 101.000000)">
                         <ellipse stroke="#05192D" stroke-width="14" fill="#FFFFFF" cx="76.0714286" cy="75" rx="83.0714286" ry="82"></ellipse>
                         <g transform="translate(29.000000, 48.000000)" fill="#05192D" fill-rule="nonzero">

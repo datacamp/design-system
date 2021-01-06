@@ -100,14 +100,11 @@ function SvgApply({
             d="M645.932 372.001C628.03 526.807 496.092 647 336 647v-14c152.358 0 278.004-113.951 295.833-260.997z"
             fill="#FFF"
           />
-          <g fillRule="nonzero" transform="translate(317 372)">
-            <use
-              fill="#000"
-              filter="url(#APPLY_svg__filter-2)"
-              xlinkHref="#APPLY_svg__path-1"
-            />
-            <use fill="#FFF" xlinkHref="#APPLY_svg__path-1" />
-          </g>
+          <path
+            fill="#FFF"
+            fillRule="nonzero"
+            d="M348.05 609.05l9.9 9.9L336.899 640l21.05 21.05-9.899 9.9L317.1 640z"
+          />
           <g transform="translate(471 473)">
             <ellipse
               stroke="#05192D"
