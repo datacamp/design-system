@@ -1,0 +1,413 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Social Media Buttons renders facebook button 1`] = `
+.emotion-1 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border: none;
+  border-radius: 4px;
+  border-style: solid;
+  border-width: 2px;
+  cursor: pointer;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  position: relative;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  -webkit-transition: 0.15s;
+  transition: 0.15s;
+  vertical-align: baseline;
+  white-space: nowrap;
+  background-color: transparent;
+  border-color: #05192d;
+  color: #05192d;
+  padding: 0 15px;
+  border-color: #d9d9e2;
+  color: #1778f2;
+}
+
+.emotion-1:active {
+  -webkit-transform: perspective(1px) scale(0.975);
+  -ms-transform: perspective(1px) scale(0.975);
+  transform: perspective(1px) scale(0.975);
+}
+
+.emotion-1:disabled,
+.emotion-1:hover:disabled,
+.emotion-1:active:disabled {
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+}
+
+.emotion-1:focus {
+  outline: 0;
+}
+
+.emotion-1:hover {
+  background-color: rgba(5,25,45,0.15);
+  border-color: #05192d;
+  color: #05192d;
+}
+
+.emotion-1:hover {
+  background-color: rgba(23,120,242,0.15);
+  border-color: #1778f2;
+  color: #1778f2;
+}
+
+.emotion-0 {
+  -webkit-font-smoothing: antialiased;
+  color: rgb(5,25,45);
+  font-family: Studio-Feixen-Sans,Arial;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 44px;
+  color: #05192d;
+  font-weight: bold;
+  margin-left: 8px;
+}
+
+<a
+  class="emotion-1"
+>
+  <svg
+    aria-hidden="true"
+    height="18"
+    role="img"
+    viewBox="0 0 18 18"
+    width="18"
+  >
+    <path
+      d="M10.33 18V9.79h2.873l.43-3.2H10.33V4.545c0-.926.267-1.557 1.655-1.557h1.766V.124A24.974 24.974 0 0011.175 0C8.627 0 6.882 1.491 6.882 4.23v2.36H4v3.2h2.882V18h3.448z"
+      fill="currentColor"
+      fill-rule="evenodd"
+    />
+  </svg>
+  <span
+    class="emotion-0"
+  >
+    Facebook
+  </span>
+</a>
+`;
+
+exports[`Social Media Buttons renders google button 1`] = `
+.emotion-0 {
+  -webkit-font-smoothing: antialiased;
+  color: rgb(5,25,45);
+  font-family: Studio-Feixen-Sans,Arial;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 44px;
+  color: #05192d;
+  font-weight: bold;
+  margin-left: 8px;
+}
+
+.emotion-1 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border: none;
+  border-radius: 4px;
+  border-style: solid;
+  border-width: 2px;
+  cursor: pointer;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  position: relative;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  -webkit-transition: 0.15s;
+  transition: 0.15s;
+  vertical-align: baseline;
+  white-space: nowrap;
+  background-color: transparent;
+  border-color: #05192d;
+  color: #05192d;
+  padding: 0 15px;
+  border-color: #d9d9e2;
+  color: #db4437;
+}
+
+.emotion-1:active {
+  -webkit-transform: perspective(1px) scale(0.975);
+  -ms-transform: perspective(1px) scale(0.975);
+  transform: perspective(1px) scale(0.975);
+}
+
+.emotion-1:disabled,
+.emotion-1:hover:disabled,
+.emotion-1:active:disabled {
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+}
+
+.emotion-1:focus {
+  outline: 0;
+}
+
+.emotion-1:hover {
+  background-color: rgba(5,25,45,0.15);
+  border-color: #05192d;
+  color: #05192d;
+}
+
+.emotion-1:hover {
+  background-color: rgba(219,68,55,0.15);
+  border-color: #db4437;
+  color: #db4437;
+}
+
+<a
+  class="emotion-1"
+>
+  <svg
+    aria-hidden="true"
+    height="18"
+    role="img"
+    viewBox="0 0 18 18"
+    width="18"
+  >
+    <path
+      d="M9.18 0a8.65 8.65 0 016.022 2.342l-2.57 2.57a4.89 4.89 0 00-3.452-1.35c-2.348 0-4.342 1.584-5.053 3.717a5.39 5.39 0 000 3.446c.717 2.13 2.708 3.713 5.056 3.713 1.214 0 2.255-.31 3.062-.86l-.004.003a4.174 4.174 0 001.754-2.515l.046-.222H9.18V7.378h8.488c.106.602.156 1.217.156 1.829 0 2.738-.979 5.053-2.682 6.62l.001-.001c-1.418 1.312-3.342 2.097-5.62 2.169L9.18 18a9 9 0 01-8.043-4.957l-.136-.284a9.007 9.007 0 01.136-7.798l.14-.266A8.998 8.998 0 019.18.001z"
+      fill="currentColor"
+      fill-rule="nonzero"
+    />
+  </svg>
+  <span
+    class="emotion-0"
+  >
+    Google
+  </span>
+</a>
+`;
+
+exports[`Social Media Buttons renders linked in button 1`] = `
+.emotion-0 {
+  -webkit-font-smoothing: antialiased;
+  color: rgb(5,25,45);
+  font-family: Studio-Feixen-Sans,Arial;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 44px;
+  color: #05192d;
+  font-weight: bold;
+  margin-left: 8px;
+}
+
+.emotion-1 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border: none;
+  border-radius: 4px;
+  border-style: solid;
+  border-width: 2px;
+  cursor: pointer;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  position: relative;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  -webkit-transition: 0.15s;
+  transition: 0.15s;
+  vertical-align: baseline;
+  white-space: nowrap;
+  background-color: transparent;
+  border-color: #05192d;
+  color: #05192d;
+  padding: 0 15px;
+  border-color: #d9d9e2;
+  color: #0e76a8;
+}
+
+.emotion-1:active {
+  -webkit-transform: perspective(1px) scale(0.975);
+  -ms-transform: perspective(1px) scale(0.975);
+  transform: perspective(1px) scale(0.975);
+}
+
+.emotion-1:disabled,
+.emotion-1:hover:disabled,
+.emotion-1:active:disabled {
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+}
+
+.emotion-1:focus {
+  outline: 0;
+}
+
+.emotion-1:hover {
+  background-color: rgba(5,25,45,0.15);
+  border-color: #05192d;
+  color: #05192d;
+}
+
+.emotion-1:hover {
+  background-color: rgba(14,118,168,0.15);
+  border-color: #0e76a8;
+  color: #0e76a8;
+}
+
+<a
+  class="emotion-1"
+>
+  <svg
+    aria-hidden="true"
+    height="18"
+    role="img"
+    viewBox="0 0 18 18"
+    width="18"
+  >
+    <path
+      d="M4 2c0 1.1-.7 2-2 2-1.2 0-2-.9-2-1.9C0 1 .8 0 2 0s2 .9 2 2zM0 18h4V5H0v13zM13.6 5.2c-2.1 0-3.3 1.2-3.8 2h-.1l-.2-1.7H5.9c0 1.1.1 2.4.1 3.9V18h4v-7.1c0-.4 0-.7.1-1 .3-.7.8-1.6 1.9-1.6 1.4 0 2 1.2 2 2.8V18h4v-7.4c0-3.7-1.9-5.4-4.4-5.4z"
+      fill="currentColor"
+      fill-rule="evenodd"
+    />
+  </svg>
+  <span
+    class="emotion-0"
+  >
+    LinkedIn
+  </span>
+</a>
+`;
+
+exports[`Social Media Buttons renders twitter button 1`] = `
+.emotion-0 {
+  -webkit-font-smoothing: antialiased;
+  color: rgb(5,25,45);
+  font-family: Studio-Feixen-Sans,Arial;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 44px;
+  color: #05192d;
+  font-weight: bold;
+  margin-left: 8px;
+}
+
+.emotion-1 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border: none;
+  border-radius: 4px;
+  border-style: solid;
+  border-width: 2px;
+  cursor: pointer;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  position: relative;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  -webkit-transition: 0.15s;
+  transition: 0.15s;
+  vertical-align: baseline;
+  white-space: nowrap;
+  background-color: transparent;
+  border-color: #05192d;
+  color: #05192d;
+  padding: 0 15px;
+  border-color: #d9d9e2;
+  color: #00acee;
+}
+
+.emotion-1:active {
+  -webkit-transform: perspective(1px) scale(0.975);
+  -ms-transform: perspective(1px) scale(0.975);
+  transform: perspective(1px) scale(0.975);
+}
+
+.emotion-1:disabled,
+.emotion-1:hover:disabled,
+.emotion-1:active:disabled {
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+}
+
+.emotion-1:focus {
+  outline: 0;
+}
+
+.emotion-1:hover {
+  background-color: rgba(5,25,45,0.15);
+  border-color: #05192d;
+  color: #05192d;
+}
+
+.emotion-1:hover {
+  background-color: rgba(0,172,238,0.15);
+  border-color: #00acee;
+  color: #00acee;
+}
+
+<a
+  class="emotion-1"
+>
+  <svg
+    aria-hidden="true"
+    height="18"
+    role="img"
+    viewBox="0 0 18 18"
+    width="18"
+  >
+    <path
+      d="M15.864 5.35c.008.146.01.293.01.439 0 4.491-3.417 9.668-9.666 9.668A9.61 9.61 0 011 13.93c.266.031.536.047.81.047a6.819 6.819 0 004.22-1.453 3.4 3.4 0 01-3.174-2.36 3.472 3.472 0 001.534-.058 3.4 3.4 0 01-2.725-3.332V6.73a3.39 3.39 0 001.54.426A3.397 3.397 0 012.152 2.62a9.644 9.644 0 007.003 3.55A3.396 3.396 0 0112.466 2c.977 0 1.86.411 2.48 1.072a6.842 6.842 0 002.157-.825 3.41 3.41 0 01-1.494 1.88 6.796 6.796 0 001.951-.535 6.86 6.86 0 01-1.696 1.758z"
+      fill="currentColor"
+      fill-rule="evenodd"
+    />
+  </svg>
+  <span
+    class="emotion-0"
+  >
+    Twitter
+  </span>
+</a>
+`;
