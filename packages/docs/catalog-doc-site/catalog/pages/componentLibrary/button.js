@@ -3,6 +3,10 @@ import Button, {
   ButtonGroup,
   CloseButton,
   CompactButtonGroup,
+  FacebookButton,
+  GoogleButton,
+  LinkedinButton,
+  TwitterButton,
 } from '@datacamp/waffles-button';
 import ButtonData from '@datacamp/waffles-button/componentMetadata.json';
 import Card from '@datacamp/waffles-card';
@@ -29,6 +33,10 @@ const liveEditScope = {
   ButtonGroup,
   CloseButton,
   CompactButtonGroup,
+  FacebookButton,
+  GoogleButton,
+  LinkedinButton,
+  TwitterButton,
   ...Icons,
 };
 
@@ -65,15 +73,27 @@ export default () => {
                 <Code>ButtonGroup</Code>.
               </List.Item>
               <List.Item>
+                <Strong>
+                  FacebookButton, GoogleButton, LinkedinButton, TwitterButton -
+                </Strong>{' '}
+                Custom buttons with the correct colours for the various social
+                media platforms.
+              </List.Item>
+              <List.Item>
                 <Strong>CloseButton –</Strong> Used internally in other waffles
                 components. Please contact the team directly if you are
                 considering using in your own components.
               </List.Item>
             </List>
             <CodeBlock>
-              {
-                "import Button, { ButtonGroup, CompactButtonGroup } from '@datacamp/waffles-button';"
-              }
+              {`import Button, {
+  ButtonGroup,
+  CompactButtonGroup,
+  FacebookButton,
+  GoogleButton,
+  LinkedinButton,
+  TwitterButton,
+} from '@datacamp/waffles-button';`}
             </CodeBlock>
           </Card>
 
@@ -118,6 +138,23 @@ export default () => {
   >
     Open Link
   </Button>
+</ButtonGroup>`}
+              scope={liveEditScope}
+            />
+          </Card>
+          <Card css={{ marginTop: 16, padding: 24 }} elevation={2}>
+            <Heading as="h3" size={500}>
+              Social Media Example
+            </Heading>
+            <Paragraph>
+              This example shows the selection of social media buttons.
+            </Paragraph>
+            <LazyLiveEditCells
+              code={`<ButtonGroup>
+  <FacebookButton />
+  <TwitterButton />
+  <GoogleButton />
+  <LinkedinButton />
 </ButtonGroup>`}
               scope={liveEditScope}
             />
