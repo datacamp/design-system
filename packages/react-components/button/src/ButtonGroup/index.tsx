@@ -7,6 +7,12 @@ import React from 'react';
 
 import Button from '../Button';
 import CompactButtonGroup from '../CompactButtonGroup';
+import {
+  FacebookButton,
+  GoogleButton,
+  LinkedinButton,
+  TwitterButton,
+} from '../SocialMediaButtons';
 
 interface ButtonGroupProps {
   children: React.ReactNode;
@@ -74,6 +80,10 @@ ButtonGroup.propTypes = {
   children: PropTypes.arrayOf(
     PropTypes.oneOfType([
       childrenOfType(Button),
+      childrenOfType(FacebookButton),
+      childrenOfType(GoogleButton),
+      childrenOfType(LinkedinButton),
+      childrenOfType(TwitterButton),
       childrenOfType(CompactButtonGroup),
     ]),
   ).isRequired,

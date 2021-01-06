@@ -4,6 +4,12 @@ import PropTypes from 'prop-types';
 import React from 'react';
 
 import Button, { ButtonProps } from '../Button';
+import {
+  FacebookButton,
+  GoogleButton,
+  LinkedinButton,
+  TwitterButton,
+} from '../SocialMediaButtons';
 
 interface CompactButtonGroupProps {
   /**
@@ -75,7 +81,15 @@ const CompactButtonGroup = ({
 };
 
 CompactButtonGroup.propTypes = {
-  children: PropTypes.arrayOf(childrenOfType(Button).isRequired).isRequired,
+  children: PropTypes.arrayOf(
+    PropTypes.oneOfType([
+      childrenOfType(Button),
+      childrenOfType(FacebookButton),
+      childrenOfType(GoogleButton),
+      childrenOfType(LinkedinButton),
+      childrenOfType(TwitterButton),
+    ]).isRequired,
+  ).isRequired,
 } as React.WeakValidationMap<CompactButtonGroupProps>;
 
 export default CompactButtonGroup;
