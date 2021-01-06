@@ -4,6 +4,10 @@ import Button, {
   ButtonGroup,
   CloseButton,
   CompactButtonGroup,
+  FacebookButton,
+  GoogleButton,
+  LinkedinButton,
+  TwitterButton,
 } from '@datacamp/waffles-button';
 import { AddCircleIcon, ChevronDownIcon } from '@datacamp/waffles-icons';
 import tokens from '@datacamp/waffles-tokens/lib/future-tokens.json';
@@ -194,4 +198,12 @@ storiesOf('waffles-button', module)
 
       <CloseButton css={{ left: 50 }} disabled />
     </>
+  ))
+  .add('Social Media Buttons', () => (
+    <ButtonGroup>
+      <FacebookButton />
+      <TwitterButton />
+      <GoogleButton />
+      <LinkedinButton />
+    </ButtonGroup>
   ));
