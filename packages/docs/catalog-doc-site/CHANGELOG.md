@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.10.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-catalog-doc-site@2.9.1...@datacamp/waffles-catalog-doc-site@2.10.0) (2021-01-07)
+
+
+### Features
+
+* add docs for social media buttons ([742f66a](https://github.com/datacamp/design-system/commit/742f66a))
+* remove documentation for topics ([8c42932](https://github.com/datacamp/design-system/commit/8c42932))
+
+
+
+
+
 ## [2.9.1](https://github.com/datacamp/design-system/compare/@datacamp/waffles-catalog-doc-site@2.9.0...@datacamp/waffles-catalog-doc-site@2.9.1) (2020-12-17)
 
 

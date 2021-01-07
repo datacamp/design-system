@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [6.3.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-button@6.2.6...@datacamp/waffles-button@6.3.0) (2021-01-07)
+
+
+### Features
+
+* accept social media buttons in button groups ([b126975](https://github.com/datacamp/design-system/commit/b126975))
+* add social media buttons ([b21ed53](https://github.com/datacamp/design-system/commit/b21ed53))
+
+
+
+
+
 ## [6.2.6](https://github.com/datacamp/design-system/compare/@datacamp/waffles-button@6.2.5...@datacamp/waffles-button@6.2.6) (2020-12-16)
 
 **Note:** Version bump only for package @datacamp/waffles-button

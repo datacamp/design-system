@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.2.4](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/icons/compare/@datacamp/waffles-icons@2.2.3...@datacamp/waffles-icons@2.2.4) (2021-01-07)
+
+
+### Bug Fixes
+
+* remove id attributes from icons ([a7a7971](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/icons/commit/a7a7971))
+
+
+
+
+
 ## [2.2.3](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/icons/compare/@datacamp/waffles-icons@2.2.2...@datacamp/waffles-icons@2.2.3) (2020-12-16)
 
 **Note:** Version bump only for package @datacamp/waffles-icons

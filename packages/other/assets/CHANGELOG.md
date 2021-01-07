@@ -3,6 +3,30 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [3.0.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-assets@2.0.1...@datacamp/waffles-assets@3.0.0) (2021-01-07)
+
+
+### Bug Fixes
+
+* missing arrow ([6be506b](https://github.com/datacamp/design-system/commit/6be506b))
+* remove datacamp b2b logos ([5694d05](https://github.com/datacamp/design-system/commit/5694d05))
+* remove IDs from asset svgs ([6cbd69a](https://github.com/datacamp/design-system/commit/6cbd69a))
+
+
+### Features
+
+* remove topic logos ([4e2f9d3](https://github.com/datacamp/design-system/commit/4e2f9d3))
+
+
+### BREAKING CHANGES
+
+* Topic logos have been deleted
+* The DataCamp B2B logos have been deleted
+
+
+
+
+
 ## [2.0.1](https://github.com/datacamp/design-system/compare/@datacamp/waffles-assets@2.0.0...@datacamp/waffles-assets@2.0.1) (2020-12-16)
 
 **Note:** Version bump only for package @datacamp/waffles-assets

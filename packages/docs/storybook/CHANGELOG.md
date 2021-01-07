@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.6.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-storybook@2.5.1...@datacamp/waffles-storybook@2.6.0) (2021-01-07)
+
+
+### Features
+
+* add story for social media buttons ([3616c97](https://github.com/datacamp/design-system/commit/3616c97))
+* remove topics from stories ([476d570](https://github.com/datacamp/design-system/commit/476d570))
+
+
+
+
+
 ## [2.5.1](https://github.com/datacamp/design-system/compare/@datacamp/waffles-storybook@2.5.0...@datacamp/waffles-storybook@2.5.1) (2020-12-16)
 
 **Note:** Version bump only for package @datacamp/waffles-storybook
