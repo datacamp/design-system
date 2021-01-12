@@ -4,13 +4,7 @@
   "main": "lib/index.js",
   "module": "es/index.js",
   "react-native": "mobile/index.js",
-  "files": [
-    "es",
-    "lib",
-    "types",
-    "sprites",
-    "mobile"
-  ],
+  "files": ["es", "lib", "types", "sprites", "mobile"],
   "license": "MIT",
   "sideEffects": false,
   "repository": {
@@ -44,17 +38,19 @@
     "gulp-zip": "^5.0.2",
     "merge-stream": "^2.0.0",
     "react": "17.0.1",
+    "react-native-svg": "^9.13.6",
     "sharp": "0.26.2",
     "typescript": "3.9.7"
   },
   "dependencies": {
     "@babel/runtime": "^7.12.1",
     "@types/react-native": "^0.60.31",
-    "prop-types": "^15.7.2",
-    "react-native-svg": "^9.13.6"
+    "prop-types": "^15.7.2"
   },
   "peerDependencies": {
     "@emotion/core": "^10.0.17",
-    "react": "^16.8.6 || ^17.0.1"
-  }
+    "react": "^16.8.6 || ^17.0.1",
+    "react-native-svg": "^9.13.6"
+  },
+  "peerDependenciesMeta": { "react-native-svg": { "optional": true } }
 }
