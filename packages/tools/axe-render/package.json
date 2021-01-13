@@ -6,7 +6,7 @@
   "license": "MIT",
   "private": true,
   "dependencies": {
-    "jest-axe": "3.5.0"
+    "jest-axe": "4.1.0"
   },
   "devDependencies": {
     "@testing-library/react": "11.2.2"
