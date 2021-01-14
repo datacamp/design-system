@@ -1,4 +1,4 @@
-import { css } from '@emotion/core';
+import { css } from '@emotion/react';
 import React, { ReactElement, ReactNode } from 'react';
 
 const listItemStyle = css({

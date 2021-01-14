@@ -2,7 +2,7 @@ import Card from '@datacamp/waffles-card';
 import { Heading, Paragraph, Text } from '@datacamp/waffles-text';
 import tokens from '@datacamp/waffles-tokens/lib/future-tokens.json';
 /* @jsx jsx */
-import { jsx } from '@emotion/core';
+import { jsx } from '@emotion/react';
 import React from 'react';
 
 const getTypeString = ({ tsType, type }) => {

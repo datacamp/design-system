@@ -1,5 +1,5 @@
 import Positioner from '@datacamp/waffles-positioner';
-import { css } from '@emotion/core';
+import { css } from '@emotion/react';
 import { storiesOf } from '@storybook/react';
 import React from 'react';
 

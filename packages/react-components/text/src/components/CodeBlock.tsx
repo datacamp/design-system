@@ -3,7 +3,7 @@ import {
   computeDataAttributes,
   ssrSafeNotFirstChildSelector,
 } from '@datacamp/waffles-utils';
-import { css } from '@emotion/core';
+import { css } from '@emotion/react';
 import React, { ReactElement } from 'react';
 
 import codeStyle from '../codeStyle';

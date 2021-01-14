@@ -1,5 +1,5 @@
 import tokens from '@datacamp/waffles-tokens/lib/future-tokens.json';
-import { css, SerializedStyles } from '@emotion/core';
+import { css, SerializedStyles } from '@emotion/react';
 import _ from 'lodash';
 import tinycolor from 'tinycolor2';
 

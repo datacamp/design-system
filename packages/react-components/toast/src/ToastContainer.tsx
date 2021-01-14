@@ -1,5 +1,5 @@
 import tokens from '@datacamp/waffles-tokens/lib/future-tokens.json';
-import { ClassNames, keyframes } from '@emotion/core';
+import { ClassNames, keyframes } from '@emotion/react';
 import React from 'react';
 import {
   cssTransition,

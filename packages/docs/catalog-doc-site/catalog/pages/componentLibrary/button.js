@@ -20,7 +20,7 @@ import {
   Strong,
 } from '@datacamp/waffles-text';
 /* @jsx jsx */
-import { jsx } from '@emotion/core';
+import { jsx } from '@emotion/react';
 import { Page } from 'catalog';
 import React from 'react';
 

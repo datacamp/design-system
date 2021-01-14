@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<CheckboxList> snapshots renders a checkbox list 1`] = `
-.emotion-16 {
+.emotion-0 {
   border: 0;
   display: block;
   margin: 0;
@@ -10,18 +10,18 @@ exports[`<CheckboxList> snapshots renders a checkbox list 1`] = `
   padding: 0;
 }
 
-*:not(style) ~ .emotion-16 {
+*:not(style)~.emotion-0 {
   margin-top: 16px;
 }
 
-.emotion-2 {
+.emotion-1 {
   display: block;
   margin-bottom: 12px;
   padding: 0;
   width: 100%;
 }
 
-.emotion-1 {
+.emotion-2 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -32,14 +32,13 @@ exports[`<CheckboxList> snapshots renders a checkbox list 1`] = `
   display: inline-flex;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
   justify-content: space-between;
   width: 100%;
 }
 
-.emotion-0 {
+.emotion-3 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(5,25,45);
+  color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
   font-size: 16px;
@@ -56,7 +55,7 @@ exports[`<CheckboxList> snapshots renders a checkbox list 1`] = `
   white-space: nowrap;
 }
 
-.emotion-6 {
+.emotion-4 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -70,37 +69,27 @@ exports[`<CheckboxList> snapshots renders a checkbox list 1`] = `
   position: relative;
 }
 
-*:not(style) ~ .emotion-6 {
+*:not(style)~.emotion-4 {
   margin-top: 10px;
 }
 
 .emotion-5 {
-  -webkit-font-smoothing: antialiased;
-  color: rgb(5,25,45);
-  font-family: Studio-Feixen-Sans,Arial;
-  font-style: normal;
-  font-size: 16px;
-  font-weight: 400;
-  margin-left: 24px;
-}
-
-.emotion-3 {
   opacity: 0;
   position: absolute;
   width: 0;
 }
 
-.emotion-3:active + span {
+.emotion-5:active+span {
   border-color: #dd3400;
   color: #dd3400;
 }
 
-.emotion-3:focus + span {
+.emotion-5:focus+span {
   border-color: #dd3400;
   color: #dd3400;
 }
 
-.emotion-4 {
+.emotion-6 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -117,17 +106,69 @@ exports[`<CheckboxList> snapshots renders a checkbox list 1`] = `
   display: flex;
   height: 18px;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
+  -webkit-justify-content: center;
   justify-content: center;
   opacity: 1;
   position: absolute;
   width: 18px;
 }
 
+.emotion-7 {
+  -webkit-font-smoothing: antialiased;
+  color: rgb(5, 25, 45);
+  font-family: Studio-Feixen-Sans,Arial;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  margin-left: 24px;
+}
+
+.emotion-13 {
+  opacity: 0;
+  position: absolute;
+  width: 0;
+}
+
+.emotion-14 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-color: #ff5400;
+  border-radius: 4px;
+  border-style: solid;
+  border-width: 2px;
+  box-sizing: border-box;
+  color: #ff5400;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 18px;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  opacity: 0.3;
+  position: absolute;
+  width: 18px;
+}
+
 .emotion-15 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(5,25,45);
+  color: rgb(5, 25, 45);
+  font-family: Studio-Feixen-Sans,Arial;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  margin-left: 24px;
+  opacity: 0.3;
+}
+
+.emotion-16 {
+  -webkit-font-smoothing: antialiased;
+  color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
   font-size: 16px;
@@ -138,59 +179,17 @@ exports[`<CheckboxList> snapshots renders a checkbox list 1`] = `
   margin-top: 8px;
 }
 
-.emotion-13 {
-  -webkit-font-smoothing: antialiased;
-  color: rgb(5,25,45);
-  font-family: Studio-Feixen-Sans,Arial;
-  font-style: normal;
-  font-size: 16px;
-  font-weight: 400;
-  margin-left: 24px;
-  opacity: 0.3;
-}
-
-.emotion-11 {
-  opacity: 0;
-  position: absolute;
-  width: 0;
-}
-
-.emotion-12 {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  border-color: #ff5400;
-  border-radius: 4px;
-  border-style: solid;
-  border-width: 2px;
-  box-sizing: border-box;
-  color: #ff5400;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  height: 18px;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  opacity: 0.3;
-  position: absolute;
-  width: 18px;
-}
-
 <fieldset
-  class="emotion-16"
+  class="emotion-0"
 >
   <legend
-    class="emotion-2"
+    class="emotion-1"
   >
     <span
-      class="emotion-1"
+      class="emotion-2"
     >
       <span
-        class="emotion-0"
+        class="emotion-3"
       >
         test label
       </span>
@@ -198,18 +197,18 @@ exports[`<CheckboxList> snapshots renders a checkbox list 1`] = `
   </legend>
   <div>
     <label
-      class="emotion-6"
+      class="emotion-4"
       for="test value"
     >
       <input
         checked=""
-        class="emotion-3"
+        class="emotion-5"
         id="test value"
         name="test-name"
         type="checkbox"
       />
       <span
-        class="emotion-4"
+        class="emotion-6"
       >
         <svg
           aria-hidden="true"
@@ -226,53 +225,53 @@ exports[`<CheckboxList> snapshots renders a checkbox list 1`] = `
         </svg>
       </span>
       <span
-        class="emotion-5"
+        class="emotion-7"
       >
         item 1
       </span>
     </label>
     <label
-      class="emotion-6"
+      class="emotion-4"
       for="value2"
     >
       <input
-        class="emotion-3"
+        class="emotion-5"
         id="value2"
         name="test-name"
         type="checkbox"
       />
       <span
-        class="emotion-4"
+        class="emotion-6"
       />
       <span
-        class="emotion-5"
+        class="emotion-7"
       >
         item 2
       </span>
     </label>
     <label
-      class="emotion-6"
+      class="emotion-4"
       for="value2"
     >
       <input
-        class="emotion-11"
+        class="emotion-13"
         disabled=""
         id="value2"
         name="test-name"
         type="checkbox"
       />
       <span
-        class="emotion-12"
+        class="emotion-14"
       />
       <span
-        class="emotion-13"
+        class="emotion-15"
       >
         item 3
       </span>
     </label>
   </div>
   <span
-    class="emotion-15"
+    class="emotion-16"
   >
     test error
   </span>

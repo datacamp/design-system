@@ -4,16 +4,9 @@
   "main": "lib/index.js",
   "module": "es/index.js",
   "types": "types/index.d.ts",
-  "files": [
-    "es",
-    "lib",
-    "types"
-  ],
+  "files": ["es", "lib", "types"],
   "license": "MIT",
-  "sideEffects": [
-    "lib/sideEffects/*",
-    "es/sideEffects/*"
-  ],
+  "sideEffects": ["lib/sideEffects/*", "es/sideEffects/*"],
   "scripts": {
     "build:cjs": "BABEL_ENV=cjs babel src --extensions '.tsx','.ts' --out-dir lib --ignore \"src/**/*.spec.tsx\",\"src/**/*.spec.ts\" --config-file ./babel7.config.js",
     "build:es": "BABEL_ENV=es babel src --extensions '.tsx','.ts' --out-dir es --ignore \"src/**/*.spec.tsx\",\"src/**/*.spec.ts\" --config-file ./babel7.config.js",
@@ -22,7 +15,7 @@
     "build:metadata": "react-docgen src --exclude \"/^.+spec.+$/\" -x tsx -o componentMetadata.json --resolver findAllComponentDefinitions",
     "build": "yarn build:types && yarn build:cjs && yarn build:es && yarn build:metadata",
     "prepare": " yarn clean && yarn build",
-    "test": "jest",
+    "test": "jest -u",
     "type-check": "tsc --noEmit",
     "watch": "yarn build:es --watch",
     "stryker": "stryker run"
@@ -33,7 +26,8 @@
     "@datacamp/waffles-axe-render": "^1.2.8",
     "@datacamp/waffles-babel-preset": "^2.0.7",
     "@datacamp/waffles-tsconfig": "^1.1.13",
-    "@emotion/core": "^10.0.17",
+    "@emotion/jest": "11.1.0",
+    "@emotion/react": "^11.0.0",
     "@stryker-mutator/core": "^4.3.1",
     "@stryker-mutator/html-reporter": "^3.1.0",
     "@stryker-mutator/typescript": "^4.0.0",
@@ -42,7 +36,6 @@
     "@types/lodash": "4.14.165",
     "babel-jest": "26.6.3",
     "jest": "26.6.1",
-    "jest-emotion": "10.0.32",
     "react": "17.0.1",
     "react-docgen": "5.3.1",
     "react-dom": "17.0.1"
@@ -58,7 +51,7 @@
     "tinycolor2": "^1.4.2"
   },
   "peerDependencies": {
-    "@emotion/core": "^10.0.17",
+    "@emotion/react": "^11.0.0",
     "react": "^16.8.6 || ^17.0.1",
     "react-dom": "^16.8.6 || ^17.0.1"
   }

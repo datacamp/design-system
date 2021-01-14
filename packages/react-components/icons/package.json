@@ -54,7 +54,7 @@
     "prop-types": "^15.7.2"
   },
   "peerDependencies": {
-    "@emotion/core": "^10.0.17",
+    "@emotion/react": "^11.0.0",
     "react": "^16.8.6 || ^17.0.1",
     "react-native-svg": "^12.1.0"
   },

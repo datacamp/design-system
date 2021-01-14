@@ -1,6 +1,6 @@
 import Button, { ButtonGroup } from '@datacamp/waffles-button';
 import { Heading, Paragraph } from '@datacamp/waffles-text';
-import { css } from '@emotion/core';
+import { css } from '@emotion/react';
 import React, { createRef } from 'react';
 
 import BaseDialog, { CloseOrigin as BaseCloseOrigin } from '../BaseDialog';

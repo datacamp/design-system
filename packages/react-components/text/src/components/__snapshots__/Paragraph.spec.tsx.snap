@@ -1,9 +1,9 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<Paragraph /> renders with Strong, Small, Text, Link and Emphasis children 1`] = `
-.emotion-5 {
+.emotion-0 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(5,25,45);
+  color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
   font-size: 16px;
@@ -12,40 +12,40 @@ exports[`<Paragraph /> renders with Strong, Small, Text, Link and Emphasis child
   margin: 0;
 }
 
-*:not(style) ~ .emotion-5 {
+*:not(style)~.emotion-0 {
   margin-top: 8px;
 }
 
-.emotion-0 {
+.emotion-1 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(5,25,45);
+  color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
   font-weight: 800;
   line-height: 16px;
 }
 
-.emotion-1 {
+.emotion-2 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(5,25,45);
+  color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
 }
 
-.emotion-2 {
+.emotion-3 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(5,25,45);
+  color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
   font-size: 14px;
   line-height: 16px;
 }
 
-.emotion-3 {
+.emotion-4 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(5,25,45);
+  color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
   font-style: italic;
@@ -53,9 +53,9 @@ exports[`<Paragraph /> renders with Strong, Small, Text, Link and Emphasis child
   line-height: 16px;
 }
 
-.emotion-4 {
+.emotion-5 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(5,25,45);
+  color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
   color: #007bb6;
@@ -67,46 +67,46 @@ exports[`<Paragraph /> renders with Strong, Small, Text, Link and Emphasis child
   text-decoration: none;
 }
 
-.emotion-4:hover {
+.emotion-5:hover {
   -webkit-text-decoration: underline;
   text-decoration: underline;
 }
 
 <p
-  class="example-class emotion-5"
+  class="example-class emotion-0"
   data-example="testdata"
   data-item="othertest"
 >
   Some example text 
   <strong
-    class="emotion-0"
+    class="emotion-1"
   >
     with strong
   </strong>
    included, and also some
    
   <span
-    class="emotion-1"
+    class="emotion-2"
   >
     custom text
   </span>
   . It has some 
   <small
-    class="emotion-2"
+    class="emotion-3"
   >
     small text
   </small>
    and
    
   <em
-    class="emotion-3"
+    class="emotion-4"
   >
     emphasis text
   </em>
   . It also contains
    
   <a
-    class="emotion-4"
+    class="emotion-5"
     href="https://datacamp.com"
   >
     a link
@@ -118,7 +118,7 @@ exports[`<Paragraph /> renders with Strong, Small, Text, Link and Emphasis child
 exports[`<Paragraph /> renders with a string 1`] = `
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(5,25,45);
+  color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
   font-size: 16px;
@@ -127,7 +127,7 @@ exports[`<Paragraph /> renders with a string 1`] = `
   margin: 0;
 }
 
-*:not(style) ~ .emotion-0 {
+*:not(style)~.emotion-0 {
   margin-top: 8px;
 }
 

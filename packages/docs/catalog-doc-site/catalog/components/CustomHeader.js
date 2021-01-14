@@ -1,6 +1,6 @@
 import tokens from '@datacamp/waffles-tokens/lib/future-tokens.json';
 /* @jsx jsx */
-import { jsx } from '@emotion/core';
+import { jsx } from '@emotion/react';
 import PropTypes from 'prop-types';
 import React from 'react';
 

@@ -1,6 +1,6 @@
 import logomarkSpinnerNavyData from '@datacamp/waffles-animations/logomark-spinner-navy.json';
 import logomarkSpinnerWhiteData from '@datacamp/waffles-animations/logomark-spinner-white.json';
-import { css } from '@emotion/core';
+import { css } from '@emotion/react';
 import Lottie from 'lottie-react';
 import React from 'react';
 

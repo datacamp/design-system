@@ -1,4 +1,4 @@
-import { css, keyframes } from '@emotion/core';
+import { css, keyframes } from '@emotion/react';
 
 const spinner = keyframes`0%
 { opacity: 0; }

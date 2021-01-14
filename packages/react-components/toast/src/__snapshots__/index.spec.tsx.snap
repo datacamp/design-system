@@ -1,21 +1,20 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`toast mounts a success toast 1`] = `
-.emotion-5 {
+.emotion-0 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
   background: white;
   border-radius: 4px;
-  box-shadow: 0px 0px 1px 0px rgba(5,25,45,0.3),0px 8px 12px -4px rgba(5,25,45,0.3);
+  box-shadow: 0px 0px 1px 0px rgba(5, 25, 45, 0.3),0px 8px 12px -4px rgba(5, 25, 45, 0.3);
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
   justify-content: space-between;
   max-width: 512px;
   min-width: 250px;
@@ -23,7 +22,7 @@ exports[`toast mounts a success toast 1`] = `
   z-index: 999;
 }
 
-.emotion-0 {
+.emotion-1 {
   background-color: #03ef62;
   border-radius: 4px 0px 0px 4px;
   height: 100%;
@@ -31,7 +30,7 @@ exports[`toast mounts a success toast 1`] = `
   width: 4px;
 }
 
-.emotion-1 {
+.emotion-2 {
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
@@ -46,29 +45,26 @@ exports[`toast mounts a success toast 1`] = `
   margin: 12px;
 }
 
-.emotion-2 {
+.emotion-4 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(5,25,45);
+  color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
-  color: rgb(5,25,45);
+  color: rgb(5, 25, 45);
   font-weight: 800;
   margin: 0;
   overflow: reset;
   white-space: normal;
   font-size: 16px;
-  -webkit-letter-spacing: 0;
-  -moz-letter-spacing: 0;
-  -ms-letter-spacing: 0;
   letter-spacing: 0;
   line-height: 1.2;
 }
 
-*:not(style) ~ .emotion-2 {
+*:not(style)~.emotion-4 {
   margin-top: 16px;
 }
 
-.emotion-4 {
+.emotion-5 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -76,7 +72,7 @@ exports[`toast mounts a success toast 1`] = `
   background-color: white;
   border: none;
   border-radius: 2px;
-  color: rgb(5,25,45);
+  color: rgb(5, 25, 45);
   cursor: pointer;
   display: -webkit-box;
   display: -webkit-flex;
@@ -87,8 +83,8 @@ exports[`toast mounts a success toast 1`] = `
   flex-direction: column;
   height: 20px;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
+  -webkit-justify-content: center;
   justify-content: center;
   outline: none;
   padding: 0;
@@ -100,25 +96,25 @@ exports[`toast mounts a success toast 1`] = `
   margin-right: 12px;
 }
 
-.emotion-4:active {
-  color: rgb(3,239,98);
+.emotion-5:active {
+  color: rgb(3, 239, 98);
 }
 
-.emotion-4:disabled {
+.emotion-5:disabled {
   color: #D1D3D8;
 }
 
-.emotion-4:disabled:hover,
-.emotion-4:disabled:focus {
+.emotion-5:disabled:hover,
+.emotion-5:disabled:focus {
   background-color: transparent;
 }
 
-.emotion-4:focus {
-  background-color: rgb(239,239,239);
+.emotion-5:focus {
+  background-color: rgb(239, 239, 239);
 }
 
-.emotion-4:hover {
-  background-color: rgb(239,239,239);
+.emotion-5:hover {
+  background-color: rgb(239, 239, 239);
 }
 
 <div
@@ -126,14 +122,14 @@ exports[`toast mounts a success toast 1`] = `
   role="alert"
 >
   <div
-    class="emotion-5"
+    class="emotion-0"
   >
     <div
-      class="emotion-0"
+      class="emotion-1"
     />
     <svg
       aria-hidden="false"
-      class="emotion-1"
+      class="emotion-2"
       height="18"
       role="img"
       viewBox="0 0 18 18"
@@ -152,14 +148,14 @@ exports[`toast mounts a success toast 1`] = `
       class="emotion-3"
     >
       <h4
-        class="emotion-2"
+        class="emotion-4"
       >
         test toast title
       </h4>
     </div>
     <button
       aria-label="Close"
-      class="emotion-4"
+      class="emotion-5"
       type="button"
     >
       <svg
@@ -184,21 +180,20 @@ exports[`toast mounts a success toast 1`] = `
 `;
 
 exports[`toast mounts an error toast 1`] = `
-.emotion-5 {
+.emotion-0 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
   background: white;
   border-radius: 4px;
-  box-shadow: 0px 0px 1px 0px rgba(5,25,45,0.3),0px 8px 12px -4px rgba(5,25,45,0.3);
+  box-shadow: 0px 0px 1px 0px rgba(5, 25, 45, 0.3),0px 8px 12px -4px rgba(5, 25, 45, 0.3);
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
   justify-content: space-between;
   max-width: 512px;
   min-width: 250px;
@@ -207,6 +202,14 @@ exports[`toast mounts an error toast 1`] = `
 }
 
 .emotion-1 {
+  background-color: #ff5400;
+  border-radius: 4px 0px 0px 4px;
+  height: 100%;
+  position: absolute;
+  width: 4px;
+}
+
+.emotion-2 {
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
@@ -221,29 +224,26 @@ exports[`toast mounts an error toast 1`] = `
   margin: 12px;
 }
 
-.emotion-2 {
+.emotion-4 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(5,25,45);
+  color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
-  color: rgb(5,25,45);
+  color: rgb(5, 25, 45);
   font-weight: 800;
   margin: 0;
   overflow: reset;
   white-space: normal;
   font-size: 16px;
-  -webkit-letter-spacing: 0;
-  -moz-letter-spacing: 0;
-  -ms-letter-spacing: 0;
   letter-spacing: 0;
   line-height: 1.2;
 }
 
-*:not(style) ~ .emotion-2 {
+*:not(style)~.emotion-4 {
   margin-top: 16px;
 }
 
-.emotion-4 {
+.emotion-5 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -251,7 +251,7 @@ exports[`toast mounts an error toast 1`] = `
   background-color: white;
   border: none;
   border-radius: 2px;
-  color: rgb(5,25,45);
+  color: rgb(5, 25, 45);
   cursor: pointer;
   display: -webkit-box;
   display: -webkit-flex;
@@ -262,8 +262,8 @@ exports[`toast mounts an error toast 1`] = `
   flex-direction: column;
   height: 20px;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
+  -webkit-justify-content: center;
   justify-content: center;
   outline: none;
   padding: 0;
@@ -275,33 +275,25 @@ exports[`toast mounts an error toast 1`] = `
   margin-right: 12px;
 }
 
-.emotion-4:active {
-  color: rgb(3,239,98);
+.emotion-5:active {
+  color: rgb(3, 239, 98);
 }
 
-.emotion-4:disabled {
+.emotion-5:disabled {
   color: #D1D3D8;
 }
 
-.emotion-4:disabled:hover,
-.emotion-4:disabled:focus {
+.emotion-5:disabled:hover,
+.emotion-5:disabled:focus {
   background-color: transparent;
 }
 
-.emotion-4:focus {
-  background-color: rgb(239,239,239);
+.emotion-5:focus {
+  background-color: rgb(239, 239, 239);
 }
 
-.emotion-4:hover {
-  background-color: rgb(239,239,239);
-}
-
-.emotion-0 {
-  background-color: #ff5400;
-  border-radius: 4px 0px 0px 4px;
-  height: 100%;
-  position: absolute;
-  width: 4px;
+.emotion-5:hover {
+  background-color: rgb(239, 239, 239);
 }
 
 <div
@@ -309,14 +301,14 @@ exports[`toast mounts an error toast 1`] = `
   role="alert"
 >
   <div
-    class="emotion-5"
+    class="emotion-0"
   >
     <div
-      class="emotion-0"
+      class="emotion-1"
     />
     <svg
       aria-hidden="false"
-      class="emotion-1"
+      class="emotion-2"
       height="18"
       role="img"
       viewBox="0 0 18 18"
@@ -335,14 +327,14 @@ exports[`toast mounts an error toast 1`] = `
       class="emotion-3"
     >
       <h4
-        class="emotion-2"
+        class="emotion-4"
       >
         test toast title
       </h4>
     </div>
     <button
       aria-label="Close"
-      class="emotion-4"
+      class="emotion-5"
       type="button"
     >
       <svg

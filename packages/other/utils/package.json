@@ -8,11 +8,7 @@
   "main": "lib/index.js",
   "module": "es/index.js",
   "types": "types/index.d.ts",
-  "files": [
-    "es",
-    "lib",
-    "types"
-  ],
+  "files": ["es", "lib", "types"],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/datacamp/design-system.git"
@@ -25,7 +21,7 @@
     "build:types": "tsc --rootDir src --declarationDir types --emitDeclarationOnly",
     "build": "yarn build:types && yarn build:cjs && yarn build:es && yarn build:legacy",
     "prepare": " yarn clean && yarn build",
-    "test": "jest",
+    "test": "jest -u",
     "type-check": "tsc --noEmit",
     "watch": "yarn build:es --watch"
   },

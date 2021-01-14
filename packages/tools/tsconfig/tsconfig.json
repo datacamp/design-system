@@ -8,6 +8,7 @@
     "esModuleInterop": true,
     "resolveJsonModule": true,
     "jsx": "preserve",
-    "skipLibCheck": true
+    "skipLibCheck": true,
+    "jsxImportSource": "@emotion/react"
   }
 }

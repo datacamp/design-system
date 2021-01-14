@@ -2,7 +2,7 @@
 /* @jsx jsx */
 import { DatacampLogo } from '@datacamp/waffles-asset-components';
 import { DownloadIcon } from '@datacamp/waffles-icons';
-import { css, jsx } from '@emotion/core';
+import { css, jsx } from '@emotion/react';
 import { Page } from 'catalog';
 import React from 'react';
 

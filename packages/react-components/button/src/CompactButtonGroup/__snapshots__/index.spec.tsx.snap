@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`CompactButtonGroup renders the buttons next to each other 1`] = `
-.emotion-6 {
+.emotion-0 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -24,8 +24,8 @@ exports[`CompactButtonGroup renders the buttons next to each other 1`] = `
   display: -ms-inline-flexbox;
   display: inline-flex;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
+  -webkit-justify-content: center;
   justify-content: center;
   position: relative;
   -webkit-text-decoration: none;
@@ -45,6 +45,7 @@ exports[`CompactButtonGroup renders the buttons next to each other 1`] = `
 
 .emotion-1:active {
   -webkit-transform: perspective(1px) scale(0.975);
+  -moz-transform: perspective(1px) scale(0.975);
   -ms-transform: perspective(1px) scale(0.975);
   transform: perspective(1px) scale(0.975);
 }
@@ -53,6 +54,7 @@ exports[`CompactButtonGroup renders the buttons next to each other 1`] = `
 .emotion-1:hover:disabled,
 .emotion-1:active:disabled {
   -webkit-transform: none;
+  -moz-transform: none;
   -ms-transform: none;
   transform: none;
 }
@@ -62,13 +64,14 @@ exports[`CompactButtonGroup renders the buttons next to each other 1`] = `
 }
 
 .emotion-1:hover {
-  background-color: rgba(5,25,45,0.15);
+  background-color: rgba(5, 25, 45, 0.15);
   border-color: #05192d;
   color: #05192d;
 }
 
 .emotion-1:active {
   -webkit-transform: none;
+  -moz-transform: none;
   -ms-transform: none;
   transform: none;
 }
@@ -77,9 +80,9 @@ exports[`CompactButtonGroup renders the buttons next to each other 1`] = `
   box-shadow: none;
 }
 
-.emotion-0 {
+.emotion-2 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(5,25,45);
+  color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
   font-size: 16px;
@@ -105,8 +108,8 @@ exports[`CompactButtonGroup renders the buttons next to each other 1`] = `
   display: -ms-inline-flexbox;
   display: inline-flex;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
+  -webkit-justify-content: center;
   justify-content: center;
   position: relative;
   -webkit-text-decoration: none;
@@ -127,6 +130,7 @@ exports[`CompactButtonGroup renders the buttons next to each other 1`] = `
 
 .emotion-3:active {
   -webkit-transform: perspective(1px) scale(0.975);
+  -moz-transform: perspective(1px) scale(0.975);
   -ms-transform: perspective(1px) scale(0.975);
   transform: perspective(1px) scale(0.975);
 }
@@ -135,6 +139,7 @@ exports[`CompactButtonGroup renders the buttons next to each other 1`] = `
 .emotion-3:hover:disabled,
 .emotion-3:active:disabled {
   -webkit-transform: none;
+  -moz-transform: none;
   -ms-transform: none;
   transform: none;
 }
@@ -144,13 +149,14 @@ exports[`CompactButtonGroup renders the buttons next to each other 1`] = `
 }
 
 .emotion-3:hover {
-  background-color: rgba(5,25,45,0.15);
+  background-color: rgba(5, 25, 45, 0.15);
   border-color: #05192d;
   color: #05192d;
 }
 
 .emotion-3:active {
   -webkit-transform: none;
+  -moz-transform: none;
   -ms-transform: none;
   transform: none;
 }
@@ -174,8 +180,8 @@ exports[`CompactButtonGroup renders the buttons next to each other 1`] = `
   display: -ms-inline-flexbox;
   display: inline-flex;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
+  -webkit-justify-content: center;
   justify-content: center;
   position: relative;
   -webkit-text-decoration: none;
@@ -196,6 +202,7 @@ exports[`CompactButtonGroup renders the buttons next to each other 1`] = `
 
 .emotion-5:active {
   -webkit-transform: perspective(1px) scale(0.975);
+  -moz-transform: perspective(1px) scale(0.975);
   -ms-transform: perspective(1px) scale(0.975);
   transform: perspective(1px) scale(0.975);
 }
@@ -204,6 +211,7 @@ exports[`CompactButtonGroup renders the buttons next to each other 1`] = `
 .emotion-5:hover:disabled,
 .emotion-5:active:disabled {
   -webkit-transform: none;
+  -moz-transform: none;
   -ms-transform: none;
   transform: none;
 }
@@ -213,13 +221,14 @@ exports[`CompactButtonGroup renders the buttons next to each other 1`] = `
 }
 
 .emotion-5:hover {
-  background-color: rgba(5,25,45,0.15);
+  background-color: rgba(5, 25, 45, 0.15);
   border-color: #05192d;
   color: #05192d;
 }
 
 .emotion-5:active {
   -webkit-transform: none;
+  -moz-transform: none;
   -ms-transform: none;
   transform: none;
 }
@@ -229,14 +238,14 @@ exports[`CompactButtonGroup renders the buttons next to each other 1`] = `
 }
 
 <div
-  class="emotion-6"
+  class="emotion-0"
 >
   <button
     class="emotion-1"
     type="submit"
   >
     <span
-      class="emotion-0"
+      class="emotion-2"
     >
       Button 1
     </span>
@@ -246,7 +255,7 @@ exports[`CompactButtonGroup renders the buttons next to each other 1`] = `
     type="submit"
   >
     <span
-      class="emotion-0"
+      class="emotion-2"
     >
       Button 2
     </span>
@@ -256,7 +265,7 @@ exports[`CompactButtonGroup renders the buttons next to each other 1`] = `
     type="submit"
   >
     <span
-      class="emotion-0"
+      class="emotion-2"
     >
       Button 3
     </span>

@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<RadioList> snapshots renders a radio list 1`] = `
-.emotion-17 {
+.emotion-0 {
   border: 0;
   display: block;
   margin: 0;
@@ -10,18 +10,18 @@ exports[`<RadioList> snapshots renders a radio list 1`] = `
   padding: 0;
 }
 
-*:not(style) ~ .emotion-17 {
+*:not(style)~.emotion-0 {
   margin-top: 16px;
 }
 
-.emotion-2 {
+.emotion-1 {
   display: block;
   margin-bottom: 12px;
   padding: 0;
   width: 100%;
 }
 
-.emotion-1 {
+.emotion-2 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -32,14 +32,13 @@ exports[`<RadioList> snapshots renders a radio list 1`] = `
   display: inline-flex;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
   justify-content: space-between;
   width: 100%;
 }
 
-.emotion-0 {
+.emotion-3 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(5,25,45);
+  color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
   font-size: 16px;
@@ -56,7 +55,7 @@ exports[`<RadioList> snapshots renders a radio list 1`] = `
   white-space: nowrap;
 }
 
-.emotion-7 {
+.emotion-4 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -70,35 +69,25 @@ exports[`<RadioList> snapshots renders a radio list 1`] = `
   position: relative;
 }
 
-*:not(style) ~ .emotion-7 {
+*:not(style)~.emotion-4 {
   margin-top: 10px;
 }
 
-.emotion-6 {
-  -webkit-font-smoothing: antialiased;
-  color: rgb(5,25,45);
-  font-family: Studio-Feixen-Sans,Arial;
-  font-style: normal;
-  font-size: 16px;
-  font-weight: 400;
-  margin-left: 24px;
-}
-
-.emotion-3 {
+.emotion-5 {
   opacity: 0;
   position: absolute;
   width: 0;
 }
 
-.emotion-3:active + span {
+.emotion-5:active+span {
   border-color: #dd3400;
 }
 
-.emotion-3:focus + span {
+.emotion-5:focus+span {
   border-color: #dd3400;
 }
 
-.emotion-4 {
+.emotion-6 {
   border-color: #ff5400;
   border-radius: 50%;
   border-style: solid;
@@ -111,7 +100,7 @@ exports[`<RadioList> snapshots renders a radio list 1`] = `
   width: 18px;
 }
 
-.emotion-5 {
+.emotion-7 {
   background-color: #ff5400;
   border-radius: 50%;
   box-sizing: border-box;
@@ -123,37 +112,23 @@ exports[`<RadioList> snapshots renders a radio list 1`] = `
   width: 8px;
 }
 
-.emotion-16 {
+.emotion-8 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(5,25,45);
-  font-family: Studio-Feixen-Sans,Arial;
-  font-style: normal;
-  font-size: 16px;
-  font-weight: 400;
-  color: #c01100;
-  display: block;
-  font-size: 14px;
-  margin-top: 8px;
-}
-
-.emotion-14 {
-  -webkit-font-smoothing: antialiased;
-  color: rgb(5,25,45);
+  color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
   margin-left: 24px;
-  opacity: 0.3;
 }
 
-.emotion-12 {
+.emotion-14 {
   opacity: 0;
   position: absolute;
   width: 0;
 }
 
-.emotion-13 {
+.emotion-15 {
   border-color: #ff5400;
   border-radius: 50%;
   border-style: solid;
@@ -166,17 +141,41 @@ exports[`<RadioList> snapshots renders a radio list 1`] = `
   width: 18px;
 }
 
+.emotion-16 {
+  -webkit-font-smoothing: antialiased;
+  color: rgb(5, 25, 45);
+  font-family: Studio-Feixen-Sans,Arial;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  margin-left: 24px;
+  opacity: 0.3;
+}
+
+.emotion-17 {
+  -webkit-font-smoothing: antialiased;
+  color: rgb(5, 25, 45);
+  font-family: Studio-Feixen-Sans,Arial;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  color: #c01100;
+  display: block;
+  font-size: 14px;
+  margin-top: 8px;
+}
+
 <div
-  class="emotion-17"
+  class="emotion-0"
 >
   <span
-    class="emotion-2"
+    class="emotion-1"
   >
     <span
-      class="emotion-1"
+      class="emotion-2"
     >
       <span
-        class="emotion-0"
+        class="emotion-3"
       >
         test label
       </span>
@@ -184,70 +183,70 @@ exports[`<RadioList> snapshots renders a radio list 1`] = `
   </span>
   <div>
     <label
-      class="emotion-7"
+      class="emotion-4"
       for="test value"
     >
       <input
         checked=""
-        class="emotion-3"
+        class="emotion-5"
         id="test value"
         name="test-name"
         type="radio"
       />
       <span
-        class="emotion-4"
-      />
-      <span
-        class="emotion-5"
-      />
-      <span
         class="emotion-6"
+      />
+      <span
+        class="emotion-7"
+      />
+      <span
+        class="emotion-8"
       >
         item 1
       </span>
     </label>
     <label
-      class="emotion-7"
+      class="emotion-4"
       for="value2"
     >
       <input
-        class="emotion-3"
+        class="emotion-5"
         id="value2"
         name="test-name"
         type="radio"
       />
       <span
-        class="emotion-4"
+        class="emotion-6"
       />
       <span
-        class="emotion-6"
+        class="emotion-8"
       >
         item 2
       </span>
     </label>
     <label
-      class="emotion-7"
+      class="emotion-4"
       for="value2"
     >
       <input
-        class="emotion-12"
+        class="emotion-14"
         disabled=""
         id="value2"
         name="test-name"
         type="radio"
       />
       <span
-        class="emotion-13"
+        class="emotion-15"
       />
       <span
-        class="emotion-14"
+        class="emotion-16"
       >
         item 3
       </span>
     </label>
   </div>
   <span
-    class="emotion-16"
+    class="emotion-17"
   >
     test error
   </span>
