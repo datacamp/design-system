@@ -45,6 +45,7 @@
     "@commitlint/config-conventional": "^8.3.4",
     "@datacamp/eslint-config": "^4.1.0",
     "@datacamp/prettier-config": "^2.1.0",
+    "@emotion/eslint-plugin": "^11.0.0",
     "@types/jest": "26.0.15",
     "@types/react-dom": "16.9.9",
     "commitlint": "^11.0.0",
@@ -58,7 +59,11 @@
     "svglint": "1.0.6",
     "typescript": "3.9.7"
   },
-  "browserslist": ["last 2 versions", "Firefox ESR", "not IE < 11"],
+  "browserslist": [
+    "last 2 versions",
+    "Firefox ESR",
+    "not IE < 11"
+  ],
   "engines": {
     "yarn": "^1.15.2"
   },
