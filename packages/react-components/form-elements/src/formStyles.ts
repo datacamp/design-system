@@ -1,5 +1,5 @@
 import tokens from '@datacamp/waffles-tokens/lib/future-tokens.json';
-import { css } from '@emotion/core';
+import { css } from '@emotion/react';
 import tinycolor from 'tinycolor2';
 
 const placeholderColor = tinycolor(tokens.color.primary.navyText.value.rgb)

@@ -1,4 +1,4 @@
-import { ClassNames } from '@emotion/core';
+import { ClassNames } from '@emotion/react';
 import { childrenOfType } from 'airbnb-prop-types';
 import PropTypes from 'prop-types';
 import React from 'react';

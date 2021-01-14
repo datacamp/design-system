@@ -1,11 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`with label snapshots renders a select element with size large, disabled=false, required=false 1`] = `
-.emotion-7 {
-  position: relative;
-}
-
-.emotion-9 {
+.emotion-0 {
   border: 0;
   display: block;
   margin: 0;
@@ -14,18 +10,18 @@ exports[`with label snapshots renders a select element with size large, disabled
   padding: 0;
 }
 
-*:not(style) ~ .emotion-9 {
+*:not(style)~.emotion-0 {
   margin-top: 16px;
 }
 
-.emotion-4 {
+.emotion-1 {
   display: block;
   margin-bottom: 12px;
   padding: 0;
   width: 100%;
 }
 
-.emotion-3 {
+.emotion-2 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -36,14 +32,13 @@ exports[`with label snapshots renders a select element with size large, disabled
   display: inline-flex;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
   justify-content: space-between;
   width: 100%;
 }
 
-.emotion-0 {
+.emotion-3 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(5,25,45);
+  color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
   font-size: 16px;
@@ -60,7 +55,70 @@ exports[`with label snapshots renders a select element with size large, disabled
   white-space: nowrap;
 }
 
+.emotion-4 {
+  -webkit-flex: none;
+  -ms-flex: none;
+  flex: none;
+  white-space: nowrap;
+}
+
+.emotion-5 {
+  -webkit-font-smoothing: antialiased;
+  color: rgb(5, 25, 45);
+  font-family: Studio-Feixen-Sans,Arial;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(5, 25, 45, 0.6);
+  display: inline-block;
+  font-size: 14px;
+}
+
 .emotion-6 {
+  position: relative;
+}
+
+.emotion-7 {
+  background: white;
+  border: 0;
+  border-radius: 4px;
+  box-shadow: inset 0 0 0 2px rgb(229, 225, 218);
+  box-sizing: border-box;
+  display: inline-block;
+  font-family: Arial;
+  font-family: Studio-Feixen-Sans;
+  margin: 0;
+  vertical-align: baseline;
+  -webkit-appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  width: 100%;
+  z-index: 1;
+  font-size: 20px;
+  height: 64px;
+  padding-left: 24px;
+  padding-right: 64px;
+  color: rgb(5, 25, 45);
+  width: 100%;
+}
+
+.emotion-7:disabled,
+.emotion-7:active:disabled,
+.emotion-7:focus:disabled {
+  cursor: not-allowed;
+  opacity: 0.3;
+}
+
+.emotion-7:focus {
+  box-shadow: inset 0 0 0 2px rgb(0, 155, 216);
+  outline: none;
+}
+
+.emotion-8 {
   pointer-events: none;
   position: absolute;
   right: 24px;
@@ -68,9 +126,9 @@ exports[`with label snapshots renders a select element with size large, disabled
   opacity: 1;
 }
 
-.emotion-8 {
+.emotion-9 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(5,25,45);
+  color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
   font-size: 16px;
@@ -81,84 +139,26 @@ exports[`with label snapshots renders a select element with size large, disabled
   margin-top: 8px;
 }
 
-.emotion-2 {
-  -webkit-flex: none;
-  -ms-flex: none;
-  flex: none;
-  white-space: nowrap;
-}
-
-.emotion-1 {
-  -webkit-font-smoothing: antialiased;
-  color: rgb(5,25,45);
-  font-family: Studio-Feixen-Sans,Arial;
-  font-style: normal;
-  font-size: 16px;
-  font-weight: 400;
-  color: rgba(5,25,45,0.6);
-  display: inline-block;
-  font-size: 14px;
-}
-
-.emotion-5 {
-  background: white;
-  border: 0;
-  border-radius: 4px;
-  box-shadow: inset 0 0 0 2px rgb(229,225,218);
-  box-sizing: border-box;
-  display: inline-block;
-  font-family: Arial;
-  font-family: Studio-Feixen-Sans;
-  margin: 0;
-  vertical-align: baseline;
-  -webkit-appearance: none;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  -moz-appearance: none;
-  -webkit-appearance: none;
-  width: 100%;
-  z-index: 1;
-  font-size: 20px;
-  height: 64px;
-  padding-left: 24px;
-  padding-right: 64px;
-  color: rgb(5,25,45);
-  width: 100%;
-}
-
-.emotion-5:disabled,
-.emotion-5:active:disabled,
-.emotion-5:focus:disabled {
-  cursor: not-allowed;
-  opacity: 0.3;
-}
-
-.emotion-5:focus {
-  box-shadow: inset 0 0 0 2px rgb(0,155,216);
-  outline: none;
-}
-
 <label
-  class="emotion-9"
+  class="emotion-0"
   for="this is a name"
 >
   <span
-    class="emotion-4"
+    class="emotion-1"
   >
     <span
-      class="emotion-3"
+      class="emotion-2"
     >
       <span
-        class="emotion-0"
+        class="emotion-3"
       >
         test label
       </span>
       <div
-        class="emotion-2"
+        class="emotion-4"
       >
         <span
-          class="emotion-1"
+          class="emotion-5"
         >
           Optional
         </span>
@@ -166,10 +166,10 @@ exports[`with label snapshots renders a select element with size large, disabled
     </span>
   </span>
   <div
-    class="emotion-7"
+    class="emotion-6"
   >
     <select
-      class="emotion-5"
+      class="emotion-7"
       name="this is a name"
     >
       <option
@@ -191,7 +191,7 @@ exports[`with label snapshots renders a select element with size large, disabled
     </select>
     <svg
       aria-hidden="false"
-      class="emotion-6"
+      class="emotion-8"
       height="24"
       role="img"
       viewBox="0 0 18 18"
@@ -208,7 +208,7 @@ exports[`with label snapshots renders a select element with size large, disabled
     </svg>
   </div>
   <span
-    class="emotion-8"
+    class="emotion-9"
   >
     test error
   </span>
@@ -216,11 +216,7 @@ exports[`with label snapshots renders a select element with size large, disabled
 `;
 
 exports[`with label snapshots renders a select element with size large, disabled=false, required=true 1`] = `
-.emotion-8 {
-  position: relative;
-}
-
-.emotion-10 {
+.emotion-0 {
   border: 0;
   display: block;
   margin: 0;
@@ -229,18 +225,18 @@ exports[`with label snapshots renders a select element with size large, disabled
   padding: 0;
 }
 
-*:not(style) ~ .emotion-10 {
+*:not(style)~.emotion-0 {
   margin-top: 16px;
 }
 
-.emotion-5 {
+.emotion-1 {
   display: block;
   margin-bottom: 12px;
   padding: 0;
   width: 100%;
 }
 
-.emotion-4 {
+.emotion-2 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -251,14 +247,13 @@ exports[`with label snapshots renders a select element with size large, disabled
   display: inline-flex;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
   justify-content: space-between;
   width: 100%;
 }
 
-.emotion-0 {
+.emotion-3 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(5,25,45);
+  color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
   font-size: 16px;
@@ -275,7 +270,81 @@ exports[`with label snapshots renders a select element with size large, disabled
   white-space: nowrap;
 }
 
+.emotion-4 {
+  -webkit-flex: none;
+  -ms-flex: none;
+  flex: none;
+  white-space: nowrap;
+}
+
+.emotion-5 {
+  -webkit-font-smoothing: antialiased;
+  color: rgb(5, 25, 45);
+  font-family: Studio-Feixen-Sans,Arial;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  color: #ff5400;
+  margin-right: 4px;
+}
+
+.emotion-6 {
+  -webkit-font-smoothing: antialiased;
+  color: rgb(5, 25, 45);
+  font-family: Studio-Feixen-Sans,Arial;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(5, 25, 45, 0.6);
+  display: inline-block;
+  font-size: 14px;
+}
+
 .emotion-7 {
+  position: relative;
+}
+
+.emotion-8 {
+  background: white;
+  border: 0;
+  border-radius: 4px;
+  box-shadow: inset 0 0 0 2px rgb(229, 225, 218);
+  box-sizing: border-box;
+  display: inline-block;
+  font-family: Arial;
+  font-family: Studio-Feixen-Sans;
+  margin: 0;
+  vertical-align: baseline;
+  -webkit-appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  width: 100%;
+  z-index: 1;
+  font-size: 20px;
+  height: 64px;
+  padding-left: 24px;
+  padding-right: 64px;
+  color: rgb(5, 25, 45);
+  width: 100%;
+}
+
+.emotion-8:disabled,
+.emotion-8:active:disabled,
+.emotion-8:focus:disabled {
+  cursor: not-allowed;
+  opacity: 0.3;
+}
+
+.emotion-8:focus {
+  box-shadow: inset 0 0 0 2px rgb(0, 155, 216);
+  outline: none;
+}
+
+.emotion-9 {
   pointer-events: none;
   position: absolute;
   right: 24px;
@@ -283,9 +352,9 @@ exports[`with label snapshots renders a select element with size large, disabled
   opacity: 1;
 }
 
-.emotion-9 {
+.emotion-10 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(5,25,45);
+  color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
   font-size: 16px;
@@ -296,100 +365,31 @@ exports[`with label snapshots renders a select element with size large, disabled
   margin-top: 8px;
 }
 
-.emotion-3 {
-  -webkit-flex: none;
-  -ms-flex: none;
-  flex: none;
-  white-space: nowrap;
-}
-
-.emotion-1 {
-  -webkit-font-smoothing: antialiased;
-  color: rgb(5,25,45);
-  font-family: Studio-Feixen-Sans,Arial;
-  font-style: normal;
-  font-size: 16px;
-  font-weight: 400;
-  color: #ff5400;
-  margin-right: 4px;
-}
-
-.emotion-2 {
-  -webkit-font-smoothing: antialiased;
-  color: rgb(5,25,45);
-  font-family: Studio-Feixen-Sans,Arial;
-  font-style: normal;
-  font-size: 16px;
-  font-weight: 400;
-  color: rgba(5,25,45,0.6);
-  display: inline-block;
-  font-size: 14px;
-}
-
-.emotion-6 {
-  background: white;
-  border: 0;
-  border-radius: 4px;
-  box-shadow: inset 0 0 0 2px rgb(229,225,218);
-  box-sizing: border-box;
-  display: inline-block;
-  font-family: Arial;
-  font-family: Studio-Feixen-Sans;
-  margin: 0;
-  vertical-align: baseline;
-  -webkit-appearance: none;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  -moz-appearance: none;
-  -webkit-appearance: none;
-  width: 100%;
-  z-index: 1;
-  font-size: 20px;
-  height: 64px;
-  padding-left: 24px;
-  padding-right: 64px;
-  color: rgb(5,25,45);
-  width: 100%;
-}
-
-.emotion-6:disabled,
-.emotion-6:active:disabled,
-.emotion-6:focus:disabled {
-  cursor: not-allowed;
-  opacity: 0.3;
-}
-
-.emotion-6:focus {
-  box-shadow: inset 0 0 0 2px rgb(0,155,216);
-  outline: none;
-}
-
 <label
-  class="emotion-10"
+  class="emotion-0"
   for="this is a name"
 >
   <span
-    class="emotion-5"
+    class="emotion-1"
   >
     <span
-      class="emotion-4"
+      class="emotion-2"
     >
       <span
-        class="emotion-0"
+        class="emotion-3"
       >
         test label
       </span>
       <div
-        class="emotion-3"
+        class="emotion-4"
       >
         <span
-          class="emotion-1"
+          class="emotion-5"
         >
           •
         </span>
         <span
-          class="emotion-2"
+          class="emotion-6"
         >
           Required
         </span>
@@ -397,10 +397,10 @@ exports[`with label snapshots renders a select element with size large, disabled
     </span>
   </span>
   <div
-    class="emotion-8"
+    class="emotion-7"
   >
     <select
-      class="emotion-6"
+      class="emotion-8"
       name="this is a name"
     >
       <option
@@ -422,7 +422,7 @@ exports[`with label snapshots renders a select element with size large, disabled
     </select>
     <svg
       aria-hidden="false"
-      class="emotion-7"
+      class="emotion-9"
       height="24"
       role="img"
       viewBox="0 0 18 18"
@@ -439,7 +439,7 @@ exports[`with label snapshots renders a select element with size large, disabled
     </svg>
   </div>
   <span
-    class="emotion-9"
+    class="emotion-10"
   >
     test error
   </span>
@@ -447,11 +447,7 @@ exports[`with label snapshots renders a select element with size large, disabled
 `;
 
 exports[`with label snapshots renders a select element with size large, disabled=false, required=undefined 1`] = `
-.emotion-5 {
-  position: relative;
-}
-
-.emotion-7 {
+.emotion-0 {
   border: 0;
   display: block;
   margin: 0;
@@ -460,18 +456,18 @@ exports[`with label snapshots renders a select element with size large, disabled
   padding: 0;
 }
 
-*:not(style) ~ .emotion-7 {
+*:not(style)~.emotion-0 {
   margin-top: 16px;
 }
 
-.emotion-2 {
+.emotion-1 {
   display: block;
   margin-bottom: 12px;
   padding: 0;
   width: 100%;
 }
 
-.emotion-1 {
+.emotion-2 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -482,14 +478,13 @@ exports[`with label snapshots renders a select element with size large, disabled
   display: inline-flex;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
   justify-content: space-between;
   width: 100%;
 }
 
-.emotion-0 {
+.emotion-3 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(5,25,45);
+  color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
   font-size: 16px;
@@ -507,6 +502,50 @@ exports[`with label snapshots renders a select element with size large, disabled
 }
 
 .emotion-4 {
+  position: relative;
+}
+
+.emotion-5 {
+  background: white;
+  border: 0;
+  border-radius: 4px;
+  box-shadow: inset 0 0 0 2px rgb(229, 225, 218);
+  box-sizing: border-box;
+  display: inline-block;
+  font-family: Arial;
+  font-family: Studio-Feixen-Sans;
+  margin: 0;
+  vertical-align: baseline;
+  -webkit-appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  width: 100%;
+  z-index: 1;
+  font-size: 20px;
+  height: 64px;
+  padding-left: 24px;
+  padding-right: 64px;
+  color: rgb(5, 25, 45);
+  width: 100%;
+}
+
+.emotion-5:disabled,
+.emotion-5:active:disabled,
+.emotion-5:focus:disabled {
+  cursor: not-allowed;
+  opacity: 0.3;
+}
+
+.emotion-5:focus {
+  box-shadow: inset 0 0 0 2px rgb(0, 155, 216);
+  outline: none;
+}
+
+.emotion-6 {
   pointer-events: none;
   position: absolute;
   right: 24px;
@@ -514,9 +553,9 @@ exports[`with label snapshots renders a select element with size large, disabled
   opacity: 1;
 }
 
-.emotion-6 {
+.emotion-7 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(5,25,45);
+  color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
   font-size: 16px;
@@ -527,67 +566,28 @@ exports[`with label snapshots renders a select element with size large, disabled
   margin-top: 8px;
 }
 
-.emotion-3 {
-  background: white;
-  border: 0;
-  border-radius: 4px;
-  box-shadow: inset 0 0 0 2px rgb(229,225,218);
-  box-sizing: border-box;
-  display: inline-block;
-  font-family: Arial;
-  font-family: Studio-Feixen-Sans;
-  margin: 0;
-  vertical-align: baseline;
-  -webkit-appearance: none;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  -moz-appearance: none;
-  -webkit-appearance: none;
-  width: 100%;
-  z-index: 1;
-  font-size: 20px;
-  height: 64px;
-  padding-left: 24px;
-  padding-right: 64px;
-  color: rgb(5,25,45);
-  width: 100%;
-}
-
-.emotion-3:disabled,
-.emotion-3:active:disabled,
-.emotion-3:focus:disabled {
-  cursor: not-allowed;
-  opacity: 0.3;
-}
-
-.emotion-3:focus {
-  box-shadow: inset 0 0 0 2px rgb(0,155,216);
-  outline: none;
-}
-
 <label
-  class="emotion-7"
+  class="emotion-0"
   for="this is a name"
 >
   <span
-    class="emotion-2"
+    class="emotion-1"
   >
     <span
-      class="emotion-1"
+      class="emotion-2"
     >
       <span
-        class="emotion-0"
+        class="emotion-3"
       >
         test label
       </span>
     </span>
   </span>
   <div
-    class="emotion-5"
+    class="emotion-4"
   >
     <select
-      class="emotion-3"
+      class="emotion-5"
       name="this is a name"
     >
       <option
@@ -609,7 +609,7 @@ exports[`with label snapshots renders a select element with size large, disabled
     </select>
     <svg
       aria-hidden="false"
-      class="emotion-4"
+      class="emotion-6"
       height="24"
       role="img"
       viewBox="0 0 18 18"
@@ -626,7 +626,7 @@ exports[`with label snapshots renders a select element with size large, disabled
     </svg>
   </div>
   <span
-    class="emotion-6"
+    class="emotion-7"
   >
     test error
   </span>
@@ -634,11 +634,7 @@ exports[`with label snapshots renders a select element with size large, disabled
 `;
 
 exports[`with label snapshots renders a select element with size large, disabled=true, required=false 1`] = `
-.emotion-7 {
-  position: relative;
-}
-
-.emotion-9 {
+.emotion-0 {
   border: 0;
   display: block;
   margin: 0;
@@ -647,18 +643,18 @@ exports[`with label snapshots renders a select element with size large, disabled
   padding: 0;
 }
 
-*:not(style) ~ .emotion-9 {
+*:not(style)~.emotion-0 {
   margin-top: 16px;
 }
 
-.emotion-4 {
+.emotion-1 {
   display: block;
   margin-bottom: 12px;
   padding: 0;
   width: 100%;
 }
 
-.emotion-3 {
+.emotion-2 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -669,14 +665,13 @@ exports[`with label snapshots renders a select element with size large, disabled
   display: inline-flex;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
   justify-content: space-between;
   width: 100%;
 }
 
-.emotion-0 {
+.emotion-3 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(5,25,45);
+  color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
   font-size: 16px;
@@ -693,9 +688,80 @@ exports[`with label snapshots renders a select element with size large, disabled
   white-space: nowrap;
 }
 
-.emotion-8 {
+.emotion-4 {
+  -webkit-flex: none;
+  -ms-flex: none;
+  flex: none;
+  white-space: nowrap;
+}
+
+.emotion-5 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(5,25,45);
+  color: rgb(5, 25, 45);
+  font-family: Studio-Feixen-Sans,Arial;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(5, 25, 45, 0.6);
+  display: inline-block;
+  font-size: 14px;
+}
+
+.emotion-6 {
+  position: relative;
+}
+
+.emotion-7 {
+  background: white;
+  border: 0;
+  border-radius: 4px;
+  box-shadow: inset 0 0 0 2px rgb(229, 225, 218);
+  box-sizing: border-box;
+  display: inline-block;
+  font-family: Arial;
+  font-family: Studio-Feixen-Sans;
+  margin: 0;
+  vertical-align: baseline;
+  -webkit-appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  width: 100%;
+  z-index: 1;
+  font-size: 20px;
+  height: 64px;
+  padding-left: 24px;
+  padding-right: 64px;
+  color: rgb(5, 25, 45);
+  width: 100%;
+}
+
+.emotion-7:disabled,
+.emotion-7:active:disabled,
+.emotion-7:focus:disabled {
+  cursor: not-allowed;
+  opacity: 0.3;
+}
+
+.emotion-7:focus {
+  box-shadow: inset 0 0 0 2px rgb(0, 155, 216);
+  outline: none;
+}
+
+.emotion-8 {
+  pointer-events: none;
+  position: absolute;
+  right: 24px;
+  top: 20px;
+  opacity: 0.3;
+}
+
+.emotion-9 {
+  -webkit-font-smoothing: antialiased;
+  color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
   font-size: 16px;
@@ -706,92 +772,26 @@ exports[`with label snapshots renders a select element with size large, disabled
   margin-top: 8px;
 }
 
-.emotion-2 {
-  -webkit-flex: none;
-  -ms-flex: none;
-  flex: none;
-  white-space: nowrap;
-}
-
-.emotion-1 {
-  -webkit-font-smoothing: antialiased;
-  color: rgb(5,25,45);
-  font-family: Studio-Feixen-Sans,Arial;
-  font-style: normal;
-  font-size: 16px;
-  font-weight: 400;
-  color: rgba(5,25,45,0.6);
-  display: inline-block;
-  font-size: 14px;
-}
-
-.emotion-5 {
-  background: white;
-  border: 0;
-  border-radius: 4px;
-  box-shadow: inset 0 0 0 2px rgb(229,225,218);
-  box-sizing: border-box;
-  display: inline-block;
-  font-family: Arial;
-  font-family: Studio-Feixen-Sans;
-  margin: 0;
-  vertical-align: baseline;
-  -webkit-appearance: none;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  -moz-appearance: none;
-  -webkit-appearance: none;
-  width: 100%;
-  z-index: 1;
-  font-size: 20px;
-  height: 64px;
-  padding-left: 24px;
-  padding-right: 64px;
-  color: rgb(5,25,45);
-  width: 100%;
-}
-
-.emotion-5:disabled,
-.emotion-5:active:disabled,
-.emotion-5:focus:disabled {
-  cursor: not-allowed;
-  opacity: 0.3;
-}
-
-.emotion-5:focus {
-  box-shadow: inset 0 0 0 2px rgb(0,155,216);
-  outline: none;
-}
-
-.emotion-6 {
-  pointer-events: none;
-  position: absolute;
-  right: 24px;
-  top: 20px;
-  opacity: 0.3;
-}
-
 <label
-  class="emotion-9"
+  class="emotion-0"
   for="this is a name"
 >
   <span
-    class="emotion-4"
+    class="emotion-1"
   >
     <span
-      class="emotion-3"
+      class="emotion-2"
     >
       <span
-        class="emotion-0"
+        class="emotion-3"
       >
         test label
       </span>
       <div
-        class="emotion-2"
+        class="emotion-4"
       >
         <span
-          class="emotion-1"
+          class="emotion-5"
         >
           Optional
         </span>
@@ -799,10 +799,10 @@ exports[`with label snapshots renders a select element with size large, disabled
     </span>
   </span>
   <div
-    class="emotion-7"
+    class="emotion-6"
   >
     <select
-      class="emotion-5"
+      class="emotion-7"
       disabled=""
       name="this is a name"
     >
@@ -825,7 +825,7 @@ exports[`with label snapshots renders a select element with size large, disabled
     </select>
     <svg
       aria-hidden="false"
-      class="emotion-6"
+      class="emotion-8"
       height="24"
       role="img"
       viewBox="0 0 18 18"
@@ -842,7 +842,7 @@ exports[`with label snapshots renders a select element with size large, disabled
     </svg>
   </div>
   <span
-    class="emotion-8"
+    class="emotion-9"
   >
     test error
   </span>
@@ -850,11 +850,7 @@ exports[`with label snapshots renders a select element with size large, disabled
 `;
 
 exports[`with label snapshots renders a select element with size large, disabled=true, required=true 1`] = `
-.emotion-8 {
-  position: relative;
-}
-
-.emotion-10 {
+.emotion-0 {
   border: 0;
   display: block;
   margin: 0;
@@ -863,18 +859,18 @@ exports[`with label snapshots renders a select element with size large, disabled
   padding: 0;
 }
 
-*:not(style) ~ .emotion-10 {
+*:not(style)~.emotion-0 {
   margin-top: 16px;
 }
 
-.emotion-5 {
+.emotion-1 {
   display: block;
   margin-bottom: 12px;
   padding: 0;
   width: 100%;
 }
 
-.emotion-4 {
+.emotion-2 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -885,14 +881,13 @@ exports[`with label snapshots renders a select element with size large, disabled
   display: inline-flex;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
   justify-content: space-between;
   width: 100%;
 }
 
-.emotion-0 {
+.emotion-3 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(5,25,45);
+  color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
   font-size: 16px;
@@ -909,9 +904,91 @@ exports[`with label snapshots renders a select element with size large, disabled
   white-space: nowrap;
 }
 
-.emotion-9 {
+.emotion-4 {
+  -webkit-flex: none;
+  -ms-flex: none;
+  flex: none;
+  white-space: nowrap;
+}
+
+.emotion-5 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(5,25,45);
+  color: rgb(5, 25, 45);
+  font-family: Studio-Feixen-Sans,Arial;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  color: #ff5400;
+  margin-right: 4px;
+}
+
+.emotion-6 {
+  -webkit-font-smoothing: antialiased;
+  color: rgb(5, 25, 45);
+  font-family: Studio-Feixen-Sans,Arial;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(5, 25, 45, 0.6);
+  display: inline-block;
+  font-size: 14px;
+}
+
+.emotion-7 {
+  position: relative;
+}
+
+.emotion-8 {
+  background: white;
+  border: 0;
+  border-radius: 4px;
+  box-shadow: inset 0 0 0 2px rgb(229, 225, 218);
+  box-sizing: border-box;
+  display: inline-block;
+  font-family: Arial;
+  font-family: Studio-Feixen-Sans;
+  margin: 0;
+  vertical-align: baseline;
+  -webkit-appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  width: 100%;
+  z-index: 1;
+  font-size: 20px;
+  height: 64px;
+  padding-left: 24px;
+  padding-right: 64px;
+  color: rgb(5, 25, 45);
+  width: 100%;
+}
+
+.emotion-8:disabled,
+.emotion-8:active:disabled,
+.emotion-8:focus:disabled {
+  cursor: not-allowed;
+  opacity: 0.3;
+}
+
+.emotion-8:focus {
+  box-shadow: inset 0 0 0 2px rgb(0, 155, 216);
+  outline: none;
+}
+
+.emotion-9 {
+  pointer-events: none;
+  position: absolute;
+  right: 24px;
+  top: 20px;
+  opacity: 0.3;
+}
+
+.emotion-10 {
+  -webkit-font-smoothing: antialiased;
+  color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
   font-size: 16px;
@@ -922,108 +999,31 @@ exports[`with label snapshots renders a select element with size large, disabled
   margin-top: 8px;
 }
 
-.emotion-3 {
-  -webkit-flex: none;
-  -ms-flex: none;
-  flex: none;
-  white-space: nowrap;
-}
-
-.emotion-1 {
-  -webkit-font-smoothing: antialiased;
-  color: rgb(5,25,45);
-  font-family: Studio-Feixen-Sans,Arial;
-  font-style: normal;
-  font-size: 16px;
-  font-weight: 400;
-  color: #ff5400;
-  margin-right: 4px;
-}
-
-.emotion-2 {
-  -webkit-font-smoothing: antialiased;
-  color: rgb(5,25,45);
-  font-family: Studio-Feixen-Sans,Arial;
-  font-style: normal;
-  font-size: 16px;
-  font-weight: 400;
-  color: rgba(5,25,45,0.6);
-  display: inline-block;
-  font-size: 14px;
-}
-
-.emotion-6 {
-  background: white;
-  border: 0;
-  border-radius: 4px;
-  box-shadow: inset 0 0 0 2px rgb(229,225,218);
-  box-sizing: border-box;
-  display: inline-block;
-  font-family: Arial;
-  font-family: Studio-Feixen-Sans;
-  margin: 0;
-  vertical-align: baseline;
-  -webkit-appearance: none;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  -moz-appearance: none;
-  -webkit-appearance: none;
-  width: 100%;
-  z-index: 1;
-  font-size: 20px;
-  height: 64px;
-  padding-left: 24px;
-  padding-right: 64px;
-  color: rgb(5,25,45);
-  width: 100%;
-}
-
-.emotion-6:disabled,
-.emotion-6:active:disabled,
-.emotion-6:focus:disabled {
-  cursor: not-allowed;
-  opacity: 0.3;
-}
-
-.emotion-6:focus {
-  box-shadow: inset 0 0 0 2px rgb(0,155,216);
-  outline: none;
-}
-
-.emotion-7 {
-  pointer-events: none;
-  position: absolute;
-  right: 24px;
-  top: 20px;
-  opacity: 0.3;
-}
-
 <label
-  class="emotion-10"
+  class="emotion-0"
   for="this is a name"
 >
   <span
-    class="emotion-5"
+    class="emotion-1"
   >
     <span
-      class="emotion-4"
+      class="emotion-2"
     >
       <span
-        class="emotion-0"
+        class="emotion-3"
       >
         test label
       </span>
       <div
-        class="emotion-3"
+        class="emotion-4"
       >
         <span
-          class="emotion-1"
+          class="emotion-5"
         >
           •
         </span>
         <span
-          class="emotion-2"
+          class="emotion-6"
         >
           Required
         </span>
@@ -1031,10 +1031,10 @@ exports[`with label snapshots renders a select element with size large, disabled
     </span>
   </span>
   <div
-    class="emotion-8"
+    class="emotion-7"
   >
     <select
-      class="emotion-6"
+      class="emotion-8"
       disabled=""
       name="this is a name"
     >
@@ -1057,7 +1057,7 @@ exports[`with label snapshots renders a select element with size large, disabled
     </select>
     <svg
       aria-hidden="false"
-      class="emotion-7"
+      class="emotion-9"
       height="24"
       role="img"
       viewBox="0 0 18 18"
@@ -1074,7 +1074,7 @@ exports[`with label snapshots renders a select element with size large, disabled
     </svg>
   </div>
   <span
-    class="emotion-9"
+    class="emotion-10"
   >
     test error
   </span>
@@ -1082,11 +1082,7 @@ exports[`with label snapshots renders a select element with size large, disabled
 `;
 
 exports[`with label snapshots renders a select element with size large, disabled=true, required=undefined 1`] = `
-.emotion-5 {
-  position: relative;
-}
-
-.emotion-7 {
+.emotion-0 {
   border: 0;
   display: block;
   margin: 0;
@@ -1095,18 +1091,18 @@ exports[`with label snapshots renders a select element with size large, disabled
   padding: 0;
 }
 
-*:not(style) ~ .emotion-7 {
+*:not(style)~.emotion-0 {
   margin-top: 16px;
 }
 
-.emotion-2 {
+.emotion-1 {
   display: block;
   margin-bottom: 12px;
   padding: 0;
   width: 100%;
 }
 
-.emotion-1 {
+.emotion-2 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -1117,14 +1113,13 @@ exports[`with label snapshots renders a select element with size large, disabled
   display: inline-flex;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
   justify-content: space-between;
   width: 100%;
 }
 
-.emotion-0 {
+.emotion-3 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(5,25,45);
+  color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
   font-size: 16px;
@@ -1141,9 +1136,61 @@ exports[`with label snapshots renders a select element with size large, disabled
   white-space: nowrap;
 }
 
+.emotion-4 {
+  position: relative;
+}
+
+.emotion-5 {
+  background: white;
+  border: 0;
+  border-radius: 4px;
+  box-shadow: inset 0 0 0 2px rgb(229, 225, 218);
+  box-sizing: border-box;
+  display: inline-block;
+  font-family: Arial;
+  font-family: Studio-Feixen-Sans;
+  margin: 0;
+  vertical-align: baseline;
+  -webkit-appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  width: 100%;
+  z-index: 1;
+  font-size: 20px;
+  height: 64px;
+  padding-left: 24px;
+  padding-right: 64px;
+  color: rgb(5, 25, 45);
+  width: 100%;
+}
+
+.emotion-5:disabled,
+.emotion-5:active:disabled,
+.emotion-5:focus:disabled {
+  cursor: not-allowed;
+  opacity: 0.3;
+}
+
+.emotion-5:focus {
+  box-shadow: inset 0 0 0 2px rgb(0, 155, 216);
+  outline: none;
+}
+
 .emotion-6 {
+  pointer-events: none;
+  position: absolute;
+  right: 24px;
+  top: 20px;
+  opacity: 0.3;
+}
+
+.emotion-7 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(5,25,45);
+  color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
   font-size: 16px;
@@ -1154,75 +1201,28 @@ exports[`with label snapshots renders a select element with size large, disabled
   margin-top: 8px;
 }
 
-.emotion-3 {
-  background: white;
-  border: 0;
-  border-radius: 4px;
-  box-shadow: inset 0 0 0 2px rgb(229,225,218);
-  box-sizing: border-box;
-  display: inline-block;
-  font-family: Arial;
-  font-family: Studio-Feixen-Sans;
-  margin: 0;
-  vertical-align: baseline;
-  -webkit-appearance: none;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  -moz-appearance: none;
-  -webkit-appearance: none;
-  width: 100%;
-  z-index: 1;
-  font-size: 20px;
-  height: 64px;
-  padding-left: 24px;
-  padding-right: 64px;
-  color: rgb(5,25,45);
-  width: 100%;
-}
-
-.emotion-3:disabled,
-.emotion-3:active:disabled,
-.emotion-3:focus:disabled {
-  cursor: not-allowed;
-  opacity: 0.3;
-}
-
-.emotion-3:focus {
-  box-shadow: inset 0 0 0 2px rgb(0,155,216);
-  outline: none;
-}
-
-.emotion-4 {
-  pointer-events: none;
-  position: absolute;
-  right: 24px;
-  top: 20px;
-  opacity: 0.3;
-}
-
 <label
-  class="emotion-7"
+  class="emotion-0"
   for="this is a name"
 >
   <span
-    class="emotion-2"
+    class="emotion-1"
   >
     <span
-      class="emotion-1"
+      class="emotion-2"
     >
       <span
-        class="emotion-0"
+        class="emotion-3"
       >
         test label
       </span>
     </span>
   </span>
   <div
-    class="emotion-5"
+    class="emotion-4"
   >
     <select
-      class="emotion-3"
+      class="emotion-5"
       disabled=""
       name="this is a name"
     >
@@ -1245,7 +1245,7 @@ exports[`with label snapshots renders a select element with size large, disabled
     </select>
     <svg
       aria-hidden="false"
-      class="emotion-4"
+      class="emotion-6"
       height="24"
       role="img"
       viewBox="0 0 18 18"
@@ -1262,7 +1262,7 @@ exports[`with label snapshots renders a select element with size large, disabled
     </svg>
   </div>
   <span
-    class="emotion-6"
+    class="emotion-7"
   >
     test error
   </span>
@@ -1270,19 +1270,7 @@ exports[`with label snapshots renders a select element with size large, disabled
 `;
 
 exports[`with label snapshots renders a select element with size medium, disabled=false, required=false 1`] = `
-.emotion-7 {
-  position: relative;
-}
-
-.emotion-6 {
-  pointer-events: none;
-  position: absolute;
-  right: 16px;
-  top: 15px;
-  opacity: 1;
-}
-
-.emotion-9 {
+.emotion-0 {
   border: 0;
   display: block;
   margin: 0;
@@ -1291,18 +1279,18 @@ exports[`with label snapshots renders a select element with size medium, disable
   padding: 0;
 }
 
-*:not(style) ~ .emotion-9 {
+*:not(style)~.emotion-0 {
   margin-top: 16px;
 }
 
-.emotion-4 {
+.emotion-1 {
   display: block;
   margin-bottom: 12px;
   padding: 0;
   width: 100%;
 }
 
-.emotion-3 {
+.emotion-2 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -1313,14 +1301,13 @@ exports[`with label snapshots renders a select element with size medium, disable
   display: inline-flex;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
   justify-content: space-between;
   width: 100%;
 }
 
-.emotion-0 {
+.emotion-3 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(5,25,45);
+  color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
   font-size: 16px;
@@ -1337,11 +1324,34 @@ exports[`with label snapshots renders a select element with size medium, disable
   white-space: nowrap;
 }
 
+.emotion-4 {
+  -webkit-flex: none;
+  -ms-flex: none;
+  flex: none;
+  white-space: nowrap;
+}
+
 .emotion-5 {
+  -webkit-font-smoothing: antialiased;
+  color: rgb(5, 25, 45);
+  font-family: Studio-Feixen-Sans,Arial;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(5, 25, 45, 0.6);
+  display: inline-block;
+  font-size: 14px;
+}
+
+.emotion-6 {
+  position: relative;
+}
+
+.emotion-7 {
   background: white;
   border: 0;
   border-radius: 4px;
-  box-shadow: inset 0 0 0 2px rgb(229,225,218);
+  box-shadow: inset 0 0 0 2px rgb(229, 225, 218);
   box-sizing: border-box;
   display: inline-block;
   font-family: Arial;
@@ -1351,6 +1361,7 @@ exports[`with label snapshots renders a select element with size medium, disable
   -webkit-appearance: none;
   -webkit-appearance: none;
   -moz-appearance: none;
+  -ms-appearance: none;
   appearance: none;
   -moz-appearance: none;
   -webkit-appearance: none;
@@ -1360,25 +1371,33 @@ exports[`with label snapshots renders a select element with size medium, disable
   height: 48px;
   padding-left: 16px;
   padding-right: 48px;
-  color: rgb(5,25,45);
+  color: rgb(5, 25, 45);
   width: 100%;
 }
 
-.emotion-5:disabled,
-.emotion-5:active:disabled,
-.emotion-5:focus:disabled {
+.emotion-7:disabled,
+.emotion-7:active:disabled,
+.emotion-7:focus:disabled {
   cursor: not-allowed;
   opacity: 0.3;
 }
 
-.emotion-5:focus {
-  box-shadow: inset 0 0 0 2px rgb(0,155,216);
+.emotion-7:focus {
+  box-shadow: inset 0 0 0 2px rgb(0, 155, 216);
   outline: none;
 }
 
 .emotion-8 {
+  pointer-events: none;
+  position: absolute;
+  right: 16px;
+  top: 15px;
+  opacity: 1;
+}
+
+.emotion-9 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(5,25,45);
+  color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
   font-size: 16px;
@@ -1389,45 +1408,26 @@ exports[`with label snapshots renders a select element with size medium, disable
   margin-top: 8px;
 }
 
-.emotion-2 {
-  -webkit-flex: none;
-  -ms-flex: none;
-  flex: none;
-  white-space: nowrap;
-}
-
-.emotion-1 {
-  -webkit-font-smoothing: antialiased;
-  color: rgb(5,25,45);
-  font-family: Studio-Feixen-Sans,Arial;
-  font-style: normal;
-  font-size: 16px;
-  font-weight: 400;
-  color: rgba(5,25,45,0.6);
-  display: inline-block;
-  font-size: 14px;
-}
-
 <label
-  class="emotion-9"
+  class="emotion-0"
   for="this is a name"
 >
   <span
-    class="emotion-4"
+    class="emotion-1"
   >
     <span
-      class="emotion-3"
+      class="emotion-2"
     >
       <span
-        class="emotion-0"
+        class="emotion-3"
       >
         test label
       </span>
       <div
-        class="emotion-2"
+        class="emotion-4"
       >
         <span
-          class="emotion-1"
+          class="emotion-5"
         >
           Optional
         </span>
@@ -1435,10 +1435,10 @@ exports[`with label snapshots renders a select element with size medium, disable
     </span>
   </span>
   <div
-    class="emotion-7"
+    class="emotion-6"
   >
     <select
-      class="emotion-5"
+      class="emotion-7"
       name="this is a name"
     >
       <option
@@ -1460,7 +1460,7 @@ exports[`with label snapshots renders a select element with size medium, disable
     </select>
     <svg
       aria-hidden="false"
-      class="emotion-6"
+      class="emotion-8"
       height="18"
       role="img"
       viewBox="0 0 18 18"
@@ -1477,7 +1477,7 @@ exports[`with label snapshots renders a select element with size medium, disable
     </svg>
   </div>
   <span
-    class="emotion-8"
+    class="emotion-9"
   >
     test error
   </span>
@@ -1485,19 +1485,7 @@ exports[`with label snapshots renders a select element with size medium, disable
 `;
 
 exports[`with label snapshots renders a select element with size medium, disabled=false, required=true 1`] = `
-.emotion-8 {
-  position: relative;
-}
-
-.emotion-7 {
-  pointer-events: none;
-  position: absolute;
-  right: 16px;
-  top: 15px;
-  opacity: 1;
-}
-
-.emotion-10 {
+.emotion-0 {
   border: 0;
   display: block;
   margin: 0;
@@ -1506,18 +1494,18 @@ exports[`with label snapshots renders a select element with size medium, disable
   padding: 0;
 }
 
-*:not(style) ~ .emotion-10 {
+*:not(style)~.emotion-0 {
   margin-top: 16px;
 }
 
-.emotion-5 {
+.emotion-1 {
   display: block;
   margin-bottom: 12px;
   padding: 0;
   width: 100%;
 }
 
-.emotion-4 {
+.emotion-2 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -1528,14 +1516,13 @@ exports[`with label snapshots renders a select element with size medium, disable
   display: inline-flex;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
   justify-content: space-between;
   width: 100%;
 }
 
-.emotion-0 {
+.emotion-3 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(5,25,45);
+  color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
   font-size: 16px;
@@ -1552,11 +1539,45 @@ exports[`with label snapshots renders a select element with size medium, disable
   white-space: nowrap;
 }
 
+.emotion-4 {
+  -webkit-flex: none;
+  -ms-flex: none;
+  flex: none;
+  white-space: nowrap;
+}
+
+.emotion-5 {
+  -webkit-font-smoothing: antialiased;
+  color: rgb(5, 25, 45);
+  font-family: Studio-Feixen-Sans,Arial;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  color: #ff5400;
+  margin-right: 4px;
+}
+
 .emotion-6 {
+  -webkit-font-smoothing: antialiased;
+  color: rgb(5, 25, 45);
+  font-family: Studio-Feixen-Sans,Arial;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(5, 25, 45, 0.6);
+  display: inline-block;
+  font-size: 14px;
+}
+
+.emotion-7 {
+  position: relative;
+}
+
+.emotion-8 {
   background: white;
   border: 0;
   border-radius: 4px;
-  box-shadow: inset 0 0 0 2px rgb(229,225,218);
+  box-shadow: inset 0 0 0 2px rgb(229, 225, 218);
   box-sizing: border-box;
   display: inline-block;
   font-family: Arial;
@@ -1566,6 +1587,7 @@ exports[`with label snapshots renders a select element with size medium, disable
   -webkit-appearance: none;
   -webkit-appearance: none;
   -moz-appearance: none;
+  -ms-appearance: none;
   appearance: none;
   -moz-appearance: none;
   -webkit-appearance: none;
@@ -1575,25 +1597,33 @@ exports[`with label snapshots renders a select element with size medium, disable
   height: 48px;
   padding-left: 16px;
   padding-right: 48px;
-  color: rgb(5,25,45);
+  color: rgb(5, 25, 45);
   width: 100%;
 }
 
-.emotion-6:disabled,
-.emotion-6:active:disabled,
-.emotion-6:focus:disabled {
+.emotion-8:disabled,
+.emotion-8:active:disabled,
+.emotion-8:focus:disabled {
   cursor: not-allowed;
   opacity: 0.3;
 }
 
-.emotion-6:focus {
-  box-shadow: inset 0 0 0 2px rgb(0,155,216);
+.emotion-8:focus {
+  box-shadow: inset 0 0 0 2px rgb(0, 155, 216);
   outline: none;
 }
 
 .emotion-9 {
+  pointer-events: none;
+  position: absolute;
+  right: 16px;
+  top: 15px;
+  opacity: 1;
+}
+
+.emotion-10 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(5,25,45);
+  color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
   font-size: 16px;
@@ -1604,61 +1634,31 @@ exports[`with label snapshots renders a select element with size medium, disable
   margin-top: 8px;
 }
 
-.emotion-3 {
-  -webkit-flex: none;
-  -ms-flex: none;
-  flex: none;
-  white-space: nowrap;
-}
-
-.emotion-1 {
-  -webkit-font-smoothing: antialiased;
-  color: rgb(5,25,45);
-  font-family: Studio-Feixen-Sans,Arial;
-  font-style: normal;
-  font-size: 16px;
-  font-weight: 400;
-  color: #ff5400;
-  margin-right: 4px;
-}
-
-.emotion-2 {
-  -webkit-font-smoothing: antialiased;
-  color: rgb(5,25,45);
-  font-family: Studio-Feixen-Sans,Arial;
-  font-style: normal;
-  font-size: 16px;
-  font-weight: 400;
-  color: rgba(5,25,45,0.6);
-  display: inline-block;
-  font-size: 14px;
-}
-
 <label
-  class="emotion-10"
+  class="emotion-0"
   for="this is a name"
 >
   <span
-    class="emotion-5"
+    class="emotion-1"
   >
     <span
-      class="emotion-4"
+      class="emotion-2"
     >
       <span
-        class="emotion-0"
+        class="emotion-3"
       >
         test label
       </span>
       <div
-        class="emotion-3"
+        class="emotion-4"
       >
         <span
-          class="emotion-1"
+          class="emotion-5"
         >
           •
         </span>
         <span
-          class="emotion-2"
+          class="emotion-6"
         >
           Required
         </span>
@@ -1666,10 +1666,10 @@ exports[`with label snapshots renders a select element with size medium, disable
     </span>
   </span>
   <div
-    class="emotion-8"
+    class="emotion-7"
   >
     <select
-      class="emotion-6"
+      class="emotion-8"
       name="this is a name"
     >
       <option
@@ -1691,7 +1691,7 @@ exports[`with label snapshots renders a select element with size medium, disable
     </select>
     <svg
       aria-hidden="false"
-      class="emotion-7"
+      class="emotion-9"
       height="18"
       role="img"
       viewBox="0 0 18 18"
@@ -1708,7 +1708,7 @@ exports[`with label snapshots renders a select element with size medium, disable
     </svg>
   </div>
   <span
-    class="emotion-9"
+    class="emotion-10"
   >
     test error
   </span>
@@ -1716,19 +1716,7 @@ exports[`with label snapshots renders a select element with size medium, disable
 `;
 
 exports[`with label snapshots renders a select element with size medium, disabled=false, required=undefined 1`] = `
-.emotion-5 {
-  position: relative;
-}
-
-.emotion-4 {
-  pointer-events: none;
-  position: absolute;
-  right: 16px;
-  top: 15px;
-  opacity: 1;
-}
-
-.emotion-7 {
+.emotion-0 {
   border: 0;
   display: block;
   margin: 0;
@@ -1737,18 +1725,18 @@ exports[`with label snapshots renders a select element with size medium, disable
   padding: 0;
 }
 
-*:not(style) ~ .emotion-7 {
+*:not(style)~.emotion-0 {
   margin-top: 16px;
 }
 
-.emotion-2 {
+.emotion-1 {
   display: block;
   margin-bottom: 12px;
   padding: 0;
   width: 100%;
 }
 
-.emotion-1 {
+.emotion-2 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -1759,14 +1747,13 @@ exports[`with label snapshots renders a select element with size medium, disable
   display: inline-flex;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
   justify-content: space-between;
   width: 100%;
 }
 
-.emotion-0 {
+.emotion-3 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(5,25,45);
+  color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
   font-size: 16px;
@@ -1783,11 +1770,15 @@ exports[`with label snapshots renders a select element with size medium, disable
   white-space: nowrap;
 }
 
-.emotion-3 {
+.emotion-4 {
+  position: relative;
+}
+
+.emotion-5 {
   background: white;
   border: 0;
   border-radius: 4px;
-  box-shadow: inset 0 0 0 2px rgb(229,225,218);
+  box-shadow: inset 0 0 0 2px rgb(229, 225, 218);
   box-sizing: border-box;
   display: inline-block;
   font-family: Arial;
@@ -1797,6 +1788,7 @@ exports[`with label snapshots renders a select element with size medium, disable
   -webkit-appearance: none;
   -webkit-appearance: none;
   -moz-appearance: none;
+  -ms-appearance: none;
   appearance: none;
   -moz-appearance: none;
   -webkit-appearance: none;
@@ -1806,25 +1798,33 @@ exports[`with label snapshots renders a select element with size medium, disable
   height: 48px;
   padding-left: 16px;
   padding-right: 48px;
-  color: rgb(5,25,45);
+  color: rgb(5, 25, 45);
   width: 100%;
 }
 
-.emotion-3:disabled,
-.emotion-3:active:disabled,
-.emotion-3:focus:disabled {
+.emotion-5:disabled,
+.emotion-5:active:disabled,
+.emotion-5:focus:disabled {
   cursor: not-allowed;
   opacity: 0.3;
 }
 
-.emotion-3:focus {
-  box-shadow: inset 0 0 0 2px rgb(0,155,216);
+.emotion-5:focus {
+  box-shadow: inset 0 0 0 2px rgb(0, 155, 216);
   outline: none;
 }
 
 .emotion-6 {
+  pointer-events: none;
+  position: absolute;
+  right: 16px;
+  top: 15px;
+  opacity: 1;
+}
+
+.emotion-7 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(5,25,45);
+  color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
   font-size: 16px;
@@ -1836,27 +1836,27 @@ exports[`with label snapshots renders a select element with size medium, disable
 }
 
 <label
-  class="emotion-7"
+  class="emotion-0"
   for="this is a name"
 >
   <span
-    class="emotion-2"
+    class="emotion-1"
   >
     <span
-      class="emotion-1"
+      class="emotion-2"
     >
       <span
-        class="emotion-0"
+        class="emotion-3"
       >
         test label
       </span>
     </span>
   </span>
   <div
-    class="emotion-5"
+    class="emotion-4"
   >
     <select
-      class="emotion-3"
+      class="emotion-5"
       name="this is a name"
     >
       <option
@@ -1878,7 +1878,7 @@ exports[`with label snapshots renders a select element with size medium, disable
     </select>
     <svg
       aria-hidden="false"
-      class="emotion-4"
+      class="emotion-6"
       height="18"
       role="img"
       viewBox="0 0 18 18"
@@ -1895,7 +1895,7 @@ exports[`with label snapshots renders a select element with size medium, disable
     </svg>
   </div>
   <span
-    class="emotion-6"
+    class="emotion-7"
   >
     test error
   </span>
@@ -1903,11 +1903,7 @@ exports[`with label snapshots renders a select element with size medium, disable
 `;
 
 exports[`with label snapshots renders a select element with size medium, disabled=true, required=false 1`] = `
-.emotion-7 {
-  position: relative;
-}
-
-.emotion-9 {
+.emotion-0 {
   border: 0;
   display: block;
   margin: 0;
@@ -1916,18 +1912,18 @@ exports[`with label snapshots renders a select element with size medium, disable
   padding: 0;
 }
 
-*:not(style) ~ .emotion-9 {
+*:not(style)~.emotion-0 {
   margin-top: 16px;
 }
 
-.emotion-4 {
+.emotion-1 {
   display: block;
   margin-bottom: 12px;
   padding: 0;
   width: 100%;
 }
 
-.emotion-3 {
+.emotion-2 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -1938,14 +1934,13 @@ exports[`with label snapshots renders a select element with size medium, disable
   display: inline-flex;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
   justify-content: space-between;
   width: 100%;
 }
 
-.emotion-0 {
+.emotion-3 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(5,25,45);
+  color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
   font-size: 16px;
@@ -1962,11 +1957,34 @@ exports[`with label snapshots renders a select element with size medium, disable
   white-space: nowrap;
 }
 
+.emotion-4 {
+  -webkit-flex: none;
+  -ms-flex: none;
+  flex: none;
+  white-space: nowrap;
+}
+
 .emotion-5 {
+  -webkit-font-smoothing: antialiased;
+  color: rgb(5, 25, 45);
+  font-family: Studio-Feixen-Sans,Arial;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(5, 25, 45, 0.6);
+  display: inline-block;
+  font-size: 14px;
+}
+
+.emotion-6 {
+  position: relative;
+}
+
+.emotion-7 {
   background: white;
   border: 0;
   border-radius: 4px;
-  box-shadow: inset 0 0 0 2px rgb(229,225,218);
+  box-shadow: inset 0 0 0 2px rgb(229, 225, 218);
   box-sizing: border-box;
   display: inline-block;
   font-family: Arial;
@@ -1976,6 +1994,7 @@ exports[`with label snapshots renders a select element with size medium, disable
   -webkit-appearance: none;
   -webkit-appearance: none;
   -moz-appearance: none;
+  -ms-appearance: none;
   appearance: none;
   -moz-appearance: none;
   -webkit-appearance: none;
@@ -1985,23 +2004,23 @@ exports[`with label snapshots renders a select element with size medium, disable
   height: 48px;
   padding-left: 16px;
   padding-right: 48px;
-  color: rgb(5,25,45);
+  color: rgb(5, 25, 45);
   width: 100%;
 }
 
-.emotion-5:disabled,
-.emotion-5:active:disabled,
-.emotion-5:focus:disabled {
+.emotion-7:disabled,
+.emotion-7:active:disabled,
+.emotion-7:focus:disabled {
   cursor: not-allowed;
   opacity: 0.3;
 }
 
-.emotion-5:focus {
-  box-shadow: inset 0 0 0 2px rgb(0,155,216);
+.emotion-7:focus {
+  box-shadow: inset 0 0 0 2px rgb(0, 155, 216);
   outline: none;
 }
 
-.emotion-6 {
+.emotion-8 {
   pointer-events: none;
   position: absolute;
   right: 16px;
@@ -2009,9 +2028,9 @@ exports[`with label snapshots renders a select element with size medium, disable
   opacity: 0.3;
 }
 
-.emotion-8 {
+.emotion-9 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(5,25,45);
+  color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
   font-size: 16px;
@@ -2022,45 +2041,26 @@ exports[`with label snapshots renders a select element with size medium, disable
   margin-top: 8px;
 }
 
-.emotion-2 {
-  -webkit-flex: none;
-  -ms-flex: none;
-  flex: none;
-  white-space: nowrap;
-}
-
-.emotion-1 {
-  -webkit-font-smoothing: antialiased;
-  color: rgb(5,25,45);
-  font-family: Studio-Feixen-Sans,Arial;
-  font-style: normal;
-  font-size: 16px;
-  font-weight: 400;
-  color: rgba(5,25,45,0.6);
-  display: inline-block;
-  font-size: 14px;
-}
-
 <label
-  class="emotion-9"
+  class="emotion-0"
   for="this is a name"
 >
   <span
-    class="emotion-4"
+    class="emotion-1"
   >
     <span
-      class="emotion-3"
+      class="emotion-2"
     >
       <span
-        class="emotion-0"
+        class="emotion-3"
       >
         test label
       </span>
       <div
-        class="emotion-2"
+        class="emotion-4"
       >
         <span
-          class="emotion-1"
+          class="emotion-5"
         >
           Optional
         </span>
@@ -2068,10 +2068,10 @@ exports[`with label snapshots renders a select element with size medium, disable
     </span>
   </span>
   <div
-    class="emotion-7"
+    class="emotion-6"
   >
     <select
-      class="emotion-5"
+      class="emotion-7"
       disabled=""
       name="this is a name"
     >
@@ -2094,7 +2094,7 @@ exports[`with label snapshots renders a select element with size medium, disable
     </select>
     <svg
       aria-hidden="false"
-      class="emotion-6"
+      class="emotion-8"
       height="18"
       role="img"
       viewBox="0 0 18 18"
@@ -2111,7 +2111,7 @@ exports[`with label snapshots renders a select element with size medium, disable
     </svg>
   </div>
   <span
-    class="emotion-8"
+    class="emotion-9"
   >
     test error
   </span>
@@ -2119,11 +2119,7 @@ exports[`with label snapshots renders a select element with size medium, disable
 `;
 
 exports[`with label snapshots renders a select element with size medium, disabled=true, required=true 1`] = `
-.emotion-8 {
-  position: relative;
-}
-
-.emotion-10 {
+.emotion-0 {
   border: 0;
   display: block;
   margin: 0;
@@ -2132,18 +2128,18 @@ exports[`with label snapshots renders a select element with size medium, disable
   padding: 0;
 }
 
-*:not(style) ~ .emotion-10 {
+*:not(style)~.emotion-0 {
   margin-top: 16px;
 }
 
-.emotion-5 {
+.emotion-1 {
   display: block;
   margin-bottom: 12px;
   padding: 0;
   width: 100%;
 }
 
-.emotion-4 {
+.emotion-2 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -2154,14 +2150,13 @@ exports[`with label snapshots renders a select element with size medium, disable
   display: inline-flex;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
   justify-content: space-between;
   width: 100%;
 }
 
-.emotion-0 {
+.emotion-3 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(5,25,45);
+  color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
   font-size: 16px;
@@ -2178,11 +2173,45 @@ exports[`with label snapshots renders a select element with size medium, disable
   white-space: nowrap;
 }
 
+.emotion-4 {
+  -webkit-flex: none;
+  -ms-flex: none;
+  flex: none;
+  white-space: nowrap;
+}
+
+.emotion-5 {
+  -webkit-font-smoothing: antialiased;
+  color: rgb(5, 25, 45);
+  font-family: Studio-Feixen-Sans,Arial;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  color: #ff5400;
+  margin-right: 4px;
+}
+
 .emotion-6 {
+  -webkit-font-smoothing: antialiased;
+  color: rgb(5, 25, 45);
+  font-family: Studio-Feixen-Sans,Arial;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(5, 25, 45, 0.6);
+  display: inline-block;
+  font-size: 14px;
+}
+
+.emotion-7 {
+  position: relative;
+}
+
+.emotion-8 {
   background: white;
   border: 0;
   border-radius: 4px;
-  box-shadow: inset 0 0 0 2px rgb(229,225,218);
+  box-shadow: inset 0 0 0 2px rgb(229, 225, 218);
   box-sizing: border-box;
   display: inline-block;
   font-family: Arial;
@@ -2192,6 +2221,7 @@ exports[`with label snapshots renders a select element with size medium, disable
   -webkit-appearance: none;
   -webkit-appearance: none;
   -moz-appearance: none;
+  -ms-appearance: none;
   appearance: none;
   -moz-appearance: none;
   -webkit-appearance: none;
@@ -2201,23 +2231,23 @@ exports[`with label snapshots renders a select element with size medium, disable
   height: 48px;
   padding-left: 16px;
   padding-right: 48px;
-  color: rgb(5,25,45);
+  color: rgb(5, 25, 45);
   width: 100%;
 }
 
-.emotion-6:disabled,
-.emotion-6:active:disabled,
-.emotion-6:focus:disabled {
+.emotion-8:disabled,
+.emotion-8:active:disabled,
+.emotion-8:focus:disabled {
   cursor: not-allowed;
   opacity: 0.3;
 }
 
-.emotion-6:focus {
-  box-shadow: inset 0 0 0 2px rgb(0,155,216);
+.emotion-8:focus {
+  box-shadow: inset 0 0 0 2px rgb(0, 155, 216);
   outline: none;
 }
 
-.emotion-7 {
+.emotion-9 {
   pointer-events: none;
   position: absolute;
   right: 16px;
@@ -2225,9 +2255,9 @@ exports[`with label snapshots renders a select element with size medium, disable
   opacity: 0.3;
 }
 
-.emotion-9 {
+.emotion-10 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(5,25,45);
+  color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
   font-size: 16px;
@@ -2238,61 +2268,31 @@ exports[`with label snapshots renders a select element with size medium, disable
   margin-top: 8px;
 }
 
-.emotion-3 {
-  -webkit-flex: none;
-  -ms-flex: none;
-  flex: none;
-  white-space: nowrap;
-}
-
-.emotion-1 {
-  -webkit-font-smoothing: antialiased;
-  color: rgb(5,25,45);
-  font-family: Studio-Feixen-Sans,Arial;
-  font-style: normal;
-  font-size: 16px;
-  font-weight: 400;
-  color: #ff5400;
-  margin-right: 4px;
-}
-
-.emotion-2 {
-  -webkit-font-smoothing: antialiased;
-  color: rgb(5,25,45);
-  font-family: Studio-Feixen-Sans,Arial;
-  font-style: normal;
-  font-size: 16px;
-  font-weight: 400;
-  color: rgba(5,25,45,0.6);
-  display: inline-block;
-  font-size: 14px;
-}
-
 <label
-  class="emotion-10"
+  class="emotion-0"
   for="this is a name"
 >
   <span
-    class="emotion-5"
+    class="emotion-1"
   >
     <span
-      class="emotion-4"
+      class="emotion-2"
     >
       <span
-        class="emotion-0"
+        class="emotion-3"
       >
         test label
       </span>
       <div
-        class="emotion-3"
+        class="emotion-4"
       >
         <span
-          class="emotion-1"
+          class="emotion-5"
         >
           •
         </span>
         <span
-          class="emotion-2"
+          class="emotion-6"
         >
           Required
         </span>
@@ -2300,10 +2300,10 @@ exports[`with label snapshots renders a select element with size medium, disable
     </span>
   </span>
   <div
-    class="emotion-8"
+    class="emotion-7"
   >
     <select
-      class="emotion-6"
+      class="emotion-8"
       disabled=""
       name="this is a name"
     >
@@ -2326,7 +2326,7 @@ exports[`with label snapshots renders a select element with size medium, disable
     </select>
     <svg
       aria-hidden="false"
-      class="emotion-7"
+      class="emotion-9"
       height="18"
       role="img"
       viewBox="0 0 18 18"
@@ -2343,7 +2343,7 @@ exports[`with label snapshots renders a select element with size medium, disable
     </svg>
   </div>
   <span
-    class="emotion-9"
+    class="emotion-10"
   >
     test error
   </span>
@@ -2351,11 +2351,7 @@ exports[`with label snapshots renders a select element with size medium, disable
 `;
 
 exports[`with label snapshots renders a select element with size medium, disabled=true, required=undefined 1`] = `
-.emotion-5 {
-  position: relative;
-}
-
-.emotion-7 {
+.emotion-0 {
   border: 0;
   display: block;
   margin: 0;
@@ -2364,18 +2360,18 @@ exports[`with label snapshots renders a select element with size medium, disable
   padding: 0;
 }
 
-*:not(style) ~ .emotion-7 {
+*:not(style)~.emotion-0 {
   margin-top: 16px;
 }
 
-.emotion-2 {
+.emotion-1 {
   display: block;
   margin-bottom: 12px;
   padding: 0;
   width: 100%;
 }
 
-.emotion-1 {
+.emotion-2 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -2386,14 +2382,13 @@ exports[`with label snapshots renders a select element with size medium, disable
   display: inline-flex;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
   justify-content: space-between;
   width: 100%;
 }
 
-.emotion-0 {
+.emotion-3 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(5,25,45);
+  color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
   font-size: 16px;
@@ -2410,11 +2405,15 @@ exports[`with label snapshots renders a select element with size medium, disable
   white-space: nowrap;
 }
 
-.emotion-3 {
+.emotion-4 {
+  position: relative;
+}
+
+.emotion-5 {
   background: white;
   border: 0;
   border-radius: 4px;
-  box-shadow: inset 0 0 0 2px rgb(229,225,218);
+  box-shadow: inset 0 0 0 2px rgb(229, 225, 218);
   box-sizing: border-box;
   display: inline-block;
   font-family: Arial;
@@ -2424,6 +2423,7 @@ exports[`with label snapshots renders a select element with size medium, disable
   -webkit-appearance: none;
   -webkit-appearance: none;
   -moz-appearance: none;
+  -ms-appearance: none;
   appearance: none;
   -moz-appearance: none;
   -webkit-appearance: none;
@@ -2433,23 +2433,23 @@ exports[`with label snapshots renders a select element with size medium, disable
   height: 48px;
   padding-left: 16px;
   padding-right: 48px;
-  color: rgb(5,25,45);
+  color: rgb(5, 25, 45);
   width: 100%;
 }
 
-.emotion-3:disabled,
-.emotion-3:active:disabled,
-.emotion-3:focus:disabled {
+.emotion-5:disabled,
+.emotion-5:active:disabled,
+.emotion-5:focus:disabled {
   cursor: not-allowed;
   opacity: 0.3;
 }
 
-.emotion-3:focus {
-  box-shadow: inset 0 0 0 2px rgb(0,155,216);
+.emotion-5:focus {
+  box-shadow: inset 0 0 0 2px rgb(0, 155, 216);
   outline: none;
 }
 
-.emotion-4 {
+.emotion-6 {
   pointer-events: none;
   position: absolute;
   right: 16px;
@@ -2457,9 +2457,9 @@ exports[`with label snapshots renders a select element with size medium, disable
   opacity: 0.3;
 }
 
-.emotion-6 {
+.emotion-7 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(5,25,45);
+  color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
   font-size: 16px;
@@ -2471,27 +2471,27 @@ exports[`with label snapshots renders a select element with size medium, disable
 }
 
 <label
-  class="emotion-7"
+  class="emotion-0"
   for="this is a name"
 >
   <span
-    class="emotion-2"
+    class="emotion-1"
   >
     <span
-      class="emotion-1"
+      class="emotion-2"
     >
       <span
-        class="emotion-0"
+        class="emotion-3"
       >
         test label
       </span>
     </span>
   </span>
   <div
-    class="emotion-5"
+    class="emotion-4"
   >
     <select
-      class="emotion-3"
+      class="emotion-5"
       disabled=""
       name="this is a name"
     >
@@ -2514,7 +2514,7 @@ exports[`with label snapshots renders a select element with size medium, disable
     </select>
     <svg
       aria-hidden="false"
-      class="emotion-4"
+      class="emotion-6"
       height="18"
       role="img"
       viewBox="0 0 18 18"
@@ -2531,7 +2531,7 @@ exports[`with label snapshots renders a select element with size medium, disable
     </svg>
   </div>
   <span
-    class="emotion-6"
+    class="emotion-7"
   >
     test error
   </span>
@@ -2539,11 +2539,7 @@ exports[`with label snapshots renders a select element with size medium, disable
 `;
 
 exports[`with label snapshots renders a select element with size small, disabled=false, required=false 1`] = `
-.emotion-7 {
-  position: relative;
-}
-
-.emotion-9 {
+.emotion-0 {
   border: 0;
   display: block;
   margin: 0;
@@ -2552,18 +2548,18 @@ exports[`with label snapshots renders a select element with size small, disabled
   padding: 0;
 }
 
-*:not(style) ~ .emotion-9 {
+*:not(style)~.emotion-0 {
   margin-top: 16px;
 }
 
-.emotion-4 {
+.emotion-1 {
   display: block;
   margin-bottom: 12px;
   padding: 0;
   width: 100%;
 }
 
-.emotion-3 {
+.emotion-2 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -2574,14 +2570,13 @@ exports[`with label snapshots renders a select element with size small, disabled
   display: inline-flex;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
   justify-content: space-between;
   width: 100%;
 }
 
-.emotion-0 {
+.emotion-3 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(5,25,45);
+  color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
   font-size: 16px;
@@ -2598,7 +2593,70 @@ exports[`with label snapshots renders a select element with size small, disabled
   white-space: nowrap;
 }
 
+.emotion-4 {
+  -webkit-flex: none;
+  -ms-flex: none;
+  flex: none;
+  white-space: nowrap;
+}
+
+.emotion-5 {
+  -webkit-font-smoothing: antialiased;
+  color: rgb(5, 25, 45);
+  font-family: Studio-Feixen-Sans,Arial;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(5, 25, 45, 0.6);
+  display: inline-block;
+  font-size: 14px;
+}
+
 .emotion-6 {
+  position: relative;
+}
+
+.emotion-7 {
+  background: white;
+  border: 0;
+  border-radius: 4px;
+  box-shadow: inset 0 0 0 2px rgb(229, 225, 218);
+  box-sizing: border-box;
+  display: inline-block;
+  font-family: Arial;
+  font-family: Studio-Feixen-Sans;
+  margin: 0;
+  vertical-align: baseline;
+  -webkit-appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  width: 100%;
+  z-index: 1;
+  font-size: 16px;
+  height: 36px;
+  padding-left: 12px;
+  padding-right: 36px;
+  color: rgb(5, 25, 45);
+  width: 100%;
+}
+
+.emotion-7:disabled,
+.emotion-7:active:disabled,
+.emotion-7:focus:disabled {
+  cursor: not-allowed;
+  opacity: 0.3;
+}
+
+.emotion-7:focus {
+  box-shadow: inset 0 0 0 2px rgb(0, 155, 216);
+  outline: none;
+}
+
+.emotion-8 {
   pointer-events: none;
   position: absolute;
   right: 12px;
@@ -2606,9 +2664,9 @@ exports[`with label snapshots renders a select element with size small, disabled
   opacity: 1;
 }
 
-.emotion-8 {
+.emotion-9 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(5,25,45);
+  color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
   font-size: 16px;
@@ -2619,84 +2677,26 @@ exports[`with label snapshots renders a select element with size small, disabled
   margin-top: 8px;
 }
 
-.emotion-2 {
-  -webkit-flex: none;
-  -ms-flex: none;
-  flex: none;
-  white-space: nowrap;
-}
-
-.emotion-1 {
-  -webkit-font-smoothing: antialiased;
-  color: rgb(5,25,45);
-  font-family: Studio-Feixen-Sans,Arial;
-  font-style: normal;
-  font-size: 16px;
-  font-weight: 400;
-  color: rgba(5,25,45,0.6);
-  display: inline-block;
-  font-size: 14px;
-}
-
-.emotion-5 {
-  background: white;
-  border: 0;
-  border-radius: 4px;
-  box-shadow: inset 0 0 0 2px rgb(229,225,218);
-  box-sizing: border-box;
-  display: inline-block;
-  font-family: Arial;
-  font-family: Studio-Feixen-Sans;
-  margin: 0;
-  vertical-align: baseline;
-  -webkit-appearance: none;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  -moz-appearance: none;
-  -webkit-appearance: none;
-  width: 100%;
-  z-index: 1;
-  font-size: 16px;
-  height: 36px;
-  padding-left: 12px;
-  padding-right: 36px;
-  color: rgb(5,25,45);
-  width: 100%;
-}
-
-.emotion-5:disabled,
-.emotion-5:active:disabled,
-.emotion-5:focus:disabled {
-  cursor: not-allowed;
-  opacity: 0.3;
-}
-
-.emotion-5:focus {
-  box-shadow: inset 0 0 0 2px rgb(0,155,216);
-  outline: none;
-}
-
 <label
-  class="emotion-9"
+  class="emotion-0"
   for="this is a name"
 >
   <span
-    class="emotion-4"
+    class="emotion-1"
   >
     <span
-      class="emotion-3"
+      class="emotion-2"
     >
       <span
-        class="emotion-0"
+        class="emotion-3"
       >
         test label
       </span>
       <div
-        class="emotion-2"
+        class="emotion-4"
       >
         <span
-          class="emotion-1"
+          class="emotion-5"
         >
           Optional
         </span>
@@ -2704,10 +2704,10 @@ exports[`with label snapshots renders a select element with size small, disabled
     </span>
   </span>
   <div
-    class="emotion-7"
+    class="emotion-6"
   >
     <select
-      class="emotion-5"
+      class="emotion-7"
       name="this is a name"
     >
       <option
@@ -2729,7 +2729,7 @@ exports[`with label snapshots renders a select element with size small, disabled
     </select>
     <svg
       aria-hidden="false"
-      class="emotion-6"
+      class="emotion-8"
       height="18"
       role="img"
       viewBox="0 0 18 18"
@@ -2746,7 +2746,7 @@ exports[`with label snapshots renders a select element with size small, disabled
     </svg>
   </div>
   <span
-    class="emotion-8"
+    class="emotion-9"
   >
     test error
   </span>
@@ -2754,11 +2754,7 @@ exports[`with label snapshots renders a select element with size small, disabled
 `;
 
 exports[`with label snapshots renders a select element with size small, disabled=false, required=true 1`] = `
-.emotion-8 {
-  position: relative;
-}
-
-.emotion-10 {
+.emotion-0 {
   border: 0;
   display: block;
   margin: 0;
@@ -2767,18 +2763,18 @@ exports[`with label snapshots renders a select element with size small, disabled
   padding: 0;
 }
 
-*:not(style) ~ .emotion-10 {
+*:not(style)~.emotion-0 {
   margin-top: 16px;
 }
 
-.emotion-5 {
+.emotion-1 {
   display: block;
   margin-bottom: 12px;
   padding: 0;
   width: 100%;
 }
 
-.emotion-4 {
+.emotion-2 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -2789,14 +2785,13 @@ exports[`with label snapshots renders a select element with size small, disabled
   display: inline-flex;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
   justify-content: space-between;
   width: 100%;
 }
 
-.emotion-0 {
+.emotion-3 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(5,25,45);
+  color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
   font-size: 16px;
@@ -2813,7 +2808,81 @@ exports[`with label snapshots renders a select element with size small, disabled
   white-space: nowrap;
 }
 
+.emotion-4 {
+  -webkit-flex: none;
+  -ms-flex: none;
+  flex: none;
+  white-space: nowrap;
+}
+
+.emotion-5 {
+  -webkit-font-smoothing: antialiased;
+  color: rgb(5, 25, 45);
+  font-family: Studio-Feixen-Sans,Arial;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  color: #ff5400;
+  margin-right: 4px;
+}
+
+.emotion-6 {
+  -webkit-font-smoothing: antialiased;
+  color: rgb(5, 25, 45);
+  font-family: Studio-Feixen-Sans,Arial;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(5, 25, 45, 0.6);
+  display: inline-block;
+  font-size: 14px;
+}
+
 .emotion-7 {
+  position: relative;
+}
+
+.emotion-8 {
+  background: white;
+  border: 0;
+  border-radius: 4px;
+  box-shadow: inset 0 0 0 2px rgb(229, 225, 218);
+  box-sizing: border-box;
+  display: inline-block;
+  font-family: Arial;
+  font-family: Studio-Feixen-Sans;
+  margin: 0;
+  vertical-align: baseline;
+  -webkit-appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  width: 100%;
+  z-index: 1;
+  font-size: 16px;
+  height: 36px;
+  padding-left: 12px;
+  padding-right: 36px;
+  color: rgb(5, 25, 45);
+  width: 100%;
+}
+
+.emotion-8:disabled,
+.emotion-8:active:disabled,
+.emotion-8:focus:disabled {
+  cursor: not-allowed;
+  opacity: 0.3;
+}
+
+.emotion-8:focus {
+  box-shadow: inset 0 0 0 2px rgb(0, 155, 216);
+  outline: none;
+}
+
+.emotion-9 {
   pointer-events: none;
   position: absolute;
   right: 12px;
@@ -2821,9 +2890,9 @@ exports[`with label snapshots renders a select element with size small, disabled
   opacity: 1;
 }
 
-.emotion-9 {
+.emotion-10 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(5,25,45);
+  color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
   font-size: 16px;
@@ -2834,100 +2903,31 @@ exports[`with label snapshots renders a select element with size small, disabled
   margin-top: 8px;
 }
 
-.emotion-3 {
-  -webkit-flex: none;
-  -ms-flex: none;
-  flex: none;
-  white-space: nowrap;
-}
-
-.emotion-1 {
-  -webkit-font-smoothing: antialiased;
-  color: rgb(5,25,45);
-  font-family: Studio-Feixen-Sans,Arial;
-  font-style: normal;
-  font-size: 16px;
-  font-weight: 400;
-  color: #ff5400;
-  margin-right: 4px;
-}
-
-.emotion-2 {
-  -webkit-font-smoothing: antialiased;
-  color: rgb(5,25,45);
-  font-family: Studio-Feixen-Sans,Arial;
-  font-style: normal;
-  font-size: 16px;
-  font-weight: 400;
-  color: rgba(5,25,45,0.6);
-  display: inline-block;
-  font-size: 14px;
-}
-
-.emotion-6 {
-  background: white;
-  border: 0;
-  border-radius: 4px;
-  box-shadow: inset 0 0 0 2px rgb(229,225,218);
-  box-sizing: border-box;
-  display: inline-block;
-  font-family: Arial;
-  font-family: Studio-Feixen-Sans;
-  margin: 0;
-  vertical-align: baseline;
-  -webkit-appearance: none;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  -moz-appearance: none;
-  -webkit-appearance: none;
-  width: 100%;
-  z-index: 1;
-  font-size: 16px;
-  height: 36px;
-  padding-left: 12px;
-  padding-right: 36px;
-  color: rgb(5,25,45);
-  width: 100%;
-}
-
-.emotion-6:disabled,
-.emotion-6:active:disabled,
-.emotion-6:focus:disabled {
-  cursor: not-allowed;
-  opacity: 0.3;
-}
-
-.emotion-6:focus {
-  box-shadow: inset 0 0 0 2px rgb(0,155,216);
-  outline: none;
-}
-
 <label
-  class="emotion-10"
+  class="emotion-0"
   for="this is a name"
 >
   <span
-    class="emotion-5"
+    class="emotion-1"
   >
     <span
-      class="emotion-4"
+      class="emotion-2"
     >
       <span
-        class="emotion-0"
+        class="emotion-3"
       >
         test label
       </span>
       <div
-        class="emotion-3"
+        class="emotion-4"
       >
         <span
-          class="emotion-1"
+          class="emotion-5"
         >
           •
         </span>
         <span
-          class="emotion-2"
+          class="emotion-6"
         >
           Required
         </span>
@@ -2935,10 +2935,10 @@ exports[`with label snapshots renders a select element with size small, disabled
     </span>
   </span>
   <div
-    class="emotion-8"
+    class="emotion-7"
   >
     <select
-      class="emotion-6"
+      class="emotion-8"
       name="this is a name"
     >
       <option
@@ -2960,7 +2960,410 @@ exports[`with label snapshots renders a select element with size small, disabled
     </select>
     <svg
       aria-hidden="false"
+      class="emotion-9"
+      height="18"
+      role="img"
+      viewBox="0 0 18 18"
+      width="18"
+    >
+      <title>
+        Down Chevron
+      </title>
+      <path
+        d="M8.244 12.155l-4.95-4.947a1 1 0 111.415-1.415l4.294 4.291 4.293-4.279a.998.998 0 011.413.003c.39.392.388 1.025-.003 1.415l-5.002 4.986a.998.998 0 01-1.46-.054z"
+        fill="currentColor"
+        fill-rule="evenodd"
+      />
+    </svg>
+  </div>
+  <span
+    class="emotion-10"
+  >
+    test error
+  </span>
+</label>
+`;
+
+exports[`with label snapshots renders a select element with size small, disabled=false, required=undefined 1`] = `
+.emotion-0 {
+  border: 0;
+  display: block;
+  margin: 0;
+  margin-top: 0;
+  min-width: 0;
+  padding: 0;
+}
+
+*:not(style)~.emotion-0 {
+  margin-top: 16px;
+}
+
+.emotion-1 {
+  display: block;
+  margin-bottom: 12px;
+  padding: 0;
+  width: 100%;
+}
+
+.emotion-2 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.emotion-3 {
+  -webkit-font-smoothing: antialiased;
+  color: rgb(5, 25, 45);
+  font-family: Studio-Feixen-Sans,Arial;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  color: #05192d;
+  display: inline-block;
+  -webkit-flex: 0 1 auto;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
+  font-weight: 800;
+  margin-right: 4px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.emotion-4 {
+  position: relative;
+}
+
+.emotion-5 {
+  background: white;
+  border: 0;
+  border-radius: 4px;
+  box-shadow: inset 0 0 0 2px rgb(229, 225, 218);
+  box-sizing: border-box;
+  display: inline-block;
+  font-family: Arial;
+  font-family: Studio-Feixen-Sans;
+  margin: 0;
+  vertical-align: baseline;
+  -webkit-appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  width: 100%;
+  z-index: 1;
+  font-size: 16px;
+  height: 36px;
+  padding-left: 12px;
+  padding-right: 36px;
+  color: rgb(5, 25, 45);
+  width: 100%;
+}
+
+.emotion-5:disabled,
+.emotion-5:active:disabled,
+.emotion-5:focus:disabled {
+  cursor: not-allowed;
+  opacity: 0.3;
+}
+
+.emotion-5:focus {
+  box-shadow: inset 0 0 0 2px rgb(0, 155, 216);
+  outline: none;
+}
+
+.emotion-6 {
+  pointer-events: none;
+  position: absolute;
+  right: 12px;
+  top: 9px;
+  opacity: 1;
+}
+
+.emotion-7 {
+  -webkit-font-smoothing: antialiased;
+  color: rgb(5, 25, 45);
+  font-family: Studio-Feixen-Sans,Arial;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  color: #c01100;
+  display: block;
+  font-size: 14px;
+  margin-top: 8px;
+}
+
+<label
+  class="emotion-0"
+  for="this is a name"
+>
+  <span
+    class="emotion-1"
+  >
+    <span
+      class="emotion-2"
+    >
+      <span
+        class="emotion-3"
+      >
+        test label
+      </span>
+    </span>
+  </span>
+  <div
+    class="emotion-4"
+  >
+    <select
+      class="emotion-5"
+      name="this is a name"
+    >
+      <option
+        value="value1"
+      >
+        option1
+      </option>
+      <option
+        value="value2"
+      >
+        option2
+      </option>
+      <option
+        disabled=""
+        value="value3"
+      >
+        option3
+      </option>
+    </select>
+    <svg
+      aria-hidden="false"
+      class="emotion-6"
+      height="18"
+      role="img"
+      viewBox="0 0 18 18"
+      width="18"
+    >
+      <title>
+        Down Chevron
+      </title>
+      <path
+        d="M8.244 12.155l-4.95-4.947a1 1 0 111.415-1.415l4.294 4.291 4.293-4.279a.998.998 0 011.413.003c.39.392.388 1.025-.003 1.415l-5.002 4.986a.998.998 0 01-1.46-.054z"
+        fill="currentColor"
+        fill-rule="evenodd"
+      />
+    </svg>
+  </div>
+  <span
+    class="emotion-7"
+  >
+    test error
+  </span>
+</label>
+`;
+
+exports[`with label snapshots renders a select element with size small, disabled=true, required=false 1`] = `
+.emotion-0 {
+  border: 0;
+  display: block;
+  margin: 0;
+  margin-top: 0;
+  min-width: 0;
+  padding: 0;
+}
+
+*:not(style)~.emotion-0 {
+  margin-top: 16px;
+}
+
+.emotion-1 {
+  display: block;
+  margin-bottom: 12px;
+  padding: 0;
+  width: 100%;
+}
+
+.emotion-2 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.emotion-3 {
+  -webkit-font-smoothing: antialiased;
+  color: rgb(5, 25, 45);
+  font-family: Studio-Feixen-Sans,Arial;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  color: #05192d;
+  display: inline-block;
+  -webkit-flex: 0 1 auto;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
+  font-weight: 800;
+  margin-right: 4px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.emotion-4 {
+  -webkit-flex: none;
+  -ms-flex: none;
+  flex: none;
+  white-space: nowrap;
+}
+
+.emotion-5 {
+  -webkit-font-smoothing: antialiased;
+  color: rgb(5, 25, 45);
+  font-family: Studio-Feixen-Sans,Arial;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(5, 25, 45, 0.6);
+  display: inline-block;
+  font-size: 14px;
+}
+
+.emotion-6 {
+  position: relative;
+}
+
+.emotion-7 {
+  background: white;
+  border: 0;
+  border-radius: 4px;
+  box-shadow: inset 0 0 0 2px rgb(229, 225, 218);
+  box-sizing: border-box;
+  display: inline-block;
+  font-family: Arial;
+  font-family: Studio-Feixen-Sans;
+  margin: 0;
+  vertical-align: baseline;
+  -webkit-appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  width: 100%;
+  z-index: 1;
+  font-size: 16px;
+  height: 36px;
+  padding-left: 12px;
+  padding-right: 36px;
+  color: rgb(5, 25, 45);
+  width: 100%;
+}
+
+.emotion-7:disabled,
+.emotion-7:active:disabled,
+.emotion-7:focus:disabled {
+  cursor: not-allowed;
+  opacity: 0.3;
+}
+
+.emotion-7:focus {
+  box-shadow: inset 0 0 0 2px rgb(0, 155, 216);
+  outline: none;
+}
+
+.emotion-8 {
+  pointer-events: none;
+  position: absolute;
+  right: 12px;
+  top: 9px;
+  opacity: 0.3;
+}
+
+.emotion-9 {
+  -webkit-font-smoothing: antialiased;
+  color: rgb(5, 25, 45);
+  font-family: Studio-Feixen-Sans,Arial;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  color: #c01100;
+  display: block;
+  font-size: 14px;
+  margin-top: 8px;
+}
+
+<label
+  class="emotion-0"
+  for="this is a name"
+>
+  <span
+    class="emotion-1"
+  >
+    <span
+      class="emotion-2"
+    >
+      <span
+        class="emotion-3"
+      >
+        test label
+      </span>
+      <div
+        class="emotion-4"
+      >
+        <span
+          class="emotion-5"
+        >
+          Optional
+        </span>
+      </div>
+    </span>
+  </span>
+  <div
+    class="emotion-6"
+  >
+    <select
       class="emotion-7"
+      disabled=""
+      name="this is a name"
+    >
+      <option
+        value="value1"
+      >
+        option1
+      </option>
+      <option
+        value="value2"
+      >
+        option2
+      </option>
+      <option
+        disabled=""
+        value="value3"
+      >
+        option3
+      </option>
+    </select>
+    <svg
+      aria-hidden="false"
+      class="emotion-8"
       height="18"
       role="img"
       viewBox="0 0 18 18"
@@ -2984,12 +3387,8 @@ exports[`with label snapshots renders a select element with size small, disabled
 </label>
 `;
 
-exports[`with label snapshots renders a select element with size small, disabled=false, required=undefined 1`] = `
-.emotion-5 {
-  position: relative;
-}
-
-.emotion-7 {
+exports[`with label snapshots renders a select element with size small, disabled=true, required=true 1`] = `
+.emotion-0 {
   border: 0;
   display: block;
   margin: 0;
@@ -2998,18 +3397,18 @@ exports[`with label snapshots renders a select element with size small, disabled
   padding: 0;
 }
 
-*:not(style) ~ .emotion-7 {
+*:not(style)~.emotion-0 {
   margin-top: 16px;
 }
 
-.emotion-2 {
+.emotion-1 {
   display: block;
   margin-bottom: 12px;
   padding: 0;
   width: 100%;
 }
 
-.emotion-1 {
+.emotion-2 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -3020,14 +3419,13 @@ exports[`with label snapshots renders a select element with size small, disabled
   display: inline-flex;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
   justify-content: space-between;
   width: 100%;
 }
 
-.emotion-0 {
+.emotion-3 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(5,25,45);
+  color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
   font-size: 16px;
@@ -3045,16 +3443,90 @@ exports[`with label snapshots renders a select element with size small, disabled
 }
 
 .emotion-4 {
-  pointer-events: none;
-  position: absolute;
-  right: 12px;
-  top: 9px;
-  opacity: 1;
+  -webkit-flex: none;
+  -ms-flex: none;
+  flex: none;
+  white-space: nowrap;
+}
+
+.emotion-5 {
+  -webkit-font-smoothing: antialiased;
+  color: rgb(5, 25, 45);
+  font-family: Studio-Feixen-Sans,Arial;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  color: #ff5400;
+  margin-right: 4px;
 }
 
 .emotion-6 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(5,25,45);
+  color: rgb(5, 25, 45);
+  font-family: Studio-Feixen-Sans,Arial;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(5, 25, 45, 0.6);
+  display: inline-block;
+  font-size: 14px;
+}
+
+.emotion-7 {
+  position: relative;
+}
+
+.emotion-8 {
+  background: white;
+  border: 0;
+  border-radius: 4px;
+  box-shadow: inset 0 0 0 2px rgb(229, 225, 218);
+  box-sizing: border-box;
+  display: inline-block;
+  font-family: Arial;
+  font-family: Studio-Feixen-Sans;
+  margin: 0;
+  vertical-align: baseline;
+  -webkit-appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  width: 100%;
+  z-index: 1;
+  font-size: 16px;
+  height: 36px;
+  padding-left: 12px;
+  padding-right: 36px;
+  color: rgb(5, 25, 45);
+  width: 100%;
+}
+
+.emotion-8:disabled,
+.emotion-8:active:disabled,
+.emotion-8:focus:disabled {
+  cursor: not-allowed;
+  opacity: 0.3;
+}
+
+.emotion-8:focus {
+  box-shadow: inset 0 0 0 2px rgb(0, 155, 216);
+  outline: none;
+}
+
+.emotion-9 {
+  pointer-events: none;
+  position: absolute;
+  right: 12px;
+  top: 9px;
+  opacity: 0.3;
+}
+
+.emotion-10 {
+  -webkit-font-smoothing: antialiased;
+  color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
   font-size: 16px;
@@ -3065,67 +3537,43 @@ exports[`with label snapshots renders a select element with size small, disabled
   margin-top: 8px;
 }
 
-.emotion-3 {
-  background: white;
-  border: 0;
-  border-radius: 4px;
-  box-shadow: inset 0 0 0 2px rgb(229,225,218);
-  box-sizing: border-box;
-  display: inline-block;
-  font-family: Arial;
-  font-family: Studio-Feixen-Sans;
-  margin: 0;
-  vertical-align: baseline;
-  -webkit-appearance: none;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  -moz-appearance: none;
-  -webkit-appearance: none;
-  width: 100%;
-  z-index: 1;
-  font-size: 16px;
-  height: 36px;
-  padding-left: 12px;
-  padding-right: 36px;
-  color: rgb(5,25,45);
-  width: 100%;
-}
-
-.emotion-3:disabled,
-.emotion-3:active:disabled,
-.emotion-3:focus:disabled {
-  cursor: not-allowed;
-  opacity: 0.3;
-}
-
-.emotion-3:focus {
-  box-shadow: inset 0 0 0 2px rgb(0,155,216);
-  outline: none;
-}
-
 <label
-  class="emotion-7"
+  class="emotion-0"
   for="this is a name"
 >
   <span
-    class="emotion-2"
+    class="emotion-1"
   >
     <span
-      class="emotion-1"
+      class="emotion-2"
     >
       <span
-        class="emotion-0"
+        class="emotion-3"
       >
         test label
       </span>
+      <div
+        class="emotion-4"
+      >
+        <span
+          class="emotion-5"
+        >
+          •
+        </span>
+        <span
+          class="emotion-6"
+        >
+          Required
+        </span>
+      </div>
     </span>
   </span>
   <div
-    class="emotion-5"
+    class="emotion-7"
   >
     <select
-      class="emotion-3"
+      class="emotion-8"
+      disabled=""
       name="this is a name"
     >
       <option
@@ -3147,7 +3595,7 @@ exports[`with label snapshots renders a select element with size small, disabled
     </select>
     <svg
       aria-hidden="false"
-      class="emotion-4"
+      class="emotion-9"
       height="18"
       role="img"
       viewBox="0 0 18 18"
@@ -3164,19 +3612,15 @@ exports[`with label snapshots renders a select element with size small, disabled
     </svg>
   </div>
   <span
-    class="emotion-6"
+    class="emotion-10"
   >
     test error
   </span>
 </label>
 `;
 
-exports[`with label snapshots renders a select element with size small, disabled=true, required=false 1`] = `
-.emotion-7 {
-  position: relative;
-}
-
-.emotion-9 {
+exports[`with label snapshots renders a select element with size small, disabled=true, required=undefined 1`] = `
+.emotion-0 {
   border: 0;
   display: block;
   margin: 0;
@@ -3185,18 +3629,18 @@ exports[`with label snapshots renders a select element with size small, disabled
   padding: 0;
 }
 
-*:not(style) ~ .emotion-9 {
+*:not(style)~.emotion-0 {
   margin-top: 16px;
 }
 
-.emotion-4 {
+.emotion-1 {
   display: block;
   margin-bottom: 12px;
   padding: 0;
   width: 100%;
 }
 
-.emotion-3 {
+.emotion-2 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -3207,14 +3651,13 @@ exports[`with label snapshots renders a select element with size small, disabled
   display: inline-flex;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
   justify-content: space-between;
   width: 100%;
 }
 
-.emotion-0 {
+.emotion-3 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(5,25,45);
+  color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
   font-size: 16px;
@@ -3231,43 +3674,15 @@ exports[`with label snapshots renders a select element with size small, disabled
   white-space: nowrap;
 }
 
-.emotion-8 {
-  -webkit-font-smoothing: antialiased;
-  color: rgb(5,25,45);
-  font-family: Studio-Feixen-Sans,Arial;
-  font-style: normal;
-  font-size: 16px;
-  font-weight: 400;
-  color: #c01100;
-  display: block;
-  font-size: 14px;
-  margin-top: 8px;
-}
-
-.emotion-2 {
-  -webkit-flex: none;
-  -ms-flex: none;
-  flex: none;
-  white-space: nowrap;
-}
-
-.emotion-1 {
-  -webkit-font-smoothing: antialiased;
-  color: rgb(5,25,45);
-  font-family: Studio-Feixen-Sans,Arial;
-  font-style: normal;
-  font-size: 16px;
-  font-weight: 400;
-  color: rgba(5,25,45,0.6);
-  display: inline-block;
-  font-size: 14px;
+.emotion-4 {
+  position: relative;
 }
 
 .emotion-5 {
   background: white;
   border: 0;
   border-radius: 4px;
-  box-shadow: inset 0 0 0 2px rgb(229,225,218);
+  box-shadow: inset 0 0 0 2px rgb(229, 225, 218);
   box-sizing: border-box;
   display: inline-block;
   font-family: Arial;
@@ -3277,6 +3692,7 @@ exports[`with label snapshots renders a select element with size small, disabled
   -webkit-appearance: none;
   -webkit-appearance: none;
   -moz-appearance: none;
+  -ms-appearance: none;
   appearance: none;
   -moz-appearance: none;
   -webkit-appearance: none;
@@ -3286,7 +3702,7 @@ exports[`with label snapshots renders a select element with size small, disabled
   height: 36px;
   padding-left: 12px;
   padding-right: 36px;
-  color: rgb(5,25,45);
+  color: rgb(5, 25, 45);
   width: 100%;
 }
 
@@ -3298,7 +3714,7 @@ exports[`with label snapshots renders a select element with size small, disabled
 }
 
 .emotion-5:focus {
-  box-shadow: inset 0 0 0 2px rgb(0,155,216);
+  box-shadow: inset 0 0 0 2px rgb(0, 155, 216);
   outline: none;
 }
 
@@ -3310,34 +3726,38 @@ exports[`with label snapshots renders a select element with size small, disabled
   opacity: 0.3;
 }
 
+.emotion-7 {
+  -webkit-font-smoothing: antialiased;
+  color: rgb(5, 25, 45);
+  font-family: Studio-Feixen-Sans,Arial;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  color: #c01100;
+  display: block;
+  font-size: 14px;
+  margin-top: 8px;
+}
+
 <label
-  class="emotion-9"
+  class="emotion-0"
   for="this is a name"
 >
   <span
-    class="emotion-4"
+    class="emotion-1"
   >
     <span
-      class="emotion-3"
+      class="emotion-2"
     >
       <span
-        class="emotion-0"
+        class="emotion-3"
       >
         test label
       </span>
-      <div
-        class="emotion-2"
-      >
-        <span
-          class="emotion-1"
-        >
-          Optional
-        </span>
-      </div>
     </span>
   </span>
   <div
-    class="emotion-7"
+    class="emotion-4"
   >
     <select
       class="emotion-5"
@@ -3380,427 +3800,7 @@ exports[`with label snapshots renders a select element with size small, disabled
     </svg>
   </div>
   <span
-    class="emotion-8"
-  >
-    test error
-  </span>
-</label>
-`;
-
-exports[`with label snapshots renders a select element with size small, disabled=true, required=true 1`] = `
-.emotion-8 {
-  position: relative;
-}
-
-.emotion-10 {
-  border: 0;
-  display: block;
-  margin: 0;
-  margin-top: 0;
-  min-width: 0;
-  padding: 0;
-}
-
-*:not(style) ~ .emotion-10 {
-  margin-top: 16px;
-}
-
-.emotion-5 {
-  display: block;
-  margin-bottom: 12px;
-  padding: 0;
-  width: 100%;
-}
-
-.emotion-4 {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  width: 100%;
-}
-
-.emotion-0 {
-  -webkit-font-smoothing: antialiased;
-  color: rgb(5,25,45);
-  font-family: Studio-Feixen-Sans,Arial;
-  font-style: normal;
-  font-size: 16px;
-  font-weight: 400;
-  color: #05192d;
-  display: inline-block;
-  -webkit-flex: 0 1 auto;
-  -ms-flex: 0 1 auto;
-  flex: 0 1 auto;
-  font-weight: 800;
-  margin-right: 4px;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-}
-
-.emotion-9 {
-  -webkit-font-smoothing: antialiased;
-  color: rgb(5,25,45);
-  font-family: Studio-Feixen-Sans,Arial;
-  font-style: normal;
-  font-size: 16px;
-  font-weight: 400;
-  color: #c01100;
-  display: block;
-  font-size: 14px;
-  margin-top: 8px;
-}
-
-.emotion-3 {
-  -webkit-flex: none;
-  -ms-flex: none;
-  flex: none;
-  white-space: nowrap;
-}
-
-.emotion-1 {
-  -webkit-font-smoothing: antialiased;
-  color: rgb(5,25,45);
-  font-family: Studio-Feixen-Sans,Arial;
-  font-style: normal;
-  font-size: 16px;
-  font-weight: 400;
-  color: #ff5400;
-  margin-right: 4px;
-}
-
-.emotion-2 {
-  -webkit-font-smoothing: antialiased;
-  color: rgb(5,25,45);
-  font-family: Studio-Feixen-Sans,Arial;
-  font-style: normal;
-  font-size: 16px;
-  font-weight: 400;
-  color: rgba(5,25,45,0.6);
-  display: inline-block;
-  font-size: 14px;
-}
-
-.emotion-6 {
-  background: white;
-  border: 0;
-  border-radius: 4px;
-  box-shadow: inset 0 0 0 2px rgb(229,225,218);
-  box-sizing: border-box;
-  display: inline-block;
-  font-family: Arial;
-  font-family: Studio-Feixen-Sans;
-  margin: 0;
-  vertical-align: baseline;
-  -webkit-appearance: none;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  -moz-appearance: none;
-  -webkit-appearance: none;
-  width: 100%;
-  z-index: 1;
-  font-size: 16px;
-  height: 36px;
-  padding-left: 12px;
-  padding-right: 36px;
-  color: rgb(5,25,45);
-  width: 100%;
-}
-
-.emotion-6:disabled,
-.emotion-6:active:disabled,
-.emotion-6:focus:disabled {
-  cursor: not-allowed;
-  opacity: 0.3;
-}
-
-.emotion-6:focus {
-  box-shadow: inset 0 0 0 2px rgb(0,155,216);
-  outline: none;
-}
-
-.emotion-7 {
-  pointer-events: none;
-  position: absolute;
-  right: 12px;
-  top: 9px;
-  opacity: 0.3;
-}
-
-<label
-  class="emotion-10"
-  for="this is a name"
->
-  <span
-    class="emotion-5"
-  >
-    <span
-      class="emotion-4"
-    >
-      <span
-        class="emotion-0"
-      >
-        test label
-      </span>
-      <div
-        class="emotion-3"
-      >
-        <span
-          class="emotion-1"
-        >
-          •
-        </span>
-        <span
-          class="emotion-2"
-        >
-          Required
-        </span>
-      </div>
-    </span>
-  </span>
-  <div
-    class="emotion-8"
-  >
-    <select
-      class="emotion-6"
-      disabled=""
-      name="this is a name"
-    >
-      <option
-        value="value1"
-      >
-        option1
-      </option>
-      <option
-        value="value2"
-      >
-        option2
-      </option>
-      <option
-        disabled=""
-        value="value3"
-      >
-        option3
-      </option>
-    </select>
-    <svg
-      aria-hidden="false"
-      class="emotion-7"
-      height="18"
-      role="img"
-      viewBox="0 0 18 18"
-      width="18"
-    >
-      <title>
-        Down Chevron
-      </title>
-      <path
-        d="M8.244 12.155l-4.95-4.947a1 1 0 111.415-1.415l4.294 4.291 4.293-4.279a.998.998 0 011.413.003c.39.392.388 1.025-.003 1.415l-5.002 4.986a.998.998 0 01-1.46-.054z"
-        fill="currentColor"
-        fill-rule="evenodd"
-      />
-    </svg>
-  </div>
-  <span
-    class="emotion-9"
-  >
-    test error
-  </span>
-</label>
-`;
-
-exports[`with label snapshots renders a select element with size small, disabled=true, required=undefined 1`] = `
-.emotion-5 {
-  position: relative;
-}
-
-.emotion-7 {
-  border: 0;
-  display: block;
-  margin: 0;
-  margin-top: 0;
-  min-width: 0;
-  padding: 0;
-}
-
-*:not(style) ~ .emotion-7 {
-  margin-top: 16px;
-}
-
-.emotion-2 {
-  display: block;
-  margin-bottom: 12px;
-  padding: 0;
-  width: 100%;
-}
-
-.emotion-1 {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  width: 100%;
-}
-
-.emotion-0 {
-  -webkit-font-smoothing: antialiased;
-  color: rgb(5,25,45);
-  font-family: Studio-Feixen-Sans,Arial;
-  font-style: normal;
-  font-size: 16px;
-  font-weight: 400;
-  color: #05192d;
-  display: inline-block;
-  -webkit-flex: 0 1 auto;
-  -ms-flex: 0 1 auto;
-  flex: 0 1 auto;
-  font-weight: 800;
-  margin-right: 4px;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-}
-
-.emotion-6 {
-  -webkit-font-smoothing: antialiased;
-  color: rgb(5,25,45);
-  font-family: Studio-Feixen-Sans,Arial;
-  font-style: normal;
-  font-size: 16px;
-  font-weight: 400;
-  color: #c01100;
-  display: block;
-  font-size: 14px;
-  margin-top: 8px;
-}
-
-.emotion-3 {
-  background: white;
-  border: 0;
-  border-radius: 4px;
-  box-shadow: inset 0 0 0 2px rgb(229,225,218);
-  box-sizing: border-box;
-  display: inline-block;
-  font-family: Arial;
-  font-family: Studio-Feixen-Sans;
-  margin: 0;
-  vertical-align: baseline;
-  -webkit-appearance: none;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  -moz-appearance: none;
-  -webkit-appearance: none;
-  width: 100%;
-  z-index: 1;
-  font-size: 16px;
-  height: 36px;
-  padding-left: 12px;
-  padding-right: 36px;
-  color: rgb(5,25,45);
-  width: 100%;
-}
-
-.emotion-3:disabled,
-.emotion-3:active:disabled,
-.emotion-3:focus:disabled {
-  cursor: not-allowed;
-  opacity: 0.3;
-}
-
-.emotion-3:focus {
-  box-shadow: inset 0 0 0 2px rgb(0,155,216);
-  outline: none;
-}
-
-.emotion-4 {
-  pointer-events: none;
-  position: absolute;
-  right: 12px;
-  top: 9px;
-  opacity: 0.3;
-}
-
-<label
-  class="emotion-7"
-  for="this is a name"
->
-  <span
-    class="emotion-2"
-  >
-    <span
-      class="emotion-1"
-    >
-      <span
-        class="emotion-0"
-      >
-        test label
-      </span>
-    </span>
-  </span>
-  <div
-    class="emotion-5"
-  >
-    <select
-      class="emotion-3"
-      disabled=""
-      name="this is a name"
-    >
-      <option
-        value="value1"
-      >
-        option1
-      </option>
-      <option
-        value="value2"
-      >
-        option2
-      </option>
-      <option
-        disabled=""
-        value="value3"
-      >
-        option3
-      </option>
-    </select>
-    <svg
-      aria-hidden="false"
-      class="emotion-4"
-      height="18"
-      role="img"
-      viewBox="0 0 18 18"
-      width="18"
-    >
-      <title>
-        Down Chevron
-      </title>
-      <path
-        d="M8.244 12.155l-4.95-4.947a1 1 0 111.415-1.415l4.294 4.291 4.293-4.279a.998.998 0 011.413.003c.39.392.388 1.025-.003 1.415l-5.002 4.986a.998.998 0 01-1.46-.054z"
-        fill="currentColor"
-        fill-rule="evenodd"
-      />
-    </svg>
-  </div>
-  <span
-    class="emotion-6"
+    class="emotion-7"
   >
     test error
   </span>

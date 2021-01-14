@@ -1,7 +1,7 @@
 import { Text } from '@datacamp/waffles-text';
 import tokens from '@datacamp/waffles-tokens/lib/future-tokens.json';
 import { ssrSafeNotFirstChildSelector } from '@datacamp/waffles-utils';
-import { css } from '@emotion/core';
+import { css } from '@emotion/react';
 import React, { ReactElement } from 'react';
 
 import RadioIcon from './RadioIcon';

@@ -1,7 +1,7 @@
 import { HiddenIcon, VisibleIcon } from '@datacamp/waffles-icons';
 import tokens from '@datacamp/waffles-tokens/lib/future-tokens.json';
 import { computeDataAttributes } from '@datacamp/waffles-utils';
-import { ClassNames, css } from '@emotion/core';
+import { ClassNames, css } from '@emotion/react';
 import React, { forwardRef, ReactElement, Ref } from 'react';
 
 import {

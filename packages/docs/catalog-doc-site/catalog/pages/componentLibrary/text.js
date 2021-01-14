@@ -16,7 +16,7 @@ import {
 import TextData from '@datacamp/waffles-text/componentMetadata.json';
 import { colors } from '@datacamp/waffles-tokens';
 /* @jsx jsx */
-import { jsx } from '@emotion/core';
+import { jsx } from '@emotion/react';
 import { Page } from 'catalog';
 import React from 'react';
 

@@ -11,7 +11,7 @@ import {
 import { toast, ToastContainer } from '@datacamp/waffles-toast';
 import ToastData from '@datacamp/waffles-toast/componentMetadata.json';
 /* @jsx jsx */
-import { jsx } from '@emotion/core';
+import { jsx } from '@emotion/react';
 import { Page } from 'catalog';
 import React from 'react';
 

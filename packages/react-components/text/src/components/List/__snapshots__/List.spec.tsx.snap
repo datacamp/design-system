@@ -1,9 +1,9 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`List renders an ordered list 1`] = `
-.emotion-4 {
+.emotion-0 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(5,25,45);
+  color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
   list-style-position: inside;
@@ -11,46 +11,46 @@ exports[`List renders an ordered list 1`] = `
   padding: 0;
 }
 
-.emotion-4 .emotion-4 {
+.emotion-0 .emotion-0 {
   padding-left: 16px;
 }
 
-*:not(style) ~ .emotion-4 {
+*:not(style)~.emotion-0 {
   margin-top: 16px;
 }
 
-.emotion-0 {
+.emotion-1 {
   line-height: 1.5em;
   margin-top: 8px;
 }
 
 <ul
-  class="test-class emotion-4"
+  class="test-class emotion-0"
 >
   <li
-    class="emotion-0"
+    class="emotion-1"
   >
     top level item 1
   </li>
   <li
-    class="emotion-0"
+    class="emotion-1"
   >
     top level item 2
   </li>
   <li
-    class="emotion-0"
+    class="emotion-1"
   >
     nested items
     <ul
-      class="emotion-4"
+      class="emotion-0"
     >
       <li
-        class="emotion-0"
+        class="emotion-1"
       >
         nested item 1
       </li>
       <li
-        class="emotion-0"
+        class="emotion-1"
       >
         nested item 2
       </li>
@@ -60,9 +60,9 @@ exports[`List renders an ordered list 1`] = `
 `;
 
 exports[`List renders an unordered list 1`] = `
-.emotion-4 {
+.emotion-0 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(5,25,45);
+  color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
   list-style-position: inside;
@@ -70,46 +70,46 @@ exports[`List renders an unordered list 1`] = `
   padding: 0;
 }
 
-.emotion-4 .emotion-4 {
+.emotion-0 .emotion-0 {
   padding-left: 16px;
 }
 
-*:not(style) ~ .emotion-4 {
+*:not(style)~.emotion-0 {
   margin-top: 16px;
 }
 
-.emotion-0 {
+.emotion-1 {
   line-height: 1.5em;
   margin-top: 8px;
 }
 
 <ul
-  class="test-class emotion-4"
+  class="test-class emotion-0"
 >
   <li
-    class="emotion-0"
+    class="emotion-1"
   >
     top level item 1
   </li>
   <li
-    class="emotion-0"
+    class="emotion-1"
   >
     top level item 2
   </li>
   <li
-    class="emotion-0"
+    class="emotion-1"
   >
     nested items
     <ul
-      class="emotion-4"
+      class="emotion-0"
     >
       <li
-        class="emotion-0"
+        class="emotion-1"
       >
         nested item 1
       </li>
       <li
-        class="emotion-0"
+        class="emotion-1"
       >
         nested item 2
       </li>

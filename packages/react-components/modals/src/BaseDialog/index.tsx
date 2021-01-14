@@ -1,7 +1,7 @@
 import { CloseButton } from '@datacamp/waffles-button';
 import Card from '@datacamp/waffles-card';
 import tokens from '@datacamp/waffles-tokens/lib/future-tokens.json';
-import { ClassNames } from '@emotion/core';
+import { ClassNames } from '@emotion/react';
 import React from 'react';
 import ReactModal from 'react-modal';
 

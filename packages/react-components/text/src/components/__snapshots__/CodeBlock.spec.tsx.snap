@@ -1,8 +1,8 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<CodeBlock /> snapshots renders 1`] = `
-.emotion-1 {
-  background-color: rgb(239,235,228);
+.emotion-0 {
+  background-color: rgb(239, 235, 228);
   border: 0;
   border-radius: 4px;
   line-height: 1.5;
@@ -14,21 +14,18 @@ exports[`<CodeBlock /> snapshots renders 1`] = `
   padding-top: 8px;
 }
 
-*:not(style) ~ .emotion-1 {
+*:not(style)~.emotion-0 {
   margin-top: 12px;
 }
 
-.emotion-0 {
+.emotion-1 {
   border: 0;
   border-radius: 4px;
-  color: rgb(5,25,45);
+  color: rgb(5, 25, 45);
   font-family: monospace;
   font-family: JetBrainsMonoNL;
   font-size: 14px;
   font-variant-ligatures: none;
-  -webkit-letter-spacing: 0;
-  -moz-letter-spacing: 0;
-  -ms-letter-spacing: 0;
   letter-spacing: 0;
   line-height: 1.5;
   margin: 0;
@@ -36,11 +33,11 @@ exports[`<CodeBlock /> snapshots renders 1`] = `
 }
 
 <pre
-  class="emotion-1"
+  class="emotion-0"
   tabindex="0"
 >
   <code
-    class="emotion-0"
+    class="emotion-1"
   >
     example code
   </code>

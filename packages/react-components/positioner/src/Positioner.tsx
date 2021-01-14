@@ -1,4 +1,4 @@
-import { css } from '@emotion/core';
+import { css } from '@emotion/react';
 import React, { MutableRefObject } from 'react';
 
 import usePositioner from './usePositioner';

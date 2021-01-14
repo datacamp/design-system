@@ -7,18 +7,19 @@ exports[`Positioner renders on the bottom on the target 1`] = `
 }
 
 .emotion-1 {
-  height: 10px;
-  width: 10px;
-}
-
-.emotion-2 {
   position: fixed;
   left: 0;
   top: 0;
-  -webkit-transform: translate(-50%,0);
-  -ms-transform: translate(-50%,0);
-  transform: translate(-50%,0);
+  -webkit-transform: translate(-50%, 0);
+  -moz-transform: translate(-50%, 0);
+  -ms-transform: translate(-50%, 0);
+  transform: translate(-50%, 0);
   z-index: 1;
+}
+
+.emotion-2 {
+  height: 10px;
+  width: 10px;
 }
 
 <body>
@@ -28,10 +29,10 @@ exports[`Positioner renders on the bottom on the target 1`] = `
       data-test-id="target"
     />
     <div
-      class="emotion-2"
+      class="emotion-1"
     >
       <div
-        class="emotion-1"
+        class="emotion-2"
         data-test-id="element"
       />
     </div>
@@ -46,15 +47,15 @@ exports[`Positioner renders on the bottomLeft on the target 1`] = `
 }
 
 .emotion-1 {
-  height: 10px;
-  width: 10px;
-}
-
-.emotion-2 {
   position: fixed;
   left: 0;
   top: 0;
   z-index: 1;
+}
+
+.emotion-2 {
+  height: 10px;
+  width: 10px;
 }
 
 <body>
@@ -64,10 +65,10 @@ exports[`Positioner renders on the bottomLeft on the target 1`] = `
       data-test-id="target"
     />
     <div
-      class="emotion-2"
+      class="emotion-1"
     >
       <div
-        class="emotion-1"
+        class="emotion-2"
         data-test-id="element"
       />
     </div>
@@ -82,18 +83,19 @@ exports[`Positioner renders on the bottomRight on the target 1`] = `
 }
 
 .emotion-1 {
-  height: 10px;
-  width: 10px;
-}
-
-.emotion-2 {
   position: fixed;
   left: 0;
   top: 0;
   -webkit-transform: translate(-100%);
+  -moz-transform: translate(-100%);
   -ms-transform: translate(-100%);
   transform: translate(-100%);
   z-index: 1;
+}
+
+.emotion-2 {
+  height: 10px;
+  width: 10px;
 }
 
 <body>
@@ -103,10 +105,10 @@ exports[`Positioner renders on the bottomRight on the target 1`] = `
       data-test-id="target"
     />
     <div
-      class="emotion-2"
+      class="emotion-1"
     >
       <div
-        class="emotion-1"
+        class="emotion-2"
         data-test-id="element"
       />
     </div>
@@ -121,18 +123,19 @@ exports[`Positioner renders on the left on the target 1`] = `
 }
 
 .emotion-1 {
-  height: 10px;
-  width: 10px;
-}
-
-.emotion-2 {
   position: fixed;
   left: 0;
   top: 0;
-  -webkit-transform: translate(-100%,-50%);
-  -ms-transform: translate(-100%,-50%);
-  transform: translate(-100%,-50%);
+  -webkit-transform: translate(-100%, -50%);
+  -moz-transform: translate(-100%, -50%);
+  -ms-transform: translate(-100%, -50%);
+  transform: translate(-100%, -50%);
   z-index: 1;
+}
+
+.emotion-2 {
+  height: 10px;
+  width: 10px;
 }
 
 <body>
@@ -142,10 +145,10 @@ exports[`Positioner renders on the left on the target 1`] = `
       data-test-id="target"
     />
     <div
-      class="emotion-2"
+      class="emotion-1"
     >
       <div
-        class="emotion-1"
+        class="emotion-2"
         data-test-id="element"
       />
     </div>
@@ -160,18 +163,19 @@ exports[`Positioner renders on the right on the target 1`] = `
 }
 
 .emotion-1 {
-  height: 10px;
-  width: 10px;
-}
-
-.emotion-2 {
   position: fixed;
   left: 0;
   top: 0;
-  -webkit-transform: translate(0,-50%);
-  -ms-transform: translate(0,-50%);
-  transform: translate(0,-50%);
+  -webkit-transform: translate(0, -50%);
+  -moz-transform: translate(0, -50%);
+  -ms-transform: translate(0, -50%);
+  transform: translate(0, -50%);
   z-index: 1;
+}
+
+.emotion-2 {
+  height: 10px;
+  width: 10px;
 }
 
 <body>
@@ -181,10 +185,10 @@ exports[`Positioner renders on the right on the target 1`] = `
       data-test-id="target"
     />
     <div
-      class="emotion-2"
+      class="emotion-1"
     >
       <div
-        class="emotion-1"
+        class="emotion-2"
         data-test-id="element"
       />
     </div>
@@ -199,18 +203,19 @@ exports[`Positioner renders on the top on the target 1`] = `
 }
 
 .emotion-1 {
-  height: 10px;
-  width: 10px;
-}
-
-.emotion-2 {
   position: fixed;
   left: 0;
   top: 0;
-  -webkit-transform: translate(-50%,-100%);
-  -ms-transform: translate(-50%,-100%);
-  transform: translate(-50%,-100%);
+  -webkit-transform: translate(-50%, -100%);
+  -moz-transform: translate(-50%, -100%);
+  -ms-transform: translate(-50%, -100%);
+  transform: translate(-50%, -100%);
   z-index: 1;
+}
+
+.emotion-2 {
+  height: 10px;
+  width: 10px;
 }
 
 <body>
@@ -220,10 +225,10 @@ exports[`Positioner renders on the top on the target 1`] = `
       data-test-id="target"
     />
     <div
-      class="emotion-2"
+      class="emotion-1"
     >
       <div
-        class="emotion-1"
+        class="emotion-2"
         data-test-id="element"
       />
     </div>
@@ -238,18 +243,19 @@ exports[`Positioner renders on the topLeft on the target 1`] = `
 }
 
 .emotion-1 {
-  height: 10px;
-  width: 10px;
-}
-
-.emotion-2 {
   position: fixed;
   left: 0;
   top: 0;
-  -webkit-transform: translate(0,-100%);
-  -ms-transform: translate(0,-100%);
-  transform: translate(0,-100%);
+  -webkit-transform: translate(0, -100%);
+  -moz-transform: translate(0, -100%);
+  -ms-transform: translate(0, -100%);
+  transform: translate(0, -100%);
   z-index: 1;
+}
+
+.emotion-2 {
+  height: 10px;
+  width: 10px;
 }
 
 <body>
@@ -259,10 +265,10 @@ exports[`Positioner renders on the topLeft on the target 1`] = `
       data-test-id="target"
     />
     <div
-      class="emotion-2"
+      class="emotion-1"
     >
       <div
-        class="emotion-1"
+        class="emotion-2"
         data-test-id="element"
       />
     </div>
@@ -277,18 +283,19 @@ exports[`Positioner renders on the topRight on the target 1`] = `
 }
 
 .emotion-1 {
-  height: 10px;
-  width: 10px;
-}
-
-.emotion-2 {
   position: fixed;
   left: 0;
   top: 0;
-  -webkit-transform: translate(-100%,-100%);
-  -ms-transform: translate(-100%,-100%);
-  transform: translate(-100%,-100%);
+  -webkit-transform: translate(-100%, -100%);
+  -moz-transform: translate(-100%, -100%);
+  -ms-transform: translate(-100%, -100%);
+  transform: translate(-100%, -100%);
   z-index: 1;
+}
+
+.emotion-2 {
+  height: 10px;
+  width: 10px;
 }
 
 <body>
@@ -298,10 +305,10 @@ exports[`Positioner renders on the topRight on the target 1`] = `
       data-test-id="target"
     />
     <div
-      class="emotion-2"
+      class="emotion-1"
     >
       <div
-        class="emotion-1"
+        class="emotion-2"
         data-test-id="element"
       />
     </div>

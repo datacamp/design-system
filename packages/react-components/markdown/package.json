@@ -4,16 +4,9 @@
   "main": "lib/index.js",
   "module": "es/index.js",
   "types": "types/index.d.ts",
-  "files": [
-    "es",
-    "lib",
-    "types"
-  ],
+  "files": ["es", "lib", "types"],
   "license": "MIT",
-  "sideEffects": [
-    "lib/sideEffects/*",
-    "es/sideEffects/*"
-  ],
+  "sideEffects": ["lib/sideEffects/*", "es/sideEffects/*"],
   "repository": {
     "type": "git",
     "url": "https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/markdown/"
@@ -27,7 +20,7 @@
     "build:types": "tsc --rootDir src --declarationDir types --emitDeclarationOnly",
     "build": "yarn build:types && yarn build:cjs && yarn build:es && yarn build:legacy && yarn build:metadata",
     "prepare": " yarn clean && yarn build",
-    "test": "jest",
+    "test": "jest -u",
     "type-check": "tsc --noEmit",
     "watch": "yarn build:es --watch",
     "stryker": "stryker run"
@@ -38,6 +31,7 @@
     "@datacamp/waffles-axe-render": "^1.2.8",
     "@datacamp/waffles-babel-preset": "^2.0.7",
     "@datacamp/waffles-tsconfig": "^1.1.13",
+    "@emotion/jest": "11.1.0",
     "@stryker-mutator/core": "^4.3.1",
     "@stryker-mutator/html-reporter": "^3.1.0",
     "@stryker-mutator/typescript": "^4.0.0",
@@ -46,7 +40,6 @@
     "@types/lodash": "4.14.165",
     "babel-jest": "26.6.3",
     "jest": "26.6.1",
-    "jest-emotion": "10.0.32",
     "react": "17.0.1",
     "react-docgen": "5.3.1",
     "react-dom": "17.0.1"
@@ -58,7 +51,7 @@
     "react-markdown": "^4.3.1"
   },
   "peerDependencies": {
-    "@emotion/core": "^10.0.17",
+    "@emotion/react": "^11.0.0",
     "react": "^16.8.6 || ^17.0.1",
     "react-dom": "^16.8.6 || ^17.0.1"
   }

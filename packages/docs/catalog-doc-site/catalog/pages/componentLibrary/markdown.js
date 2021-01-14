@@ -4,7 +4,7 @@ import Markdown from '@datacamp/waffles-markdown';
 import MarkdownData from '@datacamp/waffles-markdown/componentMetadata.json';
 import { Heading, Paragraph } from '@datacamp/waffles-text';
 /* @jsx jsx */
-import { jsx } from '@emotion/core';
+import { jsx } from '@emotion/react';
 import { Page } from 'catalog';
 import React from 'react';
 

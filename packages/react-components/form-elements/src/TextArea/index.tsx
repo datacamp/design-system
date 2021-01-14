@@ -1,5 +1,5 @@
 import { computeDataAttributes } from '@datacamp/waffles-utils';
-import { css } from '@emotion/core';
+import { css } from '@emotion/react';
 import React, { forwardRef, ReactElement, Ref } from 'react';
 
 import { fontSizes, inputPaddings, inputStyle } from '../formStyles';
