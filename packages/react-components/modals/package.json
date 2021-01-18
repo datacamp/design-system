@@ -19,7 +19,7 @@
     "build:metadata": "react-docgen src --exclude \"/^.+spec.+$/\" -x tsx -o componentMetadata.json",
     "build": "yarn build:types && yarn build:cjs && yarn build:es && yarn build:metadata",
     "prepare": " yarn clean && yarn build",
-    "test": "jest -u",
+    "test": "jest",
     "type-check": "tsc --noEmit",
     "watch": "yarn build:es --watch",
     "stryker": "stryker run"

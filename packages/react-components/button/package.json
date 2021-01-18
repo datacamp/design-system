@@ -25,7 +25,7 @@
     "build:types": "tsc --rootDir src --declarationDir types --emitDeclarationOnly",
     "build": "yarn build:types && yarn build:cjs && yarn build:es && yarn build:legacy && yarn build:metadata",
     "prepare": " yarn clean && yarn build",
-    "test": "jest -u",
+    "test": "jest",
     "type-check": "tsc --noEmit",
     "watch": "yarn build:es --watch",
     "stryker": "stryker run"
