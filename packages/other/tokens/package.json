@@ -22,7 +22,7 @@
     "lodash": "^4.17.20",
     "nodemon": "^2.0.7",
     "omit-deep-lodash": "^1.1.5",
-    "style-dictionary": "2.10.1",
+    "style-dictionary": "2.10.2",
     "tinycolor2": "^1.4.2"
   }
 }
