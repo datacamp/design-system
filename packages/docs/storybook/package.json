@@ -33,7 +33,7 @@
     "@datacamp/waffles-tokens": "^1.0.5",
     "@datacamp/waffles-tooltip": "^0.1.5",
     "@emotion/core": "10.0.17",
-    "@storybook/addon-knobs": "6.0.28",
+    "@storybook/addon-knobs": "6.1.15",
     "@storybook/react": "5.2.8",
     "cypress": "^6.0.0",
     "react": "17.0.1",
