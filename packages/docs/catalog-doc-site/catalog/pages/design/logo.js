@@ -31,7 +31,7 @@ export default () => {
         <p>
           Our full, standard logo includes both the logomark (DC) and the
           wordmark (DataCamp). Unless you specifically need a square logo
-          format, please use oe of the four regular logos below.
+          format, please use one of the four regular logos below.
         </p>
         <section className="dc-u-fx dc-u-mb-16 dc-u-w-100pc">
           <div className="dc-card" css={{ flex: '1 1 0', padding: 24 }}>
