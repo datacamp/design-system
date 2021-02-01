@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [3.0.0](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/icons/compare/@datacamp/waffles-icons@2.2.4...@datacamp/waffles-icons@3.0.0) (2021-02-01)
+
+
+### Bug Fixes
+
+* remove peer dependency warning for react-native ([fda85f0](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/icons/commit/fda85f0))
+
+
+### BREAKING CHANGES
+
+* this is only a breaking change when using react-native and can be ignored on web. Otherwise react-native-svg is now a peer dependency rather than a direct dependency and will need to be installed to use the mobile icons.
+
+
+
+
+
 ## [2.2.4](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/icons/compare/@datacamp/waffles-icons@2.2.3...@datacamp/waffles-icons@2.2.4) (2021-01-07)
 
 

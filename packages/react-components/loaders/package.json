@@ -1,6 +1,6 @@
 {
   "name": "@datacamp/waffles-loaders",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "A collection of loading placeholders",
   "keywords": [
     "button"
@@ -33,7 +33,7 @@
     "@babel/cli": "7.7.7",
     "@babel/core": "7.12.7",
     "@datacamp/waffles-axe-render": "^1.2.8",
-    "@datacamp/waffles-babel-preset": "^2.0.6",
+    "@datacamp/waffles-babel-preset": "^2.0.7",
     "@datacamp/waffles-tsconfig": "^1.1.13",
     "@emotion/core": "^10.0.17",
     "@stryker-mutator/core": "^4.3.1",
@@ -52,7 +52,7 @@
   "dependencies": {
     "@babel/runtime": "^7.12.1",
     "@datacamp/waffles-animations": "^1.2.1",
-    "@datacamp/waffles-tokens": "^1.0.5",
+    "@datacamp/waffles-tokens": "^1.0.6",
     "lottie-react": "^2.1.0"
   },
   "peerDependencies": {

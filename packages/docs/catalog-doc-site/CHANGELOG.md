@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.11.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-catalog-doc-site@2.10.0...@datacamp/waffles-catalog-doc-site@2.11.0) (2021-02-01)
+
+
+### Features
+
+* update brand guidelines pdf ([64615f9](https://github.com/datacamp/design-system/commit/64615f9))
+* update logos page ([0e02149](https://github.com/datacamp/design-system/commit/0e02149))
+
+
+
+
+
 # [2.10.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-catalog-doc-site@2.9.1...@datacamp/waffles-catalog-doc-site@2.10.0) (2021-01-07)
 
 

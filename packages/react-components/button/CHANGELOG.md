@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [6.3.1](https://github.com/datacamp/design-system/compare/@datacamp/waffles-button@6.3.0...@datacamp/waffles-button@6.3.1) (2021-02-01)
+
+
+### Bug Fixes
+
+* expand range of icons peer dependency to include latest versions ([7a83cbd](https://github.com/datacamp/design-system/commit/7a83cbd))
+
+
+
+
+
 # [6.3.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-button@6.2.6...@datacamp/waffles-button@6.3.0) (2021-01-07)
 
 
