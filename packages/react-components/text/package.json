@@ -1,12 +1,19 @@
 {
   "name": "@datacamp/waffles-text",
-  "version": "4.1.5",
+  "version": "5.0.0",
   "main": "lib/index.js",
   "module": "es/index.js",
   "types": "types/index.d.ts",
-  "files": ["es", "lib", "types"],
+  "files": [
+    "es",
+    "lib",
+    "types"
+  ],
   "license": "MIT",
-  "sideEffects": ["lib/sideEffects/*", "es/sideEffects/*"],
+  "sideEffects": [
+    "lib/sideEffects/*",
+    "es/sideEffects/*"
+  ],
   "scripts": {
     "build:cjs": "BABEL_ENV=cjs babel src --extensions '.tsx','.ts' --out-dir lib --ignore \"src/**/*.spec.tsx\",\"src/**/*.spec.ts\" --config-file ./babel7.config.js",
     "build:es": "BABEL_ENV=es babel src --extensions '.tsx','.ts' --out-dir es --ignore \"src/**/*.spec.tsx\",\"src/**/*.spec.ts\" --config-file ./babel7.config.js",
@@ -24,8 +31,8 @@
     "@babel/cli": "7.7.7",
     "@babel/core": "7.12.7",
     "@datacamp/waffles-axe-render": "^1.2.8",
-    "@datacamp/waffles-babel-preset": "^2.0.7",
-    "@datacamp/waffles-tsconfig": "^1.1.13",
+    "@datacamp/waffles-babel-preset": "^3.0.0",
+    "@datacamp/waffles-tsconfig": "^2.0.0",
     "@emotion/jest": "11.1.0",
     "@emotion/react": "^11.0.0",
     "@stryker-mutator/core": "^4.3.1",
@@ -43,7 +50,7 @@
   "dependencies": {
     "@babel/runtime": "^7.12.1",
     "@datacamp/waffles-tokens": "^1.0.6",
-    "@datacamp/waffles-utils": "^2.1.4",
+    "@datacamp/waffles-utils": "^3.0.0",
     "airbnb-prop-types": "^2.16.0",
     "lodash": "^4.17.20",
     "prop-types": "^15.7.2",

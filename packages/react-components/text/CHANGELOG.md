@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [5.0.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-text@4.1.5...@datacamp/waffles-text@5.0.0) (2021-02-02)
+
+
+### Features
+
+* update emotion to emotion 11 ([5420a92](https://github.com/datacamp/design-system/commit/5420a92))
+
+
+### BREAKING CHANGES
+
+* The peer dependency on emotion is now v11. In order to update, all waffles and emotion dependencies should be updated together. The codemod provided by emotion makes this process very easy.
+
+
+
+
+
 ## [4.1.5](https://github.com/datacamp/design-system/compare/@datacamp/waffles-text@4.1.4...@datacamp/waffles-text@4.1.5) (2021-02-01)
 
 **Note:** Version bump only for package @datacamp/waffles-text

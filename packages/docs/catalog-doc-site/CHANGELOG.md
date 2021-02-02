@@ -3,6 +3,27 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [3.0.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-catalog-doc-site@2.11.0...@datacamp/waffles-catalog-doc-site@3.0.0) (2021-02-02)
+
+
+### Bug Fixes
+
+* typo on logo page ([41993bd](https://github.com/datacamp/design-system/commit/41993bd))
+
+
+### Features
+
+* update emotion to emotion 11 ([5420a92](https://github.com/datacamp/design-system/commit/5420a92))
+
+
+### BREAKING CHANGES
+
+* The peer dependency on emotion is now v11. In order to update, all waffles and emotion dependencies should be updated together. The codemod provided by emotion makes this process very easy.
+
+
+
+
+
 # [2.11.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-catalog-doc-site@2.10.0...@datacamp/waffles-catalog-doc-site@2.11.0) (2021-02-01)
 
 

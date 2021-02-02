@@ -1,14 +1,20 @@
 {
   "name": "@datacamp/waffles-loaders",
-  "version": "2.0.2",
+  "version": "3.0.0",
   "description": "A collection of loading placeholders",
-  "keywords": ["button"],
+  "keywords": [
+    "button"
+  ],
   "homepage": "https://github.com/datacamp/design-system/tree/master/packages/loaders/README.md",
   "license": "MIT",
   "main": "lib/index.js",
   "module": "es/index.js",
   "types": "types/index.d.ts",
-  "files": ["es", "lib", "types"],
+  "files": [
+    "es",
+    "lib",
+    "types"
+  ],
   "scripts": {
     "build:cjs": "BABEL_ENV=cjs babel src --extensions '.tsx','.ts' --out-dir lib --ignore \"src/**/*.spec.tsx\",\"src/**/*.spec.ts\" --config-file ./babel7.config.js",
     "build:es": "BABEL_ENV=es babel src --extensions '.tsx','.ts' --out-dir es --ignore \"src/**/*.spec.tsx\",\"src/**/*.spec.ts\" --config-file ./babel7.config.js",
@@ -27,8 +33,8 @@
     "@babel/cli": "7.7.7",
     "@babel/core": "7.12.7",
     "@datacamp/waffles-axe-render": "^1.2.8",
-    "@datacamp/waffles-babel-preset": "^2.0.7",
-    "@datacamp/waffles-tsconfig": "^1.1.13",
+    "@datacamp/waffles-babel-preset": "^3.0.0",
+    "@datacamp/waffles-tsconfig": "^2.0.0",
     "@emotion/jest": "11.1.0",
     "@emotion/react": "^11.0.0",
     "@stryker-mutator/core": "^4.3.1",
