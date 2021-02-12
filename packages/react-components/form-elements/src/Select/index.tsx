@@ -1,8 +1,7 @@
 import { ChevronDownIcon } from '@datacamp/waffles-icons';
 import tokens from '@datacamp/waffles-tokens/lib/future-tokens.json';
-import { computeDataAttributes } from '@datacamp/waffles-utils';
+import { childrenOfType, computeDataAttributes } from '@datacamp/waffles-utils';
 import { css } from '@emotion/react';
-import { childrenOfType } from 'airbnb-prop-types';
 import PropTypes from 'prop-types';
 import React, { Component, forwardRef, ReactElement, Ref } from 'react';
 
