@@ -1,9 +1,9 @@
 import {
+  childrenOfType,
   computeDataAttributes,
   ssrSafeNotFirstChildSelector,
 } from '@datacamp/waffles-utils';
 import { css } from '@emotion/react';
-import { childrenOfType } from 'airbnb-prop-types';
 import PropTypes from 'prop-types';
 import React, { ReactElement, ReactNode } from 'react';
 

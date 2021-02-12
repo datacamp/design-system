@@ -2,9 +2,9 @@ import * as Icons from '@datacamp/waffles-icons';
 import { Text } from '@datacamp/waffles-text';
 import tokens from '@datacamp/waffles-tokens/lib/future-tokens.json';
 import Tooltip from '@datacamp/waffles-tooltip';
-import { computeDataAttributes } from '@datacamp/waffles-utils';
+import { childrenOfType, computeDataAttributes } from '@datacamp/waffles-utils';
 import { css, SerializedStyles } from '@emotion/react';
-import { childrenOfType, nChildren } from 'airbnb-prop-types';
+import { nChildren } from 'airbnb-prop-types';
 import PropTypes from 'prop-types';
 import React, {
   ComponentProps,
