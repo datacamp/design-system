@@ -17,7 +17,6 @@ exports[`ResizableElements renders the correct sized elements 1`] = `
 .emotion-1 {
   height: 100%;
   float: left;
-  overflow: hidden;
   position: relative;
 }
 
