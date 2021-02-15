@@ -173,7 +173,6 @@ const ResizableElements = ({
               css={{
                 [fixedDimension]: '100%',
                 float: 'left',
-                overflow: 'hidden',
                 position: 'relative',
               }}
               style={{
