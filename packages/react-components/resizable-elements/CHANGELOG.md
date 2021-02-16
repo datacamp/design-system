@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.0.1](https://github.com/datacamp/design-system/compare/@datacamp/waffles-resizable-elements@2.0.0...@datacamp/waffles-resizable-elements@2.0.1) (2021-02-16)
+
+
+### Bug Fixes
+
+* remove overflow hidden from resizable elements ([66160c8](https://github.com/datacamp/design-system/commit/66160c8))
+
+
+
+
+
 # [2.0.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-resizable-elements@1.1.3...@datacamp/waffles-resizable-elements@2.0.0) (2021-02-02)
 
 
