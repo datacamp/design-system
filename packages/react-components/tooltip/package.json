@@ -1,6 +1,6 @@
 {
   "name": "@datacamp/waffles-tooltip",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "The Waffles Tooltip",
   "keywords": [
     "tooltip"
@@ -33,7 +33,7 @@
     "@babel/cli": "7.7.7",
     "@babel/core": "7.12.7",
     "@datacamp/waffles-axe-render": "^1.2.8",
-    "@datacamp/waffles-babel-preset": "^3.0.1",
+    "@datacamp/waffles-babel-preset": "^3.0.2",
     "@datacamp/waffles-tsconfig": "^2.0.0",
     "@emotion/jest": "11.1.0",
     "@emotion/react": "^11.0.0",
@@ -53,9 +53,9 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.12.1",
-    "@datacamp/waffles-card": "^5.0.1",
-    "@datacamp/waffles-positioner": "^2.0.1",
-    "@datacamp/waffles-text": "^5.0.1",
+    "@datacamp/waffles-card": "^5.0.2",
+    "@datacamp/waffles-positioner": "^2.0.2",
+    "@datacamp/waffles-text": "^5.0.2",
     "@datacamp/waffles-tokens": "^1.0.6",
     "prop-types": "^15.7.2"
   },
