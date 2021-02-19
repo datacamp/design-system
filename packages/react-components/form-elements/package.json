@@ -1,6 +1,6 @@
 {
   "name": "@datacamp/waffles-form-elements",
-  "version": "4.0.2",
+  "version": "4.0.3",
   "main": "lib/index.js",
   "module": "es/index.js",
   "types": "types/index.d.ts",
@@ -54,8 +54,8 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.12.1",
-    "@datacamp/waffles-icons": "^4.1.0",
-    "@datacamp/waffles-text": "^5.0.2",
+    "@datacamp/waffles-icons": "^4.1.1",
+    "@datacamp/waffles-text": "^5.0.3",
     "@datacamp/waffles-tokens": "^1.0.6",
     "@datacamp/waffles-utils": "^3.1.0",
     "airbnb-prop-types": "^2.16.0",

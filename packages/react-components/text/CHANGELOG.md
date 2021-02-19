@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [5.0.3](https://github.com/datacamp/design-system/compare/@datacamp/waffles-text@5.0.2...@datacamp/waffles-text@5.0.3) (2021-02-19)
+
+
+### Bug Fixes
+
+* move circular references to allow systemjs bundles ([a108129](https://github.com/datacamp/design-system/commit/a108129))
+
+
+
+
+
 ## [5.0.2](https://github.com/datacamp/design-system/compare/@datacamp/waffles-text@5.0.1...@datacamp/waffles-text@5.0.2) (2021-02-18)
 
 

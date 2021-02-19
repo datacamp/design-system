@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [7.0.3](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/modals/compare/@datacamp/waffles-modals@7.0.2...@datacamp/waffles-modals@7.0.3) (2021-02-19)
+
+
+### Bug Fixes
+
+* make fixed size panel work on narrow screens ([d705b20](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/modals/commit/d705b20))
+
+
+
+
+
 ## [7.0.2](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/modals/compare/@datacamp/waffles-modals@7.0.1...@datacamp/waffles-modals@7.0.2) (2021-02-18)
 
 

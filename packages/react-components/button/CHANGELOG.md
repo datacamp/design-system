@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [7.0.3](https://github.com/datacamp/design-system/compare/@datacamp/waffles-button@7.0.2...@datacamp/waffles-button@7.0.3) (2021-02-19)
+
+
+### Bug Fixes
+
+* stop using nth-child selector in loading buttons ([2640196](https://github.com/datacamp/design-system/commit/2640196))
+
+
+
+
+
 ## [7.0.2](https://github.com/datacamp/design-system/compare/@datacamp/waffles-button@7.0.1...@datacamp/waffles-button@7.0.2) (2021-02-18)
 
 

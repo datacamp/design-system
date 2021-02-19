@@ -1,6 +1,6 @@
 {
   "name": "@datacamp/waffles-modals",
-  "version": "7.0.2",
+  "version": "7.0.3",
   "main": "lib/index.js",
   "module": "es/index.js",
   "types": "types/index.d.ts",
@@ -55,10 +55,10 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.12.1",
-    "@datacamp/waffles-button": "^7.0.2",
+    "@datacamp/waffles-button": "^7.0.3",
     "@datacamp/waffles-card": "^5.0.2",
-    "@datacamp/waffles-icons": "^4.1.0",
-    "@datacamp/waffles-text": "^5.0.2",
+    "@datacamp/waffles-icons": "^4.1.1",
+    "@datacamp/waffles-text": "^5.0.3",
     "@datacamp/waffles-tokens": "^1.0.6",
     "@datacamp/waffles-utils": "^3.1.0",
     "@types/react-modal": "^3.10.6",
