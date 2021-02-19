@@ -1,14 +1,11 @@
+/* eslint-disable global-require */
 import tokens from '@datacamp/waffles-tokens/lib/future-tokens.json';
 import { childrenOfType, computeDataAttributes } from '@datacamp/waffles-utils';
 import { css } from '@emotion/react';
 import PropTypes from 'prop-types';
 import React, { ReactElement, ReactNode } from 'react';
 
-import PlainString from '../alternateComponents/PlainString';
 import baseStyle from '../baseStyle';
-
-import Strong from './Strong';
-import Text from './Text';
 
 interface EmphasisProps {
   /**
@@ -48,10 +45,12 @@ const Emphasis = ({
   );
 };
 
+export default Emphasis;
+
 const validChildType = PropTypes.oneOfType([
-  childrenOfType(Text),
-  childrenOfType(Strong),
-  childrenOfType(PlainString),
+  childrenOfType(require('./Text')),
+  childrenOfType(require('./Strong')),
+  childrenOfType(require('../alternateComponents/PlainString')),
   PropTypes.string,
   PropTypes.number,
 ]);
@@ -62,5 +61,3 @@ Emphasis.propTypes = {
     PropTypes.arrayOf(validChildType),
   ]),
 };
-
-export default Emphasis;

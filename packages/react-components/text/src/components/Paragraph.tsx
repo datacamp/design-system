@@ -1,3 +1,4 @@
+/* eslint-disable global-require */
 import tokens from '@datacamp/waffles-tokens/lib/future-tokens.json';
 import {
   childrenOfType,
@@ -8,16 +9,7 @@ import { css } from '@emotion/react';
 import PropTypes from 'prop-types';
 import React, { ReactElement, ReactNode } from 'react';
 
-import AlternateCode from '../alternateComponents/AlternateCode';
-import PlainString from '../alternateComponents/PlainString';
 import baseStyle from '../baseStyle';
-
-import Code from './Code';
-import Emphasis from './Emphasis';
-import Link from './Link';
-import Small from './Small';
-import Strong from './Strong';
-import Text from './Text';
 
 interface ParagraphProps {
   /**
@@ -61,14 +53,14 @@ const Paragraph = ({
 };
 
 const validChildType = PropTypes.oneOfType([
-  childrenOfType(Strong),
-  childrenOfType(Text),
-  childrenOfType(Small),
-  childrenOfType(Emphasis),
-  childrenOfType(Code),
-  childrenOfType(Link),
-  childrenOfType(AlternateCode),
-  childrenOfType(PlainString),
+  childrenOfType(require('./Strong')),
+  childrenOfType(require('./Text')),
+  childrenOfType(require('./Small')),
+  childrenOfType(require('./Emphasis')),
+  childrenOfType(require('./Code')),
+  childrenOfType(require('./Link')),
+  childrenOfType(require('../alternateComponents/AlternateCode')),
+  childrenOfType(require('../alternateComponents/PlainString')),
   childrenOfType('br'),
   childrenOfType('del'),
   childrenOfType('img'),

@@ -1,14 +1,11 @@
+/* eslint-disable global-require */
 import tokens from '@datacamp/waffles-tokens/lib/future-tokens.json';
 import { childrenOfType, computeDataAttributes } from '@datacamp/waffles-utils';
 import { css } from '@emotion/react';
 import PropTypes from 'prop-types';
 import React, { ReactElement, ReactNode } from 'react';
 
-import PlainString from '../alternateComponents/PlainString';
 import baseStyle from '../baseStyle';
-
-import Emphasis from './Emphasis';
-import Strong from './Strong';
 
 interface SmallProps {
   /**
@@ -48,9 +45,9 @@ const Small = ({
 };
 
 const validChildType = PropTypes.oneOfType([
-  childrenOfType(Strong),
-  childrenOfType(Emphasis),
-  childrenOfType(PlainString),
+  childrenOfType(require('./Strong')),
+  childrenOfType(require('./Emphasis')),
+  childrenOfType(require('../alternateComponents/PlainString')),
   PropTypes.string,
   PropTypes.number,
 ]);
