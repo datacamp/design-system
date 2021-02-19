@@ -170,62 +170,62 @@ exports[`<Button /> snapshots renders a button with appearance default, intent d
   animation: animation-0 1s infinite;
 }
 
-.emotion-2 g:nth-child(1):not(style) {
+.emotion-2 g:nth-of-type(1) {
   -webkit-animation-delay: -0.9166666666666666s;
   animation-delay: -0.9166666666666666s;
 }
 
-.emotion-2 g:nth-child(2):not(style) {
+.emotion-2 g:nth-of-type(2) {
   -webkit-animation-delay: -0.8333333333333334s;
   animation-delay: -0.8333333333333334s;
 }
 
-.emotion-2 g:nth-child(3):not(style) {
+.emotion-2 g:nth-of-type(3) {
   -webkit-animation-delay: -0.75s;
   animation-delay: -0.75s;
 }
 
-.emotion-2 g:nth-child(4):not(style) {
+.emotion-2 g:nth-of-type(4) {
   -webkit-animation-delay: -0.6666666666666666s;
   animation-delay: -0.6666666666666666s;
 }
 
-.emotion-2 g:nth-child(5):not(style) {
+.emotion-2 g:nth-of-type(5) {
   -webkit-animation-delay: -0.5833333333333334s;
   animation-delay: -0.5833333333333334s;
 }
 
-.emotion-2 g:nth-child(6):not(style) {
+.emotion-2 g:nth-of-type(6) {
   -webkit-animation-delay: -0.5s;
   animation-delay: -0.5s;
 }
 
-.emotion-2 g:nth-child(7):not(style) {
+.emotion-2 g:nth-of-type(7) {
   -webkit-animation-delay: -0.4166666666666667s;
   animation-delay: -0.4166666666666667s;
 }
 
-.emotion-2 g:nth-child(8):not(style) {
+.emotion-2 g:nth-of-type(8) {
   -webkit-animation-delay: -0.3333333333333333s;
   animation-delay: -0.3333333333333333s;
 }
 
-.emotion-2 g:nth-child(9):not(style) {
+.emotion-2 g:nth-of-type(9) {
   -webkit-animation-delay: -0.25s;
   animation-delay: -0.25s;
 }
 
-.emotion-2 g:nth-child(10):not(style) {
+.emotion-2 g:nth-of-type(10) {
   -webkit-animation-delay: -0.16666666666666666s;
   animation-delay: -0.16666666666666666s;
 }
 
-.emotion-2 g:nth-child(11):not(style) {
+.emotion-2 g:nth-of-type(11) {
   -webkit-animation-delay: -0.08333333333333333s;
   animation-delay: -0.08333333333333333s;
 }
 
-.emotion-2 g:nth-child(12):not(style) {
+.emotion-2 g:nth-of-type(12) {
   -webkit-animation-delay: 0s;
   animation-delay: 0s;
 }
@@ -551,62 +551,62 @@ exports[`<Button /> snapshots renders a button with appearance default, intent d
   animation: animation-0 1s infinite;
 }
 
-.emotion-2 g:nth-child(1):not(style) {
+.emotion-2 g:nth-of-type(1) {
   -webkit-animation-delay: -0.9166666666666666s;
   animation-delay: -0.9166666666666666s;
 }
 
-.emotion-2 g:nth-child(2):not(style) {
+.emotion-2 g:nth-of-type(2) {
   -webkit-animation-delay: -0.8333333333333334s;
   animation-delay: -0.8333333333333334s;
 }
 
-.emotion-2 g:nth-child(3):not(style) {
+.emotion-2 g:nth-of-type(3) {
   -webkit-animation-delay: -0.75s;
   animation-delay: -0.75s;
 }
 
-.emotion-2 g:nth-child(4):not(style) {
+.emotion-2 g:nth-of-type(4) {
   -webkit-animation-delay: -0.6666666666666666s;
   animation-delay: -0.6666666666666666s;
 }
 
-.emotion-2 g:nth-child(5):not(style) {
+.emotion-2 g:nth-of-type(5) {
   -webkit-animation-delay: -0.5833333333333334s;
   animation-delay: -0.5833333333333334s;
 }
 
-.emotion-2 g:nth-child(6):not(style) {
+.emotion-2 g:nth-of-type(6) {
   -webkit-animation-delay: -0.5s;
   animation-delay: -0.5s;
 }
 
-.emotion-2 g:nth-child(7):not(style) {
+.emotion-2 g:nth-of-type(7) {
   -webkit-animation-delay: -0.4166666666666667s;
   animation-delay: -0.4166666666666667s;
 }
 
-.emotion-2 g:nth-child(8):not(style) {
+.emotion-2 g:nth-of-type(8) {
   -webkit-animation-delay: -0.3333333333333333s;
   animation-delay: -0.3333333333333333s;
 }
 
-.emotion-2 g:nth-child(9):not(style) {
+.emotion-2 g:nth-of-type(9) {
   -webkit-animation-delay: -0.25s;
   animation-delay: -0.25s;
 }
 
-.emotion-2 g:nth-child(10):not(style) {
+.emotion-2 g:nth-of-type(10) {
   -webkit-animation-delay: -0.16666666666666666s;
   animation-delay: -0.16666666666666666s;
 }
 
-.emotion-2 g:nth-child(11):not(style) {
+.emotion-2 g:nth-of-type(11) {
   -webkit-animation-delay: -0.08333333333333333s;
   animation-delay: -0.08333333333333333s;
 }
 
-.emotion-2 g:nth-child(12):not(style) {
+.emotion-2 g:nth-of-type(12) {
   -webkit-animation-delay: 0s;
   animation-delay: 0s;
 }
@@ -932,62 +932,62 @@ exports[`<Button /> snapshots renders a button with appearance default, intent d
   animation: animation-0 1s infinite;
 }
 
-.emotion-2 g:nth-child(1):not(style) {
+.emotion-2 g:nth-of-type(1) {
   -webkit-animation-delay: -0.9166666666666666s;
   animation-delay: -0.9166666666666666s;
 }
 
-.emotion-2 g:nth-child(2):not(style) {
+.emotion-2 g:nth-of-type(2) {
   -webkit-animation-delay: -0.8333333333333334s;
   animation-delay: -0.8333333333333334s;
 }
 
-.emotion-2 g:nth-child(3):not(style) {
+.emotion-2 g:nth-of-type(3) {
   -webkit-animation-delay: -0.75s;
   animation-delay: -0.75s;
 }
 
-.emotion-2 g:nth-child(4):not(style) {
+.emotion-2 g:nth-of-type(4) {
   -webkit-animation-delay: -0.6666666666666666s;
   animation-delay: -0.6666666666666666s;
 }
 
-.emotion-2 g:nth-child(5):not(style) {
+.emotion-2 g:nth-of-type(5) {
   -webkit-animation-delay: -0.5833333333333334s;
   animation-delay: -0.5833333333333334s;
 }
 
-.emotion-2 g:nth-child(6):not(style) {
+.emotion-2 g:nth-of-type(6) {
   -webkit-animation-delay: -0.5s;
   animation-delay: -0.5s;
 }
 
-.emotion-2 g:nth-child(7):not(style) {
+.emotion-2 g:nth-of-type(7) {
   -webkit-animation-delay: -0.4166666666666667s;
   animation-delay: -0.4166666666666667s;
 }
 
-.emotion-2 g:nth-child(8):not(style) {
+.emotion-2 g:nth-of-type(8) {
   -webkit-animation-delay: -0.3333333333333333s;
   animation-delay: -0.3333333333333333s;
 }
 
-.emotion-2 g:nth-child(9):not(style) {
+.emotion-2 g:nth-of-type(9) {
   -webkit-animation-delay: -0.25s;
   animation-delay: -0.25s;
 }
 
-.emotion-2 g:nth-child(10):not(style) {
+.emotion-2 g:nth-of-type(10) {
   -webkit-animation-delay: -0.16666666666666666s;
   animation-delay: -0.16666666666666666s;
 }
 
-.emotion-2 g:nth-child(11):not(style) {
+.emotion-2 g:nth-of-type(11) {
   -webkit-animation-delay: -0.08333333333333333s;
   animation-delay: -0.08333333333333333s;
 }
 
-.emotion-2 g:nth-child(12):not(style) {
+.emotion-2 g:nth-of-type(12) {
   -webkit-animation-delay: 0s;
   animation-delay: 0s;
 }
@@ -1313,62 +1313,62 @@ exports[`<Button /> snapshots renders a button with appearance default, intent n
   animation: animation-0 1s infinite;
 }
 
-.emotion-2 g:nth-child(1):not(style) {
+.emotion-2 g:nth-of-type(1) {
   -webkit-animation-delay: -0.9166666666666666s;
   animation-delay: -0.9166666666666666s;
 }
 
-.emotion-2 g:nth-child(2):not(style) {
+.emotion-2 g:nth-of-type(2) {
   -webkit-animation-delay: -0.8333333333333334s;
   animation-delay: -0.8333333333333334s;
 }
 
-.emotion-2 g:nth-child(3):not(style) {
+.emotion-2 g:nth-of-type(3) {
   -webkit-animation-delay: -0.75s;
   animation-delay: -0.75s;
 }
 
-.emotion-2 g:nth-child(4):not(style) {
+.emotion-2 g:nth-of-type(4) {
   -webkit-animation-delay: -0.6666666666666666s;
   animation-delay: -0.6666666666666666s;
 }
 
-.emotion-2 g:nth-child(5):not(style) {
+.emotion-2 g:nth-of-type(5) {
   -webkit-animation-delay: -0.5833333333333334s;
   animation-delay: -0.5833333333333334s;
 }
 
-.emotion-2 g:nth-child(6):not(style) {
+.emotion-2 g:nth-of-type(6) {
   -webkit-animation-delay: -0.5s;
   animation-delay: -0.5s;
 }
 
-.emotion-2 g:nth-child(7):not(style) {
+.emotion-2 g:nth-of-type(7) {
   -webkit-animation-delay: -0.4166666666666667s;
   animation-delay: -0.4166666666666667s;
 }
 
-.emotion-2 g:nth-child(8):not(style) {
+.emotion-2 g:nth-of-type(8) {
   -webkit-animation-delay: -0.3333333333333333s;
   animation-delay: -0.3333333333333333s;
 }
 
-.emotion-2 g:nth-child(9):not(style) {
+.emotion-2 g:nth-of-type(9) {
   -webkit-animation-delay: -0.25s;
   animation-delay: -0.25s;
 }
 
-.emotion-2 g:nth-child(10):not(style) {
+.emotion-2 g:nth-of-type(10) {
   -webkit-animation-delay: -0.16666666666666666s;
   animation-delay: -0.16666666666666666s;
 }
 
-.emotion-2 g:nth-child(11):not(style) {
+.emotion-2 g:nth-of-type(11) {
   -webkit-animation-delay: -0.08333333333333333s;
   animation-delay: -0.08333333333333333s;
 }
 
-.emotion-2 g:nth-child(12):not(style) {
+.emotion-2 g:nth-of-type(12) {
   -webkit-animation-delay: 0s;
   animation-delay: 0s;
 }
@@ -1694,62 +1694,62 @@ exports[`<Button /> snapshots renders a button with appearance default, intent n
   animation: animation-0 1s infinite;
 }
 
-.emotion-2 g:nth-child(1):not(style) {
+.emotion-2 g:nth-of-type(1) {
   -webkit-animation-delay: -0.9166666666666666s;
   animation-delay: -0.9166666666666666s;
 }
 
-.emotion-2 g:nth-child(2):not(style) {
+.emotion-2 g:nth-of-type(2) {
   -webkit-animation-delay: -0.8333333333333334s;
   animation-delay: -0.8333333333333334s;
 }
 
-.emotion-2 g:nth-child(3):not(style) {
+.emotion-2 g:nth-of-type(3) {
   -webkit-animation-delay: -0.75s;
   animation-delay: -0.75s;
 }
 
-.emotion-2 g:nth-child(4):not(style) {
+.emotion-2 g:nth-of-type(4) {
   -webkit-animation-delay: -0.6666666666666666s;
   animation-delay: -0.6666666666666666s;
 }
 
-.emotion-2 g:nth-child(5):not(style) {
+.emotion-2 g:nth-of-type(5) {
   -webkit-animation-delay: -0.5833333333333334s;
   animation-delay: -0.5833333333333334s;
 }
 
-.emotion-2 g:nth-child(6):not(style) {
+.emotion-2 g:nth-of-type(6) {
   -webkit-animation-delay: -0.5s;
   animation-delay: -0.5s;
 }
 
-.emotion-2 g:nth-child(7):not(style) {
+.emotion-2 g:nth-of-type(7) {
   -webkit-animation-delay: -0.4166666666666667s;
   animation-delay: -0.4166666666666667s;
 }
 
-.emotion-2 g:nth-child(8):not(style) {
+.emotion-2 g:nth-of-type(8) {
   -webkit-animation-delay: -0.3333333333333333s;
   animation-delay: -0.3333333333333333s;
 }
 
-.emotion-2 g:nth-child(9):not(style) {
+.emotion-2 g:nth-of-type(9) {
   -webkit-animation-delay: -0.25s;
   animation-delay: -0.25s;
 }
 
-.emotion-2 g:nth-child(10):not(style) {
+.emotion-2 g:nth-of-type(10) {
   -webkit-animation-delay: -0.16666666666666666s;
   animation-delay: -0.16666666666666666s;
 }
 
-.emotion-2 g:nth-child(11):not(style) {
+.emotion-2 g:nth-of-type(11) {
   -webkit-animation-delay: -0.08333333333333333s;
   animation-delay: -0.08333333333333333s;
 }
 
-.emotion-2 g:nth-child(12):not(style) {
+.emotion-2 g:nth-of-type(12) {
   -webkit-animation-delay: 0s;
   animation-delay: 0s;
 }
@@ -2075,62 +2075,62 @@ exports[`<Button /> snapshots renders a button with appearance default, intent n
   animation: animation-0 1s infinite;
 }
 
-.emotion-2 g:nth-child(1):not(style) {
+.emotion-2 g:nth-of-type(1) {
   -webkit-animation-delay: -0.9166666666666666s;
   animation-delay: -0.9166666666666666s;
 }
 
-.emotion-2 g:nth-child(2):not(style) {
+.emotion-2 g:nth-of-type(2) {
   -webkit-animation-delay: -0.8333333333333334s;
   animation-delay: -0.8333333333333334s;
 }
 
-.emotion-2 g:nth-child(3):not(style) {
+.emotion-2 g:nth-of-type(3) {
   -webkit-animation-delay: -0.75s;
   animation-delay: -0.75s;
 }
 
-.emotion-2 g:nth-child(4):not(style) {
+.emotion-2 g:nth-of-type(4) {
   -webkit-animation-delay: -0.6666666666666666s;
   animation-delay: -0.6666666666666666s;
 }
 
-.emotion-2 g:nth-child(5):not(style) {
+.emotion-2 g:nth-of-type(5) {
   -webkit-animation-delay: -0.5833333333333334s;
   animation-delay: -0.5833333333333334s;
 }
 
-.emotion-2 g:nth-child(6):not(style) {
+.emotion-2 g:nth-of-type(6) {
   -webkit-animation-delay: -0.5s;
   animation-delay: -0.5s;
 }
 
-.emotion-2 g:nth-child(7):not(style) {
+.emotion-2 g:nth-of-type(7) {
   -webkit-animation-delay: -0.4166666666666667s;
   animation-delay: -0.4166666666666667s;
 }
 
-.emotion-2 g:nth-child(8):not(style) {
+.emotion-2 g:nth-of-type(8) {
   -webkit-animation-delay: -0.3333333333333333s;
   animation-delay: -0.3333333333333333s;
 }
 
-.emotion-2 g:nth-child(9):not(style) {
+.emotion-2 g:nth-of-type(9) {
   -webkit-animation-delay: -0.25s;
   animation-delay: -0.25s;
 }
 
-.emotion-2 g:nth-child(10):not(style) {
+.emotion-2 g:nth-of-type(10) {
   -webkit-animation-delay: -0.16666666666666666s;
   animation-delay: -0.16666666666666666s;
 }
 
-.emotion-2 g:nth-child(11):not(style) {
+.emotion-2 g:nth-of-type(11) {
   -webkit-animation-delay: -0.08333333333333333s;
   animation-delay: -0.08333333333333333s;
 }
 
-.emotion-2 g:nth-child(12):not(style) {
+.emotion-2 g:nth-of-type(12) {
   -webkit-animation-delay: 0s;
   animation-delay: 0s;
 }
@@ -2456,62 +2456,62 @@ exports[`<Button /> snapshots renders a button with appearance default, intent s
   animation: animation-0 1s infinite;
 }
 
-.emotion-2 g:nth-child(1):not(style) {
+.emotion-2 g:nth-of-type(1) {
   -webkit-animation-delay: -0.9166666666666666s;
   animation-delay: -0.9166666666666666s;
 }
 
-.emotion-2 g:nth-child(2):not(style) {
+.emotion-2 g:nth-of-type(2) {
   -webkit-animation-delay: -0.8333333333333334s;
   animation-delay: -0.8333333333333334s;
 }
 
-.emotion-2 g:nth-child(3):not(style) {
+.emotion-2 g:nth-of-type(3) {
   -webkit-animation-delay: -0.75s;
   animation-delay: -0.75s;
 }
 
-.emotion-2 g:nth-child(4):not(style) {
+.emotion-2 g:nth-of-type(4) {
   -webkit-animation-delay: -0.6666666666666666s;
   animation-delay: -0.6666666666666666s;
 }
 
-.emotion-2 g:nth-child(5):not(style) {
+.emotion-2 g:nth-of-type(5) {
   -webkit-animation-delay: -0.5833333333333334s;
   animation-delay: -0.5833333333333334s;
 }
 
-.emotion-2 g:nth-child(6):not(style) {
+.emotion-2 g:nth-of-type(6) {
   -webkit-animation-delay: -0.5s;
   animation-delay: -0.5s;
 }
 
-.emotion-2 g:nth-child(7):not(style) {
+.emotion-2 g:nth-of-type(7) {
   -webkit-animation-delay: -0.4166666666666667s;
   animation-delay: -0.4166666666666667s;
 }
 
-.emotion-2 g:nth-child(8):not(style) {
+.emotion-2 g:nth-of-type(8) {
   -webkit-animation-delay: -0.3333333333333333s;
   animation-delay: -0.3333333333333333s;
 }
 
-.emotion-2 g:nth-child(9):not(style) {
+.emotion-2 g:nth-of-type(9) {
   -webkit-animation-delay: -0.25s;
   animation-delay: -0.25s;
 }
 
-.emotion-2 g:nth-child(10):not(style) {
+.emotion-2 g:nth-of-type(10) {
   -webkit-animation-delay: -0.16666666666666666s;
   animation-delay: -0.16666666666666666s;
 }
 
-.emotion-2 g:nth-child(11):not(style) {
+.emotion-2 g:nth-of-type(11) {
   -webkit-animation-delay: -0.08333333333333333s;
   animation-delay: -0.08333333333333333s;
 }
 
-.emotion-2 g:nth-child(12):not(style) {
+.emotion-2 g:nth-of-type(12) {
   -webkit-animation-delay: 0s;
   animation-delay: 0s;
 }
@@ -2837,62 +2837,62 @@ exports[`<Button /> snapshots renders a button with appearance default, intent s
   animation: animation-0 1s infinite;
 }
 
-.emotion-2 g:nth-child(1):not(style) {
+.emotion-2 g:nth-of-type(1) {
   -webkit-animation-delay: -0.9166666666666666s;
   animation-delay: -0.9166666666666666s;
 }
 
-.emotion-2 g:nth-child(2):not(style) {
+.emotion-2 g:nth-of-type(2) {
   -webkit-animation-delay: -0.8333333333333334s;
   animation-delay: -0.8333333333333334s;
 }
 
-.emotion-2 g:nth-child(3):not(style) {
+.emotion-2 g:nth-of-type(3) {
   -webkit-animation-delay: -0.75s;
   animation-delay: -0.75s;
 }
 
-.emotion-2 g:nth-child(4):not(style) {
+.emotion-2 g:nth-of-type(4) {
   -webkit-animation-delay: -0.6666666666666666s;
   animation-delay: -0.6666666666666666s;
 }
 
-.emotion-2 g:nth-child(5):not(style) {
+.emotion-2 g:nth-of-type(5) {
   -webkit-animation-delay: -0.5833333333333334s;
   animation-delay: -0.5833333333333334s;
 }
 
-.emotion-2 g:nth-child(6):not(style) {
+.emotion-2 g:nth-of-type(6) {
   -webkit-animation-delay: -0.5s;
   animation-delay: -0.5s;
 }
 
-.emotion-2 g:nth-child(7):not(style) {
+.emotion-2 g:nth-of-type(7) {
   -webkit-animation-delay: -0.4166666666666667s;
   animation-delay: -0.4166666666666667s;
 }
 
-.emotion-2 g:nth-child(8):not(style) {
+.emotion-2 g:nth-of-type(8) {
   -webkit-animation-delay: -0.3333333333333333s;
   animation-delay: -0.3333333333333333s;
 }
 
-.emotion-2 g:nth-child(9):not(style) {
+.emotion-2 g:nth-of-type(9) {
   -webkit-animation-delay: -0.25s;
   animation-delay: -0.25s;
 }
 
-.emotion-2 g:nth-child(10):not(style) {
+.emotion-2 g:nth-of-type(10) {
   -webkit-animation-delay: -0.16666666666666666s;
   animation-delay: -0.16666666666666666s;
 }
 
-.emotion-2 g:nth-child(11):not(style) {
+.emotion-2 g:nth-of-type(11) {
   -webkit-animation-delay: -0.08333333333333333s;
   animation-delay: -0.08333333333333333s;
 }
 
-.emotion-2 g:nth-child(12):not(style) {
+.emotion-2 g:nth-of-type(12) {
   -webkit-animation-delay: 0s;
   animation-delay: 0s;
 }
@@ -3218,62 +3218,62 @@ exports[`<Button /> snapshots renders a button with appearance default, intent s
   animation: animation-0 1s infinite;
 }
 
-.emotion-2 g:nth-child(1):not(style) {
+.emotion-2 g:nth-of-type(1) {
   -webkit-animation-delay: -0.9166666666666666s;
   animation-delay: -0.9166666666666666s;
 }
 
-.emotion-2 g:nth-child(2):not(style) {
+.emotion-2 g:nth-of-type(2) {
   -webkit-animation-delay: -0.8333333333333334s;
   animation-delay: -0.8333333333333334s;
 }
 
-.emotion-2 g:nth-child(3):not(style) {
+.emotion-2 g:nth-of-type(3) {
   -webkit-animation-delay: -0.75s;
   animation-delay: -0.75s;
 }
 
-.emotion-2 g:nth-child(4):not(style) {
+.emotion-2 g:nth-of-type(4) {
   -webkit-animation-delay: -0.6666666666666666s;
   animation-delay: -0.6666666666666666s;
 }
 
-.emotion-2 g:nth-child(5):not(style) {
+.emotion-2 g:nth-of-type(5) {
   -webkit-animation-delay: -0.5833333333333334s;
   animation-delay: -0.5833333333333334s;
 }
 
-.emotion-2 g:nth-child(6):not(style) {
+.emotion-2 g:nth-of-type(6) {
   -webkit-animation-delay: -0.5s;
   animation-delay: -0.5s;
 }
 
-.emotion-2 g:nth-child(7):not(style) {
+.emotion-2 g:nth-of-type(7) {
   -webkit-animation-delay: -0.4166666666666667s;
   animation-delay: -0.4166666666666667s;
 }
 
-.emotion-2 g:nth-child(8):not(style) {
+.emotion-2 g:nth-of-type(8) {
   -webkit-animation-delay: -0.3333333333333333s;
   animation-delay: -0.3333333333333333s;
 }
 
-.emotion-2 g:nth-child(9):not(style) {
+.emotion-2 g:nth-of-type(9) {
   -webkit-animation-delay: -0.25s;
   animation-delay: -0.25s;
 }
 
-.emotion-2 g:nth-child(10):not(style) {
+.emotion-2 g:nth-of-type(10) {
   -webkit-animation-delay: -0.16666666666666666s;
   animation-delay: -0.16666666666666666s;
 }
 
-.emotion-2 g:nth-child(11):not(style) {
+.emotion-2 g:nth-of-type(11) {
   -webkit-animation-delay: -0.08333333333333333s;
   animation-delay: -0.08333333333333333s;
 }
 
-.emotion-2 g:nth-child(12):not(style) {
+.emotion-2 g:nth-of-type(12) {
   -webkit-animation-delay: 0s;
   animation-delay: 0s;
 }
@@ -3599,62 +3599,62 @@ exports[`<Button /> snapshots renders a button with appearance default, intent w
   animation: animation-0 1s infinite;
 }
 
-.emotion-2 g:nth-child(1):not(style) {
+.emotion-2 g:nth-of-type(1) {
   -webkit-animation-delay: -0.9166666666666666s;
   animation-delay: -0.9166666666666666s;
 }
 
-.emotion-2 g:nth-child(2):not(style) {
+.emotion-2 g:nth-of-type(2) {
   -webkit-animation-delay: -0.8333333333333334s;
   animation-delay: -0.8333333333333334s;
 }
 
-.emotion-2 g:nth-child(3):not(style) {
+.emotion-2 g:nth-of-type(3) {
   -webkit-animation-delay: -0.75s;
   animation-delay: -0.75s;
 }
 
-.emotion-2 g:nth-child(4):not(style) {
+.emotion-2 g:nth-of-type(4) {
   -webkit-animation-delay: -0.6666666666666666s;
   animation-delay: -0.6666666666666666s;
 }
 
-.emotion-2 g:nth-child(5):not(style) {
+.emotion-2 g:nth-of-type(5) {
   -webkit-animation-delay: -0.5833333333333334s;
   animation-delay: -0.5833333333333334s;
 }
 
-.emotion-2 g:nth-child(6):not(style) {
+.emotion-2 g:nth-of-type(6) {
   -webkit-animation-delay: -0.5s;
   animation-delay: -0.5s;
 }
 
-.emotion-2 g:nth-child(7):not(style) {
+.emotion-2 g:nth-of-type(7) {
   -webkit-animation-delay: -0.4166666666666667s;
   animation-delay: -0.4166666666666667s;
 }
 
-.emotion-2 g:nth-child(8):not(style) {
+.emotion-2 g:nth-of-type(8) {
   -webkit-animation-delay: -0.3333333333333333s;
   animation-delay: -0.3333333333333333s;
 }
 
-.emotion-2 g:nth-child(9):not(style) {
+.emotion-2 g:nth-of-type(9) {
   -webkit-animation-delay: -0.25s;
   animation-delay: -0.25s;
 }
 
-.emotion-2 g:nth-child(10):not(style) {
+.emotion-2 g:nth-of-type(10) {
   -webkit-animation-delay: -0.16666666666666666s;
   animation-delay: -0.16666666666666666s;
 }
 
-.emotion-2 g:nth-child(11):not(style) {
+.emotion-2 g:nth-of-type(11) {
   -webkit-animation-delay: -0.08333333333333333s;
   animation-delay: -0.08333333333333333s;
 }
 
-.emotion-2 g:nth-child(12):not(style) {
+.emotion-2 g:nth-of-type(12) {
   -webkit-animation-delay: 0s;
   animation-delay: 0s;
 }
@@ -3980,62 +3980,62 @@ exports[`<Button /> snapshots renders a button with appearance default, intent w
   animation: animation-0 1s infinite;
 }
 
-.emotion-2 g:nth-child(1):not(style) {
+.emotion-2 g:nth-of-type(1) {
   -webkit-animation-delay: -0.9166666666666666s;
   animation-delay: -0.9166666666666666s;
 }
 
-.emotion-2 g:nth-child(2):not(style) {
+.emotion-2 g:nth-of-type(2) {
   -webkit-animation-delay: -0.8333333333333334s;
   animation-delay: -0.8333333333333334s;
 }
 
-.emotion-2 g:nth-child(3):not(style) {
+.emotion-2 g:nth-of-type(3) {
   -webkit-animation-delay: -0.75s;
   animation-delay: -0.75s;
 }
 
-.emotion-2 g:nth-child(4):not(style) {
+.emotion-2 g:nth-of-type(4) {
   -webkit-animation-delay: -0.6666666666666666s;
   animation-delay: -0.6666666666666666s;
 }
 
-.emotion-2 g:nth-child(5):not(style) {
+.emotion-2 g:nth-of-type(5) {
   -webkit-animation-delay: -0.5833333333333334s;
   animation-delay: -0.5833333333333334s;
 }
 
-.emotion-2 g:nth-child(6):not(style) {
+.emotion-2 g:nth-of-type(6) {
   -webkit-animation-delay: -0.5s;
   animation-delay: -0.5s;
 }
 
-.emotion-2 g:nth-child(7):not(style) {
+.emotion-2 g:nth-of-type(7) {
   -webkit-animation-delay: -0.4166666666666667s;
   animation-delay: -0.4166666666666667s;
 }
 
-.emotion-2 g:nth-child(8):not(style) {
+.emotion-2 g:nth-of-type(8) {
   -webkit-animation-delay: -0.3333333333333333s;
   animation-delay: -0.3333333333333333s;
 }
 
-.emotion-2 g:nth-child(9):not(style) {
+.emotion-2 g:nth-of-type(9) {
   -webkit-animation-delay: -0.25s;
   animation-delay: -0.25s;
 }
 
-.emotion-2 g:nth-child(10):not(style) {
+.emotion-2 g:nth-of-type(10) {
   -webkit-animation-delay: -0.16666666666666666s;
   animation-delay: -0.16666666666666666s;
 }
 
-.emotion-2 g:nth-child(11):not(style) {
+.emotion-2 g:nth-of-type(11) {
   -webkit-animation-delay: -0.08333333333333333s;
   animation-delay: -0.08333333333333333s;
 }
 
-.emotion-2 g:nth-child(12):not(style) {
+.emotion-2 g:nth-of-type(12) {
   -webkit-animation-delay: 0s;
   animation-delay: 0s;
 }
@@ -4361,62 +4361,62 @@ exports[`<Button /> snapshots renders a button with appearance default, intent w
   animation: animation-0 1s infinite;
 }
 
-.emotion-2 g:nth-child(1):not(style) {
+.emotion-2 g:nth-of-type(1) {
   -webkit-animation-delay: -0.9166666666666666s;
   animation-delay: -0.9166666666666666s;
 }
 
-.emotion-2 g:nth-child(2):not(style) {
+.emotion-2 g:nth-of-type(2) {
   -webkit-animation-delay: -0.8333333333333334s;
   animation-delay: -0.8333333333333334s;
 }
 
-.emotion-2 g:nth-child(3):not(style) {
+.emotion-2 g:nth-of-type(3) {
   -webkit-animation-delay: -0.75s;
   animation-delay: -0.75s;
 }
 
-.emotion-2 g:nth-child(4):not(style) {
+.emotion-2 g:nth-of-type(4) {
   -webkit-animation-delay: -0.6666666666666666s;
   animation-delay: -0.6666666666666666s;
 }
 
-.emotion-2 g:nth-child(5):not(style) {
+.emotion-2 g:nth-of-type(5) {
   -webkit-animation-delay: -0.5833333333333334s;
   animation-delay: -0.5833333333333334s;
 }
 
-.emotion-2 g:nth-child(6):not(style) {
+.emotion-2 g:nth-of-type(6) {
   -webkit-animation-delay: -0.5s;
   animation-delay: -0.5s;
 }
 
-.emotion-2 g:nth-child(7):not(style) {
+.emotion-2 g:nth-of-type(7) {
   -webkit-animation-delay: -0.4166666666666667s;
   animation-delay: -0.4166666666666667s;
 }
 
-.emotion-2 g:nth-child(8):not(style) {
+.emotion-2 g:nth-of-type(8) {
   -webkit-animation-delay: -0.3333333333333333s;
   animation-delay: -0.3333333333333333s;
 }
 
-.emotion-2 g:nth-child(9):not(style) {
+.emotion-2 g:nth-of-type(9) {
   -webkit-animation-delay: -0.25s;
   animation-delay: -0.25s;
 }
 
-.emotion-2 g:nth-child(10):not(style) {
+.emotion-2 g:nth-of-type(10) {
   -webkit-animation-delay: -0.16666666666666666s;
   animation-delay: -0.16666666666666666s;
 }
 
-.emotion-2 g:nth-child(11):not(style) {
+.emotion-2 g:nth-of-type(11) {
   -webkit-animation-delay: -0.08333333333333333s;
   animation-delay: -0.08333333333333333s;
 }
 
-.emotion-2 g:nth-child(12):not(style) {
+.emotion-2 g:nth-of-type(12) {
   -webkit-animation-delay: 0s;
   animation-delay: 0s;
 }
@@ -4742,62 +4742,62 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
   animation: animation-0 1s infinite;
 }
 
-.emotion-2 g:nth-child(1):not(style) {
+.emotion-2 g:nth-of-type(1) {
   -webkit-animation-delay: -0.9166666666666666s;
   animation-delay: -0.9166666666666666s;
 }
 
-.emotion-2 g:nth-child(2):not(style) {
+.emotion-2 g:nth-of-type(2) {
   -webkit-animation-delay: -0.8333333333333334s;
   animation-delay: -0.8333333333333334s;
 }
 
-.emotion-2 g:nth-child(3):not(style) {
+.emotion-2 g:nth-of-type(3) {
   -webkit-animation-delay: -0.75s;
   animation-delay: -0.75s;
 }
 
-.emotion-2 g:nth-child(4):not(style) {
+.emotion-2 g:nth-of-type(4) {
   -webkit-animation-delay: -0.6666666666666666s;
   animation-delay: -0.6666666666666666s;
 }
 
-.emotion-2 g:nth-child(5):not(style) {
+.emotion-2 g:nth-of-type(5) {
   -webkit-animation-delay: -0.5833333333333334s;
   animation-delay: -0.5833333333333334s;
 }
 
-.emotion-2 g:nth-child(6):not(style) {
+.emotion-2 g:nth-of-type(6) {
   -webkit-animation-delay: -0.5s;
   animation-delay: -0.5s;
 }
 
-.emotion-2 g:nth-child(7):not(style) {
+.emotion-2 g:nth-of-type(7) {
   -webkit-animation-delay: -0.4166666666666667s;
   animation-delay: -0.4166666666666667s;
 }
 
-.emotion-2 g:nth-child(8):not(style) {
+.emotion-2 g:nth-of-type(8) {
   -webkit-animation-delay: -0.3333333333333333s;
   animation-delay: -0.3333333333333333s;
 }
 
-.emotion-2 g:nth-child(9):not(style) {
+.emotion-2 g:nth-of-type(9) {
   -webkit-animation-delay: -0.25s;
   animation-delay: -0.25s;
 }
 
-.emotion-2 g:nth-child(10):not(style) {
+.emotion-2 g:nth-of-type(10) {
   -webkit-animation-delay: -0.16666666666666666s;
   animation-delay: -0.16666666666666666s;
 }
 
-.emotion-2 g:nth-child(11):not(style) {
+.emotion-2 g:nth-of-type(11) {
   -webkit-animation-delay: -0.08333333333333333s;
   animation-delay: -0.08333333333333333s;
 }
 
-.emotion-2 g:nth-child(12):not(style) {
+.emotion-2 g:nth-of-type(12) {
   -webkit-animation-delay: 0s;
   animation-delay: 0s;
 }
@@ -5123,62 +5123,62 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
   animation: animation-0 1s infinite;
 }
 
-.emotion-2 g:nth-child(1):not(style) {
+.emotion-2 g:nth-of-type(1) {
   -webkit-animation-delay: -0.9166666666666666s;
   animation-delay: -0.9166666666666666s;
 }
 
-.emotion-2 g:nth-child(2):not(style) {
+.emotion-2 g:nth-of-type(2) {
   -webkit-animation-delay: -0.8333333333333334s;
   animation-delay: -0.8333333333333334s;
 }
 
-.emotion-2 g:nth-child(3):not(style) {
+.emotion-2 g:nth-of-type(3) {
   -webkit-animation-delay: -0.75s;
   animation-delay: -0.75s;
 }
 
-.emotion-2 g:nth-child(4):not(style) {
+.emotion-2 g:nth-of-type(4) {
   -webkit-animation-delay: -0.6666666666666666s;
   animation-delay: -0.6666666666666666s;
 }
 
-.emotion-2 g:nth-child(5):not(style) {
+.emotion-2 g:nth-of-type(5) {
   -webkit-animation-delay: -0.5833333333333334s;
   animation-delay: -0.5833333333333334s;
 }
 
-.emotion-2 g:nth-child(6):not(style) {
+.emotion-2 g:nth-of-type(6) {
   -webkit-animation-delay: -0.5s;
   animation-delay: -0.5s;
 }
 
-.emotion-2 g:nth-child(7):not(style) {
+.emotion-2 g:nth-of-type(7) {
   -webkit-animation-delay: -0.4166666666666667s;
   animation-delay: -0.4166666666666667s;
 }
 
-.emotion-2 g:nth-child(8):not(style) {
+.emotion-2 g:nth-of-type(8) {
   -webkit-animation-delay: -0.3333333333333333s;
   animation-delay: -0.3333333333333333s;
 }
 
-.emotion-2 g:nth-child(9):not(style) {
+.emotion-2 g:nth-of-type(9) {
   -webkit-animation-delay: -0.25s;
   animation-delay: -0.25s;
 }
 
-.emotion-2 g:nth-child(10):not(style) {
+.emotion-2 g:nth-of-type(10) {
   -webkit-animation-delay: -0.16666666666666666s;
   animation-delay: -0.16666666666666666s;
 }
 
-.emotion-2 g:nth-child(11):not(style) {
+.emotion-2 g:nth-of-type(11) {
   -webkit-animation-delay: -0.08333333333333333s;
   animation-delay: -0.08333333333333333s;
 }
 
-.emotion-2 g:nth-child(12):not(style) {
+.emotion-2 g:nth-of-type(12) {
   -webkit-animation-delay: 0s;
   animation-delay: 0s;
 }
@@ -5504,62 +5504,62 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
   animation: animation-0 1s infinite;
 }
 
-.emotion-2 g:nth-child(1):not(style) {
+.emotion-2 g:nth-of-type(1) {
   -webkit-animation-delay: -0.9166666666666666s;
   animation-delay: -0.9166666666666666s;
 }
 
-.emotion-2 g:nth-child(2):not(style) {
+.emotion-2 g:nth-of-type(2) {
   -webkit-animation-delay: -0.8333333333333334s;
   animation-delay: -0.8333333333333334s;
 }
 
-.emotion-2 g:nth-child(3):not(style) {
+.emotion-2 g:nth-of-type(3) {
   -webkit-animation-delay: -0.75s;
   animation-delay: -0.75s;
 }
 
-.emotion-2 g:nth-child(4):not(style) {
+.emotion-2 g:nth-of-type(4) {
   -webkit-animation-delay: -0.6666666666666666s;
   animation-delay: -0.6666666666666666s;
 }
 
-.emotion-2 g:nth-child(5):not(style) {
+.emotion-2 g:nth-of-type(5) {
   -webkit-animation-delay: -0.5833333333333334s;
   animation-delay: -0.5833333333333334s;
 }
 
-.emotion-2 g:nth-child(6):not(style) {
+.emotion-2 g:nth-of-type(6) {
   -webkit-animation-delay: -0.5s;
   animation-delay: -0.5s;
 }
 
-.emotion-2 g:nth-child(7):not(style) {
+.emotion-2 g:nth-of-type(7) {
   -webkit-animation-delay: -0.4166666666666667s;
   animation-delay: -0.4166666666666667s;
 }
 
-.emotion-2 g:nth-child(8):not(style) {
+.emotion-2 g:nth-of-type(8) {
   -webkit-animation-delay: -0.3333333333333333s;
   animation-delay: -0.3333333333333333s;
 }
 
-.emotion-2 g:nth-child(9):not(style) {
+.emotion-2 g:nth-of-type(9) {
   -webkit-animation-delay: -0.25s;
   animation-delay: -0.25s;
 }
 
-.emotion-2 g:nth-child(10):not(style) {
+.emotion-2 g:nth-of-type(10) {
   -webkit-animation-delay: -0.16666666666666666s;
   animation-delay: -0.16666666666666666s;
 }
 
-.emotion-2 g:nth-child(11):not(style) {
+.emotion-2 g:nth-of-type(11) {
   -webkit-animation-delay: -0.08333333333333333s;
   animation-delay: -0.08333333333333333s;
 }
 
-.emotion-2 g:nth-child(12):not(style) {
+.emotion-2 g:nth-of-type(12) {
   -webkit-animation-delay: 0s;
   animation-delay: 0s;
 }
@@ -5885,62 +5885,62 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
   animation: animation-0 1s infinite;
 }
 
-.emotion-2 g:nth-child(1):not(style) {
+.emotion-2 g:nth-of-type(1) {
   -webkit-animation-delay: -0.9166666666666666s;
   animation-delay: -0.9166666666666666s;
 }
 
-.emotion-2 g:nth-child(2):not(style) {
+.emotion-2 g:nth-of-type(2) {
   -webkit-animation-delay: -0.8333333333333334s;
   animation-delay: -0.8333333333333334s;
 }
 
-.emotion-2 g:nth-child(3):not(style) {
+.emotion-2 g:nth-of-type(3) {
   -webkit-animation-delay: -0.75s;
   animation-delay: -0.75s;
 }
 
-.emotion-2 g:nth-child(4):not(style) {
+.emotion-2 g:nth-of-type(4) {
   -webkit-animation-delay: -0.6666666666666666s;
   animation-delay: -0.6666666666666666s;
 }
 
-.emotion-2 g:nth-child(5):not(style) {
+.emotion-2 g:nth-of-type(5) {
   -webkit-animation-delay: -0.5833333333333334s;
   animation-delay: -0.5833333333333334s;
 }
 
-.emotion-2 g:nth-child(6):not(style) {
+.emotion-2 g:nth-of-type(6) {
   -webkit-animation-delay: -0.5s;
   animation-delay: -0.5s;
 }
 
-.emotion-2 g:nth-child(7):not(style) {
+.emotion-2 g:nth-of-type(7) {
   -webkit-animation-delay: -0.4166666666666667s;
   animation-delay: -0.4166666666666667s;
 }
 
-.emotion-2 g:nth-child(8):not(style) {
+.emotion-2 g:nth-of-type(8) {
   -webkit-animation-delay: -0.3333333333333333s;
   animation-delay: -0.3333333333333333s;
 }
 
-.emotion-2 g:nth-child(9):not(style) {
+.emotion-2 g:nth-of-type(9) {
   -webkit-animation-delay: -0.25s;
   animation-delay: -0.25s;
 }
 
-.emotion-2 g:nth-child(10):not(style) {
+.emotion-2 g:nth-of-type(10) {
   -webkit-animation-delay: -0.16666666666666666s;
   animation-delay: -0.16666666666666666s;
 }
 
-.emotion-2 g:nth-child(11):not(style) {
+.emotion-2 g:nth-of-type(11) {
   -webkit-animation-delay: -0.08333333333333333s;
   animation-delay: -0.08333333333333333s;
 }
 
-.emotion-2 g:nth-child(12):not(style) {
+.emotion-2 g:nth-of-type(12) {
   -webkit-animation-delay: 0s;
   animation-delay: 0s;
 }
@@ -6266,62 +6266,62 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
   animation: animation-0 1s infinite;
 }
 
-.emotion-2 g:nth-child(1):not(style) {
+.emotion-2 g:nth-of-type(1) {
   -webkit-animation-delay: -0.9166666666666666s;
   animation-delay: -0.9166666666666666s;
 }
 
-.emotion-2 g:nth-child(2):not(style) {
+.emotion-2 g:nth-of-type(2) {
   -webkit-animation-delay: -0.8333333333333334s;
   animation-delay: -0.8333333333333334s;
 }
 
-.emotion-2 g:nth-child(3):not(style) {
+.emotion-2 g:nth-of-type(3) {
   -webkit-animation-delay: -0.75s;
   animation-delay: -0.75s;
 }
 
-.emotion-2 g:nth-child(4):not(style) {
+.emotion-2 g:nth-of-type(4) {
   -webkit-animation-delay: -0.6666666666666666s;
   animation-delay: -0.6666666666666666s;
 }
 
-.emotion-2 g:nth-child(5):not(style) {
+.emotion-2 g:nth-of-type(5) {
   -webkit-animation-delay: -0.5833333333333334s;
   animation-delay: -0.5833333333333334s;
 }
 
-.emotion-2 g:nth-child(6):not(style) {
+.emotion-2 g:nth-of-type(6) {
   -webkit-animation-delay: -0.5s;
   animation-delay: -0.5s;
 }
 
-.emotion-2 g:nth-child(7):not(style) {
+.emotion-2 g:nth-of-type(7) {
   -webkit-animation-delay: -0.4166666666666667s;
   animation-delay: -0.4166666666666667s;
 }
 
-.emotion-2 g:nth-child(8):not(style) {
+.emotion-2 g:nth-of-type(8) {
   -webkit-animation-delay: -0.3333333333333333s;
   animation-delay: -0.3333333333333333s;
 }
 
-.emotion-2 g:nth-child(9):not(style) {
+.emotion-2 g:nth-of-type(9) {
   -webkit-animation-delay: -0.25s;
   animation-delay: -0.25s;
 }
 
-.emotion-2 g:nth-child(10):not(style) {
+.emotion-2 g:nth-of-type(10) {
   -webkit-animation-delay: -0.16666666666666666s;
   animation-delay: -0.16666666666666666s;
 }
 
-.emotion-2 g:nth-child(11):not(style) {
+.emotion-2 g:nth-of-type(11) {
   -webkit-animation-delay: -0.08333333333333333s;
   animation-delay: -0.08333333333333333s;
 }
 
-.emotion-2 g:nth-child(12):not(style) {
+.emotion-2 g:nth-of-type(12) {
   -webkit-animation-delay: 0s;
   animation-delay: 0s;
 }
@@ -6647,62 +6647,62 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
   animation: animation-0 1s infinite;
 }
 
-.emotion-2 g:nth-child(1):not(style) {
+.emotion-2 g:nth-of-type(1) {
   -webkit-animation-delay: -0.9166666666666666s;
   animation-delay: -0.9166666666666666s;
 }
 
-.emotion-2 g:nth-child(2):not(style) {
+.emotion-2 g:nth-of-type(2) {
   -webkit-animation-delay: -0.8333333333333334s;
   animation-delay: -0.8333333333333334s;
 }
 
-.emotion-2 g:nth-child(3):not(style) {
+.emotion-2 g:nth-of-type(3) {
   -webkit-animation-delay: -0.75s;
   animation-delay: -0.75s;
 }
 
-.emotion-2 g:nth-child(4):not(style) {
+.emotion-2 g:nth-of-type(4) {
   -webkit-animation-delay: -0.6666666666666666s;
   animation-delay: -0.6666666666666666s;
 }
 
-.emotion-2 g:nth-child(5):not(style) {
+.emotion-2 g:nth-of-type(5) {
   -webkit-animation-delay: -0.5833333333333334s;
   animation-delay: -0.5833333333333334s;
 }
 
-.emotion-2 g:nth-child(6):not(style) {
+.emotion-2 g:nth-of-type(6) {
   -webkit-animation-delay: -0.5s;
   animation-delay: -0.5s;
 }
 
-.emotion-2 g:nth-child(7):not(style) {
+.emotion-2 g:nth-of-type(7) {
   -webkit-animation-delay: -0.4166666666666667s;
   animation-delay: -0.4166666666666667s;
 }
 
-.emotion-2 g:nth-child(8):not(style) {
+.emotion-2 g:nth-of-type(8) {
   -webkit-animation-delay: -0.3333333333333333s;
   animation-delay: -0.3333333333333333s;
 }
 
-.emotion-2 g:nth-child(9):not(style) {
+.emotion-2 g:nth-of-type(9) {
   -webkit-animation-delay: -0.25s;
   animation-delay: -0.25s;
 }
 
-.emotion-2 g:nth-child(10):not(style) {
+.emotion-2 g:nth-of-type(10) {
   -webkit-animation-delay: -0.16666666666666666s;
   animation-delay: -0.16666666666666666s;
 }
 
-.emotion-2 g:nth-child(11):not(style) {
+.emotion-2 g:nth-of-type(11) {
   -webkit-animation-delay: -0.08333333333333333s;
   animation-delay: -0.08333333333333333s;
 }
 
-.emotion-2 g:nth-child(12):not(style) {
+.emotion-2 g:nth-of-type(12) {
   -webkit-animation-delay: 0s;
   animation-delay: 0s;
 }
@@ -7026,62 +7026,62 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
   animation: animation-0 1s infinite;
 }
 
-.emotion-2 g:nth-child(1):not(style) {
+.emotion-2 g:nth-of-type(1) {
   -webkit-animation-delay: -0.9166666666666666s;
   animation-delay: -0.9166666666666666s;
 }
 
-.emotion-2 g:nth-child(2):not(style) {
+.emotion-2 g:nth-of-type(2) {
   -webkit-animation-delay: -0.8333333333333334s;
   animation-delay: -0.8333333333333334s;
 }
 
-.emotion-2 g:nth-child(3):not(style) {
+.emotion-2 g:nth-of-type(3) {
   -webkit-animation-delay: -0.75s;
   animation-delay: -0.75s;
 }
 
-.emotion-2 g:nth-child(4):not(style) {
+.emotion-2 g:nth-of-type(4) {
   -webkit-animation-delay: -0.6666666666666666s;
   animation-delay: -0.6666666666666666s;
 }
 
-.emotion-2 g:nth-child(5):not(style) {
+.emotion-2 g:nth-of-type(5) {
   -webkit-animation-delay: -0.5833333333333334s;
   animation-delay: -0.5833333333333334s;
 }
 
-.emotion-2 g:nth-child(6):not(style) {
+.emotion-2 g:nth-of-type(6) {
   -webkit-animation-delay: -0.5s;
   animation-delay: -0.5s;
 }
 
-.emotion-2 g:nth-child(7):not(style) {
+.emotion-2 g:nth-of-type(7) {
   -webkit-animation-delay: -0.4166666666666667s;
   animation-delay: -0.4166666666666667s;
 }
 
-.emotion-2 g:nth-child(8):not(style) {
+.emotion-2 g:nth-of-type(8) {
   -webkit-animation-delay: -0.3333333333333333s;
   animation-delay: -0.3333333333333333s;
 }
 
-.emotion-2 g:nth-child(9):not(style) {
+.emotion-2 g:nth-of-type(9) {
   -webkit-animation-delay: -0.25s;
   animation-delay: -0.25s;
 }
 
-.emotion-2 g:nth-child(10):not(style) {
+.emotion-2 g:nth-of-type(10) {
   -webkit-animation-delay: -0.16666666666666666s;
   animation-delay: -0.16666666666666666s;
 }
 
-.emotion-2 g:nth-child(11):not(style) {
+.emotion-2 g:nth-of-type(11) {
   -webkit-animation-delay: -0.08333333333333333s;
   animation-delay: -0.08333333333333333s;
 }
 
-.emotion-2 g:nth-child(12):not(style) {
+.emotion-2 g:nth-of-type(12) {
   -webkit-animation-delay: 0s;
   animation-delay: 0s;
 }
@@ -7405,62 +7405,62 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
   animation: animation-0 1s infinite;
 }
 
-.emotion-2 g:nth-child(1):not(style) {
+.emotion-2 g:nth-of-type(1) {
   -webkit-animation-delay: -0.9166666666666666s;
   animation-delay: -0.9166666666666666s;
 }
 
-.emotion-2 g:nth-child(2):not(style) {
+.emotion-2 g:nth-of-type(2) {
   -webkit-animation-delay: -0.8333333333333334s;
   animation-delay: -0.8333333333333334s;
 }
 
-.emotion-2 g:nth-child(3):not(style) {
+.emotion-2 g:nth-of-type(3) {
   -webkit-animation-delay: -0.75s;
   animation-delay: -0.75s;
 }
 
-.emotion-2 g:nth-child(4):not(style) {
+.emotion-2 g:nth-of-type(4) {
   -webkit-animation-delay: -0.6666666666666666s;
   animation-delay: -0.6666666666666666s;
 }
 
-.emotion-2 g:nth-child(5):not(style) {
+.emotion-2 g:nth-of-type(5) {
   -webkit-animation-delay: -0.5833333333333334s;
   animation-delay: -0.5833333333333334s;
 }
 
-.emotion-2 g:nth-child(6):not(style) {
+.emotion-2 g:nth-of-type(6) {
   -webkit-animation-delay: -0.5s;
   animation-delay: -0.5s;
 }
 
-.emotion-2 g:nth-child(7):not(style) {
+.emotion-2 g:nth-of-type(7) {
   -webkit-animation-delay: -0.4166666666666667s;
   animation-delay: -0.4166666666666667s;
 }
 
-.emotion-2 g:nth-child(8):not(style) {
+.emotion-2 g:nth-of-type(8) {
   -webkit-animation-delay: -0.3333333333333333s;
   animation-delay: -0.3333333333333333s;
 }
 
-.emotion-2 g:nth-child(9):not(style) {
+.emotion-2 g:nth-of-type(9) {
   -webkit-animation-delay: -0.25s;
   animation-delay: -0.25s;
 }
 
-.emotion-2 g:nth-child(10):not(style) {
+.emotion-2 g:nth-of-type(10) {
   -webkit-animation-delay: -0.16666666666666666s;
   animation-delay: -0.16666666666666666s;
 }
 
-.emotion-2 g:nth-child(11):not(style) {
+.emotion-2 g:nth-of-type(11) {
   -webkit-animation-delay: -0.08333333333333333s;
   animation-delay: -0.08333333333333333s;
 }
 
-.emotion-2 g:nth-child(12):not(style) {
+.emotion-2 g:nth-of-type(12) {
   -webkit-animation-delay: 0s;
   animation-delay: 0s;
 }
@@ -7784,62 +7784,62 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
   animation: animation-0 1s infinite;
 }
 
-.emotion-2 g:nth-child(1):not(style) {
+.emotion-2 g:nth-of-type(1) {
   -webkit-animation-delay: -0.9166666666666666s;
   animation-delay: -0.9166666666666666s;
 }
 
-.emotion-2 g:nth-child(2):not(style) {
+.emotion-2 g:nth-of-type(2) {
   -webkit-animation-delay: -0.8333333333333334s;
   animation-delay: -0.8333333333333334s;
 }
 
-.emotion-2 g:nth-child(3):not(style) {
+.emotion-2 g:nth-of-type(3) {
   -webkit-animation-delay: -0.75s;
   animation-delay: -0.75s;
 }
 
-.emotion-2 g:nth-child(4):not(style) {
+.emotion-2 g:nth-of-type(4) {
   -webkit-animation-delay: -0.6666666666666666s;
   animation-delay: -0.6666666666666666s;
 }
 
-.emotion-2 g:nth-child(5):not(style) {
+.emotion-2 g:nth-of-type(5) {
   -webkit-animation-delay: -0.5833333333333334s;
   animation-delay: -0.5833333333333334s;
 }
 
-.emotion-2 g:nth-child(6):not(style) {
+.emotion-2 g:nth-of-type(6) {
   -webkit-animation-delay: -0.5s;
   animation-delay: -0.5s;
 }
 
-.emotion-2 g:nth-child(7):not(style) {
+.emotion-2 g:nth-of-type(7) {
   -webkit-animation-delay: -0.4166666666666667s;
   animation-delay: -0.4166666666666667s;
 }
 
-.emotion-2 g:nth-child(8):not(style) {
+.emotion-2 g:nth-of-type(8) {
   -webkit-animation-delay: -0.3333333333333333s;
   animation-delay: -0.3333333333333333s;
 }
 
-.emotion-2 g:nth-child(9):not(style) {
+.emotion-2 g:nth-of-type(9) {
   -webkit-animation-delay: -0.25s;
   animation-delay: -0.25s;
 }
 
-.emotion-2 g:nth-child(10):not(style) {
+.emotion-2 g:nth-of-type(10) {
   -webkit-animation-delay: -0.16666666666666666s;
   animation-delay: -0.16666666666666666s;
 }
 
-.emotion-2 g:nth-child(11):not(style) {
+.emotion-2 g:nth-of-type(11) {
   -webkit-animation-delay: -0.08333333333333333s;
   animation-delay: -0.08333333333333333s;
 }
 
-.emotion-2 g:nth-child(12):not(style) {
+.emotion-2 g:nth-of-type(12) {
   -webkit-animation-delay: 0s;
   animation-delay: 0s;
 }
@@ -8165,62 +8165,62 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
   animation: animation-0 1s infinite;
 }
 
-.emotion-2 g:nth-child(1):not(style) {
+.emotion-2 g:nth-of-type(1) {
   -webkit-animation-delay: -0.9166666666666666s;
   animation-delay: -0.9166666666666666s;
 }
 
-.emotion-2 g:nth-child(2):not(style) {
+.emotion-2 g:nth-of-type(2) {
   -webkit-animation-delay: -0.8333333333333334s;
   animation-delay: -0.8333333333333334s;
 }
 
-.emotion-2 g:nth-child(3):not(style) {
+.emotion-2 g:nth-of-type(3) {
   -webkit-animation-delay: -0.75s;
   animation-delay: -0.75s;
 }
 
-.emotion-2 g:nth-child(4):not(style) {
+.emotion-2 g:nth-of-type(4) {
   -webkit-animation-delay: -0.6666666666666666s;
   animation-delay: -0.6666666666666666s;
 }
 
-.emotion-2 g:nth-child(5):not(style) {
+.emotion-2 g:nth-of-type(5) {
   -webkit-animation-delay: -0.5833333333333334s;
   animation-delay: -0.5833333333333334s;
 }
 
-.emotion-2 g:nth-child(6):not(style) {
+.emotion-2 g:nth-of-type(6) {
   -webkit-animation-delay: -0.5s;
   animation-delay: -0.5s;
 }
 
-.emotion-2 g:nth-child(7):not(style) {
+.emotion-2 g:nth-of-type(7) {
   -webkit-animation-delay: -0.4166666666666667s;
   animation-delay: -0.4166666666666667s;
 }
 
-.emotion-2 g:nth-child(8):not(style) {
+.emotion-2 g:nth-of-type(8) {
   -webkit-animation-delay: -0.3333333333333333s;
   animation-delay: -0.3333333333333333s;
 }
 
-.emotion-2 g:nth-child(9):not(style) {
+.emotion-2 g:nth-of-type(9) {
   -webkit-animation-delay: -0.25s;
   animation-delay: -0.25s;
 }
 
-.emotion-2 g:nth-child(10):not(style) {
+.emotion-2 g:nth-of-type(10) {
   -webkit-animation-delay: -0.16666666666666666s;
   animation-delay: -0.16666666666666666s;
 }
 
-.emotion-2 g:nth-child(11):not(style) {
+.emotion-2 g:nth-of-type(11) {
   -webkit-animation-delay: -0.08333333333333333s;
   animation-delay: -0.08333333333333333s;
 }
 
-.emotion-2 g:nth-child(12):not(style) {
+.emotion-2 g:nth-of-type(12) {
   -webkit-animation-delay: 0s;
   animation-delay: 0s;
 }
@@ -8546,62 +8546,62 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
   animation: animation-0 1s infinite;
 }
 
-.emotion-2 g:nth-child(1):not(style) {
+.emotion-2 g:nth-of-type(1) {
   -webkit-animation-delay: -0.9166666666666666s;
   animation-delay: -0.9166666666666666s;
 }
 
-.emotion-2 g:nth-child(2):not(style) {
+.emotion-2 g:nth-of-type(2) {
   -webkit-animation-delay: -0.8333333333333334s;
   animation-delay: -0.8333333333333334s;
 }
 
-.emotion-2 g:nth-child(3):not(style) {
+.emotion-2 g:nth-of-type(3) {
   -webkit-animation-delay: -0.75s;
   animation-delay: -0.75s;
 }
 
-.emotion-2 g:nth-child(4):not(style) {
+.emotion-2 g:nth-of-type(4) {
   -webkit-animation-delay: -0.6666666666666666s;
   animation-delay: -0.6666666666666666s;
 }
 
-.emotion-2 g:nth-child(5):not(style) {
+.emotion-2 g:nth-of-type(5) {
   -webkit-animation-delay: -0.5833333333333334s;
   animation-delay: -0.5833333333333334s;
 }
 
-.emotion-2 g:nth-child(6):not(style) {
+.emotion-2 g:nth-of-type(6) {
   -webkit-animation-delay: -0.5s;
   animation-delay: -0.5s;
 }
 
-.emotion-2 g:nth-child(7):not(style) {
+.emotion-2 g:nth-of-type(7) {
   -webkit-animation-delay: -0.4166666666666667s;
   animation-delay: -0.4166666666666667s;
 }
 
-.emotion-2 g:nth-child(8):not(style) {
+.emotion-2 g:nth-of-type(8) {
   -webkit-animation-delay: -0.3333333333333333s;
   animation-delay: -0.3333333333333333s;
 }
 
-.emotion-2 g:nth-child(9):not(style) {
+.emotion-2 g:nth-of-type(9) {
   -webkit-animation-delay: -0.25s;
   animation-delay: -0.25s;
 }
 
-.emotion-2 g:nth-child(10):not(style) {
+.emotion-2 g:nth-of-type(10) {
   -webkit-animation-delay: -0.16666666666666666s;
   animation-delay: -0.16666666666666666s;
 }
 
-.emotion-2 g:nth-child(11):not(style) {
+.emotion-2 g:nth-of-type(11) {
   -webkit-animation-delay: -0.08333333333333333s;
   animation-delay: -0.08333333333333333s;
 }
 
-.emotion-2 g:nth-child(12):not(style) {
+.emotion-2 g:nth-of-type(12) {
   -webkit-animation-delay: 0s;
   animation-delay: 0s;
 }
@@ -8927,62 +8927,62 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
   animation: animation-0 1s infinite;
 }
 
-.emotion-2 g:nth-child(1):not(style) {
+.emotion-2 g:nth-of-type(1) {
   -webkit-animation-delay: -0.9166666666666666s;
   animation-delay: -0.9166666666666666s;
 }
 
-.emotion-2 g:nth-child(2):not(style) {
+.emotion-2 g:nth-of-type(2) {
   -webkit-animation-delay: -0.8333333333333334s;
   animation-delay: -0.8333333333333334s;
 }
 
-.emotion-2 g:nth-child(3):not(style) {
+.emotion-2 g:nth-of-type(3) {
   -webkit-animation-delay: -0.75s;
   animation-delay: -0.75s;
 }
 
-.emotion-2 g:nth-child(4):not(style) {
+.emotion-2 g:nth-of-type(4) {
   -webkit-animation-delay: -0.6666666666666666s;
   animation-delay: -0.6666666666666666s;
 }
 
-.emotion-2 g:nth-child(5):not(style) {
+.emotion-2 g:nth-of-type(5) {
   -webkit-animation-delay: -0.5833333333333334s;
   animation-delay: -0.5833333333333334s;
 }
 
-.emotion-2 g:nth-child(6):not(style) {
+.emotion-2 g:nth-of-type(6) {
   -webkit-animation-delay: -0.5s;
   animation-delay: -0.5s;
 }
 
-.emotion-2 g:nth-child(7):not(style) {
+.emotion-2 g:nth-of-type(7) {
   -webkit-animation-delay: -0.4166666666666667s;
   animation-delay: -0.4166666666666667s;
 }
 
-.emotion-2 g:nth-child(8):not(style) {
+.emotion-2 g:nth-of-type(8) {
   -webkit-animation-delay: -0.3333333333333333s;
   animation-delay: -0.3333333333333333s;
 }
 
-.emotion-2 g:nth-child(9):not(style) {
+.emotion-2 g:nth-of-type(9) {
   -webkit-animation-delay: -0.25s;
   animation-delay: -0.25s;
 }
 
-.emotion-2 g:nth-child(10):not(style) {
+.emotion-2 g:nth-of-type(10) {
   -webkit-animation-delay: -0.16666666666666666s;
   animation-delay: -0.16666666666666666s;
 }
 
-.emotion-2 g:nth-child(11):not(style) {
+.emotion-2 g:nth-of-type(11) {
   -webkit-animation-delay: -0.08333333333333333s;
   animation-delay: -0.08333333333333333s;
 }
 
-.emotion-2 g:nth-child(12):not(style) {
+.emotion-2 g:nth-of-type(12) {
   -webkit-animation-delay: 0s;
   animation-delay: 0s;
 }
@@ -9308,62 +9308,62 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
   animation: animation-0 1s infinite;
 }
 
-.emotion-2 g:nth-child(1):not(style) {
+.emotion-2 g:nth-of-type(1) {
   -webkit-animation-delay: -0.9166666666666666s;
   animation-delay: -0.9166666666666666s;
 }
 
-.emotion-2 g:nth-child(2):not(style) {
+.emotion-2 g:nth-of-type(2) {
   -webkit-animation-delay: -0.8333333333333334s;
   animation-delay: -0.8333333333333334s;
 }
 
-.emotion-2 g:nth-child(3):not(style) {
+.emotion-2 g:nth-of-type(3) {
   -webkit-animation-delay: -0.75s;
   animation-delay: -0.75s;
 }
 
-.emotion-2 g:nth-child(4):not(style) {
+.emotion-2 g:nth-of-type(4) {
   -webkit-animation-delay: -0.6666666666666666s;
   animation-delay: -0.6666666666666666s;
 }
 
-.emotion-2 g:nth-child(5):not(style) {
+.emotion-2 g:nth-of-type(5) {
   -webkit-animation-delay: -0.5833333333333334s;
   animation-delay: -0.5833333333333334s;
 }
 
-.emotion-2 g:nth-child(6):not(style) {
+.emotion-2 g:nth-of-type(6) {
   -webkit-animation-delay: -0.5s;
   animation-delay: -0.5s;
 }
 
-.emotion-2 g:nth-child(7):not(style) {
+.emotion-2 g:nth-of-type(7) {
   -webkit-animation-delay: -0.4166666666666667s;
   animation-delay: -0.4166666666666667s;
 }
 
-.emotion-2 g:nth-child(8):not(style) {
+.emotion-2 g:nth-of-type(8) {
   -webkit-animation-delay: -0.3333333333333333s;
   animation-delay: -0.3333333333333333s;
 }
 
-.emotion-2 g:nth-child(9):not(style) {
+.emotion-2 g:nth-of-type(9) {
   -webkit-animation-delay: -0.25s;
   animation-delay: -0.25s;
 }
 
-.emotion-2 g:nth-child(10):not(style) {
+.emotion-2 g:nth-of-type(10) {
   -webkit-animation-delay: -0.16666666666666666s;
   animation-delay: -0.16666666666666666s;
 }
 
-.emotion-2 g:nth-child(11):not(style) {
+.emotion-2 g:nth-of-type(11) {
   -webkit-animation-delay: -0.08333333333333333s;
   animation-delay: -0.08333333333333333s;
 }
 
-.emotion-2 g:nth-child(12):not(style) {
+.emotion-2 g:nth-of-type(12) {
   -webkit-animation-delay: 0s;
   animation-delay: 0s;
 }
@@ -9689,62 +9689,62 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
   animation: animation-0 1s infinite;
 }
 
-.emotion-2 g:nth-child(1):not(style) {
+.emotion-2 g:nth-of-type(1) {
   -webkit-animation-delay: -0.9166666666666666s;
   animation-delay: -0.9166666666666666s;
 }
 
-.emotion-2 g:nth-child(2):not(style) {
+.emotion-2 g:nth-of-type(2) {
   -webkit-animation-delay: -0.8333333333333334s;
   animation-delay: -0.8333333333333334s;
 }
 
-.emotion-2 g:nth-child(3):not(style) {
+.emotion-2 g:nth-of-type(3) {
   -webkit-animation-delay: -0.75s;
   animation-delay: -0.75s;
 }
 
-.emotion-2 g:nth-child(4):not(style) {
+.emotion-2 g:nth-of-type(4) {
   -webkit-animation-delay: -0.6666666666666666s;
   animation-delay: -0.6666666666666666s;
 }
 
-.emotion-2 g:nth-child(5):not(style) {
+.emotion-2 g:nth-of-type(5) {
   -webkit-animation-delay: -0.5833333333333334s;
   animation-delay: -0.5833333333333334s;
 }
 
-.emotion-2 g:nth-child(6):not(style) {
+.emotion-2 g:nth-of-type(6) {
   -webkit-animation-delay: -0.5s;
   animation-delay: -0.5s;
 }
 
-.emotion-2 g:nth-child(7):not(style) {
+.emotion-2 g:nth-of-type(7) {
   -webkit-animation-delay: -0.4166666666666667s;
   animation-delay: -0.4166666666666667s;
 }
 
-.emotion-2 g:nth-child(8):not(style) {
+.emotion-2 g:nth-of-type(8) {
   -webkit-animation-delay: -0.3333333333333333s;
   animation-delay: -0.3333333333333333s;
 }
 
-.emotion-2 g:nth-child(9):not(style) {
+.emotion-2 g:nth-of-type(9) {
   -webkit-animation-delay: -0.25s;
   animation-delay: -0.25s;
 }
 
-.emotion-2 g:nth-child(10):not(style) {
+.emotion-2 g:nth-of-type(10) {
   -webkit-animation-delay: -0.16666666666666666s;
   animation-delay: -0.16666666666666666s;
 }
 
-.emotion-2 g:nth-child(11):not(style) {
+.emotion-2 g:nth-of-type(11) {
   -webkit-animation-delay: -0.08333333333333333s;
   animation-delay: -0.08333333333333333s;
 }
 
-.emotion-2 g:nth-child(12):not(style) {
+.emotion-2 g:nth-of-type(12) {
   -webkit-animation-delay: 0s;
   animation-delay: 0s;
 }
@@ -10070,62 +10070,62 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
   animation: animation-0 1s infinite;
 }
 
-.emotion-2 g:nth-child(1):not(style) {
+.emotion-2 g:nth-of-type(1) {
   -webkit-animation-delay: -0.9166666666666666s;
   animation-delay: -0.9166666666666666s;
 }
 
-.emotion-2 g:nth-child(2):not(style) {
+.emotion-2 g:nth-of-type(2) {
   -webkit-animation-delay: -0.8333333333333334s;
   animation-delay: -0.8333333333333334s;
 }
 
-.emotion-2 g:nth-child(3):not(style) {
+.emotion-2 g:nth-of-type(3) {
   -webkit-animation-delay: -0.75s;
   animation-delay: -0.75s;
 }
 
-.emotion-2 g:nth-child(4):not(style) {
+.emotion-2 g:nth-of-type(4) {
   -webkit-animation-delay: -0.6666666666666666s;
   animation-delay: -0.6666666666666666s;
 }
 
-.emotion-2 g:nth-child(5):not(style) {
+.emotion-2 g:nth-of-type(5) {
   -webkit-animation-delay: -0.5833333333333334s;
   animation-delay: -0.5833333333333334s;
 }
 
-.emotion-2 g:nth-child(6):not(style) {
+.emotion-2 g:nth-of-type(6) {
   -webkit-animation-delay: -0.5s;
   animation-delay: -0.5s;
 }
 
-.emotion-2 g:nth-child(7):not(style) {
+.emotion-2 g:nth-of-type(7) {
   -webkit-animation-delay: -0.4166666666666667s;
   animation-delay: -0.4166666666666667s;
 }
 
-.emotion-2 g:nth-child(8):not(style) {
+.emotion-2 g:nth-of-type(8) {
   -webkit-animation-delay: -0.3333333333333333s;
   animation-delay: -0.3333333333333333s;
 }
 
-.emotion-2 g:nth-child(9):not(style) {
+.emotion-2 g:nth-of-type(9) {
   -webkit-animation-delay: -0.25s;
   animation-delay: -0.25s;
 }
 
-.emotion-2 g:nth-child(10):not(style) {
+.emotion-2 g:nth-of-type(10) {
   -webkit-animation-delay: -0.16666666666666666s;
   animation-delay: -0.16666666666666666s;
 }
 
-.emotion-2 g:nth-child(11):not(style) {
+.emotion-2 g:nth-of-type(11) {
   -webkit-animation-delay: -0.08333333333333333s;
   animation-delay: -0.08333333333333333s;
 }
 
-.emotion-2 g:nth-child(12):not(style) {
+.emotion-2 g:nth-of-type(12) {
   -webkit-animation-delay: 0s;
   animation-delay: 0s;
 }
@@ -10458,62 +10458,62 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent b
   animation: animation-0 1s infinite;
 }
 
-.emotion-2 g:nth-child(1):not(style) {
+.emotion-2 g:nth-of-type(1) {
   -webkit-animation-delay: -0.9166666666666666s;
   animation-delay: -0.9166666666666666s;
 }
 
-.emotion-2 g:nth-child(2):not(style) {
+.emotion-2 g:nth-of-type(2) {
   -webkit-animation-delay: -0.8333333333333334s;
   animation-delay: -0.8333333333333334s;
 }
 
-.emotion-2 g:nth-child(3):not(style) {
+.emotion-2 g:nth-of-type(3) {
   -webkit-animation-delay: -0.75s;
   animation-delay: -0.75s;
 }
 
-.emotion-2 g:nth-child(4):not(style) {
+.emotion-2 g:nth-of-type(4) {
   -webkit-animation-delay: -0.6666666666666666s;
   animation-delay: -0.6666666666666666s;
 }
 
-.emotion-2 g:nth-child(5):not(style) {
+.emotion-2 g:nth-of-type(5) {
   -webkit-animation-delay: -0.5833333333333334s;
   animation-delay: -0.5833333333333334s;
 }
 
-.emotion-2 g:nth-child(6):not(style) {
+.emotion-2 g:nth-of-type(6) {
   -webkit-animation-delay: -0.5s;
   animation-delay: -0.5s;
 }
 
-.emotion-2 g:nth-child(7):not(style) {
+.emotion-2 g:nth-of-type(7) {
   -webkit-animation-delay: -0.4166666666666667s;
   animation-delay: -0.4166666666666667s;
 }
 
-.emotion-2 g:nth-child(8):not(style) {
+.emotion-2 g:nth-of-type(8) {
   -webkit-animation-delay: -0.3333333333333333s;
   animation-delay: -0.3333333333333333s;
 }
 
-.emotion-2 g:nth-child(9):not(style) {
+.emotion-2 g:nth-of-type(9) {
   -webkit-animation-delay: -0.25s;
   animation-delay: -0.25s;
 }
 
-.emotion-2 g:nth-child(10):not(style) {
+.emotion-2 g:nth-of-type(10) {
   -webkit-animation-delay: -0.16666666666666666s;
   animation-delay: -0.16666666666666666s;
 }
 
-.emotion-2 g:nth-child(11):not(style) {
+.emotion-2 g:nth-of-type(11) {
   -webkit-animation-delay: -0.08333333333333333s;
   animation-delay: -0.08333333333333333s;
 }
 
-.emotion-2 g:nth-child(12):not(style) {
+.emotion-2 g:nth-of-type(12) {
   -webkit-animation-delay: 0s;
   animation-delay: 0s;
 }
@@ -10846,62 +10846,62 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent b
   animation: animation-0 1s infinite;
 }
 
-.emotion-2 g:nth-child(1):not(style) {
+.emotion-2 g:nth-of-type(1) {
   -webkit-animation-delay: -0.9166666666666666s;
   animation-delay: -0.9166666666666666s;
 }
 
-.emotion-2 g:nth-child(2):not(style) {
+.emotion-2 g:nth-of-type(2) {
   -webkit-animation-delay: -0.8333333333333334s;
   animation-delay: -0.8333333333333334s;
 }
 
-.emotion-2 g:nth-child(3):not(style) {
+.emotion-2 g:nth-of-type(3) {
   -webkit-animation-delay: -0.75s;
   animation-delay: -0.75s;
 }
 
-.emotion-2 g:nth-child(4):not(style) {
+.emotion-2 g:nth-of-type(4) {
   -webkit-animation-delay: -0.6666666666666666s;
   animation-delay: -0.6666666666666666s;
 }
 
-.emotion-2 g:nth-child(5):not(style) {
+.emotion-2 g:nth-of-type(5) {
   -webkit-animation-delay: -0.5833333333333334s;
   animation-delay: -0.5833333333333334s;
 }
 
-.emotion-2 g:nth-child(6):not(style) {
+.emotion-2 g:nth-of-type(6) {
   -webkit-animation-delay: -0.5s;
   animation-delay: -0.5s;
 }
 
-.emotion-2 g:nth-child(7):not(style) {
+.emotion-2 g:nth-of-type(7) {
   -webkit-animation-delay: -0.4166666666666667s;
   animation-delay: -0.4166666666666667s;
 }
 
-.emotion-2 g:nth-child(8):not(style) {
+.emotion-2 g:nth-of-type(8) {
   -webkit-animation-delay: -0.3333333333333333s;
   animation-delay: -0.3333333333333333s;
 }
 
-.emotion-2 g:nth-child(9):not(style) {
+.emotion-2 g:nth-of-type(9) {
   -webkit-animation-delay: -0.25s;
   animation-delay: -0.25s;
 }
 
-.emotion-2 g:nth-child(10):not(style) {
+.emotion-2 g:nth-of-type(10) {
   -webkit-animation-delay: -0.16666666666666666s;
   animation-delay: -0.16666666666666666s;
 }
 
-.emotion-2 g:nth-child(11):not(style) {
+.emotion-2 g:nth-of-type(11) {
   -webkit-animation-delay: -0.08333333333333333s;
   animation-delay: -0.08333333333333333s;
 }
 
-.emotion-2 g:nth-child(12):not(style) {
+.emotion-2 g:nth-of-type(12) {
   -webkit-animation-delay: 0s;
   animation-delay: 0s;
 }
@@ -11234,62 +11234,62 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent b
   animation: animation-0 1s infinite;
 }
 
-.emotion-2 g:nth-child(1):not(style) {
+.emotion-2 g:nth-of-type(1) {
   -webkit-animation-delay: -0.9166666666666666s;
   animation-delay: -0.9166666666666666s;
 }
 
-.emotion-2 g:nth-child(2):not(style) {
+.emotion-2 g:nth-of-type(2) {
   -webkit-animation-delay: -0.8333333333333334s;
   animation-delay: -0.8333333333333334s;
 }
 
-.emotion-2 g:nth-child(3):not(style) {
+.emotion-2 g:nth-of-type(3) {
   -webkit-animation-delay: -0.75s;
   animation-delay: -0.75s;
 }
 
-.emotion-2 g:nth-child(4):not(style) {
+.emotion-2 g:nth-of-type(4) {
   -webkit-animation-delay: -0.6666666666666666s;
   animation-delay: -0.6666666666666666s;
 }
 
-.emotion-2 g:nth-child(5):not(style) {
+.emotion-2 g:nth-of-type(5) {
   -webkit-animation-delay: -0.5833333333333334s;
   animation-delay: -0.5833333333333334s;
 }
 
-.emotion-2 g:nth-child(6):not(style) {
+.emotion-2 g:nth-of-type(6) {
   -webkit-animation-delay: -0.5s;
   animation-delay: -0.5s;
 }
 
-.emotion-2 g:nth-child(7):not(style) {
+.emotion-2 g:nth-of-type(7) {
   -webkit-animation-delay: -0.4166666666666667s;
   animation-delay: -0.4166666666666667s;
 }
 
-.emotion-2 g:nth-child(8):not(style) {
+.emotion-2 g:nth-of-type(8) {
   -webkit-animation-delay: -0.3333333333333333s;
   animation-delay: -0.3333333333333333s;
 }
 
-.emotion-2 g:nth-child(9):not(style) {
+.emotion-2 g:nth-of-type(9) {
   -webkit-animation-delay: -0.25s;
   animation-delay: -0.25s;
 }
 
-.emotion-2 g:nth-child(10):not(style) {
+.emotion-2 g:nth-of-type(10) {
   -webkit-animation-delay: -0.16666666666666666s;
   animation-delay: -0.16666666666666666s;
 }
 
-.emotion-2 g:nth-child(11):not(style) {
+.emotion-2 g:nth-of-type(11) {
   -webkit-animation-delay: -0.08333333333333333s;
   animation-delay: -0.08333333333333333s;
 }
 
-.emotion-2 g:nth-child(12):not(style) {
+.emotion-2 g:nth-of-type(12) {
   -webkit-animation-delay: 0s;
   animation-delay: 0s;
 }
@@ -11622,62 +11622,62 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent d
   animation: animation-0 1s infinite;
 }
 
-.emotion-2 g:nth-child(1):not(style) {
+.emotion-2 g:nth-of-type(1) {
   -webkit-animation-delay: -0.9166666666666666s;
   animation-delay: -0.9166666666666666s;
 }
 
-.emotion-2 g:nth-child(2):not(style) {
+.emotion-2 g:nth-of-type(2) {
   -webkit-animation-delay: -0.8333333333333334s;
   animation-delay: -0.8333333333333334s;
 }
 
-.emotion-2 g:nth-child(3):not(style) {
+.emotion-2 g:nth-of-type(3) {
   -webkit-animation-delay: -0.75s;
   animation-delay: -0.75s;
 }
 
-.emotion-2 g:nth-child(4):not(style) {
+.emotion-2 g:nth-of-type(4) {
   -webkit-animation-delay: -0.6666666666666666s;
   animation-delay: -0.6666666666666666s;
 }
 
-.emotion-2 g:nth-child(5):not(style) {
+.emotion-2 g:nth-of-type(5) {
   -webkit-animation-delay: -0.5833333333333334s;
   animation-delay: -0.5833333333333334s;
 }
 
-.emotion-2 g:nth-child(6):not(style) {
+.emotion-2 g:nth-of-type(6) {
   -webkit-animation-delay: -0.5s;
   animation-delay: -0.5s;
 }
 
-.emotion-2 g:nth-child(7):not(style) {
+.emotion-2 g:nth-of-type(7) {
   -webkit-animation-delay: -0.4166666666666667s;
   animation-delay: -0.4166666666666667s;
 }
 
-.emotion-2 g:nth-child(8):not(style) {
+.emotion-2 g:nth-of-type(8) {
   -webkit-animation-delay: -0.3333333333333333s;
   animation-delay: -0.3333333333333333s;
 }
 
-.emotion-2 g:nth-child(9):not(style) {
+.emotion-2 g:nth-of-type(9) {
   -webkit-animation-delay: -0.25s;
   animation-delay: -0.25s;
 }
 
-.emotion-2 g:nth-child(10):not(style) {
+.emotion-2 g:nth-of-type(10) {
   -webkit-animation-delay: -0.16666666666666666s;
   animation-delay: -0.16666666666666666s;
 }
 
-.emotion-2 g:nth-child(11):not(style) {
+.emotion-2 g:nth-of-type(11) {
   -webkit-animation-delay: -0.08333333333333333s;
   animation-delay: -0.08333333333333333s;
 }
 
-.emotion-2 g:nth-child(12):not(style) {
+.emotion-2 g:nth-of-type(12) {
   -webkit-animation-delay: 0s;
   animation-delay: 0s;
 }
@@ -12010,62 +12010,62 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent d
   animation: animation-0 1s infinite;
 }
 
-.emotion-2 g:nth-child(1):not(style) {
+.emotion-2 g:nth-of-type(1) {
   -webkit-animation-delay: -0.9166666666666666s;
   animation-delay: -0.9166666666666666s;
 }
 
-.emotion-2 g:nth-child(2):not(style) {
+.emotion-2 g:nth-of-type(2) {
   -webkit-animation-delay: -0.8333333333333334s;
   animation-delay: -0.8333333333333334s;
 }
 
-.emotion-2 g:nth-child(3):not(style) {
+.emotion-2 g:nth-of-type(3) {
   -webkit-animation-delay: -0.75s;
   animation-delay: -0.75s;
 }
 
-.emotion-2 g:nth-child(4):not(style) {
+.emotion-2 g:nth-of-type(4) {
   -webkit-animation-delay: -0.6666666666666666s;
   animation-delay: -0.6666666666666666s;
 }
 
-.emotion-2 g:nth-child(5):not(style) {
+.emotion-2 g:nth-of-type(5) {
   -webkit-animation-delay: -0.5833333333333334s;
   animation-delay: -0.5833333333333334s;
 }
 
-.emotion-2 g:nth-child(6):not(style) {
+.emotion-2 g:nth-of-type(6) {
   -webkit-animation-delay: -0.5s;
   animation-delay: -0.5s;
 }
 
-.emotion-2 g:nth-child(7):not(style) {
+.emotion-2 g:nth-of-type(7) {
   -webkit-animation-delay: -0.4166666666666667s;
   animation-delay: -0.4166666666666667s;
 }
 
-.emotion-2 g:nth-child(8):not(style) {
+.emotion-2 g:nth-of-type(8) {
   -webkit-animation-delay: -0.3333333333333333s;
   animation-delay: -0.3333333333333333s;
 }
 
-.emotion-2 g:nth-child(9):not(style) {
+.emotion-2 g:nth-of-type(9) {
   -webkit-animation-delay: -0.25s;
   animation-delay: -0.25s;
 }
 
-.emotion-2 g:nth-child(10):not(style) {
+.emotion-2 g:nth-of-type(10) {
   -webkit-animation-delay: -0.16666666666666666s;
   animation-delay: -0.16666666666666666s;
 }
 
-.emotion-2 g:nth-child(11):not(style) {
+.emotion-2 g:nth-of-type(11) {
   -webkit-animation-delay: -0.08333333333333333s;
   animation-delay: -0.08333333333333333s;
 }
 
-.emotion-2 g:nth-child(12):not(style) {
+.emotion-2 g:nth-of-type(12) {
   -webkit-animation-delay: 0s;
   animation-delay: 0s;
 }
@@ -12398,62 +12398,62 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent d
   animation: animation-0 1s infinite;
 }
 
-.emotion-2 g:nth-child(1):not(style) {
+.emotion-2 g:nth-of-type(1) {
   -webkit-animation-delay: -0.9166666666666666s;
   animation-delay: -0.9166666666666666s;
 }
 
-.emotion-2 g:nth-child(2):not(style) {
+.emotion-2 g:nth-of-type(2) {
   -webkit-animation-delay: -0.8333333333333334s;
   animation-delay: -0.8333333333333334s;
 }
 
-.emotion-2 g:nth-child(3):not(style) {
+.emotion-2 g:nth-of-type(3) {
   -webkit-animation-delay: -0.75s;
   animation-delay: -0.75s;
 }
 
-.emotion-2 g:nth-child(4):not(style) {
+.emotion-2 g:nth-of-type(4) {
   -webkit-animation-delay: -0.6666666666666666s;
   animation-delay: -0.6666666666666666s;
 }
 
-.emotion-2 g:nth-child(5):not(style) {
+.emotion-2 g:nth-of-type(5) {
   -webkit-animation-delay: -0.5833333333333334s;
   animation-delay: -0.5833333333333334s;
 }
 
-.emotion-2 g:nth-child(6):not(style) {
+.emotion-2 g:nth-of-type(6) {
   -webkit-animation-delay: -0.5s;
   animation-delay: -0.5s;
 }
 
-.emotion-2 g:nth-child(7):not(style) {
+.emotion-2 g:nth-of-type(7) {
   -webkit-animation-delay: -0.4166666666666667s;
   animation-delay: -0.4166666666666667s;
 }
 
-.emotion-2 g:nth-child(8):not(style) {
+.emotion-2 g:nth-of-type(8) {
   -webkit-animation-delay: -0.3333333333333333s;
   animation-delay: -0.3333333333333333s;
 }
 
-.emotion-2 g:nth-child(9):not(style) {
+.emotion-2 g:nth-of-type(9) {
   -webkit-animation-delay: -0.25s;
   animation-delay: -0.25s;
 }
 
-.emotion-2 g:nth-child(10):not(style) {
+.emotion-2 g:nth-of-type(10) {
   -webkit-animation-delay: -0.16666666666666666s;
   animation-delay: -0.16666666666666666s;
 }
 
-.emotion-2 g:nth-child(11):not(style) {
+.emotion-2 g:nth-of-type(11) {
   -webkit-animation-delay: -0.08333333333333333s;
   animation-delay: -0.08333333333333333s;
 }
 
-.emotion-2 g:nth-child(12):not(style) {
+.emotion-2 g:nth-of-type(12) {
   -webkit-animation-delay: 0s;
   animation-delay: 0s;
 }
@@ -12786,62 +12786,62 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent n
   animation: animation-0 1s infinite;
 }
 
-.emotion-2 g:nth-child(1):not(style) {
+.emotion-2 g:nth-of-type(1) {
   -webkit-animation-delay: -0.9166666666666666s;
   animation-delay: -0.9166666666666666s;
 }
 
-.emotion-2 g:nth-child(2):not(style) {
+.emotion-2 g:nth-of-type(2) {
   -webkit-animation-delay: -0.8333333333333334s;
   animation-delay: -0.8333333333333334s;
 }
 
-.emotion-2 g:nth-child(3):not(style) {
+.emotion-2 g:nth-of-type(3) {
   -webkit-animation-delay: -0.75s;
   animation-delay: -0.75s;
 }
 
-.emotion-2 g:nth-child(4):not(style) {
+.emotion-2 g:nth-of-type(4) {
   -webkit-animation-delay: -0.6666666666666666s;
   animation-delay: -0.6666666666666666s;
 }
 
-.emotion-2 g:nth-child(5):not(style) {
+.emotion-2 g:nth-of-type(5) {
   -webkit-animation-delay: -0.5833333333333334s;
   animation-delay: -0.5833333333333334s;
 }
 
-.emotion-2 g:nth-child(6):not(style) {
+.emotion-2 g:nth-of-type(6) {
   -webkit-animation-delay: -0.5s;
   animation-delay: -0.5s;
 }
 
-.emotion-2 g:nth-child(7):not(style) {
+.emotion-2 g:nth-of-type(7) {
   -webkit-animation-delay: -0.4166666666666667s;
   animation-delay: -0.4166666666666667s;
 }
 
-.emotion-2 g:nth-child(8):not(style) {
+.emotion-2 g:nth-of-type(8) {
   -webkit-animation-delay: -0.3333333333333333s;
   animation-delay: -0.3333333333333333s;
 }
 
-.emotion-2 g:nth-child(9):not(style) {
+.emotion-2 g:nth-of-type(9) {
   -webkit-animation-delay: -0.25s;
   animation-delay: -0.25s;
 }
 
-.emotion-2 g:nth-child(10):not(style) {
+.emotion-2 g:nth-of-type(10) {
   -webkit-animation-delay: -0.16666666666666666s;
   animation-delay: -0.16666666666666666s;
 }
 
-.emotion-2 g:nth-child(11):not(style) {
+.emotion-2 g:nth-of-type(11) {
   -webkit-animation-delay: -0.08333333333333333s;
   animation-delay: -0.08333333333333333s;
 }
 
-.emotion-2 g:nth-child(12):not(style) {
+.emotion-2 g:nth-of-type(12) {
   -webkit-animation-delay: 0s;
   animation-delay: 0s;
 }
@@ -13174,62 +13174,62 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent n
   animation: animation-0 1s infinite;
 }
 
-.emotion-2 g:nth-child(1):not(style) {
+.emotion-2 g:nth-of-type(1) {
   -webkit-animation-delay: -0.9166666666666666s;
   animation-delay: -0.9166666666666666s;
 }
 
-.emotion-2 g:nth-child(2):not(style) {
+.emotion-2 g:nth-of-type(2) {
   -webkit-animation-delay: -0.8333333333333334s;
   animation-delay: -0.8333333333333334s;
 }
 
-.emotion-2 g:nth-child(3):not(style) {
+.emotion-2 g:nth-of-type(3) {
   -webkit-animation-delay: -0.75s;
   animation-delay: -0.75s;
 }
 
-.emotion-2 g:nth-child(4):not(style) {
+.emotion-2 g:nth-of-type(4) {
   -webkit-animation-delay: -0.6666666666666666s;
   animation-delay: -0.6666666666666666s;
 }
 
-.emotion-2 g:nth-child(5):not(style) {
+.emotion-2 g:nth-of-type(5) {
   -webkit-animation-delay: -0.5833333333333334s;
   animation-delay: -0.5833333333333334s;
 }
 
-.emotion-2 g:nth-child(6):not(style) {
+.emotion-2 g:nth-of-type(6) {
   -webkit-animation-delay: -0.5s;
   animation-delay: -0.5s;
 }
 
-.emotion-2 g:nth-child(7):not(style) {
+.emotion-2 g:nth-of-type(7) {
   -webkit-animation-delay: -0.4166666666666667s;
   animation-delay: -0.4166666666666667s;
 }
 
-.emotion-2 g:nth-child(8):not(style) {
+.emotion-2 g:nth-of-type(8) {
   -webkit-animation-delay: -0.3333333333333333s;
   animation-delay: -0.3333333333333333s;
 }
 
-.emotion-2 g:nth-child(9):not(style) {
+.emotion-2 g:nth-of-type(9) {
   -webkit-animation-delay: -0.25s;
   animation-delay: -0.25s;
 }
 
-.emotion-2 g:nth-child(10):not(style) {
+.emotion-2 g:nth-of-type(10) {
   -webkit-animation-delay: -0.16666666666666666s;
   animation-delay: -0.16666666666666666s;
 }
 
-.emotion-2 g:nth-child(11):not(style) {
+.emotion-2 g:nth-of-type(11) {
   -webkit-animation-delay: -0.08333333333333333s;
   animation-delay: -0.08333333333333333s;
 }
 
-.emotion-2 g:nth-child(12):not(style) {
+.emotion-2 g:nth-of-type(12) {
   -webkit-animation-delay: 0s;
   animation-delay: 0s;
 }
@@ -13562,62 +13562,62 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent n
   animation: animation-0 1s infinite;
 }
 
-.emotion-2 g:nth-child(1):not(style) {
+.emotion-2 g:nth-of-type(1) {
   -webkit-animation-delay: -0.9166666666666666s;
   animation-delay: -0.9166666666666666s;
 }
 
-.emotion-2 g:nth-child(2):not(style) {
+.emotion-2 g:nth-of-type(2) {
   -webkit-animation-delay: -0.8333333333333334s;
   animation-delay: -0.8333333333333334s;
 }
 
-.emotion-2 g:nth-child(3):not(style) {
+.emotion-2 g:nth-of-type(3) {
   -webkit-animation-delay: -0.75s;
   animation-delay: -0.75s;
 }
 
-.emotion-2 g:nth-child(4):not(style) {
+.emotion-2 g:nth-of-type(4) {
   -webkit-animation-delay: -0.6666666666666666s;
   animation-delay: -0.6666666666666666s;
 }
 
-.emotion-2 g:nth-child(5):not(style) {
+.emotion-2 g:nth-of-type(5) {
   -webkit-animation-delay: -0.5833333333333334s;
   animation-delay: -0.5833333333333334s;
 }
 
-.emotion-2 g:nth-child(6):not(style) {
+.emotion-2 g:nth-of-type(6) {
   -webkit-animation-delay: -0.5s;
   animation-delay: -0.5s;
 }
 
-.emotion-2 g:nth-child(7):not(style) {
+.emotion-2 g:nth-of-type(7) {
   -webkit-animation-delay: -0.4166666666666667s;
   animation-delay: -0.4166666666666667s;
 }
 
-.emotion-2 g:nth-child(8):not(style) {
+.emotion-2 g:nth-of-type(8) {
   -webkit-animation-delay: -0.3333333333333333s;
   animation-delay: -0.3333333333333333s;
 }
 
-.emotion-2 g:nth-child(9):not(style) {
+.emotion-2 g:nth-of-type(9) {
   -webkit-animation-delay: -0.25s;
   animation-delay: -0.25s;
 }
 
-.emotion-2 g:nth-child(10):not(style) {
+.emotion-2 g:nth-of-type(10) {
   -webkit-animation-delay: -0.16666666666666666s;
   animation-delay: -0.16666666666666666s;
 }
 
-.emotion-2 g:nth-child(11):not(style) {
+.emotion-2 g:nth-of-type(11) {
   -webkit-animation-delay: -0.08333333333333333s;
   animation-delay: -0.08333333333333333s;
 }
 
-.emotion-2 g:nth-child(12):not(style) {
+.emotion-2 g:nth-of-type(12) {
   -webkit-animation-delay: 0s;
   animation-delay: 0s;
 }
@@ -13950,62 +13950,62 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent s
   animation: animation-0 1s infinite;
 }
 
-.emotion-2 g:nth-child(1):not(style) {
+.emotion-2 g:nth-of-type(1) {
   -webkit-animation-delay: -0.9166666666666666s;
   animation-delay: -0.9166666666666666s;
 }
 
-.emotion-2 g:nth-child(2):not(style) {
+.emotion-2 g:nth-of-type(2) {
   -webkit-animation-delay: -0.8333333333333334s;
   animation-delay: -0.8333333333333334s;
 }
 
-.emotion-2 g:nth-child(3):not(style) {
+.emotion-2 g:nth-of-type(3) {
   -webkit-animation-delay: -0.75s;
   animation-delay: -0.75s;
 }
 
-.emotion-2 g:nth-child(4):not(style) {
+.emotion-2 g:nth-of-type(4) {
   -webkit-animation-delay: -0.6666666666666666s;
   animation-delay: -0.6666666666666666s;
 }
 
-.emotion-2 g:nth-child(5):not(style) {
+.emotion-2 g:nth-of-type(5) {
   -webkit-animation-delay: -0.5833333333333334s;
   animation-delay: -0.5833333333333334s;
 }
 
-.emotion-2 g:nth-child(6):not(style) {
+.emotion-2 g:nth-of-type(6) {
   -webkit-animation-delay: -0.5s;
   animation-delay: -0.5s;
 }
 
-.emotion-2 g:nth-child(7):not(style) {
+.emotion-2 g:nth-of-type(7) {
   -webkit-animation-delay: -0.4166666666666667s;
   animation-delay: -0.4166666666666667s;
 }
 
-.emotion-2 g:nth-child(8):not(style) {
+.emotion-2 g:nth-of-type(8) {
   -webkit-animation-delay: -0.3333333333333333s;
   animation-delay: -0.3333333333333333s;
 }
 
-.emotion-2 g:nth-child(9):not(style) {
+.emotion-2 g:nth-of-type(9) {
   -webkit-animation-delay: -0.25s;
   animation-delay: -0.25s;
 }
 
-.emotion-2 g:nth-child(10):not(style) {
+.emotion-2 g:nth-of-type(10) {
   -webkit-animation-delay: -0.16666666666666666s;
   animation-delay: -0.16666666666666666s;
 }
 
-.emotion-2 g:nth-child(11):not(style) {
+.emotion-2 g:nth-of-type(11) {
   -webkit-animation-delay: -0.08333333333333333s;
   animation-delay: -0.08333333333333333s;
 }
 
-.emotion-2 g:nth-child(12):not(style) {
+.emotion-2 g:nth-of-type(12) {
   -webkit-animation-delay: 0s;
   animation-delay: 0s;
 }
@@ -14338,62 +14338,62 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent s
   animation: animation-0 1s infinite;
 }
 
-.emotion-2 g:nth-child(1):not(style) {
+.emotion-2 g:nth-of-type(1) {
   -webkit-animation-delay: -0.9166666666666666s;
   animation-delay: -0.9166666666666666s;
 }
 
-.emotion-2 g:nth-child(2):not(style) {
+.emotion-2 g:nth-of-type(2) {
   -webkit-animation-delay: -0.8333333333333334s;
   animation-delay: -0.8333333333333334s;
 }
 
-.emotion-2 g:nth-child(3):not(style) {
+.emotion-2 g:nth-of-type(3) {
   -webkit-animation-delay: -0.75s;
   animation-delay: -0.75s;
 }
 
-.emotion-2 g:nth-child(4):not(style) {
+.emotion-2 g:nth-of-type(4) {
   -webkit-animation-delay: -0.6666666666666666s;
   animation-delay: -0.6666666666666666s;
 }
 
-.emotion-2 g:nth-child(5):not(style) {
+.emotion-2 g:nth-of-type(5) {
   -webkit-animation-delay: -0.5833333333333334s;
   animation-delay: -0.5833333333333334s;
 }
 
-.emotion-2 g:nth-child(6):not(style) {
+.emotion-2 g:nth-of-type(6) {
   -webkit-animation-delay: -0.5s;
   animation-delay: -0.5s;
 }
 
-.emotion-2 g:nth-child(7):not(style) {
+.emotion-2 g:nth-of-type(7) {
   -webkit-animation-delay: -0.4166666666666667s;
   animation-delay: -0.4166666666666667s;
 }
 
-.emotion-2 g:nth-child(8):not(style) {
+.emotion-2 g:nth-of-type(8) {
   -webkit-animation-delay: -0.3333333333333333s;
   animation-delay: -0.3333333333333333s;
 }
 
-.emotion-2 g:nth-child(9):not(style) {
+.emotion-2 g:nth-of-type(9) {
   -webkit-animation-delay: -0.25s;
   animation-delay: -0.25s;
 }
 
-.emotion-2 g:nth-child(10):not(style) {
+.emotion-2 g:nth-of-type(10) {
   -webkit-animation-delay: -0.16666666666666666s;
   animation-delay: -0.16666666666666666s;
 }
 
-.emotion-2 g:nth-child(11):not(style) {
+.emotion-2 g:nth-of-type(11) {
   -webkit-animation-delay: -0.08333333333333333s;
   animation-delay: -0.08333333333333333s;
 }
 
-.emotion-2 g:nth-child(12):not(style) {
+.emotion-2 g:nth-of-type(12) {
   -webkit-animation-delay: 0s;
   animation-delay: 0s;
 }
@@ -14726,62 +14726,62 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent s
   animation: animation-0 1s infinite;
 }
 
-.emotion-2 g:nth-child(1):not(style) {
+.emotion-2 g:nth-of-type(1) {
   -webkit-animation-delay: -0.9166666666666666s;
   animation-delay: -0.9166666666666666s;
 }
 
-.emotion-2 g:nth-child(2):not(style) {
+.emotion-2 g:nth-of-type(2) {
   -webkit-animation-delay: -0.8333333333333334s;
   animation-delay: -0.8333333333333334s;
 }
 
-.emotion-2 g:nth-child(3):not(style) {
+.emotion-2 g:nth-of-type(3) {
   -webkit-animation-delay: -0.75s;
   animation-delay: -0.75s;
 }
 
-.emotion-2 g:nth-child(4):not(style) {
+.emotion-2 g:nth-of-type(4) {
   -webkit-animation-delay: -0.6666666666666666s;
   animation-delay: -0.6666666666666666s;
 }
 
-.emotion-2 g:nth-child(5):not(style) {
+.emotion-2 g:nth-of-type(5) {
   -webkit-animation-delay: -0.5833333333333334s;
   animation-delay: -0.5833333333333334s;
 }
 
-.emotion-2 g:nth-child(6):not(style) {
+.emotion-2 g:nth-of-type(6) {
   -webkit-animation-delay: -0.5s;
   animation-delay: -0.5s;
 }
 
-.emotion-2 g:nth-child(7):not(style) {
+.emotion-2 g:nth-of-type(7) {
   -webkit-animation-delay: -0.4166666666666667s;
   animation-delay: -0.4166666666666667s;
 }
 
-.emotion-2 g:nth-child(8):not(style) {
+.emotion-2 g:nth-of-type(8) {
   -webkit-animation-delay: -0.3333333333333333s;
   animation-delay: -0.3333333333333333s;
 }
 
-.emotion-2 g:nth-child(9):not(style) {
+.emotion-2 g:nth-of-type(9) {
   -webkit-animation-delay: -0.25s;
   animation-delay: -0.25s;
 }
 
-.emotion-2 g:nth-child(10):not(style) {
+.emotion-2 g:nth-of-type(10) {
   -webkit-animation-delay: -0.16666666666666666s;
   animation-delay: -0.16666666666666666s;
 }
 
-.emotion-2 g:nth-child(11):not(style) {
+.emotion-2 g:nth-of-type(11) {
   -webkit-animation-delay: -0.08333333333333333s;
   animation-delay: -0.08333333333333333s;
 }
 
-.emotion-2 g:nth-child(12):not(style) {
+.emotion-2 g:nth-of-type(12) {
   -webkit-animation-delay: 0s;
   animation-delay: 0s;
 }
@@ -15114,62 +15114,62 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent w
   animation: animation-0 1s infinite;
 }
 
-.emotion-2 g:nth-child(1):not(style) {
+.emotion-2 g:nth-of-type(1) {
   -webkit-animation-delay: -0.9166666666666666s;
   animation-delay: -0.9166666666666666s;
 }
 
-.emotion-2 g:nth-child(2):not(style) {
+.emotion-2 g:nth-of-type(2) {
   -webkit-animation-delay: -0.8333333333333334s;
   animation-delay: -0.8333333333333334s;
 }
 
-.emotion-2 g:nth-child(3):not(style) {
+.emotion-2 g:nth-of-type(3) {
   -webkit-animation-delay: -0.75s;
   animation-delay: -0.75s;
 }
 
-.emotion-2 g:nth-child(4):not(style) {
+.emotion-2 g:nth-of-type(4) {
   -webkit-animation-delay: -0.6666666666666666s;
   animation-delay: -0.6666666666666666s;
 }
 
-.emotion-2 g:nth-child(5):not(style) {
+.emotion-2 g:nth-of-type(5) {
   -webkit-animation-delay: -0.5833333333333334s;
   animation-delay: -0.5833333333333334s;
 }
 
-.emotion-2 g:nth-child(6):not(style) {
+.emotion-2 g:nth-of-type(6) {
   -webkit-animation-delay: -0.5s;
   animation-delay: -0.5s;
 }
 
-.emotion-2 g:nth-child(7):not(style) {
+.emotion-2 g:nth-of-type(7) {
   -webkit-animation-delay: -0.4166666666666667s;
   animation-delay: -0.4166666666666667s;
 }
 
-.emotion-2 g:nth-child(8):not(style) {
+.emotion-2 g:nth-of-type(8) {
   -webkit-animation-delay: -0.3333333333333333s;
   animation-delay: -0.3333333333333333s;
 }
 
-.emotion-2 g:nth-child(9):not(style) {
+.emotion-2 g:nth-of-type(9) {
   -webkit-animation-delay: -0.25s;
   animation-delay: -0.25s;
 }
 
-.emotion-2 g:nth-child(10):not(style) {
+.emotion-2 g:nth-of-type(10) {
   -webkit-animation-delay: -0.16666666666666666s;
   animation-delay: -0.16666666666666666s;
 }
 
-.emotion-2 g:nth-child(11):not(style) {
+.emotion-2 g:nth-of-type(11) {
   -webkit-animation-delay: -0.08333333333333333s;
   animation-delay: -0.08333333333333333s;
 }
 
-.emotion-2 g:nth-child(12):not(style) {
+.emotion-2 g:nth-of-type(12) {
   -webkit-animation-delay: 0s;
   animation-delay: 0s;
 }
@@ -15502,62 +15502,62 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent w
   animation: animation-0 1s infinite;
 }
 
-.emotion-2 g:nth-child(1):not(style) {
+.emotion-2 g:nth-of-type(1) {
   -webkit-animation-delay: -0.9166666666666666s;
   animation-delay: -0.9166666666666666s;
 }
 
-.emotion-2 g:nth-child(2):not(style) {
+.emotion-2 g:nth-of-type(2) {
   -webkit-animation-delay: -0.8333333333333334s;
   animation-delay: -0.8333333333333334s;
 }
 
-.emotion-2 g:nth-child(3):not(style) {
+.emotion-2 g:nth-of-type(3) {
   -webkit-animation-delay: -0.75s;
   animation-delay: -0.75s;
 }
 
-.emotion-2 g:nth-child(4):not(style) {
+.emotion-2 g:nth-of-type(4) {
   -webkit-animation-delay: -0.6666666666666666s;
   animation-delay: -0.6666666666666666s;
 }
 
-.emotion-2 g:nth-child(5):not(style) {
+.emotion-2 g:nth-of-type(5) {
   -webkit-animation-delay: -0.5833333333333334s;
   animation-delay: -0.5833333333333334s;
 }
 
-.emotion-2 g:nth-child(6):not(style) {
+.emotion-2 g:nth-of-type(6) {
   -webkit-animation-delay: -0.5s;
   animation-delay: -0.5s;
 }
 
-.emotion-2 g:nth-child(7):not(style) {
+.emotion-2 g:nth-of-type(7) {
   -webkit-animation-delay: -0.4166666666666667s;
   animation-delay: -0.4166666666666667s;
 }
 
-.emotion-2 g:nth-child(8):not(style) {
+.emotion-2 g:nth-of-type(8) {
   -webkit-animation-delay: -0.3333333333333333s;
   animation-delay: -0.3333333333333333s;
 }
 
-.emotion-2 g:nth-child(9):not(style) {
+.emotion-2 g:nth-of-type(9) {
   -webkit-animation-delay: -0.25s;
   animation-delay: -0.25s;
 }
 
-.emotion-2 g:nth-child(10):not(style) {
+.emotion-2 g:nth-of-type(10) {
   -webkit-animation-delay: -0.16666666666666666s;
   animation-delay: -0.16666666666666666s;
 }
 
-.emotion-2 g:nth-child(11):not(style) {
+.emotion-2 g:nth-of-type(11) {
   -webkit-animation-delay: -0.08333333333333333s;
   animation-delay: -0.08333333333333333s;
 }
 
-.emotion-2 g:nth-child(12):not(style) {
+.emotion-2 g:nth-of-type(12) {
   -webkit-animation-delay: 0s;
   animation-delay: 0s;
 }
@@ -15890,62 +15890,62 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent w
   animation: animation-0 1s infinite;
 }
 
-.emotion-2 g:nth-child(1):not(style) {
+.emotion-2 g:nth-of-type(1) {
   -webkit-animation-delay: -0.9166666666666666s;
   animation-delay: -0.9166666666666666s;
 }
 
-.emotion-2 g:nth-child(2):not(style) {
+.emotion-2 g:nth-of-type(2) {
   -webkit-animation-delay: -0.8333333333333334s;
   animation-delay: -0.8333333333333334s;
 }
 
-.emotion-2 g:nth-child(3):not(style) {
+.emotion-2 g:nth-of-type(3) {
   -webkit-animation-delay: -0.75s;
   animation-delay: -0.75s;
 }
 
-.emotion-2 g:nth-child(4):not(style) {
+.emotion-2 g:nth-of-type(4) {
   -webkit-animation-delay: -0.6666666666666666s;
   animation-delay: -0.6666666666666666s;
 }
 
-.emotion-2 g:nth-child(5):not(style) {
+.emotion-2 g:nth-of-type(5) {
   -webkit-animation-delay: -0.5833333333333334s;
   animation-delay: -0.5833333333333334s;
 }
 
-.emotion-2 g:nth-child(6):not(style) {
+.emotion-2 g:nth-of-type(6) {
   -webkit-animation-delay: -0.5s;
   animation-delay: -0.5s;
 }
 
-.emotion-2 g:nth-child(7):not(style) {
+.emotion-2 g:nth-of-type(7) {
   -webkit-animation-delay: -0.4166666666666667s;
   animation-delay: -0.4166666666666667s;
 }
 
-.emotion-2 g:nth-child(8):not(style) {
+.emotion-2 g:nth-of-type(8) {
   -webkit-animation-delay: -0.3333333333333333s;
   animation-delay: -0.3333333333333333s;
 }
 
-.emotion-2 g:nth-child(9):not(style) {
+.emotion-2 g:nth-of-type(9) {
   -webkit-animation-delay: -0.25s;
   animation-delay: -0.25s;
 }
 
-.emotion-2 g:nth-child(10):not(style) {
+.emotion-2 g:nth-of-type(10) {
   -webkit-animation-delay: -0.16666666666666666s;
   animation-delay: -0.16666666666666666s;
 }
 
-.emotion-2 g:nth-child(11):not(style) {
+.emotion-2 g:nth-of-type(11) {
   -webkit-animation-delay: -0.08333333333333333s;
   animation-delay: -0.08333333333333333s;
 }
 
-.emotion-2 g:nth-child(12):not(style) {
+.emotion-2 g:nth-of-type(12) {
   -webkit-animation-delay: 0s;
   animation-delay: 0s;
 }
