@@ -4,6 +4,7 @@ export const animationTime = 600;
 const baseContentStyle = css({
   bottom: '0',
   margin: 'auto',
+  maxWidth: '100%',
   opacity: 0,
   outline: 'none',
   position: 'absolute',
