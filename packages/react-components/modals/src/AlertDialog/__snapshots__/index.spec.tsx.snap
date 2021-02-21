@@ -67,6 +67,7 @@ exports[`<AlertModal /> isOpen renders the modal via a portal when true 1`] = `
   min-width: 0;
   opacity: 0;
   outline: none;
+  position: relative;
   -webkit-transform: scale(0.5);
   -moz-transform: scale(0.5);
   -ms-transform: scale(0.5);
@@ -81,10 +82,10 @@ exports[`<AlertModal /> isOpen renders the modal via a portal when true 1`] = `
 
 .emotion-4 {
   opacity: 1!important;
-  -webkit-transform: scale(1)!important;
-  -moz-transform: scale(1)!important;
-  -ms-transform: scale(1)!important;
-  transform: scale(1)!important;
+  -webkit-transform: none!important;
+  -moz-transform: none!important;
+  -ms-transform: none!important;
+  transform: none!important;
 }
 
 .emotion-5 {
