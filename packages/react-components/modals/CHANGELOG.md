@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [7.0.4](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/modals/compare/@datacamp/waffles-modals@7.0.3...@datacamp/waffles-modals@7.0.4) (2021-02-24)
+
+
+### Bug Fixes
+
+* make positioner work in modals ([7456813](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/modals/commit/7456813))
+
+
+
+
+
 ## [7.0.3](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/modals/compare/@datacamp/waffles-modals@7.0.2...@datacamp/waffles-modals@7.0.3) (2021-02-19)
 
 
