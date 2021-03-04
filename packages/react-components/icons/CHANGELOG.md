@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [4.2.0](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/icons/compare/@datacamp/waffles-icons@4.1.1...@datacamp/waffles-icons@4.2.0) (2021-03-04)
+
+
+### Features
+
+* medal icon ([7ecf3e7](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/icons/commit/7ecf3e7))
+
+
+
+
+
 ## [4.1.1](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/icons/compare/@datacamp/waffles-icons@4.1.0...@datacamp/waffles-icons@4.1.1) (2021-02-19)
 
 **Note:** Version bump only for package @datacamp/waffles-icons

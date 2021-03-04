@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [4.1.1](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/form-elements/compare/@datacamp/waffles-form-elements@4.1.0...@datacamp/waffles-form-elements@4.1.1) (2021-03-04)
+
+**Note:** Version bump only for package @datacamp/waffles-form-elements
+
+
+
+
+
 # [4.1.0](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/form-elements/compare/@datacamp/waffles-form-elements@4.0.3...@datacamp/waffles-form-elements@4.1.0) (2021-02-24)
 
 

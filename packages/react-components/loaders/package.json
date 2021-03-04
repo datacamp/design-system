@@ -1,6 +1,6 @@
 {
   "name": "@datacamp/waffles-loaders",
-  "version": "3.0.3",
+  "version": "3.0.4",
   "description": "A collection of loading placeholders",
   "keywords": [
     "button"
@@ -33,7 +33,7 @@
     "@babel/cli": "7.13.0",
     "@babel/core": "7.12.7",
     "@datacamp/waffles-axe-render": "^1.2.8",
-    "@datacamp/waffles-babel-preset": "^3.0.2",
+    "@datacamp/waffles-babel-preset": "^3.0.3",
     "@datacamp/waffles-tsconfig": "^2.0.0",
     "@emotion/jest": "11.2.0",
     "@emotion/react": "^11.0.0",
