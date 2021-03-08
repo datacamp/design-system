@@ -25,7 +25,7 @@ export const contentStyles = {
 
 export const contentStyleAfterOpen = css`
   opacity: 1 !important;
-  transform: translate(0, 0) !important;
+  transform: none !important;
 `;
 
 export const contentStylesBeforeClose = {

@@ -68,10 +68,10 @@ exports[`<Panel /> isOpen renders the modal via a portal when true 1`] = `
 
 .emotion-4 {
   opacity: 1!important;
-  -webkit-transform: translate(0, 0)!important;
-  -moz-transform: translate(0, 0)!important;
-  -ms-transform: translate(0, 0)!important;
-  transform: translate(0, 0)!important;
+  -webkit-transform: none!important;
+  -moz-transform: none!important;
+  -ms-transform: none!important;
+  transform: none!important;
 }
 
 .emotion-5 {
