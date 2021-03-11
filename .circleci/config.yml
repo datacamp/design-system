@@ -308,6 +308,8 @@ workflows:
           context: org-global
           filters:
             branches:
+              only:
+                - working-version-of-docs
               ignore: /.*/
             tags:
               ignore: /.*beta.*/
