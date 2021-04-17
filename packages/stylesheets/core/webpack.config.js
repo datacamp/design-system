@@ -4,6 +4,7 @@ const CopyWebpackPlugin = require('copy-webpack-plugin');
 const SVGSpritemapPlugin = require('svg-spritemap-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const RemovePlugin = require('remove-files-webpack-plugin');
+const OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin');
 
 const nodeEnv = process.env.NODE_ENV || 'development';
 const dev = nodeEnv === 'production';
@@ -59,6 +60,8 @@ module.exports = {
     new MiniCssExtractPlugin({
       filename: 'css/[name].waffles.[contenthash:8].css',
     }),
+
+    new OptimizeCssAssetsPlugin(),
 
     new SVGSpritemapPlugin('icons/svgs/*.svg', {
       output: {
