@@ -1,0 +1,9 @@
+//----- Fonts -----//
+@import 'fonts.scss';
+
+//----- Normalize -----//
+@import 'normalize.scss';
+
+//----- Variables -----//
+// this file is copied into built version and this path changed to reflect the copied file
+@import '~@datacamp/waffles-tokens/lib/variables.scss';

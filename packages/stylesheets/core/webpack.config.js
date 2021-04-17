@@ -83,15 +83,16 @@ module.exports = {
 
     new CopyWebpackPlugin({
       patterns: [
-        // Copy source SCSS files (except ingredients) to package
+        // Copy source SCSS files (except those importing variables) to package
         {
           from: 'scss/**/*',
-          globOptions: { ignore: ['**/ingredients.scss', '**/.*'] },
+          globOptions: {
+            ignore: ['**/{core-ingredients,normalize}.scss'],
+          },
         },
-        // Copy ingredients SCSS to package and replace variables import
+        // Copy remaining SCSS files to package and replace variables import
         {
-          from: 'scss/ingredients.scss',
-          to: 'scss',
+          from: 'scss/{core-ingredients,normalize}.scss',
           transform(content) {
             return content
               .toString()
@@ -104,7 +105,6 @@ module.exports = {
         // Copy variables SCSS to package from waffles-tokens
         {
           from: 'node_modules/@datacamp/waffles-tokens/lib/variables.scss',
-          globOptions: { ignore: ['**/.*'] },
           to: 'scss/design',
         },
         // Copy raw svg icons to package
