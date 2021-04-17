@@ -11,7 +11,7 @@ const outputDir = 'lib';
 
 module.exports = {
   devtool: dev ? 'cheap-module-source-map' : 'source-map',
-  entry: './scss/ingredients.scss',
+  entry: { core: './core.js', index: './index.js' },
   module: {
     rules: [
       {
@@ -52,13 +52,12 @@ module.exports = {
   },
 
   output: {
-    filename: 'ingredients.scss',
     path: path.join(__dirname, `./${outputDir}`),
   },
 
   plugins: [
     new MiniCssExtractPlugin({
-      filename: 'css/waffles.[contenthash:8].css',
+      filename: 'css/[name].waffles.[contenthash:8].css',
     }),
 
     new SVGSpritemapPlugin('icons/svgs/*.svg', {
@@ -120,8 +119,8 @@ module.exports = {
     // remove webpack artifact
     new RemovePlugin({
       after: {
-        include: ['ingredients.scss'],
-        root: 'lib',
+        include: ['index.js', 'index.js.map', 'core.js', 'core.js.map'],
+        root: './lib',
       },
     }),
   ],
