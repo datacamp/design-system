@@ -4,7 +4,7 @@ import tokens from '@datacamp/waffles-tokens/lib/future-tokens.json';
 import Tooltip from '@datacamp/waffles-tooltip';
 import { childrenOfType, computeDataAttributes } from '@datacamp/waffles-utils';
 import { css, SerializedStyles } from '@emotion/react';
-import { nChildren } from 'airbnb-prop-types';
+import { nChildren, ReactTypeLike } from 'airbnb-prop-types';
 import PropTypes from 'prop-types';
 import React, {
   ComponentProps,
@@ -307,7 +307,10 @@ const InternalButton = (
 };
 
 // additional prop-types validation that the child is either icon or string
-const iconValidator = childrenOfType(...Object.values(Icons));
+// this is a function so the Icons import is removed with the prop types in production
+const getIconValidator = (
+  icons: Record<string, ReactTypeLike>,
+): PropTypes.Requireable<unknown> => childrenOfType(...Object.values(icons));
 
 InternalButton.propTypes = {
   /**
@@ -323,10 +326,12 @@ InternalButton.propTypes = {
   children: PropTypes.oneOfType([
     nChildren(
       2,
-      PropTypes.arrayOf(PropTypes.oneOfType([PropTypes.string, iconValidator])),
+      PropTypes.arrayOf(
+        PropTypes.oneOfType([PropTypes.string, getIconValidator(Icons)]),
+      ),
     ),
     PropTypes.string,
-    iconValidator,
+    getIconValidator(Icons),
   ]).isRequired,
   /**
    * The destination of the link. Only available when type="link".
