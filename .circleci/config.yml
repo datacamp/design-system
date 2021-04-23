@@ -1,7 +1,7 @@
 $schema: https://json.schemastore.org/circleciconfig#
 version: 2.1
 orbs:
-  datacamp-ecr: datacamp/ecr@0
+  datacamp-ecr: datacamp/ecr@1
   datacamp-deploy: datacamp/deploy@2
   slack: circleci/slack@3.4.1
   datacamp-circleci: datacamp/central-ci@1
@@ -200,9 +200,10 @@ workflows:
             - mutation-test
           name: push-stryker-image
           context: org-global
-          aws-access-key-id: $STAGING_AWS_ACCESS_KEY_ID
-          aws-secret-access-key: $STAGING_AWS_SECRET_ACCESS_KEY
-          account-url: $STAGING_ECR_URL
+          aws-access-key-id: $OPS_AWS_ACCESS_KEY_ID
+          aws-secret-access-key: $OPS_AWS_SECRET_ACCESS_KEY
+          account-url: $OPS_ECR_URL
+          puller-account-ids: '["301258414863", "487088987264"]'
           repo: waffles-stryker-report
           pre-build-steps:
             - attach_workspace:
@@ -268,9 +269,10 @@ workflows:
             - hold-for-pr
           name: push-storybook-image
           context: org-global
-          aws-access-key-id: $STAGING_AWS_ACCESS_KEY_ID
-          aws-secret-access-key: $STAGING_AWS_SECRET_ACCESS_KEY
-          account-url: $STAGING_ECR_URL
+          aws-access-key-id: $OPS_AWS_ACCESS_KEY_ID
+          aws-secret-access-key: $OPS_AWS_SECRET_ACCESS_KEY
+          account-url: $OPS_ECR_URL
+          puller-account-ids: '["301258414863", "487088987264"]'
           repo: waffles-storybook
           path: packages/docs/storybook
           dockerfile: packages/docs/storybook/Dockerfile
