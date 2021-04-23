@@ -289,9 +289,6 @@ workflows:
           context: org-global
           file: packages/docs/storybook/ecs.backstage.json
           extra-env: "BRANCH=${CIRCLE_BRANCH//\\//-}"
-          aws-access-key-id: $STAGING_AWS_ACCESS_KEY_ID
-          aws-secret-access-key: $STAGING_AWS_SECRET_ACCESS_KEY
-          environment: staging
           requires:
             - push-storybook-image
       - deploy-staging-site:
