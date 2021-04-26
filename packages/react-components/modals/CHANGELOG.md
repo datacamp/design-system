@@ -3,6 +3,101 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [7.0.7](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/modals/compare/@datacamp/waffles-modals@7.0.6...@datacamp/waffles-modals@7.0.7) (2021-03-09)
+
+
+### Bug Fixes
+
+* forcing an update ([64bdb9c](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/modals/commit/64bdb9c))
+
+
+
+
+
+## [7.0.6](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/modals/compare/@datacamp/waffles-modals@7.0.5...@datacamp/waffles-modals@7.0.6) (2021-03-09)
+
+
+### Bug Fixes
+
+* add modal positioner fix to panel ([5b254da](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/modals/commit/5b254da))
+
+
+
+
+
+## [7.0.5](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/modals/compare/@datacamp/waffles-modals@7.0.4...@datacamp/waffles-modals@7.0.5) (2021-03-04)
+
+**Note:** Version bump only for package @datacamp/waffles-modals
+
+
+
+
+
+## [7.0.4](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/modals/compare/@datacamp/waffles-modals@7.0.3...@datacamp/waffles-modals@7.0.4) (2021-02-24)
+
+
+### Bug Fixes
+
+* make positioner work in modals ([7456813](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/modals/commit/7456813))
+
+
+
+
+
+## [7.0.3](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/modals/compare/@datacamp/waffles-modals@7.0.2...@datacamp/waffles-modals@7.0.3) (2021-02-19)
+
+
+### Bug Fixes
+
+* make fixed size panel work on narrow screens ([d705b20](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/modals/commit/d705b20))
+
+
+
+
+
+## [7.0.2](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/modals/compare/@datacamp/waffles-modals@7.0.1...@datacamp/waffles-modals@7.0.2) (2021-02-18)
+
+
+### Bug Fixes
+
+* correctly validate emotion styled children for prop types ([b1d7b5d](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/modals/commit/b1d7b5d))
+
+
+
+
+
+## [7.0.1](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/modals/compare/@datacamp/waffles-modals@7.0.0...@datacamp/waffles-modals@7.0.1) (2021-02-16)
+
+**Note:** Version bump only for package @datacamp/waffles-modals
+
+
+
+
+
+# [7.0.0](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/modals/compare/@datacamp/waffles-modals@6.1.8...@datacamp/waffles-modals@7.0.0) (2021-02-02)
+
+
+### Features
+
+* update emotion to emotion 11 ([5420a92](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/modals/commit/5420a92))
+
+
+### BREAKING CHANGES
+
+* The peer dependency on emotion is now v11. In order to update, all waffles and emotion dependencies should be updated together. The codemod provided by emotion makes this process very easy.
+
+
+
+
+
+## [6.1.8](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/modals/compare/@datacamp/waffles-modals@6.1.7...@datacamp/waffles-modals@6.1.8) (2021-02-01)
+
+**Note:** Version bump only for package @datacamp/waffles-modals
+
+
+
+
+
 ## [6.1.7](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/modals/compare/@datacamp/waffles-modals@6.1.6...@datacamp/waffles-modals@6.1.7) (2021-01-07)
 
 **Note:** Version bump only for package @datacamp/waffles-modals

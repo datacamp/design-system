@@ -105,6 +105,23 @@ describe('<Input />', () => {
       expect(onBlur).toHaveBeenCalledTimes(1);
     });
 
+    it('calls the onFocus function', () => {
+      const onFocus = jest.fn();
+      const { getByRole } = render(
+        <Input
+          name={testName}
+          onChange={() => {}}
+          onFocus={onFocus}
+          value={testValue}
+        />,
+      );
+
+      const inputElement = getByRole('textbox') as HTMLElement;
+
+      fireEvent.focus(inputElement);
+      expect(onFocus).toHaveBeenCalledTimes(1);
+    });
+
     it('calls the onChange function', () => {
       const onChange = jest.fn();
       const { getByRole } = render(

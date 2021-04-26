@@ -14,7 +14,7 @@ import {
 } from '@datacamp/waffles-text';
 import tokens from '@datacamp/waffles-tokens';
 /* @jsx jsx */
-import { css, jsx } from '@emotion/core';
+import { css, jsx } from '@emotion/react';
 import { Page } from 'catalog';
 import Lottie from 'lottie-react';
 import React from 'react';

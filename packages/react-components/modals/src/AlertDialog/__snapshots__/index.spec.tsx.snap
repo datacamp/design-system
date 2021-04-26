@@ -15,14 +15,40 @@ exports[`<AlertModal /> isOpen mounts nothing when false 1`] = `
 `;
 
 exports[`<AlertModal /> isOpen renders the modal via a portal when true 1`] = `
-.emotion-11 {
-  opacity: 1 !important;
-  -webkit-transform: scale(1) !important;
-  -ms-transform: scale(1) !important;
-  transform: scale(1) !important;
+.emotion-0 {
+  overflow: hidden;
 }
 
-.emotion-10 {
+.emotion-1 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: rgba(5, 25, 45, 0.8);
+  bottom: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  left: 0;
+  opacity: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  -webkit-transition: opacity 0.6s cubic-bezier(0.19, 1, 0.22, 1);
+  transition: opacity 0.6s cubic-bezier(0.19, 1, 0.22, 1);
+  z-index: 900;
+}
+
+.emotion-2 {
+  opacity: 1!important;
+}
+
+.emotion-3 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -35,57 +61,34 @@ exports[`<AlertModal /> isOpen renders the modal via a portal when true 1`] = `
   -ms-flex-direction: column;
   flex-direction: column;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
+  -webkit-justify-content: center;
   justify-content: center;
   min-width: 0;
   opacity: 0;
   outline: none;
+  position: relative;
   -webkit-transform: scale(0.5);
+  -moz-transform: scale(0.5);
   -ms-transform: scale(0.5);
   transform: scale(0.5);
-  -webkit-transition: 0.4s cubic-bezier(0.19,1,0.22,1);
-  transition: 0.4s cubic-bezier(0.19,1,0.22,1);
+  -webkit-transition: 0.4s cubic-bezier(0.19, 1, 0.22, 1);
+  transition: 0.4s cubic-bezier(0.19, 1, 0.22, 1);
   box-sizing: border-box;
   max-height: 100%;
   padding: 8px;
   width: 496px;
 }
 
-.emotion-13 {
-  opacity: 1 !important;
+.emotion-4 {
+  opacity: 1!important;
+  -webkit-transform: none!important;
+  -moz-transform: none!important;
+  -ms-transform: none!important;
+  transform: none!important;
 }
 
-.emotion-12 {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  background-color: rgba(5,25,45,0.8);
-  bottom: 0;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  left: 0;
-  opacity: 0;
-  position: fixed;
-  right: 0;
-  top: 0;
-  -webkit-transition: opacity 0.6s cubic-bezier(0.19,1,0.22,1);
-  transition: opacity 0.6s cubic-bezier(0.19,1,0.22,1);
-  z-index: 900;
-}
-
-.emotion-14 {
-  overflow: hidden;
-}
-
-.emotion-0 {
+.emotion-5 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -93,7 +96,7 @@ exports[`<AlertModal /> isOpen renders the modal via a portal when true 1`] = `
   background-color: white;
   border: none;
   border-radius: 2px;
-  color: rgb(5,25,45);
+  color: rgb(5, 25, 45);
   cursor: pointer;
   display: -webkit-box;
   display: -webkit-flex;
@@ -104,8 +107,8 @@ exports[`<AlertModal /> isOpen renders the modal via a portal when true 1`] = `
   flex-direction: column;
   height: 32px;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
+  -webkit-justify-content: center;
   justify-content: center;
   outline: none;
   padding: 0;
@@ -116,33 +119,33 @@ exports[`<AlertModal /> isOpen renders the modal via a portal when true 1`] = `
   top: 16px;
 }
 
-.emotion-0:active {
-  color: rgb(3,239,98);
+.emotion-5:active {
+  color: rgb(3, 239, 98);
 }
 
-.emotion-0:disabled {
+.emotion-5:disabled {
   color: #D1D3D8;
 }
 
-.emotion-0:disabled:hover,
-.emotion-0:disabled:focus {
+.emotion-5:disabled:hover,
+.emotion-5:disabled:focus {
   background-color: transparent;
 }
 
-.emotion-0:focus {
-  background-color: rgb(239,239,239);
+.emotion-5:focus {
+  background-color: rgb(239, 239, 239);
 }
 
-.emotion-0:hover {
-  background-color: rgb(239,239,239);
+.emotion-5:hover {
+  background-color: rgb(239, 239, 239);
 }
 
-.emotion-9 {
-  background-color: rgb(255,255,255);
+.emotion-6 {
+  background-color: rgb(255, 255, 255);
   border-radius: 4px;
-  box-shadow: 0px 0px 1px 0px rgba(5,25,45,0.3),0 8px 12px -4px rgba(5,25,45,0.3);
-  -webkit-transition: all 0.6s cubic-bezier(0.075,0.82,0.165,1);
-  transition: all 0.6s cubic-bezier(0.075,0.82,0.165,1);
+  box-shadow: 0px 0px 1px 0px rgba(5, 25, 45, 0.3),0 8px 12px -4px rgba(5,25,45,0.3);
+  -webkit-transition: all 0.6s cubic-bezier(0.075, 0.82, 0.165, 1);
+  transition: all 0.6s cubic-bezier(0.075, 0.82, 0.165, 1);
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -155,36 +158,33 @@ exports[`<AlertModal /> isOpen renders the modal via a portal when true 1`] = `
   width: 100%;
 }
 
-.emotion-8 {
+.emotion-7 {
   padding: 32px;
   text-align: center;
 }
 
-.emotion-1 {
+.emotion-8 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(5,25,45);
+  color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
-  color: rgb(5,25,45);
+  color: rgb(5, 25, 45);
   font-weight: 800;
   margin: 0;
   overflow: reset;
   white-space: normal;
   font-size: 24px;
-  -webkit-letter-spacing: -0.5px;
-  -moz-letter-spacing: -0.5px;
-  -ms-letter-spacing: -0.5px;
   letter-spacing: -0.5px;
   line-height: 1.2;
 }
 
-*:not(style) ~ .emotion-1 {
+*:not(style)~.emotion-8 {
   margin-top: 16px;
 }
 
-.emotion-2 {
+.emotion-9 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(5,25,45);
+  color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
   font-size: 16px;
@@ -193,11 +193,11 @@ exports[`<AlertModal /> isOpen renders the modal via a portal when true 1`] = `
   margin: 0;
 }
 
-*:not(style) ~ .emotion-2 {
+*:not(style)~.emotion-9 {
   margin-top: 8px;
 }
 
-.emotion-7 {
+.emotion-10 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -206,7 +206,7 @@ exports[`<AlertModal /> isOpen renders the modal via a portal when true 1`] = `
   margin-top: 24px;
 }
 
-.emotion-4 {
+.emotion-11 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -221,8 +221,8 @@ exports[`<AlertModal /> isOpen renders the modal via a portal when true 1`] = `
   display: -ms-inline-flexbox;
   display: inline-flex;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
+  -webkit-justify-content: center;
   justify-content: center;
   position: relative;
   -webkit-text-decoration: none;
@@ -239,33 +239,35 @@ exports[`<AlertModal /> isOpen renders the modal via a portal when true 1`] = `
   margin-left: 0;
 }
 
-.emotion-4:active {
+.emotion-11:active {
   -webkit-transform: perspective(1px) scale(0.975);
+  -moz-transform: perspective(1px) scale(0.975);
   -ms-transform: perspective(1px) scale(0.975);
   transform: perspective(1px) scale(0.975);
 }
 
-.emotion-4:disabled,
-.emotion-4:hover:disabled,
-.emotion-4:active:disabled {
+.emotion-11:disabled,
+.emotion-11:hover:disabled,
+.emotion-11:active:disabled {
   -webkit-transform: none;
+  -moz-transform: none;
   -ms-transform: none;
   transform: none;
 }
 
-.emotion-4:focus {
+.emotion-11:focus {
   outline: 0;
 }
 
-.emotion-4:hover {
-  background-color: rgba(5,25,45,0.15);
+.emotion-11:hover {
+  background-color: rgba(5, 25, 45, 0.15);
   border-color: #05192d;
   color: #05192d;
 }
 
-.emotion-3 {
+.emotion-12 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(5,25,45);
+  color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
   font-size: 16px;
@@ -276,20 +278,7 @@ exports[`<AlertModal /> isOpen renders the modal via a portal when true 1`] = `
   font-weight: bold;
 }
 
-.emotion-5 {
-  -webkit-font-smoothing: antialiased;
-  color: rgb(5,25,45);
-  font-family: Studio-Feixen-Sans,Arial;
-  font-style: normal;
-  font-size: 16px;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 44px;
-  color: white;
-  font-weight: bold;
-}
-
-.emotion-6 {
+.emotion-13 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -304,8 +293,8 @@ exports[`<AlertModal /> isOpen renders the modal via a portal when true 1`] = `
   display: -ms-inline-flexbox;
   display: inline-flex;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
+  -webkit-justify-content: center;
   justify-content: center;
   position: relative;
   -webkit-text-decoration: none;
@@ -323,36 +312,38 @@ exports[`<AlertModal /> isOpen renders the modal via a portal when true 1`] = `
   margin-left: 16px;
 }
 
-.emotion-6:active {
+.emotion-13:active {
   -webkit-transform: perspective(1px) scale(0.975);
+  -moz-transform: perspective(1px) scale(0.975);
   -ms-transform: perspective(1px) scale(0.975);
   transform: perspective(1px) scale(0.975);
 }
 
-.emotion-6:disabled,
-.emotion-6:hover:disabled,
-.emotion-6:active:disabled {
+.emotion-13:disabled,
+.emotion-13:hover:disabled,
+.emotion-13:active:disabled {
   -webkit-transform: none;
+  -moz-transform: none;
   -ms-transform: none;
   transform: none;
 }
 
-.emotion-6:focus {
+.emotion-13:focus {
   outline: 0;
 }
 
-.emotion-6:hover {
-  background-color: rgba(5,25,45,0.15);
+.emotion-13:hover {
+  background-color: rgba(5, 25, 45, 0.15);
   border-color: #05192d;
   color: #05192d;
 }
 
-.emotion-6:hover {
+.emotion-13:hover {
   background-color: #213147;
   border-color: #213147;
 }
 
-.emotion-6:focus::after {
+.emotion-13:focus::after {
   border: 1px dashed white;
   border-radius: 2px;
   bottom: 2px;
@@ -363,11 +354,11 @@ exports[`<AlertModal /> isOpen renders the modal via a portal when true 1`] = `
   top: 2px;
 }
 
-.emotion-6:focus:not(:focus-visible)::after {
+.emotion-13:focus:not(:focus-visible)::after {
   border: none;
 }
 
-.emotion-6:focus-visible::after {
+.emotion-13:focus-visible::after {
   border: 1px dashed white;
   border-radius: 2px;
   bottom: 2px;
@@ -378,8 +369,21 @@ exports[`<AlertModal /> isOpen renders the modal via a portal when true 1`] = `
   top: 2px;
 }
 
+.emotion-14 {
+  -webkit-font-smoothing: antialiased;
+  color: rgb(5, 25, 45);
+  font-family: Studio-Feixen-Sans,Arial;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 44px;
+  color: white;
+  font-weight: bold;
+}
+
 <body
-  class="emotion-14"
+  class="emotion-0"
 >
   <div
     data-react-modal-body-trap=""
@@ -398,18 +402,18 @@ exports[`<AlertModal /> isOpen renders the modal via a portal when true 1`] = `
     class="ReactModalPortal"
   >
     <div
-      class="modal-overlay emotion-12 emotion-13"
+      class="modal-overlay emotion-1 emotion-2"
     >
       <div
         aria-label="Alert dialog"
         aria-modal="true"
-        class="emotion-10 emotion-11"
+        class="emotion-3 emotion-4"
         role="dialog"
         tabindex="-1"
       >
         <button
           aria-label="Close"
-          class="emotion-0"
+          class="emotion-5"
           type="button"
         >
           <svg
@@ -430,40 +434,40 @@ exports[`<AlertModal /> isOpen renders the modal via a portal when true 1`] = `
           </svg>
         </button>
         <div
-          class="emotion-9"
+          class="emotion-6"
         >
           <div
-            class="emotion-8"
+            class="emotion-7"
           >
             <h1
-              class="emotion-1"
+              class="emotion-8"
             >
               test title
             </h1>
             <p
-              class="emotion-2"
+              class="emotion-9"
             >
               test description
             </p>
             <div
-              class="emotion-7"
+              class="emotion-10"
             >
               <button
-                class="emotion-4"
+                class="emotion-11"
                 type="button"
               >
                 <span
-                  class="emotion-3"
+                  class="emotion-12"
                 >
                   Cancel
                 </span>
               </button>
               <button
-                class="emotion-6"
+                class="emotion-13"
                 type="button"
               >
                 <span
-                  class="emotion-5"
+                  class="emotion-14"
                 >
                   Confirm
                 </span>

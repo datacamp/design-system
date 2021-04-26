@@ -5,7 +5,7 @@ import LoadersData from '@datacamp/waffles-loaders/componentMetadata.json';
 import { Code, CodeBlock, Heading, Paragraph } from '@datacamp/waffles-text';
 import { colors } from '@datacamp/waffles-tokens';
 /* @jsx jsx */
-import { jsx } from '@emotion/core';
+import { jsx } from '@emotion/react';
 import { Page } from 'catalog';
 import React from 'react';
 

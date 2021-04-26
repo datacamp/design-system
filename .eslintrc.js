@@ -26,8 +26,10 @@ module.exports = {
       jsx: true,
     },
   },
+  plugins: ['@emotion'],
   root: true,
   rules: {
+    '@emotion/pkg-renaming': 'error',
     '@typescript-eslint/no-var-requires': 'off',
     'import/no-cycle': 'off',
     'import/no-extraneous-dependencies': [

@@ -3,6 +3,95 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.0.7](https://github.com/datacamp/design-system/compare/@datacamp/waffles-catalog-doc-site@3.0.6...@datacamp/waffles-catalog-doc-site@3.0.7) (2021-03-09)
+
+**Note:** Version bump only for package @datacamp/waffles-catalog-doc-site
+
+
+
+
+
+## [3.0.6](https://github.com/datacamp/design-system/compare/@datacamp/waffles-catalog-doc-site@3.0.5...@datacamp/waffles-catalog-doc-site@3.0.6) (2021-03-09)
+
+**Note:** Version bump only for package @datacamp/waffles-catalog-doc-site
+
+
+
+
+
+## [3.0.5](https://github.com/datacamp/design-system/compare/@datacamp/waffles-catalog-doc-site@3.0.4...@datacamp/waffles-catalog-doc-site@3.0.5) (2021-03-04)
+
+**Note:** Version bump only for package @datacamp/waffles-catalog-doc-site
+
+
+
+
+
+## [3.0.4](https://github.com/datacamp/design-system/compare/@datacamp/waffles-catalog-doc-site@3.0.3...@datacamp/waffles-catalog-doc-site@3.0.4) (2021-02-24)
+
+**Note:** Version bump only for package @datacamp/waffles-catalog-doc-site
+
+
+
+
+
+## [3.0.3](https://github.com/datacamp/design-system/compare/@datacamp/waffles-catalog-doc-site@3.0.2...@datacamp/waffles-catalog-doc-site@3.0.3) (2021-02-19)
+
+**Note:** Version bump only for package @datacamp/waffles-catalog-doc-site
+
+
+
+
+
+## [3.0.2](https://github.com/datacamp/design-system/compare/@datacamp/waffles-catalog-doc-site@3.0.1...@datacamp/waffles-catalog-doc-site@3.0.2) (2021-02-18)
+
+**Note:** Version bump only for package @datacamp/waffles-catalog-doc-site
+
+
+
+
+
+## [3.0.1](https://github.com/datacamp/design-system/compare/@datacamp/waffles-catalog-doc-site@3.0.0...@datacamp/waffles-catalog-doc-site@3.0.1) (2021-02-16)
+
+**Note:** Version bump only for package @datacamp/waffles-catalog-doc-site
+
+
+
+
+
+# [3.0.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-catalog-doc-site@2.11.0...@datacamp/waffles-catalog-doc-site@3.0.0) (2021-02-02)
+
+
+### Bug Fixes
+
+* typo on logo page ([41993bd](https://github.com/datacamp/design-system/commit/41993bd))
+
+
+### Features
+
+* update emotion to emotion 11 ([5420a92](https://github.com/datacamp/design-system/commit/5420a92))
+
+
+### BREAKING CHANGES
+
+* The peer dependency on emotion is now v11. In order to update, all waffles and emotion dependencies should be updated together. The codemod provided by emotion makes this process very easy.
+
+
+
+
+
+# [2.11.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-catalog-doc-site@2.10.0...@datacamp/waffles-catalog-doc-site@2.11.0) (2021-02-01)
+
+
+### Features
+
+* update brand guidelines pdf ([64615f9](https://github.com/datacamp/design-system/commit/64615f9))
+* update logos page ([0e02149](https://github.com/datacamp/design-system/commit/0e02149))
+
+
+
+
+
 # [2.10.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-catalog-doc-site@2.9.1...@datacamp/waffles-catalog-doc-site@2.10.0) (2021-01-07)
 
 

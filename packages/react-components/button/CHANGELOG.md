@@ -3,6 +3,79 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [7.0.5](https://github.com/datacamp/design-system/compare/@datacamp/waffles-button@7.0.4...@datacamp/waffles-button@7.0.5) (2021-03-04)
+
+**Note:** Version bump only for package @datacamp/waffles-button
+
+
+
+
+
+## [7.0.4](https://github.com/datacamp/design-system/compare/@datacamp/waffles-button@7.0.3...@datacamp/waffles-button@7.0.4) (2021-02-24)
+
+**Note:** Version bump only for package @datacamp/waffles-button
+
+
+
+
+
+## [7.0.3](https://github.com/datacamp/design-system/compare/@datacamp/waffles-button@7.0.2...@datacamp/waffles-button@7.0.3) (2021-02-19)
+
+
+### Bug Fixes
+
+* stop using nth-child selector in loading buttons ([2640196](https://github.com/datacamp/design-system/commit/2640196))
+
+
+
+
+
+## [7.0.2](https://github.com/datacamp/design-system/compare/@datacamp/waffles-button@7.0.1...@datacamp/waffles-button@7.0.2) (2021-02-18)
+
+
+### Bug Fixes
+
+* correctly validate emotion styled children for prop types ([b1d7b5d](https://github.com/datacamp/design-system/commit/b1d7b5d))
+
+
+
+
+
+## [7.0.1](https://github.com/datacamp/design-system/compare/@datacamp/waffles-button@7.0.0...@datacamp/waffles-button@7.0.1) (2021-02-16)
+
+**Note:** Version bump only for package @datacamp/waffles-button
+
+
+
+
+
+# [7.0.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-button@6.3.1...@datacamp/waffles-button@7.0.0) (2021-02-02)
+
+
+### Features
+
+* update emotion to emotion 11 ([5420a92](https://github.com/datacamp/design-system/commit/5420a92))
+
+
+### BREAKING CHANGES
+
+* The peer dependency on emotion is now v11. In order to update, all waffles and emotion dependencies should be updated together. The codemod provided by emotion makes this process very easy.
+
+
+
+
+
+## [6.3.1](https://github.com/datacamp/design-system/compare/@datacamp/waffles-button@6.3.0...@datacamp/waffles-button@6.3.1) (2021-02-01)
+
+
+### Bug Fixes
+
+* expand range of icons peer dependency to include latest versions ([7a83cbd](https://github.com/datacamp/design-system/commit/7a83cbd))
+
+
+
+
+
 # [6.3.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-button@6.2.6...@datacamp/waffles-button@6.3.0) (2021-01-07)
 
 

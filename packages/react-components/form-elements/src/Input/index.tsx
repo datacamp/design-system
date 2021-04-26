@@ -1,7 +1,7 @@
 import { HiddenIcon, VisibleIcon } from '@datacamp/waffles-icons';
 import tokens from '@datacamp/waffles-tokens/lib/future-tokens.json';
 import { computeDataAttributes } from '@datacamp/waffles-utils';
-import { ClassNames, css } from '@emotion/core';
+import { ClassNames, css } from '@emotion/react';
 import React, { forwardRef, ReactElement, Ref } from 'react';
 
 import {
@@ -91,6 +91,10 @@ interface InputProps {
    */
   onChange: (value: string) => void;
   /**
+   * Called when the user focuses the input
+   */
+  onFocus?: () => void;
+  /**
    * The placeholder text to render before the user has entered a value.
    */
   placeholder?: string;
@@ -151,6 +155,7 @@ const InternalInput = ({
   name,
   onBlur,
   onChange,
+  onFocus,
   placeholder,
   required,
   size = 'medium',
@@ -170,6 +175,7 @@ const InternalInput = ({
     onChange(event.target.value);
 
   const handleBlur = (): void => onBlur && onBlur();
+  const handleFocus = (): void => onFocus && onFocus();
 
   const inputSize = css(
     { fontSize: fontSizes[size], height: heights[size] },
@@ -246,6 +252,7 @@ const InternalInput = ({
         name={name}
         onBlur={handleBlur}
         onChange={handleChange}
+        onFocus={handleFocus}
         placeholder={placeholder}
         ref={innerRef}
         required={htmlRequired}

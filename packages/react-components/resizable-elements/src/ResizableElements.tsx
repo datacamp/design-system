@@ -1,4 +1,4 @@
-import { css } from '@emotion/core';
+import { css } from '@emotion/react';
 import _ from 'lodash';
 import React, { useCallback } from 'react';
 
@@ -173,7 +173,6 @@ const ResizableElements = ({
               css={{
                 [fixedDimension]: '100%',
                 float: 'left',
-                overflow: 'hidden',
                 position: 'relative',
               }}
               style={{

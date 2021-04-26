@@ -3,6 +3,62 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.1.1](https://github.com/datacamp/design-system/compare/@datacamp/waffles-utils@3.1.0...@datacamp/waffles-utils@3.1.1) (2021-03-04)
+
+**Note:** Version bump only for package @datacamp/waffles-utils
+
+
+
+
+
+# [3.1.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-utils@3.0.1...@datacamp/waffles-utils@3.1.0) (2021-02-18)
+
+
+### Bug Fixes
+
+* correctly validate emotion styled children for prop types ([b1d7b5d](https://github.com/datacamp/design-system/commit/b1d7b5d))
+
+
+### Features
+
+* add childrenOfType functionality from airbnb prop types ([5bdd9fe](https://github.com/datacamp/design-system/commit/5bdd9fe))
+
+
+
+
+
+## [3.0.1](https://github.com/datacamp/design-system/compare/@datacamp/waffles-utils@3.0.0...@datacamp/waffles-utils@3.0.1) (2021-02-16)
+
+**Note:** Version bump only for package @datacamp/waffles-utils
+
+
+
+
+
+# [3.0.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-utils@2.1.4...@datacamp/waffles-utils@3.0.0) (2021-02-02)
+
+
+### Features
+
+* update emotion to emotion 11 ([5420a92](https://github.com/datacamp/design-system/commit/5420a92))
+
+
+### BREAKING CHANGES
+
+* The peer dependency on emotion is now v11. In order to update, all waffles and emotion dependencies should be updated together. The codemod provided by emotion makes this process very easy.
+
+
+
+
+
+## [2.1.4](https://github.com/datacamp/design-system/compare/@datacamp/waffles-utils@2.1.3...@datacamp/waffles-utils@2.1.4) (2021-02-01)
+
+**Note:** Version bump only for package @datacamp/waffles-utils
+
+
+
+
+
 ## [2.1.3](https://github.com/datacamp/design-system/compare/@datacamp/waffles-utils@2.1.2...@datacamp/waffles-utils@2.1.3) (2020-12-16)
 
 **Note:** Version bump only for package @datacamp/waffles-utils

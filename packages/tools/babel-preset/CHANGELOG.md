@@ -3,6 +3,54 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.0.3](https://github.com/datacamp/design-system/compare/@datacamp/waffles-babel-preset@3.0.2...@datacamp/waffles-babel-preset@3.0.3) (2021-03-04)
+
+**Note:** Version bump only for package @datacamp/waffles-babel-preset
+
+
+
+
+
+## [3.0.2](https://github.com/datacamp/design-system/compare/@datacamp/waffles-babel-preset@3.0.1...@datacamp/waffles-babel-preset@3.0.2) (2021-02-18)
+
+**Note:** Version bump only for package @datacamp/waffles-babel-preset
+
+
+
+
+
+## [3.0.1](https://github.com/datacamp/design-system/compare/@datacamp/waffles-babel-preset@3.0.0...@datacamp/waffles-babel-preset@3.0.1) (2021-02-16)
+
+**Note:** Version bump only for package @datacamp/waffles-babel-preset
+
+
+
+
+
+# [3.0.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-babel-preset@2.0.7...@datacamp/waffles-babel-preset@3.0.0) (2021-02-02)
+
+
+### Features
+
+* update emotion to emotion 11 ([5420a92](https://github.com/datacamp/design-system/commit/5420a92))
+
+
+### BREAKING CHANGES
+
+* The peer dependency on emotion is now v11. In order to update, all waffles and emotion dependencies should be updated together. The codemod provided by emotion makes this process very easy.
+
+
+
+
+
+## [2.0.7](https://github.com/datacamp/design-system/compare/@datacamp/waffles-babel-preset@2.0.6...@datacamp/waffles-babel-preset@2.0.7) (2021-02-01)
+
+**Note:** Version bump only for package @datacamp/waffles-babel-preset
+
+
+
+
+
 ## [2.0.6](https://github.com/datacamp/design-system/compare/@datacamp/waffles-babel-preset@2.0.5...@datacamp/waffles-babel-preset@2.0.6) (2020-12-16)
 
 **Note:** Version bump only for package @datacamp/waffles-babel-preset

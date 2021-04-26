@@ -1,10 +1,16 @@
 {
   "name": "@datacamp/waffles-icons",
-  "version": "2.2.4",
+  "version": "4.2.0",
   "main": "lib/index.js",
   "module": "es/index.js",
   "react-native": "mobile/index.js",
-  "files": ["es", "lib", "types", "sprites", "mobile"],
+  "files": [
+    "es",
+    "lib",
+    "types",
+    "sprites",
+    "mobile"
+  ],
   "license": "MIT",
   "sideEffects": false,
   "repository": {
@@ -18,15 +24,15 @@
     "type-check": "tsc --rootDir build --noEmit"
   },
   "devDependencies": {
-    "@babel/cli": "^7.7.7",
+    "@babel/cli": "^7.13.0",
     "@babel/core": "^7.12.7",
-    "@datacamp/waffles-babel-preset": "^2.0.6",
-    "@datacamp/waffles-tokens": "^1.0.5",
-    "@datacamp/waffles-tsconfig": "^1.1.13",
+    "@datacamp/waffles-babel-preset": "^3.0.3",
+    "@datacamp/waffles-tokens": "^1.0.6",
+    "@datacamp/waffles-tsconfig": "^2.0.0",
     "@svgr/core": "^5.4.0",
     "@svgr/plugin-prettier": "^5.5.0",
     "@svgr/plugin-svgo": "^5.5.0",
-    "@types/react": "^17.0.0",
+    "@types/react": "^17.0.2",
     "camelcase": "^6.2.0",
     "gulp": "^4.0.2",
     "gulp-babel": "^8.0.0",
@@ -38,9 +44,9 @@
     "gulp-zip": "^5.0.2",
     "merge-stream": "^2.0.0",
     "react": "17.0.1",
-    "react-native-svg": "^9.13.6",
-    "sharp": "0.26.2",
-    "typescript": "3.9.7"
+    "react-native-svg": "^12.1.0",
+    "sharp": "0.27.1",
+    "typescript": "4.1.3"
   },
   "dependencies": {
     "@babel/runtime": "^7.12.1",
@@ -48,9 +54,13 @@
     "prop-types": "^15.7.2"
   },
   "peerDependencies": {
-    "@emotion/core": "^10.0.17",
+    "@emotion/react": "^11.0.0",
     "react": "^16.8.6 || ^17.0.1",
-    "react-native-svg": "^9.13.6"
+    "react-native-svg": "^12.1.0"
   },
-  "peerDependenciesMeta": { "react-native-svg": { "optional": true } }
+  "peerDependenciesMeta": {
+    "react-native-svg": {
+      "optional": true
+    }
+  }
 }

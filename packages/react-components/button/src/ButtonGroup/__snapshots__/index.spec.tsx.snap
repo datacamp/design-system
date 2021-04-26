@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`ButtonGroup renders the buttons or CompactButtonGroups with 16px spaces 1`] = `
-.emotion-11 {
+.emotion-0 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -24,8 +24,8 @@ exports[`ButtonGroup renders the buttons or CompactButtonGroups with 16px spaces
   display: -ms-inline-flexbox;
   display: inline-flex;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
+  -webkit-justify-content: center;
   justify-content: center;
   position: relative;
   -webkit-text-decoration: none;
@@ -44,6 +44,7 @@ exports[`ButtonGroup renders the buttons or CompactButtonGroups with 16px spaces
 
 .emotion-1:active {
   -webkit-transform: perspective(1px) scale(0.975);
+  -moz-transform: perspective(1px) scale(0.975);
   -ms-transform: perspective(1px) scale(0.975);
   transform: perspective(1px) scale(0.975);
 }
@@ -52,6 +53,7 @@ exports[`ButtonGroup renders the buttons or CompactButtonGroups with 16px spaces
 .emotion-1:hover:disabled,
 .emotion-1:active:disabled {
   -webkit-transform: none;
+  -moz-transform: none;
   -ms-transform: none;
   transform: none;
 }
@@ -61,14 +63,14 @@ exports[`ButtonGroup renders the buttons or CompactButtonGroups with 16px spaces
 }
 
 .emotion-1:hover {
-  background-color: rgba(5,25,45,0.15);
+  background-color: rgba(5, 25, 45, 0.15);
   border-color: #05192d;
   color: #05192d;
 }
 
-.emotion-0 {
+.emotion-2 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(5,25,45);
+  color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
   font-size: 16px;
@@ -94,8 +96,8 @@ exports[`ButtonGroup renders the buttons or CompactButtonGroups with 16px spaces
   display: -ms-inline-flexbox;
   display: inline-flex;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
+  -webkit-justify-content: center;
   justify-content: center;
   position: relative;
   -webkit-text-decoration: none;
@@ -114,6 +116,7 @@ exports[`ButtonGroup renders the buttons or CompactButtonGroups with 16px spaces
 
 .emotion-3:active {
   -webkit-transform: perspective(1px) scale(0.975);
+  -moz-transform: perspective(1px) scale(0.975);
   -ms-transform: perspective(1px) scale(0.975);
   transform: perspective(1px) scale(0.975);
 }
@@ -122,6 +125,7 @@ exports[`ButtonGroup renders the buttons or CompactButtonGroups with 16px spaces
 .emotion-3:hover:disabled,
 .emotion-3:active:disabled {
   -webkit-transform: none;
+  -moz-transform: none;
   -ms-transform: none;
   transform: none;
 }
@@ -131,12 +135,12 @@ exports[`ButtonGroup renders the buttons or CompactButtonGroups with 16px spaces
 }
 
 .emotion-3:hover {
-  background-color: rgba(5,25,45,0.15);
+  background-color: rgba(5, 25, 45, 0.15);
   border-color: #05192d;
   color: #05192d;
 }
 
-.emotion-10 {
+.emotion-7 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -145,7 +149,7 @@ exports[`ButtonGroup renders the buttons or CompactButtonGroups with 16px spaces
   margin-left: 16px;
 }
 
-.emotion-7 {
+.emotion-8 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -160,8 +164,8 @@ exports[`ButtonGroup renders the buttons or CompactButtonGroups with 16px spaces
   display: -ms-inline-flexbox;
   display: inline-flex;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
+  -webkit-justify-content: center;
   justify-content: center;
   position: relative;
   -webkit-text-decoration: none;
@@ -179,41 +183,44 @@ exports[`ButtonGroup renders the buttons or CompactButtonGroups with 16px spaces
   margin: 0;
 }
 
-.emotion-7:active {
+.emotion-8:active {
   -webkit-transform: perspective(1px) scale(0.975);
+  -moz-transform: perspective(1px) scale(0.975);
   -ms-transform: perspective(1px) scale(0.975);
   transform: perspective(1px) scale(0.975);
 }
 
-.emotion-7:disabled,
-.emotion-7:hover:disabled,
-.emotion-7:active:disabled {
+.emotion-8:disabled,
+.emotion-8:hover:disabled,
+.emotion-8:active:disabled {
   -webkit-transform: none;
+  -moz-transform: none;
   -ms-transform: none;
   transform: none;
 }
 
-.emotion-7:focus {
+.emotion-8:focus {
   outline: 0;
 }
 
-.emotion-7:hover {
-  background-color: rgba(5,25,45,0.15);
+.emotion-8:hover {
+  background-color: rgba(5, 25, 45, 0.15);
   border-color: #05192d;
   color: #05192d;
 }
 
-.emotion-7:active {
+.emotion-8:active {
   -webkit-transform: none;
+  -moz-transform: none;
   -ms-transform: none;
   transform: none;
 }
 
-.emotion-7:focus {
+.emotion-8:focus {
   box-shadow: none;
 }
 
-.emotion-9 {
+.emotion-10 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -228,8 +235,8 @@ exports[`ButtonGroup renders the buttons or CompactButtonGroups with 16px spaces
   display: -ms-inline-flexbox;
   display: inline-flex;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
+  -webkit-justify-content: center;
   justify-content: center;
   position: relative;
   -webkit-text-decoration: none;
@@ -248,49 +255,52 @@ exports[`ButtonGroup renders the buttons or CompactButtonGroups with 16px spaces
   margin-left: -2px;
 }
 
-.emotion-9:active {
+.emotion-10:active {
   -webkit-transform: perspective(1px) scale(0.975);
+  -moz-transform: perspective(1px) scale(0.975);
   -ms-transform: perspective(1px) scale(0.975);
   transform: perspective(1px) scale(0.975);
 }
 
-.emotion-9:disabled,
-.emotion-9:hover:disabled,
-.emotion-9:active:disabled {
+.emotion-10:disabled,
+.emotion-10:hover:disabled,
+.emotion-10:active:disabled {
   -webkit-transform: none;
+  -moz-transform: none;
   -ms-transform: none;
   transform: none;
 }
 
-.emotion-9:focus {
+.emotion-10:focus {
   outline: 0;
 }
 
-.emotion-9:hover {
-  background-color: rgba(5,25,45,0.15);
+.emotion-10:hover {
+  background-color: rgba(5, 25, 45, 0.15);
   border-color: #05192d;
   color: #05192d;
 }
 
-.emotion-9:active {
+.emotion-10:active {
   -webkit-transform: none;
+  -moz-transform: none;
   -ms-transform: none;
   transform: none;
 }
 
-.emotion-9:focus {
+.emotion-10:focus {
   box-shadow: none;
 }
 
 <div
-  class="emotion-11"
+  class="emotion-0"
 >
   <button
     class="emotion-1"
     type="submit"
   >
     <span
-      class="emotion-0"
+      class="emotion-2"
     >
       Button 1
     </span>
@@ -300,7 +310,7 @@ exports[`ButtonGroup renders the buttons or CompactButtonGroups with 16px spaces
     type="submit"
   >
     <span
-      class="emotion-0"
+      class="emotion-2"
     >
       Button 2
     </span>
@@ -310,30 +320,30 @@ exports[`ButtonGroup renders the buttons or CompactButtonGroups with 16px spaces
     type="submit"
   >
     <span
-      class="emotion-0"
+      class="emotion-2"
     >
       Button 3
     </span>
   </button>
   <div
-    class="compact emotion-10"
+    class="compact emotion-7"
   >
     <button
-      class="emotion-7"
+      class="emotion-8"
       type="submit"
     >
       <span
-        class="emotion-0"
+        class="emotion-2"
       >
         Button 4
       </span>
     </button>
     <button
-      class="emotion-9"
+      class="emotion-10"
       type="submit"
     >
       <span
-        class="emotion-0"
+        class="emotion-2"
       >
         Button 5
       </span>
@@ -343,7 +353,7 @@ exports[`ButtonGroup renders the buttons or CompactButtonGroups with 16px spaces
 `;
 
 exports[`ButtonGroup renders the small buttons or CompactButtonGroups with 8px spaces 1`] = `
-.emotion-11 {
+.emotion-0 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -366,8 +376,8 @@ exports[`ButtonGroup renders the small buttons or CompactButtonGroups with 8px s
   display: -ms-inline-flexbox;
   display: inline-flex;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
+  -webkit-justify-content: center;
   justify-content: center;
   position: relative;
   -webkit-text-decoration: none;
@@ -386,6 +396,7 @@ exports[`ButtonGroup renders the small buttons or CompactButtonGroups with 8px s
 
 .emotion-1:active {
   -webkit-transform: perspective(1px) scale(0.975);
+  -moz-transform: perspective(1px) scale(0.975);
   -ms-transform: perspective(1px) scale(0.975);
   transform: perspective(1px) scale(0.975);
 }
@@ -394,6 +405,7 @@ exports[`ButtonGroup renders the small buttons or CompactButtonGroups with 8px s
 .emotion-1:hover:disabled,
 .emotion-1:active:disabled {
   -webkit-transform: none;
+  -moz-transform: none;
   -ms-transform: none;
   transform: none;
 }
@@ -403,151 +415,14 @@ exports[`ButtonGroup renders the small buttons or CompactButtonGroups with 8px s
 }
 
 .emotion-1:hover {
-  background-color: rgba(5,25,45,0.15);
+  background-color: rgba(5, 25, 45, 0.15);
   border-color: #05192d;
   color: #05192d;
 }
 
-.emotion-7 {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  border: none;
-  border-radius: 4px;
-  border-style: solid;
-  border-width: 2px;
-  cursor: pointer;
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  position: relative;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  text-transform: capitalize;
-  -webkit-transition: 0.15s;
-  transition: 0.15s;
-  vertical-align: baseline;
-  white-space: nowrap;
-  background-color: transparent;
-  border-color: #05192d;
-  color: #05192d;
-  padding: 0 15px;
-  border-radius: 4px 0px 0px 4px;
-  margin: 0;
-}
-
-.emotion-7:active {
-  -webkit-transform: perspective(1px) scale(0.975);
-  -ms-transform: perspective(1px) scale(0.975);
-  transform: perspective(1px) scale(0.975);
-}
-
-.emotion-7:disabled,
-.emotion-7:hover:disabled,
-.emotion-7:active:disabled {
-  -webkit-transform: none;
-  -ms-transform: none;
-  transform: none;
-}
-
-.emotion-7:focus {
-  outline: 0;
-}
-
-.emotion-7:hover {
-  background-color: rgba(5,25,45,0.15);
-  border-color: #05192d;
-  color: #05192d;
-}
-
-.emotion-7:active {
-  -webkit-transform: none;
-  -ms-transform: none;
-  transform: none;
-}
-
-.emotion-7:focus {
-  box-shadow: none;
-}
-
-.emotion-9 {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  border: none;
-  border-radius: 4px;
-  border-style: solid;
-  border-width: 2px;
-  cursor: pointer;
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  position: relative;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  text-transform: capitalize;
-  -webkit-transition: 0.15s;
-  transition: 0.15s;
-  vertical-align: baseline;
-  white-space: nowrap;
-  background-color: transparent;
-  border-color: #05192d;
-  color: #05192d;
-  padding: 0 15px;
-  border-radius: 0px 4px 4px 0px;
-  margin: 0;
-  margin-left: -2px;
-}
-
-.emotion-9:active {
-  -webkit-transform: perspective(1px) scale(0.975);
-  -ms-transform: perspective(1px) scale(0.975);
-  transform: perspective(1px) scale(0.975);
-}
-
-.emotion-9:disabled,
-.emotion-9:hover:disabled,
-.emotion-9:active:disabled {
-  -webkit-transform: none;
-  -ms-transform: none;
-  transform: none;
-}
-
-.emotion-9:focus {
-  outline: 0;
-}
-
-.emotion-9:hover {
-  background-color: rgba(5,25,45,0.15);
-  border-color: #05192d;
-  color: #05192d;
-}
-
-.emotion-9:active {
-  -webkit-transform: none;
-  -ms-transform: none;
-  transform: none;
-}
-
-.emotion-9:focus {
-  box-shadow: none;
-}
-
-.emotion-0 {
+.emotion-2 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(5,25,45);
+  color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
   font-size: 16px;
@@ -573,8 +448,8 @@ exports[`ButtonGroup renders the small buttons or CompactButtonGroups with 8px s
   display: -ms-inline-flexbox;
   display: inline-flex;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
+  -webkit-justify-content: center;
   justify-content: center;
   position: relative;
   -webkit-text-decoration: none;
@@ -593,6 +468,7 @@ exports[`ButtonGroup renders the small buttons or CompactButtonGroups with 8px s
 
 .emotion-3:active {
   -webkit-transform: perspective(1px) scale(0.975);
+  -moz-transform: perspective(1px) scale(0.975);
   -ms-transform: perspective(1px) scale(0.975);
   transform: perspective(1px) scale(0.975);
 }
@@ -601,6 +477,7 @@ exports[`ButtonGroup renders the small buttons or CompactButtonGroups with 8px s
 .emotion-3:hover:disabled,
 .emotion-3:active:disabled {
   -webkit-transform: none;
+  -moz-transform: none;
   -ms-transform: none;
   transform: none;
 }
@@ -610,12 +487,12 @@ exports[`ButtonGroup renders the small buttons or CompactButtonGroups with 8px s
 }
 
 .emotion-3:hover {
-  background-color: rgba(5,25,45,0.15);
+  background-color: rgba(5, 25, 45, 0.15);
   border-color: #05192d;
   color: #05192d;
 }
 
-.emotion-10 {
+.emotion-7 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -624,15 +501,158 @@ exports[`ButtonGroup renders the small buttons or CompactButtonGroups with 8px s
   margin-left: 8px;
 }
 
+.emotion-8 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border: none;
+  border-radius: 4px;
+  border-style: solid;
+  border-width: 2px;
+  cursor: pointer;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  position: relative;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  -webkit-transition: 0.15s;
+  transition: 0.15s;
+  vertical-align: baseline;
+  white-space: nowrap;
+  background-color: transparent;
+  border-color: #05192d;
+  color: #05192d;
+  padding: 0 15px;
+  border-radius: 4px 0px 0px 4px;
+  margin: 0;
+}
+
+.emotion-8:active {
+  -webkit-transform: perspective(1px) scale(0.975);
+  -moz-transform: perspective(1px) scale(0.975);
+  -ms-transform: perspective(1px) scale(0.975);
+  transform: perspective(1px) scale(0.975);
+}
+
+.emotion-8:disabled,
+.emotion-8:hover:disabled,
+.emotion-8:active:disabled {
+  -webkit-transform: none;
+  -moz-transform: none;
+  -ms-transform: none;
+  transform: none;
+}
+
+.emotion-8:focus {
+  outline: 0;
+}
+
+.emotion-8:hover {
+  background-color: rgba(5, 25, 45, 0.15);
+  border-color: #05192d;
+  color: #05192d;
+}
+
+.emotion-8:active {
+  -webkit-transform: none;
+  -moz-transform: none;
+  -ms-transform: none;
+  transform: none;
+}
+
+.emotion-8:focus {
+  box-shadow: none;
+}
+
+.emotion-10 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border: none;
+  border-radius: 4px;
+  border-style: solid;
+  border-width: 2px;
+  cursor: pointer;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  position: relative;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  -webkit-transition: 0.15s;
+  transition: 0.15s;
+  vertical-align: baseline;
+  white-space: nowrap;
+  background-color: transparent;
+  border-color: #05192d;
+  color: #05192d;
+  padding: 0 15px;
+  border-radius: 0px 4px 4px 0px;
+  margin: 0;
+  margin-left: -2px;
+}
+
+.emotion-10:active {
+  -webkit-transform: perspective(1px) scale(0.975);
+  -moz-transform: perspective(1px) scale(0.975);
+  -ms-transform: perspective(1px) scale(0.975);
+  transform: perspective(1px) scale(0.975);
+}
+
+.emotion-10:disabled,
+.emotion-10:hover:disabled,
+.emotion-10:active:disabled {
+  -webkit-transform: none;
+  -moz-transform: none;
+  -ms-transform: none;
+  transform: none;
+}
+
+.emotion-10:focus {
+  outline: 0;
+}
+
+.emotion-10:hover {
+  background-color: rgba(5, 25, 45, 0.15);
+  border-color: #05192d;
+  color: #05192d;
+}
+
+.emotion-10:active {
+  -webkit-transform: none;
+  -moz-transform: none;
+  -ms-transform: none;
+  transform: none;
+}
+
+.emotion-10:focus {
+  box-shadow: none;
+}
+
 <div
-  class="emotion-11"
+  class="emotion-0"
 >
   <button
     class="emotion-1"
     type="submit"
   >
     <span
-      class="emotion-0"
+      class="emotion-2"
     >
       Button 1
     </span>
@@ -642,7 +662,7 @@ exports[`ButtonGroup renders the small buttons or CompactButtonGroups with 8px s
     type="submit"
   >
     <span
-      class="emotion-0"
+      class="emotion-2"
     >
       Button 2
     </span>
@@ -652,30 +672,30 @@ exports[`ButtonGroup renders the small buttons or CompactButtonGroups with 8px s
     type="submit"
   >
     <span
-      class="emotion-0"
+      class="emotion-2"
     >
       Button 3
     </span>
   </button>
   <div
-    class="compact emotion-10"
+    class="compact emotion-7"
   >
     <button
-      class="emotion-7"
+      class="emotion-8"
       type="submit"
     >
       <span
-        class="emotion-0"
+        class="emotion-2"
       >
         Button 4
       </span>
     </button>
     <button
-      class="emotion-9"
+      class="emotion-10"
       type="submit"
     >
       <span
-        class="emotion-0"
+        class="emotion-2"
       >
         Button 5
       </span>

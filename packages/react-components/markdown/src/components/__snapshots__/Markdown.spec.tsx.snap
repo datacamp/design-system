@@ -3,145 +3,127 @@
 exports[`<Markdown /> renders 1`] = `
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(5,25,45);
+  color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
-  color: rgb(5,25,45);
+  color: rgb(5, 25, 45);
   font-weight: 800;
   margin: 0;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
   font-size: 40px;
-  -webkit-letter-spacing: -1px;
-  -moz-letter-spacing: -1px;
-  -ms-letter-spacing: -1px;
   letter-spacing: -1px;
   line-height: 1.2;
 }
 
-*:not(style) ~ .emotion-0 {
+*:not(style)~.emotion-0 {
   margin-top: 24px;
 }
 
 .emotion-1 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(5,25,45);
+  color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
-  color: rgb(5,25,45);
+  color: rgb(5, 25, 45);
   font-weight: 800;
   margin: 0;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
   font-size: 32px;
-  -webkit-letter-spacing: -0.5px;
-  -moz-letter-spacing: -0.5px;
-  -ms-letter-spacing: -0.5px;
   letter-spacing: -0.5px;
   line-height: 1.2;
 }
 
-*:not(style) ~ .emotion-1 {
+*:not(style)~.emotion-1 {
   margin-top: 16px;
 }
 
 .emotion-2 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(5,25,45);
+  color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
-  color: rgb(5,25,45);
+  color: rgb(5, 25, 45);
   font-weight: 800;
   margin: 0;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
   font-size: 24px;
-  -webkit-letter-spacing: -0.5px;
-  -moz-letter-spacing: -0.5px;
-  -ms-letter-spacing: -0.5px;
   letter-spacing: -0.5px;
   line-height: 1.2;
 }
 
-*:not(style) ~ .emotion-2 {
+*:not(style)~.emotion-2 {
   margin-top: 16px;
 }
 
 .emotion-3 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(5,25,45);
+  color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
-  color: rgb(5,25,45);
+  color: rgb(5, 25, 45);
   font-weight: 800;
   margin: 0;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
   font-size: 20px;
-  -webkit-letter-spacing: 0;
-  -moz-letter-spacing: 0;
-  -ms-letter-spacing: 0;
   letter-spacing: 0;
   line-height: 1.2;
 }
 
-*:not(style) ~ .emotion-3 {
+*:not(style)~.emotion-3 {
   margin-top: 16px;
 }
 
 .emotion-4 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(5,25,45);
+  color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
-  color: rgb(5,25,45);
+  color: rgb(5, 25, 45);
   font-weight: 800;
   margin: 0;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
   font-size: 18px;
-  -webkit-letter-spacing: 0;
-  -moz-letter-spacing: 0;
-  -ms-letter-spacing: 0;
   letter-spacing: 0;
   line-height: 1.2;
 }
 
-*:not(style) ~ .emotion-4 {
+*:not(style)~.emotion-4 {
   margin-top: 16px;
 }
 
 .emotion-5 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(5,25,45);
+  color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
-  color: rgb(5,25,45);
+  color: rgb(5, 25, 45);
   font-weight: 800;
   margin: 0;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
   font-size: 16px;
-  -webkit-letter-spacing: 0;
-  -moz-letter-spacing: 0;
-  -ms-letter-spacing: 0;
   letter-spacing: 0;
   line-height: 1.2;
 }
 
-*:not(style) ~ .emotion-5 {
+*:not(style)~.emotion-5 {
   margin-top: 16px;
 }
 
-.emotion-6 {
+.emotion-7 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(5,25,45);
+  color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
   font-weight: 800;
@@ -150,7 +132,7 @@ exports[`<Markdown /> renders 1`] = `
 
 .emotion-8 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(5,25,45);
+  color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
   font-size: 16px;
@@ -159,13 +141,13 @@ exports[`<Markdown /> renders 1`] = `
   margin: 0;
 }
 
-*:not(style) ~ .emotion-8 {
+*:not(style)~.emotion-8 {
   margin-top: 8px;
 }
 
-.emotion-11 {
+.emotion-12 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(5,25,45);
+  color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
   font-style: italic;
@@ -173,9 +155,9 @@ exports[`<Markdown /> renders 1`] = `
   line-height: 16px;
 }
 
-.emotion-29 {
+.emotion-26 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(5,25,45);
+  color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
   list-style-position: inside;
@@ -183,35 +165,32 @@ exports[`<Markdown /> renders 1`] = `
   padding: 0;
 }
 
-.emotion-29 .emotion-29 {
+.emotion-26 .emotion-26 {
   padding-left: 16px;
 }
 
-*:not(style) ~ .emotion-29 {
+*:not(style)~.emotion-26 {
   margin-top: 16px;
 }
 
-.emotion-26 {
+.emotion-27 {
   line-height: 1.5em;
   margin-top: 8px;
 }
 
-.emotion-45 {
+.emotion-46 {
   border: 0;
   border-radius: 4px;
-  color: rgb(5,25,45);
+  color: rgb(5, 25, 45);
   font-family: monospace;
   font-family: JetBrainsMonoNL;
   font-size: 14px;
   font-variant-ligatures: none;
-  -webkit-letter-spacing: 0;
-  -moz-letter-spacing: 0;
-  -ms-letter-spacing: 0;
   letter-spacing: 0;
   line-height: 1.5;
   margin: 0;
   padding: 0;
-  background-color: rgb(239,235,228);
+  background-color: rgb(239, 235, 228);
   margin-left: 2px;
   margin-right: 4px;
   padding-bottom: 0;
@@ -220,8 +199,8 @@ exports[`<Markdown /> renders 1`] = `
   padding-top: 0;
 }
 
-.emotion-48 {
-  background-color: rgb(239,235,228);
+.emotion-47 {
+  background-color: rgb(239, 235, 228);
   border: 0;
   border-radius: 4px;
   line-height: 1.5;
@@ -233,21 +212,18 @@ exports[`<Markdown /> renders 1`] = `
   padding-top: 8px;
 }
 
-*:not(style) ~ .emotion-48 {
+*:not(style)~.emotion-47 {
   margin-top: 12px;
 }
 
-.emotion-47 {
+.emotion-48 {
   border: 0;
   border-radius: 4px;
-  color: rgb(5,25,45);
+  color: rgb(5, 25, 45);
   font-family: monospace;
   font-family: JetBrainsMonoNL;
   font-size: 14px;
   font-variant-ligatures: none;
-  -webkit-letter-spacing: 0;
-  -moz-letter-spacing: 0;
-  -ms-letter-spacing: 0;
   letter-spacing: 0;
   line-height: 1.5;
   margin: 0;
@@ -290,7 +266,7 @@ exports[`<Markdown /> renders 1`] = `
   >
     Heading with 
     <strong
-      class="emotion-6"
+      class="emotion-7"
     >
       emphasis
     </strong>
@@ -317,7 +293,7 @@ exports[`<Markdown /> renders 1`] = `
     class="emotion-8"
   >
     <em
-      class="emotion-11"
+      class="emotion-12"
     >
       This text will be italic
     </em>
@@ -326,7 +302,7 @@ exports[`<Markdown /> renders 1`] = `
     class="emotion-8"
   >
     <em
-      class="emotion-11"
+      class="emotion-12"
     >
       This will also be italic
     </em>
@@ -335,7 +311,7 @@ exports[`<Markdown /> renders 1`] = `
     class="emotion-8"
   >
     <strong
-      class="emotion-6"
+      class="emotion-7"
     >
       This text will be bold
     </strong>
@@ -344,7 +320,7 @@ exports[`<Markdown /> renders 1`] = `
     class="emotion-8"
   >
     <strong
-      class="emotion-6"
+      class="emotion-7"
     >
       This will also be bold
     </strong>
@@ -354,7 +330,7 @@ exports[`<Markdown /> renders 1`] = `
   >
     Only the word 
     <strong
-      class="emotion-6"
+      class="emotion-7"
     >
       strong
     </strong>
@@ -364,11 +340,11 @@ exports[`<Markdown /> renders 1`] = `
     class="emotion-8"
   >
     <em
-      class="emotion-11"
+      class="emotion-12"
     >
       You 
       <strong
-        class="emotion-6"
+        class="emotion-7"
       >
         can
       </strong>
@@ -390,10 +366,10 @@ exports[`<Markdown /> renders 1`] = `
     Unordered list
   </h3>
   <ul
-    class="emotion-29"
+    class="emotion-26"
   >
     <li
-      class="emotion-26"
+      class="emotion-27"
     >
       <span
         id="1val-checkbox-description"
@@ -402,17 +378,17 @@ exports[`<Markdown /> renders 1`] = `
       </span>
     </li>
     <li
-      class="emotion-26"
+      class="emotion-27"
     >
       <span
         id="2val-checkbox-description"
       >
         Item 2
         <ul
-          class="emotion-29"
+          class="emotion-26"
         >
           <li
-            class="emotion-26"
+            class="emotion-27"
           >
             <span
               id="3val-checkbox-description"
@@ -421,7 +397,7 @@ exports[`<Markdown /> renders 1`] = `
             </span>
           </li>
           <li
-            class="emotion-26"
+            class="emotion-27"
           >
             <span
               id="4val-checkbox-description"
@@ -439,10 +415,10 @@ exports[`<Markdown /> renders 1`] = `
     Ordered list
   </h3>
   <ol
-    class="emotion-29"
+    class="emotion-26"
   >
     <li
-      class="emotion-26"
+      class="emotion-27"
     >
       <span
         id="5val-checkbox-description"
@@ -451,7 +427,7 @@ exports[`<Markdown /> renders 1`] = `
       </span>
     </li>
     <li
-      class="emotion-26"
+      class="emotion-27"
     >
       <span
         id="6val-checkbox-description"
@@ -460,17 +436,17 @@ exports[`<Markdown /> renders 1`] = `
       </span>
     </li>
     <li
-      class="emotion-26"
+      class="emotion-27"
     >
       <span
         id="7val-checkbox-description"
       >
         Item 3
         <ol
-          class="emotion-29"
+          class="emotion-26"
         >
           <li
-            class="emotion-26"
+            class="emotion-27"
           >
             <span
               id="8val-checkbox-description"
@@ -479,7 +455,7 @@ exports[`<Markdown /> renders 1`] = `
             </span>
           </li>
           <li
-            class="emotion-26"
+            class="emotion-27"
           >
             <span
               id="9val-checkbox-description"
@@ -536,18 +512,18 @@ the present is our past.
   >
     This paragraphs contains 
     <code
-      class="emotion-45"
+      class="emotion-46"
     >
       inline code
     </code>
     .
   </p>
   <pre
-    class="emotion-48"
+    class="emotion-47"
     tabindex="0"
   >
     <code
-      class="emotion-47"
+      class="emotion-48"
     >
       This is a code block
 with 2 lines
@@ -560,11 +536,11 @@ with 2 lines
     The following code block should highlight python code:
   </p>
   <pre
-    class="emotion-48"
+    class="emotion-47"
     tabindex="0"
   >
     <code
-      class="emotion-47"
+      class="emotion-48"
     >
       numbers = [1, 2, 3]
 asStrings = [str(x) for x in stuff]
@@ -576,11 +552,11 @@ asStrings = [str(x) for x in stuff]
     The following code block should highlight javascript code:
   </p>
   <pre
-    class="emotion-48"
+    class="emotion-47"
     tabindex="0"
   >
     <code
-      class="emotion-47"
+      class="emotion-48"
     >
       var React = require('react');
 var Markdown = require('react-markdown');
@@ -592,10 +568,10 @@ React.render(
     </code>
   </pre>
   <ul
-    class="emotion-29"
+    class="emotion-26"
   >
     <li
-      class="emotion-26"
+      class="emotion-27"
     >
       <input
         aria-labelledby="10val-checkbox-description"
@@ -615,7 +591,7 @@ React.render(
         </a>
         , 
         <strong
-          class="emotion-6"
+          class="emotion-7"
         >
           formatting
         </strong>
@@ -627,7 +603,7 @@ React.render(
       </span>
     </li>
     <li
-      class="emotion-26"
+      class="emotion-27"
     >
       <input
         aria-labelledby="11val-checkbox-description"
@@ -643,7 +619,7 @@ React.render(
       </span>
     </li>
     <li
-      class="emotion-26"
+      class="emotion-27"
     >
       <input
         aria-labelledby="12val-checkbox-description"
@@ -659,7 +635,7 @@ React.render(
       </span>
     </li>
     <li
-      class="emotion-26"
+      class="emotion-27"
     >
       <input
         aria-labelledby="13val-checkbox-description"

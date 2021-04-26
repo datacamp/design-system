@@ -1,27 +1,27 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<Small /> renders with Strong and Emphasis children 1`] = `
-.emotion-2 {
+.emotion-0 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(5,25,45);
+  color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
   font-size: 14px;
   line-height: 16px;
 }
 
-.emotion-0 {
+.emotion-1 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(5,25,45);
+  color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
   font-weight: 800;
   line-height: 16px;
 }
 
-.emotion-1 {
+.emotion-2 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(5,25,45);
+  color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
   font-style: italic;
@@ -30,20 +30,20 @@ exports[`<Small /> renders with Strong and Emphasis children 1`] = `
 }
 
 <small
-  class="example-class emotion-2"
+  class="example-class emotion-0"
   data-example="testdata"
   data-item="othertest"
 >
   Some example text 
   <strong
-    class="emotion-0"
+    class="emotion-1"
   >
     with strong
   </strong>
    and
    
   <em
-    class="emotion-1"
+    class="emotion-2"
   >
     emphasis text
   </em>
@@ -54,7 +54,7 @@ exports[`<Small /> renders with Strong and Emphasis children 1`] = `
 exports[`<Small /> renders with a string 1`] = `
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(5,25,45);
+  color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
   font-size: 14px;

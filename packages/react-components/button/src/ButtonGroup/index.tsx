@@ -1,7 +1,6 @@
 import tokens from '@datacamp/waffles-tokens/lib/future-tokens.json';
-import { isChildType } from '@datacamp/waffles-utils';
-import { ClassNames } from '@emotion/core';
-import { childrenOfType } from 'airbnb-prop-types';
+import { childrenOfType, isChildType } from '@datacamp/waffles-utils';
+import { ClassNames } from '@emotion/react';
 import PropTypes from 'prop-types';
 import React from 'react';
 

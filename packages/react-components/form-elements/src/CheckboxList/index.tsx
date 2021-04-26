@@ -1,4 +1,4 @@
-import { childrenOfType } from 'airbnb-prop-types';
+import { childrenOfType } from '@datacamp/waffles-utils';
 import _ from 'lodash';
 import PropTypes from 'prop-types';
 import React, { ReactElement } from 'react';

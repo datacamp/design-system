@@ -1,7 +1,8 @@
 import Button, { ButtonGroup } from '@datacamp/waffles-button';
 import tokens from '@datacamp/waffles-tokens/lib/future-tokens.json';
-import { css } from '@emotion/core';
-import { childrenOfType, nChildren } from 'airbnb-prop-types';
+import { childrenOfType } from '@datacamp/waffles-utils';
+import { css } from '@emotion/react';
+import { nChildren } from 'airbnb-prop-types';
 import PropTypes from 'prop-types';
 import React, { ReactElement } from 'react';
 

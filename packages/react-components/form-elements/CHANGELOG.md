@@ -3,6 +3,76 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [4.1.1](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/form-elements/compare/@datacamp/waffles-form-elements@4.1.0...@datacamp/waffles-form-elements@4.1.1) (2021-03-04)
+
+**Note:** Version bump only for package @datacamp/waffles-form-elements
+
+
+
+
+
+# [4.1.0](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/form-elements/compare/@datacamp/waffles-form-elements@4.0.3...@datacamp/waffles-form-elements@4.1.0) (2021-02-24)
+
+
+### Features
+
+* add onFocus prop to Input ([2c45a07](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/form-elements/commit/2c45a07))
+
+
+
+
+
+## [4.0.3](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/form-elements/compare/@datacamp/waffles-form-elements@4.0.2...@datacamp/waffles-form-elements@4.0.3) (2021-02-19)
+
+**Note:** Version bump only for package @datacamp/waffles-form-elements
+
+
+
+
+
+## [4.0.2](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/form-elements/compare/@datacamp/waffles-form-elements@4.0.1...@datacamp/waffles-form-elements@4.0.2) (2021-02-18)
+
+
+### Bug Fixes
+
+* correctly validate emotion styled children for prop types ([b1d7b5d](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/form-elements/commit/b1d7b5d))
+
+
+
+
+
+## [4.0.1](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/form-elements/compare/@datacamp/waffles-form-elements@4.0.0...@datacamp/waffles-form-elements@4.0.1) (2021-02-16)
+
+**Note:** Version bump only for package @datacamp/waffles-form-elements
+
+
+
+
+
+# [4.0.0](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/form-elements/compare/@datacamp/waffles-form-elements@3.2.5...@datacamp/waffles-form-elements@4.0.0) (2021-02-02)
+
+
+### Features
+
+* update emotion to emotion 11 ([5420a92](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/form-elements/commit/5420a92))
+
+
+### BREAKING CHANGES
+
+* The peer dependency on emotion is now v11. In order to update, all waffles and emotion dependencies should be updated together. The codemod provided by emotion makes this process very easy.
+
+
+
+
+
+## [3.2.5](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/form-elements/compare/@datacamp/waffles-form-elements@3.2.4...@datacamp/waffles-form-elements@3.2.5) (2021-02-01)
+
+**Note:** Version bump only for package @datacamp/waffles-form-elements
+
+
+
+
+
 ## [3.2.4](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/form-elements/compare/@datacamp/waffles-form-elements@3.2.3...@datacamp/waffles-form-elements@3.2.4) (2021-01-07)
 
 **Note:** Version bump only for package @datacamp/waffles-form-elements

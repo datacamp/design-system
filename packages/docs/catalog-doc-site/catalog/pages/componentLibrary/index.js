@@ -2,7 +2,7 @@
 /* @jsx jsx */
 import { Badge } from '@datacamp/waffles-text';
 import tokens from '@datacamp/waffles-tokens/lib/future-tokens.json';
-import { jsx } from '@emotion/core';
+import { jsx } from '@emotion/react';
 import { Page } from 'catalog';
 import React from 'react';
 

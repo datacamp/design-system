@@ -1,6 +1,6 @@
 {
   "name": "@datacamp/waffles-card",
-  "version": "4.1.4",
+  "version": "5.0.3",
   "main": "lib/index.js",
   "module": "es/index.js",
   "types": "types/index.d.ts",
@@ -33,33 +33,33 @@
     "stryker": "stryker run"
   },
   "devDependencies": {
-    "@babel/cli": "7.7.7",
+    "@babel/cli": "7.13.0",
     "@babel/core": "7.12.7",
     "@datacamp/waffles-axe-render": "^1.2.8",
-    "@datacamp/waffles-babel-preset": "^2.0.6",
-    "@datacamp/waffles-tsconfig": "^1.1.13",
-    "@emotion/core": "^10.0.17",
-    "@stryker-mutator/core": "^4.1.2",
+    "@datacamp/waffles-babel-preset": "^3.0.3",
+    "@datacamp/waffles-tsconfig": "^2.0.0",
+    "@emotion/jest": "11.2.0",
+    "@emotion/react": "^11.0.0",
+    "@stryker-mutator/core": "^4.3.1",
     "@stryker-mutator/html-reporter": "^3.1.0",
-    "@stryker-mutator/typescript": "^3.3.1",
+    "@stryker-mutator/typescript": "^4.0.0",
     "@testing-library/jest-dom": "5.11.6",
     "@testing-library/react": "11.2.2",
     "@types/lodash": "4.14.165",
     "babel-jest": "26.6.3",
     "jest": "26.6.1",
-    "jest-emotion": "10.0.32",
     "react": "17.0.1",
     "react-docgen": "5.3.1",
     "react-dom": "17.0.1"
   },
   "dependencies": {
     "@babel/runtime": "^7.12.1",
-    "@datacamp/waffles-tokens": "^1.0.5",
+    "@datacamp/waffles-tokens": "^1.0.6",
     "lodash": "^4.17.20",
     "prop-types": "^15.7.2"
   },
   "peerDependencies": {
-    "@emotion/core": "^10.0.17",
+    "@emotion/react": "^11.0.0",
     "react": "^16.8.6 || ^17.0.1",
     "react-dom": "^16.8.6 || ^17.0.1"
   }

@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Social Media Buttons renders facebook button 1`] = `
-.emotion-1 {
+.emotion-0 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -16,8 +16,8 @@ exports[`Social Media Buttons renders facebook button 1`] = `
   display: -ms-inline-flexbox;
   display: inline-flex;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
+  -webkit-justify-content: center;
   justify-content: center;
   position: relative;
   -webkit-text-decoration: none;
@@ -35,39 +35,41 @@ exports[`Social Media Buttons renders facebook button 1`] = `
   color: #1778f2;
 }
 
-.emotion-1:active {
+.emotion-0:active {
   -webkit-transform: perspective(1px) scale(0.975);
+  -moz-transform: perspective(1px) scale(0.975);
   -ms-transform: perspective(1px) scale(0.975);
   transform: perspective(1px) scale(0.975);
 }
 
-.emotion-1:disabled,
-.emotion-1:hover:disabled,
-.emotion-1:active:disabled {
+.emotion-0:disabled,
+.emotion-0:hover:disabled,
+.emotion-0:active:disabled {
   -webkit-transform: none;
+  -moz-transform: none;
   -ms-transform: none;
   transform: none;
 }
 
-.emotion-1:focus {
+.emotion-0:focus {
   outline: 0;
 }
 
-.emotion-1:hover {
-  background-color: rgba(5,25,45,0.15);
+.emotion-0:hover {
+  background-color: rgba(5, 25, 45, 0.15);
   border-color: #05192d;
   color: #05192d;
 }
 
-.emotion-1:hover {
-  background-color: rgba(23,120,242,0.15);
+.emotion-0:hover {
+  background-color: rgba(23, 120, 242, 0.15);
   border-color: #1778f2;
   color: #1778f2;
 }
 
-.emotion-0 {
+.emotion-1 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(5,25,45);
+  color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
   font-size: 16px;
@@ -80,7 +82,7 @@ exports[`Social Media Buttons renders facebook button 1`] = `
 }
 
 <a
-  class="emotion-1"
+  class="emotion-0"
 >
   <svg
     aria-hidden="true"
@@ -96,7 +98,7 @@ exports[`Social Media Buttons renders facebook button 1`] = `
     />
   </svg>
   <span
-    class="emotion-0"
+    class="emotion-1"
   >
     Facebook
   </span>
@@ -105,20 +107,6 @@ exports[`Social Media Buttons renders facebook button 1`] = `
 
 exports[`Social Media Buttons renders google button 1`] = `
 .emotion-0 {
-  -webkit-font-smoothing: antialiased;
-  color: rgb(5,25,45);
-  font-family: Studio-Feixen-Sans,Arial;
-  font-style: normal;
-  font-size: 16px;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 44px;
-  color: #05192d;
-  font-weight: bold;
-  margin-left: 8px;
-}
-
-.emotion-1 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -133,8 +121,8 @@ exports[`Social Media Buttons renders google button 1`] = `
   display: -ms-inline-flexbox;
   display: inline-flex;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
+  -webkit-justify-content: center;
   justify-content: center;
   position: relative;
   -webkit-text-decoration: none;
@@ -152,38 +140,54 @@ exports[`Social Media Buttons renders google button 1`] = `
   color: #db4437;
 }
 
-.emotion-1:active {
+.emotion-0:active {
   -webkit-transform: perspective(1px) scale(0.975);
+  -moz-transform: perspective(1px) scale(0.975);
   -ms-transform: perspective(1px) scale(0.975);
   transform: perspective(1px) scale(0.975);
 }
 
-.emotion-1:disabled,
-.emotion-1:hover:disabled,
-.emotion-1:active:disabled {
+.emotion-0:disabled,
+.emotion-0:hover:disabled,
+.emotion-0:active:disabled {
   -webkit-transform: none;
+  -moz-transform: none;
   -ms-transform: none;
   transform: none;
 }
 
-.emotion-1:focus {
+.emotion-0:focus {
   outline: 0;
 }
 
-.emotion-1:hover {
-  background-color: rgba(5,25,45,0.15);
+.emotion-0:hover {
+  background-color: rgba(5, 25, 45, 0.15);
   border-color: #05192d;
   color: #05192d;
 }
 
-.emotion-1:hover {
-  background-color: rgba(219,68,55,0.15);
+.emotion-0:hover {
+  background-color: rgba(219, 68, 55, 0.15);
   border-color: #db4437;
   color: #db4437;
 }
 
+.emotion-1 {
+  -webkit-font-smoothing: antialiased;
+  color: rgb(5, 25, 45);
+  font-family: Studio-Feixen-Sans,Arial;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 44px;
+  color: #05192d;
+  font-weight: bold;
+  margin-left: 8px;
+}
+
 <a
-  class="emotion-1"
+  class="emotion-0"
 >
   <svg
     aria-hidden="true"
@@ -199,7 +203,7 @@ exports[`Social Media Buttons renders google button 1`] = `
     />
   </svg>
   <span
-    class="emotion-0"
+    class="emotion-1"
   >
     Google
   </span>
@@ -208,20 +212,6 @@ exports[`Social Media Buttons renders google button 1`] = `
 
 exports[`Social Media Buttons renders linked in button 1`] = `
 .emotion-0 {
-  -webkit-font-smoothing: antialiased;
-  color: rgb(5,25,45);
-  font-family: Studio-Feixen-Sans,Arial;
-  font-style: normal;
-  font-size: 16px;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 44px;
-  color: #05192d;
-  font-weight: bold;
-  margin-left: 8px;
-}
-
-.emotion-1 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -236,8 +226,8 @@ exports[`Social Media Buttons renders linked in button 1`] = `
   display: -ms-inline-flexbox;
   display: inline-flex;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
+  -webkit-justify-content: center;
   justify-content: center;
   position: relative;
   -webkit-text-decoration: none;
@@ -255,38 +245,54 @@ exports[`Social Media Buttons renders linked in button 1`] = `
   color: #0e76a8;
 }
 
-.emotion-1:active {
+.emotion-0:active {
   -webkit-transform: perspective(1px) scale(0.975);
+  -moz-transform: perspective(1px) scale(0.975);
   -ms-transform: perspective(1px) scale(0.975);
   transform: perspective(1px) scale(0.975);
 }
 
-.emotion-1:disabled,
-.emotion-1:hover:disabled,
-.emotion-1:active:disabled {
+.emotion-0:disabled,
+.emotion-0:hover:disabled,
+.emotion-0:active:disabled {
   -webkit-transform: none;
+  -moz-transform: none;
   -ms-transform: none;
   transform: none;
 }
 
-.emotion-1:focus {
+.emotion-0:focus {
   outline: 0;
 }
 
-.emotion-1:hover {
-  background-color: rgba(5,25,45,0.15);
+.emotion-0:hover {
+  background-color: rgba(5, 25, 45, 0.15);
   border-color: #05192d;
   color: #05192d;
 }
 
-.emotion-1:hover {
-  background-color: rgba(14,118,168,0.15);
+.emotion-0:hover {
+  background-color: rgba(14, 118, 168, 0.15);
   border-color: #0e76a8;
   color: #0e76a8;
 }
 
+.emotion-1 {
+  -webkit-font-smoothing: antialiased;
+  color: rgb(5, 25, 45);
+  font-family: Studio-Feixen-Sans,Arial;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 44px;
+  color: #05192d;
+  font-weight: bold;
+  margin-left: 8px;
+}
+
 <a
-  class="emotion-1"
+  class="emotion-0"
 >
   <svg
     aria-hidden="true"
@@ -302,7 +308,7 @@ exports[`Social Media Buttons renders linked in button 1`] = `
     />
   </svg>
   <span
-    class="emotion-0"
+    class="emotion-1"
   >
     LinkedIn
   </span>
@@ -311,20 +317,6 @@ exports[`Social Media Buttons renders linked in button 1`] = `
 
 exports[`Social Media Buttons renders twitter button 1`] = `
 .emotion-0 {
-  -webkit-font-smoothing: antialiased;
-  color: rgb(5,25,45);
-  font-family: Studio-Feixen-Sans,Arial;
-  font-style: normal;
-  font-size: 16px;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 44px;
-  color: #05192d;
-  font-weight: bold;
-  margin-left: 8px;
-}
-
-.emotion-1 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -339,8 +331,8 @@ exports[`Social Media Buttons renders twitter button 1`] = `
   display: -ms-inline-flexbox;
   display: inline-flex;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
+  -webkit-justify-content: center;
   justify-content: center;
   position: relative;
   -webkit-text-decoration: none;
@@ -358,38 +350,54 @@ exports[`Social Media Buttons renders twitter button 1`] = `
   color: #00acee;
 }
 
-.emotion-1:active {
+.emotion-0:active {
   -webkit-transform: perspective(1px) scale(0.975);
+  -moz-transform: perspective(1px) scale(0.975);
   -ms-transform: perspective(1px) scale(0.975);
   transform: perspective(1px) scale(0.975);
 }
 
-.emotion-1:disabled,
-.emotion-1:hover:disabled,
-.emotion-1:active:disabled {
+.emotion-0:disabled,
+.emotion-0:hover:disabled,
+.emotion-0:active:disabled {
   -webkit-transform: none;
+  -moz-transform: none;
   -ms-transform: none;
   transform: none;
 }
 
-.emotion-1:focus {
+.emotion-0:focus {
   outline: 0;
 }
 
-.emotion-1:hover {
-  background-color: rgba(5,25,45,0.15);
+.emotion-0:hover {
+  background-color: rgba(5, 25, 45, 0.15);
   border-color: #05192d;
   color: #05192d;
 }
 
-.emotion-1:hover {
-  background-color: rgba(0,172,238,0.15);
+.emotion-0:hover {
+  background-color: rgba(0, 172, 238, 0.15);
   border-color: #00acee;
   color: #00acee;
 }
 
+.emotion-1 {
+  -webkit-font-smoothing: antialiased;
+  color: rgb(5, 25, 45);
+  font-family: Studio-Feixen-Sans,Arial;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 44px;
+  color: #05192d;
+  font-weight: bold;
+  margin-left: 8px;
+}
+
 <a
-  class="emotion-1"
+  class="emotion-0"
 >
   <svg
     aria-hidden="true"
@@ -405,7 +413,7 @@ exports[`Social Media Buttons renders twitter button 1`] = `
     />
   </svg>
   <span
-    class="emotion-0"
+    class="emotion-1"
   >
     Twitter
   </span>

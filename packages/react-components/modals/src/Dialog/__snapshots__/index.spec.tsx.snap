@@ -15,14 +15,40 @@ exports[`<Dialog /> isOpen mounts nothing when false 1`] = `
 `;
 
 exports[`<Dialog /> isOpen renders the modal via a portal when true 1`] = `
-.emotion-3 {
-  opacity: 1 !important;
-  -webkit-transform: scale(1) !important;
-  -ms-transform: scale(1) !important;
-  transform: scale(1) !important;
+.emotion-0 {
+  overflow: hidden;
+}
+
+.emotion-1 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: rgba(5, 25, 45, 0.8);
+  bottom: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  left: 0;
+  opacity: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  -webkit-transition: opacity 0.6s cubic-bezier(0.19, 1, 0.22, 1);
+  transition: opacity 0.6s cubic-bezier(0.19, 1, 0.22, 1);
+  z-index: 900;
 }
 
 .emotion-2 {
+  opacity: 1!important;
+}
+
+.emotion-3 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -35,57 +61,34 @@ exports[`<Dialog /> isOpen renders the modal via a portal when true 1`] = `
   -ms-flex-direction: column;
   flex-direction: column;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
+  -webkit-justify-content: center;
   justify-content: center;
   min-width: 0;
   opacity: 0;
   outline: none;
+  position: relative;
   -webkit-transform: scale(0.5);
+  -moz-transform: scale(0.5);
   -ms-transform: scale(0.5);
   transform: scale(0.5);
-  -webkit-transition: 0.4s cubic-bezier(0.19,1,0.22,1);
-  transition: 0.4s cubic-bezier(0.19,1,0.22,1);
+  -webkit-transition: 0.4s cubic-bezier(0.19, 1, 0.22, 1);
+  transition: 0.4s cubic-bezier(0.19, 1, 0.22, 1);
   box-sizing: border-box;
   max-height: 100%;
   padding: 8px;
   width: 616px;
 }
 
-.emotion-5 {
-  opacity: 1 !important;
-}
-
 .emotion-4 {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  background-color: rgba(5,25,45,0.8);
-  bottom: 0;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  left: 0;
-  opacity: 0;
-  position: fixed;
-  right: 0;
-  top: 0;
-  -webkit-transition: opacity 0.6s cubic-bezier(0.19,1,0.22,1);
-  transition: opacity 0.6s cubic-bezier(0.19,1,0.22,1);
-  z-index: 900;
+  opacity: 1!important;
+  -webkit-transform: none!important;
+  -moz-transform: none!important;
+  -ms-transform: none!important;
+  transform: none!important;
 }
 
-.emotion-6 {
-  overflow: hidden;
-}
-
-.emotion-0 {
+.emotion-5 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -93,7 +96,7 @@ exports[`<Dialog /> isOpen renders the modal via a portal when true 1`] = `
   background-color: white;
   border: none;
   border-radius: 2px;
-  color: rgb(5,25,45);
+  color: rgb(5, 25, 45);
   cursor: pointer;
   display: -webkit-box;
   display: -webkit-flex;
@@ -104,8 +107,8 @@ exports[`<Dialog /> isOpen renders the modal via a portal when true 1`] = `
   flex-direction: column;
   height: 32px;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
+  -webkit-justify-content: center;
   justify-content: center;
   outline: none;
   padding: 0;
@@ -116,33 +119,33 @@ exports[`<Dialog /> isOpen renders the modal via a portal when true 1`] = `
   top: 16px;
 }
 
-.emotion-0:active {
-  color: rgb(3,239,98);
+.emotion-5:active {
+  color: rgb(3, 239, 98);
 }
 
-.emotion-0:disabled {
+.emotion-5:disabled {
   color: #D1D3D8;
 }
 
-.emotion-0:disabled:hover,
-.emotion-0:disabled:focus {
+.emotion-5:disabled:hover,
+.emotion-5:disabled:focus {
   background-color: transparent;
 }
 
-.emotion-0:focus {
-  background-color: rgb(239,239,239);
+.emotion-5:focus {
+  background-color: rgb(239, 239, 239);
 }
 
-.emotion-0:hover {
-  background-color: rgb(239,239,239);
+.emotion-5:hover {
+  background-color: rgb(239, 239, 239);
 }
 
-.emotion-1 {
-  background-color: rgb(255,255,255);
+.emotion-6 {
+  background-color: rgb(255, 255, 255);
   border-radius: 4px;
-  box-shadow: 0px 0px 1px 0px rgba(5,25,45,0.3),0 8px 12px -4px rgba(5,25,45,0.3);
-  -webkit-transition: all 0.6s cubic-bezier(0.075,0.82,0.165,1);
-  transition: all 0.6s cubic-bezier(0.075,0.82,0.165,1);
+  box-shadow: 0px 0px 1px 0px rgba(5, 25, 45, 0.3),0 8px 12px -4px rgba(5,25,45,0.3);
+  -webkit-transition: all 0.6s cubic-bezier(0.075, 0.82, 0.165, 1);
+  transition: all 0.6s cubic-bezier(0.075, 0.82, 0.165, 1);
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -156,7 +159,7 @@ exports[`<Dialog /> isOpen renders the modal via a portal when true 1`] = `
 }
 
 <body
-  class="emotion-6"
+  class="emotion-0"
 >
   <div
     data-react-modal-body-trap=""
@@ -175,18 +178,18 @@ exports[`<Dialog /> isOpen renders the modal via a portal when true 1`] = `
     class="ReactModalPortal"
   >
     <div
-      class="modal-overlay emotion-4 emotion-5"
+      class="modal-overlay emotion-1 emotion-2"
     >
       <div
         aria-label="Dialog"
         aria-modal="true"
-        class="emotion-2 emotion-3"
+        class="emotion-3 emotion-4"
         role="dialog"
         tabindex="-1"
       >
         <button
           aria-label="Close"
-          class="emotion-0"
+          class="emotion-5"
           type="button"
         >
           <svg
@@ -207,7 +210,7 @@ exports[`<Dialog /> isOpen renders the modal via a portal when true 1`] = `
           </svg>
         </button>
         <div
-          class="emotion-1"
+          class="emotion-6"
         >
           children
         </div>

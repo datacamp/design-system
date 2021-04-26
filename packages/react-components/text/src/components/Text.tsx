@@ -1,16 +1,11 @@
+/* eslint-disable global-require */
 import tokens from '@datacamp/waffles-tokens/lib/future-tokens.json';
-import { computeDataAttributes } from '@datacamp/waffles-utils';
-import { css } from '@emotion/core';
-import { childrenOfType } from 'airbnb-prop-types';
+import { childrenOfType, computeDataAttributes } from '@datacamp/waffles-utils';
+import { css } from '@emotion/react';
 import PropTypes from 'prop-types';
 import React, { ReactElement, ReactNode } from 'react';
 
-import PlainString from '../alternateComponents/PlainString';
 import baseStyle from '../baseStyle';
-
-import Emphasis from './Emphasis';
-import Small from './Small';
-import Strong from './Strong';
 
 export interface TextProps {
   /**
@@ -49,11 +44,13 @@ const Text = ({
   );
 };
 
+export default Text;
+
 const validChildType = PropTypes.oneOfType([
-  childrenOfType(Small),
-  childrenOfType(Emphasis),
-  childrenOfType(Strong),
-  childrenOfType(PlainString),
+  childrenOfType(require('./Small')),
+  childrenOfType(require('./Emphasis')),
+  childrenOfType(require('./Strong')),
+  childrenOfType(require('../alternateComponents/PlainString')),
   PropTypes.string,
   PropTypes.number,
 ]);
@@ -64,5 +61,3 @@ Text.propTypes = {
     PropTypes.arrayOf(validChildType),
   ]),
 };
-
-export default Text;

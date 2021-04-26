@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`ResizableElements renders the correct sized elements 1`] = `
-.emotion-5 {
+.emotion-0 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -14,28 +14,27 @@ exports[`ResizableElements renders the correct sized elements 1`] = `
   width: 100%;
 }
 
-.emotion-0 {
+.emotion-1 {
   height: 100%;
   float: left;
-  overflow: hidden;
   position: relative;
 }
 
-.emotion-1 {
+.emotion-2 {
   cursor: col-resize;
   height: 100%;
   width: 5px;
 }
 
-.emotion-1:hover {
+.emotion-2:hover {
   background-color: #e5e1da;
 }
 
 <div
-  class="emotion-5"
+  class="emotion-0"
 >
   <div
-    class="emotion-0"
+    class="emotion-1"
     style="width: calc(33.333333333333336% + -3.3333333333333335px);"
   >
     <div>
@@ -43,12 +42,12 @@ exports[`ResizableElements renders the correct sized elements 1`] = `
     </div>
   </div>
   <div
-    class="emotion-1"
+    class="emotion-2"
     role="separator"
     style="left: 0px;"
   />
   <div
-    class="emotion-0"
+    class="emotion-1"
     style="width: calc(33.333333333333336% + -3.3333333333333335px);"
   >
     <div>
@@ -56,12 +55,12 @@ exports[`ResizableElements renders the correct sized elements 1`] = `
     </div>
   </div>
   <div
-    class="emotion-1"
+    class="emotion-2"
     role="separator"
     style="left: 0px;"
   />
   <div
-    class="emotion-0"
+    class="emotion-1"
     style="width: calc(33.333333333333336% + -3.3333333333333335px);"
   >
     <div>

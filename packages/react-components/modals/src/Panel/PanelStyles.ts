@@ -1,9 +1,10 @@
-import { css } from '@emotion/core';
+import { css } from '@emotion/react';
 
 export const animationTime = 600;
 const baseContentStyle = css({
   bottom: '0',
   margin: 'auto',
+  maxWidth: '100%',
   opacity: 0,
   outline: 'none',
   position: 'absolute',
@@ -24,7 +25,7 @@ export const contentStyles = {
 
 export const contentStyleAfterOpen = css`
   opacity: 1 !important;
-  transform: translate(0, 0) !important;
+  transform: none !important;
 `;
 
 export const contentStylesBeforeClose = {

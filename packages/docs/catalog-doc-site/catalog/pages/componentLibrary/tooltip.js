@@ -3,7 +3,7 @@ import Card from '@datacamp/waffles-card';
 import { Heading, Link, Paragraph } from '@datacamp/waffles-text';
 import TooltipData from '@datacamp/waffles-tooltip/componentMetadata.json';
 /* @jsx jsx */
-import { jsx } from '@emotion/core';
+import { jsx } from '@emotion/react';
 import { Page } from 'catalog';
 import React from 'react';
 

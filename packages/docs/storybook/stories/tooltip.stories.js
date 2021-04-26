@@ -1,5 +1,5 @@
 import Tooltip from '@datacamp/waffles-tooltip';
-import { css } from '@emotion/core';
+import { css } from '@emotion/react';
 import { storiesOf } from '@storybook/react';
 import React from 'react';
 

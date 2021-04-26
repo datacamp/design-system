@@ -3,7 +3,7 @@
 exports[`<Strong /> renders 1`] = `
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(5,25,45);
+  color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
   font-weight: 800;

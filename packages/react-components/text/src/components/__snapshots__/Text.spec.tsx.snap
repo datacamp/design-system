@@ -1,18 +1,18 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<Text /> renders with Small children 1`] = `
-.emotion-1 {
+.emotion-0 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(5,25,45);
+  color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
 }
 
-.emotion-0 {
+.emotion-1 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(5,25,45);
+  color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
   font-size: 14px;
@@ -20,13 +20,13 @@ exports[`<Text /> renders with Small children 1`] = `
 }
 
 <span
-  class="example-class emotion-1"
+  class="example-class emotion-0"
   data-example="testdata"
   data-item="othertest"
 >
   Some example text 
   <small
-    class="emotion-0"
+    class="emotion-1"
   >
     with strong
   </small>
@@ -35,18 +35,18 @@ exports[`<Text /> renders with Small children 1`] = `
 `;
 
 exports[`<Text /> renders with Strong children 1`] = `
-.emotion-1 {
+.emotion-0 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(5,25,45);
+  color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
 }
 
-.emotion-0 {
+.emotion-1 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(5,25,45);
+  color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
   font-weight: 800;
@@ -54,13 +54,13 @@ exports[`<Text /> renders with Strong children 1`] = `
 }
 
 <span
-  class="example-class emotion-1"
+  class="example-class emotion-0"
   data-example="testdata"
   data-item="othertest"
 >
   Some example text 
   <strong
-    class="emotion-0"
+    class="emotion-1"
   >
     with strong
   </strong>
@@ -71,7 +71,7 @@ exports[`<Text /> renders with Strong children 1`] = `
 exports[`<Text /> renders with a string 1`] = `
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(5,25,45);
+  color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
   font-size: 16px;

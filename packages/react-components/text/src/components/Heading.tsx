@@ -1,17 +1,15 @@
+/* eslint-disable global-require */
 import tokens from '@datacamp/waffles-tokens/lib/future-tokens.json';
 import {
+  childrenOfType,
   computeDataAttributes,
   ssrSafeNotFirstChildSelector,
 } from '@datacamp/waffles-utils';
-import { css, SerializedStyles } from '@emotion/core';
-import { childrenOfType } from 'airbnb-prop-types';
+import { css, SerializedStyles } from '@emotion/react';
 import PropTypes from 'prop-types';
 import React, { ReactElement, ReactNode } from 'react';
 
-import PlainString from '../alternateComponents/PlainString';
 import baseStyle from '../baseStyle';
-
-import Strong from './Strong';
 
 export type Size = 200 | 300 | 400 | 500 | 600 | 650 | 700 | 800 | 900;
 export type HeadingElement = 'h1' | 'h2' | 'h3' | 'h4' | 'h5' | 'h6';
@@ -118,8 +116,8 @@ const Heading = ({
 Heading.defaultProps = { multiLine: false };
 
 const validChildType = PropTypes.oneOfType([
-  childrenOfType(Strong),
-  childrenOfType(PlainString),
+  childrenOfType(require('./Strong')),
+  childrenOfType(require('../alternateComponents/PlainString')),
   PropTypes.string,
   PropTypes.number,
 ]);

@@ -3,7 +3,7 @@ import Card from '@datacamp/waffles-card';
 import { usePositioner } from '@datacamp/waffles-positioner';
 import { Text } from '@datacamp/waffles-text';
 import tokens from '@datacamp/waffles-tokens/lib/future-tokens.json';
-import { css } from '@emotion/core';
+import { css } from '@emotion/react';
 import React, { MutableRefObject, ReactElement } from 'react';
 
 interface TooltipProps {
