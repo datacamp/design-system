@@ -1,6 +1,6 @@
 {
   "name": "@datacamp/waffles-form-elements",
-  "version": "4.1.1",
+  "version": "4.1.2",
   "main": "lib/index.js",
   "module": "es/index.js",
   "types": "types/index.d.ts",
@@ -54,7 +54,7 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.12.1",
-    "@datacamp/waffles-icons": "^4.2.0",
+    "@datacamp/waffles-icons": "^4.3.0",
     "@datacamp/waffles-text": "^5.0.5",
     "@datacamp/waffles-tokens": "^1.0.6",
     "@datacamp/waffles-utils": "^3.1.1",

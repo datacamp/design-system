@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.0.8](https://github.com/datacamp/design-system/compare/@datacamp/waffles-storybook@3.0.7...@datacamp/waffles-storybook@3.0.8) (2021-04-26)
+
+
+### Bug Fixes
+
+* disable documentation deployment ([#1293](https://github.com/datacamp/design-system/issues/1293)) ([d322ad6](https://github.com/datacamp/design-system/commit/d322ad6))
+
+
+
+
+
 ## [3.0.7](https://github.com/datacamp/design-system/compare/@datacamp/waffles-storybook@3.0.6...@datacamp/waffles-storybook@3.0.7) (2021-03-09)
 
 **Note:** Version bump only for package @datacamp/waffles-storybook

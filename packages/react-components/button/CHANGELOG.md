@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [7.1.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-button@7.0.5...@datacamp/waffles-button@7.1.0) (2021-04-26)
+
+
+### Features
+
+* facebook and google social media button ([#1289](https://github.com/datacamp/design-system/issues/1289)) ([585eb03](https://github.com/datacamp/design-system/commit/585eb03))
+* improve performance ([#1292](https://github.com/datacamp/design-system/issues/1292)) ([119ce42](https://github.com/datacamp/design-system/commit/119ce42))
+
+
+
+
+
 ## [7.0.5](https://github.com/datacamp/design-system/compare/@datacamp/waffles-button@7.0.4...@datacamp/waffles-button@7.0.5) (2021-03-04)
 
 **Note:** Version bump only for package @datacamp/waffles-button

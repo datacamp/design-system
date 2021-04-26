@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [4.3.0](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/icons/compare/@datacamp/waffles-icons@4.2.0...@datacamp/waffles-icons@4.3.0) (2021-04-26)
+
+
+### Features
+
+* facebook and google social media button ([#1289](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/icons/issues/1289)) ([585eb03](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/icons/commit/585eb03))
+* info + ext link icon ([#1283](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/icons/issues/1283)) ([4676fe0](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/icons/commit/4676fe0))
+* nine dots icon ([#1229](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/icons/issues/1229)) ([e922ca2](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/icons/commit/e922ca2))
+
+
+
+
+
 # [4.2.0](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/icons/compare/@datacamp/waffles-icons@4.1.1...@datacamp/waffles-icons@4.2.0) (2021-03-04)
 
 
