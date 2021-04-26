@@ -4,6 +4,7 @@ const CopyWebpackPlugin = require('copy-webpack-plugin');
 const SVGSpritemapPlugin = require('svg-spritemap-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const RemovePlugin = require('remove-files-webpack-plugin');
+const OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin');
 
 const nodeEnv = process.env.NODE_ENV || 'development';
 const dev = nodeEnv === 'production';
@@ -11,7 +12,7 @@ const outputDir = 'lib';
 
 module.exports = {
   devtool: dev ? 'cheap-module-source-map' : 'source-map',
-  entry: './scss/ingredients.scss',
+  entry: { core: './core.js', index: './index.js' },
   module: {
     rules: [
       {
@@ -52,14 +53,15 @@ module.exports = {
   },
 
   output: {
-    filename: 'ingredients.scss',
     path: path.join(__dirname, `./${outputDir}`),
   },
 
   plugins: [
     new MiniCssExtractPlugin({
-      filename: 'css/waffles.[contenthash:8].css',
+      filename: 'css/[name].waffles.[contenthash:8].css',
     }),
+
+    new OptimizeCssAssetsPlugin(),
 
     new SVGSpritemapPlugin('icons/svgs/*.svg', {
       output: {
@@ -83,15 +85,16 @@ module.exports = {
 
     new CopyWebpackPlugin({
       patterns: [
-        // Copy source SCSS files (except ingredients) to package
+        // Copy source SCSS files (except those importing variables) to package
         {
           from: 'scss/**/*',
-          globOptions: { ignore: ['**/ingredients.scss', '**/.*'] },
+          globOptions: {
+            ignore: ['**/{core-ingredients,normalize}.scss'],
+          },
         },
-        // Copy ingredients SCSS to package and replace variables import
+        // Copy remaining SCSS files to package and replace variables import
         {
-          from: 'scss/ingredients.scss',
-          to: 'scss',
+          from: 'scss/{core-ingredients,normalize}.scss',
           transform(content) {
             return content
               .toString()
@@ -104,7 +107,6 @@ module.exports = {
         // Copy variables SCSS to package from waffles-tokens
         {
           from: 'node_modules/@datacamp/waffles-tokens/lib/variables.scss',
-          globOptions: { ignore: ['**/.*'] },
           to: 'scss/design',
         },
         // Copy raw svg icons to package
@@ -120,8 +122,8 @@ module.exports = {
     // remove webpack artifact
     new RemovePlugin({
       after: {
-        include: ['ingredients.scss'],
-        root: 'lib',
+        include: ['index.js', 'index.js.map', 'core.js', 'core.js.map'],
+        root: './lib',
       },
     }),
   ],

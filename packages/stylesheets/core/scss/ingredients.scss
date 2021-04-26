@@ -9,14 +9,7 @@
 //   Globals
 // -------------------------------------
 
-//----- Vendor -----//
-@import 'design/vendor/feixen-font';
-@import './design/vendor/jetbrains-mono-font';
-@import 'design/vendor/normalize';
-
-//----- Variables -----//
-// this file is copied into built version and this path changed to reflect the copied file
-@import '~@datacamp/waffles-tokens/lib/variables.scss';
+@import 'core-ingredients';
 
 //----- Mixins -----//
 @import 'design/mixins/mixins';

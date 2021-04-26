@@ -19,8 +19,10 @@ export default () => {
             <h4>Usage</h4>
             <p>
               The Design package contains the &quot;core&quot; styles that are
-              necessary to build UIs at DataCamp. Ingredients is an option that
-              will import all of the styles, including{' '}
+              necessary to build UIs at DataCamp. Apps that only want a css
+              reset, font declarations and tokens can import Core Ingredients.
+              Ingredients is an option that will import all of the styles,
+              including{' '}
               <a href="/stylesheets/utility-classes">Design Utilities</a>.
             </p>
 
@@ -37,6 +39,13 @@ export default () => {
               </div>
               <div className="dc-u-pl-16">
                 <h5 className="dc-u-mb-0 dc-u-mt-0">SCSS to Build</h5>
+                <p className="dc-u-mb-8 dc-u-mt-4">
+                  Import the common base Design SCSS as part of your build.
+                </p>
+                <code className="dc-u-ml-0">
+                  @import
+                  &quot;@datacamp/waffles-core/lib/scss/core-ingredients&quot;;
+                </code>
                 <p className="dc-u-mb-8 dc-u-mt-4">
                   Import all of the Design SCSS as part of your build.
                 </p>
