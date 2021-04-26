@@ -7,8 +7,7 @@
       "containers": [
         {
           "containerName": "waffles-storybook-${BRANCH}",
-          "containerImage": "waffles-storybook",
-          "containerTag": "${CIRCLE_SHA1}",
+          "containerURI": "708371444347.dkr.ecr.us-east-1.amazonaws.com/waffles-storybook:${CIRCLE_SHA1}",
           "memoryReservation": 256,
           "cpu": 64,
           "essential": true,
