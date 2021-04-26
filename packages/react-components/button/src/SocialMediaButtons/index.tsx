@@ -1,6 +1,6 @@
 import {
-  FacebookBrandIcon,
-  GoogleBrandIcon,
+  FacebookRoundBrandIcon,
+  GoogleColoredBrandIcon,
   LinkedinBrandIcon,
   TwitterBrandIcon,
 } from '@datacamp/waffles-icons';
@@ -50,13 +50,13 @@ export const TwitterButton = socialMediaButtonFactory(
 export const FacebookButton = socialMediaButtonFactory(
   'Facebook',
   '#1778f2',
-  <FacebookBrandIcon />,
+  <FacebookRoundBrandIcon />,
 );
 
 export const GoogleButton = socialMediaButtonFactory(
   'Google',
   '#db4437',
-  <GoogleBrandIcon />,
+  <GoogleColoredBrandIcon />,
 );
 
 export const LinkedinButton = socialMediaButtonFactory(
