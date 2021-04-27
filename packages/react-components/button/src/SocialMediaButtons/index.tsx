@@ -64,5 +64,3 @@ export const LinkedinButton = socialMediaButtonFactory(
   '#0e76a8',
   <LinkedinBrandIcon />,
 );
-
-// Force re-release

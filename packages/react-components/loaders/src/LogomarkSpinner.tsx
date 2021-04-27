@@ -93,5 +93,3 @@ const LogomarkSpinner = ({
 );
 
 export default LogomarkSpinner;
-
-// Force re-release

@@ -372,5 +372,3 @@ const Button = React.forwardRef<any, ButtonProps>((props, ref) => (
 ));
 
 export default Button;
-
-// Force re-release
