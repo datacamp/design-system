@@ -21,7 +21,10 @@ class CustomDocument extends Document<DocumentInitialProps> {
     return (
       <Html>
         <Head lang="en">
-          <link href="/favicon.png" rel="icon" sizes="32x32" type="image/png" />
+          <link href="/favicon.ico" rel="icon" />
+          <link href="/icon.svg" rel="icon" type="image/svg+xml" />
+          <link href="/apple-touch-icon.png" rel="apple-touch-icon" />
+          <link href="/manifest.webmanifest" rel="manifest" />
           <style>{`
 *,
 ::before,
