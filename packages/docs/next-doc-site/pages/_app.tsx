@@ -4,17 +4,16 @@ import { AppProps } from 'next/app';
 import Head from 'next/head';
 import React from 'react';
 
-const App = ({ Component, pageProps }: AppProps): React.ReactElement => {
+function App({ Component, pageProps }: AppProps): JSX.Element {
   return (
     <>
       <GlobalFontFaces />
       <Head>
-        <title>Waffles</title>
-        <link href="/favicon.png" rel="icon" />
+        <title>Waffles - The DataCamp Design System</title>
       </Head>
       <Component {...pageProps} />
     </>
   );
-};
+}
 
 export default App;
