@@ -1,0 +1,11 @@
+{
+  "name": "Waffles",
+  "short_name": "Waffles",
+  "icons": [
+    { "src": "/icon-192.png", "type": "image/png", "sizes": "192x192" },
+    { "src": "/icon-512.png", "type": "image/png", "sizes": "512x512" }
+  ],
+  "theme_color": "#03ef62",
+  "background_color": "#fffbff3",
+  "display": "standalone"
+}
