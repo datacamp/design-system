@@ -1,0 +1,43 @@
+@font-face {
+  font-family: 'Studio-Feixen-Sans';
+  src: url('https://waffles.datacamp.com/fonts/StudioFeixenSans-Regular.woff2')
+      format('woff2'),
+    url('https://waffles.datacamp.com/fonts/StudioFeixenSans-Regular.woff')
+      format('woff');
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Studio-Feixen-Sans';
+  src: url('https://waffles.datacamp.com/fonts/StudioFeixenSans-Bold.woff2')
+      format('woff2'),
+    url('https://waffles.datacamp.com/fonts/StudioFeixenSans-Bold.woff')
+      format('woff');
+  font-weight: 800;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Studio-Feixen-Sans';
+  src: url('https://waffles.datacamp.com/fonts/StudioFeixenSans-Book.woff2')
+      format('woff2'),
+    url('https://waffles.datacamp.com/fonts/StudioFeixenSans-Book.woff')
+      format('woff');
+  font-weight: 100;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'JetBrainsMonoNL';
+  src: url('https://waffles.datacamp.com/fonts/JetBrainsMono-Regular.woff2')
+      format('woff2'),
+    url('https://waffles.datacamp.com/fonts/JetBrainsMono-Regular.woff')
+      format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
