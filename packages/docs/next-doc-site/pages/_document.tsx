@@ -49,6 +49,10 @@ class CustomDocument extends Document<DocumentInitialProps> {
 body {
   margin: 0;
 }
+::selection {
+  background: rgba(109, 233, 116, 0.5);
+  color: inherit;
+}
           `}</style>
         </Head>
         <body>
