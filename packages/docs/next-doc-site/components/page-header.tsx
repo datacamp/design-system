@@ -5,17 +5,20 @@ import { css } from '@emotion/react';
 import Head from 'next/head';
 import { Fragment } from 'react';
 
-import { MAX_CONTENT_WIDTH } from './constants';
+import { MAX_CONTENT_WIDTH, PAGE_HEADER_HEIGHT } from './constants';
 
 const headerStyle = css`
+  display: flex;
+  align-items: flex-end;
   background-color: ${colors.navy};
   width: 100%;
   padding: 32px;
-  padding-top: 48px;
+  padding-top: 0;
+  height: ${PAGE_HEADER_HEIGHT}px;
 `;
 
 const contentStyle = css`
-  max-width: ${MAX_CONTENT_WIDTH}px;
+  max-width: ${MAX_CONTENT_WIDTH - 48}px;
 `;
 
 const categoryStyle = css`
