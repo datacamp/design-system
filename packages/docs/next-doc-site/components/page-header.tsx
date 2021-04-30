@@ -3,7 +3,10 @@ import { Heading, Paragraph } from '@datacamp/waffles-text';
 import { colors, fontSize, fontWeight } from '@datacamp/waffles-tokens';
 import { css } from '@emotion/react';
 import Head from 'next/head';
+import { useRouter } from 'next/router';
 import { Fragment } from 'react';
+
+import categoryFromPath from '../helpers/category-from-path';
 
 import { MAX_CONTENT_WIDTH, PAGE_HEADER_HEIGHT } from './constants';
 
@@ -39,7 +42,7 @@ const overviewStyle = css`
 `;
 
 type PageHeaderProps = {
-  category: string;
+  category?: string;
   overview: string;
   pageTitle: string;
 };
@@ -49,6 +52,10 @@ function PageHeader({
   overview,
   pageTitle,
 }: PageHeaderProps): JSX.Element {
+  // If category is not provided take it from path
+  const { pathname } = useRouter();
+  const genericCategory = category ?? categoryFromPath(pathname);
+
   return (
     <Fragment>
       <Head>
@@ -56,7 +63,7 @@ function PageHeader({
       </Head>
       <header css={headerStyle}>
         <div css={contentStyle}>
-          <Paragraph css={categoryStyle}>{category}</Paragraph>
+          <Paragraph css={categoryStyle}>{genericCategory}</Paragraph>
           <Heading as="h1" css={titleStyle} multiLine size={700}>
             {pageTitle}
           </Heading>
