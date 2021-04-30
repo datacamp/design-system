@@ -43,6 +43,7 @@ const copyStyle = css`
   padding-bottom: 16px;
   color: ${colors.white};
   opacity: 0.5;
+  user-select: none;
 `;
 
 function Sidebar(): JSX.Element {
