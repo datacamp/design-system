@@ -5,7 +5,7 @@ import React from 'react';
 const stroke = keyframes({ '100%': { strokeDashoffset: 0 } });
 
 const logoStartMask = keyframes({
-  '5%': {
+  '0%, 6%': {
     clipPath: 'polygon(0% -12%, 0% -12%, 169% 63%, 169% 63%)',
   },
   '100%': {
@@ -14,10 +14,10 @@ const logoStartMask = keyframes({
 });
 
 const logoEndMask = keyframes({
-  '71%': {
-    clipPath: 'polygon(0% 0%, 0% 77%, 100% 34%, 100% -44%)',
+  '0%, 71%': {
+    clipPath: 'polygon(0% 0%, 0% 78.5%, 100% 34.5%, 100% -44%)',
   },
-  '95%': {
+  '96%, 100%': {
     clipPath: 'polygon(0% 0%, 0% 140%, 100% 96%, 100% -44%)',
   },
 });
@@ -36,59 +36,58 @@ const LogomarkSpinner = ({
   size = '100px',
 }: LogomarkSpinner): React.ReactElement => (
   // In Safari clip-path on SVG elements seems to break
-  <div css={{ position: 'relative', width: size }}>
-    <div css={{ paddingTop: '100%' }}>
-      <ClassNames>
-        {({ css, cx }) => (
+  <div css={{ height: size, width: size }}>
+    <ClassNames>
+      {({ css, cx }) => (
+        <div
+          className={cx(
+            className,
+            css({
+              animation: `${logoStartMask} cubic-bezier(0.65, 0, 0.55, 1) ${animationSettings}`,
+              margin: 'auto',
+              width: '76.65%',
+              willChange: 'clip-path',
+            }),
+          )}
+        >
           <div
-            className={cx(
-              className,
-              css({
-                animation: `${logoStartMask} cubic-bezier(0.65, 0, 0.55, 1) ${animationSettings}`,
-                bottom: 0,
-                left: '11.675%',
-                position: 'absolute',
-                right: '11.675%',
-                top: 0,
-              }),
-            )}
+            css={{
+              animation: `${logoEndMask} cubic-bezier(0, 0, 0.85, 1) ${animationSettings}`,
+              willChange: 'clip-path',
+            }}
           >
             <div
               css={{
-                animation: `${logoEndMask} cubic-bezier(0.3, 0.75, 1, 0.85) ${animationSettings}`,
+                clipPath: 'polygon(-0.1% -10%, 169% 65%, -0.1% 139%)',
               }}
             >
-              <div
-                css={{
-                  clipPath: 'polygon(0% -10%, 168.5% 64%, 0% 135%)',
-                }}
+              <svg
+                css={{ display: 'block' }}
+                version="1.1"
+                viewBox="0 0 2640 3444"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlnsXlink="http://www.w3.org/1999/xlink"
               >
-                <svg
-                  version="1.1"
-                  viewBox="0 0 2640 3444"
-                  xmlns="http://www.w3.org/2000/svg"
-                  xmlnsXlink="http://www.w3.org/1999/xlink"
-                >
-                  <title>Loading</title>
-                  <path
-                    css={{
-                      animation: `${stroke} cubic-bezier(0.65, 0, 0.55, 1) ${animationSettings}`,
-                      strokeDasharray: 9800,
-                      strokeDashoffset: 9800,
-                    }}
-                    d="M0 0 M2569 1056L143 2447V149l1175 673v1867l1248 715"
-                    fill="none"
-                    stroke={tokens.color.primary[color].value.hex}
-                    strokeLinejoin="round"
-                    strokeWidth="300"
-                  />
-                </svg>
-              </div>
+                <title>Loading</title>
+                <path
+                  css={{
+                    animation: `${stroke} cubic-bezier(0.65, 0, 0.55, 1) ${animationSettings}`,
+                    strokeDasharray: 9800,
+                    strokeDashoffset: 9800,
+                    willChange: 'stroke-dashoffset',
+                  }}
+                  d="M0 0 M2569 1056L143 2447V149l1175 673v1867l1248 715"
+                  fill="none"
+                  stroke={tokens.color.primary[color].value.hex}
+                  strokeLinejoin="round"
+                  strokeWidth="300"
+                />
+              </svg>
             </div>
           </div>
-        )}
-      </ClassNames>
-    </div>
+        </div>
+      )}
+    </ClassNames>
   </div>
 );
 
