@@ -31,10 +31,6 @@ const linkStyle = css`
   margin: 0;
   outline: 0;
   border-radius: ${border.radius};
-  & svg {
-    width: 100%;
-    height: 100%;
-  }
 
   &:focus-visible {
     background-color: rgba(255, 255, 255, 0.1);
