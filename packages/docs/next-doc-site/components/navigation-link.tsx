@@ -7,20 +7,16 @@ import {
 } from '@datacamp/waffles-tokens';
 import { css } from '@emotion/react';
 import Link from 'next/link';
-import { useRouter } from 'next/router';
 
 const linkStyle = css`
   display: block;
   color: ${colors.white};
   width: 100%;
   outline: 0;
-  font-size: ${fontSize.base};
-  font-weight: ${fontWeight.regular} !important;
+  font-size: ${fontSize.h6};
+  font-weight: ${fontWeight.regular};
   font-family: ${fontFamily.sansSerif};
-  border: 1px solid ${colors.navy};
-  border-left: none;
-  border-right: none;
-  padding: 16px 48px;
+  padding: 8px 48px;
   text-decoration: none;
   line-height: 1.5;
   user-select: none;
@@ -33,21 +29,16 @@ const linkStyle = css`
 type NavigationLinkProps = {
   children: React.ReactNode;
   href: string;
-};
+} & React.HTMLProps<HTMLAnchorElement>;
 
-function NavigationLink({ children, href }: NavigationLinkProps): JSX.Element {
-  const { pathname } = useRouter();
-  const isActive = pathname === href;
-
+function NavigationLink({
+  children,
+  href,
+  ...restProps
+}: NavigationLinkProps): JSX.Element {
   return (
     <Link href={href} passHref>
-      <a
-        css={css`
-          ${linkStyle};
-          color: ${isActive ? colors.green : colors.white};
-          background-color: ${isActive ? colors.navy : colors.navyDark};
-        `}
-      >
+      <a {...restProps} css={linkStyle}>
         {children}
       </a>
     </Link>
