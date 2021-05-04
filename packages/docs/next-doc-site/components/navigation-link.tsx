@@ -8,6 +8,8 @@ import {
 import { css } from '@emotion/react';
 import Link from 'next/link';
 
+import { A11Y_COLOR } from './constants';
+
 const linkStyle = css`
   display: block;
   color: ${colors.white};
@@ -22,7 +24,7 @@ const linkStyle = css`
   user-select: none;
 
   &:focus-visible {
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: ${A11Y_COLOR};
   }
 `;
 
