@@ -63,7 +63,9 @@ function PageHeader({
       </Head>
       <header css={headerStyle}>
         <div css={contentStyle}>
-          <Paragraph css={categoryStyle}>{genericCategory}</Paragraph>
+          {genericCategory && (
+            <Paragraph css={categoryStyle}>{genericCategory}</Paragraph>
+          )}
           <Heading as="h1" css={titleStyle} multiLine size={700}>
             {pageTitle}
           </Heading>
