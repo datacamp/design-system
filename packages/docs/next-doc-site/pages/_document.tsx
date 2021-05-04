@@ -50,13 +50,8 @@ body {
   margin: 0;
 }
 ::selection {
-  background: rgba(109, 233, 116, 0.5);
+  background: rgba(6, 189, 252, 0.5);
   color: inherit;
-}
-svg {
-  display: block;
-  width: 100%;
-  height: 100%;
 }
           `}</style>
         </Head>

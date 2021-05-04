@@ -3,7 +3,7 @@ import { border, colors } from '@datacamp/waffles-tokens';
 import { css } from '@emotion/react';
 import Link from 'next/link';
 
-import { PAGE_HEADER_HEIGHT, SIDEBAR_WIDTH } from './constants';
+import { A11Y_COLOR, PAGE_HEADER_HEIGHT, SIDEBAR_WIDTH } from './constants';
 import Logo from './logo';
 import Navigation from './navigation';
 
@@ -23,6 +23,11 @@ const headerStyle = css`
   padding: 40px;
   padding-bottom: 0;
   height: ${PAGE_HEADER_HEIGHT - 1}px;
+
+  svg {
+    width: 100%;
+    height: 100%;
+  }
 `;
 
 const linkStyle = css`
@@ -33,7 +38,7 @@ const linkStyle = css`
   border-radius: ${border.radius};
 
   &:focus-visible {
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: ${A11Y_COLOR};
   }
 `;
 
