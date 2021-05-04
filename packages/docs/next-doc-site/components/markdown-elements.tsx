@@ -1,4 +1,6 @@
 import {
+  Code,
+  CodeBlock as CodeBlockBase,
   Emphasis as EmphasisBase,
   Heading,
   Link,
@@ -6,6 +8,7 @@ import {
   Paragraph as ParagraphBase,
   Strong as StrongBase,
 } from '@datacamp/waffles-text';
+import React from 'react';
 
 export type TextProps = {
   children: string | React.ReactNode;
@@ -47,6 +50,18 @@ function Strong({ children }: TextProps): JSX.Element {
   return <StrongBase>{children}</StrongBase>;
 }
 
+type CodeProps = {
+  children: string;
+};
+
+function InlineCode({ children }: CodeProps): JSX.Element {
+  return <Code>{children}</Code>;
+}
+
+function CodeBlock({ children }: CodeProps): JSX.Element {
+  return <CodeBlockBase>{children}</CodeBlockBase>;
+}
+
 type RegularLinkProps = {
   children: string;
   href: string;
@@ -74,8 +89,10 @@ export default {
   h2: H2,
   h3: H3,
   h4: H4,
+  inlineCode: InlineCode,
   li: ListItem,
   p: Paragraph,
+  pre: CodeBlock,
   strong: Strong,
   ul: List,
 };
