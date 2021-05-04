@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@datacamp/waffles-card": "^5.0.3",
+    "@datacamp/waffles-icons": "^4.3.2",
     "@datacamp/waffles-text": "^5.0.5",
     "@datacamp/waffles-tokens": "^1.0.6",
     "@emotion/react": "^11.0.0",
@@ -17,6 +18,7 @@
     "@mdx-js/react": "1.6.22",
     "@next/mdx": "10.2.0",
     "next": "10.2.0",
+    "prism-react-renderer": "1.2.0",
     "react": "17.0.1",
     "react-dom": "17.0.1"
   },
