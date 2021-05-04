@@ -11,6 +11,10 @@ const sectionStyle = css`
   &:first-of-type {
     padding-top: 32px;
   }
+
+  &:last-of-type {
+    padding-bottom: 32px;
+  }
 `;
 
 const cardStyle = css`
