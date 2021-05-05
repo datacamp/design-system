@@ -34,7 +34,7 @@ const categoryStyle = css`
 
 const titleStyle = css`
   color: ${colors.white};
-  margin-top: 4px !important;
+  margin-top: 8px !important;
 `;
 
 const overviewStyle = css`
