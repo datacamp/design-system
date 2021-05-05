@@ -20,9 +20,12 @@ const wrapperStyle = css`
 `;
 
 const buttonStyle = css`
-  width: 130px;
+  width: 134px;
   border-bottom-left-radius: 0;
   border-top-right-radius: 0;
+  position: absolute;
+  bottom: 0;
+  right: 0;
 `;
 
 type ExampleProps = {
