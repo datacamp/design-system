@@ -9,6 +9,7 @@
     "prepare": "yarn build"
   },
   "dependencies": {
+    "@babel/preset-typescript": "^7.13.0",
     "@datacamp/waffles-card": "^5.0.3",
     "@datacamp/waffles-icons": "^4.3.2",
     "@datacamp/waffles-text": "^5.0.5",
@@ -20,7 +21,8 @@
     "next": "10.2.0",
     "prism-react-renderer": "1.2.0",
     "react": "17.0.1",
-    "react-dom": "17.0.1"
+    "react-dom": "17.0.1",
+    "react-view": "2.3.7"
   },
   "devDependencies": {
     "@types/mdx-js__react": "1.5.3"
