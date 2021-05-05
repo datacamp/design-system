@@ -8,9 +8,10 @@ import theme from './code-preview-theme';
 const wrapperStyle = css`
   padding: 16px;
   background-color: ${colors.navy};
-  border-radius: ${border.radius};
+  border-bottom-left-radius: ${border.radius};
+  border-bottom-right-radius: ${border.radius};
   border-left: 8px solid ${colors.purple};
-  margin-top: -6px;
+  overflow-x: scroll;
 `;
 
 type CodePreviewProps = {

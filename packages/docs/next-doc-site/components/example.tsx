@@ -1,21 +1,28 @@
+import { CodeIcon } from '@datacamp/waffles-icons';
 import { border, colors } from '@datacamp/waffles-tokens';
 import { css } from '@emotion/react';
 import { useEffect, useState } from 'react';
 
 import CodePreview from './code-preview';
-import ExampleCodeButton from './example-code-button';
+import Button from './code-preview-button';
 import Markdown from './markdown-elements';
 
 const sectionStyle = css`
   margin-top: 16px;
 `;
 
-const componentWrapperStyle = css`
+const wrapperStyle = css`
   padding: 16px;
   background-color: ${colors.grey200};
   border-radius: ${border.radius};
   margin-top: 8px;
   position: relative;
+`;
+
+const buttonStyle = css`
+  width: 130px;
+  border-bottom-left-radius: 0;
+  border-top-right-radius: 0;
 `;
 
 type ExampleProps = {
@@ -44,14 +51,30 @@ function Example({ children, path, title }: ExampleProps): JSX.Element {
   return (
     <section css={sectionStyle}>
       <Markdown.h3>{title}</Markdown.h3>
-      <div css={componentWrapperStyle}>
+      <div
+        css={css`
+          ${wrapperStyle};
+          ${isCodePreviewVisible &&
+          css`
+            border-bottom-right-radius: 0;
+            border-bottom-left-radius: 0;
+          `}
+        `}
+      >
         {children}
-        <ExampleCodeButton
+        <Button
+          css={css`
+            ${buttonStyle};
+            border-bottom-right-radius: ${isCodePreviewVisible
+              ? 0
+              : border.radius};
+          `}
           disabled={!code}
+          icon={<CodeIcon color={colors.white} />}
           onClick={toggleCodePreviewVisibility}
         >
           {isCodePreviewVisible ? 'Hide' : 'Show'} Code
-        </ExampleCodeButton>
+        </Button>
       </div>
       {code && isCodePreviewVisible && <CodePreview>{code}</CodePreview>}
     </section>
