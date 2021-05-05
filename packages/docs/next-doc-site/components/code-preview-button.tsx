@@ -12,13 +12,10 @@ const buttonStyle = css`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 6px 8px;
+  padding: 6px 12px 6px 8px;
   font-family: ${fontFamily.sansSerif};
   font-size: ${fontSize.h6};
   border-radius: ${border.radius};
-  position: absolute;
-  bottom: 0;
-  right: 0;
   cursor: pointer;
 
   &:focus-visible {

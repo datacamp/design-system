@@ -1,4 +1,5 @@
 import presetTypescript from '@babel/preset-typescript';
+import { BackIcon } from '@datacamp/waffles-icons';
 import { border, colors, fontFamily, fontSize } from '@datacamp/waffles-tokens';
 import { css } from '@emotion/react';
 import { Fragment } from 'react';
@@ -6,7 +7,12 @@ import { Compiler, Editor, Error, useView } from 'react-view';
 
 import { PlaygroundConfig } from '../types';
 
+import Button from './code-preview-button';
 import theme from './code-preview-theme';
+
+const wrapperStyle = css`
+  position: relative;
+`;
 
 const compilerStyle = css`
   padding: 16px;
@@ -14,6 +20,14 @@ const compilerStyle = css`
   background-color: ${colors.grey200};
   border-top-left-radius: ${border.radius};
   border-top-right-radius: ${border.radius};
+`;
+
+const buttonStyle = css`
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  border-radius: 0;
+  border-top-left-radius: ${border.radius};
 `;
 
 const editorStyle = css`
@@ -35,20 +49,30 @@ const errorStyle = css`
 `;
 
 function Playground({ initialCode, scope }: PlaygroundConfig): JSX.Element {
-  const { compilerProps, editorProps, errorProps } = useView({
+  const { actions, compilerProps, editorProps, errorProps } = useView({
     initialCode: initialCode.trim(),
     scope,
   });
+  const { reset } = actions;
 
   const hasError = !!errorProps.msg;
 
   return (
     <Fragment>
-      <Compiler
-        {...compilerProps}
-        css={compilerStyle}
-        presets={[presetTypescript]}
-      />
+      <div css={wrapperStyle}>
+        <Compiler
+          {...compilerProps}
+          css={compilerStyle}
+          presets={[presetTypescript]}
+        />
+        <Button
+          css={buttonStyle}
+          icon={<BackIcon color={colors.white} />}
+          onClick={reset}
+        >
+          Reset
+        </Button>
+      </div>
       <Editor
         {...editorProps}
         css={css`
