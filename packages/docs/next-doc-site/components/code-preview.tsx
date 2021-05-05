@@ -22,7 +22,7 @@ function CodePreview({ children }: CodePreviewProps): JSX.Element {
     <div css={wrapperStyle}>
       <Highlight
         {...defaultProps}
-        code={children.replace(/[\r\n]+$/, '')}
+        code={children.trim()}
         language="tsx"
         theme={theme}
       >
