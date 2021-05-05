@@ -6,6 +6,7 @@ import { A11Y_COLOR } from './constants';
 
 const buttonStyle = css`
   border: 0;
+  margin: 0;
   outline: 0;
   background-color: ${colors.navy};
   color: ${colors.white};
