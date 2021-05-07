@@ -22,6 +22,7 @@
     "prism-react-renderer": "1.2.0",
     "react": "17.0.1",
     "react-dom": "17.0.1",
+    "react-simple-code-editor": "^0.11.0",
     "react-view": "2.3.7"
   },
   "devDependencies": {
