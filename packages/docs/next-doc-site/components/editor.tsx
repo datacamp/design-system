@@ -14,12 +14,16 @@ const editorTheme = {
   },
 };
 
+type EditorProps = {
+  setIsFocused: (isFocused: boolean) => void;
+} & TEditorProps;
+
 function Editor({
   code: globalCode = '',
   onChange,
   placeholder,
-}: TEditorProps): JSX.Element {
-  // const [focused, setFocused] = React.useState(false);
+  setIsFocused,
+}: EditorProps): JSX.Element {
   const [code, setCode] = useValueDebounce<string>(globalCode, onChange);
 
   return (
@@ -32,6 +36,8 @@ function Editor({
       <SimpleEditor
         highlight={(code) => <Highlight theme={editorTheme}>{code}</Highlight>}
         ignoreTabKey={true}
+        onBlur={() => setIsFocused(false)}
+        onFocus={() => setIsFocused(true)}
         onValueChange={(code) => setCode(code)}
         placeholder={placeholder}
         style={editorTheme.plain as React.CSSProperties}
