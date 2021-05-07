@@ -5,6 +5,8 @@ import { useEffect, useState } from 'react';
 
 import CodePreview from './code-preview';
 import Button from './code-preview-button';
+import basicTheme from './code-preview-theme';
+import Highlight from './highlight';
 import Markdown from './markdown-elements';
 
 const sectionStyle = css`
@@ -26,6 +28,10 @@ const buttonStyle = css`
   position: absolute;
   bottom: 0;
   right: 0;
+`;
+
+const previewStyle = css`
+  overflow-x: scroll;
 `;
 
 type ExampleProps = {
@@ -79,7 +85,11 @@ function Example({ children, path, title }: ExampleProps): JSX.Element {
           {isCodePreviewVisible ? 'Hide' : 'Show'} Code
         </Button>
       </div>
-      {code && isCodePreviewVisible && <CodePreview>{code}</CodePreview>}
+      {code && isCodePreviewVisible && (
+        <CodePreview css={previewStyle}>
+          <Highlight theme={basicTheme}>{code.trim()}</Highlight>
+        </CodePreview>
+      )}
     </section>
   );
 }
