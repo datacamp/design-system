@@ -3,12 +3,13 @@ import { BackIcon } from '@datacamp/waffles-icons';
 import { border, colors, fontFamily, fontSize } from '@datacamp/waffles-tokens';
 import { css } from '@emotion/react';
 import { Fragment } from 'react';
-import { Compiler, Editor, Error, useView } from 'react-view';
+import { Compiler, Error, useView } from 'react-view';
 
 import { PlaygroundConfig } from '../types';
 
+import CodePreview from './code-preview';
 import Button from './code-preview-button';
-import theme from './code-preview-theme';
+import Editor from './editor';
 
 const wrapperStyle = css`
   position: relative;
@@ -28,12 +29,6 @@ const buttonStyle = css`
   bottom: 0;
   border-radius: 0;
   border-top-left-radius: ${border.radius};
-`;
-
-const editorStyle = css`
-  background-color: ${colors.navy};
-  border-left: 8px solid ${colors.purple};
-  padding: 8px;
 `;
 
 const errorStyle = css`
@@ -73,16 +68,15 @@ function Playground({ initialCode, scope }: PlaygroundConfig): JSX.Element {
           Reset
         </Button>
       </div>
-      <Editor
-        {...editorProps}
+      <CodePreview
         css={css`
-          ${editorStyle}
           border-bottom-left-radius: ${hasError ? 0 : border.radius};
           border-bottom-right-radius: ${hasError ? 0 : border.radius};
         `}
-        language="tsx"
-        theme={theme}
-      />
+      >
+        <Editor {...editorProps} />
+      </CodePreview>
+
       <Error {...errorProps} css={errorStyle} />
     </Fragment>
   );
