@@ -1,9 +1,6 @@
 // eslint-disable-next-line filenames/match-exported
 import { border, colors } from '@datacamp/waffles-tokens';
 import { css } from '@emotion/react';
-import Highlight, { defaultProps } from 'prism-react-renderer';
-
-import theme from './code-preview-theme';
 
 const wrapperStyle = css`
   padding: 16px;
@@ -11,34 +8,18 @@ const wrapperStyle = css`
   border-bottom-left-radius: ${border.radius};
   border-bottom-right-radius: ${border.radius};
   border-left: 8px solid ${colors.purple};
-  overflow-x: scroll;
+  overflow: hidden;
 `;
 
 type CodePreviewProps = {
-  children: string;
+  children: React.ReactNode;
+  className?: string;
 };
 
-function CodePreview({ children }: CodePreviewProps): JSX.Element {
+function CodePreview({ children, className }: CodePreviewProps): JSX.Element {
   return (
-    <div css={wrapperStyle}>
-      <Highlight
-        {...defaultProps}
-        code={children.trim()}
-        language="tsx"
-        theme={theme}
-      >
-        {({ getLineProps, getTokenProps, style, tokens }) => (
-          <pre style={{ ...style }}>
-            {tokens.map((line, index) => (
-              <div key={index} {...getLineProps({ key: index, line })}>
-                {line.map((token, key) => (
-                  <span key={key} {...getTokenProps({ key, token })} />
-                ))}
-              </div>
-            ))}
-          </pre>
-        )}
-      </Highlight>
+    <div className={className} css={wrapperStyle}>
+      {children}
     </div>
   );
 }
