@@ -1,13 +1,10 @@
-/* eslint-disable global-require */
 import tokens from '@datacamp/waffles-tokens/lib/future-tokens.json';
 import {
-  childrenOfType,
   computeDataAttributes,
   ssrSafeNotFirstChildSelector,
 } from '@datacamp/waffles-utils';
 import { css } from '@emotion/react';
-import PropTypes from 'prop-types';
-import React, { ReactElement, ReactNode } from 'react';
+import { ReactElement, ReactNode } from 'react';
 
 import baseStyle from '../baseStyle';
 
@@ -50,30 +47,6 @@ const Paragraph = ({
       {children}
     </p>
   );
-};
-
-const validChildType = PropTypes.oneOfType([
-  childrenOfType(require('./Strong')),
-  childrenOfType(require('./Text')),
-  childrenOfType(require('./Small')),
-  childrenOfType(require('./Emphasis')),
-  childrenOfType(require('./Code')),
-  childrenOfType(require('./Link')),
-  childrenOfType(require('../alternateComponents/AlternateCode')),
-  childrenOfType(require('../alternateComponents/PlainString')),
-  childrenOfType('br'),
-  childrenOfType('del'),
-  childrenOfType('img'),
-  childrenOfType('a'),
-  PropTypes.string,
-  PropTypes.number,
-]);
-
-Paragraph.propTypes = {
-  children: PropTypes.oneOfType([
-    validChildType,
-    PropTypes.arrayOf(validChildType),
-  ]),
 };
 
 export default Paragraph;
