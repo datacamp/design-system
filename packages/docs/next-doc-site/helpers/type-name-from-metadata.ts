@@ -1,7 +1,7 @@
 // eslint-disable-next-line filenames/match-exported
 import { PropMetadata } from '../types';
 
-// It's pretty dirty, but in future we won't it
+// For now it's pretty dirty, but in future we won't need it
 function typeNameFromMetadata(prop: PropMetadata): string {
   // First try type from propTypes
   if (prop.type) {
