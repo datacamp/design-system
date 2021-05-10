@@ -1,8 +1,11 @@
+import metadata from '@datacamp/waffles-text/componentMetadata.json';
+
 import Layout from '../../components/page-layout';
 import Header from '../../components/page-header';
 import Section from '../../components/page-section';
 import Example from '../../components/example';
 import Playground from '../../components/playground';
+import PropsTable from '../../components/props-table';
 
 import playgroundConfig from '../../examples/text/playground-config';
 import Paragraph from '../../examples/text/paragraph';
@@ -38,3 +41,14 @@ Short text components overview.
 </Example>
 
 </Section>
+
+<Section>
+
+## Props
+
+<PropsTable componentName="Text" metadata={metadata} />
+
+<PropsTable componentName="Paragraph" metadata={metadata} />
+
+</Section>
+
