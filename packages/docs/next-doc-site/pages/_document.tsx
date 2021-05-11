@@ -39,6 +39,13 @@ class CustomDocument extends Document<DocumentInitialProps> {
             rel="preload"
             type="font/woff2"
           />
+          <link
+            as="font"
+            crossOrigin="anonymous"
+            href="https://waffles.datacamp.com/fonts/JetBrainsMono-Regular.woff2"
+            rel="preload"
+            type="font/woff2"
+          />
           <link href="/fonts.css" rel="stylesheet" />
           <style>{`
 *,
