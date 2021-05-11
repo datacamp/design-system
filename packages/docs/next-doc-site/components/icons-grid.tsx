@@ -43,23 +43,23 @@ type IconsGridProps = {
 };
 
 function IconsGrid({ variant }: IconsGridProps): JSX.Element {
+  const isInverted = variant === 'inverted';
+
   function renderIcons(icons: typeof regularIcons): JSX.Element {
     return (
       <div
         css={css`
           ${wrapperStyle}
-          ${variant === 'inverted' &&
+          ${isInverted &&
           css`
             border: none;
           `};
-          background-color: ${variant === 'inverted'
-            ? colors.navyLight
-            : 'transparent'};
+          background-color: ${isInverted ? colors.navyLight : 'transparent'};
         `}
       >
         {icons.map((Icon, index) => (
           <Icon
-            color={variant === 'inverted' ? colors.white : colors.navyDark}
+            color={isInverted ? colors.white : colors.navyDark}
             css={iconStyle}
             key={`$icon-${index}`}
           />
