@@ -1,6 +1,8 @@
 import Layout from '../../components/page-layout';
 import Header from '../../components/page-header';
 import Section from '../../components/page-section';
+import IconsGrid from '../../components/icons-grid';
+import DownloadButton from '../../components/download-button';
 
 export default Layout;
 
@@ -11,10 +13,47 @@ export default Layout;
 
 <Section>
 
-## Section 1
+## Regular Icons
 
-The custom selection of icons. Rejoice #1.
+<IconsGrid variant="regular" />
 
-We will a lot of text in futere.
+</Section>
+
+<Section>
+
+## Inverted Icons
+
+<IconsGrid variant="inverted" />
+
+</Section>
+
+<Section>
+
+## Brand Icons
+
+<IconsGrid variant="brand" />
+
+</Section>
+
+<Section>
+
+## General Guidelines
+
+### Icon Usage
+
+Our icons are built with purpose and should be used to emphasise context and content. Icons should not be used as ornaments to decorate the page and should not be used at any other size than documented.
+
+If you intend to use the icons within an application, make sure to use the Waffles Icons package.
+For other purposes, you can download it below.
+
+<DownloadButton href="/downloads/icons.zip" download="icons.zip">Download Icons</DownloadButton>
+
+### Convention over Innovation
+
+Some icons are globally accepted as a standard. We should prefer conventions over innovation, for example a cog for settings.
+
+### Pair Icons with Text
+
+The purpose of an icon is to be a visual cue in the interface. There are rare exceptions where icons are universally understood actions, for example the trash icon for deletions.
 
 </Section>

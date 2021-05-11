@@ -1,6 +1,7 @@
 import Layout from '../../components/page-layout';
 import Header from '../../components/page-header';
 import Section from '../../components/page-section';
+import ColorsGrid from '../../components/colors-grid';
 
 export default Layout;
 
@@ -11,24 +12,24 @@ export default Layout;
 
 <Section>
 
-## Section 1
+## Brand Colors
 
-The custom selection of colors. Rejoice #1.
+The DataCamp brand colors are listed below, with their resepective hex codes. If you are wanting to use these colors in an application, check out the tokens package. For more details on usage, check the [full brand guidelines](/).
 
-</Section>
+<ColorsGrid category="Primary" colors={['green', 'navy']} />
 
-<Section>
+<ColorsGrid category="Secondary" colors={['blue', 'red', 'orange', 'purple', 'pink', 'yellow']} />
 
-## Section 2
-
-The custom selection of colors. Rejoice #2.
-
-</Section>
-
-<Section>
-
-## Section 3
-
-The custom selection of colors. Rejoice #3.
+<ColorsGrid category="Neutral" colors={[
+    'beige100',
+    'beige200',
+    'beige300',
+    'beige400',
+    'grey100',
+    'grey200',
+    'grey300',
+    'grey400',
+  ]}
+/>
 
 </Section>
