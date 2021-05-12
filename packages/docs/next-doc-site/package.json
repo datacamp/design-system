@@ -1,6 +1,6 @@
 {
   "name": "@datacamp/waffles-next-doc-site",
-  "version": "0.3.5",
+  "version": "0.4.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -12,7 +12,7 @@
     "@babel/preset-typescript": "^7.13.0",
     "@datacamp/waffles-card": "^5.0.3",
     "@datacamp/waffles-icons": "^4.3.2",
-    "@datacamp/waffles-text": "^5.0.5",
+    "@datacamp/waffles-text": "^5.1.0",
     "@datacamp/waffles-tokens": "^1.0.6",
     "@emotion/react": "^11.0.0",
     "@mdx-js/loader": "1.6.22",
