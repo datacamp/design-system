@@ -1,4 +1,5 @@
 import metadata from '@datacamp/waffles-text/componentMetadata.json';
+import * as TextExports from '@datacamp/waffles-text';
 
 import Layout from '../../components/page-layout';
 import Header from '../../components/page-header';
@@ -6,6 +7,7 @@ import Section from '../../components/page-section';
 import Example from '../../components/example';
 import Playground from '../../components/playground';
 import PropsTable from '../../components/props-table';
+import Imports from '../../components/imports';
 
 import playgroundConfig from '../../examples/text/playground-config';
 import Paragraph from '../../examples/text/paragraph';
@@ -52,3 +54,10 @@ Short text components overview.
 
 </Section>
 
+<Section>
+
+## Imports
+
+<Imports module={TextExports} path="@datacamp/waffles-text" />
+
+</Section>

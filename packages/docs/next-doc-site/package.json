@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@babel/preset-typescript": "^7.13.0",
+    "@datacamp/waffles-button": "^7.1.2",
     "@datacamp/waffles-card": "^5.0.3",
     "@datacamp/waffles-icons": "^4.3.2",
     "@datacamp/waffles-text": "^5.0.5",
