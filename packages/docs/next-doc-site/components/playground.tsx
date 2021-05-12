@@ -85,6 +85,8 @@ function Playground({ initialCode, scope }: PlaygroundConfig): JSX.Element {
       </div>
       <CodePreview
         css={css`
+          border-top-left-radius: 0;
+          border-top-right-radius: 0;
           border-bottom-left-radius: ${hasError ? 0 : border.radius};
           border-bottom-right-radius: ${hasError ? 0 : border.radius};
           border-left-color: ${isEditorFocused ? colors.green : colors.purple};

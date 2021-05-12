@@ -32,6 +32,8 @@ const buttonStyle = css`
 
 const previewStyle = css`
   overflow-x: scroll;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
 `;
 
 type ExampleProps = {

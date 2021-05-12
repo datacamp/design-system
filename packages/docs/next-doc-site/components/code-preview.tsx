@@ -6,8 +6,7 @@ const wrapperStyle = css`
   position: relative;
   padding: 16px;
   background-color: ${colors.navy};
-  border-bottom-left-radius: ${border.radius};
-  border-bottom-right-radius: ${border.radius};
+  border-radius: ${border.radius};
   border-left: 8px solid ${colors.purple};
   overflow: hidden;
 `;
