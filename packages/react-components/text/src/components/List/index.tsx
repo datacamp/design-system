@@ -1,10 +1,8 @@
 import {
-  childrenOfType,
   computeDataAttributes,
   ssrSafeNotFirstChildSelector,
 } from '@datacamp/waffles-utils';
 import { css } from '@emotion/react';
-import PropTypes from 'prop-types';
 import React, { ReactElement, ReactNode } from 'react';
 
 import baseStyle from '../../baseStyle';
@@ -56,13 +54,6 @@ const List = (props: ListProps): ReactElement => {
       {children}
     </Element>
   );
-};
-
-List.propTypes = {
-  children: PropTypes.oneOfType([
-    childrenOfType(ListItem),
-    PropTypes.arrayOf(childrenOfType(ListItem)),
-  ]),
 };
 
 List.Item = ListItem;
