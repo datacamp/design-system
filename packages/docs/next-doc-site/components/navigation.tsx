@@ -25,6 +25,11 @@ function Navigation(): JSX.Element {
           <Item href="/design/logo" label="Logo" />
           <Item href="/design/typography" label="Typography" />
         </Category>
+        <Category label="Content">
+          <Item href="/content/grammar" label="Grammar" />
+          <Item href="/content/terminology" label="Terminology" />
+          <Item href="/content/course-naming" label="Course Naming" />
+        </Category>
         <Category label="Components">
           <Item href="/components/text" label="Text" />
         </Category>
