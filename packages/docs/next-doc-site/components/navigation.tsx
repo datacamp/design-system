@@ -22,6 +22,7 @@ function Navigation(): JSX.Element {
         <Category label="Design">
           <Item href="/design/colors" label="Colors" />
           <Item href="/design/icons" label="Icons" />
+          <Item href="/design/logo" label="Logo" />
         </Category>
         <Category label="Components">
           <Item href="/components/text" label="Text" />
