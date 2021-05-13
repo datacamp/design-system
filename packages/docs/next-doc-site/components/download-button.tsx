@@ -44,17 +44,19 @@ const labelStyle = css`
 
 type DownloadButtonProps = {
   children: React.ReactNode;
+  className?: string;
   download: string;
   href: string;
 };
 
 function DownloadButton({
   children,
+  className,
   download,
   href,
 }: DownloadButtonProps): JSX.Element {
   return (
-    <a css={buttonStyle} download={download} href={href}>
+    <a className={className} css={buttonStyle} download={download} href={href}>
       <DownloadIcon />
       <span css={labelStyle}>{children}</span>
     </a>
