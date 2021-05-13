@@ -3,11 +3,12 @@ import {
   CodeBlock as CodeBlockBase,
   Emphasis as EmphasisBase,
   Heading,
-  Link,
+  Link as LinkBase,
   List as ListBase,
   Paragraph as ParagraphBase,
   Strong as StrongBase,
 } from '@datacamp/waffles-text';
+import Link from 'next/link';
 import React from 'react';
 
 export type TextProps = {
@@ -68,7 +69,11 @@ type RegularLinkProps = {
 };
 
 function RegularLink({ children, href }: RegularLinkProps): JSX.Element {
-  return <Link href={href}>{children}</Link>;
+  return (
+    <Link href={href} passHref>
+      <LinkBase>{children}</LinkBase>
+    </Link>
+  );
 }
 
 type ListProps = {
