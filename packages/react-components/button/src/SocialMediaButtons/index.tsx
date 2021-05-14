@@ -4,7 +4,7 @@ import {
   LinkedinBrandIcon,
   TwitterBrandIcon,
 } from '@datacamp/waffles-icons';
-import { colors } from '@datacamp/waffles-tokens';
+import tokens from '@datacamp/waffles-tokens';
 import React from 'react';
 import tinycolor from 'tinycolor2';
 
@@ -29,7 +29,7 @@ const socialMediaButtonFactory = (
         borderColor: color,
         color,
       },
-      borderColor: colors.grey400,
+      borderColor: tokens.colors.grey400,
       color,
     }}
     dataAttributes={dataAttributes}
