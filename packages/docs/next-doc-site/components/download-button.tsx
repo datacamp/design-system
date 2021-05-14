@@ -1,12 +1,6 @@
 // eslint-disable-next-line filenames/match-exported
 import { DownloadIcon } from '@datacamp/waffles-icons';
-import {
-  border,
-  colors,
-  fontFamily,
-  fontSize,
-  fontWeight,
-} from '@datacamp/waffles-tokens';
+import tokens from '@datacamp/waffles-tokens';
 import { css } from '@emotion/react';
 
 import { A11Y_COLOR } from './constants';
@@ -18,19 +12,19 @@ const buttonStyle = css`
   align-items: center;
   justify-content: center;
   border: 0;
-  color: ${colors.white};
-  background-color: ${colors.navy};
-  font-family: ${fontFamily.sansSerif};
-  border-radius: ${border.radius};
-  font-size: ${fontSize.h6};
-  font-weight: ${fontWeight.bold};
+  color: ${tokens.colors.white};
+  background-color: ${tokens.colors.navy};
+  font-family: ${tokens.fontFamily.sansSerif};
+  border-radius: ${tokens.border.radius};
+  font-size: ${tokens.fontSize.h6};
+  font-weight: ${tokens.fontWeight.bold};
   text-decoration: none;
   cursor: pointer;
   margin-top: 8px;
   outline: 0;
 
   &:hover {
-    background-color: ${colors.navyLight};
+    background-color: ${tokens.colors.navyLight};
   }
 
   &:focus-visible {

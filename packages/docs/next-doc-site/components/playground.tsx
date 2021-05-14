@@ -1,6 +1,6 @@
 import presetTypescript from '@babel/preset-typescript';
 import { BackIcon } from '@datacamp/waffles-icons';
-import { border, colors, fontFamily, fontSize } from '@datacamp/waffles-tokens';
+import tokens from '@datacamp/waffles-tokens';
 import { css } from '@emotion/react';
 import { Fragment, useState } from 'react';
 import { Compiler, Error, useView } from 'react-view';
@@ -18,9 +18,9 @@ const wrapperStyle = css`
 const compilerStyle = css`
   padding: 16px;
   margin-top: 8px;
-  background-color: ${colors.grey200};
-  border-top-left-radius: ${border.radius};
-  border-top-right-radius: ${border.radius};
+  background-color: ${tokens.colors.grey200};
+  border-top-left-radius: ${tokens.border.radius};
+  border-top-right-radius: ${tokens.border.radius};
 `;
 
 const buttonStyle = css`
@@ -28,18 +28,18 @@ const buttonStyle = css`
   right: 0;
   bottom: 0;
   border-radius: 0;
-  border-top-left-radius: ${border.radius};
+  border-top-left-radius: ${tokens.border.radius};
 `;
 
 const errorStyle = css`
-  background-color: ${colors.redDark};
+  background-color: ${tokens.colors.redDark};
   white-space: pre;
   padding: 16px;
-  color: ${colors.grey200};
-  font-family: ${fontFamily.mono};
-  font-size: ${fontSize.small};
-  border-bottom-left-radius: ${border.radius};
-  border-bottom-right-radius: ${border.radius};
+  color: ${tokens.colors.grey200};
+  font-family: ${tokens.fontFamily.mono};
+  font-size: ${tokens.fontSize.small};
+  border-bottom-left-radius: ${tokens.border.radius};
+  border-bottom-right-radius: ${tokens.border.radius};
   overflow: hidden;
 `;
 
@@ -48,9 +48,9 @@ const liveLabelStyle = css`
   position: absolute;
   bottom: 0;
   right: 0;
-  color: ${colors.grey200};
-  font-family: ${fontFamily.sansSerif};
-  font-size: ${fontSize.small};
+  color: ${tokens.colors.grey200};
+  font-family: ${tokens.fontFamily.sansSerif};
+  font-size: ${tokens.fontSize.small};
   text-transform: uppercase;
   user-select: none;
   padding: 8px 12px;
@@ -77,7 +77,7 @@ function Playground({ initialCode, scope }: PlaygroundConfig): JSX.Element {
         />
         <Button
           css={buttonStyle}
-          icon={<BackIcon color={colors.white} />}
+          icon={<BackIcon color={tokens.colors.white} />}
           onClick={reset}
         >
           Reset
@@ -87,9 +87,11 @@ function Playground({ initialCode, scope }: PlaygroundConfig): JSX.Element {
         css={css`
           border-top-left-radius: 0;
           border-top-right-radius: 0;
-          border-bottom-left-radius: ${hasError ? 0 : border.radius};
-          border-bottom-right-radius: ${hasError ? 0 : border.radius};
-          border-left-color: ${isEditorFocused ? colors.green : colors.purple};
+          border-bottom-left-radius: ${hasError ? 0 : tokens.border.radius};
+          border-bottom-right-radius: ${hasError ? 0 : tokens.border.radius};
+          border-left-color: ${isEditorFocused
+            ? tokens.colors.green
+            : tokens.colors.purple};
         `}
       >
         <Editor {...editorProps} setIsFocused={setIsEditorFocused} />

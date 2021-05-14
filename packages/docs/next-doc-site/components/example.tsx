@@ -1,5 +1,5 @@
 import { CodeIcon } from '@datacamp/waffles-icons';
-import { border, colors } from '@datacamp/waffles-tokens';
+import tokens from '@datacamp/waffles-tokens';
 import { css } from '@emotion/react';
 import { useEffect, useState } from 'react';
 
@@ -15,8 +15,8 @@ const sectionStyle = css`
 
 const wrapperStyle = css`
   padding: 16px;
-  background-color: ${colors.grey200};
-  border-radius: ${border.radius};
+  background-color: ${tokens.colors.grey200};
+  border-radius: ${tokens.border.radius};
   margin-top: 8px;
   position: relative;
 `;
@@ -78,10 +78,10 @@ function Example({ children, path, title }: ExampleProps): JSX.Element {
             ${buttonStyle};
             border-bottom-right-radius: ${isCodePreviewVisible
               ? 0
-              : border.radius};
+              : tokens.border.radius};
           `}
           disabled={!code}
-          icon={<CodeIcon color={colors.white} />}
+          icon={<CodeIcon color={tokens.colors.white} />}
           onClick={toggleCodePreviewVisibility}
         >
           {isCodePreviewVisible ? 'Hide' : 'Show'} Code

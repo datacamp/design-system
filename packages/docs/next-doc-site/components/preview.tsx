@@ -1,14 +1,14 @@
-import { border, colors } from '@datacamp/waffles-tokens';
+import tokens from '@datacamp/waffles-tokens';
 import { css } from '@emotion/react';
 
 const wrapperStyle = css`
   display: flex;
   flex-wrap: wrap;
-  border: 1px solid ${colors.beige400};
+  border: 1px solid ${tokens.colors.beige400};
   margin-top: 8px;
   padding: 8px;
   width: 100%;
-  border-radius: ${border.radius};
+  border-radius: ${tokens.border.radius};
 `;
 
 type Preview = {
@@ -31,7 +31,9 @@ function Preview({
         css`
           border: none;
         `};
-        background-color: ${isInverted ? colors.navyLight : 'transparent'};
+        background-color: ${isInverted
+          ? tokens.colors.navyLight
+          : 'transparent'};
       `}
     >
       {children}

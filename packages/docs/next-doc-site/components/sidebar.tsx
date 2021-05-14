@@ -1,5 +1,5 @@
 import { Small } from '@datacamp/waffles-text';
-import { border, colors } from '@datacamp/waffles-tokens';
+import tokens from '@datacamp/waffles-tokens';
 import { css } from '@emotion/react';
 import Link from 'next/link';
 
@@ -12,7 +12,7 @@ const wrapperStyle = css`
   height: 100vh;
   max-height: 100vh;
   width: ${SIDEBAR_WIDTH}px;
-  background-color: ${colors.navyDark};
+  background-color: ${tokens.colors.navyDark};
   overflow: hidden;
   display: flex;
   flex-direction: column;
@@ -35,7 +35,7 @@ const linkStyle = css`
   padding: 8px;
   margin: 0;
   outline: 0;
-  border-radius: ${border.radius};
+  border-radius: ${tokens.border.radius};
 
   &:focus-visible {
     background-color: ${A11Y_COLOR};
@@ -46,7 +46,7 @@ const copyStyle = css`
   display: block;
   padding-left: 48px;
   padding-bottom: 16px;
-  color: ${colors.white};
+  color: ${tokens.colors.white};
   opacity: 0.5;
   user-select: none;
 `;

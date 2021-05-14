@@ -1,5 +1,5 @@
 // eslint-disable-next-line filenames/match-exported
-import { border, colors, fontFamily, fontSize } from '@datacamp/waffles-tokens';
+import tokens from '@datacamp/waffles-tokens';
 import { css, Interpolation } from '@emotion/react';
 
 import { A11Y_COLOR } from './constants';
@@ -8,15 +8,15 @@ const buttonStyle = css`
   border: 0;
   margin: 0;
   outline: 0;
-  background-color: ${colors.navy};
-  color: ${colors.white};
+  background-color: ${tokens.colors.navy};
+  color: ${tokens.colors.white};
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 6px 12px 6px 8px;
-  font-family: ${fontFamily.sansSerif};
-  font-size: ${fontSize.h6};
-  border-radius: ${border.radius};
+  font-family: ${tokens.fontFamily.sansSerif};
+  font-size: ${tokens.fontSize.h6};
+  border-radius: ${tokens.border.radius};
   cursor: pointer;
 
   &:focus-visible {

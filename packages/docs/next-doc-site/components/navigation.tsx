@@ -1,4 +1,4 @@
-import { colors } from '@datacamp/waffles-tokens';
+import tokens from '@datacamp/waffles-tokens';
 import { css } from '@emotion/react';
 
 import Category from './navigation-category';
@@ -11,7 +11,7 @@ const navStyle = css`
 const listStyle = css`
   margin: 0;
   padding: 0;
-  border-bottom: 1px solid ${colors.navy};
+  border-bottom: 1px solid ${tokens.colors.navy};
 `;
 
 function Navigation(): JSX.Element {

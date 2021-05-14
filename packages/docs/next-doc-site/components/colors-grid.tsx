@@ -1,12 +1,5 @@
 // eslint-disable-next-line filenames/match-exported
-import {
-  border,
-  colors as colorTokens,
-  fontFamily,
-  fontSize,
-  fontWeight,
-  lineHeight,
-} from '@datacamp/waffles-tokens';
+import tokens from '@datacamp/waffles-tokens';
 import { css } from '@emotion/react';
 import { readableColor } from 'polished';
 import { Fragment } from 'react';
@@ -22,7 +15,7 @@ const wrapperStyle = css`
   list-style: none;
   display: flex;
   flex-wrap: wrap;
-  border-radius: ${border.radius};
+  border-radius: ${tokens.border.radius};
   overflow: hidden;
   margin-top: 8px;
 `;
@@ -33,20 +26,20 @@ const itemStyle = css`
 `;
 
 const itemLabelStyle = css`
-  font-family: ${fontFamily.sansSerif};
-  font-size: ${fontSize.h6};
-  line-height: ${lineHeight.base};
+  font-family: ${tokens.fontFamily.sansSerif};
+  font-size: ${tokens.fontSize.h6};
+  line-height: ${tokens.lineHeight.base};
 `;
 
 const MAX_ITEMS_PER_ROW = 4;
 
 type ColorGridProps = {
   category: string;
-  colors: Array<keyof typeof colorTokens>;
+  colors: Array<keyof typeof tokens.colors>;
 };
 
 function ColorsGrid({ category, colors }: ColorGridProps): JSX.Element {
-  const pickedColors = colorsFromTokens(colors, colorTokens);
+  const pickedColors = colorsFromTokens(colors, tokens.colors);
 
   return (
     <Fragment>
@@ -55,8 +48,8 @@ function ColorsGrid({ category, colors }: ColorGridProps): JSX.Element {
         {pickedColors.map((color, index) => {
           const labelColor = readableColor(
             color.value,
-            colorTokens.navyText,
-            colorTokens.white,
+            tokens.colors.navyText,
+            tokens.colors.white,
           );
           const denominator = colorItemsPerRow(
             pickedColors.length,
@@ -78,7 +71,7 @@ function ColorsGrid({ category, colors }: ColorGridProps): JSX.Element {
                 css={css`
                   ${itemLabelStyle}
                   text-transform: capitalize;
-                  font-weight: ${fontWeight.bold};
+                  font-weight: ${tokens.fontWeight.bold};
                   color: ${labelColor};
                 `}
               >

@@ -1,6 +1,6 @@
 // eslint-disable-next-line filenames/match-exported
 import * as allIcons from '@datacamp/waffles-icons';
-import { border, colors } from '@datacamp/waffles-tokens';
+import tokens from '@datacamp/waffles-tokens';
 import { css } from '@emotion/react';
 
 import Preview from './preview';
@@ -42,7 +42,7 @@ function IconsGrid({ variant }: IconsGridProps): JSX.Element {
       <Preview isInverted={isInverted}>
         {icons.map((Icon, index) => (
           <Icon
-            color={isInverted ? colors.white : colors.navyDark}
+            color={isInverted ? tokens.colors.white : tokens.colors.navyDark}
             css={iconStyle}
             key={`$icon-${index}`}
           />

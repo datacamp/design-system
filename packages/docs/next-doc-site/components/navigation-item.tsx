@@ -1,5 +1,5 @@
 // eslint-disable-next-line filenames/match-exported
-import { colors, fontSize } from '@datacamp/waffles-tokens';
+import tokens from '@datacamp/waffles-tokens';
 import { css } from '@emotion/react';
 import { useRouter } from 'next/router';
 
@@ -23,16 +23,20 @@ function NavigationItem({
     <li
       css={css`
         list-style: none;
-        color: ${isActive ? colors.green : colors.white};
-        background-color: ${isActive ? colors.navy : colors.navyDark};
-        border-top: ${isStandalone ? `1px solid ${colors.navy}` : 'none'};
+        color: ${isActive ? tokens.colors.green : tokens.colors.white};
+        background-color: ${isActive
+          ? tokens.colors.navy
+          : tokens.colors.navyDark};
+        border-top: ${isStandalone
+          ? `1px solid ${tokens.colors.navy}`
+          : 'none'};
       `}
     >
       <Link
         css={css`
-          color: ${isActive ? colors.green : colors.white};
+          color: ${isActive ? tokens.colors.green : tokens.colors.white};
           padding-left: ${isStandalone ? 48 : 64}px;
-          font-size: ${isStandalone ? fontSize.h4 : fontSize.h6};
+          font-size: ${isStandalone ? tokens.fontSize.h4 : tokens.fontSize.h6};
         `}
         href={href}
       >

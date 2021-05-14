@@ -1,5 +1,5 @@
 // eslint-disable-next-line filenames/match-exported
-import { colors } from '@datacamp/waffles-tokens';
+import tokens from '@datacamp/waffles-tokens';
 import { css } from '@emotion/react';
 import { Fragment } from 'react';
 
@@ -11,7 +11,7 @@ import Markdown from './markdown-elements';
 import Table from './table';
 
 const requiredStyle = css`
-  color: ${colors.redText};
+  color: ${tokens.colors.redText};
 `;
 
 const descriptionStyle = css`
