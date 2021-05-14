@@ -17,6 +17,7 @@ const wrapperStyle = css`
 
 const compilerStyle = css`
   padding: 16px;
+  padding-bottom: 40px;
   margin-top: 8px;
   background-color: ${tokens.colors.grey200};
   border-top-left-radius: ${tokens.border.radius};
@@ -56,7 +57,15 @@ const liveLabelStyle = css`
   padding: 8px 12px;
 `;
 
-function Playground({ initialCode, scope }: PlaygroundConfig): JSX.Element {
+type PlaygroundProps = {
+  minHeight?: number;
+} & PlaygroundConfig;
+
+function Playground({
+  initialCode,
+  minHeight,
+  scope,
+}: PlaygroundProps): JSX.Element {
   const { actions, compilerProps, editorProps, errorProps } = useView({
     initialCode: initialCode.trim(),
     scope,
@@ -72,7 +81,13 @@ function Playground({ initialCode, scope }: PlaygroundConfig): JSX.Element {
       <div css={wrapperStyle}>
         <Compiler
           {...compilerProps}
-          css={compilerStyle}
+          css={css`
+            ${compilerStyle}
+            ${minHeight &&
+            css`
+              min-height: ${minHeight}px;
+            `}
+          `}
           presets={[presetTypescript]}
         />
         <Button

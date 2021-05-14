@@ -15,6 +15,7 @@ const sectionStyle = css`
 
 const wrapperStyle = css`
   padding: 16px;
+  padding-bottom: 40px;
   background-color: ${tokens.colors.grey200};
   border-radius: ${tokens.border.radius};
   margin-top: 8px;
@@ -38,11 +39,17 @@ const previewStyle = css`
 
 type ExampleProps = {
   children: React.ReactNode;
+  minHeight?: number;
   path: string;
   title: string;
 };
 
-function Example({ children, path, title }: ExampleProps): JSX.Element {
+function Example({
+  children,
+  minHeight,
+  path,
+  title,
+}: ExampleProps): JSX.Element {
   const [code, setCode] = useState('');
   const [isCodePreviewVisible, setCodePreviewVisibility] = useState(false);
 
@@ -69,6 +76,10 @@ function Example({ children, path, title }: ExampleProps): JSX.Element {
           css`
             border-bottom-right-radius: 0;
             border-bottom-left-radius: 0;
+          `}
+          ${minHeight &&
+          css`
+            min-height: ${minHeight}px;
           `}
         `}
       >
