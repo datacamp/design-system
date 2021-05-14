@@ -23,16 +23,21 @@ const descriptionStyle = css`
 `;
 
 type PropsTableProps = {
+  alias?: string;
   component: string;
   metadata: Metadata;
 };
 
-function PropsTable({ component, metadata }: PropsTableProps): JSX.Element {
+function PropsTable({
+  alias,
+  component,
+  metadata,
+}: PropsTableProps): JSX.Element {
   const data = componentMetadataByName(metadata, component);
 
   return (
     <Fragment>
-      <Markdown.h3>{component}</Markdown.h3>
+      <Markdown.h3>{alias ?? component}</Markdown.h3>
       <Table>
         <thead>
           <tr>
