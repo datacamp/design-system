@@ -39,7 +39,7 @@ function PropsTable({ component, metadata }: PropsTableProps): JSX.Element {
             <Table.HeadCell>Name</Table.HeadCell>
             <Table.HeadCell>Value</Table.HeadCell>
             <Table.HeadCell>Default</Table.HeadCell>
-            <Table.HeadCell>Description</Table.HeadCell>
+            <Table.HeadCell css={descriptionStyle}>Description</Table.HeadCell>
           </tr>
         </thead>
         <tbody>
@@ -59,9 +59,7 @@ function PropsTable({ component, metadata }: PropsTableProps): JSX.Element {
                       propData.defaultValue?.value
                     )}
                   </Table.Cell>
-                  <Table.Cell css={descriptionStyle}>
-                    {propData.description}
-                  </Table.Cell>
+                  <Table.Cell>{propData.description}</Table.Cell>
                 </tr>
               );
             })}
