@@ -25,10 +25,6 @@ const tableCellStyle = css`
   border-top: 1px solid ${tokens.colors.beige400};
   word-wrap: break-word;
   vertical-align: top;
-
-  &:first-of-type {
-    font-weight: ${tokens.fontWeight.bold};
-  }
 `;
 
 const tableHeadCellStyle = css`
