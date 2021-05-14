@@ -10,6 +10,10 @@ import { Metadata } from '../types';
 import Markdown from './markdown-elements';
 import Table from './table';
 
+const nameCellStyle = css`
+  font-weight: ${tokens.fontWeight.bold};
+`;
+
 const requiredStyle = css`
   color: ${tokens.colors.redText};
 `;
@@ -19,16 +23,16 @@ const descriptionStyle = css`
 `;
 
 type PropsTableProps = {
-  componentName: string;
+  component: string;
   metadata: Metadata;
 };
 
-function PropsTable({ componentName, metadata }: PropsTableProps): JSX.Element {
-  const data = componentMetadataByName(metadata, componentName);
+function PropsTable({ component, metadata }: PropsTableProps): JSX.Element {
+  const data = componentMetadataByName(metadata, component);
 
   return (
     <Fragment>
-      <Markdown.h3>{componentName}</Markdown.h3>
+      <Markdown.h3>{component}</Markdown.h3>
       <Table>
         <thead>
           <tr>
@@ -41,10 +45,12 @@ function PropsTable({ componentName, metadata }: PropsTableProps): JSX.Element {
         <tbody>
           {data?.props &&
             Object.entries(data.props).map((prop) => {
-              const [name, propData] = prop;
+              const [componentName, propData] = prop;
               return (
-                <tr key={`prop-${name}`}>
-                  <Table.Cell>{name === 'innerRef' ? 'ref' : name}</Table.Cell>
+                <tr key={`prop-${componentName}`}>
+                  <Table.Cell css={nameCellStyle}>
+                    {componentName === 'innerRef' ? 'ref' : componentName}
+                  </Table.Cell>
                   <Table.Cell>{typeNameFromMetadata(propData)}</Table.Cell>
                   <Table.Cell>
                     {propData.required ? (
