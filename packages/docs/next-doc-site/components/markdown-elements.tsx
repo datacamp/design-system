@@ -56,6 +56,10 @@ function Strong({ children }: TextProps): JSX.Element {
   return <StrongBase>{children}</StrongBase>;
 }
 
+const codeBlockStyle = css`
+  -webkit-font-smoothing: antialiased;
+`;
+
 type CodeProps = {
   children: string;
 };
@@ -65,7 +69,7 @@ function InlineCode({ children }: CodeProps): JSX.Element {
 }
 
 function CodeBlock({ children }: CodeProps): JSX.Element {
-  return <CodeBlockBase>{children}</CodeBlockBase>;
+  return <CodeBlockBase css={codeBlockStyle}>{children}</CodeBlockBase>;
 }
 
 type RegularLinkProps = {
@@ -109,6 +113,7 @@ function ListItem({ children }: ListProps): JSX.Element {
 
 export default {
   a: RegularLink,
+  code: CodeBlock,
   em: Emphasis,
   h2: H2,
   h3: H3,
@@ -116,7 +121,6 @@ export default {
   inlineCode: InlineCode,
   li: ListItem,
   p: Paragraph,
-  pre: CodeBlock,
   strong: Strong,
   ul: List,
 };
