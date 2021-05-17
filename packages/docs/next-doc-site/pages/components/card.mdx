@@ -1,0 +1,62 @@
+import metadata from '@datacamp/waffles-card/componentMetadata.json';
+import * as CardExports from '@datacamp/waffles-card';
+
+import Layout from '../../components/page-layout';
+import Header from '../../components/page-header';
+import Section from '../../components/page-section';
+import Example from '../../components/example';
+import Playground from '../../components/playground';
+import PropsTable from '../../components/props-table';
+import Imports from '../../components/imports';
+
+import playgroundConfig from '../../examples/card/playground-config';
+import WithAnElevation from '../../examples/card/with-an-elevation';
+import WithAHeadStone from '../../examples/card/with-a-head-stone';
+
+export default Layout;
+
+<Header
+  pageTitle="Card"
+  overview="Card is used to group similar concepts and tasks together."
+/>
+
+<Section>
+
+## Overview
+
+A `Card` can be used to display content in its own section.
+
+<Playground {...playgroundConfig} />
+
+</Section>
+
+<Section>
+
+## Examples
+
+<Example title="With a mouse over elevation" path="card/with-an-elevation">
+  <WithAnElevation />
+</Example>
+
+<Example title="With a head stone" path="card/with-a-head-stone">
+  <WithAHeadStone />
+</Example>
+
+</Section>
+
+<Section>
+
+## Props
+
+<PropsTable component="Card" metadata={metadata} />
+
+</Section>
+
+<Section>
+
+## Imports
+
+<Imports module={CardExports} path="@datacamp/waffles-card" />
+
+</Section>
+
