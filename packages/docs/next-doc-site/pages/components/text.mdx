@@ -10,8 +10,11 @@ import PropsTable from '../../components/props-table';
 import Imports from '../../components/imports';
 
 import playgroundConfig from '../../examples/text/playground-config';
-import Paragraph from '../../examples/text/paragraph';
-import Link from '../../examples/text/link';
+import BasicParagraph from '../../examples/text/basic-paragraph';
+import SimpleLink from '../../examples/text/simple-link';
+import InlineCode from '../../examples/text/inline-code';
+import LargeBadge from '../../examples/text/large-badge';
+import ListOfItems from '../../examples/text/list-of-items';
 
 export default Layout;
 
@@ -24,7 +27,20 @@ export default Layout;
 
 ## Overview
 
-Short text components overview.
+Waffles exposes following text components:
+
+- **GlobalFontFaces** – A global component that loads the font faces used by the other components. If the waffles scss is not being used, this component should be mounted on the page.
+- **Text** – The base text component that can be used as a building block for everthing else.
+- **Paragraph** – Renders a block of text.
+- **Heading** – Renders various sized headings.
+- **Strong** – Renders bold text.
+- **Emphasis** – Renders italic text.
+- **Small** – Renders text at a size smaller than the default.
+- **Code** – Renders inline code.
+- **CodeBlock** – Renders a preformatted block of code.
+- **Link** – Renders an anchor component.
+- **Badge** – Renders a coloured badge.
+- **List** – Renders either an ordered or unordered list.
 
 <Playground {...playgroundConfig} />
 
@@ -34,12 +50,24 @@ Short text components overview.
 
 ## Examples
 
-<Example title="Basic paragraph" path="text/paragraph">
-  <Paragraph />
+<Example title="Basic paragraph" path="text/basic-paragraph">
+  <BasicParagraph />
 </Example>
 
-<Example title="Simple link" path="text/link">
-  <Link />
+<Example title="Simple link" path="text/simple-link">
+  <SimpleLink />
+</Example>
+
+<Example title="Inline code" path="text/inline-code">
+  <InlineCode />
+</Example>
+
+<Example title="Large badge" path="text/large-badge">
+  <LargeBadge />
+</Example>
+
+<Example title="Ordered list of items" path="text/list-of-items">
+  <ListOfItems />
 </Example>
 
 </Section>
@@ -50,7 +78,27 @@ Short text components overview.
 
 <PropsTable component="Text" metadata={metadata} />
 
+<PropsTable component="Heading" metadata={metadata} />
+
 <PropsTable component="Paragraph" metadata={metadata} />
+
+<PropsTable component="InternalLink" alias="Link" metadata={metadata} />
+
+<PropsTable component="Strong" metadata={metadata} />
+
+<PropsTable component="Emphasis" metadata={metadata} />
+
+<PropsTable component="Small" metadata={metadata} />
+
+<PropsTable component="CodeBlock" metadata={metadata} />
+
+<PropsTable component="Code" metadata={metadata} />
+
+<PropsTable component="Badge" metadata={metadata} />
+
+<PropsTable component="List" metadata={metadata} />
+
+<PropsTable component="List.Item" metadata={metadata} />
 
 </Section>
 
