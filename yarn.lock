@@ -1983,6 +1983,21 @@
     tinycolor2 "^1.4.2"
     use-callback-ref "^1.2.4"
 
+"@datacamp/waffles-form-elements@^4.1.5":
+  version "4.1.5"
+  resolved "https://registry.yarnpkg.com/@datacamp/waffles-form-elements/-/waffles-form-elements-4.1.5.tgz#7561322cf8c8c98e619559da5f8e57f5963d3cf6"
+  integrity sha512-xnqvcAWUwLS/PS8UP6WBh24+2re7Mgqbm98cu7XitCxpFhjB5TUigirZUYJi6LOb8UFYB/JONpKXB50vUZhk/w==
+  dependencies:
+    "@babel/runtime" "^7.12.1"
+    "@datacamp/waffles-icons" "^4.3.2"
+    "@datacamp/waffles-text" "^5.1.0"
+    "@datacamp/waffles-tokens" "^1.0.6"
+    "@datacamp/waffles-utils" "^3.1.1"
+    airbnb-prop-types "^2.16.0"
+    lodash "^4.17.20"
+    prop-types "^15.7.2"
+    tinycolor2 "^1.4.2"
+
 "@datacamp/waffles-modals@^7.0.11":
   version "7.0.11"
   resolved "https://registry.yarnpkg.com/@datacamp/waffles-modals/-/waffles-modals-7.0.11.tgz#c785e0e3f5b0aad33ad90d37e33c4450e5c435fa"
