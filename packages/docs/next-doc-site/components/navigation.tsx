@@ -36,6 +36,7 @@ function Navigation(): JSX.Element {
           <Item href="/components/button" label="Button" />
           <Item href="/components/text" label="Text" />
           <Item href="/components/card" label="Card" />
+          <Item href="/components/modals" label="Modals" />
         </Category>
       </ul>
     </nav>
