@@ -1,0 +1,45 @@
+import metadata from '@datacamp/waffles-resizable-elements/componentMetadata.json';
+import * as ResizableElementsExports from '@datacamp/waffles-resizable-elements';
+
+import Layout from '../../components/page-layout';
+import Header from '../../components/page-header';
+import Section from '../../components/page-section';
+import Playground from '../../components/playground';
+import PropsTable from '../../components/props-table';
+import Imports from '../../components/imports';
+
+import playgroundConfig from '../../examples/resizable-elements/playground-config';
+
+export default Layout;
+
+<Header
+  pageTitle="Resizable Elements"
+  overview="A way to provide resizing."
+/>
+
+<Section>
+
+## Overview
+
+This component allows for multiple elements to be resized by the user.
+
+<Playground {...playgroundConfig} />
+
+</Section>
+
+<Section>
+
+## Props
+
+<PropsTable component="ResizableElements" metadata={metadata} />
+
+</Section>
+
+<Section>
+
+## Imports
+
+<Imports module={ResizableElementsExports} path="@datacamp/waffles-resizable-elements" />
+
+</Section>
+

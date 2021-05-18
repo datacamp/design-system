@@ -39,6 +39,10 @@ function Navigation(): JSX.Element {
           <Item href="/components/modals" label="Modals" />
           <Item href="/components/form-elements" label="Form Elements" />
           <Item href="/components/positioner" label="Positioner" />
+          <Item
+            href="/components/resizable-elements"
+            label="Resizable Elements"
+          />
         </Category>
       </ul>
     </nav>
