@@ -21,6 +21,7 @@
     "@datacamp/waffles-text": "^5.0.5",
     "@datacamp/waffles-toast": "^3.0.9",
     "@datacamp/waffles-tokens": "^1.0.6",
+    "@datacamp/waffles-tooltip": "^0.2.6",
     "@emotion/react": "^11.0.0",
     "@mdx-js/loader": "1.6.22",
     "@mdx-js/react": "1.6.22",

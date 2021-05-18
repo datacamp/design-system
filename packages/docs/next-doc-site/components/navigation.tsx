@@ -43,6 +43,7 @@ function Navigation(): JSX.Element {
             href="/components/resizable-elements"
             label="Resizable Elements"
           />
+          <Item href="/components/tooltip" label="Tooltip" />
           <Item href="/components/positioner" label="Positioner" />
         </Category>
       </ul>
