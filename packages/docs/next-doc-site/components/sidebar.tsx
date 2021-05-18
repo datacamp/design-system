@@ -13,7 +13,7 @@ const wrapperStyle = css`
   max-height: 100vh;
   width: ${SIDEBAR_WIDTH}px;
   background-color: ${tokens.colors.navyDark};
-  overflow: hidden;
+  overflow-y: scroll;
   display: flex;
   flex-direction: column;
 `;
@@ -22,7 +22,7 @@ const headerStyle = css`
   width: 100%;
   padding: 40px;
   padding-bottom: 0;
-  height: ${PAGE_HEADER_HEIGHT - 1}px;
+  min-height: ${PAGE_HEADER_HEIGHT - 1}px;
 
   svg {
     width: 100%;
@@ -44,8 +44,7 @@ const linkStyle = css`
 
 const copyStyle = css`
   display: block;
-  padding-left: 48px;
-  padding-bottom: 16px;
+  padding: 48px 0 16px 48px;
   color: ${tokens.colors.white};
   opacity: 0.5;
   user-select: none;
