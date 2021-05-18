@@ -38,6 +38,7 @@ function Navigation(): JSX.Element {
           <Item href="/components/card" label="Card" />
           <Item href="/components/modals" label="Modals" />
           <Item href="/components/form-elements" label="Form Elements" />
+          <Item href="/components/positioner" label="Positioner" />
         </Category>
       </ul>
     </nav>

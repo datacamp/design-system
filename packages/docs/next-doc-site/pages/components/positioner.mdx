@@ -1,0 +1,51 @@
+import * as PositionerExports from '@datacamp/waffles-positioner';
+
+import Layout from '../../components/page-layout';
+import Header from '../../components/page-header';
+import Section from '../../components/page-section';
+import Example from '../../components/example';
+import Playground from '../../components/playground';
+import Imports from '../../components/imports';
+
+export default Layout;
+
+<Header
+  pageTitle="Positioner"
+  overview="A hook to provide positioning styles."
+/>
+
+<Section>
+
+## Overview
+
+`usePositioner` is a hook to provide positioning styles for emotion. It replaces the old `Positioner` component.
+
+It is designed to be a building block for other components. An example of how to use it follows:
+
+```
+function PositionExample() {
+  const targetRef = React.useRef()
+  const positionerStyles = usePositioner({
+    isVisible: true,
+    target: targetRef,
+    position: 'bottom',
+    offset: 8
+  });
+
+  return <>
+    <div ref={targetRef}>target</div>
+    <div css={positionerStyles}>positioned element</div>
+  </>
+}
+```
+
+</Section>
+
+<Section>
+
+## Imports
+
+<Imports module={PositionerExports} path="@datacamp/waffles-positioner" />
+
+</Section>
+
