@@ -13,7 +13,6 @@ const wrapperStyle = css`
   max-height: 100vh;
   width: ${SIDEBAR_WIDTH}px;
   background-color: ${tokens.colors.navyDark};
-  overflow-y: scroll;
   display: flex;
   flex-direction: column;
 `;
@@ -22,7 +21,8 @@ const headerStyle = css`
   width: 100%;
   padding: 40px;
   padding-bottom: 0;
-  min-height: ${PAGE_HEADER_HEIGHT - 1}px;
+  height: ${PAGE_HEADER_HEIGHT}px;
+  border-bottom: 1px solid ${tokens.colors.navy};
 
   svg {
     width: 100%;
@@ -40,6 +40,13 @@ const linkStyle = css`
   &:focus-visible {
     background-color: ${A11Y_COLOR};
   }
+`;
+
+const scrollableContent = css`
+  display: flex;
+  flex-direction: column;
+  flex: 1 0;
+  overflow-y: scroll;
 `;
 
 const copyStyle = css`
@@ -60,8 +67,10 @@ function Sidebar(): JSX.Element {
           </a>
         </Link>
       </header>
-      <Navigation />
-      <Small css={copyStyle}>© 2021 DataCamp, Inc.</Small>
+      <div css={scrollableContent}>
+        <Navigation />
+        <Small css={copyStyle}>© 2021 DataCamp, Inc.</Small>
+      </div>
     </section>
   );
 }

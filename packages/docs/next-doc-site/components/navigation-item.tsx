@@ -27,9 +27,12 @@ function NavigationItem({
         background-color: ${isActive
           ? tokens.colors.navy
           : tokens.colors.navyDark};
-        border-top: ${isStandalone
-          ? `1px solid ${tokens.colors.navy}`
-          : 'none'};
+
+        &:not(:first-of-type) {
+          border-top: ${isStandalone
+            ? `1px solid ${tokens.colors.navy}`
+            : 'none'};
+        }
       `}
     >
       <Link

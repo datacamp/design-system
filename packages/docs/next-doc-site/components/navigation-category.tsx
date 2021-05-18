@@ -14,7 +14,9 @@ const listStyle = css`
 `;
 
 const itemStyle = css`
-  border-top: 1px solid ${tokens.colors.navy};
+  &:not(:first-of-type) {
+    border-top: 1px solid ${tokens.colors.navy};
+  }
 `;
 
 type CategoryProps = {
