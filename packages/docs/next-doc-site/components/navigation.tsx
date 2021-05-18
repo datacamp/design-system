@@ -34,17 +34,17 @@ function Navigation(): JSX.Element {
           <Item href="/components/introduction" label="Introduction" />
           <Item href="/components/tokens" label="Tokens" />
           <Item href="/components/button" label="Button" />
-          <Item href="/components/text" label="Text" />
           <Item href="/components/card" label="Card" />
-          <Item href="/components/modals" label="Modals" />
           <Item href="/components/form-elements" label="Form Elements" />
-          <Item href="/components/toast" label="Toast" />
+          <Item href="/components/modals" label="Modals" />
+          <Item href="/components/positioner" label="Positioner" />
           <Item
             href="/components/resizable-elements"
             label="Resizable Elements"
           />
+          <Item href="/components/text" label="Text" />
+          <Item href="/components/toast" label="Toast" />
           <Item href="/components/tooltip" label="Tooltip" />
-          <Item href="/components/positioner" label="Positioner" />
         </Category>
       </ul>
     </nav>
