@@ -7,7 +7,7 @@ function defaultExportNameFromPath(path: string): string {
     .map((part) => {
       return `${part.charAt(0).toUpperCase()}${part.slice(1)}`;
     })
-    .join();
+    .join('');
 }
 
 export default defaultExportNameFromPath;
