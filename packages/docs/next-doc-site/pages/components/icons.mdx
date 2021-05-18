@@ -1,0 +1,88 @@
+import Layout from '../../components/page-layout';
+import Header from '../../components/page-header';
+import Section from '../../components/page-section';
+import Example from '../../components/example';
+import Playground from '../../components/playground';
+import PropsTable from '../../components/props-table';
+import Imports from '../../components/imports';
+import AllIconsGrid from '../../components/all-icons-grid';
+
+import Regular from '../../examples/icons/regular';
+import Customized from '../../examples/icons/customized';
+
+export default Layout;
+
+<Header
+  pageTitle="Icons"
+  overview="Icons are used to visually communicate core parts of the product, available actions, and common interaction patterns that are available."
+/>
+
+<Section>
+
+## Overview
+
+A package contains all the icons available within Waffles.
+
+The main export of the package is a set of React components. These can be individually be imported:
+
+```
+import { AddCircleIcon } from '@datacamp/waffles-icons';
+```
+
+All these components accept the same set of properties:
+
+- **size** – The size in pixels to display the icon. The default is `18`. Possible values: `12`, `18`, and `24`.
+- **color** – The color of the icon. This defaults to *currentColor*, and so will match the surrounding text. If a custom color is required, then this prop can accept any valid CSS color. We recommend using the [waffles-tokens](/components/tokens) to maintain a consistent visual experience.
+- **className** – Any extra className to pass to the root svg element. Can be used to apply any extra custom styling required.
+
+For screen readers to be able to present the icons they all include a default `title`, however this should be overriden using the title prop if the icon is serving a specific purpose. If the icon is being used purely for decoration, and related text is sufficient, set the `aria-hidden` prop to `true`. This will prevent screen readers from announcing its presence.
+
+</Section>
+
+<Section>
+
+## Examples
+
+<Example title="Regular" path="icons/regular" >
+  <Regular />
+</Example>
+
+<Example title="Customized" path="icons/customized">
+  <Customized />
+</Example>
+
+</Section>
+
+<Section>
+
+## All Available Icons
+
+<AllIconsGrid />
+
+</Section>
+
+<Section>
+
+## React Native
+
+There are also react-native versions of all these icons. These can be used the same way as on web, the only difference being that instead of `className`, the `style` prop can be used to add custom styling. These components can be imported in the same way. When in a `react-native` environment, this will resolve to the correct version.
+
+```
+import { AddCircleIcon } from '@datacamp/waffles-icons';
+```
+
+</Section>
+
+<Section>
+
+## Sprites
+
+For those that cannot use react components, there are also svg sprites available in the waffles-icons package. There are five different formats available at the file paths listed below. Check the [detailed overview of the differences between these different sprites](https://github.com/svg-sprite/svg-sprite/blob/HEAD/docs/configuration.md#output-modes). Feel free to use whichever makes most sense for your use case.
+
+- `@datacamp/waffles-icons/sprites/css/svg/sprite.css-bde2e71c.svg`
+- `@datacamp/waffles-icons/sprites/defs/svg/sprite.defs.svg`
+- `@datacamp/waffles-icons/sprites/stack/svg/sprite.stack.svg`
+- `@datacamp/waffles-icons/sprites/symbol/svg/sprite.symbol.svg`
+- `@datacamp/waffles-icons/sprites/view/svg/sprite.view-f796bea8.svg`
+
+</Section>

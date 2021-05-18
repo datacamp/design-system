@@ -31,10 +31,10 @@ const iconStyle = css`
 `;
 
 type IconsGridProps = {
-  variant: 'regular' | 'inverted' | 'brand';
+  variant?: 'regular' | 'inverted' | 'brand';
 };
 
-function IconsGrid({ variant }: IconsGridProps): JSX.Element {
+function IconsGrid({ variant = 'regular' }: IconsGridProps): JSX.Element {
   const isInverted = variant === 'inverted';
 
   function renderIcons(icons: typeof regularIcons): JSX.Element {

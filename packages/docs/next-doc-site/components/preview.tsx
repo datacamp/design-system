@@ -9,6 +9,7 @@ const wrapperStyle = css`
   padding: 8px;
   width: 100%;
   border-radius: ${tokens.border.radius};
+  overflow: hidden;
 `;
 
 type Preview = {
