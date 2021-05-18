@@ -10,11 +10,13 @@ const cellStyle = css`
   text-align: right;
 `;
 
-type ComponentStatusProps = {
-  component: string;
-  path: string;
-  variant: 'available' | 'planned' | 'considered';
-};
+type ComponentStatusProps = { component: string } & (
+  | { path: string; variant: 'available' }
+  | {
+      path?: undefined;
+      variant: 'planned' | 'considered';
+    }
+);
 
 function ComponentStatus({
   component,

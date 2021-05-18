@@ -17,7 +17,6 @@ function ComponentStatusTable(): JSX.Element {
         </tr>
       </thead>
       <tbody>
-        <ComponentStatus component="Tag" path="tag" variant="available" />
         <ComponentStatus component="Icon" path="icons" variant="available" />
         <ComponentStatus component="Text" path="text" variant="available" />
         <ComponentStatus component="Card" path="card" variant="available" />
@@ -29,8 +28,8 @@ function ComponentStatusTable(): JSX.Element {
           variant="available"
         />
         <ComponentStatus
-          component="Tooltips"
-          path="tooltips"
+          component="Tooltip"
+          path="tooltip"
           variant="available"
         />
         <ComponentStatus component="Toast" path="toast" variant="available" />
@@ -46,39 +45,23 @@ function ComponentStatusTable(): JSX.Element {
           variant="available"
         />
         <ComponentStatus component="Assets" path="assets" variant="available" />
-        <ComponentStatus component="Checkbox" path="" variant="planned" />
-        <ComponentStatus component="Switch" path="" variant="planned" />
-        <ComponentStatus component="Progress Bar" path="" variant="planned" />
-        <ComponentStatus component="Avatars" path="" variant="planned" />
-        <ComponentStatus component="Navigation" path="" variant="considered" />
-        <ComponentStatus component="Code Editor" path="" variant="considered" />
         <ComponentStatus
-          component="Dropdown Menu"
-          path=""
-          variant="considered"
+          component="Checkbox"
+          path="form-elements"
+          variant="available"
         />
-        <ComponentStatus
-          component="Fluid Stack Layout"
-          path=""
-          variant="considered"
-        />
-        <ComponentStatus
-          component="Collapsing Sections"
-          path=""
-          variant="considered"
-        />
-        <ComponentStatus
-          component="Key Value List"
-          path=""
-          variant="considered"
-        />
-        <ComponentStatus
-          component="Autocomplete"
-          path=""
-          variant="considered"
-        />
-        <ComponentStatus component="Charts" path="" variant="considered" />
-        <ComponentStatus component="Tabs" path="" variant="considered" />
+        <ComponentStatus component="Switch" variant="planned" />
+        <ComponentStatus component="Progress Bar" variant="planned" />
+        <ComponentStatus component="Avatars" variant="planned" />
+        <ComponentStatus component="Navigation" variant="considered" />
+        <ComponentStatus component="Code Editor" variant="considered" />
+        <ComponentStatus component="Dropdown Menu" variant="considered" />
+        <ComponentStatus component="Fluid Stack Layout" variant="considered" />
+        <ComponentStatus component="Collapsing Sections" variant="considered" />
+        <ComponentStatus component="Key Value List" variant="considered" />
+        <ComponentStatus component="Autocomplete" variant="considered" />
+        <ComponentStatus component="Charts" variant="considered" />
+        <ComponentStatus component="Tabs" variant="considered" />
       </tbody>
     </Table>
   );
