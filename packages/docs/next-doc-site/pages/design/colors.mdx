@@ -5,10 +5,7 @@ import ColorsGrid from '../../components/colors-grid';
 
 export default Layout;
 
-<Header
-  pageTitle="Colors"
-  overview="All the hues you could ever need."
-/>
+<Header pageTitle="Colors" overview="All the hues you could ever need." />
 
 <Section>
 
@@ -18,9 +15,14 @@ The DataCamp brand colors are listed below, with their resepective hex codes. If
 
 <ColorsGrid category="Primary" colors={['green', 'navy']} />
 
-<ColorsGrid category="Secondary" colors={['blue', 'red', 'orange', 'purple', 'pink', 'yellow']} />
+<ColorsGrid
+  category="Secondary"
+  colors={['blue', 'red', 'orange', 'purple', 'pink', 'yellow']}
+/>
 
-<ColorsGrid category="Neutral" colors={[
+<ColorsGrid
+  category="Neutral"
+  colors={[
     'beige100',
     'beige200',
     'beige300',

@@ -1,12 +1,13 @@
 {
   "name": "@datacamp/waffles-next-doc-site",
-  "version": "0.3.5",
+  "version": "0.4.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "prepare": "yarn build"
+    "prepare": "yarn build",
+    "format": "prettier --write \"**/*.{ts,tsx,md,mdx}\""
   },
   "dependencies": {
     "@babel/preset-typescript": "^7.13.0",
@@ -20,7 +21,7 @@
     "@datacamp/waffles-modals": "^7.0.11",
     "@datacamp/waffles-positioner": "^2.0.3",
     "@datacamp/waffles-resizable-elements": "^2.0.4",
-    "@datacamp/waffles-text": "^5.0.5",
+    "@datacamp/waffles-text": "^5.1.0",
     "@datacamp/waffles-toast": "^3.0.9",
     "@datacamp/waffles-tokens": "^1.0.6",
     "@datacamp/waffles-tooltip": "^0.2.6",
