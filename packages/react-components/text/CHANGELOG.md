@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [5.1.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-text@5.0.5...@datacamp/waffles-text@5.1.0) (2021-05-12)
+
+
+### Features
+
+* remove super tight props checking for paragraph ([c5fddb1](https://github.com/datacamp/design-system/commit/c5fddb1))
+
+
+
+
+
 ## [5.0.5](https://github.com/datacamp/design-system/compare/@datacamp/waffles-text@5.0.4...@datacamp/waffles-text@5.0.5) (2021-03-04)
 
 **Note:** Version bump only for package @datacamp/waffles-text
