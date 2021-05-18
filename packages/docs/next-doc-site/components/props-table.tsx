@@ -19,7 +19,7 @@ const requiredStyle = css`
 `;
 
 const descriptionStyle = css`
-  min-width: 300px;
+  width: 40%;
 `;
 
 type PropsTableProps = {
@@ -64,7 +64,9 @@ function PropsTable({
                       propData.defaultValue?.value
                     )}
                   </Table.Cell>
-                  <Table.Cell>{propData.description}</Table.Cell>
+                  <Table.Cell>
+                    {propData.description ? propData.description : '—'}
+                  </Table.Cell>
                 </tr>
               );
             })}

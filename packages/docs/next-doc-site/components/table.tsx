@@ -17,6 +17,7 @@ const tableStyle = css`
   font-weight: ${tokens.fontWeight.regular};
   line-height: ${tokens.lineHeight.base};
   border-collapse: collapse;
+  table-layout: fixed;
 `;
 
 const tableCellStyle = css`
@@ -32,7 +33,7 @@ const tableHeadCellStyle = css`
   font-weight: ${tokens.fontWeight.bold};
   text-transform: uppercase;
   border-top: none;
-  min-width: 140px;
+  width: 20%;
   letter-spacing: 1px;
 `;
 
