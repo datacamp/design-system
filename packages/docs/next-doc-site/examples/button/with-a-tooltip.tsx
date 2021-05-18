@@ -1,4 +1,3 @@
-/* eslint-disable no-alert */
 import Button from '@datacamp/waffles-button';
 
 function Example(): JSX.Element {
