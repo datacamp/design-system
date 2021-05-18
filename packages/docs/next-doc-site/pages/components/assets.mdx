@@ -1,0 +1,76 @@
+import * as AssetsExports from '@datacamp/waffles-asset-components';
+
+import Layout from '../../components/page-layout';
+import Header from '../../components/page-header';
+import Section from '../../components/page-section';
+import Example from '../../components/example';
+import Imports from '../../components/imports';
+
+import LogomarkOnly from '../../examples/assets/logomark-only';
+import RegularLogo from '../../examples/assets/regular-logo';
+import ALPALoopRegular from '../../examples/assets/alpa-loop-regular';
+import ALPALoopWithHighlight from '../../examples/assets/alpa-loop-with-highlight';
+import TechLogosRegular from '../../examples/assets/tech-logos-regular';
+
+export default Layout;
+
+<Header
+  pageTitle="Assets"
+  overview="A collection of DataCamp assets."
+/>
+
+<Section>
+
+## Overview
+
+Waffles exposes several assets components:
+
+- **ALPALoop** – A component that can display the ALPA loop graphic. Can highlight a section of the loop (`Apply`, `Assess`, `Learn`, or `Practice`) by setting the `highlight` prop.
+- **DatacampLogo** – A component that will display the DataCamp logo in the colours specified by the `logomarkColor` and `wordmarkColor` props.
+- **Logos** – Contains various forms of DataCamp logos, and logos for other DataCamp products.
+- **TechLogo** – A component that can display a logo for each technology. Controlled by the `technology` prop.
+
+</Section>
+
+<Section>
+
+## Raw Assets
+
+These components are available for use in React. However if you are in an environment where this is not useful, there is also a `@datacamp/waffles-assets` package. This contains all the source svgs that are used to generate these components. Depending on the technology being used there will be a variety of ways to include these assets in your application.
+
+</Section>
+
+<Section>
+
+## Examples
+
+<Example title="Logomark only" path="assets/logomark-only">
+  <LogomarkOnly />
+</Example>
+
+<Example title="Regular logo" path="assets/regular-logo">
+  <RegularLogo />
+</Example>
+
+<Example title="ALPA loop regular" path="assets/alpa-loop-regular">
+  <ALPALoopRegular />
+</Example>
+
+<Example title="ALPA loop with highlight" path="assets/alpa-loop-with-highlight">
+  <ALPALoopWithHighlight />
+</Example>
+
+<Example title="Technology logos regular" path="assets/tech-logos-regular">
+  <TechLogosRegular />
+</Example>
+
+</Section>
+
+<Section>
+
+## Imports
+
+<Imports module={AssetsExports} path="@datacamp/waffles-asset-components" />
+
+</Section>
+
