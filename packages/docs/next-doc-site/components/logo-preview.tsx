@@ -22,9 +22,8 @@ const buttonStyle = css`
   margin-top: 16px;
 `;
 
-type LogoPreview = {
+type LogoPreviewProps = {
   children: React.ReactNode;
-  description: string;
   fileName: string;
   isInverted?: boolean;
   title?: string;
@@ -35,7 +34,7 @@ function LogoPreview({
   fileName,
   isInverted = false,
   title,
-}: LogoPreview): JSX.Element {
+}: LogoPreviewProps): JSX.Element {
   return (
     <section css={wrapperStyle}>
       {title && <Markdown.h3>{title}</Markdown.h3>}

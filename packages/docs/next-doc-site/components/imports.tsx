@@ -15,12 +15,12 @@ const previewStyle = css`
   margin-top: 8px;
 `;
 
-type ExportsProps = {
+type ImportsProps = {
   module: Module;
   path: string;
 };
 
-function Imports({ module, path }: ExportsProps): JSX.Element {
+function Imports({ module, path }: ImportsProps): JSX.Element {
   const defaultExportName = defaultExportNameFromPath(path);
 
   return (
