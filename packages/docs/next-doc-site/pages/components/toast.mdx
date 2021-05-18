@@ -1,0 +1,47 @@
+import metadata from '@datacamp/waffles-toast/componentMetadata.json';
+import * as ToastExports from '@datacamp/waffles-toast';
+
+import Layout from '../../components/page-layout';
+import Header from '../../components/page-header';
+import Section from '../../components/page-section';
+import Playground from '../../components/playground';
+import PropsTable from '../../components/props-table';
+import Imports from '../../components/imports';
+
+import playgroundConfig from '../../examples/toast/playground-config';
+
+export default Layout;
+
+<Header
+  pageTitle="Toast"
+  overview="A non-disruptive message to provide quick, at-a-glance feedback on the outcome of an action."
+/>
+
+<Section>
+
+## Overview
+
+The `ToastContainer` component must be mounted on the page for toasts to display correctly. Calling the toast function will display the requested content for a short period of time before automatically closing.
+
+This is powered by [react-toastify](https://github.com/fkhadra/react-toastify). The `ToastContainer` component, and `toast` function accept all the options of the underlying library, however sensible defaults have been provided to ensure it functions as intended in the design system. There is no guarantee that all the options will correctly function as they may not interact with the Waffles defaults as intended.
+
+<Playground {...playgroundConfig} />
+
+</Section>
+
+<Section>
+
+## Props
+
+<PropsTable component="Toast" metadata={metadata} />
+
+</Section>
+
+<Section>
+
+## Imports
+
+<Imports module={ToastExports} path="@datacamp/waffles-toast" />
+
+</Section>
+
