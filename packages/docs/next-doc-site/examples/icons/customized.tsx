@@ -1,4 +1,3 @@
-// eslint-disable-next-line filenames/match-exported
 import { AddCircleIcon } from '@datacamp/waffles-icons';
 import tokens from '@datacamp/waffles-tokens';
 

@@ -1,4 +1,3 @@
-// eslint-disable-next-line filenames/match-exported
 import { TechLogo } from '@datacamp/waffles-asset-components';
 import Card from '@datacamp/waffles-card';
 import { Heading, Paragraph } from '@datacamp/waffles-text';

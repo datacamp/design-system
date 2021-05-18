@@ -1,4 +1,3 @@
-// eslint-disable-next-line filenames/match-exported
 import { Heading, List } from '@datacamp/waffles-text';
 import { Fragment } from 'react';
 

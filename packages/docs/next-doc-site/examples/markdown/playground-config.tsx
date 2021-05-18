@@ -1,4 +1,3 @@
-// eslint-disable-next-line filenames/match-exported
 import Markdown from '@datacamp/waffles-markdown';
 
 import { PlaygroundConfig } from '../../types';

@@ -1,4 +1,3 @@
-// eslint-disable-next-line filenames/match-exported
 import Button from '@datacamp/waffles-button';
 import { AlertDialog } from '@datacamp/waffles-modals';
 import { Fragment, useState } from 'react';

@@ -1,4 +1,3 @@
-// eslint-disable-next-line filenames/match-exported
 import { Checkbox, CheckboxList } from '@datacamp/waffles-form-elements';
 import { useState } from 'react';
 

@@ -1,4 +1,3 @@
-// eslint-disable-next-line filenames/match-exported
 import { Metadata, SingleComponentMetadata } from '../types';
 
 function componentMetadataByName(

@@ -1,4 +1,3 @@
-// eslint-disable-next-line filenames/match-exported
 import Button, { ButtonGroup } from '@datacamp/waffles-button';
 import { TrashIcon } from '@datacamp/waffles-icons';
 

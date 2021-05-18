@@ -1,4 +1,3 @@
-// eslint-disable-next-line filenames/match-exported
 import tokens from '@datacamp/waffles-tokens';
 import { css, Interpolation } from '@emotion/react';
 

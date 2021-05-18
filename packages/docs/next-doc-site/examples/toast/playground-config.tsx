@@ -1,4 +1,3 @@
-// eslint-disable-next-line filenames/match-exported
 import Button, { ButtonGroup } from '@datacamp/waffles-button';
 import { toast, ToastContainer } from '@datacamp/waffles-toast';
 import { Fragment } from 'react';

@@ -1,4 +1,3 @@
-// eslint-disable-next-line filenames/match-exported
 import * as allIcons from '@datacamp/waffles-icons';
 import tokens from '@datacamp/waffles-tokens';
 import { css } from '@emotion/react';

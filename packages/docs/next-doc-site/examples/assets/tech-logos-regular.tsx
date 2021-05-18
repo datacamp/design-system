@@ -1,4 +1,3 @@
-// eslint-disable-next-line filenames/match-exported
 import { TechLogo } from '@datacamp/waffles-asset-components';
 
 function Example(): JSX.Element {

@@ -1,4 +1,3 @@
-// eslint-disable-next-line filenames/match-exported
 import { DatacampLogo } from '@datacamp/waffles-asset-components';
 import tokens from '@datacamp/waffles-tokens';
 

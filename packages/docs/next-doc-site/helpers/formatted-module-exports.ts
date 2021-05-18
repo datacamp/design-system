@@ -1,4 +1,3 @@
-// eslint-disable-next-line filenames/match-exported
 import { Module } from '../types';
 
 function formattedModuleExports(

@@ -1,4 +1,3 @@
-// eslint-disable-next-line filenames/match-exported
 import ResizableElements from '@datacamp/waffles-resizable-elements';
 import { Paragraph } from '@datacamp/waffles-text';
 

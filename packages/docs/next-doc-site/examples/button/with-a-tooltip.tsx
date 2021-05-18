@@ -1,5 +1,4 @@
 /* eslint-disable no-alert */
-// eslint-disable-next-line filenames/match-exported
 import Button from '@datacamp/waffles-button';
 
 function Example(): JSX.Element {

@@ -1,4 +1,3 @@
-// eslint-disable-next-line filenames/match-exported
 import { Badge, Link as LinkBase } from '@datacamp/waffles-text';
 import tokens from '@datacamp/waffles-tokens';
 import { css } from '@emotion/react';

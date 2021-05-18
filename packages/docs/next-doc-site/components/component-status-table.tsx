@@ -1,4 +1,3 @@
-// eslint-disable-next-line filenames/match-exported
 import { css } from '@emotion/react';
 
 import ComponentStatus from './component-status';

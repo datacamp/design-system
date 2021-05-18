@@ -1,4 +1,3 @@
-// eslint-disable-next-line filenames/match-exported
 import { Children } from 'react';
 
 function textFromChildren(children: React.ReactNode): string {

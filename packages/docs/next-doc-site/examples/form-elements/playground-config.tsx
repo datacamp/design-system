@@ -1,4 +1,3 @@
-// eslint-disable-next-line filenames/match-exported
 import { Input, Radio, RadioList } from '@datacamp/waffles-form-elements';
 import { useState } from 'react';
 

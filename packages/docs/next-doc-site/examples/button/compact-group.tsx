@@ -1,5 +1,4 @@
 /* eslint-disable no-alert */
-// eslint-disable-next-line filenames/match-exported
 import Button, { CompactButtonGroup } from '@datacamp/waffles-button';
 import { ChevronDownIcon } from '@datacamp/waffles-icons';
 

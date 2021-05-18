@@ -1,4 +1,3 @@
-// eslint-disable-next-line filenames/match-exported
 import { Link } from '@datacamp/waffles-text';
 
 function Example(): JSX.Element {

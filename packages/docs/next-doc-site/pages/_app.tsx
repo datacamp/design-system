@@ -1,4 +1,3 @@
-/* eslint-disable filenames/match-exported */
 import { setAppElement } from '@datacamp/waffles-modals';
 import { AppProps } from 'next/app';
 

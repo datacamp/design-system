@@ -1,4 +1,3 @@
-// eslint-disable-next-line filenames/match-exported
 function defaultExportNameFromPath(path: string): string {
   const nameKebabCase = path.split('waffles-')[1];
   // Convert name to pascal case

@@ -1,4 +1,3 @@
-// eslint-disable-next-line filenames/match-exported
 import tokens from '@datacamp/waffles-tokens';
 import { css } from '@emotion/react';
 import { readableColor } from 'polished';
