@@ -1,4 +1,3 @@
-// eslint-disable-next-line filenames/match-exported
 function colorItemsPerRow(
   numberOfColors: number,
   currentItemIndex: number,

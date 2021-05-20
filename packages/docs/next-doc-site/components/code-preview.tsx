@@ -1,14 +1,12 @@
-// eslint-disable-next-line filenames/match-exported
-import { border, colors } from '@datacamp/waffles-tokens';
+import tokens from '@datacamp/waffles-tokens';
 import { css } from '@emotion/react';
 
 const wrapperStyle = css`
   position: relative;
   padding: 16px;
-  background-color: ${colors.navy};
-  border-bottom-left-radius: ${border.radius};
-  border-bottom-right-radius: ${border.radius};
-  border-left: 8px solid ${colors.purple};
+  background-color: ${tokens.colors.navy};
+  border-radius: ${tokens.border.radius};
+  border-left: 8px solid ${tokens.colors.purple};
   overflow: hidden;
 `;
 

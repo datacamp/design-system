@@ -23,7 +23,7 @@
     "build:es": "BABEL_ENV=es babel src --extensions '.tsx','.ts' --out-dir es --ignore \"src/**/*.spec.tsx\",\"src/**/*.spec.ts\" --config-file ./babel7.config.js",
     "clean": "rm -rf lib es types componentMetadata.json",
     "build:types": "tsc --rootDir src --declarationDir types --emitDeclarationOnly",
-    "build:metadata": "react-docgen src --exclude \"/^.+spec.+$/\" -x tsx -o componentMetadata.json",
+    "build:metadata": "react-docgen src --exclude \"/^.+spec.+$/\" -x tsx -o componentMetadata.json --resolver findAllComponentDefinitions",
     "build": "yarn build:types && yarn build:cjs && yarn build:es && yarn build:metadata",
     "prepare": " yarn clean && yarn build",
     "test": "jest",

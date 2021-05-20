@@ -1,5 +1,4 @@
-// eslint-disable-next-line filenames/match-exported
-import { colors, fontSize } from '@datacamp/waffles-tokens';
+import tokens from '@datacamp/waffles-tokens';
 import { css } from '@emotion/react';
 import { useRouter } from 'next/router';
 import { Children, cloneElement, isValidElement, ReactElement } from 'react';
@@ -14,7 +13,9 @@ const listStyle = css`
 `;
 
 const itemStyle = css`
-  border-top: 1px solid ${colors.navy};
+  &:not(:first-of-type) {
+    border-top: 1px solid ${tokens.colors.navy};
+  }
 `;
 
 type CategoryProps = {
@@ -45,8 +46,8 @@ function NavigationCategory({ children, label }: CategoryProps): JSX.Element {
     <li css={itemStyle}>
       <Link
         css={css`
-          font-size: ${fontSize.h4};
-          color: ${isActive ? colors.green : colors.white};
+          font-size: ${tokens.fontSize.h4};
+          color: ${isActive ? tokens.colors.green : tokens.colors.white};
         `}
         href={href}
       >

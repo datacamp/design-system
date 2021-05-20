@@ -1,5 +1,4 @@
-// eslint-disable-next-line filenames/match-exported
-import { colors } from '@datacamp/waffles-tokens';
+import tokens from '@datacamp/waffles-tokens';
 import { css } from '@emotion/react';
 import { MDXProvider } from '@mdx-js/react';
 import { Fragment } from 'react';
@@ -10,7 +9,7 @@ import Sidebar from './sidebar';
 
 const mainStyle = css`
   padding-left: ${SIDEBAR_WIDTH}px;
-  background-color: ${colors.beige100};
+  background-color: ${tokens.colors.beige100};
   min-height: 100vh;
 `;
 

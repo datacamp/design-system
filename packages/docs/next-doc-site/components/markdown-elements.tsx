@@ -3,21 +3,27 @@ import {
   CodeBlock as CodeBlockBase,
   Emphasis as EmphasisBase,
   Heading,
-  Link,
+  Link as LinkBase,
   List as ListBase,
   Paragraph as ParagraphBase,
   Strong as StrongBase,
 } from '@datacamp/waffles-text';
+import { css } from '@emotion/react';
+import Link from 'next/link';
 import React from 'react';
+import slug from 'slug';
+
+import textFromChildren from '../helpers/text-from-children';
 
 export type TextProps = {
   children: string | React.ReactNode;
 };
 
+// Add ID to heading, so it could be bookmarked
 function H2({ children }: TextProps): JSX.Element {
   return (
     <Heading as="h2" multiLine size={600}>
-      {children}
+      <span id={slug(textFromChildren(children))}>{children}</span>
     </Heading>
   );
 }
@@ -50,6 +56,10 @@ function Strong({ children }: TextProps): JSX.Element {
   return <StrongBase>{children}</StrongBase>;
 }
 
+const codeBlockStyle = css`
+  -webkit-font-smoothing: antialiased;
+`;
+
 type CodeProps = {
   children: string;
 };
@@ -59,7 +69,7 @@ function InlineCode({ children }: CodeProps): JSX.Element {
 }
 
 function CodeBlock({ children }: CodeProps): JSX.Element {
-  return <CodeBlockBase>{children}</CodeBlockBase>;
+  return <CodeBlockBase css={codeBlockStyle}>{children}</CodeBlockBase>;
 }
 
 type RegularLinkProps = {
@@ -68,23 +78,42 @@ type RegularLinkProps = {
 };
 
 function RegularLink({ children, href }: RegularLinkProps): JSX.Element {
-  return <Link href={href}>{children}</Link>;
+  return (
+    <Link href={href} passHref>
+      <LinkBase>{children}</LinkBase>
+    </Link>
+  );
 }
+
+const listStyle = css`
+  padding-left: 32px;
+  margin-top: 8px !important;
+  list-style: disc;
+
+  ul {
+    margin-top: 0 !important;
+  }
+`;
+
+const listItemStyle = css`
+  margin-top: 0;
+`;
 
 type ListProps = {
   children: React.ReactNode;
 };
 
 function List({ children }: ListProps): JSX.Element {
-  return <ListBase>{children}</ListBase>;
+  return <ListBase css={listStyle}>{children}</ListBase>;
 }
 
 function ListItem({ children }: ListProps): JSX.Element {
-  return <ListBase.Item>{children}</ListBase.Item>;
+  return <ListBase.Item css={listItemStyle}>{children}</ListBase.Item>;
 }
 
 export default {
   a: RegularLink,
+  code: CodeBlock,
   em: Emphasis,
   h2: H2,
   h3: H3,
@@ -92,7 +121,6 @@ export default {
   inlineCode: InlineCode,
   li: ListItem,
   p: Paragraph,
-  pre: CodeBlock,
   strong: Strong,
   ul: List,
 };

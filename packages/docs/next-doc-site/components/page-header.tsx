@@ -1,6 +1,5 @@
-// eslint-disable-next-line filenames/match-exported
 import { Heading, Paragraph } from '@datacamp/waffles-text';
-import { colors, fontSize, fontWeight } from '@datacamp/waffles-tokens';
+import tokens from '@datacamp/waffles-tokens';
 import { css } from '@emotion/react';
 import Head from 'next/head';
 import { useRouter } from 'next/router';
@@ -13,7 +12,7 @@ import { MAX_CONTENT_WIDTH, PAGE_HEADER_HEIGHT } from './constants';
 const headerStyle = css`
   display: flex;
   align-items: flex-end;
-  background-color: ${colors.navy};
+  background-color: ${tokens.colors.navy};
   width: 100%;
   padding: 32px;
   padding-top: 0;
@@ -25,20 +24,20 @@ const contentStyle = css`
 `;
 
 const categoryStyle = css`
-  color: ${colors.green};
-  font-weight: ${fontWeight.bold};
+  color: ${tokens.colors.green};
+  font-weight: ${tokens.fontWeight.bold};
   text-transform: uppercase;
   letter-spacing: 2px;
-  font-size: ${fontSize.small};
+  font-size: ${tokens.fontSize.small};
 `;
 
 const titleStyle = css`
-  color: ${colors.white};
+  color: ${tokens.colors.white};
   margin-top: 8px !important;
 `;
 
 const overviewStyle = css`
-  color: ${colors.white};
+  color: ${tokens.colors.white};
 `;
 
 type PageHeaderProps = {

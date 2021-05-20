@@ -1,4 +1,3 @@
-// eslint-disable-next-line filenames/match-exported
 type Color = {
   name: string;
   value: string;

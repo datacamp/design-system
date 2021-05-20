@@ -1,0 +1,41 @@
+import metadata from '@datacamp/waffles-markdown/componentMetadata.json';
+import * as MarkdownExports from '@datacamp/waffles-markdown';
+
+import Layout from '../../components/page-layout';
+import Header from '../../components/page-header';
+import Section from '../../components/page-section';
+import Playground from '../../components/playground';
+import PropsTable from '../../components/props-table';
+import Imports from '../../components/imports';
+
+import playgroundConfig from '../../examples/markdown/playground-config';
+
+export default Layout;
+
+<Header pageTitle="Markdown" overview="A component to render markdown." />
+
+<Section>
+
+## Overview
+
+A component to render markdown using the styles of this design system. Note this is an initial version of this component and so is limited in its functionality. This documentation is also minimal, so if you are intending to use this component, please contact the design system squad for assistance.
+
+<Playground {...playgroundConfig} />
+
+</Section>
+
+<Section>
+
+## Props
+
+<PropsTable component="Markdown" metadata={metadata} />
+
+</Section>
+
+<Section>
+
+## Imports
+
+<Imports module={MarkdownExports} path="@datacamp/waffles-markdown" />
+
+</Section>

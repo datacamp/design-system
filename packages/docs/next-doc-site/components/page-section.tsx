@@ -1,4 +1,3 @@
-// eslint-disable-next-line filenames/match-exported
 import Card from '@datacamp/waffles-card';
 import { css } from '@emotion/react';
 

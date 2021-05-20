@@ -1,5 +1,4 @@
-// eslint-disable-next-line filenames/match-exported
-import { colors } from '@datacamp/waffles-tokens';
+import tokens from '@datacamp/waffles-tokens';
 import { css } from '@emotion/react';
 import { Fragment } from 'react';
 
@@ -10,41 +9,52 @@ import { Metadata } from '../types';
 import Markdown from './markdown-elements';
 import Table from './table';
 
+const nameCellStyle = css`
+  font-weight: ${tokens.fontWeight.bold};
+`;
+
 const requiredStyle = css`
-  color: ${colors.redText};
+  color: ${tokens.colors.redText};
 `;
 
 const descriptionStyle = css`
-  min-width: 300px;
+  width: 40%;
 `;
 
 type PropsTableProps = {
-  componentName: string;
+  alias?: string;
+  component: string;
   metadata: Metadata;
 };
 
-function PropsTable({ componentName, metadata }: PropsTableProps): JSX.Element {
-  const data = componentMetadataByName(metadata, componentName);
+function PropsTable({
+  alias,
+  component,
+  metadata,
+}: PropsTableProps): JSX.Element {
+  const data = componentMetadataByName(metadata, component);
 
   return (
     <Fragment>
-      <Markdown.h3>{componentName}</Markdown.h3>
+      <Markdown.h3>{alias ?? component}</Markdown.h3>
       <Table>
         <thead>
           <tr>
             <Table.HeadCell>Name</Table.HeadCell>
             <Table.HeadCell>Value</Table.HeadCell>
             <Table.HeadCell>Default</Table.HeadCell>
-            <Table.HeadCell>Description</Table.HeadCell>
+            <Table.HeadCell css={descriptionStyle}>Description</Table.HeadCell>
           </tr>
         </thead>
         <tbody>
           {data?.props &&
             Object.entries(data.props).map((prop) => {
-              const [name, propData] = prop;
+              const [componentName, propData] = prop;
               return (
-                <tr key={`prop-${name}`}>
-                  <Table.Cell>{name === 'innerRef' ? 'ref' : name}</Table.Cell>
+                <tr key={`prop-${componentName}`}>
+                  <Table.Cell css={nameCellStyle}>
+                    {componentName === 'innerRef' ? 'ref' : componentName}
+                  </Table.Cell>
                   <Table.Cell>{typeNameFromMetadata(propData)}</Table.Cell>
                   <Table.Cell>
                     {propData.required ? (
@@ -53,8 +63,8 @@ function PropsTable({ componentName, metadata }: PropsTableProps): JSX.Element {
                       propData.defaultValue?.value
                     )}
                   </Table.Cell>
-                  <Table.Cell css={descriptionStyle}>
-                    {propData.description}
+                  <Table.Cell>
+                    {propData.description ? propData.description : '—'}
                   </Table.Cell>
                 </tr>
               );

@@ -1,0 +1,83 @@
+import metadata from '@datacamp/waffles-button/componentMetadata.json';
+import * as ButtonExports from '@datacamp/waffles-button';
+
+import Layout from '../../components/page-layout';
+import Header from '../../components/page-header';
+import Section from '../../components/page-section';
+import Example from '../../components/example';
+import Playground from '../../components/playground';
+import PropsTable from '../../components/props-table';
+import Imports from '../../components/imports';
+
+import playgroundConfig from '../../examples/button/playground-config';
+import WithATooltip from '../../examples/button/with-a-tooltip';
+import AsALink from '../../examples/button/as-a-link';
+import SocialMedia from '../../examples/button/social-media';
+import CompactGroup from '../../examples/button/compact-group';
+
+export default Layout;
+
+<Header
+  pageTitle="Button"
+  overview="Buttons is the fundamental component which allow users to process actions or navigate an experience."
+/>
+
+<Section>
+
+## Overview
+
+Waffles exposes several button and button-related utility components:
+
+- **Button** – Able to have an icon on the left or right.
+- **ButtonGroup** – Enables you to layout several buttons of the same size with consistent spacing.
+- **CompactButtonGroup** – Enables you to concatenate multiple buttons into one. It can also be nested inside a ButtonGroup.
+- **FacebookButton**, **GoogleButton**, **LinkedinButton**, **TwitterButton** - Custom buttons with the correct colours for the various social media platforms.
+- **CloseButton** – Used internally in other waffles components. Please contact the team directly if you are considering using in your own components.
+
+Button type can be used to alter how interactions are handled. `ButtonGroup` and `CompactButtonGroup` aggregate multiple buttons as long as they have the same size.
+
+<Playground {...playgroundConfig} minHeight={120} />
+
+</Section>
+
+<Section>
+
+## Examples
+
+<Example title="With a tooltip" path="button/with-a-tooltip" minHeight={120}>
+  <WithATooltip />
+</Example>
+
+<Example title="As a link" path="button/as-a-link">
+  <AsALink />
+</Example>
+
+<Example title="Social media" path="button/social-media">
+  <SocialMedia />
+</Example>
+
+<Example title="Compact group" path="button/compact-group">
+  <CompactGroup />
+</Example>
+
+</Section>
+
+<Section>
+
+## Props
+
+<PropsTable component="InternalButton" alias="Button" metadata={metadata} />
+
+<PropsTable component="ButtonGroup" metadata={metadata} />
+
+<PropsTable component="CompactButtonGroup" metadata={metadata} />
+
+</Section>
+
+<Section>
+
+## Imports
+
+<Imports module={ButtonExports} path="@datacamp/waffles-button" />
+
+</Section>

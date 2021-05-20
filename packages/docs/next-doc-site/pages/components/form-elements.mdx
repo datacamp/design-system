@@ -1,0 +1,93 @@
+import metadata from '@datacamp/waffles-form-elements/componentMetadata.json';
+import * as FormElementsExports from '@datacamp/waffles-form-elements';
+
+import Layout from '../../components/page-layout';
+import Header from '../../components/page-header';
+import Section from '../../components/page-section';
+import Example from '../../components/example';
+import Playground from '../../components/playground';
+import PropsTable from '../../components/props-table';
+import Imports from '../../components/imports';
+
+import playgroundConfig from '../../examples/form-elements/playground-config';
+import SimpleSelect from '../../examples/form-elements/simple-select';
+import BasicTextarea from '../../examples/form-elements/basic-textarea';
+import MultipleCheckboxes from '../../examples/form-elements/multiple-checkboxes';
+
+export default Layout;
+
+<Header
+  pageTitle="Form Elements"
+  overview="A collection of common form elements."
+/>
+
+<Section>
+
+## Overview
+
+Waffles exposes several form elements:
+
+- **Input** – Able to handle multiple types of text input.
+- **Select** – Allows the user to select one from a list of options.
+- **SelectOption** - To be used within a Select to specify an available option.
+- **RadioList** – Allows the user to choose one from a list of options.
+- **Radio** - To be used within a RadioList to specify an available option.
+- **CheckboxList** – Allows the user to choose multiple from a list of options.
+- **Checkbox** - To be used within a CheckboxList to specify an available option.
+- **TextArea** - Able to handle longer form text input.
+
+<Playground {...playgroundConfig} />
+
+</Section>
+
+<Section>
+
+## Examples
+
+<Example
+  title="Simple select"
+  path="form-elements/simple-select"
+  minHeight={220}
+>
+  <SimpleSelect />
+</Example>
+
+<Example title="Basic textarea" path="form-elements/basic-textarea">
+  <BasicTextarea />
+</Example>
+
+<Example title="Multiple checkboxes" path="form-elements/multiple-checkboxes">
+  <MultipleCheckboxes />
+</Example>
+
+</Section>
+
+<Section>
+
+## Props
+
+<PropsTable component="InternalInput" alias="Input" metadata={metadata} />
+
+<PropsTable component="InternalSelect" alias="Select" metadata={metadata} />
+
+<PropsTable component="Option" alias="SelectOption" metadata={metadata} />
+
+<PropsTable component="RadioList" metadata={metadata} />
+
+<PropsTable component="Radio" metadata={metadata} />
+
+<PropsTable component="CheckboxList" metadata={metadata} />
+
+<PropsTable component="Checkbox" metadata={metadata} />
+
+<PropsTable component="InternalTextArea" alias="TextArea" metadata={metadata} />
+
+</Section>
+
+<Section>
+
+## Imports
+
+<Imports module={FormElementsExports} path="@datacamp/waffles-form-elements" />
+
+</Section>

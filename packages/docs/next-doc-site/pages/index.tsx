@@ -1,4 +1,3 @@
-/* eslint-disable filenames/match-exported */
 import { css } from '@emotion/react';
 
 import Markdown from '../components/markdown-elements';

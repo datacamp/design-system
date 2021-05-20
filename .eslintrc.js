@@ -8,6 +8,14 @@ module.exports = {
   ignorePatterns: ['**/generated/**'],
   overrides: [
     {
+      files: ['packages/docs/next-doc-site/**/*.{ts,tsx}'],
+      rules: { 'no-alert': 0 },
+    },
+    {
+      files: ['packages/docs/next-doc-site/**/*.{ts,tsx}'],
+      rules: { 'filenames/match-exported': 0 },
+    },
+    {
       files: [...testFilesGlobPatterns, '**/*.stories.js'],
       rules: { '@typescript-eslint/no-empty-function': 'off' },
     },

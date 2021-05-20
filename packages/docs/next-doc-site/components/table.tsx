@@ -1,49 +1,39 @@
-import {
-  border,
-  colors,
-  fontFamily,
-  fontSize,
-  fontWeight,
-  lineHeight,
-} from '@datacamp/waffles-tokens';
+import tokens from '@datacamp/waffles-tokens';
 import { css } from '@emotion/react';
 
 const wrapperStyle = css`
-  border: 1px solid ${colors.beige400};
-  border-radius: ${border.radius};
+  border: 1px solid ${tokens.colors.beige400};
+  border-radius: ${tokens.border.radius};
   margin-top: 8px;
   overflow-x: scroll;
 `;
 
 const tableStyle = css`
   width: 100%;
-  background-color: ${colors.white};
-  color: ${colors.navyText};
-  font-family: ${fontFamily.sansSerif};
-  font-size: ${fontSize.h6};
-  font-weight: ${fontWeight.regular};
-  line-height: ${lineHeight.base};
+  background-color: ${tokens.colors.white};
+  color: ${tokens.colors.navyText};
+  font-family: ${tokens.fontFamily.sansSerif};
+  font-size: ${tokens.fontSize.h6};
+  font-weight: ${tokens.fontWeight.regular};
+  line-height: ${tokens.lineHeight.base};
   border-collapse: collapse;
+  table-layout: fixed;
 `;
 
 const tableCellStyle = css`
   padding: 16px;
   text-align: left;
-  border-top: 1px solid ${colors.beige400};
+  border-top: 1px solid ${tokens.colors.beige400};
   word-wrap: break-word;
   vertical-align: top;
-
-  &:first-of-type {
-    font-weight: ${fontWeight.bold};
-  }
 `;
 
 const tableHeadCellStyle = css`
-  font-size: ${fontSize.small};
-  font-weight: ${fontWeight.bold};
+  font-size: ${tokens.fontSize.small};
+  font-weight: ${tokens.fontWeight.bold};
   text-transform: uppercase;
   border-top: none;
-  min-width: 140px;
+  width: 20%;
   letter-spacing: 1px;
 `;
 

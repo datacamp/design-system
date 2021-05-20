@@ -1,0 +1,26 @@
+import * as TooltipExports from '@datacamp/waffles-tooltip';
+
+import Layout from '../../components/page-layout';
+import Header from '../../components/page-header';
+import Section from '../../components/page-section';
+import Imports from '../../components/imports';
+
+export default Layout;
+
+<Header pageTitle="Tooltip" overview="A specialized tooltip component." />
+
+<Section>
+
+## Overview
+
+A component to render tooltip using the styles of this design system. Please note that this component is designed to be used as a building block for other components, and as such should only be accessed directly when using with non-waffles components. For example when using a `Button`, the tooltip is accessible through the [button props API](/components/button#props). Before using this component it would be best to reach out to the squad as it is only designed for specific uses.
+
+</Section>
+
+<Section>
+
+## Imports
+
+<Imports module={TooltipExports} path="@datacamp/waffles-tooltip" />
+
+</Section>

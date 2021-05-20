@@ -1,5 +1,5 @@
 import { Small } from '@datacamp/waffles-text';
-import { border, colors } from '@datacamp/waffles-tokens';
+import tokens from '@datacamp/waffles-tokens';
 import { css } from '@emotion/react';
 import Link from 'next/link';
 
@@ -12,8 +12,7 @@ const wrapperStyle = css`
   height: 100vh;
   max-height: 100vh;
   width: ${SIDEBAR_WIDTH}px;
-  background-color: ${colors.navyDark};
-  overflow: hidden;
+  background-color: ${tokens.colors.navyDark};
   display: flex;
   flex-direction: column;
 `;
@@ -22,7 +21,8 @@ const headerStyle = css`
   width: 100%;
   padding: 40px;
   padding-bottom: 0;
-  height: ${PAGE_HEADER_HEIGHT - 1}px;
+  height: ${PAGE_HEADER_HEIGHT}px;
+  border-bottom: 1px solid ${tokens.colors.navy};
 
   svg {
     width: 100%;
@@ -35,18 +35,24 @@ const linkStyle = css`
   padding: 8px;
   margin: 0;
   outline: 0;
-  border-radius: ${border.radius};
+  border-radius: ${tokens.border.radius};
 
   &:focus-visible {
     background-color: ${A11Y_COLOR};
   }
 `;
 
+const scrollableContent = css`
+  display: flex;
+  flex-direction: column;
+  flex: 1 0;
+  overflow-y: scroll;
+`;
+
 const copyStyle = css`
   display: block;
-  padding-left: 48px;
-  padding-bottom: 16px;
-  color: ${colors.white};
+  padding: 48px 0 16px 48px;
+  color: ${tokens.colors.white};
   opacity: 0.5;
   user-select: none;
 `;
@@ -61,8 +67,10 @@ function Sidebar(): JSX.Element {
           </a>
         </Link>
       </header>
-      <Navigation />
-      <Small css={copyStyle}>© 2021 DataCamp, Inc.</Small>
+      <div css={scrollableContent}>
+        <Navigation />
+        <Small css={copyStyle}>© 2021 DataCamp, Inc.</Small>
+      </div>
     </section>
   );
 }

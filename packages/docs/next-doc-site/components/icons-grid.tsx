@@ -1,7 +1,8 @@
-// eslint-disable-next-line filenames/match-exported
 import * as allIcons from '@datacamp/waffles-icons';
-import { border, colors } from '@datacamp/waffles-tokens';
+import tokens from '@datacamp/waffles-tokens';
 import { css } from '@emotion/react';
+
+import Preview from './preview';
 
 const brandIcons = Object.entries(allIcons)
   .filter((icon) => {
@@ -24,47 +25,28 @@ const regularIcons = Object.entries(allIcons)
   })
   .map((iconData) => iconData[1]);
 
-const wrapperStyle = css`
-  display: flex;
-  flex-wrap: wrap;
-  border: 1px solid ${colors.beige400};
-  margin-top: 8px;
-  padding: 8px;
-  width: 100%;
-  border-radius: ${border.radius};
-`;
-
 const iconStyle = css`
   margin: 8px;
 `;
 
 type IconsGridProps = {
-  variant: 'regular' | 'inverted' | 'brand';
+  variant?: 'regular' | 'inverted' | 'brand';
 };
 
-function IconsGrid({ variant }: IconsGridProps): JSX.Element {
+function IconsGrid({ variant = 'regular' }: IconsGridProps): JSX.Element {
   const isInverted = variant === 'inverted';
 
   function renderIcons(icons: typeof regularIcons): JSX.Element {
     return (
-      <div
-        css={css`
-          ${wrapperStyle}
-          ${isInverted &&
-          css`
-            border: none;
-          `};
-          background-color: ${isInverted ? colors.navyLight : 'transparent'};
-        `}
-      >
+      <Preview isInverted={isInverted}>
         {icons.map((Icon, index) => (
           <Icon
-            color={isInverted ? colors.white : colors.navyDark}
+            color={isInverted ? tokens.colors.white : tokens.colors.navyDark}
             css={iconStyle}
             key={`$icon-${index}`}
           />
         ))}
-      </div>
+      </Preview>
     );
   }
 

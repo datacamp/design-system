@@ -1,0 +1,85 @@
+import metadata from '@datacamp/waffles-modals/componentMetadata.json';
+import * as ModalsExports from '@datacamp/waffles-modals';
+
+import Layout from '../../components/page-layout';
+import Header from '../../components/page-header';
+import Section from '../../components/page-section';
+import Example from '../../components/example';
+import Playground from '../../components/playground';
+import PropsTable from '../../components/props-table';
+import Imports from '../../components/imports';
+
+import playgroundConfig from '../../examples/modals/playground-config';
+import ComplexPanel from '../../examples/modals/complex-panel';
+import RegularAlert from '../../examples/modals/regular-alert';
+
+export default Layout;
+
+<Header
+  pageTitle="Modals"
+  overview="Modal is an overaly that prevent users from interacting with the rest of the application until a specific action is taken."
+/>
+
+<Section>
+
+## Overview
+
+Waffles exposes a few modal components:
+
+- **AlertDialog** – Asks for confirmation before performing an action.
+- **Dialog** – Enables custom content to be displayed in a way that blocks interaction with the rest of the page.
+- **Panel** – Enables larger amounts of custom content to be displayed in a way that blocks interaction with the rest of the page.
+
+Before using any of these components, `setAppElement` should be called with the root element of the application. This will normally be the same as the element used for rendering react.
+
+```
+import { AlertDialog, Dialog, Panel, setAppElement } from '@datacamp/waffles-modals';
+
+setAppElement('#root');
+```
+
+`Header`, `Body`, and `Footer` could be used with both `Dialog` and `Panel`. For example `Dialog.Header` or `Panel.Footer`are both valid.
+
+<Playground {...playgroundConfig} />
+
+</Section>
+
+<Section>
+
+## Examples
+
+<Example title="Complex panel" path="modals/complex-panel">
+  <ComplexPanel />
+</Example>
+
+<Example title="Regular alert" path="modals/regular-alert">
+  <RegularAlert />
+</Example>
+
+</Section>
+
+<Section>
+
+## Props
+
+<PropsTable component="AlertDialog" metadata={metadata} />
+
+<PropsTable component="Dialog" metadata={metadata} />
+
+<PropsTable component="Panel" metadata={metadata} />
+
+<PropsTable component="Header" alias="Dialog.Header" metadata={metadata} />
+
+<PropsTable component="Body" alias="Dialog.Body" metadata={metadata} />
+
+<PropsTable component="Footer" alias="Dialog.Footer" metadata={metadata} />
+
+</Section>
+
+<Section>
+
+## Imports
+
+<Imports module={ModalsExports} path="@datacamp/waffles-modals" />
+
+</Section>

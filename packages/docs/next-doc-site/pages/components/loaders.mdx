@@ -1,0 +1,53 @@
+import * as LoadersExports from '@datacamp/waffles-loaders';
+
+import Layout from '../../components/page-layout';
+import Header from '../../components/page-header';
+import Section from '../../components/page-section';
+import Example from '../../components/example';
+import Imports from '../../components/imports';
+
+import LogomarkSpinnerRegular from '../../examples/loaders/logomark-spinner-regular';
+import LogomarkSpinnerCustomized from '../../examples/loaders/logomark-spinner-customized';
+
+export default Layout;
+
+<Header
+  pageTitle="Loaders"
+  overview="Animated loading placeholder components."
+/>
+
+<Section>
+
+## Overview
+
+Waffles exposes the `LogomarkSpinner` component. Later other spinners and placeholders will be available.
+
+</Section>
+
+<Section>
+
+## Examples
+
+<Example
+  title="Logomark spinner regular"
+  path="loaders/logomark-spinner-regular"
+>
+  <LogomarkSpinnerRegular />
+</Example>
+
+<Example
+  title="Logomark spinner customized"
+  path="loaders/logomark-spinner-customized"
+>
+  <LogomarkSpinnerCustomized />
+</Example>
+
+</Section>
+
+<Section>
+
+## Imports
+
+<Imports module={LoadersExports} path="@datacamp/waffles-loaders" />
+
+</Section>
