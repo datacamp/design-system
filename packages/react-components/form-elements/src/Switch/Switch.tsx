@@ -10,8 +10,9 @@ const labelStyle = css({
   cursor: 'pointer',
   display: 'inline-flex',
   fontFamily: tokens.fontFamily.sansSerif,
-  fontSize: 14,
+  fontSize: 16,
   fontWeight: parseInt(tokens.fontWeight.regular, 10),
+  opacity: 1,
   position: 'relative',
   userSelect: 'none',
 });
@@ -56,26 +57,42 @@ const toggleButtonleStyle = css({
   zIndex: 1,
 });
 
-type SwitchProps = { label: string } & InputHTMLAttributes<HTMLInputElement>;
+type SwitchProps = InputHTMLAttributes<HTMLInputElement>;
 
-function Switch(props: SwitchProps): JSX.Element {
+function Switch({
+  checked,
+  children,
+  className,
+  disabled,
+  ...restProps
+}: SwitchProps): JSX.Element {
   const { focusProps, isFocusVisible } = useFocusRing();
 
   return (
-    <label css={labelStyle}>
+    <label
+      className={className}
+      css={css(
+        labelStyle,
+        disabled && {
+          cursor: 'default',
+          opacity: 0.5,
+        },
+      )}
+    >
       <input
-        aria-checked={props.checked}
+        aria-checked={checked}
         css={inputStyle}
+        disabled={disabled}
         role="switch"
         type="checkbox"
-        {...props}
+        {...restProps}
         {...focusProps}
       />
       <div
         css={css(
           toggleWrapperStyle,
           {
-            backgroundColor: props.checked
+            backgroundColor: checked
               ? tokens.colors.blue
               : tokens.colors.grey400,
           },
@@ -86,10 +103,10 @@ function Switch(props: SwitchProps): JSX.Element {
       >
         <div
           css={css(toggleButtonleStyle, {
-            left: props.checked ? 15 : 5,
+            left: checked ? 15 : 5,
           })}
         >
-          {props.checked && (
+          {checked && (
             <CheckmarkIcon
               aria-hidden={true}
               color={tokens.colors.blue}
@@ -98,7 +115,7 @@ function Switch(props: SwitchProps): JSX.Element {
           )}
         </div>
       </div>
-      {props.label}
+      {children}
     </label>
   );
 }
