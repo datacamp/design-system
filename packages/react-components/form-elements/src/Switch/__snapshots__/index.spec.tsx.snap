@@ -1,0 +1,895 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshots renders a switch with appearance default, disabled=false, checked=false 1`] = `
+.emotion-0 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #05192d;
+  cursor: pointer;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  font-family: 'Studio-Feixen-Sans';
+  font-size: 16px;
+  font-weight: 400;
+  opacity: 1;
+  position: relative;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  color: #05192d;
+}
+
+.emotion-1 {
+  border: 0;
+  height: 100%;
+  left: 0;
+  margin: 0;
+  opacity: 0.001;
+  padding: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: -1;
+}
+
+.emotion-2 {
+  -webkit-background-clip: content-box;
+  background-clip: content-box;
+  background-color: #06bdfc;
+  border-radius: 12px;
+  height: 24px;
+  margin-right: 8px;
+  padding: 3px;
+  position: relative;
+  width: 34px;
+  background-color: #d9d9e2;
+}
+
+.emotion-3 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 6px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 12px;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  left: 6px;
+  position: absolute;
+  top: 6px;
+  -webkit-transition: all 75ms linear;
+  transition: all 75ms linear;
+  width: 12px;
+  z-index: 1;
+  background-color: #ffffff;
+  left: 6px;
+}
+
+<label
+  class="emotion-0"
+>
+  <input
+    class="emotion-1"
+    role="switch"
+    type="checkbox"
+  />
+  <div
+    class="emotion-2"
+  >
+    <div
+      class="emotion-3"
+    />
+  </div>
+  Test
+</label>
+`;
+
+exports[`snapshots renders a switch with appearance default, disabled=false, checked=true 1`] = `
+.emotion-0 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #05192d;
+  cursor: pointer;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  font-family: 'Studio-Feixen-Sans';
+  font-size: 16px;
+  font-weight: 400;
+  opacity: 1;
+  position: relative;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  color: #05192d;
+}
+
+.emotion-1 {
+  border: 0;
+  height: 100%;
+  left: 0;
+  margin: 0;
+  opacity: 0.001;
+  padding: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: -1;
+}
+
+.emotion-2 {
+  -webkit-background-clip: content-box;
+  background-clip: content-box;
+  background-color: #06bdfc;
+  border-radius: 12px;
+  height: 24px;
+  margin-right: 8px;
+  padding: 3px;
+  position: relative;
+  width: 34px;
+  background-color: #d9d9e2;
+}
+
+.emotion-3 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 6px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 12px;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  left: 6px;
+  position: absolute;
+  top: 6px;
+  -webkit-transition: all 75ms linear;
+  transition: all 75ms linear;
+  width: 12px;
+  z-index: 1;
+  background-color: #ffffff;
+  left: 6px;
+}
+
+<label
+  class="emotion-0"
+>
+  <input
+    class="emotion-1"
+    role="switch"
+    type="checkbox"
+  />
+  <div
+    class="emotion-2"
+  >
+    <div
+      class="emotion-3"
+    />
+  </div>
+  Test
+</label>
+`;
+
+exports[`snapshots renders a switch with appearance default, disabled=true, checked=false 1`] = `
+.emotion-0 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #05192d;
+  cursor: pointer;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  font-family: 'Studio-Feixen-Sans';
+  font-size: 16px;
+  font-weight: 400;
+  opacity: 1;
+  position: relative;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  color: #05192d;
+  cursor: default;
+  opacity: 0.5;
+}
+
+.emotion-1 {
+  border: 0;
+  height: 100%;
+  left: 0;
+  margin: 0;
+  opacity: 0.001;
+  padding: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: -1;
+}
+
+.emotion-2 {
+  -webkit-background-clip: content-box;
+  background-clip: content-box;
+  background-color: #06bdfc;
+  border-radius: 12px;
+  height: 24px;
+  margin-right: 8px;
+  padding: 3px;
+  position: relative;
+  width: 34px;
+  background-color: #d9d9e2;
+}
+
+.emotion-3 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 6px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 12px;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  left: 6px;
+  position: absolute;
+  top: 6px;
+  -webkit-transition: all 75ms linear;
+  transition: all 75ms linear;
+  width: 12px;
+  z-index: 1;
+  background-color: #ffffff;
+  left: 6px;
+}
+
+<label
+  class="emotion-0"
+>
+  <input
+    class="emotion-1"
+    disabled=""
+    role="switch"
+    type="checkbox"
+  />
+  <div
+    class="emotion-2"
+  >
+    <div
+      class="emotion-3"
+    />
+  </div>
+  Test
+</label>
+`;
+
+exports[`snapshots renders a switch with appearance default, disabled=true, checked=true 1`] = `
+.emotion-0 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #05192d;
+  cursor: pointer;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  font-family: 'Studio-Feixen-Sans';
+  font-size: 16px;
+  font-weight: 400;
+  opacity: 1;
+  position: relative;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  color: #05192d;
+  cursor: default;
+  opacity: 0.5;
+}
+
+.emotion-1 {
+  border: 0;
+  height: 100%;
+  left: 0;
+  margin: 0;
+  opacity: 0.001;
+  padding: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: -1;
+}
+
+.emotion-2 {
+  -webkit-background-clip: content-box;
+  background-clip: content-box;
+  background-color: #06bdfc;
+  border-radius: 12px;
+  height: 24px;
+  margin-right: 8px;
+  padding: 3px;
+  position: relative;
+  width: 34px;
+  background-color: #d9d9e2;
+}
+
+.emotion-3 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 6px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 12px;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  left: 6px;
+  position: absolute;
+  top: 6px;
+  -webkit-transition: all 75ms linear;
+  transition: all 75ms linear;
+  width: 12px;
+  z-index: 1;
+  background-color: #ffffff;
+  left: 6px;
+}
+
+<label
+  class="emotion-0"
+>
+  <input
+    class="emotion-1"
+    disabled=""
+    role="switch"
+    type="checkbox"
+  />
+  <div
+    class="emotion-2"
+  >
+    <div
+      class="emotion-3"
+    />
+  </div>
+  Test
+</label>
+`;
+
+exports[`snapshots renders a switch with appearance inverted, disabled=false, checked=false 1`] = `
+.emotion-0 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #05192d;
+  cursor: pointer;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  font-family: 'Studio-Feixen-Sans';
+  font-size: 16px;
+  font-weight: 400;
+  opacity: 1;
+  position: relative;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  color: #ffffff;
+}
+
+.emotion-1 {
+  border: 0;
+  height: 100%;
+  left: 0;
+  margin: 0;
+  opacity: 0.001;
+  padding: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: -1;
+}
+
+.emotion-2 {
+  -webkit-background-clip: content-box;
+  background-clip: content-box;
+  background-color: #06bdfc;
+  border-radius: 12px;
+  height: 24px;
+  margin-right: 8px;
+  padding: 3px;
+  position: relative;
+  width: 34px;
+  background-color: #ffffff;
+}
+
+.emotion-3 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 6px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 12px;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  left: 6px;
+  position: absolute;
+  top: 6px;
+  -webkit-transition: all 75ms linear;
+  transition: all 75ms linear;
+  width: 12px;
+  z-index: 1;
+  background-color: #d9d9e2;
+  left: 6px;
+}
+
+<label
+  class="emotion-0"
+>
+  <input
+    class="emotion-1"
+    role="switch"
+    type="checkbox"
+  />
+  <div
+    class="emotion-2"
+  >
+    <div
+      class="emotion-3"
+    />
+  </div>
+  Test
+</label>
+`;
+
+exports[`snapshots renders a switch with appearance inverted, disabled=false, checked=true 1`] = `
+.emotion-0 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #05192d;
+  cursor: pointer;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  font-family: 'Studio-Feixen-Sans';
+  font-size: 16px;
+  font-weight: 400;
+  opacity: 1;
+  position: relative;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  color: #ffffff;
+}
+
+.emotion-1 {
+  border: 0;
+  height: 100%;
+  left: 0;
+  margin: 0;
+  opacity: 0.001;
+  padding: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: -1;
+}
+
+.emotion-2 {
+  -webkit-background-clip: content-box;
+  background-clip: content-box;
+  background-color: #06bdfc;
+  border-radius: 12px;
+  height: 24px;
+  margin-right: 8px;
+  padding: 3px;
+  position: relative;
+  width: 34px;
+  background-color: #ffffff;
+}
+
+.emotion-3 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 6px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 12px;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  left: 6px;
+  position: absolute;
+  top: 6px;
+  -webkit-transition: all 75ms linear;
+  transition: all 75ms linear;
+  width: 12px;
+  z-index: 1;
+  background-color: #d9d9e2;
+  left: 6px;
+}
+
+<label
+  class="emotion-0"
+>
+  <input
+    class="emotion-1"
+    role="switch"
+    type="checkbox"
+  />
+  <div
+    class="emotion-2"
+  >
+    <div
+      class="emotion-3"
+    />
+  </div>
+  Test
+</label>
+`;
+
+exports[`snapshots renders a switch with appearance inverted, disabled=true, checked=false 1`] = `
+.emotion-0 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #05192d;
+  cursor: pointer;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  font-family: 'Studio-Feixen-Sans';
+  font-size: 16px;
+  font-weight: 400;
+  opacity: 1;
+  position: relative;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  color: #ffffff;
+  cursor: default;
+  opacity: 0.5;
+}
+
+.emotion-1 {
+  border: 0;
+  height: 100%;
+  left: 0;
+  margin: 0;
+  opacity: 0.001;
+  padding: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: -1;
+}
+
+.emotion-2 {
+  -webkit-background-clip: content-box;
+  background-clip: content-box;
+  background-color: #06bdfc;
+  border-radius: 12px;
+  height: 24px;
+  margin-right: 8px;
+  padding: 3px;
+  position: relative;
+  width: 34px;
+  background-color: #ffffff;
+}
+
+.emotion-3 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 6px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 12px;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  left: 6px;
+  position: absolute;
+  top: 6px;
+  -webkit-transition: all 75ms linear;
+  transition: all 75ms linear;
+  width: 12px;
+  z-index: 1;
+  background-color: #d9d9e2;
+  left: 6px;
+}
+
+<label
+  class="emotion-0"
+>
+  <input
+    class="emotion-1"
+    disabled=""
+    role="switch"
+    type="checkbox"
+  />
+  <div
+    class="emotion-2"
+  >
+    <div
+      class="emotion-3"
+    />
+  </div>
+  Test
+</label>
+`;
+
+exports[`snapshots renders a switch with appearance inverted, disabled=true, checked=true 1`] = `
+.emotion-0 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #05192d;
+  cursor: pointer;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  font-family: 'Studio-Feixen-Sans';
+  font-size: 16px;
+  font-weight: 400;
+  opacity: 1;
+  position: relative;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  color: #ffffff;
+  cursor: default;
+  opacity: 0.5;
+}
+
+.emotion-1 {
+  border: 0;
+  height: 100%;
+  left: 0;
+  margin: 0;
+  opacity: 0.001;
+  padding: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: -1;
+}
+
+.emotion-2 {
+  -webkit-background-clip: content-box;
+  background-clip: content-box;
+  background-color: #06bdfc;
+  border-radius: 12px;
+  height: 24px;
+  margin-right: 8px;
+  padding: 3px;
+  position: relative;
+  width: 34px;
+  background-color: #ffffff;
+}
+
+.emotion-3 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 6px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 12px;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  left: 6px;
+  position: absolute;
+  top: 6px;
+  -webkit-transition: all 75ms linear;
+  transition: all 75ms linear;
+  width: 12px;
+  z-index: 1;
+  background-color: #d9d9e2;
+  left: 6px;
+}
+
+<label
+  class="emotion-0"
+>
+  <input
+    class="emotion-1"
+    disabled=""
+    role="switch"
+    type="checkbox"
+  />
+  <div
+    class="emotion-2"
+  >
+    <div
+      class="emotion-3"
+    />
+  </div>
+  Test
+</label>
+`;
+
+exports[`snapshots renders an empty switch 1`] = `
+.emotion-0 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #05192d;
+  cursor: pointer;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  font-family: 'Studio-Feixen-Sans';
+  font-size: 16px;
+  font-weight: 400;
+  opacity: 1;
+  position: relative;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  color: #05192d;
+}
+
+.emotion-1 {
+  border: 0;
+  height: 100%;
+  left: 0;
+  margin: 0;
+  opacity: 0.001;
+  padding: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: -1;
+}
+
+.emotion-2 {
+  -webkit-background-clip: content-box;
+  background-clip: content-box;
+  background-color: #06bdfc;
+  border-radius: 12px;
+  height: 24px;
+  margin-right: 8px;
+  padding: 3px;
+  position: relative;
+  width: 34px;
+  background-color: #06bdfc;
+}
+
+.emotion-3 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 6px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 12px;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  left: 6px;
+  position: absolute;
+  top: 6px;
+  -webkit-transition: all 75ms linear;
+  transition: all 75ms linear;
+  width: 12px;
+  z-index: 1;
+  background-color: #ffffff;
+  left: 16px;
+}
+
+<label
+  class="emotion-0"
+>
+  <input
+    aria-checked="true"
+    aria-label="Test"
+    class="emotion-1"
+    role="switch"
+    type="checkbox"
+  />
+  <div
+    class="emotion-2"
+  >
+    <div
+      class="emotion-3"
+    >
+      <svg
+        aria-hidden="true"
+        height="12"
+        role="img"
+        viewBox="0 0 18 18"
+        width="12"
+      >
+        <title>
+          Checkmark
+        </title>
+        <path
+          d="M13.746 4.337a1.015 1.015 0 011.409-.099c.417.354.462.97.101 1.378l-7.13 8.047a1.015 1.015 0 01-1.483.03L2.771 9.67a.961.961 0 01.044-1.38 1.015 1.015 0 011.412.041l3.113 3.235 6.406-7.229z"
+          fill="#06bdfc"
+          fill-rule="evenodd"
+        />
+      </svg>
+    </div>
+  </div>
+</label>
+`;
