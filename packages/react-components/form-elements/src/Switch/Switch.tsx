@@ -2,7 +2,6 @@ import { CheckmarkIcon } from '@datacamp/waffles-icons';
 import tokens from '@datacamp/waffles-tokens';
 import { css } from '@emotion/react';
 import { useFocusRing } from '@react-aria/focus';
-import { InputHTMLAttributes } from 'react';
 
 const labelStyle = css({
   alignItems: 'center',
@@ -35,11 +34,11 @@ const toggleWrapperStyle = css({
   backgroundClip: 'content-box',
   backgroundColor: tokens.colors.blue,
   borderRadius: 12,
-  height: 22,
+  height: 24,
   marginRight: 8,
-  padding: 2,
+  padding: 3,
   position: 'relative',
-  width: 32,
+  width: 34,
 });
 
 const toggleButtonleStyle = css({
@@ -49,17 +48,22 @@ const toggleButtonleStyle = css({
   display: 'flex',
   height: 12,
   justifyContent: 'center',
-  left: 5,
+  left: 6,
   position: 'absolute',
-  top: 5,
+  top: 6,
   transition: 'all 75ms linear',
   width: 12,
   zIndex: 1,
 });
 
-type SwitchProps = InputHTMLAttributes<HTMLInputElement>;
+type SwitchProps = { appearance?: 'default' | 'inverted' } & (
+  | { 'aria-label'?: undefined; children: React.ReactNode }
+  | { 'aria-label': string; children?: undefined }
+) &
+  React.InputHTMLAttributes<HTMLInputElement>;
 
 function Switch({
+  appearance = 'default',
   checked,
   children,
   className,
@@ -68,11 +72,27 @@ function Switch({
 }: SwitchProps): JSX.Element {
   const { focusProps, isFocusVisible } = useFocusRing();
 
+  function toggleBackgroundColor(): string {
+    if (!checked) {
+      if (appearance === 'inverted') {
+        return tokens.colors.white;
+      }
+      return tokens.colors.grey400;
+    }
+    return tokens.colors.blue;
+  }
+
   return (
     <label
       className={className}
       css={css(
         labelStyle,
+        {
+          color:
+            appearance === 'inverted'
+              ? tokens.colors.white
+              : tokens.colors.navyText,
+        },
         disabled && {
           cursor: 'default',
           opacity: 0.5,
@@ -92,9 +112,7 @@ function Switch({
         css={css(
           toggleWrapperStyle,
           {
-            backgroundColor: checked
-              ? tokens.colors.blue
-              : tokens.colors.grey400,
+            backgroundColor: toggleBackgroundColor(),
           },
           isFocusVisible && {
             boxShadow: `0 0 0 2px ${tokens.colors.blueDark}`,
@@ -103,7 +121,11 @@ function Switch({
       >
         <div
           css={css(toggleButtonleStyle, {
-            left: checked ? 15 : 5,
+            backgroundColor:
+              !checked && appearance === 'inverted'
+                ? tokens.colors.grey400
+                : tokens.colors.white,
+            left: checked ? 16 : 6,
           })}
         >
           {checked && (
