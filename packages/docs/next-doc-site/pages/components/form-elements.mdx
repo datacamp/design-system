@@ -13,6 +13,9 @@ import playgroundConfig from '../../examples/form-elements/playground-config';
 import SimpleSelect from '../../examples/form-elements/simple-select';
 import BasicTextarea from '../../examples/form-elements/basic-textarea';
 import MultipleCheckboxes from '../../examples/form-elements/multiple-checkboxes';
+import BasicSwitch from '../../examples/form-elements/basic-switch';
+import EmptySwitch from '../../examples/form-elements/empty-switch';
+import MultipleSwitches from '../../examples/form-elements/multiple-switches';
 
 export default Layout;
 
@@ -35,6 +38,7 @@ Waffles exposes several form elements:
 - **CheckboxList** – Allows the user to choose multiple from a list of options.
 - **Checkbox** - To be used within a CheckboxList to specify an available option.
 - **TextArea** - Able to handle longer form text input.
+- **Switch** - Allow the user to turn an individual option on or off. Should be used when the instant response of applied settings is required without additional action.
 
 <Playground {...playgroundConfig} />
 
@@ -60,6 +64,18 @@ Waffles exposes several form elements:
   <MultipleCheckboxes />
 </Example>
 
+<Example title="Basic switch" path="form-elements/basic-switch">
+  <BasicSwitch />
+</Example>
+
+<Example title="Empty switch" path="form-elements/empty-switch">
+  <EmptySwitch />
+</Example>
+
+<Example title="Multiple switches" path="form-elements/multiple-switches">
+  <MultipleSwitches />
+</Example>
+
 </Section>
 
 <Section>
@@ -81,6 +97,10 @@ Waffles exposes several form elements:
 <PropsTable component="Checkbox" metadata={metadata} />
 
 <PropsTable component="InternalTextArea" alias="TextArea" metadata={metadata} />
+
+<PropsTable component="Switch" metadata={metadata} />
+
+`Switch` accepts all props regular HTML checkbox would accept, such as `disabled`, `checked`, `value` or `onChange`.
 
 </Section>
 

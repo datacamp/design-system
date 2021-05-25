@@ -56,7 +56,12 @@ const toggleButtonleStyle = css({
   zIndex: 1,
 });
 
-type SwitchProps = { appearance?: 'default' | 'inverted' } & (
+export type SwitchProps = {
+  /**
+   * When the appearance is "inverted", the text color and toggle background color will be white for use on dark backgrounds.
+   */
+  appearance?: 'default' | 'inverted';
+} & (
   | { 'aria-label'?: undefined; children: React.ReactNode }
   | { 'aria-label': string; children?: undefined }
 ) &
