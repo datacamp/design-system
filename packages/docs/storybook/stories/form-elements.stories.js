@@ -1,3 +1,4 @@
+/* eslint-disable no-plusplus */
 /* eslint-disable sonarjs/no-identical-functions */
 import Button from '@datacamp/waffles-button';
 import {
@@ -8,11 +9,21 @@ import {
   RadioList,
   Select,
   SelectOption,
+  Switch,
   TextArea,
 } from '@datacamp/waffles-form-elements';
 import { AddCircleIcon } from '@datacamp/waffles-icons';
+import tokens from '@datacamp/waffles-tokens';
+import { css } from '@emotion/react';
 import { storiesOf } from '@storybook/react';
 import React, { createElement, useEffect, useRef, useState } from 'react';
+
+const wrapperStyle = css({
+  display: 'flex',
+  flexWrap: 'wrap',
+  gap: 24,
+  padding: 8,
+});
 
 storiesOf('waffles-form-elements', module)
   .add('Input', () => {
@@ -544,7 +555,6 @@ storiesOf('waffles-form-elements', module)
       );
     });
   })
-
   .add('RadioList', () => {
     return createElement(() => {
       const [value1, setValue1] = useState('');
@@ -622,7 +632,6 @@ storiesOf('waffles-form-elements', module)
       );
     });
   })
-
   .add('CheckboxList', () => {
     return createElement(() => {
       const [value1, setValue1] = useState([]);
@@ -699,4 +708,58 @@ storiesOf('waffles-form-elements', module)
         </div>
       );
     });
+  })
+  .add('Switch', () => {
+    const disabled = [true, false];
+    const checked = [true, false];
+    const labels = ['Test', null];
+
+    let index = 0;
+
+    return (
+      <>
+        <div css={wrapperStyle}>
+          {disabled.map((isDisabled) => {
+            return checked.map((isChecked) => {
+              return labels.map((label) => {
+                return (
+                  <Switch
+                    checked={isChecked}
+                    disabled={isDisabled}
+                    key={`switch-${index++}`}
+                  >
+                    {label}
+                  </Switch>
+                );
+              });
+            });
+          })}
+        </div>
+        <div
+          css={css(
+            {
+              backgroundColor: tokens.colors.navy,
+            },
+            wrapperStyle,
+          )}
+        >
+          {disabled.map((isDisabled) => {
+            return checked.map((isChecked) => {
+              return labels.map((label) => {
+                return (
+                  <Switch
+                    appearance="inverted"
+                    checked={isChecked}
+                    disabled={isDisabled}
+                    key={`switch-${index++}`}
+                  >
+                    {label}
+                  </Switch>
+                );
+              });
+            });
+          })}
+        </div>
+      </>
+    );
   });

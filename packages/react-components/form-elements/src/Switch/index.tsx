@@ -5,6 +5,7 @@ import { useFocusRing } from '@react-aria/focus';
 
 const labelStyle = css({
   alignItems: 'center',
+  boxSizing: 'border-box',
   color: tokens.colors.navyText,
   cursor: 'pointer',
   display: 'inline-flex',
@@ -34,6 +35,7 @@ const toggleWrapperStyle = css({
   backgroundClip: 'content-box',
   backgroundColor: tokens.colors.blue,
   borderRadius: 12,
+  boxSizing: 'border-box',
   height: 24,
   marginRight: 8,
   padding: 3,
@@ -45,6 +47,7 @@ const toggleButtonleStyle = css({
   alignItems: 'center',
   backgroundColor: tokens.colors.white,
   borderRadius: 6,
+  boxSizing: 'border-box',
   display: 'flex',
   height: 12,
   justifyContent: 'center',
