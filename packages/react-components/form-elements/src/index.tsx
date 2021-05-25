@@ -8,4 +8,4 @@ export { default as RadioIcon } from './RadioList/RadioIcon';
 export { default as Checkbox } from './CheckboxList/Checkbox';
 export { default as Label } from './Label';
 export { default as TextArea } from './TextArea';
-export { default as Switch } from './Switch/Switch';
+export { default as Switch } from './Switch';

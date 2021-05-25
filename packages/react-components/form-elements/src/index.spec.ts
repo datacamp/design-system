@@ -7,6 +7,7 @@ import Radio from './RadioList/Radio';
 import RadioIcon from './RadioList/RadioIcon';
 import Select from './Select';
 import SelectOption from './Select/Option';
+import Switch from './Switch';
 import TextArea from './TextArea';
 
 import * as packageExports from '.';
@@ -23,6 +24,7 @@ describe('package index', () => {
       RadioList,
       Select,
       SelectOption,
+      Switch,
       TextArea,
     });
   });
