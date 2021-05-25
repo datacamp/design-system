@@ -6,6 +6,7 @@ exports[`snapshots renders a switch with appearance default, disabled=false, che
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  box-sizing: border-box;
   color: #05192d;
   cursor: pointer;
   display: -webkit-inline-box;
@@ -42,12 +43,14 @@ exports[`snapshots renders a switch with appearance default, disabled=false, che
   background-clip: content-box;
   background-color: #06bdfc;
   border-radius: 12px;
+  box-sizing: border-box;
   height: 24px;
   margin-right: 8px;
   padding: 3px;
   position: relative;
   width: 34px;
   background-color: #d9d9e2;
+  margin-right: 8px;
 }
 
 .emotion-3 {
@@ -57,6 +60,7 @@ exports[`snapshots renders a switch with appearance default, disabled=false, che
   align-items: center;
   background-color: #ffffff;
   border-radius: 6px;
+  box-sizing: border-box;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -102,6 +106,7 @@ exports[`snapshots renders a switch with appearance default, disabled=false, che
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  box-sizing: border-box;
   color: #05192d;
   cursor: pointer;
   display: -webkit-inline-box;
@@ -138,12 +143,14 @@ exports[`snapshots renders a switch with appearance default, disabled=false, che
   background-clip: content-box;
   background-color: #06bdfc;
   border-radius: 12px;
+  box-sizing: border-box;
   height: 24px;
   margin-right: 8px;
   padding: 3px;
   position: relative;
   width: 34px;
   background-color: #d9d9e2;
+  margin-right: 8px;
 }
 
 .emotion-3 {
@@ -153,6 +160,7 @@ exports[`snapshots renders a switch with appearance default, disabled=false, che
   align-items: center;
   background-color: #ffffff;
   border-radius: 6px;
+  box-sizing: border-box;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -198,6 +206,7 @@ exports[`snapshots renders a switch with appearance default, disabled=true, chec
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  box-sizing: border-box;
   color: #05192d;
   cursor: pointer;
   display: -webkit-inline-box;
@@ -236,12 +245,14 @@ exports[`snapshots renders a switch with appearance default, disabled=true, chec
   background-clip: content-box;
   background-color: #06bdfc;
   border-radius: 12px;
+  box-sizing: border-box;
   height: 24px;
   margin-right: 8px;
   padding: 3px;
   position: relative;
   width: 34px;
   background-color: #d9d9e2;
+  margin-right: 8px;
 }
 
 .emotion-3 {
@@ -251,6 +262,7 @@ exports[`snapshots renders a switch with appearance default, disabled=true, chec
   align-items: center;
   background-color: #ffffff;
   border-radius: 6px;
+  box-sizing: border-box;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -297,6 +309,7 @@ exports[`snapshots renders a switch with appearance default, disabled=true, chec
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  box-sizing: border-box;
   color: #05192d;
   cursor: pointer;
   display: -webkit-inline-box;
@@ -335,12 +348,14 @@ exports[`snapshots renders a switch with appearance default, disabled=true, chec
   background-clip: content-box;
   background-color: #06bdfc;
   border-radius: 12px;
+  box-sizing: border-box;
   height: 24px;
   margin-right: 8px;
   padding: 3px;
   position: relative;
   width: 34px;
   background-color: #d9d9e2;
+  margin-right: 8px;
 }
 
 .emotion-3 {
@@ -350,6 +365,7 @@ exports[`snapshots renders a switch with appearance default, disabled=true, chec
   align-items: center;
   background-color: #ffffff;
   border-radius: 6px;
+  box-sizing: border-box;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -396,6 +412,7 @@ exports[`snapshots renders a switch with appearance inverted, disabled=false, ch
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  box-sizing: border-box;
   color: #05192d;
   cursor: pointer;
   display: -webkit-inline-box;
@@ -432,12 +449,14 @@ exports[`snapshots renders a switch with appearance inverted, disabled=false, ch
   background-clip: content-box;
   background-color: #06bdfc;
   border-radius: 12px;
+  box-sizing: border-box;
   height: 24px;
   margin-right: 8px;
   padding: 3px;
   position: relative;
   width: 34px;
   background-color: #ffffff;
+  margin-right: 8px;
 }
 
 .emotion-3 {
@@ -447,6 +466,7 @@ exports[`snapshots renders a switch with appearance inverted, disabled=false, ch
   align-items: center;
   background-color: #ffffff;
   border-radius: 6px;
+  box-sizing: border-box;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -492,6 +512,7 @@ exports[`snapshots renders a switch with appearance inverted, disabled=false, ch
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  box-sizing: border-box;
   color: #05192d;
   cursor: pointer;
   display: -webkit-inline-box;
@@ -528,12 +549,14 @@ exports[`snapshots renders a switch with appearance inverted, disabled=false, ch
   background-clip: content-box;
   background-color: #06bdfc;
   border-radius: 12px;
+  box-sizing: border-box;
   height: 24px;
   margin-right: 8px;
   padding: 3px;
   position: relative;
   width: 34px;
   background-color: #ffffff;
+  margin-right: 8px;
 }
 
 .emotion-3 {
@@ -543,6 +566,7 @@ exports[`snapshots renders a switch with appearance inverted, disabled=false, ch
   align-items: center;
   background-color: #ffffff;
   border-radius: 6px;
+  box-sizing: border-box;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -588,6 +612,7 @@ exports[`snapshots renders a switch with appearance inverted, disabled=true, che
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  box-sizing: border-box;
   color: #05192d;
   cursor: pointer;
   display: -webkit-inline-box;
@@ -626,12 +651,14 @@ exports[`snapshots renders a switch with appearance inverted, disabled=true, che
   background-clip: content-box;
   background-color: #06bdfc;
   border-radius: 12px;
+  box-sizing: border-box;
   height: 24px;
   margin-right: 8px;
   padding: 3px;
   position: relative;
   width: 34px;
   background-color: #ffffff;
+  margin-right: 8px;
 }
 
 .emotion-3 {
@@ -641,6 +668,7 @@ exports[`snapshots renders a switch with appearance inverted, disabled=true, che
   align-items: center;
   background-color: #ffffff;
   border-radius: 6px;
+  box-sizing: border-box;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -687,6 +715,7 @@ exports[`snapshots renders a switch with appearance inverted, disabled=true, che
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  box-sizing: border-box;
   color: #05192d;
   cursor: pointer;
   display: -webkit-inline-box;
@@ -725,12 +754,14 @@ exports[`snapshots renders a switch with appearance inverted, disabled=true, che
   background-clip: content-box;
   background-color: #06bdfc;
   border-radius: 12px;
+  box-sizing: border-box;
   height: 24px;
   margin-right: 8px;
   padding: 3px;
   position: relative;
   width: 34px;
   background-color: #ffffff;
+  margin-right: 8px;
 }
 
 .emotion-3 {
@@ -740,6 +771,7 @@ exports[`snapshots renders a switch with appearance inverted, disabled=true, che
   align-items: center;
   background-color: #ffffff;
   border-radius: 6px;
+  box-sizing: border-box;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -786,6 +818,7 @@ exports[`snapshots renders an empty switch 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  box-sizing: border-box;
   color: #05192d;
   cursor: pointer;
   display: -webkit-inline-box;
@@ -822,12 +855,14 @@ exports[`snapshots renders an empty switch 1`] = `
   background-clip: content-box;
   background-color: #06bdfc;
   border-radius: 12px;
+  box-sizing: border-box;
   height: 24px;
   margin-right: 8px;
   padding: 3px;
   position: relative;
   width: 34px;
   background-color: #06bdfc;
+  margin-right: 0;
 }
 
 .emotion-3 {
@@ -837,6 +872,7 @@ exports[`snapshots renders an empty switch 1`] = `
   align-items: center;
   background-color: #ffffff;
   border-radius: 6px;
+  box-sizing: border-box;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
