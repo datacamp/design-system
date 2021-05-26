@@ -46,6 +46,7 @@ exports[`snapshots renders a switch with appearance default, disabled=false, che
   box-sizing: border-box;
   height: 24px;
   margin-right: 8px;
+  min-width: 34px;
   padding: 3px;
   position: relative;
   width: 34px;
@@ -73,12 +74,15 @@ exports[`snapshots renders a switch with appearance default, disabled=false, che
   left: 6px;
   position: absolute;
   top: 6px;
-  -webkit-transition: all 75ms linear;
-  transition: all 75ms linear;
+  -webkit-transition: -webkit-transform 75ms linear;
+  transition: transform 75ms linear;
   width: 12px;
   z-index: 1;
   background-color: #ffffff;
-  left: 6px;
+  -webkit-transform: translateX(0px);
+  -moz-transform: translateX(0px);
+  -ms-transform: translateX(0px);
+  transform: translateX(0px);
 }
 
 <label
@@ -146,6 +150,7 @@ exports[`snapshots renders a switch with appearance default, disabled=false, che
   box-sizing: border-box;
   height: 24px;
   margin-right: 8px;
+  min-width: 34px;
   padding: 3px;
   position: relative;
   width: 34px;
@@ -173,12 +178,15 @@ exports[`snapshots renders a switch with appearance default, disabled=false, che
   left: 6px;
   position: absolute;
   top: 6px;
-  -webkit-transition: all 75ms linear;
-  transition: all 75ms linear;
+  -webkit-transition: -webkit-transform 75ms linear;
+  transition: transform 75ms linear;
   width: 12px;
   z-index: 1;
   background-color: #ffffff;
-  left: 6px;
+  -webkit-transform: translateX(0px);
+  -moz-transform: translateX(0px);
+  -ms-transform: translateX(0px);
+  transform: translateX(0px);
 }
 
 <label
@@ -248,6 +256,7 @@ exports[`snapshots renders a switch with appearance default, disabled=true, chec
   box-sizing: border-box;
   height: 24px;
   margin-right: 8px;
+  min-width: 34px;
   padding: 3px;
   position: relative;
   width: 34px;
@@ -275,12 +284,15 @@ exports[`snapshots renders a switch with appearance default, disabled=true, chec
   left: 6px;
   position: absolute;
   top: 6px;
-  -webkit-transition: all 75ms linear;
-  transition: all 75ms linear;
+  -webkit-transition: -webkit-transform 75ms linear;
+  transition: transform 75ms linear;
   width: 12px;
   z-index: 1;
   background-color: #ffffff;
-  left: 6px;
+  -webkit-transform: translateX(0px);
+  -moz-transform: translateX(0px);
+  -ms-transform: translateX(0px);
+  transform: translateX(0px);
 }
 
 <label
@@ -351,6 +363,7 @@ exports[`snapshots renders a switch with appearance default, disabled=true, chec
   box-sizing: border-box;
   height: 24px;
   margin-right: 8px;
+  min-width: 34px;
   padding: 3px;
   position: relative;
   width: 34px;
@@ -378,12 +391,15 @@ exports[`snapshots renders a switch with appearance default, disabled=true, chec
   left: 6px;
   position: absolute;
   top: 6px;
-  -webkit-transition: all 75ms linear;
-  transition: all 75ms linear;
+  -webkit-transition: -webkit-transform 75ms linear;
+  transition: transform 75ms linear;
   width: 12px;
   z-index: 1;
   background-color: #ffffff;
-  left: 6px;
+  -webkit-transform: translateX(0px);
+  -moz-transform: translateX(0px);
+  -ms-transform: translateX(0px);
+  transform: translateX(0px);
 }
 
 <label
@@ -452,6 +468,7 @@ exports[`snapshots renders a switch with appearance inverted, disabled=false, ch
   box-sizing: border-box;
   height: 24px;
   margin-right: 8px;
+  min-width: 34px;
   padding: 3px;
   position: relative;
   width: 34px;
@@ -479,12 +496,15 @@ exports[`snapshots renders a switch with appearance inverted, disabled=false, ch
   left: 6px;
   position: absolute;
   top: 6px;
-  -webkit-transition: all 75ms linear;
-  transition: all 75ms linear;
+  -webkit-transition: -webkit-transform 75ms linear;
+  transition: transform 75ms linear;
   width: 12px;
   z-index: 1;
   background-color: #d9d9e2;
-  left: 6px;
+  -webkit-transform: translateX(0px);
+  -moz-transform: translateX(0px);
+  -ms-transform: translateX(0px);
+  transform: translateX(0px);
 }
 
 <label
@@ -552,6 +572,7 @@ exports[`snapshots renders a switch with appearance inverted, disabled=false, ch
   box-sizing: border-box;
   height: 24px;
   margin-right: 8px;
+  min-width: 34px;
   padding: 3px;
   position: relative;
   width: 34px;
@@ -579,12 +600,15 @@ exports[`snapshots renders a switch with appearance inverted, disabled=false, ch
   left: 6px;
   position: absolute;
   top: 6px;
-  -webkit-transition: all 75ms linear;
-  transition: all 75ms linear;
+  -webkit-transition: -webkit-transform 75ms linear;
+  transition: transform 75ms linear;
   width: 12px;
   z-index: 1;
   background-color: #d9d9e2;
-  left: 6px;
+  -webkit-transform: translateX(0px);
+  -moz-transform: translateX(0px);
+  -ms-transform: translateX(0px);
+  transform: translateX(0px);
 }
 
 <label
@@ -654,6 +678,7 @@ exports[`snapshots renders a switch with appearance inverted, disabled=true, che
   box-sizing: border-box;
   height: 24px;
   margin-right: 8px;
+  min-width: 34px;
   padding: 3px;
   position: relative;
   width: 34px;
@@ -681,12 +706,15 @@ exports[`snapshots renders a switch with appearance inverted, disabled=true, che
   left: 6px;
   position: absolute;
   top: 6px;
-  -webkit-transition: all 75ms linear;
-  transition: all 75ms linear;
+  -webkit-transition: -webkit-transform 75ms linear;
+  transition: transform 75ms linear;
   width: 12px;
   z-index: 1;
   background-color: #d9d9e2;
-  left: 6px;
+  -webkit-transform: translateX(0px);
+  -moz-transform: translateX(0px);
+  -ms-transform: translateX(0px);
+  transform: translateX(0px);
 }
 
 <label
@@ -757,6 +785,7 @@ exports[`snapshots renders a switch with appearance inverted, disabled=true, che
   box-sizing: border-box;
   height: 24px;
   margin-right: 8px;
+  min-width: 34px;
   padding: 3px;
   position: relative;
   width: 34px;
@@ -784,12 +813,15 @@ exports[`snapshots renders a switch with appearance inverted, disabled=true, che
   left: 6px;
   position: absolute;
   top: 6px;
-  -webkit-transition: all 75ms linear;
-  transition: all 75ms linear;
+  -webkit-transition: -webkit-transform 75ms linear;
+  transition: transform 75ms linear;
   width: 12px;
   z-index: 1;
   background-color: #d9d9e2;
-  left: 6px;
+  -webkit-transform: translateX(0px);
+  -moz-transform: translateX(0px);
+  -ms-transform: translateX(0px);
+  transform: translateX(0px);
 }
 
 <label
@@ -858,6 +890,7 @@ exports[`snapshots renders an empty switch 1`] = `
   box-sizing: border-box;
   height: 24px;
   margin-right: 8px;
+  min-width: 34px;
   padding: 3px;
   position: relative;
   width: 34px;
@@ -885,12 +918,15 @@ exports[`snapshots renders an empty switch 1`] = `
   left: 6px;
   position: absolute;
   top: 6px;
-  -webkit-transition: all 75ms linear;
-  transition: all 75ms linear;
+  -webkit-transition: -webkit-transform 75ms linear;
+  transition: transform 75ms linear;
   width: 12px;
   z-index: 1;
   background-color: #ffffff;
-  left: 16px;
+  -webkit-transform: translateX(10px);
+  -moz-transform: translateX(10px);
+  -ms-transform: translateX(10px);
+  transform: translateX(10px);
 }
 
 <label
