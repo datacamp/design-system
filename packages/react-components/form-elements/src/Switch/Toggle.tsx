@@ -11,6 +11,7 @@ const toggleWrapperStyle = css({
   boxSizing: 'border-box',
   height: 24,
   marginRight: 8,
+  minWidth: 34,
   padding: 3,
   position: 'relative',
   width: 34,
@@ -27,7 +28,7 @@ const toggleButtonleStyle = css({
   left: 6,
   position: 'absolute',
   top: 6,
-  transition: 'all 75ms linear',
+  transition: 'transform 75ms linear',
   width: 12,
   zIndex: 1,
 });
@@ -72,7 +73,7 @@ function Toggle({
             !checked && appearance === 'inverted'
               ? tokens.colors.grey400
               : tokens.colors.white,
-          left: checked ? 16 : 6,
+          transform: `translateX(${checked ? 10 : 0}px)`,
         })}
       >
         {checked && (
