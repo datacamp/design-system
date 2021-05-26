@@ -1,6 +1,6 @@
 import { Switch } from '@datacamp/waffles-form-elements';
 import tokens from '@datacamp/waffles-tokens';
-import { useState } from 'react';
+import { FormEvent, useState } from 'react';
 
 type ExampleState = {
   [key: string]: boolean;
@@ -13,7 +13,7 @@ function Example(): JSX.Element {
     wifi: false,
   });
 
-  function handleChange(event: React.FormEvent<HTMLInputElement>): void {
+  function handleChange(event: FormEvent<HTMLInputElement>): void {
     const { name } = event.target as HTMLInputElement;
 
     const newSettings = {

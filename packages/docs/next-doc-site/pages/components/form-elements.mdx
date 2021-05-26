@@ -38,7 +38,7 @@ Waffles exposes several form elements:
 - **CheckboxList** – Allows the user to choose multiple from a list of options.
 - **Checkbox** - To be used within a CheckboxList to specify an available option.
 - **TextArea** - Able to handle longer form text input.
-- **Switch** - Allow the user to turn an individual option on or off. Should be used when the instant response of applied settings is required without additional action.
+- **Switch** - Allow the user to turn an individual option on or off. Should be used when the instant response of applied settings is required without additional action. Could be used outside of `form` context as well.
 
 <Playground {...playgroundConfig} />
 
@@ -100,7 +100,7 @@ Waffles exposes several form elements:
 
 <PropsTable component="Switch" metadata={metadata} />
 
-`Switch` accepts all props regular HTML checkbox would accept, such as `disabled`, `checked`, `value` or `onChange`.
+Besides that `Switch` accepts all props regular HTML checkbox would accept, such as `name`, `value`, `id`, `data-testid`, to name a few.
 
 </Section>
 
