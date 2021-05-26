@@ -1,11 +1,11 @@
 import { useFocusRing } from '@react-aria/focus';
-import { FormEvent, InputHTMLAttributes, ReactNode } from 'react';
+import { FormEventHandler, InputHTMLAttributes, ReactNode } from 'react';
 
 import Input from './Input';
 import Label from './Label';
 import Toggle from './Toggle';
 
-// Most of the props are exposed for documentation purposes, since they are covered by InputHTMLAttributes anyway
+// Most of the props are exposed for a documentation purposes, since they are covered by InputHTMLAttributes anyway
 export type SwitchProps = {
   /**
    * When the appearance is "inverted", the text color and toggle background color will be white for use on dark backgrounds.
@@ -16,11 +16,11 @@ export type SwitchProps = {
    */
   checked?: boolean;
   /**
-   * Description of the switch element.
+   * Text description of the switch element. If switch has no description aria-label should be provided.
    */
   children?: ReactNode;
   /**
-   * Sets the css className on the switch wrapper element. It's used by emotion when applying custom styling.
+   * Sets the CSS class on the switch wrapper element. It's used by emotion when applying custom styling. Could be used as an escape hatch to apply regular CSS rules.
    */
   className?: string;
   /**
@@ -30,7 +30,7 @@ export type SwitchProps = {
   /**
    * Called when the user requests a change to the value of the switch. In most cases should be used to set the checked property.
    */
-  onChange?: (event?: FormEvent<HTMLInputElement>) => void;
+  onChange?: FormEventHandler<HTMLInputElement>;
 } & (
   | { 'aria-label'?: undefined; children: ReactNode }
   | { 'aria-label': string; children?: undefined }
