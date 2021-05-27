@@ -1,5 +1,5 @@
 import { childrenOfType } from '@datacamp/waffles-utils';
-import _ from 'lodash';
+import union from 'array-union';
 import PropTypes from 'prop-types';
 import React, { ReactElement } from 'react';
 
@@ -64,9 +64,9 @@ const CheckboxList = ({
   const handleChange = React.useCallback(
     (changedValue: string): void => {
       // removes if already exists, adds if it doesn't
-      const newValue = _.includes(value, changedValue)
-        ? _.filter(value, (item) => item !== changedValue)
-        : _.union(value, [changedValue]);
+      const newValue = value.includes(changedValue)
+        ? value.filter((item) => item !== changedValue)
+        : union(value, [changedValue]);
 
       onChange(newValue);
     },
