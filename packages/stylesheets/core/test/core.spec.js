@@ -1,7 +1,6 @@
 const dirTree = require('directory-tree');
 const fs = require('fs');
-const omitDeep = require('omit-deep-lodash');
-const _ = require('lodash');
+const omitDeep = require('omit-deep');
 
 // remove hash from filename so snapshots are diffed rather than recreated
 const replaceFileName = (fileName) =>
@@ -11,8 +10,7 @@ describe('Core', () => {
   it('has correct file structure', () => {
     const dir = dirTree('lib');
     const structure = omitDeep(dir, 'size');
-    const cssDirIndex = _.findIndex(
-      structure.children,
+    const cssDirIndex = structure.children.findIndex(
       ({ name }) => name === 'css',
     );
     const cssFiles = structure.children[cssDirIndex].children;
