@@ -1,5 +1,4 @@
 import { css } from '@emotion/react';
-import _ from 'lodash';
 import React, { useCallback } from 'react';
 
 import calculateSizes from './calculateSizes';
@@ -66,7 +65,7 @@ const ResizableElements = ({
     collapsedSize,
     sizePercentages:
       initialProportions ||
-      (_.times(nbChildren, () => 100 / nbChildren) as number[]),
+      [...Array(nbChildren).keys()].map(() => 100 / nbChildren),
   });
 
   const containerRef = React.useRef<HTMLDivElement>(null);
