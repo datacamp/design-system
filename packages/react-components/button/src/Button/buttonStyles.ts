@@ -1,6 +1,5 @@
 import tokens from '@datacamp/waffles-tokens/lib/future-tokens.json';
 import { css, SerializedStyles } from '@emotion/react';
-import _ from 'lodash';
 import tinycolor from 'tinycolor2';
 
 interface IntentMap {
@@ -30,8 +29,15 @@ const primaryHoverColors: IntentMap = {
   warning: tokens.color.primary.orangeLight.value.hex,
 };
 
-const outlineHoverColors: IntentMap = _.mapValues(baseColors, (value) =>
-  tinycolor(value).setAlpha(0.15).toRgbString(),
+const outlineHoverColors: IntentMap = Object.entries(baseColors).reduce(
+  (hoverColors, baseColor) => {
+    const [intent, value] = baseColor;
+    return {
+      ...hoverColors,
+      [intent]: tinycolor(value).setAlpha(0.15).toRgbString(),
+    };
+  },
+  {} as IntentMap,
 );
 
 // BASE STYLES
