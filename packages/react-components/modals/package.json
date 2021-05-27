@@ -45,7 +45,6 @@
     "@testing-library/jest-dom": "5.11.6",
     "@testing-library/react": "11.2.2",
     "@testing-library/user-event": "12.7.2",
-    "@types/lodash": "4.14.165",
     "@types/tinycolor2": "1.4.2",
     "babel-jest": "26.6.3",
     "jest": "26.6.1",
@@ -63,7 +62,6 @@
     "@datacamp/waffles-utils": "^3.1.1",
     "@types/react-modal": "^3.10.6",
     "airbnb-prop-types": "^2.16.0",
-    "lodash": "^4.17.20",
     "prop-types": "^15.7.2",
     "react-modal": "^3.12.1",
     "tinycolor2": "^1.4.2"
