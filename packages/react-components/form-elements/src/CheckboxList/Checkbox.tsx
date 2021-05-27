@@ -2,7 +2,6 @@ import { Text } from '@datacamp/waffles-text';
 import tokens from '@datacamp/waffles-tokens/lib/future-tokens.json';
 import { ssrSafeNotFirstChildSelector } from '@datacamp/waffles-utils';
 import { css } from '@emotion/react';
-import _ from 'lodash';
 import React, { ReactElement } from 'react';
 
 import CheckboxIcon from './CheckboxIcon';
@@ -53,7 +52,7 @@ const Checkbox = ({
 
   const elementDisabled = disabled || contextValue.disabled;
   const handleChange = (): void => contextValue.onChange(value);
-  const isChecked = _.includes(contextValue.value, value);
+  const isChecked = contextValue.value.includes(value);
 
   const focusColor = contextValue.hasError
     ? tokens.color.primary.redDark.value.hex
