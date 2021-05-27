@@ -2,7 +2,6 @@ const presetEnv = require('@babel/preset-env').default;
 const presetReact = require('@babel/preset-react').default;
 const presetTypescript = require('@babel/preset-typescript').default;
 const presetCSSProp = require('@emotion/babel-preset-css-prop').default;
-const pluginLodash = require('babel-plugin-lodash');
 const pluginTypescriptToProptypes = require('babel-plugin-typescript-to-proptypes')
   .default;
 const pluginTransformRuntime = require('@babel/plugin-transform-runtime');
@@ -43,7 +42,6 @@ module.exports = () => ({
     test: { presets: [presetCSSProp] },
   },
   plugins: [
-    pluginLodash,
     pluginProposalClassProperties,
     pluginTypescriptToProptypes,
     [pluginTransformReactRemovePropTypes, { mode: 'wrap' }], // must happen after typescript to proptypes conversion
