@@ -6,7 +6,7 @@ export const bodyOpenStyle = css({ overflow: 'hidden' });
 
 export const overlayStyle = css({
   alignItems: 'center',
-  backgroundColor: hexToRgbaColor(tokens.color.primary.navy.value.rgb, 0.8),
+  backgroundColor: hexToRgbaColor(tokens.color.primary.navy.value.hex, 0.8),
   bottom: 0,
   display: 'flex',
   justifyContent: 'center',
