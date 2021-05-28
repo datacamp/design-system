@@ -1,5 +1,10 @@
 import { useFocusRing } from '@react-aria/focus';
-import { FormEventHandler, InputHTMLAttributes, ReactNode } from 'react';
+import {
+  FormEventHandler,
+  forwardRef,
+  InputHTMLAttributes,
+  ReactNode,
+} from 'react';
 
 import Input from './Input';
 import Label from './Label';
@@ -37,32 +42,38 @@ export type SwitchProps = {
 ) &
   InputHTMLAttributes<HTMLInputElement>;
 
-function Switch({
-  appearance = 'default',
-  checked,
-  children,
-  className,
-  disabled,
-  ...restProps
-}: SwitchProps): JSX.Element {
-  const { focusProps, isFocusVisible } = useFocusRing();
+const Switch = forwardRef<HTMLInputElement, SwitchProps>(
+  (
+    {
+      appearance = 'default',
+      checked,
+      children,
+      className,
+      disabled,
+      ...restProps
+    },
+    ref,
+  ) => {
+    const { focusProps, isFocusVisible } = useFocusRing();
 
-  return (
-    <Label {...{ appearance, children, className, disabled }}>
-      <Input
-        aria-checked={checked}
-        disabled={disabled}
-        role="switch"
-        type="checkbox"
-        {...restProps}
-        {...focusProps}
-      />
-      <Toggle
-        {...{ appearance, checked, hasLabel: !!children, isFocusVisible }}
-      />
-      {children}
-    </Label>
-  );
-}
+    return (
+      <Label {...{ appearance, children, className, disabled }}>
+        <Input
+          aria-checked={checked}
+          disabled={disabled}
+          ref={ref}
+          role="switch"
+          type="checkbox"
+          {...restProps}
+          {...focusProps}
+        />
+        <Toggle
+          {...{ appearance, checked, hasLabel: !!children, isFocusVisible }}
+        />
+        {children}
+      </Label>
+    );
+  },
+);
 
 export default Switch;

@@ -1,5 +1,5 @@
 import { css } from '@emotion/react';
-import { InputHTMLAttributes } from 'react';
+import { forwardRef, InputHTMLAttributes } from 'react';
 
 // Checkbox is visually hidden but remains accessible to screen readers
 const inputStyle = css({
@@ -15,8 +15,11 @@ const inputStyle = css({
   zIndex: -1,
 });
 
-function Input(props: InputHTMLAttributes<HTMLInputElement>): JSX.Element {
-  return <input css={inputStyle} {...props} />;
-}
+const Input = forwardRef<
+  HTMLInputElement,
+  InputHTMLAttributes<HTMLInputElement>
+>((props, ref) => {
+  return <input css={inputStyle} ref={ref} {...props} />;
+});
 
 export default Input;
