@@ -3,7 +3,7 @@ import { hexToRgbaColor } from '@datacamp/waffles-utils';
 import { css } from '@emotion/react';
 
 const placeholderColor = hexToRgbaColor(
-  tokens.color.primary.navyText.value.rgb,
+  tokens.color.primary.navyText.value.hex,
   0.6,
 );
 
