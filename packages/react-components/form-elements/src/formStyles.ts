@@ -1,10 +1,11 @@
 import tokens from '@datacamp/waffles-tokens/lib/future-tokens.json';
+import { hexToRgbaColor } from '@datacamp/waffles-utils';
 import { css } from '@emotion/react';
-import tinycolor from 'tinycolor2';
 
-const placeholderColor = tinycolor(tokens.color.primary.navyText.value.rgb)
-  .setAlpha(0.6)
-  .toRgbString();
+const placeholderColor = hexToRgbaColor(
+  tokens.color.primary.navyText.value.rgb,
+  0.6,
+);
 
 const baseFormStyle = css({
   ':disabled, :active:disabled, :focus:disabled': {

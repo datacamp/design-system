@@ -1,14 +1,12 @@
 import tokens from '@datacamp/waffles-tokens/lib/future-tokens.json';
+import { hexToRgbaColor } from '@datacamp/waffles-utils';
 import { css } from '@emotion/react';
-import tinycolor from 'tinycolor2';
 
 export const bodyOpenStyle = css({ overflow: 'hidden' });
 
 export const overlayStyle = css({
   alignItems: 'center',
-  backgroundColor: tinycolor(tokens.color.primary.navy.value.rgb)
-    .setAlpha(0.8)
-    .toRgbString(),
+  backgroundColor: hexToRgbaColor(tokens.color.primary.navy.value.rgb, 0.8),
   bottom: 0,
   display: 'flex',
   justifyContent: 'center',
