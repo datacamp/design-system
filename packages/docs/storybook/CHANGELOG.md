@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [3.1.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-storybook@3.0.12...@datacamp/waffles-storybook@3.1.0) (2021-05-28)
+
+
+### Features
+
+* add swtich stories ([1109c42](https://github.com/datacamp/design-system/commit/1109c42))
+
+
+
+
+
 ## [3.0.12](https://github.com/datacamp/design-system/compare/@datacamp/waffles-storybook@3.0.11...@datacamp/waffles-storybook@3.0.12) (2021-05-12)
 
 **Note:** Version bump only for package @datacamp/waffles-storybook

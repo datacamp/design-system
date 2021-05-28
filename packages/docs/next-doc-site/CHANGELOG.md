@@ -3,6 +3,26 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.5.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-next-doc-site@0.4.0...@datacamp/waffles-next-doc-site@0.5.0) (2021-05-28)
+
+
+### Bug Fixes
+
+* optymize svg logotypes ([44fefe2](https://github.com/datacamp/design-system/commit/44fefe2))
+
+
+### Features
+
+* add multiple switches example ([dd9753e](https://github.com/datacamp/design-system/commit/dd9753e))
+* add switch docs ([183c6f5](https://github.com/datacamp/design-system/commit/183c6f5))
+* change status of switch component in docs ([4b27d5d](https://github.com/datacamp/design-system/commit/4b27d5d))
+* copy content to new docs ([#1301](https://github.com/datacamp/design-system/issues/1301)) ([ca3a226](https://github.com/datacamp/design-system/commit/ca3a226))
+* update docs ([a009339](https://github.com/datacamp/design-system/commit/a009339))
+
+
+
+
+
 # [0.4.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-next-doc-site@0.3.5...@datacamp/waffles-next-doc-site@0.4.0) (2021-05-12)
 
 

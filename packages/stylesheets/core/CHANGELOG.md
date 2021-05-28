@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.2.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-core@2.1.2...@datacamp/waffles-core@2.2.0) (2021-05-28)
+
+
+### Features
+
+* remove lodash from core ([e922faf](https://github.com/datacamp/design-system/commit/e922faf))
+
+
+
+
+
 ## [2.1.2](https://github.com/datacamp/design-system/compare/@datacamp/waffles-core@2.1.1...@datacamp/waffles-core@2.1.2) (2021-04-27)
 
 **Note:** Version bump only for package @datacamp/waffles-core

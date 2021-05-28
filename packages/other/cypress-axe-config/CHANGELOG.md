@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.3.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-cypress-axe-config@1.2.1...@datacamp/waffles-cypress-axe-config@1.3.0) (2021-05-28)
+
+
+### Features
+
+* adjust a11y rule due to false positives ([56488b5](https://github.com/datacamp/design-system/commit/56488b5))
+
+
+
+
+
 ## [1.2.1](https://github.com/datacamp/design-system/compare/@datacamp/waffles-cypress-axe-config@1.2.0...@datacamp/waffles-cypress-axe-config@1.2.1) (2020-12-16)
 
 **Note:** Version bump only for package @datacamp/waffles-cypress-axe-config

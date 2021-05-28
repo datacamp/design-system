@@ -3,6 +3,36 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [4.2.0](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/form-elements/compare/@datacamp/waffles-form-elements@4.1.5...@datacamp/waffles-form-elements@4.2.0) (2021-05-28)
+
+
+### Bug Fixes
+
+* pass hex color value ([bfe5a1d](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/form-elements/commit/bfe5a1d))
+
+
+### Features
+
+* add disabled style ([7be34c2](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/form-elements/commit/7be34c2))
+* add inverted color scheme ([f67c6d5](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/form-elements/commit/f67c6d5))
+* add switch docs ([183c6f5](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/form-elements/commit/183c6f5))
+* add swtich stories ([1109c42](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/form-elements/commit/1109c42))
+* add unit tests and snapshots ([d7cdf49](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/form-elements/commit/d7cdf49))
+* adjust onChange type ([cfa1eb2](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/form-elements/commit/cfa1eb2))
+* baseline implementation of Switch component ([46dbbce](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/form-elements/commit/46dbbce))
+* break down Switch into smaller components ([27caba1](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/form-elements/commit/27caba1))
+* export Swtich ([5e5efa9](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/form-elements/commit/5e5efa9))
+* pass ref to switch ([9d164b1](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/form-elements/commit/9d164b1))
+* remove lodash from form-elements ([2d2a744](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/form-elements/commit/2d2a744))
+* remove tinycolor2 wherever possible ([8b08842](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/form-elements/commit/8b08842))
+* update animation to use translateX ([baf9545](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/form-elements/commit/baf9545))
+* update file structure ([f7f016a](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/form-elements/commit/f7f016a))
+* use custom array union ([329b6db](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/form-elements/commit/329b6db))
+
+
+
+
+
 ## [4.1.5](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/form-elements/compare/@datacamp/waffles-form-elements@4.1.4...@datacamp/waffles-form-elements@4.1.5) (2021-05-12)
 
 **Note:** Version bump only for package @datacamp/waffles-form-elements

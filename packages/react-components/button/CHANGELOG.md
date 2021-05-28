@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [7.2.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-button@7.1.3...@datacamp/waffles-button@7.2.0) (2021-05-28)
+
+
+### Features
+
+* copy content to new docs ([#1301](https://github.com/datacamp/design-system/issues/1301)) ([ca3a226](https://github.com/datacamp/design-system/commit/ca3a226))
+* remove lodash from button ([60b48e2](https://github.com/datacamp/design-system/commit/60b48e2))
+* remove tinycolor2 wherever possible ([8b08842](https://github.com/datacamp/design-system/commit/8b08842))
+
+
+
+
+
 ## [7.1.3](https://github.com/datacamp/design-system/compare/@datacamp/waffles-button@7.1.2...@datacamp/waffles-button@7.1.3) (2021-05-12)
 
 **Note:** Version bump only for package @datacamp/waffles-button

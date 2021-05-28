@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.1.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-resizable-elements@2.0.4...@datacamp/waffles-resizable-elements@2.1.0) (2021-05-28)
+
+
+### Features
+
+* remove lodash from resizable-elements ([5776a18](https://github.com/datacamp/design-system/commit/5776a18))
+
+
+
+
+
 ## [2.0.4](https://github.com/datacamp/design-system/compare/@datacamp/waffles-resizable-elements@2.0.3...@datacamp/waffles-resizable-elements@2.0.4) (2021-03-04)
 
 **Note:** Version bump only for package @datacamp/waffles-resizable-elements

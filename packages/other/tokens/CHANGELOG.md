@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.1.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-tokens@1.0.6...@datacamp/waffles-tokens@1.1.0) (2021-05-28)
+
+
+### Features
+
+* update tokens deps ([571f477](https://github.com/datacamp/design-system/commit/571f477))
+
+
+
+
+
 ## [1.0.6](https://github.com/datacamp/design-system/compare/@datacamp/waffles-tokens@1.0.5...@datacamp/waffles-tokens@1.0.6) (2021-02-01)
 
 **Note:** Version bump only for package @datacamp/waffles-tokens

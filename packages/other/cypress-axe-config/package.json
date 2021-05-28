@@ -1,6 +1,6 @@
 {
   "name": "@datacamp/waffles-cypress-axe-config",
-  "version": "1.2.1",
+  "version": "1.3.0",
   "description": "Waffles options for use within cypress-axe.",
   "author": "Louis Bailey <louis@datacamp.com>",
   "homepage": "https://github.com/datacamp/design-system/tree/master/packages/other/cypress-axe-config#readme",

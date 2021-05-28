@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [5.2.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-text@5.1.0...@datacamp/waffles-text@5.2.0) (2021-05-28)
+
+
+### Features
+
+* copy content to new docs ([#1301](https://github.com/datacamp/design-system/issues/1301)) ([ca3a226](https://github.com/datacamp/design-system/commit/ca3a226))
+* remove tinycolor2 wherever possible ([8b08842](https://github.com/datacamp/design-system/commit/8b08842))
+* remove unused lodash from text ([78f6ca6](https://github.com/datacamp/design-system/commit/78f6ca6))
+
+
+
+
+
 # [5.1.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-text@5.0.5...@datacamp/waffles-text@5.1.0) (2021-05-12)
 
 

@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [5.1.0](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/card/compare/@datacamp/waffles-card@5.0.3...@datacamp/waffles-card@5.1.0) (2021-05-28)
+
+
+### Features
+
+* remove unused lodash from card ([ba4c849](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/card/commit/ba4c849))
+
+
+
+
+
 ## [5.0.3](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/card/compare/@datacamp/waffles-card@5.0.2...@datacamp/waffles-card@5.0.3) (2021-03-04)
 
 **Note:** Version bump only for package @datacamp/waffles-card

@@ -3,6 +3,24 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [7.1.0](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/modals/compare/@datacamp/waffles-modals@7.0.11...@datacamp/waffles-modals@7.1.0) (2021-05-28)
+
+
+### Bug Fixes
+
+* pass correct hex value ([d82b0c6](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/modals/commit/d82b0c6))
+
+
+### Features
+
+* copy content to new docs ([#1301](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/modals/issues/1301)) ([ca3a226](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/modals/commit/ca3a226))
+* remove lodash from modals ([66b7694](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/modals/commit/66b7694))
+* remove tinycolor2 wherever possible ([8b08842](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/modals/commit/8b08842))
+
+
+
+
+
 ## [7.0.11](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/modals/compare/@datacamp/waffles-modals@7.0.10...@datacamp/waffles-modals@7.0.11) (2021-05-12)
 
 **Note:** Version bump only for package @datacamp/waffles-modals
