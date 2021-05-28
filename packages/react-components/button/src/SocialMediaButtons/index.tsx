@@ -5,8 +5,7 @@ import {
   TwitterBrandIcon,
 } from '@datacamp/waffles-icons';
 import tokens from '@datacamp/waffles-tokens';
-import React from 'react';
-import tinycolor from 'tinycolor2';
+import { hexToRgbaColor } from '@datacamp/waffles-utils';
 
 import Button from '../Button';
 
@@ -25,7 +24,7 @@ const socialMediaButtonFactory = (
     className={className}
     css={{
       ':hover': {
-        backgroundColor: tinycolor(color).setAlpha(0.15).toRgbString(),
+        backgroundColor: hexToRgbaColor(color, 0.15),
         borderColor: color,
         color,
       },

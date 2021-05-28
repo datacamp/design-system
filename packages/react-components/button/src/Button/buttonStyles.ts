@@ -1,6 +1,6 @@
 import tokens from '@datacamp/waffles-tokens/lib/future-tokens.json';
+import { hexToRgbaColor } from '@datacamp/waffles-utils';
 import { css, SerializedStyles } from '@emotion/react';
-import tinycolor from 'tinycolor2';
 
 interface IntentMap {
   b2b: string;
@@ -34,7 +34,7 @@ const outlineHoverColors: IntentMap = Object.entries(baseColors).reduce(
     const [intent, value] = baseColor;
     return {
       ...hoverColors,
-      [intent]: tinycolor(value).setAlpha(0.15).toRgbString(),
+      [intent]: hexToRgbaColor(value, 0.15),
     };
   },
   {} as IntentMap,
@@ -135,9 +135,10 @@ const getInvertedStyle = (intent: Intent, enabled: boolean): SerializedStyles =>
         },
         enabled && {
           ':hover': {
-            backgroundColor: tinycolor(tokens.color.primary.white.value.hex)
-              .setAlpha(0.15)
-              .toRgbString(),
+            backgroundColor: hexToRgbaColor(
+              tokens.color.primary.white.value.hex,
+              0.15,
+            ),
           },
         },
       )
