@@ -1,5 +1,6 @@
 import childrenOfType from './childrenOfType';
 import computeDataAttributes from './computeDataAttributes';
+import hexColorLuminance from './hexColorLuminance';
 import hexToRgbaColor from './hexToRgbaColor';
 import isChildType from './isChildType';
 import ssrSafeNotFirstChildSelector from './ssrSafeNotFirstChildSelector';
@@ -11,6 +12,7 @@ describe('waffles-utils', () => {
     expect(utils).toEqual({
       childrenOfType,
       computeDataAttributes,
+      hexColorLuminance,
       hexToRgbaColor,
       isChildType,
       ssrSafeNotFirstChildSelector,

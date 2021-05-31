@@ -2,7 +2,6 @@ import '@testing-library/jest-dom/extend-expect';
 
 import axeRender from '@datacamp/waffles-axe-render';
 import tokens from '@datacamp/waffles-tokens/lib/future-tokens.json';
-import React from 'react';
 
 import Badge from './Badge';
 
@@ -10,12 +9,14 @@ describe('Badge', () => {
   const testContent = 'test content';
   it('renders with the provided colour, className and content', async () => {
     const { getByText } = await axeRender(
-      <Badge className="test-class" color="black">
+      <Badge className="test-class" color={tokens.color.primary.navy.value.hex}>
         {testContent}
       </Badge>,
     );
     const element = getByText(testContent) as HTMLElement;
-    expect(element).toHaveStyle('background-color: black');
+    expect(element).toHaveStyle(
+      `background-color: ${tokens.color.primary.navy.value.hex}`,
+    );
     expect(element).toHaveClass('test-class');
     expect(element).toMatchSnapshot();
   });
@@ -23,7 +24,7 @@ describe('Badge', () => {
   describe('size', () => {
     it('renders a small badge', async () => {
       const { getByText } = await axeRender(
-        <Badge color="black" size="small">
+        <Badge color={tokens.color.primary.navy.value.hex} size="small">
           {testContent}
         </Badge>,
       );
@@ -40,7 +41,7 @@ describe('Badge', () => {
 
     it('renders a large badge', async () => {
       const { getByText } = await axeRender(
-        <Badge color="black" size="large">
+        <Badge color={tokens.color.primary.navy.value.hex} size="large">
           {testContent}
         </Badge>,
       );
