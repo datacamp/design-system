@@ -414,7 +414,19 @@ gapminder %>%
         <Badge color="#ffc844" size="large">
           Badge
         </Badge>
-        <Badge color="rgb(207, 220, 225)" size="large">
+        <Badge color={color.primary.green.value.hex} size="large">
+          Badge
+        </Badge>
+        <Badge color={color.primary.purple.value.hex} size="large">
+          Badge
+        </Badge>
+        <Badge color={color.primary.yellowLight.value.hex} size="large">
+          Badge
+        </Badge>
+        <Badge color={color.primary.navyDark.value.hex} size="large">
+          Badge
+        </Badge>
+        <Badge color={color.neutral.beige400.value.hex} size="large">
           Badge
         </Badge>
       </div>
@@ -427,7 +439,11 @@ gapminder %>%
       >
         <Badge color="#3ac">Badge</Badge>
         <Badge color="#ffc844">Badge</Badge>
-        <Badge color="rgb(207, 220, 225)">Badge</Badge>
+        <Badge color={color.primary.green.value.hex}>Badge</Badge>
+        <Badge color={color.primary.purple.value.hex}>Badge</Badge>
+        <Badge color={color.primary.yellowLight.value.hex}>Badge</Badge>
+        <Badge color={color.primary.navyDark.value.hex}>Badge</Badge>
+        <Badge color={color.neutral.beige400.value.hex}>Badge</Badge>
       </div>
     </div>
   ))
