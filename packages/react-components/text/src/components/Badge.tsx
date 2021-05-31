@@ -1,7 +1,7 @@
 import tokens from '@datacamp/waffles-tokens/lib/future-tokens.json';
+import { hexColorLuminance } from '@datacamp/waffles-utils';
 import { css } from '@emotion/react';
 import React from 'react';
-import tinycolor from 'tinycolor2';
 
 import Strong from './Strong';
 
@@ -15,9 +15,9 @@ interface BadgeProps {
    */
   className?: string;
   /**
-   * The colour of the Badge. This can be any css colour, but it is recommended
-   * to use a colour from @datacamp/waffles-tokens. The text color will be set
-   * automatically based on this colour.
+   * The colour of the Badge. This can be any HEX color, but it is recommended
+   * to use a color from @datacamp/waffles-tokens. The text color will be set
+   * automatically.
    */
   color: string;
   /**
@@ -48,15 +48,12 @@ const sizeStyles = {
 };
 
 const getTextColor = (backgroundColor: string): string => {
-  if (
-    tinycolor.readability(
-      backgroundColor,
-      tokens.color.primary.navyText.value.hex,
-    ) > 4.5
-  ) {
-    return tokens.color.primary.navyText.value.hex;
-  }
-  return tokens.color.primary.white.value.hex;
+  // Compare to luminance of neutral grey color in the middle of the RGB scale
+  const isColorLight = hexColorLuminance(backgroundColor) > 0.179;
+
+  return isColorLight
+    ? tokens.color.primary.navyText.value.hex
+    : tokens.color.primary.white.value.hex;
 };
 
 const Badge = ({
