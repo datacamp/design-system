@@ -295,7 +295,8 @@ workflows:
           context: org-global
           filters:
             branches:
-              ignore: /.*/
+              only:
+                - master
             tags:
               ignore: /.*beta.*/
       # - deploy-beta-site:
