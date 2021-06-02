@@ -42,10 +42,14 @@ function useMenu(numberOfItems: number): MenuResult {
   const buttonRef = useRef<HTMLButtonElement>(null);
   const currentFocusIndex = useRef<number | null>(null);
 
+  // Track whether menu got opened via click but not a keyboard event
+  const clickOpened = useRef(false);
+
   const itemsRefs = useMemo<Array<RefObject<HTMLAnchorElement>>>(() => {
     return [...Array(numberOfItems).keys()].map(() => createRef());
   }, [numberOfItems]);
 
+  // Handle focus moving between items
   const moveFocus = useCallback(
     (itemIndex: number): void => {
       currentFocusIndex.current = itemIndex;
@@ -55,9 +59,12 @@ function useMenu(numberOfItems: number): MenuResult {
   );
 
   // If the menu is open focus on the first item
+  // But only if it was opened by keyboard event
   useEffect(() => {
-    if (isOpen) {
+    if (isOpen && !clickOpened.current) {
       moveFocus(0);
+    } else if (!isOpen) {
+      clickOpened.current = false;
     }
   }, [moveFocus, isOpen]);
 
@@ -115,7 +122,11 @@ function useMenu(numberOfItems: number): MenuResult {
         return;
       }
 
-      if ((key === 'Tab' || key === 'ArrowDown') && isOpen) {
+      if (
+        (key === 'Tab' || key === 'ArrowDown') &&
+        clickOpened.current &&
+        isOpen
+      ) {
         event.preventDefault();
         moveFocus(0);
       } else if (key !== 'Tab') {
@@ -123,6 +134,7 @@ function useMenu(numberOfItems: number): MenuResult {
         setIsOpen(true);
       }
     } else {
+      clickOpened.current = !isOpen;
       setIsOpen(!isOpen);
     }
   }
@@ -140,7 +152,9 @@ function useMenu(numberOfItems: number): MenuResult {
       // Create mutable value that initializes as the currentFocusIndex value
       let newFocusIndex = currentFocusIndex.current;
 
-      // Controls whether the menu is open or closed, if the button should regain focus on close, and if a handler function should be called
+      // Controls whether the menu is open or closed
+      // If the button should regain focus on close
+      // If a handler function should be called
       if (key === 'Escape') {
         setIsOpen(false);
         buttonRef.current?.focus();
