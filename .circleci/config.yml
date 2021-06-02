@@ -8,12 +8,14 @@ orbs:
 jobs:
   build:
     docker:
-      - image: circleci/node:12.13-browsers
+      - image: circleci/node:14.16.0-browsers
     steps:
       - checkout
       - run:
-          name: Copy NPM config
-          command: cp ci/.npmrc .npmrc
+          name: Add npmrc
+          command: |
+            echo "//registry.npmjs.org/:_authToken=${NPM_TOKEN}" > .npmrc
+            echo "always-auth=true" >> .npmrc
       - run:
           name: Install lerna
           command: yarn global add lerna
@@ -36,7 +38,7 @@ jobs:
             - ./**
   test:
     docker:
-      - image: circleci/node:12.13-browsers
+      - image: circleci/node:14.16.0-browsers
     steps:
       - attach_workspace:
           at: '.'
@@ -54,7 +56,7 @@ jobs:
           command: yarn type-check
   cypress-test-storybook:
     docker:
-      - image: cypress/browsers:node12.14.0-chrome79-ff71
+      - image: cypress/browsers:node14.16.0-chrome89-ff86
     steps:
       - attach_workspace:
           at: '.'
@@ -73,61 +75,47 @@ jobs:
           working_directory: ~/project/packages/docs/storybook
   upload-to-percy:
     docker:
-      - image: circleci/node:12.13-browsers
+      - image: circleci/node:14.16.0-browsers
     steps:
       - attach_workspace:
           at: '.'
       - run:
           name: Upload to percy
           command: yarn percy
-  # deploy-staging-site:
-  #   docker:
-  #     - image: ${STAGING_ECR_URL}/docker-deploy
-  #       aws_auth:
-  #         aws_access_key_id: $STAGING_AWS_ACCESS_KEY_ID
-  #         aws_secret_access_key: $STAGING_AWS_SECRET_ACCESS_KEY
-  #   environment:
-  #     BUCKET: waffles
-  #   steps:
-  #     - attach_workspace:
-  #         at: '.'
-  #     - run:
-  #         name: S3 Sync
-  #         command: |
-  #           export AWS_ACCESS_KEY_ID=${STAGING_AWS_ACCESS_KEY_ID}
-  #           export AWS_SECRET_ACCESS_KEY=${STAGING_AWS_SECRET_ACCESS_KEY}
-  #           aws s3 sync --delete --acl public-read packages/docs/catalog-doc-site/catalog/build s3://${BUCKET}.datacamp-staging.com/live
-  #           #aws s3 sync --acl public-read packages/docs/catalog-doc-site/catalog/build/static/media s3://${BUCKET}.datacamp-staging.com/live/media
-  #     - run:
-  #         name: Invalidate Cache
-  #         command: |
-  #           export AWS_ACCESS_KEY_ID=$STAGING_AWS_ACCESS_KEY_ID
-  #           export AWS_SECRET_ACCESS_KEY=$STAGING_AWS_SECRET_ACCESS_KEY
-  #           aws cloudfront create-invalidation --distribution-id ${STAGING_CLOUDFRONT_ID} --paths "/index.html"
-  # deploy-doc-site:
-  #   docker:
-  #     - image: ${STAGING_ECR_URL}/docker-deploy
-  #       aws_auth:
-  #         aws_access_key_id: $STAGING_AWS_ACCESS_KEY_ID
-  #         aws_secret_access_key: $STAGING_AWS_SECRET_ACCESS_KEY
-  #   environment:
-  #     BUCKET: waffles
-  #   steps:
-  #     - attach_workspace:
-  #         at: '.'
-  #     - run:
-  #         name: S3 Sync
-  #         command: |
-  #           export AWS_ACCESS_KEY_ID=${PROD_AWS_ACCESS_KEY_ID}
-  #           export AWS_SECRET_ACCESS_KEY=${PROD_AWS_SECRET_ACCESS_KEY}
-  #           aws s3 sync --delete --exclude "*le-components/*" --acl public-read packages/docs/catalog-doc-site/catalog/build s3://${BUCKET}.new.datacamp.com/live
-  #           #aws s3 sync --acl public-read packages/docs/catalog-doc-site/catalog/build/static/media s3://${BUCKET}.new.datacamp.com/live/media
-  #     - run:
-  #         name: Invalidate Cache
-  #         command: |
-  #           export AWS_ACCESS_KEY_ID=$PROD_AWS_ACCESS_KEY_ID
-  #           export AWS_SECRET_ACCESS_KEY=$PROD_AWS_SECRET_ACCESS_KEY
-  #           aws cloudfront create-invalidation --distribution-id ${PROD_CLOUDFRONT_ID} --paths "/index.html"
+  deploy-staging-site:
+    docker:
+      - image: ${STAGING_ECR_URL}/docker-deploy
+        aws_auth:
+          aws_access_key_id: $STAGING_AWS_ACCESS_KEY_ID
+          aws_secret_access_key: $STAGING_AWS_SECRET_ACCESS_KEY
+    environment:
+      BUCKET: waffles
+    steps:
+      - attach_workspace:
+          at: '.'
+      - run:
+          name: S3 Sync
+          command: |
+            export AWS_ACCESS_KEY_ID=${STAGING_AWS_ACCESS_KEY_ID}
+            export AWS_SECRET_ACCESS_KEY=${STAGING_AWS_SECRET_ACCESS_KEY}
+            aws s3 sync --delete --acl public-read packages/docs/next-doc-site/build s3://${BUCKET}.datacamp-staging.com/
+  deploy-doc-site:
+    docker:
+      - image: ${STAGING_ECR_URL}/docker-deploy
+        aws_auth:
+          aws_access_key_id: $STAGING_AWS_ACCESS_KEY_ID
+          aws_secret_access_key: $STAGING_AWS_SECRET_ACCESS_KEY
+    environment:
+      BUCKET: waffles
+    steps:
+      - attach_workspace:
+          at: '.'
+      - run:
+          name: S3 Sync
+          command: |
+            export AWS_ACCESS_KEY_ID=${PROD_AWS_ACCESS_KEY_ID}
+            export AWS_SECRET_ACCESS_KEY=${PROD_AWS_SECRET_ACCESS_KEY}
+            aws s3 sync --delete --exclude "*le-components/*" --acl public-read packages/docs/next-doc-site/build s3://${BUCKET}.new.datacamp.com/
   # deploy-beta-site:
   #   docker:
   #     - image: ${STAGING_ECR_URL}/docker-deploy
@@ -291,25 +279,25 @@ workflows:
       #     extra-env: "BRANCH=${CIRCLE_BRANCH//\\//-}"
       #     requires:
       #       - push-storybook-image
-      # - deploy-staging-site:
-      #     requires:
-      #       - cypress-test-storybook
-      #       - test
-      #     context: org-global
-      #     filters:
-      #       branches:
-      #         only:
-      #           - staging
-      # - deploy-doc-site:
-      #     requires:
-      #       - cypress-test-storybook
-      #       - test
-      #     context: org-global
-      #     filters:
-      #       branches:
-      #         ignore: /.*/
-      #       tags:
-      #         ignore: /.*beta.*/
+      - deploy-staging-site:
+          requires:
+            - cypress-test-storybook
+            - test
+          context: org-global
+          filters:
+            branches:
+              only:
+                - staging
+      - deploy-doc-site:
+          requires:
+            - cypress-test-storybook
+            - test
+          context: org-global
+          filters:
+            branches:
+              ignore: /.*/
+            tags:
+              ignore: /.*beta.*/
       # - deploy-beta-site:
       #     requires:
       #       - cypress-test-storybook
