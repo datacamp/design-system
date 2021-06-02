@@ -8,6 +8,7 @@ module.exports = withMDX({
     webpack5: true,
   },
   pageExtensions: ['ts', 'tsx', 'mdx'],
+  trailingSlash: true,
   typescript: {
     ignoreBuildErrors: true,
   },
