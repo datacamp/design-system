@@ -1,5 +1,6 @@
 import tokens from '@datacamp/waffles-tokens';
 import { css } from '@emotion/react';
+import { useFocusRing } from '@react-aria/focus';
 import {
   AnchorHTMLAttributes,
   ComponentType,
@@ -52,9 +53,23 @@ type MenuItemProps = {
 
 const MenuItem = forwardRef<HTMLAnchorElement, MenuItemProps>(
   ({ children, icon: Icon, ...restProps }, ref) => {
+    const { focusProps, isFocusVisible } = useFocusRing();
+
     return (
       <li css={wrapperStyle} tabIndex={-1}>
-        <a css={itemStyle} {...restProps} ref={ref}>
+        <a
+          css={css(
+            itemStyle,
+            isFocusVisible && {
+              backgroundColor: tokens.colors.beige200,
+              boxShadow: `inset 0 0 0 2px ${tokens.colors.blueDark}`,
+              opacity: 1,
+            },
+          )}
+          ref={ref}
+          {...restProps}
+          {...focusProps}
+        >
           <Icon aria-hidden={true} color="currentColor" size={18} />
           <span css={contentStyle}>{children}</span>
         </a>

@@ -20,6 +20,8 @@ const listStyle = css({
   listStyle: 'none',
   margin: 0,
   padding: 0,
+  paddingBottom: 12,
+  paddingTop: 12,
 });
 
 type DropdownProps = HTMLAttributes<HTMLDivElement>;
