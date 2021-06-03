@@ -4,6 +4,7 @@ import {
   forwardRef,
   InputHTMLAttributes,
   ReactNode,
+  Ref,
 } from 'react';
 
 import Input from './Input';
@@ -42,38 +43,38 @@ export type SwitchProps = {
 ) &
   InputHTMLAttributes<HTMLInputElement>;
 
-const Switch = forwardRef<HTMLInputElement, SwitchProps>(
-  (
-    {
-      appearance = 'default',
-      checked,
-      children,
-      className,
-      disabled,
-      ...restProps
-    },
-    ref,
-  ) => {
-    const { focusProps, isFocusVisible } = useFocusRing();
+function InternalSwitch({
+  appearance = 'default',
+  checked,
+  children,
+  className,
+  disabled,
+  innerRef,
+  ...restProps
+}: SwitchProps & { innerRef?: Ref<HTMLInputElement> }): JSX.Element {
+  const { focusProps, isFocusVisible } = useFocusRing();
 
-    return (
-      <Label {...{ appearance, children, className, disabled }}>
-        <Input
-          aria-checked={checked}
-          disabled={disabled}
-          ref={ref}
-          role="switch"
-          type="checkbox"
-          {...restProps}
-          {...focusProps}
-        />
-        <Toggle
-          {...{ appearance, checked, hasLabel: !!children, isFocusVisible }}
-        />
-        {children}
-      </Label>
-    );
-  },
-);
+  return (
+    <Label {...{ appearance, children, className, disabled }}>
+      <Input
+        aria-checked={checked}
+        disabled={disabled}
+        ref={innerRef}
+        role="switch"
+        type="checkbox"
+        {...restProps}
+        {...focusProps}
+      />
+      <Toggle
+        {...{ appearance, checked, hasLabel: !!children, isFocusVisible }}
+      />
+      {children}
+    </Label>
+  );
+}
+
+const Switch = forwardRef<HTMLInputElement, SwitchProps>((props, ref) => {
+  return <InternalSwitch {...props} innerRef={ref} />;
+});
 
 export default Switch;
