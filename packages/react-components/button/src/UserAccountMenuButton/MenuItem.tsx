@@ -1,0 +1,66 @@
+import tokens from '@datacamp/waffles-tokens';
+import { css } from '@emotion/react';
+import {
+  AnchorHTMLAttributes,
+  ComponentType,
+  forwardRef,
+  ReactNode,
+} from 'react';
+
+const wrapperStyle = css({
+  alignItems: 'center',
+  display: 'flex',
+  width: '100%',
+});
+
+const itemStyle = css({
+  ':hover': {
+    backgroundColor: tokens.colors.beige200,
+    opacity: 1,
+  },
+  alignItems: 'center',
+  border: 0,
+  color: tokens.colors.navyText,
+  cursor: 'pointer',
+  display: 'flex',
+  fontFamily: tokens.fontFamily.sansSerif,
+  fontSize: tokens.fontSize.h6,
+  fontWeight: parseInt(tokens.fontWeight.regular, 10),
+  height: 42,
+  opacity: 0.6,
+  paddingLeft: 24,
+  paddingRight: 24,
+  textDecoration: 'none',
+  whiteSpace: 'nowrap',
+  width: '100%',
+});
+
+const contentStyle = css({
+  paddingLeft: 8,
+});
+
+type IconProps = {
+  'aria-hidden'?: boolean;
+  color?: string;
+  size?: 12 | 18 | 24;
+};
+
+type MenuItemProps = {
+  children: ReactNode;
+  icon: ComponentType<IconProps>;
+} & AnchorHTMLAttributes<HTMLAnchorElement>;
+
+const MenuItem = forwardRef<HTMLAnchorElement, MenuItemProps>(
+  ({ children, icon: Icon, ...restProps }, ref) => {
+    return (
+      <li css={wrapperStyle} tabIndex={-1}>
+        <a css={itemStyle} {...restProps} ref={ref}>
+          <Icon aria-hidden={true} color="currentColor" size={18} />
+          <span css={contentStyle}>{children}</span>
+        </a>
+      </li>
+    );
+  },
+);
+
+export default MenuItem;

@@ -1,23 +1,16 @@
+import { CogIcon, ExitIcon, UserIcon } from '@datacamp/waffles-icons';
 import { css } from '@emotion/react';
 
 import Button from './Button';
 import Dropdown from './Dropdown';
+import MenuItem from './MenuItem';
 import useMenu from './useMenu';
 
 const wrapperStyle = css({
-  display: 'inline-block',
+  alignItems: 'center',
+  display: 'inline-flex',
+  height: '100%',
   position: 'relative',
-});
-
-const itemStyle = css({
-  padding: 16,
-  whiteSpace: 'nowrap',
-});
-
-const anchorStyle = css({
-  ':focus': {
-    backgroundColor: 'red',
-  },
 });
 
 function UserAccountMenuButton(): JSX.Element {
@@ -28,25 +21,27 @@ function UserAccountMenuButton(): JSX.Element {
       <Button isOpen={isOpen} {...buttonProps} />
       {isOpen && (
         <Dropdown>
-          <li css={itemStyle} tabIndex={-1}>
-            <a
-              css={anchorStyle}
-              href="https://www.datacamp.com"
-              {...itemProps[0]}
-            >
-              My Profile
-            </a>
-          </li>
-          <li css={itemStyle} tabIndex={-1}>
-            <a css={anchorStyle} href="www.datacamp2.com" {...itemProps[1]}>
-              Account Settings
-            </a>
-          </li>
-          <li css={itemStyle} tabIndex={-1}>
-            <a css={anchorStyle} href="www.datacamp3.com" {...itemProps[2]}>
-              Log Out
-            </a>
-          </li>
+          <MenuItem
+            href="https://www.datacamp.com"
+            icon={UserIcon}
+            {...itemProps[0]}
+          >
+            My Profile
+          </MenuItem>
+          <MenuItem
+            href="https://www.datacamp1.com"
+            icon={CogIcon}
+            {...itemProps[1]}
+          >
+            Account Settings
+          </MenuItem>
+          <MenuItem
+            href="https://www.datacamp2.com"
+            icon={ExitIcon}
+            {...itemProps[2]}
+          >
+            Log Out
+          </MenuItem>
         </Dropdown>
       )}
     </div>
