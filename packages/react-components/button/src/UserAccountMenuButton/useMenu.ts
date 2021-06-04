@@ -1,7 +1,6 @@
 /* eslint-disable sonarjs/cognitive-complexity */
 /* eslint-disable consistent-return */
 import {
-  AnchorHTMLAttributes,
   ButtonHTMLAttributes,
   createRef,
   RefObject,
@@ -12,21 +11,16 @@ import {
   useState,
 } from 'react';
 
+import { ItemProps } from './types';
+
 type ButtonProps = {
   ref: RefObject<HTMLButtonElement>;
 } & ButtonHTMLAttributes<HTMLButtonElement>;
 
-type ItemProps = {
-  onKeyDown: (event: React.KeyboardEvent<HTMLAnchorElement>) => void;
-  ref: RefObject<HTMLAnchorElement>;
-  rolevent: string;
-  tabIndex: number;
-} & AnchorHTMLAttributes<HTMLAnchorElement>;
-
 type MenuResult = {
   buttonProps: ButtonProps;
   isOpen: boolean;
-  itemProps: ItemProps[];
+  itemsProps: ItemProps[];
 };
 
 // Custom type guard
@@ -203,16 +197,16 @@ function useMenu(numberOfItems: number): MenuResult {
     tabIndex: 0,
   };
 
-  const itemProps = [...Array(numberOfItems).keys()].map((index) => {
+  const itemsProps = [...Array(numberOfItems).keys()].map((index) => {
     return {
       onKeyDown: itemListener,
       ref: itemsRefs[index],
-      rolevent: 'menuitem',
+      role: 'menuitem',
       tabIndex: -1,
     };
   });
 
-  return { buttonProps, isOpen, itemProps };
+  return { buttonProps, isOpen, itemsProps };
 }
 
 export default useMenu;
