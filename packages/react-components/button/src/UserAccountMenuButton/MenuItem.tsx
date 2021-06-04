@@ -32,6 +32,7 @@ const itemStyle = css({
   paddingLeft: 24,
   paddingRight: 24,
   textDecoration: 'none',
+  userSelect: 'none',
   whiteSpace: 'nowrap',
   width: '100%',
 });
@@ -52,11 +53,11 @@ type MenuItemProps = {
 } & AnchorHTMLAttributes<HTMLAnchorElement>;
 
 const MenuItem = forwardRef<HTMLAnchorElement, MenuItemProps>(
-  ({ children, icon: Icon, ...restProps }, ref) => {
+  ({ children, className, icon: Icon, ...restProps }, ref) => {
     const { focusProps, isFocusVisible } = useFocusRing();
 
     return (
-      <li css={wrapperStyle} tabIndex={-1}>
+      <li className={className} css={wrapperStyle} tabIndex={-1}>
         <a
           css={css(
             itemStyle,

@@ -1,16 +1,25 @@
 import { CogIcon, ExitIcon, UserIcon } from '@datacamp/waffles-icons';
+import tokens from '@datacamp/waffles-tokens';
 import { css } from '@emotion/react';
 
 import Button from './Button';
 import Dropdown from './Dropdown';
 import MenuItem from './MenuItem';
 import useMenu from './useMenu';
+import XpIndicator from './XpIndicator';
 
 const wrapperStyle = css({
   alignItems: 'center',
   display: 'inline-flex',
   height: '100%',
   position: 'relative',
+});
+
+const logoutStyle = css({
+  borderTop: `1px solid ${tokens.colors.beige400}`,
+  marginTop: 8,
+  paddingBottom: 8,
+  paddingTop: 8,
 });
 
 function UserAccountMenuButton(): JSX.Element {
@@ -21,6 +30,7 @@ function UserAccountMenuButton(): JSX.Element {
       <Button isOpen={isOpen} {...buttonProps} />
       {isOpen && (
         <Dropdown>
+          <XpIndicator />
           <MenuItem
             href="https://www.datacamp.com"
             icon={UserIcon}
@@ -36,6 +46,7 @@ function UserAccountMenuButton(): JSX.Element {
             Account Settings
           </MenuItem>
           <MenuItem
+            css={logoutStyle}
             href="https://www.datacamp2.com"
             icon={ExitIcon}
             {...itemProps[2]}
