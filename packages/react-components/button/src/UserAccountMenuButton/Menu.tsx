@@ -16,9 +16,15 @@ type Menu = {
   avatarUrl?: string;
   children: React.ReactNode;
   showAlertDot?: boolean;
+  totalXp?: number;
 };
 
-function Menu({ avatarUrl, children, showAlertDot }: Menu): JSX.Element {
+function Menu({
+  avatarUrl,
+  children,
+  showAlertDot,
+  totalXp,
+}: Menu): JSX.Element {
   const numberOfItems = Children.count(children);
   const { buttonProps, isOpen, itemsProps } = useMenu(numberOfItems);
 
@@ -30,7 +36,11 @@ function Menu({ avatarUrl, children, showAlertDot }: Menu): JSX.Element {
         showAlertDot={showAlertDot}
         {...buttonProps}
       />
-      {isOpen && <Dropdown itemsProps={itemsProps}>{children}</Dropdown>}
+      {isOpen && (
+        <Dropdown itemsProps={itemsProps} totalXp={totalXp}>
+          {children}
+        </Dropdown>
+      )}
     </div>
   );
 }

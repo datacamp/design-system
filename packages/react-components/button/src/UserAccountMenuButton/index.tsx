@@ -8,7 +8,6 @@ import MenuItem from './MenuItem';
 const logoutStyle = css({
   borderTop: `1px solid ${tokens.colors.beige400}`,
   marginTop: 8,
-  paddingBottom: 8,
   paddingTop: 8,
 });
 
@@ -16,15 +15,21 @@ type UserAccountProps = {
   children?: React.ReactNode;
   showAlertDot?: boolean;
   userAvatarUrl?: string;
+  userTotalXp?: number;
 };
 
 function UserAccountMenuButton({
   children,
   showAlertDot,
   userAvatarUrl,
+  userTotalXp,
 }: UserAccountProps): JSX.Element {
   return (
-    <Menu avatarUrl={userAvatarUrl} showAlertDot={showAlertDot}>
+    <Menu
+      avatarUrl={userAvatarUrl}
+      showAlertDot={showAlertDot}
+      totalXp={userTotalXp}
+    >
       <MenuItem href="https://www.datacamp.com" icon={UserIcon}>
         My Profile
       </MenuItem>

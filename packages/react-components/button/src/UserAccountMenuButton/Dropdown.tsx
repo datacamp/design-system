@@ -23,14 +23,21 @@ const listStyle = css({
   listStyle: 'none',
   margin: 0,
   padding: 0,
+  paddingBottom: 8,
+  paddingTop: 8,
 });
 
 type DropdownProps = {
   children: React.ReactNode;
   itemsProps: ItemProps[];
+  totalXp?: number;
 };
 
-function Dropdown({ children, itemsProps }: DropdownProps): JSX.Element {
+function Dropdown({
+  children,
+  itemsProps,
+  totalXp,
+}: DropdownProps): JSX.Element {
   function renderChildren(): React.ReactNode {
     return Children.map(children, (child, index) => {
       if (isValidElement(child)) {
@@ -45,7 +52,7 @@ function Dropdown({ children, itemsProps }: DropdownProps): JSX.Element {
   return (
     <div css={dropdownStyle} role="menu">
       <Card css={cardStyle} elevation={4}>
-        <XpIndicator />
+        {totalXp != null && <XpIndicator totalXp={totalXp} />}
         <ul css={listStyle}>{renderChildren()}</ul>
       </Card>
     </div>
