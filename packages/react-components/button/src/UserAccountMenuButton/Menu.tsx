@@ -1,5 +1,5 @@
 import { css } from '@emotion/react';
-import { Children, ReactNode } from 'react';
+import { Children } from 'react';
 
 import Button from './Button';
 import Dropdown from './Dropdown';
@@ -13,7 +13,7 @@ const wrapperStyle = css({
 });
 
 type Menu = {
-  children: ReactNode;
+  children: React.ReactNode;
 };
 
 function Menu({ children }: Menu): JSX.Element {

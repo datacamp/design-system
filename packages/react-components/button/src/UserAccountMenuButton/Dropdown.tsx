@@ -1,6 +1,6 @@
 import Card from '@datacamp/waffles-card';
 import { css } from '@emotion/react';
-import { Children, cloneElement, isValidElement, ReactNode } from 'react';
+import { Children, cloneElement, isValidElement } from 'react';
 
 import { ItemProps } from './types';
 import XpIndicator from './XpIndicator';
@@ -26,12 +26,12 @@ const listStyle = css({
 });
 
 type DropdownProps = {
-  children: ReactNode;
+  children: React.ReactNode;
   itemsProps: ItemProps[];
 };
 
 function Dropdown({ children, itemsProps }: DropdownProps): JSX.Element {
-  function renderChildren(): ReactNode {
+  function renderChildren(): React.ReactNode {
     return Children.map(children, (child, index) => {
       if (isValidElement(child)) {
         return cloneElement(child, {
