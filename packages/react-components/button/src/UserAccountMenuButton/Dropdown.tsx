@@ -2,11 +2,12 @@ import Card from '@datacamp/waffles-card';
 import { css } from '@emotion/react';
 import { Children, cloneElement } from 'react';
 
+import { FULL_MENU_MEDIA_QUERY } from './constants';
 import { ItemProps } from './types';
 import XpIndicator from './XpIndicator';
 
 const dropdownStyle = css({
-  '@media (min-width: 821px)': {
+  [FULL_MENU_MEDIA_QUERY]: {
     top: 38,
   },
   position: 'absolute',
