@@ -4,7 +4,6 @@ import { css } from '@emotion/react';
 
 const wrapperStyle = css({
   borderBottom: `1px solid ${tokens.colors.beige400}`,
-  marginBottom: 8,
   padding: 8,
 });
 
@@ -18,14 +17,16 @@ const badgeStyle = css({
 });
 
 type XpIndicatorProps = {
-  totalXp?: number;
+  totalXp: number;
 };
 
-function XpIndicator({ totalXp = 650 }: XpIndicatorProps): JSX.Element {
+function XpIndicator({ totalXp }: XpIndicatorProps): JSX.Element {
+  const formattedTotalXp = new Intl.NumberFormat().format(totalXp);
+
   return (
     <div css={wrapperStyle}>
       <Badge color={tokens.colors.purple} css={badgeStyle} size="large">
-        {`${totalXp} XP`}
+        {`${formattedTotalXp} XP`}
       </Badge>
     </div>
   );
