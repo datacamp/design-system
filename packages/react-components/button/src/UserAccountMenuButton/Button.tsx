@@ -40,12 +40,13 @@ const chevronStyle = css({
 });
 
 type ButtonProps = {
+  avatarUrl?: string;
   isOpen: boolean;
   showAlertDot?: boolean;
 } & React.ButtonHTMLAttributes<HTMLButtonElement>;
 
 const Button = forwardRef<HTMLButtonElement, ButtonProps>(
-  ({ isOpen, showAlertDot = false, ...restProps }, ref) => {
+  ({ avatarUrl, isOpen, showAlertDot = false, ...restProps }, ref) => {
     const { focusProps, isFocusVisible } = useFocusRing();
 
     return (
@@ -61,7 +62,7 @@ const Button = forwardRef<HTMLButtonElement, ButtonProps>(
         {...focusProps}
         ref={ref}
       >
-        <Avatar />
+        <Avatar avatarUrl={avatarUrl} />
         {isOpen ? (
           <ChevronUpIcon aria-hidden={true} css={chevronStyle} />
         ) : (
