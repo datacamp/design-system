@@ -1,9 +1,7 @@
 /* eslint-disable sonarjs/cognitive-complexity */
 /* eslint-disable consistent-return */
 import {
-  ButtonHTMLAttributes,
   createRef,
-  RefObject,
   useCallback,
   useEffect,
   useMemo,
@@ -14,8 +12,8 @@ import {
 import { ItemProps } from './types';
 
 type ButtonProps = {
-  ref: RefObject<HTMLButtonElement>;
-} & ButtonHTMLAttributes<HTMLButtonElement>;
+  ref: React.RefObject<HTMLButtonElement>;
+} & React.ButtonHTMLAttributes<HTMLButtonElement>;
 
 type MenuResult = {
   buttonProps: ButtonProps;
@@ -30,6 +28,8 @@ function isKeyboardEvent(
   return (event as React.KeyboardEvent).key !== undefined;
 }
 
+// Hook to manage accessibility logic of menu
+// Needs to now number of menu items in advance
 function useMenu(numberOfItems: number): MenuResult {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -39,7 +39,7 @@ function useMenu(numberOfItems: number): MenuResult {
   // Track whether menu got opened via click but not a keyboard event
   const clickOpened = useRef(false);
 
-  const itemsRefs = useMemo<Array<RefObject<HTMLAnchorElement>>>(() => {
+  const itemsRefs = useMemo<Array<React.RefObject<HTMLAnchorElement>>>(() => {
     return [...Array(numberOfItems).keys()].map(() => createRef());
   }, [numberOfItems]);
 

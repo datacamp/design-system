@@ -2,7 +2,7 @@ import { ChevronDownIcon, ChevronUpIcon } from '@datacamp/waffles-icons';
 import tokens from '@datacamp/waffles-tokens';
 import { css } from '@emotion/react';
 import { useFocusRing } from '@react-aria/focus';
-import { ButtonHTMLAttributes, forwardRef } from 'react';
+import { forwardRef } from 'react';
 
 import Avatar from './Avatar';
 
@@ -40,7 +40,7 @@ const chevronStyle = css({
 
 type ButtonProps = {
   isOpen: boolean;
-} & ButtonHTMLAttributes<HTMLButtonElement>;
+} & React.ButtonHTMLAttributes<HTMLButtonElement>;
 
 const Button = forwardRef<HTMLButtonElement, ButtonProps>(
   ({ isOpen, ...restProps }, ref) => {

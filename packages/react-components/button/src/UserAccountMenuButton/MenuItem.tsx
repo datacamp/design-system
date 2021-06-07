@@ -1,12 +1,7 @@
 import tokens from '@datacamp/waffles-tokens';
 import { css } from '@emotion/react';
 import { useFocusRing } from '@react-aria/focus';
-import {
-  AnchorHTMLAttributes,
-  ComponentType,
-  forwardRef,
-  ReactNode,
-} from 'react';
+import { forwardRef } from 'react';
 
 const wrapperStyle = css({
   alignItems: 'center',
@@ -48,9 +43,9 @@ type IconProps = {
 };
 
 type MenuItemProps = {
-  children: ReactNode;
-  icon: ComponentType<IconProps>;
-} & AnchorHTMLAttributes<HTMLAnchorElement>;
+  children: React.ReactNode;
+  icon: React.ComponentType<IconProps>;
+} & React.AnchorHTMLAttributes<HTMLAnchorElement>;
 
 const MenuItem = forwardRef<HTMLAnchorElement, MenuItemProps>(
   ({ children, className, icon: Icon, ...restProps }, ref) => {
