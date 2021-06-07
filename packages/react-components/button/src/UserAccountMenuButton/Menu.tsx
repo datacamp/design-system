@@ -13,16 +13,23 @@ const wrapperStyle = css({
 });
 
 type Menu = {
+  avatarUrl?: string;
   children: React.ReactNode;
+  showAlertDot?: boolean;
 };
 
-function Menu({ children }: Menu): JSX.Element {
+function Menu({ avatarUrl, children, showAlertDot }: Menu): JSX.Element {
   const numberOfItems = Children.count(children);
   const { buttonProps, isOpen, itemsProps } = useMenu(numberOfItems);
 
   return (
     <div css={wrapperStyle}>
-      <Button isOpen={isOpen} {...buttonProps} />
+      <Button
+        avatarUrl={avatarUrl}
+        isOpen={isOpen}
+        showAlertDot={showAlertDot}
+        {...buttonProps}
+      />
       {isOpen && <Dropdown itemsProps={itemsProps}>{children}</Dropdown>}
     </div>
   );

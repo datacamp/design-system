@@ -14,11 +14,17 @@ const logoutStyle = css({
 
 type UserAccountProps = {
   children?: React.ReactNode;
+  showAlertDot?: boolean;
+  userAvatarUrl?: string;
 };
 
-function UserAccountMenuButton({ children }: UserAccountProps): JSX.Element {
+function UserAccountMenuButton({
+  children,
+  showAlertDot,
+  userAvatarUrl,
+}: UserAccountProps): JSX.Element {
   return (
-    <Menu>
+    <Menu avatarUrl={userAvatarUrl} showAlertDot={showAlertDot}>
       <MenuItem href="https://www.datacamp.com" icon={UserIcon}>
         My Profile
       </MenuItem>
