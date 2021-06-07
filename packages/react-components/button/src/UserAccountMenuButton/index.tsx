@@ -12,7 +12,11 @@ const logoutStyle = css({
   paddingTop: 8,
 });
 
-function UserAccountMenuButton(): JSX.Element {
+type UserAccountProps = {
+  children?: React.ReactNode;
+};
+
+function UserAccountMenuButton({ children }: UserAccountProps): JSX.Element {
   return (
     <Menu>
       <MenuItem href="https://www.datacamp.com" icon={UserIcon}>
@@ -21,6 +25,7 @@ function UserAccountMenuButton(): JSX.Element {
       <MenuItem href="https://www.datacamp1.com" icon={CogIcon}>
         Account Settings
       </MenuItem>
+      {children}
       <MenuItem
         css={logoutStyle}
         href="https://www.datacamp2.com"
@@ -31,5 +36,7 @@ function UserAccountMenuButton(): JSX.Element {
     </Menu>
   );
 }
+
+UserAccountMenuButton.MenuItem = MenuItem;
 
 export default UserAccountMenuButton;
