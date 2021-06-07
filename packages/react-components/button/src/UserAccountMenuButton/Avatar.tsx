@@ -1,14 +1,15 @@
 import { css } from '@emotion/react';
 import { useState } from 'react';
 
+import { FULL_MENU_MEDIA_QUERY } from './constants';
 import defaultAvatar from './defaultAvatar';
 
 const wrapperStyle = css({
-  '@media (min-width: 821px)': {
+  borderRadius: '50%',
+  [FULL_MENU_MEDIA_QUERY]: {
     height: 22,
     width: 22,
   },
-  borderRadius: '50%',
   height: 36,
   overflow: 'hidden',
   width: 36,

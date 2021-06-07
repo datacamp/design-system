@@ -6,9 +6,18 @@ import { forwardRef } from 'react';
 
 import AlertDot from './AlertDot';
 import Avatar from './Avatar';
+import { FULL_MENU_MEDIA_QUERY } from './constants';
 
 const buttonStyle = css({
-  '@media (min-width: 821px)': {
+  alignItems: 'center',
+  background: 'none',
+  border: 0,
+  borderRadius: 18,
+  boxSizing: 'border-box',
+  color: tokens.colors.navyText,
+  cursor: 'pointer',
+  display: 'inline-flex',
+  [FULL_MENU_MEDIA_QUERY]: {
     ':hover': {
       backgroundColor: tokens.colors.beige200,
     },
@@ -18,14 +27,6 @@ const buttonStyle = css({
     minWidth: 56,
     width: 56,
   },
-  alignItems: 'center',
-  background: 'none',
-  border: 0,
-  borderRadius: 18,
-  boxSizing: 'border-box',
-  color: tokens.colors.navyText,
-  cursor: 'pointer',
-  display: 'inline-flex',
   height: 36,
   minWidth: 36,
   outline: 0,
@@ -34,10 +35,10 @@ const buttonStyle = css({
 });
 
 const chevronStyle = css({
-  '@media (min-width: 821px)': {
+  display: 'none',
+  [FULL_MENU_MEDIA_QUERY]: {
     display: 'block',
   },
-  display: 'none',
 });
 
 type ButtonProps = {
