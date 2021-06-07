@@ -1,6 +1,6 @@
 import Card from '@datacamp/waffles-card';
 import { css } from '@emotion/react';
-import { Children, cloneElement, isValidElement } from 'react';
+import { Children, cloneElement } from 'react';
 
 import { ItemProps } from './types';
 import XpIndicator from './XpIndicator';
@@ -41,12 +41,9 @@ function Dropdown({
 }: DropdownProps): JSX.Element {
   function renderChildren(): React.ReactNode {
     return Children.map(children, (child, index) => {
-      if (isValidElement(child)) {
-        return cloneElement(child, {
-          ...itemsProps[index],
-        });
-      }
-      return null;
+      return cloneElement(child as React.ReactElement, {
+        ...itemsProps[index],
+      });
     });
   }
 
