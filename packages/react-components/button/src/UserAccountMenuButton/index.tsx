@@ -7,6 +7,7 @@ import MenuItem from './MenuItem';
 
 const logoutStyle = css({
   borderTop: `1px solid ${tokens.colors.beige400}`,
+  boxSizing: 'border-box',
   marginTop: 8,
   paddingTop: 8,
 });
