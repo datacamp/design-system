@@ -7,7 +7,6 @@ import MenuItem from './MenuItem';
 
 const logoutStyle = css({
   borderTop: `1px solid ${tokens.colors.beige400}`,
-  boxSizing: 'border-box',
   marginTop: 8,
   paddingTop: 8,
 });
@@ -17,6 +16,7 @@ type UserAccountProps = {
   mainAppUrl: string;
   showAlertDot?: boolean;
   userAvatarUrl?: string;
+  userSlug?: string;
   userTotalXp?: number;
 };
 
@@ -25,6 +25,7 @@ function UserAccountMenuButton({
   mainAppUrl,
   showAlertDot,
   userAvatarUrl,
+  userSlug,
   userTotalXp,
 }: UserAccountProps): JSX.Element {
   return (
@@ -33,9 +34,11 @@ function UserAccountMenuButton({
       showAlertDot={showAlertDot}
       totalXp={userTotalXp}
     >
-      <MenuItem href={`${mainAppUrl}/profile`} icon={UserIcon}>
-        My Profile
-      </MenuItem>
+      {userSlug && (
+        <MenuItem href={`${mainAppUrl}/profile/${userSlug}`} icon={UserIcon}>
+          My Profile
+        </MenuItem>
+      )}
       <MenuItem href={`${mainAppUrl}/profile/account_settings`} icon={CogIcon}>
         Account Settings
       </MenuItem>
