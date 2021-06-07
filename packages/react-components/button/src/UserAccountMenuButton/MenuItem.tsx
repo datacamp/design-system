@@ -16,6 +16,7 @@ const itemStyle = css({
   },
   alignItems: 'center',
   border: 0,
+  boxSizing: 'border-box',
   color: tokens.colors.navyText,
   cursor: 'pointer',
   display: 'flex',
@@ -33,6 +34,7 @@ const itemStyle = css({
 });
 
 const contentStyle = css({
+  boxSizing: 'border-box',
   paddingLeft: 8,
 });
 

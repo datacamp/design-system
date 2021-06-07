@@ -4,6 +4,7 @@ import { css } from '@emotion/react';
 
 const wrapperStyle = css({
   borderBottom: `1px solid ${tokens.colors.beige400}`,
+  boxSizing: 'border-box',
   padding: 8,
 });
 

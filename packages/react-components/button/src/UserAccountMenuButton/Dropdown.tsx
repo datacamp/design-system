@@ -20,6 +20,7 @@ const cardStyle = css({
 });
 
 const listStyle = css({
+  boxSizing: 'border-box',
   listStyle: 'none',
   margin: 0,
   padding: 0,

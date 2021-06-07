@@ -22,6 +22,7 @@ const buttonStyle = css({
   background: 'none',
   border: 0,
   borderRadius: 18,
+  boxSizing: 'border-box',
   color: tokens.colors.navyText,
   cursor: 'pointer',
   display: 'inline-flex',
