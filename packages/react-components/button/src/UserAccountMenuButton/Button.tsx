@@ -4,6 +4,7 @@ import { css } from '@emotion/react';
 import { useFocusRing } from '@react-aria/focus';
 import { forwardRef } from 'react';
 
+import AlertDot from './AlertDot';
 import Avatar from './Avatar';
 
 const buttonStyle = css({
@@ -40,10 +41,11 @@ const chevronStyle = css({
 
 type ButtonProps = {
   isOpen: boolean;
+  showAlertDot?: boolean;
 } & React.ButtonHTMLAttributes<HTMLButtonElement>;
 
 const Button = forwardRef<HTMLButtonElement, ButtonProps>(
-  ({ isOpen, ...restProps }, ref) => {
+  ({ isOpen, showAlertDot = false, ...restProps }, ref) => {
     const { focusProps, isFocusVisible } = useFocusRing();
 
     return (
@@ -65,6 +67,7 @@ const Button = forwardRef<HTMLButtonElement, ButtonProps>(
         ) : (
           <ChevronDownIcon aria-hidden={true} css={chevronStyle} />
         )}
+        {showAlertDot && <AlertDot />}
       </button>
     );
   },
