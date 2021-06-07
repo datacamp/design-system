@@ -13,6 +13,7 @@ const logoutStyle = css({
 
 type UserAccountProps = {
   children?: React.ReactNode;
+  mainAppUrl: string;
   showAlertDot?: boolean;
   userAvatarUrl?: string;
   userTotalXp?: number;
@@ -20,6 +21,7 @@ type UserAccountProps = {
 
 function UserAccountMenuButton({
   children,
+  mainAppUrl,
   showAlertDot,
   userAvatarUrl,
   userTotalXp,
@@ -30,16 +32,16 @@ function UserAccountMenuButton({
       showAlertDot={showAlertDot}
       totalXp={userTotalXp}
     >
-      <MenuItem href="https://www.datacamp.com" icon={UserIcon}>
+      <MenuItem href={`${mainAppUrl}/profile`} icon={UserIcon}>
         My Profile
       </MenuItem>
-      <MenuItem href="https://www.datacamp1.com" icon={CogIcon}>
+      <MenuItem href={`${mainAppUrl}/profile/account_settings`} icon={CogIcon}>
         Account Settings
       </MenuItem>
       {children}
       <MenuItem
         css={logoutStyle}
-        href="https://www.datacamp2.com"
+        href={`${mainAppUrl}/users/sign_out`}
         icon={ExitIcon}
       >
         Log Out
