@@ -184,6 +184,18 @@ describe('UserAccountMenu', () => {
     expect(xpIndicator).toBeInTheDocument();
   });
 
+  it('adjust dropdown vertical position by passing dropdownOffset prop', () => {
+    const { getByRole, getByTestId } = render(
+      <UserAccountMenu dropdownOffset={82} mainAppUrl="https://datacamp.com" />,
+    );
+    const button = getByTestId('user-account-menu-button');
+    fireEvent.click(button);
+    const dropdown = getByRole('menu');
+
+    expect(dropdown).toBeInTheDocument();
+    expect(dropdown).toHaveStyle(`top: -38px;`);
+  });
+
   describe('snapshots', () => {
     it("renders correctyl when only main app URL is passed and it's closed", () => {
       const { container } = render(
