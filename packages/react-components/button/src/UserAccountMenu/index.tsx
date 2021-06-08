@@ -11,12 +11,30 @@ const logoutStyle = css({
   paddingTop: 8,
 });
 
-type UserAccountProps = {
+type UserAccountMenuProps = {
+  /**
+   * Additional menu items. It's advised to use predefined UserAccountMenu.MenuItem. New menu items are placed just above Log Out item.
+   */
   children?: React.ReactNode;
+  /**
+   * Root URL of all user account management links.
+   */
   mainAppUrl: string;
+  /**
+   * Display little notifications dot.
+   */
   showAlertDot?: boolean;
+  /**
+   * URL to user profile picture. If not provided default avatar will be displayed.
+   */
   userAvatarUrl?: string;
+  /**
+   * Slug required to correctly redirect user to his profile page. If not provided My Profile menu item will be hidden.
+   */
   userSlug?: string;
+  /**
+   * Show total XP gained by the user. If not provided whole XP bar won't be displayed.
+   */
   userTotalXp?: number;
 };
 
@@ -27,7 +45,7 @@ function UserAccountMenu({
   userAvatarUrl,
   userSlug,
   userTotalXp,
-}: UserAccountProps): JSX.Element {
+}: UserAccountMenuProps): JSX.Element {
   return (
     <Menu
       avatarUrl={userAvatarUrl}
