@@ -35,16 +35,25 @@ function UserAccountMenu({
       totalXp={userTotalXp}
     >
       {userSlug && (
-        <MenuItem href={`${mainAppUrl}/profile/${userSlug}`} icon={UserIcon}>
+        <MenuItem
+          data-trackid="ds-snowplow-link-main-menu-my-profile"
+          href={`${mainAppUrl}/profile/${userSlug}`}
+          icon={UserIcon}
+        >
           My Profile
         </MenuItem>
       )}
-      <MenuItem href={`${mainAppUrl}/profile/account_settings`} icon={CogIcon}>
+      <MenuItem
+        data-trackid="ds-snowplow-link-main-menu-account-settings"
+        href={`${mainAppUrl}/profile/account_settings`}
+        icon={CogIcon}
+      >
         Account Settings
       </MenuItem>
       {children}
       <MenuItem
         css={logoutStyle}
+        data-trackid="ds-snowplow-header-personal-logout"
         href={`${mainAppUrl}/users/sign_out`}
         icon={ExitIcon}
       >

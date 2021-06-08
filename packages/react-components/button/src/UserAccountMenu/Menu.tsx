@@ -46,6 +46,7 @@ function Menu({
         {...buttonProps}
         aria-label="My Account"
         data-testid="user-account-menu-button"
+        data-trackid="ds-snowplow-li-main-menu-my-account"
       />
       {isOpen && (
         <Dropdown itemsProps={itemsProps} totalXp={totalXp}>
