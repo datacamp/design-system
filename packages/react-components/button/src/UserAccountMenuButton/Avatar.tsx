@@ -31,8 +31,9 @@ const Avatar = ({ avatarUrl }: AvatarProps): JSX.Element => {
   return (
     <div css={wrapperStyle}>
       <img
-        alt="Profile avatar"
+        alt=""
         css={imageStyle}
+        data-testid="user-account-menu-avatar"
         onError={() => setHasImgError(true)}
         src={imgSrc}
       />

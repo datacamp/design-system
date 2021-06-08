@@ -9,10 +9,10 @@ import UserAccountMenuButton from './index';
 
 describe('UserAccountMenuButton', () => {
   it('renders only profile image when menu is closed', async () => {
-    const { getByAltText, queryByRole } = await axeRender(
+    const { getByTestId, queryByRole } = await axeRender(
       <UserAccountMenuButton mainAppUrl="https://datacamp.com" />,
     );
-    const avatar = getByAltText('Profile avatar');
+    const avatar = getByTestId('user-account-menu-avatar');
     const dropdown = queryByRole('menu');
 
     expect(avatar).toBeInTheDocument();
@@ -45,19 +45,13 @@ describe('UserAccountMenuButton', () => {
   });
 
   it('renders fallback profile image, account settings, and logout links, when menu is opened and only main app url is passed', async () => {
-    const {
-      getByAltText,
-      getByRole,
-      getByTestId,
-      getByText,
-      queryByText,
-    } = await axeRender(
+    const { getByRole, getByTestId, getByText, queryByText } = await axeRender(
       <UserAccountMenuButton mainAppUrl="https://datacamp.com" />,
     );
     const button = getByTestId('user-account-menu-button');
     fireEvent.click(button);
     const dropdown = getByRole('menu');
-    const avatar = getByAltText('Profile avatar');
+    const avatar = getByTestId('user-account-menu-avatar');
     const xpIndicator = queryByText(/xp/i);
     const profileLink = queryByText('My Profile');
     const accountSettingsLink = getByText('Account Settings').closest('a');
@@ -85,7 +79,7 @@ describe('UserAccountMenuButton', () => {
   });
 
   it('renders profile image, XP indicator, my profile, account settings, and logout links, when menu is opened and all user props are passed', async () => {
-    const { getByAltText, getByTestId, getByText } = await axeRender(
+    const { getByTestId, getByText } = await axeRender(
       <UserAccountMenuButton
         mainAppUrl="https://datacamp.com"
         userAvatarUrl="taylor-swift-pic.jpg"
@@ -95,7 +89,7 @@ describe('UserAccountMenuButton', () => {
     );
     const button = getByTestId('user-account-menu-button');
     fireEvent.click(button);
-    const avatar = getByAltText('Profile avatar');
+    const avatar = getByTestId('user-account-menu-avatar');
     const xpIndicator = getByText(/2[.,]?000 xp/i);
     const profileLink = getByText('My Profile').closest('a');
     const accountSettingsLink = getByText('Account Settings').closest('a');
@@ -171,10 +165,10 @@ describe('UserAccountMenuButton', () => {
   });
 
   it('renders fallback profile image when it fails to load', async () => {
-    const { getByAltText } = await axeRender(
+    const { getByTestId } = await axeRender(
       <UserAccountMenuButton mainAppUrl="https://datacamp.com" />,
     );
-    const avatar = getByAltText('Profile avatar');
+    const avatar = getByTestId('user-account-menu-avatar');
     fireEvent.error(avatar);
 
     expect(avatar).toHaveAttribute(
