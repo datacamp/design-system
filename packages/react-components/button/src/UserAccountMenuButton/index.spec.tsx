@@ -3,9 +3,11 @@ import '@testing-library/jest-dom/extend-expect';
 
 import axeRender from '@datacamp/waffles-axe-render';
 import { AddCircleIcon } from '@datacamp/waffles-icons';
-import { fireEvent } from '@testing-library/react';
+import { fireEvent, render } from '@testing-library/react';
 
 import UserAccountMenuButton from './index';
+
+jest.mock('./defaultAvatar', () => 'data:image/svg+xml;base64,default-avatar');
 
 describe('UserAccountMenuButton', () => {
   it('renders only profile image when menu is closed', async () => {
@@ -19,8 +21,8 @@ describe('UserAccountMenuButton', () => {
     expect(dropdown).not.toBeInTheDocument();
   });
 
-  it('renders alert dot if appropriate flag is passed', async () => {
-    const { getByTestId } = await axeRender(
+  it('renders alert dot if appropriate flag is passed', () => {
+    const { getByTestId } = render(
       <UserAccountMenuButton mainAppUrl="https://datacamp.com" showAlertDot />,
     );
 
@@ -29,8 +31,8 @@ describe('UserAccountMenuButton', () => {
     expect(alertDot).toBeInTheDocument();
   });
 
-  it('clicking menu button opens dropdown, and clicking it again closes dropdown', async () => {
-    const { getByTestId, queryByRole } = await axeRender(
+  it('clicking menu button opens dropdown, and clicking it again closes dropdown', () => {
+    const { getByTestId, queryByRole } = render(
       <UserAccountMenuButton mainAppUrl="https://datacamp.com" />,
     );
     const button = getByTestId('user-account-menu-button');
@@ -44,8 +46,8 @@ describe('UserAccountMenuButton', () => {
     expect(queryByRole('menu')).not.toBeInTheDocument();
   });
 
-  it('renders fallback profile image, account settings, and logout links, when menu is opened and only main app url is passed', async () => {
-    const { getByRole, getByTestId, getByText, queryByText } = await axeRender(
+  it('renders fallback profile image, account settings, and logout links, when menu is opened and only main app URL is passed', () => {
+    const { getByRole, getByTestId, getByText, queryByText } = render(
       <UserAccountMenuButton mainAppUrl="https://datacamp.com" />,
     );
     const button = getByTestId('user-account-menu-button');
@@ -78,8 +80,8 @@ describe('UserAccountMenuButton', () => {
     );
   });
 
-  it('renders profile image, XP indicator, my profile, account settings, and logout links, when menu is opened and all user props are passed', async () => {
-    const { getByTestId, getByText } = await axeRender(
+  it('renders profile image, XP indicator, my profile, account settings, and logout links, when menu is opened and all user props are passed', () => {
+    const { getByTestId, getByText } = render(
       <UserAccountMenuButton
         mainAppUrl="https://datacamp.com"
         userAvatarUrl="taylor-swift-pic.jpg"
@@ -111,8 +113,8 @@ describe('UserAccountMenuButton', () => {
     expect(logoutLink).toBeInTheDocument();
   });
 
-  it('renders custom menu items passed as children', async () => {
-    const { getByTestId, getByText } = await axeRender(
+  it('renders custom menu items passed as children', () => {
+    const { getByTestId, getByText } = render(
       <UserAccountMenuButton mainAppUrl="https://datacamp.com">
         <UserAccountMenuButton.MenuItem
           href="https://info.com"
@@ -145,7 +147,7 @@ describe('UserAccountMenuButton', () => {
 
   it("when custom menu item is clicked it's onClick handler is called", async () => {
     const handleClick = jest.fn();
-    const { getByTestId, getByText } = await axeRender(
+    const { getByTestId, getByText } = render(
       <UserAccountMenuButton mainAppUrl="https://datacamp.com">
         <UserAccountMenuButton.MenuItem
           icon={AddCircleIcon}
@@ -157,15 +159,15 @@ describe('UserAccountMenuButton', () => {
     );
     const button = getByTestId('user-account-menu-button');
     fireEvent.click(button);
-    const menuItem = getByText('Click Me').closest('a');
+    const menuItem = getByText('Click Me').closest('a') as HTMLElement;
     fireEvent.click(menuItem);
 
     expect(menuItem).toBeInTheDocument();
     expect(handleClick).toHaveBeenCalledTimes(1);
   });
 
-  it('renders fallback profile image when it fails to load', async () => {
-    const { getByTestId } = await axeRender(
+  it('renders fallback profile image when it fails to load', () => {
+    const { getByTestId } = render(
       <UserAccountMenuButton mainAppUrl="https://datacamp.com" />,
     );
     const avatar = getByTestId('user-account-menu-avatar');
@@ -177,8 +179,8 @@ describe('UserAccountMenuButton', () => {
     );
   });
 
-  it('renders total XP correctly when 0 is passed', async () => {
-    const { getByTestId, getByText } = await axeRender(
+  it('renders total XP correctly when 0 is passed', () => {
+    const { getByTestId, getByText } = render(
       <UserAccountMenuButton
         mainAppUrl="https://datacamp.com"
         userTotalXp={0}
@@ -189,5 +191,47 @@ describe('UserAccountMenuButton', () => {
     const xpIndicator = getByText(/0 xp/i);
 
     expect(xpIndicator).toBeInTheDocument();
+  });
+
+  describe('snapshots', () => {
+    it("renders correctyl when only main app URL is passed and it's closed", () => {
+      const { container } = render(
+        <UserAccountMenuButton mainAppUrl="https://datacamp.com" />,
+      );
+
+      expect(container.firstChild).toMatchSnapshot();
+    });
+
+    it("renders correctyl when only main app URL is passed and it's opened", () => {
+      const { container, getByTestId } = render(
+        <UserAccountMenuButton mainAppUrl="https://datacamp.com" />,
+      );
+      const button = getByTestId('user-account-menu-button');
+      fireEvent.click(button);
+
+      expect(container.firstChild).toMatchSnapshot();
+    });
+
+    it("renders correctyl when all optional props are passed and it's opened", () => {
+      const { container, getByTestId } = render(
+        <UserAccountMenuButton
+          mainAppUrl="https://datacamp.com"
+          userAvatarUrl="taylor-swift-pic.jpg"
+          userSlug="taylorswift"
+          userTotalXp={2000}
+        >
+          <UserAccountMenuButton.MenuItem
+            href="https://info.com"
+            icon={AddCircleIcon}
+          >
+            Additional Info
+          </UserAccountMenuButton.MenuItem>
+        </UserAccountMenuButton>,
+      );
+      const button = getByTestId('user-account-menu-button');
+      fireEvent.click(button);
+
+      expect(container.firstChild).toMatchSnapshot();
+    });
   });
 });
