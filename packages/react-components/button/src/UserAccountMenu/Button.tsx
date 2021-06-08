@@ -56,7 +56,6 @@ const Button = forwardRef<HTMLButtonElement, ButtonProps>(
         css={css(
           buttonStyle,
           isFocusVisible && {
-            backgroundColor: tokens.colors.beige200,
             boxShadow: `0 0 0 2px ${tokens.colors.blueDark}`,
           },
         )}

@@ -25,6 +25,7 @@ const itemStyle = css({
   fontWeight: parseInt(tokens.fontWeight.regular, 10),
   height: 42,
   opacity: 0.6,
+  outline: 0,
   paddingLeft: 24,
   paddingRight: 24,
   textDecoration: 'none',
@@ -59,7 +60,6 @@ const MenuItem = forwardRef<HTMLAnchorElement, MenuItemProps>(
           css={css(
             itemStyle,
             isFocusVisible && {
-              backgroundColor: tokens.colors.beige200,
               boxShadow: `inset 0 0 0 2px ${tokens.colors.blueDark}`,
               opacity: 1,
             },
