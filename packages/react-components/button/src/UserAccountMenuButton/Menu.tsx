@@ -44,6 +44,7 @@ function Menu({
         isOpen={isOpen}
         showAlertDot={showAlertDot}
         {...buttonProps}
+        data-testid="user-account-menu-button"
       />
       {isOpen && (
         <Dropdown itemsProps={itemsProps} totalXp={totalXp}>
