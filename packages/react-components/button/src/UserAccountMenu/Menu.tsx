@@ -14,6 +14,7 @@ const wrapperStyle = css({
 type Menu = {
   avatarUrl?: string;
   children: React.ReactNode;
+  dropdownOffset?: number;
   showAlertDot?: boolean;
   totalXp?: number;
 };
@@ -21,6 +22,7 @@ type Menu = {
 function Menu({
   avatarUrl,
   children,
+  dropdownOffset,
   showAlertDot,
   totalXp,
 }: Menu): JSX.Element {
@@ -48,7 +50,11 @@ function Menu({
         data-trackid="ds-snowplow-li-main-menu-my-account"
       />
       {isOpen && (
-        <Dropdown itemsProps={itemsProps} totalXp={totalXp}>
+        <Dropdown
+          itemsProps={itemsProps}
+          offset={dropdownOffset}
+          totalXp={totalXp}
+        >
           {renderValidChildren()}
         </Dropdown>
       )}
