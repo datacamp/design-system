@@ -5,14 +5,14 @@ import axeRender from '@datacamp/waffles-axe-render';
 import { AddCircleIcon } from '@datacamp/waffles-icons';
 import { fireEvent, render } from '@testing-library/react';
 
-import UserAccountMenuButton from './index';
+import UserAccountMenu from './index';
 
 jest.mock('./defaultAvatar', () => 'data:image/svg+xml;base64,default-avatar');
 
-describe('UserAccountMenuButton', () => {
+describe('UserAccountMenu', () => {
   it('renders only profile image when menu is closed', async () => {
     const { getByTestId, queryByRole } = await axeRender(
-      <UserAccountMenuButton mainAppUrl="https://datacamp.com" />,
+      <UserAccountMenu mainAppUrl="https://datacamp.com" />,
     );
     const avatar = getByTestId('user-account-menu-avatar');
     const dropdown = queryByRole('menu');
@@ -23,7 +23,7 @@ describe('UserAccountMenuButton', () => {
 
   it('renders alert dot if appropriate flag is passed', () => {
     const { getByTestId } = render(
-      <UserAccountMenuButton mainAppUrl="https://datacamp.com" showAlertDot />,
+      <UserAccountMenu mainAppUrl="https://datacamp.com" showAlertDot />,
     );
 
     const alertDot = getByTestId('user-account-menu-alert-dot');
@@ -33,7 +33,7 @@ describe('UserAccountMenuButton', () => {
 
   it('clicking menu button opens dropdown, and clicking it again closes dropdown', () => {
     const { getByTestId, queryByRole } = render(
-      <UserAccountMenuButton mainAppUrl="https://datacamp.com" />,
+      <UserAccountMenu mainAppUrl="https://datacamp.com" />,
     );
     const button = getByTestId('user-account-menu-button');
 
@@ -48,7 +48,7 @@ describe('UserAccountMenuButton', () => {
 
   it('renders fallback profile image, account settings, and logout links, when menu is opened and only main app URL is passed', () => {
     const { getByRole, getByTestId, getByText, queryByText } = render(
-      <UserAccountMenuButton mainAppUrl="https://datacamp.com" />,
+      <UserAccountMenu mainAppUrl="https://datacamp.com" />,
     );
     const button = getByTestId('user-account-menu-button');
     fireEvent.click(button);
@@ -82,7 +82,7 @@ describe('UserAccountMenuButton', () => {
 
   it('renders profile image, XP indicator, my profile, account settings, and logout links, when menu is opened and all user props are passed', () => {
     const { getByTestId, getByText } = render(
-      <UserAccountMenuButton
+      <UserAccountMenu
         mainAppUrl="https://datacamp.com"
         userAvatarUrl="taylor-swift-pic.jpg"
         userSlug="taylorswift"
@@ -115,20 +115,17 @@ describe('UserAccountMenuButton', () => {
 
   it('renders custom menu items passed as children', () => {
     const { getByTestId, getByText } = render(
-      <UserAccountMenuButton mainAppUrl="https://datacamp.com">
-        <UserAccountMenuButton.MenuItem
-          href="https://info.com"
-          icon={AddCircleIcon}
-        >
+      <UserAccountMenu mainAppUrl="https://datacamp.com">
+        <UserAccountMenu.MenuItem href="https://info.com" icon={AddCircleIcon}>
           Additional Info
-        </UserAccountMenuButton.MenuItem>
-        <UserAccountMenuButton.MenuItem
+        </UserAccountMenu.MenuItem>
+        <UserAccountMenu.MenuItem
           href="https://help.com/help"
           icon={AddCircleIcon}
         >
           Get Help
-        </UserAccountMenuButton.MenuItem>
-      </UserAccountMenuButton>,
+        </UserAccountMenu.MenuItem>
+      </UserAccountMenu>,
     );
     const button = getByTestId('user-account-menu-button');
     fireEvent.click(button);
@@ -148,14 +145,11 @@ describe('UserAccountMenuButton', () => {
   it("when custom menu item is clicked it's onClick handler is called", async () => {
     const handleClick = jest.fn();
     const { getByTestId, getByText } = render(
-      <UserAccountMenuButton mainAppUrl="https://datacamp.com">
-        <UserAccountMenuButton.MenuItem
-          icon={AddCircleIcon}
-          onClick={handleClick}
-        >
+      <UserAccountMenu mainAppUrl="https://datacamp.com">
+        <UserAccountMenu.MenuItem icon={AddCircleIcon} onClick={handleClick}>
           Click Me
-        </UserAccountMenuButton.MenuItem>
-      </UserAccountMenuButton>,
+        </UserAccountMenu.MenuItem>
+      </UserAccountMenu>,
     );
     const button = getByTestId('user-account-menu-button');
     fireEvent.click(button);
@@ -168,7 +162,7 @@ describe('UserAccountMenuButton', () => {
 
   it('renders fallback profile image when it fails to load', () => {
     const { getByTestId } = render(
-      <UserAccountMenuButton mainAppUrl="https://datacamp.com" />,
+      <UserAccountMenu mainAppUrl="https://datacamp.com" />,
     );
     const avatar = getByTestId('user-account-menu-avatar');
     fireEvent.error(avatar);
@@ -181,10 +175,7 @@ describe('UserAccountMenuButton', () => {
 
   it('renders total XP correctly when 0 is passed', () => {
     const { getByTestId, getByText } = render(
-      <UserAccountMenuButton
-        mainAppUrl="https://datacamp.com"
-        userTotalXp={0}
-      />,
+      <UserAccountMenu mainAppUrl="https://datacamp.com" userTotalXp={0} />,
     );
     const button = getByTestId('user-account-menu-button');
     fireEvent.click(button);
@@ -196,7 +187,7 @@ describe('UserAccountMenuButton', () => {
   describe('snapshots', () => {
     it("renders correctyl when only main app URL is passed and it's closed", () => {
       const { container } = render(
-        <UserAccountMenuButton mainAppUrl="https://datacamp.com" />,
+        <UserAccountMenu mainAppUrl="https://datacamp.com" />,
       );
 
       expect(container.firstChild).toMatchSnapshot();
@@ -204,7 +195,7 @@ describe('UserAccountMenuButton', () => {
 
     it("renders correctyl when only main app URL is passed and it's opened", () => {
       const { container, getByTestId } = render(
-        <UserAccountMenuButton mainAppUrl="https://datacamp.com" />,
+        <UserAccountMenu mainAppUrl="https://datacamp.com" />,
       );
       const button = getByTestId('user-account-menu-button');
       fireEvent.click(button);
@@ -214,19 +205,19 @@ describe('UserAccountMenuButton', () => {
 
     it("renders correctyl when all optional props are passed and it's opened", () => {
       const { container, getByTestId } = render(
-        <UserAccountMenuButton
+        <UserAccountMenu
           mainAppUrl="https://datacamp.com"
           userAvatarUrl="taylor-swift-pic.jpg"
           userSlug="taylorswift"
           userTotalXp={2000}
         >
-          <UserAccountMenuButton.MenuItem
+          <UserAccountMenu.MenuItem
             href="https://info.com"
             icon={AddCircleIcon}
           >
             Additional Info
-          </UserAccountMenuButton.MenuItem>
-        </UserAccountMenuButton>,
+          </UserAccountMenu.MenuItem>
+        </UserAccountMenu>,
       );
       const button = getByTestId('user-account-menu-button');
       fireEvent.click(button);

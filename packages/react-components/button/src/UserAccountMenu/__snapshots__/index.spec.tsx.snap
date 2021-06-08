@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`UserAccountMenuButton snapshots renders correctyl when all optional props are passed and it's opened 1`] = `
+exports[`UserAccountMenu snapshots renders correctyl when all optional props are passed and it's opened 1`] = `
 .emotion-0 {
   -webkit-align-items: center;
   -webkit-box-align: center;
@@ -413,7 +413,7 @@ exports[`UserAccountMenuButton snapshots renders correctyl when all optional pro
 </div>
 `;
 
-exports[`UserAccountMenuButton snapshots renders correctyl when only main app URL is passed and it's closed 1`] = `
+exports[`UserAccountMenu snapshots renders correctyl when only main app URL is passed and it's closed 1`] = `
 .emotion-0 {
   -webkit-align-items: center;
   -webkit-box-align: center;
@@ -538,7 +538,7 @@ exports[`UserAccountMenuButton snapshots renders correctyl when only main app UR
 </div>
 `;
 
-exports[`UserAccountMenuButton snapshots renders correctyl when only main app URL is passed and it's opened 1`] = `
+exports[`UserAccountMenu snapshots renders correctyl when only main app URL is passed and it's opened 1`] = `
 .emotion-0 {
   -webkit-align-items: center;
   -webkit-box-align: center;

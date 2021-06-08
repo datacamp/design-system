@@ -20,7 +20,7 @@ type UserAccountProps = {
   userTotalXp?: number;
 };
 
-function UserAccountMenuButton({
+function UserAccountMenu({
   children,
   mainAppUrl,
   showAlertDot,
@@ -54,6 +54,6 @@ function UserAccountMenuButton({
   );
 }
 
-UserAccountMenuButton.MenuItem = MenuItem;
+UserAccountMenu.MenuItem = MenuItem;
 
-export default UserAccountMenuButton;
+export default UserAccountMenu;

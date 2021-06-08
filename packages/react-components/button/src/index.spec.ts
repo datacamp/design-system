@@ -8,6 +8,7 @@ import {
   LinkedinButton,
   TwitterButton,
 } from './SocialMediaButtons';
+import UserAccountMenu from './UserAccountMenu';
 
 import * as moduleExports from '.';
 
@@ -22,6 +23,7 @@ describe('package index', () => {
       GoogleButton,
       LinkedinButton,
       TwitterButton,
+      UserAccountMenu,
     });
   });
 });
