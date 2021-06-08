@@ -14,6 +14,8 @@ import WithATooltip from '../../examples/button/with-a-tooltip';
 import AsALink from '../../examples/button/as-a-link';
 import SocialMedia from '../../examples/button/social-media';
 import CompactGroup from '../../examples/button/compact-group';
+import BasicUserAccountMenu from '../../examples/button/basic-user-account-menu';
+import CompleteUserAccountMenu from '../../examples/button/complete-user-account-menu';
 
 export default Layout;
 
@@ -33,8 +35,9 @@ Waffles exposes several button and button-related utility components:
 - **CompactButtonGroup** – Enables you to concatenate multiple buttons into one. It can also be nested inside a ButtonGroup.
 - **FacebookButton**, **GoogleButton**, **LinkedinButton**, **TwitterButton** - Custom buttons with the correct colours for the various social media platforms.
 - **CloseButton** – Used internally in other waffles components. Please contact the team directly if you are considering using in your own components.
+- **UserAccountMenu** - The menu displays user avatar and various account management options on a dropdown. Additionally, custom menu items could be added by passing `UserAccountMenu.MenuItem`s as `children`.
 
-Button type can be used to alter how interactions are handled. `ButtonGroup` and `CompactButtonGroup` aggregate multiple buttons as long as they have the same size.
+Button type can be used to alter how interactions are handled. ButtonGroup and CompactButtonGroup aggregate multiple buttons as long as they have the same size.
 
 <Playground {...playgroundConfig} minHeight={120} />
 
@@ -60,6 +63,14 @@ Button type can be used to alter how interactions are handled. `ButtonGroup` and
   <CompactGroup />
 </Example>
 
+<Example title="Basic User Account menu" path="button/basic-user-account-menu" minHeight={120}>
+  <BasicUserAccountMenu />
+</Example>
+
+<Example title="Complete User Account menu" path="button/complete-user-account-menu" minHeight={120}>
+  <CompleteUserAccountMenu />
+</Example>
+
 </Section>
 
 <Section>
@@ -71,6 +82,8 @@ Button type can be used to alter how interactions are handled. `ButtonGroup` and
 <PropsTable component="ButtonGroup" metadata={metadata} />
 
 <PropsTable component="CompactButtonGroup" metadata={metadata} />
+
+<PropsTable component="UserAccountMenu" metadata={metadata} />
 
 </Section>
 
