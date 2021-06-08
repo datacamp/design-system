@@ -44,6 +44,7 @@ function Menu({
         isOpen={isOpen}
         showAlertDot={showAlertDot}
         {...buttonProps}
+        aria-label="My Account"
         data-testid="user-account-menu-button"
       />
       {isOpen && (
