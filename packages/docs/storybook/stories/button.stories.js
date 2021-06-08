@@ -8,6 +8,7 @@ import Button, {
   GoogleButton,
   LinkedinButton,
   TwitterButton,
+  UserAccountMenu,
 } from '@datacamp/waffles-button';
 import { AddCircleIcon, ChevronDownIcon } from '@datacamp/waffles-icons';
 import tokens from '@datacamp/waffles-tokens/lib/future-tokens.json';
@@ -206,4 +207,7 @@ storiesOf('waffles-button', module)
       <GoogleButton />
       <LinkedinButton />
     </ButtonGroup>
+  ))
+  .add('simple UserAccountMenu', () => (
+    <UserAccountMenu mainAppUrl="https://www.datacamp.com" />
   ));
