@@ -17,6 +17,10 @@ type UserAccountMenuProps = {
    */
   children?: React.ReactNode;
   /**
+   * Adjust vertical position of the dropdown. To move dropdown down provide negative value.
+   */
+  dropdownOffset?: number;
+  /**
    * Root URL of all user account management links.
    */
   mainAppUrl: string;
@@ -40,6 +44,7 @@ type UserAccountMenuProps = {
 
 function UserAccountMenu({
   children,
+  dropdownOffset,
   mainAppUrl,
   showAlertDot,
   userAvatarUrl,
@@ -49,6 +54,7 @@ function UserAccountMenu({
   return (
     <Menu
       avatarUrl={userAvatarUrl}
+      dropdownOffset={dropdownOffset}
       showAlertDot={showAlertDot}
       totalXp={userTotalXp}
     >
