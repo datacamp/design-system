@@ -8,7 +8,6 @@ import useMenu from './useMenu';
 const wrapperStyle = css({
   alignItems: 'center',
   display: 'inline-flex',
-  height: '100%',
   position: 'relative',
 });
 
