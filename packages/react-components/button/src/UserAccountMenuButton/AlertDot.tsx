@@ -23,7 +23,13 @@ type AlertDot = {
 };
 
 function AlertDot({ className }: AlertDot): JSX.Element {
-  return <span className={className} css={dotStyle} data-testid="alert-dot" />;
+  return (
+    <span
+      className={className}
+      css={dotStyle}
+      data-testid="user-account-menu-alert-dot"
+    />
+  );
 }
 
 export default AlertDot;
