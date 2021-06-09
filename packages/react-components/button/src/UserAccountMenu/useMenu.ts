@@ -90,11 +90,6 @@ function useMenu(numberOfItems: number): MenuResult {
           return;
         }
 
-        // Ignore if we're clicking inside the menu
-        if (event.target.closest('[role="menu"]') instanceof Element) {
-          return;
-        }
-
         setIsOpen(false);
       }, 10);
     }
