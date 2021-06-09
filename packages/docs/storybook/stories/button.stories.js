@@ -209,5 +209,13 @@ storiesOf('waffles-button', module)
     </ButtonGroup>
   ))
   .add('simple UserAccountMenu', () => (
-    <UserAccountMenu mainAppUrl="https://www.datacamp.com" />
+    <div
+      css={{
+        display: 'flex',
+        justifyContent: 'flex-end',
+        width: 220,
+      }}
+    >
+      <UserAccountMenu mainAppUrl="https://www.datacamp.com" />
+    </div>
   ));
