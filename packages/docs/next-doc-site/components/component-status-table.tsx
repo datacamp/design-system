@@ -55,6 +55,11 @@ function ComponentStatusTable(): JSX.Element {
           path="form-elements"
           variant="available"
         />
+        <ComponentStatus
+          component="User Profile Menu"
+          path="button"
+          variant="available"
+        />
         <ComponentStatus component="Progress Bar" variant="planned" />
         <ComponentStatus component="Avatars" variant="planned" />
         <ComponentStatus component="Navigation" variant="considered" />
