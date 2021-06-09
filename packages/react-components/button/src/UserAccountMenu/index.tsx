@@ -17,7 +17,7 @@ type UserAccountMenuProps = {
    */
   children?: React.ReactNode;
   /**
-   * Adjust vertical position of the dropdown. To move dropdown down provide negative value.
+   * Adjust vertical position of the dropdown. To move dropdown up provide negative value.
    */
   dropdownOffset?: number;
   /**
