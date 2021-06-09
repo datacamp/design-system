@@ -50,9 +50,9 @@ function Dropdown({
     <div
       css={css(dropdownStyle, {
         [FULL_MENU_MEDIA_QUERY]: {
-          top: 38 - offset,
+          top: 38 + offset,
         },
-        top: 44 - offset,
+        top: 44 + offset,
       })}
       role="menu"
     >
