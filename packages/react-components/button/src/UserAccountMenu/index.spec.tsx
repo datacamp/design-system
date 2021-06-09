@@ -3,7 +3,7 @@ import '@testing-library/jest-dom/extend-expect';
 
 import axeRender from '@datacamp/waffles-axe-render';
 import { AddCircleIcon } from '@datacamp/waffles-icons';
-import { fireEvent, render } from '@testing-library/react';
+import { fireEvent, render, waitFor } from '@testing-library/react';
 
 import UserAccountMenu from './index';
 
@@ -44,6 +44,26 @@ describe('UserAccountMenu', () => {
 
     fireEvent.click(button);
     expect(queryByRole('menu')).not.toBeInTheDocument();
+  });
+
+  it('when menu item is clicked dropdown is closed', async () => {
+    const { getByTestId, getByText, queryByRole } = render(
+      <UserAccountMenu mainAppUrl="https://datacamp.com">
+        <UserAccountMenu.MenuItem icon={AddCircleIcon} onClick={jest.fn()}>
+          Click Me
+        </UserAccountMenu.MenuItem>
+      </UserAccountMenu>,
+    );
+    const button = getByTestId('user-account-menu-button');
+    fireEvent.click(button);
+    const menuItem = getByText('Click Me').closest('a') as HTMLElement;
+    fireEvent.click(menuItem);
+    const dropdown = queryByRole('menu');
+
+    // Have to wait, because small delay is added to each event hander
+    await waitFor(() => {
+      expect(dropdown).not.toBeInTheDocument();
+    });
   });
 
   it('renders fallback profile image, account settings, and logout links, when menu is opened and only main app URL is passed', () => {
@@ -142,7 +162,7 @@ describe('UserAccountMenu', () => {
     expect(helpLink).toHaveAttribute('href', 'https://help.com/help');
   });
 
-  it("when custom menu item is clicked it's onClick handler is called", async () => {
+  it("when custom menu item is clicked it's onClick handler is called", () => {
     const handleClick = jest.fn();
     const { getByTestId, getByText } = render(
       <UserAccountMenu mainAppUrl="https://datacamp.com">
@@ -193,7 +213,7 @@ describe('UserAccountMenu', () => {
     const dropdown = getByRole('menu');
 
     expect(dropdown).toBeInTheDocument();
-    expect(dropdown).toHaveStyle(`top: -38px;`);
+    expect(dropdown).toHaveStyle(`top: 126px;`);
   });
 
   describe('snapshots', () => {
