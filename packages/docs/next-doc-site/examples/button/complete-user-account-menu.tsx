@@ -18,6 +18,8 @@ function Example(): JSX.Element {
     >
       <UserAccountMenu
         mainAppUrl="https://www.datacamp.com"
+        menuLogOutTrackId="track-menu-log-out"
+        menuTriggerTrackId="track-menu-trigger"
         userAvatarUrl="/assets/example-profile-pic.jpg"
         userSlug="taylorswift"
         userTotalXp={4200}

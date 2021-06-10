@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`UserAccountMenu snapshots renders correctyl when all optional props are passed and it's opened 1`] = `
+exports[`UserAccountMenu snapshots renders correctly when all optional props are passed and it's opened 1`] = `
 .emotion-0 {
   -webkit-align-items: center;
   -webkit-box-align: center;
@@ -225,7 +225,7 @@ exports[`UserAccountMenu snapshots renders correctyl when all optional props are
     aria-label="My Account"
     class="emotion-1"
     data-testid="user-account-menu-button"
-    data-trackid="ds-snowplow-li-main-menu-my-account"
+    data-trackid="track-menu-trigger"
     role="button"
     tabindex="0"
   >
@@ -282,7 +282,7 @@ exports[`UserAccountMenu snapshots renders correctyl when all optional props are
         >
           <a
             class="emotion-11"
-            data-trackid="ds-snowplow-link-main-menu-my-profile"
+            data-trackid="track-menu-my-profile"
             href="https://datacamp.com/profile/taylorswift"
             role="menuitem"
             tabindex="-1"
@@ -316,7 +316,7 @@ exports[`UserAccountMenu snapshots renders correctyl when all optional props are
         >
           <a
             class="emotion-11"
-            data-trackid="ds-snowplow-link-main-menu-account-settings"
+            data-trackid="track-menu-account-settings"
             href="https://datacamp.com/profile/account_settings"
             role="menuitem"
             tabindex="-1"
@@ -383,7 +383,7 @@ exports[`UserAccountMenu snapshots renders correctyl when all optional props are
         >
           <a
             class="emotion-11"
-            data-trackid="ds-snowplow-header-personal-logout"
+            data-trackid="track-menu-log-out"
             href="https://datacamp.com/users/sign_out"
             role="menuitem"
             tabindex="-1"
@@ -417,7 +417,7 @@ exports[`UserAccountMenu snapshots renders correctyl when all optional props are
 </div>
 `;
 
-exports[`UserAccountMenu snapshots renders correctyl when only main app URL is passed and it's closed 1`] = `
+exports[`UserAccountMenu snapshots renders correctly when only main app URL is passed and it's closed 1`] = `
 .emotion-0 {
   -webkit-align-items: center;
   -webkit-box-align: center;
@@ -507,7 +507,6 @@ exports[`UserAccountMenu snapshots renders correctyl when only main app URL is p
     aria-label="My Account"
     class="emotion-1"
     data-testid="user-account-menu-button"
-    data-trackid="ds-snowplow-li-main-menu-my-account"
     role="button"
     tabindex="0"
   >
@@ -542,7 +541,7 @@ exports[`UserAccountMenu snapshots renders correctyl when only main app URL is p
 </div>
 `;
 
-exports[`UserAccountMenu snapshots renders correctyl when only main app URL is passed and it's opened 1`] = `
+exports[`UserAccountMenu snapshots renders correctly when only main app URL is passed and it's opened 1`] = `
 .emotion-0 {
   -webkit-align-items: center;
   -webkit-box-align: center;
@@ -731,7 +730,6 @@ exports[`UserAccountMenu snapshots renders correctyl when only main app URL is p
     aria-label="My Account"
     class="emotion-1"
     data-testid="user-account-menu-button"
-    data-trackid="ds-snowplow-li-main-menu-my-account"
     role="button"
     tabindex="0"
   >
@@ -779,7 +777,6 @@ exports[`UserAccountMenu snapshots renders correctyl when only main app URL is p
         >
           <a
             class="emotion-9"
-            data-trackid="ds-snowplow-link-main-menu-account-settings"
             href="https://datacamp.com/profile/account_settings"
             role="menuitem"
             tabindex="-1"
@@ -813,7 +810,6 @@ exports[`UserAccountMenu snapshots renders correctyl when only main app URL is p
         >
           <a
             class="emotion-9"
-            data-trackid="ds-snowplow-header-personal-logout"
             href="https://datacamp.com/users/sign_out"
             role="menuitem"
             tabindex="-1"
