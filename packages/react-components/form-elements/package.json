@@ -57,7 +57,7 @@
     "@datacamp/waffles-text": "^5.2.0",
     "@datacamp/waffles-tokens": "^1.1.0",
     "@datacamp/waffles-utils": "^3.2.0",
-    "@react-aria/focus": "3.3.0",
+    "@react-aria/focus": "^3.3.0",
     "airbnb-prop-types": "^2.16.0",
     "prop-types": "^15.7.2"
   },
