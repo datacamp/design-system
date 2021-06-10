@@ -1,7 +1,6 @@
 /* eslint-disable sonarjs/no-duplicate-string */
 import '@testing-library/jest-dom/extend-expect';
 
-import axeRender from '@datacamp/waffles-axe-render';
 import { AddCircleIcon } from '@datacamp/waffles-icons';
 import { fireEvent, render, waitFor } from '@testing-library/react';
 
@@ -10,8 +9,8 @@ import UserAccountMenu from './index';
 jest.mock('./defaultAvatar', () => 'data:image/svg+xml;base64,default-avatar');
 
 describe('UserAccountMenu', () => {
-  it('renders only profile image when menu is closed', async () => {
-    const { getByTestId, queryByRole } = await axeRender(
+  it('renders only profile image when menu is closed', () => {
+    const { getByTestId, queryByRole } = render(
       <UserAccountMenu mainAppUrl="https://datacamp.com" />,
     );
     const avatar = getByTestId('user-account-menu-avatar');
@@ -46,7 +45,7 @@ describe('UserAccountMenu', () => {
     expect(queryByRole('menu')).not.toBeInTheDocument();
   });
 
-  it('when menu item is clicked dropdown is closed', async () => {
+  it('after menu item is clicked dropdown is closed', async () => {
     const { getByTestId, getByText, queryByRole } = render(
       <UserAccountMenu mainAppUrl="https://datacamp.com">
         <UserAccountMenu.MenuItem icon={AddCircleIcon} onClick={jest.fn()}>
@@ -118,6 +117,7 @@ describe('UserAccountMenu', () => {
     const logoutLink = getByText('Log Out').closest('a');
 
     expect(button).toBeInTheDocument();
+    expect(button).not.toHaveAttribute('data-trackid');
     expect(xpIndicator).toBeInTheDocument();
     expect(avatar).toBeInTheDocument();
     expect(avatar).toHaveAttribute(
@@ -125,12 +125,15 @@ describe('UserAccountMenu', () => {
       expect.stringContaining('taylor-swift-pic.jpg'),
     );
     expect(profileLink).toBeInTheDocument();
+    expect(profileLink).not.toHaveAttribute('data-trackid');
     expect(profileLink).toHaveAttribute(
       'href',
       'https://datacamp.com/profile/taylorswift',
     );
     expect(accountSettingsLink).toBeInTheDocument();
+    expect(accountSettingsLink).not.toHaveAttribute('data-trackid');
     expect(logoutLink).toBeInTheDocument();
+    expect(logoutLink).not.toHaveAttribute('data-trackid');
   });
 
   it('renders custom menu items passed as children', () => {
@@ -180,6 +183,35 @@ describe('UserAccountMenu', () => {
     expect(handleClick).toHaveBeenCalledTimes(1);
   });
 
+  it('correct track IDs are assigned to menu items', () => {
+    const { getByTestId, getByText } = render(
+      <UserAccountMenu
+        mainAppUrl="https://datacamp.com"
+        menuAccountSettingsTrackId="track-menu-acccount-settings"
+        menuLogOutTrackId="track-menu-log-out"
+        menuMyProfileTrackId="track-menu-my-profile"
+        menuTriggerTrackId="track-menu-trigger"
+        userSlug="taylorswift"
+      />,
+    );
+    const button = getByTestId('user-account-menu-button');
+    fireEvent.click(button);
+    const profileLink = getByText('My Profile').closest('a');
+    const accountSettingsLink = getByText('Account Settings').closest('a');
+    const logoutLink = getByText('Log Out').closest('a');
+
+    expect(button).toHaveAttribute('data-trackid', 'track-menu-trigger');
+    expect(profileLink).toHaveAttribute(
+      'data-trackid',
+      'track-menu-my-profile',
+    );
+    expect(accountSettingsLink).toHaveAttribute(
+      'data-trackid',
+      'track-menu-acccount-settings',
+    );
+    expect(logoutLink).toHaveAttribute('data-trackid', 'track-menu-log-out');
+  });
+
   it('renders fallback profile image when it fails to load', () => {
     const { getByTestId } = render(
       <UserAccountMenu mainAppUrl="https://datacamp.com" />,
@@ -217,7 +249,7 @@ describe('UserAccountMenu', () => {
   });
 
   describe('snapshots', () => {
-    it("renders correctyl when only main app URL is passed and it's closed", () => {
+    it("renders correctly when only main app URL is passed and it's closed", () => {
       const { container } = render(
         <UserAccountMenu mainAppUrl="https://datacamp.com" />,
       );
@@ -225,7 +257,7 @@ describe('UserAccountMenu', () => {
       expect(container.firstChild).toMatchSnapshot();
     });
 
-    it("renders correctyl when only main app URL is passed and it's opened", () => {
+    it("renders correctly when only main app URL is passed and it's opened", () => {
       const { container, getByTestId } = render(
         <UserAccountMenu mainAppUrl="https://datacamp.com" />,
       );
@@ -235,10 +267,14 @@ describe('UserAccountMenu', () => {
       expect(container.firstChild).toMatchSnapshot();
     });
 
-    it("renders correctyl when all optional props are passed and it's opened", () => {
+    it("renders correctly when all optional props are passed and it's opened", () => {
       const { container, getByTestId } = render(
         <UserAccountMenu
           mainAppUrl="https://datacamp.com"
+          menuAccountSettingsTrackId="track-menu-account-settings"
+          menuLogOutTrackId="track-menu-log-out"
+          menuMyProfileTrackId="track-menu-my-profile"
+          menuTriggerTrackId="track-menu-trigger"
           userAvatarUrl="taylor-swift-pic.jpg"
           userSlug="taylorswift"
           userTotalXp={2000}
