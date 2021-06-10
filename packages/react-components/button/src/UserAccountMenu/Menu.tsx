@@ -17,6 +17,7 @@ type Menu = {
   dropdownOffset?: number;
   showAlertDot?: boolean;
   totalXp?: number;
+  triggerTrackId?: string;
 };
 
 function Menu({
@@ -25,6 +26,7 @@ function Menu({
   dropdownOffset,
   showAlertDot,
   totalXp,
+  triggerTrackId,
 }: Menu): JSX.Element {
   // Number of non-null, non-undefined, and non-false children
   const numberOfItems = Children.toArray(children).length;
@@ -47,7 +49,7 @@ function Menu({
         {...buttonProps}
         aria-label="My Account"
         data-testid="user-account-menu-button"
-        data-trackid="ds-snowplow-li-main-menu-my-account"
+        data-trackid={triggerTrackId}
       />
       {isOpen && (
         <Dropdown

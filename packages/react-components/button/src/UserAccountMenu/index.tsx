@@ -25,6 +25,22 @@ type UserAccountMenuProps = {
    */
   mainAppUrl: string;
   /**
+   * Optional track ID of Account Settings menu item.
+   */
+  menuAccountSettingsTrackId?: string;
+  /**
+   * Optional track ID of Log Out menu item.
+   */
+  menuLogOutTrackId?: string;
+  /**
+   * Optional track ID of My Profile menu item.
+   */
+  menuMyProfileTrackId?: string;
+  /**
+   * Optional track ID of menu trigger (button opening dropdown).
+   */
+  menuTriggerTrackId?: string;
+  /**
    * Display little notifications dot.
    */
   showAlertDot?: boolean;
@@ -46,6 +62,10 @@ function UserAccountMenu({
   children,
   dropdownOffset,
   mainAppUrl,
+  menuAccountSettingsTrackId,
+  menuLogOutTrackId,
+  menuMyProfileTrackId,
+  menuTriggerTrackId,
   showAlertDot,
   userAvatarUrl,
   userSlug,
@@ -57,10 +77,11 @@ function UserAccountMenu({
       dropdownOffset={dropdownOffset}
       showAlertDot={showAlertDot}
       totalXp={userTotalXp}
+      triggerTrackId={menuTriggerTrackId}
     >
       {userSlug && (
         <MenuItem
-          data-trackid="ds-snowplow-link-main-menu-my-profile"
+          data-trackid={menuMyProfileTrackId}
           href={`${mainAppUrl}/profile/${userSlug}`}
           icon={UserIcon}
         >
@@ -68,7 +89,7 @@ function UserAccountMenu({
         </MenuItem>
       )}
       <MenuItem
-        data-trackid="ds-snowplow-link-main-menu-account-settings"
+        data-trackid={menuAccountSettingsTrackId}
         href={`${mainAppUrl}/profile/account_settings`}
         icon={CogIcon}
       >
@@ -77,7 +98,7 @@ function UserAccountMenu({
       {children}
       <MenuItem
         css={logoutStyle}
-        data-trackid="ds-snowplow-header-personal-logout"
+        data-trackid={menuLogOutTrackId}
         href={`${mainAppUrl}/users/sign_out`}
         icon={ExitIcon}
       >
