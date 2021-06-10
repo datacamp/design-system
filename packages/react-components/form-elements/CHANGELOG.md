@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [4.2.1](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/form-elements/compare/@datacamp/waffles-form-elements@4.2.0...@datacamp/waffles-form-elements@4.2.1) (2021-06-10)
+
+
+### Bug Fixes
+
+* extract switch from forwardRef body ([ec9c3cc](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/form-elements/commit/ec9c3cc))
+
+
+
+
+
 # [4.2.0](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/form-elements/compare/@datacamp/waffles-form-elements@4.1.5...@datacamp/waffles-form-elements@4.2.0) (2021-05-28)
 
 

@@ -3,6 +3,28 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.6.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-next-doc-site@0.5.0...@datacamp/waffles-next-doc-site@0.6.0) (2021-06-10)
+
+
+### Bug Fixes
+
+* small docs update ([648a345](https://github.com/datacamp/design-system/commit/648a345))
+* update switch props table ([a09010b](https://github.com/datacamp/design-system/commit/a09010b))
+
+
+### Features
+
+* add docs and examples ([3bfd582](https://github.com/datacamp/design-system/commit/3bfd582))
+* add user profile menu to status table ([d38eeff](https://github.com/datacamp/design-system/commit/d38eeff))
+* short menu item docs ([e637ac2](https://github.com/datacamp/design-system/commit/e637ac2))
+* update docs build script ([b28b619](https://github.com/datacamp/design-system/commit/b28b619))
+* update nextjs config ([2880cb0](https://github.com/datacamp/design-system/commit/2880cb0))
+* update tests and docs ([b14e65c](https://github.com/datacamp/design-system/commit/b14e65c))
+
+
+
+
+
 # [0.5.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-next-doc-site@0.4.0...@datacamp/waffles-next-doc-site@0.5.0) (2021-05-28)
 
 

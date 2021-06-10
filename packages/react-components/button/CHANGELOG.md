@@ -3,6 +3,63 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [7.3.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-button@7.2.0...@datacamp/waffles-button@7.3.0) (2021-06-10)
+
+
+### Bug Fixes
+
+* handle case when click could be performed on unmounted element ([bd6b6cf](https://github.com/datacamp/design-system/commit/bd6b6cf))
+* menu height ([30c4db1](https://github.com/datacamp/design-system/commit/30c4db1))
+
+
+### Features
+
+* add alert dot to button ([8da246f](https://github.com/datacamp/design-system/commit/8da246f))
+* add base64 encoded default profile image ([b465758](https://github.com/datacamp/design-system/commit/b465758))
+* add border box sizing wherever appropriate ([4e50c5a](https://github.com/datacamp/design-system/commit/4e50c5a))
+* add focus style to menu item ([87d5be5](https://github.com/datacamp/design-system/commit/87d5be5))
+* add focus styles to button ([2581212](https://github.com/datacamp/design-system/commit/2581212))
+* add snowplow trackids ([2fb51d6](https://github.com/datacamp/design-system/commit/2fb51d6))
+* add tests and update snapshots ([1aa490b](https://github.com/datacamp/design-system/commit/1aa490b))
+* add unit tests ([9591fb1](https://github.com/datacamp/design-system/commit/9591fb1))
+* add xp indicator and adjust dropdown style ([14d4bd5](https://github.com/datacamp/design-system/commit/14d4bd5))
+* adjust focus styles ([469caab](https://github.com/datacamp/design-system/commit/469caab))
+* adjust how offset works ([775e7c8](https://github.com/datacamp/design-system/commit/775e7c8))
+* allow dropdown vertical position fine tuning ([d14318c](https://github.com/datacamp/design-system/commit/d14318c))
+* basic menu setup ([a2e1935](https://github.com/datacamp/design-system/commit/a2e1935))
+* close dropdown after menu item click ([1eff1b6](https://github.com/datacamp/design-system/commit/1eff1b6))
+* create generic dropdown ([38223d7](https://github.com/datacamp/design-system/commit/38223d7))
+* create simple xp indicator ([d02e832](https://github.com/datacamp/design-system/commit/d02e832))
+* document props ([9b5893b](https://github.com/datacamp/design-system/commit/9b5893b))
+* don't focus first item if menu got opened via click ([6df92c5](https://github.com/datacamp/design-system/commit/6df92c5))
+* export items props ([5afe22f](https://github.com/datacamp/design-system/commit/5afe22f))
+* extract further logic to separate menu component ([eade47a](https://github.com/datacamp/design-system/commit/eade47a))
+* extract media query to const ([115052c](https://github.com/datacamp/design-system/commit/115052c))
+* extract shared types ([4fc383d](https://github.com/datacamp/design-system/commit/4fc383d))
+* filter out nullish children passed to menu ([3315579](https://github.com/datacamp/design-system/commit/3315579))
+* format number of XP points ([49dd4ec](https://github.com/datacamp/design-system/commit/49dd4ec))
+* generate test snapshots ([f240444](https://github.com/datacamp/design-system/commit/f240444))
+* implement avatar with fallback image ([c13273d](https://github.com/datacamp/design-system/commit/c13273d))
+* implement custom hook to handle menu interactions ([1bc9ed7](https://github.com/datacamp/design-system/commit/1bc9ed7))
+* implement dropdown menu item ([5c31a00](https://github.com/datacamp/design-system/commit/5c31a00))
+* implement menu button ([7269b42](https://github.com/datacamp/design-system/commit/7269b42))
+* inject items props from hook to each child ([23cece3](https://github.com/datacamp/design-system/commit/23cece3))
+* pass avatar url ([977e5cb](https://github.com/datacamp/design-system/commit/977e5cb))
+* pass children to user account menu ([3246bcb](https://github.com/datacamp/design-system/commit/3246bcb))
+* pass main app url prop ([5979a95](https://github.com/datacamp/design-system/commit/5979a95))
+* pass optional track IDs ([0dc73e9](https://github.com/datacamp/design-system/commit/0dc73e9))
+* pass total user's XP prop ([204e1f7](https://github.com/datacamp/design-system/commit/204e1f7))
+* pass user slug prop ([983867e](https://github.com/datacamp/design-system/commit/983867e))
+* set some mandatory menu items ([f7cc5c9](https://github.com/datacamp/design-system/commit/f7cc5c9))
+* update accessibility ([93f8cf3](https://github.com/datacamp/design-system/commit/93f8cf3))
+* update dropdown position ([b7672a5](https://github.com/datacamp/design-system/commit/b7672a5))
+* update tests and docs ([b14e65c](https://github.com/datacamp/design-system/commit/b14e65c))
+* update unit tests ([2978f80](https://github.com/datacamp/design-system/commit/2978f80))
+
+
+
+
+
 # [7.2.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-button@7.1.3...@datacamp/waffles-button@7.2.0) (2021-05-28)
 
 

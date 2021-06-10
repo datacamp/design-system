@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [3.3.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-utils@3.2.0...@datacamp/waffles-utils@3.3.0) (2021-06-10)
+
+
+### Features
+
+* add HEX color check ([e40fd03](https://github.com/datacamp/design-system/commit/e40fd03))
+* export utility and update lockfile ([f4371ab](https://github.com/datacamp/design-system/commit/f4371ab))
+* implement utility to calculate HEX color luminance ([c2dd42a](https://github.com/datacamp/design-system/commit/c2dd42a))
+
+
+
+
+
 # [3.2.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-utils@3.1.1...@datacamp/waffles-utils@3.2.0) (2021-05-28)
 
 
