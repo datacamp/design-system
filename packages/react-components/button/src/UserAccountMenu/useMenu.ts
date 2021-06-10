@@ -33,6 +33,7 @@ function isKeyboardEvent(
 function useMenu(numberOfItems: number): MenuResult {
   const [isOpen, setIsOpen] = useState(false);
 
+  const isMounted = useRef<boolean | null>(null);
   const buttonRef = useRef<HTMLButtonElement>(null);
   const currentFocusIndex = useRef<number | null>(null);
 
@@ -51,6 +52,15 @@ function useMenu(numberOfItems: number): MenuResult {
     },
     [itemsRefs],
   );
+
+  // Simple check whether target component is actually mounted
+  useEffect(() => {
+    isMounted.current = true;
+
+    return () => {
+      isMounted.current = false;
+    };
+  }, []);
 
   // If the menu is open focus on the first item
   // But only if it was opened by keyboard event
@@ -90,7 +100,9 @@ function useMenu(numberOfItems: number): MenuResult {
           return;
         }
 
-        setIsOpen(false);
+        if (isMounted.current) {
+          setIsOpen(false);
+        }
       }, 10);
     }
 
