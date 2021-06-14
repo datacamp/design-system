@@ -1,15 +1,27 @@
 /* eslint-disable filenames/match-exported */
 import tokens from '@datacamp/waffles-tokens/lib/future-tokens.json';
 import { css } from '@emotion/react';
-import React, { ReactElement, ReactNode } from 'react';
 
 export const elevationMap = {
-  0: tokens.shadow.border.value,
-  1: `0px 0px 1px 0px rgba(5, 25, 45, 0.3), ${tokens.shadow.sm.value}`,
-  2: `0px 0px 1px 0px rgba(5, 25, 45, 0.3), ${tokens.shadow.md.value}`,
-  3: `0px 0px 1px 0px rgba(5, 25, 45, 0.3), ${tokens.shadow.lg.value}`,
-  4: `0px 0px 1px 0px rgba(5, 25, 45, 0.3), ${tokens.shadow.xl.value}`,
+  0: '0 0 2px 0 rgba(5, 25, 45, 0.25)',
+  1: `0 0 2px 0 rgba(5, 25, 45, 0.25), ${tokens.shadow.sm.value}`,
+  2: `0 0 2px 0 rgba(5, 25, 45, 0.25), ${tokens.shadow.md.value}`,
+  3: `0 0 2px 0 rgba(5, 25, 45, 0.25), ${tokens.shadow.lg.value}`,
+  4: `0 0 2px 0 rgba(5, 25, 45, 0.25), ${tokens.shadow.xl.value}`,
 };
+
+const cardStyle = css({
+  backgroundColor: tokens.color.primary.white.value.hex,
+  borderRadius: tokens.radii.small.value,
+  transition: 'all 600ms cubic-bezier(0.075, 0.82, 0.165, 1)',
+});
+
+const headStoneStyle = css({
+  height: 40,
+  left: 32,
+  position: 'absolute',
+  top: -20,
+});
 
 // same as keyof typeof elevationMap but able to generate proptypes correctly
 type elevationKeys = 0 | 1 | 2 | 3 | 4;
@@ -22,7 +34,7 @@ interface CardProps {
   /**
    * The content of the card.
    */
-  children: ReactNode;
+  children: React.ReactNode;
   /**
    * A css className. This can be used to add custom styling.
    */
@@ -38,12 +50,12 @@ interface CardProps {
    * Note this adds a position and margin-top to the card style in order to
    * position the head stone content correctly.
    */
-  headStone?: ReactNode;
+  headStone?: React.ReactNode;
   hoverElevation?: elevationKeys;
   id?: string;
 }
 
-const Card = ({
+function Card({
   as: Element = 'div',
   children,
   className,
@@ -51,11 +63,12 @@ const Card = ({
   headStone,
   hoverElevation,
   id,
-}: CardProps): ReactElement => {
+}: CardProps): JSX.Element {
   return (
     <Element
       className={className}
       css={css(
+        cardStyle,
         {
           ':hover':
             hoverElevation !== undefined
@@ -64,24 +77,17 @@ const Card = ({
                   transform: `translate(0, -1px)`,
                 }
               : {},
-          backgroundColor: tokens.color.primary.white.value.rgb,
-          borderRadius: tokens.radii.small.value,
           boxShadow: elevationMap[elevation],
-          transition: 'all 0.6s cubic-bezier(0.075, 0.82, 0.165, 1)',
         },
         headStone && { marginTop: 20, position: 'relative' },
       )}
       id={id}
     >
-      {headStone && (
-        <div css={{ height: 40, left: 32, position: 'absolute', top: -20 }}>
-          {headStone}
-        </div>
-      )}
+      {headStone && <div css={headStoneStyle}>{headStone}</div>}
       {children}
     </Element>
   );
-};
+}
 
 Card.propTypes = {
   /**

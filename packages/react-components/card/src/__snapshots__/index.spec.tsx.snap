@@ -2,11 +2,11 @@
 
 exports[`<Card /> headstones renders the content of the headstone in a box above the card 1`] = `
 .emotion-0 {
-  background-color: rgb(255, 255, 255);
+  background-color: #ffffff;
   border-radius: 4px;
-  box-shadow: 0 0 0 1px rgba(5,25,45,0.1);
-  -webkit-transition: all 0.6s cubic-bezier(0.075, 0.82, 0.165, 1);
-  transition: all 0.6s cubic-bezier(0.075, 0.82, 0.165, 1);
+  -webkit-transition: all 600ms cubic-bezier(0.075, 0.82, 0.165, 1);
+  transition: all 600ms cubic-bezier(0.075, 0.82, 0.165, 1);
+  box-shadow: 0 0 2px 0 rgba(5, 25, 45, 0.25);
   margin-top: 20px;
   position: relative;
 }
@@ -34,11 +34,11 @@ exports[`<Card /> headstones renders the content of the headstone in a box above
 
 exports[`<Card /> snapshots renders a card with elevation 0 1`] = `
 .emotion-0 {
-  background-color: rgb(255, 255, 255);
+  background-color: #ffffff;
   border-radius: 4px;
-  box-shadow: 0 0 0 1px rgba(5,25,45,0.1);
-  -webkit-transition: all 0.6s cubic-bezier(0.075, 0.82, 0.165, 1);
-  transition: all 0.6s cubic-bezier(0.075, 0.82, 0.165, 1);
+  -webkit-transition: all 600ms cubic-bezier(0.075, 0.82, 0.165, 1);
+  transition: all 600ms cubic-bezier(0.075, 0.82, 0.165, 1);
+  box-shadow: 0 0 2px 0 rgba(5, 25, 45, 0.25);
 }
 
 <div
@@ -52,11 +52,11 @@ exports[`<Card /> snapshots renders a card with elevation 0 1`] = `
 
 exports[`<Card /> snapshots renders a card with elevation 1 1`] = `
 .emotion-0 {
-  background-color: rgb(255, 255, 255);
+  background-color: #ffffff;
   border-radius: 4px;
-  box-shadow: 0px 0px 1px 0px rgba(5, 25, 45, 0.3),0 1px 4px -1px rgba(5,25,45,0.3);
-  -webkit-transition: all 0.6s cubic-bezier(0.075, 0.82, 0.165, 1);
-  transition: all 0.6s cubic-bezier(0.075, 0.82, 0.165, 1);
+  -webkit-transition: all 600ms cubic-bezier(0.075, 0.82, 0.165, 1);
+  transition: all 600ms cubic-bezier(0.075, 0.82, 0.165, 1);
+  box-shadow: 0 0 2px 0 rgba(5, 25, 45, 0.25),0 1px 4px -1px rgba(5,25,45,0.3);
 }
 
 <div
@@ -70,11 +70,11 @@ exports[`<Card /> snapshots renders a card with elevation 1 1`] = `
 
 exports[`<Card /> snapshots renders a card with elevation 2 1`] = `
 .emotion-0 {
-  background-color: rgb(255, 255, 255);
+  background-color: #ffffff;
   border-radius: 4px;
-  box-shadow: 0px 0px 1px 0px rgba(5, 25, 45, 0.3),0 2px 4px -1px rgba(5,25,45,0.3);
-  -webkit-transition: all 0.6s cubic-bezier(0.075, 0.82, 0.165, 1);
-  transition: all 0.6s cubic-bezier(0.075, 0.82, 0.165, 1);
+  -webkit-transition: all 600ms cubic-bezier(0.075, 0.82, 0.165, 1);
+  transition: all 600ms cubic-bezier(0.075, 0.82, 0.165, 1);
+  box-shadow: 0 0 2px 0 rgba(5, 25, 45, 0.25),0 2px 4px -1px rgba(5,25,45,0.3);
 }
 
 <div
@@ -88,11 +88,11 @@ exports[`<Card /> snapshots renders a card with elevation 2 1`] = `
 
 exports[`<Card /> snapshots renders a card with elevation 3 1`] = `
 .emotion-0 {
-  background-color: rgb(255, 255, 255);
+  background-color: #ffffff;
   border-radius: 4px;
-  box-shadow: 0px 0px 1px 0px rgba(5, 25, 45, 0.3),0 3px 5px -1px rgba(5,25,45,0.3);
-  -webkit-transition: all 0.6s cubic-bezier(0.075, 0.82, 0.165, 1);
-  transition: all 0.6s cubic-bezier(0.075, 0.82, 0.165, 1);
+  -webkit-transition: all 600ms cubic-bezier(0.075, 0.82, 0.165, 1);
+  transition: all 600ms cubic-bezier(0.075, 0.82, 0.165, 1);
+  box-shadow: 0 0 2px 0 rgba(5, 25, 45, 0.25),0 3px 5px -1px rgba(5,25,45,0.3);
 }
 
 <div
@@ -106,11 +106,11 @@ exports[`<Card /> snapshots renders a card with elevation 3 1`] = `
 
 exports[`<Card /> snapshots renders a card with elevation 4 1`] = `
 .emotion-0 {
-  background-color: rgb(255, 255, 255);
+  background-color: #ffffff;
   border-radius: 4px;
-  box-shadow: 0px 0px 1px 0px rgba(5, 25, 45, 0.3),0 8px 12px -4px rgba(5,25,45,0.3);
-  -webkit-transition: all 0.6s cubic-bezier(0.075, 0.82, 0.165, 1);
-  transition: all 0.6s cubic-bezier(0.075, 0.82, 0.165, 1);
+  -webkit-transition: all 600ms cubic-bezier(0.075, 0.82, 0.165, 1);
+  transition: all 600ms cubic-bezier(0.075, 0.82, 0.165, 1);
+  box-shadow: 0 0 2px 0 rgba(5, 25, 45, 0.25),0 8px 12px -4px rgba(5,25,45,0.3);
 }
 
 <div
@@ -124,15 +124,15 @@ exports[`<Card /> snapshots renders a card with elevation 4 1`] = `
 
 exports[`<Card /> snapshots renders a card with hoverElevation 1 1`] = `
 .emotion-0 {
-  background-color: rgb(255, 255, 255);
+  background-color: #ffffff;
   border-radius: 4px;
-  box-shadow: 0 0 0 1px rgba(5,25,45,0.1);
-  -webkit-transition: all 0.6s cubic-bezier(0.075, 0.82, 0.165, 1);
-  transition: all 0.6s cubic-bezier(0.075, 0.82, 0.165, 1);
+  -webkit-transition: all 600ms cubic-bezier(0.075, 0.82, 0.165, 1);
+  transition: all 600ms cubic-bezier(0.075, 0.82, 0.165, 1);
+  box-shadow: 0 0 2px 0 rgba(5, 25, 45, 0.25);
 }
 
 .emotion-0:hover {
-  box-shadow: 0px 0px 1px 0px rgba(5, 25, 45, 0.3),0 1px 4px -1px rgba(5,25,45,0.3);
+  box-shadow: 0 0 2px 0 rgba(5, 25, 45, 0.25),0 1px 4px -1px rgba(5,25,45,0.3);
   -webkit-transform: translate(0, -1px);
   -moz-transform: translate(0, -1px);
   -ms-transform: translate(0, -1px);
@@ -150,15 +150,15 @@ exports[`<Card /> snapshots renders a card with hoverElevation 1 1`] = `
 
 exports[`<Card /> snapshots renders a card with hoverElevation 2 1`] = `
 .emotion-0 {
-  background-color: rgb(255, 255, 255);
+  background-color: #ffffff;
   border-radius: 4px;
-  box-shadow: 0 0 0 1px rgba(5,25,45,0.1);
-  -webkit-transition: all 0.6s cubic-bezier(0.075, 0.82, 0.165, 1);
-  transition: all 0.6s cubic-bezier(0.075, 0.82, 0.165, 1);
+  -webkit-transition: all 600ms cubic-bezier(0.075, 0.82, 0.165, 1);
+  transition: all 600ms cubic-bezier(0.075, 0.82, 0.165, 1);
+  box-shadow: 0 0 2px 0 rgba(5, 25, 45, 0.25);
 }
 
 .emotion-0:hover {
-  box-shadow: 0px 0px 1px 0px rgba(5, 25, 45, 0.3),0 2px 4px -1px rgba(5,25,45,0.3);
+  box-shadow: 0 0 2px 0 rgba(5, 25, 45, 0.25),0 2px 4px -1px rgba(5,25,45,0.3);
   -webkit-transform: translate(0, -1px);
   -moz-transform: translate(0, -1px);
   -ms-transform: translate(0, -1px);
@@ -176,15 +176,15 @@ exports[`<Card /> snapshots renders a card with hoverElevation 2 1`] = `
 
 exports[`<Card /> snapshots renders a card with hoverElevation 3 1`] = `
 .emotion-0 {
-  background-color: rgb(255, 255, 255);
+  background-color: #ffffff;
   border-radius: 4px;
-  box-shadow: 0 0 0 1px rgba(5,25,45,0.1);
-  -webkit-transition: all 0.6s cubic-bezier(0.075, 0.82, 0.165, 1);
-  transition: all 0.6s cubic-bezier(0.075, 0.82, 0.165, 1);
+  -webkit-transition: all 600ms cubic-bezier(0.075, 0.82, 0.165, 1);
+  transition: all 600ms cubic-bezier(0.075, 0.82, 0.165, 1);
+  box-shadow: 0 0 2px 0 rgba(5, 25, 45, 0.25);
 }
 
 .emotion-0:hover {
-  box-shadow: 0px 0px 1px 0px rgba(5, 25, 45, 0.3),0 3px 5px -1px rgba(5,25,45,0.3);
+  box-shadow: 0 0 2px 0 rgba(5, 25, 45, 0.25),0 3px 5px -1px rgba(5,25,45,0.3);
   -webkit-transform: translate(0, -1px);
   -moz-transform: translate(0, -1px);
   -ms-transform: translate(0, -1px);
@@ -202,15 +202,15 @@ exports[`<Card /> snapshots renders a card with hoverElevation 3 1`] = `
 
 exports[`<Card /> snapshots renders a card with hoverElevation 4 1`] = `
 .emotion-0 {
-  background-color: rgb(255, 255, 255);
+  background-color: #ffffff;
   border-radius: 4px;
-  box-shadow: 0 0 0 1px rgba(5,25,45,0.1);
-  -webkit-transition: all 0.6s cubic-bezier(0.075, 0.82, 0.165, 1);
-  transition: all 0.6s cubic-bezier(0.075, 0.82, 0.165, 1);
+  -webkit-transition: all 600ms cubic-bezier(0.075, 0.82, 0.165, 1);
+  transition: all 600ms cubic-bezier(0.075, 0.82, 0.165, 1);
+  box-shadow: 0 0 2px 0 rgba(5, 25, 45, 0.25);
 }
 
 .emotion-0:hover {
-  box-shadow: 0px 0px 1px 0px rgba(5, 25, 45, 0.3),0 8px 12px -4px rgba(5,25,45,0.3);
+  box-shadow: 0 0 2px 0 rgba(5, 25, 45, 0.25),0 8px 12px -4px rgba(5,25,45,0.3);
   -webkit-transform: translate(0, -1px);
   -moz-transform: translate(0, -1px);
   -ms-transform: translate(0, -1px);
