@@ -181,6 +181,7 @@ exports[`UserAccountMenu snapshots renders correctly when all optional props are
   outline: 0;
   padding-left: 24px;
   padding-right: 24px;
+  position: relative;
   -webkit-text-decoration: none;
   text-decoration: none;
   -webkit-user-select: none;
@@ -686,6 +687,7 @@ exports[`UserAccountMenu snapshots renders correctly when only main app URL is p
   outline: 0;
   padding-left: 24px;
   padding-right: 24px;
+  position: relative;
   -webkit-text-decoration: none;
   text-decoration: none;
   -webkit-user-select: none;
