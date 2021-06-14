@@ -38,6 +38,7 @@ function Example(): JSX.Element {
         <UserAccountMenu.MenuItem
           icon={InfoCircleIcon}
           onClick={() => alert("It's so exciting!")}
+          showAlertDot
         >
           Additional Info
         </UserAccountMenu.MenuItem>
