@@ -66,7 +66,7 @@ describe('<Card />', () => {
       );
 
       expect(container.firstChild).toHaveStyle(
-        `box-shadow: ${shadow.border.value};`,
+        `box-shadow: 0 0 2px 0 rgba(5, 25, 45, 0.25);`,
       );
     });
 
@@ -78,7 +78,7 @@ describe('<Card />', () => {
       );
 
       expect(container.firstChild).toHaveStyle(
-        `box-shadow: ${shadow.border.value};`,
+        `box-shadow: 0 0 2px 0 rgba(5, 25, 45, 0.25);`,
       );
     });
 
@@ -90,7 +90,7 @@ describe('<Card />', () => {
       );
 
       expect(container.firstChild).toHaveStyle(
-        `box-shadow: 0px 0px 1px 0px rgba(5, 25, 45, 0.3),${shadow.sm.value};`,
+        `box-shadow: 0 0 2px 0 rgba(5, 25, 45, 0.25),${shadow.sm.value};`,
       );
     });
 
@@ -102,7 +102,7 @@ describe('<Card />', () => {
       );
 
       expect(container.firstChild).toHaveStyle(
-        `box-shadow: 0px 0px 1px 0px rgba(5, 25, 45, 0.3),${shadow.md.value};`,
+        `box-shadow: 0 0 2px 0 rgba(5, 25, 45, 0.25),${shadow.md.value};`,
       );
     });
 
@@ -114,7 +114,7 @@ describe('<Card />', () => {
       );
 
       expect(container.firstChild).toHaveStyle(
-        `box-shadow: 0px 0px 1px 0px rgba(5, 25, 45, 0.3),${shadow.lg.value};`,
+        `box-shadow: 0 0 2px 0 rgba(5, 25, 45, 0.25),${shadow.lg.value};`,
       );
     });
 
@@ -126,7 +126,7 @@ describe('<Card />', () => {
       );
 
       expect(container.firstChild).toHaveStyle(
-        `box-shadow: 0px 0px 1px 0px rgba(5, 25, 45, 0.3),${shadow.xl.value};`,
+        `box-shadow: 0 0 2px 0 rgba(5, 25, 45, 0.25),${shadow.xl.value};`,
       );
     });
   });
