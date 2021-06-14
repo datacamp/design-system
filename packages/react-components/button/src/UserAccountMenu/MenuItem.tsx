@@ -3,6 +3,8 @@ import { css } from '@emotion/react';
 import { useFocusRing } from '@react-aria/focus';
 import { forwardRef } from 'react';
 
+import AlertDot from './AlertDot';
+
 const wrapperStyle = css({
   alignItems: 'center',
   display: 'flex',
@@ -28,6 +30,7 @@ const itemStyle = css({
   outline: 0,
   paddingLeft: 24,
   paddingRight: 24,
+  position: 'relative',
   textDecoration: 'none',
   userSelect: 'none',
   whiteSpace: 'nowrap',
@@ -39,6 +42,11 @@ const contentStyle = css({
   paddingLeft: 8,
 });
 
+const alertDotStyle = css({
+  left: 40,
+  top: 6,
+});
+
 type IconProps = {
   'aria-hidden'?: boolean;
   color?: string;
@@ -48,10 +56,14 @@ type IconProps = {
 type MenuItemProps = {
   children: React.ReactNode;
   icon: React.ComponentType<IconProps>;
+  showAlertDot?: boolean;
 } & React.AnchorHTMLAttributes<HTMLAnchorElement>;
 
 const MenuItem = forwardRef<HTMLAnchorElement, MenuItemProps>(
-  ({ children, className, icon: Icon, ...restProps }, ref) => {
+  (
+    { children, className, icon: Icon, showAlertDot = false, ...restProps },
+    ref,
+  ) => {
     const { focusProps, isFocusVisible } = useFocusRing();
 
     return (
@@ -68,6 +80,7 @@ const MenuItem = forwardRef<HTMLAnchorElement, MenuItemProps>(
           {...restProps}
           {...focusProps}
         >
+          {showAlertDot && <AlertDot css={alertDotStyle} />}
           <Icon aria-hidden={true} color="currentColor" size={18} />
           <span css={contentStyle}>{children}</span>
         </a>

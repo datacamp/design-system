@@ -41,6 +41,14 @@ const chevronStyle = css({
   },
 });
 
+const alertDotStyle = css({
+  [FULL_MENU_MEDIA_QUERY]: {
+    display: 'none',
+  },
+  right: 0,
+  top: 0,
+});
+
 type ButtonProps = {
   avatarUrl?: string;
   isOpen: boolean;
@@ -69,7 +77,7 @@ const Button = forwardRef<HTMLButtonElement, ButtonProps>(
         ) : (
           <ChevronDownIcon aria-hidden={true} css={chevronStyle} />
         )}
-        {showAlertDot && <AlertDot />}
+        {showAlertDot && <AlertDot css={alertDotStyle} />}
       </button>
     );
   },
