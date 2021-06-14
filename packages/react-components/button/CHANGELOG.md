@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [7.4.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-button@7.3.0...@datacamp/waffles-button@7.4.0) (2021-06-14)
+
+
+### Features
+
+* add alert dot to menu item ([e448800](https://github.com/datacamp/design-system/commit/e448800))
+* update alert dot style ([0268f74](https://github.com/datacamp/design-system/commit/0268f74))
+* update tests and snapshots ([601ab06](https://github.com/datacamp/design-system/commit/601ab06))
+
+
+
+
+
 # [7.3.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-button@7.2.0...@datacamp/waffles-button@7.3.0) (2021-06-10)
 
 

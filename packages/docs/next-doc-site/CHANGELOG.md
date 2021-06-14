@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.7.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-next-doc-site@0.6.0...@datacamp/waffles-next-doc-site@0.7.0) (2021-06-14)
+
+
+### Features
+
+* update docs ([ec72b58](https://github.com/datacamp/design-system/commit/ec72b58))
+* update example ([a7f2ffb](https://github.com/datacamp/design-system/commit/a7f2ffb))
+
+
+
+
+
 # [0.6.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-next-doc-site@0.5.0...@datacamp/waffles-next-doc-site@0.6.0) (2021-06-10)
 
 

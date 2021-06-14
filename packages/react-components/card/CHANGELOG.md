@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [5.1.1](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/card/compare/@datacamp/waffles-card@5.1.0...@datacamp/waffles-card@5.1.1) (2021-06-14)
+
+
+### Bug Fixes
+
+* adjust elevation map to remove janky animation ([4fdebea](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/card/commit/4fdebea))
+
+
+
+
+
 # [5.1.0](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/card/compare/@datacamp/waffles-card@5.0.3...@datacamp/waffles-card@5.1.0) (2021-05-28)
 
 
