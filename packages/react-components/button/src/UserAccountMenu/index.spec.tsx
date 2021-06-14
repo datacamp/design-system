@@ -2,7 +2,7 @@
 import '@testing-library/jest-dom/extend-expect';
 
 import { AddCircleIcon } from '@datacamp/waffles-icons';
-import { fireEvent, render, waitFor } from '@testing-library/react';
+import { fireEvent, render, waitFor, within } from '@testing-library/react';
 
 import UserAccountMenu from './index';
 
@@ -145,6 +145,7 @@ describe('UserAccountMenu', () => {
         <UserAccountMenu.MenuItem
           href="https://help.com/help"
           icon={AddCircleIcon}
+          showAlertDot
         >
           Get Help
         </UserAccountMenu.MenuItem>
@@ -156,6 +157,10 @@ describe('UserAccountMenu', () => {
     const logoutLink = getByText('Log Out').closest('a');
     const infoLink = getByText('Additional Info').closest('a');
     const helpLink = getByText('Get Help').closest('a');
+    let alertDot;
+    if (helpLink) {
+      alertDot = within(helpLink).getByTestId('user-account-menu-alert-dot');
+    }
 
     expect(accountSettingsLink).toBeInTheDocument();
     expect(logoutLink).toBeInTheDocument();
@@ -163,6 +168,7 @@ describe('UserAccountMenu', () => {
     expect(infoLink).toHaveAttribute('href', 'https://info.com');
     expect(helpLink).toBeInTheDocument();
     expect(helpLink).toHaveAttribute('href', 'https://help.com/help');
+    expect(alertDot).toBeInTheDocument();
   });
 
   it("when custom menu item is clicked it's onClick handler is called", () => {
