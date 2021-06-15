@@ -10,7 +10,7 @@ import Highlight from './highlight';
 import Markdown from './markdown-elements';
 
 const sectionStyle = css`
-  margin-top: 16px;
+  margin-top: 24px;
 `;
 
 const wrapperStyle = css`
