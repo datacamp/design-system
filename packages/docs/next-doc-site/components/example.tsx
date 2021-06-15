@@ -92,7 +92,7 @@ function Example({
               : tokens.border.radius};
           `}
           disabled={!code}
-          icon={<CodeIcon color={tokens.colors.white} />}
+          icon={<CodeIcon color="currentColor" />}
           onClick={toggleCodePreviewVisibility}
         >
           {isCodePreviewVisible ? 'Hide' : 'Show'} Code

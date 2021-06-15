@@ -1,8 +1,6 @@
 import tokens from '@datacamp/waffles-tokens';
 import { css, Interpolation } from '@emotion/react';
 
-import { A11Y_COLOR } from './constants';
-
 const buttonStyle = css`
   border: 0;
   margin: 0;
@@ -17,9 +15,11 @@ const buttonStyle = css`
   font-size: ${tokens.fontSize.h6};
   border-radius: ${tokens.border.radius};
   cursor: pointer;
+  user-select: none;
 
   &:focus-visible {
-    background-color: ${A11Y_COLOR};
+    color: ${tokens.colors.navyText};
+    background-color: ${tokens.colors.blue};
   }
 `;
 
