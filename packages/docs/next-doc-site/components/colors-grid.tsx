@@ -17,6 +17,11 @@ const wrapperStyle = css`
   border-radius: ${tokens.border.radius};
   overflow: hidden;
   margin-top: 8px;
+  margin-bottom: 24px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
 `;
 
 const itemStyle = css`
