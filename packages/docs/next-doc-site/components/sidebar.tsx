@@ -2,8 +2,9 @@ import { Small } from '@datacamp/waffles-text';
 import tokens from '@datacamp/waffles-tokens';
 import { css } from '@emotion/react';
 import Link from 'next/link';
+import { transparentize } from 'polished';
 
-import { A11Y_COLOR, PAGE_HEADER_HEIGHT, SIDEBAR_WIDTH } from './constants';
+import { PAGE_HEADER_HEIGHT, SIDEBAR_WIDTH } from './constants';
 import Logo from './logo';
 import Navigation from './navigation';
 
@@ -37,8 +38,12 @@ const linkStyle = css`
   outline: 0;
   border-radius: ${tokens.border.radius};
 
+  &:hover {
+    background-color: ${transparentize(0.95, tokens.colors.white)};
+  }
+
   &:focus-visible {
-    background-color: ${A11Y_COLOR};
+    box-shadow: 0 0 0 2px ${tokens.colors.blueDark};
   }
 `;
 
