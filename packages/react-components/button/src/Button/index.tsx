@@ -93,13 +93,17 @@ interface BaseButtonProps {
 
 interface LinkButtonProps {
   href?: string;
-  onClick?: () => void;
+  onClick?: (
+    event?: React.MouseEvent<HTMLButtonElement | HTMLAnchorElement>,
+  ) => void;
   target?: '_blank' | undefined;
   type: 'link';
 }
 
 interface ButtonButtonProps {
-  onClick: () => void;
+  onClick: (
+    event?: React.MouseEvent<HTMLButtonElement | HTMLAnchorElement>,
+  ) => void;
   type?: 'button' | undefined;
 }
 
@@ -229,11 +233,11 @@ const InternalButton = (
           onClick:
             disabled || loading
               ? (
-                  e: React.MouseEvent<
+                  event: React.MouseEvent<
                     HTMLAnchorElement | HTMLButtonElement,
                     MouseEvent
                   >,
-                ) => e.preventDefault()
+                ) => event.preventDefault()
               : props.onClick,
           target: props.target,
         } as const;
