@@ -6,6 +6,11 @@ const wrapperStyle = css`
   border-radius: ${tokens.border.radius};
   margin-top: 8px;
   overflow-x: scroll;
+  margin-bottom: 24px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
 `;
 
 const tableStyle = css`
