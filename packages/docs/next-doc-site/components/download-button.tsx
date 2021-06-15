@@ -2,8 +2,6 @@ import { DownloadIcon } from '@datacamp/waffles-icons';
 import tokens from '@datacamp/waffles-tokens';
 import { css } from '@emotion/react';
 
-import { A11Y_COLOR } from './constants';
-
 const buttonStyle = css`
   display: inline-flex;
   padding: 0 18px 0 16px;
@@ -27,7 +25,8 @@ const buttonStyle = css`
   }
 
   &:focus-visible {
-    background-color: ${A11Y_COLOR};
+    box-shadow: 0 0 0 2px ${tokens.colors.white},
+      0 0 0 5px ${tokens.colors.blueDark};
   }
 `;
 
