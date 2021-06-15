@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [7.5.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-button@7.4.0...@datacamp/waffles-button@7.5.0) (2021-06-15)
+
+
+### Features
+
+* optional event in onClick handler ([1f947b4](https://github.com/datacamp/design-system/commit/1f947b4))
+
+
+
+
+
 # [7.4.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-button@7.3.0...@datacamp/waffles-button@7.4.0) (2021-06-14)
 
 

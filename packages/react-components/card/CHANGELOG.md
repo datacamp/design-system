@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [5.2.0](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/card/compare/@datacamp/waffles-card@5.1.1...@datacamp/waffles-card@5.2.0) (2021-06-15)
+
+
+### Features
+
+* add unit test ([df6387f](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/card/commit/df6387f))
+* optional onClick handler ([f29e1bf](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/card/commit/f29e1bf))
+
+
+
+
+
 ## [5.1.1](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/card/compare/@datacamp/waffles-card@5.1.0...@datacamp/waffles-card@5.1.1) (2021-06-14)
 
 
