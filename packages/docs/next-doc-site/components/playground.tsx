@@ -92,7 +92,7 @@ function Playground({
         />
         <Button
           css={buttonStyle}
-          icon={<BackIcon color={tokens.colors.white} />}
+          icon={<BackIcon color="currentColor" />}
           onClick={reset}
         >
           Reset
