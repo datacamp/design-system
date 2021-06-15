@@ -5,10 +5,10 @@ import Markdown from './markdown-elements';
 import Preview from './preview';
 
 const wrapperStyle = css`
-  margin-top: 16px;
+  margin-top: 24px;
 
   &:not(:first-of-type) {
-    margin-top: 24px;
+    margin-top: 32px;
   }
 `;
 
@@ -36,7 +36,15 @@ function LogoPreview({
   title,
 }: LogoPreviewProps): JSX.Element {
   return (
-    <section css={wrapperStyle}>
+    <section
+      css={css`
+        ${wrapperStyle}
+        ${!title &&
+        css`
+          margin-top: 0;
+        `};
+      `}
+    >
       {title && <Markdown.h3>{title}</Markdown.h3>}
       <Preview css={prevewStyle} isInverted={isInverted}>
         <img alt={`DataCamp Logo - ${title}`} src={`/logo/${fileName}.svg`} />
