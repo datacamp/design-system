@@ -23272,10 +23272,10 @@ svg4everybody@^2.1.9:
   resolved "https://registry.yarnpkg.com/svg4everybody/-/svg4everybody-2.1.9.tgz#5bd9f6defc133859a044646d4743fabc28db7e2d"
   integrity sha1-W9n23vwTOFmgRGRtR0P6vCjbfi0=
 
-svglint@1.0.6:
-  version "1.0.6"
-  resolved "https://registry.yarnpkg.com/svglint/-/svglint-1.0.6.tgz#c7cee7a397340a1f87422b6a5d80f1d023b861b2"
-  integrity sha512-Pn7NpMaPukXnpa9lgQNHie0La166grFuavsVMCd5Z9dTXTQo9NSIYvReA/2oKzYezvncCttrI+qK9aI9Yopj1w==
+svglint@1.0.7:
+  version "1.0.7"
+  resolved "https://registry.yarnpkg.com/svglint/-/svglint-1.0.7.tgz#8c198a996595091f28085248d8e6e562202910a0"
+  integrity sha512-6oURmKnKPY1JP3ohCCj6g6fpuuoK4jivdI0wFbQ6hNx7UTyMzkHu5xzjav81YOxGY3O9Jpa8DGu+53hbXClIVg==
   dependencies:
     ansi-regex "^3.0.0"
     chalk "^2.4.1"
