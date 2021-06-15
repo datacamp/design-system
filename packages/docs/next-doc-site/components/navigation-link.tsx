@@ -1,8 +1,7 @@
 import tokens from '@datacamp/waffles-tokens';
 import { css } from '@emotion/react';
 import Link from 'next/link';
-
-import { A11Y_COLOR } from './constants';
+import { transparentize } from 'polished';
 
 const linkStyle = css`
   display: block;
@@ -17,8 +16,12 @@ const linkStyle = css`
   line-height: 1.5;
   user-select: none;
 
+  &:hover {
+    background-color: ${transparentize(0.95, tokens.colors.white)};
+  }
+
   &:focus-visible {
-    background-color: ${A11Y_COLOR};
+    box-shadow: inset 0 0 0 2px ${tokens.colors.blueDark};
   }
 `;
 

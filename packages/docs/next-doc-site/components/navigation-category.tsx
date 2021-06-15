@@ -1,7 +1,7 @@
 import tokens from '@datacamp/waffles-tokens';
 import { css } from '@emotion/react';
 import { useRouter } from 'next/router';
-import { Children, cloneElement, isValidElement, ReactElement } from 'react';
+import { Children, cloneElement, isValidElement } from 'react';
 
 import categoryFromPath from '../helpers/category-from-path';
 
@@ -26,7 +26,7 @@ type CategoryProps = {
 function NavigationCategory({ children, label }: CategoryProps): JSX.Element {
   // Take active path from first child passed to the component
   const { pathname } = useRouter();
-  const firstChild = Children.toArray(children)[0] as ReactElement;
+  const firstChild = Children.toArray(children)[0] as React.ReactElement;
   const { href } = firstChild.props;
   const isActive = categoryFromPath(pathname) === categoryFromPath(href);
 
