@@ -53,6 +53,10 @@ interface CardProps {
   headStone?: React.ReactNode;
   hoverElevation?: elevationKeys;
   id?: string;
+  /**
+   * The optional callback fired when the card is clicked.
+   */
+  onClick?: (event?: React.MouseEvent<HTMLElement>) => void;
 }
 
 function Card({
@@ -63,6 +67,7 @@ function Card({
   headStone,
   hoverElevation,
   id,
+  onClick,
 }: CardProps): JSX.Element {
   return (
     <Element
@@ -82,6 +87,7 @@ function Card({
         headStone && { marginTop: 20, position: 'relative' },
       )}
       id={id}
+      onClick={onClick}
     >
       {headStone && <div css={headStoneStyle}>{headStone}</div>}
       {children}
