@@ -2,7 +2,7 @@ import '@testing-library/jest-dom/extend-expect';
 
 import axeRender from '@datacamp/waffles-axe-render';
 import { shadow } from '@datacamp/waffles-tokens/lib/future-tokens.json';
-import * as React from 'react';
+import { fireEvent } from '@testing-library/react';
 
 import Card, { elevationMap } from '.';
 
@@ -54,6 +54,21 @@ describe('<Card />', () => {
       );
 
       expect(container.firstChild).toHaveClass(testClass);
+    });
+  });
+
+  describe('event handler', () => {
+    it('onClick is called when a card is clicked', async () => {
+      const handleOnClick = jest.fn();
+      const { container } = await axeRender(
+        <Card onClick={handleOnClick}>
+          <p>{testText}</p>
+        </Card>,
+      );
+
+      fireEvent.click(container.firstChild);
+
+      expect(handleOnClick).toHaveBeenCalledTimes(1);
     });
   });
 
