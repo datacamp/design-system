@@ -12,9 +12,9 @@ const computeDataAttributes = (
     return {};
   }
 
-  return Object.entries(dataAttributes).reduce<DataAttributes>(
-    (updatedEntries, entry) => {
-      const [key, value] = entry;
+  return Object.keys(dataAttributes).reduce<DataAttributes>(
+    (updatedEntries, key) => {
+      const value = dataAttributes[key];
       return {
         ...updatedEntries,
         [`data-${key}`]: value,
