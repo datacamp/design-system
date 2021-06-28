@@ -29,16 +29,15 @@ const primaryHoverColors: IntentMap = {
   warning: tokens.color.primary.orangeLight.value.hex,
 };
 
-const outlineHoverColors: IntentMap = Object.entries(baseColors).reduce(
-  (hoverColors, baseColor) => {
-    const [intent, value] = baseColor;
-    return {
-      ...hoverColors,
-      [intent]: hexToRgbaColor(value, 0.15),
-    };
-  },
-  {} as IntentMap,
-);
+const outlineHoverColors = (Object.keys(baseColors) as Array<
+  keyof typeof baseColors
+>).reduce((hoverColors, intent) => {
+  const value = baseColors[intent];
+  return {
+    ...hoverColors,
+    [intent]: hexToRgbaColor(value, 0.15),
+  };
+}, {} as IntentMap);
 
 // BASE STYLES
 const baseStyle = css({
