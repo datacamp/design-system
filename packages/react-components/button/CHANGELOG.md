@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [7.5.1](https://github.com/datacamp/design-system/compare/@datacamp/waffles-button@7.5.0...@datacamp/waffles-button@7.5.1) (2021-06-30)
+
+
+### Bug Fixes
+
+* compatibility with IE11 ([7ba068e](https://github.com/datacamp/design-system/commit/7ba068e))
+
+
+
+
+
 # [7.5.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-button@7.4.0...@datacamp/waffles-button@7.5.0) (2021-06-15)
 
 

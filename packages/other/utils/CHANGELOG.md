@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.3.1](https://github.com/datacamp/design-system/compare/@datacamp/waffles-utils@3.3.0...@datacamp/waffles-utils@3.3.1) (2021-06-30)
+
+
+### Bug Fixes
+
+* compatibility with IE11 ([77e0656](https://github.com/datacamp/design-system/commit/77e0656))
+* revert fromEntries to regular reduce ([d09a759](https://github.com/datacamp/design-system/commit/d09a759))
+
+
+
+
+
 # [3.3.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-utils@3.2.0...@datacamp/waffles-utils@3.3.0) (2021-06-10)
 
 

@@ -3,6 +3,25 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.8.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-next-doc-site@0.7.1...@datacamp/waffles-next-doc-site@0.8.0) (2021-06-30)
+
+
+### Features
+
+* add more social buttons examples ([a14857c](https://github.com/datacamp/design-system/commit/a14857c))
+* increase spacing between  examples ([5e7ed41](https://github.com/datacamp/design-system/commit/5e7ed41))
+* increase spacing between color grids ([85b8146](https://github.com/datacamp/design-system/commit/85b8146))
+* increase spacing between logo previews ([59f16d7](https://github.com/datacamp/design-system/commit/59f16d7))
+* increase spacing between tables ([a4d9a8d](https://github.com/datacamp/design-system/commit/a4d9a8d))
+* update code previews a11y ([ca1c942](https://github.com/datacamp/design-system/commit/ca1c942))
+* update donwloadable icons zip ([1b4d098](https://github.com/datacamp/design-system/commit/1b4d098))
+* update focus state of download button ([44fd97e](https://github.com/datacamp/design-system/commit/44fd97e))
+* update sidebar a11y ([e7bf571](https://github.com/datacamp/design-system/commit/e7bf571))
+
+
+
+
+
 ## [0.7.1](https://github.com/datacamp/design-system/compare/@datacamp/waffles-next-doc-site@0.7.0...@datacamp/waffles-next-doc-site@0.7.1) (2021-06-15)
 
 **Note:** Version bump only for package @datacamp/waffles-next-doc-site

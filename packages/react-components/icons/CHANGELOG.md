@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [4.4.0](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/icons/compare/@datacamp/waffles-icons@4.3.3...@datacamp/waffles-icons@4.4.0) (2021-06-30)
+
+
+### Features
+
+* add flashcard icon ([a9e67ae](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/icons/commit/a9e67ae))
+* adjust icon to be properly transformed ([1923ef3](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/icons/commit/1923ef3))
+
+
+
+
+
 ## [4.3.3](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/icons/compare/@datacamp/waffles-icons@4.3.2...@datacamp/waffles-icons@4.3.3) (2021-05-28)
 
 **Note:** Version bump only for package @datacamp/waffles-icons
