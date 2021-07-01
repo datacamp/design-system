@@ -27,21 +27,21 @@ class CustomDocument extends Document<DocumentInitialProps> {
           <link
             as="font"
             crossOrigin="anonymous"
-            href="https://waffles.datacamp.com/fonts/StudioFeixenSans-Regular.woff2"
+            href="/fonts/StudioFeixenSans-Regular.woff2"
             rel="preload"
             type="font/woff2"
           />
           <link
             as="font"
             crossOrigin="anonymous"
-            href="https://waffles.datacamp.com/fonts/StudioFeixenSans-Bold.woff2"
+            href="/fonts/StudioFeixenSans-Bold.woff2"
             rel="preload"
             type="font/woff2"
           />
           <link
             as="font"
             crossOrigin="anonymous"
-            href="https://waffles.datacamp.com/fonts/JetBrainsMono-Regular.woff2"
+            href="/fonts/JetBrainsMono-Regular.woff2"
             rel="preload"
             type="font/woff2"
           />
