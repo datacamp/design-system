@@ -30,7 +30,7 @@ const itemStyle = css`
 `;
 
 const itemLabelStyle = css`
-  font-family: ${tokens.fontFamily.sansSerif};
+  font-family: ${tokens.fontFamily.sansSerif}, Arial, sans-serif;
   font-size: ${tokens.fontSize.h6};
   line-height: ${tokens.lineHeight.base};
 `;
