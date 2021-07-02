@@ -27,21 +27,21 @@ class CustomDocument extends Document<DocumentInitialProps> {
           <link
             as="font"
             crossOrigin="anonymous"
-            href="/fonts/StudioFeixenSans-Regular.woff2"
+            href="/fonts-split/StudioFeixenSansRegular-english.woff2"
             rel="preload"
             type="font/woff2"
           />
           <link
             as="font"
             crossOrigin="anonymous"
-            href="/fonts/StudioFeixenSans-Bold.woff2"
+            href="/fonts-split/StudioFeixenSansBold-english.woff2"
             rel="preload"
             type="font/woff2"
           />
           <link
             as="font"
             crossOrigin="anonymous"
-            href="/fonts/JetBrainsMono-Regular.woff2"
+            href="/fonts-split/JetBrainsMono-english.woff2"
             rel="preload"
             type="font/woff2"
           />
