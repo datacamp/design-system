@@ -11,7 +11,7 @@ const buttonStyle = css`
   align-items: center;
   justify-content: space-between;
   padding: 6px 12px 6px 8px;
-  font-family: ${tokens.fontFamily.sansSerif};
+  font-family: ${tokens.fontFamily.sansSerif}, Arial, sans-serif;
   font-size: ${tokens.fontSize.h6};
   border-radius: ${tokens.border.radius};
   cursor: pointer;

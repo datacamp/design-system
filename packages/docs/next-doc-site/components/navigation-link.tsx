@@ -10,7 +10,7 @@ const linkStyle = css`
   outline: 0;
   font-size: ${tokens.fontSize.h6};
   font-weight: ${tokens.fontWeight.regular};
-  font-family: ${tokens.fontFamily.sansSerif};
+  font-family: ${tokens.fontFamily.sansSerif}, Arial, sans-serif;
   padding: 8px 48px;
   text-decoration: none;
   line-height: 1.5;

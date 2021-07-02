@@ -11,7 +11,7 @@ const buttonStyle = css`
   border: 0;
   color: ${tokens.colors.white};
   background-color: ${tokens.colors.navy};
-  font-family: ${tokens.fontFamily.sansSerif};
+  font-family: ${tokens.fontFamily.sansSerif}, Arial, sans-serif;
   border-radius: ${tokens.border.radius};
   font-size: ${tokens.fontSize.h6};
   font-weight: ${tokens.fontWeight.bold};
