@@ -18,8 +18,10 @@ const icons = {
 };
 
 const wrapperStyle = css({
-  alignItems: 'center',
+  alignItems: 'flex-start',
   background: 'white',
+  borderLeftStyle: 'solid',
+  borderLeftWidth: 4,
   borderRadius: 4,
   boxShadow:
     '0px 0px 1px 0px rgba(5, 25, 45, 0.3), 0px 8px 12px -4px rgba(5, 25, 45, 0.3)',
@@ -27,15 +29,9 @@ const wrapperStyle = css({
   justifyContent: 'space-between',
   maxWidth: 512,
   minWidth: 250,
+  padding: 16,
   position: 'relative',
   zIndex: parseInt(tokens.zIndex[999].value, 10),
-});
-
-const sideDecorStyle = css({
-  borderRadius: '4px 0px 0px 4px',
-  height: '100%',
-  position: 'absolute',
-  width: 4,
 });
 
 interface ToastProps {
@@ -65,15 +61,11 @@ const Toast = ({
 }: ToastProps): JSX.Element => {
   const Icon = icons[intent];
   const color = colors[intent];
+
   return (
-    <div css={wrapperStyle}>
-      <div css={css({ backgroundColor: color }, sideDecorStyle)} />
-      <Icon
-        color={color}
-        css={css({ flexShrink: 0, marginLeft: 16 })}
-        title={intent}
-      />
-      <div css={css({ flexGrow: 1, margin: 12 })}>
+    <div css={css({ borderColor: color }, wrapperStyle)}>
+      <Icon css={css({ flexShrink: 0 })} title={intent} />
+      <div css={css({ flexGrow: 1, marginLeft: 12, marginRight: 8 })}>
         <Heading as="h4" multiLine size={300}>
           {title}
         </Heading>
@@ -81,7 +73,7 @@ const Toast = ({
       </div>
       {closeToast && (
         <CloseButton
-          css={{ flex: 'none', marginRight: 12 }}
+          css={{ flexShrink: 0 }}
           onClick={closeToast}
           size="small"
         />
