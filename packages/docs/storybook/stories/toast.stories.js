@@ -26,6 +26,18 @@ storiesOf('waffles-toast', module)
         intent="error"
         title="Very long title text that needs to wrap since it goes over 512 pixels in total width"
       />
+      <Toast
+        closeToast={() => {}}
+        description="Very description text that needs to wrap since it goes over 512 pixels in total width"
+        intent="success"
+        title="Very long title text that needs to wrap since it goes over 512 pixels in total width"
+      />
+      <Toast
+        closeToast={() => {}}
+        description="Very description text that needs to wrap since it goes over 512 pixels in total width"
+        intent="error"
+        title="Very long title text that needs to wrap since it goes over 512 pixels in total width"
+      />
     </div>
   ))
   .add('dynamic Toasts', () => (
