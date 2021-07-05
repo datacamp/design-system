@@ -7,6 +7,9 @@ import { Heading, Paragraph } from '@datacamp/waffles-text';
 import tokens from '@datacamp/waffles-tokens/lib/future-tokens.json';
 import { css } from '@emotion/react';
 
+// TODO(blurbyte) Remove when it will be added to design tokens
+const EXTRA_TEXT_COLOR = '#65707c';
+
 const colors = {
   error: tokens.color.primary.red.value.hex,
   success: tokens.color.primary.green.value.hex,
@@ -69,7 +72,11 @@ const Toast = ({
         <Heading as="h4" multiLine size={300}>
           {title}
         </Heading>
-        {description && <Paragraph>{description}</Paragraph>}
+        {description && (
+          <Paragraph css={css({ color: EXTRA_TEXT_COLOR })}>
+            {description}
+          </Paragraph>
+        )}
       </div>
       {closeToast && (
         <CloseButton
