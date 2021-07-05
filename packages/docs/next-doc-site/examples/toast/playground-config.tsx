@@ -36,10 +36,10 @@ function Playground(): JSX.Element {
           onClick={() =>
             toast({
               description:
-                'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+                'Very long description text that needs to wrap since it goes over 512 pixels in total width.',
               intent: 'success',
               title:
-                'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+                'Very long title text that needs to wrap since it goes over 512 pixels in total width.',
             })
           }
         >
