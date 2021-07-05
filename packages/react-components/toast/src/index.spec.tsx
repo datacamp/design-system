@@ -1,20 +1,29 @@
+/* eslint-disable sonarjs/no-duplicate-string */
 import '@testing-library/jest-dom/extend-expect';
 
-import { render } from '@testing-library/react';
-import React from 'react';
+import { act, render } from '@testing-library/react';
 
 import { toast, ToastContainer } from '.';
 
-jest.useFakeTimers();
-
 describe('toast', () => {
+  beforeAll(() => {
+    jest.useFakeTimers();
+  });
+
+  afterAll(() => {
+    jest.useRealTimers();
+  });
+
   it('mounts a success toast', () => {
     const title = 'test toast title';
     const { getByRole, getByText } = render(<ToastContainer />);
     toast({ intent: 'success', title });
-    jest.runAllTimers();
+    act(() => {
+      jest.runAllTimers();
+    });
     const renderedToast = getByRole('alert');
-    const titleElement = getByText(title) as HTMLElement;
+    const titleElement = getByText(title);
+
     expect(renderedToast).toContainElement(titleElement);
     expect(renderedToast).toMatchSnapshot();
   });
@@ -23,10 +32,28 @@ describe('toast', () => {
     const title = 'test toast title';
     const { getByRole, getByText } = render(<ToastContainer />);
     toast({ intent: 'error', title });
-    jest.runAllTimers();
+    act(() => {
+      jest.runAllTimers();
+    });
     const renderedToast = getByRole('alert');
-    const titleElement = getByText(title) as HTMLElement;
+    const titleElement = getByText(title);
+
     expect(renderedToast).toContainElement(titleElement);
     expect(renderedToast).toMatchSnapshot();
+  });
+
+  it('shows title and description if it is provided', () => {
+    const title = 'test toast title';
+    const description = 'test toast description';
+    const { getByText } = render(<ToastContainer />);
+    toast({ description, intent: 'success', title });
+    act(() => {
+      jest.runAllTimers();
+    });
+    const titleElement = getByText(title);
+    const descriptionElement = getByText(description);
+
+    expect(titleElement).toBeInTheDocument();
+    expect(descriptionElement).toBeInTheDocument();
   });
 });
