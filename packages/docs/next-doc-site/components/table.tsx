@@ -17,7 +17,7 @@ const tableStyle = css`
   width: 100%;
   background-color: ${tokens.colors.white};
   color: ${tokens.colors.navyText};
-  font-family: ${tokens.fontFamily.sansSerif};
+  font-family: ${tokens.fontFamily.sansSerif}, Arial, sans-serif;
   font-size: ${tokens.fontSize.h6};
   font-weight: ${tokens.fontWeight.regular};
   line-height: ${tokens.lineHeight.base};

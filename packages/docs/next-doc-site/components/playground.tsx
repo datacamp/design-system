@@ -37,7 +37,8 @@ const errorStyle = css`
   white-space: pre;
   padding: 16px;
   color: ${tokens.colors.grey200};
-  font-family: ${tokens.fontFamily.mono};
+  font-family: ${tokens.fontFamily.mono}, Menlo, Monaco, 'Courier New',
+    monospace;
   font-size: ${tokens.fontSize.small};
   border-bottom-left-radius: ${tokens.border.radius};
   border-bottom-right-radius: ${tokens.border.radius};
@@ -50,7 +51,7 @@ const liveLabelStyle = css`
   bottom: 0;
   right: 0;
   color: ${tokens.colors.grey200};
-  font-family: ${tokens.fontFamily.sansSerif};
+  font-family: ${tokens.fontFamily.sansSerif}, Arial, sans-serif;
   font-size: ${tokens.fontSize.small};
   text-transform: uppercase;
   user-select: none;
