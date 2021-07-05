@@ -5,8 +5,8 @@ import { Fragment } from 'react';
 import { PlaygroundConfig } from '../../types';
 
 const initialCode = `
-import { toast, ToastContainer } from '@datacamp/waffles-toast';
 import Button, { ButtonGroup } from '@datacamp/button';
+import { toast, ToastContainer } from '@datacamp/waffles-toast';
 import { Fragment } from 'react';
 
 function Playground(): JSX.Element {
@@ -16,17 +16,34 @@ function Playground(): JSX.Element {
       <ButtonGroup>
         <Button
           onClick={() =>
-            toast({ intent: 'success', title: 'Some toast content' })
+            toast({ intent: 'success', title: 'Success Toast Title' })
           }
         >
           Open Success Toast
         </Button>
         <Button
           onClick={() =>
-            toast({ intent: 'error', title: 'Some toast content' })
+            toast({
+              description: 'Ooops, something went wrong.',
+              intent: 'error',
+              title: 'Error Toast Title',
+            })
           }
         >
           Open Error Toast
+        </Button>
+        <Button
+          onClick={() =>
+            toast({
+              description:
+                'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+              intent: 'success',
+              title:
+                'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+            })
+          }
+        >
+          Open Very Long Toast
         </Button>
       </ButtonGroup>
     </Fragment>
