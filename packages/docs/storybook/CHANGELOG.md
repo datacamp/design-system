@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [3.3.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-storybook@3.2.3...@datacamp/waffles-storybook@3.3.0) (2021-07-06)
+
+
+### Features
+
+* add toast description stories ([1c7b4a6](https://github.com/datacamp/design-system/commit/1c7b4a6))
+
+
+
+
+
 ## [3.2.3](https://github.com/datacamp/design-system/compare/@datacamp/waffles-storybook@3.2.2...@datacamp/waffles-storybook@3.2.3) (2021-06-30)
 
 **Note:** Version bump only for package @datacamp/waffles-storybook

@@ -3,6 +3,20 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [3.1.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-toast@3.0.14...@datacamp/waffles-toast@3.1.0) (2021-07-06)
+
+
+### Features
+
+* add optional description ([3ae969e](https://github.com/datacamp/design-system/commit/3ae969e))
+* add unit tests, fix warning, and update snapshots ([2d27c52](https://github.com/datacamp/design-system/commit/2d27c52))
+* adjust styles to allow really long content ([30929e1](https://github.com/datacamp/design-system/commit/30929e1))
+* update description text color ([5c9c985](https://github.com/datacamp/design-system/commit/5c9c985))
+
+
+
+
+
 ## [3.0.14](https://github.com/datacamp/design-system/compare/@datacamp/waffles-toast@3.0.13...@datacamp/waffles-toast@3.0.14) (2021-06-30)
 
 **Note:** Version bump only for package @datacamp/waffles-toast

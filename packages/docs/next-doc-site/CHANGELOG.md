@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.9.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-next-doc-site@0.8.0...@datacamp/waffles-next-doc-site@0.9.0) (2021-07-06)
+
+
+### Features
+
+* add experimental split fonts ([7bb1607](https://github.com/datacamp/design-system/commit/7bb1607))
+* add fallback fonts for custom docs components ([143011c](https://github.com/datacamp/design-system/commit/143011c))
+* udate toast playground example ([95199d6](https://github.com/datacamp/design-system/commit/95199d6))
+* upate toast example ([b8c8cf6](https://github.com/datacamp/design-system/commit/b8c8cf6))
+* update font paths ([16cb056](https://github.com/datacamp/design-system/commit/16cb056))
+* update fonts CSS with unicode ranges ([000375f](https://github.com/datacamp/design-system/commit/000375f))
+* update fonts preload paths ([7417193](https://github.com/datacamp/design-system/commit/7417193))
+
+
+
+
+
 # [0.8.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-next-doc-site@0.7.1...@datacamp/waffles-next-doc-site@0.8.0) (2021-06-30)
 
 

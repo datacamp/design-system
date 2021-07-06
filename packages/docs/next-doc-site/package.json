@@ -1,6 +1,6 @@
 {
   "name": "@datacamp/waffles-next-doc-site",
-  "version": "0.8.0",
+  "version": "0.9.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -22,7 +22,7 @@
     "@datacamp/waffles-positioner": "^2.0.6",
     "@datacamp/waffles-resizable-elements": "^2.1.0",
     "@datacamp/waffles-text": "^5.3.1",
-    "@datacamp/waffles-toast": "^3.0.14",
+    "@datacamp/waffles-toast": "^3.1.0",
     "@datacamp/waffles-tokens": "^1.1.0",
     "@datacamp/waffles-tooltip": "^0.2.11",
     "@emotion/react": "^11.0.0",
