@@ -1,0 +1,157 @@
+{
+  "sizing": {
+    "small": "36px",
+    "medium": "48px"
+  },
+  "spacing": {
+    "xsmall": "4px",
+    "small": "8px",
+    "medium": "16px",
+    "large": "24px",
+    "xlarge": "32px"
+  },
+  "colors": {
+    "navyLight": "#213147",
+    "navy": "#05192d",
+    "navyDark": "#000820",
+    "navySubtleTextOnDark": "#9ba3ab",
+    "navySubtleTextOnLight": "#65707c",
+    "greenLight": "#65ff8f",
+    "green": "#03ef62",
+    "greenDark": "#00c53b",
+    "greenText": "#008700",
+    "white": "#ffffff",
+    "greySubtle": "#f7f7fc",
+    "greyLight": "#efefef",
+    "grey": "#e8e8ea",
+    "greyMedium": "#d9d9e2",
+    "grayDark": "#848c92",
+    "beigeSubtle": "#fffbf3",
+    "beigeLight": "#f7f3eb",
+    "beige": "#efebe4",
+    "beigeMedium": "#e5e1da",
+    "redLight": "#ff782d",
+    "red": "#ff5400",
+    "redDark": "#dd3400",
+    "redDarkText": "#c01100",
+    "orangeLight": "#ffbc4b",
+    "orange": "#ff931e",
+    "orangeDark": "#d87300",
+    "orangeDarkText": "#b75900",
+    "yellowLight": "#ffec3c",
+    "yellow": "#fcce0d",
+    "yellowDark": "#cfa600",
+    "yellowText": "#907000",
+    "blue": "#06bdfc",
+    "blueDark": "#009bd8",
+    "blueLight": "#60e7ff",
+    "blueDarkText": "#007bb6",
+    "purpleLight": "#974dff",
+    "purple": "#7933ff",
+    "purpleDark": "#5646a5",
+    "purpleDarkText": "#5646a5",
+    "pinkLight": "#ff95cf",
+    "pink": "#ff6ea9",
+    "pinkDark": "#dc4d8b",
+    "pinkDarkText": "#bf3072",
+    "brandFacebook": "#1778f2",
+    "brandTwitter": "#00acee",
+    "brandGoogle": "#db4437",
+    "brandLinkedIn": "#0e76a8"
+  },
+  "borderRadius": {
+    "medium": "4px",
+    "circle": "50%"
+  },
+  "borderWidth": {
+    "thin": "1px",
+    "medium": "2px",
+    "thick": "3px",
+    "xthick": "4px"
+  },
+  "boxShadow": {
+    "thin": {
+      "value": {
+        "x": 0,
+        "y": 0,
+        "spread": 0,
+        "color": "rgba(5, 25, 45, 0.25)",
+        "blur": "2px"
+      }
+    },
+    "medium": {
+      "value": {
+        "x": 0,
+        "y": "1px",
+        "spread": "-1px",
+        "color": "rgba(5, 25, 45, 0.25)",
+        "blur": "4px"
+      }
+    },
+    "thick": {
+      "value": {
+        "x": 0,
+        "y": "3px",
+        "spread": "-1px",
+        "color": "rgba(5, 25, 45, 0.25)",
+        "blur": "5px"
+      }
+    },
+    "xthick": {
+      "value": {
+        "x": 0,
+        "y": "8px",
+        "spread": "-4px",
+        "color": "rgba(5, 25, 45, 0.25)",
+        "blur": "12px"
+      }
+    }
+  },
+  "fontWeights": {
+    "regular": 400,
+    "light": 100,
+    "bold": 800
+  },
+  "fontFamilies": {
+    "sansSerif": "Studio-Feixen-Sans, Arial, sans-serif",
+    "mono": "JetBrainsMonoNL, Menlo, Monaco, 'Courier New', monospace"
+  },
+  "fontSizes": {
+    "small": "12px",
+    "medium": "14px",
+    "large": "16px",
+    "xlarge": "18px",
+    "xxlarge": "20px",
+    "huge": "28px"
+  },
+  "letterSpacing": {
+    "default": 0,
+    "tight": "-0.5px",
+    "relaxed": "1.5px"
+  },
+  "lineHeights": {
+    "small": "16px",
+    "medium": "20px",
+    "large": "22px",
+    "xlarge": "24px",
+    "xxlarge": "28px"
+  },
+  "opacity": {
+    "low": "15%",
+    "medium": "30%",
+    "height": "60%"
+  },
+  "zIndex": {
+    "default": 1,
+    "sticky": 100,
+    "dropdown": 7000,
+    "modal": 9000,
+    "overlay": 8000,
+    "toast": 10000
+  },
+  "breakpoints": {
+    "small": "480px",
+    "medium": "820px",
+    "large": "1480px"
+  }
+ }
