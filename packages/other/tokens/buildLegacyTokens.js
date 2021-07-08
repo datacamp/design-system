@@ -1,3 +1,5 @@
+// Keeping it for now for backwards compatibility
+
 const styleDictionary = require('style-dictionary');
 
 const coreJsonFormatter = require('./formats/coreJson');
