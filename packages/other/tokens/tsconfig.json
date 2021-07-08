@@ -1,0 +1,11 @@
+{
+  "include": ["build/tokens.js"],
+  "exclude": ["node_modules"],
+  "compilerOptions": {
+    "allowJs": true,
+    "declaration": true,
+    "emitDeclarationOnly": true,
+    "outDir": "build",
+    "skipLibCheck": true
+  }
+}
