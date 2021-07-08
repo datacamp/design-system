@@ -72,37 +72,37 @@
   "boxShadow": {
     "thin": {
       "value": {
-        "x": 0,
-        "y": 0,
-        "spread": 0,
-        "color": "rgba(5, 25, 45, 0.25)",
+        "x": "0px",
+        "y": "0px",
+        "spread": "0px",
+        "color": "rgba(5, 25, 45, 0.3)",
         "blur": "2px"
       }
     },
     "medium": {
       "value": {
-        "x": 0,
+        "x": "0px",
         "y": "1px",
         "spread": "-1px",
-        "color": "rgba(5, 25, 45, 0.25)",
+        "color": "rgba(5, 25, 45, 0.3)",
         "blur": "4px"
       }
     },
     "thick": {
       "value": {
-        "x": 0,
+        "x": "0px",
         "y": "3px",
         "spread": "-1px",
-        "color": "rgba(5, 25, 45, 0.25)",
+        "color": "rgba(5, 25, 45, 0.3)",
         "blur": "5px"
       }
     },
     "xthick": {
       "value": {
-        "x": 0,
+        "x": "0px",
         "y": "8px",
         "spread": "-4px",
-        "color": "rgba(5, 25, 45, 0.25)",
+        "color": "rgba(5, 25, 45, 0.3)",
         "blur": "12px"
       }
     }
@@ -125,7 +125,7 @@
     "huge": "28px"
   },
   "letterSpacing": {
-    "default": 0,
+    "default": "0px",
     "tight": "-0.5px",
     "relaxed": "1.5px"
   },
