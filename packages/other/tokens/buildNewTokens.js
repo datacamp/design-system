@@ -69,8 +69,7 @@ function tokensToEsModule(tokens) {
   return moduleContent;
 }
 
-fs.rmdirSync('./build', { recursive: true });
-fs.mkdirSync('./build');
+// Assuming lib directory already exists
 fs.writeFileSync(
   './lib/tokens.js',
   tokensToEsModule(transformedBaseTokens(baseTokens)),
