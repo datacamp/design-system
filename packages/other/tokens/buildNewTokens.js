@@ -4,7 +4,7 @@
 const fs = require('fs');
 const util = require('util');
 
-const baseTokens = require('./base-tokens.json');
+const baseTokens = require('./base-tokens.json'); // Already parsed to JS
 
 // Transform boxShadow tokens group expected by Figma Tokens to CSS values
 function transformedBoxShadows(baseBoxShadows) {
@@ -23,7 +23,7 @@ function transformedBoxShadows(baseBoxShadows) {
 // Replace boxShadow tokens group with transformed ones
 function transformedBaseTokens(tokens) {
   return {
-    ...baseTokens,
+    ...tokens,
     boxShadow: {
       ...transformedBoxShadows(tokens.boxShadow),
     },
@@ -69,8 +69,16 @@ function tokensToEsModule(tokens) {
   return moduleContent;
 }
 
+const newTokens = tokensToEsModule(transformedBaseTokens(baseTokens));
+
 // Assuming lib directory already exists
-fs.writeFileSync(
-  './lib/tokens.js',
-  tokensToEsModule(transformedBaseTokens(baseTokens)),
-);
+fs.writeFileSync('./lib/tokens.js', newTokens);
+
+// Exporting utils for unit tests
+module.exports = {
+  exportForEachTokenGroup,
+  tokensDefaultExport,
+  tokensToEsModule,
+  transformedBaseTokens,
+  transformedBoxShadows,
+};
