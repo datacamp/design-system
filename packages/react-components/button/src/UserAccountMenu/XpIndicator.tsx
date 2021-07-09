@@ -3,7 +3,7 @@ import tokens from '@datacamp/waffles-tokens';
 import { css } from '@emotion/react';
 
 const wrapperStyle = css({
-  borderBottom: `1px solid ${tokens.colors.beige400}`,
+  borderBottom: `1px solid ${tokens.colors.beigeMedium}`,
   boxSizing: 'border-box',
   padding: 8,
 });

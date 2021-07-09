@@ -14,12 +14,12 @@ const buttonStyle = css({
   border: 0,
   borderRadius: 18,
   boxSizing: 'border-box',
-  color: tokens.colors.navyText,
+  color: tokens.colors.navyDark,
   cursor: 'pointer',
   display: 'inline-flex',
   [FULL_MENU_MEDIA_QUERY]: {
     ':hover': {
-      backgroundColor: tokens.colors.beige200,
+      backgroundColor: tokens.colors.beigeLight,
     },
     borderRadius: 15,
     height: 30,

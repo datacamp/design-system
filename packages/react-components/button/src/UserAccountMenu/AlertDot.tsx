@@ -1,9 +1,9 @@
-import wafflesTokens from '@datacamp/waffles-tokens';
+import tokens from '@datacamp/waffles-tokens';
 import { css } from '@emotion/react';
 
 const dotStyle = css({
-  backgroundColor: wafflesTokens.colors.red,
-  border: `1px solid ${wafflesTokens.colors.white}`,
+  backgroundColor: tokens.colors.red,
+  border: `1px solid ${tokens.colors.white}`,
   borderRadius: 8,
   height: 8,
   position: 'absolute',

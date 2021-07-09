@@ -6,12 +6,12 @@ import { SwitchProps } from './index';
 const labelStyle = css({
   alignItems: 'center',
   boxSizing: 'border-box',
-  color: tokens.colors.navyText,
+  color: tokens.colors.navyDark,
   cursor: 'pointer',
   display: 'inline-flex',
-  fontFamily: tokens.fontFamily.sansSerif,
+  fontFamily: tokens.fontFamilies.sansSerif,
   fontSize: 16,
-  fontWeight: parseInt(tokens.fontWeight.regular, 10),
+  fontWeight: tokens.fontWeights.regular,
   opacity: 1,
   position: 'relative',
   userSelect: 'none',
@@ -37,7 +37,7 @@ function Label({
           color:
             appearance === 'inverted'
               ? tokens.colors.white
-              : tokens.colors.navyText,
+              : tokens.colors.navyDark,
         },
         disabled && {
           cursor: 'default',

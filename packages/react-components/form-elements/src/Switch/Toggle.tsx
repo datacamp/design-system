@@ -49,7 +49,7 @@ function Toggle({
       if (appearance === 'inverted') {
         return tokens.colors.white;
       }
-      return tokens.colors.grey400;
+      return tokens.colors.greyMedium;
     }
     return tokens.colors.blue;
   }
@@ -71,7 +71,7 @@ function Toggle({
         css={css(toggleButtonleStyle, {
           backgroundColor:
             !checked && appearance === 'inverted'
-              ? tokens.colors.grey400
+              ? tokens.colors.greyMedium
               : tokens.colors.white,
           transform: `translateX(${checked ? 10 : 0}px)`,
         })}
