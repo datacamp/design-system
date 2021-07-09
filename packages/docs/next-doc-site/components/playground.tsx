@@ -19,9 +19,9 @@ const compilerStyle = css`
   padding: 16px;
   padding-bottom: 40px;
   margin-top: 8px;
-  background-color: ${tokens.colors.grey200};
-  border-top-left-radius: ${tokens.border.radius};
-  border-top-right-radius: ${tokens.border.radius};
+  background-color: ${tokens.colors.greyLight};
+  border-top-left-radius: ${tokens.borderRadius.medium};
+  border-top-right-radius: ${tokens.borderRadius.medium};
 `;
 
 const buttonStyle = css`
@@ -29,19 +29,18 @@ const buttonStyle = css`
   right: 0;
   bottom: 0;
   border-radius: 0;
-  border-top-left-radius: ${tokens.border.radius};
+  border-top-left-radius: ${tokens.borderRadius.medium};
 `;
 
 const errorStyle = css`
   background-color: ${tokens.colors.redDark};
   white-space: pre;
   padding: 16px;
-  color: ${tokens.colors.grey200};
-  font-family: ${tokens.fontFamily.mono}, Menlo, Monaco, 'Courier New',
-    monospace;
-  font-size: ${tokens.fontSize.small};
-  border-bottom-left-radius: ${tokens.border.radius};
-  border-bottom-right-radius: ${tokens.border.radius};
+  color: ${tokens.colors.greyLight};
+  font-family: ${tokens.fontFamilies.mono};
+  font-size: ${tokens.fontSizes.small};
+  border-bottom-left-radius: ${tokens.borderRadius.medium};
+  border-bottom-right-radius: ${tokens.borderRadius.medium};
   overflow: hidden;
 `;
 
@@ -50,9 +49,9 @@ const liveLabelStyle = css`
   position: absolute;
   bottom: 0;
   right: 0;
-  color: ${tokens.colors.grey200};
-  font-family: ${tokens.fontFamily.sansSerif}, Arial, sans-serif;
-  font-size: ${tokens.fontSize.small};
+  color: ${tokens.colors.greyLight};
+  font-family: ${tokens.fontFamilies.sansSerif};
+  font-size: ${tokens.fontSizes.small};
   text-transform: uppercase;
   user-select: none;
   padding: 8px 12px;
@@ -103,8 +102,12 @@ function Playground({
         css={css`
           border-top-left-radius: 0;
           border-top-right-radius: 0;
-          border-bottom-left-radius: ${hasError ? 0 : tokens.border.radius};
-          border-bottom-right-radius: ${hasError ? 0 : tokens.border.radius};
+          border-bottom-left-radius: ${hasError
+            ? 0
+            : tokens.borderRadius.medium};
+          border-bottom-right-radius: ${hasError
+            ? 0
+            : tokens.borderRadius.medium};
           border-left-color: ${isEditorFocused
             ? tokens.colors.green
             : tokens.colors.purple};

@@ -26,7 +26,7 @@ function Example(): JSX.Element {
       >
         <UserAccountMenu.MenuItem
           css={{
-            borderTop: `1px solid ${tokens.colors.beige400}`,
+            borderTop: `1px solid ${tokens.colors.beigeMedium}`,
             marginTop: 8,
             paddingTop: 8,
           }}

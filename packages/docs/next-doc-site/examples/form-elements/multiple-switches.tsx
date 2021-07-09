@@ -31,7 +31,7 @@ function Example(): JSX.Element {
         checked={settings.bluetooth}
         css={{
           backgroundColor: tokens.colors.navy,
-          borderRadius: tokens.border.radius,
+          borderRadius: tokens.borderRadius.medium,
           padding: 8,
         }}
         name="bluetooth"

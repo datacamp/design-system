@@ -11,10 +11,10 @@ const buttonStyle = css`
   border: 0;
   color: ${tokens.colors.white};
   background-color: ${tokens.colors.navy};
-  font-family: ${tokens.fontFamily.sansSerif}, Arial, sans-serif;
-  border-radius: ${tokens.border.radius};
-  font-size: ${tokens.fontSize.h6};
-  font-weight: ${tokens.fontWeight.bold};
+  font-family: ${tokens.fontFamilies.sansSerif};
+  border-radius: ${tokens.borderRadius.medium};
+  font-size: ${tokens.fontSizes.medium};
+  font-weight: ${tokens.fontWeights.bold};
   text-decoration: none;
   cursor: pointer;
   margin-top: 8px;

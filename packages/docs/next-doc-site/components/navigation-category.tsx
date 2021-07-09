@@ -46,7 +46,7 @@ function NavigationCategory({ children, label }: CategoryProps): JSX.Element {
     <li css={itemStyle}>
       <Link
         css={css`
-          font-size: ${tokens.fontSize.h4};
+          font-size: ${tokens.fontSizes.xlarge};
           color: ${isActive ? tokens.colors.green : tokens.colors.white};
         `}
         href={href}

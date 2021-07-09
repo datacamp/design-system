@@ -16,8 +16,8 @@ const sectionStyle = css`
 const wrapperStyle = css`
   padding: 16px;
   padding-bottom: 40px;
-  background-color: ${tokens.colors.grey200};
-  border-radius: ${tokens.border.radius};
+  background-color: ${tokens.colors.greyLight};
+  border-radius: ${tokens.borderRadius.medium};
   margin-top: 8px;
   position: relative;
 `;
@@ -89,7 +89,7 @@ function Example({
             ${buttonStyle};
             border-bottom-right-radius: ${isCodePreviewVisible
               ? 0
-              : tokens.border.radius};
+              : tokens.borderRadius.medium};
           `}
           disabled={!code}
           icon={<CodeIcon color="currentColor" />}

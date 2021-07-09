@@ -36,7 +36,7 @@ const linkStyle = css`
   padding: 8px;
   margin: 0;
   outline: 0;
-  border-radius: ${tokens.border.radius};
+  border-radius: ${tokens.borderRadius.medium};
 
   &:hover {
     background-color: ${transparentize(0.95, tokens.colors.white)};

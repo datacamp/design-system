@@ -38,7 +38,9 @@ function NavigationItem({
         css={css`
           color: ${isActive ? tokens.colors.green : tokens.colors.white};
           padding-left: ${isStandalone ? 48 : 64}px;
-          font-size: ${isStandalone ? tokens.fontSize.h4 : tokens.fontSize.h6};
+          font-size: ${isStandalone
+            ? tokens.fontSizes.xlarge
+            : tokens.fontSizes.medium};
         `}
         href={href}
       >

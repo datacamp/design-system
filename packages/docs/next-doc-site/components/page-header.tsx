@@ -25,10 +25,10 @@ const contentStyle = css`
 
 const categoryStyle = css`
   color: ${tokens.colors.green};
-  font-weight: ${tokens.fontWeight.bold};
+  font-weight: ${tokens.fontWeights.bold};
   text-transform: uppercase;
   letter-spacing: 2px;
-  font-size: ${tokens.fontSize.small};
+  font-size: ${tokens.fontSizes.small};
 `;
 
 const titleStyle = css`

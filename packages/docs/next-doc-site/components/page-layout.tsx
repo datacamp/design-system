@@ -9,7 +9,7 @@ import Sidebar from './sidebar';
 
 const mainStyle = css`
   padding-left: ${SIDEBAR_WIDTH}px;
-  background-color: ${tokens.colors.beige100};
+  background-color: ${tokens.colors.beigeSubtle};
   min-height: 100vh;
 `;
 
