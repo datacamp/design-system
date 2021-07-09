@@ -5,7 +5,6 @@ import {
   Logos,
   TechLogo,
   Technologies,
-  Topics,
 } from '@datacamp/waffles-asset-components';
 import tokens from '@datacamp/waffles-tokens';
 import { select, text } from '@storybook/addon-knobs';

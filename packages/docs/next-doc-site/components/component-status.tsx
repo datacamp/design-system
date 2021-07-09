@@ -49,7 +49,7 @@ function ComponentStatus({
             color={
               variant === 'planned'
                 ? tokens.colors.purple
-                : tokens.colors.beige400
+                : tokens.colors.beigeMedium
             }
             size="large"
           >

@@ -14,7 +14,7 @@ const wrapperStyle = css`
   list-style: none;
   display: flex;
   flex-wrap: wrap;
-  border-radius: ${tokens.border.radius};
+  border-radius: ${tokens.borderRadius.medium};
   overflow: hidden;
   margin-top: 8px;
   margin-bottom: 24px;
@@ -30,9 +30,9 @@ const itemStyle = css`
 `;
 
 const itemLabelStyle = css`
-  font-family: ${tokens.fontFamily.sansSerif}, Arial, sans-serif;
-  font-size: ${tokens.fontSize.h6};
-  line-height: ${tokens.lineHeight.base};
+  font-family: ${tokens.fontFamilies.sansSerif};
+  font-size: ${tokens.fontSizes.medium};
+  line-height: ${tokens.lineHeights.medium};
 `;
 
 const MAX_ITEMS_PER_ROW = 4;
@@ -52,7 +52,7 @@ function ColorsGrid({ category, colors }: ColorGridProps): JSX.Element {
         {pickedColors.map((color, index) => {
           const labelColor = readableColor(
             color.value,
-            tokens.colors.navyText,
+            tokens.colors.navyDark,
             tokens.colors.white,
           );
           const denominator = colorItemsPerRow(
@@ -75,7 +75,7 @@ function ColorsGrid({ category, colors }: ColorGridProps): JSX.Element {
                 css={css`
                   ${itemLabelStyle}
                   text-transform: capitalize;
-                  font-weight: ${tokens.fontWeight.bold};
+                  font-weight: ${tokens.fontWeights.bold};
                   color: ${labelColor};
                 `}
               >

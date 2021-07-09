@@ -3,9 +3,9 @@ import tokens from '@datacamp/waffles-tokens';
 const theme = {
   plain: {
     backgroundColor: 'transparent',
-    color: tokens.colors.beige200,
-    fontFamily: tokens.fontFamily.mono,
-    fontSize: tokens.fontSize.h6,
+    color: tokens.colors.beigeLight,
+    fontFamily: tokens.fontFamilies.mono,
+    fontSize: tokens.fontSizes.medium,
     margin: 0,
   },
   styles: [
@@ -36,7 +36,7 @@ const theme = {
     },
     {
       style: {
-        color: tokens.colors.beige200,
+        color: tokens.colors.beigeLight,
       },
       types: ['punctuation', 'operator'],
     },

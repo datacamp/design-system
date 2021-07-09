@@ -5,7 +5,7 @@ const wrapperStyle = css`
   position: relative;
   padding: 16px;
   background-color: ${tokens.colors.navy};
-  border-radius: ${tokens.border.radius};
+  border-radius: ${tokens.borderRadius.medium};
   border-left: 8px solid ${tokens.colors.purple};
   overflow: hidden;
 `;

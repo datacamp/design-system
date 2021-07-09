@@ -8,9 +8,9 @@ const linkStyle = css`
   color: ${tokens.colors.white};
   width: 100%;
   outline: 0;
-  font-size: ${tokens.fontSize.h6};
-  font-weight: ${tokens.fontWeight.regular};
-  font-family: ${tokens.fontFamily.sansSerif}, Arial, sans-serif;
+  font-size: ${tokens.fontSizes.medium};
+  font-weight: ${tokens.fontWeights.regular};
+  font-family: ${tokens.fontFamilies.sansSerif};
   padding: 8px 48px;
   text-decoration: none;
   line-height: 1.5;

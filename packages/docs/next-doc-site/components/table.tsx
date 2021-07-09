@@ -2,8 +2,8 @@ import tokens from '@datacamp/waffles-tokens';
 import { css } from '@emotion/react';
 
 const wrapperStyle = css`
-  border: 1px solid ${tokens.colors.beige400};
-  border-radius: ${tokens.border.radius};
+  border: 1px solid ${tokens.colors.beigeMedium};
+  border-radius: ${tokens.borderRadius.medium};
   margin-top: 8px;
   overflow-x: scroll;
   margin-bottom: 24px;
@@ -16,11 +16,11 @@ const wrapperStyle = css`
 const tableStyle = css`
   width: 100%;
   background-color: ${tokens.colors.white};
-  color: ${tokens.colors.navyText};
-  font-family: ${tokens.fontFamily.sansSerif}, Arial, sans-serif;
-  font-size: ${tokens.fontSize.h6};
-  font-weight: ${tokens.fontWeight.regular};
-  line-height: ${tokens.lineHeight.base};
+  color: ${tokens.colors.navyDark};
+  font-family: ${tokens.fontFamilies.sansSerif};
+  font-size: ${tokens.fontSizes.medium};
+  font-weight: ${tokens.fontWeights.regular};
+  line-height: ${tokens.lineHeights.medium};
   border-collapse: collapse;
   table-layout: fixed;
 `;
@@ -28,14 +28,14 @@ const tableStyle = css`
 const tableCellStyle = css`
   padding: 16px;
   text-align: left;
-  border-top: 1px solid ${tokens.colors.beige400};
+  border-top: 1px solid ${tokens.colors.beigeMedium};
   word-wrap: break-word;
   vertical-align: top;
 `;
 
 const tableHeadCellStyle = css`
-  font-size: ${tokens.fontSize.small};
-  font-weight: ${tokens.fontWeight.bold};
+  font-size: ${tokens.fontSizes.small};
+  font-weight: ${tokens.fontWeights.bold};
   text-transform: uppercase;
   border-top: none;
   width: 20%;

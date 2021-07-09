@@ -4,11 +4,11 @@ import { css } from '@emotion/react';
 const wrapperStyle = css`
   display: flex;
   flex-wrap: wrap;
-  border: 1px solid ${tokens.colors.beige400};
+  border: 1px solid ${tokens.colors.beigeMedium};
   margin-top: 8px;
   padding: 8px;
   width: 100%;
-  border-radius: ${tokens.border.radius};
+  border-radius: ${tokens.borderRadius.medium};
   overflow: hidden;
 `;
 

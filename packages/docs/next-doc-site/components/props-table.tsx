@@ -10,11 +10,11 @@ import Markdown from './markdown-elements';
 import Table from './table';
 
 const nameCellStyle = css`
-  font-weight: ${tokens.fontWeight.bold};
+  font-weight: ${tokens.fontWeights.bold};
 `;
 
 const requiredStyle = css`
-  color: ${tokens.colors.redText};
+  color: ${tokens.colors.redDarkText};
 `;
 
 const descriptionStyle = css`

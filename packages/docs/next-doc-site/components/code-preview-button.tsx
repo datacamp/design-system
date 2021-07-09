@@ -11,14 +11,14 @@ const buttonStyle = css`
   align-items: center;
   justify-content: space-between;
   padding: 6px 12px 6px 8px;
-  font-family: ${tokens.fontFamily.sansSerif}, Arial, sans-serif;
-  font-size: ${tokens.fontSize.h6};
-  border-radius: ${tokens.border.radius};
+  font-family: ${tokens.fontFamilies.sansSerif};
+  font-size: ${tokens.fontSizes.medium};
+  border-radius: ${tokens.borderRadius.medium};
   cursor: pointer;
   user-select: none;
 
   &:focus-visible {
-    color: ${tokens.colors.navyText};
+    color: ${tokens.colors.navyDark};
     background-color: ${tokens.colors.blue};
   }
 `;
