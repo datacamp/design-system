@@ -13,18 +13,18 @@ const wrapperStyle = css({
 
 const itemStyle = css({
   ':hover': {
-    backgroundColor: tokens.colors.beige200,
+    backgroundColor: tokens.colors.beigeLight,
     opacity: 1,
   },
   alignItems: 'center',
   border: 0,
   boxSizing: 'border-box',
-  color: tokens.colors.navyText,
+  color: tokens.colors.navyDark,
   cursor: 'pointer',
   display: 'flex',
-  fontFamily: tokens.fontFamily.sansSerif,
-  fontSize: tokens.fontSize.h6,
-  fontWeight: parseInt(tokens.fontWeight.regular, 10),
+  fontFamily: tokens.fontFamilies.sansSerif,
+  fontSize: tokens.fontSizes.medium,
+  fontWeight: tokens.fontWeights.regular,
   height: 42,
   opacity: 0.6,
   outline: 0,

@@ -28,7 +28,7 @@ const socialMediaButtonFactory = (
         borderColor: color,
         color,
       },
-      borderColor: tokens.colors.grey400,
+      borderColor: tokens.colors.greyMedium,
       color,
     }}
     dataAttributes={dataAttributes}
