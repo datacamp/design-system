@@ -19,7 +19,7 @@
     "build:new-tokens": "node buildNewTokens.js",
     "build:esm": "BABEL_ENV=esm babel ./lib/tokens.js --out-file ./lib/tokens.esm.js --config-file ./babel7.config.js",
     "build:cjs": "BABEL_ENV=cjs babel ./lib/tokens.js --out-file ./lib/tokens.common.js --config-file ./babel7.config.js",
-    "build:types": "tsc -p tsconfig.json"
+    "build:types": "tsc lib/tokens.js --declaration --allowJs --emitDeclarationOnly --skipLibCheck --outDir lib"
   },
   "author": "",
   "license": "MIT",
