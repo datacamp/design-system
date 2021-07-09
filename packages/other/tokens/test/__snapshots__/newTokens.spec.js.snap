@@ -1,0 +1,101 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`new tokens base tokens are properly transformed 1`] = `
+"export const sizing = { small: '36px', medium: '48px' };
+export const spacing = {
+  xsmall: '4px',
+  small: '8px',
+  medium: '16px',
+  large: '24px',
+  xlarge: '32px'
+};
+export const colors = {
+  navyLight: '#213147',
+  navy: '#05192d',
+  navyDark: '#000820',
+  navySubtleTextOnDark: '#9ba3ab',
+  navySubtleTextOnLight: '#65707c',
+  greenLight: '#65ff8f',
+  green: '#03ef62',
+  greenDark: '#00c53b',
+  greenText: '#008700',
+  white: '#ffffff',
+  greySubtle: '#f7f7fc',
+  greyLight: '#efefef',
+  grey: '#e8e8ea',
+  greyMedium: '#d9d9e2',
+  grayDark: '#848c92',
+  beigeSubtle: '#fffbf3',
+  beigeLight: '#f7f3eb',
+  beige: '#efebe4',
+  beigeMedium: '#e5e1da',
+  redLight: '#ff782d',
+  red: '#ff5400',
+  redDark: '#dd3400',
+  redDarkText: '#c01100',
+  orangeLight: '#ffbc4b',
+  orange: '#ff931e',
+  orangeDark: '#d87300',
+  orangeDarkText: '#b75900',
+  yellowLight: '#ffec3c',
+  yellow: '#fcce0d',
+  yellowDark: '#cfa600',
+  yellowText: '#907000',
+  blue: '#06bdfc',
+  blueDark: '#009bd8',
+  blueLight: '#60e7ff',
+  blueDarkText: '#007bb6',
+  purpleLight: '#974dff',
+  purple: '#7933ff',
+  purpleDark: '#5646a5',
+  purpleDarkText: '#5646a5',
+  pinkLight: '#ff95cf',
+  pink: '#ff6ea9',
+  pinkDark: '#dc4d8b',
+  pinkDarkText: '#bf3072',
+  brandFacebook: '#1778f2',
+  brandTwitter: '#00acee',
+  brandGoogle: '#db4437',
+  brandLinkedIn: '#0e76a8'
+};
+export const borderRadius = { medium: '4px', circle: '50%' };
+export const borderWidth = { thin: '1px', medium: '2px', thick: '3px', xthick: '4px' };
+export const boxShadow = {
+  thin: '0px 0px 2px 0px rgba(5, 25, 45, 0.3)',
+  medium: '0px 1px 4px -1px rgba(5, 25, 45, 0.3)',
+  thick: '0px 3px 5px -1px rgba(5, 25, 45, 0.3)',
+  xthick: '0px 8px 12px -4px rgba(5, 25, 45, 0.3)'
+};
+export const fontWeights = { regular: 400, light: 100, bold: 800 };
+export const fontFamilies = {
+  sansSerif: 'Studio-Feixen-Sans, Arial, sans-serif',
+  mono: \\"JetBrainsMonoNL, Menlo, Monaco, 'Courier New', monospace\\"
+};
+export const fontSizes = {
+  small: '12px',
+  medium: '14px',
+  large: '16px',
+  xlarge: '18px',
+  xxlarge: '20px',
+  huge: '28px'
+};
+export const letterSpacing = { default: '0px', tight: '-0.5px', relaxed: '1.5px' };
+export const lineHeights = {
+  small: '16px',
+  medium: '20px',
+  large: '22px',
+  xlarge: '24px',
+  xxlarge: '28px'
+};
+export const opacity = { low: '15%', medium: '30%', height: '60%' };
+export const zIndex = {
+  default: 1,
+  sticky: 100,
+  dropdown: 7000,
+  modal: 9000,
+  overlay: 8000,
+  toast: 10000
+};
+export const breakpoints = { small: '480px', medium: '820px', large: '1480px' };
+export default { sizing, spacing, colors, borderRadius, borderWidth, boxShadow, fontWeights, fontFamilies, fontSizes, letterSpacing, lineHeights, opacity, zIndex, breakpoints };"
+`;
