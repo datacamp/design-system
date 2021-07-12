@@ -9,7 +9,7 @@ This package contains all the design tokens used across Waffles, and also the bu
 
 ### New tokens
 
-The new tokens are generated from `base-tokens.json`. The structure of that file is compatible with [Figma Tokens](https://www.figma.com/community/plugin/843461159747178978/Figma-Tokens) plugin. In the first build step regular JS file (ES module with explicit and default exports) is generated with `build:new-tokens` script, assuming `lib` directory already exists. It serves as a base for transpiling both ESM and CJS modules (with appropriate `build:cjs` and `build:esm` scripts). Last step is to generate TS typings with `build:types`.
+The new tokens are generated from [base-tokens.json](base-tokens.json). The structure of that file is compatible with [Figma Tokens](https://www.figma.com/community/plugin/843461159747178978/Figma-Tokens) plugin. In the first build step regular JS file (ES module with explicit and default exports) is generated with `build:new-tokens` script, assuming `lib` directory already exists. It serves as a base for transpiling both ESM and CJS modules (with appropriate `build:cjs` and `build:esm` scripts). Last step is to generate TS typings with `build:types`.
 
 ### Legacy tokens
 
