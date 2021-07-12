@@ -22,3 +22,83 @@ The legacy tokens are for now kept for backward compatibility reasons. All token
 - **core-tokens.json** is the legacy tokens file.
 - **future-tokens.json** is the legacy tokens file, used internally by most React components.
 - **variables.scss** contains the same data as the **core-tokens** file but exposed as scss variables. This is used in to generate utility classes and stylesheets in other packages.
+
+## Migration guide (v1 -> v2)
+
+Tokens has been updated to stay in line with [Design Guidelines](https://www.figma.com/file/Flh00IKR70ff0bRvFW2Iou/%5BDC%5D-Design-Guidelines-Exploration?node-id=376%3A1144) and to be compatible with [Figma Tokens](https://www.figma.com/community/plugin/843461159747178978/Figma-Tokens) plugin.
+
+### Deprecated tokens groups
+- 🚨 `spatial` group is deprecated
+  - use tokens from `sizing`, `spacing`, and `zIndex` groups
+- 🚨 `border` group is deprecated
+  - use tokens from `borderRadius` group
+- 🚨 `animation` group is deprecated
+
+### Completely new tokens groups
+
+- 🟢 new group `sizing`
+- 🟢 new group `spacing`
+- 🟢 new group `borderWidth`
+- 🟢 new group `opacity`
+- 🟢 new group `zIndex`
+- 🟢 new group `borderRadius`
+  - 🚨 `border.radius` -> `borderRadius.medium`
+  - 🟢 new `circle` border radius token
+
+### Updated tokens groups
+
+- 🔄 changes in `colors` group:
+  - 🟢 new brand colors `brandFacebook`, `brandTwitter`, `brandGoogle`, `brandLinkedIn`
+  - 🟢 new text colors `navySubtleTextOnDark`, `navySubtleTextOnLight`
+  - 🟢 new `grayDark` color
+  - 🚨 `navyText` -> `navyDark`
+  - 🚨 `greenText` -> `greenDarkText`
+  - 🚨 `redText` -> `redDarkText`
+  - 🚨 `orangeText` -> `orangeDarkText`
+  - 🚨 `yellowText` -> `yellowDarkText`
+  - 🚨 `blueText` -> `blueDarkText`
+  - 🚨 `purpleText` -> `purpleDarkText`
+  - 🚨 `pinkText` -> `pinkDarkText`
+  - 🚨 `beige100` -> `beigeSubtle`
+  - 🚨 `beige200` -> `beigeLight`
+  - 🚨 `beige300` -> `beige`
+  - 🚨 `beige400` -> `beigeMedium`
+  - 🚨 `grey100` -> `greySubtle`
+  - 🚨 `grey200` -> `greyLight`
+  - 🚨 `grey300` -> `grey`
+  - 🚨 `grey400` -> `greyMedium`
+- 🔄 changes in `breakpoints` group
+  - 🟢 new `small`, `medium`, `large` breakpoints
+  - 🚨 all old tokens are deprecated
+- 🔄 changes in `boxShadow` group
+  - 🟢 new `thin`, `medium`, `thick`, `xthick` tokens
+  - 🚨 all old tokens are deprecated
+
+### Renamed and updated tokens groups
+
+- 🔄 `fontFamily` -> `fontFamilies`
+  - 🚨 tokens now contains whole CSS font stacks, no need to specify additional fallback fonts
+- 🔄 `fontSize` -> `fontSizes`
+  - 🚨 `micro` -> `small`
+  - 🚨 `small` -> `small`
+  - 🚨 `base` -> `medium`
+  - 🚨 `h6` -> `small`
+  - 🚨 `h5` -> `small`
+  - 🚨 `h4` -> `medium`
+  - 🚨 `h3` -> `large`
+  - 🚨 `h2` -> `xlarge`
+  - 🚨 `h1` -> `xxlarge`
+  - 🟢 new `huge` token
+- 🔄 `fontWeight` -> `fontWeights`
+- 🔄 `letterSpacings` -> `letterSpacing`
+  - 🚨 `base` -> `default`
+  - 🚨 `mediumHeading` -> `tight`
+  - 🚨 `largeHeading` -> `tight`
+  - 🟢 new `relaxed` token
+- 🔄 `lineHeight` -> `lineHeights`
+  - in most cases use the same `lineHeight` in tandem with `fontSize`
+  - 🚨 `base` -> `medium`
+  - 🚨 `heading` -> `large`
+  - 🚨 `largeHeading` -> `xlarge`
+  - 🟢 new `small` token
+  - 🟢 new `xxlarge` token
