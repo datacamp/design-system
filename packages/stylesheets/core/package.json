@@ -1,6 +1,6 @@
 {
   "name": "@datacamp/waffles-core",
-  "version": "2.2.0",
+  "version": "2.2.1-beta.0",
   "description": "Core tokens and styles for DataCamp Design System",
   "keywords": [
     "css",
@@ -54,7 +54,7 @@
   },
   "gitHead": "033030174dbf18623ccd9c0174108c41a9e588a1",
   "dependencies": {
-    "@datacamp/waffles-tokens": "^1.1.0",
+    "@datacamp/waffles-tokens": "^2.0.0-beta.0",
     "file-loader": "1.1.11"
   }
 }

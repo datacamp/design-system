@@ -3,6 +3,37 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0-beta.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-tokens@1.1.0...@datacamp/waffles-tokens@2.0.0-beta.0) (2021-07-12)
+
+
+* feat!: major design tokens release ([8c5aa99](https://github.com/datacamp/design-system/commit/8c5aa99))
+
+
+### Features
+
+* add babel and TS configs ([b185e8e](https://github.com/datacamp/design-system/commit/b185e8e))
+* add build scripts ([4898564](https://github.com/datacamp/design-system/commit/4898564))
+* add migration guide ([d307bfe](https://github.com/datacamp/design-system/commit/d307bfe))
+* add unit tests and snapshots ([a800389](https://github.com/datacamp/design-system/commit/a800389))
+* create a script to build new tokens base JS file ([5df6d0c](https://github.com/datacamp/design-system/commit/5df6d0c))
+* replace tsconfig with inline script ([fb092fd](https://github.com/datacamp/design-system/commit/fb092fd))
+* small tokens adjustments ([adde667](https://github.com/datacamp/design-system/commit/adde667))
+* transformedBaseTokens util fix ([d75f07f](https://github.com/datacamp/design-system/commit/d75f07f))
+* update build script ([51e9f87](https://github.com/datacamp/design-system/commit/51e9f87))
+* update package docs ([bf62123](https://github.com/datacamp/design-system/commit/bf62123))
+* update package entry points and build paths ([21504ac](https://github.com/datacamp/design-system/commit/21504ac))
+* update some text tokens names ([a4df33e](https://github.com/datacamp/design-system/commit/a4df33e))
+* update token name ([d65f98f](https://github.com/datacamp/design-system/commit/d65f98f))
+
+
+### BREAKING CHANGES
+
+* new design tokens
+
+
+
+
+
 # [1.1.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-tokens@1.0.6...@datacamp/waffles-tokens@1.1.0) (2021-05-28)
 
 

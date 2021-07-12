@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [7.6.0-beta.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-button@7.5.1...@datacamp/waffles-button@7.6.0-beta.0) (2021-07-12)
+
+
+### Features
+
+* updat design tokens across components ([7df4908](https://github.com/datacamp/design-system/commit/7df4908))
+
+
+
+
+
 ## [7.5.1](https://github.com/datacamp/design-system/compare/@datacamp/waffles-button@7.5.0...@datacamp/waffles-button@7.5.1) (2021-06-30)
 
 
