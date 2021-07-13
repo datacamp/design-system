@@ -19,17 +19,17 @@ const itemStyle = css({
   alignItems: 'center',
   border: 0,
   boxSizing: 'border-box',
-  color: tokens.colors.navyDark,
+  color: tokens.colors.navy,
   cursor: 'pointer',
   display: 'flex',
   fontFamily: tokens.fontFamilies.sansSerif,
   fontSize: tokens.fontSizes.medium,
   fontWeight: tokens.fontWeights.regular,
   height: 42,
-  opacity: 0.6,
+  opacity: tokens.opacity.height,
   outline: 0,
-  paddingLeft: 24,
-  paddingRight: 24,
+  paddingLeft: tokens.spacing.large,
+  paddingRight: tokens.spacing.large,
   position: 'relative',
   textDecoration: 'none',
   userSelect: 'none',
@@ -39,7 +39,7 @@ const itemStyle = css({
 
 const contentStyle = css({
   boxSizing: 'border-box',
-  paddingLeft: 8,
+  paddingLeft: tokens.spacing.small,
 });
 
 const alertDotStyle = css({

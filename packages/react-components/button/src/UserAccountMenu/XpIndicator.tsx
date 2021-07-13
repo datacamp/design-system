@@ -3,9 +3,9 @@ import tokens from '@datacamp/waffles-tokens';
 import { css } from '@emotion/react';
 
 const wrapperStyle = css({
-  borderBottom: `1px solid ${tokens.colors.beigeMedium}`,
+  borderBottom: `${tokens.borderWidth.thin} solid ${tokens.colors.beigeMedium}`,
   boxSizing: 'border-box',
-  padding: 8,
+  padding: tokens.spacing.small,
 });
 
 const badgeStyle = css({

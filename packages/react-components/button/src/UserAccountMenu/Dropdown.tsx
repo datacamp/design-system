@@ -1,4 +1,5 @@
 import Card from '@datacamp/waffles-card';
+import tokens from '@datacamp/waffles-tokens';
 import { css } from '@emotion/react';
 import { Children, cloneElement } from 'react';
 
@@ -9,7 +10,7 @@ import XpIndicator from './XpIndicator';
 const dropdownStyle = css({
   position: 'absolute',
   right: 0,
-  zIndex: 99,
+  zIndex: tokens.zIndex.dropdown,
 });
 
 const cardStyle = css({

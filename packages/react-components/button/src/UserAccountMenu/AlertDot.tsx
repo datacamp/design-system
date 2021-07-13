@@ -8,7 +8,7 @@ const dotStyle = css({
   height: 8,
   position: 'absolute',
   width: 8,
-  zIndex: 1,
+  zIndex: tokens.zIndex.default,
 });
 
 type AlertDot = {
