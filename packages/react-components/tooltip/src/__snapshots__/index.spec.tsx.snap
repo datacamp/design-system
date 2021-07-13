@@ -19,10 +19,10 @@ exports[`Tooltip renders on the bottom on the target 1`] = `
   -moz-transform: translate(-50%, 0);
   -ms-transform: translate(-50%, 0);
   transform: translate(-50%, 0);
-  padding-bottom: 8px;
-  padding-left: 12px;
-  padding-right: 12px;
-  padding-top: 8px;
+  padding-bottom: 4px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 4px;
   z-index: 1;
   background-color: #fffbf3;
 }
@@ -34,7 +34,7 @@ exports[`Tooltip renders on the bottom on the target 1`] = `
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 12px;
   white-space: nowrap;
   color: #05192d;
 }
@@ -78,10 +78,10 @@ exports[`Tooltip renders on the bottom on the target 2`] = `
   -moz-transform: translate(-50%, 0);
   -ms-transform: translate(-50%, 0);
   transform: translate(-50%, 0);
-  padding-bottom: 8px;
-  padding-left: 12px;
-  padding-right: 12px;
-  padding-top: 8px;
+  padding-bottom: 4px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 4px;
   z-index: 1;
   background-color: #05192d;
   box-shadow: none;
@@ -94,7 +94,7 @@ exports[`Tooltip renders on the bottom on the target 2`] = `
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 12px;
   white-space: nowrap;
   color: #ffffff;
 }
@@ -134,10 +134,10 @@ exports[`Tooltip renders on the bottomLeft on the target 1`] = `
   position: fixed;
   left: 0;
   top: 8px;
-  padding-bottom: 8px;
-  padding-left: 12px;
-  padding-right: 12px;
-  padding-top: 8px;
+  padding-bottom: 4px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 4px;
   z-index: 1;
   background-color: #fffbf3;
 }
@@ -149,7 +149,7 @@ exports[`Tooltip renders on the bottomLeft on the target 1`] = `
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 12px;
   white-space: nowrap;
   color: #05192d;
 }
@@ -189,10 +189,10 @@ exports[`Tooltip renders on the bottomLeft on the target 2`] = `
   position: fixed;
   left: 0;
   top: 8px;
-  padding-bottom: 8px;
-  padding-left: 12px;
-  padding-right: 12px;
-  padding-top: 8px;
+  padding-bottom: 4px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 4px;
   z-index: 1;
   background-color: #05192d;
   box-shadow: none;
@@ -205,7 +205,7 @@ exports[`Tooltip renders on the bottomLeft on the target 2`] = `
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 12px;
   white-space: nowrap;
   color: #ffffff;
 }
@@ -249,10 +249,10 @@ exports[`Tooltip renders on the bottomRight on the target 1`] = `
   -moz-transform: translate(-100%);
   -ms-transform: translate(-100%);
   transform: translate(-100%);
-  padding-bottom: 8px;
-  padding-left: 12px;
-  padding-right: 12px;
-  padding-top: 8px;
+  padding-bottom: 4px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 4px;
   z-index: 1;
   background-color: #fffbf3;
 }
@@ -264,7 +264,7 @@ exports[`Tooltip renders on the bottomRight on the target 1`] = `
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 12px;
   white-space: nowrap;
   color: #05192d;
 }
@@ -308,10 +308,10 @@ exports[`Tooltip renders on the bottomRight on the target 2`] = `
   -moz-transform: translate(-100%);
   -ms-transform: translate(-100%);
   transform: translate(-100%);
-  padding-bottom: 8px;
-  padding-left: 12px;
-  padding-right: 12px;
-  padding-top: 8px;
+  padding-bottom: 4px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 4px;
   z-index: 1;
   background-color: #05192d;
   box-shadow: none;
@@ -324,7 +324,7 @@ exports[`Tooltip renders on the bottomRight on the target 2`] = `
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 12px;
   white-space: nowrap;
   color: #ffffff;
 }
@@ -368,10 +368,10 @@ exports[`Tooltip renders on the left on the target 1`] = `
   -moz-transform: translate(-100%, -50%);
   -ms-transform: translate(-100%, -50%);
   transform: translate(-100%, -50%);
-  padding-bottom: 8px;
-  padding-left: 12px;
-  padding-right: 12px;
-  padding-top: 8px;
+  padding-bottom: 4px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 4px;
   z-index: 1;
   background-color: #fffbf3;
 }
@@ -383,7 +383,7 @@ exports[`Tooltip renders on the left on the target 1`] = `
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 12px;
   white-space: nowrap;
   color: #05192d;
 }
@@ -427,10 +427,10 @@ exports[`Tooltip renders on the left on the target 2`] = `
   -moz-transform: translate(-100%, -50%);
   -ms-transform: translate(-100%, -50%);
   transform: translate(-100%, -50%);
-  padding-bottom: 8px;
-  padding-left: 12px;
-  padding-right: 12px;
-  padding-top: 8px;
+  padding-bottom: 4px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 4px;
   z-index: 1;
   background-color: #05192d;
   box-shadow: none;
@@ -443,7 +443,7 @@ exports[`Tooltip renders on the left on the target 2`] = `
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 12px;
   white-space: nowrap;
   color: #ffffff;
 }
@@ -487,10 +487,10 @@ exports[`Tooltip renders on the right on the target 1`] = `
   -moz-transform: translate(0, -50%);
   -ms-transform: translate(0, -50%);
   transform: translate(0, -50%);
-  padding-bottom: 8px;
-  padding-left: 12px;
-  padding-right: 12px;
-  padding-top: 8px;
+  padding-bottom: 4px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 4px;
   z-index: 1;
   background-color: #fffbf3;
 }
@@ -502,7 +502,7 @@ exports[`Tooltip renders on the right on the target 1`] = `
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 12px;
   white-space: nowrap;
   color: #05192d;
 }
@@ -546,10 +546,10 @@ exports[`Tooltip renders on the right on the target 2`] = `
   -moz-transform: translate(0, -50%);
   -ms-transform: translate(0, -50%);
   transform: translate(0, -50%);
-  padding-bottom: 8px;
-  padding-left: 12px;
-  padding-right: 12px;
-  padding-top: 8px;
+  padding-bottom: 4px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 4px;
   z-index: 1;
   background-color: #05192d;
   box-shadow: none;
@@ -562,7 +562,7 @@ exports[`Tooltip renders on the right on the target 2`] = `
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 12px;
   white-space: nowrap;
   color: #ffffff;
 }
@@ -606,10 +606,10 @@ exports[`Tooltip renders on the top on the target 1`] = `
   -moz-transform: translate(-50%, -100%);
   -ms-transform: translate(-50%, -100%);
   transform: translate(-50%, -100%);
-  padding-bottom: 8px;
-  padding-left: 12px;
-  padding-right: 12px;
-  padding-top: 8px;
+  padding-bottom: 4px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 4px;
   z-index: 1;
   background-color: #fffbf3;
 }
@@ -621,7 +621,7 @@ exports[`Tooltip renders on the top on the target 1`] = `
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 12px;
   white-space: nowrap;
   color: #05192d;
 }
@@ -665,10 +665,10 @@ exports[`Tooltip renders on the top on the target 2`] = `
   -moz-transform: translate(-50%, -100%);
   -ms-transform: translate(-50%, -100%);
   transform: translate(-50%, -100%);
-  padding-bottom: 8px;
-  padding-left: 12px;
-  padding-right: 12px;
-  padding-top: 8px;
+  padding-bottom: 4px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 4px;
   z-index: 1;
   background-color: #05192d;
   box-shadow: none;
@@ -681,7 +681,7 @@ exports[`Tooltip renders on the top on the target 2`] = `
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 12px;
   white-space: nowrap;
   color: #ffffff;
 }
@@ -725,10 +725,10 @@ exports[`Tooltip renders on the topLeft on the target 1`] = `
   -moz-transform: translate(0, -100%);
   -ms-transform: translate(0, -100%);
   transform: translate(0, -100%);
-  padding-bottom: 8px;
-  padding-left: 12px;
-  padding-right: 12px;
-  padding-top: 8px;
+  padding-bottom: 4px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 4px;
   z-index: 1;
   background-color: #fffbf3;
 }
@@ -740,7 +740,7 @@ exports[`Tooltip renders on the topLeft on the target 1`] = `
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 12px;
   white-space: nowrap;
   color: #05192d;
 }
@@ -784,10 +784,10 @@ exports[`Tooltip renders on the topLeft on the target 2`] = `
   -moz-transform: translate(0, -100%);
   -ms-transform: translate(0, -100%);
   transform: translate(0, -100%);
-  padding-bottom: 8px;
-  padding-left: 12px;
-  padding-right: 12px;
-  padding-top: 8px;
+  padding-bottom: 4px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 4px;
   z-index: 1;
   background-color: #05192d;
   box-shadow: none;
@@ -800,7 +800,7 @@ exports[`Tooltip renders on the topLeft on the target 2`] = `
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 12px;
   white-space: nowrap;
   color: #ffffff;
 }
@@ -844,10 +844,10 @@ exports[`Tooltip renders on the topRight on the target 1`] = `
   -moz-transform: translate(-100%, -100%);
   -ms-transform: translate(-100%, -100%);
   transform: translate(-100%, -100%);
-  padding-bottom: 8px;
-  padding-left: 12px;
-  padding-right: 12px;
-  padding-top: 8px;
+  padding-bottom: 4px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 4px;
   z-index: 1;
   background-color: #fffbf3;
 }
@@ -859,7 +859,7 @@ exports[`Tooltip renders on the topRight on the target 1`] = `
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 12px;
   white-space: nowrap;
   color: #05192d;
 }
@@ -903,10 +903,10 @@ exports[`Tooltip renders on the topRight on the target 2`] = `
   -moz-transform: translate(-100%, -100%);
   -ms-transform: translate(-100%, -100%);
   transform: translate(-100%, -100%);
-  padding-bottom: 8px;
-  padding-left: 12px;
-  padding-right: 12px;
-  padding-top: 8px;
+  padding-bottom: 4px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 4px;
   z-index: 1;
   background-color: #05192d;
   box-shadow: none;
@@ -919,7 +919,7 @@ exports[`Tooltip renders on the topRight on the target 2`] = `
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 12px;
   white-space: nowrap;
   color: #ffffff;
 }
