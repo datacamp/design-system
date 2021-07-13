@@ -2,9 +2,9 @@
 import Card from '@datacamp/waffles-card';
 import { usePositioner } from '@datacamp/waffles-positioner';
 import { Text } from '@datacamp/waffles-text';
-import tokens from '@datacamp/waffles-tokens/lib/future-tokens.json';
+import tokens from '@datacamp/waffles-tokens';
 import { css } from '@emotion/react';
-import React, { MutableRefObject, ReactElement } from 'react';
+import { MutableRefObject, ReactElement } from 'react';
 
 interface TooltipProps {
   /**
@@ -47,17 +47,17 @@ interface TooltipProps {
 
 const cardStyles = {
   dark: css({
-    backgroundColor: tokens.color.primary.navy.value.hex,
+    backgroundColor: tokens.colors.navy,
     boxShadow: 'none', // override default card border
   }),
   light: css({
-    backgroundColor: tokens.color.neutral.beige100.value.hex,
+    backgroundColor: tokens.colors.beigeSubtle,
   }),
 };
 
 const textStyles = {
-  dark: css({ color: tokens.color.primary.white.value.hex }),
-  light: css({ color: tokens.color.primary.navyText.value.hex }),
+  dark: css({ color: tokens.colors.white }),
+  light: css({ color: tokens.colors.navy }),
 };
 
 const elevations = { dark: 0, light: 2 } as const;
@@ -84,11 +84,11 @@ const Tooltip = ({
       css={css(
         positionStyle,
         {
-          paddingBottom: tokens.size.space[8].value,
-          paddingLeft: tokens.size.space[12].value,
-          paddingRight: tokens.size.space[12].value,
-          paddingTop: tokens.size.space[8].value,
-          zIndex: 1,
+          paddingBottom: tokens.spacing.xsmall,
+          paddingLeft: tokens.spacing.small,
+          paddingRight: tokens.spacing.small,
+          paddingTop: tokens.spacing.xsmall,
+          zIndex: tokens.zIndex.default,
         },
         cardStyles[appearance],
       )}
@@ -98,7 +98,7 @@ const Tooltip = ({
       <Text
         css={css(
           {
-            fontSize: tokens.size.font[200].value,
+            fontSize: tokens.fontSizes.small,
             whiteSpace: 'nowrap',
           },
           textStyles[appearance],
