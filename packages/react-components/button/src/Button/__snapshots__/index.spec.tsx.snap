@@ -6,7 +6,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent d
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  border: none;
+  border: 0;
   border-radius: 4px;
   border-style: solid;
   border-width: 2px;
@@ -100,7 +100,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent d
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  border: none;
+  border: 0;
   border-radius: 4px;
   border-style: solid;
   border-width: 2px;
@@ -387,7 +387,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent d
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  border: none;
+  border: 0;
   border-radius: 4px;
   border-style: solid;
   border-width: 2px;
@@ -447,7 +447,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent d
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 44px;
   color: #05192d;
   font-weight: bold;
@@ -481,7 +481,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent d
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  border: none;
+  border: 0;
   border-radius: 4px;
   border-style: solid;
   border-width: 2px;
@@ -618,7 +618,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent d
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 44px;
   color: transparent;
   font-weight: bold;
@@ -768,7 +768,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent d
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  border: none;
+  border: 0;
   border-radius: 4px;
   border-style: solid;
   border-width: 2px;
@@ -828,7 +828,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent d
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 32px;
   color: #05192d;
   font-weight: bold;
@@ -862,7 +862,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent d
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  border: none;
+  border: 0;
   border-radius: 4px;
   border-style: solid;
   border-width: 2px;
@@ -999,7 +999,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent d
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 32px;
   color: transparent;
   font-weight: bold;
@@ -1149,7 +1149,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent n
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  border: none;
+  border: 0;
   border-radius: 4px;
   border-style: solid;
   border-width: 2px;
@@ -1243,7 +1243,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent n
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  border: none;
+  border: 0;
   border-radius: 4px;
   border-style: solid;
   border-width: 2px;
@@ -1530,7 +1530,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent n
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  border: none;
+  border: 0;
   border-radius: 4px;
   border-style: solid;
   border-width: 2px;
@@ -1590,7 +1590,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent n
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 44px;
   color: #05192d;
   font-weight: bold;
@@ -1624,7 +1624,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent n
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  border: none;
+  border: 0;
   border-radius: 4px;
   border-style: solid;
   border-width: 2px;
@@ -1761,7 +1761,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent n
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 44px;
   color: transparent;
   font-weight: bold;
@@ -1911,7 +1911,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent n
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  border: none;
+  border: 0;
   border-radius: 4px;
   border-style: solid;
   border-width: 2px;
@@ -1971,7 +1971,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent n
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 32px;
   color: #05192d;
   font-weight: bold;
@@ -2005,7 +2005,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent n
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  border: none;
+  border: 0;
   border-radius: 4px;
   border-style: solid;
   border-width: 2px;
@@ -2142,7 +2142,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent n
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 32px;
   color: transparent;
   font-weight: bold;
@@ -2292,7 +2292,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent s
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  border: none;
+  border: 0;
   border-radius: 4px;
   border-style: solid;
   border-width: 2px;
@@ -2386,7 +2386,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent s
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  border: none;
+  border: 0;
   border-radius: 4px;
   border-style: solid;
   border-width: 2px;
@@ -2673,7 +2673,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent s
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  border: none;
+  border: 0;
   border-radius: 4px;
   border-style: solid;
   border-width: 2px;
@@ -2733,7 +2733,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent s
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 44px;
   color: #05192d;
   font-weight: bold;
@@ -2767,7 +2767,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent s
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  border: none;
+  border: 0;
   border-radius: 4px;
   border-style: solid;
   border-width: 2px;
@@ -2904,7 +2904,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent s
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 44px;
   color: transparent;
   font-weight: bold;
@@ -3054,7 +3054,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent s
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  border: none;
+  border: 0;
   border-radius: 4px;
   border-style: solid;
   border-width: 2px;
@@ -3114,7 +3114,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent s
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 32px;
   color: #05192d;
   font-weight: bold;
@@ -3148,7 +3148,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent s
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  border: none;
+  border: 0;
   border-radius: 4px;
   border-style: solid;
   border-width: 2px;
@@ -3285,7 +3285,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent s
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 32px;
   color: transparent;
   font-weight: bold;
@@ -3435,7 +3435,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent w
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  border: none;
+  border: 0;
   border-radius: 4px;
   border-style: solid;
   border-width: 2px;
@@ -3529,7 +3529,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent w
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  border: none;
+  border: 0;
   border-radius: 4px;
   border-style: solid;
   border-width: 2px;
@@ -3816,7 +3816,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent w
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  border: none;
+  border: 0;
   border-radius: 4px;
   border-style: solid;
   border-width: 2px;
@@ -3876,7 +3876,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent w
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 44px;
   color: #05192d;
   font-weight: bold;
@@ -3910,7 +3910,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent w
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  border: none;
+  border: 0;
   border-radius: 4px;
   border-style: solid;
   border-width: 2px;
@@ -4047,7 +4047,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent w
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 44px;
   color: transparent;
   font-weight: bold;
@@ -4197,7 +4197,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent w
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  border: none;
+  border: 0;
   border-radius: 4px;
   border-style: solid;
   border-width: 2px;
@@ -4257,7 +4257,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent w
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 32px;
   color: #05192d;
   font-weight: bold;
@@ -4291,7 +4291,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent w
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  border: none;
+  border: 0;
   border-radius: 4px;
   border-style: solid;
   border-width: 2px;
@@ -4428,7 +4428,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent w
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 32px;
   color: transparent;
   font-weight: bold;
@@ -4578,7 +4578,7 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  border: none;
+  border: 0;
   border-radius: 4px;
   border-style: solid;
   border-width: 2px;
@@ -4640,7 +4640,7 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
   font-weight: 400;
   font-size: 20px;
   line-height: 60px;
-  color: white;
+  color: #ffffff;
   font-weight: bold;
 }
 
@@ -4672,7 +4672,7 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  border: none;
+  border: 0;
   border-radius: 4px;
   border-style: solid;
   border-width: 2px;
@@ -4832,7 +4832,7 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
     </title>
     <g
       class="emotion-2"
-      fill="white"
+      fill="#ffffff"
       fill-rule="nonzero"
     >
       <g
@@ -4959,7 +4959,7 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  border: none;
+  border: 0;
   border-radius: 4px;
   border-style: solid;
   border-width: 2px;
@@ -5019,9 +5019,9 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 44px;
-  color: white;
+  color: #ffffff;
   font-weight: bold;
 }
 
@@ -5053,7 +5053,7 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  border: none;
+  border: 0;
   border-radius: 4px;
   border-style: solid;
   border-width: 2px;
@@ -5190,7 +5190,7 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 44px;
   color: transparent;
   font-weight: bold;
@@ -5213,7 +5213,7 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
     </title>
     <g
       class="emotion-2"
-      fill="white"
+      fill="#ffffff"
       fill-rule="nonzero"
     >
       <g
@@ -5340,7 +5340,7 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  border: none;
+  border: 0;
   border-radius: 4px;
   border-style: solid;
   border-width: 2px;
@@ -5400,9 +5400,9 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 32px;
-  color: white;
+  color: #ffffff;
   font-weight: bold;
 }
 
@@ -5434,7 +5434,7 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  border: none;
+  border: 0;
   border-radius: 4px;
   border-style: solid;
   border-width: 2px;
@@ -5571,7 +5571,7 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 32px;
   color: transparent;
   font-weight: bold;
@@ -5594,7 +5594,7 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
     </title>
     <g
       class="emotion-2"
-      fill="white"
+      fill="#ffffff"
       fill-rule="nonzero"
     >
       <g
@@ -5721,7 +5721,7 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  border: none;
+  border: 0;
   border-radius: 4px;
   border-style: solid;
   border-width: 2px;
@@ -5783,7 +5783,7 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
   font-weight: 400;
   font-size: 20px;
   line-height: 60px;
-  color: white;
+  color: #ffffff;
   font-weight: bold;
 }
 
@@ -5815,7 +5815,7 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  border: none;
+  border: 0;
   border-radius: 4px;
   border-style: solid;
   border-width: 2px;
@@ -5975,7 +5975,7 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
     </title>
     <g
       class="emotion-2"
-      fill="white"
+      fill="#ffffff"
       fill-rule="nonzero"
     >
       <g
@@ -6102,7 +6102,7 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  border: none;
+  border: 0;
   border-radius: 4px;
   border-style: solid;
   border-width: 2px;
@@ -6162,9 +6162,9 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 44px;
-  color: white;
+  color: #ffffff;
   font-weight: bold;
 }
 
@@ -6196,7 +6196,7 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  border: none;
+  border: 0;
   border-radius: 4px;
   border-style: solid;
   border-width: 2px;
@@ -6333,7 +6333,7 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 44px;
   color: transparent;
   font-weight: bold;
@@ -6356,7 +6356,7 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
     </title>
     <g
       class="emotion-2"
-      fill="white"
+      fill="#ffffff"
       fill-rule="nonzero"
     >
       <g
@@ -6483,7 +6483,7 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  border: none;
+  border: 0;
   border-radius: 4px;
   border-style: solid;
   border-width: 2px;
@@ -6543,9 +6543,9 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 32px;
-  color: white;
+  color: #ffffff;
   font-weight: bold;
 }
 
@@ -6577,7 +6577,7 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  border: none;
+  border: 0;
   border-radius: 4px;
   border-style: solid;
   border-width: 2px;
@@ -6714,7 +6714,7 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 32px;
   color: transparent;
   font-weight: bold;
@@ -6737,7 +6737,7 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
     </title>
     <g
       class="emotion-2"
-      fill="white"
+      fill="#ffffff"
       fill-rule="nonzero"
     >
       <g
@@ -6864,7 +6864,7 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  border: none;
+  border: 0;
   border-radius: 4px;
   border-style: solid;
   border-width: 2px;
@@ -6924,7 +6924,7 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
   font-weight: 400;
   font-size: 20px;
   line-height: 60px;
-  color: white;
+  color: #ffffff;
   font-weight: bold;
 }
 
@@ -6956,7 +6956,7 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  border: none;
+  border: 0;
   border-radius: 4px;
   border-style: solid;
   border-width: 2px;
@@ -7116,7 +7116,7 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
     </title>
     <g
       class="emotion-2"
-      fill="white"
+      fill="#ffffff"
       fill-rule="nonzero"
     >
       <g
@@ -7243,7 +7243,7 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  border: none;
+  border: 0;
   border-radius: 4px;
   border-style: solid;
   border-width: 2px;
@@ -7301,9 +7301,9 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 44px;
-  color: white;
+  color: #ffffff;
   font-weight: bold;
 }
 
@@ -7335,7 +7335,7 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  border: none;
+  border: 0;
   border-radius: 4px;
   border-style: solid;
   border-width: 2px;
@@ -7472,7 +7472,7 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 44px;
   color: transparent;
   font-weight: bold;
@@ -7495,7 +7495,7 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
     </title>
     <g
       class="emotion-2"
-      fill="white"
+      fill="#ffffff"
       fill-rule="nonzero"
     >
       <g
@@ -7622,7 +7622,7 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  border: none;
+  border: 0;
   border-radius: 4px;
   border-style: solid;
   border-width: 2px;
@@ -7680,9 +7680,9 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 32px;
-  color: white;
+  color: #ffffff;
   font-weight: bold;
 }
 
@@ -7714,7 +7714,7 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  border: none;
+  border: 0;
   border-radius: 4px;
   border-style: solid;
   border-width: 2px;
@@ -7851,7 +7851,7 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 32px;
   color: transparent;
   font-weight: bold;
@@ -7874,7 +7874,7 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
     </title>
     <g
       class="emotion-2"
-      fill="white"
+      fill="#ffffff"
       fill-rule="nonzero"
     >
       <g
@@ -8001,7 +8001,7 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  border: none;
+  border: 0;
   border-radius: 4px;
   border-style: solid;
   border-width: 2px;
@@ -8063,7 +8063,7 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
   font-weight: 400;
   font-size: 20px;
   line-height: 60px;
-  color: white;
+  color: #ffffff;
   font-weight: bold;
 }
 
@@ -8095,7 +8095,7 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  border: none;
+  border: 0;
   border-radius: 4px;
   border-style: solid;
   border-width: 2px;
@@ -8255,7 +8255,7 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
     </title>
     <g
       class="emotion-2"
-      fill="white"
+      fill="#ffffff"
       fill-rule="nonzero"
     >
       <g
@@ -8382,7 +8382,7 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  border: none;
+  border: 0;
   border-radius: 4px;
   border-style: solid;
   border-width: 2px;
@@ -8442,9 +8442,9 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 44px;
-  color: white;
+  color: #ffffff;
   font-weight: bold;
 }
 
@@ -8476,7 +8476,7 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  border: none;
+  border: 0;
   border-radius: 4px;
   border-style: solid;
   border-width: 2px;
@@ -8613,7 +8613,7 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 44px;
   color: transparent;
   font-weight: bold;
@@ -8636,7 +8636,7 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
     </title>
     <g
       class="emotion-2"
-      fill="white"
+      fill="#ffffff"
       fill-rule="nonzero"
     >
       <g
@@ -8763,7 +8763,7 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  border: none;
+  border: 0;
   border-radius: 4px;
   border-style: solid;
   border-width: 2px;
@@ -8823,9 +8823,9 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 32px;
-  color: white;
+  color: #ffffff;
   font-weight: bold;
 }
 
@@ -8857,7 +8857,7 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  border: none;
+  border: 0;
   border-radius: 4px;
   border-style: solid;
   border-width: 2px;
@@ -8994,7 +8994,7 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 32px;
   color: transparent;
   font-weight: bold;
@@ -9017,7 +9017,7 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
     </title>
     <g
       class="emotion-2"
-      fill="white"
+      fill="#ffffff"
       fill-rule="nonzero"
     >
       <g
@@ -9144,7 +9144,7 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  border: none;
+  border: 0;
   border-radius: 4px;
   border-style: solid;
   border-width: 2px;
@@ -9206,7 +9206,7 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
   font-weight: 400;
   font-size: 20px;
   line-height: 60px;
-  color: white;
+  color: #ffffff;
   font-weight: bold;
 }
 
@@ -9238,7 +9238,7 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  border: none;
+  border: 0;
   border-radius: 4px;
   border-style: solid;
   border-width: 2px;
@@ -9398,7 +9398,7 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
     </title>
     <g
       class="emotion-2"
-      fill="white"
+      fill="#ffffff"
       fill-rule="nonzero"
     >
       <g
@@ -9525,7 +9525,7 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  border: none;
+  border: 0;
   border-radius: 4px;
   border-style: solid;
   border-width: 2px;
@@ -9585,9 +9585,9 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 44px;
-  color: white;
+  color: #ffffff;
   font-weight: bold;
 }
 
@@ -9619,7 +9619,7 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  border: none;
+  border: 0;
   border-radius: 4px;
   border-style: solid;
   border-width: 2px;
@@ -9756,7 +9756,7 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 44px;
   color: transparent;
   font-weight: bold;
@@ -9779,7 +9779,7 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
     </title>
     <g
       class="emotion-2"
-      fill="white"
+      fill="#ffffff"
       fill-rule="nonzero"
     >
       <g
@@ -9906,7 +9906,7 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  border: none;
+  border: 0;
   border-radius: 4px;
   border-style: solid;
   border-width: 2px;
@@ -9966,9 +9966,9 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 32px;
-  color: white;
+  color: #ffffff;
   font-weight: bold;
 }
 
@@ -10000,7 +10000,7 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  border: none;
+  border: 0;
   border-radius: 4px;
   border-style: solid;
   border-width: 2px;
@@ -10137,7 +10137,7 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 32px;
   color: transparent;
   font-weight: bold;
@@ -10160,7 +10160,7 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
     </title>
     <g
       class="emotion-2"
-      fill="white"
+      fill="#ffffff"
       fill-rule="nonzero"
     >
       <g
@@ -10287,7 +10287,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent b
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  border: none;
+  border: 0;
   border-radius: 4px;
   border-style: solid;
   border-width: 2px;
@@ -10387,7 +10387,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent b
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  border: none;
+  border: 0;
   border-radius: 4px;
   border-style: solid;
   border-width: 2px;
@@ -10675,7 +10675,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent b
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  border: none;
+  border: 0;
   border-radius: 4px;
   border-style: solid;
   border-width: 2px;
@@ -10741,7 +10741,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent b
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 44px;
   color: #05192d;
   font-weight: bold;
@@ -10775,7 +10775,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent b
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  border: none;
+  border: 0;
   border-radius: 4px;
   border-style: solid;
   border-width: 2px;
@@ -10913,7 +10913,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent b
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 44px;
   color: transparent;
   font-weight: bold;
@@ -11063,7 +11063,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent b
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  border: none;
+  border: 0;
   border-radius: 4px;
   border-style: solid;
   border-width: 2px;
@@ -11129,7 +11129,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent b
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 32px;
   color: #05192d;
   font-weight: bold;
@@ -11163,7 +11163,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent b
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  border: none;
+  border: 0;
   border-radius: 4px;
   border-style: solid;
   border-width: 2px;
@@ -11301,7 +11301,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent b
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 32px;
   color: transparent;
   font-weight: bold;
@@ -11451,7 +11451,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent d
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  border: none;
+  border: 0;
   border-radius: 4px;
   border-style: solid;
   border-width: 2px;
@@ -11551,7 +11551,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent d
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  border: none;
+  border: 0;
   border-radius: 4px;
   border-style: solid;
   border-width: 2px;
@@ -11839,7 +11839,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent d
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  border: none;
+  border: 0;
   border-radius: 4px;
   border-style: solid;
   border-width: 2px;
@@ -11905,7 +11905,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent d
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 44px;
   color: #05192d;
   font-weight: bold;
@@ -11939,7 +11939,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent d
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  border: none;
+  border: 0;
   border-radius: 4px;
   border-style: solid;
   border-width: 2px;
@@ -12077,7 +12077,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent d
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 44px;
   color: transparent;
   font-weight: bold;
@@ -12227,7 +12227,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent d
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  border: none;
+  border: 0;
   border-radius: 4px;
   border-style: solid;
   border-width: 2px;
@@ -12293,7 +12293,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent d
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 32px;
   color: #05192d;
   font-weight: bold;
@@ -12327,7 +12327,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent d
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  border: none;
+  border: 0;
   border-radius: 4px;
   border-style: solid;
   border-width: 2px;
@@ -12465,7 +12465,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent d
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 32px;
   color: transparent;
   font-weight: bold;
@@ -12615,7 +12615,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent n
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  border: none;
+  border: 0;
   border-radius: 4px;
   border-style: solid;
   border-width: 2px;
@@ -12683,7 +12683,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent n
   font-weight: 400;
   font-size: 20px;
   line-height: 60px;
-  color: white;
+  color: #ffffff;
   font-weight: bold;
 }
 
@@ -12715,7 +12715,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent n
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  border: none;
+  border: 0;
   border-radius: 4px;
   border-style: solid;
   border-width: 2px;
@@ -12876,7 +12876,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent n
     </title>
     <g
       class="emotion-2"
-      fill="white"
+      fill="#ffffff"
       fill-rule="nonzero"
     >
       <g
@@ -13003,7 +13003,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent n
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  border: none;
+  border: 0;
   border-radius: 4px;
   border-style: solid;
   border-width: 2px;
@@ -13069,9 +13069,9 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent n
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 44px;
-  color: white;
+  color: #ffffff;
   font-weight: bold;
 }
 
@@ -13103,7 +13103,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent n
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  border: none;
+  border: 0;
   border-radius: 4px;
   border-style: solid;
   border-width: 2px;
@@ -13241,7 +13241,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent n
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 44px;
   color: transparent;
   font-weight: bold;
@@ -13264,7 +13264,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent n
     </title>
     <g
       class="emotion-2"
-      fill="white"
+      fill="#ffffff"
       fill-rule="nonzero"
     >
       <g
@@ -13391,7 +13391,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent n
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  border: none;
+  border: 0;
   border-radius: 4px;
   border-style: solid;
   border-width: 2px;
@@ -13457,9 +13457,9 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent n
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 32px;
-  color: white;
+  color: #ffffff;
   font-weight: bold;
 }
 
@@ -13491,7 +13491,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent n
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  border: none;
+  border: 0;
   border-radius: 4px;
   border-style: solid;
   border-width: 2px;
@@ -13629,7 +13629,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent n
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 32px;
   color: transparent;
   font-weight: bold;
@@ -13652,7 +13652,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent n
     </title>
     <g
       class="emotion-2"
-      fill="white"
+      fill="#ffffff"
       fill-rule="nonzero"
     >
       <g
@@ -13779,7 +13779,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent s
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  border: none;
+  border: 0;
   border-radius: 4px;
   border-style: solid;
   border-width: 2px;
@@ -13879,7 +13879,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent s
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  border: none;
+  border: 0;
   border-radius: 4px;
   border-style: solid;
   border-width: 2px;
@@ -14167,7 +14167,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent s
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  border: none;
+  border: 0;
   border-radius: 4px;
   border-style: solid;
   border-width: 2px;
@@ -14233,7 +14233,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent s
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 44px;
   color: #05192d;
   font-weight: bold;
@@ -14267,7 +14267,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent s
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  border: none;
+  border: 0;
   border-radius: 4px;
   border-style: solid;
   border-width: 2px;
@@ -14405,7 +14405,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent s
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 44px;
   color: transparent;
   font-weight: bold;
@@ -14555,7 +14555,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent s
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  border: none;
+  border: 0;
   border-radius: 4px;
   border-style: solid;
   border-width: 2px;
@@ -14621,7 +14621,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent s
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 32px;
   color: #05192d;
   font-weight: bold;
@@ -14655,7 +14655,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent s
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  border: none;
+  border: 0;
   border-radius: 4px;
   border-style: solid;
   border-width: 2px;
@@ -14793,7 +14793,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent s
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 32px;
   color: transparent;
   font-weight: bold;
@@ -14943,7 +14943,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent w
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  border: none;
+  border: 0;
   border-radius: 4px;
   border-style: solid;
   border-width: 2px;
@@ -15043,7 +15043,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent w
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  border: none;
+  border: 0;
   border-radius: 4px;
   border-style: solid;
   border-width: 2px;
@@ -15331,7 +15331,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent w
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  border: none;
+  border: 0;
   border-radius: 4px;
   border-style: solid;
   border-width: 2px;
@@ -15397,7 +15397,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent w
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 44px;
   color: #05192d;
   font-weight: bold;
@@ -15431,7 +15431,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent w
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  border: none;
+  border: 0;
   border-radius: 4px;
   border-style: solid;
   border-width: 2px;
@@ -15569,7 +15569,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent w
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 44px;
   color: transparent;
   font-weight: bold;
@@ -15719,7 +15719,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent w
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  border: none;
+  border: 0;
   border-radius: 4px;
   border-style: solid;
   border-width: 2px;
@@ -15785,7 +15785,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent w
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 32px;
   color: #05192d;
   font-weight: bold;
@@ -15819,7 +15819,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent w
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  border: none;
+  border: 0;
   border-radius: 4px;
   border-style: solid;
   border-width: 2px;
@@ -15957,7 +15957,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent w
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 32px;
   color: transparent;
   font-weight: bold;
@@ -16107,7 +16107,7 @@ exports[`<Button /> snapshots renders a squared button with a single icon 1`] = 
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  border: none;
+  border: 0;
   border-radius: 4px;
   border-style: solid;
   border-width: 2px;
@@ -16187,7 +16187,7 @@ exports[`<Button /> tooltips tooltip appearance snapshots renders a tooltip with
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  border: none;
+  border: 0;
   border-radius: 4px;
   border-style: solid;
   border-width: 2px;
@@ -16247,7 +16247,7 @@ exports[`<Button /> tooltips tooltip appearance snapshots renders a tooltip with
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 44px;
   color: #05192d;
   font-weight: bold;
@@ -16320,7 +16320,7 @@ exports[`<Button /> tooltips tooltip appearance snapshots renders a tooltip with
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  border: none;
+  border: 0;
   border-radius: 4px;
   border-style: solid;
   border-width: 2px;
@@ -16380,7 +16380,7 @@ exports[`<Button /> tooltips tooltip appearance snapshots renders a tooltip with
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 44px;
   color: #05192d;
   font-weight: bold;
@@ -16452,7 +16452,7 @@ exports[`<Button /> tooltips tooltip appearance snapshots renders a tooltip with
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  border: none;
+  border: 0;
   border-radius: 4px;
   border-style: solid;
   border-width: 2px;
@@ -16512,7 +16512,7 @@ exports[`<Button /> tooltips tooltip appearance snapshots renders a tooltip with
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 44px;
   color: #05192d;
   font-weight: bold;
@@ -16585,7 +16585,7 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at b
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  border: none;
+  border: 0;
   border-radius: 4px;
   border-style: solid;
   border-width: 2px;
@@ -16645,7 +16645,7 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at b
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 44px;
   color: #05192d;
   font-weight: bold;
@@ -16718,7 +16718,7 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at b
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  border: none;
+  border: 0;
   border-radius: 4px;
   border-style: solid;
   border-width: 2px;
@@ -16778,7 +16778,7 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at b
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 44px;
   color: #05192d;
   font-weight: bold;
@@ -16847,7 +16847,7 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at b
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  border: none;
+  border: 0;
   border-radius: 4px;
   border-style: solid;
   border-width: 2px;
@@ -16907,7 +16907,7 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at b
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 44px;
   color: #05192d;
   font-weight: bold;
@@ -16980,7 +16980,7 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at l
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  border: none;
+  border: 0;
   border-radius: 4px;
   border-style: solid;
   border-width: 2px;
@@ -17040,7 +17040,7 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at l
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 44px;
   color: #05192d;
   font-weight: bold;
@@ -17113,7 +17113,7 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at r
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  border: none;
+  border: 0;
   border-radius: 4px;
   border-style: solid;
   border-width: 2px;
@@ -17173,7 +17173,7 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at r
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 44px;
   color: #05192d;
   font-weight: bold;
@@ -17246,7 +17246,7 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at t
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  border: none;
+  border: 0;
   border-radius: 4px;
   border-style: solid;
   border-width: 2px;
@@ -17306,7 +17306,7 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at t
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 44px;
   color: #05192d;
   font-weight: bold;
@@ -17379,7 +17379,7 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at t
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  border: none;
+  border: 0;
   border-radius: 4px;
   border-style: solid;
   border-width: 2px;
@@ -17439,7 +17439,7 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at t
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 44px;
   color: #05192d;
   font-weight: bold;
@@ -17512,7 +17512,7 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at t
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  border: none;
+  border: 0;
   border-radius: 4px;
   border-style: solid;
   border-width: 2px;
@@ -17572,7 +17572,7 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at t
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 44px;
   color: #05192d;
   font-weight: bold;
@@ -17645,7 +17645,7 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at u
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  border: none;
+  border: 0;
   border-radius: 4px;
   border-style: solid;
   border-width: 2px;
@@ -17705,7 +17705,7 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at u
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 44px;
   color: #05192d;
   font-weight: bold;

@@ -1,7 +1,6 @@
 import '@testing-library/jest-dom/extend-expect';
 
 import axeRender from '@datacamp/waffles-axe-render';
-import React from 'react';
 
 import { FacebookButton, GoogleButton, LinkedinButton, TwitterButton } from '.';
 

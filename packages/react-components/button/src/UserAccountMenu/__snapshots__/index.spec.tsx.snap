@@ -22,7 +22,7 @@ exports[`UserAccountMenu snapshots renders correctly when all optional props are
   border: 0;
   border-radius: 18px;
   box-sizing: border-box;
-  color: #000820;
+  color: #05192d;
   cursor: pointer;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -84,7 +84,7 @@ exports[`UserAccountMenu snapshots renders correctly when all optional props are
 .emotion-5 {
   position: absolute;
   right: 0;
-  z-index: 99;
+  z-index: 7000;
   top: 44px;
 }
 
@@ -167,7 +167,7 @@ exports[`UserAccountMenu snapshots renders correctly when all optional props are
   align-items: center;
   border: 0;
   box-sizing: border-box;
-  color: #000820;
+  color: #05192d;
   cursor: pointer;
   display: -webkit-box;
   display: -webkit-flex;
@@ -177,7 +177,7 @@ exports[`UserAccountMenu snapshots renders correctly when all optional props are
   font-size: 14px;
   font-weight: 400;
   height: 42px;
-  opacity: 0.6;
+  opacity: 60%;
   outline: 0;
   padding-left: 24px;
   padding-right: 24px;
@@ -440,7 +440,7 @@ exports[`UserAccountMenu snapshots renders correctly when only main app URL is p
   border: 0;
   border-radius: 18px;
   box-sizing: border-box;
-  color: #000820;
+  color: #05192d;
   cursor: pointer;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -564,7 +564,7 @@ exports[`UserAccountMenu snapshots renders correctly when only main app URL is p
   border: 0;
   border-radius: 18px;
   box-sizing: border-box;
-  color: #000820;
+  color: #05192d;
   cursor: pointer;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -626,7 +626,7 @@ exports[`UserAccountMenu snapshots renders correctly when only main app URL is p
 .emotion-5 {
   position: absolute;
   right: 0;
-  z-index: 99;
+  z-index: 7000;
   top: 44px;
 }
 
@@ -673,7 +673,7 @@ exports[`UserAccountMenu snapshots renders correctly when only main app URL is p
   align-items: center;
   border: 0;
   box-sizing: border-box;
-  color: #000820;
+  color: #05192d;
   cursor: pointer;
   display: -webkit-box;
   display: -webkit-flex;
@@ -683,7 +683,7 @@ exports[`UserAccountMenu snapshots renders correctly when only main app URL is p
   font-size: 14px;
   font-weight: 400;
   height: 42px;
-  opacity: 0.6;
+  opacity: 60%;
   outline: 0;
   padding-left: 24px;
   padding-right: 24px;

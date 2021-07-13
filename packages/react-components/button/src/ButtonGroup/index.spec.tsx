@@ -1,8 +1,7 @@
 import '@testing-library/jest-dom/extend-expect';
 
 import axeRender from '@datacamp/waffles-axe-render';
-import tokens from '@datacamp/waffles-tokens/lib/future-tokens.json';
-import React from 'react';
+import tokens from '@datacamp/waffles-tokens';
 import { ErrorBoundary } from 'react-error-boundary';
 
 import Button from '../Button';
@@ -31,14 +30,14 @@ describe('ButtonGroup', () => {
 
     expect(
       (getByText('Button 2') as HTMLElement).closest('button'),
-    ).toHaveStyle(`margin-left: ${tokens.size.space[16].value}px;`);
+    ).toHaveStyle(`margin-left: ${tokens.spacing.medium};`);
 
     expect(
       (getByText('Button 3') as HTMLElement).closest('button'),
-    ).toHaveStyle(`margin-left: ${tokens.size.space[16].value}px;`);
+    ).toHaveStyle(`margin-left: ${tokens.spacing.medium};`);
 
     expect(container.querySelector(`.compact`) as HTMLElement).toHaveStyle(
-      `margin-left: ${tokens.size.space[16].value}px;`,
+      `margin-left: ${tokens.spacing.medium};`,
     );
     expect(container.firstChild).toMatchSnapshot();
   });
@@ -73,14 +72,14 @@ describe('ButtonGroup', () => {
 
     expect(
       (getByText('Button 2') as HTMLElement).closest('button'),
-    ).toHaveStyle(`margin-left: ${tokens.size.space[8].value}px;`);
+    ).toHaveStyle(`margin-left: ${tokens.spacing.small};`);
 
     expect(
       (getByText('Button 3') as HTMLElement).closest('button'),
-    ).toHaveStyle(`margin-left: ${tokens.size.space[8].value}px;`);
+    ).toHaveStyle(`margin-left: ${tokens.spacing.small};`);
 
     expect(container.querySelector(`.compact`) as HTMLElement).toHaveStyle(
-      `margin-left: ${tokens.size.space[8].value}px;`,
+      `margin-left: ${tokens.spacing.small};`,
     );
     expect(container.firstChild).toMatchSnapshot();
   });
