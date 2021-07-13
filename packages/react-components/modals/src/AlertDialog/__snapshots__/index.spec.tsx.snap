@@ -96,7 +96,7 @@ exports[`<AlertModal /> isOpen renders the modal via a portal when true 1`] = `
   background-color: white;
   border: none;
   border-radius: 2px;
-  color: rgb(5, 25, 45);
+  color: #05192d;
   cursor: pointer;
   display: -webkit-box;
   display: -webkit-flex;
@@ -120,11 +120,11 @@ exports[`<AlertModal /> isOpen renders the modal via a portal when true 1`] = `
 }
 
 .emotion-5:active {
-  color: rgb(3, 239, 98);
+  color: #03ef62;
 }
 
 .emotion-5:disabled {
-  color: #D1D3D8;
+  color: #d9d9e2;
 }
 
 .emotion-5:disabled:hover,
@@ -133,11 +133,11 @@ exports[`<AlertModal /> isOpen renders the modal via a portal when true 1`] = `
 }
 
 .emotion-5:focus {
-  background-color: rgb(239, 239, 239);
+  background-color: #efefef;
 }
 
 .emotion-5:hover {
-  background-color: rgb(239, 239, 239);
+  background-color: #efefef;
 }
 
 .emotion-6 {
@@ -211,7 +211,7 @@ exports[`<AlertModal /> isOpen renders the modal via a portal when true 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  border: none;
+  border: 0;
   border-radius: 4px;
   border-style: solid;
   border-width: 2px;
@@ -272,7 +272,7 @@ exports[`<AlertModal /> isOpen renders the modal via a portal when true 1`] = `
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 44px;
   color: #05192d;
   font-weight: bold;
@@ -283,7 +283,7 @@ exports[`<AlertModal /> isOpen renders the modal via a portal when true 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  border: none;
+  border: 0;
   border-radius: 4px;
   border-style: solid;
   border-width: 2px;
@@ -344,7 +344,7 @@ exports[`<AlertModal /> isOpen renders the modal via a portal when true 1`] = `
 }
 
 .emotion-13:focus::after {
-  border: 1px dashed white;
+  border: 1px dashed #ffffff;
   border-radius: 2px;
   bottom: 2px;
   content: '';
@@ -359,7 +359,7 @@ exports[`<AlertModal /> isOpen renders the modal via a portal when true 1`] = `
 }
 
 .emotion-13:focus-visible::after {
-  border: 1px dashed white;
+  border: 1px dashed #ffffff;
   border-radius: 2px;
   bottom: 2px;
   content: '';
@@ -376,9 +376,9 @@ exports[`<AlertModal /> isOpen renders the modal via a portal when true 1`] = `
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 44px;
-  color: white;
+  color: #ffffff;
   font-weight: bold;
 }
 
