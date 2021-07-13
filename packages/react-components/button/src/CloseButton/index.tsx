@@ -3,18 +3,25 @@ import tokens from '@datacamp/waffles-tokens';
 import { css } from '@emotion/react';
 import React from 'react';
 
-const CloseButton: React.FC<{
+type CloseButtonProps = {
   className?: string;
   disabled?: boolean;
   onClick: () => void;
   size?: 'small' | 'large';
-}> = ({ className, disabled = false, onClick, size = 'large' }) => (
+};
+
+const CloseButton = ({
+  className,
+  disabled = false,
+  onClick,
+  size = 'large',
+}: CloseButtonProps): JSX.Element => (
   <button
     aria-label="Close"
     className={className}
     css={css({
       ':active': { color: tokens.colors.green },
-      ':disabled': { color: '#D1D3D8' },
+      ':disabled': { color: tokens.colors.greyMedium },
       ':disabled:hover, :disabled:focus': { backgroundColor: 'transparent' },
       ':focus': {
         backgroundColor: tokens.colors.greyLight,
@@ -33,7 +40,7 @@ const CloseButton: React.FC<{
       outline: 'none',
       padding: 0,
       width: size === 'large' ? 32 : 20,
-      zIndex: 1,
+      zIndex: tokens.zIndex.default,
     })}
     disabled={disabled}
     onClick={onClick}
