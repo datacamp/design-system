@@ -1,4 +1,4 @@
-import tokens, { borderRadius, borderWidth } from '@datacamp/waffles-tokens';
+import tokens from '@datacamp/waffles-tokens';
 import { hexToRgbaColor } from '@datacamp/waffles-utils';
 import { css, SerializedStyles } from '@emotion/react';
 
@@ -48,9 +48,9 @@ const baseStyle = css({
   ':focus': { outline: '0' },
   alignItems: 'center',
   border: 0,
-  borderRadius: borderRadius.medium,
+  borderRadius: tokens.borderRadius.medium,
   borderStyle: 'solid',
-  borderWidth: borderWidth.medium,
+  borderWidth: tokens.borderWidth.medium,
   cursor: 'pointer',
   display: 'inline-flex',
   justifyContent: 'center',
