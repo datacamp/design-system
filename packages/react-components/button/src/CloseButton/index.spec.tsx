@@ -2,7 +2,6 @@ import '@testing-library/jest-dom/extend-expect';
 
 import axeRender from '@datacamp/waffles-axe-render';
 import userEvent from '@testing-library/user-event';
-import React from 'react';
 
 import CloseButton from '.';
 

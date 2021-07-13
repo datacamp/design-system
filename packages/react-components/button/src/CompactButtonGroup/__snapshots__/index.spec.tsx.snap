@@ -14,7 +14,7 @@ exports[`CompactButtonGroup renders the buttons next to each other 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  border: none;
+  border: 0;
   border-radius: 4px;
   border-style: solid;
   border-width: 2px;
@@ -87,7 +87,7 @@ exports[`CompactButtonGroup renders the buttons next to each other 1`] = `
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 44px;
   color: #05192d;
   font-weight: bold;
@@ -98,7 +98,7 @@ exports[`CompactButtonGroup renders the buttons next to each other 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  border: none;
+  border: 0;
   border-radius: 4px;
   border-style: solid;
   border-width: 2px;
@@ -170,7 +170,7 @@ exports[`CompactButtonGroup renders the buttons next to each other 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  border: none;
+  border: 0;
   border-radius: 4px;
   border-style: solid;
   border-width: 2px;
