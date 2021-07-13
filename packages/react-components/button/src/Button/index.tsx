@@ -1,6 +1,6 @@
 import * as Icons from '@datacamp/waffles-icons';
 import { Text } from '@datacamp/waffles-text';
-import tokens from '@datacamp/waffles-tokens/lib/future-tokens.json';
+import tokens from '@datacamp/waffles-tokens';
 import Tooltip from '@datacamp/waffles-tooltip';
 import { childrenOfType, computeDataAttributes } from '@datacamp/waffles-utils';
 import { css, SerializedStyles } from '@emotion/react';
@@ -172,8 +172,8 @@ const InternalButton = (
   const textColor =
     (appearance === 'primary' && intent === 'neutral') ||
     appearance === 'inverted'
-      ? 'white'
-      : tokens.color.primary.navyText.value.hex;
+      ? tokens.colors.white
+      : tokens.colors.navy;
   const iconColor = appearance === 'primary' ? textColor : 'currentColor';
 
   const baseTextStyle = css(fontSizes[size], {
@@ -181,7 +181,7 @@ const InternalButton = (
     fontWeight: 'bold',
   });
   const margin =
-    size === 'large' ? tokens.size.space[16].value : tokens.size.space[8].value;
+    size === 'large' ? tokens.spacing.medium : tokens.spacing.small;
   const getTextStyleWithMargin = (i: number | undefined): SerializedStyles => {
     if (i === 1) {
       return css(baseTextStyle, {
@@ -194,7 +194,7 @@ const InternalButton = (
   };
 
   const focusStyleContent = {
-    border: `1px dashed ${textColor}`,
+    border: `${tokens.borderWidth.thin} dashed ${textColor}`,
     borderRadius: 2,
     bottom: 2,
     content: "''",

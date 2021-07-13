@@ -1,11 +1,11 @@
-import React from 'react';
-
 import spinnerStyle from './spinnerStyle';
 
-const Spinner: React.FC<{ className?: string; color: string }> = ({
-  className,
-  color,
-}) => {
+type SpinnerProps = {
+  className?: string;
+  color: string;
+};
+
+const Spinner = ({ className, color }: SpinnerProps): JSX.Element => {
   return (
     <svg
       className={className}

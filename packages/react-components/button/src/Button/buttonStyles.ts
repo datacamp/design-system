@@ -1,4 +1,4 @@
-import tokens from '@datacamp/waffles-tokens/lib/future-tokens.json';
+import tokens, { borderRadius, borderWidth } from '@datacamp/waffles-tokens';
 import { hexToRgbaColor } from '@datacamp/waffles-utils';
 import { css, SerializedStyles } from '@emotion/react';
 
@@ -14,19 +14,19 @@ type Intent = keyof IntentMap;
 
 // CUSTOM TOKENS
 const baseColors: IntentMap = {
-  b2b: tokens.color.primary.yellow.value.hex,
-  danger: tokens.color.primary.red.value.hex,
-  neutral: tokens.color.primary.navy.value.hex,
-  success: tokens.color.primary.green.value.hex,
-  warning: tokens.color.primary.orange.value.hex,
+  b2b: tokens.colors.yellow,
+  danger: tokens.colors.red,
+  neutral: tokens.colors.navy,
+  success: tokens.colors.green,
+  warning: tokens.colors.orange,
 };
 
 const primaryHoverColors: IntentMap = {
-  b2b: tokens.color.primary.yellowLight.value.hex,
-  danger: tokens.color.primary.redLight.value.hex,
-  neutral: tokens.color.primary.navyLight.value.hex,
-  success: tokens.color.primary.greenLight.value.hex,
-  warning: tokens.color.primary.orangeLight.value.hex,
+  b2b: tokens.colors.yellowLight,
+  danger: tokens.colors.redLight,
+  neutral: tokens.colors.navyLight,
+  success: tokens.colors.greenLight,
+  warning: tokens.colors.orangeLight,
 };
 
 const outlineHoverColors = (Object.keys(baseColors) as Array<
@@ -47,10 +47,10 @@ const baseStyle = css({
   },
   ':focus': { outline: '0' },
   alignItems: 'center',
-  border: 'none',
-  borderRadius: '4px',
+  border: 0,
+  borderRadius: borderRadius.medium,
   borderStyle: 'solid',
-  borderWidth: '2px',
+  borderWidth: borderWidth.medium,
   cursor: 'pointer',
   display: 'inline-flex',
   justifyContent: 'center',
@@ -88,9 +88,9 @@ const getIconSize = (size: 'small' | 'medium' | 'large'): SerializedStyles => {
 };
 
 const fontSizes = {
-  large: { fontSize: '20px', lineHeight: '60px' },
-  medium: { fontSize: '16px', lineHeight: '44px' },
-  small: { fontSize: '16px', lineHeight: '32px' },
+  large: { fontSize: tokens.fontSizes.xxlarge, lineHeight: '60px' },
+  medium: { fontSize: tokens.fontSizes.medium, lineHeight: '44px' },
+  small: { fontSize: tokens.fontSizes.medium, lineHeight: '32px' },
 };
 
 const getDefaultStyle = (intent: Intent, enabled: boolean): SerializedStyles =>
@@ -134,10 +134,7 @@ const getInvertedStyle = (intent: Intent, enabled: boolean): SerializedStyles =>
         },
         enabled && {
           ':hover': {
-            backgroundColor: hexToRgbaColor(
-              tokens.color.primary.white.value.hex,
-              0.15,
-            ),
+            backgroundColor: hexToRgbaColor(tokens.colors.white, 0.15),
           },
         },
       )
