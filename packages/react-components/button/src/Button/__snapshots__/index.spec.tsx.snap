@@ -16266,10 +16266,10 @@ exports[`<Button /> tooltips tooltip appearance snapshots renders a tooltip with
   -moz-transform: translate(-50%, 0);
   -ms-transform: translate(-50%, 0);
   transform: translate(-50%, 0);
-  padding-bottom: 8px;
-  padding-left: 12px;
-  padding-right: 12px;
-  padding-top: 8px;
+  padding-bottom: 4px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 4px;
   z-index: 1;
   background-color: #05192d;
   box-shadow: none;
@@ -16282,7 +16282,7 @@ exports[`<Button /> tooltips tooltip appearance snapshots renders a tooltip with
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 12px;
   white-space: nowrap;
   color: #ffffff;
 }
@@ -16399,10 +16399,10 @@ exports[`<Button /> tooltips tooltip appearance snapshots renders a tooltip with
   -moz-transform: translate(-50%, 0);
   -ms-transform: translate(-50%, 0);
   transform: translate(-50%, 0);
-  padding-bottom: 8px;
-  padding-left: 12px;
-  padding-right: 12px;
-  padding-top: 8px;
+  padding-bottom: 4px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 4px;
   z-index: 1;
   background-color: #fffbf3;
 }
@@ -16414,7 +16414,7 @@ exports[`<Button /> tooltips tooltip appearance snapshots renders a tooltip with
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 12px;
   white-space: nowrap;
   color: #05192d;
 }
@@ -16531,10 +16531,10 @@ exports[`<Button /> tooltips tooltip appearance snapshots renders a tooltip with
   -moz-transform: translate(-50%, 0);
   -ms-transform: translate(-50%, 0);
   transform: translate(-50%, 0);
-  padding-bottom: 8px;
-  padding-left: 12px;
-  padding-right: 12px;
-  padding-top: 8px;
+  padding-bottom: 4px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 4px;
   z-index: 1;
   background-color: #05192d;
   box-shadow: none;
@@ -16547,7 +16547,7 @@ exports[`<Button /> tooltips tooltip appearance snapshots renders a tooltip with
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 12px;
   white-space: nowrap;
   color: #ffffff;
 }
@@ -16664,10 +16664,10 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at b
   -moz-transform: translate(-50%, 0);
   -ms-transform: translate(-50%, 0);
   transform: translate(-50%, 0);
-  padding-bottom: 8px;
-  padding-left: 12px;
-  padding-right: 12px;
-  padding-top: 8px;
+  padding-bottom: 4px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 4px;
   z-index: 1;
   background-color: #05192d;
   box-shadow: none;
@@ -16680,7 +16680,7 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at b
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 12px;
   white-space: nowrap;
   color: #ffffff;
 }
@@ -16793,10 +16793,10 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at b
   position: fixed;
   left: 0;
   top: 8px;
-  padding-bottom: 8px;
-  padding-left: 12px;
-  padding-right: 12px;
-  padding-top: 8px;
+  padding-bottom: 4px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 4px;
   z-index: 1;
   background-color: #05192d;
   box-shadow: none;
@@ -16809,7 +16809,7 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at b
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 12px;
   white-space: nowrap;
   color: #ffffff;
 }
@@ -16926,10 +16926,10 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at b
   -moz-transform: translate(-100%);
   -ms-transform: translate(-100%);
   transform: translate(-100%);
-  padding-bottom: 8px;
-  padding-left: 12px;
-  padding-right: 12px;
-  padding-top: 8px;
+  padding-bottom: 4px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 4px;
   z-index: 1;
   background-color: #05192d;
   box-shadow: none;
@@ -16942,7 +16942,7 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at b
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 12px;
   white-space: nowrap;
   color: #ffffff;
 }
@@ -17059,10 +17059,10 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at l
   -moz-transform: translate(-100%, -50%);
   -ms-transform: translate(-100%, -50%);
   transform: translate(-100%, -50%);
-  padding-bottom: 8px;
-  padding-left: 12px;
-  padding-right: 12px;
-  padding-top: 8px;
+  padding-bottom: 4px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 4px;
   z-index: 1;
   background-color: #05192d;
   box-shadow: none;
@@ -17075,7 +17075,7 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at l
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 12px;
   white-space: nowrap;
   color: #ffffff;
 }
@@ -17192,10 +17192,10 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at r
   -moz-transform: translate(0, -50%);
   -ms-transform: translate(0, -50%);
   transform: translate(0, -50%);
-  padding-bottom: 8px;
-  padding-left: 12px;
-  padding-right: 12px;
-  padding-top: 8px;
+  padding-bottom: 4px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 4px;
   z-index: 1;
   background-color: #05192d;
   box-shadow: none;
@@ -17208,7 +17208,7 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at r
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 12px;
   white-space: nowrap;
   color: #ffffff;
 }
@@ -17325,10 +17325,10 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at t
   -moz-transform: translate(-50%, -100%);
   -ms-transform: translate(-50%, -100%);
   transform: translate(-50%, -100%);
-  padding-bottom: 8px;
-  padding-left: 12px;
-  padding-right: 12px;
-  padding-top: 8px;
+  padding-bottom: 4px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 4px;
   z-index: 1;
   background-color: #05192d;
   box-shadow: none;
@@ -17341,7 +17341,7 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at t
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 12px;
   white-space: nowrap;
   color: #ffffff;
 }
@@ -17458,10 +17458,10 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at t
   -moz-transform: translate(0, -100%);
   -ms-transform: translate(0, -100%);
   transform: translate(0, -100%);
-  padding-bottom: 8px;
-  padding-left: 12px;
-  padding-right: 12px;
-  padding-top: 8px;
+  padding-bottom: 4px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 4px;
   z-index: 1;
   background-color: #05192d;
   box-shadow: none;
@@ -17474,7 +17474,7 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at t
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 12px;
   white-space: nowrap;
   color: #ffffff;
 }
@@ -17591,10 +17591,10 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at t
   -moz-transform: translate(-100%, -100%);
   -ms-transform: translate(-100%, -100%);
   transform: translate(-100%, -100%);
-  padding-bottom: 8px;
-  padding-left: 12px;
-  padding-right: 12px;
-  padding-top: 8px;
+  padding-bottom: 4px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 4px;
   z-index: 1;
   background-color: #05192d;
   box-shadow: none;
@@ -17607,7 +17607,7 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at t
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 12px;
   white-space: nowrap;
   color: #ffffff;
 }
@@ -17724,10 +17724,10 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at u
   -moz-transform: translate(-50%, 0);
   -ms-transform: translate(-50%, 0);
   transform: translate(-50%, 0);
-  padding-bottom: 8px;
-  padding-left: 12px;
-  padding-right: 12px;
-  padding-top: 8px;
+  padding-bottom: 4px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 4px;
   z-index: 1;
   background-color: #05192d;
   box-shadow: none;
@@ -17740,7 +17740,7 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at u
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 12px;
   white-space: nowrap;
   color: #ffffff;
 }
