@@ -1,4 +1,4 @@
-import tokens from '@datacamp/waffles-tokens/lib/future-tokens.json';
+import tokens from '@datacamp/waffles-tokens';
 import { childrenOfType, isChildType } from '@datacamp/waffles-utils';
 import { ClassNames } from '@emotion/react';
 import PropTypes from 'prop-types';
@@ -41,9 +41,7 @@ const ButtonGroup = ({
   }
 
   const gap =
-    sizes[0] === 'small'
-      ? tokens.size.space[8].value
-      : tokens.size.space[16].value;
+    sizes[0] === 'small' ? tokens.spacing.small : tokens.spacing.medium;
 
   return (
     <div
