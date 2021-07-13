@@ -51,7 +51,7 @@ Tokens has been updated to stay in line with [Design Guidelines](https://www.fig
   - 🟢 new brand colors `brandFacebook`, `brandTwitter`, `brandGoogle`, `brandLinkedIn`
   - 🟢 new text colors `navySubtleTextOnDark`, `navySubtleTextOnLight`
   - 🟢 new `greyDark` color
-  - 🚨 `navyText` -> `navyDark`
+  - 🚨 `navyText` -> `navy`
   - 🚨 `greenText` -> `greenDarkText`
   - 🚨 `redText` -> `redDarkText`
   - 🚨 `orangeText` -> `orangeDarkText`
