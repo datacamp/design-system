@@ -6,9 +6,9 @@ import Menu from './Menu';
 import MenuItem from './MenuItem';
 
 const logoutStyle = css({
-  borderTop: `1px solid ${tokens.colors.beigeMedium}`,
-  marginTop: 8,
-  paddingTop: 8,
+  borderTop: `${tokens.borderWidth.thin} solid ${tokens.colors.beigeMedium}`,
+  marginTop: tokens.spacing.small,
+  paddingTop: tokens.spacing.small,
 });
 
 type UserAccountMenuProps = {
