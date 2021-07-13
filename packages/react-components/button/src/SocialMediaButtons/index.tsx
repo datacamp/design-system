@@ -42,24 +42,24 @@ const socialMediaButtonFactory = (
 
 export const TwitterButton = socialMediaButtonFactory(
   'Twitter',
-  '#00acee',
+  tokens.colors.brandTwitter,
   <TwitterBrandIcon />,
 );
 
 export const FacebookButton = socialMediaButtonFactory(
   'Facebook',
-  '#1778f2',
+  tokens.colors.brandFacebook,
   <FacebookRoundBrandIcon />,
 );
 
 export const GoogleButton = socialMediaButtonFactory(
   'Google',
-  '#db4437',
+  tokens.colors.brandGoogle,
   <GoogleColoredBrandIcon />,
 );
 
 export const LinkedinButton = socialMediaButtonFactory(
   'LinkedIn',
-  '#0e76a8',
+  tokens.colors.brandLinkedIn,
   <LinkedinBrandIcon />,
 );
