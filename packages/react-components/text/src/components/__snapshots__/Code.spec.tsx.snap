@@ -13,12 +13,8 @@ exports[`snapshots renders 1`] = `
   margin: 0;
   padding: 0;
   background-color: #efebe4;
-  margin-left: 2px;
-  margin-right: 4px;
-  padding-bottom: 0;
-  padding-left: 2px;
-  padding-right: 2px;
-  padding-top: 0;
+  margin: 0 2px;
+  padding: 2px 4px;
 }
 
 <code
