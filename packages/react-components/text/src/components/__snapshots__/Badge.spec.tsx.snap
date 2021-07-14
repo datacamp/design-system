@@ -3,11 +3,11 @@
 exports[`Badge renders with the provided colour, className and content 1`] = `
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(5, 25, 45);
-  font-family: Studio-Feixen-Sans,Arial;
+  color: #05192d;
+  font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
   font-weight: 800;
-  line-height: 16px;
+  line-height: 20px;
   border-radius: 4px;
   display: inline-block;
   text-transform: uppercase;
