@@ -947,10 +947,10 @@ exports[`snapshots renders an empty switch 1`] = `
     >
       <svg
         aria-hidden="true"
-        height="12"
+        height="14"
         role="img"
         viewBox="0 0 18 18"
-        width="12"
+        width="14"
       >
         <title>
           Checkmark
