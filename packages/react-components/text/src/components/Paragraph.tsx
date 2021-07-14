@@ -1,10 +1,10 @@
-import tokens from '@datacamp/waffles-tokens/lib/future-tokens.json';
+import tokens from '@datacamp/waffles-tokens';
 import {
   computeDataAttributes,
   ssrSafeNotFirstChildSelector,
 } from '@datacamp/waffles-utils';
 import { css } from '@emotion/react';
-import { ReactElement, ReactNode } from 'react';
+import React from 'react';
 
 import baseStyle from '../baseStyle';
 
@@ -14,7 +14,7 @@ interface ParagraphProps {
    * components, Strong components, Small components, Emphasis components, and
    * Code components.
    */
-  children: ReactNode;
+  children: React.ReactNode;
   /**
    * Sets the css class of the rendered element. Can be used to apply custom
    * styles.
@@ -28,18 +28,18 @@ interface ParagraphProps {
 }
 
 const paragraphStyle = css(baseStyle, {
-  fontSize: tokens.size.font[300].value,
-  fontWeight: tokens.fontWeight.regular.value,
-  lineHeight: tokens.lineHeight.base.value,
+  fontSize: tokens.fontSizes.medium,
+  fontWeight: tokens.fontWeights.regular,
+  lineHeight: tokens.lineHeights.medium,
   margin: 0,
-  [ssrSafeNotFirstChildSelector]: { marginTop: tokens.size.space[8].value },
+  [ssrSafeNotFirstChildSelector]: { marginTop: tokens.spacing.small },
 });
 
 const Paragraph = ({
   children,
   className,
   dataAttributes,
-}: ParagraphProps): ReactElement => {
+}: ParagraphProps): JSX.Element => {
   const parsedDataAttributes = computeDataAttributes(dataAttributes);
 
   return (
