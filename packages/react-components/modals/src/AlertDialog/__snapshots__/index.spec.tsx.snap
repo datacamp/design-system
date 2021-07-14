@@ -165,31 +165,31 @@ exports[`<AlertModal /> isOpen renders the modal via a portal when true 1`] = `
 
 .emotion-8 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(5, 25, 45);
-  font-family: Studio-Feixen-Sans,Arial;
+  color: #05192d;
+  font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
-  color: rgb(5, 25, 45);
+  color: #05192d;
   font-weight: 800;
   margin: 0;
   overflow: reset;
   white-space: normal;
-  font-size: 24px;
-  letter-spacing: -0.5px;
-  line-height: 1.2;
+  font-size: 16px;
+  letter-spacing: 0px;
+  line-height: 20px;
 }
 
 *:not(style)~.emotion-8 {
-  margin-top: 16px;
+  margin-top: 8px;
 }
 
 .emotion-9 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(5, 25, 45);
-  font-family: Studio-Feixen-Sans,Arial;
+  color: #05192d;
+  font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 400;
-  line-height: 1.5;
+  line-height: 20px;
   margin: 0;
 }
 
@@ -267,10 +267,10 @@ exports[`<AlertModal /> isOpen renders the modal via a portal when true 1`] = `
 
 .emotion-12 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(5, 25, 45);
-  font-family: Studio-Feixen-Sans,Arial;
+  color: #05192d;
+  font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 400;
   font-size: 14px;
   line-height: 44px;
@@ -371,10 +371,10 @@ exports[`<AlertModal /> isOpen renders the modal via a portal when true 1`] = `
 
 .emotion-14 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(5, 25, 45);
-  font-family: Studio-Feixen-Sans,Arial;
+  color: #05192d;
+  font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 400;
   font-size: 14px;
   line-height: 44px;
