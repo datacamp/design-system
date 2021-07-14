@@ -26,20 +26,20 @@ interface BadgeProps {
 }
 
 const baseStyle = css({
-  borderRadius: 4,
+  borderRadius: tokens.borderRadius.medium,
   display: 'inline-block',
   textTransform: 'uppercase',
 });
 
 const sizeStyles = {
   large: {
-    fontSize: tokens.fontSizes.large,
-    lineHeight: '24px',
-    paddingLeft: tokens.spacing.small,
-    paddingRight: tokens.spacing.small,
+    fontSize: tokens.fontSizes.medium,
+    lineHeight: '18px',
+    paddingLeft: tokens.spacing.xsmall,
+    paddingRight: tokens.spacing.xsmall,
   },
   small: {
-    fontSize: tokens.fontSizes.medium,
+    fontSize: tokens.fontSizes.small,
     lineHeight: '18px',
     paddingLeft: tokens.spacing.xsmall,
     paddingRight: tokens.spacing.xsmall,
