@@ -1,7 +1,6 @@
-import tokens from '@datacamp/waffles-tokens/lib/future-tokens.json';
+import tokens from '@datacamp/waffles-tokens';
 import { computeDataAttributes } from '@datacamp/waffles-utils';
 import { css } from '@emotion/react';
-import React, { ReactElement } from 'react';
 
 import codeStyle from '../codeStyle';
 
@@ -23,12 +22,12 @@ export interface CodeProps {
 }
 
 const style = css(codeStyle, {
-  backgroundColor: tokens.color.neutral.beige300.value.rgb,
-  marginLeft: tokens.size.space[2].value,
-  marginRight: tokens.size.space[4].value,
+  backgroundColor: tokens.colors.beige,
+  marginLeft: 2,
+  marginRight: 4,
   paddingBottom: 0,
-  paddingLeft: tokens.size.space[2].value,
-  paddingRight: tokens.size.space[2].value,
+  paddingLeft: 2,
+  paddingRight: 2,
   paddingTop: 0,
 });
 
@@ -36,7 +35,7 @@ const Code = ({
   children,
   className,
   dataAttributes,
-}: CodeProps): ReactElement => {
+}: CodeProps): JSX.Element => {
   const parsedDataAttributes = computeDataAttributes(dataAttributes);
 
   return (
