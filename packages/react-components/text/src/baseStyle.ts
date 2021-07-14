@@ -1,9 +1,9 @@
-import tokens from '@datacamp/waffles-tokens/lib/future-tokens.json';
+import tokens from '@datacamp/waffles-tokens';
 import { css } from '@emotion/react';
 
 const baseStyle = css('-webkit-font-smoothing: antialiased;', {
-  color: tokens.color.primary.navyText.value.rgb,
-  fontFamily: `${tokens.asset.font.sansSerif.value}, ${tokens.asset.font.sansSerif.attributes.fallback}`,
+  color: tokens.colors.navy,
+  fontFamily: tokens.fontFamilies.sansSerif,
   fontStyle: 'normal',
 });
 
