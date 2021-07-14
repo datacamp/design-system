@@ -1,7 +1,6 @@
-import tokens from '@datacamp/waffles-tokens/lib/future-tokens.json';
+import tokens from '@datacamp/waffles-tokens';
 import { hexColorLuminance } from '@datacamp/waffles-utils';
 import { css } from '@emotion/react';
-import React from 'react';
 
 import Strong from './Strong';
 
@@ -34,16 +33,16 @@ const baseStyle = css({
 
 const sizeStyles = {
   large: {
-    fontSize: tokens.size.font[300].value,
+    fontSize: tokens.fontSizes.large,
     lineHeight: '24px',
-    paddingLeft: tokens.size.space[8].value,
-    paddingRight: tokens.size.space[8].value,
+    paddingLeft: tokens.sizing.medium,
+    paddingRight: tokens.sizing.medium,
   },
   small: {
-    fontSize: tokens.size.font[200].value,
+    fontSize: tokens.fontSizes.medium,
     lineHeight: '18px',
-    paddingLeft: tokens.size.space[4].value,
-    paddingRight: tokens.size.space[4].value,
+    paddingLeft: tokens.sizing.small,
+    paddingRight: tokens.sizing.small,
   },
 };
 
@@ -51,9 +50,7 @@ const getTextColor = (backgroundColor: string): string => {
   // Compare to luminance of neutral grey color in the middle of the RGB scale
   const isColorLight = hexColorLuminance(backgroundColor) > 0.179;
 
-  return isColorLight
-    ? tokens.color.primary.navyText.value.hex
-    : tokens.color.primary.white.value.hex;
+  return isColorLight ? tokens.colors.navy : tokens.colors.white;
 };
 
 const Badge = ({
@@ -61,7 +58,7 @@ const Badge = ({
   className,
   color,
   size = 'small',
-}: BadgeProps): React.ReactElement => (
+}: BadgeProps): JSX.Element => (
   <Strong
     className={className}
     css={css(
