@@ -16167,10 +16167,10 @@ exports[`<Button /> snapshots renders a squared button with a single icon 1`] = 
 >
   <svg
     aria-hidden="true"
-    height="18"
+    height="16"
     role="img"
     viewBox="0 0 18 18"
-    width="18"
+    width="16"
   >
     <path
       d="M9 16A7 7 0 109 2a7 7 0 000 14zm0 2A9 9 0 119 0a9 9 0 010 18zm1-10h3a1 1 0 010 2h-3v3a1 1 0 01-2 0v-3H5a1 1 0 110-2h3V5a1 1 0 112 0v3z"

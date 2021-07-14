@@ -243,10 +243,10 @@ exports[`UserAccountMenu snapshots renders correctly when all optional props are
     <svg
       aria-hidden="true"
       class="emotion-4"
-      height="18"
+      height="16"
       role="img"
       viewBox="0 0 18 18"
-      width="18"
+      width="16"
     >
       <title>
         Chevron Up
@@ -290,10 +290,10 @@ exports[`UserAccountMenu snapshots renders correctly when all optional props are
           >
             <svg
               aria-hidden="true"
-              height="18"
+              height="16"
               role="img"
               viewBox="0 0 18 18"
-              width="18"
+              width="16"
             >
               <title>
                 User
@@ -324,10 +324,10 @@ exports[`UserAccountMenu snapshots renders correctly when all optional props are
           >
             <svg
               aria-hidden="true"
-              height="18"
+              height="16"
               role="img"
               viewBox="0 0 18 18"
-              width="18"
+              width="16"
             >
               <title>
                 Cog
@@ -357,10 +357,10 @@ exports[`UserAccountMenu snapshots renders correctly when all optional props are
           >
             <svg
               aria-hidden="true"
-              height="18"
+              height="16"
               role="img"
               viewBox="0 0 18 18"
-              width="18"
+              width="16"
             >
               <title>
                 Add
@@ -391,10 +391,10 @@ exports[`UserAccountMenu snapshots renders correctly when all optional props are
           >
             <svg
               aria-hidden="true"
-              height="18"
+              height="16"
               role="img"
               viewBox="0 0 18 18"
-              width="18"
+              width="16"
             >
               <title>
                 Exit
@@ -524,10 +524,10 @@ exports[`UserAccountMenu snapshots renders correctly when only main app URL is p
     <svg
       aria-hidden="true"
       class="emotion-4"
-      height="18"
+      height="16"
       role="img"
       viewBox="0 0 18 18"
-      width="18"
+      width="16"
     >
       <title>
         Down Chevron
@@ -748,10 +748,10 @@ exports[`UserAccountMenu snapshots renders correctly when only main app URL is p
     <svg
       aria-hidden="true"
       class="emotion-4"
-      height="18"
+      height="16"
       role="img"
       viewBox="0 0 18 18"
-      width="18"
+      width="16"
     >
       <title>
         Chevron Up
@@ -785,10 +785,10 @@ exports[`UserAccountMenu snapshots renders correctly when only main app URL is p
           >
             <svg
               aria-hidden="true"
-              height="18"
+              height="16"
               role="img"
               viewBox="0 0 18 18"
-              width="18"
+              width="16"
             >
               <title>
                 Cog
@@ -818,10 +818,10 @@ exports[`UserAccountMenu snapshots renders correctly when only main app URL is p
           >
             <svg
               aria-hidden="true"
-              height="18"
+              height="16"
               role="img"
               viewBox="0 0 18 18"
-              width="18"
+              width="16"
             >
               <title>
                 Exit
