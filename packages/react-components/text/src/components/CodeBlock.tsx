@@ -1,10 +1,9 @@
-import tokens from '@datacamp/waffles-tokens/lib/future-tokens.json';
+import tokens from '@datacamp/waffles-tokens';
 import {
   computeDataAttributes,
   ssrSafeNotFirstChildSelector,
 } from '@datacamp/waffles-utils';
 import { css } from '@emotion/react';
-import React, { ReactElement } from 'react';
 
 import codeStyle from '../codeStyle';
 
@@ -26,18 +25,18 @@ export interface CodeBlockProps {
 }
 
 const preStyle = css({
-  backgroundColor: tokens.color.neutral.beige300.value.rgb,
+  backgroundColor: tokens.colors.beige,
   border: 0,
-  borderRadius: tokens.radii.small.value,
-  lineHeight: tokens.lineHeight.base.value,
+  borderRadius: tokens.borderRadius.medium,
+  lineHeight: tokens.lineHeights.medium,
   margin: 0,
   overflow: 'scroll',
-  paddingBottom: tokens.size.space[8].value,
-  paddingLeft: tokens.size.space[12].value,
-  paddingRight: tokens.size.space[12].value,
-  paddingTop: tokens.size.space[8].value,
+  paddingBottom: tokens.spacing.small,
+  paddingLeft: 12,
+  paddingRight: 12,
+  paddingTop: tokens.spacing.small,
   [ssrSafeNotFirstChildSelector]: {
-    marginTop: tokens.size.space[12].value,
+    marginTop: 12,
   },
 });
 
@@ -45,7 +44,7 @@ const CodeBlock = ({
   children,
   className,
   dataAttributes,
-}: CodeBlockProps): ReactElement => {
+}: CodeBlockProps): JSX.Element => {
   const parsedDataAttributes = computeDataAttributes(dataAttributes);
 
   return (
