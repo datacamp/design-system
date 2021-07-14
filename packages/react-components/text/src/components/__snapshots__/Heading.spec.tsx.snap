@@ -427,7 +427,7 @@ exports[`<Heading /> renders at each size renders at size 800, multiLine=false 1
   white-space: nowrap;
   font-size: 28px;
   letter-spacing: 0px;
-  line-height: 28px;
+  line-height: 34px;
 }
 
 *:not(style)~.emotion-0 {
@@ -456,7 +456,7 @@ exports[`<Heading /> renders at each size renders at size 800, multiLine=true 1`
   white-space: normal;
   font-size: 28px;
   letter-spacing: 0px;
-  line-height: 28px;
+  line-height: 34px;
 }
 
 *:not(style)~.emotion-0 {
@@ -486,7 +486,7 @@ exports[`<Heading /> renders at each size renders at size 900, multiLine=false 1
   white-space: nowrap;
   font-size: 28px;
   letter-spacing: -0.5px;
-  line-height: 28px;
+  line-height: 34px;
 }
 
 *:not(style)~.emotion-0 {
@@ -515,7 +515,7 @@ exports[`<Heading /> renders at each size renders at size 900, multiLine=true 1`
   white-space: normal;
   font-size: 28px;
   letter-spacing: -0.5px;
-  line-height: 28px;
+  line-height: 34px;
 }
 
 *:not(style)~.emotion-0 {
