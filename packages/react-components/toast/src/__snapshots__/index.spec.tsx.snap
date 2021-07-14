@@ -122,10 +122,10 @@ exports[`toast mounts a success toast 1`] = `
     <svg
       aria-hidden="false"
       class="emotion-1"
-      height="18"
+      height="16"
       role="img"
       viewBox="0 0 18 18"
-      width="18"
+      width="16"
     >
       <title>
         success
@@ -152,10 +152,10 @@ exports[`toast mounts a success toast 1`] = `
     >
       <svg
         aria-hidden="true"
-        height="12"
+        height="16"
         role="img"
         viewBox="0 0 18 18"
-        width="12"
+        width="16"
       >
         <title>
           Cross
@@ -293,10 +293,10 @@ exports[`toast mounts an error toast 1`] = `
     <svg
       aria-hidden="false"
       class="emotion-1"
-      height="18"
+      height="16"
       role="img"
       viewBox="0 0 18 18"
-      width="18"
+      width="16"
     >
       <title>
         error
@@ -323,10 +323,10 @@ exports[`toast mounts an error toast 1`] = `
     >
       <svg
         aria-hidden="true"
-        height="12"
+        height="16"
         role="img"
         viewBox="0 0 18 18"
-        width="12"
+        width="16"
       >
         <title>
           Cross
