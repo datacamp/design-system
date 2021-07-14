@@ -15,6 +15,7 @@ exports[`snapshots renders 1`] = `
   background-color: #efebe4;
   margin: 0 2px;
   padding: 2px 4px;
+  white-space: nowrap;
 }
 
 <code
