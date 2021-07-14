@@ -15,13 +15,13 @@ storiesOf('waffles-icons', module)
               <Text>{name}</Text>
             </td>
             <td>
-              <Component color={color('color', 'currentColor')} size={12} />
+              <Component color={color('color', 'currentColor')} size="xsmall" />
             </td>
             <td>
-              <Component color={color('color', 'currentColor')} size={18} />
+              <Component color={color('color', 'currentColor')} size="small" />
             </td>
             <td>
-              <Component color={color('color', 'currentColor')} size={24} />
+              <Component color={color('color', 'currentColor')} size="medium" />
             </td>
           </tr>
         ))}
