@@ -6,8 +6,14 @@ import { Fragment } from 'react';
 
 import Table from './table';
 
-const cellStyle = css`
+const nameCellStyle = css`
+  text-align: left;
+  vertical-align: middle;
+`;
+
+const statusCellStyle = css`
   text-align: right;
+  vertical-align: middle;
 `;
 
 type ComponentStatusProps = { component: string } & (
@@ -27,12 +33,12 @@ function ComponentStatus({
     if (variant === 'available') {
       return (
         <Fragment>
-          <Table.Cell>
+          <Table.Cell css={nameCellStyle}>
             <Link href={`/components/${path}`} passHref>
               <LinkBase>{component}</LinkBase>
             </Link>
           </Table.Cell>
-          <Table.Cell css={cellStyle}>
+          <Table.Cell css={statusCellStyle}>
             <Badge color={tokens.colors.green} size="large">
               Available
             </Badge>
@@ -43,8 +49,8 @@ function ComponentStatus({
 
     return (
       <Fragment>
-        <Table.Cell>{component}</Table.Cell>
-        <Table.Cell css={cellStyle}>
+        <Table.Cell css={nameCellStyle}>{component}</Table.Cell>
+        <Table.Cell css={statusCellStyle}>
           <Badge
             color={
               variant === 'planned'
