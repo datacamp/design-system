@@ -35,14 +35,14 @@ const sizeStyles = {
   large: {
     fontSize: tokens.fontSizes.large,
     lineHeight: '24px',
-    paddingLeft: tokens.sizing.medium,
-    paddingRight: tokens.sizing.medium,
+    paddingLeft: tokens.spacing.small,
+    paddingRight: tokens.spacing.small,
   },
   small: {
     fontSize: tokens.fontSizes.medium,
     lineHeight: '18px',
-    paddingLeft: tokens.sizing.small,
-    paddingRight: tokens.sizing.small,
+    paddingLeft: tokens.spacing.xsmall,
+    paddingRight: tokens.spacing.xsmall,
   },
 };
 
