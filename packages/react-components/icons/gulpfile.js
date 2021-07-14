@@ -1,3 +1,4 @@
+/* eslint-disable sonarjs/no-duplicate-string */
 /* eslint-disable sonarjs/no-identical-functions */
 /* eslint-disable no-param-reassign */
 const { dest, parallel, series, src } = require('gulp');
@@ -54,10 +55,10 @@ function buildTypescriptWebComponents() {
           svgProps: {
             'aria-hidden': '{ariaHidden}',
             className: '{className}',
-            height: '{size}',
+            height: '{numericSize}',
             ref: '{ref}',
             role: 'img',
-            width: '{size}',
+            width: '{numericSize}',
           },
           template({ template }, opts, { jsx }) {
             const typescriptTemplate = template.smart({
@@ -70,7 +71,7 @@ function buildTypescriptWebComponents() {
               'aria-hidden'?: boolean;
               className?: string;
               color?: string;
-              size?: 12 | 18 | 24;
+              size?: 'xsmall' | 'small' | 'medium';
               title?: string;
               titleId?: string;
             }
@@ -80,12 +81,12 @@ function buildTypescriptWebComponents() {
                   'aria-hidden': ariaHidden = false,
                   className,
                   color = 'currentColor',
-                  size = 18,
+                  size = 'medium',
                   title,
                   titleId
                 }: IconProps,
                 ref: React.Ref<SVGSVGElement>
-              ) => ${jsx})
+              ) => { const numericSize = size === 'medium' ? 16 : size === 'small' ? 14 : 12; return ${jsx}})
               export default ${componentName};
             `;
           },
@@ -114,9 +115,9 @@ function buildTypescriptMobileComponents() {
           ...commonSVGRConfig,
           native: true,
           svgProps: {
-            height: '{size}',
+            height: '{numericSize}',
             style: '{style}',
-            width: '{size}',
+            width: '{numericSize}',
           },
           template({ template }, opts, { jsx }) {
             const typescriptTemplate = template.smart({
@@ -128,12 +129,12 @@ function buildTypescriptMobileComponents() {
               import Svg, { Path } from 'react-native-svg';
 
               interface IconProps {
-                color?: string,
-                size?: number,
-                style?: StyleProp<ViewStyle>
+                color?: string;
+                size?: 'xsmall' | 'small' | 'medium';
+                style?: StyleProp<ViewStyle>;
               }
 
-              const ${componentName} = ({size = 18, color = 'white', style}: IconProps) => ${jsx};
+              const ${componentName} = ({size = 'medium', color = 'white', style}: IconProps) => {const numericSize = size === 'medium' ? 16 : size === 'small' ? 14 : 12; return ${jsx}};
               export default ${componentName};
             `;
           },
