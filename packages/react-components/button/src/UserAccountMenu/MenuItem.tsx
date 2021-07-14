@@ -50,7 +50,7 @@ const alertDotStyle = css({
 type IconProps = {
   'aria-hidden'?: boolean;
   color?: string;
-  size?: 12 | 18 | 24;
+  size?: 'xsmall' | 'small' | 'medium';
 };
 
 type MenuItemProps = {
@@ -81,7 +81,7 @@ const MenuItem = forwardRef<HTMLAnchorElement, MenuItemProps>(
           {...focusProps}
         >
           {showAlertDot && <AlertDot css={alertDotStyle} />}
-          <Icon aria-hidden={true} color="currentColor" size={18} />
+          <Icon aria-hidden={true} color="currentColor" size="medium" />
           <span css={contentStyle}>{children}</span>
         </a>
       </li>
