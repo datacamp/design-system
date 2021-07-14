@@ -1,7 +1,6 @@
 import { CrossIcon } from '@datacamp/waffles-icons';
 import tokens from '@datacamp/waffles-tokens';
 import { css } from '@emotion/react';
-import React from 'react';
 
 type CloseButtonProps = {
   className?: string;
@@ -46,7 +45,7 @@ const CloseButton = ({
     onClick={onClick}
     type="button"
   >
-    <CrossIcon aria-hidden size={size === 'large' ? 18 : 12} />
+    <CrossIcon aria-hidden size="medium" />
   </button>
 );
 

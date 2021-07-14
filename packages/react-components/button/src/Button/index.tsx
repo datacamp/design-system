@@ -289,7 +289,7 @@ const InternalButton = (
             React.cloneElement(child, {
               'aria-hidden': true, // hide icon from screen reader so only ariaLabel or button text is read.
               color: loading ? 'transparent' : child.props.color ?? iconColor,
-              size: size === 'large' ? 24 : 18,
+              size: 'medium',
               title: '', // remove tooltip from icon within button
             })
           ),
