@@ -1,9 +1,10 @@
+import tokens from '@datacamp/waffles-tokens';
 import {
   computeDataAttributes,
   ssrSafeNotFirstChildSelector,
 } from '@datacamp/waffles-utils';
 import { css } from '@emotion/react';
-import React, { ReactElement, ReactNode } from 'react';
+import React from 'react';
 
 import baseStyle from '../../baseStyle';
 
@@ -13,7 +14,7 @@ interface ListProps {
   /**
    * The content to display. Should only be List.Item components
    */
-  children: ReactNode;
+  children: React.ReactNode;
   /**
    * Sets the css class of the rendered element. Can be used to apply custom
    * styles.
@@ -33,17 +34,17 @@ interface ListProps {
 const listStyle = css(baseStyle, {
   // add padding when nested
   '& &': {
-    paddingLeft: 16,
+    paddingLeft: tokens.spacing.medium,
   },
   listStylePosition: 'inside',
   margin: 0,
   padding: 0,
   [ssrSafeNotFirstChildSelector]: {
-    marginTop: 16,
+    marginTop: tokens.spacing.medium,
   },
 });
 
-const List = (props: ListProps): ReactElement => {
+const List = (props: ListProps): JSX.Element => {
   const { children, className, dataAttributes, ordered = false } = props;
 
   const parsedDataAttributes = computeDataAttributes(dataAttributes);

@@ -1,17 +1,18 @@
+import tokens from '@datacamp/waffles-tokens';
 import { css } from '@emotion/react';
-import React, { ReactElement, ReactNode } from 'react';
+import React from 'react';
 
 const listItemStyle = css({
   lineHeight: '1.5em',
-  marginTop: 8,
+  marginTop: tokens.spacing.small,
 });
 
 export interface ListItemProps {
-  children: ReactNode;
+  children: React.ReactNode;
   className?: string;
 }
 
-const ListItem = ({ children, className }: ListItemProps): ReactElement => {
+const ListItem = ({ children, className }: ListItemProps): JSX.Element => {
   return (
     <li className={className} css={listItemStyle}>
       {children}
