@@ -35,7 +35,7 @@ const CheckboxIcon: React.FC<{
         {checked && (
           <CheckmarkIcon
             aria-hidden={true} // Hide this icon, as label and input element are sufficient
-            size={12}
+            size="small"
             title="" // Remove the title, as label and input element are sufficient
           />
         )}

@@ -230,7 +230,11 @@ const InternalInput = ({
       type="button"
     >
       <i aria-hidden="true">
-        {passwordVisible ? <HiddenIcon size={24} /> : <VisibleIcon size={24} />}
+        {passwordVisible ? (
+          <HiddenIcon size="medium" />
+        ) : (
+          <VisibleIcon size="medium" />
+        )}
       </i>
     </button>
   );

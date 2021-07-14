@@ -80,7 +80,7 @@ function Toggle({
           <CheckmarkIcon
             aria-hidden={true}
             color={tokens.colors.blue}
-            size={12}
+            size="small"
           />
         )}
       </div>

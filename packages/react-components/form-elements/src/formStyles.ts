@@ -95,22 +95,22 @@ const inputWithIconPaddings = {
   small: { padding: `0 ${tokens.size.space[36].value}px` },
 };
 
-const selectIconSizes: { [key: string]: 18 | 24 } = {
-  large: 24,
-  medium: 18,
-  small: 18,
+const selectIconSizes: { [key: string]: 'medium' | 'small' } = {
+  large: 'medium',
+  medium: 'medium',
+  small: 'small',
 };
 
 const iconSize = {
-  large: 24,
-  medium: 18,
-  small: 12,
+  large: 16,
+  medium: 16,
+  small: 14,
 };
 
 const arrowIconPosition = {
-  large: { right: tokens.size.space[24].value, top: '20px' },
-  medium: { right: tokens.size.space[16].value, top: '15px' },
-  small: { right: tokens.size.space[12].value, top: '9px' },
+  large: { right: tokens.size.space[24].value, top: '22px' },
+  medium: { right: tokens.size.space[16].value, top: '17px' },
+  small: { right: tokens.size.space[12].value, top: '11px' },
 };
 
 const requiredStyle = css({
