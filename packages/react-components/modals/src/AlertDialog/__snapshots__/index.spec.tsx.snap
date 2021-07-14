@@ -418,10 +418,10 @@ exports[`<AlertModal /> isOpen renders the modal via a portal when true 1`] = `
         >
           <svg
             aria-hidden="true"
-            height="18"
+            height="16"
             role="img"
             viewBox="0 0 18 18"
-            width="18"
+            width="16"
           >
             <title>
               Cross
