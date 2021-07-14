@@ -38,10 +38,10 @@ exports[`<RadioList> snapshots renders a radio list 1`] = `
 
 .emotion-3 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(5, 25, 45);
-  font-family: Studio-Feixen-Sans,Arial;
+  color: #05192d;
+  font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 400;
   color: #05192d;
   display: inline-block;
@@ -114,10 +114,10 @@ exports[`<RadioList> snapshots renders a radio list 1`] = `
 
 .emotion-8 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(5, 25, 45);
-  font-family: Studio-Feixen-Sans,Arial;
+  color: #05192d;
+  font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 400;
   margin-left: 24px;
 }
@@ -143,10 +143,10 @@ exports[`<RadioList> snapshots renders a radio list 1`] = `
 
 .emotion-16 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(5, 25, 45);
-  font-family: Studio-Feixen-Sans,Arial;
+  color: #05192d;
+  font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 400;
   margin-left: 24px;
   opacity: 0.3;
@@ -154,10 +154,10 @@ exports[`<RadioList> snapshots renders a radio list 1`] = `
 
 .emotion-17 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(5, 25, 45);
-  font-family: Studio-Feixen-Sans,Arial;
+  color: #05192d;
+  font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 400;
   color: #c01100;
   display: block;
