@@ -1,10 +1,10 @@
-import tokens from '@datacamp/waffles-tokens/lib/future-tokens.json';
+import tokens from '@datacamp/waffles-tokens';
 import {
   computeDataAttributes,
   ssrSafeNotFirstChildSelector,
 } from '@datacamp/waffles-utils';
 import { css, SerializedStyles } from '@emotion/react';
-import React, { ReactElement, ReactNode } from 'react';
+import React from 'react';
 
 import baseStyle from '../baseStyle';
 
@@ -19,7 +19,7 @@ export interface HeadingProps {
    * The content of the Heading. This should be a string, but it can also
    * contain Strong components.
    */
-  children: ReactNode;
+  children: React.ReactNode;
   /**
    * Sets the css class of the rendered element. Can be used to apply custom
    * styles.
@@ -42,8 +42,8 @@ export interface HeadingProps {
 }
 
 const baseHeaderStyle = css({
-  color: tokens.color.primary.navyText.value.rgb,
-  fontWeight: tokens.fontWeight.bold.value,
+  color: tokens.colors.navy,
+  fontWeight: tokens.fontWeights.bold,
   margin: 0,
 });
 
@@ -58,16 +58,41 @@ const multiLineStyle = css({
   whiteSpace: 'normal',
 });
 
+// 700 is most commonly used for h1
+const sizeMap = {
+  200: tokens.fontSizes.small,
+  300: tokens.fontSizes.small,
+  400: tokens.fontSizes.small,
+  500: tokens.fontSizes.medium,
+  600: tokens.fontSizes.large,
+  650: tokens.fontSizes.xlarge,
+  700: tokens.fontSizes.xxlarge,
+  800: tokens.fontSizes.huge,
+  900: tokens.fontSizes.huge,
+};
+
+const lineHeightMap = {
+  200: tokens.lineHeights.small,
+  300: tokens.lineHeights.small,
+  400: tokens.lineHeights.small,
+  500: tokens.lineHeights.medium,
+  600: tokens.lineHeights.medium,
+  650: tokens.lineHeights.large,
+  700: tokens.lineHeights.xlarge,
+  800: tokens.lineHeights.xxlarge,
+  900: tokens.lineHeights.xxlarge,
+};
+
 const letterSpacingMap = {
-  200: tokens.letterSpacings.base.value,
-  300: tokens.letterSpacings.base.value,
-  400: tokens.letterSpacings.base.value,
-  500: tokens.letterSpacings.base.value,
-  600: tokens.letterSpacings.mediumHeading.value,
-  650: tokens.letterSpacings.mediumHeading.value,
-  700: tokens.letterSpacings.mediumHeading.value,
-  800: tokens.letterSpacings.largeHeading.value,
-  900: tokens.letterSpacings.largeHeading.value,
+  200: tokens.letterSpacing.relaxed,
+  300: tokens.letterSpacing.default,
+  400: tokens.letterSpacing.default,
+  500: tokens.letterSpacing.default,
+  600: tokens.letterSpacing.default,
+  650: tokens.letterSpacing.default,
+  700: tokens.letterSpacing.default,
+  800: tokens.letterSpacing.default,
+  900: tokens.letterSpacing.tight,
 };
 
 const getStyle = (size: Size, multiLine: boolean): SerializedStyles => {
@@ -76,17 +101,11 @@ const getStyle = (size: Size, multiLine: boolean): SerializedStyles => {
     baseHeaderStyle,
     multiLine ? multiLineStyle : singleLineStyle,
     {
-      fontSize: tokens.size.font[size].value,
+      fontSize: sizeMap[size],
       letterSpacing: letterSpacingMap[size],
-      lineHeight:
-        size >= 800 && multiLine
-          ? tokens.lineHeight.largeHeading.value
-          : tokens.lineHeight.heading.value,
+      lineHeight: lineHeightMap[size],
       [ssrSafeNotFirstChildSelector]: {
-        marginTop:
-          size >= 800
-            ? tokens.size.space[24].value
-            : tokens.size.space[16].value,
+        marginTop: size >= 800 ? tokens.spacing.medium : tokens.spacing.small,
       },
     },
   );
@@ -99,7 +118,7 @@ const Heading = ({
   dataAttributes,
   multiLine = false,
   size,
-}: HeadingProps): ReactElement => {
+}: HeadingProps): JSX.Element => {
   const parsedDataAttributes = computeDataAttributes(dataAttributes);
   const style = getStyle(size, multiLine);
 
