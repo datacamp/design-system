@@ -29,10 +29,10 @@ exports[`Tooltip renders on the bottom on the target 1`] = `
 
 .emotion-2 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(5, 25, 45);
-  font-family: Studio-Feixen-Sans,Arial;
+  color: #05192d;
+  font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 400;
   font-size: 12px;
   white-space: nowrap;
@@ -89,10 +89,10 @@ exports[`Tooltip renders on the bottom on the target 2`] = `
 
 .emotion-2 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(5, 25, 45);
-  font-family: Studio-Feixen-Sans,Arial;
+  color: #05192d;
+  font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 400;
   font-size: 12px;
   white-space: nowrap;
@@ -144,10 +144,10 @@ exports[`Tooltip renders on the bottomLeft on the target 1`] = `
 
 .emotion-2 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(5, 25, 45);
-  font-family: Studio-Feixen-Sans,Arial;
+  color: #05192d;
+  font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 400;
   font-size: 12px;
   white-space: nowrap;
@@ -200,10 +200,10 @@ exports[`Tooltip renders on the bottomLeft on the target 2`] = `
 
 .emotion-2 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(5, 25, 45);
-  font-family: Studio-Feixen-Sans,Arial;
+  color: #05192d;
+  font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 400;
   font-size: 12px;
   white-space: nowrap;
@@ -259,10 +259,10 @@ exports[`Tooltip renders on the bottomRight on the target 1`] = `
 
 .emotion-2 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(5, 25, 45);
-  font-family: Studio-Feixen-Sans,Arial;
+  color: #05192d;
+  font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 400;
   font-size: 12px;
   white-space: nowrap;
@@ -319,10 +319,10 @@ exports[`Tooltip renders on the bottomRight on the target 2`] = `
 
 .emotion-2 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(5, 25, 45);
-  font-family: Studio-Feixen-Sans,Arial;
+  color: #05192d;
+  font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 400;
   font-size: 12px;
   white-space: nowrap;
@@ -378,10 +378,10 @@ exports[`Tooltip renders on the left on the target 1`] = `
 
 .emotion-2 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(5, 25, 45);
-  font-family: Studio-Feixen-Sans,Arial;
+  color: #05192d;
+  font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 400;
   font-size: 12px;
   white-space: nowrap;
@@ -438,10 +438,10 @@ exports[`Tooltip renders on the left on the target 2`] = `
 
 .emotion-2 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(5, 25, 45);
-  font-family: Studio-Feixen-Sans,Arial;
+  color: #05192d;
+  font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 400;
   font-size: 12px;
   white-space: nowrap;
@@ -497,10 +497,10 @@ exports[`Tooltip renders on the right on the target 1`] = `
 
 .emotion-2 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(5, 25, 45);
-  font-family: Studio-Feixen-Sans,Arial;
+  color: #05192d;
+  font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 400;
   font-size: 12px;
   white-space: nowrap;
@@ -557,10 +557,10 @@ exports[`Tooltip renders on the right on the target 2`] = `
 
 .emotion-2 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(5, 25, 45);
-  font-family: Studio-Feixen-Sans,Arial;
+  color: #05192d;
+  font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 400;
   font-size: 12px;
   white-space: nowrap;
@@ -616,10 +616,10 @@ exports[`Tooltip renders on the top on the target 1`] = `
 
 .emotion-2 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(5, 25, 45);
-  font-family: Studio-Feixen-Sans,Arial;
+  color: #05192d;
+  font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 400;
   font-size: 12px;
   white-space: nowrap;
@@ -676,10 +676,10 @@ exports[`Tooltip renders on the top on the target 2`] = `
 
 .emotion-2 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(5, 25, 45);
-  font-family: Studio-Feixen-Sans,Arial;
+  color: #05192d;
+  font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 400;
   font-size: 12px;
   white-space: nowrap;
@@ -735,10 +735,10 @@ exports[`Tooltip renders on the topLeft on the target 1`] = `
 
 .emotion-2 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(5, 25, 45);
-  font-family: Studio-Feixen-Sans,Arial;
+  color: #05192d;
+  font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 400;
   font-size: 12px;
   white-space: nowrap;
@@ -795,10 +795,10 @@ exports[`Tooltip renders on the topLeft on the target 2`] = `
 
 .emotion-2 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(5, 25, 45);
-  font-family: Studio-Feixen-Sans,Arial;
+  color: #05192d;
+  font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 400;
   font-size: 12px;
   white-space: nowrap;
@@ -854,10 +854,10 @@ exports[`Tooltip renders on the topRight on the target 1`] = `
 
 .emotion-2 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(5, 25, 45);
-  font-family: Studio-Feixen-Sans,Arial;
+  color: #05192d;
+  font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 400;
   font-size: 12px;
   white-space: nowrap;
@@ -914,10 +914,10 @@ exports[`Tooltip renders on the topRight on the target 2`] = `
 
 .emotion-2 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(5, 25, 45);
-  font-family: Studio-Feixen-Sans,Arial;
+  color: #05192d;
+  font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 400;
   font-size: 12px;
   white-space: nowrap;
