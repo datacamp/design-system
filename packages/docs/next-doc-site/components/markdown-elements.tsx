@@ -22,7 +22,7 @@ export type TextProps = {
 // Add ID to heading, so it could be bookmarked
 function H2({ children }: TextProps): JSX.Element {
   return (
-    <Heading as="h2" multiLine size={600}>
+    <Heading as="h2" multiLine size={650}>
       <span id={slug(textFromChildren(children))}>{children}</span>
     </Heading>
   );
@@ -30,7 +30,7 @@ function H2({ children }: TextProps): JSX.Element {
 
 function H3({ children }: TextProps): JSX.Element {
   return (
-    <Heading as="h3" multiLine size={500}>
+    <Heading as="h3" multiLine size={600}>
       {children}
     </Heading>
   );
@@ -38,7 +38,7 @@ function H3({ children }: TextProps): JSX.Element {
 
 function H4({ children }: TextProps): JSX.Element {
   return (
-    <Heading as="h4" multiLine size={400}>
+    <Heading as="h4" multiLine size={500}>
       {children}
     </Heading>
   );

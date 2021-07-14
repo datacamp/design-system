@@ -27,7 +27,7 @@ const categoryStyle = css`
   color: ${tokens.colors.green};
   font-weight: ${tokens.fontWeights.bold};
   text-transform: uppercase;
-  letter-spacing: 2px;
+  letter-spacing: ${tokens.letterSpacing.relaxed};
   font-size: ${tokens.fontSizes.small};
 `;
 
