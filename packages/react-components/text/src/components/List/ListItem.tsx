@@ -3,7 +3,8 @@ import { css } from '@emotion/react';
 import React from 'react';
 
 const listItemStyle = css({
-  lineHeight: '1.5em',
+  fontSize: tokens.fontSizes.medium,
+  lineHeight: tokens.lineHeights.medium,
   marginTop: tokens.spacing.small,
 });
 
