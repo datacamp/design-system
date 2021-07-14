@@ -1,7 +1,7 @@
-import tokens from '@datacamp/waffles-tokens/lib/future-tokens.json';
+import tokens from '@datacamp/waffles-tokens';
 import { computeDataAttributes } from '@datacamp/waffles-utils';
 import { css } from '@emotion/react';
-import React, { ReactElement } from 'react';
+import React from 'react';
 
 import baseStyle from '../baseStyle';
 
@@ -39,11 +39,11 @@ const linkStyle = css(baseStyle, {
   ':hover': {
     textDecoration: 'underline',
   },
-  color: tokens.color.primary.blueText.value.hex,
+  color: tokens.colors.blueDarkText,
   cursor: 'pointer',
-  fontSize: tokens.size.font[300].value,
-  fontWeight: tokens.fontWeight.regular.value,
-  lineHeight: tokens.size.font.base.value,
+  fontSize: tokens.fontSizes.medium,
+  fontWeight: tokens.fontWeights.regular,
+  lineHeight: tokens.lineHeights.medium,
   textDecoration: 'none',
 });
 
@@ -55,7 +55,7 @@ const InternalLink = ({
   innerRef,
   onClick,
   onMouseEnter,
-}: LinkProps & { innerRef?: React.Ref<HTMLAnchorElement> }): ReactElement => {
+}: LinkProps & { innerRef?: React.Ref<HTMLAnchorElement> }): JSX.Element => {
   const parsedDataAttributes = computeDataAttributes(dataAttributes);
   return (
     <a
