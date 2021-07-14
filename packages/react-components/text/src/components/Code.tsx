@@ -23,12 +23,8 @@ export interface CodeProps {
 
 const style = css(codeStyle, {
   backgroundColor: tokens.colors.beige,
-  marginLeft: 2,
-  marginRight: 4,
-  paddingBottom: 0,
-  paddingLeft: 2,
-  paddingRight: 2,
-  paddingTop: 0,
+  margin: '0 2px',
+  padding: '2px 4px',
 });
 
 const Code = ({
