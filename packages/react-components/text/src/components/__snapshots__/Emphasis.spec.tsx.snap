@@ -3,12 +3,12 @@
 exports[`<Emphasis /> renders 1`] = `
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(5, 25, 45);
-  font-family: Studio-Feixen-Sans,Arial;
+  color: #05192d;
+  font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
   font-style: italic;
   font-weight: 400;
-  line-height: 16px;
+  line-height: 14px;
 }
 
 <em

@@ -3,22 +3,22 @@
 exports[`<Heading /> renders at each size renders at size 200, multiLine=false 1`] = `
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(5, 25, 45);
-  font-family: Studio-Feixen-Sans,Arial;
+  color: #05192d;
+  font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
-  color: rgb(5, 25, 45);
+  color: #05192d;
   font-weight: 800;
   margin: 0;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
-  font-size: 14px;
-  letter-spacing: 0;
-  line-height: 1.2;
+  font-size: 12px;
+  letter-spacing: 1.5px;
+  line-height: 16px;
 }
 
 *:not(style)~.emotion-0 {
-  margin-top: 16px;
+  margin-top: 8px;
 }
 
 <h2
@@ -33,21 +33,21 @@ exports[`<Heading /> renders at each size renders at size 200, multiLine=false 1
 exports[`<Heading /> renders at each size renders at size 200, multiLine=true 1`] = `
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(5, 25, 45);
-  font-family: Studio-Feixen-Sans,Arial;
+  color: #05192d;
+  font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
-  color: rgb(5, 25, 45);
+  color: #05192d;
   font-weight: 800;
   margin: 0;
   overflow: reset;
   white-space: normal;
-  font-size: 14px;
-  letter-spacing: 0;
-  line-height: 1.2;
+  font-size: 12px;
+  letter-spacing: 1.5px;
+  line-height: 16px;
 }
 
 *:not(style)~.emotion-0 {
-  margin-top: 16px;
+  margin-top: 8px;
 }
 
 <h2
@@ -62,22 +62,22 @@ exports[`<Heading /> renders at each size renders at size 200, multiLine=true 1`
 exports[`<Heading /> renders at each size renders at size 300, multiLine=false 1`] = `
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(5, 25, 45);
-  font-family: Studio-Feixen-Sans,Arial;
+  color: #05192d;
+  font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
-  color: rgb(5, 25, 45);
+  color: #05192d;
   font-weight: 800;
   margin: 0;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
-  font-size: 16px;
-  letter-spacing: 0;
-  line-height: 1.2;
+  font-size: 12px;
+  letter-spacing: 0px;
+  line-height: 16px;
 }
 
 *:not(style)~.emotion-0 {
-  margin-top: 16px;
+  margin-top: 8px;
 }
 
 <h2
@@ -92,21 +92,21 @@ exports[`<Heading /> renders at each size renders at size 300, multiLine=false 1
 exports[`<Heading /> renders at each size renders at size 300, multiLine=true 1`] = `
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(5, 25, 45);
-  font-family: Studio-Feixen-Sans,Arial;
+  color: #05192d;
+  font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
-  color: rgb(5, 25, 45);
+  color: #05192d;
   font-weight: 800;
   margin: 0;
   overflow: reset;
   white-space: normal;
-  font-size: 16px;
-  letter-spacing: 0;
-  line-height: 1.2;
+  font-size: 12px;
+  letter-spacing: 0px;
+  line-height: 16px;
 }
 
 *:not(style)~.emotion-0 {
-  margin-top: 16px;
+  margin-top: 8px;
 }
 
 <h2
@@ -121,22 +121,22 @@ exports[`<Heading /> renders at each size renders at size 300, multiLine=true 1`
 exports[`<Heading /> renders at each size renders at size 400, multiLine=false 1`] = `
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(5, 25, 45);
-  font-family: Studio-Feixen-Sans,Arial;
+  color: #05192d;
+  font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
-  color: rgb(5, 25, 45);
+  color: #05192d;
   font-weight: 800;
   margin: 0;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
-  font-size: 18px;
-  letter-spacing: 0;
-  line-height: 1.2;
+  font-size: 12px;
+  letter-spacing: 0px;
+  line-height: 16px;
 }
 
 *:not(style)~.emotion-0 {
-  margin-top: 16px;
+  margin-top: 8px;
 }
 
 <h2
@@ -151,21 +151,21 @@ exports[`<Heading /> renders at each size renders at size 400, multiLine=false 1
 exports[`<Heading /> renders at each size renders at size 400, multiLine=true 1`] = `
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(5, 25, 45);
-  font-family: Studio-Feixen-Sans,Arial;
+  color: #05192d;
+  font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
-  color: rgb(5, 25, 45);
+  color: #05192d;
   font-weight: 800;
   margin: 0;
   overflow: reset;
   white-space: normal;
-  font-size: 18px;
-  letter-spacing: 0;
-  line-height: 1.2;
+  font-size: 12px;
+  letter-spacing: 0px;
+  line-height: 16px;
 }
 
 *:not(style)~.emotion-0 {
-  margin-top: 16px;
+  margin-top: 8px;
 }
 
 <h2
@@ -180,22 +180,22 @@ exports[`<Heading /> renders at each size renders at size 400, multiLine=true 1`
 exports[`<Heading /> renders at each size renders at size 500, multiLine=false 1`] = `
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(5, 25, 45);
-  font-family: Studio-Feixen-Sans,Arial;
+  color: #05192d;
+  font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
-  color: rgb(5, 25, 45);
+  color: #05192d;
   font-weight: 800;
   margin: 0;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
-  font-size: 20px;
-  letter-spacing: 0;
-  line-height: 1.2;
+  font-size: 14px;
+  letter-spacing: 0px;
+  line-height: 20px;
 }
 
 *:not(style)~.emotion-0 {
-  margin-top: 16px;
+  margin-top: 8px;
 }
 
 <h2
@@ -210,21 +210,21 @@ exports[`<Heading /> renders at each size renders at size 500, multiLine=false 1
 exports[`<Heading /> renders at each size renders at size 500, multiLine=true 1`] = `
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(5, 25, 45);
-  font-family: Studio-Feixen-Sans,Arial;
+  color: #05192d;
+  font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
-  color: rgb(5, 25, 45);
+  color: #05192d;
   font-weight: 800;
   margin: 0;
   overflow: reset;
   white-space: normal;
-  font-size: 20px;
-  letter-spacing: 0;
-  line-height: 1.2;
+  font-size: 14px;
+  letter-spacing: 0px;
+  line-height: 20px;
 }
 
 *:not(style)~.emotion-0 {
-  margin-top: 16px;
+  margin-top: 8px;
 }
 
 <h2
@@ -239,22 +239,22 @@ exports[`<Heading /> renders at each size renders at size 500, multiLine=true 1`
 exports[`<Heading /> renders at each size renders at size 600, multiLine=false 1`] = `
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(5, 25, 45);
-  font-family: Studio-Feixen-Sans,Arial;
+  color: #05192d;
+  font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
-  color: rgb(5, 25, 45);
+  color: #05192d;
   font-weight: 800;
   margin: 0;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
-  font-size: 24px;
-  letter-spacing: -0.5px;
-  line-height: 1.2;
+  font-size: 16px;
+  letter-spacing: 0px;
+  line-height: 20px;
 }
 
 *:not(style)~.emotion-0 {
-  margin-top: 16px;
+  margin-top: 8px;
 }
 
 <h2
@@ -269,21 +269,21 @@ exports[`<Heading /> renders at each size renders at size 600, multiLine=false 1
 exports[`<Heading /> renders at each size renders at size 600, multiLine=true 1`] = `
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(5, 25, 45);
-  font-family: Studio-Feixen-Sans,Arial;
+  color: #05192d;
+  font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
-  color: rgb(5, 25, 45);
+  color: #05192d;
   font-weight: 800;
   margin: 0;
   overflow: reset;
   white-space: normal;
-  font-size: 24px;
-  letter-spacing: -0.5px;
-  line-height: 1.2;
+  font-size: 16px;
+  letter-spacing: 0px;
+  line-height: 20px;
 }
 
 *:not(style)~.emotion-0 {
-  margin-top: 16px;
+  margin-top: 8px;
 }
 
 <h2
@@ -298,22 +298,22 @@ exports[`<Heading /> renders at each size renders at size 600, multiLine=true 1`
 exports[`<Heading /> renders at each size renders at size 650, multiLine=false 1`] = `
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(5, 25, 45);
-  font-family: Studio-Feixen-Sans,Arial;
+  color: #05192d;
+  font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
-  color: rgb(5, 25, 45);
+  color: #05192d;
   font-weight: 800;
   margin: 0;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
-  font-size: 28px;
-  letter-spacing: -0.5px;
-  line-height: 1.2;
+  font-size: 18px;
+  letter-spacing: 0px;
+  line-height: 22px;
 }
 
 *:not(style)~.emotion-0 {
-  margin-top: 16px;
+  margin-top: 8px;
 }
 
 <h2
@@ -328,21 +328,21 @@ exports[`<Heading /> renders at each size renders at size 650, multiLine=false 1
 exports[`<Heading /> renders at each size renders at size 650, multiLine=true 1`] = `
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(5, 25, 45);
-  font-family: Studio-Feixen-Sans,Arial;
+  color: #05192d;
+  font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
-  color: rgb(5, 25, 45);
+  color: #05192d;
   font-weight: 800;
   margin: 0;
   overflow: reset;
   white-space: normal;
-  font-size: 28px;
-  letter-spacing: -0.5px;
-  line-height: 1.2;
+  font-size: 18px;
+  letter-spacing: 0px;
+  line-height: 22px;
 }
 
 *:not(style)~.emotion-0 {
-  margin-top: 16px;
+  margin-top: 8px;
 }
 
 <h2
@@ -357,22 +357,22 @@ exports[`<Heading /> renders at each size renders at size 650, multiLine=true 1`
 exports[`<Heading /> renders at each size renders at size 700, multiLine=false 1`] = `
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(5, 25, 45);
-  font-family: Studio-Feixen-Sans,Arial;
+  color: #05192d;
+  font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
-  color: rgb(5, 25, 45);
+  color: #05192d;
   font-weight: 800;
   margin: 0;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
-  font-size: 32px;
-  letter-spacing: -0.5px;
-  line-height: 1.2;
+  font-size: 20px;
+  letter-spacing: 0px;
+  line-height: 24px;
 }
 
 *:not(style)~.emotion-0 {
-  margin-top: 16px;
+  margin-top: 8px;
 }
 
 <h2
@@ -387,17 +387,47 @@ exports[`<Heading /> renders at each size renders at size 700, multiLine=false 1
 exports[`<Heading /> renders at each size renders at size 700, multiLine=true 1`] = `
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(5, 25, 45);
-  font-family: Studio-Feixen-Sans,Arial;
+  color: #05192d;
+  font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
-  color: rgb(5, 25, 45);
+  color: #05192d;
   font-weight: 800;
   margin: 0;
   overflow: reset;
   white-space: normal;
-  font-size: 32px;
-  letter-spacing: -0.5px;
-  line-height: 1.2;
+  font-size: 20px;
+  letter-spacing: 0px;
+  line-height: 24px;
+}
+
+*:not(style)~.emotion-0 {
+  margin-top: 8px;
+}
+
+<h2
+  class="example-class emotion-0"
+  data-example="testdata"
+  data-item="othertest"
+>
+  Some example text.
+</h2>
+`;
+
+exports[`<Heading /> renders at each size renders at size 800, multiLine=false 1`] = `
+.emotion-0 {
+  -webkit-font-smoothing: antialiased;
+  color: #05192d;
+  font-family: Studio-Feixen-Sans,Arial,sans-serif;
+  font-style: normal;
+  color: #05192d;
+  font-weight: 800;
+  margin: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 28px;
+  letter-spacing: 0px;
+  line-height: 28px;
 }
 
 *:not(style)~.emotion-0 {
@@ -413,54 +443,24 @@ exports[`<Heading /> renders at each size renders at size 700, multiLine=true 1`
 </h2>
 `;
 
-exports[`<Heading /> renders at each size renders at size 800, multiLine=false 1`] = `
-.emotion-0 {
-  -webkit-font-smoothing: antialiased;
-  color: rgb(5, 25, 45);
-  font-family: Studio-Feixen-Sans,Arial;
-  font-style: normal;
-  color: rgb(5, 25, 45);
-  font-weight: 800;
-  margin: 0;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  font-size: 40px;
-  letter-spacing: -1px;
-  line-height: 1.2;
-}
-
-*:not(style)~.emotion-0 {
-  margin-top: 24px;
-}
-
-<h2
-  class="example-class emotion-0"
-  data-example="testdata"
-  data-item="othertest"
->
-  Some example text.
-</h2>
-`;
-
 exports[`<Heading /> renders at each size renders at size 800, multiLine=true 1`] = `
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(5, 25, 45);
-  font-family: Studio-Feixen-Sans,Arial;
+  color: #05192d;
+  font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
-  color: rgb(5, 25, 45);
+  color: #05192d;
   font-weight: 800;
   margin: 0;
   overflow: reset;
   white-space: normal;
-  font-size: 40px;
-  letter-spacing: -1px;
-  line-height: 1.05;
+  font-size: 28px;
+  letter-spacing: 0px;
+  line-height: 28px;
 }
 
 *:not(style)~.emotion-0 {
-  margin-top: 24px;
+  margin-top: 16px;
 }
 
 <h2
@@ -475,22 +475,22 @@ exports[`<Heading /> renders at each size renders at size 800, multiLine=true 1`
 exports[`<Heading /> renders at each size renders at size 900, multiLine=false 1`] = `
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(5, 25, 45);
-  font-family: Studio-Feixen-Sans,Arial;
+  color: #05192d;
+  font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
-  color: rgb(5, 25, 45);
+  color: #05192d;
   font-weight: 800;
   margin: 0;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
-  font-size: 50px;
-  letter-spacing: -1px;
-  line-height: 1.2;
+  font-size: 28px;
+  letter-spacing: -0.5px;
+  line-height: 28px;
 }
 
 *:not(style)~.emotion-0 {
-  margin-top: 24px;
+  margin-top: 16px;
 }
 
 <h2
@@ -505,21 +505,21 @@ exports[`<Heading /> renders at each size renders at size 900, multiLine=false 1
 exports[`<Heading /> renders at each size renders at size 900, multiLine=true 1`] = `
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(5, 25, 45);
-  font-family: Studio-Feixen-Sans,Arial;
+  color: #05192d;
+  font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
-  color: rgb(5, 25, 45);
+  color: #05192d;
   font-weight: 800;
   margin: 0;
   overflow: reset;
   white-space: normal;
-  font-size: 50px;
-  letter-spacing: -1px;
-  line-height: 1.05;
+  font-size: 28px;
+  letter-spacing: -0.5px;
+  line-height: 28px;
 }
 
 *:not(style)~.emotion-0 {
-  margin-top: 24px;
+  margin-top: 16px;
 }
 
 <h2
