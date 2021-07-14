@@ -1,8 +1,6 @@
-/* eslint-disable global-require */
 import tokens from '@datacamp/waffles-tokens';
-import { childrenOfType, computeDataAttributes } from '@datacamp/waffles-utils';
+import { computeDataAttributes } from '@datacamp/waffles-utils';
 import { css } from '@emotion/react';
-import PropTypes from 'prop-types';
 import React from 'react';
 
 import baseStyle from '../baseStyle';
@@ -42,21 +40,6 @@ const Small = ({
       {children}
     </small>
   );
-};
-
-const validChildType = PropTypes.oneOfType([
-  childrenOfType(require('./Strong')),
-  childrenOfType(require('./Emphasis')),
-  childrenOfType(require('../alternateComponents/PlainString')),
-  PropTypes.string,
-  PropTypes.number,
-]);
-
-Small.propTypes = {
-  children: PropTypes.oneOfType([
-    validChildType,
-    PropTypes.arrayOf(validChildType),
-  ]),
 };
 
 export default Small;
