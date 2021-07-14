@@ -43,21 +43,21 @@ exports[`toast mounts a success toast 1`] = `
 
 .emotion-3 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(5, 25, 45);
-  font-family: Studio-Feixen-Sans,Arial;
+  color: #05192d;
+  font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
-  color: rgb(5, 25, 45);
+  color: #05192d;
   font-weight: 800;
   margin: 0;
   overflow: reset;
   white-space: normal;
-  font-size: 16px;
-  letter-spacing: 0;
-  line-height: 1.2;
+  font-size: 12px;
+  letter-spacing: 0px;
+  line-height: 16px;
 }
 
 *:not(style)~.emotion-3 {
-  margin-top: 16px;
+  margin-top: 8px;
 }
 
 .emotion-4 {
@@ -214,21 +214,21 @@ exports[`toast mounts an error toast 1`] = `
 
 .emotion-3 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(5, 25, 45);
-  font-family: Studio-Feixen-Sans,Arial;
+  color: #05192d;
+  font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
-  color: rgb(5, 25, 45);
+  color: #05192d;
   font-weight: 800;
   margin: 0;
   overflow: reset;
   white-space: normal;
-  font-size: 16px;
-  letter-spacing: 0;
-  line-height: 1.2;
+  font-size: 12px;
+  letter-spacing: 0px;
+  line-height: 16px;
 }
 
 *:not(style)~.emotion-3 {
-  margin-top: 16px;
+  margin-top: 8px;
 }
 
 .emotion-4 {
