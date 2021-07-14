@@ -1,9 +1,9 @@
 /* eslint-disable global-require */
-import tokens from '@datacamp/waffles-tokens/lib/future-tokens.json';
+import tokens from '@datacamp/waffles-tokens';
 import { childrenOfType, computeDataAttributes } from '@datacamp/waffles-utils';
 import { css } from '@emotion/react';
 import PropTypes from 'prop-types';
-import React, { ReactElement, ReactNode } from 'react';
+import React from 'react';
 
 import baseStyle from '../baseStyle';
 
@@ -12,7 +12,7 @@ export interface TextProps {
    * The content to display. Can contain a combination of strings, Small
    * components, and Strong Components.
    */
-  children: ReactNode;
+  children: React.ReactNode;
   /**
    * Sets the css class of the rendered element. Can be used to apply custom
    * styles.
@@ -26,15 +26,15 @@ export interface TextProps {
 }
 
 const textStyle = css(baseStyle, {
-  fontSize: tokens.size.font[300].value,
-  fontWeight: tokens.fontWeight.regular.value,
+  fontSize: tokens.fontSizes.medium,
+  fontWeight: tokens.fontWeights.regular,
 });
 
 const Text = ({
   children,
   className,
   dataAttributes,
-}: TextProps): ReactElement => {
+}: TextProps): JSX.Element => {
   const parsedDataAttributes = computeDataAttributes(dataAttributes);
 
   return (
