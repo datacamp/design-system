@@ -70,10 +70,10 @@ exports[`ButtonGroup renders the buttons or CompactButtonGroups with 16px spaces
 
 .emotion-2 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(5, 25, 45);
-  font-family: Studio-Feixen-Sans,Arial;
+  color: #05192d;
+  font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 400;
   font-size: 14px;
   line-height: 44px;
@@ -422,10 +422,10 @@ exports[`ButtonGroup renders the small buttons or CompactButtonGroups with 8px s
 
 .emotion-2 {
   -webkit-font-smoothing: antialiased;
-  color: rgb(5, 25, 45);
-  font-family: Studio-Feixen-Sans,Arial;
+  color: #05192d;
+  font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 400;
   font-size: 14px;
   line-height: 32px;
