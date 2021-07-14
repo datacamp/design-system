@@ -25,6 +25,7 @@ const style = css(codeStyle, {
   backgroundColor: tokens.colors.beige,
   margin: '0 2px',
   padding: '2px 4px',
+  whiteSpace: 'nowrap',
 });
 
 const Code = ({

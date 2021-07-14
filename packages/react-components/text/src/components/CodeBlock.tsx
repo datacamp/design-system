@@ -31,10 +31,7 @@ const preStyle = css({
   lineHeight: tokens.lineHeights.medium,
   margin: 0,
   overflow: 'scroll',
-  paddingBottom: tokens.spacing.small,
-  paddingLeft: 12,
-  paddingRight: 12,
-  paddingTop: tokens.spacing.small,
+  padding: `${tokens.spacing.xsmall} ${tokens.spacing.small}`,
   [ssrSafeNotFirstChildSelector]: {
     marginTop: 12,
   },
