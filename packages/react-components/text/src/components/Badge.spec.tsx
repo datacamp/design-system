@@ -27,7 +27,7 @@ describe('Badge', () => {
         </Badge>,
       );
       const element = getByText(testContent) as HTMLElement;
-      expect(element).toHaveStyle(`font-size: ${tokens.fontSizes.medium}`);
+      expect(element).toHaveStyle(`font-size: ${tokens.fontSizes.small}`);
       expect(element).toHaveStyle(`line-height: 18px`);
       expect(element).toHaveStyle(`padding-left: ${tokens.spacing.xsmall}`);
       expect(element).toHaveStyle(`padding-right: ${tokens.spacing.xsmall}`);
@@ -40,10 +40,10 @@ describe('Badge', () => {
         </Badge>,
       );
       const element = getByText(testContent) as HTMLElement;
-      expect(element).toHaveStyle(`font-size: ${tokens.fontSizes.large}`);
-      expect(element).toHaveStyle(`line-height: 24px`);
-      expect(element).toHaveStyle(`padding-left: ${tokens.spacing.small}`);
-      expect(element).toHaveStyle(`padding-right: ${tokens.spacing.small}`);
+      expect(element).toHaveStyle(`font-size: ${tokens.fontSizes.medium}`);
+      expect(element).toHaveStyle(`line-height: 18px`);
+      expect(element).toHaveStyle(`padding-left: ${tokens.spacing.xsmall}`);
+      expect(element).toHaveStyle(`padding-right: ${tokens.spacing.xsmall}`);
     });
   });
 

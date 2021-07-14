@@ -20,7 +20,8 @@ exports[`List renders an ordered list 1`] = `
 }
 
 .emotion-1 {
-  line-height: 1.5em;
+  font-size: 14px;
+  line-height: 20px;
   margin-top: 8px;
 }
 
@@ -79,7 +80,8 @@ exports[`List renders an unordered list 1`] = `
 }
 
 .emotion-1 {
-  line-height: 1.5em;
+  font-size: 14px;
+  line-height: 20px;
   margin-top: 8px;
 }
 
