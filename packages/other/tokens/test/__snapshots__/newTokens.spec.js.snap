@@ -85,7 +85,7 @@ export const lineHeights = {
   medium: '20px',
   large: '22px',
   xlarge: '24px',
-  xxlarge: '28px'
+  xxlarge: '34px'
 };
 export const opacity = { low: '15%', medium: '30%', height: '60%' };
 export const zIndex = {
