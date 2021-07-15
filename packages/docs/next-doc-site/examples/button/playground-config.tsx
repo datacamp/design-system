@@ -4,7 +4,7 @@ import { TrashIcon } from '@datacamp/waffles-icons';
 import { PlaygroundConfig } from '../../types';
 
 const initialCode = `
-import Button, { ButtonGroup } from '@waffles/text';
+import Button, { ButtonGroup } from '@datacamp/waffles-button';
 import { TrashIcon } from '@datacamp/waffles-icons';
 
 function Playground(): JSX.Element {
