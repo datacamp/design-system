@@ -1,6 +1,5 @@
 import { Heading } from '@datacamp/waffles-text';
-import tokens from '@datacamp/waffles-tokens/lib/future-tokens.json';
-import React from 'react';
+import tokens from '@datacamp/waffles-tokens';
 
 export interface HeaderProps {
   /**
@@ -9,17 +8,17 @@ export interface HeaderProps {
   children: string;
 }
 
-const Header = ({ children }: HeaderProps): React.ReactElement => (
+const Header = ({ children }: HeaderProps): JSX.Element => (
   <header
     css={{
       flex: 'none',
-      paddingBottom: tokens.size.space[24].value,
-      paddingLeft: tokens.size.space[32].value,
-      paddingRight: tokens.size.space[32].value,
-      paddingTop: tokens.size.space[32].value,
+      paddingBottom: tokens.spacing.small,
+      paddingLeft: tokens.spacing.medium,
+      paddingRight: tokens.spacing.medium,
+      paddingTop: tokens.spacing.medium,
     }}
   >
-    <Heading as="h1" size={600}>
+    <Heading as="h1" size={700}>
       {children}
     </Heading>
   </header>
