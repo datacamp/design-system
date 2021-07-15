@@ -87,7 +87,7 @@ export const lineHeights = {
   xlarge: '24px',
   xxlarge: '34px'
 };
-export const opacity = { low: '15%', medium: '30%', height: '60%' };
+export const opacity = { low: '15%', medium: '40%', height: '60%' };
 export const zIndex = {
   default: 1,
   sticky: 100,
