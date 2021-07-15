@@ -8,7 +8,7 @@ function Example(): JSX.Element {
       css={{ padding: 24 }}
       headStone={<TechLogo height={40} technology="Python" width={40} />}
     >
-      <Heading as="h4" size={400}>
+      <Heading as="h4" size={500}>
         A Card with a Head Stone
       </Heading>
       <Paragraph>
