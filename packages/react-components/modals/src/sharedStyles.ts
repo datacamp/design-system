@@ -1,4 +1,4 @@
-import tokens from '@datacamp/waffles-tokens/lib/future-tokens.json';
+import tokens from '@datacamp/waffles-tokens';
 import { hexToRgbaColor } from '@datacamp/waffles-utils';
 import { css } from '@emotion/react';
 
@@ -6,7 +6,7 @@ export const bodyOpenStyle = css({ overflow: 'hidden' });
 
 export const overlayStyle = css({
   alignItems: 'center',
-  backgroundColor: hexToRgbaColor(tokens.color.primary.navy.value.hex, 0.8),
+  backgroundColor: hexToRgbaColor(tokens.colors.navy, 0.8),
   bottom: 0,
   display: 'flex',
   justifyContent: 'center',
