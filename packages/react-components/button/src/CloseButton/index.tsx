@@ -45,7 +45,7 @@ const CloseButton = ({
     onClick={onClick}
     type="button"
   >
-    <CrossIcon aria-hidden size="medium" />
+    <CrossIcon aria-hidden size={size === 'large' ? 'medium' : 'small'} />
   </button>
 );
 
