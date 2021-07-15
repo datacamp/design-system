@@ -14,23 +14,23 @@ export default Layout;
 
 ## Overview
 
-The `@datacamp/waffles-tokens` package exposes a json file containing all the primitive values necessary to produce apps with the datacamp styling rules. These values can be accessed and used to style applications using a variety of tools, including CSS-in-JS libraries such as emotion.
+The `@datacamp/waffles-tokens` package exposes all the primitive values necessary to style apps according to [design guidelines](https://www.figma.com/file/Flh00IKR70ff0bRvFW2Iou/%5BDC%5D-Design-Guidelines-Exploration?node-id=376%3A1144). These values can be accessed and used using a variety of tools, including CSS-in-JS libraries such as emotion.
 
 ### Usage
 
-To use any of the styles, simply import the @datacamp/waffles-tokens package and directly access the necessary properties. For example if the green color is needed then it should be accessed as follows.
+To use any of the styles, simply import the `@datacamp/waffles-tokens` package and directly access the necessary properties. For example if the green color is needed then it should be accessed as follows.
 
 ```
 import tokens from '@datacamp/waffles-tokens';
 
-const greenColorValue = tokens.colors.green;
+const greenColor = tokens.colors.green;
 ```
 
-This hex code can then be used wherever is necessary. All the tokens can be accessed and used in the same way since it is just a json file.
+This hex code can then be used wherever is necessary. All the tokens can be accessed and used in the same way.
 
 ### Colors
 
-For each of the primary colours, there are 3 variations. The standard colour e.g. `green` should be used as a priority, but there is also a dark and a light version of every colour. There is also a version to use as a text colour when being used against a light coloured background, e.g. `greenText`. For some colours this is the same as one of the other variants, but it will always have sufficient contrast against one of the lighter backgrounds. When working against a dark background, the standard colours are appropriate.
+For each of the primary colours, there are 3 variations. The standard color e.g. `green` should be used as a priority, but there is also a dark and a light version of every colour. There is also a version to use as a text color when being used against a light coloured background, e.g. `greenDarkText`. For some colors this is the same as one of the other variants, but it will always have sufficient contrast against one of the lighter backgrounds. When working against a dark background, the standard colours are appropriate.
 
 </Section>
 
