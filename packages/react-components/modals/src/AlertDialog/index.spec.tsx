@@ -1,10 +1,9 @@
 import '@testing-library/jest-dom/extend-expect';
 
 import axeRender from '@datacamp/waffles-axe-render';
-import tokens from '@datacamp/waffles-tokens/lib/future-tokens.json';
+import tokens from '@datacamp/waffles-tokens';
 import { fireEvent, RenderOptions } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
-import * as React from 'react';
 
 import { setAppElement } from '..';
 import AlertDialog from '.';
@@ -342,7 +341,7 @@ describe('<AlertModal />', () => {
       ) as HTMLElement).closest('button');
       expect(confirmButtonElement).toHaveFocus();
       expect(confirmButtonElement).toHaveStyle(
-        `background-color: ${tokens.color.primary.navy.value.rgb}`,
+        `background-color: ${tokens.colors.navy}`,
       );
     });
 
@@ -363,7 +362,7 @@ describe('<AlertModal />', () => {
       ) as HTMLElement).closest('button');
       expect(confirmButtonElement).toHaveFocus();
       expect(confirmButtonElement).toHaveStyle(
-        `background-color: ${tokens.color.primary.navy.value.rgb}`,
+        `background-color: ${tokens.colors.navy}`,
       );
     });
 
@@ -384,7 +383,7 @@ describe('<AlertModal />', () => {
       ) as HTMLElement).closest('button');
       expect(confirmButtonElement).toHaveFocus();
       expect(confirmButtonElement).toHaveStyle(
-        `background-color: ${tokens.color.primary.green.value.rgb}`,
+        `background-color: ${tokens.colors.green}`,
       );
     });
 
@@ -408,7 +407,7 @@ describe('<AlertModal />', () => {
       ) as HTMLElement).closest('button');
       expect(cancelButtonElement).toHaveFocus();
       expect(confirmButtonElement).toHaveStyle(
-        `background-color: ${tokens.color.primary.orange.value.rgb}`,
+        `background-color: ${tokens.colors.orange}`,
       );
     });
 
@@ -432,7 +431,7 @@ describe('<AlertModal />', () => {
       ) as HTMLElement).closest('button');
       expect(cancelButtonElement).toHaveFocus();
       expect(confirmButtonElement).toHaveStyle(
-        `background-color: ${tokens.color.primary.red.value.rgb}`,
+        `background-color: ${tokens.colors.red}`,
       );
     });
   });
