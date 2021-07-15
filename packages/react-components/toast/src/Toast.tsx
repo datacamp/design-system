@@ -4,15 +4,12 @@ import {
   CrossCircleInvertedIcon,
 } from '@datacamp/waffles-icons';
 import { Heading, Paragraph } from '@datacamp/waffles-text';
-import tokens from '@datacamp/waffles-tokens/lib/future-tokens.json';
+import tokens from '@datacamp/waffles-tokens';
 import { css } from '@emotion/react';
 
-// TODO(blurbyte) Remove when it will be added to design tokens
-const EXTRA_TEXT_COLOR = '#65707c';
-
 const colors = {
-  error: tokens.color.primary.red.value.hex,
-  success: tokens.color.primary.green.value.hex,
+  error: tokens.colors.red,
+  success: tokens.colors.green,
 };
 
 const icons = {
@@ -34,7 +31,7 @@ const wrapperStyle = css({
   minWidth: 250,
   padding: 16,
   position: 'relative',
-  zIndex: parseInt(tokens.zIndex[999].value, 10),
+  zIndex: tokens.zIndex.toast,
 });
 
 interface ToastProps {
@@ -67,13 +64,13 @@ const Toast = ({
 
   return (
     <div css={css({ borderColor: color }, wrapperStyle)}>
-      <Icon css={css({ flexShrink: 0 })} title={intent} />
+      <Icon css={css({ flexShrink: 0, marginTop: 1 })} title={intent} />
       <div css={css({ flexGrow: 1, marginLeft: 12, marginRight: 8 })}>
-        <Heading as="h4" multiLine size={300}>
+        <Heading as="h4" multiLine size={500}>
           {title}
         </Heading>
         {description && (
-          <Paragraph css={css({ color: EXTRA_TEXT_COLOR })}>
+          <Paragraph css={css({ color: tokens.colors.navySubtleTextOnLight })}>
             {description}
           </Paragraph>
         )}
