@@ -23,13 +23,14 @@ exports[`toast mounts a success toast 1`] = `
   min-width: 250px;
   padding: 16px;
   position: relative;
-  z-index: 999;
+  z-index: 10000;
 }
 
 .emotion-1 {
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
+  margin-top: 1px;
 }
 
 .emotion-2 {
@@ -51,9 +52,9 @@ exports[`toast mounts a success toast 1`] = `
   margin: 0;
   overflow: reset;
   white-space: normal;
-  font-size: 12px;
+  font-size: 14px;
   letter-spacing: 0px;
-  line-height: 16px;
+  line-height: 20px;
 }
 
 *:not(style)~.emotion-3 {
@@ -152,10 +153,10 @@ exports[`toast mounts a success toast 1`] = `
     >
       <svg
         aria-hidden="true"
-        height="16"
+        height="14"
         role="img"
         viewBox="0 0 18 18"
-        width="16"
+        width="14"
       >
         <title>
           Cross
@@ -194,13 +195,14 @@ exports[`toast mounts an error toast 1`] = `
   min-width: 250px;
   padding: 16px;
   position: relative;
-  z-index: 999;
+  z-index: 10000;
 }
 
 .emotion-1 {
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
+  margin-top: 1px;
 }
 
 .emotion-2 {
@@ -222,9 +224,9 @@ exports[`toast mounts an error toast 1`] = `
   margin: 0;
   overflow: reset;
   white-space: normal;
-  font-size: 12px;
+  font-size: 14px;
   letter-spacing: 0px;
-  line-height: 16px;
+  line-height: 20px;
 }
 
 *:not(style)~.emotion-3 {
@@ -323,10 +325,10 @@ exports[`toast mounts an error toast 1`] = `
     >
       <svg
         aria-hidden="true"
-        height="16"
+        height="14"
         role="img"
         viewBox="0 0 18 18"
-        width="16"
+        width="14"
       >
         <title>
           Cross
