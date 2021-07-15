@@ -43,8 +43,8 @@ exports[`UserAccountMenu snapshots renders correctly when all optional props are
     -ms-flex-pack: space-evenly;
     -webkit-justify-content: space-evenly;
     justify-content: space-evenly;
-    min-width: 56px;
-    width: 56px;
+    min-width: 54px;
+    width: 54px;
   }
 
   .emotion-1:hover {
@@ -461,8 +461,8 @@ exports[`UserAccountMenu snapshots renders correctly when only main app URL is p
     -ms-flex-pack: space-evenly;
     -webkit-justify-content: space-evenly;
     justify-content: space-evenly;
-    min-width: 56px;
-    width: 56px;
+    min-width: 54px;
+    width: 54px;
   }
 
   .emotion-1:hover {
@@ -585,8 +585,8 @@ exports[`UserAccountMenu snapshots renders correctly when only main app URL is p
     -ms-flex-pack: space-evenly;
     -webkit-justify-content: space-evenly;
     justify-content: space-evenly;
-    min-width: 56px;
-    width: 56px;
+    min-width: 54px;
+    width: 54px;
   }
 
   .emotion-1:hover {
