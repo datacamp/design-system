@@ -30,7 +30,7 @@ exports[`toast mounts a success toast 1`] = `
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
-  margin-top: 1px;
+  margin-top: 2px;
 }
 
 .emotion-2 {
@@ -202,7 +202,7 @@ exports[`toast mounts an error toast 1`] = `
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
-  margin-top: 1px;
+  margin-top: 2px;
 }
 
 .emotion-2 {

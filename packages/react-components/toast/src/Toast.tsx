@@ -64,7 +64,7 @@ const Toast = ({
 
   return (
     <div css={css({ borderColor: color }, wrapperStyle)}>
-      <Icon css={css({ flexShrink: 0, marginTop: 1 })} title={intent} />
+      <Icon css={css({ flexShrink: 0, marginTop: 2 })} title={intent} />
       <div css={css({ flexGrow: 1, marginLeft: 12, marginRight: 8 })}>
         <Heading as="h4" multiLine size={500}>
           {title}
