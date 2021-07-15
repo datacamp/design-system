@@ -1,22 +1,22 @@
-import tokens from '@datacamp/waffles-tokens/lib/future-tokens.json';
-import React, { ReactElement, ReactNode } from 'react';
+import tokens from '@datacamp/waffles-tokens';
+import React from 'react';
 
 export interface BodyProps {
   /**
    * The content to render inside the Dialog. Should be used along with
    * `Dialog.Header`.
    */
-  children: ReactNode;
+  children: React.ReactNode;
 }
 
-const Body = ({ children }: BodyProps): ReactElement => (
+const Body = ({ children }: BodyProps): JSX.Element => (
   <div
     css={{
       flex: 'auto',
       overflowY: 'auto',
-      paddingBottom: tokens.size.space[32].value,
-      paddingLeft: tokens.size.space[32].value,
-      paddingRight: tokens.size.space[32].value,
+      paddingBottom: tokens.spacing.medium,
+      paddingLeft: tokens.spacing.medium,
+      paddingRight: tokens.spacing.medium,
     }}
     tabIndex={0} // must be focusable to allow keyboard scrolling
   >
