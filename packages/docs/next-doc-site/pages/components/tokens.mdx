@@ -14,7 +14,7 @@ export default Layout;
 
 ## Overview
 
-The `@datacamp/waffles-tokens` package exposes all the primitive values necessary to style apps according to [design guidelines](https://www.figma.com/file/Flh00IKR70ff0bRvFW2Iou/%5BDC%5D-Design-Guidelines-Exploration?node-id=376%3A1144). These values can be accessed and used using a variety of tools, including CSS-in-JS libraries such as emotion.
+The `@datacamp/waffles-tokens` package exposes all the primitive values necessary to style apps according to [Design Guidelines](https://www.figma.com/file/Flh00IKR70ff0bRvFW2Iou/%5BDC%5D-Design-Guidelines-Exploration?node-id=376%3A1144). These values can be accessed and used using a variety of tools, including CSS-in-JS libraries such as emotion.
 
 ### Usage
 
@@ -32,6 +32,10 @@ This hex code can then be used wherever is necessary. All the tokens can be acce
 
 For each of the primary colours, there are 3 variations. The standard color e.g. `green` should be used as a priority, but there is also a dark and a light version of every colour. There is also a version to use as a text color when being used against a light coloured background, e.g. `greenDarkText`. For some colors this is the same as one of the other variants, but it will always have sufficient contrast against one of the lighter backgrounds. When working against a dark background, the standard colours are appropriate.
 
+### Accessibility
+
+Use `blue` (in some rare cases `blueDark` is allowed) color for interactive components focus styles. For disabled elements use `medium` opacity.
+
 </Section>
 
 <Section>
@@ -39,5 +43,133 @@ For each of the primary colours, there are 3 variations. The standard color e.g.
 ## Available Tokens
 
 <FormattedTokens />
+
+</Section>
+
+<Section>
+
+## Migration Guide
+
+### Tokens (v1 -> v2)
+
+Tokens have been updated to stay in line with [Design Guidelines](https://www.figma.com/file/Flh00IKR70ff0bRvFW2Iou/%5BDC%5D-Design-Guidelines-Exploration?node-id=376%3A1144) and to be compatible with [Figma Tokens](https://www.figma.com/community/plugin/843461159747178978/Figma-Tokens) plugin.
+
+#### Deprecated tokens groups
+
+- 🚨 `spatial` group is deprecated
+  - use tokens from `sizing`, `spacing`, and `zIndex` groups
+- 🚨 `border` group is deprecated
+  - use tokens from `borderRadius` group
+- 🚨 `animation` group is deprecated
+
+#### Completely new tokens groups
+
+- 🟢 new group `sizing`
+- 🟢 new group `spacing`
+- 🟢 new group `borderWidth`
+- 🟢 new group `opacity`
+- 🟢 new group `zIndex`
+- 🟢 new group `borderRadius`
+  - 🚨 `border.radius` -> `borderRadius.medium`
+  - 🟢 new `circle` border radius token
+
+#### Updated tokens groups
+
+- 🔄 changes in `colors` group:
+  - 🟢 new brand colors `brandFacebook`, `brandTwitter`, `brandGoogle`, `brandLinkedIn`
+  - 🟢 new text colors `navySubtleTextOnDark`, `navySubtleTextOnLight`
+  - 🟢 new `greyDark` color
+  - 🚨 `navyText` -> `navy`
+  - 🚨 `greenText` -> `greenDarkText`
+  - 🚨 `redText` -> `redDarkText`
+  - 🚨 `orangeText` -> `orangeDarkText`
+  - 🚨 `yellowText` -> `yellowDarkText`
+  - 🚨 `blueText` -> `blueDarkText`
+  - 🚨 `purpleText` -> `purpleDarkText`
+  - 🚨 `pinkText` -> `pinkDarkText`
+  - 🚨 `beige100` -> `beigeSubtle`
+  - 🚨 `beige200` -> `beigeLight`
+  - 🚨 `beige300` -> `beige`
+  - 🚨 `beige400` -> `beigeMedium`
+  - 🚨 `grey100` -> `greySubtle`
+  - 🚨 `grey200` -> `greyLight`
+  - 🚨 `grey300` -> `grey`
+  - 🚨 `grey400` -> `greyMedium`
+- 🔄 changes in `breakpoints` group
+  - 🟢 new `small`, `medium`, `large` breakpoints
+  - 🚨 all old tokens are deprecated
+- 🔄 changes in `boxShadow` group
+  - 🟢 new `thin`, `medium`, `thick`, `xthick` tokens
+  - 🚨 all old tokens are deprecated
+
+#### Renamed and updated tokens groups
+
+- 🔄 `fontFamily` -> `fontFamilies`
+  - 🚨 tokens now contains whole CSS font stacks, no need to specify additional fallback fonts
+- 🔄 `fontSize` -> `fontSizes`
+  - 🚨 `micro` -> `small`
+  - 🚨 `small` -> `small`
+  - 🚨 `base` -> `medium`
+  - 🚨 `h6` -> `small`
+  - 🚨 `h5` -> `small`
+  - 🚨 `h4` -> `medium`
+  - 🚨 `h3` -> `large`
+  - 🚨 `h2` -> `xlarge`
+  - 🚨 `h1` -> `xxlarge`
+  - 🟢 new `huge` token
+- 🔄 `fontWeight` -> `fontWeights`
+- 🔄 `letterSpacings` -> `letterSpacing`
+  - 🚨 `base` -> `default`
+  - 🚨 `mediumHeading` -> `tight`
+  - 🚨 `largeHeading` -> `tight`
+  - 🟢 new `relaxed` token
+- 🔄 `lineHeight` -> `lineHeights`
+  - in most cases use the same `lineHeight` in tandem with `fontSize`
+  - 🚨 `base` -> `medium`
+  - 🚨 `heading` -> `large`
+  - 🚨 `largeHeading` -> `xlarge`
+  - 🟢 new `small` token
+  - 🟢 new `xxlarge` token
+
+### Components
+
+Most components feature only slight visual changes, without any updates to their props APIs (icons are the only exception).
+
+#### Icons (v4 -> v5)
+
+- 🚨 `size` accepts `medium` (default), `small`, and `xsmall` values instead of numeric `24`, `18`, and `12`
+  - in most cases, it is advised to use the default value
+  - under the hood they map to 16, 14, and 12 numeric values
+
+#### Button (v7 -> v8)
+
+- font size for `small` and `medium` `Button` is set to `fontSizes.medium` (14px)
+- adjusted icon size for `CloseButton` and social media buttons
+- updated dropdown item elements dimensions for `UserAccountMenu`
+
+#### Text (v5 -> v6)
+
+- font size for `Small`, `Code`, and `CodeBlock` is set to `fontSizes.small` (12px)
+- font size for `Paragraph`, `Link`, `Emphasis`, `Strong`, `Text`, and `ListItem` is set to `fontSizes.medium` (14px)
+- font size, line height, and letter spacing are individually adjusted for each `Heading` size
+- ⚠️ recommended combination of `size` for each HTML heading level for `Heading` component:
+  - `h1` -> `700`
+  - `h2` -> `650`
+  - `h3` -> `600`
+  - `h4` -> `500`
+- font size for `small` `Badge` is set to `fontSizes.small` and for `large` one to `fontSizes.medium`
+
+#### Toast (v3 -> v4)
+
+- title font size is set to match the description
+- position of icons are adjusted
+
+#### Modals (v7 -> v8)
+
+- reduce spacings around `Dialog.Header`, `Dialog.Body`, and `Dialog.Footer`
+
+#### Tooltip (v0.2 -> v1)
+
+- reduce spacings around the text
 
 </Section>
