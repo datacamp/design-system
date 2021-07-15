@@ -3,6 +3,33 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [8.0.0-beta.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-button@7.6.0-beta.0...@datacamp/waffles-button@8.0.0-beta.0) (2021-07-15)
+
+
+### Features
+
+* adjust button size to compensate for smaller icon ([65a8f4a](https://github.com/datacamp/design-system/commit/65a8f4a))
+* adjust close button icon size ([7133fd7](https://github.com/datacamp/design-system/commit/7133fd7))
+* update icons within buttons ([7e99a62](https://github.com/datacamp/design-system/commit/7e99a62))
+* update tests and snapshots ([842a516](https://github.com/datacamp/design-system/commit/842a516))
+* update tokens in ButtonGroup ([d5daae0](https://github.com/datacamp/design-system/commit/d5daae0))
+* update tokens in CloseButton ([d5df6aa](https://github.com/datacamp/design-system/commit/d5df6aa))
+* update tokens in SocialMediaButtons ([b4cf428](https://github.com/datacamp/design-system/commit/b4cf428))
+* update tokens in UserAccountMenu ([ae660d3](https://github.com/datacamp/design-system/commit/ae660d3))
+* use token for disabled color ([ccdeb99](https://github.com/datacamp/design-system/commit/ccdeb99))
+
+
+* feat!: update tokens in Button component ([682d08a](https://github.com/datacamp/design-system/commit/682d08a))
+
+
+### BREAKING CHANGES
+
+* add new tokens
+
+
+
+
+
 # [7.6.0-beta.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-button@7.5.1...@datacamp/waffles-button@7.6.0-beta.0) (2021-07-12)
 
 

@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [3.4.0-beta.1](https://github.com/datacamp/design-system/compare/@datacamp/waffles-storybook@3.4.0-beta.0...@datacamp/waffles-storybook@3.4.0-beta.1) (2021-07-15)
+
+
+### Features
+
+* update icons stories ([2214198](https://github.com/datacamp/design-system/commit/2214198))
+
+
+
+
+
 # [3.4.0-beta.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-storybook@3.3.0...@datacamp/waffles-storybook@3.4.0-beta.0) (2021-07-12)
 
 

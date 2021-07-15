@@ -3,6 +3,26 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [8.0.0-beta.0](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/modals/compare/@datacamp/waffles-modals@7.1.5-beta.0...@datacamp/waffles-modals@8.0.0-beta.0) (2021-07-15)
+
+
+### Features
+
+* replace old tokens iwth the new ones ([b327c74](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/modals/commit/b327c74))
+* update tests ([c7acf40](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/modals/commit/c7acf40))
+
+
+* feat!: adjust spacing ([2adb5ce](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/modals/commit/2adb5ce))
+
+
+### BREAKING CHANGES
+
+* add new tokens
+
+
+
+
+
 ## [7.1.5-beta.0](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/modals/compare/@datacamp/waffles-modals@7.1.4...@datacamp/waffles-modals@7.1.5-beta.0) (2021-07-12)
 
 **Note:** Version bump only for package @datacamp/waffles-modals

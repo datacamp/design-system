@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0-beta.1](https://github.com/datacamp/design-system/compare/@datacamp/waffles-tokens@2.0.0-beta.0...@datacamp/waffles-tokens@2.0.0-beta.1) (2021-07-15)
+
+
+### Bug Fixes
+
+* udate suggestion for navyText migration ([00a8b5d](https://github.com/datacamp/design-system/commit/00a8b5d))
+
+
+### Features
+
+* upadte medium opacity token ([c935fdd](https://github.com/datacamp/design-system/commit/c935fdd))
+* update xxlarge lineHeights token ([d150b99](https://github.com/datacamp/design-system/commit/d150b99))
+
+
+
+
+
 # [2.0.0-beta.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-tokens@1.1.0...@datacamp/waffles-tokens@2.0.0-beta.0) (2021-07-12)
 
 

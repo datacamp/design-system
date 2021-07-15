@@ -3,6 +3,20 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [5.0.0-beta.0](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/icons/compare/@datacamp/waffles-icons@4.4.1-beta.0...@datacamp/waffles-icons@5.0.0-beta.0) (2021-07-15)
+
+
+* feat!: update buid pipeline of icons ([df0d380](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/icons/commit/df0d380))
+
+
+### BREAKING CHANGES
+
+* update icon sizes
+
+
+
+
+
 ## [4.4.1-beta.0](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/icons/compare/@datacamp/waffles-icons@4.4.0...@datacamp/waffles-icons@4.4.1-beta.0) (2021-07-12)
 
 **Note:** Version bump only for package @datacamp/waffles-icons
