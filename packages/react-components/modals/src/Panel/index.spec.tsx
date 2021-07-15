@@ -2,10 +2,9 @@ import '@testing-library/jest-dom/extend-expect';
 
 import axeRender from '@datacamp/waffles-axe-render';
 import Button, { ButtonGroup } from '@datacamp/waffles-button';
-import tokens from '@datacamp/waffles-tokens/lib/future-tokens.json';
+import tokens from '@datacamp/waffles-tokens';
 import { fireEvent, RenderOptions } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
-import * as React from 'react';
 
 import { setAppElement } from '..';
 import Panel from '.';
@@ -279,12 +278,6 @@ describe('<Panel />', () => {
     );
 
     expect(container.firstChild).toHaveStyle(`justify-content: space-between`);
-    expect(container.firstChild).toHaveStyle(
-      `paddingLeft: ${tokens.size.space[16].value}`,
-    );
-    expect(container.firstChild).toHaveStyle(
-      `paddingRight: ${tokens.size.space[16].value}`,
-    );
 
     // expect(baseElement).toMatchSnapshot();
   });
@@ -302,9 +295,6 @@ describe('<Panel />', () => {
 
     expect(getByText('Button1')).toBeInTheDocument();
     expect(getByText('Button2')).toBeInTheDocument();
-    expect(getByText('Button2')).toHaveStyle(
-      `marginLeft: ${tokens.size.space[16].value}`,
-    );
 
     // expect(baseElement).toMatchSnapshot();
   });
