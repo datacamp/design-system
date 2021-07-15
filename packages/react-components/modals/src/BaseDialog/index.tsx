@@ -1,6 +1,6 @@
 import { CloseButton } from '@datacamp/waffles-button';
 import Card from '@datacamp/waffles-card';
-import tokens from '@datacamp/waffles-tokens/lib/future-tokens.json';
+import tokens from '@datacamp/waffles-tokens';
 import { ClassNames } from '@emotion/react';
 import React from 'react';
 import ReactModal from 'react-modal';
@@ -130,8 +130,8 @@ const BaseDialog: React.FC<DialogProps> = ({
               <CloseButton
                 css={{
                   position: 'absolute',
-                  right: tokens.size.space[16].value,
-                  top: tokens.size.space[16].value,
+                  right: tokens.spacing.medium,
+                  top: tokens.spacing.medium,
                 }}
                 disabled={closeButtonDisabled}
                 onClick={onCloseButton}
