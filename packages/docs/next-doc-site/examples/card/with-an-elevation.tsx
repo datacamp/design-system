@@ -4,7 +4,7 @@ import { Heading, Paragraph } from '@datacamp/waffles-text';
 function Example(): JSX.Element {
   return (
     <Card css={{ padding: 24 }} elevation={2} hoverElevation={4}>
-      <Heading as="h4" size={400}>
+      <Heading as="h4" size={500}>
         A Card with Mouse Over Elevation
       </Heading>
       <Paragraph>

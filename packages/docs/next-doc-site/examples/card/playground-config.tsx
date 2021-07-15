@@ -11,7 +11,7 @@ function Playground(): JSX.Element {
   return (
     <Card elevation={0}>
       <div style={{ padding: 24 }}>
-        <Heading as="h4" size={400}>
+        <Heading as="h4" size={500}>
           A Card
         </Heading>
         <Paragraph>
