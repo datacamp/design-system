@@ -6,6 +6,19 @@ const util = require('util');
 
 const baseTokens = require('./base-tokens.json'); // Already parsed to JS
 
+// Mappign for Figma Tokens values and CSS couterparts
+
+const fontWeights = {
+  Bold: 800,
+  Regular: 400,
+};
+
+const fontFamilies = {
+  'JetBrains Mono NL':
+    "JetBrainsMonoNL, Menlo, Monaco, 'Courier New', monospace",
+  'Studio Feixen Sans': 'Studio-Feixen-Sans, Arial, sans-serif',
+};
+
 // Transform boxShadow tokens group expected by Figma Tokens to CSS values
 function transformedBoxShadows(baseBoxShadows) {
   return Object.fromEntries(
@@ -20,12 +33,36 @@ function transformedBoxShadows(baseBoxShadows) {
   );
 }
 
+function transformedFontWeights(baseFontWeights) {
+  return Object.fromEntries(
+    Object.entries(baseFontWeights).map((entry) => {
+      const [key, baseFontWeight] = entry;
+      return [key, fontWeights[baseFontWeight]];
+    }),
+  );
+}
+
+function transformedFontFamilies(baseFontFamilies) {
+  return Object.fromEntries(
+    Object.entries(baseFontFamilies).map((entry) => {
+      const [key, baseFontFamily] = entry;
+      return [key, fontFamilies[baseFontFamily]];
+    }),
+  );
+}
+
 // Replace boxShadow tokens group with transformed ones
 function transformedBaseTokens(tokens) {
   return {
     ...tokens,
     boxShadow: {
       ...transformedBoxShadows(tokens.boxShadow),
+    },
+    fontFamilies: {
+      ...transformedFontFamilies(tokens.fontFamilies),
+    },
+    fontWeights: {
+      ...transformedFontWeights(tokens.fontWeights),
     },
   };
 }
