@@ -142,7 +142,9 @@ function tokensToEsModule(tokens) {
 
 const newTokens = tokensToEsModule(transformedBaseTokens(baseTokens));
 
-// Assuming lib directory already exists
+if (!fs.existsSync('./lib')) {
+  fs.mkdirSync('./lib');
+}
 fs.writeFileSync('./lib/tokens.js', newTokens);
 
 // Exporting utils for unit tests
