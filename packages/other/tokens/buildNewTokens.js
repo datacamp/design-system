@@ -1,6 +1,10 @@
 // Generate new design tokens JS file based on JSON file with Figma Tokens definitions
 // It will be used to generate both ESM and CJS modules, and TS typings
 
+// fontWeights, fontFamilies, and boxShadow have non-standard values to work with Figma Tokens
+// typography and paragraphSpacing are defined for convenience  and are removed
+// colors are grouped for convenience and are flattened
+
 const fs = require('fs');
 const util = require('util');
 
@@ -61,7 +65,7 @@ function transformedFontFamilies(baseFontFamilies) {
 
 // Replace boxShadow tokens group with transformed ones
 function transformedBaseTokens(tokens) {
-  return {
+  const transformedTokens = {
     ...tokens,
     boxShadow: {
       ...transformedBoxShadows(tokens.boxShadow),
@@ -76,6 +80,11 @@ function transformedBaseTokens(tokens) {
       ...transformedFontWeights(tokens.fontWeights),
     },
   };
+
+  delete transformedTokens.typography;
+  delete transformedTokens.paragraphSpacing;
+
+  return transformedTokens;
 }
 
 // Create separate export for each token group (like colors, lineHeights, etc.)
