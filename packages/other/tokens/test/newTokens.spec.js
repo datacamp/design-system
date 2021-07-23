@@ -4,6 +4,10 @@ const {
   tokensToEsModule,
   transformedBaseTokens,
   transformedBoxShadows,
+  transformedColors,
+  transformedFontFamilies,
+  transformedFontWeights,
+  transformedLineHeights,
 } = require('../buildNewTokens');
 const baseTokens = require('../base-tokens.json');
 
@@ -29,9 +33,29 @@ const testTokens = {
     },
   },
   colors: {
-    black: '#000',
-    red: '#FF0000',
-    white: '#FFF',
+    accent: {
+      redLight: '#FF782D',
+    },
+    neutral: {
+      grey: '#E8E8EA',
+      white: '#FFFFFF',
+    },
+    primary: {
+      green: '#03EF62',
+      navy: '#05192D',
+    },
+  },
+  fontFamilies: {
+    mono: 'JetBrains Mono NL',
+    sansSerif: 'Studio Feixen Sans',
+  },
+  fontWeights: {
+    bold: 'Bold',
+    regular: 'Regular',
+  },
+  lineHeights: {
+    relaxed: '150%',
+    tight: '100%',
   },
   spacing: {
     large: '24px',
@@ -46,9 +70,23 @@ const transformedTestTokens = {
     thin: '0px 0px 2px 0px rgba(5, 25, 45, 0.3)',
   },
   colors: {
-    black: '#000',
-    red: '#FF0000',
-    white: '#FFF',
+    green: '#03EF62',
+    grey: '#E8E8EA',
+    navy: '#05192D',
+    redLight: '#FF782D',
+    white: '#FFFFFF',
+  },
+  fontFamilies: {
+    mono: "JetBrainsMonoNL, Menlo, Monaco, 'Courier New', monospace",
+    sansSerif: 'Studio-Feixen-Sans, Arial, sans-serif',
+  },
+  fontWeights: {
+    bold: 800,
+    regular: 400,
+  },
+  lineHeights: {
+    relaxed: 1.5,
+    tight: 1,
   },
   spacing: {
     large: '24px',
@@ -58,9 +96,33 @@ const transformedTestTokens = {
 };
 
 describe('new tokens', () => {
-  it('transformedBoxShadows() transfroms box shadow from Figma Plugin format to CSS value', () => {
+  it('transformedColors() flattens grouped colors', () => {
+    expect(transformedColors(testTokens.colors)).toEqual(
+      transformedTestTokens.colors,
+    );
+  });
+
+  it('transformedBoxShadows() transfroms box shadow from Figma Plugin format to CSS values', () => {
     expect(transformedBoxShadows(testTokens.boxShadow)).toEqual(
       transformedTestTokens.boxShadow,
+    );
+  });
+
+  it('transformedFontFamilies() transfroms font families from Figma Plugin format to CSS values', () => {
+    expect(transformedFontFamilies(testTokens.fontFamilies)).toEqual(
+      transformedTestTokens.fontFamilies,
+    );
+  });
+
+  it('transformedFontWeights() transfroms font weights from Figma Plugin format to CSS values', () => {
+    expect(transformedFontWeights(testTokens.fontWeights)).toEqual(
+      transformedTestTokens.fontWeights,
+    );
+  });
+
+  it('transformedLineHeights() transfroms line heights from percanteges to unitless', () => {
+    expect(transformedLineHeights(testTokens.lineHeights)).toEqual(
+      transformedTestTokens.lineHeights,
     );
   });
 
@@ -73,7 +135,19 @@ describe('new tokens', () => {
   medium: '0px 1px 4px -1px rgba(5, 25, 45, 0.3)',
   thin: '0px 0px 2px 0px rgba(5, 25, 45, 0.3)'
 };
-export const colors = { black: '#000', red: '#FF0000', white: '#FFF' };
+export const colors = {
+  green: '#03EF62',
+  grey: '#E8E8EA',
+  navy: '#05192D',
+  redLight: '#FF782D',
+  white: '#FFFFFF'
+};
+export const fontFamilies = {
+  mono: "JetBrainsMonoNL, Menlo, Monaco, 'Courier New', monospace",
+  sansSerif: 'Studio-Feixen-Sans, Arial, sans-serif'
+};
+export const fontWeights = { bold: 800, regular: 400 };
+export const lineHeights = { relaxed: 1.5, tight: 1 };
 export const spacing = { large: '24px', medium: '16px', small: '8px' };
 `;
 
@@ -83,7 +157,7 @@ export const spacing = { large: '24px', medium: '16px', small: '8px' };
   });
 
   it('tokensDefaultExport() creates ES module default export', () => {
-    const expectedContent = `export default { boxShadow, colors, spacing };`;
+    const expectedContent = `export default { boxShadow, colors, fontFamilies, fontWeights, lineHeights, spacing };`;
     expect(tokensDefaultExport(transformedTestTokens)).toEqual(expectedContent);
   });
 
@@ -92,9 +166,22 @@ export const spacing = { large: '24px', medium: '16px', small: '8px' };
   medium: '0px 1px 4px -1px rgba(5, 25, 45, 0.3)',
   thin: '0px 0px 2px 0px rgba(5, 25, 45, 0.3)'
 };
-export const colors = { black: '#000', red: '#FF0000', white: '#FFF' };
+export const colors = {
+  green: '#03EF62',
+  grey: '#E8E8EA',
+  navy: '#05192D',
+  redLight: '#FF782D',
+  white: '#FFFFFF'
+};
+export const fontFamilies = {
+  mono: "JetBrainsMonoNL, Menlo, Monaco, 'Courier New', monospace",
+  sansSerif: 'Studio-Feixen-Sans, Arial, sans-serif'
+};
+export const fontWeights = { bold: 800, regular: 400 };
+export const lineHeights = { relaxed: 1.5, tight: 1 };
 export const spacing = { large: '24px', medium: '16px', small: '8px' };
-export default { boxShadow, colors, spacing };`;
+export default { boxShadow, colors, fontFamilies, fontWeights, lineHeights, spacing };`;
+
     expect(tokensToEsModule(transformedTestTokens)).toEqual(expectedContent);
   });
 
