@@ -19,7 +19,15 @@ const fontFamilies = {
   'Studio Feixen Sans': 'Studio-Feixen-Sans, Arial, sans-serif',
 };
 
-// Transform boxShadow tokens group expected by Figma Tokens to CSS values
+// Transformations for colors, boxShadow, fontWeights, and fontFamilies
+
+function transformedColors(baseColors) {
+  return Object.entries(baseColors).reduce((flattenedColors, currentEntry) => {
+    const groupedColors = currentEntry[1];
+    return Object.assign(flattenedColors, { ...groupedColors });
+  }, {});
+}
+
 function transformedBoxShadows(baseBoxShadows) {
   return Object.fromEntries(
     Object.entries(baseBoxShadows).map((entry) => {
@@ -57,6 +65,9 @@ function transformedBaseTokens(tokens) {
     ...tokens,
     boxShadow: {
       ...transformedBoxShadows(tokens.boxShadow),
+    },
+    colors: {
+      ...transformedColors(tokens.colors),
     },
     fontFamilies: {
       ...transformedFontFamilies(tokens.fontFamilies),
