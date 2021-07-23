@@ -23,7 +23,7 @@ const fontFamilies = {
   'Studio Feixen Sans': 'Studio-Feixen-Sans, Arial, sans-serif',
 };
 
-// Transformations for colors, boxShadow, fontWeights, and fontFamilies
+// Transformations for colors, boxShadow, fontWeights, fontFamilies, and lineHeights
 
 function transformedColors(baseColors) {
   return Object.entries(baseColors).reduce((flattenedColors, currentEntry) => {
@@ -63,7 +63,18 @@ function transformedFontFamilies(baseFontFamilies) {
   );
 }
 
-// Replace boxShadow tokens group with transformed ones
+function transformedLineHeights(baseLineHeights) {
+  return Object.fromEntries(
+    Object.entries(baseLineHeights).map((entry) => {
+      const [key, baseLineHeight] = entry;
+      // Because percanteges are really quirky in CSS, convert them to unitless
+      const regularLineHeight = parseFloat(baseLineHeight) / 100;
+      return [key, regularLineHeight];
+    }),
+  );
+}
+
+// Apply trasformations and remove typography and paragraphSpacing sections
 function transformedBaseTokens(tokens) {
   const transformedTokens = {
     ...tokens,
@@ -78,6 +89,9 @@ function transformedBaseTokens(tokens) {
     },
     fontWeights: {
       ...transformedFontWeights(tokens.fontWeights),
+    },
+    lineHeights: {
+      ...transformedLineHeights(tokens.lineHeights),
     },
   };
 
@@ -138,4 +152,8 @@ module.exports = {
   tokensToEsModule,
   transformedBaseTokens,
   transformedBoxShadows,
+  transformedColors,
+  transformedFontFamilies,
+  transformedFontWeights,
+  transformedLineHeights,
 };
