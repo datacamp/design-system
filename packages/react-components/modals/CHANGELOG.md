@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [8.0.0-beta.1](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/modals/compare/@datacamp/waffles-modals@8.0.0-beta.0...@datacamp/waffles-modals@8.0.0-beta.1) (2021-07-26)
+
+
+### Features
+
+* update modals a11y and adjust paddings ([8128b62](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/modals/commit/8128b62))
+
+
+
+
+
 # [8.0.0-beta.0](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/modals/compare/@datacamp/waffles-modals@7.1.5-beta.0...@datacamp/waffles-modals@8.0.0-beta.0) (2021-07-15)
 
 

@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [3.4.0-beta.2](https://github.com/datacamp/design-system/compare/@datacamp/waffles-storybook@3.4.0-beta.1...@datacamp/waffles-storybook@3.4.0-beta.2) (2021-07-26)
+
+
+### Features
+
+* remove large button stories ([dbda30f](https://github.com/datacamp/design-system/commit/dbda30f))
+
+
+
+
+
 # [3.4.0-beta.1](https://github.com/datacamp/design-system/compare/@datacamp/waffles-storybook@3.4.0-beta.0...@datacamp/waffles-storybook@3.4.0-beta.1) (2021-07-15)
 
 

@@ -3,6 +3,25 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0-beta.2](https://github.com/datacamp/design-system/compare/@datacamp/waffles-tokens@2.0.0-beta.1...@datacamp/waffles-tokens@2.0.0-beta.2) (2021-07-26)
+
+
+### Features
+
+* add lineHeights transformation ([006fbb0](https://github.com/datacamp/design-system/commit/006fbb0))
+* add sizing token ([7ececb8](https://github.com/datacamp/design-system/commit/7ececb8))
+* add tests and update snapshots ([9f58e65](https://github.com/datacamp/design-system/commit/9f58e65))
+* add transformations for fontWeights and fontFamilies ([20a62fe](https://github.com/datacamp/design-system/commit/20a62fe))
+* check for lib directory ([acb747d](https://github.com/datacamp/design-system/commit/acb747d))
+* flatten colors tokens ([e748863](https://github.com/datacamp/design-system/commit/e748863))
+* remove typography and paragraphSpacing ([52ef532](https://github.com/datacamp/design-system/commit/52ef532))
+* update readme ([866e733](https://github.com/datacamp/design-system/commit/866e733))
+* update some tokens values ([771d648](https://github.com/datacamp/design-system/commit/771d648))
+
+
+
+
+
 # [2.0.0-beta.1](https://github.com/datacamp/design-system/compare/@datacamp/waffles-tokens@2.0.0-beta.0...@datacamp/waffles-tokens@2.0.0-beta.1) (2021-07-15)
 
 

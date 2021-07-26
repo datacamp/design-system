@@ -3,6 +3,27 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.10.0-beta.2](https://github.com/datacamp/design-system/compare/@datacamp/waffles-next-doc-site@0.10.0-beta.1...@datacamp/waffles-next-doc-site@0.10.0-beta.2) (2021-07-26)
+
+
+### Bug Fixes
+
+* beigeMedium in color docs ([49fd4ff](https://github.com/datacamp/design-system/commit/49fd4ff))
+
+
+### Features
+
+* reduce code preview button width ([e72e166](https://github.com/datacamp/design-system/commit/e72e166))
+* remove redundant adjustments ([8cf17e1](https://github.com/datacamp/design-system/commit/8cf17e1))
+* remove redundant button example from docs ([1badfe4](https://github.com/datacamp/design-system/commit/1badfe4))
+* update documentation ([634b7dc](https://github.com/datacamp/design-system/commit/634b7dc))
+* update line heights in docs ([09088ed](https://github.com/datacamp/design-system/commit/09088ed))
+* update text example ([c35a6c3](https://github.com/datacamp/design-system/commit/c35a6c3))
+
+
+
+
+
 # [0.10.0-beta.1](https://github.com/datacamp/design-system/compare/@datacamp/waffles-next-doc-site@0.10.0-beta.0...@datacamp/waffles-next-doc-site@0.10.0-beta.1) (2021-07-15)
 
 
