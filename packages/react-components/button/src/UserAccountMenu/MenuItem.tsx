@@ -26,7 +26,7 @@ const itemStyle = css({
   fontSize: tokens.fontSizes.medium,
   fontWeight: tokens.fontWeights.regular,
   height: 42,
-  opacity: tokens.opacity.height,
+  opacity: tokens.opacity.high,
   outline: 0,
   paddingLeft: tokens.spacing.large,
   paddingRight: tokens.spacing.large,
