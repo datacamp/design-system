@@ -20,7 +20,7 @@ const tableStyle = css`
   font-family: ${tokens.fontFamilies.sansSerif};
   font-size: ${tokens.fontSizes.medium};
   font-weight: ${tokens.fontWeights.regular};
-  line-height: ${tokens.lineHeights.medium};
+  line-height: ${tokens.lineHeights.relaxed};
   border-collapse: collapse;
   table-layout: fixed;
 `;
