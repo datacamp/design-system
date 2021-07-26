@@ -25,7 +25,7 @@ interface SmallProps {
 
 const smallStyle = css(baseStyle, {
   fontSize: tokens.fontSizes.small,
-  lineHeight: tokens.lineHeights.small,
+  lineHeight: tokens.lineHeights.relaxed,
 });
 
 const Small = ({

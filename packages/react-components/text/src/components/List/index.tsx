@@ -40,7 +40,7 @@ const listStyle = css(baseStyle, {
   margin: 0,
   padding: 0,
   [ssrSafeNotFirstChildSelector]: {
-    marginTop: tokens.spacing.medium,
+    marginTop: tokens.spacing.xsmall,
   },
 });
 

@@ -25,7 +25,7 @@ interface StrongProps {
 
 const strongStyle = css(baseStyle, {
   fontWeight: tokens.fontWeights.bold,
-  lineHeight: tokens.lineHeights.medium,
+  lineHeight: tokens.lineHeights.relaxed,
 });
 
 const Strong = ({
