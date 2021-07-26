@@ -34,13 +34,15 @@ For each of the primary colors, there are 3 variations. The standard color e.g. 
 
 ### Accessibility
 
-Use `blue` (in some rare cases `blueDark` is allowed) color for interactive components focus styles. For disabled elements use `medium` opacity.
+Use `blueDark` (in some rare cases `blue` is allowed) color for interactive components focus styles. For disabled elements use `medium` opacity.
 
 </Section>
 
 <Section>
 
 ## Available Tokens
+
+The list below contains tokens exposed by `@datacamp/waffles-tokens` package. For a list of tokens compatible with [Figma Tokens](https://www.figma.com/community/plugin/843461159747178978/Figma-Tokens) plugin please check [appropriate tokens file](https://github.com/datacamp/design-system/blob/beta/packages/other/tokens/base-tokens.json). Besides regular tokens exposed by the package it contains some convinience features, which makes workign with plugin easier.
 
 <FormattedTokens />
 
@@ -124,12 +126,11 @@ Tokens have been updated to stay in line with [Design Guidelines](https://www.fi
   - 🚨 `largeHeading` -> `tight`
   - 🟢 new `relaxed` token
 - 🔄 `lineHeight` -> `lineHeights`
-  - in most cases use the same `lineHeight` in tandem with `fontSize`
-  - 🚨 `base` -> `medium`
-  - 🚨 `heading` -> `large`
-  - 🚨 `largeHeading` -> `xlarge`
-  - 🟢 new `small` token
-  - 🟢 new `xxlarge` token
+  - in most cases, for headings use `default` token and for large amout of mid-sized text use `relaxed`
+  - 🚨 `base` -> `relaxed`
+  - 🚨 `heading` -> `default`
+  - 🚨 `largeHeading` -> `default`
+  - 🟢 new `tight` token
 
 ### Components
 
@@ -143,9 +144,12 @@ Most components feature only slight visual changes, without any updates to their
 
 #### Button (v7 -> v8)
 
+- 🚨 `large` button size is deprecated
+- 🚨 `small` button is now the default and should be used in most cases
 - font size for `small` and `medium` `Button` is set to `fontSizes.medium` (14px)
 - adjusted icon size for `CloseButton` and social media buttons
 - updated dropdown item elements dimensions for `UserAccountMenu`
+- gap between buttons in `ButtonGroup` is set to `spacing.medium` (16px)
 
 #### Text (v5 -> v6)
 
@@ -166,7 +170,7 @@ Most components feature only slight visual changes, without any updates to their
 
 #### Modals (v7 -> v8)
 
-- reduce spacings around `Dialog.Header`, `Dialog.Body`, and `Dialog.Footer`
+- adjust spacings around `Dialog.Header`, `Dialog.Body`, and `Dialog.Footer` to `spacing.large` (24px)
 
 #### Tooltip (v0.2 -> v1)
 
