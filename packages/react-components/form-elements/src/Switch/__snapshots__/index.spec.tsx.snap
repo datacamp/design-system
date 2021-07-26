@@ -41,7 +41,7 @@ exports[`snapshots renders a switch with appearance default, disabled=false, che
 .emotion-2 {
   -webkit-background-clip: content-box;
   background-clip: content-box;
-  background-color: #06bdfc;
+  background-color: #06BDFC;
   border-radius: 12px;
   box-sizing: border-box;
   height: 24px;
@@ -50,7 +50,7 @@ exports[`snapshots renders a switch with appearance default, disabled=false, che
   padding: 3px;
   position: relative;
   width: 34px;
-  background-color: #d9d9e2;
+  background-color: #D9D9E2;
   margin-right: 8px;
 }
 
@@ -59,7 +59,7 @@ exports[`snapshots renders a switch with appearance default, disabled=false, che
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  background-color: #ffffff;
+  background-color: #FFFFFF;
   border-radius: 6px;
   box-sizing: border-box;
   display: -webkit-box;
@@ -78,7 +78,7 @@ exports[`snapshots renders a switch with appearance default, disabled=false, che
   transition: transform 75ms linear;
   width: 12px;
   z-index: 1;
-  background-color: #ffffff;
+  background-color: #FFFFFF;
   -webkit-transform: translateX(0px);
   -moz-transform: translateX(0px);
   -ms-transform: translateX(0px);
@@ -145,7 +145,7 @@ exports[`snapshots renders a switch with appearance default, disabled=false, che
 .emotion-2 {
   -webkit-background-clip: content-box;
   background-clip: content-box;
-  background-color: #06bdfc;
+  background-color: #06BDFC;
   border-radius: 12px;
   box-sizing: border-box;
   height: 24px;
@@ -154,7 +154,7 @@ exports[`snapshots renders a switch with appearance default, disabled=false, che
   padding: 3px;
   position: relative;
   width: 34px;
-  background-color: #d9d9e2;
+  background-color: #D9D9E2;
   margin-right: 8px;
 }
 
@@ -163,7 +163,7 @@ exports[`snapshots renders a switch with appearance default, disabled=false, che
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  background-color: #ffffff;
+  background-color: #FFFFFF;
   border-radius: 6px;
   box-sizing: border-box;
   display: -webkit-box;
@@ -182,7 +182,7 @@ exports[`snapshots renders a switch with appearance default, disabled=false, che
   transition: transform 75ms linear;
   width: 12px;
   z-index: 1;
-  background-color: #ffffff;
+  background-color: #FFFFFF;
   -webkit-transform: translateX(0px);
   -moz-transform: translateX(0px);
   -ms-transform: translateX(0px);
@@ -251,7 +251,7 @@ exports[`snapshots renders a switch with appearance default, disabled=true, chec
 .emotion-2 {
   -webkit-background-clip: content-box;
   background-clip: content-box;
-  background-color: #06bdfc;
+  background-color: #06BDFC;
   border-radius: 12px;
   box-sizing: border-box;
   height: 24px;
@@ -260,7 +260,7 @@ exports[`snapshots renders a switch with appearance default, disabled=true, chec
   padding: 3px;
   position: relative;
   width: 34px;
-  background-color: #d9d9e2;
+  background-color: #D9D9E2;
   margin-right: 8px;
 }
 
@@ -269,7 +269,7 @@ exports[`snapshots renders a switch with appearance default, disabled=true, chec
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  background-color: #ffffff;
+  background-color: #FFFFFF;
   border-radius: 6px;
   box-sizing: border-box;
   display: -webkit-box;
@@ -288,7 +288,7 @@ exports[`snapshots renders a switch with appearance default, disabled=true, chec
   transition: transform 75ms linear;
   width: 12px;
   z-index: 1;
-  background-color: #ffffff;
+  background-color: #FFFFFF;
   -webkit-transform: translateX(0px);
   -moz-transform: translateX(0px);
   -ms-transform: translateX(0px);
@@ -358,7 +358,7 @@ exports[`snapshots renders a switch with appearance default, disabled=true, chec
 .emotion-2 {
   -webkit-background-clip: content-box;
   background-clip: content-box;
-  background-color: #06bdfc;
+  background-color: #06BDFC;
   border-radius: 12px;
   box-sizing: border-box;
   height: 24px;
@@ -367,7 +367,7 @@ exports[`snapshots renders a switch with appearance default, disabled=true, chec
   padding: 3px;
   position: relative;
   width: 34px;
-  background-color: #d9d9e2;
+  background-color: #D9D9E2;
   margin-right: 8px;
 }
 
@@ -376,7 +376,7 @@ exports[`snapshots renders a switch with appearance default, disabled=true, chec
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  background-color: #ffffff;
+  background-color: #FFFFFF;
   border-radius: 6px;
   box-sizing: border-box;
   display: -webkit-box;
@@ -395,7 +395,7 @@ exports[`snapshots renders a switch with appearance default, disabled=true, chec
   transition: transform 75ms linear;
   width: 12px;
   z-index: 1;
-  background-color: #ffffff;
+  background-color: #FFFFFF;
   -webkit-transform: translateX(0px);
   -moz-transform: translateX(0px);
   -ms-transform: translateX(0px);
@@ -444,7 +444,7 @@ exports[`snapshots renders a switch with appearance inverted, disabled=false, ch
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  color: #ffffff;
+  color: #FFFFFF;
 }
 
 .emotion-1 {
@@ -463,7 +463,7 @@ exports[`snapshots renders a switch with appearance inverted, disabled=false, ch
 .emotion-2 {
   -webkit-background-clip: content-box;
   background-clip: content-box;
-  background-color: #06bdfc;
+  background-color: #06BDFC;
   border-radius: 12px;
   box-sizing: border-box;
   height: 24px;
@@ -472,7 +472,7 @@ exports[`snapshots renders a switch with appearance inverted, disabled=false, ch
   padding: 3px;
   position: relative;
   width: 34px;
-  background-color: #ffffff;
+  background-color: #FFFFFF;
   margin-right: 8px;
 }
 
@@ -481,7 +481,7 @@ exports[`snapshots renders a switch with appearance inverted, disabled=false, ch
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  background-color: #ffffff;
+  background-color: #FFFFFF;
   border-radius: 6px;
   box-sizing: border-box;
   display: -webkit-box;
@@ -500,7 +500,7 @@ exports[`snapshots renders a switch with appearance inverted, disabled=false, ch
   transition: transform 75ms linear;
   width: 12px;
   z-index: 1;
-  background-color: #d9d9e2;
+  background-color: #D9D9E2;
   -webkit-transform: translateX(0px);
   -moz-transform: translateX(0px);
   -ms-transform: translateX(0px);
@@ -548,7 +548,7 @@ exports[`snapshots renders a switch with appearance inverted, disabled=false, ch
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  color: #ffffff;
+  color: #FFFFFF;
 }
 
 .emotion-1 {
@@ -567,7 +567,7 @@ exports[`snapshots renders a switch with appearance inverted, disabled=false, ch
 .emotion-2 {
   -webkit-background-clip: content-box;
   background-clip: content-box;
-  background-color: #06bdfc;
+  background-color: #06BDFC;
   border-radius: 12px;
   box-sizing: border-box;
   height: 24px;
@@ -576,7 +576,7 @@ exports[`snapshots renders a switch with appearance inverted, disabled=false, ch
   padding: 3px;
   position: relative;
   width: 34px;
-  background-color: #ffffff;
+  background-color: #FFFFFF;
   margin-right: 8px;
 }
 
@@ -585,7 +585,7 @@ exports[`snapshots renders a switch with appearance inverted, disabled=false, ch
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  background-color: #ffffff;
+  background-color: #FFFFFF;
   border-radius: 6px;
   box-sizing: border-box;
   display: -webkit-box;
@@ -604,7 +604,7 @@ exports[`snapshots renders a switch with appearance inverted, disabled=false, ch
   transition: transform 75ms linear;
   width: 12px;
   z-index: 1;
-  background-color: #d9d9e2;
+  background-color: #D9D9E2;
   -webkit-transform: translateX(0px);
   -moz-transform: translateX(0px);
   -ms-transform: translateX(0px);
@@ -652,7 +652,7 @@ exports[`snapshots renders a switch with appearance inverted, disabled=true, che
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  color: #ffffff;
+  color: #FFFFFF;
   cursor: default;
   opacity: 0.5;
 }
@@ -673,7 +673,7 @@ exports[`snapshots renders a switch with appearance inverted, disabled=true, che
 .emotion-2 {
   -webkit-background-clip: content-box;
   background-clip: content-box;
-  background-color: #06bdfc;
+  background-color: #06BDFC;
   border-radius: 12px;
   box-sizing: border-box;
   height: 24px;
@@ -682,7 +682,7 @@ exports[`snapshots renders a switch with appearance inverted, disabled=true, che
   padding: 3px;
   position: relative;
   width: 34px;
-  background-color: #ffffff;
+  background-color: #FFFFFF;
   margin-right: 8px;
 }
 
@@ -691,7 +691,7 @@ exports[`snapshots renders a switch with appearance inverted, disabled=true, che
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  background-color: #ffffff;
+  background-color: #FFFFFF;
   border-radius: 6px;
   box-sizing: border-box;
   display: -webkit-box;
@@ -710,7 +710,7 @@ exports[`snapshots renders a switch with appearance inverted, disabled=true, che
   transition: transform 75ms linear;
   width: 12px;
   z-index: 1;
-  background-color: #d9d9e2;
+  background-color: #D9D9E2;
   -webkit-transform: translateX(0px);
   -moz-transform: translateX(0px);
   -ms-transform: translateX(0px);
@@ -759,7 +759,7 @@ exports[`snapshots renders a switch with appearance inverted, disabled=true, che
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  color: #ffffff;
+  color: #FFFFFF;
   cursor: default;
   opacity: 0.5;
 }
@@ -780,7 +780,7 @@ exports[`snapshots renders a switch with appearance inverted, disabled=true, che
 .emotion-2 {
   -webkit-background-clip: content-box;
   background-clip: content-box;
-  background-color: #06bdfc;
+  background-color: #06BDFC;
   border-radius: 12px;
   box-sizing: border-box;
   height: 24px;
@@ -789,7 +789,7 @@ exports[`snapshots renders a switch with appearance inverted, disabled=true, che
   padding: 3px;
   position: relative;
   width: 34px;
-  background-color: #ffffff;
+  background-color: #FFFFFF;
   margin-right: 8px;
 }
 
@@ -798,7 +798,7 @@ exports[`snapshots renders a switch with appearance inverted, disabled=true, che
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  background-color: #ffffff;
+  background-color: #FFFFFF;
   border-radius: 6px;
   box-sizing: border-box;
   display: -webkit-box;
@@ -817,7 +817,7 @@ exports[`snapshots renders a switch with appearance inverted, disabled=true, che
   transition: transform 75ms linear;
   width: 12px;
   z-index: 1;
-  background-color: #d9d9e2;
+  background-color: #D9D9E2;
   -webkit-transform: translateX(0px);
   -moz-transform: translateX(0px);
   -ms-transform: translateX(0px);
@@ -885,7 +885,7 @@ exports[`snapshots renders an empty switch 1`] = `
 .emotion-2 {
   -webkit-background-clip: content-box;
   background-clip: content-box;
-  background-color: #06bdfc;
+  background-color: #06BDFC;
   border-radius: 12px;
   box-sizing: border-box;
   height: 24px;
@@ -894,7 +894,7 @@ exports[`snapshots renders an empty switch 1`] = `
   padding: 3px;
   position: relative;
   width: 34px;
-  background-color: #06bdfc;
+  background-color: #06BDFC;
   margin-right: 0;
 }
 
@@ -903,7 +903,7 @@ exports[`snapshots renders an empty switch 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  background-color: #ffffff;
+  background-color: #FFFFFF;
   border-radius: 6px;
   box-sizing: border-box;
   display: -webkit-box;
@@ -922,7 +922,7 @@ exports[`snapshots renders an empty switch 1`] = `
   transition: transform 75ms linear;
   width: 12px;
   z-index: 1;
-  background-color: #ffffff;
+  background-color: #FFFFFF;
   -webkit-transform: translateX(10px);
   -moz-transform: translateX(10px);
   -ms-transform: translateX(10px);
@@ -957,7 +957,7 @@ exports[`snapshots renders an empty switch 1`] = `
         </title>
         <path
           d="M13.746 4.337a1.015 1.015 0 011.409-.099c.417.354.462.97.101 1.378l-7.13 8.047a1.015 1.015 0 01-1.483.03L2.771 9.67a.961.961 0 01.044-1.38 1.015 1.015 0 011.412.041l3.113 3.235 6.406-7.229z"
-          fill="#06bdfc"
+          fill="#06BDFC"
           fill-rule="evenodd"
         />
       </svg>
