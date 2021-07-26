@@ -23,7 +23,7 @@ const wrapperStyle = css`
 `;
 
 const buttonStyle = css`
-  width: 134px;
+  width: 124px;
   border-bottom-left-radius: 0;
   border-top-right-radius: 0;
   position: absolute;
