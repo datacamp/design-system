@@ -3,10 +3,10 @@
 exports[`<Heading /> renders at each size renders at size 200, multiLine=false 1`] = `
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
-  color: #05192d;
+  color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
-  color: #05192d;
+  color: #05192D;
   font-weight: 800;
   margin: 0;
   overflow: hidden;
@@ -14,7 +14,7 @@ exports[`<Heading /> renders at each size renders at size 200, multiLine=false 1
   white-space: nowrap;
   font-size: 12px;
   letter-spacing: 1.5px;
-  line-height: 16px;
+  line-height: 1.25;
 }
 
 *:not(style)~.emotion-0 {
@@ -33,17 +33,17 @@ exports[`<Heading /> renders at each size renders at size 200, multiLine=false 1
 exports[`<Heading /> renders at each size renders at size 200, multiLine=true 1`] = `
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
-  color: #05192d;
+  color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
-  color: #05192d;
+  color: #05192D;
   font-weight: 800;
   margin: 0;
   overflow: reset;
   white-space: normal;
   font-size: 12px;
   letter-spacing: 1.5px;
-  line-height: 16px;
+  line-height: 1.25;
 }
 
 *:not(style)~.emotion-0 {
@@ -62,10 +62,10 @@ exports[`<Heading /> renders at each size renders at size 200, multiLine=true 1`
 exports[`<Heading /> renders at each size renders at size 300, multiLine=false 1`] = `
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
-  color: #05192d;
+  color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
-  color: #05192d;
+  color: #05192D;
   font-weight: 800;
   margin: 0;
   overflow: hidden;
@@ -73,7 +73,7 @@ exports[`<Heading /> renders at each size renders at size 300, multiLine=false 1
   white-space: nowrap;
   font-size: 12px;
   letter-spacing: 0px;
-  line-height: 16px;
+  line-height: 1.25;
 }
 
 *:not(style)~.emotion-0 {
@@ -92,17 +92,17 @@ exports[`<Heading /> renders at each size renders at size 300, multiLine=false 1
 exports[`<Heading /> renders at each size renders at size 300, multiLine=true 1`] = `
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
-  color: #05192d;
+  color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
-  color: #05192d;
+  color: #05192D;
   font-weight: 800;
   margin: 0;
   overflow: reset;
   white-space: normal;
   font-size: 12px;
   letter-spacing: 0px;
-  line-height: 16px;
+  line-height: 1.25;
 }
 
 *:not(style)~.emotion-0 {
@@ -121,10 +121,10 @@ exports[`<Heading /> renders at each size renders at size 300, multiLine=true 1`
 exports[`<Heading /> renders at each size renders at size 400, multiLine=false 1`] = `
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
-  color: #05192d;
+  color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
-  color: #05192d;
+  color: #05192D;
   font-weight: 800;
   margin: 0;
   overflow: hidden;
@@ -132,7 +132,7 @@ exports[`<Heading /> renders at each size renders at size 400, multiLine=false 1
   white-space: nowrap;
   font-size: 12px;
   letter-spacing: 0px;
-  line-height: 16px;
+  line-height: 1.25;
 }
 
 *:not(style)~.emotion-0 {
@@ -151,17 +151,17 @@ exports[`<Heading /> renders at each size renders at size 400, multiLine=false 1
 exports[`<Heading /> renders at each size renders at size 400, multiLine=true 1`] = `
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
-  color: #05192d;
+  color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
-  color: #05192d;
+  color: #05192D;
   font-weight: 800;
   margin: 0;
   overflow: reset;
   white-space: normal;
   font-size: 12px;
   letter-spacing: 0px;
-  line-height: 16px;
+  line-height: 1.25;
 }
 
 *:not(style)~.emotion-0 {
@@ -180,10 +180,10 @@ exports[`<Heading /> renders at each size renders at size 400, multiLine=true 1`
 exports[`<Heading /> renders at each size renders at size 500, multiLine=false 1`] = `
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
-  color: #05192d;
+  color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
-  color: #05192d;
+  color: #05192D;
   font-weight: 800;
   margin: 0;
   overflow: hidden;
@@ -191,7 +191,7 @@ exports[`<Heading /> renders at each size renders at size 500, multiLine=false 1
   white-space: nowrap;
   font-size: 14px;
   letter-spacing: 0px;
-  line-height: 20px;
+  line-height: 1.25;
 }
 
 *:not(style)~.emotion-0 {
@@ -210,17 +210,17 @@ exports[`<Heading /> renders at each size renders at size 500, multiLine=false 1
 exports[`<Heading /> renders at each size renders at size 500, multiLine=true 1`] = `
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
-  color: #05192d;
+  color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
-  color: #05192d;
+  color: #05192D;
   font-weight: 800;
   margin: 0;
   overflow: reset;
   white-space: normal;
   font-size: 14px;
   letter-spacing: 0px;
-  line-height: 20px;
+  line-height: 1.25;
 }
 
 *:not(style)~.emotion-0 {
@@ -239,10 +239,10 @@ exports[`<Heading /> renders at each size renders at size 500, multiLine=true 1`
 exports[`<Heading /> renders at each size renders at size 600, multiLine=false 1`] = `
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
-  color: #05192d;
+  color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
-  color: #05192d;
+  color: #05192D;
   font-weight: 800;
   margin: 0;
   overflow: hidden;
@@ -250,7 +250,7 @@ exports[`<Heading /> renders at each size renders at size 600, multiLine=false 1
   white-space: nowrap;
   font-size: 16px;
   letter-spacing: 0px;
-  line-height: 20px;
+  line-height: 1.25;
 }
 
 *:not(style)~.emotion-0 {
@@ -269,17 +269,17 @@ exports[`<Heading /> renders at each size renders at size 600, multiLine=false 1
 exports[`<Heading /> renders at each size renders at size 600, multiLine=true 1`] = `
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
-  color: #05192d;
+  color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
-  color: #05192d;
+  color: #05192D;
   font-weight: 800;
   margin: 0;
   overflow: reset;
   white-space: normal;
   font-size: 16px;
   letter-spacing: 0px;
-  line-height: 20px;
+  line-height: 1.25;
 }
 
 *:not(style)~.emotion-0 {
@@ -298,10 +298,10 @@ exports[`<Heading /> renders at each size renders at size 600, multiLine=true 1`
 exports[`<Heading /> renders at each size renders at size 650, multiLine=false 1`] = `
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
-  color: #05192d;
+  color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
-  color: #05192d;
+  color: #05192D;
   font-weight: 800;
   margin: 0;
   overflow: hidden;
@@ -309,7 +309,7 @@ exports[`<Heading /> renders at each size renders at size 650, multiLine=false 1
   white-space: nowrap;
   font-size: 18px;
   letter-spacing: 0px;
-  line-height: 22px;
+  line-height: 1.25;
 }
 
 *:not(style)~.emotion-0 {
@@ -328,17 +328,17 @@ exports[`<Heading /> renders at each size renders at size 650, multiLine=false 1
 exports[`<Heading /> renders at each size renders at size 650, multiLine=true 1`] = `
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
-  color: #05192d;
+  color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
-  color: #05192d;
+  color: #05192D;
   font-weight: 800;
   margin: 0;
   overflow: reset;
   white-space: normal;
   font-size: 18px;
   letter-spacing: 0px;
-  line-height: 22px;
+  line-height: 1.25;
 }
 
 *:not(style)~.emotion-0 {
@@ -357,10 +357,10 @@ exports[`<Heading /> renders at each size renders at size 650, multiLine=true 1`
 exports[`<Heading /> renders at each size renders at size 700, multiLine=false 1`] = `
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
-  color: #05192d;
+  color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
-  color: #05192d;
+  color: #05192D;
   font-weight: 800;
   margin: 0;
   overflow: hidden;
@@ -368,7 +368,7 @@ exports[`<Heading /> renders at each size renders at size 700, multiLine=false 1
   white-space: nowrap;
   font-size: 20px;
   letter-spacing: 0px;
-  line-height: 24px;
+  line-height: 1.25;
 }
 
 *:not(style)~.emotion-0 {
@@ -387,17 +387,17 @@ exports[`<Heading /> renders at each size renders at size 700, multiLine=false 1
 exports[`<Heading /> renders at each size renders at size 700, multiLine=true 1`] = `
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
-  color: #05192d;
+  color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
-  color: #05192d;
+  color: #05192D;
   font-weight: 800;
   margin: 0;
   overflow: reset;
   white-space: normal;
   font-size: 20px;
   letter-spacing: 0px;
-  line-height: 24px;
+  line-height: 1.25;
 }
 
 *:not(style)~.emotion-0 {
@@ -416,10 +416,10 @@ exports[`<Heading /> renders at each size renders at size 700, multiLine=true 1`
 exports[`<Heading /> renders at each size renders at size 800, multiLine=false 1`] = `
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
-  color: #05192d;
+  color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
-  color: #05192d;
+  color: #05192D;
   font-weight: 800;
   margin: 0;
   overflow: hidden;
@@ -427,7 +427,7 @@ exports[`<Heading /> renders at each size renders at size 800, multiLine=false 1
   white-space: nowrap;
   font-size: 28px;
   letter-spacing: 0px;
-  line-height: 34px;
+  line-height: 1.25;
 }
 
 *:not(style)~.emotion-0 {
@@ -446,17 +446,17 @@ exports[`<Heading /> renders at each size renders at size 800, multiLine=false 1
 exports[`<Heading /> renders at each size renders at size 800, multiLine=true 1`] = `
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
-  color: #05192d;
+  color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
-  color: #05192d;
+  color: #05192D;
   font-weight: 800;
   margin: 0;
   overflow: reset;
   white-space: normal;
   font-size: 28px;
   letter-spacing: 0px;
-  line-height: 34px;
+  line-height: 1.25;
 }
 
 *:not(style)~.emotion-0 {
@@ -475,10 +475,10 @@ exports[`<Heading /> renders at each size renders at size 800, multiLine=true 1`
 exports[`<Heading /> renders at each size renders at size 900, multiLine=false 1`] = `
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
-  color: #05192d;
+  color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
-  color: #05192d;
+  color: #05192D;
   font-weight: 800;
   margin: 0;
   overflow: hidden;
@@ -486,7 +486,7 @@ exports[`<Heading /> renders at each size renders at size 900, multiLine=false 1
   white-space: nowrap;
   font-size: 28px;
   letter-spacing: -0.5px;
-  line-height: 34px;
+  line-height: 1.25;
 }
 
 *:not(style)~.emotion-0 {
@@ -505,17 +505,17 @@ exports[`<Heading /> renders at each size renders at size 900, multiLine=false 1
 exports[`<Heading /> renders at each size renders at size 900, multiLine=true 1`] = `
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
-  color: #05192d;
+  color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
-  color: #05192d;
+  color: #05192D;
   font-weight: 800;
   margin: 0;
   overflow: reset;
   white-space: normal;
   font-size: 28px;
   letter-spacing: -0.5px;
-  line-height: 34px;
+  line-height: 1.25;
 }
 
 *:not(style)~.emotion-0 {

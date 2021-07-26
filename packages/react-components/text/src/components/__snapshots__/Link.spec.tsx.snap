@@ -3,14 +3,14 @@
 exports[`<Text /> renders with a string 1`] = `
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
-  color: #05192d;
+  color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
-  color: #007bb6;
+  color: #007BB6;
   cursor: pointer;
   font-size: 14px;
   font-weight: 400;
-  line-height: 20px;
+  line-height: 1.5;
   -webkit-text-decoration: none;
   text-decoration: none;
 }

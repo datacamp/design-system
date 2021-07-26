@@ -3,25 +3,25 @@
 exports[`<Small /> renders with Strong and Emphasis children 1`] = `
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
-  color: #05192d;
+  color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
   font-size: 12px;
-  line-height: 16px;
+  line-height: 1.5;
 }
 
 .emotion-1 {
   -webkit-font-smoothing: antialiased;
-  color: #05192d;
+  color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
   font-weight: 800;
-  line-height: 20px;
+  line-height: 1.5;
 }
 
 .emotion-2 {
   -webkit-font-smoothing: antialiased;
-  color: #05192d;
+  color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
   font-style: italic;
@@ -54,11 +54,11 @@ exports[`<Small /> renders with Strong and Emphasis children 1`] = `
 exports[`<Small /> renders with a string 1`] = `
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
-  color: #05192d;
+  color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
   font-size: 12px;
-  line-height: 16px;
+  line-height: 1.5;
 }
 
 <small
