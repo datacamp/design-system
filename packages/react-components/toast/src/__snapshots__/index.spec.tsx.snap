@@ -2,7 +2,7 @@
 
 exports[`toast mounts a success toast 1`] = `
 .emotion-0 {
-  border-color: #03ef62;
+  border-color: #03EF62;
   -webkit-align-items: flex-start;
   -webkit-box-align: flex-start;
   -ms-flex-align: flex-start;
@@ -40,21 +40,22 @@ exports[`toast mounts a success toast 1`] = `
   flex-grow: 1;
   margin-left: 12px;
   margin-right: 8px;
+  margin-top: 2px;
 }
 
 .emotion-3 {
   -webkit-font-smoothing: antialiased;
-  color: #05192d;
+  color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
-  color: #05192d;
+  color: #05192D;
   font-weight: 800;
   margin: 0;
   overflow: reset;
   white-space: normal;
   font-size: 14px;
   letter-spacing: 0px;
-  line-height: 20px;
+  line-height: 1.25;
 }
 
 *:not(style)~.emotion-3 {
@@ -69,7 +70,7 @@ exports[`toast mounts a success toast 1`] = `
   background-color: white;
   border: none;
   border-radius: 2px;
-  color: #05192d;
+  color: #05192D;
   cursor: pointer;
   display: -webkit-box;
   display: -webkit-flex;
@@ -93,11 +94,11 @@ exports[`toast mounts a success toast 1`] = `
 }
 
 .emotion-4:active {
-  color: #03ef62;
+  color: #03EF62;
 }
 
 .emotion-4:disabled {
-  color: #d9d9e2;
+  color: #D9D9E2;
 }
 
 .emotion-4:disabled:hover,
@@ -106,11 +107,11 @@ exports[`toast mounts a success toast 1`] = `
 }
 
 .emotion-4:focus {
-  background-color: #efefef;
+  background-color: #EFEFEF;
 }
 
 .emotion-4:hover {
-  background-color: #efefef;
+  background-color: #EFEFEF;
 }
 
 <div
@@ -174,7 +175,7 @@ exports[`toast mounts a success toast 1`] = `
 
 exports[`toast mounts an error toast 1`] = `
 .emotion-0 {
-  border-color: #ff5400;
+  border-color: #FF5400;
   -webkit-align-items: flex-start;
   -webkit-box-align: flex-start;
   -ms-flex-align: flex-start;
@@ -212,21 +213,22 @@ exports[`toast mounts an error toast 1`] = `
   flex-grow: 1;
   margin-left: 12px;
   margin-right: 8px;
+  margin-top: 2px;
 }
 
 .emotion-3 {
   -webkit-font-smoothing: antialiased;
-  color: #05192d;
+  color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
-  color: #05192d;
+  color: #05192D;
   font-weight: 800;
   margin: 0;
   overflow: reset;
   white-space: normal;
   font-size: 14px;
   letter-spacing: 0px;
-  line-height: 20px;
+  line-height: 1.25;
 }
 
 *:not(style)~.emotion-3 {
@@ -241,7 +243,7 @@ exports[`toast mounts an error toast 1`] = `
   background-color: white;
   border: none;
   border-radius: 2px;
-  color: #05192d;
+  color: #05192D;
   cursor: pointer;
   display: -webkit-box;
   display: -webkit-flex;
@@ -265,11 +267,11 @@ exports[`toast mounts an error toast 1`] = `
 }
 
 .emotion-4:active {
-  color: #03ef62;
+  color: #03EF62;
 }
 
 .emotion-4:disabled {
-  color: #d9d9e2;
+  color: #D9D9E2;
 }
 
 .emotion-4:disabled:hover,
@@ -278,11 +280,11 @@ exports[`toast mounts an error toast 1`] = `
 }
 
 .emotion-4:focus {
-  background-color: #efefef;
+  background-color: #EFEFEF;
 }
 
 .emotion-4:hover {
-  background-color: #efefef;
+  background-color: #EFEFEF;
 }
 
 <div
