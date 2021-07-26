@@ -87,16 +87,7 @@ function RegularLink({ children, href }: RegularLinkProps): JSX.Element {
 
 const listStyle = css`
   padding-left: 32px;
-  margin-top: 8px !important;
   list-style: disc;
-
-  ul {
-    margin-top: 0 !important;
-  }
-`;
-
-const listItemStyle = css`
-  margin-top: 0;
 `;
 
 type ListProps = {
@@ -108,7 +99,7 @@ function List({ children }: ListProps): JSX.Element {
 }
 
 function ListItem({ children }: ListProps): JSX.Element {
-  return <ListBase.Item css={listItemStyle}>{children}</ListBase.Item>;
+  return <ListBase.Item>{children}</ListBase.Item>;
 }
 
 export default {
