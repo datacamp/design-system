@@ -10915,7 +10915,7 @@ exports[`<Button /> tooltips tooltip appearance snapshots renders a tooltip with
   font-style: normal;
   font-size: 14px;
   font-weight: 400;
-  font-size: 12px;
+  font-size: 14px;
   white-space: nowrap;
   color: #FFFFFF;
 }
@@ -11047,7 +11047,7 @@ exports[`<Button /> tooltips tooltip appearance snapshots renders a tooltip with
   font-style: normal;
   font-size: 14px;
   font-weight: 400;
-  font-size: 12px;
+  font-size: 14px;
   white-space: nowrap;
   color: #05192D;
 }
@@ -11180,7 +11180,7 @@ exports[`<Button /> tooltips tooltip appearance snapshots renders a tooltip with
   font-style: normal;
   font-size: 14px;
   font-weight: 400;
-  font-size: 12px;
+  font-size: 14px;
   white-space: nowrap;
   color: #FFFFFF;
 }
@@ -11313,7 +11313,7 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at b
   font-style: normal;
   font-size: 14px;
   font-weight: 400;
-  font-size: 12px;
+  font-size: 14px;
   white-space: nowrap;
   color: #FFFFFF;
 }
@@ -11442,7 +11442,7 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at b
   font-style: normal;
   font-size: 14px;
   font-weight: 400;
-  font-size: 12px;
+  font-size: 14px;
   white-space: nowrap;
   color: #FFFFFF;
 }
@@ -11575,7 +11575,7 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at b
   font-style: normal;
   font-size: 14px;
   font-weight: 400;
-  font-size: 12px;
+  font-size: 14px;
   white-space: nowrap;
   color: #FFFFFF;
 }
@@ -11708,7 +11708,7 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at l
   font-style: normal;
   font-size: 14px;
   font-weight: 400;
-  font-size: 12px;
+  font-size: 14px;
   white-space: nowrap;
   color: #FFFFFF;
 }
@@ -11841,7 +11841,7 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at r
   font-style: normal;
   font-size: 14px;
   font-weight: 400;
-  font-size: 12px;
+  font-size: 14px;
   white-space: nowrap;
   color: #FFFFFF;
 }
@@ -11974,7 +11974,7 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at t
   font-style: normal;
   font-size: 14px;
   font-weight: 400;
-  font-size: 12px;
+  font-size: 14px;
   white-space: nowrap;
   color: #FFFFFF;
 }
@@ -12107,7 +12107,7 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at t
   font-style: normal;
   font-size: 14px;
   font-weight: 400;
-  font-size: 12px;
+  font-size: 14px;
   white-space: nowrap;
   color: #FFFFFF;
 }
@@ -12240,7 +12240,7 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at t
   font-style: normal;
   font-size: 14px;
   font-weight: 400;
-  font-size: 12px;
+  font-size: 14px;
   white-space: nowrap;
   color: #FFFFFF;
 }
@@ -12373,7 +12373,7 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at u
   font-style: normal;
   font-size: 14px;
   font-weight: 400;
-  font-size: 12px;
+  font-size: 14px;
   white-space: nowrap;
   color: #FFFFFF;
 }
