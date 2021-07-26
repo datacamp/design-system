@@ -98,7 +98,7 @@ const Tooltip = ({
       <Text
         css={css(
           {
-            fontSize: tokens.fontSizes.small,
+            fontSize: tokens.fontSizes.medium,
             whiteSpace: 'nowrap',
           },
           textStyles[appearance],
