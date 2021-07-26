@@ -24,19 +24,19 @@ exports[`Tooltip renders on the bottom on the target 1`] = `
   padding-right: 8px;
   padding-top: 4px;
   z-index: 1;
-  background-color: #fffbf3;
+  background-color: #FFFBF3;
 }
 
 .emotion-2 {
   -webkit-font-smoothing: antialiased;
-  color: #05192d;
+  color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
   font-size: 14px;
   font-weight: 400;
-  font-size: 12px;
+  font-size: 14px;
   white-space: nowrap;
-  color: #05192d;
+  color: #05192D;
 }
 
 <body>
@@ -83,20 +83,20 @@ exports[`Tooltip renders on the bottom on the target 2`] = `
   padding-right: 8px;
   padding-top: 4px;
   z-index: 1;
-  background-color: #05192d;
+  background-color: #05192D;
   box-shadow: none;
 }
 
 .emotion-2 {
   -webkit-font-smoothing: antialiased;
-  color: #05192d;
+  color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
   font-size: 14px;
   font-weight: 400;
-  font-size: 12px;
+  font-size: 14px;
   white-space: nowrap;
-  color: #ffffff;
+  color: #FFFFFF;
 }
 
 <body>
@@ -139,19 +139,19 @@ exports[`Tooltip renders on the bottomLeft on the target 1`] = `
   padding-right: 8px;
   padding-top: 4px;
   z-index: 1;
-  background-color: #fffbf3;
+  background-color: #FFFBF3;
 }
 
 .emotion-2 {
   -webkit-font-smoothing: antialiased;
-  color: #05192d;
+  color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
   font-size: 14px;
   font-weight: 400;
-  font-size: 12px;
+  font-size: 14px;
   white-space: nowrap;
-  color: #05192d;
+  color: #05192D;
 }
 
 <body>
@@ -194,20 +194,20 @@ exports[`Tooltip renders on the bottomLeft on the target 2`] = `
   padding-right: 8px;
   padding-top: 4px;
   z-index: 1;
-  background-color: #05192d;
+  background-color: #05192D;
   box-shadow: none;
 }
 
 .emotion-2 {
   -webkit-font-smoothing: antialiased;
-  color: #05192d;
+  color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
   font-size: 14px;
   font-weight: 400;
-  font-size: 12px;
+  font-size: 14px;
   white-space: nowrap;
-  color: #ffffff;
+  color: #FFFFFF;
 }
 
 <body>
@@ -254,19 +254,19 @@ exports[`Tooltip renders on the bottomRight on the target 1`] = `
   padding-right: 8px;
   padding-top: 4px;
   z-index: 1;
-  background-color: #fffbf3;
+  background-color: #FFFBF3;
 }
 
 .emotion-2 {
   -webkit-font-smoothing: antialiased;
-  color: #05192d;
+  color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
   font-size: 14px;
   font-weight: 400;
-  font-size: 12px;
+  font-size: 14px;
   white-space: nowrap;
-  color: #05192d;
+  color: #05192D;
 }
 
 <body>
@@ -313,20 +313,20 @@ exports[`Tooltip renders on the bottomRight on the target 2`] = `
   padding-right: 8px;
   padding-top: 4px;
   z-index: 1;
-  background-color: #05192d;
+  background-color: #05192D;
   box-shadow: none;
 }
 
 .emotion-2 {
   -webkit-font-smoothing: antialiased;
-  color: #05192d;
+  color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
   font-size: 14px;
   font-weight: 400;
-  font-size: 12px;
+  font-size: 14px;
   white-space: nowrap;
-  color: #ffffff;
+  color: #FFFFFF;
 }
 
 <body>
@@ -373,19 +373,19 @@ exports[`Tooltip renders on the left on the target 1`] = `
   padding-right: 8px;
   padding-top: 4px;
   z-index: 1;
-  background-color: #fffbf3;
+  background-color: #FFFBF3;
 }
 
 .emotion-2 {
   -webkit-font-smoothing: antialiased;
-  color: #05192d;
+  color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
   font-size: 14px;
   font-weight: 400;
-  font-size: 12px;
+  font-size: 14px;
   white-space: nowrap;
-  color: #05192d;
+  color: #05192D;
 }
 
 <body>
@@ -432,20 +432,20 @@ exports[`Tooltip renders on the left on the target 2`] = `
   padding-right: 8px;
   padding-top: 4px;
   z-index: 1;
-  background-color: #05192d;
+  background-color: #05192D;
   box-shadow: none;
 }
 
 .emotion-2 {
   -webkit-font-smoothing: antialiased;
-  color: #05192d;
+  color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
   font-size: 14px;
   font-weight: 400;
-  font-size: 12px;
+  font-size: 14px;
   white-space: nowrap;
-  color: #ffffff;
+  color: #FFFFFF;
 }
 
 <body>
@@ -492,19 +492,19 @@ exports[`Tooltip renders on the right on the target 1`] = `
   padding-right: 8px;
   padding-top: 4px;
   z-index: 1;
-  background-color: #fffbf3;
+  background-color: #FFFBF3;
 }
 
 .emotion-2 {
   -webkit-font-smoothing: antialiased;
-  color: #05192d;
+  color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
   font-size: 14px;
   font-weight: 400;
-  font-size: 12px;
+  font-size: 14px;
   white-space: nowrap;
-  color: #05192d;
+  color: #05192D;
 }
 
 <body>
@@ -551,20 +551,20 @@ exports[`Tooltip renders on the right on the target 2`] = `
   padding-right: 8px;
   padding-top: 4px;
   z-index: 1;
-  background-color: #05192d;
+  background-color: #05192D;
   box-shadow: none;
 }
 
 .emotion-2 {
   -webkit-font-smoothing: antialiased;
-  color: #05192d;
+  color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
   font-size: 14px;
   font-weight: 400;
-  font-size: 12px;
+  font-size: 14px;
   white-space: nowrap;
-  color: #ffffff;
+  color: #FFFFFF;
 }
 
 <body>
@@ -611,19 +611,19 @@ exports[`Tooltip renders on the top on the target 1`] = `
   padding-right: 8px;
   padding-top: 4px;
   z-index: 1;
-  background-color: #fffbf3;
+  background-color: #FFFBF3;
 }
 
 .emotion-2 {
   -webkit-font-smoothing: antialiased;
-  color: #05192d;
+  color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
   font-size: 14px;
   font-weight: 400;
-  font-size: 12px;
+  font-size: 14px;
   white-space: nowrap;
-  color: #05192d;
+  color: #05192D;
 }
 
 <body>
@@ -670,20 +670,20 @@ exports[`Tooltip renders on the top on the target 2`] = `
   padding-right: 8px;
   padding-top: 4px;
   z-index: 1;
-  background-color: #05192d;
+  background-color: #05192D;
   box-shadow: none;
 }
 
 .emotion-2 {
   -webkit-font-smoothing: antialiased;
-  color: #05192d;
+  color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
   font-size: 14px;
   font-weight: 400;
-  font-size: 12px;
+  font-size: 14px;
   white-space: nowrap;
-  color: #ffffff;
+  color: #FFFFFF;
 }
 
 <body>
@@ -730,19 +730,19 @@ exports[`Tooltip renders on the topLeft on the target 1`] = `
   padding-right: 8px;
   padding-top: 4px;
   z-index: 1;
-  background-color: #fffbf3;
+  background-color: #FFFBF3;
 }
 
 .emotion-2 {
   -webkit-font-smoothing: antialiased;
-  color: #05192d;
+  color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
   font-size: 14px;
   font-weight: 400;
-  font-size: 12px;
+  font-size: 14px;
   white-space: nowrap;
-  color: #05192d;
+  color: #05192D;
 }
 
 <body>
@@ -789,20 +789,20 @@ exports[`Tooltip renders on the topLeft on the target 2`] = `
   padding-right: 8px;
   padding-top: 4px;
   z-index: 1;
-  background-color: #05192d;
+  background-color: #05192D;
   box-shadow: none;
 }
 
 .emotion-2 {
   -webkit-font-smoothing: antialiased;
-  color: #05192d;
+  color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
   font-size: 14px;
   font-weight: 400;
-  font-size: 12px;
+  font-size: 14px;
   white-space: nowrap;
-  color: #ffffff;
+  color: #FFFFFF;
 }
 
 <body>
@@ -849,19 +849,19 @@ exports[`Tooltip renders on the topRight on the target 1`] = `
   padding-right: 8px;
   padding-top: 4px;
   z-index: 1;
-  background-color: #fffbf3;
+  background-color: #FFFBF3;
 }
 
 .emotion-2 {
   -webkit-font-smoothing: antialiased;
-  color: #05192d;
+  color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
   font-size: 14px;
   font-weight: 400;
-  font-size: 12px;
+  font-size: 14px;
   white-space: nowrap;
-  color: #05192d;
+  color: #05192D;
 }
 
 <body>
@@ -908,20 +908,20 @@ exports[`Tooltip renders on the topRight on the target 2`] = `
   padding-right: 8px;
   padding-top: 4px;
   z-index: 1;
-  background-color: #05192d;
+  background-color: #05192D;
   box-shadow: none;
 }
 
 .emotion-2 {
   -webkit-font-smoothing: antialiased;
-  color: #05192d;
+  color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
   font-size: 14px;
   font-weight: 400;
-  font-size: 12px;
+  font-size: 14px;
   white-space: nowrap;
-  color: #ffffff;
+  color: #FFFFFF;
 }
 
 <body>
