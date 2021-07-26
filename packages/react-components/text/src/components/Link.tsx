@@ -43,7 +43,7 @@ const linkStyle = css(baseStyle, {
   cursor: 'pointer',
   fontSize: tokens.fontSizes.medium,
   fontWeight: tokens.fontWeights.regular,
-  lineHeight: tokens.lineHeights.medium,
+  lineHeight: tokens.lineHeights.relaxed,
   textDecoration: 'none',
 });
 

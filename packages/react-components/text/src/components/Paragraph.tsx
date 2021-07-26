@@ -30,7 +30,7 @@ interface ParagraphProps {
 const paragraphStyle = css(baseStyle, {
   fontSize: tokens.fontSizes.medium,
   fontWeight: tokens.fontWeights.regular,
-  lineHeight: tokens.lineHeights.medium,
+  lineHeight: tokens.lineHeights.relaxed,
   margin: 0,
   [ssrSafeNotFirstChildSelector]: { marginTop: tokens.spacing.small },
 });
