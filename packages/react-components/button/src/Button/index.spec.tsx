@@ -118,28 +118,14 @@ describe('<Button />', () => {
       expect(queryByText('btn medium')).toHaveStyle(`line-height: 44px`);
     });
 
-    it('renders the large button for the size="large" ', async () => {
-      const { container, queryByText } = await axeRender(
-        <Button onClick={someFunction} size="large">
-          large btn
-        </Button>,
-      );
-
-      const buttonElement = container.firstChild;
-
-      expect(buttonElement).toHaveStyle(`padding: 0 31px;`);
-      expect(queryByText('large btn')).toHaveStyle(`font-size: 20px`);
-      expect(queryByText('large btn')).toHaveStyle(`line-height: 60px`);
-    });
-
-    it('renders the medium size if no size props is specified', async () => {
+    it('renders the small size if no size props is specified', async () => {
       const { container, queryByText } = await axeRender(
         <Button onClick={someFunction}>default size btn</Button>,
       );
 
       const buttonElement = container.firstChild;
       expect(buttonElement).toHaveStyle(`padding: 0 15px;`);
-      expect(queryByText('default size btn')).toHaveStyle(`line-height: 44px`);
+      expect(queryByText('default size btn')).toHaveStyle(`line-height: 32px`);
     });
   });
 
@@ -323,17 +309,6 @@ describe('<Button />', () => {
 
       const buttonElement = container.firstChild;
       expect(buttonElement).toHaveStyle(`height: 50px, width: 50px `);
-    });
-
-    it('renders a large squared button when it has icon as a child and size="large" ', async () => {
-      const { container } = await axeRender(
-        <Button ariaLabel="add" onClick={someFunction} size="large">
-          <AddCircleIcon />
-        </Button>,
-      );
-
-      const buttonElement = container.firstChild;
-      expect(buttonElement).toHaveStyle(`height: 6px, width: 66px `);
     });
 
     it('renders the disabled property', async () => {
@@ -679,11 +654,7 @@ describe('<Button />', () => {
   describe('snapshots', () => {
     const exampleText = 'this is a button';
 
-    const buttonSizes: Array<'small' | 'medium' | 'large'> = [
-      'small',
-      'medium',
-      'large',
-    ];
+    const buttonSizes: Array<'small' | 'medium'> = ['small', 'medium'];
     const loadings: boolean[] = [true, false];
     buttonSizes.forEach((size) => {
       (['neutral', 'warning', 'danger', 'success'] as Array<
