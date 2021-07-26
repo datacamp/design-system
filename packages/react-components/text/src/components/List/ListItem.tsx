@@ -4,8 +4,7 @@ import React from 'react';
 
 const listItemStyle = css({
   fontSize: tokens.fontSizes.medium,
-  lineHeight: tokens.lineHeights.medium,
-  marginTop: tokens.spacing.small,
+  lineHeight: tokens.lineHeights.relaxed,
 });
 
 export interface ListItemProps {

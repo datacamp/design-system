@@ -28,6 +28,7 @@ The legacy tokens are for now kept for backward compatibility reasons. All token
 Tokens has been updated to stay in line with [Design Guidelines](https://www.figma.com/file/Flh00IKR70ff0bRvFW2Iou/%5BDC%5D-Design-Guidelines-Exploration?node-id=376%3A1144) and to be compatible with [Figma Tokens](https://www.figma.com/community/plugin/843461159747178978/Figma-Tokens) plugin.
 
 ### Deprecated tokens groups
+
 - 🚨 `spatial` group is deprecated
   - use tokens from `sizing`, `spacing`, and `zIndex` groups
 - 🚨 `border` group is deprecated
@@ -96,9 +97,8 @@ Tokens has been updated to stay in line with [Design Guidelines](https://www.fig
   - 🚨 `largeHeading` -> `tight`
   - 🟢 new `relaxed` token
 - 🔄 `lineHeight` -> `lineHeights`
-  - in most cases use the same `lineHeight` in tandem with `fontSize`
-  - 🚨 `base` -> `medium`
-  - 🚨 `heading` -> `large`
-  - 🚨 `largeHeading` -> `xlarge`
-  - 🟢 new `small` token
-  - 🟢 new `xxlarge` token
+  - in most cases, for headings use `default` token and for large amout of mid-sized text use `relaxed`
+  - 🚨 `base` -> `relaxed`
+  - 🚨 `heading` -> `default`
+  - 🚨 `largeHeading` -> `default`
+  - 🟢 new `tight` token

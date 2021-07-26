@@ -3,6 +3,40 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [6.0.0-beta.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-text@5.3.2-beta.0...@datacamp/waffles-text@6.0.0-beta.0) (2021-07-15)
+
+
+### Features
+
+* adjust Badge dimensions ([492a2a8](https://github.com/datacamp/design-system/commit/492a2a8))
+* adjust Code size ([61922f9](https://github.com/datacamp/design-system/commit/61922f9))
+* decrease size of the Badge ([95a714e](https://github.com/datacamp/design-system/commit/95a714e))
+* explicitly set ListItem font size ([e5f9510](https://github.com/datacamp/design-system/commit/e5f9510))
+* loosen up children props checks ([2f235e8](https://github.com/datacamp/design-system/commit/2f235e8))
+* upate font face definitions ([b41ff83](https://github.com/datacamp/design-system/commit/b41ff83))
+* update Badge ([bf0e83c](https://github.com/datacamp/design-system/commit/bf0e83c))
+* update Code ([01eb33d](https://github.com/datacamp/design-system/commit/01eb33d))
+* update Code Block ([318988a](https://github.com/datacamp/design-system/commit/318988a))
+* update Emphasis and Strong ([54c29bd](https://github.com/datacamp/design-system/commit/54c29bd))
+* update Heading ([75473c6](https://github.com/datacamp/design-system/commit/75473c6))
+* update Link ([79fb4e8](https://github.com/datacamp/design-system/commit/79fb4e8))
+* update Paragraph ([d486568](https://github.com/datacamp/design-system/commit/d486568))
+* update size of Code and CodeBlock ([da536c5](https://github.com/datacamp/design-system/commit/da536c5))
+* update Small ([0028393](https://github.com/datacamp/design-system/commit/0028393))
+* update Text ([b0ee65f](https://github.com/datacamp/design-system/commit/b0ee65f))
+
+
+* feat!: update base styles with new tokens ([d23363c](https://github.com/datacamp/design-system/commit/d23363c))
+
+
+### BREAKING CHANGES
+
+* new tokens
+
+
+
+
+
 ## [5.3.2-beta.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-text@5.3.1...@datacamp/waffles-text@5.3.2-beta.0) (2021-07-12)
 
 **Note:** Version bump only for package @datacamp/waffles-text

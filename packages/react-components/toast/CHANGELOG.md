@@ -3,6 +3,25 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [4.0.0-beta.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-toast@3.1.1-beta.0...@datacamp/waffles-toast@4.0.0-beta.0) (2021-07-15)
+
+
+### Features
+
+* adjust icon position ([6f5928c](https://github.com/datacamp/design-system/commit/6f5928c))
+
+
+* feat!: adjust elements alignment ([d5529c1](https://github.com/datacamp/design-system/commit/d5529c1))
+
+
+### BREAKING CHANGES
+
+* add new tokens
+
+
+
+
+
 ## [3.1.1-beta.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-toast@3.1.0...@datacamp/waffles-toast@3.1.1-beta.0) (2021-07-12)
 
 **Note:** Version bump only for package @datacamp/waffles-toast

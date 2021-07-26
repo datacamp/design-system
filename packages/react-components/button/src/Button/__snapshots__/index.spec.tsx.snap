@@ -1,386 +1,5 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<Button /> snapshots renders a button with appearance default, intent danger, size large and loading false 1`] = `
-.emotion-0 {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  border: 0;
-  border-radius: 4px;
-  border-style: solid;
-  border-width: 2px;
-  cursor: pointer;
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  -webkit-justify-content: center;
-  justify-content: center;
-  position: relative;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  text-transform: capitalize;
-  -webkit-transition: 0.15s;
-  transition: 0.15s;
-  vertical-align: baseline;
-  white-space: nowrap;
-  background-color: transparent;
-  border-color: #ff5400;
-  color: #ff5400;
-  padding: 0 31px;
-}
-
-.emotion-0:active {
-  -webkit-transform: perspective(1px) scale(0.975);
-  -moz-transform: perspective(1px) scale(0.975);
-  -ms-transform: perspective(1px) scale(0.975);
-  transform: perspective(1px) scale(0.975);
-}
-
-.emotion-0:disabled,
-.emotion-0:hover:disabled,
-.emotion-0:active:disabled {
-  -webkit-transform: none;
-  -moz-transform: none;
-  -ms-transform: none;
-  transform: none;
-}
-
-.emotion-0:focus {
-  outline: 0;
-}
-
-.emotion-0:hover {
-  background-color: rgba(255, 84, 0, 0.15);
-  border-color: #ff5400;
-  color: #ff5400;
-}
-
-.emotion-1 {
-  -webkit-font-smoothing: antialiased;
-  color: #05192d;
-  font-family: Studio-Feixen-Sans,Arial,sans-serif;
-  font-style: normal;
-  font-size: 14px;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 60px;
-  color: #05192d;
-  font-weight: bold;
-}
-
-<button
-  class="emotion-0"
-  type="button"
->
-  <span
-    class="emotion-1"
-  >
-    this is a button
-  </span>
-</button>
-`;
-
-exports[`<Button /> snapshots renders a button with appearance default, intent danger, size large and loading true 1`] = `
-@keyframes animation-0 {
-  0% {
-    opacity: 0;
-  }
-
-  100% {
-    opacity: 1;
-  }
-}
-
-.emotion-0 {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  border: 0;
-  border-radius: 4px;
-  border-style: solid;
-  border-width: 2px;
-  cursor: pointer;
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  -webkit-justify-content: center;
-  justify-content: center;
-  position: relative;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  text-transform: capitalize;
-  -webkit-transition: 0.15s;
-  transition: 0.15s;
-  vertical-align: baseline;
-  white-space: nowrap;
-  background-color: transparent;
-  border-color: #ff5400;
-  color: #ff5400;
-  position: relative;
-  padding: 0 31px;
-}
-
-.emotion-0:active {
-  -webkit-transform: perspective(1px) scale(0.975);
-  -moz-transform: perspective(1px) scale(0.975);
-  -ms-transform: perspective(1px) scale(0.975);
-  transform: perspective(1px) scale(0.975);
-}
-
-.emotion-0:disabled,
-.emotion-0:hover:disabled,
-.emotion-0:active:disabled {
-  -webkit-transform: none;
-  -moz-transform: none;
-  -ms-transform: none;
-  transform: none;
-}
-
-.emotion-0:focus {
-  outline: 0;
-}
-
-.emotion-0:active {
-  -webkit-transform: none;
-  -moz-transform: none;
-  -ms-transform: none;
-  transform: none;
-}
-
-.emotion-0:focus,
-.emotion-0:hover:focus,
-.emotion-0:hover {
-  cursor: wait;
-}
-
-.emotion-1 {
-  position: absolute;
-}
-
-.emotion-2 g {
-  -webkit-animation: animation-0 1s infinite;
-  animation: animation-0 1s infinite;
-}
-
-.emotion-2 g:nth-of-type(1) {
-  -webkit-animation-delay: -0.9166666666666666s;
-  animation-delay: -0.9166666666666666s;
-}
-
-.emotion-2 g:nth-of-type(2) {
-  -webkit-animation-delay: -0.8333333333333334s;
-  animation-delay: -0.8333333333333334s;
-}
-
-.emotion-2 g:nth-of-type(3) {
-  -webkit-animation-delay: -0.75s;
-  animation-delay: -0.75s;
-}
-
-.emotion-2 g:nth-of-type(4) {
-  -webkit-animation-delay: -0.6666666666666666s;
-  animation-delay: -0.6666666666666666s;
-}
-
-.emotion-2 g:nth-of-type(5) {
-  -webkit-animation-delay: -0.5833333333333334s;
-  animation-delay: -0.5833333333333334s;
-}
-
-.emotion-2 g:nth-of-type(6) {
-  -webkit-animation-delay: -0.5s;
-  animation-delay: -0.5s;
-}
-
-.emotion-2 g:nth-of-type(7) {
-  -webkit-animation-delay: -0.4166666666666667s;
-  animation-delay: -0.4166666666666667s;
-}
-
-.emotion-2 g:nth-of-type(8) {
-  -webkit-animation-delay: -0.3333333333333333s;
-  animation-delay: -0.3333333333333333s;
-}
-
-.emotion-2 g:nth-of-type(9) {
-  -webkit-animation-delay: -0.25s;
-  animation-delay: -0.25s;
-}
-
-.emotion-2 g:nth-of-type(10) {
-  -webkit-animation-delay: -0.16666666666666666s;
-  animation-delay: -0.16666666666666666s;
-}
-
-.emotion-2 g:nth-of-type(11) {
-  -webkit-animation-delay: -0.08333333333333333s;
-  animation-delay: -0.08333333333333333s;
-}
-
-.emotion-2 g:nth-of-type(12) {
-  -webkit-animation-delay: 0s;
-  animation-delay: 0s;
-}
-
-.emotion-3 {
-  -webkit-font-smoothing: antialiased;
-  color: #05192d;
-  font-family: Studio-Feixen-Sans,Arial,sans-serif;
-  font-style: normal;
-  font-size: 14px;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 60px;
-  color: transparent;
-  font-weight: bold;
-}
-
-<button
-  class="emotion-0"
-  disabled=""
-  type="button"
->
-  <svg
-    class="emotion-1"
-    height="16"
-    viewBox="0 0 54 54"
-    width="16"
-    xmlns="http://www.w3.org/2000/svg"
-  >
-    <title>
-      Spinner
-    </title>
-    <g
-      class="emotion-2"
-      fill="#05192d"
-      fill-rule="nonzero"
-    >
-      <g
-        transform="translate(24)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(30 15 71.785)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(60 15 47.785)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(90 15 39)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(120 15 33.928)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(150 15 30.215)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(180 15 27)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(-150 15 23.785)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(-120 15 20.072)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(-90 15 15)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(-60 15 6.215)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(-30 15 -17.785)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-    </g>
-  </svg>
-  <span
-    class="emotion-3"
-  >
-    this is a button
-  </span>
-</button>
-`;
-
 exports[`<Button /> snapshots renders a button with appearance default, intent danger, size medium and loading false 1`] = `
 .emotion-0 {
   -webkit-align-items: center;
@@ -409,8 +28,8 @@ exports[`<Button /> snapshots renders a button with appearance default, intent d
   vertical-align: baseline;
   white-space: nowrap;
   background-color: transparent;
-  border-color: #ff5400;
-  color: #ff5400;
+  border-color: #FF5400;
+  color: #FF5400;
   padding: 0 15px;
 }
 
@@ -436,20 +55,20 @@ exports[`<Button /> snapshots renders a button with appearance default, intent d
 
 .emotion-0:hover {
   background-color: rgba(255, 84, 0, 0.15);
-  border-color: #ff5400;
-  color: #ff5400;
+  border-color: #FF5400;
+  color: #FF5400;
 }
 
 .emotion-1 {
   -webkit-font-smoothing: antialiased;
-  color: #05192d;
+  color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
   font-size: 14px;
   font-weight: 400;
   font-size: 14px;
   line-height: 44px;
-  color: #05192d;
+  color: #05192D;
   font-weight: bold;
 }
 
@@ -503,8 +122,8 @@ exports[`<Button /> snapshots renders a button with appearance default, intent d
   vertical-align: baseline;
   white-space: nowrap;
   background-color: transparent;
-  border-color: #ff5400;
-  color: #ff5400;
+  border-color: #FF5400;
+  color: #FF5400;
   position: relative;
   padding: 0 15px;
 }
@@ -613,7 +232,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent d
 
 .emotion-3 {
   -webkit-font-smoothing: antialiased;
-  color: #05192d;
+  color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
   font-size: 14px;
@@ -641,7 +260,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent d
     </title>
     <g
       class="emotion-2"
-      fill="#05192d"
+      fill="#05192D"
       fill-rule="nonzero"
     >
       <g
@@ -790,8 +409,8 @@ exports[`<Button /> snapshots renders a button with appearance default, intent d
   vertical-align: baseline;
   white-space: nowrap;
   background-color: transparent;
-  border-color: #ff5400;
-  color: #ff5400;
+  border-color: #FF5400;
+  color: #FF5400;
   padding: 0 15px;
 }
 
@@ -817,20 +436,20 @@ exports[`<Button /> snapshots renders a button with appearance default, intent d
 
 .emotion-0:hover {
   background-color: rgba(255, 84, 0, 0.15);
-  border-color: #ff5400;
-  color: #ff5400;
+  border-color: #FF5400;
+  color: #FF5400;
 }
 
 .emotion-1 {
   -webkit-font-smoothing: antialiased;
-  color: #05192d;
+  color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
   font-size: 14px;
   font-weight: 400;
   font-size: 14px;
   line-height: 32px;
-  color: #05192d;
+  color: #05192D;
   font-weight: bold;
 }
 
@@ -884,8 +503,8 @@ exports[`<Button /> snapshots renders a button with appearance default, intent d
   vertical-align: baseline;
   white-space: nowrap;
   background-color: transparent;
-  border-color: #ff5400;
-  color: #ff5400;
+  border-color: #FF5400;
+  color: #FF5400;
   position: relative;
   padding: 0 15px;
 }
@@ -994,7 +613,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent d
 
 .emotion-3 {
   -webkit-font-smoothing: antialiased;
-  color: #05192d;
+  color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
   font-size: 14px;
@@ -1022,388 +641,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent d
     </title>
     <g
       class="emotion-2"
-      fill="#05192d"
-      fill-rule="nonzero"
-    >
-      <g
-        transform="translate(24)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(30 15 71.785)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(60 15 47.785)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(90 15 39)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(120 15 33.928)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(150 15 30.215)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(180 15 27)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(-150 15 23.785)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(-120 15 20.072)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(-90 15 15)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(-60 15 6.215)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(-30 15 -17.785)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-    </g>
-  </svg>
-  <span
-    class="emotion-3"
-  >
-    this is a button
-  </span>
-</button>
-`;
-
-exports[`<Button /> snapshots renders a button with appearance default, intent neutral, size large and loading false 1`] = `
-.emotion-0 {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  border: 0;
-  border-radius: 4px;
-  border-style: solid;
-  border-width: 2px;
-  cursor: pointer;
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  -webkit-justify-content: center;
-  justify-content: center;
-  position: relative;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  text-transform: capitalize;
-  -webkit-transition: 0.15s;
-  transition: 0.15s;
-  vertical-align: baseline;
-  white-space: nowrap;
-  background-color: transparent;
-  border-color: #05192d;
-  color: #05192d;
-  padding: 0 31px;
-}
-
-.emotion-0:active {
-  -webkit-transform: perspective(1px) scale(0.975);
-  -moz-transform: perspective(1px) scale(0.975);
-  -ms-transform: perspective(1px) scale(0.975);
-  transform: perspective(1px) scale(0.975);
-}
-
-.emotion-0:disabled,
-.emotion-0:hover:disabled,
-.emotion-0:active:disabled {
-  -webkit-transform: none;
-  -moz-transform: none;
-  -ms-transform: none;
-  transform: none;
-}
-
-.emotion-0:focus {
-  outline: 0;
-}
-
-.emotion-0:hover {
-  background-color: rgba(5, 25, 45, 0.15);
-  border-color: #05192d;
-  color: #05192d;
-}
-
-.emotion-1 {
-  -webkit-font-smoothing: antialiased;
-  color: #05192d;
-  font-family: Studio-Feixen-Sans,Arial,sans-serif;
-  font-style: normal;
-  font-size: 14px;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 60px;
-  color: #05192d;
-  font-weight: bold;
-}
-
-<button
-  class="emotion-0"
-  type="button"
->
-  <span
-    class="emotion-1"
-  >
-    this is a button
-  </span>
-</button>
-`;
-
-exports[`<Button /> snapshots renders a button with appearance default, intent neutral, size large and loading true 1`] = `
-@keyframes animation-0 {
-  0% {
-    opacity: 0;
-  }
-
-  100% {
-    opacity: 1;
-  }
-}
-
-.emotion-0 {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  border: 0;
-  border-radius: 4px;
-  border-style: solid;
-  border-width: 2px;
-  cursor: pointer;
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  -webkit-justify-content: center;
-  justify-content: center;
-  position: relative;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  text-transform: capitalize;
-  -webkit-transition: 0.15s;
-  transition: 0.15s;
-  vertical-align: baseline;
-  white-space: nowrap;
-  background-color: transparent;
-  border-color: #05192d;
-  color: #05192d;
-  position: relative;
-  padding: 0 31px;
-}
-
-.emotion-0:active {
-  -webkit-transform: perspective(1px) scale(0.975);
-  -moz-transform: perspective(1px) scale(0.975);
-  -ms-transform: perspective(1px) scale(0.975);
-  transform: perspective(1px) scale(0.975);
-}
-
-.emotion-0:disabled,
-.emotion-0:hover:disabled,
-.emotion-0:active:disabled {
-  -webkit-transform: none;
-  -moz-transform: none;
-  -ms-transform: none;
-  transform: none;
-}
-
-.emotion-0:focus {
-  outline: 0;
-}
-
-.emotion-0:active {
-  -webkit-transform: none;
-  -moz-transform: none;
-  -ms-transform: none;
-  transform: none;
-}
-
-.emotion-0:focus,
-.emotion-0:hover:focus,
-.emotion-0:hover {
-  cursor: wait;
-}
-
-.emotion-1 {
-  position: absolute;
-}
-
-.emotion-2 g {
-  -webkit-animation: animation-0 1s infinite;
-  animation: animation-0 1s infinite;
-}
-
-.emotion-2 g:nth-of-type(1) {
-  -webkit-animation-delay: -0.9166666666666666s;
-  animation-delay: -0.9166666666666666s;
-}
-
-.emotion-2 g:nth-of-type(2) {
-  -webkit-animation-delay: -0.8333333333333334s;
-  animation-delay: -0.8333333333333334s;
-}
-
-.emotion-2 g:nth-of-type(3) {
-  -webkit-animation-delay: -0.75s;
-  animation-delay: -0.75s;
-}
-
-.emotion-2 g:nth-of-type(4) {
-  -webkit-animation-delay: -0.6666666666666666s;
-  animation-delay: -0.6666666666666666s;
-}
-
-.emotion-2 g:nth-of-type(5) {
-  -webkit-animation-delay: -0.5833333333333334s;
-  animation-delay: -0.5833333333333334s;
-}
-
-.emotion-2 g:nth-of-type(6) {
-  -webkit-animation-delay: -0.5s;
-  animation-delay: -0.5s;
-}
-
-.emotion-2 g:nth-of-type(7) {
-  -webkit-animation-delay: -0.4166666666666667s;
-  animation-delay: -0.4166666666666667s;
-}
-
-.emotion-2 g:nth-of-type(8) {
-  -webkit-animation-delay: -0.3333333333333333s;
-  animation-delay: -0.3333333333333333s;
-}
-
-.emotion-2 g:nth-of-type(9) {
-  -webkit-animation-delay: -0.25s;
-  animation-delay: -0.25s;
-}
-
-.emotion-2 g:nth-of-type(10) {
-  -webkit-animation-delay: -0.16666666666666666s;
-  animation-delay: -0.16666666666666666s;
-}
-
-.emotion-2 g:nth-of-type(11) {
-  -webkit-animation-delay: -0.08333333333333333s;
-  animation-delay: -0.08333333333333333s;
-}
-
-.emotion-2 g:nth-of-type(12) {
-  -webkit-animation-delay: 0s;
-  animation-delay: 0s;
-}
-
-.emotion-3 {
-  -webkit-font-smoothing: antialiased;
-  color: #05192d;
-  font-family: Studio-Feixen-Sans,Arial,sans-serif;
-  font-style: normal;
-  font-size: 14px;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 60px;
-  color: transparent;
-  font-weight: bold;
-}
-
-<button
-  class="emotion-0"
-  disabled=""
-  type="button"
->
-  <svg
-    class="emotion-1"
-    height="16"
-    viewBox="0 0 54 54"
-    width="16"
-    xmlns="http://www.w3.org/2000/svg"
-  >
-    <title>
-      Spinner
-    </title>
-    <g
-      class="emotion-2"
-      fill="#05192d"
+      fill="#05192D"
       fill-rule="nonzero"
     >
       <g
@@ -1552,8 +790,8 @@ exports[`<Button /> snapshots renders a button with appearance default, intent n
   vertical-align: baseline;
   white-space: nowrap;
   background-color: transparent;
-  border-color: #05192d;
-  color: #05192d;
+  border-color: #05192D;
+  color: #05192D;
   padding: 0 15px;
 }
 
@@ -1579,20 +817,20 @@ exports[`<Button /> snapshots renders a button with appearance default, intent n
 
 .emotion-0:hover {
   background-color: rgba(5, 25, 45, 0.15);
-  border-color: #05192d;
-  color: #05192d;
+  border-color: #05192D;
+  color: #05192D;
 }
 
 .emotion-1 {
   -webkit-font-smoothing: antialiased;
-  color: #05192d;
+  color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
   font-size: 14px;
   font-weight: 400;
   font-size: 14px;
   line-height: 44px;
-  color: #05192d;
+  color: #05192D;
   font-weight: bold;
 }
 
@@ -1646,8 +884,8 @@ exports[`<Button /> snapshots renders a button with appearance default, intent n
   vertical-align: baseline;
   white-space: nowrap;
   background-color: transparent;
-  border-color: #05192d;
-  color: #05192d;
+  border-color: #05192D;
+  color: #05192D;
   position: relative;
   padding: 0 15px;
 }
@@ -1756,7 +994,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent n
 
 .emotion-3 {
   -webkit-font-smoothing: antialiased;
-  color: #05192d;
+  color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
   font-size: 14px;
@@ -1784,7 +1022,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent n
     </title>
     <g
       class="emotion-2"
-      fill="#05192d"
+      fill="#05192D"
       fill-rule="nonzero"
     >
       <g
@@ -1933,8 +1171,8 @@ exports[`<Button /> snapshots renders a button with appearance default, intent n
   vertical-align: baseline;
   white-space: nowrap;
   background-color: transparent;
-  border-color: #05192d;
-  color: #05192d;
+  border-color: #05192D;
+  color: #05192D;
   padding: 0 15px;
 }
 
@@ -1960,20 +1198,20 @@ exports[`<Button /> snapshots renders a button with appearance default, intent n
 
 .emotion-0:hover {
   background-color: rgba(5, 25, 45, 0.15);
-  border-color: #05192d;
-  color: #05192d;
+  border-color: #05192D;
+  color: #05192D;
 }
 
 .emotion-1 {
   -webkit-font-smoothing: antialiased;
-  color: #05192d;
+  color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
   font-size: 14px;
   font-weight: 400;
   font-size: 14px;
   line-height: 32px;
-  color: #05192d;
+  color: #05192D;
   font-weight: bold;
 }
 
@@ -2027,8 +1265,8 @@ exports[`<Button /> snapshots renders a button with appearance default, intent n
   vertical-align: baseline;
   white-space: nowrap;
   background-color: transparent;
-  border-color: #05192d;
-  color: #05192d;
+  border-color: #05192D;
+  color: #05192D;
   position: relative;
   padding: 0 15px;
 }
@@ -2137,7 +1375,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent n
 
 .emotion-3 {
   -webkit-font-smoothing: antialiased;
-  color: #05192d;
+  color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
   font-size: 14px;
@@ -2165,388 +1403,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent n
     </title>
     <g
       class="emotion-2"
-      fill="#05192d"
-      fill-rule="nonzero"
-    >
-      <g
-        transform="translate(24)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(30 15 71.785)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(60 15 47.785)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(90 15 39)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(120 15 33.928)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(150 15 30.215)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(180 15 27)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(-150 15 23.785)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(-120 15 20.072)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(-90 15 15)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(-60 15 6.215)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(-30 15 -17.785)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-    </g>
-  </svg>
-  <span
-    class="emotion-3"
-  >
-    this is a button
-  </span>
-</button>
-`;
-
-exports[`<Button /> snapshots renders a button with appearance default, intent success, size large and loading false 1`] = `
-.emotion-0 {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  border: 0;
-  border-radius: 4px;
-  border-style: solid;
-  border-width: 2px;
-  cursor: pointer;
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  -webkit-justify-content: center;
-  justify-content: center;
-  position: relative;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  text-transform: capitalize;
-  -webkit-transition: 0.15s;
-  transition: 0.15s;
-  vertical-align: baseline;
-  white-space: nowrap;
-  background-color: transparent;
-  border-color: #03ef62;
-  color: #03ef62;
-  padding: 0 31px;
-}
-
-.emotion-0:active {
-  -webkit-transform: perspective(1px) scale(0.975);
-  -moz-transform: perspective(1px) scale(0.975);
-  -ms-transform: perspective(1px) scale(0.975);
-  transform: perspective(1px) scale(0.975);
-}
-
-.emotion-0:disabled,
-.emotion-0:hover:disabled,
-.emotion-0:active:disabled {
-  -webkit-transform: none;
-  -moz-transform: none;
-  -ms-transform: none;
-  transform: none;
-}
-
-.emotion-0:focus {
-  outline: 0;
-}
-
-.emotion-0:hover {
-  background-color: rgba(3, 239, 98, 0.15);
-  border-color: #03ef62;
-  color: #03ef62;
-}
-
-.emotion-1 {
-  -webkit-font-smoothing: antialiased;
-  color: #05192d;
-  font-family: Studio-Feixen-Sans,Arial,sans-serif;
-  font-style: normal;
-  font-size: 14px;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 60px;
-  color: #05192d;
-  font-weight: bold;
-}
-
-<button
-  class="emotion-0"
-  type="button"
->
-  <span
-    class="emotion-1"
-  >
-    this is a button
-  </span>
-</button>
-`;
-
-exports[`<Button /> snapshots renders a button with appearance default, intent success, size large and loading true 1`] = `
-@keyframes animation-0 {
-  0% {
-    opacity: 0;
-  }
-
-  100% {
-    opacity: 1;
-  }
-}
-
-.emotion-0 {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  border: 0;
-  border-radius: 4px;
-  border-style: solid;
-  border-width: 2px;
-  cursor: pointer;
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  -webkit-justify-content: center;
-  justify-content: center;
-  position: relative;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  text-transform: capitalize;
-  -webkit-transition: 0.15s;
-  transition: 0.15s;
-  vertical-align: baseline;
-  white-space: nowrap;
-  background-color: transparent;
-  border-color: #03ef62;
-  color: #03ef62;
-  position: relative;
-  padding: 0 31px;
-}
-
-.emotion-0:active {
-  -webkit-transform: perspective(1px) scale(0.975);
-  -moz-transform: perspective(1px) scale(0.975);
-  -ms-transform: perspective(1px) scale(0.975);
-  transform: perspective(1px) scale(0.975);
-}
-
-.emotion-0:disabled,
-.emotion-0:hover:disabled,
-.emotion-0:active:disabled {
-  -webkit-transform: none;
-  -moz-transform: none;
-  -ms-transform: none;
-  transform: none;
-}
-
-.emotion-0:focus {
-  outline: 0;
-}
-
-.emotion-0:active {
-  -webkit-transform: none;
-  -moz-transform: none;
-  -ms-transform: none;
-  transform: none;
-}
-
-.emotion-0:focus,
-.emotion-0:hover:focus,
-.emotion-0:hover {
-  cursor: wait;
-}
-
-.emotion-1 {
-  position: absolute;
-}
-
-.emotion-2 g {
-  -webkit-animation: animation-0 1s infinite;
-  animation: animation-0 1s infinite;
-}
-
-.emotion-2 g:nth-of-type(1) {
-  -webkit-animation-delay: -0.9166666666666666s;
-  animation-delay: -0.9166666666666666s;
-}
-
-.emotion-2 g:nth-of-type(2) {
-  -webkit-animation-delay: -0.8333333333333334s;
-  animation-delay: -0.8333333333333334s;
-}
-
-.emotion-2 g:nth-of-type(3) {
-  -webkit-animation-delay: -0.75s;
-  animation-delay: -0.75s;
-}
-
-.emotion-2 g:nth-of-type(4) {
-  -webkit-animation-delay: -0.6666666666666666s;
-  animation-delay: -0.6666666666666666s;
-}
-
-.emotion-2 g:nth-of-type(5) {
-  -webkit-animation-delay: -0.5833333333333334s;
-  animation-delay: -0.5833333333333334s;
-}
-
-.emotion-2 g:nth-of-type(6) {
-  -webkit-animation-delay: -0.5s;
-  animation-delay: -0.5s;
-}
-
-.emotion-2 g:nth-of-type(7) {
-  -webkit-animation-delay: -0.4166666666666667s;
-  animation-delay: -0.4166666666666667s;
-}
-
-.emotion-2 g:nth-of-type(8) {
-  -webkit-animation-delay: -0.3333333333333333s;
-  animation-delay: -0.3333333333333333s;
-}
-
-.emotion-2 g:nth-of-type(9) {
-  -webkit-animation-delay: -0.25s;
-  animation-delay: -0.25s;
-}
-
-.emotion-2 g:nth-of-type(10) {
-  -webkit-animation-delay: -0.16666666666666666s;
-  animation-delay: -0.16666666666666666s;
-}
-
-.emotion-2 g:nth-of-type(11) {
-  -webkit-animation-delay: -0.08333333333333333s;
-  animation-delay: -0.08333333333333333s;
-}
-
-.emotion-2 g:nth-of-type(12) {
-  -webkit-animation-delay: 0s;
-  animation-delay: 0s;
-}
-
-.emotion-3 {
-  -webkit-font-smoothing: antialiased;
-  color: #05192d;
-  font-family: Studio-Feixen-Sans,Arial,sans-serif;
-  font-style: normal;
-  font-size: 14px;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 60px;
-  color: transparent;
-  font-weight: bold;
-}
-
-<button
-  class="emotion-0"
-  disabled=""
-  type="button"
->
-  <svg
-    class="emotion-1"
-    height="16"
-    viewBox="0 0 54 54"
-    width="16"
-    xmlns="http://www.w3.org/2000/svg"
-  >
-    <title>
-      Spinner
-    </title>
-    <g
-      class="emotion-2"
-      fill="#05192d"
+      fill="#05192D"
       fill-rule="nonzero"
     >
       <g
@@ -2695,8 +1552,8 @@ exports[`<Button /> snapshots renders a button with appearance default, intent s
   vertical-align: baseline;
   white-space: nowrap;
   background-color: transparent;
-  border-color: #03ef62;
-  color: #03ef62;
+  border-color: #03EF62;
+  color: #03EF62;
   padding: 0 15px;
 }
 
@@ -2722,20 +1579,20 @@ exports[`<Button /> snapshots renders a button with appearance default, intent s
 
 .emotion-0:hover {
   background-color: rgba(3, 239, 98, 0.15);
-  border-color: #03ef62;
-  color: #03ef62;
+  border-color: #03EF62;
+  color: #03EF62;
 }
 
 .emotion-1 {
   -webkit-font-smoothing: antialiased;
-  color: #05192d;
+  color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
   font-size: 14px;
   font-weight: 400;
   font-size: 14px;
   line-height: 44px;
-  color: #05192d;
+  color: #05192D;
   font-weight: bold;
 }
 
@@ -2789,8 +1646,8 @@ exports[`<Button /> snapshots renders a button with appearance default, intent s
   vertical-align: baseline;
   white-space: nowrap;
   background-color: transparent;
-  border-color: #03ef62;
-  color: #03ef62;
+  border-color: #03EF62;
+  color: #03EF62;
   position: relative;
   padding: 0 15px;
 }
@@ -2899,7 +1756,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent s
 
 .emotion-3 {
   -webkit-font-smoothing: antialiased;
-  color: #05192d;
+  color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
   font-size: 14px;
@@ -2927,7 +1784,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent s
     </title>
     <g
       class="emotion-2"
-      fill="#05192d"
+      fill="#05192D"
       fill-rule="nonzero"
     >
       <g
@@ -3076,8 +1933,8 @@ exports[`<Button /> snapshots renders a button with appearance default, intent s
   vertical-align: baseline;
   white-space: nowrap;
   background-color: transparent;
-  border-color: #03ef62;
-  color: #03ef62;
+  border-color: #03EF62;
+  color: #03EF62;
   padding: 0 15px;
 }
 
@@ -3103,20 +1960,20 @@ exports[`<Button /> snapshots renders a button with appearance default, intent s
 
 .emotion-0:hover {
   background-color: rgba(3, 239, 98, 0.15);
-  border-color: #03ef62;
-  color: #03ef62;
+  border-color: #03EF62;
+  color: #03EF62;
 }
 
 .emotion-1 {
   -webkit-font-smoothing: antialiased;
-  color: #05192d;
+  color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
   font-size: 14px;
   font-weight: 400;
   font-size: 14px;
   line-height: 32px;
-  color: #05192d;
+  color: #05192D;
   font-weight: bold;
 }
 
@@ -3170,8 +2027,8 @@ exports[`<Button /> snapshots renders a button with appearance default, intent s
   vertical-align: baseline;
   white-space: nowrap;
   background-color: transparent;
-  border-color: #03ef62;
-  color: #03ef62;
+  border-color: #03EF62;
+  color: #03EF62;
   position: relative;
   padding: 0 15px;
 }
@@ -3280,7 +2137,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent s
 
 .emotion-3 {
   -webkit-font-smoothing: antialiased;
-  color: #05192d;
+  color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
   font-size: 14px;
@@ -3308,388 +2165,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent s
     </title>
     <g
       class="emotion-2"
-      fill="#05192d"
-      fill-rule="nonzero"
-    >
-      <g
-        transform="translate(24)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(30 15 71.785)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(60 15 47.785)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(90 15 39)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(120 15 33.928)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(150 15 30.215)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(180 15 27)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(-150 15 23.785)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(-120 15 20.072)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(-90 15 15)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(-60 15 6.215)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(-30 15 -17.785)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-    </g>
-  </svg>
-  <span
-    class="emotion-3"
-  >
-    this is a button
-  </span>
-</button>
-`;
-
-exports[`<Button /> snapshots renders a button with appearance default, intent warning, size large and loading false 1`] = `
-.emotion-0 {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  border: 0;
-  border-radius: 4px;
-  border-style: solid;
-  border-width: 2px;
-  cursor: pointer;
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  -webkit-justify-content: center;
-  justify-content: center;
-  position: relative;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  text-transform: capitalize;
-  -webkit-transition: 0.15s;
-  transition: 0.15s;
-  vertical-align: baseline;
-  white-space: nowrap;
-  background-color: transparent;
-  border-color: #ff931e;
-  color: #ff931e;
-  padding: 0 31px;
-}
-
-.emotion-0:active {
-  -webkit-transform: perspective(1px) scale(0.975);
-  -moz-transform: perspective(1px) scale(0.975);
-  -ms-transform: perspective(1px) scale(0.975);
-  transform: perspective(1px) scale(0.975);
-}
-
-.emotion-0:disabled,
-.emotion-0:hover:disabled,
-.emotion-0:active:disabled {
-  -webkit-transform: none;
-  -moz-transform: none;
-  -ms-transform: none;
-  transform: none;
-}
-
-.emotion-0:focus {
-  outline: 0;
-}
-
-.emotion-0:hover {
-  background-color: rgba(255, 147, 30, 0.15);
-  border-color: #ff931e;
-  color: #ff931e;
-}
-
-.emotion-1 {
-  -webkit-font-smoothing: antialiased;
-  color: #05192d;
-  font-family: Studio-Feixen-Sans,Arial,sans-serif;
-  font-style: normal;
-  font-size: 14px;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 60px;
-  color: #05192d;
-  font-weight: bold;
-}
-
-<button
-  class="emotion-0"
-  type="button"
->
-  <span
-    class="emotion-1"
-  >
-    this is a button
-  </span>
-</button>
-`;
-
-exports[`<Button /> snapshots renders a button with appearance default, intent warning, size large and loading true 1`] = `
-@keyframes animation-0 {
-  0% {
-    opacity: 0;
-  }
-
-  100% {
-    opacity: 1;
-  }
-}
-
-.emotion-0 {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  border: 0;
-  border-radius: 4px;
-  border-style: solid;
-  border-width: 2px;
-  cursor: pointer;
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  -webkit-justify-content: center;
-  justify-content: center;
-  position: relative;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  text-transform: capitalize;
-  -webkit-transition: 0.15s;
-  transition: 0.15s;
-  vertical-align: baseline;
-  white-space: nowrap;
-  background-color: transparent;
-  border-color: #ff931e;
-  color: #ff931e;
-  position: relative;
-  padding: 0 31px;
-}
-
-.emotion-0:active {
-  -webkit-transform: perspective(1px) scale(0.975);
-  -moz-transform: perspective(1px) scale(0.975);
-  -ms-transform: perspective(1px) scale(0.975);
-  transform: perspective(1px) scale(0.975);
-}
-
-.emotion-0:disabled,
-.emotion-0:hover:disabled,
-.emotion-0:active:disabled {
-  -webkit-transform: none;
-  -moz-transform: none;
-  -ms-transform: none;
-  transform: none;
-}
-
-.emotion-0:focus {
-  outline: 0;
-}
-
-.emotion-0:active {
-  -webkit-transform: none;
-  -moz-transform: none;
-  -ms-transform: none;
-  transform: none;
-}
-
-.emotion-0:focus,
-.emotion-0:hover:focus,
-.emotion-0:hover {
-  cursor: wait;
-}
-
-.emotion-1 {
-  position: absolute;
-}
-
-.emotion-2 g {
-  -webkit-animation: animation-0 1s infinite;
-  animation: animation-0 1s infinite;
-}
-
-.emotion-2 g:nth-of-type(1) {
-  -webkit-animation-delay: -0.9166666666666666s;
-  animation-delay: -0.9166666666666666s;
-}
-
-.emotion-2 g:nth-of-type(2) {
-  -webkit-animation-delay: -0.8333333333333334s;
-  animation-delay: -0.8333333333333334s;
-}
-
-.emotion-2 g:nth-of-type(3) {
-  -webkit-animation-delay: -0.75s;
-  animation-delay: -0.75s;
-}
-
-.emotion-2 g:nth-of-type(4) {
-  -webkit-animation-delay: -0.6666666666666666s;
-  animation-delay: -0.6666666666666666s;
-}
-
-.emotion-2 g:nth-of-type(5) {
-  -webkit-animation-delay: -0.5833333333333334s;
-  animation-delay: -0.5833333333333334s;
-}
-
-.emotion-2 g:nth-of-type(6) {
-  -webkit-animation-delay: -0.5s;
-  animation-delay: -0.5s;
-}
-
-.emotion-2 g:nth-of-type(7) {
-  -webkit-animation-delay: -0.4166666666666667s;
-  animation-delay: -0.4166666666666667s;
-}
-
-.emotion-2 g:nth-of-type(8) {
-  -webkit-animation-delay: -0.3333333333333333s;
-  animation-delay: -0.3333333333333333s;
-}
-
-.emotion-2 g:nth-of-type(9) {
-  -webkit-animation-delay: -0.25s;
-  animation-delay: -0.25s;
-}
-
-.emotion-2 g:nth-of-type(10) {
-  -webkit-animation-delay: -0.16666666666666666s;
-  animation-delay: -0.16666666666666666s;
-}
-
-.emotion-2 g:nth-of-type(11) {
-  -webkit-animation-delay: -0.08333333333333333s;
-  animation-delay: -0.08333333333333333s;
-}
-
-.emotion-2 g:nth-of-type(12) {
-  -webkit-animation-delay: 0s;
-  animation-delay: 0s;
-}
-
-.emotion-3 {
-  -webkit-font-smoothing: antialiased;
-  color: #05192d;
-  font-family: Studio-Feixen-Sans,Arial,sans-serif;
-  font-style: normal;
-  font-size: 14px;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 60px;
-  color: transparent;
-  font-weight: bold;
-}
-
-<button
-  class="emotion-0"
-  disabled=""
-  type="button"
->
-  <svg
-    class="emotion-1"
-    height="16"
-    viewBox="0 0 54 54"
-    width="16"
-    xmlns="http://www.w3.org/2000/svg"
-  >
-    <title>
-      Spinner
-    </title>
-    <g
-      class="emotion-2"
-      fill="#05192d"
+      fill="#05192D"
       fill-rule="nonzero"
     >
       <g
@@ -3838,8 +2314,8 @@ exports[`<Button /> snapshots renders a button with appearance default, intent w
   vertical-align: baseline;
   white-space: nowrap;
   background-color: transparent;
-  border-color: #ff931e;
-  color: #ff931e;
+  border-color: #FF931E;
+  color: #FF931E;
   padding: 0 15px;
 }
 
@@ -3865,20 +2341,20 @@ exports[`<Button /> snapshots renders a button with appearance default, intent w
 
 .emotion-0:hover {
   background-color: rgba(255, 147, 30, 0.15);
-  border-color: #ff931e;
-  color: #ff931e;
+  border-color: #FF931E;
+  color: #FF931E;
 }
 
 .emotion-1 {
   -webkit-font-smoothing: antialiased;
-  color: #05192d;
+  color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
   font-size: 14px;
   font-weight: 400;
   font-size: 14px;
   line-height: 44px;
-  color: #05192d;
+  color: #05192D;
   font-weight: bold;
 }
 
@@ -3932,8 +2408,8 @@ exports[`<Button /> snapshots renders a button with appearance default, intent w
   vertical-align: baseline;
   white-space: nowrap;
   background-color: transparent;
-  border-color: #ff931e;
-  color: #ff931e;
+  border-color: #FF931E;
+  color: #FF931E;
   position: relative;
   padding: 0 15px;
 }
@@ -4042,7 +2518,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent w
 
 .emotion-3 {
   -webkit-font-smoothing: antialiased;
-  color: #05192d;
+  color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
   font-size: 14px;
@@ -4070,7 +2546,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent w
     </title>
     <g
       class="emotion-2"
-      fill="#05192d"
+      fill="#05192D"
       fill-rule="nonzero"
     >
       <g
@@ -4219,8 +2695,8 @@ exports[`<Button /> snapshots renders a button with appearance default, intent w
   vertical-align: baseline;
   white-space: nowrap;
   background-color: transparent;
-  border-color: #ff931e;
-  color: #ff931e;
+  border-color: #FF931E;
+  color: #FF931E;
   padding: 0 15px;
 }
 
@@ -4246,20 +2722,20 @@ exports[`<Button /> snapshots renders a button with appearance default, intent w
 
 .emotion-0:hover {
   background-color: rgba(255, 147, 30, 0.15);
-  border-color: #ff931e;
-  color: #ff931e;
+  border-color: #FF931E;
+  color: #FF931E;
 }
 
 .emotion-1 {
   -webkit-font-smoothing: antialiased;
-  color: #05192d;
+  color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
   font-size: 14px;
   font-weight: 400;
   font-size: 14px;
   line-height: 32px;
-  color: #05192d;
+  color: #05192D;
   font-weight: bold;
 }
 
@@ -4313,8 +2789,8 @@ exports[`<Button /> snapshots renders a button with appearance default, intent w
   vertical-align: baseline;
   white-space: nowrap;
   background-color: transparent;
-  border-color: #ff931e;
-  color: #ff931e;
+  border-color: #FF931E;
+  color: #FF931E;
   position: relative;
   padding: 0 15px;
 }
@@ -4423,7 +2899,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent w
 
 .emotion-3 {
   -webkit-font-smoothing: antialiased;
-  color: #05192d;
+  color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
   font-size: 14px;
@@ -4451,388 +2927,7 @@ exports[`<Button /> snapshots renders a button with appearance default, intent w
     </title>
     <g
       class="emotion-2"
-      fill="#05192d"
-      fill-rule="nonzero"
-    >
-      <g
-        transform="translate(24)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(30 15 71.785)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(60 15 47.785)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(90 15 39)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(120 15 33.928)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(150 15 30.215)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(180 15 27)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(-150 15 23.785)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(-120 15 20.072)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(-90 15 15)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(-60 15 6.215)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(-30 15 -17.785)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-    </g>
-  </svg>
-  <span
-    class="emotion-3"
-  >
-    this is a button
-  </span>
-</button>
-`;
-
-exports[`<Button /> snapshots renders a button with appearance inverted, intent b2b, size large and loading false 1`] = `
-.emotion-0 {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  border: 0;
-  border-radius: 4px;
-  border-style: solid;
-  border-width: 2px;
-  cursor: pointer;
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  -webkit-justify-content: center;
-  justify-content: center;
-  position: relative;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  text-transform: capitalize;
-  -webkit-transition: 0.15s;
-  transition: 0.15s;
-  vertical-align: baseline;
-  white-space: nowrap;
-  background-color: transparent;
-  border-color: #fcce0d;
-  color: #fcce0d;
-  padding: 0 31px;
-}
-
-.emotion-0:active {
-  -webkit-transform: perspective(1px) scale(0.975);
-  -moz-transform: perspective(1px) scale(0.975);
-  -ms-transform: perspective(1px) scale(0.975);
-  transform: perspective(1px) scale(0.975);
-}
-
-.emotion-0:disabled,
-.emotion-0:hover:disabled,
-.emotion-0:active:disabled {
-  -webkit-transform: none;
-  -moz-transform: none;
-  -ms-transform: none;
-  transform: none;
-}
-
-.emotion-0:focus {
-  outline: 0;
-}
-
-.emotion-0:hover {
-  background-color: rgba(252, 206, 13, 0.15);
-  border-color: #fcce0d;
-  color: #fcce0d;
-}
-
-.emotion-1 {
-  -webkit-font-smoothing: antialiased;
-  color: #05192d;
-  font-family: Studio-Feixen-Sans,Arial,sans-serif;
-  font-style: normal;
-  font-size: 14px;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 60px;
-  color: #ffffff;
-  font-weight: bold;
-}
-
-<button
-  class="emotion-0"
-  type="button"
->
-  <span
-    class="emotion-1"
-  >
-    this is a button
-  </span>
-</button>
-`;
-
-exports[`<Button /> snapshots renders a button with appearance inverted, intent b2b, size large and loading true 1`] = `
-@keyframes animation-0 {
-  0% {
-    opacity: 0;
-  }
-
-  100% {
-    opacity: 1;
-  }
-}
-
-.emotion-0 {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  border: 0;
-  border-radius: 4px;
-  border-style: solid;
-  border-width: 2px;
-  cursor: pointer;
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  -webkit-justify-content: center;
-  justify-content: center;
-  position: relative;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  text-transform: capitalize;
-  -webkit-transition: 0.15s;
-  transition: 0.15s;
-  vertical-align: baseline;
-  white-space: nowrap;
-  background-color: transparent;
-  border-color: #fcce0d;
-  color: #fcce0d;
-  position: relative;
-  padding: 0 31px;
-}
-
-.emotion-0:active {
-  -webkit-transform: perspective(1px) scale(0.975);
-  -moz-transform: perspective(1px) scale(0.975);
-  -ms-transform: perspective(1px) scale(0.975);
-  transform: perspective(1px) scale(0.975);
-}
-
-.emotion-0:disabled,
-.emotion-0:hover:disabled,
-.emotion-0:active:disabled {
-  -webkit-transform: none;
-  -moz-transform: none;
-  -ms-transform: none;
-  transform: none;
-}
-
-.emotion-0:focus {
-  outline: 0;
-}
-
-.emotion-0:active {
-  -webkit-transform: none;
-  -moz-transform: none;
-  -ms-transform: none;
-  transform: none;
-}
-
-.emotion-0:focus,
-.emotion-0:hover:focus,
-.emotion-0:hover {
-  cursor: wait;
-}
-
-.emotion-1 {
-  position: absolute;
-}
-
-.emotion-2 g {
-  -webkit-animation: animation-0 1s infinite;
-  animation: animation-0 1s infinite;
-}
-
-.emotion-2 g:nth-of-type(1) {
-  -webkit-animation-delay: -0.9166666666666666s;
-  animation-delay: -0.9166666666666666s;
-}
-
-.emotion-2 g:nth-of-type(2) {
-  -webkit-animation-delay: -0.8333333333333334s;
-  animation-delay: -0.8333333333333334s;
-}
-
-.emotion-2 g:nth-of-type(3) {
-  -webkit-animation-delay: -0.75s;
-  animation-delay: -0.75s;
-}
-
-.emotion-2 g:nth-of-type(4) {
-  -webkit-animation-delay: -0.6666666666666666s;
-  animation-delay: -0.6666666666666666s;
-}
-
-.emotion-2 g:nth-of-type(5) {
-  -webkit-animation-delay: -0.5833333333333334s;
-  animation-delay: -0.5833333333333334s;
-}
-
-.emotion-2 g:nth-of-type(6) {
-  -webkit-animation-delay: -0.5s;
-  animation-delay: -0.5s;
-}
-
-.emotion-2 g:nth-of-type(7) {
-  -webkit-animation-delay: -0.4166666666666667s;
-  animation-delay: -0.4166666666666667s;
-}
-
-.emotion-2 g:nth-of-type(8) {
-  -webkit-animation-delay: -0.3333333333333333s;
-  animation-delay: -0.3333333333333333s;
-}
-
-.emotion-2 g:nth-of-type(9) {
-  -webkit-animation-delay: -0.25s;
-  animation-delay: -0.25s;
-}
-
-.emotion-2 g:nth-of-type(10) {
-  -webkit-animation-delay: -0.16666666666666666s;
-  animation-delay: -0.16666666666666666s;
-}
-
-.emotion-2 g:nth-of-type(11) {
-  -webkit-animation-delay: -0.08333333333333333s;
-  animation-delay: -0.08333333333333333s;
-}
-
-.emotion-2 g:nth-of-type(12) {
-  -webkit-animation-delay: 0s;
-  animation-delay: 0s;
-}
-
-.emotion-3 {
-  -webkit-font-smoothing: antialiased;
-  color: #05192d;
-  font-family: Studio-Feixen-Sans,Arial,sans-serif;
-  font-style: normal;
-  font-size: 14px;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 60px;
-  color: transparent;
-  font-weight: bold;
-}
-
-<button
-  class="emotion-0"
-  disabled=""
-  type="button"
->
-  <svg
-    class="emotion-1"
-    height="16"
-    viewBox="0 0 54 54"
-    width="16"
-    xmlns="http://www.w3.org/2000/svg"
-  >
-    <title>
-      Spinner
-    </title>
-    <g
-      class="emotion-2"
-      fill="#ffffff"
+      fill="#05192D"
       fill-rule="nonzero"
     >
       <g
@@ -4981,8 +3076,8 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
   vertical-align: baseline;
   white-space: nowrap;
   background-color: transparent;
-  border-color: #fcce0d;
-  color: #fcce0d;
+  border-color: #FCCE0D;
+  color: #FCCE0D;
   padding: 0 15px;
 }
 
@@ -5008,20 +3103,20 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
 
 .emotion-0:hover {
   background-color: rgba(252, 206, 13, 0.15);
-  border-color: #fcce0d;
-  color: #fcce0d;
+  border-color: #FCCE0D;
+  color: #FCCE0D;
 }
 
 .emotion-1 {
   -webkit-font-smoothing: antialiased;
-  color: #05192d;
+  color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
   font-size: 14px;
   font-weight: 400;
   font-size: 14px;
   line-height: 44px;
-  color: #ffffff;
+  color: #FFFFFF;
   font-weight: bold;
 }
 
@@ -5075,8 +3170,8 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
   vertical-align: baseline;
   white-space: nowrap;
   background-color: transparent;
-  border-color: #fcce0d;
-  color: #fcce0d;
+  border-color: #FCCE0D;
+  color: #FCCE0D;
   position: relative;
   padding: 0 15px;
 }
@@ -5185,7 +3280,7 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
 
 .emotion-3 {
   -webkit-font-smoothing: antialiased;
-  color: #05192d;
+  color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
   font-size: 14px;
@@ -5213,7 +3308,7 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
     </title>
     <g
       class="emotion-2"
-      fill="#ffffff"
+      fill="#FFFFFF"
       fill-rule="nonzero"
     >
       <g
@@ -5362,8 +3457,8 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
   vertical-align: baseline;
   white-space: nowrap;
   background-color: transparent;
-  border-color: #fcce0d;
-  color: #fcce0d;
+  border-color: #FCCE0D;
+  color: #FCCE0D;
   padding: 0 15px;
 }
 
@@ -5389,20 +3484,20 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
 
 .emotion-0:hover {
   background-color: rgba(252, 206, 13, 0.15);
-  border-color: #fcce0d;
-  color: #fcce0d;
+  border-color: #FCCE0D;
+  color: #FCCE0D;
 }
 
 .emotion-1 {
   -webkit-font-smoothing: antialiased;
-  color: #05192d;
+  color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
   font-size: 14px;
   font-weight: 400;
   font-size: 14px;
   line-height: 32px;
-  color: #ffffff;
+  color: #FFFFFF;
   font-weight: bold;
 }
 
@@ -5456,8 +3551,8 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
   vertical-align: baseline;
   white-space: nowrap;
   background-color: transparent;
-  border-color: #fcce0d;
-  color: #fcce0d;
+  border-color: #FCCE0D;
+  color: #FCCE0D;
   position: relative;
   padding: 0 15px;
 }
@@ -5566,7 +3661,7 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
 
 .emotion-3 {
   -webkit-font-smoothing: antialiased;
-  color: #05192d;
+  color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
   font-size: 14px;
@@ -5594,388 +3689,7 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
     </title>
     <g
       class="emotion-2"
-      fill="#ffffff"
-      fill-rule="nonzero"
-    >
-      <g
-        transform="translate(24)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(30 15 71.785)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(60 15 47.785)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(90 15 39)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(120 15 33.928)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(150 15 30.215)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(180 15 27)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(-150 15 23.785)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(-120 15 20.072)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(-90 15 15)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(-60 15 6.215)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(-30 15 -17.785)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-    </g>
-  </svg>
-  <span
-    class="emotion-3"
-  >
-    this is a button
-  </span>
-</button>
-`;
-
-exports[`<Button /> snapshots renders a button with appearance inverted, intent danger, size large and loading false 1`] = `
-.emotion-0 {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  border: 0;
-  border-radius: 4px;
-  border-style: solid;
-  border-width: 2px;
-  cursor: pointer;
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  -webkit-justify-content: center;
-  justify-content: center;
-  position: relative;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  text-transform: capitalize;
-  -webkit-transition: 0.15s;
-  transition: 0.15s;
-  vertical-align: baseline;
-  white-space: nowrap;
-  background-color: transparent;
-  border-color: #ff5400;
-  color: #ff5400;
-  padding: 0 31px;
-}
-
-.emotion-0:active {
-  -webkit-transform: perspective(1px) scale(0.975);
-  -moz-transform: perspective(1px) scale(0.975);
-  -ms-transform: perspective(1px) scale(0.975);
-  transform: perspective(1px) scale(0.975);
-}
-
-.emotion-0:disabled,
-.emotion-0:hover:disabled,
-.emotion-0:active:disabled {
-  -webkit-transform: none;
-  -moz-transform: none;
-  -ms-transform: none;
-  transform: none;
-}
-
-.emotion-0:focus {
-  outline: 0;
-}
-
-.emotion-0:hover {
-  background-color: rgba(255, 84, 0, 0.15);
-  border-color: #ff5400;
-  color: #ff5400;
-}
-
-.emotion-1 {
-  -webkit-font-smoothing: antialiased;
-  color: #05192d;
-  font-family: Studio-Feixen-Sans,Arial,sans-serif;
-  font-style: normal;
-  font-size: 14px;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 60px;
-  color: #ffffff;
-  font-weight: bold;
-}
-
-<button
-  class="emotion-0"
-  type="button"
->
-  <span
-    class="emotion-1"
-  >
-    this is a button
-  </span>
-</button>
-`;
-
-exports[`<Button /> snapshots renders a button with appearance inverted, intent danger, size large and loading true 1`] = `
-@keyframes animation-0 {
-  0% {
-    opacity: 0;
-  }
-
-  100% {
-    opacity: 1;
-  }
-}
-
-.emotion-0 {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  border: 0;
-  border-radius: 4px;
-  border-style: solid;
-  border-width: 2px;
-  cursor: pointer;
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  -webkit-justify-content: center;
-  justify-content: center;
-  position: relative;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  text-transform: capitalize;
-  -webkit-transition: 0.15s;
-  transition: 0.15s;
-  vertical-align: baseline;
-  white-space: nowrap;
-  background-color: transparent;
-  border-color: #ff5400;
-  color: #ff5400;
-  position: relative;
-  padding: 0 31px;
-}
-
-.emotion-0:active {
-  -webkit-transform: perspective(1px) scale(0.975);
-  -moz-transform: perspective(1px) scale(0.975);
-  -ms-transform: perspective(1px) scale(0.975);
-  transform: perspective(1px) scale(0.975);
-}
-
-.emotion-0:disabled,
-.emotion-0:hover:disabled,
-.emotion-0:active:disabled {
-  -webkit-transform: none;
-  -moz-transform: none;
-  -ms-transform: none;
-  transform: none;
-}
-
-.emotion-0:focus {
-  outline: 0;
-}
-
-.emotion-0:active {
-  -webkit-transform: none;
-  -moz-transform: none;
-  -ms-transform: none;
-  transform: none;
-}
-
-.emotion-0:focus,
-.emotion-0:hover:focus,
-.emotion-0:hover {
-  cursor: wait;
-}
-
-.emotion-1 {
-  position: absolute;
-}
-
-.emotion-2 g {
-  -webkit-animation: animation-0 1s infinite;
-  animation: animation-0 1s infinite;
-}
-
-.emotion-2 g:nth-of-type(1) {
-  -webkit-animation-delay: -0.9166666666666666s;
-  animation-delay: -0.9166666666666666s;
-}
-
-.emotion-2 g:nth-of-type(2) {
-  -webkit-animation-delay: -0.8333333333333334s;
-  animation-delay: -0.8333333333333334s;
-}
-
-.emotion-2 g:nth-of-type(3) {
-  -webkit-animation-delay: -0.75s;
-  animation-delay: -0.75s;
-}
-
-.emotion-2 g:nth-of-type(4) {
-  -webkit-animation-delay: -0.6666666666666666s;
-  animation-delay: -0.6666666666666666s;
-}
-
-.emotion-2 g:nth-of-type(5) {
-  -webkit-animation-delay: -0.5833333333333334s;
-  animation-delay: -0.5833333333333334s;
-}
-
-.emotion-2 g:nth-of-type(6) {
-  -webkit-animation-delay: -0.5s;
-  animation-delay: -0.5s;
-}
-
-.emotion-2 g:nth-of-type(7) {
-  -webkit-animation-delay: -0.4166666666666667s;
-  animation-delay: -0.4166666666666667s;
-}
-
-.emotion-2 g:nth-of-type(8) {
-  -webkit-animation-delay: -0.3333333333333333s;
-  animation-delay: -0.3333333333333333s;
-}
-
-.emotion-2 g:nth-of-type(9) {
-  -webkit-animation-delay: -0.25s;
-  animation-delay: -0.25s;
-}
-
-.emotion-2 g:nth-of-type(10) {
-  -webkit-animation-delay: -0.16666666666666666s;
-  animation-delay: -0.16666666666666666s;
-}
-
-.emotion-2 g:nth-of-type(11) {
-  -webkit-animation-delay: -0.08333333333333333s;
-  animation-delay: -0.08333333333333333s;
-}
-
-.emotion-2 g:nth-of-type(12) {
-  -webkit-animation-delay: 0s;
-  animation-delay: 0s;
-}
-
-.emotion-3 {
-  -webkit-font-smoothing: antialiased;
-  color: #05192d;
-  font-family: Studio-Feixen-Sans,Arial,sans-serif;
-  font-style: normal;
-  font-size: 14px;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 60px;
-  color: transparent;
-  font-weight: bold;
-}
-
-<button
-  class="emotion-0"
-  disabled=""
-  type="button"
->
-  <svg
-    class="emotion-1"
-    height="16"
-    viewBox="0 0 54 54"
-    width="16"
-    xmlns="http://www.w3.org/2000/svg"
-  >
-    <title>
-      Spinner
-    </title>
-    <g
-      class="emotion-2"
-      fill="#ffffff"
+      fill="#FFFFFF"
       fill-rule="nonzero"
     >
       <g
@@ -6124,8 +3838,8 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
   vertical-align: baseline;
   white-space: nowrap;
   background-color: transparent;
-  border-color: #ff5400;
-  color: #ff5400;
+  border-color: #FF5400;
+  color: #FF5400;
   padding: 0 15px;
 }
 
@@ -6151,20 +3865,20 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
 
 .emotion-0:hover {
   background-color: rgba(255, 84, 0, 0.15);
-  border-color: #ff5400;
-  color: #ff5400;
+  border-color: #FF5400;
+  color: #FF5400;
 }
 
 .emotion-1 {
   -webkit-font-smoothing: antialiased;
-  color: #05192d;
+  color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
   font-size: 14px;
   font-weight: 400;
   font-size: 14px;
   line-height: 44px;
-  color: #ffffff;
+  color: #FFFFFF;
   font-weight: bold;
 }
 
@@ -6218,8 +3932,8 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
   vertical-align: baseline;
   white-space: nowrap;
   background-color: transparent;
-  border-color: #ff5400;
-  color: #ff5400;
+  border-color: #FF5400;
+  color: #FF5400;
   position: relative;
   padding: 0 15px;
 }
@@ -6328,7 +4042,7 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
 
 .emotion-3 {
   -webkit-font-smoothing: antialiased;
-  color: #05192d;
+  color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
   font-size: 14px;
@@ -6356,7 +4070,7 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
     </title>
     <g
       class="emotion-2"
-      fill="#ffffff"
+      fill="#FFFFFF"
       fill-rule="nonzero"
     >
       <g
@@ -6505,8 +4219,8 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
   vertical-align: baseline;
   white-space: nowrap;
   background-color: transparent;
-  border-color: #ff5400;
-  color: #ff5400;
+  border-color: #FF5400;
+  color: #FF5400;
   padding: 0 15px;
 }
 
@@ -6532,20 +4246,20 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
 
 .emotion-0:hover {
   background-color: rgba(255, 84, 0, 0.15);
-  border-color: #ff5400;
-  color: #ff5400;
+  border-color: #FF5400;
+  color: #FF5400;
 }
 
 .emotion-1 {
   -webkit-font-smoothing: antialiased;
-  color: #05192d;
+  color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
   font-size: 14px;
   font-weight: 400;
   font-size: 14px;
   line-height: 32px;
-  color: #ffffff;
+  color: #FFFFFF;
   font-weight: bold;
 }
 
@@ -6599,8 +4313,8 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
   vertical-align: baseline;
   white-space: nowrap;
   background-color: transparent;
-  border-color: #ff5400;
-  color: #ff5400;
+  border-color: #FF5400;
+  color: #FF5400;
   position: relative;
   padding: 0 15px;
 }
@@ -6709,7 +4423,7 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
 
 .emotion-3 {
   -webkit-font-smoothing: antialiased;
-  color: #05192d;
+  color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
   font-size: 14px;
@@ -6737,386 +4451,7 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
     </title>
     <g
       class="emotion-2"
-      fill="#ffffff"
-      fill-rule="nonzero"
-    >
-      <g
-        transform="translate(24)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(30 15 71.785)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(60 15 47.785)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(90 15 39)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(120 15 33.928)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(150 15 30.215)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(180 15 27)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(-150 15 23.785)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(-120 15 20.072)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(-90 15 15)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(-60 15 6.215)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(-30 15 -17.785)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-    </g>
-  </svg>
-  <span
-    class="emotion-3"
-  >
-    this is a button
-  </span>
-</button>
-`;
-
-exports[`<Button /> snapshots renders a button with appearance inverted, intent neutral, size large and loading false 1`] = `
-.emotion-0 {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  border: 0;
-  border-radius: 4px;
-  border-style: solid;
-  border-width: 2px;
-  cursor: pointer;
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  -webkit-justify-content: center;
-  justify-content: center;
-  position: relative;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  text-transform: capitalize;
-  -webkit-transition: 0.15s;
-  transition: 0.15s;
-  vertical-align: baseline;
-  white-space: nowrap;
-  background-color: transparent;
-  border-color: white;
-  color: white;
-  padding: 0 31px;
-}
-
-.emotion-0:active {
-  -webkit-transform: perspective(1px) scale(0.975);
-  -moz-transform: perspective(1px) scale(0.975);
-  -ms-transform: perspective(1px) scale(0.975);
-  transform: perspective(1px) scale(0.975);
-}
-
-.emotion-0:disabled,
-.emotion-0:hover:disabled,
-.emotion-0:active:disabled {
-  -webkit-transform: none;
-  -moz-transform: none;
-  -ms-transform: none;
-  transform: none;
-}
-
-.emotion-0:focus {
-  outline: 0;
-}
-
-.emotion-0:hover {
-  background-color: rgba(255, 255, 255, 0.15);
-}
-
-.emotion-1 {
-  -webkit-font-smoothing: antialiased;
-  color: #05192d;
-  font-family: Studio-Feixen-Sans,Arial,sans-serif;
-  font-style: normal;
-  font-size: 14px;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 60px;
-  color: #ffffff;
-  font-weight: bold;
-}
-
-<button
-  class="emotion-0"
-  type="button"
->
-  <span
-    class="emotion-1"
-  >
-    this is a button
-  </span>
-</button>
-`;
-
-exports[`<Button /> snapshots renders a button with appearance inverted, intent neutral, size large and loading true 1`] = `
-@keyframes animation-0 {
-  0% {
-    opacity: 0;
-  }
-
-  100% {
-    opacity: 1;
-  }
-}
-
-.emotion-0 {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  border: 0;
-  border-radius: 4px;
-  border-style: solid;
-  border-width: 2px;
-  cursor: pointer;
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  -webkit-justify-content: center;
-  justify-content: center;
-  position: relative;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  text-transform: capitalize;
-  -webkit-transition: 0.15s;
-  transition: 0.15s;
-  vertical-align: baseline;
-  white-space: nowrap;
-  background-color: transparent;
-  border-color: white;
-  color: white;
-  position: relative;
-  padding: 0 31px;
-}
-
-.emotion-0:active {
-  -webkit-transform: perspective(1px) scale(0.975);
-  -moz-transform: perspective(1px) scale(0.975);
-  -ms-transform: perspective(1px) scale(0.975);
-  transform: perspective(1px) scale(0.975);
-}
-
-.emotion-0:disabled,
-.emotion-0:hover:disabled,
-.emotion-0:active:disabled {
-  -webkit-transform: none;
-  -moz-transform: none;
-  -ms-transform: none;
-  transform: none;
-}
-
-.emotion-0:focus {
-  outline: 0;
-}
-
-.emotion-0:active {
-  -webkit-transform: none;
-  -moz-transform: none;
-  -ms-transform: none;
-  transform: none;
-}
-
-.emotion-0:focus,
-.emotion-0:hover:focus,
-.emotion-0:hover {
-  cursor: wait;
-}
-
-.emotion-1 {
-  position: absolute;
-}
-
-.emotion-2 g {
-  -webkit-animation: animation-0 1s infinite;
-  animation: animation-0 1s infinite;
-}
-
-.emotion-2 g:nth-of-type(1) {
-  -webkit-animation-delay: -0.9166666666666666s;
-  animation-delay: -0.9166666666666666s;
-}
-
-.emotion-2 g:nth-of-type(2) {
-  -webkit-animation-delay: -0.8333333333333334s;
-  animation-delay: -0.8333333333333334s;
-}
-
-.emotion-2 g:nth-of-type(3) {
-  -webkit-animation-delay: -0.75s;
-  animation-delay: -0.75s;
-}
-
-.emotion-2 g:nth-of-type(4) {
-  -webkit-animation-delay: -0.6666666666666666s;
-  animation-delay: -0.6666666666666666s;
-}
-
-.emotion-2 g:nth-of-type(5) {
-  -webkit-animation-delay: -0.5833333333333334s;
-  animation-delay: -0.5833333333333334s;
-}
-
-.emotion-2 g:nth-of-type(6) {
-  -webkit-animation-delay: -0.5s;
-  animation-delay: -0.5s;
-}
-
-.emotion-2 g:nth-of-type(7) {
-  -webkit-animation-delay: -0.4166666666666667s;
-  animation-delay: -0.4166666666666667s;
-}
-
-.emotion-2 g:nth-of-type(8) {
-  -webkit-animation-delay: -0.3333333333333333s;
-  animation-delay: -0.3333333333333333s;
-}
-
-.emotion-2 g:nth-of-type(9) {
-  -webkit-animation-delay: -0.25s;
-  animation-delay: -0.25s;
-}
-
-.emotion-2 g:nth-of-type(10) {
-  -webkit-animation-delay: -0.16666666666666666s;
-  animation-delay: -0.16666666666666666s;
-}
-
-.emotion-2 g:nth-of-type(11) {
-  -webkit-animation-delay: -0.08333333333333333s;
-  animation-delay: -0.08333333333333333s;
-}
-
-.emotion-2 g:nth-of-type(12) {
-  -webkit-animation-delay: 0s;
-  animation-delay: 0s;
-}
-
-.emotion-3 {
-  -webkit-font-smoothing: antialiased;
-  color: #05192d;
-  font-family: Studio-Feixen-Sans,Arial,sans-serif;
-  font-style: normal;
-  font-size: 14px;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 60px;
-  color: transparent;
-  font-weight: bold;
-}
-
-<button
-  class="emotion-0"
-  disabled=""
-  type="button"
->
-  <svg
-    class="emotion-1"
-    height="16"
-    viewBox="0 0 54 54"
-    width="16"
-    xmlns="http://www.w3.org/2000/svg"
-  >
-    <title>
-      Spinner
-    </title>
-    <g
-      class="emotion-2"
-      fill="#ffffff"
+      fill="#FFFFFF"
       fill-rule="nonzero"
     >
       <g
@@ -7296,14 +4631,14 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
 
 .emotion-1 {
   -webkit-font-smoothing: antialiased;
-  color: #05192d;
+  color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
   font-size: 14px;
   font-weight: 400;
   font-size: 14px;
   line-height: 44px;
-  color: #ffffff;
+  color: #FFFFFF;
   font-weight: bold;
 }
 
@@ -7467,7 +4802,7 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
 
 .emotion-3 {
   -webkit-font-smoothing: antialiased;
-  color: #05192d;
+  color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
   font-size: 14px;
@@ -7495,7 +4830,7 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
     </title>
     <g
       class="emotion-2"
-      fill="#ffffff"
+      fill="#FFFFFF"
       fill-rule="nonzero"
     >
       <g
@@ -7675,14 +5010,14 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
 
 .emotion-1 {
   -webkit-font-smoothing: antialiased;
-  color: #05192d;
+  color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
   font-size: 14px;
   font-weight: 400;
   font-size: 14px;
   line-height: 32px;
-  color: #ffffff;
+  color: #FFFFFF;
   font-weight: bold;
 }
 
@@ -7846,7 +5181,7 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
 
 .emotion-3 {
   -webkit-font-smoothing: antialiased;
-  color: #05192d;
+  color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
   font-size: 14px;
@@ -7874,388 +5209,7 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
     </title>
     <g
       class="emotion-2"
-      fill="#ffffff"
-      fill-rule="nonzero"
-    >
-      <g
-        transform="translate(24)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(30 15 71.785)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(60 15 47.785)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(90 15 39)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(120 15 33.928)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(150 15 30.215)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(180 15 27)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(-150 15 23.785)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(-120 15 20.072)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(-90 15 15)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(-60 15 6.215)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(-30 15 -17.785)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-    </g>
-  </svg>
-  <span
-    class="emotion-3"
-  >
-    this is a button
-  </span>
-</button>
-`;
-
-exports[`<Button /> snapshots renders a button with appearance inverted, intent success, size large and loading false 1`] = `
-.emotion-0 {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  border: 0;
-  border-radius: 4px;
-  border-style: solid;
-  border-width: 2px;
-  cursor: pointer;
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  -webkit-justify-content: center;
-  justify-content: center;
-  position: relative;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  text-transform: capitalize;
-  -webkit-transition: 0.15s;
-  transition: 0.15s;
-  vertical-align: baseline;
-  white-space: nowrap;
-  background-color: transparent;
-  border-color: #03ef62;
-  color: #03ef62;
-  padding: 0 31px;
-}
-
-.emotion-0:active {
-  -webkit-transform: perspective(1px) scale(0.975);
-  -moz-transform: perspective(1px) scale(0.975);
-  -ms-transform: perspective(1px) scale(0.975);
-  transform: perspective(1px) scale(0.975);
-}
-
-.emotion-0:disabled,
-.emotion-0:hover:disabled,
-.emotion-0:active:disabled {
-  -webkit-transform: none;
-  -moz-transform: none;
-  -ms-transform: none;
-  transform: none;
-}
-
-.emotion-0:focus {
-  outline: 0;
-}
-
-.emotion-0:hover {
-  background-color: rgba(3, 239, 98, 0.15);
-  border-color: #03ef62;
-  color: #03ef62;
-}
-
-.emotion-1 {
-  -webkit-font-smoothing: antialiased;
-  color: #05192d;
-  font-family: Studio-Feixen-Sans,Arial,sans-serif;
-  font-style: normal;
-  font-size: 14px;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 60px;
-  color: #ffffff;
-  font-weight: bold;
-}
-
-<button
-  class="emotion-0"
-  type="button"
->
-  <span
-    class="emotion-1"
-  >
-    this is a button
-  </span>
-</button>
-`;
-
-exports[`<Button /> snapshots renders a button with appearance inverted, intent success, size large and loading true 1`] = `
-@keyframes animation-0 {
-  0% {
-    opacity: 0;
-  }
-
-  100% {
-    opacity: 1;
-  }
-}
-
-.emotion-0 {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  border: 0;
-  border-radius: 4px;
-  border-style: solid;
-  border-width: 2px;
-  cursor: pointer;
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  -webkit-justify-content: center;
-  justify-content: center;
-  position: relative;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  text-transform: capitalize;
-  -webkit-transition: 0.15s;
-  transition: 0.15s;
-  vertical-align: baseline;
-  white-space: nowrap;
-  background-color: transparent;
-  border-color: #03ef62;
-  color: #03ef62;
-  position: relative;
-  padding: 0 31px;
-}
-
-.emotion-0:active {
-  -webkit-transform: perspective(1px) scale(0.975);
-  -moz-transform: perspective(1px) scale(0.975);
-  -ms-transform: perspective(1px) scale(0.975);
-  transform: perspective(1px) scale(0.975);
-}
-
-.emotion-0:disabled,
-.emotion-0:hover:disabled,
-.emotion-0:active:disabled {
-  -webkit-transform: none;
-  -moz-transform: none;
-  -ms-transform: none;
-  transform: none;
-}
-
-.emotion-0:focus {
-  outline: 0;
-}
-
-.emotion-0:active {
-  -webkit-transform: none;
-  -moz-transform: none;
-  -ms-transform: none;
-  transform: none;
-}
-
-.emotion-0:focus,
-.emotion-0:hover:focus,
-.emotion-0:hover {
-  cursor: wait;
-}
-
-.emotion-1 {
-  position: absolute;
-}
-
-.emotion-2 g {
-  -webkit-animation: animation-0 1s infinite;
-  animation: animation-0 1s infinite;
-}
-
-.emotion-2 g:nth-of-type(1) {
-  -webkit-animation-delay: -0.9166666666666666s;
-  animation-delay: -0.9166666666666666s;
-}
-
-.emotion-2 g:nth-of-type(2) {
-  -webkit-animation-delay: -0.8333333333333334s;
-  animation-delay: -0.8333333333333334s;
-}
-
-.emotion-2 g:nth-of-type(3) {
-  -webkit-animation-delay: -0.75s;
-  animation-delay: -0.75s;
-}
-
-.emotion-2 g:nth-of-type(4) {
-  -webkit-animation-delay: -0.6666666666666666s;
-  animation-delay: -0.6666666666666666s;
-}
-
-.emotion-2 g:nth-of-type(5) {
-  -webkit-animation-delay: -0.5833333333333334s;
-  animation-delay: -0.5833333333333334s;
-}
-
-.emotion-2 g:nth-of-type(6) {
-  -webkit-animation-delay: -0.5s;
-  animation-delay: -0.5s;
-}
-
-.emotion-2 g:nth-of-type(7) {
-  -webkit-animation-delay: -0.4166666666666667s;
-  animation-delay: -0.4166666666666667s;
-}
-
-.emotion-2 g:nth-of-type(8) {
-  -webkit-animation-delay: -0.3333333333333333s;
-  animation-delay: -0.3333333333333333s;
-}
-
-.emotion-2 g:nth-of-type(9) {
-  -webkit-animation-delay: -0.25s;
-  animation-delay: -0.25s;
-}
-
-.emotion-2 g:nth-of-type(10) {
-  -webkit-animation-delay: -0.16666666666666666s;
-  animation-delay: -0.16666666666666666s;
-}
-
-.emotion-2 g:nth-of-type(11) {
-  -webkit-animation-delay: -0.08333333333333333s;
-  animation-delay: -0.08333333333333333s;
-}
-
-.emotion-2 g:nth-of-type(12) {
-  -webkit-animation-delay: 0s;
-  animation-delay: 0s;
-}
-
-.emotion-3 {
-  -webkit-font-smoothing: antialiased;
-  color: #05192d;
-  font-family: Studio-Feixen-Sans,Arial,sans-serif;
-  font-style: normal;
-  font-size: 14px;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 60px;
-  color: transparent;
-  font-weight: bold;
-}
-
-<button
-  class="emotion-0"
-  disabled=""
-  type="button"
->
-  <svg
-    class="emotion-1"
-    height="16"
-    viewBox="0 0 54 54"
-    width="16"
-    xmlns="http://www.w3.org/2000/svg"
-  >
-    <title>
-      Spinner
-    </title>
-    <g
-      class="emotion-2"
-      fill="#ffffff"
+      fill="#FFFFFF"
       fill-rule="nonzero"
     >
       <g
@@ -8404,8 +5358,8 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
   vertical-align: baseline;
   white-space: nowrap;
   background-color: transparent;
-  border-color: #03ef62;
-  color: #03ef62;
+  border-color: #03EF62;
+  color: #03EF62;
   padding: 0 15px;
 }
 
@@ -8431,20 +5385,20 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
 
 .emotion-0:hover {
   background-color: rgba(3, 239, 98, 0.15);
-  border-color: #03ef62;
-  color: #03ef62;
+  border-color: #03EF62;
+  color: #03EF62;
 }
 
 .emotion-1 {
   -webkit-font-smoothing: antialiased;
-  color: #05192d;
+  color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
   font-size: 14px;
   font-weight: 400;
   font-size: 14px;
   line-height: 44px;
-  color: #ffffff;
+  color: #FFFFFF;
   font-weight: bold;
 }
 
@@ -8498,8 +5452,8 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
   vertical-align: baseline;
   white-space: nowrap;
   background-color: transparent;
-  border-color: #03ef62;
-  color: #03ef62;
+  border-color: #03EF62;
+  color: #03EF62;
   position: relative;
   padding: 0 15px;
 }
@@ -8608,7 +5562,7 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
 
 .emotion-3 {
   -webkit-font-smoothing: antialiased;
-  color: #05192d;
+  color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
   font-size: 14px;
@@ -8636,7 +5590,7 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
     </title>
     <g
       class="emotion-2"
-      fill="#ffffff"
+      fill="#FFFFFF"
       fill-rule="nonzero"
     >
       <g
@@ -8785,8 +5739,8 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
   vertical-align: baseline;
   white-space: nowrap;
   background-color: transparent;
-  border-color: #03ef62;
-  color: #03ef62;
+  border-color: #03EF62;
+  color: #03EF62;
   padding: 0 15px;
 }
 
@@ -8812,20 +5766,20 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
 
 .emotion-0:hover {
   background-color: rgba(3, 239, 98, 0.15);
-  border-color: #03ef62;
-  color: #03ef62;
+  border-color: #03EF62;
+  color: #03EF62;
 }
 
 .emotion-1 {
   -webkit-font-smoothing: antialiased;
-  color: #05192d;
+  color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
   font-size: 14px;
   font-weight: 400;
   font-size: 14px;
   line-height: 32px;
-  color: #ffffff;
+  color: #FFFFFF;
   font-weight: bold;
 }
 
@@ -8879,8 +5833,8 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
   vertical-align: baseline;
   white-space: nowrap;
   background-color: transparent;
-  border-color: #03ef62;
-  color: #03ef62;
+  border-color: #03EF62;
+  color: #03EF62;
   position: relative;
   padding: 0 15px;
 }
@@ -8989,7 +5943,7 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
 
 .emotion-3 {
   -webkit-font-smoothing: antialiased;
-  color: #05192d;
+  color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
   font-size: 14px;
@@ -9017,388 +5971,7 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
     </title>
     <g
       class="emotion-2"
-      fill="#ffffff"
-      fill-rule="nonzero"
-    >
-      <g
-        transform="translate(24)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(30 15 71.785)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(60 15 47.785)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(90 15 39)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(120 15 33.928)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(150 15 30.215)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(180 15 27)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(-150 15 23.785)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(-120 15 20.072)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(-90 15 15)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(-60 15 6.215)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(-30 15 -17.785)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-    </g>
-  </svg>
-  <span
-    class="emotion-3"
-  >
-    this is a button
-  </span>
-</button>
-`;
-
-exports[`<Button /> snapshots renders a button with appearance inverted, intent warning, size large and loading false 1`] = `
-.emotion-0 {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  border: 0;
-  border-radius: 4px;
-  border-style: solid;
-  border-width: 2px;
-  cursor: pointer;
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  -webkit-justify-content: center;
-  justify-content: center;
-  position: relative;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  text-transform: capitalize;
-  -webkit-transition: 0.15s;
-  transition: 0.15s;
-  vertical-align: baseline;
-  white-space: nowrap;
-  background-color: transparent;
-  border-color: #ff931e;
-  color: #ff931e;
-  padding: 0 31px;
-}
-
-.emotion-0:active {
-  -webkit-transform: perspective(1px) scale(0.975);
-  -moz-transform: perspective(1px) scale(0.975);
-  -ms-transform: perspective(1px) scale(0.975);
-  transform: perspective(1px) scale(0.975);
-}
-
-.emotion-0:disabled,
-.emotion-0:hover:disabled,
-.emotion-0:active:disabled {
-  -webkit-transform: none;
-  -moz-transform: none;
-  -ms-transform: none;
-  transform: none;
-}
-
-.emotion-0:focus {
-  outline: 0;
-}
-
-.emotion-0:hover {
-  background-color: rgba(255, 147, 30, 0.15);
-  border-color: #ff931e;
-  color: #ff931e;
-}
-
-.emotion-1 {
-  -webkit-font-smoothing: antialiased;
-  color: #05192d;
-  font-family: Studio-Feixen-Sans,Arial,sans-serif;
-  font-style: normal;
-  font-size: 14px;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 60px;
-  color: #ffffff;
-  font-weight: bold;
-}
-
-<button
-  class="emotion-0"
-  type="button"
->
-  <span
-    class="emotion-1"
-  >
-    this is a button
-  </span>
-</button>
-`;
-
-exports[`<Button /> snapshots renders a button with appearance inverted, intent warning, size large and loading true 1`] = `
-@keyframes animation-0 {
-  0% {
-    opacity: 0;
-  }
-
-  100% {
-    opacity: 1;
-  }
-}
-
-.emotion-0 {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  border: 0;
-  border-radius: 4px;
-  border-style: solid;
-  border-width: 2px;
-  cursor: pointer;
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  -webkit-justify-content: center;
-  justify-content: center;
-  position: relative;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  text-transform: capitalize;
-  -webkit-transition: 0.15s;
-  transition: 0.15s;
-  vertical-align: baseline;
-  white-space: nowrap;
-  background-color: transparent;
-  border-color: #ff931e;
-  color: #ff931e;
-  position: relative;
-  padding: 0 31px;
-}
-
-.emotion-0:active {
-  -webkit-transform: perspective(1px) scale(0.975);
-  -moz-transform: perspective(1px) scale(0.975);
-  -ms-transform: perspective(1px) scale(0.975);
-  transform: perspective(1px) scale(0.975);
-}
-
-.emotion-0:disabled,
-.emotion-0:hover:disabled,
-.emotion-0:active:disabled {
-  -webkit-transform: none;
-  -moz-transform: none;
-  -ms-transform: none;
-  transform: none;
-}
-
-.emotion-0:focus {
-  outline: 0;
-}
-
-.emotion-0:active {
-  -webkit-transform: none;
-  -moz-transform: none;
-  -ms-transform: none;
-  transform: none;
-}
-
-.emotion-0:focus,
-.emotion-0:hover:focus,
-.emotion-0:hover {
-  cursor: wait;
-}
-
-.emotion-1 {
-  position: absolute;
-}
-
-.emotion-2 g {
-  -webkit-animation: animation-0 1s infinite;
-  animation: animation-0 1s infinite;
-}
-
-.emotion-2 g:nth-of-type(1) {
-  -webkit-animation-delay: -0.9166666666666666s;
-  animation-delay: -0.9166666666666666s;
-}
-
-.emotion-2 g:nth-of-type(2) {
-  -webkit-animation-delay: -0.8333333333333334s;
-  animation-delay: -0.8333333333333334s;
-}
-
-.emotion-2 g:nth-of-type(3) {
-  -webkit-animation-delay: -0.75s;
-  animation-delay: -0.75s;
-}
-
-.emotion-2 g:nth-of-type(4) {
-  -webkit-animation-delay: -0.6666666666666666s;
-  animation-delay: -0.6666666666666666s;
-}
-
-.emotion-2 g:nth-of-type(5) {
-  -webkit-animation-delay: -0.5833333333333334s;
-  animation-delay: -0.5833333333333334s;
-}
-
-.emotion-2 g:nth-of-type(6) {
-  -webkit-animation-delay: -0.5s;
-  animation-delay: -0.5s;
-}
-
-.emotion-2 g:nth-of-type(7) {
-  -webkit-animation-delay: -0.4166666666666667s;
-  animation-delay: -0.4166666666666667s;
-}
-
-.emotion-2 g:nth-of-type(8) {
-  -webkit-animation-delay: -0.3333333333333333s;
-  animation-delay: -0.3333333333333333s;
-}
-
-.emotion-2 g:nth-of-type(9) {
-  -webkit-animation-delay: -0.25s;
-  animation-delay: -0.25s;
-}
-
-.emotion-2 g:nth-of-type(10) {
-  -webkit-animation-delay: -0.16666666666666666s;
-  animation-delay: -0.16666666666666666s;
-}
-
-.emotion-2 g:nth-of-type(11) {
-  -webkit-animation-delay: -0.08333333333333333s;
-  animation-delay: -0.08333333333333333s;
-}
-
-.emotion-2 g:nth-of-type(12) {
-  -webkit-animation-delay: 0s;
-  animation-delay: 0s;
-}
-
-.emotion-3 {
-  -webkit-font-smoothing: antialiased;
-  color: #05192d;
-  font-family: Studio-Feixen-Sans,Arial,sans-serif;
-  font-style: normal;
-  font-size: 14px;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 60px;
-  color: transparent;
-  font-weight: bold;
-}
-
-<button
-  class="emotion-0"
-  disabled=""
-  type="button"
->
-  <svg
-    class="emotion-1"
-    height="16"
-    viewBox="0 0 54 54"
-    width="16"
-    xmlns="http://www.w3.org/2000/svg"
-  >
-    <title>
-      Spinner
-    </title>
-    <g
-      class="emotion-2"
-      fill="#ffffff"
+      fill="#FFFFFF"
       fill-rule="nonzero"
     >
       <g
@@ -9547,8 +6120,8 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
   vertical-align: baseline;
   white-space: nowrap;
   background-color: transparent;
-  border-color: #ff931e;
-  color: #ff931e;
+  border-color: #FF931E;
+  color: #FF931E;
   padding: 0 15px;
 }
 
@@ -9574,20 +6147,20 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
 
 .emotion-0:hover {
   background-color: rgba(255, 147, 30, 0.15);
-  border-color: #ff931e;
-  color: #ff931e;
+  border-color: #FF931E;
+  color: #FF931E;
 }
 
 .emotion-1 {
   -webkit-font-smoothing: antialiased;
-  color: #05192d;
+  color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
   font-size: 14px;
   font-weight: 400;
   font-size: 14px;
   line-height: 44px;
-  color: #ffffff;
+  color: #FFFFFF;
   font-weight: bold;
 }
 
@@ -9641,8 +6214,8 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
   vertical-align: baseline;
   white-space: nowrap;
   background-color: transparent;
-  border-color: #ff931e;
-  color: #ff931e;
+  border-color: #FF931E;
+  color: #FF931E;
   position: relative;
   padding: 0 15px;
 }
@@ -9751,7 +6324,7 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
 
 .emotion-3 {
   -webkit-font-smoothing: antialiased;
-  color: #05192d;
+  color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
   font-size: 14px;
@@ -9779,7 +6352,7 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
     </title>
     <g
       class="emotion-2"
-      fill="#ffffff"
+      fill="#FFFFFF"
       fill-rule="nonzero"
     >
       <g
@@ -9928,8 +6501,8 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
   vertical-align: baseline;
   white-space: nowrap;
   background-color: transparent;
-  border-color: #ff931e;
-  color: #ff931e;
+  border-color: #FF931E;
+  color: #FF931E;
   padding: 0 15px;
 }
 
@@ -9955,20 +6528,20 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
 
 .emotion-0:hover {
   background-color: rgba(255, 147, 30, 0.15);
-  border-color: #ff931e;
-  color: #ff931e;
+  border-color: #FF931E;
+  color: #FF931E;
 }
 
 .emotion-1 {
   -webkit-font-smoothing: antialiased;
-  color: #05192d;
+  color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
   font-size: 14px;
   font-weight: 400;
   font-size: 14px;
   line-height: 32px;
-  color: #ffffff;
+  color: #FFFFFF;
   font-weight: bold;
 }
 
@@ -10022,8 +6595,8 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
   vertical-align: baseline;
   white-space: nowrap;
   background-color: transparent;
-  border-color: #ff931e;
-  color: #ff931e;
+  border-color: #FF931E;
+  color: #FF931E;
   position: relative;
   padding: 0 15px;
 }
@@ -10132,7 +6705,7 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
 
 .emotion-3 {
   -webkit-font-smoothing: antialiased;
-  color: #05192d;
+  color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
   font-size: 14px;
@@ -10160,395 +6733,7 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
     </title>
     <g
       class="emotion-2"
-      fill="#ffffff"
-      fill-rule="nonzero"
-    >
-      <g
-        transform="translate(24)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(30 15 71.785)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(60 15 47.785)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(90 15 39)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(120 15 33.928)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(150 15 30.215)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(180 15 27)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(-150 15 23.785)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(-120 15 20.072)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(-90 15 15)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(-60 15 6.215)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(-30 15 -17.785)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-    </g>
-  </svg>
-  <span
-    class="emotion-3"
-  >
-    this is a button
-  </span>
-</button>
-`;
-
-exports[`<Button /> snapshots renders a button with appearance primary, intent b2b, size large and loading false 1`] = `
-.emotion-0 {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  border: 0;
-  border-radius: 4px;
-  border-style: solid;
-  border-width: 2px;
-  cursor: pointer;
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  -webkit-justify-content: center;
-  justify-content: center;
-  position: relative;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  text-transform: capitalize;
-  -webkit-transition: 0.15s;
-  transition: 0.15s;
-  vertical-align: baseline;
-  white-space: nowrap;
-  background-color: transparent;
-  border-color: #fcce0d;
-  color: #fcce0d;
-  background-color: #fcce0d;
-  padding: 0 31px;
-}
-
-.emotion-0:active {
-  -webkit-transform: perspective(1px) scale(0.975);
-  -moz-transform: perspective(1px) scale(0.975);
-  -ms-transform: perspective(1px) scale(0.975);
-  transform: perspective(1px) scale(0.975);
-}
-
-.emotion-0:disabled,
-.emotion-0:hover:disabled,
-.emotion-0:active:disabled {
-  -webkit-transform: none;
-  -moz-transform: none;
-  -ms-transform: none;
-  transform: none;
-}
-
-.emotion-0:focus {
-  outline: 0;
-}
-
-.emotion-0:hover {
-  background-color: rgba(252, 206, 13, 0.15);
-  border-color: #fcce0d;
-  color: #fcce0d;
-}
-
-.emotion-0:hover {
-  background-color: #ffec3c;
-  border-color: #ffec3c;
-}
-
-.emotion-1 {
-  -webkit-font-smoothing: antialiased;
-  color: #05192d;
-  font-family: Studio-Feixen-Sans,Arial,sans-serif;
-  font-style: normal;
-  font-size: 14px;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 60px;
-  color: #05192d;
-  font-weight: bold;
-}
-
-<button
-  class="emotion-0"
-  type="button"
->
-  <span
-    class="emotion-1"
-  >
-    this is a button
-  </span>
-</button>
-`;
-
-exports[`<Button /> snapshots renders a button with appearance primary, intent b2b, size large and loading true 1`] = `
-@keyframes animation-0 {
-  0% {
-    opacity: 0;
-  }
-
-  100% {
-    opacity: 1;
-  }
-}
-
-.emotion-0 {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  border: 0;
-  border-radius: 4px;
-  border-style: solid;
-  border-width: 2px;
-  cursor: pointer;
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  -webkit-justify-content: center;
-  justify-content: center;
-  position: relative;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  text-transform: capitalize;
-  -webkit-transition: 0.15s;
-  transition: 0.15s;
-  vertical-align: baseline;
-  white-space: nowrap;
-  background-color: transparent;
-  border-color: #fcce0d;
-  color: #fcce0d;
-  background-color: #fcce0d;
-  position: relative;
-  padding: 0 31px;
-}
-
-.emotion-0:active {
-  -webkit-transform: perspective(1px) scale(0.975);
-  -moz-transform: perspective(1px) scale(0.975);
-  -ms-transform: perspective(1px) scale(0.975);
-  transform: perspective(1px) scale(0.975);
-}
-
-.emotion-0:disabled,
-.emotion-0:hover:disabled,
-.emotion-0:active:disabled {
-  -webkit-transform: none;
-  -moz-transform: none;
-  -ms-transform: none;
-  transform: none;
-}
-
-.emotion-0:focus {
-  outline: 0;
-}
-
-.emotion-0:active {
-  -webkit-transform: none;
-  -moz-transform: none;
-  -ms-transform: none;
-  transform: none;
-}
-
-.emotion-0:focus,
-.emotion-0:hover:focus,
-.emotion-0:hover {
-  cursor: wait;
-}
-
-.emotion-1 {
-  position: absolute;
-}
-
-.emotion-2 g {
-  -webkit-animation: animation-0 1s infinite;
-  animation: animation-0 1s infinite;
-}
-
-.emotion-2 g:nth-of-type(1) {
-  -webkit-animation-delay: -0.9166666666666666s;
-  animation-delay: -0.9166666666666666s;
-}
-
-.emotion-2 g:nth-of-type(2) {
-  -webkit-animation-delay: -0.8333333333333334s;
-  animation-delay: -0.8333333333333334s;
-}
-
-.emotion-2 g:nth-of-type(3) {
-  -webkit-animation-delay: -0.75s;
-  animation-delay: -0.75s;
-}
-
-.emotion-2 g:nth-of-type(4) {
-  -webkit-animation-delay: -0.6666666666666666s;
-  animation-delay: -0.6666666666666666s;
-}
-
-.emotion-2 g:nth-of-type(5) {
-  -webkit-animation-delay: -0.5833333333333334s;
-  animation-delay: -0.5833333333333334s;
-}
-
-.emotion-2 g:nth-of-type(6) {
-  -webkit-animation-delay: -0.5s;
-  animation-delay: -0.5s;
-}
-
-.emotion-2 g:nth-of-type(7) {
-  -webkit-animation-delay: -0.4166666666666667s;
-  animation-delay: -0.4166666666666667s;
-}
-
-.emotion-2 g:nth-of-type(8) {
-  -webkit-animation-delay: -0.3333333333333333s;
-  animation-delay: -0.3333333333333333s;
-}
-
-.emotion-2 g:nth-of-type(9) {
-  -webkit-animation-delay: -0.25s;
-  animation-delay: -0.25s;
-}
-
-.emotion-2 g:nth-of-type(10) {
-  -webkit-animation-delay: -0.16666666666666666s;
-  animation-delay: -0.16666666666666666s;
-}
-
-.emotion-2 g:nth-of-type(11) {
-  -webkit-animation-delay: -0.08333333333333333s;
-  animation-delay: -0.08333333333333333s;
-}
-
-.emotion-2 g:nth-of-type(12) {
-  -webkit-animation-delay: 0s;
-  animation-delay: 0s;
-}
-
-.emotion-3 {
-  -webkit-font-smoothing: antialiased;
-  color: #05192d;
-  font-family: Studio-Feixen-Sans,Arial,sans-serif;
-  font-style: normal;
-  font-size: 14px;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 60px;
-  color: transparent;
-  font-weight: bold;
-}
-
-<button
-  class="emotion-0"
-  disabled=""
-  type="button"
->
-  <svg
-    class="emotion-1"
-    height="16"
-    viewBox="0 0 54 54"
-    width="16"
-    xmlns="http://www.w3.org/2000/svg"
-  >
-    <title>
-      Spinner
-    </title>
-    <g
-      class="emotion-2"
-      fill="#05192d"
+      fill="#FFFFFF"
       fill-rule="nonzero"
     >
       <g
@@ -10697,9 +6882,9 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent b
   vertical-align: baseline;
   white-space: nowrap;
   background-color: transparent;
-  border-color: #fcce0d;
-  color: #fcce0d;
-  background-color: #fcce0d;
+  border-color: #FCCE0D;
+  color: #FCCE0D;
+  background-color: #FCCE0D;
   padding: 0 15px;
 }
 
@@ -10725,25 +6910,25 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent b
 
 .emotion-0:hover {
   background-color: rgba(252, 206, 13, 0.15);
-  border-color: #fcce0d;
-  color: #fcce0d;
+  border-color: #FCCE0D;
+  color: #FCCE0D;
 }
 
 .emotion-0:hover {
-  background-color: #ffec3c;
-  border-color: #ffec3c;
+  background-color: #FFEC3C;
+  border-color: #FFEC3C;
 }
 
 .emotion-1 {
   -webkit-font-smoothing: antialiased;
-  color: #05192d;
+  color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
   font-size: 14px;
   font-weight: 400;
   font-size: 14px;
   line-height: 44px;
-  color: #05192d;
+  color: #05192D;
   font-weight: bold;
 }
 
@@ -10797,9 +6982,9 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent b
   vertical-align: baseline;
   white-space: nowrap;
   background-color: transparent;
-  border-color: #fcce0d;
-  color: #fcce0d;
-  background-color: #fcce0d;
+  border-color: #FCCE0D;
+  color: #FCCE0D;
+  background-color: #FCCE0D;
   position: relative;
   padding: 0 15px;
 }
@@ -10908,7 +7093,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent b
 
 .emotion-3 {
   -webkit-font-smoothing: antialiased;
-  color: #05192d;
+  color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
   font-size: 14px;
@@ -10936,7 +7121,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent b
     </title>
     <g
       class="emotion-2"
-      fill="#05192d"
+      fill="#05192D"
       fill-rule="nonzero"
     >
       <g
@@ -11085,9 +7270,9 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent b
   vertical-align: baseline;
   white-space: nowrap;
   background-color: transparent;
-  border-color: #fcce0d;
-  color: #fcce0d;
-  background-color: #fcce0d;
+  border-color: #FCCE0D;
+  color: #FCCE0D;
+  background-color: #FCCE0D;
   padding: 0 15px;
 }
 
@@ -11113,25 +7298,25 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent b
 
 .emotion-0:hover {
   background-color: rgba(252, 206, 13, 0.15);
-  border-color: #fcce0d;
-  color: #fcce0d;
+  border-color: #FCCE0D;
+  color: #FCCE0D;
 }
 
 .emotion-0:hover {
-  background-color: #ffec3c;
-  border-color: #ffec3c;
+  background-color: #FFEC3C;
+  border-color: #FFEC3C;
 }
 
 .emotion-1 {
   -webkit-font-smoothing: antialiased;
-  color: #05192d;
+  color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
   font-size: 14px;
   font-weight: 400;
   font-size: 14px;
   line-height: 32px;
-  color: #05192d;
+  color: #05192D;
   font-weight: bold;
 }
 
@@ -11185,9 +7370,9 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent b
   vertical-align: baseline;
   white-space: nowrap;
   background-color: transparent;
-  border-color: #fcce0d;
-  color: #fcce0d;
-  background-color: #fcce0d;
+  border-color: #FCCE0D;
+  color: #FCCE0D;
+  background-color: #FCCE0D;
   position: relative;
   padding: 0 15px;
 }
@@ -11296,7 +7481,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent b
 
 .emotion-3 {
   -webkit-font-smoothing: antialiased;
-  color: #05192d;
+  color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
   font-size: 14px;
@@ -11324,395 +7509,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent b
     </title>
     <g
       class="emotion-2"
-      fill="#05192d"
-      fill-rule="nonzero"
-    >
-      <g
-        transform="translate(24)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(30 15 71.785)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(60 15 47.785)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(90 15 39)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(120 15 33.928)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(150 15 30.215)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(180 15 27)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(-150 15 23.785)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(-120 15 20.072)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(-90 15 15)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(-60 15 6.215)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(-30 15 -17.785)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-    </g>
-  </svg>
-  <span
-    class="emotion-3"
-  >
-    this is a button
-  </span>
-</button>
-`;
-
-exports[`<Button /> snapshots renders a button with appearance primary, intent danger, size large and loading false 1`] = `
-.emotion-0 {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  border: 0;
-  border-radius: 4px;
-  border-style: solid;
-  border-width: 2px;
-  cursor: pointer;
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  -webkit-justify-content: center;
-  justify-content: center;
-  position: relative;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  text-transform: capitalize;
-  -webkit-transition: 0.15s;
-  transition: 0.15s;
-  vertical-align: baseline;
-  white-space: nowrap;
-  background-color: transparent;
-  border-color: #ff5400;
-  color: #ff5400;
-  background-color: #ff5400;
-  padding: 0 31px;
-}
-
-.emotion-0:active {
-  -webkit-transform: perspective(1px) scale(0.975);
-  -moz-transform: perspective(1px) scale(0.975);
-  -ms-transform: perspective(1px) scale(0.975);
-  transform: perspective(1px) scale(0.975);
-}
-
-.emotion-0:disabled,
-.emotion-0:hover:disabled,
-.emotion-0:active:disabled {
-  -webkit-transform: none;
-  -moz-transform: none;
-  -ms-transform: none;
-  transform: none;
-}
-
-.emotion-0:focus {
-  outline: 0;
-}
-
-.emotion-0:hover {
-  background-color: rgba(255, 84, 0, 0.15);
-  border-color: #ff5400;
-  color: #ff5400;
-}
-
-.emotion-0:hover {
-  background-color: #ff782d;
-  border-color: #ff782d;
-}
-
-.emotion-1 {
-  -webkit-font-smoothing: antialiased;
-  color: #05192d;
-  font-family: Studio-Feixen-Sans,Arial,sans-serif;
-  font-style: normal;
-  font-size: 14px;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 60px;
-  color: #05192d;
-  font-weight: bold;
-}
-
-<button
-  class="emotion-0"
-  type="button"
->
-  <span
-    class="emotion-1"
-  >
-    this is a button
-  </span>
-</button>
-`;
-
-exports[`<Button /> snapshots renders a button with appearance primary, intent danger, size large and loading true 1`] = `
-@keyframes animation-0 {
-  0% {
-    opacity: 0;
-  }
-
-  100% {
-    opacity: 1;
-  }
-}
-
-.emotion-0 {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  border: 0;
-  border-radius: 4px;
-  border-style: solid;
-  border-width: 2px;
-  cursor: pointer;
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  -webkit-justify-content: center;
-  justify-content: center;
-  position: relative;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  text-transform: capitalize;
-  -webkit-transition: 0.15s;
-  transition: 0.15s;
-  vertical-align: baseline;
-  white-space: nowrap;
-  background-color: transparent;
-  border-color: #ff5400;
-  color: #ff5400;
-  background-color: #ff5400;
-  position: relative;
-  padding: 0 31px;
-}
-
-.emotion-0:active {
-  -webkit-transform: perspective(1px) scale(0.975);
-  -moz-transform: perspective(1px) scale(0.975);
-  -ms-transform: perspective(1px) scale(0.975);
-  transform: perspective(1px) scale(0.975);
-}
-
-.emotion-0:disabled,
-.emotion-0:hover:disabled,
-.emotion-0:active:disabled {
-  -webkit-transform: none;
-  -moz-transform: none;
-  -ms-transform: none;
-  transform: none;
-}
-
-.emotion-0:focus {
-  outline: 0;
-}
-
-.emotion-0:active {
-  -webkit-transform: none;
-  -moz-transform: none;
-  -ms-transform: none;
-  transform: none;
-}
-
-.emotion-0:focus,
-.emotion-0:hover:focus,
-.emotion-0:hover {
-  cursor: wait;
-}
-
-.emotion-1 {
-  position: absolute;
-}
-
-.emotion-2 g {
-  -webkit-animation: animation-0 1s infinite;
-  animation: animation-0 1s infinite;
-}
-
-.emotion-2 g:nth-of-type(1) {
-  -webkit-animation-delay: -0.9166666666666666s;
-  animation-delay: -0.9166666666666666s;
-}
-
-.emotion-2 g:nth-of-type(2) {
-  -webkit-animation-delay: -0.8333333333333334s;
-  animation-delay: -0.8333333333333334s;
-}
-
-.emotion-2 g:nth-of-type(3) {
-  -webkit-animation-delay: -0.75s;
-  animation-delay: -0.75s;
-}
-
-.emotion-2 g:nth-of-type(4) {
-  -webkit-animation-delay: -0.6666666666666666s;
-  animation-delay: -0.6666666666666666s;
-}
-
-.emotion-2 g:nth-of-type(5) {
-  -webkit-animation-delay: -0.5833333333333334s;
-  animation-delay: -0.5833333333333334s;
-}
-
-.emotion-2 g:nth-of-type(6) {
-  -webkit-animation-delay: -0.5s;
-  animation-delay: -0.5s;
-}
-
-.emotion-2 g:nth-of-type(7) {
-  -webkit-animation-delay: -0.4166666666666667s;
-  animation-delay: -0.4166666666666667s;
-}
-
-.emotion-2 g:nth-of-type(8) {
-  -webkit-animation-delay: -0.3333333333333333s;
-  animation-delay: -0.3333333333333333s;
-}
-
-.emotion-2 g:nth-of-type(9) {
-  -webkit-animation-delay: -0.25s;
-  animation-delay: -0.25s;
-}
-
-.emotion-2 g:nth-of-type(10) {
-  -webkit-animation-delay: -0.16666666666666666s;
-  animation-delay: -0.16666666666666666s;
-}
-
-.emotion-2 g:nth-of-type(11) {
-  -webkit-animation-delay: -0.08333333333333333s;
-  animation-delay: -0.08333333333333333s;
-}
-
-.emotion-2 g:nth-of-type(12) {
-  -webkit-animation-delay: 0s;
-  animation-delay: 0s;
-}
-
-.emotion-3 {
-  -webkit-font-smoothing: antialiased;
-  color: #05192d;
-  font-family: Studio-Feixen-Sans,Arial,sans-serif;
-  font-style: normal;
-  font-size: 14px;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 60px;
-  color: transparent;
-  font-weight: bold;
-}
-
-<button
-  class="emotion-0"
-  disabled=""
-  type="button"
->
-  <svg
-    class="emotion-1"
-    height="16"
-    viewBox="0 0 54 54"
-    width="16"
-    xmlns="http://www.w3.org/2000/svg"
-  >
-    <title>
-      Spinner
-    </title>
-    <g
-      class="emotion-2"
-      fill="#05192d"
+      fill="#05192D"
       fill-rule="nonzero"
     >
       <g
@@ -11861,9 +7658,9 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent d
   vertical-align: baseline;
   white-space: nowrap;
   background-color: transparent;
-  border-color: #ff5400;
-  color: #ff5400;
-  background-color: #ff5400;
+  border-color: #FF5400;
+  color: #FF5400;
+  background-color: #FF5400;
   padding: 0 15px;
 }
 
@@ -11889,25 +7686,25 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent d
 
 .emotion-0:hover {
   background-color: rgba(255, 84, 0, 0.15);
-  border-color: #ff5400;
-  color: #ff5400;
+  border-color: #FF5400;
+  color: #FF5400;
 }
 
 .emotion-0:hover {
-  background-color: #ff782d;
-  border-color: #ff782d;
+  background-color: #FF782D;
+  border-color: #FF782D;
 }
 
 .emotion-1 {
   -webkit-font-smoothing: antialiased;
-  color: #05192d;
+  color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
   font-size: 14px;
   font-weight: 400;
   font-size: 14px;
   line-height: 44px;
-  color: #05192d;
+  color: #05192D;
   font-weight: bold;
 }
 
@@ -11961,9 +7758,9 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent d
   vertical-align: baseline;
   white-space: nowrap;
   background-color: transparent;
-  border-color: #ff5400;
-  color: #ff5400;
-  background-color: #ff5400;
+  border-color: #FF5400;
+  color: #FF5400;
+  background-color: #FF5400;
   position: relative;
   padding: 0 15px;
 }
@@ -12072,7 +7869,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent d
 
 .emotion-3 {
   -webkit-font-smoothing: antialiased;
-  color: #05192d;
+  color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
   font-size: 14px;
@@ -12100,7 +7897,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent d
     </title>
     <g
       class="emotion-2"
-      fill="#05192d"
+      fill="#05192D"
       fill-rule="nonzero"
     >
       <g
@@ -12249,9 +8046,9 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent d
   vertical-align: baseline;
   white-space: nowrap;
   background-color: transparent;
-  border-color: #ff5400;
-  color: #ff5400;
-  background-color: #ff5400;
+  border-color: #FF5400;
+  color: #FF5400;
+  background-color: #FF5400;
   padding: 0 15px;
 }
 
@@ -12277,25 +8074,25 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent d
 
 .emotion-0:hover {
   background-color: rgba(255, 84, 0, 0.15);
-  border-color: #ff5400;
-  color: #ff5400;
+  border-color: #FF5400;
+  color: #FF5400;
 }
 
 .emotion-0:hover {
-  background-color: #ff782d;
-  border-color: #ff782d;
+  background-color: #FF782D;
+  border-color: #FF782D;
 }
 
 .emotion-1 {
   -webkit-font-smoothing: antialiased;
-  color: #05192d;
+  color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
   font-size: 14px;
   font-weight: 400;
   font-size: 14px;
   line-height: 32px;
-  color: #05192d;
+  color: #05192D;
   font-weight: bold;
 }
 
@@ -12349,9 +8146,9 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent d
   vertical-align: baseline;
   white-space: nowrap;
   background-color: transparent;
-  border-color: #ff5400;
-  color: #ff5400;
-  background-color: #ff5400;
+  border-color: #FF5400;
+  color: #FF5400;
+  background-color: #FF5400;
   position: relative;
   padding: 0 15px;
 }
@@ -12460,7 +8257,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent d
 
 .emotion-3 {
   -webkit-font-smoothing: antialiased;
-  color: #05192d;
+  color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
   font-size: 14px;
@@ -12488,395 +8285,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent d
     </title>
     <g
       class="emotion-2"
-      fill="#05192d"
-      fill-rule="nonzero"
-    >
-      <g
-        transform="translate(24)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(30 15 71.785)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(60 15 47.785)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(90 15 39)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(120 15 33.928)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(150 15 30.215)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(180 15 27)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(-150 15 23.785)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(-120 15 20.072)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(-90 15 15)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(-60 15 6.215)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(-30 15 -17.785)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-    </g>
-  </svg>
-  <span
-    class="emotion-3"
-  >
-    this is a button
-  </span>
-</button>
-`;
-
-exports[`<Button /> snapshots renders a button with appearance primary, intent neutral, size large and loading false 1`] = `
-.emotion-0 {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  border: 0;
-  border-radius: 4px;
-  border-style: solid;
-  border-width: 2px;
-  cursor: pointer;
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  -webkit-justify-content: center;
-  justify-content: center;
-  position: relative;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  text-transform: capitalize;
-  -webkit-transition: 0.15s;
-  transition: 0.15s;
-  vertical-align: baseline;
-  white-space: nowrap;
-  background-color: transparent;
-  border-color: #05192d;
-  color: #05192d;
-  background-color: #05192d;
-  padding: 0 31px;
-}
-
-.emotion-0:active {
-  -webkit-transform: perspective(1px) scale(0.975);
-  -moz-transform: perspective(1px) scale(0.975);
-  -ms-transform: perspective(1px) scale(0.975);
-  transform: perspective(1px) scale(0.975);
-}
-
-.emotion-0:disabled,
-.emotion-0:hover:disabled,
-.emotion-0:active:disabled {
-  -webkit-transform: none;
-  -moz-transform: none;
-  -ms-transform: none;
-  transform: none;
-}
-
-.emotion-0:focus {
-  outline: 0;
-}
-
-.emotion-0:hover {
-  background-color: rgba(5, 25, 45, 0.15);
-  border-color: #05192d;
-  color: #05192d;
-}
-
-.emotion-0:hover {
-  background-color: #213147;
-  border-color: #213147;
-}
-
-.emotion-1 {
-  -webkit-font-smoothing: antialiased;
-  color: #05192d;
-  font-family: Studio-Feixen-Sans,Arial,sans-serif;
-  font-style: normal;
-  font-size: 14px;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 60px;
-  color: #ffffff;
-  font-weight: bold;
-}
-
-<button
-  class="emotion-0"
-  type="button"
->
-  <span
-    class="emotion-1"
-  >
-    this is a button
-  </span>
-</button>
-`;
-
-exports[`<Button /> snapshots renders a button with appearance primary, intent neutral, size large and loading true 1`] = `
-@keyframes animation-0 {
-  0% {
-    opacity: 0;
-  }
-
-  100% {
-    opacity: 1;
-  }
-}
-
-.emotion-0 {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  border: 0;
-  border-radius: 4px;
-  border-style: solid;
-  border-width: 2px;
-  cursor: pointer;
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  -webkit-justify-content: center;
-  justify-content: center;
-  position: relative;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  text-transform: capitalize;
-  -webkit-transition: 0.15s;
-  transition: 0.15s;
-  vertical-align: baseline;
-  white-space: nowrap;
-  background-color: transparent;
-  border-color: #05192d;
-  color: #05192d;
-  background-color: #05192d;
-  position: relative;
-  padding: 0 31px;
-}
-
-.emotion-0:active {
-  -webkit-transform: perspective(1px) scale(0.975);
-  -moz-transform: perspective(1px) scale(0.975);
-  -ms-transform: perspective(1px) scale(0.975);
-  transform: perspective(1px) scale(0.975);
-}
-
-.emotion-0:disabled,
-.emotion-0:hover:disabled,
-.emotion-0:active:disabled {
-  -webkit-transform: none;
-  -moz-transform: none;
-  -ms-transform: none;
-  transform: none;
-}
-
-.emotion-0:focus {
-  outline: 0;
-}
-
-.emotion-0:active {
-  -webkit-transform: none;
-  -moz-transform: none;
-  -ms-transform: none;
-  transform: none;
-}
-
-.emotion-0:focus,
-.emotion-0:hover:focus,
-.emotion-0:hover {
-  cursor: wait;
-}
-
-.emotion-1 {
-  position: absolute;
-}
-
-.emotion-2 g {
-  -webkit-animation: animation-0 1s infinite;
-  animation: animation-0 1s infinite;
-}
-
-.emotion-2 g:nth-of-type(1) {
-  -webkit-animation-delay: -0.9166666666666666s;
-  animation-delay: -0.9166666666666666s;
-}
-
-.emotion-2 g:nth-of-type(2) {
-  -webkit-animation-delay: -0.8333333333333334s;
-  animation-delay: -0.8333333333333334s;
-}
-
-.emotion-2 g:nth-of-type(3) {
-  -webkit-animation-delay: -0.75s;
-  animation-delay: -0.75s;
-}
-
-.emotion-2 g:nth-of-type(4) {
-  -webkit-animation-delay: -0.6666666666666666s;
-  animation-delay: -0.6666666666666666s;
-}
-
-.emotion-2 g:nth-of-type(5) {
-  -webkit-animation-delay: -0.5833333333333334s;
-  animation-delay: -0.5833333333333334s;
-}
-
-.emotion-2 g:nth-of-type(6) {
-  -webkit-animation-delay: -0.5s;
-  animation-delay: -0.5s;
-}
-
-.emotion-2 g:nth-of-type(7) {
-  -webkit-animation-delay: -0.4166666666666667s;
-  animation-delay: -0.4166666666666667s;
-}
-
-.emotion-2 g:nth-of-type(8) {
-  -webkit-animation-delay: -0.3333333333333333s;
-  animation-delay: -0.3333333333333333s;
-}
-
-.emotion-2 g:nth-of-type(9) {
-  -webkit-animation-delay: -0.25s;
-  animation-delay: -0.25s;
-}
-
-.emotion-2 g:nth-of-type(10) {
-  -webkit-animation-delay: -0.16666666666666666s;
-  animation-delay: -0.16666666666666666s;
-}
-
-.emotion-2 g:nth-of-type(11) {
-  -webkit-animation-delay: -0.08333333333333333s;
-  animation-delay: -0.08333333333333333s;
-}
-
-.emotion-2 g:nth-of-type(12) {
-  -webkit-animation-delay: 0s;
-  animation-delay: 0s;
-}
-
-.emotion-3 {
-  -webkit-font-smoothing: antialiased;
-  color: #05192d;
-  font-family: Studio-Feixen-Sans,Arial,sans-serif;
-  font-style: normal;
-  font-size: 14px;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 60px;
-  color: transparent;
-  font-weight: bold;
-}
-
-<button
-  class="emotion-0"
-  disabled=""
-  type="button"
->
-  <svg
-    class="emotion-1"
-    height="16"
-    viewBox="0 0 54 54"
-    width="16"
-    xmlns="http://www.w3.org/2000/svg"
-  >
-    <title>
-      Spinner
-    </title>
-    <g
-      class="emotion-2"
-      fill="#ffffff"
+      fill="#05192D"
       fill-rule="nonzero"
     >
       <g
@@ -13025,9 +8434,9 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent n
   vertical-align: baseline;
   white-space: nowrap;
   background-color: transparent;
-  border-color: #05192d;
-  color: #05192d;
-  background-color: #05192d;
+  border-color: #05192D;
+  color: #05192D;
+  background-color: #05192D;
   padding: 0 15px;
 }
 
@@ -13053,8 +8462,8 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent n
 
 .emotion-0:hover {
   background-color: rgba(5, 25, 45, 0.15);
-  border-color: #05192d;
-  color: #05192d;
+  border-color: #05192D;
+  color: #05192D;
 }
 
 .emotion-0:hover {
@@ -13064,14 +8473,14 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent n
 
 .emotion-1 {
   -webkit-font-smoothing: antialiased;
-  color: #05192d;
+  color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
   font-size: 14px;
   font-weight: 400;
   font-size: 14px;
   line-height: 44px;
-  color: #ffffff;
+  color: #FFFFFF;
   font-weight: bold;
 }
 
@@ -13125,9 +8534,9 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent n
   vertical-align: baseline;
   white-space: nowrap;
   background-color: transparent;
-  border-color: #05192d;
-  color: #05192d;
-  background-color: #05192d;
+  border-color: #05192D;
+  color: #05192D;
+  background-color: #05192D;
   position: relative;
   padding: 0 15px;
 }
@@ -13236,7 +8645,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent n
 
 .emotion-3 {
   -webkit-font-smoothing: antialiased;
-  color: #05192d;
+  color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
   font-size: 14px;
@@ -13264,7 +8673,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent n
     </title>
     <g
       class="emotion-2"
-      fill="#ffffff"
+      fill="#FFFFFF"
       fill-rule="nonzero"
     >
       <g
@@ -13413,9 +8822,9 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent n
   vertical-align: baseline;
   white-space: nowrap;
   background-color: transparent;
-  border-color: #05192d;
-  color: #05192d;
-  background-color: #05192d;
+  border-color: #05192D;
+  color: #05192D;
+  background-color: #05192D;
   padding: 0 15px;
 }
 
@@ -13441,8 +8850,8 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent n
 
 .emotion-0:hover {
   background-color: rgba(5, 25, 45, 0.15);
-  border-color: #05192d;
-  color: #05192d;
+  border-color: #05192D;
+  color: #05192D;
 }
 
 .emotion-0:hover {
@@ -13452,14 +8861,14 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent n
 
 .emotion-1 {
   -webkit-font-smoothing: antialiased;
-  color: #05192d;
+  color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
   font-size: 14px;
   font-weight: 400;
   font-size: 14px;
   line-height: 32px;
-  color: #ffffff;
+  color: #FFFFFF;
   font-weight: bold;
 }
 
@@ -13513,9 +8922,9 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent n
   vertical-align: baseline;
   white-space: nowrap;
   background-color: transparent;
-  border-color: #05192d;
-  color: #05192d;
-  background-color: #05192d;
+  border-color: #05192D;
+  color: #05192D;
+  background-color: #05192D;
   position: relative;
   padding: 0 15px;
 }
@@ -13624,7 +9033,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent n
 
 .emotion-3 {
   -webkit-font-smoothing: antialiased;
-  color: #05192d;
+  color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
   font-size: 14px;
@@ -13652,395 +9061,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent n
     </title>
     <g
       class="emotion-2"
-      fill="#ffffff"
-      fill-rule="nonzero"
-    >
-      <g
-        transform="translate(24)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(30 15 71.785)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(60 15 47.785)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(90 15 39)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(120 15 33.928)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(150 15 30.215)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(180 15 27)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(-150 15 23.785)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(-120 15 20.072)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(-90 15 15)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(-60 15 6.215)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(-30 15 -17.785)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-    </g>
-  </svg>
-  <span
-    class="emotion-3"
-  >
-    this is a button
-  </span>
-</button>
-`;
-
-exports[`<Button /> snapshots renders a button with appearance primary, intent success, size large and loading false 1`] = `
-.emotion-0 {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  border: 0;
-  border-radius: 4px;
-  border-style: solid;
-  border-width: 2px;
-  cursor: pointer;
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  -webkit-justify-content: center;
-  justify-content: center;
-  position: relative;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  text-transform: capitalize;
-  -webkit-transition: 0.15s;
-  transition: 0.15s;
-  vertical-align: baseline;
-  white-space: nowrap;
-  background-color: transparent;
-  border-color: #03ef62;
-  color: #03ef62;
-  background-color: #03ef62;
-  padding: 0 31px;
-}
-
-.emotion-0:active {
-  -webkit-transform: perspective(1px) scale(0.975);
-  -moz-transform: perspective(1px) scale(0.975);
-  -ms-transform: perspective(1px) scale(0.975);
-  transform: perspective(1px) scale(0.975);
-}
-
-.emotion-0:disabled,
-.emotion-0:hover:disabled,
-.emotion-0:active:disabled {
-  -webkit-transform: none;
-  -moz-transform: none;
-  -ms-transform: none;
-  transform: none;
-}
-
-.emotion-0:focus {
-  outline: 0;
-}
-
-.emotion-0:hover {
-  background-color: rgba(3, 239, 98, 0.15);
-  border-color: #03ef62;
-  color: #03ef62;
-}
-
-.emotion-0:hover {
-  background-color: #65ff8f;
-  border-color: #65ff8f;
-}
-
-.emotion-1 {
-  -webkit-font-smoothing: antialiased;
-  color: #05192d;
-  font-family: Studio-Feixen-Sans,Arial,sans-serif;
-  font-style: normal;
-  font-size: 14px;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 60px;
-  color: #05192d;
-  font-weight: bold;
-}
-
-<button
-  class="emotion-0"
-  type="button"
->
-  <span
-    class="emotion-1"
-  >
-    this is a button
-  </span>
-</button>
-`;
-
-exports[`<Button /> snapshots renders a button with appearance primary, intent success, size large and loading true 1`] = `
-@keyframes animation-0 {
-  0% {
-    opacity: 0;
-  }
-
-  100% {
-    opacity: 1;
-  }
-}
-
-.emotion-0 {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  border: 0;
-  border-radius: 4px;
-  border-style: solid;
-  border-width: 2px;
-  cursor: pointer;
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  -webkit-justify-content: center;
-  justify-content: center;
-  position: relative;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  text-transform: capitalize;
-  -webkit-transition: 0.15s;
-  transition: 0.15s;
-  vertical-align: baseline;
-  white-space: nowrap;
-  background-color: transparent;
-  border-color: #03ef62;
-  color: #03ef62;
-  background-color: #03ef62;
-  position: relative;
-  padding: 0 31px;
-}
-
-.emotion-0:active {
-  -webkit-transform: perspective(1px) scale(0.975);
-  -moz-transform: perspective(1px) scale(0.975);
-  -ms-transform: perspective(1px) scale(0.975);
-  transform: perspective(1px) scale(0.975);
-}
-
-.emotion-0:disabled,
-.emotion-0:hover:disabled,
-.emotion-0:active:disabled {
-  -webkit-transform: none;
-  -moz-transform: none;
-  -ms-transform: none;
-  transform: none;
-}
-
-.emotion-0:focus {
-  outline: 0;
-}
-
-.emotion-0:active {
-  -webkit-transform: none;
-  -moz-transform: none;
-  -ms-transform: none;
-  transform: none;
-}
-
-.emotion-0:focus,
-.emotion-0:hover:focus,
-.emotion-0:hover {
-  cursor: wait;
-}
-
-.emotion-1 {
-  position: absolute;
-}
-
-.emotion-2 g {
-  -webkit-animation: animation-0 1s infinite;
-  animation: animation-0 1s infinite;
-}
-
-.emotion-2 g:nth-of-type(1) {
-  -webkit-animation-delay: -0.9166666666666666s;
-  animation-delay: -0.9166666666666666s;
-}
-
-.emotion-2 g:nth-of-type(2) {
-  -webkit-animation-delay: -0.8333333333333334s;
-  animation-delay: -0.8333333333333334s;
-}
-
-.emotion-2 g:nth-of-type(3) {
-  -webkit-animation-delay: -0.75s;
-  animation-delay: -0.75s;
-}
-
-.emotion-2 g:nth-of-type(4) {
-  -webkit-animation-delay: -0.6666666666666666s;
-  animation-delay: -0.6666666666666666s;
-}
-
-.emotion-2 g:nth-of-type(5) {
-  -webkit-animation-delay: -0.5833333333333334s;
-  animation-delay: -0.5833333333333334s;
-}
-
-.emotion-2 g:nth-of-type(6) {
-  -webkit-animation-delay: -0.5s;
-  animation-delay: -0.5s;
-}
-
-.emotion-2 g:nth-of-type(7) {
-  -webkit-animation-delay: -0.4166666666666667s;
-  animation-delay: -0.4166666666666667s;
-}
-
-.emotion-2 g:nth-of-type(8) {
-  -webkit-animation-delay: -0.3333333333333333s;
-  animation-delay: -0.3333333333333333s;
-}
-
-.emotion-2 g:nth-of-type(9) {
-  -webkit-animation-delay: -0.25s;
-  animation-delay: -0.25s;
-}
-
-.emotion-2 g:nth-of-type(10) {
-  -webkit-animation-delay: -0.16666666666666666s;
-  animation-delay: -0.16666666666666666s;
-}
-
-.emotion-2 g:nth-of-type(11) {
-  -webkit-animation-delay: -0.08333333333333333s;
-  animation-delay: -0.08333333333333333s;
-}
-
-.emotion-2 g:nth-of-type(12) {
-  -webkit-animation-delay: 0s;
-  animation-delay: 0s;
-}
-
-.emotion-3 {
-  -webkit-font-smoothing: antialiased;
-  color: #05192d;
-  font-family: Studio-Feixen-Sans,Arial,sans-serif;
-  font-style: normal;
-  font-size: 14px;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 60px;
-  color: transparent;
-  font-weight: bold;
-}
-
-<button
-  class="emotion-0"
-  disabled=""
-  type="button"
->
-  <svg
-    class="emotion-1"
-    height="16"
-    viewBox="0 0 54 54"
-    width="16"
-    xmlns="http://www.w3.org/2000/svg"
-  >
-    <title>
-      Spinner
-    </title>
-    <g
-      class="emotion-2"
-      fill="#05192d"
+      fill="#FFFFFF"
       fill-rule="nonzero"
     >
       <g
@@ -14189,9 +9210,9 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent s
   vertical-align: baseline;
   white-space: nowrap;
   background-color: transparent;
-  border-color: #03ef62;
-  color: #03ef62;
-  background-color: #03ef62;
+  border-color: #03EF62;
+  color: #03EF62;
+  background-color: #03EF62;
   padding: 0 15px;
 }
 
@@ -14217,25 +9238,25 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent s
 
 .emotion-0:hover {
   background-color: rgba(3, 239, 98, 0.15);
-  border-color: #03ef62;
-  color: #03ef62;
+  border-color: #03EF62;
+  color: #03EF62;
 }
 
 .emotion-0:hover {
-  background-color: #65ff8f;
-  border-color: #65ff8f;
+  background-color: #65FF8F;
+  border-color: #65FF8F;
 }
 
 .emotion-1 {
   -webkit-font-smoothing: antialiased;
-  color: #05192d;
+  color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
   font-size: 14px;
   font-weight: 400;
   font-size: 14px;
   line-height: 44px;
-  color: #05192d;
+  color: #05192D;
   font-weight: bold;
 }
 
@@ -14289,9 +9310,9 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent s
   vertical-align: baseline;
   white-space: nowrap;
   background-color: transparent;
-  border-color: #03ef62;
-  color: #03ef62;
-  background-color: #03ef62;
+  border-color: #03EF62;
+  color: #03EF62;
+  background-color: #03EF62;
   position: relative;
   padding: 0 15px;
 }
@@ -14400,7 +9421,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent s
 
 .emotion-3 {
   -webkit-font-smoothing: antialiased;
-  color: #05192d;
+  color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
   font-size: 14px;
@@ -14428,7 +9449,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent s
     </title>
     <g
       class="emotion-2"
-      fill="#05192d"
+      fill="#05192D"
       fill-rule="nonzero"
     >
       <g
@@ -14577,9 +9598,9 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent s
   vertical-align: baseline;
   white-space: nowrap;
   background-color: transparent;
-  border-color: #03ef62;
-  color: #03ef62;
-  background-color: #03ef62;
+  border-color: #03EF62;
+  color: #03EF62;
+  background-color: #03EF62;
   padding: 0 15px;
 }
 
@@ -14605,25 +9626,25 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent s
 
 .emotion-0:hover {
   background-color: rgba(3, 239, 98, 0.15);
-  border-color: #03ef62;
-  color: #03ef62;
+  border-color: #03EF62;
+  color: #03EF62;
 }
 
 .emotion-0:hover {
-  background-color: #65ff8f;
-  border-color: #65ff8f;
+  background-color: #65FF8F;
+  border-color: #65FF8F;
 }
 
 .emotion-1 {
   -webkit-font-smoothing: antialiased;
-  color: #05192d;
+  color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
   font-size: 14px;
   font-weight: 400;
   font-size: 14px;
   line-height: 32px;
-  color: #05192d;
+  color: #05192D;
   font-weight: bold;
 }
 
@@ -14677,9 +9698,9 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent s
   vertical-align: baseline;
   white-space: nowrap;
   background-color: transparent;
-  border-color: #03ef62;
-  color: #03ef62;
-  background-color: #03ef62;
+  border-color: #03EF62;
+  color: #03EF62;
+  background-color: #03EF62;
   position: relative;
   padding: 0 15px;
 }
@@ -14788,7 +9809,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent s
 
 .emotion-3 {
   -webkit-font-smoothing: antialiased;
-  color: #05192d;
+  color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
   font-size: 14px;
@@ -14816,395 +9837,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent s
     </title>
     <g
       class="emotion-2"
-      fill="#05192d"
-      fill-rule="nonzero"
-    >
-      <g
-        transform="translate(24)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(30 15 71.785)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(60 15 47.785)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(90 15 39)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(120 15 33.928)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(150 15 30.215)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(180 15 27)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(-150 15 23.785)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(-120 15 20.072)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(-90 15 15)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(-60 15 6.215)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-      <g
-        transform="rotate(-30 15 -17.785)"
-      >
-        <rect
-          height="12"
-          rx="3"
-          width="6"
-        />
-      </g>
-    </g>
-  </svg>
-  <span
-    class="emotion-3"
-  >
-    this is a button
-  </span>
-</button>
-`;
-
-exports[`<Button /> snapshots renders a button with appearance primary, intent warning, size large and loading false 1`] = `
-.emotion-0 {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  border: 0;
-  border-radius: 4px;
-  border-style: solid;
-  border-width: 2px;
-  cursor: pointer;
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  -webkit-justify-content: center;
-  justify-content: center;
-  position: relative;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  text-transform: capitalize;
-  -webkit-transition: 0.15s;
-  transition: 0.15s;
-  vertical-align: baseline;
-  white-space: nowrap;
-  background-color: transparent;
-  border-color: #ff931e;
-  color: #ff931e;
-  background-color: #ff931e;
-  padding: 0 31px;
-}
-
-.emotion-0:active {
-  -webkit-transform: perspective(1px) scale(0.975);
-  -moz-transform: perspective(1px) scale(0.975);
-  -ms-transform: perspective(1px) scale(0.975);
-  transform: perspective(1px) scale(0.975);
-}
-
-.emotion-0:disabled,
-.emotion-0:hover:disabled,
-.emotion-0:active:disabled {
-  -webkit-transform: none;
-  -moz-transform: none;
-  -ms-transform: none;
-  transform: none;
-}
-
-.emotion-0:focus {
-  outline: 0;
-}
-
-.emotion-0:hover {
-  background-color: rgba(255, 147, 30, 0.15);
-  border-color: #ff931e;
-  color: #ff931e;
-}
-
-.emotion-0:hover {
-  background-color: #ffbc4b;
-  border-color: #ffbc4b;
-}
-
-.emotion-1 {
-  -webkit-font-smoothing: antialiased;
-  color: #05192d;
-  font-family: Studio-Feixen-Sans,Arial,sans-serif;
-  font-style: normal;
-  font-size: 14px;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 60px;
-  color: #05192d;
-  font-weight: bold;
-}
-
-<button
-  class="emotion-0"
-  type="button"
->
-  <span
-    class="emotion-1"
-  >
-    this is a button
-  </span>
-</button>
-`;
-
-exports[`<Button /> snapshots renders a button with appearance primary, intent warning, size large and loading true 1`] = `
-@keyframes animation-0 {
-  0% {
-    opacity: 0;
-  }
-
-  100% {
-    opacity: 1;
-  }
-}
-
-.emotion-0 {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  border: 0;
-  border-radius: 4px;
-  border-style: solid;
-  border-width: 2px;
-  cursor: pointer;
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  -webkit-justify-content: center;
-  justify-content: center;
-  position: relative;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  text-transform: capitalize;
-  -webkit-transition: 0.15s;
-  transition: 0.15s;
-  vertical-align: baseline;
-  white-space: nowrap;
-  background-color: transparent;
-  border-color: #ff931e;
-  color: #ff931e;
-  background-color: #ff931e;
-  position: relative;
-  padding: 0 31px;
-}
-
-.emotion-0:active {
-  -webkit-transform: perspective(1px) scale(0.975);
-  -moz-transform: perspective(1px) scale(0.975);
-  -ms-transform: perspective(1px) scale(0.975);
-  transform: perspective(1px) scale(0.975);
-}
-
-.emotion-0:disabled,
-.emotion-0:hover:disabled,
-.emotion-0:active:disabled {
-  -webkit-transform: none;
-  -moz-transform: none;
-  -ms-transform: none;
-  transform: none;
-}
-
-.emotion-0:focus {
-  outline: 0;
-}
-
-.emotion-0:active {
-  -webkit-transform: none;
-  -moz-transform: none;
-  -ms-transform: none;
-  transform: none;
-}
-
-.emotion-0:focus,
-.emotion-0:hover:focus,
-.emotion-0:hover {
-  cursor: wait;
-}
-
-.emotion-1 {
-  position: absolute;
-}
-
-.emotion-2 g {
-  -webkit-animation: animation-0 1s infinite;
-  animation: animation-0 1s infinite;
-}
-
-.emotion-2 g:nth-of-type(1) {
-  -webkit-animation-delay: -0.9166666666666666s;
-  animation-delay: -0.9166666666666666s;
-}
-
-.emotion-2 g:nth-of-type(2) {
-  -webkit-animation-delay: -0.8333333333333334s;
-  animation-delay: -0.8333333333333334s;
-}
-
-.emotion-2 g:nth-of-type(3) {
-  -webkit-animation-delay: -0.75s;
-  animation-delay: -0.75s;
-}
-
-.emotion-2 g:nth-of-type(4) {
-  -webkit-animation-delay: -0.6666666666666666s;
-  animation-delay: -0.6666666666666666s;
-}
-
-.emotion-2 g:nth-of-type(5) {
-  -webkit-animation-delay: -0.5833333333333334s;
-  animation-delay: -0.5833333333333334s;
-}
-
-.emotion-2 g:nth-of-type(6) {
-  -webkit-animation-delay: -0.5s;
-  animation-delay: -0.5s;
-}
-
-.emotion-2 g:nth-of-type(7) {
-  -webkit-animation-delay: -0.4166666666666667s;
-  animation-delay: -0.4166666666666667s;
-}
-
-.emotion-2 g:nth-of-type(8) {
-  -webkit-animation-delay: -0.3333333333333333s;
-  animation-delay: -0.3333333333333333s;
-}
-
-.emotion-2 g:nth-of-type(9) {
-  -webkit-animation-delay: -0.25s;
-  animation-delay: -0.25s;
-}
-
-.emotion-2 g:nth-of-type(10) {
-  -webkit-animation-delay: -0.16666666666666666s;
-  animation-delay: -0.16666666666666666s;
-}
-
-.emotion-2 g:nth-of-type(11) {
-  -webkit-animation-delay: -0.08333333333333333s;
-  animation-delay: -0.08333333333333333s;
-}
-
-.emotion-2 g:nth-of-type(12) {
-  -webkit-animation-delay: 0s;
-  animation-delay: 0s;
-}
-
-.emotion-3 {
-  -webkit-font-smoothing: antialiased;
-  color: #05192d;
-  font-family: Studio-Feixen-Sans,Arial,sans-serif;
-  font-style: normal;
-  font-size: 14px;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 60px;
-  color: transparent;
-  font-weight: bold;
-}
-
-<button
-  class="emotion-0"
-  disabled=""
-  type="button"
->
-  <svg
-    class="emotion-1"
-    height="16"
-    viewBox="0 0 54 54"
-    width="16"
-    xmlns="http://www.w3.org/2000/svg"
-  >
-    <title>
-      Spinner
-    </title>
-    <g
-      class="emotion-2"
-      fill="#05192d"
+      fill="#05192D"
       fill-rule="nonzero"
     >
       <g
@@ -15353,9 +9986,9 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent w
   vertical-align: baseline;
   white-space: nowrap;
   background-color: transparent;
-  border-color: #ff931e;
-  color: #ff931e;
-  background-color: #ff931e;
+  border-color: #FF931E;
+  color: #FF931E;
+  background-color: #FF931E;
   padding: 0 15px;
 }
 
@@ -15381,25 +10014,25 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent w
 
 .emotion-0:hover {
   background-color: rgba(255, 147, 30, 0.15);
-  border-color: #ff931e;
-  color: #ff931e;
+  border-color: #FF931E;
+  color: #FF931E;
 }
 
 .emotion-0:hover {
-  background-color: #ffbc4b;
-  border-color: #ffbc4b;
+  background-color: #FFBC4B;
+  border-color: #FFBC4B;
 }
 
 .emotion-1 {
   -webkit-font-smoothing: antialiased;
-  color: #05192d;
+  color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
   font-size: 14px;
   font-weight: 400;
   font-size: 14px;
   line-height: 44px;
-  color: #05192d;
+  color: #05192D;
   font-weight: bold;
 }
 
@@ -15453,9 +10086,9 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent w
   vertical-align: baseline;
   white-space: nowrap;
   background-color: transparent;
-  border-color: #ff931e;
-  color: #ff931e;
-  background-color: #ff931e;
+  border-color: #FF931E;
+  color: #FF931E;
+  background-color: #FF931E;
   position: relative;
   padding: 0 15px;
 }
@@ -15564,7 +10197,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent w
 
 .emotion-3 {
   -webkit-font-smoothing: antialiased;
-  color: #05192d;
+  color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
   font-size: 14px;
@@ -15592,7 +10225,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent w
     </title>
     <g
       class="emotion-2"
-      fill="#05192d"
+      fill="#05192D"
       fill-rule="nonzero"
     >
       <g
@@ -15741,9 +10374,9 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent w
   vertical-align: baseline;
   white-space: nowrap;
   background-color: transparent;
-  border-color: #ff931e;
-  color: #ff931e;
-  background-color: #ff931e;
+  border-color: #FF931E;
+  color: #FF931E;
+  background-color: #FF931E;
   padding: 0 15px;
 }
 
@@ -15769,25 +10402,25 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent w
 
 .emotion-0:hover {
   background-color: rgba(255, 147, 30, 0.15);
-  border-color: #ff931e;
-  color: #ff931e;
+  border-color: #FF931E;
+  color: #FF931E;
 }
 
 .emotion-0:hover {
-  background-color: #ffbc4b;
-  border-color: #ffbc4b;
+  background-color: #FFBC4B;
+  border-color: #FFBC4B;
 }
 
 .emotion-1 {
   -webkit-font-smoothing: antialiased;
-  color: #05192d;
+  color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
   font-size: 14px;
   font-weight: 400;
   font-size: 14px;
   line-height: 32px;
-  color: #05192d;
+  color: #05192D;
   font-weight: bold;
 }
 
@@ -15841,9 +10474,9 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent w
   vertical-align: baseline;
   white-space: nowrap;
   background-color: transparent;
-  border-color: #ff931e;
-  color: #ff931e;
-  background-color: #ff931e;
+  border-color: #FF931E;
+  color: #FF931E;
+  background-color: #FF931E;
   position: relative;
   padding: 0 15px;
 }
@@ -15952,7 +10585,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent w
 
 .emotion-3 {
   -webkit-font-smoothing: antialiased;
-  color: #05192d;
+  color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
   font-size: 14px;
@@ -15980,7 +10613,7 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent w
     </title>
     <g
       class="emotion-2"
-      fill="#05192d"
+      fill="#05192D"
       fill-rule="nonzero"
     >
       <g
@@ -16129,9 +10762,9 @@ exports[`<Button /> snapshots renders a squared button with a single icon 1`] = 
   vertical-align: baseline;
   white-space: nowrap;
   background-color: transparent;
-  border-color: #05192d;
-  color: #05192d;
-  padding: 14px;
+  border-color: #05192D;
+  color: #05192D;
+  padding: 8px;
 }
 
 .emotion-0:active {
@@ -16156,8 +10789,8 @@ exports[`<Button /> snapshots renders a squared button with a single icon 1`] = 
 
 .emotion-0:hover {
   background-color: rgba(5, 25, 45, 0.15);
-  border-color: #05192d;
-  color: #05192d;
+  border-color: #05192D;
+  color: #05192D;
 }
 
 <button
@@ -16209,8 +10842,8 @@ exports[`<Button /> tooltips tooltip appearance snapshots renders a tooltip with
   vertical-align: baseline;
   white-space: nowrap;
   background-color: transparent;
-  border-color: #05192d;
-  color: #05192d;
+  border-color: #05192D;
+  color: #05192D;
   padding: 0 15px;
 }
 
@@ -16236,20 +10869,20 @@ exports[`<Button /> tooltips tooltip appearance snapshots renders a tooltip with
 
 .emotion-0:hover {
   background-color: rgba(5, 25, 45, 0.15);
-  border-color: #05192d;
-  color: #05192d;
+  border-color: #05192D;
+  color: #05192D;
 }
 
 .emotion-1 {
   -webkit-font-smoothing: antialiased;
-  color: #05192d;
+  color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
   font-size: 14px;
   font-weight: 400;
   font-size: 14px;
-  line-height: 44px;
-  color: #05192d;
+  line-height: 32px;
+  color: #05192D;
   font-weight: bold;
 }
 
@@ -16271,20 +10904,20 @@ exports[`<Button /> tooltips tooltip appearance snapshots renders a tooltip with
   padding-right: 8px;
   padding-top: 4px;
   z-index: 1;
-  background-color: #05192d;
+  background-color: #05192D;
   box-shadow: none;
 }
 
 .emotion-3 {
   -webkit-font-smoothing: antialiased;
-  color: #05192d;
+  color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
   font-size: 14px;
   font-weight: 400;
-  font-size: 12px;
+  font-size: 14px;
   white-space: nowrap;
-  color: #ffffff;
+  color: #FFFFFF;
 }
 
 <body>
@@ -16342,8 +10975,8 @@ exports[`<Button /> tooltips tooltip appearance snapshots renders a tooltip with
   vertical-align: baseline;
   white-space: nowrap;
   background-color: transparent;
-  border-color: #05192d;
-  color: #05192d;
+  border-color: #05192D;
+  color: #05192D;
   padding: 0 15px;
 }
 
@@ -16369,20 +11002,20 @@ exports[`<Button /> tooltips tooltip appearance snapshots renders a tooltip with
 
 .emotion-0:hover {
   background-color: rgba(5, 25, 45, 0.15);
-  border-color: #05192d;
-  color: #05192d;
+  border-color: #05192D;
+  color: #05192D;
 }
 
 .emotion-1 {
   -webkit-font-smoothing: antialiased;
-  color: #05192d;
+  color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
   font-size: 14px;
   font-weight: 400;
   font-size: 14px;
-  line-height: 44px;
-  color: #05192d;
+  line-height: 32px;
+  color: #05192D;
   font-weight: bold;
 }
 
@@ -16404,19 +11037,19 @@ exports[`<Button /> tooltips tooltip appearance snapshots renders a tooltip with
   padding-right: 8px;
   padding-top: 4px;
   z-index: 1;
-  background-color: #fffbf3;
+  background-color: #FFFBF3;
 }
 
 .emotion-3 {
   -webkit-font-smoothing: antialiased;
-  color: #05192d;
+  color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
   font-size: 14px;
   font-weight: 400;
-  font-size: 12px;
+  font-size: 14px;
   white-space: nowrap;
-  color: #05192d;
+  color: #05192D;
 }
 
 <body>
@@ -16474,8 +11107,8 @@ exports[`<Button /> tooltips tooltip appearance snapshots renders a tooltip with
   vertical-align: baseline;
   white-space: nowrap;
   background-color: transparent;
-  border-color: #05192d;
-  color: #05192d;
+  border-color: #05192D;
+  color: #05192D;
   padding: 0 15px;
 }
 
@@ -16501,20 +11134,20 @@ exports[`<Button /> tooltips tooltip appearance snapshots renders a tooltip with
 
 .emotion-0:hover {
   background-color: rgba(5, 25, 45, 0.15);
-  border-color: #05192d;
-  color: #05192d;
+  border-color: #05192D;
+  color: #05192D;
 }
 
 .emotion-1 {
   -webkit-font-smoothing: antialiased;
-  color: #05192d;
+  color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
   font-size: 14px;
   font-weight: 400;
   font-size: 14px;
-  line-height: 44px;
-  color: #05192d;
+  line-height: 32px;
+  color: #05192D;
   font-weight: bold;
 }
 
@@ -16536,20 +11169,20 @@ exports[`<Button /> tooltips tooltip appearance snapshots renders a tooltip with
   padding-right: 8px;
   padding-top: 4px;
   z-index: 1;
-  background-color: #05192d;
+  background-color: #05192D;
   box-shadow: none;
 }
 
 .emotion-3 {
   -webkit-font-smoothing: antialiased;
-  color: #05192d;
+  color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
   font-size: 14px;
   font-weight: 400;
-  font-size: 12px;
+  font-size: 14px;
   white-space: nowrap;
-  color: #ffffff;
+  color: #FFFFFF;
 }
 
 <body>
@@ -16607,8 +11240,8 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at b
   vertical-align: baseline;
   white-space: nowrap;
   background-color: transparent;
-  border-color: #05192d;
-  color: #05192d;
+  border-color: #05192D;
+  color: #05192D;
   padding: 0 15px;
 }
 
@@ -16634,20 +11267,20 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at b
 
 .emotion-0:hover {
   background-color: rgba(5, 25, 45, 0.15);
-  border-color: #05192d;
-  color: #05192d;
+  border-color: #05192D;
+  color: #05192D;
 }
 
 .emotion-1 {
   -webkit-font-smoothing: antialiased;
-  color: #05192d;
+  color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
   font-size: 14px;
   font-weight: 400;
   font-size: 14px;
-  line-height: 44px;
-  color: #05192d;
+  line-height: 32px;
+  color: #05192D;
   font-weight: bold;
 }
 
@@ -16669,20 +11302,20 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at b
   padding-right: 8px;
   padding-top: 4px;
   z-index: 1;
-  background-color: #05192d;
+  background-color: #05192D;
   box-shadow: none;
 }
 
 .emotion-3 {
   -webkit-font-smoothing: antialiased;
-  color: #05192d;
+  color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
   font-size: 14px;
   font-weight: 400;
-  font-size: 12px;
+  font-size: 14px;
   white-space: nowrap;
-  color: #ffffff;
+  color: #FFFFFF;
 }
 
 <body>
@@ -16740,8 +11373,8 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at b
   vertical-align: baseline;
   white-space: nowrap;
   background-color: transparent;
-  border-color: #05192d;
-  color: #05192d;
+  border-color: #05192D;
+  color: #05192D;
   padding: 0 15px;
 }
 
@@ -16767,20 +11400,20 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at b
 
 .emotion-0:hover {
   background-color: rgba(5, 25, 45, 0.15);
-  border-color: #05192d;
-  color: #05192d;
+  border-color: #05192D;
+  color: #05192D;
 }
 
 .emotion-1 {
   -webkit-font-smoothing: antialiased;
-  color: #05192d;
+  color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
   font-size: 14px;
   font-weight: 400;
   font-size: 14px;
-  line-height: 44px;
-  color: #05192d;
+  line-height: 32px;
+  color: #05192D;
   font-weight: bold;
 }
 
@@ -16798,20 +11431,20 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at b
   padding-right: 8px;
   padding-top: 4px;
   z-index: 1;
-  background-color: #05192d;
+  background-color: #05192D;
   box-shadow: none;
 }
 
 .emotion-3 {
   -webkit-font-smoothing: antialiased;
-  color: #05192d;
+  color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
   font-size: 14px;
   font-weight: 400;
-  font-size: 12px;
+  font-size: 14px;
   white-space: nowrap;
-  color: #ffffff;
+  color: #FFFFFF;
 }
 
 <body>
@@ -16869,8 +11502,8 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at b
   vertical-align: baseline;
   white-space: nowrap;
   background-color: transparent;
-  border-color: #05192d;
-  color: #05192d;
+  border-color: #05192D;
+  color: #05192D;
   padding: 0 15px;
 }
 
@@ -16896,20 +11529,20 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at b
 
 .emotion-0:hover {
   background-color: rgba(5, 25, 45, 0.15);
-  border-color: #05192d;
-  color: #05192d;
+  border-color: #05192D;
+  color: #05192D;
 }
 
 .emotion-1 {
   -webkit-font-smoothing: antialiased;
-  color: #05192d;
+  color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
   font-size: 14px;
   font-weight: 400;
   font-size: 14px;
-  line-height: 44px;
-  color: #05192d;
+  line-height: 32px;
+  color: #05192D;
   font-weight: bold;
 }
 
@@ -16931,20 +11564,20 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at b
   padding-right: 8px;
   padding-top: 4px;
   z-index: 1;
-  background-color: #05192d;
+  background-color: #05192D;
   box-shadow: none;
 }
 
 .emotion-3 {
   -webkit-font-smoothing: antialiased;
-  color: #05192d;
+  color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
   font-size: 14px;
   font-weight: 400;
-  font-size: 12px;
+  font-size: 14px;
   white-space: nowrap;
-  color: #ffffff;
+  color: #FFFFFF;
 }
 
 <body>
@@ -17002,8 +11635,8 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at l
   vertical-align: baseline;
   white-space: nowrap;
   background-color: transparent;
-  border-color: #05192d;
-  color: #05192d;
+  border-color: #05192D;
+  color: #05192D;
   padding: 0 15px;
 }
 
@@ -17029,20 +11662,20 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at l
 
 .emotion-0:hover {
   background-color: rgba(5, 25, 45, 0.15);
-  border-color: #05192d;
-  color: #05192d;
+  border-color: #05192D;
+  color: #05192D;
 }
 
 .emotion-1 {
   -webkit-font-smoothing: antialiased;
-  color: #05192d;
+  color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
   font-size: 14px;
   font-weight: 400;
   font-size: 14px;
-  line-height: 44px;
-  color: #05192d;
+  line-height: 32px;
+  color: #05192D;
   font-weight: bold;
 }
 
@@ -17064,20 +11697,20 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at l
   padding-right: 8px;
   padding-top: 4px;
   z-index: 1;
-  background-color: #05192d;
+  background-color: #05192D;
   box-shadow: none;
 }
 
 .emotion-3 {
   -webkit-font-smoothing: antialiased;
-  color: #05192d;
+  color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
   font-size: 14px;
   font-weight: 400;
-  font-size: 12px;
+  font-size: 14px;
   white-space: nowrap;
-  color: #ffffff;
+  color: #FFFFFF;
 }
 
 <body>
@@ -17135,8 +11768,8 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at r
   vertical-align: baseline;
   white-space: nowrap;
   background-color: transparent;
-  border-color: #05192d;
-  color: #05192d;
+  border-color: #05192D;
+  color: #05192D;
   padding: 0 15px;
 }
 
@@ -17162,20 +11795,20 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at r
 
 .emotion-0:hover {
   background-color: rgba(5, 25, 45, 0.15);
-  border-color: #05192d;
-  color: #05192d;
+  border-color: #05192D;
+  color: #05192D;
 }
 
 .emotion-1 {
   -webkit-font-smoothing: antialiased;
-  color: #05192d;
+  color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
   font-size: 14px;
   font-weight: 400;
   font-size: 14px;
-  line-height: 44px;
-  color: #05192d;
+  line-height: 32px;
+  color: #05192D;
   font-weight: bold;
 }
 
@@ -17197,20 +11830,20 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at r
   padding-right: 8px;
   padding-top: 4px;
   z-index: 1;
-  background-color: #05192d;
+  background-color: #05192D;
   box-shadow: none;
 }
 
 .emotion-3 {
   -webkit-font-smoothing: antialiased;
-  color: #05192d;
+  color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
   font-size: 14px;
   font-weight: 400;
-  font-size: 12px;
+  font-size: 14px;
   white-space: nowrap;
-  color: #ffffff;
+  color: #FFFFFF;
 }
 
 <body>
@@ -17268,8 +11901,8 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at t
   vertical-align: baseline;
   white-space: nowrap;
   background-color: transparent;
-  border-color: #05192d;
-  color: #05192d;
+  border-color: #05192D;
+  color: #05192D;
   padding: 0 15px;
 }
 
@@ -17295,20 +11928,20 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at t
 
 .emotion-0:hover {
   background-color: rgba(5, 25, 45, 0.15);
-  border-color: #05192d;
-  color: #05192d;
+  border-color: #05192D;
+  color: #05192D;
 }
 
 .emotion-1 {
   -webkit-font-smoothing: antialiased;
-  color: #05192d;
+  color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
   font-size: 14px;
   font-weight: 400;
   font-size: 14px;
-  line-height: 44px;
-  color: #05192d;
+  line-height: 32px;
+  color: #05192D;
   font-weight: bold;
 }
 
@@ -17330,20 +11963,20 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at t
   padding-right: 8px;
   padding-top: 4px;
   z-index: 1;
-  background-color: #05192d;
+  background-color: #05192D;
   box-shadow: none;
 }
 
 .emotion-3 {
   -webkit-font-smoothing: antialiased;
-  color: #05192d;
+  color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
   font-size: 14px;
   font-weight: 400;
-  font-size: 12px;
+  font-size: 14px;
   white-space: nowrap;
-  color: #ffffff;
+  color: #FFFFFF;
 }
 
 <body>
@@ -17401,8 +12034,8 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at t
   vertical-align: baseline;
   white-space: nowrap;
   background-color: transparent;
-  border-color: #05192d;
-  color: #05192d;
+  border-color: #05192D;
+  color: #05192D;
   padding: 0 15px;
 }
 
@@ -17428,20 +12061,20 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at t
 
 .emotion-0:hover {
   background-color: rgba(5, 25, 45, 0.15);
-  border-color: #05192d;
-  color: #05192d;
+  border-color: #05192D;
+  color: #05192D;
 }
 
 .emotion-1 {
   -webkit-font-smoothing: antialiased;
-  color: #05192d;
+  color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
   font-size: 14px;
   font-weight: 400;
   font-size: 14px;
-  line-height: 44px;
-  color: #05192d;
+  line-height: 32px;
+  color: #05192D;
   font-weight: bold;
 }
 
@@ -17463,20 +12096,20 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at t
   padding-right: 8px;
   padding-top: 4px;
   z-index: 1;
-  background-color: #05192d;
+  background-color: #05192D;
   box-shadow: none;
 }
 
 .emotion-3 {
   -webkit-font-smoothing: antialiased;
-  color: #05192d;
+  color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
   font-size: 14px;
   font-weight: 400;
-  font-size: 12px;
+  font-size: 14px;
   white-space: nowrap;
-  color: #ffffff;
+  color: #FFFFFF;
 }
 
 <body>
@@ -17534,8 +12167,8 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at t
   vertical-align: baseline;
   white-space: nowrap;
   background-color: transparent;
-  border-color: #05192d;
-  color: #05192d;
+  border-color: #05192D;
+  color: #05192D;
   padding: 0 15px;
 }
 
@@ -17561,20 +12194,20 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at t
 
 .emotion-0:hover {
   background-color: rgba(5, 25, 45, 0.15);
-  border-color: #05192d;
-  color: #05192d;
+  border-color: #05192D;
+  color: #05192D;
 }
 
 .emotion-1 {
   -webkit-font-smoothing: antialiased;
-  color: #05192d;
+  color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
   font-size: 14px;
   font-weight: 400;
   font-size: 14px;
-  line-height: 44px;
-  color: #05192d;
+  line-height: 32px;
+  color: #05192D;
   font-weight: bold;
 }
 
@@ -17596,20 +12229,20 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at t
   padding-right: 8px;
   padding-top: 4px;
   z-index: 1;
-  background-color: #05192d;
+  background-color: #05192D;
   box-shadow: none;
 }
 
 .emotion-3 {
   -webkit-font-smoothing: antialiased;
-  color: #05192d;
+  color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
   font-size: 14px;
   font-weight: 400;
-  font-size: 12px;
+  font-size: 14px;
   white-space: nowrap;
-  color: #ffffff;
+  color: #FFFFFF;
 }
 
 <body>
@@ -17667,8 +12300,8 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at u
   vertical-align: baseline;
   white-space: nowrap;
   background-color: transparent;
-  border-color: #05192d;
-  color: #05192d;
+  border-color: #05192D;
+  color: #05192D;
   padding: 0 15px;
 }
 
@@ -17694,20 +12327,20 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at u
 
 .emotion-0:hover {
   background-color: rgba(5, 25, 45, 0.15);
-  border-color: #05192d;
-  color: #05192d;
+  border-color: #05192D;
+  color: #05192D;
 }
 
 .emotion-1 {
   -webkit-font-smoothing: antialiased;
-  color: #05192d;
+  color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
   font-size: 14px;
   font-weight: 400;
   font-size: 14px;
-  line-height: 44px;
-  color: #05192d;
+  line-height: 32px;
+  color: #05192D;
   font-weight: bold;
 }
 
@@ -17729,20 +12362,20 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at u
   padding-right: 8px;
   padding-top: 4px;
   z-index: 1;
-  background-color: #05192d;
+  background-color: #05192D;
   box-shadow: none;
 }
 
 .emotion-3 {
   -webkit-font-smoothing: antialiased;
-  color: #05192d;
+  color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
   font-size: 14px;
   font-weight: 400;
-  font-size: 12px;
+  font-size: 14px;
   white-space: nowrap;
-  color: #ffffff;
+  color: #FFFFFF;
 }
 
 <body>

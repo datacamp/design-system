@@ -29,9 +29,9 @@ const ButtonGroup = ({
   const sizes =
     React.Children.map(children, (child) => {
       if (!React.isValidElement(child)) return undefined;
-      if (isChildType(child, Button)) return child.props.size || 'medium';
+      if (isChildType(child, Button)) return child.props.size || 'small';
       if (isChildType(child, CompactButtonGroup)) {
-        return child.props.children[0].props.size || 'medium'; // we already validate that all buttons in child group are the same size
+        return child.props.children[0].props.size || 'small'; // we already validate that all buttons in child group are the same size
       }
       return undefined;
     }) || [];
@@ -41,7 +41,7 @@ const ButtonGroup = ({
   }
 
   const gap =
-    sizes[0] === 'small' ? tokens.spacing.small : tokens.spacing.medium;
+    sizes[0] === 'small' ? tokens.spacing.medium : tokens.spacing.small;
 
   return (
     <div

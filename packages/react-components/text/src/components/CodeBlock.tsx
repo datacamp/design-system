@@ -28,7 +28,7 @@ const preStyle = css({
   backgroundColor: tokens.colors.beige,
   border: 0,
   borderRadius: tokens.borderRadius.medium,
-  lineHeight: tokens.lineHeights.medium,
+  lineHeight: tokens.lineHeights.relaxed,
   margin: 0,
   overflow: 'scroll',
   padding: `${tokens.spacing.xsmall} ${tokens.spacing.small}`,

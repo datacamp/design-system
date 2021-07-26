@@ -64,7 +64,7 @@ interface BaseButtonProps {
   /**
    * The size of the button to render.
    */
-  size?: 'small' | 'medium' | 'large';
+  size?: 'small' | 'medium';
   /**
    * When tooltipText is provided, this sets the colour of the tooltip. It
    * should be used make the tooltip visible on different colour backgrounds.
@@ -149,7 +149,7 @@ const InternalButton = (
     innerRef,
     intent = 'neutral',
     loading = false,
-    size = 'medium',
+    size = 'small',
     tooltipAppearance = 'dark',
     tooltipPosition = 'bottom',
     tooltipText,
@@ -180,16 +180,14 @@ const InternalButton = (
     color: loading ? 'transparent' : textColor,
     fontWeight: 'bold',
   });
-  const margin =
-    size === 'large' ? tokens.spacing.medium : tokens.spacing.small;
   const getTextStyleWithMargin = (i: number | undefined): SerializedStyles => {
     if (i === 1) {
       return css(baseTextStyle, {
-        marginLeft: margin,
+        marginLeft: tokens.spacing.small,
       });
     }
     return css(baseTextStyle, {
-      marginRight: margin,
+      marginRight: tokens.spacing.small,
     });
   };
 
@@ -218,7 +216,7 @@ const InternalButton = (
     disabled && getDisabledStyle(appearance, intent),
     loading && baseLoadingStyle,
     React.Children.count(children) > 1 || typeof children === 'string'
-      ? getSize(size)
+      ? getSize()
       : getIconSize(size),
     hasFocus && focusStyle,
   );
@@ -365,7 +363,7 @@ InternalButton.defaultProps = {
   disabled: false,
   intent: 'neutral',
   loading: false,
-  size: 'medium',
+  size: 'small',
   tooltipAppearance: 'dark',
   tooltipPosition: 'bottom',
   type: 'button',

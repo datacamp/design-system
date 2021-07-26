@@ -96,7 +96,7 @@ exports[`<AlertModal /> isOpen renders the modal via a portal when true 1`] = `
   background-color: white;
   border: none;
   border-radius: 2px;
-  color: #05192d;
+  color: #05192D;
   cursor: pointer;
   display: -webkit-box;
   display: -webkit-flex;
@@ -120,11 +120,11 @@ exports[`<AlertModal /> isOpen renders the modal via a portal when true 1`] = `
 }
 
 .emotion-5:active {
-  color: #03ef62;
+  color: #03EF62;
 }
 
 .emotion-5:disabled {
-  color: #d9d9e2;
+  color: #D9D9E2;
 }
 
 .emotion-5:disabled:hover,
@@ -133,11 +133,11 @@ exports[`<AlertModal /> isOpen renders the modal via a portal when true 1`] = `
 }
 
 .emotion-5:focus {
-  background-color: #efefef;
+  background-color: #EFEFEF;
 }
 
 .emotion-5:hover {
-  background-color: #efefef;
+  background-color: #EFEFEF;
 }
 
 .emotion-6 {
@@ -165,17 +165,17 @@ exports[`<AlertModal /> isOpen renders the modal via a portal when true 1`] = `
 
 .emotion-8 {
   -webkit-font-smoothing: antialiased;
-  color: #05192d;
+  color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
-  color: #05192d;
+  color: #05192D;
   font-weight: 800;
   margin: 0;
   overflow: reset;
   white-space: normal;
-  font-size: 16px;
+  font-size: 18px;
   letter-spacing: 0px;
-  line-height: 20px;
+  line-height: 1.25;
 }
 
 *:not(style)~.emotion-8 {
@@ -184,12 +184,12 @@ exports[`<AlertModal /> isOpen renders the modal via a portal when true 1`] = `
 
 .emotion-9 {
   -webkit-font-smoothing: antialiased;
-  color: #05192d;
+  color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
   font-size: 14px;
   font-weight: 400;
-  line-height: 20px;
+  line-height: 1.5;
   margin: 0;
 }
 
@@ -233,8 +233,8 @@ exports[`<AlertModal /> isOpen renders the modal via a portal when true 1`] = `
   vertical-align: baseline;
   white-space: nowrap;
   background-color: transparent;
-  border-color: #05192d;
-  color: #05192d;
+  border-color: #05192D;
+  color: #05192D;
   padding: 0 15px;
   margin-left: 0;
 }
@@ -261,20 +261,20 @@ exports[`<AlertModal /> isOpen renders the modal via a portal when true 1`] = `
 
 .emotion-11:hover {
   background-color: rgba(5, 25, 45, 0.15);
-  border-color: #05192d;
-  color: #05192d;
+  border-color: #05192D;
+  color: #05192D;
 }
 
 .emotion-12 {
   -webkit-font-smoothing: antialiased;
-  color: #05192d;
+  color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
   font-size: 14px;
   font-weight: 400;
   font-size: 14px;
-  line-height: 44px;
-  color: #05192d;
+  line-height: 32px;
+  color: #05192D;
   font-weight: bold;
 }
 
@@ -305,9 +305,9 @@ exports[`<AlertModal /> isOpen renders the modal via a portal when true 1`] = `
   vertical-align: baseline;
   white-space: nowrap;
   background-color: transparent;
-  border-color: #05192d;
-  color: #05192d;
-  background-color: #05192d;
+  border-color: #05192D;
+  color: #05192D;
+  background-color: #05192D;
   padding: 0 15px;
   margin-left: 16px;
 }
@@ -334,8 +334,8 @@ exports[`<AlertModal /> isOpen renders the modal via a portal when true 1`] = `
 
 .emotion-13:hover {
   background-color: rgba(5, 25, 45, 0.15);
-  border-color: #05192d;
-  color: #05192d;
+  border-color: #05192D;
+  color: #05192D;
 }
 
 .emotion-13:hover {
@@ -344,7 +344,7 @@ exports[`<AlertModal /> isOpen renders the modal via a portal when true 1`] = `
 }
 
 .emotion-13:focus::after {
-  border: 1px dashed #ffffff;
+  border: 1px dashed #FFFFFF;
   border-radius: 2px;
   bottom: 2px;
   content: '';
@@ -359,7 +359,7 @@ exports[`<AlertModal /> isOpen renders the modal via a portal when true 1`] = `
 }
 
 .emotion-13:focus-visible::after {
-  border: 1px dashed #ffffff;
+  border: 1px dashed #FFFFFF;
   border-radius: 2px;
   bottom: 2px;
   content: '';
@@ -371,14 +371,14 @@ exports[`<AlertModal /> isOpen renders the modal via a portal when true 1`] = `
 
 .emotion-14 {
   -webkit-font-smoothing: antialiased;
-  color: #05192d;
+  color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
   font-size: 14px;
   font-weight: 400;
   font-size: 14px;
-  line-height: 44px;
-  color: #ffffff;
+  line-height: 32px;
+  color: #FFFFFF;
   font-weight: bold;
 }
 
@@ -423,9 +423,6 @@ exports[`<AlertModal /> isOpen renders the modal via a portal when true 1`] = `
             viewBox="0 0 18 18"
             width="16"
           >
-            <title>
-              Cross
-            </title>
             <path
               d="M9.005 7.625l4.83-4.83a.976.976 0 011.38 1.38l-4.83 4.83 4.82 4.82a.976.976 0 11-1.38 1.38l-4.82-4.82-4.83 4.83a.976.976 0 01-1.38-1.38l4.83-4.83-4.84-4.84a.976.976 0 111.38-1.38l4.84 4.84z"
               fill="currentColor"
@@ -439,11 +436,11 @@ exports[`<AlertModal /> isOpen renders the modal via a portal when true 1`] = `
           <div
             class="emotion-7"
           >
-            <h1
+            <h2
               class="emotion-8"
             >
               test title
-            </h1>
+            </h2>
             <p
               class="emotion-9"
             >

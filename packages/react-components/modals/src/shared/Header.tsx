@@ -12,13 +12,13 @@ const Header = ({ children }: HeaderProps): JSX.Element => (
   <header
     css={{
       flex: 'none',
-      paddingBottom: tokens.spacing.small,
-      paddingLeft: tokens.spacing.medium,
-      paddingRight: tokens.spacing.medium,
-      paddingTop: tokens.spacing.medium,
+      paddingBottom: tokens.spacing.medium,
+      paddingLeft: tokens.spacing.large,
+      paddingRight: tokens.spacing.large,
+      paddingTop: tokens.spacing.large,
     }}
   >
-    <Heading as="h1" size={700}>
+    <Heading as="h2" size={650}>
       {children}
     </Heading>
   </header>

@@ -70,17 +70,11 @@ const baseLoadingStyle = css({
   position: 'relative',
 });
 
-const getSize = (size: 'small' | 'medium' | 'large'): SerializedStyles => {
-  if (size === 'large') {
-    return css({ padding: '0 31px' });
-  }
+const getSize = (): SerializedStyles => {
   return css({ padding: '0 15px' });
 };
 
-const getIconSize = (size: 'small' | 'medium' | 'large'): SerializedStyles => {
-  if (size === 'large') {
-    return css({ padding: '19px' });
-  }
+const getIconSize = (size: 'small' | 'medium'): SerializedStyles => {
   if (size === 'small') {
     return css({ padding: '8px' });
   }
@@ -88,7 +82,6 @@ const getIconSize = (size: 'small' | 'medium' | 'large'): SerializedStyles => {
 };
 
 const fontSizes = {
-  large: { fontSize: tokens.fontSizes.xxlarge, lineHeight: '60px' },
   medium: { fontSize: tokens.fontSizes.medium, lineHeight: '44px' },
   small: { fontSize: tokens.fontSizes.medium, lineHeight: '32px' },
 };

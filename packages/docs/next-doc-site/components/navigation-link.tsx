@@ -11,9 +11,9 @@ const linkStyle = css`
   font-size: ${tokens.fontSizes.medium};
   font-weight: ${tokens.fontWeights.regular};
   font-family: ${tokens.fontFamilies.sansSerif};
+  line-height: ${tokens.lineHeights.relaxed};
   padding: 8px 48px;
   text-decoration: none;
-  line-height: 1.5;
   user-select: none;
 
   &:hover {

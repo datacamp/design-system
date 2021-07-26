@@ -9,7 +9,7 @@ const codeStyle = css({
   fontSize: tokens.fontSizes.small,
   fontVariantLigatures: 'none',
   letterSpacing: 0,
-  lineHeight: tokens.lineHeights.medium,
+  lineHeight: tokens.lineHeights.relaxed,
   margin: 0,
   padding: 0,
 });

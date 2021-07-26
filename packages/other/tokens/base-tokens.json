@@ -1,7 +1,8 @@
 {
   "sizing": {
-    "small": "36px",
-    "medium": "48px"
+    "small": "24px",
+    "medium": "36px",
+    "large": "48px"
   },
   "spacing": {
     "xsmall": "4px",
@@ -11,53 +12,61 @@
     "xlarge": "32px"
   },
   "colors": {
-    "navyLight": "#213147",
-    "navy": "#05192d",
-    "navyDark": "#000820",
-    "navySubtleTextOnDark": "#9ba3ab",
-    "navySubtleTextOnLight": "#65707c",
-    "greenLight": "#65ff8f",
-    "green": "#03ef62",
-    "greenDark": "#00c53b",
-    "greenDarkText": "#008700",
-    "white": "#ffffff",
-    "greySubtle": "#f7f7fc",
-    "greyLight": "#efefef",
-    "grey": "#e8e8ea",
-    "greyMedium": "#d9d9e2",
-    "greyDark": "#848c92",
-    "beigeSubtle": "#fffbf3",
-    "beigeLight": "#f7f3eb",
-    "beige": "#efebe4",
-    "beigeMedium": "#e5e1da",
-    "redLight": "#ff782d",
-    "red": "#ff5400",
-    "redDark": "#dd3400",
-    "redDarkText": "#c01100",
-    "orangeLight": "#ffbc4b",
-    "orange": "#ff931e",
-    "orangeDark": "#d87300",
-    "orangeDarkText": "#b75900",
-    "yellowLight": "#ffec3c",
-    "yellow": "#fcce0d",
-    "yellowDark": "#cfa600",
-    "yellowDarkText": "#907000",
-    "blue": "#06bdfc",
-    "blueDark": "#009bd8",
-    "blueLight": "#60e7ff",
-    "blueDarkText": "#007bb6",
-    "purpleLight": "#974dff",
-    "purple": "#7933ff",
-    "purpleDark": "#5646a5",
-    "purpleDarkText": "#5646a5",
-    "pinkLight": "#ff95cf",
-    "pink": "#ff6ea9",
-    "pinkDark": "#dc4d8b",
-    "pinkDarkText": "#bf3072",
-    "brandFacebook": "#1778f2",
-    "brandTwitter": "#00acee",
-    "brandGoogle": "#db4437",
-    "brandLinkedIn": "#0e76a8"
+    "primary": {
+      "navyLight": "#213147",
+      "navy": "#05192D",
+      "navyDark": "#000820",
+      "navySubtleTextOnDark": "#9BA3AB",
+      "navySubtleTextOnLight": "#65707C",
+      "greenLight": "#65FF8F",
+      "green": "#03EF62",
+      "greenDark": "#00C53B",
+      "greenDarkText": "#008700"
+    },
+    "neutral": {
+      "white": "#FFFFFF",
+      "greySubtle": "#F7F7FC",
+      "greyLight": "#EFEFEF",
+      "grey": "#E8E8EA",
+      "greyMedium": "#D9D9E2",
+      "greyDark": "#848C92",
+      "beigeSubtle": "#FFFBF3",
+      "beigeLight": "#F7F3EB",
+      "beige": "#EFEBE4",
+      "beigeMedium": "#E5E1DA"
+    },
+    "accent": {
+      "redLight": "#FF782D",
+      "red": "#FF5400",
+      "redDark": "#DD3400",
+      "redDarkText": "#C01100",
+      "orangeLight": "#FFBC4B",
+      "orange": "#FF931E",
+      "orangeDark": "#D87300",
+      "orangeDarkText": "#B75900",
+      "yellowLight": "#FFEC3C",
+      "yellow": "#FCCE0D",
+      "yellowDark": "#CFA600",
+      "yellowDarkText": "#907000",
+      "blueLight": "#60E7FF",
+      "blue": "#06BDFC",
+      "blueDark": "#009BD8",
+      "blueDarkText": "#007BB6",
+      "purpleLight": "#974DFF",
+      "purple": "#7933FF",
+      "purpleDark": "#5646A5",
+      "purpleDarkText": "#5646A5",
+      "pinkLight": "#FF95CF",
+      "pink": "#FF6EA9",
+      "pinkDark": "#DC4D8B",
+      "pinkDarkText": "#BF3072"
+    },
+    "brand": {
+      "brandFacebook": "#1778F2",
+      "brandTwitter": "#00ACEE",
+      "brandGoogle": "#DB4437",
+      "brandLinkedIn": "#0E76A8"
+    }
   },
   "borderRadius": {
     "medium": "4px",
@@ -108,13 +117,12 @@
     }
   },
   "fontWeights": {
-    "regular": 400,
-    "light": 100,
-    "bold": 800
+    "regular": "Regular",
+    "bold": "Bold"
   },
   "fontFamilies": {
-    "sansSerif": "Studio-Feixen-Sans, Arial, sans-serif",
-    "mono": "JetBrainsMonoNL, Menlo, Monaco, 'Courier New', monospace"
+    "sansSerif": "Studio Feixen Sans",
+    "mono": "JetBrains Mono NL"
   },
   "fontSizes": {
     "small": "12px",
@@ -125,33 +133,152 @@
     "huge": "28px"
   },
   "letterSpacing": {
-    "default": "0px",
     "tight": "-0.5px",
+    "default": "0px",
     "relaxed": "1.5px"
   },
   "lineHeights": {
-    "small": "16px",
-    "medium": "20px",
-    "large": "22px",
-    "xlarge": "24px",
-    "xxlarge": "34px"
+    "tight": "100%",
+    "default": "125%",
+    "relaxed": "150%"
   },
   "opacity": {
     "low": "15%",
     "medium": "40%",
-    "height": "60%"
+    "high": "60%"
   },
   "zIndex": {
     "default": 1,
     "sticky": 100,
     "dropdown": 7000,
-    "modal": 9000,
     "overlay": 8000,
+    "modal": 9000,
     "toast": 10000
   },
   "breakpoints": {
     "small": "480px",
     "medium": "820px",
     "large": "1480px"
+  },
+  "paragraphSpacing": {
+    "default": "0px"
+  },
+  "typography": {
+    "heading": {
+      "h1": {
+        "fontFamily": "$fontFamilies.sansSerif",
+        "fontWeight": "$fontWeights.bold",
+        "lineHeight": "$lineHeights.default",
+        "fontSize": "$fontSizes.xxlarge",
+        "letterSpacing": "$letterSpacing.default",
+        "paragraphSpacing": "$paragraphSpacing.default"
+      },
+      "h2": {
+        "fontFamily": "$fontFamilies.sansSerif",
+        "fontWeight": "$fontWeights.bold",
+        "lineHeight": "$lineHeights.default",
+        "fontSize": "$fontSizes.xlarge",
+        "letterSpacing": "$letterSpacing.default",
+        "paragraphSpacing": "$paragraphSpacing.default"
+      },
+      "h3": {
+        "fontFamily": "$fontFamilies.sansSerif",
+        "fontWeight": "$fontWeights.bold",
+        "lineHeight": "$lineHeights.default",
+        "fontSize": "$fontSizes.large",
+        "letterSpacing": "$letterSpacing.default",
+        "paragraphSpacing": "$paragraphSpacing.default"
+      },
+      "h4": {
+        "fontFamily": "$fontFamilies.sansSerif",
+        "fontWeight": "$fontWeights.bold",
+        "lineHeight": "$lineHeights.default",
+        "fontSize": "$fontSizes.medium",
+        "letterSpacing": "$letterSpacing.default",
+        "paragraphSpacing": "$paragraphSpacing.default"
+      },
+      "display": {
+        "fontFamily": "$fontFamilies.sansSerif",
+        "fontWeight": "$fontWeights.bold",
+        "lineHeight": "$lineHeights.default",
+        "fontSize": "$fontSizes.huge",
+        "letterSpacing": "$letterSpacing.tight",
+        "paragraphSpacing": "$paragraphSpacing.default"
+      },
+      "chapeau": {
+        "fontFamily": "$fontFamilies.sansSerif",
+        "fontWeight": "$fontWeights.bold",
+        "lineHeight": "$lineHeights.default",
+        "fontSize": "$fontSizes.small",
+        "letterSpacing": "$letterSpacing.relaxed",
+        "paragraphSpacing": "$paragraphSpacing.default"
+      }
+    },
+    "text": {
+      "body": {
+        "fontFamily": "$fontFamilies.sansSerif",
+        "fontWeight": "$fontWeights.regular",
+        "lineHeight": "$lineHeights.relaxed",
+        "fontSize": "$fontSizes.medium",
+        "letterSpacing": "$letterSpacing.default",
+        "paragraphSpacing": "$paragraphSpacing.default"
+      },
+      "bodyBold": {
+        "fontFamily": "$fontFamilies.sansSerif",
+        "fontWeight": "$fontWeights.bold",
+        "lineHeight": "$lineHeights.relaxed",
+        "fontSize": "$fontSizes.medium",
+        "letterSpacing": "$letterSpacing.default",
+        "paragraphSpacing": "$paragraphSpacing.default"
+      },
+      "bodySmall": {
+        "fontFamily": "$fontFamilies.sansSerif",
+        "fontWeight": "$fontWeights.regular",
+        "lineHeight": "$lineHeights.relaxed",
+        "fontSize": "$fontSizes.small",
+        "letterSpacing": "$letterSpacing.default",
+        "paragraphSpacing": "$paragraphSpacing.default"
+      },
+      "bodySmallBold": {
+        "fontFamily": "$fontFamilies.sansSerif",
+        "fontWeight": "$fontWeights.bold",
+        "lineHeight": "$lineHeights.relaxed",
+        "fontSize": "$fontSizes.small",
+        "letterSpacing": "$letterSpacing.default",
+        "paragraphSpacing": "$paragraphSpacing.default"
+      },
+      "bodyLarge": {
+        "fontFamily": "$fontFamilies.sansSerif",
+        "fontWeight": "$fontWeights.regular",
+        "lineHeight": "$lineHeights.relaxed",
+        "fontSize": "$fontSizes.large",
+        "letterSpacing": "$letterSpacing.default",
+        "paragraphSpacing": "$paragraphSpacing.default"
+      },
+      "bodyLargeBold": {
+        "fontFamily": "$fontFamilies.sansSerif",
+        "fontWeight": "$fontWeights.bold",
+        "lineHeight": "$lineHeights.relaxed",
+        "fontSize": "$fontSizes.large",
+        "letterSpacing": "$letterSpacing.default",
+        "paragraphSpacing": "$paragraphSpacing.default"
+      },
+      "code": {
+        "fontFamily": "$fontFamilies.mono",
+        "fontWeight": "$fontWeights.regular",
+        "lineHeight": "$lineHeights.relaxed",
+        "fontSize": "$fontSizes.small",
+        "letterSpacing": "$letterSpacing.default",
+        "paragraphSpacing": "$paragraphSpacing.default"
+      },
+      "codeLarge": {
+        "fontFamily": "$fontFamilies.mono",
+        "fontWeight": "$fontWeights.regular",
+        "lineHeight": "$lineHeights.relaxed",
+        "fontSize": "$fontSizes.medium",
+        "letterSpacing": "$letterSpacing.default",
+        "paragraphSpacing": "$paragraphSpacing.default"
+      }
+    }
   }
- }
+}

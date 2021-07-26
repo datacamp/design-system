@@ -53,14 +53,14 @@ describe('<Dialog />', () => {
     it('closes when clicking the visible X button by default', async () => {
       const onClose = jest.fn();
 
-      const { getByTitle } = await axeRender(
+      const { getByLabelText } = await axeRender(
         <Dialog isOpen onClose={onClose} width={600}>
           children
         </Dialog>,
         getRenderOptions(),
       );
 
-      const closeButton = getByTitle('Cross') as HTMLElement;
+      const closeButton = getByLabelText('Close') as HTMLElement;
 
       userEvent.click(closeButton);
       expect(onClose).toHaveBeenCalledTimes(1);
@@ -70,14 +70,14 @@ describe('<Dialog />', () => {
     it('closes when clicking the visible X button when hideCloseButton=false', async () => {
       const onClose = jest.fn();
 
-      const { getByTitle } = await axeRender(
+      const { getByLabelText } = await axeRender(
         <Dialog hideCloseButton={false} isOpen onClose={onClose} width={600}>
           children
         </Dialog>,
         getRenderOptions(),
       );
 
-      const closeButton = getByTitle('Cross') as HTMLElement;
+      const closeButton = getByLabelText('Close') as HTMLElement;
 
       userEvent.click(closeButton);
       expect(onClose).toHaveBeenCalledTimes(1);
@@ -87,14 +87,14 @@ describe('<Dialog />', () => {
     it("doesn't show the X button when hideCloseButton is true", async () => {
       const onClose = jest.fn();
 
-      const { queryByTitle } = await axeRender(
+      const { queryByLabelText } = await axeRender(
         <Dialog hideCloseButton isOpen onClose={onClose} width={600}>
           children
         </Dialog>,
         getRenderOptions(),
       );
 
-      expect(queryByTitle('Cross')).not.toBeInTheDocument();
+      expect(queryByLabelText('Close')).not.toBeInTheDocument();
     });
   });
 

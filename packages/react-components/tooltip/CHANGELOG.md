@@ -3,6 +3,20 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.0.0-beta.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-tooltip@0.2.12-beta.0...@datacamp/waffles-tooltip@1.0.0-beta.0) (2021-07-15)
+
+
+* feat!: use new tokens in Tooltip ([31f2565](https://github.com/datacamp/design-system/commit/31f2565))
+
+
+### BREAKING CHANGES
+
+* add new tokens
+
+
+
+
+
 ## [0.2.12-beta.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-tooltip@0.2.11...@datacamp/waffles-tooltip@0.2.12-beta.0) (2021-07-12)
 
 **Note:** Version bump only for package @datacamp/waffles-tooltip

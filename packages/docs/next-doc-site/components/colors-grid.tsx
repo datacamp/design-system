@@ -32,7 +32,7 @@ const itemStyle = css`
 const itemLabelStyle = css`
   font-family: ${tokens.fontFamilies.sansSerif};
   font-size: ${tokens.fontSizes.medium};
-  line-height: ${tokens.lineHeights.medium};
+  line-height: ${tokens.lineHeights.relaxed};
 `;
 
 const MAX_ITEMS_PER_ROW = 4;

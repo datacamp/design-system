@@ -4,7 +4,7 @@ import { Fragment } from 'react';
 function Example(): JSX.Element {
   return (
     <Fragment>
-      <Heading as="h4" size={300}>
+      <Heading as="h4" size={500}>
         Fruits
       </Heading>
       <List ordered>

@@ -3,6 +3,26 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.10.0-beta.1](https://github.com/datacamp/design-system/compare/@datacamp/waffles-next-doc-site@0.10.0-beta.0...@datacamp/waffles-next-doc-site@0.10.0-beta.1) (2021-07-15)
+
+
+### Features
+
+* add migration guide ([2bd0904](https://github.com/datacamp/design-system/commit/2bd0904))
+* add new button example ([8c2716a](https://github.com/datacamp/design-system/commit/8c2716a))
+* add new icons zip file ([7bcb4ae](https://github.com/datacamp/design-system/commit/7bcb4ae))
+* adjust a few docs components ([6707885](https://github.com/datacamp/design-system/commit/6707885))
+* adjust downoad button ([1ec06bc](https://github.com/datacamp/design-system/commit/1ec06bc))
+* update card examples ([a80d811](https://github.com/datacamp/design-system/commit/a80d811))
+* update docs ([7c1c290](https://github.com/datacamp/design-system/commit/7c1c290))
+* update Icons docs ([4ddb53e](https://github.com/datacamp/design-system/commit/4ddb53e))
+* update list of neutral colors ([2720085](https://github.com/datacamp/design-system/commit/2720085))
+* update tokens docs ([d9544be](https://github.com/datacamp/design-system/commit/d9544be))
+
+
+
+
+
 # [0.10.0-beta.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-next-doc-site@0.9.0...@datacamp/waffles-next-doc-site@0.10.0-beta.0) (2021-07-12)
 
 

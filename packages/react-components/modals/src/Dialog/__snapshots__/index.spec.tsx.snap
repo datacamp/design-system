@@ -96,7 +96,7 @@ exports[`<Dialog /> isOpen renders the modal via a portal when true 1`] = `
   background-color: white;
   border: none;
   border-radius: 2px;
-  color: #05192d;
+  color: #05192D;
   cursor: pointer;
   display: -webkit-box;
   display: -webkit-flex;
@@ -120,11 +120,11 @@ exports[`<Dialog /> isOpen renders the modal via a portal when true 1`] = `
 }
 
 .emotion-5:active {
-  color: #03ef62;
+  color: #03EF62;
 }
 
 .emotion-5:disabled {
-  color: #d9d9e2;
+  color: #D9D9E2;
 }
 
 .emotion-5:disabled:hover,
@@ -133,11 +133,11 @@ exports[`<Dialog /> isOpen renders the modal via a portal when true 1`] = `
 }
 
 .emotion-5:focus {
-  background-color: #efefef;
+  background-color: #EFEFEF;
 }
 
 .emotion-5:hover {
-  background-color: #efefef;
+  background-color: #EFEFEF;
 }
 
 .emotion-6 {
@@ -199,9 +199,6 @@ exports[`<Dialog /> isOpen renders the modal via a portal when true 1`] = `
             viewBox="0 0 18 18"
             width="16"
           >
-            <title>
-              Cross
-            </title>
             <path
               d="M9.005 7.625l4.83-4.83a.976.976 0 011.38 1.38l-4.83 4.83 4.82 4.82a.976.976 0 11-1.38 1.38l-4.82-4.82-4.83 4.83a.976.976 0 01-1.38-1.38l4.83-4.83-4.84-4.84a.976.976 0 111.38-1.38l4.84 4.84z"
               fill="currentColor"

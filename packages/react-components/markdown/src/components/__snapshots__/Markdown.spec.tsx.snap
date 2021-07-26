@@ -3,10 +3,10 @@
 exports[`<Markdown /> renders 1`] = `
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
-  color: #05192d;
+  color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
-  color: #05192d;
+  color: #05192D;
   font-weight: 800;
   margin: 0;
   overflow: hidden;
@@ -14,7 +14,7 @@ exports[`<Markdown /> renders 1`] = `
   white-space: nowrap;
   font-size: 28px;
   letter-spacing: 0px;
-  line-height: 34px;
+  line-height: 1.25;
 }
 
 *:not(style)~.emotion-0 {
@@ -23,10 +23,10 @@ exports[`<Markdown /> renders 1`] = `
 
 .emotion-1 {
   -webkit-font-smoothing: antialiased;
-  color: #05192d;
+  color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
-  color: #05192d;
+  color: #05192D;
   font-weight: 800;
   margin: 0;
   overflow: hidden;
@@ -34,7 +34,7 @@ exports[`<Markdown /> renders 1`] = `
   white-space: nowrap;
   font-size: 20px;
   letter-spacing: 0px;
-  line-height: 24px;
+  line-height: 1.25;
 }
 
 *:not(style)~.emotion-1 {
@@ -43,10 +43,10 @@ exports[`<Markdown /> renders 1`] = `
 
 .emotion-2 {
   -webkit-font-smoothing: antialiased;
-  color: #05192d;
+  color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
-  color: #05192d;
+  color: #05192D;
   font-weight: 800;
   margin: 0;
   overflow: hidden;
@@ -54,7 +54,7 @@ exports[`<Markdown /> renders 1`] = `
   white-space: nowrap;
   font-size: 16px;
   letter-spacing: 0px;
-  line-height: 20px;
+  line-height: 1.25;
 }
 
 *:not(style)~.emotion-2 {
@@ -63,10 +63,10 @@ exports[`<Markdown /> renders 1`] = `
 
 .emotion-3 {
   -webkit-font-smoothing: antialiased;
-  color: #05192d;
+  color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
-  color: #05192d;
+  color: #05192D;
   font-weight: 800;
   margin: 0;
   overflow: hidden;
@@ -74,7 +74,7 @@ exports[`<Markdown /> renders 1`] = `
   white-space: nowrap;
   font-size: 14px;
   letter-spacing: 0px;
-  line-height: 20px;
+  line-height: 1.25;
 }
 
 *:not(style)~.emotion-3 {
@@ -83,10 +83,10 @@ exports[`<Markdown /> renders 1`] = `
 
 .emotion-4 {
   -webkit-font-smoothing: antialiased;
-  color: #05192d;
+  color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
-  color: #05192d;
+  color: #05192D;
   font-weight: 800;
   margin: 0;
   overflow: hidden;
@@ -94,7 +94,7 @@ exports[`<Markdown /> renders 1`] = `
   white-space: nowrap;
   font-size: 12px;
   letter-spacing: 0px;
-  line-height: 16px;
+  line-height: 1.25;
 }
 
 *:not(style)~.emotion-4 {
@@ -103,21 +103,21 @@ exports[`<Markdown /> renders 1`] = `
 
 .emotion-7 {
   -webkit-font-smoothing: antialiased;
-  color: #05192d;
+  color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
   font-weight: 800;
-  line-height: 20px;
+  line-height: 1.5;
 }
 
 .emotion-8 {
   -webkit-font-smoothing: antialiased;
-  color: #05192d;
+  color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
   font-size: 14px;
   font-weight: 400;
-  line-height: 20px;
+  line-height: 1.5;
   margin: 0;
 }
 
@@ -127,7 +127,7 @@ exports[`<Markdown /> renders 1`] = `
 
 .emotion-12 {
   -webkit-font-smoothing: antialiased;
-  color: #05192d;
+  color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
   font-style: italic;
@@ -137,7 +137,7 @@ exports[`<Markdown /> renders 1`] = `
 
 .emotion-26 {
   -webkit-font-smoothing: antialiased;
-  color: #05192d;
+  color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
   list-style-position: inside;
@@ -150,37 +150,36 @@ exports[`<Markdown /> renders 1`] = `
 }
 
 *:not(style)~.emotion-26 {
-  margin-top: 16px;
+  margin-top: 4px;
 }
 
 .emotion-27 {
   font-size: 14px;
-  line-height: 20px;
-  margin-top: 8px;
+  line-height: 1.5;
 }
 
 .emotion-46 {
   border: 0;
   border-radius: 4px;
-  color: #05192d;
+  color: #05192D;
   font-family: JetBrainsMonoNL,Menlo,Monaco,'Courier New',monospace;
   font-size: 12px;
   font-variant-ligatures: none;
   letter-spacing: 0;
-  line-height: 20px;
+  line-height: 1.5;
   margin: 0;
   padding: 0;
-  background-color: #efebe4;
+  background-color: #EFEBE4;
   margin: 0 2px;
   padding: 2px 4px;
   white-space: nowrap;
 }
 
 .emotion-47 {
-  background-color: #efebe4;
+  background-color: #EFEBE4;
   border: 0;
   border-radius: 4px;
-  line-height: 20px;
+  line-height: 1.5;
   margin: 0;
   overflow: scroll;
   padding: 4px 8px;
@@ -193,12 +192,12 @@ exports[`<Markdown /> renders 1`] = `
 .emotion-48 {
   border: 0;
   border-radius: 4px;
-  color: #05192d;
+  color: #05192D;
   font-family: JetBrainsMonoNL,Menlo,Monaco,'Courier New',monospace;
   font-size: 12px;
   font-variant-ligatures: none;
   letter-spacing: 0;
-  line-height: 20px;
+  line-height: 1.5;
   margin: 0;
   padding: 0;
 }

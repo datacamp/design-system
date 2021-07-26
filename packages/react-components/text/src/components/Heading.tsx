@@ -71,18 +71,6 @@ const sizeMap = {
   900: tokens.fontSizes.huge,
 };
 
-const lineHeightMap = {
-  200: tokens.lineHeights.small,
-  300: tokens.lineHeights.small,
-  400: tokens.lineHeights.small,
-  500: tokens.lineHeights.medium,
-  600: tokens.lineHeights.medium,
-  650: tokens.lineHeights.large,
-  700: tokens.lineHeights.xlarge,
-  800: tokens.lineHeights.xxlarge,
-  900: tokens.lineHeights.xxlarge,
-};
-
 const letterSpacingMap = {
   200: tokens.letterSpacing.relaxed,
   300: tokens.letterSpacing.default,
@@ -103,7 +91,7 @@ const getStyle = (size: Size, multiLine: boolean): SerializedStyles => {
     {
       fontSize: sizeMap[size],
       letterSpacing: letterSpacingMap[size],
-      lineHeight: lineHeightMap[size],
+      lineHeight: tokens.lineHeights.default,
       [ssrSafeNotFirstChildSelector]: {
         marginTop: size >= 800 ? tokens.spacing.medium : tokens.spacing.small,
       },

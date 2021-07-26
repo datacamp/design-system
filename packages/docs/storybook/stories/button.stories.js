@@ -28,7 +28,7 @@ const AllButtonCombos = ({ children }) => (
     }}
   >
     {['default', 'primary', 'inverted'].map((appearance) =>
-      ['small', 'medium', 'large'].map((size) => (
+      ['small', 'medium'].map((size) => (
         <ButtonGroup key={`${appearance}${size}`}>
           {[null, 'loading', 'disabled'].map((state) => {
             return intents.map((intent) =>

@@ -1,12 +1,37 @@
 // Generate new design tokens JS file based on JSON file with Figma Tokens definitions
 // It will be used to generate both ESM and CJS modules, and TS typings
 
+// fontWeights, fontFamilies, and boxShadow have non-standard values to work with Figma Tokens
+// typography and paragraphSpacing are defined for convenience  and are removed
+// colors are grouped for convenience and are flattened
+
 const fs = require('fs');
 const util = require('util');
 
 const baseTokens = require('./base-tokens.json'); // Already parsed to JS
 
-// Transform boxShadow tokens group expected by Figma Tokens to CSS values
+// Mappign for Figma Tokens values and CSS couterparts
+
+const fontWeights = {
+  Bold: 800,
+  Regular: 400,
+};
+
+const fontFamilies = {
+  'JetBrains Mono NL':
+    "JetBrainsMonoNL, Menlo, Monaco, 'Courier New', monospace",
+  'Studio Feixen Sans': 'Studio-Feixen-Sans, Arial, sans-serif',
+};
+
+// Transformations for colors, boxShadow, fontWeights, fontFamilies, and lineHeights
+
+function transformedColors(baseColors) {
+  return Object.entries(baseColors).reduce((flattenedColors, currentEntry) => {
+    const groupedColors = currentEntry[1];
+    return Object.assign(flattenedColors, { ...groupedColors });
+  }, {});
+}
+
 function transformedBoxShadows(baseBoxShadows) {
   return Object.fromEntries(
     Object.entries(baseBoxShadows).map((entry) => {
@@ -20,14 +45,60 @@ function transformedBoxShadows(baseBoxShadows) {
   );
 }
 
-// Replace boxShadow tokens group with transformed ones
+function transformedFontWeights(baseFontWeights) {
+  return Object.fromEntries(
+    Object.entries(baseFontWeights).map((entry) => {
+      const [key, baseFontWeight] = entry;
+      return [key, fontWeights[baseFontWeight]];
+    }),
+  );
+}
+
+function transformedFontFamilies(baseFontFamilies) {
+  return Object.fromEntries(
+    Object.entries(baseFontFamilies).map((entry) => {
+      const [key, baseFontFamily] = entry;
+      return [key, fontFamilies[baseFontFamily]];
+    }),
+  );
+}
+
+function transformedLineHeights(baseLineHeights) {
+  return Object.fromEntries(
+    Object.entries(baseLineHeights).map((entry) => {
+      const [key, baseLineHeight] = entry;
+      // Because percanteges are really quirky in CSS, convert them to unitless
+      const regularLineHeight = parseFloat(baseLineHeight) / 100;
+      return [key, regularLineHeight];
+    }),
+  );
+}
+
+// Apply trasformations and remove typography and paragraphSpacing sections
 function transformedBaseTokens(tokens) {
-  return {
+  const transformedTokens = {
     ...tokens,
     boxShadow: {
       ...transformedBoxShadows(tokens.boxShadow),
     },
+    colors: {
+      ...transformedColors(tokens.colors),
+    },
+    fontFamilies: {
+      ...transformedFontFamilies(tokens.fontFamilies),
+    },
+    fontWeights: {
+      ...transformedFontWeights(tokens.fontWeights),
+    },
+    lineHeights: {
+      ...transformedLineHeights(tokens.lineHeights),
+    },
   };
+
+  delete transformedTokens.typography;
+  delete transformedTokens.paragraphSpacing;
+
+  return transformedTokens;
 }
 
 // Create separate export for each token group (like colors, lineHeights, etc.)
@@ -71,7 +142,9 @@ function tokensToEsModule(tokens) {
 
 const newTokens = tokensToEsModule(transformedBaseTokens(baseTokens));
 
-// Assuming lib directory already exists
+if (!fs.existsSync('./lib')) {
+  fs.mkdirSync('./lib');
+}
 fs.writeFileSync('./lib/tokens.js', newTokens);
 
 // Exporting utils for unit tests
@@ -81,4 +154,8 @@ module.exports = {
   tokensToEsModule,
   transformedBaseTokens,
   transformedBoxShadows,
+  transformedColors,
+  transformedFontFamilies,
+  transformedFontWeights,
+  transformedLineHeights,
 };
