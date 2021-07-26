@@ -101,7 +101,7 @@ const AlertDialog = ({
       width={480}
     >
       <div css={css({ padding: 32, textAlign: 'center' })}>
-        <Heading as="h1" multiLine size={600}>
+        <Heading as="h2" multiLine size={650}>
           {title}
         </Heading>
         <Paragraph>{description}</Paragraph>

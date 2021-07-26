@@ -14,9 +14,9 @@ const Body = ({ children }: BodyProps): JSX.Element => (
     css={{
       flex: 'auto',
       overflowY: 'auto',
-      paddingBottom: tokens.spacing.medium,
-      paddingLeft: tokens.spacing.medium,
-      paddingRight: tokens.spacing.medium,
+      paddingBottom: tokens.spacing.large,
+      paddingLeft: tokens.spacing.large,
+      paddingRight: tokens.spacing.large,
     }}
     tabIndex={0} // must be focusable to allow keyboard scrolling
   >
