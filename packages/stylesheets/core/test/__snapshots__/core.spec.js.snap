@@ -8522,25 +8522,6 @@ Object {
     Object {
       "children": Array [
         Object {
-          "extension": ".js",
-          "name": "iconNames.js",
-          "path": "lib/js/iconNames.js",
-          "type": "file",
-        },
-        Object {
-          "extension": ".js",
-          "name": "index.js",
-          "path": "lib/js/index.js",
-          "type": "file",
-        },
-      ],
-      "name": "js",
-      "path": "lib/js",
-      "type": "directory",
-    },
-    Object {
-      "children": Array [
-        Object {
           "extension": ".scss",
           "name": "core-ingredients.scss",
           "path": "lib/scss/core-ingredients.scss",
