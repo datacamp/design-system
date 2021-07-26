@@ -103,7 +103,7 @@ describe('<AlertModal />', () => {
     it('closes when clicking the X button', async () => {
       const onClose = jest.fn();
 
-      const { getByTitle } = await axeRender(
+      const { getByLabelText } = await axeRender(
         <AlertDialog
           description="test description"
           isOpen
@@ -114,7 +114,7 @@ describe('<AlertModal />', () => {
         getRenderOptions(),
       );
 
-      const closeButton = getByTitle('Cross') as HTMLElement;
+      const closeButton = getByLabelText('Close') as HTMLElement;
 
       userEvent.click(closeButton);
       expect(onClose).toHaveBeenCalledTimes(1);
@@ -237,7 +237,7 @@ describe('<AlertModal />', () => {
     it('disables the X button when loading', async () => {
       const onClose = jest.fn();
 
-      const { getByTitle } = await axeRender(
+      const { getByLabelText } = await axeRender(
         <AlertDialog
           description="test description"
           isOpen
@@ -249,7 +249,7 @@ describe('<AlertModal />', () => {
         getRenderOptions(),
       );
 
-      const closeButton = getByTitle('Cross') as HTMLElement;
+      const closeButton = getByLabelText('Close') as HTMLElement;
 
       userEvent.click(closeButton);
       expect(onClose).not.toHaveBeenCalled();
