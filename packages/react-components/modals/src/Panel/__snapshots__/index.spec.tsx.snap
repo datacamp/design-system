@@ -185,9 +185,6 @@ exports[`<Panel /> isOpen renders the modal via a portal when true 1`] = `
             viewBox="0 0 18 18"
             width="16"
           >
-            <title>
-              Cross
-            </title>
             <path
               d="M9.005 7.625l4.83-4.83a.976.976 0 011.38 1.38l-4.83 4.83 4.82 4.82a.976.976 0 11-1.38 1.38l-4.82-4.82-4.83 4.83a.976.976 0 01-1.38-1.38l4.83-4.83-4.84-4.84a.976.976 0 111.38-1.38l4.84 4.84z"
               fill="currentColor"
