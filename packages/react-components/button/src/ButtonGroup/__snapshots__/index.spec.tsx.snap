@@ -36,8 +36,8 @@ exports[`ButtonGroup renders the buttons or CompactButtonGroups with 16px spaces
   vertical-align: baseline;
   white-space: nowrap;
   background-color: transparent;
-  border-color: #05192d;
-  color: #05192d;
+  border-color: #05192D;
+  color: #05192D;
   padding: 0 15px;
   margin-left: 0;
 }
@@ -64,20 +64,20 @@ exports[`ButtonGroup renders the buttons or CompactButtonGroups with 16px spaces
 
 .emotion-1:hover {
   background-color: rgba(5, 25, 45, 0.15);
-  border-color: #05192d;
-  color: #05192d;
+  border-color: #05192D;
+  color: #05192D;
 }
 
 .emotion-2 {
   -webkit-font-smoothing: antialiased;
-  color: #05192d;
+  color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
   font-size: 14px;
   font-weight: 400;
   font-size: 14px;
-  line-height: 44px;
-  color: #05192d;
+  line-height: 32px;
+  color: #05192D;
   font-weight: bold;
 }
 
@@ -108,8 +108,8 @@ exports[`ButtonGroup renders the buttons or CompactButtonGroups with 16px spaces
   vertical-align: baseline;
   white-space: nowrap;
   background-color: transparent;
-  border-color: #05192d;
-  color: #05192d;
+  border-color: #05192D;
+  color: #05192D;
   padding: 0 15px;
   margin-left: 16px;
 }
@@ -136,8 +136,8 @@ exports[`ButtonGroup renders the buttons or CompactButtonGroups with 16px spaces
 
 .emotion-3:hover {
   background-color: rgba(5, 25, 45, 0.15);
-  border-color: #05192d;
-  color: #05192d;
+  border-color: #05192D;
+  color: #05192D;
 }
 
 .emotion-7 {
@@ -176,8 +176,8 @@ exports[`ButtonGroup renders the buttons or CompactButtonGroups with 16px spaces
   vertical-align: baseline;
   white-space: nowrap;
   background-color: transparent;
-  border-color: #05192d;
-  color: #05192d;
+  border-color: #05192D;
+  color: #05192D;
   padding: 0 15px;
   border-radius: 4px 0px 0px 4px;
   margin: 0;
@@ -205,8 +205,8 @@ exports[`ButtonGroup renders the buttons or CompactButtonGroups with 16px spaces
 
 .emotion-8:hover {
   background-color: rgba(5, 25, 45, 0.15);
-  border-color: #05192d;
-  color: #05192d;
+  border-color: #05192D;
+  color: #05192D;
 }
 
 .emotion-8:active {
@@ -247,8 +247,8 @@ exports[`ButtonGroup renders the buttons or CompactButtonGroups with 16px spaces
   vertical-align: baseline;
   white-space: nowrap;
   background-color: transparent;
-  border-color: #05192d;
-  color: #05192d;
+  border-color: #05192D;
+  color: #05192D;
   padding: 0 15px;
   border-radius: 0px 4px 4px 0px;
   margin: 0;
@@ -277,8 +277,8 @@ exports[`ButtonGroup renders the buttons or CompactButtonGroups with 16px spaces
 
 .emotion-10:hover {
   background-color: rgba(5, 25, 45, 0.15);
-  border-color: #05192d;
-  color: #05192d;
+  border-color: #05192D;
+  color: #05192D;
 }
 
 .emotion-10:active {
@@ -352,7 +352,7 @@ exports[`ButtonGroup renders the buttons or CompactButtonGroups with 16px spaces
 </div>
 `;
 
-exports[`ButtonGroup renders the small buttons or CompactButtonGroups with 8px spaces 1`] = `
+exports[`ButtonGroup renders the medium buttons or CompactButtonGroups with 8px spaces 1`] = `
 .emotion-0 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -388,8 +388,8 @@ exports[`ButtonGroup renders the small buttons or CompactButtonGroups with 8px s
   vertical-align: baseline;
   white-space: nowrap;
   background-color: transparent;
-  border-color: #05192d;
-  color: #05192d;
+  border-color: #05192D;
+  color: #05192D;
   padding: 0 15px;
   margin-left: 0;
 }
@@ -416,20 +416,20 @@ exports[`ButtonGroup renders the small buttons or CompactButtonGroups with 8px s
 
 .emotion-1:hover {
   background-color: rgba(5, 25, 45, 0.15);
-  border-color: #05192d;
-  color: #05192d;
+  border-color: #05192D;
+  color: #05192D;
 }
 
 .emotion-2 {
   -webkit-font-smoothing: antialiased;
-  color: #05192d;
+  color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
   font-size: 14px;
   font-weight: 400;
   font-size: 14px;
-  line-height: 32px;
-  color: #05192d;
+  line-height: 44px;
+  color: #05192D;
   font-weight: bold;
 }
 
@@ -460,8 +460,8 @@ exports[`ButtonGroup renders the small buttons or CompactButtonGroups with 8px s
   vertical-align: baseline;
   white-space: nowrap;
   background-color: transparent;
-  border-color: #05192d;
-  color: #05192d;
+  border-color: #05192D;
+  color: #05192D;
   padding: 0 15px;
   margin-left: 8px;
 }
@@ -488,8 +488,8 @@ exports[`ButtonGroup renders the small buttons or CompactButtonGroups with 8px s
 
 .emotion-3:hover {
   background-color: rgba(5, 25, 45, 0.15);
-  border-color: #05192d;
-  color: #05192d;
+  border-color: #05192D;
+  color: #05192D;
 }
 
 .emotion-7 {
@@ -528,8 +528,8 @@ exports[`ButtonGroup renders the small buttons or CompactButtonGroups with 8px s
   vertical-align: baseline;
   white-space: nowrap;
   background-color: transparent;
-  border-color: #05192d;
-  color: #05192d;
+  border-color: #05192D;
+  color: #05192D;
   padding: 0 15px;
   border-radius: 4px 0px 0px 4px;
   margin: 0;
@@ -557,8 +557,8 @@ exports[`ButtonGroup renders the small buttons or CompactButtonGroups with 8px s
 
 .emotion-8:hover {
   background-color: rgba(5, 25, 45, 0.15);
-  border-color: #05192d;
-  color: #05192d;
+  border-color: #05192D;
+  color: #05192D;
 }
 
 .emotion-8:active {
@@ -599,8 +599,8 @@ exports[`ButtonGroup renders the small buttons or CompactButtonGroups with 8px s
   vertical-align: baseline;
   white-space: nowrap;
   background-color: transparent;
-  border-color: #05192d;
-  color: #05192d;
+  border-color: #05192D;
+  color: #05192D;
   padding: 0 15px;
   border-radius: 0px 4px 4px 0px;
   margin: 0;
@@ -629,8 +629,8 @@ exports[`ButtonGroup renders the small buttons or CompactButtonGroups with 8px s
 
 .emotion-10:hover {
   background-color: rgba(5, 25, 45, 0.15);
-  border-color: #05192d;
-  color: #05192d;
+  border-color: #05192D;
+  color: #05192D;
 }
 
 .emotion-10:active {

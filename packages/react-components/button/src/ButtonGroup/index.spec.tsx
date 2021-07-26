@@ -42,23 +42,23 @@ describe('ButtonGroup', () => {
     expect(container.firstChild).toMatchSnapshot();
   });
 
-  it('renders the small buttons or CompactButtonGroups with 8px spaces', async () => {
+  it('renders the medium buttons or CompactButtonGroups with 8px spaces', async () => {
     const { container, getByText } = await axeRender(
       <ButtonGroup>
-        <Button size="small" type="submit">
+        <Button size="medium" type="submit">
           Button 1
         </Button>
-        <Button size="small" type="submit">
+        <Button size="medium" type="submit">
           Button 2
         </Button>
-        <Button size="small" type="submit">
+        <Button size="medium" type="submit">
           Button 3
         </Button>
         <CompactButtonGroup className="compact">
-          <Button size="small" type="submit">
+          <Button size="medium" type="submit">
             Button 4
           </Button>
-          <Button size="small" type="submit">
+          <Button size="medium" type="submit">
             Button 5
           </Button>
         </CompactButtonGroup>
@@ -106,7 +106,7 @@ describe('ButtonGroup', () => {
         <ButtonGroup>
           <Button type="submit">Button 1</Button>
           <Button type="submit">Button 2</Button>
-          <Button size="small" type="submit">
+          <Button size="medium" type="submit">
             Button 3
           </Button>
         </ButtonGroup>
@@ -130,10 +130,10 @@ describe('ButtonGroup', () => {
           <Button type="submit">Button 1</Button>
           <Button type="submit">Button 2</Button>
           <CompactButtonGroup>
-            <Button size="small" type="submit">
+            <Button size="medium" type="submit">
               Button 3
             </Button>
-            <Button size="small" type="submit">
+            <Button size="medium" type="submit">
               Button 4
             </Button>
           </CompactButtonGroup>

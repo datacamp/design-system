@@ -28,11 +28,11 @@ exports[`Social Media Buttons renders facebook button 1`] = `
   vertical-align: baseline;
   white-space: nowrap;
   background-color: transparent;
-  border-color: #05192d;
-  color: #05192d;
+  border-color: #05192D;
+  color: #05192D;
   padding: 0 15px;
-  border-color: #d9d9e2;
-  color: #1778f2;
+  border-color: #D9D9E2;
+  color: #1778F2;
 }
 
 .emotion-0:active {
@@ -57,26 +57,26 @@ exports[`Social Media Buttons renders facebook button 1`] = `
 
 .emotion-0:hover {
   background-color: rgba(5, 25, 45, 0.15);
-  border-color: #05192d;
-  color: #05192d;
+  border-color: #05192D;
+  color: #05192D;
 }
 
 .emotion-0:hover {
   background-color: rgba(23, 120, 242, 0.15);
-  border-color: #1778f2;
-  color: #1778f2;
+  border-color: #1778F2;
+  color: #1778F2;
 }
 
 .emotion-1 {
   -webkit-font-smoothing: antialiased;
-  color: #05192d;
+  color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
   font-size: 14px;
   font-weight: 400;
   font-size: 14px;
-  line-height: 44px;
-  color: #05192d;
+  line-height: 32px;
+  color: #05192D;
   font-weight: bold;
   margin-left: 8px;
 }
@@ -133,11 +133,11 @@ exports[`Social Media Buttons renders google button 1`] = `
   vertical-align: baseline;
   white-space: nowrap;
   background-color: transparent;
-  border-color: #05192d;
-  color: #05192d;
+  border-color: #05192D;
+  color: #05192D;
   padding: 0 15px;
-  border-color: #d9d9e2;
-  color: #db4437;
+  border-color: #D9D9E2;
+  color: #DB4437;
 }
 
 .emotion-0:active {
@@ -162,26 +162,26 @@ exports[`Social Media Buttons renders google button 1`] = `
 
 .emotion-0:hover {
   background-color: rgba(5, 25, 45, 0.15);
-  border-color: #05192d;
-  color: #05192d;
+  border-color: #05192D;
+  color: #05192D;
 }
 
 .emotion-0:hover {
   background-color: rgba(219, 68, 55, 0.15);
-  border-color: #db4437;
-  color: #db4437;
+  border-color: #DB4437;
+  color: #DB4437;
 }
 
 .emotion-1 {
   -webkit-font-smoothing: antialiased;
-  color: #05192d;
+  color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
   font-size: 14px;
   font-weight: 400;
   font-size: 14px;
-  line-height: 44px;
-  color: #05192d;
+  line-height: 32px;
+  color: #05192D;
   font-weight: bold;
   margin-left: 8px;
 }
@@ -254,11 +254,11 @@ exports[`Social Media Buttons renders linked in button 1`] = `
   vertical-align: baseline;
   white-space: nowrap;
   background-color: transparent;
-  border-color: #05192d;
-  color: #05192d;
+  border-color: #05192D;
+  color: #05192D;
   padding: 0 15px;
-  border-color: #d9d9e2;
-  color: #0e76a8;
+  border-color: #D9D9E2;
+  color: #0E76A8;
 }
 
 .emotion-0:active {
@@ -283,26 +283,26 @@ exports[`Social Media Buttons renders linked in button 1`] = `
 
 .emotion-0:hover {
   background-color: rgba(5, 25, 45, 0.15);
-  border-color: #05192d;
-  color: #05192d;
+  border-color: #05192D;
+  color: #05192D;
 }
 
 .emotion-0:hover {
   background-color: rgba(14, 118, 168, 0.15);
-  border-color: #0e76a8;
-  color: #0e76a8;
+  border-color: #0E76A8;
+  color: #0E76A8;
 }
 
 .emotion-1 {
   -webkit-font-smoothing: antialiased;
-  color: #05192d;
+  color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
   font-size: 14px;
   font-weight: 400;
   font-size: 14px;
-  line-height: 44px;
-  color: #05192d;
+  line-height: 32px;
+  color: #05192D;
   font-weight: bold;
   margin-left: 8px;
 }
@@ -359,11 +359,11 @@ exports[`Social Media Buttons renders twitter button 1`] = `
   vertical-align: baseline;
   white-space: nowrap;
   background-color: transparent;
-  border-color: #05192d;
-  color: #05192d;
+  border-color: #05192D;
+  color: #05192D;
   padding: 0 15px;
-  border-color: #d9d9e2;
-  color: #00acee;
+  border-color: #D9D9E2;
+  color: #00ACEE;
 }
 
 .emotion-0:active {
@@ -388,26 +388,26 @@ exports[`Social Media Buttons renders twitter button 1`] = `
 
 .emotion-0:hover {
   background-color: rgba(5, 25, 45, 0.15);
-  border-color: #05192d;
-  color: #05192d;
+  border-color: #05192D;
+  color: #05192D;
 }
 
 .emotion-0:hover {
   background-color: rgba(0, 172, 238, 0.15);
-  border-color: #00acee;
-  color: #00acee;
+  border-color: #00ACEE;
+  color: #00ACEE;
 }
 
 .emotion-1 {
   -webkit-font-smoothing: antialiased;
-  color: #05192d;
+  color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
   font-size: 14px;
   font-weight: 400;
   font-size: 14px;
-  line-height: 44px;
-  color: #05192d;
+  line-height: 32px;
+  color: #05192D;
   font-weight: bold;
   margin-left: 8px;
 }
