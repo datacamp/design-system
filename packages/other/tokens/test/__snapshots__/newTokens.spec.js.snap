@@ -44,7 +44,7 @@ export const colors = {
   blueLight: '#60E7FF',
   blue: '#06BDFC',
   blueDark: '#009BD8',
-  blueDarkText: '#007BB6',
+  blueDarkText: '#0075AD',
   purpleLight: '#974DFF',
   purple: '#7933FF',
   purpleDark: '#5646A5',
