@@ -58,7 +58,7 @@ exports[`<Paragraph /> renders with Strong, Small, Text, Link and Emphasis child
   color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
-  color: #007BB6;
+  color: #0075AD;
   cursor: pointer;
   font-size: 14px;
   font-weight: 400;
