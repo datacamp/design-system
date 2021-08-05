@@ -1,11 +1,12 @@
 import { Heading } from '@datacamp/waffles-text';
 import tokens from '@datacamp/waffles-tokens';
+import React from 'react';
 
 export interface HeaderProps {
   /**
    * The title of the Dialog.
    */
-  children: string;
+  children: React.ReactNode;
 }
 
 const Header = ({ children }: HeaderProps): JSX.Element => (
