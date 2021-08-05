@@ -1,6 +1,6 @@
 {
   "name": "@datacamp/waffles-icons",
-  "version": "4.5.0",
+  "version": "4.6.0",
   "main": "lib/index.js",
   "module": "es/index.js",
   "react-native": "mobile/index.js",
