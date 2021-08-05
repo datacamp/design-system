@@ -1,3 +1,4 @@
+// Trigger re-release
 import ReactModal from 'react-modal';
 
 export { default as AlertDialog } from './AlertDialog';
