@@ -202,7 +202,7 @@ const InternalInput = ({
         {({ css: getClassName }) =>
           React.cloneElement(icon, {
             className: getClassName(iconStyle),
-            size: iconSize[size],
+            size: 'medium',
           })
         }
       </ClassNames>
