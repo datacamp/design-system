@@ -6,7 +6,7 @@ export interface HeaderProps {
   /**
    * The title of the Dialog.
    */
-  children: string;
+  children: React.ReactNode;
 }
 
 const Header = ({ children }: HeaderProps): React.ReactElement => (
