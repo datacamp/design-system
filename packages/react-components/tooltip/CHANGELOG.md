@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.0.0-beta.1](https://github.com/datacamp/design-system/compare/@datacamp/waffles-tooltip@1.0.0-beta.0...@datacamp/waffles-tooltip@1.0.0-beta.1) (2021-07-26)
+
+
+### Features
+
+* increase tooltip font size ([d5beb70](https://github.com/datacamp/design-system/commit/d5beb70))
+
+
+
+
+
 # [1.0.0-beta.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-tooltip@0.2.12-beta.0...@datacamp/waffles-tooltip@1.0.0-beta.0) (2021-07-15)
 
 

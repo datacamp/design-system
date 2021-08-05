@@ -3,6 +3,20 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [8.0.0-beta.1](https://github.com/datacamp/design-system/compare/@datacamp/waffles-button@8.0.0-beta.0...@datacamp/waffles-button@8.0.0-beta.1) (2021-07-26)
+
+
+### Features
+
+* buttons in button group default to small size ([e7a31ba](https://github.com/datacamp/design-system/commit/e7a31ba))
+* deprecate large button size ([566c5cd](https://github.com/datacamp/design-system/commit/566c5cd))
+* update close button ([44531ec](https://github.com/datacamp/design-system/commit/44531ec))
+* update opacity token in UserAccountMenu ([d6d6123](https://github.com/datacamp/design-system/commit/d6d6123))
+
+
+
+
+
 # [8.0.0-beta.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-button@7.6.0-beta.0...@datacamp/waffles-button@8.0.0-beta.0) (2021-07-15)
 
 

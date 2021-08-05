@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [6.0.0-beta.1](https://github.com/datacamp/design-system/compare/@datacamp/waffles-text@6.0.0-beta.0...@datacamp/waffles-text@6.0.0-beta.1) (2021-07-26)
+
+
+### Features
+
+* remove unused light font face ([ca65393](https://github.com/datacamp/design-system/commit/ca65393))
+* update line heights across text elements ([ca74984](https://github.com/datacamp/design-system/commit/ca74984))
+
+
+
+
+
 # [6.0.0-beta.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-text@5.3.2-beta.0...@datacamp/waffles-text@6.0.0-beta.0) (2021-07-15)
 
 
