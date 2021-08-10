@@ -70,7 +70,7 @@ Levels should only be used in course names when it makes the course content clea
 We do not include “Part 1” or “Part 2” in course titles as this will cause continuity issues.
 
 ## Technologies, coding languages and packages
-We generally only add the technology when the package could be used for more than one language (ie. “Interactive Data Visualization with plotly in R / Python”).
+We generally only add the technology when the package could be used for more than one language (ie. “Interactive Data Visualization with Plotly in R / Python”).
 * Track and course names should reflect the following construction: “with” a package, “in” a technology.
 	* Ex: With pandas in Python
 	* Ex: With ggplot2 in R
