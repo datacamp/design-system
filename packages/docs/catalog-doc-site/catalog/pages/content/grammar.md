@@ -183,7 +183,7 @@ Follow the style of the original name of the package, including original capital
 * os
 * pandas
 * pickle
-* plotly
+* Plotly
 * polyglot
 * psych
 * purrr
