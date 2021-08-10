@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [5.0.0-beta.2](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/icons/compare/@datacamp/waffles-icons@5.0.0-beta.1...@datacamp/waffles-icons@5.0.0-beta.2) (2021-08-05)
+
+
+### Features
+
+* add inverted upvote icon ([0aac161](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/icons/commit/0aac161))
+* add unlink icon ([89f96a1](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/icons/commit/89f96a1))
+* add upvote icon ([1b5fe36](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/icons/commit/1b5fe36))
+
+
+
+
+
 # [5.0.0-beta.1](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/icons/compare/@datacamp/waffles-icons@5.0.0-beta.0...@datacamp/waffles-icons@5.0.0-beta.1) (2021-07-26)
 
 **Note:** Version bump only for package @datacamp/waffles-icons

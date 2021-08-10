@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [4.3.0-beta.3](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/form-elements/compare/@datacamp/waffles-form-elements@4.3.0-beta.2...@datacamp/waffles-form-elements@4.3.0-beta.3) (2021-08-05)
+
+
+### Bug Fixes
+
+* icon size mapping ([58367bf](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/form-elements/commit/58367bf))
+
+
+
+
+
 # [4.3.0-beta.2](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/form-elements/compare/@datacamp/waffles-form-elements@4.3.0-beta.1...@datacamp/waffles-form-elements@4.3.0-beta.2) (2021-07-26)
 
 **Note:** Version bump only for package @datacamp/waffles-form-elements
