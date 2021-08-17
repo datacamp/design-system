@@ -14,7 +14,10 @@ const baseStyle = css({
   boxShadow: `0px -1px 0px 0px ${tokens.colors.greyLight}`,
   display: 'flex',
   flex: 'none',
-  padding: tokens.spacing.large,
+  paddingBottom: tokens.spacing.medium,
+  paddingLeft: tokens.spacing.large,
+  paddingRight: tokens.spacing.large,
+  paddingTop: tokens.spacing.medium,
 });
 
 const twoChildrenStyle = css(baseStyle, {
