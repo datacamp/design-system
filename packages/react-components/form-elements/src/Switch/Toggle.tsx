@@ -10,7 +10,6 @@ const toggleWrapperStyle = css({
   borderRadius: 12,
   boxSizing: 'border-box',
   height: 24,
-  marginRight: 8,
   minWidth: 34,
   padding: 3,
   position: 'relative',
