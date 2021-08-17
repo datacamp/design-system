@@ -74,17 +74,24 @@ describe('snapshots', () => {
   const appearances: Array<'default' | 'inverted'> = ['default', 'inverted'];
   const disabled = [true, false];
   const checked = [true, false];
+  const fullWidth = [true, false];
 
   appearances.forEach((appearance) => {
     disabled.forEach((isDiabled) => {
       checked.forEach((isChecked) => {
-        it(`renders a switch with appearance ${appearance}, disabled=${isDiabled}, checked=${isChecked}`, async () => {
-          const { container } = await render(
-            <Switch appearance={appearance} disabled={isDiabled}>
-              Test
-            </Switch>,
-          );
-          expect(container.firstChild).toMatchSnapshot();
+        fullWidth.forEach((isFullWidth) => {
+          it(`renders a switch with appearance ${appearance}, disabled=${isDiabled}, checked=${isChecked}, fullWidth=${isFullWidth}`, async () => {
+            const { container } = await render(
+              <Switch
+                appearance={appearance}
+                disabled={isDiabled}
+                fullWidth={isFullWidth}
+              >
+                Test
+              </Switch>,
+            );
+            expect(container.firstChild).toMatchSnapshot();
+          });
         });
       });
     });
