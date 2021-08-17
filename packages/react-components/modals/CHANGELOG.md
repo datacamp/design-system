@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [8.0.0-beta.3](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/modals/compare/@datacamp/waffles-modals@8.0.0-beta.2...@datacamp/waffles-modals@8.0.0-beta.3) (2021-08-17)
+
+
+### Features
+
+* adjust modal's footer padding ([6f793dc](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/modals/commit/6f793dc))
+
+
+
+
+
 # [8.0.0-beta.2](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/modals/compare/@datacamp/waffles-modals@8.0.0-beta.1...@datacamp/waffles-modals@8.0.0-beta.2) (2021-08-05)
 
 

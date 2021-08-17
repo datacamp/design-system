@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.10.0-beta.4](https://github.com/datacamp/design-system/compare/@datacamp/waffles-next-doc-site@0.10.0-beta.3...@datacamp/waffles-next-doc-site@0.10.0-beta.4) (2021-08-17)
+
+
+### Bug Fixes
+
+* capitalize plotly ([048b990](https://github.com/datacamp/design-system/commit/048b990))
+
+
+
+
+
 # [0.10.0-beta.3](https://github.com/datacamp/design-system/compare/@datacamp/waffles-next-doc-site@0.10.0-beta.2...@datacamp/waffles-next-doc-site@0.10.0-beta.3) (2021-08-05)
 
 
