@@ -56,6 +56,7 @@ function InternalSwitch({
 
   return (
     <Label {...{ appearance, children, className, disabled }}>
+      {children}
       <Input
         aria-checked={checked}
         disabled={disabled}
@@ -68,7 +69,6 @@ function InternalSwitch({
       <Toggle
         {...{ appearance, checked, hasLabel: !!children, isFocusVisible }}
       />
-      {children}
     </Label>
   );
 }

@@ -60,7 +60,7 @@ function Toggle({
         toggleWrapperStyle,
         {
           backgroundColor: toggleBackgroundColor(),
-          marginRight: hasLabel ? 8 : 0,
+          marginLeft: hasLabel ? 8 : 0,
         },
         isFocusVisible && {
           boxShadow: `0 0 0 2px ${tokens.colors.blueDark}`,

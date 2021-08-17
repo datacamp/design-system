@@ -10,7 +10,7 @@ const labelStyle = css({
   cursor: 'pointer',
   display: 'inline-flex',
   fontFamily: tokens.fontFamilies.sansSerif,
-  fontSize: 16,
+  fontSize: tokens.fontSizes.medium,
   fontWeight: tokens.fontWeights.regular,
   opacity: 1,
   position: 'relative',
