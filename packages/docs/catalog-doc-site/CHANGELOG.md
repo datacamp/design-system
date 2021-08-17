@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.1.13](https://github.com/datacamp/design-system/compare/@datacamp/waffles-catalog-doc-site@3.1.12...@datacamp/waffles-catalog-doc-site@3.1.13) (2021-08-17)
+
+
+### Bug Fixes
+
+* capitalized plotly ([8e0b80f](https://github.com/datacamp/design-system/commit/8e0b80f))
+
+
+
+
+
 ## [3.1.12](https://github.com/datacamp/design-system/compare/@datacamp/waffles-catalog-doc-site@3.1.11...@datacamp/waffles-catalog-doc-site@3.1.12) (2021-08-05)
 
 **Note:** Version bump only for package @datacamp/waffles-catalog-doc-site

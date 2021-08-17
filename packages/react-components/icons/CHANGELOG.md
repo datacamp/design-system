@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [4.7.0](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/icons/compare/@datacamp/waffles-icons@4.6.0...@datacamp/waffles-icons@4.7.0) (2021-08-17)
+
+
+### Features
+
+* update github brand icon ([f4a0a17](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/icons/commit/f4a0a17))
+
+
+
+
+
 # [4.6.0](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/icons/compare/@datacamp/waffles-icons@4.5.0...@datacamp/waffles-icons@4.6.0) (2021-08-05)
 
 
