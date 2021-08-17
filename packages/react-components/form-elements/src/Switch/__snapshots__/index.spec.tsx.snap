@@ -14,7 +14,7 @@ exports[`snapshots renders a switch with appearance default, disabled=false, che
   display: -ms-inline-flexbox;
   display: inline-flex;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 400;
   opacity: 1;
   position: relative;
@@ -51,7 +51,7 @@ exports[`snapshots renders a switch with appearance default, disabled=false, che
   position: relative;
   width: 34px;
   background-color: #D9D9E2;
-  margin-right: 8px;
+  margin-left: 8px;
 }
 
 .emotion-3 {
@@ -88,6 +88,7 @@ exports[`snapshots renders a switch with appearance default, disabled=false, che
 <label
   class="emotion-0"
 >
+  Test
   <input
     class="emotion-1"
     role="switch"
@@ -100,7 +101,6 @@ exports[`snapshots renders a switch with appearance default, disabled=false, che
       class="emotion-3"
     />
   </div>
-  Test
 </label>
 `;
 
@@ -118,7 +118,7 @@ exports[`snapshots renders a switch with appearance default, disabled=false, che
   display: -ms-inline-flexbox;
   display: inline-flex;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 400;
   opacity: 1;
   position: relative;
@@ -155,7 +155,7 @@ exports[`snapshots renders a switch with appearance default, disabled=false, che
   position: relative;
   width: 34px;
   background-color: #D9D9E2;
-  margin-right: 8px;
+  margin-left: 8px;
 }
 
 .emotion-3 {
@@ -192,6 +192,7 @@ exports[`snapshots renders a switch with appearance default, disabled=false, che
 <label
   class="emotion-0"
 >
+  Test
   <input
     class="emotion-1"
     role="switch"
@@ -204,7 +205,6 @@ exports[`snapshots renders a switch with appearance default, disabled=false, che
       class="emotion-3"
     />
   </div>
-  Test
 </label>
 `;
 
@@ -222,7 +222,7 @@ exports[`snapshots renders a switch with appearance default, disabled=true, chec
   display: -ms-inline-flexbox;
   display: inline-flex;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 400;
   opacity: 1;
   position: relative;
@@ -261,7 +261,7 @@ exports[`snapshots renders a switch with appearance default, disabled=true, chec
   position: relative;
   width: 34px;
   background-color: #D9D9E2;
-  margin-right: 8px;
+  margin-left: 8px;
 }
 
 .emotion-3 {
@@ -298,6 +298,7 @@ exports[`snapshots renders a switch with appearance default, disabled=true, chec
 <label
   class="emotion-0"
 >
+  Test
   <input
     class="emotion-1"
     disabled=""
@@ -311,7 +312,6 @@ exports[`snapshots renders a switch with appearance default, disabled=true, chec
       class="emotion-3"
     />
   </div>
-  Test
 </label>
 `;
 
@@ -329,7 +329,7 @@ exports[`snapshots renders a switch with appearance default, disabled=true, chec
   display: -ms-inline-flexbox;
   display: inline-flex;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 400;
   opacity: 1;
   position: relative;
@@ -368,7 +368,7 @@ exports[`snapshots renders a switch with appearance default, disabled=true, chec
   position: relative;
   width: 34px;
   background-color: #D9D9E2;
-  margin-right: 8px;
+  margin-left: 8px;
 }
 
 .emotion-3 {
@@ -405,6 +405,7 @@ exports[`snapshots renders a switch with appearance default, disabled=true, chec
 <label
   class="emotion-0"
 >
+  Test
   <input
     class="emotion-1"
     disabled=""
@@ -418,7 +419,6 @@ exports[`snapshots renders a switch with appearance default, disabled=true, chec
       class="emotion-3"
     />
   </div>
-  Test
 </label>
 `;
 
@@ -436,7 +436,7 @@ exports[`snapshots renders a switch with appearance inverted, disabled=false, ch
   display: -ms-inline-flexbox;
   display: inline-flex;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 400;
   opacity: 1;
   position: relative;
@@ -473,7 +473,7 @@ exports[`snapshots renders a switch with appearance inverted, disabled=false, ch
   position: relative;
   width: 34px;
   background-color: #FFFFFF;
-  margin-right: 8px;
+  margin-left: 8px;
 }
 
 .emotion-3 {
@@ -510,6 +510,7 @@ exports[`snapshots renders a switch with appearance inverted, disabled=false, ch
 <label
   class="emotion-0"
 >
+  Test
   <input
     class="emotion-1"
     role="switch"
@@ -522,7 +523,6 @@ exports[`snapshots renders a switch with appearance inverted, disabled=false, ch
       class="emotion-3"
     />
   </div>
-  Test
 </label>
 `;
 
@@ -540,7 +540,7 @@ exports[`snapshots renders a switch with appearance inverted, disabled=false, ch
   display: -ms-inline-flexbox;
   display: inline-flex;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 400;
   opacity: 1;
   position: relative;
@@ -577,7 +577,7 @@ exports[`snapshots renders a switch with appearance inverted, disabled=false, ch
   position: relative;
   width: 34px;
   background-color: #FFFFFF;
-  margin-right: 8px;
+  margin-left: 8px;
 }
 
 .emotion-3 {
@@ -614,6 +614,7 @@ exports[`snapshots renders a switch with appearance inverted, disabled=false, ch
 <label
   class="emotion-0"
 >
+  Test
   <input
     class="emotion-1"
     role="switch"
@@ -626,7 +627,6 @@ exports[`snapshots renders a switch with appearance inverted, disabled=false, ch
       class="emotion-3"
     />
   </div>
-  Test
 </label>
 `;
 
@@ -644,7 +644,7 @@ exports[`snapshots renders a switch with appearance inverted, disabled=true, che
   display: -ms-inline-flexbox;
   display: inline-flex;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 400;
   opacity: 1;
   position: relative;
@@ -683,7 +683,7 @@ exports[`snapshots renders a switch with appearance inverted, disabled=true, che
   position: relative;
   width: 34px;
   background-color: #FFFFFF;
-  margin-right: 8px;
+  margin-left: 8px;
 }
 
 .emotion-3 {
@@ -720,6 +720,7 @@ exports[`snapshots renders a switch with appearance inverted, disabled=true, che
 <label
   class="emotion-0"
 >
+  Test
   <input
     class="emotion-1"
     disabled=""
@@ -733,7 +734,6 @@ exports[`snapshots renders a switch with appearance inverted, disabled=true, che
       class="emotion-3"
     />
   </div>
-  Test
 </label>
 `;
 
@@ -751,7 +751,7 @@ exports[`snapshots renders a switch with appearance inverted, disabled=true, che
   display: -ms-inline-flexbox;
   display: inline-flex;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 400;
   opacity: 1;
   position: relative;
@@ -790,7 +790,7 @@ exports[`snapshots renders a switch with appearance inverted, disabled=true, che
   position: relative;
   width: 34px;
   background-color: #FFFFFF;
-  margin-right: 8px;
+  margin-left: 8px;
 }
 
 .emotion-3 {
@@ -827,6 +827,7 @@ exports[`snapshots renders a switch with appearance inverted, disabled=true, che
 <label
   class="emotion-0"
 >
+  Test
   <input
     class="emotion-1"
     disabled=""
@@ -840,7 +841,6 @@ exports[`snapshots renders a switch with appearance inverted, disabled=true, che
       class="emotion-3"
     />
   </div>
-  Test
 </label>
 `;
 
@@ -858,7 +858,7 @@ exports[`snapshots renders an empty switch 1`] = `
   display: -ms-inline-flexbox;
   display: inline-flex;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 400;
   opacity: 1;
   position: relative;
@@ -895,7 +895,7 @@ exports[`snapshots renders an empty switch 1`] = `
   position: relative;
   width: 34px;
   background-color: #06BDFC;
-  margin-right: 0;
+  margin-left: 0;
 }
 
 .emotion-3 {
