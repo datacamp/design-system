@@ -10,7 +10,6 @@ const toggleWrapperStyle = css({
   borderRadius: 12,
   boxSizing: 'border-box',
   height: 24,
-  marginRight: 8,
   minWidth: 34,
   padding: 3,
   position: 'relative',
@@ -60,7 +59,7 @@ function Toggle({
         toggleWrapperStyle,
         {
           backgroundColor: toggleBackgroundColor(),
-          marginRight: hasLabel ? 8 : 0,
+          marginLeft: hasLabel ? 8 : 0,
         },
         isFocusVisible && {
           boxShadow: `0 0 0 2px ${tokens.colors.blueDark}`,

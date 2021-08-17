@@ -5,7 +5,7 @@ import { css } from '@emotion/react';
 const buttonStyle = css`
   display: inline-flex;
   padding: 0 18px 0 16px;
-  height: ${tokens.sizing.small};
+  height: ${tokens.sizing.medium};
   align-items: center;
   justify-content: center;
   border: 0;

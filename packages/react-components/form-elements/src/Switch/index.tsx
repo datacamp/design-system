@@ -7,6 +7,7 @@ import {
   Ref,
 } from 'react';
 
+import Content from './Content';
 import Input from './Input';
 import Label from './Label';
 import Toggle from './Toggle';
@@ -34,6 +35,10 @@ export type SwitchProps = {
    */
   disabled?: boolean;
   /**
+   * Switch toggle and label spans through the full parent or container width. Useful when placing multiple switches in the column next to each other, so toggles align nicely.
+   */
+  fullWidth?: boolean;
+  /**
    * Called when the user requests a change to the value of the switch. In most cases should be used to set the checked property.
    */
   onChange?: FormEventHandler<HTMLInputElement>;
@@ -49,13 +54,15 @@ function InternalSwitch({
   children,
   className,
   disabled,
+  fullWidth,
   innerRef,
   ...restProps
 }: SwitchProps & { innerRef?: Ref<HTMLInputElement> }): JSX.Element {
   const { focusProps, isFocusVisible } = useFocusRing();
 
   return (
-    <Label {...{ appearance, children, className, disabled }}>
+    <Label {...{ appearance, children, className, disabled, fullWidth }}>
+      {children && <Content fullWidth={fullWidth}>{children}</Content>}
       <Input
         aria-checked={checked}
         disabled={disabled}
@@ -68,7 +75,6 @@ function InternalSwitch({
       <Toggle
         {...{ appearance, checked, hasLabel: !!children, isFocusVisible }}
       />
-      {children}
     </Label>
   );
 }

@@ -8,9 +8,8 @@ const labelStyle = css({
   boxSizing: 'border-box',
   color: tokens.colors.navyDark,
   cursor: 'pointer',
-  display: 'inline-flex',
   fontFamily: tokens.fontFamilies.sansSerif,
-  fontSize: 16,
+  fontSize: tokens.fontSizes.medium,
   fontWeight: tokens.fontWeights.regular,
   opacity: 1,
   position: 'relative',
@@ -19,7 +18,7 @@ const labelStyle = css({
 
 type LabelProps = Pick<
   SwitchProps,
-  'appearance' | 'children' | 'className' | 'disabled'
+  'appearance' | 'children' | 'className' | 'disabled' | 'fullWidth'
 >;
 
 function Label({
@@ -27,6 +26,7 @@ function Label({
   children,
   className,
   disabled,
+  fullWidth,
 }: LabelProps): JSX.Element {
   return (
     <label
@@ -38,10 +38,12 @@ function Label({
             appearance === 'inverted'
               ? tokens.colors.white
               : tokens.colors.navyDark,
+          display: fullWidth ? 'flex' : 'inline-flex',
+          width: fullWidth ? '100%' : 'auto',
         },
         disabled && {
           cursor: 'default',
-          opacity: 0.5,
+          opacity: tokens.opacity.medium,
         },
       )}
     >
