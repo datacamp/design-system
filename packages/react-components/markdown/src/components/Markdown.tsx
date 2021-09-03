@@ -5,7 +5,7 @@ import {
   Paragraph,
   Strong,
 } from '@datacamp/waffles-text';
-import React, { ReactElement } from 'react';
+import { ReactElement } from 'react';
 import ReactMarkdown from 'react-markdown';
 
 interface MarkdownProps {

@@ -354,11 +354,7 @@ exports[`<Markdown /> renders 1`] = `
   <p
     class="emotion-8"
   >
-    This paragraph has a 
-    <del>
-      strikthrough
-    </del>
-     in it.
+    This paragraph has a ~~strikthrough~~ in it.
   </p>
   <h3
     class="emotion-2"
@@ -478,12 +474,7 @@ exports[`<Markdown /> renders 1`] = `
   <p
     class="emotion-8"
   >
-    <a
-      href="http://github.com"
-    >
-      http://github.com
-    </a>
-     - automatic!
+    http://github.com - automatic!
   </p>
   <p
     class="emotion-8"
@@ -573,17 +564,10 @@ React.render(
     <li
       class="emotion-27"
     >
-      <input
-        aria-labelledby="10val-checkbox-description"
-        checked=""
-        disabled=""
-        readonly=""
-        type="checkbox"
-      />
       <span
         id="10val-checkbox-description"
       >
-        @mentions, #refs, 
+        [x] @mentions, #refs, 
         <a
           href="http://github.com"
         >
@@ -605,81 +589,39 @@ React.render(
     <li
       class="emotion-27"
     >
-      <input
-        aria-labelledby="11val-checkbox-description"
-        checked=""
-        disabled=""
-        readonly=""
-        type="checkbox"
-      />
       <span
         id="11val-checkbox-description"
       >
-        list syntax required (any unordered or ordered list supported)
+        [x] list syntax required (any unordered or ordered list supported)
       </span>
     </li>
     <li
       class="emotion-27"
     >
-      <input
-        aria-labelledby="12val-checkbox-description"
-        checked=""
-        disabled=""
-        readonly=""
-        type="checkbox"
-      />
       <span
         id="12val-checkbox-description"
       >
-        this is a complete item
+        [x] this is a complete item
       </span>
     </li>
     <li
       class="emotion-27"
     >
-      <input
-        aria-labelledby="13val-checkbox-description"
-        disabled=""
-        readonly=""
-        type="checkbox"
-      />
       <span
         id="13val-checkbox-description"
       >
-        this is an incomplete item
+        [ ] this is an incomplete item
       </span>
     </li>
   </ul>
-  <table>
-    <thead>
-      <tr>
-        <th>
-          First Header
-        </th>
-        <th>
-          Second Header
-        </th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>
-          Content from cell 1
-        </td>
-        <td>
-          Content from cell 2
-        </td>
-      </tr>
-      <tr>
-        <td>
-          Content in the first column
-        </td>
-        <td>
-          Content in the second column
-        </td>
-      </tr>
-    </tbody>
-  </table>
+  <p
+    class="emotion-8"
+  >
+    First Header | Second Header
+------------ | -------------
+Content from cell 1 | Content from cell 2
+Content in the first column | Content in the second column
+  </p>
   &lt;h1&gt;This is an h1&lt;br&gt;with HTML&lt;/h1&gt;
 &lt;table&gt;
   &lt;tr&gt;
