@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [4.3.0-beta.4](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/form-elements/compare/@datacamp/waffles-form-elements@4.3.0-beta.3...@datacamp/waffles-form-elements@4.3.0-beta.4) (2021-08-17)
+
+
+### Features
+
+* implement fullWidth switch component ([92de22c](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/form-elements/commit/92de22c))
+* put switch label to the left ([9a97e31](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/form-elements/commit/9a97e31))
+
+
+
+
+
 # [4.3.0-beta.3](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/form-elements/compare/@datacamp/waffles-form-elements@4.3.0-beta.2...@datacamp/waffles-form-elements@4.3.0-beta.3) (2021-08-05)
 
 
