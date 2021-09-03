@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.1.14](https://github.com/datacamp/design-system/compare/@datacamp/waffles-catalog-doc-site@3.1.13...@datacamp/waffles-catalog-doc-site@3.1.14) (2021-09-03)
+
+**Note:** Version bump only for package @datacamp/waffles-catalog-doc-site
+
+
+
+
+
 ## [3.1.13](https://github.com/datacamp/design-system/compare/@datacamp/waffles-catalog-doc-site@3.1.12...@datacamp/waffles-catalog-doc-site@3.1.13) (2021-08-17)
 
 
