@@ -3,119 +3,139 @@
 exports[`<Markdown /> renders 1`] = `
 .emotion-0 {
   -webkit-font-smoothing: antialiased;
-  color: #05192D;
-  font-family: Studio-Feixen-Sans,Arial,sans-serif;
+  color: rgb(5, 25, 45);
+  font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
-  color: #05192D;
+  color: rgb(5, 25, 45);
   font-weight: 800;
   margin: 0;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
-  font-size: 28px;
-  letter-spacing: 0px;
-  line-height: 1.25;
+  font-size: 40px;
+  letter-spacing: -1px;
+  line-height: 1.2;
 }
 
 *:not(style)~.emotion-0 {
-  margin-top: 16px;
+  margin-top: 24px;
 }
 
 .emotion-1 {
   -webkit-font-smoothing: antialiased;
-  color: #05192D;
-  font-family: Studio-Feixen-Sans,Arial,sans-serif;
+  color: rgb(5, 25, 45);
+  font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
-  color: #05192D;
+  color: rgb(5, 25, 45);
+  font-weight: 800;
+  margin: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 32px;
+  letter-spacing: -0.5px;
+  line-height: 1.2;
+}
+
+*:not(style)~.emotion-1 {
+  margin-top: 16px;
+}
+
+.emotion-2 {
+  -webkit-font-smoothing: antialiased;
+  color: rgb(5, 25, 45);
+  font-family: Studio-Feixen-Sans,Arial;
+  font-style: normal;
+  color: rgb(5, 25, 45);
+  font-weight: 800;
+  margin: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 24px;
+  letter-spacing: -0.5px;
+  line-height: 1.2;
+}
+
+*:not(style)~.emotion-2 {
+  margin-top: 16px;
+}
+
+.emotion-3 {
+  -webkit-font-smoothing: antialiased;
+  color: rgb(5, 25, 45);
+  font-family: Studio-Feixen-Sans,Arial;
+  font-style: normal;
+  color: rgb(5, 25, 45);
   font-weight: 800;
   margin: 0;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
   font-size: 20px;
-  letter-spacing: 0px;
-  line-height: 1.25;
+  letter-spacing: 0;
+  line-height: 1.2;
 }
 
-*:not(style)~.emotion-1 {
-  margin-top: 8px;
+*:not(style)~.emotion-3 {
+  margin-top: 16px;
 }
 
-.emotion-2 {
+.emotion-4 {
   -webkit-font-smoothing: antialiased;
-  color: #05192D;
-  font-family: Studio-Feixen-Sans,Arial,sans-serif;
+  color: rgb(5, 25, 45);
+  font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
-  color: #05192D;
+  color: rgb(5, 25, 45);
+  font-weight: 800;
+  margin: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 1.2;
+}
+
+*:not(style)~.emotion-4 {
+  margin-top: 16px;
+}
+
+.emotion-5 {
+  -webkit-font-smoothing: antialiased;
+  color: rgb(5, 25, 45);
+  font-family: Studio-Feixen-Sans,Arial;
+  font-style: normal;
+  color: rgb(5, 25, 45);
   font-weight: 800;
   margin: 0;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
   font-size: 16px;
-  letter-spacing: 0px;
-  line-height: 1.25;
+  letter-spacing: 0;
+  line-height: 1.2;
 }
 
-*:not(style)~.emotion-2 {
-  margin-top: 8px;
-}
-
-.emotion-3 {
-  -webkit-font-smoothing: antialiased;
-  color: #05192D;
-  font-family: Studio-Feixen-Sans,Arial,sans-serif;
-  font-style: normal;
-  color: #05192D;
-  font-weight: 800;
-  margin: 0;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  font-size: 14px;
-  letter-spacing: 0px;
-  line-height: 1.25;
-}
-
-*:not(style)~.emotion-3 {
-  margin-top: 8px;
-}
-
-.emotion-4 {
-  -webkit-font-smoothing: antialiased;
-  color: #05192D;
-  font-family: Studio-Feixen-Sans,Arial,sans-serif;
-  font-style: normal;
-  color: #05192D;
-  font-weight: 800;
-  margin: 0;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  font-size: 12px;
-  letter-spacing: 0px;
-  line-height: 1.25;
-}
-
-*:not(style)~.emotion-4 {
-  margin-top: 8px;
+*:not(style)~.emotion-5 {
+  margin-top: 16px;
 }
 
 .emotion-7 {
   -webkit-font-smoothing: antialiased;
-  color: #05192D;
-  font-family: Studio-Feixen-Sans,Arial,sans-serif;
+  color: rgb(5, 25, 45);
+  font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
   font-weight: 800;
-  line-height: 1.5;
+  line-height: 16px;
 }
 
 .emotion-8 {
   -webkit-font-smoothing: antialiased;
-  color: #05192D;
-  font-family: Studio-Feixen-Sans,Arial,sans-serif;
+  color: rgb(5, 25, 45);
+  font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
   margin: 0;
@@ -127,18 +147,18 @@ exports[`<Markdown /> renders 1`] = `
 
 .emotion-12 {
   -webkit-font-smoothing: antialiased;
-  color: #05192D;
-  font-family: Studio-Feixen-Sans,Arial,sans-serif;
+  color: rgb(5, 25, 45);
+  font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
   font-style: italic;
   font-weight: 400;
-  line-height: 14px;
+  line-height: 16px;
 }
 
 .emotion-26 {
   -webkit-font-smoothing: antialiased;
-  color: #05192D;
-  font-family: Studio-Feixen-Sans,Arial,sans-serif;
+  color: rgb(5, 25, 45);
+  font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
   list-style-position: inside;
   margin: 0;
@@ -150,39 +170,46 @@ exports[`<Markdown /> renders 1`] = `
 }
 
 *:not(style)~.emotion-26 {
-  margin-top: 4px;
+  margin-top: 16px;
 }
 
 .emotion-27 {
-  font-size: 14px;
-  line-height: 1.5;
+  line-height: 1.5em;
+  margin-top: 8px;
 }
 
 .emotion-46 {
   border: 0;
   border-radius: 4px;
-  color: #05192D;
-  font-family: JetBrainsMonoNL,Menlo,Monaco,'Courier New',monospace;
-  font-size: 12px;
+  color: rgb(5, 25, 45);
+  font-family: monospace;
+  font-family: JetBrainsMonoNL;
+  font-size: 14px;
   font-variant-ligatures: none;
   letter-spacing: 0;
   line-height: 1.5;
   margin: 0;
   padding: 0;
-  background-color: #EFEBE4;
-  margin: 0 2px;
-  padding: 2px 4px;
-  white-space: nowrap;
+  background-color: rgb(239, 235, 228);
+  margin-left: 2px;
+  margin-right: 4px;
+  padding-bottom: 0;
+  padding-left: 2px;
+  padding-right: 2px;
+  padding-top: 0;
 }
 
 .emotion-47 {
-  background-color: #EFEBE4;
+  background-color: rgb(239, 235, 228);
   border: 0;
   border-radius: 4px;
   line-height: 1.5;
   margin: 0;
   overflow: scroll;
-  padding: 4px 8px;
+  padding-bottom: 8px;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 8px;
 }
 
 *:not(style)~.emotion-47 {
@@ -192,9 +219,10 @@ exports[`<Markdown /> renders 1`] = `
 .emotion-48 {
   border: 0;
   border-radius: 4px;
-  color: #05192D;
-  font-family: JetBrainsMonoNL,Menlo,Monaco,'Courier New',monospace;
-  font-size: 12px;
+  color: rgb(5, 25, 45);
+  font-family: monospace;
+  font-family: JetBrainsMonoNL;
+  font-size: 14px;
   font-variant-ligatures: none;
   letter-spacing: 0;
   line-height: 1.5;
@@ -229,7 +257,7 @@ exports[`<Markdown /> renders 1`] = `
     This is an h5 tag
   </h5>
   <h6
-    class="emotion-4"
+    class="emotion-5"
   >
     This is an h6 tag
   </h6>
@@ -326,11 +354,7 @@ exports[`<Markdown /> renders 1`] = `
   <p
     class="emotion-8"
   >
-    This paragraph has a 
-    <del>
-      strikthrough
-    </del>
-     in it.
+    This paragraph has a ~~strikthrough~~ in it.
   </p>
   <h3
     class="emotion-2"
@@ -450,12 +474,7 @@ exports[`<Markdown /> renders 1`] = `
   <p
     class="emotion-8"
   >
-    <a
-      href="http://github.com"
-    >
-      http://github.com
-    </a>
-     - automatic!
+    http://github.com - automatic!
   </p>
   <p
     class="emotion-8"
@@ -545,17 +564,10 @@ React.render(
     <li
       class="emotion-27"
     >
-      <input
-        aria-labelledby="10val-checkbox-description"
-        checked=""
-        disabled=""
-        readonly=""
-        type="checkbox"
-      />
       <span
         id="10val-checkbox-description"
       >
-        @mentions, #refs, 
+        [x] @mentions, #refs, 
         <a
           href="http://github.com"
         >
@@ -577,81 +589,39 @@ React.render(
     <li
       class="emotion-27"
     >
-      <input
-        aria-labelledby="11val-checkbox-description"
-        checked=""
-        disabled=""
-        readonly=""
-        type="checkbox"
-      />
       <span
         id="11val-checkbox-description"
       >
-        list syntax required (any unordered or ordered list supported)
+        [x] list syntax required (any unordered or ordered list supported)
       </span>
     </li>
     <li
       class="emotion-27"
     >
-      <input
-        aria-labelledby="12val-checkbox-description"
-        checked=""
-        disabled=""
-        readonly=""
-        type="checkbox"
-      />
       <span
         id="12val-checkbox-description"
       >
-        this is a complete item
+        [x] this is a complete item
       </span>
     </li>
     <li
       class="emotion-27"
     >
-      <input
-        aria-labelledby="13val-checkbox-description"
-        disabled=""
-        readonly=""
-        type="checkbox"
-      />
       <span
         id="13val-checkbox-description"
       >
-        this is an incomplete item
+        [ ] this is an incomplete item
       </span>
     </li>
   </ul>
-  <table>
-    <thead>
-      <tr>
-        <th>
-          First Header
-        </th>
-        <th>
-          Second Header
-        </th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>
-          Content from cell 1
-        </td>
-        <td>
-          Content from cell 2
-        </td>
-      </tr>
-      <tr>
-        <td>
-          Content in the first column
-        </td>
-        <td>
-          Content in the second column
-        </td>
-      </tr>
-    </tbody>
-  </table>
+  <p
+    class="emotion-8"
+  >
+    First Header | Second Header
+------------ | -------------
+Content from cell 1 | Content from cell 2
+Content in the first column | Content in the second column
+  </p>
   &lt;h1&gt;This is an h1&lt;br&gt;with HTML&lt;/h1&gt;
 &lt;table&gt;
   &lt;tr&gt;
