@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`new tokens base tokens are properly transformed 1`] = `
+exports[`newTokensHelpers base tokens are properly transformed 1`] = `
 "export const sizing = { small: '24px', medium: '36px', large: '48px' };
 export const spacing = {
   xsmall: '4px',
@@ -81,7 +81,7 @@ export const fontSizes = {
 };
 export const letterSpacing = { tight: '-0.5px', default: '0px', relaxed: '1.5px' };
 export const lineHeights = { tight: 1, default: 1.25, relaxed: 1.5 };
-export const opacity = { low: '15%', medium: '40%', high: '60%' };
+export const opacity = { low: 0.15, medium: 0.4, high: 0.6 };
 export const zIndex = {
   default: 1,
   sticky: 100,
