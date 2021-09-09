@@ -103,6 +103,7 @@ module.exports = {
   transformedBaseTokens,
   transformedBoxShadows,
   transformedColors,
+  transformedFontFamilies,
   transformedFontWeights,
   transformedPercentages,
 };
