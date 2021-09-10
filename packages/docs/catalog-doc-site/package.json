@@ -1,6 +1,6 @@
 {
   "name": "@datacamp/waffles-catalog-doc-site",
-  "version": "3.1.11-beta.4",
+  "version": "3.1.11-beta.5",
   "description": "",
   "main": "index.js",
   "author": "",
@@ -22,7 +22,7 @@
     "@datacamp/waffles-form-elements": "^4.3.0-beta.4",
     "@datacamp/waffles-icons": "^5.0.0-beta.3",
     "@datacamp/waffles-loaders": "^3.1.5-beta.3",
-    "@datacamp/waffles-markdown": "^4.0.10-beta.3",
+    "@datacamp/waffles-markdown": "^4.0.10-beta.4",
     "@datacamp/waffles-modals": "^8.0.0-beta.3",
     "@datacamp/waffles-resizable-elements": "^2.1.0",
     "@datacamp/waffles-tag": "^2.0.2",

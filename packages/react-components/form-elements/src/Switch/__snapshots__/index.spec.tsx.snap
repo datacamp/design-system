@@ -485,7 +485,7 @@ exports[`snapshots renders a switch with appearance default, disabled=true, chec
   display: inline-flex;
   width: auto;
   cursor: default;
-  opacity: 40%;
+  opacity: 0.4;
 }
 
 .emotion-1 {
@@ -603,7 +603,7 @@ exports[`snapshots renders a switch with appearance default, disabled=true, chec
   display: flex;
   width: 100%;
   cursor: default;
-  opacity: 40%;
+  opacity: 0.4;
 }
 
 .emotion-1 {
@@ -721,7 +721,7 @@ exports[`snapshots renders a switch with appearance default, disabled=true, chec
   display: inline-flex;
   width: auto;
   cursor: default;
-  opacity: 40%;
+  opacity: 0.4;
 }
 
 .emotion-1 {
@@ -839,7 +839,7 @@ exports[`snapshots renders a switch with appearance default, disabled=true, chec
   display: flex;
   width: 100%;
   cursor: default;
-  opacity: 40%;
+  opacity: 0.4;
 }
 
 .emotion-1 {
@@ -1417,7 +1417,7 @@ exports[`snapshots renders a switch with appearance inverted, disabled=true, che
   display: inline-flex;
   width: auto;
   cursor: default;
-  opacity: 40%;
+  opacity: 0.4;
 }
 
 .emotion-1 {
@@ -1535,7 +1535,7 @@ exports[`snapshots renders a switch with appearance inverted, disabled=true, che
   display: flex;
   width: 100%;
   cursor: default;
-  opacity: 40%;
+  opacity: 0.4;
 }
 
 .emotion-1 {
@@ -1653,7 +1653,7 @@ exports[`snapshots renders a switch with appearance inverted, disabled=true, che
   display: inline-flex;
   width: auto;
   cursor: default;
-  opacity: 40%;
+  opacity: 0.4;
 }
 
 .emotion-1 {
@@ -1771,7 +1771,7 @@ exports[`snapshots renders a switch with appearance inverted, disabled=true, che
   display: flex;
   width: 100%;
   cursor: default;
-  opacity: 40%;
+  opacity: 0.4;
 }
 
 .emotion-1 {

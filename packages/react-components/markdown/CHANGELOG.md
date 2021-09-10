@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [4.0.10-beta.4](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/markdown/compare/@datacamp/waffles-markdown@4.0.10-beta.3...@datacamp/waffles-markdown@4.0.10-beta.4) (2021-09-03)
+
+
+### Bug Fixes
+
+* bum react-markdown version ([0cb1423](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/markdown/commit/0cb1423))
+
+
+
+
+
 ## [4.0.10-beta.3](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/markdown/compare/@datacamp/waffles-markdown@4.0.10-beta.2...@datacamp/waffles-markdown@4.0.10-beta.3) (2021-08-05)
 
 **Note:** Version bump only for package @datacamp/waffles-markdown

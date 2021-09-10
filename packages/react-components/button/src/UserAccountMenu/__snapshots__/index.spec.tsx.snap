@@ -177,7 +177,7 @@ exports[`UserAccountMenu snapshots renders correctly when all optional props are
   font-size: 14px;
   font-weight: 400;
   height: 42px;
-  opacity: 60%;
+  opacity: 0.6;
   outline: 0;
   padding-left: 24px;
   padding-right: 24px;
@@ -683,7 +683,7 @@ exports[`UserAccountMenu snapshots renders correctly when only main app URL is p
   font-size: 14px;
   font-weight: 400;
   height: 42px;
-  opacity: 60%;
+  opacity: 0.6;
   outline: 0;
   padding-left: 24px;
   padding-right: 24px;
