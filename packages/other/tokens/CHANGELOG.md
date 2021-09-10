@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0-beta.4](https://github.com/datacamp/design-system/compare/@datacamp/waffles-tokens@2.0.0-beta.3...@datacamp/waffles-tokens@2.0.0-beta.4) (2021-09-10)
+
+
+### Features
+
+* implement helper to generate sass vars from tokens ([807f61f](https://github.com/datacamp/design-system/commit/807f61f))
+* split buildNewTokens into multiple helpers ([7b03b7e](https://github.com/datacamp/design-system/commit/7b03b7e))
+
+
+
+
+
 # [2.0.0-beta.3](https://github.com/datacamp/design-system/compare/@datacamp/waffles-tokens@2.0.0-beta.2...@datacamp/waffles-tokens@2.0.0-beta.3) (2021-08-05)
 
 

@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.0.0-beta.3](https://github.com/datacamp/design-system/compare/@datacamp/waffles-tooltip@1.0.0-beta.2...@datacamp/waffles-tooltip@1.0.0-beta.3) (2021-09-10)
+
+**Note:** Version bump only for package @datacamp/waffles-tooltip
+
+
+
+
+
 # [1.0.0-beta.2](https://github.com/datacamp/design-system/compare/@datacamp/waffles-tooltip@1.0.0-beta.1...@datacamp/waffles-tooltip@1.0.0-beta.2) (2021-08-05)
 
 **Note:** Version bump only for package @datacamp/waffles-tooltip

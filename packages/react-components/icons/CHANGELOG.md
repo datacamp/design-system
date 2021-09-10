@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [5.0.0-beta.4](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/icons/compare/@datacamp/waffles-icons@5.0.0-beta.3...@datacamp/waffles-icons@5.0.0-beta.4) (2021-09-10)
+
+
+### Features
+
+* add flash icons ([9ab4aab](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/icons/commit/9ab4aab))
+
+
+
+
+
 # [5.0.0-beta.3](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/icons/compare/@datacamp/waffles-icons@5.0.0-beta.2...@datacamp/waffles-icons@5.0.0-beta.3) (2021-08-17)
 
 
