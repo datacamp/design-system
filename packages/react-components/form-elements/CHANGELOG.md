@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [4.3.0-beta.6](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/form-elements/compare/@datacamp/waffles-form-elements@4.3.0-beta.5...@datacamp/waffles-form-elements@4.3.0-beta.6) (2021-09-14)
+
+
+### Bug Fixes
+
+* broken npm package ([3035bd2](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/form-elements/commit/3035bd2))
+
+
+
+
+
 # [4.3.0-beta.5](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/form-elements/compare/@datacamp/waffles-form-elements@4.3.0-beta.4...@datacamp/waffles-form-elements@4.3.0-beta.5) (2021-09-10)
 
 **Note:** Version bump only for package @datacamp/waffles-form-elements

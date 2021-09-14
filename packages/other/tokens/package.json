@@ -1,6 +1,6 @@
 {
   "name": "@datacamp/waffles-tokens",
-  "version": "2.0.0-beta.4",
+  "version": "2.0.0-beta.5",
   "description": "",
   "main": "lib/tokens.common.js",
   "module": "lib/tokens.esm.js",
