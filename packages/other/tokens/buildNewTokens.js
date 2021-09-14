@@ -1,3 +1,4 @@
+// FIX BROKEN RELEASE
 // Generate new design tokens JS and SCSS files based on JSON file with Figma Tokens definitions
 
 const fs = require('fs');
