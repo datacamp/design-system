@@ -5,11 +5,25 @@ import React, { forwardRef, ReactElement, Ref } from 'react';
 import { fontSizes, inputPaddings, inputStyle } from '../formStyles';
 import Label from '../Label';
 
+const growWrapperStyle = css({
+  display: 'grid',
+});
+
+const fauxGrowElementStyle = css({
+  gridArea: '1 / 1 / 2 / 2',
+  visibility: 'hidden',
+  whiteSpace: 'pre-wrap',
+});
+
 interface TextAreaProps {
   /**
    * Sets the autocomplete attribute on the rendered input element.
    */
   autocomplete?: string;
+  /**
+   * Allows the input's height to expand as much as it needs to in order to contain the current value.
+   */
+  autoGrow?: boolean;
   /**
    * Sets the css className on the rendered element. Can be used to add custom
    * styling.
@@ -96,6 +110,7 @@ interface TextAreaProps {
 }
 
 const InternalTextArea = ({
+  autoGrow = false,
   autocomplete,
   className,
   dataAttributes,
@@ -138,7 +153,12 @@ const InternalTextArea = ({
     <textarea
       autoComplete={autocomplete}
       className={className}
-      css={textAreaStyle}
+      css={css(
+        textAreaStyle,
+        autoGrow && {
+          gridArea: '1 / 1 / 2 / 2',
+        },
+      )}
       disabled={disabled}
       id={id}
       maxLength={maxLength}
@@ -154,6 +174,18 @@ const InternalTextArea = ({
     />
   );
 
+  const enhancedInputElement = autoGrow ? (
+    <div css={growWrapperStyle}>
+      {inputElement}
+      <div
+        aria-hidden="true"
+        css={css(textAreaStyle, fauxGrowElementStyle)}
+      >{`${value} `}</div>
+    </div>
+  ) : (
+    inputElement
+  );
+
   return (
     <>
       {label ? (
@@ -164,10 +196,10 @@ const InternalTextArea = ({
           label={label}
           required={required}
         >
-          {inputElement}
+          {enhancedInputElement}
         </Label>
       ) : (
-        <>{inputElement}</>
+        <>{enhancedInputElement}</>
       )}
     </>
   );
