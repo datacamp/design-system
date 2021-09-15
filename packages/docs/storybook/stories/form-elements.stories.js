@@ -363,6 +363,21 @@ storiesOf('waffles-form-elements', module)
               </tr>
             </tbody>
           </table>
+          <div>
+            <label htmlFor="story5">custom label</label>
+            <TextArea
+              autoGrow
+              id="story5"
+              name="story5"
+              onChange={() => {}}
+              placeholder="autoGrow"
+              value={`some
+not so long
+multiline
+pre-formatted
+text`}
+            />
+          </div>
         </div>
       );
     });
@@ -427,6 +442,19 @@ storiesOf('waffles-form-elements', module)
             placeholder="with error"
             required
             value=""
+          />
+          <TextArea
+            autoGrow
+            id="story5"
+            label="TextArea with autoGrow enabled"
+            name="story5"
+            onChange={() => {}}
+            placeholder="autoGrow"
+            value={`some
+not so long
+multiline
+pre-formatted
+text`}
           />
         </div>
       );
