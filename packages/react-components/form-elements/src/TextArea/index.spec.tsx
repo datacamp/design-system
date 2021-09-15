@@ -1,9 +1,7 @@
 import '@testing-library/jest-dom/extend-expect';
 
-import tokens from '@datacamp/waffles-tokens/lib/future-tokens.json';
 import { fireEvent, render } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
-import React from 'react';
 
 import TextArea from '.';
 
@@ -289,5 +287,19 @@ describe('snapshots', () => {
         expect(container.firstChild).toMatchSnapshot();
       });
     });
+  });
+
+  it('renders additional supporting elements to make auto-grow work', () => {
+    const { container } = render(
+      <TextArea
+        autoGrow
+        label="test label"
+        name={exampleText}
+        onChange={() => {}}
+        placeholder={exampleText}
+        value="Some example value"
+      />,
+    );
+    expect(container.firstChild).toMatchSnapshot();
   });
 });
