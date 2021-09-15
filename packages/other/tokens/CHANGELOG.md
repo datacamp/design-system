@@ -3,6 +3,29 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0-beta.5](https://github.com/datacamp/design-system/compare/@datacamp/waffles-tokens@2.0.0-beta.4...@datacamp/waffles-tokens@2.0.0-beta.5) (2021-09-14)
+
+
+### Bug Fixes
+
+* broken npm package ([3035bd2](https://github.com/datacamp/design-system/commit/3035bd2))
+
+
+
+
+
+# [2.0.0-beta.4](https://github.com/datacamp/design-system/compare/@datacamp/waffles-tokens@2.0.0-beta.3...@datacamp/waffles-tokens@2.0.0-beta.4) (2021-09-10)
+
+
+### Features
+
+* implement helper to generate sass vars from tokens ([807f61f](https://github.com/datacamp/design-system/commit/807f61f))
+* split buildNewTokens into multiple helpers ([7b03b7e](https://github.com/datacamp/design-system/commit/7b03b7e))
+
+
+
+
+
 # [2.0.0-beta.3](https://github.com/datacamp/design-system/compare/@datacamp/waffles-tokens@2.0.0-beta.2...@datacamp/waffles-tokens@2.0.0-beta.3) (2021-08-05)
 
 

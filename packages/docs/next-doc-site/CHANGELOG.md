@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.10.0-beta.7](https://github.com/datacamp/design-system/compare/@datacamp/waffles-next-doc-site@0.10.0-beta.6...@datacamp/waffles-next-doc-site@0.10.0-beta.7) (2021-09-14)
+
+**Note:** Version bump only for package @datacamp/waffles-next-doc-site
+
+
+
+
+
+# [0.10.0-beta.6](https://github.com/datacamp/design-system/compare/@datacamp/waffles-next-doc-site@0.10.0-beta.5...@datacamp/waffles-next-doc-site@0.10.0-beta.6) (2021-09-10)
+
+**Note:** Version bump only for package @datacamp/waffles-next-doc-site
+
+
+
+
+
 # [0.10.0-beta.5](https://github.com/datacamp/design-system/compare/@datacamp/waffles-next-doc-site@0.10.0-beta.4...@datacamp/waffles-next-doc-site@0.10.0-beta.5) (2021-09-03)
 
 **Note:** Version bump only for package @datacamp/waffles-next-doc-site

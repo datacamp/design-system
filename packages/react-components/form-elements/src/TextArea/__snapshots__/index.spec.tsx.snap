@@ -1,5 +1,213 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`snapshots renders additional supporting elements to make auto-grow work 1`] = `
+.emotion-0 {
+  border: 0;
+  display: block;
+  margin: 0;
+  margin-top: 0;
+  min-width: 0;
+  padding: 0;
+}
+
+*:not(style)~.emotion-0 {
+  margin-top: 16px;
+}
+
+.emotion-1 {
+  display: block;
+  margin-bottom: 12px;
+  padding: 0;
+  width: 100%;
+}
+
+.emotion-2 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.emotion-3 {
+  -webkit-font-smoothing: antialiased;
+  color: #05192D;
+  font-family: Studio-Feixen-Sans,Arial,sans-serif;
+  font-style: normal;
+  font-size: 14px;
+  font-weight: 400;
+  color: #05192d;
+  display: inline-block;
+  -webkit-flex: 0 1 auto;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
+  font-weight: 800;
+  margin-right: 4px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.emotion-4 {
+  display: grid;
+}
+
+.emotion-5 {
+  font-size: 16px;
+  padding-bottom: 12px;
+  padding-top: 12px;
+  resize: none;
+  padding-left: 16px;
+  padding-right: 16px;
+  background: white;
+  border: 0;
+  border-radius: 4px;
+  box-shadow: inset 0 0 0 2px rgb(229, 225, 218);
+  box-sizing: border-box;
+  display: inline-block;
+  font-family: Arial;
+  font-family: Studio-Feixen-Sans;
+  margin: 0;
+  vertical-align: baseline;
+  -webkit-appearance: none;
+  color: rgb(5, 25, 45);
+  width: 100%;
+  grid-area: 1/1/2/2;
+}
+
+.emotion-5:disabled,
+.emotion-5:active:disabled,
+.emotion-5:focus:disabled {
+  cursor: not-allowed;
+  opacity: 0.3;
+}
+
+.emotion-5:focus {
+  box-shadow: inset 0 0 0 2px rgb(0, 155, 216);
+  outline: none;
+}
+
+.emotion-5::-webkit-input-placeholder {
+  color: rgba(5, 25, 45, 0.6);
+  font-family: inherit;
+}
+
+.emotion-5::-moz-placeholder {
+  color: rgba(5, 25, 45, 0.6);
+  font-family: inherit;
+}
+
+.emotion-5:-ms-input-placeholder {
+  color: rgba(5, 25, 45, 0.6);
+  font-family: inherit;
+}
+
+.emotion-5::placeholder {
+  color: rgba(5, 25, 45, 0.6);
+  font-family: inherit;
+}
+
+.emotion-6 {
+  font-size: 16px;
+  padding-bottom: 12px;
+  padding-top: 12px;
+  resize: none;
+  padding-left: 16px;
+  padding-right: 16px;
+  background: white;
+  border: 0;
+  border-radius: 4px;
+  box-shadow: inset 0 0 0 2px rgb(229, 225, 218);
+  box-sizing: border-box;
+  display: inline-block;
+  font-family: Arial;
+  font-family: Studio-Feixen-Sans;
+  margin: 0;
+  vertical-align: baseline;
+  -webkit-appearance: none;
+  color: rgb(5, 25, 45);
+  width: 100%;
+  grid-area: 1/1/2/2;
+  visibility: hidden;
+  white-space: pre-wrap;
+}
+
+.emotion-6:disabled,
+.emotion-6:active:disabled,
+.emotion-6:focus:disabled {
+  cursor: not-allowed;
+  opacity: 0.3;
+}
+
+.emotion-6:focus {
+  box-shadow: inset 0 0 0 2px rgb(0, 155, 216);
+  outline: none;
+}
+
+.emotion-6::-webkit-input-placeholder {
+  color: rgba(5, 25, 45, 0.6);
+  font-family: inherit;
+}
+
+.emotion-6::-moz-placeholder {
+  color: rgba(5, 25, 45, 0.6);
+  font-family: inherit;
+}
+
+.emotion-6:-ms-input-placeholder {
+  color: rgba(5, 25, 45, 0.6);
+  font-family: inherit;
+}
+
+.emotion-6::placeholder {
+  color: rgba(5, 25, 45, 0.6);
+  font-family: inherit;
+}
+
+<label
+  class="emotion-0"
+>
+  <span
+    class="emotion-1"
+  >
+    <span
+      class="emotion-2"
+    >
+      <span
+        class="emotion-3"
+      >
+        test label
+      </span>
+    </span>
+  </span>
+  <div
+    class="emotion-4"
+  >
+    <textarea
+      class="emotion-5"
+      name="input text"
+      placeholder="input text"
+      rows="2"
+    >
+      Some example value
+    </textarea>
+    <div
+      aria-hidden="true"
+      class="emotion-6"
+    >
+      Some example value 
+    </div>
+  </div>
+</label>
+`;
+
 exports[`snapshots renders an input with size disabled=false, required=false 1`] = `
 .emotion-0 {
   border: 0;

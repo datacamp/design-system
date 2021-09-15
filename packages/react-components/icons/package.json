@@ -1,6 +1,6 @@
 {
   "name": "@datacamp/waffles-icons",
-  "version": "5.0.0-beta.3",
+  "version": "5.0.0-beta.5",
   "main": "lib/index.js",
   "module": "es/index.js",
   "react-native": "mobile/index.js",
@@ -27,7 +27,7 @@
     "@babel/cli": "^7.13.0",
     "@babel/core": "^7.12.7",
     "@datacamp/waffles-babel-preset": "^3.1.0",
-    "@datacamp/waffles-tokens": "^2.0.0-beta.3",
+    "@datacamp/waffles-tokens": "^2.0.0-beta.5",
     "@datacamp/waffles-tsconfig": "^2.0.0",
     "@svgr/core": "^5.4.0",
     "@svgr/plugin-prettier": "^5.5.0",
