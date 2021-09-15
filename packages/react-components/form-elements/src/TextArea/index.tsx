@@ -179,6 +179,7 @@ const InternalTextArea = ({
       {inputElement}
       <div
         aria-hidden="true"
+        className={className}
         css={css(textAreaStyle, fauxGrowElementStyle)}
       >{`${value} `}</div>
     </div>
