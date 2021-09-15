@@ -174,6 +174,7 @@ const InternalTextArea = ({
     />
   );
 
+  // Add space at the end of faux element content to prevent 'jumping'
   const enhancedInputElement = autoGrow ? (
     <div css={growWrapperStyle}>
       {inputElement}
