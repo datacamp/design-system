@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [4.3.0-beta.7](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/form-elements/compare/@datacamp/waffles-form-elements@4.3.0-beta.6...@datacamp/waffles-form-elements@4.3.0-beta.7) (2021-09-15)
+
+
+### Features
+
+* add textarea auto-grow docs ([22f8749](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/form-elements/commit/22f8749))
+* implement textarea auto-grow functionality ([b0dd4fc](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/form-elements/commit/b0dd4fc))
+* pass custom styles to faux grow element properly ([7bb7819](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/form-elements/commit/7bb7819))
+
+
+
+
+
 # [4.3.0-beta.6](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/form-elements/compare/@datacamp/waffles-form-elements@4.3.0-beta.5...@datacamp/waffles-form-elements@4.3.0-beta.6) (2021-09-14)
 
 
