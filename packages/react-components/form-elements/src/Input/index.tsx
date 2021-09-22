@@ -187,6 +187,7 @@ const InternalInput = ({
     inputStyle,
     icon && inputWithIconPaddings[size],
     label && css({ width: '100%' }),
+    type === 'password' && css({ paddingRight: 48 }),
   );
 
   const iconStyle = css({
@@ -217,19 +218,23 @@ const InternalInput = ({
           opacity: 1,
           outline: 0,
         },
+        alignItems: 'center',
         background: 'transparent',
         border: 0,
         color: tokens.color.primary.navyText.value.hex,
-        display: 'block',
+        display: 'flex',
+        height: '100%',
+        justifyContent: 'center',
         opacity: 0.5,
         position: 'absolute',
-        right: 12,
-        top: 11,
+        right: 8,
+        top: 0,
+        width: 36,
       }}
       onClick={togglePasswordVisibility}
       type="button"
     >
-      <i aria-hidden="true">
+      <i aria-hidden="true" css={css({ display: 'flex' })}>
         {passwordVisible ? (
           <HiddenIcon size="medium" />
         ) : (
