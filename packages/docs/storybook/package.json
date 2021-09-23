@@ -1,6 +1,6 @@
 {
   "name": "@datacamp/waffles-storybook",
-  "version": "3.3.5",
+  "version": "3.3.6",
   "main": "index.js",
   "license": "MIT",
   "private": true,
@@ -20,7 +20,7 @@
     "@datacamp/waffles-button": "^7.6.2",
     "@datacamp/waffles-card": "^5.2.0",
     "@datacamp/waffles-core": "^2.2.0",
-    "@datacamp/waffles-form-elements": "^4.3.2",
+    "@datacamp/waffles-form-elements": "^4.3.3",
     "@datacamp/waffles-icons": "^4.8.0",
     "@datacamp/waffles-loaders": "^3.1.4",
     "@datacamp/waffles-markdown": "^4.0.10",

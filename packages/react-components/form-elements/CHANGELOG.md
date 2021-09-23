@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [4.3.3](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/form-elements/compare/@datacamp/waffles-form-elements@4.3.2...@datacamp/waffles-form-elements@4.3.3) (2021-09-23)
+
+
+### Bug Fixes
+
+* password input padding ([57ad90c](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/form-elements/commit/57ad90c))
+
+
+
+
+
 ## [4.3.2](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/form-elements/compare/@datacamp/waffles-form-elements@4.3.1...@datacamp/waffles-form-elements@4.3.2) (2021-09-10)
 
 **Note:** Version bump only for package @datacamp/waffles-form-elements

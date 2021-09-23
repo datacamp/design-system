@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.3.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-flash-banner@0.2.2...@datacamp/waffles-flash-banner@0.3.0) (2021-09-23)
+
+
+### Features
+
+* update flash card link color ([4eb116e](https://github.com/datacamp/design-system/commit/4eb116e))
+
+
+
+
+
 ## [0.2.2](https://github.com/datacamp/design-system/compare/@datacamp/waffles-flash-banner@0.2.1...@datacamp/waffles-flash-banner@0.2.2) (2020-12-16)
 
 **Note:** Version bump only for package @datacamp/waffles-flash-banner
