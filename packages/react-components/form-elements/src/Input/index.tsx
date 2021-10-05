@@ -95,6 +95,10 @@ interface InputProps {
    */
   onFocus?: () => void;
   /**
+   * Pattern option for browser-based validation of HTML inputs.
+   */
+  pattern?: string;
+  /**
    * The placeholder text to render before the user has entered a value.
    */
   placeholder?: string;
@@ -113,6 +117,10 @@ interface InputProps {
    * The step size for a number input.
    */
   step?: string | number;
+  /**
+   * Title text that is shown as an error prompt when pattern validation doesn't match
+   */
+  title?: string;
   /**
    * The type of input to render. This corresponds to a set of html input types.
    */
@@ -156,10 +164,12 @@ const InternalInput = ({
   onBlur,
   onChange,
   onFocus,
+  pattern,
   placeholder,
   required,
   size = 'medium',
   step,
+  title,
   type = 'text',
   value,
 }: InputProps & { innerRef?: Ref<HTMLInputElement> }): ReactElement => {
@@ -258,10 +268,12 @@ const InternalInput = ({
         onBlur={handleBlur}
         onChange={handleChange}
         onFocus={handleFocus}
+        pattern={pattern}
         placeholder={placeholder}
         ref={innerRef}
         required={htmlRequired}
         step={step}
+        title={title}
         type={type === 'password' && passwordVisible ? 'input' : type}
         value={value}
         {...parsedDataAttributes}
