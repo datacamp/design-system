@@ -49,7 +49,7 @@
     "style-loader": "2.0.0",
     "svg-spritemap-webpack-plugin": "3.5.10",
     "webpack": "4.41.5",
-    "webpack-cli": "3.3.12",
+    "webpack-cli": "4.9.0",
     "webpack-manifest-plugin": "2.2.0"
   },
   "gitHead": "033030174dbf18623ccd9c0174108c41a9e588a1",
