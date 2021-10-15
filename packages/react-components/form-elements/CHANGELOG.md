@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [4.4.0](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/form-elements/compare/@datacamp/waffles-form-elements@4.3.3...@datacamp/waffles-form-elements@4.4.0) (2021-10-15)
+
+
+### Features
+
+* **input:** pass through HTML attributes ([e403eac](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/form-elements/commit/e403eac))
+
+
+
+
+
 ## [4.3.3](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/form-elements/compare/@datacamp/waffles-form-elements@4.3.2...@datacamp/waffles-form-elements@4.3.3) (2021-09-23)
 
 
