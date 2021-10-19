@@ -59,7 +59,7 @@
     "@datacamp/waffles-text": "^5.3.1",
     "@datacamp/waffles-tokens": "^1.1.0",
     "@datacamp/waffles-utils": "^3.3.1",
-    "@types/react-modal": "^3.10.6",
+    "@types/react-modal": "^3.13.1",
     "airbnb-prop-types": "^2.16.0",
     "prop-types": "^15.7.2",
     "react-modal": "^3.12.1"
