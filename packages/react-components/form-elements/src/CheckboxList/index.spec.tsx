@@ -35,6 +35,26 @@ describe('<CheckboxList>', () => {
     expect(item2).toHaveAttribute('name', testName);
   });
 
+  it('sets the dataAttributes on the checkbox element', () => {
+    const { getByLabelText } = render(
+      <CheckboxList
+        label={testLabel}
+        name={testName}
+        onChange={() => {}}
+        value={testValue}
+      >
+        <Checkbox dataAttributes={{ test: 'example' }} value="value1">
+          checkbox 1
+        </Checkbox>
+        <Checkbox value="value2">checkbox 2</Checkbox>
+      </CheckboxList>,
+    );
+
+    const checkbox1 = getByLabelText('checkbox 1', { selector: 'input' });
+
+    expect(checkbox1).toHaveAttribute('data-test', 'example');
+  });
+
   describe('required', () => {
     it('renders the indication "Required" above the checkbox group if required is passed as a prop', () => {
       const { getByText } = render(
@@ -52,6 +72,7 @@ describe('<CheckboxList>', () => {
 
       expect(getByText('Required')).toBeInTheDocument();
     });
+
     it('renders the indication "Optional" above the checkbox group if required=false is passed as a prop', () => {
       const { getByText } = render(
         <CheckboxList

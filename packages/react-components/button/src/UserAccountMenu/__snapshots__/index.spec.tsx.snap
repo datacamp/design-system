@@ -236,6 +236,7 @@ exports[`UserAccountMenu snapshots renders correctly when all optional props are
       <img
         alt=""
         class="emotion-3"
+        data-heap-redact-attributes="src"
         data-testid="user-account-menu-avatar"
         src="taylor-swift-pic.jpg"
       />
@@ -283,6 +284,7 @@ exports[`UserAccountMenu snapshots renders correctly when all optional props are
         >
           <a
             class="emotion-11"
+            data-heap-redact-attributes="href"
             data-trackid="track-menu-my-profile"
             href="https://datacamp.com/profile/taylorswift"
             role="menuitem"
@@ -517,6 +519,7 @@ exports[`UserAccountMenu snapshots renders correctly when only main app URL is p
       <img
         alt=""
         class="emotion-3"
+        data-heap-redact-attributes="src"
         data-testid="user-account-menu-avatar"
         src="data:image/svg+xml;base64,default-avatar"
       />
@@ -741,6 +744,7 @@ exports[`UserAccountMenu snapshots renders correctly when only main app URL is p
       <img
         alt=""
         class="emotion-3"
+        data-heap-redact-attributes="src"
         data-testid="user-account-menu-avatar"
         src="data:image/svg+xml;base64,default-avatar"
       />
