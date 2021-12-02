@@ -120,6 +120,7 @@ exports[`toast mounts a success toast 1`] = `
 >
   <div
     class="emotion-0"
+    data-testid="toast-wrapper"
   >
     <svg
       aria-hidden="false"
@@ -290,6 +291,7 @@ exports[`toast mounts an error toast 1`] = `
 >
   <div
     class="emotion-0"
+    data-testid="toast-wrapper"
   >
     <svg
       aria-hidden="false"
