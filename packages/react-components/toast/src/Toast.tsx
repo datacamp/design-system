@@ -5,6 +5,7 @@ import {
 } from '@datacamp/waffles-icons';
 import { Heading, Paragraph } from '@datacamp/waffles-text';
 import tokens from '@datacamp/waffles-tokens';
+import { computeDataAttributes } from '@datacamp/waffles-utils';
 import { css } from '@emotion/react';
 
 const colors = {
@@ -40,6 +41,10 @@ interface ToastProps {
    */
   closeToast?: () => void;
   /**
+   * Can be used to set data- html attributes on the element.
+   */
+  dataAttributes?: { [key: string]: string };
+  /**
    * Optional content to display in the toast below title.
    */
   description?: string;
@@ -55,15 +60,21 @@ interface ToastProps {
 
 const Toast = ({
   closeToast,
+  dataAttributes,
   description,
   intent,
   title,
 }: ToastProps): JSX.Element => {
   const Icon = icons[intent];
   const color = colors[intent];
+  const parsedDataAttributes = computeDataAttributes(dataAttributes);
 
   return (
-    <div css={css({ borderColor: color }, wrapperStyle)}>
+    <div
+      css={css({ borderColor: color }, wrapperStyle)}
+      {...parsedDataAttributes}
+      data-testid="toast-wrapper"
+    >
       <Icon css={css({ flexShrink: 0, marginTop: 2 })} title={intent} />
       <div
         css={css({ flexGrow: 1, marginLeft: 12, marginRight: 8, marginTop: 2 })}
