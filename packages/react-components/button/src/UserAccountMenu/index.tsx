@@ -81,6 +81,7 @@ function UserAccountMenu({
     >
       {userSlug && (
         <MenuItem
+          data-heap-redact-attributes="href"
           data-trackid={menuMyProfileTrackId}
           href={`${mainAppUrl}/profile/${userSlug}`}
           icon={UserIcon}
