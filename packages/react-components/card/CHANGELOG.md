@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [5.3.0-beta.0](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/card/compare/@datacamp/waffles-card@5.2.1-beta.5...@datacamp/waffles-card@5.3.0-beta.0) (2021-12-02)
+
+
+### Features
+
+* allow data attrs to be passed to Card ([8ac0ed8](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/card/commit/8ac0ed8))
+
+
+
+
+
 ## [5.2.1-beta.5](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/card/compare/@datacamp/waffles-card@5.2.1-beta.4...@datacamp/waffles-card@5.2.1-beta.5) (2021-09-14)
 
 

@@ -33,6 +33,7 @@ const Avatar = ({ avatarUrl }: AvatarProps): JSX.Element => {
       <img
         alt=""
         css={imageStyle}
+        data-heap-redact-attributes="src"
         data-testid="user-account-menu-avatar"
         onError={() => setHasImgError(true)}
         src={imgSrc}

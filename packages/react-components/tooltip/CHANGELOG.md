@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.0.0-beta.5](https://github.com/datacamp/design-system/compare/@datacamp/waffles-tooltip@1.0.0-beta.4...@datacamp/waffles-tooltip@1.0.0-beta.5) (2021-12-02)
+
+
+### Features
+
+* allow data attrs to be passed to Tooltip ([19201d3](https://github.com/datacamp/design-system/commit/19201d3))
+
+
+
+
+
 # [1.0.0-beta.4](https://github.com/datacamp/design-system/compare/@datacamp/waffles-tooltip@1.0.0-beta.3...@datacamp/waffles-tooltip@1.0.0-beta.4) (2021-09-14)
 
 
