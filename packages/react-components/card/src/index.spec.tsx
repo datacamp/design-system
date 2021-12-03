@@ -186,4 +186,16 @@ describe('<Card />', () => {
         });
       });
   });
+
+  it('sets the dataAttributes on the card element', async () => {
+    const { container } = await axeRender(
+      <Card as="section" dataAttributes={{ test: 'example' }}>
+        <p>{testText}</p>
+      </Card>,
+    );
+
+    const cardElement = container.querySelector('section');
+
+    expect(cardElement).toHaveAttribute('data-test', 'example');
+  });
 });
