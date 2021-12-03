@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [4.5.0](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/form-elements/compare/@datacamp/waffles-form-elements@4.4.0...@datacamp/waffles-form-elements@4.5.0) (2021-12-03)
+
+
+### Features
+
+* allow data attrs to be passed to Checkbox ([24a19dd](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/form-elements/commit/24a19dd))
+* allow data attrs to be passed to Radio ([fb085ff](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/form-elements/commit/fb085ff))
+
+
+
+
+
 # [4.4.0](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/form-elements/compare/@datacamp/waffles-form-elements@4.3.3...@datacamp/waffles-form-elements@4.4.0) (2021-10-15)
 
 

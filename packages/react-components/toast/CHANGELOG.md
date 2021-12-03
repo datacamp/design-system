@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [3.3.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-toast@3.2.2...@datacamp/waffles-toast@3.3.0) (2021-12-03)
+
+
+### Features
+
+* allow data attributes to be passed to Toast ([6001e45](https://github.com/datacamp/design-system/commit/6001e45))
+
+
+
+
+
 ## [3.2.2](https://github.com/datacamp/design-system/compare/@datacamp/waffles-toast@3.2.1...@datacamp/waffles-toast@3.2.2) (2021-09-10)
 
 **Note:** Version bump only for package @datacamp/waffles-toast
