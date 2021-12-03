@@ -1,6 +1,9 @@
 import { Text } from '@datacamp/waffles-text';
 import tokens from '@datacamp/waffles-tokens/lib/future-tokens.json';
-import { ssrSafeNotFirstChildSelector } from '@datacamp/waffles-utils';
+import {
+  computeDataAttributes,
+  ssrSafeNotFirstChildSelector,
+} from '@datacamp/waffles-utils';
 import { css } from '@emotion/react';
 import React, { ReactElement } from 'react';
 
@@ -16,6 +19,10 @@ export interface RadioProps {
    * Additionaly css className to add to the rendered element
    */
   className?: string;
+  /**
+   * Can be used to set data- html attributes on the element.
+   */
+  dataAttributes?: { [key: string]: string };
   /**
    * When true this individual option will be disabled. This is overriden when
    * disabled is set on RadioList itself.
@@ -52,6 +59,7 @@ const divStyle = css({
 const Radio = ({
   children,
   className,
+  dataAttributes,
   disabled = false,
   htmlRequired,
   value,
@@ -65,6 +73,7 @@ const Radio = ({
 
         const elementDisabled = disabled || contextValue.disabled;
         const handleChange = (): void => contextValue.onChange(value);
+        const parsedDataAttributes = computeDataAttributes(dataAttributes);
 
         const focusStyle = {
           borderColor: contextValue.hasError
@@ -94,6 +103,7 @@ const Radio = ({
               onChange={handleChange}
               required={htmlRequired}
               type="radio"
+              {...parsedDataAttributes}
             />
             <RadioIcon
               checked={contextValue.value === value}
