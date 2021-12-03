@@ -1,5 +1,6 @@
 /* eslint-disable filenames/match-exported */
 import tokens from '@datacamp/waffles-tokens/lib/future-tokens.json';
+import { computeDataAttributes } from '@datacamp/waffles-utils';
 import { css } from '@emotion/react';
 
 export const elevationMap = {
@@ -40,6 +41,10 @@ interface CardProps {
    */
   className?: string;
   /**
+   * Can be used to set data- html attributes on the element.
+   */
+  dataAttributes?: { [key: string]: string };
+  /**
    * The border/shadow to use on the Card. 0 corresponds to a border, and the
    * other values correspond to levels of shadow.
    */
@@ -63,12 +68,15 @@ function Card({
   as: Element = 'div',
   children,
   className,
+  dataAttributes,
   elevation = 0,
   headStone,
   hoverElevation,
   id,
   onClick,
 }: CardProps): JSX.Element {
+  const parsedDataAttributes = computeDataAttributes(dataAttributes);
+
   return (
     <Element
       className={className}
@@ -88,6 +96,7 @@ function Card({
       )}
       id={id}
       onClick={onClick}
+      {...parsedDataAttributes}
     >
       {headStone && <div css={headStoneStyle}>{headStone}</div>}
       {children}
