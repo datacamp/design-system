@@ -55,6 +55,7 @@
     "@datacamp/waffles-button": "^7.6.2",
     "@datacamp/waffles-text": "^5.3.1",
     "@datacamp/waffles-tokens": "^1.1.0",
+    "@datacamp/waffles-utils": "^3.3.1",
     "prop-types": "^15.7.2",
     "react-toastify": "^6.1.0"
   },
