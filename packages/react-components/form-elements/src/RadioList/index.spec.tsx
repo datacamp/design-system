@@ -35,6 +35,26 @@ describe('<RadioList>', () => {
     expect(item2).toHaveAttribute('name', testName);
   });
 
+  it('sets the dataAttributes on the checkbox element', () => {
+    const { getByLabelText } = render(
+      <RadioList
+        label={testLabel}
+        name={testName}
+        onChange={() => {}}
+        value={testValue}
+      >
+        <Radio dataAttributes={{ test: 'example' }} value="value1">
+          radio 1
+        </Radio>
+        <Radio value="value2">radio 2</Radio>
+      </RadioList>,
+    );
+
+    const radio1 = getByLabelText('radio 1', { selector: 'input' });
+
+    expect(radio1).toHaveAttribute('data-test', 'example');
+  });
+
   describe('required', () => {
     it('renders the indication "Required" above the radio group if required is passed as a prop', () => {
       const { getByText } = render(
@@ -52,6 +72,7 @@ describe('<RadioList>', () => {
 
       expect(getByText('Required')).toBeInTheDocument();
     });
+
     it('renders the indication "Optional" above the radio group if required=false is passed as a prop', () => {
       const { getByText } = render(
         <RadioList

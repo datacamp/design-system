@@ -56,4 +56,17 @@ describe('toast', () => {
     expect(titleElement).toBeInTheDocument();
     expect(descriptionElement).toBeInTheDocument();
   });
+
+  it('sets the dataAttributes on the toast wrapper element', () => {
+    const title = 'test toast title';
+    const { getByTestId } = render(<ToastContainer />);
+    toast({ dataAttributes: { test: 'example' }, intent: 'success', title });
+    act(() => {
+      jest.runAllTimers();
+    });
+
+    const toastWrapper = getByTestId('toast-wrapper');
+
+    expect(toastWrapper).toHaveAttribute('data-test', 'example');
+  });
 });
