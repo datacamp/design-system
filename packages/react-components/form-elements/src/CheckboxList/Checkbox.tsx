@@ -1,6 +1,9 @@
 import { Text } from '@datacamp/waffles-text';
 import tokens from '@datacamp/waffles-tokens/lib/future-tokens.json';
-import { ssrSafeNotFirstChildSelector } from '@datacamp/waffles-utils';
+import {
+  computeDataAttributes,
+  ssrSafeNotFirstChildSelector,
+} from '@datacamp/waffles-utils';
 import { css } from '@emotion/react';
 import React, { ReactElement } from 'react';
 
@@ -12,6 +15,10 @@ export interface CheckboxProps {
    * The text to display for this item.
    */
   children: string;
+  /**
+   * Can be used to set data- html attributes on the element.
+   */
+  dataAttributes?: { [key: string]: string };
   /**
    * When true this individual option will be disabled. This is overriden when
    * disabled is set on CheckboxList itself.
@@ -42,6 +49,7 @@ const divStyle = css({
  */
 const Checkbox = ({
   children,
+  dataAttributes,
   disabled = false,
   value,
 }: CheckboxProps): ReactElement => {
@@ -53,6 +61,7 @@ const Checkbox = ({
   const elementDisabled = disabled || contextValue.disabled;
   const handleChange = (): void => contextValue.onChange(value);
   const isChecked = contextValue.value.includes(value);
+  const parsedDataAttributes = computeDataAttributes(dataAttributes);
 
   const focusColor = contextValue.hasError
     ? tokens.color.primary.redDark.value.hex
@@ -84,6 +93,7 @@ const Checkbox = ({
         name={contextValue.name}
         onChange={handleChange}
         type="checkbox"
+        {...parsedDataAttributes}
       />
       <CheckboxIcon
         checked={isChecked}
