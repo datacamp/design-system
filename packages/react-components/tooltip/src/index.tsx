@@ -16,6 +16,10 @@ interface TooltipProps {
    */
   children: string;
   /**
+   * Can be used to set data- html attributes on the element.
+   */
+  dataAttributes?: { [key: string]: string };
+  /**
    * HTML id attribute to use on the rendered element. This is mandatory,
    * since aria-describedby must be set on the target element.
    */
@@ -65,6 +69,7 @@ const elevations = { dark: 0, light: 2 } as const;
 const Tooltip = ({
   appearance,
   children,
+  dataAttributes,
   id,
   position,
   target,
@@ -92,6 +97,7 @@ const Tooltip = ({
         },
         cardStyles[appearance],
       )}
+      dataAttributes={dataAttributes}
       elevation={elevations[appearance]}
       id={id}
     >
