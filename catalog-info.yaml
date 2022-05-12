@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  description: "design-system service owned by design-system"
+  name: design-system
+  annotations:
+    github.com/project-slug: "datacamp-engineering/design-system"
+    circleci.com/project-slug: "github/datacamp-engineering/design-system"
+    sentry.io/project-slug: "design-system"
+    sonarqube.org/project-key: "datacamp-engineering_design-system"
+  tags:
+    - design-system
+spec:
+  lifecycle: "production"
+  owner: "design-system"
+  type: "service"
