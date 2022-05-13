@@ -13,6 +13,10 @@ const logoutStyle = css({
 
 type UserAccountMenuProps = {
   /**
+   * URL of user account settings URL.
+   */
+  accountSettingUrl?: string;
+  /**
    * Additional menu items. It's advised to use predefined UserAccountMenu.MenuItem. New menu items are placed just above Log Out item.
    */
   children?: React.ReactNode;
@@ -41,6 +45,10 @@ type UserAccountMenuProps = {
    */
   menuTriggerTrackId?: string;
   /**
+   * URL of user profile page.
+   */
+  profileUrl?: string;
+  /**
    * Display little notifications dot.
    */
   showAlertDot?: boolean;
@@ -59,6 +67,7 @@ type UserAccountMenuProps = {
 };
 
 function UserAccountMenu({
+  accountSettingUrl,
   children,
   dropdownOffset,
   mainAppUrl,
@@ -66,11 +75,16 @@ function UserAccountMenu({
   menuLogOutTrackId,
   menuMyProfileTrackId,
   menuTriggerTrackId,
+  profileUrl,
   showAlertDot,
   userAvatarUrl,
   userSlug,
   userTotalXp,
 }: UserAccountMenuProps): JSX.Element {
+  const adjustedAccountSettingUrl =
+    accountSettingUrl || `${mainAppUrl}/profile/account_settings`;
+  const adjustedProfileUrl = profileUrl || `${mainAppUrl}/profile/${userSlug}`;
+
   return (
     <Menu
       avatarUrl={userAvatarUrl}
@@ -83,7 +97,7 @@ function UserAccountMenu({
         <MenuItem
           data-heap-redact-attributes="href"
           data-trackid={menuMyProfileTrackId}
-          href={`${mainAppUrl}/profile/${userSlug}`}
+          href={adjustedProfileUrl}
           icon={UserIcon}
         >
           My Profile
@@ -91,7 +105,7 @@ function UserAccountMenu({
       )}
       <MenuItem
         data-trackid={menuAccountSettingsTrackId}
-        href={`${mainAppUrl}/profile/account_settings`}
+        href={adjustedAccountSettingUrl}
         icon={CogIcon}
       >
         Account Settings
