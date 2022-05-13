@@ -99,6 +99,34 @@ describe('UserAccountMenu', () => {
     );
   });
 
+  it('when custom profileUrl and accountSettingUrl are provided use them instead default ones', () => {
+    const { getByRole, getByTestId, getByText, queryByText } = render(
+      <UserAccountMenu
+        accountSettingUrl="http://datacamp.com/custom-account-setting"
+        mainAppUrl="https://datacamp.com"
+        profileUrl="http://datacamp.com/custom-profile"
+      />,
+    );
+    const button = getByTestId('user-account-menu-button');
+    fireEvent.click(button);
+    const dropdown = getByRole('menu');
+    const profileLink = queryByText('My Profile')?.closest('a');
+    const accountSettingsLink = getByText('Account Settings').closest('a');
+
+    expect(button).toBeInTheDocument();
+    expect(dropdown).toBeInTheDocument();
+    expect(profileLink).toBeInTheDocument();
+    expect(profileLink).toHaveAttribute(
+      'href',
+      'http://datacamp.com/custom-profile',
+    );
+    expect(accountSettingsLink).toBeInTheDocument();
+    expect(accountSettingsLink).toHaveAttribute(
+      'href',
+      'http://datacamp.com/custom-account-setting',
+    );
+  });
+
   it('renders profile image, XP indicator, my profile, account settings, and logout links, when menu is opened and all user props are passed', () => {
     const { getByTestId, getByText } = render(
       <UserAccountMenu
