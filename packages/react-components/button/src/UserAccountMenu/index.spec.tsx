@@ -105,6 +105,7 @@ describe('UserAccountMenu', () => {
         accountSettingUrl="http://datacamp.com/custom-account-setting"
         mainAppUrl="https://datacamp.com"
         profileUrl="http://datacamp.com/custom-profile"
+        userSlug="taylorswift"
       />,
     );
     const button = getByTestId('user-account-menu-button');
