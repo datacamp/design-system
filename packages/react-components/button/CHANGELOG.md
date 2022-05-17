@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [8.0.0-beta.9](https://github.com/datacamp/design-system/compare/@datacamp/waffles-button@8.0.0-beta.8...@datacamp/waffles-button@8.0.0-beta.9) (2022-05-17)
+
+
+### Features
+
+* **button:** add profile on click handler to UserAccountMenu ([59eb916](https://github.com/datacamp/design-system/commit/59eb916))
+
+
+
+
+
 # [8.0.0-beta.8](https://github.com/datacamp/design-system/compare/@datacamp/waffles-button@8.0.0-beta.7...@datacamp/waffles-button@8.0.0-beta.8) (2022-05-13)
 
 
