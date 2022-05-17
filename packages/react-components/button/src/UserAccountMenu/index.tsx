@@ -45,6 +45,10 @@ type UserAccountMenuProps = {
    */
   menuTriggerTrackId?: string;
   /**
+   * Handler called when the profile link is clicked.
+   */
+  profileLinkOnClick?: (event?: React.MouseEvent<HTMLAnchorElement>) => void;
+  /**
    * URL of user profile page.
    */
   profileUrl?: string;
@@ -75,6 +79,7 @@ function UserAccountMenu({
   menuLogOutTrackId,
   menuMyProfileTrackId,
   menuTriggerTrackId,
+  profileLinkOnClick,
   profileUrl,
   showAlertDot,
   userAvatarUrl,
@@ -99,6 +104,7 @@ function UserAccountMenu({
           data-trackid={menuMyProfileTrackId}
           href={adjustedProfileUrl}
           icon={UserIcon}
+          onClick={profileLinkOnClick}
         >
           My Profile
         </MenuItem>
