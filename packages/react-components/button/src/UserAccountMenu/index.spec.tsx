@@ -128,6 +128,23 @@ describe('UserAccountMenu', () => {
     );
   });
 
+  it("when profile menu item is clicked it's onClick handler is called", () => {
+    const handleClick = jest.fn();
+    const { getByTestId, getByText } = render(
+      <UserAccountMenu
+        mainAppUrl="https://datacamp.com"
+        profileLinkOnClick={handleClick}
+        userSlug="taylorswift"
+      />,
+    );
+    const button = getByTestId('user-account-menu-button');
+    fireEvent.click(button);
+    const profileLink = getByText('My Profile');
+    fireEvent.click(profileLink);
+
+    expect(handleClick).toHaveBeenCalledTimes(1);
+  });
+
   it('renders profile image, XP indicator, my profile, account settings, and logout links, when menu is opened and all user props are passed', () => {
     const { getByTestId, getByText } = render(
       <UserAccountMenu

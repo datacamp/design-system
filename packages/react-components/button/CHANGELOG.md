@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [8.0.0-beta.8](https://github.com/datacamp/design-system/compare/@datacamp/waffles-button@8.0.0-beta.7...@datacamp/waffles-button@8.0.0-beta.8) (2022-05-13)
+
+
+### Features
+
+* allow to pass custom accountSettingUrl and profileUrl ([b478425](https://github.com/datacamp/design-system/commit/b478425))
+
+
+
+
+
 # [8.0.0-beta.7](https://github.com/datacamp/design-system/compare/@datacamp/waffles-button@8.0.0-beta.6...@datacamp/waffles-button@8.0.0-beta.7) (2021-12-02)
 
 
