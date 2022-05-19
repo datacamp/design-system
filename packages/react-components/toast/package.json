@@ -1,6 +1,6 @@
 {
   "name": "@datacamp/waffles-toast",
-  "version": "3.3.0",
+  "version": "3.3.1",
   "description": "The Waffles Toast",
   "keywords": [
     "toast"
@@ -34,7 +34,7 @@
     "@babel/core": "7.12.7",
     "@datacamp/waffles-axe-render": "^1.2.8",
     "@datacamp/waffles-babel-preset": "^3.1.0",
-    "@datacamp/waffles-icons": "^4.8.0",
+    "@datacamp/waffles-icons": "^4.9.0",
     "@datacamp/waffles-tsconfig": "^2.0.0",
     "@emotion/jest": "11.2.0",
     "@emotion/react": "11.1.4",
@@ -52,7 +52,7 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.12.1",
-    "@datacamp/waffles-button": "^7.7.0",
+    "@datacamp/waffles-button": "^7.7.1",
     "@datacamp/waffles-text": "^5.3.1",
     "@datacamp/waffles-tokens": "^1.1.0",
     "@datacamp/waffles-utils": "^3.3.1",
