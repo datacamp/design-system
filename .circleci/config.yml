@@ -235,13 +235,13 @@ workflows:
           filters:
             tags:
               only: /.*/
-      - datacamp-circleci/scan:
-          context: org-global
-          after-checkout:
-            - attach_workspace:
-                at: '.'
-          requires:
-            - test
+      # - datacamp-circleci/scan:
+      #     context: org-global
+      #     after-checkout:
+      #       - attach_workspace:
+      #           at: '.'
+      #     requires:
+      #       - test
       - hold-for-pr:
           type: approval
           context: org-global
