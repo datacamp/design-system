@@ -209,16 +209,16 @@ workflows:
                 keys:
                   - yarn-packages-{{ checksum "yarn.lock" }}
                   - yarn-packages-
-      - run:
-          name: Install and Build
-          command: yarn bootstrap
-      - save_cache:
-          name: Save Yarn Package Cache
-          key: yarn-packages-{{ checksum "yarn.lock" }}
-          paths:
-            - ~/.cache/yarn
-          requires:
-            - queue
+            - run:
+                name: Install and Build
+                command: yarn bootstrap
+            - save_cache:
+                name: Save Yarn Package Cache
+                key: yarn-packages-{{ checksum "yarn.lock" }}
+                paths:
+                  - ~/.cache/yarn
+                requires:
+                  - queue
 
       - datacamp-artifactory/tag_repository:
           name: tag
