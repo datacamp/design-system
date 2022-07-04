@@ -29,7 +29,7 @@
     "@mdx-js/loader": "^1.6.22",
     "@mdx-js/react": "^1.6.22",
     "@next/mdx": "^10.2.3",
-    "next": "^10.2.3",
+    "next": "^12.2.0",
     "polished": "^4.1.3",
     "prism-react-renderer": "^1.2.1",
     "react": "17.0.1",
