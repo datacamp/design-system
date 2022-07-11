@@ -34,6 +34,10 @@ interface DialogProps {
    */
   onClose: (origin: CloseOrigin) => void;
   /**
+   * Class name applied directly to modal's portal
+   */
+  portalClassName?: string;
+  /**
    * When true (default), the Dialog will close when the Esc key is pressed.
    */
   shouldCloseOnEsc?: boolean;
@@ -61,6 +65,7 @@ const Dialog = ({
   hideCloseButton = false,
   isOpen,
   onClose,
+  portalClassName,
   shouldCloseOnEsc = true,
   shouldCloseOnOverlayClick = true,
   totalSteps,
@@ -76,6 +81,7 @@ const Dialog = ({
     hideCloseButton={hideCloseButton}
     isOpen={isOpen}
     onClose={onClose}
+    portalClassName={portalClassName}
     shouldCloseOnEsc={shouldCloseOnEsc}
     shouldCloseOnOverlayClick={shouldCloseOnOverlayClick}
     width={width}
