@@ -49,7 +49,7 @@ interface DialogProps {
    */
   isOpen: boolean;
   /**
-   * function that is executed immediately after opening the modal
+   * Function that is executed immediately after opening the modal
    */
   onAfterOpen?: () => void;
   /**
@@ -57,6 +57,10 @@ interface DialogProps {
    * @param origin The original source of the request to close.
    */
   onClose: (origin: CloseOrigin) => void;
+  /**
+   * Class name applied directly to modal's portal
+   */
+  portalClassName?: string;
   /**
    * When set to true the Esc key can be used to close the dialog
    */
@@ -83,6 +87,7 @@ const BaseDialog: React.FC<DialogProps> = ({
   isOpen,
   onAfterOpen,
   onClose,
+  portalClassName,
   shouldCloseOnEsc,
   shouldCloseOnOverlayClick,
   width,
@@ -123,6 +128,7 @@ const BaseDialog: React.FC<DialogProps> = ({
             onAfterOpen={onAfterOpen}
             onRequestClose={onRequestClose}
             overlayClassName={overlayClassName}
+            portalClassName={portalClassName}
             shouldCloseOnEsc={shouldCloseOnEsc}
             shouldCloseOnOverlayClick={shouldCloseOnOverlayClick}
           >
