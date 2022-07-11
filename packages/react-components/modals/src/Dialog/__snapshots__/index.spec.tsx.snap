@@ -5,7 +5,7 @@ exports[`<Dialog /> isOpen mounts nothing when false 1`] = `
   class=""
 >
   <div
-    class="ReactModalPortal"
+    class="target-portal-class ReactModalPortal"
   />
   <div />
   <div
@@ -175,7 +175,7 @@ exports[`<Dialog /> isOpen renders the modal via a portal when true 1`] = `
     tabindex="0"
   />
   <div
-    class="ReactModalPortal"
+    class="target-portal-class ReactModalPortal"
   >
     <div
       class="modal-overlay emotion-1 emotion-2"

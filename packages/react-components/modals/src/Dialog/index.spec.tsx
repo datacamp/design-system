@@ -2,7 +2,6 @@ import '@testing-library/jest-dom/extend-expect';
 
 import axeRender from '@datacamp/waffles-axe-render';
 import Button, { ButtonGroup } from '@datacamp/waffles-button';
-import tokens from '@datacamp/waffles-tokens';
 import { fireEvent, RenderOptions } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 
@@ -20,7 +19,12 @@ describe('<Dialog />', () => {
   describe('isOpen', () => {
     it('renders the modal via a portal when true', async () => {
       const { baseElement, container, getByRole, getByText } = await axeRender(
-        <Dialog isOpen onClose={() => {}} width={600}>
+        <Dialog
+          isOpen
+          onClose={() => {}}
+          portalClassName="target-portal-class ReactModalPortal"
+          width={600}
+        >
           children
         </Dialog>,
         getRenderOptions(),
