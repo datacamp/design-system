@@ -61,7 +61,7 @@
     "@datacamp/waffles-utils": "^3.3.1",
     "@types/react-modal": "^3.10.6",
     "airbnb-prop-types": "^2.16.0",
-    "prop-types": "^15.7.2",
+    "prop-types": "^15.8.1",
     "react-modal": "^3.12.1"
   },
   "peerDependencies": {

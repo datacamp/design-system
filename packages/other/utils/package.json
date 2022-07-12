@@ -42,7 +42,7 @@
     "@babel/runtime": "^7.12.1",
     "@types/airbnb-prop-types": "^2.13.1",
     "airbnb-prop-types": "^2.16.0",
-    "prop-types": "^15.7.2"
+    "prop-types": "^15.8.1"
   },
   "peerDependencies": {
     "react": "^16.8.6 || ^17.0.1"

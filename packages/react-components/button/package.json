@@ -63,7 +63,7 @@
     "@datacamp/waffles-utils": "^3.3.1",
     "@react-aria/focus": "^3.3.0",
     "airbnb-prop-types": "^2.16.0",
-    "prop-types": "^15.7.2",
+    "prop-types": "^15.8.1",
     "react-merge-refs": "^1.1.0",
     "react-uid": "^2.3.1",
     "use-callback-ref": "^1.2.4"
