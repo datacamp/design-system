@@ -9,6 +9,10 @@ import StepsIndicator from './StepsIndicator';
 
 interface DialogProps {
   /**
+   * This will determine the background color of the dialog.
+   */
+  backgroundColor?: string;
+  /**
    * The content of the dialog to render
    */
   children: React.ReactNode;
@@ -56,6 +60,7 @@ interface DialogProps {
 }
 
 const Dialog = ({
+  backgroundColor,
   children,
   currentStep,
   hideCloseButton = false,
@@ -72,6 +77,7 @@ const Dialog = ({
         <StepsIndicator currentStep={currentStep} totalSteps={totalSteps} />
       )
     }
+    backgroundColor={backgroundColor}
     contentLabel="Dialog"
     hideCloseButton={hideCloseButton}
     isOpen={isOpen}
