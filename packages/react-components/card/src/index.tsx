@@ -12,7 +12,6 @@ export const elevationMap = {
 };
 
 const cardStyle = css({
-  backgroundColor: tokens.color.primary.white.value.hex,
   borderRadius: tokens.radii.small.value,
   transition: 'all 600ms cubic-bezier(0.075, 0.82, 0.165, 1)',
 });
@@ -32,6 +31,10 @@ interface CardProps {
    * The html element to render.
    */
   as?: 'div' | 'section' | 'aside';
+  /**
+   * The background color of the dialog
+   */
+  backgroundColor?: string;
   /**
    * The content of the card.
    */
@@ -66,6 +69,7 @@ interface CardProps {
 
 function Card({
   as: Element = 'div',
+  backgroundColor,
   children,
   className,
   dataAttributes,
@@ -90,6 +94,8 @@ function Card({
                   transform: `translate(0, -1px)`,
                 }
               : {},
+          backgroundColor:
+            backgroundColor || tokens.color.primary.white.value.hex,
           boxShadow: elevationMap[elevation],
         },
         headStone && { marginTop: 20, position: 'relative' },

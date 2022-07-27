@@ -144,7 +144,6 @@ const BaseDialog: React.FC<DialogProps> = ({
             )}
             <Card
               css={{
-                backgroundColor: backgroundColor || 'white',
                 display: 'flex',
                 flexDirection: 'column',
                 maxHeight: '100%',
