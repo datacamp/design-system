@@ -25,6 +25,10 @@ interface DialogProps {
    */
   additionalContent?: React.ReactNode;
   /**
+   * The background color of the dialog
+   */
+  backgroundColor?: string;
+  /**
    * The content of the BaseDialog
    */
   children: React.ReactNode;
@@ -79,6 +83,7 @@ export type CloseOrigin = 'overlayClick' | 'escKey' | 'closeButton';
 
 const BaseDialog: React.FC<DialogProps> = ({
   additionalContent,
+  backgroundColor = tokens.colors.white,
   children,
   closeButtonDisabled = false,
   contentLabel,
@@ -145,6 +150,7 @@ const BaseDialog: React.FC<DialogProps> = ({
             )}
             <Card
               css={{
+                backgroundColor,
                 display: 'flex',
                 flexDirection: 'column',
                 maxHeight: '100%',
