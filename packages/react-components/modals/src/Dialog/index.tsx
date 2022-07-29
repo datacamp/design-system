@@ -1,3 +1,4 @@
+import tokens from '@datacamp/waffles-tokens';
 import React from 'react';
 
 import BaseDialog, { CloseOrigin } from '../BaseDialog';
@@ -8,6 +9,10 @@ import Header from '../shared/Header';
 import StepsIndicator from './StepsIndicator';
 
 interface DialogProps {
+  /**
+   * The background color of the dialog
+   */
+  backgroundColor?: string;
   /**
    * The content of the dialog to render
    */
@@ -34,6 +39,10 @@ interface DialogProps {
    */
   onClose: (origin: CloseOrigin) => void;
   /**
+   * Class name applied directly to modal's portal
+   */
+  portalClassName?: string;
+  /**
    * When true (default), the Dialog will close when the Esc key is pressed.
    */
   shouldCloseOnEsc?: boolean;
@@ -56,11 +65,13 @@ interface DialogProps {
 }
 
 const Dialog = ({
+  backgroundColor = tokens.colors.white,
   children,
   currentStep,
   hideCloseButton = false,
   isOpen,
   onClose,
+  portalClassName,
   shouldCloseOnEsc = true,
   shouldCloseOnOverlayClick = true,
   totalSteps,
@@ -72,10 +83,12 @@ const Dialog = ({
         <StepsIndicator currentStep={currentStep} totalSteps={totalSteps} />
       )
     }
+    backgroundColor={backgroundColor}
     contentLabel="Dialog"
     hideCloseButton={hideCloseButton}
     isOpen={isOpen}
     onClose={onClose}
+    portalClassName={portalClassName}
     shouldCloseOnEsc={shouldCloseOnEsc}
     shouldCloseOnOverlayClick={shouldCloseOnOverlayClick}
     width={width}
