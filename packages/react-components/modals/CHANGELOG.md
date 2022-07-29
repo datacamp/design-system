@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [8.0.0-beta.11](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/modals/compare/@datacamp/waffles-modals@8.0.0-beta.10...@datacamp/waffles-modals@8.0.0-beta.11) (2022-07-29)
+
+
+### Features
+
+* **dialog:** add backgroundColor prop ([c533cd8](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/modals/commit/c533cd8))
+
+
+
+
+
 # [8.0.0-beta.10](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/modals/compare/@datacamp/waffles-modals@8.0.0-beta.9...@datacamp/waffles-modals@8.0.0-beta.10) (2022-07-11)
 
 
