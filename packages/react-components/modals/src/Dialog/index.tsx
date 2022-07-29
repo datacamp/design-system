@@ -1,3 +1,4 @@
+import tokens from '@datacamp/waffles-tokens';
 import React from 'react';
 
 import BaseDialog, { CloseOrigin } from '../BaseDialog';
@@ -8,6 +9,10 @@ import Header from '../shared/Header';
 import StepsIndicator from './StepsIndicator';
 
 interface DialogProps {
+  /**
+   * The background color of the dialog
+   */
+  backgroundColor?: string;
   /**
    * The content of the dialog to render
    */
@@ -60,6 +65,7 @@ interface DialogProps {
 }
 
 const Dialog = ({
+  backgroundColor = tokens.colors.white,
   children,
   currentStep,
   hideCloseButton = false,
@@ -77,6 +83,7 @@ const Dialog = ({
         <StepsIndicator currentStep={currentStep} totalSteps={totalSteps} />
       )
     }
+    backgroundColor={backgroundColor}
     contentLabel="Dialog"
     hideCloseButton={hideCloseButton}
     isOpen={isOpen}
