@@ -4,6 +4,7 @@ import { MDXProvider } from '@mdx-js/react';
 import { Fragment } from 'react';
 
 import { SIDEBAR_WIDTH } from './constants';
+import DeprecationBanner from './deprecation-banner';
 import MarkdownElements from './markdown-elements';
 import Sidebar from './sidebar';
 
@@ -22,6 +23,7 @@ function PageLayout({ children }: PageLayoutProps): JSX.Element {
     <Fragment>
       <Sidebar />
       <main css={mainStyle}>
+        <DeprecationBanner />
         <MDXProvider components={MarkdownElements}>{children}</MDXProvider>
       </main>
     </Fragment>
