@@ -1,4 +1,4 @@
-> :warning: This version of Waffles Design Sytem is going to be deprecated at the end of **2022**: it's [main repository](https://github.com/datacamp/design-system) will be archived and no new contributions will be accepted. Please migrate your app to the [New Waffles](https://waffles-next.datacamp.com/) before the end of the year.
+> :warning: This version of Waffles Design System is going to be deprecated at the end of **2022**: it's [main repository](https://github.com/datacamp/design-system) will be archived and no new contributions will be accepted. Please migrate your app to the [New Waffles](https://waffles-next.datacamp.com/) before the end of the year.
 
 This repository holds all of the code for the waffles design system. This includes but is not limited to the documentation site, design tokens and a react component library. Full details on usage can be found on [waffles.datacamp.com](https://waffles.datacamp.com).
 
