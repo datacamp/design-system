@@ -7,7 +7,7 @@ import { Fragment } from 'react';
 
 import categoryFromPath from '../helpers/category-from-path';
 
-import { MAX_CONTENT_WIDTH, PAGE_HEADER_HEIGHT } from './constants';
+import { MAX_CONTENT_WIDTH } from './constants';
 
 const headerStyle = css`
   display: flex;
@@ -15,8 +15,11 @@ const headerStyle = css`
   background-color: ${tokens.colors.navy};
   width: 100%;
   padding: 32px;
-  padding-top: 0;
-  height: ${PAGE_HEADER_HEIGHT}px;
+  padding-top: 200px;
+
+  @media (min-width: 820px) {
+    padding-top: 140px;
+  }
 `;
 
 const contentStyle = css`
