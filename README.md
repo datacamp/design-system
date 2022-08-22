@@ -1,9 +1,4 @@
-<h1>
-  <img width=300 src="https://waffles.datacamp.com/logo-waffles-regular.svg" /><br />
-  Waffles is DataCamp's Design System
-</h1>
-
-[![lerna](https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg)](https://lerna.js.org/)
+> :warning: This version of Waffles Design Sytem is going to be deprecated by the end of **2022**: its [main repository](https://github.com/datacamp/design-system) will be archived and no new contributions will be accepted. By that time please migrate your app to the [New Waffles](https://waffles-next.datacamp.com/).
 
 This repository holds all of the code for the waffles design system. This includes but is not limited to the documentation site, design tokens and a react component library. Full details on usage can be found on [waffles.datacamp.com](https://waffles.datacamp.com).
 
