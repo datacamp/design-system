@@ -73,15 +73,15 @@ jobs:
           name: Run cypress
           command: yarn cypress:ci
           working_directory: ~/project/packages/docs/storybook
-  upload-to-percy:
-    docker:
-      - image: circleci/node:14.16.0-browsers
-    steps:
-      - attach_workspace:
-          at: '.'
-      - run:
-          name: Upload to percy
-          command: yarn percy
+  # upload-to-percy:
+  #   docker:
+  #     - image: circleci/node:14.16.0-browsers
+  #   steps:
+  #     - attach_workspace:
+  #         at: '.'
+  #     - run:
+  #         name: Upload to percy
+  #         command: yarn percy
   deploy-staging-site:
     docker:
       - image: ${STAGING_ECR_URL}/docker-deploy
@@ -146,20 +146,20 @@ jobs:
   #           export AWS_ACCESS_KEY_ID=$PROD_AWS_ACCESS_KEY_ID
   #           export AWS_SECRET_ACCESS_KEY=$PROD_AWS_SECRET_ACCESS_KEY
   #           aws cloudfront create-invalidation --distribution-id ${BETA_CLOUDFRONT_ID} --paths "/index.html"
-  mutation-test:
-    resource_class: xlarge
-    docker:
-      - image: circleci/node:12.13-browsers
-    steps:
-      - attach_workspace:
-          at: '.'
-      - run:
-          name: stryker mutation tests
-          command: yarn stryker
-      - persist_to_workspace:
-          root: '.'
-          paths:
-            - ./**
+  # mutation-test:
+  #   resource_class: xlarge
+  #   docker:
+  #     - image: circleci/node:12.13-browsers
+  #   steps:
+  #     - attach_workspace:
+  #         at: '.'
+  #     - run:
+  #         name: stryker mutation tests
+  #         command: yarn stryker
+  #     - persist_to_workspace:
+  #         root: '.'
+  #         paths:
+  #           - ./**
   send-to-slack:
     docker:
       - image: circleci/node
@@ -174,46 +174,46 @@ jobs:
           channel: '#design-system-squad'
 workflows:
   version: 2
-  run_mutation_testing:
-    triggers:
-      - schedule:
-          cron: '0 0 * * 5'
-          filters:
-            branches:
-              only:
-                - master
-    jobs:
-      - build:
-          context: org-global
-      - mutation-test:
-          requires:
-            - build
-          context: org-global
-      - datacamp-ecr/build_and_push_image_to_ecr:
-          requires:
-            - mutation-test
-          name: push-stryker-image
-          context: org-global
-          aws-access-key-id: $OPS_AWS_ACCESS_KEY_ID
-          aws-secret-access-key: $OPS_AWS_SECRET_ACCESS_KEY
-          account-url: $OPS_ECR_URL
-          puller-account-ids: '["301258414863", "487088987264"]'
-          repo: waffles-stryker-report
-          pre-build-steps:
-            - attach_workspace:
-                at: '.'
-      - datacamp-deploy/deploy:
-          name: deploy-stryker-report
-          context: org-global
-          aws-access-key-id: $STAGING_AWS_ACCESS_KEY_ID
-          aws-secret-access-key: $STAGING_AWS_SECRET_ACCESS_KEY
-          environment: staging
-          requires:
-            - push-stryker-image
-      - send-to-slack:
-          context: org-global
-          requires:
-            - deploy-stryker-report
+  # run_mutation_testing:
+  #   triggers:
+  #     - schedule:
+  #         cron: '0 0 * * 5'
+  #         filters:
+  #           branches:
+  #             only:
+  #               - master
+  #   jobs:
+  #     - build:
+  #         context: org-global
+  #     - mutation-test:
+  #         requires:
+  #           - build
+  #         context: org-global
+  #     - datacamp-ecr/build_and_push_image_to_ecr:
+  #         requires:
+  #           - mutation-test
+  #         name: push-stryker-image
+  #         context: org-global
+  #         aws-access-key-id: $OPS_AWS_ACCESS_KEY_ID
+  #         aws-secret-access-key: $OPS_AWS_SECRET_ACCESS_KEY
+  #         account-url: $OPS_ECR_URL
+  #         puller-account-ids: '["301258414863", "487088987264"]'
+  #         repo: waffles-stryker-report
+  #         pre-build-steps:
+  #           - attach_workspace:
+  #               at: '.'
+  #     - datacamp-deploy/deploy:
+  #         name: deploy-stryker-report
+  #         context: org-global
+  #         aws-access-key-id: $STAGING_AWS_ACCESS_KEY_ID
+  #         aws-secret-access-key: $STAGING_AWS_SECRET_ACCESS_KEY
+  #         environment: staging
+  #         requires:
+  #           - push-stryker-image
+  #     - send-to-slack:
+  #         context: org-global
+  #         requires:
+  #           - deploy-stryker-report
   do_everything:
     jobs:
       - build:
@@ -242,20 +242,20 @@ workflows:
       #           at: '.'
       #     requires:
       #       - test
-      - hold-for-pr:
-          type: approval
-          context: org-global
-          filters:
-            tags:
-              only: /.*/
-            branches:
-              ignore: /master/
-      - upload-to-percy:
-          requires:
-            - test
-            - cypress-test-storybook
-            - hold-for-pr
-          context: org-global
+      # - hold-for-pr:
+      #     type: approval
+      #     context: org-global
+      #     filters:
+      #       tags:
+      #         only: /.*/
+      #       branches:
+      #         ignore: /master/
+      # - upload-to-percy:
+      #     requires:
+      #       - test
+      #       - cypress-test-storybook
+      #       - hold-for-pr
+      #     context: org-global
       # - datacamp-ecr/build_and_push_image_to_ecr:
       #     requires:
       #       - test
