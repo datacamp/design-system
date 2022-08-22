@@ -40,17 +40,17 @@ function DeprecationBanner(): JSX.Element {
     <div css={bannerStyle}>
       <Text css={warningStyle}>⚠️</Text>
       <Text css={textStyle}>
-        This version of Waffles Design Sytem is going to be deprecated by the
-        end of <strong>2022</strong>: its{' '}
+        This version of Waffles Design Sytem is going to be deprecated at the
+        end of <strong>2022</strong>: it's{' '}
         <a css={linkStyle} href="https://github.com/datacamp/design-system">
           main repository
         </a>{' '}
-        will be archived and no new contributions will be accepted. By that time
-        please migrate your app to the{' '}
+        will be archived and no new contributions will be accepted. Please
+        migrate your app to the{' '}
         <a css={linkStyle} href="https://waffles-next.datacamp.com/">
           New Waffles
-        </a>
-        .
+        </a>{' '}
+        before the end of the year.
       </Text>
     </div>
   );
