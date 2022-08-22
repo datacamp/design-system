@@ -4,7 +4,7 @@ import { css } from '@emotion/react';
 import Link from 'next/link';
 import { transparentize } from 'polished';
 
-import { PAGE_HEADER_HEIGHT, SIDEBAR_WIDTH } from './constants';
+import { SIDEBAR_WIDTH } from './constants';
 import Logo from './logo';
 import Navigation from './navigation';
 
@@ -22,7 +22,7 @@ const headerStyle = css`
   width: 100%;
   padding: 40px;
   padding-bottom: 0;
-  height: ${PAGE_HEADER_HEIGHT}px;
+  height: 154px;
   border-bottom: 1px solid ${tokens.colors.navy};
 
   svg {
