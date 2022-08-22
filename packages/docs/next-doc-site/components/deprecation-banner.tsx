@@ -2,12 +2,17 @@ import { Text } from '@datacamp/waffles-text';
 import tokens from '@datacamp/waffles-tokens';
 import { css } from '@emotion/react';
 
+import { SIDEBAR_WIDTH } from './constants';
+
 const bannerStyle = css`
+  position: fixed;
+  z-index: 100;
   display: flex;
   gap: 16px;
   padding: 16px;
   width: 100%;
   background: ${tokens.colors.redDark};
+  width: calc(100% - ${SIDEBAR_WIDTH}px);
 `;
 
 const textStyle = css`
@@ -43,7 +48,7 @@ function DeprecationBanner(): JSX.Element {
         </a>{' '}
         will be archived and no new contributions will be accepted. By that time
         please migrate your app to the{' '}
-        <a css={linkStyle} href="https://github.com/datacamp/waffles">
+        <a css={linkStyle} href="https://waffles-next.datacamp.com/">
           New Waffles
         </a>
         .
