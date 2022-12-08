@@ -60,7 +60,6 @@ exports[`<Button /> snapshots renders a button with appearance default, intent d
 }
 
 .emotion-1 {
-  -webkit-font-smoothing: antialiased;
   color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
@@ -231,7 +230,6 @@ exports[`<Button /> snapshots renders a button with appearance default, intent d
 }
 
 .emotion-3 {
-  -webkit-font-smoothing: antialiased;
   color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
@@ -441,7 +439,6 @@ exports[`<Button /> snapshots renders a button with appearance default, intent d
 }
 
 .emotion-1 {
-  -webkit-font-smoothing: antialiased;
   color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
@@ -612,7 +609,6 @@ exports[`<Button /> snapshots renders a button with appearance default, intent d
 }
 
 .emotion-3 {
-  -webkit-font-smoothing: antialiased;
   color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
@@ -822,7 +818,6 @@ exports[`<Button /> snapshots renders a button with appearance default, intent d
 }
 
 .emotion-1 {
-  -webkit-font-smoothing: antialiased;
   color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
@@ -993,7 +988,6 @@ exports[`<Button /> snapshots renders a button with appearance default, intent d
 }
 
 .emotion-3 {
-  -webkit-font-smoothing: antialiased;
   color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
@@ -1203,7 +1197,6 @@ exports[`<Button /> snapshots renders a button with appearance default, intent n
 }
 
 .emotion-1 {
-  -webkit-font-smoothing: antialiased;
   color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
@@ -1374,7 +1367,6 @@ exports[`<Button /> snapshots renders a button with appearance default, intent n
 }
 
 .emotion-3 {
-  -webkit-font-smoothing: antialiased;
   color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
@@ -1584,7 +1576,6 @@ exports[`<Button /> snapshots renders a button with appearance default, intent n
 }
 
 .emotion-1 {
-  -webkit-font-smoothing: antialiased;
   color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
@@ -1755,7 +1746,6 @@ exports[`<Button /> snapshots renders a button with appearance default, intent n
 }
 
 .emotion-3 {
-  -webkit-font-smoothing: antialiased;
   color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
@@ -1965,7 +1955,6 @@ exports[`<Button /> snapshots renders a button with appearance default, intent n
 }
 
 .emotion-1 {
-  -webkit-font-smoothing: antialiased;
   color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
@@ -2136,7 +2125,6 @@ exports[`<Button /> snapshots renders a button with appearance default, intent n
 }
 
 .emotion-3 {
-  -webkit-font-smoothing: antialiased;
   color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
@@ -2346,7 +2334,6 @@ exports[`<Button /> snapshots renders a button with appearance default, intent s
 }
 
 .emotion-1 {
-  -webkit-font-smoothing: antialiased;
   color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
@@ -2517,7 +2504,6 @@ exports[`<Button /> snapshots renders a button with appearance default, intent s
 }
 
 .emotion-3 {
-  -webkit-font-smoothing: antialiased;
   color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
@@ -2727,7 +2713,6 @@ exports[`<Button /> snapshots renders a button with appearance default, intent s
 }
 
 .emotion-1 {
-  -webkit-font-smoothing: antialiased;
   color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
@@ -2898,7 +2883,6 @@ exports[`<Button /> snapshots renders a button with appearance default, intent s
 }
 
 .emotion-3 {
-  -webkit-font-smoothing: antialiased;
   color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
@@ -3108,7 +3092,6 @@ exports[`<Button /> snapshots renders a button with appearance default, intent s
 }
 
 .emotion-1 {
-  -webkit-font-smoothing: antialiased;
   color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
@@ -3279,7 +3262,6 @@ exports[`<Button /> snapshots renders a button with appearance default, intent s
 }
 
 .emotion-3 {
-  -webkit-font-smoothing: antialiased;
   color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
@@ -3489,7 +3471,6 @@ exports[`<Button /> snapshots renders a button with appearance default, intent w
 }
 
 .emotion-1 {
-  -webkit-font-smoothing: antialiased;
   color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
@@ -3660,7 +3641,6 @@ exports[`<Button /> snapshots renders a button with appearance default, intent w
 }
 
 .emotion-3 {
-  -webkit-font-smoothing: antialiased;
   color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
@@ -3870,7 +3850,6 @@ exports[`<Button /> snapshots renders a button with appearance default, intent w
 }
 
 .emotion-1 {
-  -webkit-font-smoothing: antialiased;
   color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
@@ -4041,7 +4020,6 @@ exports[`<Button /> snapshots renders a button with appearance default, intent w
 }
 
 .emotion-3 {
-  -webkit-font-smoothing: antialiased;
   color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
@@ -4251,7 +4229,6 @@ exports[`<Button /> snapshots renders a button with appearance default, intent w
 }
 
 .emotion-1 {
-  -webkit-font-smoothing: antialiased;
   color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
@@ -4422,7 +4399,6 @@ exports[`<Button /> snapshots renders a button with appearance default, intent w
 }
 
 .emotion-3 {
-  -webkit-font-smoothing: antialiased;
   color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
@@ -4632,7 +4608,6 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
 }
 
 .emotion-1 {
-  -webkit-font-smoothing: antialiased;
   color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
@@ -4803,7 +4778,6 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
 }
 
 .emotion-3 {
-  -webkit-font-smoothing: antialiased;
   color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
@@ -5013,7 +4987,6 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
 }
 
 .emotion-1 {
-  -webkit-font-smoothing: antialiased;
   color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
@@ -5184,7 +5157,6 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
 }
 
 .emotion-3 {
-  -webkit-font-smoothing: antialiased;
   color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
@@ -5394,7 +5366,6 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
 }
 
 .emotion-1 {
-  -webkit-font-smoothing: antialiased;
   color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
@@ -5565,7 +5536,6 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
 }
 
 .emotion-3 {
-  -webkit-font-smoothing: antialiased;
   color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
@@ -5775,7 +5745,6 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
 }
 
 .emotion-1 {
-  -webkit-font-smoothing: antialiased;
   color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
@@ -5946,7 +5915,6 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
 }
 
 .emotion-3 {
-  -webkit-font-smoothing: antialiased;
   color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
@@ -6156,7 +6124,6 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
 }
 
 .emotion-1 {
-  -webkit-font-smoothing: antialiased;
   color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
@@ -6327,7 +6294,6 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
 }
 
 .emotion-3 {
-  -webkit-font-smoothing: antialiased;
   color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
@@ -6537,7 +6503,6 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
 }
 
 .emotion-1 {
-  -webkit-font-smoothing: antialiased;
   color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
@@ -6708,7 +6673,6 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
 }
 
 .emotion-3 {
-  -webkit-font-smoothing: antialiased;
   color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
@@ -6916,7 +6880,6 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
 }
 
 .emotion-1 {
-  -webkit-font-smoothing: antialiased;
   color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
@@ -7087,7 +7050,6 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
 }
 
 .emotion-3 {
-  -webkit-font-smoothing: antialiased;
   color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
@@ -7295,7 +7257,6 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
 }
 
 .emotion-1 {
-  -webkit-font-smoothing: antialiased;
   color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
@@ -7466,7 +7427,6 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
 }
 
 .emotion-3 {
-  -webkit-font-smoothing: antialiased;
   color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
@@ -7674,7 +7634,6 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
 }
 
 .emotion-1 {
-  -webkit-font-smoothing: antialiased;
   color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
@@ -7845,7 +7804,6 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
 }
 
 .emotion-3 {
-  -webkit-font-smoothing: antialiased;
   color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
@@ -8055,7 +8013,6 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
 }
 
 .emotion-1 {
-  -webkit-font-smoothing: antialiased;
   color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
@@ -8226,7 +8183,6 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
 }
 
 .emotion-3 {
-  -webkit-font-smoothing: antialiased;
   color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
@@ -8436,7 +8392,6 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
 }
 
 .emotion-1 {
-  -webkit-font-smoothing: antialiased;
   color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
@@ -8607,7 +8562,6 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
 }
 
 .emotion-3 {
-  -webkit-font-smoothing: antialiased;
   color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
@@ -8817,7 +8771,6 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
 }
 
 .emotion-1 {
-  -webkit-font-smoothing: antialiased;
   color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
@@ -8988,7 +8941,6 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
 }
 
 .emotion-3 {
-  -webkit-font-smoothing: antialiased;
   color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
@@ -9198,7 +9150,6 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
 }
 
 .emotion-1 {
-  -webkit-font-smoothing: antialiased;
   color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
@@ -9369,7 +9320,6 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
 }
 
 .emotion-3 {
-  -webkit-font-smoothing: antialiased;
   color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
@@ -9579,7 +9529,6 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
 }
 
 .emotion-1 {
-  -webkit-font-smoothing: antialiased;
   color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
@@ -9750,7 +9699,6 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
 }
 
 .emotion-3 {
-  -webkit-font-smoothing: antialiased;
   color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
@@ -9960,7 +9908,6 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
 }
 
 .emotion-1 {
-  -webkit-font-smoothing: antialiased;
   color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
@@ -10131,7 +10078,6 @@ exports[`<Button /> snapshots renders a button with appearance inverted, intent 
 }
 
 .emotion-3 {
-  -webkit-font-smoothing: antialiased;
   color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
@@ -10347,7 +10293,6 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent b
 }
 
 .emotion-1 {
-  -webkit-font-smoothing: antialiased;
   color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
@@ -10519,7 +10464,6 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent b
 }
 
 .emotion-3 {
-  -webkit-font-smoothing: antialiased;
   color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
@@ -10735,7 +10679,6 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent b
 }
 
 .emotion-1 {
-  -webkit-font-smoothing: antialiased;
   color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
@@ -10907,7 +10850,6 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent b
 }
 
 .emotion-3 {
-  -webkit-font-smoothing: antialiased;
   color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
@@ -11123,7 +11065,6 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent b
 }
 
 .emotion-1 {
-  -webkit-font-smoothing: antialiased;
   color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
@@ -11295,7 +11236,6 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent b
 }
 
 .emotion-3 {
-  -webkit-font-smoothing: antialiased;
   color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
@@ -11511,7 +11451,6 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent d
 }
 
 .emotion-1 {
-  -webkit-font-smoothing: antialiased;
   color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
@@ -11683,7 +11622,6 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent d
 }
 
 .emotion-3 {
-  -webkit-font-smoothing: antialiased;
   color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
@@ -11899,7 +11837,6 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent d
 }
 
 .emotion-1 {
-  -webkit-font-smoothing: antialiased;
   color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
@@ -12071,7 +12008,6 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent d
 }
 
 .emotion-3 {
-  -webkit-font-smoothing: antialiased;
   color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
@@ -12287,7 +12223,6 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent d
 }
 
 .emotion-1 {
-  -webkit-font-smoothing: antialiased;
   color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
@@ -12459,7 +12394,6 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent d
 }
 
 .emotion-3 {
-  -webkit-font-smoothing: antialiased;
   color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
@@ -12675,7 +12609,6 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent n
 }
 
 .emotion-1 {
-  -webkit-font-smoothing: antialiased;
   color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
@@ -12847,7 +12780,6 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent n
 }
 
 .emotion-3 {
-  -webkit-font-smoothing: antialiased;
   color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
@@ -13063,7 +12995,6 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent n
 }
 
 .emotion-1 {
-  -webkit-font-smoothing: antialiased;
   color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
@@ -13235,7 +13166,6 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent n
 }
 
 .emotion-3 {
-  -webkit-font-smoothing: antialiased;
   color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
@@ -13451,7 +13381,6 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent n
 }
 
 .emotion-1 {
-  -webkit-font-smoothing: antialiased;
   color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
@@ -13623,7 +13552,6 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent n
 }
 
 .emotion-3 {
-  -webkit-font-smoothing: antialiased;
   color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
@@ -13839,7 +13767,6 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent s
 }
 
 .emotion-1 {
-  -webkit-font-smoothing: antialiased;
   color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
@@ -14011,7 +13938,6 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent s
 }
 
 .emotion-3 {
-  -webkit-font-smoothing: antialiased;
   color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
@@ -14227,7 +14153,6 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent s
 }
 
 .emotion-1 {
-  -webkit-font-smoothing: antialiased;
   color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
@@ -14399,7 +14324,6 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent s
 }
 
 .emotion-3 {
-  -webkit-font-smoothing: antialiased;
   color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
@@ -14615,7 +14539,6 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent s
 }
 
 .emotion-1 {
-  -webkit-font-smoothing: antialiased;
   color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
@@ -14787,7 +14710,6 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent s
 }
 
 .emotion-3 {
-  -webkit-font-smoothing: antialiased;
   color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
@@ -15003,7 +14925,6 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent w
 }
 
 .emotion-1 {
-  -webkit-font-smoothing: antialiased;
   color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
@@ -15175,7 +15096,6 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent w
 }
 
 .emotion-3 {
-  -webkit-font-smoothing: antialiased;
   color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
@@ -15391,7 +15311,6 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent w
 }
 
 .emotion-1 {
-  -webkit-font-smoothing: antialiased;
   color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
@@ -15563,7 +15482,6 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent w
 }
 
 .emotion-3 {
-  -webkit-font-smoothing: antialiased;
   color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
@@ -15779,7 +15697,6 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent w
 }
 
 .emotion-1 {
-  -webkit-font-smoothing: antialiased;
   color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
@@ -15951,7 +15868,6 @@ exports[`<Button /> snapshots renders a button with appearance primary, intent w
 }
 
 .emotion-3 {
-  -webkit-font-smoothing: antialiased;
   color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
@@ -16241,7 +16157,6 @@ exports[`<Button /> tooltips tooltip appearance snapshots renders a tooltip with
 }
 
 .emotion-1 {
-  -webkit-font-smoothing: antialiased;
   color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
@@ -16276,7 +16191,6 @@ exports[`<Button /> tooltips tooltip appearance snapshots renders a tooltip with
 }
 
 .emotion-3 {
-  -webkit-font-smoothing: antialiased;
   color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
@@ -16374,7 +16288,6 @@ exports[`<Button /> tooltips tooltip appearance snapshots renders a tooltip with
 }
 
 .emotion-1 {
-  -webkit-font-smoothing: antialiased;
   color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
@@ -16408,7 +16321,6 @@ exports[`<Button /> tooltips tooltip appearance snapshots renders a tooltip with
 }
 
 .emotion-3 {
-  -webkit-font-smoothing: antialiased;
   color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
@@ -16506,7 +16418,6 @@ exports[`<Button /> tooltips tooltip appearance snapshots renders a tooltip with
 }
 
 .emotion-1 {
-  -webkit-font-smoothing: antialiased;
   color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
@@ -16541,7 +16452,6 @@ exports[`<Button /> tooltips tooltip appearance snapshots renders a tooltip with
 }
 
 .emotion-3 {
-  -webkit-font-smoothing: antialiased;
   color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
@@ -16639,7 +16549,6 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at b
 }
 
 .emotion-1 {
-  -webkit-font-smoothing: antialiased;
   color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
@@ -16674,7 +16583,6 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at b
 }
 
 .emotion-3 {
-  -webkit-font-smoothing: antialiased;
   color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
@@ -16772,7 +16680,6 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at b
 }
 
 .emotion-1 {
-  -webkit-font-smoothing: antialiased;
   color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
@@ -16803,7 +16710,6 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at b
 }
 
 .emotion-3 {
-  -webkit-font-smoothing: antialiased;
   color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
@@ -16901,7 +16807,6 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at b
 }
 
 .emotion-1 {
-  -webkit-font-smoothing: antialiased;
   color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
@@ -16936,7 +16841,6 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at b
 }
 
 .emotion-3 {
-  -webkit-font-smoothing: antialiased;
   color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
@@ -17034,7 +16938,6 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at l
 }
 
 .emotion-1 {
-  -webkit-font-smoothing: antialiased;
   color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
@@ -17069,7 +16972,6 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at l
 }
 
 .emotion-3 {
-  -webkit-font-smoothing: antialiased;
   color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
@@ -17167,7 +17069,6 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at r
 }
 
 .emotion-1 {
-  -webkit-font-smoothing: antialiased;
   color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
@@ -17202,7 +17103,6 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at r
 }
 
 .emotion-3 {
-  -webkit-font-smoothing: antialiased;
   color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
@@ -17300,7 +17200,6 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at t
 }
 
 .emotion-1 {
-  -webkit-font-smoothing: antialiased;
   color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
@@ -17335,7 +17234,6 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at t
 }
 
 .emotion-3 {
-  -webkit-font-smoothing: antialiased;
   color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
@@ -17433,7 +17331,6 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at t
 }
 
 .emotion-1 {
-  -webkit-font-smoothing: antialiased;
   color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
@@ -17468,7 +17365,6 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at t
 }
 
 .emotion-3 {
-  -webkit-font-smoothing: antialiased;
   color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
@@ -17566,7 +17462,6 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at t
 }
 
 .emotion-1 {
-  -webkit-font-smoothing: antialiased;
   color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
@@ -17601,7 +17496,6 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at t
 }
 
 .emotion-3 {
-  -webkit-font-smoothing: antialiased;
   color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
@@ -17699,7 +17593,6 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at u
 }
 
 .emotion-1 {
-  -webkit-font-smoothing: antialiased;
   color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
@@ -17734,7 +17627,6 @@ exports[`<Button /> tooltips tooltip position snapshots renders the tooltip at u
 }
 
 .emotion-3 {
-  -webkit-font-smoothing: antialiased;
   color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;

@@ -42,7 +42,6 @@ exports[`toast mounts a success toast 1`] = `
 }
 
 .emotion-3 {
-  -webkit-font-smoothing: antialiased;
   color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
@@ -214,7 +213,6 @@ exports[`toast mounts an error toast 1`] = `
 }
 
 .emotion-3 {
-  -webkit-font-smoothing: antialiased;
   color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;

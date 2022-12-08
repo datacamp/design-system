@@ -2,7 +2,6 @@
 
 exports[`<Small /> renders with Strong and Emphasis children 1`] = `
 .emotion-0 {
-  -webkit-font-smoothing: antialiased;
   color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
@@ -11,7 +10,6 @@ exports[`<Small /> renders with Strong and Emphasis children 1`] = `
 }
 
 .emotion-1 {
-  -webkit-font-smoothing: antialiased;
   color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
@@ -20,7 +18,6 @@ exports[`<Small /> renders with Strong and Emphasis children 1`] = `
 }
 
 .emotion-2 {
-  -webkit-font-smoothing: antialiased;
   color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
@@ -53,7 +50,6 @@ exports[`<Small /> renders with Strong and Emphasis children 1`] = `
 
 exports[`<Small /> renders with a string 1`] = `
 .emotion-0 {
-  -webkit-font-smoothing: antialiased;
   color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
