@@ -47,7 +47,7 @@ function DeprecationBanner(): JSX.Element {
           main repository
         </a>{' '}
         is archived. Please migrate your app to the{' '}
-        <a css={linkStyle} href="https://waffles-next.datacamp.com/">
+        <a css={linkStyle} href="https://waffles.datacamp.com/">
           New Waffles
         </a>
         .
