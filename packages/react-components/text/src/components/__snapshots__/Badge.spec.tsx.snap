@@ -2,7 +2,6 @@
 
 exports[`Badge renders with the provided colour, className and content 1`] = `
 .emotion-0 {
-  -webkit-font-smoothing: antialiased;
   color: rgb(5, 25, 45);
   font-family: Studio-Feixen-Sans,Arial;
   font-style: normal;
