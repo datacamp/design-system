@@ -41,7 +41,7 @@
     "gulp-svg-sprite": "^1.5.0",
     "gulp-transform": "^3.0.5",
     "gulp-typescript": "^5.0.1",
-    "gulp-zip": "^5.0.2",
+    "gulp-zip": "^5.1.0",
     "merge-stream": "^2.0.0",
     "react": "17.0.1",
     "react-native-svg": "^12.1.0",
