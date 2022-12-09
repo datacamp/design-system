@@ -3,6 +3,35 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [4.10.0](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/icons/compare/@datacamp/waffles-icons@4.9.0...@datacamp/waffles-icons@4.10.0) (2022-12-09)
+
+
+### Features
+
+* add 3 Sort icons ([aead406](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/icons/commit/aead406))
+* add Attention icon ([ca88210](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/icons/commit/ca88210))
+* add ClosedCaptions icon ([2eec42e](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/icons/commit/2eec42e))
+* add DC Certification icon ([759f652](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/icons/commit/759f652))
+* add DC Jobs icon ([d63df65](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/icons/commit/d63df65))
+* add DC Learn icon ([1ae1077](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/icons/commit/1ae1077))
+* add DC Recruit icon ([36e684b](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/icons/commit/36e684b))
+* add DC Workspace icon ([a0ec6be](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/icons/commit/a0ec6be))
+* add Figma icon ([d85af8d](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/icons/commit/d85af8d))
+* add Flash icon ([b773904](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/icons/commit/b773904))
+* add Medal icon ([3eb4edb](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/icons/commit/3eb4edb))
+* add Minus icon ([f4e8d9e](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/icons/commit/f4e8d9e))
+* add Multidoc icon ([a21e0c8](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/icons/commit/a21e0c8))
+* add Scissors icon ([e3a3633](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/icons/commit/e3a3633))
+* add standard Attention icon ([fb0debc](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/icons/commit/fb0debc))
+* add Tablet icon ([21debe4](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/icons/commit/21debe4))
+* add VersionHistory icon ([25462db](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/icons/commit/25462db))
+* add Website icon ([215897b](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/icons/commit/215897b))
+* update LinkedIn square icon ([2feee17](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/icons/commit/2feee17))
+
+
+
+
+
 # [4.9.0](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/icons/compare/@datacamp/waffles-icons@4.8.0...@datacamp/waffles-icons@4.9.0) (2022-05-19)
 
 

@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [5.4.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-text@5.3.1...@datacamp/waffles-text@5.4.0) (2022-12-09)
+
+
+### Features
+
+* remove CSS font smoothing ([4c67133](https://github.com/datacamp/design-system/commit/4c67133))
+
+
+
+
+
 ## [5.3.1](https://github.com/datacamp/design-system/compare/@datacamp/waffles-text@5.3.0...@datacamp/waffles-text@5.3.1) (2021-06-30)
 
 **Note:** Version bump only for package @datacamp/waffles-text

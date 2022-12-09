@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [7.8.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-button@7.7.1...@datacamp/waffles-button@7.8.0) (2022-12-09)
+
+
+### Features
+
+* remove CSS font smoothing ([4c67133](https://github.com/datacamp/design-system/commit/4c67133))
+
+
+
+
+
 ## [7.7.1](https://github.com/datacamp/design-system/compare/@datacamp/waffles-button@7.7.0...@datacamp/waffles-button@7.7.1) (2022-05-19)
 
 **Note:** Version bump only for package @datacamp/waffles-button

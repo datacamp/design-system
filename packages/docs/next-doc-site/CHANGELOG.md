@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.11.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-next-doc-site@0.10.8...@datacamp/waffles-next-doc-site@0.11.0) (2022-12-09)
+
+
+### Features
+
+* remove CSS font smoothing ([4c67133](https://github.com/datacamp/design-system/commit/4c67133))
+
+
+
+
+
 ## [0.10.8](https://github.com/datacamp/design-system/compare/@datacamp/waffles-next-doc-site@0.10.7...@datacamp/waffles-next-doc-site@0.10.8) (2022-05-19)
 
 **Note:** Version bump only for package @datacamp/waffles-next-doc-site
