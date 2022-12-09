@@ -45,7 +45,7 @@
     "@testing-library/jest-dom": "5.11.6",
     "@testing-library/react": "11.2.2",
     "@testing-library/user-event": "12.7.2",
-    "@types/airbnb-prop-types": "2.13.1",
+    "@types/airbnb-prop-types": "2.13.2",
     "babel-jest": "26.6.3",
     "jest": "26.6.1",
     "react": "17.0.1",

@@ -4969,10 +4969,10 @@
   dependencies:
     "@babel/runtime" "^7.12.5"
 
-"@types/airbnb-prop-types@2.13.1", "@types/airbnb-prop-types@^2.13.1":
-  version "2.13.1"
-  resolved "https://registry.yarnpkg.com/@types/airbnb-prop-types/-/airbnb-prop-types-2.13.1.tgz#9290689e95547cf2ab809585f553edef48cb20e9"
-  integrity sha512-EfUWjD7bqrspzWCBwnoaglrtJNqdyqYTWg6JxjWhOs9URskzQ/tR+OyYJbaIzGplqPRusYFc8Slt7f1MQLMdNQ==
+"@types/airbnb-prop-types@2.13.2", "@types/airbnb-prop-types@^2.13.2":
+  version "2.13.2"
+  resolved "https://registry.yarnpkg.com/@types/airbnb-prop-types/-/airbnb-prop-types-2.13.2.tgz#145ae32c2ee31d319b3f5330dac03bda0eea2ba9"
+  integrity sha512-HwCshZ4EqcODNwCFVzmrcdf+XaP29XM6UoUQqGVThlp6ZnP0qxPgUbJhBi+xU4TQ5TT/1bxArr+tfrgmtho6AA==
   dependencies:
     "@types/prop-types" "*"
 
