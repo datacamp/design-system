@@ -97,7 +97,7 @@ exports[`toast mounts a success toast 1`] = `
 }
 
 .emotion-4:disabled {
-  color: #D9D9E2;
+  color: #E1E1E8;
 }
 
 .emotion-4:disabled:hover,
@@ -106,11 +106,11 @@ exports[`toast mounts a success toast 1`] = `
 }
 
 .emotion-4:focus {
-  background-color: #EFEFEF;
+  background-color: #EFEFF5;
 }
 
 .emotion-4:hover {
-  background-color: #EFEFEF;
+  background-color: #EFEFF5;
 }
 
 <div
@@ -267,7 +267,7 @@ exports[`toast mounts an error toast 1`] = `
 }
 
 .emotion-4:disabled {
-  color: #D9D9E2;
+  color: #E1E1E8;
 }
 
 .emotion-4:disabled:hover,
@@ -276,11 +276,11 @@ exports[`toast mounts an error toast 1`] = `
 }
 
 .emotion-4:focus {
-  background-color: #EFEFEF;
+  background-color: #EFEFF5;
 }
 
 .emotion-4:hover {
-  background-color: #EFEFEF;
+  background-color: #EFEFF5;
 }
 
 <div

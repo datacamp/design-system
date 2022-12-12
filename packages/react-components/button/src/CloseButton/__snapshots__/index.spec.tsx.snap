@@ -34,7 +34,7 @@ exports[`CloseButton renders the close button 1`] = `
 }
 
 .emotion-0:disabled {
-  color: #D9D9E2;
+  color: #E1E1E8;
 }
 
 .emotion-0:disabled:hover,
@@ -43,11 +43,11 @@ exports[`CloseButton renders the close button 1`] = `
 }
 
 .emotion-0:focus {
-  background-color: #EFEFEF;
+  background-color: #EFEFF5;
 }
 
 .emotion-0:hover {
-  background-color: #EFEFEF;
+  background-color: #EFEFF5;
 }
 
 <button
