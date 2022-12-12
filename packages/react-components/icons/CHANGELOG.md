@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [5.0.0-beta.7](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/icons/compare/@datacamp/waffles-icons@5.0.0-beta.6...@datacamp/waffles-icons@5.0.0-beta.7) (2022-12-12)
+
+
+### Features
+
+* add missing icons from New Waffles ([6317a00](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/icons/commit/6317a00))
+
+
+
+
+
 # [5.0.0-beta.6](https://github.com/datacamp-engineering/design-system/tree/master/packages/react-components/icons/compare/@datacamp/waffles-icons@5.0.0-beta.5...@datacamp/waffles-icons@5.0.0-beta.6) (2021-11-17)
 
 

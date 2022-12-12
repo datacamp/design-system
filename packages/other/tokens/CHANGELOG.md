@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0-beta.6](https://github.com/datacamp/design-system/compare/@datacamp/waffles-tokens@2.0.0-beta.5...@datacamp/waffles-tokens@2.0.0-beta.6) (2022-12-12)
+
+
+### Features
+
+* update greys and add white and navy transparent tokens ([ae726bb](https://github.com/datacamp/design-system/commit/ae726bb))
+
+
+
+
+
 # [2.0.0-beta.5](https://github.com/datacamp/design-system/compare/@datacamp/waffles-tokens@2.0.0-beta.4...@datacamp/waffles-tokens@2.0.0-beta.5) (2021-09-14)
 
 

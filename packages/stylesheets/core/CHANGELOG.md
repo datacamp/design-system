@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.3.0-beta.0](https://github.com/datacamp/design-system/compare/@datacamp/waffles-core@2.2.1-beta.5...@datacamp/waffles-core@2.3.0-beta.0) (2022-12-12)
+
+
+### Features
+
+* remove font smoothing ([2d4a50b](https://github.com/datacamp/design-system/commit/2d4a50b))
+
+
+
+
+
 ## [2.2.1-beta.5](https://github.com/datacamp/design-system/compare/@datacamp/waffles-core@2.2.1-beta.4...@datacamp/waffles-core@2.2.1-beta.5) (2021-09-14)
 
 **Note:** Version bump only for package @datacamp/waffles-core

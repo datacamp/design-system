@@ -1,6 +1,6 @@
 {
   "name": "@datacamp/waffles-loaders",
-  "version": "3.1.5-beta.5",
+  "version": "3.1.5-beta.6",
   "description": "A collection of loading placeholders",
   "keywords": [
     "button"
@@ -51,7 +51,7 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.12.1",
-    "@datacamp/waffles-tokens": "^2.0.0-beta.5"
+    "@datacamp/waffles-tokens": "^2.0.0-beta.6"
   },
   "peerDependencies": {
     "@emotion/react": "^11.0.0",

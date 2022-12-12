@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.1.5-beta.6](https://github.com/datacamp/design-system/compare/@datacamp/waffles-loaders@3.1.5-beta.5...@datacamp/waffles-loaders@3.1.5-beta.6) (2022-12-12)
+
+**Note:** Version bump only for package @datacamp/waffles-loaders
+
+
+
+
+
 ## [3.1.5-beta.5](https://github.com/datacamp/design-system/compare/@datacamp/waffles-loaders@3.1.5-beta.4...@datacamp/waffles-loaders@3.1.5-beta.5) (2021-09-14)
 
 
