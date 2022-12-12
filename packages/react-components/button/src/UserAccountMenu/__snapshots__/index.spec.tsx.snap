@@ -110,7 +110,6 @@ exports[`UserAccountMenu snapshots renders correctly when all optional props are
 }
 
 .emotion-8 {
-  -webkit-font-smoothing: antialiased;
   color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
