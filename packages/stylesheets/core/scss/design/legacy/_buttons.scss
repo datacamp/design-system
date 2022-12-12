@@ -26,7 +26,6 @@ $_buttons-google-plus-hover: #e57062;
   border-radius: $dc-border-radius;
   display: inline-flex;
   font-size: $dc-font-size-base;
-  -webkit-font-smoothing: antialiased;
   font-weight: $dc-font-weight-bold;
   justify-content: center;
   letter-spacing: inherit;
@@ -577,7 +576,6 @@ $_buttons-google-plus-hover: #e57062;
 
 .dc-multi-btn__text {
   font-size: 16px;
-  -webkit-font-smoothing: antialiased;
   font-weight: $dc-font-weight-bold;
   letter-spacing: inherit;
   padding-left: 16px;
