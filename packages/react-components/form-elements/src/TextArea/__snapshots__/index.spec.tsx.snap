@@ -37,7 +37,6 @@ exports[`snapshots renders additional supporting elements to make auto-grow work
 }
 
 .emotion-3 {
-  -webkit-font-smoothing: antialiased;
   color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
@@ -245,7 +244,6 @@ exports[`snapshots renders an input with size disabled=false, required=false 1`]
 }
 
 .emotion-3 {
-  -webkit-font-smoothing: antialiased;
   color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
@@ -271,7 +269,6 @@ exports[`snapshots renders an input with size disabled=false, required=false 1`]
 }
 
 .emotion-5 {
-  -webkit-font-smoothing: antialiased;
   color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
@@ -337,7 +334,6 @@ exports[`snapshots renders an input with size disabled=false, required=false 1`]
 }
 
 .emotion-7 {
-  -webkit-font-smoothing: antialiased;
   color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
@@ -425,7 +421,6 @@ exports[`snapshots renders an input with size disabled=false, required=true 1`] 
 }
 
 .emotion-3 {
-  -webkit-font-smoothing: antialiased;
   color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
@@ -451,7 +446,6 @@ exports[`snapshots renders an input with size disabled=false, required=true 1`] 
 }
 
 .emotion-5 {
-  -webkit-font-smoothing: antialiased;
   color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
@@ -462,7 +456,6 @@ exports[`snapshots renders an input with size disabled=false, required=true 1`] 
 }
 
 .emotion-6 {
-  -webkit-font-smoothing: antialiased;
   color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
@@ -528,7 +521,6 @@ exports[`snapshots renders an input with size disabled=false, required=true 1`] 
 }
 
 .emotion-8 {
-  -webkit-font-smoothing: antialiased;
   color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
@@ -621,7 +613,6 @@ exports[`snapshots renders an input with size disabled=false, required=undefined
 }
 
 .emotion-3 {
-  -webkit-font-smoothing: antialiased;
   color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
@@ -694,7 +685,6 @@ exports[`snapshots renders an input with size disabled=false, required=undefined
 }
 
 .emotion-5 {
-  -webkit-font-smoothing: antialiased;
   color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
@@ -773,7 +763,6 @@ exports[`snapshots renders an input with size disabled=true, required=false 1`] 
 }
 
 .emotion-3 {
-  -webkit-font-smoothing: antialiased;
   color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
@@ -799,7 +788,6 @@ exports[`snapshots renders an input with size disabled=true, required=false 1`] 
 }
 
 .emotion-5 {
-  -webkit-font-smoothing: antialiased;
   color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
@@ -865,7 +853,6 @@ exports[`snapshots renders an input with size disabled=true, required=false 1`] 
 }
 
 .emotion-7 {
-  -webkit-font-smoothing: antialiased;
   color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
@@ -954,7 +941,6 @@ exports[`snapshots renders an input with size disabled=true, required=true 1`] =
 }
 
 .emotion-3 {
-  -webkit-font-smoothing: antialiased;
   color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
@@ -980,7 +966,6 @@ exports[`snapshots renders an input with size disabled=true, required=true 1`] =
 }
 
 .emotion-5 {
-  -webkit-font-smoothing: antialiased;
   color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
@@ -991,7 +976,6 @@ exports[`snapshots renders an input with size disabled=true, required=true 1`] =
 }
 
 .emotion-6 {
-  -webkit-font-smoothing: antialiased;
   color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
@@ -1057,7 +1041,6 @@ exports[`snapshots renders an input with size disabled=true, required=true 1`] =
 }
 
 .emotion-8 {
-  -webkit-font-smoothing: antialiased;
   color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
@@ -1151,7 +1134,6 @@ exports[`snapshots renders an input with size disabled=true, required=undefined 
 }
 
 .emotion-3 {
-  -webkit-font-smoothing: antialiased;
   color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
@@ -1224,7 +1206,6 @@ exports[`snapshots renders an input with size disabled=true, required=undefined 
 }
 
 .emotion-5 {
-  -webkit-font-smoothing: antialiased;
   color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;

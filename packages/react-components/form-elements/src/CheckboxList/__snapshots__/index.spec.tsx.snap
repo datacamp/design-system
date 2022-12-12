@@ -37,7 +37,6 @@ exports[`<CheckboxList> snapshots renders a checkbox list 1`] = `
 }
 
 .emotion-3 {
-  -webkit-font-smoothing: antialiased;
   color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
@@ -115,7 +114,6 @@ exports[`<CheckboxList> snapshots renders a checkbox list 1`] = `
 }
 
 .emotion-7 {
-  -webkit-font-smoothing: antialiased;
   color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
@@ -156,7 +154,6 @@ exports[`<CheckboxList> snapshots renders a checkbox list 1`] = `
 }
 
 .emotion-15 {
-  -webkit-font-smoothing: antialiased;
   color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
@@ -167,7 +164,6 @@ exports[`<CheckboxList> snapshots renders a checkbox list 1`] = `
 }
 
 .emotion-16 {
-  -webkit-font-smoothing: antialiased;
   color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;

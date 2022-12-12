@@ -2,7 +2,6 @@
 
 exports[`<Heading /> renders at each size renders at size 200, multiLine=false 1`] = `
 .emotion-0 {
-  -webkit-font-smoothing: antialiased;
   color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
@@ -32,7 +31,6 @@ exports[`<Heading /> renders at each size renders at size 200, multiLine=false 1
 
 exports[`<Heading /> renders at each size renders at size 200, multiLine=true 1`] = `
 .emotion-0 {
-  -webkit-font-smoothing: antialiased;
   color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
@@ -61,7 +59,6 @@ exports[`<Heading /> renders at each size renders at size 200, multiLine=true 1`
 
 exports[`<Heading /> renders at each size renders at size 300, multiLine=false 1`] = `
 .emotion-0 {
-  -webkit-font-smoothing: antialiased;
   color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
@@ -91,7 +88,6 @@ exports[`<Heading /> renders at each size renders at size 300, multiLine=false 1
 
 exports[`<Heading /> renders at each size renders at size 300, multiLine=true 1`] = `
 .emotion-0 {
-  -webkit-font-smoothing: antialiased;
   color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
@@ -120,7 +116,6 @@ exports[`<Heading /> renders at each size renders at size 300, multiLine=true 1`
 
 exports[`<Heading /> renders at each size renders at size 400, multiLine=false 1`] = `
 .emotion-0 {
-  -webkit-font-smoothing: antialiased;
   color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
@@ -150,7 +145,6 @@ exports[`<Heading /> renders at each size renders at size 400, multiLine=false 1
 
 exports[`<Heading /> renders at each size renders at size 400, multiLine=true 1`] = `
 .emotion-0 {
-  -webkit-font-smoothing: antialiased;
   color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
@@ -179,7 +173,6 @@ exports[`<Heading /> renders at each size renders at size 400, multiLine=true 1`
 
 exports[`<Heading /> renders at each size renders at size 500, multiLine=false 1`] = `
 .emotion-0 {
-  -webkit-font-smoothing: antialiased;
   color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
@@ -209,7 +202,6 @@ exports[`<Heading /> renders at each size renders at size 500, multiLine=false 1
 
 exports[`<Heading /> renders at each size renders at size 500, multiLine=true 1`] = `
 .emotion-0 {
-  -webkit-font-smoothing: antialiased;
   color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
@@ -238,7 +230,6 @@ exports[`<Heading /> renders at each size renders at size 500, multiLine=true 1`
 
 exports[`<Heading /> renders at each size renders at size 600, multiLine=false 1`] = `
 .emotion-0 {
-  -webkit-font-smoothing: antialiased;
   color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
@@ -268,7 +259,6 @@ exports[`<Heading /> renders at each size renders at size 600, multiLine=false 1
 
 exports[`<Heading /> renders at each size renders at size 600, multiLine=true 1`] = `
 .emotion-0 {
-  -webkit-font-smoothing: antialiased;
   color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
@@ -297,7 +287,6 @@ exports[`<Heading /> renders at each size renders at size 600, multiLine=true 1`
 
 exports[`<Heading /> renders at each size renders at size 650, multiLine=false 1`] = `
 .emotion-0 {
-  -webkit-font-smoothing: antialiased;
   color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
@@ -327,7 +316,6 @@ exports[`<Heading /> renders at each size renders at size 650, multiLine=false 1
 
 exports[`<Heading /> renders at each size renders at size 650, multiLine=true 1`] = `
 .emotion-0 {
-  -webkit-font-smoothing: antialiased;
   color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
@@ -356,7 +344,6 @@ exports[`<Heading /> renders at each size renders at size 650, multiLine=true 1`
 
 exports[`<Heading /> renders at each size renders at size 700, multiLine=false 1`] = `
 .emotion-0 {
-  -webkit-font-smoothing: antialiased;
   color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
@@ -386,7 +373,6 @@ exports[`<Heading /> renders at each size renders at size 700, multiLine=false 1
 
 exports[`<Heading /> renders at each size renders at size 700, multiLine=true 1`] = `
 .emotion-0 {
-  -webkit-font-smoothing: antialiased;
   color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
@@ -415,7 +401,6 @@ exports[`<Heading /> renders at each size renders at size 700, multiLine=true 1`
 
 exports[`<Heading /> renders at each size renders at size 800, multiLine=false 1`] = `
 .emotion-0 {
-  -webkit-font-smoothing: antialiased;
   color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
@@ -445,7 +430,6 @@ exports[`<Heading /> renders at each size renders at size 800, multiLine=false 1
 
 exports[`<Heading /> renders at each size renders at size 800, multiLine=true 1`] = `
 .emotion-0 {
-  -webkit-font-smoothing: antialiased;
   color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
@@ -474,7 +458,6 @@ exports[`<Heading /> renders at each size renders at size 800, multiLine=true 1`
 
 exports[`<Heading /> renders at each size renders at size 900, multiLine=false 1`] = `
 .emotion-0 {
-  -webkit-font-smoothing: antialiased;
   color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
@@ -504,7 +487,6 @@ exports[`<Heading /> renders at each size renders at size 900, multiLine=false 1
 
 exports[`<Heading /> renders at each size renders at size 900, multiLine=true 1`] = `
 .emotion-0 {
-  -webkit-font-smoothing: antialiased;
   color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;

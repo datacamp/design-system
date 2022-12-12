@@ -165,7 +165,6 @@ exports[`<AlertModal /> isOpen renders the modal via a portal when true 1`] = `
 }
 
 .emotion-8 {
-  -webkit-font-smoothing: antialiased;
   color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
@@ -184,7 +183,6 @@ exports[`<AlertModal /> isOpen renders the modal via a portal when true 1`] = `
 }
 
 .emotion-9 {
-  -webkit-font-smoothing: antialiased;
   color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
@@ -267,7 +265,6 @@ exports[`<AlertModal /> isOpen renders the modal via a portal when true 1`] = `
 }
 
 .emotion-12 {
-  -webkit-font-smoothing: antialiased;
   color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
@@ -371,7 +368,6 @@ exports[`<AlertModal /> isOpen renders the modal via a portal when true 1`] = `
 }
 
 .emotion-14 {
-  -webkit-font-smoothing: antialiased;
   color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
