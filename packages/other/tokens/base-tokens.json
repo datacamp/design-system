@@ -26,14 +26,18 @@
     "neutral": {
       "white": "#FFFFFF",
       "greySubtle": "#F7F7FC",
-      "greyLight": "#EFEFEF",
-      "grey": "#E8E8EA",
-      "greyMedium": "#D9D9E2",
-      "greyDark": "#848C92",
+      "greyLight": "#EFEFF5",
+      "grey": "#E8E8EE",
+      "greyMedium": "#E1E1E8",
+      "greyDark": "#848492",
       "beigeSubtle": "#FFFBF3",
       "beigeLight": "#F7F3EB",
       "beige": "#EFEBE4",
-      "beigeMedium": "#E5E1DA"
+      "beigeMedium": "#E5E1DA",
+      "whiteTransparent": "rgba(255, 255, 255, 0.15)",
+      "whiteTransparentSubtle": "rgba(255, 255, 255, 0.1)",
+      "navyTransparent": "rgba(5, 25, 45, 0.15)",
+      "navyTransparentSubtle": "rgba(5, 25, 45, 0.1)"
     },
     "accent": {
       "redLight": "#FF782D",
