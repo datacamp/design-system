@@ -31,7 +31,7 @@ exports[`Social Media Buttons renders facebook button 1`] = `
   border-color: #05192D;
   color: #05192D;
   padding: 0 15px;
-  border-color: #D9D9E2;
+  border-color: #E1E1E8;
   color: #1778F2;
 }
 
@@ -135,7 +135,7 @@ exports[`Social Media Buttons renders google button 1`] = `
   border-color: #05192D;
   color: #05192D;
   padding: 0 15px;
-  border-color: #D9D9E2;
+  border-color: #E1E1E8;
   color: #DB4437;
 }
 
@@ -255,7 +255,7 @@ exports[`Social Media Buttons renders linked in button 1`] = `
   border-color: #05192D;
   color: #05192D;
   padding: 0 15px;
-  border-color: #D9D9E2;
+  border-color: #E1E1E8;
   color: #0E76A8;
 }
 
@@ -359,7 +359,7 @@ exports[`Social Media Buttons renders twitter button 1`] = `
   border-color: #05192D;
   color: #05192D;
   padding: 0 15px;
-  border-color: #D9D9E2;
+  border-color: #E1E1E8;
   color: #00ACEE;
 }
 

@@ -57,7 +57,7 @@ exports[`snapshots renders a switch with appearance default, disabled=false, che
   padding: 3px;
   position: relative;
   width: 34px;
-  background-color: #D9D9E2;
+  background-color: #E1E1E8;
   margin-left: 8px;
 }
 
@@ -172,7 +172,7 @@ exports[`snapshots renders a switch with appearance default, disabled=false, che
   padding: 3px;
   position: relative;
   width: 34px;
-  background-color: #D9D9E2;
+  background-color: #E1E1E8;
   margin-left: 8px;
 }
 
@@ -287,7 +287,7 @@ exports[`snapshots renders a switch with appearance default, disabled=false, che
   padding: 3px;
   position: relative;
   width: 34px;
-  background-color: #D9D9E2;
+  background-color: #E1E1E8;
   margin-left: 8px;
 }
 
@@ -402,7 +402,7 @@ exports[`snapshots renders a switch with appearance default, disabled=false, che
   padding: 3px;
   position: relative;
   width: 34px;
-  background-color: #D9D9E2;
+  background-color: #E1E1E8;
   margin-left: 8px;
 }
 
@@ -519,7 +519,7 @@ exports[`snapshots renders a switch with appearance default, disabled=true, chec
   padding: 3px;
   position: relative;
   width: 34px;
-  background-color: #D9D9E2;
+  background-color: #E1E1E8;
   margin-left: 8px;
 }
 
@@ -637,7 +637,7 @@ exports[`snapshots renders a switch with appearance default, disabled=true, chec
   padding: 3px;
   position: relative;
   width: 34px;
-  background-color: #D9D9E2;
+  background-color: #E1E1E8;
   margin-left: 8px;
 }
 
@@ -755,7 +755,7 @@ exports[`snapshots renders a switch with appearance default, disabled=true, chec
   padding: 3px;
   position: relative;
   width: 34px;
-  background-color: #D9D9E2;
+  background-color: #E1E1E8;
   margin-left: 8px;
 }
 
@@ -873,7 +873,7 @@ exports[`snapshots renders a switch with appearance default, disabled=true, chec
   padding: 3px;
   position: relative;
   width: 34px;
-  background-color: #D9D9E2;
+  background-color: #E1E1E8;
   margin-left: 8px;
 }
 
@@ -1017,7 +1017,7 @@ exports[`snapshots renders a switch with appearance inverted, disabled=false, ch
   transition: transform 75ms linear;
   width: 12px;
   z-index: 1;
-  background-color: #D9D9E2;
+  background-color: #E1E1E8;
   -webkit-transform: translateX(0px);
   -moz-transform: translateX(0px);
   -ms-transform: translateX(0px);
@@ -1132,7 +1132,7 @@ exports[`snapshots renders a switch with appearance inverted, disabled=false, ch
   transition: transform 75ms linear;
   width: 12px;
   z-index: 1;
-  background-color: #D9D9E2;
+  background-color: #E1E1E8;
   -webkit-transform: translateX(0px);
   -moz-transform: translateX(0px);
   -ms-transform: translateX(0px);
@@ -1247,7 +1247,7 @@ exports[`snapshots renders a switch with appearance inverted, disabled=false, ch
   transition: transform 75ms linear;
   width: 12px;
   z-index: 1;
-  background-color: #D9D9E2;
+  background-color: #E1E1E8;
   -webkit-transform: translateX(0px);
   -moz-transform: translateX(0px);
   -ms-transform: translateX(0px);
@@ -1362,7 +1362,7 @@ exports[`snapshots renders a switch with appearance inverted, disabled=false, ch
   transition: transform 75ms linear;
   width: 12px;
   z-index: 1;
-  background-color: #D9D9E2;
+  background-color: #E1E1E8;
   -webkit-transform: translateX(0px);
   -moz-transform: translateX(0px);
   -ms-transform: translateX(0px);
@@ -1479,7 +1479,7 @@ exports[`snapshots renders a switch with appearance inverted, disabled=true, che
   transition: transform 75ms linear;
   width: 12px;
   z-index: 1;
-  background-color: #D9D9E2;
+  background-color: #E1E1E8;
   -webkit-transform: translateX(0px);
   -moz-transform: translateX(0px);
   -ms-transform: translateX(0px);
@@ -1597,7 +1597,7 @@ exports[`snapshots renders a switch with appearance inverted, disabled=true, che
   transition: transform 75ms linear;
   width: 12px;
   z-index: 1;
-  background-color: #D9D9E2;
+  background-color: #E1E1E8;
   -webkit-transform: translateX(0px);
   -moz-transform: translateX(0px);
   -ms-transform: translateX(0px);
@@ -1715,7 +1715,7 @@ exports[`snapshots renders a switch with appearance inverted, disabled=true, che
   transition: transform 75ms linear;
   width: 12px;
   z-index: 1;
-  background-color: #D9D9E2;
+  background-color: #E1E1E8;
   -webkit-transform: translateX(0px);
   -moz-transform: translateX(0px);
   -ms-transform: translateX(0px);
@@ -1833,7 +1833,7 @@ exports[`snapshots renders a switch with appearance inverted, disabled=true, che
   transition: transform 75ms linear;
   width: 12px;
   z-index: 1;
-  background-color: #D9D9E2;
+  background-color: #E1E1E8;
   -webkit-transform: translateX(0px);
   -moz-transform: translateX(0px);
   -ms-transform: translateX(0px);

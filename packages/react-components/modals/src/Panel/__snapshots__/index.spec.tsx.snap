@@ -110,7 +110,7 @@ exports[`<Panel /> isOpen renders the modal via a portal when true 1`] = `
 }
 
 .emotion-5:disabled {
-  color: #D9D9E2;
+  color: #E1E1E8;
 }
 
 .emotion-5:disabled:hover,
@@ -119,11 +119,11 @@ exports[`<Panel /> isOpen renders the modal via a portal when true 1`] = `
 }
 
 .emotion-5:focus {
-  background-color: #EFEFEF;
+  background-color: #EFEFF5;
 }
 
 .emotion-5:hover {
-  background-color: #EFEFEF;
+  background-color: #EFEFF5;
 }
 
 .emotion-6 {
