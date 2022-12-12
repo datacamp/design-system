@@ -2,7 +2,6 @@
 
 exports[`<Markdown /> renders 1`] = `
 .emotion-0 {
-  -webkit-font-smoothing: antialiased;
   color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
@@ -22,7 +21,6 @@ exports[`<Markdown /> renders 1`] = `
 }
 
 .emotion-1 {
-  -webkit-font-smoothing: antialiased;
   color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
@@ -42,7 +40,6 @@ exports[`<Markdown /> renders 1`] = `
 }
 
 .emotion-2 {
-  -webkit-font-smoothing: antialiased;
   color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
@@ -62,7 +59,6 @@ exports[`<Markdown /> renders 1`] = `
 }
 
 .emotion-3 {
-  -webkit-font-smoothing: antialiased;
   color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
@@ -82,7 +78,6 @@ exports[`<Markdown /> renders 1`] = `
 }
 
 .emotion-4 {
-  -webkit-font-smoothing: antialiased;
   color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
@@ -102,7 +97,6 @@ exports[`<Markdown /> renders 1`] = `
 }
 
 .emotion-7 {
-  -webkit-font-smoothing: antialiased;
   color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
@@ -111,7 +105,6 @@ exports[`<Markdown /> renders 1`] = `
 }
 
 .emotion-8 {
-  -webkit-font-smoothing: antialiased;
   color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
@@ -126,7 +119,6 @@ exports[`<Markdown /> renders 1`] = `
 }
 
 .emotion-12 {
-  -webkit-font-smoothing: antialiased;
   color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
@@ -136,7 +128,6 @@ exports[`<Markdown /> renders 1`] = `
 }
 
 .emotion-26 {
-  -webkit-font-smoothing: antialiased;
   color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-style: normal;
