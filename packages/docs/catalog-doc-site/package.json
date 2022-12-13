@@ -34,7 +34,7 @@
     "@emotion/styled": "^11.0.0",
     "catalog": "^3.6.0",
     "classnames": "^2.2.5",
-    "lodash": "^4.17.20",
+    "lodash": "^4.17.21",
     "lottie-react": "^2.1.0",
     "prop-types": "^15.7.2",
     "react": "^17.0.1",
