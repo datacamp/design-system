@@ -18,7 +18,7 @@ jobs:
             echo "always-auth=true" >> .npmrc
       - run:
           name: Install lerna
-          command: yarn global add lerna
+          command: yarn global add lerna@3.22.1
       - restore_cache:
           name: Restore Yarn Package Cache
           keys:

@@ -59,11 +59,10 @@
     "svglint": "1.0.6",
     "typescript": "4.1.3"
   },
-  "browserslist": [
-    "last 2 versions",
-    "Firefox ESR",
-    "not IE < 11"
-  ],
+  "resolutions": {
+    "**/chokidar": "^3.4.3"
+  },
+  "browserslist": ["last 2 versions", "Firefox ESR", "not IE < 11"],
   "engines": {
     "yarn": "^1.15.2"
   },
